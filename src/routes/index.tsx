@@ -19,37 +19,34 @@ function Home() {
   return (
     <SiteShell>
       <main>
-        <section className="relative isolate min-h-[72vh] overflow-hidden bg-night text-night-fg">
+        <section className="overflow-hidden bg-night">
           <img
-            src="/images/piedmont.jpg"
-            alt="Virginia Piedmont at first light"
-            className="absolute inset-0 size-full object-cover opacity-55 outline outline-1 -outline-offset-1 outline-night-fg/10"
+            src="/images/va-change-hero.png"
+            alt="VA Change Agent: a figure on the X, Virginia behind"
+            className="aspect-[16/9] w-full object-cover object-left sm:aspect-[2/1] sm:max-h-[70vh]"
           />
-          <div className="absolute inset-0 bg-night/55" />
-          <div className="relative mx-auto flex min-h-[72vh] max-w-6xl flex-col justify-end px-4 py-16 sm:px-6 sm:py-20">
-            <Kicker className="text-night-muted">
+        </section>
+
+        <section className="border-b border-border bg-background">
+          <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
+            <Kicker>
               {SITE.domain} · {SITE.location}
             </Kicker>
             <h1 className="mt-4 max-w-3xl font-serif text-4xl leading-[1.08] font-medium tracking-tight sm:text-6xl">
               The public record is the story.
             </h1>
-            <p className="mt-5 max-w-xl text-base text-night-muted sm:text-lg">
+            <p className="mt-5 max-w-xl text-base text-muted-foreground sm:text-lg">
               Independent investigative research and political intelligence — FOIA, filings, and
               the media trail, assembled for citizens who want the primary source.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Button asChild variant="secondary" size="lg">
+              <Button asChild size="lg">
                 <Link to="/investigations">
                   Read investigations
                   <ArrowRight className="size-4" />
                 </Link>
               </Button>
-              <Button
-                asChild
-                variant="outline"
-                size="lg"
-                className="border-night-fg/60 bg-transparent text-night-fg hover:bg-night-fg/10 hover:text-night-fg"
-              >
+              <Button asChild variant="outline" size="lg">
                 <Link to="/library">Open the library</Link>
               </Button>
             </div>
