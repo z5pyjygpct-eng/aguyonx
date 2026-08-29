@@ -17,40 +17,39 @@ function Home() {
   const latestArticles = ARTICLES.slice(0, 3);
 
   return (
-    <SiteShell>
+    <SiteShell hideHeader>
       <main>
-        <section className="overflow-hidden bg-night">
+        <section className="relative isolate overflow-hidden bg-night">
           <img
             src="/images/va-change-hero.png"
             alt="VA Change Agent: a figure on the X, Virginia behind"
-            className="aspect-[16/9] w-full object-cover object-left sm:aspect-[2/1] sm:max-h-[70vh]"
+            className="aspect-[16/9] w-full object-cover object-center sm:max-h-[78vh] sm:aspect-auto"
           />
-        </section>
-
-        <section className="border-b border-border bg-background">
-          <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
-            <Kicker>
-              {SITE.domain} · {SITE.location}
-            </Kicker>
-            <h1 className="mt-4 max-w-3xl font-serif text-4xl leading-[1.08] font-medium tracking-tight sm:text-6xl">
-              The public record is the story.
-            </h1>
-            <p className="mt-5 max-w-xl text-base text-muted-foreground sm:text-lg">
-              Independent investigative research and political intelligence — FOIA, filings, and
-              the media trail, assembled for citizens who want the primary source.
-            </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Button asChild size="lg">
-                <Link to="/investigations">
-                  Read investigations
-                  <ArrowRight className="size-4" />
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="lg">
-                <Link to="/library">Open the library</Link>
-              </Button>
-            </div>
-          </div>
+          <h1 className="pointer-events-none absolute inset-x-0 top-6 z-10 px-4 text-center font-sans text-xl font-semibold tracking-tight text-white sm:top-10 sm:text-3xl md:text-4xl">
+            The public record is the story.
+          </h1>
+          <nav
+            aria-label="Primary"
+            className="absolute inset-x-0 bottom-5 z-10 flex flex-wrap justify-center gap-2 px-4 sm:bottom-8 sm:gap-3"
+          >
+            {(
+              [
+                { to: "/about", label: "About" },
+                { to: "/contact", label: "Contact" },
+                { to: "/investigations", label: "Investigations" },
+                { to: "/articles", label: "Articles" },
+                { to: "/library", label: "Library" },
+              ] as const
+            ).map((item) => (
+              <Link
+                key={item.to}
+                to={item.to}
+                className="inline-flex items-center rounded-md bg-[#E6E1D4] px-4 py-2 font-sans text-[0.7rem] font-semibold tracking-[0.14em] text-night uppercase sm:px-5 sm:text-xs"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
         </section>
 
         <section className="border-b border-border">
