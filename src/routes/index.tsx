@@ -25,14 +25,14 @@ function Home() {
             alt="VA Change Agent: a figure on the X, Virginia behind"
             className="block h-auto w-full"
           />
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-night/70 to-transparent" />
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-night/70 to-transparent" />
-          <h1 className="absolute inset-x-0 top-6 z-10 px-4 text-center font-sans text-xl font-semibold tracking-tight text-white sm:top-8 sm:text-3xl md:text-[2.15rem]">
-            The public record is the story.
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-night/80 to-transparent" />
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-night/80 to-transparent" />
+          <h1 className="absolute inset-x-0 top-6 z-10 px-4 text-center font-sans text-4xl font-semibold tracking-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.65)] sm:top-10 sm:text-6xl lg:text-7xl">
+            The Public Record Is The Story.
           </h1>
           <nav
             aria-label="Primary"
-            className="absolute inset-x-0 bottom-5 z-10 flex flex-wrap justify-center gap-2 px-4 sm:bottom-7 sm:gap-3"
+            className="absolute inset-x-0 bottom-6 z-10 flex flex-wrap justify-center gap-3 px-4 sm:bottom-10 sm:gap-4"
           >
             {(
               [
@@ -46,7 +46,7 @@ function Home() {
               <Link
                 key={item.to}
                 to={item.to}
-                className="inline-flex items-center rounded-md bg-[#E6E1D4] px-4 py-2 font-sans text-[0.7rem] font-semibold tracking-[0.14em] text-night uppercase sm:px-5 sm:text-xs"
+                className="inline-flex items-center rounded-md bg-[#E6E1D4] px-6 py-3 font-sans text-sm font-semibold tracking-[0.16em] text-night uppercase sm:px-8 sm:py-3.5 sm:text-base md:px-10 md:py-4 md:text-lg"
               >
                 {item.label}
               </Link>
