@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --color-background: #f3f0e7;
+  --color-foreground: #171916;
+  --color-card: #ece8dc;
+  --color-card-foreground: #171916;
+  --color-popover: #f7f4eb;
+  --color-popover-foreground: #171916;
+  --color-primary: #314338;
+  --color-primary-foreground: #f3f0e7;
+  --color-secondary: #e4dfd1;
+  --color-secondary-foreground: #171916;
+  --color-muted: #e6e1d4;
+  --color-muted-foreground: #6a6960;
+  --color-accent: #d8e0d8;
+  --color-accent-foreground: #24332a;
+  --color-destructive: #8b3a2f;
+  --color-destructive-foreground: #f3f0e7;
+  --color-border: #d6d1c4;
+  --color-input: #cfc9ba;
+  --color-ring: #314338;
+  --color-ink: #171916;
+  --color-paper: #f3f0e7;
+  --color-forest: #314338;
+  --color-forest-deep: #24332a;
+  --color-rule: #d6d1c4;
+  --color-wash: #e8e3d6;
+  --color-night: #171916;
+  --color-night-fg: #f3f0e7;
+  --color-night-muted: #a8a494;
+
+  --aspect-photo: 3 / 2;
+  --aspect-feature: 8 / 5;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.375rem;
+  --radius-xl: 0.5rem;
+  --radius: 0.25rem;
+
+  --shadow-border:
+    0 0 0 1px rgba(23, 25, 22, 0.08),
+    0 1px 2px -1px rgba(23, 25, 22, 0.06),
+    0 2px 4px 0 rgba(23, 25, 22, 0.04);
+  --shadow-border-hover:
+    0 0 0 1px rgba(23, 25, 22, 0.12),
+    0 1px 2px -1px rgba(23, 25, 22, 0.08),
+    0 2px 4px 0 rgba(23, 25, 22, 0.06);
+
+  --ease-out-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    border-color: var(--color-border);
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-background);
+    color: var(--color-foreground);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    line-height: 1.55;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+    font-family: var(--font-serif);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-forest);
+    color: var(--color-primary-foreground);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
