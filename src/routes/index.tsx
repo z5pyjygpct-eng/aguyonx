@@ -19,18 +19,18 @@ function Home() {
   return (
     <SiteShell hideHeader>
       <main>
-        <section className="relative isolate overflow-hidden bg-night">
+        <section className="flex flex-col bg-night">
+          <h1 className="px-4 pt-8 pb-3 text-center font-sans text-xl font-semibold tracking-tight text-white sm:pt-10 sm:text-3xl md:text-4xl">
+            The public record is the story.
+          </h1>
           <img
             src="/images/va-change-hero.png"
             alt="VA Change Agent: a figure on the X, Virginia behind"
-            className="aspect-[16/9] w-full object-cover object-center sm:max-h-[78vh] sm:aspect-auto"
+            className="mx-auto h-auto w-auto max-h-[58vh] max-w-[min(1100px,92%)] object-contain"
           />
-          <h1 className="pointer-events-none absolute inset-x-0 top-6 z-10 px-4 text-center font-sans text-xl font-semibold tracking-tight text-white sm:top-10 sm:text-3xl md:text-4xl">
-            The public record is the story.
-          </h1>
           <nav
             aria-label="Primary"
-            className="absolute inset-x-0 bottom-5 z-10 flex flex-wrap justify-center gap-2 px-4 sm:bottom-8 sm:gap-3"
+            className="flex flex-wrap justify-center gap-2 px-4 py-6 sm:gap-3 sm:py-8"
           >
             {(
               [
