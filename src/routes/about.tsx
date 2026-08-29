@@ -27,13 +27,13 @@ function AboutPage() {
             <a href={SITE.bookUrl} className="underline-offset-4 hover:underline" target="_blank" rel="noreferrer">
               Grassroots Intelligence: The New Age of Citizen Political Research
             </a>
-            : name the record, date the trail, ask for what is missing. VPIP — the Virginia
-            Political Intelligence Portal — is the machine being built from that blueprint.
+            : name the record, date the trail, ask for what is missing. {SITE.product} — the{" "}
+            {SITE.productLong} — is the commissioned machine built from that blueprint, by{" "}
+            {SITE.firm}.
           </p>
           <p>
-            This is not a party committee, a consultancy, or a newspaper. It is independent
-            investigative research. Claims that cannot survive contact with a document do not
-            ship.
+            The public site is not a shop. Commissioned work is {SITE.firm} / {SITE.product}.
+            Contact is the door. Claims that cannot survive contact with a document do not ship.
           </p>
         </div>
 

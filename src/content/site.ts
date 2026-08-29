@@ -10,7 +10,12 @@ export const SITE = {
   location: "Loudoun County, Virginia",
   author: "Scott Mineo",
   email: "contact@aguyonx.com",
+  firm: "Coraggio Consulting",
+  product: "VPIP",
+  productLong: "Virginia Political Intelligence Portal",
   tagline: "Independent political intelligence.",
+  credit:
+    "A publication of Coraggio Consulting. VPIP is the commissioned intelligence desk. Contact is the door.",
   description:
     "A Guy on X is an independent investigative research desk covering Loudoun County and Virginia — FOIA, filings, campaign finance, and the public media trail.",
 } as const;

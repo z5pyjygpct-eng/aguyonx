@@ -14,8 +14,8 @@ export function SiteFooter() {
               {SITE.domain}
             </p>
             <p className="mt-3 max-w-xs text-sm text-muted-foreground">
-              Independent investigative research and political intelligence in {SITE.location}. Not
-              a government site. Not a newsroom.
+              Independent investigative research in {SITE.location}. A publication of {SITE.firm}.
+              Not a government site. Not a newsroom.
             </p>
           </div>
           <div>
@@ -51,8 +51,8 @@ export function SiteFooter() {
         </div>
         <Separator className="my-8" />
         <p className="font-mono text-xs tracking-wide text-muted-foreground">
-          Independent research. Citations are to public records and public media. Sample datasets
-          on this site demonstrate method; they are labeled as such.
+          {SITE.credit} Citations are to public records and public media. Sample datasets on this
+          site demonstrate method; they are labeled as such.
         </p>
       </div>
     </footer>

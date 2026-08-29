@@ -175,8 +175,8 @@ function Home() {
                 {SITE.author}. Loudoun County. Primary sources.
               </h2>
               <p className="mt-4 text-night-muted">
-                Author of Grassroots Intelligence. Building VPIP for Virginia. This site is the
-                public folder.
+                Author of Grassroots Intelligence. A publication of {SITE.firm}. {SITE.product} is
+                the commissioned desk. This site is the public folder.
               </p>
             </div>
             <div className="flex flex-col justify-end gap-3 sm:flex-row lg:items-end lg:justify-end">
