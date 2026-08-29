@@ -45,7 +45,7 @@ export function SiteFooter() {
                   {SITE.email}
                 </a>
               </li>
-              <li className="text-muted-foreground">{SITE.author}</li>
+              <li className="text-muted-foreground">{SITE.handle}</li>
             </ul>
           </div>
         </div>

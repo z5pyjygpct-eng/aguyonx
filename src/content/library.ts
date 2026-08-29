@@ -73,11 +73,11 @@ export const LIBRARY: LibraryItem[] = [
     slug: "grassroots-intelligence",
     title: "Grassroots Intelligence (the book)",
     summary:
-      "Scott Mineo’s blueprint for citizen political research: FOIA, document analysis, and public records.",
+      "A blueprint for citizen political research: FOIA, document analysis, and public records.",
     date: "2026-01-01",
     displayDate: "2026",
     kind: "report",
-    source: "Scott Mineo",
+    source: "Grassroots Intelligence",
     access: "public",
     href: "https://www.amazon.com/Grassroots-Intelligence-Citizen-Political-Research/dp/B0GV9FDS5H",
   },

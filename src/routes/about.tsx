@@ -18,9 +18,9 @@ function AboutPage() {
 
         <div className="mt-10 space-y-5 leading-relaxed">
           <p>
-            {SITE.author} is a citizen researcher in {SITE.location}, writing as {SITE.handle}.
-            This site — {SITE.domain} — is the public folder: investigations, articles, and a
-            research library of primary sources.
+            A citizen researcher in {SITE.location}, writing as {SITE.handle}. This site —{" "}
+            {SITE.domain} — is the public folder: investigations, articles, and a research library
+            of primary sources.
           </p>
           <p>
             The method is in the book{" "}

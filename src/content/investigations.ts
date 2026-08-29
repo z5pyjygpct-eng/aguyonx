@@ -216,7 +216,7 @@ export const INVESTIGATIONS: Story[] = [
     citations: [
       {
         id: "v1",
-        label: "Scott Mineo, Grassroots Intelligence: The New Age of Citizen Political Research",
+        label: "Grassroots Intelligence: The New Age of Citizen Political Research",
         href: "https://www.amazon.com/Grassroots-Intelligence-Citizen-Political-Research/dp/B0GV9FDS5H",
       },
       {

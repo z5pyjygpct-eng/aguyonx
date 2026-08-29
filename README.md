@@ -3,7 +3,7 @@
 Independent investigative research and political intelligence for Loudoun County and Virginia.
 
 **Site:** [aguyonx.com](https://aguyonx.com)  
-**Author:** Scott Mineo ([@VaChangeAgent](https://x.com/VaChangeAgent))
+**Desk:** [@VaChangeAgent](https://x.com/VaChangeAgent)
 
 This repository is the canonical source for the public site. Content lives in ordinary TypeScript modules under `src/content/` and downloadable records under `public/library/`. Clone it, run it, and deploy it with ordinary Node tooling — no App Builder account required.
 
@@ -81,4 +81,4 @@ Do not import `@/lib/db` or auth gates until those features are actually on.
 
 ## License
 
-Editorial content © Scott Mineo. Code in this repository may be reused for running aguyonx.com.
+Editorial content © A Guy on X. Code in this repository may be reused for running aguyonx.com.

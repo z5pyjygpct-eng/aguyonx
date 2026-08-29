@@ -8,7 +8,7 @@ export const SITE = {
   bookUrl:
     "https://www.amazon.com/Grassroots-Intelligence-Citizen-Political-Research/dp/B0GV9FDS5H",
   location: "Loudoun County, Virginia",
-  author: "Scott Mineo",
+  author: "A Guy on X",
   email: "contact@aguyonx.com",
   firm: "Coraggio Consulting",
   product: "VPIP",
