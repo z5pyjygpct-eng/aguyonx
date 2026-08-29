@@ -104,7 +104,7 @@ function Home() {
             <div className="flex flex-wrap items-end justify-between gap-4">
               <div>
                 <Kicker>Articles</Kicker>
-                <h2 className="mt-2 font-serif text-3xl font-medium">Commentary from the file</h2>
+                <h2 className="mt-2 font-serif text-3xl font-medium">X Articles from @VaChangeAgent</h2>
               </div>
               <Button asChild variant="link" className="px-0">
                 <Link to="/articles">
@@ -132,7 +132,9 @@ function Home() {
                   <h3 className="mt-2 font-serif text-xl font-medium group-hover:underline">
                     {a.title}
                   </h3>
-                  <p className="mt-2 text-sm text-muted-foreground">{a.dek}</p>
+                  {a.dek !== "Published as an X Article." ? (
+                    <p className="mt-2 text-sm text-muted-foreground">{a.dek}</p>
+                  ) : null}
                 </Link>
               ))}
             </div>

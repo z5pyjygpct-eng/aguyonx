@@ -15,8 +15,7 @@ function ArticlesIndex() {
           Articles
         </h1>
         <p className="mt-4 max-w-2xl text-muted-foreground">
-          Commentary that starts from a file — elections, budgets, school packets — not from a
-          clip.
+          X Articles from @VaChangeAgent. These are pieces published on X — not invented desk copy.
         </p>
         <ul className="mt-10 divide-y divide-border border-y border-border">
           {ARTICLES.map((a) => (
@@ -37,7 +36,9 @@ function ArticlesIndex() {
                     <span className="font-mono text-xs text-muted-foreground">{a.displayDate}</span>
                   </div>
                   <h2 className="mt-3 font-serif text-2xl font-medium">{a.title}</h2>
-                  <p className="mt-2 text-sm text-muted-foreground">{a.dek}</p>
+                  {a.dek !== "Published as an X Article." ? (
+                    <p className="mt-2 text-sm text-muted-foreground">{a.dek}</p>
+                  ) : null}
                 </div>
               </Link>
             </li>
