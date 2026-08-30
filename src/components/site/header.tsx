@@ -12,13 +12,36 @@ import {
 import { Mark } from "@/components/site/mark";
 import { cn } from "@/lib/utils";
 
-export const NAV = [
+export const NAV_SHELVES = [
   { to: "/articles", label: "Articles" },
   { to: "/investigations", label: "Investigations" },
   { to: "/library", label: "Library" },
+] as const;
+
+export const NAV_OFFICES = [
+  { to: "/delegates", label: "Delegates" },
+  { to: "/senators", label: "Senators" },
+] as const;
+
+export const NAV_DESK = [
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
 ] as const;
+
+export const NAV = [...NAV_SHELVES, ...NAV_OFFICES, ...NAV_DESK];
+
+const groups = [
+  { id: "shelves", items: NAV_SHELVES },
+  { id: "offices", items: NAV_OFFICES },
+  { id: "desk", items: NAV_DESK },
+] as const;
+
+function linkClass(inverted: boolean) {
+  return cn(
+    "inline-flex h-11 items-center px-2 font-mono text-xs tracking-widest uppercase transition-[color] duration-150 lg:px-2.5",
+    inverted ? "text-night-muted hover:text-night-fg" : "text-muted-foreground hover:text-foreground",
+  );
+}
 
 export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
   const [open, setOpen] = useState(false);
@@ -38,19 +61,23 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
         </Link>
 
         <nav className="hidden items-center lg:flex" aria-label="Primary">
-          {NAV.map((item) => (
-            <Link
-              key={item.to}
-              to={item.to}
-              className={cn(
-                "inline-flex h-11 items-center px-2.5 font-mono text-xs tracking-widest uppercase transition-[color] duration-150",
-                inverted
-                  ? "text-night-muted hover:text-night-fg"
-                  : "text-muted-foreground hover:text-foreground",
-              )}
-            >
-              {item.label}
-            </Link>
+          {groups.map((group, i) => (
+            <span key={group.id} className="flex items-center">
+              {i > 0 ? (
+                <span
+                  aria-hidden
+                  className={cn(
+                    "mx-1.5 h-4 w-px",
+                    inverted ? "bg-night-fg/25" : "bg-border",
+                  )}
+                />
+              ) : null}
+              {group.items.map((item) => (
+                <Link key={item.to} to={item.to} className={linkClass(inverted)}>
+                  {item.label}
+                </Link>
+              ))}
+            </span>
           ))}
         </nav>
 

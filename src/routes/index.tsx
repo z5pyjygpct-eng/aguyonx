@@ -8,6 +8,7 @@ import { SITE } from "@/content/site";
 import { ARTICLES } from "@/content/articles";
 import { INVESTIGATIONS } from "@/content/investigations";
 import { LIBRARY } from "@/content/library";
+import { OFFICE_DOORS } from "@/content/offices";
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -32,25 +33,38 @@ function Home() {
           </h1>
           <nav
             aria-label="Primary"
-            className="absolute inset-x-0 bottom-6 z-10 flex flex-wrap justify-center gap-3 px-4 sm:bottom-10 sm:gap-4"
+            className="absolute inset-x-0 bottom-4 z-10 flex flex-col items-center gap-3 px-4 sm:bottom-8 sm:gap-4"
           >
-            {(
-              [
-                { to: "/about", label: "About" },
-                { to: "/contact", label: "Contact" },
-                { to: "/investigations", label: "Investigations" },
-                { to: "/articles", label: "Articles" },
-                { to: "/library", label: "Library" },
-              ] as const
-            ).map((item) => (
-              <Link
-                key={item.to}
-                to={item.to}
-                className="inline-flex items-center rounded-md bg-[#E6E1D4] px-6 py-3 font-sans text-sm font-semibold tracking-[0.16em] text-night uppercase sm:px-8 sm:py-3.5 sm:text-base md:px-10 md:py-4 md:text-lg"
-              >
-                {item.label}
-              </Link>
-            ))}
+            <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
+              {(
+                [
+                  { to: "/about", label: "About" },
+                  { to: "/contact", label: "Contact" },
+                  { to: "/investigations", label: "Investigations" },
+                  { to: "/articles", label: "Articles" },
+                  { to: "/library", label: "Library" },
+                ] as const
+              ).map((item) => (
+                <Link
+                  key={item.to}
+                  to={item.to}
+                  className="inline-flex items-center rounded-md bg-[#E6E1D4] px-6 py-3 font-sans text-sm font-semibold tracking-[0.16em] text-night uppercase sm:px-8 sm:py-3.5 sm:text-base md:px-10 md:py-4 md:text-lg"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+            <div className="flex flex-wrap justify-center gap-3 sm:gap-4" aria-label="Virginia offices">
+              {OFFICE_DOORS.map((item) => (
+                <Link
+                  key={item.to}
+                  to={item.to}
+                  className="inline-flex items-center rounded-md bg-[#1E4B8E] px-6 py-3 font-sans text-sm font-semibold tracking-[0.16em] text-white uppercase sm:px-8 sm:py-3.5 sm:text-base md:px-10 md:py-4 md:text-lg"
+                >
+                  {item.title}
+                </Link>
+              ))}
+            </div>
           </nav>
         </section>
 
@@ -95,6 +109,34 @@ function Home() {
                   </li>
                 ))}
               </ul>
+            </div>
+          </div>
+        </section>
+
+
+        <section className="border-b border-border">
+          <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+            <Kicker>Virginia</Kicker>
+            <h2 className="mt-2 font-serif text-3xl font-medium">The files</h2>
+            <p className="mt-3 max-w-2xl text-muted-foreground">
+              Doors into commissioned member files. Not a roster. Not a scorecard.
+            </p>
+            <div className="mt-10 grid gap-8 md:grid-cols-3">
+              {OFFICE_DOORS.map((o) => (
+                <Link
+                  key={o.to}
+                  to={o.to}
+                  className="group block border border-border px-6 py-8 transition-[background-color] duration-150 hover:bg-wash"
+                >
+                  <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+                    {o.chamber}
+                  </p>
+                  <h3 className="mt-3 font-serif text-2xl font-medium group-hover:underline">
+                    {o.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-muted-foreground">{o.dek}</p>
+                </Link>
+              ))}
             </div>
           </div>
         </section>

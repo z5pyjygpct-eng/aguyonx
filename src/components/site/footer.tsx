@@ -1,13 +1,13 @@
 import { Link } from "@tanstack/react-router";
 import { SITE } from "@/content/site";
 import { Separator } from "@/components/ui/separator";
-import { NAV } from "@/components/site/header";
+import { NAV_DESK, NAV_OFFICES, NAV_SHELVES } from "@/components/site/header";
 
 export function SiteFooter() {
   return (
     <footer className="mt-auto border-t border-border bg-wash">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-        <div className="grid gap-10 md:grid-cols-3">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <p className="font-serif text-xl font-medium">{SITE.name}</p>
             <p className="mt-1 font-mono text-xs tracking-widest text-muted-foreground uppercase">
@@ -21,7 +21,21 @@ export function SiteFooter() {
           <div>
             <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">Desk</p>
             <ul className="mt-3 space-y-2">
-              {NAV.map((item) => (
+              {[...NAV_SHELVES, ...NAV_DESK].map((item) => (
+                <li key={item.to}>
+                  <Link to={item.to} className="text-sm hover:underline">
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+              Virginia
+            </p>
+            <ul className="mt-3 space-y-2">
+              {NAV_OFFICES.map((item) => (
                 <li key={item.to}>
                   <Link to={item.to} className="text-sm hover:underline">
                     {item.label}
