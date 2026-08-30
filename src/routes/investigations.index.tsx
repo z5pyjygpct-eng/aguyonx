@@ -17,6 +17,9 @@ function InvestigationsIndex() {
         <p className="mt-4 max-w-2xl text-muted-foreground">
           Long-form research with citations, source documents, and the public trail. Method first.
         </p>
+        {INVESTIGATIONS.length === 0 ? (
+          <p className="mt-10 text-muted-foreground">Nothing on this shelf yet.</p>
+        ) : (
         <ul className="mt-10 divide-y divide-border border-y border-border">
           {INVESTIGATIONS.map((a) => (
             <li key={a.slug}>
@@ -42,6 +45,7 @@ function InvestigationsIndex() {
             </li>
           ))}
         </ul>
+        )}
       </main>
     </SiteShell>
   );
