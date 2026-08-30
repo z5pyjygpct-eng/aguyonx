@@ -14,63 +14,63 @@ function AboutPage() {
         <h1 className="mt-3 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
           A Guy on X
         </h1>
-        <p className="mt-4 text-lg text-muted-foreground">{SITE.tagline}</p>
+        <p className="mt-4 text-lg text-muted-foreground">
+          I&apos;m A Guy on X trying to be the {SITE.handle}.
+        </p>
 
         <div className="mt-10 space-y-5 leading-relaxed">
           <p>
-            A citizen researcher in {SITE.location}, writing as {SITE.handle}. This site —{" "}
-            {SITE.domain} — is the public folder: investigations, articles, and a research library
-            of primary sources.
+            That line is not branding. It is how this started. A researcher on the platform, watching
+            Virginia publish an enormous public record and then bury it across county sites,
+            legislative systems, campaign-finance databases, meeting videos, and newsrooms that never
+            talk to each other. &ldquo;It&apos;s public&rdquo; has been the official answer for years.
+            &ldquo;You can actually find it&rdquo; was never the same sentence.
           </p>
           <p>
-            The method is in the book{" "}
-            <a href={SITE.bookUrl} className="underline-offset-4 hover:underline" target="_blank" rel="noreferrer">
-              Grassroots Intelligence: The New Age of Citizen Political Research
+            For a long time, the people who could find it were not ordinary voters. Campaigns, firms,
+            and operatives paid tens or hundreds of thousands of dollars for opposition research,
+            influence maps, and background files. Citizens and local advocates were locked out — not
+            because the documents were secret, but because nobody had built a way to use them that
+            did not require a staff and a retainer.
+          </p>
+          <p>
+            <a
+              href={SITE.bookUrl}
+              className="underline-offset-4 hover:underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              A book came first
+            </a>: how to file the request, read the dump, follow the money, and stop
+            treating aggregation sites as gospel. The book was the argument. The portal was the
+            instrument. Same problem, built instead of described.
+          </p>
+          <p>
+            Then the record itself started moving. Systems changed and whole sessions disappeared
+            from the modern lookup with no error message. Bill numbers recycled. Floor votes got
+            flattened into committee votes. Money and votes stayed in separate buildings. Media piled
+            up in another pile. That is not a 2026 discovery. It is what Virginia&apos;s transparency
+            architecture has been doing for a decade while calling itself open.
+          </p>
+          <p>
+            So the work here is commissioned political intelligence, not a public login. Northern
+            Virginia is home base. The Commonwealth is the file. Primary sources, coverage stated
+            when it is incomplete, correlation when two records actually belong in the same sentence.
+          </p>
+          <p>
+            Traditional grassroots was doors, flyers, and yard signs. That still matters. It is not
+            the same as being able to read the official record before you knock.
+          </p>
+          <p>If you want spin, this is the wrong site.</p>
+          <p>If you want the record, with the receipts, you know where to find me.</p>
+          <p className="text-muted-foreground">
+            VA Change Agent
+            <br />
+            <a href={SITE.xUrl} className="underline-offset-4 hover:underline" target="_blank" rel="noreferrer">
+              {SITE.handle}
             </a>
-            : name the record, date the trail, ask for what is missing. {SITE.product} — the{" "}
-            {SITE.productLong} — is the commissioned machine built from that blueprint, by{" "}
-            {SITE.firm}.
-          </p>
-          <p>
-            The public site is not a shop. Commissioned work is {SITE.firm} / {SITE.product}.
-            Contact is the door. Claims that cannot survive contact with a document do not ship.
           </p>
         </div>
-
-        <ol className="mt-12 divide-y divide-border border-y border-border">
-          {[
-            {
-              n: "01",
-              t: "Name the record",
-              d: "Application numbers, ordinance IDs, meeting dates. If you cannot cite it, you do not have it.",
-            },
-            {
-              n: "02",
-              t: "Date the trail",
-              d: "A clip without a date is a rumor. File every public appearance by day, outlet, and subject.",
-            },
-            {
-              n: "03",
-              t: "Ask for what is missing",
-              d: "The useful FOIA points at a gap in an already-public file.",
-            },
-            {
-              n: "04",
-              t: "Publish the folder",
-              d: "Primary sources, offered. If a claim only works when a page is withheld, it is not research.",
-            },
-          ].map((m) => (
-            <li key={m.n} className="grid gap-2 py-6 sm:grid-cols-12">
-              <p className="font-mono text-xs tracking-widest text-muted-foreground sm:col-span-2">
-                {m.n}
-              </p>
-              <div className="sm:col-span-10">
-                <h2 className="font-serif text-xl font-medium">{m.t}</h2>
-                <p className="mt-1 text-sm text-muted-foreground">{m.d}</p>
-              </div>
-            </li>
-          ))}
-        </ol>
 
         <div className="mt-10 flex flex-wrap gap-3">
           <Button asChild>
