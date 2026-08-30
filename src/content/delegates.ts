@@ -31,6 +31,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/lopez-hd3-tax.pdf",
   },
   {
+    slug: "herring-hd4",
+    name: "Charniele L. Herring",
+    district: "HD-4",
+    locality: "Fairfax (part); Alexandria (part)",
+    tax: "/files/delegates/herring-hd4-tax.pdf",
+  },
+  {
     slug: "shin-hd8",
     name: "Irene Shin",
     district: "HD-8",
