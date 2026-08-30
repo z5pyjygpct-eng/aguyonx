@@ -9,6 +9,7 @@ import { ARTICLES } from "@/content/articles";
 import { INVESTIGATIONS } from "@/content/investigations";
 import { LIBRARY } from "@/content/library";
 import { OFFICE_DOORS } from "@/content/offices";
+import { HomeSearch } from "@/components/site/home-search";
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -69,6 +70,8 @@ function Home() {
             </Link>
           ))}
         </nav>
+
+        <HomeSearch />
 
         <section className="border-b border-border">
           <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:py-20">
