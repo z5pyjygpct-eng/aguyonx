@@ -45,6 +45,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/mcpike-hd5-tax.pdf",
   },
   {
+    slug: "sullivan-hd6",
+    name: 'Richard C. "Rip" Sullivan, Jr.',
+    district: "HD-6",
+    locality: "Fairfax (part)",
+    tax: "/files/delegates/sullivan-hd6-tax.pdf",
+  },
+  {
     slug: "shin-hd8",
     name: "Irene Shin",
     district: "HD-8",
