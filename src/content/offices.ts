@@ -13,7 +13,7 @@ export const OFFICE_DOORS: OfficeDoor[] = [
     navLabel: "Delegates",
     title: "VA Delegates",
     chamber: "House of Delegates",
-    dek: "Member files for the Virginia House. This page is the door, not a directory. Contact is how a file leaves the building.",
+    dek: "Democrat House members. Tax and energy papers, when they exist.",
   },
   {
     to: "/senators",

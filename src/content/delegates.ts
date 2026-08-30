@@ -1,0 +1,51 @@
+export type DelegateFile = {
+  slug: string;
+  name: string;
+  district: string;
+  locality: string;
+  tax?: string;
+  energy?: string;
+};
+
+/** Only members with a paper on disk. Add a row when the next file exists. */
+export const DELEGATE_FILES: DelegateFile[] = [
+  {
+    slug: "singh-hd26",
+    name: 'Jas Jeet "JJ" Singh',
+    district: "HD-26",
+    locality: "Loudoun County",
+    tax: "/files/delegates/singh-hd26-tax.pdf",
+    energy: "/files/delegates/singh-hd26-energy.pdf",
+  },
+  {
+    slug: "reaser-hd27",
+    name: "Atoosa R. Reaser",
+    district: "HD-27",
+    locality: "Loudoun County",
+    tax: "/files/delegates/reaser-hd27-tax.pdf",
+    energy: "/files/delegates/reaser-hd27-energy.pdf",
+  },
+  {
+    slug: "reid-hd28",
+    name: "David A. Reid",
+    district: "HD-28",
+    locality: "Loudoun County",
+    tax: "/files/delegates/reid-hd28-tax.pdf",
+    energy: "/files/delegates/reid-hd28-energy.pdf",
+  },
+  {
+    slug: "martinez-hd29",
+    name: 'Fernando J. "Marty" Martinez',
+    district: "HD-29",
+    locality: "Loudoun County",
+    tax: "/files/delegates/martinez-hd29-tax.pdf",
+  },
+  {
+    slug: "mcauliff-hd30",
+    name: "John Chilton McAuliff",
+    district: "HD-30",
+    locality: "Loudoun County",
+    tax: "/files/delegates/mcauliff-hd30-tax.pdf",
+    energy: "/files/delegates/mcauliff-hd30-energy.pdf",
+  },
+];
