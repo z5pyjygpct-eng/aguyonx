@@ -17,6 +17,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/hope-hd1-tax.pdf",
   },
   {
+    slug: "mcclure-hd2",
+    name: "Adele Y. McClure",
+    district: "HD-2",
+    locality: "Arlington (part)",
+    tax: "/files/delegates/mcclure-hd2-tax.pdf",
+  },
+  {
     slug: "shin-hd8",
     name: "Irene Shin",
     district: "HD-8",
