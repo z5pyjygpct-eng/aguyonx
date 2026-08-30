@@ -10,6 +10,13 @@ export type DelegateFile = {
 /** Only members with a paper on disk. Add a row when the next file exists. */
 export const DELEGATE_FILES: DelegateFile[] = [
   {
+    slug: "hope-hd1",
+    name: "Patrick A. Hope",
+    district: "HD-1",
+    locality: "Arlington (part)",
+    tax: "/files/delegates/hope-hd1-tax.pdf",
+  },
+  {
     slug: "shin-hd8",
     name: "Irene Shin",
     district: "HD-8",
