@@ -44,11 +44,9 @@ export type Story = {
 };
 
 export type LibraryKind =
-  | "report"
-  | "foia"
-  | "dataset"
   | "government"
-  | "campaign-finance"
+  | "news"
+  | "research-tool"
   | "tool";
 
 export type LibraryItem = {

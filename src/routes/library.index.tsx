@@ -19,13 +19,13 @@ function LibraryIndex() {
   return (
     <SiteShell>
       <main className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
-        <Kicker>Primary sources</Kicker>
+        <Kicker>Public doors</Kicker>
         <h1 className="mt-3 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
           Research library
         </h1>
         <p className="mt-4 max-w-2xl text-muted-foreground">
-          Reports, FOIA templates, datasets, government portals, and campaign-finance notes. Built
-          to grow. Members-only holdings are not on this shelf yet.
+          Government, newsroom, and research sites this desk actually uses. Official filings over
+          summaries. This is not a login, and it is not the shop.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-2">
