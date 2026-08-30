@@ -73,6 +73,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/delaney-hd9-tax.pdf",
   },
   {
+    slug: "helmer-hd10",
+    name: "Dan I. Helmer",
+    district: "HD-10",
+    locality: "Fairfax (part)",
+    tax: "/files/delegates/helmer-hd10-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
