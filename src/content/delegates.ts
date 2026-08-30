@@ -52,6 +52,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/sullivan-hd6-tax.pdf",
   },
   {
+    slug: "keys-gamarra-hd7",
+    name: "Karen Keys-Gamarra",
+    district: "HD-7",
+    locality: "Fairfax (part)",
+    tax: "/files/delegates/keys-gamarra-hd7-tax.pdf",
+  },
+  {
     slug: "shin-hd8",
     name: "Irene Shin",
     district: "HD-8",
