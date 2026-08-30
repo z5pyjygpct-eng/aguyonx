@@ -6,16 +6,14 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SITE } from "@/content/site";
 import { ARTICLES } from "@/content/articles";
-import { INVESTIGATIONS } from "@/content/investigations";
 import { LIBRARY } from "@/content/library";
 import { OFFICE_DOORS } from "@/content/offices";
 import { HomeSearch } from "@/components/site/home-search";
+import { HomeBooks } from "@/components/site/home-books";
 
 export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
-  const lead = INVESTIGATIONS[0];
-  const moreInvestigations = INVESTIGATIONS.slice(1);
   const latestArticles = ARTICLES.slice(0, 3);
 
   return (
@@ -73,51 +71,9 @@ function Home() {
 
         <HomeSearch />
 
+        <HomeBooks />
+
         <section className="border-b border-border">
-          <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:py-20">
-            <div className="lg:col-span-7">
-              <Kicker>Lead investigation</Kicker>
-              <Link
-                to="/investigations/$slug"
-                params={{ slug: lead.slug }}
-                className="group mt-4 block"
-              >
-                <img
-                  src={lead.image}
-                  alt={lead.imageAlt}
-                  className="aspect-feature w-full object-cover outline outline-1 -outline-offset-1 outline-foreground/10"
-                />
-                <p className="mt-4 font-mono text-xs tracking-widest text-muted-foreground uppercase">
-                  {lead.kicker}
-                </p>
-                <h2 className="mt-2 font-serif text-3xl font-medium group-hover:underline">
-                  {lead.title}
-                </h2>
-                <p className="mt-2 text-muted-foreground">{lead.dek}</p>
-              </Link>
-            </div>
-            <div className="lg:col-span-5 lg:border-l lg:border-border lg:pl-10">
-              <Kicker>Also on the desk</Kicker>
-              <ul className="mt-4 divide-y divide-border border-y border-border">
-                {moreInvestigations.map((s) => (
-                  <li key={s.slug} className="py-5">
-                    <Link
-                      to="/investigations/$slug"
-                      params={{ slug: s.slug }}
-                      className="block hover:underline"
-                    >
-                      <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
-                        {s.kicker}
-                      </p>
-                      <h3 className="mt-1 font-serif text-xl font-medium">{s.title}</h3>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </section>
-<section className="border-b border-border">
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
             <div className="flex flex-wrap items-end justify-between gap-4">
               <div>

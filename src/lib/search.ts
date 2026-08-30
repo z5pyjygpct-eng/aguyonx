@@ -1,4 +1,5 @@
 import { ARTICLES } from "@/content/articles";
+import { BOOKS } from "@/content/books";
 import { DELEGATE_FILES } from "@/content/delegates";
 import { DELEGATE_PAPER_EXTRACTS } from "@/content/delegate-papers";
 import { INVESTIGATIONS } from "@/content/investigations";
@@ -7,7 +8,7 @@ import { OFFICE_DOORS } from "@/content/offices";
 import { SITE } from "@/content/site";
 import type { BodyBlock, LibraryItem, Story } from "@/content/types";
 
-export type SearchShelf = "Article" | "Investigation" | "Library" | "Delegate paper" | "Page";
+export type SearchShelf = "Article" | "Investigation" | "Library" | "Delegate paper" | "Book" | "Page";
 
 export type SearchHit = {
   id: string;
@@ -258,6 +259,19 @@ function buildIndex(): SearchDoc[] {
       titleFields: `${member.name} ${member.district} ${member.locality} ${topicLabel} ${extract.topic} tax taxes energy`,
       body: extract.text,
       districtNumber: districtNumber(member.district),
+    });
+  }
+
+  for (const book of BOOKS) {
+    docs.push({
+      id: `book-${book.slug}`,
+      title: book.title,
+      snippet: book.dek,
+      shelf: "Book",
+      href: book.href,
+      titleFields: `${book.title} ${book.subtitle} book`,
+      body: `${book.subtitle} ${book.dek}`,
+      districtNumber: null,
     });
   }
 

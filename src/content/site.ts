@@ -6,7 +6,7 @@ export const SITE = {
   handle: "@VaChangeAgent",
   xUrl: "https://x.com/VaChangeAgent",
   bookUrl:
-    "https://www.amazon.com/Grassroots-Intelligence-Citizen-Political-Research/dp/B0GV9FDS5H",
+    "https://www.amazon.com/Grassroots-Intelligence-Citizen-Political-Research-ebook/dp/B0GJ7NLQ2W",
   location: "Loudoun County, Virginia",
   author: "A Guy on X",
   email: "contact@aguyonx.com",
