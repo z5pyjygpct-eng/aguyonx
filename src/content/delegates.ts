@@ -108,6 +108,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/watts-hd14-tax.pdf",
   },
   {
+    slug: "cohen-hd15",
+    name: "Laura Jane Cohen",
+    district: "HD-15",
+    locality: "Fairfax (part)",
+    tax: "/files/delegates/cohen-hd15-tax.pdf",
+  },
+  {
     slug: "krizek-hd16",
     name: "Paul E. Krizek",
     district: "HD-16",
