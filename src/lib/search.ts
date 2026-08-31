@@ -3,6 +3,7 @@ import { BOOKS } from "@/content/books";
 import { DELEGATE_FILES } from "@/content/delegates";
 import { DELEGATE_PAPER_EXTRACTS } from "@/content/delegate-papers";
 import { INVESTIGATIONS } from "@/content/investigations";
+import { INVESTIGATION_EXTRACTS } from "@/content/investigation-papers";
 import { LIBRARY } from "@/content/library";
 import { OFFICE_DOORS } from "@/content/offices";
 import { SITE } from "@/content/site";
@@ -203,7 +204,11 @@ function storyText(story: Story): string {
   const cites = story.citations
     .map((c) => (c.note ? `${c.label} ${c.note}` : c.label))
     .join(" ");
-  return `${body} ${cites}`.trim();
+  const extract =
+    story.kind === "investigation"
+      ? INVESTIGATION_EXTRACTS.find((e) => e.slug === story.slug)?.text ?? ""
+      : "";
+  return `${body} ${cites} ${extract}`.trim();
 }
 
 function libraryHref(item: LibraryItem): string {

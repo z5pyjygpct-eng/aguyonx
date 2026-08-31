@@ -9,6 +9,7 @@ import type { Story } from "@/content/types";
 
 export function StoryPage({ story }: { story: Story }) {
   const xCite = story.citations.find((c) => c.href?.includes("x.com/"));
+  const pdf = story.documents.find((d) => d.kind === "pdf");
   const placeholderDek = story.dek === "Published as an X Article.";
   const showBody = story.body.some(
     (b) => b.type === "p" && b.text !== "Published as an X Article." && b.text !== "The full piece is on X.",
@@ -33,7 +34,7 @@ export function StoryPage({ story }: { story: Story }) {
         <div className="flex flex-wrap items-center gap-2">
           <Badge>{story.kicker}</Badge>
           <span className="font-mono text-xs text-muted-foreground">{story.displayDate}</span>
-          {story.kicker !== "X Article" ? (
+          {story.kicker !== "X Article" && !pdf ? (
             <span className="font-mono text-xs text-muted-foreground">
               {story.readMinutes} min
             </span>
@@ -45,6 +46,13 @@ export function StoryPage({ story }: { story: Story }) {
         {!placeholderDek ? <p className="mt-4 text-lg text-muted-foreground">{story.dek}</p> : null}
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <SaveButton refId={{ kind: story.kind, slug: story.slug }} />
+          {pdf ? (
+            <Button asChild>
+              <a href={pdf.href} target="_blank" rel="noreferrer">
+                Open the file
+              </a>
+            </Button>
+          ) : null}
           {xCite?.href ? (
             <Button asChild>
               <a href={xCite.href} target="_blank" rel="noreferrer">
@@ -56,7 +64,11 @@ export function StoryPage({ story }: { story: Story }) {
         <img
           src={story.image}
           alt={story.imageAlt}
-          className="mt-10 aspect-video w-full object-cover outline outline-1 -outline-offset-1 outline-foreground/10"
+          className={
+            pdf
+              ? "mt-10 w-full outline outline-1 -outline-offset-1 outline-foreground/10"
+              : "mt-10 aspect-video w-full object-cover outline outline-1 -outline-offset-1 outline-foreground/10"
+          }
         />
         {showBody ? (
           <article className="mt-10">

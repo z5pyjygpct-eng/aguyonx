@@ -31,7 +31,7 @@ function InvestigationsIndex() {
                 <img
                   src={a.image}
                   alt={a.imageAlt}
-                  className="aspect-video w-full object-cover outline outline-1 -outline-offset-1 outline-foreground/10 sm:col-span-4"
+                  className="w-full outline outline-1 -outline-offset-1 outline-foreground/10 sm:col-span-4"
                 />
                 <div className="sm:col-span-8">
                   <div className="flex flex-wrap items-center gap-2">
