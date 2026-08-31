@@ -101,6 +101,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/simon-hd13-tax.pdf",
   },
   {
+    slug: "watts-hd14",
+    name: "Vivian E. Watts",
+    district: "HD-14",
+    locality: "Fairfax (part)",
+    tax: "/files/delegates/watts-hd14-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
