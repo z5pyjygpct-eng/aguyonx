@@ -94,6 +94,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/seibold-hd12-tax.pdf",
   },
   {
+    slug: "simon-hd13",
+    name: "Marcus B. Simon",
+    district: "HD-13",
+    locality: "Fairfax (part); City of Falls Church",
+    tax: "/files/delegates/simon-hd13-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
