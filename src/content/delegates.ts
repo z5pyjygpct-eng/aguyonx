@@ -129,6 +129,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/mcguire-hd17-tax.pdf",
   },
   {
+    slug: "tran-hd18",
+    name: "Kathy K.L. Tran",
+    district: "HD-18",
+    locality: "Fairfax (part)",
+    tax: "/files/delegates/tran-hd18-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
