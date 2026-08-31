@@ -2,6 +2,94 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    slug: "va-illegal-immigrant-crime-2020-2026",
+    kind: "investigation",
+    title: "Virginia Illegal-Immigrant Crime Intelligence, 2020–2026",
+    dek: "42 unique sourced cases in the Commonwealth. Women and children first. Not a statewide crime census.",
+    date: "2026-08-22",
+    displayDate: "August 22, 2026",
+    topic: "Immigration",
+    kicker: "Immigration",
+    image: "/images/investigations/va-illegal-immigrant-crime-2020-2026.png",
+    imageAlt: "Cover of Virginia Illegal-Immigrant Crime Intelligence, 2020-2026",
+    access: "public",
+    readMinutes: 22,
+    body: [
+      { type: "p", text: "A sourced listing of crimes in Virginia from 2020 through 2026 where the defendant’s immigration status is reported as illegal, unlawfully present, an ICE detainer, or a DHS or court statement." },
+      { type: "p", text: "Unique cases after de-dupe: 42 (27 women and children, 15 other victims). Fifteen of those have a sourced got-off or light-sentence outcome. This is not a complete statewide census of every Virginia crime, and it is not a count of every immigrant. Alleged is not convicted." },
+    ],
+    citations: [
+      { id: "ice", label: "U.S. Immigration and Customs Enforcement", href: "https://www.ice.gov" },
+      { id: "dhs", label: "U.S. Department of Homeland Security", href: "https://www.dhs.gov" },
+    ],
+    documents: [
+      {
+        id: "pdf",
+        title: "Virginia Illegal-Immigrant Crime Intelligence, 2020-2026 (PDF)",
+        href: "/files/investigations/va-illegal-immigrant-crime-2020-2026.pdf",
+        kind: "pdf",
+      },
+    ],
+  },
+  {
+    slug: "loudoun-data-center-intelligence-history-2015-2025",
+    kind: "investigation",
+    title: "Loudoun County Data Center Intelligence History, 2015–2025",
+    dek: "From Data Center Alley as an economic asset to a countywide locational regime. 224 data-center hits across 119 pages.",
+    date: "2026-01-02",
+    displayDate: "2015–2025",
+    topic: "Energy",
+    kicker: "Data centers",
+    image: "/images/investigations/loudoun-data-center-intelligence-history-2015-2025.png",
+    imageAlt: "Cover of Loudoun County Data Center Intelligence History, 2015-2025",
+    access: "public",
+    readMinutes: 12,
+    body: [
+      { type: "p", text: "A chronological political and policy intelligence review of Loudoun County Board of Supervisors records on data centers, 2015-2025. The source corpus is an 881-page merged action-report file." },
+      { type: "p", text: "Loudoun did not simply turn against data centers. The record shows a decade-long move from permissive siting plus revenue optimization to location, compatibility, power delivery, and residential buffers. Data centers are load and tax base. They are not treated here as the cause of Virginia’s energy architecture." },
+    ],
+    citations: [
+      { id: "loudoun", label: "Loudoun County Board of Supervisors", href: "https://www.loudoun.gov/bos" },
+    ],
+    documents: [
+      {
+        id: "pdf",
+        title: "Loudoun County Data Center Intelligence History, 2015-2025 (PDF)",
+        href: "/files/investigations/loudoun-data-center-intelligence-history-2015-2025.pdf",
+        kind: "pdf",
+      },
+    ],
+  },
+  {
+    slug: "loudoun-tax-intelligence-history-2015-2025",
+    kind: "investigation",
+    title: "Loudoun County Tax Intelligence History, 2015–2025",
+    dek: "Board tax, budget, revenue, and relief records. 674 tax hits across 284 pages of a 1,828-page corpus.",
+    date: "2026-01-01",
+    displayDate: "2015–2025",
+    topic: "Taxes",
+    kicker: "Taxes",
+    image: "/images/investigations/loudoun-tax-intelligence-history-2015-2025.png",
+    imageAlt: "Cover of Loudoun County Tax Intelligence History, 2015-2025",
+    access: "public",
+    readMinutes: 8,
+    body: [
+      { type: "p", text: "A chronological political and fiscal intelligence review of Loudoun County Board of Supervisors tax, budget, revenue, and relief records, 2015-2025." },
+      { type: "p", text: "The decade is tax-base engineering: pressure to reduce or equalize the real-property rate, growing reliance on business and data-center personal property, and targeted relief. High rate is not an ideology label. The useful unit is the specific instrument and vote." },
+    ],
+    citations: [
+      { id: "loudoun", label: "Loudoun County Board of Supervisors", href: "https://www.loudoun.gov/bos" },
+    ],
+    documents: [
+      {
+        id: "pdf",
+        title: "Loudoun County Tax Intelligence History, 2015-2025 (PDF)",
+        href: "/files/investigations/loudoun-tax-intelligence-history-2015-2025.pdf",
+        kind: "pdf",
+      },
+    ],
+  },
+  {
     slug: "va-energy-legislative-intelligence-2026",
     kind: "investigation",
     title: "Virginia Energy Legislative Intelligence Analysis",
@@ -69,7 +157,7 @@ export const INVESTIGATIONS: Story[] = [
     topic: "Energy",
     kicker: "Energy",
     image: "/images/investigations/va-green-energy-architecture-2020-2026.png",
-    imageAlt: "Cover of Virginia's Green-Energy Architecture, 2020\u20132026",
+    imageAlt: "Cover of Virginia's Green-Energy Architecture, 2020–2026",
     access: "public",
     readMinutes: 8,
     body: [
