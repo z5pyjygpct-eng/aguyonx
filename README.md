@@ -64,7 +64,7 @@ CI (typecheck + production build) runs from `.github/workflows/ci.yml` on push t
 **Now (v1)**
 
 - Static content in git. No accounts, no database, no payments.
-- Contact form opens the visitor’s mail client to `contact@aguyonx.com` and stores a local draft.
+- Contact is @VaChangeAgent on X until an email is chosen.
 - FOIA drafts stay in `localStorage` on the visitor’s device.
 
 **Later, without rewriting the publication**

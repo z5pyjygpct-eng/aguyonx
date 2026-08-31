@@ -54,12 +54,6 @@ export function SiteFooter() {
                   {SITE.handle} on X
                 </a>
               </li>
-              <li>
-                <a href={`mailto:${SITE.email}`} className="hover:underline">
-                  {SITE.email}
-                </a>
-              </li>
-              <li className="text-muted-foreground">{SITE.handle}</li>
             </ul>
           </div>
         </div>

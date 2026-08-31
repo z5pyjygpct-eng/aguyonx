@@ -294,11 +294,11 @@ function buildIndex(): SearchDoc[] {
   docs.push({
     id: "page-contact",
     title: "Contact",
-    snippet: `Tips, documents, and corrections. A copy stays on this device. Sending opens your mail client to ${SITE.email}.`,
+    snippet: `Tips, documents, and corrections. Until there is an email, the door is X.`,
     shelf: "Page",
     href: "/contact",
-    titleFields: `Contact ${SITE.email} ${SITE.handle}`,
-    body: `Tips, documents, and corrections. A copy stays on this device. Sending opens your mail client to ${SITE.email}. ${SITE.handle} on X.`,
+    titleFields: `Contact ${SITE.handle}`,
+    body: `Tips, documents, and corrections. Until there is an email, the door is X. ${SITE.handle} on X.`,
     districtNumber: null,
   });
 

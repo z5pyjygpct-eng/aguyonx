@@ -9,7 +9,6 @@ export const SITE = {
     "https://www.amazon.com/Grassroots-Intelligence-Citizen-Political-Research-ebook/dp/B0GJ7NLQ2W",
   location: "Loudoun County, Virginia",
   author: "A Guy on X",
-  email: "contact@aguyonx.com",
   firm: "Coraggio Consulting",
   product: "VPIP",
   productLong: "Virginia Political Intelligence Portal",
