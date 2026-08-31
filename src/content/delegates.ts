@@ -150,6 +150,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/thomas-hd21-tax.pdf",
   },
   {
+    slug: "guzman-hd22",
+    name: "Elizabeth R. Guzman",
+    district: "HD-22",
+    locality: "Prince William (part)",
+    tax: "/files/delegates/guzman-hd22-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
