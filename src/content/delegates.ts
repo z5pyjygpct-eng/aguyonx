@@ -136,6 +136,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/tran-hd18-tax.pdf",
   },
   {
+    slug: "henson-hd19",
+    name: "Rozia A. Henson, Jr.",
+    district: "HD-19",
+    locality: "Fairfax (part); Prince William (part)",
+    tax: "/files/delegates/henson-hd19-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
