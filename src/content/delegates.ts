@@ -108,6 +108,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/watts-hd14-tax.pdf",
   },
   {
+    slug: "krizek-hd16",
+    name: "Paul E. Krizek",
+    district: "HD-16",
+    locality: "Fairfax (part)",
+    tax: "/files/delegates/krizek-hd16-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
