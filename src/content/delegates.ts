@@ -87,6 +87,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/bulova-hd11-tax.pdf",
   },
   {
+    slug: "seibold-hd12",
+    name: "Holly M. Seibold",
+    district: "HD-12",
+    locality: "Fairfax (part)",
+    tax: "/files/delegates/seibold-hd12-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
