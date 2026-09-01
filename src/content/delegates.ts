@@ -339,6 +339,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/price-hd85-tax.pdf",
   },
   {
+    slug: "thornton-hd86",
+    name: "Virgil Thornton",
+    district: "HD-86",
+    locality: "York (part); Cities of Hampton (part) and Poquoson",
+    tax: "/files/delegates/thornton-hd86-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
