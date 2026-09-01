@@ -149,6 +149,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "All of Alexandria City; Parts of Arlington County and Fairfax County",
     tax: "/files/senators/bennett-parker-sd39-tax.pdf",
   },
+  {
+    slug: "favola-sd40",
+    name: "Barbara A. Favola",
+    district: "SD-40",
+    locality: "Parts of Arlington County",
+    tax: "/files/senators/favola-sd40-tax.pdf",
+  },
 
 ];
 
