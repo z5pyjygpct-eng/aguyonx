@@ -1,6 +1,7 @@
 import { ARTICLES } from "@/content/articles";
 import { BOOKS } from "@/content/books";
 import { DELEGATE_FILES } from "@/content/delegates";
+import { SENATOR_FILES } from "@/content/senators";
 import { DELEGATE_PAPER_EXTRACTS } from "@/content/delegate-papers";
 import { INVESTIGATIONS } from "@/content/investigations";
 import { INVESTIGATION_EXTRACTS } from "@/content/investigation-papers";
@@ -11,7 +12,7 @@ import { OFFICE_DOORS } from "@/content/offices";
 import { SITE } from "@/content/site";
 import type { BodyBlock, LibraryItem, Story } from "@/content/types";
 
-export type SearchShelf = "Article" | "News" | "Investigation" | "Library" | "Delegate paper" | "Book" | "Page" | "2027";
+export type SearchShelf = "Article" | "News" | "Investigation" | "Library" | "Delegate paper" | "Senator paper" | "Book" | "Page" | "2027";
 
 export type SearchHit = {
   id: string;
@@ -39,10 +40,10 @@ function fold(s: string): string {
   return s.toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
 }
 
-/** HD-8, HD 8, hd8, 8, house district 8 → "8" */
+/** HD-8 / SD-11 / house|senate district N / bare digits → "N" */
 export function districtNumber(raw: string): string | null {
   const collapsed = fold(raw).replace(/[\s._-]+/g, "");
-  const m = collapsed.match(/^(?:hd|housedistrict)?(\d{1,3})$/);
+  const m = collapsed.match(/^(?:hd|sd|housedistrict|senatedistrict)?(\d{1,3})$/);
   return m ? m[1] : null;
 }
 
@@ -282,6 +283,24 @@ function buildIndex(): SearchDoc[] {
     });
   }
 
+  for (const member of SENATOR_FILES) {
+    for (const topic of ["tax", "energy"] as const) {
+      const href = topic === "tax" ? member.tax : member.energy;
+      if (!href) continue;
+      const topicLabel = topic === "tax" ? "Taxes" : "Energy";
+      docs.push({
+        id: `senator-${member.slug}-${topic}`,
+        title: `${member.name} ${member.district} ${topicLabel}`,
+        snippet: `${member.locality}. ${topicLabel} paper.`,
+        shelf: "Senator paper",
+        href,
+        titleFields: `${member.name} ${member.district} ${member.locality} ${topicLabel} ${topic} tax taxes energy`,
+        body: `${member.locality} ${topicLabel}`,
+        districtNumber: districtNumber(member.district),
+      });
+    }
+  }
+
   for (const book of BOOKS) {
     docs.push({
       id: `book-${book.slug}`,
@@ -319,7 +338,7 @@ function buildIndex(): SearchDoc[] {
 
   for (const office of OFFICE_DOORS) {
     const extra =
-      office.to === "/delegates"
+      office.to === "/delegates" || office.to === "/senators"
         ? "Democrat members with a tax or energy paper on the desk. A link is live only when the file exists."
         : office.to === "/2027"
           ? "Name file of sourced 2027 Democratic candidates. Not the shop."

@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { User } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { Kicker } from "@/components/site/kicker";
+import { HomeSearch } from "@/components/site/home-search";
 import { SENATOR_FILES } from "@/content/senators";
 
 export const Route = createFileRoute("/senators")({ component: SenatorsPage });
@@ -9,6 +10,7 @@ export const Route = createFileRoute("/senators")({ component: SenatorsPage });
 function SenatorsPage() {
   return (
     <SiteShell>
+      <HomeSearch />
       <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
         <Kicker>Virginia</Kicker>
         <p className="mt-3 font-mono text-xs tracking-widest text-muted-foreground uppercase">
