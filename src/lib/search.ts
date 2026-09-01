@@ -5,7 +5,7 @@ import { DELEGATE_PAPER_EXTRACTS } from "@/content/delegate-papers";
 import { INVESTIGATIONS } from "@/content/investigations";
 import { INVESTIGATION_EXTRACTS } from "@/content/investigation-papers";
 import { LIBRARY } from "@/content/library";
-import { NEWS, newsNewestFirst } from "@/content/news";
+import { NEWS, newsNewestFirst, peopleSearchText, personChip } from "@/content/news";
 import { OFFICE_DOORS } from "@/content/offices";
 import { SITE } from "@/content/site";
 import type { BodyBlock, LibraryItem, Story } from "@/content/types";
@@ -240,11 +240,11 @@ function buildIndex(): SearchDoc[] {
     docs.push({
       id: `news-${item.id}`,
       title: item.headline,
-      snippet: `${item.outlet}. ${item.about.join(", ")}.`,
+      snippet: `${item.outlet}. ${item.people.map(personChip).join(", ")}.`,
       shelf: "News",
       href: item.url,
-      titleFields: `${item.headline} ${item.outlet} ${item.about.join(" ")} ${item.scope}`,
-      body: `${item.outlet} ${item.about.join(" ")} ${item.scope}${item.advocacy ? " advocacy" : ""}`,
+      titleFields: `${item.headline} ${item.outlet} ${peopleSearchText(item.people)} ${item.scope}`,
+      body: `${item.outlet} ${peopleSearchText(item.people)} ${item.scope}${item.advocacy ? " advocacy" : ""}`,
       districtNumber: null,
     });
   }

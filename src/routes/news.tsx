@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { Kicker } from "@/components/site/kicker";
 import { HomeSearch } from "@/components/site/home-search";
+import { NewsPeople } from "@/components/site/news-people";
 import { SITE } from "@/content/site";
 import { NEWS_DEK, NEWS_EMPTY, formatNewsDate, newsNewestFirst } from "@/content/news";
 
@@ -32,8 +33,8 @@ function NewsIndex() {
                   <span className="font-mono text-xs text-muted-foreground sm:col-span-2">
                     {formatNewsDate(item.date)}
                   </span>
-                  <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase sm:col-span-3">
-                    {item.about.join(", ")}
+                  <span className="sm:col-span-3">
+                    <NewsPeople people={item.people} />
                   </span>
                   <span className="sm:col-span-7">
                     <h2 className="font-serif text-xl font-medium">{item.headline}</h2>

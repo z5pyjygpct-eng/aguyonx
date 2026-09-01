@@ -10,6 +10,7 @@ import { LIBRARY } from "@/content/library";
 import { OFFICE_DOORS } from "@/content/offices";
 import { HomeSearch } from "@/components/site/home-search";
 import { HomeBooks } from "@/components/site/home-books";
+import { NewsPeople } from "@/components/site/news-people";
 import { NEWS_DEK, NEWS_EMPTY, formatNewsDate, newsNewestFirst } from "@/content/news";
 
 export const Route = createFileRoute("/")({ component: Home });
@@ -103,8 +104,8 @@ function Home() {
                       <span className="font-mono text-xs text-muted-foreground sm:col-span-2">
                         {formatNewsDate(item.date)}
                       </span>
-                      <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase sm:col-span-3">
-                        {item.about.join(", ")}
+                      <span className="sm:col-span-3">
+                        <NewsPeople people={item.people} />
                       </span>
                       <span className="sm:col-span-7">
                         <h3 className="font-serif text-xl font-medium">{item.headline}</h3>
