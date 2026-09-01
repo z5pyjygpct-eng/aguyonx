@@ -44,6 +44,18 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "wric-287g-injunction-2026-09-01",
+    date: "2026-09-01",
+    headline: "Federal judge temporarily blocks Virginia law regulating how local law enforcement participate in ICE activities",
+    outlet: "WRIC",
+    url: "https://www.wric.com/news/virginia-news/federal-judge-injunction-287g-agreements/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Jay Jones", office: "Attorney General" },
+    ],
+    scope: "statewide",
+  },
+  {
     id: "kincaid-descano-fairfax-high-ice-2026-08-31",
     date: "2026-08-31",
     headline: "Illegal immigrant who groped girls at Fairfax High School released to ICE",
