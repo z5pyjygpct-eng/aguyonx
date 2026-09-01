@@ -318,6 +318,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/mcquinn-hd81-tax.pdf",
   },
   {
+    slug: "pope-adams-hd82",
+    name: "Kimberly Pope Adams",
+    district: "HD-82",
+    locality: "Dinwiddie (part); Prince George (part); Surry; City of Petersburg",
+    tax: "/files/delegates/pope-adams-hd82-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
