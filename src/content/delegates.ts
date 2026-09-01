@@ -248,6 +248,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/downey-hd69-tax.pdf",
   },
   {
+    slug: "simonds-hd70",
+    name: "Shelly A. Simonds",
+    district: "HD-70",
+    locality: "City of Newport News (part)",
+    tax: "/files/delegates/simonds-hd70-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
