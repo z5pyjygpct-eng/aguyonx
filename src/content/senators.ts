@@ -72,6 +72,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "All of Hampton City; Parts of Newport News City",
     tax: "/files/senators/locke-sd23-tax.pdf",
   },
+  {
+    slug: "mcpike-sd29",
+    name: "Jeremy S. McPike",
+    district: "SD-29",
+    locality: "Parts of Prince William County and Stafford County",
+    tax: "/files/senators/mcpike-sd29-tax.pdf",
+  },
 
 ];
 
