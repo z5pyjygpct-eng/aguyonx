@@ -100,6 +100,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Loudoun County",
     tax: "/files/senators/srinivasan-sd32-tax.pdf",
   },
+  {
+    slug: "carroll-foy-sd33",
+    name: "Jennifer D. Carroll Foy",
+    district: "SD-33",
+    locality: "Parts of Fairfax County and Prince William County",
+    tax: "/files/senators/carroll-foy-sd33-tax.pdf",
+  },
 
 ];
 
