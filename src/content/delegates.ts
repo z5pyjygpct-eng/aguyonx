@@ -178,6 +178,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/sewell-hd25-tax.pdf",
   },
   {
+    slug: "rasoul-hd38",
+    name: "Sam Rasoul",
+    district: "HD-38",
+    locality: "City of Roanoke (part)",
+    tax: "/files/delegates/rasoul-hd38-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
