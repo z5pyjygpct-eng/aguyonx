@@ -65,6 +65,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Virginia Beach City",
     tax: "/files/senators/rouse-sd22-tax.pdf",
   },
+  {
+    slug: "locke-sd23",
+    name: "Mamie E. Locke",
+    district: "SD-23",
+    locality: "All of Hampton City; Parts of Newport News City",
+    tax: "/files/senators/locke-sd23-tax.pdf",
+  },
 
 ];
 
