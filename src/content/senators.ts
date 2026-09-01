@@ -86,6 +86,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "All of Manassas City and Manassas Park City; parts of Prince William County",
     tax: "/files/senators/roem-sd30-tax.pdf",
   },
+  {
+    slug: "perry-sd31",
+    name: "Russet Perry",
+    district: "SD-31",
+    locality: "Parts of Fauquier County and Loudoun County",
+    tax: "/files/senators/perry-sd31-tax.pdf",
+  },
 
 ];
 
