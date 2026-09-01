@@ -381,6 +381,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/anthony-hd92-tax.pdf",
   },
   {
+    slug: "glass-hd93",
+    name: "Jackie H. Glass",
+    district: "HD-93",
+    locality: "City of Norfolk (part)",
+    tax: "/files/delegates/glass-hd93-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
