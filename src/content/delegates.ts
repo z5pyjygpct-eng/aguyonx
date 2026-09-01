@@ -206,6 +206,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/laufer-hd55-tax.pdf",
   },
   {
+    slug: "nivar-hd57",
+    name: "May Nivar",
+    district: "HD-57",
+    locality: "Goochland (part); Henrico (part)",
+    tax: "/files/delegates/nivar-hd57-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
