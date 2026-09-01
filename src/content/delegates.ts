@@ -374,6 +374,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/hayes-hd91-tax.pdf",
   },
   {
+    slug: "anthony-hd92",
+    name: "Bonita G. Anthony",
+    district: "HD-92",
+    locality: "Cities of Chesapeake (part) and Norfolk (part)",
+    tax: "/files/delegates/anthony-hd92-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
