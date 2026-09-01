@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
   const latestArticles = ARTICLES.slice(0, 3);
-  const latestNews = newsNewestFirst().slice(0, 5);
+  const latestNews = newsNewestFirst().slice(0, 4);
 
   return (
     <SiteShell hideHeader>
@@ -74,6 +74,8 @@ function Home() {
 
         <HomeSearch />
 
+        <HomeBooks />
+
         <section className="border-b border-border">
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
             <div className="flex flex-wrap items-end justify-between gap-4">
@@ -120,8 +122,6 @@ function Home() {
             )}
           </div>
         </section>
-
-        <HomeBooks />
 
         <section className="border-b border-border">
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
