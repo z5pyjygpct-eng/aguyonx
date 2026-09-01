@@ -332,6 +332,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/clark-hd84-tax.pdf",
   },
   {
+    slug: "price-hd85",
+    name: "Marcia S. \"Cia\" Price",
+    district: "HD-85",
+    locality: "City of Newport News (part)",
+    tax: "/files/delegates/price-hd85-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
