@@ -8,7 +8,10 @@ export type NewsOffice =
   | "Loudoun Supervisor"
   | "Loudoun Chair"
   | "Loudoun Commonwealth's Attorney candidate"
+  | "Fairfax Sheriff"
+  | "Fairfax Commonwealth's Attorney"
   | "Fairfax official"
+  | "Prince William Commonwealth's Attorney"
   | "Prince William official";
 
 export type NewsPerson = {
@@ -37,6 +40,18 @@ export function peopleSearchText(people: NewsPerson[]): string {
 
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
+  {
+    id: "kincaid-descano-fairfax-high-ice-2026-08-31",
+    date: "2026-08-31",
+    headline: "Illegal immigrant who groped girls at Fairfax High School released to ICE",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/illegal-immigrant-who-groped-girls-fairfax-high-school-released-from-jail-israel-flores-ortiz-fairfax-county-sheriff-kincaid-descano-immigration-sanctuary-policies",
+    people: [
+      { name: "Stacey Kincaid", office: "Fairfax Sheriff" },
+      { name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" },
+    ],
+    scope: "local",
+  },
   {
     id: "spanberger-revenue-team-2026-08-31",
     date: "2026-08-31",
@@ -113,6 +128,36 @@ export const NEWS: NewsItem[] = [
       { name: "Juli Briskman", office: "Loudoun Supervisor" },
       { name: "Phyllis Randall", office: "Loudoun Chair" },
     ],
+    scope: "local",
+  },
+  {
+    id: "descano-recall-minter-2026-08-23",
+    date: "2026-08-23",
+    headline: "Mother of slain Virginia woman seeks to recall Fairfax County prosecutor",
+    outlet: "Washington Times",
+    url: "https://www.washingtontimes.com/news/2026/aug/23/cheryl-minter-seeks-recall-fairfax-county-prosecutor-steve-descano/",
+    people: [{ name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" }],
+    scope: "local",
+  },
+  {
+    id: "kincaid-spanberger-dhs-hold-2026-08-20",
+    date: "2026-08-20",
+    headline: "DHS Asks Spanberger To Hold Fairfax Killing Suspect; Sheriff Oversees Jail",
+    outlet: "Patch McLean",
+    url: "https://patch.com/virginia/mclean/dhs-asks-spanberger-hold-fairfax-killing-suspect-sheriff-oversees-jail",
+    people: [
+      { name: "Stacey Kincaid", office: "Fairfax Sheriff" },
+      { name: "Abigail Spanberger", office: "Governor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "ashworth-manassas-self-defense-2026-08-14",
+    date: "2026-08-14",
+    headline: "Murder charge dropped; new evidence backs Manassas mother’s self defense claim",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/08/murder-charge-dropped-new-evidence-backs-manassas-mothers-self-defense-claim/",
+    people: [{ name: "Amy Ashworth", office: "Prince William Commonwealth's Attorney" }],
     scope: "local",
   },
   {
