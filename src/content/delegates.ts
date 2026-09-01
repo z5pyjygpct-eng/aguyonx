@@ -367,6 +367,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/carnegie-hd89-tax.pdf",
   },
   {
+    slug: "hayes-hd91",
+    name: "C.E. Cliff Hayes, Jr.",
+    district: "HD-91",
+    locality: "Cities of Chesapeake (part) and Portsmouth (part)",
+    tax: "/files/delegates/hayes-hd91-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
