@@ -79,6 +79,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Prince William County and Stafford County",
     tax: "/files/senators/mcpike-sd29-tax.pdf",
   },
+  {
+    slug: "roem-sd30",
+    name: "Danica A. Roem",
+    district: "SD-30",
+    locality: "All of Manassas City and Manassas Park City; parts of Prince William County",
+    tax: "/files/senators/roem-sd30-tax.pdf",
+  },
 
 ];
 
