@@ -20,7 +20,7 @@ export const OFFICE_DOORS: OfficeDoor[] = [
     navLabel: "Senators",
     title: "VA Senators",
     chamber: "Senate of Virginia",
-    dek: "Member files for the Virginia Senate. This page is the door, not a directory. Contact is how a file leaves the building.",
+    dek: "Democrat Senate members. Tax and energy papers, when they exist.",
   },
   {
     to: "/2027",
