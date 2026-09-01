@@ -30,6 +30,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Henrico (part); Richmond City (part)",
     tax: "/files/senators/bagby-sd14-tax.pdf",
   },
+  {
+    slug: "jones-sd15",
+    name: "Michael J. Jones",
+    district: "SD-15",
+    locality: "Chesterfield (part); Richmond City (part)",
+    tax: "/files/senators/jones-sd15-tax.pdf",
+  },
 
 ];
 
