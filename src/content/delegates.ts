@@ -346,6 +346,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/thornton-hd86-tax.pdf",
   },
   {
+    slug: "ward-hd87",
+    name: "Jeion A. Ward",
+    district: "HD-87",
+    locality: "City of Hampton (part)",
+    tax: "/files/delegates/ward-hd87-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
