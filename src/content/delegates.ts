@@ -304,6 +304,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/cousins-hd79-tax.pdf",
   },
   {
+    slug: "levere-bolling-hd80",
+    name: "Destiny LeVere Bolling",
+    district: "HD-80",
+    locality: "Henrico (part)",
+    tax: "/files/delegates/levere-bolling-hd80-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
