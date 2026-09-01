@@ -213,6 +213,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/nivar-hd57-tax.pdf",
   },
   {
+    slug: "willett-hd58",
+    name: "Rodney T. Willett",
+    district: "HD-58",
+    locality: "Henrico (part)",
+    tax: "/files/delegates/willett-hd58-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
