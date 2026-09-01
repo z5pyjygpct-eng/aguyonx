@@ -128,6 +128,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Fairfax County",
     tax: "/files/senators/pekarsky-sd36-tax.pdf",
   },
+  {
+    slug: "salim-sd37",
+    name: "Saddam Azlan Salim",
+    district: "SD-37",
+    locality: "All of Fairfax City and Falls Church City; Parts of Fairfax County",
+    tax: "/files/senators/salim-sd37-tax.pdf",
+  },
 
 ];
 
