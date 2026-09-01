@@ -185,6 +185,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/rasoul-hd38-tax.pdf",
   },
   {
+    slug: "franklin-hd41",
+    name: "Lily V. Franklin",
+    district: "HD-41",
+    locality: "Montgomery (part); Roanoke (part)",
+    tax: "/files/delegates/franklin-hd41-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
