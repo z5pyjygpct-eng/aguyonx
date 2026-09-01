@@ -21,7 +21,10 @@ export type NewsPerson = {
 
 export type NewsItem = {
   id: string;
+  /** Outlet publication date (YYYY-MM-DD). Primary date; sort key. */
   date: string;
+  /** When we filed the clip on the News shelf, if later than `date`. Omit when same as story date. */
+  filed?: string;
   headline: string;
   outlet: string;
   url: string;
@@ -81,6 +84,7 @@ export const NEWS: NewsItem[] = [
   {
     id: "spanberger-voting-rights-100k-2026-08-29",
     date: "2026-08-29",
+    filed: "2026-09-01",
     headline: "Gov. Spanberger announces right to vote restored for 100,000 formerly incarcerated Virginians",
     outlet: "WSLS",
     url: "https://www.wsls.com/news/local/2026/08/29/gov-spanberger-announces-right-to-vote-restored-for-100000-formerly-incarcerated-virginians/",
@@ -90,6 +94,7 @@ export const NEWS: NewsItem[] = [
   {
     id: "descano-spanberger-passport-flight-2026-08-28",
     date: "2026-08-28",
+    filed: "2026-09-01",
     headline: "Spanberger demands answers after man in Fairfax murder case obtains passport, leaves US",
     outlet: "WJLA",
     url: "https://wjla.com/news/local/spanberger-demands-answers-after-man-in-fairfax-murder-case-obtains-passport-leaves-us-virginia-steve-descano-washington",
@@ -102,6 +107,7 @@ export const NEWS: NewsItem[] = [
   {
     id: "descano-minter-fox-recall-2026-08-28",
     date: "2026-08-28",
+    filed: "2026-09-01",
     headline: "Fairfax County prosecutor Steve Descano faces recall over repeat crime",
     outlet: "Fox News",
     url: "https://www.foxnews.com/politics/soros-prosecutor-danger-removed-grieving-moms-desperate-alarm-cant-believe-this",
@@ -142,6 +148,7 @@ export const NEWS: NewsItem[] = [
   {
     id: "fairfax-tree-commission-eqac-2026-08-26",
     date: "2026-08-26",
+    filed: "2026-09-01",
     headline: "Fairfax County Dissolves Tree Commission, Replaces EQAC With Environmental Panel",
     outlet: "Patch McLean",
     url: "https://patch.com/virginia/mclean/fairfax-county-dissolves-tree-commission-replaces-eqac-environmental-panel",
@@ -233,6 +240,12 @@ export function formatNewsDate(iso: string): string {
     year: "numeric",
     timeZone: "UTC",
   });
+}
+
+
+export function newsFiledLine(item: NewsItem): string | null {
+  if (!item.filed || item.filed === item.date) return null;
+  return `Filed ${formatNewsDate(item.filed)}`;
 }
 
 export const NEWS_DEK =

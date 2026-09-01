@@ -4,7 +4,7 @@ import { Kicker } from "@/components/site/kicker";
 import { HomeSearch } from "@/components/site/home-search";
 import { NewsPeople } from "@/components/site/news-people";
 import { SITE } from "@/content/site";
-import { NEWS_DEK, NEWS_EMPTY, formatNewsDate, newsNewestFirst } from "@/content/news";
+import { NEWS_DEK, NEWS_EMPTY, formatNewsDate, newsFiledLine, newsNewestFirst } from "@/content/news";
 
 export const Route = createFileRoute("/news")({ component: NewsIndex });
 
@@ -32,6 +32,9 @@ function NewsIndex() {
                 >
                   <span className="font-mono text-xs text-muted-foreground sm:col-span-2">
                     {formatNewsDate(item.date)}
+                    {newsFiledLine(item) ? (
+                      <span className="mt-1 block font-normal">{newsFiledLine(item)}</span>
+                    ) : null}
                   </span>
                   <span className="sm:col-span-3">
                     <NewsPeople people={item.people} />
