@@ -409,6 +409,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/convirs-fowler-hd96-tax.pdf",
   },
   {
+    slug: "feggans-hd97",
+    name: "Michael B. Feggans",
+    district: "HD-97",
+    locality: "City of Virginia Beach (part)",
+    tax: "/files/delegates/feggans-hd97-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
