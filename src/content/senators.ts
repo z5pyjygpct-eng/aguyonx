@@ -135,6 +135,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "All of Fairfax City and Falls Church City; Parts of Fairfax County",
     tax: "/files/senators/salim-sd37-tax.pdf",
   },
+  {
+    slug: "boysko-sd38",
+    name: "Jennifer B. Boysko",
+    district: "SD-38",
+    locality: "Parts of Fairfax County",
+    tax: "/files/senators/boysko-sd38-tax.pdf",
+  },
 
 ];
 
