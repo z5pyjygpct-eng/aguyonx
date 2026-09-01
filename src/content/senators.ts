@@ -121,6 +121,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Fairfax County",
     tax: "/files/senators/marsden-sd35-tax.pdf",
   },
+  {
+    slug: "pekarsky-sd36",
+    name: "Stella G. Pekarsky",
+    district: "SD-36",
+    locality: "Parts of Fairfax County",
+    tax: "/files/senators/pekarsky-sd36-tax.pdf",
+  },
 
 ];
 
