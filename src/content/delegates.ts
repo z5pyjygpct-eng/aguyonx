@@ -164,6 +164,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/franklin-hd23-tax.pdf",
   },
   {
+    slug: "torian-hd24",
+    name: "Luke E. Torian",
+    district: "HD-24",
+    locality: "Prince William (part)",
+    tax: "/files/delegates/torian-hd24-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
