@@ -227,6 +227,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/carroll-hd64-tax.pdf",
   },
   {
+    slug: "cole-jg-hd65",
+    name: "Joshua G. Cole",
+    district: "HD-65",
+    locality: "Spotsylvania (part); Stafford (part); City of Fredericksburg",
+    tax: "/files/delegates/cole-jg-hd65-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
