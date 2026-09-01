@@ -107,6 +107,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Fairfax County and Prince William County",
     tax: "/files/senators/carroll-foy-sd33-tax.pdf",
   },
+  {
+    slug: "surovell-sd34",
+    name: "Scott A. Surovell",
+    district: "SD-34",
+    locality: "Parts of Fairfax County",
+    tax: "/files/senators/surovell-sd34-tax.pdf",
+  },
 
 ];
 
