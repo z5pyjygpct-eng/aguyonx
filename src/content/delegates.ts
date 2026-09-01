@@ -325,6 +325,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/pope-adams-hd82-tax.pdf",
   },
   {
+    slug: "clark-hd84",
+    name: "Nadarius E. Clark",
+    district: "HD-84",
+    locality: "Chesapeake (part); Isle of Wight (part); Cities of Franklin and Suffolk (part)",
+    tax: "/files/delegates/clark-hd84-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
