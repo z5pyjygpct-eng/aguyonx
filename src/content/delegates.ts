@@ -297,6 +297,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/carr-hd78-tax.pdf",
   },
   {
+    slug: "cousins-hd79",
+    name: "Rae Cousins",
+    district: "HD-79",
+    locality: "City of Richmond (part)",
+    tax: "/files/delegates/cousins-hd79-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
