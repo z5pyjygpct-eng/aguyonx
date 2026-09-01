@@ -37,6 +37,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Chesterfield (part); Richmond City (part)",
     tax: "/files/senators/jones-sd15-tax.pdf",
   },
+  {
+    slug: "vanvalkenburg-sd16",
+    name: "Schuyler T. VanValkenburg",
+    district: "SD-16",
+    locality: "Henrico County (part)",
+    tax: "/files/senators/vanvalkenburg-sd16-tax.pdf",
+  },
 
 ];
 
