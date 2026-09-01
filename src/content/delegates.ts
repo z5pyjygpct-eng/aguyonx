@@ -395,6 +395,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/hernandez-hd94-tax.pdf",
   },
   {
+    slug: "askew-hd95",
+    name: "Alex Q. Askew",
+    district: "HD-95",
+    locality: "Cities of Norfolk (part) and Virginia Beach (part)",
+    tax: "/files/delegates/askew-hd95-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
