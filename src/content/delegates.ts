@@ -360,6 +360,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/scott-d-hd88-tax.pdf",
   },
   {
+    slug: "carnegie-hd89",
+    name: "Karen R. \"Kacey\" Carnegie",
+    district: "HD-89",
+    locality: "Cities of Chesapeake (part) and Suffolk (part)",
+    tax: "/files/delegates/carnegie-hd89-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
