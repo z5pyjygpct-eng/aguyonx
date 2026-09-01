@@ -262,6 +262,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/anderson-hd71-tax.pdf",
   },
   {
+    slug: "mehta-hd73",
+    name: "Leslie Chambers Mehta",
+    district: "HD-73",
+    locality: "Chesterfield (part)",
+    tax: "/files/delegates/mehta-hd73-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
