@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
+import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { Badge } from "@/components/ui/badge";
 import { INVESTIGATIONS } from "@/content/investigations";
@@ -9,6 +10,7 @@ export const Route = createFileRoute("/investigations/")({ component: Investigat
 function InvestigationsIndex() {
   return (
     <SiteShell>
+      <HomeSearch />
       <main className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
         <Kicker>The file</Kicker>
         <h1 className="mt-3 font-serif text-4xl font-medium tracking-tight sm:text-5xl">

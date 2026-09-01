@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
+import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { SITE } from "@/content/site";
 import {
@@ -15,6 +16,7 @@ export const Route = createFileRoute("/2027")({ component: Democrats2027Page });
 function Democrats2027Page() {
   return (
     <SiteShell>
+      <HomeSearch />
       <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
         <Kicker>Virginia</Kicker>
         <p className="mt-3 font-mono text-xs tracking-widest text-muted-foreground uppercase">

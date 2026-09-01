@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
+import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { Badge } from "@/components/ui/badge";
 import { LIBRARY, LIBRARY_KINDS } from "@/content/library";
@@ -18,6 +19,7 @@ function LibraryIndex() {
 
   return (
     <SiteShell>
+      <HomeSearch />
       <main className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
         <Kicker>Public doors</Kicker>
         <h1 className="mt-3 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
