@@ -199,6 +199,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/callsen-hd54-tax.pdf",
   },
   {
+    slug: "laufer-hd55",
+    name: "Amy J. Laufer",
+    district: "HD-55",
+    locality: "Albemarle (part); Fluvanna (part); Louisa (part); Nelson (part)",
+    tax: "/files/delegates/laufer-hd55-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
