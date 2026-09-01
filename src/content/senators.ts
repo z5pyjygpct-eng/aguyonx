@@ -51,6 +51,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Chesapeake City and Portsmouth City",
     tax: "/files/senators/lucas-sd18-tax.pdf",
   },
+  {
+    slug: "williams-graves-sd21",
+    name: "Angelia Williams Graves",
+    district: "SD-21",
+    locality: "Parts of Norfolk City",
+    tax: "/files/senators/williams-graves-sd21-tax.pdf",
+  },
 
 ];
 
