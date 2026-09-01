@@ -402,6 +402,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/askew-hd95-tax.pdf",
   },
   {
+    slug: "convirs-fowler-hd96",
+    name: "Kelly K. Convirs-Fowler",
+    district: "HD-96",
+    locality: "City of Virginia Beach (part)",
+    tax: "/files/delegates/convirs-fowler-hd96-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
