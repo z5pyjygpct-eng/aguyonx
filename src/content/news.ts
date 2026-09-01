@@ -49,10 +49,7 @@ export const NEWS: NewsItem[] = [
     headline: "Federal judge temporarily blocks Virginia law regulating how local law enforcement participate in ICE activities",
     outlet: "WRIC",
     url: "https://www.wric.com/news/virginia-news/federal-judge-injunction-287g-agreements/",
-    people: [
-      { name: "Abigail Spanberger", office: "Governor" },
-      { name: "Jay Jones", office: "Attorney General" },
-    ],
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
     scope: "statewide",
   },
   {
