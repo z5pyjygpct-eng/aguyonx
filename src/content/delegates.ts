@@ -192,6 +192,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/franklin-hd41-tax.pdf",
   },
   {
+    slug: "callsen-hd54",
+    name: "Katrina Callsen",
+    district: "HD-54",
+    locality: "Albemarle (part); City of Charlottesville",
+    tax: "/files/delegates/callsen-hd54-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
