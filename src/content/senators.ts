@@ -44,6 +44,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Henrico County (part)",
     tax: "/files/senators/vanvalkenburg-sd16-tax.pdf",
   },
+  {
+    slug: "lucas-sd18",
+    name: "L. Louise Lucas",
+    district: "SD-18",
+    locality: "Parts of Chesapeake City and Portsmouth City",
+    tax: "/files/senators/lucas-sd18-tax.pdf",
+  },
 
 ];
 
