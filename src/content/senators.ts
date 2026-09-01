@@ -114,6 +114,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Fairfax County",
     tax: "/files/senators/surovell-sd34-tax.pdf",
   },
+  {
+    slug: "marsden-sd35",
+    name: "David W. Marsden",
+    district: "SD-35",
+    locality: "Parts of Fairfax County",
+    tax: "/files/senators/marsden-sd35-tax.pdf",
+  },
 
 ];
 
