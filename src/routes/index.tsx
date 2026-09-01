@@ -10,11 +10,13 @@ import { LIBRARY } from "@/content/library";
 import { OFFICE_DOORS } from "@/content/offices";
 import { HomeSearch } from "@/components/site/home-search";
 import { HomeBooks } from "@/components/site/home-books";
+import { NEWS_DEK, NEWS_EMPTY, formatNewsDate, newsNewestFirst } from "@/content/news";
 
 export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
   const latestArticles = ARTICLES.slice(0, 3);
+  const latestNews = newsNewestFirst().slice(0, 5);
 
   return (
     <SiteShell hideHeader>
@@ -70,6 +72,53 @@ function Home() {
         </nav>
 
         <HomeSearch />
+
+        <section className="border-b border-border">
+          <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <Kicker>News</Kicker>
+                <h2 className="mt-2 font-serif text-3xl font-medium">The clip file</h2>
+                <p className="mt-3 max-w-2xl text-sm text-muted-foreground">{NEWS_DEK}</p>
+              </div>
+              <Button asChild variant="link" className="px-0">
+                <Link to="/news">
+                  All news
+                  <ArrowRight className="size-4" />
+                </Link>
+              </Button>
+            </div>
+            {latestNews.length === 0 ? (
+              <p className="mt-10 max-w-2xl text-muted-foreground">{NEWS_EMPTY}</p>
+            ) : (
+              <ul className="mt-10 divide-y divide-border border-y border-border">
+                {latestNews.map((item) => (
+                  <li key={item.id}>
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="grid gap-2 py-5 transition-[background-color] duration-150 hover:bg-wash sm:grid-cols-12 sm:items-baseline sm:gap-6"
+                    >
+                      <span className="font-mono text-xs text-muted-foreground sm:col-span-2">
+                        {formatNewsDate(item.date)}
+                      </span>
+                      <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase sm:col-span-3">
+                        {item.about.join(", ")}
+                      </span>
+                      <span className="sm:col-span-7">
+                        <h3 className="font-serif text-xl font-medium">{item.headline}</h3>
+                        <p className="mt-1 font-mono text-xs tracking-widest text-muted-foreground uppercase">
+                          {item.outlet}
+                        </p>
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </section>
 
         <HomeBooks />
 

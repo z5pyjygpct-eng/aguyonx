@@ -5,11 +5,12 @@ import { DELEGATE_PAPER_EXTRACTS } from "@/content/delegate-papers";
 import { INVESTIGATIONS } from "@/content/investigations";
 import { INVESTIGATION_EXTRACTS } from "@/content/investigation-papers";
 import { LIBRARY } from "@/content/library";
+import { NEWS, newsNewestFirst } from "@/content/news";
 import { OFFICE_DOORS } from "@/content/offices";
 import { SITE } from "@/content/site";
 import type { BodyBlock, LibraryItem, Story } from "@/content/types";
 
-export type SearchShelf = "Article" | "Investigation" | "Library" | "Delegate paper" | "Book" | "Page";
+export type SearchShelf = "Article" | "News" | "Investigation" | "Library" | "Delegate paper" | "Book" | "Page";
 
 export type SearchHit = {
   id: string;
@@ -234,6 +235,19 @@ function buildIndex(): SearchDoc[] {
   const docs: SearchDoc[] = [];
   docs.push(...storyDocs(ARTICLES, "Article"));
   docs.push(...storyDocs(INVESTIGATIONS, "Investigation"));
+
+  for (const item of newsNewestFirst(NEWS)) {
+    docs.push({
+      id: `news-${item.id}`,
+      title: item.headline,
+      snippet: `${item.outlet}. ${item.about.join(", ")}.`,
+      shelf: "News",
+      href: item.url,
+      titleFields: `${item.headline} ${item.outlet} ${item.about.join(" ")} ${item.scope}`,
+      body: `${item.outlet} ${item.about.join(" ")} ${item.scope}${item.advocacy ? " advocacy" : ""}`,
+      districtNumber: null,
+    });
+  }
 
   for (const item of LIBRARY) {
     if (item.access !== "public") continue;

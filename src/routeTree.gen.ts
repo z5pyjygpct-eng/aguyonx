@@ -11,12 +11,13 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
-import { Route as DelegatesRouteImport } from './routes/delegates'
-import { Route as SenatorsRouteImport } from './routes/senators'
 import { Route as ArticlesRouteImport } from './routes/articles'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as DelegatesRouteImport } from './routes/delegates'
 import { Route as InvestigationsRouteImport } from './routes/investigations'
 import { Route as LibraryRouteImport } from './routes/library'
+import { Route as NewsRouteImport } from './routes/news'
+import { Route as SenatorsRouteImport } from './routes/senators'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
 import { Route as InvestigationsIndexRouteImport } from './routes/investigations.index'
@@ -34,16 +35,6 @@ const AboutRoute = AboutRouteImport.update({
   path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
-const DelegatesRoute = DelegatesRouteImport.update({
-  id: '/delegates',
-  path: '/delegates',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SenatorsRoute = SenatorsRouteImport.update({
-  id: '/senators',
-  path: '/senators',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const ArticlesRoute = ArticlesRouteImport.update({
   id: '/articles',
   path: '/articles',
@@ -54,6 +45,11 @@ const ContactRoute = ContactRouteImport.update({
   path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DelegatesRoute = DelegatesRouteImport.update({
+  id: '/delegates',
+  path: '/delegates',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const InvestigationsRoute = InvestigationsRouteImport.update({
   id: '/investigations',
   path: '/investigations',
@@ -62,6 +58,16 @@ const InvestigationsRoute = InvestigationsRouteImport.update({
 const LibraryRoute = LibraryRouteImport.update({
   id: '/library',
   path: '/library',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NewsRoute = NewsRouteImport.update({
+  id: '/news',
+  path: '/news',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SenatorsRoute = SenatorsRouteImport.update({
+  id: '/senators',
+  path: '/senators',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ArticlesIndexRoute = ArticlesIndexRouteImport.update({
@@ -98,12 +104,13 @@ const LibraryFoiaRoute = LibraryFoiaRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/delegates': typeof DelegatesRoute
-  '/senators': typeof SenatorsRoute
   '/articles': typeof ArticlesRouteWithChildren
   '/contact': typeof ContactRoute
+  '/delegates': typeof DelegatesRoute
   '/investigations': typeof InvestigationsRouteWithChildren
   '/library': typeof LibraryRouteWithChildren
+  '/news': typeof NewsRoute
+  '/senators': typeof SenatorsRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
@@ -114,9 +121,10 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/delegates': typeof DelegatesRoute
-  '/senators': typeof SenatorsRoute
   '/contact': typeof ContactRoute
+  '/delegates': typeof DelegatesRoute
+  '/news': typeof NewsRoute
+  '/senators': typeof SenatorsRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
@@ -128,12 +136,13 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/delegates': typeof DelegatesRoute
-  '/senators': typeof SenatorsRoute
   '/articles': typeof ArticlesRouteWithChildren
   '/contact': typeof ContactRoute
+  '/delegates': typeof DelegatesRoute
   '/investigations': typeof InvestigationsRouteWithChildren
   '/library': typeof LibraryRouteWithChildren
+  '/news': typeof NewsRoute
+  '/senators': typeof SenatorsRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
@@ -146,12 +155,13 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
-    | '/delegates'
-    | '/senators'
     | '/articles'
     | '/contact'
+    | '/delegates'
     | '/investigations'
     | '/library'
+    | '/news'
+    | '/senators'
     | '/articles/$slug'
     | '/investigations/$slug'
     | '/library/foia'
@@ -162,9 +172,10 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/about'
-    | '/delegates'
-    | '/senators'
     | '/contact'
+    | '/delegates'
+    | '/news'
+    | '/senators'
     | '/articles/$slug'
     | '/investigations/$slug'
     | '/library/foia'
@@ -175,12 +186,13 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
-    | '/delegates'
-    | '/senators'
     | '/articles'
     | '/contact'
+    | '/delegates'
     | '/investigations'
     | '/library'
+    | '/news'
+    | '/senators'
     | '/articles/$slug'
     | '/investigations/$slug'
     | '/library/foia'
@@ -192,12 +204,13 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
-  DelegatesRoute: typeof DelegatesRoute
-  SenatorsRoute: typeof SenatorsRoute
   ArticlesRoute: typeof ArticlesRouteWithChildren
   ContactRoute: typeof ContactRoute
+  DelegatesRoute: typeof DelegatesRoute
   InvestigationsRoute: typeof InvestigationsRouteWithChildren
   LibraryRoute: typeof LibraryRouteWithChildren
+  NewsRoute: typeof NewsRoute
+  SenatorsRoute: typeof SenatorsRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -216,20 +229,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/delegates': {
-      id: '/delegates'
-      path: '/delegates'
-      fullPath: '/delegates'
-      preLoaderRoute: typeof DelegatesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/senators': {
-      id: '/senators'
-      path: '/senators'
-      fullPath: '/senators'
-      preLoaderRoute: typeof SenatorsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/articles': {
       id: '/articles'
       path: '/articles'
@@ -244,6 +243,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/delegates': {
+      id: '/delegates'
+      path: '/delegates'
+      fullPath: '/delegates'
+      preLoaderRoute: typeof DelegatesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/investigations': {
       id: '/investigations'
       path: '/investigations'
@@ -256,6 +262,20 @@ declare module '@tanstack/react-router' {
       path: '/library'
       fullPath: '/library'
       preLoaderRoute: typeof LibraryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/news': {
+      id: '/news'
+      path: '/news'
+      fullPath: '/news'
+      preLoaderRoute: typeof NewsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/senators': {
+      id: '/senators'
+      path: '/senators'
+      fullPath: '/senators'
+      preLoaderRoute: typeof SenatorsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/articles/': {
@@ -347,12 +367,13 @@ const LibraryRouteWithChildren =
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
-  DelegatesRoute: DelegatesRoute,
-  SenatorsRoute: SenatorsRoute,
   ArticlesRoute: ArticlesRouteWithChildren,
   ContactRoute: ContactRoute,
+  DelegatesRoute: DelegatesRoute,
   InvestigationsRoute: InvestigationsRouteWithChildren,
   LibraryRoute: LibraryRouteWithChildren,
+  NewsRoute: NewsRoute,
+  SenatorsRoute: SenatorsRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
