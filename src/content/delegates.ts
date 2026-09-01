@@ -241,6 +241,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/cole-n-hd66-tax.pdf",
   },
   {
+    slug: "downey-hd69",
+    name: "Mark C. Downey",
+    district: "HD-69",
+    locality: "Gloucester (part); James City (part); York (part); City of Newport News (part)",
+    tax: "/files/delegates/downey-hd69-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
