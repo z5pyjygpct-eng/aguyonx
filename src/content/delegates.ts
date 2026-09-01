@@ -269,6 +269,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/mehta-hd73-tax.pdf",
   },
   {
+    slug: "dougherty-hd75",
+    name: "Lindsey Dougherty",
+    district: "HD-75",
+    locality: "Chesterfield (part); Prince George (part); City of Hopewell",
+    tax: "/files/delegates/dougherty-hd75-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
