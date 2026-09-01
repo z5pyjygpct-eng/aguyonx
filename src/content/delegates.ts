@@ -255,6 +255,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/simonds-hd70-tax.pdf",
   },
   {
+    slug: "anderson-hd71",
+    name: "Jessica L. Anderson",
+    district: "HD-71",
+    locality: "James City (part); New Kent (part); City of Williamsburg",
+    tax: "/files/delegates/anderson-hd71-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
