@@ -58,6 +58,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Norfolk City",
     tax: "/files/senators/williams-graves-sd21-tax.pdf",
   },
+  {
+    slug: "rouse-sd22",
+    name: "Aaron R. Rouse",
+    district: "SD-22",
+    locality: "Parts of Virginia Beach City",
+    tax: "/files/senators/rouse-sd22-tax.pdf",
+  },
 
 ];
 
