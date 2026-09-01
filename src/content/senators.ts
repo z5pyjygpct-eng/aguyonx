@@ -142,6 +142,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Fairfax County",
     tax: "/files/senators/boysko-sd38-tax.pdf",
   },
+  {
+    slug: "bennett-parker-sd39",
+    name: "Elizabeth B. Bennett-Parker",
+    district: "SD-39",
+    locality: "All of Alexandria City; Parts of Arlington County and Fairfax County",
+    tax: "/files/senators/bennett-parker-sd39-tax.pdf",
+  },
 
 ];
 
