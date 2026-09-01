@@ -311,6 +311,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/levere-bolling-hd80-tax.pdf",
   },
   {
+    slug: "mcquinn-hd81",
+    name: "Delores L. McQuinn",
+    district: "HD-81",
+    locality: "Charles City; Chesterfield (part); Henrico (part)",
+    tax: "/files/delegates/mcquinn-hd81-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
