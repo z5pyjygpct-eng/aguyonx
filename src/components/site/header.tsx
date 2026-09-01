@@ -22,6 +22,7 @@ export const NAV_SHELVES = [
 export const NAV_OFFICES = [
   { to: "/delegates", label: "Delegates" },
   { to: "/senators", label: "Senators" },
+  { to: "/2027", label: "2027 Democrats" },
 ] as const;
 
 export const NAV_DESK = [

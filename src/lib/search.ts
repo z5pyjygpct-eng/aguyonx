@@ -6,11 +6,12 @@ import { INVESTIGATIONS } from "@/content/investigations";
 import { INVESTIGATION_EXTRACTS } from "@/content/investigation-papers";
 import { LIBRARY } from "@/content/library";
 import { NEWS, newsNewestFirst, peopleSearchText, personChip } from "@/content/news";
+import { CANDIDATES_2027 } from "@/content/candidates-2027";
 import { OFFICE_DOORS } from "@/content/offices";
 import { SITE } from "@/content/site";
 import type { BodyBlock, LibraryItem, Story } from "@/content/types";
 
-export type SearchShelf = "Article" | "News" | "Investigation" | "Library" | "Delegate paper" | "Book" | "Page";
+export type SearchShelf = "Article" | "News" | "Investigation" | "Library" | "Delegate paper" | "Book" | "Page" | "2027";
 
 export type SearchHit = {
   id: string;
@@ -320,7 +321,9 @@ function buildIndex(): SearchDoc[] {
     const extra =
       office.to === "/delegates"
         ? "Democrat members with a tax or energy paper on the desk. A link is live only when the file exists."
-        : "No roster. No score. The public site is taste. Commissioned files stay with the desk until someone asks for one.";
+        : office.to === "/2027"
+          ? "Name file of sourced 2027 Democratic candidates. Not the shop."
+          : "No roster. No score. The public site is taste. Commissioned files stay with the desk until someone asks for one.";
     docs.push({
       id: `page-${office.to.slice(1)}`,
       title: office.title,
@@ -329,6 +332,21 @@ function buildIndex(): SearchDoc[] {
       href: office.to,
       titleFields: `${office.title} ${office.navLabel} ${office.chamber}`,
       body: `${office.dek} ${extra}`,
+      districtNumber: null,
+    });
+  }
+
+  for (const c of CANDIDATES_2027) {
+    const loc = c.locality ?? "";
+    const status = c.status ?? "";
+    docs.push({
+      id: `2027-${c.id}`,
+      title: c.name,
+      snippet: [c.officeSought, loc, status].filter(Boolean).join(" · "),
+      shelf: "2027",
+      href: "/2027",
+      titleFields: `${c.name} ${c.officeSought} ${loc} ${status} 2027 Democrat Democrats candidate`,
+      body: `${c.officeSought} ${loc} ${status} 2027 Democrats name file`,
       districtNumber: null,
     });
   }
