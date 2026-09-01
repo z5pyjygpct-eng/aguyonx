@@ -171,6 +171,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/torian-hd24-tax.pdf",
   },
   {
+    slug: "sewell-hd25",
+    name: "Briana D. Sewell",
+    district: "HD-25",
+    locality: "Prince William (part)",
+    tax: "/files/delegates/sewell-hd25-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
