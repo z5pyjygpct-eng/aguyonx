@@ -276,6 +276,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/dougherty-hd75-tax.pdf",
   },
   {
+    slug: "gardner-hd76",
+    name: "Debra D. Gardner",
+    district: "HD-76",
+    locality: "Chesterfield (part)",
+    tax: "/files/delegates/gardner-hd76-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
