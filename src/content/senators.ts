@@ -93,6 +93,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Parts of Fauquier County and Loudoun County",
     tax: "/files/senators/perry-sd31-tax.pdf",
   },
+  {
+    slug: "srinivasan-sd32",
+    name: "Kannan Srinivasan",
+    district: "SD-32",
+    locality: "Parts of Loudoun County",
+    tax: "/files/senators/srinivasan-sd32-tax.pdf",
+  },
 
 ];
 
