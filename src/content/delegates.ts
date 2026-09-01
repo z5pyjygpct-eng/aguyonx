@@ -220,6 +220,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/willett-hd58-tax.pdf",
   },
   {
+    slug: "carroll-hd64",
+    name: "Stacey Annie Carroll",
+    district: "HD-64",
+    locality: "Stafford (part)",
+    tax: "/files/delegates/carroll-hd64-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
