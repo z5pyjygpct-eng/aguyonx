@@ -353,6 +353,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/ward-hd87-tax.pdf",
   },
   {
+    slug: "scott-d-hd88",
+    name: "Don Scott",
+    district: "HD-88",
+    locality: "City of Portsmouth (part)",
+    tax: "/files/delegates/scott-d-hd88-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
