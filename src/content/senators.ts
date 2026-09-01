@@ -23,6 +23,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Charles City; Prince George; Surry; Sussex; Hopewell; Petersburg; Dinwiddie (part); Henrico (part)",
     tax: "/files/senators/aird-sd13-tax.pdf",
   },
+  {
+    slug: "bagby-sd14",
+    name: "Lamont Bagby",
+    district: "SD-14",
+    locality: "Henrico (part); Richmond City (part)",
+    tax: "/files/senators/bagby-sd14-tax.pdf",
+  },
 
 ];
 
