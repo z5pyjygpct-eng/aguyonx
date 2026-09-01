@@ -16,5 +16,13 @@ export const SENATOR_FILES: SenatorFile[] = [
     locality: "Albemarle, Charlottesville, Amherst, Nelson & Louisa (part)",
     tax: "/files/senators/deeds-sd11-tax.pdf",
   },
+  {
+    slug: "aird-sd13",
+    name: "Lashrecse D. Aird",
+    district: "SD-13",
+    locality: "Charles City; Prince George; Surry; Sussex; Hopewell; Petersburg; Dinwiddie (part); Henrico (part)",
+    tax: "/files/senators/aird-sd13-tax.pdf",
+  },
+
 ];
 
