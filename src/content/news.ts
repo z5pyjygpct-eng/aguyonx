@@ -7,6 +7,7 @@ export type NewsOffice =
   | "State Delegate"
   | "Loudoun Supervisor"
   | "Loudoun Chair"
+  | "Loudoun Commonwealth's Attorney candidate"
   | "Fairfax official"
   | "Prince William official";
 
@@ -112,6 +113,15 @@ export const NEWS: NewsItem[] = [
       { name: "Juli Briskman", office: "Loudoun Supervisor" },
       { name: "Phyllis Randall", office: "Loudoun Chair" },
     ],
+    scope: "local",
+  },
+  {
+    id: "ruzic-loudoun-ca-2026-05-06",
+    date: "2026-05-06",
+    headline: "Ruzic Launches Bid for Commonwealth’s Attorney",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/ruzic-launches-bid-for-commonwealth-s-attorney/article_1c4538e0-ac09-4fb8-866f-3599a1438368.html",
+    people: [{ name: "Ryan Ruzic", office: "Loudoun Commonwealth's Attorney candidate" }],
     scope: "local",
   },
 ];

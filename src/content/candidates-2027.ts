@@ -13,7 +13,7 @@ export type Candidate2027 = {
 };
 
 export const CANDIDATES_2027_DEK =
-  "Declared and potential Democratic candidates for 2027 (House, Senate, local). This is a name file, not the shop. Links to already-public news when we have them.";
+  "Declared and potential Democratic candidates for 2027 (House, Senate, local). 2027 also covers constitutional officers (Commonwealth's Attorney, Commissioner of Revenue, Treasurer, Sheriff) when a Democrat is sitting or declared. This is a name file, not the shop. Links to already-public news when we have them.";
 
 export const CANDIDATES_2027_EMPTY =
   "No sourced 2027 Democratic candidates on this roster yet. Tips and corrections: @VaChangeAgent on X.";
@@ -24,6 +24,13 @@ export const CANDIDATES_2027: Candidate2027[] = [
     id: "juli-briskman",
     name: "Juli Briskman",
     officeSought: "Loudoun Chair",
+    locality: "Loudoun County",
+    status: "declared",
+  },
+  {
+    id: "ryan-ruzic",
+    name: "Ryan Ruzic",
+    officeSought: "Loudoun Commonwealth's Attorney",
     locality: "Loudoun County",
     status: "declared",
   },
