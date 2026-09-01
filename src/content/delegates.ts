@@ -234,6 +234,13 @@ export const DELEGATE_FILES: DelegateFile[] = [
     tax: "/files/delegates/cole-jg-hd65-tax.pdf",
   },
   {
+    slug: "cole-n-hd66",
+    name: "Nicole Cole",
+    district: "HD-66",
+    locality: "Caroline (part); Spotsylvania (part)",
+    tax: "/files/delegates/cole-n-hd66-tax.pdf",
+  },
+  {
     slug: "singh-hd26",
     name: 'Jas Jeet "JJ" Singh',
     district: "HD-26",
