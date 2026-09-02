@@ -30,9 +30,14 @@ function Home() {
           />
           <div className="pointer-events-none absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-night/80 to-transparent" />
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-night/80 to-transparent" />
-          <h1 className="absolute inset-x-0 top-6 z-10 px-4 text-center font-sans text-4xl font-semibold tracking-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.65)] sm:top-10 sm:text-6xl lg:text-7xl">
-            The Public Record Is The Story.
-          </h1>
+          <div className="absolute inset-x-0 top-6 z-10 px-4 text-center sm:top-10">
+            <h1 className="font-sans text-4xl font-semibold tracking-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.65)] sm:text-6xl lg:text-7xl">
+              The Public Record Is The Story.
+            </h1>
+            <p className="mt-3 font-sans text-sm tracking-wide text-white/90 drop-shadow-[0_2px_8px_rgba(0,0,0,0.65)] sm:mt-4 sm:text-base">
+              Find what was said, voted, and filed — then jump to the source.
+            </p>
+          </div>
           <nav
             aria-label="Primary"
             className="absolute inset-x-0 bottom-6 z-10 flex flex-wrap justify-center gap-3 px-4 sm:bottom-10 sm:gap-4"
