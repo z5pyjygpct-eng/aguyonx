@@ -10,17 +10,20 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as R2027RouteImport } from './routes/2027'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as ArticlesRouteImport } from './routes/articles'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as CountiesRouteImport } from './routes/counties'
 import { Route as DelegatesRouteImport } from './routes/delegates'
 import { Route as InvestigationsRouteImport } from './routes/investigations'
 import { Route as LibraryRouteImport } from './routes/library'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as SenatorsRouteImport } from './routes/senators'
-import { Route as Route2027Import } from './routes/2027'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
+import { Route as CountiesIndexRouteImport } from './routes/counties.index'
+import { Route as CountiesLoudounRouteImport } from './routes/counties.loudoun'
 import { Route as InvestigationsIndexRouteImport } from './routes/investigations.index'
 import { Route as InvestigationsSlugRouteImport } from './routes/investigations.$slug'
 import { Route as LibraryIndexRouteImport } from './routes/library.index'
@@ -29,6 +32,11 @@ import { Route as LibraryFoiaRouteImport } from './routes/library.foia'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const R2027Route = R2027RouteImport.update({
+  id: '/2027',
+  path: '/2027',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutRoute = AboutRouteImport.update({
@@ -44,6 +52,11 @@ const ArticlesRoute = ArticlesRouteImport.update({
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CountiesRoute = CountiesRouteImport.update({
+  id: '/counties',
+  path: '/counties',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DelegatesRoute = DelegatesRouteImport.update({
@@ -71,11 +84,6 @@ const SenatorsRoute = SenatorsRouteImport.update({
   path: '/senators',
   getParentRoute: () => rootRouteImport,
 } as any)
-const Route2027 = Route2027Import.update({
-  id: '/2027',
-  path: '/2027',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const ArticlesIndexRoute = ArticlesIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -85,6 +93,16 @@ const ArticlesSlugRoute = ArticlesSlugRouteImport.update({
   id: '/$slug',
   path: '/$slug',
   getParentRoute: () => ArticlesRoute,
+} as any)
+const CountiesIndexRoute = CountiesIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => CountiesRoute,
+} as any)
+const CountiesLoudounRoute = CountiesLoudounRouteImport.update({
+  id: '/loudoun',
+  path: '/loudoun',
+  getParentRoute: () => CountiesRoute,
 } as any)
 const InvestigationsIndexRoute = InvestigationsIndexRouteImport.update({
   id: '/',
@@ -109,53 +127,61 @@ const LibraryFoiaRoute = LibraryFoiaRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/articles': typeof ArticlesRouteWithChildren
   '/contact': typeof ContactRoute
+  '/counties': typeof CountiesRouteWithChildren
   '/delegates': typeof DelegatesRoute
   '/investigations': typeof InvestigationsRouteWithChildren
   '/library': typeof LibraryRouteWithChildren
   '/news': typeof NewsRoute
   '/senators': typeof SenatorsRoute
-  '/2027': typeof Route2027
   '/articles/$slug': typeof ArticlesSlugRoute
+  '/counties/loudoun': typeof CountiesLoudounRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/articles/': typeof ArticlesIndexRoute
+  '/counties/': typeof CountiesIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
   '/delegates': typeof DelegatesRoute
   '/news': typeof NewsRoute
   '/senators': typeof SenatorsRoute
-  '/2027': typeof Route2027
   '/articles/$slug': typeof ArticlesSlugRoute
+  '/counties/loudoun': typeof CountiesLoudounRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/articles': typeof ArticlesIndexRoute
+  '/counties': typeof CountiesIndexRoute
   '/investigations': typeof InvestigationsIndexRoute
   '/library': typeof LibraryIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/articles': typeof ArticlesRouteWithChildren
   '/contact': typeof ContactRoute
+  '/counties': typeof CountiesRouteWithChildren
   '/delegates': typeof DelegatesRoute
   '/investigations': typeof InvestigationsRouteWithChildren
   '/library': typeof LibraryRouteWithChildren
   '/news': typeof NewsRoute
   '/senators': typeof SenatorsRoute
-  '/2027': typeof Route2027
   '/articles/$slug': typeof ArticlesSlugRoute
+  '/counties/loudoun': typeof CountiesLoudounRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/articles/': typeof ArticlesIndexRoute
+  '/counties/': typeof CountiesIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
 }
@@ -163,67 +189,76 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/2027'
     | '/about'
     | '/articles'
     | '/contact'
+    | '/counties'
     | '/delegates'
     | '/investigations'
     | '/library'
     | '/news'
     | '/senators'
-    | '/2027'
     | '/articles/$slug'
+    | '/counties/loudoun'
     | '/investigations/$slug'
     | '/library/foia'
     | '/articles/'
+    | '/counties/'
     | '/investigations/'
     | '/library/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/2027'
     | '/about'
     | '/contact'
     | '/delegates'
     | '/news'
     | '/senators'
-    | '/2027'
     | '/articles/$slug'
+    | '/counties/loudoun'
     | '/investigations/$slug'
     | '/library/foia'
     | '/articles'
+    | '/counties'
     | '/investigations'
     | '/library'
   id:
     | '__root__'
     | '/'
+    | '/2027'
     | '/about'
     | '/articles'
     | '/contact'
+    | '/counties'
     | '/delegates'
     | '/investigations'
     | '/library'
     | '/news'
     | '/senators'
-    | '/2027'
     | '/articles/$slug'
+    | '/counties/loudoun'
     | '/investigations/$slug'
     | '/library/foia'
     | '/articles/'
+    | '/counties/'
     | '/investigations/'
     | '/library/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  R2027Route: typeof R2027Route
   AboutRoute: typeof AboutRoute
   ArticlesRoute: typeof ArticlesRouteWithChildren
   ContactRoute: typeof ContactRoute
+  CountiesRoute: typeof CountiesRouteWithChildren
   DelegatesRoute: typeof DelegatesRoute
   InvestigationsRoute: typeof InvestigationsRouteWithChildren
   LibraryRoute: typeof LibraryRouteWithChildren
   NewsRoute: typeof NewsRoute
   SenatorsRoute: typeof SenatorsRoute
-  Route2027: typeof Route2027
 }
 
 declare module '@tanstack/react-router' {
@@ -233,6 +268,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/2027': {
+      id: '/2027'
+      path: '/2027'
+      fullPath: '/2027'
+      preLoaderRoute: typeof R2027RouteImport
       parentRoute: typeof rootRouteImport
     }
     '/about': {
@@ -254,6 +296,13 @@ declare module '@tanstack/react-router' {
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/counties': {
+      id: '/counties'
+      path: '/counties'
+      fullPath: '/counties'
+      preLoaderRoute: typeof CountiesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/delegates': {
@@ -291,13 +340,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SenatorsRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/2027': {
-      id: '/2027'
-      path: '/2027'
-      fullPath: '/2027'
-      preLoaderRoute: typeof Route2027Import
-      parentRoute: typeof rootRouteImport
-    }
     '/articles/': {
       id: '/articles/'
       path: '/'
@@ -311,6 +353,20 @@ declare module '@tanstack/react-router' {
       fullPath: '/articles/$slug'
       preLoaderRoute: typeof ArticlesSlugRouteImport
       parentRoute: typeof ArticlesRoute
+    }
+    '/counties/': {
+      id: '/counties/'
+      path: '/'
+      fullPath: '/counties/'
+      preLoaderRoute: typeof CountiesIndexRouteImport
+      parentRoute: typeof CountiesRoute
+    }
+    '/counties/loudoun': {
+      id: '/counties/loudoun'
+      path: '/loudoun'
+      fullPath: '/counties/loudoun'
+      preLoaderRoute: typeof CountiesLoudounRouteImport
+      parentRoute: typeof CountiesRoute
     }
     '/investigations/': {
       id: '/investigations/'
@@ -357,6 +413,20 @@ const ArticlesRouteWithChildren = ArticlesRoute._addFileChildren(
   ArticlesRouteChildren,
 )
 
+interface CountiesRouteChildren {
+  CountiesLoudounRoute: typeof CountiesLoudounRoute
+  CountiesIndexRoute: typeof CountiesIndexRoute
+}
+
+const CountiesRouteChildren: CountiesRouteChildren = {
+  CountiesLoudounRoute: CountiesLoudounRoute,
+  CountiesIndexRoute: CountiesIndexRoute,
+}
+
+const CountiesRouteWithChildren = CountiesRoute._addFileChildren(
+  CountiesRouteChildren,
+)
+
 interface InvestigationsRouteChildren {
   InvestigationsSlugRoute: typeof InvestigationsSlugRoute
   InvestigationsIndexRoute: typeof InvestigationsIndexRoute
@@ -386,15 +456,16 @@ const LibraryRouteWithChildren =
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  R2027Route: R2027Route,
   AboutRoute: AboutRoute,
   ArticlesRoute: ArticlesRouteWithChildren,
   ContactRoute: ContactRoute,
+  CountiesRoute: CountiesRouteWithChildren,
   DelegatesRoute: DelegatesRoute,
   InvestigationsRoute: InvestigationsRouteWithChildren,
   LibraryRoute: LibraryRouteWithChildren,
   NewsRoute: NewsRoute,
   SenatorsRoute: SenatorsRoute,
-  Route2027: Route2027,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -1,5 +1,5 @@
 export type OfficeDoor = {
-  to: "/delegates" | "/senators" | "/2027";
+  to: "/delegates" | "/senators" | "/counties" | "/2027";
   navLabel: string;
   title: string;
   chamber: string;
@@ -21,6 +21,13 @@ export const OFFICE_DOORS: OfficeDoor[] = [
     title: "VA Senators",
     chamber: "Senate of Virginia",
     dek: "Democrat Senate members. Tax and energy papers, when they exist.",
+  },
+  {
+    to: "/counties",
+    navLabel: "Counties",
+    title: "VA Counties",
+    chamber: "Local meetings · public record",
+    dek: "County doors for local meetings and the official record. Taste, not the shop — Loudoun live first.",
   },
   {
     to: "/2027",

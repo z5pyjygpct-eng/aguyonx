@@ -342,7 +342,9 @@ function buildIndex(): SearchDoc[] {
         ? "Democrat members with a tax or energy paper on the desk. A link is live only when the file exists."
         : office.to === "/2027"
           ? "Name file of sourced 2027 Democratic candidates. Not the shop."
-          : "No roster. No score. The public site is taste. Commissioned files stay with the desk until someone asks for one.";
+          : office.to === "/counties"
+            ? "County doors for local meetings and the official record. Loudoun live. Fairfax and Prince William coming soon. Taste not shop."
+            : "No roster. No score. The public site is taste. Commissioned files stay with the desk until someone asks for one.";
     docs.push({
       id: `page-${office.to.slice(1)}`,
       title: office.title,
@@ -354,6 +356,17 @@ function buildIndex(): SearchDoc[] {
       districtNumber: null,
     });
   }
+
+  docs.push({
+    id: "page-counties-loudoun",
+    title: "Loudoun County",
+    snippet: "Board of Supervisors, meeting speech search, official doors.",
+    shelf: "Page",
+    href: "/counties/loudoun",
+    titleFields: "Loudoun County VA Counties BOS Board of Supervisors Granicus meeting search",
+    body: "Loudoun County Board of Supervisors public hearing meeting speech search find then listen Granicus clip captions index not transcript. Thin roster. Official doors to loudoun.gov and Granicus. Taste not shop.",
+    districtNumber: null,
+  });
 
   for (const c of CANDIDATES_2027) {
     const loc = c.locality ?? "";
