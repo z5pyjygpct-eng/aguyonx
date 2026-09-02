@@ -44,6 +44,31 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "spanberger-beef-imports-cardinal-2026-09-02",
+    date: "2026-09-02",
+    headline: "Spanberger has a beef with Trump over beef imports. So do some Virginia farmers.",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/02/spanberger-has-a-beef-with-trump-over-beef-imports-so-do-some-virginia-farmers/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Sam Rasoul", office: "State Delegate" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "wapo-felon-voting-gibney-2026-09-01",
+    date: "2026-09-01",
+    headline: "Virginia was ordered to stop barring many felons from voting. The issue persists.",
+    outlet: "Washington Post",
+    url: "https://valawyersweekly.com/2026/09/01/virginia-federal-court-orders-halt-to-illegal-felon-voter-disenfranchisement/",
+    people: [
+      { name: "Jay Jones", office: "Attorney General" },
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Mamie Locke", office: "State Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
     id: "wric-287g-injunction-2026-09-01",
     date: "2026-09-01",
     headline: "Federal judge temporarily blocks Virginia law regulating how local law enforcement participate in ICE activities",
@@ -89,6 +114,16 @@ export const NEWS: NewsItem[] = [
       { name: "Abigail Spanberger", office: "Governor" },
     ],
     scope: "statewide",
+  },
+  {
+    id: "umstattd-loudoun-no-reelection-2026-08-31",
+    date: "2026-08-31",
+    filed: "2026-09-02",
+    headline: "Umstattd Will Not Seek Reelection in 2027",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/umstattd-will-not-seek-reelection-in-2027/article_fb07c580-02db-4dc6-9187-7574a0451841.html",
+    people: [{ name: "Kristen Umstattd", office: "Loudoun Supervisor" }],
+    scope: "local",
   },
   {
     id: "spanberger-voting-rights-100k-2026-08-29",
@@ -193,6 +228,16 @@ export const NEWS: NewsItem[] = [
       { name: "Juli Briskman", office: "Loudoun Supervisor" },
       { name: "Phyllis Randall", office: "Loudoun Chair" },
     ],
+    scope: "local",
+  },
+  {
+    id: "descano-jordan-stonewall-2026-08-24",
+    date: "2026-08-24",
+    filed: "2026-09-02",
+    headline: "Fairfax prosecutor accused of stonewalling Congressional illegal immigration investigation",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/fairfax-county-commonwealths-attorney-steve-descano-house-judiciary-committee-jim-jordan-tom-mcclintock-congress-investigation-immigration-defendants-prosecution-policies-plea-deals-abdul-jalloh-stephanie-minter-murder-charges-records-nolle-prosequi",
+    people: [{ name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" }],
     scope: "local",
   },
   {
