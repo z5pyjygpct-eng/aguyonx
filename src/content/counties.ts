@@ -17,13 +17,13 @@ export const COUNTIES: CountyDoor[] = [
     slug: "fairfax",
     name: "Fairfax County",
     live: false,
-    dek: "Coming soon. Local meetings and the public record — taste, not the shop.",
+    dek: "Coming soon. Local meetings and the public record.",
   },
   {
     slug: "pwc",
     name: "Prince William County",
     live: false,
-    dek: "Coming soon. Local meetings and the public record — taste, not the shop.",
+    dek: "Coming soon. Local meetings and the public record.",
   },
 ];
 

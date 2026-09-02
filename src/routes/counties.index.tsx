@@ -19,8 +19,7 @@ function CountiesIndex() {
           VA Counties
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          County doors for meetings and the official record. Taste, not the shop — no dossiers, no
-          finance tabs, no findings.
+          County doors for meetings and the official record. No dossiers.
         </p>
         <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {COUNTIES.map((county) => (

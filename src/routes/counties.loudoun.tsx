@@ -44,8 +44,8 @@ function LoudounCountyPage() {
           Loudoun County
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          Search one public hearing, skim the Board of Supervisors, and walk out the official doors.
-          Public = taste. No Twin shop tabs.
+          Search one public hearing, skim the Board of Supervisors, and open the official
+          record. No dossiers.
         </p>
 
         <div className="mt-10">

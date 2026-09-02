@@ -27,7 +27,7 @@ export const OFFICE_DOORS: OfficeDoor[] = [
     navLabel: "Counties",
     title: "VA Counties",
     chamber: "Local meetings · public record",
-    dek: "County doors for local meetings and the official record. Taste, not the shop — Loudoun live first.",
+    dek: "County doors for local meetings and the official record. Loudoun live first.",
   },
   {
     to: "/2027",
