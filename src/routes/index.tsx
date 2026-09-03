@@ -15,6 +15,15 @@ import { NEWS_DEK, NEWS_EMPTY, formatNewsDate, newsFiledLine, newsNewestFirst } 
 
 export const Route = createFileRoute("/")({ component: Home });
 
+const HERO_SHELVES = [
+  { to: "/about", label: "About" },
+  { to: "/contact", label: "Contact" },
+  { to: "/investigations", label: "Investigations" },
+  { to: "/articles", label: "Articles" },
+  { to: "/library", label: "Library" },
+] as const;
+
+
 function Home() {
   const latestArticles = ARTICLES.slice(0, 3);
   const latestNews = newsNewestFirst().slice(0, 4);
@@ -23,43 +32,56 @@ function Home() {
     <SiteShell hideHeader>
       <main>
         <section className="relative isolate bg-night">
-          <img
-            src="/images/va-change-hero.png"
-            alt="VA Change Agent: a figure on the X, Virginia behind"
-            className="block h-auto w-full"
-          />
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-night/80 to-transparent" />
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-night/80 to-transparent" />
-          <div className="absolute inset-x-0 top-6 z-10 px-4 text-center sm:top-10">
-            <h1 className="font-sans text-4xl font-semibold tracking-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.65)] sm:text-6xl lg:text-7xl">
+          <div className="relative">
+            <img
+              src="/images/va-change-hero.png"
+              alt="VA Change Agent: a figure on the X, Virginia behind"
+              className="block h-auto w-full"
+            />
+            <div className="pointer-events-none absolute inset-x-0 top-0 hidden h-40 bg-gradient-to-b from-night/80 to-transparent md:block" />
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 hidden h-40 bg-gradient-to-t from-night/80 to-transparent md:block" />
+            <div className="absolute inset-x-0 top-6 z-10 hidden px-4 text-center sm:top-10 md:block">
+              <h1 className="font-sans text-4xl font-semibold tracking-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.65)] sm:text-6xl lg:text-7xl">
+                The Public Record Is The Story.
+              </h1>
+              <p className="mt-3 font-sans text-sm tracking-wide text-white/90 drop-shadow-[0_2px_8px_rgba(0,0,0,0.65)] sm:mt-4 sm:text-base">
+                Find what was said, voted, and filed — then jump to the source.
+              </p>
+            </div>
+            <nav
+              aria-label="Primary"
+              className="absolute inset-x-0 bottom-6 z-10 hidden flex-wrap justify-center gap-3 px-4 sm:bottom-10 sm:gap-4 md:flex"
+            >
+              {HERO_SHELVES.map((item) => (
+                <Link
+                  key={item.to}
+                  to={item.to}
+                  className="inline-flex items-center rounded-md bg-[#E6E1D4] px-6 py-3 font-sans text-sm font-semibold tracking-[0.16em] text-night uppercase sm:px-8 sm:py-3.5 sm:text-base md:px-10 md:py-4 md:text-lg"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+          <div className="border-b border-white/10 px-4 py-8 text-center md:hidden">
+            <h1 className="font-sans text-3xl font-semibold tracking-tight text-white">
               The Public Record Is The Story.
             </h1>
-            <p className="mt-3 font-sans text-sm tracking-wide text-white/90 drop-shadow-[0_2px_8px_rgba(0,0,0,0.65)] sm:mt-4 sm:text-base">
+            <p className="mt-3 font-sans text-sm tracking-wide text-white/90">
               Find what was said, voted, and filed — then jump to the source.
             </p>
+            <nav aria-label="Primary" className="mt-6 flex flex-wrap justify-center gap-3">
+              {HERO_SHELVES.map((item) => (
+                <Link
+                  key={item.to}
+                  to={item.to}
+                  className="inline-flex min-h-11 items-center rounded-md bg-[#E6E1D4] px-5 py-3 font-sans text-sm font-semibold tracking-[0.16em] text-night uppercase"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
           </div>
-          <nav
-            aria-label="Primary"
-            className="absolute inset-x-0 bottom-6 z-10 flex flex-wrap justify-center gap-3 px-4 sm:bottom-10 sm:gap-4"
-          >
-            {(
-              [
-                { to: "/about", label: "About" },
-                { to: "/contact", label: "Contact" },
-                { to: "/investigations", label: "Investigations" },
-                { to: "/articles", label: "Articles" },
-                { to: "/library", label: "Library" },
-              ] as const
-            ).map((item) => (
-              <Link
-                key={item.to}
-                to={item.to}
-                className="inline-flex items-center rounded-md bg-[#E6E1D4] px-6 py-3 font-sans text-sm font-semibold tracking-[0.16em] text-night uppercase sm:px-8 sm:py-3.5 sm:text-base md:px-10 md:py-4 md:text-lg"
-              >
-                {item.label}
-              </Link>
-            ))}
-          </nav>
         </section>
 
         <nav
