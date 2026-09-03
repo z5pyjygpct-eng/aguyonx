@@ -44,6 +44,57 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "va-job-losses-data-centers-cardinal-2026-09-03",
+    date: "2026-09-03",
+    headline:
+      "Virginia's job losses are accelerating, economic report says. Data center construction may be propping up the economy.",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/03/virginias-job-losses-are-accelerating-economic-report-says-data-center-construction-may-be-propping-up-the-economy/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "L. Louise Lucas", office: "State Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-jahelka-weighs-in-wjla-2026-09-02",
+    date: "2026-09-02",
+    filed: "2026-09-03",
+    headline: "Governor Spanberger weighs in after man involved in Fairfax murder case leaves country",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/governor-spanberger-weighs-in-after-man-involved-in-fairfax-county-murder-case-leaves-country-alexander-jahelka-september-2026",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "loudoun-data-center-grandfather-2026-09-02",
+    date: "2026-09-02",
+    filed: "2026-09-03",
+    headline:
+      "'Turn Over Every Rock': Loudoun Supervisors Ask for Legal Opinion on Ending Grandfathered Data Center Protections",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/turn-over-every-rock-loudoun-supervisors-ask-for-legal-opinion-on-ending-grandfathered-data-center/article_588795b5-8135-486a-84a7-86b1b33e5501.html",
+    people: [
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+      { name: "Juli Briskman", office: "Loudoun Supervisor" },
+      { name: "Laura TeKrony", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "descano-jahelka-release-fox5-2026-09-01",
+    date: "2026-09-01",
+    filed: "2026-09-03",
+    headline: "Another accused killer released from Virginia mental health facility after insanity plea",
+    outlet: "FOX 5 DC",
+    url: "https://www.fox5dc.com/news/another-accused-killer-released-from-virginia-mental-health-facility-after-insanity-plea",
+    people: [{ name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" }],
+    scope: "local",
+  },
+  {
     id: "spanberger-beef-imports-cardinal-2026-09-02",
     date: "2026-09-02",
     headline: "Spanberger has a beef with Trump over beef imports. So do some Virginia farmers.",
