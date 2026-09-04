@@ -44,6 +44,50 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "spanberger-nextera-special-session-decline-vascope-2026-09-03",
+    date: "2026-09-03",
+    filed: "2026-09-04",
+    headline:
+      "Spanberger declines to call second special session for consideration of merger review extension",
+    outlet: "Virginia Scope",
+    url: "https://www.virginiascope.com/spanberger-declines-to-call-second-special-session-for-consideration-of-merger-review-extension/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-flock-cameras-wtop-2026-09-03",
+    date: "2026-09-03",
+    filed: "2026-09-04",
+    headline: "Va. governor says calls to ban Flock license reader cameras 'overly simplistic'",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/va-governor-considers-calls-to-ban-flock-license-reader-cameras-overly-simplistic/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Lashrecse Aird", office: "State Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "lucas-wiretap-letters-vascope-2026-09-03",
+    date: "2026-09-03",
+    filed: "2026-09-04",
+    headline:
+      "A second round of letters notifies individuals that their calls with Sen. Louise Lucas were tapped",
+    outlet: "Virginia Scope",
+    url: "https://www.virginiascope.com/a-second-round-of-letters-notifies-individuals-that-their-calls-with-sen-louise-lucas-were-tapped/",
+    people: [{ name: "L. Louise Lucas", office: "State Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "descano-recall-petition-ffxtimes-2026-09-04",
+    date: "2026-09-04",
+    headline: "Mother petitions to recall Descano",
+    outlet: "Fairfax County Times",
+    url: "https://www.fairfaxtimes.com/articles/mother-petitions-to-recall-descano/article_3cb15831-5fb6-4365-b8b0-e3b79a7f2b30.html",
+    people: [{ name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" }],
+    scope: "local",
+  },
+  {
     id: "va-job-losses-data-centers-cardinal-2026-09-03",
     date: "2026-09-03",
     headline:
