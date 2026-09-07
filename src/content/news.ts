@@ -44,6 +44,17 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "scott-nextera-scc-letter-vamercury-2026-09-03",
+    date: "2026-09-03",
+    filed: "2026-09-07",
+    headline:
+      "Va. House speaker details 'concerns' about NextEra-Dominion merger in letter to state regulators",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/03/va-house-speaker-scott-details-concerns-about-nextera-dominion-merger-in-letter-to-state-regulators/",
+    people: [{ name: "Don Scott", office: "State Delegate" }],
+    scope: "statewide",
+  },
+  {
     id: "spanberger-nextera-special-session-decline-vascope-2026-09-03",
     date: "2026-09-03",
     filed: "2026-09-04",
