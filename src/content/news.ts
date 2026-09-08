@@ -47,6 +47,17 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "luria-staten-ballot-suit-vascope-2026-09-04",
+    date: "2026-09-04",
+    filed: "2026-09-08",
+    headline:
+      "Luria files lawsuit against Department of Elections questioning validity of Independent candidates' signatures",
+    outlet: "Virginia Scope",
+    url: "https://www.virginiascope.com/luria-files-lawsuit-against-department-of-elections-questioning-validity-of-independent-candidates-signatures/",
+    people: [{ name: "Elaine Luria", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+  {
     id: "acpd-ice-mejia-hernandez-arlnow-2026-09-04",
     date: "2026-09-04",
     filed: "2026-09-07",
