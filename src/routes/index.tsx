@@ -9,6 +9,7 @@ import { ARTICLES } from "@/content/articles";
 import { LIBRARY } from "@/content/library";
 import { OFFICE_DOORS } from "@/content/offices";
 import { HomeSearch } from "@/components/site/home-search";
+import { HomeFindTheMoment } from "@/components/site/home-find-the-moment";
 import { HomeBooks } from "@/components/site/home-books";
 import { NewsPeople } from "@/components/site/news-people";
 import { NEWS_DEK, NEWS_EMPTY, formatNewsDate, newsFiledLine, newsNewestFirst } from "@/content/news";
@@ -98,6 +99,8 @@ function Home() {
             </Link>
           ))}
         </nav>
+
+        <HomeFindTheMoment />
 
         <HomeSearch />
 
