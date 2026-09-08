@@ -2,11 +2,15 @@ import { useMemo, useState, type FormEvent, type ReactNode } from "react";
 import { ExternalLink, Search } from "lucide-react";
 import {
   LOUDOUN_CAPTION_WINDOWS,
-  LOUDOUN_MEETING,
+  LOUDOUN_MEETING_BY_CLIP,
+  LOUDOUN_MEETINGS,
   LOUDOUN_TOPIC_CHIPS,
+  loudounJumpUrl,
   type CaptionWindow,
 } from "@/content/loudoun";
 import { cn } from "@/lib/utils";
+
+const HIT_CAP = 60;
 
 function secToHms(raw: number): string {
   const s = Math.floor(raw);
@@ -45,15 +49,19 @@ function HighlightedSnippet({ text, query }: { text: string; query: string }) {
   return <>{nodes}</>;
 }
 
-function searchWindows(query: string): CaptionWindow[] {
+function searchWindows(query: string, clipFilter: number | "all"): CaptionWindow[] {
   const q = query.trim().toLowerCase();
   if (!q) return [];
-  return LOUDOUN_CAPTION_WINDOWS.filter((w) => w.text.toLowerCase().includes(q));
+  return LOUDOUN_CAPTION_WINDOWS.filter((w) => {
+    if (clipFilter !== "all" && w.clipId !== clipFilter) return false;
+    return w.text.toLowerCase().includes(q);
+  });
 }
 
 export function LoudounMeetingSearch() {
   const [q, setQ] = useState("");
   const [submitted, setSubmitted] = useState("");
+  const [clipFilter, setClipFilter] = useState<number | "all">("all");
 
   function runSearch(next: string) {
     setQ(next);
@@ -66,7 +74,11 @@ export function LoudounMeetingSearch() {
   }
 
   const query = submitted.trim();
-  const hits = useMemo(() => (query ? searchWindows(query) : []), [query]);
+  const hits = useMemo(
+    () => (query ? searchWindows(query, clipFilter) : []),
+    [query, clipFilter],
+  );
+  const shown = hits.slice(0, HIT_CAP);
 
   return (
     <section className="rounded-md border border-border bg-card px-4 py-6 sm:px-6 sm:py-8">
@@ -74,11 +86,11 @@ export function LoudounMeetingSearch() {
         Find then listen
       </p>
       <h2 className="mt-2 font-serif text-2xl font-medium tracking-tight sm:text-3xl">
-        Search the meeting
+        Search Loudoun meetings
       </h2>
       <p className="mt-2 text-sm text-muted-foreground">
-        {LOUDOUN_MEETING.title} · {LOUDOUN_MEETING.dateLabel} · Granicus clip{" "}
-        {LOUDOUN_MEETING.clipId}
+        {LOUDOUN_MEETINGS.length} Board meetings indexed · public Granicus captions · jump to the
+        moment
       </p>
 
       <aside className="mt-5 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">
@@ -89,7 +101,7 @@ export function LoudounMeetingSearch() {
 
       <form role="search" onSubmit={onSubmit} className="mt-6 flex flex-col gap-3 sm:flex-row">
         <label htmlFor="loudoun-meeting-q" className="sr-only">
-          Search the meeting
+          Search Loudoun meetings
         </label>
         <div className="relative min-w-0 flex-1">
           <Search
@@ -121,54 +133,94 @@ export function LoudounMeetingSearch() {
         </button>
       </form>
 
-      <div className="mt-4 flex flex-wrap items-center gap-2">
-        <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
-          Topics
-        </span>
-        {LOUDOUN_TOPIC_CHIPS.map((chip) => (
-          <button
-            key={chip.label}
-            type="button"
-            onClick={() => runSearch(chip.query)}
-            className={cn(
-              "rounded-full border border-border bg-wash px-3 py-1.5 font-sans text-xs font-medium text-foreground transition-[background-color,border-color,color] hover:border-[#0d7377] hover:bg-[#e4f2f2] hover:text-[#095456]",
-              query.toLowerCase() === chip.query.toLowerCase() &&
-                "border-[#0d7377] bg-[#e4f2f2] text-[#095456]",
-            )}
+      <div className="mt-4 flex flex-col gap-3">
+        <div className="flex flex-wrap items-center gap-2">
+          <label
+            htmlFor="loudoun-meeting-filter"
+            className="font-mono text-xs tracking-widest text-muted-foreground uppercase"
           >
-            {chip.label}
-          </button>
-        ))}
+            Meeting
+          </label>
+          <select
+            id="loudoun-meeting-filter"
+            value={clipFilter === "all" ? "all" : String(clipFilter)}
+            onChange={(e) => {
+              const v = e.target.value;
+              setClipFilter(v === "all" ? "all" : Number(v));
+            }}
+            className="h-9 max-w-full rounded-md border border-input bg-paper px-3 font-sans text-sm text-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+          >
+            <option value="all">All indexed meetings</option>
+            {LOUDOUN_MEETINGS.map((m) => (
+              <option key={m.clipId} value={m.clipId}>
+                {m.dateLabel} · {m.title.replace(/^Loudoun BOS /, "")}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+            Topics
+          </span>
+          {LOUDOUN_TOPIC_CHIPS.map((chip) => (
+            <button
+              key={chip.label}
+              type="button"
+              onClick={() => runSearch(chip.query)}
+              className={cn(
+                "rounded-full border border-border bg-wash px-3 py-1.5 font-sans text-xs font-medium text-foreground transition-[background-color,border-color,color] hover:border-[#0d7377] hover:bg-[#e4f2f2] hover:text-[#095456]",
+                query.toLowerCase() === chip.query.toLowerCase() &&
+                  "border-[#0d7377] bg-[#e4f2f2] text-[#095456]",
+              )}
+            >
+              {chip.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       <p className="mt-5 min-h-[1.25rem] font-mono text-xs text-muted-foreground" aria-live="polite">
         {!query
           ? "Enter a name or phrase, or tap a topic chip. Jump to the moment on Granicus."
           : hits.length
-            ? `${hits.length} window${hits.length === 1 ? "" : "s"} · captions are approximate`
+            ? `${hits.length} window${hits.length === 1 ? "" : "s"}${
+                hits.length > HIT_CAP ? ` · showing first ${HIT_CAP}` : ""
+              } · captions are approximate`
             : `No hits for “${query}” — try a shorter stem (e.g. zone, supervis).`}
       </p>
 
       {query && hits.length === 0 ? (
         <p className="mt-4 text-sm text-muted-foreground">
-          Nothing matched. Auto-captions misspell constantly — shorter tokens work better.
+          Nothing matched. Auto-captions misspell constantly — shorter tokens work better. Or widen
+          the meeting filter to All.
         </p>
       ) : null}
 
-      {hits.length > 0 ? (
+      {shown.length > 0 ? (
         <ul className="mt-4 space-y-3">
-          {hits.map((w) => {
+          {shown.map((w) => {
             const sec = Math.floor(w.start);
-            const href = LOUDOUN_MEETING.jumpUrl(sec);
+            const href = loudounJumpUrl(w.clipId, sec);
+            const meeting = LOUDOUN_MEETING_BY_CLIP[w.clipId];
             return (
               <li
-                key={`${w.start}-${w.end}`}
+                key={`${w.clipId}-${w.start}-${w.end}`}
                 className="rounded-md border border-border bg-paper px-4 py-4"
               >
                 <div className="flex flex-wrap items-center justify-between gap-3">
-                  <p className="font-mono text-sm font-semibold tabular-nums text-[#1E4B8E]">
-                    {secToHms(w.start)}
-                  </p>
+                  <div className="min-w-0">
+                    <p className="font-mono text-sm font-semibold tabular-nums text-[#1E4B8E]">
+                      {secToHms(w.start)}
+                    </p>
+                    {meeting ? (
+                      <p className="mt-0.5 text-xs text-muted-foreground">
+                        {meeting.dateLabel} · {meeting.title.replace(/^Loudoun BOS /, "")}
+                      </p>
+                    ) : (
+                      <p className="mt-0.5 text-xs text-muted-foreground">clip {w.clipId}</p>
+                    )}
+                  </div>
                   <a
                     href={href}
                     target="_blank"

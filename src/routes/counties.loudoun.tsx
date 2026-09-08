@@ -6,6 +6,7 @@ import { Kicker } from "@/components/site/kicker";
 import { LoudounMeetingSearch } from "@/components/site/loudoun-meeting-search";
 import {
   LOUDOUN_BOS,
+  LOUDOUN_MEETINGS,
   LOUDOUN_OFFICIAL_DOORS,
 } from "@/content/loudoun";
 import { cn } from "@/lib/utils";
@@ -44,13 +45,32 @@ function LoudounCountyPage() {
           Loudoun County
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          Search one public hearing, skim the Board of Supervisors, and open the official
-          record. No dossiers.
+          Search {LOUDOUN_MEETINGS.length} Board meetings, jump to the moment on Granicus, skim the
+          Board of Supervisors, and open the official record. Loudoun is live. Fairfax and Prince
+          William need fuel.
         </p>
 
         <div className="mt-10">
           <LoudounMeetingSearch />
         </div>
+
+        <aside className="mt-8 rounded-md border border-border bg-wash px-5 py-5 text-sm leading-relaxed text-muted-foreground">
+          <p className="font-sans text-base font-semibold text-foreground">
+            We did it for Loudoun. Help us do Fairfax and PWC.
+          </p>
+          <p className="mt-2">
+            County meeting speech-search is a free public door — captions as an index, video as the
+            proof. Tip-jar fuel (when the GiveSendGo campaign is live) and commissioned work both go
+            through{" "}
+            <Link to="/contact" className="font-medium text-[#1E4B8E] underline-offset-2 hover:underline">
+              Contact
+            </Link>
+            . No prices on this page. No private dossiers on this shelf.
+          </p>
+          <p className="mt-2">
+            — A Guy on X / @VaChangeAgent
+          </p>
+        </aside>
 
         <section className="mt-14">
           <Kicker>Board of Supervisors</Kicker>
@@ -85,7 +105,7 @@ function LoudounCountyPage() {
           <Kicker>Official doors</Kicker>
           <h2 className="mt-2 font-serif text-3xl font-medium">Out to the record</h2>
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
-            County and Granicus links only. Listen on their player.
+            Indexed Granicus meetings plus county links. Listen on their player.
           </p>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {LOUDOUN_OFFICIAL_DOORS.map((door) => (
