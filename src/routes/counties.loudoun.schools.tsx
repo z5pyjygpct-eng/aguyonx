@@ -4,24 +4,11 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { LcpsMeetingSearch } from "@/components/site/lcps-meeting-search";
-import { LCPS_MEETING } from "@/content/lcps";
+import { LCPS_MEETINGS, LCPS_OFFICIAL_DOORS } from "@/content/lcps";
 
 export const Route = createFileRoute("/counties/loudoun/schools")({
   component: LoudounSchoolsPage,
 });
-
-const SCHOOL_DOORS = [
-  {
-    label: "BoardDocs",
-    href: LCPS_MEETING.boardDocsUrl,
-    dek: "Aug 11, 2026 School Board meeting packet",
-  },
-  {
-    label: "LCPS-TV",
-    href: LCPS_MEETING.lcpsTvUrl,
-    dek: "Official webcast / meeting video door",
-  },
-] as const;
 
 function LoudounSchoolsPage() {
   return (
@@ -45,8 +32,8 @@ function LoudounSchoolsPage() {
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
           <span className="font-medium text-foreground">Find the Moment</span> for Loudoun County
-          Public Schools — one School Board meeting POC ({LCPS_MEETING.dateLabel}). Captions are an
-          index, not quotes. County Board of Supervisors lives on the{" "}
+          Public Schools School Board — {LCPS_MEETINGS.length} full Board meetings indexed (2026
+          YTD). Captions are an index, not quotes. County Board of Supervisors lives on the{" "}
           <Link
             to="/counties/loudoun"
             className="text-[#1E4B8E] underline-offset-2 hover:underline"
@@ -64,10 +51,10 @@ function LoudounSchoolsPage() {
           <Kicker>Official doors</Kicker>
           <h2 className="mt-2 font-serif text-3xl font-medium">Out to the record</h2>
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
-            BoardDocs packet and LCPS-TV. Jump links open Vimeo from Find the Moment.
+            BoardDocs packets and LCPS-TV. Jump links open Vimeo from Find the Moment.
           </p>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2">
-            {SCHOOL_DOORS.map((door) => (
+            {LCPS_OFFICIAL_DOORS.map((door) => (
               <li key={door.href}>
                 <a
                   href={door.href}

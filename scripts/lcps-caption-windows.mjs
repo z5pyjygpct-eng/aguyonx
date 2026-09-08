@@ -1,8 +1,16 @@
 /**
- * Build lcps-caption-windows.json from a School Board VTT.
- * Usage: node scripts/lcps-caption-windows.mjs [path/to.vtt]
- * Default VTT: /workspace/briefs/lcps-boarddocs/lcps-2026-08-11-captions.vtt
- * Same windowing style as scripts/loudoun-caption-windows.mjs (no clipId).
+ * Build per-meeting Find the Moment caption files for LCPS School Board.
+ *
+ * Usage:
+ *   LCPS_VTT_DIR=/tmp/lcps-vtt node scripts/lcps-caption-windows.mjs
+ *
+ * Emits:
+ *   public/files/find-the-moment/loudoun-lcps/{vimeoId}.json
+ *     — array of {start,end,text} only (Hobby-safe lazy load)
+ *   stdout summary with windowCount per meeting (paste into src/content/lcps.ts)
+ *
+ * Optional: LCPS_SPLIT_FROM=src/content/lcps-caption-windows.json migrates the
+ * Aug 11 POC single-file windows into the multi-meeting layout for that id.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -10,10 +18,39 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
-const outPath = path.join(root, "src/content/lcps-caption-windows.json");
-const defaultVtt =
-  "/workspace/briefs/lcps-boarddocs/lcps-2026-08-11-captions.vtt";
-const vttPath = process.argv[2] || defaultVtt;
+const outDir = path.join(root, "public/files/find-the-moment/loudoun-lcps");
+const vttDir = process.env.LCPS_VTT_DIR || "/tmp/lcps-vtt";
+const legacyPoc = path.join(root, "src/content/lcps-caption-windows.json");
+const splitFrom = process.env.LCPS_SPLIT_FROM || "";
+/** Prefer prior Aug 11 POC windows when regenerating from VTTs. */
+const AUG11 = "1217434020";
+
+/** Full School Board meetings (not committees) — Jan–Aug 2026 YTD. */
+const MEETINGS = [
+  "1151982673", // 2026-01-06 Organizational
+  "1154062783", // 2026-01-13 2nd Tuesday
+  "1159386579", // 2026-01-28 2nd Tuesday (rescheduled)
+  "1161547575", // 2026-02-03 Special — FY27 Budget Adoption
+  "1163723566", // 2026-02-10 2nd Tuesday
+  "1167853411", // 2026-02-24 4th Tuesday
+  "1170500663", // 2026-03-05 Special
+  "1172260639", // 2026-03-10 2nd Tuesday
+  "1176756919", // 2026-03-23 Special Permission Appeals
+  "1176666991", // 2026-03-24 4th Tuesday
+  "1182826368", // 2026-04-13 Special Permission Appeals
+  "1183118445", // 2026-04-14 2nd Tuesday
+  "1187409570", // 2026-04-28 4th Tuesday
+  "1188295564", // 2026-04-30 Special Permission Appeals
+  "1191494055", // 2026-05-11 Special — Closed Session
+  "1191636709", // 2026-05-12 2nd Tuesday
+  "1195679789", // 2026-05-26 4th Tuesday
+  "1199544093", // 2026-06-08 Special — Closed Session
+  "1199853132", // 2026-06-09 2nd Tuesday
+  "1203915618", // 2026-06-23 4th Tuesday
+  "1209536330", // 2026-07-13 Special
+  "1215666664", // 2026-08-04 Special Permission Appeals
+  "1217434020", // 2026-08-11 2nd Tuesday (POC)
+];
 
 function parseVtt(text) {
   const cues = [];
@@ -64,12 +101,63 @@ function windowize(cues, target = 30, gapForce = 8) {
   return out;
 }
 
-if (!fs.existsSync(vttPath)) {
-  console.error(`missing VTT: ${vttPath}`);
-  process.exit(1);
+function loadPriorAug11() {
+  if (!fs.existsSync(legacyPoc)) return [];
+  try {
+    const prior = JSON.parse(fs.readFileSync(legacyPoc, "utf8"));
+    if (!Array.isArray(prior) || !prior.length) return [];
+    return prior.map((w) => ({
+      start: w.start,
+      end: w.end,
+      text: w.text,
+    }));
+  } catch {
+    return [];
+  }
 }
 
-const cues = parseVtt(fs.readFileSync(vttPath, "utf8"));
-const wins = windowize(cues);
-fs.writeFileSync(outPath, JSON.stringify(wins));
-console.log(`cues=${cues.length} windows=${wins.length} -> ${outPath}`);
+fs.mkdirSync(outDir, { recursive: true });
+
+const counts = {};
+
+if (splitFrom) {
+  const srcPath = path.isAbsolute(splitFrom)
+    ? splitFrom
+    : path.join(root, splitFrom);
+  const all = JSON.parse(fs.readFileSync(srcPath, "utf8"));
+  // Single-meeting POC array → Aug 11 only
+  const wins = Array.isArray(all)
+    ? all.map((w) => ({ start: w.start, end: w.end, text: w.text }))
+    : [];
+  const outPath = path.join(outDir, `${AUG11}.json`);
+  fs.writeFileSync(outPath, JSON.stringify(wins));
+  counts[AUG11] = wins.length;
+  console.log(`${AUG11}: ${wins.length} windows -> ${outPath}`);
+} else {
+  const priorAug11 = loadPriorAug11();
+  for (const vimeoId of MEETINGS) {
+    const vttPath = path.join(vttDir, `${vimeoId}.vtt`);
+    if (!fs.existsSync(vttPath)) {
+      console.warn(`skip ${vimeoId}: missing ${vttPath}`);
+      continue;
+    }
+    let wins;
+    if (vimeoId === AUG11 && priorAug11.length) {
+      wins = priorAug11;
+    } else {
+      const cues = parseVtt(fs.readFileSync(vttPath, "utf8"));
+      wins = windowize(cues);
+    }
+    const outPath = path.join(outDir, `${vimeoId}.json`);
+    fs.writeFileSync(outPath, JSON.stringify(wins));
+    counts[vimeoId] = wins.length;
+    console.log(`${vimeoId}: ${wins.length} windows -> ${outPath}`);
+  }
+}
+
+console.log("\n--- windowCount manifest (for src/content/lcps.ts) ---");
+console.log(JSON.stringify(counts, null, 2));
+const total = Object.values(counts).reduce((a, b) => a + b, 0);
+console.log(
+  `\nwrote ${Object.keys(counts).length} meeting files under ${outDir} (${total} windows)`,
+);
