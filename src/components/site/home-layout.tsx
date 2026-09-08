@@ -15,6 +15,10 @@ const FTM_DOORS = [
   { to: "/counties/loudoun/schools" as const, label: "Loudoun Schools" },
 ];
 
+/** One pill size for left office doors and cream shelves — same height/type. */
+const PILL =
+  "inline-flex h-10 shrink-0 items-center justify-center rounded-md bg-[#E6E1D4] px-4 font-sans text-xs font-semibold tracking-[0.14em] text-night uppercase transition-[filter] duration-150 hover:brightness-95 sm:px-5 sm:text-sm";
+
 function officeRailLabel(title: string) {
   if (title === "2027 Democrats") return "2027 VA Democrats";
   return title;
@@ -27,10 +31,7 @@ function OfficeDoorLinks({ className }: { className?: string }) {
         <Link
           key={door.to}
           to={door.to}
-          className={
-            className ??
-            "inline-flex items-center justify-center rounded-md bg-[#E6E1D4] px-3 py-3 text-center font-sans text-xs font-semibold tracking-[0.14em] text-night uppercase transition-[filter] duration-150 hover:brightness-95 xl:text-sm"
-          }
+          className={className ?? `${PILL} w-full text-center`}
         >
           {officeRailLabel(door.title)}
         </Link>
@@ -78,13 +79,13 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
         aria-label="Virginia offices"
         className="flex flex-wrap justify-center gap-2 border-b border-border bg-night px-4 pb-6 lg:hidden"
       >
-        <OfficeDoorLinks className="inline-flex min-h-11 items-center rounded-md bg-[#E6E1D4] px-4 py-2.5 font-sans text-xs font-semibold tracking-[0.14em] text-night uppercase" />
+        <OfficeDoorLinks className={PILL} />
       </nav>
 
       {/* Desktop office rail — same row as cream shelves */}
       <nav
         aria-label="Virginia offices"
-        className="hidden flex-col gap-3 bg-night px-4 py-4 text-night-fg sm:py-5 lg:flex lg:col-start-1 lg:row-start-2 xl:px-5"
+        className="hidden flex-col gap-2.5 self-start bg-night px-4 py-3 text-night-fg lg:flex lg:col-start-1 lg:row-start-2 xl:px-5"
       >
         <OfficeDoorLinks />
       </nav>
@@ -92,13 +93,13 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
       {/* Cream shelves */}
       <nav
         aria-label="Primary"
-        className="flex flex-wrap justify-center gap-2 border-b border-border bg-paper px-4 py-4 sm:gap-3 sm:py-5 lg:col-start-2 lg:row-start-2"
+        className="flex flex-wrap items-center justify-center gap-2.5 self-start border-b border-border bg-paper px-4 py-3 sm:gap-3 lg:col-start-2 lg:row-start-2"
       >
         {SHELVES.map((item) => (
           <Link
             key={item.to}
             to={item.to}
-            className="inline-flex min-h-11 items-center rounded-md bg-[#E6E1D4] px-4 py-2.5 font-sans text-xs font-semibold tracking-[0.16em] text-night uppercase sm:px-6 sm:text-sm"
+            className={PILL}
           >
             {item.label}
           </Link>
