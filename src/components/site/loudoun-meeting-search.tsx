@@ -83,14 +83,13 @@ export function LoudounMeetingSearch() {
   return (
     <section className="rounded-md border border-border bg-card px-4 py-6 sm:px-6 sm:py-8">
       <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
-        Find then listen
+        Loudoun · Board meetings
       </p>
       <h2 className="mt-2 font-serif text-2xl font-medium tracking-tight sm:text-3xl">
-        Search Loudoun meetings
+        Find the Moment
       </h2>
       <p className="mt-2 text-sm text-muted-foreground">
-        {LOUDOUN_MEETINGS.length} Board meetings indexed · public Granicus captions · jump to the
-        moment
+        Search captions → jump the video · {LOUDOUN_MEETINGS.length} Board meetings indexed
       </p>
 
       <aside className="mt-5 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">
@@ -101,7 +100,7 @@ export function LoudounMeetingSearch() {
 
       <form role="search" onSubmit={onSubmit} className="mt-6 flex flex-col gap-3 sm:flex-row">
         <label htmlFor="loudoun-meeting-q" className="sr-only">
-          Search Loudoun meetings
+          Find the Moment — search Loudoun meetings
         </label>
         <div className="relative min-w-0 flex-1">
           <Search

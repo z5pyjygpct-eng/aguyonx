@@ -45,8 +45,9 @@ function LoudounCountyPage() {
           Loudoun County
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          Search {LOUDOUN_MEETINGS.length} Board meetings, jump to the moment on Granicus, skim the
-          Board of Supervisors, and open the official record.
+          <span className="font-medium text-foreground">Find the Moment</span> — search{" "}
+          {LOUDOUN_MEETINGS.length} Board meetings, jump to Granicus, skim the Board of Supervisors,
+          and open the official record.
         </p>
 
         <div className="mt-10">
