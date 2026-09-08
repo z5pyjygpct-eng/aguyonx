@@ -11,7 +11,7 @@ export const COUNTIES: CountyDoor[] = [
     slug: "loudoun",
     name: "Loudoun County",
     live: true,
-    dek: "Board of Supervisors roster, searchable meeting captions with Granicus jump links, and official doors out. Fairfax and PWC next.",
+    dek: "Board of Supervisors roster, searchable meeting captions with Granicus jump links, and official doors out.",
   },
   {
     slug: "fairfax",

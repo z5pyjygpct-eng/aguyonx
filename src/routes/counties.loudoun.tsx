@@ -46,31 +46,13 @@ function LoudounCountyPage() {
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
           Search {LOUDOUN_MEETINGS.length} Board meetings, jump to the moment on Granicus, skim the
-          Board of Supervisors, and open the official record. Loudoun is live. Fairfax and Prince
-          William need fuel.
+          Board of Supervisors, and open the official record.
         </p>
 
         <div className="mt-10">
           <LoudounMeetingSearch />
         </div>
 
-        <aside className="mt-8 rounded-md border border-border bg-wash px-5 py-5 text-sm leading-relaxed text-muted-foreground">
-          <p className="font-sans text-base font-semibold text-foreground">
-            We did it for Loudoun. Help us do Fairfax and PWC.
-          </p>
-          <p className="mt-2">
-            County meeting speech-search is a free public door — captions as an index, video as the
-            proof. Tip-jar fuel (when the GiveSendGo campaign is live) and commissioned work both go
-            through{" "}
-            <Link to="/contact" className="font-medium text-[#1E4B8E] underline-offset-2 hover:underline">
-              Contact
-            </Link>
-            . No prices on this page. No private dossiers on this shelf.
-          </p>
-          <p className="mt-2">
-            — A Guy on X / @VaChangeAgent
-          </p>
-        </aside>
 
         <section className="mt-14">
           <Kicker>Board of Supervisors</Kicker>
