@@ -11,7 +11,7 @@ export const COUNTIES: CountyDoor[] = [
     slug: "loudoun",
     name: "Loudoun County",
     live: true,
-    dek: "Find the Moment — searchable Board meeting captions with Granicus jump links, plus roster and official doors.",
+    dek: "Find the Moment for Board of Supervisors meetings, plus a School Board meeting POC — captions index, jump links, roster, official doors.",
   },
   {
     slug: "fairfax",

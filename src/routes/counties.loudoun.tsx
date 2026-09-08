@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { LoudounMeetingSearch } from "@/components/site/loudoun-meeting-search";
+import { LcpsMeetingSearch } from "@/components/site/lcps-meeting-search";
 import {
   LOUDOUN_BOS,
   LOUDOUN_MEETINGS,
@@ -46,14 +47,17 @@ function LoudounCountyPage() {
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
           <span className="font-medium text-foreground">Find the Moment</span> — search{" "}
-          {LOUDOUN_MEETINGS.length} Board meetings, jump to Granicus, skim the Board of Supervisors,
-          and open the official record.
+          {LOUDOUN_MEETINGS.length} Board of Supervisors meetings (Granicus) plus a School Board
+          meeting POC (BoardDocs / Vimeo), skim the BOS roster, and open the official record.
         </p>
 
         <div className="mt-10">
           <LoudounMeetingSearch />
         </div>
 
+        <div className="mt-10">
+          <LcpsMeetingSearch />
+        </div>
 
         <section className="mt-14">
           <Kicker>Board of Supervisors</Kicker>
