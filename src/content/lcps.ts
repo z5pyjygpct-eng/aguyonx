@@ -29,6 +29,25 @@ export type LcpsMeeting = {
   windowCount: number;
 };
 
+export type LcpsBoardMember = {
+  name: string;
+  district: string;
+  role: string;
+};
+
+/** Thin public School Board roster — name, district, role. No bios, finance, or findings. */
+export const LCPS_SCHOOL_BOARD: LcpsBoardMember[] = [
+  { name: "Anne Donohue", district: "At-Large", role: "Vice Chair" },
+  { name: "April Chandler", district: "Algonkian", role: "Chair" },
+  { name: "Deana Griffiths", district: "Ashburn", role: "Member" },
+  { name: "Ross Svenson", district: "Broad Run", role: "Member" },
+  { name: "Kari LaBell", district: "Catoctin", role: "Member" },
+  { name: "Jon Pepper", district: "Dulles", role: "Member" },
+  { name: "Lauren Shernoff", district: "Leesburg", role: "Member" },
+  { name: "Dr. Sumera Rashid", district: "Little River", role: "Member" },
+  { name: "Amy Riccardi", district: "Sterling", role: "Member" },
+];
+
 const LCPS_TV =
   "https://www.lcps.org/o/communications/page/lcps-tv-webcast";
 const BOARDDOCS_PUBLIC =

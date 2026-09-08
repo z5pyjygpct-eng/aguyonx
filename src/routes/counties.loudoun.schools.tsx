@@ -1,10 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, User } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { LcpsMeetingSearch } from "@/components/site/lcps-meeting-search";
-import { LCPS_MEETINGS, LCPS_OFFICIAL_DOORS } from "@/content/lcps";
+import { LCPS_MEETINGS, LCPS_OFFICIAL_DOORS, LCPS_SCHOOL_BOARD } from "@/content/lcps";
 
 export const Route = createFileRoute("/counties/loudoun/schools")({
   component: LoudounSchoolsPage,
@@ -46,6 +46,32 @@ function LoudounSchoolsPage() {
         <div className="mt-10">
           <LcpsMeetingSearch />
         </div>
+
+        <section className="mt-14">
+          <Kicker>School Board</Kicker>
+          <h2 className="mt-2 font-serif text-3xl font-medium">Thin roster</h2>
+          <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
+            Name, district, role. No bios, no finance, no person pages.
+          </p>
+          <ul className="mt-8 grid gap-3 sm:grid-cols-2">
+            {LCPS_SCHOOL_BOARD.map((m) => (
+              <li
+                key={m.name}
+                className="flex items-center gap-4 rounded-md border border-border bg-card px-4 py-4 sm:px-5"
+              >
+                <span className="flex size-10 shrink-0 items-center justify-center rounded-full border border-[#1E4B8E]/30 text-[#1E4B8E]">
+                  <User className="size-5" aria-hidden />
+                </span>
+                <div className="min-w-0 flex-1">
+                  <p className="font-sans text-base font-semibold">{m.name}</p>
+                  <p className="mt-0.5 text-sm text-muted-foreground">
+                    {m.role} · {m.district}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
 
         <section className="mt-14">
           <Kicker>Official doors</Kicker>
