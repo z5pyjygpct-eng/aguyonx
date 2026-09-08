@@ -20,87 +20,96 @@ function officeRailLabel(title: string) {
   return title;
 }
 
+function OfficeDoorLinks({ className }: { className?: string }) {
+  return (
+    <>
+      {OFFICE_DOORS.map((door) => (
+        <Link
+          key={door.to}
+          to={door.to}
+          className={
+            className ??
+            "inline-flex items-center justify-center rounded-md bg-[#E6E1D4] px-3 py-3 text-center font-sans text-xs font-semibold tracking-[0.14em] text-night uppercase transition-[filter] duration-150 hover:brightness-95 xl:text-sm"
+          }
+        >
+          {officeRailLabel(door.title)}
+        </Link>
+      ))}
+    </>
+  );
+}
+
 /**
  * Home chrome from the Sep 2026 mock: navy left rail (offices), short headline band,
  * cream shelves, Find the Moment video plate. Mobile collapses the rail.
+ * Desktop grid keeps left VA DELEGATES top-aligned with the cream shelf row.
  */
 export function HomeLayout({ children }: { children?: ReactNode }) {
   return (
-    <div className="flex min-h-svh flex-col bg-background lg:flex-row">
-      {/* Left office rail — desktop */}
-      <aside className="hidden w-56 shrink-0 flex-col bg-night text-night-fg lg:flex xl:w-64">
-        <div className="sticky top-0 flex min-h-svh flex-col px-4 py-6">
-          <Link to="/" className="flex items-center gap-2.5 px-1" aria-label="A Guy on X home">
-            <img
-              src="/images/va-change-mark.png"
-              alt=""
-              width={40}
-              height={40}
-              className="size-10 object-cover"
-            />
-            <span className="font-serif text-base font-medium leading-tight tracking-tight text-white">
-              VA Change Agent
-            </span>
+    <div className="flex min-h-svh flex-col bg-background lg:grid lg:grid-cols-[14rem_minmax(0,1fr)] lg:grid-rows-[auto_auto_1fr] xl:grid-cols-[16rem_minmax(0,1fr)]">
+      {/* Brand — shares row with navy headline */}
+      <div className="hidden items-center gap-2.5 bg-night px-4 py-6 text-night-fg lg:flex lg:col-start-1 lg:row-start-1 xl:px-5">
+        <Link to="/" className="flex items-center gap-3" aria-label="A Guy on X home">
+          <img
+            src="/images/va-change-mark.png"
+            alt=""
+            width={44}
+            height={44}
+            className="size-11 object-cover"
+          />
+          <span className="font-serif text-xl font-medium leading-tight tracking-tight text-white xl:text-2xl">
+            VA Change Agent
+          </span>
+        </Link>
+      </div>
+
+      {/* Compact navy headline */}
+      <header className="bg-night px-4 py-8 text-center sm:px-6 sm:py-10 lg:col-start-2 lg:row-start-1">
+        <h1 className="font-sans text-3xl font-semibold tracking-tight text-white sm:text-4xl md:text-5xl">
+          The Public Record Is The Story.
+        </h1>
+        <p className="mx-auto mt-3 max-w-2xl font-sans text-sm tracking-wide text-white/90 sm:text-base">
+          Find what was said, voted, and filed — then jump to the source.
+        </p>
+      </header>
+
+      {/* Mobile office doors */}
+      <nav
+        aria-label="Virginia offices"
+        className="flex flex-wrap justify-center gap-2 border-b border-border bg-night px-4 pb-6 lg:hidden"
+      >
+        <OfficeDoorLinks className="inline-flex min-h-11 items-center rounded-md bg-[#E6E1D4] px-4 py-2.5 font-sans text-xs font-semibold tracking-[0.14em] text-night uppercase" />
+      </nav>
+
+      {/* Desktop office rail — same row as cream shelves */}
+      <nav
+        aria-label="Virginia offices"
+        className="hidden flex-col gap-3 bg-night px-4 py-4 text-night-fg sm:py-5 lg:flex lg:col-start-1 lg:row-start-2 xl:px-5"
+      >
+        <OfficeDoorLinks />
+      </nav>
+
+      {/* Cream shelves */}
+      <nav
+        aria-label="Primary"
+        className="flex flex-wrap justify-center gap-2 border-b border-border bg-paper px-4 py-4 sm:gap-3 sm:py-5 lg:col-start-2 lg:row-start-2"
+      >
+        {SHELVES.map((item) => (
+          <Link
+            key={item.to}
+            to={item.to}
+            className="inline-flex min-h-11 items-center rounded-md bg-[#E6E1D4] px-4 py-2.5 font-sans text-xs font-semibold tracking-[0.16em] text-night uppercase sm:px-6 sm:text-sm"
+          >
+            {item.label}
           </Link>
+        ))}
+      </nav>
 
-          <nav aria-label="Virginia offices" className="mt-10 flex flex-col gap-3">
-            {OFFICE_DOORS.map((door) => (
-              <Link
-                key={door.to}
-                to={door.to}
-                className="inline-flex items-center justify-center rounded-md bg-[#E6E1D4] px-3 py-3 text-center font-sans text-xs font-semibold tracking-[0.14em] text-night uppercase transition-[filter] duration-150 hover:brightness-95 xl:text-sm"
-              >
-                {officeRailLabel(door.title)}
-              </Link>
-            ))}
-          </nav>
-        </div>
-      </aside>
+      {/* Left rail fill under the doors */}
+      <div className="hidden bg-night lg:block lg:col-start-1 lg:row-start-3" aria-hidden />
 
-      <div className="flex min-w-0 flex-1 flex-col">
-        {/* Compact navy headline — replaces oversized hero */}
-        <header className="bg-night px-4 py-8 text-center sm:px-6 sm:py-10">
-          <h1 className="font-sans text-3xl font-semibold tracking-tight text-white sm:text-4xl md:text-5xl">
-            The Public Record Is The Story.
-          </h1>
-          <p className="mx-auto mt-3 max-w-2xl font-sans text-sm tracking-wide text-white/90 sm:text-base">
-            Find what was said, voted, and filed — then jump to the source.
-          </p>
-        </header>
-
-        {/* Mobile office doors */}
-        <nav
-          aria-label="Virginia offices"
-          className="flex flex-wrap justify-center gap-2 border-b border-border bg-night px-4 pb-6 lg:hidden"
-        >
-          {OFFICE_DOORS.map((door) => (
-            <Link
-              key={door.to}
-              to={door.to}
-              className="inline-flex min-h-11 items-center rounded-md bg-[#E6E1D4] px-4 py-2.5 font-sans text-xs font-semibold tracking-[0.14em] text-night uppercase"
-            >
-              {officeRailLabel(door.title)}
-            </Link>
-          ))}
-        </nav>
-
-        {/* Cream shelves */}
-        <nav
-          aria-label="Primary"
-          className="flex flex-wrap justify-center gap-2 border-b border-border bg-paper px-4 py-4 sm:gap-3 sm:py-5"
-        >
-          {SHELVES.map((item) => (
-            <Link
-              key={item.to}
-              to={item.to}
-              className="inline-flex min-h-11 items-center rounded-md bg-[#E6E1D4] px-4 py-2.5 font-sans text-xs font-semibold tracking-[0.16em] text-night uppercase sm:px-6 sm:text-sm"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </nav>
-
-        {/* Find the Moment product plate */}
+      {/* Main plate + below-fold */}
+      <div className="flex min-w-0 flex-col lg:col-start-2 lg:row-start-3">
         <section
           aria-label="Find the Moment"
           className="border-b border-border bg-background px-4 py-10 sm:px-6 sm:py-12"
