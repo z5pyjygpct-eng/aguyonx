@@ -3,11 +3,14 @@ export type NewsScope = "statewide" | "local";
 export type NewsOffice =
   | "Governor"
   | "Attorney General"
+  | "U.S. Senator"
+  | "U.S. Representative"
   | "State Senator"
   | "State Delegate"
   | "Loudoun Supervisor"
   | "Loudoun Chair"
   | "Loudoun Commonwealth's Attorney candidate"
+  | "Loudoun official"
   | "Fairfax Sheriff"
   | "Fairfax Commonwealth's Attorney"
   | "Fairfax official"
@@ -43,6 +46,68 @@ export function peopleSearchText(people: NewsPerson[]): string {
 
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
+  {
+    id: "acpd-ice-mejia-hernandez-arlnow-2026-09-04",
+    date: "2026-09-04",
+    filed: "2026-09-07",
+    headline:
+      "ACPD opens investigation into ICE allegedly injuring man on Columbia Pike",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/04/acpd-opens-investigation-into-ice-allegedly-injuring-man-on-columbia-pike/",
+    people: [
+      { name: "Suhas Subramanyam", office: "U.S. Representative" },
+      { name: "James Walkinshaw", office: "U.S. Representative" },
+      { name: "Tim Kaine", office: "U.S. Senator" },
+      { name: "Mark Warner", office: "U.S. Senator" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "spanberger-nextera-special-session-vabusiness-2026-09-04",
+    date: "2026-09-04",
+    filed: "2026-09-07",
+    headline:
+      "Spanberger won't call special session to extend Dominion-NextEra merger deadline",
+    outlet: "Virginia Business",
+    url: "https://virginiabusiness.com/spanberger-wont-call-special-session-to-extend-dominion-nextera-merger-deadline/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Danica Roem", office: "State Senator" },
+      { name: "Jeremy McPike", office: "State Senator" },
+      { name: "Barbara Favola", office: "State Senator" },
+      { name: "Elizabeth Bennett-Parker", office: "State Senator" },
+      { name: "Elizabeth Guzman", office: "State Delegate" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "purcellville-khalil-successor-ltm-2026-09-04",
+    date: "2026-09-04",
+    filed: "2026-09-07",
+    headline:
+      "New Purcellville Town Council member to be appointed to fill vacancy",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/politics_and_government/elections/new-purcellville-town-council-member-to-be-appointed-to-fill-vacancy/article_5c9c8eaa-f8c3-471b-86bb-10195849a1c0.html",
+    people: [{ name: "Susan Khalil", office: "Loudoun official" }],
+    scope: "local",
+  },
+  {
+    id: "arlington-ga-condemn-ice-wtop-2026-09-04",
+    date: "2026-09-04",
+    filed: "2026-09-07",
+    headline:
+      "Arlington lawmakers condemn ICE actions after man allegedly seriously injured in encounter",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/arlington-lawmakers-condemn-ice-actions-after-man-allegedly-seriously-injured-in-encounter/",
+    people: [
+      { name: "Barbara Favola", office: "State Senator" },
+      { name: "Elizabeth Bennett-Parker", office: "State Senator" },
+      { name: "Patrick Hope", office: "State Delegate" },
+      { name: "Adele McClure", office: "State Delegate" },
+      { name: "Alfonso Lopez", office: "State Delegate" },
+    ],
+    scope: "local",
+  },
   {
     id: "scott-nextera-scc-letter-vamercury-2026-09-03",
     date: "2026-09-03",
