@@ -28,6 +28,8 @@ import { Route as InvestigationsIndexRouteImport } from './routes/investigations
 import { Route as InvestigationsSlugRouteImport } from './routes/investigations.$slug'
 import { Route as LibraryIndexRouteImport } from './routes/library.index'
 import { Route as LibraryFoiaRouteImport } from './routes/library.foia'
+import { Route as CountiesLoudounIndexRouteImport } from './routes/counties.loudoun.index'
+import { Route as CountiesLoudounSchoolsRouteImport } from './routes/counties.loudoun.schools'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -124,6 +126,16 @@ const LibraryFoiaRoute = LibraryFoiaRouteImport.update({
   path: '/foia',
   getParentRoute: () => LibraryRoute,
 } as any)
+const CountiesLoudounIndexRoute = CountiesLoudounIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => CountiesLoudounRoute,
+} as any)
+const CountiesLoudounSchoolsRoute = CountiesLoudounSchoolsRouteImport.update({
+  id: '/schools',
+  path: '/schools',
+  getParentRoute: () => CountiesLoudounRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -138,13 +150,15 @@ export interface FileRoutesByFullPath {
   '/news': typeof NewsRoute
   '/senators': typeof SenatorsRoute
   '/articles/$slug': typeof ArticlesSlugRoute
-  '/counties/loudoun': typeof CountiesLoudounRoute
+  '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/articles/': typeof ArticlesIndexRoute
   '/counties/': typeof CountiesIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
+  '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/counties/loudoun/': typeof CountiesLoudounIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -155,13 +169,14 @@ export interface FileRoutesByTo {
   '/news': typeof NewsRoute
   '/senators': typeof SenatorsRoute
   '/articles/$slug': typeof ArticlesSlugRoute
-  '/counties/loudoun': typeof CountiesLoudounRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/articles': typeof ArticlesIndexRoute
   '/counties': typeof CountiesIndexRoute
   '/investigations': typeof InvestigationsIndexRoute
   '/library': typeof LibraryIndexRoute
+  '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/counties/loudoun': typeof CountiesLoudounIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -177,13 +192,15 @@ export interface FileRoutesById {
   '/news': typeof NewsRoute
   '/senators': typeof SenatorsRoute
   '/articles/$slug': typeof ArticlesSlugRoute
-  '/counties/loudoun': typeof CountiesLoudounRoute
+  '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/articles/': typeof ArticlesIndexRoute
   '/counties/': typeof CountiesIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
+  '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/counties/loudoun/': typeof CountiesLoudounIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -207,6 +224,8 @@ export interface FileRouteTypes {
     | '/counties/'
     | '/investigations/'
     | '/library/'
+    | '/counties/loudoun/schools'
+    | '/counties/loudoun/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -217,13 +236,14 @@ export interface FileRouteTypes {
     | '/news'
     | '/senators'
     | '/articles/$slug'
-    | '/counties/loudoun'
     | '/investigations/$slug'
     | '/library/foia'
     | '/articles'
     | '/counties'
     | '/investigations'
     | '/library'
+    | '/counties/loudoun/schools'
+    | '/counties/loudoun'
   id:
     | '__root__'
     | '/'
@@ -245,6 +265,8 @@ export interface FileRouteTypes {
     | '/counties/'
     | '/investigations/'
     | '/library/'
+    | '/counties/loudoun/schools'
+    | '/counties/loudoun/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -396,6 +418,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LibraryFoiaRouteImport
       parentRoute: typeof LibraryRoute
     }
+    '/counties/loudoun/': {
+      id: '/counties/loudoun/'
+      path: '/'
+      fullPath: '/counties/loudoun/'
+      preLoaderRoute: typeof CountiesLoudounIndexRouteImport
+      parentRoute: typeof CountiesLoudounRoute
+    }
+    '/counties/loudoun/schools': {
+      id: '/counties/loudoun/schools'
+      path: '/schools'
+      fullPath: '/counties/loudoun/schools'
+      preLoaderRoute: typeof CountiesLoudounSchoolsRouteImport
+      parentRoute: typeof CountiesLoudounRoute
+    }
   }
 }
 
@@ -413,13 +449,27 @@ const ArticlesRouteWithChildren = ArticlesRoute._addFileChildren(
   ArticlesRouteChildren,
 )
 
+interface CountiesLoudounRouteChildren {
+  CountiesLoudounSchoolsRoute: typeof CountiesLoudounSchoolsRoute
+  CountiesLoudounIndexRoute: typeof CountiesLoudounIndexRoute
+}
+
+const CountiesLoudounRouteChildren: CountiesLoudounRouteChildren = {
+  CountiesLoudounSchoolsRoute: CountiesLoudounSchoolsRoute,
+  CountiesLoudounIndexRoute: CountiesLoudounIndexRoute,
+}
+
+const CountiesLoudounRouteWithChildren = CountiesLoudounRoute._addFileChildren(
+  CountiesLoudounRouteChildren,
+)
+
 interface CountiesRouteChildren {
-  CountiesLoudounRoute: typeof CountiesLoudounRoute
+  CountiesLoudounRoute: typeof CountiesLoudounRouteWithChildren
   CountiesIndexRoute: typeof CountiesIndexRoute
 }
 
 const CountiesRouteChildren: CountiesRouteChildren = {
-  CountiesLoudounRoute: CountiesLoudounRoute,
+  CountiesLoudounRoute: CountiesLoudounRouteWithChildren,
   CountiesIndexRoute: CountiesIndexRoute,
 }
 
