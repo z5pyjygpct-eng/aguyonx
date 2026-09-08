@@ -1,16 +1,27 @@
-import { useMemo, useState, type FormEvent, type ReactNode } from "react";
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type FormEvent,
+  type ReactNode,
+} from "react";
 import { ExternalLink, Search } from "lucide-react";
 import {
-  LOUDOUN_CAPTION_WINDOWS,
   LOUDOUN_MEETING_BY_CLIP,
   LOUDOUN_MEETINGS,
   LOUDOUN_TOPIC_CHIPS,
   loudounJumpUrl,
   type CaptionWindow,
+  type LoudounCaptionSlice,
+  type LoudounMeeting,
 } from "@/content/loudoun";
 import { cn } from "@/lib/utils";
 
 const HIT_CAP = 60;
+/** Parallel fetches when searching All indexed meetings (Hobby-safe). */
+const ALL_FETCH_CONCURRENCY = 6;
 
 function secToHms(raw: number): string {
   const s = Math.floor(raw);
@@ -49,19 +60,133 @@ function HighlightedSnippet({ text, query }: { text: string; query: string }) {
   return <>{nodes}</>;
 }
 
-function searchWindows(query: string, clipFilter: number | "all"): CaptionWindow[] {
+function searchWindows(windows: CaptionWindow[], query: string): CaptionWindow[] {
   const q = query.trim().toLowerCase();
   if (!q) return [];
-  return LOUDOUN_CAPTION_WINDOWS.filter((w) => {
-    if (clipFilter !== "all" && w.clipId !== clipFilter) return false;
-    return w.text.toLowerCase().includes(q);
-  });
+  return windows.filter((w) => w.text.toLowerCase().includes(q));
 }
+
+async function mapPool<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
+  const results: R[] = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const i = next;
+      next += 1;
+      results[i] = await fn(items[i]!);
+    }
+  }
+  const n = Math.min(limit, items.length);
+  await Promise.all(Array.from({ length: n }, () => worker()));
+  return results;
+}
+
+type CacheEntry = CaptionWindow[] | "loading" | "error";
 
 export function LoudounMeetingSearch() {
   const [q, setQ] = useState("");
   const [submitted, setSubmitted] = useState("");
   const [clipFilter, setClipFilter] = useState<number | "all">("all");
+  const [cacheTick, setCacheTick] = useState(0);
+  const [loadError, setLoadError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  /** In-memory cache of fetched meeting windows (module-lifetime via ref). */
+  const cacheRef = useRef<Map<number, CacheEntry>>(new Map());
+  const inflightRef = useRef<Map<number, Promise<CaptionWindow[]>>>(new Map());
+
+  const loadMeeting = useCallback(async (meeting: LoudounMeeting): Promise<CaptionWindow[]> => {
+    const cached = cacheRef.current.get(meeting.clipId);
+    if (Array.isArray(cached)) return cached;
+
+    const existing = inflightRef.current.get(meeting.clipId);
+    if (existing) return existing;
+
+    cacheRef.current.set(meeting.clipId, "loading");
+    setCacheTick((t) => t + 1);
+
+    const promise = (async () => {
+      const res = await fetch(meeting.windowsUrl);
+      if (!res.ok) throw new Error(`HTTP ${res.status} for clip ${meeting.clipId}`);
+      const slices = (await res.json()) as LoudounCaptionSlice[];
+      const windows: CaptionWindow[] = slices.map((s) => ({
+        clipId: meeting.clipId,
+        start: s.start,
+        end: s.end,
+        text: s.text,
+      }));
+      cacheRef.current.set(meeting.clipId, windows);
+      inflightRef.current.delete(meeting.clipId);
+      setCacheTick((t) => t + 1);
+      return windows;
+    })().catch((err) => {
+      cacheRef.current.set(meeting.clipId, "error");
+      inflightRef.current.delete(meeting.clipId);
+      setCacheTick((t) => t + 1);
+      throw err;
+    });
+
+    inflightRef.current.set(meeting.clipId, promise);
+    return promise;
+  }, []);
+
+  const meetingsToLoad = useMemo(() => {
+    if (clipFilter === "all") return LOUDOUN_MEETINGS;
+    const one = LOUDOUN_MEETING_BY_CLIP[clipFilter];
+    return one ? [one] : [];
+  }, [clipFilter]);
+
+  const query = submitted.trim();
+
+  useEffect(() => {
+    if (!query) {
+      setLoading(false);
+      setLoadError(null);
+      return;
+    }
+
+    let cancelled = false;
+    setLoading(true);
+    setLoadError(null);
+
+    (async () => {
+      try {
+        await mapPool(meetingsToLoad, ALL_FETCH_CONCURRENCY, (m) => loadMeeting(m));
+        if (!cancelled) setLoading(false);
+      } catch (err) {
+        if (!cancelled) {
+          setLoading(false);
+          setLoadError(err instanceof Error ? err.message : "Failed to load caption index");
+        }
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [query, meetingsToLoad, loadMeeting]);
+
+  const windowsReady = useMemo(() => {
+    // cacheTick forces recompute when cache fills
+    void cacheTick;
+    const out: CaptionWindow[] = [];
+    for (const m of meetingsToLoad) {
+      const entry = cacheRef.current.get(m.clipId);
+      if (Array.isArray(entry)) out.push(...entry);
+    }
+    return out;
+  }, [meetingsToLoad, cacheTick]);
+
+  const allLoaded =
+    meetingsToLoad.length > 0 &&
+    meetingsToLoad.every((m) => Array.isArray(cacheRef.current.get(m.clipId)));
+
+  const hits = useMemo(() => {
+    if (!query || !allLoaded) return [];
+    return searchWindows(windowsReady, query);
+  }, [query, allLoaded, windowsReady]);
+
+  const shown = hits.slice(0, HIT_CAP);
 
   function runSearch(next: string) {
     setQ(next);
@@ -72,13 +197,6 @@ export function LoudounMeetingSearch() {
     e.preventDefault();
     setSubmitted(q.trim());
   }
-
-  const query = submitted.trim();
-  const hits = useMemo(
-    () => (query ? searchWindows(query, clipFilter) : []),
-    [query, clipFilter],
-  );
-  const shown = hits.slice(0, HIT_CAP);
 
   return (
     <section className="rounded-md border border-border bg-card px-4 py-6 sm:px-6 sm:py-8">
@@ -179,17 +297,26 @@ export function LoudounMeetingSearch() {
         </div>
       </div>
 
-      <p className="mt-5 min-h-[1.25rem] font-mono text-xs text-muted-foreground" aria-live="polite">
+      <p
+        className="mt-5 min-h-[1.25rem] font-mono text-xs text-muted-foreground"
+        aria-live="polite"
+      >
         {!query
           ? "Enter a name or phrase, or tap a topic chip. Jump to the moment on Granicus."
-          : hits.length
-            ? `${hits.length} window${hits.length === 1 ? "" : "s"}${
-                hits.length > HIT_CAP ? ` · showing first ${HIT_CAP}` : ""
-              } · captions are approximate`
-            : `No hits for “${query}” — try a shorter stem (e.g. zone, supervis).`}
+          : loading
+            ? clipFilter === "all"
+              ? "Loading caption indexes…"
+              : "Loading meeting captions…"
+            : loadError
+              ? `Could not load captions — ${loadError}`
+              : hits.length
+                ? `${hits.length} window${hits.length === 1 ? "" : "s"}${
+                    hits.length > HIT_CAP ? ` · showing first ${HIT_CAP}` : ""
+                  } · captions are approximate`
+                : `No hits for “${query}” — try a shorter stem (e.g. zone, supervis).`}
       </p>
 
-      {query && hits.length === 0 ? (
+      {query && !loading && !loadError && hits.length === 0 ? (
         <p className="mt-4 text-sm text-muted-foreground">
           Nothing matched. Auto-captions misspell constantly — shorter tokens work better. Or widen
           the meeting filter to All.

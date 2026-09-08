@@ -1,8 +1,17 @@
 /**
- * Build loudoun-caption-windows.json from Granicus VTTs.
+ * Build per-meeting Find the Moment caption files for Loudoun BOS.
+ *
  * Usage: node scripts/loudoun-caption-windows.mjs
  * Expects /tmp/loudoun-vtt/{clipId}.vtt (or set LOUDOUN_VTT_DIR).
- * Preserves existing windows for clip 8178 when present in the prior JSON.
+ *
+ * Emits:
+ *   public/files/find-the-moment/loudoun-bos/{clipId}.json
+ *     — array of {start,end,text} only (no clipId; saves bytes)
+ *   stdout summary with windowCount per clip (paste into src/content/loudoun.ts)
+ *
+ * Does NOT bake a multi-MB JSON into src/content (Hobby-safe lazy load).
+ * Optional shop source: set LOUDOUN_SHOP_JSON to also write a combined archive
+ * for offline re-split (not imported by the client).
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -10,10 +19,17 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
-const outPath = path.join(root, "src/content/loudoun-caption-windows.json");
+const outDir = path.join(root, "public/files/find-the-moment/loudoun-bos");
 const vttDir = process.env.LOUDOUN_VTT_DIR || "/tmp/loudoun-vtt";
+const shopJson = process.env.LOUDOUN_SHOP_JSON || "";
+/** Prior single-meeting POC windows (clip 8178) if regenerating from VTTs. */
+const legacyShop = path.join(root, "src/content/loudoun-caption-windows.json");
 
-const MEETINGS = [8216, 8214, 8213, 8208, 8199, 8198, 8191, 8185, 8179, 8178, 8174, 8173, 8161, 8158, 8154, 8143, 8139, 8138, 8135, 8134, 8130, 8129, 8128, 8127, 8126, 8120, 8113, 8112, 8107, 8096, 8093, 8085];
+const MEETINGS = [
+  8216, 8214, 8213, 8208, 8199, 8198, 8191, 8185, 8179, 8178, 8174, 8173, 8161,
+  8158, 8154, 8143, 8139, 8138, 8135, 8134, 8130, 8129, 8128, 8127, 8126, 8120,
+  8113, 8112, 8107, 8096, 8093, 8085,
+];
 
 function parseVtt(text) {
   const cues = [];
@@ -43,7 +59,11 @@ function windowize(cues, target = 30, gapForce = 8) {
     const dur = end - start;
     const newDur = c.end - start;
     if ((gap >= gapForce && dur >= 2) || (newDur > target && dur >= 18)) {
-      out.push({ start: Math.round(start * 10) / 10, end: Math.round(end * 10) / 10, text: parts.join(" ") });
+      out.push({
+        start: Math.round(start * 10) / 10,
+        end: Math.round(end * 10) / 10,
+        text: parts.join(" "),
+      });
       start = c.start;
       end = c.end;
       parts = [c.text];
@@ -52,43 +72,96 @@ function windowize(cues, target = 30, gapForce = 8) {
     parts.push(c.text);
     end = c.end;
   }
-  out.push({ start: Math.round(start * 10) / 10, end: Math.round(end * 10) / 10, text: parts.join(" ") });
+  out.push({
+    start: Math.round(start * 10) / 10,
+    end: Math.round(end * 10) / 10,
+    text: parts.join(" "),
+  });
   return out;
 }
 
-let prior8178 = [];
-if (fs.existsSync(outPath)) {
-  try {
-    const prior = JSON.parse(fs.readFileSync(outPath, "utf8"));
-    prior8178 = prior.filter((w) => w.clipId === 8178 || (!("clipId" in w) && prior.every((x) => !("clipId" in x))));
-    // If old untagged single-meeting file, treat all as 8178
-    if (prior.length && !("clipId" in prior[0])) {
-      prior8178 = prior.map((w) => ({ clipId: 8178, ...w }));
-    } else {
-      prior8178 = prior.filter((w) => w.clipId === 8178);
+function loadPrior8178() {
+  const candidates = [shopJson, legacyShop].filter(Boolean);
+  for (const p of candidates) {
+    if (!fs.existsSync(p)) continue;
+    try {
+      const prior = JSON.parse(fs.readFileSync(p, "utf8"));
+      if (!Array.isArray(prior) || !prior.length) continue;
+      if (!("clipId" in prior[0])) {
+        return prior.map((w) => ({
+          start: w.start,
+          end: w.end,
+          text: w.text,
+        }));
+      }
+      return prior
+        .filter((w) => w.clipId === 8178)
+        .map((w) => ({ start: w.start, end: w.end, text: w.text }));
+    } catch {
+      /* try next */
     }
-  } catch {
-    prior8178 = [];
+  }
+  return [];
+}
+
+/**
+ * Also accept splitting an existing combined shop JSON without VTTs:
+ *   LOUDOUN_SPLIT_FROM=src/content/loudoun-caption-windows.json node scripts/loudoun-caption-windows.mjs
+ */
+const splitFrom = process.env.LOUDOUN_SPLIT_FROM || "";
+
+fs.mkdirSync(outDir, { recursive: true });
+
+const counts = {};
+const combined = [];
+
+if (splitFrom) {
+  const srcPath = path.isAbsolute(splitFrom) ? splitFrom : path.join(root, splitFrom);
+  const all = JSON.parse(fs.readFileSync(srcPath, "utf8"));
+  const by = new Map();
+  for (const w of all) {
+    if (!by.has(w.clipId)) by.set(w.clipId, []);
+    by.get(w.clipId).push({ start: w.start, end: w.end, text: w.text });
+  }
+  for (const clipId of MEETINGS) {
+    const wins = by.get(clipId) || [];
+    const outPath = path.join(outDir, `${clipId}.json`);
+    fs.writeFileSync(outPath, JSON.stringify(wins));
+    counts[clipId] = wins.length;
+    console.log(`${clipId}: ${wins.length} windows -> ${outPath}`);
+    for (const w of wins) combined.push({ clipId, ...w });
+  }
+} else {
+  const prior8178 = loadPrior8178();
+  for (const clipId of MEETINGS) {
+    const vttPath = path.join(vttDir, `${clipId}.vtt`);
+    if (!fs.existsSync(vttPath)) {
+      console.warn(`skip ${clipId}: missing ${vttPath}`);
+      continue;
+    }
+    let wins;
+    if (clipId === 8178 && prior8178.length) {
+      wins = prior8178;
+    } else {
+      const cues = parseVtt(fs.readFileSync(vttPath, "utf8"));
+      wins = windowize(cues);
+    }
+    const outPath = path.join(outDir, `${clipId}.json`);
+    fs.writeFileSync(outPath, JSON.stringify(wins));
+    counts[clipId] = wins.length;
+    console.log(`${clipId}: ${wins.length} windows -> ${outPath}`);
+    for (const w of wins) combined.push({ clipId, ...w });
   }
 }
 
-const all = [];
-for (const clipId of MEETINGS) {
-  const vttPath = path.join(vttDir, `${clipId}.vtt`);
-  if (!fs.existsSync(vttPath)) {
-    console.warn(`skip ${clipId}: missing ${vttPath}`);
-    continue;
-  }
-  let wins;
-  if (clipId === 8178 && prior8178.length) {
-    wins = prior8178.map((w) => ({ clipId: 8178, start: w.start, end: w.end, text: w.text }));
-  } else {
-    const cues = parseVtt(fs.readFileSync(vttPath, "utf8"));
-    wins = windowize(cues).map((w) => ({ clipId, ...w }));
-  }
-  console.log(`${clipId}: ${wins.length} windows`);
-  all.push(...wins);
+if (shopJson) {
+  fs.mkdirSync(path.dirname(path.resolve(shopJson)), { recursive: true });
+  fs.writeFileSync(shopJson, JSON.stringify(combined));
+  console.log(`shop archive ${combined.length} windows -> ${shopJson}`);
 }
 
-fs.writeFileSync(outPath, JSON.stringify(all));
-console.log(`wrote ${all.length} windows -> ${outPath}`);
+console.log("\n--- windowCount manifest (for src/content/loudoun.ts) ---");
+console.log(JSON.stringify(counts, null, 2));
+console.log(
+  `\nwrote ${Object.keys(counts).length} meeting files under ${outDir} (${combined.length || Object.values(counts).reduce((a, b) => a + b, 0)} windows)`,
+);
