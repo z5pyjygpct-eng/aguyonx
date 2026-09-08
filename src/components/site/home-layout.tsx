@@ -15,7 +15,7 @@ const FTM_DOORS = [
   { to: "/counties/loudoun/schools" as const, label: "Loudoun Schools" },
 ];
 
-/** One pill size for left office doors and cream shelves — same height/type. */
+/** One pill size for left office doors and cream shelves. */
 const PILL =
   "inline-flex h-10 shrink-0 items-center justify-center rounded-md bg-[#E6E1D4] px-4 font-sans text-xs font-semibold tracking-[0.14em] text-night uppercase transition-[filter] duration-150 hover:brightness-95 sm:px-5 sm:text-sm";
 
@@ -28,11 +28,7 @@ function OfficeDoorLinks({ className }: { className?: string }) {
   return (
     <>
       {OFFICE_DOORS.map((door) => (
-        <Link
-          key={door.to}
-          to={door.to}
-          className={className ?? `${PILL} w-full text-center`}
-        >
+        <Link key={door.to} to={door.to} className={className ?? `${PILL} w-full text-center`}>
           {officeRailLabel(door.title)}
         </Link>
       ))}
@@ -41,15 +37,15 @@ function OfficeDoorLinks({ className }: { className?: string }) {
 }
 
 /**
- * Home chrome from the Sep 2026 mock: navy left rail (offices), short headline band,
- * cream shelves, Find the Moment video plate. Mobile collapses the rail.
- * Desktop grid keeps left VA DELEGATES top-aligned with the cream shelf row.
+ * Home chrome: navy left rail + short headline + cream shelves + FTM video.
+ * Desktop: row1 = brand | headline; row2 = doors | (shelves + FTM + rest)
+ * so shelves and VA DELEGATES share a top edge with no dead cream gap.
  */
 export function HomeLayout({ children }: { children?: ReactNode }) {
   return (
-    <div className="flex min-h-svh flex-col bg-background lg:grid lg:grid-cols-[14rem_minmax(0,1fr)] lg:grid-rows-[auto_auto_1fr] xl:grid-cols-[16rem_minmax(0,1fr)]">
-      {/* Brand — shares row with navy headline */}
-      <div className="hidden items-center gap-2.5 bg-night px-4 py-6 text-night-fg lg:flex lg:col-start-1 lg:row-start-1 xl:px-5">
+    <div className="flex min-h-svh flex-col bg-background lg:grid lg:grid-cols-[14rem_minmax(0,1fr)] lg:grid-rows-[auto_1fr] xl:grid-cols-[16rem_minmax(0,1fr)]">
+      {/* Brand — stretches to headline band height */}
+      <div className="hidden items-center bg-night px-4 py-6 text-night-fg lg:flex lg:col-start-1 lg:row-start-1 xl:px-5">
         <Link to="/" className="flex items-center gap-3" aria-label="A Guy on X home">
           <img
             src="/images/va-change-mark.png"
@@ -64,7 +60,6 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
         </Link>
       </div>
 
-      {/* Compact navy headline */}
       <header className="bg-night px-4 py-8 text-center sm:px-6 sm:py-10 lg:col-start-2 lg:row-start-1">
         <h1 className="font-sans text-3xl font-semibold tracking-tight text-white sm:text-4xl md:text-5xl">
           The Public Record Is The Story.
@@ -77,53 +72,45 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
       {/* Mobile office doors */}
       <nav
         aria-label="Virginia offices"
-        className="flex flex-wrap justify-center gap-2 border-b border-border bg-night px-4 pb-6 lg:hidden"
+        className="flex flex-wrap justify-center gap-2.5 border-b border-border bg-night px-4 pb-5 lg:hidden"
       >
         <OfficeDoorLinks className={PILL} />
       </nav>
 
-      {/* Desktop office rail — same row as cream shelves */}
-      <nav
-        aria-label="Virginia offices"
-        className="hidden flex-col gap-2.5 self-start bg-night px-4 py-3 text-night-fg lg:flex lg:col-start-1 lg:row-start-2 xl:px-5"
-      >
-        <OfficeDoorLinks />
-      </nav>
+      {/* Desktop office rail — top aligns with cream shelves; fills night down the page */}
+      <aside className="hidden flex-col bg-night text-night-fg lg:flex lg:col-start-1 lg:row-start-2">
+        <nav aria-label="Virginia offices" className="flex flex-col gap-2.5 px-4 py-3 xl:px-5">
+          <OfficeDoorLinks />
+        </nav>
+        <div className="min-h-0 flex-1" aria-hidden />
+      </aside>
 
-      {/* Cream shelves */}
-      <nav
-        aria-label="Primary"
-        className="flex flex-wrap items-center justify-center gap-2.5 self-start border-b border-border bg-paper px-4 py-3 sm:gap-3 lg:col-start-2 lg:row-start-2"
-      >
-        {SHELVES.map((item) => (
-          <Link
-            key={item.to}
-            to={item.to}
-            className={PILL}
-          >
-            {item.label}
-          </Link>
-        ))}
-      </nav>
+      {/* Shelves + FTM + below-fold — one column so no stretch gap under shelves */}
+      <div className="flex min-w-0 flex-col lg:col-start-2 lg:row-start-2">
+        <nav
+          aria-label="Primary"
+          className="flex flex-wrap items-center justify-center gap-2.5 border-b border-border bg-paper px-4 py-3 sm:gap-3"
+        >
+          {SHELVES.map((item) => (
+            <Link key={item.to} to={item.to} className={PILL}>
+              {item.label}
+            </Link>
+          ))}
+        </nav>
 
-      {/* Left rail fill under the doors */}
-      <div className="hidden bg-night lg:block lg:col-start-1 lg:row-start-3" aria-hidden />
-
-      {/* Main plate + below-fold */}
-      <div className="flex min-w-0 flex-col lg:col-start-2 lg:row-start-3">
         <section
           aria-label="Find the Moment"
-          className="border-b border-border bg-background px-4 py-10 sm:px-6 sm:py-12"
+          className="border-b border-border bg-background px-4 pb-8 pt-5 sm:px-6 sm:pb-10 sm:pt-6"
         >
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-sans text-3xl font-semibold tracking-tight text-night sm:text-4xl">
               “Find the Moment”
             </h2>
-            <p className="mt-3 font-sans text-sm text-night/75 sm:text-base">
+            <p className="mt-2 font-sans text-sm text-night/75 sm:text-base">
               Search what was said in the video. Jump to the video.
             </p>
 
-            <div className="mt-8 overflow-hidden rounded-md bg-[#0d4f6b] shadow-sm outline outline-1 outline-night/10">
+            <div className="mt-5 overflow-hidden rounded-md bg-[#0d4f6b] shadow-sm outline outline-1 outline-night/10">
               <video
                 className="aspect-video w-full bg-night"
                 controls
@@ -138,7 +125,7 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
 
             <nav
               aria-label="Find the Moment doors"
-              className="mt-7 flex flex-wrap justify-center gap-3"
+              className="mt-5 flex flex-wrap justify-center gap-3"
             >
               {FTM_DOORS.map((door) => (
                 <Link
@@ -150,7 +137,7 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
                 </Link>
               ))}
             </nav>
-            <p className="mt-4 font-mono text-[11px] tracking-widest text-[#0d7377] uppercase">
+            <p className="mt-3 font-mono text-[11px] tracking-widest text-[#0d7377] uppercase">
               Live · Virginia public meetings
             </p>
           </div>
@@ -158,6 +145,7 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
 
         {children}
       </div>
+
     </div>
   );
 }
