@@ -4,7 +4,13 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { LcpsMeetingSearch } from "@/components/site/lcps-meeting-search";
-import { LCPS_MEETINGS, LCPS_OFFICIAL_DOORS, LCPS_SCHOOL_BOARD } from "@/content/lcps";
+import { LcpsPolicySearch } from "@/components/site/lcps-policy-search";
+import {
+  LCPS_MEETINGS,
+  LCPS_OFFICIAL_DOORS,
+  LCPS_SCHOOL_BOARD,
+} from "@/content/lcps";
+import { LCPS_POLICY_BOOK, lcpsPolicyCount } from "@/content/lcps-policies";
 
 export const Route = createFileRoute("/counties/loudoun/schools")({
   component: LoudounSchoolsPage,
@@ -71,6 +77,18 @@ function LoudounSchoolsPage() {
               </li>
             ))}
           </ul>
+        </section>
+
+        <section className="mt-14">
+          <Kicker>Policies</Kicker>
+          <h2 className="mt-2 font-serif text-3xl font-medium">Policies</h2>
+          <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
+            Current BoardDocs book — {LCPS_POLICY_BOOK}. {lcpsPolicyCount()} active policies; opens
+            on BoardDocs unless we host the PDF.
+          </p>
+          <div className="mt-8">
+            <LcpsPolicySearch />
+          </div>
         </section>
 
         <section className="mt-14">
