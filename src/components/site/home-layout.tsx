@@ -20,6 +20,23 @@ const FTM_DOORS = [
 const PILL =
   "inline-flex h-10 shrink-0 items-center justify-center rounded-md bg-[#E6E1D4] px-4 font-sans text-xs font-semibold tracking-[0.14em] text-night uppercase transition-[filter] duration-150 hover:brightness-95 sm:px-5 sm:text-sm";
 
+/** Loud red GiveSendGo CTA — same height as cream/office pills. */
+const GIVE_PILL =
+  "inline-flex h-10 shrink-0 items-center justify-center rounded-md bg-[#C41E3A] px-4 font-sans text-xs font-semibold tracking-[0.14em] text-white uppercase shadow-sm transition-[filter] duration-150 hover:brightness-110 sm:px-5 sm:text-sm";
+
+function GivePill({ className }: { className?: string }) {
+  return (
+    <a
+      href={SITE.giveUrl}
+      className={className ?? GIVE_PILL}
+      target="_blank"
+      rel="noreferrer"
+    >
+      {SITE.giveLabel}
+    </a>
+  );
+}
+
 function officeRailLabel(title: string) {
   if (title === "2027 Democrats") return "2027 VA Democrats";
   return title;
@@ -76,12 +93,14 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
         className="flex flex-wrap justify-center gap-2.5 border-b border-border bg-night px-4 pb-5 lg:hidden"
       >
         <OfficeDoorLinks className={PILL} />
+        <GivePill />
       </nav>
 
       {/* Desktop office rail — top aligns with cream shelves; fills night down the page */}
       <aside className="hidden flex-col bg-night text-night-fg lg:flex lg:col-start-1 lg:row-start-2">
         <nav aria-label="Virginia offices" className="flex flex-col gap-2.5 px-4 py-3 xl:px-5">
           <OfficeDoorLinks />
+          <GivePill className={`${GIVE_PILL} w-full text-center`} />
         </nav>
         <div className="min-h-0 flex-1" aria-hidden />
       </aside>
@@ -97,6 +116,7 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
               {item.label}
             </Link>
           ))}
+          <GivePill />
         </nav>
 
         <section
@@ -140,17 +160,6 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
             </nav>
             <p className="mt-3 font-mono text-[11px] tracking-widest text-[#0d7377] uppercase">
               Live · Virginia public meetings
-            </p>
-            <p className="mt-6 max-w-md text-sm text-night/70">
-              Help open the next localities.{" "}
-              <a
-                href={SITE.giveUrl}
-                className="font-semibold text-[#0d7377] underline underline-offset-2"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {SITE.giveLabel}
-              </a>
             </p>
           </div>
         </section>

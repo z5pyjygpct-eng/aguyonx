@@ -55,7 +55,12 @@ export function SiteFooter() {
                 </a>
               </li>
               <li>
-                <a href={SITE.giveUrl} className="hover:underline" rel="noreferrer" target="_blank">
+                <a
+                  href={SITE.giveUrl}
+                  className="inline-flex rounded-md bg-[#C41E3A] px-3 py-2 text-xs font-semibold tracking-[0.12em] text-white uppercase hover:brightness-110"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   {SITE.giveLabel}
                 </a>
               </li>

@@ -10,6 +10,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Mark } from "@/components/site/mark";
+import { SITE } from "@/content/site";
 import { cn } from "@/lib/utils";
 
 export const NAV_SHELVES = [
@@ -63,7 +64,7 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
           <Mark />
         </Link>
 
-        <nav className="hidden items-center lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-3 lg:flex" aria-label="Primary">
           {groups.map((group, i) => (
             <span key={group.id} className="flex items-center">
               {i > 0 ? (
@@ -82,8 +83,25 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
               ))}
             </span>
           ))}
+          <a
+            href={SITE.giveUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex h-9 items-center rounded-md bg-[#C41E3A] px-3 font-sans text-xs font-semibold tracking-[0.12em] text-white uppercase transition-[filter] duration-150 hover:brightness-110"
+          >
+            Give
+          </a>
         </nav>
 
+        <div className="flex items-center gap-2 lg:hidden">
+          <a
+            href={SITE.giveUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex h-9 items-center rounded-md bg-[#C41E3A] px-3 font-sans text-xs font-semibold tracking-[0.12em] text-white uppercase"
+          >
+            Give
+          </a>
         <Sheet open={open} onOpenChange={setOpen}>
           <SheetTrigger asChild>
             <Button
@@ -110,9 +128,19 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
                   {item.label}
                 </Link>
               ))}
+              <a
+                href={SITE.giveUrl}
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => setOpen(false)}
+                className="mt-4 flex h-12 items-center justify-center rounded-md bg-[#C41E3A] font-sans text-sm font-semibold tracking-[0.14em] text-white uppercase"
+              >
+                {SITE.giveLabel}
+              </a>
             </nav>
           </SheetContent>
         </Sheet>
+        </div>
       </div>
     </header>
   );
