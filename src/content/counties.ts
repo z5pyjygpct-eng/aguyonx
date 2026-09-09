@@ -1,3 +1,4 @@
+import { LCPS_MEETINGS } from "@/content/lcps";
 export type ShelfDoor = {
   name: string;
   live: boolean;
@@ -31,7 +32,7 @@ export const COUNTY_SHELVES: CountyShelf[] = [
     schools: {
       name: "Loudoun Schools",
       live: true,
-      dek: "Find the Moment for School Board — one-meeting POC (Aug 11, 2026).",
+      dek: `Find the Moment for School Board — ${LCPS_MEETINGS.length} full Board meetings indexed (2026 YTD).`,
       to: "/counties/loudoun/schools",
     },
   },
