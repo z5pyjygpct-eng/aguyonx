@@ -2,6 +2,7 @@ import { useMemo, useState, type FormEvent } from "react";
 import { ExternalLink, FileText, Search } from "lucide-react";
 import {
   LCPS_POLICIES,
+  LCPS_POLICY_REVISION_YEARS,
   LCPS_POLICY_SECTIONS,
   lcpsPolicyHref,
   lcpsPolicyIsHosted,
@@ -25,15 +26,17 @@ export function LcpsPolicySearch() {
   const [q, setQ] = useState("");
   const [submitted, setSubmitted] = useState("");
   const [section, setSection] = useState<string | "all">("all");
+  const [year, setYear] = useState<number | "all">("all");
 
   const query = submitted.trim();
 
   const filtered = useMemo(() => {
     return LCPS_POLICIES.filter((p) => {
       if (section !== "all" && p.section !== section) return false;
+      if (year !== "all" && p.lastRevisedYear !== year) return false;
       return matchesQuery(p, query);
     });
-  }, [query, section]);
+  }, [query, section, year]);
 
   const shown = filtered.slice(0, RESULT_CAP);
 
@@ -78,26 +81,52 @@ export function LcpsPolicySearch() {
         </button>
       </form>
 
-      <div className="mt-4 flex flex-wrap items-center gap-2">
-        <label
-          htmlFor="lcps-policy-section"
-          className="font-mono text-xs tracking-widest text-muted-foreground uppercase"
-        >
-          Section
-        </label>
-        <select
-          id="lcps-policy-section"
-          value={section}
-          onChange={(e) => setSection(e.target.value === "all" ? "all" : e.target.value)}
-          className="h-9 max-w-full rounded-md border border-input bg-paper px-3 font-sans text-sm text-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
-        >
-          <option value="all">All sections</option>
-          {LCPS_POLICY_SECTIONS.map((s) => (
-            <option key={s} value={s}>
-              {s}
-            </option>
-          ))}
-        </select>
+      <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
+        <div className="flex flex-wrap items-center gap-2">
+          <label
+            htmlFor="lcps-policy-section"
+            className="font-mono text-xs tracking-widest text-muted-foreground uppercase"
+          >
+            Section
+          </label>
+          <select
+            id="lcps-policy-section"
+            value={section}
+            onChange={(e) => setSection(e.target.value === "all" ? "all" : e.target.value)}
+            className="h-9 max-w-full rounded-md border border-input bg-paper px-3 font-sans text-sm text-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+          >
+            <option value="all">All sections</option>
+            {LCPS_POLICY_SECTIONS.map((s) => (
+              <option key={s} value={s}>
+                {s}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <label
+            htmlFor="lcps-policy-year"
+            className="font-mono text-xs tracking-widest text-muted-foreground uppercase"
+          >
+            Revised
+          </label>
+          <select
+            id="lcps-policy-year"
+            value={year === "all" ? "all" : String(year)}
+            onChange={(e) => {
+              const v = e.target.value;
+              setYear(v === "all" ? "all" : Number(v));
+            }}
+            className="h-9 max-w-full rounded-md border border-input bg-paper px-3 font-sans text-sm text-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+          >
+            <option value="all">All years</option>
+            {LCPS_POLICY_REVISION_YEARS.map((y) => (
+              <option key={y} value={y}>
+                {y}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
 
       <div className="mt-4 flex flex-wrap gap-2">
@@ -136,10 +165,10 @@ export function LcpsPolicySearch() {
         {filtered.length === 0
           ? `No policies match${query ? ` “${query}”` : ""}${
               section !== "all" ? ` in ${section}` : ""
-            }.`
+            }${year !== "all" ? ` revised ${year}` : ""}.`
           : `${filtered.length} polic${filtered.length === 1 ? "y" : "ies"}${
-              filtered.length > RESULT_CAP ? ` · showing first ${RESULT_CAP}` : ""
-            }`}
+              year !== "all" ? ` revised ${year}` : ""
+            }${filtered.length > RESULT_CAP ? ` · showing first ${RESULT_CAP}` : ""}`}
       </p>
 
       {shown.length > 0 ? (
@@ -173,6 +202,7 @@ export function LcpsPolicySearch() {
                     </span>
                     <span className="mt-0.5 block text-xs text-muted-foreground">
                       {p.section}
+                      {p.lastRevised ? ` · Revised ${p.lastRevised}` : ""}
                       {hosted ? " · Hosted PDF" : " · BoardDocs"}
                     </span>
                   </span>
