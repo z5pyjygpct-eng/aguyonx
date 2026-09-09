@@ -19,6 +19,13 @@ function ContactPage() {
             {SITE.handle} on X
           </a>
         </p>
+        <p className="mt-10 max-w-xl text-sm text-muted-foreground">
+          To help expand the free public shelves — Find the Moment, News, Investigations —{" "}
+          <a href={SITE.giveUrl} className="underline underline-offset-2" target="_blank" rel="noreferrer">
+            {SITE.giveLabel}
+          </a>
+          .
+        </p>
       </main>
     </SiteShell>
   );

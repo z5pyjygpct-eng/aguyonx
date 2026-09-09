@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 import { OFFICE_DOORS } from "@/content/offices";
+import { SITE } from "@/content/site";
 
 const SHELVES = [
   { to: "/about" as const, label: "About" },
@@ -139,6 +140,17 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
             </nav>
             <p className="mt-3 font-mono text-[11px] tracking-widest text-[#0d7377] uppercase">
               Live · Virginia public meetings
+            </p>
+            <p className="mt-6 max-w-md text-sm text-night/70">
+              Help open the next localities.{" "}
+              <a
+                href={SITE.giveUrl}
+                className="font-semibold text-[#0d7377] underline underline-offset-2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {SITE.giveLabel}
+              </a>
             </p>
           </div>
         </section>

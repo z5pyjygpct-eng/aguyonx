@@ -54,6 +54,11 @@ export function SiteFooter() {
                   {SITE.handle} on X
                 </a>
               </li>
+              <li>
+                <a href={SITE.giveUrl} className="hover:underline" rel="noreferrer" target="_blank">
+                  {SITE.giveLabel}
+                </a>
+              </li>
             </ul>
           </div>
         </div>

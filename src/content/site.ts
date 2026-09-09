@@ -5,6 +5,9 @@ export const SITE = {
   url: "https://aguyonx.com",
   handle: "@VaChangeAgent",
   xUrl: "https://x.com/VaChangeAgent",
+  giveUrl:
+    "https://www.givesendgo.com/opening-virginia-public-accessible-recor",
+  giveLabel: "Fuel the public record",
   bookUrl:
     "https://www.amazon.com/Grassroots-Intelligence-Citizen-Political-Research-ebook/dp/B0GJ7NLQ2W",
   location: "Loudoun County, Virginia",
