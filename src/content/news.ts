@@ -47,6 +47,47 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "spanberger-digital-service-vascope-2026-09-08",
+    date: "2026-09-08",
+    filed: "2026-09-09",
+    headline: "Spanberger is creating a new state technology team",
+    outlet: "Virginia Scope",
+    url: "https://www.virginiascope.com/spanberger-is-creating-a-new-state-technology-team/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "loudoun-supervisor-salary-hearing-loudounnow-2026-09-08",
+    date: "2026-09-08",
+    filed: "2026-09-09",
+    headline: "Loudoun Supervisors Set Public Hearing for 30% Salary Increases",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/loudoun-supervisors-set-public-hearing-for-30-salary-increases/article_cd0b4b1a-9fbb-4a98-b716-6e228471305f.html",
+    people: [
+      { name: "Juli Briskman", office: "Loudoun Supervisor" },
+      { name: "Sylvia Glass", office: "Loudoun Supervisor" },
+      { name: "Laura TeKrony", office: "Loudoun Supervisor" },
+      { name: "Kristen Umstattd", office: "Loudoun Supervisor" },
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "zargarpur-coles-supervisor-2027-insidenova-2026-06-09",
+    date: "2026-06-09",
+    filed: "2026-09-09",
+    headline:
+      "Prince William School Board member Zargarpur launches campaign for Coles District supervisor",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/news/prince_william/prince-william-school-board-member-zargarpur-launches-campaign-for-coles-district-supervisor/article_0668db75-1b52-4bff-b287-61e94a36cee7.html",
+    people: [
+      { name: "Lisa Zargarpur", office: "Prince William official" },
+      { name: "James Walkinshaw", office: "U.S. Representative" },
+      { name: "Jeremy McPike", office: "State Senator" },
+    ],
+    scope: "local",
+  },
+  {
     id: "fairfax-city-chain-bridge-housing-ffxnow-2026-08-04",
     date: "2026-08-04",
     filed: "2026-09-08",

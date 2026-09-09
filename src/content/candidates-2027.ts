@@ -21,6 +21,13 @@ export const CANDIDATES_2027_EMPTY =
 /** Seed only people with a public source. Do not invent a caucus-wide list. */
 export const CANDIDATES_2027: Candidate2027[] = [
   {
+    id: "lisa-zargarpur",
+    name: "Lisa Zargarpur",
+    officeSought: "Prince William Coles District Supervisor",
+    locality: "Prince William County",
+    status: "declared",
+  },
+  {
     id: "juli-briskman",
     name: "Juli Briskman",
     officeSought: "Loudoun Chair",
