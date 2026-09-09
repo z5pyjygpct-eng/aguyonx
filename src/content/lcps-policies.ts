@@ -1217,6 +1217,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "CCDS7H70E0E2",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CCDS7H70E0E2",
+    "pdfPath": "/files/lcps-policies/pdfs/5320-REG.pdf",
   },
   {
     "code": "5345",
@@ -1224,6 +1225,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "B8GUFK6DB6F1",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B8GUFK6DB6F1",
+    "pdfPath": "/files/lcps-policies/pdfs/5345.pdf",
   },
   {
     "code": "5345-REG",
@@ -1231,6 +1233,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "B8UNLV5AAFE2",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B8UNLV5AAFE2",
+    "pdfPath": "/files/lcps-policies/pdfs/5345-REG.pdf",
   },
   {
     "code": "5350",
@@ -1238,6 +1241,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "C7BPWV6631A4",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=C7BPWV6631A4",
+    "pdfPath": "/files/lcps-policies/pdfs/5350.pdf",
+    "lastRevised": "January 22, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "5350-REG",
@@ -1245,6 +1251,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "C8LQL268EAA9",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=C8LQL268EAA9",
+    "pdfPath": "/files/lcps-policies/pdfs/5350-REG.pdf",
+    "lastRevised": "January 22, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "5360",
@@ -1252,6 +1261,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "BBUE5U6D3874",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BBUE5U6D3874",
+    "pdfPath": "/files/lcps-policies/pdfs/5360.pdf",
+    "lastRevised": "October 8, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "5365",
@@ -1259,6 +1271,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "D9WKGS51D58F",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=D9WKGS51D58F",
+    "pdfPath": "/files/lcps-policies/pdfs/5365.pdf",
   },
   {
     "code": "5410",
@@ -1266,6 +1279,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "BLKKZC542195",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BLKKZC542195",
+    "pdfPath": "/files/lcps-policies/pdfs/5410.pdf",
+    "lastRevised": "September 30, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "5410-REG",
@@ -1273,6 +1289,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "BLKL2E545ECB",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BLKL2E545ECB",
+    "pdfPath": "/files/lcps-policies/pdfs/5410-REG.pdf",
+    "lastRevised": "January 28, 2020",
+    "lastRevisedYear": 2020,
   },
   {
     "code": "5420",
@@ -1280,6 +1299,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "CL9M78591F83",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CL9M78591F83",
+    "pdfPath": "/files/lcps-policies/pdfs/5420.pdf",
   },
   {
     "code": "5420.1-REG",
@@ -1287,6 +1307,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "CM2N7A574D9B",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CM2N7A574D9B",
+    "pdfPath": "/files/lcps-policies/pdfs/5420.1-REG.pdf",
   },
   {
     "code": "5420.2-REG",
@@ -1294,6 +1315,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "CPVLR356BB4E",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CPVLR356BB4E",
+    "pdfPath": "/files/lcps-policies/pdfs/5420.2-REG.pdf",
   },
   {
     "code": "5420.3-REG",
@@ -1301,6 +1323,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "CPVLSL56FD77",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CPVLSL56FD77",
+    "pdfPath": "/files/lcps-policies/pdfs/5420.3-REG.pdf",
   },
   {
     "code": "5430",
@@ -1308,6 +1331,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "DJ2GVA459D84",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DJ2GVA459D84",
+    "pdfPath": "/files/lcps-policies/pdfs/5430.pdf",
+    "lastRevised": "June 24, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "5430.1-REG",
@@ -1315,6 +1341,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "DKJFPX402655",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DKJFPX402655",
+    "pdfPath": "/files/lcps-policies/pdfs/5430.1-REG.pdf",
   },
   {
     "code": "5430.2-REG",
@@ -1322,6 +1349,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "DKJH4N46B2A6",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DKJH4N46B2A6",
+    "pdfPath": "/files/lcps-policies/pdfs/5430.2-REG.pdf",
   },
   {
     "code": "5440",
@@ -1329,6 +1357,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "5000 - INSTRUCTION",
     "itemId": "DN3JY24F657A",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DN3JY24F657A",
+    "pdfPath": "/files/lcps-policies/pdfs/5440.pdf",
   },
   {
     "code": "6120",
@@ -1336,6 +1365,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "BJ6KAR50F7DC",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BJ6KAR50F7DC",
+    "pdfPath": "/files/lcps-policies/pdfs/6120.pdf",
+    "lastRevised": "January 14, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6120-REG",
@@ -1343,6 +1375,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "C7AQ3U666CB5",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=C7AQ3U666CB5",
+    "pdfPath": "/files/lcps-policies/pdfs/6120-REG.pdf",
   },
   {
     "code": "6130",
@@ -1350,6 +1383,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "B8RM54596B99",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B8RM54596B99",
+    "pdfPath": "/files/lcps-policies/pdfs/6130.pdf",
+    "lastRevised": "May 20, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6140",
@@ -1357,6 +1393,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "CESJSV4CB7AF",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CESJSV4CB7AF",
+    "pdfPath": "/files/lcps-policies/pdfs/6140.pdf",
+    "lastRevised": "February 25, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6150",
@@ -1364,6 +1403,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "CESKK54F9EF2",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CESKK54F9EF2",
+    "pdfPath": "/files/lcps-policies/pdfs/6150.pdf",
   },
   {
     "code": "6150-REG",
@@ -1371,6 +1411,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "DG9GPA44BE09",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DG9GPA44BE09",
+    "pdfPath": "/files/lcps-policies/pdfs/6150-REG.pdf",
   },
   {
     "code": "6160",
@@ -1378,6 +1419,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "CESKQA50647F",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CESKQA50647F",
+    "pdfPath": "/files/lcps-policies/pdfs/6160.pdf",
   },
   {
     "code": "6205",
@@ -1385,6 +1427,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "ALBUTN6414E3",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ALBUTN6414E3",
+    "pdfPath": "/files/lcps-policies/pdfs/6205.pdf",
   },
   {
     "code": "6210",
@@ -1392,6 +1435,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "ALBV4U6473DA",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ALBV4U6473DA",
+    "pdfPath": "/files/lcps-policies/pdfs/6210.pdf",
   },
   {
     "code": "6210-REG",
@@ -1399,6 +1443,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "CBGNVQ5D4F3C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CBGNVQ5D4F3C",
+    "pdfPath": "/files/lcps-policies/pdfs/6210-REG.pdf",
   },
   {
     "code": "6215",
@@ -1406,6 +1451,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "AZB7386EB5BD",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AZB7386EB5BD",
+    "pdfPath": "/files/lcps-policies/pdfs/6215.pdf",
   },
   {
     "code": "6220",
@@ -1413,6 +1459,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "AZB74S6ED88F",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AZB74S6ED88F",
+    "pdfPath": "/files/lcps-policies/pdfs/6220.pdf",
   },
   {
     "code": "6310",
@@ -1420,6 +1467,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "B8ATR2678662",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B8ATR2678662",
+    "pdfPath": "/files/lcps-policies/pdfs/6310.pdf",
+    "lastRevised": "September 5, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "6310-REG",
@@ -1427,6 +1477,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "BLYQKP69B720",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BLYQKP69B720",
+    "pdfPath": "/files/lcps-policies/pdfs/6310-REG.pdf",
+    "lastRevised": "June 24, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6320",
@@ -1434,6 +1487,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "B3UUUY6BAFA8",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B3UUUY6BAFA8",
+    "pdfPath": "/files/lcps-policies/pdfs/6320.pdf",
+    "lastRevised": "February 13, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6320-REG",
@@ -1441,6 +1497,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "BLPLA7555ABC",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BLPLA7555ABC",
+    "pdfPath": "/files/lcps-policies/pdfs/6320-REG.pdf",
+    "lastRevised": "August 4, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6330",
@@ -1448,6 +1507,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "DT7HSY49F80A",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DT7HSY49F80A",
+    "pdfPath": "/files/lcps-policies/pdfs/6330.pdf",
+    "lastRevised": "April 14, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "6340",
@@ -1455,6 +1517,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "BJZQJJ698BA0",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BJZQJJ698BA0",
+    "pdfPath": "/files/lcps-policies/pdfs/6340.pdf",
+    "lastRevised": "March 11, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6350",
@@ -1462,6 +1527,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "ASJNXK619E2A",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ASJNXK619E2A",
+    "pdfPath": "/files/lcps-policies/pdfs/6350.pdf",
+    "lastRevised": "September 24, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "6350-REG",
@@ -1469,6 +1537,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "B4SJU74E8252",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B4SJU74E8252",
+    "pdfPath": "/files/lcps-policies/pdfs/6350-REG.pdf",
+    "lastRevised": "April 15, 2021",
+    "lastRevisedYear": 2021,
   },
   {
     "code": "6355",
@@ -1476,6 +1547,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "DWUPNZ6582E5",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DWUPNZ6582E5",
+    "pdfPath": "/files/lcps-policies/pdfs/6355.pdf",
   },
   {
     "code": "6360",
@@ -1483,6 +1555,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "CYMJTU4CE776",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CYMJTU4CE776",
+    "pdfPath": "/files/lcps-policies/pdfs/6360.pdf",
   },
   {
     "code": "6410",
@@ -1490,6 +1563,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "BJLTE974CD40",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BJLTE974CD40",
+    "pdfPath": "/files/lcps-policies/pdfs/6410.pdf",
   },
   {
     "code": "6420",
@@ -1497,6 +1571,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "CANLRH57CBBA",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CANLRH57CBBA",
+    "pdfPath": "/files/lcps-policies/pdfs/6420.pdf",
+    "lastRevised": "September 4, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6430",
@@ -1504,6 +1581,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "BJLTEP74F9A6",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BJLTEP74F9A6",
+    "pdfPath": "/files/lcps-policies/pdfs/6430.pdf",
+    "lastRevised": "September 4, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6460",
@@ -1511,6 +1591,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "DEPN6U5E7327",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DEPN6U5E7327",
+    "pdfPath": "/files/lcps-policies/pdfs/6460.pdf",
+    "lastRevised": "September 4, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6510",
@@ -1518,6 +1601,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "ARFJAC4C3819",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ARFJAC4C3819",
+    "pdfPath": "/files/lcps-policies/pdfs/6510.pdf",
+    "lastRevised": "October 25, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "6510-REG",
@@ -1525,6 +1611,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "BY3KUK534ACF",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BY3KUK534ACF",
+    "pdfPath": "/files/lcps-policies/pdfs/6510-REG.pdf",
+    "lastRevised": "May 17, 2021",
+    "lastRevisedYear": 2021,
   },
   {
     "code": "6530",
@@ -1532,6 +1621,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "AQCHB547A589",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AQCHB547A589",
+    "pdfPath": "/files/lcps-policies/pdfs/6530.pdf",
+    "lastRevised": "April 22, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6530-REG",
@@ -1539,6 +1631,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "AQCHHL485CE9",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AQCHHL485CE9",
+    "pdfPath": "/files/lcps-policies/pdfs/6530-REG.pdf",
+    "lastRevised": "April 22, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "6610",
@@ -1546,6 +1641,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "BPTFMJ3FCB4B",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BPTFMJ3FCB4B",
+    "pdfPath": "/files/lcps-policies/pdfs/6610.pdf",
+    "lastRevised": "April 26, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "6620",
@@ -1553,6 +1651,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "CDVRVF6EB316",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CDVRVF6EB316",
+    "pdfPath": "/files/lcps-policies/pdfs/6620.pdf",
   },
   {
     "code": "6620-REG",
@@ -1560,6 +1659,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "CQ5J5R4B25AD",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CQ5J5R4B25AD",
+    "pdfPath": "/files/lcps-policies/pdfs/6620-REG.pdf",
+    "lastRevised": "July 6, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "6640",
@@ -1567,6 +1669,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "D2HQX66B0C09",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=D2HQX66B0C09",
+    "pdfPath": "/files/lcps-policies/pdfs/6640.pdf",
+    "lastRevised": "May 12, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "6640-REG",
@@ -1574,13 +1679,15 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "D8HMDM5AAB5B",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=D8HMDM5AAB5B",
+    "pdfPath": "/files/lcps-policies/pdfs/6640-REG.pdf",
   },
   {
     "code": "6650",
-    "title": "Personnel Training \u2013 Viral Infections",
+    "title": "Personnel Training – Viral Infections",
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "D4UHNH491686",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=D4UHNH491686",
+    "pdfPath": "/files/lcps-policies/pdfs/6650.pdf",
   },
   {
     "code": "6720",
@@ -1588,6 +1695,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "CSYJKY4DA116",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CSYJKY4DA116",
+    "pdfPath": "/files/lcps-policies/pdfs/6720.pdf",
+    "lastRevised": "June 13, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "6730",
@@ -1595,6 +1705,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "6000 - SUPPORT SERVICES",
     "itemId": "CRWQJ2652769",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CRWQJ2652769",
+    "pdfPath": "/files/lcps-policies/pdfs/6730.pdf",
   },
   {
     "code": "7012",
@@ -1602,6 +1713,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AHWL2853F374",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AHWL2853F374",
+    "pdfPath": "/files/lcps-policies/pdfs/7012.pdf",
+    "lastRevised": "December 3, 2019",
+    "lastRevisedYear": 2019,
   },
   {
     "code": "7014",
@@ -1609,6 +1723,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AHYT9D751F0D",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AHYT9D751F0D",
+    "pdfPath": "/files/lcps-policies/pdfs/7014.pdf",
+    "lastRevised": "December 3, 2019",
+    "lastRevisedYear": 2019,
   },
   {
     "code": "7014-REG",
@@ -1616,6 +1733,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AHYTAK7571CA",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AHYTAK7571CA",
+    "pdfPath": "/files/lcps-policies/pdfs/7014-REG.pdf",
+    "lastRevised": "September 8, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7016",
@@ -1623,6 +1743,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AS2S9T6C85B8",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AS2S9T6C85B8",
+    "pdfPath": "/files/lcps-policies/pdfs/7016.pdf",
+    "lastRevised": "March 14, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7018",
@@ -1630,6 +1753,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AS2SBV6CEC6D",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AS2SBV6CEC6D",
+    "pdfPath": "/files/lcps-policies/pdfs/7018.pdf",
+    "lastRevised": "September 26, 2017",
+    "lastRevisedYear": 2017,
   },
   {
     "code": "7020",
@@ -1637,6 +1763,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A3RRRA68497A",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A3RRRA68497A",
+    "pdfPath": "/files/lcps-policies/pdfs/7020.pdf",
+    "lastRevised": "April 22, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "7022",
@@ -1644,6 +1773,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ACFR8V6B9B45",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ACFR8V6B9B45",
+    "pdfPath": "/files/lcps-policies/pdfs/7022.pdf",
+    "lastRevised": "April 23, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7024",
@@ -1651,6 +1783,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AS2SGF6E5549",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AS2SGF6E5549",
+    "pdfPath": "/files/lcps-policies/pdfs/7024.pdf",
+    "lastRevised": "September 26, 2017",
+    "lastRevisedYear": 2017,
   },
   {
     "code": "7030",
@@ -1658,6 +1793,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A8LTD46FE6C2",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A8LTD46FE6C2",
+    "pdfPath": "/files/lcps-policies/pdfs/7030.pdf",
+    "lastRevised": "April 10, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "7030-REG",
@@ -1665,6 +1803,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "BK9QDT68DAD8",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BK9QDT68DAD8",
+    "pdfPath": "/files/lcps-policies/pdfs/7030-REG.pdf",
+    "lastRevised": "April 10, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "7040",
@@ -1672,6 +1813,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A3RRSU686701",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A3RRSU686701",
+    "pdfPath": "/files/lcps-policies/pdfs/7040.pdf",
+    "lastRevised": "November 14, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7040-REG",
@@ -1679,6 +1823,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A59K3M4F870F",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A59K3M4F870F",
+    "pdfPath": "/files/lcps-policies/pdfs/7040-REG.pdf",
+    "lastRevised": "June 22, 2021",
+    "lastRevisedYear": 2021,
   },
   {
     "code": "7170",
@@ -1686,6 +1833,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A3PW2V71A51D",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A3PW2V71A51D",
+    "pdfPath": "/files/lcps-policies/pdfs/7170.pdf",
+    "lastRevised": "March 26, 2019",
+    "lastRevisedYear": 2019,
   },
   {
     "code": "7170-REG",
@@ -1693,6 +1843,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A59K754FDCA9",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A59K754FDCA9",
+    "pdfPath": "/files/lcps-policies/pdfs/7170-REG.pdf",
   },
   {
     "code": "7301",
@@ -1700,6 +1851,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A3PVU670FF0C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A3PVU670FF0C",
+    "pdfPath": "/files/lcps-policies/pdfs/7301.pdf",
+    "lastRevised": "December 10, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7302",
@@ -1707,6 +1861,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ACFRG76C3510",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ACFRG76C3510",
+    "pdfPath": "/files/lcps-policies/pdfs/7302.pdf",
+    "lastRevised": "February 28, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7304",
@@ -1714,6 +1871,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "CR2JJ74CF718",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CR2JJ74CF718",
+    "pdfPath": "/files/lcps-policies/pdfs/7304.pdf",
+    "lastRevised": "April 11, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7304-REG",
@@ -1721,6 +1881,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "CR2JQW4E5ABA",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CR2JQW4E5ABA",
+    "pdfPath": "/files/lcps-policies/pdfs/7304-REG.pdf",
+    "lastRevised": "April 11, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7306",
@@ -1728,6 +1891,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AGP3S774ECA2",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AGP3S774ECA2",
+    "pdfPath": "/files/lcps-policies/pdfs/7306.pdf",
+    "lastRevised": "June 17, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "7308",
@@ -1735,6 +1901,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "B2SUM46C0B1D",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B2SUM46C0B1D",
+    "pdfPath": "/files/lcps-policies/pdfs/7308.pdf",
+    "lastRevised": "December 10, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7310",
@@ -1742,6 +1911,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A54SSF69E0D2",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A54SSF69E0D2",
+    "pdfPath": "/files/lcps-policies/pdfs/7310.pdf",
+    "lastRevised": "June 28, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7312",
@@ -1749,6 +1921,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AAJUT4722D3E",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AAJUT4722D3E",
+    "pdfPath": "/files/lcps-policies/pdfs/7312.pdf",
+    "lastRevised": "December 13, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7314",
@@ -1756,6 +1931,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A9NK5N4D6908",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A9NK5N4D6908",
+    "pdfPath": "/files/lcps-policies/pdfs/7314.pdf",
+    "lastRevised": "December 13, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7316",
@@ -1763,6 +1941,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A9NKA34DC949",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A9NKA34DC949",
+    "pdfPath": "/files/lcps-policies/pdfs/7316.pdf",
+    "lastRevised": "October 22, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7318",
@@ -1770,6 +1951,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A9NKM84EAFA3",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A9NKM84EAFA3",
+    "pdfPath": "/files/lcps-policies/pdfs/7318.pdf",
+    "lastRevised": "April 23, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7318-REG",
@@ -1777,6 +1961,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "D5HJ8C4BAD40",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=D5HJ8C4BAD40",
+    "pdfPath": "/files/lcps-policies/pdfs/7318-REG.pdf",
   },
   {
     "code": "7320",
@@ -1784,6 +1969,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A54QMF69F8B4",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A54QMF69F8B4",
+    "pdfPath": "/files/lcps-policies/pdfs/7320.pdf",
+    "lastRevised": "June 9, 2020",
+    "lastRevisedYear": 2020,
   },
   {
     "code": "7320-REG",
@@ -1791,6 +1979,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A59LAV53C6F3",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A59LAV53C6F3",
+    "pdfPath": "/files/lcps-policies/pdfs/7320-REG.pdf",
   },
   {
     "code": "7322",
@@ -1798,6 +1987,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A7M26C730B4F",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A7M26C730B4F",
+    "pdfPath": "/files/lcps-policies/pdfs/7322.pdf",
+    "lastRevised": "November 26, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7324",
@@ -1805,6 +1997,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A7M2Y875BB25",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A7M2Y875BB25",
+    "pdfPath": "/files/lcps-policies/pdfs/7324.pdf",
+    "lastRevised": "November 26, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7324-REG",
@@ -1812,6 +2007,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ACFRSN6D97F3",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ACFRSN6D97F3",
+    "pdfPath": "/files/lcps-policies/pdfs/7324-REG.pdf",
+    "lastRevised": "March 14, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "7330",
@@ -1819,6 +2017,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AASVXC700101",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AASVXC700101",
+    "pdfPath": "/files/lcps-policies/pdfs/7330.pdf",
+    "lastRevised": "June 28, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7330-REG",
@@ -1826,6 +2027,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "BESK2G4FC092",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BESK2G4FC092",
+    "pdfPath": "/files/lcps-policies/pdfs/7330-REG.pdf",
+    "lastRevised": "October 7, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7520",
@@ -1833,6 +2037,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A54QN66A139E",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A54QN66A139E",
+    "pdfPath": "/files/lcps-policies/pdfs/7520.pdf",
+    "lastRevised": "April 22, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "7522",
@@ -1840,6 +2047,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A54RPR6E2108",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A54RPR6E2108",
+    "pdfPath": "/files/lcps-policies/pdfs/7522.pdf",
+    "lastRevised": "May 28, 2019",
+    "lastRevisedYear": 2019,
   },
   {
     "code": "7524",
@@ -1847,6 +2057,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ACFRGL6C4B84",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ACFRGL6C4B84",
+    "pdfPath": "/files/lcps-policies/pdfs/7524.pdf",
+    "lastRevised": "June 28, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7530",
@@ -1854,6 +2067,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A54QNQ6A27D9",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A54QNQ6A27D9",
+    "pdfPath": "/files/lcps-policies/pdfs/7530.pdf",
+    "lastRevised": "April 25, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7540",
@@ -1861,6 +2077,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A54QPK6A4546",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A54QPK6A4546",
+    "pdfPath": "/files/lcps-policies/pdfs/7540.pdf",
+    "lastRevised": "February 22, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7540-REG",
@@ -1868,6 +2087,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A59ND958D81C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A59ND958D81C",
+    "pdfPath": "/files/lcps-policies/pdfs/7540-REG.pdf",
+    "lastRevised": "April 4, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7542",
@@ -1875,6 +2097,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "CBYPUW666078",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CBYPUW666078",
+    "pdfPath": "/files/lcps-policies/pdfs/7542.pdf",
   },
   {
     "code": "7550",
@@ -1882,6 +2105,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A7M32775E6DF",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A7M32775E6DF",
+    "pdfPath": "/files/lcps-policies/pdfs/7550.pdf",
+    "lastRevised": "March 14, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7552",
@@ -1889,6 +2115,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A7M32Y76016C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A7M32Y76016C",
+    "pdfPath": "/files/lcps-policies/pdfs/7552.pdf",
+    "lastRevised": "March 14, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7554",
@@ -1896,6 +2125,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A7M34F761FE9",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A7M34F761FE9",
+    "pdfPath": "/files/lcps-policies/pdfs/7554.pdf",
+    "lastRevised": "March 14, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7556",
@@ -1903,6 +2135,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A8LTDN7011CD",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A8LTDN7011CD",
+    "pdfPath": "/files/lcps-policies/pdfs/7556.pdf",
+    "lastRevised": "March 29, 2016",
+    "lastRevisedYear": 2016,
   },
   {
     "code": "7560",
@@ -1910,6 +2145,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A9NKNG4ECE08",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A9NKNG4ECE08",
+    "pdfPath": "/files/lcps-policies/pdfs/7560.pdf",
+    "lastRevised": "September 14, 2021",
+    "lastRevisedYear": 2021,
   },
   {
     "code": "7560.1-REG",
@@ -1917,6 +2155,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "CJRK364FDAAC",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CJRK364FDAAC",
+    "pdfPath": "/files/lcps-policies/pdfs/7560.1-REG.pdf",
   },
   {
     "code": "7560.2-REG",
@@ -1924,6 +2163,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "CUPRDF6D7C7C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CUPRDF6D7C7C",
+    "pdfPath": "/files/lcps-policies/pdfs/7560.2-REG.pdf",
   },
   {
     "code": "7562",
@@ -1931,6 +2171,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ACFRDH6BF0B6",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ACFRDH6BF0B6",
+    "pdfPath": "/files/lcps-policies/pdfs/7562.pdf",
+    "lastRevised": "October 24, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7564",
@@ -1938,6 +2181,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AASVXU701AD3",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AASVXU701AD3",
+    "pdfPath": "/files/lcps-policies/pdfs/7564.pdf",
+    "lastRevised": "December 13, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7566",
@@ -1945,6 +2191,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "B2SUMN6C34D0",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B2SUMN6C34D0",
+    "pdfPath": "/files/lcps-policies/pdfs/7566.pdf",
+    "lastRevised": "March 19, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "7566-REG",
@@ -1952,6 +2201,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "B3UUVF6BCB81",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B3UUVF6BCB81",
+    "pdfPath": "/files/lcps-policies/pdfs/7566-REG.pdf",
   },
   {
     "code": "7610",
@@ -1959,6 +2209,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AASVYG703C58",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AASVYG703C58",
+    "pdfPath": "/files/lcps-policies/pdfs/7610.pdf",
+    "lastRevised": "June 7, 2016",
+    "lastRevisedYear": 2016,
   },
   {
     "code": "7612",
@@ -1966,6 +2219,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A9722A6ABDC1",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A9722A6ABDC1",
+    "pdfPath": "/files/lcps-policies/pdfs/7612.pdf",
+    "lastRevised": "April 22, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "7614",
@@ -1973,6 +2229,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AKHVKZ507C91",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AKHVKZ507C91",
+    "pdfPath": "/files/lcps-policies/pdfs/7614.pdf",
+    "lastRevised": "June 28, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7620",
@@ -1980,6 +2239,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ACFR4A6AA770",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ACFR4A6AA770",
+    "pdfPath": "/files/lcps-policies/pdfs/7620.pdf",
+    "lastRevised": "February 28, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7622",
@@ -1987,6 +2249,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ACFR7W6B68E6",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ACFR7W6B68E6",
+    "pdfPath": "/files/lcps-policies/pdfs/7622.pdf",
+    "lastRevised": "June 28, 2016",
+    "lastRevisedYear": 2016,
   },
   {
     "code": "7624",
@@ -1994,6 +2259,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AFTS5F70B42C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AFTS5F70B42C",
+    "pdfPath": "/files/lcps-policies/pdfs/7624.pdf",
+    "lastRevised": "March 14, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7626",
@@ -2001,6 +2269,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AFTS4U70872F",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AFTS4U70872F",
+    "pdfPath": "/files/lcps-policies/pdfs/7626.pdf",
+    "lastRevised": "October 12, 2021",
+    "lastRevisedYear": 2021,
   },
   {
     "code": "7628",
@@ -2008,6 +2279,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ACFR8M6B83CC",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ACFR8M6B83CC",
+    "pdfPath": "/files/lcps-policies/pdfs/7628.pdf",
+    "lastRevised": "April 23, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7630",
@@ -2015,6 +2289,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AKHVPZ50F667",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AKHVPZ50F667",
+    "pdfPath": "/files/lcps-policies/pdfs/7630.pdf",
+    "lastRevised": "October 22, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7630-REG",
@@ -2022,6 +2299,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "B75N3Y5E08D9",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B75N3Y5E08D9",
+    "pdfPath": "/files/lcps-policies/pdfs/7630-REG.pdf",
+    "lastRevised": "October 22, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7640",
@@ -2029,6 +2309,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AFTS5U70CFF2",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AFTS5U70CFF2",
+    "pdfPath": "/files/lcps-policies/pdfs/7640.pdf",
+    "lastRevised": "June 27, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7640-REG",
@@ -2036,6 +2319,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AVCK344EA6D5",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AVCK344EA6D5",
+    "pdfPath": "/files/lcps-policies/pdfs/7640-REG.pdf",
+    "lastRevised": "July 1, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7650",
@@ -2043,6 +2329,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "A9NKPV4EE89D",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A9NKPV4EE89D",
+    "pdfPath": "/files/lcps-policies/pdfs/7650.pdf",
+    "lastRevised": "August 13, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7652",
@@ -2050,6 +2339,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AAJUTP72704C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AAJUTP72704C",
+    "pdfPath": "/files/lcps-policies/pdfs/7652.pdf",
+    "lastRevised": "March 14, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7710",
@@ -2057,6 +2349,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ADYSGH6FB6ED",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ADYSGH6FB6ED",
+    "pdfPath": "/files/lcps-policies/pdfs/7710.pdf",
+    "lastRevised": "June 28, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7712",
@@ -2064,6 +2359,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AQBSCA71E8FD",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AQBSCA71E8FD",
+    "pdfPath": "/files/lcps-policies/pdfs/7712.pdf",
+    "lastRevised": "May 28, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7715",
@@ -2071,6 +2369,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "CGRRCJ6D59E8",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CGRRCJ6D59E8",
+    "pdfPath": "/files/lcps-policies/pdfs/7715.pdf",
   },
   {
     "code": "7715-REG",
@@ -2078,6 +2377,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "CGRRNM6E7608",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CGRRNM6E7608",
+    "pdfPath": "/files/lcps-policies/pdfs/7715-REG.pdf",
   },
   {
     "code": "7716",
@@ -2085,6 +2385,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AQBSDD722699",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AQBSDD722699",
+    "pdfPath": "/files/lcps-policies/pdfs/7716.pdf",
+    "lastRevised": "August 29, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7716-REG",
@@ -2092,6 +2395,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "CUXRUG667050",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CUXRUG667050",
+    "pdfPath": "/files/lcps-policies/pdfs/7716-REG.pdf",
   },
   {
     "code": "7717",
@@ -2099,6 +2403,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "CSDL32548685",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CSDL32548685",
+    "pdfPath": "/files/lcps-policies/pdfs/7717.pdf",
   },
   {
     "code": "7720",
@@ -2106,6 +2411,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AGP3SC750408",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AGP3SC750408",
+    "pdfPath": "/files/lcps-policies/pdfs/7720.pdf",
+    "lastRevised": "December 13, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "7722",
@@ -2113,6 +2421,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ARFJ8Q4BFBC5",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ARFJ8Q4BFBC5",
+    "pdfPath": "/files/lcps-policies/pdfs/7722.pdf",
+    "lastRevised": "September 12, 2017",
+    "lastRevisedYear": 2017,
   },
   {
     "code": "7722-REG",
@@ -2120,6 +2431,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "CQVJMZ4C0729",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CQVJMZ4C0729",
+    "pdfPath": "/files/lcps-policies/pdfs/7722-REG.pdf",
+    "lastRevised": "April 14, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7724",
@@ -2127,6 +2441,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AQBSH472B54C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AQBSH472B54C",
+    "pdfPath": "/files/lcps-policies/pdfs/7724.pdf",
+    "lastRevised": "August 13, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7726",
@@ -2134,6 +2451,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AQBSHN72C72B",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AQBSHN72C72B",
+    "pdfPath": "/files/lcps-policies/pdfs/7726.pdf",
+    "lastRevised": "August 8, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7726-REG",
@@ -2141,6 +2461,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AVCK2M4E7717",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AVCK2M4E7717",
+    "pdfPath": "/files/lcps-policies/pdfs/7726-REG.pdf",
+    "lastRevised": "August 21, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7730",
@@ -2148,6 +2471,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AQBSJA72DF6E",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AQBSJA72DF6E",
+    "pdfPath": "/files/lcps-policies/pdfs/7730.pdf",
+    "lastRevised": "August 13, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7740",
@@ -2155,6 +2481,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "ARFJ9H4C183E",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ARFJ9H4C183E",
+    "pdfPath": "/files/lcps-policies/pdfs/7740.pdf",
+    "lastRevised": "September 27, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "7910",
@@ -2162,6 +2491,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "AL7LXV55335D",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AL7LXV55335D",
+    "pdfPath": "/files/lcps-policies/pdfs/7910.pdf",
+    "lastRevised": "August 13, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "7910-REG",
@@ -2169,6 +2501,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "7000 - PERSONNEL",
     "itemId": "D8BJHV4D4E34",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=D8BJHV4D4E34",
+    "pdfPath": "/files/lcps-policies/pdfs/7910-REG.pdf",
   },
   {
     "code": "8010",
@@ -2176,6 +2509,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BDQK4U4D5B36",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BDQK4U4D5B36",
+    "pdfPath": "/files/lcps-policies/pdfs/8010.pdf",
+    "lastRevised": "March 14, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "8010-REG",
@@ -2183,6 +2519,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CV6KRT532C8C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CV6KRT532C8C",
+    "pdfPath": "/files/lcps-policies/pdfs/8010-REG.pdf",
   },
   {
     "code": "8020",
@@ -2190,6 +2527,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CCUQJK698B1C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CCUQJK698B1C",
+    "pdfPath": "/files/lcps-policies/pdfs/8020.pdf",
+    "lastRevised": "October 22, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "8025",
@@ -2197,6 +2537,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CWAGTT4567CD",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CWAGTT4567CD",
+    "pdfPath": "/files/lcps-policies/pdfs/8025.pdf",
+    "lastRevised": "November 29, 2011",
+    "lastRevisedYear": 2011,
   },
   {
     "code": "8030",
@@ -2204,6 +2547,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CCDKYJ5427CF",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CCDKYJ5427CF",
+    "pdfPath": "/files/lcps-policies/pdfs/8030.pdf",
+    "lastRevised": "March 8, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "8030.1-REG",
@@ -2211,6 +2557,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CCDL3T54A376",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CCDL3T54A376",
+    "pdfPath": "/files/lcps-policies/pdfs/8030.1-REG.pdf",
+    "lastRevised": "March 8, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "8030.2-REG",
@@ -2218,6 +2567,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CCDL9S557BF2",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CCDL9S557BF2",
+    "pdfPath": "/files/lcps-policies/pdfs/8030.2-REG.pdf",
   },
   {
     "code": "8030.3-REG",
@@ -2225,6 +2575,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CCDLB355B373",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CCDLB355B373",
+    "pdfPath": "/files/lcps-policies/pdfs/8030.3-REG.pdf",
   },
   {
     "code": "8030.4-REG",
@@ -2232,6 +2583,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CCUJJ34D4491",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CCUJJ34D4491",
+    "pdfPath": "/files/lcps-policies/pdfs/8030.4-REG.pdf",
   },
   {
     "code": "8035",
@@ -2239,6 +2591,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CCDKZM544ED2",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CCDKZM544ED2",
+    "pdfPath": "/files/lcps-policies/pdfs/8035.pdf",
+    "lastRevised": "March 8, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "8035-REG",
@@ -2246,6 +2601,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CCDLCG55E7B7",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CCDLCG55E7B7",
+    "pdfPath": "/files/lcps-policies/pdfs/8035-REG.pdf",
+    "lastRevised": "July 9, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8040",
@@ -2253,6 +2611,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "C5ZMZ65A0657",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=C5ZMZ65A0657",
+    "pdfPath": "/files/lcps-policies/pdfs/8040.pdf",
   },
   {
     "code": "8040-REG",
@@ -2260,6 +2619,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "C6TT2P6DEA5E",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=C6TT2P6DEA5E",
+    "pdfPath": "/files/lcps-policies/pdfs/8040-REG.pdf",
+    "lastRevised": "September 13, 2021",
+    "lastRevisedYear": 2021,
   },
   {
     "code": "8060",
@@ -2267,6 +2629,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CUYHA6476ED0",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CUYHA6476ED0",
+    "pdfPath": "/files/lcps-policies/pdfs/8060.pdf",
+    "lastRevised": "December 13, 2011",
+    "lastRevisedYear": 2011,
   },
   {
     "code": "8070",
@@ -2274,6 +2639,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CESR8J69C3BE",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CESR8J69C3BE",
+    "pdfPath": "/files/lcps-policies/pdfs/8070.pdf",
+    "lastRevised": "May 24, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "8080",
@@ -2281,6 +2649,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "C2ZJ8X4BA8F7",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=C2ZJ8X4BA8F7",
+    "pdfPath": "/files/lcps-policies/pdfs/8080.pdf",
+    "lastRevised": "May 12, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8115",
@@ -2288,6 +2659,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "B2SUP56C9B85",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B2SUP56C9B85",
+    "pdfPath": "/files/lcps-policies/pdfs/8115.pdf",
+    "lastRevised": "May 12, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8115-REG",
@@ -2295,6 +2669,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "B2SUPT6CD47E",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B2SUPT6CD47E",
+    "pdfPath": "/files/lcps-policies/pdfs/8115-REG.pdf",
   },
   {
     "code": "8120",
@@ -2302,6 +2677,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BDQK5X4D86A3",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BDQK5X4D86A3",
+    "pdfPath": "/files/lcps-policies/pdfs/8120.pdf",
+    "lastRevised": "June 24, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8125",
@@ -2309,6 +2687,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BDGPSE6602FB",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BDGPSE6602FB",
+    "pdfPath": "/files/lcps-policies/pdfs/8125.pdf",
+    "lastRevised": "July 6, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8140",
@@ -2316,6 +2697,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "C8VQ4E6779CF",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=C8VQ4E6779CF",
+    "pdfPath": "/files/lcps-policies/pdfs/8140.pdf",
   },
   {
     "code": "8140-REG",
@@ -2323,6 +2705,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "C9CK6M5051E0",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=C9CK6M5051E0",
+    "pdfPath": "/files/lcps-policies/pdfs/8140-REG.pdf",
+    "lastRevised": "May 7, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8155",
@@ -2330,6 +2715,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BLHLFL56563E",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BLHLFL56563E",
+    "pdfPath": "/files/lcps-policies/pdfs/8155.pdf",
+    "lastRevised": "December 16, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8155-REG",
@@ -2337,6 +2725,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CR2K9750882A",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CR2K9750882A",
+    "pdfPath": "/files/lcps-policies/pdfs/8155-REG.pdf",
+    "lastRevised": "December 16, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8160",
@@ -2344,6 +2735,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "AVBN7M5E91AE",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AVBN7M5E91AE",
+    "pdfPath": "/files/lcps-policies/pdfs/8160.pdf",
+    "lastRevised": "August 11, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8205",
@@ -2351,6 +2745,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "AZB6VZ6E5D08",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AZB6VZ6E5D08",
+    "pdfPath": "/files/lcps-policies/pdfs/8205.pdf",
+    "lastRevised": "January 28, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8210",
@@ -2358,6 +2755,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BD8LML55B4C8",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BD8LML55B4C8",
+    "pdfPath": "/files/lcps-policies/pdfs/8210.pdf",
+    "lastRevised": "June 23, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8215",
@@ -2365,6 +2765,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "AWCVET71AEA1",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AWCVET71AEA1",
+    "pdfPath": "/files/lcps-policies/pdfs/8215.pdf",
+    "lastRevised": "April 25, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "8215-REG",
@@ -2372,6 +2775,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "AWCVGC720F82",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AWCVGC720F82",
+    "pdfPath": "/files/lcps-policies/pdfs/8215-REG.pdf",
+    "lastRevised": "April 28, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "8220",
@@ -2379,6 +2785,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BGCLL356F529",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BGCLL356F529",
+    "pdfPath": "/files/lcps-policies/pdfs/8220.pdf",
+    "lastRevised": "January 28, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8220.1-REG",
@@ -2386,6 +2795,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CJML4C532C48",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CJML4C532C48",
+    "pdfPath": "/files/lcps-policies/pdfs/8220.1-REG.pdf",
+    "lastRevised": "February 2, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8220.2-REG",
@@ -2393,6 +2805,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CJML5E535CE6",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CJML5E535CE6",
+    "pdfPath": "/files/lcps-policies/pdfs/8220.2-REG.pdf",
+    "lastRevised": "February 2, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8220.3-REG",
@@ -2400,6 +2815,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CVMGXS45FC93",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CVMGXS45FC93",
+    "pdfPath": "/files/lcps-policies/pdfs/8220.3-REG.pdf",
   },
   {
     "code": "8225",
@@ -2407,6 +2823,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BQVS7S6C209B",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BQVS7S6C209B",
+    "pdfPath": "/files/lcps-policies/pdfs/8225.pdf",
+    "lastRevised": "September 9, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8225-REG",
@@ -2414,6 +2833,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CNVP525FEF51",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CNVP525FEF51",
+    "pdfPath": "/files/lcps-policies/pdfs/8225-REG.pdf",
+    "lastRevised": "September 9, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8230",
@@ -2421,6 +2843,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BJQQQT6A69C6",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BJQQQT6A69C6",
+    "pdfPath": "/files/lcps-policies/pdfs/8230.pdf",
+    "lastRevised": "February 25, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8235",
@@ -2428,6 +2853,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BJLTGJ7546B8",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BJLTGJ7546B8",
+    "pdfPath": "/files/lcps-policies/pdfs/8235.pdf",
+    "lastRevised": "February 25, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8240",
@@ -2435,6 +2863,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "ASUT98736711",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ASUT98736711",
+    "pdfPath": "/files/lcps-policies/pdfs/8240.pdf",
+    "lastRevised": "September 13, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "8240-REG",
@@ -2442,6 +2873,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "ASUTQQ747385",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ASUTQQ747385",
+    "pdfPath": "/files/lcps-policies/pdfs/8240-REG.pdf",
+    "lastRevised": "October 7, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "8250",
@@ -2449,6 +2883,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BJQMCG5A212D",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BJQMCG5A212D",
+    "pdfPath": "/files/lcps-policies/pdfs/8250.pdf",
+    "lastRevised": "June 23, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8255",
@@ -2456,6 +2893,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CS7HXT4AADB9",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CS7HXT4AADB9",
+    "pdfPath": "/files/lcps-policies/pdfs/8255.pdf",
   },
   {
     "code": "8260",
@@ -2463,6 +2901,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CPJRVJ6F5EA0",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CPJRVJ6F5EA0",
+    "pdfPath": "/files/lcps-policies/pdfs/8260.pdf",
+    "lastRevised": "October 24, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "8265",
@@ -2470,6 +2911,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "C3RPQG657A91",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=C3RPQG657A91",
+    "pdfPath": "/files/lcps-policies/pdfs/8265.pdf",
+    "lastRevised": "June 9, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8265-REG",
@@ -2477,6 +2921,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "C4NHTN4A1194",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=C4NHTN4A1194",
+    "pdfPath": "/files/lcps-policies/pdfs/8265-REG.pdf",
+    "lastRevised": "June 9, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8270",
@@ -2484,6 +2931,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "ANS2SV6DD33E",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ANS2SV6DD33E",
+    "pdfPath": "/files/lcps-policies/pdfs/8270.pdf",
+    "lastRevised": "June 23, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8273",
@@ -2491,6 +2941,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "D8ZK7T5085C8",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=D8ZK7T5085C8",
+    "pdfPath": "/files/lcps-policies/pdfs/8273.pdf",
+    "lastRevised": "September 10, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "8273-REG",
@@ -2498,6 +2951,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "DAGKKM52441D",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DAGKKM52441D",
+    "pdfPath": "/files/lcps-policies/pdfs/8273-REG.pdf",
   },
   {
     "code": "8280",
@@ -2505,6 +2959,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BM7L97556D57",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BM7L97556D57",
+    "pdfPath": "/files/lcps-policies/pdfs/8280.pdf",
+    "lastRevised": "April 22, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8290",
@@ -2512,6 +2969,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "B2ERFC66B2EC",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B2ERFC66B2EC",
+    "pdfPath": "/files/lcps-policies/pdfs/8290.pdf",
+    "lastRevised": "December 12, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "8290-REG",
@@ -2519,6 +2979,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CR2J5S4B8CB3",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CR2J5S4B8CB3",
+    "pdfPath": "/files/lcps-policies/pdfs/8290-REG.pdf",
+    "lastRevised": "August 6, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8310",
@@ -2526,6 +2989,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "B75M2S554C30",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B75M2S554C30",
+    "pdfPath": "/files/lcps-policies/pdfs/8310.pdf",
+    "lastRevised": "April 23, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "8310-REG",
@@ -2533,6 +2999,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "B7BL7N541B66",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B7BL7N541B66",
+    "pdfPath": "/files/lcps-policies/pdfs/8310-REG.pdf",
+    "lastRevised": "April 23, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "8350",
@@ -2540,6 +3009,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "B8RM52598154",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B8RM52598154",
+    "pdfPath": "/files/lcps-policies/pdfs/8350.pdf",
+    "lastRevised": "June 28, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "8350-REG",
@@ -2547,6 +3019,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "DVJQWB6B44F3",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DVJQWB6B44F3",
+    "pdfPath": "/files/lcps-policies/pdfs/8350-REG.pdf",
+    "lastRevised": "May 1, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8360",
@@ -2554,6 +3029,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "AZWLTY4B7937",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=AZWLTY4B7937",
+    "pdfPath": "/files/lcps-policies/pdfs/8360.pdf",
+    "lastRevised": "September 4, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "8410",
@@ -2561,6 +3039,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BYPTDK72CD6D",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BYPTDK72CD6D",
+    "pdfPath": "/files/lcps-policies/pdfs/8410.pdf",
+    "lastRevised": "July 6, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8415",
@@ -2568,6 +3049,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BK9JH44D0584",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BK9JH44D0584",
+    "pdfPath": "/files/lcps-policies/pdfs/8415.pdf",
+    "lastRevised": "March 12, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "8415-REG",
@@ -2575,6 +3059,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BK9JH84D364B",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BK9JH84D364B",
+    "pdfPath": "/files/lcps-policies/pdfs/8415-REG.pdf",
+    "lastRevised": "December 17, 2019",
+    "lastRevisedYear": 2019,
   },
   {
     "code": "8420",
@@ -2582,6 +3069,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BAX2ZD6D1142",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BAX2ZD6D1142",
+    "pdfPath": "/files/lcps-policies/pdfs/8420.pdf",
+    "lastRevised": "March 13, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8420-REG",
@@ -2589,6 +3079,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BF9QBM6836CC",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BF9QBM6836CC",
+    "pdfPath": "/files/lcps-policies/pdfs/8420-REG.pdf",
+    "lastRevised": "March 6, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "8425",
@@ -2596,6 +3089,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "DVQSLQ733D21",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DVQSLQ733D21",
+    "pdfPath": "/files/lcps-policies/pdfs/8425.pdf",
   },
   {
     "code": "8435",
@@ -2603,6 +3097,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CWAGPK44C791",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CWAGPK44C791",
+    "pdfPath": "/files/lcps-policies/pdfs/8435.pdf",
+    "lastRevised": "September 12, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "8440",
@@ -2610,6 +3107,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CRUL7A4C6F3A",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CRUL7A4C6F3A",
+    "pdfPath": "/files/lcps-policies/pdfs/8440.pdf",
   },
   {
     "code": "8440-REG",
@@ -2617,6 +3115,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CRUJJX4D7A04",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CRUJJX4D7A04",
+    "pdfPath": "/files/lcps-policies/pdfs/8440-REG.pdf",
   },
   {
     "code": "8445",
@@ -2624,6 +3123,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CG8KCP5140BE",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CG8KCP5140BE",
+    "pdfPath": "/files/lcps-policies/pdfs/8445.pdf",
+    "lastRevised": "June 28, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "8445-REG",
@@ -2631,6 +3133,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CK6SEL723E55",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CK6SEL723E55",
+    "pdfPath": "/files/lcps-policies/pdfs/8445-REG.pdf",
+    "lastRevised": "October 4, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "8450",
@@ -2638,6 +3143,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "A3PW5P71D253",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=A3PW5P71D253",
+    "pdfPath": "/files/lcps-policies/pdfs/8450.pdf",
+    "lastRevised": "April 22, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8450-REG",
@@ -2645,6 +3153,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "BCCSR56A6FF5",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=BCCSR56A6FF5",
+    "pdfPath": "/files/lcps-policies/pdfs/8450-REG.pdf",
+    "lastRevised": "May 12, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8455",
@@ -2652,6 +3163,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "DTMN8H5EB2D0",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DTMN8H5EB2D0",
+    "pdfPath": "/files/lcps-policies/pdfs/8455.pdf",
   },
   {
     "code": "8540",
@@ -2659,6 +3171,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CK7JRT4E7CD8",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CK7JRT4E7CD8",
+    "pdfPath": "/files/lcps-policies/pdfs/8540.pdf",
+    "lastRevised": "September 13, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "8550",
@@ -2666,6 +3181,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "D87H3H466B63",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=D87H3H466B63",
+    "pdfPath": "/files/lcps-policies/pdfs/8550.pdf",
+    "lastRevised": "August 13, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "8610",
@@ -2673,6 +3191,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "ARVJQR4E54CF",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ARVJQR4E54CF",
+    "pdfPath": "/files/lcps-policies/pdfs/8610.pdf",
+    "lastRevised": "April 25, 2023",
+    "lastRevisedYear": 2023,
   },
   {
     "code": "8610-REG",
@@ -2680,6 +3201,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "ASUT2W7164FC",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ASUT2W7164FC",
+    "pdfPath": "/files/lcps-policies/pdfs/8610-REG.pdf",
+    "lastRevised": "February 28, 2022",
+    "lastRevisedYear": 2022,
   },
   {
     "code": "8620",
@@ -2687,6 +3211,7 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "ARVJS94E771C",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ARVJS94E771C",
+    "pdfPath": "/files/lcps-policies/pdfs/8620.pdf",
   },
   {
     "code": "8630",
@@ -2694,6 +3219,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "B3P25F6EB09D",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=B3P25F6EB09D",
+    "pdfPath": "/files/lcps-policies/pdfs/8630.pdf",
+    "lastRevised": "November 20, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8630-REG",
@@ -2701,6 +3229,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CYMN345CB934",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CYMN345CB934",
+    "pdfPath": "/files/lcps-policies/pdfs/8630-REG.pdf",
+    "lastRevised": "November 20, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8640",
@@ -2708,6 +3239,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "ANS2RR6D99B5",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=ANS2RR6D99B5",
+    "pdfPath": "/files/lcps-policies/pdfs/8640.pdf",
+    "lastRevised": "November 20, 2025",
+    "lastRevisedYear": 2025,
   },
   {
     "code": "8650",
@@ -2715,6 +3249,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CR2KP952CBE7",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CR2KP952CBE7",
+    "pdfPath": "/files/lcps-policies/pdfs/8650.pdf",
+    "lastRevised": "November 26, 2024",
+    "lastRevisedYear": 2024,
   },
   {
     "code": "8655",
@@ -2722,6 +3259,9 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "D6MGYN461D01",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=D6MGYN461D01",
+    "pdfPath": "/files/lcps-policies/pdfs/8655.pdf",
+    "lastRevised": "June 23, 2026",
+    "lastRevisedYear": 2026,
   },
   {
     "code": "8705",
@@ -2729,11 +3269,14 @@ export const LCPS_POLICIES: LcpsPolicy[] = [
     "section": "8000 - STUDENTS",
     "itemId": "CJRJ434B24E2",
     "deepLink": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=CJRJ434B24E2",
+    "pdfPath": "/files/lcps-policies/pdfs/8705.pdf",
+    "lastRevised": "September 27, 2011",
+    "lastRevisedYear": 2011,
   },
 ];
 
 /** Revision years present on at least one policy (partial coverage). */
-export const LCPS_POLICY_REVISION_YEARS: number[] = [2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
+export const LCPS_POLICY_REVISION_YEARS: number[] = [2011, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
 
 export function lcpsPolicyCount(): number {
   return LCPS_POLICIES.length;

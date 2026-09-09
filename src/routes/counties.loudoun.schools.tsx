@@ -83,9 +83,8 @@ function LoudounSchoolsPage() {
           <Kicker>Policies</Kicker>
           <h2 className="mt-2 font-serif text-3xl font-medium">Policies</h2>
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
-            Current BoardDocs book — {LCPS_POLICY_BOOK}. {lcpsPolicyCount()} active policies;{" "}
-            {lcpsPolicyHostedCount()} with hosted PDFs so far (still growing). Rest open on
-            BoardDocs.
+            Current BoardDocs book — {LCPS_POLICY_BOOK}. {lcpsPolicyCount()} active
+            policies; {lcpsPolicyHostedCount()} with hosted PDFs (full current book).
           </p>
           <div className="mt-8">
             <LcpsPolicySearch />
