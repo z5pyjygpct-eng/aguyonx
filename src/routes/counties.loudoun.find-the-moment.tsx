@@ -28,15 +28,15 @@ function LoudounFindTheMomentPage() {
         </p>
         <Kicker className="mt-4">Virginia · Northern Virginia</Kicker>
         <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          Find the Moment
+          Search County + Schools together
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          Cross-meeting search for Loudoun — {LOUDOUN_MEETINGS.length} Board of Supervisors
-          meetings plus {LCPS_MEETINGS.length} School Board meetings. One box, both venues,
-          jump straight to the video.
+          Optional power tool — one box across both Loudoun venues:{" "}
+          {LOUDOUN_MEETINGS.length} Board of Supervisors meetings and {LCPS_MEETINGS.length}{" "}
+          School Board meetings. Jump straight to the video.
         </p>
         <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
-          Prefer a single venue? Use{" "}
+          Looking for one board only? Start at{" "}
           <Link
             to="/counties/loudoun"
             className="text-[#1E4B8E] underline-offset-2 hover:underline"

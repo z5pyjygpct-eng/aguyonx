@@ -46,18 +46,19 @@ function LoudounSchoolsPage() {
           >
             Loudoun County
           </Link>{" "}
-          door. Or search{" "}
-          <Link
-            to="/counties/loudoun/find-the-moment"
-            className="text-[#1E4B8E] underline-offset-2 hover:underline"
-          >
-            County + Schools together
-          </Link>
-          .
+          door.
         </p>
 
         <div className="mt-10">
           <LcpsMeetingSearch />
+          <p className="mt-4 text-sm text-muted-foreground">
+            <Link
+              to="/counties/loudoun/find-the-moment"
+              className="text-[#1E4B8E] underline-offset-2 hover:underline"
+            >
+              Also search County in the same box →
+            </Link>
+          </p>
         </div>
 
         <section className="mt-14">

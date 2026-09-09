@@ -266,10 +266,10 @@ export function LoudounCrossMeetingSearch() {
         Loudoun · County + Schools
       </p>
       <h2 className="mt-2 font-serif text-2xl font-medium tracking-tight sm:text-3xl">
-        Find the Moment
+        Find the Moment — both venues
       </h2>
       <p className="mt-2 text-sm text-muted-foreground">
-        One search across {LOUDOUN_MEETINGS.length} Board of Supervisors meetings and{" "}
+        One box across {LOUDOUN_MEETINGS.length} Board of Supervisors meetings and{" "}
         {LCPS_MEETINGS.length} School Board meetings — captions → jump the video.
       </p>
       <p className="mt-2 text-sm text-muted-foreground">

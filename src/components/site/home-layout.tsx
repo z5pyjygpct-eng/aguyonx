@@ -158,6 +158,14 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
                 </Link>
               ))}
             </nav>
+            <p className="mt-4">
+              <Link
+                to="/counties/loudoun/find-the-moment"
+                className="font-sans text-sm text-night/65 underline-offset-2 hover:text-[#0d7377] hover:underline"
+              >
+                Search County + Schools together →
+              </Link>
+            </p>
             <p className="mt-3 font-mono text-[11px] tracking-widest text-[#0d7377] uppercase">
               Live · Virginia public meetings
             </p>
