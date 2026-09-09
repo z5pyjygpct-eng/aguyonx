@@ -47,6 +47,72 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "fairfax-city-chain-bridge-housing-ffxnow-2026-08-04",
+    date: "2026-08-04",
+    filed: "2026-09-08",
+    headline:
+      "Fairfax City Council split over housing plan for Chain Bridge Road office parcel",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/08/04/fairfax-city-council-split-over-housing-plan-for-chain-bridge-road-office-parcel/",
+    people: [{ name: "Stacy Hall", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "loudoun-aspen-barrister-substations-loudounnow-2026-07-08",
+    date: "2026-07-08",
+    filed: "2026-09-08",
+    headline: "After Delays, Supervisors Approve 2 Substations",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/after-delays-supervisors-approve-2-substations/article_cf6e6191-338d-4284-990e-b0309dc64827.html",
+    people: [
+      { name: "Juli Briskman", office: "Loudoun Supervisor" },
+      { name: "Kristen Umstattd", office: "Loudoun Supervisor" },
+      { name: "Matt Letourneau", office: "Loudoun Supervisor" },
+      { name: "Mike Turner", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "loudoun-54b-budget-adopt-loudounnow-2026-04-08",
+    date: "2026-04-08",
+    filed: "2026-09-08",
+    headline: "Loudoun Supervisors Adopt $5.4B Budget",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/loudoun-supervisors-adopt-5-4b-budget/article_6dc32fac-b2fc-45a7-90e3-0a5d8d00f1ad.html",
+    people: [
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+      { name: "Mike Turner", office: "Loudoun Supervisor" },
+      { name: "Matt Letourneau", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "loudoun-fy2027-budget-ltm-2026-04-07",
+    date: "2026-04-07",
+    filed: "2026-09-08",
+    headline: "Board of Supervisors passes FY2027 budget",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/politics_and_government/budget_and_tax/board-of-supervisors-passes-fy2027-budget/article_01c76b9e-e652-469a-8a2b-b6dec43b1834.html",
+    people: [
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+      { name: "Sylvia Glass", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "pwcs-29b-budget-insidenova-2026-03-24",
+    date: "2026-03-24",
+    filed: "2026-09-08",
+    headline: "Prince William schools sign off on nearly $3B spending plan",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/news/prince_william/prince-william-school-board-signs-off-on-over-2-billion-spending-plan/article_4a221a44-aba7-44db-8624-d5a6ae463a89.html",
+    people: [
+      { name: "Babur Lateef", office: "Prince William official" },
+      { name: "LaTanya McDade", office: "Prince William official" },
+    ],
+    scope: "local",
+  },
+  {
     id: "lcso-ice-info-sharing-ltm-2026-09-04",
     date: "2026-09-04",
     filed: "2026-09-08",
