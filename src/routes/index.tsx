@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
   const latestArticles = ARTICLES.slice(0, 3);
-  const latestNews = newsNewestFirst().slice(0, 4);
+  const latestNews = newsNewestFirst().slice(0, 6);
 
   return (
     <div className="flex min-h-svh flex-col bg-background text-foreground">
