@@ -25,7 +25,7 @@ const splitFrom = process.env.LCPS_SPLIT_FROM || "";
 /** Prefer prior Aug 11 POC windows when regenerating from VTTs. */
 const AUG11 = "1217434020";
 
-/** Full School Board meetings (not committees) — Jan–Aug 2026 YTD. */
+/** Full School Board meetings (not committees) — Jan–Sep 2026 YTD. */
 const MEETINGS = [
   "1151982673", // 2026-01-06 Organizational
   "1154062783", // 2026-01-13 2nd Tuesday
@@ -50,6 +50,7 @@ const MEETINGS = [
   "1209536330", // 2026-07-13 Special
   "1215666664", // 2026-08-04 Special Permission Appeals
   "1217434020", // 2026-08-11 2nd Tuesday (POC)
+  "1225039248", // 2026-09-08 2nd Tuesday
 ];
 
 function parseVtt(text) {

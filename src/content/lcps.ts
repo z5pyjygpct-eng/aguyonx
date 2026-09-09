@@ -56,6 +56,18 @@ const BOARDDOCS_PUBLIC =
 /** Full School Board meetings 2026 YTD — lean lazy-load index (not committees). */
 export const LCPS_MEETINGS: LcpsMeeting[] = [
   {
+    id: "2026-09-08",
+    vimeoId: "1225039248",
+    title: "2nd Tuesday School Board Meeting",
+    dateLabel: "Sep 8, 2026",
+    duration: "6h 21m",
+    playerUrl: "https://player.vimeo.com/video/1225039248?rel=0",
+    boardDocsUrl: BOARDDOCS_PUBLIC,
+    lcpsTvUrl: LCPS_TV,
+    windowsUrl: "/files/find-the-moment/loudoun-lcps/1225039248.json",
+    windowCount: 697,
+  },
+  {
     id: "2026-08-11",
     vimeoId: "1217434020",
     title: "2nd Tuesday School Board Meeting",
