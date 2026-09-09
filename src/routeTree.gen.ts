@@ -29,6 +29,7 @@ import { Route as InvestigationsSlugRouteImport } from './routes/investigations.
 import { Route as LibraryIndexRouteImport } from './routes/library.index'
 import { Route as LibraryFoiaRouteImport } from './routes/library.foia'
 import { Route as CountiesLoudounIndexRouteImport } from './routes/counties.loudoun.index'
+import { Route as CountiesLoudounFindTheMomentRouteImport } from './routes/counties.loudoun.find-the-moment'
 import { Route as CountiesLoudounSchoolsRouteImport } from './routes/counties.loudoun.schools'
 
 const IndexRoute = IndexRouteImport.update({
@@ -131,6 +132,12 @@ const CountiesLoudounIndexRoute = CountiesLoudounIndexRouteImport.update({
   path: '/',
   getParentRoute: () => CountiesLoudounRoute,
 } as any)
+const CountiesLoudounFindTheMomentRoute =
+  CountiesLoudounFindTheMomentRouteImport.update({
+    id: '/find-the-moment',
+    path: '/find-the-moment',
+    getParentRoute: () => CountiesLoudounRoute,
+  } as any)
 const CountiesLoudounSchoolsRoute = CountiesLoudounSchoolsRouteImport.update({
   id: '/schools',
   path: '/schools',
@@ -157,6 +164,7 @@ export interface FileRoutesByFullPath {
   '/counties/': typeof CountiesIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
+  '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
 }
@@ -175,6 +183,7 @@ export interface FileRoutesByTo {
   '/counties': typeof CountiesIndexRoute
   '/investigations': typeof InvestigationsIndexRoute
   '/library': typeof LibraryIndexRoute
+  '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
   '/counties/loudoun': typeof CountiesLoudounIndexRoute
 }
@@ -199,6 +208,7 @@ export interface FileRoutesById {
   '/counties/': typeof CountiesIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
+  '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
 }
@@ -224,6 +234,7 @@ export interface FileRouteTypes {
     | '/counties/'
     | '/investigations/'
     | '/library/'
+    | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
     | '/counties/loudoun/'
   fileRoutesByTo: FileRoutesByTo
@@ -242,6 +253,7 @@ export interface FileRouteTypes {
     | '/counties'
     | '/investigations'
     | '/library'
+    | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
     | '/counties/loudoun'
   id:
@@ -265,6 +277,7 @@ export interface FileRouteTypes {
     | '/counties/'
     | '/investigations/'
     | '/library/'
+    | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
     | '/counties/loudoun/'
   fileRoutesById: FileRoutesById
@@ -425,6 +438,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CountiesLoudounIndexRouteImport
       parentRoute: typeof CountiesLoudounRoute
     }
+    '/counties/loudoun/find-the-moment': {
+      id: '/counties/loudoun/find-the-moment'
+      path: '/find-the-moment'
+      fullPath: '/counties/loudoun/find-the-moment'
+      preLoaderRoute: typeof CountiesLoudounFindTheMomentRouteImport
+      parentRoute: typeof CountiesLoudounRoute
+    }
     '/counties/loudoun/schools': {
       id: '/counties/loudoun/schools'
       path: '/schools'
@@ -450,11 +470,13 @@ const ArticlesRouteWithChildren = ArticlesRoute._addFileChildren(
 )
 
 interface CountiesLoudounRouteChildren {
+  CountiesLoudounFindTheMomentRoute: typeof CountiesLoudounFindTheMomentRoute
   CountiesLoudounSchoolsRoute: typeof CountiesLoudounSchoolsRoute
   CountiesLoudounIndexRoute: typeof CountiesLoudounIndexRoute
 }
 
 const CountiesLoudounRouteChildren: CountiesLoudounRouteChildren = {
+  CountiesLoudounFindTheMomentRoute: CountiesLoudounFindTheMomentRoute,
   CountiesLoudounSchoolsRoute: CountiesLoudounSchoolsRoute,
   CountiesLoudounIndexRoute: CountiesLoudounIndexRoute,
 }

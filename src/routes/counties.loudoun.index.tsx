@@ -54,7 +54,14 @@ function LoudounCountyPage() {
           >
             Loudoun Schools
           </Link>{" "}
-          door.
+          door. Or search{" "}
+          <Link
+            to="/counties/loudoun/find-the-moment"
+            className="text-[#1E4B8E] underline-offset-2 hover:underline"
+          >
+            County + Schools together
+          </Link>
+          .
         </p>
 
         <div className="mt-10">
