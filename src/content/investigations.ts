@@ -2,6 +2,37 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    slug: "2026-dem-va-constitution-conflicts",
+    kind: "investigation",
+    title: "2026 Democratic Agenda — Conflicts with the Virginia Constitution",
+    dek: "Eighty Democratic chief-patron measures from the 2026 Regular Session that press, rewrite, or try to lock policy into Virginia’s charter. Article I first, then elections, then constitutional amendments.",
+    date: "2026-09-09",
+    displayDate: "September 9, 2026",
+    topic: "Accountability",
+    kicker: "Constitution",
+    image: "/images/investigations/2026-dem-va-constitution-conflicts.png",
+    imageAlt: "Cover of 2026 Democratic Agenda — Conflicts with the Virginia Constitution",
+    access: "public",
+    readMinutes: 18,
+    body: [
+      { type: "p", text: "Bottom line. In the 2026 session, Democratic chief patrons did not treat the Virginia Constitution as a fence. They treated it as clay. They moved bills that rewrite who may vote, who may carry a gun, who may speak near a clinic or a campaign ad, how schools and courthouses deal with immigration enforcement, and—when ordinary statute was not enough—they tried to lock preferred policy into the Constitution itself so the next Assembly cannot casually unwind it." },
+      { type: "p", text: "This paper screens Democratic chief-patron measures that passed, were vetoed after passage, or were carried over to 2027. From a larger session universe, eighty bills make the analysis body. Across that set, Article I takes the most pressure, then Article II (elections), then Article XII (amendments that hard-wire policy). Guns, voting rules, speech, immigration posture in schools and courthouses, and local charters are the main attack lines." },
+      { type: "p", text: "The PDF has the kitchen-table opening, six attack chapters with bill numbers, and the full eighty-row table—bill, status, patron, title, and why each measure conflicts with the Virginia Constitution. LIS bill numbers resolve on the official Legislative Information System." },
+    ],
+    citations: [
+      { id: "lis", label: "Virginia Legislative Information System", href: "https://lis.virginia.gov" },
+      { id: "const", label: "Constitution of Virginia", href: "https://law.lis.virginia.gov/constitution/" },
+    ],
+    documents: [
+      {
+        id: "pdf",
+        title: "2026 Democratic Agenda — Conflicts with the Virginia Constitution (PDF)",
+        href: "/files/investigations/2026-dem-va-constitution-conflicts.pdf",
+        kind: "pdf",
+      },
+    ],
+  },
+  {
     slug: "subramanyam-va10-questions-2026",
     kind: "investigation",
     title: "Questions for Further Inquiry: Suhas Subramanyam (VA-10)",

@@ -8,6 +8,11 @@ export type InvestigationExtract = {
 
 export const INVESTIGATION_EXTRACTS: InvestigationExtract[] = [
   {
+    slug: "2026-dem-va-constitution-conflicts",
+    file: "2026-dem-va-constitution-conflicts.pdf",
+    text: "2026 Democratic Agenda Conflicts with the Virginia Constitution Article I Article II Article XII elections voting arms militia speech assembly immigration courthouse schools reproductive freedom marriage amendment Dillon Rule charter HB781 SB449 HJ1 SJ1 HB1524 HB650 HB909 LIS Regular Session Democratic chief patron passed vetoed carried over",
+  },
+  {
     slug: "subramanyam-va10-questions-2026",
     file: "subramanyam-va10-questions-2026.pdf",
     text: "Questions for Further Inquiry Suhas Subramanyam VA-10 Airport chip project-funding dollars FAA Manassas Dulles Micron CHIPS Community Project Funding NDAA Nay Clerk title veterans-disinter House substitute Louise Lucas shared sponsorship floor overlap donors state filings casework milestones S2 Impact BWAV disclosure firefighter AVFRD Form A monitoring statement sealed call content",
