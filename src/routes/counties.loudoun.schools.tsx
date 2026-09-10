@@ -137,6 +137,22 @@ function LoudounSchoolsPage() {
             </li>
           </ul>
 
+          <figure className="mt-8 overflow-hidden rounded-md border border-border bg-paper">
+            <img
+              src="/files/lcps-budget/fy2027-operating-vs-ltf.png"
+              alt="FY2027 Loudoun School Operating Fund total versus local tax funding, BOS Adopted"
+              className="w-full"
+              width={1600}
+              height={900}
+            />
+            <figcaption className="border-t border-border px-4 py-3 text-sm text-muted-foreground">
+              Figure 1. FY2027 Loudoun school operating fund — total vs local tax funding (BOS
+              Adopted). About 72% is local tax funding. Source: Loudoun County FY2027 Adopted
+              Budget Executive Summary / Budget in Brief. May 12 School Board +$6.2M state note is
+              not in these bars.
+            </figcaption>
+          </figure>
+
           <div className="mt-6 rounded-md border border-border bg-wash px-5 py-4">
             <p className="text-sm text-muted-foreground">
               <span className="font-medium text-foreground">Year-over-year (operating, BOS adopted):</span>{" "}
