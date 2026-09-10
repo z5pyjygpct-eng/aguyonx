@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-09-10T02:20:53.108Z",
+  "docs": [
+    {
+      "id": "FY2027-lcps-superintendent-estimate-of-needs",
+      "label": "FY2027 Superintendent’s Estimate of Needs (SEON)",
+      "kind": "Proposed (SEON)",
+      "href": "/files/lcps-budget/FY2027-lcps-superintendent-estimate-of-needs.pdf",
+      "file": "FY2027-lcps-superintendent-estimate-of-needs.pdf",
+      "extract": "/files/lcps-budget/extracts/FY2027-lcps-superintendent-estimate-of-needs.json",
+      "chars": 747581
+    },
+    {
+      "id": "FY2027-lcps-school-board-adopted-executive-summary",
+      "label": "FY2027 School Board Adopted Executive Summary",
+      "kind": "School Board Adopted",
+      "href": "/files/lcps-budget/FY2027-lcps-school-board-adopted-executive-summary.pdf",
+      "file": "FY2027-lcps-school-board-adopted-executive-summary.pdf",
+      "extract": "/files/lcps-budget/extracts/FY2027-lcps-school-board-adopted-executive-summary.json",
+      "chars": 49479
+    },
+    {
+      "id": "FY2027-lcps-budget-resolution-adopted",
+      "label": "FY2027 School Board Budget Resolution (Adopted)",
+      "kind": "School Board Adopted",
+      "href": "/files/lcps-budget/FY2027-lcps-budget-resolution-adopted.pdf",
+      "file": "FY2027-lcps-budget-resolution-adopted.pdf",
+      "extract": "/files/lcps-budget/extracts/FY2027-lcps-budget-resolution-adopted.json",
+      "chars": 8615
+    },
+    {
+      "id": "FY2027-lcps-school-board-adopted-budget-presented-to-bos",
+      "label": "FY2027 School Board Adopted — presented to BOS",
+      "kind": "School Board Adopted",
+      "href": "/files/lcps-budget/FY2027-lcps-school-board-adopted-budget-presented-to-bos.pdf",
+      "file": "FY2027-lcps-school-board-adopted-budget-presented-to-bos.pdf",
+      "extract": "/files/lcps-budget/extracts/FY2027-lcps-school-board-adopted-budget-presented-to-bos.json",
+      "chars": 15722
+    },
+    {
+      "id": "FY2027-loudoun-adopted-executive-summary",
+      "label": "FY2027 BOS Adopted Executive Summary",
+      "kind": "BOS Adopted",
+      "href": "/files/lcps-budget/FY2027-loudoun-adopted-executive-summary.pdf",
+      "file": "FY2027-loudoun-adopted-executive-summary.pdf",
+      "extract": "/files/lcps-budget/extracts/FY2027-loudoun-adopted-executive-summary.json",
+      "chars": 203115
+    },
+    {
+      "id": "FY2027-loudoun-budget-in-brief",
+      "label": "FY2027 Budget in Brief",
+      "kind": "BOS Adopted",
+      "href": "/files/lcps-budget/FY2027-loudoun-budget-in-brief.pdf",
+      "file": "FY2027-loudoun-budget-in-brief.pdf",
+      "extract": "/files/lcps-budget/extracts/FY2027-loudoun-budget-in-brief.json",
+      "chars": 18193
+    },
+    {
+      "id": "FY2027-loudoun-adopted-school-projects-CIP",
+      "label": "FY2027 School Projects CIP",
+      "kind": "BOS Adopted (CIP)",
+      "href": "/files/lcps-budget/FY2027-loudoun-adopted-school-projects-CIP.pdf",
+      "file": "FY2027-loudoun-adopted-school-projects-CIP.pdf",
+      "extract": "/files/lcps-budget/extracts/FY2027-loudoun-adopted-school-projects-CIP.json",
+      "chars": 42041
+    },
+    {
+      "id": "FY2026-lcps-school-board-adopted-budget",
+      "label": "FY2026 School Board Adopted Budget (full book)",
+      "kind": "School Board Adopted (FY26)",
+      "href": "/files/lcps-budget/FY2026-lcps-school-board-adopted-budget.pdf",
+      "file": "FY2026-lcps-school-board-adopted-budget.pdf",
+      "extract": "/files/lcps-budget/extracts/FY2026-lcps-school-board-adopted-budget.json",
+      "chars": 785010
+    },
+    {
+      "id": "FY2027-lcps-may12-operating-fund-amendment-excerpt",
+      "label": "FY2027 May 12 operating amendment (excerpt)",
+      "kind": "Amendment",
+      "href": "/files/lcps-budget/FY2027-lcps-may12-operating-fund-amendment-excerpt.txt",
+      "file": "FY2027-lcps-may12-operating-fund-amendment-excerpt.txt",
+      "extract": "/files/lcps-budget/extracts/FY2027-lcps-may12-operating-fund-amendment-excerpt.json",
+      "chars": 1673
+    },
+    {
+      "id": "LCPS-budget-kitchen-table",
+      "label": "Kitchen-table guide (plain English)",
+      "kind": "Guide",
+      "href": "/files/lcps-budget/LCPS-budget-kitchen-table.md",
+      "file": "LCPS-budget-kitchen-table.md",
+      "extract": "/files/lcps-budget/extracts/LCPS-budget-kitchen-table.json",
+      "chars": 8363
+    },
+    {
+      "id": "LCPS-budget-one-pager",
+      "label": "Budget one-pager",
+      "kind": "Guide",
+      "href": "/files/lcps-budget/LCPS-budget-one-pager.md",
+      "file": "LCPS-budget-one-pager.md",
+      "extract": "/files/lcps-budget/extracts/LCPS-budget-one-pager.json",
+      "chars": 3412
+    }
+  ]
+}

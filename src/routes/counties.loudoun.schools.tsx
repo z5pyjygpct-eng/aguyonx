@@ -5,6 +5,7 @@ import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { LcpsMeetingSearch } from "@/components/site/lcps-meeting-search";
 import { LcpsPolicySearch } from "@/components/site/lcps-policy-search";
+import { LcpsBudgetSearch } from "@/components/site/lcps-budget-search";
 import {
   LCPS_MEETINGS,
   LCPS_OFFICIAL_DOORS,
@@ -161,12 +162,16 @@ function LoudounSchoolsPage() {
             </p>
           </div>
 
+          <div className="mt-8">
+            <LcpsBudgetSearch />
+          </div>
+
           <p className="mt-8 font-mono text-xs tracking-widest text-muted-foreground uppercase">
             Hosted source files
           </p>
           <ul className="mt-3 space-y-2">
             {LCPS_BUDGET_DOCS.map((doc) => (
-              <li key={doc.href}>
+              <li key={doc.href} id={`budget-doc-${doc.extractId}`}>
                 <a
                   href={doc.href}
                   target="_blank"
@@ -180,6 +185,9 @@ function LoudounSchoolsPage() {
                     <span className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
                       <span className="font-sans text-base font-semibold text-foreground">
                         {doc.label}
+                      </span>
+                      <span className="font-mono text-[10px] tracking-wider text-[#1E4B8E] uppercase">
+                        {doc.kind}
                       </span>
                       <span className="font-mono text-xs text-muted-foreground">
                         {doc.sizeLabel} · {doc.source}
