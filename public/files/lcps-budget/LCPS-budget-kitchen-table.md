@@ -16,9 +16,9 @@
 | Label | Dates | School year |
 | --- | --- | --- |
 | **FY2027** (the year we’re in as of Sep 2026) | July 1, 2026 – June 30, 2027 | 2026–27 |
-| **FY2026** (the year that just ended / is ending) | July 1, 2025 – June 30, 2026 | 2025–26 |
+| **FY2026** (the prior fiscal year) | July 1, 2025 – June 30, 2026 | 2025–26 |
 
-**Source:** Loudoun County FY2027 Adopted Executive Summary (cover / budget guide: “beginning July 1, 2026, and ending June 30, 2027”); FY2026 SEON title (“Fiscal Year 2025-2026”). Files: `FY2027-loudoun-adopted-executive-summary.pdf`, `FY2026-lcps-superintendent-estimate-of-needs.pdf`.
+**Source:** Loudoun County FY2027 Adopted Executive Summary (cover / budget guide: “beginning July 1, 2026, and ending June 30, 2027”); FY2026 / FY2027 SEON titles. Files: `FY2027-loudoun-adopted-executive-summary.pdf`, `FY2026-lcps-superintendent-estimate-of-needs.pdf`, `FY2027-lcps-superintendent-estimate-of-needs.pdf`.
 
 ---
 
@@ -31,21 +31,27 @@ Think of it as a **request → school board vote → county board appropriation*
 3. **Board of Supervisors (BOS) Adopted Budget + Appropriations Resolution** — this is the **local money that actually funds** LCPS. Loudoun schools are **fiscally dependent** on the BOS (they don’t levy their own property tax).  
 4. **Later School Board amendments** — mid-year tweaks (for example after new state money) are **not** the same as the April BOS book. Track them separately.
 
-**Sources:** Process language in FY26 SEON (“School Divisions are fiscally dependent on the local governing body…”); county budget guide / Exec Summary. Files: `FY2026-lcps-superintendent-estimate-of-needs.pdf`, `FY2027-loudoun-adopted-executive-summary.pdf`, `INVENTORY.md`.
+**Sources:** Process language in SEON books; county budget guide / Exec Summary. Files: `FY2027-lcps-superintendent-estimate-of-needs.pdf`, `FY2027-loudoun-adopted-executive-summary.pdf`, `INVENTORY.md`.
 
 **Kitchen-table line:** The School Board proposes and shapes the school budget. The Board of Supervisors decides how much local tax money goes to schools.
 
 ---
 
-## The big operating number (FY2027 — BOS Adopted)
+## The big operating number (FY2027)
 
-**School Operating Fund (BOS Adopted FY2027): $2,066,954,668**  
-That’s about **$2.07 billion** to run the schools for one fiscal year (salaries, buses, utilities, day-to-day operations — not the multi-year building plan).
+**School Operating Fund: $2,066,954,668**
 
-Of that total, the schedule shows **local tax funding (LTF) transferred to schools: $1,484,949,364**.  
-The rest of the operating fund comes from **other sources** printed on the same schedule (state / other columns — not invented here). Local transfer ≠ the whole school budget.
+Printed in all three of these on-file documents:
 
-**Source:** Schedule of Appropriations in `FY2027-loudoun-adopted-executive-summary.pdf` (School Operating Fund line: total **2,066,954,668**; LTF **1,484,949,364**). Same operating total in `FY2027-loudoun-budget-in-brief.pdf`.
+| Status | File |
+| --- | --- |
+| **SEON (proposed)** | `FY2027-lcps-superintendent-estimate-of-needs.pdf` |
+| **School Board Adopted** | `FY2027-lcps-school-board-adopted-executive-summary.pdf` (+ `FY2027-lcps-budget-resolution-adopted.pdf`) |
+| **BOS Adopted (county appropriation)** | `FY2027-loudoun-adopted-executive-summary.pdf` / `FY2027-loudoun-budget-in-brief.pdf` |
+
+Same headline dollar — **still three different statuses**. For “what did taxpayers appropriate,” start with the **BOS** Schedule. For “what did LCPS propose / how is spending structured,” use **SEON / School Board** packets.
+
+Of that total, the BOS schedule shows **local tax funding (LTF) transferred to schools: $1,484,949,364**. Local transfer ≠ the whole school budget.
 
 ### Other school funds in the same FY2027 adopted books (not “operating”)
 
@@ -59,6 +65,10 @@ The rest of the operating fund comes from **other sources** printed on the same 
 
 **Files:** `FY2027-loudoun-adopted-executive-summary.pdf`, `FY2027-loudoun-budget-in-brief.pdf`.
 
+### May 12, 2026 post-April amendment (sourced)
+
+School Board action increased FY27 School Operating Fund by **+$6.2M** to recognize state funding for compensation already in the adopted budget. See `FY2027-lcps-may12-operating-fund-amendment-excerpt.txt` (BoardDocs agenda excerpt; corroborated by LCPS news). Treat as **later amendment on top of the April BOS book**, not a substitute for it.
+
 ---
 
 ## Operating vs CIP (one line each)
@@ -69,7 +79,7 @@ The rest of the operating fund comes from **other sources** printed on the same 
 **FY2027 appropriated school capital projects fund (first year): $71,170,000.**  
 School CAPP (preservation/renewal-style capital): **$53,130,000** in Budget in Brief.
 
-**Sources:** CIP overview (“multi-year plan that does not constitute or require appropriation of funds beyond those for the adopted fiscal year, FY 2027”); Budget in Brief fund lines. Files: `FY2027-loudoun-adopted-CIP-overview.pdf`, `FY2027-loudoun-adopted-school-projects-CIP.pdf`, `FY2027-loudoun-budget-in-brief.pdf`.
+**Sources:** CIP overview; Budget in Brief fund lines. Files: `FY2027-loudoun-adopted-CIP-overview.pdf`, `FY2027-loudoun-adopted-school-projects-CIP.pdf`, `FY2027-loudoun-budget-in-brief.pdf`.
 
 ---
 
@@ -77,12 +87,11 @@ School CAPP (preservation/renewal-style capital): **$53,130,000** in Budget in B
 
 | Label | Meaning | Example we have on disk |
 | --- | --- | --- |
-| **SEON / Proposed** | Superintendent’s ask | FY2026 SEON School Operating Fund **$1,956,544,782** (`FY2026-lcps-superintendent-estimate-of-needs.pdf`) |
-| **BOS Adopted** | What the county appropriated | FY2026 School Operating Fund **$1,962,144,782** (`FY2026-loudoun-budget-story.pdf`); FY2027 **$2,066,954,668** (Exec Summary / Budget in Brief) |
+| **SEON / Proposed** | Superintendent’s ask | FY2026 SEON Operating **$1,956,544,782**; FY2027 SEON Operating **$2,066,954,668** |
+| **School Board Adopted** | What the School Board sent to BOS | FY2026 full adopted book Operating **$1,962,144,782**; FY2027 Exec Summary / Resolution / BOS deck (Operating **$2,066,954,668**) — **no full multi-section FY27 SB adopted book posted yet** |
+| **BOS Adopted** | What the county appropriated | FY2026 **$1,962,144,782**; FY2027 **$2,066,954,668** |
 
-For FY2026, the **adopted** operating appropriation (**$1,962,144,782**) is **higher** than the SEON operating figure (**$1,956,544,782**). That gap is process (School Board / BOS changes), not something this guide invents a story about.
-
-**We do not yet have** the FY2027 LCPS SEON PDF or the FY2027 School Board Adopted budget book on disk — so we **cannot** honestly say “LCPS asked for $X” for FY2027 from division PDFs. We **can** say what the **BOS adopted** for FY2027.
+For FY2026, the **adopted** operating appropriation is **higher** than the SEON operating figure. For FY2027, SEON and School Board Adopted Exec Summary match the BOS operating headline — amendments on Feb 3 appear to have redistributed within that total.
 
 ---
 
@@ -90,7 +99,7 @@ For FY2026, the **adopted** operating appropriation (**$1,962,144,782**) is **hi
 
 | Year | School Operating Fund | Source |
 | --- | ---: | --- |
-| FY2026 BOS Adopted | $1,962,144,782 | `FY2026-loudoun-budget-story.pdf` |
+| FY2026 BOS Adopted | $1,962,144,782 | `FY2026-loudoun-budget-story.pdf` / FY26 SB Adopted book |
 | FY2027 BOS Adopted | $2,066,954,668 | `FY2027-loudoun-adopted-executive-summary.pdf` / Budget in Brief |
 
 Exec Summary also prints the YoY change on that line as **+$104,809,886** (FY26 adopted → FY27 adopted).
@@ -101,24 +110,27 @@ Exec Summary also prints the YoY change on that line as **+$104,809,886** (FY26 
 
 | Gap | Why it matters |
 | --- | --- |
-| **FY27 LCPS SEON PDF** | Division’s own proposed detail for the current year |
-| **FY27 School Board Adopted Budget book** | What the School Board sent to BOS before county adoption |
-| **FY26 School Board Adopted book** | Clean SEON → SB → BOS diff for last year |
+| **FY27 School Board Adopted Budget book (full multi-section)** | Closest: Exec Summary + Adopted Resolution + BOS presentation — not a FY26-style full adopted book |
 | **FY27 BOS Appropriations Resolution PDF** | Legal twin of the FY26 resolution packet (totals are already in Exec Summary / Budget in Brief) |
-| **Post-April FY27 School Board amendments** (e.g., later state-compensation alignment noted in inventory news) | Current amended authority may differ from the April BOS book — **not verified in a PDF here** |
 
-Until those land, public claims should stick to: **“BOS Adopted FY2027 School Operating Fund = $2,066,954,668”** and cite the county PDFs.
+Public claims can now cite SEON / School Board / BOS PDFs on file — just **keep the status labels**. Headline for the county appropriation remains: **“BOS Adopted FY2027 School Operating Fund = $2,066,954,668”** (April book), with May 12 **+$6.2M** noted separately when discussing later School Board authority.
 
 ---
 
 ## Provenance (files used)
 
+- `FY2027-lcps-superintendent-estimate-of-needs.pdf` — BoardDocs DQCT44757CE4  
+- `FY2027-lcps-school-board-adopted-executive-summary.pdf` — BoardDocs DR5JTP4EC11A  
+- `FY2027-lcps-budget-resolution-adopted.pdf` — LCPS FY27 folder  
+- `FY2027-lcps-school-board-adopted-budget-presented-to-bos.pdf` — LCPS Feb 9, 2026 folder  
 - `FY2027-loudoun-adopted-executive-summary.pdf` — https://www.loudoun.gov/DocumentCenter/View/221478/Executive-Summary-PDF  
 - `FY2027-loudoun-budget-in-brief.pdf` — https://www.loudoun.gov/DocumentCenter/View/222153/Budget-In-Brief-FY-2027-Interactive-Web  
 - `FY2027-loudoun-adopted-CIP-overview.pdf` — https://www.loudoun.gov/DocumentCenter/View/221482/Capital-Improvement-Program-Overview-PDF  
 - `FY2027-loudoun-adopted-school-projects-CIP.pdf` — https://www.loudoun.gov/DocumentCenter/View/221486/School-Projects-PDF  
+- `FY2026-lcps-school-board-adopted-budget.pdf` — LCPS FY26 folder  
 - `FY2026-lcps-superintendent-estimate-of-needs.pdf` — BoardDocs FY26 SEON  
 - `FY2026-loudoun-budget-story.pdf` — https://www.loudoun.gov/DocumentCenter/View/216714/Budget-Story-FY-2026-WEB  
+- `FY2027-lcps-may12-operating-fund-amendment-excerpt.txt` — BoardDocs DT6HMP4919FD + lcps.org/article/2895686  
 - Index: `INVENTORY.md`
 
-**Prepared:** 2026-09-09 (America/New_York). SAMPLE / staff use; for public post use the one-pager and keep labels honest.
+**Prepared / updated:** 2026-09-09 (America/New_York). SAMPLE / staff use; for public post use the one-pager and keep labels honest.

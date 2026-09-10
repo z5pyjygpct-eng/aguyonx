@@ -93,12 +93,13 @@ function LoudounSchoolsPage() {
           <h2 className="mt-2 font-serif text-3xl font-medium">Schools money, kitchen-table</h2>
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
             Loudoun schools run July–June. {LCPS_BUDGET_FY27.fiscalYear} is{" "}
-            {LCPS_BUDGET_FY27.fiscalSpan}. The Superintendent proposes. The School Board revises and
-            sends a request. The{" "}
+            {LCPS_BUDGET_FY27.fiscalSpan}. The Superintendent proposes (SEON). The School Board
+            revises and adopts a school request. The{" "}
             <span className="font-medium text-foreground">Board of Supervisors appropriates</span>{" "}
             the local dollars. Schools here are fiscally dependent on the county — they don’t set
-            the property tax. Proposed is not adopted. Dollars below are from Loudoun County’s
-            adopted books.
+            the property tax. Proposed ≠ School Board Adopted ≠ BOS Adopted — even when the
+            operating headline matches. Headline cards below cite the county appropriation; hosted
+            PDFs keep each status labeled.
           </p>
 
           <ul className="mt-8 grid gap-3 sm:grid-cols-2">
@@ -144,17 +145,24 @@ function LoudounSchoolsPage() {
               year’s county appropriation.
             </p>
             <p className="mt-3 text-sm text-muted-foreground">
-              <span className="font-medium text-foreground">Honest caveat:</span> We have the
-              county’s adopted {LCPS_BUDGET_FY27.fiscalYear} school fund totals. We do{" "}
-              <span className="font-medium text-foreground">not</span> yet have the FY2027 LCPS SEON
-              or School Board Adopted budget book on file for this shelf — so we are not claiming
-              what the division “asked for” in FY2027 from LCPS PDFs. Mid-year amendments after
-              April 2026 are also unverified here.
+              <span className="font-medium text-foreground">Labels matter:</span> FY2027 SEON,
+              School Board Adopted Executive Summary, and BOS Adopted Schedule all print School
+              Operating Fund{" "}
+              <span className="font-medium text-foreground">
+                {LCPS_BUDGET_FY27.schoolOperatingAdoptedLabel}
+              </span>
+              — still call each PDF what it is (Superintendent proposed; School Board adopted;
+              county appropriation). On May 12, 2026 the School Board later increased FY27
+              operating by {LCPS_BUDGET_FY27.may12OperatingAmendmentLabel} to recognize state
+              compensation funding already in the adopted budget (agenda excerpt on this shelf) —
+              a post-April amendment on top of the April BOS book. Still missing: a full
+              multi-section FY27 School Board Adopted book (like FY26) and the FY27 BOS
+              appropriations resolution packet.
             </p>
           </div>
 
           <p className="mt-8 font-mono text-xs tracking-widest text-muted-foreground uppercase">
-            Hosted source PDFs
+            Hosted source files
           </p>
           <ul className="mt-3 space-y-2">
             {LCPS_BUDGET_DOCS.map((doc) => (
@@ -184,8 +192,17 @@ function LoudounSchoolsPage() {
             ))}
           </ul>
           <p className="mt-4 text-xs text-muted-foreground">
-            Sources: Loudoun County FY2027 Adopted Budget Executive Summary and Budget in Brief.
-            Official county budget door:{" "}
+            Sources: LCPS SEON / School Board adopted packets and Loudoun County FY2027 Adopted
+            Executive Summary and Budget in Brief. Official doors:{" "}
+            <a
+              href="https://www.lcps.org/budget"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#1E4B8E] underline-offset-2 hover:underline"
+            >
+              lcps.org/budget
+            </a>
+            {" · "}
             <a
               href="https://www.loudoun.gov/budget"
               target="_blank"
