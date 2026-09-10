@@ -47,6 +47,34 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "spanberger-ashworth-manassas-bond-wjla-2026-09-09",
+    date: "2026-09-09",
+    filed: "2026-09-10",
+    headline:
+      "New arrests made in deadly Manassas event shooting as bond decisions face questions",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/manassas-deadly-shooting-bond-decisions-suspects-arrest-crime-charges-spanberger-douglas-wanzer-teen-davis-train-depot",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Amy Ashworth", office: "Prince William Commonwealth's Attorney" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "subramanyam-national-data-center-plan-loudounnow-2026-09-09",
+    date: "2026-09-09",
+    filed: "2026-09-10",
+    headline: "Subramanyam Proposes National Data Center Plan",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/subramanyam-proposes-national-data-center-plan/article_0ed33672-1456-42ee-b764-a6e4ae4c8ed7.html",
+    people: [
+      { name: "Suhas Subramanyam", office: "U.S. Representative" },
+      { name: "Russet Perry", office: "State Senator" },
+      { name: "Laura TeKrony", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
     id: "spanberger-digital-service-vascope-2026-09-08",
     date: "2026-09-08",
     filed: "2026-09-09",
