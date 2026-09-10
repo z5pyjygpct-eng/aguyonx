@@ -207,7 +207,7 @@ export function LcpsMeetingSearch() {
       </h2>
       <p className="mt-2 text-sm text-muted-foreground">
         Search captions → jump the video · {LCPS_MEETINGS.length} School Board meetings indexed
-        (2026 YTD)
+        (2025–2026 YTD)
       </p>
 
       <aside className="mt-5 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">

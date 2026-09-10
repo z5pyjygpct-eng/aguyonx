@@ -40,7 +40,7 @@ function LoudounSchoolsPage() {
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
           <span className="font-medium text-foreground">Find the Moment</span> for Loudoun County
-          Public Schools School Board — {LCPS_MEETINGS.length} full Board meetings indexed (2026
+          Public Schools School Board — {LCPS_MEETINGS.length} full Board meetings indexed (2025–2026
           YTD). Captions are an index, not quotes. County Board of Supervisors lives on the{" "}
           <Link
             to="/counties/loudoun"

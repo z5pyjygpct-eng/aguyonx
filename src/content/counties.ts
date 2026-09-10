@@ -32,7 +32,7 @@ export const COUNTY_SHELVES: CountyShelf[] = [
     schools: {
       name: "Loudoun Schools",
       live: true,
-      dek: `Find the Moment for School Board — ${LCPS_MEETINGS.length} full Board meetings indexed (2026 YTD).`,
+      dek: `Find the Moment for School Board — ${LCPS_MEETINGS.length} full Board meetings indexed (2025–2026 YTD).`,
       to: "/counties/loudoun/schools",
     },
   },

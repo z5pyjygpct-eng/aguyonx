@@ -25,8 +25,37 @@ const splitFrom = process.env.LCPS_SPLIT_FROM || "";
 /** Prefer prior Aug 11 POC windows when regenerating from VTTs. */
 const AUG11 = "1217434020";
 
-/** Full School Board meetings (not committees) — Jan–Sep 2026 YTD. */
+/** Full School Board meetings (not committees) — CY2025 + 2026 YTD. */
 const MEETINGS = [
+  "1045703767", // 2025-01-09 School Board Organizational Meeting
+  "1047051714", // 2025-01-14 2nd Tuesday School Board Meeting
+  "1052098361", // 2025-02-04 Special School Board Meeting — FY26 Operating Budget Adoption
+  "1053570466", // 2025-02-13 2nd Tuesday School Board Meeting (Rescheduled due to incle...
+  "1059923212", // 2025-02-25 4th Tuesday School Board Meeting
+  "1063013914", // 2025-03-11 2nd Tuesday School Board Meeting
+  "1069012335", // 2025-03-25 4th Tuesday School Board Meeting
+  "1069432152", // 2025-04-01 4th Tuesday School Board Meeting (Reconvened from March 25...
+  "1071992637", // 2025-04-08 2nd Tuesday School Board Meeting
+  "1074117923", // 2025-04-22 4th Tuesday School Board Meeting
+  "1081666340", // 2025-05-06 2nd Tuesday School Board Meeting
+  "1086546653", // 2025-05-20 4th Tuesday School Board Meeting
+  "1089915351", // 2025-06-10 2nd Tuesday School Board Meeting
+  "1092321196", // 2025-06-17 2nd Tuesday School Board Meeting (Reconvened from June 10,...
+  "1094251148", // 2025-06-23 Special School Board Meeting – Closed Session
+  "1095784143", // 2025-06-24 4th Tuesday School Board Meeting
+  "1096116661", // 2025-07-09 Special School Board Meeting – Closed Session
+  "1100127951", // 2025-08-04 Special School Board Meeting – Closed Session
+  "1107105070", // 2025-08-12 2nd Tuesday School Board Meeting
+  "1110982340", // 2025-09-02 2nd Tuesday School Board Meeting (Reconvened from August 1...
+  "1115339243", // 2025-09-08 Special School Board Meeting – Closed Session
+  "1116938106", // 2025-09-09 2nd Tuesday School Board Meeting
+  "1123768746", // 2025-09-30 4th Tuesday School Board Meeting (Moved due to Rosh Hashanah)
+  "1123751318", // 2025-10-14 2nd Tuesday School Board Meeting
+  "1127365931", // 2025-10-28 4th Tuesday School Board Meeting
+  "1135569519", // 2025-11-11 2nd Tuesday School Board Meeting
+  "1142554279", // 2025-12-02 4th Tuesday School Board Meeting (Moved due to Thanksgivin...
+  "1147068947", // 2025-12-16 2nd Tuesday School Board Meeting (Moved due to Winter Break)
+  // --- 2026 YTD ---
   "1151982673", // 2026-01-06 Organizational
   "1154062783", // 2026-01-13 2nd Tuesday
   "1159386579", // 2026-01-28 2nd Tuesday (rescheduled)
