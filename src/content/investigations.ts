@@ -2,6 +2,37 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    slug: "why-loudoun-republicans-lost-2023-win-2027",
+    kind: "investigation",
+    title: "Why Loudoun Republicans Lost in 2023 and How They Win Seats in 2027",
+    dek: "One reading of the returns — supervisors, school board, split tickets — written so the cause and the path are both clear.",
+    date: "2026-09-09",
+    displayDate: "September 9, 2026",
+    topic: "Elections",
+    kicker: "Loudoun",
+    image: "/images/investigations/why-loudoun-republicans-lost-2023-win-2027.png",
+    imageAlt: "Cover of Why Loudoun Republicans Lost in 2023 and How They Win Seats in 2027",
+    access: "public",
+    readMinutes: 12,
+    body: [
+      { type: "p", text: "This paper is for people who have to explain 2023 to a room and then decide what to do before November 2027. It is not a fundraising memo. Money is set aside as the main excuse because the same voters, on the same day, hired Republicans for sheriff, treasurer, commissioner, clerk, and prosecutor." },
+      { type: "p", text: "Why they lost: Loudoun did not refuse Republicans. It refused a 2021 message, a split chair field, and first-time names in the east. Voters fired the old school board and still left Democrats the majority. They hired GOP cops and tax officers and kept a Democratic chair with 48.7 percent because the other 51 percent did not stand in one line." },
+      { type: "p", text: "How they win: one chair nominee, two +7 supervisor races (Algonkian and Little River) with local names, hold Catoctin and Dulles, talk like the sheriff they already elect, and stop running cable news as a county platform. A 5–4 board is possible. A sweep is not what the returns describe. The PDF has the full scorecard, supervisor table, and seven how-to moves for 2027." },
+    ],
+    citations: [
+      { id: "enr", label: "Virginia Department of Elections — Loudoun ENR, Nov. 7, 2023", href: "https://enr.elections.virginia.gov/" },
+      { id: "elect", label: "Virginia Department of Elections", href: "https://www.elections.virginia.gov/" },
+    ],
+    documents: [
+      {
+        id: "pdf",
+        title: "Why Loudoun Republicans Lost in 2023 and How They Win Seats in 2027 (PDF)",
+        href: "/files/investigations/why-loudoun-republicans-lost-2023-win-2027.pdf",
+        kind: "pdf",
+      },
+    ],
+  },
+  {
     slug: "2026-dem-va-constitution-conflicts",
     kind: "investigation",
     title: "2026 Democratic Agenda — Conflicts with the Virginia Constitution",
