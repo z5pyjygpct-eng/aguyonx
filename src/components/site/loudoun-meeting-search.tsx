@@ -9,10 +9,11 @@ import {
 } from "react";
 import { ExternalLink, Search } from "lucide-react";
 import {
-  LOUDOUN_MEETING_BY_CLIP,
+  LOUDOUN_MEETING_BY_ID,
   LOUDOUN_MEETINGS,
   LOUDOUN_TOPIC_CHIPS,
-  loudounJumpUrl,
+  loudounMeetingJumpUrl,
+  loudounProvider,
   type CaptionWindow,
   type LoudounCaptionSlice,
   type LoudounMeeting,
@@ -86,55 +87,55 @@ type CacheEntry = CaptionWindow[] | "loading" | "error";
 export function LoudounMeetingSearch() {
   const [q, setQ] = useState("");
   const [submitted, setSubmitted] = useState("");
-  const [clipFilter, setClipFilter] = useState<number | "all">("all");
+  const [meetingFilter, setMeetingFilter] = useState<string | "all">("all");
   const [cacheTick, setCacheTick] = useState(0);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
   /** In-memory cache of fetched meeting windows (module-lifetime via ref). */
-  const cacheRef = useRef<Map<number, CacheEntry>>(new Map());
-  const inflightRef = useRef<Map<number, Promise<CaptionWindow[]>>>(new Map());
+  const cacheRef = useRef<Map<string, CacheEntry>>(new Map());
+  const inflightRef = useRef<Map<string, Promise<CaptionWindow[]>>>(new Map());
 
   const loadMeeting = useCallback(async (meeting: LoudounMeeting): Promise<CaptionWindow[]> => {
-    const cached = cacheRef.current.get(meeting.clipId);
+    const cached = cacheRef.current.get(meeting.id);
     if (Array.isArray(cached)) return cached;
 
-    const existing = inflightRef.current.get(meeting.clipId);
+    const existing = inflightRef.current.get(meeting.id);
     if (existing) return existing;
 
-    cacheRef.current.set(meeting.clipId, "loading");
+    cacheRef.current.set(meeting.id, "loading");
     setCacheTick((t) => t + 1);
 
     const promise = (async () => {
       const res = await fetch(meeting.windowsUrl);
-      if (!res.ok) throw new Error(`HTTP ${res.status} for clip ${meeting.clipId}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status} for meeting ${meeting.id}`);
       const slices = (await res.json()) as LoudounCaptionSlice[];
       const windows: CaptionWindow[] = slices.map((s) => ({
-        clipId: meeting.clipId,
+        meetingId: meeting.id,
         start: s.start,
         end: s.end,
         text: s.text,
       }));
-      cacheRef.current.set(meeting.clipId, windows);
-      inflightRef.current.delete(meeting.clipId);
+      cacheRef.current.set(meeting.id, windows);
+      inflightRef.current.delete(meeting.id);
       setCacheTick((t) => t + 1);
       return windows;
     })().catch((err) => {
-      cacheRef.current.set(meeting.clipId, "error");
-      inflightRef.current.delete(meeting.clipId);
+      cacheRef.current.set(meeting.id, "error");
+      inflightRef.current.delete(meeting.id);
       setCacheTick((t) => t + 1);
       throw err;
     });
 
-    inflightRef.current.set(meeting.clipId, promise);
+    inflightRef.current.set(meeting.id, promise);
     return promise;
   }, []);
 
   const meetingsToLoad = useMemo(() => {
-    if (clipFilter === "all") return LOUDOUN_MEETINGS;
-    const one = LOUDOUN_MEETING_BY_CLIP[clipFilter];
+    if (meetingFilter === "all") return LOUDOUN_MEETINGS;
+    const one = LOUDOUN_MEETING_BY_ID[meetingFilter];
     return one ? [one] : [];
-  }, [clipFilter]);
+  }, [meetingFilter]);
 
   const query = submitted.trim();
 
@@ -171,7 +172,7 @@ export function LoudounMeetingSearch() {
     void cacheTick;
     const out: CaptionWindow[] = [];
     for (const m of meetingsToLoad) {
-      const entry = cacheRef.current.get(m.clipId);
+      const entry = cacheRef.current.get(m.id);
       if (Array.isArray(entry)) out.push(...entry);
     }
     return out;
@@ -179,7 +180,7 @@ export function LoudounMeetingSearch() {
 
   const allLoaded =
     meetingsToLoad.length > 0 &&
-    meetingsToLoad.every((m) => Array.isArray(cacheRef.current.get(m.clipId)));
+    meetingsToLoad.every((m) => Array.isArray(cacheRef.current.get(m.id)));
 
   const hits = useMemo(() => {
     if (!query || !allLoaded) return [];
@@ -212,8 +213,8 @@ export function LoudounMeetingSearch() {
 
       <aside className="mt-5 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">
         <strong className="font-semibold">Captions are an index, not a transcript.</strong>{" "}
-        Auto-captions are not quote-grade — spelling breaks, names drop. Jump to the moment on
-        Granicus and verify by ear. Do not cite captions as quotes.
+        Auto-captions are not quote-grade — spelling breaks, names drop. Jump to the moment
+        (Granicus or eScribe / ISI) and verify by ear. Do not cite captions as quotes.
       </aside>
 
       <form role="search" onSubmit={onSubmit} className="mt-6 flex flex-col gap-3 sm:flex-row">
@@ -260,17 +261,18 @@ export function LoudounMeetingSearch() {
           </label>
           <select
             id="loudoun-meeting-filter"
-            value={clipFilter === "all" ? "all" : String(clipFilter)}
+            value={meetingFilter}
             onChange={(e) => {
               const v = e.target.value;
-              setClipFilter(v === "all" ? "all" : Number(v));
+              setMeetingFilter(v === "all" ? "all" : v);
             }}
             className="h-9 max-w-full rounded-md border border-input bg-paper px-3 font-sans text-sm text-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
           >
             <option value="all">All indexed meetings</option>
             {LOUDOUN_MEETINGS.map((m) => (
-              <option key={m.clipId} value={m.clipId}>
+              <option key={m.id} value={m.id}>
                 {m.dateLabel} · {m.title.replace(/^Loudoun BOS /, "")}
+                {loudounProvider(m) === "escribe" ? " · eScribe" : ""}
               </option>
             ))}
           </select>
@@ -302,9 +304,9 @@ export function LoudounMeetingSearch() {
         aria-live="polite"
       >
         {!query
-          ? "Enter a name or phrase, or tap a topic chip. Jump to the moment on Granicus."
+          ? "Enter a name or phrase, or tap a topic chip. Jump to the moment on the video."
           : loading
-            ? clipFilter === "all"
+            ? meetingFilter === "all"
               ? "Loading caption indexes…"
               : "Loading meeting captions…"
             : loadError
@@ -327,11 +329,15 @@ export function LoudounMeetingSearch() {
         <ul className="mt-4 space-y-3">
           {shown.map((w) => {
             const sec = Math.floor(w.start);
-            const href = loudounJumpUrl(w.clipId, sec);
-            const meeting = LOUDOUN_MEETING_BY_CLIP[w.clipId];
+            const meeting = LOUDOUN_MEETING_BY_ID[w.meetingId];
+            const href = meeting
+              ? loudounMeetingJumpUrl(meeting, sec)
+              : "#";
+            const source =
+              meeting && loudounProvider(meeting) === "escribe" ? "eScribe / ISI" : "Granicus";
             return (
               <li
-                key={`${w.clipId}-${w.start}-${w.end}`}
+                key={`${w.meetingId}-${w.start}-${w.end}`}
                 className="rounded-md border border-border bg-paper px-4 py-4"
               >
                 <div className="flex flex-wrap items-center justify-between gap-3">
@@ -341,10 +347,11 @@ export function LoudounMeetingSearch() {
                     </p>
                     {meeting ? (
                       <p className="mt-0.5 text-xs text-muted-foreground">
-                        {meeting.dateLabel} · {meeting.title.replace(/^Loudoun BOS /, "")}
+                        {meeting.dateLabel} · {meeting.title.replace(/^Loudoun BOS /, "")} ·{" "}
+                        {source}
                       </p>
                     ) : (
-                      <p className="mt-0.5 text-xs text-muted-foreground">clip {w.clipId}</p>
+                      <p className="mt-0.5 text-xs text-muted-foreground">{w.meetingId}</p>
                     )}
                   </div>
                   <a

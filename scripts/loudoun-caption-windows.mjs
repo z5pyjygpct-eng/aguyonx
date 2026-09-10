@@ -4,10 +4,16 @@
  * Usage: node scripts/loudoun-caption-windows.mjs
  * Expects /tmp/loudoun-vtt/{clipId}.vtt (or set LOUDOUN_VTT_DIR).
  *
+ * eScribe (non-numeric keys), e.g. Sep 1 2026 Business:
+ *   curl -o /tmp/loudoun-vtt/escribe-929244b6.vtt \
+ *     'https://video.isilive.ca/loudouncty/83-Board-of-Supervisors-Business-Meeting-2026-9-1-19-51.mp4.vtt'
+ *   LOUDOUN_ESCRIBE_ONLY=1 node scripts/loudoun-caption-windows.mjs
+ *   # or LOUDOUN_ESCRIBE_KEYS=escribe-929244b6
+ *
  * Emits:
- *   public/files/find-the-moment/loudoun-bos/{clipId}.json
- *     — array of {start,end,text} only (no clipId; saves bytes)
- *   stdout summary with windowCount per clip (paste into src/content/loudoun.ts)
+ *   public/files/find-the-moment/loudoun-bos/{clipId|escribe-slug}.json
+ *     — array of {start,end,text} only (no meeting id; saves bytes)
+ *   stdout summary with windowCount (paste into src/content/loudoun.ts)
  *
  * Does NOT bake a multi-MB JSON into src/content (Hobby-safe lazy load).
  * Optional shop source: set LOUDOUN_SHOP_JSON to also write a combined archive
@@ -33,6 +39,13 @@ const MEETINGS = [
   7942, 7931, 7925, 7919, 7909, 7905, 7903, 7891, 7889, 7887, 7886, 7884, 7883,
   7878, 7876, 7870, 7868, 7863, 7852, 7851, 7847,
 ];
+
+/** Non-numeric eScribe keys — never invent fake Granicus clipIds. */
+const ESCRIBE_MEETINGS = (process.env.LOUDOUN_ESCRIBE_KEYS || "escribe-929244b6")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
+const ESCRIBE_ONLY = process.env.LOUDOUN_ESCRIBE_ONLY === "1";
 
 function parseVtt(text) {
   const cues = [];
@@ -118,7 +131,7 @@ fs.mkdirSync(outDir, { recursive: true });
 const counts = {};
 const combined = [];
 
-if (splitFrom) {
+if (!ESCRIBE_ONLY && splitFrom) {
   const srcPath = path.isAbsolute(splitFrom) ? splitFrom : path.join(root, splitFrom);
   const all = JSON.parse(fs.readFileSync(srcPath, "utf8"));
   const by = new Map();
@@ -134,7 +147,7 @@ if (splitFrom) {
     console.log(`${clipId}: ${wins.length} windows -> ${outPath}`);
     for (const w of wins) combined.push({ clipId, ...w });
   }
-} else {
+} else if (!ESCRIBE_ONLY) {
   const prior8178 = loadPrior8178();
   for (const clipId of MEETINGS) {
     const vttPath = path.join(vttDir, `${clipId}.vtt`);
@@ -154,6 +167,24 @@ if (splitFrom) {
     counts[clipId] = wins.length;
     console.log(`${clipId}: ${wins.length} windows -> ${outPath}`);
     for (const w of wins) combined.push({ clipId, ...w });
+  }
+}
+
+if (!splitFrom || ESCRIBE_ONLY) {
+  const keys = ESCRIBE_ONLY || !splitFrom ? ESCRIBE_MEETINGS : [];
+  for (const key of keys) {
+    const vttPath = path.join(vttDir, `${key}.vtt`);
+    if (!fs.existsSync(vttPath)) {
+      console.warn(`skip eScribe ${key}: missing ${vttPath}`);
+      continue;
+    }
+    const cues = parseVtt(fs.readFileSync(vttPath, "utf8"));
+    const wins = windowize(cues);
+    const outPath = path.join(outDir, `${key}.json`);
+    fs.writeFileSync(outPath, JSON.stringify(wins));
+    counts[key] = wins.length;
+    console.log(`eScribe ${key}: ${wins.length} windows -> ${outPath}`);
+    for (const w of wins) combined.push({ id: key, ...w });
   }
 }
 

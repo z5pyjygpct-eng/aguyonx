@@ -14,27 +14,44 @@ export type TopicChip = {
 };
 
 export type CaptionWindow = {
-  clipId: number;
+  /** Catalog meeting id (Granicus clip id string or eScribe slug). */
+  meetingId: string;
   start: number;
   end: number;
   text: string;
 };
 
-/** Per-meeting caption file shape (clipId omitted to save bytes). */
+/** Per-meeting caption file shape (meeting id omitted to save bytes). */
 export type LoudounCaptionSlice = {
   start: number;
   end: number;
   text: string;
 };
 
+export type LoudounProvider = "granicus" | "escribe";
+
 export type LoudounMeeting = {
   id: string;
-  clipId: number;
+  /**
+   * Granicus numeric clip id. Present for Granicus meetings only —
+   * never invent a fake clipId for eScribe.
+   */
+  clipId?: number;
+  /** Video/caption host. Defaults to granicus when omitted (legacy catalog rows). */
+  provider?: LoudounProvider;
+  /** eScribe meeting GUID when provider is escribe. */
+  escribeId?: string;
   title: string;
   dateLabel: string;
   duration: string;
+  /** Official county player (Granicus clip or eScribe VideoStream). */
   playerUrl: string;
-  /** Static JSON under /files/find-the-moment/loudoun-bos/{clipId}.json */
+  /**
+   * Direct ISI MP4 for eScribe. Jump uses Media Fragments `#t={seconds}`.
+   * Granicus meetings omit this and use `entrytime` on the Granicus player instead.
+   */
+  videoUrl?: string;
+  /** Static JSON under /files/find-the-moment/loudoun-bos/{id}.json */
   windowsUrl: string;
   windowCount: number;
 };
@@ -97,8 +114,22 @@ export const LOUDOUN_BOS: BosMember[] = [
   },
 ];
 
-/** Searchable BOS meeting index — lean slice of the Granicus archive. */
+/** Searchable BOS meeting index — Granicus archive + eScribe (post-migration). */
 export const LOUDOUN_MEETINGS: LoudounMeeting[] = [
+  {
+    id: "escribe-929244b6",
+    provider: "escribe",
+    escribeId: "929244b6-a7bd-4399-b2dc-47491ce17657",
+    title: "Loudoun BOS Business Meeting",
+    dateLabel: "Sep 1, 2026",
+    duration: "7h 51m",
+    playerUrl:
+      "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=929244b6-a7bd-4399-b2dc-47491ce17657",
+    videoUrl:
+      "https://video.isilive.ca/loudouncty/83-Board-of-Supervisors-Business-Meeting-2026-9-1-19-51.mp4",
+    windowsUrl: "/files/find-the-moment/loudoun-bos/escribe-929244b6.json",
+    windowCount: 765,
+  },
   {
     id: "8216",
     clipId: 8216,
@@ -831,15 +862,44 @@ export const LOUDOUN_MEETINGS: LoudounMeeting[] = [
   },
 ];
 
+export const LOUDOUN_MEETING_BY_ID = Object.fromEntries(
+  LOUDOUN_MEETINGS.map((m) => [m.id, m]),
+) as Record<string, LoudounMeeting>;
+
 export const LOUDOUN_MEETING_BY_CLIP = Object.fromEntries(
-  LOUDOUN_MEETINGS.map((m) => [m.clipId, m]),
+  LOUDOUN_MEETINGS.filter((m) => m.clipId != null).map((m) => [m.clipId!, m]),
 ) as Record<number, LoudounMeeting>;
 
 /** Original live POC clip — prefer LOUDOUN_MEETINGS for new UI. */
 export const LOUDOUN_MEETING = LOUDOUN_MEETINGS.find((m) => m.clipId === 8178)!;
 
+export function loudounProvider(m: LoudounMeeting): LoudounProvider {
+  return m.provider ?? "granicus";
+}
+
+/** Granicus-only jump. Prefer loudounMeetingJumpUrl for mixed catalogs. */
 export function loudounJumpUrl(clipId: number, seconds: number): string {
   return `https://loudoun.granicus.com/player/clip/${clipId}?entrytime=${Math.floor(seconds)}`;
+}
+
+/**
+ * Provider-aware jump. eScribe uses direct ISI MP4 Media Fragments `#t={seconds}`
+ * (simplest second-level seek; official VideoStream only deep-links by agenda item).
+ * Granicus keeps proven `?entrytime=` on the county player.
+ */
+export function loudounMeetingJumpUrl(meeting: LoudounMeeting, seconds: number): string {
+  if (loudounProvider(meeting) === "escribe" && meeting.videoUrl) {
+    return `${meeting.videoUrl}#t=${Math.floor(seconds)}`;
+  }
+  if (meeting.clipId != null) {
+    return loudounJumpUrl(meeting.clipId, seconds);
+  }
+  return meeting.playerUrl;
+}
+
+/** Alias for eScribe MP4 fragment jumps when the meeting object is not handy. */
+export function loudounEscribeJumpUrl(videoUrl: string, seconds: number): string {
+  return `${videoUrl}#t=${Math.floor(seconds)}`;
 }
 
 export function loudounWindowsUrl(clipId: number): string {
@@ -864,8 +924,11 @@ export const LOUDOUN_TOPIC_CHIPS: TopicChip[] = [
 export const LOUDOUN_OFFICIAL_DOORS = [
   ...LOUDOUN_MEETINGS.map((m) => ({
     label: `${m.dateLabel} · ${m.title.replace(/^Loudoun BOS /, "")}`,
-    href: m.playerUrl,
-    dek: `Granicus clip ${m.clipId} · ${m.duration}`,
+    href: loudounProvider(m) === "escribe" ? (m.videoUrl ?? m.playerUrl) : m.playerUrl,
+    dek:
+      loudounProvider(m) === "escribe"
+        ? `eScribe / ISI · ${m.duration}`
+        : `Granicus clip ${m.clipId} · ${m.duration}`,
   })),
   {
     label: "Board of Supervisors",

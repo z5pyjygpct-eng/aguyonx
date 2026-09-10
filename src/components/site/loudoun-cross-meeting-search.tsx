@@ -10,7 +10,8 @@ import {
 import { ExternalLink, Search } from "lucide-react";
 import {
   LOUDOUN_MEETINGS,
-  loudounJumpUrl,
+  loudounMeetingJumpUrl,
+  loudounProvider,
   type LoudounCaptionSlice,
   type LoudounMeeting,
 } from "@/content/loudoun";
@@ -128,7 +129,7 @@ export function LoudounCrossMeetingSearch() {
     const county: LoadTarget[] = LOUDOUN_MEETINGS.map((meeting) => ({
       venue: "county" as const,
       meeting,
-      cacheKey: `county:${meeting.clipId}`,
+      cacheKey: `county:${meeting.id}`,
     }));
     const schools: LoadTarget[] = LCPS_MEETINGS.map((meeting) => ({
       venue: "schools" as const,
@@ -165,10 +166,12 @@ export function LoudounCrossMeetingSearch() {
           start: s.start,
           end: s.end,
           text: s.text,
-          jumpUrl: loudounJumpUrl(m.clipId, s.start),
+          jumpUrl: loudounMeetingJumpUrl(m, s.start),
           dateLabel: m.dateLabel,
-          title: m.title.replace(/^Loudoun BOS /, ""),
-          meetingKey: String(m.clipId),
+          title:
+            m.title.replace(/^Loudoun BOS /, "") +
+            (loudounProvider(m) === "escribe" ? " · eScribe" : ""),
+          meetingKey: m.id,
         }));
       } else {
         const m = target.meeting;

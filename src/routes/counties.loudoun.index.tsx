@@ -46,7 +46,7 @@ function LoudounCountyPage() {
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
           <span className="font-medium text-foreground">Find the Moment</span> — search{" "}
-          {LOUDOUN_MEETINGS.length} Board of Supervisors meetings (Granicus), skim the BOS roster,
+          {LOUDOUN_MEETINGS.length} Board of Supervisors meetings (Granicus + eScribe), skim the BOS roster,
           and open the official record. School Board lives on the{" "}
           <Link
             to="/counties/loudoun/schools"
@@ -102,7 +102,7 @@ function LoudounCountyPage() {
           <Kicker>Official doors</Kicker>
           <h2 className="mt-2 font-serif text-3xl font-medium">Out to the record</h2>
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
-            Indexed Granicus meetings plus county links. Listen on their player.
+            Indexed Granicus and eScribe meetings plus county links. Listen on their player.
           </p>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {LOUDOUN_OFFICIAL_DOORS.map((door) => (
