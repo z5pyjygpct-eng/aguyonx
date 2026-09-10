@@ -47,6 +47,60 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "fairfax-city-sales-tax-sessions-ffxnow-2026-09-09",
+    date: "2026-09-09",
+    filed: "2026-09-10",
+    headline: "Fairfax City plans voter information meetings on sales tax referendum",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/09/fairfax-city-plans-voter-information-meetings-on-sales-tax-referendum/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "fcps-kiss-and-ride-ffxnow-2026-09-09",
+    date: "2026-09-09",
+    filed: "2026-09-10",
+    headline:
+      "Kiss-and-ride congestion a growing safety concern at Fairfax County schools, report finds",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/09/kiss-and-ride-congestion-a-growing-safety-concern-in-fairfax-county-schools-report-finds/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "arlington-board-debate-arlnow-2026-09-09",
+    date: "2026-09-09",
+    filed: "2026-09-10",
+    headline:
+      "County Board candidates debate tax burdens, housing and e-bikes at first debate",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/09/county-board-candidates-debate-tax-burdens-housing-and-e-bikes-at-first-debate/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "sullivan-vlcv-data-centers-ffxnow-2026-09-09",
+    date: "2026-09-09",
+    filed: "2026-09-10",
+    headline:
+      "Environmental group honors Del. Sullivan for work on clean energy, data centers",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/09/environmental-group-honors-del-sullivan-for-work-on-clean-energy-data-centers/",
+    people: [{ name: "Rip Sullivan", office: "State Delegate" }],
+    scope: "local",
+  },
+  {
+    id: "fcps-naming-rights-wtop-2026-09-08",
+    date: "2026-09-08",
+    filed: "2026-09-10",
+    headline:
+      "Fairfax Co. weighs next steps for selling naming rights to high school sports facilities",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/fairfax-co-weighs-next-steps-for-selling-naming-rights-to-high-school-sports-facilities-2/",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "loudoun-tps-schools-nbcwashington-2026-09-08",
     date: "2026-09-08",
     filed: "2026-09-10",
