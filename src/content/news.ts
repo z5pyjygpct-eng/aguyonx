@@ -47,6 +47,17 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "arnoldi-hitler-retweet-arlnow-2026-09-09",
+    date: "2026-09-09",
+    filed: "2026-09-10",
+    headline:
+      "N. Va. congressional candidate retweets Hitler video after antisemitism allegations",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/09/n-va-congressional-candidate-retweets-hitler-video-after-antisemitism-allegations/",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "fairfax-city-sales-tax-sessions-ffxnow-2026-09-09",
     date: "2026-09-09",
     filed: "2026-09-10",
