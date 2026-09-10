@@ -368,6 +368,28 @@ function buildIndex(): SearchDoc[] {
     districtNumber: null,
   });
 
+  docs.push({
+    id: "page-counties-loudoun-schools",
+    title: "Loudoun Schools",
+    snippet: "LCPS School Board, Find the Moment, Policies, and FY2027 Budget shelf.",
+    shelf: "Page",
+    href: "/counties/loudoun/schools",
+    titleFields: "Loudoun Schools LCPS School Board Find the Moment Policies Budget",
+    body: "Loudoun County Public Schools School Board meeting speech search Find the Moment Policies hosted PDFs Budget FY2027 School Operating Fund Board of Supervisors adopted appropriation capital CIP kitchen-table. Taste not shop.",
+    districtNumber: null,
+  });
+
+  docs.push({
+    id: "page-counties-loudoun-schools-budget",
+    title: "Loudoun Schools Budget (FY2027)",
+    snippet: "BOS Adopted School Operating Fund $2,066,954,668 — hosted county PDFs.",
+    shelf: "Page",
+    href: "/counties/loudoun/schools#budget",
+    titleFields: "Loudoun Schools Budget LCPS FY2027 School Operating Fund CIP CAPP appropriation",
+    body: "FY2027 July 1 2026 June 30 2027 Board of Supervisors Adopted School Operating Fund $2,066,954,668 local tax funding $1,484,949,364 School Capital Projects Fund $71,170,000 School CAPP $53,130,000. Proposed is not adopted. FY2026 BOS Adopted $1,962,144,782. County Executive Summary Budget in Brief School Projects CIP hosted. No FY2027 LCPS SEON or School Board Adopted book claimed on this shelf. Loudoun County Public Schools fiscally dependent.",
+    districtNumber: null,
+  });
+
   for (const c of CANDIDATES_2027) {
     const loc = c.locality ?? "";
     const status = c.status ?? "";
