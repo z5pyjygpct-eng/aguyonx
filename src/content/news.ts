@@ -47,6 +47,17 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "loudoun-tps-schools-nbcwashington-2026-09-08",
+    date: "2026-09-08",
+    filed: "2026-09-10",
+    headline:
+      "'Devastating': Loudoun elementary will lose employees for past 25 years if TPS expires",
+    outlet: "NBC Washington",
+    url: "https://www.nbcwashington.com/video/news/local/northern-virginia/principal-explains-how-el-salvador-tps-deadline-could-affect-local-schools/4151747/",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "spanberger-ashworth-manassas-bond-wjla-2026-09-09",
     date: "2026-09-09",
     filed: "2026-09-10",
