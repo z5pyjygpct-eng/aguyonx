@@ -38,7 +38,7 @@ export const VIDEOS: SiteVideo[] = [
     id: "lcps-public-comment-once-a-month",
     date: "2025-07-15",
     title: "Once a Month: Loudoun School Board Moves to Limit Public Comment",
-    byline: "by: Anne Donohue · Loudoun School Board",
+    byline: "",
     src: "/videos/lcps-public-comment-once-a-month.mp4",
     poster: "/images/lcps-public-comment-once-a-month-poster.jpg",
     dek: "School Board member Anne Donohue on cutting public-comment nights from two a month to one (WJLA).",

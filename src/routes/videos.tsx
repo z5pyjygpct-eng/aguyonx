@@ -37,7 +37,9 @@ function VideosIndex() {
               <h2 className="mt-2 font-serif text-2xl font-medium tracking-tight sm:text-3xl">
                 {v.title}
               </h2>
-              <p className="mt-2 text-sm text-muted-foreground">{v.byline}</p>
+              {v.byline ? (
+                <p className="mt-2 text-sm text-muted-foreground">{v.byline}</p>
+              ) : null}
               <div className="mt-5 overflow-hidden rounded-md bg-night shadow-sm outline outline-1 outline-night/10">
                 <video
                   className="aspect-video w-full bg-night"
