@@ -120,55 +120,98 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
         </nav>
 
         <section
-          aria-label="Find the Moment"
+          aria-label="Home videos"
           className="border-b border-border bg-background px-4 pb-8 pt-5 sm:px-6 sm:pb-10 sm:pt-6"
         >
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="font-sans text-3xl font-semibold tracking-tight text-night sm:text-4xl">
-              “Find the Moment”
-            </h2>
-            <p className="mt-2 font-sans text-sm text-night/75 sm:text-base">
-              Search what was said in the video. Jump to the video.
-            </p>
+          <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-2 lg:gap-6">
+            <div className="text-center">
+              <h2 className="font-sans text-2xl font-semibold tracking-tight text-night sm:text-3xl">
+                “Find the Moment”
+              </h2>
+              <p className="mt-2 font-sans text-sm text-night/75 sm:text-base">
+                Search what was said in the video. Jump to the video.
+              </p>
 
-            <div className="mt-5 overflow-hidden rounded-md bg-[#0d4f6b] shadow-sm outline outline-1 outline-night/10">
-              <video
-                className="aspect-video w-full bg-night"
-                controls
-                playsInline
-                preload="metadata"
-                poster="/images/va-change-hero.png"
+              <div className="mt-5 overflow-hidden rounded-md bg-[#0d4f6b] shadow-sm outline outline-1 outline-night/10">
+                <video
+                  className="aspect-video w-full bg-night"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  poster="/images/va-change-hero.png"
+                >
+                  <source src="/videos/find-the-moment-demo.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
+              <nav
+                aria-label="Find the Moment doors"
+                className="mt-5 flex flex-wrap justify-center gap-3"
               >
-                <source src="/videos/find-the-moment-demo.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+                {FTM_DOORS.map((door) => (
+                  <Link
+                    key={door.to}
+                    to={door.to}
+                    className="inline-flex items-center rounded-md border-2 border-[#0d7377] bg-transparent px-5 py-2.5 font-sans text-sm font-semibold tracking-[0.14em] text-[#0d7377] uppercase transition-[background-color,color] duration-150 hover:bg-[#0d7377] hover:text-white"
+                  >
+                    {door.label}
+                  </Link>
+                ))}
+              </nav>
+              <p className="mt-4">
+                <Link
+                  to="/counties/loudoun/find-the-moment"
+                  className="font-sans text-sm text-night/65 underline-offset-2 hover:text-[#0d7377] hover:underline"
+                >
+                  Search County + Schools together →
+                </Link>
+              </p>
+              <p className="mt-3 font-mono text-[11px] tracking-widest text-[#0d7377] uppercase">
+                Live · Virginia public meetings
+              </p>
             </div>
 
-            <nav
-              aria-label="Find the Moment doors"
-              className="mt-5 flex flex-wrap justify-center gap-3"
-            >
-              {FTM_DOORS.map((door) => (
-                <Link
-                  key={door.to}
-                  to={door.to}
-                  className="inline-flex items-center rounded-md border-2 border-[#0d7377] bg-transparent px-5 py-2.5 font-sans text-sm font-semibold tracking-[0.14em] text-[#0d7377] uppercase transition-[background-color,color] duration-150 hover:bg-[#0d7377] hover:text-white"
+            <div className="text-center">
+              <h2 className="font-sans text-2xl font-semibold tracking-tight text-night sm:text-3xl">
+                Virginia Public School Rewrite of 9/11: The Hijackers Weren&apos;t
+                Terrorists
+              </h2>
+              <p className="mt-2 font-sans text-sm text-night/75 sm:text-base">
+                by: Virginia Democrats
+              </p>
+
+              <div className="mt-5 overflow-hidden rounded-md bg-night shadow-sm outline outline-1 outline-night/10">
+                <video
+                  className="aspect-video w-full bg-night"
+                  controls
+                  playsInline
+                  preload="metadata"
                 >
-                  {door.label}
+                  <source src="/videos/vdoe-911-rewrite-proof.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
+              <p className="mt-4 font-sans text-sm text-night/65">
+                Proof cuts from the VDOE teacher training webinar.{" "}
+                <a
+                  href="https://restoration-news.com/the-public-school-rewrite-of-9-11-the-hijackers-weren-t-terrorists"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#0d7377] underline-offset-2 hover:underline"
+                >
+                  Restoration News
+                </a>
+                {" · "}
+                <Link
+                  to="/news"
+                  className="text-[#0d7377] underline-offset-2 hover:underline"
+                >
+                  News shelf
                 </Link>
-              ))}
-            </nav>
-            <p className="mt-4">
-              <Link
-                to="/counties/loudoun/find-the-moment"
-                className="font-sans text-sm text-night/65 underline-offset-2 hover:text-[#0d7377] hover:underline"
-              >
-                Search County + Schools together →
-              </Link>
-            </p>
-            <p className="mt-3 font-mono text-[11px] tracking-widest text-[#0d7377] uppercase">
-              Live · Virginia public meetings
-            </p>
+              </p>
+            </div>
           </div>
         </section>
 
