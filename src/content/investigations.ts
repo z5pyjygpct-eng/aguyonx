@@ -2,6 +2,38 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    slug: "lcps-public-comment-speaker-time",
+    kind: "investigation",
+    title: "LCPS Public Comment and Speaker Time",
+    dek: "Staff’s own NoVA table puts Loudoun schools at 1 minute per speaker while peers sit at 2–3 and VSBA’s typical band is 2–5 — from the September 15, 2026 retreat packet.",
+    date: "2026-09-11",
+    displayDate: "September 11, 2026",
+    topic: "Schools",
+    kicker: "Loudoun",
+    image: "/images/investigations/lcps-public-comment-speaker-time.png",
+    imageAlt: "Cover chart — LCPS public-comment speaker time vs NoVA peers",
+    access: "public",
+    readMinutes: 8,
+    body: [
+      { type: "p", text: "Bottom line. The September 15, 2026 School Board Retreat packet does not announce a brand-new vote to cut speaker time. What it does put on the table is clearer than a press release: staff’s own Northern Virginia comparison, reviewed 9/9/26, lists Loudoun County Public Schools at one minute per speaker. Every NoVA school peer in that same table sits at two or three. The Virginia School Boards Association’s October 2025 Policy Page says boards typically allow two to five minutes. Loudoun’s own Board of Supervisors runs a two-minute minimum with a 90-minute overall public-comment window. LCPS is the shortest per-speaker slot in the packet. The agenda item itself carries no staff recommendation—only three attachments." },
+      { type: "p", text: "Parents do not need a consultant deck to feel what one minute means at the mic. Name the child. Name the school. Name the problem. The clock is already eating the sentence. Short or shrinking speaker time is bad for parents because the School Board is often the only room where a working parent can put a curriculum, safety, budget, or policy problem on the public record before a vote. The staff comparison sheet also prints “Up to 5 minutes” on the next line; that line appears only on that county sheet and is not how the room runs—the operative cutoff parents experience is one minute." },
+      { type: "p", text: "The PDF has the peer chart, the three BoardDocs attachments, VSBA’s typical 2–5 band, and the summer 2025 frequency proposals (Donohue once-a-month; LaBell split nights) labeled as proposed—not adopted. Through September 2026 practice the packet’s LCPS cadence row still reads two Tuesdays a month." },
+    ],
+    citations: [
+      { id: "boarddocs-item", label: "LCPS BoardDocs — School Board Retreat item 5.05 Public Comment (Sep 15, 2026)", href: "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DWNNKB6046A6" },
+      { id: "boarddocs-county", label: "Public Comments Comparison by County (reviewed 9/9/26)", href: "https://go.boarddocs.com/vsba/loudoun/Board.nsf/files/DXTHU94A26D7/$file/Public%20Comments%20Comparison%20by%20County%20(3).pdf" },
+      { id: "boarddocs-vsba", label: "VSBA Policy Page — October 2025 (Open Meetings, Fair Voices)", href: "https://go.boarddocs.com/vsba/loudoun/Board.nsf/files/DXTKKD523958/$file/The%20Policy%20Page%20-%20VSBA%20Oct.%202025.pdf" },
+    ],
+    documents: [
+      {
+        id: "pdf",
+        title: "LCPS Public Comment and Speaker Time (PDF)",
+        href: "/files/investigations/lcps-public-comment-speaker-time.pdf",
+        kind: "pdf",
+      },
+    ],
+  },
+  {
     slug: "why-loudoun-republicans-lost-2023-win-2027",
     kind: "investigation",
     title: "Why Loudoun Republicans Lost in 2023 and How They Win Seats in 2027",
