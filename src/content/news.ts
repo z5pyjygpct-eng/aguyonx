@@ -47,6 +47,86 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "democrats-senate-2027-virginia-scope-2026-09-10",
+    date: "2026-09-10",
+    filed: "2026-09-11",
+    headline: "Democrats look to expand their majority in the state Senate",
+    outlet: "Virginia Scope",
+    url: "https://www.virginiascope.com/democrats-look-to-expand-their-majority-in-the-state-senate/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "morrissey-taylor-ad-virginia-scope-2026-09-10",
+    date: "2026-09-10",
+    filed: "2026-09-11",
+    headline:
+      "Joe Morrissey responds to Shannon Taylor ad, accuses her of trying to preempt criticism",
+    outlet: "Virginia Scope",
+    url: "https://www.virginiascope.com/joe-morrissey-responds-to-shannon-taylor-ad-accuses-her-of-trying-to-preempt-criticism/",
+    people: [],
+    scope: "statewide",
+  },
+  {
+    id: "greene-sheriff-jones-investigation-cbs19-2026-09-10",
+    date: "2026-09-10",
+    filed: "2026-09-11",
+    headline: "Greene County sheriff pushes back against immigration investigation",
+    outlet: "CBS19",
+    url: "https://www.cbs19news.com/news/greene-county-sheriff-pushes-back-against-immigration-investigation/article_774f4fa7-5d8b-44a0-a61f-281570cf35a7.html",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "data-center-backlash-midterms-axios-2026-09-09",
+    date: "2026-09-09",
+    filed: "2026-09-11",
+    headline: "Virginia's data center backlash spills into midterms and 2027",
+    outlet: "Axios Richmond",
+    url: "https://www.axios.com/local/richmond/2026/09/09/virginia-data-centers-midterm-election-2026",
+    people: [{ name: "Mark Warner", office: "U.S. Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "taylor-morrissey-prosecutor-ad-wapo-2026-09-08",
+    date: "2026-09-08",
+    filed: "2026-09-11",
+    headline:
+      "This House candidate wants you to know she helped imprison a fellow Democrat",
+    outlet: "The Washington Post",
+    url: "https://www.washingtonpost.com/politics/2026/09/08/democrat-shannon-taylor-touts-prosecutor-past-battleground-house-race/",
+    people: [],
+    scope: "statewide",
+  },
+  {
+    id: "manassas-bond-ashworth-pwt-2026-09-08",
+    date: "2026-09-08",
+    filed: "2026-09-11",
+    headline:
+      "Alleged First Friday gunman was out on bond, wanted for arrest when teen was fatally shot",
+    outlet: "Prince William Times",
+    url: "https://www.princewilliamtimes.com/localnews/alleged-first-friday-gunman-was-out-on-bond-wanted-for-arrest-when-teen-was-fatally/article_61ceb4ab-4bad-4b13-b8ec-a70be88645dd.html",
+    people: [
+      { name: "Amy Ashworth", office: "Prince William Commonwealth's Attorney" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "ice-detainer-loudoun-overdose-wjla-2026-09-08",
+    date: "2026-09-08",
+    filed: "2026-09-11",
+    headline:
+      "ICE issues detainer against illegal immigrant linked to Virginia high school overdoses",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/ice-agents-detainer-illegal-immigrant-virginia-high-school-overdose-loudoun-county-governor-spanberger-jay-jones-steve-descano-department-of-justice-doj-masks",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Jay Jones", office: "Attorney General" },
+      { name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" },
+    ],
+    scope: "statewide",
+  },
+  {
     id: "vdoe-911-video-restoration-news-2026-09-02",
     date: "2026-09-02",
     filed: "2026-09-10",
@@ -56,7 +136,7 @@ export const NEWS: NewsItem[] = [
     url: "https://restoration-news.com/the-public-school-rewrite-of-9-11-the-hijackers-weren-t-terrorists",
     people: [{ name: "Abigail Spanberger", office: "Governor" }],
     scope: "statewide",
-    commentary: true,
+    advocacy: true,
   },
   {
     id: "arnoldi-hitler-retweet-arlnow-2026-09-09",
