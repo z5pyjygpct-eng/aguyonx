@@ -47,6 +47,18 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "vdoe-911-video-restoration-news-2026-09-02",
+    date: "2026-09-02",
+    filed: "2026-09-10",
+    headline:
+      "The Public School Rewrite of 9/11: The Hijackers Weren't Terrorists",
+    outlet: "Restoration News",
+    url: "https://restoration-news.com/the-public-school-rewrite-of-9-11-the-hijackers-weren-t-terrorists",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+    commentary: true,
+  },
+  {
     id: "arnoldi-hitler-retweet-arlnow-2026-09-09",
     date: "2026-09-09",
     filed: "2026-09-10",
