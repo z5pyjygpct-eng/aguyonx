@@ -123,14 +123,16 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
           aria-label="Home videos"
           className="border-b border-border bg-background px-4 pb-8 pt-5 sm:px-6 sm:pb-10 sm:pt-6"
         >
-          <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-2 lg:gap-6">
-            <div className="text-center">
-              <h2 className="font-sans text-2xl font-semibold tracking-tight text-night sm:text-3xl">
-                “Find the Moment”
-              </h2>
-              <p className="mt-2 font-sans text-sm text-night/75 sm:text-base">
-                Search what was said in the video. Jump to the video.
-              </p>
+          <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-2 lg:items-start lg:gap-6">
+            <div className="flex h-full flex-col text-center">
+              <div className="min-h-[5.5rem] sm:min-h-[6.5rem]">
+                <h2 className="font-sans text-2xl font-semibold tracking-tight text-night sm:text-3xl">
+                  “Find the Moment”
+                </h2>
+                <p className="mt-2 font-sans text-sm text-night/75 sm:text-base">
+                  Search what was said in the video. Jump to the video.
+                </p>
+              </div>
 
               <div className="mt-5 overflow-hidden rounded-md bg-[#0d4f6b] shadow-sm outline outline-1 outline-night/10">
                 <video
@@ -138,7 +140,7 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
                   controls
                   playsInline
                   preload="metadata"
-                  poster="/images/va-change-hero.png"
+                  poster="/images/ftm-demo-poster.jpg"
                 >
                   <source src="/videos/find-the-moment-demo.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
@@ -172,14 +174,16 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
               </p>
             </div>
 
-            <div className="text-center">
-              <h2 className="font-sans text-2xl font-semibold tracking-tight text-night sm:text-3xl">
-                Virginia Public School Rewrite of 9/11: The Hijackers Weren&apos;t
-                Terrorists
-              </h2>
-              <p className="mt-2 font-sans text-sm text-night/75 sm:text-base">
-                by: Virginia Democrats
-              </p>
+            <div className="flex h-full flex-col text-center">
+              <div className="min-h-[5.5rem] sm:min-h-[6.5rem]">
+                <h2 className="font-sans text-2xl font-semibold tracking-tight text-night sm:text-3xl">
+                  Virginia Public School Rewrite of 9/11: The Hijackers
+                  Weren&apos;t Terrorists
+                </h2>
+                <p className="mt-2 font-sans text-sm text-night/75 sm:text-base">
+                  by: Virginia Democrats
+                </p>
+              </div>
 
               <div className="mt-5 overflow-hidden rounded-md bg-night shadow-sm outline outline-1 outline-night/10">
                 <video
@@ -187,13 +191,14 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
                   controls
                   playsInline
                   preload="metadata"
+                  poster="/images/vdoe-911-rewrite-poster.jpg"
                 >
                   <source src="/videos/vdoe-911-rewrite-proof.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
 
-              <p className="mt-4 font-sans text-sm text-night/65">
+              <p className="mt-5 font-sans text-sm text-night/65">
                 Proof cuts from the VDOE teacher training webinar.{" "}
                 <a
                   href="https://restoration-news.com/the-public-school-rewrite-of-9-11-the-hijackers-weren-t-terrorists"
