@@ -20,6 +20,7 @@ import { Route as InvestigationsRouteImport } from './routes/investigations'
 import { Route as LibraryRouteImport } from './routes/library'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as SenatorsRouteImport } from './routes/senators'
+import { Route as VideosRouteImport } from './routes/videos'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
 import { Route as CountiesIndexRouteImport } from './routes/counties.index'
@@ -85,6 +86,11 @@ const NewsRoute = NewsRouteImport.update({
 const SenatorsRoute = SenatorsRouteImport.update({
   id: '/senators',
   path: '/senators',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VideosRoute = VideosRouteImport.update({
+  id: '/videos',
+  path: '/videos',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ArticlesIndexRoute = ArticlesIndexRouteImport.update({
@@ -156,6 +162,7 @@ export interface FileRoutesByFullPath {
   '/library': typeof LibraryRouteWithChildren
   '/news': typeof NewsRoute
   '/senators': typeof SenatorsRoute
+  '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
@@ -176,6 +183,7 @@ export interface FileRoutesByTo {
   '/delegates': typeof DelegatesRoute
   '/news': typeof NewsRoute
   '/senators': typeof SenatorsRoute
+  '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
@@ -200,6 +208,7 @@ export interface FileRoutesById {
   '/library': typeof LibraryRouteWithChildren
   '/news': typeof NewsRoute
   '/senators': typeof SenatorsRoute
+  '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
@@ -226,6 +235,7 @@ export interface FileRouteTypes {
     | '/library'
     | '/news'
     | '/senators'
+    | '/videos'
     | '/articles/$slug'
     | '/counties/loudoun'
     | '/investigations/$slug'
@@ -246,6 +256,7 @@ export interface FileRouteTypes {
     | '/delegates'
     | '/news'
     | '/senators'
+    | '/videos'
     | '/articles/$slug'
     | '/investigations/$slug'
     | '/library/foia'
@@ -269,6 +280,7 @@ export interface FileRouteTypes {
     | '/library'
     | '/news'
     | '/senators'
+    | '/videos'
     | '/articles/$slug'
     | '/counties/loudoun'
     | '/investigations/$slug'
@@ -294,6 +306,7 @@ export interface RootRouteChildren {
   LibraryRoute: typeof LibraryRouteWithChildren
   NewsRoute: typeof NewsRoute
   SenatorsRoute: typeof SenatorsRoute
+  VideosRoute: typeof VideosRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -373,6 +386,13 @@ declare module '@tanstack/react-router' {
       path: '/senators'
       fullPath: '/senators'
       preLoaderRoute: typeof SenatorsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/videos': {
+      id: '/videos'
+      path: '/videos'
+      fullPath: '/videos'
+      preLoaderRoute: typeof VideosRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/articles/': {
@@ -538,16 +558,8 @@ const rootRouteChildren: RootRouteChildren = {
   LibraryRoute: LibraryRouteWithChildren,
   NewsRoute: NewsRoute,
   SenatorsRoute: SenatorsRoute,
+  VideosRoute: VideosRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { createStart } from '@tanstack/react-start'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-  }
-}

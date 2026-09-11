@@ -7,6 +7,7 @@ const SHELVES = [
   { to: "/about" as const, label: "About" },
   { to: "/contact" as const, label: "Contact" },
   { to: "/investigations" as const, label: "Investigations" },
+  { to: "/videos" as const, label: "Videos" },
   { to: "/articles" as const, label: "Articles" },
   { to: "/library" as const, label: "Library" },
 ];
@@ -214,6 +215,13 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
                   className="text-[#0d7377] underline-offset-2 hover:underline"
                 >
                   News shelf
+                </Link>
+                {" · "}
+                <Link
+                  to="/videos"
+                  className="text-[#0d7377] underline-offset-2 hover:underline"
+                >
+                  Videos
                 </Link>
               </p>
             </div>
