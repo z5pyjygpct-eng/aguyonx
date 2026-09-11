@@ -273,7 +273,7 @@ export function LoudounCrossMeetingSearch() {
       </h2>
       <p className="mt-2 text-sm text-muted-foreground">
         One box across {LOUDOUN_MEETINGS.length} Board of Supervisors meetings and{" "}
-        {LCPS_MEETINGS.length} School Board meetings — captions → jump the video.
+        {LCPS_MEETINGS.length} School Board meetings (incl. committees) — captions → jump the video.
       </p>
       <p className="mt-2 text-sm text-muted-foreground">
         This is the kind of coverage funded work unlocks at scale.

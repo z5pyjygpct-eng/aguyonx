@@ -87,6 +87,8 @@ export function LcpsMeetingSearch() {
   const [q, setQ] = useState("");
   const [submitted, setSubmitted] = useState("");
   const [meetingFilter, setMeetingFilter] = useState<string | "all">("all");
+  /** All | Full board | Committees | Closed/appeals — default All so committees stay searchable. */
+  const [kindFilter, setKindFilter] = useState<"all" | "full_board" | "committee" | "closed_appeals">("all");
   const [cacheTick, setCacheTick] = useState(0);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
@@ -130,11 +132,27 @@ export function LcpsMeetingSearch() {
     return promise;
   }, []);
 
+  const kindFilteredMeetings = useMemo(() => {
+    if (kindFilter === "all") return LCPS_MEETINGS;
+    if (kindFilter === "full_board") {
+      return LCPS_MEETINGS.filter((m) => (m.kind ?? "full_board") === "full_board");
+    }
+    if (kindFilter === "committee") {
+      return LCPS_MEETINGS.filter(
+        (m) => m.kind === "committee" || m.kind === "other",
+      );
+    }
+    // closed + appeals
+    return LCPS_MEETINGS.filter((m) => m.kind === "closed" || m.kind === "appeals");
+  }, [kindFilter]);
+
   const meetingsToLoad = useMemo(() => {
-    if (meetingFilter === "all") return LCPS_MEETINGS;
+    if (meetingFilter === "all") return kindFilteredMeetings;
     const one = LCPS_MEETING_BY_VIMEO[meetingFilter];
-    return one ? [one] : [];
-  }, [meetingFilter]);
+    if (!one) return [];
+    if (!kindFilteredMeetings.some((m) => m.vimeoId === one.vimeoId)) return [];
+    return [one];
+  }, [meetingFilter, kindFilteredMeetings]);
 
   const query = submitted.trim();
 
@@ -206,8 +224,8 @@ export function LcpsMeetingSearch() {
         Find the Moment — Loudoun School Board
       </h2>
       <p className="mt-2 text-sm text-muted-foreground">
-        Search captions → jump the video · {LCPS_MEETINGS.length} School Board meetings indexed
-        (2025–2026 YTD)
+        Search captions → jump the video · {LCPS_MEETINGS.length} meetings indexed
+        (full board + committees + closed/appeals · 2025–2026 YTD)
       </p>
 
       <aside className="mt-5 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">
@@ -252,6 +270,36 @@ export function LcpsMeetingSearch() {
 
       <div className="mt-4 flex flex-col gap-3">
         <div className="flex flex-wrap items-center gap-2">
+          <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+            Show
+          </span>
+          {(
+            [
+              ["all", "All"],
+              ["full_board", "Full board"],
+              ["committee", "Committees"],
+              ["closed_appeals", "Closed/appeals"],
+            ] as const
+          ).map(([value, label]) => (
+            <button
+              key={value}
+              type="button"
+              onClick={() => {
+                setKindFilter(value);
+                setMeetingFilter("all");
+              }}
+              className={cn(
+                "rounded-full border border-border bg-wash px-3 py-1.5 font-sans text-xs font-medium text-foreground transition-[background-color,border-color,color] hover:border-[#1E4B8E] hover:bg-[#e8eef6] hover:text-[#1E4B8E]",
+                kindFilter === value &&
+                  "border-[#1E4B8E] bg-[#e8eef6] text-[#1E4B8E]",
+              )}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2">
           <label
             htmlFor="lcps-meeting-filter"
             className="font-mono text-xs tracking-widest text-muted-foreground uppercase"
@@ -267,8 +315,8 @@ export function LcpsMeetingSearch() {
             }}
             className="h-9 max-w-full rounded-md border border-input bg-paper px-3 font-sans text-sm text-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
           >
-            <option value="all">All indexed meetings</option>
-            {LCPS_MEETINGS.map((m) => (
+            <option value="all">All in this view ({kindFilteredMeetings.length})</option>
+            {kindFilteredMeetings.map((m) => (
               <option key={m.vimeoId} value={m.vimeoId}>
                 {m.dateLabel} · {m.title}
               </option>
@@ -341,7 +389,10 @@ export function LcpsMeetingSearch() {
                     </p>
                     {meeting ? (
                       <p className="mt-0.5 text-xs text-muted-foreground">
-                        {meeting.dateLabel} · {meeting.title}
+                        {meeting.dateLabel} · {meeting.committeeName || meeting.title}
+                        {meeting.kind && meeting.kind !== "full_board"
+                          ? ` · ${meeting.kind}`
+                          : ""}
                       </p>
                     ) : (
                       <p className="mt-0.5 text-xs text-muted-foreground">Vimeo {w.vimeoId}</p>
