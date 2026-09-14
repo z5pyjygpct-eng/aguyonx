@@ -46,6 +46,128 @@ export function peopleSearchText(people: NewsPerson[]): string {
 
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
+
+  {
+    id: "scc-nextera-inperson-hearings-vpm-2026-09-11",
+    date: "2026-09-11",
+    filed: "2026-09-13",
+    headline: "State regulators add in-person hearings in Dominion–NextEra merger",
+    outlet: "VPM",
+    url: "https://www.vpm.org/news/2026-09-11/dominion-nextera-merger-scc-public-hearings-towell-energy-regulation/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "alexandria-flock-gaskins-wtop-2026-09-11",
+    date: "2026-09-11",
+    filed: "2026-09-13",
+    headline: "Alexandria mayor: No ‘role for Flock in this community’",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/alexandria-mayor-no-role-for-flock-in-this-community/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "pentagon-visitor-center-arlnow-2026-09-12",
+    date: "2026-09-12",
+    filed: "2026-09-13",
+    headline: "Pentagon 9/11 memorial breaking ground on its first visitor center",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/12/pentagon-9-11-memorial-breaking-ground-on-its-first-visitor-center/",
+    people: [{ name: "Mark Warner", office: "U.S. Senator" }],
+    scope: "local",
+  },
+  {
+    id: "mwcog-data-centers-ghg-ffxnow-2026-09-10",
+    date: "2026-09-10",
+    filed: "2026-09-13",
+    headline:
+      "Data centers hurting efforts to curtail greenhouse gas emissions, D.C. region leaders told",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/10/data-centers-hurting-efforts-to-curtail-greenhouse-gas-emissions-d-c-region-leaders-told/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "spanberger-paid-leave-manassas-gov-2026-09-10",
+    date: "2026-09-10",
+    filed: "2026-09-13",
+    headline:
+      "Governor Spanberger Celebrates Landmark Paid Family & Medical Leave, Paid Sick Leave Laws at Worker Roundtable in Manassas",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123394-en.html",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Jennifer Boysko", office: "State Senator" },
+      { name: "Briana Sewell", office: "State Delegate" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "arlington-ice-thrive-grants-arlnow-2026-09-08",
+    date: "2026-09-08",
+    filed: "2026-09-13",
+    headline:
+      "Families of wage earners detained by ICE to receive up to $2K from Arlington County",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/08/families-of-wage-earners-detained-by-ice-to-receive-up-to-2k-from-arlington-county/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "lopez-tps-salvadoran-arlnow-2026-09-11",
+    date: "2026-09-11",
+    filed: "2026-09-13",
+    headline:
+      "Del. Lopez ‘incredibly grateful’ as protections for Salvadoran immigrants hold fast",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/11/del-lopez-incredibly-grateful-as-protections-for-salvadoran-immigrants-hold-fast/",
+    people: [{ name: "Alfonso Lopez", office: "State Delegate" }],
+    scope: "local",
+  },
+  {
+    id: "va08-ai-data-centers-debate-ffxnow-2026-09-11",
+    date: "2026-09-11",
+    filed: "2026-09-13",
+    headline:
+      "Candidates for Virginia’s 8th District offer mixed views on tackling AI, data centers",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/11/candidates-for-virginias-8th-district-offer-mixed-views-on-tackling-ai-data-centers/",
+    people: [{ name: "Don Beyer", office: "U.S. Representative" }],
+    scope: "local",
+  },
+  {
+    id: "lorton-usar-fire-arrests-ffxnow-2026-09-11",
+    date: "2026-09-11",
+    filed: "2026-09-13",
+    headline:
+      "Investigation of $1M fire at Fairfax search and rescue training facility leads to arrests",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/11/investigation-of-1m-fire-at-fairfax-search-and-rescue-training-facility-leads-to-arrests/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "early-voting-nov2026-elect-2026-09-11",
+    date: "2026-09-11",
+    filed: "2026-09-13",
+    headline: "Early voting for 2026 November General Election begins Sept. 18",
+    outlet: "Virginia Dept. of Elections",
+    url: "https://www.elections.virginia.gov/news-releases/name-34420-en.html",
+    people: [],
+    scope: "statewide",
+  },
+  {
+    id: "fairfax-budget-austerity-ffxnow-2026-09-08",
+    date: "2026-09-08",
+    filed: "2026-09-13",
+    headline:
+      "Fairfax County leaders expect more ‘trying times’ as new budget discussion kicks off",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/08/fairfax-county-leaders-expect-trying-times-to-continue-as-new-budget-discussion-kicks-off/",
+    people: [],
+    scope: "local",
+  },
   {
     id: "democrats-senate-2027-virginia-scope-2026-09-10",
     date: "2026-09-10",
