@@ -48,6 +48,39 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "fairfax-crossing-guards-examiner-2026-09-14",
+    date: "2026-09-14",
+    headline:
+      "String of students struck by cars, including one fatality, reignites outrage over Fairfax County’s removal of crossing guards",
+    outlet: "Washington Examiner",
+    url: "https://www.washingtonexaminer.com/policy/education/4724542/students-struck-by-cars-outrage-fairfax-county-removal-crossing-guards/",
+    people: [{ name: "Jeff McKay", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "saines-flock-chapman-loudounnow-2026-09-13",
+    date: "2026-09-13",
+    filed: "2026-09-14",
+    headline:
+      "Saines Seeks Data on Flock Cameras After Chapman Declines Invitation to Discuss Usage",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/saines-seeks-data-on-flock-cameras-after-chapman-declines-invitation-to-discuss-usage/article_65457e55-2944-4688-9368-fd177759c9f3.html",
+    people: [{ name: "Koran Saines", office: "Loudoun Supervisor" }],
+    scope: "local",
+  },
+  {
+    id: "subramanyam-verizon-copper-insidenova-2026-09-13",
+    date: "2026-09-13",
+    filed: "2026-09-14",
+    headline:
+      "Congressman, local leaders push back against Verizon copper service landline discontinuation",
+    outlet: "InsideNoVA",
+    url: "https://www.insidenova.com/headlines/congressman-local-leaders-push-back-against-verizon-copper-service-landline-discontinuation/article_4a39da4a-7fba-4403-90b0-b5461fd85be8.html",
+    people: [{ name: "Suhas Subramanyam", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+
+  {
     id: "loudoun-data-center-pause-mercury-2026-09-14",
     date: "2026-09-14",
     headline: "Loudoun to consider data center pause, removing by-right grandfather clause",
