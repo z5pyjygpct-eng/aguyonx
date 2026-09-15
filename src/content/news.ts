@@ -48,6 +48,19 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "kaine-warner-dca-airport-mercury-2026-09-15",
+    date: "2026-09-15",
+    headline:
+      "Va.'s US Sens. Kaine, Warner introduce bill to curb overcrowding at Reagan National Airport",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/15/va-s-us-sens-kaine-warner-introduce-bill-to-curb-overcrowding-at-reagan-national-airport/",
+    people: [
+      { name: "Tim Kaine", office: "U.S. Senator" },
+      { name: "Mark Warner", office: "U.S. Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
     id: "tps-lcps-arcola-ltm-2026-09-15",
     date: "2026-09-15",
     headline:
@@ -59,6 +72,31 @@ export const NEWS: NewsItem[] = [
       { name: "Koran Saines", office: "Loudoun Supervisor" },
     ],
     scope: "local",
+  },
+  {
+    id: "spanberger-trans-rulemaking-wvtf-2026-09-14",
+    date: "2026-09-14",
+    filed: "2026-09-15",
+    headline:
+      "Spanberger quietly kills Youngkin-era transgender rulemaking effort",
+    outlet: "WVTF / Radio IQ",
+    url: "https://www.wvtf.org/news/2026-09-14/spanberger-quietly-kills-youngkin-era-transgender-rulemaking-effort",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Jay Jones", office: "Attorney General" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-parole-board-wjla-2026-09-14",
+    date: "2026-09-14",
+    filed: "2026-09-15",
+    headline:
+      "Spanberger's parole board grants significantly more requests than Youngkin's",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/spanbergers-parole-board-grants-significantly-more-requests-than-youngkins",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
   },
   {
     id: "dominion-nextera-va-benefits-ffxnow-2026-09-14",
