@@ -48,6 +48,77 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "tps-lcps-arcola-ltm-2026-09-15",
+    date: "2026-09-15",
+    headline:
+      "What uncertainty around TPS could mean for some immigrants in Loudoun and DMV",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/community/what-uncertainty-around-tps-could-mean-for-some-immigrants-in-loudoun-and-dmv/article_3b26fce8-1d33-472d-b0b3-3e8fe68bf441.html",
+    people: [
+      { name: "Suhas Subramanyam", office: "U.S. Representative" },
+      { name: "Koran Saines", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "dominion-nextera-va-benefits-ffxnow-2026-09-14",
+    date: "2026-09-14",
+    filed: "2026-09-15",
+    headline:
+      "Dominion and NextEra seek to win Va. support for merger with plan for new jobs, bill credits",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/14/dominion-and-nextera-seek-to-win-va-support-for-merger-with-plan-for-new-jobs-bill-credits/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Don Scott", office: "State Delegate" },
+      { name: "Scott Surovell", office: "State Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "fairfax-crossing-guards-restore-ffxnow-2026-09-14",
+    date: "2026-09-14",
+    filed: "2026-09-15",
+    headline:
+      "Fairfax County proposes high school crossing guard funding, safety improvements",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/14/new-fairfax-county-proposes-high-school-crossing-guard-funding-safety-improvements/",
+    people: [{ name: "Walter Alcorn", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "lcps-lgbtq-history-proclamation-ltm-2026-09-14",
+    date: "2026-09-14",
+    filed: "2026-09-15",
+    headline: "After debate, School Board approves LGBTQ+ history proclamation",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/education/after-debate-school-board-approves-lgbtq-history-proclamation/article_665ac029-5793-4211-857e-ed4d8d071a5f.html",
+    people: [{ name: "April Chandler", office: "Loudoun official" }],
+    scope: "local",
+  },
+  {
+    id: "lcps-14m-state-funds-ltm-2026-09-14",
+    date: "2026-09-14",
+    filed: "2026-09-15",
+    headline: "LCPS hopes to spend additional $14M in state funds",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/education/lcps-hopes-to-spend-additional-14m-in-state-funds/article_d4725140-531e-4f30-adf1-74f4b455cfe0.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "fcps-fy2028-budget-ffxnow-2026-09-14",
+    date: "2026-09-14",
+    filed: "2026-09-15",
+    headline:
+      "FCPS officials warn funding cuts likely needed with difficult budgetary year ahead",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/14/fcps-officials-warn-funding-cuts-likely-needed-with-difficult-budgetary-year-ahead/",
+    people: [{ name: "Michelle Reid", office: "Fairfax official" }],
+    scope: "local",
+  },
+
+  {
     id: "fairfax-crossing-guards-examiner-2026-09-14",
     date: "2026-09-14",
     headline:
