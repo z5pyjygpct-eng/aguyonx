@@ -48,6 +48,54 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "fairfax-flock-pause-fox5-2026-09-15",
+    date: "2026-09-15",
+    filed: "2026-09-16",
+    headline:
+      "Flock cameras paused for review in Fairfax County due to privacy, access concerns",
+    outlet: "FOX 5 DC",
+    url: "https://www.fox5dc.com/news/flock-cameras-paused-review-fairfax-county-due-privacy-access-concerns",
+    people: [{ name: "Jeff McKay", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "voting-disqualification-guidance-mercury-2026-09-15",
+    date: "2026-09-15",
+    filed: "2026-09-16",
+    headline:
+      "New guidance limits voting disqualifications to murder, manslaughter convictions",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/15/new-guidance-limits-voting-disqualifications-to-murder-manslaughter-convictions/",
+    people: [
+      { name: "Jay Jones", office: "Attorney General" },
+      { name: "Abigail Spanberger", office: "Governor" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "fairfax-crossing-guards-vote-ffxnow-2026-09-15",
+    date: "2026-09-15",
+    filed: "2026-09-16",
+    headline:
+      "UPDATED: Fairfax supervisors restore crossing guard funding after residents rally for action",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/15/fairfax-supervisors-expected-to-restore-crossing-guard-funding-as-residents-rally-for-action/",
+    people: [{ name: "Jeff McKay", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "descano-house-subpoena-wtop-2026-09-15",
+    date: "2026-09-15",
+    filed: "2026-09-16",
+    headline:
+      "Lawyers for Fairfax County prosecutor Steve Descano say House committee plans subpoena, expanding inquiry",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/lawyers-for-fairfax-county-prosecutor-steve-descano-say-house-committee-plans-subpoena-expanding-inquiry/",
+    people: [{ name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" }],
+    scope: "local",
+  },
+
+  {
     id: "kaine-warner-dca-airport-mercury-2026-09-15",
     date: "2026-09-15",
     headline:
