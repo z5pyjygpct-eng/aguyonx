@@ -48,6 +48,76 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "arlington-flock-cameras-end-arlnow-2026-09-15",
+    date: "2026-09-15",
+    filed: "2026-09-16",
+    headline:
+      "BREAKING: County Board votes to end Arlington's use of Flock cameras",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/15/breaking-county-board-votes-to-end-arlingtons-use-of-flock-cameras/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "loudoun-data-center-pause-vote-nbc-2026-09-15",
+    date: "2026-09-15",
+    filed: "2026-09-16",
+    headline: "Loudoun County board pauses data center applications",
+    outlet: "NBC Washington",
+    url: "https://www.nbcwashington.com/news/local/northern-virginia/loudoun-county-board-pauses-data-center-applications/4155005/",
+    people: [
+      { name: "Kristen Umstattd", office: "Loudoun Supervisor" },
+      { name: "Caleb Kershner", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "deq-microsoft-leesburg-2-5m-loudounnow-2026-09-15",
+    date: "2026-09-15",
+    filed: "2026-09-16",
+    headline:
+      "DEQ Requires Microsoft to Pay $2.5M for Leesburg Data Center Air Pollution",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/deq-requires-microsoft-to-pay-2-5m-for-leesburg-data-center-air-pollution/article_1ea7d005-5c94-43d8-95ec-0cf060e13cbe.html",
+    people: [{ name: "Koran Saines", office: "Loudoun Supervisor" }],
+    scope: "local",
+  },
+  {
+    id: "loudoun-ice-cooperation-exchange-loudounnow-2026-09-15",
+    date: "2026-09-15",
+    filed: "2026-09-16",
+    headline: "Supervisors, Sheriff Continue Exchange Over ICE Cooperation",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/supervisors-sheriff-continue-exchange-over-ice-cooperation/article_746f7e8a-28c8-4fd0-940a-ca4c7b58a325.html",
+    people: [
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+      { name: "Mike Chapman", office: "Loudoun official" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "lcps-budget-retreat-enrollment-ltm-2026-09-16",
+    date: "2026-09-16",
+    headline:
+      "School Board budget retreat focused on lack of enrollment, money and time",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/education/school-board-budget-retreat-focused-on-lack-of-enrollment-money-and-time/article_df03e16f-e926-4465-9c27-0b9c909c9bd9.html",
+    people: [{ name: "Jonathan Pepper", office: "Loudoun official" }],
+    scope: "local",
+  },
+  {
+    id: "manassas-first-friday-pause-wtop-2026-09-14",
+    date: "2026-09-14",
+    filed: "2026-09-16",
+    headline:
+      "Manassas pauses October 'First Friday' festival after teen's shooting death",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/manassas-pauses-october-first-friday-festival-after-teens-sept-4-shooting-death/",
+    people: [],
+    scope: "local",
+  },
+
+  {
     id: "fairfax-flock-pause-fox5-2026-09-15",
     date: "2026-09-15",
     filed: "2026-09-16",
