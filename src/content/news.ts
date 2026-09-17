@@ -48,6 +48,40 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "fairfax-flock-suspend-ffxnow-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-17",
+    headline:
+      "Fairfax County board suspends Flock camera installations, as criticism grows in N. Va.",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/16/fairfax-county-board-suspends-flock-camera-installations-as-criticism-grows-in-n-va/",
+    people: [{ name: "Jeff McKay", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "aps-integration-station-phaseout-arlnow-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-17",
+    headline:
+      "APS announces plans to end Integration Station early-childhood program",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/16/aps-announces-plans-to-end-integration-station-early-childhood-program/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "loudoun-arson-crime-scene-neighbors-wtop-2026-09-14",
+    date: "2026-09-14",
+    filed: "2026-09-17",
+    headline:
+      "‘We’re tired of waiting’: Neighbors push to remove Loudoun County crime scene nearly one year after deadly arson",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/were-tired-of-waiting-neighbors-push-to-remove-loudoun-county-crime-scene-nearly-one-year-after-deadly-arson/",
+    people: [{ name: "Juli Briskman", office: "Loudoun Supervisor" }],
+    scope: "local",
+  },
+
+  {
     id: "spanberger-drought-emergency-mercury-2026-09-16",
     date: "2026-09-16",
     filed: "2026-09-17",
