@@ -67,6 +67,19 @@ const BOARDDOCS_PUBLIC =
 /** School Board meetings + committees/closed/appeals — CY2025 + 2026 YTD (lean lazy-load). */
 export const LCPS_MEETINGS: LcpsMeeting[] = [
   {
+    id: "2026-09-15-1227257661",
+    vimeoId: "1227257661",
+    title: "School Board Retreat",
+    dateLabel: "Sep 15, 2026",
+    duration: "5h 53m",
+    playerUrl: "https://player.vimeo.com/video/1227257661?rel=0",
+    boardDocsUrl: BOARDDOCS_PUBLIC,
+    lcpsTvUrl: LCPS_TV,
+    windowsUrl: "/files/find-the-moment/loudoun-lcps/1227257661.json",
+    windowCount: 658,
+    kind: "full_board",
+  },
+  {
     id: "2026-09-09-1225362123",
     vimeoId: "1225362123",
     title: "Legislative and Policy Committee Meeting",
