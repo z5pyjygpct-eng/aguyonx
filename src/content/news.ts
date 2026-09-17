@@ -48,6 +48,103 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "spanberger-drought-emergency-mercury-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-17",
+    headline:
+      "Spanberger declares state of emergency as drought strains Virginia farmers",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/16/spanberger-declares-state-of-emergency-as-drought-strains-virginia-farmers/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-fair-firearms-unit-centersquare-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-17",
+    headline:
+      "Virginia attorney general launches unit to enforce firearm industry law",
+    outlet: "The Center Square",
+    url: "https://www.thecentersquare.com/virginia/article_2702445c-6756-47da-83c5-f0d0e85cc895.html",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "warner-subramanyam-data-center-bills-mercury-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-17",
+    headline: "Virginia's federal lawmakers lock in on regulating data centers",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/16/virginias-federal-lawmakers-lock-in-on-regulating-data-centers/",
+    people: [
+      { name: "Mark Warner", office: "U.S. Senator" },
+      { name: "Suhas Subramanyam", office: "U.S. Representative" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "loudoun-valley-north-power-line-loudounnow-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-17",
+    headline:
+      "Loudoun Supervisors Approve Resolution Opposing Valley North Power Line",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/loudoun-supervisors-approve-resolution-opposing-valley-north-power-line/article_0c9245c4-c82e-453f-b2a3-c7faed9a662f.html",
+    people: [
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+      { name: "Kristen Umstattd", office: "Loudoun Supervisor" },
+      { name: "Michael Turner", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "loudoun-dulles-substation-deny-loudounnow-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-17",
+    headline: "Supervisors Deny Plan for Dulles Area Substation",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/supervisors-deny-plan-for-dulles-area-substation/article_dd2c26fb-282c-4732-8b51-b89f57ba8ce0.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "loudoun-ice-letter-endorse-ltm-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-17",
+    headline:
+      "Board formally endorses letter to Chapman on ICE notification policy",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/continuing_coverage/board-formally-endorses-letter-to-chapman-on-ice-notification-policy/article_a1bd711c-b5d0-4056-a143-3b74fae49828.html",
+    people: [
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+      { name: "Mike Chapman", office: "Loudoun official" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "fairfax-mckay-governance-advice-ffxnow-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-17",
+    headline:
+      "Fairfax chairman advises neighbor locality to think carefully about governance changes",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/16/fairfax-chairman-advises-neighbor-locality-to-think-carefully-about-governance-changes/",
+    people: [{ name: "Jeff McKay", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "fairfax-criminal-properties-ordinance-ffxnow-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-17",
+    headline:
+      "Fairfax County authorizes police to cite properties with recurring criminal activity",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/16/fairfax-county-authorizes-police-to-crack-down-on-properties-with-recurring-criminal-activity/",
+    people: [{ name: "Daniel Storck", office: "Fairfax official" }],
+    scope: "local",
+  },
+
+  {
     id: "arlington-flock-cameras-end-arlnow-2026-09-15",
     date: "2026-09-15",
     filed: "2026-09-16",
