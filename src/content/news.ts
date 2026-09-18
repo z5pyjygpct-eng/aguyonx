@@ -139,6 +139,69 @@ export const NEWS: NewsItem[] = [
     scope: "local",
   },
   {
+    id: "bren-mar-data-center-rally-ffxnow-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-18",
+    headline:
+      "Pro-Trump group to rally against data centers in Bren Mar this afternoon",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/17/pro-trump-group-to-rally-against-data-centers-in-bren-mar-this-afternoon/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "beyer-ai-warning-shot-arlnow-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-18",
+    headline:
+      "Beyer warns Congress 'may not receive another warning shot' on AI",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/17/beyer-warns-congress-may-not-receive-another-warning-shot-on-ai/",
+    people: [{ name: "Don Beyer", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+  {
+    id: "manassas-first-friday-future-insidenova-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-18",
+    headline:
+      "'It's just not a pleasant crowd later': Manassas officials, business owners grapple with future of 'First Friday'",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/news/prince_william/its-just-not-a-pleasant-crowd-later-manassas-officials-business-owners-grapple-with-future-of/article_7ec5aef4-a11a-4cf0-90a3-a18f0c51ff00.html",
+    people: [{ name: "Michelle Davis-Younger", office: "Prince William official" }],
+    scope: "local",
+  },
+  {
+    id: "fairfax-early-voting-ballot-ffxnow-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-18",
+    headline:
+      "What to expect as early voting for the 2026 election kicks off Friday in Fairfax",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/17/what-to-expect-as-early-voting-for-the-2026-election-kicks-off-friday-in-fairfax/",
+    people: [
+      { name: "Suhas Subramanyam", office: "U.S. Representative" },
+      { name: "James Walkinshaw", office: "U.S. Representative" },
+      { name: "Don Beyer", office: "U.S. Representative" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "loudoun-early-voting-ballot-patch-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-18",
+    headline:
+      "Early Voting For 2026 Election Begins: What's On The Loudoun County Ballot",
+    outlet: "Patch (Ashburn)",
+    url: "https://patch.com/virginia/ashburn/early-voting-2026-election-begins-whats-loudoun-county-ballot",
+    people: [
+      { name: "Mark Warner", office: "U.S. Senator" },
+      { name: "Suhas Subramanyam", office: "U.S. Representative" },
+    ],
+    scope: "local",
+  },
+
+  {
     id: "spanberger-pridefest-grace-wetpants-restoration-2026-09-16",
     date: "2026-09-16",
     filed: "2026-09-18",
