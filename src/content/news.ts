@@ -48,6 +48,110 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "spanberger-perriello-rally-nbc29-2026-09-18",
+    date: "2026-09-18",
+    headline:
+      "Gov. Spanberger rallies for Tom Perriello as early voting begins",
+    outlet: "NBC29",
+    url: "https://www.29news.com/2026/09/18/gov-spanberger-rallies-tom-perriello-early-voting-begins/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "James Walkinshaw", office: "U.S. Representative" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-disaster-relief-fund-cardinal-2026-09-18",
+    date: "2026-09-18",
+    headline:
+      "Changes to state disaster relief fund will streamline claims process, increase spending caps for Southwest Virginia flood victims, governor's office says",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/18/changes-to-state-disaster-relief-fund-will-streamline-claims-process-increase-spending-caps-for-southwest-virginia-flood-victims-governors-office-says/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-warner-early-voting-mail-ballot-mercury-2026-09-18",
+    date: "2026-09-18",
+    headline:
+      "Early voting begins in Virginia, as Trump mail-ballot restrictions remain blocked",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/18/early-voting-begins-in-virginia-as-trump-mail-ballot-restrictions-remain-blocked/",
+    people: [
+      { name: "Jay Jones", office: "Attorney General" },
+      { name: "Mark Warner", office: "U.S. Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "mcclellan-murray-qa-vpm-2026-09-18",
+    date: "2026-09-18",
+    headline:
+      "VPM News Q&A: Democrat Jennifer McClellan, Republican Robert Murray",
+    outlet: "VPM",
+    url: "https://www.vpm.org/elections/2026-09-18/va04-mcclellan-murray-candidate-survey/",
+    people: [{ name: "Jennifer McClellan", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-dhs-election-law-arlnow-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-18",
+    headline:
+      "Va. attorney general says DHS may have violated state election law after whistleblower report",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/17/va-attorney-general-says-dhs-may-have-violated-state-election-law-after-whistleblower-report/",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-price-gouging-drought-oag-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-18",
+    headline:
+      "Attorney General Jones Announces Price Gouging Protections in Effect Amid Prolonged and Severe Drought Conditions Across the Commonwealth",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3117-attorney-general-jones-announces-price-gouging-protections-in-effect-amid-prolonged-and-severe-drought-conditions-across-the-commonwealth",
+    people: [
+      { name: "Jay Jones", office: "Attorney General" },
+      { name: "Abigail Spanberger", office: "Governor" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-recreational-pot-regs-wjla-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-18",
+    headline: "Virginia is one step closer to allowing the sale of recreational pot",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/virginia-one-step-closer-allowing-sale-recreational-pot-marijuana-weed-cannabis-dispensaries-shops-legal-commonwealth-abigail-spanberger-democratic-laws-shops",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "reaser-loudoun-license-plate-loudounnow-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-18",
+    headline: "Reaser Launches Loudoun County License Plate Contest",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/reaser-launches-loudoun-county-license-plate-contest/article_bfc050f4-a840-49b9-a771-d1226806a5cf.html",
+    people: [{ name: "Atoosa Reaser", office: "State Delegate" }],
+    scope: "local",
+  },
+  {
+    id: "spanberger-pridefest-grace-wetpants-restoration-2026-09-16",
+    date: "2026-09-16",
+    filed: "2026-09-18",
+    headline: 'Abigail Spanberger Embraces "Grace Wetpants" at Pridefest',
+    outlet: "Restoration News",
+    url: "https://restoration-news.com/abigail-spanberger-embraces-grace-wetpants-at-pridefest",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+    advocacy: true,
+  },
+
+
+  {
     id: "fairfax-flock-suspend-ffxnow-2026-09-16",
     date: "2026-09-16",
     filed: "2026-09-17",
