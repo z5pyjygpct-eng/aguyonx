@@ -3,6 +3,7 @@ export type NewsScope = "statewide" | "local";
 export type NewsOffice =
   | "Governor"
   | "Attorney General"
+  | "Lieutenant Governor"
   | "U.S. Senator"
   | "U.S. Representative"
   | "State Senator"
@@ -46,6 +47,67 @@ export function peopleSearchText(people: NewsPerson[]): string {
 
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
+
+  {
+    id: "vdot-highway-maintenance-shortfall-mercury-2026-09-18",
+    date: "2026-09-18",
+    filed: "2026-09-19",
+    headline:
+      "Virginia confronts $1.7 billion shortfall in highway maintenance funding",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/18/virginia-confronts-1-7-million-shortfall-in-highway-maintenance-funding/",
+    people: [],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-data-center-accountability-eo22-mercury-2026-09-18",
+    date: "2026-09-18",
+    filed: "2026-09-19",
+    headline:
+      "Spanberger presents slate of data center regulation proposals, puts first directives in motion",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/18/spanberger-presents-slate-of-data-center-regulation-proposals-puts-first-directives-in-motion/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "loudoun-pc-route28-data-center-denial-loudountimes-2026-09-18",
+    date: "2026-09-18",
+    filed: "2026-09-19",
+    headline: "Planning Commission recommends data center denial in close vote",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/politics_and_government/levels_of_government/county/planning-commission-recommends-data-center-denial-in-close-vote/article_e1efe97a-9d68-4ef4-987e-82fd3c8a2c7c.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "subramanyam-warner-data-centers-loudountimes-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-19",
+    headline: "Subramanyam, Warner lock in on regulating data centers",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/business_and_economy/subramanyam-warner-lock-in-on-regulating-data-centers/article_71e228ea-9952-4788-88a9-87e0c10181fb.html",
+    people: [
+      { name: "Suhas Subramanyam", office: "U.S. Representative" },
+      { name: "Mark Warner", office: "U.S. Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "hashmi-dominion-nextera-listening-wtop-2026-09-03",
+    date: "2026-09-03",
+    filed: "2026-09-19",
+    headline:
+      "Virginia's Lt. Gov. wants to know what citizens think of proposed power company merger",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/virginias-lt-gov-wants-to-know-what-citizens-think-of-proposed-power-company-merger/",
+    people: [
+      { name: "Ghazala Hashmi", office: "Lieutenant Governor" },
+      { name: "Russet Perry", office: "State Senator" },
+      { name: "Abigail Spanberger", office: "Governor" },
+    ],
+    scope: "statewide",
+  },
 
   {
     id: "spanberger-perriello-rally-nbc29-2026-09-18",
