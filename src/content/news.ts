@@ -49,6 +49,18 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "beyer-trump-arch-military-complex-arlnow-2026-09-20",
+    date: "2026-09-20",
+    filed: "2026-09-21",
+    headline:
+      "JUST IN: Trump says arch would become a 'military complex' able to host drones and snipers",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/20/just-in-trump-says-arch-would-become-a-military-complex-able-to-host-drones-and-snipers/",
+    people: [{ name: "Don Beyer", office: "U.S. Representative" }],
+    scope: "local",
+  },
+
+  {
     id: "wittman-taylor-va01-mercury-2026-09-21",
     date: "2026-09-21",
     headline:
