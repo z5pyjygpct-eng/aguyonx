@@ -49,6 +49,72 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "wittman-taylor-va01-mercury-2026-09-21",
+    date: "2026-09-21",
+    headline:
+      "With US House control hanging in the balance, Wittman faces Taylor in contentious VA-01 race",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/21/with-us-house-control-hanging-in-the-balance-wittman-faces-taylor-in-contentious-va-01-race/",
+    people: [],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-macy-grottoes-dnr-2026-09-20",
+    date: "2026-09-20",
+    filed: "2026-09-21",
+    headline:
+      "Gov. Spanberger campaigns with Sixth District candidate Beth Macy in Grottoes",
+    outlet: "Daily News-Record",
+    url: "https://www.dnronline.com/news/elections/gov-spanberger-campaigns-with-sixth-district-candidate-beth-macy-in-grottoes/article_8df7c5b4-237f-572d-a4db-10f721032ad8.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "pwc-by-right-data-centers-jefferson-wjla-2026-09-20",
+    date: "2026-09-20",
+    filed: "2026-09-21",
+    headline:
+      "Tuesday board of supervisors vote could impact future data center proposals",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/prince-william-county-data-centers-by-right-development-board-supervisors-deshundra-jefferson-virginia-zoning-approval-energy-power-tax-revenue-tuesday-vote",
+    people: [{ name: "Deshundra Jefferson", office: "Prince William official" }],
+    scope: "local",
+  },
+  {
+    id: "jones-cdl-injunction-oag-2026-09-18",
+    date: "2026-09-18",
+    filed: "2026-09-21",
+    headline:
+      "Attorney General Jones Secures Preliminary Injunction Over Trump Administration’s Unlawful Demand of CDL Drivers’ Personal Information",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3122-attorney-general-jones-secures-preliminary-injunction-over-trump-administrations-unlawful-demand-of-cdl-drivers-personal-information",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-data-center-reaction-cardinal-2026-09-18",
+    date: "2026-09-18",
+    filed: "2026-09-21",
+    headline:
+      "Reaction to Spanberger’s data center plan runs from ‘too much’ to ‘not enough’",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/18/reaction-to-spanbergers-data-center-plan-runs-from-too-much-to-not-enough/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-cac-settlement-oag-2026-09-17",
+    date: "2026-09-17",
+    filed: "2026-09-21",
+    headline:
+      "Attorney General Jay Jones Announces $694 Million Settlement with Subprime Auto Lender Credit Acceptance Corporation",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3119-attorney-general-jay-jones-announces-694-million-settlement-with-subprime-auto-lender-credit-acceptance-corporation",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+
+  {
     id: "vdot-highway-maintenance-shortfall-mercury-2026-09-18",
     date: "2026-09-18",
     filed: "2026-09-19",
