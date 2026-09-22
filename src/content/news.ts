@@ -49,6 +49,75 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "arlington-sanctuary-house-judiciary-arlnow-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-22",
+    headline:
+      "NEW: House committee blasts Arlington’s ‘sanctuary’ policies in latest escalation",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/21/new-house-committee-blasts-arlingtons-sanctuary-policies-in-latest-escalation/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "jones-dominion-nextera-clock-reset-mercury-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-22",
+    headline:
+      "‘A different deal on the table’: AG Jay Jones asks SCC to reset the clock on Dominion-NextEra merger",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/21/a-different-deal-on-the-table-ag-jay-jones-asks-scc-to-reset-the-clock-on-dominion-nextera-merger/",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "loudoun-missing-link-sidewalks-57m-loudounnow-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-22",
+    headline:
+      "Supervisors Approve $57M for 8 “Missing Link” Sidewalk Segments",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/supervisors-approve-57m-for-8-missing-link-sidewalk-segments/article_104694c5-86e6-4905-a45d-da6490fd91ba.html",
+    people: [
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+      { name: "Koran Saines", office: "Loudoun Supervisor" },
+      { name: "Laura TeKrony", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "loudoun-alpr-no-change-loudounnow-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-22",
+    headline: "No Plans to Modify License Plate Reader Usage, Loudoun Police Say",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/no-plans-to-modify-license-plate-reader-usage-loudoun-police-say/article_9a71bc42-7251-4df0-bb98-b0d89f675855.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "equality-arlington-marriage-amendment-arlnow-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-22",
+    headline:
+      "Equality Arlington joins statewide coalition supporting same-sex marriage",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/21/equality-arlington-joins-statewide-coalition-supporting-same-sex-marriage/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "malik-chamber-debate-subramanyam-loudounnow-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-22",
+    headline: "Independent Candidate Dropped from Chamber’s Candidate Debate",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/independent-candidate-dropped-from-chamber-s-candidate-debate/article_14313856-a12c-4e5b-bae3-856d8f768056.html",
+    people: [{ name: "Suhas Subramanyam", office: "U.S. Representative" }],
+    scope: "local",
+  },
+
+  {
     id: "beyer-trump-arch-military-complex-arlnow-2026-09-20",
     date: "2026-09-20",
     filed: "2026-09-21",
