@@ -49,6 +49,49 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "warner-mizusawa-senate-race-cardinal-2026-09-22",
+    date: "2026-09-22",
+    headline:
+      "Virginia’s Senate race is taking place outside the national spotlight",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/22/virginias-senate-race-is-taking-place-outside-the-national-spotlight/",
+    people: [{ name: "Mark Warner", office: "U.S. Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-medicaid-cms-rule-oag-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-22",
+    headline:
+      "Attorney General Jay Jones Joins Coalition of States in Pushing Back on Federal Rule That Could Undermine Medicaid, Insurance Regulation, and Health Coverage",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3123-attorney-general-jay-jones-joins-coalition-of-states-in-pushing-back-on-federal-rule-that-could-undermine-medicaid-insurance-regulation-and-health-coverage",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "jimenez-improper-driving-annandale-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-22",
+    headline: "Jimenez’ reckless driving charge reduced to ‘improper driving’",
+    outlet: "Annandale Today",
+    url: "https://annandaletoday.com/jimenez-reckless-driving-charge-reduced-to-improper-driving/",
+    people: [{ name: "Andres Jimenez", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "beyer-faa-ai-smart-wjla-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-22",
+    headline:
+      "FAA now using artificial intelligence in effort to reduce flight delays in the DC area",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/faa-artificial-intelligence-smart-flight-delays-reagan-national-dulles-bwi-air-traffic-controllers-sean-duffy-bryan-bedford-don-beyer-washington-aviation-safety",
+    people: [{ name: "Don Beyer", office: "U.S. Representative" }],
+    scope: "local",
+  },
+
+  {
     id: "arlington-sanctuary-house-judiciary-arlnow-2026-09-21",
     date: "2026-09-21",
     filed: "2026-09-22",
