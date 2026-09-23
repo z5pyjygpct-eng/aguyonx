@@ -49,6 +49,50 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "pwc-by-right-data-centers-vote-insidenova-2026-09-22",
+    date: "2026-09-22",
+    filed: "2026-09-23",
+    headline:
+      "Prince William supervisors vote to end by-right data center development countywide",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/headlines/prince-william-supervisors-vote-to-end-by-right-data-center-development-countywide/article_d65ea72a-63a2-45c7-b0c0-3b6feb5fa7d4.html",
+    people: [{ name: "Deshundra Jefferson", office: "Prince William official" }],
+    scope: "local",
+  },
+  {
+    id: "lcps-workers-comp-1-8m-loudounnow-2026-09-22",
+    date: "2026-09-22",
+    filed: "2026-09-23",
+    headline:
+      "School Board Approves $1.8M Transfer to Worker’s Comp Fund as Claims Rise",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/education/school-board-approves-1-8m-transfer-to-worker-s-comp-fund-as-claims-rise/article_a02a05b6-bdad-42c1-83ab-3b368a12a254.html",
+    people: [{ name: "April Chandler", office: "Loudoun official" }],
+    scope: "local",
+  },
+  {
+    id: "arlington-safety-bozman-hq-arlnow-2026-09-22",
+    date: "2026-09-22",
+    filed: "2026-09-23",
+    headline:
+      "Arlington leaders acknowledge safety concerns around government headquarters",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/22/arlington-leaders-acknowledge-safety-concerns-around-government-headquarters/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "beckwith-subramanyam-chamber-debate-loudounnow-2026-09-22",
+    date: "2026-09-22",
+    filed: "2026-09-23",
+    headline: "Beckwith, Subramanyam Face Off in Chamber Debate",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/beckwith-subramanyam-face-off-in-chamber-debate/article_123bb1f5-250a-4161-b094-eeb9b768d1a1.html",
+    people: [{ name: "Suhas Subramanyam", office: "U.S. Representative" }],
+    scope: "local",
+  },
+
+  {
     id: "warner-mizusawa-senate-race-cardinal-2026-09-22",
     date: "2026-09-22",
     headline:
