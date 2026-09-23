@@ -49,6 +49,50 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "hashmi-classroom-literature-tour-cardinal-2026-09-23",
+    date: "2026-09-23",
+    headline:
+      "Hashmi goes back to the classroom to talk about some important books",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/23/hashmi-goes-back-to-the-classroom-to-talk-about-some-important-books/",
+    people: [{ name: "Ghazala Hashmi", office: "Lieutenant Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-ai-congress-letter-gov-2026-09-22",
+    date: "2026-09-22",
+    filed: "2026-09-23",
+    headline:
+      "Governor Spanberger Urges Congress to Act on Unprecedented AI Risks to Protect Privacy, Jobs, & Natural Resources",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123817-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-wilson-pipe-norfolk-gov-2026-09-22",
+    date: "2026-09-22",
+    filed: "2026-09-23",
+    headline:
+      "Governor Spanberger Secures $3.5 Million Investment by Wilson Pipe & Fabrication to Quadruple Footprint in Norfolk",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123818-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-phasecraft-arlington-gov-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-23",
+    headline:
+      "Governor Spanberger Announces Phasecraft to Establish U.S. Headquarters in Arlington",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123766-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+
+  {
     id: "pwc-by-right-data-centers-vote-insidenova-2026-09-22",
     date: "2026-09-22",
     filed: "2026-09-23",
