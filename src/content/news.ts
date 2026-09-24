@@ -49,6 +49,81 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "fairfax-noisy-vehicles-pilot-ffxnow-2026-09-23",
+    date: "2026-09-23",
+    filed: "2026-09-24",
+    headline:
+      "Fairfax County to start electronic monitoring for noisy vehicles in early 2027",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/23/fairfax-county-to-start-electronic-monitoring-for-noisy-vehicles-in-early-2027/",
+    people: [{ name: "Jeff McKay", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "lcps-special-permissions-delay-loudounnow-2026-09-23",
+    date: "2026-09-23",
+    filed: "2026-09-24",
+    headline: "School Board Delays Plan to Change Special Permissions Policies",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/school-board-delays-plan-to-change-special-permissions-policies/article_39cfb1fa-b480-4551-a4dd-52bd9800d365.html",
+    people: [{ name: "April Chandler", office: "Loudoun official" }],
+    scope: "local",
+  },
+  {
+    id: "lcps-cultural-holidays-calendar-loudounnow-2026-09-23",
+    date: "2026-09-23",
+    filed: "2026-09-24",
+    headline: "School Board to Keep Cultural Holidays in School Calendar",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/school-board-to-keep-cultural-holidays-in-school-calendar/article_58b32aaf-13b7-44b7-a666-bcdb7123311c.html",
+    people: [{ name: "April Chandler", office: "Loudoun official" }],
+    scope: "local",
+  },
+  {
+    id: "purcellville-special-election-deadline-loudounnow-2026-09-23",
+    date: "2026-09-23",
+    filed: "2026-09-24",
+    headline: "Deadline Passes for Purcellville Council to Push Special Election",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/deadline-passes-for-purcellville-council-to-push-special-election/article_449aad45-f22c-4402-884e-02f291c2bc36.html",
+    people: [{ name: "Susan Khalil", office: "Loudoun official" }],
+    scope: "local",
+  },
+  {
+    id: "arlington-flock-police-pushback-arlnow-2026-09-23",
+    date: "2026-09-23",
+    filed: "2026-09-24",
+    headline:
+      "Police chief pushes back on County Board vote to end Flock camera use",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/23/police-chief-pushes-back-on-county-board-vote-to-end-flock-camera-use/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "descano-dunn-pirio-primary-ffxnow-2026-09-23",
+    date: "2026-09-23",
+    filed: "2026-09-24",
+    headline:
+      "Former DOJ prosecutor seeks to unseat Commonwealth’s Attorney Steve Descano",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/23/former-fairfax-prosecutor-seeks-to-unseat-commonwealths-attorney-steve-descano/",
+    people: [{ name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" }],
+    scope: "local",
+  },
+  {
+    id: "arlington-board-ice-forum-arlnow-2026-09-23",
+    date: "2026-09-23",
+    filed: "2026-09-24",
+    headline:
+      "County Board candidates divided over views on ICE, parking permit changes",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/23/county-board-candidates-divided-over-views-on-ice-parking-permit-changes/",
+    people: [],
+    scope: "local",
+  },
+
+  {
     id: "hashmi-classroom-literature-tour-cardinal-2026-09-23",
     date: "2026-09-23",
     headline:
