@@ -49,6 +49,42 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "jones-snap-deadline-ruling-mercury-2026-09-24",
+    date: "2026-09-24",
+    headline:
+      "Federal judge strikes down SNAP deadline that put Virginia at risk of added costs",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/24/federal-judge-strikes-down-snap-deadline-that-put-virginia-at-risk-of-added-costs/",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "pwc-vint-hill-switching-station-insidenova-2026-09-23",
+    date: "2026-09-23",
+    filed: "2026-09-24",
+    headline:
+      "Prince William supervisors vote down Dominion's Vint Hill gas-insulated switching station",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/news/prince_william/prince-william-supervisors-vote-down-dominions-vint-hill-gas-insulated-switching-station/article_c5206b11-1d48-417c-abd4-749971f54953.html",
+    people: [
+      { name: "Deshundra Jefferson", office: "Prince William official" },
+      { name: "Kenny Boddye", office: "Prince William official" },
+      { name: "George Stewart", office: "Prince William official" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "descano-insanity-pleas-examiner-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-24",
+    headline: "How Fairfax County keeps letting killers off with insanity pleas",
+    outlet: "Washington Examiner",
+    url: "https://www.washingtonexaminer.com/news/investigations/4731672/fairfax-county-killers-insanity-pleas-descano/",
+    people: [{ name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" }],
+    scope: "local",
+  },
+
+  {
     id: "fairfax-noisy-vehicles-pilot-ffxnow-2026-09-23",
     date: "2026-09-23",
     filed: "2026-09-24",

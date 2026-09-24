@@ -21,6 +21,13 @@ export const CANDIDATES_2027_EMPTY =
 /** Seed only people with a public source. Do not invent a caucus-wide list. */
 export const CANDIDATES_2027: Candidate2027[] = [
   {
+    id: "brittany-dunn-pirio",
+    name: "Brittany Dunn-Pirio",
+    officeSought: "Fairfax Commonwealth's Attorney",
+    locality: "Fairfax County",
+    status: "declared",
+  },
+  {
     id: "lisa-zargarpur",
     name: "Lisa Zargarpur",
     officeSought: "Prince William Coles District Supervisor",
