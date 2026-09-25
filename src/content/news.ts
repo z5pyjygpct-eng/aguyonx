@@ -49,6 +49,65 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "hashmi-listening-tour-roanoke-cardinal-2026-09-25",
+    date: "2026-09-25",
+    headline:
+      "Hashmi 'listening tour' on Dominion-NextEra proposal comes to Roanoke",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/25/hashmi-listening-tour-on-dominion-nextera-proposal-comes-to-roanoke/",
+    people: [{ name: "Ghazala Hashmi", office: "Lieutenant Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "descano-minter-petition-fox-2026-09-24",
+    date: "2026-09-24",
+    filed: "2026-09-25",
+    headline:
+      "Mom fights to oust DA after daughter's accused killer had 30-plus arrests",
+    outlet: "Fox News",
+    url: "https://www.foxnews.com/us/angel-mom-says-blue-state-das-putting-illegal-immigrant-criminals-before-public-safety",
+    people: [{ name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" }],
+    scope: "local",
+  },
+  {
+    id: "descano-dunn-pirio-primary-fox-2026-09-24",
+    date: "2026-09-24",
+    filed: "2026-09-25",
+    headline: "Fairfax County prosecutor Descano challenged by ex-federal lawyer",
+    outlet: "Fox News",
+    url: "https://www.foxnews.com/politics/soros-linked-prosecutor-faces-primary-challenge-fellow-democrat-targets-record",
+    people: [{ name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" }],
+    scope: "local",
+  },
+  {
+    id: "fairfax-i495-southside-express-ffxnow-2026-09-24",
+    date: "2026-09-24",
+    filed: "2026-09-25",
+    headline: "VDOT returns with revised plan for I-495 Southside Express Lanes",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/24/vdot-returns-with-revised-plan-for-i-495-southside-express-lanes/",
+    people: [
+      { name: "Jeff McKay", office: "Fairfax official" },
+      { name: "Walter Alcorn", office: "Fairfax official" },
+      { name: "Dan Storck", office: "Fairfax official" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "spanberger-brownfields-data-centers-cardinal-2026-09-24",
+    date: "2026-09-24",
+    filed: "2026-09-25",
+    headline:
+      "Spanberger wants state to study brownfields as potential data center sites. Here are some that might qualify.",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/24/spanberger-wants-state-to-study-brownfields-as-potential-data-center-sites-here-are-some-that-might-qualify/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+    advocacy: true,
+  },
+
+
+  {
     id: "jones-snap-deadline-ruling-mercury-2026-09-24",
     date: "2026-09-24",
     headline:
