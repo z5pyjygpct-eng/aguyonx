@@ -49,6 +49,64 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "arlington-valn-special-grand-jury-arlnow-2026-09-24",
+    date: "2026-09-24",
+    filed: "2026-09-25",
+    headline:
+      "BREAKING: Prosecutor seeks special grand jury in fatal Columbia Pike police shooting",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/24/breaking-prosecutor-seeks-special-grand-jury-in-fatal-columbia-pike-police-shooting/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "loudoun-faith-in-housing-renu-loudounnow-2026-09-24",
+    date: "2026-09-24",
+    filed: "2026-09-25",
+    headline:
+      "Planning Commission Reviews New Affordable Housing Rules After State Law Change",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/planning-commission-reviews-new-affordable-housing-rules-after-state-law-change/article_bcb9bf36-1366-4aea-9008-487a6aff4c9d.html",
+    people: [{ name: "Phyllis Randall", office: "Loudoun Chair" }],
+    scope: "local",
+  },
+  {
+    id: "fcps-alpr-flock-ban-fox5-2026-09-24",
+    date: "2026-09-24",
+    filed: "2026-09-25",
+    headline:
+      "Fairfax County Public School board votes to ban Flock cameras on school grounds",
+    outlet: "FOX 5 DC",
+    url: "https://www.fox5dc.com/news/fairfax-county-public-schools-vote-banning-flock-cameras-school-grounds",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "arlington-ballston-park-affordable-arlnow-2026-09-24",
+    date: "2026-09-24",
+    filed: "2026-09-25",
+    headline:
+      "County considers long-term future of expiring affordable units near Ballston",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/24/county-considers-long-term-future-of-expiring-affordable-units-near-ballston/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "arlington-noisy-vehicles-hold-arlnow-2026-09-24",
+    date: "2026-09-24",
+    filed: "2026-09-25",
+    headline: "Arlington holds off on program to crack down on noisy vehicles",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/24/arlington-holds-off-on-program-to-crack-down-on-noisy-vehicles/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Rip Sullivan", office: "State Delegate" },
+    ],
+    scope: "local",
+  },
+
+  {
     id: "hashmi-listening-tour-roanoke-cardinal-2026-09-25",
     date: "2026-09-25",
     headline:
