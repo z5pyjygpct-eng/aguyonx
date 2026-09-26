@@ -49,6 +49,112 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "arlington-valn-video-release-arlingtonva-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-26",
+    headline:
+      "Board directs Release of Police-Involved Shooting Video by October 16",
+    outlet: "Arlington County",
+    url: "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/Board-directs-Release-of-Police-Involved-Shooting-Video-by-October-16",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "purcellville-nett-grand-jury-transcripts-ltm-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-26",
+    headline:
+      "Nett seeks access to grand jury testimony ahead of October criminal trial",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/nett-seeks-access-to-grand-jury-testimony-ahead-of-october-criminal-trial/article_08637105-babb-4211-a0de-2e850b6853a4.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "scc-dominion-nextera-fairfax-hearing-ffxnow-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-26",
+    headline:
+      "Dominion Energy-NextEra merger headed to in-person hearing in Fairfax County",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/25/dominion-energy-nextera-merger-headed-to-in-person-hearing-in-fairfax-county/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "school-nurse-mandate-favola-wtop-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-26",
+    headline:
+      "Virginia health committee considers mandating licensed nurses in every school",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/virginia-health-committee-considers-mandating-licensed-nurses-in-every-school/",
+    people: [{ name: "Barbara Favola", office: "State Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "fairfax-economic-growth-fund-ffxnow-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-26",
+    headline:
+      "Fairfax County aims to become 'a player' in regional economic development dealmaking",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/25/fairfax-county-aims-to-become-a-player-in-regional-economic-development-dealmaking/",
+    people: [
+      { name: "Jeff McKay", office: "Fairfax official" },
+      { name: "Walter Alcorn", office: "Fairfax official" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "fairfax-i95-bidirectional-express-ffxnow-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-26",
+    headline:
+      "Fairfax leaders hopeful two-way I-95 toll lanes plan can fix 'biggest mistake' in Va. highways",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/25/fairfax-leaders-hopeful-two-way-i-95-toll-lanes-plan-can-fix-biggest-mistake-in-va-highways/",
+    people: [
+      { name: "Jeff McKay", office: "Fairfax official" },
+      { name: "Dan Storck", office: "Fairfax official" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "arlington-governance-schedule-arlnow-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-26",
+    headline:
+      "Arlington keeps to schedule with timeline for potential governance changes",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/25/arlington-keeps-to-schedule-with-timeline-for-potential-governance-changes/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "aps-integration-station-phaseout-wtop-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-26",
+    headline:
+      "Arlington schools to phase out partnership for toddlers with disabilities despite parents' pleas",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/despite-parent-pleas-arlington-moving-forward-with-plan-to-phase-out-partnership-for-toddlers-with-disabilities/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "sabio-beyer-va8-wtop-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-26",
+    headline:
+      "Republican veteran Tony Sabio is on a 'mission' to win Va.'s most Democratic US House seat",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/09/republican-veteran-tony-sabio-is-on-a-mission-to-win-va-s-most-democratic-us-house-seat/",
+    people: [{ name: "Don Beyer", office: "U.S. Representative" }],
+    scope: "local",
+  },
+
+  {
     id: "arlington-valn-special-grand-jury-arlnow-2026-09-24",
     date: "2026-09-24",
     filed: "2026-09-25",
