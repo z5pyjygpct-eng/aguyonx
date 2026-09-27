@@ -49,6 +49,22 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "warner-vindman-pw-rally-potomaclocal-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-27",
+    headline:
+      "Warner and Vindman listed for a Woodbridge rally Saturday, then Manassas and Dumfries",
+    outlet: "Potomac Local News",
+    url: "https://www.potomaclocal.com/2026/09/25/warner-vindman-woodbridge-rally-manassas-dumfries-saturday/",
+    people: [
+      { name: "Mark Warner", office: "U.S. Senator" },
+      { name: "Eugene Vindman", office: "U.S. Representative" },
+    ],
+    scope: "local",
+  },
+
+
+  {
     id: "arlington-valn-video-release-arlingtonva-2026-09-25",
     date: "2026-09-25",
     filed: "2026-09-26",
