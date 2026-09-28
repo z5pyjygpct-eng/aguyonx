@@ -51,6 +51,86 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "luria-kiggans-va02-rematch-mercury-2026-09-28",
+    date: "2026-09-28",
+    headline:
+      "Luria and Kiggans rematch in Va.'s 2nd Congressional District among most-watched races in nation",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/28/luria-and-kiggans-rematch-in-va-s-2nd-congressional-district-among-most-watched-races-in-nation/",
+    people: [{ name: "Elaine Luria", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+  {
+    id: "marijuana-public-use-fine-mercury-2026-09-28",
+    date: "2026-09-28",
+    headline:
+      "Youth advocates warn higher marijuana fine could deepen racial disparities",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/28/youth-advocates-warn-higher-marijuana-fine-could-deepen-racial-disparities/",
+    people: [
+      { name: "Cia Price", office: "State Delegate" },
+      { name: "Paul Krizek", office: "State Delegate" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "voting-rights-restorations-midterms-vpm-2026-09-28",
+    date: "2026-09-28",
+    headline: "How voting rights restorations could impact the midterms",
+    outlet: "VPM",
+    url: "https://www.vpm.org/elections/2026-09-28/virginia-voting-restorations-farnsworth-nichols-nguyen-holloway/",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-meta-settlement-share-rtd-2026-09-27",
+    date: "2026-09-27",
+    filed: "2026-09-28",
+    headline: "Attorney General seeks larger share of money from Meta deal",
+    outlet: "Richmond Times-Dispatch",
+    url: "https://richmond.com/news/state-regional/government-politics/article_88de4cf3-831a-4f9e-8d0d-2685756c91f0.html",
+    people: [
+      { name: "Jay Jones", office: "Attorney General" },
+      { name: "Louise Lucas", office: "State Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "kaine-macy-lexington-rally-dnr-2026-09-27",
+    date: "2026-09-27",
+    filed: "2026-09-28",
+    headline:
+      "Sen. Tim Kaine rallies with Sixth District congressional candidate Beth Macy",
+    outlet: "Daily News-Record",
+    url: "https://www.dnronline.com/news/politics_and_government/elections/sen-tim-kaine-rallies-with-sixth-district-congressional-candidate-beth-macy/article_b7c73155-01e2-5c65-a8bd-c05b6dab2e89.html",
+    people: [{ name: "Tim Kaine", office: "U.S. Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-h1b-visa-tax-comment-oag-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-28",
+    headline:
+      "Attorney General Jones Opposes Attempt by Trump Administration to Impose Unlawful Taxes on H-1B Visas",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3127-attorney-general-jones-opposes-attempt-by-trump-administration-to-impose-unlawful-taxes-on-h-1b-visas",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-childcare-helene-grant-mercury-2026-09-25",
+    date: "2026-09-25",
+    filed: "2026-09-28",
+    headline:
+      "Virginia receives $7.2 million grant to expand childcare in Southwest, Southside Virginia",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/25/virginia-receives-7-2-million-grant-to-expand-childcare-in-southwest-southside-virginia/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+
+
+  {
     id: "arlington-sanctuary-judiciary-report-2026-09-21",
     date: "2026-09-21",
     filed: "2026-09-28",
