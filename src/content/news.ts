@@ -16,7 +16,9 @@ export type NewsOffice =
   | "Fairfax Commonwealth's Attorney"
   | "Fairfax official"
   | "Prince William Commonwealth's Attorney"
-  | "Prince William official";
+  | "Prince William official"
+  | "Arlington Commonwealth's Attorney"
+  | "Arlington official";
 
 export type NewsPerson = {
   name: string;
@@ -47,6 +49,21 @@ export function peopleSearchText(people: NewsPerson[]): string {
 
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
+
+  {
+    id: "arlington-sanctuary-judiciary-report-2026-09-21",
+    date: "2026-09-21",
+    filed: "2026-09-28",
+    headline:
+      "Arlington County, Virginia: The Dangerous Consequences of Sanctuary Policies",
+    outlet: "U.S. House Judiciary Committee",
+    url: "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/09-21-2026-arlington-county-virginia-the-dangerous-consequences-of-sanctuary-policies.pdf",
+    people: [
+      { name: "Parisa Dehghani-Tafti", office: "Arlington Commonwealth's Attorney" },
+    ],
+    scope: "local",
+  },
+
 
   {
     id: "warner-vindman-pw-rally-potomaclocal-2026-09-25",
