@@ -51,6 +51,174 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "jones-placer-ai-investigation-rtd-2026-09-29",
+    date: "2026-09-29",
+    headline:
+      "State attorney general launches investigation of cellphone-tracking firm used by City Hall",
+    outlet: "Richmond Times-Dispatch",
+    url: "https://richmond.com/news/state-regional/government-politics/article_8951005f-be03-49eb-ae53-571a383a8fd1.html",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "powers-griffith-va09-cardinal-2026-09-29",
+    date: "2026-09-29",
+    headline:
+      "Griffith seeks a ninth term in the 9th District. This time, he faces a cattle farmer from Bedford County.",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/29/griffith-seeks-a-ninth-term-in-the-9th-district-this-time-he-faces-a-cattle-farmer-from-bedford-county/",
+    people: [{ name: "Joy Powers", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+  {
+    id: "dominion-nextera-hearings-mercury-2026-09-29",
+    date: "2026-09-29",
+    headline:
+      "Want to weigh in on the Dominion-NextEra merger? Here's where public hearings will be held.",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/29/want-to-weigh-in-on-the-dominion-nextera-merger-heres-where-public-hearings-will-be-held/",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "briskman-amazon-gwu-data-center-loudounnow-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline:
+      "GWU Neighbors Raise Concerns Over Amazon Data Center Plan as County Pursues Opposition",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/gwu-neighbors-raise-concerns-over-amazon-data-center-plan-as-county-pursues-opposition/article_f0e57c17-20bf-43c1-ba74-ce4d0e737b11.html",
+    people: [
+      { name: "Juli Briskman", office: "Loudoun Supervisor" },
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "arlington-alexandria-dominion-intervene-arlnow-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline:
+      "Arlington partners with Alexandria to intervene in Dominion Energy merger",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/28/arlington-partners-with-alexandria-to-intervene-in-dominion-energy-merger/",
+    people: [
+      { name: "Matt de Ferranti", office: "Arlington official" },
+      { name: "Abigail Spanberger", office: "Governor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "jones-medicaid-fraud-21m-oag-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline:
+      "ICYMI: OAG's Medicaid Fraud Control Unit Recovers Over $21 Million",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3128-icymi-oags-medicaid-fraud-control-unit-recovers-over-21-million",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-farm-aid-cnn-gov-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline:
+      "ICYMI: At Farm Aid 2026, Governor Spanberger Celebrates Virginia Agriculture, Discusses Support for Family Farmers on CNN",
+    outlet: "Governor of Virginia",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1124085-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "riggleman-republicans-for-perriello-afp-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline: "Denver Riggleman leads (Former) Republicans for Perriello rollout",
+    outlet: "Augusta Free Press",
+    url: "https://augustafreepress.com/news/denver-riggleman-leads-former-republicans-for-perriello-rollout/",
+    people: [{ name: "Tom Perriello", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+  {
+    id: "macy-cline-clifton-forge-forum-off-afp-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline:
+      "Ben Cline leaving the chair empty at Oct. 14 Clifton Forge forum, which is now off",
+    outlet: "Augusta Free Press",
+    url: "https://augustafreepress.com/news/ben-cline-leaving-the-chair-empty-at-oct-14-clifton-forge-forum-which-is-now-off/",
+    people: [{ name: "Beth Macy", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+
+  {
+    id: "hilltop-village-housing-ffxnow-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline:
+      "Board of Supervisors to review new housing vision for Hilltop Village Center",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/28/board-of-supervisors-to-review-new-housing-vision-for-hilltop-village-center/",
+    people: [{ name: "Rodney Lusk", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "arlington-senior-housing-fund-arlnow-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline: "New affordable housing fund to support seniors in Arlington",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/28/new-affordable-housing-fund-to-support-seniors-in-arlington/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "anna-maynard-human-rights-arlington-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline: "Anna Maynard Named Head of Office of Human Rights",
+    outlet: "Arlington County",
+    url: "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/Anna-Maynard-Named-Head-of-Office-of-Human-Rights-New-Structure-Proposed-for-Office",
+    people: [{ name: "Mark Schwartz", office: "Arlington official" }],
+    scope: "local",
+  },
+  {
+    id: "arlington-alexandria-nextera-intervene-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline:
+      "Arlington, Alexandria Partner to Intervene in Dominion-NextEra Merger",
+    outlet: "Arlington County",
+    url: "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/Arlington-and-Alexandria-Partner-to-Intervene-in-Dominion-Energy-NextEra-Merger/",
+    people: [{ name: "Matt de Ferranti", office: "Arlington official" }],
+    scope: "local",
+  },
+  {
+    id: "aps-integration-station-parents-rally-arlnow-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline:
+      "APS parents rally against elimination of pre-K program for kids with disabilities",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/28/aps-parents-rally-against-elimination-of-pre-k-program-for-kids-with-disabilities/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "loudoun-amazon-gwu-data-centers-ltm-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-29",
+    headline:
+      "'Very, very strong' legal case against data centers at GWU campus, county officials say",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/business_and_economy/very-very-strong-legal-case-against-data-centers-at-gwu-campus-county-officials-say/article_04281fe0-36bb-4e29-a720-cf590233a21b.html",
+    people: [{ name: "Juli Briskman", office: "Loudoun Supervisor" }],
+    scope: "local",
+  },
+
+
+  {
     id: "luria-kiggans-va02-rematch-mercury-2026-09-28",
     date: "2026-09-28",
     headline:
