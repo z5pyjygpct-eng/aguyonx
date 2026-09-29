@@ -184,17 +184,6 @@ export const NEWS: NewsItem[] = [
     scope: "local",
   },
   {
-    id: "arlington-alexandria-nextera-intervene-2026-09-28",
-    date: "2026-09-28",
-    filed: "2026-09-29",
-    headline:
-      "Arlington, Alexandria Partner to Intervene in Dominion-NextEra Merger",
-    outlet: "Arlington County",
-    url: "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/Arlington-and-Alexandria-Partner-to-Intervene-in-Dominion-Energy-NextEra-Merger/",
-    people: [{ name: "Matt de Ferranti", office: "Arlington official" }],
-    scope: "local",
-  },
-  {
     id: "aps-integration-station-parents-rally-arlnow-2026-09-28",
     date: "2026-09-28",
     filed: "2026-09-29",
@@ -203,17 +192,6 @@ export const NEWS: NewsItem[] = [
     outlet: "ARLnow",
     url: "https://www.arlnow.com/2026/09/28/aps-parents-rally-against-elimination-of-pre-k-program-for-kids-with-disabilities/",
     people: [],
-    scope: "local",
-  },
-  {
-    id: "loudoun-amazon-gwu-data-centers-ltm-2026-09-28",
-    date: "2026-09-28",
-    filed: "2026-09-29",
-    headline:
-      "'Very, very strong' legal case against data centers at GWU campus, county officials say",
-    outlet: "Loudoun Times-Mirror",
-    url: "https://www.loudountimes.com/news/business_and_economy/very-very-strong-legal-case-against-data-centers-at-gwu-campus-county-officials-say/article_04281fe0-36bb-4e29-a720-cf590233a21b.html",
-    people: [{ name: "Juli Briskman", office: "Loudoun Supervisor" }],
     scope: "local",
   },
 
