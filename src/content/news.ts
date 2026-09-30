@@ -51,6 +51,29 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "herndon-comstock-ruling-ffxnow-2026-09-29",
+    date: "2026-09-29",
+    filed: "2026-09-30",
+    headline:
+      "Town of Herndon 'stunned and disappointed' by court's ruling in favor of Comstock",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/29/town-of-herndon-stunned-and-disappointed-by-courts-ruling-in-favor-of-comstock/",
+    people: [{ name: "Kevin LeBlanc", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "manassas-mayor-resignation-potomaclocal-2026-09-29",
+    date: "2026-09-29",
+    filed: "2026-09-30",
+    headline:
+      "Manassas says goodbye to the mayor who asked to be remembered for showing up",
+    outlet: "Potomac Local News",
+    url: "https://www.potomaclocal.com/2026/09/29/manassas-says-goodbye-to-the-mayor-who-asked-to-be-remembered-for-showing-up/",
+    people: [{ name: "Michelle Davis-Younger", office: "Prince William official" }],
+    scope: "local",
+  },
+
+  {
     id: "jones-placer-ai-investigation-rtd-2026-09-29",
     date: "2026-09-29",
     headline:
