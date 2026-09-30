@@ -51,6 +51,88 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "spanberger-data-centers-onsite-power-cardinal-2026-09-30",
+    date: "2026-09-30",
+    headline:
+      "Spanberger wants to see data centers generate more power on site",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/30/spanberger-wants-to-see-data-centers-generate-more-power-on-site/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "dems-healthcare-strains-mercury-2026-09-30",
+    date: "2026-09-30",
+    headline:
+      "Virginia Democrats warn more healthcare strains loom after November election",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/30/democrats-warn-more-healthcare-strains-loom-after-november-election/",
+    people: [
+      { name: "Jennifer McClellan", office: "U.S. Representative" },
+      { name: "Barbara Favola", office: "State Senator" },
+      { name: "Nadarius Clark", office: "State Delegate" },
+      { name: "Abigail Spanberger", office: "Governor" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-outdoor-recreation-director-cardinal-2026-09-30",
+    date: "2026-09-30",
+    headline:
+      "In Danville, Spanberger announces new outdoor recreation position and establishes related statewide process",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/30/in-danville-spanberger-announces-new-outdoor-recreation-position-and-establishes-related-statewide-process/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "avio-hurt-groundbreaking-cardinal-2026-09-30",
+    date: "2026-09-30",
+    headline:
+      "Avio CEO at Hurt groundbreaking: 'We chose Virginia because of this area'",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/09/30/avio-ceo-at-hurt-groundbreaking-we-chose-virginia-because-of-this-area/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "traffic-camera-fines-michael-jones-mercury-2026-09-30",
+    date: "2026-09-30",
+    headline:
+      "Legislation to force Virginia traffic camera fine payments will make 'nightmarish' court workloads",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/09/30/legislation-to-force-virginia-traffic-camera-fine-payments-will-make-nightmarish-court-workloads/",
+    people: [{ name: "Michael Jones", office: "State Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "briskman-rt28-tax-district-loudounnow-2026-09-29",
+    date: "2026-09-29",
+    filed: "2026-09-30",
+    headline:
+      "With Rt. 28 Tax District Set to Expire, County Readies for Quick Zoning Changes",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/with-rt-28-tax-district-set-to-expire-county-readies-for-quick-zoning-changes/article_058bfec8-1c98-4dfc-b432-e726ef38bb11.html",
+    people: [{ name: "Juli Briskman", office: "Loudoun Supervisor" }],
+    scope: "local",
+  },
+  {
+    id: "spanberger-hampton-roads-dcip-gov-2026-09-28",
+    date: "2026-09-28",
+    filed: "2026-09-30",
+    headline:
+      "Governor Spanberger Celebrates $16.5 Million to Improve Infrastructure in Hampton Roads",
+    outlet: "Governor of Virginia",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1124104-en.html",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Bobby Scott", office: "U.S. Representative" },
+    ],
+    scope: "statewide",
+  },
+
+
+  {
     id: "herndon-comstock-ruling-ffxnow-2026-09-29",
     date: "2026-09-29",
     filed: "2026-09-30",
