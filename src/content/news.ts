@@ -51,6 +51,78 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "reston-kiss-ride-rezoning-patch-2026-09-30",
+    date: "2026-09-30",
+    filed: "2026-10-01",
+    headline:
+      "Reston Town Center Metro Kiss & Ride Could Become Part Of Larger Development",
+    outlet: "Patch Reston",
+    url: "https://patch.com/virginia/reston/fairfax-county-opens-door-redevelopment-reston-metro-kiss-ride-site",
+    people: [
+      { name: "Walter Alcorn", office: "Fairfax official" },
+      { name: "Jeff McKay", office: "Fairfax official" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "woodland-park-housing-ffxnow-2026-09-30",
+    date: "2026-09-30",
+    filed: "2026-10-01",
+    headline:
+      "Planning Commission backs Woodland Park housing units near Herndon Metro",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/30/planning-commission-backs-woodland-park-housing-units-near-herndon-metro/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "pw-stacked-condos-route1-potomaclocal-2026-09-30",
+    date: "2026-09-30",
+    filed: "2026-10-01",
+    headline: "Planning Commission backs 56 stacked condos off Route 1",
+    outlet: "Potomac Local News",
+    url: "https://www.potomaclocal.com/2026/09/30/planning-commission-backs-56-stacked-condos-off-route-1/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "arlington-jail-body-cameras-arlnow-2026-09-30",
+    date: "2026-09-30",
+    filed: "2026-10-01",
+    headline:
+      "Sheriff's office still studying impacts of body-worn cameras at Arlington jail",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/09/30/sheriffs-office-still-studying-impacts-of-body-worn-cameras-at-arlingtons-jail/",
+    people: [
+      { name: "Jose Quiroz", office: "Arlington official" },
+      { name: "Juan Gelabert", office: "Arlington official" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "lake-braddock-weapons-detection-ffxnow-2026-09-30",
+    date: "2026-09-30",
+    filed: "2026-10-01",
+    headline:
+      "Lake Braddock teachers push back against weapons detection duty with union grievance",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/09/30/lake-braddock-teachers-push-back-against-weapons-detection-duty-with-union-grievance/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "manassas-mayor-seat-greene-potomaclocal-2026-10-01",
+    date: "2026-10-01",
+    headline:
+      "Manassas mayor seat is open. Greene says fill it with someone off the ballot",
+    outlet: "Potomac Local News",
+    url: "https://www.potomaclocal.com/2026/10/01/manassas-mayor-seat-open-greene-off-ballot/",
+    people: [{ name: "Lynn Forkell Greene", office: "Prince William official" }],
+    scope: "local",
+  },
+
+
+  {
     id: "spanberger-data-centers-onsite-power-cardinal-2026-09-30",
     date: "2026-09-30",
     headline:
