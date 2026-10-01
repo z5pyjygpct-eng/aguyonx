@@ -51,6 +51,99 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "nextera-special-session-window-cardinal-2026-10-01",
+    date: "2026-10-01",
+    headline:
+      "Legislators say window has closed to call for a special session to extend review of Dominion-NextEra merger",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/10/01/legislators-say-window-has-closed-to-call-for-a-special-session-to-extend-review-of-dominion-nextera-merger/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Ghazala Hashmi", office: "Lieutenant Governor" },
+      { name: "Jay Jones", office: "Attorney General" },
+      { name: "Don Scott", office: "State Delegate" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "macy-cline-data-center-moratorium-cardinal-2026-10-01",
+    date: "2026-10-01",
+    headline:
+      "Cline and Macy appear aligned on one issue in the 6th District race: the need for a data center moratorium",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/10/01/cline-and-macy-appear-aligned-on-one-issue-in-the-6th-district-race-the-need-for-a-data-center-moratorium/",
+    people: [{ name: "Beth Macy", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+  {
+    id: "abortion-votes-va01-02-05-mercury-2026-10-01",
+    date: "2026-10-01",
+    headline:
+      "Here's how incumbents in Virginia's 1st, 2nd and 5th Congressional Districts have voted on abortion",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/01/heres-how-incumbents-in-virginias-1st-2nd-and-5th-congressional-districts-have-voted-on-abortion/",
+    people: [
+      { name: "Shannon Taylor", office: "U.S. Representative" },
+      { name: "Elaine Luria", office: "U.S. Representative" },
+      { name: "Tom Perriello", office: "U.S. Representative" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "kiggans-luria-financial-mercury-2026-10-01",
+    date: "2026-10-01",
+    headline:
+      "Kiggans faces questions over financial industry money and consumer protection votes",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/01/kiggans-faces-questions-over-financial-industry-money-and-consumer-protection-votes/",
+    people: [{ name: "Elaine Luria", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+  {
+    id: "lg-chillers-isle-of-wight-vabusiness-2026-09-30",
+    date: "2026-09-30",
+    filed: "2026-10-01",
+    headline: "LG's $64M Virginia factory will make data center chillers",
+    outlet: "Virginia Business",
+    url: "https://virginiabusiness.com/lgs-64m-virginia-factory-will-make-data-center-chillers/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-federal-overreach-recruiting-wvtf-2026-09-30",
+    date: "2026-09-30",
+    filed: "2026-10-01",
+    headline:
+      "AG Jones seeking out former federal attorneys for his federal overreach unit",
+    outlet: "WVTF / Radio IQ",
+    url: "https://www.wvtf.org/news/2026-09-30/ag-jones-seeking-out-former-federal-attorneys-for-his-federal-overreach-unit",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-ai-congress-valawyersweekly-2026-09-30",
+    date: "2026-09-30",
+    filed: "2026-10-01",
+    headline: "Jay Jones among AGs asking Congress to rein in AI research",
+    outlet: "Virginia Lawyers Weekly",
+    url: "https://valawyersweekly.com/2026/09/30/jay-jones-attorneys-general-urge-congress-regulate-ai-safety/",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-dhs-asylum-rule-oag-2026-09-30",
+    date: "2026-09-30",
+    filed: "2026-10-01",
+    headline:
+      "Attorney General Jones Opposes Unlawful DHS Rule Fast-Tracking Asylum Seekers into Removal Proceedings Without an Interview",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3129-attorney-general-jones-opposes-unlawful-dhs-rule-fast-tracking-asylum-seekers-into-removal-proceedings-without-an-interview",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+
+
+  {
     id: "reston-kiss-ride-rezoning-patch-2026-09-30",
     date: "2026-09-30",
     filed: "2026-10-01",
