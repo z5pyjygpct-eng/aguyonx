@@ -51,6 +51,46 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "early-voting-house-flip-math-cardinal-2026-10-02",
+    date: "2026-10-02",
+    headline:
+      "Early voting numbers show a shift toward Democrats. If those hold, two House seats in Virginia could flip, and a third could be close.",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/10/02/early-voting-numbers-show-a-shift-toward-democrats-if-those-hold-at-least-two-house-seats-in-virginia-could-flip-and-a-third-could-be-close/",
+    people: [
+      { name: "Shannon Taylor", office: "U.S. Representative" },
+      { name: "Elaine Luria", office: "U.S. Representative" },
+      { name: "Tom Perriello", office: "U.S. Representative" },
+      { name: "Beth Macy", office: "U.S. Representative" },
+      { name: "Mark Warner", office: "U.S. Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "va08-beyer-sabio-sharman-qa-vpm-2026-10-02",
+    date: "2026-10-02",
+    headline: "8th District Q&A: Don Beyer, Tony Sabio, Tim Sharman",
+    outlet: "VPM",
+    url: "https://www.vpm.org/elections/2026-10-02/va08-beyer-sabio-sharman-candidate-survey/",
+    people: [{ name: "Don Beyer", office: "U.S. Representative" }],
+    scope: "local",
+  },
+  {
+    id: "taylor-wittman-va01-poll-wapo-2026-10-01",
+    date: "2026-10-01",
+    filed: "2026-10-02",
+    headline:
+      "Democrat has edge in Virginia House race considered national bellwether, poll finds",
+    outlet: "The Washington Post",
+    url: "https://www.washingtonpost.com/politics/2026/10/01/shannon-taylor-has-edge-over-rob-wittman-virginia-house-district-post-poll-finds/",
+    people: [
+      { name: "Shannon Taylor", office: "U.S. Representative" },
+      { name: "Tom Perriello", office: "U.S. Representative" },
+    ],
+    scope: "statewide",
+  },
+
+  {
     id: "hayfield-principal-embezzlement-ffxnow-2026-10-01",
     date: "2026-10-01",
     filed: "2026-10-02",
