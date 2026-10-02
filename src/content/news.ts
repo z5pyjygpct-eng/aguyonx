@@ -51,6 +51,99 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "hayfield-principal-embezzlement-ffxnow-2026-10-01",
+    date: "2026-10-01",
+    filed: "2026-10-02",
+    headline:
+      "Former Hayfield Secondary School principal accused of embezzling school funds",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/01/former-hayfield-secondary-school-principal-accused-of-embezzling-school-funds/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "heritage-hunt-ppp-settlement-insidenova-2026-10-01",
+    date: "2026-10-01",
+    filed: "2026-10-02",
+    headline: "Heritage Hunt in Gainesville settles PPP loan claims for $425K",
+    outlet: "InsideNoVA",
+    url: "https://www.insidenova.com/headlines/heritage-hunt-in-gainesville-settles-ppp-loan-claims-for-425k/article_695f4c25-26bb-471f-8b72-2d47a02af4a6.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "purcellville-financial-liability-study-loudounnow-2026-10-01",
+    date: "2026-10-01",
+    filed: "2026-10-02",
+    headline:
+      "After New State Law, Purcellville Opens Bid for Financial Liability Study",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/after-new-state-law-purcellville-opens-bid-for-financial-liability-study/article_22982d56-eb14-4cca-adad-5b2232a787af.html",
+    people: [
+      { name: "Russet Perry", office: "State Senator" },
+      { name: "John McAuliff", office: "State Delegate" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "wiehle-reston-east-redevelopment-patch-2026-10-01",
+    date: "2026-10-01",
+    filed: "2026-10-02",
+    headline:
+      "Hundreds Of New Homes, Offices Could Transform Area Near Reston Metro",
+    outlet: "Patch Reston",
+    url: "https://patch.com/virginia/reston/major-housing-office-changes-proposed-near-wiehle-reston-east-metro",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "spanberger-energy-plan-wtop-2026-10-01",
+    date: "2026-10-01",
+    filed: "2026-10-02",
+    headline:
+      "Spanberger's energy plan keys in on clean energy to meet growing demand and VCEA goals",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/10/spanbergers-energy-plan-keys-in-on-clean-energy-to-meet-growing-demand-and-vcea-goals/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "beyer-challengers-forum-arlnow-2026-10-01",
+    date: "2026-10-01",
+    filed: "2026-10-02",
+    headline:
+      "Challengers to Rep. Beyer debate SAVE Act, term limits in Congress",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/01/challengers-to-rep-beyer-debate-ballot-restrictions-term-limits-in-congress/",
+    people: [{ name: "Don Beyer", office: "U.S. Representative" }],
+    scope: "local",
+  },
+  {
+    id: "memorial-circle-arch-protest-arlnow-2026-10-01",
+    date: "2026-10-01",
+    filed: "2026-10-02",
+    headline: "Crowds, lawmakers protest Trump's arch in Memorial Circle",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/01/crowds-lawmakers-protest-trumps-arch-in-memorial-circle/",
+    people: [
+      { name: "Don Beyer", office: "U.S. Representative" },
+      { name: "J.D. Spain Sr.", office: "Arlington official" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "aps-sol-scores-arlnow-2026-10-01",
+    date: "2026-10-01",
+    filed: "2026-10-02",
+    headline: "APS test scores improve overall, but achievement gaps persist",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/01/aps-test-scores-improve-overall-but-achievement-gaps-persist/",
+    people: [],
+    scope: "local",
+  },
+
+
+  {
     id: "nextera-special-session-window-cardinal-2026-10-01",
     date: "2026-10-01",
     headline:
