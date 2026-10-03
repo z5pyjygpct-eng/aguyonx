@@ -51,6 +51,80 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "loudoun-data-centers-usatoday-2026-10-03",
+    date: "2026-10-03",
+    headline: "Wealthy Loudoun County, Virginia, has a data center problem",
+    outlet: "USA Today",
+    url: "https://www.usatoday.com/story/news/nation/2026/10/03/loudoun-county-virginia-data-centers/91925856007/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "loudoun-dc-grandfathering-litigation-wbj-2026-10-02",
+    date: "2026-10-02",
+    filed: "2026-10-03",
+    headline:
+      "Loudoun supervisors warned of major litigation costs if protections for grandfathered data center applications are eliminated",
+    outlet: "Washington Business Journal",
+    url: "https://www.bizjournals.com/washington/news/2026/10/02/loudoun-legal-opinion-grandfathering-data-centers.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "spanberger-parole-board-releases-wjla-2026-10-02",
+    date: "2026-10-02",
+    filed: "2026-10-03",
+    headline:
+      "Gov. Spanberger's parole board granting more felons release from Virginia prisons",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/governor-spanberger-parole-board-granting-more-felons-release-from-virginia-prisons",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "herndon-town-manager-fired-ffxnow-2026-10-02",
+    date: "2026-10-02",
+    filed: "2026-10-03",
+    headline: "Herndon town manager fired after less than a year on the job",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/02/herndon-town-manager-fired-after-less-than-a-year-on-the-job/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "lake-fairfax-business-center-ffxnow-2026-10-02",
+    date: "2026-10-02",
+    filed: "2026-10-03",
+    headline:
+      "Need to monitor data center noise stressed in review of Lake Fairfax Business Center redevelopment",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/02/need-to-monitor-data-center-noise-stressed-in-review-of-lake-fairfax-business-park-redevelopment/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "manassas-old-town-rezoning-insidenova-2026-10-02",
+    date: "2026-10-02",
+    filed: "2026-10-03",
+    headline:
+      "Manassas city staff recommends rezoning for new apartment building, parking garage in Old Town",
+    outlet: "InsideNoVA",
+    url: "https://www.insidenova.com/news/prince_william/manassas-city-staff-recommends-rezoning-for-new-apartment-building-parking-garage-in-old-town/article_bd880b08-4aa2-44dc-b8d1-2ed9dc3a175f.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "arlington-gop-rives-school-board-arlnow-2026-10-02",
+    date: "2026-10-02",
+    filed: "2026-10-03",
+    headline: "Arlington GOP endorses returning challenger in School Board race",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/02/arlington-gop-endorses-returning-challenger-in-school-board-race/",
+    people: [],
+    scope: "local",
+  },
+
+  {
     id: "early-voting-house-flip-math-cardinal-2026-10-02",
     date: "2026-10-02",
     headline:
