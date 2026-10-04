@@ -51,6 +51,28 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "pw-jefferson-reimagining-sessions-potomaclocal-2026-10-03",
+    date: "2026-10-03",
+    filed: "2026-10-04",
+    headline:
+      "Jefferson sets two Reimagining Prince William talks for next week",
+    outlet: "Potomac Local News",
+    url: "https://www.potomaclocal.com/2026/10/03/jefferson-sets-two-reimagining-prince-william-talks-next-week/",
+    people: [{ name: "Deshundra Jefferson", office: "Prince William official" }],
+    scope: "local",
+  },
+  {
+    id: "manassas-journal-candidate-forum-potomaclocal-2026-10-03",
+    date: "2026-10-03",
+    filed: "2026-10-04",
+    headline: "Manassas candidates meet Sunday at the museum",
+    outlet: "Potomac Local News",
+    url: "https://www.potomaclocal.com/2026/10/03/manassas-journal-forum-sunday-at-the-museum/",
+    people: [],
+    scope: "local",
+  },
+
+  {
     id: "loudoun-data-centers-usatoday-2026-10-03",
     date: "2026-10-03",
     headline: "Wealthy Loudoun County, Virginia, has a data center problem",
