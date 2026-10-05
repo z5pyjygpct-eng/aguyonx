@@ -51,6 +51,31 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "va10-forum-oct15-manassas-potomaclocal-2026-10-04",
+    date: "2026-10-04",
+    filed: "2026-10-05",
+    headline: "10th District candidates meet Oct. 15 in Manassas",
+    outlet: "Potomac Local News",
+    url: "https://www.potomaclocal.com/2026/10/04/tenth-district-candidates-meet-oct-15-in-manassas/",
+    people: [{ name: "Suhas Subramanyam", office: "U.S. Representative" }],
+    scope: "local",
+  },
+  {
+    id: "moore-vindman-volunteer-launch-cole-potomaclocal-2026-10-04",
+    date: "2026-10-04",
+    filed: "2026-10-05",
+    headline:
+      "Maryland's governor visits Virginia to stump for Vindman, according to Cole's Facebook page",
+    outlet: "Potomac Local News",
+    url: "https://www.potomaclocal.com/2026/10/04/marylands-governor-visits-virginia-according-to-vindmans-facebook/",
+    people: [
+      { name: "Joshua Cole", office: "State Delegate" },
+      { name: "Eugene Vindman", office: "U.S. Representative" },
+    ],
+    scope: "local",
+  },
+
+  {
     id: "pw-jefferson-reimagining-sessions-potomaclocal-2026-10-03",
     date: "2026-10-03",
     filed: "2026-10-04",
