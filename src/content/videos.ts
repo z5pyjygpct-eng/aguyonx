@@ -32,7 +32,6 @@ export const VIDEOS: SiteVideo[] = [
     sourceLabel: "Restoration News",
     sourceUrl:
       "https://restoration-news.com/the-public-school-rewrite-of-9-11-the-hijackers-weren-t-terrorists",
-    featuredOnHome: true,
   },
   {
     id: "lcps-public-comment-once-a-month",
