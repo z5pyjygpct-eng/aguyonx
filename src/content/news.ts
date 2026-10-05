@@ -51,6 +51,75 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "perriello-5th-district-upset-mcguire-vamercury-2026-10-05",
+    date: "2026-10-05",
+    headline: "Perriello seeks another 5th District upset as McGuire leans on Trump",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/05/perriello-seeks-another-5th-district-upset-as-mcguire-leans-on-trump/",
+    people: [{ name: "Tom Perriello", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+  {
+    id: "wolfe-released-ashworth-plea-potomaclocal-2026-10-04",
+    date: "2026-10-04",
+    filed: "2026-10-05",
+    headline: "Justin Wolfe walked out after 25 years in the Bristow killing",
+    outlet: "Potomac Local News",
+    url: "https://www.potomaclocal.com/2026/10/04/justin-wolfe-walked-out-after-25-years-in-the-bristow-killing/",
+    people: [{ name: "Amy Ashworth", office: "Prince William Commonwealth's Attorney" }],
+    scope: "local",
+  },
+  {
+    id: "warner-tv-ads-senate-race-wavy-2026-10-03",
+    date: "2026-10-03",
+    filed: "2026-10-05",
+    headline:
+      "Following the Funds: Why you haven’t seen TV ads for one candidate in Va. US Senate race",
+    outlet: "WAVY (via AOL)",
+    url: "https://www.aol.com/articles/following-funds-why-haven-t-080001000.html",
+    people: [{ name: "Mark Warner", office: "U.S. Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-jones-naacp-alexandria-alxnow-2026-10-02",
+    date: "2026-10-02",
+    filed: "2026-10-05",
+    headline:
+      "Gov. Spanberger and AG Jones slam Trump election interventions at Alexandria NAACP event",
+    outlet: "ALXnow",
+    url: "https://www.alxnow.com/2026/10/02/gov-spanberger-and-ag-jones-slam-trump-election-interventions-at-alexandria-naacp-event/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Jay Jones", office: "Attorney General" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "macy-va6-in-play-national-democrats-cardinal-2026-10-02",
+    date: "2026-10-02",
+    filed: "2026-10-05",
+    headline:
+      "National Democrats say Virginia’s 6th District is now ‘in play’ for the midterm elections",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/10/02/national-democrats-say-virginias-6th-district-is-now-in-play-for-the-midterm-elections/",
+    people: [{ name: "Beth Macy", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+  {
+    id: "loudoun-homelessness-study-randall-turner-loudounnow-2026-10-02",
+    date: "2026-10-02",
+    filed: "2026-10-05",
+    headline: "County Eyes Homelessness Study as Nonprofits Pledge Funding Support",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/county-eyes-homelessness-study-as-nonprofits-pledge-funding-support/article_6e646403-38c8-46b6-b9b6-3707dd376ef3.html",
+    people: [
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+      { name: "Michael Turner", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+
+  {
     id: "va10-forum-oct15-manassas-potomaclocal-2026-10-04",
     date: "2026-10-04",
     filed: "2026-10-05",
