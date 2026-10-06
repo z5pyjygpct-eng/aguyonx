@@ -51,6 +51,68 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "loudoun-data-center-grandfathering-lawsuit-risk-loudounnow-2026-10-05",
+    date: "2026-10-05",
+    filed: "2026-10-06",
+    headline: "Loudoun Board Prepares for Big Data Center Changes as Lawsuit Threats Loom",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/loudoun-board-prepares-for-big-data-center-changes-as-lawsuit-threats-loom/article_b754549e-7bac-48b1-8f23-238b83fa0a2f.html",
+    people: [
+      { name: "Juli Briskman", office: "Loudoun Supervisor" },
+      { name: "Laura TeKrony", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "mckay-shadow-hearing-election-security-ffxnow-2026-10-05",
+    date: "2026-10-05",
+    filed: "2026-10-06",
+    headline: "McKay stresses security of Fairfax’s election process in Congressional ‘shadow hearing’",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/05/mckay-stresses-security-of-fairfaxs-election-process-in-congressional-shadow-hearing/",
+    people: [
+      { name: "Jeff McKay", office: "Fairfax official" },
+      { name: "James Walkinshaw", office: "U.S. Representative" },
+      { name: "Suhas Subramanyam", office: "U.S. Representative" },
+      { name: "Eugene Vindman", office: "U.S. Representative" },
+      { name: "Jennifer McClellan", office: "U.S. Representative" },
+      { name: "Bobby Scott", office: "U.S. Representative" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "arlington-gop-clement-treasurer-arlnow-2026-10-05",
+    date: "2026-10-05",
+    filed: "2026-10-06",
+    headline: "Arlington GOP backs Clement for County Board, criticizes both treasurer candidates",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/05/arlington-gop-backs-clement-for-county-board-criticizes-both-treasurer-candidates/",
+    people: [{ name: "Matt de Ferranti", office: "Arlington official" }],
+    scope: "local",
+  },
+  {
+    id: "arlington-human-rights-office-split-arlnow-2026-10-05",
+    date: "2026-10-05",
+    filed: "2026-10-06",
+    headline: "Arlington’s human rights office could be split into two, with more staffing",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/05/arlingtons-human-rights-office-could-be-split-into-two-with-more-staffing/",
+    people: [{ name: "Mark Schwartz", office: "Arlington official" }],
+    scope: "local",
+  },
+  {
+    id: "fcps-teacher-long-term-sub-hiring-freeze-wtop-2026-10-03",
+    date: "2026-10-03",
+    filed: "2026-10-06",
+    headline:
+      "Hiring freeze or math problem? Fairfax County parent concerned her son’s teacher is not considered full-time employee",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/10/hiring-freeze-or-math-problem-why-fairfax-co-is-moving-teachers-around-weeks-into-the-school-year/",
+    people: [{ name: "Michelle Reid", office: "Fairfax official" }],
+    scope: "local",
+  },
+
+  {
     id: "perriello-5th-district-upset-mcguire-vamercury-2026-10-05",
     date: "2026-10-05",
     headline: "Perriello seeks another 5th District upset as McGuire leans on Trump",
