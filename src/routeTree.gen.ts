@@ -32,6 +32,7 @@ import { Route as LibraryFoiaRouteImport } from './routes/library.foia'
 import { Route as CountiesLoudounIndexRouteImport } from './routes/counties.loudoun.index'
 import { Route as CountiesLoudounFindTheMomentRouteImport } from './routes/counties.loudoun.find-the-moment'
 import { Route as CountiesLoudounSchoolsRouteImport } from './routes/counties.loudoun.schools'
+import { Route as CountiesLoudounRecapsSlugRouteImport } from './routes/counties.loudoun.recaps.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -149,6 +150,12 @@ const CountiesLoudounSchoolsRoute = CountiesLoudounSchoolsRouteImport.update({
   path: '/schools',
   getParentRoute: () => CountiesLoudounRoute,
 } as any)
+const CountiesLoudounRecapsSlugRoute =
+  CountiesLoudounRecapsSlugRouteImport.update({
+    id: '/recaps/$slug',
+    path: '/recaps/$slug',
+    getParentRoute: () => CountiesLoudounRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -174,6 +181,7 @@ export interface FileRoutesByFullPath {
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
+  '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -194,6 +202,7 @@ export interface FileRoutesByTo {
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
   '/counties/loudoun': typeof CountiesLoudounIndexRoute
+  '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -220,6 +229,7 @@ export interface FileRoutesById {
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
+  '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -247,6 +257,7 @@ export interface FileRouteTypes {
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
     | '/counties/loudoun/'
+    | '/counties/loudoun/recaps/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -267,6 +278,7 @@ export interface FileRouteTypes {
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
     | '/counties/loudoun'
+    | '/counties/loudoun/recaps/$slug'
   id:
     | '__root__'
     | '/'
@@ -292,6 +304,7 @@ export interface FileRouteTypes {
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
     | '/counties/loudoun/'
+    | '/counties/loudoun/recaps/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -472,6 +485,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CountiesLoudounSchoolsRouteImport
       parentRoute: typeof CountiesLoudounRoute
     }
+    '/counties/loudoun/recaps/$slug': {
+      id: '/counties/loudoun/recaps/$slug'
+      path: '/recaps/$slug'
+      fullPath: '/counties/loudoun/recaps/$slug'
+      preLoaderRoute: typeof CountiesLoudounRecapsSlugRouteImport
+      parentRoute: typeof CountiesLoudounRoute
+    }
   }
 }
 
@@ -493,12 +513,14 @@ interface CountiesLoudounRouteChildren {
   CountiesLoudounFindTheMomentRoute: typeof CountiesLoudounFindTheMomentRoute
   CountiesLoudounSchoolsRoute: typeof CountiesLoudounSchoolsRoute
   CountiesLoudounIndexRoute: typeof CountiesLoudounIndexRoute
+  CountiesLoudounRecapsSlugRoute: typeof CountiesLoudounRecapsSlugRoute
 }
 
 const CountiesLoudounRouteChildren: CountiesLoudounRouteChildren = {
   CountiesLoudounFindTheMomentRoute: CountiesLoudounFindTheMomentRoute,
   CountiesLoudounSchoolsRoute: CountiesLoudounSchoolsRoute,
   CountiesLoudounIndexRoute: CountiesLoudounIndexRoute,
+  CountiesLoudounRecapsSlugRoute: CountiesLoudounRecapsSlugRoute,
 }
 
 const CountiesLoudounRouteWithChildren = CountiesLoudounRoute._addFileChildren(
@@ -563,3 +585,12 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { createStart } from '@tanstack/react-start'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+  }
+}

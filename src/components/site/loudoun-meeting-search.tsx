@@ -7,6 +7,7 @@ import {
   type FormEvent,
   type ReactNode,
 } from "react";
+import { Link } from "@tanstack/react-router";
 import { ExternalLink, Search } from "lucide-react";
 import {
   LOUDOUN_MEETING_BY_ID,
@@ -18,6 +19,8 @@ import {
   type LoudounCaptionSlice,
   type LoudounMeeting,
 } from "@/content/loudoun";
+import { FTM_TRANSCRIPT_LABEL, FTM_TRANSCRIPTS, ftmTranscriptFor } from "@/content/ftm-transcripts";
+import { LOUDOUN_RECAP_BY_MEETING } from "@/content/loudoun-recaps";
 import { cn } from "@/lib/utils";
 
 const HIT_CAP = 60;
@@ -61,7 +64,19 @@ function HighlightedSnippet({ text, query }: { text: string; query: string }) {
   return <>{nodes}</>;
 }
 
-function searchWindows(windows: CaptionWindow[], query: string): CaptionWindow[] {
+/** Where a search window came from. Transcript = whisper speech-to-text; captions = county auto-captions. */
+type WindowSource = "transcript" | "captions";
+type SourcedWindow = CaptionWindow & { source: WindowSource };
+/** "best" = machine transcript where one exists, captions elsewhere. */
+type SourceMode = "best" | "captions";
+
+const TRANSCRIPT_MEETING_COUNT = FTM_TRANSCRIPTS.filter((t) => t.venue === "loudoun-bos").length;
+
+function sourceFor(meeting: LoudounMeeting, mode: SourceMode): WindowSource {
+  return mode === "best" && ftmTranscriptFor(meeting.id) ? "transcript" : "captions";
+}
+
+function searchWindows(windows: SourcedWindow[], query: string): SourcedWindow[] {
   const q = query.trim().toLowerCase();
   if (!q) return [];
   return windows.filter((w) => w.text.toLowerCase().includes(q));
@@ -82,54 +97,78 @@ async function mapPool<T, R>(items: T[], limit: number, fn: (item: T) => Promise
   return results;
 }
 
-type CacheEntry = CaptionWindow[] | "loading" | "error";
+type CacheEntry = SourcedWindow[] | "loading" | "error";
+
+function SourceBadge({ source }: { source: WindowSource }) {
+  return (
+    <span
+      className={cn(
+        "rounded-sm px-1.5 py-0.5 font-mono text-[10px] font-semibold tracking-wider uppercase",
+        source === "transcript" ? "bg-[#e8eef6] text-[#1E4B8E]" : "bg-wash text-muted-foreground",
+      )}
+    >
+      {source === "transcript" ? "Machine transcript" : "Captions"}
+    </span>
+  );
+}
 
 export function LoudounMeetingSearch() {
   const [q, setQ] = useState("");
   const [submitted, setSubmitted] = useState("");
   const [meetingFilter, setMeetingFilter] = useState<string | "all">("all");
+  const [sourceMode, setSourceMode] = useState<SourceMode>("best");
   const [cacheTick, setCacheTick] = useState(0);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
   /** In-memory cache of fetched meeting windows (module-lifetime via ref). */
   const cacheRef = useRef<Map<string, CacheEntry>>(new Map());
-  const inflightRef = useRef<Map<string, Promise<CaptionWindow[]>>>(new Map());
+  const inflightRef = useRef<Map<string, Promise<SourcedWindow[]>>>(new Map());
 
-  const loadMeeting = useCallback(async (meeting: LoudounMeeting): Promise<CaptionWindow[]> => {
-    const cached = cacheRef.current.get(meeting.id);
-    if (Array.isArray(cached)) return cached;
+  const loadMeeting = useCallback(
+    async (meeting: LoudounMeeting, source: WindowSource): Promise<SourcedWindow[]> => {
+      const key = `${meeting.id}:${source}`;
+      const cached = cacheRef.current.get(key);
+      if (Array.isArray(cached)) return cached;
 
-    const existing = inflightRef.current.get(meeting.id);
-    if (existing) return existing;
+      const existing = inflightRef.current.get(key);
+      if (existing) return existing;
 
-    cacheRef.current.set(meeting.id, "loading");
-    setCacheTick((t) => t + 1);
-
-    const promise = (async () => {
-      const res = await fetch(meeting.windowsUrl);
-      if (!res.ok) throw new Error(`HTTP ${res.status} for meeting ${meeting.id}`);
-      const slices = (await res.json()) as LoudounCaptionSlice[];
-      const windows: CaptionWindow[] = slices.map((s) => ({
-        meetingId: meeting.id,
-        start: s.start,
-        end: s.end,
-        text: s.text,
-      }));
-      cacheRef.current.set(meeting.id, windows);
-      inflightRef.current.delete(meeting.id);
+      cacheRef.current.set(key, "loading");
       setCacheTick((t) => t + 1);
-      return windows;
-    })().catch((err) => {
-      cacheRef.current.set(meeting.id, "error");
-      inflightRef.current.delete(meeting.id);
-      setCacheTick((t) => t + 1);
-      throw err;
-    });
 
-    inflightRef.current.set(meeting.id, promise);
-    return promise;
-  }, []);
+      const url =
+        source === "transcript"
+          ? (ftmTranscriptFor(meeting.id)?.url ?? meeting.windowsUrl)
+          : meeting.windowsUrl;
+
+      const promise = (async () => {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`HTTP ${res.status} for meeting ${meeting.id}`);
+        const slices = (await res.json()) as LoudounCaptionSlice[];
+        const windows: SourcedWindow[] = slices.map((s) => ({
+          meetingId: meeting.id,
+          start: s.start,
+          end: s.end,
+          text: s.text,
+          source,
+        }));
+        cacheRef.current.set(key, windows);
+        inflightRef.current.delete(key);
+        setCacheTick((t) => t + 1);
+        return windows;
+      })().catch((err) => {
+        cacheRef.current.set(key, "error");
+        inflightRef.current.delete(key);
+        setCacheTick((t) => t + 1);
+        throw err;
+      });
+
+      inflightRef.current.set(key, promise);
+      return promise;
+    },
+    [],
+  );
 
   const meetingsToLoad = useMemo(() => {
     if (meetingFilter === "all") return LOUDOUN_MEETINGS;
@@ -152,7 +191,9 @@ export function LoudounMeetingSearch() {
 
     (async () => {
       try {
-        await mapPool(meetingsToLoad, ALL_FETCH_CONCURRENCY, (m) => loadMeeting(m));
+        await mapPool(meetingsToLoad, ALL_FETCH_CONCURRENCY, (m) =>
+          loadMeeting(m, sourceFor(m, sourceMode)),
+        );
         if (!cancelled) setLoading(false);
       } catch (err) {
         if (!cancelled) {
@@ -165,22 +206,27 @@ export function LoudounMeetingSearch() {
     return () => {
       cancelled = true;
     };
-  }, [query, meetingsToLoad, loadMeeting]);
+  }, [query, meetingsToLoad, loadMeeting, sourceMode]);
 
   const windowsReady = useMemo(() => {
     // cacheTick forces recompute when cache fills
     void cacheTick;
-    const out: CaptionWindow[] = [];
+    const out: SourcedWindow[] = [];
     for (const m of meetingsToLoad) {
-      const entry = cacheRef.current.get(m.id);
+      const entry = cacheRef.current.get(`${m.id}:${sourceFor(m, sourceMode)}`);
       if (Array.isArray(entry)) out.push(...entry);
     }
     return out;
-  }, [meetingsToLoad, cacheTick]);
+  }, [meetingsToLoad, cacheTick, sourceMode]);
 
   const allLoaded =
     meetingsToLoad.length > 0 &&
-    meetingsToLoad.every((m) => Array.isArray(cacheRef.current.get(m.id)));
+    meetingsToLoad.every((m) =>
+      Array.isArray(cacheRef.current.get(`${m.id}:${sourceFor(m, sourceMode)}`)),
+    );
+
+  const transcriptInScope =
+    sourceMode === "best" && meetingsToLoad.some((m) => ftmTranscriptFor(m.id));
 
   const hits = useMemo(() => {
     if (!query || !allLoaded) return [];
@@ -209,6 +255,9 @@ export function LoudounMeetingSearch() {
       </h2>
       <p className="mt-2 text-sm text-muted-foreground">
         Search captions → jump the video · {LOUDOUN_MEETINGS.length} Board meetings indexed
+        {TRANSCRIPT_MEETING_COUNT > 0
+          ? ` · ${TRANSCRIPT_MEETING_COUNT} with full machine transcript`
+          : ""}
       </p>
 
       <aside className="mt-5 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">
@@ -216,6 +265,13 @@ export function LoudounMeetingSearch() {
         Auto-captions are not quote-grade — spelling breaks, names drop. Jump to the moment
         (Granicus or eScribe / ISI) and verify by ear. Do not cite captions as quotes.
       </aside>
+      {transcriptInScope ? (
+        <aside className="mt-3 rounded-r-md border-l-4 border-[#1E4B8E] bg-[#e8eef6] px-4 py-3 text-sm text-[#163a6e]">
+          <strong className="font-semibold">Full transcript where marked.</strong>{" "}
+          {FTM_TRANSCRIPT_LABEL} Meetings marked “Full transcript” search every spoken word;
+          the rest search county captions.
+        </aside>
+      ) : null}
 
       <form role="search" onSubmit={onSubmit} className="mt-6 flex flex-col gap-3 sm:flex-row">
         <label htmlFor="loudoun-meeting-q" className="sr-only">
@@ -273,10 +329,38 @@ export function LoudounMeetingSearch() {
               <option key={m.id} value={m.id}>
                 {m.dateLabel} · {m.title.replace(/^Loudoun BOS /, "")}
                 {loudounProvider(m) === "escribe" ? " · eScribe" : ""}
+                {ftmTranscriptFor(m.id) ? " · Full transcript" : ""}
               </option>
             ))}
           </select>
         </div>
+
+        {TRANSCRIPT_MEETING_COUNT > 0 ? (
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+              Search
+            </span>
+            {(
+              [
+                { id: "best" as const, label: "Transcript where available" },
+                { id: "captions" as const, label: "Captions only" },
+              ] as const
+            ).map((opt) => (
+              <button
+                key={opt.id}
+                type="button"
+                aria-pressed={sourceMode === opt.id}
+                onClick={() => setSourceMode(opt.id)}
+                className={cn(
+                  "rounded-full border border-border bg-wash px-3 py-1.5 font-sans text-xs font-medium text-foreground transition-[background-color,border-color,color] hover:border-[#1E4B8E] hover:bg-[#e8eef6] hover:text-[#1E4B8E]",
+                  sourceMode === opt.id && "border-[#1E4B8E] bg-[#e8eef6] text-[#1E4B8E]",
+                )}
+              >
+                {opt.label}
+              </button>
+            ))}
+          </div>
+        ) : null}
 
         <div className="flex flex-wrap items-center gap-2">
           <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
@@ -307,14 +391,14 @@ export function LoudounMeetingSearch() {
           ? "Enter a name or phrase, or tap a topic chip. Jump to the moment on the video."
           : loading
             ? meetingFilter === "all"
-              ? "Loading caption indexes…"
-              : "Loading meeting captions…"
+              ? "Loading meeting indexes…"
+              : "Loading meeting text…"
             : loadError
               ? `Could not load captions — ${loadError}`
               : hits.length
                 ? `${hits.length} window${hits.length === 1 ? "" : "s"}${
                     hits.length > HIT_CAP ? ` · showing first ${HIT_CAP}` : ""
-                  } · captions are approximate`
+                  } · ${transcriptInScope ? "machine transcript + captions are approximate" : "captions are approximate"}`
                 : `No hits for “${query}” — try a shorter stem (e.g. zone, supervis).`}
       </p>
 
@@ -335,6 +419,7 @@ export function LoudounMeetingSearch() {
               : "#";
             const source =
               meeting && loudounProvider(meeting) === "escribe" ? "eScribe / ISI" : "Granicus";
+            const recap = LOUDOUN_RECAP_BY_MEETING[w.meetingId];
             return (
               <li
                 key={`${w.meetingId}-${w.start}-${w.end}`}
@@ -342,13 +427,28 @@ export function LoudounMeetingSearch() {
               >
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <div className="min-w-0">
-                    <p className="font-mono text-sm font-semibold tabular-nums text-[#1E4B8E]">
-                      {secToHms(w.start)}
-                    </p>
+                    <div className="flex flex-wrap items-center gap-2">
+                      <p className="font-mono text-sm font-semibold tabular-nums text-[#1E4B8E]">
+                        {secToHms(w.start)}
+                      </p>
+                      <SourceBadge source={w.source} />
+                    </div>
                     {meeting ? (
                       <p className="mt-0.5 text-xs text-muted-foreground">
                         {meeting.dateLabel} · {meeting.title.replace(/^Loudoun BOS /, "")} ·{" "}
                         {source}
+                        {recap ? (
+                          <>
+                            {" · "}
+                            <Link
+                              to="/counties/loudoun/recaps/$slug"
+                              params={{ slug: recap.slug }}
+                              className="text-[#1E4B8E] underline-offset-2 hover:underline"
+                            >
+                              Meeting recap
+                            </Link>
+                          </>
+                        ) : null}
                       </p>
                     ) : (
                       <p className="mt-0.5 text-xs text-muted-foreground">{w.meetingId}</p>
@@ -367,6 +467,9 @@ export function LoudounMeetingSearch() {
                 <p className="mt-3 text-[0.98rem] leading-relaxed text-foreground">
                   <HighlightedSnippet text={w.text} query={query} />
                 </p>
+                {w.source === "transcript" ? (
+                  <p className="mt-2 text-xs text-muted-foreground">{FTM_TRANSCRIPT_LABEL}</p>
+                ) : null}
               </li>
             );
           })}

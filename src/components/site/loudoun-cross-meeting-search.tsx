@@ -21,6 +21,7 @@ import {
   type LcpsCaptionSlice,
   type LcpsMeeting,
 } from "@/content/lcps";
+import { FTM_TRANSCRIPT_LABEL, ftmTranscriptFor } from "@/content/ftm-transcripts";
 import { cn } from "@/lib/utils";
 
 const HIT_CAP = 80;
@@ -40,6 +41,8 @@ type CrossHit = {
   dateLabel: string;
   title: string;
   meetingKey: string;
+  /** transcript = machine speech-to-text; captions = official auto-captions. */
+  source: "transcript" | "captions";
 };
 
 type TopicChip = { label: string; query: string };
@@ -129,7 +132,8 @@ export function LoudounCrossMeetingSearch() {
     const county: LoadTarget[] = LOUDOUN_MEETINGS.map((meeting) => ({
       venue: "county" as const,
       meeting,
-      cacheKey: `county:${meeting.id}`,
+      // Machine transcript is the primary source where one exists (see ftm-transcripts.ts).
+      cacheKey: `county:${meeting.id}:${ftmTranscriptFor(meeting.id) ? "transcript" : "captions"}`,
     }));
     const schools: LoadTarget[] = LCPS_MEETINGS.map((meeting) => ({
       venue: "schools" as const,
@@ -152,7 +156,9 @@ export function LoudounCrossMeetingSearch() {
     setCacheTick((t) => t + 1);
 
     const promise = (async () => {
-      const res = await fetch(target.meeting.windowsUrl);
+      const transcript =
+        target.venue === "county" ? ftmTranscriptFor(target.meeting.id) : undefined;
+      const res = await fetch(transcript ? transcript.url : target.meeting.windowsUrl);
       if (!res.ok) {
         throw new Error(`HTTP ${res.status} for ${target.cacheKey}`);
       }
@@ -172,6 +178,7 @@ export function LoudounCrossMeetingSearch() {
             m.title.replace(/^Loudoun BOS /, "") +
             (loudounProvider(m) === "escribe" ? " · eScribe" : ""),
           meetingKey: m.id,
+          source: transcript ? ("transcript" as const) : ("captions" as const),
         }));
       } else {
         const m = target.meeting;
@@ -185,6 +192,7 @@ export function LoudounCrossMeetingSearch() {
           dateLabel: m.dateLabel,
           title: m.title,
           meetingKey: m.vimeoId,
+          source: "captions" as const,
         }));
       }
       cacheRef.current.set(target.cacheKey, hits);
@@ -284,6 +292,12 @@ export function LoudounCrossMeetingSearch() {
         Auto-captions are not quote-grade — spelling breaks, names drop. Jump to the moment and
         verify by ear. Do not cite captions as quotes.
       </aside>
+      {LOUDOUN_MEETINGS.some((m) => ftmTranscriptFor(m.id)) ? (
+        <aside className="mt-3 rounded-r-md border-l-4 border-[#1E4B8E] bg-[#e8eef6] px-4 py-3 text-sm text-[#163a6e]">
+          <strong className="font-semibold">Some meetings now have a full transcript.</strong>{" "}
+          {FTM_TRANSCRIPT_LABEL} Results from those meetings are marked “Machine transcript”.
+        </aside>
+      ) : null}
 
       <form role="search" onSubmit={onSubmit} className="mt-6 flex flex-col gap-3 sm:flex-row">
         <label htmlFor="loudoun-cross-meeting-q" className="sr-only">
@@ -379,7 +393,7 @@ export function LoudounCrossMeetingSearch() {
               : hits.length
                 ? `${hits.length} window${hits.length === 1 ? "" : "s"}${
                     hits.length > HIT_CAP ? ` · showing first ${HIT_CAP}` : ""
-                  } · captions are approximate`
+                  } · ${hits.some((h) => h.source === "transcript") ? "machine transcript + captions are approximate" : "captions are approximate"}`
                 : `No hits for “${query}” — try a shorter stem (e.g. zone, supervis).`}
       </p>
 
@@ -413,6 +427,11 @@ export function LoudounCrossMeetingSearch() {
                     >
                       {w.venue === "county" ? "County" : "Schools"}
                     </span>
+                    {w.source === "transcript" ? (
+                      <span className="rounded-sm bg-[#e8eef6] px-1.5 py-0.5 font-mono text-[10px] font-semibold tracking-wider text-[#1E4B8E] uppercase">
+                        Machine transcript
+                      </span>
+                    ) : null}
                   </div>
                   <p className="mt-0.5 text-xs text-muted-foreground">
                     {w.dateLabel} · {w.title}
@@ -431,6 +450,9 @@ export function LoudounCrossMeetingSearch() {
               <p className="mt-3 text-[0.98rem] leading-relaxed text-foreground">
                 <HighlightedSnippet text={w.text} query={query} />
               </p>
+              {w.source === "transcript" ? (
+                <p className="mt-2 text-xs text-muted-foreground">{FTM_TRANSCRIPT_LABEL}</p>
+              ) : null}
             </li>
           ))}
         </ul>

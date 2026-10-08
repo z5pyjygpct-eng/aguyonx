@@ -42,6 +42,8 @@ npm run build
 - Site identity: `src/content/site.ts`
 - Body blocks support paragraphs, headings, quotes, images, charts, X posts, and callouts. Citations and downloadable documents hang off each story.
 
+- Find the Moment meeting search, full machine transcripts, and meeting recaps: see `docs/find-the-moment-transcripts.md` (includes how to add the next meeting).
+
 To add an article: append an object to `ARTICLES` with a unique `slug`, then add any files under `public/library/`.
 
 All current records are `access: "public"`. The `"members"` value is reserved for later accounts — do not ship gated copy until auth is on.

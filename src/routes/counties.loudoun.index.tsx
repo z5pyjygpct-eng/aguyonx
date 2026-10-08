@@ -9,6 +9,7 @@ import {
   LOUDOUN_MEETINGS,
   LOUDOUN_OFFICIAL_DOORS,
 } from "@/content/loudoun";
+import { LOUDOUN_RECAPS } from "@/content/loudoun-recaps";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/counties/loudoun/")({
@@ -68,6 +69,28 @@ function LoudounCountyPage() {
             </Link>
           </p>
         </div>
+
+        {LOUDOUN_RECAPS.length > 0 ? (
+          <section className="mt-10">
+            <Kicker>Meeting recaps</Kicker>
+            <ul className="mt-3 space-y-2">
+              {LOUDOUN_RECAPS.map((r) => (
+                <li key={r.slug}>
+                  <Link
+                    to="/counties/loudoun/recaps/$slug"
+                    params={{ slug: r.slug }}
+                    className="font-serif text-lg text-[#1E4B8E] underline-offset-2 hover:underline"
+                  >
+                    {r.dateLabel} · {r.title}
+                  </Link>
+                  <span className="ml-2 text-sm text-muted-foreground">
+                    {r.official.votesPosted ? "Official votes posted" : "Official votes not yet posted"}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
 
         <section className="mt-14">
           <Kicker>Board of Supervisors</Kicker>
