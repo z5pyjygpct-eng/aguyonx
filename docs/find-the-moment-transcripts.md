@@ -68,3 +68,28 @@ Recaps live in `src/content/loudoun-recaps.ts` (`LOUDOUN_RECAPS`) and render at
 
 When the Action Report is posted: fill `decisions[]` (item, action as recorded, tally as
 recorded, source link), set `votesPosted: true`, and update `checkedLabel`.
+
+## Downloadable transcript (PDF + text) for a recap
+
+Built from the same cleaned windows file the search uses, so wording and timestamps match
+the site exactly (no edits, no speaker names added).
+
+1. Copy `scripts/transcript-meta/loudoun-bos-2026-10-06.json` to a new file for the meeting
+   and fill in `windowsFile`, `outBase`, `title`, `date`, `place`, `length`, the official
+   video/agenda `links`, `engine`, and `generated`.
+2. Build both files (Playwright; point `CHROME` at a Chrome binary if Playwright's own
+   browser is not installed):
+
+   ```bash
+   CHROME=/usr/bin/google-chrome node scripts/ftm-transcript-download.mjs scripts/transcript-meta/<meeting>.json
+   ```
+
+   Output: `{outBase}.pdf` (Coraggio Consulting logo on the first and last page, header and
+   "Page X of Y" footer on every page, real selectable text) and `{outBase}.txt`. Both carry
+   the notice: "Machine transcript (speech-to-text) produced by Coraggio Consulting. Not an
+   official county record. Names and numbers may be misspelled; check the video at the
+   timestamp before quoting."
+3. Add `transcriptDownloads: { pdfUrl, txtUrl, pdfNote }` to the meeting's entry in
+   `src/content/loudoun-recaps.ts`. The recap page then shows a "Download full transcript"
+   block with PDF and Text links.
+4. Rebuild the downloads whenever the transcript windows file is rebuilt.

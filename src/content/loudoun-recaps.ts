@@ -69,6 +69,16 @@ export type LoudounRecap = {
   context: RecapContextNote[];
   agenda: RecapAgendaGroup[];
   moments: RecapMoment[];
+  /**
+   * Downloadable full machine transcript (built by scripts/ftm-transcript-download.mjs).
+   * Omit until the files exist under public/.
+   */
+  transcriptDownloads?: {
+    pdfUrl: string;
+    txtUrl: string;
+    /** Short size hint shown next to the PDF link, e.g. "76 pages". */
+    pdfNote?: string;
+  };
 };
 
 const ESCRIBE = "https://pub-loudoun.escribemeetings.com";
@@ -197,6 +207,13 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
         ],
       },
     ],
+    transcriptDownloads: {
+      pdfUrl:
+        "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-10-06.pdf",
+      txtUrl:
+        "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-10-06.txt",
+      pdfNote: "76 pages",
+    },
     moments: [
       { seconds: 2672, item: "4", label: "The proposed consent agenda is read and discussed." },
       { seconds: 9441, item: "8", label: "Public input session opens (two minutes per speaker)." },

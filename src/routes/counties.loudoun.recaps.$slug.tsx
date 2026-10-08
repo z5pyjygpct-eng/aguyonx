@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { ExternalLink, PlayCircle } from "lucide-react";
+import { Download, ExternalLink, PlayCircle } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
@@ -171,6 +171,40 @@ function RecapPage() {
                 ) : null}
               </p>
             </section>
+
+            {recap.transcriptDownloads ? (
+              <section className="rounded-md border border-border bg-card px-4 py-5 sm:px-5">
+                <Kicker>Download full transcript</Kicker>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  <a
+                    href={recap.transcriptDownloads.pdfUrl}
+                    download
+                    className="inline-flex items-center gap-1.5 rounded-md bg-[#1E4B8E] px-3 py-1.5 font-sans text-xs font-semibold tracking-wide text-white uppercase hover:bg-[#163a6e]"
+                  >
+                    <Download className="size-3.5" aria-hidden />
+                    PDF
+                    {recap.transcriptDownloads.pdfNote ? (
+                      <span className="font-normal normal-case opacity-80">
+                        · {recap.transcriptDownloads.pdfNote}
+                      </span>
+                    ) : null}
+                  </a>
+                  <a
+                    href={recap.transcriptDownloads.txtUrl}
+                    download
+                    className="inline-flex items-center gap-1.5 rounded-md border border-[#1E4B8E] px-3 py-1.5 font-sans text-xs font-semibold tracking-wide text-[#1E4B8E] uppercase hover:bg-[#e8eef6]"
+                  >
+                    <Download className="size-3.5" aria-hidden />
+                    Text
+                  </a>
+                </div>
+                <p className="mt-3 text-xs text-muted-foreground">
+                  Machine transcript (speech-to-text) produced by Coraggio Consulting. Not an
+                  official county record. Names and numbers may be misspelled; check the video at
+                  the timestamp before quoting.
+                </p>
+              </section>
+            ) : null}
           </div>
 
           {/* Right: agenda */}

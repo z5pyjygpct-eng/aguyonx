@@ -96,3 +96,24 @@ test("alignLongSegments re-times sentences inside a long segment from caption cu
   // Text is never changed, only start times.
   assert.equal(out.map((s) => s.text).join(" "), segs.map((s) => s.text).join(" "));
 });
+
+test("download text keeps the notice, timestamps, and exact window text", async () => {
+  const { buildTxt, buildHtml, hms, NOTICE } = await import("./ftm-transcript-download.mjs");
+  const meta = {
+    title: "T",
+    date: "D",
+    place: "P",
+    length: "L",
+    links: [{ label: "Video", href: "https://example.com/v.mp4" }],
+    engine: "E",
+    generated: "2026-10-08",
+  };
+  const windows = [{ start: 2113.2, end: 2120, text: "We don't have quorum yet. <ok> & done" }];
+  const txt = buildTxt(meta, windows);
+  assert.equal(hms(2113.2), "00:35:13");
+  assert.ok(txt.includes(NOTICE));
+  assert.ok(txt.includes("[00:35:13] We don't have quorum yet. <ok> & done"));
+  const html = buildHtml(meta, windows, "data:image/png;base64,");
+  assert.ok(html.includes("[00:35:13]</span> We don&#39;t".replace("&#39;", "'")));
+  assert.ok(html.includes("&lt;ok&gt; &amp; done"));
+});

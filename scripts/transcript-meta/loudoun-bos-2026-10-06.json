@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/escribe-3a6eea40.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-10-06",
+  "title": "Loudoun County Board of Supervisors, Business Meeting, Tuesday, Oct 6, 2026",
+  "shortTitle": "Loudoun BOS Business Meeting · Oct 6, 2026",
+  "date": "Tuesday, October 6, 2026, 4:00 PM",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "6 hours 36 minutes (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, eScribe)",
+      "href": "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=3a6eea40-36a8-49b2-9488-cedd456be4d9"
+    },
+    {
+      "label": "Video file the timestamps follow",
+      "href": "https://video.isilive.ca/loudouncty/88-Board-of-Supervisors-Business-Meeting-2026-10-6-19-26.mp4"
+    },
+    {
+      "label": "Official agenda (county, eScribe)",
+      "href": "https://pub-loudoun.escribemeetings.com/Meeting.aspx?Id=3a6eea40-36a8-49b2-9488-cedd456be4d9&Agenda=Agenda&lang=English"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-08"
+}
