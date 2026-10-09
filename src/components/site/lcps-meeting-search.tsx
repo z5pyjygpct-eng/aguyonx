@@ -17,6 +17,7 @@ import {
   type LcpsCaptionWindow,
   type LcpsMeeting,
 } from "@/content/lcps";
+import { FTM_TRANSCRIPT_LABEL, FTM_TRANSCRIPTS, ftmTranscriptFor } from "@/content/ftm-transcripts";
 import { cn } from "@/lib/utils";
 import { FTM_PACK_MIN_MEETINGS, FtmFetchError, fetchFtmSlices } from "@/lib/ftm-pack";
 
@@ -59,13 +60,38 @@ function HighlightedSnippet({ text, query }: { text: string; query: string }) {
   return <>{nodes}</>;
 }
 
-function searchWindows(windows: LcpsCaptionWindow[], query: string): LcpsCaptionWindow[] {
+/** Where a search window came from. Transcript = whisper speech-to-text; captions = auto-captions. */
+type WindowSource = "transcript" | "captions";
+type SourcedWindow = LcpsCaptionWindow & { source: WindowSource };
+/** "best" = machine transcript where one exists, captions elsewhere. */
+type SourceMode = "best" | "captions";
+
+const TRANSCRIPT_MEETING_COUNT = FTM_TRANSCRIPTS.filter((t) => t.venue === "loudoun-lcps").length;
+
+function sourceFor(meeting: LcpsMeeting, mode: SourceMode): WindowSource {
+  return mode === "best" && ftmTranscriptFor(meeting.id) ? "transcript" : "captions";
+}
+
+function searchWindows(windows: SourcedWindow[], query: string): SourcedWindow[] {
   const q = query.trim().toLowerCase();
   if (!q) return [];
   return windows.filter((w) => w.text.toLowerCase().includes(q));
 }
 
-type CacheEntry = LcpsCaptionWindow[] | "loading" | "error";
+type CacheEntry = SourcedWindow[] | "loading" | "error";
+
+function SourceBadge({ source }: { source: WindowSource }) {
+  return (
+    <span
+      className={cn(
+        "rounded-sm px-1.5 py-0.5 font-mono text-[10px] font-semibold tracking-wider uppercase",
+        source === "transcript" ? "bg-[#e8eef6] text-[#1E4B8E]" : "bg-wash text-muted-foreground",
+      )}
+    >
+      {source === "transcript" ? "Machine transcript" : "Captions"}
+    </span>
+  );
+}
 
 export function LcpsMeetingSearch() {
   const [q, setQ] = useState("");
@@ -75,13 +101,14 @@ export function LcpsMeetingSearch() {
   const [kindFilter, setKindFilter] = useState<
     "all" | "full_board" | "committee" | "closed_appeals"
   >("all");
+  const [sourceMode, setSourceMode] = useState<SourceMode>("best");
   const [cacheTick, setCacheTick] = useState(0);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
   /** In-memory cache of fetched meeting windows (module-lifetime via ref). */
   const cacheRef = useRef<Map<string, CacheEntry>>(new Map());
-  const inflightRef = useRef<Map<string, Promise<LcpsCaptionWindow[]>>>(new Map());
+  const inflightRef = useRef<Map<string, Promise<SourcedWindow[]>>>(new Map());
 
   /** Batch re-renders while many meetings stream in (one per ~120 ms). */
   const tickTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -100,43 +127,54 @@ export function LcpsMeetingSearch() {
   );
 
   const loadMeeting = useCallback(
-    async (meeting: LcpsMeeting, pack: boolean): Promise<LcpsCaptionWindow[]> => {
-      const cached = cacheRef.current.get(meeting.vimeoId);
+    async (
+      meeting: LcpsMeeting,
+      source: WindowSource,
+      pack: boolean,
+    ): Promise<SourcedWindow[]> => {
+      const key = `${meeting.id}:${source}`;
+      const cached = cacheRef.current.get(key);
       if (Array.isArray(cached)) return cached;
 
-      const existing = inflightRef.current.get(meeting.vimeoId);
+      const existing = inflightRef.current.get(key);
       if (existing) return existing;
 
-      cacheRef.current.set(meeting.vimeoId, "loading");
+      cacheRef.current.set(key, "loading");
+
+      const url =
+        source === "transcript"
+          ? (ftmTranscriptFor(meeting.id)?.url ?? meeting.windowsUrl)
+          : meeting.windowsUrl;
 
       const promise = (async () => {
         let slices: LcpsCaptionSlice[];
         try {
-          slices = await fetchFtmSlices(meeting.windowsUrl, { pack });
+          slices = await fetchFtmSlices(url, { pack });
         } catch (err) {
           if (err instanceof FtmFetchError) {
             throw new Error(`HTTP ${err.status} for Vimeo ${meeting.vimeoId}`);
           }
           throw err;
         }
-        const windows: LcpsCaptionWindow[] = slices.map((s) => ({
+        const windows: SourcedWindow[] = slices.map((s) => ({
           vimeoId: meeting.vimeoId,
           start: s.start,
           end: s.end,
           text: s.text,
+          source,
         }));
-        cacheRef.current.set(meeting.vimeoId, windows);
-        inflightRef.current.delete(meeting.vimeoId);
+        cacheRef.current.set(key, windows);
+        inflightRef.current.delete(key);
         bumpSoon();
         return windows;
       })().catch((err) => {
-        cacheRef.current.set(meeting.vimeoId, "error");
-        inflightRef.current.delete(meeting.vimeoId);
+        cacheRef.current.set(key, "error");
+        inflightRef.current.delete(key);
         setCacheTick((t) => t + 1);
         throw err;
       });
 
-      inflightRef.current.set(meeting.vimeoId, promise);
+      inflightRef.current.set(key, promise);
       return promise;
     },
     [bumpSoon],
@@ -179,7 +217,9 @@ export function LcpsMeetingSearch() {
       try {
         // Newest meetings first; multi-meeting searches stream from the venue pack.
         const pack = meetingsToLoad.length >= FTM_PACK_MIN_MEETINGS;
-        await Promise.all(meetingsToLoad.map((m) => loadMeeting(m, pack)));
+        await Promise.all(
+          meetingsToLoad.map((m) => loadMeeting(m, sourceFor(m, sourceMode), pack)),
+        );
         if (!cancelled) {
           setCacheTick((t) => t + 1);
           setLoading(false);
@@ -195,24 +235,29 @@ export function LcpsMeetingSearch() {
     return () => {
       cancelled = true;
     };
-  }, [query, meetingsToLoad, loadMeeting]);
+  }, [query, meetingsToLoad, loadMeeting, sourceMode]);
 
   const windowsReady = useMemo(() => {
     void cacheTick;
-    const out: LcpsCaptionWindow[] = [];
+    const out: SourcedWindow[] = [];
     for (const m of meetingsToLoad) {
-      const entry = cacheRef.current.get(m.vimeoId);
+      const entry = cacheRef.current.get(`${m.id}:${sourceFor(m, sourceMode)}`);
       if (Array.isArray(entry)) out.push(...entry);
     }
     return out;
-  }, [meetingsToLoad, cacheTick]);
+  }, [meetingsToLoad, cacheTick, sourceMode]);
 
   const allLoaded =
     meetingsToLoad.length > 0 &&
-    meetingsToLoad.every((m) => Array.isArray(cacheRef.current.get(m.vimeoId)));
+    meetingsToLoad.every((m) =>
+      Array.isArray(cacheRef.current.get(`${m.id}:${sourceFor(m, sourceMode)}`)),
+    );
+
+  const transcriptInScope =
+    sourceMode === "best" && meetingsToLoad.some((m) => ftmTranscriptFor(m.id));
 
   const loadedCount = meetingsToLoad.filter((m) =>
-    Array.isArray(cacheRef.current.get(m.vimeoId)),
+    Array.isArray(cacheRef.current.get(`${m.id}:${sourceFor(m, sourceMode)}`)),
   ).length;
   /** True from submit until every meeting in scope is loaded (no "No hits" flash). */
   const pending = Boolean(query) && !allLoaded && !loadError;
@@ -247,6 +292,9 @@ export function LcpsMeetingSearch() {
       <p className="mt-2 text-sm text-muted-foreground">
         Search captions → jump the video · {LCPS_MEETINGS.length} meetings indexed (full board +
         committees + closed/appeals · 2025–2026 YTD)
+        {TRANSCRIPT_MEETING_COUNT > 0
+          ? ` · ${TRANSCRIPT_MEETING_COUNT} with full machine transcript`
+          : ""}
       </p>
 
       <aside className="mt-5 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">
@@ -254,6 +302,13 @@ export function LcpsMeetingSearch() {
         Auto-captions are not quote-grade — spelling breaks, names drop. Jump to the moment on Vimeo
         and verify by ear. Do not cite captions as quotes.
       </aside>
+      {transcriptInScope ? (
+        <aside className="mt-3 rounded-r-md border-l-4 border-[#1E4B8E] bg-[#e8eef6] px-4 py-3 text-sm text-[#163a6e]">
+          <strong className="font-semibold">Full transcript where marked.</strong>{" "}
+          {FTM_TRANSCRIPT_LABEL} Meetings marked “Full transcript” search every spoken word; the
+          rest search captions.
+        </aside>
+      ) : null}
 
       <form role="search" onSubmit={onSubmit} className="mt-6 flex flex-col gap-3 sm:flex-row">
         <label htmlFor="lcps-meeting-q" className="sr-only">
@@ -339,10 +394,38 @@ export function LcpsMeetingSearch() {
             {kindFilteredMeetings.map((m) => (
               <option key={m.vimeoId} value={m.vimeoId}>
                 {m.dateLabel} · {m.title}
+                {ftmTranscriptFor(m.id) ? " · Full transcript" : ""}
               </option>
             ))}
           </select>
         </div>
+
+        {TRANSCRIPT_MEETING_COUNT > 0 ? (
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+              Search
+            </span>
+            {(
+              [
+                { id: "best" as const, label: "Transcript where available" },
+                { id: "captions" as const, label: "Captions only" },
+              ] as const
+            ).map((opt) => (
+              <button
+                key={opt.id}
+                type="button"
+                aria-pressed={sourceMode === opt.id}
+                onClick={() => setSourceMode(opt.id)}
+                className={cn(
+                  "rounded-full border border-border bg-wash px-3 py-1.5 font-sans text-xs font-medium text-foreground transition-[background-color,border-color,color] hover:border-[#1E4B8E] hover:bg-[#e8eef6] hover:text-[#1E4B8E]",
+                  sourceMode === opt.id && "border-[#1E4B8E] bg-[#e8eef6] text-[#1E4B8E]",
+                )}
+              >
+                {opt.label}
+              </button>
+            ))}
+          </div>
+        ) : null}
 
         <div className="flex flex-wrap items-center gap-2">
           <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
@@ -375,14 +458,14 @@ export function LcpsMeetingSearch() {
             ? meetingsToLoad.length > 1
               ? hits.length
                 ? `${hits.length} window${hits.length === 1 ? "" : "s"} so far · searching ${loadedCount} of ${meetingsToLoad.length} meetings…`
-                : `Loading caption indexes… ${loadedCount} of ${meetingsToLoad.length}`
-              : "Loading meeting captions…"
+                : `Loading meeting indexes… ${loadedCount} of ${meetingsToLoad.length}`
+              : "Loading meeting text…"
             : loadError
               ? `Could not load captions — ${loadError}`
               : hits.length
                 ? `${hits.length} window${hits.length === 1 ? "" : "s"}${
                     hits.length > HIT_CAP ? ` · showing first ${HIT_CAP}` : ""
-                  } · captions are approximate`
+                  } · ${transcriptInScope ? "machine transcript + captions are approximate" : "captions are approximate"}`
                 : `No hits for “${query}” — try a shorter stem (e.g. budget, policy).`}
       </p>
 
@@ -401,14 +484,17 @@ export function LcpsMeetingSearch() {
             const meeting = LCPS_MEETING_BY_VIMEO[w.vimeoId];
             return (
               <li
-                key={`${w.vimeoId}-${w.start}-${w.end}`}
+                key={`${w.vimeoId}-${w.start}-${w.end}-${w.source}`}
                 className="rounded-md border border-border bg-paper px-4 py-4"
               >
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <div className="min-w-0">
-                    <p className="font-mono text-sm font-semibold tabular-nums text-[#1E4B8E]">
-                      {secToHms(w.start)}
-                    </p>
+                    <div className="flex flex-wrap items-center gap-2">
+                      <p className="font-mono text-sm font-semibold tabular-nums text-[#1E4B8E]">
+                        {secToHms(w.start)}
+                      </p>
+                      <SourceBadge source={w.source} />
+                    </div>
                     {meeting ? (
                       <p className="mt-0.5 text-xs text-muted-foreground">
                         {meeting.dateLabel} · {meeting.committeeName || meeting.title}
@@ -431,6 +517,9 @@ export function LcpsMeetingSearch() {
                 <p className="mt-3 text-[0.98rem] leading-relaxed text-foreground">
                   <HighlightedSnippet text={w.text} query={query} />
                 </p>
+                {w.source === "transcript" ? (
+                  <p className="mt-2 text-xs text-muted-foreground">{FTM_TRANSCRIPT_LABEL}</p>
+                ) : null}
               </li>
             );
           })}

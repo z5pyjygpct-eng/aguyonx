@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/escribe-be4b3b17.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-09-09-public-hearing",
+  "title": "Loudoun County Board of Supervisors, Public Hearing, Wednesday, September 9, 2026",
+  "shortTitle": "BOS Public Hearing \u00b7 Sep 9, 2026",
+  "date": "Wednesday, September 9, 2026",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "1h 35m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, eScribe)",
+      "href": "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=be4b3b17-ccfc-40f8-9ed4-0f8e705e0928"
+    },
+    {
+      "label": "Video file the timestamps follow",
+      "href": "https://video.isilive.ca/loudouncty/85-Board-of-Supervisors-Public-Hearing-2026-9-9-21-53.mp4"
+    },
+    {
+      "label": "Official agenda (county, eScribe)",
+      "href": "https://pub-loudoun.escribemeetings.com/Meeting.aspx?Id=be4b3b17-ccfc-40f8-9ed4-0f8e705e0928&Agenda=Agenda&lang=English"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-09"
+}

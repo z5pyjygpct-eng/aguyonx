@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-08-11-1217434020.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-08-11-2nd-tuesday-school-board-meeting",
+  "title": "Loudoun County School Board, 2nd Tuesday School Board Meeting, Tuesday, August 11, 2026",
+  "shortTitle": "2nd Tuesday School Board Meeting \u00b7 Aug 11, 2026",
+  "date": "Tuesday, August 11, 2026",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "8h 14m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1217434020?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DV3GCL432C63"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-09"
+}

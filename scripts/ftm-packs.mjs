@@ -49,7 +49,7 @@ export const FTM_PACK_VENUES = [
   },
   {
     venue: "loudoun-lcps",
-    catalogs: ["src/content/lcps.ts"],
+    catalogs: ["src/content/ftm-transcripts.ts", "src/content/lcps.ts"],
   },
 ];
 

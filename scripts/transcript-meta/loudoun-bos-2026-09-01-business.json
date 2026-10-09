@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/escribe-929244b6.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-09-01-business",
+  "title": "Loudoun County Board of Supervisors, Business Meeting, Tuesday, September 1, 2026",
+  "shortTitle": "BOS Business Meeting \u00b7 Sep 1, 2026",
+  "date": "Tuesday, September 1, 2026",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "7h 51m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, eScribe)",
+      "href": "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=929244b6-a7bd-4399-b2dc-47491ce17657"
+    },
+    {
+      "label": "Video file the timestamps follow",
+      "href": "https://video.isilive.ca/loudouncty/83-Board-of-Supervisors-Business-Meeting-2026-9-1-19-51.mp4"
+    },
+    {
+      "label": "Official agenda (county, eScribe)",
+      "href": "https://pub-loudoun.escribemeetings.com/Meeting.aspx?Id=929244b6-a7bd-4399-b2dc-47491ce17657&Agenda=Agenda&lang=English"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-09"
+}

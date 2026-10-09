@@ -7,6 +7,7 @@ that second. Two text sources exist per meeting:
 | --- | --- | --- |
 | County auto-captions (index) | `public/files/find-the-moment/loudoun-bos/{meetingId}.json` | Always kept. Not quote-grade. |
 | Machine transcript (speech-to-text) | `public/files/find-the-moment/loudoun-bos/transcripts/{meetingId}.json` | Primary search source when listed in the manifest. Not quote-grade either: check the video before quoting. |
+| Machine transcript — School Board | `public/files/find-the-moment/loudoun-lcps/transcripts/{meetingId}.json` | Same shape. `meetingId` is the site id (e.g. `2026-09-22-1229286967`), not the Vimeo id. Captions stay at `loudoun-lcps/{vimeoId}.json`. |
 
 Both files use the same shape: an array of `{ "start": seconds, "end": seconds, "text": "..." }`.
 Hits jump the video with the meeting's existing jump URL (`loudounMeetingJumpUrl`; eScribe/ISI

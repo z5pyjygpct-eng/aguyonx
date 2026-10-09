@@ -138,7 +138,8 @@ export function LoudounCrossMeetingSearch() {
     const schools: LoadTarget[] = LCPS_MEETINGS.map((meeting) => ({
       venue: "schools" as const,
       meeting,
-      cacheKey: `schools:${meeting.vimeoId}`,
+      // Machine transcript is the primary source where one exists (see ftm-transcripts.ts).
+      cacheKey: `schools:${meeting.id}:${ftmTranscriptFor(meeting.id) ? "transcript" : "captions"}`,
     }));
     if (venueFilter === "county") return county;
     if (venueFilter === "schools") return schools;
@@ -156,8 +157,7 @@ export function LoudounCrossMeetingSearch() {
       cacheRef.current.set(target.cacheKey, "loading");
 
       const promise = (async () => {
-        const transcript =
-          target.venue === "county" ? ftmTranscriptFor(target.meeting.id) : undefined;
+        const transcript = ftmTranscriptFor(target.meeting.id);
         let slices: LoudounCaptionSlice[] | LcpsCaptionSlice[];
         try {
           slices = await fetchFtmSlices(transcript ? transcript.url : target.meeting.windowsUrl, {
@@ -198,7 +198,7 @@ export function LoudounCrossMeetingSearch() {
             dateLabel: m.dateLabel,
             title: m.title,
             meetingKey: m.vimeoId,
-            source: "captions" as const,
+            source: transcript ? ("transcript" as const) : ("captions" as const),
           }));
         }
         cacheRef.current.set(target.cacheKey, hits);
@@ -311,7 +311,8 @@ export function LoudounCrossMeetingSearch() {
         Auto-captions are not quote-grade — spelling breaks, names drop. Jump to the moment and
         verify by ear. Do not cite captions as quotes.
       </aside>
-      {LOUDOUN_MEETINGS.some((m) => ftmTranscriptFor(m.id)) ? (
+      {LOUDOUN_MEETINGS.some((m) => ftmTranscriptFor(m.id)) ||
+      LCPS_MEETINGS.some((m) => ftmTranscriptFor(m.id)) ? (
         <aside className="mt-3 rounded-r-md border-l-4 border-[#1E4B8E] bg-[#e8eef6] px-4 py-3 text-sm text-[#163a6e]">
           <strong className="font-semibold">Some meetings now have a full transcript.</strong>{" "}
           {FTM_TRANSCRIPT_LABEL} Results from those meetings are marked “Machine transcript”.
