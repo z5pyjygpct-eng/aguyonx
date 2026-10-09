@@ -51,6 +51,43 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "warner-mizusawa-disability-forum-vamercury-2026-10-08",
+    date: "2026-10-08",
+    filed: "2026-10-09",
+    headline: "Warner, Mizusawa outline competing approaches to disability policy",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/08/warner-mizusawa-outline-competing-approaches-to-disability-policy/",
+    people: [{ name: "Mark Warner", office: "U.S. Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-hispanic-heritage-celebration-oag-2026-10-08",
+    date: "2026-10-08",
+    filed: "2026-10-09",
+    headline:
+      "Attorney General Jay Jones Hosts First-of-its-Kind Hispanic Heritage Month Celebration in OAG History",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3135-attorney-general-jay-jones-hosts-first-of-its-kind-hispanic-heritage-month-celebration-in-oag-history",
+    people: [
+      { name: "Jay Jones", office: "Attorney General" },
+      { name: "Elizabeth Guzmán", office: "State Delegate" },
+      { name: "Alfonso Lopez", office: "State Delegate" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-energy-plan-transmission-costs-cardinal-2026-10-08",
+    date: "2026-10-08",
+    filed: "2026-10-09",
+    headline:
+      "Governor’s energy plan says a shortage of transmission lines is driving up the cost of power",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/10/08/governors-energy-plan-says-data-centers-have-broken-the-business-model-behind-grid-upgrades/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+
+  {
     id: "fairfax-delegation-k12-funding-dialogue-ffxnow-2026-10-08",
     date: "2026-10-08",
     headline:
