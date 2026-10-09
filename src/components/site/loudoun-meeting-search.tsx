@@ -22,10 +22,9 @@ import {
 import { FTM_TRANSCRIPT_LABEL, FTM_TRANSCRIPTS, ftmTranscriptFor } from "@/content/ftm-transcripts";
 import { LOUDOUN_RECAP_BY_MEETING } from "@/content/loudoun-recaps";
 import { cn } from "@/lib/utils";
+import { FTM_PACK_MIN_MEETINGS, FtmFetchError, fetchFtmSlices } from "@/lib/ftm-pack";
 
 const HIT_CAP = 60;
-/** Parallel fetches when searching All indexed meetings (Hobby-safe). */
-const ALL_FETCH_CONCURRENCY = 6;
 
 function secToHms(raw: number): string {
   const s = Math.floor(raw);
@@ -82,21 +81,6 @@ function searchWindows(windows: SourcedWindow[], query: string): SourcedWindow[]
   return windows.filter((w) => w.text.toLowerCase().includes(q));
 }
 
-async function mapPool<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
-  const results: R[] = new Array(items.length);
-  let next = 0;
-  async function worker() {
-    while (next < items.length) {
-      const i = next;
-      next += 1;
-      results[i] = await fn(items[i]!);
-    }
-  }
-  const n = Math.min(limit, items.length);
-  await Promise.all(Array.from({ length: n }, () => worker()));
-  return results;
-}
-
 type CacheEntry = SourcedWindow[] | "loading" | "error";
 
 function SourceBadge({ source }: { source: WindowSource }) {
@@ -125,8 +109,28 @@ export function LoudounMeetingSearch() {
   const cacheRef = useRef<Map<string, CacheEntry>>(new Map());
   const inflightRef = useRef<Map<string, Promise<SourcedWindow[]>>>(new Map());
 
+  /** Batch re-renders while many meetings stream in (one per ~120 ms). */
+  const tickTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const bumpSoon = useCallback(() => {
+    if (tickTimerRef.current) return;
+    tickTimerRef.current = setTimeout(() => {
+      tickTimerRef.current = null;
+      setCacheTick((t) => t + 1);
+    }, 120);
+  }, []);
+  useEffect(
+    () => () => {
+      if (tickTimerRef.current) clearTimeout(tickTimerRef.current);
+    },
+    [],
+  );
+
   const loadMeeting = useCallback(
-    async (meeting: LoudounMeeting, source: WindowSource): Promise<SourcedWindow[]> => {
+    async (
+      meeting: LoudounMeeting,
+      source: WindowSource,
+      pack: boolean,
+    ): Promise<SourcedWindow[]> => {
       const key = `${meeting.id}:${source}`;
       const cached = cacheRef.current.get(key);
       if (Array.isArray(cached)) return cached;
@@ -135,7 +139,6 @@ export function LoudounMeetingSearch() {
       if (existing) return existing;
 
       cacheRef.current.set(key, "loading");
-      setCacheTick((t) => t + 1);
 
       const url =
         source === "transcript"
@@ -143,9 +146,15 @@ export function LoudounMeetingSearch() {
           : meeting.windowsUrl;
 
       const promise = (async () => {
-        const res = await fetch(url);
-        if (!res.ok) throw new Error(`HTTP ${res.status} for meeting ${meeting.id}`);
-        const slices = (await res.json()) as LoudounCaptionSlice[];
+        let slices: LoudounCaptionSlice[];
+        try {
+          slices = await fetchFtmSlices(url, { pack });
+        } catch (err) {
+          if (err instanceof FtmFetchError) {
+            throw new Error(`HTTP ${err.status} for meeting ${meeting.id}`);
+          }
+          throw err;
+        }
         const windows: SourcedWindow[] = slices.map((s) => ({
           meetingId: meeting.id,
           start: s.start,
@@ -155,7 +164,7 @@ export function LoudounMeetingSearch() {
         }));
         cacheRef.current.set(key, windows);
         inflightRef.current.delete(key);
-        setCacheTick((t) => t + 1);
+        bumpSoon();
         return windows;
       })().catch((err) => {
         cacheRef.current.set(key, "error");
@@ -167,7 +176,7 @@ export function LoudounMeetingSearch() {
       inflightRef.current.set(key, promise);
       return promise;
     },
-    [],
+    [bumpSoon],
   );
 
   const meetingsToLoad = useMemo(() => {
@@ -191,10 +200,15 @@ export function LoudounMeetingSearch() {
 
     (async () => {
       try {
-        await mapPool(meetingsToLoad, ALL_FETCH_CONCURRENCY, (m) =>
-          loadMeeting(m, sourceFor(m, sourceMode)),
+        // Newest meetings first; multi-meeting searches stream from the venue pack.
+        const pack = meetingsToLoad.length >= FTM_PACK_MIN_MEETINGS;
+        await Promise.all(
+          meetingsToLoad.map((m) => loadMeeting(m, sourceFor(m, sourceMode), pack)),
         );
-        if (!cancelled) setLoading(false);
+        if (!cancelled) {
+          setCacheTick((t) => t + 1);
+          setLoading(false);
+        }
       } catch (err) {
         if (!cancelled) {
           setLoading(false);
@@ -228,10 +242,18 @@ export function LoudounMeetingSearch() {
   const transcriptInScope =
     sourceMode === "best" && meetingsToLoad.some((m) => ftmTranscriptFor(m.id));
 
+  const loadedCount = meetingsToLoad.filter((m) =>
+    Array.isArray(cacheRef.current.get(`${m.id}:${sourceFor(m, sourceMode)}`)),
+  ).length;
+  /** True from submit until every meeting in scope is loaded (no "No hits" flash). */
+  const pending = Boolean(query) && !allLoaded && !loadError;
+
+  // Hits show as meetings arrive (newest first); the final list is the same as
+  // searching everything at once.
   const hits = useMemo(() => {
-    if (!query || !allLoaded) return [];
+    if (!query) return [];
     return searchWindows(windowsReady, query);
-  }, [query, allLoaded, windowsReady]);
+  }, [query, windowsReady]);
 
   const shown = hits.slice(0, HIT_CAP);
 
@@ -268,8 +290,8 @@ export function LoudounMeetingSearch() {
       {transcriptInScope ? (
         <aside className="mt-3 rounded-r-md border-l-4 border-[#1E4B8E] bg-[#e8eef6] px-4 py-3 text-sm text-[#163a6e]">
           <strong className="font-semibold">Full transcript where marked.</strong>{" "}
-          {FTM_TRANSCRIPT_LABEL} Meetings marked “Full transcript” search every spoken word;
-          the rest search county captions.
+          {FTM_TRANSCRIPT_LABEL} Meetings marked “Full transcript” search every spoken word; the
+          rest search county captions.
         </aside>
       ) : null}
 
@@ -389,9 +411,11 @@ export function LoudounMeetingSearch() {
       >
         {!query
           ? "Enter a name or phrase, or tap a topic chip. Jump to the moment on the video."
-          : loading
-            ? meetingFilter === "all"
-              ? "Loading meeting indexes…"
+          : loading || pending
+            ? meetingsToLoad.length > 1
+              ? hits.length
+                ? `${hits.length} window${hits.length === 1 ? "" : "s"} so far · searching ${loadedCount} of ${meetingsToLoad.length} meetings…`
+                : `Loading meeting indexes… ${loadedCount} of ${meetingsToLoad.length}`
               : "Loading meeting text…"
             : loadError
               ? `Could not load captions — ${loadError}`
@@ -402,7 +426,7 @@ export function LoudounMeetingSearch() {
                 : `No hits for “${query}” — try a shorter stem (e.g. zone, supervis).`}
       </p>
 
-      {query && !loading && !loadError && hits.length === 0 ? (
+      {query && !loading && !pending && !loadError && hits.length === 0 ? (
         <p className="mt-4 text-sm text-muted-foreground">
           Nothing matched. Auto-captions misspell constantly — shorter tokens work better. Or widen
           the meeting filter to All.
@@ -414,9 +438,7 @@ export function LoudounMeetingSearch() {
           {shown.map((w) => {
             const sec = Math.floor(w.start);
             const meeting = LOUDOUN_MEETING_BY_ID[w.meetingId];
-            const href = meeting
-              ? loudounMeetingJumpUrl(meeting, sec)
-              : "#";
+            const href = meeting ? loudounMeetingJumpUrl(meeting, sec) : "#";
             const source =
               meeting && loudounProvider(meeting) === "escribe" ? "eScribe / ISI" : "Granicus";
             const recap = LOUDOUN_RECAP_BY_MEETING[w.meetingId];

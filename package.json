@@ -20,7 +20,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "index:delegates": "node scripts/extract-delegate-pdfs.mjs",
-    "index:lcps-budget": "node scripts/extract-lcps-budget.mjs"
+    "index:lcps-budget": "node scripts/extract-lcps-budget.mjs",
+    "ftm:packs": "node scripts/ftm-packs.mjs"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.4",

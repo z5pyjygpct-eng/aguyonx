@@ -11,6 +11,8 @@ import { grokPwaPlugin } from "./scripts/grok-pwa-plugin.mjs";
 // @ts-expect-error JS plugin alongside the TS vite config
 import { appEnvPlugin } from "./scripts/app-env-plugin.mjs";
 import { isMigrationFile } from "./scripts/migration-plan.mjs";
+// @ts-expect-error JS module alongside the TS vite config
+import { buildFtmPacks } from "./scripts/ftm-packs.mjs";
 
 /** The files `src/lib/db.ts` globs — same directory, same non-recursive scope. */
 function hasGlobbedMigrations(root: string): boolean {
@@ -142,6 +144,24 @@ function authPopupPlugin(): Plugin {
   };
 }
 
+/**
+ * Find the Moment search packs (scripts/ftm-packs.mjs): rebuilt from the
+ * per-meeting window files at the start of every production build, before
+ * Vite copies public/, so a deploy never ships a stale pack. Git-ignored.
+ */
+function ftmPacksPlugin(): Plugin {
+  let built = false;
+  return {
+    name: "aguyonx:ftm-packs",
+    apply: "build",
+    buildStart() {
+      if (built) return;
+      built = true;
+      buildFtmPacks();
+    },
+  };
+}
+
 // `0.0.0.0:8080` is the live-preview contract — don't change host/port.
 // The dev server starts once `src/router.tsx` and `src/routes/` exist — see
 // AGENTS.md § "First scaffold".
@@ -168,6 +188,7 @@ export default defineConfig(({ command, isPreview }) => ({
     appEnvPlugin(),
     // PWA head + ?install=1 tutorial page; runs before Start/Nitro.
     grokPwaPlugin(),
+    ftmPacksPlugin(),
     tailwindcss(),
     tanstackStart(),
     ...(command === "build" || isPreview
@@ -178,6 +199,14 @@ export default defineConfig(({ command, isPreview }) => ({
             // manifest + head-tag middleware). Nitro v3 defaults serverDir to
             // false, so removing this silently unwires /?install=1 on deploys.
             serverDir: "./server",
+            // Find the Moment pack chunks have a content hash in the name, so
+            // they never change: cache them for a year (browser + CDN).
+            routeRules: Object.fromEntries(
+              ["loudoun-bos", "loudoun-lcps"].map((venue) => [
+                `/files/find-the-moment/${venue}/pack/chunks/**`,
+                { headers: { "cache-control": "public, max-age=31536000, immutable" } },
+              ]),
+            ),
           }),
         ]
       : []),

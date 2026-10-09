@@ -23,10 +23,9 @@ import {
 } from "@/content/lcps";
 import { FTM_TRANSCRIPT_LABEL, ftmTranscriptFor } from "@/content/ftm-transcripts";
 import { cn } from "@/lib/utils";
+import { FTM_PACK_MIN_MEETINGS, FtmFetchError, fetchFtmSlices } from "@/lib/ftm-pack";
 
 const HIT_CAP = 80;
-/** Parallel fetches across venues (Hobby-safe lazy-load). */
-const ALL_FETCH_CONCURRENCY = 6;
 
 type Venue = "county" | "schools";
 type VenueFilter = "all" | Venue;
@@ -94,21 +93,6 @@ function HighlightedSnippet({ text, query }: { text: string; query: string }) {
   return <>{nodes}</>;
 }
 
-async function mapPool<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
-  const results: R[] = new Array(items.length);
-  let next = 0;
-  async function worker() {
-    while (next < items.length) {
-      const i = next;
-      next += 1;
-      results[i] = await fn(items[i]!);
-    }
-  }
-  const n = Math.min(limit, items.length);
-  await Promise.all(Array.from({ length: n }, () => worker()));
-  return results;
-}
-
 type LoadTarget =
   | { venue: "county"; meeting: LoudounMeeting; cacheKey: string }
   | { venue: "schools"; meeting: LcpsMeeting; cacheKey: string };
@@ -128,6 +112,22 @@ export function LoudounCrossMeetingSearch() {
   const cacheRef = useRef<Map<string, CacheEntry>>(new Map());
   const inflightRef = useRef<Map<string, Promise<CrossHit[]>>>(new Map());
 
+  /** Batch re-renders while many meetings stream in (one per ~120 ms). */
+  const tickTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const bumpSoon = useCallback(() => {
+    if (tickTimerRef.current) return;
+    tickTimerRef.current = setTimeout(() => {
+      tickTimerRef.current = null;
+      setCacheTick((t) => t + 1);
+    }, 120);
+  }, []);
+  useEffect(
+    () => () => {
+      if (tickTimerRef.current) clearTimeout(tickTimerRef.current);
+    },
+    [],
+  );
+
   const targets = useMemo((): LoadTarget[] => {
     const county: LoadTarget[] = LOUDOUN_MEETINGS.map((meeting) => ({
       venue: "county" as const,
@@ -145,70 +145,78 @@ export function LoudounCrossMeetingSearch() {
     return [...county, ...schools];
   }, [venueFilter]);
 
-  const loadTarget = useCallback(async (target: LoadTarget): Promise<CrossHit[]> => {
-    const cached = cacheRef.current.get(target.cacheKey);
-    if (Array.isArray(cached)) return cached;
+  const loadTarget = useCallback(
+    async (target: LoadTarget, pack: boolean): Promise<CrossHit[]> => {
+      const cached = cacheRef.current.get(target.cacheKey);
+      if (Array.isArray(cached)) return cached;
 
-    const existing = inflightRef.current.get(target.cacheKey);
-    if (existing) return existing;
+      const existing = inflightRef.current.get(target.cacheKey);
+      if (existing) return existing;
 
-    cacheRef.current.set(target.cacheKey, "loading");
-    setCacheTick((t) => t + 1);
+      cacheRef.current.set(target.cacheKey, "loading");
 
-    const promise = (async () => {
-      const transcript =
-        target.venue === "county" ? ftmTranscriptFor(target.meeting.id) : undefined;
-      const res = await fetch(transcript ? transcript.url : target.meeting.windowsUrl);
-      if (!res.ok) {
-        throw new Error(`HTTP ${res.status} for ${target.cacheKey}`);
-      }
-      const slices = (await res.json()) as LoudounCaptionSlice[] | LcpsCaptionSlice[];
-      let hits: CrossHit[];
-      if (target.venue === "county") {
-        const m = target.meeting;
-        hits = slices.map((s) => ({
-          venue: "county" as const,
-          cacheKey: target.cacheKey,
-          start: s.start,
-          end: s.end,
-          text: s.text,
-          jumpUrl: loudounMeetingJumpUrl(m, s.start),
-          dateLabel: m.dateLabel,
-          title:
-            m.title.replace(/^Loudoun BOS /, "") +
-            (loudounProvider(m) === "escribe" ? " · eScribe" : ""),
-          meetingKey: m.id,
-          source: transcript ? ("transcript" as const) : ("captions" as const),
-        }));
-      } else {
-        const m = target.meeting;
-        hits = slices.map((s) => ({
-          venue: "schools" as const,
-          cacheKey: target.cacheKey,
-          start: s.start,
-          end: s.end,
-          text: s.text,
-          jumpUrl: lcpsJumpUrl(m.vimeoId, s.start),
-          dateLabel: m.dateLabel,
-          title: m.title,
-          meetingKey: m.vimeoId,
-          source: "captions" as const,
-        }));
-      }
-      cacheRef.current.set(target.cacheKey, hits);
-      inflightRef.current.delete(target.cacheKey);
-      setCacheTick((t) => t + 1);
-      return hits;
-    })().catch((err) => {
-      cacheRef.current.set(target.cacheKey, "error");
-      inflightRef.current.delete(target.cacheKey);
-      setCacheTick((t) => t + 1);
-      throw err;
-    });
+      const promise = (async () => {
+        const transcript =
+          target.venue === "county" ? ftmTranscriptFor(target.meeting.id) : undefined;
+        let slices: LoudounCaptionSlice[] | LcpsCaptionSlice[];
+        try {
+          slices = await fetchFtmSlices(transcript ? transcript.url : target.meeting.windowsUrl, {
+            pack,
+          });
+        } catch (err) {
+          if (err instanceof FtmFetchError) {
+            throw new Error(`HTTP ${err.status} for ${target.cacheKey}`);
+          }
+          throw err;
+        }
+        let hits: CrossHit[];
+        if (target.venue === "county") {
+          const m = target.meeting;
+          hits = slices.map((s) => ({
+            venue: "county" as const,
+            cacheKey: target.cacheKey,
+            start: s.start,
+            end: s.end,
+            text: s.text,
+            jumpUrl: loudounMeetingJumpUrl(m, s.start),
+            dateLabel: m.dateLabel,
+            title:
+              m.title.replace(/^Loudoun BOS /, "") +
+              (loudounProvider(m) === "escribe" ? " · eScribe" : ""),
+            meetingKey: m.id,
+            source: transcript ? ("transcript" as const) : ("captions" as const),
+          }));
+        } else {
+          const m = target.meeting;
+          hits = slices.map((s) => ({
+            venue: "schools" as const,
+            cacheKey: target.cacheKey,
+            start: s.start,
+            end: s.end,
+            text: s.text,
+            jumpUrl: lcpsJumpUrl(m.vimeoId, s.start),
+            dateLabel: m.dateLabel,
+            title: m.title,
+            meetingKey: m.vimeoId,
+            source: "captions" as const,
+          }));
+        }
+        cacheRef.current.set(target.cacheKey, hits);
+        inflightRef.current.delete(target.cacheKey);
+        bumpSoon();
+        return hits;
+      })().catch((err) => {
+        cacheRef.current.set(target.cacheKey, "error");
+        inflightRef.current.delete(target.cacheKey);
+        setCacheTick((t) => t + 1);
+        throw err;
+      });
 
-    inflightRef.current.set(target.cacheKey, promise);
-    return promise;
-  }, []);
+      inflightRef.current.set(target.cacheKey, promise);
+      return promise;
+    },
+    [bumpSoon],
+  );
 
   const query = submitted.trim();
 
@@ -225,8 +233,13 @@ export function LoudounCrossMeetingSearch() {
 
     (async () => {
       try {
-        await mapPool(targets, ALL_FETCH_CONCURRENCY, (t) => loadTarget(t));
-        if (!cancelled) setLoading(false);
+        // County then Schools, newest first; multi-meeting searches stream from the venue packs.
+        const pack = targets.length >= FTM_PACK_MIN_MEETINGS;
+        await Promise.all(targets.map((t) => loadTarget(t, pack)));
+        if (!cancelled) {
+          setCacheTick((t) => t + 1);
+          setLoading(false);
+        }
       } catch (err) {
         if (!cancelled) {
           setLoading(false);
@@ -253,11 +266,17 @@ export function LoudounCrossMeetingSearch() {
   const allLoaded =
     targets.length > 0 && targets.every((t) => Array.isArray(cacheRef.current.get(t.cacheKey)));
 
+  const loadedCount = targets.filter((t) => Array.isArray(cacheRef.current.get(t.cacheKey))).length;
+  /** True from submit until every meeting in scope is loaded (no "No hits" flash). */
+  const pending = Boolean(query) && !allLoaded && !loadError;
+
+  // Hits show as meetings arrive; the final list is the same as searching
+  // everything at once.
   const hits = useMemo(() => {
-    if (!query || !allLoaded) return [];
+    if (!query) return [];
     const qLower = query.toLowerCase();
     return windowsReady.filter((w) => w.text.toLowerCase().includes(qLower));
-  }, [query, allLoaded, windowsReady]);
+  }, [query, windowsReady]);
 
   const shown = hits.slice(0, HIT_CAP);
 
@@ -386,8 +405,10 @@ export function LoudounCrossMeetingSearch() {
       >
         {!query
           ? "Enter a name or phrase, or tap a topic. Results load meeting captions on demand."
-          : loading
-            ? `Loading caption indexes across ${targets.length} meetings…`
+          : loading || pending
+            ? hits.length
+              ? `${hits.length} window${hits.length === 1 ? "" : "s"} so far · searching ${loadedCount} of ${targets.length} meetings…`
+              : `Loading caption indexes across ${targets.length} meetings… ${loadedCount} loaded`
             : loadError
               ? `Could not load captions — ${loadError}`
               : hits.length
@@ -397,7 +418,7 @@ export function LoudounCrossMeetingSearch() {
                 : `No hits for “${query}” — try a shorter stem (e.g. zone, supervis).`}
       </p>
 
-      {query && !loading && !loadError && hits.length === 0 ? (
+      {query && !loading && !pending && !loadError && hits.length === 0 ? (
         <p className="mt-4 text-sm text-muted-foreground">
           Nothing matched across the indexed meetings. Auto-captions misspell constantly — shorter
           tokens work better. Or switch venue and try again.

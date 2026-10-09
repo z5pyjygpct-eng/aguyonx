@@ -18,10 +18,9 @@ import {
   type LcpsMeeting,
 } from "@/content/lcps";
 import { cn } from "@/lib/utils";
+import { FTM_PACK_MIN_MEETINGS, FtmFetchError, fetchFtmSlices } from "@/lib/ftm-pack";
 
 const HIT_CAP = 60;
-/** Parallel fetches when searching All indexed meetings (Hobby-safe). */
-const ALL_FETCH_CONCURRENCY = 6;
 
 function secToHms(raw: number): string {
   const s = Math.floor(raw);
@@ -66,21 +65,6 @@ function searchWindows(windows: LcpsCaptionWindow[], query: string): LcpsCaption
   return windows.filter((w) => w.text.toLowerCase().includes(q));
 }
 
-async function mapPool<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
-  const results: R[] = new Array(items.length);
-  let next = 0;
-  async function worker() {
-    while (next < items.length) {
-      const i = next;
-      next += 1;
-      results[i] = await fn(items[i]!);
-    }
-  }
-  const n = Math.min(limit, items.length);
-  await Promise.all(Array.from({ length: n }, () => worker()));
-  return results;
-}
-
 type CacheEntry = LcpsCaptionWindow[] | "loading" | "error";
 
 export function LcpsMeetingSearch() {
@@ -88,7 +72,9 @@ export function LcpsMeetingSearch() {
   const [submitted, setSubmitted] = useState("");
   const [meetingFilter, setMeetingFilter] = useState<string | "all">("all");
   /** All | Full board | Committees | Closed/appeals — default All so committees stay searchable. */
-  const [kindFilter, setKindFilter] = useState<"all" | "full_board" | "committee" | "closed_appeals">("all");
+  const [kindFilter, setKindFilter] = useState<
+    "all" | "full_board" | "committee" | "closed_appeals"
+  >("all");
   const [cacheTick, setCacheTick] = useState(0);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
@@ -97,40 +83,64 @@ export function LcpsMeetingSearch() {
   const cacheRef = useRef<Map<string, CacheEntry>>(new Map());
   const inflightRef = useRef<Map<string, Promise<LcpsCaptionWindow[]>>>(new Map());
 
-  const loadMeeting = useCallback(async (meeting: LcpsMeeting): Promise<LcpsCaptionWindow[]> => {
-    const cached = cacheRef.current.get(meeting.vimeoId);
-    if (Array.isArray(cached)) return cached;
-
-    const existing = inflightRef.current.get(meeting.vimeoId);
-    if (existing) return existing;
-
-    cacheRef.current.set(meeting.vimeoId, "loading");
-    setCacheTick((t) => t + 1);
-
-    const promise = (async () => {
-      const res = await fetch(meeting.windowsUrl);
-      if (!res.ok) throw new Error(`HTTP ${res.status} for Vimeo ${meeting.vimeoId}`);
-      const slices = (await res.json()) as LcpsCaptionSlice[];
-      const windows: LcpsCaptionWindow[] = slices.map((s) => ({
-        vimeoId: meeting.vimeoId,
-        start: s.start,
-        end: s.end,
-        text: s.text,
-      }));
-      cacheRef.current.set(meeting.vimeoId, windows);
-      inflightRef.current.delete(meeting.vimeoId);
+  /** Batch re-renders while many meetings stream in (one per ~120 ms). */
+  const tickTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const bumpSoon = useCallback(() => {
+    if (tickTimerRef.current) return;
+    tickTimerRef.current = setTimeout(() => {
+      tickTimerRef.current = null;
       setCacheTick((t) => t + 1);
-      return windows;
-    })().catch((err) => {
-      cacheRef.current.set(meeting.vimeoId, "error");
-      inflightRef.current.delete(meeting.vimeoId);
-      setCacheTick((t) => t + 1);
-      throw err;
-    });
-
-    inflightRef.current.set(meeting.vimeoId, promise);
-    return promise;
+    }, 120);
   }, []);
+  useEffect(
+    () => () => {
+      if (tickTimerRef.current) clearTimeout(tickTimerRef.current);
+    },
+    [],
+  );
+
+  const loadMeeting = useCallback(
+    async (meeting: LcpsMeeting, pack: boolean): Promise<LcpsCaptionWindow[]> => {
+      const cached = cacheRef.current.get(meeting.vimeoId);
+      if (Array.isArray(cached)) return cached;
+
+      const existing = inflightRef.current.get(meeting.vimeoId);
+      if (existing) return existing;
+
+      cacheRef.current.set(meeting.vimeoId, "loading");
+
+      const promise = (async () => {
+        let slices: LcpsCaptionSlice[];
+        try {
+          slices = await fetchFtmSlices(meeting.windowsUrl, { pack });
+        } catch (err) {
+          if (err instanceof FtmFetchError) {
+            throw new Error(`HTTP ${err.status} for Vimeo ${meeting.vimeoId}`);
+          }
+          throw err;
+        }
+        const windows: LcpsCaptionWindow[] = slices.map((s) => ({
+          vimeoId: meeting.vimeoId,
+          start: s.start,
+          end: s.end,
+          text: s.text,
+        }));
+        cacheRef.current.set(meeting.vimeoId, windows);
+        inflightRef.current.delete(meeting.vimeoId);
+        bumpSoon();
+        return windows;
+      })().catch((err) => {
+        cacheRef.current.set(meeting.vimeoId, "error");
+        inflightRef.current.delete(meeting.vimeoId);
+        setCacheTick((t) => t + 1);
+        throw err;
+      });
+
+      inflightRef.current.set(meeting.vimeoId, promise);
+      return promise;
+    },
+    [bumpSoon],
+  );
 
   const kindFilteredMeetings = useMemo(() => {
     if (kindFilter === "all") return LCPS_MEETINGS;
@@ -138,9 +148,7 @@ export function LcpsMeetingSearch() {
       return LCPS_MEETINGS.filter((m) => (m.kind ?? "full_board") === "full_board");
     }
     if (kindFilter === "committee") {
-      return LCPS_MEETINGS.filter(
-        (m) => m.kind === "committee" || m.kind === "other",
-      );
+      return LCPS_MEETINGS.filter((m) => m.kind === "committee" || m.kind === "other");
     }
     // closed + appeals
     return LCPS_MEETINGS.filter((m) => m.kind === "closed" || m.kind === "appeals");
@@ -169,8 +177,13 @@ export function LcpsMeetingSearch() {
 
     (async () => {
       try {
-        await mapPool(meetingsToLoad, ALL_FETCH_CONCURRENCY, (m) => loadMeeting(m));
-        if (!cancelled) setLoading(false);
+        // Newest meetings first; multi-meeting searches stream from the venue pack.
+        const pack = meetingsToLoad.length >= FTM_PACK_MIN_MEETINGS;
+        await Promise.all(meetingsToLoad.map((m) => loadMeeting(m, pack)));
+        if (!cancelled) {
+          setCacheTick((t) => t + 1);
+          setLoading(false);
+        }
       } catch (err) {
         if (!cancelled) {
           setLoading(false);
@@ -198,10 +211,18 @@ export function LcpsMeetingSearch() {
     meetingsToLoad.length > 0 &&
     meetingsToLoad.every((m) => Array.isArray(cacheRef.current.get(m.vimeoId)));
 
+  const loadedCount = meetingsToLoad.filter((m) =>
+    Array.isArray(cacheRef.current.get(m.vimeoId)),
+  ).length;
+  /** True from submit until every meeting in scope is loaded (no "No hits" flash). */
+  const pending = Boolean(query) && !allLoaded && !loadError;
+
+  // Hits show as meetings arrive (newest first); the final list is the same as
+  // searching everything at once.
   const hits = useMemo(() => {
-    if (!query || !allLoaded) return [];
+    if (!query) return [];
     return searchWindows(windowsReady, query);
-  }, [query, allLoaded, windowsReady]);
+  }, [query, windowsReady]);
 
   const shown = hits.slice(0, HIT_CAP);
 
@@ -224,14 +245,14 @@ export function LcpsMeetingSearch() {
         Find the Moment — Loudoun School Board
       </h2>
       <p className="mt-2 text-sm text-muted-foreground">
-        Search captions → jump the video · {LCPS_MEETINGS.length} meetings indexed
-        (full board + committees + closed/appeals · 2025–2026 YTD)
+        Search captions → jump the video · {LCPS_MEETINGS.length} meetings indexed (full board +
+        committees + closed/appeals · 2025–2026 YTD)
       </p>
 
       <aside className="mt-5 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">
         <strong className="font-semibold">Captions are an index, not a transcript.</strong>{" "}
-        Auto-captions are not quote-grade — spelling breaks, names drop. Jump to the moment on
-        Vimeo and verify by ear. Do not cite captions as quotes.
+        Auto-captions are not quote-grade — spelling breaks, names drop. Jump to the moment on Vimeo
+        and verify by ear. Do not cite captions as quotes.
       </aside>
 
       <form role="search" onSubmit={onSubmit} className="mt-6 flex flex-col gap-3 sm:flex-row">
@@ -290,8 +311,7 @@ export function LcpsMeetingSearch() {
               }}
               className={cn(
                 "rounded-full border border-border bg-wash px-3 py-1.5 font-sans text-xs font-medium text-foreground transition-[background-color,border-color,color] hover:border-[#1E4B8E] hover:bg-[#e8eef6] hover:text-[#1E4B8E]",
-                kindFilter === value &&
-                  "border-[#1E4B8E] bg-[#e8eef6] text-[#1E4B8E]",
+                kindFilter === value && "border-[#1E4B8E] bg-[#e8eef6] text-[#1E4B8E]",
               )}
             >
               {label}
@@ -351,9 +371,11 @@ export function LcpsMeetingSearch() {
       >
         {!query
           ? "Enter a name or phrase, or tap a topic chip. Jump to the moment on Vimeo."
-          : loading
-            ? meetingFilter === "all"
-              ? "Loading caption indexes…"
+          : loading || pending
+            ? meetingsToLoad.length > 1
+              ? hits.length
+                ? `${hits.length} window${hits.length === 1 ? "" : "s"} so far · searching ${loadedCount} of ${meetingsToLoad.length} meetings…`
+                : `Loading caption indexes… ${loadedCount} of ${meetingsToLoad.length}`
               : "Loading meeting captions…"
             : loadError
               ? `Could not load captions — ${loadError}`
@@ -364,7 +386,7 @@ export function LcpsMeetingSearch() {
                 : `No hits for “${query}” — try a shorter stem (e.g. budget, policy).`}
       </p>
 
-      {query && !loading && !loadError && hits.length === 0 ? (
+      {query && !loading && !pending && !loadError && hits.length === 0 ? (
         <p className="mt-4 text-sm text-muted-foreground">
           Nothing matched. Auto-captions misspell constantly — shorter tokens work better. Or widen
           the meeting filter to All.
@@ -390,9 +412,7 @@ export function LcpsMeetingSearch() {
                     {meeting ? (
                       <p className="mt-0.5 text-xs text-muted-foreground">
                         {meeting.dateLabel} · {meeting.committeeName || meeting.title}
-                        {meeting.kind && meeting.kind !== "full_board"
-                          ? ` · ${meeting.kind}`
-                          : ""}
+                        {meeting.kind && meeting.kind !== "full_board" ? ` · ${meeting.kind}` : ""}
                       </p>
                     ) : (
                       <p className="mt-0.5 text-xs text-muted-foreground">Vimeo {w.vimeoId}</p>

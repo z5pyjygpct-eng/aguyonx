@@ -43,7 +43,8 @@ const groups = [
 
 function linkClass(inverted: boolean) {
   return cn(
-    "inline-flex h-11 items-center px-2 font-mono text-xs tracking-widest uppercase transition-[color] duration-150 lg:px-2.5",
+    // Compact so all 11 links + Give fit the 6xl bar at 1280px laptops.
+    "inline-flex h-11 items-center px-1.5 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-[color] duration-150",
     inverted ? "text-night-muted hover:text-night-fg" : "text-muted-foreground hover:text-foreground",
   );
 }
@@ -65,14 +66,15 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
           <Mark />
         </Link>
 
-        <nav className="hidden items-center gap-3 lg:flex" aria-label="Primary">
+        {/* Full bar from xl (1280px); below that the menu sheet (it overflowed at 1024–1279). */}
+        <nav className="hidden min-w-0 items-center gap-2 xl:flex" aria-label="Primary">
           {groups.map((group, i) => (
             <span key={group.id} className="flex items-center">
               {i > 0 ? (
                 <span
                   aria-hidden
                   className={cn(
-                    "mx-1.5 h-4 w-px",
+                    "mx-1 h-4 w-px",
                     inverted ? "bg-night-fg/25" : "bg-border",
                   )}
                 />
@@ -88,13 +90,13 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
             href={SITE.giveUrl}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex h-9 items-center rounded-md bg-[#C41E3A] px-3 font-sans text-xs font-semibold tracking-[0.12em] text-white uppercase transition-[filter] duration-150 hover:brightness-110"
+            className="ml-1 inline-flex h-9 shrink-0 items-center rounded-md bg-[#C41E3A] px-3 font-sans text-xs font-semibold tracking-[0.12em] whitespace-nowrap text-white uppercase transition-[filter] duration-150 hover:brightness-110"
           >
             Give
           </a>
         </nav>
 
-        <div className="flex items-center gap-2 lg:hidden">
+        <div className="flex items-center gap-2 xl:hidden">
           <a
             href={SITE.giveUrl}
             target="_blank"
@@ -108,7 +110,7 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
             <Button
               variant={inverted ? "secondary" : "outline"}
               size="icon"
-              className="lg:hidden"
+              className="xl:hidden"
               aria-label="Open menu"
             >
               <Menu />

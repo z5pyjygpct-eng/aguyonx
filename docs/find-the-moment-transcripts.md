@@ -18,6 +18,43 @@ the transcript for that meeting, label each hit **Machine transcript**, and show
 "Machine transcript (speech-to-text); check the video before quoting."
 The Loudoun County box also has a **Captions only** switch that searches the county captions instead.
 
+## Search packs (fast "All meetings" search)
+
+Searching every meeting used to download every per-meeting file (77 County, 276 Schools)
+six at a time and show nothing until the last one arrived. Right after a deploy the CDN
+edge is cold, so each file was a cache miss and a first search could take ~50 s.
+
+Now `scripts/ftm-packs.mjs` bundles each venue's files into a few chunks:
+
+| File | Notes |
+| --- | --- |
+| `public/files/find-the-moment/{venue}/pack/manifest.json` | `{ v: 1, chunks: [{ url, files: [windowsUrl, …] }] }` |
+| `public/files/find-the-moment/{venue}/pack/chunks/{sha256-12}.json` | ~1.5 MB raw each; served with `cache-control: public, max-age=31536000, immutable` (hash in the name) |
+
+A chunk is a JSON array with **one file per line**, so the browser streams it and shows
+hits as each meeting arrives (newest first):
+
+```
+[
+{"u":"/files/find-the-moment/loudoun-bos/transcripts/escribe-3a6eea40.json","w":[[start,end,"text"],…]},
+{"u":"/files/find-the-moment/loudoun-bos/escribe-3a6eea40.json","w":[…]},
+…
+]
+```
+
+`u` is the exact URL the site would otherwise fetch (a caption `windowsUrl` or a transcript
+`url`); `w` holds that file's windows unchanged. Order follows the catalogs
+(`ftm-transcripts.ts`, then `loudoun.ts`; `lcps.ts` for Schools).
+
+- **Built automatically** at the start of every `vite build` (`ftmPacksPlugin` in
+  `vite.config.ts`), so a deploy always matches the per-meeting files. The `pack/` folders are
+  git-ignored. Run `npm run ftm:packs` to build them for local preview.
+- **Per-meeting files stay the source of truth** and are still used for single-meeting
+  searches and as the fallback when a pack is missing or fails (`src/lib/ftm-pack.ts`).
+  Results are identical either way (`scripts/ftm-packs.test.mjs` checks every file round-trips).
+- A new meeting or transcript needs nothing extra: add its file and catalog entry as below,
+  and the next build packs it.
+
 ## Add the next meeting
 
 1. **Index the captions first** (the meeting must already be in `LOUDOUN_MEETINGS` in
@@ -46,7 +83,8 @@ The Loudoun County box also has a **Captions only** switch that searches the cou
 5. **Add the manifest entry** to `FTM_TRANSCRIPTS` in `src/content/ftm-transcripts.ts`
    (`meetingId`, `url`, `windowCount`, `wordCount`, `engine`, `generated`, `sourceFile`,
    optional `note`).
-6. `npm run typecheck && npm run build`, then deploy a preview and search a known phrase.
+6. `npm run typecheck && npm run build` (the build also rebuilds the search packs), then
+   deploy a preview and search a known phrase.
 
 ## Meeting recaps
 

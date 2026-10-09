@@ -19,3 +19,6 @@ coverage
 .project_id
 .node_modules.lock
 startup.sh
+
+# Find the Moment search packs (built by scripts/ftm-packs.mjs at vite build)
+public/files/find-the-moment/*/pack/
