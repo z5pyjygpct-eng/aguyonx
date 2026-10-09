@@ -61,13 +61,13 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
           : "border-border bg-background/95 text-foreground backdrop-blur-sm",
       )}
     >
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
         <Link to="/" className="shrink-0" aria-label="A Guy on X home">
           <Mark />
         </Link>
 
-        {/* Full bar from xl (1280px); below that the menu sheet (it overflowed at 1024–1279). */}
-        <nav className="hidden min-w-0 items-center gap-2 xl:flex" aria-label="Primary">
+        {/* Full bar from 1280px (theme xl is 80rem, so it never fits a 1280px laptop). Below: menu sheet. */}
+        <nav className="nav-wide hidden min-w-0 items-center gap-2" aria-label="Primary">
           {groups.map((group, i) => (
             <span key={group.id} className="flex items-center">
               {i > 0 ? (
@@ -96,7 +96,7 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
           </a>
         </nav>
 
-        <div className="flex items-center gap-2 xl:hidden">
+        <div className="nav-narrow flex items-center gap-2">
           <a
             href={SITE.giveUrl}
             target="_blank"
@@ -110,7 +110,7 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
             <Button
               variant={inverted ? "secondary" : "outline"}
               size="icon"
-              className="xl:hidden"
+              className=""
               aria-label="Open menu"
             >
               <Menu />

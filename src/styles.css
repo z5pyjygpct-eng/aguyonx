@@ -109,3 +109,14 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* Header nav: full bar only where it fits. Theme `xl` is 80rem, so it never
+   applies on a 1280px laptop — hence the explicit breakpoint. */
+@media (width >= 1280px) {
+  .nav-wide {
+    display: flex;
+  }
+  .nav-narrow {
+    display: none;
+  }
+}
