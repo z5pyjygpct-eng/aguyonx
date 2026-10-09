@@ -85,6 +85,8 @@ const ESCRIBE = "https://pub-loudoun.escribemeetings.com";
 const doc = (id: number) => `${ESCRIBE}/FileStream.ashx?DocumentId=${id}`;
 const ACTION_SEP15 =
   "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1975550/09-15-26%20Business%20Meeting%20Action%20Report.pdf";
+const ACTION_OCT6 =
+  "https://lfportal.loudoun.gov/LFPortalInternet/0/edoc/1975929/Action%20Report%2010-06-26%20Business%20Meeting.pdf";
 
 const OCT6_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=3a6eea40-36a8-49b2-9488-cedd456be4d9&Agenda=Agenda&lang=English`;
 const SEP15_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=79595442-81c5-4c63-add5-9a91a8d6300b&Agenda=Agenda&lang=English`;
@@ -101,25 +103,82 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
     dateLabel: "Tuesday, Oct 6, 2026",
     whenWhere: "4:00 PM · Board Room, Government Center, Leesburg · video 6h 36m",
     official: {
-      votesPosted: false,
-      checkedLabel: "Oct 8, 2026, 6 PM ET",
-      note: "Official vote record not yet posted. The county has posted the agenda for this meeting, but not the minutes or the Action Report that lists each motion and vote. Outcomes below are left blank on purpose until it is posted.",
+      votesPosted: true,
+      checkedLabel: "Oct 9, 2026, 10:30 AM ET",
+      note: "Votes and deferrals below are taken from the county Action Report (posted Oct 9, 2026).",
       links: [
         { label: "Agenda (eScribe)", href: OCT6_AGENDA_HTML },
         { label: "Agenda (PDF)", href: doc(1718) },
+        { label: "Action Report (PDF)", href: ACTION_OCT6 },
         {
-          label: "County document folder for this meeting (Action Report is posted here)",
+          label: "County document folder for this meeting",
           href: LASERFICHE_BOS,
         },
       ],
     },
-    decisions: [],
+    decisions: [
+      {
+        item: "4",
+        action:
+          "Consent agenda approved (7a–7j, 11a–11c, 12a, 14a, 14c, 14d, and 14e).",
+        tally:
+          "6-0-2-1 (Supervisors Glass and Letourneau absent; Supervisor Briskman abstained)",
+        source: { label: "Oct 6, 2026 Action Report", href: ACTION_OCT6 },
+      },
+      {
+        item: "10.a",
+        action:
+          "Motion to retain an independent third party to audit listed grandfathered data-center applications (up to $200,000; interim report Jan 20, 2027; final by April 20, 2027), as amended to include Tables 1 and 2 of Attachment 2, was tabled indefinitely.",
+        tally: "7-2 (Supervisors Briskman and TeKrony opposed)",
+        source: { label: "Oct 6, 2026 Action Report", href: ACTION_OCT6 },
+      },
+      {
+        item: "14.f",
+        action:
+          "LEGI-2025-0020, Tuscarora Crossing Landbay 4 (SPEX-2025-0036) deferred to the October 20, 2026 Board of Supervisors Business Meeting.",
+        source: { label: "Oct 6, 2026 Action Report", href: ACTION_OCT6 },
+      },
+      {
+        item: "14.g",
+        action:
+          "Board directed staff to form a partnership via draft Memorandum of Agreement with the Loudoun Coalition to Prevent and End Homelessness (return draft for first Business Meeting in January 2027; hire consultant for Homelessness and Housing Instability Initiative; return Nov 5, 2026 with funding source and cost estimate).",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Oct 6, 2026 Action Report", href: ACTION_OCT6 },
+      },
+      {
+        item: "14.h (Motion 1)",
+        action:
+          "Board directed staff to research, develop, and return with findings and recommendations for a Loudoun County Community Trust Policy, and to review County procurement/contracting for systems that collect or share resident/visitor data (including ALPRs from firms such as Elsag, Flock, and Vigilant) and gather law-enforcement deployment/retention/access/sharing info, returning as soon as practicable.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Oct 6, 2026 Action Report", href: ACTION_OCT6 },
+      },
+      {
+        item: "14.h (Motion 2)",
+        action:
+          "Motion to waive attorney-client privilege for the confidential County Attorney memorandum on prohibiting federal civil immigration enforcement in/on County facilities/properties and authorize public release died due to lack of second (Chair Randall withdrew her second).",
+        source: { label: "Oct 6, 2026 Action Report", href: ACTION_OCT6 },
+      },
+      {
+        item: "14.i",
+        action:
+          "Board directed staff to research and identify funding sources (including state and federal grants) to reduce the financial burden on Broad Run Farms residents from the Broad Run Farms Waterline Extension Project and return with an update at a future Business Meeting.",
+        tally: "8-0-1 (Supervisor Letourneau absent)",
+        source: { label: "Oct 6, 2026 Action Report", href: ACTION_OCT6 },
+      },
+    ],
     context: [
       {
         text: "Two items on this agenda were deferred from the Sept 15, 2026 meeting: 14.e (Farmwell Road eminent domain) and the Tuscarora Crossing Landbay 4 special exception (now 14.f).",
         source: {
           label: "Sept 15, 2026 Action Report",
           href: ACTION_SEP15,
+        },
+      },
+      {
+        text: "The Oct 6 Action Report confirms item 14.f (Tuscarora Crossing Landbay 4) was deferred again, to the October 20, 2026 Board of Supervisors Business Meeting.",
+        source: {
+          label: "Oct 6, 2026 Action Report",
+          href: ACTION_OCT6,
         },
       },
     ],
@@ -167,7 +226,7 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
       },
       {
         heading: "Proposed on consent",
-        dek: "Listed on the agenda for one combined vote. The official record will confirm what passed.",
+        dek: "Passed on consent as recorded in item 4 of the Action Report (7a–7j, 11a–11c, 12a, 14a, 14c, 14d, and 14e).",
         items: [
           { num: "7.a–7.j", title: "Ten proclamations and ceremonial resolutions" },
           {
