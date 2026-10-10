@@ -126,7 +126,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "School Board meeting · video 7h 5m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 10, 2026, 12:40 PM ET",
+      checkedLabel: "Oct 10, 2026, 4:30 PM ET",
       note: "Official vote record not yet posted. BoardDocs meeting page has agenda only (no View Minutes control). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "BoardDocs meeting", href: boarddocsMeeting("DXGKG851ACED") },
@@ -285,7 +285,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "School Board retreat · video 5h 53m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 10, 2026, 12:40 PM ET",
+      checkedLabel: "Oct 10, 2026, 4:30 PM ET",
       note: "Official vote record not yet posted. BoardDocs retreat meeting page has agenda only (no View Minutes control). Do not infer votes from the video or machine transcript.",
       links: [
         { label: "BoardDocs meeting", href: boarddocsMeeting("DTRGE7436104") },
