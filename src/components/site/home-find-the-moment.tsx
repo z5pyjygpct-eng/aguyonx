@@ -1,5 +1,9 @@
 import { Link } from "@tanstack/react-router";
 import { CITY_VENUES, cityVenueLive, type CityVenueId } from "@/content/cities";
+import { senateLive } from "@/content/va-senate";
+
+/** VA SENATE door: shown only once Senate floor transcripts are live. */
+const SENATE_DOOR = senateLive();
 
 /** Simplified Virginia outline (stroke watermark). Public-domain Census-derived geometry. */
 const VA_OUTLINE_PATH =
@@ -81,6 +85,16 @@ export function HomeFindTheMoment() {
             </Link>
           ))}
         </nav>
+        {SENATE_DOOR ? (
+          <nav
+            aria-label="Find the Moment state doors"
+            className="mt-3 flex flex-wrap justify-center gap-3 sm:gap-4"
+          >
+            <Link to="/general-assembly/senate" className={DOOR_CLASS}>
+              VA Senate
+            </Link>
+          </nav>
+        ) : null}
         {CITY_DOORS.length ? (
           <nav
             aria-label="Find the Moment city doors"

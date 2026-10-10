@@ -17,7 +17,8 @@ export type FtmTranscriptVenue =
   | "fairfax-city-council"
   | "fairfax-city-schools"
   | "manassas-council"
-  | "manassas-schools";
+  | "manassas-schools"
+  | "va-senate-floor";
 
 export type FtmTranscript = {
   /** Catalog meeting id (e.g. LOUDOUN_MEETINGS[].id). */

@@ -1,0 +1,322 @@
+[
+ {
+  "name": ">",
+  "district": 1,
+  "party": "R",
+  "lisId": "S0121",
+  "lisName": "Timmy French",
+  "senateId": "S121"
+ },
+ {
+  "name": ">",
+  "district": 2,
+  "party": "R",
+  "lisId": "S0068",
+  "lisName": "Mark D. Obenshain",
+  "senateId": "S68"
+ },
+ {
+  "name": ">",
+  "district": 3,
+  "party": "R",
+  "lisId": "S0122",
+  "lisName": "Christopher T. Head",
+  "senateId": "S122"
+ },
+ {
+  "name": ">",
+  "district": 4,
+  "party": "R",
+  "lisId": "S0101",
+  "lisName": "David R. Suetterlein",
+  "senateId": "S101"
+ },
+ {
+  "name": ">",
+  "district": 5,
+  "party": "R",
+  "lisId": "S0112",
+  "lisName": "T. Travis Hackworth",
+  "senateId": "S112"
+ },
+ {
+  "name": ">",
+  "district": 6,
+  "party": "R",
+  "lisId": "S0111",
+  "lisName": "Todd E. Pillion",
+  "senateId": "S111"
+ },
+ {
+  "name": ">",
+  "district": 7,
+  "party": "R",
+  "lisId": "S0082",
+  "lisName": "William M. Stanley, Jr.",
+  "senateId": "S82"
+ },
+ {
+  "name": ">",
+  "district": 8,
+  "party": "R",
+  "lisId": "S0105",
+  "lisName": "Mark J. Peake",
+  "senateId": "S105"
+ },
+ {
+  "name": ">",
+  "district": 9,
+  "party": "R",
+  "lisId": "S0131",
+  "lisName": "Tammy Brankley Mulchi",
+  "senateId": "S131"
+ },
+ {
+  "name": ">",
+  "district": 10,
+  "party": "R",
+  "lisId": "S0132",
+  "lisName": "Luther Cifers, III",
+  "senateId": "S132"
+ },
+ {
+  "name": ">",
+  "district": 11,
+  "party": "D",
+  "lisId": "S0062",
+  "lisName": "R. Creigh Deeds",
+  "senateId": "S62"
+ },
+ {
+  "name": ">",
+  "district": 12,
+  "party": "R",
+  "lisId": "S0099",
+  "lisName": "Glen H. Sturtevant, Jr.",
+  "senateId": "S99"
+ },
+ {
+  "name": ">",
+  "district": 13,
+  "party": "D",
+  "lisId": "S0115",
+  "lisName": "Lashrecse D. Aird",
+  "senateId": "S115"
+ },
+ {
+  "name": ">",
+  "district": 14,
+  "party": "D",
+  "lisId": "S0114",
+  "lisName": "Lamont Bagby",
+  "senateId": "S114"
+ },
+ {
+  "name": ">",
+  "district": 15,
+  "party": "D",
+  "lisId": "S0134",
+  "lisName": "Michael J. Jones",
+  "senateId": "S134"
+ },
+ {
+  "name": ">",
+  "district": 16,
+  "party": "D",
+  "lisId": "S0129",
+  "lisName": "Schuyler T. VanValkenburg",
+  "senateId": "S129"
+ },
+ {
+  "name": ">",
+  "district": 17,
+  "party": "R",
+  "lisId": "S0116",
+  "lisName": "Emily M. Jordan",
+  "senateId": "S116"
+ },
+ {
+  "name": ">",
+  "district": 18,
+  "party": "D",
+  "lisId": "S0019",
+  "lisName": "L. Louise Lucas",
+  "senateId": "S19"
+ },
+ {
+  "name": ">",
+  "district": 19,
+  "party": "R",
+  "lisId": "S0118",
+  "lisName": "Christie New Craig",
+  "senateId": "S118"
+ },
+ {
+  "name": ">",
+  "district": 20,
+  "party": "R",
+  "lisId": "S0096",
+  "lisName": "Bill DeSteph",
+  "senateId": "S96"
+ },
+ {
+  "name": ">",
+  "district": 21,
+  "party": "D",
+  "lisId": "S0130",
+  "lisName": "Angelia Williams Graves",
+  "senateId": "S130"
+ },
+ {
+  "name": ">",
+  "district": 22,
+  "party": "D",
+  "lisId": "S0113",
+  "lisName": "Aaron R. Rouse",
+  "senateId": "S113"
+ },
+ {
+  "name": ">",
+  "district": 23,
+  "party": "D",
+  "lisId": "S0067",
+  "lisName": "Mamie E. Locke",
+  "senateId": "S67"
+ },
+ {
+  "name": ">",
+  "district": 24,
+  "party": "R",
+  "lisId": "S0119",
+  "lisName": "J.D. \"Danny\" Diggs",
+  "senateId": "S119"
+ },
+ {
+  "name": ">",
+  "district": 25,
+  "party": "R",
+  "lisId": "S0078",
+  "lisName": "Richard H. Stuart",
+  "senateId": "S78"
+ },
+ {
+  "name": ">",
+  "district": 26,
+  "party": "R",
+  "lisId": "S0069",
+  "lisName": "Ryan T. McDougle",
+  "senateId": "S69"
+ },
+ {
+  "name": ">",
+  "district": 27,
+  "party": "R",
+  "lisId": "S0120",
+  "lisName": "Tara A. Durant",
+  "senateId": "S120"
+ },
+ {
+  "name": ">",
+  "district": 28,
+  "party": "R",
+  "lisId": "S0088",
+  "lisName": "Bryce E. Reeves",
+  "senateId": "S88"
+ },
+ {
+  "name": ">",
+  "district": 29,
+  "party": "D",
+  "lisId": "S0098",
+  "lisName": "Jeremy S. McPike",
+  "senateId": "S98"
+ },
+ {
+  "name": ">",
+  "district": 30,
+  "party": "D",
+  "lisId": "S0126",
+  "lisName": "Danica A. Roem",
+  "senateId": "S126"
+ },
+ {
+  "name": ">",
+  "district": 31,
+  "party": "D",
+  "lisId": "S0125",
+  "lisName": "Russet Perry",
+  "senateId": "S125"
+ },
+ {
+  "name": ">",
+  "district": 32,
+  "party": "D",
+  "lisId": "S0133",
+  "lisName": "Kannan Srinivasan",
+  "senateId": "S133"
+ },
+ {
+  "name": ">",
+  "district": 33,
+  "party": "D",
+  "lisId": "S0117",
+  "lisName": "Jennifer D. Carroll Foy",
+  "senateId": "S117"
+ },
+ {
+  "name": ">",
+  "district": 34,
+  "party": "D",
+  "lisId": "S0100",
+  "lisName": "Scott A. Surovell",
+  "senateId": "S100"
+ },
+ {
+  "name": ">",
+  "district": 35,
+  "party": "D",
+  "lisId": "S0080",
+  "lisName": "David W. Marsden",
+  "senateId": "S80"
+ },
+ {
+  "name": ">",
+  "district": 36,
+  "party": "D",
+  "lisId": "S0124",
+  "lisName": "Stella G. Pekarsky",
+  "senateId": "S124"
+ },
+ {
+  "name": ">",
+  "district": 37,
+  "party": "D",
+  "lisId": "S0127",
+  "lisName": "Saddam Azlan Salim",
+  "senateId": "S127"
+ },
+ {
+  "name": ">",
+  "district": 38,
+  "party": "D",
+  "lisId": "S0106",
+  "lisName": "Jennifer B. Boysko",
+  "senateId": "S106"
+ },
+ {
+  "name": ">",
+  "district": 39,
+  "party": "D",
+  "lisId": "S0135",
+  "lisName": "Elizabeth B. Bennett-Parker",
+  "senateId": "S135"
+ },
+ {
+  "name": ">",
+  "district": 40,
+  "party": "D",
+  "lisId": "S0086",
+  "lisName": "Barbara A. Favola",
+  "senateId": "S86"
+ }
+]

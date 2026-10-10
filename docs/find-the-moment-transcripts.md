@@ -167,3 +167,56 @@ its venue has at least one `FTM_TRANSCRIPTS` entry (`cityVenueLive` in `src/cont
 used by `src/components/site/home-find-the-moment.tsx`). So the morning routine adds a venue's
 button simply by posting that venue's first transcript; mention it in the morning recap the day it
 first appears, and check the homepage after deploy.
+
+## Virginia Senate floor (added Oct 10, 2026)
+
+Scope: 2026 Senate **floor** sessions only (Regular Session Jan 14–Mar 14, Reconvened Apr 22–23,
+Special Session I Jun 22/29). 51 streams, queued on the mini after Manassas council, before the
+2023–24 Loudoun rows. No committees, no House yet.
+
+| Venue (`body` / transcript `venue`) | Site page | Source video | mini `provider` | file_key = meetingId | Votes source |
+| --- | --- | --- | --- | --- | --- |
+| `va-senate-floor` | `/general-assembly/senate` | Senate of Virginia YouTube (@SenateofVirginia) "Senate Chamber on YYYY-MM-DD" streams | `youtube` | `vas-{youtubeId}` | LIS roll calls (HISTORY.CSV + VOTE.CSV) |
+
+The Senate Granicus archive (view_id=3) ends Dec 2025, so 2026 video comes from the official
+YouTube channel; jump links are `youtube.com/watch?v={id}&t={s}s`.
+
+Files: `src/content/va-senate.ts` (types, helpers, jump URLs, LIS links), `src/content/va-senate-data.ts`
+(GENERATED: `SENATE_MEETINGS`, `SENATORS`, `SENATE_RECAPS`), `public/files/va-senate/votes/{date}.json`
+(GENERATED: that day's Senate floor roll calls with member-by-member votes). Pages:
+`/general-assembly` (index), `/general-assembly/senate` (Find the Moment at top → 40 senators with
+LIS member links → Meeting recaps → floor-session list → official doors),
+`/general-assembly/senate/recaps/{yyyy-mm-dd}` (one recap per floor day).
+
+**Votes rule:** recap votes come ONLY from LIS public data files
+(`https://lis.blob.core.windows.net/lisfiles/{20261|20262}/HISTORY.CSV`, `VOTE.CSV`, `BILLS.CSV`,
+`Members.csv`): every Senate history line dated that day with a roll-call ref `SV####`, grouped by
+vote (block votes list all bills), linked to `lis.virginia.gov/vote-details/{bill}/{session}/{SV}`.
+The tally shown is the one LIS prints in the history line; when the VOTE.CSV member list totals
+differently the page says so. 20261 HISTORY also logs June Special Session I votes with 20262 vote
+numbers; the script keeps the 20262 copy. Never infer a vote from video or transcript. A day with no
+LIS roll call says "No official roll-call votes on record".
+
+Senators: `data/va-senate/senators-lis.json` — name/district/party from the Senate's directory
+(apps.senate.virginia.gov/Senator), member numbers matched to LIS `Members.csv` (all 40 match);
+links go to `lis.virginia.gov/session-details/20262/member-information/{S0nnn}/member-details`.
+
+Regenerate (box): `python3 scripts/va-senate-build.py` (downloads LIS files to /tmp/lis-cache;
+delete the cache to refresh). Re-run it when LIS posts new votes or a new floor stream is added to
+`data/va-senate/chamber-2026.tsv`.
+
+Morning ingest for a Senate floor transcript (mini output `transcripts/va-senate-floor/{file_key}.*`):
+
+```bash
+node scripts/ftm-transcript-windows.mjs {file_key}.srt {file_key} va-senate-floor
+```
+
+Then add an `FTM_TRANSCRIPTS` entry: `meetingId: "{file_key}"`, `venue: "va-senate-floor"`,
+`url: "/files/find-the-moment/va-senate-floor/transcripts/{file_key}.json"`. The recap for that
+date already exists (votes from LIS); once its transcript is live it shows the Find the Moment link
+instead of "Transcripts in progress". Optional: add hand-picked moments only with timestamps from the
+transcript, labelled machine-transcribed. The pack for `va-senate-floor` builds automatically.
+
+**Homepage button:** VA SENATE appears in the Find the Moment box (above the city buttons) only once
+`va-senate-floor` has at least one `FTM_TRANSCRIPTS` entry (`senateLive()`); mention it in the
+morning recap the day it first appears and check the homepage after deploy.
