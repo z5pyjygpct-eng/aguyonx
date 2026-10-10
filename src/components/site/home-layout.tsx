@@ -120,7 +120,7 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
         <div className="grid border-b border-border bg-paper lg:grid-cols-[minmax(0,1fr)_17rem]">
           <HomeFindTheMoment />
           <div className="px-4 py-6 lg:py-8 lg:pr-6 lg:pl-0">
-            <LoudounStats heading="By the numbers · Site totals" />
+            <LoudounStats heading="By the numbers · Site totals" className="border-2 !border-[#1E4B8E]" />
           </div>
         </div>
 
