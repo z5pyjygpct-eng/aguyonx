@@ -116,8 +116,23 @@ export function SenateMeetingSearch() {
 
   if (!searchable.length) {
     return (
-      <div className="rounded-md border border-dashed border-border bg-card/60 px-5 py-6">
-        <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+      <div className="rounded-md border border-border bg-card px-4 py-5 sm:px-5">
+        <div className="flex flex-col gap-3 sm:flex-row">
+          <input
+            disabled
+            placeholder="Search what was said (e.g. data centers, taxes)"
+            aria-label="Search what was said (opens when transcripts post)"
+            className="h-11 flex-1 cursor-not-allowed rounded-md border border-border bg-background px-3 text-base opacity-70"
+          />
+          <button
+            type="button"
+            disabled
+            className="h-11 cursor-not-allowed rounded-md bg-primary px-5 text-sm font-semibold tracking-wide text-primary-foreground uppercase opacity-60"
+          >
+            Search
+          </button>
+        </div>
+        <p className="mt-4 font-mono text-xs tracking-widest text-muted-foreground uppercase">
           Transcripts in progress
         </p>
         <p className="mt-2 text-sm text-muted-foreground">
