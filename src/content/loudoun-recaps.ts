@@ -87,6 +87,10 @@ const ACTION_SEP15 =
   "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1975550/09-15-26%20Business%20Meeting%20Action%20Report.pdf";
 const ACTION_OCT6 =
   "https://lfportal.loudoun.gov/LFPortalInternet/0/edoc/1975929/Action%20Report%2010-06-26%20Business%20Meeting.pdf";
+const ACTION_SEP9 =
+  "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1975535/09-09-26%20Public%20Hearing%20Action%20Report.pdf";
+const ACTION_SEP1 =
+  "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1975185/09-01-26%20Business%20Meeting%20Action%20Report.pdf";
 
 const OCT6_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=3a6eea40-36a8-49b2-9488-cedd456be4d9&Agenda=Agenda&lang=English`;
 const SEP15_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=79595442-81c5-4c63-add5-9a91a8d6300b&Agenda=Agenda&lang=English`;
@@ -469,23 +473,125 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
     dateLabel: "Wednesday, Sep 9, 2026",
     whenWhere: "6:00 PM · Board Room, Government Center, Leesburg · video 1h 35m",
     official: {
-      votesPosted: false,
-      checkedLabel: "Oct 9, 2026, 8 AM ET",
-      note: "Official vote record not yet located in the county Action Report / minutes posting checked this morning. The agenda is posted on eScribe. Outcomes are left blank on purpose until the official record is posted.",
+      votesPosted: true,
+      checkedLabel: "Oct 9, 2026, 8:44 PM ET",
+      note: "Votes below are taken from the county Action Report (posted Sept 11, 2026).",
       links: [
         { label: "Agenda (eScribe)", href: SEP9_AGENDA_HTML },
+        { label: "Action Report (PDF)", href: ACTION_SEP9 },
         {
           label: "County document folder for Board meetings",
           href: LASERFICHE_BOS,
         },
       ],
     },
-    decisions: [],
-    context: [],
+    decisions: [
+      {
+        item: "3.a",
+        action:
+          "Revised Housing Choice Voucher Program Administrative Plan (effective Jan 1, 2027) and Streamlined Annual PHA Plan adopted; execution of 50077-SL and 50077-ST-HCV-HP certifications approved (Attachments 1–4).",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.b",
+        action:
+          "Conveyance of county-owned property at 43745 Marquis Square, Ashburn, to CLS Parking LC approved; County Administrator authorized to execute required documents (Attachments 1–6).",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.c",
+        action:
+          "Amendments to Chapter 838 (Swimming Pool and Water Recreation Facilities) approved as shown in Attachment 1.",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.d",
+        action:
+          "Amendment of Chapter 1066 and repeal of Chapter 1067 approved (Attachment 1).",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.e",
+        action:
+          "New Featherbed Agricultural and Forestal District renewed and readopted (parcels 1–9 in Attachment 1; four-year review period; 40-acre / zoning minimum; no cluster subdivision), based on ADAC and Planning Commission findings.",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.f",
+        action:
+          "Motion under ALEGI-2026-0002 (Hillbrook Agricultural and Forestal District) recorded in the Action Report as renewing and readopting the New Featherbed Agricultural and Forestal District Ordinance on the same terms as item 3.e (see context note).",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.g",
+        action:
+          "LEGI-2023-0115, Joint LCPS/County Central Loudoun Center and Storage (SPEX-2024-0006 & SPEX-2024-0007) approved subject to Conditions of Approval dated Aug 17, 2026, and Findings for Approval (Attachments 1–2).",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.h",
+        action:
+          "LEGI-2025-0026, Loudoun Panel Wiring Shop (SPEX-2025-0049 & SPEX-2025-0138) forwarded to the October 20, 2026 Board of Supervisors Business Meeting for action.",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.i",
+        action:
+          "LEGI-2025-0048, Waterford Elementary School Renovation and Addition (SPEX-2025-0121) approved subject to Conditions of Approval dated Sept 2, 2026, and Findings for Approval (Attachments 1–2).",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.j",
+        action:
+          "ZOAM-2026-0003, Chapter 10 Procedures – Placards, approved (Attachment 1).",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.k",
+        action:
+          "Amendments to Chapter 480.11 (Enforcement) approved to extend parking-restriction enforcement to Metro Transit Police on WMATA-owned property, effective immediately (Attachment 1).",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.l",
+        action:
+          "LEGI-2024-0008, Dulles South Community Park (SPEX-2024-0017 & SPEX-2026-0034) forwarded to the October 20, 2026 Board of Supervisors Business Meeting for action.",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        item: "3.m",
+        action:
+          "LEGI-2025-0054, Village at Clear Springs Landbay 2C (ZCPA-2025-0008) approved subject to the Proffer Statement dated Sept 3, 2026, and Findings for Approval (Attachments 1–2).",
+        tally: "7-0-2 (Supervisors Briskman and Saines absent)",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+    ],
+    context: [
+      {
+        text: "Chair Randall announced the Consolidated Hearing Agenda as items 3a–3k and 3m. Item 3.l (Dulles South Community Park) was taken separately and forwarded to Oct 20, 2026.",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+      {
+        text: "Under item 3.f (ALEGI-2026-0002, Hillbrook Agricultural and Forestal District), the Action Report’s motion text names the New Featherbed Agricultural and Forestal District Ordinance and New Featherbed parcels/findings—the same wording as item 3.e—while the item heading is Hillbrook. Recorded here as written in the Action Report.",
+        source: { label: "Sept 9, 2026 Action Report", href: ACTION_SEP9 },
+      },
+    ],
     agenda: [
       {
-        heading: "Hearing items (as listed on the eScribe agenda)",
-        dek: "Items 3a–3j were proposed on the consolidated agenda.",
+        heading: "Hearing items (as recorded in the Action Report)",
+        dek: "Consolidated Hearing Agenda covered 3a–3k and 3m; 3.l was taken separately.",
         items: [
           {
             num: "3.a",
@@ -498,7 +604,50 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
             title: "Proposed conveyance of county-owned property at 43745 Marquis Square, Ashburn",
             href: doc(777),
           },
-          { num: "3.c–3.j", title: "Additional hearing items on the consolidated / hearing agenda (see eScribe)" },
+          {
+            num: "3.c",
+            title: "Rewrite of Chapter 838 – Swimming Pool and Water Recreation Facilities",
+          },
+          {
+            num: "3.d",
+            title: "Amendment of Chapter 1066 and repeal of Chapter 1067",
+          },
+          {
+            num: "3.e",
+            title: "ALEGI-2026-0001, New Featherbed Agricultural and Forestal District",
+          },
+          {
+            num: "3.f",
+            title: "ALEGI-2026-0002, Hillbrook Agricultural and Forestal District",
+          },
+          {
+            num: "3.g",
+            title: "LEGI-2023-0115, Joint LCPS/COL Central Loudoun Service Center and Storage",
+          },
+          {
+            num: "3.h",
+            title: "LEGI-2025-0026, Loudoun Panel Wiring Shop (forwarded to Oct 20)",
+          },
+          {
+            num: "3.i",
+            title: "LEGI-2025-0048, Waterford Elementary School Renovation and Addition",
+          },
+          {
+            num: "3.j",
+            title: "ZOAM-2026-0003, Chapter 10 Procedures – Placards",
+          },
+          {
+            num: "3.k",
+            title: "Chapter 480.11 – Metro Transit Police parking enforcement on WMATA property",
+          },
+          {
+            num: "3.l",
+            title: "LEGI-2024-0008, Dulles South Community Park (forwarded to Oct 20)",
+          },
+          {
+            num: "3.m",
+            title: "LEGI-2025-0054, Village at Clear Springs Landbay 2C",
+          },
         ],
       },
     ],
@@ -530,22 +679,109 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
     dateLabel: "Tuesday, Sep 1, 2026",
     whenWhere: "4:00 PM · Board Room, Government Center, Leesburg · video 7h 51m",
     official: {
-      votesPosted: false,
-      checkedLabel: "Oct 9, 2026, 8 AM ET",
-      note: "Official vote record (Action Report / minutes) was not located in the county posting checked this morning. The agenda is posted on eScribe. Outcomes are left blank on purpose until the official record is posted.",
+      votesPosted: true,
+      checkedLabel: "Oct 9, 2026, 8:44 PM ET",
+      note: "Votes below are taken from the county Action Report (posted Sept 3, 2026).",
       links: [
         { label: "Agenda (eScribe)", href: SEP1_AGENDA_HTML },
+        { label: "Action Report (PDF)", href: ACTION_SEP1 },
         {
           label: "County document folder for Board meetings",
           href: LASERFICHE_BOS,
         },
       ],
     },
-    decisions: [],
-    context: [],
+    decisions: [
+      {
+        item: "4",
+        action: "Consent agenda approved (7a–7f, 14a, and 14c).",
+        tally: "8-0-1 (Supervisor Saines absent)",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        item: "10.a",
+        action:
+          "Motion to direct staff to prepare and return with proposed ordinances implementing local authority from House Bills 4 and 854 (2026 General Assembly) died due to lack of second.",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        item: "11.a",
+        action:
+          "Board directed staff to include conversations and considerations regarding locating one remaining Regional Park called for in the FY 2029–FY 2040 Capital Needs Assessment south of Route 50 as part of a future budget development process (FGOEDC recommendation).",
+        tally: "8-0-1 (Supervisor Saines absent)",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        item: "12.a",
+        action:
+          "Environmental Commission 2026 Annual Report endorsed (Attachment 1) (TLUC recommendation).",
+        tally: "9-0",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        item: "14.d",
+        action:
+          "2025 Standard CIF, Urban MFA CIF, and By-Size Differential Option adopted as recommended by staff, along with Age-Restricted/CCRC CIF and Roads CIF as recommended by the Fiscal Impact Committee (Attachments 2, 5, and 7), effective on adoption and applying to legislative applications not yet to a Planning Commission Public Hearing.",
+        tally: "8-0-1 (Supervisor Saines absent)",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        item: "14.e (Motion 1)",
+        action:
+          "LEGI-2025-0012, Golden Substation: CMPT-2025-0005 ratified subject to the Commission Permit Plat dated July 2, 2026, and Findings for Approval (Attachments 1 and 3).",
+        tally: "8-1 (Supervisor Briskman opposed)",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        item: "14.e (Motion 2)",
+        action:
+          "LEGI-2025-0012, Golden Substation: SPEX-2025-0032, SPEX-2025-0033, & SPEX-2025-0137 forwarded to the December 1, 2026 Board of Supervisors Business Meeting for action.",
+        tally:
+          "5-4 (Supervisors Kershner, Letourneau, Turner, and Umstattd opposed)",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        item: "14.f",
+        action:
+          "LEGI-2025-0052, R&D Hamilton Academy: SPEX-2026-0005, SPEX-2026-0006, & SPEX-2026-0007 approved subject to Conditions of Approval dated July 15, 2026, and Findings for Approval (Attachments 1 and 2).",
+        tally: "6-3 (Supervisors Briskman, Saines, and TeKrony opposed)",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        item: "14.g",
+        action:
+          "Proposed 2028–2031 Board term annual compensation structure (Table 4) advertised for the October 14, 2026 Board of Supervisors Public Hearing.",
+        tally: "6-3 (Supervisors Kershner, Letourneau, and Umstattd opposed)",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        item: "14.h",
+        action:
+          "Substitute motion: County Attorney directed to prepare a memorandum for the October 6, 2026 Business Meeting with a legal opinion on amending the March 18, 2025 data-center grandfathering resolution to add immediate loss of grandfathered status for administrative applications upon adoption; staff directed to bring back a public inventory of every remaining administrative application claimed under the 2025 resolution (location, status, square footage, number of buildings, and whether already grandfathered or still in process).",
+        tally: "9-0",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        item: "15.b (from closed session)",
+        action:
+          "Staff directed to prepare a resolution to initiate condemnation and “quick take” proceedings for acquisition of property in the Dulles Election District for construction of Dulles West Boulevard (Northstar Boulevard to Arcola Boulevard), and to advertise the resolution for the October 14, 2026 Public Hearing.",
+        tally: "9-0",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+    ],
+    context: [
+      {
+        text: "Item 14.h’s original motion (direct staff to prepare an amending resolution for Oct 6) was replaced by Chair Randall’s substitute motion (legal opinion memorandum plus application inventory), which passed 9-0 as amended.",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+      {
+        text: "The Action Report’s closed-session section lists two identical Dulles Election District property-acquisition motions under Part 1 before the certification and the Dulles West Boulevard condemnation follow-up (15.b).",
+        source: { label: "Sept 1, 2026 Action Report", href: ACTION_SEP1 },
+      },
+    ],
     agenda: [
       {
-        heading: "Ceremonial resolutions (proposed on consent include 7a–7f)",
+        heading: "Ceremonial resolutions (on consent: 7a–7f)",
         items: [
           {
             num: "7.a",
@@ -567,10 +803,18 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
             title: "Proclamation: Sickle Cell Awareness Month (September 2026)",
             href: doc(702),
           },
+          {
+            num: "7.e",
+            title: "Proclamation: Suicide Prevention Month (September 2026)",
+          },
+          {
+            num: "7.f",
+            title: "Proclamation: Find the Good Day (September 17, 2026)",
+          },
         ],
       },
       {
-        heading: "Action items highlighted on the agenda",
+        heading: "Action items highlighted in the Action Report",
         items: [
           { num: "14.a", title: "Appointments: confirmations", href: doc(696) },
           { num: "14.c", title: "Administrative Items Report", href: doc(698) },
@@ -581,6 +825,18 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
           },
           {
             num: "14.e",
+            title: "LEGI-2025-0012, Golden Substation",
+          },
+          {
+            num: "14.f",
+            title: "LEGI-2025-0052, R&D Hamilton Academy",
+          },
+          {
+            num: "14.g",
+            title: "BMI: 2028–2031 Board term compensation structure",
+          },
+          {
+            num: "14.h",
             title: "BMI: Amendment to the 2025 Data Center Grandfathering Resolution",
             href: doc(744),
           },
@@ -604,11 +860,12 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
       },
       {
         seconds: 3961,
-        item: "14.e",
+        item: "14.h",
         label: "Data center grandfathering resolution amendment discussed.",
       },
     ],
   },
+
 ];
 
 export const LOUDOUN_RECAP_BY_SLUG: Record<string, LoudounRecap> = Object.fromEntries(
