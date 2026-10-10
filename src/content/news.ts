@@ -51,6 +51,43 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "fairfax-2027-ga-priorities-mckay-ffxnow-2026-10-09",
+    date: "2026-10-09",
+    filed: "2026-10-10",
+    headline:
+      "Housing, tax reform among Fairfax County’s priorities for 2027 General Assembly session",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/09/housing-tax-reform-among-fairfax-countys-priorities-for-2027-general-assembly-session/",
+    people: [{ name: "Jeff McKay", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "chantilly-fuel-cell-data-center-ffxnow-2026-10-09",
+    date: "2026-10-09",
+    filed: "2026-10-10",
+    headline: "Developer submits plans to build fuel cell-powered data center in Chantilly",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/09/developer-submits-plans-to-build-fuel-cell-powered-data-center-in-chantilly/",
+    people: [{ name: "Dalia Palchik", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "chandler-spence-school-funding-request-loudounnow-2026-10-09",
+    date: "2026-10-09",
+    filed: "2026-10-10",
+    headline:
+      "Chandler, Spence Urge Supervisors on School Funding Request After County Staff Recommends Against Full Approval",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/chandler-spence-urge-supervisors-on-school-funding-request-after-county-staff-recommends-against-full-approval/article_4b46c3d5-fd7a-4f8b-bbf5-b61f80bfae63.html",
+    people: [
+      { name: "April Chandler", office: "Loudoun official" },
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+      { name: "Koran Saines", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+
+  {
     id: "warner-mizusawa-disability-forum-vamercury-2026-10-08",
     date: "2026-10-08",
     filed: "2026-10-09",
