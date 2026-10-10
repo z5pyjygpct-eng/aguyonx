@@ -3,6 +3,7 @@ import { Download, ExternalLink, PlayCircle } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
+import { ShareMoment } from "@/components/site/share-moment";
 import { LOUDOUN_BOS, LOUDOUN_MEETING_BY_ID, loudounMeetingJumpUrl } from "@/content/loudoun";
 import { LCPS_MEETINGS, LCPS_SCHOOL_BOARD, lcpsJumpUrl } from "@/content/lcps";
 import { LOUDOUN_RECAP_BY_SLUG, type RecapLink } from "@/content/loudoun-recaps";
@@ -173,6 +174,15 @@ function RecapPage() {
                           “{m.quote}”{" "}
                           <em className="text-xs">(machine-transcribed; check the video)</em>
                         </span>
+                      ) : null}
+                      {recap.shareEnabled ? (
+                        <ShareMoment
+                          videoUrl={jump(m.seconds)}
+                          recapUrl={`https://aguyonx.com/counties/loudoun/recaps/${recap.slug}`}
+                          text={m.item ? `Item ${m.item}: ${m.label}` : m.label}
+                          context={recap.shareContext ?? `Loudoun, ${recap.dateLabel}`}
+                          time={secToHms(m.seconds).replace(/^0/, "")}
+                        />
                       ) : null}
                     </p>
                   </li>

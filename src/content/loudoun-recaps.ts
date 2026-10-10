@@ -71,6 +71,10 @@ export type LoudounRecap = {
   context: RecapContextNote[];
   agenda: RecapAgendaGroup[];
   moments: RecapMoment[];
+  /** Pilot: show Share controls (copy link / post on X) on each moment. */
+  shareEnabled?: boolean;
+  /** Short context for share text, e.g. "Loudoun BOS, Oct 6, 2026". */
+  shareContext?: string;
   /**
    * Downloadable full machine transcript (built by scripts/ftm-transcript-download.mjs).
    * Omit until the files exist under public/.
@@ -794,6 +798,8 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
 
   {
     slug: "bos-2026-10-06-business",
+    shareEnabled: true,
+    shareContext: "Loudoun BOS, Oct 6, 2026",
     meetingId: "escribe-3a6eea40",
     title: "Board of Supervisors Business Meeting",
     dateLabel: "Tuesday, Oct 6, 2026",
