@@ -51,6 +51,10 @@ export const FTM_PACK_VENUES = [
     venue: "loudoun-lcps",
     catalogs: ["src/content/ftm-transcripts.ts", "src/content/lcps.ts"],
   },
+  // Cities (Oct 10 2026): transcripts only, no county caption index.
+  ...["fairfax-city-council", "fairfax-city-schools", "manassas-council", "manassas-schools"].map(
+    (venue) => ({ venue, catalogs: ["src/content/ftm-transcripts.ts"] }),
+  ),
 ];
 
 /** Window-file URLs for a venue, in catalog order, deduped. */
@@ -115,6 +119,12 @@ export function buildFtmPacks({
   for (const { venue, catalogs } of FTM_PACK_VENUES) {
     const sources = catalogs.map((c) => fs.readFileSync(path.join(root, c), "utf8"));
     const urls = catalogUrls(sources, venue);
+    // A venue with nothing listed yet (e.g. a city before its first transcript) gets no pack;
+    // the site falls back to per-meeting files.
+    if (!urls.length) {
+      fs.rmSync(path.join(outDir, FTM_PUBLIC_PREFIX, venue, "pack"), { recursive: true, force: true });
+      continue;
+    }
     const entries = [];
     const missing = [];
     for (const url of urls) {

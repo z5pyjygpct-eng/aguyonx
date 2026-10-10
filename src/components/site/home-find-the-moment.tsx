@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import { CITY_VENUES, cityVenueLive, type CityVenueId } from "@/content/cities";
 
 /** Simplified Virginia outline (stroke watermark). Public-domain Census-derived geometry. */
 const VA_OUTLINE_PATH =
@@ -8,6 +9,27 @@ const DOORS = [
   { to: "/counties/loudoun" as const, label: "Loudoun County" },
   { to: "/counties/loudoun/schools" as const, label: "Loudoun Schools" },
 ] as const;
+
+/**
+ * City doors, in order, shown under the Loudoun buttons ONLY once that venue has live
+ * transcripts (cityVenueLive = at least one FTM_TRANSCRIPTS entry for the venue).
+ * The morning ingest adds transcripts; the button appears automatically on the next deploy.
+ */
+const CITY_DOOR_ORDER: CityVenueId[] = [
+  "fairfax-city-council",
+  "fairfax-city-schools",
+  "manassas-council",
+  "manassas-schools",
+];
+const CITY_DOORS = CITY_DOOR_ORDER.filter(cityVenueLive).map((id) => ({
+  key: id,
+  route: CITY_VENUES[id].route,
+  city: CITY_VENUES[id].city,
+  label: CITY_VENUES[id].buttonLabel,
+}));
+
+const DOOR_CLASS =
+  "inline-flex items-center rounded-md border-2 border-[#1E4B8E] bg-transparent px-5 py-2.5 font-sans text-sm font-semibold tracking-[0.14em] text-[#1E4B8E] uppercase transition-[background-color,color] duration-150 hover:bg-[#1E4B8E] hover:text-white sm:px-7 sm:py-3 sm:text-base";
 
 /**
  * Home tool plate: Find the Moment doors under the Virginia offices pills.
@@ -59,6 +81,23 @@ export function HomeFindTheMoment() {
             </Link>
           ))}
         </nav>
+        {CITY_DOORS.length ? (
+          <nav
+            aria-label="Find the Moment city doors"
+            className="mt-3 flex flex-wrap justify-center gap-3 sm:gap-4"
+          >
+            {CITY_DOORS.map((door) => (
+              <Link
+                key={door.key}
+                to={door.route}
+                params={{ city: door.city }}
+                className={DOOR_CLASS}
+              >
+                {door.label}
+              </Link>
+            ))}
+          </nav>
+        ) : null}
         <p className="mt-4">
           <Link
             to="/counties/loudoun/find-the-moment"

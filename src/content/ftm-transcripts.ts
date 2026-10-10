@@ -11,7 +11,13 @@
  * (same {start,end,text} shape as caption windows; lazy-loaded on search).
  */
 
-export type FtmTranscriptVenue = "loudoun-bos" | "loudoun-lcps";
+export type FtmTranscriptVenue =
+  | "loudoun-bos"
+  | "loudoun-lcps"
+  | "fairfax-city-council"
+  | "fairfax-city-schools"
+  | "manassas-council"
+  | "manassas-schools";
 
 export type FtmTranscript = {
   /** Catalog meeting id (e.g. LOUDOUN_MEETINGS[].id). */

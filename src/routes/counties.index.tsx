@@ -46,6 +46,13 @@ function CountiesIndex() {
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
           County and school board doors for meetings and the official record. No dossiers.
         </p>
+        <p className="mt-3 text-sm text-muted-foreground">
+          Cities:{" "}
+          <Link to="/cities" className="text-[#1E4B8E] underline-offset-2 hover:underline">
+            City of Fairfax and City of Manassas
+          </Link>
+          .
+        </p>
         <ul className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {COUNTY_SHELVES.map((shelf) => (
             <li key={shelf.id} className="flex flex-col gap-4">

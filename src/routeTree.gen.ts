@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as R2027RouteImport } from './routes/2027'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as ArticlesRouteImport } from './routes/articles'
+import { Route as CitiesRouteImport } from './routes/cities'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as CountiesRouteImport } from './routes/counties'
 import { Route as DelegatesRouteImport } from './routes/delegates'
@@ -23,15 +24,21 @@ import { Route as SenatorsRouteImport } from './routes/senators'
 import { Route as VideosRouteImport } from './routes/videos'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
+import { Route as CitiesIndexRouteImport } from './routes/cities.index'
+import { Route as CitiesCityRouteImport } from './routes/cities.$city'
 import { Route as CountiesIndexRouteImport } from './routes/counties.index'
 import { Route as CountiesLoudounRouteImport } from './routes/counties.loudoun'
 import { Route as InvestigationsIndexRouteImport } from './routes/investigations.index'
 import { Route as InvestigationsSlugRouteImport } from './routes/investigations.$slug'
 import { Route as LibraryIndexRouteImport } from './routes/library.index'
 import { Route as LibraryFoiaRouteImport } from './routes/library.foia'
+import { Route as CitiesCityIndexRouteImport } from './routes/cities.$city.index'
+import { Route as CitiesCityFindTheMomentRouteImport } from './routes/cities.$city.find-the-moment'
+import { Route as CitiesCitySchoolsRouteImport } from './routes/cities.$city.schools'
 import { Route as CountiesLoudounIndexRouteImport } from './routes/counties.loudoun.index'
 import { Route as CountiesLoudounFindTheMomentRouteImport } from './routes/counties.loudoun.find-the-moment'
 import { Route as CountiesLoudounSchoolsRouteImport } from './routes/counties.loudoun.schools'
+import { Route as CitiesCityRecapsSlugRouteImport } from './routes/cities.$city.recaps.$slug'
 import { Route as CountiesLoudounRecapsSlugRouteImport } from './routes/counties.loudoun.recaps.$slug'
 
 const IndexRoute = IndexRouteImport.update({
@@ -52,6 +59,11 @@ const AboutRoute = AboutRouteImport.update({
 const ArticlesRoute = ArticlesRouteImport.update({
   id: '/articles',
   path: '/articles',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CitiesRoute = CitiesRouteImport.update({
+  id: '/cities',
+  path: '/cities',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactRoute = ContactRouteImport.update({
@@ -104,6 +116,16 @@ const ArticlesSlugRoute = ArticlesSlugRouteImport.update({
   path: '/$slug',
   getParentRoute: () => ArticlesRoute,
 } as any)
+const CitiesIndexRoute = CitiesIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => CitiesRoute,
+} as any)
+const CitiesCityRoute = CitiesCityRouteImport.update({
+  id: '/$city',
+  path: '/$city',
+  getParentRoute: () => CitiesRoute,
+} as any)
 const CountiesIndexRoute = CountiesIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -134,6 +156,21 @@ const LibraryFoiaRoute = LibraryFoiaRouteImport.update({
   path: '/foia',
   getParentRoute: () => LibraryRoute,
 } as any)
+const CitiesCityIndexRoute = CitiesCityIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => CitiesCityRoute,
+} as any)
+const CitiesCityFindTheMomentRoute = CitiesCityFindTheMomentRouteImport.update({
+  id: '/find-the-moment',
+  path: '/find-the-moment',
+  getParentRoute: () => CitiesCityRoute,
+} as any)
+const CitiesCitySchoolsRoute = CitiesCitySchoolsRouteImport.update({
+  id: '/schools',
+  path: '/schools',
+  getParentRoute: () => CitiesCityRoute,
+} as any)
 const CountiesLoudounIndexRoute = CountiesLoudounIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -150,6 +187,11 @@ const CountiesLoudounSchoolsRoute = CountiesLoudounSchoolsRouteImport.update({
   path: '/schools',
   getParentRoute: () => CountiesLoudounRoute,
 } as any)
+const CitiesCityRecapsSlugRoute = CitiesCityRecapsSlugRouteImport.update({
+  id: '/recaps/$slug',
+  path: '/recaps/$slug',
+  getParentRoute: () => CitiesCityRoute,
+} as any)
 const CountiesLoudounRecapsSlugRoute =
   CountiesLoudounRecapsSlugRouteImport.update({
     id: '/recaps/$slug',
@@ -162,6 +204,7 @@ export interface FileRoutesByFullPath {
   '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/articles': typeof ArticlesRouteWithChildren
+  '/cities': typeof CitiesRouteWithChildren
   '/contact': typeof ContactRoute
   '/counties': typeof CountiesRouteWithChildren
   '/delegates': typeof DelegatesRoute
@@ -171,16 +214,22 @@ export interface FileRoutesByFullPath {
   '/senators': typeof SenatorsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
+  '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/articles/': typeof ArticlesIndexRoute
+  '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
+  '/cities/$city/find-the-moment': typeof CitiesCityFindTheMomentRoute
+  '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/cities/$city/': typeof CitiesCityIndexRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
+  '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
 }
 export interface FileRoutesByTo {
@@ -196,12 +245,17 @@ export interface FileRoutesByTo {
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/articles': typeof ArticlesIndexRoute
+  '/cities': typeof CitiesIndexRoute
   '/counties': typeof CountiesIndexRoute
   '/investigations': typeof InvestigationsIndexRoute
   '/library': typeof LibraryIndexRoute
+  '/cities/$city/find-the-moment': typeof CitiesCityFindTheMomentRoute
+  '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/cities/$city': typeof CitiesCityIndexRoute
   '/counties/loudoun': typeof CountiesLoudounIndexRoute
+  '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
 }
 export interface FileRoutesById {
@@ -210,6 +264,7 @@ export interface FileRoutesById {
   '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/articles': typeof ArticlesRouteWithChildren
+  '/cities': typeof CitiesRouteWithChildren
   '/contact': typeof ContactRoute
   '/counties': typeof CountiesRouteWithChildren
   '/delegates': typeof DelegatesRoute
@@ -219,16 +274,22 @@ export interface FileRoutesById {
   '/senators': typeof SenatorsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
+  '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/articles/': typeof ArticlesIndexRoute
+  '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
+  '/cities/$city/find-the-moment': typeof CitiesCityFindTheMomentRoute
+  '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/cities/$city/': typeof CitiesCityIndexRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
+  '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
 }
 export interface FileRouteTypes {
@@ -238,6 +299,7 @@ export interface FileRouteTypes {
     | '/2027'
     | '/about'
     | '/articles'
+    | '/cities'
     | '/contact'
     | '/counties'
     | '/delegates'
@@ -247,16 +309,22 @@ export interface FileRouteTypes {
     | '/senators'
     | '/videos'
     | '/articles/$slug'
+    | '/cities/$city'
     | '/counties/loudoun'
     | '/investigations/$slug'
     | '/library/foia'
     | '/articles/'
+    | '/cities/'
     | '/counties/'
     | '/investigations/'
     | '/library/'
+    | '/cities/$city/find-the-moment'
+    | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/cities/$city/'
     | '/counties/loudoun/'
+    | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -272,12 +340,17 @@ export interface FileRouteTypes {
     | '/investigations/$slug'
     | '/library/foia'
     | '/articles'
+    | '/cities'
     | '/counties'
     | '/investigations'
     | '/library'
+    | '/cities/$city/find-the-moment'
+    | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/cities/$city'
     | '/counties/loudoun'
+    | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
   id:
     | '__root__'
@@ -285,6 +358,7 @@ export interface FileRouteTypes {
     | '/2027'
     | '/about'
     | '/articles'
+    | '/cities'
     | '/contact'
     | '/counties'
     | '/delegates'
@@ -294,16 +368,22 @@ export interface FileRouteTypes {
     | '/senators'
     | '/videos'
     | '/articles/$slug'
+    | '/cities/$city'
     | '/counties/loudoun'
     | '/investigations/$slug'
     | '/library/foia'
     | '/articles/'
+    | '/cities/'
     | '/counties/'
     | '/investigations/'
     | '/library/'
+    | '/cities/$city/find-the-moment'
+    | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/cities/$city/'
     | '/counties/loudoun/'
+    | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
   fileRoutesById: FileRoutesById
 }
@@ -312,6 +392,7 @@ export interface RootRouteChildren {
   R2027Route: typeof R2027Route
   AboutRoute: typeof AboutRoute
   ArticlesRoute: typeof ArticlesRouteWithChildren
+  CitiesRoute: typeof CitiesRouteWithChildren
   ContactRoute: typeof ContactRoute
   CountiesRoute: typeof CountiesRouteWithChildren
   DelegatesRoute: typeof DelegatesRoute
@@ -350,6 +431,13 @@ declare module '@tanstack/react-router' {
       path: '/articles'
       fullPath: '/articles'
       preLoaderRoute: typeof ArticlesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cities': {
+      id: '/cities'
+      path: '/cities'
+      fullPath: '/cities'
+      preLoaderRoute: typeof CitiesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact': {
@@ -422,6 +510,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ArticlesSlugRouteImport
       parentRoute: typeof ArticlesRoute
     }
+    '/cities/': {
+      id: '/cities/'
+      path: '/'
+      fullPath: '/cities/'
+      preLoaderRoute: typeof CitiesIndexRouteImport
+      parentRoute: typeof CitiesRoute
+    }
+    '/cities/$city': {
+      id: '/cities/$city'
+      path: '/$city'
+      fullPath: '/cities/$city'
+      preLoaderRoute: typeof CitiesCityRouteImport
+      parentRoute: typeof CitiesRoute
+    }
     '/counties/': {
       id: '/counties/'
       path: '/'
@@ -464,6 +566,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LibraryFoiaRouteImport
       parentRoute: typeof LibraryRoute
     }
+    '/cities/$city/': {
+      id: '/cities/$city/'
+      path: '/'
+      fullPath: '/cities/$city/'
+      preLoaderRoute: typeof CitiesCityIndexRouteImport
+      parentRoute: typeof CitiesCityRoute
+    }
+    '/cities/$city/find-the-moment': {
+      id: '/cities/$city/find-the-moment'
+      path: '/find-the-moment'
+      fullPath: '/cities/$city/find-the-moment'
+      preLoaderRoute: typeof CitiesCityFindTheMomentRouteImport
+      parentRoute: typeof CitiesCityRoute
+    }
+    '/cities/$city/schools': {
+      id: '/cities/$city/schools'
+      path: '/schools'
+      fullPath: '/cities/$city/schools'
+      preLoaderRoute: typeof CitiesCitySchoolsRouteImport
+      parentRoute: typeof CitiesCityRoute
+    }
     '/counties/loudoun/': {
       id: '/counties/loudoun/'
       path: '/'
@@ -484,6 +607,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/counties/loudoun/schools'
       preLoaderRoute: typeof CountiesLoudounSchoolsRouteImport
       parentRoute: typeof CountiesLoudounRoute
+    }
+    '/cities/$city/recaps/$slug': {
+      id: '/cities/$city/recaps/$slug'
+      path: '/recaps/$slug'
+      fullPath: '/cities/$city/recaps/$slug'
+      preLoaderRoute: typeof CitiesCityRecapsSlugRouteImport
+      parentRoute: typeof CitiesCityRoute
     }
     '/counties/loudoun/recaps/$slug': {
       id: '/counties/loudoun/recaps/$slug'
@@ -508,6 +638,37 @@ const ArticlesRouteChildren: ArticlesRouteChildren = {
 const ArticlesRouteWithChildren = ArticlesRoute._addFileChildren(
   ArticlesRouteChildren,
 )
+
+interface CitiesCityRouteChildren {
+  CitiesCityFindTheMomentRoute: typeof CitiesCityFindTheMomentRoute
+  CitiesCitySchoolsRoute: typeof CitiesCitySchoolsRoute
+  CitiesCityIndexRoute: typeof CitiesCityIndexRoute
+  CitiesCityRecapsSlugRoute: typeof CitiesCityRecapsSlugRoute
+}
+
+const CitiesCityRouteChildren: CitiesCityRouteChildren = {
+  CitiesCityFindTheMomentRoute: CitiesCityFindTheMomentRoute,
+  CitiesCitySchoolsRoute: CitiesCitySchoolsRoute,
+  CitiesCityIndexRoute: CitiesCityIndexRoute,
+  CitiesCityRecapsSlugRoute: CitiesCityRecapsSlugRoute,
+}
+
+const CitiesCityRouteWithChildren = CitiesCityRoute._addFileChildren(
+  CitiesCityRouteChildren,
+)
+
+interface CitiesRouteChildren {
+  CitiesCityRoute: typeof CitiesCityRouteWithChildren
+  CitiesIndexRoute: typeof CitiesIndexRoute
+}
+
+const CitiesRouteChildren: CitiesRouteChildren = {
+  CitiesCityRoute: CitiesCityRouteWithChildren,
+  CitiesIndexRoute: CitiesIndexRoute,
+}
+
+const CitiesRouteWithChildren =
+  CitiesRoute._addFileChildren(CitiesRouteChildren)
 
 interface CountiesLoudounRouteChildren {
   CountiesLoudounFindTheMomentRoute: typeof CountiesLoudounFindTheMomentRoute
@@ -573,6 +734,7 @@ const rootRouteChildren: RootRouteChildren = {
   R2027Route: R2027Route,
   AboutRoute: AboutRoute,
   ArticlesRoute: ArticlesRouteWithChildren,
+  CitiesRoute: CitiesRouteWithChildren,
   ContactRoute: ContactRoute,
   CountiesRoute: CountiesRouteWithChildren,
   DelegatesRoute: DelegatesRoute,
