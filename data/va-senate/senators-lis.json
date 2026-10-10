@@ -1,6 +1,6 @@
 [
  {
-  "name": ">",
+  "name": "Timmy French",
   "district": 1,
   "party": "R",
   "lisId": "S0121",
@@ -8,7 +8,7 @@
   "senateId": "S121"
  },
  {
-  "name": ">",
+  "name": "Mark D. Obenshain",
   "district": 2,
   "party": "R",
   "lisId": "S0068",
@@ -16,7 +16,7 @@
   "senateId": "S68"
  },
  {
-  "name": ">",
+  "name": "Christopher T. Head",
   "district": 3,
   "party": "R",
   "lisId": "S0122",
@@ -24,7 +24,7 @@
   "senateId": "S122"
  },
  {
-  "name": ">",
+  "name": "David R. Suetterlein",
   "district": 4,
   "party": "R",
   "lisId": "S0101",
@@ -32,7 +32,7 @@
   "senateId": "S101"
  },
  {
-  "name": ">",
+  "name": "T. Travis Hackworth",
   "district": 5,
   "party": "R",
   "lisId": "S0112",
@@ -40,7 +40,7 @@
   "senateId": "S112"
  },
  {
-  "name": ">",
+  "name": "Todd E. Pillion",
   "district": 6,
   "party": "R",
   "lisId": "S0111",
@@ -48,7 +48,7 @@
   "senateId": "S111"
  },
  {
-  "name": ">",
+  "name": "William M. Stanley Jr.",
   "district": 7,
   "party": "R",
   "lisId": "S0082",
@@ -56,7 +56,7 @@
   "senateId": "S82"
  },
  {
-  "name": ">",
+  "name": "Mark J. Peake",
   "district": 8,
   "party": "R",
   "lisId": "S0105",
@@ -64,7 +64,7 @@
   "senateId": "S105"
  },
  {
-  "name": ">",
+  "name": "Tammy Brankley Mulchi",
   "district": 9,
   "party": "R",
   "lisId": "S0131",
@@ -72,7 +72,7 @@
   "senateId": "S131"
  },
  {
-  "name": ">",
+  "name": "Luther H. Cifers III",
   "district": 10,
   "party": "R",
   "lisId": "S0132",
@@ -80,7 +80,7 @@
   "senateId": "S132"
  },
  {
-  "name": ">",
+  "name": "R. Creigh Deeds",
   "district": 11,
   "party": "D",
   "lisId": "S0062",
@@ -88,7 +88,7 @@
   "senateId": "S62"
  },
  {
-  "name": ">",
+  "name": "Glen H. Sturtevant Jr.",
   "district": 12,
   "party": "R",
   "lisId": "S0099",
@@ -96,7 +96,7 @@
   "senateId": "S99"
  },
  {
-  "name": ">",
+  "name": "Lashrecse D. Aird",
   "district": 13,
   "party": "D",
   "lisId": "S0115",
@@ -104,7 +104,7 @@
   "senateId": "S115"
  },
  {
-  "name": ">",
+  "name": "Lamont Bagby",
   "district": 14,
   "party": "D",
   "lisId": "S0114",
@@ -112,7 +112,7 @@
   "senateId": "S114"
  },
  {
-  "name": ">",
+  "name": "Michael J. Jones",
   "district": 15,
   "party": "D",
   "lisId": "S0134",
@@ -120,7 +120,7 @@
   "senateId": "S134"
  },
  {
-  "name": ">",
+  "name": "Schuyler T. VanValkenburg",
   "district": 16,
   "party": "D",
   "lisId": "S0129",
@@ -128,7 +128,7 @@
   "senateId": "S129"
  },
  {
-  "name": ">",
+  "name": "Emily M. Jordan",
   "district": 17,
   "party": "R",
   "lisId": "S0116",
@@ -136,7 +136,7 @@
   "senateId": "S116"
  },
  {
-  "name": ">",
+  "name": "L. Louise Lucas",
   "district": 18,
   "party": "D",
   "lisId": "S0019",
@@ -144,7 +144,7 @@
   "senateId": "S19"
  },
  {
-  "name": ">",
+  "name": "Christie New Craig",
   "district": 19,
   "party": "R",
   "lisId": "S0118",
@@ -152,7 +152,7 @@
   "senateId": "S118"
  },
  {
-  "name": ">",
+  "name": "Bill DeSteph",
   "district": 20,
   "party": "R",
   "lisId": "S0096",
@@ -160,7 +160,7 @@
   "senateId": "S96"
  },
  {
-  "name": ">",
+  "name": "Angelia Williams Graves",
   "district": 21,
   "party": "D",
   "lisId": "S0130",
@@ -168,7 +168,7 @@
   "senateId": "S130"
  },
  {
-  "name": ">",
+  "name": "Aaron R. Rouse",
   "district": 22,
   "party": "D",
   "lisId": "S0113",
@@ -176,7 +176,7 @@
   "senateId": "S113"
  },
  {
-  "name": ">",
+  "name": "Mamie E. Locke",
   "district": 23,
   "party": "D",
   "lisId": "S0067",
@@ -184,7 +184,7 @@
   "senateId": "S67"
  },
  {
-  "name": ">",
+  "name": "J.D. \"Danny\" Diggs",
   "district": 24,
   "party": "R",
   "lisId": "S0119",
@@ -192,7 +192,7 @@
   "senateId": "S119"
  },
  {
-  "name": ">",
+  "name": "Richard H. Stuart",
   "district": 25,
   "party": "R",
   "lisId": "S0078",
@@ -200,7 +200,7 @@
   "senateId": "S78"
  },
  {
-  "name": ">",
+  "name": "Ryan T. McDougle",
   "district": 26,
   "party": "R",
   "lisId": "S0069",
@@ -208,7 +208,7 @@
   "senateId": "S69"
  },
  {
-  "name": ">",
+  "name": "Tara A. Durant",
   "district": 27,
   "party": "R",
   "lisId": "S0120",
@@ -216,7 +216,7 @@
   "senateId": "S120"
  },
  {
-  "name": ">",
+  "name": "Bryce E. Reeves",
   "district": 28,
   "party": "R",
   "lisId": "S0088",
@@ -224,7 +224,7 @@
   "senateId": "S88"
  },
  {
-  "name": ">",
+  "name": "Jeremy S. McPike",
   "district": 29,
   "party": "D",
   "lisId": "S0098",
@@ -232,7 +232,7 @@
   "senateId": "S98"
  },
  {
-  "name": ">",
+  "name": "Danica A. Roem",
   "district": 30,
   "party": "D",
   "lisId": "S0126",
@@ -240,7 +240,7 @@
   "senateId": "S126"
  },
  {
-  "name": ">",
+  "name": "Russet W. Perry",
   "district": 31,
   "party": "D",
   "lisId": "S0125",
@@ -248,7 +248,7 @@
   "senateId": "S125"
  },
  {
-  "name": ">",
+  "name": "Kannan Srinivasan",
   "district": 32,
   "party": "D",
   "lisId": "S0133",
@@ -256,7 +256,7 @@
   "senateId": "S133"
  },
  {
-  "name": ">",
+  "name": "Jennifer D. Carroll Foy",
   "district": 33,
   "party": "D",
   "lisId": "S0117",
@@ -264,7 +264,7 @@
   "senateId": "S117"
  },
  {
-  "name": ">",
+  "name": "Scott A. Surovell",
   "district": 34,
   "party": "D",
   "lisId": "S0100",
@@ -272,7 +272,7 @@
   "senateId": "S100"
  },
  {
-  "name": ">",
+  "name": "David W. Marsden",
   "district": 35,
   "party": "D",
   "lisId": "S0080",
@@ -280,7 +280,7 @@
   "senateId": "S80"
  },
  {
-  "name": ">",
+  "name": "Stella G. Pekarsky",
   "district": 36,
   "party": "D",
   "lisId": "S0124",
@@ -288,7 +288,7 @@
   "senateId": "S124"
  },
  {
-  "name": ">",
+  "name": "Saddam Azlan Salim",
   "district": 37,
   "party": "D",
   "lisId": "S0127",
@@ -296,7 +296,7 @@
   "senateId": "S127"
  },
  {
-  "name": ">",
+  "name": "Jennifer B. Boysko",
   "district": 38,
   "party": "D",
   "lisId": "S0106",
@@ -304,7 +304,7 @@
   "senateId": "S106"
  },
  {
-  "name": ">",
+  "name": "Elizabeth Bennett-Parker",
   "district": 39,
   "party": "D",
   "lisId": "S0135",
@@ -312,7 +312,7 @@
   "senateId": "S135"
  },
  {
-  "name": ">",
+  "name": "Barbara A. Favola",
   "district": 40,
   "party": "D",
   "lisId": "S0086",
