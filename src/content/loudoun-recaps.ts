@@ -1,3 +1,4 @@
+import { sortRecapsNewestFirst } from "./recap-sort";
 /**
  * Loudoun BOS meeting recaps — one short page per meeting.
  *
@@ -113,7 +114,7 @@ const BOARDDOCS_LCPS = "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public";
 const boarddocsMeeting = (id: string) =>
   `https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=${id}`;
 
-export const LOUDOUN_RECAPS: LoudounRecap[] = [
+const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
 
   // --- 2026-10-10 morning: newest pending BOS + LCPS (interleaved) ---
   {
@@ -1565,6 +1566,9 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
   },
 
 ];
+
+/** Always sorted newest meeting first (see recap-sort.ts). */
+export const LOUDOUN_RECAPS: LoudounRecap[] = sortRecapsNewestFirst(LOUDOUN_RECAPS_RAW);
 
 export const LOUDOUN_RECAP_BY_SLUG: Record<string, LoudounRecap> = Object.fromEntries(
   LOUDOUN_RECAPS.map((r) => [r.slug, r]),

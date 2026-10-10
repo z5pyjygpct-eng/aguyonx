@@ -7,7 +7,10 @@
  * VOTE.CSV), built per day by scripts/va-senate-build.py. Never inferred from video or transcript.
  */
 import { FTM_TRANSCRIPTS } from "./ftm-transcripts";
-import { SENATE_MEETINGS, SENATE_RECAPS, SENATORS } from "./va-senate-data";
+import { SENATE_MEETINGS, SENATE_RECAPS as SENATE_RECAPS_RAW, SENATORS } from "./va-senate-data";
+import { sortRecapsNewestFirst } from "./recap-sort";
+
+const SENATE_RECAPS = sortRecapsNewestFirst(SENATE_RECAPS_RAW);
 
 export type SenateMeeting = {
   /** Mac mini file_key and transcript meetingId: vas-{youtubeId}. */

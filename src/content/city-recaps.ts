@@ -5,12 +5,16 @@
  * posted keep official.votesPosted false. Never infer a vote from video or transcript.
  * Renders at /cities/{city}/recaps/{slug}.
  */
+import { sortRecapsNewestFirst } from "./recap-sort";
 import type { LoudounRecap } from "./loudoun-recaps";
 import type { CityVenueId } from "./cities";
 
 export type CityRecap = Omit<LoudounRecap, "venue"> & { venue: CityVenueId };
 
-export const CITY_RECAPS: CityRecap[] = [];
+const CITY_RECAPS_RAW: CityRecap[] = [];
+
+/** Always sorted newest meeting first. */
+export const CITY_RECAPS: CityRecap[] = sortRecapsNewestFirst(CITY_RECAPS_RAW);
 
 export const CITY_RECAP_BY_SLUG: Record<string, CityRecap> = Object.fromEntries(
   CITY_RECAPS.map((r) => [r.slug, r]),
