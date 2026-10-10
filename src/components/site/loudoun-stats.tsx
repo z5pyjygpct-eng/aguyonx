@@ -1,5 +1,5 @@
 /**
- * Loudoun BOS "by the numbers" panel, beside Find the Moment on /counties/loudoun.
+ * Loudoun BOS + School Board "by the numbers" panel, beside Find the Moment on /counties/loudoun.
  * Every number is derived from the site catalogs (no hand-entered counts):
  *  - Meeting videos: LOUDOUN_MEETINGS listed
  *  - Searchable meetings: meetings with an indexed caption/transcript (windowCount > 0 or full transcript)
@@ -8,6 +8,7 @@
  *  - Hours of audio transcribed: sum of published durations of the fully transcribed meetings
  */
 import { LOUDOUN_MEETINGS } from "@/content/loudoun";
+import { LCPS_MEETINGS } from "@/content/lcps";
 import { LOUDOUN_RECAPS } from "@/content/loudoun-recaps";
 import { FTM_TRANSCRIPTS } from "@/content/ftm-transcripts";
 
@@ -19,13 +20,13 @@ function secs(label: string | undefined): number {
 }
 
 export function loudounStats() {
-  const full = new Set(FTM_TRANSCRIPTS.filter((t) => t.venue === "loudoun-bos").map((t) => t.meetingId));
-  const ms = LOUDOUN_MEETINGS;
+  const full = new Set(FTM_TRANSCRIPTS.filter((t) => t.venue === "loudoun-bos" || t.venue === "loudoun-lcps").map((t) => t.meetingId));
+  const ms: { id: string; windowCount: number; duration: string }[] = [...LOUDOUN_MEETINGS, ...LCPS_MEETINGS];
   return {
     videos: ms.length,
     searchable: ms.filter((m) => m.windowCount > 0 || full.has(m.id)).length,
     transcripts: ms.filter((m) => full.has(m.id)).length,
-    recaps: LOUDOUN_RECAPS.filter((r) => (r.venue ?? "loudoun-bos") === "loudoun-bos").length,
+    recaps: LOUDOUN_RECAPS.length,
     hours: Math.round(ms.filter((m) => full.has(m.id)).reduce((a, m) => a + secs(m.duration), 0) / 3600),
   };
 }
@@ -41,7 +42,7 @@ export function LoudounStats() {
   ];
   return (
     <aside className="rounded-md border border-border bg-card px-5 py-5">
-      <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">By the numbers · BOS</p>
+      <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">By the numbers · Loudoun BOS + School Board</p>
       <dl className="mt-3 divide-y divide-border">
         {rows.map((r) => (
           <div key={r.label} className="flex items-baseline justify-between gap-4 py-3">
