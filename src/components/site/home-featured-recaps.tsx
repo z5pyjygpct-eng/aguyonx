@@ -9,6 +9,11 @@ import { CITIES, CITY_VENUES } from "@/content/cities";
 import { SENATE_RECAPS } from "@/content/va-senate";
 import { recapDateKey, sortRecapsNewestFirst } from "@/content/recap-sort";
 
+const PROCEDURAL = /called to order|adjourn|pledge|invocation|roll call|quorum|agenda (approved|adopted)/i;
+function summaryOf(r: { decisions: { action: string }[]; moments: { label: string }[] }): string | undefined {
+  return [...r.decisions.map((d) => d.action), ...r.moments.map((m) => m.label)].find((t) => t && !PROCEDURAL.test(t));
+}
+
 type Card = { key: string; slug: string; date?: string; dateLabel: string; title: string; board: string; summary?: string; href: string };
 
 function cards(): Card[] {
@@ -17,7 +22,7 @@ function cards(): Card[] {
     out.push({
       key: `l-${r.slug}`, slug: r.slug, dateLabel: r.dateLabel, title: r.title,
       board: r.venue === "loudoun-lcps" ? "Loudoun School Board" : "Loudoun Board of Supervisors",
-      summary: r.decisions[0]?.action ?? r.moments[0]?.label,
+      summary: summaryOf(r),
       href: `/counties/loudoun/recaps/${r.slug}`,
     });
   for (const r of CITY_RECAPS) {
@@ -26,7 +31,7 @@ function cards(): Card[] {
     out.push({
       key: `c-${r.slug}`, slug: r.slug, dateLabel: r.dateLabel, title: r.title,
       board: CITY_VENUES[r.venue].name,
-      summary: r.decisions[0]?.action ?? r.moments[0]?.label,
+      summary: summaryOf(r),
       href: `/cities/${city.id}/recaps/${r.slug}`,
     });
   }
