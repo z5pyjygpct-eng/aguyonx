@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { LoudounMeetingSearch } from "@/components/site/loudoun-meeting-search";
+import { LoudounStats } from "@/components/site/loudoun-stats";
 import {
   LOUDOUN_BOS,
   LOUDOUN_MEETINGS,
@@ -60,7 +61,8 @@ function LoudounCountyPage() {
           door.
         </p>
 
-        <div className="mt-10">
+        <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_15rem] lg:items-start">
+        <div>
           <LoudounMeetingSearch />
           <p className="mt-4 text-sm text-muted-foreground">
             <Link
@@ -70,6 +72,8 @@ function LoudounCountyPage() {
               Also search Schools in the same box →
             </Link>
           </p>
+        </div>
+        <LoudounStats />
         </div>
 
         {BOS_RECAPS.length > 0 ? (

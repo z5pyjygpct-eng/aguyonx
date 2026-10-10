@@ -3,8 +3,6 @@ import { Link } from "@tanstack/react-router";
 import { OFFICE_DOORS } from "@/content/offices";
 import { SITE } from "@/content/site";
 import { HomeFindTheMoment } from "@/components/site/home-find-the-moment";
-import { HomeStats } from "@/components/site/home-stats";
-import { HomeFeaturedRecaps } from "@/components/site/home-featured-recaps";
 
 const SHELVES = [
   { to: "/about" as const, label: "About" },
@@ -119,8 +117,6 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
         </nav>
 
         <HomeFindTheMoment />
-        <HomeStats />
-        <HomeFeaturedRecaps />
 
         {children}
       </div>
