@@ -10,6 +10,8 @@ import {
   LOUDOUN_OFFICIAL_DOORS,
 } from "@/content/loudoun";
 import { LOUDOUN_RECAPS } from "@/content/loudoun-recaps";
+
+const BOS_RECAPS = LOUDOUN_RECAPS.filter((r) => (r.venue ?? "loudoun-bos") === "loudoun-bos");
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/counties/loudoun/")({
@@ -70,11 +72,11 @@ function LoudounCountyPage() {
           </p>
         </div>
 
-        {LOUDOUN_RECAPS.length > 0 ? (
+        {BOS_RECAPS.length > 0 ? (
           <section className="mt-10">
             <Kicker>Meeting recaps</Kicker>
             <ul className="mt-3 space-y-2">
-              {LOUDOUN_RECAPS.map((r) => (
+              {BOS_RECAPS.map((r) => (
                 <li key={r.slug}>
                   <Link
                     to="/counties/loudoun/recaps/$slug"
