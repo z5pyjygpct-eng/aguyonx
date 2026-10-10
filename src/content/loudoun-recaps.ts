@@ -106,6 +106,8 @@ const granicusAgenda = (clipId: number) =>
 const granicusAction = (clipId: number, metaId: number) =>
   `https://loudoun.granicus.com/MetaViewer.php?view_id=73&clip_id=${clipId}&meta_id=${metaId}`;
 const BOARDDOCS_LCPS = "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public";
+const boarddocsMeeting = (id: string) =>
+  `https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=${id}`;
 
 export const LOUDOUN_RECAPS: LoudounRecap[] = [
 
@@ -119,9 +121,10 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
     whenWhere: "School Board meeting · video 7h 5m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 10, 2026, 8:00 AM ET",
-      note: "Official vote record not yet posted. BoardDocs minutes were not retrieved this morning (BoardDocs blocked automated fetch). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+      checkedLabel: "Oct 10, 2026, 8:40 AM ET",
+      note: "Official vote record not yet posted. BoardDocs meeting page has agenda only (no View Minutes control). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
       links: [
+        { label: "BoardDocs meeting", href: boarddocsMeeting("DXGKG851ACED") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1229286967?rel=0" },
       ],
@@ -277,9 +280,10 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
     whenWhere: "School Board retreat · video 5h 53m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 10, 2026, 8:00 AM ET",
-      note: "Official vote record not yet posted. Retreat agendas/minutes live on BoardDocs; automated BoardDocs fetch was blocked this morning.",
+      checkedLabel: "Oct 10, 2026, 8:40 AM ET",
+      note: "Official vote record not yet posted. BoardDocs retreat meeting page has agenda only (no View Minutes control). Do not infer votes from the video or machine transcript.",
       links: [
+        { label: "BoardDocs meeting", href: boarddocsMeeting("DTRGE7436104") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1227257661?rel=0" },
       ],
@@ -364,25 +368,129 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
     dateLabel: "Tuesday, Sep 8, 2026",
     whenWhere: "School Board meeting · video ~6h+",
     official: {
-      votesPosted: false,
-      checkedLabel: "Oct 10, 2026, 8:00 AM ET",
-      note: "Official vote record not yet posted. BoardDocs minutes not retrieved this morning (fetch blocked).",
+      votesPosted: true,
+      checkedLabel: "Oct 10, 2026, 8:40 AM ET",
+      note: "Votes below are taken from the BoardDocs minutes for this meeting (adopted record). Tallies list members as the minutes record them.",
       links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DWNJY54F612D") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1225039248?rel=0" },
       ],
     },
-    decisions: [],
-    context: [],
+    decisions: [
+      {
+        item: "3",
+        action:
+          "Consent agenda adopted as amended. Minutes record that Items 3.09 through 3.15 were removed from consent (Riccardi), with Item 3.13 (LGBTQ+ History Month Proclamation) and the Constitution Week Proclamation set for separate consideration (Griffiths; LaBell). Remaining consent items as recorded under 3.01–3.08 include prior meeting minutes, personnel actions, Fiscal Impact Committee appointee (Adnan Mamoon), RFP awards, easement authorizations, and religious attendance exemption.",
+        tally:
+          "7-0-1 (Approved: Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Abstained: LaBell; Not present at vote: Donohue)",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+      {
+        item: "12.01",
+        action:
+          "Adopted National Arts in Education Week, High School Voter Registration Week, National Hispanic Heritage Month, Dyslexia Awareness Month, and Bullying Prevention Month proclamations.",
+        tally:
+          "6-0-3 (Approved: LaBell, Chandler, Donohue, Rashid, Pepper, Svenson; Abstained: Griffiths, Shernoff, Riccardi)",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+      {
+        item: "12.02",
+        action:
+          "Adopted the proclamation recognizing September 17–23, 2026 as Constitution Week.",
+        tally:
+          "7-0-2 (Approved: LaBell, Chandler, Donohue, Rashid, Riccardi, Pepper, Svenson; Abstained: Griffiths, Shernoff)",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+      {
+        item: "12.03",
+        action:
+          "Adopted the LGBTQ+ History Month Proclamation recognizing October 2026 as LGBTQ+ History Month in Loudoun County Public Schools.",
+        tally:
+          "5-1-3 (Approved: Chandler, Donohue, Rashid, Pepper, Svenson; Opposed: Griffiths; Abstained: LaBell, Shernoff, Riccardi)",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+      {
+        item: "12.04",
+        action:
+          "FY27 Budget Final Alignment: aligned the FY27 Adopted Budget with the state’s final FY26–28 biennium budget, recognizing an additional $14,000,000 of state revenue in the School Operating Fund and corresponding expenses as outlined in the staff plan as amended; further requested the Board of Supervisors appropriate and increase the FY27 School Operating Fund accordingly.",
+        tally:
+          "9-0 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson)",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+      {
+        item: "12.04 (amendment)",
+        action:
+          "Amended the recommended action to strike $1,880,000 for Delayed Procurement of Panic Buttons and $120,000 for Unanticipated budget needs or overages from the staff plan, and to reallocate that $2,000,000 to Title I and English Learner purposes set forth in the schedule in the minutes. Total appropriation of $14,000,000 unchanged.",
+        tally:
+          "8-0-1 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Abstained: Donohue)",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+      {
+        item: "12.05",
+        action: "Approved the proposed changes to Policy 2420 (Meeting Procedures) as amended.",
+        tally:
+          "9-0 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson)",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+      {
+        item: "12.05 (amendment)",
+        action:
+          "Amended the proposed redline of Policy 2420 to replace \"shall\" on Line 72 with \"may\", and to strike the sentence on Lines 73–75 that reads: \"If a member's remote participation is challenged, the School Board shall vote on whether to allow such participation.\"",
+        tally:
+          "9-0 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson)",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+      {
+        item: "12.06",
+        action:
+          "Adopted new Policy 5340, Safe and Supportive Removal of Students in the Educational Setting, as amended.",
+        tally:
+          "9-0 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson)",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+      {
+        item: "12.06 (amendment)",
+        action:
+          "Amended proposed Policy 5340, Section B(1), by inserting after \"designated supportive area\" on line 17 (clean version): \", or the removal of other students from the instructional setting to allow a student to remain in the instructional setting, for the purpose of de-escalation or regulation of a student or students.\"",
+        tally:
+          "9-0 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson)",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+    ],
+    context: [
+      {
+        text: "Gap: minutes state Items 3.09–3.15 were removed from consent for separate action; Item 3.09 (School Board Advisory Committee Membership) has no separate Action Item vote recorded after the amendment. Proclamation items appear as 12.01–12.03.",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+      {
+        text: "Vice Chair Anne Donohue arrived at 6:30 p.m. (minutes attendance).",
+        source: { label: "Sep 8, 2026 BoardDocs minutes", href: boarddocsMeeting("DWNJY54F612D") },
+      },
+    ],
     agenda: [
       {
-        heading: "Agenda (see BoardDocs)",
-        dek: "Navigation markers from the meeting video only.",
+        heading: "On consent (as amended)",
         items: [
-          { num: "—", title: "Call to order and disclosures" },
-          { num: "—", title: "Consent agenda" },
-          { num: "—", title: "Public comment" },
-          { num: "16", title: "New business" },
+          { num: "3.01", title: "Minutes of the August 11, 2026, 2nd Tuesday School Board Meeting" },
+          { num: "3.02", title: "Personnel Actions" },
+          { num: "3.03", title: "Fiscal Impact Committee appointee (Adnan Mamoon)" },
+          { num: "3.04", title: "Award of RFP #R23250 Printing Graphic Design, Mailing, and Related Services" },
+          { num: "3.05", title: "Award of RFP #R26024 Dental Insurance Services" },
+          { num: "3.06", title: "Chair authorization to sign Waterford ES easement documents" },
+          { num: "3.07", title: "Easements for Evergreen Mills Rd widening at Heritage HS, Simpson MS, Evergreen ES" },
+          { num: "3.08", title: "Exemption from school attendance for religious reasons" },
+        ],
+      },
+      {
+        heading: "Action items",
+        items: [
+          { num: "12.01", title: "Proclamations (Arts in Education Week; High School Voter Registration Week; Hispanic Heritage Month; Dyslexia Awareness Month; Bullying Prevention Month)" },
+          { num: "12.02", title: "Constitution Week Proclamation" },
+          { num: "12.03", title: "LGBTQ+ History Month Proclamation" },
+          { num: "12.04", title: "FY27 Budget Final Alignment" },
+          { num: "12.05", title: "Revised Policy 2420, Meeting Procedures" },
+          { num: "12.06", title: "New Policy 5340, Safe and Supportive Removal of Students in the Educational Setting" },
         ],
       },
     ],
@@ -484,25 +592,108 @@ export const LOUDOUN_RECAPS: LoudounRecap[] = [
     dateLabel: "Tuesday, Aug 11, 2026",
     whenWhere: "School Board meeting · video ~8h+",
     official: {
-      votesPosted: false,
-      checkedLabel: "Oct 10, 2026, 8:00 AM ET",
-      note: "Official vote record not yet posted. BoardDocs minutes not retrieved this morning (fetch blocked).",
+      votesPosted: true,
+      checkedLabel: "Oct 10, 2026, 8:40 AM ET",
+      note: "Votes below are taken from the BoardDocs minutes for this meeting (adopted September 8, 2026). Tallies list members as the minutes record them.",
       links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DV3GCL432C63") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1217434020?rel=0" },
       ],
     },
-    decisions: [],
-    context: [],
+    decisions: [
+      {
+        item: "3",
+        action:
+          "Consent agenda adopted (3.01–3.08 as recorded): minutes of June 23 and July 13 meetings; personnel actions; Lucketts sanitary sewer/treatment facility easement adjustment; revised Policy 8160; Attendance Awareness Month and Suicide Prevention Awareness Month proclamations; School Board Advisory Committee membership.",
+        tally:
+          "7-0-1 (Approved: LaBell, Chandler, Rashid, Shernoff, Riccardi, Pepper, Svenson; Abstained: Griffiths; Not present at vote: Donohue)",
+        source: { label: "Aug 11, 2026 BoardDocs minutes", href: boarddocsMeeting("DV3GCL432C63") },
+      },
+      {
+        item: "15.01",
+        action: "Motion to convene closed meeting approved.",
+        tally:
+          "9-0 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson)",
+        source: { label: "Aug 11, 2026 BoardDocs minutes", href: boarddocsMeeting("DV3GCL432C63") },
+      },
+      {
+        item: "15.02",
+        action: "Motion to adjourn closed meeting approved.",
+        tally:
+          "8-0-1 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Shernoff, Pepper, Svenson; Abstained: Riccardi)",
+        source: { label: "Aug 11, 2026 BoardDocs minutes", href: boarddocsMeeting("DV3GCL432C63") },
+      },
+      {
+        item: "15.03",
+        action:
+          "Closed-meeting certification (Resolution #02-26/27) approved. Minutes record Riccardi’s statement alleging a departure from the closed-meeting exemption (including reference to informal votes in closed session) and a repeated certification vote after clarification.",
+        tally:
+          "First certification 7-2 (Opposed: Griffiths, Riccardi); repeated certification 8-1 (Opposed: Riccardi)",
+        source: { label: "Aug 11, 2026 BoardDocs minutes", href: boarddocsMeeting("DV3GCL432C63") },
+      },
+      {
+        item: "15.04",
+        action:
+          "Authorized execution of documents necessary and appropriate pertaining to the respective student matter considered in closed meeting.",
+        tally:
+          "8-0-1 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Shernoff, Pepper, Svenson; Abstained: Riccardi)",
+        source: { label: "Aug 11, 2026 BoardDocs minutes", href: boarddocsMeeting("DV3GCL432C63") },
+      },
+      {
+        item: "15.04",
+        action:
+          "Approved a limited waiver of closed-session confidentiality and associated attorney-client privilege regarding board-member behavior discussions, strictly limited to closed sessions on June 17, 2024; November 26, 2024; December 2, 2024; May 26, 2026; and August 11, 2026.",
+        tally:
+          "7-1-1 (Approved: LaBell, Chandler, Donohue, Rashid, Shernoff, Pepper, Svenson; Opposed: Riccardi; Abstained: Griffiths)",
+        source: { label: "Aug 11, 2026 BoardDocs minutes", href: boarddocsMeeting("DV3GCL432C63") },
+      },
+      {
+        item: "15.04",
+        action:
+          "Found that School Board member Deana Griffiths violated Policy 1030(B)(9) and (B)(10) (and further Policy 1030(B)(4) and Policy 1035(A)(6) as stated), referencing a prior Private Warning (June 17, 2024) and Private Letter of Reprimand (on or around December 6, 2024), and publicly censured her.",
+        tally:
+          "6-1-2 (Approved: Chandler, Donohue, Rashid, Shernoff, Pepper, Svenson; Opposed: Riccardi; Abstained: LaBell, Griffiths)",
+        source: { label: "Aug 11, 2026 BoardDocs minutes", href: boarddocsMeeting("DV3GCL432C63") },
+      },
+    ],
+    context: [
+      {
+        text: "Items 12.01–12.04 were Information Items only (including FY27 Budget Final Alignment, FY27 Audit Plan, Policy 2420, and Policy 5340); no action votes on those items at this meeting. Adjournment recorded at 12:42 a.m.",
+        source: { label: "Aug 11, 2026 BoardDocs minutes", href: boarddocsMeeting("DV3GCL432C63") },
+      },
+      {
+        text: "Vice Chair Anne Donohue arrived at 5:00 p.m. (minutes attendance).",
+        source: { label: "Aug 11, 2026 BoardDocs minutes", href: boarddocsMeeting("DV3GCL432C63") },
+      },
+    ],
     agenda: [
       {
-        heading: "Agenda (see BoardDocs)",
-        dek: "Navigation markers from the meeting video only.",
+        heading: "On consent",
         items: [
-          { num: "—", title: "Call to order and disclosures" },
-          { num: "—", title: "Consent agenda" },
-          { num: "—", title: "Public comment" },
-          { num: "—", title: "Closed meeting / adjournment" },
+          { num: "3.01", title: "Minutes of the June 23, 2026, 4th Tuesday School Board Meeting" },
+          { num: "3.02", title: "Minutes of the July 13, 2026, Special School Board Meeting" },
+          { num: "3.03", title: "Personnel Actions" },
+          { num: "3.04", title: "Lucketts ES sanitary sewer / treatment facility easement adjustment" },
+          { num: "3.05", title: "Revised Policy 8160, Exception to School Assignment Due to Attendance Zone Change" },
+          { num: "3.06", title: "Attendance Awareness Month Proclamation" },
+          { num: "3.07", title: "Suicide Prevention Awareness Month Proclamation" },
+          { num: "3.08", title: "School Board Advisory Committee Membership" },
+        ],
+      },
+      {
+        heading: "Information items (no vote)",
+        items: [
+          { num: "12.01", title: "FY27 Budget Final Alignment" },
+          { num: "12.02", title: "FY27 Audit Plan" },
+          { num: "12.03", title: "Revised Policy 2420, Meeting Procedures" },
+          { num: "12.04", title: "New Policy 5340 (information; action on Sep 8)" },
+        ],
+      },
+      {
+        heading: "Closed meeting",
+        items: [
+          { num: "15.01–15.04", title: "Convene, adjourn, certify, and motions required by closed meeting" },
         ],
       },
     ],
