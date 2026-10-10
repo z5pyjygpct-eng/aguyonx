@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { SITE } from "@/content/site";
+import { CHUNK_RELOAD_INLINE_SCRIPT } from "@/lib/chunk-reload";
 import appCss from "../styles.css?url";
 
 export const Route = createRootRoute({
@@ -31,6 +32,7 @@ export const Route = createRootRoute({
   component: () => (
     <html lang="en" className="antialiased" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: CHUNK_RELOAD_INLINE_SCRIPT }} />
         <HeadContent />
       </head>
       <body className="min-h-svh bg-background font-sans text-foreground">

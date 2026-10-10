@@ -1,5 +1,7 @@
+import { useState } from "react";
 import type { ErrorComponentProps } from "@tanstack/react-router";
 import { TriangleAlert } from "lucide-react";
+import { isChunkLoadError, reloadForStaleChunk } from "@/lib/chunk-reload";
 
 function errorMessage(error: unknown): string {
   if (error instanceof Error && error.message) return error.message;
@@ -17,6 +19,10 @@ function errorMessage(error: unknown): string {
 }
 
 export function AppErrorComponent({ error }: ErrorComponentProps) {
+  // A stale chunk after a deploy: reload once instead of showing the error.
+  const stale = isChunkLoadError(error);
+  const [reloading] = useState(() => stale && reloadForStaleChunk());
+  if (reloading) return null;
   return (
     <main
       className={
@@ -29,7 +35,9 @@ export function AppErrorComponent({ error }: ErrorComponentProps) {
       </span>
       <h1 className="text-lg font-semibold">Something went wrong</h1>
       <p className="max-w-md text-sm break-words text-zinc-500 dark:text-zinc-400">
-        {errorMessage(error)}
+        {stale
+          ? "This page was updated while it was open. Please refresh to load the latest version."
+          : errorMessage(error)}
       </p>
     </main>
   );
