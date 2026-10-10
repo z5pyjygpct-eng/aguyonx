@@ -65,12 +65,14 @@ export function HomeFindTheMoment() {
       </div>
 
       <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center px-4 py-10 text-center sm:px-6 sm:py-12">
-        <h2 className="font-serif text-3xl font-medium tracking-tight text-night sm:text-4xl md:text-5xl">
-          Find the Moment
-        </h2>
-        <p className="mt-3 max-w-xl font-sans text-sm text-night/75 sm:text-base">
-          Search what was said. Jump to the video.
-        </p>
+        <Link to="/find-the-moment" className="group block" aria-label="Find the Moment: all venues">
+          <h2 className="font-serif text-3xl font-medium tracking-tight text-night underline-offset-[6px] decoration-2 group-hover:text-[#1E4B8E] group-hover:underline sm:text-4xl md:text-5xl">
+            Find the Moment
+          </h2>
+          <p className="mt-3 max-w-xl font-sans text-sm text-night/75 sm:text-base">
+            Search what was said. Jump to the video.
+          </p>
+        </Link>
         <nav
           aria-label="Find the Moment doors"
           className="mt-7 flex flex-wrap justify-center gap-3 sm:gap-4"

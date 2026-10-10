@@ -1,3 +1,4 @@
+import { AllFtmLink } from "@/components/site/all-ftm-link";
 import { useMemo, useRef, useState, type FormEvent } from "react";
 import { Link } from "@tanstack/react-router";
 import { ExternalLink, Search } from "lucide-react";
@@ -117,6 +118,8 @@ export function SenateMeetingSearch() {
   if (!searchable.length) {
     return (
       <div className="rounded-md border border-border bg-card px-4 py-5 sm:px-5">
+      <AllFtmLink className="mb-3 text-right" />
+        <AllFtmLink className="mb-3 text-right" />
         <div className="flex flex-col gap-3 sm:flex-row">
           <input
             disabled

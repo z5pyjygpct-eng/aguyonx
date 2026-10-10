@@ -1,3 +1,4 @@
+import { AllFtmLink } from "@/components/site/all-ftm-link";
 import {
   useCallback,
   useEffect,
@@ -275,6 +276,7 @@ export function LoudounMeetingSearch() {
       <h2 className="mt-2 font-serif text-2xl font-medium tracking-tight sm:text-3xl">
         Find the Moment
       </h2>
+      <AllFtmLink className="mt-1" />
       <p className="mt-2 text-sm text-muted-foreground">
         Search captions → jump the video · {LOUDOUN_MEETINGS.length} Board meetings indexed
         {TRANSCRIPT_MEETING_COUNT > 0

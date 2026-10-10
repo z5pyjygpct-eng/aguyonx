@@ -1,3 +1,4 @@
+import { AllFtmLink } from "@/components/site/all-ftm-link";
 import { useMemo, useRef, useState, type FormEvent } from "react";
 import { Link } from "@tanstack/react-router";
 import { ExternalLink, Search } from "lucide-react";
@@ -121,6 +122,7 @@ export function CityMeetingSearch({ venues }: { venues: CityVenueId[] }) {
   if (!searchable.length) {
     return (
       <div className="rounded-md border border-dashed border-border bg-card/60 px-5 py-6">
+        <AllFtmLink className="mb-3 text-right" />
         <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
           Transcripts in progress
         </p>
@@ -135,6 +137,7 @@ export function CityMeetingSearch({ venues }: { venues: CityVenueId[] }) {
   const shown = hits.slice(0, HIT_CAP);
   return (
     <div className="rounded-md border border-border bg-card px-4 py-5 sm:px-5">
+      <AllFtmLink className="mb-3 text-right" />
       <form onSubmit={run} className="flex flex-col gap-3 sm:flex-row">
         <label className="sr-only" htmlFor="city-ftm-q">
           Search what was said

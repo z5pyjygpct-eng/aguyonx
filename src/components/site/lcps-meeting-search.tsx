@@ -1,3 +1,4 @@
+import { AllFtmLink } from "@/components/site/all-ftm-link";
 import {
   useCallback,
   useEffect,
@@ -289,6 +290,7 @@ export function LcpsMeetingSearch() {
       <h2 className="mt-2 font-serif text-2xl font-medium tracking-tight sm:text-3xl">
         Find the Moment — Loudoun School Board
       </h2>
+      <AllFtmLink className="mt-1" />
       <p className="mt-2 text-sm text-muted-foreground">
         Search captions → jump the video · {LCPS_MEETINGS.length} meetings indexed (full board +
         committees + closed/appeals · 2025–2026 YTD)
