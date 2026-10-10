@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-10-28-1127365931.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-10-28-4th-tuesday-school-board-meeting",
+  "title": "Loudoun County School Board, 4th Tuesday School Board Meeting, Tuesday, October 28, 2025",
+  "shortTitle": "4th Tuesday School Board Meeting \u00b7 Oct 28, 2025",
+  "date": "Tuesday, October 28, 2025",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "5h 52m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1127365931?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DM2Q5M6761E2"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-10"
+}

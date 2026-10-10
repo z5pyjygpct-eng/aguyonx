@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/8135.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-03-09-budget-work-session",
+  "title": "Loudoun County Board of Supervisors, FY 2027 Budget Work Session, Monday, March 9, 2026",
+  "shortTitle": "FY 2027 Budget Work Session \u00b7 Mar 9, 2026",
+  "date": "Monday, March 9, 2026",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "4h 22m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/8135"
+    },
+    {
+      "label": "Meeting page (Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/8135"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-10"
+}

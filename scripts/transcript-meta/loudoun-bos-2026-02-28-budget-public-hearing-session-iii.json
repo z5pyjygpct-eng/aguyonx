@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/8128.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-02-28-budget-public-hearing-session-iii",
+  "title": "Loudoun County Board of Supervisors, Budget Public Hearing (Session III), Saturday, February 28, 2026",
+  "shortTitle": "Budget Public Hearing (Session III) \u00b7 Feb 28, 2026",
+  "date": "Saturday, February 28, 2026",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "1h 18m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/8128"
+    },
+    {
+      "label": "Meeting page (Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/8128"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-10"
+}

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/8107.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-02-03-business",
+  "title": "Loudoun County Board of Supervisors, Business Meeting, Tuesday, February 3, 2026",
+  "shortTitle": "Business Meeting \u00b7 Feb 3, 2026",
+  "date": "Tuesday, February 3, 2026",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "3h 55m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/8107"
+    },
+    {
+      "label": "Meeting page (Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/8107"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-10"
+}

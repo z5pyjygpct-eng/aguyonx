@@ -11,6 +11,7 @@ import {
   LCPS_OFFICIAL_DOORS,
   LCPS_SCHOOL_BOARD,
 } from "@/content/lcps";
+import { LOUDOUN_RECAPS } from "@/content/loudoun-recaps";
 import { LCPS_POLICY_BOOK, lcpsPolicyCount, lcpsPolicyHostedCount } from "@/content/lcps-policies";
 import { LCPS_BUDGET_DOCS, LCPS_BUDGET_FY27 } from "@/content/lcps-budget";
 
@@ -63,6 +64,32 @@ function LoudounSchoolsPage() {
             </Link>
           </p>
         </div>
+
+        {LOUDOUN_RECAPS.some((r) => (r.venue ?? "loudoun-bos") === "loudoun-lcps") ? (
+          <section className="mt-10">
+            <Kicker>Meeting recaps</Kicker>
+            <ul className="mt-3 space-y-2">
+              {LOUDOUN_RECAPS.filter((r) => (r.venue ?? "loudoun-bos") === "loudoun-lcps").map(
+                (r) => (
+                  <li key={r.slug}>
+                    <Link
+                      to="/counties/loudoun/recaps/$slug"
+                      params={{ slug: r.slug }}
+                      className="font-serif text-lg text-[#1E4B8E] underline-offset-2 hover:underline"
+                    >
+                      {r.dateLabel} · {r.title}
+                    </Link>
+                    <span className="ml-2 text-sm text-muted-foreground">
+                      {r.official.votesPosted
+                        ? "Official votes posted"
+                        : "Official votes not yet posted"}
+                    </span>
+                  </li>
+                ),
+              )}
+            </ul>
+          </section>
+        ) : null}
 
         <section className="mt-14">
           <Kicker>School Board</Kicker>

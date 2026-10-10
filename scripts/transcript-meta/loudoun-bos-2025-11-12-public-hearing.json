@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/8060.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2025-11-12-public-hearing",
+  "title": "Loudoun County Board of Supervisors, Public Hearing, Wednesday, November 12, 2025",
+  "shortTitle": "Public Hearing \u00b7 Nov 12, 2025",
+  "date": "Wednesday, November 12, 2025",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "3h 48m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/8060"
+    },
+    {
+      "label": "Meeting page (Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/8060"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-10"
+}

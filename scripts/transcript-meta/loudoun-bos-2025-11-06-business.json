@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/8057.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2025-11-06-business",
+  "title": "Loudoun County Board of Supervisors, Business Meeting, Thursday, November 6, 2025",
+  "shortTitle": "Business Meeting \u00b7 Nov 6, 2025",
+  "date": "Thursday, November 6, 2025",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "4h 13m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/8057"
+    },
+    {
+      "label": "Meeting page (Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/8057"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-10"
+}

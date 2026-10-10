@@ -84,6 +84,7 @@ function LoudounCountyPage() {
                     {r.dateLabel} · {r.title}
                   </Link>
                   <span className="ml-2 text-sm text-muted-foreground">
+                    {(r.venue ?? "loudoun-bos") === "loudoun-lcps" ? "School Board · " : "BOS · "}
                     {r.official.votesPosted ? "Official votes posted" : "Official votes not yet posted"}
                   </span>
                 </li>

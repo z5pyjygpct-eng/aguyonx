@@ -4,8 +4,11 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { LOUDOUN_BOS, LOUDOUN_MEETING_BY_ID, loudounMeetingJumpUrl } from "@/content/loudoun";
+import { LCPS_MEETINGS, LCPS_SCHOOL_BOARD, lcpsJumpUrl } from "@/content/lcps";
 import { LOUDOUN_RECAP_BY_SLUG, type RecapLink } from "@/content/loudoun-recaps";
 import { FTM_TRANSCRIPT_LABEL, ftmTranscriptFor } from "@/content/ftm-transcripts";
+
+const LCPS_MEETING_BY_ID = Object.fromEntries(LCPS_MEETINGS.map((m) => [m.id, m]));
 
 export const Route = createFileRoute("/counties/loudoun/recaps/$slug")({
   component: RecapPage,
@@ -18,7 +21,7 @@ export const Route = createFileRoute("/counties/loudoun/recaps/$slug")({
     meta: loaderData
       ? [
           {
-            title: `Recap: Loudoun ${loaderData.recap.title}, ${loaderData.recap.dateLabel} · A Guy on X`,
+            title: `Recap: ${loaderData.recap.title}, ${loaderData.recap.dateLabel} · A Guy on X`,
           },
         ]
       : [],
@@ -53,9 +56,26 @@ function OutLink({ link, className }: { link: RecapLink; className?: string }) {
 
 function RecapPage() {
   const { recap } = Route.useLoaderData();
-  const meeting = LOUDOUN_MEETING_BY_ID[recap.meetingId];
+  const venue = recap.venue ?? "loudoun-bos";
+  const isLcps = venue === "loudoun-lcps";
+  const bosMeeting = LOUDOUN_MEETING_BY_ID[recap.meetingId];
+  const lcpsMeeting = LCPS_MEETING_BY_ID[recap.meetingId];
   const transcript = ftmTranscriptFor(recap.meetingId);
-  const jump = (sec: number) => (meeting ? loudounMeetingJumpUrl(meeting, sec) : "#");
+  const jump = (sec: number) => {
+    if (isLcps && lcpsMeeting) return lcpsJumpUrl(lcpsMeeting.vimeoId, sec);
+    if (bosMeeting) return loudounMeetingJumpUrl(bosMeeting, sec);
+    return "#";
+  };
+  const kicker = isLcps
+    ? "Loudoun County · School Board"
+    : "Loudoun County · Board of Supervisors";
+  const boardLine = isLcps
+    ? LCPS_SCHOOL_BOARD.map((m) => m.name.split(" ").slice(-1)[0]).join(", ")
+    : LOUDOUN_BOS.map((m) => `${m.name.split(" ").slice(-1)[0]} (${m.party})`).join(", ");
+  const boardLabel = isLcps ? "School Board" : "Board";
+  const videoNote = isLcps
+    ? "Times are approximate and open the School Board meeting video (Vimeo / LCPS-TV) at that point."
+    : "Times are approximate and open the county’s meeting video (eScribe / Granicus) at that point.";
 
   return (
     <SiteShell>
@@ -69,10 +89,18 @@ function RecapPage() {
           <Link to="/counties/loudoun" className="hover:text-foreground hover:underline">
             Loudoun
           </Link>
+          {isLcps ? (
+            <>
+              <span className="mx-2 text-border">/</span>
+              <Link to="/counties/loudoun/schools" className="hover:text-foreground hover:underline">
+                Schools
+              </Link>
+            </>
+          ) : null}
           <span className="mx-2 text-border">/</span>
           Meeting recap
         </p>
-        <Kicker className="mt-4">Loudoun County · Board of Supervisors</Kicker>
+        <Kicker className="mt-4">{kicker}</Kicker>
         <h1 className="mt-2 font-serif text-3xl font-medium tracking-tight sm:text-4xl">
           {recap.title}, {recap.dateLabel}
         </h1>
@@ -113,11 +141,8 @@ function RecapPage() {
                 ))}
               </ul>
               <p className="mt-3 text-xs text-muted-foreground">
-                Board:{" "}
-                {LOUDOUN_BOS.map((m) => `${m.name.split(" ").slice(-1)[0]} (${m.party})`).join(
-                  ", ",
-                )}
-                . Member-by-member votes will be listed here from the county record.
+                {boardLabel}: {boardLine}. Member-by-member votes will be listed here from the
+                official record.
               </p>
             </section>
 
@@ -154,14 +179,13 @@ function RecapPage() {
                 ))}
               </ul>
               <p className="mt-2 text-xs text-muted-foreground">
-                Times are approximate and open the county’s meeting video (eScribe / ISI) at that
-                point.
+                {videoNote}
                 {transcript ? (
                   <>
                     {" "}
                     Search every spoken word in{" "}
                     <Link
-                      to="/counties/loudoun"
+                      to={isLcps ? "/counties/loudoun/schools" : "/counties/loudoun"}
                       className="text-[#1E4B8E] underline-offset-2 hover:underline"
                     >
                       Find the Moment
