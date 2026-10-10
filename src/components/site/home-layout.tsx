@@ -3,6 +3,7 @@ import { Link } from "@tanstack/react-router";
 import { OFFICE_DOORS } from "@/content/offices";
 import { SITE } from "@/content/site";
 import { HomeFindTheMoment } from "@/components/site/home-find-the-moment";
+import { LoudounStats } from "@/components/site/loudoun-stats";
 
 const SHELVES = [
   { to: "/about" as const, label: "About" },
@@ -116,7 +117,12 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
           <GivePill />
         </nav>
 
-        <HomeFindTheMoment />
+        <div className="grid border-b border-border bg-paper lg:grid-cols-[minmax(0,1fr)_17rem]">
+          <HomeFindTheMoment />
+          <div className="px-4 py-6 lg:py-8 lg:pr-6 lg:pl-0">
+            <LoudounStats heading="By the numbers · Site totals" />
+          </div>
+        </div>
 
         {children}
       </div>

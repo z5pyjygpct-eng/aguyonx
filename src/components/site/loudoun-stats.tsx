@@ -31,7 +31,7 @@ export function loudounStats() {
   };
 }
 
-export function LoudounStats() {
+export function LoudounStats({ heading = "By the numbers · Loudoun BOS + School Board", className }: { heading?: string; className?: string } = {}) {
   const s = loudounStats();
   const rows = [
     { n: s.videos, label: "Meeting videos" },
@@ -41,8 +41,8 @@ export function LoudounStats() {
     { n: s.hours, label: "Hours of audio transcribed" },
   ];
   return (
-    <aside className="rounded-md border border-border bg-card px-5 py-5">
-      <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">By the numbers · Loudoun BOS + School Board</p>
+    <aside className={`rounded-md border border-border bg-card px-5 py-5 ${className ?? ""}`}>
+      <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">{heading}</p>
       <dl className="mt-3 divide-y divide-border">
         {rows.map((r) => (
           <div key={r.label} className="flex items-baseline justify-between gap-4 py-3">
