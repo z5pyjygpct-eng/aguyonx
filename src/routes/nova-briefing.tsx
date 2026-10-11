@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { Kicker } from "@/components/site/kicker";
 import { formatNewsDate } from "@/content/news";
+import { ShareNewsX } from "@/components/site/share-news-x";
 import data from "@/content/nova-briefing.json";
 
 type BriefingItem = {
@@ -50,6 +51,12 @@ function NovaBriefing() {
           Every item links to the outlet or government record that reported it. Newest first. A day
           with nothing verified is shown as a gap, not filled in.
         </p>
+        <div className="mt-4">
+          <ShareNewsX
+            headline="New every morning: the Daily NoVA Briefing, with yesterday's news from Loudoun, Fairfax, Prince William and Arlington all in one place."
+            url="https://aguyonx.com/nova-briefing"
+          />
+        </div>
         <p className="mt-3 text-sm">
           <Link to="/news" className="hover:underline">
             ← All clips on the News shelf
