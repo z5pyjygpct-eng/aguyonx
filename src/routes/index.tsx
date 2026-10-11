@@ -28,13 +28,13 @@ function Home() {
 
         <section className="border-b border-border">
           <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
-            <p className="text-sm">
-              <Link to="/nova-briefing" className="font-medium hover:underline">
+            <h2 className="font-serif text-3xl font-medium">
+              <Link to="/nova-briefing" className="hover:underline">
                 Daily NoVA Briefing →
-              </Link>{" "}
-              <span className="text-muted-foreground">
-                Yesterday in Loudoun, Fairfax, Prince William and Arlington.
-              </span>
+              </Link>
+            </h2>
+            <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
+              Yesterday in Loudoun, Fairfax, Prince William and Arlington.
             </p>
           </div>
         </section>
