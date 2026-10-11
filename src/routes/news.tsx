@@ -3,6 +3,7 @@ import { SiteShell } from "@/components/site/shell";
 import { Kicker } from "@/components/site/kicker";
 import { HomeSearch } from "@/components/site/home-search";
 import { NewsPeople } from "@/components/site/news-people";
+import { ShareNewsX } from "@/components/site/share-news-x";
 import { SITE } from "@/content/site";
 import { NEWS_DEK, NEWS_EMPTY, formatNewsDate, newsFiledLine, newsNewestFirst } from "@/content/news";
 
@@ -28,7 +29,7 @@ function NewsIndex() {
                   href={item.url}
                   target="_blank"
                   rel="noreferrer"
-                  className="grid gap-2 py-6 transition-[background-color] duration-150 hover:bg-wash sm:grid-cols-12 sm:items-baseline sm:gap-6"
+                  className="grid gap-2 pt-6 pb-2 transition-[background-color] duration-150 hover:bg-wash sm:grid-cols-12 sm:items-baseline sm:gap-6"
                 >
                   <span className="font-mono text-xs text-muted-foreground sm:col-span-2">
                     {formatNewsDate(item.date)}
@@ -46,6 +47,11 @@ function NewsIndex() {
                     </p>
                   </span>
                 </a>
+                <div className="grid pb-5 sm:grid-cols-12 sm:gap-6">
+                  <div className="sm:col-span-7 sm:col-start-6">
+                    <ShareNewsX headline={item.headline} url={item.url} />
+                  </div>
+                </div>
               </li>
             ))}
           </ul>
