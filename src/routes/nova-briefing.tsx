@@ -86,7 +86,7 @@ function NovaBriefing() {
                           href={item.url}
                           target="_blank"
                           rel="noreferrer"
-                          className="grid gap-2 py-5 transition-[background-color] duration-150 hover:bg-wash sm:grid-cols-12 sm:items-baseline sm:gap-6"
+                          className="grid gap-2 pt-5 pb-2 transition-[background-color] duration-150 hover:bg-wash sm:grid-cols-12 sm:items-baseline sm:gap-6"
                         >
                           <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase sm:col-span-2">
                             {item.county}
@@ -98,6 +98,11 @@ function NovaBriefing() {
                             </p>
                           </span>
                         </a>
+                        <div className="grid pb-5 sm:grid-cols-12 sm:gap-6">
+                          <div className="sm:col-span-10 sm:col-start-3">
+                            <ShareNewsX headline={item.headline} url={item.url} />
+                          </div>
+                        </div>
                       </li>
                     ))}
                   </ul>
