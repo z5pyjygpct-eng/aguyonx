@@ -1,4 +1,5 @@
 import { sortRecapsNewestFirst } from "./recap-sort";
+import { LOUDOUN_RECAPS_BACKFILL } from "./loudoun-recaps-backfill";
 /**
  * Loudoun BOS meeting recaps — one short page per meeting.
  *
@@ -2413,7 +2414,12 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
 ];
 
 /** Always sorted newest meeting first (see recap-sort.ts). */
-export const LOUDOUN_RECAPS: LoudounRecap[] = sortRecapsNewestFirst(LOUDOUN_RECAPS_RAW);
+const RAW_IDS = new Set(LOUDOUN_RECAPS_RAW.map((r) => r.meetingId));
+export const LOUDOUN_RECAPS: LoudounRecap[] = sortRecapsNewestFirst([
+  ...LOUDOUN_RECAPS_RAW,
+  // Backfill entries yield to any hand-written recap for the same meeting.
+  ...LOUDOUN_RECAPS_BACKFILL.filter((r) => !RAW_IDS.has(r.meetingId)),
+]);
 
 export const LOUDOUN_RECAP_BY_SLUG: Record<string, LoudounRecap> = Object.fromEntries(
   LOUDOUN_RECAPS.map((r) => [r.slug, r]),
