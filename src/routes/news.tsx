@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { Kicker } from "@/components/site/kicker";
 import { HomeSearch } from "@/components/site/home-search";
@@ -19,6 +19,12 @@ function NewsIndex() {
         <Kicker>The clip file</Kicker>
         <h1 className="mt-3 font-serif text-4xl font-medium tracking-tight sm:text-5xl">News</h1>
         <p className="mt-4 max-w-2xl text-muted-foreground">{NEWS_DEK}</p>
+        <p className="mt-4 text-sm">
+          <Link to="/nova-briefing" className="font-medium hover:underline">
+            Daily NoVA Briefing →
+          </Link>{" "}
+          <span className="text-muted-foreground">Yesterday in Loudoun, Fairfax, Prince William and Arlington.</span>
+        </p>
         {items.length === 0 ? (
           <p className="mt-10 max-w-2xl text-muted-foreground">{NEWS_EMPTY}</p>
         ) : (

@@ -1,0 +1,382 @@
+{
+  "schema": 1,
+  "updated": "2026-10-11",
+  "counties": [
+    "Loudoun",
+    "Fairfax",
+    "Prince William",
+    "Arlington"
+  ],
+  "editions": [
+    {
+      "date": "2026-10-11",
+      "status": "ok",
+      "source": "seed-news-shelf",
+      "note": "Seed edition: local clips verified and filed to the News shelf this day (outlet URL checked live at filing).",
+      "items": [
+        {
+          "id": "reston-association-board-resignation-ffxnow-2026-10-10",
+          "county": "Fairfax",
+          "headline": "Resignation opens seat on Reston Association’s board of directors",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/10/resignation-opens-seat-on-reston-associations-board-of-directors/",
+          "published": "2026-10-10",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "date": "2026-10-10",
+      "status": "ok",
+      "source": "seed-news-shelf",
+      "note": "Seed edition: local clips verified and filed to the News shelf this day (outlet URL checked live at filing).",
+      "items": [
+        {
+          "id": "fairfax-2027-ga-priorities-mckay-ffxnow-2026-10-09",
+          "county": "Fairfax",
+          "headline": "Housing, tax reform among Fairfax County’s priorities for 2027 General Assembly session",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/09/housing-tax-reform-among-fairfax-countys-priorities-for-2027-general-assembly-session/",
+          "published": "2026-10-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "chantilly-fuel-cell-data-center-ffxnow-2026-10-09",
+          "county": "Fairfax",
+          "headline": "Developer submits plans to build fuel cell-powered data center in Chantilly",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/09/developer-submits-plans-to-build-fuel-cell-powered-data-center-in-chantilly/",
+          "published": "2026-10-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "chandler-spence-school-funding-request-loudounnow-2026-10-09",
+          "county": "Loudoun",
+          "headline": "Chandler, Spence Urge Supervisors on School Funding Request After County Staff Recommends Against Full Approval",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/chandler-spence-urge-supervisors-on-school-funding-request-after-county-staff-recommends-against-full-approval/article_4b46c3d5-fd7a-4f8b-bbf5-b61f80bfae63.html",
+          "published": "2026-10-09",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "date": "2026-10-09",
+      "status": "gap",
+      "source": "seed-news-shelf",
+      "note": "No local NoVA clips cleared this day.",
+      "items": [],
+      "gaps": [
+        "No verified local items filed."
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "status": "ok",
+      "source": "seed-news-shelf",
+      "note": "Seed edition: local clips verified and filed to the News shelf this day (outlet URL checked live at filing).",
+      "items": [
+        {
+          "id": "fairfax-delegation-k12-funding-dialogue-ffxnow-2026-10-08",
+          "county": "Fairfax",
+          "headline": "State legislators ask for more ‘respectful’ dialogue on K-12 funding from Fairfax leaders",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/08/state-legislators-ask-for-more-respectful-dialogue-on-k-12-funding-from-fairfax-leaders/",
+          "published": "2026-10-08",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "walkinshaw-va11-candidate-survey-vpm-2026-10-07",
+          "county": "Northern Virginia",
+          "headline": "11th District Q&A: Dianne Blais, Arthur Purves, James Walkinshaw",
+          "outlet": "VPM",
+          "url": "https://www.vpm.org/elections/2026-10-07/va11-blais-purves-walkinshaw-candidate-survey/",
+          "published": "2026-10-07",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "warner-airport-workers-health-care-wjla-2026-10-07",
+          "county": "Northern Virginia",
+          "headline": "Virginia Sen. Warner backs airport workers' call for affordable health care",
+          "outlet": "WJLA",
+          "url": "https://wjla.com/news/local/virginia-senator-mark-warner-backs-airport-workers-call-for-affordable-health-care",
+          "published": "2026-10-07",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "reid-e-bike-legislation-loudoun-wjla-2026-10-07",
+          "county": "Northern Virginia",
+          "headline": "Virginia lawmakers look to crack down on E-bikes as popularity and accidents spike",
+          "outlet": "WJLA",
+          "url": "https://wjla.com/news/local/virginia-lawmakers-look-to-crack-down-on-e-bikes-as-popularity-accidents-spike-loudoun-county-accidents-crashes",
+          "published": "2026-10-07",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "palchik-merrifield-gatehouse-homes-ffxnow-2026-10-07",
+          "county": "Fairfax",
+          "headline": "Up to 300 homes could replace Merrifield office after live/work plan stalls",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/07/up-to-300-homes-could-replace-merrifield-office-after-live-work-plan-stalls/",
+          "published": "2026-10-07",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-alert-anti-immigrant-repost-apology-arlnow-2026-10-07",
+          "county": "Arlington",
+          "headline": "County apologizes after anti-immigrant retweet from Arlington Alert",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/07/county-apologizes-after-anti-immigrant-retweet-from-arlington-alert/",
+          "published": "2026-10-07",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "amazon-gwu-data-centers-need-board-approval-loudountimes-2026-10-07",
+          "county": "Loudoun",
+          "headline": "Amazon can’t build data centers on GWU campus without board approval, zoning administrator says",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/amazon-can-t-build-data-centers-on-gwu-campus-without-board-approval-zoning-administrator-says/article_4bc476c5-babd-4e61-b3f1-bb9669731146.html",
+          "published": "2026-10-07",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "centreville-library-site-to-housing-authority-ffxnow-2026-10-07",
+          "county": "Fairfax",
+          "headline": "Fairfax County hands Centreville library site to housing authority after residents weigh in",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/07/fairfax-county-transfers-centreville-library-site-to-housing-authority-after-residents-weigh-in/",
+          "published": "2026-10-07",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "reproductive-rights-amendment-canvass-arlington-arlnow-2026-10-07",
+          "county": "Arlington",
+          "headline": "Reproductive rights advocates seek to rally support in Arlington",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/07/reproductive-rights-advocates-seek-to-rally-support-in-arlington/",
+          "published": "2026-10-07",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "date": "2026-10-07",
+      "status": "ok",
+      "source": "seed-news-shelf",
+      "note": "Seed edition: local clips verified and filed to the News shelf this day (outlet URL checked live at filing).",
+      "items": [
+        {
+          "id": "reid-lcps-2027-legislative-priorities-loudounnow-2026-10-06",
+          "county": "Loudoun",
+          "headline": "Loudoun’s Education Leaders Talk Legislative Priorities for 2027 Session",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/loudoun-s-education-leaders-talk-legislative-priorities-for-2027-session/article_498b5378-e24d-4fc1-8045-335c2965d103.html",
+          "published": "2026-10-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "bierman-dranesville-boat-trailer-parking-ffxnow-2026-10-06",
+          "county": "Fairfax",
+          "headline": "Ban on boat, trailer parking approved for some Dranesville District roads",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/06/restrictions-on-boat-trailer-parking-approved-for-some-dranesville-roads/",
+          "published": "2026-10-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-data-center-audit-proposal-tabled-loudounnow-2026-10-06",
+          "county": "Loudoun",
+          "headline": "Proposal to Audit Loudoun Data Center Applications Dies During Board Meeting",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/proposal-to-audit-loudoun-data-center-applications-dies-during-board-meeting/article_837d92b6-fce2-471a-9c0d-e67a93f44f32.html",
+          "published": "2026-10-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "tysons-data-center-expansion-on-hold-ffxnow-2026-10-06",
+          "county": "Fairfax",
+          "headline": "Proposed data center expansion in Tysons put on hold",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/06/proposed-data-center-expansion-in-tysons-put-on-hold/",
+          "published": "2026-10-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-ranked-choice-voting-2027-supervisor-races-ffxnow-2026-10-06",
+          "county": "Fairfax",
+          "headline": "Fairfax leaders urged to consider ranked-choice voting for upcoming supervisor races",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/06/fairfax-leaders-urged-to-consider-ranked-choice-voting-for-upcoming-supervisor-races/",
+          "published": "2026-10-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-human-rights-commission-medicare-for-all-arlnow-2026-10-06",
+          "county": "Arlington",
+          "headline": "Arlington’s Human Rights Commission stays out of Medicare-for-all battle",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/06/arlingtons-human-rights-commission-stays-out-of-medicare-for-all-battle-for-now/",
+          "published": "2026-10-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "columbia-pike-ice-arrest-excessive-force-claim-arlnow-2026-10-06",
+          "county": "Arlington",
+          "headline": "Man who was hospitalized after ICE arrest in Arlington files excessive force claim",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/06/man-who-was-hospitalized-after-ice-arrest-in-arlington-files-excessive-force-claim/",
+          "published": "2026-10-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcps-meren-teacher-staffing-hiring-restrictions-wjla-2026-09-30",
+          "county": "Fairfax",
+          "headline": "School board member questions Fairfax teacher staffing six weeks into school year",
+          "outlet": "WJLA",
+          "url": "https://wjla.com/news/local/fairfax-county-public-schools-school-board-melanie-meren-megan-clarke-7news-teacher-hiring-freeze-superintendent-staffing-vacancies-students-classroom-instruction-substitutes-educator-retention-enrollment-funding-october-6-motion-transparency-computer-pu",
+          "published": "2026-09-30",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "date": "2026-10-06",
+      "status": "ok",
+      "source": "seed-news-shelf",
+      "note": "Seed edition: local clips verified and filed to the News shelf this day (outlet URL checked live at filing).",
+      "items": [
+        {
+          "id": "angry-reimagining-prince-william-potomaclocal-2026-10-05",
+          "county": "Prince William",
+          "headline": "Angry says reimagining Prince William starts with the 2019 list, then the power grid",
+          "outlet": "Potomac Local News",
+          "url": "https://www.potomaclocal.com/2026/10/05/angry-reimagining-prince-william-roads-power/",
+          "published": "2026-10-05",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "route-7-brt-palchik-bierman-alcorn-ffxnow-2026-10-05",
+          "county": "Fairfax",
+          "headline": "Fairfax, regional leaders eager to turn Route 7 bus rapid transit from plan to reality",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/05/fairfax-regional-leaders-eager-to-turn-route-7-bus-rapid-transit-from-plan-to-reality/",
+          "published": "2026-10-05",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "reston-community-center-lake-anne-alcorn-ffxnow-2026-10-05",
+          "county": "Fairfax",
+          "headline": "County board opens door for larger Reston Community Center facility in Lake Anne area",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/05/county-board-opens-door-for-larger-reston-community-center-facility-in-lake-anne-area/",
+          "published": "2026-10-05",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-data-center-grandfathering-lawsuit-risk-loudounnow-2026-10-05",
+          "county": "Loudoun",
+          "headline": "Loudoun Board Prepares for Big Data Center Changes as Lawsuit Threats Loom",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/loudoun-board-prepares-for-big-data-center-changes-as-lawsuit-threats-loom/article_b754549e-7bac-48b1-8f23-238b83fa0a2f.html",
+          "published": "2026-10-05",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "mckay-shadow-hearing-election-security-ffxnow-2026-10-05",
+          "county": "Fairfax",
+          "headline": "McKay stresses security of Fairfax’s election process in Congressional ‘shadow hearing’",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/05/mckay-stresses-security-of-fairfaxs-election-process-in-congressional-shadow-hearing/",
+          "published": "2026-10-05",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-gop-clement-treasurer-arlnow-2026-10-05",
+          "county": "Arlington",
+          "headline": "Arlington GOP backs Clement for County Board, criticizes both treasurer candidates",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/05/arlington-gop-backs-clement-for-county-board-criticizes-both-treasurer-candidates/",
+          "published": "2026-10-05",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-human-rights-office-split-arlnow-2026-10-05",
+          "county": "Arlington",
+          "headline": "Arlington’s human rights office could be split into two, with more staffing",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/05/arlingtons-human-rights-office-could-be-split-into-two-with-more-staffing/",
+          "published": "2026-10-05",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcps-teacher-long-term-sub-hiring-freeze-wtop-2026-10-03",
+          "county": "Fairfax",
+          "headline": "Hiring freeze or math problem? Fairfax County parent concerned her son’s teacher is not considered full-time employee",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/hiring-freeze-or-math-problem-why-fairfax-co-is-moving-teachers-around-weeks-into-the-school-year/",
+          "published": "2026-10-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "descano-responds-judiciary-subpoena-dailysignal-2026-10-01",
+          "county": "Fairfax",
+          "headline": "Fairfax Commonwealth’s Attorney Steve Descano Responds to Judiciary Committee Subpoena",
+          "outlet": "The Daily Signal",
+          "url": "https://www.dailysignal.com/2026/10/01/fairfax-commonwealths-attorney-steve-descano-responds-to-judiciary-committee-subpoena/",
+          "published": "2026-10-01",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "date": "2026-10-05",
+      "status": "ok",
+      "source": "seed-news-shelf",
+      "note": "Seed edition: local clips verified and filed to the News shelf this day (outlet URL checked live at filing).",
+      "items": [
+        {
+          "id": "wolfe-released-ashworth-plea-potomaclocal-2026-10-04",
+          "county": "Prince William",
+          "headline": "Justin Wolfe walked out after 25 years in the Bristow killing",
+          "outlet": "Potomac Local News",
+          "url": "https://www.potomaclocal.com/2026/10/04/justin-wolfe-walked-out-after-25-years-in-the-bristow-killing/",
+          "published": "2026-10-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "va10-forum-oct15-manassas-potomaclocal-2026-10-04",
+          "county": "Prince William",
+          "headline": "10th District candidates meet Oct. 15 in Manassas",
+          "outlet": "Potomac Local News",
+          "url": "https://www.potomaclocal.com/2026/10/04/tenth-district-candidates-meet-oct-15-in-manassas/",
+          "published": "2026-10-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "moore-vindman-volunteer-launch-cole-potomaclocal-2026-10-04",
+          "county": "Prince William",
+          "headline": "Maryland's governor visits Virginia to stump for Vindman, according to Cole's Facebook page",
+          "outlet": "Potomac Local News",
+          "url": "https://www.potomaclocal.com/2026/10/04/marylands-governor-visits-virginia-according-to-vindmans-facebook/",
+          "published": "2026-10-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-homelessness-study-randall-turner-loudounnow-2026-10-02",
+          "county": "Loudoun",
+          "headline": "County Eyes Homelessness Study as Nonprofits Pledge Funding Support",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/county-eyes-homelessness-study-as-nonprofits-pledge-funding-support/article_6e646403-38c8-46b6-b9b6-3707dd376ef3.html",
+          "published": "2026-10-02",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    }
+  ]
+}

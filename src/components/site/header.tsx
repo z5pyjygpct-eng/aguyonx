@@ -16,6 +16,7 @@ import { cn } from "@/lib/utils";
 export const NAV_SHELVES = [
   { to: "/articles", label: "Articles" },
   { to: "/news", label: "News" },
+  { to: "/nova-briefing", label: "NoVA Briefing" },
   { to: "/videos", label: "Videos" },
   { to: "/find-the-moment", label: "Find the Moment" },
   { to: "/investigations", label: "Investigations" },
