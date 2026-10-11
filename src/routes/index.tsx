@@ -27,6 +27,19 @@ function Home() {
         <HomeBooks />
 
         <section className="border-b border-border">
+          <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+            <p className="text-sm">
+              <Link to="/nova-briefing" className="font-medium hover:underline">
+                Daily NoVA Briefing →
+              </Link>{" "}
+              <span className="text-muted-foreground">
+                Yesterday in Loudoun, Fairfax, Prince William and Arlington.
+              </span>
+            </p>
+          </div>
+        </section>
+
+        <section className="border-b border-border">
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
             <div className="flex flex-wrap items-end justify-between gap-4">
               <div>
