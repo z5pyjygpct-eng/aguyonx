@@ -51,6 +51,17 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "reston-association-board-resignation-ffxnow-2026-10-10",
+    date: "2026-10-10",
+    filed: "2026-10-11",
+    headline: "Resignation opens seat on Reston Association’s board of directors",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/10/resignation-opens-seat-on-reston-associations-board-of-directors/",
+    people: [],
+    scope: "local",
+  },
+
+  {
     id: "fairfax-2027-ga-priorities-mckay-ffxnow-2026-10-09",
     date: "2026-10-09",
     filed: "2026-10-10",
