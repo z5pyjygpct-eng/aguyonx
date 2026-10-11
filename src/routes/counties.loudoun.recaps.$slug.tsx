@@ -127,7 +127,11 @@ function RecapPage() {
                 </ul>
               ) : (
                 <aside className="mt-3 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">
-                  <strong className="font-semibold">Official vote record not yet posted.</strong>{" "}
+                  <strong className="font-semibold">
+                    {recap.official.votesPosted
+                      ? "No votes recorded in the official record."
+                      : "Official vote record not yet posted."}
+                  </strong>{" "}
                   {recap.official.note.replace(/^Official vote record not yet posted\.\s*/, "")}
                   <span className="mt-1 block text-xs">
                     Last checked {recap.official.checkedLabel}.
