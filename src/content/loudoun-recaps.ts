@@ -124,25 +124,54 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     title: "School Board Special Meeting",
     dateLabel: "Monday, Jul 13, 2026",
     whenWhere: "School Board meeting · video 2h 49m",
-    official: {
-      votesPosted: false,
-      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
-      note: "Official vote record not yet posted. BoardDocs minutes could not be pulled this morning (CloudFront 403). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+        official: {
+      votesPosted: true,
+      checkedLabel: "Oct 11, 2026, 8:40 AM ET",
+      note: "Votes below are taken from the BoardDocs minutes for this special meeting (adopted record). Tallies list members as the minutes record them.",
       links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DVQRL36E74A2") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1209536330?rel=0" },
       ],
     },
-    decisions: [],
-    context: [],
-    agenda: [
+    decisions: [
       {
-        heading: "Agenda (see BoardDocs for official item list)",
-        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official BoardDocs agenda reprint.",
+        item: "1.02",
+        action: "Granted Chair April Chandler's request to participate remotely using a personal exemption.",
+        tally: "8-0 (Approved: LaBell, Donohue, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson)",
+        source: { label: "Jul 13, 2026 BoardDocs minutes", href: boarddocsMeeting("DVQRL36E74A2") },
+      },
+      {
+        item: "3.01",
+        action: "Suspended the rules (2/3 required) to permit the School Board to consider and act upon Policy 6355.",
+        tally: "8-1 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Opposed: Donohue)",
+        source: { label: "Jul 13, 2026 BoardDocs minutes", href: boarddocsMeeting("DVQRL36E74A2") },
+      },
+      {
+        item: "3.01",
+        action: "Adopted Policy 6355, Electric Transmission and Power Line Facilities on LCPS Property, as presented. A substitute motion to send the item to the Finance & Operations Committee for review failed.",
+        tally: "Base motion 8-0-1 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Abstained: Donohue). Substitute failed 3-6 (Approved: Donohue, Pepper, Shernoff; Opposed: Chandler, Griffiths, LaBell, Rashid, Riccardi, Svenson).",
+        source: { label: "Jul 13, 2026 BoardDocs minutes", href: boarddocsMeeting("DVQRL36E74A2") },
+      },
+      {
+        item: "3.01",
+        action: "Authorized counsel to file a reconsideration/clarification petition in PUR-2025-00056 before the Virginia State Corporation Commission, along with other pleadings including a notice of appeal as may be required to safeguard the School Board's interests; and authorized a without-prejudice negotiation regarding the proposed transmission line routes with Dominion focused on safeguarding student safety and school operations (as amended by friendly amendment).",
+        tally: "9-0 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson)",
+        source: { label: "Jul 13, 2026 BoardDocs minutes", href: boarddocsMeeting("DVQRL36E74A2") },
+      },
+    ],
+    context: [
+      {
+        text: "Special meeting held at Rock Ridge High School (boardroom renovations). Agenda limited to Dominion Energy Golden to Mars transmission line / Policy 6355. Adjournment recorded at 8:19 p.m.",
+        source: { label: "Jul 13, 2026 BoardDocs minutes", href: boarddocsMeeting("DVQRL36E74A2") },
+      },
+    ],
+        agenda: [
+      {
+        heading: "Action items",
         items: [
-          { num: "—", title: "Call to order and disclosures" },
-          { num: "—", title: "Consent / business items" },
-          { num: "—", title: "Public comment (when taken)" },
+          { num: "1.02", title: "Remote participation (Chandler)" },
+          { num: "3.01", title: "Dominion Energy – Golden to Mars / Policy 6355" },
         ],
       },
     ],
@@ -166,25 +195,96 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     title: "School Board 4th Tuesday Meeting",
     dateLabel: "Tuesday, Jun 23, 2026",
     whenWhere: "School Board meeting · video 7h",
-    official: {
-      votesPosted: false,
-      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
-      note: "Official vote record not yet posted. BoardDocs minutes could not be pulled this morning (CloudFront 403). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+        official: {
+      votesPosted: true,
+      checkedLabel: "Oct 11, 2026, 8:40 AM ET",
+      note: "Votes below are taken from the BoardDocs minutes for this meeting (adopted record). Tallies list members as the minutes record them.",
       links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DUGNPZ60F897") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1203915618?rel=0" },
       ],
     },
-    decisions: [],
-    context: [],
-    agenda: [
+    decisions: [
       {
-        heading: "Agenda (see BoardDocs for official item list)",
-        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official BoardDocs agenda reprint.",
+        item: "3",
+        action: "Consent agenda adopted (3.01–3.16 as recorded): minutes of June 8 special and June 9 meetings; personnel actions; Consolidated Grant Application; Policy 8655 revisions; Elaine E. Thompson ES easement authorization; RFP renewals/awards (property/casualty insurance, lease/purchase financing, pest management, elevators, agency nursing, groceries); Policy 4370 revision; charter school technology/support contracts; Disability Pride Month and America 250 proclamations.",
+        tally: "7-0-0 (Approved: LaBell, Chandler, Donohue, Rashid, Riccardi, Pepper, Svenson; Not present at vote: Griffiths, Shernoff)",
+        source: { label: "Jun 23, 2026 BoardDocs minutes", href: boarddocsMeeting("DUGNPZ60F897") },
+      },
+      {
+        item: "11.01",
+        action: "FY26 Year-End Budget Alignment: approved a $2,300,000 transfer within the School Operating Fund; supplemental increases of $900,000 (VLDP), $200,000 (WC), and $50,000 (STD) funded by transfers from the School Operating Fund; and a $33,000,000 supplemental increase for the Health Self Insurance Fund recognizing FY25 County Year-End support and above-budget revenues.",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Riccardi, Pepper, Svenson; Not present at vote: Shernoff)",
+        source: { label: "Jun 23, 2026 BoardDocs minutes", href: boarddocsMeeting("DUGNPZ60F897") },
+      },
+      {
+        item: "11.02",
+        action: "Adopted revised Policy 4310 (Purchasing Authority) as amended. Amendment struck section C.4 and D.3.b (with renumbering) as recorded.",
+        tally: "Policy as amended 6-2-0 (Approved: LaBell, Chandler, Donohue, Rashid, Pepper, Svenson; Opposed: Griffiths, Riccardi; Not present at vote: Shernoff). Amendment 5-3-0 (Approved: Chandler, Donohue, Rashid, Pepper, Svenson; Opposed: LaBell, Griffiths, Riccardi; Not present at vote: Shernoff).",
+        source: { label: "Jun 23, 2026 BoardDocs minutes", href: boarddocsMeeting("DUGNPZ60F897") },
+      },
+      {
+        item: "11.03",
+        action: "Approved LCPS Head Start Preschool Grant Continuation Application–Year 3 of 5 and Annual Governing Body Overview and Approvals; directed staff to consider expansion of STEP classrooms in staff plans for the upcoming Eastern Loudoun Elementary Boundary process.",
+        tally: "7-0-1 (Approved: LaBell, Chandler, Donohue, Rashid, Riccardi, Pepper, Svenson; Abstained: Griffiths; Not present at vote: Shernoff)",
+        source: { label: "Jun 23, 2026 BoardDocs minutes", href: boarddocsMeeting("DUGNPZ60F897") },
+      },
+      {
+        item: "11.04",
+        action: "Named the new high school at 41634 Steeplechase Loop Drive, Leesburg, Thornton Summit High School. A substitute motion to name it Red Hill High School failed; a motion to call the question also failed.",
+        tally: "6-2-0 (Approved: LaBell, Chandler, Donohue, Rashid, Pepper, Svenson; Opposed: Griffiths, Riccardi; Not present at vote: Shernoff). Red Hill substitute failed 2-6; call the question failed 5-3.",
+        source: { label: "Jun 23, 2026 BoardDocs minutes", href: boarddocsMeeting("DUGNPZ60F897") },
+      },
+      {
+        item: "11.05",
+        action: "Approved Policy 8210, Introduction to Student Discipline.",
+        tally: "7-0-1 (Approved: LaBell, Chandler, Griffiths, Rashid, Riccardi, Pepper, Svenson; Abstained: Donohue; Not present at vote: Shernoff)",
+        source: { label: "Jun 23, 2026 BoardDocs minutes", href: boarddocsMeeting("DUGNPZ60F897") },
+      },
+      {
+        item: "11.06",
+        action: "Approved Policy 8270, Student Dress Code, as amended (multiple amendments recorded in the minutes, including neckline language changes; a motion to return the policy to committee failed).",
+        tally: "5-2-1 (Approved: LaBell, Chandler, Donohue, Riccardi, Svenson; Opposed: Griffiths, Rashid; Abstained: Pepper; Not present at vote: Shernoff)",
+        source: { label: "Jun 23, 2026 BoardDocs minutes", href: boarddocsMeeting("DUGNPZ60F897") },
+      },
+      {
+        item: "11.07",
+        action: "Approved and adopted Revised Policy 8250, Bullying Prevention and Education, as amended.",
+        tally: "7-1-0 (Approved: Chandler, Donohue, Griffiths, Rashid, Riccardi, Pepper, Svenson; Opposed: LaBell; Not present at vote: Shernoff)",
+        source: { label: "Jun 23, 2026 BoardDocs minutes", href: boarddocsMeeting("DUGNPZ60F897") },
+      },
+      {
+        item: "16.04",
+        action: "Closed-meeting follow-on authorizations (as recorded): counsel actions on a former-employee legal matter (including filing an appeal); Chair/counsel resolution of a former-employee matter; staff/counsel actions on Loudoun County Circuit Court matter CL22-2964; and Chair/counsel/staff actions on real-property acquisition and PUR-2025-00056.",
+        tally: "Each 7-0-0 (Approved: LaBell, Chandler, Donohue, Rashid, Riccardi, Pepper, Svenson; Not present at vote: Griffiths, Shernoff)",
+        source: { label: "Jun 23, 2026 BoardDocs minutes", href: boarddocsMeeting("DUGNPZ60F897") },
+      },
+    ],
+    context: [
+      {
+        text: "Griffiths and Shernoff not present for the consent vote; Shernoff not present for most evening Action Items. Adjournment recorded at 11:32 p.m.",
+        source: { label: "Jun 23, 2026 BoardDocs minutes", href: boarddocsMeeting("DUGNPZ60F897") },
+      },
+    ],
+        agenda: [
+      {
+        heading: "On consent (passed as recorded)",
         items: [
-          { num: "—", title: "Call to order and disclosures" },
-          { num: "—", title: "Consent / business items" },
-          { num: "—", title: "Public comment (when taken)" },
+          { num: "3.01–3.03", title: "Prior minutes and personnel actions" },
+          { num: "3.04–3.05", title: "Consolidated Grant Application; Policy 8655 revisions" },
+          { num: "3.06–3.13", title: "Easement authorization, RFP renewals/awards, Policy 4370" },
+          { num: "3.14–3.16", title: "Charter school contracts; Disability Pride Month and America 250 proclamations" },
+        ],
+      },
+      {
+        heading: "Action items (selected)",
+        items: [
+          { num: "11.01", title: "FY26 Year-End Budget Alignment" },
+          { num: "11.02", title: "Policy 4310 – Purchasing Authority" },
+          { num: "11.03", title: "Head Start grant continuation / STEP classrooms" },
+          { num: "11.04", title: "HS-14 name (Thornton Summit High School)" },
+          { num: "11.05–11.07", title: "Policies 8210, 8270, 8250" },
         ],
       },
     ],
@@ -326,25 +426,70 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     title: "School Board 2nd Tuesday Meeting",
     dateLabel: "Tuesday, Jun 9, 2026",
     whenWhere: "School Board meeting · video 6h 28m",
-    official: {
-      votesPosted: false,
-      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
-      note: "Official vote record not yet posted. BoardDocs minutes could not be pulled this morning (CloudFront 403). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+        official: {
+      votesPosted: true,
+      checkedLabel: "Oct 11, 2026, 8:40 AM ET",
+      note: "Votes below are taken from the BoardDocs minutes for this meeting (adopted record). Tallies list members as the minutes record them.",
       links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DU2GDH431BE9") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1199853132?rel=0" },
       ],
     },
-    decisions: [],
-    context: [],
-    agenda: [
+    decisions: [
       {
-        heading: "Agenda (see BoardDocs for official item list)",
-        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official BoardDocs agenda reprint.",
+        item: "3",
+        action: "Consent agenda adopted (3.01–3.07 as recorded): minutes of May 26 meeting; personnel actions; RFP #R23260 turf maintenance renewal; RFP #R26022 EAP award; IFB #I26214 cafeteria paper supplies; religious attendance exemption; School Board Advisory Committee membership.",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "Jun 9, 2026 BoardDocs minutes", href: boarddocsMeeting("DU2GDH431BE9") },
+      },
+      {
+        item: "13.01",
+        action: "Approved the resolution requesting financing for approved CIP projects not to exceed $91,160,000 for school purposes.",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "Jun 9, 2026 BoardDocs minutes", href: boarddocsMeeting("DU2GDH431BE9") },
+      },
+      {
+        item: "13.02",
+        action: "Approved proposed changes to Policy 2350 (Appeal of Administrative Decisions) as amended (cross-reference to Policy 8160 added).",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "Jun 9, 2026 BoardDocs minutes", href: boarddocsMeeting("DU2GDH431BE9") },
+      },
+      {
+        item: "13.03",
+        action: "Approved proposed changes to Policy 3040 (School Building Administration) as amended (Virginia Code §22.1-293 preface and principal/assistant-principal supervision language added).",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "Jun 9, 2026 BoardDocs minutes", href: boarddocsMeeting("DU2GDH431BE9") },
+      },
+      {
+        item: "13.04",
+        action: "Approved Policy 8265, Student Searches Involving Students and Seizure of Contraband.",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "Jun 9, 2026 BoardDocs minutes", href: boarddocsMeeting("DU2GDH431BE9") },
+      },
+    ],
+    context: [
+      {
+        text: "Vice Chair Anne Donohue not present at vote for consent and Action Items recorded above. Adjournment recorded at 10:53 p.m.",
+        source: { label: "Jun 9, 2026 BoardDocs minutes", href: boarddocsMeeting("DU2GDH431BE9") },
+      },
+    ],
+        agenda: [
+      {
+        heading: "On consent (passed as recorded)",
         items: [
-          { num: "—", title: "Call to order and disclosures" },
-          { num: "—", title: "Consent / business items" },
-          { num: "—", title: "Public comment (when taken)" },
+          { num: "3.01–3.02", title: "May 26 minutes; personnel actions" },
+          { num: "3.03–3.05", title: "Turf maintenance renewal; EAP award; cafeteria paper IFB" },
+          { num: "3.06–3.07", title: "Religious attendance exemption; advisory committee membership" },
+        ],
+      },
+      {
+        heading: "Action items",
+        items: [
+          { num: "13.01", title: "CIP financing request (not to exceed $91,160,000)" },
+          { num: "13.02", title: "Policy 2350 – Appeal of Administrative Decisions" },
+          { num: "13.03", title: "Policy 3040 – School Building Administration" },
+          { num: "13.04", title: "Policy 8265 – Student Searches" },
         ],
       },
     ],
@@ -432,25 +577,62 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     title: "School Board 4th Tuesday Meeting",
     dateLabel: "Tuesday, May 26, 2026",
     whenWhere: "School Board meeting · video 6h 59m",
-    official: {
-      votesPosted: false,
-      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
-      note: "Official vote record not yet posted. BoardDocs minutes could not be pulled this morning (CloudFront 403). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+        official: {
+      votesPosted: true,
+      checkedLabel: "Oct 11, 2026, 8:40 AM ET",
+      note: "Votes below are taken from the BoardDocs minutes for this meeting (adopted June 9, 2026). Tallies list members as the minutes record them.",
       links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DTMGXL45D585") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1195679789?rel=0" },
       ],
     },
-    decisions: [],
-    context: [],
-    agenda: [
+    decisions: [
       {
-        heading: "Agenda (see BoardDocs for official item list)",
-        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official BoardDocs agenda reprint.",
+        item: "2",
+        action: "Consent agenda adopted (2.01–2.10 as recorded): minutes of April 28, May 11 special, and May 12 meetings; personnel actions; IFB athletic equipment and toner/ink; Caribbean American Heritage Month, Gun Violence Awareness Day, LGBTQ+ Pride Month, and Juneteenth proclamations.",
+        tally: "3-0-4 (Approved: Chandler, Pepper, Rashid; Abstained: Griffiths, LaBell, Riccardi, Shernoff; Not present at vote: Donohue, Svenson)",
+        source: { label: "May 26, 2026 BoardDocs minutes", href: boarddocsMeeting("DTMGXL45D585") },
+      },
+      {
+        item: "11.01",
+        action: "Adopted the proposed meeting calendar for the FY 2028–FY 2033 Capital Budget and an Eastern Loudoun Planning District elementary school attendance zone change process; directed notification of the listed elementary school communities (notification does not indicate a zone will change).",
+        tally: "9-0 (Approved: LaBell, Chandler, Donohue, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson)",
+        source: { label: "May 26, 2026 BoardDocs minutes", href: boarddocsMeeting("DTMGXL45D585") },
+      },
+      {
+        item: "15.04",
+        action: "Following the School Board's October 28, 2025 vote under Policy 7014, upheld the superintendent's September 30, 2025 decision pertaining to this employee matter.",
+        tally: "7-0-1 (Approved: LaBell, Chandler, Griffiths, Rashid, Riccardi, Pepper, Svenson; Abstained: Shernoff; Not present at vote: Donohue)",
+        source: { label: "May 26, 2026 BoardDocs minutes", href: boarddocsMeeting("DTMGXL45D585") },
+      },
+      {
+        item: "15.04",
+        action: "Directed staff to take the actions as discussed in closed regarding the specific public officer and matter pertaining to litigation, and reaffirmed the confidentiality and claim of privilege of the matters discussed in closed.",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "May 26, 2026 BoardDocs minutes", href: boarddocsMeeting("DTMGXL45D585") },
+      },
+    ],
+    context: [
+      {
+        text: "Gap / note: consent passed 3-0-4 with Donohue and Svenson not present at that vote (both had been approved for remote participation earlier). Work-session items 3.01–3.03 (Title I / after-school / summer programs) were not recorded as Action Item votes. Adjournment recorded at 11:25 p.m.",
+        source: { label: "May 26, 2026 BoardDocs minutes", href: boarddocsMeeting("DTMGXL45D585") },
+      },
+    ],
+        agenda: [
+      {
+        heading: "On consent (passed as recorded)",
         items: [
-          { num: "—", title: "Call to order and disclosures" },
-          { num: "—", title: "Consent / business items" },
-          { num: "—", title: "Public comment (when taken)" },
+          { num: "2.01–2.04", title: "Prior minutes and personnel actions" },
+          { num: "2.05–2.06", title: "Athletic equipment IFB; toner/ink IFB" },
+          { num: "2.07–2.10", title: "Heritage Month / Awareness Day / Pride Month / Juneteenth proclamations" },
+        ],
+      },
+      {
+        heading: "Action items",
+        items: [
+          { num: "11.01", title: "Capital budget / Eastern Loudoun elementary attendance zone process calendar" },
+          { num: "15.04", title: "Closed-meeting follow-on (employee matter; litigation privilege)" },
         ],
       },
     ],
@@ -530,8 +712,8 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "Board Room, Government Center, Leesburg · video 34m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
-      note: "Official vote record not yet posted on Granicus for this clip (no Action Report link found this morning). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
+      checkedLabel: "Oct 11, 2026, 8:40 AM ET",
+      note: "Official vote record not yet posted on Granicus for this clip (Action Report section present but no Action Report document linked). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "Agenda (Granicus)", href: granicusAgenda(8179) },
         { label: "Meeting video (Granicus)", href: "https://loudoun.granicus.com/player/clip/8179" },
@@ -571,8 +753,8 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "Board Room, Government Center, Leesburg · video 1h 48m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
-      note: "Official vote record not yet posted on Granicus for this clip (no Action Report link found this morning). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
+      checkedLabel: "Oct 11, 2026, 8:40 AM ET",
+      note: "Official vote record not yet posted on Granicus for this clip (Action Report section present but no Action Report document linked). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "Agenda (Granicus)", href: granicusAgenda(8178) },
         { label: "Meeting video (Granicus)", href: "https://loudoun.granicus.com/player/clip/8178" },
@@ -611,25 +793,88 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     title: "School Board 2nd Tuesday Meeting",
     dateLabel: "Tuesday, May 12, 2026",
     whenWhere: "School Board meeting · video 6h 33m",
-    official: {
-      votesPosted: false,
-      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
-      note: "Official vote record not yet posted. BoardDocs minutes could not be pulled this morning (CloudFront 403). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+        official: {
+      votesPosted: true,
+      checkedLabel: "Oct 11, 2026, 8:40 AM ET",
+      note: "Votes below are taken from the BoardDocs minutes for this meeting (adopted record). Tallies list members as the minutes record them.",
       links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DT6HMP4919FD") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1191636709?rel=0" },
       ],
     },
-    decisions: [],
-    context: [],
-    agenda: [
+    decisions: [
       {
-        heading: "Agenda (see BoardDocs for official item list)",
-        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official BoardDocs agenda reprint.",
+        item: "3",
+        action: "Consent agenda adopted (3.01–3.11 as recorded): personnel actions; renewals (fresh produce, ice cream, milk, vehicle repair, petroleum); revised Policies 5310/5330 deletion, 6640, and 8080; VSBA Excellence in Workforce Readiness Award application; ratification of April 28 closed-meeting certification motion.",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "May 12, 2026 BoardDocs minutes", href: boarddocsMeeting("DT6HMP4919FD") },
+      },
+      {
+        item: "13.01",
+        action: "Approved a $6,200,000 budget increase for the FY27 School Operating Fund and requested the Loudoun County Board of Supervisors appropriate the corresponding increase (as recorded).",
+        tally: "7-1-0 (Approved: LaBell, Chandler, Rashid, Shernoff, Riccardi, Pepper, Svenson; Opposed: Griffiths; Not present at vote: Donohue)",
+        source: { label: "May 12, 2026 BoardDocs minutes", href: boarddocsMeeting("DT6HMP4919FD") },
+      },
+      {
+        item: "13.02",
+        action: "Adopted new Policy 4190, Other Post Employment Benefits (OPEB) Funding. Two Riccardi amendments failed (C.7 annual OPEB reporting language failed 4-4; a further amendment failed 3-5).",
+        tally: "Policy adopted 7-1-0 (Approved: LaBell, Chandler, Rashid, Shernoff, Riccardi, Pepper, Svenson; Opposed: Griffiths; Not present at vote: Donohue). C.7 amendment failed 4-4; second amendment failed 3-5.",
+        source: { label: "May 12, 2026 BoardDocs minutes", href: boarddocsMeeting("DT6HMP4919FD") },
+      },
+      {
+        item: "13.03",
+        action: "Approved renewal of the LCPS contract with Fairfax County Public Schools to continue sending students to Thomas Jefferson High School for Science and Technology for SY2027-2028 (as recorded).",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "May 12, 2026 BoardDocs minutes", href: boarddocsMeeting("DT6HMP4919FD") },
+      },
+      {
+        item: "13.04",
+        action: "Approved and adopted Revised Policy 8115, Individuals Who May Be Admitted Free.",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "May 12, 2026 BoardDocs minutes", href: boarddocsMeeting("DT6HMP4919FD") },
+      },
+      {
+        item: "13.05",
+        action: "Accepted and adopted New Policy 8425, Student-Athlete Extreme Heat Safety and Protection.",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "May 12, 2026 BoardDocs minutes", href: boarddocsMeeting("DT6HMP4919FD") },
+      },
+      {
+        item: "13.06",
+        action: "Approved the 2026-2027 Local Plan for Career and Technical Education (CTE) Perkins Funds and endorsed the Chair and Superintendent to sign the local plan.",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "May 12, 2026 BoardDocs minutes", href: boarddocsMeeting("DT6HMP4919FD") },
+      },
+      {
+        item: "17.04",
+        action: "Authorized the School Board Chair to take action as discussed in the closed session.",
+        tally: "8-0-0 (Approved: LaBell, Chandler, Griffiths, Rashid, Shernoff, Riccardi, Pepper, Svenson; Not present at vote: Donohue)",
+        source: { label: "May 12, 2026 BoardDocs minutes", href: boarddocsMeeting("DT6HMP4919FD") },
+      },
+    ],
+    context: [
+      {
+        text: "Vice Chair Anne Donohue absent (minutes attendance). Gap note: minutes narrative describes the Policy 4190 C.7 amendment failing on a 4-4 tie before listing the base adoption vote; both outcomes are recorded as above. Adjournment follows closed-meeting items.",
+        source: { label: "May 12, 2026 BoardDocs minutes", href: boarddocsMeeting("DT6HMP4919FD") },
+      },
+    ],
+        agenda: [
+      {
+        heading: "On consent (passed as recorded)",
         items: [
-          { num: "—", title: "Call to order and disclosures" },
-          { num: "—", title: "Consent / business items" },
-          { num: "—", title: "Public comment (when taken)" },
+          { num: "3.01–3.06", title: "Personnel actions; produce/ice cream/milk/vehicle/petroleum renewals" },
+          { num: "3.07–3.09", title: "Policies 5310/5330, 6640, 8080" },
+          { num: "3.10–3.11", title: "VSBA workforce readiness award; April 28 certification ratification" },
+        ],
+      },
+      {
+        heading: "Action items",
+        items: [
+          { num: "13.01", title: "FY27 budget supplemental ($6.2M state funding)" },
+          { num: "13.02", title: "Policy 4190 – OPEB Funding" },
+          { num: "13.03", title: "TJHSST / FCPS agreement renewal" },
+          { num: "13.04–13.06", title: "Policies 8115, 8425; CTE Perkins local plan" },
         ],
       },
     ],
@@ -726,8 +971,8 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "School Board meeting · video 7h 5m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 10, 2026, 8:35 PM ET",
-      note: "Official vote record not yet posted. BoardDocs meeting page has agenda only (no View Minutes control). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+      checkedLabel: "Oct 11, 2026, 8:40 AM ET",
+      note: "Official vote record not yet posted. BoardDocs meeting page has agenda only (BD-GetMinutes returns empty / no View Minutes content). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "BoardDocs meeting", href: boarddocsMeeting("DXGKG851ACED") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
@@ -885,8 +1130,8 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "School Board retreat · video 5h 53m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 10, 2026, 8:35 PM ET",
-      note: "Official vote record not yet posted. BoardDocs retreat meeting page has agenda only (no View Minutes control). Do not infer votes from the video or machine transcript.",
+      checkedLabel: "Oct 11, 2026, 8:40 AM ET",
+      note: "Official vote record not yet posted. BoardDocs retreat meeting page has agenda only (BD-GetMinutes returns empty / no View Minutes content). Do not infer votes from the video or machine transcript.",
       links: [
         { label: "BoardDocs meeting", href: boarddocsMeeting("DTRGE7436104") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
