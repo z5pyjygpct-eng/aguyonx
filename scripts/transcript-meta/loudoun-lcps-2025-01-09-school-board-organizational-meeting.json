@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-01-09-1045703767.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-01-09-school-board-organizational-meeting",
+  "title": "Loudoun County School Board, School Board Organizational Meeting, Thursday, January 9, 2025",
+  "shortTitle": "School Board Organizational Meeting \u00b7 Jan 9, 2025",
+  "date": "Thursday, January 9, 2025",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "16m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1045703767?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DBNQ59679910"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-11"
+}

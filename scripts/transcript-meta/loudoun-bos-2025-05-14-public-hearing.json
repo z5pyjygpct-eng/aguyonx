@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/7948.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2025-05-14-public-hearing",
+  "title": "Loudoun County Board of Supervisors, Public Hearing, Wednesday, May 14, 2025",
+  "shortTitle": "Public Hearing \u00b7 May 14, 2025",
+  "date": "Wednesday, May 14, 2025",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "2h 46m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/7948"
+    },
+    {
+      "label": "Meeting page",
+      "href": "https://loudoun.granicus.com/player/clip/7948"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-11"
+}

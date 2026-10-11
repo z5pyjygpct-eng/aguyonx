@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-03-09-1172009549.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-03-09-student-behavior-and-accountability-committee-sbac-closed-appeals-meeting",
+  "title": "Loudoun County School Board, Student Behavior and Accountability Committee (SBAC) Closed Appeals Meeting, Monday, March 9, 2026",
+  "shortTitle": "Student Behavior and Accountability Committee (SBAC) Closed Appeals Meeting \u00b7 Mar 9, 2026",
+  "date": "Monday, March 9, 2026",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "6m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1172009549?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-11"
+}

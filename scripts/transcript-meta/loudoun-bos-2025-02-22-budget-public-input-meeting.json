@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/7878.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2025-02-22-budget-public-input-meeting",
+  "title": "Loudoun County Board of Supervisors, Budget Public Input Meeting, Saturday, February 22, 2025",
+  "shortTitle": "Budget Public Input Meeting \u00b7 Feb 22, 2025",
+  "date": "Saturday, February 22, 2025",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "1h 2m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/7878"
+    },
+    {
+      "label": "Meeting page",
+      "href": "https://loudoun.granicus.com/player/clip/7878"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-11"
+}

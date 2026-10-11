@@ -116,6 +116,606 @@ const boarddocsMeeting = (id: string) =>
 
 const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
 
+  // --- 2026-10-11 morning: newest pending BOS + LCPS (interleaved) ---
+  {
+    slug: "lcps-2026-07-13-special",
+    meetingId: "2026-07-13-1209536330",
+    venue: "loudoun-lcps",
+    title: "School Board Special Meeting",
+    dateLabel: "Monday, Jul 13, 2026",
+    whenWhere: "School Board meeting · video 2h 49m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Official vote record not yet posted. BoardDocs minutes could not be pulled this morning (CloudFront 403). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1209536330?rel=0" },
+      ],
+    },
+    decisions: [],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see BoardDocs for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official BoardDocs agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order and disclosures" },
+          { num: "—", title: "Consent / business items" },
+          { num: "—", title: "Public comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-07-13-special-school-board-meeting.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-07-13-special-school-board-meeting.txt",
+      pdfNote: "36 pages",
+    },
+    moments: [
+      { seconds: 64, label: "Public comment." },
+      { seconds: 1284, label: "Early agenda business." },
+      { seconds: 3885, label: "Mid-meeting discussion." },
+      { seconds: 7535, label: "Later agenda business." },
+      { seconds: 10103, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-06-23-4th-tuesday",
+    meetingId: "2026-06-23-1203915618",
+    venue: "loudoun-lcps",
+    title: "School Board 4th Tuesday Meeting",
+    dateLabel: "Tuesday, Jun 23, 2026",
+    whenWhere: "School Board meeting · video 7h",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Official vote record not yet posted. BoardDocs minutes could not be pulled this morning (CloudFront 403). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1203915618?rel=0" },
+      ],
+    },
+    decisions: [],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see BoardDocs for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official BoardDocs agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order and disclosures" },
+          { num: "—", title: "Consent / business items" },
+          { num: "—", title: "Public comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-06-23-4th-tuesday-school-board-meeting.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-06-23-4th-tuesday-school-board-meeting.txt",
+      pdfNote: "68 pages",
+    },
+    moments: [
+      { seconds: 36, label: "Meeting called to order." },
+      { seconds: 321, label: "Consent agenda taken up." },
+      { seconds: 8599, label: "Public comment." },
+      { seconds: 19836, label: "Closed session." },
+      { seconds: 24812, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "bos-2026-06-16-business",
+    meetingId: "8199",
+    venue: "loudoun-bos",
+    title: "Board of Supervisors Business Meeting",
+    dateLabel: "Tuesday, Jun 16, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 8h 51m",
+    official: {
+      votesPosted: true,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Votes below are taken from the county Action Report (Granicus MetaViewer meta_id 284488).",
+      links: [
+        { label: "Agenda (Granicus)", href: granicusAgenda(8199) },
+        { label: "Action Report (PDF)", href: granicusAction(8199, 284488) },
+      ],
+    },
+    decisions: [
+      {
+        item: "Consent",
+        action: "Consent agenda approved (R-1, R-2, 1b–1n, 1p, 1q, 1s, 2a, 3, 4, 5, 9, 10, 11, and 14).",
+        tally: "7-0-2 (Supervisors Kershner and Saines absent)",
+        source: { label: "Jun 16, 2026 Action Report", href: granicusAction(8199, 284488) },
+      },
+      {
+        item: "1a",
+        action: "2025 Capital Intensity Factors advertised for a future public hearing; implementation of the 100 percent phase of the 2023 CIFs paused until a future effective date (as recorded).",
+        tally: "8-0-1 (Vice Chair Turner absent)",
+        source: { label: "Jun 16, 2026 Action Report", href: granicusAction(8199, 284488) },
+      },
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see Granicus for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order / procedural opening" },
+          { num: "—", title: "Consent and/or hearing items (see Action Report when posted)" },
+          { num: "—", title: "Public input / comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-06-16-business.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-06-16-business.txt",
+      pdfNote: "101 pages",
+    },
+    moments: [
+      { seconds: 421, label: "Meeting called to order." },
+      { seconds: 576, label: "Consent agenda taken up." },
+      { seconds: 647, label: "Closed session." },
+      { seconds: 2040, label: "Public hearing item." },
+      { seconds: 8591, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "bos-2026-06-10-public-hearing",
+    meetingId: "8198",
+    venue: "loudoun-bos",
+    title: "Board of Supervisors Public Hearing",
+    dateLabel: "Wednesday, Jun 10, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 3h 10m",
+    official: {
+      votesPosted: true,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Votes below are taken from the county Action Report (Granicus MetaViewer meta_id 285182).",
+      links: [
+        { label: "Agenda (Granicus)", href: granicusAgenda(8198) },
+        { label: "Action Report (PDF)", href: granicusAction(8198, 285182) },
+      ],
+    },
+    decisions: [
+      {
+        item: "1",
+        action: "FY 2027–FY 2032 Secondary Road Six-Year Plan forwarded to the July 7, 2026 Business Meeting for action; staff directed to bring the VDOT Secondary Road Program matter back after decision-making criteria are developed.",
+        tally: "8-0-1 (Supervisor Letourneau absent)",
+        source: { label: "Jun 10, 2026 Action Report", href: granicusAction(8198, 285182) },
+      },
+      {
+        item: "2",
+        action: "LEGI-2025-0012, Golden Substation — removed from the agenda.",
+        source: { label: "Jun 10, 2026 Action Report", href: granicusAction(8198, 285182) },
+      },
+      {
+        item: "3",
+        action: "LEGI-2024-0012, Happy Paws K-9 forwarded to the July 21, 2026 Business Meeting for action (as amended in the Action Report).",
+        tally: "7-0-2 (Supervisors Letourneau and Umstattd absent)",
+        source: { label: "Jun 10, 2026 Action Report", href: granicusAction(8198, 285182) },
+      },
+      {
+        item: "4",
+        action: "LEGI-2025-0052, R&D Hamilton Academy deferred to the July 15, 2026 Public Hearing.",
+        source: { label: "Jun 10, 2026 Action Report", href: granicusAction(8198, 285182) },
+      },
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see Granicus for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order / procedural opening" },
+          { num: "—", title: "Consent and/or hearing items (see Action Report when posted)" },
+          { num: "—", title: "Public input / comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-06-10-public-hearing.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-06-10-public-hearing.txt",
+      pdfNote: "48 pages",
+    },
+    moments: [
+      { seconds: 668, label: "Meeting called to order." },
+      { seconds: 3640, label: "Public comment." },
+      { seconds: 3176, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-06-09-2nd-tuesday",
+    meetingId: "2026-06-09-1199853132",
+    venue: "loudoun-lcps",
+    title: "School Board 2nd Tuesday Meeting",
+    dateLabel: "Tuesday, Jun 9, 2026",
+    whenWhere: "School Board meeting · video 6h 28m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Official vote record not yet posted. BoardDocs minutes could not be pulled this morning (CloudFront 403). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1199853132?rel=0" },
+      ],
+    },
+    decisions: [],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see BoardDocs for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official BoardDocs agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order and disclosures" },
+          { num: "—", title: "Consent / business items" },
+          { num: "—", title: "Public comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-06-09-2nd-tuesday-school-board-meeting.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-06-09-2nd-tuesday-school-board-meeting.txt",
+      pdfNote: "81 pages",
+    },
+    moments: [
+      { seconds: 313, label: "Meeting called to order." },
+      { seconds: 613, label: "Consent agenda taken up." },
+      { seconds: 872, label: "Public hearing item." },
+      { seconds: 4618, label: "Closed session." },
+      { seconds: 7658, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "bos-2026-06-02-business",
+    meetingId: "8191",
+    venue: "loudoun-bos",
+    title: "Board of Supervisors Business Meeting",
+    dateLabel: "Tuesday, Jun 2, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 7h 13m",
+    official: {
+      votesPosted: true,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Votes below are taken from the county Action Report (Granicus MetaViewer meta_id 283227).",
+      links: [
+        { label: "Agenda (Granicus)", href: granicusAgenda(8191) },
+        { label: "Action Report (PDF)", href: granicusAction(8191, 283227) },
+      ],
+    },
+    decisions: [
+      {
+        item: "Consent",
+        action: "Consent agenda approved (R-1–R-6, 2a, 3, 4, 5, 7, 9, and 11).",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Jun 2, 2026 Action Report", href: granicusAction(8191, 283227) },
+      },
+      {
+        item: "1a",
+        action: "Algonkian Parkway Multimodal Feasibility Study — Board directed staff not to pursue further evaluation of long-term improvements associated with Concept C (as recorded).",
+        source: { label: "Jun 2, 2026 Action Report", href: granicusAction(8191, 283227) },
+      },
+      {
+        item: "5",
+        action: "High Voltage Direct Current Transmission Infrastructure Study Proposal initiated; Scope of Work approved (as recorded).",
+        source: { label: "Jun 2, 2026 Action Report", href: granicusAction(8191, 283227) },
+      },
+      {
+        item: "8",
+        action: "LEGI-2023-0080, Valley Commerce Center approved subject to the Proffer Statement dated May 28, 2026 (as recorded).",
+        source: { label: "Jun 2, 2026 Action Report", href: granicusAction(8191, 283227) },
+      },
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see Granicus for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order / procedural opening" },
+          { num: "—", title: "Consent and/or hearing items (see Action Report when posted)" },
+          { num: "—", title: "Public input / comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-06-02-business.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-06-02-business.txt",
+      pdfNote: "77 pages",
+    },
+    moments: [
+      { seconds: 455, label: "Meeting called to order." },
+      { seconds: 642, label: "Consent agenda taken up." },
+      { seconds: 1239, label: "Closed session." },
+      { seconds: 3540, label: "Adjournment." },
+      { seconds: 8622, label: "Public comment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-05-26-4th-tuesday",
+    meetingId: "2026-05-26-1195679789",
+    venue: "loudoun-lcps",
+    title: "School Board 4th Tuesday Meeting",
+    dateLabel: "Tuesday, May 26, 2026",
+    whenWhere: "School Board meeting · video 6h 59m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Official vote record not yet posted. BoardDocs minutes could not be pulled this morning (CloudFront 403). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1195679789?rel=0" },
+      ],
+    },
+    decisions: [],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see BoardDocs for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official BoardDocs agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order and disclosures" },
+          { num: "—", title: "Consent / business items" },
+          { num: "—", title: "Public comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-05-26-4th-tuesday-school-board-meeting.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-05-26-4th-tuesday-school-board-meeting.txt",
+      pdfNote: "65 pages",
+    },
+    moments: [
+      { seconds: 323, label: "Meeting called to order." },
+      { seconds: 414, label: "Consent agenda taken up." },
+      { seconds: 9987, label: "Public comment." },
+      { seconds: 10899, label: "Public hearing item." },
+      { seconds: 17891, label: "Closed session." },
+    ],
+  },
+  {
+    slug: "bos-2026-05-19-business",
+    meetingId: "8185",
+    venue: "loudoun-bos",
+    title: "Board of Supervisors Business Meeting",
+    dateLabel: "Tuesday, May 19, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 8h 53m",
+    official: {
+      votesPosted: true,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Votes below are taken from the county Action Report (Granicus MetaViewer meta_id 282415).",
+      links: [
+        { label: "Agenda (Granicus)", href: granicusAgenda(8185) },
+        { label: "Action Report (PDF)", href: granicusAction(8185, 282415) },
+      ],
+    },
+    decisions: [
+      {
+        item: "Consent",
+        action: "Consent agenda approved (R-1–R-6, 1b, 1c, 1e, 1f, 1h, 2a, 3a, 4, 5, 6, 7, 8, 9, 13, and 15).",
+        tally: "8-0-1 (Supervisor Saines absent)",
+        source: { label: "May 19, 2026 Action Report", href: granicusAction(8185, 282415) },
+      },
+      {
+        item: "—",
+        action: "Items 11 (Valley Commerce Center) and 16 (Juneteenth Celebration – Loudoun Freedom Center) deferred to the June 2, 2026 Business Meeting (announced at the meeting; recorded in the Action Report).",
+        source: { label: "May 19, 2026 Action Report", href: granicusAction(8185, 282415) },
+      },
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see Granicus for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order / procedural opening" },
+          { num: "—", title: "Consent and/or hearing items (see Action Report when posted)" },
+          { num: "—", title: "Public input / comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-05-19-business.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-05-19-business.txt",
+      pdfNote: "84 pages",
+    },
+    moments: [
+      { seconds: 380, label: "Meeting called to order." },
+      { seconds: 570, label: "Closed session." },
+      { seconds: 631, label: "Consent agenda taken up." },
+      { seconds: 2026, label: "Public comment." },
+      { seconds: 4948, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "bos-2026-05-13-business-reconvened",
+    meetingId: "8179",
+    venue: "loudoun-bos",
+    title: "Board of Supervisors Business Meeting (reconvened May 5)",
+    dateLabel: "Wednesday, May 13, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 34m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Official vote record not yet posted on Granicus for this clip (no Action Report link found this morning). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
+      links: [
+        { label: "Agenda (Granicus)", href: granicusAgenda(8179) },
+        { label: "Meeting video (Granicus)", href: "https://loudoun.granicus.com/player/clip/8179" },
+      ],
+    },
+    decisions: [],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see Granicus for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order / procedural opening" },
+          { num: "—", title: "Consent and/or hearing items (see Action Report when posted)" },
+          { num: "—", title: "Public input / comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-05-13-business-reconvened.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-05-13-business-reconvened.txt",
+      pdfNote: "2 pages",
+    },
+    moments: [
+      { seconds: 0, label: "Early agenda business." },
+      { seconds: 25, label: "Closed session." },
+      { seconds: 55, label: "Mid-meeting discussion." },
+      { seconds: 2048, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "bos-2026-05-13-public-hearing",
+    meetingId: "8178",
+    venue: "loudoun-bos",
+    title: "Board of Supervisors Public Hearing",
+    dateLabel: "Wednesday, May 13, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 1h 48m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Official vote record not yet posted on Granicus for this clip (no Action Report link found this morning). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
+      links: [
+        { label: "Agenda (Granicus)", href: granicusAgenda(8178) },
+        { label: "Meeting video (Granicus)", href: "https://loudoun.granicus.com/player/clip/8178" },
+      ],
+    },
+    decisions: [],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see Granicus for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order / procedural opening" },
+          { num: "—", title: "Consent and/or hearing items (see Action Report when posted)" },
+          { num: "—", title: "Public input / comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-05-13-public-hearing.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-05-13-public-hearing.txt",
+      pdfNote: "27 pages",
+    },
+    moments: [
+      { seconds: 265, label: "Meeting called to order." },
+      { seconds: 1105, label: "Early agenda business." },
+      { seconds: 1252, label: "Public input." },
+      { seconds: 3066, label: "Mid-meeting discussion." },
+      { seconds: 4837, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2026-05-12-2nd-tuesday",
+    meetingId: "2026-05-12-1191636709",
+    venue: "loudoun-lcps",
+    title: "School Board 2nd Tuesday Meeting",
+    dateLabel: "Tuesday, May 12, 2026",
+    whenWhere: "School Board meeting · video 6h 33m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Official vote record not yet posted. BoardDocs minutes could not be pulled this morning (CloudFront 403). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1191636709?rel=0" },
+      ],
+    },
+    decisions: [],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see BoardDocs for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official BoardDocs agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order and disclosures" },
+          { num: "—", title: "Consent / business items" },
+          { num: "—", title: "Public comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-05-12-2nd-tuesday-school-board-meeting.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-05-12-2nd-tuesday-school-board-meeting.txt",
+      pdfNote: "68 pages",
+    },
+    moments: [
+      { seconds: 125, label: "Meeting called to order." },
+      { seconds: 366, label: "Consent agenda taken up." },
+      { seconds: 10731, label: "Public comment." },
+      { seconds: 15022, label: "Public hearing item." },
+    ],
+  },
+  {
+    slug: "bos-2026-05-05-business",
+    meetingId: "8174",
+    venue: "loudoun-bos",
+    title: "Board of Supervisors Business Meeting",
+    dateLabel: "Tuesday, May 5, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 6h 26m",
+    official: {
+      votesPosted: true,
+      checkedLabel: "Oct 11, 2026, 8:15 AM ET",
+      note: "Votes below are taken from the county Action Report (Granicus MetaViewer meta_id 281233).",
+      links: [
+        { label: "Agenda (Granicus)", href: granicusAgenda(8174) },
+        { label: "Action Report (PDF)", href: granicusAction(8174, 281233) },
+      ],
+    },
+    decisions: [
+      {
+        item: "Consent",
+        action: "Consent agenda approved (R-1–R-8, 1a, 2, 5, 10, and 13).",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Turner absent)",
+        source: { label: "May 5, 2026 Action Report", href: granicusAction(8174, 281233) },
+      },
+      {
+        item: "3",
+        action: "Banshee Reeks Nature Preserve equestrian-use amendments adopted (as recorded).",
+        source: { label: "May 5, 2026 Action Report", href: granicusAction(8174, 281233) },
+      },
+      {
+        item: "4",
+        action: "High Voltage Direct Current Transmission Infrastructure Study Proposal deferred to the June 2, 2026 Business Meeting.",
+        source: { label: "May 5, 2026 Action Report", href: granicusAction(8174, 281233) },
+      },
+      {
+        item: "6",
+        action: "Staff directed to draft a Human Rights Ordinance and return to a future Business Meeting (as recorded).",
+        source: { label: "May 5, 2026 Action Report", href: granicusAction(8174, 281233) },
+      },
+      {
+        item: "8",
+        action: "Route 50 Safety and Operational Study forwarded to the Transportation and Land Use Committee.",
+        tally: "8-0-1 (Vice Chair Turner absent)",
+        source: { label: "May 5, 2026 Action Report", href: granicusAction(8174, 281233) },
+      },
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda (see Granicus for official item list)",
+        dek: "Item labels below are neutral topic markers from the meeting video for navigation only — not an official agenda reprint.",
+        items: [
+          { num: "—", title: "Call to order / procedural opening" },
+          { num: "—", title: "Consent and/or hearing items (see Action Report when posted)" },
+          { num: "—", title: "Public input / comment (when taken)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-05-05-business.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-05-05-business.txt",
+      pdfNote: "73 pages",
+    },
+    moments: [
+      { seconds: 632, label: "Closed session." },
+      { seconds: 684, label: "Consent agenda taken up." },
+      { seconds: 3684, label: "Public comment." },
+      { seconds: 4261, label: "Public hearing item." },
+      { seconds: 18725, label: "Adjournment." },
+    ],
+  },
+
   // --- 2026-10-10 morning: newest pending BOS + LCPS (interleaved) ---
   {
     slug: "lcps-2026-09-22-4th-tuesday",
