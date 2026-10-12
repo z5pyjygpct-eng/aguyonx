@@ -61,6 +61,8 @@ function SenatePage() {
               heading="By the numbers · Virginia Senate"
               meetings={SENATE_MEETINGS}
               recapCount={SENATE_RECAPS.length}
+              recapSub="votes from official LIS roll calls"
+              note={FTM_TRANSCRIPTS.some((t) => t.venue === SENATE_VENUE) ? undefined : "No Senate machine transcripts have posted yet; floor sessions are queued. Searchable, transcript, and hour counts fill in as they post."}
             />
           </div>
         </section>

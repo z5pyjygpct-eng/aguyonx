@@ -54,12 +54,12 @@ export function LoudounStats({ heading = "By the numbers · Loudoun BOS + School
   return <StatsPanel heading={heading} s={s} className={className} />;
 }
 
-function StatsPanel({ heading, s, className }: { heading: string; s: ReturnType<typeof siteStats>; className?: string }) {
+function StatsPanel({ heading, s, className, recapSub, note }: { heading: string; s: ReturnType<typeof siteStats>; className?: string; recapSub?: string; note?: string }) {
   const rows = [
     { n: s.videos, label: "Meeting videos" },
     { n: s.searchable, label: "Searchable meetings", sub: "captions or transcript" },
     { n: s.transcripts, label: "Full transcripts", sub: "speech-to-text" },
-    { n: s.recaps, label: "Meeting recaps" },
+    { n: s.recaps, label: "Meeting recaps", sub: recapSub },
     { n: s.hours, label: "Hours of audio transcribed" },
   ];
   return (
@@ -76,6 +76,7 @@ function StatsPanel({ heading, s, className }: { heading: string; s: ReturnType<
           </div>
         ))}
       </dl>
+      {note ? <p className="mt-2 text-xs text-muted-foreground">{note}</p> : null}
     </aside>
   );
 }
@@ -97,6 +98,6 @@ export function venueStats(meetings: { id: string; windowCount?: number; duratio
   };
 }
 
-export function VenueStats({ heading, meetings, recapCount, className }: { heading: string; meetings: { id: string; windowCount?: number; duration?: string }[]; recapCount: number; className?: string }) {
-  return <StatsPanel heading={heading} s={venueStats(meetings, recapCount)} className={className} />;
+export function VenueStats({ heading, meetings, recapCount, className, recapSub, note }: { heading: string; meetings: { id: string; windowCount?: number; duration?: string }[]; recapCount: number; className?: string; recapSub?: string; note?: string }) {
+  return <StatsPanel heading={heading} s={venueStats(meetings, recapCount)} className={className} recapSub={recapSub} note={note} />;
 }
