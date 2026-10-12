@@ -3216,6 +3216,16 @@ export const FTM_TRANSCRIPTS: FtmTranscript[] = [
     generated: "2026-10-12",
     sourceFile: "fxc-4239.srt",
   },
+  {
+    meetingId: "fxc-4228",
+    venue: "fairfax-city-council",
+    url: "/files/find-the-moment/fairfax-city-council/transcripts/fxc-4228.json",
+    windowCount: 534,
+    wordCount: 34150,
+    engine: "whisper.cpp \u00b7 large-v3-turbo",
+    generated: "2026-10-12",
+    sourceFile: "fxc-4228.srt",
+  },
 
 ];
 

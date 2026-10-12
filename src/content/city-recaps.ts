@@ -1932,6 +1932,36 @@ const CITY_RECAPS_RAW: CityRecap[] = [
       { seconds: 2346, label: "Public comment / public hearing begins." },
     ],
   },
+  {
+    slug: "fxc-2025-06-10-city-council-meeting",
+    meetingId: "fxc-4228",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Meeting",
+    dateLabel: "Tuesday, Jun 10, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 4h 25m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, ~8:15 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4228" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4228&doc_id=db48222b-46e0-11f0-b7f5-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4228" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-06-10-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-06-10-city-council-meeting.txt", "pdfNote": "56 pages"},
+    shareContext: "Fairfax City City Council, Jun 10, 2025",
+    moments: [
+      { seconds: 65, label: "Pledge of Allegiance." },
+      { seconds: 621, label: "Public comment on the George Snyder Trail." },
+      { seconds: 12145, label: "Work session: purchasing resolution update." },
+    ],
+  },
 ];
 
 /** Always sorted newest meeting first. */
