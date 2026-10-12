@@ -51,6 +51,37 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "spanberger-energy-plan-two-views-sullivan-cardinal-2026-10-12",
+    date: "2026-10-12",
+    headline:
+      "Two different views of the governor’s energy plan",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/10/12/two-different-views-of-the-governors-energy-plan/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }, { name: "Rip Sullivan", office: "State Delegate" }],
+    scope: "statewide",
+  },
+  {
+    id: "rasoul-licensed-lawyer-cardinal-2026-10-12",
+    date: "2026-10-12",
+    headline:
+      "Lawmaker Rasoul has become a licensed lawyer",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/10/12/lawmaker-rasoul-has-become-a-licensed-lawyer/",
+    people: [{ name: "Sam Rasoul", office: "State Delegate" }],
+    scope: "statewide",
+  },
+  {
+    id: "vindman-7th-district-race-vamercury-2026-10-12",
+    date: "2026-10-12",
+    headline:
+      "Vindman faces crowded field and economic pressures in Virginia’s 7th District Congressional race",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/12/vindman-faces-crowded-field-and-economic-pressures-in-virginias-7th-district-congressional-race/",
+    people: [{ name: "Eugene Vindman", office: "U.S. Representative" }],
+    scope: "statewide",
+  },
+
+  {
     id: "manassas-workplace-shooting-families-pwt-2026-10-11",
     date: "2026-10-11",
     filed: "2026-10-12",
@@ -63,6 +94,17 @@ export const NEWS: NewsItem[] = [
 
 
   {
+    id: "alcorn-testifies-dominion-nextera-merger-fairfax-2026-10-10",
+    date: "2026-10-10",
+    filed: "2026-10-12",
+    headline:
+      "Supervisor Walter Alcorn Testifies Against $67B Dominion-NextEra Merger",
+    outlet: "Fairfax County",
+    url: "https://www.fairfaxcounty.gov/huntermill/supervisor-walter-alcorn-testifies-against-67b-dominion-nextera-merger",
+    people: [{ name: "Walter Alcorn", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
     id: "reston-association-board-resignation-ffxnow-2026-10-10",
     date: "2026-10-10",
     filed: "2026-10-11",
@@ -73,6 +115,72 @@ export const NEWS: NewsItem[] = [
     scope: "local",
   },
 
+  {
+    id: "spanberger-dead-felons-voting-rights-washex-2026-10-09",
+    date: "2026-10-09",
+    filed: "2026-10-12",
+    headline:
+      "Spanberger says it ‘appears’ she restored dead people’s voting rights",
+    outlet: "Washington Examiner",
+    url: "https://www.washingtonexaminer.com/news/4761190/spanberger-restore-dead-people-voting-rights/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-roadless-rule-national-forests-gov-2026-10-09",
+    date: "2026-10-09",
+    filed: "2026-10-12",
+    headline:
+      "NEW: Governor Spanberger Stands Up to Trump Administration Effort to Strip Protections from 400,000 Acres of National Forests in Virginia",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1124663-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-henrico-schools-visit-gov-2026-10-09",
+    date: "2026-10-09",
+    filed: "2026-10-12",
+    headline:
+      "Governor Spanberger Visits Students & Teachers in Henrico, Discusses Focus on Continuing to Strengthen Virginia Schools",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1124659-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-walashek-norfolk-expansion-gov-2026-10-09",
+    date: "2026-10-09",
+    filed: "2026-10-12",
+    headline:
+      "Governor Spanberger Announces Walashek Industrial & Marine Expansion in Norfolk",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1124646-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "warner-election-threats-declassification-wvtf-2026-10-09",
+    date: "2026-10-09",
+    filed: "2026-10-12",
+    headline:
+      "Warner calls for declassification of election threats weeks before midterms",
+    outlet: "WVTF / Radio IQ",
+    url: "https://www.wvtf.org/news/2026-10-09/warner-calls-for-declassification-of-election-threats-weeks-before-midterms",
+    people: [{ name: "Mark Warner", office: "U.S. Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "warner-subramanyam-candidates-data-centers-ltm-2026-10-09",
+    date: "2026-10-09",
+    filed: "2026-10-12",
+    headline:
+      "Candidates for House, Senate on data centers, immigration and affordability",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/environment/candidates-for-house-senate-on-data-centers-immigration-and-affordability/article_1e7fecb8-92a1-4c59-88a2-000d4596d7b3.html",
+    people: [{ name: "Mark Warner", office: "U.S. Senator" }, { name: "Suhas Subramanyam", office: "U.S. Representative" }],
+    scope: "local",
+  },
   {
     id: "fairfax-2027-ga-priorities-mckay-ffxnow-2026-10-09",
     date: "2026-10-09",
