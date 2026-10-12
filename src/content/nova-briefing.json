@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,28 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-12",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day local clips verified live (outlet headline and URL). Sources checked: Loudoun Now, FFXnow, ARLnow, Prince William Times, Blue Ridge Leader, WTOP Virginia, WUSA9, WJLA local, NBC Washington local, Patch Leesburg, Connection Newspapers; LTM/InsideNoVa RSS rate-limited.",
+      "items": [
+        {
+          "id": "manassas-workplace-shooting-families-pwt-2026-10-11",
+          "county": "Prince William",
+          "headline": "WEEKEND READ: Workplace shooting shatters 2 young families; police investigation reveals few answers",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/weekend-read-workplace-shooting-shatters-2-young-families-police-investigation-reveals-few-answers/article_69a8cfb6-aa47-421e-aac3-ca689bf75f95.html",
+          "published": "2026-10-11",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Fairfax: no verified prior-day local item",
+        "Loudoun: no verified prior-day civic item (sports-only at Morven Park left out of briefing)",
+        "Arlington: no verified prior-day local item"
+      ]
+    },
     {
       "date": "2026-10-11",
       "status": "ok",

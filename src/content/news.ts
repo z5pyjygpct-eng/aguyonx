@@ -51,6 +51,18 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "manassas-workplace-shooting-families-pwt-2026-10-11",
+    date: "2026-10-11",
+    filed: "2026-10-12",
+    headline: "WEEKEND READ: Workplace shooting shatters 2 young families; police investigation reveals few answers",
+    outlet: "Prince William Times",
+    url: "https://www.princewilliamtimes.com/localnews/weekend-read-workplace-shooting-shatters-2-young-families-police-investigation-reveals-few-answers/article_69a8cfb6-aa47-421e-aac3-ca689bf75f95.html",
+    people: [],
+    scope: "local",
+  },
+
+
+  {
     id: "reston-association-board-resignation-ffxnow-2026-10-10",
     date: "2026-10-10",
     filed: "2026-10-11",
