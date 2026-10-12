@@ -86,7 +86,7 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
                     params={{ city, slug: r.slug }}
                     className="text-[#1E4B8E] underline-offset-2 hover:underline"
                   >
-                    {r.title}, {r.dateLabel}
+                    {r.dateLabel} · {r.title}
                   </Link>
                 </li>
               ))}
