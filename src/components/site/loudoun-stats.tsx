@@ -11,6 +11,9 @@ import { LOUDOUN_MEETINGS } from "@/content/loudoun";
 import { LCPS_MEETINGS } from "@/content/lcps";
 import { LOUDOUN_RECAPS } from "@/content/loudoun-recaps";
 import { FTM_TRANSCRIPTS } from "@/content/ftm-transcripts";
+import { CITY_MEETINGS } from "@/content/cities-meetings";
+import { CITY_RECAPS } from "@/content/city-recaps";
+import { cityVenueLive } from "@/content/cities";
 
 function secs(label: string | undefined): number {
   if (!label) return 0;
@@ -31,8 +34,23 @@ export function loudounStats() {
   };
 }
 
-export function LoudounStats({ heading = "By the numbers · Loudoun BOS + School Board", className }: { heading?: string; className?: string } = {}) {
-  const s = loudounStats();
+/** Every locality on the site. City venues join automatically once their first transcript is live. */
+export function siteStats() {
+  const full = new Set(FTM_TRANSCRIPTS.map((t) => t.meetingId));
+  const cities = CITY_MEETINGS.filter((m) => cityVenueLive(m.venue));
+  const ms: { id: string; windowCount?: number; duration: string }[] = [...LOUDOUN_MEETINGS, ...LCPS_MEETINGS, ...cities];
+  const done = ms.filter((m) => full.has(m.id));
+  return {
+    videos: ms.length,
+    searchable: ms.filter((m) => (m.windowCount ?? 0) > 0 || full.has(m.id)).length,
+    transcripts: done.length,
+    recaps: LOUDOUN_RECAPS.length + CITY_RECAPS.length,
+    hours: Math.round(done.reduce((a, m) => a + secs(m.duration), 0) / 3600),
+  };
+}
+
+export function LoudounStats({ heading = "By the numbers · Loudoun BOS + School Board", className, scope = "loudoun" }: { heading?: string; className?: string; scope?: "loudoun" | "site" } = {}) {
+  const s = scope === "site" ? siteStats() : loudounStats();
   const rows = [
     { n: s.videos, label: "Meeting videos" },
     { n: s.searchable, label: "Searchable meetings", sub: "captions or transcript" },
