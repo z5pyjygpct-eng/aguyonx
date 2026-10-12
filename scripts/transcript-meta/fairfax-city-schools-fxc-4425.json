@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-schools/transcripts/fxc-4425.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-12-16-joint-cof-fcps-school-board-meeting",
+  "title": "City of Fairfax Joint COF/FCPS School Board Meeting, Tuesday, December 16, 2025",
+  "shortTitle": "Joint COF/FCPS School Board Meeting \u00b7 Dec 16, 2025",
+  "date": "Tuesday, December 16, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "0h 25m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4425"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4425"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4425&doc_id=34c549f0-dc5c-11f0-bb28-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

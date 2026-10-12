@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-02-19-1166845527.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-19-student-services-committee",
+  "title": "Loudoun County Public Schools, Student Services Committee, Thursday, February 19, 2026",
+  "shortTitle": "Student Services Committee \u00b7 Feb 19, 2026",
+  "date": "Thursday, February 19, 2026",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "1h 6m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1166845527?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

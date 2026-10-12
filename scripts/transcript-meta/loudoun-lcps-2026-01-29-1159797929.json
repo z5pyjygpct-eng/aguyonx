@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-01-29-1159797929.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-29-fy27-school-board-budget-work-session-and-public-hearin",
+  "title": "Loudoun County Public Schools, FY27 School Board Budget Work Session and Public Hearing, Thursday, January 29, 2026",
+  "shortTitle": "FY27 School Board Budget Work Session and Public Hearing \u00b7 Jan 29, 2026",
+  "date": "Thursday, January 29, 2026",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "48m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1159797929?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

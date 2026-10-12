@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-council/transcripts/fxc-4374.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-11-04-city-council-work-session",
+  "title": "City of Fairfax City Council Work Session, Tuesday, November 4, 2025",
+  "shortTitle": "City Council Work Session \u00b7 Nov 4, 2025",
+  "date": "Tuesday, November 4, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "3h 22m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4374"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4374"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4374&doc_id=59d5f9ee-ba79-11f0-a7da-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-01-20-1154877500.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-20-fy27-operating-budget-school-board-work-session-to-incl",
+  "title": "Loudoun County Public Schools, FY27 Operating Budget School Board Work Session to include a Closed Session, Tuesday, January 20, 2026",
+  "shortTitle": "FY27 Operating Budget School Board Work Session to include a Closed Session \u00b7 Jan 20, 2026",
+  "date": "Tuesday, January 20, 2026",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "3h 28m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1154877500?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

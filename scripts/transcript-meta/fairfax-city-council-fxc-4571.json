@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-council/transcripts/fxc-4571.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2026-06-02-city-council-work-session",
+  "title": "City of Fairfax City Council Work Session, Tuesday, June 2, 2026",
+  "shortTitle": "City Council Work Session \u00b7 Jun 2, 2026",
+  "date": "Tuesday, June 2, 2026",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "2h 4m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4571"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4571"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4571&doc_id=0a7493fc-5f4b-11f1-9b4d-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

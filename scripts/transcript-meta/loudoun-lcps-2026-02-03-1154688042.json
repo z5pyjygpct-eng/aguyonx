@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-02-03-1154688042.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-03-specialized-programs-centers-committee-meeting",
+  "title": "Loudoun County Public Schools, Specialized Programs & Centers Committee Meeting, Tuesday, February 3, 2026",
+  "shortTitle": "Specialized Programs & Centers Committee Meeting \u00b7 Feb 3, 2026",
+  "date": "Tuesday, February 3, 2026",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "44m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1154688042?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

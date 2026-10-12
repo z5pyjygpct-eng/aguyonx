@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-12-01-1142279514.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-01-school-board-fy-2027-fy-2032-capital-budget-work-sessio",
+  "title": "Loudoun County Public Schools, School Board FY 2027 \u2013 FY 2032 Capital Budget Work Session, Monday, December 1, 2025",
+  "shortTitle": "School Board FY 2027 \u2013 FY 2032 Capital Budget Work Session \u00b7 Dec 1, 2025",
+  "date": "Monday, December 1, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "24m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1142279514?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

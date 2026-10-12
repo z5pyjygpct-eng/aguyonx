@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-council/transcripts/fxc-4345.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-10-14-city-council-meeting",
+  "title": "City of Fairfax City Council Meeting, Tuesday, October 14, 2025",
+  "shortTitle": "City Council Meeting \u00b7 Oct 14, 2025",
+  "date": "Tuesday, October 14, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "2h 46m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4345"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4345"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4345&doc_id=081f5a11-a9e6-11f0-8df7-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

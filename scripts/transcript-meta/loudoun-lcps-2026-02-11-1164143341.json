@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-02-11-1164143341.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-11-legislative-audit-and-policy-committee-meeting",
+  "title": "Loudoun County Public Schools, Legislative, Audit and Policy Committee Meeting, Wednesday, February 11, 2026",
+  "shortTitle": "Legislative, Audit and Policy Committee Meeting \u00b7 Feb 11, 2026",
+  "date": "Wednesday, February 11, 2026",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "49m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1164143341?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

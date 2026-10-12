@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-schools/transcripts/fxc-4295.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-08-04-school-board-special-meeting",
+  "title": "City of Fairfax School Board Special Meeting, Monday, August 4, 2025",
+  "shortTitle": "School Board Special Meeting \u00b7 Aug 4, 2025",
+  "date": "Monday, August 4, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "0h 30m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4295"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4295"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4295&doc_id=f9951c90-72f7-11f0-a766-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-council/transcripts/fxc-4513.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2026-04-07-city-council-work-session",
+  "title": "City of Fairfax City Council Work Session, Tuesday, April 7, 2026",
+  "shortTitle": "City Council Work Session \u00b7 Apr 7, 2026",
+  "date": "Tuesday, April 7, 2026",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "3h 37m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4513"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4513"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4513&doc_id=3c467f53-3351-11f1-bb28-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

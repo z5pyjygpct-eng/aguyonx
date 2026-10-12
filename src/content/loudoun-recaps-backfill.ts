@@ -1,6 +1,6 @@
 import type { LoudounRecap } from "./loudoun-recaps";
 /**
- * Backfill Meeting Recaps (Oct 11, 2026): one recap per full machine transcript that
+ * Backfill Meeting Recaps (Oct 11–12, 2026): one recap per full machine transcript that
  * did not yet have one. Same HARD RULES as loudoun-recaps.ts:
  *  - decisions[] are quoted from official records only (Granicus Action Reports for BOS,
  *    BoardDocs minutes for LCPS); votesPosted stays false when none was found.
@@ -9129,4 +9129,1346 @@ export const LOUDOUN_RECAPS_BACKFILL: LoudounRecap[] = [
       { seconds: 11854, label: "Adjournment." },
     ],
   },
+  {
+    slug: "lcps-2026-03-03-performance-monitoring-committee-meeting",
+    meetingId: "2026-03-03-1170094087",
+    venue: "loudoun-lcps",
+    title: "Performance Monitoring Committee Meeting",
+    dateLabel: "Tuesday, Mar 3, 2026",
+    whenWhere: "School Board committee meeting · video 1h 5m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DR7K9B50C1D8") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1170094087?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda items as published (BoardDocs)",
+        dek: "Listed as published; these are agenda items, not results.",
+        items: [
+          { num: "2.01", title: "Public Comment" },
+          { num: "3.01", title: "Approval of Draft Minutes for the February 18, 2026, Meeting" },
+          { num: "3.02", title: "Approved Minutes" },
+          { num: "4.01", title: "Department of Academics - Instructional Framework" },
+          { num: "4.02", title: "Department of School Leadership: Discipline Data" },
+        ],
+      },
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-03-03-performance-monitoring-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-03-03-performance-monitoring-committee-meeting.txt", "pdfNote": "18 pages"},
+    shareContext: "LCPS School Board, Mar 3, 2026",
+    moments: [
+      { seconds: 974, label: "Early agenda business." },
+      { seconds: 2030, item: "4.02", label: "Department of School Leadership: Discipline Data." },
+      { seconds: 2924, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2026-03-02-student-behavior-and-accountability-committee-ap",
+    meetingId: "2026-03-02-1169791285",
+    venue: "loudoun-lcps",
+    title: "Student Behavior and Accountability Committee - Appeals Hearing Closed Session",
+    dateLabel: "Monday, Mar 2, 2026",
+    whenWhere: "School Board appeals meeting · video 5m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DRFKE3517076") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1169791285?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-03-02-student-behavior-and-accountability-committee-appeals-h.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-03-02-student-behavior-and-accountability-committee-appeals-h.txt", "pdfNote": "3 pages"},
+    shareContext: "LCPS School Board, Mar 2, 2026",
+    moments: [
+      { seconds: 20, label: "Motion to enter closed session." },
+      { seconds: 146, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "lcps-2026-03-02-student-behavior-and-accountability-committee",
+    meetingId: "2026-03-02-1169764702",
+    venue: "loudoun-lcps",
+    title: "Student Behavior and Accountability Committee",
+    dateLabel: "Monday, Mar 2, 2026",
+    whenWhere: "School Board committee meeting · video 42m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1169764702?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-03-02-student-behavior-and-accountability-committee.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-03-02-student-behavior-and-accountability-committee.txt", "pdfNote": "10 pages"},
+    shareContext: "LCPS School Board, Mar 2, 2026",
+    moments: [
+      { seconds: 627, label: "Early agenda business." },
+      { seconds: 1255, label: "Mid-meeting discussion." },
+      { seconds: 1871, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-26-select-committee-of-the-school-board-for-hearing",
+    meetingId: "2026-02-26-1168724537",
+    venue: "loudoun-lcps",
+    title: "Select Committee of the School Board for Hearing Appeals (Closed Meeting)",
+    dateLabel: "Thursday, Feb 26, 2026",
+    whenWhere: "School Board appeals meeting · video 4m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DR7LS357E4C2") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1168724537?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-26-select-committee-of-the-school-board-for-hearing-appeal.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-26-select-committee-of-the-school-board-for-hearing-appeal.txt", "pdfNote": "2 pages"},
+    shareContext: "LCPS School Board, Feb 26, 2026",
+    moments: [
+      { seconds: 37, label: "Motion to enter closed session." },
+      { seconds: 185, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-19-student-services-committee",
+    meetingId: "2026-02-19-1166845527",
+    venue: "loudoun-lcps",
+    title: "Student Services Committee",
+    dateLabel: "Thursday, Feb 19, 2026",
+    whenWhere: "School Board committee meeting · video 1h 6m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQLM2Y5933E9") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1166845527?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-19-student-services-committee.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-19-student-services-committee.txt", "pdfNote": "16 pages"},
+    shareContext: "LCPS School Board, Feb 19, 2026",
+    moments: [
+      { seconds: 217, label: "Public comment / public hearing begins." },
+      { seconds: 984, label: "Early agenda business." },
+      { seconds: 1933, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-18-minority-student-achievement-advisory-committee",
+    meetingId: "2026-02-18-1166154445",
+    venue: "loudoun-lcps",
+    title: "Minority Student Achievement Advisory Committee (MSAAC) Meeting",
+    dateLabel: "Wednesday, Feb 18, 2026",
+    whenWhere: "School Board committee meeting · video 1h 51m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQUR486C2239") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1166154445?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-18-minority-student-achievement-advisory-committee-msaac-m.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-18-minority-student-achievement-advisory-committee-msaac-m.txt", "pdfNote": "13 pages"},
+    shareContext: "LCPS School Board, Feb 18, 2026",
+    moments: [
+      { seconds: 1655, label: "Early agenda business." },
+      { seconds: 2954, label: "Mid-meeting discussion." },
+      { seconds: 4915, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-18-performance-monitoring-committee-meeting",
+    meetingId: "2026-02-18-1166123938",
+    venue: "loudoun-lcps",
+    title: "Performance Monitoring Committee Meeting",
+    dateLabel: "Wednesday, Feb 18, 2026",
+    whenWhere: "School Board committee meeting · video 46m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQUR486C2239") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1166123938?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-18-performance-monitoring-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-18-performance-monitoring-committee-meeting.txt", "pdfNote": "13 pages"},
+    shareContext: "LCPS School Board, Feb 18, 2026",
+    moments: [
+      { seconds: 708, label: "Early agenda business." },
+      { seconds: 1407, label: "Mid-meeting discussion." },
+      { seconds: 2783, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-18-school-board-retreat-to-include-closed-session",
+    meetingId: "2026-02-18-1166045288",
+    venue: "loudoun-lcps",
+    title: "School Board Retreat to include Closed Session",
+    dateLabel: "Wednesday, Feb 18, 2026",
+    whenWhere: "School Board closed meeting (public portion) · video 2h 31m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DRA8RW497CE4") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1166045288?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-18-school-board-retreat-to-include-closed-session.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-18-school-board-retreat-to-include-closed-session.txt", "pdfNote": "27 pages"},
+    shareContext: "LCPS School Board, Feb 18, 2026",
+    moments: [
+      { seconds: 33, label: "Meeting called to order." },
+      { seconds: 3940, label: "Public comment / public hearing begins." },
+      { seconds: 6226, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-11-student-behavior-and-accountability-committee-ap",
+    meetingId: "2026-02-11-1164343203",
+    venue: "loudoun-lcps",
+    title: "Student Behavior and Accountability Committee - Appeals Hearing Closed Session",
+    dateLabel: "Wednesday, Feb 11, 2026",
+    whenWhere: "School Board appeals meeting · video 23m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQLLYJ58D7E1") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1164343203?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-11-student-behavior-and-accountability-committee-appeals-h.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-11-student-behavior-and-accountability-committee-appeals-h.txt", "pdfNote": "6 pages"},
+    shareContext: "LCPS School Board, Feb 11, 2026",
+    moments: [
+      { seconds: 0, label: "Motion to enter closed session." },
+      { seconds: 342, label: "Early agenda business." },
+      { seconds: 1351, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-11-legislative-audit-and-policy-committee-meeting",
+    meetingId: "2026-02-11-1164143341",
+    venue: "loudoun-lcps",
+    title: "Legislative, Audit and Policy Committee Meeting",
+    dateLabel: "Wednesday, Feb 11, 2026",
+    whenWhere: "School Board committee meeting · video 49m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQCTMU781802") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1164143341?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-11-legislative-audit-and-policy-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-11-legislative-audit-and-policy-committee-meeting.txt", "pdfNote": "13 pages"},
+    shareContext: "LCPS School Board, Feb 11, 2026",
+    moments: [
+      { seconds: 2, label: "Meeting called to order." },
+      { seconds: 751, label: "Early agenda business." },
+      { seconds: 2934, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-11-special-education-advisory-committee-meeting",
+    meetingId: "2026-02-11-1163854870",
+    venue: "loudoun-lcps",
+    title: "Special Education Advisory Committee (SEAC) Meeting",
+    dateLabel: "Wednesday, Feb 11, 2026",
+    whenWhere: "School Board committee meeting · video 2h 22m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQLLYJ58D7E1") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1163854870?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-11-special-education-advisory-committee-seac-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-11-special-education-advisory-committee-seac-meeting.txt", "pdfNote": "30 pages"},
+    shareContext: "LCPS School Board, Feb 11, 2026",
+    moments: [
+      { seconds: 2013, label: "Early agenda business." },
+      { seconds: 4035, label: "Mid-meeting discussion." },
+      { seconds: 6046, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-09-curriculum-instruction-committee-meeting",
+    meetingId: "2026-02-09-1162314860",
+    venue: "loudoun-lcps",
+    title: "Curriculum & Instruction Committee Meeting",
+    dateLabel: "Monday, Feb 9, 2026",
+    whenWhere: "School Board committee meeting · video 49m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQLLX558992A") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1162314860?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-09-curriculum-instruction-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-09-curriculum-instruction-committee-meeting.txt", "pdfNote": "14 pages"},
+    shareContext: "LCPS School Board, Feb 9, 2026",
+    moments: [
+      { seconds: 725, label: "Early agenda business." },
+      { seconds: 1453, label: "Mid-meeting discussion." },
+      { seconds: 2892, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-05-performance-monitoring-committee-meeting",
+    meetingId: "2026-02-05-1162288035",
+    venue: "loudoun-lcps",
+    title: "Performance Monitoring Committee Meeting",
+    dateLabel: "Thursday, Feb 5, 2026",
+    whenWhere: "School Board committee meeting · video 59m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQTP3F62A4CD") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1162288035?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-05-performance-monitoring-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-05-performance-monitoring-committee-meeting.txt", "pdfNote": "16 pages"},
+    shareContext: "LCPS School Board, Feb 5, 2026",
+    moments: [
+      { seconds: 882, label: "Early agenda business." },
+      { seconds: 1761, label: "Mid-meeting discussion." },
+      { seconds: 3548, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-04-select-committee-of-the-school-board-for-hearing",
+    meetingId: "2026-02-04-1166186382",
+    venue: "loudoun-lcps",
+    title: "Select Committee of the School Board for Hearing Appeals (Closed Meeting)",
+    dateLabel: "Wednesday, Feb 4, 2026",
+    whenWhere: "School Board appeals meeting · video 2m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQU3AJ05EED0") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1166186382?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-04-select-committee-of-the-school-board-for-hearing-appeal.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-04-select-committee-of-the-school-board-for-hearing-appeal.txt", "pdfNote": "2 pages"},
+    shareContext: "LCPS School Board, Feb 4, 2026",
+    moments: [
+      { seconds: 24, label: "Early agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-03-finance-operations-committee-meeting",
+    meetingId: "2026-02-03-1157037147",
+    venue: "loudoun-lcps",
+    title: "Finance & Operations Committee Meeting",
+    dateLabel: "Tuesday, Feb 3, 2026",
+    whenWhere: "School Board committee meeting · video 16m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQJPQ365AB43") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1157037147?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda items as published (BoardDocs)",
+        dek: "Listed as published; these are agenda items, not results.",
+        items: [
+          { num: "2.01", title: "Procedures for Public Comment" },
+          { num: "3.01", title: "Draft Minutes of the January 20, 2026 Finance & Operations Committee Meeting" },
+          { num: "3.02", title: "Approved Minutes" },
+          { num: "4.01", title: "Business and Financial Services: RFP #R24254 American Sign Language (ASL) Interpreter Services, Renewal" },
+          { num: "4.02", title: "Business and Financial Services: RFP #R24253 Benefits Consulting and Actuarial Services, Renewal" },
+          { num: "4.03", title: "Business and Financial Services: IFB #I23321 HVAC Filters for Ongoing Needs, Renewal" },
+          { num: "4.04", title: "Business and Financial Services: RFP # R23251 Building Commissioning Services, Renewal" },
+          { num: "4.05", title: "Business and Financial Services: IFB #I26506 Secondary Music Instruments and Furniture for Ongoing Needs" },
+          { num: "4.07", title: "Support Services: Easements for Route 15 Widening at Tuscarora HS, Smart’s Mill MS and Richard and Mildred Loving ES" },
+          { num: "5.01", title: "Business and Financial Services: Board of Supervisors Consideration of Shared Public Education Grant (PEG) Funding" },
+        ],
+      },
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-03-finance-operations-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-03-finance-operations-committee-meeting.txt", "pdfNote": "6 pages"},
+    shareContext: "LCPS School Board, Feb 3, 2026",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 132, item: "4.01", label: "Business and Financial Services: RFP #R24254 American Sign Language (ASL) Interpreter Services, Renewal." },
+      { seconds: 487, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "lcps-2026-02-03-specialized-programs-centers-committee-meeting",
+    meetingId: "2026-02-03-1154688042",
+    venue: "loudoun-lcps",
+    title: "Specialized Programs & Centers Committee Meeting",
+    dateLabel: "Tuesday, Feb 3, 2026",
+    whenWhere: "School Board committee meeting · video 44m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQLLWP58939D") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1154688042?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda items as published (BoardDocs)",
+        dek: "Listed as published; these are agenda items, not results.",
+        items: [
+          { num: "2.01", title: "Procedures for Public Comment" },
+          { num: "3.01", title: "Approval of Draft Minutes for the December 8, 2025 Meeting" },
+          { num: "3.02", title: "Approved Minutes" },
+          { num: "4.01", title: "Middleburg Community Charter School (MCCS) 2026-2027 Calendar" },
+          { num: "4.02", title: "Charter School Accreditation and Student Achievement Reports" },
+          { num: "4.03", title: "Special Programs Overview" },
+          { num: "4.04", title: "Junior Reserve Officers’ Training Corps (JROTC) and Dual Language Immersion (DLI) Expansion Update" },
+        ],
+      },
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-03-specialized-programs-centers-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-02-03-specialized-programs-centers-committee-meeting.txt", "pdfNote": "12 pages"},
+    shareContext: "LCPS School Board, Feb 3, 2026",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 250, item: "4.02", label: "Charter School Accreditation and Student Achievement Reports." },
+      { seconds: 589, item: "4.03", label: "Special Programs Overview." },
+      { seconds: 2622, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-01-29-fy27-school-board-budget-work-session-and-public",
+    meetingId: "2026-01-29-1159797929",
+    venue: "loudoun-lcps",
+    title: "FY27 School Board Budget Work Session and Public Hearing",
+    dateLabel: "Thursday, Jan 29, 2026",
+    whenWhere: "School Board committee meeting · video 48m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQ7PZF670AC8") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1159797929?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-29-fy27-school-board-budget-work-session-and-public-hearin.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-29-fy27-school-board-budget-work-session-and-public-hearin.txt", "pdfNote": "13 pages"},
+    shareContext: "LCPS School Board, Jan 29, 2026",
+    moments: [
+      { seconds: 35, label: "Meeting called to order." },
+      { seconds: 412, label: "Public comment / public hearing begins." },
+      { seconds: 2871, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-01-22-school-board-budget-work-session-and-public-hear",
+    meetingId: "2026-01-22-1157321723",
+    venue: "loudoun-lcps",
+    title: "School Board Budget Work Session and Public Hearing",
+    dateLabel: "Thursday, Jan 22, 2026",
+    whenWhere: "School Board committee meeting · video 2h 25m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQ7PW7669072") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1157321723?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-22-school-board-budget-work-session-and-public-hearing.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-22-school-board-budget-work-session-and-public-hearing.txt", "pdfNote": "35 pages"},
+    shareContext: "LCPS School Board, Jan 22, 2026",
+    moments: [
+      { seconds: 233, label: "Meeting called to order." },
+      { seconds: 612, label: "Public comment / public hearing begins." },
+      { seconds: 8690, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-01-21-minority-student-achievement-advisory-committee",
+    meetingId: "2026-01-21-1156646936",
+    venue: "loudoun-lcps",
+    title: "Minority Student Achievement Advisory Committee (MSAAC) Meeting",
+    dateLabel: "Wednesday, Jan 21, 2026",
+    whenWhere: "School Board committee meeting · video 1h 48m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1156646936?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-21-minority-student-achievement-advisory-committee-msaac-m.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-21-minority-student-achievement-advisory-committee-msaac-m.txt", "pdfNote": "23 pages"},
+    shareContext: "LCPS School Board, Jan 21, 2026",
+    moments: [
+      { seconds: 1619, label: "Early agenda business." },
+      { seconds: 3272, label: "Mid-meeting discussion." },
+      { seconds: 6486, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-01-20-finance-operations-committee-meeting",
+    meetingId: "2026-01-20-1156589981",
+    venue: "loudoun-lcps",
+    title: "Finance & Operations Committee Meeting",
+    dateLabel: "Tuesday, Jan 20, 2026",
+    whenWhere: "School Board committee meeting · video 36m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQ7Q3S6761E3") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1156589981?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-20-finance-operations-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-20-finance-operations-committee-meeting.txt", "pdfNote": "10 pages"},
+    shareContext: "LCPS School Board, Jan 20, 2026",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 536, label: "Early agenda business." },
+      { seconds: 1110, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "lcps-2026-01-20-fy27-operating-budget-school-board-work-session",
+    meetingId: "2026-01-20-1154877500",
+    venue: "loudoun-lcps",
+    title: "FY27 Operating Budget School Board Work Session to include a Closed Session",
+    dateLabel: "Tuesday, Jan 20, 2026",
+    whenWhere: "School Board closed meeting (public portion) · video 3h 28m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQ7PER644DC0") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1154877500?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-20-fy27-operating-budget-school-board-work-session-to-incl.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-20-fy27-operating-budget-school-board-work-session-to-incl.txt", "pdfNote": "33 pages"},
+    shareContext: "LCPS School Board, Jan 20, 2026",
+    moments: [
+      { seconds: 35, label: "Meeting called to order." },
+      { seconds: 7088, label: "Motion to enter closed session." },
+      { seconds: 12400, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-01-15-school-board-budget-work-session",
+    meetingId: "2026-01-15-1154804174",
+    venue: "loudoun-lcps",
+    title: "School Board Budget Work Session",
+    dateLabel: "Thursday, Jan 15, 2026",
+    whenWhere: "School Board committee meeting · video 4h 20m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DQ3KAZ510102") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1154804174?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-15-school-board-budget-work-session.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-15-school-board-budget-work-session.txt", "pdfNote": "39 pages"},
+    shareContext: "LCPS School Board, Jan 15, 2026",
+    moments: [
+      { seconds: 191, label: "Meeting called to order." },
+      { seconds: 9517, label: "Motion to enter closed session." },
+      { seconds: 15622, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-01-14-special-education-advisory-committee-meeting",
+    meetingId: "2026-01-14-1154483188",
+    venue: "loudoun-lcps",
+    title: "Special Education Advisory Committee (SEAC) Meeting",
+    dateLabel: "Wednesday, Jan 14, 2026",
+    whenWhere: "School Board committee meeting · video 1h 53m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1154483188?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-14-special-education-advisory-committee-seac-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-01-14-special-education-advisory-committee-seac-meeting.txt", "pdfNote": "19 pages"},
+    shareContext: "LCPS School Board, Jan 14, 2026",
+    moments: [
+      { seconds: 1716, label: "Early agenda business." },
+      { seconds: 3392, label: "Mid-meeting discussion." },
+      { seconds: 5044, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-18-student-services-committee-meeting",
+    meetingId: "2025-12-18-1147912834",
+    venue: "loudoun-lcps",
+    title: "Student Services Committee Meeting",
+    dateLabel: "Thursday, Dec 18, 2025",
+    whenWhere: "School Board committee meeting · video 1h 11m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DNLLBL55C6C6") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1147912834?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-18-student-services-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-18-student-services-committee-meeting.txt", "pdfNote": "14 pages"},
+    shareContext: "LCPS School Board, Dec 18, 2025",
+    moments: [
+      { seconds: 986, label: "Early agenda business." },
+      { seconds: 2002, label: "Mid-meeting discussion." },
+      { seconds: 2996, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-15-student-behavior-and-accountability-committee",
+    meetingId: "2025-12-15-1146807287",
+    venue: "loudoun-lcps",
+    title: "Student Behavior and Accountability Committee",
+    dateLabel: "Monday, Dec 15, 2025",
+    whenWhere: "School Board committee meeting · video 14m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1146807287?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-15-student-behavior-and-accountability-committee.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-15-student-behavior-and-accountability-committee.txt", "pdfNote": "4 pages"},
+    shareContext: "LCPS School Board, Dec 15, 2025",
+    moments: [
+      { seconds: 201, label: "Early agenda business." },
+      { seconds: 428, label: "Mid-meeting discussion." },
+      { seconds: 626, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-15-student-behavior-and-accountability-committee-cl",
+    meetingId: "2025-12-15-1146806952",
+    venue: "loudoun-lcps",
+    title: "Student Behavior and Accountability Committee (SBAC) Closed Appeals Meeting",
+    dateLabel: "Monday, Dec 15, 2025",
+    whenWhere: "School Board appeals meeting · video 6m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DNLL8M5517EF") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1146806952?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-15-student-behavior-and-accountability-committee-sbac-clos.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-15-student-behavior-and-accountability-committee-sbac-clos.txt", "pdfNote": "3 pages"},
+    shareContext: "LCPS School Board, Dec 15, 2025",
+    moments: [
+      { seconds: 20, label: "Motion to enter closed session." },
+      { seconds: 176, label: "Mid-meeting discussion." },
+      { seconds: 356, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-09-legislative-audit-and-policy-committee-meeting",
+    meetingId: "2025-12-09-1145123988",
+    venue: "loudoun-lcps",
+    title: "Legislative, Audit and Policy Committee (LA&P) Meeting",
+    dateLabel: "Tuesday, Dec 9, 2025",
+    whenWhere: "School Board committee meeting · video 1h 31m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DNLKBM51183B") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1145123988?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-09-legislative-audit-and-policy-committee-la-p-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-09-legislative-audit-and-policy-committee-la-p-meeting.txt", "pdfNote": "21 pages"},
+    shareContext: "LCPS School Board, Dec 9, 2025",
+    moments: [
+      { seconds: 1, label: "Meeting called to order." },
+      { seconds: 1363, label: "Early agenda business." },
+      { seconds: 2708, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-09-performance-monitoring-committee",
+    meetingId: "2025-12-09-1145044536",
+    venue: "loudoun-lcps",
+    title: "Performance Monitoring Committee",
+    dateLabel: "Tuesday, Dec 9, 2025",
+    whenWhere: "School Board committee meeting · video 55m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DNJGZ6462DDA") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1145044536?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-09-performance-monitoring-committee.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-09-performance-monitoring-committee.txt", "pdfNote": "16 pages"},
+    shareContext: "LCPS School Board, Dec 9, 2025",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 820, label: "Early agenda business." },
+      { seconds: 1652, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-09-finance-operations-committee-meeting",
+    meetingId: "2025-12-09-1145014014",
+    venue: "loudoun-lcps",
+    title: "Finance & Operations Committee Meeting",
+    dateLabel: "Tuesday, Dec 9, 2025",
+    whenWhere: "School Board committee meeting · video 29m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DNJQLV69E2FB") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1145014014?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-09-finance-operations-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-09-finance-operations-committee-meeting.txt", "pdfNote": "8 pages"},
+    shareContext: "LCPS School Board, Dec 9, 2025",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 432, label: "Early agenda business." },
+      { seconds: 858, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-08-specialized-programs-and-centers-committee-meeti",
+    meetingId: "2025-12-08-1144714717",
+    venue: "loudoun-lcps",
+    title: "Specialized Programs and Centers Committee Meeting",
+    dateLabel: "Monday, Dec 8, 2025",
+    whenWhere: "School Board committee meeting · video 33m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DNJGYR46173F") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1144714717?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda items as published (BoardDocs)",
+        dek: "Listed as published; these are agenda items, not results.",
+        items: [
+          { num: "2.01", title: "Procedures for Public Comment" },
+          { num: "3.01", title: "Approval of Draft Minutes for the November 3, 2025 Meeting" },
+          { num: "3.02", title: "Approved Minutes" },
+          { num: "4.01", title: "Middleburg Community Charter School (MCCS) Amendment to Charter Agreement" },
+          { num: "5.01", title: "Special Programs and Academies Interest Survey Data" },
+        ],
+      },
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-08-specialized-programs-and-centers-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-08-specialized-programs-and-centers-committee-meeting.txt", "pdfNote": "9 pages"},
+    shareContext: "LCPS School Board, Dec 8, 2025",
+    moments: [
+      { seconds: 74, item: "4.01", label: "Middleburg Community Charter School (MCCS) Amendment to Charter Agreement." },
+      { seconds: 145, item: "5.01", label: "Special Programs and Academies Interest Survey Data." },
+      { seconds: 1938, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-08-performance-monitoring-committee",
+    meetingId: "2025-12-08-1144643825",
+    venue: "loudoun-lcps",
+    title: "Performance Monitoring Committee",
+    dateLabel: "Monday, Dec 8, 2025",
+    whenWhere: "School Board committee meeting · video 29m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DNJHAG4650E1") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1144643825?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda items as published (BoardDocs)",
+        dek: "Listed as published; these are agenda items, not results.",
+        items: [
+          { num: "2.01", title: "Public Comment" },
+          { num: "3.01", title: "Division of Diversity, Equity, Inclusion and Accessibility: Continuation of Creating and Sustaining Positive School Culture" },
+          { num: "6.01", title: "Adopted Minutes 12.8.25" },
+        ],
+      },
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-08-performance-monitoring-committee.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-08-performance-monitoring-committee.txt", "pdfNote": "9 pages"},
+    shareContext: "LCPS School Board, Dec 8, 2025",
+    moments: [
+      { seconds: 453, label: "Early agenda business." },
+      { seconds: 892, label: "Mid-meeting discussion." },
+      { seconds: 1748, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-03-curriculum-instruction-committee-meeting",
+    meetingId: "2025-12-03-1143305026",
+    venue: "loudoun-lcps",
+    title: "Curriculum & Instruction Committee Meeting",
+    dateLabel: "Wednesday, Dec 3, 2025",
+    whenWhere: "School Board committee meeting · video 1h 31m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DNEHX74A93FB") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1143305026?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-03-curriculum-instruction-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-03-curriculum-instruction-committee-meeting.txt", "pdfNote": "25 pages"},
+    shareContext: "LCPS School Board, Dec 3, 2025",
+    moments: [
+      { seconds: 1344, label: "Early agenda business." },
+      { seconds: 2723, label: "Mid-meeting discussion." },
+      { seconds: 5447, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-03-special-education-advisory-committee-meeting",
+    meetingId: "2025-12-03-1142723171",
+    venue: "loudoun-lcps",
+    title: "Special Education Advisory Committee (SEAC) Meeting",
+    dateLabel: "Wednesday, Dec 3, 2025",
+    whenWhere: "School Board committee meeting · video 2h 34m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DNEHX74A93FB") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1142723171?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-03-special-education-advisory-committee-seac-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-03-special-education-advisory-committee-seac-meeting.txt", "pdfNote": "31 pages"},
+    shareContext: "LCPS School Board, Dec 3, 2025",
+    moments: [
+      { seconds: 2253, label: "Early agenda business." },
+      { seconds: 4489, label: "Mid-meeting discussion." },
+      { seconds: 6730, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2025-12-01-school-board-fy-2027-fy-2032-capital-budget-work",
+    meetingId: "2025-12-01-1142279514",
+    venue: "loudoun-lcps",
+    title: "School Board FY 2027 – FY 2032 Capital Budget Work Session",
+    dateLabel: "Monday, Dec 1, 2025",
+    whenWhere: "School Board committee meeting · video 24m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DNEJAL4C3E95") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1142279514?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-01-school-board-fy-2027-fy-2032-capital-budget-work-sessio.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-12-01-school-board-fy-2027-fy-2032-capital-budget-work-sessio.txt", "pdfNote": "7 pages"},
+    shareContext: "LCPS School Board, Dec 1, 2025",
+    moments: [
+      { seconds: 60, label: "Meeting called to order." },
+      { seconds: 362, label: "Early agenda business." },
+      { seconds: 1403, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2025-11-24-student-behavior-and-accountability-committee",
+    meetingId: "2025-11-24-1140257068",
+    venue: "loudoun-lcps",
+    title: "Student Behavior and Accountability Committee",
+    dateLabel: "Monday, Nov 24, 2025",
+    whenWhere: "School Board committee meeting · video 36m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DN3H2Q466A98") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1140257068?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-24-student-behavior-and-accountability-committee.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-24-student-behavior-and-accountability-committee.txt", "pdfNote": "8 pages"},
+    shareContext: "LCPS School Board, Nov 24, 2025",
+    moments: [
+      { seconds: 551, label: "Early agenda business." },
+      { seconds: 1069, label: "Mid-meeting discussion." },
+      { seconds: 1616, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2025-11-24-elementary-school-attendance-zone-public-hearing",
+    meetingId: "2025-11-24-1136326876",
+    venue: "loudoun-lcps",
+    title: "School Board Elementary School Attendance Zone Public Hearing & Work Session, Ashburn and Dulles North Planning Districts",
+    dateLabel: "Monday, Nov 24, 2025",
+    whenWhere: "School Board committee meeting · video 1h 50m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DMJHEW48330F") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1136326876?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-24-elementary-school-attendance-zone-public-hearing-work-s.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-24-elementary-school-attendance-zone-public-hearing-work-s.txt", "pdfNote": "27 pages"},
+    shareContext: "LCPS School Board, Nov 24, 2025",
+    moments: [
+      { seconds: 104, label: "Meeting called to order." },
+      { seconds: 1604, label: "Public comment / public hearing begins." },
+      { seconds: 3290, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "lcps-2025-11-19-minority-student-achievement-advisory-committee",
+    meetingId: "2025-11-19-1138706655",
+    venue: "loudoun-lcps",
+    title: "Minority Student Achievement Advisory Committee (MSAAC) Meeting",
+    dateLabel: "Wednesday, Nov 19, 2025",
+    whenWhere: "School Board committee meeting · video 1h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1138706655?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-19-minority-student-achievement-advisory-committee-msaac-m.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-19-minority-student-achievement-advisory-committee-msaac-m.txt", "pdfNote": "28 pages"},
+    shareContext: "LCPS School Board, Nov 19, 2025",
+    moments: [
+      { seconds: 7, label: "Meeting called to order." },
+      { seconds: 1752, label: "Early agenda business." },
+      { seconds: 3512, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "lcps-2025-11-18-performance-monitoring-committee-meeting",
+    meetingId: "2025-11-18-1138273470",
+    venue: "loudoun-lcps",
+    title: "Performance Monitoring Committee Meeting",
+    dateLabel: "Tuesday, Nov 18, 2025",
+    whenWhere: "School Board committee meeting · video 1h 21m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DN3GZC463688") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1138273470?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-18-performance-monitoring-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-18-performance-monitoring-committee-meeting.txt", "pdfNote": "22 pages"},
+    shareContext: "LCPS School Board, Nov 18, 2025",
+    moments: [
+      { seconds: 9, label: "Meeting called to order." },
+      { seconds: 1221, label: "Early agenda business." },
+      { seconds: 2431, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "lcps-2025-11-18-finance-operations-committee-meeting",
+    meetingId: "2025-11-18-1138236305",
+    venue: "loudoun-lcps",
+    title: "Finance & Operations Committee Meeting",
+    dateLabel: "Tuesday, Nov 18, 2025",
+    whenWhere: "School Board committee meeting · video 24m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DN3GZX464CED") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1138236305?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-18-finance-operations-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-18-finance-operations-committee-meeting.txt", "pdfNote": "7 pages"},
+    shareContext: "LCPS School Board, Nov 18, 2025",
+    moments: [
+      { seconds: 2, label: "Meeting called to order." },
+      { seconds: 341, label: "Early agenda business." },
+      { seconds: 1411, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2025-11-18-legislative-audit-and-policy-committee-meeting",
+    meetingId: "2025-11-18-1138232737",
+    venue: "loudoun-lcps",
+    title: "Legislative, Audit and Policy Committee Meeting",
+    dateLabel: "Tuesday, Nov 18, 2025",
+    whenWhere: "School Board committee meeting · video 1h 11m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DMUP4D62C814") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1138232737?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-18-legislative-audit-and-policy-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-18-legislative-audit-and-policy-committee-meeting.txt", "pdfNote": "17 pages"},
+    shareContext: "LCPS School Board, Nov 18, 2025",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 1062, label: "Early agenda business." },
+      { seconds: 4251, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2025-11-12-special-education-advisory-committee-meeting",
+    meetingId: "2025-11-12-1135963931",
+    venue: "loudoun-lcps",
+    title: "Special Education Advisory Committee (SEAC) Meeting",
+    dateLabel: "Wednesday, Nov 12, 2025",
+    whenWhere: "School Board committee meeting · video 2h 55m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1135963931?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-12-special-education-advisory-committee-seac-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-12-special-education-advisory-committee-seac-meeting.txt", "pdfNote": "27 pages"},
+    shareContext: "LCPS School Board, Nov 12, 2025",
+    moments: [
+      { seconds: 3307, label: "Early agenda business." },
+      { seconds: 5269, label: "Mid-meeting discussion." },
+      { seconds: 7888, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "lcps-2025-11-10-fy-2027-fy-2032-capital-budget-public-hearing-wo",
+    meetingId: "2025-11-10-1134060395",
+    venue: "loudoun-lcps",
+    title: "School Board FY 2027 - FY 2032 Capital Budget Public Hearing & Work Session",
+    dateLabel: "Monday, Nov 10, 2025",
+    whenWhere: "School Board committee meeting · video 1h 27m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DMVKWW53EBC5") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1134060395?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-10-fy-2027-fy-2032-capital-budget-public-hearing-work-sess.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-10-fy-2027-fy-2032-capital-budget-public-hearing-work-sess.txt", "pdfNote": "23 pages"},
+    shareContext: "LCPS School Board, Nov 10, 2025",
+    moments: [
+      { seconds: 47, label: "Meeting called to order." },
+      { seconds: 1292, label: "Early agenda business." },
+      { seconds: 5209, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2025-11-06-student-services-committee-meeting",
+    meetingId: "2025-11-06-1134485510",
+    venue: "loudoun-lcps",
+    title: "Student Services Committee Meeting",
+    dateLabel: "Thursday, Nov 6, 2025",
+    whenWhere: "School Board committee meeting · video 1h 38m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DMQH794713F4") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1134485510?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-06-student-services-committee-meeting.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-06-student-services-committee-meeting.txt", "pdfNote": "22 pages"},
+    shareContext: "LCPS School Board, Nov 6, 2025",
+    moments: [
+      { seconds: 111, label: "Public comment / public hearing begins." },
+      { seconds: 1453, label: "Early agenda business." },
+      { seconds: 2938, label: "Mid-meeting discussion." },
+    ],
+  },
+
 ];

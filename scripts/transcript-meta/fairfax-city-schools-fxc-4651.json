@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-schools/transcripts/fxc-4651.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2026-09-14-school-board-regular-meeting",
+  "title": "City of Fairfax School Board Regular Meeting, Monday, September 14, 2026",
+  "shortTitle": "School Board Regular Meeting \u00b7 Sep 14, 2026",
+  "date": "Monday, September 14, 2026",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "2h 35m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4651"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4651"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4651&doc_id=ef46757f-b75e-11f1-a7dc-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

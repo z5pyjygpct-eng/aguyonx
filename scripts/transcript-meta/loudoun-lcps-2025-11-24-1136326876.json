@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-11-24-1136326876.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-24-elementary-school-attendance-zone-public-hearing-work-s",
+  "title": "Loudoun County Public Schools, Elementary School Attendance Zone Public Hearing & Work Session, Ashburn and Dulles North Planning Districts, Monday, November 24, 2025",
+  "shortTitle": "Elementary School Attendance Zone Public Hearing & Work Session, Ashburn and Dulles North Planning Districts \u00b7 Nov 24, 2025",
+  "date": "Monday, November 24, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "1h 50m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1136326876?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

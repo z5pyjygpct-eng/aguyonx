@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-council/transcripts/fxc-4239.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-06-24-city-council-meeting",
+  "title": "City of Fairfax City Council Meeting, Tuesday, June 24, 2025",
+  "shortTitle": "City Council Meeting \u00b7 Jun 24, 2025",
+  "date": "Tuesday, June 24, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "4h 7m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4239"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4239"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4239&doc_id=de13f60f-51f1-11f0-b7f5-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

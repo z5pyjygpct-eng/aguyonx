@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-schools/transcripts/fxc-4335.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-10-06-regular-school-board-meeting",
+  "title": "City of Fairfax Regular School Board Meeting, Monday, October 6, 2025",
+  "shortTitle": "Regular School Board Meeting \u00b7 Oct 6, 2025",
+  "date": "Monday, October 6, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "8h 0m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4335"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4335"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4335&doc_id=f284a97b-c274-11f1-89ef-005056a84798"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

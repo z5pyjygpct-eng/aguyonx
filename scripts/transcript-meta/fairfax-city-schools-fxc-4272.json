@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-schools/transcripts/fxc-4272.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-07-01-regular-school-board-meeting",
+  "title": "City of Fairfax Regular School Board Meeting, Tuesday, July 1, 2025",
+  "shortTitle": "Regular School Board Meeting \u00b7 Jul 1, 2025",
+  "date": "Tuesday, July 1, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "0h 14m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4272"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4272"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4272&doc_id=1f0b86cf-94a9-11f0-8df7-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}

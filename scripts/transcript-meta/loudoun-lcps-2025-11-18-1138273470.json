@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-11-18-1138273470.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-18-performance-monitoring-committee-meeting",
+  "title": "Loudoun County Public Schools, Performance Monitoring Committee Meeting, Tuesday, November 18, 2025",
+  "shortTitle": "Performance Monitoring Committee Meeting \u00b7 Nov 18, 2025",
+  "date": "Tuesday, November 18, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "1h 21m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1138273470?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-12"
+}
