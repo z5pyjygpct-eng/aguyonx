@@ -220,3 +220,14 @@ transcript, labelled machine-transcribed. The pack for `va-senate-floor` builds 
 **Homepage button:** VA SENATE appears in the Find the Moment box (above the city buttons) only once
 `va-senate-floor` has at least one `FTM_TRANSCRIPTS` entry (`senateLive()`); mention it in the
 morning recap the day it first appears and check the homepage after deploy.
+
+## Standard: per-venue "By the numbers" panel (added 2026-10-12)
+
+Every venue page shows a right-hand "By the numbers" panel beside Find the Moment
+(meeting videos, searchable, full transcripts, recaps, hours), counting ONLY that venue.
+- City venues (Fairfax, Manassas, Albemarle, ...): automatic via `CityVenuePage` →
+  `VenueStats` with `cityMeetingsFor(venue)`. Adding a venue to `CITY_VENUES` + meetings is enough.
+- Any new non-city venue page (House delegates, etc.): render
+  `<VenueStats heading="By the numbers · {venue}" meetings={VENUE_MEETINGS} recapCount={VENUE_RECAPS.length} />`
+  in the same `lg:grid-cols-[minmax(0,1fr)_15rem]` grid. Never a locality-wide total.
+- Recap listings are date-first: `{dateLabel} · {title}` (same as Loudoun).

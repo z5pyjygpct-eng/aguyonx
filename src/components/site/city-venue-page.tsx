@@ -12,6 +12,7 @@ import {
   type CityVenueId,
 } from "@/content/cities";
 import { CITY_RECAPS } from "@/content/city-recaps";
+import { VenueStats } from "@/components/site/loudoun-stats";
 
 export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueId }) {
   const c = CITY_BY_ID[city];
@@ -70,8 +71,15 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
 
         <section className="mt-10">
           <h2 className="font-serif text-2xl font-medium">Find the Moment</h2>
-          <div className="mt-4">
-            <CityMeetingSearch venues={[venue]} />
+          <div className="mt-4 grid gap-8 lg:grid-cols-[minmax(0,1fr)_15rem] lg:items-start">
+            <div>
+              <CityMeetingSearch venues={[venue]} />
+            </div>
+            <VenueStats
+              heading={`By the numbers · ${v.name}`}
+              meetings={cityMeetingsFor(venue)}
+              recapCount={recaps.length}
+            />
           </div>
         </section>
 

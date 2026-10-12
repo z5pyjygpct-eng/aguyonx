@@ -51,6 +51,10 @@ export function siteStats() {
 
 export function LoudounStats({ heading = "By the numbers · Loudoun BOS + School Board", className, scope = "loudoun" }: { heading?: string; className?: string; scope?: "loudoun" | "site" } = {}) {
   const s = scope === "site" ? siteStats() : loudounStats();
+  return <StatsPanel heading={heading} s={s} className={className} />;
+}
+
+function StatsPanel({ heading, s, className }: { heading: string; s: ReturnType<typeof siteStats>; className?: string }) {
   const rows = [
     { n: s.videos, label: "Meeting videos" },
     { n: s.searchable, label: "Searchable meetings", sub: "captions or transcript" },
@@ -74,4 +78,25 @@ export function LoudounStats({ heading = "By the numbers · Loudoun BOS + School
       </dl>
     </aside>
   );
+}
+
+/**
+ * STANDARD (every venue page): per-venue "By the numbers" panel on the right of Find the Moment.
+ * Counts ONLY the meetings/recaps passed in (one venue), never a locality-wide total.
+ * CityVenuePage renders it automatically for every city venue (Fairfax, Manassas, Albemarle, ...).
+ */
+export function venueStats(meetings: { id: string; windowCount?: number; duration?: string }[], recapCount: number) {
+  const full = new Set(FTM_TRANSCRIPTS.map((t) => t.meetingId));
+  const done = meetings.filter((m) => full.has(m.id));
+  return {
+    videos: meetings.length,
+    searchable: meetings.filter((m) => (m.windowCount ?? 0) > 0 || full.has(m.id)).length,
+    transcripts: done.length,
+    recaps: recapCount,
+    hours: Math.round(done.reduce((a, m) => a + secs(m.duration), 0) / 3600),
+  };
+}
+
+export function VenueStats({ heading, meetings, recapCount, className }: { heading: string; meetings: { id: string; windowCount?: number; duration?: string }[]; recapCount: number; className?: string }) {
+  return <StatsPanel heading={heading} s={venueStats(meetings, recapCount)} className={className} />;
 }

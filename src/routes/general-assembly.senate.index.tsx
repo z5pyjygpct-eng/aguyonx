@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { SenateMeetingSearch } from "@/components/site/senate-meeting-search";
+import { VenueStats } from "@/components/site/loudoun-stats";
 import { FTM_TRANSCRIPTS } from "@/content/ftm-transcripts";
 import {
   LIS_SENATE_MINUTES,
@@ -52,8 +53,15 @@ function SenatePage() {
 
         <section className="mt-10">
           <h2 className="font-serif text-2xl font-medium">Find the Moment</h2>
-          <div className="mt-4">
-            <SenateMeetingSearch />
+          <div className="mt-4 grid gap-8 lg:grid-cols-[minmax(0,1fr)_15rem] lg:items-start">
+            <div>
+              <SenateMeetingSearch />
+            </div>
+            <VenueStats
+              heading="By the numbers · Virginia Senate"
+              meetings={SENATE_MEETINGS}
+              recapCount={SENATE_RECAPS.length}
+            />
           </div>
         </section>
 
