@@ -963,6 +963,20 @@ export const LOUDOUN_TOPIC_CHIPS: TopicChip[] = [
   { label: "Budget", query: "budget" },
 ];
 
+/** Coarse meeting type for filters, derived from the title. */
+export function loudounMeetingType(title: string): string {
+  const t = title.replace(/^Loudoun BOS /, "").replace(/\s*\(.*\)$/, "");
+  if (/Budget Work Session/.test(t)) return "Budget Work Session";
+  if (/Budget Public Hearing/.test(t)) return "Budget Public Hearing";
+  if (/Budget Public Input/.test(t)) return "Budget Public Input";
+  if (/Business Meeting and Public Hearing/.test(t)) return "Business Meeting & Public Hearing";
+  if (/^Special/.test(t)) return "Special Meeting";
+  if (/Business/.test(t)) return "Business Meeting";
+  if (/Public Hearing/.test(t)) return "Public Hearing";
+  if (/Committee/.test(t)) return "Committee";
+  return "Other";
+}
+
 export const LOUDOUN_OFFICIAL_DOORS = [
   ...LOUDOUN_MEETINGS.map((m) => ({
     label: `${m.dateLabel} · ${m.title.replace(/^Loudoun BOS /, "")}`,
@@ -971,6 +985,8 @@ export const LOUDOUN_OFFICIAL_DOORS = [
       loudounProvider(m) === "escribe"
         ? `eScribe / ISI · ${m.duration}`
         : `Granicus clip ${m.clipId} · ${m.duration}`,
+    date: m.dateLabel,
+    type: loudounMeetingType(m.title),
     thumb: m.id === "escribe-3a6eea40" ? "/thumbs/loudoun-bos-escribe-3a6eea40.webp" : undefined,
   })),
   {
