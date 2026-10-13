@@ -72,7 +72,8 @@ export function ftmLocalities(): FtmLocality[] {
       title: "Virginia General Assembly",
       region: "Statewide",
       href: "/general-assembly",
-      live: senateLive() || houseLive(),
+      // Page is live (roll-call recaps) even before transcripts post.
+      live: true,
       venues: [
         { name: "House of Delegates", href: "/general-assembly/house", live: houseLive(), note: `${houseTranscriptCount()} of ${HOUSE_MEETINGS.length} floor sessions searchable.` },
         { name: "Senate of Virginia", href: "/general-assembly/senate", live: senateLive(), note: `${senateTranscriptCount()} of ${SENATE_MEETINGS.length} floor sessions searchable.` },
@@ -84,7 +85,8 @@ export function ftmLocalities(): FtmLocality[] {
       title: "Virginia Board of Education",
       region: "Statewide",
       href: "/board-of-education",
-      live: vboeLive(),
+      // Page is live (meeting catalog) even before transcripts post.
+      live: true,
       venues: [
         { name: "Virginia Board of Education", href: "/board-of-education", live: vboeLive(), note: `${vboeTranscriptCount()} of ${VBOE_MEETINGS.length} meetings searchable.` },
       ],
