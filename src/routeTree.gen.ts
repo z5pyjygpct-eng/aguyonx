@@ -32,6 +32,7 @@ import { Route as CitiesIndexRouteImport } from './routes/cities.index'
 import { Route as CitiesCityRouteImport } from './routes/cities.$city'
 import { Route as CountiesIndexRouteImport } from './routes/counties.index'
 import { Route as CountiesLoudounRouteImport } from './routes/counties.loudoun'
+import { Route as FindTheMomentLocalityRouteImport } from './routes/find-the-moment_.$locality'
 import { Route as GeneralAssemblyIndexRouteImport } from './routes/general-assembly.index'
 import { Route as GeneralAssemblyHouseRouteImport } from './routes/general-assembly.house'
 import { Route as GeneralAssemblySenateRouteImport } from './routes/general-assembly.senate'
@@ -167,6 +168,11 @@ const CountiesLoudounRoute = CountiesLoudounRouteImport.update({
   path: '/loudoun',
   getParentRoute: () => CountiesRoute,
 } as any)
+const FindTheMomentLocalityRoute = FindTheMomentLocalityRouteImport.update({
+  id: '/find-the-moment_/$locality',
+  path: '/find-the-moment/$locality',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const GeneralAssemblyIndexRoute = GeneralAssemblyIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -290,6 +296,7 @@ export interface FileRoutesByFullPath {
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
+  '/find-the-moment/$locality': typeof FindTheMomentLocalityRoute
   '/general-assembly/house': typeof GeneralAssemblyHouseRouteWithChildren
   '/general-assembly/senate': typeof GeneralAssemblySenateRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
@@ -326,6 +333,7 @@ export interface FileRoutesByTo {
   '/senators': typeof SenatorsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
+  '/find-the-moment/$locality': typeof FindTheMomentLocalityRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/articles': typeof ArticlesIndexRoute
@@ -369,6 +377,7 @@ export interface FileRoutesById {
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
+  '/find-the-moment_/$locality': typeof FindTheMomentLocalityRoute
   '/general-assembly/house': typeof GeneralAssemblyHouseRouteWithChildren
   '/general-assembly/senate': typeof GeneralAssemblySenateRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
@@ -415,6 +424,7 @@ export interface FileRouteTypes {
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
+    | '/find-the-moment/$locality'
     | '/general-assembly/house'
     | '/general-assembly/senate'
     | '/investigations/$slug'
@@ -451,6 +461,7 @@ export interface FileRouteTypes {
     | '/senators'
     | '/videos'
     | '/articles/$slug'
+    | '/find-the-moment/$locality'
     | '/investigations/$slug'
     | '/library/foia'
     | '/articles'
@@ -493,6 +504,7 @@ export interface FileRouteTypes {
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
+    | '/find-the-moment_/$locality'
     | '/general-assembly/house'
     | '/general-assembly/senate'
     | '/investigations/$slug'
@@ -535,6 +547,7 @@ export interface RootRouteChildren {
   NovaBriefingRoute: typeof NovaBriefingRoute
   SenatorsRoute: typeof SenatorsRoute
   VideosRoute: typeof VideosRoute
+  FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -699,6 +712,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/counties/loudoun'
       preLoaderRoute: typeof CountiesLoudounRouteImport
       parentRoute: typeof CountiesRoute
+    }
+    '/find-the-moment_/$locality': {
+      id: '/find-the-moment_/$locality'
+      path: '/find-the-moment/$locality'
+      fullPath: '/find-the-moment/$locality'
+      preLoaderRoute: typeof FindTheMomentLocalityRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/general-assembly/': {
       id: '/general-assembly/'
@@ -1002,6 +1022,7 @@ const rootRouteChildren: RootRouteChildren = {
   NovaBriefingRoute: NovaBriefingRoute,
   SenatorsRoute: SenatorsRoute,
   VideosRoute: VideosRoute,
+  FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
