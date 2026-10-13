@@ -713,7 +713,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "Board Room, Government Center, Leesburg · video 34m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 12, 2026, 8:49 PM ET",
+      checkedLabel: "Oct 13, 2026, 8:40 AM ET",
       note: "Official vote record not yet posted on Granicus for this clip (Action Report section present but no Action Report document linked). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "Agenda (Granicus)", href: granicusAgenda(8179) },
@@ -754,7 +754,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "Board Room, Government Center, Leesburg · video 1h 48m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 12, 2026, 8:49 PM ET",
+      checkedLabel: "Oct 13, 2026, 8:40 AM ET",
       note: "Official vote record not yet posted on Granicus for this clip (Action Report section present but no Action Report document linked). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "Agenda (Granicus)", href: granicusAgenda(8178) },
@@ -972,7 +972,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "School Board meeting · video 7h 5m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 12, 2026, 8:49 PM ET",
+      checkedLabel: "Oct 13, 2026, 8:40 AM ET",
       note: "Official vote record not yet posted. BoardDocs meeting page has agenda only (BD-GetMinutes returns empty / no View Minutes content). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "BoardDocs meeting", href: boarddocsMeeting("DXGKG851ACED") },
@@ -1131,7 +1131,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "School Board retreat · video 5h 53m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 12, 2026, 8:49 PM ET",
+      checkedLabel: "Oct 13, 2026, 8:40 AM ET",
       note: "Official vote record not yet posted. BoardDocs retreat meeting page has agenda only (BD-GetMinutes returns empty / no View Minutes content). Do not infer votes from the video or machine transcript.",
       links: [
         { label: "BoardDocs meeting", href: boarddocsMeeting("DTRGE7436104") },
