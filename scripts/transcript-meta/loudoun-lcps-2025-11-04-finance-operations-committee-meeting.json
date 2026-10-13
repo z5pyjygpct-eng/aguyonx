@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-11-04-1133626473.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-11-04-finance-operations-committee-meeting",
+  "title": "Loudoun County Public Schools, Finance & Operations Committee Meeting, Tuesday, November 4, 2025",
+  "shortTitle": "Finance & Operations Committee Meeting \u00b7 Nov 4, 2025",
+  "date": "Tuesday, November 4, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "48m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1133626473?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

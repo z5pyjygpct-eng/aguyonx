@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-schools/transcripts/alb-sb-Pc8eRIO8lz4.json",
+  "outBase": "public/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-08-04-albemarle-county-school-board-special-meeting",
+  "title": "Albemarle County School Board Special Meeting, Tuesday, August 4, 2026",
+  "shortTitle": "School Board Special Meeting \u00b7 Aug 4, 2026",
+  "date": "Tuesday, August 4, 2026",
+  "place": "Albemarle County Public Schools / School Board meeting, Virginia",
+  "length": "20m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=Pc8eRIO8lz4"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

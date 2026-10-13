@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-council/transcripts/fxc-4191.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-05-06-city-of-fairfax-city-council-special-meeting",
+  "title": "City of Fairfax City Council Special Meeting, Tuesday, May 6, 2025",
+  "shortTitle": "City Council Special Meeting \u00b7 May 6, 2025",
+  "date": "Tuesday, May 6, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "4h 10m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4191"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4191"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4191&doc_id=7ba66ed7-2b67-11f0-856f-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

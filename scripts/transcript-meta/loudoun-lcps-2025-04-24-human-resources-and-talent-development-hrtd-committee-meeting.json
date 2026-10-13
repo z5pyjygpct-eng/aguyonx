@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-04-24-1078461056.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-04-24-human-resources-and-talent-development-hrtd-committee-meeting",
+  "title": "Loudoun County Public Schools, Human Resources and Talent Development (HRTD) Committee Meeting, Thursday, April 24, 2025",
+  "shortTitle": "Human Resources and Talent Development (HRTD) Committee Meeting \u00b7 Apr 24, 2025",
+  "date": "Thursday, April 24, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "19m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1078461056?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

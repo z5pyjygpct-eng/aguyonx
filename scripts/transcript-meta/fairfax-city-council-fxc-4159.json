@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-council/transcripts/fxc-4159.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-04-08-city-of-fairfax-city-council-meeting",
+  "title": "City of Fairfax City Council Meeting, Tuesday, April 8, 2025",
+  "shortTitle": "City Council Meeting \u00b7 Apr 8, 2025",
+  "date": "Tuesday, April 8, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "5h 31m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4159"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4159"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

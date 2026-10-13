@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-council/transcripts/fxc-4167.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-04-22-city-of-fairfax-city-council-work-session-and-regular-meeting",
+  "title": "City of Fairfax City Council Work Session and Regular Meeting, Tuesday, April 22, 2025",
+  "shortTitle": "City Council Work Session and Regular Meeting \u00b7 Apr 22, 2025",
+  "date": "Tuesday, April 22, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "7h 51m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4167"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4167"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4167&doc_id=672c30f5-206c-11f0-955d-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-council/transcripts/fxc-4104.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-02-18-city-of-fairfax-city-council-special-meeting-work-session",
+  "title": "City of Fairfax City Council Special Meeting/Work Session, Tuesday, February 18, 2025",
+  "shortTitle": "City Council Special Meeting/Work Session \u00b7 Feb 18, 2025",
+  "date": "Tuesday, February 18, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "2h 40m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4104"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4104"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4104&doc_id=326e3315-eee2-11ef-a9e2-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

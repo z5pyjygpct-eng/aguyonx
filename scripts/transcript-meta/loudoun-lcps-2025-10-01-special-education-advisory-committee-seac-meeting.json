@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-10-01-1123424547.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-10-01-special-education-advisory-committee-seac-meeting",
+  "title": "Loudoun County Public Schools, Special Education Advisory Committee (SEAC) Meeting, Wednesday, October 1, 2025",
+  "shortTitle": "Special Education Advisory Committee (SEAC) Meeting \u00b7 Oct 1, 2025",
+  "date": "Wednesday, October 1, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "3h 01m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1123424547?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

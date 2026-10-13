@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-schools/transcripts/fxc-4049.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-01-13-city-of-fairfax-school-board-regular-meeting",
+  "title": "City of Fairfax School Board Regular Meeting, Monday, January 13, 2025",
+  "shortTitle": "School Board Regular Meeting \u00b7 Jan 13, 2025",
+  "date": "Monday, January 13, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "1h 06m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4049"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4049"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

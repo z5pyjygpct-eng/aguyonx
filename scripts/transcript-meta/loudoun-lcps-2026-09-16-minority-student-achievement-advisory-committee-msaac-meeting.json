@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-09-16-1232373300.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-09-16-minority-student-achievement-advisory-committee-msaac-meeting",
+  "title": "Loudoun County Public Schools, Minority Student Achievement Advisory Committee (MSAAC) Meeting, Wednesday, September 16, 2026",
+  "shortTitle": "Minority Student Achievement Advisory Committee (MSAAC) Meeting \u00b7 Sep 16, 2026",
+  "date": "Wednesday, September 16, 2026",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "2h 02m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1232373300?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-08-28-1114952920.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-08-28-special-committee-of-the-board-on-retiree-health-benefits",
+  "title": "Loudoun County Public Schools, Special Committee of the Board on Retiree Health Benefits, Thursday, August 28, 2025",
+  "shortTitle": "Special Committee of the Board on Retiree Health Benefits \u00b7 Aug 28, 2025",
+  "date": "Thursday, August 28, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "1h 25m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1114952920?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

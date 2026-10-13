@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-09-22-1229749971.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-09-22-select-committee-for-hearing-appeals-policy-8155-appeals-hearing",
+  "title": "Loudoun County Public Schools, Select Committee for Hearing Appeals Policy 8155 Appeals Hearing, Tuesday, September 22, 2026",
+  "shortTitle": "Select Committee for Hearing Appeals Policy 8155 Appeals Hearing \u00b7 Sep 22, 2026",
+  "date": "Tuesday, September 22, 2026",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "3m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1229749971?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

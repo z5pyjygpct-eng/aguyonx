@@ -57,6 +57,1466 @@ export type CityRecap = Omit<LoudounRecap, "venue"> & { venue: CityVenueId; noVo
 
 const CITY_RECAPS_RAW: CityRecap[] = [
   {
+    slug: "alb-sb-eUCz37BbiPM",
+    meetingId: "alb-sb-eUCz37BbiPM",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Oct 8, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 2h 29m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=eUCz37BbiPM" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-10-08-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-10-08-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "35 pages"},
+    shareContext: "Albemarle School Board, Oct 8, 2026",
+    moments: [
+      { seconds: 163, label: "Pledge of Allegiance." },
+      { seconds: 2239, label: "Early agenda business." },
+      { seconds: 2599, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-sb-KadH_ymxUfI",
+    meetingId: "alb-sb-KadH_ymxUfI",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Sep 24, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 3h 19m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=KadH_ymxUfI" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-09-24-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-09-24-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "44 pages"},
+    shareContext: "Albemarle School Board, Sep 24, 2026",
+    moments: [
+      { seconds: 2981, label: "Early agenda business." },
+      { seconds: 5981, label: "Mid-meeting discussion." },
+      { seconds: 8962, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "alb-sb-C6devCGiwks",
+    meetingId: "alb-sb-C6devCGiwks",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Public Hearing",
+    dateLabel: "Thursday, Sep 17, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 0h 36m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=C6devCGiwks" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-09-17-albemarle-county-school-board-public-hearing.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-09-17-albemarle-county-school-board-public-hearing.txt", "pdfNote": "10 pages"},
+    shareContext: "Albemarle School Board, Sep 17, 2026",
+    moments: [
+      { seconds: 135, label: "Pledge of Allegiance." },
+      { seconds: 1859, label: "Motion to enter closed session." },
+      { seconds: 2124, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-HkeSw1zTirg",
+    meetingId: "alb-sb-HkeSw1zTirg",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Sep 10, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 2h 44m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=HkeSw1zTirg" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-09-10-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-09-10-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "41 pages"},
+    shareContext: "Albemarle School Board, Sep 10, 2026",
+    moments: [
+      { seconds: 136, label: "Pledge of Allegiance." },
+      { seconds: 7862, label: "Public comment / public hearing begins." },
+      { seconds: 9696, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "alb-sb-tMlQo6KIsJ4",
+    meetingId: "alb-sb-tMlQo6KIsJ4",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Aug 13, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 3h 22m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=tMlQo6KIsJ4" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-08-13-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-08-13-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "50 pages"},
+    shareContext: "Albemarle School Board, Aug 13, 2026",
+    moments: [
+      { seconds: 118, label: "Pledge of Allegiance." },
+      { seconds: 3014, label: "Early agenda business." },
+      { seconds: 5231, label: "Consent agenda motion." },
+    ],
+  },
+  {
+    slug: "alb-sb-Pc8eRIO8lz4",
+    meetingId: "alb-sb-Pc8eRIO8lz4",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Special Meeting",
+    dateLabel: "Tuesday, Aug 4, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 0h 20m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=Pc8eRIO8lz4" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-08-04-albemarle-county-school-board-special-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-08-04-albemarle-county-school-board-special-meeting.txt", "pdfNote": "5 pages"},
+    shareContext: "Albemarle School Board, Aug 4, 2026",
+    moments: [
+      { seconds: 335, label: "Motion to enter closed session." },
+      { seconds: 596, label: "Mid-meeting discussion." },
+      { seconds: 902, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "alb-sb-xBb7an66HkM",
+    meetingId: "alb-sb-xBb7an66HkM",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Public Hearing",
+    dateLabel: "Thursday, Jan 23, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 1h 32m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=xBb7an66HkM" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-01-23-albemarle-county-school-board-public-hearing.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-01-23-albemarle-county-school-board-public-hearing.txt", "pdfNote": "11 pages"},
+    shareContext: "Albemarle School Board, Jan 23, 2025",
+    moments: [
+      { seconds: 46, label: "Pledge of Allegiance." },
+      { seconds: 747, label: "Public comment / public hearing begins." },
+      { seconds: 1961, label: "Motion to enter closed session." },
+      { seconds: 5533, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-NBWC_V1t5KA",
+    meetingId: "alb-sb-NBWC_V1t5KA",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Interviews of Rio Magisterial District Candidates",
+    dateLabel: "Thursday, Jan 16, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 1h 55m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=NBWC_V1t5KA" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-01-16-albemarle-county-school-board-interviews-of-rio-magisterial-district-candidates.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-01-16-albemarle-county-school-board-interviews-of-rio-magisterial-district-candidates.txt", "pdfNote": "26 pages"},
+    shareContext: "Albemarle School Board, Jan 16, 2025",
+    moments: [
+      { seconds: 54, label: "Pledge of Allegiance." },
+      { seconds: 1733, label: "Early agenda business." },
+      { seconds: 6822, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "alb-sb-QoaQGZoBvMQ",
+    meetingId: "alb-sb-QoaQGZoBvMQ",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Organizational Meeting",
+    dateLabel: "Thursday, Jan 9, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 2h 39m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=QoaQGZoBvMQ" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-01-09-albemarle-county-school-board-organizational-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-01-09-albemarle-county-school-board-organizational-meeting.txt", "pdfNote": "35 pages"},
+    shareContext: "Albemarle School Board, Jan 9, 2025",
+    moments: [
+      { seconds: 2487, label: "Public comment / public hearing begins." },
+      { seconds: 2896, label: "Consent agenda motion." },
+      { seconds: 4770, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "alb-sb-EaLCRyjZ2X8",
+    meetingId: "alb-sb-EaLCRyjZ2X8",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Dec 12, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 2h 39m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=EaLCRyjZ2X8" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-12-12-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-12-12-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "35 pages"},
+    shareContext: "Albemarle School Board, Dec 12, 2024",
+    moments: [
+      { seconds: 3, label: "Meeting called to order." },
+      { seconds: 100, label: "Pledge of Allegiance." },
+      { seconds: 1576, label: "Public comment / public hearing begins." },
+      { seconds: 2474, label: "Consent agenda motion." },
+    ],
+  },
+  {
+    slug: "alb-sb-t1sXzn0mXpI",
+    meetingId: "alb-sb-t1sXzn0mXpI",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Nov 14, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 1h 52m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=t1sXzn0mXpI" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-11-14-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-11-14-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "29 pages"},
+    shareContext: "Albemarle School Board, Nov 14, 2024",
+    moments: [
+      { seconds: 2, label: "Meeting called to order." },
+      { seconds: 94, label: "Pledge of Allegiance." },
+      { seconds: 2063, label: "Public comment / public hearing begins." },
+      { seconds: 6738, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-hD8_eD1-QWs",
+    meetingId: "alb-sb-hD8_eD1-QWs",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Oct 24, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 3h 9m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=hD8_eD1-QWs" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-10-24-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-10-24-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "43 pages"},
+    shareContext: "Albemarle School Board, Oct 24, 2024",
+    moments: [
+      { seconds: 2, label: "Meeting called to order." },
+      { seconds: 118, label: "Consent agenda motion." },
+      { seconds: 838, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-sb-WFfcZTbF7x8",
+    meetingId: "alb-sb-WFfcZTbF7x8",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Oct 10, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 3h 3m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=WFfcZTbF7x8" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-10-10-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-10-10-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "40 pages"},
+    shareContext: "Albemarle School Board, Oct 10, 2024",
+    moments: [
+      { seconds: 96, label: "Pledge of Allegiance." },
+      { seconds: 234, label: "Consent agenda motion." },
+      { seconds: 1124, label: "Public comment / public hearing begins." },
+      { seconds: 10990, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-m7j0IakekfM",
+    meetingId: "alb-sb-m7j0IakekfM",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Sep 26, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 2h 50m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=m7j0IakekfM" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-09-26-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-09-26-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "39 pages"},
+    shareContext: "Albemarle School Board, Sep 26, 2024",
+    moments: [
+      { seconds: 2, label: "Meeting called to order." },
+      { seconds: 223, label: "Consent agenda motion." },
+      { seconds: 2742, label: "Early agenda business." },
+    ],
+  },
+  {
+    slug: "alb-sb-H6OeEHaLYy8",
+    meetingId: "alb-sb-H6OeEHaLYy8",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Sep 12, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 2h 30m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=H6OeEHaLYy8" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-09-12-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-09-12-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "35 pages"},
+    shareContext: "Albemarle School Board, Sep 12, 2024",
+    moments: [
+      { seconds: 104, label: "Pledge of Allegiance." },
+      { seconds: 200, label: "Consent agenda motion." },
+      { seconds: 9024, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-Op-kV1ZbLag",
+    meetingId: "alb-sb-Op-kV1ZbLag",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Jul 11, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 2h 49m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=Op-kV1ZbLag" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-07-11-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-07-11-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "39 pages"},
+    shareContext: "Albemarle School Board, Jul 11, 2024",
+    moments: [
+      { seconds: 161, label: "Pledge of Allegiance." },
+      { seconds: 261, label: "Consent agenda motion." },
+      { seconds: 2539, label: "Early agenda business." },
+    ],
+  },
+  {
+    slug: "alb-sb-AeCPZ0ynvTk",
+    meetingId: "alb-sb-AeCPZ0ynvTk",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Jun 13, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 3h 6m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=AeCPZ0ynvTk" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-06-13-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-06-13-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "42 pages"},
+    shareContext: "Albemarle School Board, Jun 13, 2024",
+    moments: [
+      { seconds: 147, label: "Pledge of Allegiance." },
+      { seconds: 217, label: "Consent agenda motion." },
+      { seconds: 1406, label: "Public comment / public hearing begins." },
+      { seconds: 11169, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-xtHhDg6Upo4",
+    meetingId: "alb-sb-xtHhDg6Upo4",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, May 23, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 2h 35m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=xtHhDg6Upo4" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-05-23-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-05-23-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "32 pages"},
+    shareContext: "Albemarle School Board, May 23, 2024",
+    moments: [
+      { seconds: 109, label: "Pledge of Allegiance." },
+      { seconds: 1773, label: "Public comment / public hearing begins." },
+      { seconds: 9289, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-1MFPsGv4fDc",
+    meetingId: "alb-sb-1MFPsGv4fDc",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, May 9, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 3h 28m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=1MFPsGv4fDc" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-05-09-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-05-09-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "46 pages"},
+    shareContext: "Albemarle School Board, May 9, 2024",
+    moments: [
+      { seconds: 103, label: "Pledge of Allegiance." },
+      { seconds: 3091, label: "Early agenda business." },
+      { seconds: 3788, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-sb-BLsdZalizyY",
+    meetingId: "alb-sb-BLsdZalizyY",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Apr 25, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 0h 29m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=BLsdZalizyY" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-04-25-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-04-25-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "7 pages"},
+    shareContext: "Albemarle School Board, Apr 25, 2024",
+    moments: [
+      { seconds: 155, label: "Pledge of Allegiance." },
+      { seconds: 224, label: "Consent agenda motion." },
+      { seconds: 797, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-sb-24u6CxmlDqA",
+    meetingId: "alb-sb-24u6CxmlDqA",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Apr 11, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 2h 32m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=24u6CxmlDqA" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-04-11-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-04-11-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "34 pages"},
+    shareContext: "Albemarle School Board, Apr 11, 2024",
+    moments: [
+      { seconds: 229, label: "Pledge of Allegiance." },
+      { seconds: 977, label: "Public comment / public hearing begins." },
+      { seconds: 2278, label: "Early agenda business." },
+    ],
+  },
+  {
+    slug: "alb-sb-oQqt0QjOfrM",
+    meetingId: "alb-sb-oQqt0QjOfrM",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Mar 28, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 3h 0m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=oQqt0QjOfrM" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-03-28-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-03-28-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "39 pages"},
+    shareContext: "Albemarle School Board, Mar 28, 2024",
+    moments: [
+      { seconds: 67, label: "Pledge of Allegiance." },
+      { seconds: 2709, label: "Early agenda business." },
+      { seconds: 5428, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "alb-sb-hv8e5EO785M",
+    meetingId: "alb-sb-hv8e5EO785M",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, Mar 14, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 2h 15m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes for this meeting. Votes will be added only from the adopted BoardDocs minutes.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=hv8e5EO785M" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-03-14-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-03-14-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "30 pages"},
+    shareContext: "Albemarle School Board, Mar 14, 2024",
+    moments: [
+      { seconds: 3, label: "Meeting called to order." },
+      { seconds: 119, label: "Pledge of Allegiance." },
+      { seconds: 2307, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "fxc-2025-06-03-city-council-work-session",
+    meetingId: "fxc-4219",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Work Session",
+    dateLabel: "Tuesday, Jun 3, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 4h 7m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4219" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4219&doc_id=92033d12-4170-11f0-b7f5-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4219" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-06-03-city-of-fairfax-city-council-work-session.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-06-03-city-of-fairfax-city-council-work-session.txt", "pdfNote": "60 pages"},
+    shareContext: "Fairfax City City Council, Jun 3, 2025",
+    moments: [
+      { seconds: 3703, label: "Early agenda business." },
+      { seconds: 7406, label: "Mid-meeting discussion." },
+      { seconds: 14829, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "fxc-2025-06-03-school-board-regular-meeting",
+    meetingId: "fxc-4218",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Regular Meeting",
+    dateLabel: "Tuesday, Jun 3, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 1h 9m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4218" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4218&doc_id=7ca351e8-421a-11f0-b7f5-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4218" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-06-03-city-of-fairfax-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-06-03-city-of-fairfax-school-board-regular-meeting.txt", "pdfNote": "18 pages"},
+    shareContext: "Fairfax City School Board, Jun 3, 2025",
+    moments: [
+      { seconds: 0, label: "Pledge of Allegiance." },
+      { seconds: 1041, label: "Early agenda business." },
+      { seconds: 2075, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "fxc-2025-05-27-city-council-meeting",
+    meetingId: "fxc-4210",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Meeting",
+    dateLabel: "Tuesday, May 27, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 5h 21m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4210" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4210&doc_id=e46ea53d-3beb-11f0-856f-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4210" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-05-27-city-of-fairfax-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-05-27-city-of-fairfax-city-council-meeting.txt", "pdfNote": "73 pages"},
+    shareContext: "Fairfax City City Council, May 27, 2025",
+    moments: [
+      { seconds: 104, label: "Pledge of Allegiance." },
+      { seconds: 2881, label: "Consent agenda motion." },
+      { seconds: 17504, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "fxc-2025-05-19-school-board-work-session",
+    meetingId: "fxc-4207",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Work Session",
+    dateLabel: "Monday, May 19, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 2h 49m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4207" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4207&doc_id=f22fc020-35b7-11f0-856f-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4207" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-05-19-city-of-fairfax-school-board-work-session.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-05-19-city-of-fairfax-school-board-work-session.txt", "pdfNote": "37 pages"},
+    shareContext: "Fairfax City School Board, May 19, 2025",
+    moments: [
+      { seconds: 2529, label: "Early agenda business." },
+      { seconds: 5041, label: "Mid-meeting discussion." },
+      { seconds: 7582, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "fxc-2025-05-13-city-council-meeting",
+    meetingId: "fxc-4199",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Meeting",
+    dateLabel: "Tuesday, May 13, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 5h 49m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4199" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4199&doc_id=5be93024-5058-11f0-b7f5-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4199" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-05-13-city-of-fairfax-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-05-13-city-of-fairfax-city-council-meeting.txt", "pdfNote": "82 pages"},
+    shareContext: "Fairfax City City Council, May 13, 2025",
+    moments: [
+      { seconds: 35, label: "Pledge of Allegiance." },
+      { seconds: 4720, label: "Consent agenda motion." },
+      { seconds: 5611, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "fxc-2025-05-06-city-council-special-meeting",
+    meetingId: "fxc-4191",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Special Meeting",
+    dateLabel: "Tuesday, May 6, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 4h 10m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4191" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4191&doc_id=7ba66ed7-2b67-11f0-856f-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4191" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-05-06-city-of-fairfax-city-council-special-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-05-06-city-of-fairfax-city-council-special-meeting.txt", "pdfNote": "53 pages"},
+    shareContext: "Fairfax City City Council, May 6, 2025",
+    moments: [
+      { seconds: 3772, label: "Early agenda business." },
+      { seconds: 7512, label: "Mid-meeting discussion." },
+      { seconds: 15035, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "fxc-2025-05-05-school-board-regular-meeting",
+    meetingId: "fxc-4180",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Regular Meeting",
+    dateLabel: "Monday, May 5, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 8h 0m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4180" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4180&doc_id=b215cac0-4952-11f1-9b4d-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4180" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-05-05-city-of-fairfax-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-05-05-city-of-fairfax-school-board-regular-meeting.txt", "pdfNote": "26 pages"},
+    shareContext: "Fairfax City School Board, May 5, 2025",
+    moments: [
+      { seconds: 135, label: "Pledge of Allegiance." },
+      { seconds: 6682, label: "Early agenda business." },
+      { seconds: 7258, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "fxc-2025-04-22-city-council-work-session-and-regular-meeting",
+    meetingId: "fxc-4167",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Work Session and Regular Meeting",
+    dateLabel: "Tuesday, Apr 22, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 7h 51m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4167" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4167&doc_id=672c30f5-206c-11f0-955d-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4167" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-04-22-city-of-fairfax-city-council-work-session-and-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-04-22-city-of-fairfax-city-council-work-session-and-regular-meeting.txt", "pdfNote": "105 pages"},
+    shareContext: "Fairfax City City Council, Apr 22, 2025",
+    moments: [
+      { seconds: 12224, label: "Public comment / public hearing begins." },
+      { seconds: 15735, label: "Consent agenda motion." },
+      { seconds: 28251, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "fxc-2025-04-21-school-board-work-session",
+    meetingId: "fxc-4166",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Work Session",
+    dateLabel: "Monday, Apr 21, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 2h 13m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4166" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4166&doc_id=e1e9293b-421a-11f0-b7f5-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4166" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-04-21-city-of-fairfax-school-board-work-session.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-04-21-city-of-fairfax-school-board-work-session.txt", "pdfNote": "33 pages"},
+    shareContext: "Fairfax City School Board, Apr 21, 2025",
+    moments: [
+      { seconds: 1969, label: "Early agenda business." },
+      { seconds: 3947, label: "Mid-meeting discussion." },
+      { seconds: 5943, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "fxc-2025-04-08-city-council-meeting",
+    meetingId: "fxc-4159",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Meeting",
+    dateLabel: "Tuesday, Apr 8, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 5h 31m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4159" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4159" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-04-08-city-of-fairfax-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-04-08-city-of-fairfax-city-council-meeting.txt", "pdfNote": "75 pages"},
+    shareContext: "Fairfax City City Council, Apr 8, 2025",
+    moments: [
+      { seconds: 2111, label: "Public comment / public hearing begins." },
+      { seconds: 4952, label: "Early agenda business." },
+      { seconds: 8220, label: "Consent agenda motion." },
+    ],
+  },
+  {
+    slug: "fxc-2025-04-07-school-board-regular-meeting",
+    meetingId: "fxc-4158",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Regular Meeting",
+    dateLabel: "Monday, Apr 7, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 1h 25m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4158" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4158&doc_id=fa01392f-421a-11f0-b7f5-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4158" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-04-07-city-of-fairfax-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-04-07-city-of-fairfax-school-board-regular-meeting.txt", "pdfNote": "23 pages"},
+    shareContext: "Fairfax City School Board, Apr 7, 2025",
+    moments: [
+      { seconds: 14, label: "Pledge of Allegiance." },
+      { seconds: 1284, label: "Early agenda business." },
+      { seconds: 2551, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "fxc-2025-04-01-city-council-work-session",
+    meetingId: "fxc-4153",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Work Session",
+    dateLabel: "Tuesday, Apr 1, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 4h 12m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4153" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4153&doc_id=0e0ebf4c-10c0-11f0-955d-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4153" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-04-01-city-of-fairfax-city-council-work-session.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-04-01-city-of-fairfax-city-council-work-session.txt", "pdfNote": "59 pages"},
+    shareContext: "Fairfax City City Council, Apr 1, 2025",
+    moments: [
+      { seconds: 3778, label: "Early agenda business." },
+      { seconds: 7596, label: "Mid-meeting discussion." },
+      { seconds: 11393, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "fxc-2025-03-25-city-council-meeting",
+    meetingId: "fxc-4150",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Meeting",
+    dateLabel: "Tuesday, Mar 25, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 4h 20m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4150" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4150&doc_id=646748dc-0a56-11f0-ab6a-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4150" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-03-25-city-of-fairfax-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-03-25-city-of-fairfax-city-council-meeting.txt", "pdfNote": "60 pages"},
+    shareContext: "Fairfax City City Council, Mar 25, 2025",
+    moments: [
+      { seconds: 17, label: "Pledge of Allegiance." },
+      { seconds: 3135, label: "Consent agenda motion." },
+      { seconds: 4327, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "fxc-2025-03-17-school-board-work-session",
+    meetingId: "fxc-4134",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Work Session",
+    dateLabel: "Monday, Mar 17, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 1h 9m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4134" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4134&doc_id=64025cdd-0500-11f0-ab6a-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4134" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-03-17-city-of-fairfax-school-board-work-session.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-03-17-city-of-fairfax-school-board-work-session.txt", "pdfNote": "19 pages"},
+    shareContext: "Fairfax City School Board, Mar 17, 2025",
+    moments: [
+      { seconds: 1034, label: "Early agenda business." },
+      { seconds: 2058, label: "Mid-meeting discussion." },
+      { seconds: 3073, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "fxc-2025-03-11-city-council-meeting",
+    meetingId: "fxc-4131",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Meeting",
+    dateLabel: "Tuesday, Mar 11, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 5h 28m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4131" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4131&doc_id=a620c69d-ff5a-11ef-ab6a-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4131" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-03-11-city-of-fairfax-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-03-11-city-of-fairfax-city-council-meeting.txt", "pdfNote": "77 pages"},
+    shareContext: "Fairfax City City Council, Mar 11, 2025",
+    moments: [
+      { seconds: 14, label: "Pledge of Allegiance." },
+      { seconds: 2967, label: "Consent agenda motion." },
+      { seconds: 3038, label: "Public comment / public hearing begins." },
+      { seconds: 19664, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "fxc-2025-03-04-city-council-work-session",
+    meetingId: "fxc-4128",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Work Session",
+    dateLabel: "Tuesday, Mar 4, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 3h 58m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4128" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4128&doc_id=3777c770-f9eb-11ef-ab6a-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4128" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-03-04-city-of-fairfax-city-council-work-session.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-03-04-city-of-fairfax-city-council-work-session.txt", "pdfNote": "59 pages"},
+    shareContext: "Fairfax City City Council, Mar 4, 2025",
+    moments: [
+      { seconds: 3573, label: "Early agenda business." },
+      { seconds: 7171, label: "Mid-meeting discussion." },
+      { seconds: 10751, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "fxc-2025-03-03-school-board-regular-meeting",
+    meetingId: "fxc-4129",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Regular Meeting",
+    dateLabel: "Monday, Mar 3, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 1h 13m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4129" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4129&doc_id=8fc7c74c-fa94-11ef-ab6a-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4129" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-03-03-city-of-fairfax-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-03-03-city-of-fairfax-school-board-regular-meeting.txt", "pdfNote": "19 pages"},
+    shareContext: "Fairfax City School Board, Mar 3, 2025",
+    moments: [
+      { seconds: 15, label: "Pledge of Allegiance." },
+      { seconds: 1093, label: "Early agenda business." },
+      { seconds: 2180, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "fxc-2025-02-25-city-council-meeting",
+    meetingId: "fxc-4109",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Meeting",
+    dateLabel: "Tuesday, Feb 25, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 5h 48m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4109" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4109&doc_id=7ebcffe1-f479-11ef-ab6a-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4109" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-02-25-city-of-fairfax-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-02-25-city-of-fairfax-city-council-meeting.txt", "pdfNote": "81 pages"},
+    shareContext: "Fairfax City City Council, Feb 25, 2025",
+    moments: [
+      { seconds: 16, label: "Pledge of Allegiance." },
+      { seconds: 5603, label: "Consent agenda motion." },
+      { seconds: 6210, label: "Public comment / public hearing begins." },
+      { seconds: 20884, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "fxc-2025-02-24-school-board-work-session",
+    meetingId: "fxc-4108",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Work Session",
+    dateLabel: "Monday, Feb 24, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 1h 18m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4108" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4108&doc_id=4597d2f1-f39b-11ef-ab6a-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4108" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-02-24-city-of-fairfax-school-board-work-session.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-02-24-city-of-fairfax-school-board-work-session.txt", "pdfNote": "20 pages"},
+    shareContext: "Fairfax City School Board, Feb 24, 2025",
+    moments: [
+      { seconds: 1151, label: "Early agenda business." },
+      { seconds: 2333, label: "Mid-meeting discussion." },
+      { seconds: 3467, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "fxc-2025-02-18-city-council-special-meeting-work-session",
+    meetingId: "fxc-4104",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Special Meeting/Work Session",
+    dateLabel: "Tuesday, Feb 18, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 2h 40m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4104" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4104&doc_id=326e3315-eee2-11ef-a9e2-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4104" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-02-18-city-of-fairfax-city-council-special-meeting-work-session.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-02-18-city-of-fairfax-city-council-special-meeting-work-session.txt", "pdfNote": "42 pages"},
+    shareContext: "Fairfax City City Council, Feb 18, 2025",
+    moments: [
+      { seconds: 2388, label: "Early agenda business." },
+      { seconds: 2725, label: "Public comment / public hearing begins." },
+      { seconds: 4775, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "fxc-2025-02-04-city-council-work-session",
+    meetingId: "fxc-4088",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Work Session",
+    dateLabel: "Tuesday, Feb 4, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 3h 26m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4088" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4088&doc_id=4539eed1-e7e7-11ef-a9e2-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4088" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-02-04-city-of-fairfax-city-council-work-session.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-02-04-city-of-fairfax-city-council-work-session.txt", "pdfNote": "51 pages"},
+    shareContext: "Fairfax City City Council, Feb 4, 2025",
+    moments: [
+      { seconds: 3099, label: "Early agenda business." },
+      { seconds: 6173, label: "Mid-meeting discussion." },
+      { seconds: 9270, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "fxc-2025-02-03-school-board-regular-meeting",
+    meetingId: "fxc-4086",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Regular Meeting",
+    dateLabel: "Monday, Feb 3, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 7h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4086" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4086&doc_id=a55466a1-0784-11f1-bb28-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4086" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-02-03-city-of-fairfax-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-02-03-city-of-fairfax-school-board-regular-meeting.txt", "pdfNote": "29 pages"},
+    shareContext: "Fairfax City School Board, Feb 3, 2025",
+    moments: [
+      { seconds: 351, label: "Pledge of Allegiance." },
+      { seconds: 1687, label: "Early agenda business." },
+      { seconds: 3346, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "fxc-2025-01-28-city-council-meeting",
+    meetingId: "fxc-4058",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Meeting",
+    dateLabel: "Tuesday, Jan 28, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 4h 26m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4058" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4058&doc_id=9d206c52-de7a-11ef-a9e2-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4058" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-01-28-city-of-fairfax-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-01-28-city-of-fairfax-city-council-meeting.txt", "pdfNote": "61 pages"},
+    shareContext: "Fairfax City City Council, Jan 28, 2025",
+    moments: [
+      { seconds: 2, label: "Pledge of Allegiance." },
+      { seconds: 440, label: "Consent agenda motion." },
+      { seconds: 3984, label: "Early agenda business." },
+    ],
+  },
+  {
+    slug: "fxc-2025-01-27-school-board-work-session",
+    meetingId: "fxc-4062",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Work Session",
+    dateLabel: "Monday, Jan 27, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 3h 28m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4062" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4062&doc_id=9a202d43-df47-11ef-a9e2-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4062" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-01-27-city-of-fairfax-school-board-work-session.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-01-27-city-of-fairfax-school-board-work-session.txt", "pdfNote": "48 pages"},
+    shareContext: "Fairfax City School Board, Jan 27, 2025",
+    moments: [
+      { seconds: 3118, label: "Early agenda business." },
+      { seconds: 6223, label: "Mid-meeting discussion." },
+      { seconds: 9349, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "fxc-2025-01-14-city-council-meeting",
+    meetingId: "fxc-4045",
+    venue: "fairfax-city-council",
+    title: "City of Fairfax City Council Meeting",
+    dateLabel: "Tuesday, Jan 14, 2025",
+    whenWhere: "City of Fairfax City Council meeting · video 1h 16m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4045" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4045&doc_id=55388ffe-d371-11ef-a9e2-005056a89546" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4045" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-01-14-city-of-fairfax-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-council/transcripts/coraggio-transcript-fairfax-city-council-2025-01-14-city-of-fairfax-city-council-meeting.txt", "pdfNote": "19 pages"},
+    shareContext: "Fairfax City City Council, Jan 14, 2025",
+    moments: [
+      { seconds: 68, label: "Pledge of Allegiance." },
+      { seconds: 135, label: "Public comment / public hearing begins." },
+      { seconds: 1943, label: "Consent agenda motion." },
+      { seconds: 4564, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "fxc-2025-01-13-school-board-regular-meeting",
+    meetingId: "fxc-4049",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Regular Meeting",
+    dateLabel: "Monday, Jan 13, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 1h 6m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or linked on the city’s Granicus archive for this meeting. Votes will be added only from the adopted minutes.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4049" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4049" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-01-13-city-of-fairfax-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-01-13-city-of-fairfax-school-board-regular-meeting.txt", "pdfNote": "17 pages"},
+    shareContext: "Fairfax City School Board, Jan 13, 2025",
+    moments: [
+      { seconds: 0, label: "Pledge of Allegiance." },
+      { seconds: 1005, label: "Early agenda business." },
+      { seconds: 2001, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "fxc-2025-01-13-school-board-swearing-in",
+    meetingId: "fxc-4048",
+    venue: "fairfax-city-schools",
+    title: "City of Fairfax School Board Swearing-In",
+    dateLabel: "Monday, Jan 13, 2025",
+    whenWhere: "City of Fairfax School Board meeting · video 0h 17m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 13, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or linked on the city’s Granicus archive for this meeting. Votes will be added only from the adopted minutes.",
+      links: [
+        { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4048" },
+        { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4048" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-01-13-city-of-fairfax-school-board-swearing-in.pdf", "txtUrl": "/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-01-13-city-of-fairfax-school-board-swearing-in.txt", "pdfNote": "4 pages"},
+    shareContext: "Fairfax City School Board, Jan 13, 2025",
+    moments: [
+      { seconds: 252, label: "Early agenda business." },
+      { seconds: 523, label: "Mid-meeting discussion." },
+      { seconds: 765, label: "Later agenda business." },
+    ],
+  },
+  {
     slug: "fxc-2026-10-06-city-council-work-session",
     meetingId: "fxc-4676",
     venue: "fairfax-city-council",

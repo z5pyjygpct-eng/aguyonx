@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-09-02-1115667334.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-09-02-specialized-programs-and-centers-committee-meeting",
+  "title": "Loudoun County Public Schools, Specialized Programs and Centers Committee Meeting, Tuesday, September 2, 2025",
+  "shortTitle": "Specialized Programs and Centers Committee Meeting \u00b7 Sep 2, 2025",
+  "date": "Tuesday, September 2, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "50m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1115667334?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

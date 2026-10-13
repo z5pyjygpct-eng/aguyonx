@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-06-23-1096038593.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-06-23-student-behavior-and-accountability-committee-appeals-hearing-closed-session",
+  "title": "Loudoun County Public Schools, Student Behavior and Accountability Committee - Appeals Hearing Closed Session, Monday, June 23, 2025",
+  "shortTitle": "Student Behavior and Accountability Committee - Appeals Hearing Closed Session \u00b7 Jun 23, 2025",
+  "date": "Monday, June 23, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "6m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1096038593?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

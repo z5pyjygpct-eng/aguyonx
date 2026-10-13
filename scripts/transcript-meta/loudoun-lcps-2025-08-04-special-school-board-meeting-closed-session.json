@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-08-04-1100127951.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-08-04-special-school-board-meeting-closed-session",
+  "title": "Loudoun County Public Schools, Special School Board Meeting \u2013 Closed Session, Monday, August 4, 2025",
+  "shortTitle": "Special School Board Meeting \u2013 Closed Session \u00b7 Aug 4, 2025",
+  "date": "Monday, August 4, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "2h 21m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1100127951?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

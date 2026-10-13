@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-03-24-1064918983.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-03-24-joint-committee-of-the-loudoun-county-school-board-lcsb-and-loudoun-county-board",
+  "title": "Loudoun County Public Schools, Joint Committee of the Loudoun County School Board (LCSB) and Loudoun County Board of Supervisors (LCBS), Monday, March 24, 2025",
+  "shortTitle": "Joint Committee of the Loudoun County School Board (LCSB) and Loudoun County Board of Supervisors (LCBS) \u00b7 Mar 24, 2025",
+  "date": "Monday, March 24, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "1h 27m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1064918983?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

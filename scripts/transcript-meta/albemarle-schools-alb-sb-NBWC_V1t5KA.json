@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-schools/transcripts/alb-sb-NBWC_V1t5KA.json",
+  "outBase": "public/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-01-16-albemarle-county-school-board-interviews-of-rio-magisterial-district-candidates",
+  "title": "Albemarle County School Board Interviews of Rio Magisterial District Candidates, Thursday, January 16, 2025",
+  "shortTitle": "School Board Interviews of Rio Magisterial District Candidates \u00b7 Jan 16, 2025",
+  "date": "Thursday, January 16, 2025",
+  "place": "Albemarle County Public Schools / School Board meeting, Virginia",
+  "length": "1h 55m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=NBWC_V1t5KA"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-schools/transcripts/alb-sb-xBb7an66HkM.json",
+  "outBase": "public/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-01-23-albemarle-county-school-board-public-hearing",
+  "title": "Albemarle County School Board Public Hearing, Thursday, January 23, 2025",
+  "shortTitle": "School Board Public Hearing \u00b7 Jan 23, 2025",
+  "date": "Thursday, January 23, 2025",
+  "place": "Albemarle County Public Schools / School Board meeting, Virginia",
+  "length": "1h 32m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=xBb7an66HkM"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

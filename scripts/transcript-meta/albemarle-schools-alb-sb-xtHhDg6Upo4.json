@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-schools/transcripts/alb-sb-xtHhDg6Upo4.json",
+  "outBase": "public/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-05-23-albemarle-county-school-board-regular-meeting",
+  "title": "Albemarle County School Board Regular Meeting, Thursday, May 23, 2024",
+  "shortTitle": "School Board Regular Meeting \u00b7 May 23, 2024",
+  "date": "Thursday, May 23, 2024",
+  "place": "Albemarle County Public Schools / School Board meeting, Virginia",
+  "length": "2h 35m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=xtHhDg6Upo4"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

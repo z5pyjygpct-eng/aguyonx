@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2025-09-16-1117564444.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2025-09-16-legislative-audit-and-policy-committee-la-p-meeting",
+  "title": "Loudoun County Public Schools, Legislative, Audit and Policy Committee (LA&P) Meeting, Tuesday, September 16, 2025",
+  "shortTitle": "Legislative, Audit and Policy Committee (LA&P) Meeting \u00b7 Sep 16, 2025",
+  "date": "Tuesday, September 16, 2025",
+  "place": "LCPS Administration Building / School Board Room, Ashburn, Virginia",
+  "length": "52m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1117564444?rel=0"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

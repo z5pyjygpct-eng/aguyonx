@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-city-schools/transcripts/fxc-4166.json",
+  "outBase": "public/files/find-the-moment/fairfax-city-schools/transcripts/coraggio-transcript-fairfax-city-schools-2025-04-21-city-of-fairfax-school-board-work-session",
+  "title": "City of Fairfax School Board Work Session, Monday, April 21, 2025",
+  "shortTitle": "School Board Work Session \u00b7 Apr 21, 2025",
+  "date": "Monday, April 21, 2025",
+  "place": "City Hall, City of Fairfax, Virginia",
+  "length": "2h 12m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (city, Granicus)",
+      "href": "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4166"
+    },
+    {
+      "label": "Agenda",
+      "href": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4166"
+    },
+    {
+      "label": "Minutes",
+      "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4166&doc_id=e1e9293b-421a-11f0-b7f5-005056a89546"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}

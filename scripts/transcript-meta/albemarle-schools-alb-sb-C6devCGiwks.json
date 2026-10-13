@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-schools/transcripts/alb-sb-C6devCGiwks.json",
+  "outBase": "public/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-09-17-albemarle-county-school-board-public-hearing",
+  "title": "Albemarle County School Board Public Hearing, Thursday, September 17, 2026",
+  "shortTitle": "School Board Public Hearing \u00b7 Sep 17, 2026",
+  "date": "Thursday, September 17, 2026",
+  "place": "Albemarle County Public Schools / School Board meeting, Virginia",
+  "length": "36m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=C6devCGiwks"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}
