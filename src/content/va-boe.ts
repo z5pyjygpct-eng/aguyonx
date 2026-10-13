@@ -1,7 +1,7 @@
 /**
  * Virginia Board of Education (VBOE) in Find the Moment (added Oct 13, 2026). Scope: Board of
- * Education work sessions, business and special meetings, Jan 2025 onward (older streams back to
- * 2023 exist on the same channel). Video: VDOE's official YouTube channel
+ * Education work sessions, business and special meetings plus Board committees, Jan 2020 onward
+ * (2020 has no Feb–May streams). Video: VDOE's official YouTube channel
  * (youtube.com/channel/UCrbxl9wHScrWKWIEoUWNIfQ). Closed sessions are never streamed.
  * Mini body/venue "va-boe", file_key = meetingId = vboe-{youtubeId}. Built by scripts/va-boe-build.py.
  */

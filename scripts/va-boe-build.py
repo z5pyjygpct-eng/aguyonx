@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Virginia Board of Education (VBOE) Find the Moment catalog (added 2026-10-13).
 Input: data/va-boe/videos.tsv (VDOE official YouTube channel UCrbxl9wHScrWKWIEoUWNIfQ, Board of
-Education streams Jan 2025+; refresh with yt-dlp --flat-playlist on /streams and /videos).
+Education streams Jan 2020+ (2020–Jan 2025 backfill + committees added 2026-10-13); refresh with yt-dlp --flat-playlist on /streams and /videos).
 Output: src/content/va-boe-data.ts (VBOE_MEETINGS) and data/va-boe/queue-rows.tsv (mini queue rows,
 body va-boe, provider youtube, file_key = meetingId = vboe-{youtubeId})."""
 import csv, datetime, collections
@@ -22,7 +22,7 @@ for r in rows:
     d = datetime.date.fromisoformat(r["date"]); lab = d.strftime("%b ") + str(d.day) + d.strftime(", %Y")
     mid = "vboe-" + r["youtube_id"]; url = "https://www.youtube.com/watch?v=" + r["youtube_id"]
     out.append("  {" + f' id: "{mid}", youtubeId: "{r["youtube_id"]}", date: "{r["date"]}", dateLabel: "{lab}", title: "{r["type"]}", duration: "{dur(r["duration_s"])}", durationS: {int(r["duration_s"])} ' + "},")
-    kind = "full_board"
+    kind = "committee" if "Committee" in r["type"] else "full_board"
     q.append([mid, "va-boe", kind, "1", r["date"], r["duration_s"], "yt-dlp", "youtube", url, url, mid,
               f"Virginia Board of Education {r['type']} {lab}"])
 out.append("];"); out.append("")
