@@ -179,12 +179,12 @@ function RecapPage() {
                           <em className="text-xs">(machine-transcribed; check the video)</em>
                         </span>
                       ) : null}
-                      {recap.shareEnabled ? (
+                      {recap.shareEnabled !== false ? (
                         <ShareMoment
                           videoUrl={jump(m.seconds)}
                           recapUrl={`https://aguyonx.com/counties/loudoun/recaps/${recap.slug}`}
                           text={m.item ? `Item ${m.item}: ${m.label}` : m.label}
-                          context={recap.shareContext ?? `Loudoun, ${recap.dateLabel}`}
+                          context={recap.shareContext ?? `${isLcps ? "Loudoun School Board" : "Loudoun BOS"}, ${recap.dateLabel.replace(/^[A-Z][a-z]+day,\s*/, "")}`}
                           time={secToHms(m.seconds).replace(/^0/, "")}
                         />
                       ) : null}

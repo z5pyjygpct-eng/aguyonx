@@ -345,3 +345,15 @@ the end; the morning ingest runs `npm run ftm:thumbs` after posting transcripts/
 Per-venue counts land in `public/thumbs/<venue>/_status.json` (frame | placeholder).
 LCPS (`loudoun-lcps`): Vimeo thumbnails via oEmbed (LCPS-TV sets most to its logo slate). Grid on /counties/loudoun/schools "Meeting videos".
 New venues: add their meetings to `scripts/ftm-thumbs-manifest.ts` and drop `<FtmThumb>` into the card.
+
+## Standard: Share on every recap moment (2026-10-13)
+
+Every "Moments worth watching" row on every recap page shows `<ShareMoment>`
+(`src/components/site/share-moment.tsx`): **Copy link** (copies the official video URL at that second),
+**𝕏 Post** (x.com intent, pre-filled: “label” — {context} at {h:mm:ss} + Watch link + Recap link) and,
+on touch devices, native **Share**. It is ON by default in both recap templates
+(`counties.loudoun.recaps.$slug.tsx`, `cities.$city.recaps.$slug.tsx`), so new recaps get it with no data
+change. Opt out per recap with `shareEnabled: false`. Context defaults to "Loudoun BOS, Oct 6, 2026" /
+"Loudoun School Board, …" / "{City} {Board}, …"; override with `shareContext`. Text is only the moment label
+already on the page (no unverified quotes). House/Senate recaps (LIS roll calls, no timestamps yet) and Board
+of Ed (no recaps yet) get it automatically once they have timestamped moments in one of these templates.

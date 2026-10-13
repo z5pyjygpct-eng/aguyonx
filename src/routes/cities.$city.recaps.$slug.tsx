@@ -3,6 +3,7 @@ import { Download, ExternalLink, PlayCircle } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
+import { ShareMoment } from "@/components/site/share-moment";
 import { CityMissing } from "@/components/site/city-venue-page";
 import {
   CITY_BY_ID,
@@ -171,6 +172,15 @@ function RecapPage() {
                           “{m.quote}”{" "}
                           <em className="text-xs">(machine-transcribed; check the video)</em>
                         </span>
+                      ) : null}
+                      {meeting && recap.shareEnabled !== false ? (
+                        <ShareMoment
+                          videoUrl={jump(m.seconds)}
+                          recapUrl={`https://aguyonx.com/cities/${v.city}/recaps/${recap.slug}`}
+                          text={m.item ? `Item ${m.item}: ${m.label}` : m.label}
+                          context={recap.shareContext ?? `${c.shortName ?? c.name} ${v.boardLabel}, ${recap.dateLabel.replace(/^[A-Z][a-z]+day,\s*/, "")}`}
+                          time={secToHms(m.seconds).replace(/^0/, "")}
+                        />
                       ) : null}
                     </p>
                   </li>
