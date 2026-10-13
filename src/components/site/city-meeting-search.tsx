@@ -286,24 +286,24 @@ export function CityMeetingList({ venues }: { venues: CityVenueId[] }) {
           {shown.length} of {meetings.length} meetings
         </span>
       </div>
-      <ul className="divide-y divide-border rounded-md border border-border bg-card">
+      <ul className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         {shown.map((m) => {
           const recap = CITY_RECAP_BY_MEETING[m.id];
           const done = has.has(m.id);
           return (
             <li
               key={m.id}
-              className="flex flex-wrap items-center gap-x-3 gap-y-1.5 px-3 py-2.5 text-sm sm:px-4"
+              className="flex h-full flex-col gap-1.5 rounded-md border border-border bg-card px-4 py-4 text-sm"
             >
-              <FtmThumb venue={m.venue} meetingId={m.id} href={m.playerUrl} />
-              <span className="w-24 shrink-0 font-mono text-xs text-muted-foreground">
+              <FtmThumb top venue={m.venue} meetingId={m.id} href={m.playerUrl} />
+              <span className="font-mono text-xs text-muted-foreground">
                 {m.dateLabel}
               </span>
               {recap ? (
                 <Link
                   to="/cities/$city/recaps/$slug"
                   params={{ city: CITY_VENUES[m.venue].city, slug: recap.slug }}
-                  className="min-w-0 flex-1 font-medium text-[#1E4B8E] underline-offset-2 hover:underline"
+                  className="font-serif text-lg font-medium leading-snug text-[#1E4B8E] underline-offset-2 hover:underline"
                   title={m.title}
                 >
                   {multi
@@ -312,14 +312,14 @@ export function CityMeetingList({ venues }: { venues: CityVenueId[] }) {
                   {cityMeetingType(m.title)}
                 </Link>
               ) : (
-                <span className="min-w-0 flex-1 text-foreground" title={m.title}>
+                <span className="font-serif text-lg font-medium leading-snug text-foreground" title={m.title}>
                   {multi
                     ? `${CITY_VENUES[m.venue].body === "schools" ? "Schools" : (CITY_VENUES[m.venue].tag ?? "Council")} · `
                     : ""}
                   {cityMeetingType(m.title)}
                 </span>
               )}
-              <span className="flex flex-wrap items-center gap-1.5">
+              <span className="mt-auto flex flex-wrap items-center gap-1.5 pt-1">
                 {recap ? (
                   <Link
                     to="/cities/$city/recaps/$slug"
@@ -357,7 +357,7 @@ export function CityMeetingList({ venues }: { venues: CityVenueId[] }) {
           );
         })}
         {shown.length === 0 ? (
-          <li className="px-4 py-3 text-sm text-muted-foreground">
+          <li className="col-span-full px-4 py-3 text-sm text-muted-foreground">
             No meetings match these filters.
           </li>
         ) : null}

@@ -142,23 +142,23 @@ function HousePage() {
 
         <section className="mt-12">
           <h2 className="font-serif text-2xl font-medium">Floor sessions (2026)</h2>
-          <ul className="mt-4 divide-y divide-border rounded-md border border-border bg-card">
+          <ul className="mt-4 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {HOUSE_MEETINGS.map((m) => {
               const recap = HOUSE_RECAP_BY_MEETING[m.id];
               return (
                 <li
                   key={m.id}
-                  className="flex flex-wrap items-center gap-x-3 gap-y-1 px-4 py-2.5 text-sm"
+                  className="flex h-full flex-col gap-1.5 rounded-md border border-border bg-card px-4 py-4 text-sm"
                 >
-                  <FtmThumb venue="va-house-floor" meetingId={m.id} href={houseVideoUrl(m)} />
-                  <span className="w-24 shrink-0 font-mono text-xs text-muted-foreground">
+                  <FtmThumb top venue="va-house-floor" meetingId={m.id} href={houseVideoUrl(m)} />
+                  <span className="font-mono text-xs text-muted-foreground">
                     {m.dateLabel}
                   </span>
                   <a
                     href={houseVideoUrl(m)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-foreground underline-offset-2 hover:text-[#1E4B8E] hover:underline"
+                    className="font-serif text-lg font-medium leading-snug text-foreground underline-offset-2 hover:text-[#1E4B8E] hover:underline"
                   >
                     {m.title}
                   </a>
@@ -172,7 +172,7 @@ function HousePage() {
                       Recap
                     </Link>
                   ) : null}
-                  <span className="ml-auto font-mono text-[10px] tracking-wider text-muted-foreground uppercase">
+                  <span className="mt-auto pt-1 font-mono text-[10px] tracking-wider text-muted-foreground uppercase">
                     {has.has(m.id) ? "Transcribed" : "Queued"}
                   </span>
                 </li>

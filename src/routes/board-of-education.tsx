@@ -100,14 +100,14 @@ function VboePage() {
               </select>
             </label>
           </div>
-          <ul className="mt-4 divide-y divide-border rounded-md border border-border bg-card">
+          <ul className="mt-4 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {list.map((m) => (
-              <li key={m.id} className="flex flex-wrap items-center gap-x-3 gap-y-1 px-4 py-2.5 text-sm">
-                <FtmThumb venue="va-boe" meetingId={m.id} href={vboeVideoUrl(m)} />
+              <li key={m.id} className="flex h-full flex-col gap-1.5 rounded-md border border-border bg-card px-4 py-4 text-sm">
+                <FtmThumb top venue="va-boe" meetingId={m.id} href={vboeVideoUrl(m)} />
                 <span className="font-mono text-xs text-muted-foreground">{m.dateLabel}</span>
-                <span className="font-medium">{m.title}</span>
+                <span className="font-serif text-lg font-medium leading-snug">{m.title}</span>
                 <span className="text-xs text-muted-foreground">{m.duration}</span>
-                <span className="ml-auto flex gap-2 text-xs">
+                <span className="mt-auto flex flex-wrap gap-2 pt-1 text-xs">
                   <a href={vboeVideoUrl(m)} target="_blank" rel="noopener noreferrer" className="rounded border border-border px-2 py-0.5 hover:bg-wash">
                     Video
                   </a>
