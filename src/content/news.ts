@@ -51,6 +51,282 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "police-break-up-teen-crowd-ballston-arlnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Police break up teen crowd at Ballston Quarter, make arrests at Crystal City bowling alley and in Clarendon",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/12/police-break-up-teen-crowd-at-ballston-quarter-make-arrests-at-crystal-city-bowling-alley-and-in-clarendon/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "charging-electric-vehicle-soon-cost-72-arlnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Charging an electric vehicle could soon cost 72% more at Arlington County stations",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/12/charging-an-electric-vehicle-in-arlington-could-cost-72-more-on-nov-1/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "civic-federation-press-local-leaders-changeofgovernance-arlnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Civic Federation may press local leaders on change-of-governance legislation",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/12/civic-federation-may-press-local-leaders-on-change-of-governance-legislation/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "aps-cuts-staff-positions-due-lowerthanexpected-arlnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "APS cuts staff positions due to lower-than-expected student enrollment",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/12/aps-cuts-staff-positions-due-to-lower-than-expected-student-enrollment/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "arlington-democrats-expand-getoutthevote-efforts-iowa-arlnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Arlington Democrats expand get-out-the-vote efforts to Iowa race",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/12/arlington-democrats-expand-get-out-the-vote-efforts-to-iowa-race/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "exclusive-memo-details-lasting-toll-reagan-wtop-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Exclusive: Memo details lasting toll of Reagan National Airport collision on Arlington first responders",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/10/exclusive-memo-details-lasting-toll-of-reagan-national-airport-collision-on-arlington-first-responders/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "not-just-flock-arlington-group-pushes-wusa9-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "‘It's not just Flock’ | Arlington group pushes for ban on all license plate reader technology",
+    outlet: "WUSA9",
+    url: "https://www.wusa9.com/article/tech/flock-arlington-group-pushes-for-ban-on-all-license-plate-reader-technology/65-9e5fa621-1ad3-41b7-b3ab-4bcca9dce9f0",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "arlington-county-sues-block-trump-arch-newsadvance-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Arlington County sues to block Trump arch for more review",
+    outlet: "The News & Advance (AP)",
+    url: "https://newsadvance.com/news/state-regional/crime-courts/article_766c8692-b332-5ad6-9f49-00437870acc0.html",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "addition-child-care-athletic-field-approved-ffxnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Addition of child care, athletic field approved for Hybla Valley Community Center",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/12/addition-of-child-care-athletic-field-approved-for-hybla-valley-community-center/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "new-plan-details-allaffordable-residential-highrises-ffxnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "New plan details ‘all-affordable’ residential high-rises in Tysons Central",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/12/new-plan-details-all-affordable-residential-high-rises-in-tysons-central/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "fairfax-county-plan-tackle-homelessness-calls-ffxnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Fairfax County plan to tackle homelessness calls for more nuanced response",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/12/fairfax-county-plan-to-tackle-homelessness-calls-for-more-nuanced-response/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "fcps-rebalancing-staffing-enrollment-continues-decline-ffxnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "FCPS is ‘rebalancing’ staffing, as enrollment continues decline",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/12/fairfax-county-schools-are-rebalancing-staffing-as-enrollment-continues-decline/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "fairfax-county-community-weighs-dominionnextera-energy-insidenova-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Fairfax County community weighs in on Dominion-NextEra Energy merger",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/headlines/fairfax-county-community-weighs-in-on-dominion-nextera-energy-merger/article_da35b268-67ca-4737-8183-4bf38be4f5c4.html",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "almost-all-vienna-schools-earn-vas-patch-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Almost All Vienna Schools Earn VA's Highest Rating In New Assessment Results",
+    outlet: "Patch",
+    url: "https://patch.com/virginia/vienna/almost-all-vienna-schools-earn-vas-highest-rating-new-assessment-results",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "elite-va-urban-rescue-team-deploys-patch-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Elite VA Urban Rescue Team Deploys To Panama After Destructive Earthquake",
+    outlet: "Patch",
+    url: "https://patch.com/virginia/across-va/elite-va-urban-rescue-team-deploys-panama-after-destructive-earthquake",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "loudoun-supervisors-advance-community-trust-policy-loudounnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Loudoun Supervisors Advance Community Trust Policy, Flock Camera Review",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/loudoun-supervisors-advance-community-trust-policy-flock-camera-review/article_dbaa86b8-24a1-4c72-bad2-86d0ede47be3.html",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "loudoun-schools-see-increases-state-performance-loudounnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Loudoun Schools See Increases in State Performance Ratings",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/loudoun-schools-see-increases-in-state-performance-ratings/article_daf13e6c-79f5-48fc-8c7f-309a95593b7e.html",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "motorcyclist-lifethreatening-condition-gleedsville-road-crash-loudounnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Motorcyclist in Life-threatening Condition After Gleedsville Road Crash",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/motorcyclist-in-life-threatening-condition-after-gleedsville-road-crash/article_de63ca04-ec34-4a00-ba41-7cf67e32897c.html",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "lcps-improves-virginia-education-ratings-ltm-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "LCPS improves in Virginia education ratings",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/education/lcps-improves-in-virginia-education-ratings/article_e37d2bac-3612-46ed-9bf6-8d67d02c481b.html",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "loudoun-school-board-keeps-religious-holidays-wjla-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Loudoun school board keeps religious holidays despite parents' push to change calendar",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/loudoun-county-public-schools-board-calendar-religious-cultural-holidays-eid-diwali-lunar-new-year-yom-kippur-parents-survey-federal-child-care-summer-break-amy-riccardi-anne-donohue-kari-labell-virginia-2028-2029",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "prince-william-schools-seek-input-20272028-insidenova-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Prince William schools seek input for 2027-2028 calendar",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/news/prince_william/prince-william-schools-seek-input-for-2027-2028-calendar/article_1087022b-a5e9-4a6c-b3fd-c5ecd9190f5e.html",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "manassas-journal-posts-videos-school-board-potomaclocal-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Manassas Journal posts videos from School Board and House District 20 forums",
+    outlet: "Potomac Local",
+    url: "https://www.potomaclocal.com/2026/10/12/manassas-journal-posts-videos-from-school-board-and-house-district-20-forums/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "naresh-bhatts-murder-trial-set-resume-wjla-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Naresh Bhatt's murder trial set to resume Tuesday with police testimony",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/naresh-bhatts-murder-trial-to-resume-tuesday-with-police-testimony",
+    people: [],
+    scope: "local",
+  },
+
+  {
     id: "spanberger-energy-plan-two-views-sullivan-cardinal-2026-10-12",
     date: "2026-10-12",
     headline:
