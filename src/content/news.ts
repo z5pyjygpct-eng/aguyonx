@@ -51,6 +51,87 @@ export function peopleSearchText(people: NewsPerson[]): string {
 export const NEWS: NewsItem[] = [
 
   {
+    id: "subramanyam-loudoun-transmission-route-scc-vamercury-2026-10-13",
+    date: "2026-10-13",
+    headline:
+      "Subramanyam questions Loudoun transmission line route process, offers new paths for SCC to consider",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/13/subramanyam-questions-loudoun-transmission-line-route-process-offers-new-paths-for-scc-to-consider/",
+    people: [{ name: "Suhas Subramanyam", office: "U.S. Representative" }],
+    scope: "local",
+  },
+  {
+    id: "10-things-election-so-far-cardinal-2026-10-13",
+    date: "2026-10-13",
+    headline: "10 things to know about this year's election (so far)",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/10/13/10-things-to-know-about-this-years-election-so-far/",
+    people: [
+      { name: "Mark Warner", office: "U.S. Senator" },
+      { name: "Suhas Subramanyam", office: "U.S. Representative" },
+      { name: "Tom Perriello", office: "U.S. Representative" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "randall-water-line-offsets-broad-run-farms-loudounnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline: "Randall Eyes Water Line Cost Offsets for Broad Run Farms",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/randall-eyes-water-line-cost-offsets-for-broad-run-farms/article_88167eeb-ebc6-4ead-954b-1fe22b3efa14.html",
+    people: [
+      { name: "Phyllis Randall", office: "Loudoun Chair" },
+      { name: "Juli Briskman", office: "Loudoun Supervisor" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "loudoun-residents-dominion-merger-scc-hearing-loudounnow-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline: "Loudoun Residents Speak Out on Dominion Merger During SCC Hearing",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/loudoun-residents-speak-out-on-dominion-merger-during-scc-hearing/article_d7b15be6-0fea-478a-9722-79bee50d7ec7.html",
+    people: [
+      { name: "Eugene Vindman", office: "U.S. Representative" },
+      { name: "Kirk McPike", office: "State Delegate" },
+      { name: "Irene Shin", office: "State Delegate" },
+      { name: "John McAuliff", office: "State Delegate" },
+      { name: "Deshundra Jefferson", office: "Prince William official" },
+      { name: "Walter Alcorn", office: "Fairfax official" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "spanberger-trump-medicaid-trans-youth-wvtf-2026-10-12",
+    date: "2026-10-12",
+    filed: "2026-10-13",
+    headline:
+      "Spanberger blames Trump for Virginia cutting Medicaid coverage for trans youth healthcare",
+    outlet: "WVTF",
+    url: "https://www.wvtf.org/news/2026-10-12/spanberger-blames-trump-for-virginia-cutting-medicaid-coverage-for-trans-youth-healthcare",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Laura Jane Cohen", office: "State Delegate" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "jones-celebrates-virginia-triad-chapters-oag-2026-10-09",
+    date: "2026-10-09",
+    filed: "2026-10-13",
+    headline: "Attorney General Jay Jones Celebrates Virginia TRIAD Chapters",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3137-attorney-general-jay-jones-celebrates-virginia-triad-chapters",
+    people: [
+      { name: "Jay Jones", office: "Attorney General" },
+      { name: "Saddam Azlan Salim", office: "State Senator" },
+    ],
+    scope: "statewide",
+  },
+
+  {
     id: "police-break-up-teen-crowd-ballston-arlnow-2026-10-12",
     date: "2026-10-12",
     filed: "2026-10-13",
