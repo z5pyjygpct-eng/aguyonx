@@ -10805,5 +10805,3711 @@
     "how": "index"
    }
   ]
+ },
+ "fxc-2025-06-03-city-council-work-session": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [],
+  "minutesKind": "html",
+  "noVotesRecorded": true,
+  "agenda": [
+   {
+    "heading": "1. Call the special meeting to order. 6:00 P.M.",
+    "items": []
+   },
+   {
+    "heading": "2. Convene a closed meeting to discuss appointments to Boards and Commissions.",
+    "items": []
+   },
+   {
+    "heading": "3. Adjourn.",
+    "items": []
+   },
+   {
+    "heading": "1. Work Session. 7:00 - 9:00 P.M.",
+    "items": [
+     {
+      "num": "1.a",
+      "title": "Blenheim Boulevard Multimodal Improvement Project Status Update.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4219&meta_id=123662"
+     },
+     {
+      "num": "1.b",
+      "title": "Update on the George Snyder Trail project.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4219&meta_id=123721"
+     },
+     {
+      "num": "1.c",
+      "title": "Presentation on the Old Town Parking Study.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4219&meta_id=123666"
+     },
+     {
+      "num": "1.d",
+      "title": "Historic Properties Evaluation update.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4219&meta_id=123669"
+     },
+     {
+      "num": "1.e",
+      "title": "Presentation on currently proposed potential Zoning Text Amendments.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4219&meta_id=123672"
+     }
+    ]
+   },
+   {
+    "heading": "2. Adjournment",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 70,
+    "item": "1.a",
+    "label": "Blenheim Boulevard Multimodal Improvement Project Status Update.",
+    "how": "index"
+   },
+   {
+    "seconds": 5480,
+    "item": "1.b",
+    "label": "Update on the George Snyder Trail project.",
+    "how": "index"
+   },
+   {
+    "seconds": 8710,
+    "item": "1.c",
+    "label": "Presentation on the Old Town Parking Study.",
+    "how": "index"
+   },
+   {
+    "seconds": 10883,
+    "item": "1.d",
+    "label": "Historic Properties Evaluation update.",
+    "how": "index"
+   },
+   {
+    "seconds": 12880,
+    "item": "1.e",
+    "label": "Presentation on currently proposed potential Zoning Text Amendments.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-06-03-school-board-regular-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "1.04",
+    "action": "Ms. Kelsey moved, and Ms. Bartelme seconded the adoption of the agenda as written and distributed. The motion passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4218&doc_id=7ca351e8-421a-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "4.01",
+    "action": "Ms. Cecere moved that the City of Fairfax School Board approve the minutes of the May 5, 2025, regular School Board meeting as printed and distributed. The motion to approve the minutes of the May 5, 2025, regular School Board meeting passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4218&doc_id=7ca351e8-421a-11f0-b7f5-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "pdf",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. MEETING OPENING",
+    "items": [
+     {
+      "num": "1.02",
+      "title": "Announcement of Change in the Agenda"
+     },
+     {
+      "num": "1.03",
+      "title": "Other Announcements"
+     },
+     {
+      "num": "1.04",
+      "title": "Agenda Adoption"
+     },
+     {
+      "num": "1.06",
+      "title": "Introduction of New Student Representative and Alternate"
+     }
+    ]
+   },
+   {
+    "heading": "2. PRESENTATIONS TO THE SCHOOL BOARD",
+    "items": [
+     {
+      "num": "2.03",
+      "title": "Request for Proposal Overview: Mr. Jeff Platenberg, Superintendent and Ms. Patti Innocenti, Director, City of Fairfax Procurement Services",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4218&meta_id=123713"
+     }
+    ]
+   },
+   {
+    "heading": "3. PUBLIC HEARING None.",
+    "items": []
+   },
+   {
+    "heading": "4. ACTION ITEMS (Items under this heading are discussed and voted upon by the Board)",
+    "items": [
+     {
+      "num": "4.01",
+      "title": "Approval of Minutes – May 5, 2025",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4218&meta_id=132273"
+     }
+    ]
+   },
+   {
+    "heading": "5. SUPERINTENDENT MATTERS (The Superintendent may present other items for information)",
+    "items": []
+   },
+   {
+    "heading": "6. BOARD MATTERS (Board members may ask questions and introduce topics for further consideration.)",
+    "items": []
+   },
+   {
+    "heading": "7. ADJOURNMENT",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 26,
+    "item": "1.04",
+    "label": "Vote: Agenda Adoption",
+    "how": "transcript-vote"
+   },
+   {
+    "seconds": 3612,
+    "item": "4.01",
+    "label": "Vote: Approval of Minutes – May 5, 2025",
+    "how": "transcript-vote"
+   }
+  ]
+ },
+ "fxc-2025-05-27-city-council-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "6",
+    "action": "Approved, 5-0, the adoption of the agenda. (Councilmember Bates absent.)",
+    "tally": "5-0",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4210&doc_id=e46ea53d-3beb-11f0-856f-005056a89546"
+    }
+   },
+   {
+    "item": "8.b",
+    "action": "Approved, unanimously the consent agenda.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4210&doc_id=e46ea53d-3beb-11f0-856f-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "html",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. Call the special meeting to order. 6:00 P.M.",
+    "items": []
+   },
+   {
+    "heading": "2. Convene a closed meeting to discuss personnel matters.",
+    "items": []
+   },
+   {
+    "heading": "3. Adjourn.",
+    "items": []
+   },
+   {
+    "heading": "1. Call the regular meeting to order. 7:00 P.M.",
+    "items": []
+   },
+   {
+    "heading": "2. Moment of Silence.",
+    "items": []
+   },
+   {
+    "heading": "3. Pledge of Allegiance.",
+    "items": []
+   },
+   {
+    "heading": "4. Presentations and Proclamations.",
+    "items": [
+     {
+      "num": "4.a",
+      "title": "Presentation of a proclamation acknowledging June as LGBTQIA+ Pride Month in the City of Fairfax.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4210&meta_id=123486"
+     }
+    ]
+   },
+   {
+    "heading": "5. Actions out of closed meeting (if any).",
+    "items": []
+   },
+   {
+    "heading": "6. Adoption of the agenda.",
+    "items": []
+   },
+   {
+    "heading": "7. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk’s office (703-385-7935) prior to 5:00 p.m. the day of the meeting may speak at this time. Any remaining speak",
+    "items": []
+   },
+   {
+    "heading": "8. Consent agenda.",
+    "items": [
+     {
+      "num": "8.a",
+      "title": "Introduction of an ordinance amending Chapter 90 (Taxation) of the Code of the City of Fairfax, Virginia, to add thereto a new Article XIV, creating the City of Fairfax Commercial Property Assessed Clean Energy (C-PACE) Financing Program.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4210&meta_id=123492"
+     },
+     {
+      "num": "8.b",
+      "title": "Consideration of a grant supplemental appropriation resolution in the amount of $1,047,794 for FY 2025 federal, state, and use of balance sheet funds for expenditures.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4210&meta_id=123494"
+     }
+    ]
+   },
+   {
+    "heading": "9. Public hearings. None.",
+    "items": []
+   },
+   {
+    "heading": "10. Second general public comment period (a maximum of three (3) minutes per speaker for any city matters not requiring a public hearing - limited to speakers who did not speak under initial general public comment period).",
+    "items": []
+   },
+   {
+    "heading": "11. Items not requiring a public hearing. None.",
+    "items": []
+   },
+   {
+    "heading": "12. Recess the regular meeting to go into a work session.",
+    "items": []
+   },
+   {
+    "heading": "13. Work Session.",
+    "items": [
+     {
+      "num": "13.a",
+      "title": "Joint discussion with the Economic Development Authority, and updates by the Economic Development Department on Programs and Tourism Portfolio.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4210&meta_id=123502"
+     },
+     {
+      "num": "13.b",
+      "title": "An update on the Urban Forest Master Plan (UFMP) project and a review of the city’s urban forestry operations.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4210&meta_id=123505"
+     },
+     {
+      "num": "13.c",
+      "title": "Discussion on the George Snyder Trail.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4210&meta_id=123508"
+     }
+    ]
+   },
+   {
+    "heading": "14. Reconvene the regular meeting.",
+    "items": []
+   },
+   {
+    "heading": "15. City Manager report out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "16. Council Comments and Committee reports out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "17. Closed meeting for consultation with legal counsel for non-litigation.",
+    "items": []
+   },
+   {
+    "heading": "18. Adjournment.",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 28,
+    "item": "2",
+    "label": "Moment of Silence.",
+    "how": "index"
+   },
+   {
+    "seconds": 133,
+    "item": "4.a",
+    "label": "Presentation of a proclamation acknowledging June as LGBTQIA+ Pride Month in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 465,
+    "item": "6",
+    "label": "Adoption of the agenda.",
+    "how": "index"
+   },
+   {
+    "seconds": 2969,
+    "item": "10",
+    "label": "Second general public comment period",
+    "how": "index"
+   },
+   {
+    "seconds": 4803,
+    "item": "13.a",
+    "label": "Joint discussion with the Economic Development Authority, and updates by the Economic Development Department on Programs and Tourism Port…",
+    "how": "index"
+   },
+   {
+    "seconds": 10295,
+    "item": "13.b",
+    "label": "An update on the Urban Forest Master Plan",
+    "how": "index"
+   },
+   {
+    "seconds": 13924,
+    "item": "13.c",
+    "label": "Discussion on the George Snyder Trail.",
+    "how": "index"
+   },
+   {
+    "seconds": 17517,
+    "item": "15",
+    "label": "City Manager report out",
+    "how": "index"
+   },
+   {
+    "seconds": 17573,
+    "item": "16",
+    "label": "Council Comments and Committee reports out",
+    "how": "index"
+   },
+   {
+    "seconds": 18355,
+    "item": "17",
+    "label": "Closed meeting for consultation with legal counsel for non-litigation.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-05-19-school-board-work-session": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [],
+  "minutesKind": "pdf",
+  "noVotesRecorded": true,
+  "agenda": [
+   {
+    "heading": "1. JOINT MEETING WITH PRAB 5:30-6:30 p.m.",
+    "items": [
+     {
+      "num": "1.01",
+      "title": "School Use Agreement",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4207&meta_id=123402"
+     },
+     {
+      "num": "1.02",
+      "title": "KJMS Fields"
+     },
+     {
+      "num": "1.03",
+      "title": "Green Acres School"
+     }
+    ]
+   },
+   {
+    "heading": "2. PRESENTATIONS TO THE SCHOOL BOARD 6:30 p.m.",
+    "items": [
+     {
+      "num": "2.01",
+      "title": "End of Year Reports from City School Board Representatives to Fairfax County Public Schools Committees * SHAC – Ms. Brenda Silvia Torma * ACSD - Ms. Mary Kay Ciziunas * MSAOC – Ms. Julianna Nelson * FPAC – Ms. Kate Hermann"
+     }
+    ]
+   }
+  ],
+  "moments": []
+ },
+ "fxc-2025-05-13-city-council-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "",
+    "action": "Councilmember Hardy-Chandler moved to approve the agenda as presented. 1 City Council Regular Meeting May 13, 2025 The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "tally": "1 City Council Regular Meeting May 13, 2025 The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4199&doc_id=5be93024-5058-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "",
+    "action": "Councilmember Hardy-Chandler moved to approve the suggested motions for the following consent agenda:  Agenda item #7a: Consideration of the April 22, 2025 Regular Meeting Minutes. The Mayor called for a roll call vote on the consent agenda items #7a and #7c, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "tally": "The Mayor called for a roll call vote on the consent agenda items #7a and #7c, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4199&doc_id=5be93024-5058-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "",
+    "action": "Councilmember Hardy-Chandler moved to approve a resolution (R-25-07) establishing the Safe Streets for All Steering Committee and the proposed process to designate membership with the addition of the Environmental Sustainability Committee as an organization asked to designate a representative. The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "tally": "The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4199&doc_id=5be93024-5058-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "",
+    "action": "Councilmember Hall moved to amend the motion by amending the fourth condition to “Outdoor play shall not take place before 8:00 am. The motion passed by acclamation.",
+    "tally": "The motion passed by acclamation.",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4199&doc_id=5be93024-5058-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "",
+    "action": "Councilmember Hardy-Chandler moved that the City Council approve the request from Maria S Unda Perez (Learning Tree Bilingual Montessori LLC) applicant, for a Special Use Permit pursuant to City Code Section 110-3.5. The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "tally": "The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4199&doc_id=5be93024-5058-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "",
+    "action": "She further moved that the City Council adopt a resolution (R-25-09) to approve the city’s submission of three projects: 1st/2nd street sidewalks, Dwight Avenue 6 City Council Regular Meeting May 13, 2025 improvements, and Northfax East-West Roadway to the Virginia Department of Transportation for Revenue Sharing Funding. The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "tally": "The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4199&doc_id=5be93024-5058-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "",
+    "action": "The Mayor moved that the City Council convene a closed meeting under Section 2.2-3711. The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "tally": "The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4199&doc_id=5be93024-5058-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "",
+    "action": "The Mayor moved each member of the City Council certify that, to the best of each Councilmember’s knowledge, (i) only public business matters lawfully exempted from the open meeting requirements in the Virginia Freedom of Information Act, and (ii) only public business matters identified in the motion convening the closed meeting were heard, discussed or considered. The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "tally": "The Mayor called for a roll call vote on the motion, which carried by a vote of 6-0, in favor Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson, opposed none.",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4199&doc_id=5be93024-5058-11f0-b7f5-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "pdf",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. Call the special meeting to order. 6:30 P.M.",
+    "items": []
+   },
+   {
+    "heading": "2. Convene a closed meeting to discuss appointments to Boards and Commissions.",
+    "items": []
+   },
+   {
+    "heading": "3. Adjourn.",
+    "items": []
+   },
+   {
+    "heading": "1. Call the regular meeting to order. 7:00 P.M.",
+    "items": []
+   },
+   {
+    "heading": "2. Pledge of Allegiance.",
+    "items": []
+   },
+   {
+    "heading": "3. Presentations and Proclamations.",
+    "items": [
+     {
+      "num": "3.a",
+      "title": "Presentations of a proclamation acknowledging May as Asian American and Pacific Islander Heritage Month in the City of Fairfax."
+     },
+     {
+      "num": "3.b",
+      "title": "Presentation of a proclamation acknowledging May as Mental Health Awareness Month, and May 7, 2025 as National Children’s Mental Health Day in the City of Fairfax."
+     },
+     {
+      "num": "3.c",
+      "title": "Presentation of a proclamation acknowledging May as Older Americans Month in the City of Fairfax."
+     },
+     {
+      "num": "3.d",
+      "title": "Presentation of a proclamation acknowledging April 28 - May 31, 2025 as Small Business Month in the City of Fairfax."
+     },
+     {
+      "num": "3.e",
+      "title": "Presentation of a proclamation acknowledging May 11 - 17, 2025 as Police Week in the City of Fairfax.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123228"
+     }
+    ]
+   },
+   {
+    "heading": "4. Actions out of closed meeting (if any).",
+    "items": []
+   },
+   {
+    "heading": "5. Adoption of the agenda.",
+    "items": []
+   },
+   {
+    "heading": "6. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk’s office (703-385-7935) prior to 5:00 p.m. the day of the meeting may speak at this time. Any remaining speak",
+    "items": []
+   },
+   {
+    "heading": "7. Consent agenda.",
+    "items": [
+     {
+      "num": "7.a",
+      "title": "Consideration of the April 22, 2025 Regular Meeting Minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123234"
+     },
+     {
+      "num": "7.c",
+      "title": "Consideration of an Award of Construction Contract in the estimated amount of $327,628 to Environmental Quality Resources, LLC for Sanitary Sewer Encasement, Bank Stabilization, and Stormwater Outfall Restoration within the Dale Lestina Tributary.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123238"
+     },
+     {
+      "num": "7.b",
+      "title": "Consideration of a resolution to establish a Safe Streets for All Steering Committee.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123236"
+     }
+    ]
+   },
+   {
+    "heading": "8. Public hearings.",
+    "items": [
+     {
+      "num": "8.a",
+      "title": "Public hearing and Council action on a request from Veronica Flores (Eliana’s Childcare LLC), applicant for a Special Use Permit pursuant to City Code Section Special Use Permit pursuant to Code Section 110-6.7 to allow for a day care home for a maximum of twelve (12) children in accordance with City Code Section 110-3.5.5. D.8. on the premises known as 10941 Byrd Drive and more particularly descr",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123242"
+     },
+     {
+      "num": "8.b",
+      "title": "Public hearing and Council action on a request from Maria S Unda Perez (Learning Tree Bilingual Montessori, LLC), applicant for a Special Use Permit pursuant to City Code Section Special Use Permit pursuant to Code Section 110-6.7 to allow for a day care home for a maximum of seven (7) children in accordance with City Code Section 110-3.5.5. D.8. on the premises known as 3936 Providence Place and ",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123246"
+     },
+     {
+      "num": "8.c",
+      "title": "Public hearing and Council action to endorse an application to VDOT for Transportation Alternatives funding, and Council action to endorse applications to VDOT for Revenue Sharing funding.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123250"
+     }
+    ]
+   },
+   {
+    "heading": "9. Second general public comment period (a maximum of three (3) minutes per speaker for any city matters not requiring a public hearing – limited to speakers who did not speak under initial general public comment period).",
+    "items": []
+   },
+   {
+    "heading": "10. Items not requiring a public hearing. None.",
+    "items": []
+   },
+   {
+    "heading": "11. Recess the regular meeting to go into a work session.",
+    "items": []
+   },
+   {
+    "heading": "12. Work Session.",
+    "items": [
+     {
+      "num": "12.a",
+      "title": "Discussion on a grant supplemental appropriation resolution in the amount of $1,047,794 for FY 2025 federal, state, and use of balance sheet funds for expenditures.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123258"
+     },
+     {
+      "num": "12.b",
+      "title": "Discussion on the Virginia Commercial Property Assessed Clean Energy (C-PACE) program.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123260"
+     },
+     {
+      "num": "12.c",
+      "title": "Discussion and update on the Stormwater Utility.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123263"
+     },
+     {
+      "num": "12.d",
+      "title": "Discussion on the Virginia Public-Private Education Facilities and Infrastructure Act (PPEA) and response to Request for Information (RFI).",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123266"
+     },
+     {
+      "num": "12.e",
+      "title": "Discussion and update on Potential Zoning Ordinance Amendments related to Small Area Plans.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123269"
+     },
+     {
+      "num": "12.f",
+      "title": "Discussion and update on the new proposed alignment for the George Snyder Trail. RESCHEDULED FOR MAY 27, 2025.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4199&meta_id=123272"
+     }
+    ]
+   },
+   {
+    "heading": "13. Reconvene the regular meeting.",
+    "items": []
+   },
+   {
+    "heading": "14. City Manager report out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "15. Council Comments and Committee reports out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "16. Closed meeting to discuss personnel matters and consultation with legal counsel for non-litigation.",
+    "items": []
+   },
+   {
+    "heading": "17. Adjournment.",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 103,
+    "item": "3.a",
+    "label": "Presentations of a proclamation acknowledging May as Asian American and Pacific Islander Heritage Month in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 382,
+    "item": "3.b",
+    "label": "Presentation of a proclamation acknowledging May as Mental Health Awareness Month, and May 7, 2025 as National Children’s Mental Health D…",
+    "how": "index"
+   },
+   {
+    "seconds": 740,
+    "item": "3.c",
+    "label": "Presentation of a proclamation acknowledging May as Older Americans Month in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 1114,
+    "item": "3.d",
+    "label": "Presentation of a proclamation acknowledging April 28 - May 31, 2025 as Small Business Month in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 1409,
+    "item": "3.e",
+    "label": "Presentation of a proclamation acknowledging May 11 - 17, 2025 as Police Week in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 1866,
+    "item": "5",
+    "label": "Adoption of the agenda.",
+    "how": "index"
+   },
+   {
+    "seconds": 4823,
+    "item": "7.b",
+    "label": "Consideration of a resolution to establish a Safe Streets for All Steering Committee.",
+    "how": "index"
+   },
+   {
+    "seconds": 5449,
+    "item": "8",
+    "label": "Public hearings.",
+    "how": "index"
+   },
+   {
+    "seconds": 6376,
+    "item": "8.b",
+    "label": "Public hearing and Council action on a request from Maria S Unda Perez",
+    "how": "index"
+   },
+   {
+    "seconds": 7186,
+    "item": "8.c",
+    "label": "Public hearing and Council action to endorse an application to VDOT for Transportation Alternatives funding, and Council action to endors…",
+    "how": "index"
+   },
+   {
+    "seconds": 9043,
+    "item": "9",
+    "label": "Second general public comment period",
+    "how": "index"
+   },
+   {
+    "seconds": 9799,
+    "item": "12.a",
+    "label": "Discussion on a grant supplemental appropriation resolution in the amount of $1,047,794 for FY 2025 federal, state, and use of balance sh…",
+    "how": "index"
+   },
+   {
+    "seconds": 10058,
+    "item": "12.b",
+    "label": "Discussion on the Virginia Commercial Property Assessed Clean Energy",
+    "how": "index"
+   },
+   {
+    "seconds": 11814,
+    "item": "12.c",
+    "label": "Discussion and update on the Stormwater Utility.",
+    "how": "index"
+   },
+   {
+    "seconds": 14558,
+    "item": "12.d",
+    "label": "Discussion on the Virginia Public-Private Education Facilities and Infrastructure Act",
+    "how": "index"
+   },
+   {
+    "seconds": 15834,
+    "item": "12.e",
+    "label": "Discussion and update on Potential Zoning Ordinance Amendments related to Small Area Plans.",
+    "how": "index"
+   },
+   {
+    "seconds": 20631,
+    "item": "15",
+    "label": "Council Comments and Committee reports out",
+    "how": "index"
+   },
+   {
+    "seconds": 20966,
+    "item": "16",
+    "label": "Closed meeting to discuss personnel matters and consultation with legal counsel for non-litigation.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-05-06-city-council-special-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "1",
+    "action": "Approved, unanimously the consideration for remote participation by Councilmember Amos pursuant to Code of Virginia Sec. 2.2-3708.2.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4191&doc_id=7ba66ed7-2b67-11f0-856f-005056a89546"
+    }
+   },
+   {
+    "item": "3.a",
+    "action": "Approved, unanimously to approve an ordinance readopting Chapter 90, Article II, Division 1, Section 90-33 of the Code of the City of Fairfax, Virginia, pertaining to classification and taxation of certain real property in the City of Fairfax used for or zoned for commercial and industrial purposes. Such ordinance shall include a tax rate for such real property for calendar year 2025 of $0.125 per $100 of assessed value, revenues from which to be used exclusively for transportation purposes that benefit the City of Fairfax.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4191&doc_id=7ba66ed7-2b67-11f0-856f-005056a89546"
+    }
+   },
+   {
+    "item": "3.b",
+    "action": "Approved, unanimously to approve an ordinance amending and readopting Chapter 102, Article II, Section 102-31(b) of the Code of the City of Fairfax, Virginia to increase the rates for wastewater services by 6.0 percent.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4191&doc_id=7ba66ed7-2b67-11f0-856f-005056a89546"
+    }
+   },
+   {
+    "item": "3.c",
+    "action": "Approved, unanimously to approve an ordinance amending and readopting Chapter 102, Article V, Section 102-203(b), setting the rate per billing unit to be used in calculating the stormwater utility fee for the calendar year beginning January 1, 2025 at $34.30.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4191&doc_id=7ba66ed7-2b67-11f0-856f-005056a89546"
+    }
+   },
+   {
+    "item": "3.d",
+    "action": "Approved, unanimously to take no action on an ordinance amending Chapter 90 (Taxation), Article VI (Tax on Meals), Section 90-262 of the Code of the City of Fairfax, Virginia, pertaining to the levy and amount of tax on meals.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4191&doc_id=7ba66ed7-2b67-11f0-856f-005056a89546"
+    }
+   },
+   {
+    "item": "3.e",
+    "action": "Approved, unanimously to adopt the General Fund, Capital Fund, Wastewater Fund, Stormwater Utility Fund, Cable Grant Fund, Old Town Service District Fund, Transit Fund, Transportation Tax Fund and ARPA Fund FY 2026 Budgets, as presented by the City Manager, together with the proposed FY 2026 Schedule of Rates and Levies, the FY 2026-2030 Capital Improvement Program, the FY 2026 health benefit contribution rates, a 2.0% merit increase effective January 1, 2026 for eligible general scale employees, and the programmed annual step increase for public safety employees who were moved to the step system. The motion had previously been amended 4-3, Councilmembers Hall, McQuillen, and Peterson opposed, to incorporate all changes included in the budget change document (Attachment I, previously published).",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4191&doc_id=7ba66ed7-2b67-11f0-856f-005056a89546"
+    }
+   },
+   {
+    "item": "3.e",
+    "action": "Approved, unanimously to set the real estate tax rate effective as of January 1, 2025 at $1.0550 per one hundred dollars of assessed value, set the personal property and machinery and tools tax rate effective as of January 1, 2025 at $4.13 per one hundred dollars assessed valuation based upon the assessment ratio of one hundred percent of fair market value, and set the personal property tax rate effective as of January 1, 2025 at $.01 per one hundred dollars assessed valuation for those members of volunteer fire departments or volunteer rescue squads qualifying under the city code.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4191&doc_id=7ba66ed7-2b67-11f0-856f-005056a89546"
+    }
+   },
+   {
+    "item": "3.e",
+    "action": "Approved, unanimously to approve the appropriation resolutions for the general, capital, wastewater, transit, stormwater utility, cable, old town, transportation tax, debt service, and ARPA funds for the fiscal year beginning July 1, 2025, reflecting all changes approved as part of the FY 2026 budget adoption, immediately prior to this action.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4191&doc_id=7ba66ed7-2b67-11f0-856f-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "html",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. Call the special meeting to order.",
+    "items": []
+   },
+   {
+    "heading": "2. Public hearings.",
+    "items": [
+     {
+      "num": "2.a",
+      "title": "Public hearing on appropriation resolutions for the General, Capital, Wastewater, Transit, Stormwater, Cable, Old Town, Transportation Tax, Debt Service, and ARPA Funds for the FY26 budget year. (Council consideration as agenda item 3e.)",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4191&meta_id=123008"
+     }
+    ]
+   },
+   {
+    "heading": "3. Items not requiring a public hearing.",
+    "items": [
+     {
+      "num": "3.a",
+      "title": "Consideration of an ordinance amending and readopting Chapter 90, Article II, Division 1, Section 90-33 of the Code of the City of Fairfax, Virginia, pertaining to classification and taxation of certain real property in the City of Fairfax used for zoned for commercial and industrial purposes, and to establish a separate tax rate on such real property effective as of January 1, 2025, revenue from ",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4191&meta_id=123011"
+     },
+     {
+      "num": "3.b",
+      "title": "Consideration of an ordinance amending Chapter 102, Article II, Section 102-31(b) of the Code of the City of Fairfax, Virginia to increase the wastewater utility rate by 6.0 percent for FY26.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4191&meta_id=123014"
+     },
+     {
+      "num": "3.c",
+      "title": "Consideration of an ordinance amending Chapter 102, Article V, Section 102-203(b) of the Code of the City of Fairfax, Virginia to set the rate for stormwater utility service furnished by the City at $34.30 per BU (Billing Unit); a 6.0 percent increase.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4191&meta_id=123017"
+     },
+     {
+      "num": "3.d",
+      "title": "Consideration of no action on amending Chapter 90 (Taxation), Article VI (Tax on Meals), Section 90-262 of the Code of the City of Fairfax, pertaining to the levy and amount of tax on meals.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4191&meta_id=123020"
+     },
+     {
+      "num": "3.e",
+      "title": "Consideration and appropriation of the FY 2026 Budget (including all sub-budgets contained therein), together with the FY 2026 Schedule of Rates and Levies, the FY 2026 – 2030 Capital Improvement Program, and the establishment of the corresponding Real Estate Tax Rate and the Personal Property Tax Rates.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4191&meta_id=123022"
+     }
+    ]
+   },
+   {
+    "heading": "4. Adjournment.",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 154,
+    "item": "2",
+    "label": "Public hearings.",
+    "how": "index"
+   },
+   {
+    "seconds": 454,
+    "item": "3",
+    "label": "Items not requiring a public hearing.",
+    "how": "index"
+   },
+   {
+    "seconds": 945,
+    "item": "3.b",
+    "label": "Consideration of an ordinance amending Chapter 102, Article II, Section 102-31",
+    "how": "index"
+   },
+   {
+    "seconds": 1255,
+    "item": "3.c",
+    "label": "Consideration of an ordinance amending Chapter 102, Article V, Section 102-203",
+    "how": "index"
+   },
+   {
+    "seconds": 2310,
+    "item": "3.d",
+    "label": "Consideration of no action on amending Chapter 90",
+    "how": "index"
+   },
+   {
+    "seconds": 2773,
+    "item": "3.e",
+    "label": "Consideration and appropriation of the FY 2026 Budget",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-05-05-school-board-regular-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "1.04",
+    "action": "Ms. Kelsey moved, and Ms. Hickman seconded the adoption of the agenda as written and distributed. The motion passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4180&doc_id=b215cac0-4952-11f1-9b4d-005056a89546"
+    }
+   },
+   {
+    "item": "4.01",
+    "action": "Ms. Bartelme moved that the City of Fairfax School Board approve the minutes of the April 7, 2025, regular School Board meeting as printed and distributed. The motion to approve the minutes of the April 7, 2025, regular School Board meeting passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4180&doc_id=b215cac0-4952-11f1-9b4d-005056a89546"
+    }
+   },
+   {
+    "item": "4.02",
+    "action": "Ms. Cecere moved that the City of Fairfax School Board accept the Superintendent’s retirement effective July 31, 2025 and authorize the Chair to take any steps needed to effectuate that decision. The motion to accept the Superintendent’s retirement effective July 31, 2025 and authorize the Chair to take any steps needed to effectuate that decision passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4180&doc_id=b215cac0-4952-11f1-9b4d-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "pdf",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. MEETING OPENING",
+    "items": [
+     {
+      "num": "1.01",
+      "title": "Call to Order/Pledge of Allegiance"
+     },
+     {
+      "num": "1.02",
+      "title": "Announcement of Change in the Agenda"
+     },
+     {
+      "num": "1.03",
+      "title": "Other Announcements; Jeff Platenberg, Superintendent"
+     },
+     {
+      "num": "1.04",
+      "title": "Agenda Adoption"
+     },
+     {
+      "num": "1.05",
+      "title": "Student Recognition"
+     }
+    ]
+   },
+   {
+    "heading": "2. PRESENTATIONS TO THE SCHOOL BOARD",
+    "items": [
+     {
+      "num": "2.01",
+      "title": "Citizen Participation (Persons who wish to address the School Board should arrange to be placed on the speakers’ list by calling 703/293-7132 or sign up prior to the meeting with the Board Clerk.)"
+     },
+     {
+      "num": "2.02",
+      "title": "Update Future Development Data: Mr. Eric Forman, Planning Division",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4180&meta_id=122955"
+     }
+    ]
+   },
+   {
+    "heading": "3. PUBLIC HEARING None.",
+    "items": []
+   },
+   {
+    "heading": "4. ACTION ITEMS (Items under this heading are discussed and voted upon by the Board)",
+    "items": [
+     {
+      "num": "4.01",
+      "title": "Approval of Minutes – April 7, 2025",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4180&meta_id=122959"
+     },
+     {
+      "num": "4.02",
+      "title": "Approval to approve Personnel Item",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4180&meta_id=122984"
+     }
+    ]
+   },
+   {
+    "heading": "5. SUPERINTENDENT MATTERS (The Superintendent may present other items for information)",
+    "items": []
+   },
+   {
+    "heading": "6. BOARD MATTERS (Board members may ask questions and introduce topics for further consideration.)",
+    "items": []
+   },
+   {
+    "heading": "7. ADJOURNMENT City of Fairfax City School Board Meeting",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 466,
+    "item": "1.04",
+    "label": "Vote: Agenda Adoption",
+    "how": "transcript-vote"
+   },
+   {
+    "seconds": 6829,
+    "item": "4.01",
+    "label": "Vote: Approval of Minutes – April 7, 2025",
+    "how": "transcript-vote"
+   },
+   {
+    "seconds": 6865,
+    "item": "4.02",
+    "label": "Vote: Approval to approve Personnel Item",
+    "how": "transcript-vote"
+   }
+  ]
+ },
+ "fxc-2025-04-22-city-council-work-session-and-regular-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "2.e",
+    "action": "Approved, 5-0, the adoption of the agenda with the amendment relating to consideration of actions arising from the work session pertaining to various city trail projects. Further moved this item to be added immediately after adoption of the agenda as item #4a. (Councilmember Bates absent.)",
+    "tally": "5-0",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4167&doc_id=672c30f5-206c-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "2.e",
+    "action": "Approved, 4-2, Councilmembers Amos and Hardy-Chandler opposed, that the city pause all actions with respect of the Pickett Trail in order to examine alternatives.",
+    "tally": "4-2, Councilmembers Amos and Hardy-Chandler opposed",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4167&doc_id=672c30f5-206c-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "2.e",
+    "action": "Approved, unanimously, the city terminates all actions with respect to the Country Club Hills Connector Trail.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4167&doc_id=672c30f5-206c-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "2.d",
+    "action": "Approved, unanimously to authorize the purchasing agent to award a construction contract in the estimated amount of $4,117,611 to Sagres Construction Corporation for Intersection Improvements at the McLean Ave/Warwick Ave/Fairfax Blvd intersection.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4167&doc_id=672c30f5-206c-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "2.e",
+    "action": "Approved, unanimously the introduction of the appropriation resolutions for the General, Capital, Wastewater, Transit, Stormwater Utility, Cable, Old Town, Transportation Tax, Debt Service and ARPA funds for the fiscal year beginning July 1, 2025. Further moved to waive the first reading and set the public hearing for May 6, 2025.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4167&doc_id=672c30f5-206c-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "2.e",
+    "action": "Approved, unanimously the consent agenda items #7a-c.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4167&doc_id=672c30f5-206c-11f0-955d-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "html",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. Work Session. Work Session Room 111. 4:30 P.M.",
+    "items": [
+     {
+      "num": "1.a",
+      "title": "Discussion on the Community Survey process.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122624"
+     },
+     {
+      "num": "1.b",
+      "title": "Discussion and update on Fire Station #3 Feasibility Study.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122627"
+     },
+     {
+      "num": "1.c",
+      "title": "Discussion and update on Willard-Sherwood development.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122630"
+     },
+     {
+      "num": "1.d",
+      "title": "Discussion on the Virginia Public-Private Educational Facilities and Infrastructures Act (PPEA) and response to Request For Information (RFI).",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122633"
+     },
+     {
+      "num": "1.e",
+      "title": "Discussion and update on trail projects.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122636"
+     }
+    ]
+   },
+   {
+    "heading": "2. Adjournment.",
+    "items": []
+   },
+   {
+    "heading": "1. Call the regular meeting to order.",
+    "items": []
+   },
+   {
+    "heading": "2. Pledge of Allegiance.",
+    "items": []
+   },
+   {
+    "heading": "3. Presentations and Proclamations.",
+    "items": [
+     {
+      "num": "3.a",
+      "title": "Presentation of a proclamation acknowledging April 22, 2025 as Earth Day, and April 25, 2025 as Arbor Day in the City of Fairfax."
+     },
+     {
+      "num": "3.b",
+      "title": "Presentation of a proclamation acknowledging May as Bike Month in the City of Fairfax."
+     },
+     {
+      "num": "3.c",
+      "title": "Presentation of a proclamation acknowledging May as National Preservation Month in the City of Fairfax."
+     },
+     {
+      "num": "3.d",
+      "title": "Presentation of a proclamation acknowledging April 21 - 28, 2025 as International Dark Sky Week."
+     },
+     {
+      "num": "3.e",
+      "title": "Presentation of the Chocolate Lovers Grants."
+     }
+    ]
+   },
+   {
+    "heading": "4. Adoption of the agenda.",
+    "items": []
+   },
+   {
+    "heading": "5. Public hearings.",
+    "items": [
+     {
+      "num": "5.a",
+      "title": "Public hearing on the maximum Real Estate Tax of $1.150 per $100 of assessed value based upon an assessment ratio of 100% of fair market value, and a personal property and machinery and tools tax rate of $4.13 per $100 of assessed value based upon an assessment ratio of 100% trade-in value (No Council action, tax rates set on May 6, 2025).",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122653"
+     },
+     {
+      "num": "5.b",
+      "title": "Public hearing on an ordinance amending and readopting Chapter 90, Article II, Division 1, Section 90-33 of the Code of the City of Fairfax, Virginia, pertaining to classification and taxation of certain real property in the City of Fairfax used for zoned for commercial and industrial purposes, and to establish a separate tax rate on such real property effective as of January 1, 2025, revenue from",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122655"
+     },
+     {
+      "num": "5.c",
+      "title": "Public hearing on an ordinance amending Chapter 102, Article II, Section 102-31(b) of the Code of the City of Fairfax, Virginia to increase the wastewater utility rate by 6.0 percent for FY26 (No Council action, Council Consideration on May 6, 2025).",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122657"
+     },
+     {
+      "num": "5.d",
+      "title": "Public hearing on an ordinance amending Chapter 102, Article V, Section 102-203(b) of the Code of the City of Fairfax, Virginia to set the rate for stormwater utility service furnished by the City at $34.30 per BU (Billing Unit); a 6.0 percent increase (No Council action, Council Consideration on May 6, 2025).",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122659"
+     },
+     {
+      "num": "5.e",
+      "title": "Public hearing on an ordinance amending Chapter 90 (Taxation), Article VI (Tax on Meals), Section 90-262 of the Code of the City of Fairfax, pertaining to the levy and amount of tax on meals (No Council action, Council Consideration on May 6, 2025).",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122661"
+     }
+    ]
+   },
+   {
+    "heading": "6. General public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing).",
+    "items": []
+   },
+   {
+    "heading": "7. Consent agenda.",
+    "items": [
+     {
+      "num": "7.a",
+      "title": "Consideration of the March 25, 2025 Regular Meeting Minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122666"
+     },
+     {
+      "num": "7.b",
+      "title": "Consideration of the April 1, 2025 Special Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122668"
+     },
+     {
+      "num": "7.c",
+      "title": "Consideration of the April 8, 2025 Regular Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122670"
+     },
+     {
+      "num": "7.d",
+      "title": "Consideration of an Award of Construction Contract to Sagres Construction Corporation in the estimated amount of $4,117,611 for Intersection Improvements at the McLean Ave/Warwick Ave/Fairfax Blvd Intersection.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122672"
+     },
+     {
+      "num": "7.e",
+      "title": "Introduction of appropriation resolutions for the General, Capital, Wastewater, Transit, Stormwater, Cable, Old Town, Transportation Tax, Debt Service, and American Rescue Plan Act (ARPA) Funds for the FY26 budget year.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122674"
+     }
+    ]
+   },
+   {
+    "heading": "8. Items not requiring a public hearing. None.",
+    "items": []
+   },
+   {
+    "heading": "9. Recess the regular meeting to go into a work session.",
+    "items": []
+   },
+   {
+    "heading": "10. Work Session.",
+    "items": [
+     {
+      "num": "10.a",
+      "title": "Discussion the FY 2025 quarterly financial review.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4167&meta_id=122679"
+     },
+     {
+      "num": "10.b",
+      "title": "Discussion on the proposed FY26 budget."
+     }
+    ]
+   },
+   {
+    "heading": "11. Reconvene the regular meeting.",
+    "items": []
+   },
+   {
+    "heading": "12. City Manager report out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "13. Council Comments and Committee reports out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "14. Closed meeting to discuss personnel matters.",
+    "items": []
+   },
+   {
+    "heading": "15. Adjournment.",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 36,
+    "item": "1.a",
+    "label": "Discussion on the Community Survey process.",
+    "how": "index"
+   },
+   {
+    "seconds": 1525,
+    "item": "1.b",
+    "label": "Discussion and update on Fire Station #3 Feasibility Study.",
+    "how": "index"
+   },
+   {
+    "seconds": 3131,
+    "item": "1.c",
+    "label": "Discussion and update on Willard-Sherwood development.",
+    "how": "index"
+   },
+   {
+    "seconds": 8360,
+    "item": "1.e",
+    "label": "Discussion and update on trail projects.",
+    "how": "index"
+   },
+   {
+    "seconds": 10220,
+    "item": "3.a",
+    "label": "Presentation of a proclamation acknowledging April 22, 2025 as Earth Day, and April 25, 2025 as Arbor Day in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 10673,
+    "item": "3.b",
+    "label": "Presentation of a proclamation acknowledging May as Bike Month in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 10854,
+    "item": "3.c",
+    "label": "Presentation of a proclamation acknowledging May as National Preservation Month in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 11245,
+    "item": "3.d",
+    "label": "Presentation of a proclamation acknowledging April 21 - 28, 2025 as International Dark Sky Week.",
+    "how": "index"
+   },
+   {
+    "seconds": 11560,
+    "item": "3.e",
+    "label": "Presentation of the Chocolate Lovers Grants.",
+    "how": "index"
+   },
+   {
+    "seconds": 11855,
+    "item": "4",
+    "label": "Adoption of the agenda.",
+    "how": "index"
+   },
+   {
+    "seconds": 12105,
+    "item": "5.a",
+    "label": "Public hearing on the maximum Real Estate Tax of $1.150 per $100 of assessed value based upon an assessment ratio of 100% of fair market…",
+    "how": "index"
+   },
+   {
+    "seconds": 13038,
+    "item": "5.b",
+    "label": "Public hearing on an ordinance amending and readopting Chapter 90, Article II, Division 1, Section 90-33 of the Code of the City of Fairf…",
+    "how": "index"
+   },
+   {
+    "seconds": 13220,
+    "item": "5.c",
+    "label": "Public hearing on an ordinance amending Chapter 102, Article II, Section 102-31",
+    "how": "index"
+   },
+   {
+    "seconds": 13381,
+    "item": "5.d",
+    "label": "Public hearing on an ordinance amending Chapter 102, Article V, Section 102-203",
+    "how": "index"
+   },
+   {
+    "seconds": 13476,
+    "item": "5.e",
+    "label": "Public hearing on an ordinance amending Chapter 90",
+    "how": "index"
+   },
+   {
+    "seconds": 14995,
+    "item": "6",
+    "label": "General public comment period",
+    "how": "index"
+   },
+   {
+    "seconds": 15851,
+    "item": "7.d",
+    "label": "Consideration of an Award of Construction Contract to Sagres Construction Corporation in the estimated amount of $4,117,611 for Intersect…",
+    "how": "index"
+   },
+   {
+    "seconds": 16209,
+    "item": "7.e",
+    "label": "Introduction of appropriation resolutions for the General, Capital, Wastewater, Transit, Stormwater, Cable, Old Town, Transportation Tax,…",
+    "how": "index"
+   },
+   {
+    "seconds": 16982,
+    "item": "10.a",
+    "label": "Discussion the FY 2025 quarterly financial review.",
+    "how": "index"
+   },
+   {
+    "seconds": 17610,
+    "item": "10.b",
+    "label": "Discussion on the proposed FY26 budget.",
+    "how": "index"
+   },
+   {
+    "seconds": 27563,
+    "item": "12",
+    "label": "City Manager report out",
+    "how": "index"
+   },
+   {
+    "seconds": 27631,
+    "item": "13",
+    "label": "Council Comments and Committee reports out",
+    "how": "index"
+   },
+   {
+    "seconds": 28254,
+    "item": "14",
+    "label": "Closed meeting to discuss personnel matters.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-04-21-school-board-work-session": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [],
+  "minutesKind": "pdf",
+  "noVotesRecorded": true,
+  "agenda": [
+   {
+    "heading": "1. PRESENTATIONS TO THE SCHOOL BOARD",
+    "items": [
+     {
+      "num": "1.01",
+      "title": "Middle School Student Panel- 6:30 High School Student Panel – 7:15",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4166&meta_id=122618"
+     },
+     {
+      "num": "1.02",
+      "title": "Plan for FCPS Summer School: Jeff Platenberg, Superintendent/Carrie Dorsey, Communications Director",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4166&meta_id=122621"
+     }
+    ]
+   }
+  ],
+  "moments": []
+ },
+ "fxc-2025-04-08-city-council-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "4",
+    "action": "Approved, unanimously, the adoption of the agenda with the addition of the following item: George Snyder Trail (GST) Advertising Cancellation and Project Modification.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "4",
+    "action": "Approved 5-1, Councilmember McQuillen opposed, to further amend the agenda to add the following item: Pausing of any additional staff activity, independent of roadway projects currently in progress, on trails projects to include the Country Club Hills Trail and Pickett Road Trail.",
+    "tally": "5-1, Councilmember McQuillen opposed",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "4",
+    "action": "Approved, unanimously, a motion that the City shall not advertise the George Snyder Trail project in its current proposed configuration and further that City staff be directed to work with the City Council on exploring possible modifications to the George Snyder Trail project, understanding that VDOT has given the City a deadline of December 31, 2025, to advertise for construction.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "4",
+    "action": "Approved 3-2, Councilmembers Hardy-Chandler and McQuillen opposed, that the City pause the expenditure of any further funds on the Country Club Hills Trail, the Pickett Road Connector Trail, and any other trail until after the April 22, 2025 Work Session and the elimination of any activity independent of roadway projects currently in progress (Councilmember Amos abstained).",
+    "tally": "3-2, Councilmembers Hardy-Chandler and McQuillen opposed",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "5.a",
+    "action": "Approved, unanimously that the City Council approve the request of the City of Fairfax School Board, applicant, for a Special Use Permit pursuant to City Code Section 110-3.3.1 schools, elementary, middle, high use to allow temporary expansion of Providence Elementary School using modular temporary classrooms in the RM Residential Medium Zoning on the premises known as 3616 Jermantown Road and more particularly described as tax map parcel 47-3-01-040, subject to the following condition:",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "1.b",
+    "action": "Approved, unanimously that the City Council approve the request of the City of Fairfax School Board, applicant, for a Special Use Permit pursuant to City Code Section 110-3.3.1 schools, elementary, middle, high use to allow temporary expansion of Fairfax High School using modular temporary classrooms in the RM Residential Medium Zoning on the premises known as 3501 Lion Run and more particularly described as tax map parcel 58-1-02-003, subject to the following conditions:",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "7.c",
+    "action": "Approved, unanimously, consent agenda items #7a - #7c.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "7.d",
+    "action": "Approved 4-2, Councilmembers Hall and McQuillen opposed, a motion to introduce an ordinance amending Chapter 102, Article II, Section 102-31(b) of the Code of the City of Fairfax, Virginia to increase the wastewater utility rate by 6.0% percent for FY 26. Further moved to waive the first reading and set the public hearing for April 22, 2025.",
+    "tally": "4-2, Councilmembers Hall and McQuillen opposed",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "7.e",
+    "action": "Approved 4-3, Councilmembers Hall, McQuillen, and Peterson opposed, a motion to introduce an ordinance amending Chapter 102, Article V, Section 102-203(b) of the Code of the City of Fairfax, Virginia, increasing the rate per billing unit used in calculating the stormwater utility fee for the calendar year beginning January 1, 2025 to $34.40. Further moved to waive the first reading and set the public hearing for April 22, 2025.",
+    "tally": "4-3",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+   },
+   {
+    "item": "7.f",
+    "action": "Approved 4-3, Councilmembers Hall, McQuillen, and Peterson opposed, a motion to introduce an ordinance amending Chapter 90, Article VI, Section 90-262 of the Code of the City of Fairfax, Virginia, pertaining to the levy and amount of the meals tax. Further moved to waive the first reading and set the public hearing for April 22, 2025.",
+    "tally": "4-3",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4159&doc_id=076969fd-157d-11f0-955d-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "html",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. Call the regular meeting to order.",
+    "items": []
+   },
+   {
+    "heading": "2. Pledge of Allegiance.",
+    "items": []
+   },
+   {
+    "heading": "3. Presentations and Proclamations.",
+    "items": [
+     {
+      "num": "3.a",
+      "title": "Presentation of a proclamation acknowledging April 6 - April 12, 2025 as National Library Week in the City of Fairfax."
+     },
+     {
+      "num": "3.b",
+      "title": "Presentation of a proclamation acknowledging the 40th year of Fairfax Spotlight on the Arts in the City of Fairfax.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4159&meta_id=122289"
+     }
+    ]
+   },
+   {
+    "heading": "4. Adoption of the agenda.",
+    "items": []
+   },
+   {
+    "heading": "5. Public hearings.",
+    "items": [
+     {
+      "num": "5.a",
+      "title": "Public hearing and Council action on a request of the City of Fairfax School Board, applicant, by Dan Phillips, agent, for a Special Use Permit pursuant to City Code Section 110-3.3.1 to allow continued use of temporary modular classrooms at Providence Elementary School in the RM Residential Medium Zoning District and Architectural Control Overlay District on the premises known as 3616 Jermantown ",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4159&meta_id=122294"
+     },
+     {
+      "num": "5.b",
+      "title": "Public hearing and Council action on a request of the City of Fairfax School Board, applicant, by Dan Phillips, agent, for a Special Use Permit pursuant to City Code Section 110-3.3.1 to allow continued use of temporary modular classrooms at Fairfax High School in the RM Residential Medium Zoning District and Architectural Control Overlay District on the premises known as 3501 Lion Run and more pa",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4159&meta_id=122298"
+     },
+     {
+      "num": "5.c",
+      "title": "Public hearing on the proposed FY26 budget. (No Council action.)"
+     }
+    ]
+   },
+   {
+    "heading": "6. General public comment.",
+    "items": []
+   },
+   {
+    "heading": "7. Consent agenda.",
+    "items": [
+     {
+      "num": "7.a",
+      "title": "Consideration of the March 18, 2025 Special Meeting Minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4159&meta_id=122305"
+     },
+     {
+      "num": "7.b",
+      "title": "Consideration of appointments to boards and commissions.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4159&meta_id=122307"
+     },
+     {
+      "num": "7.c",
+      "title": "Introduction of an ordinance amending and readopting Chapter 90, Article II, Division 1, Section 90-33 of the Code of the City of Fairfax, Virginia, pertaining to classification and taxation of certain real property in the City of Fairfax used for zoned for commercial and industrial purposes, and to establish a separate tax rate on such real property effective as of January 1, 2025, revenue from w",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4159&meta_id=122309"
+     },
+     {
+      "num": "7.d",
+      "title": "Introduction of an ordinance amending Chapter 102, Article II, Section 102-31(b) of the Code of the City of Fairfax, Virginia to increase the wastewater utility rate by 6.0% percent for FY 26.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4159&meta_id=122311"
+     },
+     {
+      "num": "7.e",
+      "title": "Introduction of an ordinance amending Chapter 102, Article V, Section 102-203(b) of the Code of the City of Fairfax, Virginia to set the rate for stormwater utility service furnished by the City at $34.30 per BU (Billing Unit); a 6.0 percent increase.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4159&meta_id=122313"
+     },
+     {
+      "num": "7.f",
+      "title": "Introduction of an ordinance amending Chapter 90 (Taxation), Article VI (Tax on Meals), Section 90-262 of the Code of the City of Fairfax, pertaining to the levy and amount of tax on meals.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4159&meta_id=122315"
+     }
+    ]
+   },
+   {
+    "heading": "8. Items not requiring a public hearing. None.",
+    "items": []
+   },
+   {
+    "heading": "9. Recess the regular meeting to go into a work session.",
+    "items": []
+   },
+   {
+    "heading": "10. Work Session.",
+    "items": [
+     {
+      "num": "10.a",
+      "title": "Discussion and update on the Old Town Hall (3999 University Drive) renovation project. RESCHEDULED FOR APRIL 22, 2025",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4159&meta_id=122321"
+     },
+     {
+      "num": "10.b",
+      "title": "Discussion on the proposed FY26 budget."
+     }
+    ]
+   },
+   {
+    "heading": "11. Reconvene the regular meeting.",
+    "items": []
+   },
+   {
+    "heading": "12. City Manager report out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "13. Council Comments and Committee reports out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "14. Closed meeting (if needed).",
+    "items": []
+   },
+   {
+    "heading": "15. Adjournment.",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 48,
+    "item": "3.a",
+    "label": "Presentation of a proclamation acknowledging April 6 - April 12, 2025 as National Library Week in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 284,
+    "item": "3.b",
+    "label": "Presentation of a proclamation acknowledging the 40th year of Fairfax Spotlight on the Arts in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 602,
+    "item": "4",
+    "label": "Adoption of the agenda.",
+    "how": "index"
+   },
+   {
+    "seconds": 1802,
+    "item": "5.a",
+    "label": "Public hearing and Council action on a request of the City of Fairfax School Board, applicant, by Dan Phillips, agent, for a Special Use…",
+    "how": "index"
+   },
+   {
+    "seconds": 2623,
+    "item": "5.b",
+    "label": "Public hearing and Council action on a request of the City of Fairfax School Board, applicant, by Dan Phillips, agent, for a Special Use…",
+    "how": "index"
+   },
+   {
+    "seconds": 3626,
+    "item": "5.c",
+    "label": "Public hearing on the proposed FY26 budget.",
+    "how": "index"
+   },
+   {
+    "seconds": 7027,
+    "item": "6",
+    "label": "General public comment.",
+    "how": "index"
+   },
+   {
+    "seconds": 8451,
+    "item": "7.d",
+    "label": "Introduction of an ordinance amending Chapter 102, Article II, Section 102-31",
+    "how": "index"
+   },
+   {
+    "seconds": 8959,
+    "item": "7.e",
+    "label": "Introduction of an ordinance amending Chapter 102, Article V, Section 102-203",
+    "how": "index"
+   },
+   {
+    "seconds": 9186,
+    "item": "7.f",
+    "label": "Introduction of an ordinance amending Chapter 90",
+    "how": "index"
+   },
+   {
+    "seconds": 10766,
+    "item": "10.b",
+    "label": "Discussion on the proposed FY26 budget.",
+    "how": "index"
+   },
+   {
+    "seconds": 19246,
+    "item": "13",
+    "label": "Council Comments and Committee reports out",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-04-07-school-board-regular-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "1.04",
+    "action": "Mrs. Kelsey moved and Mrs. Cecere seconded the adoption of the agenda as written and distributed. The motion passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4158&doc_id=fa01392f-421a-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "4.01",
+    "action": "Ms. Hickman moved that the City of Fairfax School Board approve the minutes of the March 3, 2025, regular School Board meeting as printed and distributed. The motion to approve the minutes of the March 3, 2025 regular School Board meeting passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4158&doc_id=fa01392f-421a-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "1.34",
+    "action": "Ms. Cecere moved that the City of Fairfax School Board approve the update to section 1.34 of the School Board Policy Manual as printed and distributed. The motion passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4158&doc_id=fa01392f-421a-11f0-b7f5-005056a89546"
+    }
+   },
+   {
+    "item": "4.03",
+    "action": "Ms. Bartelme moved that the City of Fairfax School Board approve the reallocation of Capital Improvement Plan (CIP) funds to support the completion of the Daniels Run Elementary School vestibule project. The motion passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4158&doc_id=fa01392f-421a-11f0-b7f5-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "pdf",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. MEETING OPENING",
+    "items": [
+     {
+      "num": "1.01",
+      "title": "Call to Order/Pledge of Allegiance"
+     },
+     {
+      "num": "1.02",
+      "title": "Announcement of Change in the Agenda"
+     },
+     {
+      "num": "1.03",
+      "title": "Other Announcements"
+     },
+     {
+      "num": "1.04",
+      "title": "Adoption of the Agenda"
+     },
+     {
+      "num": "1.05",
+      "title": "Presentation of All Night Graduation Celebration donation; ANG Committee members Sobhna Simpson and Zenobia Geadah"
+     }
+    ]
+   },
+   {
+    "heading": "2. PRESENTATIONS TO THE SCHOOL BOARD",
+    "items": [
+     {
+      "num": "2.01",
+      "title": "Citizen Participation (Persons who wish to address the School Board should arrange to be placed on the speakers’ list by calling 703/293-7132 or sign up prior to the meeting with the Board Clerk.)"
+     },
+     {
+      "num": "2.02",
+      "title": "Student Representative Report: Siya Batra",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4158&meta_id=122275"
+     },
+     {
+      "num": "2.03",
+      "title": "State of the Schools Report; Fairfax High School; Ms. Georgina Aye, Principal",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4158&meta_id=122277"
+     }
+    ]
+   },
+   {
+    "heading": "3. PUBLIC HEARING None.",
+    "items": []
+   },
+   {
+    "heading": "4. ACTION ITEMS (Items under this heading are discussed and voted upon by the Board)",
+    "items": [
+     {
+      "num": "4.01",
+      "title": "Approval of March 3, 2025, Minutes",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4158&meta_id=122279"
+     },
+     {
+      "num": "4.02",
+      "title": "School Board Policy Manual Update",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4158&meta_id=122281"
+     },
+     {
+      "num": "4.03",
+      "title": "Reallocate CIP Funds",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4158&meta_id=122458"
+     }
+    ]
+   },
+   {
+    "heading": "5. SUPERINTENDENT MATTERS (The Superintendent may present other items for information)",
+    "items": []
+   },
+   {
+    "heading": "6. BOARD MATTERS (Board members may ask questions and introduce topics for further consideration.)",
+    "items": []
+   },
+   {
+    "heading": "7. ADJOURNMENT",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 72,
+    "item": "1.04",
+    "label": "Vote: Adoption of the Agenda",
+    "how": "transcript-vote"
+   },
+   {
+    "seconds": 4120,
+    "item": "4.01",
+    "label": "Vote: Approval of March 3, 2025, Minutes",
+    "how": "transcript-vote"
+   },
+   {
+    "seconds": 4158,
+    "item": "1.34",
+    "label": "Vote: Ms. Cecere moved that the City of Fairfax School Board approve the update to section 1.34 of the Sch",
+    "how": "transcript-vote"
+   },
+   {
+    "seconds": 4238,
+    "item": "4.03",
+    "label": "Vote: Reallocate CIP Funds",
+    "how": "transcript-vote"
+   }
+  ]
+ },
+ "fxc-2025-04-01-city-council-work-session": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [],
+  "minutesKind": "html",
+  "noVotesRecorded": true,
+  "agenda": [
+   {
+    "heading": "1. Call the special meeting to order. 6:00 P.M.",
+    "items": []
+   },
+   {
+    "heading": "2. Convene a closed meeting to conduct interviews for Boards and Commissions, and discuss appointments to Boards and Commissions.",
+    "items": []
+   },
+   {
+    "heading": "3. Adjourn. 1. Work Session. 7:30 P.M.",
+    "items": []
+   },
+   {
+    "heading": "1. Work Session. 7:00 P.M.",
+    "items": [
+     {
+      "num": "1.a",
+      "title": "Discussion on the proposed FY26 budget.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4153&meta_id=122141"
+     }
+    ]
+   },
+   {
+    "heading": "2. Adjournment",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 13,
+    "item": "1.a",
+    "label": "Discussion on the proposed FY26 budget.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-03-25-city-council-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "4",
+    "action": "Approved, unanimously the adoption of agenda.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4150&doc_id=646748dc-0a56-11f0-ab6a-005056a89546"
+    }
+   },
+   {
+    "item": "6.a",
+    "action": "Approved, unanimously the consent agenda.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4150&doc_id=646748dc-0a56-11f0-ab6a-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "html",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. Call the special meeting to order. 6:00 P.M.",
+    "items": []
+   },
+   {
+    "heading": "2. Convene a closed meeting to conduct interviews for Boards and Commissions and discuss appointments to Boards and Commissions and to discuss personnel matters.",
+    "items": []
+   },
+   {
+    "heading": "3. Adjourn.",
+    "items": []
+   },
+   {
+    "heading": "1. Call the regular meeting to order.",
+    "items": []
+   },
+   {
+    "heading": "2. Pledge of Allegiance.",
+    "items": []
+   },
+   {
+    "heading": "3. Presentations and Proclamations.",
+    "items": [
+     {
+      "num": "3.a",
+      "title": "Presentation of a proclamation acknowledging March 31, 2025 as Transgender Day of Visibility in the City of Fairfax.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4150&meta_id=122012"
+     },
+     {
+      "num": "3.b",
+      "title": "Presentation of a proclamation acknowledging March as Procurement Professionals Month in the City of Fairfax."
+     }
+    ]
+   },
+   {
+    "heading": "4. Adoption of the agenda.",
+    "items": []
+   },
+   {
+    "heading": "5. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk’s office (703-385-7935) prior to 5:00 p.m. the day of the meeting may speak at this time. Any remaining speak",
+    "items": []
+   },
+   {
+    "heading": "6. Consent agenda.",
+    "items": [
+     {
+      "num": "6.a",
+      "title": "Consideration of the March 11, 2025 Regular Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4150&meta_id=122020"
+     }
+    ]
+   },
+   {
+    "heading": "7. Public hearings.",
+    "items": [
+     {
+      "num": "7.a",
+      "title": "Public hearing on the Chain Bridge Road/Eaton Place Intersection Improvements Project (No Council action.)",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4150&meta_id=122023"
+     },
+     {
+      "num": "7.b",
+      "title": "Public hearing on the proposed FY26 budget. (No Council action.)"
+     }
+    ]
+   },
+   {
+    "heading": "8. Second general public comment period (a maximum of three (3) minutes per speaker for any city matters not requiring a public hearing – limited to speakers who did not speak under initial general public comment period).",
+    "items": []
+   },
+   {
+    "heading": "9. Items not requiring a public hearing. None.",
+    "items": []
+   },
+   {
+    "heading": "10. Recess the regular meeting to go into a work session.",
+    "items": []
+   },
+   {
+    "heading": "11. Work Session.",
+    "items": [
+     {
+      "num": "11.a",
+      "title": "Discussion on the proposed FY26 budget."
+     }
+    ]
+   },
+   {
+    "heading": "12. Reconvene the regular meeting.",
+    "items": []
+   },
+   {
+    "heading": "13. City Manager report out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "14. Council Comments and Committee reports out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "15. Closed meeting for consultation with legal counsel for non-litigation matters and consultation with legal counsel regarding actual/probable litigation.",
+    "items": []
+   },
+   {
+    "heading": "16. Adjournment.",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 141,
+    "item": "3.a",
+    "label": "Presentation of a proclamation acknowledging March 31, 2025 as Transgender Day of Visibility in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 631,
+    "item": "3.b",
+    "label": "Presentation of a proclamation acknowledging March as Procurement Professionals Month in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 904,
+    "item": "4",
+    "label": "Adoption of the agenda.",
+    "how": "index"
+   },
+   {
+    "seconds": 1616,
+    "item": "5",
+    "label": "Initial general public comment period",
+    "how": "index"
+   },
+   {
+    "seconds": 3225,
+    "item": "7",
+    "label": "Public hearings.",
+    "how": "index"
+   },
+   {
+    "seconds": 6318,
+    "item": "7.b",
+    "label": "Public hearing on the proposed FY26 budget.",
+    "how": "index"
+   },
+   {
+    "seconds": 8739,
+    "item": "11.a",
+    "label": "Discussion on the proposed FY26 budget.",
+    "how": "index"
+   },
+   {
+    "seconds": 14507,
+    "item": "14",
+    "label": "Council Comments and Committee reports out",
+    "how": "index"
+   },
+   {
+    "seconds": 15615,
+    "item": "15",
+    "label": "Closed meeting for consultation with legal counsel for non-litigation matters and consultation with legal counsel regarding actual/probab…",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-03-17-school-board-work-session": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [],
+  "minutesKind": "pdf",
+  "noVotesRecorded": true,
+  "agenda": [
+   {
+    "heading": "1. PRESENTATIONS TO THE SCHOOL BOARD",
+    "items": [
+     {
+      "num": "1.01",
+      "title": "SB Student Representative Selection Process; Mr. David Friedman and Ms. Kylie Horn",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4134&meta_id=121854"
+     },
+     {
+      "num": "1.02",
+      "title": "Budget Reduction Exercise Discussion"
+     },
+     {
+      "num": "1.03",
+      "title": "Student Panel Questions"
+     }
+    ]
+   }
+  ],
+  "moments": []
+ },
+ "fxc-2025-03-11-city-council-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "4",
+    "action": "Approved, unanimously the adoption of agenda.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4131&doc_id=a620c69d-ff5a-11ef-ab6a-005056a89546"
+    }
+   },
+   {
+    "item": "6.b",
+    "action": "Approved, unanimously the consent agenda.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4131&doc_id=a620c69d-ff5a-11ef-ab6a-005056a89546"
+    }
+   },
+   {
+    "item": "12.a",
+    "action": "Approved, 4-2, Councilmembers Hall and Peterson opposed, that the City Council advertise a proposed real estate tax rate of $1.150 per $100 of assessed value.",
+    "tally": "4-2, Councilmembers Hall and Peterson opposed",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4131&doc_id=a620c69d-ff5a-11ef-ab6a-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "html",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. Call the regular meeting to order.",
+    "items": []
+   },
+   {
+    "heading": "2. Pledge of Allegiance.",
+    "items": []
+   },
+   {
+    "heading": "3. Presentations and Proclamations.",
+    "items": [
+     {
+      "num": "3.a",
+      "title": "Presentation of a proclamation acknowledging Women’s History Month in the City of Fairfax."
+     },
+     {
+      "num": "3.b",
+      "title": "Presentation of a proclamation acknowledging the 50th Anniversary of the National Association of Women Business Owners (NAWBO) Greater DC."
+     },
+     {
+      "num": "3.c",
+      "title": "Presentation of a proclamation acknowledging March 21, 2025 at Save Soil Day in the City of Fairfax."
+     }
+    ]
+   },
+   {
+    "heading": "4. Adoption of the agenda.",
+    "items": []
+   },
+   {
+    "heading": "5. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk’s office (703-385-7935) prior to 5:00 p.m. the day of the meeting may speak at this time. Any remaining speak",
+    "items": []
+   },
+   {
+    "heading": "6. Consent agenda.",
+    "items": [
+     {
+      "num": "6.a",
+      "title": "Consideration of the February 18, 2025 Special Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4131&meta_id=121706"
+     },
+     {
+      "num": "6.b",
+      "title": "Consideration of the February 25, 2025 Regular Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4131&meta_id=121708"
+     }
+    ]
+   },
+   {
+    "heading": "7. Public hearings.",
+    "items": [
+     {
+      "num": "7.a",
+      "title": "Public hearing on the proposed FY26 budget. (No Council action.)"
+     }
+    ]
+   },
+   {
+    "heading": "8. Second general public comment period (a maximum of three (3) minutes per speaker for any city matters not requiring a public hearing – limited to speakers who did not speak under initial general public comment period).",
+    "items": []
+   },
+   {
+    "heading": "9. Recess the regular meeting to go into a work session.",
+    "items": []
+   },
+   {
+    "heading": "10. Work Session.",
+    "items": [
+     {
+      "num": "10.a",
+      "title": "Discussion and update on the George Snyder Trail project.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4131&meta_id=121715"
+     },
+     {
+      "num": "10.b",
+      "title": "Discussion on the proposed FY26 budget."
+     }
+    ]
+   },
+   {
+    "heading": "11. Reconvene the regular meeting.",
+    "items": []
+   },
+   {
+    "heading": "12. Items not requiring a public hearing.",
+    "items": [
+     {
+      "num": "12.a",
+      "title": "Consideration of the maximum Real Estate Tax Rate for fiscal year FY 2026 to be advertised.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4131&meta_id=121721"
+     }
+    ]
+   },
+   {
+    "heading": "13. City Manager report out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "14. Council Comments and Committee reports out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "15. Closed meeting for consultation with legal counsel regarding non litigation.",
+    "items": []
+   },
+   {
+    "heading": "16. Adjournment.",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 85,
+    "item": "3.a",
+    "label": "Presentation of a proclamation acknowledging Women’s History Month in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 350,
+    "item": "3.b",
+    "label": "Presentation of a proclamation acknowledging the 50th Anniversary of the National Association of Women Business Owners",
+    "how": "index"
+   },
+   {
+    "seconds": 621,
+    "item": "3.c",
+    "label": "Presentation of a proclamation acknowledging March 21, 2025 at Save Soil Day in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 984,
+    "item": "4",
+    "label": "Adoption of the agenda.",
+    "how": "index"
+   },
+   {
+    "seconds": 3061,
+    "item": "7.a",
+    "label": "Public hearing on the proposed FY26 budget.",
+    "how": "index"
+   },
+   {
+    "seconds": 3204,
+    "item": "8",
+    "label": "Second general public comment period",
+    "how": "index"
+   },
+   {
+    "seconds": 4762,
+    "item": "10.a",
+    "label": "Discussion and update on the George Snyder Trail project.",
+    "how": "index"
+   },
+   {
+    "seconds": 13862,
+    "item": "10.b",
+    "label": "Discussion on the proposed FY26 budget.",
+    "how": "index"
+   },
+   {
+    "seconds": 18777,
+    "item": "12",
+    "label": "Items not requiring a public hearing.",
+    "how": "index"
+   },
+   {
+    "seconds": 18907,
+    "item": "13",
+    "label": "City Manager report out",
+    "how": "index"
+   },
+   {
+    "seconds": 19040,
+    "item": "14",
+    "label": "Council Comments and Committee reports out",
+    "how": "index"
+   },
+   {
+    "seconds": 19706,
+    "item": "15",
+    "label": "Closed meeting for consultation with legal counsel regarding non litigation.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-03-04-city-council-work-session": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [],
+  "minutesKind": "html",
+  "noVotesRecorded": true,
+  "agenda": [
+   {
+    "heading": "1. Work Session.",
+    "items": [
+     {
+      "num": "1.a",
+      "title": "Joint Discussion with the School Board on the proposed FY26 budget with a presentation by Schools.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4128&meta_id=121614"
+     },
+     {
+      "num": "1.b",
+      "title": "Discussion on the CUE Transit Development Plan (TDP).",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4128&meta_id=121616"
+     },
+     {
+      "num": "1.c",
+      "title": "Discussion on the proposed FY26 budget."
+     }
+    ]
+   },
+   {
+    "heading": "2. Adjournment",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 35,
+    "item": "1.a",
+    "label": "Joint Discussion with the School Board on the proposed FY26 budget with a presentation by Schools.",
+    "how": "index"
+   },
+   {
+    "seconds": 3118,
+    "item": "1.b",
+    "label": "Discussion on the CUE Transit Development Plan",
+    "how": "index"
+   },
+   {
+    "seconds": 8276,
+    "item": "1.c",
+    "label": "Discussion on the proposed FY26 budget.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-03-03-school-board-regular-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "1.04",
+    "action": "Mrs. Kelsey moved and Mrs. Bartelme seconded the adoption of the agenda as written and distributed. The motion passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4129&doc_id=8fc7c74c-fa94-11ef-ab6a-005056a89546"
+    }
+   },
+   {
+    "item": "4.01",
+    "action": "Mrs. Hickman moved that the City of Fairfax School Board approve the minutes of the February 3, 2025, regular School Board meeting as printed and distributed. The motion to approve the minutes of the February 3, 2025, regular School Board meeting passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4129&doc_id=8fc7c74c-fa94-11ef-ab6a-005056a89546"
+    }
+   },
+   {
+    "item": "4.02",
+    "action": "Mrs. Cecere moved that the City of Fairfax School Board approve a donation to the Fairfax High School All Night Graduation Celebration in the amount of $2,000.00. The motion passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4129&doc_id=8fc7c74c-fa94-11ef-ab6a-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "pdf",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. MEETING OPENING",
+    "items": [
+     {
+      "num": "1.01",
+      "title": "Call to Order/Pledge of Allegiance"
+     },
+     {
+      "num": "1.02",
+      "title": "Announcement of Change in the Agenda"
+     },
+     {
+      "num": "1.03",
+      "title": "Other Announcements"
+     },
+     {
+      "num": "1.04",
+      "title": "Agenda Adoption"
+     }
+    ]
+   },
+   {
+    "heading": "2. PRESENTATIONS TO THE SCHOOL BOARD",
+    "items": [
+     {
+      "num": "2.01",
+      "title": "Citizen Participation (Persons who wish to address the School Board should arrange to be placed on the speakers’ list by calling 703/293-7132 or sign up prior to the meeting with the Board Clerk.)"
+     },
+     {
+      "num": "2.02",
+      "title": "Student Representative Report: Siya Batra",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4129&meta_id=121637"
+     },
+     {
+      "num": "2.03",
+      "title": "Katherine Johnson Middle School State of the Schools Report, Mr. Chris Smith, Principal",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4129&meta_id=121639"
+     }
+    ]
+   },
+   {
+    "heading": "3. PUBLIC HEARINGS None.",
+    "items": []
+   },
+   {
+    "heading": "4. ACTION ITEMS (Items under this heading are discussed and voted upon by the Board)",
+    "items": [
+     {
+      "num": "4.01",
+      "title": "Approval of Minutes – February 3, 2025",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4129&meta_id=130248"
+     },
+     {
+      "num": "4.02",
+      "title": "Approval of Donation to All Night Graduation Celebration",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4129&meta_id=121643"
+     }
+    ]
+   },
+   {
+    "heading": "5. SUPERINTENDENT MATTERS (The Superintendent may present other items for information)",
+    "items": []
+   },
+   {
+    "heading": "6. BOARD MATTERS (Board members may ask questions and introduce topics for further consideration.)",
+    "items": []
+   },
+   {
+    "heading": "7. ADJOURNMENT City of Fairfax School Board Norms * Be Cohesive by speaking as one board after coming to a collaborative decision. * Be Respectful to all stakeholders and fellow board members by active and engaged listening, being prepared and present during meetings. * Be Visible by supporting stud",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 53,
+    "item": "1.04",
+    "label": "Vote: Agenda Adoption",
+    "how": "transcript-vote"
+   },
+   {
+    "seconds": 3851,
+    "item": "4.01",
+    "label": "Vote: Approval of Minutes – February 3, 2025",
+    "how": "transcript-vote"
+   },
+   {
+    "seconds": 3887,
+    "item": "4.02",
+    "label": "Vote: Approval of Donation to All Night Graduation Celebration",
+    "how": "transcript-vote"
+   }
+  ]
+ },
+ "fxc-2025-02-25-city-council-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "5",
+    "action": "Approved, unanimously the adoption of agenda.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4109&doc_id=7ebcffe1-f479-11ef-ab6a-005056a89546"
+    }
+   },
+   {
+    "item": "7.e",
+    "action": "Approved, 5-1, Councilmember Bates opposed, that the City Council adopt the presented resolution, as attached to the staff report and considered at this meeting, with respect to this agenda item, except that the first operative provision of the resolution shall be amended to read in its entirety as follows\" \"Be it resolved by the City Council that, upon a finding and determination by the Mayor, or individual authorized to act in the absence or unavailability of the Mayor, after making best efforts to consult with individual Council members, that weather or other conditions are such that it is hazardous for members to attend a regular meeting of the City Council, such meeting shall be continued to the next regular meeting of the City Council.\"",
+    "tally": "5-1, Councilmember Bates opposed",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4109&doc_id=7ebcffe1-f479-11ef-ab6a-005056a89546"
+    }
+   },
+   {
+    "item": "7.f",
+    "action": "Approved, unanimously consent agenda items #7a, #7b, #7c, #7d, and #7f.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4109&doc_id=7ebcffe1-f479-11ef-ab6a-005056a89546"
+    }
+   },
+   {
+    "item": "8.a",
+    "action": "Approved, unanimously, that the City Council approved the request of Pathway Homes, Inc, applicant, by Molly Novotny, agent for a special exception pursuant to City Code Section 110-3.6.2; to modify the nonresidential dimensional standards table to allow a maximum density of 28 dwelling units per acre in the CR Commercial Retail Zoning District and Old Town Fairfax Historic Overlay District on the premises known as 4010 University Drive, and more particularly described as tax map parcel 57-4-02-087-B.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4109&doc_id=7ebcffe1-f479-11ef-ab6a-005056a89546"
+    }
+   },
+   {
+    "item": "8.b",
+    "action": "Approved, unanimously, that the City Council approve the request from Living Spring Church, INC., applicant, for a special use permit pursuant to City Code Section 110-3.3.1B to allow a religious institution in the CO Commercial Office District on the premises known as 10015 Main Street, and more particularly described as tax map parcel 57-4-02-151, with the following conditions:",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4109&doc_id=7ebcffe1-f479-11ef-ab6a-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "html",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. Call the regular meeting to order.",
+    "items": []
+   },
+   {
+    "heading": "2. Moment of Silence.",
+    "items": []
+   },
+   {
+    "heading": "3. Pledge of Allegiance.",
+    "items": []
+   },
+   {
+    "heading": "4. Presentations and Proclamations.",
+    "items": [
+     {
+      "num": "4.a",
+      "title": "Presentation of a proclamation acknowledging Restaurant Week, February 24 - March 2, 2025 in the City of Fairfax."
+     },
+     {
+      "num": "4.b",
+      "title": "Presentation of a proclamation acknowledging February 24 - 28, 2025 as Invasive Species Awareness Week in the City of Fairfax."
+     },
+     {
+      "num": "4.c",
+      "title": "Presentation of the City Manager’s proposed FY26 budget.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121444"
+     }
+    ]
+   },
+   {
+    "heading": "5. Adoption of the agenda.",
+    "items": []
+   },
+   {
+    "heading": "6. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk’s office (703-385-7935) prior to 5:00 p.m. the day of the meeting may speak at this time. Any remaining speak",
+    "items": []
+   },
+   {
+    "heading": "7. Consent agenda.",
+    "items": [
+     {
+      "num": "7.a",
+      "title": "Consideration of the January 28, 2025 Regular Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121309"
+     },
+     {
+      "num": "7.b",
+      "title": "Consideration of an Award of a Professional Services Contract in the estimated amount of $545,300 to Alta Planning + Design, Inc. for a Citywide Pedestrian Master Plan, a Citywide Safety Action Plan, and an Old Town Fairfax Multimodal Circulation Study.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121311"
+     },
+     {
+      "num": "7.c",
+      "title": "Consideration of appointment of two Fairfax City Parks Foundation, Inc. initial directors.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121313"
+     },
+     {
+      "num": "7.d",
+      "title": "Consideration of adoption of the Two Year Transportation Program for FY 25/26.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121315"
+     },
+     {
+      "num": "7.e",
+      "title": "Consideration of a resolution fixing the date for continuation of a regular meeting of the City Council upon a finding and declaration by the Mayor that weather or other conditions are such that it is hazardous for members and the public to attend the regular meeting as advertised.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121317"
+     },
+     {
+      "num": "7.f",
+      "title": "Consideration of appointments to the City’s Retirement Plan Administrative Committee.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121319"
+     }
+    ]
+   },
+   {
+    "heading": "8. Public hearings.",
+    "items": [
+     {
+      "num": "8.a",
+      "title": "Public Hearing and Council action on a request from Pathway Homes, Inc., applicant, by Molly Novotny, agent, for consideration of a Special Exception to modify the nonresidential districts dimensional standards table in City Code §110-3.6.2 to exceed the maximum density at the premises identified as 4010 University Drive (Tax Map 57-4-02-087-B) in the CR Commercial Retail zoning district and Old T",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121322"
+     },
+     {
+      "num": "8.b",
+      "title": "Public hearing and Council action on a request from Living Spring Church, LLC, applicant, by Kathryn Taylor, Attorney-in-fact, for a Special Use Permit pursuant to City Code Section 110-3.3.1B for a Religious Institution (Living Spring Church) in the CO Commercial Office District with proffers and Architectural Control Overlay District (ACOD) on the premises known as 10015 Main Street and more par",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121326"
+     },
+     {
+      "num": "8.c",
+      "title": "Public hearing on the University Drive Bicycle Lanes Project. (No Council Action).",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121330"
+     }
+    ]
+   },
+   {
+    "heading": "9. Second general public comment period (a maximum of three (3) minutes per speaker for any city matters not requiring a public hearing – limited to speakers who did not speak under initial general public comment period).",
+    "items": []
+   },
+   {
+    "heading": "10. Items not requiring a public hearing. None.",
+    "items": []
+   },
+   {
+    "heading": "11. Recess the regular meeting to go into a work session.",
+    "items": []
+   },
+   {
+    "heading": "12. Work Session.",
+    "items": [
+     {
+      "num": "12.a",
+      "title": "Pre-application discussion of 10230 Main Street (Farr House aka Five Chimneys Concept).",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121337"
+     },
+     {
+      "num": "12.b",
+      "title": "Discussion on a request by RJL Associates, Inc. on the redevelopment of 9495 Silver King Court.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121340"
+     },
+     {
+      "num": "12.c",
+      "title": "Discussion on a request by Combined Courthouse, LLC on the redevelopment of 10300 Willard Way.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121343"
+     },
+     {
+      "num": "12.d",
+      "title": "Discussion and update on the Stormwater Utility.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4109&meta_id=121347"
+     }
+    ]
+   },
+   {
+    "heading": "13. Reconvene the regular meeting.",
+    "items": []
+   },
+   {
+    "heading": "14. City Manager report out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "15. Council Comments and Committee reports out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "16. Closed meeting for consultation with legal counsel regarding non litigation.",
+    "items": []
+   },
+   {
+    "heading": "17. Adjournment.",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 34,
+    "item": "2",
+    "label": "Moment of Silence.",
+    "how": "index"
+   },
+   {
+    "seconds": 163,
+    "item": "4.a",
+    "label": "Presentation of a proclamation acknowledging Restaurant Week, February 24 - March 2, 2025 in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 442,
+    "item": "4.b",
+    "label": "Presentation of a proclamation acknowledging February 24 - 28, 2025 as Invasive Species Awareness Week in the City of Fairfax.",
+    "how": "index"
+   },
+   {
+    "seconds": 770,
+    "item": "4.c",
+    "label": "Presentation of the City Manager’s proposed FY26 budget.",
+    "how": "index"
+   },
+   {
+    "seconds": 3522,
+    "item": "5",
+    "label": "Adoption of the agenda.",
+    "how": "index"
+   },
+   {
+    "seconds": 3566,
+    "item": "6",
+    "label": "Initial general public comment period",
+    "how": "index"
+   },
+   {
+    "seconds": 5753,
+    "item": "7.e",
+    "label": "Consideration of a resolution fixing the date for continuation of a regular meeting of the City Council upon a finding and declaration by…",
+    "how": "index"
+   },
+   {
+    "seconds": 6001,
+    "item": "8",
+    "label": "Public hearings.",
+    "how": "index"
+   },
+   {
+    "seconds": 6778,
+    "item": "8.b",
+    "label": "Public hearing and Council action on a request from Living Spring Church, LLC, applicant, by Kathryn Taylor, Attorney-in-fact, for a Spec…",
+    "how": "index"
+   },
+   {
+    "seconds": 7656,
+    "item": "8.c",
+    "label": "Public hearing on the University Drive Bicycle Lanes Project.",
+    "how": "index"
+   },
+   {
+    "seconds": 9933,
+    "item": "9",
+    "label": "Second general public comment period",
+    "how": "index"
+   },
+   {
+    "seconds": 10954,
+    "item": "12.a",
+    "label": "Pre-application discussion of 10230 Main Street",
+    "how": "index"
+   },
+   {
+    "seconds": 12981,
+    "item": "12.b",
+    "label": "Discussion on a request by RJL Associates, Inc. on the redevelopment of 9495 Silver King Court.",
+    "how": "index"
+   },
+   {
+    "seconds": 16246,
+    "item": "12.c",
+    "label": "Discussion on a request by Combined Courthouse, LLC on the redevelopment of 10300 Willard Way.",
+    "how": "index"
+   },
+   {
+    "seconds": 20451,
+    "item": "15",
+    "label": "Council Comments and Committee reports out",
+    "how": "index"
+   },
+   {
+    "seconds": 20890,
+    "item": "16",
+    "label": "Closed meeting for consultation with legal counsel regarding non litigation.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-02-24-school-board-work-session": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [],
+  "minutesKind": "pdf",
+  "noVotesRecorded": true,
+  "agenda": [],
+  "moments": []
+ },
+ "fxc-2025-02-18-city-council-special-meeting-work-session": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [],
+  "minutesKind": "html",
+  "noVotesRecorded": true,
+  "agenda": [
+   {
+    "heading": "1. Call the Special Meeting to order. 6:00 p.m. Council Chambers, Room 100.",
+    "items": []
+   },
+   {
+    "heading": "2. City Council emergency preparedness training.",
+    "items": []
+   },
+   {
+    "heading": "3. Recess the special meeting to go into work session.",
+    "items": []
+   },
+   {
+    "heading": "4. Work Session. 7:00 p.m.",
+    "items": [
+     {
+      "num": "4.a",
+      "title": "Pre-application briefing for a proposed mixed-use development with approximately 257 multifamily units with amenities and structured parking, 7,395 square feet of retail uses, 26,391 square feet of office space, a proposed east-west road from University Drive to Chain Bridge Road, and a north-south pedestrian pathway on 2.52 +/- acres, located at 4085, 4101 and 4103 Chain Bridge Road.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4104&meta_id=121131"
+     },
+     {
+      "num": "4.b",
+      "title": "Discussion and review of the Two-Year Transportation Program.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4104&meta_id=121135"
+     },
+     {
+      "num": "4.c",
+      "title": "Discussion on the Norman Avenue Sidewalk Feasibility Study.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4104&meta_id=121139"
+     },
+     {
+      "num": "4.d",
+      "title": "Discussion on the Chain Bridge Road/Eaton Place Intersection Improvements.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4104&meta_id=121143"
+     }
+    ]
+   },
+   {
+    "heading": "5. Reconvene the special meeting.",
+    "items": []
+   },
+   {
+    "heading": "6. Closed meeting to discuss personnel matters.",
+    "items": []
+   },
+   {
+    "heading": "7. Adjournment",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 31,
+    "item": "4.a",
+    "label": "Pre-application briefing for a proposed mixed-use development with approximately 257 multifamily units with amenities and structured park…",
+    "how": "index"
+   },
+   {
+    "seconds": 1586,
+    "item": "4.b",
+    "label": "Discussion and review of the Two-Year Transportation Program.",
+    "how": "index"
+   },
+   {
+    "seconds": 3622,
+    "item": "4.c",
+    "label": "Discussion on the Norman Avenue Sidewalk Feasibility Study.",
+    "how": "index"
+   },
+   {
+    "seconds": 5536,
+    "item": "4.d",
+    "label": "Discussion on the Chain Bridge Road/Eaton Place Intersection Improvements.",
+    "how": "index"
+   },
+   {
+    "seconds": 9580,
+    "item": "6",
+    "label": "Closed meeting to discuss personnel matters.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-02-04-city-council-work-session": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [],
+  "minutesKind": "html",
+  "noVotesRecorded": true,
+  "agenda": [
+   {
+    "heading": "1. Work Session.",
+    "items": [
+     {
+      "num": "1.a",
+      "title": "Presentation and discussion by the Planning Commission regarding the proposed FY 26-30 Capital Improvement Program (CIP), Annual Planning Commission Report, and Implementation Guides.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4088&meta_id=120824"
+     },
+     {
+      "num": "1.b",
+      "title": "Pre-application briefing for redevelopment of Ox Hill – Block B, 4031 University Drive.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4088&meta_id=120827"
+     },
+     {
+      "num": "1.c",
+      "title": "Discussion on a request for rezoning from the RM Residential Medium and CR Commercial Retail zoning districts to CR Commercial Retail, a comprehensive plan amendment, a special use permit, and nine special exceptions for Gatewood Plaza, 10201 Fairfax Boulevard.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4088&meta_id=120830"
+     },
+     {
+      "num": "1.d",
+      "title": "Discussion on Potential Zoning Options for Accessory Dwelling Units.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4088&meta_id=120833"
+     }
+    ]
+   },
+   {
+    "heading": "2. Adjournment",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 52,
+    "item": "1.a",
+    "label": "Presentation and discussion by the Planning Commission regarding the proposed FY 26-30 Capital Improvement Program",
+    "how": "index"
+   },
+   {
+    "seconds": 3311,
+    "item": "1.b",
+    "label": "Pre-application briefing for redevelopment of Ox Hill – Block B, 4031 University Drive.",
+    "how": "index"
+   },
+   {
+    "seconds": 4167,
+    "item": "1.c",
+    "label": "Discussion on a request for rezoning from the RM Residential Medium and CR Commercial Retail zoning districts to CR Commercial Retail, a…",
+    "how": "index"
+   },
+   {
+    "seconds": 7804,
+    "item": "1.d",
+    "label": "Discussion on Potential Zoning Options for Accessory Dwelling Units.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-02-03-school-board-regular-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "1.04",
+    "action": "Mrs. Hickman moved, and Mrs. Cecere seconded the adoption of the agenda as written and distributed. The motion passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4086&doc_id=a55466a1-0784-11f1-bb28-005056a89546"
+    }
+   },
+   {
+    "item": "4.01",
+    "action": "Ms. Hickman moved that the City of Fairfax School Board approve the minutes of the January 13, 2025, regular School Board meeting as printed and distributed. The motion to approve the minutes of the January 13, 2025, regular School Board meeting passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4086&doc_id=a55466a1-0784-11f1-bb28-005056a89546"
+    }
+   },
+   {
+    "item": "4.02",
+    "action": "Ms. Bartelme moved that the City of Fairfax School Board approve the FY2026 proposed School Board budget as printed and distributed. The motion passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4086&doc_id=a55466a1-0784-11f1-bb28-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "pdf",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. MEETING OPENING",
+    "items": [
+     {
+      "num": "1.01",
+      "title": "Call to Order/Pledge of Allegiance"
+     },
+     {
+      "num": "1.02",
+      "title": "Announcement of Change in the Agenda"
+     },
+     {
+      "num": "1.03",
+      "title": "Other Announcements"
+     },
+     {
+      "num": "1.04",
+      "title": "Agenda Adoption"
+     }
+    ]
+   },
+   {
+    "heading": "2. PRESENTATIONS TO THE SCHOOL BOARD",
+    "items": [
+     {
+      "num": "2.01",
+      "title": "Citizen Participation (Persons who wish to address the School Board should arrange to be placed on the speakers’ list by calling 703/293-7132 or sign up prior to the meeting with the Board Clerk.)"
+     },
+     {
+      "num": "2.02",
+      "title": "Student Representative Report: Siya Batra"
+     },
+     {
+      "num": "2.03",
+      "title": "State of the Schools Report: Ms. Susan Mullen, Principal Daniels Run Elementary School and Mr. Andrew Pratt, Principal Providence Elementary School.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4086&meta_id=120788"
+     }
+    ]
+   },
+   {
+    "heading": "3. PUBLIC HEARINGS (Persons who wish to speak about this item may sign up prior to the meeting or may request to address the Board after the list of speakers has been completed. Copies of the Superintendent’s Proposed Budget are available from the Superintendent’s office by arrangement with the Cler",
+    "items": [
+     {
+      "num": "3.01",
+      "title": "FY2026 Superintendent’s Proposed Budget",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4086&meta_id=120791"
+     }
+    ]
+   },
+   {
+    "heading": "4. ACTION ITEMS (Items under this heading are discussed and voted upon by the Board)",
+    "items": [
+     {
+      "num": "4.01",
+      "title": "Approval of Minutes – January 6, 2025",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4086&meta_id=120794"
+     },
+     {
+      "num": "4.02",
+      "title": "Approval of FY2026 Superintendent’s Proposed Budget",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4086&meta_id=120796"
+     }
+    ]
+   },
+   {
+    "heading": "5. SUPERINTENDENT MATTERS (The Superintendent may present other items for information)",
+    "items": []
+   },
+   {
+    "heading": "6. BOARD MATTERS (Board members may ask questions and introduce topics for further consideration.)",
+    "items": []
+   },
+   {
+    "heading": "7. ADJOURNMENT",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 486,
+    "item": "1.04",
+    "label": "Vote: Agenda Adoption",
+    "how": "transcript-vote"
+   },
+   {
+    "seconds": 6077,
+    "item": "4.01",
+    "label": "Vote: Approval of Minutes – January 6, 2025",
+    "how": "transcript-vote"
+   },
+   {
+    "seconds": 6112,
+    "item": "4.02",
+    "label": "Vote: Approval of FY2026 Superintendent’s Proposed Budget",
+    "how": "transcript-vote"
+   }
+  ]
+ },
+ "fxc-2025-01-28-city-council-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "5",
+    "action": "Approved, unanimously the adoption of agenda.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4058&doc_id=9d206c52-de7a-11ef-a9e2-005056a89546"
+    }
+   },
+   {
+    "item": "7.f",
+    "action": "Approved, unanimously the consent agenda.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4058&doc_id=9d206c52-de7a-11ef-a9e2-005056a89546"
+    }
+   },
+   {
+    "item": "10.a",
+    "action": "Approved, unanimously that the City Council approve the following resolutions, as the same are presented in the materials for tonight's City Council meeting:",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4058&doc_id=9d206c52-de7a-11ef-a9e2-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "html",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. Call the regular meeting to order.",
+    "items": []
+   },
+   {
+    "heading": "2. Moment of Silence",
+    "items": []
+   },
+   {
+    "heading": "3. Pledge of Allegiance.",
+    "items": []
+   },
+   {
+    "heading": "4. Presentations and Proclamations.",
+    "items": [
+     {
+      "num": "4.a",
+      "title": "Presentation of a proclamation acknowledging February as Black History Month in the City of Fairfax."
+     }
+    ]
+   },
+   {
+    "heading": "5. Adoption of the agenda.",
+    "items": []
+   },
+   {
+    "heading": "6. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk’s office (703-385-7935) prior to 5:00 p.m. the day of the meeting may speak at this time. Any remaining speak",
+    "items": []
+   },
+   {
+    "heading": "7. Consent agenda.",
+    "items": [
+     {
+      "num": "7.a",
+      "title": "Consideration of the January 7, 2025 Special Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4058&meta_id=120595"
+     },
+     {
+      "num": "7.b",
+      "title": "Consideration of the January 14, 2025 Regular Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4058&meta_id=120597"
+     },
+     {
+      "num": "7.c",
+      "title": "Consideration of the January 21, 2025 Special Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4058&meta_id=120599"
+     },
+     {
+      "num": "7.d",
+      "title": "Consideration of board and commission appointments.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4058&meta_id=120601"
+     },
+     {
+      "num": "7.e",
+      "title": "Consideration of an Award of Construction Contract in the estimated amount of $3,131,100.00 to Ardent Company, LLC, for the Government Center Parkway Extension.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4058&meta_id=120603"
+     },
+     {
+      "num": "7.f",
+      "title": "Consideration of the 2025 City of Fairfax special event requests pursuant to City Council Road Race and Road Closure Policy.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4058&meta_id=120605"
+     }
+    ]
+   },
+   {
+    "heading": "8. Public hearings. None.",
+    "items": []
+   },
+   {
+    "heading": "9. Second general public comment period (a maximum of three (3) minutes per speaker for any city matters not requiring a public hearing – limited to speakers who did not speak under initial general public comment period).",
+    "items": []
+   },
+   {
+    "heading": "10. Items not requiring a public hearing.",
+    "items": [
+     {
+      "num": "10.a",
+      "title": "Consideration of revision to the City Council procedural and operational resolutions.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4058&meta_id=120610"
+     }
+    ]
+   },
+   {
+    "heading": "11. Recess the regular meeting to go into a work session.",
+    "items": []
+   },
+   {
+    "heading": "12. Work Session.",
+    "items": [
+     {
+      "num": "12.a",
+      "title": "Discussion on a request of The Hill, A Davies Family, LLC for the redevelopment of 4131 Chain Bridge Road.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4058&meta_id=120615"
+     },
+     {
+      "num": "12.b",
+      "title": "Discussion, overview, and update of the City’s key financial programs and strategies – presented by the City’s Financial Advisors Davenport and Company, LLC.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4058&meta_id=120618"
+     },
+     {
+      "num": "12.c",
+      "title": "Discussion of the FY2025 Second Quarter Financial Review.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4058&meta_id=120621"
+     }
+    ]
+   },
+   {
+    "heading": "13. Reconvene the regular meeting.",
+    "items": []
+   },
+   {
+    "heading": "14. City Manager report out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "15. Council Comments and Committee reports out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "16. Closed meeting (if needed).",
+    "items": []
+   },
+   {
+    "heading": "17. Adjournment.",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 16,
+    "item": "2",
+    "label": "Moment of Silence",
+    "how": "index"
+   },
+   {
+    "seconds": 403,
+    "item": "5",
+    "label": "Adoption of the agenda.",
+    "how": "index"
+   },
+   {
+    "seconds": 551,
+    "item": "9",
+    "label": "Second general public comment period",
+    "how": "index"
+   },
+   {
+    "seconds": 973,
+    "item": "10",
+    "label": "Items not requiring a public hearing.",
+    "how": "index"
+   },
+   {
+    "seconds": 1751,
+    "item": "12.a",
+    "label": "Discussion on a request of The Hill, A Davies Family, LLC for the redevelopment of 4131 Chain Bridge Road.",
+    "how": "index"
+   },
+   {
+    "seconds": 6403,
+    "item": "12.b",
+    "label": "Discussion, overview, and update of the City’s key financial programs and strategies – presented by the City’s Financial Advisors Davenpo…",
+    "how": "index"
+   },
+   {
+    "seconds": 10398,
+    "item": "12.c",
+    "label": "Discussion of the FY2025 Second Quarter Financial Review.",
+    "how": "index"
+   },
+   {
+    "seconds": 15335,
+    "item": "15",
+    "label": "Council Comments and Committee reports out",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-01-27-school-board-work-session": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [],
+  "minutesKind": "pdf",
+  "noVotesRecorded": true,
+  "agenda": [
+   {
+    "heading": "1. PRESENTATIONS TO THE SCHOOL BOARD",
+    "items": [
+     {
+      "num": "1.01",
+      "title": "Region Report: Ms. Rebecca Baenig, Assistant Superintendent, Region 5",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4062&meta_id=120693"
+     },
+     {
+      "num": "1.02",
+      "title": "Review Superintendent’s 2025 Goals"
+     },
+     {
+      "num": "1.03",
+      "title": "Review City Representation on FCPS Committees MOU",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4062&meta_id=120702"
+     },
+     {
+      "num": "1.04",
+      "title": "Review and Finalize February Retreat Agenda",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4062&meta_id=120700"
+     }
+    ]
+   }
+  ],
+  "moments": []
+ },
+ "fxc-2025-01-14-city-council-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "5",
+    "action": "Approved, unanimously the adoption of the agenda.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4045&doc_id=55388ffe-d371-11ef-a9e2-005056a89546"
+    }
+   },
+   {
+    "item": "7.b",
+    "action": "Approved, unanimously the consent agenda.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4045&doc_id=55388ffe-d371-11ef-a9e2-005056a89546"
+    }
+   },
+   {
+    "item": "10.a",
+    "action": "Approved, unanimously to adopt a resolution approving city council member appointments to regional and city boards and commissions for the city council term ending December 31, 2026.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4045&doc_id=55388ffe-d371-11ef-a9e2-005056a89546"
+    }
+   }
+  ],
+  "minutesKind": "html",
+  "noVotesRecorded": false,
+  "agenda": [
+   {
+    "heading": "1. Swearing-in ceremony for Mayor Read, Councilmembers Amos, Bates, Hall, Hardy-Chandler, McQuillen, and Peterson. 6:00 P.M.",
+    "items": []
+   },
+   {
+    "heading": "1. Call the regular meeting to order. 7:00 P.M.",
+    "items": []
+   },
+   {
+    "heading": "2. Moment of Silence",
+    "items": []
+   },
+   {
+    "heading": "3. Pledge of Allegiance.",
+    "items": []
+   },
+   {
+    "heading": "4. Presentations and Proclamations.",
+    "items": []
+   },
+   {
+    "heading": "5. Adoption of the agenda.",
+    "items": []
+   },
+   {
+    "heading": "6. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk?s office (703-385-7935) prior to 5:00 p.m. the day of the meeting may speak at this time. Any remaining speak",
+    "items": []
+   },
+   {
+    "heading": "7. Consent agenda.",
+    "items": [
+     {
+      "num": "7.a",
+      "title": "Consideration of the December 3, 2024 Special Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4045&meta_id=120175"
+     },
+     {
+      "num": "7.b",
+      "title": "Consideration of the December 10, 2024 Regular Meeting minutes.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4045&meta_id=120177"
+     }
+    ]
+   },
+   {
+    "heading": "8. Public hearings. None.",
+    "items": []
+   },
+   {
+    "heading": "9. Second general public comment period (a maximum of three (3) minutes per speaker for any city matters not requiring a public hearing ? limited to speakers who did not speak under initial general public comment period).",
+    "items": []
+   },
+   {
+    "heading": "10. Items not requiring a public hearing.",
+    "items": [
+     {
+      "num": "10.a",
+      "title": "Consideration of a resolution of the City Council appointments to the Virginia Municipal League (VML), Metropolitan Washington Council of Government (COG), and other regional and city boards and committees.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4045&meta_id=120182"
+     }
+    ]
+   },
+   {
+    "heading": "11. Recess the regular meeting to go into a work session.",
+    "items": []
+   },
+   {
+    "heading": "12. Work Session.",
+    "items": [
+     {
+      "num": "12.a",
+      "title": "Introduction and discussion of potential Zoning Ordinance Amendments related to Small Area Plans.",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4045&meta_id=120187"
+     }
+    ]
+   },
+   {
+    "heading": "13. Reconvene the regular meeting.",
+    "items": []
+   },
+   {
+    "heading": "14. City Manager report out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "15. Council Comments and Committee reports out (if needed).",
+    "items": []
+   },
+   {
+    "heading": "16. Closed meeting to discuss personnel matters and for consultation with legal counsel for legal advice.",
+    "items": []
+   },
+   {
+    "heading": "17. Adjournment.",
+    "items": []
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 69,
+    "item": "2",
+    "label": "Moment of Silence",
+    "how": "index"
+   },
+   {
+    "seconds": 102,
+    "item": "5",
+    "label": "Adoption of the agenda.",
+    "how": "index"
+   },
+   {
+    "seconds": 138,
+    "item": "6",
+    "label": "Initial general public comment period",
+    "how": "index"
+   },
+   {
+    "seconds": 2020,
+    "item": "9",
+    "label": "Second general public comment period",
+    "how": "index"
+   },
+   {
+    "seconds": 2250,
+    "item": "10",
+    "label": "Items not requiring a public hearing.",
+    "how": "index"
+   },
+   {
+    "seconds": 2381,
+    "item": "12.a",
+    "label": "Introduction and discussion of potential Zoning Ordinance Amendments related to Small Area Plans.",
+    "how": "index"
+   },
+   {
+    "seconds": 4196,
+    "item": "14",
+    "label": "City Manager report out",
+    "how": "index"
+   },
+   {
+    "seconds": 4376,
+    "item": "15",
+    "label": "Council Comments and Committee reports out",
+    "how": "index"
+   },
+   {
+    "seconds": 4588,
+    "item": "16",
+    "label": "Closed meeting to discuss personnel matters and for consultation with legal counsel for legal advice.",
+    "how": "index"
+   }
+  ]
+ },
+ "fxc-2025-01-13-school-board-regular-meeting": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "agenda": [
+   {
+    "heading": "1. MEETING OPENING",
+    "items": [
+     {
+      "num": "1.01",
+      "title": "Swearing in of New Board Members"
+     },
+     {
+      "num": "1.02",
+      "title": "Reception-City Hall Atrium"
+     },
+     {
+      "num": "1.03",
+      "title": "Call to Order-Room 111"
+     },
+     {
+      "num": "1.04",
+      "title": "Announcement of Changes in the Agenda"
+     },
+     {
+      "num": "1.05",
+      "title": "Other Announcements"
+     },
+     {
+      "num": "1.06",
+      "title": "Agenda Adoption"
+     }
+    ]
+   },
+   {
+    "heading": "2. PRESENTATIONS TO THE SCHOOL BOARD",
+    "items": [
+     {
+      "num": "2.01",
+      "title": "Citizen Participation (Persons who wish to address the School Board should arrange to be placed on the speakers’ list by calling 703/293-7132 or sign up prior to the meeting with the Board Clerk.)"
+     },
+     {
+      "num": "2.02",
+      "title": "Student Representative Report: Siya Batra",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4049&meta_id=120246"
+     },
+     {
+      "num": "2.03",
+      "title": "Superintendent’s Proposed 2026 Budget",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4049&meta_id=120248"
+     }
+    ]
+   },
+   {
+    "heading": "3. PUBLIC HEARING (Persons who wish to speak about this item may sign up prior to the meeting or may request to address the Board after the list of speakers has been completed. Copies of the Superintendent’s Proposed Budget are available from the Superintendent’s office by arrangement with the Clerk",
+    "items": [
+     {
+      "num": "3.01",
+      "title": "Superintendent’s Proposed FY2026 Budget"
+     }
+    ]
+   },
+   {
+    "heading": "4. ACTION ITEMS (Items under this heading are discussed and voted upon by the Board)",
+    "items": [
+     {
+      "num": "4.01",
+      "title": "Approval of December 2, 2024, Minutes",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4049&meta_id=120250"
+     },
+     {
+      "num": "4.02",
+      "title": "School Board Committee Assignments",
+      "href": "https://fairfax.granicus.com/MetaViewer.php?view_id=13&clip_id=4049&meta_id=120252"
+     }
+    ]
+   },
+   {
+    "heading": "5. SUPERINTENDENT MATTERS (The Superintendent may present other items for information)",
+    "items": []
+   },
+   {
+    "heading": "6. BOARD MATTERS (Board members may ask questions and introduce topics for further consideration.)",
+    "items": []
+   },
+   {
+    "heading": "7. ADJOURNMENT City of Fairfax School Board Norms * Be Cohesive by speaking as one board after coming to a collaborative decision. * Be Respectful to all stakeholders and fellow board members by active and engaged listening, being prepared and present during meetings, and by making eye contact. * Be",
+    "items": []
+   }
+  ],
+  "moments": []
+ },
+ "fxc-2025-01-13-school-board-swearing-in": {
+  "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "agenda": [],
+  "moments": []
  }
 }
