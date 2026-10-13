@@ -134,7 +134,7 @@ function LoudounCountyPage() {
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
             Indexed Granicus and eScribe meetings plus county links. Listen on their player.
           </p>
-          <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {LOUDOUN_OFFICIAL_DOORS.map((door) => (
               <li key={door.href}>
                 <a
@@ -143,6 +143,16 @@ function LoudounCountyPage() {
                   rel="noopener noreferrer"
                   className="flex h-full flex-col rounded-md border border-border bg-card px-5 py-5 transition-[background-color] duration-150 hover:bg-wash"
                 >
+                  {"thumb" in door && door.thumb ? (
+                    <img
+                      src={door.thumb}
+                      alt=""
+                      loading="lazy"
+                      width={640}
+                      height={360}
+                      className="-mx-5 -mt-5 mb-4 aspect-video w-[calc(100%+2.5rem)] max-w-none rounded-t-md object-cover"
+                    />
+                  ) : null}
                   <span className="inline-flex items-center gap-2 font-serif text-xl font-medium">
                     {door.label}
                     <ExternalLink className="size-4 shrink-0 text-muted-foreground" aria-hidden />

@@ -971,6 +971,7 @@ export const LOUDOUN_OFFICIAL_DOORS = [
       loudounProvider(m) === "escribe"
         ? `eScribe / ISI · ${m.duration}`
         : `Granicus clip ${m.clipId} · ${m.duration}`,
+    thumb: m.id === "escribe-3a6eea40" ? "/thumbs/loudoun-bos-escribe-3a6eea40.webp" : undefined,
   })),
   {
     label: "Board of Supervisors",
