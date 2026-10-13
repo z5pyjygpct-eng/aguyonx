@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-schools/transcripts/alb-sb-gnMmMo0g3bQ.json",
+  "outBase": "public/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-02-29-albemarle-county-school-board-fy-25-draft-funding-request-work-session-1",
+  "title": "Albemarle County School Board FY 25 Draft Funding Request Work Session #1, Thursday, February 29, 2024",
+  "shortTitle": "School Board FY 25 Funding Work Session #1 \u00b7 Feb 29, 2024",
+  "date": "Thursday, February 29, 2024",
+  "place": "Albemarle County Public Schools / School Board meeting, Virginia",
+  "length": "1h 44m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=gnMmMo0g3bQ"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-13"
+}
