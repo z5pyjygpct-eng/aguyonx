@@ -60,6 +60,8 @@ export const FTM_PACK_VENUES = [
     "albemarle-bos",
     "albemarle-schools",
     "va-senate-floor",
+    "va-house-floor",
+    "va-boe",
   ].map((venue) => ({ venue, catalogs: ["src/content/ftm-transcripts.ts"] })),
 ];
 

@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as R2027RouteImport } from './routes/2027'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as ArticlesRouteImport } from './routes/articles'
+import { Route as BoardOfEducationRouteImport } from './routes/board-of-education'
 import { Route as CitiesRouteImport } from './routes/cities'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as CountiesRouteImport } from './routes/counties'
@@ -32,6 +33,7 @@ import { Route as CitiesCityRouteImport } from './routes/cities.$city'
 import { Route as CountiesIndexRouteImport } from './routes/counties.index'
 import { Route as CountiesLoudounRouteImport } from './routes/counties.loudoun'
 import { Route as GeneralAssemblyIndexRouteImport } from './routes/general-assembly.index'
+import { Route as GeneralAssemblyHouseRouteImport } from './routes/general-assembly.house'
 import { Route as GeneralAssemblySenateRouteImport } from './routes/general-assembly.senate'
 import { Route as InvestigationsIndexRouteImport } from './routes/investigations.index'
 import { Route as InvestigationsSlugRouteImport } from './routes/investigations.$slug'
@@ -43,9 +45,11 @@ import { Route as CitiesCitySchoolsRouteImport } from './routes/cities.$city.sch
 import { Route as CountiesLoudounIndexRouteImport } from './routes/counties.loudoun.index'
 import { Route as CountiesLoudounFindTheMomentRouteImport } from './routes/counties.loudoun.find-the-moment'
 import { Route as CountiesLoudounSchoolsRouteImport } from './routes/counties.loudoun.schools'
+import { Route as GeneralAssemblyHouseIndexRouteImport } from './routes/general-assembly.house.index'
 import { Route as GeneralAssemblySenateIndexRouteImport } from './routes/general-assembly.senate.index'
 import { Route as CitiesCityRecapsSlugRouteImport } from './routes/cities.$city.recaps.$slug'
 import { Route as CountiesLoudounRecapsSlugRouteImport } from './routes/counties.loudoun.recaps.$slug'
+import { Route as GeneralAssemblyHouseRecapsSlugRouteImport } from './routes/general-assembly.house.recaps.$slug'
 import { Route as GeneralAssemblySenateRecapsSlugRouteImport } from './routes/general-assembly.senate.recaps.$slug'
 
 const IndexRoute = IndexRouteImport.update({
@@ -66,6 +70,11 @@ const AboutRoute = AboutRouteImport.update({
 const ArticlesRoute = ArticlesRouteImport.update({
   id: '/articles',
   path: '/articles',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BoardOfEducationRoute = BoardOfEducationRouteImport.update({
+  id: '/board-of-education',
+  path: '/board-of-education',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CitiesRoute = CitiesRouteImport.update({
@@ -163,6 +172,11 @@ const GeneralAssemblyIndexRoute = GeneralAssemblyIndexRouteImport.update({
   path: '/',
   getParentRoute: () => GeneralAssemblyRoute,
 } as any)
+const GeneralAssemblyHouseRoute = GeneralAssemblyHouseRouteImport.update({
+  id: '/house',
+  path: '/house',
+  getParentRoute: () => GeneralAssemblyRoute,
+} as any)
 const GeneralAssemblySenateRoute = GeneralAssemblySenateRouteImport.update({
   id: '/senate',
   path: '/senate',
@@ -219,6 +233,12 @@ const CountiesLoudounSchoolsRoute = CountiesLoudounSchoolsRouteImport.update({
   path: '/schools',
   getParentRoute: () => CountiesLoudounRoute,
 } as any)
+const GeneralAssemblyHouseIndexRoute =
+  GeneralAssemblyHouseIndexRouteImport.update({
+    id: '/',
+    path: '/',
+    getParentRoute: () => GeneralAssemblyHouseRoute,
+  } as any)
 const GeneralAssemblySenateIndexRoute =
   GeneralAssemblySenateIndexRouteImport.update({
     id: '/',
@@ -236,6 +256,12 @@ const CountiesLoudounRecapsSlugRoute =
     path: '/recaps/$slug',
     getParentRoute: () => CountiesLoudounRoute,
   } as any)
+const GeneralAssemblyHouseRecapsSlugRoute =
+  GeneralAssemblyHouseRecapsSlugRouteImport.update({
+    id: '/recaps/$slug',
+    path: '/recaps/$slug',
+    getParentRoute: () => GeneralAssemblyHouseRoute,
+  } as any)
 const GeneralAssemblySenateRecapsSlugRoute =
   GeneralAssemblySenateRecapsSlugRouteImport.update({
     id: '/recaps/$slug',
@@ -248,6 +274,7 @@ export interface FileRoutesByFullPath {
   '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/articles': typeof ArticlesRouteWithChildren
+  '/board-of-education': typeof BoardOfEducationRoute
   '/cities': typeof CitiesRouteWithChildren
   '/contact': typeof ContactRoute
   '/counties': typeof CountiesRouteWithChildren
@@ -263,6 +290,7 @@ export interface FileRoutesByFullPath {
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
+  '/general-assembly/house': typeof GeneralAssemblyHouseRouteWithChildren
   '/general-assembly/senate': typeof GeneralAssemblySenateRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
@@ -278,15 +306,18 @@ export interface FileRoutesByFullPath {
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
   '/cities/$city/': typeof CitiesCityIndexRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
+  '/general-assembly/house/': typeof GeneralAssemblyHouseIndexRoute
   '/general-assembly/senate/': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/2027': typeof R2027Route
   '/about': typeof AboutRoute
+  '/board-of-education': typeof BoardOfEducationRoute
   '/contact': typeof ContactRoute
   '/delegates': typeof DelegatesRoute
   '/find-the-moment': typeof FindTheMomentRoute
@@ -309,9 +340,11 @@ export interface FileRoutesByTo {
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
   '/cities/$city': typeof CitiesCityIndexRoute
   '/counties/loudoun': typeof CountiesLoudounIndexRoute
+  '/general-assembly/house': typeof GeneralAssemblyHouseIndexRoute
   '/general-assembly/senate': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
 export interface FileRoutesById {
@@ -320,6 +353,7 @@ export interface FileRoutesById {
   '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/articles': typeof ArticlesRouteWithChildren
+  '/board-of-education': typeof BoardOfEducationRoute
   '/cities': typeof CitiesRouteWithChildren
   '/contact': typeof ContactRoute
   '/counties': typeof CountiesRouteWithChildren
@@ -335,6 +369,7 @@ export interface FileRoutesById {
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
+  '/general-assembly/house': typeof GeneralAssemblyHouseRouteWithChildren
   '/general-assembly/senate': typeof GeneralAssemblySenateRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
@@ -350,9 +385,11 @@ export interface FileRoutesById {
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
   '/cities/$city/': typeof CitiesCityIndexRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
+  '/general-assembly/house/': typeof GeneralAssemblyHouseIndexRoute
   '/general-assembly/senate/': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
 export interface FileRouteTypes {
@@ -362,6 +399,7 @@ export interface FileRouteTypes {
     | '/2027'
     | '/about'
     | '/articles'
+    | '/board-of-education'
     | '/cities'
     | '/contact'
     | '/counties'
@@ -377,6 +415,7 @@ export interface FileRouteTypes {
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
+    | '/general-assembly/house'
     | '/general-assembly/senate'
     | '/investigations/$slug'
     | '/library/foia'
@@ -392,15 +431,18 @@ export interface FileRouteTypes {
     | '/counties/loudoun/schools'
     | '/cities/$city/'
     | '/counties/loudoun/'
+    | '/general-assembly/house/'
     | '/general-assembly/senate/'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/2027'
     | '/about'
+    | '/board-of-education'
     | '/contact'
     | '/delegates'
     | '/find-the-moment'
@@ -423,9 +465,11 @@ export interface FileRouteTypes {
     | '/counties/loudoun/schools'
     | '/cities/$city'
     | '/counties/loudoun'
+    | '/general-assembly/house'
     | '/general-assembly/senate'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   id:
     | '__root__'
@@ -433,6 +477,7 @@ export interface FileRouteTypes {
     | '/2027'
     | '/about'
     | '/articles'
+    | '/board-of-education'
     | '/cities'
     | '/contact'
     | '/counties'
@@ -448,6 +493,7 @@ export interface FileRouteTypes {
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
+    | '/general-assembly/house'
     | '/general-assembly/senate'
     | '/investigations/$slug'
     | '/library/foia'
@@ -463,9 +509,11 @@ export interface FileRouteTypes {
     | '/counties/loudoun/schools'
     | '/cities/$city/'
     | '/counties/loudoun/'
+    | '/general-assembly/house/'
     | '/general-assembly/senate/'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   fileRoutesById: FileRoutesById
 }
@@ -474,6 +522,7 @@ export interface RootRouteChildren {
   R2027Route: typeof R2027Route
   AboutRoute: typeof AboutRoute
   ArticlesRoute: typeof ArticlesRouteWithChildren
+  BoardOfEducationRoute: typeof BoardOfEducationRoute
   CitiesRoute: typeof CitiesRouteWithChildren
   ContactRoute: typeof ContactRoute
   CountiesRoute: typeof CountiesRouteWithChildren
@@ -516,6 +565,13 @@ declare module '@tanstack/react-router' {
       path: '/articles'
       fullPath: '/articles'
       preLoaderRoute: typeof ArticlesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/board-of-education': {
+      id: '/board-of-education'
+      path: '/board-of-education'
+      fullPath: '/board-of-education'
+      preLoaderRoute: typeof BoardOfEducationRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/cities': {
@@ -651,6 +707,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GeneralAssemblyIndexRouteImport
       parentRoute: typeof GeneralAssemblyRoute
     }
+    '/general-assembly/house': {
+      id: '/general-assembly/house'
+      path: '/house'
+      fullPath: '/general-assembly/house'
+      preLoaderRoute: typeof GeneralAssemblyHouseRouteImport
+      parentRoute: typeof GeneralAssemblyRoute
+    }
     '/general-assembly/senate': {
       id: '/general-assembly/senate'
       path: '/senate'
@@ -728,6 +791,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CountiesLoudounSchoolsRouteImport
       parentRoute: typeof CountiesLoudounRoute
     }
+    '/general-assembly/house/': {
+      id: '/general-assembly/house/'
+      path: '/'
+      fullPath: '/general-assembly/house/'
+      preLoaderRoute: typeof GeneralAssemblyHouseIndexRouteImport
+      parentRoute: typeof GeneralAssemblyHouseRoute
+    }
     '/general-assembly/senate/': {
       id: '/general-assembly/senate/'
       path: '/'
@@ -748,6 +818,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/counties/loudoun/recaps/$slug'
       preLoaderRoute: typeof CountiesLoudounRecapsSlugRouteImport
       parentRoute: typeof CountiesLoudounRoute
+    }
+    '/general-assembly/house/recaps/$slug': {
+      id: '/general-assembly/house/recaps/$slug'
+      path: '/recaps/$slug'
+      fullPath: '/general-assembly/house/recaps/$slug'
+      preLoaderRoute: typeof GeneralAssemblyHouseRecapsSlugRouteImport
+      parentRoute: typeof GeneralAssemblyHouseRoute
     }
     '/general-assembly/senate/recaps/$slug': {
       id: '/general-assembly/senate/recaps/$slug'
@@ -836,6 +913,19 @@ const CountiesRouteWithChildren = CountiesRoute._addFileChildren(
   CountiesRouteChildren,
 )
 
+interface GeneralAssemblyHouseRouteChildren {
+  GeneralAssemblyHouseIndexRoute: typeof GeneralAssemblyHouseIndexRoute
+  GeneralAssemblyHouseRecapsSlugRoute: typeof GeneralAssemblyHouseRecapsSlugRoute
+}
+
+const GeneralAssemblyHouseRouteChildren: GeneralAssemblyHouseRouteChildren = {
+  GeneralAssemblyHouseIndexRoute: GeneralAssemblyHouseIndexRoute,
+  GeneralAssemblyHouseRecapsSlugRoute: GeneralAssemblyHouseRecapsSlugRoute,
+}
+
+const GeneralAssemblyHouseRouteWithChildren =
+  GeneralAssemblyHouseRoute._addFileChildren(GeneralAssemblyHouseRouteChildren)
+
 interface GeneralAssemblySenateRouteChildren {
   GeneralAssemblySenateIndexRoute: typeof GeneralAssemblySenateIndexRoute
   GeneralAssemblySenateRecapsSlugRoute: typeof GeneralAssemblySenateRecapsSlugRoute
@@ -852,11 +942,13 @@ const GeneralAssemblySenateRouteWithChildren =
   )
 
 interface GeneralAssemblyRouteChildren {
+  GeneralAssemblyHouseRoute: typeof GeneralAssemblyHouseRouteWithChildren
   GeneralAssemblySenateRoute: typeof GeneralAssemblySenateRouteWithChildren
   GeneralAssemblyIndexRoute: typeof GeneralAssemblyIndexRoute
 }
 
 const GeneralAssemblyRouteChildren: GeneralAssemblyRouteChildren = {
+  GeneralAssemblyHouseRoute: GeneralAssemblyHouseRouteWithChildren,
   GeneralAssemblySenateRoute: GeneralAssemblySenateRouteWithChildren,
   GeneralAssemblyIndexRoute: GeneralAssemblyIndexRoute,
 }
@@ -897,6 +989,7 @@ const rootRouteChildren: RootRouteChildren = {
   R2027Route: R2027Route,
   AboutRoute: AboutRoute,
   ArticlesRoute: ArticlesRouteWithChildren,
+  BoardOfEducationRoute: BoardOfEducationRoute,
   CitiesRoute: CitiesRouteWithChildren,
   ContactRoute: ContactRoute,
   CountiesRoute: CountiesRouteWithChildren,

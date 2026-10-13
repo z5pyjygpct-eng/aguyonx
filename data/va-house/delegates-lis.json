@@ -1,0 +1,695 @@
+[
+ {
+  "name": "Patrick A. Hope",
+  "district": 1,
+  "party": "D",
+  "lisId": "H0219",
+  "houseName": "Hope, Patrick A."
+ },
+ {
+  "name": "Adele Y. McClure",
+  "district": 2,
+  "party": "D",
+  "lisId": "H0375",
+  "houseName": "McClure, Adele Y."
+ },
+ {
+  "name": "Alfonso H. Lopez",
+  "district": 3,
+  "party": "D",
+  "lisId": "H0239",
+  "houseName": "Lopez, Alfonso H."
+ },
+ {
+  "name": "Charniele L. Herring",
+  "district": 4,
+  "party": "D",
+  "lisId": "H0208",
+  "houseName": "Herring, Charniele L."
+ },
+ {
+  "name": "Kirk McPike",
+  "district": 5,
+  "party": "D",
+  "lisId": "H0406",
+  "houseName": "McPike, R. Kirk"
+ },
+ {
+  "name": "Richard C. \"Rip\" Sullivan, Jr.",
+  "district": 6,
+  "party": "D",
+  "lisId": "H0269",
+  "houseName": "Sullivan, Richard C. (Rip), Jr."
+ },
+ {
+  "name": "Karen Keys-Gamarra",
+  "district": 7,
+  "party": "D",
+  "lisId": "H0370",
+  "houseName": "Keys-Gamarra, Karen"
+ },
+ {
+  "name": "Irene Shin",
+  "district": 8,
+  "party": "D",
+  "lisId": "H0344",
+  "houseName": "Shin, Irene"
+ },
+ {
+  "name": "Karrie K. Delaney",
+  "district": 9,
+  "party": "D",
+  "lisId": "H0294",
+  "houseName": "Delaney, Karrie K."
+ },
+ {
+  "name": "Dan I. Helmer",
+  "district": 10,
+  "party": "D",
+  "lisId": "H0317",
+  "houseName": "Helmer, Dan"
+ },
+ {
+  "name": "Gretchen M. Bulova",
+  "district": 11,
+  "party": "D",
+  "lisId": "H0403",
+  "houseName": "Bulova, Gretchen M."
+ },
+ {
+  "name": "Holly M. Seibold",
+  "district": 12,
+  "party": "D",
+  "lisId": "H0351",
+  "houseName": "Seibold, Holly M."
+ },
+ {
+  "name": "Marcus B. Simon",
+  "district": 13,
+  "party": "D",
+  "lisId": "H0264",
+  "houseName": "Simon, Marcus B."
+ },
+ {
+  "name": "Vivian E. Watts",
+  "district": 14,
+  "party": "D",
+  "lisId": "H0108",
+  "houseName": "Watts, Vivian E."
+ },
+ {
+  "name": "Laura Jane Cohen",
+  "district": 15,
+  "party": "D",
+  "lisId": "H0355",
+  "houseName": "Cohen, Laura Jane"
+ },
+ {
+  "name": "Paul E. Krizek",
+  "district": 16,
+  "party": "D",
+  "lisId": "H0281",
+  "houseName": "Krizek, Paul E."
+ },
+ {
+  "name": "Garrett McGuire",
+  "district": 17,
+  "party": "D",
+  "lisId": "H0405",
+  "houseName": "McGuire, Garrett"
+ },
+ {
+  "name": "Kathy K.L. Tran",
+  "district": 18,
+  "party": "D",
+  "lisId": "H0305",
+  "houseName": "Tran, Kathy KL"
+ },
+ {
+  "name": "Rozia A. Henson, Jr.",
+  "district": 19,
+  "party": "D",
+  "lisId": "H0365",
+  "houseName": "Henson, Rozia A., Jr."
+ },
+ {
+  "name": "Joshua E. Thomas",
+  "district": 21,
+  "party": "D",
+  "lisId": "H0382",
+  "houseName": "Thomas, Josh"
+ },
+ {
+  "name": "Elizabeth R. Guzman",
+  "district": 22,
+  "party": "D",
+  "lisId": "H0297",
+  "houseName": "Guzman, Elizabeth R."
+ },
+ {
+  "name": "Margaret A. Franklin",
+  "district": 23,
+  "party": "D",
+  "lisId": "H0404",
+  "houseName": "Franklin, Margaret Angela"
+ },
+ {
+  "name": "Luke E. Torian",
+  "district": 24,
+  "party": "D",
+  "lisId": "H0227",
+  "houseName": "Torian, Luke E."
+ },
+ {
+  "name": "Briana D. Sewell",
+  "district": 25,
+  "party": "D",
+  "lisId": "H0343",
+  "houseName": "Sewell, Briana D."
+ },
+ {
+  "name": "JJ Singh",
+  "district": 26,
+  "party": "D",
+  "lisId": "H0385",
+  "houseName": "Singh, JJ"
+ },
+ {
+  "name": "Atoosa R. Reaser",
+  "district": 27,
+  "party": "D",
+  "lisId": "H0380",
+  "houseName": "Reaser, Atoosa R."
+ },
+ {
+  "name": "David A. Reid",
+  "district": 28,
+  "party": "D",
+  "lisId": "H0301",
+  "houseName": "Reid, David A."
+ },
+ {
+  "name": "Marty Martinez",
+  "district": 29,
+  "party": "D",
+  "lisId": "H0374",
+  "houseName": "Martinez, Fernando J."
+ },
+ {
+  "name": "John Chilton McAuliff",
+  "district": 30,
+  "party": "D",
+  "lisId": "H0395",
+  "houseName": "McAuliff, John C"
+ },
+ {
+  "name": "Delores Oates",
+  "district": 31,
+  "party": "R",
+  "lisId": "H0377",
+  "houseName": "Oates, Delores"
+ },
+ {
+  "name": "Bill Wiley",
+  "district": 32,
+  "party": "R",
+  "lisId": "H0329",
+  "houseName": "Wiley, William D. (Bill)"
+ },
+ {
+  "name": "Justin Pence",
+  "district": 33,
+  "party": "R",
+  "lisId": "H0398",
+  "houseName": "Pence, Justin L."
+ },
+ {
+  "name": "Tony O. Wilt",
+  "district": 34,
+  "party": "R",
+  "lisId": "H0231",
+  "houseName": "Wilt, Tony O."
+ },
+ {
+  "name": "Chris S. Runion",
+  "district": 35,
+  "party": "R",
+  "lisId": "H0321",
+  "houseName": "Runion, Chris"
+ },
+ {
+  "name": "Ellen H. McLaughlin",
+  "district": 36,
+  "party": "R",
+  "lisId": "H0350",
+  "houseName": "McLaughlin, Ellen H."
+ },
+ {
+  "name": "Terry L. Austin",
+  "district": 37,
+  "party": "R",
+  "lisId": "H0253",
+  "houseName": "Austin, Terry L."
+ },
+ {
+  "name": "Sam Rasoul",
+  "district": 38,
+  "party": "D",
+  "lisId": "H0266",
+  "houseName": "Rasoul, Sam"
+ },
+ {
+  "name": "Will Davis",
+  "district": 39,
+  "party": "R",
+  "lisId": "H0357",
+  "houseName": "Davis, Will P."
+ },
+ {
+  "name": "Joseph P. McNamara",
+  "district": 40,
+  "party": "R",
+  "lisId": "H0308",
+  "houseName": "McNamara, Joseph P."
+ },
+ {
+  "name": "Lily V. Franklin",
+  "district": 41,
+  "party": "D",
+  "lisId": "H0393",
+  "houseName": "Franklin, Lily V."
+ },
+ {
+  "name": "Jason S. Ballard",
+  "district": 42,
+  "party": "R",
+  "lisId": "H0333",
+  "houseName": "Ballard, Jason S."
+ },
+ {
+  "name": "James W. Morefield",
+  "district": 43,
+  "party": "R",
+  "lisId": "H0224",
+  "houseName": "Morefield, James W. (Will)"
+ },
+ {
+  "name": "Israel D. O'Quinn",
+  "district": 44,
+  "party": "R",
+  "lisId": "H0242",
+  "houseName": "O&#39;Quinn, Israel D."
+ },
+ {
+  "name": "Terry G. Kilgore",
+  "district": 45,
+  "party": "R",
+  "lisId": "H0056",
+  "houseName": "Kilgore, Terry G."
+ },
+ {
+  "name": "Mitchell Cornett",
+  "district": 46,
+  "party": "R",
+  "lisId": "H0390",
+  "houseName": "Cornett, Mitchell"
+ },
+ {
+  "name": "Wren M. Williams",
+  "district": 47,
+  "party": "R",
+  "lisId": "H0348",
+  "houseName": "Williams, Wren M."
+ },
+ {
+  "name": "Eric Phillips",
+  "district": 48,
+  "party": "R",
+  "lisId": "H0384",
+  "houseName": "Phillips, Eric J."
+ },
+ {
+  "name": "Madison Whittle",
+  "district": 49,
+  "party": "R",
+  "lisId": "H0401",
+  "houseName": "Whittle, Madison"
+ },
+ {
+  "name": "Thomas C. Wright, Jr.",
+  "district": 50,
+  "party": "R",
+  "lisId": "H0136",
+  "houseName": "Wright, Thomas C., Jr."
+ },
+ {
+  "name": "Eric R. Zehr",
+  "district": 51,
+  "party": "R",
+  "lisId": "H0383",
+  "houseName": "Zehr, Eric"
+ },
+ {
+  "name": "Wendell S. Walker",
+  "district": 52,
+  "party": "R",
+  "lisId": "H0325",
+  "houseName": "Walker, Wendell S."
+ },
+ {
+  "name": "Timothy P. Griffin",
+  "district": 53,
+  "party": "R",
+  "lisId": "H0364",
+  "houseName": "Griffin, Timothy P."
+ },
+ {
+  "name": "Katrina Callsen",
+  "district": 54,
+  "party": "D",
+  "lisId": "H0354",
+  "houseName": "Callsen, Katrina E."
+ },
+ {
+  "name": "Amy J. Laufer",
+  "district": 55,
+  "party": "D",
+  "lisId": "H0371",
+  "houseName": "Laufer, Amy J."
+ },
+ {
+  "name": "Thomas A. Garrett, Jr.",
+  "district": 56,
+  "party": "R",
+  "lisId": "H0362",
+  "houseName": "Garrett, Thomas A., Jr."
+ },
+ {
+  "name": "May Nivar",
+  "district": 57,
+  "party": "D",
+  "lisId": "H0397",
+  "houseName": "Nivar, May"
+ },
+ {
+  "name": "Rodney T. Willett",
+  "district": 58,
+  "party": "D",
+  "lisId": "H0327",
+  "houseName": "Willett, Rodney T."
+ },
+ {
+  "name": "Hyland F. \"Buddy\" Fowler, Jr.",
+  "district": 59,
+  "party": "R",
+  "lisId": "H0259",
+  "houseName": "Fowler, Hyland F., Jr."
+ },
+ {
+  "name": "Scott A. Wyatt",
+  "district": 60,
+  "party": "R",
+  "lisId": "H0328",
+  "houseName": "Wyatt, Scott A."
+ },
+ {
+  "name": "Michael J. Webert",
+  "district": 61,
+  "party": "R",
+  "lisId": "H0247",
+  "houseName": "Webert, Michael J."
+ },
+ {
+  "name": "Karen Hamilton",
+  "district": 62,
+  "party": "R",
+  "lisId": "H0394",
+  "houseName": "Hamilton, Karen Fleming"
+ },
+ {
+  "name": "Phillip A. Scott",
+  "district": 63,
+  "party": "R",
+  "lisId": "H0342",
+  "houseName": "Scott, Phillip A."
+ },
+ {
+  "name": "Stacey Annie Carroll",
+  "district": 64,
+  "party": "D",
+  "lisId": "H0388",
+  "houseName": "Carroll, Stacey A."
+ },
+ {
+  "name": "Joshua G. Cole",
+  "district": 65,
+  "party": "D",
+  "lisId": "H0314",
+  "houseName": "Cole, Joshua G."
+ },
+ {
+  "name": "Nicole Cole",
+  "district": 66,
+  "party": "D",
+  "lisId": "H0389",
+  "houseName": "Cole, Nicole"
+ },
+ {
+  "name": "Hillary Pugh Kent",
+  "district": 67,
+  "party": "R",
+  "lisId": "H0369",
+  "houseName": "Kent, Hillary Pugh"
+ },
+ {
+  "name": "M. Keith Hodges",
+  "district": 68,
+  "party": "R",
+  "lisId": "H0238",
+  "houseName": "Hodges, M. Keith"
+ },
+ {
+  "name": "Mark C. Downey",
+  "district": 69,
+  "party": "D",
+  "lisId": "H0392",
+  "houseName": "Downey, Mark C."
+ },
+ {
+  "name": "Shelly A. Simonds",
+  "district": 70,
+  "party": "D",
+  "lisId": "H0323",
+  "houseName": "Simonds, Shelly A."
+ },
+ {
+  "name": "Jessica L. Anderson",
+  "district": 71,
+  "party": "D",
+  "lisId": "H0386",
+  "houseName": "Anderson, Jessica L."
+ },
+ {
+  "name": "R. Lee Ware",
+  "district": 72,
+  "party": "R",
+  "lisId": "H0124",
+  "houseName": "Ware, R. Lee"
+ },
+ {
+  "name": "Leslie Chambers Mehta",
+  "district": 73,
+  "party": "D",
+  "lisId": "H0396",
+  "houseName": "Mehta, Leslie Chambers"
+ },
+ {
+  "name": "Mike A. Cherry",
+  "district": 74,
+  "party": "R",
+  "lisId": "H0335",
+  "houseName": "Cherry, Mike A."
+ },
+ {
+  "name": "Lindsey Dougherty",
+  "district": 75,
+  "party": "D",
+  "lisId": "H0391",
+  "houseName": "Dougherty, Lindsey"
+ },
+ {
+  "name": "Debra D. Gardner",
+  "district": 76,
+  "party": "D",
+  "lisId": "H0361",
+  "houseName": "Gardner, Debra D."
+ },
+ {
+  "name": "Charlie Schmidt",
+  "district": 77,
+  "party": "D",
+  "lisId": "H0402",
+  "houseName": "Schmidt, Charles H., Jr."
+ },
+ {
+  "name": "Betsy B. Carr",
+  "district": 78,
+  "party": "D",
+  "lisId": "H0212",
+  "houseName": "Carr, Betsy B."
+ },
+ {
+  "name": "Rae Cousins",
+  "district": 79,
+  "party": "D",
+  "lisId": "H0356",
+  "houseName": "Cousins, Rae C."
+ },
+ {
+  "name": "Destiny LeVere Bolling",
+  "district": 80,
+  "party": "D",
+  "lisId": "H0372",
+  "houseName": "LeVere Bolling, Destiny L."
+ },
+ {
+  "name": "Delores L. McQuinn",
+  "district": 81,
+  "party": "D",
+  "lisId": "H0207",
+  "houseName": "McQuinn, Delores L."
+ },
+ {
+  "name": "Kimberly Pope Adams",
+  "district": 82,
+  "party": "D",
+  "lisId": "H0399",
+  "houseName": "Pope Adams, Kimberly"
+ },
+ {
+  "name": "H. Otto Wachsmann, Jr.",
+  "district": 83,
+  "party": "R",
+  "lisId": "H0347",
+  "houseName": "Wachsmann, Howard Otto, Jr."
+ },
+ {
+  "name": "Nadarius E. Clark",
+  "district": 84,
+  "party": "D",
+  "lisId": "H0336",
+  "houseName": "Clark, Nadarius E."
+ },
+ {
+  "name": "Marcia S. \"Cia\" Price",
+  "district": 85,
+  "party": "D",
+  "lisId": "H0284",
+  "houseName": "Price, Marcia S. (Cia)"
+ },
+ {
+  "name": "Virgil Thornton",
+  "district": 86,
+  "party": "D",
+  "lisId": "H0400",
+  "houseName": "Thornton, Virgil Gene, Sr."
+ },
+ {
+  "name": "Jeion A. Ward",
+  "district": 87,
+  "party": "D",
+  "lisId": "H0173",
+  "houseName": "Ward, Jeion A."
+ },
+ {
+  "name": "Don Scott",
+  "district": 88,
+  "party": "D",
+  "lisId": "H0322",
+  "houseName": "Scott, Don"
+ },
+ {
+  "name": "Karen R. \"Kacey\" Carnegie",
+  "district": 89,
+  "party": "D",
+  "lisId": "H0387",
+  "houseName": "Carnegie, Karen Robins"
+ },
+ {
+  "name": "James A. \"Jay\" Leftwich",
+  "district": 90,
+  "party": "R",
+  "lisId": "H0262",
+  "houseName": "Leftwich, James A. (Jay), Jr."
+ },
+ {
+  "name": "C.E. Cliff Hayes, Jr.",
+  "district": 91,
+  "party": "D",
+  "lisId": "H0285",
+  "houseName": "Hayes, C. E. (Cliff), Jr."
+ },
+ {
+  "name": "Bonita G. Anthony",
+  "district": 92,
+  "party": "D",
+  "lisId": "H0353",
+  "houseName": "Anthony, Bonita G."
+ },
+ {
+  "name": "Jackie H. Glass",
+  "district": 93,
+  "party": "D",
+  "lisId": "H0349",
+  "houseName": "Glass, Jackie Hope"
+ },
+ {
+  "name": "Phil M. Hernandez",
+  "district": 94,
+  "party": "D",
+  "lisId": "H0366",
+  "houseName": "Hernandez, Phil M."
+ },
+ {
+  "name": "Alex Q. Askew",
+  "district": 95,
+  "party": "D",
+  "lisId": "H0311",
+  "houseName": "Askew, Alex Q."
+ },
+ {
+  "name": "Kelly K. Convirs-Fowler",
+  "district": 96,
+  "party": "D",
+  "lisId": "H0295",
+  "houseName": "Convirs-Fowler, Kelly K."
+ },
+ {
+  "name": "Michael B. Feggans",
+  "district": 97,
+  "party": "D",
+  "lisId": "H0360",
+  "houseName": "Feggans, Michael"
+ },
+ {
+  "name": "Andrew Rice",
+  "district": 98,
+  "party": "R",
+  "lisId": "H0407",
+  "houseName": "Rice, Andrew"
+ },
+ {
+  "name": "Anne Ferrell Tata",
+  "district": 99,
+  "party": "R",
+  "lisId": "H0345",
+  "houseName": "Tata, Anne Ferrell H."
+ },
+ {
+  "name": "Robert S. Bloxom, Jr.",
+  "district": 100,
+  "party": "R",
+  "lisId": "H0267",
+  "houseName": "Bloxom, Robert S., Jr."
+ }
+]

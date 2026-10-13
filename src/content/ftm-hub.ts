@@ -5,6 +5,8 @@
 import { LOUDOUN_MEETINGS } from "./loudoun";
 import { LCPS_MEETINGS } from "./lcps";
 import { SENATE_MEETINGS, senateLive, senateTranscriptCount } from "./va-senate";
+import { HOUSE_MEETINGS, houseLive, houseTranscriptCount } from "./va-house";
+import { VBOE_MEETINGS, vboeLive, vboeTranscriptCount } from "./va-boe";
 import { CITIES, CITY_VENUES, cityMeetingsFor, cityTranscriptCount, cityVenueLive } from "./cities";
 
 export type FtmHubStatus = "live" | "in-progress";
@@ -88,6 +90,38 @@ export function ftmHubEntries(): FtmHubEntry[] {
       transcriptCount: senateTranscriptCount(),
       range: rangeOf(SENATE_MEETINGS.map((m) => m.date)),
       href: "/general-assembly/senate",
+    });
+  }
+  if (HOUSE_MEETINGS.length) {
+    const live = houseLive();
+    out.push({
+      key: "va-house",
+      group: "Statewide",
+      name: "Virginia House of Delegates floor sessions",
+      description: live
+        ? "Search what delegates said on the floor and jump to the session video."
+        : "Floor sessions are queued for transcription. Search opens as transcripts post.",
+      status: live ? "live" : "in-progress",
+      meetingCount: HOUSE_MEETINGS.length,
+      transcriptCount: houseTranscriptCount(),
+      range: rangeOf(HOUSE_MEETINGS.map((m) => m.date)),
+      href: "/general-assembly/house",
+    });
+  }
+  if (VBOE_MEETINGS.length) {
+    const live = vboeLive();
+    out.push({
+      key: "va-boe",
+      group: "Statewide",
+      name: "Virginia Board of Education",
+      description: live
+        ? "Search what the state Board of Education said and jump to the meeting video."
+        : "Board meetings are queued for transcription. Search opens as transcripts post.",
+      status: live ? "live" : "in-progress",
+      meetingCount: VBOE_MEETINGS.length,
+      transcriptCount: vboeTranscriptCount(),
+      range: rangeOf(VBOE_MEETINGS.map((m) => m.date)),
+      href: "/board-of-education",
     });
   }
   for (const city of CITIES) {

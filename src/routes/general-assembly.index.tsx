@@ -3,6 +3,7 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { SENATE_MEETINGS, senateTranscriptCount } from "@/content/va-senate";
+import { HOUSE_MEETINGS, houseTranscriptCount } from "@/content/va-house";
 
 export const Route = createFileRoute("/general-assembly/")({
   component: GeneralAssemblyIndex,
@@ -11,6 +12,7 @@ export const Route = createFileRoute("/general-assembly/")({
 
 function GeneralAssemblyIndex() {
   const n = senateTranscriptCount();
+  const h = houseTranscriptCount();
   return (
     <SiteShell>
       <HomeSearch />
@@ -39,23 +41,20 @@ function GeneralAssemblyIndex() {
               </p>
             </Link>
           </li>
-          <li className="rounded-md border border-dashed border-border bg-card/60 px-5 py-5">
-            <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
-              Coming later
-            </p>
-            <p className="mt-2 font-serif text-2xl font-medium">House of Delegates</p>
-            <p className="mt-2 text-sm text-muted-foreground">
-              Not yet in Find the Moment. Official House video:{" "}
-              <a
-                href="https://video.house.virginia.gov/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#1E4B8E] underline-offset-2 hover:underline"
-              >
-                video.house.virginia.gov
-              </a>
-              .
-            </p>
+          <li>
+            <Link
+              to="/general-assembly/house"
+              className="block rounded-md border border-border bg-card px-5 py-5 hover:bg-wash"
+            >
+              <p className="font-mono text-xs tracking-widest text-[#0d7377] uppercase">
+                {h > 0 ? "Live" : "Transcripts in progress"}
+              </p>
+              <p className="mt-2 font-serif text-2xl font-medium">House of Delegates</p>
+              <p className="mt-2 text-sm text-muted-foreground">
+                {h} of {HOUSE_MEETINGS.length} 2026 floor session videos searchable. Recaps with LIS
+                roll-call votes.
+              </p>
+            </Link>
           </li>
         </ul>
       </main>

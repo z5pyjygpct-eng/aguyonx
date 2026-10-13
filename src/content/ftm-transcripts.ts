@@ -20,7 +20,9 @@ export type FtmTranscriptVenue =
   | "manassas-schools"
   | "albemarle-bos"
   | "albemarle-schools"
-  | "va-senate-floor";
+  | "va-senate-floor"
+  | "va-house-floor"
+  | "va-boe";
 
 export type FtmTranscript = {
   /** Catalog meeting id (e.g. LOUDOUN_MEETINGS[].id). */
