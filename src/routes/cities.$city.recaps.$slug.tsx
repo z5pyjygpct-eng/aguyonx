@@ -99,8 +99,8 @@ function RecapPage() {
               <Kicker>What was decided · How each member voted</Kicker>
               {recap.official.votesPosted && recap.decisions.length > 0 ? (
                 <ul className="mt-3 space-y-3">
-                  {recap.decisions.map((d) => (
-                    <li key={`${d.item}-${d.action}`} className="text-sm">
+                  {recap.decisions.map((d, di) => (
+                    <li key={`${di}-${d.item}`} className="text-sm">
                       <span className="font-mono text-xs font-semibold text-[#1E4B8E]">
                         {d.item}
                       </span>{" "}
@@ -110,6 +110,12 @@ function RecapPage() {
                     </li>
                   ))}
                 </ul>
+              ) : recap.noVotesRecorded ? (
+                <aside className="mt-3 rounded-r-md border-l-4 border-border bg-muted px-4 py-3 text-sm text-muted-foreground">
+                  <strong className="font-semibold text-foreground">No votes recorded.</strong>{" "}
+                  {recap.official.note}
+                  <span className="mt-1 block text-xs">Last checked {recap.official.checkedLabel}.</span>
+                </aside>
               ) : (
                 <aside className="mt-3 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">
                   <strong className="font-semibold">Official vote record not yet posted.</strong>{" "}
@@ -229,7 +235,8 @@ function RecapPage() {
             ) : null}
           </div>
 
-          {/* Right: agenda */}
+          {/* Right: agenda (hidden when the city posted no agenda) */}
+          {recap.agenda.length > 0 || recap.context.length > 0 ? (
           <section className="rounded-md border border-border bg-card px-4 py-5 sm:px-5">
             <Kicker>On the agenda</Kicker>
             <p className="mt-1 text-xs text-muted-foreground">
@@ -272,6 +279,7 @@ function RecapPage() {
               </div>
             ) : null}
           </section>
+          ) : null}
         </div>
       </main>
     </SiteShell>

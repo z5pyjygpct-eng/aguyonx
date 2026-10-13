@@ -258,3 +258,15 @@ Every venue page shows a right-hand "By the numbers" panel beside Find the Momen
 - Intro counts line: "N meetings · X searchable now · Y in queue · Next meeting" (if a future-dated meeting exists).
 - Recap pages: official links + transcript disclaimer sit in "Sources & downloads" / "About this transcript" expanders.
 - Region kicker from `City.region`; footer location from `SiteShell location`.
+
+## Fairfax City recaps: fill from official records (2026-10-13)
+After adding/refreshing any Fairfax recap in `src/content/city-recaps.ts`, run:
+`python3 scripts/fairfax-recap-fill.py` (or `--only fxc-...,fxc-...`), then build/commit/push.
+It writes `src/content/city-recap-fill.json`, merged at load:
+- decisions/tallies ONLY from the linked official minutes (council: Granicus Council Actions; schools: minutes PDF);
+  work sessions whose minutes record no votes show "No votes recorded"; no minutes yet -> "not yet posted".
+- agenda from the Granicus AgendaViewer (empty -> section hidden);
+- moments from the official Granicus video index (cuepoints); schools (no index) get vote moments
+  paired to the transcript's "all in favor" calls only when counts match exactly. Filler moments
+  ("Early agenda business" etc.) are dropped only when real moments exist.
+Re-run on recaps still missing minutes (votes-watch) so late-posted minutes fill in.
