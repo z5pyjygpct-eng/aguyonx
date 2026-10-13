@@ -47,6 +47,15 @@ def frame(e, tmp):
                 im = im.crop((0, (h - ch) // 2, w, (h - ch) // 2 + ch)); im.save(p + '.png')
                 if good(p + '.png'): return p + '.png'
         return None
+    if e.get('vimeoId'):
+        r = subprocess.run(['curl', '-sf', '--max-time', '20', f"https://vimeo.com/api/oembed.json?url=https://vimeo.com/{e['vimeoId']}&width=1280"], capture_output=True, text=True)
+        try: t = json.loads(r.stdout).get('thumbnail_url')
+        except Exception: t = None
+        if not t: return None
+        p = f'{tmp}/v.jpg'
+        if subprocess.run(['curl', '-sf', '--max-time', '20', '-o', p, t]).returncode: return None
+        Image.open(p).convert('RGB').save(p + '.png')
+        return p + '.png' if good(p + '.png') else None
     u = granicus_stream(e.get('source'))
     if not u: return None
     d = secs(e.get('duration')) or 600

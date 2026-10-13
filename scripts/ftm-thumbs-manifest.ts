@@ -8,6 +8,7 @@
 import fs from "node:fs";
 import { LOUDOUN_MEETINGS } from "../src/content/loudoun";
 import { LOUDOUN_RECAPS } from "../src/content/loudoun-recaps";
+import { LCPS_MEETINGS } from "../src/content/lcps";
 import { CITY_MEETINGS } from "../src/content/cities-meetings";
 import { CITY_RECAPS } from "../src/content/city-recaps";
 import { HOUSE_MEETINGS, HOUSE_RECAPS } from "../src/content/va-house";
@@ -18,7 +19,7 @@ const OVR = JSON.parse(fs.readFileSync("data/ftm-thumb-overrides.json", "utf8"))
 const LIVE_CITY = ["fairfax-city-council", "fairfax-city-schools", "albemarle-schools", "albemarle-bos"];
 const SKIP = /consent agenda|on consent|Suspend the Rules|Reconsider|minutes|agenda approved|approval of the agenda|adopt(ed)? the agenda|Proclamation|Resolution to Recognize|appointment|nomination|Rules of Order|postponed|adjourn|closed session|Administrative Items|remote participation|adoption of the agenda|agenda adoption|electronic participation|call to order|meeting opening/i;
 
-type Entry = { venue: string; id: string; date: string; type: string; headline?: string; result?: string; duration: string; source?: string; youtubeId?: string; out: string };
+type Entry = { venue: string; id: string; date: string; type: string; headline?: string; result?: string; duration: string; source?: string; youtubeId?: string; vimeoId?: string; out: string };
 
 /** Shorten an official action sentence to a thumbnail headline (no new facts, just trimming). */
 function shorten(action: string, keepDots = false): string {
@@ -67,6 +68,9 @@ const push = (e: Omit<Entry, "out">) => {
 // Loudoun BOS
 const lr = Object.fromEntries(LOUDOUN_RECAPS.map((r) => [r.meetingId, r]));
 for (const m of LOUDOUN_MEETINGS) push({ venue: "loudoun-bos", id: m.id, date: m.dateLabel, type: m.title.replace(/^Loudoun BOS /, "").replace(/\s*\(.*\)$/, "").replace(/^Business$/, "Business Meeting"), duration: m.duration, source: m.videoUrl ?? (m.clipId ? `granicus-loudoun:${m.clipId}` : undefined), ...topDecision(lr[m.id]?.decisions) });
+
+// Loudoun County Public Schools (Vimeo / LCPS-TV)
+for (const m of LCPS_MEETINGS as any[]) push({ venue: "loudoun-lcps", id: m.id, date: m.dateLabel, type: m.title.replace(/\s*\(.*\)$/, ""), duration: m.duration, vimeoId: m.vimeoId, ...topDecision(lr[m.id]?.decisions, lr[m.id]?.agenda) });
 
 // City venues (Fairfax City council + schools, Albemarle schools + BOS)
 const cr = Object.fromEntries(CITY_RECAPS.map((r) => [r.meetingId, r]));

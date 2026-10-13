@@ -12,6 +12,12 @@ import {
   LCPS_SCHOOL_BOARD,
 } from "@/content/lcps";
 import { LOUDOUN_RECAPS } from "@/content/loudoun-recaps";
+import { FtmThumb } from "@/components/site/ftm-thumb";
+
+const LCPS_RECAP_BY_MEETING = Object.fromEntries(
+  LOUDOUN_RECAPS.filter((r) => r.venue === "loudoun-lcps").map((r) => [r.meetingId, r]),
+);
+const LCPS_KIND: Record<string, string> = { full_board: "Full board", committee: "Committee", appeals: "Appeals", closed: "Closed session", other: "Other" };
 import { LCPS_POLICY_BOOK, lcpsPolicyCount, lcpsPolicyHostedCount } from "@/content/lcps-policies";
 import { LCPS_BUDGET_DOCS, LCPS_BUDGET_FY27 } from "@/content/lcps-budget";
 
@@ -90,6 +96,55 @@ function LoudounSchoolsPage() {
             </ul>
           </section>
         ) : null}
+
+        <section className="mt-14">
+          <Kicker>LCPS-TV</Kicker>
+          <h2 className="mt-2 font-serif text-3xl font-medium">Meeting videos</h2>
+          <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
+            All {LCPS_MEETINGS.length} indexed School Board meetings (full board, committees, appeals, closed-session
+            openings). Video opens LCPS-TV on Vimeo.
+          </p>
+          <ul className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+            {LCPS_MEETINGS.map((m) => {
+              const recap = LCPS_RECAP_BY_MEETING[m.id];
+              return (
+                <li key={m.id} className="flex h-full flex-col gap-1.5 rounded-md border border-border bg-card px-4 py-4 text-sm">
+                  <FtmThumb top venue="loudoun-lcps" meetingId={m.id} href={m.playerUrl} />
+                  <span className="font-mono text-xs text-muted-foreground">{m.dateLabel}</span>
+                  {recap ? (
+                    <Link
+                      to="/counties/loudoun/recaps/$slug"
+                      params={{ slug: recap.slug }}
+                      className="font-serif text-lg font-medium leading-snug text-[#1E4B8E] underline-offset-2 hover:underline"
+                    >
+                      {m.committeeName || m.title}
+                    </Link>
+                  ) : (
+                    <span className="font-serif text-lg font-medium leading-snug">{m.committeeName || m.title}</span>
+                  )}
+                  <span className="text-xs text-muted-foreground">
+                    {LCPS_KIND[m.kind ?? "full_board"] ?? m.kind} · {m.duration}
+                  </span>
+                  <span className="mt-auto flex flex-wrap gap-1.5 pt-1 text-xs">
+                    {recap ? (
+                      <Link to="/counties/loudoun/recaps/$slug" params={{ slug: recap.slug }} className="rounded border border-border px-2 py-0.5 text-[#1E4B8E] hover:bg-wash">
+                        Recap
+                      </Link>
+                    ) : null}
+                    <a href={m.playerUrl} target="_blank" rel="noopener noreferrer" className="rounded border border-border px-2 py-0.5 text-[#1E4B8E] hover:bg-wash">
+                      Video · {m.duration}
+                    </a>
+                    {m.boardDocsUrl ? (
+                      <a href={m.boardDocsUrl} target="_blank" rel="noopener noreferrer" className="rounded border border-border px-2 py-0.5 text-[#1E4B8E] hover:bg-wash">
+                        BoardDocs
+                      </a>
+                    ) : null}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
 
         <section className="mt-14">
           <Kicker>School Board</Kicker>

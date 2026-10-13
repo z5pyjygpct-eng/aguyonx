@@ -343,4 +343,5 @@ Generate / refresh (new meetings get thumbnails; changed recap text re-renders):
 Pipeline: `va-house-build.py`, `va-senate-build.py`, `va-boe-build.py` and `fairfax-recap-fill.py` call it at
 the end; the morning ingest runs `npm run ftm:thumbs` after posting transcripts/recaps and before commit.
 Per-venue counts land in `public/thumbs/<venue>/_status.json` (frame | placeholder).
+LCPS (`loudoun-lcps`): Vimeo thumbnails via oEmbed (LCPS-TV sets most to its logo slate). Grid on /counties/loudoun/schools "Meeting videos".
 New venues: add their meetings to `scripts/ftm-thumbs-manifest.ts` and drop `<FtmThumb>` into the card.
