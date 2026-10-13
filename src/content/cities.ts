@@ -56,6 +56,8 @@ export type City = {
   shortName: string;
   to: string;
   venues: CityVenueId[];
+  /** Region kicker, e.g. "Northern Virginia" (Albemarle: "Central Virginia"). */
+  region: string;
 };
 
 export const CITY_VENUES: Record<CityVenueId, CityVenue> = {
@@ -144,6 +146,7 @@ export const CITIES: City[] = [
     name: "City of Fairfax",
     shortName: "Fairfax City",
     to: "/cities/fairfax-city",
+    region: "Northern Virginia",
     venues: ["fairfax-city-council", "fairfax-city-schools"],
   },
   {
@@ -151,6 +154,7 @@ export const CITIES: City[] = [
     name: "City of Manassas",
     shortName: "Manassas",
     to: "/cities/manassas",
+    region: "Northern Virginia",
     venues: ["manassas-council", "manassas-schools"],
   },
 ];
@@ -190,4 +194,24 @@ export function cityJumpUrl(m: CityMeeting, seconds: number): string {
 
 export function isCityId(x: string): x is CityId {
   return x === "fairfax-city" || x === "manassas";
+}
+
+/**
+ * Short, standardized meeting type for list rows (full title stays on the recap page).
+ * Normalizes the many city spellings ("Regular School Board Meeting", "Special Meeting & Work Session", ...).
+ */
+export function cityMeetingType(title: string): string {
+  const t = title.toLowerCase();
+  if (/joint/.test(t)) return "Joint Meeting";
+  const special = /special/.test(t);
+  const work = /work session/.test(t);
+  if (special && /budget/.test(t)) return "Special Meeting · Budget";
+  if (special && work) return "Special Meeting + Work Session";
+  if (special) return "Special Meeting";
+  if (work) return "Work Session";
+  if (/closed/.test(t)) return "Closed Session";
+  if (/retreat/.test(t)) return "Retreat";
+  if (/organizational/.test(t)) return "Organizational Meeting";
+  if (/public hearing/.test(t)) return "Public Hearing";
+  return "Regular Meeting";
 }

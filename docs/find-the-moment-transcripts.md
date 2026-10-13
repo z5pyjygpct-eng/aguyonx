@@ -231,3 +231,9 @@ Every venue page shows a right-hand "By the numbers" panel beside Find the Momen
   `<VenueStats heading="By the numbers · {venue}" meetings={VENUE_MEETINGS} recapCount={VENUE_RECAPS.length} />`
   in the same `lg:grid-cols-[minmax(0,1fr)_15rem]` grid. Never a locality-wide total.
 - Recap listings are date-first: `{dateLabel} · {title}` (same as Loudoun).
+
+## Standard: city venue page layout (2026-10-13)
+- One meeting list (`CityMeetingList`): one-line cards with Year + Type dropdowns; short type from `cityMeetingType()`; badges Recap / Video / Agenda / Minutes / Transcript|Queued. No separate recap list.
+- Intro counts line: "N meetings · X searchable now · Y in queue · Next meeting" (if a future-dated meeting exists).
+- Recap pages: official links + transcript disclaimer sit in "Sources & downloads" / "About this transcript" expanders.
+- Region kicker from `City.region`; footer location from `SiteShell location`.

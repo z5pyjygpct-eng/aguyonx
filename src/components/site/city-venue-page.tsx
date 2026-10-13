@@ -12,6 +12,7 @@ import {
   type CityVenueId,
 } from "@/content/cities";
 import { CITY_RECAPS } from "@/content/city-recaps";
+import { FTM_TRANSCRIPTS } from "@/content/ftm-transcripts";
 import { VenueStats } from "@/components/site/loudoun-stats";
 
 export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueId }) {
@@ -19,9 +20,14 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
   const v = CITY_VENUES[venue];
   const other = c.venues.find((x) => x !== venue)!;
   const recaps = CITY_RECAPS.filter((r) => r.venue === venue);
-  const count = cityMeetingsFor(venue).length;
+  const all = cityMeetingsFor(venue);
+  const count = all.length;
+  const done = new Set(FTM_TRANSCRIPTS.map((t) => t.meetingId));
+  const searchableN = all.filter((m) => done.has(m.id)).length;
+  const today = new Date().toISOString().slice(0, 10);
+  const next = all.filter((m) => m.date > today).sort((a, b) => a.date.localeCompare(b.date))[0];
   return (
-    <SiteShell>
+    <SiteShell location={`${c.name}, Virginia`}>
       <HomeSearch />
       <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
         <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
@@ -42,13 +48,17 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
             </>
           ) : null}
         </p>
-        <Kicker className="mt-4">Virginia · Northern Virginia</Kicker>
+        <Kicker className="mt-4">Virginia · {c.region}</Kicker>
         <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
           {v.name}
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          Find the Moment: search what was said in {count} {v.boardLabel} meetings since January
-          2025 and jump straight to the official video ({v.videoHost}).
+          Find the Moment: search what was said in {v.boardLabel} meetings since January 2025 and
+          jump straight to the official video ({v.videoHost}).
+        </p>
+        <p className="mt-3 font-mono text-xs tracking-wide text-foreground">
+          {count} meetings · {searchableN} searchable now · {count - searchableN} in queue
+          {next ? ` · Next meeting: ${next.dateLabel}` : ""}
         </p>
         <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
           Also:{" "}
@@ -84,31 +94,13 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
         </section>
 
         <section className="mt-12">
-          <h2 className="font-serif text-2xl font-medium">Meeting recaps</h2>
-          {recaps.length ? (
-            <ul className="mt-4 space-y-2">
-              {recaps.map((r) => (
-                <li key={r.slug}>
-                  <Link
-                    to="/cities/$city/recaps/$slug"
-                    params={{ city, slug: r.slug }}
-                    className="text-[#1E4B8E] underline-offset-2 hover:underline"
-                  >
-                    {r.dateLabel} · {r.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p className="mt-3 text-sm text-muted-foreground">
-              Recaps post as meetings are transcribed. Decisions and votes come only from the{" "}
-              {v.votesSource}.
-            </p>
-          )}
-        </section>
-
-        <section className="mt-12">
-          <h2 className="font-serif text-2xl font-medium">Meetings (2025–2026)</h2>
+          <h2 className="font-serif text-2xl font-medium">Meetings &amp; recaps</h2>
+          <p className="mt-1 text-sm text-muted-foreground">
+            {recaps.length
+              ? `${recaps.length} meetings have a recap (tap the meeting or the Recap badge).`
+              : "Recaps post as meetings are transcribed."}{" "}
+            Decisions and votes come only from the {v.votesSource}.
+          </p>
           <div className="mt-4">
             <CityMeetingList venues={[venue]} />
           </div>

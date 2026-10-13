@@ -7,6 +7,7 @@ import {
   CITY_VENUES,
   cityJumpUrl,
   cityMeetingsFor,
+  cityMeetingType,
   type CityMeeting,
   type CityVenueId,
 } from "@/content/cities";
@@ -158,7 +159,8 @@ export function CityMeetingSearch({ venues }: { venues: CityVenueId[] }) {
           <option value="all">All meetings ({searchable.length})</option>
           {searchable.map(({ m }) => (
             <option key={m.id} value={m.id}>
-              {m.dateLabel} · {m.title}
+              {m.dateLabel} · {venues.length > 1 ? `${CITY_VENUES[m.venue].body === "schools" ? "Schools" : "Council"} · ` : ""}
+              {cityMeetingType(m.title)}
             </option>
           ))}
         </select>
@@ -197,8 +199,9 @@ export function CityMeetingSearch({ venues }: { venues: CityVenueId[] }) {
                   {secToHms(slice.start)}
                   <ExternalLink className="size-3" aria-hidden />
                 </a>
-                <span>
-                  {meeting.dateLabel} · {meeting.title}
+                <span title={meeting.title}>
+                  {meeting.dateLabel} · {venues.length > 1 ? `${CITY_VENUES[meeting.venue].body === "schools" ? "Schools" : "Council"} · ` : ""}
+                  {cityMeetingType(meeting.title)}
                 </span>
                 <span className="rounded-sm bg-[#e8eef6] px-1.5 py-0.5 font-mono text-[10px] font-semibold tracking-wider text-[#1E4B8E] uppercase">
                   Machine transcript
@@ -226,68 +229,121 @@ export function CityMeetingSearch({ venues }: { venues: CityVenueId[] }) {
 
 /** Plain meeting list with official links (all meetings in scope, transcribed or not). */
 export function CityMeetingList({ venues }: { venues: CityVenueId[] }) {
-  const meetings = venues
-    .flatMap((v) => cityMeetingsFor(v))
-    .sort((a, b) => b.date.localeCompare(a.date));
-  const has = new Set(FTM_TRANSCRIPTS.map((t) => t.meetingId));
+  const meetings = useMemo(
+    () => venues.flatMap((v) => cityMeetingsFor(v)).sort((a, b) => b.date.localeCompare(a.date)),
+    [venues],
+  );
+  const has = useMemo(() => new Set(FTM_TRANSCRIPTS.map((t) => t.meetingId)), []);
+  const years = useMemo(() => [...new Set(meetings.map((m) => m.date.slice(0, 4)))], [meetings]);
+  const types = useMemo(
+    () => [...new Set(meetings.map((m) => cityMeetingType(m.title)))].sort(),
+    [meetings],
+  );
+  const [year, setYear] = useState("all");
+  const [type, setType] = useState("all");
+  const shown = meetings.filter(
+    (m) =>
+      (year === "all" || m.date.startsWith(year)) &&
+      (type === "all" || cityMeetingType(m.title) === type),
+  );
+  const multi = venues.length > 1;
+  const sel =
+    "rounded-md border border-border bg-background px-2 py-1.5 text-sm text-foreground";
+  const badge =
+    "rounded border border-[#1E4B8E]/40 px-1.5 py-0.5 text-[11px] font-medium text-[#1E4B8E] hover:bg-[#e8eef6]";
   return (
-    <ul className="divide-y divide-border rounded-md border border-border bg-card">
-      {meetings.map((m) => {
-        const recap = CITY_RECAP_BY_MEETING[m.id];
-        return (
-          <li
-            key={m.id}
-            className="flex flex-wrap items-baseline gap-x-3 gap-y-1 px-4 py-2.5 text-sm"
-          >
-            <span className="w-24 shrink-0 font-mono text-xs text-muted-foreground">
-              {m.dateLabel}
-            </span>
-            <a
-              href={m.playerUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-foreground underline-offset-2 hover:text-[#1E4B8E] hover:underline"
+    <div>
+      <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
+        <label className="flex items-center gap-1.5">
+          <span className="text-muted-foreground">Year</span>
+          <select className={sel} value={year} onChange={(e) => setYear(e.target.value)}>
+            <option value="all">All years</option>
+            {years.map((y) => (
+              <option key={y} value={y}>
+                {y}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="flex items-center gap-1.5">
+          <span className="text-muted-foreground">Type</span>
+          <select className={sel} value={type} onChange={(e) => setType(e.target.value)}>
+            <option value="all">All types</option>
+            {types.map((t) => (
+              <option key={t} value={t}>
+                {t}
+              </option>
+            ))}
+          </select>
+        </label>
+        <span className="text-xs text-muted-foreground">
+          {shown.length} of {meetings.length} meetings
+        </span>
+      </div>
+      <ul className="divide-y divide-border rounded-md border border-border bg-card">
+        {shown.map((m) => {
+          const recap = CITY_RECAP_BY_MEETING[m.id];
+          const done = has.has(m.id);
+          return (
+            <li
+              key={m.id}
+              className="flex flex-wrap items-center gap-x-3 gap-y-1.5 px-3 py-2.5 text-sm sm:px-4"
             >
-              {m.title}
-            </a>
-            {m.duration ? (
-              <span className="text-xs text-muted-foreground">{m.duration}</span>
-            ) : null}
-            {m.agendaUrl ? (
-              <a
-                href={m.agendaUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-[#1E4B8E] hover:underline"
-              >
-                Agenda
-              </a>
-            ) : null}
-            {m.minutesUrl ? (
-              <a
-                href={m.minutesUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-[#1E4B8E] hover:underline"
-              >
-                Minutes
-              </a>
-            ) : null}
-            {recap ? (
-              <Link
-                to="/cities/$city/recaps/$slug"
-                params={{ city: CITY_VENUES[m.venue].city, slug: recap.slug }}
-                className="text-xs text-[#1E4B8E] hover:underline"
-              >
-                Recap
-              </Link>
-            ) : null}
-            <span className="ml-auto font-mono text-[10px] tracking-wider text-muted-foreground uppercase">
-              {has.has(m.id) ? "Transcribed" : "Queued"}
-            </span>
-          </li>
-        );
-      })}
-    </ul>
+              <span className="w-24 shrink-0 font-mono text-xs text-muted-foreground">
+                {m.dateLabel}
+              </span>
+              {recap ? (
+                <Link
+                  to="/cities/$city/recaps/$slug"
+                  params={{ city: CITY_VENUES[m.venue].city, slug: recap.slug }}
+                  className="min-w-0 flex-1 font-medium text-[#1E4B8E] underline-offset-2 hover:underline"
+                  title={m.title}
+                >
+                  {multi ? `${CITY_VENUES[m.venue].body === "schools" ? "Schools" : "Council"} · ` : ""}
+                  {cityMeetingType(m.title)}
+                </Link>
+              ) : (
+                <span className="min-w-0 flex-1 text-foreground" title={m.title}>
+                  {multi ? `${CITY_VENUES[m.venue].body === "schools" ? "Schools" : "Council"} · ` : ""}
+                  {cityMeetingType(m.title)}
+                </span>
+              )}
+              <span className="flex flex-wrap items-center gap-1.5">
+                {recap ? (
+                  <Link
+                    to="/cities/$city/recaps/$slug"
+                    params={{ city: CITY_VENUES[m.venue].city, slug: recap.slug }}
+                    className={badge}
+                  >
+                    Recap
+                  </Link>
+                ) : null}
+                <a href={m.playerUrl} target="_blank" rel="noopener noreferrer" className={badge}>
+                  Video{m.duration ? ` · ${m.duration}` : ""}
+                </a>
+                {m.agendaUrl ? (
+                  <a href={m.agendaUrl} target="_blank" rel="noopener noreferrer" className={badge}>
+                    Agenda
+                  </a>
+                ) : null}
+                {m.minutesUrl ? (
+                  <a href={m.minutesUrl} target="_blank" rel="noopener noreferrer" className={badge}>
+                    Minutes
+                  </a>
+                ) : null}
+                <span
+                  className={`rounded px-1.5 py-0.5 font-mono text-[10px] tracking-wider uppercase ${done ? "bg-[#e6f2ee] text-[#0d5c4a]" : "bg-muted text-muted-foreground"}`}
+                >
+                  {done ? "Transcript" : "Queued"}
+                </span>
+              </span>
+            </li>
+          );
+        })}
+        {shown.length === 0 ? (
+          <li className="px-4 py-3 text-sm text-muted-foreground">No meetings match these filters.</li>
+        ) : null}
+      </ul>
+    </div>
   );
 }

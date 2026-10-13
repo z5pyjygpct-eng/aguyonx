@@ -3,7 +3,7 @@ import { SITE } from "@/content/site";
 import { Separator } from "@/components/ui/separator";
 import { NAV_DESK, NAV_OFFICES, NAV_SHELVES } from "@/components/site/header";
 
-export function SiteFooter() {
+export function SiteFooter({ location = SITE.location }: { location?: string } = {}) {
   return (
     <footer className="mt-auto border-t border-border bg-wash">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
@@ -14,7 +14,7 @@ export function SiteFooter() {
               {SITE.domain}
             </p>
             <p className="mt-3 max-w-xs text-sm text-muted-foreground">
-              Independent investigative research in {SITE.location}. A publication of {SITE.firm}.
+              Independent investigative research in {location}. A publication of {SITE.firm}.
               Not a government site. Not a newsroom.
             </p>
           </div>

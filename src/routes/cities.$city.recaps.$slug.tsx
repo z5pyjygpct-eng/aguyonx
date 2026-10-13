@@ -68,7 +68,7 @@ function RecapPage() {
   const videoNote = `Times are approximate and open the official meeting video (${v.videoHost}) at that point.`;
 
   return (
-    <SiteShell>
+    <SiteShell location={`${c.name}, Virginia`}>
       <HomeSearch />
       <main className="mx-auto w-full max-w-5xl px-4 py-10 sm:px-6 sm:py-14">
         <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
@@ -119,17 +119,23 @@ function RecapPage() {
                   </span>
                 </aside>
               )}
-              <ul className="mt-3 flex flex-col gap-1.5 text-sm">
-                {recap.official.links.map((l) => (
-                  <li key={l.href}>
-                    <OutLink link={l} />
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-3 text-xs text-muted-foreground">
-                {boardLabel}: {boardLine}. Member-by-member votes will be listed here from the
-                official record.
-              </p>
+              <details className="group mt-3 rounded-md border border-border px-3 py-2">
+                <summary className="cursor-pointer text-sm font-medium text-[#1E4B8E]">
+                  Sources &amp; downloads ({recap.official.links.length}
+                  {recap.transcriptDownloads ? " + transcript" : ""})
+                </summary>
+                <ul className="mt-2 flex flex-col gap-1.5 text-sm">
+                  {recap.official.links.map((l) => (
+                    <li key={l.href}>
+                      <OutLink link={l} />
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-3 text-xs text-muted-foreground">
+                  {boardLabel}: {boardLine}. Member-by-member votes will be listed here from the
+                  official record.
+                </p>
+              </details>
             </section>
 
             <section className="rounded-md border border-border bg-card px-4 py-5 sm:px-5">
@@ -209,11 +215,16 @@ function RecapPage() {
                     Text
                   </a>
                 </div>
-                <p className="mt-3 text-xs text-muted-foreground">
-                  Machine transcript (speech-to-text) produced by Coraggio Consulting. Not an
-                  official city record. Names and numbers may be misspelled; check the video at the
-                  timestamp before quoting.
-                </p>
+                <details className="mt-3">
+                  <summary className="cursor-pointer text-xs text-muted-foreground">
+                    About this transcript
+                  </summary>
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    Machine transcript (speech-to-text) produced by Coraggio Consulting. Not an
+                    official city record. Names and numbers may be misspelled; check the video at
+                    the timestamp before quoting.
+                  </p>
+                </details>
               </section>
             ) : null}
           </div>

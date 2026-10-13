@@ -3,7 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
-import { CityMeetingSearch } from "@/components/site/city-meeting-search";
+import { CityMeetingList, CityMeetingSearch } from "@/components/site/city-meeting-search";
 import { CITY_BY_ID, type CityId } from "@/content/cities";
 
 export const Route = createFileRoute("/cities/$city/find-the-moment")({ component: Page });
@@ -13,7 +13,7 @@ function Page() {
   const c = CITY_BY_ID[city as CityId];
   if (!c) return <CityMissing />;
   return (
-    <SiteShell>
+    <SiteShell location={`${c.name}, Virginia`}>
       <HomeSearch />
       <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
         <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
@@ -31,12 +31,16 @@ function Page() {
           <span className="mx-2 text-border">/</span>
           Find the Moment
         </p>
-        <Kicker className="mt-4">Virginia · Northern Virginia</Kicker>
+        <Kicker className="mt-4">Virginia · {c.region}</Kicker>
         <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
           Search {c.shortName} Council + Schools together
         </h1>
         <div className="mt-10">
           <CityMeetingSearch venues={c.venues} />
+        </div>
+        <div className="mt-10">
+          <h2 className="font-serif text-2xl font-medium">Meetings &amp; recaps</h2>
+          <div className="mt-4"><CityMeetingList venues={c.venues} /></div>
         </div>
       </main>
     </SiteShell>
