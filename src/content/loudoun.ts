@@ -980,14 +980,14 @@ export function loudounMeetingType(title: string): string {
 export const LOUDOUN_OFFICIAL_DOORS = [
   ...LOUDOUN_MEETINGS.map((m) => ({
     label: `${m.dateLabel} · ${m.title.replace(/^Loudoun BOS /, "")}`,
-    href: loudounProvider(m) === "escribe" ? (m.videoUrl ?? m.playerUrl) : m.playerUrl,
+    href: m.playerUrl,
     dek:
       loudounProvider(m) === "escribe"
         ? `eScribe / ISI · ${m.duration}`
         : `Granicus clip ${m.clipId} · ${m.duration}`,
     date: m.dateLabel,
     type: loudounMeetingType(m.title),
-    thumb: m.id === "escribe-3a6eea40" ? "/thumbs/loudoun-bos-escribe-3a6eea40.webp" : undefined,
+    thumb: `/thumbs/loudoun-bos/${m.id}.webp` as string | undefined,
   })),
   {
     label: "Board of Supervisors",
