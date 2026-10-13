@@ -284,3 +284,8 @@ console.log(JSON.stringify(CITY_RECAPS_RAW_EXPORT.filter(r=>r.slug.startsWith('f
 
 if __name__ == "__main__":
     main()
+    
+    # Standard: refresh Find the Moment thumbnails (new meetings + changed recap text).
+    import subprocess as _sp, os as _os
+    _sp.run(["bash", _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "ftm-thumbs.sh")], check=False)
+

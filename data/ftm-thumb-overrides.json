@@ -1,0 +1,241 @@
+{
+ "_note": "Hand-written thumbnail headlines (official-record facts only). Keyed venue -> meetingId. Overrides auto-derived text.",
+ "loudoun-bos": {
+  "escribe-3a6eea40": {
+   "headline": "Data-center audit",
+   "result": "tabled 7-2"
+  },
+  "escribe-79595442": {
+   "headline": "Tech Park at Dulles Substation",
+   "result": "denied 6-3"
+  },
+  "escribe-be4b3b17": {
+   "headline": "Housing voucher plan",
+   "result": "adopted 8-0-1"
+  },
+  "escribe-929244b6": {
+   "headline": "Regional park siting",
+   "result": "in capital planning 8-0-1"
+  },
+  "8216": {
+   "headline": "Planning & Zoning work plan",
+   "result": "motions adopted"
+  },
+  "8213": {
+   "headline": "School for Advanced Studies",
+   "result": "approved 9-0"
+  },
+  "8208": {
+   "headline": "Natural Resources Strategy",
+   "result": "adopted 7-0-2"
+  },
+  "8199": {
+   "headline": "Capital Intensity Factors",
+   "result": "sent to hearing 8-0-1"
+  },
+  "8198": {
+   "headline": "Secondary Road Six-Year Plan",
+   "result": "forwarded 8-0-1"
+  },
+  "8191": {
+   "headline": "Valley Commerce Center",
+   "result": "approved"
+  },
+  "8185": {
+   "headline": "Valley Commerce Center",
+   "result": "deferred to Jun 2"
+  },
+  "8174": {
+   "headline": "Human Rights Ordinance",
+   "result": "staff told to draft"
+  },
+  "8173": {
+   "headline": "Western Loudoun rural uses",
+   "result": "zoning votes"
+  },
+  "8158": {
+   "headline": "Five-Year Consolidated Plan",
+   "result": "approved 8-0-1"
+  },
+  "8154": {
+   "headline": "Fire & Rescue position",
+   "result": "created 8-0-1"
+  },
+  "8143": {
+   "headline": "Moorefield Station traffic calming",
+   "result": "8-0-1"
+  },
+  "8139": {
+   "headline": "Public Defender attorney",
+   "result": "funded 9-0"
+  },
+  "8138": {
+   "headline": "Housing voucher plan",
+   "result": "adopted 7-0-2"
+  },
+  "8135": {
+   "headline": "Proactive zoning enforcement",
+   "result": "cut 5-4"
+  },
+  "8130": {
+   "headline": "2026 legislative report",
+   "result": "passed 6-3"
+  },
+  "8129": {
+   "headline": "Budget starts at $0.805",
+   "result": "tax rate 9-0"
+  },
+  "8120": {
+   "headline": "2026 legislative positions",
+   "result": "passed 9-0"
+  },
+  "8113": {
+   "headline": "Chapter 860.02 amendment",
+   "result": "adopted 9-0"
+  },
+  "8107": {
+   "headline": "2026 legislative program",
+   "result": "positions passed"
+  },
+  "8093": {
+   "headline": "Ag & Forestal Districts",
+   "result": "renewed 7-0-2"
+  },
+  "8085": {
+   "headline": "Turner confirmed Vice Chair",
+   "result": "2026 assignments"
+  },
+  "8077": {
+   "headline": "Contract awards",
+   "result": "approved 9-0"
+  },
+  "8074": {
+   "headline": "Transient occupancy tax",
+   "result": "amended 8-0-1"
+  },
+  "8070": {
+   "headline": "Strategic initiatives update",
+   "result": "9-0"
+  },
+  "8066": {
+   "headline": "Courts Complex Phase IV",
+   "result": "contracts awarded 8-0-1"
+  },
+  "8060": {
+   "headline": "Solar equipment tax exemption",
+   "result": "adopted 8-0-1"
+  },
+  "8057": {
+   "headline": "Government Center space plan",
+   "result": "Option 2, 4-3-2"
+  },
+  "8042": {
+   "headline": "Clear Springs housing loan",
+   "result": "approved 7-2"
+  },
+  "8041": {
+   "headline": "Eminent domain resolution",
+   "result": "adopted 7-0-2"
+  },
+  "8024": {
+   "headline": "Tuscarora Landbay 3 Substation",
+   "result": "failed 4-4"
+  },
+  "8015": {
+   "headline": "Lucketts Park easement",
+   "result": "approved 7-0-2"
+  },
+  "8008": {
+   "headline": "Belmont Cove rezoning",
+   "result": "approved 5-3-1"
+  },
+  "7984": {
+   "headline": "Advisory boards policy",
+   "result": "staff directed 8-0-1"
+  },
+  "7980": {
+   "headline": "Dulles Town Center CDA",
+   "result": "resolution 9-0"
+  },
+  "7977": {
+   "headline": "Cross Mill Center",
+   "result": "5-4 vote"
+  },
+  "7968": {
+   "headline": "Western Loudoun Rec Complex",
+   "result": "water options 8-0-1"
+  },
+  "7963": {
+   "headline": "Secondary Road Six-Year Plan",
+   "result": "forwarded 7-0-2"
+  },
+  "7960": {
+   "headline": "Milestone Belmont Interchange",
+   "result": "Planning Comm. overruled 5-3-1"
+  },
+  "7948": {
+   "headline": "Voting precincts",
+   "result": "Chapter 209 amended 7-0-2"
+  },
+  "7942": {
+   "headline": "Cross Mill Center",
+   "result": "denied 8-0-1"
+  },
+  "7931": {
+   "headline": "Commuter bus expansion",
+   "result": "neutrality policy 7-2"
+  },
+  "7925": {
+   "headline": "FY 2025-26 Action Plan",
+   "result": "approved 7-0-2"
+  },
+  "7919": {
+   "headline": "FY 2026 budget",
+   "result": "amended 8-0-1"
+  },
+  "7909": {
+   "headline": "Zebra East / data centers",
+   "result": "approved 6-3"
+  },
+  "7905": {
+   "headline": "July 4th event cut",
+   "result": "failed 4-5"
+  },
+  "7903": {
+   "headline": "ADU program amendment",
+   "result": "adopted 6-0-3"
+  },
+  "7891": {
+   "headline": "FY 2025-30 Capital program",
+   "result": "adopted 8-0-1"
+  },
+  "7886": {
+   "headline": "Budget starts at $0.805",
+   "result": "tax rate 7-0-2"
+  },
+  "7876": {
+   "headline": "2025 Federal Program",
+   "result": "positions voted"
+  },
+  "7870": {
+   "headline": "Rural Historic Villages",
+   "result": "approved 8-0-1"
+  },
+  "7863": {
+   "headline": "Loudoun Equity Action Plan",
+   "result": "approved 7-2"
+  },
+  "7852": {
+   "headline": "Commuter bus service",
+   "result": "approved 5-1-3"
+  },
+  "7851": {
+   "headline": "Sterling Motorcars",
+   "result": "approved 7-0-2"
+  },
+  "7847": {
+   "headline": "FY 2024 fund balance",
+   "result": "uses approved 9-0"
+  }
+ }
+}

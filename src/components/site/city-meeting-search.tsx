@@ -1,4 +1,5 @@
 import { AllFtmLink } from "@/components/site/all-ftm-link";
+import { FtmThumb } from "@/components/site/ftm-thumb";
 import { useMemo, useRef, useState, type FormEvent } from "react";
 import { Link } from "@tanstack/react-router";
 import { ExternalLink, Search } from "lucide-react";
@@ -294,6 +295,7 @@ export function CityMeetingList({ venues }: { venues: CityVenueId[] }) {
               key={m.id}
               className="flex flex-wrap items-center gap-x-3 gap-y-1.5 px-3 py-2.5 text-sm sm:px-4"
             >
+              <FtmThumb venue={m.venue} meetingId={m.id} href={m.playerUrl} />
               <span className="w-24 shrink-0 font-mono text-xs text-muted-foreground">
                 {m.dateLabel}
               </span>

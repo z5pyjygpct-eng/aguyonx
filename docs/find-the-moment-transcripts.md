@@ -315,3 +315,32 @@ Each button opens that locality's hub (`/find-the-moment/<locality>`, or an exis
 no live venue shows a dashed "coming soon" button. **New localities get one homepage button**:
 add one entry to `src/content/ftm-localities.ts`; venue pages stay reachable from the hub and from
 `/find-the-moment` (the all-venues page, still linked under the buttons).
+
+## Standard: meeting thumbnails on every venue (2026-10-13)
+
+Every Find the Moment meeting video card/row shows a YouTube-style 16:9 thumbnail
+(`public/thumbs/<venue>/<meetingId>.webp`, 640×360 webp, lazy-loaded via
+`src/components/site/ftm-thumb.tsx`; hides itself if the file is missing). Loudoun BOS
+"Out to the record" was the test bed; grid columns and filters there are NOT part of this standard.
+
+Design: navy fade + red top bar, date (gold), meeting type, and at most ONE top business item with its
+result, plus the aguyonx.com badge and video length. Text comes only from the official record already on
+the site: recap decisions (Action Reports, Granicus/BoardDocs minutes, matched to the official agenda title)
+or the day's LIS roll calls for House/Senate (first HB/SB). Consent agendas, agenda adoption, minutes,
+proclamations, appointments and procedural votes are skipped. No official item → name + date only.
+Hand-written headlines (same rule) go in `data/ftm-thumb-overrides.json` (venue → meetingId).
+
+Image: real frame when obtainable (YouTube auto frame `i.ytimg.com/vi/<id>/hq2.jpg`, or an ffmpeg grab at
+40/55/30/70% of a direct mp4/HLS source), skipping dark/flat/title-card frames; otherwise the branded
+placeholder. Granicus archive streams (Loudoun, Fairfax, Albemarle BOS) returned 403 on 2026-10-13, so
+those are placeholders until access returns; then run with `--force --venue <venue>`.
+
+Generate / refresh (new meetings get thumbnails; changed recap text re-renders):
+
+    npm run ftm:thumbs            # = bash scripts/ftm-thumbs.sh
+    bash scripts/ftm-thumbs.sh --force --venue albemarle-bos
+
+Pipeline: `va-house-build.py`, `va-senate-build.py`, `va-boe-build.py` and `fairfax-recap-fill.py` call it at
+the end; the morning ingest runs `npm run ftm:thumbs` after posting transcripts/recaps and before commit.
+Per-venue counts land in `public/thumbs/<venue>/_status.json` (frame | placeholder).
+New venues: add their meetings to `scripts/ftm-thumbs-manifest.ts` and drop `<FtmThumb>` into the card.

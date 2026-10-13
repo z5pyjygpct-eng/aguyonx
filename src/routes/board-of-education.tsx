@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { FtmThumb } from "@/components/site/ftm-thumb";
 import { useMemo, useState } from "react";
 import { ExternalLink } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
@@ -102,6 +103,7 @@ function VboePage() {
           <ul className="mt-4 divide-y divide-border rounded-md border border-border bg-card">
             {list.map((m) => (
               <li key={m.id} className="flex flex-wrap items-center gap-x-3 gap-y-1 px-4 py-2.5 text-sm">
+                <FtmThumb venue="va-boe" meetingId={m.id} href={vboeVideoUrl(m)} />
                 <span className="font-mono text-xs text-muted-foreground">{m.dateLabel}</span>
                 <span className="font-medium">{m.title}</span>
                 <span className="text-xs text-muted-foreground">{m.duration}</span>

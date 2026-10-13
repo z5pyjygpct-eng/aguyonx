@@ -30,3 +30,8 @@ open("src/content/va-boe-data.ts", "w").write("\n".join(out))
 with open("data/va-boe/queue-rows.tsv", "w") as f:
     for x in q: f.write("\t".join(x) + "\n")
 print(len(rows), "videos")
+
+
+# Standard: refresh Find the Moment thumbnails (new meetings + changed recap text).
+import subprocess as _sp, os as _os
+_sp.run(["bash", _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "ftm-thumbs.sh")], check=False)

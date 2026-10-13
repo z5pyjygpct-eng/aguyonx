@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { FtmThumb } from "@/components/site/ftm-thumb";
 import { ExternalLink } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
@@ -147,8 +148,9 @@ function SenatePage() {
               return (
                 <li
                   key={m.id}
-                  className="flex flex-wrap items-baseline gap-x-3 gap-y-1 px-4 py-2.5 text-sm"
+                  className="flex flex-wrap items-center gap-x-3 gap-y-1 px-4 py-2.5 text-sm"
                 >
+                  <FtmThumb venue="va-senate-floor" meetingId={m.id} href={senateVideoUrl(m)} />
                   <span className="w-24 shrink-0 font-mono text-xs text-muted-foreground">
                     {m.dateLabel}
                   </span>

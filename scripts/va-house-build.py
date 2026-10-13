@@ -127,3 +127,8 @@ for m in meetings:  # newest first
     q.append("\t".join([m["id"], "va-house-floor", "full_board", "1", m["date"], str(m["durationS"]), "yt-dlp", "youtube", u, u, m["id"], f"Virginia House of Delegates {m['title']} {m['dateLabel']}"]))
 open(os.path.join(ROOT, "data/va-house/queue-rows.tsv"), "w").write("\n".join(q) + "\n")
 print(f"meetings={len(meetings)} hours={sum(m['durationS'] for m in meetings)/3600:.1f} recap_days={len(recaps)} with_votes={sum(1 for r in recaps if r['votesUrl'])} rollcalls={sum(r['rollCallCount'] for r in recaps)}")
+
+
+# Standard: refresh Find the Moment thumbnails (new meetings + changed recap text).
+import subprocess as _sp, os as _os
+_sp.run(["bash", _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "ftm-thumbs.sh")], check=False)
