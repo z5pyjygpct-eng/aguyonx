@@ -178,7 +178,7 @@ function RecapPage() {
                           videoUrl={jump(m.seconds)}
                           recapUrl={`https://aguyonx.com/cities/${v.city}/recaps/${recap.slug}`}
                           text={m.item ? `Item ${m.item}: ${m.label}` : m.label}
-                          context={recap.shareContext ?? `${c.shortName ?? c.name} ${v.boardLabel}, ${recap.dateLabel.replace(/^[A-Z][a-z]+day,\s*/, "")}`}
+                          context={recap.shareContext ?? `${`${c.shortName ?? c.name} ${v.boardLabel}`.replace(/\bCity City\b/, "City")}, ${recap.dateLabel.replace(/^[A-Z][a-z]+day,\s*/, "")}`}
                           time={secToHms(m.seconds).replace(/^0/, "")}
                         />
                       ) : null}
