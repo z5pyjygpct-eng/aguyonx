@@ -16,6 +16,8 @@ type Fill = {
   noVotesRecorded?: boolean;
   agenda?: CityRecap["agenda"];
   moments?: (CityRecap["moments"][number] & { how?: string })[];
+  /** Extra official-record links (e.g. Albemarle ESB agenda); appended, never replacing. */
+  links?: { label: string; href: string }[];
 };
 const FILL = FILL_JSON as Record<string, Fill>;
 const FILLER_MOMENTS = new Set(["Early agenda business.", "Mid-meeting discussion.", "Later agenda business."]);
@@ -43,6 +45,7 @@ function applyFill(r: CityRecap): CityRecap {
     noVotesRecorded,
     official: {
       ...r.official,
+      links: [...r.official.links, ...(f.links ?? []).filter((l) => !r.official.links.some((x) => x.href === l.href))],
       votesPosted,
       note: votesPosted
         ? "Actions and tallies below are copied from the official minutes linked here. Nothing is inferred from video or transcript."

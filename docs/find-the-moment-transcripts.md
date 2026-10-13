@@ -357,3 +357,22 @@ change. Opt out per recap with `shareEnabled: false`. Context defaults to "Loudo
 "Loudoun School Board, …" / "{City} {Board}, …"; override with `shareContext`. Text is only the moment label
 already on the page (no unverified quotes). House/Senate recaps (LIS roll calls, no timestamps yet) and Board
 of Ed (no recaps yet) get it automatically once they have timestamped moments in one of these templates.
+
+## Standard: full recaps for every venue (`npm run recaps:enrich`, 2026-10-13)
+Non-Loudoun recaps must come out at Loudoun depth (agenda, official decisions with tallies, timestamped
+moments, transcript downloads). After ANY new recap or transcript is posted (morning ingest, venue recap
+routines, Official votes watch), run `npm run recaps:enrich` before build/commit/push. It runs:
+- `scripts/fairfax-recap-fill.py`: Fairfax City council + schools (Granicus agenda, minutes, video index).
+- `scripts/albemarle-recap-fill.py`: Albemarle School Board. Agenda from ACPS ElectronicSchoolBoard
+  (`esb.k12albemarle.org/public_agendaview.aspx?mtgId=…`, matched by date; index cached in
+  `data/albemarle/esb-index.json`). Decisions ONLY from ADOPTED minutes, which ESB publishes as PDFs on
+  a later meeting's "Approval of the Minutes" consent item (index `data/albemarle/esb-minutes.json`).
+  No adopted minutes yet -> votes stay "not yet posted"; re-runs pick them up when they're adopted.
+  (Note: `go.boarddocs.com/va/acps` is ALEXANDRIA, not Albemarle.)
+- Moments for agenda items with no official video index come from `scripts/recap_moments.py`: the
+  official agenda title must follow a spoken transition cue ("next item…", "move on to…", "item 5.2")
+  in the transcript segment, in agenda order, leading title word required, words in title order;
+  no confident match -> no moment. Votes are never inferred from transcript.
+- Both scripts MERGE: previously published moments/agenda/decisions are never removed.
+- House/Senate recaps (LIS roll calls) show "Full recap after transcript" until floor transcripts exist;
+  Board of Ed and Albemarle BOS have no recaps yet (no transcripts).

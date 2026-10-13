@@ -235,7 +235,7 @@ function RecapPage() {
                 </p>
               ) : (
                 <p className="mt-3 text-sm text-muted-foreground">
-                  Transcripts in progress. Moments post here once this session is transcribed.
+                  Full recap after transcript. Official LIS roll calls are below now; key moments post here once this session is transcribed.
                 </p>
               )}
             </div>

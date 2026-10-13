@@ -14,6 +14,8 @@ Usage: python3 scripts/fairfax-recap-fill.py [--only slug,slug] [--cache /tmp/fx
 Run after a new Fairfax recap is added (the recap + transcript ingest routines call it).
 """
 import html, json, os, re, subprocess, sys, urllib.request
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from recap_moments import find_item_times, label_of
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "src/content/city-recap-fill.json")
@@ -258,6 +260,19 @@ console.log(JSON.stringify(CITY_RECAPS_RAW_EXPORT.filter(r=>r.slug.startsWith('f
             label = re.sub(r"\s*\(.*$", "", title).strip() or title
             label = label if len(label) <= 140 else label[:137].rstrip() + "…"
             moments.append({"seconds": t, "item": num, "label": label, "how": how})
+        # Never drop a moment an earlier run published (remove-no-content rule).
+        for pm in fill.get(r["slug"], {}).get("moments", []):
+            if not any(abs(pm["seconds"] - m["seconds"]) < 30 for m in moments):
+                moments.append(pm)
+        # Agenda items with no Granicus index time: locate them in the transcript (official
+        # agenda title + spoken transition cue, in agenda order; see scripts/recap_moments.py).
+        if segs:
+            have = {m["item"] for m in moments}
+            got = find_item_times(segs, [(n, t) for n, t, _ in cands])
+            for num, title, _ in cands:
+                t = got.get((num, title))
+                if num in have or t is None or any(abs(t - m["seconds"]) < 30 for m in moments): continue
+                moments.append({"seconds": t, "item": num, "label": label_of(title), "how": "transcript-agenda"})
         # Votes as moments: official decisions paired in order with the transcript's
         # "all (those) in favor" calls, only when the counts match exactly (no guessing).
         decs = f.get("decisions", [])
