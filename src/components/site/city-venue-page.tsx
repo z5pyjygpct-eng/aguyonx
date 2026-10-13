@@ -53,8 +53,8 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
           {v.name}
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          Find the Moment: search what was said in {v.boardLabel} meetings since January 2025 and
-          jump straight to the official video ({v.videoHost}).
+          Find the Moment: search what was said in {v.boardLabel} meetings since{" "}
+          {v.since ?? "January 2025"} and jump straight to the official video ({v.videoHost}).
         </p>
         <p className="mt-3 font-mono text-xs tracking-wide text-foreground">
           {count} meetings · {searchableN} searchable now · {count - searchableN} in queue
@@ -75,7 +75,7 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
             params={{ city }}
             className="text-[#1E4B8E] underline-offset-2 hover:underline"
           >
-            Search council + schools together
+            {`Search ${(CITY_VENUES[c.venues[0]].tag ?? "council").toLowerCase()} + schools together`}
           </Link>
         </p>
 

@@ -162,11 +162,32 @@ node scripts/ftm-transcript-windows.mjs {file_key}.srt {file_key} {body}
 for that venue is built automatically once it has at least one entry.
 
 **Homepage buttons:** the Find the Moment box shows FAIRFAX CITY COUNCIL / FAIRFAX CITY SCHOOLS /
-MANASSAS CITY COUNCIL / MANASSAS SCHOOLS under the Loudoun buttons, but each one appears only when
+MANASSAS CITY COUNCIL / MANASSAS SCHOOLS / ALBEMARLE SCHOOLS / ALBEMARLE SUPERVISORS under the Loudoun buttons, but each one appears only when
 its venue has at least one `FTM_TRANSCRIPTS` entry (`cityVenueLive` in `src/content/cities.ts`,
 used by `src/components/site/home-find-the-moment.tsx`). So the morning routine adds a venue's
 button simply by posting that venue's first transcript; mention it in the morning recap the day it
 first appears, and check the homepage after deploy.
+
+## Albemarle County (launched Oct 13, 2026; moved up from the Nov 1 plan)
+
+Scope: meetings from **2024-01-01** to present (Scott's commitment to the Albemarle GOP). Same
+city/venue template (`CITIES` entry `albemarle`, region "Central Virginia", `since: "January 2024"`).
+Mini queue: placed at the FRONT (right after the meeting that was mid-transcription on Oct 13):
+all 61 `alb-sb-` School Board meetings newest first, then all 97 `alb-bos-` BOS meetings newest
+first, then the rest of the existing queue. Catalog built by
+`/workspace/research/ftm-expansion/build/build_albemarle.py` → `queue_albemarle.json`, appended to
+`CITY_MEETINGS`.
+
+| Venue (`body` / transcript `venue`) | Site page | Source video | mini `provider` | file_key = meetingId | Votes source |
+| --- | --- | --- | --- | --- | --- |
+| `albemarle-schools` | `/cities/albemarle/schools` | YouTube @k12albemarle (links from k12albemarle.org/school-board/school-board-meeting-videos) | `youtube` (needs `bin/deno`) | `alb-sb-{youtubeId}` | ACPS adopted minutes (BoardDocs) |
+| `albemarle-bos` | `/cities/albemarle` | albemarle.granicus.com view_id=1 MediaPlayer page | `granicus-page` | `alb-bos-{clipId}` | adopted BOS minutes / action letters |
+
+Raw Zoom/"file swap" duplicate uploads on the BOS Granicus list (e.g. `BOS_9_16_16`,
+`GMT2026...Recording`, `Zoom Swap`) and 0-minute stubs are excluded. Morning ingest is identical
+to Fairfax (`fxc-`): `node scripts/ftm-transcript-windows.mjs {file_key}.srt {file_key} {body}`,
+then an `FTM_TRANSCRIPTS` entry with `venue: "{body}"` and a recap in `CITY_RECAPS`
+(slug `{file_key}`, date-first listing). Packs: both venues are in `FTM_PACK_VENUES`.
 
 ## Virginia Senate floor (added Oct 10, 2026)
 

@@ -57,6 +57,8 @@ export const FTM_PACK_VENUES = [
     "fairfax-city-schools",
     "manassas-council",
     "manassas-schools",
+    "albemarle-bos",
+    "albemarle-schools",
     "va-senate-floor",
   ].map((venue) => ({ venue, catalogs: ["src/content/ftm-transcripts.ts"] })),
 ];

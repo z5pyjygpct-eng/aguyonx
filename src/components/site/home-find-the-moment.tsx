@@ -24,6 +24,8 @@ const CITY_DOOR_ORDER: CityVenueId[] = [
   "fairfax-city-schools",
   "manassas-council",
   "manassas-schools",
+  "albemarle-schools",
+  "albemarle-bos",
 ];
 const CITY_DOORS = CITY_DOOR_ORDER.filter(cityVenueLive).map((id) => ({
   key: id,

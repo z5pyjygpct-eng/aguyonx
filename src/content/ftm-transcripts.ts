@@ -18,6 +18,8 @@ export type FtmTranscriptVenue =
   | "fairfax-city-schools"
   | "manassas-council"
   | "manassas-schools"
+  | "albemarle-bos"
+  | "albemarle-schools"
   | "va-senate-floor";
 
 export type FtmTranscript = {

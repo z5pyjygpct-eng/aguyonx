@@ -128,8 +128,8 @@ export function CityMeetingSearch({ venues }: { venues: CityVenueId[] }) {
           Transcripts in progress
         </p>
         <p className="mt-2 text-sm text-muted-foreground">
-          {allMeetings.length} meetings since January 2025 are queued for machine transcription.
-          Search opens here as the first transcripts post.
+          {allMeetings.length} meetings are queued for machine transcription. Search opens here as
+          the first transcripts post.
         </p>
       </div>
     );
@@ -159,7 +159,10 @@ export function CityMeetingSearch({ venues }: { venues: CityVenueId[] }) {
           <option value="all">All meetings ({searchable.length})</option>
           {searchable.map(({ m }) => (
             <option key={m.id} value={m.id}>
-              {m.dateLabel} · {venues.length > 1 ? `${CITY_VENUES[m.venue].body === "schools" ? "Schools" : "Council"} · ` : ""}
+              {m.dateLabel} ·{" "}
+              {venues.length > 1
+                ? `${CITY_VENUES[m.venue].body === "schools" ? "Schools" : (CITY_VENUES[m.venue].tag ?? "Council")} · `
+                : ""}
               {cityMeetingType(m.title)}
             </option>
           ))}
@@ -200,7 +203,10 @@ export function CityMeetingSearch({ venues }: { venues: CityVenueId[] }) {
                   <ExternalLink className="size-3" aria-hidden />
                 </a>
                 <span title={meeting.title}>
-                  {meeting.dateLabel} · {venues.length > 1 ? `${CITY_VENUES[meeting.venue].body === "schools" ? "Schools" : "Council"} · ` : ""}
+                  {meeting.dateLabel} ·{" "}
+                  {venues.length > 1
+                    ? `${CITY_VENUES[meeting.venue].body === "schools" ? "Schools" : (CITY_VENUES[meeting.venue].tag ?? "Council")} · `
+                    : ""}
                   {cityMeetingType(meeting.title)}
                 </span>
                 <span className="rounded-sm bg-[#e8eef6] px-1.5 py-0.5 font-mono text-[10px] font-semibold tracking-wider text-[#1E4B8E] uppercase">
@@ -247,8 +253,7 @@ export function CityMeetingList({ venues }: { venues: CityVenueId[] }) {
       (type === "all" || cityMeetingType(m.title) === type),
   );
   const multi = venues.length > 1;
-  const sel =
-    "rounded-md border border-border bg-background px-2 py-1.5 text-sm text-foreground";
+  const sel = "rounded-md border border-border bg-background px-2 py-1.5 text-sm text-foreground";
   const badge =
     "rounded border border-[#1E4B8E]/40 px-1.5 py-0.5 text-[11px] font-medium text-[#1E4B8E] hover:bg-[#e8eef6]";
   return (
@@ -299,12 +304,16 @@ export function CityMeetingList({ venues }: { venues: CityVenueId[] }) {
                   className="min-w-0 flex-1 font-medium text-[#1E4B8E] underline-offset-2 hover:underline"
                   title={m.title}
                 >
-                  {multi ? `${CITY_VENUES[m.venue].body === "schools" ? "Schools" : "Council"} · ` : ""}
+                  {multi
+                    ? `${CITY_VENUES[m.venue].body === "schools" ? "Schools" : (CITY_VENUES[m.venue].tag ?? "Council")} · `
+                    : ""}
                   {cityMeetingType(m.title)}
                 </Link>
               ) : (
                 <span className="min-w-0 flex-1 text-foreground" title={m.title}>
-                  {multi ? `${CITY_VENUES[m.venue].body === "schools" ? "Schools" : "Council"} · ` : ""}
+                  {multi
+                    ? `${CITY_VENUES[m.venue].body === "schools" ? "Schools" : (CITY_VENUES[m.venue].tag ?? "Council")} · `
+                    : ""}
                   {cityMeetingType(m.title)}
                 </span>
               )}
@@ -327,7 +336,12 @@ export function CityMeetingList({ venues }: { venues: CityVenueId[] }) {
                   </a>
                 ) : null}
                 {m.minutesUrl ? (
-                  <a href={m.minutesUrl} target="_blank" rel="noopener noreferrer" className={badge}>
+                  <a
+                    href={m.minutesUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={badge}
+                  >
                     Minutes
                   </a>
                 ) : null}
@@ -341,7 +355,9 @@ export function CityMeetingList({ venues }: { venues: CityVenueId[] }) {
           );
         })}
         {shown.length === 0 ? (
-          <li className="px-4 py-3 text-sm text-muted-foreground">No meetings match these filters.</li>
+          <li className="px-4 py-3 text-sm text-muted-foreground">
+            No meetings match these filters.
+          </li>
         ) : null}
       </ul>
     </div>

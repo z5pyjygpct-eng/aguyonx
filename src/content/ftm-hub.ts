@@ -99,7 +99,7 @@ export function ftmHubEntries(): FtmHubEntry[] {
         key: vid,
         group: city.name,
         name: v.name,
-        description: `Search ${v.boardLabel} meetings since January 2025 and jump to the official video.`,
+        description: `Search ${v.boardLabel} meetings since ${v.since ?? "January 2025"} and jump to the official video.`,
         status: "live",
         meetingCount: ms.length,
         transcriptCount: cityTranscriptCount(vid),

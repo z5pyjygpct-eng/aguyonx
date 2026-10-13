@@ -13,11 +13,11 @@ function CitiesIndex() {
       <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
         <Kicker>Virginia</Kicker>
         <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          VA Cities
+          VA Cities &amp; Counties
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          City council and school board meetings since January 2025: search what was said, jump to
-          the official video.
+          Council, Board of Supervisors and school board meetings (Albemarle since January 2024,
+          cities since January 2025): search what was said, jump to the official video.
         </p>
         <ul className="mt-10 grid gap-8 sm:grid-cols-2">
           {CITIES.map((c) => (

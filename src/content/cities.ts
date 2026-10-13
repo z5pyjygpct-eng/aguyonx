@@ -6,10 +6,15 @@
 import { CITY_MEETINGS } from "./cities-meetings";
 import { FTM_TRANSCRIPTS } from "./ftm-transcripts";
 
-export type CityId = "fairfax-city" | "manassas";
+export type CityId = "fairfax-city" | "manassas" | "albemarle";
 export type CityBody = "council" | "schools";
 export type CityVenueId =
-  "fairfax-city-council" | "fairfax-city-schools" | "manassas-council" | "manassas-schools";
+  | "fairfax-city-council"
+  | "fairfax-city-schools"
+  | "manassas-council"
+  | "manassas-schools"
+  | "albemarle-bos"
+  | "albemarle-schools";
 export type CityProvider = "granicus-page" | "youtube" | "wistia";
 
 export type CityMeeting = {
@@ -48,6 +53,10 @@ export type CityVenue = {
   videoHost: string;
   votesSource: string;
   doors: CityDoor[];
+  /** Catalog start shown in page copy (default "January 2025"; Albemarle "January 2024"). */
+  since?: string;
+  /** Short tag in combined lists (default "Council" / "Schools"; Albemarle BOS "Supervisors"). */
+  tag?: string;
 };
 
 export type City = {
@@ -138,6 +147,46 @@ export const CITY_VENUES: Record<CityVenueId, CityVenue> = {
       },
     ],
   },
+  "albemarle-bos": {
+    id: "albemarle-bos",
+    city: "albemarle",
+    body: "council",
+    name: "Albemarle County Board of Supervisors",
+    buttonLabel: "Albemarle Supervisors",
+    to: "/cities/albemarle",
+    route: "/cities/$city",
+    boardLabel: "Board of Supervisors",
+    videoHost: "Albemarle County video archive (Granicus)",
+    votesSource: "adopted Board of Supervisors minutes and action letters from Albemarle County",
+    since: "January 2024",
+    tag: "Supervisors",
+    doors: [
+      {
+        label: "Meeting video & agendas (Granicus)",
+        href: "https://albemarle.granicus.com/ViewPublisher.php?view_id=1",
+      },
+    ],
+  },
+  "albemarle-schools": {
+    id: "albemarle-schools",
+    city: "albemarle",
+    body: "schools",
+    name: "Albemarle County School Board",
+    buttonLabel: "Albemarle Schools",
+    to: "/cities/albemarle/schools",
+    route: "/cities/$city/schools",
+    boardLabel: "School Board",
+    videoHost: "Albemarle County Public Schools YouTube channel",
+    votesSource: "adopted School Board minutes posted by Albemarle County Public Schools",
+    since: "January 2024",
+    doors: [
+      {
+        label: "Meeting recordings (ACPS)",
+        href: "https://www.k12albemarle.org/school-board/school-board-meeting-videos",
+      },
+      { label: "Meeting video (YouTube)", href: "https://www.youtube.com/@k12albemarle" },
+    ],
+  },
 };
 
 export const CITIES: City[] = [
@@ -156,6 +205,15 @@ export const CITIES: City[] = [
     to: "/cities/manassas",
     region: "Northern Virginia",
     venues: ["manassas-council", "manassas-schools"],
+  },
+  {
+    // Launched Oct 13 2026 (moved up from Nov 1). Meetings Jan 2024+; School Board transcribed first.
+    id: "albemarle",
+    name: "Albemarle County",
+    shortName: "Albemarle",
+    to: "/cities/albemarle",
+    region: "Central Virginia",
+    venues: ["albemarle-bos", "albemarle-schools"],
   },
 ];
 
@@ -193,7 +251,7 @@ export function cityJumpUrl(m: CityMeeting, seconds: number): string {
 }
 
 export function isCityId(x: string): x is CityId {
-  return x === "fairfax-city" || x === "manassas";
+  return x === "fairfax-city" || x === "manassas" || x === "albemarle";
 }
 
 /**
