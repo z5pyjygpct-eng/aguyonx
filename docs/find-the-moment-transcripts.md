@@ -376,3 +376,12 @@ routines, Official votes watch), run `npm run recaps:enrich` before build/commit
 - Both scripts MERGE: previously published moments/agenda/decisions are never removed.
 - House/Senate recaps (LIS roll calls) show "Full recap after transcript" until floor transcripts exist;
   Board of Ed and Albemarle BOS have no recaps yet (no transcripts).
+
+## Standard: meeting filters + "Meeting videos" heading on every venue (2026-10-14)
+Every venue's **Meeting recaps** list and **Meeting videos** list uses `useMeetingFilters` from
+`src/components/site/meeting-filters.tsx` (Year · Month · Meeting type, "Showing N of M", Reset), the
+filters first built for the Loudoun BOS recaps. The video/meeting list heading is always **Meeting videos**.
+- City/county venues built on `CityVenuePage` → `CityMeetingList` (Fairfax City, Manassas, Albemarle, and new
+  localities such as Chesterfield/Hanover/Henrico) get both automatically.
+- Hand-built venue pages (Loudoun BOS/LCPS, House, Senate, Board of Ed) call the hook directly; any new
+  non-template venue page must do the same.
