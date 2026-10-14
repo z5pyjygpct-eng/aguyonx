@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-schools/transcripts/alb-sb-_1bFz1ff4CE.json",
+  "outBase": "public/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-01-08-albemarle-county-school-board-regular-meeting",
+  "title": "Albemarle County School Board Regular Meeting, Thursday, January 8, 2026",
+  "shortTitle": "School Board Regular Meeting \u00b7 Jan 8, 2026",
+  "date": "Thursday, January 8, 2026",
+  "place": "Albemarle County Public Schools / School Board meeting, Virginia",
+  "length": "1h 9m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=_1bFz1ff4CE"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

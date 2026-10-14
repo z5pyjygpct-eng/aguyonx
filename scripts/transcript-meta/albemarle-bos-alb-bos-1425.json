@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1425.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-01-07-albemarle-county-board-of-supervisors-annual-organizational-meeting",
+  "title": "Albemarle County Board of Supervisors Annual Organizational Meeting, Wednesday, January 7, 2026",
+  "shortTitle": "Board of Supervisors Annual Organizational Meeting \u00b7 Jan 7, 2026",
+  "date": "Wednesday, January 7, 2026",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "0h 58m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1425"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1425"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

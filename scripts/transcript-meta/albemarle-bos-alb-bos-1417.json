@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1417.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-12-03-albemarle-county-board-of-supervisors-joint-work-session-with-school-board",
+  "title": "Albemarle County Board of Supervisors Joint Work Session with School Board, Wednesday, December 3, 2025",
+  "shortTitle": "Board of Supervisors Joint Work Session with School Board \u00b7 Dec 3, 2025",
+  "date": "Wednesday, December 3, 2025",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "3h 15m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1417"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1417"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

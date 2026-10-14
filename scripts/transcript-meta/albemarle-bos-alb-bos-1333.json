@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1333.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-04-23-albemarle-county-board-of-supervisors-public-hearing-u2013-board-u2019s-proposed-budget",
+  "title": "Albemarle County Board of Supervisors Public Hearing \\u2013 Board\\u2019s Proposed Budget, Wednesday, April 23, 2025",
+  "shortTitle": "Board of Supervisors Public Hearing \\u2013 Board\\u2019s Proposed Budget \u00b7 Apr 23, 2025",
+  "date": "Wednesday, April 23, 2025",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "1h 56m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1333"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1333"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

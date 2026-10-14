@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1377.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-08-06-albemarle-county-board-of-supervisors-regular-first-meeting",
+  "title": "Albemarle County Board of Supervisors Regular First Meeting, Wednesday, August 6, 2025",
+  "shortTitle": "Board of Supervisors Regular First Meeting \u00b7 Aug 6, 2025",
+  "date": "Wednesday, August 6, 2025",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "8h 49m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1377"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1377"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

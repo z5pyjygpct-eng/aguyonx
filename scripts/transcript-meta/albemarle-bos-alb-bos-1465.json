@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1465.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-11-albemarle-county-board-of-supervisors-budget-work-session",
+  "title": "Albemarle County Board of Supervisors Budget Work Session, Wednesday, March 11, 2026",
+  "shortTitle": "Board of Supervisors Budget Work Session \u00b7 Mar 11, 2026",
+  "date": "Wednesday, March 11, 2026",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "3h 13m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1465"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1465"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

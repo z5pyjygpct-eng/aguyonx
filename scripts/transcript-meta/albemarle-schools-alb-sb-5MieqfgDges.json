@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-schools/transcripts/alb-sb-5MieqfgDges.json",
+  "outBase": "public/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-02-26-albemarle-county-school-board-budget-work-session-2",
+  "title": "Albemarle County School Board Budget Work Session #2, Thursday, February 26, 2026",
+  "shortTitle": "School Board Budget Work Session #2 \u00b7 Feb 26, 2026",
+  "date": "Thursday, February 26, 2026",
+  "place": "Albemarle County Public Schools / School Board meeting, Virginia",
+  "length": "2h 52m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=5MieqfgDges"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-schools/transcripts/alb-sb-mlJ9fZFakBs.json",
+  "outBase": "public/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-03-06-albemarle-county-school-board-special-work-session-2025-26-budget",
+  "title": "Albemarle County School Board Special Work Session (2025-26 Budget), Thursday, March 6, 2025",
+  "shortTitle": "School Board Special Work Session (2025-26 Budget) \u00b7 Mar 6, 2025",
+  "date": "Thursday, March 6, 2025",
+  "place": "Albemarle County Public Schools / School Board meeting, Virginia",
+  "length": "2h 48m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=mlJ9fZFakBs"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

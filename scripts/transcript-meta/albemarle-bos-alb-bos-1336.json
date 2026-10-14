@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1336.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-04-30-albemarle-county-board-of-supervisors-budget-public-hearing-cy-25-tax-rate",
+  "title": "Albemarle County Board of Supervisors Budget Public Hearing (CY 25 Tax Rate), Wednesday, April 30, 2025",
+  "shortTitle": "Board of Supervisors Budget Public Hearing (CY 25 Tax Rate) \u00b7 Apr 30, 2025",
+  "date": "Wednesday, April 30, 2025",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "0h 27m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1336"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1336"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

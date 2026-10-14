@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1439.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-02-04-albemarle-county-board-of-supervisors-regular-first-meeting",
+  "title": "Albemarle County Board of Supervisors Regular First Meeting, Wednesday, February 4, 2026",
+  "shortTitle": "Board of Supervisors Regular First Meeting \u00b7 Feb 4, 2026",
+  "date": "Wednesday, February 4, 2026",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "1h 46m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1439"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1439"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

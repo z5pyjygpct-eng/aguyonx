@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1414.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-12-01-albemarle-county-board-of-supervisors-special-meeting-legislative-forum",
+  "title": "Albemarle County Board of Supervisors Special Meeting - Legislative Forum, Monday, December 1, 2025",
+  "shortTitle": "Board of Supervisors Special Meeting - Legislative Forum \u00b7 Dec 1, 2025",
+  "date": "Monday, December 1, 2025",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "1h 35m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1414"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1414"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

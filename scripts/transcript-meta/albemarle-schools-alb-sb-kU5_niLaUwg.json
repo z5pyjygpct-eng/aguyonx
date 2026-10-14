@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-schools/transcripts/alb-sb-kU5_niLaUwg.json",
+  "outBase": "public/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-08-14-albemarle-county-school-board-regular-meeting",
+  "title": "Albemarle County School Board Regular Meeting, Thursday, August 14, 2025",
+  "shortTitle": "School Board Regular Meeting \u00b7 Aug 14, 2025",
+  "date": "Thursday, August 14, 2025",
+  "place": "Albemarle County Public Schools / School Board meeting, Virginia",
+  "length": "1h 56m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=kU5_niLaUwg"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

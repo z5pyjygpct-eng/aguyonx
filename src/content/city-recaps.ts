@@ -60,6 +60,2374 @@ export type CityRecap = Omit<LoudounRecap, "venue"> & { venue: CityVenueId; noVo
 
 const CITY_RECAPS_RAW: CityRecap[] = [
   {
+    slug: "alb-sb--ueD9SaVjK4",
+    meetingId: "alb-sb--ueD9SaVjK4",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, April 10, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 0h 43m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=-ueD9SaVjK4" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-04-10-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-04-10-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "11 pages"},
+    shareContext: "Albemarle School Board, Apr 10, 2025",
+    moments: [
+      { seconds: 54, label: "Pledge of Allegiance." },
+      { seconds: 1058, label: "Public comment / public hearing begins." },
+      { seconds: 2571, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-1w_2nkutGjs",
+    meetingId: "alb-sb-1w_2nkutGjs",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, March 13, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 2h 33m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=1w_2nkutGjs" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-03-13-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-03-13-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "35 pages"},
+    shareContext: "Albemarle School Board, Mar 13, 2025",
+    moments: [
+      { seconds: 178, label: "Pledge of Allegiance." },
+      { seconds: 1035, label: "Public comment / public hearing begins." },
+      { seconds: 9172, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-3f4lgI25F8Y",
+    meetingId: "alb-sb-3f4lgI25F8Y",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, May 14, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 3h 28m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=3f4lgI25F8Y" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-05-14-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-05-14-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "28 pages"},
+    shareContext: "Albemarle School Board, May 14, 2026",
+    moments: [
+      { seconds: 131, label: "Pledge of Allegiance." },
+      { seconds: 3472, label: "Public comment / public hearing begins." },
+      { seconds: 12478, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-47FihUEoeVM",
+    meetingId: "alb-sb-47FihUEoeVM",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, November 13, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 2h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=47FihUEoeVM" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-11-13-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-11-13-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "41 pages"},
+    shareContext: "Albemarle School Board, Nov 13, 2025",
+    moments: [
+      { seconds: 177, label: "Pledge of Allegiance." },
+      { seconds: 2493, label: "Public comment / public hearing begins." },
+      { seconds: 10539, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-5MieqfgDges",
+    meetingId: "alb-sb-5MieqfgDges",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Budget Work Session #2",
+    dateLabel: "Thursday, February 26, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 2h 52m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=5MieqfgDges" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-02-26-albemarle-county-school-board-budget-work-session-2.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-02-26-albemarle-county-school-board-budget-work-session-2.txt", "pdfNote": "29 pages"},
+    shareContext: "Albemarle School Board, Feb 26, 2026",
+    moments: [
+      { seconds: 76, label: "Pledge of Allegiance." },
+      { seconds: 139, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-sb-6boEKRb4bxM",
+    meetingId: "alb-sb-6boEKRb4bxM",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, February 13, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 1h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=6boEKRb4bxM" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-02-13-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-02-13-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "25 pages"},
+    shareContext: "Albemarle School Board, Feb 13, 2025",
+    moments: [
+      { seconds: 109, label: "Pledge of Allegiance." },
+      { seconds: 1833, label: "Public comment / public hearing begins." },
+      { seconds: 6976, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-71V65ilRTQo",
+    meetingId: "alb-sb-71V65ilRTQo",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, July 9, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 2h 50m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=71V65ilRTQo" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-07-09-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-07-09-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "43 pages"},
+    shareContext: "Albemarle School Board, Jul 9, 2026",
+    moments: [
+      { seconds: 609, label: "Pledge of Allegiance." },
+      { seconds: 1737, label: "Public comment / public hearing begins." },
+      { seconds: 10206, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-7yrnhGcWk8U",
+    meetingId: "alb-sb-7yrnhGcWk8U",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, October 23, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 2h 41m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=7yrnhGcWk8U" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-10-23-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-10-23-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "29 pages"},
+    shareContext: "Albemarle School Board, Oct 23, 2025",
+    moments: [
+      { seconds: 3127, label: "Public comment / public hearing begins." },
+      { seconds: 9671, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-9GiZYWhdu_E",
+    meetingId: "alb-sb-9GiZYWhdu_E",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, April 23, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 2h 6m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=9GiZYWhdu_E" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-04-23-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-04-23-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "32 pages"},
+    shareContext: "Albemarle School Board, Apr 23, 2026",
+    moments: [
+      { seconds: 549, label: "Public comment / public hearing begins." },
+      { seconds: 7356, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-ARKKyL1W0AM",
+    meetingId: "alb-sb-ARKKyL1W0AM",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, January 11, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 3h 40m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=ARKKyL1W0AM" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-01-11-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-01-11-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "49 pages"},
+    shareContext: "Albemarle School Board, Jan 11, 2024",
+    moments: [
+      { seconds: 221, label: "Pledge of Allegiance." },
+      { seconds: 3973, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-sb-C5k4UbVb5IQ",
+    meetingId: "alb-sb-C5k4UbVb5IQ",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, May 22, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 1h 4m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=C5k4UbVb5IQ" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-05-22-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-05-22-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "17 pages"},
+    shareContext: "Albemarle School Board, May 22, 2025",
+    moments: [
+      { seconds: 3847, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-CaqYNBSmQ8I",
+    meetingId: "alb-sb-CaqYNBSmQ8I",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, January 22, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 1h 41m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=CaqYNBSmQ8I" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-01-22-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-01-22-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "25 pages"},
+    shareContext: "Albemarle School Board, Jan 22, 2026",
+    moments: [
+
+    ],
+  },
+  {
+    slug: "alb-sb-EdY-shWnLtY",
+    meetingId: "alb-sb-EdY-shWnLtY",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, October 9, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 3h 11m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=EdY-shWnLtY" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-10-09-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-10-09-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "40 pages"},
+    shareContext: "Albemarle School Board, Oct 9, 2025",
+    moments: [
+      { seconds: 968, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-sb-FJxNna5Zb0s",
+    meetingId: "alb-sb-FJxNna5Zb0s",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, February 20, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 0h 54m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=FJxNna5Zb0s" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-02-20-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-02-20-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "13 pages"},
+    shareContext: "Albemarle School Board, Feb 20, 2025",
+    moments: [
+      { seconds: 213, label: "Pledge of Allegiance." },
+      { seconds: 2762, label: "Public comment / public hearing begins." },
+      { seconds: 3276, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-JY4uqLAzMl4",
+    meetingId: "alb-sb-JY4uqLAzMl4",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, January 25, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 3h 3m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=JY4uqLAzMl4" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-01-25-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-01-25-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "40 pages"},
+    shareContext: "Albemarle School Board, Jan 25, 2024",
+    moments: [
+      { seconds: 85, label: "Pledge of Allegiance." },
+      { seconds: 557, label: "Public comment / public hearing begins." },
+      { seconds: 10972, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-JZQdaYKJiXY",
+    meetingId: "alb-sb-JZQdaYKJiXY",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, May 28, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 3h 4m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=JZQdaYKJiXY" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-05-28-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-05-28-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "45 pages"},
+    shareContext: "Albemarle School Board, May 28, 2026",
+    moments: [
+      { seconds: 262, label: "Pledge of Allegiance." },
+      { seconds: 1294, label: "Public comment / public hearing begins." },
+      { seconds: 11075, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-OLUCkvNasEY",
+    meetingId: "alb-sb-OLUCkvNasEY",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, July 10, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 1h 31m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=OLUCkvNasEY" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-07-10-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-07-10-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "23 pages"},
+    shareContext: "Albemarle School Board, Jul 10, 2025",
+    moments: [
+      { seconds: 86, label: "Pledge of Allegiance." },
+      { seconds: 2385, label: "Public comment / public hearing begins." },
+      { seconds: 5481, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-P9HXgVsRv4w",
+    meetingId: "alb-sb-P9HXgVsRv4w",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, December 11, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 2h 13m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=P9HXgVsRv4w" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-12-11-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-12-11-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "29 pages"},
+    shareContext: "Albemarle School Board, Dec 11, 2025",
+    moments: [
+      { seconds: 116, label: "Pledge of Allegiance." },
+      { seconds: 1840, label: "Public comment / public hearing begins." },
+      { seconds: 7717, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-PMeHFDQtqPY",
+    meetingId: "alb-sb-PMeHFDQtqPY",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, September 25, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 0h 11m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=PMeHFDQtqPY" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-09-25-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-09-25-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "3 pages"},
+    shareContext: "Albemarle School Board, Sep 25, 2025",
+    moments: [
+      { seconds: 110, label: "Pledge of Allegiance." },
+      { seconds: 411, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-sb-PYfsqfjg1ko",
+    meetingId: "alb-sb-PYfsqfjg1ko",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, March 26, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 3h 31m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=PYfsqfjg1ko" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-03-26-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-03-26-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "29 pages"},
+    shareContext: "Albemarle School Board, Mar 26, 2026",
+    moments: [
+      { seconds: 113, label: "Pledge of Allegiance." },
+      { seconds: 1609, label: "Public comment / public hearing begins." },
+      { seconds: 12643, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-RAjFBy98Y-4",
+    meetingId: "alb-sb-RAjFBy98Y-4",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, June 12, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 1h 58m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=RAjFBy98Y-4" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-06-12-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-06-12-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "27 pages"},
+    shareContext: "Albemarle School Board, Jun 12, 2025",
+    moments: [
+      { seconds: 302, label: "Pledge of Allegiance." },
+      { seconds: 603, label: "Public comment / public hearing begins." },
+      { seconds: 7096, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-RC2aUfYrPkI",
+    meetingId: "alb-sb-RC2aUfYrPkI",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Budget Work Session #1",
+    dateLabel: "Thursday, February 19, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 1h 49m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=RC2aUfYrPkI" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-02-19-albemarle-county-school-board-budget-work-session-1.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-02-19-albemarle-county-school-board-budget-work-session-1.txt", "pdfNote": "26 pages"},
+    shareContext: "Albemarle School Board, Feb 19, 2026",
+    moments: [
+      { seconds: 175, label: "Pledge of Allegiance." },
+      { seconds: 6062, label: "Public comment / public hearing begins." },
+      { seconds: 6539, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-SHC5UOnGKPI",
+    meetingId: "alb-sb-SHC5UOnGKPI",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, March 27, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 1h 38m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=SHC5UOnGKPI" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-03-27-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-03-27-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "22 pages"},
+    shareContext: "Albemarle School Board, Mar 27, 2025",
+    moments: [
+      { seconds: 117, label: "Pledge of Allegiance." },
+      { seconds: 192, label: "Public comment / public hearing begins." },
+      { seconds: 5877, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-SYBhfjbn4kI",
+    meetingId: "alb-sb-SYBhfjbn4kI",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, July 16, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 5h 10m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=SYBhfjbn4kI" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-07-16-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-07-16-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "72 pages"},
+    shareContext: "Albemarle School Board, Jul 16, 2026",
+    moments: [
+      { seconds: 221, label: "Pledge of Allegiance." },
+      { seconds: 1874, label: "Public comment / public hearing begins." },
+      { seconds: 18619, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-X2VX2YAhQB0",
+    meetingId: "alb-sb-X2VX2YAhQB0",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Budget Work Session #3",
+    dateLabel: "Thursday, March 5, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 2h 18m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=X2VX2YAhQB0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-03-05-albemarle-county-school-board-budget-work-session-3.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-03-05-albemarle-county-school-board-budget-work-session-3.txt", "pdfNote": "34 pages"},
+    shareContext: "Albemarle School Board, Mar 5, 2026",
+    moments: [
+      { seconds: 106, label: "Pledge of Allegiance." },
+      { seconds: 277, label: "Public comment / public hearing begins." },
+      { seconds: 8244, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-_1F2oTQVzQ4",
+    meetingId: "alb-sb-_1F2oTQVzQ4",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, June 11, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 1h 45m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=_1F2oTQVzQ4" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-06-11-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-06-11-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "12 pages"},
+    shareContext: "Albemarle School Board, Jun 11, 2026",
+    moments: [
+      { seconds: 158, label: "Pledge of Allegiance." },
+      { seconds: 283, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-sb-_1bFz1ff4CE",
+    meetingId: "alb-sb-_1bFz1ff4CE",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, January 8, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 1h 9m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=_1bFz1ff4CE" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-01-08-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-01-08-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "17 pages"},
+    shareContext: "Albemarle School Board, Jan 8, 2026",
+    moments: [
+      { seconds: 91, label: "Pledge of Allegiance." },
+      { seconds: 3649, label: "Public comment / public hearing begins." },
+      { seconds: 4103, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-axS5qo_XRrg",
+    meetingId: "alb-sb-axS5qo_XRrg",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, March 12, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 3h 4m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=axS5qo_XRrg" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-03-12-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-03-12-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "38 pages"},
+    shareContext: "Albemarle School Board, Mar 12, 2026",
+    moments: [
+      { seconds: 401, label: "Pledge of Allegiance." },
+      { seconds: 590, label: "Public comment / public hearing begins." },
+      { seconds: 10843, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-hCTl6DhdnGc",
+    meetingId: "alb-sb-hCTl6DhdnGc",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, September 11, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 2h 18m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=hCTl6DhdnGc" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-09-11-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-09-11-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "33 pages"},
+    shareContext: "Albemarle School Board, Sep 11, 2025",
+    moments: [
+      { seconds: 106, label: "Pledge of Allegiance." },
+      { seconds: 1129, label: "Public comment / public hearing begins." },
+      { seconds: 8315, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-kU5_niLaUwg",
+    meetingId: "alb-sb-kU5_niLaUwg",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, August 14, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 1h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=kU5_niLaUwg" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-08-14-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-08-14-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "27 pages"},
+    shareContext: "Albemarle School Board, Aug 14, 2025",
+    moments: [
+      { seconds: 34, label: "Pledge of Allegiance." },
+      { seconds: 2083, label: "Public comment / public hearing begins." },
+      { seconds: 6974, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-mlJ9fZFakBs",
+    meetingId: "alb-sb-mlJ9fZFakBs",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Special Work Session (2025-26 Budget)",
+    dateLabel: "Thursday, March 6, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 2h 48m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=mlJ9fZFakBs" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-03-06-albemarle-county-school-board-special-work-session-2025-26-budget.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-03-06-albemarle-county-school-board-special-work-session-2025-26-budget.txt", "pdfNote": "36 pages"},
+    shareContext: "Albemarle School Board, Mar 6, 2025",
+    moments: [
+      { seconds: 122, label: "Pledge of Allegiance." },
+      { seconds: 7980, label: "Public comment / public hearing begins." },
+      { seconds: 9890, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-pkfyjOjIt1s",
+    meetingId: "alb-sb-pkfyjOjIt1s",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board 2025-26 Draft Funding Request Public Hearing and Work Session",
+    dateLabel: "Thursday, February 27, 2025",
+    whenWhere: "Albemarle County School Board meeting · video 2h 50m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=pkfyjOjIt1s" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-02-27-albemarle-county-school-board-2025-26-draft-funding-request-public-hearing-and-work-session.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2025-02-27-albemarle-county-school-board-2025-26-draft-funding-request-public-hearing-and-work-session.txt", "pdfNote": "38 pages"},
+    shareContext: "Albemarle School Board, Feb 27, 2025",
+    moments: [
+      { seconds: 55, label: "Pledge of Allegiance." },
+      { seconds: 132, label: "Public comment / public hearing begins." },
+      { seconds: 10195, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-pwuWbIxRhZo",
+    meetingId: "alb-sb-pwuWbIxRhZo",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, February 12, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 2h 22m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=pwuWbIxRhZo" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-02-12-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-02-12-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "30 pages"},
+    shareContext: "Albemarle School Board, Feb 12, 2026",
+    moments: [
+      { seconds: 134, label: "Pledge of Allegiance." },
+      { seconds: 2675, label: "Public comment / public hearing begins." },
+      { seconds: 8499, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-w4OUkFFzAcA",
+    meetingId: "alb-sb-w4OUkFFzAcA",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, February 8, 2024",
+    whenWhere: "Albemarle County School Board meeting · video 2h 59m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=w4OUkFFzAcA" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-02-08-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2024-02-08-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "43 pages"},
+    shareContext: "Albemarle School Board, Feb 8, 2024",
+    moments: [
+      { seconds: 143, label: "Pledge of Allegiance." },
+      { seconds: 2044, label: "Public comment / public hearing begins." },
+      { seconds: 10752, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-sb-wM8s2n2D_KA",
+    meetingId: "alb-sb-wM8s2n2D_KA",
+    venue: "albemarle-schools",
+    title: "Albemarle County School Board Regular Meeting",
+    dateLabel: "Thursday, April 16, 2026",
+    whenWhere: "Albemarle County School Board meeting · video 2h 21m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in ACPS adopted minutes (BoardDocs) for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=wM8s2n2D_KA" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-04-16-albemarle-county-school-board-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-schools/transcripts/coraggio-transcript-albemarle-schools-2026-04-16-albemarle-county-school-board-regular-meeting.txt", "pdfNote": "33 pages"},
+    shareContext: "Albemarle School Board, Apr 16, 2026",
+    moments: [
+      { seconds: 58, label: "Pledge of Allegiance." },
+      { seconds: 879, label: "Public comment / public hearing begins." },
+      { seconds: 8248, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1329",
+    meetingId: "alb-bos-1329",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Evening Session",
+    dateLabel: "Wednesday, April 16, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 1h 34m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1329" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1329" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-04-16-albemarle-county-board-of-supervisors-evening-session.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-04-16-albemarle-county-board-of-supervisors-evening-session.txt", "pdfNote": "23 pages"},
+    shareContext: "Albemarle Board of Supervisors, Apr 16, 2025",
+    moments: [
+      { seconds: 1921, label: "Public comment / public hearing begins." },
+      { seconds: 5611, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1333",
+    meetingId: "alb-bos-1333",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Public Hearing \\u2013 Board\\u2019s Proposed Budget",
+    dateLabel: "Wednesday, April 23, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 1h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1333" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1333" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-04-23-albemarle-county-board-of-supervisors-public-hearing-u2013-board-u2019s-proposed-budget.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-04-23-albemarle-county-board-of-supervisors-public-hearing-u2013-board-u2019s-proposed-budget.txt", "pdfNote": "31 pages"},
+    shareContext: "Albemarle Board of Supervisors, Apr 23, 2025",
+    moments: [
+      { seconds: 64, label: "Public comment / public hearing begins." },
+      { seconds: 6957, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1336",
+    meetingId: "alb-bos-1336",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Budget Public Hearing (CY 25 Tax Rate)",
+    dateLabel: "Wednesday, April 30, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 0h 27m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1336" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1336" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-04-30-albemarle-county-board-of-supervisors-budget-public-hearing-cy-25-tax-rate.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-04-30-albemarle-county-board-of-supervisors-budget-public-hearing-cy-25-tax-rate.txt", "pdfNote": "8 pages"},
+    shareContext: "Albemarle Board of Supervisors, Apr 30, 2025",
+    moments: [
+      { seconds: 61, label: "Public comment / public hearing begins." },
+      { seconds: 1596, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1340",
+    meetingId: "alb-bos-1340",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, May 7, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 37m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1340" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1340" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-05-07-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-05-07-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "85 pages"},
+    shareContext: "Albemarle Board of Supervisors, May 7, 2025",
+    moments: [
+      { seconds: 27, label: "Pledge of Allegiance." },
+      { seconds: 1717, label: "Public comment / public hearing begins." },
+      { seconds: 20230, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1356",
+    meetingId: "alb-bos-1356",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Joint Meeting with Scottsville Town Council",
+    dateLabel: "Wednesday, May 14, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 1h 53m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1356" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1356" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-05-14-albemarle-county-board-of-supervisors-joint-meeting-with-scottsville-town-council.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-05-14-albemarle-county-board-of-supervisors-joint-meeting-with-scottsville-town-council.txt", "pdfNote": "27 pages"},
+    shareContext: "Albemarle Board of Supervisors, May 14, 2025",
+    moments: [
+      { seconds: 600, label: "Public comment / public hearing begins." },
+      { seconds: 6733, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1360",
+    meetingId: "alb-bos-1360",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, May 21, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 37m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1360" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1360" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-05-21-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-05-21-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "83 pages"},
+    shareContext: "Albemarle Board of Supervisors, May 21, 2025",
+    moments: [
+      { seconds: 47, label: "Pledge of Allegiance." },
+      { seconds: 580, label: "Public comment / public hearing begins." },
+      { seconds: 20195, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1364",
+    meetingId: "alb-bos-1364",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors AC44 - Draft Transportation Chapter",
+    dateLabel: "Wednesday, May 28, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 2h 25m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1364" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1364" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-05-28-albemarle-county-board-of-supervisors-ac44-draft-transportation-chapter.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-05-28-albemarle-county-board-of-supervisors-ac44-draft-transportation-chapter.txt", "pdfNote": "34 pages"},
+    shareContext: "Albemarle Board of Supervisors, May 28, 2025",
+    moments: [
+      { seconds: 8699, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1367",
+    meetingId: "alb-bos-1367",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, June 4, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 8h 57m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1367" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1367" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-06-04-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-06-04-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "127 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jun 4, 2025",
+    moments: [
+      { seconds: 53, label: "Pledge of Allegiance." },
+      { seconds: 1388, label: "Public comment / public hearing begins." },
+      { seconds: 32234, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1370",
+    meetingId: "alb-bos-1370",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, June 18, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 7h 8m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1370" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1370" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-06-18-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-06-18-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "74 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jun 18, 2025",
+    moments: [
+      { seconds: 55, label: "Pledge of Allegiance." },
+      { seconds: 530, label: "Public comment / public hearing begins." },
+      { seconds: 25676, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1374",
+    meetingId: "alb-bos-1374",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, July 16, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 7h 33m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1374" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1374" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-07-16-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-07-16-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "112 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jul 16, 2025",
+    moments: [
+      { seconds: 58, label: "Pledge of Allegiance." },
+      { seconds: 1653, label: "Public comment / public hearing begins." },
+      { seconds: 27195, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1377",
+    meetingId: "alb-bos-1377",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, August 6, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 8h 49m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1377" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1377" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-08-06-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-08-06-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "130 pages"},
+    shareContext: "Albemarle Board of Supervisors, Aug 6, 2025",
+    moments: [
+      { seconds: 139, label: "Pledge of Allegiance." },
+      { seconds: 1582, label: "Public comment / public hearing begins." },
+      { seconds: 31770, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1380",
+    meetingId: "alb-bos-1380",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Joint Meeting with the Economic Development Authority",
+    dateLabel: "Wednesday, August 13, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 2h 9m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1380" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1380" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-08-13-albemarle-county-board-of-supervisors-joint-meeting-with-the-economic-development-authority.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-08-13-albemarle-county-board-of-supervisors-joint-meeting-with-the-economic-development-authority.txt", "pdfNote": "35 pages"},
+    shareContext: "Albemarle Board of Supervisors, Aug 13, 2025",
+    moments: [
+      { seconds: 2547, label: "Public comment / public hearing begins." },
+      { seconds: 7747, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1384",
+    meetingId: "alb-bos-1384",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, August 20, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 7m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1384" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1384" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-08-20-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-08-20-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "76 pages"},
+    shareContext: "Albemarle Board of Supervisors, Aug 20, 2025",
+    moments: [
+      { seconds: 71, label: "Pledge of Allegiance." },
+      { seconds: 137, label: "Public comment / public hearing begins." },
+      { seconds: 18434, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1387",
+    meetingId: "alb-bos-1387",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, September 3, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 4h 35m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1387" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1387" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-09-03-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-09-03-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "67 pages"},
+    shareContext: "Albemarle Board of Supervisors, Sep 3, 2025",
+    moments: [
+      { seconds: 37, label: "Pledge of Allegiance." },
+      { seconds: 1222, label: "Public comment / public hearing begins." },
+      { seconds: 16487, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1390",
+    meetingId: "alb-bos-1390",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors AC44 Work Session - Final Draft Review",
+    dateLabel: "Wednesday, September 10, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 4h 37m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1390" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1390" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-09-10-albemarle-county-board-of-supervisors-ac44-work-session-final-draft-review.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-09-10-albemarle-county-board-of-supervisors-ac44-work-session-final-draft-review.txt", "pdfNote": "61 pages"},
+    shareContext: "Albemarle Board of Supervisors, Sep 10, 2025",
+    moments: [
+      { seconds: 743, label: "Public comment / public hearing begins." },
+      { seconds: 16643, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1393",
+    meetingId: "alb-bos-1393",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, September 17, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 14m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1393" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1393" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-09-17-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-09-17-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "75 pages"},
+    shareContext: "Albemarle Board of Supervisors, Sep 17, 2025",
+    moments: [
+      { seconds: 62, label: "Pledge of Allegiance." },
+      { seconds: 599, label: "Public comment / public hearing begins." },
+      { seconds: 18813, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1400",
+    meetingId: "alb-bos-1400",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, October 1, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 35m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1400" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1400" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-10-01-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-10-01-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "79 pages"},
+    shareContext: "Albemarle Board of Supervisors, Oct 1, 2025",
+    moments: [
+      { seconds: 86, label: "Pledge of Allegiance." },
+      { seconds: 1959, label: "Public comment / public hearing begins." },
+      { seconds: 20103, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1404",
+    meetingId: "alb-bos-1404",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, October 15, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 55m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1404" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1404" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-10-15-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-10-15-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "90 pages"},
+    shareContext: "Albemarle Board of Supervisors, Oct 15, 2025",
+    moments: [
+      { seconds: 45, label: "Pledge of Allegiance." },
+      { seconds: 1391, label: "Public comment / public hearing begins." },
+      { seconds: 21339, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1408",
+    meetingId: "alb-bos-1408",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, November 5, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 3h 20m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1408" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1408" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-11-05-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-11-05-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "51 pages"},
+    shareContext: "Albemarle Board of Supervisors, Nov 5, 2025",
+    moments: [
+      { seconds: 68, label: "Pledge of Allegiance." },
+      { seconds: 2145, label: "Public comment / public hearing begins." },
+      { seconds: 12012, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1411",
+    meetingId: "alb-bos-1411",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, November 19, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 2h 48m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1411" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1411" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-11-19-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-11-19-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "44 pages"},
+    shareContext: "Albemarle Board of Supervisors, Nov 19, 2025",
+    moments: [
+      { seconds: 65, label: "Pledge of Allegiance." },
+      { seconds: 1119, label: "Public comment / public hearing begins." },
+      { seconds: 10063, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1414",
+    meetingId: "alb-bos-1414",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Special Meeting - Legislative Forum",
+    dateLabel: "Monday, December 1, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 1h 35m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1414" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1414" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-12-01-albemarle-county-board-of-supervisors-special-meeting-legislative-forum.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-12-01-albemarle-county-board-of-supervisors-special-meeting-legislative-forum.txt", "pdfNote": "26 pages"},
+    shareContext: "Albemarle Board of Supervisors, Dec 1, 2025",
+    moments: [
+
+    ],
+  },
+  {
+    slug: "alb-bos-1417",
+    meetingId: "alb-bos-1417",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Joint Work Session with School Board",
+    dateLabel: "Wednesday, December 3, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 3h 15m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1417" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1417" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-12-03-albemarle-county-board-of-supervisors-joint-work-session-with-school-board.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-12-03-albemarle-county-board-of-supervisors-joint-work-session-with-school-board.txt", "pdfNote": "51 pages"},
+    shareContext: "Albemarle Board of Supervisors, Dec 3, 2025",
+    moments: [
+      { seconds: 11659, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1418",
+    meetingId: "alb-bos-1418",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, December 3, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 1h 14m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1418" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1418" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-12-03-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-12-03-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "19 pages"},
+    shareContext: "Albemarle Board of Supervisors, Dec 3, 2025",
+    moments: [
+      { seconds: 47, label: "Pledge of Allegiance." },
+      { seconds: 383, label: "Public comment / public hearing begins." },
+      { seconds: 4444, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1422",
+    meetingId: "alb-bos-1422",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, December 10, 2025",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 4h 13m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1422" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1422" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-12-10-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-12-10-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "63 pages"},
+    shareContext: "Albemarle Board of Supervisors, Dec 10, 2025",
+    moments: [
+      { seconds: 61, label: "Pledge of Allegiance." },
+      { seconds: 3972, label: "Public comment / public hearing begins." },
+      { seconds: 15186, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1425",
+    meetingId: "alb-bos-1425",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Annual Organizational Meeting",
+    dateLabel: "Wednesday, January 7, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 0h 58m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1425" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1425" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-01-07-albemarle-county-board-of-supervisors-annual-organizational-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-01-07-albemarle-county-board-of-supervisors-annual-organizational-meeting.txt", "pdfNote": "15 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jan 7, 2026",
+    moments: [
+      { seconds: 61, label: "Pledge of Allegiance." },
+      { seconds: 644, label: "Public comment / public hearing begins." },
+      { seconds: 3479, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1430",
+    meetingId: "alb-bos-1430",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, January 14, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 18m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1430" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1430" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-01-14-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-01-14-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "79 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jan 14, 2026",
+    moments: [
+      { seconds: 0, label: "Pledge of Allegiance." },
+      { seconds: 929, label: "Public comment / public hearing begins." },
+      { seconds: 19087, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1433",
+    meetingId: "alb-bos-1433",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, January 21, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 12m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1433" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1433" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-01-21-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-01-21-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "76 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jan 21, 2026",
+    moments: [
+      { seconds: 46, label: "Pledge of Allegiance." },
+      { seconds: 513, label: "Public comment / public hearing begins." },
+      { seconds: 18723, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1439",
+    meetingId: "alb-bos-1439",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, February 4, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 1h 46m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1439" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1439" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-02-04-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-02-04-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "27 pages"},
+    shareContext: "Albemarle Board of Supervisors, Feb 4, 2026",
+    moments: [
+      { seconds: 76, label: "Pledge of Allegiance." },
+      { seconds: 302, label: "Public comment / public hearing begins." },
+      { seconds: 6372, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1443",
+    meetingId: "alb-bos-1443",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, February 18, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 2h 37m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1443" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1443" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-02-18-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-02-18-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "41 pages"},
+    shareContext: "Albemarle Board of Supervisors, Feb 18, 2026",
+    moments: [
+      { seconds: 61, label: "Pledge of Allegiance." },
+      { seconds: 943, label: "Public comment / public hearing begins." },
+      { seconds: 9433, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1449",
+    meetingId: "alb-bos-1449",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors County Executive's Presentation to the Board - Recommended Budget",
+    dateLabel: "Wednesday, February 25, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 1h 43m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1449" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1449" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-02-25-albemarle-county-board-of-supervisors-county-executive-s-presentation-to-the-board-recommended-budget.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-02-25-albemarle-county-board-of-supervisors-county-executive-s-presentation-to-the-board-recommended-budget.txt", "pdfNote": "29 pages"},
+    shareContext: "Albemarle Board of Supervisors, Feb 25, 2026",
+    moments: [
+      { seconds: 130, label: "Public comment / public hearing begins." },
+      { seconds: 6230, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1452",
+    meetingId: "alb-bos-1452",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, March 4, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 4m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1452" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1452" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-04-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-04-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "74 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 4, 2026",
+    moments: [
+      { seconds: 62, label: "Pledge of Allegiance." },
+      { seconds: 471, label: "Public comment / public hearing begins." },
+      { seconds: 18251, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1456",
+    meetingId: "alb-bos-1456",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Budget Work Session",
+    dateLabel: "Monday, March 9, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 2h 48m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1456" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1456" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-09-albemarle-county-board-of-supervisors-budget-work-session.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-09-albemarle-county-board-of-supervisors-budget-work-session.txt", "pdfNote": "43 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 9, 2026",
+    moments: [
+      { seconds: 76, label: "Public comment / public hearing begins." },
+      { seconds: 10111, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1465",
+    meetingId: "alb-bos-1465",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Budget Work Session",
+    dateLabel: "Wednesday, March 11, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 3h 13m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1465" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1465" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-11-albemarle-county-board-of-supervisors-budget-work-session.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-11-albemarle-county-board-of-supervisors-budget-work-session.txt", "pdfNote": "53 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 11, 2026",
+    moments: [
+      { seconds: 11010, label: "Public comment / public hearing begins." },
+      { seconds: 11625, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1468",
+    meetingId: "alb-bos-1468",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Budget Work Session",
+    dateLabel: "Monday, March 16, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 3h 22m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1468" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1468" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-16-albemarle-county-board-of-supervisors-budget-work-session.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-16-albemarle-county-board-of-supervisors-budget-work-session.txt", "pdfNote": "54 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 16, 2026",
+    moments: [
+      { seconds: 206, label: "Public comment / public hearing begins." },
+      { seconds: 12124, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1472",
+    meetingId: "alb-bos-1472",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, March 18, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 7h 40m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1472" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1472" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-18-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-03-18-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "114 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 18, 2026",
+    moments: [
+      { seconds: 59, label: "Pledge of Allegiance." },
+      { seconds: 991, label: "Public comment / public hearing begins." },
+      { seconds: 27645, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1475",
+    meetingId: "alb-bos-1475",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, April 1, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 4h 44m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1475" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1475" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-04-01-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-04-01-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "70 pages"},
+    shareContext: "Albemarle Board of Supervisors, Apr 1, 2026",
+    moments: [
+      { seconds: 130, label: "Pledge of Allegiance." },
+      { seconds: 2131, label: "Public comment / public hearing begins." },
+      { seconds: 17058, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1486",
+    meetingId: "alb-bos-1486",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, April 15, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 45m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1486" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1486" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-04-15-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-04-15-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "88 pages"},
+    shareContext: "Albemarle Board of Supervisors, Apr 15, 2026",
+    moments: [
+      { seconds: 56, label: "Pledge of Allegiance." },
+      { seconds: 1238, label: "Public comment / public hearing begins." },
+      { seconds: 20682, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1490",
+    meetingId: "alb-bos-1490",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Board Approves and Appropriates FY 27 Budget and Sets Tax Rates",
+    dateLabel: "Wednesday, April 22, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 1h 10m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1490" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1490" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-04-22-albemarle-county-board-of-supervisors-board-approves-and-appropriates-fy-27-budget-and-sets-tax-rates.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-04-22-albemarle-county-board-of-supervisors-board-approves-and-appropriates-fy-27-budget-and-sets-tax-rates.txt", "pdfNote": "18 pages"},
+    shareContext: "Albemarle Board of Supervisors, Apr 22, 2026",
+    moments: [
+      { seconds: 182, label: "Public comment / public hearing begins." },
+      { seconds: 4207, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1494",
+    meetingId: "alb-bos-1494",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, May 6, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 23m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1494" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1494" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-05-06-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-05-06-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "77 pages"},
+    shareContext: "Albemarle Board of Supervisors, May 6, 2026",
+    moments: [
+      { seconds: 64, label: "Pledge of Allegiance." },
+      { seconds: 2647, label: "Public comment / public hearing begins." },
+      { seconds: 19389, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1499",
+    meetingId: "alb-bos-1499",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, May 20, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 2m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1499" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1499" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-05-20-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-05-20-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "76 pages"},
+    shareContext: "Albemarle Board of Supervisors, May 20, 2026",
+    moments: [
+      { seconds: 55, label: "Pledge of Allegiance." },
+      { seconds: 201, label: "Public comment / public hearing begins." },
+      { seconds: 18161, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1502",
+    meetingId: "alb-bos-1502",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, June 3, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 36m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1502" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1502" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-06-03-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-06-03-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "82 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jun 3, 2026",
+    moments: [
+      { seconds: 49, label: "Pledge of Allegiance." },
+      { seconds: 852, label: "Public comment / public hearing begins." },
+      { seconds: 20139, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1505",
+    meetingId: "alb-bos-1505",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, June 17, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 4h 16m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1505" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1505" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-06-17-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-06-17-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "65 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jun 17, 2026",
+    moments: [
+      { seconds: 123, label: "Pledge of Allegiance." },
+      { seconds: 200, label: "Public comment / public hearing begins." },
+      { seconds: 15357, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1518",
+    meetingId: "alb-bos-1518",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Meeting",
+    dateLabel: "Wednesday, July 15, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 44m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1518" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1518" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-07-15-albemarle-county-board-of-supervisors-regular-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-07-15-albemarle-county-board-of-supervisors-regular-meeting.txt", "pdfNote": "86 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jul 15, 2026",
+    moments: [
+      { seconds: 56, label: "Pledge of Allegiance." },
+      { seconds: 345, label: "Public comment / public hearing begins." },
+      { seconds: 20637, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1523",
+    meetingId: "alb-bos-1523",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, August 5, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 6h 39m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1523" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1523" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-08-05-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-08-05-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "98 pages"},
+    shareContext: "Albemarle Board of Supervisors, Aug 5, 2026",
+    moments: [
+      { seconds: 55, label: "Pledge of Allegiance." },
+      { seconds: 257, label: "Public comment / public hearing begins." },
+      { seconds: 23935, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1530",
+    meetingId: "alb-bos-1530",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, August 19, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 4h 31m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1530" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1530" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-08-19-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-08-19-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "66 pages"},
+    shareContext: "Albemarle Board of Supervisors, Aug 19, 2026",
+    moments: [
+      { seconds: 3260, label: "Public comment / public hearing begins." },
+      { seconds: 16240, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1534",
+    meetingId: "alb-bos-1534",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, September 2, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 7h 26m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1534" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1534" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-09-02-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-09-02-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "113 pages"},
+    shareContext: "Albemarle Board of Supervisors, Sep 2, 2026",
+    moments: [
+      { seconds: 65, label: "Pledge of Allegiance." },
+      { seconds: 972, label: "Public comment / public hearing begins." },
+      { seconds: 26750, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1537",
+    meetingId: "alb-bos-1537",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, September 16, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 4h 3m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1537" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1537" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-09-16-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-09-16-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "60 pages"},
+    shareContext: "Albemarle Board of Supervisors, Sep 16, 2026",
+    moments: [
+      { seconds: 70, label: "Pledge of Allegiance." },
+      { seconds: 404, label: "Public comment / public hearing begins." },
+      { seconds: 14510, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1539",
+    meetingId: "alb-bos-1539",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, October 7, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 27m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1539" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1539" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-10-07-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-10-07-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "82 pages"},
+    shareContext: "Albemarle Board of Supervisors, Oct 7, 2026",
+    moments: [
+      { seconds: 63, label: "Pledge of Allegiance." },
+      { seconds: 1508, label: "Public comment / public hearing begins." },
+      { seconds: 19635, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1540",
+    meetingId: "alb-bos-1540",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Joint Work Session with Charlottesville City Council",
+    dateLabel: "Tuesday, October 6, 2026",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 2h 7m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 14, 2026, 5:00 PM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1540" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-10-06-albemarle-county-board-of-supervisors-joint-work-session-with-charlottesville-city-council.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-10-06-albemarle-county-board-of-supervisors-joint-work-session-with-charlottesville-city-council.txt", "pdfNote": "30 pages"},
+    shareContext: "Albemarle Board of Supervisors, Oct 6, 2026",
+    moments: [
+      { seconds: 7589, label: "Adjournment." },
+    ],
+  },
+  {
     slug: "alb-sb-eUCz37BbiPM",
     meetingId: "alb-sb-eUCz37BbiPM",
     venue: "albemarle-schools",

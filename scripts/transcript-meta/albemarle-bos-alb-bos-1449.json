@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1449.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-02-25-albemarle-county-board-of-supervisors-county-executive-s-presentation-to-the-board-recommended-budget",
+  "title": "Albemarle County Board of Supervisors County Executive's Presentation to the Board - Recommended Budget, Wednesday, February 25, 2026",
+  "shortTitle": "Board of Supervisors County Executive's Presentation to the Board - Recommended Budget \u00b7 Feb 25, 2026",
+  "date": "Wednesday, February 25, 2026",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "1h 43m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1449"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1449"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1540.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2026-10-06-albemarle-county-board-of-supervisors-joint-work-session-with-charlottesville-city-council",
+  "title": "Albemarle County Board of Supervisors Joint Work Session with Charlottesville City Council, Tuesday, October 6, 2026",
+  "shortTitle": "Board of Supervisors Joint Work Session with Charlottesville City Council \u00b7 Oct 6, 2026",
+  "date": "Tuesday, October 6, 2026",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "2h 7m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1540"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}

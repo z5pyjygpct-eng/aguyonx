@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1356.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-05-14-albemarle-county-board-of-supervisors-joint-meeting-with-scottsville-town-council",
+  "title": "Albemarle County Board of Supervisors Joint Meeting with Scottsville Town Council, Wednesday, May 14, 2025",
+  "shortTitle": "Board of Supervisors Joint Meeting with Scottsville Town Council \u00b7 May 14, 2025",
+  "date": "Wednesday, May 14, 2025",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "1h 53m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1356"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1356"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-14"
+}
