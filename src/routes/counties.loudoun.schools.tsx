@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ExternalLink, FileText, User } from "lucide-react";
+import { dateMeta, useMeetingFilters } from "@/components/site/meeting-filters";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
@@ -25,7 +26,13 @@ export const Route = createFileRoute("/counties/loudoun/schools")({
   component: LoudounSchoolsPage,
 });
 
+const LCPS_RECAPS_LIST = LOUDOUN_RECAPS.filter((r) => (r.venue ?? "loudoun-bos") === "loudoun-lcps");
+const LCPS_MEETING_BY_ID = Object.fromEntries(LCPS_MEETINGS.map((m) => [m.id, m]));
+const lcpsKind = (k?: string) => LCPS_KIND[k ?? "full_board"] ?? k;
+
 function LoudounSchoolsPage() {
+  const recapF = useMeetingFilters(LCPS_RECAPS_LIST, (r) => dateMeta(r.dateLabel, lcpsKind(LCPS_MEETING_BY_ID[r.meetingId]?.kind)), "recaps");
+  const videoF = useMeetingFilters(LCPS_MEETINGS, (m) => dateMeta(m.dateLabel, lcpsKind(m.kind)), "meetings");
   return (
     <SiteShell>
       <HomeSearch />
@@ -74,8 +81,9 @@ function LoudounSchoolsPage() {
         {LOUDOUN_RECAPS.some((r) => (r.venue ?? "loudoun-bos") === "loudoun-lcps") ? (
           <section className="mt-10">
             <Kicker>Meeting recaps</Kicker>
+            {recapF.controls}
             <ul className="mt-3 space-y-2">
-              {LOUDOUN_RECAPS.filter((r) => (r.venue ?? "loudoun-bos") === "loudoun-lcps").map(
+              {recapF.filtered.map(
                 (r) => (
                   <li key={r.slug}>
                     <Link
@@ -104,8 +112,9 @@ function LoudounSchoolsPage() {
             All {LCPS_MEETINGS.length} indexed School Board meetings (full board, committees, appeals, closed-session
             openings). Video opens LCPS-TV on Vimeo.
           </p>
+          {videoF.controls}
           <ul className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
-            {LCPS_MEETINGS.map((m) => {
+            {videoF.filtered.map((m) => {
               const recap = LCPS_RECAP_BY_MEETING[m.id];
               return (
                 <li key={m.id} className="flex h-full flex-col gap-1.5 rounded-md border border-border bg-card px-4 py-4 text-sm">

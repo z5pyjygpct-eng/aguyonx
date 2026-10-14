@@ -94,7 +94,7 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
         </section>
 
         <section className="mt-12">
-          <h2 className="font-serif text-2xl font-medium">Meetings &amp; recaps</h2>
+          <h2 className="font-serif text-2xl font-medium">Meeting videos</h2>
           <p className="mt-1 text-sm text-muted-foreground">
             {recaps.length
               ? `${recaps.length} meetings have a recap (tap the meeting or the Recap badge).`

@@ -1,3 +1,4 @@
+import { isoMeta, useMeetingFilters } from "@/components/site/meeting-filters";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { FtmThumb } from "@/components/site/ftm-thumb";
 import { ExternalLink } from "lucide-react";
@@ -29,7 +30,12 @@ export const Route = createFileRoute("/general-assembly/senate/")({
 
 const PARTY_BG: Record<string, string> = { D: "bg-[#1E4B8E]", R: "bg-[#b42318]" };
 
+const floorType = (t: string) =>
+  /joint/i.test(t) ? "Joint Assembly" : /special/i.test(t) ? "Special Session" : /reconven/i.test(t) ? "Reconvened Session" : /pro forma/i.test(t) ? "Pro forma" : "Regular Session";
+
 function SenatePage() {
+  const recapF = useMeetingFilters(SENATE_RECAPS, (r) => isoMeta(r.date, undefined), "recaps");
+  const videoF = useMeetingFilters(SENATE_MEETINGS, (m) => isoMeta(m.date, floorType(m.title)), "meetings");
   const has = new Set(
     FTM_TRANSCRIPTS.filter((t) => t.venue === SENATE_VENUE).map((t) => t.meetingId),
   );
@@ -120,8 +126,9 @@ function SenatePage() {
             One recap per floor day. Votes come only from official LIS roll-call records, never from
             the video or transcript.
           </p>
+          {recapF.controls}
           <ul className="mt-4 space-y-2">
-            {SENATE_RECAPS.map((r) => (
+            {recapF.filtered.map((r) => (
               <li key={r.slug}>
                 <Link
                   to="/general-assembly/senate/recaps/$slug"
@@ -141,9 +148,11 @@ function SenatePage() {
         </section>
 
         <section className="mt-12">
-          <h2 className="font-serif text-2xl font-medium">Floor sessions (2026)</h2>
+          <h2 className="font-serif text-2xl font-medium">Meeting videos</h2>
+          <p className="mt-1 text-sm text-muted-foreground">2026 floor sessions.</p>
+          {videoF.controls}
           <ul className="mt-4 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-            {SENATE_MEETINGS.map((m) => {
+            {videoF.filtered.map((m) => {
               const recap = SENATE_RECAP_BY_MEETING[m.id];
               return (
                 <li

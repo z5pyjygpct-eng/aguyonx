@@ -1,3 +1,4 @@
+import { isoMeta, useMeetingFilters } from "@/components/site/meeting-filters";
 import { AllFtmLink } from "@/components/site/all-ftm-link";
 import { FtmThumb } from "@/components/site/ftm-thumb";
 import { useMemo, useRef, useState, type FormEvent } from "react";
@@ -241,51 +242,15 @@ export function CityMeetingList({ venues }: { venues: CityVenueId[] }) {
     [venues],
   );
   const has = useMemo(() => new Set(FTM_TRANSCRIPTS.map((t) => t.meetingId)), []);
-  const years = useMemo(() => [...new Set(meetings.map((m) => m.date.slice(0, 4)))], [meetings]);
-  const types = useMemo(
-    () => [...new Set(meetings.map((m) => cityMeetingType(m.title)))].sort(),
-    [meetings],
-  );
-  const [year, setYear] = useState("all");
-  const [type, setType] = useState("all");
-  const shown = meetings.filter(
-    (m) =>
-      (year === "all" || m.date.startsWith(year)) &&
-      (type === "all" || cityMeetingType(m.title) === type),
-  );
+  const { filtered: shown, controls } = useMeetingFilters(meetings, (m) => isoMeta(m.date, cityMeetingType(m.title)), "meetings");
   const multi = venues.length > 1;
   const sel = "rounded-md border border-border bg-background px-2 py-1.5 text-sm text-foreground";
   const badge =
     "rounded border border-[#1E4B8E]/40 px-1.5 py-0.5 text-[11px] font-medium text-[#1E4B8E] hover:bg-[#e8eef6]";
   return (
     <div>
-      <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
-        <label className="flex items-center gap-1.5">
-          <span className="text-muted-foreground">Year</span>
-          <select className={sel} value={year} onChange={(e) => setYear(e.target.value)}>
-            <option value="all">All years</option>
-            {years.map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="flex items-center gap-1.5">
-          <span className="text-muted-foreground">Type</span>
-          <select className={sel} value={type} onChange={(e) => setType(e.target.value)}>
-            <option value="all">All types</option>
-            {types.map((t) => (
-              <option key={t} value={t}>
-                {t}
-              </option>
-            ))}
-          </select>
-        </label>
-        <span className="text-xs text-muted-foreground">
-          {shown.length} of {meetings.length} meetings
-        </span>
-      </div>
+      {controls}
+      <div className="mb-3" />
       <ul className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         {shown.map((m) => {
           const recap = CITY_RECAP_BY_MEETING[m.id];

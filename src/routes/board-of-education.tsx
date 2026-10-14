@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { FtmThumb } from "@/components/site/ftm-thumb";
-import { useMemo, useState } from "react";
+import { isoMeta, useMeetingFilters } from "@/components/site/meeting-filters";
 import { ExternalLink } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
@@ -25,21 +25,8 @@ export const Route = createFileRoute("/board-of-education")({
 
 function VboePage() {
   const has = new Set(FTM_TRANSCRIPTS.filter((t) => t.venue === VBOE_VENUE).map((t) => t.meetingId));
-  const years = [...new Set(VBOE_MEETINGS.map((m) => m.date.slice(0, 4)))].sort().reverse();
-  const types = [...new Set(VBOE_MEETINGS.map((m) => vboeMeetingType(m.title)))].sort();
-  const [year, setYear] = useState("all");
-  const [type, setType] = useState("all");
-  const list = useMemo(
-    () =>
-      VBOE_MEETINGS.filter(
-        (m) =>
-          (year === "all" || m.date.startsWith(year)) &&
-          (type === "all" || vboeMeetingType(m.title) === type),
-      ),
-    [year, type],
-  );
+  const { filtered: list, controls } = useMeetingFilters(VBOE_MEETINGS, (m) => isoMeta(m.date, vboeMeetingType(m.title)), "meetings");
   const searchable = VBOE_MEETINGS.filter((m) => has.has(m.id)).length;
-  const sel = "rounded-md border border-border bg-card px-2 py-1.5 text-sm";
   return (
     <SiteShell location="Virginia">
       <HomeSearch />
@@ -79,27 +66,8 @@ function VboePage() {
         </section>
 
         <section className="mt-12">
-          <h2 className="font-serif text-2xl font-medium">Meetings</h2>
-          <div className="mt-4 flex flex-wrap gap-3">
-            <label className="text-sm">
-              Year{" "}
-              <select className={sel} value={year} onChange={(e) => setYear(e.target.value)}>
-                <option value="all">All</option>
-                {years.map((y) => (
-                  <option key={y}>{y}</option>
-                ))}
-              </select>
-            </label>
-            <label className="text-sm">
-              Type{" "}
-              <select className={sel} value={type} onChange={(e) => setType(e.target.value)}>
-                <option value="all">All</option>
-                {types.map((t) => (
-                  <option key={t}>{t}</option>
-                ))}
-              </select>
-            </label>
-          </div>
+          <h2 className="font-serif text-2xl font-medium">Meeting videos</h2>
+          {controls}
           <ul className="mt-4 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {list.map((m) => (
               <li key={m.id} className="flex h-full flex-col gap-1.5 rounded-md border border-border bg-card px-4 py-4 text-sm">
