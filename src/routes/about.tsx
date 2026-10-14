@@ -3,6 +3,7 @@ import { SiteShell } from "@/components/site/shell";
 import { Kicker } from "@/components/site/kicker";
 import { Button } from "@/components/ui/button";
 import { SITE } from "@/content/site";
+import { HomeBooks } from "@/components/site/home-books";
 
 export const Route = createFileRoute("/about")({ component: AboutPage });
 
@@ -83,6 +84,9 @@ function AboutPage() {
           </Button>
         </div>
       </main>
+      <div id="books" className="border-t border-border">
+        <HomeBooks />
+      </div>
     </SiteShell>
   );
 }

@@ -9,7 +9,6 @@ import { ARTICLES } from "@/content/articles";
 import { LIBRARY } from "@/content/library";
 import { HomeLayout } from "@/components/site/home-layout";
 import { HomeSearch } from "@/components/site/home-search";
-import { HomeBooks } from "@/components/site/home-books";
 import { NewsPeople } from "@/components/site/news-people";
 import { NEWS_DEK, NEWS_EMPTY, formatNewsDate, newsFiledLine, newsNewestFirst } from "@/content/news";
 
@@ -23,8 +22,6 @@ function Home() {
     <div className="flex min-h-svh flex-col bg-background text-foreground">
       <HomeLayout>
         <HomeSearch />
-
-        <HomeBooks />
 
         <section className="border-b border-border">
           <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
