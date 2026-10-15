@@ -74,8 +74,8 @@ export const DASHBOARDS: Dashboard[] = [
       {
         name: "Loudoun County Public Schools",
         tiles: [
-          { label: "Find the Moment", icon: "play", to: "/counties/loudoun/schools" },
-          { label: "Meeting Recaps", icon: "list", to: "/counties/loudoun/schools" },
+          { label: "Find the Moment", icon: "play", to: "/dashboards/loudoun/schools/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/loudoun/schools/recaps" },
           { label: "Budget/Finances", icon: "money", to: "/counties/loudoun/schools", hash: "budget" },
           { label: "Policies", icon: "book", to: "/counties/loudoun/schools" },
           { label: "Members", icon: "people", to: "/counties/loudoun/schools" },

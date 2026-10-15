@@ -51,6 +51,8 @@ import { Route as GeneralAssemblyHouseIndexRouteImport } from './routes/general-
 import { Route as GeneralAssemblySenateIndexRouteImport } from './routes/general-assembly.senate.index'
 import { Route as CitiesCityRecapsSlugRouteImport } from './routes/cities.$city.recaps.$slug'
 import { Route as CountiesLoudounRecapsSlugRouteImport } from './routes/counties.loudoun.recaps.$slug'
+import { Route as DashboardsLoudounSchoolsFindTheMomentRouteImport } from './routes/dashboards.loudoun.schools.find-the-moment'
+import { Route as DashboardsLoudounSchoolsRecapsRouteImport } from './routes/dashboards.loudoun.schools.recaps'
 import { Route as GeneralAssemblyHouseRecapsSlugRouteImport } from './routes/general-assembly.house.recaps.$slug'
 import { Route as GeneralAssemblySenateRecapsSlugRouteImport } from './routes/general-assembly.senate.recaps.$slug'
 
@@ -268,6 +270,18 @@ const CountiesLoudounRecapsSlugRoute =
     path: '/recaps/$slug',
     getParentRoute: () => CountiesLoudounRoute,
   } as any)
+const DashboardsLoudounSchoolsFindTheMomentRoute =
+  DashboardsLoudounSchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/loudoun/schools/find-the-moment',
+    path: '/dashboards/loudoun/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsLoudounSchoolsRecapsRoute =
+  DashboardsLoudounSchoolsRecapsRouteImport.update({
+    id: '/dashboards/loudoun/schools/recaps',
+    path: '/dashboards/loudoun/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const GeneralAssemblyHouseRecapsSlugRoute =
   GeneralAssemblyHouseRecapsSlugRouteImport.update({
     id: '/recaps/$slug',
@@ -324,6 +338,8 @@ export interface FileRoutesByFullPath {
   '/general-assembly/senate/': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/dashboards/loudoun/schools/find-the-moment': typeof DashboardsLoudounSchoolsFindTheMomentRoute
+  '/dashboards/loudoun/schools/recaps': typeof DashboardsLoudounSchoolsRecapsRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -360,6 +376,8 @@ export interface FileRoutesByTo {
   '/general-assembly/senate': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/dashboards/loudoun/schools/find-the-moment': typeof DashboardsLoudounSchoolsFindTheMomentRoute
+  '/dashboards/loudoun/schools/recaps': typeof DashboardsLoudounSchoolsRecapsRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -407,6 +425,8 @@ export interface FileRoutesById {
   '/general-assembly/senate/': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/dashboards/loudoun/schools/find-the-moment': typeof DashboardsLoudounSchoolsFindTheMomentRoute
+  '/dashboards/loudoun/schools/recaps': typeof DashboardsLoudounSchoolsRecapsRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -455,6 +475,8 @@ export interface FileRouteTypes {
     | '/general-assembly/senate/'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/dashboards/loudoun/schools/find-the-moment'
+    | '/dashboards/loudoun/schools/recaps'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   fileRoutesByTo: FileRoutesByTo
@@ -491,6 +513,8 @@ export interface FileRouteTypes {
     | '/general-assembly/senate'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/dashboards/loudoun/schools/find-the-moment'
+    | '/dashboards/loudoun/schools/recaps'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   id:
@@ -537,6 +561,8 @@ export interface FileRouteTypes {
     | '/general-assembly/senate/'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/dashboards/loudoun/schools/find-the-moment'
+    | '/dashboards/loudoun/schools/recaps'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   fileRoutesById: FileRoutesById
@@ -561,6 +587,8 @@ export interface RootRouteChildren {
   VideosRoute: typeof VideosRoute
   DashboardsBodyRoute: typeof DashboardsBodyRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
+  DashboardsLoudounSchoolsFindTheMomentRoute: typeof DashboardsLoudounSchoolsFindTheMomentRoute
+  DashboardsLoudounSchoolsRecapsRoute: typeof DashboardsLoudounSchoolsRecapsRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -859,6 +887,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CountiesLoudounRecapsSlugRouteImport
       parentRoute: typeof CountiesLoudounRoute
     }
+    '/dashboards/loudoun/schools/find-the-moment': {
+      id: '/dashboards/loudoun/schools/find-the-moment'
+      path: '/dashboards/loudoun/schools/find-the-moment'
+      fullPath: '/dashboards/loudoun/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsLoudounSchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/loudoun/schools/recaps': {
+      id: '/dashboards/loudoun/schools/recaps'
+      path: '/dashboards/loudoun/schools/recaps'
+      fullPath: '/dashboards/loudoun/schools/recaps'
+      preLoaderRoute: typeof DashboardsLoudounSchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/general-assembly/house/recaps/$slug': {
       id: '/general-assembly/house/recaps/$slug'
       path: '/recaps/$slug'
@@ -1044,6 +1086,9 @@ const rootRouteChildren: RootRouteChildren = {
   VideosRoute: VideosRoute,
   DashboardsBodyRoute: DashboardsBodyRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
+  DashboardsLoudounSchoolsFindTheMomentRoute:
+    DashboardsLoudounSchoolsFindTheMomentRoute,
+  DashboardsLoudounSchoolsRecapsRoute: DashboardsLoudounSchoolsRecapsRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
