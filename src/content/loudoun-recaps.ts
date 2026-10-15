@@ -713,7 +713,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "Board Room, Government Center, Leesburg · video 34m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 15, 2026, 8:40 AM ET",
+      checkedLabel: "Oct 15, 2026, 12:33 PM ET",
       note: "Official vote record not yet posted on Granicus for this clip (Action Report section present but no Action Report document linked). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "Agenda (Granicus)", href: granicusAgenda(8179) },
@@ -754,7 +754,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "Board Room, Government Center, Leesburg · video 1h 48m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 15, 2026, 8:40 AM ET",
+      checkedLabel: "Oct 15, 2026, 12:33 PM ET",
       note: "Official vote record not yet posted on Granicus for this clip (Action Report section present but no Action Report document linked). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "Agenda (Granicus)", href: granicusAgenda(8178) },
@@ -972,7 +972,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "School Board meeting · video 7h 5m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 15, 2026, 8:40 AM ET",
+      checkedLabel: "Oct 15, 2026, 12:33 PM ET",
       note: "Official vote record not yet posted. BoardDocs meeting page has agenda only (BD-GetMinutes returns empty / no View Minutes content). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "BoardDocs meeting", href: boarddocsMeeting("DXGKG851ACED") },
@@ -1130,11 +1130,11 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     dateLabel: "Monday, Sep 15, 2026",
     whenWhere: "School Board retreat · video 5h 53m",
     official: {
-      votesPosted: false,
-      checkedLabel: "Oct 15, 2026, 8:40 AM ET",
-      note: "Official vote record not yet posted. BoardDocs retreat meeting page has agenda only (BD-GetMinutes returns empty / no View Minutes content). Do not infer votes from the video or machine transcript.",
+      votesPosted: true,
+      checkedLabel: "Oct 15, 2026, 12:33 PM ET",
+      note: "The BoardDocs minutes for this retreat (adopted Oct 13, 2026) are linked below; they record no motions or votes. The minutes list an FY28 budget discussion (morning and afternoon) and a work session on scheduling select committees for appeals, the weekly Board inquiries report, meals at Board meetings, proclamations, public comment, and invitations to school-level events. Called to order 9:00 a.m.; Vice Chair Donohue arrived at 12:15 p.m.; adjourned 3:30 p.m.",
       links: [
-        { label: "BoardDocs meeting", href: boarddocsMeeting("DTRGE7436104") },
+        { label: "Sep 15, 2026 BoardDocs minutes", href: boarddocsMeeting("DTRGE7436104") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1227257661?rel=0" },
       ],
@@ -1143,12 +1143,20 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     context: [],
     agenda: [
       {
-        heading: "Retreat topics (navigation markers)",
-        dek: "Neutral labels from the retreat video — confirm against BoardDocs for the official agenda.",
+        heading: "Official agenda (from BoardDocs minutes)",
+        dek: "Items as listed in the adopted Sep 15, 2026 minutes. No motions or votes are recorded.",
         items: [
-          { num: "—", title: "Call to order and disclosures" },
-          { num: "—", title: "Strategic / planning discussion" },
-          { num: "—", title: "Budget-related discussion" },
+          { num: "1", title: "Call to Order (9:00 a.m.): attendance and disclosures" },
+          { num: "2.01", title: "Budget Discussion (FY28 budget retreat)" },
+          { num: "3", title: "Lunch Break 12:00–12:30" },
+          { num: "4.01", title: "Budget Discussion (continued)" },
+          { num: "5.01", title: "Work Session: Scheduling of Select Committees for Appeals" },
+          { num: "5.02", title: "Work Session: Weekly Board Inquiries Report" },
+          { num: "5.03", title: "Work Session: Meals at Board Meetings" },
+          { num: "5.04", title: "Work Session: Proclamations" },
+          { num: "5.05", title: "Work Session: Public Comment" },
+          { num: "5.06", title: "Work Session: Invitations for Board Members to Significant School Level Events" },
+          { num: "6", title: "Adjournment (3:30 p.m.)" },
         ],
       },
     ],
