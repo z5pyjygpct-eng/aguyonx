@@ -49,6 +49,82 @@ export function peopleSearchText(people: NewsPerson[]): string {
 
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
+
+  {
+    id: "skyview-hs-quantum-computer-incubator-fcps-ffxnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline: "Skyview HS quantum computer could be ‘incubator’ for future FCPS programs",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/14/skyview-hs-quantum-computer-could-be-incubator-for-future-fcps-programs/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "school-board-approves-face-resource-hub-ltm-2026-10-15",
+    date: "2026-10-15",
+    headline: "School Board approves FACE Resource Hub",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/education/school-board-approves-face-resource-hub/article_f0fa64b2-0b72-423d-953b-24a3e6a3f68c.html",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "valley-link-open-houses-transmission-routes-ltm-2026-10-13",
+    date: "2026-10-13",
+    filed: "2026-10-15",
+    headline: "Valley Link schedules more open houses, maps potential transmission line routes",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/business_and_economy/agriculture/valley-link-schedules-more-open-houses-maps-potential-transmission-line-routes/article_4508ff4d-deed-484a-b0c0-e4bac350305d.html",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "route-29-widening-centreville-nears-finish-ffxnow-2026-10-13",
+    date: "2026-10-13",
+    filed: "2026-10-15",
+    headline: "VDOT celebrates as project to widen Route 29 outside Centreville nears finish",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/13/vdot-celebrates-as-route-29-widening-project-in-centreville-area-nears-finish/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "reston-association-assessments-900-2027-budget-ffxnow-2026-10-13",
+    date: "2026-10-13",
+    filed: "2026-10-15",
+    headline: "Reston Association assessments could reach $900 under proposed 2027 budget",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/13/reston-association-assessments-could-reach-900-under-proposed-2027-budget/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "special-ed-pta-aps-preschool-program-arlnow-2026-10-13",
+    date: "2026-10-13",
+    filed: "2026-10-15",
+    headline: "Special ed PTA speaks out against plan to end APS preschool program",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/13/special-ed-pta-speaks-out-against-plan-to-end-aps-preschool-program/",
+    people: [],
+    scope: "local",
+  },
+
+  {
+    id: "douglas-park-clarendon-sidewalk-improvements-arlnow-2026-10-13",
+    date: "2026-10-13",
+    filed: "2026-10-15",
+    headline: "Sidewalk, intersection improvements in Douglas Park and Clarendon set for approval",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/13/sidewalk-intersection-improvements-in-douglas-park-and-clarendon-head-to-county-board/",
+    people: [],
+    scope: "local",
+  },
   {
     id: "federal-scorecard-lists-11-aps-schools-arlnow-2026-10-14",
     date: "2026-10-14",
