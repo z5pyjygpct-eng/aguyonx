@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1323.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-04-07-albemarle-county-board-of-supervisors-budget-work-session",
+  "title": "Albemarle County Board of Supervisors Budget Work Session, Monday, April 7, 2025",
+  "shortTitle": "Board of Supervisors Budget Work Session \u00b7 Apr 7, 2025",
+  "date": "Monday, April 7, 2025",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "2h 47m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1323"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1323"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-15"
+}

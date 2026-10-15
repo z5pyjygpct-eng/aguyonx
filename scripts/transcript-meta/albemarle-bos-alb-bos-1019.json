@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1019.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-06-12-albemarle-county-board-of-supervisors-regular-second-meeting",
+  "title": "Albemarle County Board of Supervisors Regular Second Meeting, Wednesday, June 12, 2024",
+  "shortTitle": "Board of Supervisors Regular Second Meeting \u00b7 Jun 12, 2024",
+  "date": "Wednesday, June 12, 2024",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "6h 24m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1019"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1019"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-15"
+}

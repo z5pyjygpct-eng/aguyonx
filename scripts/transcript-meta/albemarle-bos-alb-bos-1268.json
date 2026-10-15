@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1268.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-01-15-albemarle-county-board-of-supervisors-regular-meeting",
+  "title": "Albemarle County Board of Supervisors Regular Meeting, Wednesday, January 15, 2025",
+  "shortTitle": "Board of Supervisors Regular Meeting \u00b7 Jan 15, 2025",
+  "date": "Wednesday, January 15, 2025",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "8h 23m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1268"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1268"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-15"
+}

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1124.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-09-17-albemarle-county-board-of-supervisors-joint-meeting-with-charlottesville-city-council",
+  "title": "Albemarle County Board of Supervisors Joint Meeting with Charlottesville City Council, Tuesday, September 17, 2024",
+  "shortTitle": "Board of Supervisors Joint Meeting with Charlottesville City Council \u00b7 Sep 17, 2024",
+  "date": "Tuesday, September 17, 2024",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "1h 59m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1124"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1124"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-15"
+}

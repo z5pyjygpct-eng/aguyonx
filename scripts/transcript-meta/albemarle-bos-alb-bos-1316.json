@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1316.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2025-03-19-albemarle-county-board-of-supervisors-regular-second-meeting",
+  "title": "Albemarle County Board of Supervisors Regular Second Meeting, Wednesday, March 19, 2025",
+  "shortTitle": "Board of Supervisors Regular Second Meeting \u00b7 Mar 19, 2025",
+  "date": "Wednesday, March 19, 2025",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "4h 22m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1316"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1316"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-15"
+}
