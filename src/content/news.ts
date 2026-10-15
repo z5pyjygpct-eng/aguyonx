@@ -49,6 +49,281 @@ export function peopleSearchText(people: NewsPerson[]): string {
 
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
+  {
+    id: "federal-scorecard-lists-11-aps-schools-arlnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Federal scorecard lists 11 APS schools as ‘approaching expectations’ or below",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/14/federal-scorecard-lists-11-aps-schools-as-approaching-expectations-or-below/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "arlington-county-increases-number-speed-cameras-wjla-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Arlington County increases number of speed cameras near schools by 40%",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/arlington-county-increases-number-of-speed-cameras-near-schools-by-40",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "arlingtons-fight-over-building-6-homes-patch-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Arlington's Fight Over Building 6 Homes On 1 Lot Isn't Over: Here's What Comes Next",
+    outlet: "Patch",
+    url: "https://patch.com/virginia/arlington-va/arlingtons-six-unit-housing-rules-face-new-va-supreme-court-hearing",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "all-41-arlington-county-flock-cameras-patch-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "All 41 Arlington County Flock Cameras Are Gone. Here's What Remains",
+    outlet: "Patch",
+    url: "https://patch.com/virginia/arlington-va/arlington-removes-all-county-flock-cameras-private-ones-remain-report",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "2-detained-man-stabbed-arlingtons-ballston-wjla-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "2 Detained after man stabbed in Arlington's Ballston neighborhood",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/arlington-stabbing-ballston-crime-virginia-north-quincy-non-life-threatening-injuries-virginia-police",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "memo-details-lasting-toll-reagan-national-potomaclocal-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Memo Details Lasting Toll of Reagan National Collision on Arlington First Responders",
+    outlet: "Potomac Local",
+    url: "https://www.potomaclocal.com/2026/10/14/memo-details-lasting-toll-of-reagan-national-collision-on-arlington-first-responders/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "fairfax-county-prepares-tax-marijuana-when-ffxnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Fairfax County prepares to tax marijuana when retail sales begin in mid-2027",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/14/fairfax-plans-to-impose-3-5-tax-on-marijuana-when-retail-sales-begin-in-mid-2027/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "county-seeks-more-leeway-address-cost-ffxnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "County seeks more leeway to address cost increases for historic Mount Vernon HS redevelopment",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/14/county-seeks-more-leeway-to-address-cost-increases-for-historic-mount-vernon-hs-redevelopment/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "kelvin-garcia-pledges-doer-if-reelected-ffxnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Kelvin Garcia pledges to be a ‘doer’ if reelected to Herndon Town Council",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/14/kelvin-garcia-pledges-to-be-a-doer-if-reelected-to-herndon-town-council/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "fairfax-county-restaurants-burdened-long-inconsistent-ffxnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Fairfax County restaurants burdened by long, inconsistent permitting process, study finds",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/10/14/fairfax-county-restaurants-burdened-by-long-inconsistent-permitting-process-study-finds/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "fairfax-county-public-schools-enrollment-declines-nbcwashington-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Fairfax County Public Schools enrollment declines by thousands",
+    outlet: "NBC Washington",
+    url: "https://www.nbcwashington.com/news/local/northern-virginia/fairfax-county-public-schools-enrollment-declines-by-thousands/4167185/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "fairfax-county-aims-close-child-care-wjla-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Fairfax County aims to close child care gaps by increasing capacity, simplifying process",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/fairfax-county-daycare-child-care-shortage-access-home-based-licensing-permit-costs-affordable-zoning-changes-northern-virginia-business-rules-expansion-crisis",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "ice-arrests-man-falls-church-who-wjla-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "ICE arrests man in Falls Church who was convicted for child porn possession",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/ice-arrests-man-in-falls-church-who-was-convicted-for-child-porn-possession",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "supervisors-eye-69m-contract-awards-increases-loudounnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Supervisors Eye $69M in Contract Awards, Increases",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/loudoun/supervisors-eye-69m-in-contract-awards-increases/article_378ea151-0111-4846-9ce0-cbb3efaad967.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "supervisors-finance-committee-recommends-partial-approval-loudounnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Supervisors’ Finance Committee Recommends Partial Approval of LCPS Funding Request",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/supervisors-finance-committee-recommends-partial-approval-of-lcps-funding-request/article_1f62033c-2827-4ba6-b2d4-2ff48ddef5df.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "school-board-approves-changes-special-permissions-loudounnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "School Board Approves Changes to Special Permissions Transfer Policy",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/school-board-approves-changes-to-special-permissions-transfer-policy/article_dc80f2e1-fbdf-4c95-b722-ddf389aaf09c.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "school-board-requests-24m-contingency-funds-loudounnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "School Board Requests $24M in Contingency Funds for Transition Academy Construction",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/education/school-board-requests-24m-in-contingency-funds-for-transition-academy-construction/article_ce8784a4-1c9e-44d6-9ae5-1262f60fd338.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "dean-sworn-into-purcellville-council-special-loudounnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Dean Sworn into Purcellville Council, Special Election Confirmed for March",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/dean-sworn-into-purcellville-council-special-election-confirmed-for-march/article_ea3e6848-b033-4525-850e-2c26ae957267.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "loudouns-sol-pass-rates-exceed-state-ltm-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Loudoun's SOL pass rates exceed state averages, but 'achievement gaps' remain",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/education/loudouns-sol-pass-rates-exceed-state-averages-but-achievement-gaps-remain/article_4cc1f415-93f6-4a5a-bffb-ffb6c4612ced.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "spence-defends-school-board-bedford-lawmaker-ltm-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Spence defends School Board after Bedford lawmaker slams LGBTQ+ history proclamation",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/education/spence-defends-school-board-after-bedford-lawmaker-slams-lgbtq-history-proclamation/article_ba91a230-b8d8-4cbf-8d65-2f18e13e7fe2.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "purcellville-council-considers-town-manger-requirements-loudounnow-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Purcellville Council Considers Town Manger Requirements in Charter Updates",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/purcellville-council-considers-town-manger-requirements-in-charter-updates/article_9392cde3-d6f4-45b1-98a8-9ce00974e1ab.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "haymarket-town-council-adopts-fy202627-budget-potomaclocal-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Haymarket Town Council adopts FY2026-27 budget amendment after public hearing",
+    outlet: "Potomac Local",
+    url: "https://www.potomaclocal.com/2026/10/14/haymarket-adopts-fy2026-27-budget-amendment/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "witnesses-describe-bluestar-blood-evidence-bhatts-potomaclocal-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Witnesses Describe Bluestar Blood Evidence and Bhatt’s Inconsistent Statements in Murder Trial",
+    outlet: "Potomac Local",
+    url: "https://www.potomaclocal.com/2026/10/14/witnesses-describe-bluestar-blood-evidence-and-bhatts-inconsistent-statements/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "dumfries-clears-last-local-permits-old-potomaclocal-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Dumfries clears last local permits for Old Stagecoach grocery project",
+    outlet: "Potomac Local",
+    url: "https://www.potomaclocal.com/2026/10/14/dumfries-clears-last-local-permits-for-old-stagecoach-grocery/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "prince-william-county-launches-youth-firesetting-insidenova-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-15",
+    headline:
+      "Prince William County launches Youth Firesetting Prevention Program",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/news/prince_william/prince-william-county-launches-youth-firesetting-prevention-program/article_5f910dc6-a6b4-4901-939e-c4fd16080e30.html",
+    people: [],
+    scope: "local",
+  },
 
   {
     id: "subramanyam-loudoun-transmission-route-scc-vamercury-2026-10-13",
