@@ -98,12 +98,17 @@ export function SiteHeader(_props: { inverted?: boolean } = {}) {
             href={SITE.giveUrl}
             target="_blank"
             rel="noreferrer"
-            className="ml-2 inline-flex h-11 items-center rounded-full bg-gold px-5 text-sm font-semibold text-navy-800 transition-colors hover:bg-gold-hover"
+            className="ml-3 inline-flex min-h-11 flex-col items-center justify-center rounded-lg bg-flag px-4 py-1.5 text-center font-serif text-[13px] leading-tight font-bold tracking-[0.06em] text-white hover:brightness-110"
           >
-            {SITE.giveLabel}
+            <span>DONATE TO HELP FUEL</span>
+            <span>THE PUBLIC RECORD</span>
           </a>
         </nav>
         <div className="flex items-center gap-2 lg:hidden">
+          <a href={SITE.giveUrl} target="_blank" rel="noreferrer" className="inline-flex min-h-11 flex-col items-center justify-center rounded-lg bg-flag px-3 py-1 text-center font-serif text-[11px] leading-tight font-bold tracking-[0.05em] text-white">
+            <span>DONATE TO HELP FUEL</span>
+            <span>THE PUBLIC RECORD</span>
+          </a>
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
               <button type="button" aria-label="Open menu" className="inline-flex size-11 items-center justify-center rounded-lg border border-navy-line text-gold">

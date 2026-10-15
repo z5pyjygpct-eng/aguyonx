@@ -139,16 +139,6 @@ function Home() {
         <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
           <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
           <div className="mx-auto max-w-7xl px-5 pt-6 pb-12 sm:px-8 lg:pt-12">
-            <div className="mb-6 lg:absolute lg:top-10 lg:right-8 lg:mb-0 lg:w-64 lg:text-center">
-              <a href={SITE.giveUrl} target="_blank" rel="noreferrer" className="block rounded-lg bg-flag px-5 py-3 text-center font-serif text-[15px] font-bold leading-tight tracking-[0.06em] text-white hover:brightness-110 lg:text-[17px]">
-                DONATE TO HELP FUEL
-                <br />
-                THE PUBLIC RECORD
-              </a>
-              <p className="mt-2 text-[13px] leading-snug text-on-dark-muted">
-                Your gift pays for FOIA fees, transcription and video hosting. <Placeholder>Placeholder copy</Placeholder>
-              </p>
-            </div>
             <p className="font-serif text-base font-semibold tracking-[0.16em] text-gold uppercase sm:text-2xl">VA Change Agent · Find the Moment</p>
             <h1 className="mt-3 font-serif text-[40px] font-bold leading-[1.05] uppercase sm:text-6xl lg:text-7xl">
               The Public Record
@@ -163,7 +153,7 @@ function Home() {
             <div className="mt-7">
               <HeroSearch placeholder={`Search ${stats.searchable.toLocaleString()} Virginia public meetings…`} />
             </div>
-            <p className="mt-8 font-serif text-lg font-semibold tracking-[0.16em] text-gold uppercase">Dashboards</p>
+            <h2 className="mt-10 font-serif text-3xl font-semibold text-gold uppercase">Dashboards</h2>
             <div className="mt-3 flex max-w-3xl flex-col gap-3 sm:flex-row">
               <label className="relative flex-1">
                 <span className="block font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Virginia counties &amp; cities</span>
@@ -250,7 +240,7 @@ function Home() {
           </section>
 
           {/* Donate + signup */}
-          <section className="grid gap-6 pt-12 lg:grid-cols-[1.3fr_1fr]">
+          <section className="pt-12">
             <div className="rounded-xl border border-flag bg-gradient-to-br from-[#3a0a14] to-navy-700 p-6">
               <h3 className="font-serif text-2xl font-semibold uppercase">Help fuel the public record</h3>
               <p className="mt-2 text-on-dark-muted">
@@ -267,19 +257,6 @@ function Home() {
                 Give {amt === "Other" ? "" : amt} →
               </button>
               <p className="mt-2 text-xs text-night-muted">Amount picker is a design preview and is not connected to payments.</p>
-            </div>
-            <div className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-6">
-              <h3 className="font-serif text-2xl font-semibold uppercase">Get the morning briefing</h3>
-              <p className="mt-2 text-on-dark-muted">The Daily NoVA Briefing in your inbox. <Placeholder>Preview · not live</Placeholder></p>
-              <form className="mt-4 flex h-12" onSubmit={(e) => e.preventDefault()}>
-                <label htmlFor="signup" className="sr-only">Email</label>
-                <input id="signup" type="email" disabled placeholder="you@example.com" className="min-w-0 flex-1 rounded-l-lg bg-white px-4 text-navy-800" />
-                <button type="submit" disabled className="rounded-r-lg bg-gold px-5 font-serif font-semibold tracking-[0.06em] text-navy-800 uppercase opacity-90">Sign up</button>
-              </form>
-              <p className="mt-2 text-xs text-night-muted">Sign-up is a design preview; no email is collected.</p>
-              <a href={SITE.xUrl} target="_blank" rel="noreferrer" className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-full border border-on-dark-muted px-5 font-semibold hover:border-gold">
-                𝕏 Follow {SITE.handle}
-              </a>
             </div>
           </section>
         </div>
