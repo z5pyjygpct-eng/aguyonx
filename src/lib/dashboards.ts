@@ -23,8 +23,8 @@ export const FOIA = {
   acps: { label: "FOIA to ACPS", href: "https://www.k12albemarle.org/our-division/foia-requests" },
   manassas: { label: "FOIA to Manassas", href: "https://www.manassasva.gov/connect/city_manager_s_office/foia_requests.php" },
   mcps: { label: "FOIA to MCPS", href: "https://www.mcpsva.org/page/requests-for-informationfoia/" },
-  house: { label: "FOIA to the House Clerk's Office", href: "https://vga.virginia.gov/help/foia/" },
-  senate: { label: "FOIA to the Senate Clerk's Office", href: "https://apps.senate.virginia.gov/Senator/PDFs/SenateFOIARequest.pdf" },
+  house: { label: "FOIA to House of Delegates", href: "https://vga.virginia.gov/help/foia/" },
+  senate: { label: "FOIA to Senate", href: "https://apps.senate.virginia.gov/Senator/PDFs/SenateFOIARequest.pdf" },
   vdoe: { label: "FOIA to the Virginia Department of Education", href: "https://www.doe.virginia.gov/about-vdoe/foia-requests" },
 } satisfies Record<string, DashFoia>;
 
@@ -180,10 +180,11 @@ export const DASHBOARDS: Dashboard[] = [
       {
         name: "Virginia House of Delegates",
         tiles: [
-          { label: "Find the Moment", icon: "play", to: "/general-assembly/house" },
-          { label: "Meeting Recaps", icon: "list", to: "/general-assembly/house" },
-          soon("Budget/Finances", "money"),
-          { label: "Members", icon: "people", to: "/delegates" },
+          { label: "Find the Moment", icon: "play", to: "/dashboards/house/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/house/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/house/budget" },
+          { label: "Policies", icon: "book", to: "/dashboards/house/policies" },
+          { label: "Members", icon: "people", to: "/dashboards/house/members" },
         ],
         foia: FOIA.house,
       },
@@ -198,10 +199,11 @@ export const DASHBOARDS: Dashboard[] = [
       {
         name: "Senate of Virginia",
         tiles: [
-          { label: "Find the Moment", icon: "play", to: "/general-assembly/senate" },
-          { label: "Meeting Recaps", icon: "list", to: "/general-assembly/senate" },
-          soon("Budget/Finances", "money"),
-          { label: "Members", icon: "people", to: "/senators" },
+          { label: "Find the Moment", icon: "play", to: "/dashboards/senate/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/senate/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/senate/budget" },
+          { label: "Policies", icon: "book", to: "/dashboards/senate/policies" },
+          { label: "Members", icon: "people", to: "/dashboards/senate/members" },
         ],
         foia: FOIA.senate,
       },

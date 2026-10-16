@@ -47,6 +47,16 @@ import { Route as CitiesCitySchoolsRouteImport } from './routes/cities.$city.sch
 import { Route as CountiesLoudounIndexRouteImport } from './routes/counties.loudoun.index'
 import { Route as CountiesLoudounFindTheMomentRouteImport } from './routes/counties.loudoun.find-the-moment'
 import { Route as CountiesLoudounSchoolsRouteImport } from './routes/counties.loudoun.schools'
+import { Route as DashboardsHouseBudgetRouteImport } from './routes/dashboards.house.budget'
+import { Route as DashboardsHouseFindTheMomentRouteImport } from './routes/dashboards.house.find-the-moment'
+import { Route as DashboardsHouseMembersRouteImport } from './routes/dashboards.house.members'
+import { Route as DashboardsHousePoliciesRouteImport } from './routes/dashboards.house.policies'
+import { Route as DashboardsHouseRecapsRouteImport } from './routes/dashboards.house.recaps'
+import { Route as DashboardsSenateBudgetRouteImport } from './routes/dashboards.senate.budget'
+import { Route as DashboardsSenateFindTheMomentRouteImport } from './routes/dashboards.senate.find-the-moment'
+import { Route as DashboardsSenateMembersRouteImport } from './routes/dashboards.senate.members'
+import { Route as DashboardsSenatePoliciesRouteImport } from './routes/dashboards.senate.policies'
+import { Route as DashboardsSenateRecapsRouteImport } from './routes/dashboards.senate.recaps'
 import { Route as GeneralAssemblyHouseIndexRouteImport } from './routes/general-assembly.house.index'
 import { Route as GeneralAssemblySenateIndexRouteImport } from './routes/general-assembly.senate.index'
 import { Route as CitiesCityRecapsSlugRouteImport } from './routes/cities.$city.recaps.$slug'
@@ -279,6 +289,59 @@ const CountiesLoudounSchoolsRoute = CountiesLoudounSchoolsRouteImport.update({
   id: '/schools',
   path: '/schools',
   getParentRoute: () => CountiesLoudounRoute,
+} as any)
+const DashboardsHouseBudgetRoute = DashboardsHouseBudgetRouteImport.update({
+  id: '/dashboards/house/budget',
+  path: '/dashboards/house/budget',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsHouseFindTheMomentRoute =
+  DashboardsHouseFindTheMomentRouteImport.update({
+    id: '/dashboards/house/find-the-moment',
+    path: '/dashboards/house/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHouseMembersRoute = DashboardsHouseMembersRouteImport.update({
+  id: '/dashboards/house/members',
+  path: '/dashboards/house/members',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsHousePoliciesRoute = DashboardsHousePoliciesRouteImport.update({
+  id: '/dashboards/house/policies',
+  path: '/dashboards/house/policies',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsHouseRecapsRoute = DashboardsHouseRecapsRouteImport.update({
+  id: '/dashboards/house/recaps',
+  path: '/dashboards/house/recaps',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsSenateBudgetRoute = DashboardsSenateBudgetRouteImport.update({
+  id: '/dashboards/senate/budget',
+  path: '/dashboards/senate/budget',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsSenateFindTheMomentRoute =
+  DashboardsSenateFindTheMomentRouteImport.update({
+    id: '/dashboards/senate/find-the-moment',
+    path: '/dashboards/senate/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsSenateMembersRoute = DashboardsSenateMembersRouteImport.update({
+  id: '/dashboards/senate/members',
+  path: '/dashboards/senate/members',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsSenatePoliciesRoute =
+  DashboardsSenatePoliciesRouteImport.update({
+    id: '/dashboards/senate/policies',
+    path: '/dashboards/senate/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsSenateRecapsRoute = DashboardsSenateRecapsRouteImport.update({
+  id: '/dashboards/senate/recaps',
+  path: '/dashboards/senate/recaps',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const GeneralAssemblyHouseIndexRoute =
   GeneralAssemblyHouseIndexRouteImport.update({
@@ -563,6 +626,16 @@ export interface FileRoutesByFullPath {
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/dashboards/house/budget': typeof DashboardsHouseBudgetRoute
+  '/dashboards/house/find-the-moment': typeof DashboardsHouseFindTheMomentRoute
+  '/dashboards/house/members': typeof DashboardsHouseMembersRoute
+  '/dashboards/house/policies': typeof DashboardsHousePoliciesRoute
+  '/dashboards/house/recaps': typeof DashboardsHouseRecapsRoute
+  '/dashboards/senate/budget': typeof DashboardsSenateBudgetRoute
+  '/dashboards/senate/find-the-moment': typeof DashboardsSenateFindTheMomentRoute
+  '/dashboards/senate/members': typeof DashboardsSenateMembersRoute
+  '/dashboards/senate/policies': typeof DashboardsSenatePoliciesRoute
+  '/dashboards/senate/recaps': typeof DashboardsSenateRecapsRoute
   '/cities/$city/': typeof CitiesCityIndexRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
   '/general-assembly/house/': typeof GeneralAssemblyHouseIndexRoute
@@ -634,6 +707,16 @@ export interface FileRoutesByTo {
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/dashboards/house/budget': typeof DashboardsHouseBudgetRoute
+  '/dashboards/house/find-the-moment': typeof DashboardsHouseFindTheMomentRoute
+  '/dashboards/house/members': typeof DashboardsHouseMembersRoute
+  '/dashboards/house/policies': typeof DashboardsHousePoliciesRoute
+  '/dashboards/house/recaps': typeof DashboardsHouseRecapsRoute
+  '/dashboards/senate/budget': typeof DashboardsSenateBudgetRoute
+  '/dashboards/senate/find-the-moment': typeof DashboardsSenateFindTheMomentRoute
+  '/dashboards/senate/members': typeof DashboardsSenateMembersRoute
+  '/dashboards/senate/policies': typeof DashboardsSenatePoliciesRoute
+  '/dashboards/senate/recaps': typeof DashboardsSenateRecapsRoute
   '/cities/$city': typeof CitiesCityIndexRoute
   '/counties/loudoun': typeof CountiesLoudounIndexRoute
   '/general-assembly/house': typeof GeneralAssemblyHouseIndexRoute
@@ -716,6 +799,16 @@ export interface FileRoutesById {
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/dashboards/house/budget': typeof DashboardsHouseBudgetRoute
+  '/dashboards/house/find-the-moment': typeof DashboardsHouseFindTheMomentRoute
+  '/dashboards/house/members': typeof DashboardsHouseMembersRoute
+  '/dashboards/house/policies': typeof DashboardsHousePoliciesRoute
+  '/dashboards/house/recaps': typeof DashboardsHouseRecapsRoute
+  '/dashboards/senate/budget': typeof DashboardsSenateBudgetRoute
+  '/dashboards/senate/find-the-moment': typeof DashboardsSenateFindTheMomentRoute
+  '/dashboards/senate/members': typeof DashboardsSenateMembersRoute
+  '/dashboards/senate/policies': typeof DashboardsSenatePoliciesRoute
+  '/dashboards/senate/recaps': typeof DashboardsSenateRecapsRoute
   '/cities/$city/': typeof CitiesCityIndexRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
   '/general-assembly/house/': typeof GeneralAssemblyHouseIndexRoute
@@ -799,6 +892,16 @@ export interface FileRouteTypes {
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/dashboards/house/budget'
+    | '/dashboards/house/find-the-moment'
+    | '/dashboards/house/members'
+    | '/dashboards/house/policies'
+    | '/dashboards/house/recaps'
+    | '/dashboards/senate/budget'
+    | '/dashboards/senate/find-the-moment'
+    | '/dashboards/senate/members'
+    | '/dashboards/senate/policies'
+    | '/dashboards/senate/recaps'
     | '/cities/$city/'
     | '/counties/loudoun/'
     | '/general-assembly/house/'
@@ -870,6 +973,16 @@ export interface FileRouteTypes {
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/dashboards/house/budget'
+    | '/dashboards/house/find-the-moment'
+    | '/dashboards/house/members'
+    | '/dashboards/house/policies'
+    | '/dashboards/house/recaps'
+    | '/dashboards/senate/budget'
+    | '/dashboards/senate/find-the-moment'
+    | '/dashboards/senate/members'
+    | '/dashboards/senate/policies'
+    | '/dashboards/senate/recaps'
     | '/cities/$city'
     | '/counties/loudoun'
     | '/general-assembly/house'
@@ -951,6 +1064,16 @@ export interface FileRouteTypes {
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/dashboards/house/budget'
+    | '/dashboards/house/find-the-moment'
+    | '/dashboards/house/members'
+    | '/dashboards/house/policies'
+    | '/dashboards/house/recaps'
+    | '/dashboards/senate/budget'
+    | '/dashboards/senate/find-the-moment'
+    | '/dashboards/senate/members'
+    | '/dashboards/senate/policies'
+    | '/dashboards/senate/recaps'
     | '/cities/$city/'
     | '/counties/loudoun/'
     | '/general-assembly/house/'
@@ -1016,6 +1139,16 @@ export interface RootRouteChildren {
   VideosRoute: typeof VideosRoute
   DashboardsBodyRoute: typeof DashboardsBodyRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
+  DashboardsHouseBudgetRoute: typeof DashboardsHouseBudgetRoute
+  DashboardsHouseFindTheMomentRoute: typeof DashboardsHouseFindTheMomentRoute
+  DashboardsHouseMembersRoute: typeof DashboardsHouseMembersRoute
+  DashboardsHousePoliciesRoute: typeof DashboardsHousePoliciesRoute
+  DashboardsHouseRecapsRoute: typeof DashboardsHouseRecapsRoute
+  DashboardsSenateBudgetRoute: typeof DashboardsSenateBudgetRoute
+  DashboardsSenateFindTheMomentRoute: typeof DashboardsSenateFindTheMomentRoute
+  DashboardsSenateMembersRoute: typeof DashboardsSenateMembersRoute
+  DashboardsSenatePoliciesRoute: typeof DashboardsSenatePoliciesRoute
+  DashboardsSenateRecapsRoute: typeof DashboardsSenateRecapsRoute
   DashboardsAlbemarleBosBudgetRoute: typeof DashboardsAlbemarleBosBudgetRoute
   DashboardsAlbemarleBosFindTheMomentRoute: typeof DashboardsAlbemarleBosFindTheMomentRoute
   DashboardsAlbemarleBosMembersRoute: typeof DashboardsAlbemarleBosMembersRoute
@@ -1320,6 +1453,76 @@ declare module '@tanstack/react-router' {
       fullPath: '/counties/loudoun/schools'
       preLoaderRoute: typeof CountiesLoudounSchoolsRouteImport
       parentRoute: typeof CountiesLoudounRoute
+    }
+    '/dashboards/house/budget': {
+      id: '/dashboards/house/budget'
+      path: '/dashboards/house/budget'
+      fullPath: '/dashboards/house/budget'
+      preLoaderRoute: typeof DashboardsHouseBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/house/find-the-moment': {
+      id: '/dashboards/house/find-the-moment'
+      path: '/dashboards/house/find-the-moment'
+      fullPath: '/dashboards/house/find-the-moment'
+      preLoaderRoute: typeof DashboardsHouseFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/house/members': {
+      id: '/dashboards/house/members'
+      path: '/dashboards/house/members'
+      fullPath: '/dashboards/house/members'
+      preLoaderRoute: typeof DashboardsHouseMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/house/policies': {
+      id: '/dashboards/house/policies'
+      path: '/dashboards/house/policies'
+      fullPath: '/dashboards/house/policies'
+      preLoaderRoute: typeof DashboardsHousePoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/house/recaps': {
+      id: '/dashboards/house/recaps'
+      path: '/dashboards/house/recaps'
+      fullPath: '/dashboards/house/recaps'
+      preLoaderRoute: typeof DashboardsHouseRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/budget': {
+      id: '/dashboards/senate/budget'
+      path: '/dashboards/senate/budget'
+      fullPath: '/dashboards/senate/budget'
+      preLoaderRoute: typeof DashboardsSenateBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/find-the-moment': {
+      id: '/dashboards/senate/find-the-moment'
+      path: '/dashboards/senate/find-the-moment'
+      fullPath: '/dashboards/senate/find-the-moment'
+      preLoaderRoute: typeof DashboardsSenateFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/members': {
+      id: '/dashboards/senate/members'
+      path: '/dashboards/senate/members'
+      fullPath: '/dashboards/senate/members'
+      preLoaderRoute: typeof DashboardsSenateMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/policies': {
+      id: '/dashboards/senate/policies'
+      path: '/dashboards/senate/policies'
+      fullPath: '/dashboards/senate/policies'
+      preLoaderRoute: typeof DashboardsSenatePoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/recaps': {
+      id: '/dashboards/senate/recaps'
+      path: '/dashboards/senate/recaps'
+      fullPath: '/dashboards/senate/recaps'
+      preLoaderRoute: typeof DashboardsSenateRecapsRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/general-assembly/house/': {
       id: '/general-assembly/house/'
@@ -1779,6 +1982,16 @@ const rootRouteChildren: RootRouteChildren = {
   VideosRoute: VideosRoute,
   DashboardsBodyRoute: DashboardsBodyRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
+  DashboardsHouseBudgetRoute: DashboardsHouseBudgetRoute,
+  DashboardsHouseFindTheMomentRoute: DashboardsHouseFindTheMomentRoute,
+  DashboardsHouseMembersRoute: DashboardsHouseMembersRoute,
+  DashboardsHousePoliciesRoute: DashboardsHousePoliciesRoute,
+  DashboardsHouseRecapsRoute: DashboardsHouseRecapsRoute,
+  DashboardsSenateBudgetRoute: DashboardsSenateBudgetRoute,
+  DashboardsSenateFindTheMomentRoute: DashboardsSenateFindTheMomentRoute,
+  DashboardsSenateMembersRoute: DashboardsSenateMembersRoute,
+  DashboardsSenatePoliciesRoute: DashboardsSenatePoliciesRoute,
+  DashboardsSenateRecapsRoute: DashboardsSenateRecapsRoute,
   DashboardsAlbemarleBosBudgetRoute: DashboardsAlbemarleBosBudgetRoute,
   DashboardsAlbemarleBosFindTheMomentRoute:
     DashboardsAlbemarleBosFindTheMomentRoute,

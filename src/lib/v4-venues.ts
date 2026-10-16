@@ -15,4 +15,6 @@ export const V4_VENUES = {
   "fairfax-city-schools": { crumbs: [ffx, { label: "Schools" }], titleA: "City of Fairfax", titleB: "Schools", foia: FOIA.fairfaxCitySchools },
   "manassas-council": { crumbs: [mna, { label: "City Council" }], titleA: "City of Manassas", titleB: "City Council", foia: FOIA.manassas },
   "manassas-schools": { crumbs: [mna, { label: "MCPS" }], titleA: "Manassas City", titleB: "Public Schools", foia: FOIA.mcps },
+  "va-house": { crumbs: [{ label: "House of Delegates", to: "/dashboards/$body", params: { body: "house" } }], titleA: "Virginia", titleB: "House of Delegates", foia: FOIA.house },
+  "va-senate": { crumbs: [{ label: "State Senate", to: "/dashboards/$body", params: { body: "senate" } }], titleA: "Senate of", titleB: "Virginia", foia: FOIA.senate },
 } satisfies Record<string, V4Venue>;

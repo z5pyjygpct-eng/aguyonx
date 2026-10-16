@@ -23,7 +23,7 @@ function Avatar({ name, big }: { name: string; big?: boolean }) {
 }
 
 function AttBar({ m }: { m: MemberData }) {
-  if (m.attendance == null) return <p className="font-mono text-xs text-night-muted">Attendance: no recorded votes in 12 mo</p>;
+  if (m.attendance == null) return <p className="font-mono text-xs text-night-muted">Attendance: not yet computed</p>;
   return (
     <div>
       <div className="flex justify-between font-mono text-xs"><span className="text-night-muted">Present at votes · 12 mo</span><span>{m.attendance.toFixed(0)}%</span></div>
@@ -60,7 +60,7 @@ function Profile({ m, rosterUrl, recapTo }: { m: MemberData; rosterUrl: string; 
         <Fold title="Bio"><Placeholder>No bio on file. We'll only add one from official sources.</Placeholder></Fold>
         <Fold title="Committees"><Placeholder>Committee assignments not on file yet.</Placeholder></Fold>
         <div className="lg:col-span-2"><Fold title={`Recent motions (${m.motions.length} on record)`}>
-          {m.motions.length === 0 ? <p className="text-sm text-night-muted">No votes we can attribute to this member from recorded tallies.</p> : (
+          {m.motions.length === 0 ? <p className="text-sm text-night-muted">Per-member votes not computed for this body yet. See the official roll calls linked from each recap.</p> : (
             <div className="overflow-x-auto">
               <table className="w-full text-left text-sm">
                 <thead className="font-mono text-[11px] tracking-wider text-night-muted uppercase"><tr><th className="py-1 pr-3">Date</th><th className="pr-3">Motion</th><th className="pr-3">Vote</th><th className="pr-3">Tally</th><th>Links</th></tr></thead>
