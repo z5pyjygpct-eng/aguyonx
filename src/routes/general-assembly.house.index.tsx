@@ -1,5 +1,5 @@
 import { isoMeta, useMeetingFilters } from "@/components/site/meeting-filters";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, redirect } from "@tanstack/react-router";
 import { FtmThumb } from "@/components/site/ftm-thumb";
 import { ExternalLink } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
@@ -22,6 +22,8 @@ import {
 } from "@/content/va-house";
 
 export const Route = createFileRoute("/general-assembly/house/")({
+  // v4: content carried to the dashboard; recap detail pages stay live.
+  beforeLoad: () => { throw redirect({ to: "/dashboards/$body", params: { body: "house" }, statusCode: 301 }); },
   component: HousePage,
   head: () => ({
     meta: [{ title: "Virginia House of Delegates floor sessions · Find the Moment · A Guy on X" }],
