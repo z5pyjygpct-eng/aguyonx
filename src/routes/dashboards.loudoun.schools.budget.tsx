@@ -98,30 +98,7 @@ function Page() {
             </Q>
           </div>
 
-          <figure className="mt-8 overflow-hidden rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-[#F6F3EA]">
-            <img src="/files/lcps-budget/fy2027-operating-vs-ltf.png" alt="FY2027 Loudoun School Operating Fund total versus local tax funding, BOS Adopted" className="w-full" width={1600} height={900} loading="lazy" />
-            <figcaption className="bg-navy-700 px-4 py-3 text-sm text-night-muted">
-              FY2027 operating total vs local tax funding (BOS Adopted). Source: Loudoun County FY2027 Adopted Budget Executive Summary / Budget in Brief.
-            </figcaption>
-          </figure>
-
-          <section className="mt-10">
-            <h2 className="font-serif text-3xl font-semibold uppercase">How the budget gets made</h2>
-            <ol className="mt-4 grid gap-3 sm:grid-cols-3">
-              {[["Proposed", "Superintendent's Estimate of Needs (SEON)"], ["School Board Adopted", "School Board revises and adopts a request (Feb 2026)"], ["BOS Adopted", "Board of Supervisors appropriates the local dollars (Apr 2026)"]].map(([t, d], i) => (
-                <li key={t} className="rounded-[10px] border border-navy-line border-l-4 border-l-gold bg-navy-700 p-4">
-                  <p className="font-mono text-xs text-gold">STEP {i + 1}</p>
-                  <p className="font-serif text-xl font-semibold uppercase">{t}</p>
-                  <p className="text-sm text-night-muted">{d}</p>
-                </li>
-              ))}
-            </ol>
-            <p className="mt-3 max-w-3xl text-sm text-night-muted">
-              Loudoun schools are fiscally dependent on the county; they don't set the property tax. SEON, School Board Adopted Executive Summary and BOS Adopted Schedule all print {B.schoolOperatingAdoptedLabel}, but each PDF is still what it is. Still missing: a full multi-section FY27 School Board Adopted book (like FY26) and the FY27 BOS appropriations resolution packet.
-            </p>
-          </section>
-
-          <section className="mt-10">
+          <section className="mt-8">
             <h2 className="font-serif text-3xl font-semibold uppercase">Search the budget papers</h2>
             <div className="mt-4 rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 p-2"><LcpsBudgetSearch /></div>
           </section>
@@ -149,6 +126,29 @@ function Page() {
               Official doors: <a className="text-gold hover:underline" href="https://www.lcps.org/budget" target="_blank" rel="noreferrer">lcps.org/budget <ExternalLink className="inline size-3" /></a> · <a className="text-gold hover:underline" href="https://www.loudoun.gov/budget" target="_blank" rel="noreferrer">loudoun.gov/budget <ExternalLink className="inline size-3" /></a> · <a className="text-gold hover:underline" href="/files/lcps-budget/LCPS-budget-kitchen-table.md" target="_blank" rel="noreferrer">plain-English guide</a> · <Link to="/dashboards/loudoun/schools/policies" className="text-gold hover:underline">LCPS policies →</Link>
             </p>
           </section>
+          <section className="mt-10">
+            <h2 className="font-serif text-3xl font-semibold uppercase">How the budget gets made</h2>
+            <ol className="mt-4 grid gap-3 sm:grid-cols-3">
+              {[["Proposed", "Superintendent's Estimate of Needs (SEON)"], ["School Board Adopted", "School Board revises and adopts a request (Feb 2026)"], ["BOS Adopted", "Board of Supervisors appropriates the local dollars (Apr 2026)"]].map(([t, d], i) => (
+                <li key={t} className="rounded-[10px] border border-navy-line border-l-4 border-l-gold bg-navy-700 p-4">
+                  <p className="font-mono text-xs text-gold">STEP {i + 1}</p>
+                  <p className="font-serif text-xl font-semibold uppercase">{t}</p>
+                  <p className="text-sm text-night-muted">{d}</p>
+                </li>
+              ))}
+            </ol>
+            <p className="mt-3 max-w-3xl text-sm text-night-muted">
+              Loudoun schools are fiscally dependent on the county; they don't set the property tax. SEON, School Board Adopted Executive Summary and BOS Adopted Schedule all print {B.schoolOperatingAdoptedLabel}, but each PDF is still what it is. Still missing: a full multi-section FY27 School Board Adopted book (like FY26) and the FY27 BOS appropriations resolution packet.
+            </p>
+          </section>
+
+          <figure className="mt-10 overflow-hidden rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-[#F6F3EA]">
+            <img src="/files/lcps-budget/fy2027-operating-vs-ltf.png" alt="FY2027 Loudoun School Operating Fund total versus local tax funding, BOS Adopted" className="w-full" width={1600} height={900} loading="lazy" />
+            <figcaption className="bg-navy-700 px-4 py-3 text-sm text-night-muted">
+              FY2027 operating total vs local tax funding (BOS Adopted). Source: Loudoun County FY2027 Adopted Budget Executive Summary / Budget in Brief.
+            </figcaption>
+          </figure>
+
         </div>
       </V4Main>
     </SiteShell>
