@@ -33,6 +33,7 @@ import { Route as CitiesCityRouteImport } from './routes/cities.$city'
 import { Route as CountiesIndexRouteImport } from './routes/counties.index'
 import { Route as CountiesLoudounRouteImport } from './routes/counties.loudoun'
 import { Route as DashboardsBodyRouteImport } from './routes/dashboards.$body'
+import { Route as DashboardsGeneralAssemblyRouteImport } from './routes/dashboards.general-assembly'
 import { Route as FindTheMomentLocalityRouteImport } from './routes/find-the-moment_.$locality'
 import { Route as GeneralAssemblyIndexRouteImport } from './routes/general-assembly.index'
 import { Route as GeneralAssemblyHouseRouteImport } from './routes/general-assembly.house'
@@ -224,6 +225,12 @@ const DashboardsBodyRoute = DashboardsBodyRouteImport.update({
   path: '/dashboards/$body',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DashboardsGeneralAssemblyRoute =
+  DashboardsGeneralAssemblyRouteImport.update({
+    id: '/dashboards/general-assembly',
+    path: '/dashboards/general-assembly',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const FindTheMomentLocalityRoute = FindTheMomentLocalityRouteImport.update({
   id: '/find-the-moment_/$locality',
   path: '/find-the-moment/$locality',
@@ -646,6 +653,7 @@ export interface FileRoutesByFullPath {
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
   '/dashboards/$body': typeof DashboardsBodyRoute
+  '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
   '/find-the-moment/$locality': typeof FindTheMomentLocalityRoute
   '/general-assembly/house': typeof GeneralAssemblyHouseRouteWithChildren
   '/general-assembly/senate': typeof GeneralAssemblySenateRouteWithChildren
@@ -734,6 +742,7 @@ export interface FileRoutesByTo {
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/dashboards/$body': typeof DashboardsBodyRoute
+  '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
   '/find-the-moment/$locality': typeof FindTheMomentLocalityRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
@@ -829,6 +838,7 @@ export interface FileRoutesById {
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
   '/dashboards/$body': typeof DashboardsBodyRoute
+  '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
   '/find-the-moment_/$locality': typeof FindTheMomentLocalityRoute
   '/general-assembly/house': typeof GeneralAssemblyHouseRouteWithChildren
   '/general-assembly/senate': typeof GeneralAssemblySenateRouteWithChildren
@@ -927,6 +937,7 @@ export interface FileRouteTypes {
     | '/cities/$city'
     | '/counties/loudoun'
     | '/dashboards/$body'
+    | '/dashboards/general-assembly'
     | '/find-the-moment/$locality'
     | '/general-assembly/house'
     | '/general-assembly/senate'
@@ -1015,6 +1026,7 @@ export interface FileRouteTypes {
     | '/videos'
     | '/articles/$slug'
     | '/dashboards/$body'
+    | '/dashboards/general-assembly'
     | '/find-the-moment/$locality'
     | '/investigations/$slug'
     | '/library/foia'
@@ -1109,6 +1121,7 @@ export interface FileRouteTypes {
     | '/cities/$city'
     | '/counties/loudoun'
     | '/dashboards/$body'
+    | '/dashboards/general-assembly'
     | '/find-the-moment_/$locality'
     | '/general-assembly/house'
     | '/general-assembly/senate'
@@ -1203,6 +1216,7 @@ export interface RootRouteChildren {
   SenatorsRoute: typeof SenatorsRoute
   VideosRoute: typeof VideosRoute
   DashboardsBodyRoute: typeof DashboardsBodyRoute
+  DashboardsGeneralAssemblyRoute: typeof DashboardsGeneralAssemblyRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
   DashboardsBoardOfEducationBudgetRoute: typeof DashboardsBoardOfEducationBudgetRoute
   DashboardsBoardOfEducationFindTheMomentRoute: typeof DashboardsBoardOfEducationFindTheMomentRoute
@@ -1424,6 +1438,13 @@ declare module '@tanstack/react-router' {
       path: '/dashboards/$body'
       fullPath: '/dashboards/$body'
       preLoaderRoute: typeof DashboardsBodyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/general-assembly': {
+      id: '/dashboards/general-assembly'
+      path: '/dashboards/general-assembly'
+      fullPath: '/dashboards/general-assembly'
+      preLoaderRoute: typeof DashboardsGeneralAssemblyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/find-the-moment_/$locality': {
@@ -2086,6 +2107,7 @@ const rootRouteChildren: RootRouteChildren = {
   SenatorsRoute: SenatorsRoute,
   VideosRoute: VideosRoute,
   DashboardsBodyRoute: DashboardsBodyRoute,
+  DashboardsGeneralAssemblyRoute: DashboardsGeneralAssemblyRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
   DashboardsBoardOfEducationBudgetRoute: DashboardsBoardOfEducationBudgetRoute,
   DashboardsBoardOfEducationFindTheMomentRoute:

@@ -44,7 +44,7 @@ export function DashboardTemplate({ d }: { d: Dashboard }) {
           <nav aria-label="Breadcrumb" className="text-sm text-night-muted">
             <Link to="/" className="hover:text-white">Home</Link>
             <span className="mx-2 text-gold">›</span>
-            <span>{d.group === "local" ? "Virginia localities" : "Virginia legislature & departments"}</span>
+            {d.group === "local" ? <span>Virginia localities</span> : d.slug === "board-of-education" ? <span>Virginia Department of Education</span> : <Link to="/dashboards/general-assembly" className="hover:text-white">General Assembly</Link>}
             <span className="mx-2 text-gold">›</span>
             <span className="font-semibold text-white">{d.short}</span>
           </nav>

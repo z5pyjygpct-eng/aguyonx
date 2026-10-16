@@ -121,7 +121,6 @@ function Home() {
   const navigate = useNavigate();
   const asOf = new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "America/New_York" });
   const local = DASHBOARDS.filter((d) => d.group === "local");
-  const state = DASHBOARDS.filter((d) => d.group === "state");
   const tiles = [
     { n: stats.videos, l: "Meeting videos" },
     { n: stats.searchable, l: "Searchable meetings" },
@@ -129,7 +128,7 @@ function Home() {
     { n: stats.recaps, l: "Meeting recaps" },
     { n: stats.hours, l: "Hours transcribed" },
   ];
-  const go = (slug: string) => slug && navigate({ to: "/dashboards/$body", params: { body: slug } });
+  const go = (slug: string) => slug && (slug === "general-assembly" ? navigate({ to: "/dashboards/general-assembly" }) : navigate({ to: "/dashboards/$body", params: { body: slug } }));
 
   return (
     <div className="flex min-h-svh flex-col bg-navy-800 text-white">
@@ -163,10 +162,11 @@ function Home() {
                 </select>
               </label>
               <label className="relative flex-1">
-                <span className="block font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Virginia legislature &amp; departments</span>
+                <span className="block font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">General Assembly &amp; Dept. of Education</span>
                 <select defaultValue="" onChange={(e) => go(e.target.value)} className="mt-1 h-14 w-full appearance-none rounded-xl border border-navy-line bg-navy-700 px-4 text-base font-semibold text-white">
                   <option value="" disabled>Choose a body…</option>
-                  {state.map((d) => <option key={d.slug} value={d.slug}>{d.short}</option>)}
+                  <option value="general-assembly">General Assembly</option>
+                  <option value="board-of-education">Virginia Department of Education</option>
                 </select>
               </label>
             </div>
