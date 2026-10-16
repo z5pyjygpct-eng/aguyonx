@@ -14,9 +14,9 @@ const soon = (label: string, icon: DashTile["icon"]): DashTile => ({ label, icon
 export const FOIA = {
   loudoun: { label: "FOIA to Loudoun County", href: "https://www.loudoun.gov/974/Submit-a-Request-for-Public-Records" },
   lcps: { label: "FOIA to LCPS", href: "https://www.lcps.org/foia" },
-  fairfaxCity: { label: "FOIA to the City of Fairfax", href: "https://www.fairfaxva.gov/Government/Records" },
+  fairfaxCity: { label: "FOIA to City of Fairfax", href: "https://www.fairfaxva.gov/Government/Records" },
   fairfaxCitySchools: {
-    label: "FOIA to City of Fairfax Schools",
+    label: "FOIA to Fairfax City Schools",
     href: "https://www.cityoffairfaxschools.org/apps/pages/index.jsp?pREC_ID=1810815&type=d&uREC_ID=1662475",
   },
   albemarle: { label: "FOIA to Albemarle County", href: "https://www.albemarle.org/government/county-attorney/freedom-of-information-act" },
@@ -89,7 +89,29 @@ export const DASHBOARDS: Dashboard[] = [
     short: "City of Fairfax",
     title: "City of Fairfax",
     group: "local",
-    columns: cityCols("/cities/fairfax-city", "City of Fairfax City Council", "City of Fairfax School Board", FOIA.fairfaxCity, FOIA.fairfaxCitySchools),
+    columns: [
+      {
+        name: "City of Fairfax City Council",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/fairfax-city/council/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/fairfax-city/council/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/fairfax-city/council/budget" },
+          { label: "Members", icon: "people", to: "/dashboards/fairfax-city/council/members" },
+        ],
+        foia: FOIA.fairfaxCity,
+      },
+      {
+        name: "Fairfax City Schools",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/fairfax-city/schools/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/fairfax-city/schools/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/fairfax-city/schools/budget" },
+          { label: "Policies", icon: "book", to: "/dashboards/fairfax-city/schools/policies" },
+          { label: "Members", icon: "people", to: "/dashboards/fairfax-city/schools/members" },
+        ],
+        foia: FOIA.fairfaxCitySchools,
+      },
+    ],
   },
   {
     slug: "albemarle",

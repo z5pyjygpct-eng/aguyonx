@@ -60,6 +60,15 @@ import { Route as DashboardsAlbemarleSchoolsFindTheMomentRouteImport } from './r
 import { Route as DashboardsAlbemarleSchoolsMembersRouteImport } from './routes/dashboards.albemarle.schools.members'
 import { Route as DashboardsAlbemarleSchoolsPoliciesRouteImport } from './routes/dashboards.albemarle.schools.policies'
 import { Route as DashboardsAlbemarleSchoolsRecapsRouteImport } from './routes/dashboards.albemarle.schools.recaps'
+import { Route as DashboardsFairfaxCityCouncilBudgetRouteImport } from './routes/dashboards.fairfax-city.council.budget'
+import { Route as DashboardsFairfaxCityCouncilFindTheMomentRouteImport } from './routes/dashboards.fairfax-city.council.find-the-moment'
+import { Route as DashboardsFairfaxCityCouncilMembersRouteImport } from './routes/dashboards.fairfax-city.council.members'
+import { Route as DashboardsFairfaxCityCouncilRecapsRouteImport } from './routes/dashboards.fairfax-city.council.recaps'
+import { Route as DashboardsFairfaxCitySchoolsBudgetRouteImport } from './routes/dashboards.fairfax-city.schools.budget'
+import { Route as DashboardsFairfaxCitySchoolsFindTheMomentRouteImport } from './routes/dashboards.fairfax-city.schools.find-the-moment'
+import { Route as DashboardsFairfaxCitySchoolsMembersRouteImport } from './routes/dashboards.fairfax-city.schools.members'
+import { Route as DashboardsFairfaxCitySchoolsPoliciesRouteImport } from './routes/dashboards.fairfax-city.schools.policies'
+import { Route as DashboardsFairfaxCitySchoolsRecapsRouteImport } from './routes/dashboards.fairfax-city.schools.recaps'
 import { Route as DashboardsLoudounBosFindTheMomentRouteImport } from './routes/dashboards.loudoun.bos.find-the-moment'
 import { Route as DashboardsLoudounBosMembersRouteImport } from './routes/dashboards.loudoun.bos.members'
 import { Route as DashboardsLoudounBosRecapsRouteImport } from './routes/dashboards.loudoun.bos.recaps'
@@ -339,6 +348,60 @@ const DashboardsAlbemarleSchoolsRecapsRoute =
     path: '/dashboards/albemarle/schools/recaps',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DashboardsFairfaxCityCouncilBudgetRoute =
+  DashboardsFairfaxCityCouncilBudgetRouteImport.update({
+    id: '/dashboards/fairfax-city/council/budget',
+    path: '/dashboards/fairfax-city/council/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCityCouncilFindTheMomentRoute =
+  DashboardsFairfaxCityCouncilFindTheMomentRouteImport.update({
+    id: '/dashboards/fairfax-city/council/find-the-moment',
+    path: '/dashboards/fairfax-city/council/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCityCouncilMembersRoute =
+  DashboardsFairfaxCityCouncilMembersRouteImport.update({
+    id: '/dashboards/fairfax-city/council/members',
+    path: '/dashboards/fairfax-city/council/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCityCouncilRecapsRoute =
+  DashboardsFairfaxCityCouncilRecapsRouteImport.update({
+    id: '/dashboards/fairfax-city/council/recaps',
+    path: '/dashboards/fairfax-city/council/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCitySchoolsBudgetRoute =
+  DashboardsFairfaxCitySchoolsBudgetRouteImport.update({
+    id: '/dashboards/fairfax-city/schools/budget',
+    path: '/dashboards/fairfax-city/schools/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCitySchoolsFindTheMomentRoute =
+  DashboardsFairfaxCitySchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/fairfax-city/schools/find-the-moment',
+    path: '/dashboards/fairfax-city/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCitySchoolsMembersRoute =
+  DashboardsFairfaxCitySchoolsMembersRouteImport.update({
+    id: '/dashboards/fairfax-city/schools/members',
+    path: '/dashboards/fairfax-city/schools/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCitySchoolsPoliciesRoute =
+  DashboardsFairfaxCitySchoolsPoliciesRouteImport.update({
+    id: '/dashboards/fairfax-city/schools/policies',
+    path: '/dashboards/fairfax-city/schools/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCitySchoolsRecapsRoute =
+  DashboardsFairfaxCitySchoolsRecapsRouteImport.update({
+    id: '/dashboards/fairfax-city/schools/recaps',
+    path: '/dashboards/fairfax-city/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DashboardsLoudounBosFindTheMomentRoute =
   DashboardsLoudounBosFindTheMomentRouteImport.update({
     id: '/dashboards/loudoun/bos/find-the-moment',
@@ -452,6 +515,15 @@ export interface FileRoutesByFullPath {
   '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
   '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
   '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
+  '/dashboards/fairfax-city/council/budget': typeof DashboardsFairfaxCityCouncilBudgetRoute
+  '/dashboards/fairfax-city/council/find-the-moment': typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
+  '/dashboards/fairfax-city/council/members': typeof DashboardsFairfaxCityCouncilMembersRoute
+  '/dashboards/fairfax-city/council/recaps': typeof DashboardsFairfaxCityCouncilRecapsRoute
+  '/dashboards/fairfax-city/schools/budget': typeof DashboardsFairfaxCitySchoolsBudgetRoute
+  '/dashboards/fairfax-city/schools/find-the-moment': typeof DashboardsFairfaxCitySchoolsFindTheMomentRoute
+  '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
+  '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
+  '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -505,6 +577,15 @@ export interface FileRoutesByTo {
   '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
   '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
   '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
+  '/dashboards/fairfax-city/council/budget': typeof DashboardsFairfaxCityCouncilBudgetRoute
+  '/dashboards/fairfax-city/council/find-the-moment': typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
+  '/dashboards/fairfax-city/council/members': typeof DashboardsFairfaxCityCouncilMembersRoute
+  '/dashboards/fairfax-city/council/recaps': typeof DashboardsFairfaxCityCouncilRecapsRoute
+  '/dashboards/fairfax-city/schools/budget': typeof DashboardsFairfaxCitySchoolsBudgetRoute
+  '/dashboards/fairfax-city/schools/find-the-moment': typeof DashboardsFairfaxCitySchoolsFindTheMomentRoute
+  '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
+  '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
+  '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -569,6 +650,15 @@ export interface FileRoutesById {
   '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
   '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
   '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
+  '/dashboards/fairfax-city/council/budget': typeof DashboardsFairfaxCityCouncilBudgetRoute
+  '/dashboards/fairfax-city/council/find-the-moment': typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
+  '/dashboards/fairfax-city/council/members': typeof DashboardsFairfaxCityCouncilMembersRoute
+  '/dashboards/fairfax-city/council/recaps': typeof DashboardsFairfaxCityCouncilRecapsRoute
+  '/dashboards/fairfax-city/schools/budget': typeof DashboardsFairfaxCitySchoolsBudgetRoute
+  '/dashboards/fairfax-city/schools/find-the-moment': typeof DashboardsFairfaxCitySchoolsFindTheMomentRoute
+  '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
+  '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
+  '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -634,6 +724,15 @@ export interface FileRouteTypes {
     | '/dashboards/albemarle/schools/members'
     | '/dashboards/albemarle/schools/policies'
     | '/dashboards/albemarle/schools/recaps'
+    | '/dashboards/fairfax-city/council/budget'
+    | '/dashboards/fairfax-city/council/find-the-moment'
+    | '/dashboards/fairfax-city/council/members'
+    | '/dashboards/fairfax-city/council/recaps'
+    | '/dashboards/fairfax-city/schools/budget'
+    | '/dashboards/fairfax-city/schools/find-the-moment'
+    | '/dashboards/fairfax-city/schools/members'
+    | '/dashboards/fairfax-city/schools/policies'
+    | '/dashboards/fairfax-city/schools/recaps'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -687,6 +786,15 @@ export interface FileRouteTypes {
     | '/dashboards/albemarle/schools/members'
     | '/dashboards/albemarle/schools/policies'
     | '/dashboards/albemarle/schools/recaps'
+    | '/dashboards/fairfax-city/council/budget'
+    | '/dashboards/fairfax-city/council/find-the-moment'
+    | '/dashboards/fairfax-city/council/members'
+    | '/dashboards/fairfax-city/council/recaps'
+    | '/dashboards/fairfax-city/schools/budget'
+    | '/dashboards/fairfax-city/schools/find-the-moment'
+    | '/dashboards/fairfax-city/schools/members'
+    | '/dashboards/fairfax-city/schools/policies'
+    | '/dashboards/fairfax-city/schools/recaps'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -750,6 +858,15 @@ export interface FileRouteTypes {
     | '/dashboards/albemarle/schools/members'
     | '/dashboards/albemarle/schools/policies'
     | '/dashboards/albemarle/schools/recaps'
+    | '/dashboards/fairfax-city/council/budget'
+    | '/dashboards/fairfax-city/council/find-the-moment'
+    | '/dashboards/fairfax-city/council/members'
+    | '/dashboards/fairfax-city/council/recaps'
+    | '/dashboards/fairfax-city/schools/budget'
+    | '/dashboards/fairfax-city/schools/find-the-moment'
+    | '/dashboards/fairfax-city/schools/members'
+    | '/dashboards/fairfax-city/schools/policies'
+    | '/dashboards/fairfax-city/schools/recaps'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -791,6 +908,15 @@ export interface RootRouteChildren {
   DashboardsAlbemarleSchoolsMembersRoute: typeof DashboardsAlbemarleSchoolsMembersRoute
   DashboardsAlbemarleSchoolsPoliciesRoute: typeof DashboardsAlbemarleSchoolsPoliciesRoute
   DashboardsAlbemarleSchoolsRecapsRoute: typeof DashboardsAlbemarleSchoolsRecapsRoute
+  DashboardsFairfaxCityCouncilBudgetRoute: typeof DashboardsFairfaxCityCouncilBudgetRoute
+  DashboardsFairfaxCityCouncilFindTheMomentRoute: typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
+  DashboardsFairfaxCityCouncilMembersRoute: typeof DashboardsFairfaxCityCouncilMembersRoute
+  DashboardsFairfaxCityCouncilRecapsRoute: typeof DashboardsFairfaxCityCouncilRecapsRoute
+  DashboardsFairfaxCitySchoolsBudgetRoute: typeof DashboardsFairfaxCitySchoolsBudgetRoute
+  DashboardsFairfaxCitySchoolsFindTheMomentRoute: typeof DashboardsFairfaxCitySchoolsFindTheMomentRoute
+  DashboardsFairfaxCitySchoolsMembersRoute: typeof DashboardsFairfaxCitySchoolsMembersRoute
+  DashboardsFairfaxCitySchoolsPoliciesRoute: typeof DashboardsFairfaxCitySchoolsPoliciesRoute
+  DashboardsFairfaxCitySchoolsRecapsRoute: typeof DashboardsFairfaxCitySchoolsRecapsRoute
   DashboardsLoudounBosFindTheMomentRoute: typeof DashboardsLoudounBosFindTheMomentRoute
   DashboardsLoudounBosMembersRoute: typeof DashboardsLoudounBosMembersRoute
   DashboardsLoudounBosRecapsRoute: typeof DashboardsLoudounBosRecapsRoute
@@ -1160,6 +1286,69 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardsAlbemarleSchoolsRecapsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dashboards/fairfax-city/council/budget': {
+      id: '/dashboards/fairfax-city/council/budget'
+      path: '/dashboards/fairfax-city/council/budget'
+      fullPath: '/dashboards/fairfax-city/council/budget'
+      preLoaderRoute: typeof DashboardsFairfaxCityCouncilBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/council/find-the-moment': {
+      id: '/dashboards/fairfax-city/council/find-the-moment'
+      path: '/dashboards/fairfax-city/council/find-the-moment'
+      fullPath: '/dashboards/fairfax-city/council/find-the-moment'
+      preLoaderRoute: typeof DashboardsFairfaxCityCouncilFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/council/members': {
+      id: '/dashboards/fairfax-city/council/members'
+      path: '/dashboards/fairfax-city/council/members'
+      fullPath: '/dashboards/fairfax-city/council/members'
+      preLoaderRoute: typeof DashboardsFairfaxCityCouncilMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/council/recaps': {
+      id: '/dashboards/fairfax-city/council/recaps'
+      path: '/dashboards/fairfax-city/council/recaps'
+      fullPath: '/dashboards/fairfax-city/council/recaps'
+      preLoaderRoute: typeof DashboardsFairfaxCityCouncilRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/schools/budget': {
+      id: '/dashboards/fairfax-city/schools/budget'
+      path: '/dashboards/fairfax-city/schools/budget'
+      fullPath: '/dashboards/fairfax-city/schools/budget'
+      preLoaderRoute: typeof DashboardsFairfaxCitySchoolsBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/schools/find-the-moment': {
+      id: '/dashboards/fairfax-city/schools/find-the-moment'
+      path: '/dashboards/fairfax-city/schools/find-the-moment'
+      fullPath: '/dashboards/fairfax-city/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsFairfaxCitySchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/schools/members': {
+      id: '/dashboards/fairfax-city/schools/members'
+      path: '/dashboards/fairfax-city/schools/members'
+      fullPath: '/dashboards/fairfax-city/schools/members'
+      preLoaderRoute: typeof DashboardsFairfaxCitySchoolsMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/schools/policies': {
+      id: '/dashboards/fairfax-city/schools/policies'
+      path: '/dashboards/fairfax-city/schools/policies'
+      fullPath: '/dashboards/fairfax-city/schools/policies'
+      preLoaderRoute: typeof DashboardsFairfaxCitySchoolsPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/schools/recaps': {
+      id: '/dashboards/fairfax-city/schools/recaps'
+      path: '/dashboards/fairfax-city/schools/recaps'
+      fullPath: '/dashboards/fairfax-city/schools/recaps'
+      preLoaderRoute: typeof DashboardsFairfaxCitySchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dashboards/loudoun/bos/find-the-moment': {
       id: '/dashboards/loudoun/bos/find-the-moment'
       path: '/dashboards/loudoun/bos/find-the-moment'
@@ -1414,6 +1603,24 @@ const rootRouteChildren: RootRouteChildren = {
   DashboardsAlbemarleSchoolsPoliciesRoute:
     DashboardsAlbemarleSchoolsPoliciesRoute,
   DashboardsAlbemarleSchoolsRecapsRoute: DashboardsAlbemarleSchoolsRecapsRoute,
+  DashboardsFairfaxCityCouncilBudgetRoute:
+    DashboardsFairfaxCityCouncilBudgetRoute,
+  DashboardsFairfaxCityCouncilFindTheMomentRoute:
+    DashboardsFairfaxCityCouncilFindTheMomentRoute,
+  DashboardsFairfaxCityCouncilMembersRoute:
+    DashboardsFairfaxCityCouncilMembersRoute,
+  DashboardsFairfaxCityCouncilRecapsRoute:
+    DashboardsFairfaxCityCouncilRecapsRoute,
+  DashboardsFairfaxCitySchoolsBudgetRoute:
+    DashboardsFairfaxCitySchoolsBudgetRoute,
+  DashboardsFairfaxCitySchoolsFindTheMomentRoute:
+    DashboardsFairfaxCitySchoolsFindTheMomentRoute,
+  DashboardsFairfaxCitySchoolsMembersRoute:
+    DashboardsFairfaxCitySchoolsMembersRoute,
+  DashboardsFairfaxCitySchoolsPoliciesRoute:
+    DashboardsFairfaxCitySchoolsPoliciesRoute,
+  DashboardsFairfaxCitySchoolsRecapsRoute:
+    DashboardsFairfaxCitySchoolsRecapsRoute,
   DashboardsLoudounBosFindTheMomentRoute:
     DashboardsLoudounBosFindTheMomentRoute,
   DashboardsLoudounBosMembersRoute: DashboardsLoudounBosMembersRoute,
