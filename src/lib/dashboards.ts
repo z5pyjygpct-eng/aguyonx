@@ -21,8 +21,8 @@ export const FOIA = {
   },
   albemarle: { label: "FOIA to Albemarle County", href: "https://www.albemarle.org/government/county-attorney/freedom-of-information-act" },
   acps: { label: "FOIA to ACPS", href: "https://www.k12albemarle.org/our-division/foia-requests" },
-  manassas: { label: "FOIA to the City of Manassas", href: "https://www.manassasva.gov/connect/city_manager_s_office/foia_requests.php" },
-  mcps: { label: "FOIA to Manassas City Public Schools", href: "https://www.mcpsva.org/page/requests-for-informationfoia/" },
+  manassas: { label: "FOIA to Manassas", href: "https://www.manassasva.gov/connect/city_manager_s_office/foia_requests.php" },
+  mcps: { label: "FOIA to MCPS", href: "https://www.mcpsva.org/page/requests-for-informationfoia/" },
   house: { label: "FOIA to the House Clerk's Office", href: "https://vga.virginia.gov/help/foia/" },
   senate: { label: "FOIA to the Senate Clerk's Office", href: "https://apps.senate.virginia.gov/Senator/PDFs/SenateFOIARequest.pdf" },
   vdoe: { label: "FOIA to the Virginia Department of Education", href: "https://www.doe.virginia.gov/about-vdoe/foia-requests" },
@@ -147,7 +147,29 @@ export const DASHBOARDS: Dashboard[] = [
     short: "Manassas",
     title: "City of Manassas",
     group: "local",
-    columns: cityCols("/cities/manassas", "Manassas City Council", "Manassas City School Board", FOIA.manassas, FOIA.mcps),
+    columns: [
+      {
+        name: "Manassas City Council",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/manassas/council/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/manassas/council/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/manassas/council/budget" },
+          { label: "Members", icon: "people", to: "/dashboards/manassas/council/members" },
+        ],
+        foia: FOIA.manassas,
+      },
+      {
+        name: "Manassas City Public Schools",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/manassas/schools/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/manassas/schools/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/manassas/schools/budget" },
+          { label: "Policies", icon: "book", to: "/dashboards/manassas/schools/policies" },
+          { label: "Members", icon: "people", to: "/dashboards/manassas/schools/members" },
+        ],
+        foia: FOIA.mcps,
+      },
+    ],
   },
   {
     slug: "house",

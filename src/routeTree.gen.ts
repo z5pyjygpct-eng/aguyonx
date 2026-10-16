@@ -77,6 +77,15 @@ import { Route as DashboardsLoudounSchoolsFindTheMomentRouteImport } from './rou
 import { Route as DashboardsLoudounSchoolsMembersRouteImport } from './routes/dashboards.loudoun.schools.members'
 import { Route as DashboardsLoudounSchoolsPoliciesRouteImport } from './routes/dashboards.loudoun.schools.policies'
 import { Route as DashboardsLoudounSchoolsRecapsRouteImport } from './routes/dashboards.loudoun.schools.recaps'
+import { Route as DashboardsManassasCouncilBudgetRouteImport } from './routes/dashboards.manassas.council.budget'
+import { Route as DashboardsManassasCouncilFindTheMomentRouteImport } from './routes/dashboards.manassas.council.find-the-moment'
+import { Route as DashboardsManassasCouncilMembersRouteImport } from './routes/dashboards.manassas.council.members'
+import { Route as DashboardsManassasCouncilRecapsRouteImport } from './routes/dashboards.manassas.council.recaps'
+import { Route as DashboardsManassasSchoolsBudgetRouteImport } from './routes/dashboards.manassas.schools.budget'
+import { Route as DashboardsManassasSchoolsFindTheMomentRouteImport } from './routes/dashboards.manassas.schools.find-the-moment'
+import { Route as DashboardsManassasSchoolsMembersRouteImport } from './routes/dashboards.manassas.schools.members'
+import { Route as DashboardsManassasSchoolsPoliciesRouteImport } from './routes/dashboards.manassas.schools.policies'
+import { Route as DashboardsManassasSchoolsRecapsRouteImport } from './routes/dashboards.manassas.schools.recaps'
 import { Route as GeneralAssemblyHouseRecapsSlugRouteImport } from './routes/general-assembly.house.recaps.$slug'
 import { Route as GeneralAssemblySenateRecapsSlugRouteImport } from './routes/general-assembly.senate.recaps.$slug'
 
@@ -450,6 +459,60 @@ const DashboardsLoudounSchoolsRecapsRoute =
     path: '/dashboards/loudoun/schools/recaps',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DashboardsManassasCouncilBudgetRoute =
+  DashboardsManassasCouncilBudgetRouteImport.update({
+    id: '/dashboards/manassas/council/budget',
+    path: '/dashboards/manassas/council/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasCouncilFindTheMomentRoute =
+  DashboardsManassasCouncilFindTheMomentRouteImport.update({
+    id: '/dashboards/manassas/council/find-the-moment',
+    path: '/dashboards/manassas/council/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasCouncilMembersRoute =
+  DashboardsManassasCouncilMembersRouteImport.update({
+    id: '/dashboards/manassas/council/members',
+    path: '/dashboards/manassas/council/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasCouncilRecapsRoute =
+  DashboardsManassasCouncilRecapsRouteImport.update({
+    id: '/dashboards/manassas/council/recaps',
+    path: '/dashboards/manassas/council/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasSchoolsBudgetRoute =
+  DashboardsManassasSchoolsBudgetRouteImport.update({
+    id: '/dashboards/manassas/schools/budget',
+    path: '/dashboards/manassas/schools/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasSchoolsFindTheMomentRoute =
+  DashboardsManassasSchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/manassas/schools/find-the-moment',
+    path: '/dashboards/manassas/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasSchoolsMembersRoute =
+  DashboardsManassasSchoolsMembersRouteImport.update({
+    id: '/dashboards/manassas/schools/members',
+    path: '/dashboards/manassas/schools/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasSchoolsPoliciesRoute =
+  DashboardsManassasSchoolsPoliciesRouteImport.update({
+    id: '/dashboards/manassas/schools/policies',
+    path: '/dashboards/manassas/schools/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasSchoolsRecapsRoute =
+  DashboardsManassasSchoolsRecapsRouteImport.update({
+    id: '/dashboards/manassas/schools/recaps',
+    path: '/dashboards/manassas/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const GeneralAssemblyHouseRecapsSlugRoute =
   GeneralAssemblyHouseRecapsSlugRouteImport.update({
     id: '/recaps/$slug',
@@ -532,6 +595,15 @@ export interface FileRoutesByFullPath {
   '/dashboards/loudoun/schools/members': typeof DashboardsLoudounSchoolsMembersRoute
   '/dashboards/loudoun/schools/policies': typeof DashboardsLoudounSchoolsPoliciesRoute
   '/dashboards/loudoun/schools/recaps': typeof DashboardsLoudounSchoolsRecapsRoute
+  '/dashboards/manassas/council/budget': typeof DashboardsManassasCouncilBudgetRoute
+  '/dashboards/manassas/council/find-the-moment': typeof DashboardsManassasCouncilFindTheMomentRoute
+  '/dashboards/manassas/council/members': typeof DashboardsManassasCouncilMembersRoute
+  '/dashboards/manassas/council/recaps': typeof DashboardsManassasCouncilRecapsRoute
+  '/dashboards/manassas/schools/budget': typeof DashboardsManassasSchoolsBudgetRoute
+  '/dashboards/manassas/schools/find-the-moment': typeof DashboardsManassasSchoolsFindTheMomentRoute
+  '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
+  '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
+  '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -594,6 +666,15 @@ export interface FileRoutesByTo {
   '/dashboards/loudoun/schools/members': typeof DashboardsLoudounSchoolsMembersRoute
   '/dashboards/loudoun/schools/policies': typeof DashboardsLoudounSchoolsPoliciesRoute
   '/dashboards/loudoun/schools/recaps': typeof DashboardsLoudounSchoolsRecapsRoute
+  '/dashboards/manassas/council/budget': typeof DashboardsManassasCouncilBudgetRoute
+  '/dashboards/manassas/council/find-the-moment': typeof DashboardsManassasCouncilFindTheMomentRoute
+  '/dashboards/manassas/council/members': typeof DashboardsManassasCouncilMembersRoute
+  '/dashboards/manassas/council/recaps': typeof DashboardsManassasCouncilRecapsRoute
+  '/dashboards/manassas/schools/budget': typeof DashboardsManassasSchoolsBudgetRoute
+  '/dashboards/manassas/schools/find-the-moment': typeof DashboardsManassasSchoolsFindTheMomentRoute
+  '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
+  '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
+  '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -667,6 +748,15 @@ export interface FileRoutesById {
   '/dashboards/loudoun/schools/members': typeof DashboardsLoudounSchoolsMembersRoute
   '/dashboards/loudoun/schools/policies': typeof DashboardsLoudounSchoolsPoliciesRoute
   '/dashboards/loudoun/schools/recaps': typeof DashboardsLoudounSchoolsRecapsRoute
+  '/dashboards/manassas/council/budget': typeof DashboardsManassasCouncilBudgetRoute
+  '/dashboards/manassas/council/find-the-moment': typeof DashboardsManassasCouncilFindTheMomentRoute
+  '/dashboards/manassas/council/members': typeof DashboardsManassasCouncilMembersRoute
+  '/dashboards/manassas/council/recaps': typeof DashboardsManassasCouncilRecapsRoute
+  '/dashboards/manassas/schools/budget': typeof DashboardsManassasSchoolsBudgetRoute
+  '/dashboards/manassas/schools/find-the-moment': typeof DashboardsManassasSchoolsFindTheMomentRoute
+  '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
+  '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
+  '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -741,6 +831,15 @@ export interface FileRouteTypes {
     | '/dashboards/loudoun/schools/members'
     | '/dashboards/loudoun/schools/policies'
     | '/dashboards/loudoun/schools/recaps'
+    | '/dashboards/manassas/council/budget'
+    | '/dashboards/manassas/council/find-the-moment'
+    | '/dashboards/manassas/council/members'
+    | '/dashboards/manassas/council/recaps'
+    | '/dashboards/manassas/schools/budget'
+    | '/dashboards/manassas/schools/find-the-moment'
+    | '/dashboards/manassas/schools/members'
+    | '/dashboards/manassas/schools/policies'
+    | '/dashboards/manassas/schools/recaps'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   fileRoutesByTo: FileRoutesByTo
@@ -803,6 +902,15 @@ export interface FileRouteTypes {
     | '/dashboards/loudoun/schools/members'
     | '/dashboards/loudoun/schools/policies'
     | '/dashboards/loudoun/schools/recaps'
+    | '/dashboards/manassas/council/budget'
+    | '/dashboards/manassas/council/find-the-moment'
+    | '/dashboards/manassas/council/members'
+    | '/dashboards/manassas/council/recaps'
+    | '/dashboards/manassas/schools/budget'
+    | '/dashboards/manassas/schools/find-the-moment'
+    | '/dashboards/manassas/schools/members'
+    | '/dashboards/manassas/schools/policies'
+    | '/dashboards/manassas/schools/recaps'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   id:
@@ -875,6 +983,15 @@ export interface FileRouteTypes {
     | '/dashboards/loudoun/schools/members'
     | '/dashboards/loudoun/schools/policies'
     | '/dashboards/loudoun/schools/recaps'
+    | '/dashboards/manassas/council/budget'
+    | '/dashboards/manassas/council/find-the-moment'
+    | '/dashboards/manassas/council/members'
+    | '/dashboards/manassas/council/recaps'
+    | '/dashboards/manassas/schools/budget'
+    | '/dashboards/manassas/schools/find-the-moment'
+    | '/dashboards/manassas/schools/members'
+    | '/dashboards/manassas/schools/policies'
+    | '/dashboards/manassas/schools/recaps'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   fileRoutesById: FileRoutesById
@@ -925,6 +1042,15 @@ export interface RootRouteChildren {
   DashboardsLoudounSchoolsMembersRoute: typeof DashboardsLoudounSchoolsMembersRoute
   DashboardsLoudounSchoolsPoliciesRoute: typeof DashboardsLoudounSchoolsPoliciesRoute
   DashboardsLoudounSchoolsRecapsRoute: typeof DashboardsLoudounSchoolsRecapsRoute
+  DashboardsManassasCouncilBudgetRoute: typeof DashboardsManassasCouncilBudgetRoute
+  DashboardsManassasCouncilFindTheMomentRoute: typeof DashboardsManassasCouncilFindTheMomentRoute
+  DashboardsManassasCouncilMembersRoute: typeof DashboardsManassasCouncilMembersRoute
+  DashboardsManassasCouncilRecapsRoute: typeof DashboardsManassasCouncilRecapsRoute
+  DashboardsManassasSchoolsBudgetRoute: typeof DashboardsManassasSchoolsBudgetRoute
+  DashboardsManassasSchoolsFindTheMomentRoute: typeof DashboardsManassasSchoolsFindTheMomentRoute
+  DashboardsManassasSchoolsMembersRoute: typeof DashboardsManassasSchoolsMembersRoute
+  DashboardsManassasSchoolsPoliciesRoute: typeof DashboardsManassasSchoolsPoliciesRoute
+  DashboardsManassasSchoolsRecapsRoute: typeof DashboardsManassasSchoolsRecapsRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -1405,6 +1531,69 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardsLoudounSchoolsRecapsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dashboards/manassas/council/budget': {
+      id: '/dashboards/manassas/council/budget'
+      path: '/dashboards/manassas/council/budget'
+      fullPath: '/dashboards/manassas/council/budget'
+      preLoaderRoute: typeof DashboardsManassasCouncilBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/council/find-the-moment': {
+      id: '/dashboards/manassas/council/find-the-moment'
+      path: '/dashboards/manassas/council/find-the-moment'
+      fullPath: '/dashboards/manassas/council/find-the-moment'
+      preLoaderRoute: typeof DashboardsManassasCouncilFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/council/members': {
+      id: '/dashboards/manassas/council/members'
+      path: '/dashboards/manassas/council/members'
+      fullPath: '/dashboards/manassas/council/members'
+      preLoaderRoute: typeof DashboardsManassasCouncilMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/council/recaps': {
+      id: '/dashboards/manassas/council/recaps'
+      path: '/dashboards/manassas/council/recaps'
+      fullPath: '/dashboards/manassas/council/recaps'
+      preLoaderRoute: typeof DashboardsManassasCouncilRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/schools/budget': {
+      id: '/dashboards/manassas/schools/budget'
+      path: '/dashboards/manassas/schools/budget'
+      fullPath: '/dashboards/manassas/schools/budget'
+      preLoaderRoute: typeof DashboardsManassasSchoolsBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/schools/find-the-moment': {
+      id: '/dashboards/manassas/schools/find-the-moment'
+      path: '/dashboards/manassas/schools/find-the-moment'
+      fullPath: '/dashboards/manassas/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsManassasSchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/schools/members': {
+      id: '/dashboards/manassas/schools/members'
+      path: '/dashboards/manassas/schools/members'
+      fullPath: '/dashboards/manassas/schools/members'
+      preLoaderRoute: typeof DashboardsManassasSchoolsMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/schools/policies': {
+      id: '/dashboards/manassas/schools/policies'
+      path: '/dashboards/manassas/schools/policies'
+      fullPath: '/dashboards/manassas/schools/policies'
+      preLoaderRoute: typeof DashboardsManassasSchoolsPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/schools/recaps': {
+      id: '/dashboards/manassas/schools/recaps'
+      path: '/dashboards/manassas/schools/recaps'
+      fullPath: '/dashboards/manassas/schools/recaps'
+      preLoaderRoute: typeof DashboardsManassasSchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/general-assembly/house/recaps/$slug': {
       id: '/general-assembly/house/recaps/$slug'
       path: '/recaps/$slug'
@@ -1631,6 +1820,18 @@ const rootRouteChildren: RootRouteChildren = {
   DashboardsLoudounSchoolsMembersRoute: DashboardsLoudounSchoolsMembersRoute,
   DashboardsLoudounSchoolsPoliciesRoute: DashboardsLoudounSchoolsPoliciesRoute,
   DashboardsLoudounSchoolsRecapsRoute: DashboardsLoudounSchoolsRecapsRoute,
+  DashboardsManassasCouncilBudgetRoute: DashboardsManassasCouncilBudgetRoute,
+  DashboardsManassasCouncilFindTheMomentRoute:
+    DashboardsManassasCouncilFindTheMomentRoute,
+  DashboardsManassasCouncilMembersRoute: DashboardsManassasCouncilMembersRoute,
+  DashboardsManassasCouncilRecapsRoute: DashboardsManassasCouncilRecapsRoute,
+  DashboardsManassasSchoolsBudgetRoute: DashboardsManassasSchoolsBudgetRoute,
+  DashboardsManassasSchoolsFindTheMomentRoute:
+    DashboardsManassasSchoolsFindTheMomentRoute,
+  DashboardsManassasSchoolsMembersRoute: DashboardsManassasSchoolsMembersRoute,
+  DashboardsManassasSchoolsPoliciesRoute:
+    DashboardsManassasSchoolsPoliciesRoute,
+  DashboardsManassasSchoolsRecapsRoute: DashboardsManassasSchoolsRecapsRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

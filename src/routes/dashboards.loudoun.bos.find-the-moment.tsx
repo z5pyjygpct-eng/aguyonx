@@ -4,12 +4,12 @@ import { SiteShell } from "@/components/site/shell";
 import { LoudounCrossMeetingSearch } from "@/components/site/loudoun-cross-meeting-search";
 import { FtmV4Page, type V4Meeting } from "@/components/site/venue-v4";
 import { V4_VENUES } from "@/lib/v4-venues";
-import { bosKind } from "@/lib/v4-kinds";
+import { bosKind, hostFromUrl } from "@/lib/v4-kinds";
 import { LOUDOUN_MEETINGS } from "@/content/loudoun";
 
 const MEETINGS: V4Meeting[] = LOUDOUN_MEETINGS.map((m) => ({
   id: m.id, dateLabel: m.dateLabel, title: m.title.replace(/^Loudoun BOS /, "Board of Supervisors "), kind: bosKind(m.title),
-  duration: m.duration, href: m.playerUrl, host: m.provider === "escribe" ? "eScribe" : "Granicus",
+  duration: m.duration, href: m.playerUrl, host: hostFromUrl(m.playerUrl),
   thumb: `/thumbs/loudoun-bos/${m.clipId ?? m.id}.webp`,
 }));
 export const Route = createFileRoute("/dashboards/loudoun/bos/find-the-moment")({
