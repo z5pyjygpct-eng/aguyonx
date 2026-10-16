@@ -18,7 +18,7 @@ const COLS = [
     items: [
       { to: "/delegates", label: "Delegates" },
       { to: "/senators", label: "Senators" },
-      { to: "/general-assembly", label: "General Assembly" },
+      { to: "/dashboards/general-assembly", label: "General Assembly" },
       { to: "/library", label: "Library" },
       { to: "/2027", label: "2027 Democrats" },
     ],
