@@ -17,4 +17,5 @@ export const V4_VENUES = {
   "manassas-schools": { crumbs: [mna, { label: "MCPS" }], titleA: "Manassas City", titleB: "Public Schools", foia: FOIA.mcps },
   "va-house": { crumbs: [{ label: "House of Delegates", to: "/dashboards/$body", params: { body: "house" } }], titleA: "Virginia", titleB: "House of Delegates", foia: FOIA.house },
   "va-senate": { crumbs: [{ label: "State Senate", to: "/dashboards/$body", params: { body: "senate" } }], titleA: "Senate of", titleB: "Virginia", foia: FOIA.senate },
+  "va-boe": { crumbs: [{ label: "Board of Education", to: "/dashboards/$body", params: { body: "board-of-education" } }], titleA: "Virginia", titleB: "Board of Education", foia: FOIA.vdoe },
 } satisfies Record<string, V4Venue>;

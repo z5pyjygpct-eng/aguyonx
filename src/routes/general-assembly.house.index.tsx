@@ -139,7 +139,7 @@ function HousePage() {
                 </Link>
                 <span className="ml-2 text-xs text-muted-foreground">
                   {r.rollCallCount
-                    ? `${r.rollCallCount} roll calls · ${r.billCount} bills`
+                    ? `${r.rollCallCount} roll call${r.rollCallCount === 1 ? "" : "s"} · ${r.billCount} bill${r.billCount === 1 ? "" : "s"}`
                     : "no LIS roll calls recorded"}
                 </span>
               </li>

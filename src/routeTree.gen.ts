@@ -47,6 +47,11 @@ import { Route as CitiesCitySchoolsRouteImport } from './routes/cities.$city.sch
 import { Route as CountiesLoudounIndexRouteImport } from './routes/counties.loudoun.index'
 import { Route as CountiesLoudounFindTheMomentRouteImport } from './routes/counties.loudoun.find-the-moment'
 import { Route as CountiesLoudounSchoolsRouteImport } from './routes/counties.loudoun.schools'
+import { Route as DashboardsBoardOfEducationBudgetRouteImport } from './routes/dashboards.board-of-education.budget'
+import { Route as DashboardsBoardOfEducationFindTheMomentRouteImport } from './routes/dashboards.board-of-education.find-the-moment'
+import { Route as DashboardsBoardOfEducationMembersRouteImport } from './routes/dashboards.board-of-education.members'
+import { Route as DashboardsBoardOfEducationPoliciesRouteImport } from './routes/dashboards.board-of-education.policies'
+import { Route as DashboardsBoardOfEducationRecapsRouteImport } from './routes/dashboards.board-of-education.recaps'
 import { Route as DashboardsHouseBudgetRouteImport } from './routes/dashboards.house.budget'
 import { Route as DashboardsHouseFindTheMomentRouteImport } from './routes/dashboards.house.find-the-moment'
 import { Route as DashboardsHouseMembersRouteImport } from './routes/dashboards.house.members'
@@ -290,6 +295,36 @@ const CountiesLoudounSchoolsRoute = CountiesLoudounSchoolsRouteImport.update({
   path: '/schools',
   getParentRoute: () => CountiesLoudounRoute,
 } as any)
+const DashboardsBoardOfEducationBudgetRoute =
+  DashboardsBoardOfEducationBudgetRouteImport.update({
+    id: '/dashboards/board-of-education/budget',
+    path: '/dashboards/board-of-education/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsBoardOfEducationFindTheMomentRoute =
+  DashboardsBoardOfEducationFindTheMomentRouteImport.update({
+    id: '/dashboards/board-of-education/find-the-moment',
+    path: '/dashboards/board-of-education/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsBoardOfEducationMembersRoute =
+  DashboardsBoardOfEducationMembersRouteImport.update({
+    id: '/dashboards/board-of-education/members',
+    path: '/dashboards/board-of-education/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsBoardOfEducationPoliciesRoute =
+  DashboardsBoardOfEducationPoliciesRouteImport.update({
+    id: '/dashboards/board-of-education/policies',
+    path: '/dashboards/board-of-education/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsBoardOfEducationRecapsRoute =
+  DashboardsBoardOfEducationRecapsRouteImport.update({
+    id: '/dashboards/board-of-education/recaps',
+    path: '/dashboards/board-of-education/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DashboardsHouseBudgetRoute = DashboardsHouseBudgetRouteImport.update({
   id: '/dashboards/house/budget',
   path: '/dashboards/house/budget',
@@ -626,6 +661,11 @@ export interface FileRoutesByFullPath {
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/dashboards/board-of-education/budget': typeof DashboardsBoardOfEducationBudgetRoute
+  '/dashboards/board-of-education/find-the-moment': typeof DashboardsBoardOfEducationFindTheMomentRoute
+  '/dashboards/board-of-education/members': typeof DashboardsBoardOfEducationMembersRoute
+  '/dashboards/board-of-education/policies': typeof DashboardsBoardOfEducationPoliciesRoute
+  '/dashboards/board-of-education/recaps': typeof DashboardsBoardOfEducationRecapsRoute
   '/dashboards/house/budget': typeof DashboardsHouseBudgetRoute
   '/dashboards/house/find-the-moment': typeof DashboardsHouseFindTheMomentRoute
   '/dashboards/house/members': typeof DashboardsHouseMembersRoute
@@ -707,6 +747,11 @@ export interface FileRoutesByTo {
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/dashboards/board-of-education/budget': typeof DashboardsBoardOfEducationBudgetRoute
+  '/dashboards/board-of-education/find-the-moment': typeof DashboardsBoardOfEducationFindTheMomentRoute
+  '/dashboards/board-of-education/members': typeof DashboardsBoardOfEducationMembersRoute
+  '/dashboards/board-of-education/policies': typeof DashboardsBoardOfEducationPoliciesRoute
+  '/dashboards/board-of-education/recaps': typeof DashboardsBoardOfEducationRecapsRoute
   '/dashboards/house/budget': typeof DashboardsHouseBudgetRoute
   '/dashboards/house/find-the-moment': typeof DashboardsHouseFindTheMomentRoute
   '/dashboards/house/members': typeof DashboardsHouseMembersRoute
@@ -799,6 +844,11 @@ export interface FileRoutesById {
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/dashboards/board-of-education/budget': typeof DashboardsBoardOfEducationBudgetRoute
+  '/dashboards/board-of-education/find-the-moment': typeof DashboardsBoardOfEducationFindTheMomentRoute
+  '/dashboards/board-of-education/members': typeof DashboardsBoardOfEducationMembersRoute
+  '/dashboards/board-of-education/policies': typeof DashboardsBoardOfEducationPoliciesRoute
+  '/dashboards/board-of-education/recaps': typeof DashboardsBoardOfEducationRecapsRoute
   '/dashboards/house/budget': typeof DashboardsHouseBudgetRoute
   '/dashboards/house/find-the-moment': typeof DashboardsHouseFindTheMomentRoute
   '/dashboards/house/members': typeof DashboardsHouseMembersRoute
@@ -892,6 +942,11 @@ export interface FileRouteTypes {
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/dashboards/board-of-education/budget'
+    | '/dashboards/board-of-education/find-the-moment'
+    | '/dashboards/board-of-education/members'
+    | '/dashboards/board-of-education/policies'
+    | '/dashboards/board-of-education/recaps'
     | '/dashboards/house/budget'
     | '/dashboards/house/find-the-moment'
     | '/dashboards/house/members'
@@ -973,6 +1028,11 @@ export interface FileRouteTypes {
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/dashboards/board-of-education/budget'
+    | '/dashboards/board-of-education/find-the-moment'
+    | '/dashboards/board-of-education/members'
+    | '/dashboards/board-of-education/policies'
+    | '/dashboards/board-of-education/recaps'
     | '/dashboards/house/budget'
     | '/dashboards/house/find-the-moment'
     | '/dashboards/house/members'
@@ -1064,6 +1124,11 @@ export interface FileRouteTypes {
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/dashboards/board-of-education/budget'
+    | '/dashboards/board-of-education/find-the-moment'
+    | '/dashboards/board-of-education/members'
+    | '/dashboards/board-of-education/policies'
+    | '/dashboards/board-of-education/recaps'
     | '/dashboards/house/budget'
     | '/dashboards/house/find-the-moment'
     | '/dashboards/house/members'
@@ -1139,6 +1204,11 @@ export interface RootRouteChildren {
   VideosRoute: typeof VideosRoute
   DashboardsBodyRoute: typeof DashboardsBodyRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
+  DashboardsBoardOfEducationBudgetRoute: typeof DashboardsBoardOfEducationBudgetRoute
+  DashboardsBoardOfEducationFindTheMomentRoute: typeof DashboardsBoardOfEducationFindTheMomentRoute
+  DashboardsBoardOfEducationMembersRoute: typeof DashboardsBoardOfEducationMembersRoute
+  DashboardsBoardOfEducationPoliciesRoute: typeof DashboardsBoardOfEducationPoliciesRoute
+  DashboardsBoardOfEducationRecapsRoute: typeof DashboardsBoardOfEducationRecapsRoute
   DashboardsHouseBudgetRoute: typeof DashboardsHouseBudgetRoute
   DashboardsHouseFindTheMomentRoute: typeof DashboardsHouseFindTheMomentRoute
   DashboardsHouseMembersRoute: typeof DashboardsHouseMembersRoute
@@ -1453,6 +1523,41 @@ declare module '@tanstack/react-router' {
       fullPath: '/counties/loudoun/schools'
       preLoaderRoute: typeof CountiesLoudounSchoolsRouteImport
       parentRoute: typeof CountiesLoudounRoute
+    }
+    '/dashboards/board-of-education/budget': {
+      id: '/dashboards/board-of-education/budget'
+      path: '/dashboards/board-of-education/budget'
+      fullPath: '/dashboards/board-of-education/budget'
+      preLoaderRoute: typeof DashboardsBoardOfEducationBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/board-of-education/find-the-moment': {
+      id: '/dashboards/board-of-education/find-the-moment'
+      path: '/dashboards/board-of-education/find-the-moment'
+      fullPath: '/dashboards/board-of-education/find-the-moment'
+      preLoaderRoute: typeof DashboardsBoardOfEducationFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/board-of-education/members': {
+      id: '/dashboards/board-of-education/members'
+      path: '/dashboards/board-of-education/members'
+      fullPath: '/dashboards/board-of-education/members'
+      preLoaderRoute: typeof DashboardsBoardOfEducationMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/board-of-education/policies': {
+      id: '/dashboards/board-of-education/policies'
+      path: '/dashboards/board-of-education/policies'
+      fullPath: '/dashboards/board-of-education/policies'
+      preLoaderRoute: typeof DashboardsBoardOfEducationPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/board-of-education/recaps': {
+      id: '/dashboards/board-of-education/recaps'
+      path: '/dashboards/board-of-education/recaps'
+      fullPath: '/dashboards/board-of-education/recaps'
+      preLoaderRoute: typeof DashboardsBoardOfEducationRecapsRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/dashboards/house/budget': {
       id: '/dashboards/house/budget'
@@ -1982,6 +2087,14 @@ const rootRouteChildren: RootRouteChildren = {
   VideosRoute: VideosRoute,
   DashboardsBodyRoute: DashboardsBodyRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
+  DashboardsBoardOfEducationBudgetRoute: DashboardsBoardOfEducationBudgetRoute,
+  DashboardsBoardOfEducationFindTheMomentRoute:
+    DashboardsBoardOfEducationFindTheMomentRoute,
+  DashboardsBoardOfEducationMembersRoute:
+    DashboardsBoardOfEducationMembersRoute,
+  DashboardsBoardOfEducationPoliciesRoute:
+    DashboardsBoardOfEducationPoliciesRoute,
+  DashboardsBoardOfEducationRecapsRoute: DashboardsBoardOfEducationRecapsRoute,
   DashboardsHouseBudgetRoute: DashboardsHouseBudgetRoute,
   DashboardsHouseFindTheMomentRoute: DashboardsHouseFindTheMomentRoute,
   DashboardsHouseMembersRoute: DashboardsHouseMembersRoute,

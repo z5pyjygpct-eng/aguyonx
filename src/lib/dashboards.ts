@@ -25,7 +25,7 @@ export const FOIA = {
   mcps: { label: "FOIA to MCPS", href: "https://www.mcpsva.org/page/requests-for-informationfoia/" },
   house: { label: "FOIA to House of Delegates", href: "https://vga.virginia.gov/help/foia/" },
   senate: { label: "FOIA to Senate", href: "https://apps.senate.virginia.gov/Senator/PDFs/SenateFOIARequest.pdf" },
-  vdoe: { label: "FOIA to the Virginia Department of Education", href: "https://www.doe.virginia.gov/about-vdoe/foia-requests" },
+  vdoe: { label: "FOIA to Board of Education", href: "https://www.doe.virginia.gov/about-vdoe/foia-requests" },
 } satisfies Record<string, DashFoia>;
 
 function cityCols(base: string, council: string, schools: string, f1: DashFoia, f2: DashFoia): DashColumn[] {
@@ -218,10 +218,11 @@ export const DASHBOARDS: Dashboard[] = [
       {
         name: "Virginia Board of Education",
         tiles: [
-          { label: "Find the Moment", icon: "play", to: "/board-of-education" },
-          soon("Meeting Recaps", "list"),
-          soon("Policies", "book"),
-          soon("Members", "people"),
+          { label: "Find the Moment", icon: "play", to: "/dashboards/board-of-education/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/board-of-education/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/board-of-education/budget" },
+          { label: "Policies", icon: "book", to: "/dashboards/board-of-education/policies" },
+          { label: "Members", icon: "people", to: "/dashboards/board-of-education/members" },
         ],
         foia: FOIA.vdoe,
       },
