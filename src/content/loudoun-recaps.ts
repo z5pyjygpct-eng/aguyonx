@@ -713,7 +713,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "Board Room, Government Center, Leesburg · video 34m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 15, 2026, 8:40 PM ET",
+      checkedLabel: "Oct 16, 2026, 8:30 AM ET",
       note: "Official vote record not yet posted on Granicus for this clip (Action Report section present but no Action Report document linked). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "Agenda (Granicus)", href: granicusAgenda(8179) },
@@ -754,7 +754,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "Board Room, Government Center, Leesburg · video 1h 48m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 15, 2026, 8:40 PM ET",
+      checkedLabel: "Oct 16, 2026, 8:30 AM ET",
       note: "Official vote record not yet posted on Granicus for this clip (Action Report section present but no Action Report document linked). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "Agenda (Granicus)", href: granicusAgenda(8178) },
@@ -972,7 +972,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "School Board meeting · video 7h 5m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 15, 2026, 8:40 PM ET",
+      checkedLabel: "Oct 16, 2026, 8:30 AM ET",
       note: "Official vote record not yet posted. BoardDocs meeting page has agenda only (BD-GetMinutes returns empty / no View Minutes content). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "BoardDocs meeting", href: boarddocsMeeting("DXGKG851ACED") },
