@@ -113,11 +113,11 @@ export function V4VenueHero({ venue, kicker }: { venue: V4Venue; kicker: string 
 
 export function FoiaButton({ foia }: { foia: V4Foia }) {
   return (
-    <a href={foia.href} target="_blank" rel="noreferrer" className="inline-flex min-h-12 items-center gap-3 rounded-xl border border-navy-line border-l-4 border-l-flag bg-[#1b1a2e] px-4 py-2 hover:border-gold">
-      <Mail className="size-5 text-gold" aria-hidden />
-      <span>
+    <a href={foia.href} target="_blank" rel="noreferrer" className="inline-flex min-h-12 max-w-full items-center gap-3 rounded-xl border border-navy-line border-l-4 border-l-flag bg-[#1b1a2e] px-4 py-2 hover:border-gold">
+      <Mail className="size-5 shrink-0 text-gold" aria-hidden />
+      <span className="min-w-0">
         <span className="block font-semibold">{foia.label}</span>
-        <span className="block font-mono text-xs text-night-muted">{foia.href.replace(/^https?:\/\//, "").replace(/\/$/, "").slice(0, 40)}</span>
+        <span className="block truncate font-mono text-xs text-night-muted">{foia.href.replace(/^https?:\/\//, "").replace(/\/$/, "").slice(0, 40)}</span>
       </span>
       <ExternalLink className="size-4 text-gold" aria-hidden />
     </a>

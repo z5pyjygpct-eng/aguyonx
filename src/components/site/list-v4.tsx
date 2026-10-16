@@ -2,6 +2,7 @@
 import { useMemo, useState, type ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 import { ExternalLink } from "lucide-react";
+import { newsXIntentUrl } from "@/components/site/share-news-x";
 import { Pager, V4Main, pageCount, pageSlice } from "@/components/site/lcps-v4";
 
 export type V4Row = { key: string; loc: string; headline: string; outlet: string; url: string; date: string; group: string; sub?: string };
@@ -13,7 +14,8 @@ export function fmtIso(iso: string, year = true) {
   return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-US", { month: "short", day: "numeric", ...(year ? { year: "numeric" } : {}), timeZone: "UTC" });
 }
 
-export function ListV4Page({ kicker, title, dek, rows, groupLabel, groups, page, onPage, emptyNote, aside }: {
+export function ListV4Page({ kicker, title, dek, rows, groupLabel, groups, page, onPage, emptyNote, aside, search, headerShare }: {
+  search?: ReactNode; headerShare?: { text: string; url: string };
   kicker: string; title: string; dek: ReactNode; rows: V4Row[]; groupLabel: string; groups: { value: string; label: string }[];
   page: number; onPage: (p: number) => void; emptyNote?: (group: string) => ReactNode; aside?: ReactNode;
 }) {
@@ -44,9 +46,11 @@ export function ListV4Page({ kicker, title, dek, rows, groupLabel, groups, page,
           <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">{title}</h1>
           <p className="mt-3 max-w-2xl text-on-dark-muted">{dek}</p>
           {aside ? <div className="mt-3 text-sm">{aside}</div> : null}
+          {headerShare ? <a href={newsXIntentUrl(headerShare.text, headerShare.url)} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex min-h-10 items-center gap-2 rounded-md border border-gold px-3 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-800">Share on <span className="font-bold">𝕏</span></a> : null}
         </div>
       </section>
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-8">
+        {search ? <div className="mb-6">{search}</div> : null}
         <div className="flex flex-wrap items-end gap-4">
           <div className="flex flex-wrap gap-2">{chip("All")}{locs.map(chip)}</div>
           <label className="flex flex-col gap-1 font-mono text-xs tracking-widest text-night-muted uppercase sm:ml-auto">
@@ -64,8 +68,8 @@ export function ListV4Page({ kicker, title, dek, rows, groupLabel, groups, page,
           {filtered.length === 0 ? <p className="py-5 text-sm text-on-dark-muted">{emptyNote?.(group) ?? "Nothing matches. Set a filter back to All."}</p> : null}
           <ul>
             {shown.map((r, i) => (
-              <li key={r.key} className={i ? "border-t border-navy-line" : ""}>
-                <a href={r.url} target="_blank" rel="noreferrer" className="flex flex-wrap items-center gap-x-4 gap-y-1 py-3 hover:bg-navy-600/50 sm:flex-nowrap">
+              <li key={r.key} className={`flex items-center gap-2 ${i ? "border-t border-navy-line" : ""}`}>
+                <a href={r.url} target="_blank" rel="noreferrer" className="flex min-w-0 flex-1 flex-wrap items-center gap-x-4 gap-y-1 py-3 hover:bg-navy-600/50 sm:flex-nowrap">
                   <span className="min-w-[112px] rounded bg-gold px-2 py-1 text-center font-serif text-xs tracking-wider text-navy-800 uppercase">{r.loc}</span>
                   <span className="order-3 basis-full sm:order-none sm:basis-auto sm:flex-1">
                     <span className="font-semibold">{r.headline}</span>
@@ -73,6 +77,7 @@ export function ListV4Page({ kicker, title, dek, rows, groupLabel, groups, page,
                   </span>
                   <span className="text-[13px] whitespace-nowrap text-on-dark-muted">{r.outlet} · {fmtIso(r.date)} <ExternalLink className="inline size-3 text-gold" /></span>
                 </a>
+                <a href={newsXIntentUrl(r.headline, r.url)} target="_blank" rel="noopener noreferrer" aria-label={`Share on X: ${r.headline}`} title="Share on X" className="flex size-9 shrink-0 items-center justify-center rounded-md border border-navy-line font-bold text-on-dark-muted hover:border-gold hover:text-gold">𝕏</a>
               </li>
             ))}
           </ul>

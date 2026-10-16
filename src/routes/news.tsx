@@ -1,13 +1,21 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
+import { HomeSearch } from "@/components/site/home-search";
 import { ListV4Page, type V4Row } from "@/components/site/list-v4";
 import { NEWS_DEK, newsFiledLine, newsNewestFirst, personChip, type NewsItem } from "@/content/news";
 
+/** Outlet-based locality hint (used only when people/headline give no locality). */
+const OUTLET_HINT: Record<string, string> = {
+  "FFXnow": "Fairfax", "Patch Reston": "Fairfax", "Loudoun Now": "Loudoun", "Loudoun Times-Mirror": "Loudoun",
+  "ARLnow": "Arlington", "Potomac Local": "Prince William", "Potomac Local News": "Prince William", "Prince William Times": "Prince William",
+};
 function newsLoc(item: NewsItem): string {
   for (const l of ["Loudoun", "Fairfax", "Prince William", "Arlington"]) {
     if (item.people.some((p) => p.office.startsWith(l))) return l;
     if (item.headline.includes(l)) return l;
   }
+  const hint = OUTLET_HINT[item.outlet];
+  if (hint) return hint;
   return "Statewide";
 }
 const ITEMS = newsNewestFirst();
@@ -36,6 +44,7 @@ function NewsIndex() {
         title="News"
         dek={NEWS_DEK}
         aside={<Link to="/nova-briefing" className="text-gold hover:underline">Daily NoVA Briefing →</Link>}
+        search={<HomeSearch />}
         rows={ROWS}
         groupLabel="Month"
         groups={MONTHS}

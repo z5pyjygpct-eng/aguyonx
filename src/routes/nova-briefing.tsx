@@ -34,6 +34,7 @@ function NovaBriefing() {
         title="Daily NoVA Briefing"
         dek={`Yesterday in ${data.counties.join(", ").replace(/, ([^,]*)$/, " and $1")}, linked to the outlet that reported it. Gaps stay gaps.`}
         aside={<Link to="/news" className="text-gold hover:underline">All News →</Link>}
+        headerShare={{ text: "New every morning: the Daily NoVA Briefing, with yesterday's news from Loudoun, Fairfax, Prince William and Arlington all in one place.", url: "https://aguyonx.com/nova-briefing" }}
         rows={ROWS}
         groupLabel="Edition"
         groups={GROUPS}

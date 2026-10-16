@@ -56,9 +56,9 @@ export function DashboardTemplate({ d }: { d: Dashboard }) {
         </div>
       </section>
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-8">
-        <div className={`grid gap-6 ${two ? "lg:grid-cols-2" : "max-w-3xl"}`}>
+        <div className={`grid min-w-0 gap-6 ${two ? "lg:grid-cols-2" : "max-w-3xl"}`}>
           {d.columns.map((c) => (
-            <div key={c.name} className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-7">
+            <div key={c.name} className="min-w-0 rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-7">
               <h2 className="font-serif text-2xl font-semibold uppercase">{c.name}</h2>
               <div className="mt-5 flex flex-col gap-3">
                 {c.tiles.map((t) => (

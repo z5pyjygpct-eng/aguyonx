@@ -321,7 +321,7 @@ export function LoudounCrossMeetingSearch({ only }: { only?: "county" | "schools
 
       <form role="search" onSubmit={onSubmit} className="mt-6 flex flex-col gap-3 sm:flex-row">
         <label htmlFor="loudoun-cross-meeting-q" className="sr-only">
-          Find the Moment — search Loudoun County and Schools meetings
+          Find the Moment — search {only === "county" ? "Loudoun County Board of Supervisors" : only === "schools" ? "Loudoun County Public Schools" : "Loudoun County and Schools"} meetings
         </label>
         <div className="relative min-w-0 flex-1">
           <Search
