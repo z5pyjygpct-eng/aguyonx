@@ -92,7 +92,7 @@ function Profile({ m, rosterUrl, recapTo }: { m: MemberData; rosterUrl: string; 
   );
 }
 
-export function MembersV4Page({ venue, boardName, explainer, members, rosterUrl, recapTo }: { venue: V4Venue; boardName: string; explainer: string; members: MemberData[]; rosterUrl: string; recapTo: string }) {
+export function MembersV4Page({ venue, boardName, explainer, members, rosterUrl, recapTo, comingSoon }: { comingSoon?: boolean; venue: V4Venue; boardName: string; explainer: string; members: MemberData[]; rosterUrl: string; recapTo: string }) {
   const [district, setDistrict] = useState("All"); const [office, setOffice] = useState("All");
   const [sort, setSort] = useState<"name" | "att">("name"); const [open, setOpen] = useState<string | null>(null);
   const districts = ["All", ...new Set(members.map((m) => m.district))]; const offices = ["All", ...new Set(members.map((m) => m.role))];
@@ -104,6 +104,7 @@ export function MembersV4Page({ venue, boardName, explainer, members, rosterUrl,
   return (
     <V4Main>
       <V4VenueHero venue={venue} kicker="Members" />
+      {comingSoon ? <div role="status" className="bg-gold text-navy-900"><p className="mx-auto max-w-7xl px-4 py-3 text-center font-serif text-lg font-bold tracking-[0.14em] uppercase sm:px-8">Coming soon · Preview mockup — not yet live</p></div> : null}
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-8">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div><h2 className="font-serif text-3xl font-semibold uppercase">{boardName}</h2><p className="text-[#F6F3EA]">{explainer}</p></div>

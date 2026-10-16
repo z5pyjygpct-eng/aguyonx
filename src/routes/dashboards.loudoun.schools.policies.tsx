@@ -58,6 +58,7 @@ function Page() {
     <SiteShell>
       <V4Main>
         <V4VenueHero venue={v} kicker="Policies" />
+        <div role="status" className="bg-gold text-navy-900"><p className="mx-auto max-w-7xl px-4 py-3 text-center font-serif text-lg font-bold tracking-[0.14em] uppercase sm:px-8">Coming soon · Preview mockup — not yet live</p></div>
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-8">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <p className="max-w-3xl text-[#F6F3EA]">

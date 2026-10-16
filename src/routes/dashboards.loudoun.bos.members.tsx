@@ -13,7 +13,7 @@ export const Route = createFileRoute("/dashboards/loudoun/bos/members")({
   head: () => ({ meta: [{ title: "Loudoun Board of Supervisors Members · A Guy on X" }] }),
   component: () => (
     <SiteShell>
-      <MembersV4Page venue={V4_VENUES["loudoun-bos"]} boardName="Loudoun County Board of Supervisors" explainer="Nine elected supervisors who set county policy, taxes and the budget." members={MEMBERS} rosterUrl="https://www.loudoun.gov/bos" recapTo="/counties/loudoun/recaps/$slug" />
+      <MembersV4Page comingSoon venue={V4_VENUES["loudoun-bos"]} boardName="Loudoun County Board of Supervisors" explainer="Nine elected supervisors who set county policy, taxes and the budget." members={MEMBERS} rosterUrl="https://www.loudoun.gov/bos" recapTo="/counties/loudoun/recaps/$slug" />
     </SiteShell>
   ),
 });

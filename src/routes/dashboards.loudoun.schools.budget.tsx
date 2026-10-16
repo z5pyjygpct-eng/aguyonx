@@ -56,6 +56,7 @@ function Page() {
     <SiteShell>
       <V4Main>
         <V4VenueHero venue={v} kicker="Budget & Finance" />
+        <div role="status" className="bg-gold text-navy-900"><p className="mx-auto max-w-7xl px-4 py-3 text-center font-serif text-lg font-bold tracking-[0.14em] uppercase sm:px-8">Coming soon · Preview mockup — not yet live</p></div>
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-8">
           <section className="rounded-[10px] border border-navy-line border-l-4 border-l-gold bg-navy-700 p-6 sm:p-8">
             <p className={lab}>{B.fiscalYear} school operating fund · BOS Adopted</p>

@@ -14,7 +14,7 @@ export const Route = createFileRoute("/dashboards/loudoun/schools/members")({
   head: () => ({ meta: [{ title: "LCPS School Board Members · A Guy on X" }] }),
   component: () => (
     <SiteShell>
-      <MembersV4Page venue={V4_VENUES["loudoun-lcps"]} boardName="Loudoun County School Board" explainer="Nine elected members who set LCPS policy and adopt the school budget." members={MEMBERS} rosterUrl="https://www.lcps.org/page/school-board" recapTo="/counties/loudoun/recaps/$slug" />
+      <MembersV4Page comingSoon venue={V4_VENUES["loudoun-lcps"]} boardName="Loudoun County School Board" explainer="Nine elected members who set LCPS policy and adopt the school budget." members={MEMBERS} rosterUrl="https://www.lcps.org/page/school-board" recapTo="/counties/loudoun/recaps/$slug" />
     </SiteShell>
   ),
 });
