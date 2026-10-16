@@ -50,6 +50,34 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "dumfries-accepts-7m-route-1-trash-potomaclocal-2026-10-16",
+    date: "2026-10-16",
+    headline: "Dumfries accepts $7 million for Route 1 corridor work and switches to twice-weekly trash pickup",
+    outlet: "Potomac Local",
+    url: "https://www.potomaclocal.com/2026/10/16/dumfries-accepts-7-million-for-route-1-corridor-work-and-switches-to-twice-weekly-trash-pickup/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "equality-arlington-va8-candidate-grades-patch-2026-10-15",
+    date: "2026-10-15",
+    filed: "2026-10-16",
+    headline: "Arlington LGBTQ+ Group Releases Congressional Candidate Grades",
+    outlet: "Patch",
+    url: "https://patch.com/virginia/arlington-va/va-8th-district-candidates-graded-lgbtq-rights-arlington-group",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "leesburg-town-council-mayor-qa-ltm-2026-10-16",
+    date: "2026-10-16",
+    headline: "Q&A with candidates for Leesburg Town Council and mayor",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/politics_and_government/q-a-with-candidates-for-leesburg-town-council-and-mayor/article_6070b35a-2575-49af-b630-df3e4416d5e9.html",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "missing-middle-arguments-head-virginia-supreme-arlnow-2026-10-15",
     date: "2026-10-15",
     headline: "Missing Middle arguments head to the Virginia Supreme Court this month",
