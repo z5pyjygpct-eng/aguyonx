@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,240 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-16",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 15) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (outlet headline, URL and Oct 15 ET publish date checked on each article page). Sources checked: Loudoun Now, Loudoun Times-Mirror, FFXnow, ARLnow, InsideNoVa, Prince William Times, Potomac Local, Blue Ridge Leader, Patch (Leesburg/Ashburn, Fairfax City, Vienna, Arlington, Manassas), WTOP, WUSA9, WJLA, NBC Washington, FOX 5 DC, plus news searches; news.ts had one Oct 15 Loudoun item (LTM FACE hub) already filed and a statewide Virginia Mercury item left out. Caveats: capped (40 candidates evaluated, 25 kept); Loudoun Now, Loudoun Times-Mirror and InsideNoVa RSS rate-limited (read from site pages instead); Blue Ridge Leader had no Oct 15 news posts; WTOP Virginia feed had no new Oct 15 NoVA local match in scope; Falls Church-only and Stafford items left out; same-story duplicates across outlets dropped (e.g., LTM salary/FACE hub vs Loudoun Now; Potomac Local youth firesetting already in store Oct 14); sponsored/Morning Notes/candidate ‘why vote for me’ pieces and soft lifestyle caps left out; Patch headline taken from the article page H1.",
+      "items": [
+        {
+          "id": "missing-middle-arguments-head-virginia-supreme-arlnow-2026-10-15",
+          "county": "Arlington",
+          "headline": "Missing Middle arguments head to the Virginia Supreme Court this month",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/15/missing-middle-arguments-head-to-the-virginia-supreme-court-this-month/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "acpd-suspects-stabbed-employee-threw-rocks-arlnow-2026-10-15",
+          "county": "Arlington",
+          "headline": "ACPD: Suspects stabbed employee, threw rocks at Ballston business",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/15/acpd-suspects-stabbed-employee-threw-rocks-at-ballston-business/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "e-care-disposal-event-returns-arlington-arlnow-2026-10-15",
+          "county": "Arlington",
+          "headline": "E-CARE disposal event returns to Arlington this weekend",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/15/e-care-disposal-event-returns-to-arlington-this-weekend/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "big-clock-pentagon-city-broken-frozen-arlnow-2026-10-15",
+          "county": "Arlington",
+          "headline": "The big clock in Pentagon City is broken, frozen at 10:17",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/15/the-big-clock-in-pentagon-city-is-broken-frozen-at-1017/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-seeks-feedback-oakton-community-park-ffxnow-2026-10-15",
+          "county": "Fairfax",
+          "headline": "County seeks feedback on new amenities proposed for Oakton Community Park",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/15/county-seeks-feedback-on-new-amenities-proposed-for-oakton-community-park/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "volunteer-fire-departments-fairfax-brace-ffxnow-2026-10-15",
+          "county": "Fairfax",
+          "headline": "Volunteer fire departments in Fairfax brace for new year of change, commission chair says",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/15/fairfaxs-volunteer-fire-departments-succeed-despite-challenges-commission-chair-says/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "olympic-medalists-join-fcps-water-safety-ffxnow-2026-10-15",
+          "county": "Fairfax",
+          "headline": "Olympic medalists join FCPS to kick off new water safety program for kids",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/15/fcps-kicks-off-water-safety-program-for-kids-with-visits-from-olympic-medalists/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcpd-herndon-man-charged-sell-drugs-gun-ffxnow-2026-10-15",
+          "county": "Fairfax",
+          "headline": "FCPD: Herndon man charged after trying to sell drugs for a gun",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/15/fcpd-herndon-man-charged-after-trying-to-sell-drugs-for-a-gun/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-targets-empty-land-innovation-center-ffxnow-2026-10-15",
+          "county": "Fairfax",
+          "headline": "County targets empty land near Innovation Center Metro for affordable housing",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/15/county-targets-empty-land-near-innovation-center-metro-for-affordable-housing/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "washington-post-plans-layoffs-springfield-ffxnow-2026-10-15",
+          "county": "Fairfax",
+          "headline": "Washington Post plans layoffs tied to Springfield printing plant closure",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/15/washington-post-plans-layoffs-ahead-of-springfield-printing-plant-closure/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "from-police-cameras-school-funding-fairfax-patch-2026-10-15",
+          "county": "Fairfax",
+          "headline": "From Police Cameras To School Funding: What Fairfax Groups Want Changed",
+          "outlet": "Patch",
+          "url": "https://patch.com/virginia/fairfaxcity/fairfax-naacp-unveils-plan-targeting-housing-police-surveillance-schools",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loaded-firearms-waistband-herndon-teen-fox5-2026-10-15",
+          "county": "Fairfax",
+          "headline": "Loaded firearms found in waistband of Herndon teen after foot pursuit, Fairfax County police say",
+          "outlet": "FOX 5 DC",
+          "url": "https://www.fox5dc.com/news/loaded-firearms-found-waistband-herndon-teen-after-foot-pursuit-fairfax-county-police-say",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-supervisors-advance-30-compensation-loudounnow-2026-10-15",
+          "county": "Loudoun",
+          "headline": "Loudoun Supervisors Advance 30% Compensation Increases",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/loudoun-supervisors-advance-30-compensation-increases/article_e7abfe7e-7b64-4995-85c3-89281a2cd3fe.html",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "school-board-discusses-return-showing-public-speakers-loudounnow-2026-10-15",
+          "county": "Loudoun",
+          "headline": "School Board Discusses Return to Showing Public Speakers on Meeting Broadcasts",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/school-board-discusses-return-to-showing-public-speakers-on-meeting-broadcasts/article_bfd1e34e-b4a0-4221-9062-06a06e7eaa09.html",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "school-board-approves-resource-hub-proposal-loudounnow-2026-10-15",
+          "county": "Loudoun",
+          "headline": "School Board Approves Resource Hub Proposal",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/education/school-board-approves-resource-hub-proposal/article_9ec0ca9f-6b3c-4a28-a763-bfb4aa2d1f3c.html",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "school-board-first-look-eastern-loudoun-boundaries-loudounnow-2026-10-15",
+          "county": "Loudoun",
+          "headline": "School Board Takes First Look at Eastern Loudoun Elementary School Boundary Changes",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/school-board-takes-first-look-at-eastern-loudoun-elementary-school-boundary-changes/article_64844b25-7cd0-46f3-8e6d-56a55db84f21.html",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "body-found-abandoned-sterling-home-loudounnow-2026-10-15",
+          "county": "Loudoun",
+          "headline": "Body Found in Abandoned Sterling Home",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/body-found-in-abandoned-sterling-home/article_d93017d5-720b-47e6-92e3-5c7077146e81.html",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "judge-allows-modified-subpoenas-purcellville-loudounnow-2026-10-15",
+          "county": "Loudoun",
+          "headline": "Judge Allows Modified Subpoenas in Purcellville Vice Mayor’s Case Ahead of Trial",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/judge-allows-modified-subpoenas-in-purcellville-vice-mayor-s-case-ahead-of-trial/article_78c0e278-af61-45d5-bcb4-d1cbe9c70a34.html",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "friends-blue-ridge-mountains-honor-tekrony-loudounnow-2026-10-15",
+          "county": "Loudoun",
+          "headline": "Friends of the Blue Ridge Mountains Honor TeKrony, Kaine",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/community_news/friends-of-the-blue-ridge-mountains-honor-tekrony-kaine/article_78c7a00e-66ef-4c3c-beb3-416103692cd7.html",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "kevin-ash-plans-condo-project-middleburg-ltm-2026-10-15",
+          "county": "Loudoun",
+          "headline": "Kevin Ash plans condo project in Middleburg",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/kevin-ash-plans-condo-project-in-middleburg/article_5e53290a-73ab-4e47-aec8-68f29744bf3d.html",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "dumfries-holds-town-hall-paused-flock-potomaclocal-2026-10-15",
+          "county": "Prince William",
+          "headline": "Dumfries holds town hall tonight on paused Flock cameras",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/15/dumfries-holds-town-hall-tonight-on-paused-flock-cameras/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "district-hemp-closes-manassas-store-potomaclocal-2026-10-15",
+          "county": "Prince William",
+          "headline": "District Hemp closes Manassas store after Spanberger’s new hemp rules",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/15/district-hemp-closes-manassas-store-after-spanbergers-new-hemp-rules/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-ice-arrests-woodbridge-crash-potomaclocal-2026-10-15",
+          "county": "Prince William",
+          "headline": "Police Blotter: ICE arrests man with child sex abuse material conviction; passenger dies in Woodbridge crash",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/15/police-blotter-2026-10-15/",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "woodbridge-woman-83-killed-dale-boulevard-insidenova-2026-10-15",
+          "county": "Prince William",
+          "headline": "Woodbridge woman, 83, killed in Dale Boulevard crash",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/headlines/woodbridge-woman-83-killed-in-dale-boulevard-crash/article_c1d3b2c1-9395-47ca-a8e7-8c4e103b8570.html",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "investigator-describes-blood-evidence-bhatt-pwt-2026-10-15",
+          "county": "Prince William",
+          "headline": "Investigator describes blood, other evidence found in Bhatt’s home after Mamta disappeared",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/investigator-describes-blood-other-evidence-found-in-bhatt-s-home-after-mamta-disappeared/article_6411e545-b3c9-4414-a827-1fb16b086b51.html",
+          "published": "2026-10-15",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-10-15",
       "status": "ok",
