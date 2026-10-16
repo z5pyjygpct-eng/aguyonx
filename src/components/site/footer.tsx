@@ -77,6 +77,7 @@ export function SiteFooter({ location = SITE.location }: { location?: string } =
         </div>
         <div className="mt-10 flex flex-col gap-3 border-t border-navy-line pt-6 text-xs text-night-muted sm:flex-row sm:justify-between">
           <p className="max-w-2xl">
+            <span className="block text-[11px] font-semibold tracking-wide text-gold">a guy on X</span>
             {SITE.credit} Citations are to public records and public media. Sample datasets on this
             site demonstrate method; they are labeled as such.
           </p>

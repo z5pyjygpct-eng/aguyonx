@@ -82,7 +82,7 @@ export function SiteHeader(_props: { inverted?: boolean } = {}) {
               onClick={() => setTools((v) => !v)}
               onMouseEnter={() => setTools(true)}
             >
-              Tools <ChevronDown className="ml-1 size-4 text-gold" />
+              Other Resources <ChevronDown className="ml-1 size-4 text-gold" />
             </button>
             {tools ? (
               <div role="menu" className="absolute right-0 top-11 w-60 rounded-lg border border-navy-line bg-navy-700 p-2 shadow-xl">
