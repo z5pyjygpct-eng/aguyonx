@@ -76,8 +76,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/loudoun/schools/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/loudoun/schools/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/counties/loudoun/schools", hash: "budget" },
-          { label: "Policies", icon: "book", to: "/counties/loudoun/schools" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/loudoun/schools/budget" },
+          { label: "Policies", icon: "book", to: "/dashboards/loudoun/schools/policies" },
           { label: "Members", icon: "people", to: "/counties/loudoun/schools" },
         ],
         foia: FOIA.lcps,
