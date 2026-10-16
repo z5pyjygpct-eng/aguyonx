@@ -138,6 +138,6 @@
 .agx-dark :focus-visible { outline-color: var(--color-gold); }
 /* v4 LCPS Find the Moment: keep the search widget's controls, drop its long intro copy. */
 .lcps-v4-search > section { border: 0; background: transparent; }
-.lcps-v4-search > section > p:first-child,
+.lcps-v4-search > section > p,
 .lcps-v4-search > section > h2,
 .lcps-v4-search > section > aside { display: none; }

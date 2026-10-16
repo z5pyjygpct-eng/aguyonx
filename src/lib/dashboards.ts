@@ -64,8 +64,8 @@ export const DASHBOARDS: Dashboard[] = [
       {
         name: "Loudoun County Board of Supervisors",
         tiles: [
-          { label: "Find the Moment", icon: "play", to: "/counties/loudoun/find-the-moment" },
-          { label: "Meeting Recaps", icon: "list", to: "/counties/loudoun" },
+          { label: "Find the Moment", icon: "play", to: "/dashboards/loudoun/bos/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/loudoun/bos/recaps" },
           soon("Budget/Finances", "money"),
           { label: "Members", icon: "people", to: "/counties/loudoun" },
         ],
