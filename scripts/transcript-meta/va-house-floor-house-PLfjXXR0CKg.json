@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-house-floor/transcripts/house-PLfjXXR0CKg.json",
+  "outBase": "public/files/find-the-moment/va-house-floor/transcripts/coraggio-transcript-va-house-floor-2026-03-06-house-of-delegates-floor-session-regular-session",
+  "title": "Virginia House of Delegates Floor Session, Regular Session, Friday, March 6, 2026",
+  "shortTitle": "House Floor Session (Regular Session) \u00b7 Mar 6, 2026",
+  "date": "Friday, March 6, 2026",
+  "place": "Virginia House of Delegates, House Chamber, State Capitol, Richmond",
+  "length": "2h 3m (video)",
+  "links": [
+    {
+      "label": "Official floor video (House of Delegates archive, YouTube)",
+      "href": "https://www.youtube.com/watch?v=PLfjXXR0CKg"
+    },
+    {
+      "label": "LIS House minutes",
+      "href": "https://lis.virginia.gov/session-details/20261/minutes-list/H"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-16"
+}

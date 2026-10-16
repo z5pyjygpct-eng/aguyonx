@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-house-floor/transcripts/house-46CHM3oLyYM.json",
+  "outBase": "public/files/find-the-moment/va-house-floor/transcripts/coraggio-transcript-va-house-floor-2026-01-22-house-of-delegates-floor-session-regular-session",
+  "title": "Virginia House of Delegates Floor Session, Regular Session, Thursday, January 22, 2026",
+  "shortTitle": "House Floor Session (Regular Session) \u00b7 Jan 22, 2026",
+  "date": "Thursday, January 22, 2026",
+  "place": "Virginia House of Delegates, House Chamber, State Capitol, Richmond",
+  "length": "1h 10m (video)",
+  "links": [
+    {
+      "label": "Official floor video (House of Delegates archive, YouTube)",
+      "href": "https://www.youtube.com/watch?v=46CHM3oLyYM"
+    },
+    {
+      "label": "LIS House minutes",
+      "href": "https://lis.virginia.gov/session-details/20261/minutes-list/H"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-16"
+}

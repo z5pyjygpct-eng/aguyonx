@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-house-floor/transcripts/house-CBzZw9TBUvU.json",
+  "outBase": "public/files/find-the-moment/va-house-floor/transcripts/coraggio-transcript-va-house-floor-2026-02-26-house-of-delegates-floor-session-regular-session-part-2",
+  "title": "Virginia House of Delegates Floor Session, Regular Session (Part 2), Thursday, February 26, 2026",
+  "shortTitle": "House Floor Session (Regular Session (Part 2)) \u00b7 Feb 26, 2026",
+  "date": "Thursday, February 26, 2026",
+  "place": "Virginia House of Delegates, House Chamber, State Capitol, Richmond",
+  "length": "1h 16m (video)",
+  "links": [
+    {
+      "label": "Official floor video (House of Delegates archive, YouTube)",
+      "href": "https://www.youtube.com/watch?v=CBzZw9TBUvU"
+    },
+    {
+      "label": "LIS House minutes",
+      "href": "https://lis.virginia.gov/session-details/20261/minutes-list/H"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-16"
+}

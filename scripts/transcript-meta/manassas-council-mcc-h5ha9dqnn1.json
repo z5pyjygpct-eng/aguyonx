@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/manassas-council/transcripts/mcc-h5ha9dqnn1.json",
+  "outBase": "public/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-10-05-manassas-city-council-10-5-2026",
+  "title": "Manassas City Council 10/5/2026",
+  "shortTitle": "Council 10/5/2026 \u00b7 Oct 5, 2026",
+  "date": "Monday, October 5, 2026",
+  "place": "Manassas City Council, Virginia",
+  "length": "0h 15m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Wistia / RegionalWebTV)",
+      "href": "https://fast.wistia.net/embed/iframe/h5ha9dqnn1"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-16"
+}

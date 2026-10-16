@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-house-floor/transcripts/house-gFsBPn22o8c.json",
+  "outBase": "public/files/find-the-moment/va-house-floor/transcripts/coraggio-transcript-va-house-floor-2026-02-15-house-of-delegates-floor-session-pro-forma-session",
+  "title": "Virginia House of Delegates Floor Session, Pro Forma Session, Sunday, February 15, 2026",
+  "shortTitle": "House Floor Session (Pro Forma Session) \u00b7 Feb 15, 2026",
+  "date": "Sunday, February 15, 2026",
+  "place": "Virginia House of Delegates, House Chamber, State Capitol, Richmond",
+  "length": "0h 5m (video)",
+  "links": [
+    {
+      "label": "Official floor video (House of Delegates archive, YouTube)",
+      "href": "https://www.youtube.com/watch?v=gFsBPn22o8c"
+    },
+    {
+      "label": "LIS House minutes",
+      "href": "https://lis.virginia.gov/session-details/20261/minutes-list/H"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-16"
+}

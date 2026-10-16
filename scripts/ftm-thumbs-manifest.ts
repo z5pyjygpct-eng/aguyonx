@@ -16,7 +16,7 @@ import { SENATE_MEETINGS, SENATE_RECAPS } from "../src/content/va-senate";
 import { VBOE_MEETINGS } from "../src/content/va-boe";
 
 const OVR = JSON.parse(fs.readFileSync("data/ftm-thumb-overrides.json", "utf8"));
-const LIVE_CITY = ["fairfax-city-council", "fairfax-city-schools", "albemarle-schools", "albemarle-bos"];
+const LIVE_CITY = ["fairfax-city-council", "fairfax-city-schools", "albemarle-schools", "albemarle-bos", "manassas-council", "manassas-schools"];
 const SKIP = /consent agenda|on consent|Suspend the Rules|Reconsider|minutes|agenda approved|approval of the agenda|adopt(ed)? the agenda|Proclamation|Resolution to Recognize|appointment|nomination|Rules of Order|postponed|adjourn|closed session|Administrative Items|remote participation|adoption of the agenda|agenda adoption|electronic participation|call to order|meeting opening/i;
 
 type Entry = { venue: string; id: string; date: string; type: string; headline?: string; result?: string; duration: string; source?: string; youtubeId?: string; vimeoId?: string; out: string };

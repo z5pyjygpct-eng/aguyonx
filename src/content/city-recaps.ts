@@ -60,6 +60,970 @@ export type CityRecap = Omit<LoudounRecap, "venue"> & { venue: CityVenueId; noVo
 
 const CITY_RECAPS_RAW: CityRecap[] = [
   {
+    slug: "mcc-h5ha9dqnn1",
+    meetingId: "mcc-h5ha9dqnn1",
+    venue: "manassas-council",
+    title: "Manassas City Council 10/5/2026",
+    dateLabel: "Monday, October 5, 2026",
+    whenWhere: "Manassas City Council meeting · video 0h 15m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/h5ha9dqnn1" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-10-05-manassas-city-council-10-5-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-10-05-manassas-city-council-10-5-2026.txt", "pdfNote": "5 pages"},
+    shareContext: "Manassas City Council, Oct 5, 2026",
+    moments: [
+      { seconds: 17, label: "Pledge of Allegiance." },
+      { seconds: 235, label: "Early agenda business." },
+      { seconds: 473, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "mcc-3tz7mse7ii",
+    meetingId: "mcc-3tz7mse7ii",
+    venue: "manassas-council",
+    title: "Manassas City Council 9/28/2026",
+    dateLabel: "Monday, September 28, 2026",
+    whenWhere: "Manassas City Council meeting · video 3h 15m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/3tz7mse7ii" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-09-28-manassas-city-council-9-28-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-09-28-manassas-city-council-9-28-2026.txt", "pdfNote": "46 pages"},
+    shareContext: "Manassas City Council, Sep 28, 2026",
+    moments: [
+      { seconds: 19, label: "Pledge of Allegiance." },
+      { seconds: 6982, label: "Consent agenda motion." },
+      { seconds: 7124, label: "Public comment / public hearing begins." },
+      { seconds: 11705, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-3foMneQPfkg",
+    meetingId: "mcps-3foMneQPfkg",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - September 22, 2026",
+    dateLabel: "Tuesday, September 22, 2026",
+    whenWhere: "Manassas City School Board meeting · video 0h 31m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=3foMneQPfkg" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-09-22-manassas-city-school-board-meeting-september-22-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-09-22-manassas-city-school-board-meeting-september-22-2026.txt", "pdfNote": "9 pages"},
+    shareContext: "Manassas School Board, Sep 22, 2026",
+    moments: [
+      { seconds: 6, label: "Pledge of Allegiance." },
+      { seconds: 144, label: "Consent agenda motion." },
+      { seconds: 1671, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-wtyv43d8ra",
+    meetingId: "mcc-wtyv43d8ra",
+    venue: "manassas-council",
+    title: "Manassas City Council Meeting",
+    dateLabel: "Monday, September 21, 2026",
+    whenWhere: "Manassas City Council meeting · video 1h 7m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/wtyv43d8ra" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-09-21-manassas-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-09-21-manassas-city-council-meeting.txt", "pdfNote": "17 pages"},
+    shareContext: "Manassas City Council, Sep 21, 2026",
+    moments: [
+      { seconds: 998, label: "Early agenda business." },
+      { seconds: 2019, label: "Mid-meeting discussion." },
+      { seconds: 3018, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-uwybtamyoa",
+    meetingId: "mcc-uwybtamyoa",
+    venue: "manassas-council",
+    title: "Manassas City Council Meeting",
+    dateLabel: "Monday, September 21, 2026",
+    whenWhere: "Manassas City Council meeting · video 1h 52m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/uwybtamyoa" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-09-21-manassas-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-09-21-manassas-city-council-meeting.txt", "pdfNote": "17 pages"},
+    shareContext: "Manassas City Council, Sep 21, 2026",
+    moments: [
+      { seconds: 1697, label: "Early agenda business." },
+      { seconds: 3355, label: "Mid-meeting discussion." },
+      { seconds: 5035, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-0loo6fhg89",
+    meetingId: "mcc-0loo6fhg89",
+    venue: "manassas-council",
+    title: "Manassas City Council Meeting",
+    dateLabel: "Monday, September 14, 2026",
+    whenWhere: "Manassas City Council meeting · video 2h 29m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/0loo6fhg89" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-09-14-manassas-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-09-14-manassas-city-council-meeting.txt", "pdfNote": "33 pages"},
+    shareContext: "Manassas City Council, Sep 14, 2026",
+    moments: [
+      { seconds: 22, label: "Pledge of Allegiance." },
+      { seconds: 2237, label: "Early agenda business." },
+      { seconds: 8948, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps--P35Zj_Mtuo",
+    meetingId: "mcps--P35Zj_Mtuo",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - September 10, 2026",
+    dateLabel: "Thursday, September 10, 2026",
+    whenWhere: "Manassas City School Board meeting · video 1h 55m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=-P35Zj_Mtuo" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-09-10-manassas-city-school-board-work-session-september-10-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-09-10-manassas-city-school-board-work-session-september-10-2026.txt", "pdfNote": "24 pages"},
+    shareContext: "Manassas School Board, Sep 10, 2026",
+    moments: [
+      { seconds: 1728, label: "Early agenda business." },
+      { seconds: 4139, label: "Motion to enter closed session." },
+      { seconds: 6863, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-KHawyORRo64",
+    meetingId: "mcps-KHawyORRo64",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - September 8, 2026",
+    dateLabel: "Tuesday, September 8, 2026",
+    whenWhere: "Manassas City School Board meeting · video 1h 19m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=KHawyORRo64" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-09-08-manassas-city-school-board-meeting-september-8-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-09-08-manassas-city-school-board-meeting-september-8-2026.txt", "pdfNote": "19 pages"},
+    shareContext: "Manassas School Board, Sep 8, 2026",
+    moments: [
+      { seconds: 7, label: "Pledge of Allegiance." },
+      { seconds: 110, label: "Motion to enter closed session." },
+      { seconds: 959, label: "Consent agenda motion." },
+    ],
+  },
+  {
+    slug: "mcps-GaFKrn14pPY",
+    meetingId: "mcps-GaFKrn14pPY",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - August 25, 2026",
+    dateLabel: "Tuesday, August 25, 2026",
+    whenWhere: "Manassas City School Board meeting · video 1h 16m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=GaFKrn14pPY" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-08-25-manassas-city-school-board-meeting-august-25-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-08-25-manassas-city-school-board-meeting-august-25-2026.txt", "pdfNote": "16 pages"},
+    shareContext: "Manassas School Board, Aug 25, 2026",
+    moments: [
+      { seconds: 5, label: "Pledge of Allegiance." },
+      { seconds: 233, label: "Motion to enter closed session." },
+      { seconds: 2801, label: "Consent agenda motion." },
+      { seconds: 4516, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-IXVZh8_mthU",
+    meetingId: "mcps-IXVZh8_mthU",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - August 13, 2026",
+    dateLabel: "Thursday, August 13, 2026",
+    whenWhere: "Manassas City School Board meeting · video 2h 6m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=IXVZh8_mthU" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-08-13-manassas-city-school-board-work-session-august-13-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-08-13-manassas-city-school-board-work-session-august-13-2026.txt", "pdfNote": "28 pages"},
+    shareContext: "Manassas School Board, Aug 13, 2026",
+    moments: [
+      { seconds: 2, label: "Pledge of Allegiance." },
+      { seconds: 1880, label: "Early agenda business." },
+      { seconds: 3775, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "mcps-1_vhLzRZsHQ",
+    meetingId: "mcps-1_vhLzRZsHQ",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - August 11, 2026",
+    dateLabel: "Tuesday, August 11, 2026",
+    whenWhere: "Manassas City School Board meeting · video 0h 59m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=1_vhLzRZsHQ" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-08-11-manassas-city-school-board-meeting-august-11-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-08-11-manassas-city-school-board-meeting-august-11-2026.txt", "pdfNote": "16 pages"},
+    shareContext: "Manassas School Board, Aug 11, 2026",
+    moments: [
+      { seconds: 7, label: "Pledge of Allegiance." },
+      { seconds: 350, label: "Consent agenda motion." },
+      { seconds: 3496, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-YeM9975Wi38",
+    meetingId: "mcps-YeM9975Wi38",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - July 28, 2026",
+    dateLabel: "Tuesday, July 28, 2026",
+    whenWhere: "Manassas City School Board meeting · video 2h 39m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=YeM9975Wi38" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-07-28-manassas-city-school-board-meeting-july-28-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-07-28-manassas-city-school-board-meeting-july-28-2026.txt", "pdfNote": "36 pages"},
+    shareContext: "Manassas School Board, Jul 28, 2026",
+    moments: [
+      { seconds: 4, label: "Pledge of Allegiance." },
+      { seconds: 862, label: "Consent agenda motion." },
+      { seconds: 2390, label: "Early agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-a96lshfwq5",
+    meetingId: "mcc-a96lshfwq5",
+    venue: "manassas-council",
+    title: "Manassas City Council Meeting",
+    dateLabel: "Monday, July 27, 2026",
+    whenWhere: "Manassas City Council meeting · video 1h 47m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/a96lshfwq5" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-07-27-manassas-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-07-27-manassas-city-council-meeting.txt", "pdfNote": "24 pages"},
+    shareContext: "Manassas City Council, Jul 27, 2026",
+    moments: [
+      { seconds: 5, label: "Pledge of Allegiance." },
+      { seconds: 1596, label: "Early agenda business." },
+      { seconds: 6413, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-dloq5l613l",
+    meetingId: "mcc-dloq5l613l",
+    venue: "manassas-council",
+    title: "Manassas City Council Meeting",
+    dateLabel: "Monday, July 20, 2026",
+    whenWhere: "Manassas City Council meeting · video 0h 47m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/dloq5l613l" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-07-20-manassas-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-07-20-manassas-city-council-meeting.txt", "pdfNote": "12 pages"},
+    shareContext: "Manassas City Council, Jul 20, 2026",
+    moments: [
+      { seconds: 696, label: "Early agenda business." },
+      { seconds: 1418, label: "Mid-meeting discussion." },
+      { seconds: 2129, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcps-NgXNJhUWats",
+    meetingId: "mcps-NgXNJhUWats",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - July 14, 2026",
+    dateLabel: "Tuesday, July 14, 2026",
+    whenWhere: "Manassas City School Board meeting · video 1h 1m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=NgXNJhUWats" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-07-14-manassas-city-school-board-meeting-july-14-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-07-14-manassas-city-school-board-meeting-july-14-2026.txt", "pdfNote": "17 pages"},
+    shareContext: "Manassas School Board, Jul 14, 2026",
+    moments: [
+      { seconds: 5, label: "Pledge of Allegiance." },
+      { seconds: 235, label: "Consent agenda motion." },
+      { seconds: 919, label: "Early agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-zz0ife88yh",
+    meetingId: "mcc-zz0ife88yh",
+    venue: "manassas-council",
+    title: "Manassas City Council Meeting",
+    dateLabel: "Monday, July 13, 2026",
+    whenWhere: "Manassas City Council meeting · video 1h 55m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/zz0ife88yh" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-07-13-manassas-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-07-13-manassas-city-council-meeting.txt", "pdfNote": "28 pages"},
+    shareContext: "Manassas City Council, Jul 13, 2026",
+    moments: [
+      { seconds: 7, label: "Pledge of Allegiance." },
+      { seconds: 2810, label: "Consent agenda motion." },
+      { seconds: 2916, label: "Public comment / public hearing begins." },
+      { seconds: 6906, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-ecvkx2kgbn",
+    meetingId: "mcc-ecvkx2kgbn",
+    venue: "manassas-council",
+    title: "Manassas City Council Meeting",
+    dateLabel: "Thursday, June 25, 2026",
+    whenWhere: "Manassas City Council meeting · video 1h 44m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/ecvkx2kgbn" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-06-25-manassas-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-06-25-manassas-city-council-meeting.txt", "pdfNote": "25 pages"},
+    shareContext: "Manassas City Council, Jun 25, 2026",
+    moments: [
+      { seconds: 1565, label: "Early agenda business." },
+      { seconds: 3133, label: "Mid-meeting discussion." },
+      { seconds: 6225, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "alb-bos-1015",
+    meetingId: "alb-bos-1015",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, June 5, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 53m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1015" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1015" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-06-05-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-06-05-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "66 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jun 5, 2024",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 74, label: "Pledge of Allegiance." },
+      { seconds: 3540, label: "Consent agenda motion." },
+      { seconds: 8092, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "alb-bos-1009",
+    meetingId: "alb-bos-1009",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, May 15, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 6h 5m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1009" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1009" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-05-15-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-05-15-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "71 pages"},
+    shareContext: "Albemarle Board of Supervisors, May 15, 2024",
+    moments: [
+      { seconds: 1, label: "Meeting called to order." },
+      { seconds: 3886, label: "Public comment / public hearing begins." },
+      { seconds: 4806, label: "Consent agenda motion." },
+    ],
+  },
+  {
+    slug: "alb-bos-1006",
+    meetingId: "alb-bos-1006",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, May 1, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 49m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1006" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1006" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-05-01-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-05-01-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "56 pages"},
+    shareContext: "Albemarle Board of Supervisors, May 1, 2024",
+    moments: [
+      { seconds: 1, label: "Meeting called to order." },
+      { seconds: 3700, label: "Consent agenda motion." },
+      { seconds: 11968, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "alb-bos-1003",
+    meetingId: "alb-bos-1003",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Public Hearing on the CY 24 tax rate",
+    dateLabel: "Wednesday, April 24, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 0h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1003" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1003" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-04-24-albemarle-county-board-of-supervisors-public-hearing-on-the-cy-24-tax-rate.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-04-24-albemarle-county-board-of-supervisors-public-hearing-on-the-cy-24-tax-rate.txt", "pdfNote": "15 pages"},
+    shareContext: "Albemarle Board of Supervisors, Apr 24, 2024",
+    moments: [
+      { seconds: 839, label: "Early agenda business." },
+      { seconds: 1372, label: "Public comment / public hearing begins." },
+      { seconds: 1701, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "alb-bos-1000",
+    meetingId: "alb-bos-1000",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting and Public Hearing on Board’s Proposed Budget",
+    dateLabel: "Wednesday, April 17, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 9h 36m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1000" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1000" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-04-17-albemarle-county-board-of-supervisors-regular-second-meeting-and-public-hearing-on-board-s-proposed-.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-04-17-albemarle-county-board-of-supervisors-regular-second-meeting-and-public-hearing-on-board-s-proposed-.txt", "pdfNote": "110 pages"},
+    shareContext: "Albemarle Board of Supervisors, Apr 17, 2024",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 2046, label: "Public comment / public hearing begins." },
+      { seconds: 2325, label: "Consent agenda motion." },
+      { seconds: 12170, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "alb-bos-997",
+    meetingId: "alb-bos-997",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, April 3, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 6h 55m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=997" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=997" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-04-03-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-04-03-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "74 pages"},
+    shareContext: "Albemarle Board of Supervisors, Apr 3, 2024",
+    moments: [
+      { seconds: 5, label: "Meeting called to order." },
+      { seconds: 1345, label: "Public comment / public hearing begins." },
+      { seconds: 11987, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "alb-bos-969",
+    meetingId: "alb-bos-969",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Budget Work Session #5 - Proposed Budget &Tax Rates",
+    dateLabel: "Wednesday, March 27, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 0h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=969" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=969" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-27-albemarle-county-board-of-supervisors-budget-work-session-5-proposed-budget-tax-rates.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-27-albemarle-county-board-of-supervisors-budget-work-session-5-proposed-budget-tax-rates.txt", "pdfNote": "15 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 27, 2024",
+    moments: [
+      { seconds: 848, label: "Early agenda business." },
+      { seconds: 1697, label: "Mid-meeting discussion." },
+      { seconds: 2521, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "alb-bos-962",
+    meetingId: "alb-bos-962",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Budget Work Session #4",
+    dateLabel: "Monday, March 25, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 2h 48m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=962" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=962" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-25-albemarle-county-board-of-supervisors-budget-work-session-4.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-25-albemarle-county-board-of-supervisors-budget-work-session-4.txt", "pdfNote": "41 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 25, 2024",
+    moments: [
+      { seconds: 90, label: "Consent agenda motion." },
+      { seconds: 2522, label: "Early agenda business." },
+      { seconds: 5045, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "alb-bos-946",
+    meetingId: "alb-bos-946",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, March 20, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 6h 26m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=946" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=946" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-20-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-20-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "80 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 20, 2024",
+    moments: [
+      { seconds: 1, label: "Meeting called to order." },
+      { seconds: 1668, label: "Public comment / public hearing begins." },
+      { seconds: 3018, label: "Consent agenda motion." },
+    ],
+  },
+  {
+    slug: "alb-bos-938",
+    meetingId: "alb-bos-938",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Budget Work Session #3",
+    dateLabel: "Wednesday, March 13, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 3h 8m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=938" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=938" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-13-albemarle-county-board-of-supervisors-budget-work-session-3.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-13-albemarle-county-board-of-supervisors-budget-work-session-3.txt", "pdfNote": "45 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 13, 2024",
+    moments: [
+      { seconds: 2815, label: "Early agenda business." },
+      { seconds: 5651, label: "Mid-meeting discussion." },
+      { seconds: 8470, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "alb-bos-934",
+    meetingId: "alb-bos-934",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Budget Work Session #2 – School Board Funding Request and CIP",
+    dateLabel: "Monday, March 11, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 3h 10m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=934" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=934" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-11-albemarle-county-board-of-supervisors-budget-work-session-2-school-board-funding-request-and-cip.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-11-albemarle-county-board-of-supervisors-budget-work-session-2-school-board-funding-request-and-cip.txt", "pdfNote": "45 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 11, 2024",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 2863, label: "Early agenda business." },
+      { seconds: 5727, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "alb-bos-929",
+    meetingId: "alb-bos-929",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, March 6, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 6h 27m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=929" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=929" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-06-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-06-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "78 pages"},
+    shareContext: "Albemarle Board of Supervisors, Mar 6, 2024",
+    moments: [
+      { seconds: 2, label: "Meeting called to order." },
+      { seconds: 1753, label: "Consent agenda motion." },
+      { seconds: 13213, label: "Motion to enter closed session." },
+      { seconds: 19298, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-bos-923",
+    meetingId: "alb-bos-923",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Public Hearing on County Executive’s Recommended Budget and CIP",
+    dateLabel: "Wednesday, February 28, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 0h 59m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=923" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=923" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-28-albemarle-county-board-of-supervisors-public-hearing-on-county-executive-s-recommended-budget-and-ci.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-28-albemarle-county-board-of-supervisors-public-hearing-on-county-executive-s-recommended-budget-and-ci.txt", "pdfNote": "16 pages"},
+    shareContext: "Albemarle Board of Supervisors, Feb 28, 2024",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 891, label: "Early agenda business." },
+      { seconds: 1110, label: "Public comment / public hearing begins." },
+    ],
+  },
+  {
+    slug: "alb-bos-912",
+    meetingId: "alb-bos-912",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, January 17, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 6h 24m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=912" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=912" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-01-17-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-01-17-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "82 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jan 17, 2024",
+    moments: [
+      { seconds: 3, label: "Meeting called to order." },
+      { seconds: 840, label: "Consent agenda motion." },
+      { seconds: 5750, label: "Early agenda business." },
+    ],
+  },
+  {
+    slug: "alb-bos-907",
+    meetingId: "alb-bos-907",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, January 10, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 5h 8m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=907" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=907" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-01-10-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-01-10-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "17 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jan 10, 2024",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 72, label: "Pledge of Allegiance." },
+      { seconds: 1708, label: "Public comment / public hearing begins." },
+      { seconds: 1974, label: "Consent agenda motion." },
+    ],
+  },
+  {
+    slug: "alb-bos-903",
+    meetingId: "alb-bos-903",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Organizational Meeting",
+    dateLabel: "Wednesday, January 3, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 1h 13m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 16, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=903" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=903" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-01-03-albemarle-county-board-of-supervisors-organizational-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-01-03-albemarle-county-board-of-supervisors-organizational-meeting.txt", "pdfNote": "17 pages"},
+    shareContext: "Albemarle Board of Supervisors, Jan 3, 2024",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 66, label: "Pledge of Allegiance." },
+      { seconds: 1099, label: "Early agenda business." },
+    ],
+  },
+  {
     slug: "alb-sb--ueD9SaVjK4",
     meetingId: "alb-sb--ueD9SaVjK4",
     venue: "albemarle-schools",

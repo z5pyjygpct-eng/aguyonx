@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-house-floor/transcripts/house-r3PNbT3NK7Q.json",
+  "outBase": "public/files/find-the-moment/va-house-floor/transcripts/coraggio-transcript-va-house-floor-2026-06-22-house-of-delegates-floor-session-special-session-1",
+  "title": "Virginia House of Delegates Floor Session, Special Session 1, Monday, June 22, 2026",
+  "shortTitle": "House Floor Session (Special Session 1) \u00b7 Jun 22, 2026",
+  "date": "Monday, June 22, 2026",
+  "place": "Virginia House of Delegates, House Chamber, State Capitol, Richmond",
+  "length": "0h 53m (video)",
+  "links": [
+    {
+      "label": "Official floor video (House of Delegates archive, YouTube)",
+      "href": "https://www.youtube.com/watch?v=r3PNbT3NK7Q"
+    },
+    {
+      "label": "LIS House minutes",
+      "href": "https://lis.virginia.gov/session-details/20261/minutes-list/H"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-16"
+}

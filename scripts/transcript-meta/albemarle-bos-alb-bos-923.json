@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-923.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-28-albemarle-county-board-of-supervisors-public-hearing-on-county-executive-s-recommended-budget-and-ci",
+  "title": "Albemarle County Board of Supervisors Public Hearing on County Executive\u2019s Recommended Budget and CIP, Wednesday, February 28, 2024",
+  "shortTitle": "Board of Supervisors Public Hearing on County Executive\u2019s Recommended Budget and CIP \u00b7 Feb 28, 2024",
+  "date": "Wednesday, February 28, 2024",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "0h 59m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=923"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=923"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-16"
+}

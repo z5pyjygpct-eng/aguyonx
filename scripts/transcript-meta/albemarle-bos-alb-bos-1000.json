@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-1000.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-04-17-albemarle-county-board-of-supervisors-regular-second-meeting-and-public-hearing-on-board-s-proposed-",
+  "title": "Albemarle County Board of Supervisors Regular Second Meeting and Public Hearing on Board\u2019s Proposed Budget, Wednesday, April 17, 2024",
+  "shortTitle": "Board of Supervisors Regular Second Meeting and Public Hearing on Board\u2019s Proposed Budget \u00b7 Apr 17, 2024",
+  "date": "Wednesday, April 17, 2024",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "9h 36m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=1000"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=1000"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-16"
+}

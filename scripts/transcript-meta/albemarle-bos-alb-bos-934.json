@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/albemarle-bos/transcripts/alb-bos-934.json",
+  "outBase": "public/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-03-11-albemarle-county-board-of-supervisors-budget-work-session-2-school-board-funding-request-and-cip",
+  "title": "Albemarle County Board of Supervisors Budget Work Session #2 \u2013 School Board Funding Request and CIP, Monday, March 11, 2024",
+  "shortTitle": "Board of Supervisors Budget Work Session #2 \u2013 School Board Funding Request and CIP \u00b7 Mar 11, 2024",
+  "date": "Monday, March 11, 2024",
+  "place": "Albemarle County Board of Supervisors, Virginia",
+  "length": "3h 10m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Granicus)",
+      "href": "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=934"
+    },
+    {
+      "label": "Official agenda",
+      "href": "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=934"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-16"
+}

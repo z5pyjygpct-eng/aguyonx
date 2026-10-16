@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/manassas-schools/transcripts/mcps-1_vhLzRZsHQ.json",
+  "outBase": "public/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-08-11-manassas-city-school-board-meeting-august-11-2026",
+  "title": "Manassas City School Board Meeting - August 11, 2026",
+  "shortTitle": "School Board Meeting \u00b7 Aug 11, 2026",
+  "date": "Tuesday, August 11, 2026",
+  "place": "Manassas City Public Schools / School Board meeting, Virginia",
+  "length": "0h 59m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=1_vhLzRZsHQ"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-16"
+}
