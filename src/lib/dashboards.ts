@@ -20,7 +20,7 @@ export const FOIA = {
     href: "https://www.cityoffairfaxschools.org/apps/pages/index.jsp?pREC_ID=1810815&type=d&uREC_ID=1662475",
   },
   albemarle: { label: "FOIA to Albemarle County", href: "https://www.albemarle.org/government/county-attorney/freedom-of-information-act" },
-  acps: { label: "FOIA to Albemarle County Public Schools", href: "https://www.k12albemarle.org/our-division/foia-requests" },
+  acps: { label: "FOIA to ACPS", href: "https://www.k12albemarle.org/our-division/foia-requests" },
   manassas: { label: "FOIA to the City of Manassas", href: "https://www.manassasva.gov/connect/city_manager_s_office/foia_requests.php" },
   mcps: { label: "FOIA to Manassas City Public Schools", href: "https://www.mcpsva.org/page/requests-for-informationfoia/" },
   house: { label: "FOIA to the House Clerk's Office", href: "https://vga.virginia.gov/help/foia/" },
@@ -96,7 +96,29 @@ export const DASHBOARDS: Dashboard[] = [
     short: "Albemarle",
     title: "Albemarle County",
     group: "local",
-    columns: cityCols("/cities/albemarle", "Albemarle County Board of Supervisors", "Albemarle County School Board", FOIA.albemarle, FOIA.acps),
+    columns: [
+      {
+        name: "Albemarle County Board of Supervisors",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/albemarle/bos/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/albemarle/bos/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/albemarle/bos/budget" },
+          { label: "Members", icon: "people", to: "/dashboards/albemarle/bos/members" },
+        ],
+        foia: FOIA.albemarle,
+      },
+      {
+        name: "Albemarle County Public Schools",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/albemarle/schools/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/albemarle/schools/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/albemarle/schools/budget" },
+          { label: "Policies", icon: "book", to: "/dashboards/albemarle/schools/policies" },
+          { label: "Members", icon: "people", to: "/dashboards/albemarle/schools/members" },
+        ],
+        foia: FOIA.acps,
+      },
+    ],
   },
   {
     slug: "manassas",

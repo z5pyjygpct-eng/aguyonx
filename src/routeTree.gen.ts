@@ -51,6 +51,15 @@ import { Route as GeneralAssemblyHouseIndexRouteImport } from './routes/general-
 import { Route as GeneralAssemblySenateIndexRouteImport } from './routes/general-assembly.senate.index'
 import { Route as CitiesCityRecapsSlugRouteImport } from './routes/cities.$city.recaps.$slug'
 import { Route as CountiesLoudounRecapsSlugRouteImport } from './routes/counties.loudoun.recaps.$slug'
+import { Route as DashboardsAlbemarleBosBudgetRouteImport } from './routes/dashboards.albemarle.bos.budget'
+import { Route as DashboardsAlbemarleBosFindTheMomentRouteImport } from './routes/dashboards.albemarle.bos.find-the-moment'
+import { Route as DashboardsAlbemarleBosMembersRouteImport } from './routes/dashboards.albemarle.bos.members'
+import { Route as DashboardsAlbemarleBosRecapsRouteImport } from './routes/dashboards.albemarle.bos.recaps'
+import { Route as DashboardsAlbemarleSchoolsBudgetRouteImport } from './routes/dashboards.albemarle.schools.budget'
+import { Route as DashboardsAlbemarleSchoolsFindTheMomentRouteImport } from './routes/dashboards.albemarle.schools.find-the-moment'
+import { Route as DashboardsAlbemarleSchoolsMembersRouteImport } from './routes/dashboards.albemarle.schools.members'
+import { Route as DashboardsAlbemarleSchoolsPoliciesRouteImport } from './routes/dashboards.albemarle.schools.policies'
+import { Route as DashboardsAlbemarleSchoolsRecapsRouteImport } from './routes/dashboards.albemarle.schools.recaps'
 import { Route as DashboardsLoudounBosFindTheMomentRouteImport } from './routes/dashboards.loudoun.bos.find-the-moment'
 import { Route as DashboardsLoudounBosMembersRouteImport } from './routes/dashboards.loudoun.bos.members'
 import { Route as DashboardsLoudounBosRecapsRouteImport } from './routes/dashboards.loudoun.bos.recaps'
@@ -276,6 +285,60 @@ const CountiesLoudounRecapsSlugRoute =
     path: '/recaps/$slug',
     getParentRoute: () => CountiesLoudounRoute,
   } as any)
+const DashboardsAlbemarleBosBudgetRoute =
+  DashboardsAlbemarleBosBudgetRouteImport.update({
+    id: '/dashboards/albemarle/bos/budget',
+    path: '/dashboards/albemarle/bos/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleBosFindTheMomentRoute =
+  DashboardsAlbemarleBosFindTheMomentRouteImport.update({
+    id: '/dashboards/albemarle/bos/find-the-moment',
+    path: '/dashboards/albemarle/bos/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleBosMembersRoute =
+  DashboardsAlbemarleBosMembersRouteImport.update({
+    id: '/dashboards/albemarle/bos/members',
+    path: '/dashboards/albemarle/bos/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleBosRecapsRoute =
+  DashboardsAlbemarleBosRecapsRouteImport.update({
+    id: '/dashboards/albemarle/bos/recaps',
+    path: '/dashboards/albemarle/bos/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleSchoolsBudgetRoute =
+  DashboardsAlbemarleSchoolsBudgetRouteImport.update({
+    id: '/dashboards/albemarle/schools/budget',
+    path: '/dashboards/albemarle/schools/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleSchoolsFindTheMomentRoute =
+  DashboardsAlbemarleSchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/albemarle/schools/find-the-moment',
+    path: '/dashboards/albemarle/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleSchoolsMembersRoute =
+  DashboardsAlbemarleSchoolsMembersRouteImport.update({
+    id: '/dashboards/albemarle/schools/members',
+    path: '/dashboards/albemarle/schools/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleSchoolsPoliciesRoute =
+  DashboardsAlbemarleSchoolsPoliciesRouteImport.update({
+    id: '/dashboards/albemarle/schools/policies',
+    path: '/dashboards/albemarle/schools/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleSchoolsRecapsRoute =
+  DashboardsAlbemarleSchoolsRecapsRouteImport.update({
+    id: '/dashboards/albemarle/schools/recaps',
+    path: '/dashboards/albemarle/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DashboardsLoudounBosFindTheMomentRoute =
   DashboardsLoudounBosFindTheMomentRouteImport.update({
     id: '/dashboards/loudoun/bos/find-the-moment',
@@ -380,6 +443,15 @@ export interface FileRoutesByFullPath {
   '/general-assembly/senate/': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/dashboards/albemarle/bos/budget': typeof DashboardsAlbemarleBosBudgetRoute
+  '/dashboards/albemarle/bos/find-the-moment': typeof DashboardsAlbemarleBosFindTheMomentRoute
+  '/dashboards/albemarle/bos/members': typeof DashboardsAlbemarleBosMembersRoute
+  '/dashboards/albemarle/bos/recaps': typeof DashboardsAlbemarleBosRecapsRoute
+  '/dashboards/albemarle/schools/budget': typeof DashboardsAlbemarleSchoolsBudgetRoute
+  '/dashboards/albemarle/schools/find-the-moment': typeof DashboardsAlbemarleSchoolsFindTheMomentRoute
+  '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
+  '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
+  '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -424,6 +496,15 @@ export interface FileRoutesByTo {
   '/general-assembly/senate': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/dashboards/albemarle/bos/budget': typeof DashboardsAlbemarleBosBudgetRoute
+  '/dashboards/albemarle/bos/find-the-moment': typeof DashboardsAlbemarleBosFindTheMomentRoute
+  '/dashboards/albemarle/bos/members': typeof DashboardsAlbemarleBosMembersRoute
+  '/dashboards/albemarle/bos/recaps': typeof DashboardsAlbemarleBosRecapsRoute
+  '/dashboards/albemarle/schools/budget': typeof DashboardsAlbemarleSchoolsBudgetRoute
+  '/dashboards/albemarle/schools/find-the-moment': typeof DashboardsAlbemarleSchoolsFindTheMomentRoute
+  '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
+  '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
+  '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -479,6 +560,15 @@ export interface FileRoutesById {
   '/general-assembly/senate/': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/dashboards/albemarle/bos/budget': typeof DashboardsAlbemarleBosBudgetRoute
+  '/dashboards/albemarle/bos/find-the-moment': typeof DashboardsAlbemarleBosFindTheMomentRoute
+  '/dashboards/albemarle/bos/members': typeof DashboardsAlbemarleBosMembersRoute
+  '/dashboards/albemarle/bos/recaps': typeof DashboardsAlbemarleBosRecapsRoute
+  '/dashboards/albemarle/schools/budget': typeof DashboardsAlbemarleSchoolsBudgetRoute
+  '/dashboards/albemarle/schools/find-the-moment': typeof DashboardsAlbemarleSchoolsFindTheMomentRoute
+  '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
+  '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
+  '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -535,6 +625,15 @@ export interface FileRouteTypes {
     | '/general-assembly/senate/'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/dashboards/albemarle/bos/budget'
+    | '/dashboards/albemarle/bos/find-the-moment'
+    | '/dashboards/albemarle/bos/members'
+    | '/dashboards/albemarle/bos/recaps'
+    | '/dashboards/albemarle/schools/budget'
+    | '/dashboards/albemarle/schools/find-the-moment'
+    | '/dashboards/albemarle/schools/members'
+    | '/dashboards/albemarle/schools/policies'
+    | '/dashboards/albemarle/schools/recaps'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -579,6 +678,15 @@ export interface FileRouteTypes {
     | '/general-assembly/senate'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/dashboards/albemarle/bos/budget'
+    | '/dashboards/albemarle/bos/find-the-moment'
+    | '/dashboards/albemarle/bos/members'
+    | '/dashboards/albemarle/bos/recaps'
+    | '/dashboards/albemarle/schools/budget'
+    | '/dashboards/albemarle/schools/find-the-moment'
+    | '/dashboards/albemarle/schools/members'
+    | '/dashboards/albemarle/schools/policies'
+    | '/dashboards/albemarle/schools/recaps'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -633,6 +741,15 @@ export interface FileRouteTypes {
     | '/general-assembly/senate/'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/dashboards/albemarle/bos/budget'
+    | '/dashboards/albemarle/bos/find-the-moment'
+    | '/dashboards/albemarle/bos/members'
+    | '/dashboards/albemarle/bos/recaps'
+    | '/dashboards/albemarle/schools/budget'
+    | '/dashboards/albemarle/schools/find-the-moment'
+    | '/dashboards/albemarle/schools/members'
+    | '/dashboards/albemarle/schools/policies'
+    | '/dashboards/albemarle/schools/recaps'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -665,6 +782,15 @@ export interface RootRouteChildren {
   VideosRoute: typeof VideosRoute
   DashboardsBodyRoute: typeof DashboardsBodyRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
+  DashboardsAlbemarleBosBudgetRoute: typeof DashboardsAlbemarleBosBudgetRoute
+  DashboardsAlbemarleBosFindTheMomentRoute: typeof DashboardsAlbemarleBosFindTheMomentRoute
+  DashboardsAlbemarleBosMembersRoute: typeof DashboardsAlbemarleBosMembersRoute
+  DashboardsAlbemarleBosRecapsRoute: typeof DashboardsAlbemarleBosRecapsRoute
+  DashboardsAlbemarleSchoolsBudgetRoute: typeof DashboardsAlbemarleSchoolsBudgetRoute
+  DashboardsAlbemarleSchoolsFindTheMomentRoute: typeof DashboardsAlbemarleSchoolsFindTheMomentRoute
+  DashboardsAlbemarleSchoolsMembersRoute: typeof DashboardsAlbemarleSchoolsMembersRoute
+  DashboardsAlbemarleSchoolsPoliciesRoute: typeof DashboardsAlbemarleSchoolsPoliciesRoute
+  DashboardsAlbemarleSchoolsRecapsRoute: typeof DashboardsAlbemarleSchoolsRecapsRoute
   DashboardsLoudounBosFindTheMomentRoute: typeof DashboardsLoudounBosFindTheMomentRoute
   DashboardsLoudounBosMembersRoute: typeof DashboardsLoudounBosMembersRoute
   DashboardsLoudounBosRecapsRoute: typeof DashboardsLoudounBosRecapsRoute
@@ -971,6 +1097,69 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CountiesLoudounRecapsSlugRouteImport
       parentRoute: typeof CountiesLoudounRoute
     }
+    '/dashboards/albemarle/bos/budget': {
+      id: '/dashboards/albemarle/bos/budget'
+      path: '/dashboards/albemarle/bos/budget'
+      fullPath: '/dashboards/albemarle/bos/budget'
+      preLoaderRoute: typeof DashboardsAlbemarleBosBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/bos/find-the-moment': {
+      id: '/dashboards/albemarle/bos/find-the-moment'
+      path: '/dashboards/albemarle/bos/find-the-moment'
+      fullPath: '/dashboards/albemarle/bos/find-the-moment'
+      preLoaderRoute: typeof DashboardsAlbemarleBosFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/bos/members': {
+      id: '/dashboards/albemarle/bos/members'
+      path: '/dashboards/albemarle/bos/members'
+      fullPath: '/dashboards/albemarle/bos/members'
+      preLoaderRoute: typeof DashboardsAlbemarleBosMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/bos/recaps': {
+      id: '/dashboards/albemarle/bos/recaps'
+      path: '/dashboards/albemarle/bos/recaps'
+      fullPath: '/dashboards/albemarle/bos/recaps'
+      preLoaderRoute: typeof DashboardsAlbemarleBosRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/schools/budget': {
+      id: '/dashboards/albemarle/schools/budget'
+      path: '/dashboards/albemarle/schools/budget'
+      fullPath: '/dashboards/albemarle/schools/budget'
+      preLoaderRoute: typeof DashboardsAlbemarleSchoolsBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/schools/find-the-moment': {
+      id: '/dashboards/albemarle/schools/find-the-moment'
+      path: '/dashboards/albemarle/schools/find-the-moment'
+      fullPath: '/dashboards/albemarle/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsAlbemarleSchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/schools/members': {
+      id: '/dashboards/albemarle/schools/members'
+      path: '/dashboards/albemarle/schools/members'
+      fullPath: '/dashboards/albemarle/schools/members'
+      preLoaderRoute: typeof DashboardsAlbemarleSchoolsMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/schools/policies': {
+      id: '/dashboards/albemarle/schools/policies'
+      path: '/dashboards/albemarle/schools/policies'
+      fullPath: '/dashboards/albemarle/schools/policies'
+      preLoaderRoute: typeof DashboardsAlbemarleSchoolsPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/schools/recaps': {
+      id: '/dashboards/albemarle/schools/recaps'
+      path: '/dashboards/albemarle/schools/recaps'
+      fullPath: '/dashboards/albemarle/schools/recaps'
+      preLoaderRoute: typeof DashboardsAlbemarleSchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dashboards/loudoun/bos/find-the-moment': {
       id: '/dashboards/loudoun/bos/find-the-moment'
       path: '/dashboards/loudoun/bos/find-the-moment'
@@ -1212,6 +1401,19 @@ const rootRouteChildren: RootRouteChildren = {
   VideosRoute: VideosRoute,
   DashboardsBodyRoute: DashboardsBodyRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
+  DashboardsAlbemarleBosBudgetRoute: DashboardsAlbemarleBosBudgetRoute,
+  DashboardsAlbemarleBosFindTheMomentRoute:
+    DashboardsAlbemarleBosFindTheMomentRoute,
+  DashboardsAlbemarleBosMembersRoute: DashboardsAlbemarleBosMembersRoute,
+  DashboardsAlbemarleBosRecapsRoute: DashboardsAlbemarleBosRecapsRoute,
+  DashboardsAlbemarleSchoolsBudgetRoute: DashboardsAlbemarleSchoolsBudgetRoute,
+  DashboardsAlbemarleSchoolsFindTheMomentRoute:
+    DashboardsAlbemarleSchoolsFindTheMomentRoute,
+  DashboardsAlbemarleSchoolsMembersRoute:
+    DashboardsAlbemarleSchoolsMembersRoute,
+  DashboardsAlbemarleSchoolsPoliciesRoute:
+    DashboardsAlbemarleSchoolsPoliciesRoute,
+  DashboardsAlbemarleSchoolsRecapsRoute: DashboardsAlbemarleSchoolsRecapsRoute,
   DashboardsLoudounBosFindTheMomentRoute:
     DashboardsLoudounBosFindTheMomentRoute,
   DashboardsLoudounBosMembersRoute: DashboardsLoudounBosMembersRoute,

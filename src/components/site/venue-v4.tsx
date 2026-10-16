@@ -5,7 +5,7 @@
  */
 import { useMemo, useState, type ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, ExternalLink, Mail, Search } from "lucide-react";
+import { ArrowRight, ExternalLink, Mail, Play, Search } from "lucide-react";
 import { MONTHS } from "@/components/site/meeting-filters";
 import { Pager, V4Main, pageCount, pageSlice, parseDate } from "@/components/site/lcps-v4";
 
@@ -28,11 +28,17 @@ const ymd = (label: string) => {
   return { month: m?.[1], year: m?.[2] };
 };
 
-function useV4Filters<T extends { dateLabel: string; title: string; kind: string }>(items: T[], noun: string, page: number) {
-  const [year, setYear] = useState("All");
-  const [month, setMonth] = useState("All");
-  const [type, setType] = useState("All");
-  const [q, setQ] = useState("");
+function useV4Filters<T extends { dateLabel: string; title: string; kind: string }>(items: T[], noun: string, page: number, onPage?: (p: number) => void) {
+  const [year, setYear0] = useState("All");
+  const [month, setMonth0] = useState("All");
+  const [type, setType0] = useState("All");
+  const [q, setQ0] = useState("");
+  // Any filter change sends the reader back to page 1.
+  const reset1 = () => { if (page !== 1) onPage?.(1); };
+  const setYear = (v: string) => { setYear0(v); reset1(); };
+  const setMonth = (v: string) => { setMonth0(v); reset1(); };
+  const setType = (v: string) => { setType0(v); reset1(); };
+  const setQ = (v: string) => { setQ0(v); reset1(); };
   const years = useMemo(() => [...new Set(items.map((d) => ymd(d.dateLabel).year!).filter(Boolean))].sort().reverse(), [items]);
   const types = useMemo(() => [...new Set(items.map((d) => d.kind))].sort(), [items]);
   const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
@@ -129,7 +135,7 @@ function usePaging(page: number, onPage: (p: number) => void) {
 
 export function FtmV4Page({ venue, meetings, search, page, onPage }: { venue: V4Venue; meetings: V4Meeting[]; search?: ReactNode; page: number; onPage: (p: number) => void }) {
   const sorted = useMemo(() => [...meetings].map((m) => ({ ...m, title: cleanTitle(m.title) })).sort(byDateDesc), [meetings]);
-  const f = useV4Filters(sorted, "meetings", page);
+  const f = useV4Filters(sorted, "meetings", page, onPage);
   const go = usePaging(page, onPage);
   return (
     <V4Main>
@@ -145,13 +151,18 @@ export function FtmV4Page({ venue, meetings, search, page, onPage }: { venue: V4
           <h2 className="font-serif text-3xl font-semibold uppercase">Meeting videos</h2>
           <FoiaButton foia={venue.foia} />
         </div>
+        <VideoChart meetings={sorted} />
         {f.controls}
         <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
           {f.rows.map((m) => (
             <li key={m.id} className="overflow-hidden rounded-xl border border-navy-line bg-navy-700">
               <a href={m.href} target="_blank" rel="noreferrer" className="block">
                 <div className="relative aspect-video border-b-[3px] border-gold bg-gradient-to-br from-navy-900 to-navy-600">
-                  <span className="absolute inset-0 flex items-center justify-center font-serif text-sm tracking-[0.14em] text-night-muted uppercase">{m.kind}</span>
+                  <span className="absolute inset-0 flex flex-col items-center justify-center gap-1 text-center" aria-hidden>
+                    <Play className="size-8 rounded-full bg-gold/90 p-1.5 text-navy-900" />
+                    <span className="font-serif text-sm tracking-[0.14em] text-white uppercase">{m.kind}</span>
+                    <span className="font-mono text-[11px] text-night-muted">{m.dateLabel.replace(/^[A-Za-z]+, /, "")}</span>
+                  </span>
                   {m.thumb ? <img src={m.thumb} alt="" loading="lazy" className="absolute inset-0 size-full object-cover" onError={(e) => { e.currentTarget.style.display = "none"; }} /> : null}
                   {m.duration ? <span className="absolute right-2 bottom-2 rounded bg-black/70 px-2 py-0.5 font-serif text-xs">{m.duration}</span> : null}
                 </div>
@@ -172,7 +183,7 @@ export function FtmV4Page({ venue, meetings, search, page, onPage }: { venue: V4
 
 export function RecapsV4Page({ venue, recaps, page, onPage }: { venue: V4Venue; recaps: V4Recap[]; page: number; onPage: (p: number) => void }) {
   const sorted = useMemo(() => [...recaps].map((r) => ({ ...r, title: cleanTitle(r.title) })).sort(byDateDesc), [recaps]);
-  const f = useV4Filters(sorted, "recaps", page);
+  const f = useV4Filters(sorted, "recaps", page, onPage);
   const go = usePaging(page, onPage);
   return (
     <V4Main>
@@ -220,5 +231,30 @@ export function ComingSoonV4({ venue, kicker }: { venue: V4Venue; kicker: string
         <div className="mt-6"><FoiaButton foia={venue.foia} /></div>
       </div>
     </V4Main>
+  );
+}
+
+/** Total videos on file, by year (counts only; from the meeting catalog). */
+export function VideoChart({ meetings }: { meetings: { dateLabel: string }[] }) {
+  const by: Record<string, number> = {};
+  for (const m of meetings) { const y = ymd(m.dateLabel).year; if (y) by[y] = (by[y] ?? 0) + 1; }
+  const years = Object.keys(by).sort();
+  const max = Math.max(1, ...Object.values(by));
+  return (
+    <section className="mt-6 rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-4 sm:p-5">
+      <div className="flex flex-wrap items-baseline justify-between gap-2">
+        <h3 className="font-serif text-xl font-semibold uppercase">Total videos <span className="font-mono text-gold">{meetings.length}</span></h3>
+        <p className="font-mono text-xs text-night-muted">by year</p>
+      </div>
+      <ul className="mt-3 flex items-end gap-3" style={{ height: 120 }}>
+        {years.map((y) => (
+          <li key={y} className="flex h-full flex-1 flex-col items-center justify-end gap-1">
+            <span className="font-mono text-xs">{by[y]}</span>
+            <span className="w-full max-w-16 rounded-t bg-gold" style={{ height: `${(by[y] / max) * 80}%` }} />
+            <span className="font-mono text-xs text-night-muted">{y}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

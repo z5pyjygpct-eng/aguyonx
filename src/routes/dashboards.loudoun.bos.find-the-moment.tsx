@@ -24,7 +24,7 @@ function Page() {
   const onPage = (p: number) => navigate({ search: { page: p } });
   return (
     <SiteShell>
-      <FtmV4Page venue={V4_VENUES["loudoun-bos"]} meetings={MEETINGS} search={<LoudounCrossMeetingSearch />} page={page} onPage={onPage} />
+      <FtmV4Page venue={V4_VENUES["loudoun-bos"]} meetings={MEETINGS} search={<LoudounCrossMeetingSearch only="county" />} page={page} onPage={onPage} />
     </SiteShell>
   );
 }
