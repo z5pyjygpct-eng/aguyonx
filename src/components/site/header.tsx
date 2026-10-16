@@ -20,7 +20,7 @@ export const NAV_SHELVES = [
   { to: "/videos", label: "Videos" },
   { to: "/find-the-moment", label: "Find the Moment" },
   { to: "/investigations", label: "Investigations" },
-  { to: "/library", label: "Tools" },
+  { to: "/library", label: "Other Resources" },
 ] as const;
 
 export const NAV_OFFICES = [
