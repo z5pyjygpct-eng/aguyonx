@@ -25,6 +25,7 @@ import { Route as LibraryRouteImport } from './routes/library'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as NovaBriefingRouteImport } from './routes/nova-briefing'
 import { Route as SenatorsRouteImport } from './routes/senators'
+import { Route as TipsRouteImport } from './routes/tips'
 import { Route as VideosRouteImport } from './routes/videos'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
@@ -186,6 +187,11 @@ const NovaBriefingRoute = NovaBriefingRouteImport.update({
 const SenatorsRoute = SenatorsRouteImport.update({
   id: '/senators',
   path: '/senators',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TipsRoute = TipsRouteImport.update({
+  id: '/tips',
+  path: '/tips',
   getParentRoute: () => rootRouteImport,
 } as any)
 const VideosRoute = VideosRouteImport.update({
@@ -668,6 +674,7 @@ export interface FileRoutesByFullPath {
   '/news': typeof NewsRoute
   '/nova-briefing': typeof NovaBriefingRoute
   '/senators': typeof SenatorsRoute
+  '/tips': typeof TipsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
@@ -762,6 +769,7 @@ export interface FileRoutesByTo {
   '/news': typeof NewsRoute
   '/nova-briefing': typeof NovaBriefingRoute
   '/senators': typeof SenatorsRoute
+  '/tips': typeof TipsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/dashboards/$body': typeof DashboardsBodyRoute
@@ -859,6 +867,7 @@ export interface FileRoutesById {
   '/news': typeof NewsRoute
   '/nova-briefing': typeof NovaBriefingRoute
   '/senators': typeof SenatorsRoute
+  '/tips': typeof TipsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
@@ -961,6 +970,7 @@ export interface FileRouteTypes {
     | '/news'
     | '/nova-briefing'
     | '/senators'
+    | '/tips'
     | '/videos'
     | '/articles/$slug'
     | '/cities/$city'
@@ -1055,6 +1065,7 @@ export interface FileRouteTypes {
     | '/news'
     | '/nova-briefing'
     | '/senators'
+    | '/tips'
     | '/videos'
     | '/articles/$slug'
     | '/dashboards/$body'
@@ -1151,6 +1162,7 @@ export interface FileRouteTypes {
     | '/news'
     | '/nova-briefing'
     | '/senators'
+    | '/tips'
     | '/videos'
     | '/articles/$slug'
     | '/cities/$city'
@@ -1252,6 +1264,7 @@ export interface RootRouteChildren {
   NewsRoute: typeof NewsRoute
   NovaBriefingRoute: typeof NovaBriefingRoute
   SenatorsRoute: typeof SenatorsRoute
+  TipsRoute: typeof TipsRoute
   VideosRoute: typeof VideosRoute
   DashboardsBodyRoute: typeof DashboardsBodyRoute
   DashboardsGeneralAssemblyRoute: typeof DashboardsGeneralAssemblyRoute
@@ -1423,6 +1436,13 @@ declare module '@tanstack/react-router' {
       path: '/senators'
       fullPath: '/senators'
       preLoaderRoute: typeof SenatorsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tips': {
+      id: '/tips'
+      path: '/tips'
+      fullPath: '/tips'
+      preLoaderRoute: typeof TipsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/videos': {
@@ -2167,6 +2187,7 @@ const rootRouteChildren: RootRouteChildren = {
   NewsRoute: NewsRoute,
   NovaBriefingRoute: NovaBriefingRoute,
   SenatorsRoute: SenatorsRoute,
+  TipsRoute: TipsRoute,
   VideosRoute: VideosRoute,
   DashboardsBodyRoute: DashboardsBodyRoute,
   DashboardsGeneralAssemblyRoute: DashboardsGeneralAssemblyRoute,

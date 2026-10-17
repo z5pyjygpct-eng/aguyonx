@@ -21,5 +21,5 @@ export const GA_DASHBOARD: Dashboard = {
   ],
 };
 
-/** LAUNCH: noindex while on preview. Remove this (set to []) at cutover — see /workspace/v4shots/cutover-runbook.md. */
+/** LAUNCH: noindex while on preview (GA dashboard, member pages, /tips). Remove this (set to []) at cutover — see /workspace/v4shots/cutover-runbook.md. */
 export const GA_PREVIEW_ROBOTS = [{ name: "robots", content: "noindex" }];

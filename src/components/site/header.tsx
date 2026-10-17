@@ -26,6 +26,7 @@ export const NAV_TOOLS = [
   { to: "/library", label: "Research Library" },
   { to: "/library/foia", label: "FOIA letter desk" },
   { to: "/2027", label: "2027 Democrats" },
+  { to: "/tips", label: "Got Tips?" },
 ] as const;
 
 // Legacy groupings kept for footer/other importers.
