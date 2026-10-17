@@ -16,7 +16,7 @@ function Tile({ t }: { t: DashTile }) {
       {t.to ? (
         <ArrowRight className="size-5 text-gold" aria-hidden />
       ) : (
-        <span className="rounded-full bg-on-dark-muted px-3 py-1 text-xs font-bold text-navy-800">Coming soon</span>
+        <span className="shrink-0 whitespace-nowrap rounded-full bg-on-dark-muted px-3 py-1 text-xs font-bold text-navy-800">Coming soon</span>
       )}
     </>
   );

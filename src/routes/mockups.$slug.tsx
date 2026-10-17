@@ -2,7 +2,7 @@ import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useEffect, useRef } from "react";
 import { SiteShell } from "@/components/site/shell";
 import { DashboardTemplate } from "@/components/site/dashboard-template";
-import type { Dashboard } from "@/lib/dashboards";
+import { GA_DASHBOARD } from "@/lib/ga-dashboard";
 import { MOCKUPS } from "@/lib/mockups/mockups-data";
 
 const TITLES: Record<string, string> = {
@@ -17,25 +17,6 @@ export const Route = createFileRoute("/mockups/$slug")({
   component: Page,
 });
 
-const col = (name: string, ch: "house" | "senate", foia: { label: string; href: string }) => ({
-  name,
-  tiles: [
-    { label: "Find the Moment", icon: "play" as const, to: `/dashboards/${ch}/find-the-moment` },
-    { label: "Meeting Recaps", icon: "list" as const, to: `/dashboards/${ch}/recaps` },
-    { label: "Members", icon: "people" as const, to: `/mockups/${ch}-members` },
-    { label: "Bills", icon: "book" as const, to: null, accentIcon: true },
-    { label: "Scorecards", icon: "money" as const, to: null, accentIcon: true },
-  ],
-  foia,
-});
-const GA_MOCK: Dashboard = {
-  slug: "general-assembly", short: "Dashboard mockup", title: "Virginia General Assembly", group: "state",
-  columns: [
-    col("Virginia House of Delegates", "house", { label: "FOIA to House of Delegates", href: "https://vga.virginia.gov/help/foia/" }),
-    col("Senate of Virginia", "senate", { label: "FOIA to Senate", href: "https://apps.senate.virginia.gov/Senator/PDFs/SenateFOIARequest.pdf" }),
-  ],
-};
-
 function Page() {
   const { slug } = Route.useParams();
   const m = MOCKUPS[slug];
@@ -45,7 +26,7 @@ function Page() {
     // run the mockup's own filter script once its markup is mounted
     try { new Function(m.script)(); } catch { /* mockup script is best-effort */ }
   }, [m]);
-  if (slug === "ga-dashboard") return <SiteShell><DashboardTemplate d={GA_MOCK} plain /></SiteShell>;
+  if (slug === "ga-dashboard") return <SiteShell><DashboardTemplate d={GA_DASHBOARD} plain /></SiteShell>;
   return (
     <SiteShell>
       <main className="agx-dark flex-1 bg-navy-800 text-white">
