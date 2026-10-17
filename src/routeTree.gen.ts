@@ -44,6 +44,7 @@ import { Route as InvestigationsSlugRouteImport } from './routes/investigations.
 import { Route as LibraryIndexRouteImport } from './routes/library.index'
 import { Route as LibraryFoiaRouteImport } from './routes/library.foia'
 import { Route as MockupsSlugRouteImport } from './routes/mockups.$slug'
+import { Route as MockupsTipsRouteImport } from './routes/mockups.tips'
 import { Route as CitiesCityIndexRouteImport } from './routes/cities.$city.index'
 import { Route as CitiesCityFindTheMomentRouteImport } from './routes/cities.$city.find-the-moment'
 import { Route as CitiesCitySchoolsRouteImport } from './routes/cities.$city.schools'
@@ -284,6 +285,11 @@ const LibraryFoiaRoute = LibraryFoiaRouteImport.update({
 const MockupsSlugRoute = MockupsSlugRouteImport.update({
   id: '/mockups/$slug',
   path: '/mockups/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MockupsTipsRoute = MockupsTipsRouteImport.update({
+  id: '/mockups/tips',
+  path: '/mockups/tips',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CitiesCityIndexRoute = CitiesCityIndexRouteImport.update({
@@ -694,6 +700,7 @@ export interface FileRoutesByFullPath {
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/mockups/$slug': typeof MockupsSlugRoute
+  '/mockups/tips': typeof MockupsTipsRoute
   '/articles/': typeof ArticlesIndexRoute
   '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
@@ -786,6 +793,7 @@ export interface FileRoutesByTo {
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/mockups/$slug': typeof MockupsSlugRoute
+  '/mockups/tips': typeof MockupsTipsRoute
   '/articles': typeof ArticlesIndexRoute
   '/cities': typeof CitiesIndexRoute
   '/counties': typeof CountiesIndexRoute
@@ -889,6 +897,7 @@ export interface FileRoutesById {
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/mockups/$slug': typeof MockupsSlugRoute
+  '/mockups/tips': typeof MockupsTipsRoute
   '/articles/': typeof ArticlesIndexRoute
   '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
@@ -993,6 +1002,7 @@ export interface FileRouteTypes {
     | '/investigations/$slug'
     | '/library/foia'
     | '/mockups/$slug'
+    | '/mockups/tips'
     | '/articles/'
     | '/cities/'
     | '/counties/'
@@ -1085,6 +1095,7 @@ export interface FileRouteTypes {
     | '/investigations/$slug'
     | '/library/foia'
     | '/mockups/$slug'
+    | '/mockups/tips'
     | '/articles'
     | '/cities'
     | '/counties'
@@ -1187,6 +1198,7 @@ export interface FileRouteTypes {
     | '/investigations/$slug'
     | '/library/foia'
     | '/mockups/$slug'
+    | '/mockups/tips'
     | '/articles/'
     | '/cities/'
     | '/counties/'
@@ -1283,6 +1295,7 @@ export interface RootRouteChildren {
   DashboardsGeneralAssemblyRoute: typeof DashboardsGeneralAssemblyRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
   MockupsSlugRoute: typeof MockupsSlugRoute
+  MockupsTipsRoute: typeof MockupsTipsRoute
   DashboardsBoardOfEducationBudgetRoute: typeof DashboardsBoardOfEducationBudgetRoute
   DashboardsBoardOfEducationFindTheMomentRoute: typeof DashboardsBoardOfEducationFindTheMomentRoute
   DashboardsBoardOfEducationMembersRoute: typeof DashboardsBoardOfEducationMembersRoute
@@ -1583,6 +1596,13 @@ declare module '@tanstack/react-router' {
       path: '/mockups/$slug'
       fullPath: '/mockups/$slug'
       preLoaderRoute: typeof MockupsSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mockups/tips': {
+      id: '/mockups/tips'
+      path: '/mockups/tips'
+      fullPath: '/mockups/tips'
+      preLoaderRoute: typeof MockupsTipsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/cities/$city/': {
@@ -2214,6 +2234,7 @@ const rootRouteChildren: RootRouteChildren = {
   DashboardsGeneralAssemblyRoute: DashboardsGeneralAssemblyRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
   MockupsSlugRoute: MockupsSlugRoute,
+  MockupsTipsRoute: MockupsTipsRoute,
   DashboardsBoardOfEducationBudgetRoute: DashboardsBoardOfEducationBudgetRoute,
   DashboardsBoardOfEducationFindTheMomentRoute:
     DashboardsBoardOfEducationFindTheMomentRoute,
