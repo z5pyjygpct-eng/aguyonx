@@ -32,20 +32,20 @@ const CATEGORIES = [
 // Categories" (that table lists Administration, Attendance and Health as one row, so both chips use it).
 // Non-Departmental, Charter School and School Board are not named in that table: shown under All only.
 const AAH = ["Administration", "Attendance & Health"];
-const DEPARTMENTS: { name: string; value: number; pct: string; cats: string[] }[] = [
-  { name: "School Leadership", value: 788_560_281, pct: "38.2%", cats: ["Instruction", ...AAH] },
-  { name: "Student Services", value: 421_085_534, pct: "20.4%", cats: ["Instruction", ...AAH] },
-  { name: "Support Services", value: 265_249_703, pct: "12.8%", cats: [...AAH, "Pupil Transportation", "Operation & Maintenance", "Facilities"] },
-  { name: "Teaching and Learning", value: 264_953_026, pct: "12.8%", cats: ["Instruction", ...AAH] },
-  { name: "Non-Departmental", value: 153_933_036, pct: "7.4%", cats: [] },
-  { name: "Digital Innovation", value: 73_248_625, pct: "3.5%", cats: ["Technology"] },
-  { name: "Office of the Superintendent", value: 29_228_953, pct: "1.4%", cats: [...AAH, "Pupil Transportation", "Operation & Maintenance"] },
-  { name: "HR & Talent Dev", value: 25_182_188, pct: "1.2%", cats: [...AAH] },
-  { name: "Business & Financial Services", value: 13_217_533, pct: "0.6%", cats: [...AAH] },
-  { name: "Academics", value: 13_099_848, pct: "0.6%", cats: [...AAH] },
-  { name: "Communications & Community Engagement", value: 9_070_338, pct: "0.4%", cats: [...AAH] },
-  { name: "Charter School", value: 8_378_039, pct: "0.4%", cats: [] },
-  { name: "School Board", value: 1_747_563, pct: "0.1%", cats: [] },
+const DEPARTMENTS: { name: string; page: number; value: number; pct: string; cats: string[] }[] = [
+  { name: "School Leadership", page: 157, value: 788_560_281, pct: "38.2%", cats: ["Instruction", ...AAH] },
+  { name: "Student Services", page: 167, value: 421_085_534, pct: "20.4%", cats: ["Instruction", ...AAH] },
+  { name: "Support Services", page: 193, value: 265_249_703, pct: "12.8%", cats: [...AAH, "Pupil Transportation", "Operation & Maintenance", "Facilities"] },
+  { name: "Teaching and Learning", page: 207, value: 264_953_026, pct: "12.8%", cats: ["Instruction", ...AAH] },
+  { name: "Non-Departmental", page: 145, value: 153_933_036, pct: "7.4%", cats: [] },
+  { name: "Digital Innovation", page: 125, value: 73_248_625, pct: "3.5%", cats: ["Technology"] },
+  { name: "Office of the Superintendent", page: 183, value: 29_228_953, pct: "1.4%", cats: [...AAH, "Pupil Transportation", "Operation & Maintenance"] },
+  { name: "HR & Talent Dev", page: 135, value: 25_182_188, pct: "1.2%", cats: [...AAH] },
+  { name: "Business & Financial Services", page: 97, value: 13_217_533, pct: "0.6%", cats: [...AAH] },
+  { name: "Academics", page: 91, value: 13_099_848, pct: "0.6%", cats: [...AAH] },
+  { name: "Communications & Community Engagement", page: 113, value: 9_070_338, pct: "0.4%", cats: [...AAH] },
+  { name: "Charter School", page: 103, value: 8_378_039, pct: "0.4%", cats: [] },
+  { name: "School Board", page: 151, value: 1_747_563, pct: "0.1%", cats: [] },
 ];
 
 function DepartmentSection() {
@@ -68,13 +68,13 @@ function DepartmentSection() {
       <ul className="mt-3 divide-y divide-navy-line/70 rounded-lg border border-navy-line bg-navy-800">
         {rows.map((d) => (
           <li key={d.name} className="flex items-baseline gap-3 px-4 py-2.5">
-            <span className="min-w-0 flex-1 font-semibold">{d.name}</span>
+            <span className="min-w-0 flex-1"><span className="font-semibold">{d.name}</span> <span className="text-sm text-night-muted">(<a href={`${SEON_PDF}#page=${d.page + 9}`} target="_blank" rel="noreferrer" className="text-gold underline-offset-2 hover:underline">p. {d.page}</a>)</span></span>
             <span className="font-mono tabular-nums text-gold">{usd(d.value)}</span>
             <span className="w-14 text-right font-mono text-sm text-night-muted">{d.pct}</span>
           </li>
         ))}
       </ul>
-      <p className="mt-2 text-xs text-night-muted">Source: FY27 SEON p.20, Budget Summary (Operating column); category links from SEON p.64, Reconciliation of School Funds to State Mandated Categories. Operating fund only; School Nutrition (Food Services) excluded.</p>
+      <p className="mt-2 text-xs text-night-muted">Source: FY27 SEON p.20, Budget Summary (Operating column); category links from SEON p.64, Reconciliation of School Funds to State Mandated Categories. Operating fund only; School Nutrition (Food Services) excluded. Page = start of department section, FY27 SEON table of contents.</p>
     </section>
   );
 }
