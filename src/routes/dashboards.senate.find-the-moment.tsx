@@ -6,7 +6,7 @@ import { SENATE_V4_MEETINGS } from "@/lib/ga-v4";
 import { SenateMeetingSearch } from "@/components/site/senate-meeting-search";
 
 export const Route = createFileRoute("/dashboards/senate/find-the-moment")({
-  validateSearch: (s: Record<string, unknown>) => ({ page: Math.max(1, Number(s.page) || 1) }),
+  validateSearch: (s: Record<string, unknown>) => ({ page: Math.max(1, Number(s.page) || 1), ...(typeof s.q === "string" && s.q ? { q: s.q } : {}) } as { page: number; q?: string }),
   head: () => ({ meta: [{ title: "State Senate Find the Moment · A Guy on X" }] }),
   component: Page,
 });

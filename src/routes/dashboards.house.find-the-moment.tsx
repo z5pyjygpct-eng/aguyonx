@@ -6,7 +6,7 @@ import { HOUSE_V4_MEETINGS } from "@/lib/ga-v4";
 import { HouseMeetingSearch } from "@/components/site/house-meeting-search";
 
 export const Route = createFileRoute("/dashboards/house/find-the-moment")({
-  validateSearch: (s: Record<string, unknown>) => ({ page: Math.max(1, Number(s.page) || 1) }),
+  validateSearch: (s: Record<string, unknown>) => ({ page: Math.max(1, Number(s.page) || 1), ...(typeof s.q === "string" && s.q ? { q: s.q } : {}) } as { page: number; q?: string }),
   head: () => ({ meta: [{ title: "House of Delegates Find the Moment · A Guy on X" }] }),
   component: Page,
 });

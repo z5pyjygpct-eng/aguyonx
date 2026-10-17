@@ -86,6 +86,7 @@ import { Route as DashboardsFairfaxCitySchoolsFindTheMomentRouteImport } from '.
 import { Route as DashboardsFairfaxCitySchoolsMembersRouteImport } from './routes/dashboards.fairfax-city.schools.members'
 import { Route as DashboardsFairfaxCitySchoolsPoliciesRouteImport } from './routes/dashboards.fairfax-city.schools.policies'
 import { Route as DashboardsFairfaxCitySchoolsRecapsRouteImport } from './routes/dashboards.fairfax-city.schools.recaps'
+import { Route as DashboardsHouseMembersSlugRouteImport } from './routes/dashboards.house.members_.$slug'
 import { Route as DashboardsLoudounBosFindTheMomentRouteImport } from './routes/dashboards.loudoun.bos.find-the-moment'
 import { Route as DashboardsLoudounBosMembersRouteImport } from './routes/dashboards.loudoun.bos.members'
 import { Route as DashboardsLoudounBosRecapsRouteImport } from './routes/dashboards.loudoun.bos.recaps'
@@ -103,6 +104,7 @@ import { Route as DashboardsManassasSchoolsFindTheMomentRouteImport } from './ro
 import { Route as DashboardsManassasSchoolsMembersRouteImport } from './routes/dashboards.manassas.schools.members'
 import { Route as DashboardsManassasSchoolsPoliciesRouteImport } from './routes/dashboards.manassas.schools.policies'
 import { Route as DashboardsManassasSchoolsRecapsRouteImport } from './routes/dashboards.manassas.schools.recaps'
+import { Route as DashboardsSenateMembersSlugRouteImport } from './routes/dashboards.senate.members_.$slug'
 import { Route as GeneralAssemblyHouseRecapsSlugRouteImport } from './routes/general-assembly.house.recaps.$slug'
 import { Route as GeneralAssemblySenateRecapsSlugRouteImport } from './routes/general-assembly.senate.recaps.$slug'
 
@@ -522,6 +524,12 @@ const DashboardsFairfaxCitySchoolsRecapsRoute =
     path: '/dashboards/fairfax-city/schools/recaps',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DashboardsHouseMembersSlugRoute =
+  DashboardsHouseMembersSlugRouteImport.update({
+    id: '/dashboards/house/members_/$slug',
+    path: '/dashboards/house/members/$slug',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DashboardsLoudounBosFindTheMomentRoute =
   DashboardsLoudounBosFindTheMomentRouteImport.update({
     id: '/dashboards/loudoun/bos/find-the-moment',
@@ -624,6 +632,12 @@ const DashboardsManassasSchoolsRecapsRoute =
     path: '/dashboards/manassas/schools/recaps',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DashboardsSenateMembersSlugRoute =
+  DashboardsSenateMembersSlugRouteImport.update({
+    id: '/dashboards/senate/members_/$slug',
+    path: '/dashboards/senate/members/$slug',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const GeneralAssemblyHouseRecapsSlugRoute =
   GeneralAssemblyHouseRecapsSlugRouteImport.update({
     id: '/recaps/$slug',
@@ -715,6 +729,7 @@ export interface FileRoutesByFullPath {
   '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/house/members/$slug': typeof DashboardsHouseMembersSlugRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -732,6 +747,7 @@ export interface FileRoutesByFullPath {
   '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
   '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
   '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
+  '/dashboards/senate/members/$slug': typeof DashboardsSenateMembersSlugRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -803,6 +819,7 @@ export interface FileRoutesByTo {
   '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/house/members/$slug': typeof DashboardsHouseMembersSlugRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -820,6 +837,7 @@ export interface FileRoutesByTo {
   '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
   '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
   '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
+  '/dashboards/senate/members/$slug': typeof DashboardsSenateMembersSlugRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -902,6 +920,7 @@ export interface FileRoutesById {
   '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/house/members_/$slug': typeof DashboardsHouseMembersSlugRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -919,6 +938,7 @@ export interface FileRoutesById {
   '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
   '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
   '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
+  '/dashboards/senate/members_/$slug': typeof DashboardsSenateMembersSlugRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -1002,6 +1022,7 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/members'
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/house/members/$slug'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -1019,6 +1040,7 @@ export interface FileRouteTypes {
     | '/dashboards/manassas/schools/members'
     | '/dashboards/manassas/schools/policies'
     | '/dashboards/manassas/schools/recaps'
+    | '/dashboards/senate/members/$slug'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   fileRoutesByTo: FileRoutesByTo
@@ -1090,6 +1112,7 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/members'
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/house/members/$slug'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -1107,6 +1130,7 @@ export interface FileRouteTypes {
     | '/dashboards/manassas/schools/members'
     | '/dashboards/manassas/schools/policies'
     | '/dashboards/manassas/schools/recaps'
+    | '/dashboards/senate/members/$slug'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   id:
@@ -1188,6 +1212,7 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/members'
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/house/members_/$slug'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -1205,6 +1230,7 @@ export interface FileRouteTypes {
     | '/dashboards/manassas/schools/members'
     | '/dashboards/manassas/schools/policies'
     | '/dashboards/manassas/schools/recaps'
+    | '/dashboards/senate/members_/$slug'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   fileRoutesById: FileRoutesById
@@ -1264,6 +1290,7 @@ export interface RootRouteChildren {
   DashboardsFairfaxCitySchoolsMembersRoute: typeof DashboardsFairfaxCitySchoolsMembersRoute
   DashboardsFairfaxCitySchoolsPoliciesRoute: typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   DashboardsFairfaxCitySchoolsRecapsRoute: typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  DashboardsHouseMembersSlugRoute: typeof DashboardsHouseMembersSlugRoute
   DashboardsLoudounBosFindTheMomentRoute: typeof DashboardsLoudounBosFindTheMomentRoute
   DashboardsLoudounBosMembersRoute: typeof DashboardsLoudounBosMembersRoute
   DashboardsLoudounBosRecapsRoute: typeof DashboardsLoudounBosRecapsRoute
@@ -1281,6 +1308,7 @@ export interface RootRouteChildren {
   DashboardsManassasSchoolsMembersRoute: typeof DashboardsManassasSchoolsMembersRoute
   DashboardsManassasSchoolsPoliciesRoute: typeof DashboardsManassasSchoolsPoliciesRoute
   DashboardsManassasSchoolsRecapsRoute: typeof DashboardsManassasSchoolsRecapsRoute
+  DashboardsSenateMembersSlugRoute: typeof DashboardsSenateMembersSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -1824,6 +1852,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardsFairfaxCitySchoolsRecapsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dashboards/house/members_/$slug': {
+      id: '/dashboards/house/members_/$slug'
+      path: '/dashboards/house/members/$slug'
+      fullPath: '/dashboards/house/members/$slug'
+      preLoaderRoute: typeof DashboardsHouseMembersSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dashboards/loudoun/bos/find-the-moment': {
       id: '/dashboards/loudoun/bos/find-the-moment'
       path: '/dashboards/loudoun/bos/find-the-moment'
@@ -1941,6 +1976,13 @@ declare module '@tanstack/react-router' {
       path: '/dashboards/manassas/schools/recaps'
       fullPath: '/dashboards/manassas/schools/recaps'
       preLoaderRoute: typeof DashboardsManassasSchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/members_/$slug': {
+      id: '/dashboards/senate/members_/$slug'
+      path: '/dashboards/senate/members/$slug'
+      fullPath: '/dashboards/senate/members/$slug'
+      preLoaderRoute: typeof DashboardsSenateMembersSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/general-assembly/house/recaps/$slug': {
@@ -2179,6 +2221,7 @@ const rootRouteChildren: RootRouteChildren = {
     DashboardsFairfaxCitySchoolsPoliciesRoute,
   DashboardsFairfaxCitySchoolsRecapsRoute:
     DashboardsFairfaxCitySchoolsRecapsRoute,
+  DashboardsHouseMembersSlugRoute: DashboardsHouseMembersSlugRoute,
   DashboardsLoudounBosFindTheMomentRoute:
     DashboardsLoudounBosFindTheMomentRoute,
   DashboardsLoudounBosMembersRoute: DashboardsLoudounBosMembersRoute,
@@ -2201,6 +2244,7 @@ const rootRouteChildren: RootRouteChildren = {
   DashboardsManassasSchoolsPoliciesRoute:
     DashboardsManassasSchoolsPoliciesRoute,
   DashboardsManassasSchoolsRecapsRoute: DashboardsManassasSchoolsRecapsRoute,
+  DashboardsSenateMembersSlugRoute: DashboardsSenateMembersSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
