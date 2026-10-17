@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ExternalLink, FileText } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
@@ -26,6 +27,58 @@ const CATEGORIES = [
   { name: "Attendance & Health", short: "$40.1M", pct: "1.9%", value: 40_077_274 },
   { name: "Facilities", short: "$7.7M", pct: "0.4%", value: 7_670_145 },
 ];
+// FY27 operating-fund departments, SEON p.20 Budget Summary (Operating column).
+// cats = state categories each department feeds, per SEON p.64 "Reconciliation of School Funds to State Mandated
+// Categories" (that table lists Administration, Attendance and Health as one row, so both chips use it).
+// Non-Departmental, Charter School and School Board are not named in that table: shown under All only.
+const AAH = ["Administration", "Attendance & Health"];
+const DEPARTMENTS: { name: string; value: number; pct: string; cats: string[] }[] = [
+  { name: "School Leadership", value: 788_560_281, pct: "38.2%", cats: ["Instruction", ...AAH] },
+  { name: "Student Services", value: 421_085_534, pct: "20.4%", cats: ["Instruction", ...AAH] },
+  { name: "Support Services", value: 265_249_703, pct: "12.8%", cats: [...AAH, "Pupil Transportation", "Operation & Maintenance", "Facilities"] },
+  { name: "Teaching and Learning", value: 264_953_026, pct: "12.8%", cats: ["Instruction", ...AAH] },
+  { name: "Non-Departmental", value: 153_933_036, pct: "7.4%", cats: [] },
+  { name: "Digital Innovation", value: 73_248_625, pct: "3.5%", cats: ["Technology"] },
+  { name: "Office of the Superintendent", value: 29_228_953, pct: "1.4%", cats: [...AAH, "Pupil Transportation", "Operation & Maintenance"] },
+  { name: "HR & Talent Dev", value: 25_182_188, pct: "1.2%", cats: [...AAH] },
+  { name: "Business & Financial Services", value: 13_217_533, pct: "0.6%", cats: [...AAH] },
+  { name: "Academics", value: 13_099_848, pct: "0.6%", cats: [...AAH] },
+  { name: "Communications & Community Engagement", value: 9_070_338, pct: "0.4%", cats: [...AAH] },
+  { name: "Charter School", value: 8_378_039, pct: "0.4%", cats: [] },
+  { name: "School Board", value: 1_747_563, pct: "0.1%", cats: [] },
+];
+
+function DepartmentSection() {
+  const [cat, setCat] = useState("All");
+  const rows = cat === "All" ? DEPARTMENTS : DEPARTMENTS.filter((d) => d.cats.includes(cat));
+  return (
+    <section className="mt-8 rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-6">
+      <h2 className="font-serif text-2xl font-semibold uppercase">By LCPS Department</h2>
+      <div className="mt-4 flex flex-wrap gap-2" role="group" aria-label="Filter by state category">
+        {["All", ...CATEGORIES.map((c) => c.name)].map((c) => (
+          <button key={c} type="button" aria-pressed={cat === c} onClick={() => setCat(c)}
+            className={`rounded-full border px-3 py-1 text-sm ${cat === c ? "border-gold bg-gold font-semibold text-navy-900" : "border-navy-line text-on-dark-muted hover:text-white"}`}>
+            {c}
+          </button>
+        ))}
+      </div>
+      <p className="mt-3 text-xs text-night-muted">
+        {cat === "All" ? "All 13 operating-fund departments." : `Departments that feed ${cat}, per the SEON reconciliation table (p.64).`} Amounts are full department totals; a department can span several state categories, and the SEON does not split department dollars by category.
+      </p>
+      <ul className="mt-3 divide-y divide-navy-line/70 rounded-lg border border-navy-line bg-navy-800">
+        {rows.map((d) => (
+          <li key={d.name} className="flex items-baseline gap-3 px-4 py-2.5">
+            <span className="min-w-0 flex-1 font-semibold">{d.name}</span>
+            <span className="font-mono tabular-nums text-gold">{usd(d.value)}</span>
+            <span className="w-14 text-right font-mono text-sm text-night-muted">{d.pct}</span>
+          </li>
+        ))}
+      </ul>
+      <p className="mt-2 text-xs text-night-muted">Source: FY27 SEON p.20, Budget Summary (Operating column); category links from SEON p.64, Reconciliation of School Funds to State Mandated Categories. Operating fund only; School Nutrition (Food Services) excluded.</p>
+    </section>
+  );
+}
+
 const SEON_PDF = "/files/lcps-budget/FY2027-lcps-superintendent-estimate-of-needs.pdf";
 // Highlight callouts (Scott-approved wording). page = PDF page index for the #page link.
 const CALLOUTS = [
@@ -102,6 +155,8 @@ function Page() {
             </div>
             <p className="mt-2 text-xs text-night-muted">Source: FY27 SEON p.72, Expenditures by State Category (FY27 Budget column), categories required by Code of Virginia §22.1-115.</p>
           </section>
+
+          <DepartmentSection />
 
           <div className="mt-6 grid gap-4 lg:grid-cols-3">
             {CALLOUTS.map((c) => (
