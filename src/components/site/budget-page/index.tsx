@@ -11,11 +11,11 @@ import { V4Main } from "@/components/site/lcps-v4";
 import { V4VenueHero, FoiaButton } from "@/components/site/venue-v4";
 import { V4_VENUES } from "@/lib/v4-venues";
 
-export const usd = (n: number) => `$${n.toLocaleString("en-US")}`;
+export const usd = (n: number) => `${n < 0 ? "−" : ""}$${Math.abs(n).toLocaleString("en-US")}`;
 
 export type BudgetCallout = { title: string; key: string[]; text: string; source: string; href?: string };
 export type BudgetCategory = { name: string; short: string; pct: string; value: number };
-export type BudgetDepartment = { name: string; page: number; value: number; pct: string; cats: string[] };
+export type BudgetDepartment = { name: string; page: number; value: number; pct: string; cats: string[]; pageLabel?: string };
 export type BudgetFileDoc = { label: string; dek: string; href: string; sizeLabel: string; source: string; kind: string; extractId: string };
 
 export type BudgetPageData = {
@@ -25,6 +25,8 @@ export type BudgetPageData = {
   categories: { ariaLabel: string; items: BudgetCategory[]; source: ReactNode; gridClass?: string };
   departments: {
     heading: string;
+    /** Chip labels; defaults to the category box names. Empty array hides the chips. */
+    chips?: string[];
     chipGroupLabel: string;
     items: BudgetDepartment[];
     allNote: string;
@@ -36,7 +38,9 @@ export type BudgetPageData = {
   questions: { q: string; body: ReactNode }[];
   how: { steps: [string, string][]; note: ReactNode };
   search: ReactNode;
-  files: { docs: BudgetFileDoc[]; footer: ReactNode };
+  files: { docs: BudgetFileDoc[]; footer: ReactNode; heading?: string };
+  /** Optional plain-language caveats, shown last. */
+  caveats?: ReactNode[];
 };
 
 const card = "rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-6";
@@ -93,21 +97,21 @@ function DepartmentSection({ d, chips }: { d: BudgetPageData["departments"]; chi
   return (
     <section className="mt-8 rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-6">
       <h2 className="font-serif text-2xl font-semibold uppercase">{d.heading}</h2>
-      <div className="mt-4 flex flex-wrap gap-2" role="group" aria-label={d.chipGroupLabel}>
+      {chips.length ? <div className="mt-4 flex flex-wrap gap-2" role="group" aria-label={d.chipGroupLabel}>
         {["All", ...chips].map((c) => (
           <button key={c} type="button" aria-pressed={cat === c} onClick={() => setCat(c)}
             className={`rounded-full border px-3 py-1 text-sm ${cat === c ? "border-gold bg-gold font-semibold text-navy-900" : "border-navy-line text-on-dark-muted hover:text-white"}`}>
             {c}
           </button>
         ))}
-      </div>
+      </div> : null}
       <p className="mt-3 text-xs text-night-muted">
         {cat === "All" ? d.allNote : d.filterNote(cat)} {d.spanNote}
       </p>
       <ul className="mt-3 divide-y divide-navy-line/70 rounded-lg border border-navy-line bg-navy-800">
         {rows.map((x) => (
           <li key={x.name} className="flex items-baseline gap-3 px-4 py-2.5">
-            <span className="min-w-0 flex-1 text-sm [overflow-wrap:anywhere] sm:text-base"><span className="font-semibold">{x.name}</span> <span className="whitespace-nowrap text-sm text-night-muted">(<a href={d.pageHref(x.page)} target="_blank" rel="noreferrer" className="text-gold underline-offset-2 hover:underline">p. {x.page}</a>)</span></span>
+            <span className="min-w-0 flex-1 text-sm [overflow-wrap:anywhere] sm:text-base"><span className="font-semibold">{x.name}</span> <span className="whitespace-nowrap text-sm text-night-muted">(<a href={d.pageHref(x.page)} target="_blank" rel="noreferrer" className="text-gold underline-offset-2 hover:underline">{x.pageLabel ?? `p. ${x.page}`}</a>)</span></span>
             <span className="shrink-0 font-mono text-sm tabular-nums text-gold sm:text-base">{usd(x.value)}</span>
             <span className="w-12 shrink-0 text-right font-mono text-xs text-night-muted sm:w-14 sm:text-sm">{x.pct}</span>
           </li>
@@ -120,7 +124,7 @@ function DepartmentSection({ d, chips }: { d: BudgetPageData["departments"]; chi
 
 export function BudgetPage({ data }: { data: BudgetPageData }) {
   const v = V4_VENUES[data.venue];
-  const { hero, callouts, categories, departments, questions, how, search, files } = data;
+  const { hero, callouts, categories, departments, questions, how, search, files, caveats } = data;
   return (
     <SiteShell>
       <V4Main>
@@ -163,7 +167,7 @@ export function BudgetPage({ data }: { data: BudgetPageData }) {
             <p className="mt-2 text-xs text-night-muted">{categories.source}</p>
           </section>
 
-          <DepartmentSection d={departments} chips={categories.items.map((c) => c.name)} />
+          <DepartmentSection d={departments} chips={departments.chips ?? categories.items.map((c) => c.name)} />
 
           <div className="mt-8 grid gap-5 lg:grid-cols-3">
             {questions.map((x, i) => <Q key={x.q} n={String(i + 1)} q={x.q}>{x.body}</Q>)}
@@ -189,7 +193,7 @@ export function BudgetPage({ data }: { data: BudgetPageData }) {
           </section>
 
           <section className="mt-10">
-            <h2 className="font-serif text-3xl font-semibold uppercase">Hosted source files <span className="font-mono text-base text-night-muted">({files.docs.length})</span></h2>
+            <h2 className="font-serif text-3xl font-semibold uppercase">{files.heading ?? "Hosted source files"} <span className="font-mono text-base text-night-muted">({files.docs.length})</span></h2>
             <ul className="mt-4 grid gap-3 md:grid-cols-2">
               {files.docs.map((doc) => (
                 <li key={doc.href} id={`budget-doc-${doc.extractId}`}>
@@ -209,6 +213,15 @@ export function BudgetPage({ data }: { data: BudgetPageData }) {
             </ul>
             <p className="mt-4 text-sm text-night-muted">{files.footer}</p>
           </section>
+
+          {caveats?.length ? (
+            <section className="mt-10">
+              <h2 className="font-serif text-3xl font-semibold uppercase">Caveats &amp; notes</h2>
+              <ul className="mt-4 space-y-2 rounded-[10px] border border-navy-line border-l-4 border-l-gold bg-navy-700 p-5 text-sm text-[#F6F3EA]">
+                {caveats.map((c, i) => <li key={i} className="flex gap-2"><span className="text-gold">•</span><span>{c}</span></li>)}
+              </ul>
+            </section>
+          ) : null}
 
 
         </div>
