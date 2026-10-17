@@ -8355,6 +8355,16 @@ export const FTM_TRANSCRIPTS: FtmTranscript[] = [
     sourceFile: "vas-11SmMBeO1C4.srt",
   },
   {
+    meetingId: "vas-0i8a8NEEpjI",
+    venue: "va-senate-floor",
+    url: "/files/find-the-moment/va-senate-floor/transcripts/vas-0i8a8NEEpjI.json",
+    windowCount: 782,
+    wordCount: 48074,
+    engine: "whisper.cpp \u00b7 large-v3-turbo",
+    generated: "2026-10-17",
+    sourceFile: "vas-0i8a8NEEpjI.srt",
+  },
+  {
     meetingId: "vas-3BBdmNcvTr4",
     venue: "va-senate-floor",
     url: "/files/find-the-moment/va-senate-floor/transcripts/vas-3BBdmNcvTr4.json",
