@@ -68,7 +68,7 @@ function DepartmentSection() {
       <ul className="mt-3 divide-y divide-navy-line/70 rounded-lg border border-navy-line bg-navy-800">
         {rows.map((d) => (
           <li key={d.name} className="flex items-baseline gap-3 px-4 py-2.5">
-            <span className="min-w-0 flex-1 text-sm [overflow-wrap:anywhere] sm:text-base"><span className="font-semibold">{d.name}</span> <span className="text-sm text-night-muted">(<a href={`${SEON_PDF}#page=${d.page + 9}`} target="_blank" rel="noreferrer" className="text-gold underline-offset-2 hover:underline">p. {d.page}</a>)</span></span>
+            <span className="min-w-0 flex-1 text-sm [overflow-wrap:anywhere] sm:text-base"><span className="font-semibold">{d.name}</span> <span className="whitespace-nowrap text-sm text-night-muted">(<a href={`${SEON_PDF}#page=${d.page + 9}`} target="_blank" rel="noreferrer" className="text-gold underline-offset-2 hover:underline">p. {d.page}</a>)</span></span>
             <span className="shrink-0 font-mono text-sm tabular-nums text-gold sm:text-base">{usd(d.value)}</span>
             <span className="w-12 shrink-0 text-right font-mono text-xs text-night-muted sm:w-14 sm:text-sm">{d.pct}</span>
           </li>
