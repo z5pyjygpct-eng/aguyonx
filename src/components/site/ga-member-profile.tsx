@@ -151,19 +151,19 @@ export function GaMemberProfile({ m, meta }: { m: GaMember; meta: GaMeta }) {
               ))}
             </ul>
           </Card>
-          <Card id="bills" title={`Bills patroned, 2026 (${reg.total + spec.total})`} badge="LIS 2026">
-            <p className="text-sm text-on-dark-muted">Chief patron only. {SESS["20261"]}: {reg.total} · {SESS["20262"]}: {spec.total}. Also co-patron on {m.coPatronCounts["20261"] + m.coPatronCounts["20262"]} bills (not listed).</p>
+          <Card id="bills" title={`Bills patroned, 2026 (${reg.total})`} badge="LIS 2026">
+            <p className="text-sm text-on-dark-muted">Chief patron only; counts are the {SESS["20261"]}.{spec.total ? ` ${SESS["20262"]}: ${spec.total} more (${spec.passed} passed, ${spec.failed} failed, ${spec.tabled} tabled), listed below.` : ""} Also co-patron on {m.coPatronCounts["20261"] + m.coPatronCounts["20262"]} bills (not listed).</p>
             <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
               <button type="button" onClick={() => setFilter("passedAll")} className="rounded-lg border border-navy-line border-l-4 border-l-[#7EE0A0] bg-navy-800 px-4 py-3 text-left hover:border-gold">
-                <div className="text-xs tracking-wide text-on-dark-muted uppercase">Passed</div><div className="font-serif text-3xl font-bold text-[#7EE0A0]">{reg.passed + spec.passed}</div>
-                <div className="text-xs text-night-muted">{reg.signed + spec.signed} signed · {reg.vetoed + spec.vetoed} vetoed{reg.passedNoGovAction + spec.passedNoGovAction ? ` · ${reg.passedNoGovAction + spec.passedNoGovAction} resolutions/no gov. action` : ""}</div>
+                <div className="text-xs tracking-wide text-on-dark-muted uppercase">Passed</div><div className="font-serif text-3xl font-bold text-[#7EE0A0]">{reg.passed}</div>
+                <div className="text-xs text-night-muted">{reg.signed} signed · {reg.vetoed} vetoed{reg.passedNoGovAction ? ` · ${reg.passedNoGovAction} resolutions/no gov. action` : ""}</div>
               </button>
               <button type="button" onClick={() => setFilter("failed")} className="rounded-lg border border-navy-line border-l-4 border-l-[#FF7A85] bg-navy-800 px-4 py-3 text-left hover:border-gold">
-                <div className="text-xs tracking-wide text-on-dark-muted uppercase">Failed</div><div className="font-serif text-3xl font-bold text-[#FF7A85]">{reg.failed + spec.failed}</div>
+                <div className="text-xs tracking-wide text-on-dark-muted uppercase">Failed</div><div className="font-serif text-3xl font-bold text-[#FF7A85]">{reg.failed}</div>
                 <div className="text-xs text-night-muted">stricken, passed by indefinitely, incorporated, defeated</div>
               </button>
               <button type="button" onClick={() => setFilter("tabled")} className="rounded-lg border border-navy-line border-l-4 border-l-gold bg-navy-800 px-4 py-3 text-left hover:border-gold">
-                <div className="text-xs tracking-wide text-on-dark-muted uppercase">Tabled / continued</div><div className="font-serif text-3xl font-bold text-gold">{reg.tabled + spec.tabled}</div>
+                <div className="text-xs tracking-wide text-on-dark-muted uppercase">Tabled / continued</div><div className="font-serif text-3xl font-bold text-gold">{reg.tabled}</div>
                 <div className="text-xs text-night-muted">left in committee, laid on table, continued to 2027</div>
               </button>
             </div>
