@@ -15,6 +15,17 @@ export const Route = createFileRoute("/dashboards/loudoun/schools/budget")({
 const pct = (n: number) => `${((n / B.schoolOperatingAdopted) * 100).toFixed(1)}%`;
 const usd = (n: number) => `$${n.toLocaleString("en-US")}`;
 const other = B.schoolOperatingAdopted - B.localTaxFunding;
+
+const SEON_PDF = "/files/lcps-budget/FY2027-lcps-superintendent-estimate-of-needs.pdf";
+// Highlight callouts (Scott-approved wording). page = PDF page index for the #page link.
+const CALLOUTS = [
+  { text: "$57.2M for administration (2.8% of operating): central office policy, leadership, HR, finance and communications.", page: 82,
+    source: "FY27 SEON p.72, Expenditures by State Category, Administration $57,156,692." },
+  { text: "2,649 special education positions (about 1,024 teachers and 1,150 assistants) inside a $421M Student Services budget (20.4% of operating).", page: 178,
+    source: "SEON Dept of Student Services, budget total $421,085,534 (p.169) and Special Education Program staffing of 2,649.0 FTE (p.~172)." },
+  { text: "515 English learner staff, including 450 teachers, serving about 11,900 students, plus $4.2M in new English learner staffing in FY27.", page: 221,
+    source: "SEON Teaching & Learning, English Learner Programs 515.3 FTE / Teacher, EL 450.3 (p.~212); 11,890 EL students served 2024-25 (statistics page); FY27 EL enhancements $2,691,158 + $936,443 + $545,439." },
+];
 const card = "rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-6";
 const lab = "font-mono text-xs tracking-widest text-gold uppercase";
 
@@ -68,6 +79,17 @@ function Page() {
             <p className="mt-3 text-xs text-night-muted">Per-pupil cost not shown: no sourced FY27 enrollment figure on file.</p>
             <div className="mt-5 flex flex-wrap gap-3"><FoiaButton foia={v.foia} /></div>
           </section>
+
+          <div className="mt-6 grid gap-4 lg:grid-cols-3">
+            {CALLOUTS.map((c) => (
+              <section key={c.text} className="rounded-[10px] border border-navy-line border-l-4 border-l-gold bg-navy-700 p-5">
+                <p className="text-lg font-semibold leading-snug text-white">{c.text}</p>
+                <p className="mt-3 text-xs text-night-muted">
+                  <a href={`${SEON_PDF}#page=${c.page}`} target="_blank" rel="noreferrer" className="hover:text-gold hover:underline">Source: {c.source}</a>
+                </p>
+              </section>
+            ))}
+          </div>
 
           <div className="mt-8 grid gap-5 lg:grid-cols-3">
             <Q n="1" q="Where does the money come from?">
