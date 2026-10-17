@@ -109,6 +109,10 @@ for s in SESS:
             ref, desc = r["History_refid"], r["History_description"]
             for ch in ("house", "senate"):
                 if is_floor(ch, ref, desc) and (s, ref) in votes:
+                    # skip history lines whose printed tally does not match this VOTE.CSV roll call
+                    # (20261 HISTORY logs some Special Session I actions with 20262 vote numbers)
+                    t = re.search(r"\((\d+)-Y (\d+)-N", desc); vv = list(votes[(s, ref)].values())
+                    if t and (vv.count("Y"), vv.count("N")) != (int(t.group(1)), int(t.group(2))): continue
                     rc = rollcalls[ch].setdefault((s, ref), dict(session=s, ref=ref, date=mdy(r["History_date"]), bills=[]))
                     if all(x["bill"] != b[1] for x in rc["bills"]):
                         rc["bills"].append(dict(bill=b[1], title=titles.get((s, b[1]), ""), action=desc[2:].strip(),
