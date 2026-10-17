@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,240 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-17",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 16) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (outlet headline, URL and Oct 16 ET publish date checked on each article page). Sources checked: Loudoun Now, Loudoun Times-Mirror, FFXnow, ARLnow, InsideNoVa, Prince William Times, Potomac Local, Blue Ridge Leader, Patch (Leesburg, Ashburn, Arlington, Fairfax City, Vienna, Reston, Herndon, McLean, Annandale, Burke, Manassas), WTOP, WUSA9, NBC Washington, FOX 5 DC, WJLA; news.ts had two Oct 16 local items (Potomac Local Dumfries $7M/trash, LTM Leesburg Q&A), both kept; a statewide Virginia Mercury item left out. Caveats: capped (40 candidates evaluated, 25 kept); Loudoun Now, Loudoun Times-Mirror, InsideNoVa and Prince William Times RSS rate-limited (HTTP 429; read from site section pages instead); WJLA county pages returned 404 and Patch Woodbridge/Springfield pages 404; Blue Ridge Leader had no Oct 16 Loudoun news posts; NBC Washington had no Oct 16 in-scope local item (Alexandria and statewide items left out); Falls Church-only, Alexandria-only, Stafford and Fredericksburg items left out; same-story duplicates across outlets dropped (LTM and Patch Middleburg bank robbery pleas vs Loudoun Now; WTOP/FOX 5 20-mph pilot vs FFXnow; PWT First Friday vs Potomac Local; FOX 5 sledding death vs Potomac Local; WUSA9 Occoquan Elementary vs InsideNoVa) and Patch follow-ups of stories already in the store (Arlington stabbing, Herndon loaded guns, Manassas hemp shop); ARLnow ‘why vote for me’ candidate essays, sponsored listings, polls, Morning Notes/Patch AM roundups, weather alerts, sports and soft lifestyle pieces left out; cap cuts: Wolf Trap Nursery closing (FFXnow), Maximus Foundation hunger relief grant (Loudoun Now), Workhouse Arts Lorton exhibit (InsideNoVa), Clarendon Halloween street closures (Patch); Patch CIA headline taken from the article page H1 (the listing card read differently); LTM Chantilly sex-sting conviction filed under Loudoun (Loudoun Circuit Court case).",
+      "items": [
+        {
+          "id": "no-kings-marches-arlington-memorial-bridge-arlnow-2026-10-16",
+          "county": "Arlington",
+          "headline": "‘No Kings’ marches coming to Arlington neighborhoods, Memorial Bridge tomorrow",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/16/no-kings-marches-coming-to-arlington-neighborhoods-memorial-bridge-tomorrow/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "over-400-volunteers-celebrated-arlington-awards-arlnow-2026-10-16",
+          "county": "Arlington",
+          "headline": "Over 400 volunteers celebrated at Arlington awards ceremony",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/16/over-400-volunteers-celebrated-at-arlington-awards-ceremony/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "accidental-shooting-arlington-office-building-fox5-2026-10-16",
+          "county": "Arlington",
+          "headline": "Accidental shooting in Arlington County office building leaves one injured",
+          "outlet": "FOX 5 DC",
+          "url": "https://www.fox5dc.com/news/accidental-shooting-arlington-county-office-building-leaves-one-injured",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "off-duty-fcpd-officer-charged-domestic-assault-ffxnow-2026-10-16",
+          "county": "Fairfax",
+          "headline": "JUST IN: Off-duty FCPD officer charged with domestic assault in Tysons",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/16/just-in-off-duty-fcpd-officer-charged-with-domestic-assault-in-tysons/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcps-lawsuit-federal-funding-freeze-revived-ffxnow-2026-10-16",
+          "county": "Fairfax",
+          "headline": "FCPS lawsuit over federal funding freeze revived by appeals court",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/16/fcps-lawsuit-over-federal-funding-freeze-revived-by-appeals-court/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "revisions-approved-metrowest-apartment-retail-ffxnow-2026-10-16",
+          "county": "Fairfax",
+          "headline": "Revisions approved for MetroWest apartment building expected to bring more retail",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/16/approved-revisions-to-planned-apartment-building-could-bring-more-retail-to-metrowest/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-pilot-20-mph-speed-limits-ffxnow-2026-10-16",
+          "county": "Fairfax",
+          "headline": "Fairfax County revs up pilot testing 20-mph speed limits on 10 roads",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/16/fairfax-county-testing-20-mph-speed-limits-on-10-roads-this-fall/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-drives-12-hours-cia-headquarters-bomb-scare-patch-2026-10-16",
+          "county": "Fairfax",
+          "headline": "Man Drives 12 Hours To CIA Headquarters, Triggers Bomb Scare: Court Records",
+          "outlet": "Patch",
+          "url": "https://patch.com/virginia/mclean/driver-triggers-bomb-scare-cia-headquarters-faces-federal-charge-court-records",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "perrys-proposed-data-center-moratorium-mixed-loudounnow-2026-10-16",
+          "county": "Loudoun",
+          "headline": "Perry’s Proposed Data Center Moratorium Draws Mixed Reaction",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/perry-s-proposed-data-center-moratorium-draws-mixed-reaction/article_c0643a40-ea3f-4398-b6c9-5a0f36617da6.html",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "commonwealths-attorney-seeks-6-positions-cyber-loudounnow-2026-10-16",
+          "county": "Loudoun",
+          "headline": "Commonwealth’s Attorney Seeks 6 Positions Dedicated to Financial, Cyber Crime",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/commonwealth-s-attorney-seeks-6-positions-dedicated-to-financial-cyber-crime/article_1fa7d61f-61d2-421a-8a05-e3881a5f8afd.html",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "middleburg-bank-robbery-suspect-pleads-guilty-loudounnow-2026-10-16",
+          "county": "Loudoun",
+          "headline": "Middleburg Bank Robbery Suspect Pleads Guilty",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/middleburg-bank-robbery-suspect-pleads-guilty/article_5afa9f7e-82a7-4bdc-92bf-3a54a8d01718.html",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "school-division-third-annual-workforce-summit-loudounnow-2026-10-16",
+          "county": "Loudoun",
+          "headline": "School Division Holds Third Annual Workforce Summit",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/school-division-holds-third-annual-workforce-summit/article_fd08be84-686f-49ba-ad45-85763412f85f.html",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "chantilly-man-convicted-solicitation-sex-sting-ltm-2026-10-16",
+          "county": "Loudoun",
+          "headline": "Chantilly man convicted of solicitation in sex sting",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/chantilly-man-convicted-of-solicitation-in-sex-sting/article_09f56458-7a17-4f84-8fd6-8bf62a494b05.html",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "nett-may-access-grand-jury-testimony-ltm-2026-10-16",
+          "county": "Loudoun",
+          "headline": "Nett may access grand jury testimony and some police records ahead of trial, judge rules",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/nett-may-access-grand-jury-testimony-and-some-police-records-ahead-of-trial-judge-rules/article_84f2ef62-82c7-4c50-843c-51d11133ff48.html",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "leesburg-town-council-mayor-qa-ltm-2026-10-16",
+          "county": "Loudoun",
+          "headline": "Q&A with candidates for Leesburg Town Council and mayor",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/q-a-with-candidates-for-leesburg-town-council-and-mayor/article_6070b35a-2575-49af-b630-df3e4416d5e9.html",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-school-board-oks-student-transfer-policy-wtop-2026-10-16",
+          "county": "Loudoun",
+          "headline": "Loudoun County school board OKs update to student transfer policy",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/loudoun-co-school-board-oks-update-to-student-transfer-policy/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "flock-cameras-loudoun-county-board-study-wtop-2026-10-16",
+          "county": "Loudoun",
+          "headline": "How many Flock cameras are being used in Loudoun County? Board considers study",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/how-many-flock-cameras-are-being-used-in-loudoun-county-board-considers-study/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-cancels-first-friday-rest-2026-potomaclocal-2026-10-16",
+          "county": "Prince William",
+          "headline": "Manassas cancels First Friday for rest of 2026 after teen bystander slain in downtown shootout",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/16/manassas-cancels-first-friday-for-rest-of-2026-after-teen-bystander-slain/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "dumfries-councilman-flock-meeting-potomaclocal-2026-10-16",
+          "county": "Prince William",
+          "headline": "Dumfries councilman flips out at Flock meeting: ‘Let Dumfries handle Dumfries business’",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/16/dumfries-fields-flock-town-hall-outsiders/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "dumfries-accepts-7m-route-1-trash-potomaclocal-2026-10-16",
+          "county": "Prince William",
+          "headline": "Dumfries accepts $7 million for Route 1 corridor work and switches to twice-weekly trash pickup",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/16/dumfries-accepts-7-million-for-route-1-corridor-work-and-switches-to-twice-weekly-trash-pickup/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-dumfries-walmart-robbery-potomaclocal-2026-10-16",
+          "county": "Prince William",
+          "headline": "Police Blotter: Manassas man arrested after strong-armed robbery at Dumfries Walmart",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/16/police-blotter-2026-10-16/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-boy-sledding-accident-dies-potomaclocal-2026-10-16",
+          "county": "Prince William",
+          "headline": "Manassas boy injured in sledding accident dies from infection",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/16/manassas-boy-injured-in-sledding-accident-dies-from-infection/",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "two-occoquan-elementary-employees-charged-insidenova-2026-10-16",
+          "county": "Prince William",
+          "headline": "Two Occoquan Elementary employees charged after 5-year-old boy climbs fence, runs across Old Bridge Road",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/headlines/two-occoquan-elementary-employees-charged-after-5-year-old-boy-climbs-fence-runs-across-old/article_f640958c-8430-421a-9db6-058989ecd848.html",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "pack-knives-fruit-naresh-bhatt-trial-insidenova-2026-10-16",
+          "county": "Prince William",
+          "headline": "A pack of knives and some fruit: Witnesses in Naresh Bhatt trial share Walmart surveillance footage, home bloodstain evidence",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/prince_william/a-pack-of-knives-and-some-fruit-witnesses-in-naresh-bhatt-trial-share-walmart-surveillance/article_6154def6-4707-4a44-9d3e-30cf16378de9.html",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "luminas-257-new-townhomes-haymarket-advance-pwt-2026-10-16",
+          "county": "Prince William",
+          "headline": "Lumina's 257 new townhomes outside Haymarket advance",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/luminas-257-new-townhomes-outside-haymarket-advance/article_0a160066-aaf9-4e5e-9030-f19b394c9427.html",
+          "published": "2026-10-16",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-10-16",
       "status": "ok",
