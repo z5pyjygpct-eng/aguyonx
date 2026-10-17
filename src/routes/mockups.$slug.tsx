@@ -29,8 +29,8 @@ function Page() {
       <main className="agx-dark flex-1 bg-navy-800 text-white">
         <div role="status" className="bg-gold text-navy-900">
           <p className="mx-auto max-w-7xl px-4 py-2.5 text-center text-sm font-semibold sm:px-8">
-            <span className="font-serif tracking-[0.14em] uppercase">Preview mockup</span> · Figures marked EXAMPLE DATA are not real.
-            {LIS_NOTE.has(slug) ? " Real scorecard and vote data will come from the LIS API." : ""} FOIA links are placeholders.
+            <span className="font-serif tracking-[0.14em] uppercase">Preview mockup</span> · {slug === "ga-dashboard" ? "EXAMPLE DATA is not real; real data will come from the LIS API." : "Figures marked EXAMPLE DATA are not real."}
+            {slug === "ga-dashboard" ? "" : `${LIS_NOTE.has(slug) ? " Real scorecard and vote data will come from the LIS API." : ""} FOIA links are placeholders.`}
           </p>
         </div>
         <div ref={ref} dangerouslySetInnerHTML={{ __html: m.html }} />
