@@ -23,7 +23,7 @@ export const NAV_PRIMARY = [
 export const NAV_TOOLS = [
   { to: "/news", label: "News" },
   { to: "/nova-briefing", label: "Daily NoVA Briefing" },
-  { to: "/library", label: "Library" },
+  { to: "/library", label: "Research Library" },
   { to: "/library/foia", label: "FOIA letter desk" },
   { to: "/2027", label: "2027 Democrats" },
 ] as const;
