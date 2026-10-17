@@ -100,6 +100,9 @@ const ACTION_SEP9 =
 const ACTION_SEP1 =
   "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1975185/09-01-26%20Business%20Meeting%20Action%20Report.pdf";
 
+const ACTION_OCT14 =
+  "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1976056/10-14-26%20Public%20Hearing%20Action%20Report.pdf";
+const OCT14_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=7960f118-c668-45ef-a975-2362de95de1c&Agenda=Agenda&lang=English`;
 const OCT6_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=3a6eea40-36a8-49b2-9488-cedd456be4d9&Agenda=Agenda&lang=English`;
 const SEP15_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=79595442-81c5-4c63-add5-9a91a8d6300b&Agenda=Agenda&lang=English`;
 const SEP9_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=be4b3b17-ccfc-40f8-9ed4-0f8e705e0928&Agenda=Agenda&lang=English`;
@@ -117,6 +120,101 @@ const boarddocsMeeting = (id: string) =>
 
 const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
 
+  // --- 2026-10-17 morning: Oct 14 BOS public hearing (Whisper transcript + Action Report posted Oct 16) ---
+  {
+    slug: "bos-2026-10-14-public-hearing",
+    shareEnabled: true,
+    shareContext: "Loudoun BOS, Oct 14, 2026",
+    meetingId: "escribe-7960f118",
+    title: "Board of Supervisors Public Hearing",
+    dateLabel: "Wednesday, Oct 14, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 1h 8m",
+    official: {
+      votesPosted: true,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Votes below are taken from the county Action Report (memo dated Oct 16, 2026).",
+      links: [
+        { label: "Agenda (eScribe)", href: OCT14_AGENDA_HTML },
+        { label: "Action Report (PDF)", href: ACTION_OCT14 },
+        {
+          label: "County document folder for Board meetings",
+          href: LASERFICHE_BOS,
+        },
+      ],
+    },
+    decisions: [
+      {
+        item: "3.a",
+        action:
+          "2028–2031 Board of Supervisors Term Compensation Structure forwarded to the Nov 5, 2026 Business Meeting for action, referring to Table 1 (Chair Randall’s substitute motion, seconded by Vice Chair Turner). Supervisor Glass’s original motion to forward the item (seconded by Supervisor Briskman) was replaced after the seconder did not accept a friendly amendment adding the Table 1 reference.",
+        tally: "5-3-1 (Supervisors Kershner, Letourneau, and Umstattd opposed; Supervisor TeKrony absent)",
+        source: { label: "Oct 14, 2026 Action Report", href: ACTION_OCT14 },
+      },
+      {
+        item: "3.b",
+        action:
+          "Resolution approving the public use and necessity of acquiring real property interests by eminent domain for the Route 15 / Spinks Ferry Road / Newvalley Church Road Roundabout Project approved; County Attorney authorized to institute proceedings for the interests in Table 1 (Exhibits A–F). Consolidated hearing item.",
+        tally: "7-0-2 (Supervisors Letourneau and TeKrony absent)",
+        source: { label: "Oct 14, 2026 Action Report", href: ACTION_OCT14 },
+      },
+      {
+        item: "3.c",
+        action:
+          "Resolution approving the public use and necessity of acquiring real property interests by eminent domain for Dulles West Boulevard (Northstar Boulevard to Arcola Boulevard) approved; County Attorney authorized to institute proceedings for the interests in Table 1 (Exhibits A–E). Consolidated hearing item.",
+        tally: "7-0-2 (Supervisors Letourneau and TeKrony absent)",
+        source: { label: "Oct 14, 2026 Action Report", href: ACTION_OCT14 },
+      },
+      {
+        item: "3.d",
+        action:
+          "Resolution approving the public use and necessity of acquiring real property interests by eminent domain for the Sterling Boulevard and Glenn Drive intersection improvements approved; County Attorney authorized to institute proceedings for the interests in Table 1 (Exhibit A). Consolidated hearing item.",
+        tally: "7-0-2 (Supervisors Letourneau and TeKrony absent)",
+        source: { label: "Oct 14, 2026 Action Report", href: ACTION_OCT14 },
+      },
+      {
+        item: "3.e",
+        action:
+          "Resolution approving the public use and necessity of acquiring real property interests by eminent domain for the Waxpool Road and Ashburn Road/Ryan Corner Place intersection improvements approved; County Attorney authorized to institute proceedings for the interests in Table 1 (Exhibits A and B). Consolidated hearing item.",
+        tally: "7-0-2 (Supervisors Letourneau and TeKrony absent)",
+        source: { label: "Oct 14, 2026 Action Report", href: ACTION_OCT14 },
+      },
+      {
+        item: "3.f",
+        action:
+          "LEGI-2026-0001, Dulles Logistics: ZCPA-2026-0002 approved, subject to the Proffer Statement dated Sept 22, 2026 and the Findings for Approval (Attachments 1 and 2). Consolidated hearing item.",
+        tally: "8-0-1 (Supervisor TeKrony absent)",
+        source: { label: "Oct 14, 2026 Action Report", href: ACTION_OCT14 },
+      },
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Hearing items (as published on the eScribe agenda)",
+        dek: "Consolidated Hearing Agenda covered 3.b–3.f (per the Action Report); 3.a was heard separately; 3.g was advertised as deferred.",
+        items: [
+          { num: "3.a", title: "2028-2031 Board of Supervisors Term Compensation Structure (Countywide)", href: doc(1705) },
+          { num: "3.b", title: "Eminent domain resolution: Route 15 / Spinks Ferry Road / Newvalley Church Road Roundabout Project (Catoctin)", href: doc(1695) },
+          { num: "3.c", title: "Eminent domain resolution: Dulles West Boulevard, Northstar Boulevard to Arcola Boulevard (Dulles)", href: doc(1703) },
+          { num: "3.d", title: "Eminent domain resolution: Sterling Boulevard and Glenn Drive Intersection Improvements (Sterling)", href: doc(1701) },
+          { num: "3.e", title: "Eminent domain resolution: Waxpool Road and Ashburn Road/Ryan Corner Place Intersection Improvements (Ashburn and Broad Run)", href: doc(1698) },
+          { num: "3.f", title: "LEGI-2026-0001, Dulles Logistics: ZCPA-2026-0002 (Dulles)", href: doc(1706) },
+          { num: "3.g", title: "DEFERRED: LEGI-2024-0074, Spring Valley Technology Park: ZMAP-2025-0008, SPEX-2025-0009, SPEX-2025-0011, SPEX-2025-0136 & SPEX-2026-0004 (Ashburn)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-10-14-board-of-supervisors-public-hearing.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-10-14-board-of-supervisors-public-hearing.txt",
+      pdfNote: "15 pages",
+    },
+    moments: [
+      { seconds: 848, label: "Meeting called to order." },
+      { seconds: 988, label: "Consolidated hearing agenda (3.b–3.f) read; Spring Valley Technology Park noted as deferred." },
+      { seconds: 1678, item: "3.a", label: "2028–2031 Board compensation structure taken up." },
+      { seconds: 2188, item: "3.a", label: "Public input on the compensation item." },
+      { seconds: 3993, item: "3.a", label: "Substitute motion referencing Table 1 put to a vote." },
+    ],
+  },
   // --- 2026-10-11 morning: newest pending BOS + LCPS (interleaved) ---
   {
     slug: "lcps-2026-07-13-special",

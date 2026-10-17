@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/manassas-schools/transcripts/mcps-M_U-Q5V_WYM.json",
+  "outBase": "public/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-03-18-manassas-city-school-board-budget-work-session-march-18-2026",
+  "title": "Manassas City School Board Budget Work Session - March 18, 2026",
+  "shortTitle": "School Board Budget Work Session \u00b7 Mar 18, 2026",
+  "date": "Wednesday, March 18, 2026",
+  "place": "Manassas City Public Schools / School Board meeting, Virginia",
+  "length": "2h 38m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=M_U-Q5V_WYM"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-17"
+}

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/escribe-7960f118.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-10-14-board-of-supervisors-public-hearing",
+  "title": "Loudoun County Board of Supervisors Public Hearing, Wednesday, October 14, 2026",
+  "shortTitle": "BOS Public Hearing \u00b7 Oct 14, 2026",
+  "date": "Wednesday, October 14, 2026",
+  "place": "Loudoun County Government Center, Leesburg, Virginia",
+  "length": "1h 8m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (eScribe)",
+      "href": "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=7960f118-c668-45ef-a975-2362de95de1c"
+    },
+    {
+      "label": "Meeting page and agenda (eScribe)",
+      "href": "https://pub-loudoun.escribemeetings.com/Meeting.aspx?Id=7960f118-c668-45ef-a975-2362de95de1c&Agenda=Agenda&lang=English"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-17"
+}

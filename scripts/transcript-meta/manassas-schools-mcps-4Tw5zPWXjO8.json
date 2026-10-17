@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/manassas-schools/transcripts/mcps-4Tw5zPWXjO8.json",
+  "outBase": "public/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-10-23-manassas-city-school-board-work-session-october-23-2025",
+  "title": "Manassas City School Board Work Session - October 23, 2025",
+  "shortTitle": "School Board Work Session \u00b7 Oct 23, 2025",
+  "date": "Thursday, October 23, 2025",
+  "place": "Manassas City Public Schools / School Board meeting, Virginia",
+  "length": "1h 13m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=4Tw5zPWXjO8"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-17"
+}
