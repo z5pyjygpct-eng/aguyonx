@@ -88,6 +88,7 @@ import { Route as DashboardsFairfaxCitySchoolsMembersRouteImport } from './route
 import { Route as DashboardsFairfaxCitySchoolsPoliciesRouteImport } from './routes/dashboards.fairfax-city.schools.policies'
 import { Route as DashboardsFairfaxCitySchoolsRecapsRouteImport } from './routes/dashboards.fairfax-city.schools.recaps'
 import { Route as DashboardsHouseMembersSlugRouteImport } from './routes/dashboards.house.members_.$slug'
+import { Route as DashboardsLoudounBosBudgetRouteImport } from './routes/dashboards.loudoun.bos.budget'
 import { Route as DashboardsLoudounBosFindTheMomentRouteImport } from './routes/dashboards.loudoun.bos.find-the-moment'
 import { Route as DashboardsLoudounBosMembersRouteImport } from './routes/dashboards.loudoun.bos.members'
 import { Route as DashboardsLoudounBosRecapsRouteImport } from './routes/dashboards.loudoun.bos.recaps'
@@ -536,6 +537,12 @@ const DashboardsHouseMembersSlugRoute =
     path: '/dashboards/house/members/$slug',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DashboardsLoudounBosBudgetRoute =
+  DashboardsLoudounBosBudgetRouteImport.update({
+    id: '/dashboards/loudoun/bos/budget',
+    path: '/dashboards/loudoun/bos/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DashboardsLoudounBosFindTheMomentRoute =
   DashboardsLoudounBosFindTheMomentRouteImport.update({
     id: '/dashboards/loudoun/bos/find-the-moment',
@@ -737,6 +744,7 @@ export interface FileRoutesByFullPath {
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
   '/dashboards/house/members/$slug': typeof DashboardsHouseMembersSlugRoute
+  '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -828,6 +836,7 @@ export interface FileRoutesByTo {
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
   '/dashboards/house/members/$slug': typeof DashboardsHouseMembersSlugRoute
+  '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -930,6 +939,7 @@ export interface FileRoutesById {
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
   '/dashboards/house/members_/$slug': typeof DashboardsHouseMembersSlugRoute
+  '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
   '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
   '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
@@ -1033,6 +1043,7 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
     | '/dashboards/house/members/$slug'
+    | '/dashboards/loudoun/bos/budget'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -1124,6 +1135,7 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
     | '/dashboards/house/members/$slug'
+    | '/dashboards/loudoun/bos/budget'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -1225,6 +1237,7 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
     | '/dashboards/house/members_/$slug'
+    | '/dashboards/loudoun/bos/budget'
     | '/dashboards/loudoun/bos/find-the-moment'
     | '/dashboards/loudoun/bos/members'
     | '/dashboards/loudoun/bos/recaps'
@@ -1304,6 +1317,7 @@ export interface RootRouteChildren {
   DashboardsFairfaxCitySchoolsPoliciesRoute: typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   DashboardsFairfaxCitySchoolsRecapsRoute: typeof DashboardsFairfaxCitySchoolsRecapsRoute
   DashboardsHouseMembersSlugRoute: typeof DashboardsHouseMembersSlugRoute
+  DashboardsLoudounBosBudgetRoute: typeof DashboardsLoudounBosBudgetRoute
   DashboardsLoudounBosFindTheMomentRoute: typeof DashboardsLoudounBosFindTheMomentRoute
   DashboardsLoudounBosMembersRoute: typeof DashboardsLoudounBosMembersRoute
   DashboardsLoudounBosRecapsRoute: typeof DashboardsLoudounBosRecapsRoute
@@ -1879,6 +1893,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardsHouseMembersSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dashboards/loudoun/bos/budget': {
+      id: '/dashboards/loudoun/bos/budget'
+      path: '/dashboards/loudoun/bos/budget'
+      fullPath: '/dashboards/loudoun/bos/budget'
+      preLoaderRoute: typeof DashboardsLoudounBosBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dashboards/loudoun/bos/find-the-moment': {
       id: '/dashboards/loudoun/bos/find-the-moment'
       path: '/dashboards/loudoun/bos/find-the-moment'
@@ -2243,6 +2264,7 @@ const rootRouteChildren: RootRouteChildren = {
   DashboardsFairfaxCitySchoolsRecapsRoute:
     DashboardsFairfaxCitySchoolsRecapsRoute,
   DashboardsHouseMembersSlugRoute: DashboardsHouseMembersSlugRoute,
+  DashboardsLoudounBosBudgetRoute: DashboardsLoudounBosBudgetRoute,
   DashboardsLoudounBosFindTheMomentRoute:
     DashboardsLoudounBosFindTheMomentRoute,
   DashboardsLoudounBosMembersRoute: DashboardsLoudounBosMembersRoute,

@@ -66,7 +66,7 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/loudoun/bos/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/loudoun/bos/recaps" },
-          soon("Budget/Finances", "money"),
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/loudoun/bos/budget" },
           { label: "Members", icon: "people", to: "/dashboards/loudoun/bos/members" },
         ],
         foia: FOIA.loudoun,
