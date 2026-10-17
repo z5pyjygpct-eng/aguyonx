@@ -247,12 +247,6 @@ function Page() {
             </p>
           </section>
 
-          <figure className="mt-10 overflow-hidden rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-[#F6F3EA]">
-            <img src="/files/lcps-budget/fy2027-operating-vs-ltf.png" alt="FY2027 Loudoun School Operating Fund total versus local tax funding, BOS Adopted" className="w-full" width={1600} height={900} loading="lazy" />
-            <figcaption className="bg-navy-700 px-4 py-3 text-sm text-night-muted">
-              FY2027 operating total vs local tax funding (BOS Adopted). Source: Loudoun County FY2027 Adopted Budget Executive Summary / Budget in Brief.
-            </figcaption>
-          </figure>
 
         </div>
       </V4Main>
