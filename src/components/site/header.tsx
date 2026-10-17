@@ -21,14 +21,10 @@ export const NAV_PRIMARY = [
 
 /** Everything else lives under Tools so no existing page loses its door. */
 export const NAV_TOOLS = [
-  { to: "/find-the-moment", label: "Find the Moment" },
+  { to: "/news", label: "News" },
   { to: "/nova-briefing", label: "Daily NoVA Briefing" },
   { to: "/library", label: "Library" },
   { to: "/library/foia", label: "FOIA letter desk" },
-  { to: "/delegates", label: "Delegates" },
-  { to: "/senators", label: "Senators" },
-  { to: "/general-assembly", label: "General Assembly" },
-  { to: "/counties", label: "Counties" },
   { to: "/2027", label: "2027 Democrats" },
 ] as const;
 
@@ -120,7 +116,7 @@ export function SiteHeader(_props: { inverted?: boolean } = {}) {
                 <SheetTitle className="font-serif text-white">A GUY ON <span className="text-gold">X</span></SheetTitle>
               </SheetHeader>
               <nav className="mt-4 flex flex-col overflow-y-auto px-4" aria-label="Mobile">
-                {[...NAV_PRIMARY, ...NAV_TOOLS, { to: "/contact", label: "Contact" } as const].map((item) => (
+                {[...NAV_PRIMARY, ...NAV_TOOLS.filter((t) => !NAV_PRIMARY.some((p) => p.to === t.to)), { to: "/contact", label: "Contact" } as const].map((item) => (
                   <Link key={item.to} to={item.to} onClick={() => setOpen(false)} className="flex min-h-12 items-center border-b border-navy-line/60 font-serif text-lg uppercase tracking-wide">
                     {item.label}
                   </Link>
