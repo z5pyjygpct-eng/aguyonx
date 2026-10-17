@@ -143,21 +143,6 @@ function Page() {
             <div className="mt-5 flex flex-wrap gap-3"><FoiaButton foia={v.foia} /></div>
           </section>
 
-          <section aria-label="Spending by Virginia state category" className="mt-6">
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-7">
-              {CATEGORIES.map((c) => (
-                <div key={c.name} className="min-w-0 rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 px-4 py-3">
-                  <p className="text-xs font-semibold tracking-wide text-on-dark-muted uppercase">{c.name}</p>
-                  <p className="mt-1 font-serif text-2xl font-bold tabular-nums text-gold">{c.short}</p>
-                  <p className="font-mono text-xs text-night-muted">{c.pct}</p>
-                </div>
-              ))}
-            </div>
-            <p className="mt-2 text-xs text-night-muted">Source: FY27 SEON p.73, Expenditures by State Category (FY27 Budget column), categories required by Code of Virginia §22.1-115.</p>
-          </section>
-
-          <DepartmentSection />
-
           <div className="mt-6 grid gap-4 lg:grid-cols-3">
             {CALLOUTS.map((c) => (
               <section key={c.text} className="rounded-[10px] border border-navy-line border-l-4 border-l-gold bg-navy-700 p-5">
@@ -172,6 +157,21 @@ function Page() {
               </section>
             ))}
           </div>
+
+          <section aria-label="Spending by Virginia state category" className="mt-6">
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-7">
+              {CATEGORIES.map((c) => (
+                <div key={c.name} className="min-w-0 rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 px-4 py-3">
+                  <p className="text-xs font-semibold tracking-wide text-on-dark-muted uppercase">{c.name}</p>
+                  <p className="mt-1 font-serif text-2xl font-bold tabular-nums text-gold">{c.short}</p>
+                  <p className="font-mono text-xs text-night-muted">{c.pct}</p>
+                </div>
+              ))}
+            </div>
+            <p className="mt-2 text-xs text-night-muted">Source: FY27 SEON p.73, Expenditures by State Category (FY27 Budget column), categories required by Code of Virginia §22.1-115.</p>
+          </section>
+
+          <DepartmentSection />
 
           <div className="mt-8 grid gap-5 lg:grid-cols-3">
             <Q n="1" q="Where does the money come from?">
