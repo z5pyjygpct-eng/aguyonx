@@ -34,10 +34,10 @@ function Tile({ t }: { t: DashTile }) {
   );
 }
 
-export function DashboardTemplate({ d }: { d: Dashboard }) {
+export function DashboardTemplate({ d, plain = false }: { d: Dashboard; plain?: boolean }) {
   const two = d.columns.length > 1;
   return (
-    <main className="agx-dark flex-1 bg-navy-800 text-white">
+    <main className={plain ? "agx-dark flex-1 bg-navy-800 text-white" : "agx-dark flex-1 bg-navy-800 text-white"}>
       <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
         <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
         <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8 lg:pb-12">
@@ -68,7 +68,7 @@ export function DashboardTemplate({ d }: { d: Dashboard }) {
                   <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-gold/15 text-gold"><Mail className="size-5" aria-hidden /></span>
                   <span className="min-w-0 flex-1">
                     <span className="block text-lg font-semibold">{c.foia.label}</span>
-                    <span className="block truncate font-mono text-xs text-night-muted">{c.foia.href.replace(/^https:\/\//, "")} · official request page</span>
+                    {!plain && <span className="block truncate font-mono text-xs text-night-muted">{c.foia.href.replace(/^https:\/\//, "")} · official request page</span>}
                   </span>
                   <ExternalLink className="size-5 text-gold" aria-hidden />
                 </a>
@@ -76,9 +76,9 @@ export function DashboardTemplate({ d }: { d: Dashboard }) {
             </div>
           ))}
         </div>
-        <p className="mt-8 text-sm text-night-muted">
+        {!plain && <p className="mt-8 text-sm text-night-muted">
           "Coming soon" means we have no published data for that section yet. FOIA buttons open each body's official records-request page.
-        </p>
+        </p>}
       </section>
     </main>
   );
