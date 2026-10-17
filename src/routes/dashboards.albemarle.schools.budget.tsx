@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { SiteShell } from "@/components/site/shell";
-import { ComingSoonV4 } from "@/components/site/venue-v4";
-import { V4_VENUES } from "@/lib/v4-venues";
+import { BudgetPage } from "@/components/site/budget-page";
+import { ALBEMARLE_SCHOOLS_BUDGET_PAGE } from "@/lib/budget-pages/albemarle-schools";
+import { GA_PREVIEW_ROBOTS } from "@/lib/ga-dashboard";
 
 export const Route = createFileRoute("/dashboards/albemarle/schools/budget")({
-  head: () => ({ meta: [{ title: "ACPS Budget · A Guy on X" }] }),
-  component: () => <SiteShell><ComingSoonV4 venue={V4_VENUES["albemarle-schools"]} kicker="Budget & Finance" /></SiteShell>,
+  head: () => ({ meta: [{ title: "ACPS Budget & Finance · A Guy on X" }, ...GA_PREVIEW_ROBOTS] }),
+  component: () => <BudgetPage data={ALBEMARLE_SCHOOLS_BUDGET_PAGE} />,
 });
