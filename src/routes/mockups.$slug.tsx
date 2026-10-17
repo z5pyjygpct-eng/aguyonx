@@ -23,8 +23,8 @@ const col = (name: string, ch: "house" | "senate", foia: { label: string; href: 
     { label: "Find the Moment", icon: "play" as const, to: `/dashboards/${ch}/find-the-moment` },
     { label: "Meeting Recaps", icon: "list" as const, to: `/dashboards/${ch}/recaps` },
     { label: "Members", icon: "people" as const, to: `/mockups/${ch}-members` },
-    { label: "Bills", icon: "book" as const, to: null },
-    { label: "Scorecards", icon: "money" as const, to: null },
+    { label: "Bills", icon: "book" as const, to: null, accentIcon: true },
+    { label: "Scorecards", icon: "money" as const, to: null, accentIcon: true },
   ],
   foia,
 });

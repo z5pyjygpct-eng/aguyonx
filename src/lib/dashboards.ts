@@ -4,7 +4,7 @@
  * FOIA URLs were fetched and confirmed as each jurisdiction's official FOIA
  * request page on 2026-10-14 (see docs/redesign-v4.md).
  */
-export type DashTile = { label: string; icon: "play" | "list" | "money" | "people" | "book"; to: string | null; hash?: string };
+export type DashTile = { label: string; icon: "play" | "list" | "money" | "people" | "book"; to: string | null; hash?: string; accentIcon?: boolean };
 export type DashFoia = { label: string; href: string };
 export type DashColumn = { name: string; sub?: string; tiles: DashTile[]; foia: DashFoia };
 export type Dashboard = { slug: string; short: string; title: string; group: "local" | "state"; columns: DashColumn[] };

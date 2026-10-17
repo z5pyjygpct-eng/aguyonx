@@ -9,7 +9,7 @@ function Tile({ t }: { t: DashTile }) {
   const Icon = ICON[t.icon];
   const inner = (
     <>
-      <span className={`flex size-10 shrink-0 items-center justify-center rounded-lg ${t.to ? "bg-gold/15 text-gold" : "bg-navy-600 text-night-muted"}`}>
+      <span className={`flex size-10 shrink-0 items-center justify-center rounded-lg ${t.to || t.accentIcon ? "bg-gold/15 text-gold" : "bg-navy-600 text-night-muted"}`}>
         <Icon className="size-5" aria-hidden />
       </span>
       <span className="flex-1 text-lg font-semibold">{t.label}</span>
@@ -23,7 +23,7 @@ function Tile({ t }: { t: DashTile }) {
   const cls = "flex min-h-[72px] items-center gap-4 rounded-xl border border-navy-line bg-navy-800 px-5 py-3";
   if (!t.to)
     return (
-      <div className={`${cls} border-dashed border-l-4 border-l-night-muted/60 opacity-80`} aria-disabled="true">
+      <div className={`${cls} border-dashed border-l-4 border-l-night-muted/60 ${t.accentIcon ? "" : "opacity-80"}`} aria-disabled="true">
         {inner}
       </div>
     );
