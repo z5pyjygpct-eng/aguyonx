@@ -16,6 +16,16 @@ const pct = (n: number) => `${((n / B.schoolOperatingAdopted) * 100).toFixed(1)}
 const usd = (n: number) => `$${n.toLocaleString("en-US")}`;
 const other = B.schoolOperatingAdopted - B.localTaxFunding;
 
+// Virginia state spending categories, FY27 SEON "Expenditures by State Category", FY27 column (display only).
+const CATEGORIES = [
+  { name: "Instruction", short: "$1.61B", pct: "78.0%", value: 1_612_910_188 },
+  { name: "Operation & Maintenance", short: "$178.5M", pct: "8.6%", value: 178_524_084 },
+  { name: "Pupil Transportation", short: "$97.4M", pct: "4.7%", value: 97_367_661 },
+  { name: "Technology", short: "$73.2M", pct: "3.5%", value: 73_248_625 },
+  { name: "Administration", short: "$57.2M", pct: "2.8%", value: 57_156_692 },
+  { name: "Attendance & Health", short: "$40.1M", pct: "1.9%", value: 40_077_274 },
+  { name: "Facilities", short: "$7.7M", pct: "0.4%", value: 7_670_145 },
+];
 const SEON_PDF = "/files/lcps-budget/FY2027-lcps-superintendent-estimate-of-needs.pdf";
 // Highlight callouts (Scott-approved wording). page = PDF page index for the #page link.
 const CALLOUTS = [
@@ -78,6 +88,19 @@ function Page() {
             </p>
             <p className="mt-3 text-xs text-night-muted">Per-pupil cost not shown: no sourced FY27 enrollment figure on file.</p>
             <div className="mt-5 flex flex-wrap gap-3"><FoiaButton foia={v.foia} /></div>
+          </section>
+
+          <section aria-label="Spending by Virginia state category" className="mt-6">
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-7">
+              {CATEGORIES.map((c) => (
+                <div key={c.name} className="min-w-0 rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 px-4 py-3">
+                  <p className="text-xs font-semibold tracking-wide text-on-dark-muted uppercase">{c.name}</p>
+                  <p className="mt-1 font-serif text-2xl font-bold tabular-nums text-gold">{c.short}</p>
+                  <p className="font-mono text-xs text-night-muted">{c.pct}</p>
+                </div>
+              ))}
+            </div>
+            <p className="mt-2 text-xs text-night-muted">Source: FY27 SEON p.72, Expenditures by State Category (FY27 Budget column), categories required by Code of Virginia §22.1-115.</p>
           </section>
 
           <div className="mt-6 grid gap-4 lg:grid-cols-3">
