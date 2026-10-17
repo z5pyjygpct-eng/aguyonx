@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowRight } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { Kicker } from "@/components/site/kicker";
 import { Button } from "@/components/ui/button";
@@ -132,22 +133,19 @@ function GetInTouch() {
 
         <div className="mt-10 grid gap-5 md:grid-cols-2">
           {CONTACT_CARDS.map((c) => (
-            <div
+            // Same tile classes as the homepage "By the numbers" tiles (src/routes/index.tsx).
+            <a
               key={c.label}
-              className="flex flex-col rounded-lg border border-navy-line bg-navy-700/60 p-6 sm:p-7"
+              href={c.href}
+              className="group relative flex flex-col rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 pr-12 text-white transition-colors hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-navy-800 sm:p-6 sm:pr-14"
             >
-              <span aria-hidden className="block h-1 w-10 rounded-full bg-gold" />
-              <p className="mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-gold">
-                {c.kicker}
-              </p>
-              <p className="mt-2 flex-1 text-base leading-relaxed text-white/85">{c.line}</p>
-              <a
-                href={c.href}
-                className="mt-6 inline-flex w-full items-center justify-center whitespace-normal break-words rounded-md border-2 border-slate-400/80 bg-slate-800/60 px-4 py-3 text-center text-sm font-medium uppercase leading-snug tracking-wide text-slate-200 transition-colors hover:border-gold hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-navy-800 sm:text-[0.95rem]"
-              >
+              <ArrowRight className="absolute top-4 right-4 size-5 text-gold transition-transform group-hover:translate-x-0.5" aria-hidden />
+              <span className="text-xs font-semibold uppercase tracking-[0.18em] text-gold">{c.kicker}</span>
+              <span className="mt-2 block font-serif text-2xl font-bold uppercase leading-tight break-words sm:text-3xl">
                 {c.label}
-              </a>
-            </div>
+              </span>
+              <span className="mt-3 block text-base leading-relaxed text-on-dark-muted">{c.line}</span>
+            </a>
           ))}
         </div>
       </div>
