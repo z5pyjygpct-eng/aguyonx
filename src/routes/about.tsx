@@ -1,9 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowRight } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { Kicker } from "@/components/site/kicker";
 import { Button } from "@/components/ui/button";
 import { SITE } from "@/content/site";
 import { HomeBooks } from "@/components/site/home-books";
+import { DARK_VARS } from "@/components/site/lcps-v4";
 
 export const Route = createFileRoute("/about")({ component: AboutPage });
 
@@ -84,9 +86,69 @@ function AboutPage() {
           </Button>
         </div>
       </main>
+      <GetInTouch />
       <div id="books" className="border-t border-border">
         <HomeBooks />
       </div>
     </SiteShell>
+  );
+}
+
+const CONTACT_EMAIL = "scottmineo@mail.grokbot.com";
+
+const CONTACT_CARDS = [
+  {
+    kicker: "Just curious",
+    line: "Spotted something on the site, got a question, or just want to say hi? Send me a note. A real person reads every one.",
+    label: "GENERAL QUESTIONS?",
+    href: `mailto:${CONTACT_EMAIL}?subject=General%20question`,
+  },
+  {
+    kicker: "Need a hand",
+    line: "Need someone to dig through the public record for you? Tell me what you're working on, and we'll talk it through.",
+    label: "CUSTOM: RESEARCH, REPORTS, ANALYSIS, OR CAMPAIGN ASSISTANCE?",
+    href: `mailto:${CONTACT_EMAIL}?subject=Custom%20request%3A%20research%2C%20reports%2C%20analysis%20or%20campaign%20assistance`,
+  },
+] as const;
+
+function GetInTouch() {
+  return (
+    <section
+      id="get-in-touch"
+      aria-labelledby="get-in-touch-title"
+      className="agx-dark border-t border-navy-line bg-navy-800 text-white"
+      style={DARK_VARS}
+    >
+      <div className="mx-auto w-full max-w-5xl px-4 py-14 sm:px-6 sm:py-20">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Get in touch</p>
+        <h2
+          id="get-in-touch-title"
+          className="mt-3 font-serif text-3xl font-medium tracking-tight sm:text-4xl"
+        >
+          Got a question? I&apos;d love to hear it.
+        </h2>
+        <p className="mt-3 max-w-2xl text-white/70">
+          Pick the one that fits. Both open an email to me.
+        </p>
+
+        <div className="mt-10 grid gap-5 md:grid-cols-2">
+          {CONTACT_CARDS.map((c) => (
+            // Same tile classes as the homepage "By the numbers" tiles (src/routes/index.tsx).
+            <a
+              key={c.label}
+              href={c.href}
+              className="group relative flex flex-col rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 pr-12 text-white transition-colors hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-navy-800 sm:p-6 sm:pr-14"
+            >
+              <ArrowRight className="absolute top-4 right-4 size-5 text-gold transition-transform group-hover:translate-x-0.5" aria-hidden />
+              <span className="text-xs font-semibold uppercase tracking-[0.18em] text-gold">{c.kicker}</span>
+              <span className="mt-2 block font-serif text-2xl font-bold uppercase leading-tight break-words sm:text-3xl">
+                {c.label}
+              </span>
+              <span className="mt-3 block text-base leading-relaxed text-on-dark-muted">{c.line}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }

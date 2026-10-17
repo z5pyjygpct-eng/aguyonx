@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, redirect } from "@tanstack/react-router";
 import { ExternalLink, User } from "lucide-react";
 import { dateMeta, useMeetingFilters } from "@/components/site/meeting-filters";
 import { SiteShell } from "@/components/site/shell";
@@ -18,6 +18,8 @@ const BOS_RECAPS = LOUDOUN_RECAPS.filter((r) => (r.venue ?? "loudoun-bos") === "
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/counties/loudoun/")({
+  // v4: content carried to the dashboard; recap detail pages stay live.
+  beforeLoad: () => { throw redirect({ to: "/dashboards/$body", params: { body: "loudoun" }, statusCode: 301 }); },
   component: LoudounCountyPage,
 });
 

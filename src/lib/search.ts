@@ -384,7 +384,7 @@ function buildIndex(): SearchDoc[] {
     title: "Loudoun Schools Budget (FY2027)",
     snippet: "BOS Adopted School Operating Fund $2,066,954,668 — SEON, School Board, and county PDFs hosted.",
     shelf: "Page",
-    href: "/counties/loudoun/schools#budget",
+    href: "/dashboards/loudoun/schools/budget",
     titleFields: "Loudoun Schools Budget LCPS FY2027 School Operating Fund CIP CAPP appropriation SEON",
     body: "FY2027 July 1 2026 June 30 2027 Board of Supervisors Adopted School Operating Fund $2,066,954,668 local tax funding $1,484,949,364 School Capital Projects Fund $71,170,000 School CAPP $53,130,000. Proposed is not adopted. SEON Superintendent Estimate of Needs and School Board Adopted Executive Summary also print $2,066,954,668 — label each status correctly. May 12 2026 School Board +$6.2M operating amendment post-April. FY2026 School Board Adopted full book hosted. Still missing full multi-section FY27 School Board Adopted book and FY27 BOS appropriations resolution packet. Loudoun County Public Schools fiscally dependent.",
     districtNumber: null,

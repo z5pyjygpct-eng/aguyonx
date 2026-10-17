@@ -171,7 +171,7 @@ function RecapPage() {
               <p className="mt-3 text-sm text-[#b42318]">The vote file did not load. Try again.</p>
             ) : !rollCalls ? (
               <p className="mt-3 text-sm text-muted-foreground">
-                Loading {recap.rollCallCount} roll calls…
+                Loading {recap.rollCallCount} roll call{recap.rollCallCount === 1 ? "" : "s"}…
               </p>
             ) : (
               <ul className="mt-2 divide-y divide-border">

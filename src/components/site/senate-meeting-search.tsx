@@ -1,5 +1,5 @@
 import { AllFtmLink } from "@/components/site/all-ftm-link";
-import { useMemo, useRef, useState, type FormEvent } from "react";
+import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 import { Link } from "@tanstack/react-router";
 import { ExternalLink, Search } from "lucide-react";
 import {
@@ -78,9 +78,16 @@ export function SenateMeetingSearch() {
   const [error, setError] = useState<string | null>(null);
   const runRef = useRef(0);
 
-  async function run(e?: FormEvent) {
+  // ?q= prefill (member profile pages link here with the member's surname)
+  useEffect(() => {
+    const v = new URLSearchParams(window.location.search).get("q");
+    if (v) { setQ(v); void run(undefined, v); }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  async function run(e?: FormEvent, override?: string) {
     e?.preventDefault();
-    const query = q.trim();
+    const query = (override ?? q).trim();
     setSubmitted(query);
     if (!query) return setHits([]);
     const run = ++runRef.current;

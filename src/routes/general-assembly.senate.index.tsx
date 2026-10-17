@@ -1,5 +1,5 @@
 import { isoMeta, useMeetingFilters } from "@/components/site/meeting-filters";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, redirect } from "@tanstack/react-router";
 import { FtmThumb } from "@/components/site/ftm-thumb";
 import { ExternalLink } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
@@ -22,6 +22,8 @@ import {
 } from "@/content/va-senate";
 
 export const Route = createFileRoute("/general-assembly/senate/")({
+  // v4: content carried to the dashboard; recap detail pages stay live.
+  beforeLoad: () => { throw redirect({ to: "/dashboards/$body", params: { body: "senate" }, statusCode: 301 }); },
   component: SenatePage,
   head: () => ({
     meta: [{ title: "Senate of Virginia floor sessions · Find the Moment · A Guy on X" }],
@@ -139,7 +141,7 @@ function SenatePage() {
                 </Link>
                 <span className="ml-2 text-xs text-muted-foreground">
                   {r.rollCallCount
-                    ? `${r.rollCallCount} roll calls · ${r.billCount} bills`
+                    ? `${r.rollCallCount} roll call${r.rollCallCount === 1 ? "" : "s"} · ${r.billCount} bill${r.billCount === 1 ? "" : "s"}`
                     : "no LIS roll calls recorded"}
                 </span>
               </li>

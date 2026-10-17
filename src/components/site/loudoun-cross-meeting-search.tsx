@@ -101,10 +101,10 @@ type CacheEntry = CrossHit[] | "loading" | "error";
 
 const TOTAL_MEETINGS = LOUDOUN_MEETINGS.length + LCPS_MEETINGS.length;
 
-export function LoudounCrossMeetingSearch() {
+export function LoudounCrossMeetingSearch({ only }: { only?: "county" | "schools" } = {}) {
   const [q, setQ] = useState("");
   const [submitted, setSubmitted] = useState("");
-  const [venueFilter, setVenueFilter] = useState<VenueFilter>("all");
+  const [venueFilter, setVenueFilter] = useState<VenueFilter>(only ?? "all");
   const [cacheTick, setCacheTick] = useState(0);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
@@ -321,7 +321,7 @@ export function LoudounCrossMeetingSearch() {
 
       <form role="search" onSubmit={onSubmit} className="mt-6 flex flex-col gap-3 sm:flex-row">
         <label htmlFor="loudoun-cross-meeting-q" className="sr-only">
-          Find the Moment — search Loudoun County and Schools meetings
+          Find the Moment — search {only === "county" ? "Loudoun County Board of Supervisors" : only === "schools" ? "Loudoun County Public Schools" : "Loudoun County and Schools"} meetings
         </label>
         <div className="relative min-w-0 flex-1">
           <Search
@@ -364,7 +364,7 @@ export function LoudounCrossMeetingSearch() {
               { id: "county" as const, label: `County (${LOUDOUN_MEETINGS.length})` },
               { id: "schools" as const, label: `Schools (${LCPS_MEETINGS.length})` },
             ] as const
-          ).map((opt) => (
+          ).filter((opt) => !only || opt.id === only).map((opt) => (
             <button
               key={opt.id}
               type="button"

@@ -1,67 +1,56 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
-import { Kicker } from "@/components/site/kicker";
 import { HomeSearch } from "@/components/site/home-search";
-import { NewsPeople } from "@/components/site/news-people";
-import { ShareNewsX } from "@/components/site/share-news-x";
-import { SITE } from "@/content/site";
-import { NEWS_DEK, NEWS_EMPTY, formatNewsDate, newsFiledLine, newsNewestFirst } from "@/content/news";
+import { ListV4Page, type V4Row } from "@/components/site/list-v4";
+import { NEWS_DEK, newsFiledLine, newsNewestFirst, personChip, type NewsItem } from "@/content/news";
 
-export const Route = createFileRoute("/news")({ component: NewsIndex });
+/** Outlet-based locality hint (used only when people/headline give no locality). */
+const OUTLET_HINT: Record<string, string> = {
+  "FFXnow": "Fairfax", "Patch Reston": "Fairfax", "Loudoun Now": "Loudoun", "Loudoun Times-Mirror": "Loudoun",
+  "ARLnow": "Arlington", "Potomac Local": "Prince William", "Potomac Local News": "Prince William", "Prince William Times": "Prince William",
+};
+function newsLoc(item: NewsItem): string {
+  for (const l of ["Loudoun", "Fairfax", "Prince William", "Arlington"]) {
+    if (item.people.some((p) => p.office.startsWith(l))) return l;
+    if (item.headline.includes(l)) return l;
+  }
+  const hint = OUTLET_HINT[item.outlet];
+  if (hint) return hint;
+  return "Statewide";
+}
+const ITEMS = newsNewestFirst();
+const ROWS: V4Row[] = ITEMS.map((i) => ({
+  key: i.id, loc: newsLoc(i), headline: i.headline, outlet: i.outlet, url: i.url, date: i.date, group: i.date.slice(0, 7),
+  sub: [i.people.map(personChip).join(" · "), newsFiledLine(i)].filter(Boolean).join(" — ") || undefined,
+}));
+const MONTHS = [...new Set(ROWS.map((r) => r.group))].sort().reverse().map((m) => {
+  const [y, mo] = m.split("-").map(Number);
+  return { value: m, label: new Date(Date.UTC(y, mo - 1, 1)).toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" }) };
+});
+
+export const Route = createFileRoute("/news")({
+  validateSearch: (s: Record<string, unknown>): { page?: number } => (Number(s.page) > 1 ? { page: Math.floor(Number(s.page)) } : {}),
+  head: () => ({ meta: [{ title: "News | A Guy on X" }] }),
+  component: NewsIndex,
+});
 
 function NewsIndex() {
-  const items = newsNewestFirst();
-
+  const page = Route.useSearch().page ?? 1;
+  const navigate = Route.useNavigate();
   return (
     <SiteShell>
-      <HomeSearch />
-      <main className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
-        <Kicker>The clip file</Kicker>
-        <h1 className="mt-3 font-serif text-4xl font-medium tracking-tight sm:text-5xl">News</h1>
-        <p className="mt-4 max-w-2xl text-muted-foreground">{NEWS_DEK}</p>
-        {items.length === 0 ? (
-          <p className="mt-10 max-w-2xl text-muted-foreground">{NEWS_EMPTY}</p>
-        ) : (
-          <ul className="mt-10 divide-y divide-border border-y border-border">
-            {items.map((item) => (
-              <li key={item.id}>
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="grid gap-2 pt-6 pb-2 transition-[background-color] duration-150 hover:bg-wash sm:grid-cols-12 sm:items-baseline sm:gap-6"
-                >
-                  <span className="font-mono text-xs text-muted-foreground sm:col-span-2">
-                    {formatNewsDate(item.date)}
-                    {newsFiledLine(item) ? (
-                      <span className="mt-1 block font-normal">{newsFiledLine(item)}</span>
-                    ) : null}
-                  </span>
-                  <span className="sm:col-span-3">
-                    <NewsPeople people={item.people} />
-                  </span>
-                  <span className="sm:col-span-7">
-                    <h2 className="font-serif text-xl font-medium">{item.headline}</h2>
-                    <p className="mt-1 font-mono text-xs tracking-widest text-muted-foreground uppercase">
-                      {item.outlet}
-                    </p>
-                  </span>
-                </a>
-                <div className="grid pb-5 sm:grid-cols-12 sm:gap-6">
-                  <div className="sm:col-span-7 sm:col-start-6">
-                    <ShareNewsX headline={item.headline} url={item.url} />
-                  </div>
-                </div>
-              </li>
-            ))}
-          </ul>
-        )}
-        <p className="mt-10 text-sm">
-          <a href={SITE.xUrl} className="hover:underline" target="_blank" rel="noreferrer">
-            {SITE.handle} on X
-          </a>
-        </p>
-      </main>
+      <ListV4Page
+        kicker="The clip file"
+        title="News"
+        dek={NEWS_DEK}
+        aside={<Link to="/nova-briefing" className="text-gold hover:underline">Daily NoVA Briefing →</Link>}
+        search={<HomeSearch />}
+        rows={ROWS}
+        groupLabel="Month"
+        groups={MONTHS}
+        page={page}
+        onPage={(p) => navigate({ search: p > 1 ? { page: p } : {} })}
+      />
     </SiteShell>
   );
 }

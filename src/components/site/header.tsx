@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { Menu } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { ChevronDown, Menu } from "lucide-react";
 import {
   Sheet,
   SheetContent,
@@ -9,10 +8,28 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Mark } from "@/components/site/mark";
 import { SITE } from "@/content/site";
-import { cn } from "@/lib/utils";
 
+/** v4 primary nav (Scott-approved): About, News, Investigations, Videos, Articles, Tools. */
+export const NAV_PRIMARY = [
+  { to: "/about", label: "About" },
+  { to: "/news", label: "News" },
+  { to: "/investigations", label: "Investigations" },
+  { to: "/videos", label: "Videos" },
+  { to: "/articles", label: "Articles" },
+] as const;
+
+/** Everything else lives under Tools so no existing page loses its door. */
+export const NAV_TOOLS = [
+  { to: "/news", label: "News" },
+  { to: "/nova-briefing", label: "Daily NoVA Briefing" },
+  { to: "/library", label: "Research Library" },
+  { to: "/library/foia", label: "FOIA letter desk" },
+  { to: "/2027", label: "2027 Democrats" },
+  { to: "/tips", label: "Got Tips?" },
+] as const;
+
+// Legacy groupings kept for footer/other importers.
 export const NAV_SHELVES = [
   { to: "/articles", label: "Articles" },
   { to: "/news", label: "News" },
@@ -22,7 +39,6 @@ export const NAV_SHELVES = [
   { to: "/investigations", label: "Investigations" },
   { to: "/library", label: "Other Resources" },
 ] as const;
-
 export const NAV_OFFICES = [
   { to: "/delegates", label: "Delegates" },
   { to: "/senators", label: "Senators" },
@@ -30,122 +46,88 @@ export const NAV_OFFICES = [
   { to: "/counties", label: "Counties" },
   { to: "/2027", label: "2027 Democrats" },
 ] as const;
-
 export const NAV_DESK = [
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
 ] as const;
-
 export const NAV = [...NAV_SHELVES, ...NAV_OFFICES, ...NAV_DESK];
 
-const groups = [
-  { id: "shelves", items: NAV_SHELVES },
-  { id: "offices", items: NAV_OFFICES },
-  { id: "desk", items: NAV_DESK },
-] as const;
+const LINK =
+  "inline-flex h-11 items-center px-2 font-serif text-[15px] font-medium tracking-[0.06em] uppercase text-on-dark-muted transition-colors hover:text-white";
 
-function linkClass(inverted: boolean) {
-  return cn(
-    // Compact so all 11 links + Give fit the 6xl bar at 1280px laptops.
-    "inline-flex h-11 items-center px-1.5 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-[color] duration-150",
-    inverted ? "text-night-muted hover:text-night-fg" : "text-muted-foreground hover:text-foreground",
-  );
-}
-
-export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
+export function SiteHeader(_props: { inverted?: boolean } = {}) {
   const [open, setOpen] = useState(false);
-
+  const [tools, setTools] = useState(false);
   return (
-    <header
-      className={cn(
-        "sticky top-0 z-40 border-b",
-        inverted
-          ? "border-night-fg/15 bg-night/95 text-night-fg backdrop-blur-sm"
-          : "border-border bg-background/95 text-foreground backdrop-blur-sm",
-      )}
-    >
+    <header className="agx-dark sticky top-0 z-40 border-b border-navy-line/60 bg-navy-900 text-white">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
-        <Link to="/" className="shrink-0" aria-label="A Guy on X home">
-          <Mark />
+        <Link to="/" className="shrink-0 font-serif text-[22px] font-bold tracking-wide text-white" aria-label="A Guy on X home">
+          A GUY ON <span className="text-gold">X</span>
         </Link>
-
-        {/* Full bar from 1280px (theme xl is 80rem, so it never fits a 1280px laptop). Below: menu sheet. */}
-        <nav className="nav-wide hidden min-w-0 items-center gap-2" aria-label="Primary">
-          {groups.map((group, i) => (
-            <span key={group.id} className="flex items-center">
-              {i > 0 ? (
-                <span
-                  aria-hidden
-                  className={cn(
-                    "mx-1 h-4 w-px",
-                    inverted ? "bg-night-fg/25" : "bg-border",
-                  )}
-                />
-              ) : null}
-              {group.items.map((item) => (
-                <Link key={item.to} to={item.to} className={linkClass(inverted)}>
-                  {item.label}
-                </Link>
-              ))}
-            </span>
+        <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
+          {NAV_PRIMARY.map((item) => (
+            <Link key={item.to} to={item.to} className={LINK} activeProps={{ className: "!text-gold" }}>
+              {item.label}
+            </Link>
           ))}
+          <div className="relative" onMouseLeave={() => setTools(false)}>
+            <button
+              type="button"
+              className={LINK}
+              aria-expanded={tools}
+              aria-haspopup="menu"
+              onClick={() => setTools((v) => !v)}
+              onMouseEnter={() => setTools(true)}
+            >
+              Other Resources <ChevronDown className="ml-1 size-4 text-gold" />
+            </button>
+            {tools ? (
+              <div role="menu" className="absolute right-0 top-11 w-60 rounded-lg border border-navy-line bg-navy-700 p-2 shadow-xl">
+                {NAV_TOOLS.map((item) => (
+                  <Link key={item.to} to={item.to} role="menuitem" onClick={() => setTools(false)} className="flex min-h-11 items-center rounded-md px-3 text-sm text-white hover:bg-navy-600">
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            ) : null}
+          </div>
           <a
             href={SITE.giveUrl}
             target="_blank"
             rel="noreferrer"
-            className="ml-1 inline-flex h-9 shrink-0 items-center rounded-md bg-[#C41E3A] px-3 font-sans text-xs font-semibold tracking-[0.12em] whitespace-nowrap text-white uppercase transition-[filter] duration-150 hover:brightness-110"
+            className="ml-3 inline-flex min-h-11 flex-col items-center justify-center rounded-lg bg-flag px-4 py-1.5 text-center font-serif text-[13px] leading-tight font-bold tracking-[0.06em] text-white hover:brightness-110"
           >
-            Give
+            <span>DONATE TO HELP FUEL</span>
+            <span>THE PUBLIC RECORD</span>
           </a>
         </nav>
-
-        <div className="nav-narrow flex items-center gap-2">
-          <a
-            href={SITE.giveUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex h-9 items-center rounded-md bg-[#C41E3A] px-3 font-sans text-xs font-semibold tracking-[0.12em] text-white uppercase"
-          >
-            Give
+        <div className="flex items-center gap-2 lg:hidden">
+          <a href={SITE.giveUrl} target="_blank" rel="noreferrer" className="inline-flex min-h-11 flex-col items-center justify-center rounded-lg bg-flag px-3 py-1 text-center font-serif text-[11px] leading-tight font-bold tracking-[0.05em] text-white">
+            <span>DONATE TO HELP FUEL</span>
+            <span>THE PUBLIC RECORD</span>
           </a>
-        <Sheet open={open} onOpenChange={setOpen}>
-          <SheetTrigger asChild>
-            <Button
-              variant={inverted ? "secondary" : "outline"}
-              size="icon"
-              className=""
-              aria-label="Open menu"
-            >
-              <Menu />
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="right" className="bg-background text-foreground">
-            <SheetHeader>
-              <SheetTitle>A Guy on X</SheetTitle>
-            </SheetHeader>
-            <nav className="mt-8 flex flex-col" aria-label="Mobile">
-              {NAV.map((item) => (
-                <Link
-                  key={item.to}
-                  to={item.to}
-                  onClick={() => setOpen(false)}
-                  className="flex h-12 items-center border-b border-border font-serif text-lg"
-                >
-                  {item.label}
-                </Link>
-              ))}
-              <a
-                href={SITE.giveUrl}
-                target="_blank"
-                rel="noreferrer"
-                onClick={() => setOpen(false)}
-                className="mt-4 flex h-12 items-center justify-center rounded-md bg-[#C41E3A] font-sans text-sm font-semibold tracking-[0.14em] text-white uppercase"
-              >
-                {SITE.giveLabel}
-              </a>
-            </nav>
-          </SheetContent>
-        </Sheet>
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger asChild>
+              <button type="button" aria-label="Open menu" className="inline-flex size-11 items-center justify-center rounded-lg border border-navy-line text-gold">
+                <Menu />
+              </button>
+            </SheetTrigger>
+            <SheetContent side="right" className="border-navy-line bg-navy-800 text-white">
+              <SheetHeader>
+                <SheetTitle className="font-serif text-white">A GUY ON <span className="text-gold">X</span></SheetTitle>
+              </SheetHeader>
+              <nav className="mt-4 flex flex-col overflow-y-auto px-4" aria-label="Mobile">
+                {[...NAV_PRIMARY, ...NAV_TOOLS.filter((t) => !NAV_PRIMARY.some((p) => p.to === t.to)), { to: "/contact", label: "Contact" } as const].map((item) => (
+                  <Link key={item.to} to={item.to} onClick={() => setOpen(false)} className="flex min-h-12 items-center border-b border-navy-line/60 font-serif text-lg uppercase tracking-wide">
+                    {item.label}
+                  </Link>
+                ))}
+                <a href={SITE.giveUrl} target="_blank" rel="noreferrer" onClick={() => setOpen(false)} className="mt-4 flex h-12 items-center justify-center rounded-lg bg-flag text-sm font-semibold tracking-[0.12em] text-white uppercase">
+                  {SITE.giveLabel}
+                </a>
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>

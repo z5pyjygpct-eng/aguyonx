@@ -25,6 +25,7 @@ import { Route as LibraryRouteImport } from './routes/library'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as NovaBriefingRouteImport } from './routes/nova-briefing'
 import { Route as SenatorsRouteImport } from './routes/senators'
+import { Route as TipsRouteImport } from './routes/tips'
 import { Route as VideosRouteImport } from './routes/videos'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
@@ -32,6 +33,8 @@ import { Route as CitiesIndexRouteImport } from './routes/cities.index'
 import { Route as CitiesCityRouteImport } from './routes/cities.$city'
 import { Route as CountiesIndexRouteImport } from './routes/counties.index'
 import { Route as CountiesLoudounRouteImport } from './routes/counties.loudoun'
+import { Route as DashboardsBodyRouteImport } from './routes/dashboards.$body'
+import { Route as DashboardsGeneralAssemblyRouteImport } from './routes/dashboards.general-assembly'
 import { Route as FindTheMomentLocalityRouteImport } from './routes/find-the-moment_.$locality'
 import { Route as GeneralAssemblyIndexRouteImport } from './routes/general-assembly.index'
 import { Route as GeneralAssemblyHouseRouteImport } from './routes/general-assembly.house'
@@ -40,16 +43,71 @@ import { Route as InvestigationsIndexRouteImport } from './routes/investigations
 import { Route as InvestigationsSlugRouteImport } from './routes/investigations.$slug'
 import { Route as LibraryIndexRouteImport } from './routes/library.index'
 import { Route as LibraryFoiaRouteImport } from './routes/library.foia'
+import { Route as MockupsSlugRouteImport } from './routes/mockups.$slug'
+import { Route as MockupsTipsRouteImport } from './routes/mockups.tips'
 import { Route as CitiesCityIndexRouteImport } from './routes/cities.$city.index'
 import { Route as CitiesCityFindTheMomentRouteImport } from './routes/cities.$city.find-the-moment'
 import { Route as CitiesCitySchoolsRouteImport } from './routes/cities.$city.schools'
 import { Route as CountiesLoudounIndexRouteImport } from './routes/counties.loudoun.index'
 import { Route as CountiesLoudounFindTheMomentRouteImport } from './routes/counties.loudoun.find-the-moment'
 import { Route as CountiesLoudounSchoolsRouteImport } from './routes/counties.loudoun.schools'
+import { Route as DashboardsBoardOfEducationBudgetRouteImport } from './routes/dashboards.board-of-education.budget'
+import { Route as DashboardsBoardOfEducationFindTheMomentRouteImport } from './routes/dashboards.board-of-education.find-the-moment'
+import { Route as DashboardsBoardOfEducationMembersRouteImport } from './routes/dashboards.board-of-education.members'
+import { Route as DashboardsBoardOfEducationPoliciesRouteImport } from './routes/dashboards.board-of-education.policies'
+import { Route as DashboardsBoardOfEducationRecapsRouteImport } from './routes/dashboards.board-of-education.recaps'
+import { Route as DashboardsHouseBudgetRouteImport } from './routes/dashboards.house.budget'
+import { Route as DashboardsHouseFindTheMomentRouteImport } from './routes/dashboards.house.find-the-moment'
+import { Route as DashboardsHouseMembersRouteImport } from './routes/dashboards.house.members'
+import { Route as DashboardsHousePoliciesRouteImport } from './routes/dashboards.house.policies'
+import { Route as DashboardsHouseRecapsRouteImport } from './routes/dashboards.house.recaps'
+import { Route as DashboardsSenateBudgetRouteImport } from './routes/dashboards.senate.budget'
+import { Route as DashboardsSenateFindTheMomentRouteImport } from './routes/dashboards.senate.find-the-moment'
+import { Route as DashboardsSenateMembersRouteImport } from './routes/dashboards.senate.members'
+import { Route as DashboardsSenatePoliciesRouteImport } from './routes/dashboards.senate.policies'
+import { Route as DashboardsSenateRecapsRouteImport } from './routes/dashboards.senate.recaps'
 import { Route as GeneralAssemblyHouseIndexRouteImport } from './routes/general-assembly.house.index'
 import { Route as GeneralAssemblySenateIndexRouteImport } from './routes/general-assembly.senate.index'
 import { Route as CitiesCityRecapsSlugRouteImport } from './routes/cities.$city.recaps.$slug'
 import { Route as CountiesLoudounRecapsSlugRouteImport } from './routes/counties.loudoun.recaps.$slug'
+import { Route as DashboardsAlbemarleBosBudgetRouteImport } from './routes/dashboards.albemarle.bos.budget'
+import { Route as DashboardsAlbemarleBosFindTheMomentRouteImport } from './routes/dashboards.albemarle.bos.find-the-moment'
+import { Route as DashboardsAlbemarleBosMembersRouteImport } from './routes/dashboards.albemarle.bos.members'
+import { Route as DashboardsAlbemarleBosRecapsRouteImport } from './routes/dashboards.albemarle.bos.recaps'
+import { Route as DashboardsAlbemarleSchoolsBudgetRouteImport } from './routes/dashboards.albemarle.schools.budget'
+import { Route as DashboardsAlbemarleSchoolsFindTheMomentRouteImport } from './routes/dashboards.albemarle.schools.find-the-moment'
+import { Route as DashboardsAlbemarleSchoolsMembersRouteImport } from './routes/dashboards.albemarle.schools.members'
+import { Route as DashboardsAlbemarleSchoolsPoliciesRouteImport } from './routes/dashboards.albemarle.schools.policies'
+import { Route as DashboardsAlbemarleSchoolsRecapsRouteImport } from './routes/dashboards.albemarle.schools.recaps'
+import { Route as DashboardsFairfaxCityCouncilBudgetRouteImport } from './routes/dashboards.fairfax-city.council.budget'
+import { Route as DashboardsFairfaxCityCouncilFindTheMomentRouteImport } from './routes/dashboards.fairfax-city.council.find-the-moment'
+import { Route as DashboardsFairfaxCityCouncilMembersRouteImport } from './routes/dashboards.fairfax-city.council.members'
+import { Route as DashboardsFairfaxCityCouncilRecapsRouteImport } from './routes/dashboards.fairfax-city.council.recaps'
+import { Route as DashboardsFairfaxCitySchoolsBudgetRouteImport } from './routes/dashboards.fairfax-city.schools.budget'
+import { Route as DashboardsFairfaxCitySchoolsFindTheMomentRouteImport } from './routes/dashboards.fairfax-city.schools.find-the-moment'
+import { Route as DashboardsFairfaxCitySchoolsMembersRouteImport } from './routes/dashboards.fairfax-city.schools.members'
+import { Route as DashboardsFairfaxCitySchoolsPoliciesRouteImport } from './routes/dashboards.fairfax-city.schools.policies'
+import { Route as DashboardsFairfaxCitySchoolsRecapsRouteImport } from './routes/dashboards.fairfax-city.schools.recaps'
+import { Route as DashboardsHouseMembersSlugRouteImport } from './routes/dashboards.house.members_.$slug'
+import { Route as DashboardsLoudounBosBudgetRouteImport } from './routes/dashboards.loudoun.bos.budget'
+import { Route as DashboardsLoudounBosFindTheMomentRouteImport } from './routes/dashboards.loudoun.bos.find-the-moment'
+import { Route as DashboardsLoudounBosMembersRouteImport } from './routes/dashboards.loudoun.bos.members'
+import { Route as DashboardsLoudounBosRecapsRouteImport } from './routes/dashboards.loudoun.bos.recaps'
+import { Route as DashboardsLoudounSchoolsBudgetRouteImport } from './routes/dashboards.loudoun.schools.budget'
+import { Route as DashboardsLoudounSchoolsFindTheMomentRouteImport } from './routes/dashboards.loudoun.schools.find-the-moment'
+import { Route as DashboardsLoudounSchoolsMembersRouteImport } from './routes/dashboards.loudoun.schools.members'
+import { Route as DashboardsLoudounSchoolsPoliciesRouteImport } from './routes/dashboards.loudoun.schools.policies'
+import { Route as DashboardsLoudounSchoolsRecapsRouteImport } from './routes/dashboards.loudoun.schools.recaps'
+import { Route as DashboardsManassasCouncilBudgetRouteImport } from './routes/dashboards.manassas.council.budget'
+import { Route as DashboardsManassasCouncilFindTheMomentRouteImport } from './routes/dashboards.manassas.council.find-the-moment'
+import { Route as DashboardsManassasCouncilMembersRouteImport } from './routes/dashboards.manassas.council.members'
+import { Route as DashboardsManassasCouncilRecapsRouteImport } from './routes/dashboards.manassas.council.recaps'
+import { Route as DashboardsManassasSchoolsBudgetRouteImport } from './routes/dashboards.manassas.schools.budget'
+import { Route as DashboardsManassasSchoolsFindTheMomentRouteImport } from './routes/dashboards.manassas.schools.find-the-moment'
+import { Route as DashboardsManassasSchoolsMembersRouteImport } from './routes/dashboards.manassas.schools.members'
+import { Route as DashboardsManassasSchoolsPoliciesRouteImport } from './routes/dashboards.manassas.schools.policies'
+import { Route as DashboardsManassasSchoolsRecapsRouteImport } from './routes/dashboards.manassas.schools.recaps'
+import { Route as DashboardsSenateMembersSlugRouteImport } from './routes/dashboards.senate.members_.$slug'
 import { Route as GeneralAssemblyHouseRecapsSlugRouteImport } from './routes/general-assembly.house.recaps.$slug'
 import { Route as GeneralAssemblySenateRecapsSlugRouteImport } from './routes/general-assembly.senate.recaps.$slug'
 
@@ -133,6 +191,11 @@ const SenatorsRoute = SenatorsRouteImport.update({
   path: '/senators',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TipsRoute = TipsRouteImport.update({
+  id: '/tips',
+  path: '/tips',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const VideosRoute = VideosRouteImport.update({
   id: '/videos',
   path: '/videos',
@@ -168,6 +231,17 @@ const CountiesLoudounRoute = CountiesLoudounRouteImport.update({
   path: '/loudoun',
   getParentRoute: () => CountiesRoute,
 } as any)
+const DashboardsBodyRoute = DashboardsBodyRouteImport.update({
+  id: '/dashboards/$body',
+  path: '/dashboards/$body',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsGeneralAssemblyRoute =
+  DashboardsGeneralAssemblyRouteImport.update({
+    id: '/dashboards/general-assembly',
+    path: '/dashboards/general-assembly',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const FindTheMomentLocalityRoute = FindTheMomentLocalityRouteImport.update({
   id: '/find-the-moment_/$locality',
   path: '/find-the-moment/$locality',
@@ -208,6 +282,16 @@ const LibraryFoiaRoute = LibraryFoiaRouteImport.update({
   path: '/foia',
   getParentRoute: () => LibraryRoute,
 } as any)
+const MockupsSlugRoute = MockupsSlugRouteImport.update({
+  id: '/mockups/$slug',
+  path: '/mockups/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MockupsTipsRoute = MockupsTipsRouteImport.update({
+  id: '/mockups/tips',
+  path: '/mockups/tips',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CitiesCityIndexRoute = CitiesCityIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -239,6 +323,89 @@ const CountiesLoudounSchoolsRoute = CountiesLoudounSchoolsRouteImport.update({
   path: '/schools',
   getParentRoute: () => CountiesLoudounRoute,
 } as any)
+const DashboardsBoardOfEducationBudgetRoute =
+  DashboardsBoardOfEducationBudgetRouteImport.update({
+    id: '/dashboards/board-of-education/budget',
+    path: '/dashboards/board-of-education/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsBoardOfEducationFindTheMomentRoute =
+  DashboardsBoardOfEducationFindTheMomentRouteImport.update({
+    id: '/dashboards/board-of-education/find-the-moment',
+    path: '/dashboards/board-of-education/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsBoardOfEducationMembersRoute =
+  DashboardsBoardOfEducationMembersRouteImport.update({
+    id: '/dashboards/board-of-education/members',
+    path: '/dashboards/board-of-education/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsBoardOfEducationPoliciesRoute =
+  DashboardsBoardOfEducationPoliciesRouteImport.update({
+    id: '/dashboards/board-of-education/policies',
+    path: '/dashboards/board-of-education/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsBoardOfEducationRecapsRoute =
+  DashboardsBoardOfEducationRecapsRouteImport.update({
+    id: '/dashboards/board-of-education/recaps',
+    path: '/dashboards/board-of-education/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHouseBudgetRoute = DashboardsHouseBudgetRouteImport.update({
+  id: '/dashboards/house/budget',
+  path: '/dashboards/house/budget',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsHouseFindTheMomentRoute =
+  DashboardsHouseFindTheMomentRouteImport.update({
+    id: '/dashboards/house/find-the-moment',
+    path: '/dashboards/house/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHouseMembersRoute = DashboardsHouseMembersRouteImport.update({
+  id: '/dashboards/house/members',
+  path: '/dashboards/house/members',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsHousePoliciesRoute = DashboardsHousePoliciesRouteImport.update({
+  id: '/dashboards/house/policies',
+  path: '/dashboards/house/policies',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsHouseRecapsRoute = DashboardsHouseRecapsRouteImport.update({
+  id: '/dashboards/house/recaps',
+  path: '/dashboards/house/recaps',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsSenateBudgetRoute = DashboardsSenateBudgetRouteImport.update({
+  id: '/dashboards/senate/budget',
+  path: '/dashboards/senate/budget',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsSenateFindTheMomentRoute =
+  DashboardsSenateFindTheMomentRouteImport.update({
+    id: '/dashboards/senate/find-the-moment',
+    path: '/dashboards/senate/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsSenateMembersRoute = DashboardsSenateMembersRouteImport.update({
+  id: '/dashboards/senate/members',
+  path: '/dashboards/senate/members',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardsSenatePoliciesRoute =
+  DashboardsSenatePoliciesRouteImport.update({
+    id: '/dashboards/senate/policies',
+    path: '/dashboards/senate/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsSenateRecapsRoute = DashboardsSenateRecapsRouteImport.update({
+  id: '/dashboards/senate/recaps',
+  path: '/dashboards/senate/recaps',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const GeneralAssemblyHouseIndexRoute =
   GeneralAssemblyHouseIndexRouteImport.update({
     id: '/',
@@ -261,6 +428,234 @@ const CountiesLoudounRecapsSlugRoute =
     id: '/recaps/$slug',
     path: '/recaps/$slug',
     getParentRoute: () => CountiesLoudounRoute,
+  } as any)
+const DashboardsAlbemarleBosBudgetRoute =
+  DashboardsAlbemarleBosBudgetRouteImport.update({
+    id: '/dashboards/albemarle/bos/budget',
+    path: '/dashboards/albemarle/bos/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleBosFindTheMomentRoute =
+  DashboardsAlbemarleBosFindTheMomentRouteImport.update({
+    id: '/dashboards/albemarle/bos/find-the-moment',
+    path: '/dashboards/albemarle/bos/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleBosMembersRoute =
+  DashboardsAlbemarleBosMembersRouteImport.update({
+    id: '/dashboards/albemarle/bos/members',
+    path: '/dashboards/albemarle/bos/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleBosRecapsRoute =
+  DashboardsAlbemarleBosRecapsRouteImport.update({
+    id: '/dashboards/albemarle/bos/recaps',
+    path: '/dashboards/albemarle/bos/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleSchoolsBudgetRoute =
+  DashboardsAlbemarleSchoolsBudgetRouteImport.update({
+    id: '/dashboards/albemarle/schools/budget',
+    path: '/dashboards/albemarle/schools/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleSchoolsFindTheMomentRoute =
+  DashboardsAlbemarleSchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/albemarle/schools/find-the-moment',
+    path: '/dashboards/albemarle/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleSchoolsMembersRoute =
+  DashboardsAlbemarleSchoolsMembersRouteImport.update({
+    id: '/dashboards/albemarle/schools/members',
+    path: '/dashboards/albemarle/schools/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleSchoolsPoliciesRoute =
+  DashboardsAlbemarleSchoolsPoliciesRouteImport.update({
+    id: '/dashboards/albemarle/schools/policies',
+    path: '/dashboards/albemarle/schools/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsAlbemarleSchoolsRecapsRoute =
+  DashboardsAlbemarleSchoolsRecapsRouteImport.update({
+    id: '/dashboards/albemarle/schools/recaps',
+    path: '/dashboards/albemarle/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCityCouncilBudgetRoute =
+  DashboardsFairfaxCityCouncilBudgetRouteImport.update({
+    id: '/dashboards/fairfax-city/council/budget',
+    path: '/dashboards/fairfax-city/council/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCityCouncilFindTheMomentRoute =
+  DashboardsFairfaxCityCouncilFindTheMomentRouteImport.update({
+    id: '/dashboards/fairfax-city/council/find-the-moment',
+    path: '/dashboards/fairfax-city/council/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCityCouncilMembersRoute =
+  DashboardsFairfaxCityCouncilMembersRouteImport.update({
+    id: '/dashboards/fairfax-city/council/members',
+    path: '/dashboards/fairfax-city/council/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCityCouncilRecapsRoute =
+  DashboardsFairfaxCityCouncilRecapsRouteImport.update({
+    id: '/dashboards/fairfax-city/council/recaps',
+    path: '/dashboards/fairfax-city/council/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCitySchoolsBudgetRoute =
+  DashboardsFairfaxCitySchoolsBudgetRouteImport.update({
+    id: '/dashboards/fairfax-city/schools/budget',
+    path: '/dashboards/fairfax-city/schools/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCitySchoolsFindTheMomentRoute =
+  DashboardsFairfaxCitySchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/fairfax-city/schools/find-the-moment',
+    path: '/dashboards/fairfax-city/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCitySchoolsMembersRoute =
+  DashboardsFairfaxCitySchoolsMembersRouteImport.update({
+    id: '/dashboards/fairfax-city/schools/members',
+    path: '/dashboards/fairfax-city/schools/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCitySchoolsPoliciesRoute =
+  DashboardsFairfaxCitySchoolsPoliciesRouteImport.update({
+    id: '/dashboards/fairfax-city/schools/policies',
+    path: '/dashboards/fairfax-city/schools/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCitySchoolsRecapsRoute =
+  DashboardsFairfaxCitySchoolsRecapsRouteImport.update({
+    id: '/dashboards/fairfax-city/schools/recaps',
+    path: '/dashboards/fairfax-city/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHouseMembersSlugRoute =
+  DashboardsHouseMembersSlugRouteImport.update({
+    id: '/dashboards/house/members_/$slug',
+    path: '/dashboards/house/members/$slug',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsLoudounBosBudgetRoute =
+  DashboardsLoudounBosBudgetRouteImport.update({
+    id: '/dashboards/loudoun/bos/budget',
+    path: '/dashboards/loudoun/bos/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsLoudounBosFindTheMomentRoute =
+  DashboardsLoudounBosFindTheMomentRouteImport.update({
+    id: '/dashboards/loudoun/bos/find-the-moment',
+    path: '/dashboards/loudoun/bos/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsLoudounBosMembersRoute =
+  DashboardsLoudounBosMembersRouteImport.update({
+    id: '/dashboards/loudoun/bos/members',
+    path: '/dashboards/loudoun/bos/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsLoudounBosRecapsRoute =
+  DashboardsLoudounBosRecapsRouteImport.update({
+    id: '/dashboards/loudoun/bos/recaps',
+    path: '/dashboards/loudoun/bos/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsLoudounSchoolsBudgetRoute =
+  DashboardsLoudounSchoolsBudgetRouteImport.update({
+    id: '/dashboards/loudoun/schools/budget',
+    path: '/dashboards/loudoun/schools/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsLoudounSchoolsFindTheMomentRoute =
+  DashboardsLoudounSchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/loudoun/schools/find-the-moment',
+    path: '/dashboards/loudoun/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsLoudounSchoolsMembersRoute =
+  DashboardsLoudounSchoolsMembersRouteImport.update({
+    id: '/dashboards/loudoun/schools/members',
+    path: '/dashboards/loudoun/schools/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsLoudounSchoolsPoliciesRoute =
+  DashboardsLoudounSchoolsPoliciesRouteImport.update({
+    id: '/dashboards/loudoun/schools/policies',
+    path: '/dashboards/loudoun/schools/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsLoudounSchoolsRecapsRoute =
+  DashboardsLoudounSchoolsRecapsRouteImport.update({
+    id: '/dashboards/loudoun/schools/recaps',
+    path: '/dashboards/loudoun/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasCouncilBudgetRoute =
+  DashboardsManassasCouncilBudgetRouteImport.update({
+    id: '/dashboards/manassas/council/budget',
+    path: '/dashboards/manassas/council/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasCouncilFindTheMomentRoute =
+  DashboardsManassasCouncilFindTheMomentRouteImport.update({
+    id: '/dashboards/manassas/council/find-the-moment',
+    path: '/dashboards/manassas/council/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasCouncilMembersRoute =
+  DashboardsManassasCouncilMembersRouteImport.update({
+    id: '/dashboards/manassas/council/members',
+    path: '/dashboards/manassas/council/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasCouncilRecapsRoute =
+  DashboardsManassasCouncilRecapsRouteImport.update({
+    id: '/dashboards/manassas/council/recaps',
+    path: '/dashboards/manassas/council/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasSchoolsBudgetRoute =
+  DashboardsManassasSchoolsBudgetRouteImport.update({
+    id: '/dashboards/manassas/schools/budget',
+    path: '/dashboards/manassas/schools/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasSchoolsFindTheMomentRoute =
+  DashboardsManassasSchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/manassas/schools/find-the-moment',
+    path: '/dashboards/manassas/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasSchoolsMembersRoute =
+  DashboardsManassasSchoolsMembersRouteImport.update({
+    id: '/dashboards/manassas/schools/members',
+    path: '/dashboards/manassas/schools/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasSchoolsPoliciesRoute =
+  DashboardsManassasSchoolsPoliciesRouteImport.update({
+    id: '/dashboards/manassas/schools/policies',
+    path: '/dashboards/manassas/schools/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsManassasSchoolsRecapsRoute =
+  DashboardsManassasSchoolsRecapsRouteImport.update({
+    id: '/dashboards/manassas/schools/recaps',
+    path: '/dashboards/manassas/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsSenateMembersSlugRoute =
+  DashboardsSenateMembersSlugRouteImport.update({
+    id: '/dashboards/senate/members_/$slug',
+    path: '/dashboards/senate/members/$slug',
+    getParentRoute: () => rootRouteImport,
   } as any)
 const GeneralAssemblyHouseRecapsSlugRoute =
   GeneralAssemblyHouseRecapsSlugRouteImport.update({
@@ -292,15 +687,20 @@ export interface FileRoutesByFullPath {
   '/news': typeof NewsRoute
   '/nova-briefing': typeof NovaBriefingRoute
   '/senators': typeof SenatorsRoute
+  '/tips': typeof TipsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
+  '/dashboards/$body': typeof DashboardsBodyRoute
+  '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
   '/find-the-moment/$locality': typeof FindTheMomentLocalityRoute
   '/general-assembly/house': typeof GeneralAssemblyHouseRouteWithChildren
   '/general-assembly/senate': typeof GeneralAssemblySenateRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
+  '/mockups/$slug': typeof MockupsSlugRoute
+  '/mockups/tips': typeof MockupsTipsRoute
   '/articles/': typeof ArticlesIndexRoute
   '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
@@ -311,12 +711,65 @@ export interface FileRoutesByFullPath {
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/dashboards/board-of-education/budget': typeof DashboardsBoardOfEducationBudgetRoute
+  '/dashboards/board-of-education/find-the-moment': typeof DashboardsBoardOfEducationFindTheMomentRoute
+  '/dashboards/board-of-education/members': typeof DashboardsBoardOfEducationMembersRoute
+  '/dashboards/board-of-education/policies': typeof DashboardsBoardOfEducationPoliciesRoute
+  '/dashboards/board-of-education/recaps': typeof DashboardsBoardOfEducationRecapsRoute
+  '/dashboards/house/budget': typeof DashboardsHouseBudgetRoute
+  '/dashboards/house/find-the-moment': typeof DashboardsHouseFindTheMomentRoute
+  '/dashboards/house/members': typeof DashboardsHouseMembersRoute
+  '/dashboards/house/policies': typeof DashboardsHousePoliciesRoute
+  '/dashboards/house/recaps': typeof DashboardsHouseRecapsRoute
+  '/dashboards/senate/budget': typeof DashboardsSenateBudgetRoute
+  '/dashboards/senate/find-the-moment': typeof DashboardsSenateFindTheMomentRoute
+  '/dashboards/senate/members': typeof DashboardsSenateMembersRoute
+  '/dashboards/senate/policies': typeof DashboardsSenatePoliciesRoute
+  '/dashboards/senate/recaps': typeof DashboardsSenateRecapsRoute
   '/cities/$city/': typeof CitiesCityIndexRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
   '/general-assembly/house/': typeof GeneralAssemblyHouseIndexRoute
   '/general-assembly/senate/': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/dashboards/albemarle/bos/budget': typeof DashboardsAlbemarleBosBudgetRoute
+  '/dashboards/albemarle/bos/find-the-moment': typeof DashboardsAlbemarleBosFindTheMomentRoute
+  '/dashboards/albemarle/bos/members': typeof DashboardsAlbemarleBosMembersRoute
+  '/dashboards/albemarle/bos/recaps': typeof DashboardsAlbemarleBosRecapsRoute
+  '/dashboards/albemarle/schools/budget': typeof DashboardsAlbemarleSchoolsBudgetRoute
+  '/dashboards/albemarle/schools/find-the-moment': typeof DashboardsAlbemarleSchoolsFindTheMomentRoute
+  '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
+  '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
+  '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
+  '/dashboards/fairfax-city/council/budget': typeof DashboardsFairfaxCityCouncilBudgetRoute
+  '/dashboards/fairfax-city/council/find-the-moment': typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
+  '/dashboards/fairfax-city/council/members': typeof DashboardsFairfaxCityCouncilMembersRoute
+  '/dashboards/fairfax-city/council/recaps': typeof DashboardsFairfaxCityCouncilRecapsRoute
+  '/dashboards/fairfax-city/schools/budget': typeof DashboardsFairfaxCitySchoolsBudgetRoute
+  '/dashboards/fairfax-city/schools/find-the-moment': typeof DashboardsFairfaxCitySchoolsFindTheMomentRoute
+  '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
+  '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
+  '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/house/members/$slug': typeof DashboardsHouseMembersSlugRoute
+  '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
+  '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
+  '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
+  '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
+  '/dashboards/loudoun/schools/budget': typeof DashboardsLoudounSchoolsBudgetRoute
+  '/dashboards/loudoun/schools/find-the-moment': typeof DashboardsLoudounSchoolsFindTheMomentRoute
+  '/dashboards/loudoun/schools/members': typeof DashboardsLoudounSchoolsMembersRoute
+  '/dashboards/loudoun/schools/policies': typeof DashboardsLoudounSchoolsPoliciesRoute
+  '/dashboards/loudoun/schools/recaps': typeof DashboardsLoudounSchoolsRecapsRoute
+  '/dashboards/manassas/council/budget': typeof DashboardsManassasCouncilBudgetRoute
+  '/dashboards/manassas/council/find-the-moment': typeof DashboardsManassasCouncilFindTheMomentRoute
+  '/dashboards/manassas/council/members': typeof DashboardsManassasCouncilMembersRoute
+  '/dashboards/manassas/council/recaps': typeof DashboardsManassasCouncilRecapsRoute
+  '/dashboards/manassas/schools/budget': typeof DashboardsManassasSchoolsBudgetRoute
+  '/dashboards/manassas/schools/find-the-moment': typeof DashboardsManassasSchoolsFindTheMomentRoute
+  '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
+  '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
+  '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
+  '/dashboards/senate/members/$slug': typeof DashboardsSenateMembersSlugRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -331,11 +784,16 @@ export interface FileRoutesByTo {
   '/news': typeof NewsRoute
   '/nova-briefing': typeof NovaBriefingRoute
   '/senators': typeof SenatorsRoute
+  '/tips': typeof TipsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
+  '/dashboards/$body': typeof DashboardsBodyRoute
+  '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
   '/find-the-moment/$locality': typeof FindTheMomentLocalityRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
+  '/mockups/$slug': typeof MockupsSlugRoute
+  '/mockups/tips': typeof MockupsTipsRoute
   '/articles': typeof ArticlesIndexRoute
   '/cities': typeof CitiesIndexRoute
   '/counties': typeof CountiesIndexRoute
@@ -346,12 +804,65 @@ export interface FileRoutesByTo {
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/dashboards/board-of-education/budget': typeof DashboardsBoardOfEducationBudgetRoute
+  '/dashboards/board-of-education/find-the-moment': typeof DashboardsBoardOfEducationFindTheMomentRoute
+  '/dashboards/board-of-education/members': typeof DashboardsBoardOfEducationMembersRoute
+  '/dashboards/board-of-education/policies': typeof DashboardsBoardOfEducationPoliciesRoute
+  '/dashboards/board-of-education/recaps': typeof DashboardsBoardOfEducationRecapsRoute
+  '/dashboards/house/budget': typeof DashboardsHouseBudgetRoute
+  '/dashboards/house/find-the-moment': typeof DashboardsHouseFindTheMomentRoute
+  '/dashboards/house/members': typeof DashboardsHouseMembersRoute
+  '/dashboards/house/policies': typeof DashboardsHousePoliciesRoute
+  '/dashboards/house/recaps': typeof DashboardsHouseRecapsRoute
+  '/dashboards/senate/budget': typeof DashboardsSenateBudgetRoute
+  '/dashboards/senate/find-the-moment': typeof DashboardsSenateFindTheMomentRoute
+  '/dashboards/senate/members': typeof DashboardsSenateMembersRoute
+  '/dashboards/senate/policies': typeof DashboardsSenatePoliciesRoute
+  '/dashboards/senate/recaps': typeof DashboardsSenateRecapsRoute
   '/cities/$city': typeof CitiesCityIndexRoute
   '/counties/loudoun': typeof CountiesLoudounIndexRoute
   '/general-assembly/house': typeof GeneralAssemblyHouseIndexRoute
   '/general-assembly/senate': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/dashboards/albemarle/bos/budget': typeof DashboardsAlbemarleBosBudgetRoute
+  '/dashboards/albemarle/bos/find-the-moment': typeof DashboardsAlbemarleBosFindTheMomentRoute
+  '/dashboards/albemarle/bos/members': typeof DashboardsAlbemarleBosMembersRoute
+  '/dashboards/albemarle/bos/recaps': typeof DashboardsAlbemarleBosRecapsRoute
+  '/dashboards/albemarle/schools/budget': typeof DashboardsAlbemarleSchoolsBudgetRoute
+  '/dashboards/albemarle/schools/find-the-moment': typeof DashboardsAlbemarleSchoolsFindTheMomentRoute
+  '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
+  '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
+  '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
+  '/dashboards/fairfax-city/council/budget': typeof DashboardsFairfaxCityCouncilBudgetRoute
+  '/dashboards/fairfax-city/council/find-the-moment': typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
+  '/dashboards/fairfax-city/council/members': typeof DashboardsFairfaxCityCouncilMembersRoute
+  '/dashboards/fairfax-city/council/recaps': typeof DashboardsFairfaxCityCouncilRecapsRoute
+  '/dashboards/fairfax-city/schools/budget': typeof DashboardsFairfaxCitySchoolsBudgetRoute
+  '/dashboards/fairfax-city/schools/find-the-moment': typeof DashboardsFairfaxCitySchoolsFindTheMomentRoute
+  '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
+  '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
+  '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/house/members/$slug': typeof DashboardsHouseMembersSlugRoute
+  '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
+  '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
+  '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
+  '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
+  '/dashboards/loudoun/schools/budget': typeof DashboardsLoudounSchoolsBudgetRoute
+  '/dashboards/loudoun/schools/find-the-moment': typeof DashboardsLoudounSchoolsFindTheMomentRoute
+  '/dashboards/loudoun/schools/members': typeof DashboardsLoudounSchoolsMembersRoute
+  '/dashboards/loudoun/schools/policies': typeof DashboardsLoudounSchoolsPoliciesRoute
+  '/dashboards/loudoun/schools/recaps': typeof DashboardsLoudounSchoolsRecapsRoute
+  '/dashboards/manassas/council/budget': typeof DashboardsManassasCouncilBudgetRoute
+  '/dashboards/manassas/council/find-the-moment': typeof DashboardsManassasCouncilFindTheMomentRoute
+  '/dashboards/manassas/council/members': typeof DashboardsManassasCouncilMembersRoute
+  '/dashboards/manassas/council/recaps': typeof DashboardsManassasCouncilRecapsRoute
+  '/dashboards/manassas/schools/budget': typeof DashboardsManassasSchoolsBudgetRoute
+  '/dashboards/manassas/schools/find-the-moment': typeof DashboardsManassasSchoolsFindTheMomentRoute
+  '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
+  '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
+  '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
+  '/dashboards/senate/members/$slug': typeof DashboardsSenateMembersSlugRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -373,15 +884,20 @@ export interface FileRoutesById {
   '/news': typeof NewsRoute
   '/nova-briefing': typeof NovaBriefingRoute
   '/senators': typeof SenatorsRoute
+  '/tips': typeof TipsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
+  '/dashboards/$body': typeof DashboardsBodyRoute
+  '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
   '/find-the-moment_/$locality': typeof FindTheMomentLocalityRoute
   '/general-assembly/house': typeof GeneralAssemblyHouseRouteWithChildren
   '/general-assembly/senate': typeof GeneralAssemblySenateRouteWithChildren
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
+  '/mockups/$slug': typeof MockupsSlugRoute
+  '/mockups/tips': typeof MockupsTipsRoute
   '/articles/': typeof ArticlesIndexRoute
   '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
@@ -392,12 +908,65 @@ export interface FileRoutesById {
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
   '/counties/loudoun/schools': typeof CountiesLoudounSchoolsRoute
+  '/dashboards/board-of-education/budget': typeof DashboardsBoardOfEducationBudgetRoute
+  '/dashboards/board-of-education/find-the-moment': typeof DashboardsBoardOfEducationFindTheMomentRoute
+  '/dashboards/board-of-education/members': typeof DashboardsBoardOfEducationMembersRoute
+  '/dashboards/board-of-education/policies': typeof DashboardsBoardOfEducationPoliciesRoute
+  '/dashboards/board-of-education/recaps': typeof DashboardsBoardOfEducationRecapsRoute
+  '/dashboards/house/budget': typeof DashboardsHouseBudgetRoute
+  '/dashboards/house/find-the-moment': typeof DashboardsHouseFindTheMomentRoute
+  '/dashboards/house/members': typeof DashboardsHouseMembersRoute
+  '/dashboards/house/policies': typeof DashboardsHousePoliciesRoute
+  '/dashboards/house/recaps': typeof DashboardsHouseRecapsRoute
+  '/dashboards/senate/budget': typeof DashboardsSenateBudgetRoute
+  '/dashboards/senate/find-the-moment': typeof DashboardsSenateFindTheMomentRoute
+  '/dashboards/senate/members': typeof DashboardsSenateMembersRoute
+  '/dashboards/senate/policies': typeof DashboardsSenatePoliciesRoute
+  '/dashboards/senate/recaps': typeof DashboardsSenateRecapsRoute
   '/cities/$city/': typeof CitiesCityIndexRoute
   '/counties/loudoun/': typeof CountiesLoudounIndexRoute
   '/general-assembly/house/': typeof GeneralAssemblyHouseIndexRoute
   '/general-assembly/senate/': typeof GeneralAssemblySenateIndexRoute
   '/cities/$city/recaps/$slug': typeof CitiesCityRecapsSlugRoute
   '/counties/loudoun/recaps/$slug': typeof CountiesLoudounRecapsSlugRoute
+  '/dashboards/albemarle/bos/budget': typeof DashboardsAlbemarleBosBudgetRoute
+  '/dashboards/albemarle/bos/find-the-moment': typeof DashboardsAlbemarleBosFindTheMomentRoute
+  '/dashboards/albemarle/bos/members': typeof DashboardsAlbemarleBosMembersRoute
+  '/dashboards/albemarle/bos/recaps': typeof DashboardsAlbemarleBosRecapsRoute
+  '/dashboards/albemarle/schools/budget': typeof DashboardsAlbemarleSchoolsBudgetRoute
+  '/dashboards/albemarle/schools/find-the-moment': typeof DashboardsAlbemarleSchoolsFindTheMomentRoute
+  '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
+  '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
+  '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
+  '/dashboards/fairfax-city/council/budget': typeof DashboardsFairfaxCityCouncilBudgetRoute
+  '/dashboards/fairfax-city/council/find-the-moment': typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
+  '/dashboards/fairfax-city/council/members': typeof DashboardsFairfaxCityCouncilMembersRoute
+  '/dashboards/fairfax-city/council/recaps': typeof DashboardsFairfaxCityCouncilRecapsRoute
+  '/dashboards/fairfax-city/schools/budget': typeof DashboardsFairfaxCitySchoolsBudgetRoute
+  '/dashboards/fairfax-city/schools/find-the-moment': typeof DashboardsFairfaxCitySchoolsFindTheMomentRoute
+  '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
+  '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
+  '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/house/members_/$slug': typeof DashboardsHouseMembersSlugRoute
+  '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
+  '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
+  '/dashboards/loudoun/bos/members': typeof DashboardsLoudounBosMembersRoute
+  '/dashboards/loudoun/bos/recaps': typeof DashboardsLoudounBosRecapsRoute
+  '/dashboards/loudoun/schools/budget': typeof DashboardsLoudounSchoolsBudgetRoute
+  '/dashboards/loudoun/schools/find-the-moment': typeof DashboardsLoudounSchoolsFindTheMomentRoute
+  '/dashboards/loudoun/schools/members': typeof DashboardsLoudounSchoolsMembersRoute
+  '/dashboards/loudoun/schools/policies': typeof DashboardsLoudounSchoolsPoliciesRoute
+  '/dashboards/loudoun/schools/recaps': typeof DashboardsLoudounSchoolsRecapsRoute
+  '/dashboards/manassas/council/budget': typeof DashboardsManassasCouncilBudgetRoute
+  '/dashboards/manassas/council/find-the-moment': typeof DashboardsManassasCouncilFindTheMomentRoute
+  '/dashboards/manassas/council/members': typeof DashboardsManassasCouncilMembersRoute
+  '/dashboards/manassas/council/recaps': typeof DashboardsManassasCouncilRecapsRoute
+  '/dashboards/manassas/schools/budget': typeof DashboardsManassasSchoolsBudgetRoute
+  '/dashboards/manassas/schools/find-the-moment': typeof DashboardsManassasSchoolsFindTheMomentRoute
+  '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
+  '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
+  '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
+  '/dashboards/senate/members_/$slug': typeof DashboardsSenateMembersSlugRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
 }
@@ -420,15 +989,20 @@ export interface FileRouteTypes {
     | '/news'
     | '/nova-briefing'
     | '/senators'
+    | '/tips'
     | '/videos'
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
+    | '/dashboards/$body'
+    | '/dashboards/general-assembly'
     | '/find-the-moment/$locality'
     | '/general-assembly/house'
     | '/general-assembly/senate'
     | '/investigations/$slug'
     | '/library/foia'
+    | '/mockups/$slug'
+    | '/mockups/tips'
     | '/articles/'
     | '/cities/'
     | '/counties/'
@@ -439,12 +1013,65 @@ export interface FileRouteTypes {
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/dashboards/board-of-education/budget'
+    | '/dashboards/board-of-education/find-the-moment'
+    | '/dashboards/board-of-education/members'
+    | '/dashboards/board-of-education/policies'
+    | '/dashboards/board-of-education/recaps'
+    | '/dashboards/house/budget'
+    | '/dashboards/house/find-the-moment'
+    | '/dashboards/house/members'
+    | '/dashboards/house/policies'
+    | '/dashboards/house/recaps'
+    | '/dashboards/senate/budget'
+    | '/dashboards/senate/find-the-moment'
+    | '/dashboards/senate/members'
+    | '/dashboards/senate/policies'
+    | '/dashboards/senate/recaps'
     | '/cities/$city/'
     | '/counties/loudoun/'
     | '/general-assembly/house/'
     | '/general-assembly/senate/'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/dashboards/albemarle/bos/budget'
+    | '/dashboards/albemarle/bos/find-the-moment'
+    | '/dashboards/albemarle/bos/members'
+    | '/dashboards/albemarle/bos/recaps'
+    | '/dashboards/albemarle/schools/budget'
+    | '/dashboards/albemarle/schools/find-the-moment'
+    | '/dashboards/albemarle/schools/members'
+    | '/dashboards/albemarle/schools/policies'
+    | '/dashboards/albemarle/schools/recaps'
+    | '/dashboards/fairfax-city/council/budget'
+    | '/dashboards/fairfax-city/council/find-the-moment'
+    | '/dashboards/fairfax-city/council/members'
+    | '/dashboards/fairfax-city/council/recaps'
+    | '/dashboards/fairfax-city/schools/budget'
+    | '/dashboards/fairfax-city/schools/find-the-moment'
+    | '/dashboards/fairfax-city/schools/members'
+    | '/dashboards/fairfax-city/schools/policies'
+    | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/house/members/$slug'
+    | '/dashboards/loudoun/bos/budget'
+    | '/dashboards/loudoun/bos/find-the-moment'
+    | '/dashboards/loudoun/bos/members'
+    | '/dashboards/loudoun/bos/recaps'
+    | '/dashboards/loudoun/schools/budget'
+    | '/dashboards/loudoun/schools/find-the-moment'
+    | '/dashboards/loudoun/schools/members'
+    | '/dashboards/loudoun/schools/policies'
+    | '/dashboards/loudoun/schools/recaps'
+    | '/dashboards/manassas/council/budget'
+    | '/dashboards/manassas/council/find-the-moment'
+    | '/dashboards/manassas/council/members'
+    | '/dashboards/manassas/council/recaps'
+    | '/dashboards/manassas/schools/budget'
+    | '/dashboards/manassas/schools/find-the-moment'
+    | '/dashboards/manassas/schools/members'
+    | '/dashboards/manassas/schools/policies'
+    | '/dashboards/manassas/schools/recaps'
+    | '/dashboards/senate/members/$slug'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   fileRoutesByTo: FileRoutesByTo
@@ -459,11 +1086,16 @@ export interface FileRouteTypes {
     | '/news'
     | '/nova-briefing'
     | '/senators'
+    | '/tips'
     | '/videos'
     | '/articles/$slug'
+    | '/dashboards/$body'
+    | '/dashboards/general-assembly'
     | '/find-the-moment/$locality'
     | '/investigations/$slug'
     | '/library/foia'
+    | '/mockups/$slug'
+    | '/mockups/tips'
     | '/articles'
     | '/cities'
     | '/counties'
@@ -474,12 +1106,65 @@ export interface FileRouteTypes {
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/dashboards/board-of-education/budget'
+    | '/dashboards/board-of-education/find-the-moment'
+    | '/dashboards/board-of-education/members'
+    | '/dashboards/board-of-education/policies'
+    | '/dashboards/board-of-education/recaps'
+    | '/dashboards/house/budget'
+    | '/dashboards/house/find-the-moment'
+    | '/dashboards/house/members'
+    | '/dashboards/house/policies'
+    | '/dashboards/house/recaps'
+    | '/dashboards/senate/budget'
+    | '/dashboards/senate/find-the-moment'
+    | '/dashboards/senate/members'
+    | '/dashboards/senate/policies'
+    | '/dashboards/senate/recaps'
     | '/cities/$city'
     | '/counties/loudoun'
     | '/general-assembly/house'
     | '/general-assembly/senate'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/dashboards/albemarle/bos/budget'
+    | '/dashboards/albemarle/bos/find-the-moment'
+    | '/dashboards/albemarle/bos/members'
+    | '/dashboards/albemarle/bos/recaps'
+    | '/dashboards/albemarle/schools/budget'
+    | '/dashboards/albemarle/schools/find-the-moment'
+    | '/dashboards/albemarle/schools/members'
+    | '/dashboards/albemarle/schools/policies'
+    | '/dashboards/albemarle/schools/recaps'
+    | '/dashboards/fairfax-city/council/budget'
+    | '/dashboards/fairfax-city/council/find-the-moment'
+    | '/dashboards/fairfax-city/council/members'
+    | '/dashboards/fairfax-city/council/recaps'
+    | '/dashboards/fairfax-city/schools/budget'
+    | '/dashboards/fairfax-city/schools/find-the-moment'
+    | '/dashboards/fairfax-city/schools/members'
+    | '/dashboards/fairfax-city/schools/policies'
+    | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/house/members/$slug'
+    | '/dashboards/loudoun/bos/budget'
+    | '/dashboards/loudoun/bos/find-the-moment'
+    | '/dashboards/loudoun/bos/members'
+    | '/dashboards/loudoun/bos/recaps'
+    | '/dashboards/loudoun/schools/budget'
+    | '/dashboards/loudoun/schools/find-the-moment'
+    | '/dashboards/loudoun/schools/members'
+    | '/dashboards/loudoun/schools/policies'
+    | '/dashboards/loudoun/schools/recaps'
+    | '/dashboards/manassas/council/budget'
+    | '/dashboards/manassas/council/find-the-moment'
+    | '/dashboards/manassas/council/members'
+    | '/dashboards/manassas/council/recaps'
+    | '/dashboards/manassas/schools/budget'
+    | '/dashboards/manassas/schools/find-the-moment'
+    | '/dashboards/manassas/schools/members'
+    | '/dashboards/manassas/schools/policies'
+    | '/dashboards/manassas/schools/recaps'
+    | '/dashboards/senate/members/$slug'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   id:
@@ -500,15 +1185,20 @@ export interface FileRouteTypes {
     | '/news'
     | '/nova-briefing'
     | '/senators'
+    | '/tips'
     | '/videos'
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
+    | '/dashboards/$body'
+    | '/dashboards/general-assembly'
     | '/find-the-moment_/$locality'
     | '/general-assembly/house'
     | '/general-assembly/senate'
     | '/investigations/$slug'
     | '/library/foia'
+    | '/mockups/$slug'
+    | '/mockups/tips'
     | '/articles/'
     | '/cities/'
     | '/counties/'
@@ -519,12 +1209,65 @@ export interface FileRouteTypes {
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
     | '/counties/loudoun/schools'
+    | '/dashboards/board-of-education/budget'
+    | '/dashboards/board-of-education/find-the-moment'
+    | '/dashboards/board-of-education/members'
+    | '/dashboards/board-of-education/policies'
+    | '/dashboards/board-of-education/recaps'
+    | '/dashboards/house/budget'
+    | '/dashboards/house/find-the-moment'
+    | '/dashboards/house/members'
+    | '/dashboards/house/policies'
+    | '/dashboards/house/recaps'
+    | '/dashboards/senate/budget'
+    | '/dashboards/senate/find-the-moment'
+    | '/dashboards/senate/members'
+    | '/dashboards/senate/policies'
+    | '/dashboards/senate/recaps'
     | '/cities/$city/'
     | '/counties/loudoun/'
     | '/general-assembly/house/'
     | '/general-assembly/senate/'
     | '/cities/$city/recaps/$slug'
     | '/counties/loudoun/recaps/$slug'
+    | '/dashboards/albemarle/bos/budget'
+    | '/dashboards/albemarle/bos/find-the-moment'
+    | '/dashboards/albemarle/bos/members'
+    | '/dashboards/albemarle/bos/recaps'
+    | '/dashboards/albemarle/schools/budget'
+    | '/dashboards/albemarle/schools/find-the-moment'
+    | '/dashboards/albemarle/schools/members'
+    | '/dashboards/albemarle/schools/policies'
+    | '/dashboards/albemarle/schools/recaps'
+    | '/dashboards/fairfax-city/council/budget'
+    | '/dashboards/fairfax-city/council/find-the-moment'
+    | '/dashboards/fairfax-city/council/members'
+    | '/dashboards/fairfax-city/council/recaps'
+    | '/dashboards/fairfax-city/schools/budget'
+    | '/dashboards/fairfax-city/schools/find-the-moment'
+    | '/dashboards/fairfax-city/schools/members'
+    | '/dashboards/fairfax-city/schools/policies'
+    | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/house/members_/$slug'
+    | '/dashboards/loudoun/bos/budget'
+    | '/dashboards/loudoun/bos/find-the-moment'
+    | '/dashboards/loudoun/bos/members'
+    | '/dashboards/loudoun/bos/recaps'
+    | '/dashboards/loudoun/schools/budget'
+    | '/dashboards/loudoun/schools/find-the-moment'
+    | '/dashboards/loudoun/schools/members'
+    | '/dashboards/loudoun/schools/policies'
+    | '/dashboards/loudoun/schools/recaps'
+    | '/dashboards/manassas/council/budget'
+    | '/dashboards/manassas/council/find-the-moment'
+    | '/dashboards/manassas/council/members'
+    | '/dashboards/manassas/council/recaps'
+    | '/dashboards/manassas/schools/budget'
+    | '/dashboards/manassas/schools/find-the-moment'
+    | '/dashboards/manassas/schools/members'
+    | '/dashboards/manassas/schools/policies'
+    | '/dashboards/manassas/schools/recaps'
+    | '/dashboards/senate/members_/$slug'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
   fileRoutesById: FileRoutesById
@@ -546,8 +1289,66 @@ export interface RootRouteChildren {
   NewsRoute: typeof NewsRoute
   NovaBriefingRoute: typeof NovaBriefingRoute
   SenatorsRoute: typeof SenatorsRoute
+  TipsRoute: typeof TipsRoute
   VideosRoute: typeof VideosRoute
+  DashboardsBodyRoute: typeof DashboardsBodyRoute
+  DashboardsGeneralAssemblyRoute: typeof DashboardsGeneralAssemblyRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
+  MockupsSlugRoute: typeof MockupsSlugRoute
+  MockupsTipsRoute: typeof MockupsTipsRoute
+  DashboardsBoardOfEducationBudgetRoute: typeof DashboardsBoardOfEducationBudgetRoute
+  DashboardsBoardOfEducationFindTheMomentRoute: typeof DashboardsBoardOfEducationFindTheMomentRoute
+  DashboardsBoardOfEducationMembersRoute: typeof DashboardsBoardOfEducationMembersRoute
+  DashboardsBoardOfEducationPoliciesRoute: typeof DashboardsBoardOfEducationPoliciesRoute
+  DashboardsBoardOfEducationRecapsRoute: typeof DashboardsBoardOfEducationRecapsRoute
+  DashboardsHouseBudgetRoute: typeof DashboardsHouseBudgetRoute
+  DashboardsHouseFindTheMomentRoute: typeof DashboardsHouseFindTheMomentRoute
+  DashboardsHouseMembersRoute: typeof DashboardsHouseMembersRoute
+  DashboardsHousePoliciesRoute: typeof DashboardsHousePoliciesRoute
+  DashboardsHouseRecapsRoute: typeof DashboardsHouseRecapsRoute
+  DashboardsSenateBudgetRoute: typeof DashboardsSenateBudgetRoute
+  DashboardsSenateFindTheMomentRoute: typeof DashboardsSenateFindTheMomentRoute
+  DashboardsSenateMembersRoute: typeof DashboardsSenateMembersRoute
+  DashboardsSenatePoliciesRoute: typeof DashboardsSenatePoliciesRoute
+  DashboardsSenateRecapsRoute: typeof DashboardsSenateRecapsRoute
+  DashboardsAlbemarleBosBudgetRoute: typeof DashboardsAlbemarleBosBudgetRoute
+  DashboardsAlbemarleBosFindTheMomentRoute: typeof DashboardsAlbemarleBosFindTheMomentRoute
+  DashboardsAlbemarleBosMembersRoute: typeof DashboardsAlbemarleBosMembersRoute
+  DashboardsAlbemarleBosRecapsRoute: typeof DashboardsAlbemarleBosRecapsRoute
+  DashboardsAlbemarleSchoolsBudgetRoute: typeof DashboardsAlbemarleSchoolsBudgetRoute
+  DashboardsAlbemarleSchoolsFindTheMomentRoute: typeof DashboardsAlbemarleSchoolsFindTheMomentRoute
+  DashboardsAlbemarleSchoolsMembersRoute: typeof DashboardsAlbemarleSchoolsMembersRoute
+  DashboardsAlbemarleSchoolsPoliciesRoute: typeof DashboardsAlbemarleSchoolsPoliciesRoute
+  DashboardsAlbemarleSchoolsRecapsRoute: typeof DashboardsAlbemarleSchoolsRecapsRoute
+  DashboardsFairfaxCityCouncilBudgetRoute: typeof DashboardsFairfaxCityCouncilBudgetRoute
+  DashboardsFairfaxCityCouncilFindTheMomentRoute: typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
+  DashboardsFairfaxCityCouncilMembersRoute: typeof DashboardsFairfaxCityCouncilMembersRoute
+  DashboardsFairfaxCityCouncilRecapsRoute: typeof DashboardsFairfaxCityCouncilRecapsRoute
+  DashboardsFairfaxCitySchoolsBudgetRoute: typeof DashboardsFairfaxCitySchoolsBudgetRoute
+  DashboardsFairfaxCitySchoolsFindTheMomentRoute: typeof DashboardsFairfaxCitySchoolsFindTheMomentRoute
+  DashboardsFairfaxCitySchoolsMembersRoute: typeof DashboardsFairfaxCitySchoolsMembersRoute
+  DashboardsFairfaxCitySchoolsPoliciesRoute: typeof DashboardsFairfaxCitySchoolsPoliciesRoute
+  DashboardsFairfaxCitySchoolsRecapsRoute: typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  DashboardsHouseMembersSlugRoute: typeof DashboardsHouseMembersSlugRoute
+  DashboardsLoudounBosBudgetRoute: typeof DashboardsLoudounBosBudgetRoute
+  DashboardsLoudounBosFindTheMomentRoute: typeof DashboardsLoudounBosFindTheMomentRoute
+  DashboardsLoudounBosMembersRoute: typeof DashboardsLoudounBosMembersRoute
+  DashboardsLoudounBosRecapsRoute: typeof DashboardsLoudounBosRecapsRoute
+  DashboardsLoudounSchoolsBudgetRoute: typeof DashboardsLoudounSchoolsBudgetRoute
+  DashboardsLoudounSchoolsFindTheMomentRoute: typeof DashboardsLoudounSchoolsFindTheMomentRoute
+  DashboardsLoudounSchoolsMembersRoute: typeof DashboardsLoudounSchoolsMembersRoute
+  DashboardsLoudounSchoolsPoliciesRoute: typeof DashboardsLoudounSchoolsPoliciesRoute
+  DashboardsLoudounSchoolsRecapsRoute: typeof DashboardsLoudounSchoolsRecapsRoute
+  DashboardsManassasCouncilBudgetRoute: typeof DashboardsManassasCouncilBudgetRoute
+  DashboardsManassasCouncilFindTheMomentRoute: typeof DashboardsManassasCouncilFindTheMomentRoute
+  DashboardsManassasCouncilMembersRoute: typeof DashboardsManassasCouncilMembersRoute
+  DashboardsManassasCouncilRecapsRoute: typeof DashboardsManassasCouncilRecapsRoute
+  DashboardsManassasSchoolsBudgetRoute: typeof DashboardsManassasSchoolsBudgetRoute
+  DashboardsManassasSchoolsFindTheMomentRoute: typeof DashboardsManassasSchoolsFindTheMomentRoute
+  DashboardsManassasSchoolsMembersRoute: typeof DashboardsManassasSchoolsMembersRoute
+  DashboardsManassasSchoolsPoliciesRoute: typeof DashboardsManassasSchoolsPoliciesRoute
+  DashboardsManassasSchoolsRecapsRoute: typeof DashboardsManassasSchoolsRecapsRoute
+  DashboardsSenateMembersSlugRoute: typeof DashboardsSenateMembersSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -664,6 +1465,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SenatorsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/tips': {
+      id: '/tips'
+      path: '/tips'
+      fullPath: '/tips'
+      preLoaderRoute: typeof TipsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/videos': {
       id: '/videos'
       path: '/videos'
@@ -712,6 +1520,20 @@ declare module '@tanstack/react-router' {
       fullPath: '/counties/loudoun'
       preLoaderRoute: typeof CountiesLoudounRouteImport
       parentRoute: typeof CountiesRoute
+    }
+    '/dashboards/$body': {
+      id: '/dashboards/$body'
+      path: '/dashboards/$body'
+      fullPath: '/dashboards/$body'
+      preLoaderRoute: typeof DashboardsBodyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/general-assembly': {
+      id: '/dashboards/general-assembly'
+      path: '/dashboards/general-assembly'
+      fullPath: '/dashboards/general-assembly'
+      preLoaderRoute: typeof DashboardsGeneralAssemblyRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/find-the-moment_/$locality': {
       id: '/find-the-moment_/$locality'
@@ -769,6 +1591,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LibraryFoiaRouteImport
       parentRoute: typeof LibraryRoute
     }
+    '/mockups/$slug': {
+      id: '/mockups/$slug'
+      path: '/mockups/$slug'
+      fullPath: '/mockups/$slug'
+      preLoaderRoute: typeof MockupsSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mockups/tips': {
+      id: '/mockups/tips'
+      path: '/mockups/tips'
+      fullPath: '/mockups/tips'
+      preLoaderRoute: typeof MockupsTipsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/cities/$city/': {
       id: '/cities/$city/'
       path: '/'
@@ -811,6 +1647,111 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CountiesLoudounSchoolsRouteImport
       parentRoute: typeof CountiesLoudounRoute
     }
+    '/dashboards/board-of-education/budget': {
+      id: '/dashboards/board-of-education/budget'
+      path: '/dashboards/board-of-education/budget'
+      fullPath: '/dashboards/board-of-education/budget'
+      preLoaderRoute: typeof DashboardsBoardOfEducationBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/board-of-education/find-the-moment': {
+      id: '/dashboards/board-of-education/find-the-moment'
+      path: '/dashboards/board-of-education/find-the-moment'
+      fullPath: '/dashboards/board-of-education/find-the-moment'
+      preLoaderRoute: typeof DashboardsBoardOfEducationFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/board-of-education/members': {
+      id: '/dashboards/board-of-education/members'
+      path: '/dashboards/board-of-education/members'
+      fullPath: '/dashboards/board-of-education/members'
+      preLoaderRoute: typeof DashboardsBoardOfEducationMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/board-of-education/policies': {
+      id: '/dashboards/board-of-education/policies'
+      path: '/dashboards/board-of-education/policies'
+      fullPath: '/dashboards/board-of-education/policies'
+      preLoaderRoute: typeof DashboardsBoardOfEducationPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/board-of-education/recaps': {
+      id: '/dashboards/board-of-education/recaps'
+      path: '/dashboards/board-of-education/recaps'
+      fullPath: '/dashboards/board-of-education/recaps'
+      preLoaderRoute: typeof DashboardsBoardOfEducationRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/house/budget': {
+      id: '/dashboards/house/budget'
+      path: '/dashboards/house/budget'
+      fullPath: '/dashboards/house/budget'
+      preLoaderRoute: typeof DashboardsHouseBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/house/find-the-moment': {
+      id: '/dashboards/house/find-the-moment'
+      path: '/dashboards/house/find-the-moment'
+      fullPath: '/dashboards/house/find-the-moment'
+      preLoaderRoute: typeof DashboardsHouseFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/house/members': {
+      id: '/dashboards/house/members'
+      path: '/dashboards/house/members'
+      fullPath: '/dashboards/house/members'
+      preLoaderRoute: typeof DashboardsHouseMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/house/policies': {
+      id: '/dashboards/house/policies'
+      path: '/dashboards/house/policies'
+      fullPath: '/dashboards/house/policies'
+      preLoaderRoute: typeof DashboardsHousePoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/house/recaps': {
+      id: '/dashboards/house/recaps'
+      path: '/dashboards/house/recaps'
+      fullPath: '/dashboards/house/recaps'
+      preLoaderRoute: typeof DashboardsHouseRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/budget': {
+      id: '/dashboards/senate/budget'
+      path: '/dashboards/senate/budget'
+      fullPath: '/dashboards/senate/budget'
+      preLoaderRoute: typeof DashboardsSenateBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/find-the-moment': {
+      id: '/dashboards/senate/find-the-moment'
+      path: '/dashboards/senate/find-the-moment'
+      fullPath: '/dashboards/senate/find-the-moment'
+      preLoaderRoute: typeof DashboardsSenateFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/members': {
+      id: '/dashboards/senate/members'
+      path: '/dashboards/senate/members'
+      fullPath: '/dashboards/senate/members'
+      preLoaderRoute: typeof DashboardsSenateMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/policies': {
+      id: '/dashboards/senate/policies'
+      path: '/dashboards/senate/policies'
+      fullPath: '/dashboards/senate/policies'
+      preLoaderRoute: typeof DashboardsSenatePoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/recaps': {
+      id: '/dashboards/senate/recaps'
+      path: '/dashboards/senate/recaps'
+      fullPath: '/dashboards/senate/recaps'
+      preLoaderRoute: typeof DashboardsSenateRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/general-assembly/house/': {
       id: '/general-assembly/house/'
       path: '/'
@@ -838,6 +1779,272 @@ declare module '@tanstack/react-router' {
       fullPath: '/counties/loudoun/recaps/$slug'
       preLoaderRoute: typeof CountiesLoudounRecapsSlugRouteImport
       parentRoute: typeof CountiesLoudounRoute
+    }
+    '/dashboards/albemarle/bos/budget': {
+      id: '/dashboards/albemarle/bos/budget'
+      path: '/dashboards/albemarle/bos/budget'
+      fullPath: '/dashboards/albemarle/bos/budget'
+      preLoaderRoute: typeof DashboardsAlbemarleBosBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/bos/find-the-moment': {
+      id: '/dashboards/albemarle/bos/find-the-moment'
+      path: '/dashboards/albemarle/bos/find-the-moment'
+      fullPath: '/dashboards/albemarle/bos/find-the-moment'
+      preLoaderRoute: typeof DashboardsAlbemarleBosFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/bos/members': {
+      id: '/dashboards/albemarle/bos/members'
+      path: '/dashboards/albemarle/bos/members'
+      fullPath: '/dashboards/albemarle/bos/members'
+      preLoaderRoute: typeof DashboardsAlbemarleBosMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/bos/recaps': {
+      id: '/dashboards/albemarle/bos/recaps'
+      path: '/dashboards/albemarle/bos/recaps'
+      fullPath: '/dashboards/albemarle/bos/recaps'
+      preLoaderRoute: typeof DashboardsAlbemarleBosRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/schools/budget': {
+      id: '/dashboards/albemarle/schools/budget'
+      path: '/dashboards/albemarle/schools/budget'
+      fullPath: '/dashboards/albemarle/schools/budget'
+      preLoaderRoute: typeof DashboardsAlbemarleSchoolsBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/schools/find-the-moment': {
+      id: '/dashboards/albemarle/schools/find-the-moment'
+      path: '/dashboards/albemarle/schools/find-the-moment'
+      fullPath: '/dashboards/albemarle/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsAlbemarleSchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/schools/members': {
+      id: '/dashboards/albemarle/schools/members'
+      path: '/dashboards/albemarle/schools/members'
+      fullPath: '/dashboards/albemarle/schools/members'
+      preLoaderRoute: typeof DashboardsAlbemarleSchoolsMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/schools/policies': {
+      id: '/dashboards/albemarle/schools/policies'
+      path: '/dashboards/albemarle/schools/policies'
+      fullPath: '/dashboards/albemarle/schools/policies'
+      preLoaderRoute: typeof DashboardsAlbemarleSchoolsPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/albemarle/schools/recaps': {
+      id: '/dashboards/albemarle/schools/recaps'
+      path: '/dashboards/albemarle/schools/recaps'
+      fullPath: '/dashboards/albemarle/schools/recaps'
+      preLoaderRoute: typeof DashboardsAlbemarleSchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/council/budget': {
+      id: '/dashboards/fairfax-city/council/budget'
+      path: '/dashboards/fairfax-city/council/budget'
+      fullPath: '/dashboards/fairfax-city/council/budget'
+      preLoaderRoute: typeof DashboardsFairfaxCityCouncilBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/council/find-the-moment': {
+      id: '/dashboards/fairfax-city/council/find-the-moment'
+      path: '/dashboards/fairfax-city/council/find-the-moment'
+      fullPath: '/dashboards/fairfax-city/council/find-the-moment'
+      preLoaderRoute: typeof DashboardsFairfaxCityCouncilFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/council/members': {
+      id: '/dashboards/fairfax-city/council/members'
+      path: '/dashboards/fairfax-city/council/members'
+      fullPath: '/dashboards/fairfax-city/council/members'
+      preLoaderRoute: typeof DashboardsFairfaxCityCouncilMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/council/recaps': {
+      id: '/dashboards/fairfax-city/council/recaps'
+      path: '/dashboards/fairfax-city/council/recaps'
+      fullPath: '/dashboards/fairfax-city/council/recaps'
+      preLoaderRoute: typeof DashboardsFairfaxCityCouncilRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/schools/budget': {
+      id: '/dashboards/fairfax-city/schools/budget'
+      path: '/dashboards/fairfax-city/schools/budget'
+      fullPath: '/dashboards/fairfax-city/schools/budget'
+      preLoaderRoute: typeof DashboardsFairfaxCitySchoolsBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/schools/find-the-moment': {
+      id: '/dashboards/fairfax-city/schools/find-the-moment'
+      path: '/dashboards/fairfax-city/schools/find-the-moment'
+      fullPath: '/dashboards/fairfax-city/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsFairfaxCitySchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/schools/members': {
+      id: '/dashboards/fairfax-city/schools/members'
+      path: '/dashboards/fairfax-city/schools/members'
+      fullPath: '/dashboards/fairfax-city/schools/members'
+      preLoaderRoute: typeof DashboardsFairfaxCitySchoolsMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/schools/policies': {
+      id: '/dashboards/fairfax-city/schools/policies'
+      path: '/dashboards/fairfax-city/schools/policies'
+      fullPath: '/dashboards/fairfax-city/schools/policies'
+      preLoaderRoute: typeof DashboardsFairfaxCitySchoolsPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-city/schools/recaps': {
+      id: '/dashboards/fairfax-city/schools/recaps'
+      path: '/dashboards/fairfax-city/schools/recaps'
+      fullPath: '/dashboards/fairfax-city/schools/recaps'
+      preLoaderRoute: typeof DashboardsFairfaxCitySchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/house/members_/$slug': {
+      id: '/dashboards/house/members_/$slug'
+      path: '/dashboards/house/members/$slug'
+      fullPath: '/dashboards/house/members/$slug'
+      preLoaderRoute: typeof DashboardsHouseMembersSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/loudoun/bos/budget': {
+      id: '/dashboards/loudoun/bos/budget'
+      path: '/dashboards/loudoun/bos/budget'
+      fullPath: '/dashboards/loudoun/bos/budget'
+      preLoaderRoute: typeof DashboardsLoudounBosBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/loudoun/bos/find-the-moment': {
+      id: '/dashboards/loudoun/bos/find-the-moment'
+      path: '/dashboards/loudoun/bos/find-the-moment'
+      fullPath: '/dashboards/loudoun/bos/find-the-moment'
+      preLoaderRoute: typeof DashboardsLoudounBosFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/loudoun/bos/members': {
+      id: '/dashboards/loudoun/bos/members'
+      path: '/dashboards/loudoun/bos/members'
+      fullPath: '/dashboards/loudoun/bos/members'
+      preLoaderRoute: typeof DashboardsLoudounBosMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/loudoun/bos/recaps': {
+      id: '/dashboards/loudoun/bos/recaps'
+      path: '/dashboards/loudoun/bos/recaps'
+      fullPath: '/dashboards/loudoun/bos/recaps'
+      preLoaderRoute: typeof DashboardsLoudounBosRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/loudoun/schools/budget': {
+      id: '/dashboards/loudoun/schools/budget'
+      path: '/dashboards/loudoun/schools/budget'
+      fullPath: '/dashboards/loudoun/schools/budget'
+      preLoaderRoute: typeof DashboardsLoudounSchoolsBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/loudoun/schools/find-the-moment': {
+      id: '/dashboards/loudoun/schools/find-the-moment'
+      path: '/dashboards/loudoun/schools/find-the-moment'
+      fullPath: '/dashboards/loudoun/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsLoudounSchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/loudoun/schools/members': {
+      id: '/dashboards/loudoun/schools/members'
+      path: '/dashboards/loudoun/schools/members'
+      fullPath: '/dashboards/loudoun/schools/members'
+      preLoaderRoute: typeof DashboardsLoudounSchoolsMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/loudoun/schools/policies': {
+      id: '/dashboards/loudoun/schools/policies'
+      path: '/dashboards/loudoun/schools/policies'
+      fullPath: '/dashboards/loudoun/schools/policies'
+      preLoaderRoute: typeof DashboardsLoudounSchoolsPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/loudoun/schools/recaps': {
+      id: '/dashboards/loudoun/schools/recaps'
+      path: '/dashboards/loudoun/schools/recaps'
+      fullPath: '/dashboards/loudoun/schools/recaps'
+      preLoaderRoute: typeof DashboardsLoudounSchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/council/budget': {
+      id: '/dashboards/manassas/council/budget'
+      path: '/dashboards/manassas/council/budget'
+      fullPath: '/dashboards/manassas/council/budget'
+      preLoaderRoute: typeof DashboardsManassasCouncilBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/council/find-the-moment': {
+      id: '/dashboards/manassas/council/find-the-moment'
+      path: '/dashboards/manassas/council/find-the-moment'
+      fullPath: '/dashboards/manassas/council/find-the-moment'
+      preLoaderRoute: typeof DashboardsManassasCouncilFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/council/members': {
+      id: '/dashboards/manassas/council/members'
+      path: '/dashboards/manassas/council/members'
+      fullPath: '/dashboards/manassas/council/members'
+      preLoaderRoute: typeof DashboardsManassasCouncilMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/council/recaps': {
+      id: '/dashboards/manassas/council/recaps'
+      path: '/dashboards/manassas/council/recaps'
+      fullPath: '/dashboards/manassas/council/recaps'
+      preLoaderRoute: typeof DashboardsManassasCouncilRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/schools/budget': {
+      id: '/dashboards/manassas/schools/budget'
+      path: '/dashboards/manassas/schools/budget'
+      fullPath: '/dashboards/manassas/schools/budget'
+      preLoaderRoute: typeof DashboardsManassasSchoolsBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/schools/find-the-moment': {
+      id: '/dashboards/manassas/schools/find-the-moment'
+      path: '/dashboards/manassas/schools/find-the-moment'
+      fullPath: '/dashboards/manassas/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsManassasSchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/schools/members': {
+      id: '/dashboards/manassas/schools/members'
+      path: '/dashboards/manassas/schools/members'
+      fullPath: '/dashboards/manassas/schools/members'
+      preLoaderRoute: typeof DashboardsManassasSchoolsMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/schools/policies': {
+      id: '/dashboards/manassas/schools/policies'
+      path: '/dashboards/manassas/schools/policies'
+      fullPath: '/dashboards/manassas/schools/policies'
+      preLoaderRoute: typeof DashboardsManassasSchoolsPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/manassas/schools/recaps': {
+      id: '/dashboards/manassas/schools/recaps'
+      path: '/dashboards/manassas/schools/recaps'
+      fullPath: '/dashboards/manassas/schools/recaps'
+      preLoaderRoute: typeof DashboardsManassasSchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/senate/members_/$slug': {
+      id: '/dashboards/senate/members_/$slug'
+      path: '/dashboards/senate/members/$slug'
+      fullPath: '/dashboards/senate/members/$slug'
+      preLoaderRoute: typeof DashboardsSenateMembersSlugRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/general-assembly/house/recaps/$slug': {
       id: '/general-assembly/house/recaps/$slug'
@@ -1021,8 +2228,87 @@ const rootRouteChildren: RootRouteChildren = {
   NewsRoute: NewsRoute,
   NovaBriefingRoute: NovaBriefingRoute,
   SenatorsRoute: SenatorsRoute,
+  TipsRoute: TipsRoute,
   VideosRoute: VideosRoute,
+  DashboardsBodyRoute: DashboardsBodyRoute,
+  DashboardsGeneralAssemblyRoute: DashboardsGeneralAssemblyRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
+  MockupsSlugRoute: MockupsSlugRoute,
+  MockupsTipsRoute: MockupsTipsRoute,
+  DashboardsBoardOfEducationBudgetRoute: DashboardsBoardOfEducationBudgetRoute,
+  DashboardsBoardOfEducationFindTheMomentRoute:
+    DashboardsBoardOfEducationFindTheMomentRoute,
+  DashboardsBoardOfEducationMembersRoute:
+    DashboardsBoardOfEducationMembersRoute,
+  DashboardsBoardOfEducationPoliciesRoute:
+    DashboardsBoardOfEducationPoliciesRoute,
+  DashboardsBoardOfEducationRecapsRoute: DashboardsBoardOfEducationRecapsRoute,
+  DashboardsHouseBudgetRoute: DashboardsHouseBudgetRoute,
+  DashboardsHouseFindTheMomentRoute: DashboardsHouseFindTheMomentRoute,
+  DashboardsHouseMembersRoute: DashboardsHouseMembersRoute,
+  DashboardsHousePoliciesRoute: DashboardsHousePoliciesRoute,
+  DashboardsHouseRecapsRoute: DashboardsHouseRecapsRoute,
+  DashboardsSenateBudgetRoute: DashboardsSenateBudgetRoute,
+  DashboardsSenateFindTheMomentRoute: DashboardsSenateFindTheMomentRoute,
+  DashboardsSenateMembersRoute: DashboardsSenateMembersRoute,
+  DashboardsSenatePoliciesRoute: DashboardsSenatePoliciesRoute,
+  DashboardsSenateRecapsRoute: DashboardsSenateRecapsRoute,
+  DashboardsAlbemarleBosBudgetRoute: DashboardsAlbemarleBosBudgetRoute,
+  DashboardsAlbemarleBosFindTheMomentRoute:
+    DashboardsAlbemarleBosFindTheMomentRoute,
+  DashboardsAlbemarleBosMembersRoute: DashboardsAlbemarleBosMembersRoute,
+  DashboardsAlbemarleBosRecapsRoute: DashboardsAlbemarleBosRecapsRoute,
+  DashboardsAlbemarleSchoolsBudgetRoute: DashboardsAlbemarleSchoolsBudgetRoute,
+  DashboardsAlbemarleSchoolsFindTheMomentRoute:
+    DashboardsAlbemarleSchoolsFindTheMomentRoute,
+  DashboardsAlbemarleSchoolsMembersRoute:
+    DashboardsAlbemarleSchoolsMembersRoute,
+  DashboardsAlbemarleSchoolsPoliciesRoute:
+    DashboardsAlbemarleSchoolsPoliciesRoute,
+  DashboardsAlbemarleSchoolsRecapsRoute: DashboardsAlbemarleSchoolsRecapsRoute,
+  DashboardsFairfaxCityCouncilBudgetRoute:
+    DashboardsFairfaxCityCouncilBudgetRoute,
+  DashboardsFairfaxCityCouncilFindTheMomentRoute:
+    DashboardsFairfaxCityCouncilFindTheMomentRoute,
+  DashboardsFairfaxCityCouncilMembersRoute:
+    DashboardsFairfaxCityCouncilMembersRoute,
+  DashboardsFairfaxCityCouncilRecapsRoute:
+    DashboardsFairfaxCityCouncilRecapsRoute,
+  DashboardsFairfaxCitySchoolsBudgetRoute:
+    DashboardsFairfaxCitySchoolsBudgetRoute,
+  DashboardsFairfaxCitySchoolsFindTheMomentRoute:
+    DashboardsFairfaxCitySchoolsFindTheMomentRoute,
+  DashboardsFairfaxCitySchoolsMembersRoute:
+    DashboardsFairfaxCitySchoolsMembersRoute,
+  DashboardsFairfaxCitySchoolsPoliciesRoute:
+    DashboardsFairfaxCitySchoolsPoliciesRoute,
+  DashboardsFairfaxCitySchoolsRecapsRoute:
+    DashboardsFairfaxCitySchoolsRecapsRoute,
+  DashboardsHouseMembersSlugRoute: DashboardsHouseMembersSlugRoute,
+  DashboardsLoudounBosBudgetRoute: DashboardsLoudounBosBudgetRoute,
+  DashboardsLoudounBosFindTheMomentRoute:
+    DashboardsLoudounBosFindTheMomentRoute,
+  DashboardsLoudounBosMembersRoute: DashboardsLoudounBosMembersRoute,
+  DashboardsLoudounBosRecapsRoute: DashboardsLoudounBosRecapsRoute,
+  DashboardsLoudounSchoolsBudgetRoute: DashboardsLoudounSchoolsBudgetRoute,
+  DashboardsLoudounSchoolsFindTheMomentRoute:
+    DashboardsLoudounSchoolsFindTheMomentRoute,
+  DashboardsLoudounSchoolsMembersRoute: DashboardsLoudounSchoolsMembersRoute,
+  DashboardsLoudounSchoolsPoliciesRoute: DashboardsLoudounSchoolsPoliciesRoute,
+  DashboardsLoudounSchoolsRecapsRoute: DashboardsLoudounSchoolsRecapsRoute,
+  DashboardsManassasCouncilBudgetRoute: DashboardsManassasCouncilBudgetRoute,
+  DashboardsManassasCouncilFindTheMomentRoute:
+    DashboardsManassasCouncilFindTheMomentRoute,
+  DashboardsManassasCouncilMembersRoute: DashboardsManassasCouncilMembersRoute,
+  DashboardsManassasCouncilRecapsRoute: DashboardsManassasCouncilRecapsRoute,
+  DashboardsManassasSchoolsBudgetRoute: DashboardsManassasSchoolsBudgetRoute,
+  DashboardsManassasSchoolsFindTheMomentRoute:
+    DashboardsManassasSchoolsFindTheMomentRoute,
+  DashboardsManassasSchoolsMembersRoute: DashboardsManassasSchoolsMembersRoute,
+  DashboardsManassasSchoolsPoliciesRoute:
+    DashboardsManassasSchoolsPoliciesRoute,
+  DashboardsManassasSchoolsRecapsRoute: DashboardsManassasSchoolsRecapsRoute,
+  DashboardsSenateMembersSlugRoute: DashboardsSenateMembersSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
