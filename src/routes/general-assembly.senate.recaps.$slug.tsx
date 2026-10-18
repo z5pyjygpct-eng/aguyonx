@@ -5,6 +5,7 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { V4Main } from "@/components/site/lcps-v4";
 import { Kicker } from "@/components/site/kicker";
+import { GaRecapMoments, ShareVideo, recapMoments, stripWeekday } from "@/components/site/ga-recap-share";
 import { FTM_TRANSCRIPT_LABEL, ftmTranscriptFor } from "@/content/ftm-transcripts";
 import {
   LIS_SENATE_MINUTES,
@@ -137,6 +138,8 @@ function RecapPage() {
     };
   }, [recap.votesUrl]);
   const transcribed = meetings.filter((m) => ftmTranscriptFor(m.id));
+  const recapUrl = `https://aguyonx.com/general-assembly/senate/recaps/${recap.slug}`;
+  const moments = recapMoments(recap);
 
   return (
     <SiteShell>
@@ -209,7 +212,8 @@ function RecapPage() {
                 <Kicker className="text-gold">Watch</Kicker>
                 <ul className="mt-3 space-y-2">
                   {meetings.map((m) => (
-                    <li key={m.id} className="flex items-center gap-2 text-sm">
+                    <li key={m.id} className="text-sm">
+                      <p className="flex flex-wrap items-center gap-2">
                       <a
                         href={senateVideoUrl(m)}
                         target="_blank"
@@ -221,6 +225,14 @@ function RecapPage() {
                       </a>
                       {m.title} · {m.duration}
                       <ExternalLink className="size-3 text-muted-foreground" aria-hidden />
+                      </p>
+                      <span className="mt-1.5 block">
+                        <ShareVideo
+                          videoUrl={senateVideoUrl(m)}
+                          recapUrl={recapUrl}
+                          text={`Virginia Senate floor session, ${stripWeekday(recap.dateLabel)}`}
+                        />
+                      </span>
                     </li>
                   ))}
                 </ul>
@@ -231,6 +243,7 @@ function RecapPage() {
               </div>
               <div className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 px-4 py-5 sm:px-6">
                 <Kicker className="text-gold">Moments worth watching</Kicker>
+                <GaRecapMoments moments={moments} recapUrl={recapUrl} context={`Virginia Senate floor session, ${stripWeekday(recap.dateLabel)}`} />
                 {transcribed.length ? (
                   <p className="mt-3 text-sm">
                     Search every spoken word in{" "}
