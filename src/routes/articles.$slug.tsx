@@ -1,7 +1,5 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { SiteShell } from "@/components/site/shell";
-import { Button } from "@/components/ui/button";
-import { StoryPage } from "@/components/story/story-page";
+import { createFileRoute, notFound } from "@tanstack/react-router";
+import { StoryMissing, StoryPage } from "@/components/story/story-page";
 import { articleBySlug } from "@/content/articles";
 
 export const Route = createFileRoute("/articles/$slug")({
@@ -20,14 +18,5 @@ function ArticlePage() {
 }
 
 function Missing() {
-  return (
-    <SiteShell>
-      <main className="mx-auto max-w-xl px-4 py-24 text-center">
-        <h1 className="font-serif text-3xl font-medium">Not in the folder</h1>
-        <Button asChild className="mt-8">
-          <Link to="/articles">Back to articles</Link>
-        </Button>
-      </main>
-    </SiteShell>
-  );
+  return <StoryMissing to="/articles" label="Back to articles" />;
 }

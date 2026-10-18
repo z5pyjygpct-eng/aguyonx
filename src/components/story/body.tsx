@@ -1,6 +1,21 @@
 import type { BodyBlock, Citation, SourceDoc } from "@/content/types";
 import { HearingsChart } from "@/components/story/hearings-chart";
 import { XPost } from "@/components/story/x-post";
+import type { CSSProperties } from "react";
+
+/** The site's light :root tokens, re-applied inside the v4 navy frame for light-only embeds. */
+const LIGHT_VARS = {
+  "--color-background": "#f6f3ea",
+  "--color-foreground": "#0b1a33",
+  "--color-card": "#ffffff",
+  "--color-card-foreground": "#0b1a33",
+  "--color-muted-foreground": "#4a5873",
+  "--color-border": "#e3dccb",
+  "--color-forest": "#1e4b8e",
+  "--color-wash": "#ede8db",
+  "--color-popover": "#ffffff",
+  "--color-popover-foreground": "#0b1a33",
+} as CSSProperties;
 
 export function StoryBody({
   blocks,
@@ -22,7 +37,7 @@ function Block({ block, citations }: { block: BodyBlock; citations: Citation[] }
   switch (block.type) {
     case "p":
       return (
-        <p className="text-base leading-relaxed">
+        <p className="text-[1.0625rem] leading-[1.75] text-[#F6F3EA] sm:text-lg">
           {block.text}
           {block.cites?.map((id) => {
             const n = citations.findIndex((c) => c.id === id) + 1;
@@ -30,7 +45,7 @@ function Block({ block, citations }: { block: BodyBlock; citations: Citation[] }
               <a
                 key={id}
                 href={`#cite-${id}`}
-                className="ml-0.5 font-mono text-xs text-muted-foreground no-underline hover:text-foreground"
+                className="ml-0.5 align-super font-mono text-xs font-semibold text-gold no-underline hover:text-gold-hover hover:underline"
               >
                 [{n}]
               </a>
@@ -39,13 +54,13 @@ function Block({ block, citations }: { block: BodyBlock; citations: Citation[] }
         </p>
       );
     case "h2":
-      return <h2 className="pt-4 font-serif text-2xl font-medium">{block.text}</h2>;
+      return <h2 className="pt-6 font-serif text-2xl leading-tight font-bold text-gold uppercase tracking-wide sm:text-3xl">{block.text}</h2>;
     case "quote":
       return (
-        <blockquote className="border-l-2 border-forest pl-5">
-          <p className="font-serif text-xl leading-snug italic">{block.text}</p>
+        <blockquote className="rounded-r-lg border-l-4 border-gold bg-navy-700/60 py-4 pr-5 pl-5">
+          <p className="font-serif text-xl leading-snug text-white italic">{block.text}</p>
           {block.attrib ? (
-            <footer className="mt-2 font-mono text-xs tracking-widest text-muted-foreground uppercase">
+            <footer className="mt-2 font-mono text-xs tracking-widest text-gold uppercase">
               {block.attrib}
             </footer>
           ) : null}
@@ -57,10 +72,10 @@ function Block({ block, citations }: { block: BodyBlock; citations: Citation[] }
           <img
             src={block.src}
             alt={block.alt}
-            className="aspect-video w-full object-cover outline outline-1 -outline-offset-1 outline-foreground/10"
+            className="aspect-video w-full rounded-lg object-cover ring-1 ring-navy-line"
           />
           {block.caption ? (
-            <figcaption className="mt-2 text-sm text-muted-foreground">{block.caption}</figcaption>
+            <figcaption className="mt-2 text-sm text-on-dark-muted">{block.caption}</figcaption>
           ) : null}
         </figure>
       );
@@ -75,14 +90,19 @@ function Block({ block, citations }: { block: BodyBlock; citations: Citation[] }
         />
       );
     case "chart":
-      return <HearingsChart />;
+      // Chart colors are tuned for the light theme: restore light tokens on a light card so data colors stay the same.
+      return (
+        <div className="rounded-lg bg-white text-[#0b1a33]" style={LIGHT_VARS}>
+          <HearingsChart />
+        </div>
+      );
     case "callout":
       return (
-        <aside className="border border-border bg-wash px-5 py-4">
-          <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+        <aside className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 px-5 py-4">
+          <p className="font-mono text-xs font-bold tracking-widest text-gold uppercase">
             {block.title}
           </p>
-          <p className="mt-2 text-sm leading-relaxed">{block.text}</p>
+          <p className="mt-2 text-base leading-relaxed text-[#F6F3EA]">{block.text}</p>
         </aside>
       );
     default:
@@ -93,22 +113,22 @@ function Block({ block, citations }: { block: BodyBlock; citations: Citation[] }
 export function Citations({ items }: { items: Citation[] }) {
   if (items.length === 0) return null;
   return (
-    <section className="mt-14 border-t border-border pt-8">
-      <h2 className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+    <section className="mt-10 rounded-xl border border-navy-line bg-navy-900/60 p-5 sm:p-6">
+      <h2 className="font-mono text-xs font-bold tracking-widest text-gold uppercase">
         Citations
       </h2>
       <ol className="mt-4 space-y-3">
         {items.map((c, i) => (
-          <li id={`cite-${c.id}`} key={c.id} className="text-sm leading-relaxed">
-            <span className="font-mono text-xs text-muted-foreground">{i + 1}. </span>
+          <li id={`cite-${c.id}`} key={c.id} className="scroll-mt-24 text-sm leading-relaxed text-[#F6F3EA] target:rounded target:bg-gold/15">
+            <span className="font-mono text-xs text-gold">{i + 1}. </span>
             {c.href ? (
-              <a href={c.href} target="_blank" rel="noreferrer" className="underline-offset-4 hover:underline">
+              <a href={c.href} target="_blank" rel="noreferrer" className="text-white underline decoration-gold/60 underline-offset-4 hover:text-gold">
                 {c.label}
               </a>
             ) : (
               c.label
             )}
-            {c.note ? <span className="text-muted-foreground"> — {c.note}</span> : null}
+            {c.note ? <span className="text-on-dark-muted"> — {c.note}</span> : null}
           </li>
         ))}
       </ol>
@@ -119,11 +139,11 @@ export function Citations({ items }: { items: Citation[] }) {
 export function SourceDocs({ items }: { items: SourceDoc[] }) {
   if (items.length === 0) return null;
   return (
-    <section className="mt-10 border-t border-border pt-8">
-      <h2 className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+    <section className="mt-12 rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-6">
+      <h2 className="font-mono text-xs font-bold tracking-widest text-gold uppercase">
         Source documents
       </h2>
-      <ul className="mt-4 divide-y divide-border border-y border-border">
+      <ul className="mt-4 divide-y divide-navy-line border-y border-navy-line">
         {items.map((d) => (
           <li key={d.id}>
             <a
@@ -131,10 +151,10 @@ export function SourceDocs({ items }: { items: SourceDoc[] }) {
               download={d.kind !== "link"}
               target={d.kind === "link" ? "_blank" : undefined}
               rel={d.kind === "link" ? "noreferrer" : undefined}
-              className="flex min-h-12 items-center justify-between gap-4 py-3 text-sm hover:underline"
+              className="flex min-h-12 items-center justify-between gap-4 py-3 text-sm text-white hover:text-gold hover:underline"
             >
-              <span>{d.title}</span>
-              <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+              <span className="min-w-0 break-words">{d.title}</span>
+              <span className="shrink-0 rounded border border-gold/60 px-1.5 py-0.5 font-mono text-xs tracking-widest text-gold uppercase">
                 {d.kind}
               </span>
             </a>

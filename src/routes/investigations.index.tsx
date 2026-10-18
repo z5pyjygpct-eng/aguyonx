@@ -1,8 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowRight } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
-import { Kicker } from "@/components/site/kicker";
-import { Badge } from "@/components/ui/badge";
+import { V4Main } from "@/components/site/lcps-v4";
+import { STORY_TILE, StoryHero, StoryMeta } from "@/components/story/story-page";
 import { INVESTIGATIONS } from "@/content/investigations";
 
 export const Route = createFileRoute("/investigations/")({ component: InvestigationsIndex });
@@ -10,45 +11,36 @@ export const Route = createFileRoute("/investigations/")({ component: Investigat
 function InvestigationsIndex() {
   return (
     <SiteShell>
-      <HomeSearch />
-      <main className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
-        <Kicker>The file</Kicker>
-        <h1 className="mt-3 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          Investigations
-        </h1>
-        <p className="mt-4 max-w-2xl text-muted-foreground">
+      <V4Main>
+        <HomeSearch />
+        <StoryHero kicker="The file" title="Investigations">
           Long-form research with citations, source documents, and the public trail. Method first.
-        </p>
-        {INVESTIGATIONS.length === 0 ? (
-          <p className="mt-10 text-muted-foreground">Nothing on this shelf yet.</p>
-        ) : (
-        <ul className="mt-10 divide-y divide-border border-y border-border">
-          {INVESTIGATIONS.map((a) => (
-            <li key={a.slug}>
-              <Link
-                to="/investigations/$slug"
-                params={{ slug: a.slug }}
-                className="grid gap-6 py-8 transition-[background-color] duration-150 hover:bg-wash sm:grid-cols-12 sm:items-center"
-              >
-                <img
-                  src={a.image}
-                  alt={a.imageAlt}
-                  className="w-full outline outline-1 -outline-offset-1 outline-foreground/10 sm:col-span-4"
-                />
-                <div className="sm:col-span-8">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <Badge>{a.kicker}</Badge>
-                    <span className="font-mono text-xs text-muted-foreground">{a.displayDate}</span>
-                  </div>
-                  <h2 className="mt-3 font-serif text-2xl font-medium">{a.title}</h2>
-                  <p className="mt-2 text-sm text-muted-foreground">{a.dek}</p>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-        )}
-      </main>
+        </StoryHero>
+        <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-8 sm:py-12">
+          {INVESTIGATIONS.length === 0 ? (
+            <p className="text-on-dark-muted">Nothing on this shelf yet.</p>
+          ) : (
+            <ul className="grid gap-4">
+              {INVESTIGATIONS.map((a) => (
+                <li key={a.slug}>
+                  <Link to="/investigations/$slug" params={{ slug: a.slug }} className={STORY_TILE}>
+                    <ArrowRight className="absolute top-4 right-4 size-5 text-gold transition-transform group-hover:translate-x-0.5" aria-hidden />
+                    {/* Investigation covers are light chart/document graphics: keep them on a light card. */}
+                    <div className="rounded-md bg-white p-1.5 sm:col-span-4">
+                      <img src={a.image} alt={a.imageAlt} className="w-full" />
+                    </div>
+                    <div className="min-w-0 sm:col-span-8">
+                      <StoryMeta kicker={a.kicker} date={a.displayDate} />
+                      <h2 className="mt-3 font-serif text-2xl font-bold leading-tight sm:text-[1.7rem]">{a.title}</h2>
+                      <p className="mt-2 text-sm leading-relaxed text-on-dark-muted sm:text-base">{a.dek}</p>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </V4Main>
     </SiteShell>
   );
 }
