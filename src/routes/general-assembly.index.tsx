@@ -18,7 +18,7 @@ function GeneralAssemblyIndex() {
     <SiteShell>
       <LegacyV4>
       <HomeSearch />
-      <LegacyHero kicker="Virginia" title="General Assembly">
+      <LegacyHero trail={[{ label: "General Assembly" }]} kicker="Virginia" title="General Assembly">
         <p className="text-lg">
           Floor sessions of the Virginia legislature: search what was said, jump to the official
           video, and see how each member voted from the official record.

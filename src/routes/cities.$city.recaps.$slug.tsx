@@ -16,6 +16,7 @@ import {
 import { CITY_RECAP_BY_SLUG, type CityRecap } from "@/content/city-recaps";
 import type { RecapLink } from "@/content/loudoun-recaps";
 import { FTM_TRANSCRIPT_LABEL, ftmTranscriptFor } from "@/content/ftm-transcripts";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 export const Route = createFileRoute("/cities/$city/recaps/$slug")({
   component: RecapPage,
@@ -76,21 +77,13 @@ function RecapPage() {
       <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
         <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
         <div className="mx-auto max-w-6xl px-5 pt-6 pb-10 sm:px-8">
-            <p className="font-mono text-xs tracking-widest text-night-muted uppercase">
-              <Link to="/cities" className="hover:text-white hover:underline">
-                VA Cities
-              </Link>
-              <span className="mx-2 text-gold">/</span>
-              <Link
-                to={v.route}
-                params={{ city: v.city }}
-                className="hover:text-white hover:underline"
-              >
-                {v.name}
-              </Link>
-              <span className="mx-2 text-gold">/</span>
-              Meeting recap
-            </p>
+            <Breadcrumbs
+              items={[
+                { label: "VA Cities", to: "/cities" },
+                { label: v.name, to: v.route, params: { city: v.city } },
+                { label: "Meeting recap" },
+              ]}
+            />
             <Kicker className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold sm:text-base">{kicker}</Kicker>
             <h1 className="mt-2 font-serif text-3xl font-bold uppercase leading-[1.08] sm:text-5xl">
               {recap.title}, {recap.dateLabel}

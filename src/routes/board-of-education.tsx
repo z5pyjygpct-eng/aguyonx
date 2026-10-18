@@ -31,7 +31,7 @@ function VboePage() {
     <SiteShell location="Virginia">
       <LegacyV4>
       <HomeSearch />
-      <LegacyHero kicker="Virginia · Statewide" title="Virginia Board of Education">
+      <LegacyHero trail={[{ label: "Virginia Board of Education" }]} kicker="Virginia · Statewide" title="Virginia Board of Education">
         <p className="text-lg">
           Find the Moment: search what the state Board of Education said in its work sessions and
           business meetings, and jump straight to the official VDOE video.

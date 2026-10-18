@@ -12,7 +12,7 @@ function SenatorsPage() {
     <SiteShell>
       <LegacyV4>
         <HomeSearch />
-        <LegacyHero
+        <LegacyHero trail={[{ label: "VA Senators" }]}
           kicker={
             <>
               <p>Virginia</p>

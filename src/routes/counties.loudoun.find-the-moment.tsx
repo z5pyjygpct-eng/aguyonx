@@ -16,19 +16,7 @@ function LoudounFindTheMomentPage() {
       <LegacyV4>
       <HomeSearch />
       <LegacyHero
-        crumbs={
-        <p>
-          <Link to="/counties" className="hover:text-foreground hover:underline">
-            VA Counties
-          </Link>
-          <span className="mx-2 text-border">/</span>
-          <Link to="/counties/loudoun" className="hover:text-foreground hover:underline">
-            Loudoun
-          </Link>
-          <span className="mx-2 text-border">/</span>
-          Find the Moment
-        </p>
-        }
+        trail={[{ label: "VA Counties", to: "/counties" }, { label: "Loudoun", to: "/counties/loudoun" }, { label: "Find the Moment" }]}
         kicker="Virginia · Northern Virginia"
         title="Search County + Schools together"
       >

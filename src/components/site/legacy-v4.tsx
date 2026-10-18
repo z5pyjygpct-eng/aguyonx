@@ -1,6 +1,7 @@
 /** v4 frame for the legacy venue doors, rosters and indexes (preview): navy V4Main + flag-bar hero. Look only. */
 import type { ReactNode } from "react";
 import { V4Main } from "@/components/site/lcps-v4";
+import { Breadcrumbs, type Crumb } from "@/components/site/breadcrumbs";
 
 export function LegacyV4({ children }: { children: ReactNode }) {
   return (
@@ -10,13 +11,13 @@ export function LegacyV4({ children }: { children: ReactNode }) {
   );
 }
 
-/** Hero band: optional breadcrumb row, gold kicker(s), uppercase h1, then any lead copy as children. */
-export function LegacyHero({ crumbs, kicker, title, children, width = "max-w-5xl" }: { crumbs?: ReactNode; kicker?: ReactNode; title: ReactNode; children?: ReactNode; width?: string }) {
+/** Hero band: shared breadcrumb trail (Home is added), gold kicker(s), uppercase h1, then any lead copy as children. */
+export function LegacyHero({ trail, kicker, title, children, width = "max-w-5xl" }: { trail: Crumb[]; kicker?: ReactNode; title: ReactNode; children?: ReactNode; width?: string }) {
   return (
     <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
       <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
       <div className={`mx-auto w-full ${width} px-5 pt-7 pb-10 sm:px-8`}>
-        {crumbs ? <div className="mb-5 font-mono text-xs tracking-widest text-night-muted uppercase [&_a:hover]:text-white [&_a]:text-night-muted [&_.text-border]:text-gold">{crumbs}</div> : null}
+        <Breadcrumbs items={trail} className="mb-6" />
         {kicker ? <div className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase sm:text-base [&_p]:text-gold">{kicker}</div> : null}
         <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] break-words sm:text-6xl">{title}</h1>
         {children ? <div className="mt-4 max-w-2xl space-y-3 text-[#F6F3EA] [&_.text-muted-foreground]:text-[#F6F3EA] [&_.text-foreground]:text-white">{children}</div> : null}

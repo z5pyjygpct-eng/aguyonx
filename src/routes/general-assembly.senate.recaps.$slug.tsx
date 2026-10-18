@@ -16,6 +16,7 @@ import {
   type SenateRecapIndex,
   type SenateRollCall,
 } from "@/content/va-senate";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 export const Route = createFileRoute("/general-assembly/senate/recaps/$slug")({
   component: RecapPage,
@@ -33,6 +34,7 @@ export const Route = createFileRoute("/general-assembly/senate/recaps/$slug")({
     <SiteShell>
       <V4Main>
         <div className="mx-auto max-w-xl px-4 py-24 text-center">
+        <Breadcrumbs items={[{ label: "General Assembly", to: "/general-assembly" }, { label: "Senate", to: "/general-assembly/senate" }, { label: "Recap not found" }]} className="mb-8 [&_ol]:justify-center" />
         <h1 className="font-serif text-3xl font-medium">Not found</h1>
         <p className="mt-4">
           <Link
@@ -148,17 +150,13 @@ function RecapPage() {
       <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
         <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
         <div className="mx-auto max-w-6xl px-5 pt-6 pb-10 sm:px-8">
-            <p className="font-mono text-xs tracking-widest text-night-muted uppercase">
-              <Link to="/general-assembly" className="hover:text-white hover:underline">
-                General Assembly
-              </Link>
-              <span className="mx-2 text-gold">/</span>
-              <Link to="/general-assembly/senate" className="hover:text-white hover:underline">
-                Senate
-              </Link>
-              <span className="mx-2 text-gold">/</span>
-              Meeting recap
-            </p>
+            <Breadcrumbs
+              items={[
+                { label: "General Assembly", to: "/general-assembly" },
+                { label: "Senate", to: "/general-assembly/senate" },
+                { label: "Meeting recap" },
+              ]}
+            />
             <Kicker className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold sm:text-base">Senate of Virginia · Floor session</Kicker>
             <h1 className="mt-2 font-serif text-3xl font-bold uppercase leading-[1.08] sm:text-5xl">
               Senate Floor Session, {recap.dateLabel}

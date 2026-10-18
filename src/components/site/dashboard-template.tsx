@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, BookOpen, DollarSign, ExternalLink, List, Mail, Play, Users } from "lucide-react";
 import type { Dashboard, DashTile } from "@/lib/dashboards";
 import { HeroSearch } from "@/components/site/hero-search";
+import { Breadcrumbs, colId } from "@/components/site/breadcrumbs";
 
 const ICON = { play: Play, list: List, money: DollarSign, people: Users, book: BookOpen } as const;
 
@@ -41,13 +42,27 @@ export function DashboardTemplate({ d, plain = false }: { d: Dashboard; plain?: 
       <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
         <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
         <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8 lg:pb-12">
-          <nav aria-label="Breadcrumb" className="text-sm text-night-muted">
-            <Link to="/" className="hover:text-white">Home</Link>
-            <span className="mx-2 text-gold">›</span>
-            {d.group === "local" ? <span>Virginia localities</span> : d.slug === "board-of-education" ? <span>Virginia Department of Education</span> : <Link to="/dashboards/general-assembly" className="hover:text-white">General Assembly</Link>}
-            <span className="mx-2 text-gold">›</span>
-            <span className="font-semibold text-white">{d.short}</span>
-          </nav>
+          {plain ? (
+            // Locked GA dashboard (tag ga-dashboard-locked): original breadcrumb markup, unchanged.
+            <nav aria-label="Breadcrumb" className="text-sm text-night-muted">
+              <Link to="/" className="hover:text-white">Home</Link>
+              <span className="mx-2 text-gold">›</span>
+              {d.group === "local" ? <span>Virginia localities</span> : d.slug === "board-of-education" ? <span>Virginia Department of Education</span> : <Link to="/dashboards/general-assembly" className="hover:text-white">General Assembly</Link>}
+              <span className="mx-2 text-gold">›</span>
+              <span className="font-semibold text-white">{d.short}</span>
+            </nav>
+          ) : (
+            <Breadcrumbs
+              items={[
+                d.group === "local"
+                  ? { label: "Virginia localities", to: "/find-the-moment" }
+                  : d.slug === "board-of-education"
+                    ? { label: "Virginia Department of Education" }
+                    : { label: "General Assembly", to: "/dashboards/general-assembly" },
+                { label: d.short },
+              ]}
+            />
+          )}
           <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">VA Change Agent · Dashboard</p>
           <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">
             {d.title} <span className="text-gold">Dashboard</span>
@@ -58,7 +73,7 @@ export function DashboardTemplate({ d, plain = false }: { d: Dashboard; plain?: 
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-8">
         <div className={`grid min-w-0 gap-6 ${two ? "lg:grid-cols-2" : "max-w-3xl"}`}>
           {d.columns.map((c) => (
-            <div key={c.name} className="min-w-0 rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-7">
+            <div key={c.name} id={plain ? undefined : colId(c.name)} className={`min-w-0 ${plain ? "" : "scroll-mt-24 "}rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-7`}>
               <h2 className="font-serif text-2xl font-semibold uppercase">{c.name}</h2>
               <div className="mt-5 flex flex-col gap-3">
                 {c.tiles.map((t) => (

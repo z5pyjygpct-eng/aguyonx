@@ -4,6 +4,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { SITE } from "@/content/site";
 import { CHUNK_RELOAD_INLINE_SCRIPT } from "@/lib/chunk-reload";
+import { NotFoundPage } from "@/components/site/not-found";
 import appCss from "../styles.css?url";
 
 export const Route = createRootRoute({
@@ -29,6 +30,7 @@ export const Route = createRootRoute({
       { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },
     ],
   }),
+  notFoundComponent: NotFoundPage,
   component: () => (
     <html lang="en" className="antialiased" suppressHydrationWarning>
       <head>

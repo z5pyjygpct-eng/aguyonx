@@ -17,23 +17,7 @@ function Page() {
       <LegacyV4>
       <HomeSearch />
       <LegacyHero
-        crumbs={
-        <p>
-          <Link to="/cities" className="hover:text-foreground hover:underline">
-            VA Cities
-          </Link>
-          <span className="mx-2 text-border">/</span>
-          <Link
-            to="/cities/$city"
-            params={{ city }}
-            className="hover:text-foreground hover:underline"
-          >
-            {c.shortName}
-          </Link>
-          <span className="mx-2 text-border">/</span>
-          Find the Moment
-        </p>
-        }
+        trail={[{ label: "VA Cities", to: "/cities" }, { label: c.shortName, to: "/cities/$city", params: { city } }, { label: "Find the Moment" }]}
         kicker={<>Virginia · {c.region}</>}
         title={<>Search {c.shortName} Council + Schools together</>}
       />

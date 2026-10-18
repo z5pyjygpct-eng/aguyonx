@@ -1,6 +1,7 @@
 import type { CSSProperties, ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 import { ExternalLink, Mail } from "lucide-react";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 /** Re-points the light theme tokens to navy so existing LCPS widgets render in the v4 dark system. */
 export const DARK_VARS = {
@@ -46,15 +47,13 @@ export function V4Hero({ kicker, crumb }: { kicker: string; crumb: string }) {
     <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
       <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
       <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-night-muted">
-          <Link to="/" className="hover:text-white">Home</Link>
-          <span className="mx-2 text-gold">›</span>
-          <Link to="/dashboards/$body" params={{ body: "loudoun" }} className="hover:text-white">Loudoun</Link>
-          <span className="mx-2 text-gold">›</span>
-          <span>LCPS</span>
-          <span className="mx-2 text-gold">›</span>
-          <span className="font-semibold text-white">{crumb}</span>
-        </nav>
+        <Breadcrumbs
+          items={[
+            { label: "Loudoun", to: "/dashboards/$body", params: { body: "loudoun" } },
+            { label: "LCPS", to: "/dashboards/$body", params: { body: "loudoun" }, hash: "loudoun-county-public-schools" },
+            { label: crumb },
+          ]}
+        />
         <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase sm:text-base">{kicker}</p>
         <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">
           Loudoun County <span className="text-gold">Public Schools</span>

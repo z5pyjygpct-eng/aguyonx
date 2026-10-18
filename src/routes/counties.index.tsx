@@ -38,7 +38,7 @@ function CountiesIndex() {
     <SiteShell>
       <LegacyV4>
       <HomeSearch />
-      <LegacyHero
+      <LegacyHero trail={[{ label: "VA Counties" }]}
         kicker={
           <>
             <p>Virginia</p>

@@ -21,6 +21,7 @@ import {
   saveFoiaDraft,
   type FoiaDraft,
 } from "@/lib/foia";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 export const Route = createFileRoute("/library/foia")({ component: FoiaDesk });
 
@@ -80,11 +81,7 @@ function FoiaDesk() {
         <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
           <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
           <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8 lg:pb-12">
-            <p className="text-sm">
-              <Link to="/library" className="font-mono text-xs tracking-widest text-night-muted uppercase hover:text-white">
-                ← Research library
-              </Link>
-            </p>
+            <Breadcrumbs items={[{ label: "Research Library", to: "/library" }, { label: "FOIA letter desk" }]} />
             <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">Tool</p>
             <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">
               Draft a Virginia <span className="text-gold">FOIA</span>

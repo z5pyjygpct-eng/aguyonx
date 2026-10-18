@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
 import { LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import { CityMeetingList, CityMeetingSearch } from "@/components/site/city-meeting-search";
 import {
   CITY_BY_ID,
@@ -32,26 +33,7 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
       <LegacyV4>
       <HomeSearch />
       <LegacyHero
-        crumbs={
-        <p>
-          <Link to="/cities" className="hover:text-foreground hover:underline">
-            VA Cities
-          </Link>
-          <span className="mx-2 text-border">/</span>
-          <Link
-            to="/cities/$city"
-            params={{ city }}
-            className="hover:text-foreground hover:underline"
-          >
-            {c.shortName}
-          </Link>
-          {v.body === "schools" ? (
-            <>
-              <span className="mx-2 text-border">/</span>Schools
-            </>
-          ) : null}
-        </p>
-        }
+        trail={v.body === "schools" ? [{ label: "VA Cities", to: "/cities" }, { label: c.shortName, to: "/cities/$city", params: { city } }, { label: "Schools" }] : [{ label: "VA Cities", to: "/cities" }, { label: c.shortName }]}
         kicker={<>Virginia · {c.region}</>}
         title={v.name}
       >
@@ -139,6 +121,7 @@ export function CityMissing() {
     <SiteShell>
       <LegacyV4>
         <div className="mx-auto max-w-xl px-4 py-24 text-center">
+          <Breadcrumbs items={[{ label: "VA Cities", to: "/cities" }, { label: "Not found" }]} className="mb-8 [&_ol]:justify-center" />
           <h1 className="font-serif text-4xl font-bold uppercase">Not found</h1>
           <p className="mt-4">
             <Link to="/cities" className="text-[#1E4B8E] underline-offset-2 hover:underline">

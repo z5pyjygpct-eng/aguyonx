@@ -9,7 +9,7 @@ function ContactPage() {
   return (
     <SiteShell>
       <LegacyV4>
-        <LegacyHero kicker="The desk" title="Contact" width="max-w-3xl">
+        <LegacyHero trail={[{ label: "Contact" }]} kicker="The desk" title="Contact" width="max-w-3xl">
           <p className="max-w-xl text-lg">Tips, documents, and corrections. Until there is an email, the door is X.</p>
         </LegacyHero>
         <div className="mx-auto w-full max-w-3xl px-5 py-10 sm:px-8 sm:py-12">

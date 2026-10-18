@@ -9,6 +9,7 @@ import { LOUDOUN_BOS, LOUDOUN_MEETING_BY_ID, loudounMeetingJumpUrl } from "@/con
 import { LCPS_MEETINGS, LCPS_SCHOOL_BOARD, lcpsJumpUrl } from "@/content/lcps";
 import { LOUDOUN_RECAP_BY_SLUG, type RecapLink } from "@/content/loudoun-recaps";
 import { FTM_TRANSCRIPT_LABEL, ftmTranscriptFor } from "@/content/ftm-transcripts";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 const LCPS_MEETING_BY_ID = Object.fromEntries(LCPS_MEETINGS.map((m) => [m.id, m]));
 
@@ -86,25 +87,14 @@ function RecapPage() {
       <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
         <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
         <div className="mx-auto max-w-6xl px-5 pt-6 pb-10 sm:px-8">
-            <p className="font-mono text-xs tracking-widest text-night-muted uppercase">
-              <Link to="/counties" className="hover:text-white hover:underline">
-                VA Counties
-              </Link>
-              <span className="mx-2 text-gold">/</span>
-              <Link to="/counties/loudoun" className="hover:text-white hover:underline">
-                Loudoun
-              </Link>
-              {isLcps ? (
-                <>
-                  <span className="mx-2 text-gold">/</span>
-                  <Link to="/counties/loudoun/schools" className="hover:text-white hover:underline">
-                    Schools
-                  </Link>
-                </>
-              ) : null}
-              <span className="mx-2 text-gold">/</span>
-              Meeting recap
-            </p>
+            <Breadcrumbs
+              items={[
+                { label: "VA Counties", to: "/counties" },
+                { label: "Loudoun", to: "/counties/loudoun" },
+                ...(isLcps ? [{ label: "Schools", to: "/counties/loudoun/schools" }] : []),
+                { label: "Meeting recap" },
+              ]}
+            />
             <Kicker className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold sm:text-base">{kicker}</Kicker>
             <h1 className="mt-2 font-serif text-3xl font-bold uppercase leading-[1.08] sm:text-5xl">
               {recap.title}, {recap.dateLabel}
@@ -307,6 +297,7 @@ function Missing() {
     <SiteShell>
       <V4Main>
         <div className="mx-auto max-w-xl px-4 py-24 text-center">
+        <Breadcrumbs items={[{ label: "VA Counties", to: "/counties" }, { label: "Loudoun", to: "/counties/loudoun" }, { label: "Recap not found" }]} className="mb-8 [&_ol]:justify-center" />
         <h1 className="font-serif text-3xl font-medium">No recap for that meeting yet</h1>
         <p className="mt-4">
           <Link

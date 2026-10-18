@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { V4Main } from "@/components/site/lcps-v4";
 import { ftmHubEntries } from "@/content/ftm-hub";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 export const Route = createFileRoute("/find-the-moment")({
   head: () => ({
@@ -24,7 +25,8 @@ function FindTheMomentHub() {
         <HomeSearch />
         <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
           <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
-          <div className="mx-auto max-w-7xl px-5 pt-8 pb-10 sm:px-8">
+          <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8">
+            <Breadcrumbs items={[{ label: "Find the Moment" }]} className="mb-6" />
             <p className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase sm:text-base">Virginia · Public meetings</p>
             <h1 className="mt-2 font-serif text-5xl font-bold uppercase leading-[1.05] sm:text-6xl">
               Find the <span className="text-gold">Moment</span>

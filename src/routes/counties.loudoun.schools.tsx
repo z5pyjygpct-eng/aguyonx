@@ -39,19 +39,7 @@ function LoudounSchoolsPage() {
       <LegacyV4>
       <HomeSearch />
       <LegacyHero
-        crumbs={
-        <p>
-          <Link to="/counties" className="hover:text-foreground hover:underline">
-            VA Counties
-          </Link>
-          <span className="mx-2 text-border">/</span>
-          <Link to="/counties/loudoun" className="hover:text-foreground hover:underline">
-            Loudoun
-          </Link>
-          <span className="mx-2 text-border">/</span>
-          Schools
-        </p>
-        }
+        trail={[{ label: "VA Counties", to: "/counties" }, { label: "Loudoun", to: "/counties/loudoun" }, { label: "Schools" }]}
         kicker="Virginia · Northern Virginia"
         title="Loudoun Schools"
       >

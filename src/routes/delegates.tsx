@@ -12,7 +12,7 @@ function DelegatesPage() {
     <SiteShell>
       <LegacyV4>
         <HomeSearch />
-        <LegacyHero
+        <LegacyHero trail={[{ label: "VA Delegates" }]}
           kicker={
             <>
               <p>Virginia</p>

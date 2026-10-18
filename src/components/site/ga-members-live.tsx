@@ -3,6 +3,7 @@ import { useNavigate } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import IDX from "@/lib/ga-members-2026-index.json";
 import { MOCKUPS } from "@/lib/mockups/mockups-data";
+import { withMockupCrumbs } from "@/lib/mockup-crumbs";
 
 const VACANCY =
   '<div class="dl" data-name="Vacant" data-d="20" data-p="V" style="border:1px dashed #F5B82E;background:#08142D;border-left:3px solid #F5B82E;border-radius:10px;padding:7px 12px;display:block"><div style="font-weight:600;font-size:14px;">Vacant — District 20</div><div style="font-size:11px;color:#9AA8C2">special election Nov 3</div></div>';
@@ -22,7 +23,7 @@ function liveHtml(slug: "house-members" | "senate-members") {
   }
   h = h.replace(/<div class="dl" data-name="Vacant"([^>]*)>(<div[^>]*>[^<]*<\/div><div[^>]*>[^<]*<\/div>)<\/div>/,
     '<a href="/dashboards/house/members/district-20-vacant" class="dl" data-name="Vacant"$1>$2</a>');
-  return h;
+  return withMockupCrumbs(h, slug);
 }
 
 export function GaMembersLive({ slug }: { slug: "house-members" | "senate-members" }) {

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { ArrowRight, ExternalLink, Play } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 export type GaBill = { session: string; bill: string; title: string; outcome: "signed" | "vetoed" | "passed" | "failed" | "tabled"; status: string; statusDate: string; subjects: string[]; href: string };
 export type GaCounts = { total: number; passed: number; signed: number; vetoed: number; passedNoGovAction: number; failed: number; tabled: number };
@@ -68,13 +69,14 @@ function Hero({ chamber, crumb, title, sub }: { chamber: "house" | "senate"; cru
     <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
       <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
       <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-night-muted">
-          <Link to="/" className="hover:text-white">Home</Link><span className="mx-2 text-gold">›</span>
-          <Link to="/dashboards/general-assembly" className="hover:text-white">General Assembly</Link><span className="mx-2 text-gold">›</span>
-          <Link to="/dashboards/$body" params={{ body: chamber }} className="hover:text-white">{ch.label}</Link><span className="mx-2 text-gold">›</span>
-          <Link to={`/dashboards/${chamber}/members`} className="hover:text-white">Members</Link><span className="mx-2 text-gold">›</span>
-          <span className="font-semibold text-white">{crumb}</span>
-        </nav>
+        <Breadcrumbs
+          items={[
+            { label: "General Assembly", to: "/dashboards/general-assembly" },
+            { label: ch.label, to: "/dashboards/$body", params: { body: chamber } },
+            { label: "Members", to: `/dashboards/${chamber}/members` },
+            { label: crumb },
+          ]}
+        />
         <Link to={`/dashboards/${chamber}/members`} className="mt-6 inline-block font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase hover:underline">‹ {ch.all}</Link>
         <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">{title}</h1>
         <div className="mt-3 text-on-dark-muted">{sub}</div>

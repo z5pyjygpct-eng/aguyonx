@@ -16,6 +16,7 @@ import {
   type HouseRecapIndex,
   type HouseRollCall,
 } from "@/content/va-house";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 export const Route = createFileRoute("/general-assembly/house/recaps/$slug")({
   component: RecapPage,
@@ -33,6 +34,7 @@ export const Route = createFileRoute("/general-assembly/house/recaps/$slug")({
     <SiteShell>
       <V4Main>
         <div className="mx-auto max-w-xl px-4 py-24 text-center">
+        <Breadcrumbs items={[{ label: "General Assembly", to: "/general-assembly" }, { label: "House", to: "/general-assembly/house" }, { label: "Recap not found" }]} className="mb-8 [&_ol]:justify-center" />
         <h1 className="font-serif text-3xl font-medium">Not found</h1>
         <p className="mt-4">
           <Link
@@ -148,17 +150,13 @@ function RecapPage() {
       <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
         <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
         <div className="mx-auto max-w-6xl px-5 pt-6 pb-10 sm:px-8">
-            <p className="font-mono text-xs tracking-widest text-night-muted uppercase">
-              <Link to="/general-assembly" className="hover:text-white hover:underline">
-                General Assembly
-              </Link>
-              <span className="mx-2 text-gold">/</span>
-              <Link to="/general-assembly/house" className="hover:text-white hover:underline">
-                House
-              </Link>
-              <span className="mx-2 text-gold">/</span>
-              Meeting recap
-            </p>
+            <Breadcrumbs
+              items={[
+                { label: "General Assembly", to: "/general-assembly" },
+                { label: "House", to: "/general-assembly/house" },
+                { label: "Meeting recap" },
+              ]}
+            />
             <Kicker className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold sm:text-base">Virginia House of Delegates · Floor session</Kicker>
             <h1 className="mt-2 font-serif text-3xl font-bold uppercase leading-[1.08] sm:text-5xl">
               House Floor Session, {recap.dateLabel}

@@ -8,8 +8,9 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, ExternalLink, Mail, Play, Search } from "lucide-react";
 import { MONTHS } from "@/components/site/meeting-filters";
 import { Pager, V4Main, pageCount, pageSlice, parseDate } from "@/components/site/lcps-v4";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
-export type V4Crumb = { label: string; to?: string; params?: Record<string, string> };
+export type V4Crumb = { label: string; to?: string; params?: Record<string, string>; hash?: string };
 export type V4Foia = { label: string; href: string };
 export type V4Meeting = { id: string; dateLabel: string; title: string; kind: string; duration?: string; href: string; host?: string; thumb?: string };
 export type V4Recap = { slug: string; dateLabel: string; title: string; kind: string; votesPosted: boolean | null; to: string; params?: Record<string, string> };
@@ -91,17 +92,7 @@ export function V4VenueHero({ venue, kicker }: { venue: V4Venue; kicker: string 
     <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
       <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
       <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-night-muted">
-          <Link to="/" className="hover:text-white">Home</Link>
-          {venue.crumbs.map((c) => (
-            <span key={c.label}>
-              <span className="mx-2 text-gold">›</span>
-              {c.to ? <Link to={c.to as never} params={c.params as never} className="hover:text-white">{c.label}</Link> : <span>{c.label}</span>}
-            </span>
-          ))}
-          <span className="mx-2 text-gold">›</span>
-          <span className="font-semibold text-white">{kicker}</span>
-        </nav>
+        <Breadcrumbs items={[...venue.crumbs, { label: kicker }]} />
         <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase sm:text-base">{kicker}</p>
         <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">
           {venue.titleA} <span className="text-gold">{venue.titleB}</span>

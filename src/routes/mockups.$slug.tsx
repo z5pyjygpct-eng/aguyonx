@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site/shell";
 import { DashboardTemplate } from "@/components/site/dashboard-template";
 import { GA_DASHBOARD } from "@/lib/ga-dashboard";
 import { MOCKUPS } from "@/lib/mockups/mockups-data";
+import { withMockupCrumbs } from "@/lib/mockup-crumbs";
 
 const TITLES: Record<string, string> = {
   "ga-dashboard": "General Assembly dashboard", "house-members": "House members", "senate-members": "Senate members",
@@ -36,7 +37,7 @@ function Page() {
             {slug === "ga-dashboard" ? "" : `${LIS_NOTE.has(slug) ? " Real scorecard and vote data will come from the LIS API." : ""} FOIA links are placeholders.`}
           </p>
         </div>
-        <div ref={ref} className="agx-mock" dangerouslySetInnerHTML={{ __html: m.html }} />
+        <div ref={ref} className="agx-mock" dangerouslySetInnerHTML={{ __html: withMockupCrumbs(m.html, slug) }} />
       </main>
     </SiteShell>
   );

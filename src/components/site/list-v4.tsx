@@ -4,6 +4,7 @@ import { Link } from "@tanstack/react-router";
 import { ExternalLink } from "lucide-react";
 import { newsXIntentUrl } from "@/components/site/share-news-x";
 import { Pager, V4Main, pageCount, pageSlice } from "@/components/site/lcps-v4";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 export type V4Row = { key: string; loc: string; headline: string; outlet: string; url: string; date: string; group: string; sub?: string };
 export const LOC_ORDER = ["Loudoun", "Fairfax", "Prince William", "Arlington", "Statewide"];
@@ -37,11 +38,7 @@ export function ListV4Page({ kicker, title, dek, rows, groupLabel, groups, page,
       <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
         <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
         <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8">
-          <nav aria-label="Breadcrumb" className="text-sm text-night-muted">
-            <Link to="/" className="hover:text-white">Home</Link>
-            <span className="mx-2 text-gold">›</span>
-            <span className="font-semibold text-white">{title}</span>
-          </nav>
+          <Breadcrumbs items={[{ label: title }]} />
           <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase sm:text-base">{kicker}</p>
           <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">{title}</h1>
           <p className="mt-3 max-w-2xl text-on-dark-muted">{dek}</p>

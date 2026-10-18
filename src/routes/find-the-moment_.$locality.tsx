@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { V4Main } from "@/components/site/lcps-v4";
 import { ftmLocalities } from "@/content/ftm-localities";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 export const Route = createFileRoute("/find-the-moment_/$locality")({
   component: LocalityHub,
@@ -22,6 +23,7 @@ function LocalityHub() {
         <HomeSearch />
         {!l ? (
           <div className="mx-auto w-full max-w-7xl px-4 py-12 sm:px-8 sm:py-16">
+            <Breadcrumbs items={[{ label: "Find the Moment", to: "/find-the-moment" }, { label: "Locality not found" }]} className="mb-6" />
             <p>
               Locality not found. <Link to="/find-the-moment" className="text-gold underline">All venues →</Link>
             </p>
@@ -30,7 +32,8 @@ function LocalityHub() {
           <>
             <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
               <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
-              <div className="mx-auto max-w-7xl px-5 pt-8 pb-10 sm:px-8">
+              <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8">
+                <Breadcrumbs items={[{ label: "Find the Moment", to: "/find-the-moment" }, { label: l.title }]} className="mb-6" />
                 <p className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase sm:text-base">{l.region} · Find the Moment</p>
                 <h1 className="mt-2 font-serif text-5xl font-bold uppercase leading-[1.05] sm:text-6xl">{l.title}</h1>
                 <p className="mt-4 max-w-2xl text-lg text-[#F6F3EA]">

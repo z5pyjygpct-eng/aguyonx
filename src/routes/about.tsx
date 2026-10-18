@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site/shell";
 import { SITE } from "@/content/site";
 import { BOOKS } from "@/content/books";
 import { V4Main } from "@/components/site/lcps-v4";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 export const Route = createFileRoute("/about")({ component: AboutPage });
 
@@ -13,7 +14,8 @@ function AboutPage() {
       <V4Main>
         <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
           <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
-          <div className="mx-auto max-w-7xl px-5 pt-10 pb-12 sm:px-8">
+          <div className="mx-auto max-w-7xl px-5 pt-6 pb-12 sm:px-8">
+            <Breadcrumbs items={[{ label: "About" }]} className="mb-6" />
             <p className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">The desk</p>
             <h1 className="mt-2 font-serif text-5xl font-bold uppercase leading-[1.05] sm:text-6xl">
               A Guy on <span className="text-gold">X</span>

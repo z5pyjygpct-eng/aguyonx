@@ -12,7 +12,7 @@ function CitiesIndex() {
     <SiteShell>
       <LegacyV4>
       <HomeSearch />
-      <LegacyHero kicker="Virginia" title={<>VA Cities &amp; Counties</>}>
+      <LegacyHero trail={[{ label: "VA Cities & Counties" }]} kicker="Virginia" title={<>VA Cities &amp; Counties</>}>
         <p className="text-lg">
           Council, Board of Supervisors and school board meetings (Albemarle since January 2024,
           cities since January 2025): search what was said, jump to the official video.

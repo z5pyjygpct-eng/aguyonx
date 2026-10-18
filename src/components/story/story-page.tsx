@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Citations, SourceDocs, StoryBody } from "@/components/story/body";
 import { SaveButton } from "@/components/story/save-button";
 import type { Story } from "@/content/types";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 /** v4 list tile for article / investigation indexes. */
 export const STORY_TILE =
@@ -17,7 +18,8 @@ export function StoryHero({ kicker, title, children }: { kicker: string; title: 
   return (
     <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
       <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
-      <div className="mx-auto max-w-6xl px-5 pt-8 pb-10 sm:px-8">
+      <div className="mx-auto max-w-6xl px-5 pt-6 pb-10 sm:px-8">
+        <Breadcrumbs items={[{ label: title }]} className="mb-6" />
         <p className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase sm:text-base">{kicker}</p>
         <h1 className="mt-2 font-serif text-5xl font-bold uppercase leading-[1.05] sm:text-6xl">{title}</h1>
         {children ? <p className="mt-3 max-w-2xl text-base text-[#F6F3EA] sm:text-lg">{children}</p> : null}
@@ -47,6 +49,7 @@ export function StoryMissing({ to, label }: { to: "/articles" | "/investigations
         <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
           <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
           <div className="mx-auto max-w-xl px-4 py-24 text-center">
+            <Breadcrumbs items={[{ label: to === "/investigations" ? "Investigations" : "Articles", to }, { label: "Not in the folder" }]} className="mb-8 [&_ol]:justify-center" />
             <h1 className="font-serif text-4xl font-bold uppercase">Not in the folder</h1>
             <Button asChild className="mt-8">
               <Link to={to}>{label}</Link>
@@ -72,6 +75,13 @@ export function StoryPage({ story }: { story: Story }) {
         <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
           <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
           <div className="mx-auto w-full max-w-3xl px-5 pt-6 pb-10 sm:px-8">
+            <Breadcrumbs
+              items={[
+                story.kind === "investigation" ? { label: "Investigations", to: "/investigations" } : { label: "Articles", to: "/articles" },
+                { label: story.title },
+              ]}
+              className="mb-4"
+            />
             <Link
               to={story.kind === "investigation" ? "/investigations" : "/articles"}
               className="-ml-1 inline-flex min-h-10 items-center gap-2 rounded px-1 text-sm font-semibold text-gold hover:text-gold-hover"

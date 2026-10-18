@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site/shell";
 import { V4Main } from "@/components/site/lcps-v4";
 import { GA_PREVIEW_ROBOTS } from "@/lib/ga-dashboard";
 import { V4_VENUES } from "@/lib/v4-venues";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 /**
  * Got Tips? (preview, noindex). No form and no backend: every button is a plain mailto link that opens the
@@ -73,7 +74,10 @@ function TipsPage() {
       <V4Main>
         <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
           <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
-          <div className="mx-auto grid max-w-7xl gap-8 px-5 pt-10 pb-12 sm:px-8 lg:grid-cols-[1.2fr_1fr] lg:items-end">
+          <div className="mx-auto max-w-7xl px-5 pt-6 sm:px-8">
+            <Breadcrumbs items={[{ label: "Got Tips?" }]} />
+          </div>
+          <div className="mx-auto grid max-w-7xl gap-8 px-5 pt-6 pb-12 sm:px-8 lg:grid-cols-[1.2fr_1fr] lg:items-end">
             <div>
               <p className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">VA Change Agent</p>
               <h1 className="mt-2 font-serif text-5xl font-bold uppercase leading-[1.05] sm:text-6xl">Got <span className="text-gold">Tips?</span></h1>
