@@ -17,7 +17,7 @@ function formatDate(iso: string) {
   });
 }
 
-// v4 look: card grid (1 / 2 / 3 across) that grows as VIDEOS gets new entries. Same videos, titles, text and links.
+// v4 look: card grid (1 / 2 / 4 across) that grows as VIDEOS gets new entries. Same videos, titles, text and links.
 function VideosIndex() {
   return (
     <SiteShell>
@@ -33,7 +33,7 @@ function VideosIndex() {
         </section>
 
         <div className="mx-auto max-w-7xl px-4 py-10 sm:px-8">
-          <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {VIDEOS.map((v) => (
               <li
                 key={v.id}
