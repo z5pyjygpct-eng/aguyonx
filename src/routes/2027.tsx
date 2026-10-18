@@ -157,7 +157,7 @@ function Card({ r, office, asOf, onClose }: { r: Race; office: Office; asOf: str
     <>
       <button type="button" aria-label="Close" onClick={onClose} className="fixed inset-0 z-40 bg-black/50 lg:hidden" />
       <section role="dialog" aria-label={title}
-        className="fixed inset-x-0 bottom-0 z-50 max-h-[80vh] overflow-y-auto rounded-t-2xl border-t-4 border-gold bg-navy-700 p-5 shadow-2xl lg:static lg:z-auto lg:mt-4 lg:max-h-none lg:rounded-[10px] lg:border lg:border-navy-line lg:border-t-4 lg:border-t-gold lg:shadow-none">
+        className="fixed inset-x-0 bottom-0 z-50 max-h-[80vh] overflow-y-auto rounded-t-2xl border-t-4 border-gold bg-navy-700 p-5 shadow-2xl lg:static lg:z-auto lg:max-h-none lg:rounded-[10px] lg:border lg:border-navy-line lg:border-t-4 lg:border-t-gold lg:shadow-none">
         <div className="flex items-start justify-between gap-3">
           <div>
             <p className="font-mono text-xs tracking-widest text-gold uppercase">{TILE[st].label}{isOpen(r) ? " · open seat" : ""}</p>
@@ -304,10 +304,16 @@ function Election2027Page() {
 
           {!local ? (
             <>
-              <div className="mt-4 grid grid-cols-5 gap-1.5 sm:grid-cols-10 sm:gap-2">
-                {d.races.map((r) => <Tile key={r.id} r={r} office={office} dim={!visibleIds.has(r.id)} selected={sel?.id === r.id} onPick={() => pick(r.id)} />)}
+              <div className="mt-4 lg:grid lg:grid-cols-[minmax(0,620px)_1fr] lg:items-start lg:gap-6">
+                <div className="grid grid-cols-5 gap-1.5 sm:grid-cols-10 sm:gap-2">
+                  {d.races.map((r) => <Tile key={r.id} r={r} office={office} dim={!visibleIds.has(r.id)} selected={sel?.id === r.id} onPick={() => pick(r.id)} />)}
+                </div>
+                <div className="lg:sticky lg:top-20">
+                  {sel ? <Card r={sel} office={office} asOf={d.as_of} onClose={close} /> : (
+                    <p className="hidden rounded-[10px] border border-dashed border-navy-line p-5 text-sm text-on-dark-muted lg:block">Tap a district number to see who has filed.</p>
+                  )}
+                </div>
               </div>
-              {sel ? <Card r={sel} office={office} asOf={d.as_of} onClose={close} /> : null}
             </>
           ) : (
             <div className="mt-4 space-y-4">
@@ -326,7 +332,7 @@ function Election2027Page() {
                         <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-6">
                           {rs.map((r) => <Tile key={r.id} wide r={r} office={office} dim={!visibleIds.has(r.id)} selected={sel?.id === r.id} onPick={() => pick(r.id)} />)}
                         </div>
-                        {sel && sel.locality_id === l.id ? <Card r={sel} office={office} asOf={d.as_of} onClose={close} /> : null}
+                        {sel && sel.locality_id === l.id ? <div className="lg:mt-4"><Card r={sel} office={office} asOf={d.as_of} onClose={close} /></div> : null}
                       </>
                     ) : none ? (
                       <a href={none.source_url} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex items-center gap-1 rounded-full border border-dashed border-navy-line bg-navy-800 px-3 py-1.5 text-sm text-on-dark-muted hover:text-white">
