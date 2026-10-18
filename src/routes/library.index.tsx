@@ -82,9 +82,9 @@ function Grid({ items }: { items: LibraryItem[] }) {
 }
 
 /** Top 5 per shelf: swipe row on phones, 5-up grid from sm up. */
-function Row({ items }: { items: LibraryItem[] }) {
+function Row({ items, inset }: { items: LibraryItem[]; inset?: boolean }) {
   return (
-    <ul className="-mx-4 mt-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 sm:mx-0 sm:grid sm:snap-none sm:grid-cols-3 sm:overflow-visible sm:px-0 sm:pb-0 lg:grid-cols-5 sm:gap-4">
+    <ul className={cn("mt-4 flex", inset ? "" : "-mx-4 px-4") + " snap-x snap-mandatory gap-3 overflow-x-auto pb-2 sm:mx-0 sm:grid sm:snap-none sm:grid-cols-3 sm:overflow-visible sm:px-0 sm:pb-0 lg:grid-cols-5 sm:gap-4"}>
       {items.map((i) => <li key={i.slug} className="w-[72%] shrink-0 snap-start sm:w-auto"><ItemTile item={i} /></li>)}
     </ul>
   );
@@ -212,7 +212,7 @@ function LibraryIndex() {
       <V4Main>
         <V4VenueHero venue={{ crumbs: [{ label: "Other Resources" }], titleA: "Research", titleB: "Library", foia: { label: "", href: "" } }} kicker="Research Library" />
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-8">
-          <p className="max-w-3xl text-base text-[#F6F3EA]">{total} public sources we actually use. Official records first. Search everything, or pick a shelf.</p>
+          <p className="max-w-3xl text-base text-[#F6F3EA]">{total} public sources in one place. Official records first. Search everything, or pick a shelf.</p>
 
           <form role="search" onSubmit={(e) => e.preventDefault()} className="mt-5">
             <label htmlFor="lib-q" className="sr-only">Search the library</label>
@@ -249,7 +249,7 @@ function LibraryIndex() {
             <>
               <section className="mt-8 rounded-[10px] border border-flag/70 bg-navy-900/40 p-4 sm:p-5">
                 <div className="flex items-end justify-between"><h2 className="font-serif text-2xl font-semibold uppercase">Start here</h2><span className="text-sm text-gold">{START_HERE.length} picks</span></div>
-                <Row items={START_HERE.map((s) => BY_SLUG.get(s)).filter((x): x is LibraryItem => !!x)} />
+                <Row inset items={START_HERE.map((s) => BY_SLUG.get(s)).filter((x): x is LibraryItem => !!x)} />
               </section>
               {SHELVES.map((s) => (
                 <section key={s.id} className="mt-10">
