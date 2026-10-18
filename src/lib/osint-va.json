@@ -1,0 +1,1731 @@
+{
+ "source": "osint-va-list.csv",
+ "total": 226,
+ "shown": 204,
+ "categories": [
+  {
+   "name": "VA Legislature",
+   "items": [
+    {
+     "name": "LIS Public API (developer portal)",
+     "url": "https://lis.virginia.gov/developers",
+     "note": "REST API for bills, votes, members, committees (free key; 2025+ session data)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Code of Virginia (law.lis)",
+     "url": "https://law.lis.virginia.gov/",
+     "note": "Official Code of Virginia, Constitution, and Administrative Code",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "House of Delegates meeting schedule",
+     "url": "https://house.vga.virginia.gov/schedule/meetings",
+     "note": "House committee and subcommittee meeting schedule and dockets",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "General Assembly live streaming & archives",
+     "url": "https://vga.virginia.gov/engage/live-streaming-archives/",
+     "note": "Live and archived House and Senate floor and committee video",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Senate of Virginia",
+     "url": "https://apps.senate.virginia.gov/",
+     "note": "Senator directory, committee meeting schedules, and Senate resources",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Senate of Virginia video (Granicus)",
+     "url": "https://virginia-senate.granicus.com/ViewPublisher.php?view_id=3",
+     "note": "Archived Senate floor and committee video",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Who's My Legislator",
+     "url": "https://whosmy.virginiageneralassembly.gov/",
+     "note": "Find state and federal legislators by address",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Division of Legislative Services (DLS)",
+     "url": "https://dls.virginia.gov/",
+     "note": "Legislative studies, commissions, redistricting history, and session summaries",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Joint Legislative Audit & Review Commission (JLARC)",
+     "url": "https://jlarc.virginia.gov/",
+     "note": "Nonpartisan audits and evaluations of state agencies and programs",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia Redistricting Commission",
+     "url": "https://www.virginiaredistricting.org/Default.aspx",
+     "note": "2021 district shapefiles, court-ordered maps, and commission records",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "LIS API key registration",
+     "url": "https://lis.virginia.gov/apiregistration",
+     "note": "Free API key sign-up for the LIS REST API",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "LIS data files (CSV)",
+     "url": "https://help.lis.virginia.gov/data/index.asp",
+     "note": "Bulk CSV downloads of bills, votes, patrons, and history",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia Law developer services",
+     "url": "https://law.lis.virginia.gov/developers/",
+     "note": "JSON/XML web services and CSV downloads of the Code",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": [
+    {
+     "category": "VA Legislature",
+     "name": "Virginia LIS (Legislative Information System)",
+     "url": "https://lis.virginia.gov/",
+     "existingSlug": "virginia-legislative-information-system-lis",
+     "existingTitle": "Virginia Legislative Information System (LIS)"
+    },
+    {
+     "category": "VA Legislature",
+     "name": "Virginia General Assembly portal",
+     "url": "https://vga.virginia.gov/",
+     "existingSlug": "virginia-general-assembly-portal",
+     "existingTitle": "Virginia General Assembly Portal"
+    },
+    {
+     "category": "VA Legislature",
+     "name": "Legacy LIS",
+     "url": "https://legacylis.virginia.gov/",
+     "existingSlug": "virginia-lis-legacy-system-pre-2025-sessions",
+     "existingTitle": "Virginia LIS — Legacy System (pre-2025 sessions)"
+    }
+   ]
+  },
+  {
+   "name": "VA Campaign Finance",
+   "items": [
+    {
+     "name": "VA Dept. of Elections: Campaign Finance",
+     "url": "https://www.elections.virginia.gov/candidatepac-info/campaign-finance/",
+     "note": "Official campaign finance hub: filing info, deadlines, and report access",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "VPAP (Virginia Public Access Project)",
+     "url": "https://www.vpap.org/",
+     "note": "Nonpartisan donor, candidate, and money-in-politics data and visualizations for Virginia",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "VPAP donor search",
+     "url": "https://www.vpap.org/donors/",
+     "note": "Look up individual and business donors across state and local races",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "VPAP visuals",
+     "url": "https://www.vpap.org/visuals/",
+     "note": "Charts and maps on elections, money, and policy in Virginia",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "VPAP lobbyist disclosures",
+     "url": "https://www.vpap.org/lobbying/",
+     "note": "Searchable lobbyist and lobbying-client data for Virginia",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "VPAP local politics",
+     "url": "https://www.vpap.org/local-politics/",
+     "note": "Local officeholders, races, and money by locality",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "FollowTheMoney (OpenSecrets state data)",
+     "url": "https://www.followthemoney.org/",
+     "note": "50-state campaign finance database including Virginia history",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": [
+    {
+     "category": "VA Campaign Finance",
+     "name": "ELECT Campaign Finance Reports (COMET/public reports)",
+     "url": "https://cfreports.elections.virginia.gov/",
+     "existingSlug": "virginia-sbe-campaign-finance-official-filings-source-of-record",
+     "existingTitle": "Virginia SBE Campaign Finance — Official Filings (source of record)"
+    }
+   ]
+  },
+  {
+   "name": "VA Elections",
+   "items": [
+    {
+     "name": "Virginia Department of Elections (ELECT)",
+     "url": "https://www.elections.virginia.gov/",
+     "note": "Voter, candidate, and election administration info",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "ELECT candidate lists",
+     "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+     "note": "Who is on the ballot for upcoming elections",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "ELECT registration statistics",
+     "url": "https://www.elections.virginia.gov/resultsreports/registration-statistics/",
+     "note": "Voter registration counts by locality and district",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "VPAP elections",
+     "url": "https://www.vpap.org/elections/state/",
+     "note": "Race-by-race Virginia election data and maps",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Ballotpedia: Virginia",
+     "url": "https://ballotpedia.org/Virginia",
+     "note": "Encyclopedic coverage of Virginia officials, races, and ballot measures",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "MIT Election Data + Science Lab",
+     "url": "https://electionlab.mit.edu/data",
+     "note": "Precinct and county-level results datasets nationwide",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Dave Leip's Atlas of U.S. Elections",
+     "url": "https://uselectionatlas.org/",
+     "note": "Historical election results by county (some data paid)",
+     "paid": true,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "ELECT redistricting maps",
+     "url": "https://www.elections.virginia.gov/casting-a-ballot/redistricting/",
+     "note": "Precinct and district PDF/GIS maps by locality",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "ELECT political committees",
+     "url": "https://www.elections.virginia.gov/candidatepac-info/political-committees/",
+     "note": "Registered PACs and party committees",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": [
+    {
+     "category": "VA Elections",
+     "name": "ELECT historical election results",
+     "url": "https://historical.elections.virginia.gov/",
+     "existingSlug": "virginia-historical-elections-database-pre-2024-results",
+     "existingTitle": "Virginia Historical Elections Database (pre-2024 results)"
+    },
+    {
+     "category": "VA Elections",
+     "name": "ELECT election results",
+     "url": "https://www.elections.virginia.gov/results/",
+     "existingSlug": "virginia-department-of-elections-official-results",
+     "existingTitle": "Virginia Department of Elections — Official Results"
+    }
+   ]
+  },
+  {
+   "name": "VA Courts",
+   "items": [
+    {
+     "name": "OCIS (Online Case Information System 2.0)",
+     "url": "https://eapps.courts.state.va.us/ocis/landing",
+     "note": "Statewide name search across district and most circuit courts (Scott's go-to; confirm matches with DOB or case details)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia Judicial System case information",
+     "url": "https://www.vacourts.gov/caseinfo/home",
+     "note": "Gateway to all VA court case lookups",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "General District Court online case info",
+     "url": "https://eapps.courts.state.va.us/gdcourts/landing.do",
+     "note": "Civil, criminal, and traffic cases by individual GDC",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Circuit Court case information (by locality)",
+     "url": "https://www.vacourts.gov/courts/circuit/home",
+     "note": "Circuit court directory and links to each court's online case info",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Fairfax Circuit Court CPAN",
+     "url": "https://www.fairfaxcounty.gov/circuit/online-services/court-public-access-network",
+     "note": "Fairfax Circuit is NOT in OCIS; CPAN is its subscription remote access to case and land records (paid)",
+     "paid": true,
+     "check": "ok"
+    },
+    {
+     "name": "Fairfax Circuit Court",
+     "url": "https://www.fairfaxcounty.gov/circuit/",
+     "note": "Fairfax Circuit Court clerk, land records, and case access info",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Alexandria Circuit Court",
+     "url": "https://www.alexandriava.gov/CircuitCourt",
+     "note": "Alexandria Circuit (separate from statewide circuit system)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Supreme Court & Court of Appeals opinions",
+     "url": "https://www.vacourts.gov/opinions/home",
+     "note": "Published opinions from both Virginia appellate courts",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Appellate Case Management System (ACMS)",
+     "url": "https://eapps.courts.state.va.us/acms-public/",
+     "note": "Docket info for Supreme Court and Court of Appeals cases",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Judicial Inquiry and Review Commission",
+     "url": "https://www.vacourts.gov/agencies/jirc/home",
+     "note": "Judicial conduct complaints and published actions",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "PACER (federal courts)",
+     "url": "https://pacer.uscourts.gov/",
+     "note": "Federal court dockets incl. E.D. and W.D. Virginia (paid, per page; fees often waived under $30/qtr)",
+     "paid": true,
+     "check": "ok"
+    },
+    {
+     "name": "CourtListener / RECAP Archive",
+     "url": "https://www.courtlistener.com/",
+     "note": "Free federal opinions and PACER documents others have bought",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "U.S. District Court E.D. Virginia",
+     "url": "https://www.vaed.uscourts.gov/",
+     "note": "Federal court for NoVA, Richmond, Norfolk; opinions and notices",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "VA Dept. of Corrections inmate & supervisee locator",
+     "url": "https://vadoc.virginia.gov/general-public/inmate-and-supervisee-locator/",
+     "note": "Find people in state prison custody or on supervision",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia Sex Offender Registry",
+     "url": "https://sex-offender.vsp.virginia.gov/",
+     "note": "State Police sex offender registry",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "VINELink",
+     "url": "https://vinelink.vineapps.com/",
+     "note": "Jail custody status lookup (search by state)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "JudyRecords",
+     "url": "https://www.judyrecords.com/",
+     "note": "Free full-text search of hundreds of millions of U.S. court records",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "CourtListener RECAP Archive",
+     "url": "https://www.courtlistener.com/recap/",
+     "note": "Free PACER dockets and filings (pairs with the RECAP browser extension)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Free Law Project RECAP extension",
+     "url": "https://free.law/recap/",
+     "note": "Browser extension that saves PACER purchases to the free archive",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "VA Business",
+   "items": [
+    {
+     "name": "SCC Clerk's Information System (CIS)",
+     "url": "https://cis.scc.virginia.gov/",
+     "note": "Business entity search: officers, registered agents, filings, and history",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "SCC Business Entity Search",
+     "url": "https://cis.scc.virginia.gov/EntitySearch/Index",
+     "note": "Direct search for corporations, LLCs, and LPs",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "SCC UCC search",
+     "url": "https://cis.scc.virginia.gov/UCCOnlineSearch/UCCSearch",
+     "note": "UCC liens and financing statements",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "SCC docket search",
+     "url": "https://www.scc.virginia.gov/docketsearch",
+     "note": "Utility, insurance, and regulatory case dockets (e.g., Dominion rate cases)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "DPOR license lookup",
+     "url": "https://www.dpor.virginia.gov/LicenseLookup",
+     "note": "Professional licenses (contractors, realtors, etc.) and discipline",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Department of Health Professions license lookup",
+     "url": "https://dhp.virginiainteractive.org/Lookup/Index",
+     "note": "Health professional licenses and board actions",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "OpenCorporates",
+     "url": "https://opencorporates.com/",
+     "note": "Cross-state corporate registry search for officers and entities",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "SEC EDGAR full-text search",
+     "url": "https://www.sec.gov/edgar/search/",
+     "note": "Public company filings, insiders, and Form D offerings",
+     "paid": false,
+     "check": "unconfirmed"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "VA Ethics & Lobbying",
+   "items": [
+    {
+     "name": "Virginia Conflict of Interest and Ethics Advisory Council",
+     "url": "https://ethics.dls.virginia.gov/",
+     "note": "State SOEIs, gift disclosures, and lobbyist reports",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Ethics Council public information",
+     "url": "https://ethics.dls.virginia.gov/public-information.asp",
+     "note": "Explains what is filed where (state vs. local SOEIs, candidates since 7/1/2026)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Ethics Council searchable disclosure database",
+     "url": "https://ethicssearch.dls.virginia.gov/",
+     "note": "Search Statements of Economic Interests and lobbyist disclosures",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Secretary of the Commonwealth: lobbyist registration",
+     "url": "https://www.commonwealth.virginia.gov/va-government/lobbyists/",
+     "note": "Lobbyist registration info and lookup",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Secretary of the Commonwealth: boards & commissions",
+     "url": "https://www.commonwealth.virginia.gov/va-government/boards-and-commissions/",
+     "note": "Gubernatorial appointees to state boards",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "VA FOIA",
+   "items": [
+    {
+     "name": "Virginia Coalition for Open Government (VCOG)",
+     "url": "https://opengovva.org/",
+     "note": "FOIA guides, sample requests, and open-government news",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia FOIA Council",
+     "url": "https://foiacouncil.dls.virginia.gov/foiacouncil.htm",
+     "note": "Official FOIA advisory opinions, guides, sample letters, and FOIA officer contacts",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "MuckRock",
+     "url": "https://www.muckrock.com/",
+     "note": "File and track public records requests; browse others' requests",
+     "paid": false,
+     "check": "unconfirmed"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "VA Regulations",
+   "items": [
+    {
+     "name": "Virginia Register of Regulations",
+     "url": "https://register.dls.virginia.gov/",
+     "note": "Proposed and final regulations, executive orders, and notices",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia Regulatory Town Hall",
+     "url": "https://townhall.virginia.gov/",
+     "note": "Regulatory actions, public comment, and state board meeting calendar",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Commonwealth Calendar (Town Hall meetings)",
+     "url": "https://townhall.virginia.gov/L/meetings.cfm",
+     "note": "State board and commission meeting notices and minutes",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Governor of Virginia: executive actions",
+     "url": "https://www.governor.virginia.gov/executive-actions/",
+     "note": "Executive orders and directives",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Office of the Attorney General: official opinions",
+     "url": "https://www.oag.state.va.us/annual-reports-opinions/official-opinions",
+     "note": "Official AG opinions on state and local law",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "VA Budget & Finance",
+   "items": [
+    {
+     "name": "Department of Planning and Budget (DPB)",
+     "url": "https://dpb.virginia.gov/",
+     "note": "Governor's budget documents and agency planning",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Budget.lis (state budget bills)",
+     "url": "https://budget.lis.virginia.gov/",
+     "note": "Appropriation acts, amendments, and member budget requests",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "House Appropriations Committee",
+     "url": "https://hac.virginia.gov/",
+     "note": "Budget summaries and committee reports",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Senate Finance & Appropriations Committee",
+     "url": "https://sfac.virginia.gov/",
+     "note": "Senate budget documents and presentations",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Auditor of Public Accounts (APA)",
+     "url": "https://www.apa.virginia.gov/",
+     "note": "State and local audit reports, special investigations",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "APA local government reports",
+     "url": "https://www.apa.virginia.gov/local-government",
+     "note": "Local audits (ACFRs) and Comparative Report of revenues/expenditures for every county and city",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "APA fraud reporting",
+     "url": "https://www.apa.virginia.gov/resources/fraud-reporting",
+     "note": "State fraud, waste and abuse hotline and investigation reports",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Open Data Portal (data.virginia.gov)",
+     "url": "https://data.virginia.gov/",
+     "note": "State open datasets across agencies",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia Retirement System",
+     "url": "https://www.varetire.org/",
+     "note": "Pension system reports and investments",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Weldon Cooper Center demographics",
+     "url": "https://www.coopercenter.org/demographics",
+     "note": "Population estimates and projections by locality",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia Dept. of Taxation local tax rates",
+     "url": "https://www.tax.virginia.gov/local-tax-rates",
+     "note": "Local tax rate tables and annual surveys",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": [
+    {
+     "category": "VA Budget & Finance",
+     "name": "Commonwealth Data Point",
+     "url": "https://www.datapoint.apa.virginia.gov/",
+     "existingSlug": "commonwealth-data-point",
+     "existingTitle": "Commonwealth Data Point"
+    },
+    {
+     "category": "VA Budget & Finance",
+     "name": "eVA (state procurement)",
+     "url": "https://eva.virginia.gov/",
+     "existingSlug": "eva-virginia-procurement-system",
+     "existingTitle": "eVA — Virginia Procurement System"
+    }
+   ]
+  },
+  {
+   "name": "VA Schools",
+   "items": [
+    {
+     "name": "VDOE (Virginia Department of Education)",
+     "url": "https://www.doe.virginia.gov/",
+     "note": "State education policy, Board of Education, and data",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "VDOE School Quality Profiles",
+     "url": "https://schoolquality.virginia.gov/",
+     "note": "Test scores, accreditation, and school-level data",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "VDOE data & reports",
+     "url": "https://www.doe.virginia.gov/data-policy-funding/data-reports",
+     "note": "Enrollment, finance, staffing, and statistics",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "VDOE Superintendent's Annual Report",
+     "url": "https://www.doe.virginia.gov/data-policy-funding/data-reports/statistics-reports/superintendent-s-annual-report",
+     "note": "Per-pupil spending and school division finances",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "LCPS School Board (BoardDocs)",
+     "url": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public",
+     "note": "Loudoun County Public Schools board agendas and materials",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "FCPS School Board (BoardDocs)",
+     "url": "https://go.boarddocs.com/vsba/fairfax/Board.nsf/Public",
+     "note": "Fairfax County Public Schools board agendas and materials",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia School Boards Association",
+     "url": "https://www.vsba.org/",
+     "note": "School board member resources and division directory",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "NCES (federal education statistics)",
+     "url": "https://nces.ed.gov/",
+     "note": "School district finance, enrollment, and comparisons",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "VA Local Government",
+   "items": [
+    {
+     "name": "Virginia Association of Counties (VACo)",
+     "url": "https://www.vaco.org/",
+     "note": "County directory and county policy positions",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia Municipal League (VML)",
+     "url": "https://www.vml.org/",
+     "note": "City and town directory and local government issues",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Loudoun County meetings (Granicus)",
+     "url": "https://loudoun.granicus.com/ViewPublisher.php?view_id=77",
+     "note": "Archived Loudoun BOS and commission video and agendas",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Fairfax County Board of Supervisors",
+     "url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+     "note": "Fairfax BOS agendas, summaries, and members",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Fairfax County meeting video",
+     "url": "https://www.fairfaxcounty.gov/cableconsumer/channel-16",
+     "note": "Fairfax Channel 16 live and archived meetings",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "City of Fairfax City Meetings",
+     "url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings",
+     "note": "Fairfax City Council, School Board, and Planning Commission agendas, minutes, and video",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "City of Manassas Mayor & Council",
+     "url": "https://www.manassasva.gov/connect/mayor_and_council/index.php",
+     "note": "Manassas council members and contacts",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Albemarle County Board of Supervisors",
+     "url": "https://www.albemarle.org/government/board-of-supervisors",
+     "note": "Albemarle BOS agendas and members",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Prince William County Board of County Supervisors",
+     "url": "https://www.pwcva.gov/department/board-county-supervisors",
+     "note": "PWC BOCS agendas, members, and video",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Arlington County Board",
+     "url": "https://www.arlingtonva.us/Government/Departments/County-Board",
+     "note": "Arlington County Board agendas and members",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Granicus (meeting video platform)",
+     "url": "https://granicus.com/",
+     "note": "Platform behind many local meeting archives; search \"<locality>.granicus.com\"",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "eScribe meetings",
+     "url": "https://www.escribemeetings.com/",
+     "note": "Agenda and video platform used by some VA localities",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Swagit (Granicus)",
+     "url": "https://granicus.com/product/video-swagit-partially-and-fully-managed-video-solutions/",
+     "note": "Meeting video platform used by some VA localities and school boards; search \"<locality>.swagit.com\"",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Manassas council meeting center",
+     "url": "https://www.manassasva.gov/connect/city_clerk/manassas_council_meeting_center.php",
+     "note": "Manassas council agendas, minutes, and video",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": [
+    {
+     "category": "VA Local Government",
+     "name": "Loudoun County Board of Supervisors",
+     "url": "https://www.loudoun.gov/bos",
+     "existingSlug": "loudoun-county-board-of-supervisors",
+     "existingTitle": "Loudoun County Board of Supervisors"
+    }
+   ]
+  },
+  {
+   "name": "VA Land & Property",
+   "items": [
+    {
+     "name": "Loudoun County parcel/real estate search",
+     "url": "https://reparcelasmt.loudoun.gov/pt/search/commonsearch.aspx?mode=realprop",
+     "note": "Loudoun assessments, owners, and sales",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Loudoun WebLogis GIS",
+     "url": "https://logis.loudoun.gov/weblogis/",
+     "note": "Loudoun parcel maps, zoning, and districts",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Fairfax County real estate assessments",
+     "url": "https://icare.fairfaxcounty.gov/ffxcare/search/commonsearch.aspx?mode=address",
+     "note": "Fairfax assessments, owners, and sales history",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Fairfax County GIS (Digital Map Viewer)",
+     "url": "https://www.fairfaxcounty.gov/maps/",
+     "note": "Fairfax parcel and zoning maps",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Prince William County property search",
+     "url": "https://pwc.publicaccessnow.com/addresssearch.aspx",
+     "note": "PWC assessments, owners, value history, and transfers",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Albemarle County GIS Viewer",
+     "url": "https://www.albemarle.org/gisviewer",
+     "note": "Albemarle parcel cards, owners, zoning, and aerials",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Arlington County real estate assessments",
+     "url": "https://propertysearch.arlingtonva.us/",
+     "note": "Arlington property owners and assessments",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Supreme Court of Virginia Secure Remote Access (land records)",
+     "url": "https://risweb.courts.state.va.us/",
+     "note": "Remote access to circuit court land records in participating localities (paid subscription)",
+     "paid": true,
+     "check": "ok"
+    },
+    {
+     "name": "VGIN / Virginia GIS clearinghouse",
+     "url": "https://vgin.vdem.virginia.gov/",
+     "note": "Statewide parcel, boundary, and address layers",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia Geographic Information Network parcels",
+     "url": "https://vgin.vdem.virginia.gov/pages/land-records",
+     "note": "Statewide parcel data aggregation",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia DEQ permits and enforcement",
+     "url": "https://www.deq.virginia.gov/",
+     "note": "Environmental permits, violations, and enforcement",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Manassas property search (Vision)",
+     "url": "https://gis.vgsi.com/manassasva/",
+     "note": "Manassas assessments, owners, and sales",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Loudoun LandMARC",
+     "url": "https://www.loudoun.gov/landmarc",
+     "note": "Loudoun Circuit Court land records (deeds, liens) remote access (paid subscription)",
+     "paid": true,
+     "check": "ok"
+    },
+    {
+     "name": "Albemarle County View",
+     "url": "https://countyviewweb.albemarle.org/",
+     "note": "Albemarle property, planning, and building application lookups",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Prince William County Mapper",
+     "url": "https://www.pwcva.gov/department/gis/county-mapper",
+     "note": "PWC parcel and zoning GIS map",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "VA News & Archives",
+   "items": [
+    {
+     "name": "Fairfax County Times",
+     "url": "https://www.fairfaxtimes.com/",
+     "note": "Fairfax local news",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Cardinal / Daily Progress (Charlottesville)",
+     "url": "https://dailyprogress.com/",
+     "note": "Albemarle and Charlottesville news",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Charlottesville Tomorrow",
+     "url": "https://www.cvilletomorrow.org/",
+     "note": "Nonprofit Albemarle/Charlottesville local news",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "The Virginia Star",
+     "url": "https://thestarnewsnetwork.com/the-virginia-star/",
+     "note": "Conservative-leaning Virginia politics news",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Blue Virginia",
+     "url": "https://bluevirginia.us/",
+     "note": "Progressive Virginia politics blog",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "The Bull Elephant",
+     "url": "https://thebullelephant.com/",
+     "note": "Conservative Virginia politics blog",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Library of Virginia",
+     "url": "https://www.lva.virginia.gov/",
+     "note": "State archives, historical records, and government publications",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Virginia Chronicle (digital newspapers)",
+     "url": "https://www.virginiachronicle.com/",
+     "note": "Free full-text historical Virginia newspapers from the Library of Virginia",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Library of Virginia research guides",
+     "url": "https://lva-virginia.libguides.com/",
+     "note": "Research guides incl. government records and older campaign finance",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Chronicling America (LOC)",
+     "url": "https://www.loc.gov/collections/chronicling-america/",
+     "note": "Historical U.S. newspapers full text",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Google News",
+     "url": "https://news.google.com/",
+     "note": "Current coverage search; set alerts",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Google Alerts",
+     "url": "https://www.google.com/alerts",
+     "note": "Email alerts for names and topics",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Patch (Virginia)",
+     "url": "https://patch.com/virginia/across-va",
+     "note": "Hyperlocal community news by town",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": [
+    {
+     "category": "VA News & Archives",
+     "name": "Virginia Mercury",
+     "url": "https://virginiamercury.com/",
+     "existingSlug": "virginia-mercury",
+     "existingTitle": "Virginia Mercury"
+    },
+    {
+     "category": "VA News & Archives",
+     "name": "Cardinal News",
+     "url": "https://cardinalnews.org/",
+     "existingSlug": "cardinal-news",
+     "existingTitle": "Cardinal News"
+    },
+    {
+     "category": "VA News & Archives",
+     "name": "Richmond Times-Dispatch",
+     "url": "https://richmond.com/",
+     "existingSlug": "richmond-times-dispatch",
+     "existingTitle": "Richmond Times-Dispatch"
+    },
+    {
+     "category": "VA News & Archives",
+     "name": "Loudoun Times-Mirror",
+     "url": "https://www.loudountimes.com/",
+     "existingSlug": "loudoun-times-mirror",
+     "existingTitle": "Loudoun Times-Mirror"
+    },
+    {
+     "category": "VA News & Archives",
+     "name": "Loudoun Now",
+     "url": "https://www.loudounnow.com/",
+     "existingSlug": "loudoun-now",
+     "existingTitle": "Loudoun Now"
+    },
+    {
+     "category": "VA News & Archives",
+     "name": "InsideNoVa",
+     "url": "https://www.insidenova.com/",
+     "existingSlug": "insidenova",
+     "existingTitle": "InsideNoVa"
+    },
+    {
+     "category": "VA News & Archives",
+     "name": "WTOP",
+     "url": "https://wtop.com/",
+     "existingSlug": "wtop",
+     "existingTitle": "WTOP"
+    },
+    {
+     "category": "VA News & Archives",
+     "name": "Bacon's Rebellion",
+     "url": "https://www.baconsrebellion.com/",
+     "existingSlug": "bacon-s-rebellion",
+     "existingTitle": "Bacon's Rebellion"
+    }
+   ]
+  },
+  {
+   "name": "Federal: Campaign Finance",
+   "items": [
+    {
+     "name": "FEC (Federal Election Commission)",
+     "url": "https://www.fec.gov/data/",
+     "note": "Federal candidates, PACs, and individual contribution search",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "FEC individual contributions",
+     "url": "https://www.fec.gov/data/receipts/individual-contributions/",
+     "note": "Look up federal donations by name, employer, ZIP",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "OpenSecrets: Virginia",
+     "url": "https://www.opensecrets.org/state-profiles/virginia/summary?scope=us_congress",
+     "note": "Virginia federal delegation, races, and donors",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "OpenSecrets personal finances",
+     "url": "https://www.opensecrets.org/personal-finances",
+     "note": "Members of Congress financial disclosure summaries",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "House financial disclosures",
+     "url": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "note": "House member and candidate financial disclosures and stock trades",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Senate financial disclosures (eFD)",
+     "url": "https://efdsearch.senate.gov/search/home/",
+     "note": "Senator and candidate financial disclosures",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "IRS 527 political organization search",
+     "url": "https://forms.irs.gov/app/pod/basicSearch/search?format=",
+     "note": "IRS Section 527 political organization filings (8871/8872)",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": [
+    {
+     "category": "Federal: Campaign Finance",
+     "name": "OpenSecrets",
+     "url": "https://www.opensecrets.org/",
+     "existingSlug": "opensecrets",
+     "existingTitle": "OpenSecrets"
+    }
+   ]
+  },
+  {
+   "name": "Federal: Nonprofits",
+   "items": [
+    {
+     "name": "ProPublica Nonprofit Explorer",
+     "url": "https://projects.propublica.org/nonprofits/",
+     "note": "Search nonprofit 990s, executive pay, and finances",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "IRS Tax Exempt Organization Search (TEOS)",
+     "url": "https://apps.irs.gov/app/eos/",
+     "note": "Verify exempt status and pull 990s and determination letters",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Candid (GuideStar) profiles",
+     "url": "https://www.guidestar.org/",
+     "note": "Nonprofit profiles (some features paid)",
+     "paid": true,
+     "check": "ok"
+    },
+    {
+     "name": "VDACS charitable solicitation",
+     "url": "https://www.vdacs.virginia.gov/food-charitable-solicitation.shtml",
+     "note": "Charities registered to solicit in Virginia",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "InfluenceWatch",
+     "url": "https://www.influencewatch.org/",
+     "note": "Profiles of advocacy groups, funders, and activists (Capital Research Center; right-leaning)",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "Federal: Spending",
+   "items": [
+    {
+     "name": "SAM.gov",
+     "url": "https://sam.gov/",
+     "note": "Federal contractor registrations and exclusions",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Grants.gov",
+     "url": "https://www.grants.gov/",
+     "note": "Federal grant opportunities",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Federal Audit Clearinghouse",
+     "url": "https://www.fac.gov/",
+     "note": "Single audits of local governments and nonprofits receiving federal money",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "EPA ECHO",
+     "url": "https://echo.epa.gov/",
+     "note": "Facility environmental compliance and enforcement",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "OSHA establishment search",
+     "url": "https://www.osha.gov/ords/imis/establishment.html",
+     "note": "Workplace safety inspections and violations by company",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Violation Tracker (Good Jobs First)",
+     "url": "https://violationtracker.goodjobsfirst.org/",
+     "note": "Corporate penalties and settlements across federal and state agencies",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Subsidy Tracker (Good Jobs First)",
+     "url": "https://subsidytracker.goodjobsfirst.org/",
+     "note": "Economic development subsidies by company and state, incl. Virginia deals",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": [
+    {
+     "category": "Federal: Spending",
+     "name": "USAspending.gov",
+     "url": "https://www.usaspending.gov/",
+     "existingSlug": "usaspending-gov",
+     "existingTitle": "USAspending.gov"
+    }
+   ]
+  },
+  {
+   "name": "Federal: Legislation",
+   "items": [
+    {
+     "name": "GovInfo",
+     "url": "https://www.govinfo.gov/",
+     "note": "Official federal publications, Congressional Record, Federal Register",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "GovTrack",
+     "url": "https://www.govtrack.us/",
+     "note": "Bill tracking and member voting records",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Clerk of the House roll call votes",
+     "url": "https://clerk.house.gov/Votes",
+     "note": "Official House roll call votes",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Senate roll call votes",
+     "url": "https://www.senate.gov/legislative/votes_new.htm",
+     "note": "Official Senate roll call votes",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Federal Register",
+     "url": "https://www.federalregister.gov/",
+     "note": "Federal rules, notices, and executive orders",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Regulations.gov",
+     "url": "https://www.regulations.gov/",
+     "note": "Federal rulemaking dockets and public comments",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": [
+    {
+     "category": "Federal: Legislation",
+     "name": "Congress.gov",
+     "url": "https://www.congress.gov/",
+     "existingSlug": "congress-gov",
+     "existingTitle": "Congress.gov"
+    },
+    {
+     "category": "Federal: Legislation",
+     "name": "C-SPAN Video Library",
+     "url": "https://www.c-span.org/",
+     "existingSlug": "c-span",
+     "existingTitle": "C-SPAN"
+    }
+   ]
+  },
+  {
+   "name": "Federal: Lobbying & Foreign",
+   "items": [
+    {
+     "name": "LDA lobbying disclosure (lda.gov)",
+     "url": "https://lda.gov/",
+     "note": "Federal lobbying registrations, reports, and LD-203 contributions",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "House lobbying disclosure",
+     "url": "https://lobbyingdisclosure.house.gov/",
+     "note": "House-side federal lobbying filings",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "FARA (Foreign Agents Registration Act)",
+     "url": "https://efile.fara.gov/ords/fara/f?p=1381:1",
+     "note": "Registered foreign agents and their filings",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "FARA (DOJ info)",
+     "url": "https://www.justice.gov/nsd-fara",
+     "note": "FARA overview and search link",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "LittleSis",
+     "url": "https://littlesis.org/",
+     "note": "Power mapping of people, companies, and relationships",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "OpenSecrets lobbying",
+     "url": "https://www.opensecrets.org/federal-lobbying",
+     "note": "Federal lobbying spending by client, firm, and issue",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "Investigative Databases",
+   "items": [
+    {
+     "name": "The Accountability Project (TAP)",
+     "url": "https://publicaccountability.org/",
+     "note": "Search 2.7B+ public records (donors, contracts, salaries, licenses) by name or address; free MuckRock login unlocks voter/property data. Old tap.theaccountabilityproject.org address no longer resolves",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "OCCRP Aleph",
+     "url": "https://aleph.occrp.org/",
+     "note": "Searchable leaks, company registries, and court records worldwide (free account for some data)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "ICIJ Offshore Leaks Database",
+     "url": "https://offshoreleaks.icij.org/",
+     "note": "Panama, Paradise, and Pandora Papers offshore entities and officers",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "OpenSanctions",
+     "url": "https://www.opensanctions.org/",
+     "note": "Sanctions lists and politically exposed persons (PEPs)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "DocumentCloud",
+     "url": "https://www.documentcloud.org/",
+     "note": "Search and annotate public documents published by newsrooms",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "MuckRock FOIA request search",
+     "url": "https://www.muckrock.com/foi/list/",
+     "note": "Browse others' public records requests and released documents",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Bellingcat",
+     "url": "https://www.bellingcat.com/",
+     "note": "Investigations and how-to guides on open-source research methods",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "People & Property",
+   "items": [
+    {
+     "name": "TruePeopleSearch",
+     "url": "https://www.truepeoplesearch.com/",
+     "note": "Free people search: addresses, relatives, phones (verify independently)",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "FastPeopleSearch",
+     "url": "https://www.fastpeoplesearch.com/",
+     "note": "Free people search; confirm with official records",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "FamilySearch",
+     "url": "https://www.familysearch.org/",
+     "note": "Genealogy records incl. death and marriage indexes (free account)",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "FAA aircraft registry",
+     "url": "https://registry.faa.gov/aircraftinquiry/",
+     "note": "Aircraft ownership lookups",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "USPTO trademark search",
+     "url": "https://tmsearch.uspto.gov/",
+     "note": "Trademarks tied to people or companies",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Google Patents",
+     "url": "https://patents.google.com/",
+     "note": "Patents by inventor or assignee",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Nationwide Environmental Title Research (NETR) Online - VA",
+     "url": "https://publicrecords.netronline.com/state/VA",
+     "note": "Directory of every VA locality's assessor and land records sites",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "BRB Publications free public records directory",
+     "url": "https://www.brbpublications.com/freesites/freesites.aspx",
+     "note": "Directory of free government record sites by state",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": []
+  },
+  {
+   "name": "Social & Web Archive",
+   "items": [
+    {
+     "name": "X Advanced Search",
+     "url": "https://x.com/search-advanced",
+     "note": "Search posts by account, date range, keywords, and engagement (needs an X login)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Meta Ad Library",
+     "url": "https://www.facebook.com/ads/library/",
+     "note": "Political ads on Facebook and Instagram with spend and targeting",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Google Ads Transparency Center",
+     "url": "https://adstransparency.google.com/",
+     "note": "Political and other ads run on Google and YouTube by advertiser",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Google Political Ads report",
+     "url": "https://adstransparency.google.com/political?region=US",
+     "note": "U.S. political ad spending on Google",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Wayback Machine (Internet Archive)",
+     "url": "https://web.archive.org/",
+     "note": "Archived versions of websites; save pages as evidence",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "archive.today",
+     "url": "https://archive.today/",
+     "note": "Snapshot pages, including social posts",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Internet Archive TV News Archive",
+     "url": "https://archive.org/details/tv",
+     "note": "Searchable TV news clips",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Social Searcher",
+     "url": "https://www.social-searcher.com/",
+     "note": "Free cross-platform social mention search",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "WhatsMyName",
+     "url": "https://whatsmyname.app/",
+     "note": "Find a username across hundreds of sites",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "ICANN Lookup (WHOIS/RDAP)",
+     "url": "https://lookup.icann.org/",
+     "note": "Domain registration records for campaign or PAC websites",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "ViewDNS.info",
+     "url": "https://viewdns.info/",
+     "note": "Reverse IP, DNS history, and related domain lookups",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "crt.sh (certificate search)",
+     "url": "https://crt.sh/",
+     "note": "Find subdomains and related sites via SSL certificates",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "BuiltWith",
+     "url": "https://builtwith.com/",
+     "note": "Website technology and shared tracking IDs (partly paid)",
+     "paid": true,
+     "check": "ok"
+    },
+    {
+     "name": "Google Lens",
+     "url": "https://lens.google.com/",
+     "note": "Reverse image search",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "TinEye",
+     "url": "https://tineye.com/",
+     "note": "Reverse image search with first-seen dates",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "InVID / WeVerify plugin",
+     "url": "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/",
+     "note": "Video and image verification browser plugin",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Reddit search",
+     "url": "https://www.reddit.com/search/",
+     "note": "Local subreddit discussion (e.g., r/nova, r/Virginia)",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Wayback Machine Save Page Now",
+     "url": "https://web.archive.org/save",
+     "note": "Archive a page on demand to preserve evidence",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": [
+    {
+     "category": "Social & Web Archive",
+     "name": "YouTube",
+     "url": "https://www.youtube.com/",
+     "existingSlug": "youtube",
+     "existingTitle": "YouTube"
+    }
+   ]
+  },
+  {
+   "name": "OSINT Frameworks",
+   "items": [
+    {
+     "name": "OSINT Framework",
+     "url": "https://osintframework.com/",
+     "note": "Clickable tree of OSINT tools by category",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Bellingcat Online Investigation Toolkit",
+     "url": "https://bellingcat.gitbook.io/toolkit",
+     "note": "Reviewed, regularly updated catalog of investigation tools",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "IntelTechniques tools",
+     "url": "https://inteltechniques.com/tools/",
+     "note": "Search tools and resources from Michael Bazzell",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "GIJN Resource Center",
+     "url": "https://gijn.org/resources/",
+     "note": "Investigative journalism guides incl. political finance and public records",
+     "paid": false,
+     "check": "unconfirmed"
+    },
+    {
+     "name": "Bsquared Intel: OSINT for political campaigns",
+     "url": "https://bsquaredintel.com/osint-resources-for-political-campaigns/",
+     "note": "Short guide to OSINT for opposition and self-research",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Awesome OSINT (GitHub)",
+     "url": "https://github.com/jivoi/awesome-osint",
+     "note": "Large curated list of OSINT tools",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Start.me OSINT pages",
+     "url": "https://start.me/p/ZME8nR/osint",
+     "note": "Community OSINT bookmark collections",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "Investigative Reporters and Editors (IRE)",
+     "url": "https://www.ire.org/",
+     "note": "Tipsheets and data resources for public records reporting",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "OSINT Newsletter tools library",
+     "url": "https://tools.osintnewsletter.com/",
+     "note": "Searchable tools library with cost and use notes",
+     "paid": false,
+     "check": "ok"
+    },
+    {
+     "name": "UNISHKA resources",
+     "url": "https://unishka.com/resources/",
+     "note": "Toolkit for investigative journalists and anti-corruption research",
+     "paid": false,
+     "check": "ok"
+    }
+   ],
+   "merged": []
+  }
+ ]
+}
