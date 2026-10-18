@@ -3,6 +3,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ExternalLink, PlayCircle } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
+import { V4Main } from "@/components/site/lcps-v4";
 import { Kicker } from "@/components/site/kicker";
 import { FTM_TRANSCRIPT_LABEL, ftmTranscriptFor } from "@/content/ftm-transcripts";
 import {
@@ -29,17 +30,19 @@ export const Route = createFileRoute("/general-assembly/house/recaps/$slug")({
   }),
   notFoundComponent: () => (
     <SiteShell>
-      <main className="mx-auto max-w-xl px-4 py-24 text-center">
+      <V4Main>
+        <div className="mx-auto max-w-xl px-4 py-24 text-center">
         <h1 className="font-serif text-3xl font-medium">Not found</h1>
         <p className="mt-4">
           <Link
             to="/general-assembly/house"
-            className="text-[#1E4B8E] underline-offset-2 hover:underline"
+            className="text-gold underline-offset-2 hover:underline"
           >
             Back to the House
           </Link>
         </p>
-      </main>
+        </div>
+      </V4Main>
     </SiteShell>
   ),
 });
@@ -55,7 +58,7 @@ function RollCall({ rc }: { rc: HouseRollCall }) {
           href={first.voteHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-mono text-xs font-semibold text-[#1E4B8E] hover:underline"
+          className="font-mono text-xs font-semibold text-gold hover:underline"
         >
           {rc.voteId}
         </a>
@@ -76,7 +79,7 @@ function RollCall({ rc }: { rc: HouseRollCall }) {
               href={b.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-mono text-xs font-semibold text-foreground hover:text-[#1E4B8E] hover:underline"
+              className="font-mono text-xs font-semibold text-foreground hover:text-gold hover:underline"
             >
               {b.bill}
             </a>{" "}
@@ -86,7 +89,7 @@ function RollCall({ rc }: { rc: HouseRollCall }) {
       </ul>
       {rc.members ? (
         <details className="mt-1.5">
-          <summary className="cursor-pointer text-xs text-[#1E4B8E]">
+          <summary className="cursor-pointer text-xs text-gold">
             How each delegate voted
           </summary>
           <dl className="mt-1 space-y-1 text-xs">
@@ -102,7 +105,7 @@ function RollCall({ rc }: { rc: HouseRollCall }) {
               ))}
           </dl>
           {rc.memberTally && rc.tally && rc.memberTally !== rc.tally ? (
-            <p className="mt-1 text-xs text-[#6b3a12]">
+            <p className="mt-1 text-xs text-gold">
               The LIS member list totals {rc.memberTally}; the LIS history line reads {rc.tally}.
               Check the LIS vote record.
             </p>
@@ -137,111 +140,118 @@ function RecapPage() {
 
   return (
     <SiteShell>
+      <V4Main>
       <HomeSearch />
-      <main className="mx-auto w-full max-w-5xl px-4 py-10 sm:px-6 sm:py-14">
-        <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
-          <Link to="/general-assembly" className="hover:text-foreground hover:underline">
-            General Assembly
-          </Link>
-          <span className="mx-2 text-border">/</span>
-          <Link to="/general-assembly/house" className="hover:text-foreground hover:underline">
-            House
-          </Link>
-          <span className="mx-2 text-border">/</span>
-          Meeting recap
-        </p>
-        <Kicker className="mt-4">Virginia House of Delegates · Floor session</Kicker>
-        <h1 className="mt-2 font-serif text-3xl font-medium tracking-tight sm:text-4xl">
-          House Floor Session, {recap.dateLabel}
-        </h1>
-        <p className="mt-2 text-sm text-muted-foreground">
-          House Chamber, State Capitol, Richmond
-          {recap.sessions.length ? ` · ${recap.sessions.join(" · ")}` : ""}
-        </p>
-
-        <div className="mt-8 grid gap-6 lg:grid-cols-[1.15fr_1fr]">
-          <section className="rounded-md border border-border bg-card px-4 py-5 sm:px-5">
-            <Kicker>What was decided · How each member voted</Kicker>
-            {!recap.votesUrl ? (
-              <aside className="mt-3 rounded-r-md border-l-4 border-[#c47a3a] bg-[#fdf0e6] px-4 py-3 text-sm text-[#6b3a12]">
-                <strong className="font-semibold">No official roll-call votes on record.</strong>{" "}
-                LIS lists no House floor roll calls for this day. See the LIS House minutes.
-              </aside>
-            ) : failed ? (
-              <p className="mt-3 text-sm text-[#b42318]">The vote file did not load. Try again.</p>
-            ) : !rollCalls ? (
-              <p className="mt-3 text-sm text-muted-foreground">
-                Loading {recap.rollCallCount} roll call{recap.rollCallCount === 1 ? "" : "s"}…
-              </p>
-            ) : (
-              <ul className="mt-2 divide-y divide-border">
-                {rollCalls.map((rc) => (
-                  <RollCall key={`${rc.session}-${rc.voteId}`} rc={rc} />
-                ))}
-              </ul>
-            )}
-            <p className="mt-3 text-xs text-muted-foreground">
-              Source: {HOUSE_VOTES_SOURCE}. Each vote number opens the official LIS vote record.
-              Voice votes are not listed; see the{" "}
-              <a
-                href={LIS_HOUSE_MINUTES}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#1E4B8E] hover:underline"
-              >
-                LIS House minutes
-              </a>
-              .
+      <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
+        <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
+        <div className="mx-auto max-w-6xl px-5 pt-6 pb-10 sm:px-8">
+            <p className="font-mono text-xs tracking-widest text-night-muted uppercase">
+              <Link to="/general-assembly" className="hover:text-white hover:underline">
+                General Assembly
+              </Link>
+              <span className="mx-2 text-gold">/</span>
+              <Link to="/general-assembly/house" className="hover:text-white hover:underline">
+                House
+              </Link>
+              <span className="mx-2 text-gold">/</span>
+              Meeting recap
             </p>
-          </section>
+            <Kicker className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold sm:text-base">Virginia House of Delegates · Floor session</Kicker>
+            <h1 className="mt-2 font-serif text-3xl font-bold uppercase leading-[1.08] sm:text-5xl">
+              House Floor Session, {recap.dateLabel}
+            </h1>
+            <p className="mt-3 text-sm text-on-dark-muted sm:text-base">
+              House Chamber, State Capitol, Richmond
+              {recap.sessions.length ? ` · ${recap.sessions.join(" · ")}` : ""}
+            </p>
 
-          <section className="space-y-6">
-            <div className="rounded-md border border-border bg-card px-4 py-5 sm:px-5">
-              <Kicker>Watch</Kicker>
-              <ul className="mt-3 space-y-2">
-                {meetings.map((m) => (
-                  <li key={m.id} className="flex items-center gap-2 text-sm">
-                    <a
-                      href={houseVideoUrl(m)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 rounded-md bg-[#0d7377] px-2.5 py-1 font-mono text-xs font-semibold text-white hover:bg-[#095456]"
-                    >
-                      <PlayCircle className="size-3.5" aria-hidden />
-                      Video
-                    </a>
-                    {m.title} · {m.duration}
-                    <ExternalLink className="size-3 text-muted-foreground" aria-hidden />
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-3 text-xs text-muted-foreground">
-                Official video from the House of Delegates archive (YouTube-hosted). The video can start
-                before the House convenes.
-              </p>
-            </div>
-            <div className="rounded-md border border-border bg-card px-4 py-5 sm:px-5">
-              <Kicker>Moments worth watching</Kicker>
-              {transcribed.length ? (
-                <p className="mt-3 text-sm">
-                  Search every spoken word in{" "}
-                  <Link
-                    to="/general-assembly/house"
-                    className="text-[#1E4B8E] underline-offset-2 hover:underline"
-                  >
-                    Find the Moment
-                  </Link>
-                  . {FTM_TRANSCRIPT_LABEL}
+        </div>
+      </section>
+      <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-8 sm:py-10">
+          <div className="grid gap-6 lg:grid-cols-[1.15fr_1fr]">
+            <section className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 px-4 py-5 sm:px-6">
+              <Kicker className="text-gold">What was decided · How each member voted</Kicker>
+              {!recap.votesUrl ? (
+                <aside className="mt-3 rounded-r-md border-l-4 border-gold bg-gold/10 px-4 py-3 text-sm text-[#F6F3EA]">
+                  <strong className="font-semibold">No official roll-call votes on record.</strong>{" "}
+                  LIS lists no House floor roll calls for this day. See the LIS House minutes.
+                </aside>
+              ) : failed ? (
+                <p className="mt-3 text-sm text-[#FF8A93]">The vote file did not load. Try again.</p>
+              ) : !rollCalls ? (
+                <p className="mt-3 text-sm text-muted-foreground">
+                  Loading {recap.rollCallCount} roll call{recap.rollCallCount === 1 ? "" : "s"}…
                 </p>
               ) : (
-                <p className="mt-3 text-sm text-muted-foreground">
-                  Full recap after transcript. Official LIS roll calls are below now; key moments post here once this session is transcribed.
-                </p>
+                <ul className="mt-2 divide-y divide-border">
+                  {rollCalls.map((rc) => (
+                    <RollCall key={`${rc.session}-${rc.voteId}`} rc={rc} />
+                  ))}
+                </ul>
               )}
-            </div>
-          </section>
-        </div>
-      </main>
+              <p className="mt-3 text-xs text-muted-foreground">
+                Source: {HOUSE_VOTES_SOURCE}. Each vote number opens the official LIS vote record.
+                Voice votes are not listed; see the{" "}
+                <a
+                  href={LIS_HOUSE_MINUTES}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gold hover:underline"
+                >
+                  LIS House minutes
+                </a>
+                .
+              </p>
+            </section>
+
+            <section className="space-y-6">
+              <div className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 px-4 py-5 sm:px-6">
+                <Kicker className="text-gold">Watch</Kicker>
+                <ul className="mt-3 space-y-2">
+                  {meetings.map((m) => (
+                    <li key={m.id} className="flex items-center gap-2 text-sm">
+                      <a
+                        href={houseVideoUrl(m)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 rounded-md bg-gold px-2.5 py-1 font-mono text-xs font-semibold text-navy-900 hover:brightness-110"
+                      >
+                        <PlayCircle className="size-3.5" aria-hidden />
+                        Video
+                      </a>
+                      {m.title} · {m.duration}
+                      <ExternalLink className="size-3 text-muted-foreground" aria-hidden />
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-3 text-xs text-muted-foreground">
+                  Official video from the House of Delegates archive (YouTube-hosted). The video can start
+                  before the House convenes.
+                </p>
+              </div>
+              <div className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 px-4 py-5 sm:px-6">
+                <Kicker className="text-gold">Moments worth watching</Kicker>
+                {transcribed.length ? (
+                  <p className="mt-3 text-sm">
+                    Search every spoken word in{" "}
+                    <Link
+                      to="/general-assembly/house"
+                      className="text-gold underline-offset-2 hover:underline"
+                    >
+                      Find the Moment
+                    </Link>
+                    . {FTM_TRANSCRIPT_LABEL}
+                  </p>
+                ) : (
+                  <p className="mt-3 text-sm text-muted-foreground">
+                    Full recap after transcript. Official LIS roll calls are below now; key moments post here once this session is transcribed.
+                  </p>
+                )}
+              </div>
+            </section>
+          </div>
+      </div>
+      </V4Main>
     </SiteShell>
   );
 }
