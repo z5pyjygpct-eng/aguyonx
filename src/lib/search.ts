@@ -400,7 +400,7 @@ function buildIndex(): SearchDoc[] {
       shelf: "2027",
       href: "/2027",
       titleFields: `${c.name} ${c.officeSought} ${loc} ${status} 2027 Democrat Democrats candidate`,
-      body: `${c.officeSought} ${loc} ${status} 2027 Democrats name file`,
+      body: `${c.officeSought} ${loc} ${status} 2027 election name file`,
       districtNumber: null,
     });
   }

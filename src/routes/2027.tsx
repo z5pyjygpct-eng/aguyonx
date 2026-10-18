@@ -23,7 +23,7 @@ function Democrats2027Page() {
           2027 cycle
         </p>
         <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          2027 Democrats
+          2027 election
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">{CANDIDATES_2027_DEK}</p>
         {CANDIDATES_2027.length === 0 ? (

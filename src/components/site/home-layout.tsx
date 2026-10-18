@@ -36,7 +36,7 @@ function GivePill({ className }: { className?: string }) {
 }
 
 function officeRailLabel(title: string) {
-  if (title === "2027 Democrats") return "2027 VA Democrats";
+  if (title === "2027 election") return "2027 VA election";
   return title;
 }
 

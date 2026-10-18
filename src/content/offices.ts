@@ -31,8 +31,8 @@ export const OFFICE_DOORS: OfficeDoor[] = [
   },
   {
     to: "/2027",
-    navLabel: "2027 Democrats",
-    title: "2027 Democrats",
+    navLabel: "2027 election",
+    title: "2027 election",
     chamber: "2027 cycle",
     dek: "Declared and potential Democratic candidates for 2027 (House, Senate, local). 2027 also covers constitutional officers (Commonwealth's Attorney, Commissioner of Revenue, Treasurer, Sheriff) when a Democrat is sitting or declared. This is a name file, not the shop. Links to already-public news when we have them.",
   },

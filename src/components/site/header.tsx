@@ -25,7 +25,7 @@ export const NAV_TOOLS = [
   { to: "/nova-briefing", label: "Daily NoVA Briefing" },
   { to: "/library", label: "Research Library" },
   { to: "/library/foia", label: "FOIA letter desk" },
-  { to: "/2027", label: "2027 Democrats" },
+  { to: "/2027", label: "2027 election" },
   { to: "/tips", label: "Got Tips?" },
 ] as const;
 
@@ -44,7 +44,7 @@ export const NAV_OFFICES = [
   { to: "/senators", label: "Senators" },
   { to: "/general-assembly", label: "Gen. Assembly" },
   { to: "/counties", label: "Counties" },
-  { to: "/2027", label: "2027 Democrats" },
+  { to: "/2027", label: "2027 election" },
 ] as const;
 export const NAV_DESK = [
   { to: "/about", label: "About" },
