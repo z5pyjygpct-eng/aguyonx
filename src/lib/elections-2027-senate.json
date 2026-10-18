@@ -1,0 +1,1112 @@
+{
+ "office": "senate",
+ "election": "2027-11-02",
+ "as_of": "2026-10-18",
+ "source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+ "races": [
+  {
+   "id": "sd1",
+   "district": 1,
+   "seat": "SD1",
+   "seats": 1,
+   "current_member": {
+    "name": "Timmy French",
+    "party": "R",
+    "slug": "timmy-french",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-1/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Emily Scott",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Timmy French",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd2",
+   "district": 2,
+   "seat": "SD2",
+   "seats": 1,
+   "current_member": {
+    "name": "Mark D. Obenshain",
+    "party": "R",
+    "slug": "mark-d-obenshain",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-2/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Mark Obenshain",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd3",
+   "district": 3,
+   "seat": "SD3",
+   "seats": 1,
+   "current_member": {
+    "name": "Christopher T. Head",
+    "party": "R",
+    "slug": "christopher-t-head",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-3/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Antwhon Suiter",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Christopher Head",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd4",
+   "district": 4,
+   "seat": "SD4",
+   "seats": 1,
+   "current_member": {
+    "name": "David R. Suetterlein",
+    "party": "R",
+    "slug": "david-r-suetterlein",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-4/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Trish White-Boyd",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Dave Suetterlein",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd5",
+   "district": 5,
+   "seat": "SD5",
+   "seats": 1,
+   "current_member": {
+    "name": "T. Travis Hackworth",
+    "party": "R",
+    "slug": "t-travis-hackworth",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-5/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Lora Brown",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Travis Hackworth",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd6",
+   "district": 6,
+   "seat": "SD6",
+   "seats": 1,
+   "current_member": {
+    "name": "Todd E. Pillion",
+    "party": "R",
+    "slug": "todd-e-pillion",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-6/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jessica Watts",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Todd Pillion",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd7",
+   "district": 7,
+   "seat": "SD7",
+   "seats": 1,
+   "current_member": {
+    "name": "William M. Stanley Jr.",
+    "party": "R",
+    "slug": "william-m-stanley-jr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-7/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Maeve McCulloch",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Bill Stanley",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd8",
+   "district": 8,
+   "seat": "SD8",
+   "seats": 1,
+   "current_member": {
+    "name": "Mark J. Peake",
+    "party": "R",
+    "slug": "mark-j-peake",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-8/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Craig Cooper",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Mark Peake",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd9",
+   "district": 9,
+   "seat": "SD9",
+   "seats": 1,
+   "current_member": {
+    "name": "Tammy Brankley Mulchi",
+    "party": "R",
+    "slug": "tammy-brankley-mulchi",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-9/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jasmine Lipscomb",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Paddy Rassbach",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Tina Wyatt Younger",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Tammy Mulchi",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd10",
+   "district": 10,
+   "seat": "SD10",
+   "seats": 1,
+   "current_member": {
+    "name": "Luther H. Cifers III",
+    "party": "R",
+    "slug": "luther-h-cifers-iii",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-10/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Luther Henry Cifers, III",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd11",
+   "district": 11,
+   "seat": "SD11",
+   "seats": 1,
+   "current_member": {
+    "name": "R. Creigh Deeds",
+    "party": "D",
+    "slug": "r-creigh-deeds",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-11/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Creigh Deeds",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Philip Hamilton",
+     "incumbent": false,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd12",
+   "district": 12,
+   "seat": "SD12",
+   "seats": 1,
+   "current_member": {
+    "name": "Glen H. Sturtevant Jr.",
+    "party": "R",
+    "slug": "glen-h-sturtevant-jr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-12/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Randolph Todd Critzer, Jr",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Tiawana Giles",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Natan McKenzie",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Celvin Anthony Richardson",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Laura Lee Thompson",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Glen Sturtevant",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd13",
+   "district": 13,
+   "seat": "SD13",
+   "seats": 1,
+   "current_member": {
+    "name": "Lashrecse D. Aird",
+    "party": "D",
+    "slug": "lashrecse-d-aird",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-13/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Lashrecse Aird",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd14",
+   "district": 14,
+   "seat": "SD14",
+   "seats": 1,
+   "current_member": {
+    "name": "Lamont Bagby",
+    "party": "D",
+    "slug": "lamont-bagby",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-14/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Lamont Bagby",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd15",
+   "district": 15,
+   "seat": "SD15",
+   "seats": 1,
+   "current_member": {
+    "name": "Michael J. Jones",
+    "party": "D",
+    "slug": "michael-j-jones",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-15/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Michael Jones",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "John R Thomas",
+     "incumbent": false,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd16",
+   "district": 16,
+   "seat": "SD16",
+   "seats": 1,
+   "current_member": {
+    "name": "Schuyler T. VanValkenburg",
+    "party": "D",
+    "slug": "schuyler-t-vanvalkenburg",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-16/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Schuyler VanValkenburg",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Spencer Stuart Philips",
+     "incumbent": false,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd17",
+   "district": 17,
+   "seat": "SD17",
+   "seats": 1,
+   "current_member": {
+    "name": "Emily M. Jordan",
+    "party": "R",
+    "slug": "emily-m-jordan",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-17/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Michael Williamson",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Emily Jordan",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd18",
+   "district": 18,
+   "seat": "SD18",
+   "seats": 1,
+   "current_member": {
+    "name": "L. Louise Lucas",
+    "party": "D",
+    "slug": "l-louise-lucas",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-18/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Louise Lucas",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd19",
+   "district": 19,
+   "seat": "SD19",
+   "seats": 1,
+   "current_member": {
+    "name": "Christie New Craig",
+    "party": "R",
+    "slug": "christie-new-craig",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-19/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Therese Nicole Morin",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Christie New Craig",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd20",
+   "district": 20,
+   "seat": "SD20",
+   "seats": 1,
+   "current_member": {
+    "name": "Bill DeSteph",
+    "party": "R",
+    "slug": "bill-desteph",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-20/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Becky Winstead-Roberts",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Bill DeSteph",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd21",
+   "district": 21,
+   "seat": "SD21",
+   "seats": 1,
+   "current_member": {
+    "name": "Angelia Williams Graves",
+    "party": "D",
+    "slug": "angelia-williams-graves",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-21/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Angelia Williams Graves",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd22",
+   "district": 22,
+   "seat": "SD22",
+   "seats": 1,
+   "current_member": {
+    "name": "Aaron R. Rouse",
+    "party": "D",
+    "slug": "aaron-r-rouse",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-22/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Aaron Rouse",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Bobby Dyer",
+     "incumbent": false,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd23",
+   "district": 23,
+   "seat": "SD23",
+   "seats": 1,
+   "current_member": {
+    "name": "Mamie E. Locke",
+    "party": "D",
+    "slug": "mamie-e-locke",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-23/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Mamie Locke",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd24",
+   "district": 24,
+   "seat": "SD24",
+   "seats": 1,
+   "current_member": {
+    "name": "J.D. \"Danny\" Diggs",
+    "party": "R",
+    "slug": "j-d-diggs",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-24/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Mark Downey",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Jason Lee Parker",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Lena Weisman",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Danny Diggs",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd25",
+   "district": 25,
+   "seat": "SD25",
+   "seats": 1,
+   "current_member": {
+    "name": "Richard H. Stuart",
+    "party": "R",
+    "slug": "richard-h-stuart",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-25/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Hannah Tiffany",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Richard Stuart",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd26",
+   "district": 26,
+   "seat": "SD26",
+   "seats": 1,
+   "current_member": {
+    "name": "Ryan T. McDougle",
+    "party": "R",
+    "slug": "ryan-t-mcdougle",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-26/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Pam Garner",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Ryan McDougle",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd27",
+   "district": 27,
+   "seat": "SD27",
+   "seats": 1,
+   "current_member": {
+    "name": "Tara A. Durant",
+    "party": "R",
+    "slug": "tara-a-durant",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-27/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Monica Gary",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Tara Durant",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd28",
+   "district": 28,
+   "seat": "SD28",
+   "seats": 1,
+   "current_member": {
+    "name": "Bryce E. Reeves",
+    "party": "R",
+    "slug": "bryce-e-reeves",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-28/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jude Melton",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Danielle Noel Gibeson",
+     "incumbent": false,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Bryce Reeves",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd29",
+   "district": 29,
+   "seat": "SD29",
+   "seats": 1,
+   "current_member": {
+    "name": "Jeremy S. McPike",
+    "party": "D",
+    "slug": "jeremy-s-mcpike",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-29/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jeremy McPike",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd30",
+   "district": 30,
+   "seat": "SD30",
+   "seats": 1,
+   "current_member": {
+    "name": "Danica A. Roem",
+    "party": "D",
+    "slug": "danica-a-roem",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-30/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Danica Roem",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd31",
+   "district": 31,
+   "seat": "SD31",
+   "seats": 1,
+   "current_member": {
+    "name": "Russet W. Perry",
+    "party": "D",
+    "slug": "russet-w-perry",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-31/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Russet Perry",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd32",
+   "district": 32,
+   "seat": "SD32",
+   "seats": 1,
+   "current_member": {
+    "name": "Kannan Srinivasan",
+    "party": "D",
+    "slug": "kannan-srinivasan",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-32/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Kannan Srinivasan",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd33",
+   "district": 33,
+   "seat": "SD33",
+   "seats": 1,
+   "current_member": {
+    "name": "Jennifer D. Carroll Foy",
+    "party": "D",
+    "slug": "jennifer-d-carroll-foy",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-33/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jennifer Carroll Foy",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd34",
+   "district": 34,
+   "seat": "SD34",
+   "seats": 1,
+   "current_member": {
+    "name": "Scott A. Surovell",
+    "party": "D",
+    "slug": "scott-a-surovell",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-34/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Scott Surovell",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd35",
+   "district": 35,
+   "seat": "SD35",
+   "seats": 1,
+   "current_member": {
+    "name": "David W. Marsden",
+    "party": "D",
+    "slug": "david-w-marsden",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-35/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Paul Gilbert",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Dave Marsden",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    },
+    {
+     "name": "Alis Wang",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd36",
+   "district": 36,
+   "seat": "SD36",
+   "seats": 1,
+   "current_member": {
+    "name": "Stella G. Pekarsky",
+    "party": "D",
+    "slug": "stella-g-pekarsky",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-36/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Stella Pekarsky",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd37",
+   "district": 37,
+   "seat": "SD37",
+   "seats": 1,
+   "current_member": {
+    "name": "Saddam Azlan Salim",
+    "party": "D",
+    "slug": "saddam-azlan-salim",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-37/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Saddam Azlan Salim",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd38",
+   "district": 38,
+   "seat": "SD38",
+   "seats": 1,
+   "current_member": {
+    "name": "Jennifer B. Boysko",
+    "party": "D",
+    "slug": "jennifer-b-boysko",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-38/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jennifer Boysko",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd39",
+   "district": 39,
+   "seat": "SD39",
+   "seats": 1,
+   "current_member": {
+    "name": "Elizabeth Bennett-Parker",
+    "party": "D",
+    "slug": "elizabeth-bennett-parker",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-39/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Elizabeth Bennett-Parker",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "sd40",
+   "district": 40,
+   "seat": "SD40",
+   "seats": 1,
+   "current_member": {
+    "name": "Barbara A. Favola",
+    "party": "D",
+    "slug": "barbara-a-favola",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/state-senate-40/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Barbara Favola",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
+    }
+   ]
+  }
+ ]
+}

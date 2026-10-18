@@ -1,0 +1,217 @@
+{
+ "office": "sb",
+ "election": "2027-11-02",
+ "as_of": "2026-10-18",
+ "source_url": "https://www.vpap.org/elections/local/",
+ "localities": [
+  {
+   "id": "loudoun",
+   "name": "Loudoun",
+   "kind": "county",
+   "body": "School Board",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "note": "Staggered terms: At-Large, Ashburn, Catoctin and Little River are up in 2027; the other five seats in 2029.",
+   "note_source_url": "https://www.loudoun.gov/CivicAlerts.aspx?AID=8150&ARC=15798"
+  },
+  {
+   "id": "fairfax-city",
+   "name": "Fairfax City",
+   "kind": "city",
+   "body": "School Board",
+   "on_2027": false,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CITY-SCHOOL-BOARD-ELECTIONS.pdf"
+  },
+  {
+   "id": "manassas",
+   "name": "Manassas",
+   "kind": "city",
+   "body": "School Board",
+   "on_2027": false,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CITY-SCHOOL-BOARD-ELECTIONS.pdf"
+  },
+  {
+   "id": "albemarle",
+   "name": "Albemarle",
+   "kind": "county",
+   "body": "School Board",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "note": "Staggered terms: At-Large, Rivanna, Scottsville and White Hall are up in 2027; Jack Jouett, Rio and Samuel Miller in 2029."
+  }
+ ],
+ "races": [
+  {
+   "id": "loudoun-ashburn",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "School Board",
+   "seat": "Ashburn",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-school-board-ashburn/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Deana Griffiths",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-school-board-ashburn/elections/?year_and_type=2027regular",
+     "party": null,
+     "endorsement": null,
+     "party_source_url": null
+    }
+   ]
+  },
+  {
+   "id": "loudoun-at-large",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "School Board",
+   "seat": "At-Large",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-school-board-at-large/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Anne Pogue Donohue",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-school-board-at-large/elections/?year_and_type=2027regular",
+     "party": null,
+     "endorsement": null,
+     "party_source_url": null
+    }
+   ]
+  },
+  {
+   "id": "loudoun-catoctin",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "School Board",
+   "seat": "Catoctin",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-school-board-catoctin/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Kari LaBell",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-school-board-catoctin/elections/?year_and_type=2027regular",
+     "party": null,
+     "endorsement": null,
+     "party_source_url": null
+    }
+   ]
+  },
+  {
+   "id": "loudoun-little-river",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "School Board",
+   "seat": "Little River",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-school-board-little-river/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Sumera Rashid",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-school-board-little-river/elections/?year_and_type=2027regular",
+     "party": null,
+     "endorsement": null,
+     "party_source_url": null
+    }
+   ]
+  },
+  {
+   "id": "albemarle-at-large",
+   "note": "VPAP still marks Allison Spillman as the incumbent. She resigned in August 2026 and the School Board appointed David Storm to the seat until the next election.",
+   "note_source_url": "https://www.29news.com/2026/09/25/albemarle-school-board-appoints-david-storm-at-large-seat/",
+   "locality": "Albemarle",
+   "locality_id": "albemarle",
+   "body": "School Board",
+   "seat": "At-Large",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/albemarle-county-school-board-at-large/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Allison Spillman",
+     "incumbent": false,
+     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-school-board-at-large/elections/?year_and_type=2027regular",
+     "party": null,
+     "endorsement": null,
+     "party_source_url": null
+    }
+   ]
+  },
+  {
+   "id": "albemarle-rivanna",
+   "locality": "Albemarle",
+   "locality_id": "albemarle",
+   "body": "School Board",
+   "seat": "Rivanna",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/albemarle-county-school-board-rivanna/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Judy N Le",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-school-board-rivanna/elections/?year_and_type=2027regular",
+     "party": null,
+     "endorsement": null,
+     "party_source_url": null
+    }
+   ]
+  },
+  {
+   "id": "albemarle-scottsville",
+   "locality": "Albemarle",
+   "locality_id": "albemarle",
+   "body": "School Board",
+   "seat": "Scottsville",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/albemarle-county-school-board-scottsville/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Ellen Moore Osborne",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-school-board-scottsville/elections/?year_and_type=2027regular",
+     "party": null,
+     "endorsement": null,
+     "party_source_url": null
+    }
+   ]
+  },
+  {
+   "id": "albemarle-white-hall",
+   "locality": "Albemarle",
+   "locality_id": "albemarle",
+   "body": "School Board",
+   "seat": "White Hall",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/albemarle-county-school-board-white-hall/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Rebecca Berlin",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-school-board-white-hall/elections/?year_and_type=2027regular",
+     "party": null,
+     "endorsement": null,
+     "party_source_url": null
+    }
+   ]
+  }
+ ],
+ "no_2027": [
+  {
+   "locality": "Fairfax City",
+   "locality_id": "fairfax-city",
+   "body": "School Board",
+   "next": "Nov. 3, 2026, then 2028",
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CITY-SCHOOL-BOARD-ELECTIONS.pdf"
+  },
+  {
+   "locality": "Manassas",
+   "locality_id": "manassas",
+   "body": "School Board",
+   "next": "Nov. 3, 2026, then 2028",
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CITY-SCHOOL-BOARD-ELECTIONS.pdf"
+  }
+ ],
+ "nonpartisan_note": "VPAP does not display party identification for school board elections; Virginia law (§ 22.1-57.3(E)) has no party nomination process for school board.",
+ "nonpartisan_source_url": "https://law.lis.virginia.gov/vacode/title22.1/chapter5/section22.1-57.3/"
+}

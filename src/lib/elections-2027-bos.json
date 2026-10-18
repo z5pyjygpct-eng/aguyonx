@@ -1,0 +1,288 @@
+{
+ "office": "bos",
+ "election": "2027-11-02",
+ "as_of": "2026-10-18",
+ "source_url": "https://www.vpap.org/elections/local/",
+ "localities": [
+  {
+   "id": "loudoun",
+   "name": "Loudoun",
+   "kind": "county",
+   "body": "Board of Supervisors",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf"
+  },
+  {
+   "id": "fairfax-city",
+   "name": "Fairfax City",
+   "kind": "city",
+   "body": "City Council",
+   "on_2027": false,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CityCncl26-31-November.pdf"
+  },
+  {
+   "id": "manassas",
+   "name": "Manassas",
+   "kind": "city",
+   "body": "City Council",
+   "on_2027": false,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CityCncl26-31-November.pdf"
+  },
+  {
+   "id": "albemarle",
+   "name": "Albemarle",
+   "kind": "county",
+   "body": "Board of Supervisors",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "note": "Staggered terms: Rivanna, Scottsville and White Hall are up in 2027; Jack Jouett, Rio and Samuel Miller in 2029."
+  }
+ ],
+ "races": [
+  {
+   "id": "loudoun-chair",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "Board of Supervisors",
+   "seat": "Chair",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-supervisor-chairperson/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Juli Briskman",
+     "incumbent": false,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-chairperson/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-chairperson/elections/?year_and_type=2027regular"
+    },
+    {
+     "name": "Phyllis Randall",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-chairperson/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-chairperson/elections/?year_and_type=2027regular"
+    }
+   ]
+  },
+  {
+   "id": "loudoun-algonkian",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "Board of Supervisors",
+   "seat": "Algonkian",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-supervisor-algonkian/elections/?year_and_type=2027regular",
+   "candidates": []
+  },
+  {
+   "id": "loudoun-ashburn",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "Board of Supervisors",
+   "seat": "Ashburn",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-supervisor-ashburn/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Mike Turner",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-ashburn/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-ashburn/elections/?year_and_type=2027regular"
+    }
+   ]
+  },
+  {
+   "id": "loudoun-broad-run",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "Board of Supervisors",
+   "seat": "Broad Run",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-supervisor-broad-run/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Sylvia Glass",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-broad-run/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-broad-run/elections/?year_and_type=2027regular"
+    }
+   ]
+  },
+  {
+   "id": "loudoun-catoctin",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "Board of Supervisors",
+   "seat": "Catoctin",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-supervisor-catoctin/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Caleb Kershner",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-catoctin/elections/?year_and_type=2027regular",
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-catoctin/elections/?year_and_type=2027regular"
+    }
+   ]
+  },
+  {
+   "id": "loudoun-dulles",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "Board of Supervisors",
+   "seat": "Dulles",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-supervisor-dulles/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Matt Letourneau",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-dulles/elections/?year_and_type=2027regular",
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-dulles/elections/?year_and_type=2027regular"
+    }
+   ]
+  },
+  {
+   "id": "loudoun-leesburg",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "Board of Supervisors",
+   "seat": "Leesburg",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-supervisor-leesburg/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Forest Hayes",
+     "incumbent": false,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-leesburg/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-leesburg/elections/?year_and_type=2027regular"
+    },
+    {
+     "name": "Charles Jonathan Mattia",
+     "incumbent": false,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-leesburg/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-leesburg/elections/?year_and_type=2027regular"
+    },
+    {
+     "name": "Kristin Umstattd",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-leesburg/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-leesburg/elections/?year_and_type=2027regular"
+    }
+   ]
+  },
+  {
+   "id": "loudoun-little-river",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "Board of Supervisors",
+   "seat": "Little River",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-supervisor-little-river/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Laura TeKrony",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-little-river/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-little-river/elections/?year_and_type=2027regular"
+    }
+   ]
+  },
+  {
+   "id": "loudoun-sterling",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "Board of Supervisors",
+   "seat": "Sterling",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-supervisor-sterling/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Koran Saines",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-sterling/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-sterling/elections/?year_and_type=2027regular"
+    }
+   ]
+  },
+  {
+   "id": "albemarle-rivanna",
+   "locality": "Albemarle",
+   "locality_id": "albemarle",
+   "body": "Board of Supervisors",
+   "seat": "Rivanna",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/albemarle-county-supervisor-rivanna/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Bea LaPisto Kirtley",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-supervisor-rivanna/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/albemarle-county-supervisor-rivanna/elections/?year_and_type=2027regular"
+    }
+   ]
+  },
+  {
+   "id": "albemarle-scottsville",
+   "locality": "Albemarle",
+   "locality_id": "albemarle",
+   "body": "Board of Supervisors",
+   "seat": "Scottsville",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/albemarle-county-supervisor-scottsville/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Mike Pruitt",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-supervisor-scottsville/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/albemarle-county-supervisor-scottsville/elections/?year_and_type=2027regular"
+    }
+   ]
+  },
+  {
+   "id": "albemarle-white-hall",
+   "locality": "Albemarle",
+   "locality_id": "albemarle",
+   "body": "Board of Supervisors",
+   "seat": "White Hall",
+   "seats": 1,
+   "vpap_url": "https://www.vpap.org/offices/albemarle-county-supervisor-white-hall/elections/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Ann Mallek",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-supervisor-white-hall/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/albemarle-county-supervisor-white-hall/elections/?year_and_type=2027regular"
+    }
+   ]
+  }
+ ],
+ "no_2027": [
+  {
+   "locality": "Fairfax City",
+   "locality_id": "fairfax-city",
+   "body": "City Council",
+   "next": "Nov. 3, 2026, then 2028",
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CityCncl26-31-November.pdf"
+  },
+  {
+   "locality": "Manassas",
+   "locality_id": "manassas",
+   "body": "City Council",
+   "next": "Nov. 3, 2026, then 2028",
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CityCncl26-31-November.pdf"
+  }
+ ]
+}

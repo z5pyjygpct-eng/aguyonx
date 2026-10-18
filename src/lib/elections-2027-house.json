@@ -1,0 +1,2524 @@
+{
+ "office": "house",
+ "election": "2027-11-02",
+ "as_of": "2026-10-18",
+ "source_url": "https://www.vpap.org/elections/house/candidates/general/",
+ "races": [
+  {
+   "id": "hd1",
+   "district": 1,
+   "seat": "HD1",
+   "seats": 1,
+   "current_member": {
+    "name": "Patrick A. Hope",
+    "party": "D",
+    "slug": "patrick-a-hope",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-1/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Patrick Hope",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Breanna Helen Tatel",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd2",
+   "district": 2,
+   "seat": "HD2",
+   "seats": 1,
+   "current_member": {
+    "name": "Adele Y. McClure",
+    "party": "D",
+    "slug": "adele-y-mcclure",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-2/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Adele McClure",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd3",
+   "district": 3,
+   "seat": "HD3",
+   "seats": 1,
+   "current_member": {
+    "name": "Alfonso H. Lopez",
+    "party": "D",
+    "slug": "alfonso-h-lopez",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-3/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Alfonso Lopez",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd4",
+   "district": 4,
+   "seat": "HD4",
+   "seats": 1,
+   "current_member": {
+    "name": "Charniele L. Herring",
+    "party": "D",
+    "slug": "charniele-l-herring",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-4/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Charniele Herring",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd5",
+   "district": 5,
+   "seat": "HD5",
+   "seats": 1,
+   "current_member": {
+    "name": "Kirk McPike",
+    "party": "D",
+    "slug": "kirk-mcpike",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-5/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Kirk McPike",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Glen Pine",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd6",
+   "district": 6,
+   "seat": "HD6",
+   "seats": 1,
+   "current_member": {
+    "name": "Richard C. \"Rip\" Sullivan, Jr.",
+    "party": "D",
+    "slug": "richard-c-sullivan-jr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-6/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Rip Sullivan",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd7",
+   "district": 7,
+   "seat": "HD7",
+   "seats": 1,
+   "current_member": {
+    "name": "Karen Keys-Gamarra",
+    "party": "D",
+    "slug": "karen-keys-gamarra",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-7/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Karen Keys-Gamarra",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd8",
+   "district": 8,
+   "seat": "HD8",
+   "seats": 1,
+   "current_member": {
+    "name": "Irene Shin",
+    "party": "D",
+    "slug": "irene-shin",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-8/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Irene Shin",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd9",
+   "district": 9,
+   "seat": "HD9",
+   "seats": 1,
+   "current_member": {
+    "name": "Karrie K. Delaney",
+    "party": "D",
+    "slug": "karrie-k-delaney",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-9/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Karrie Delaney",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd10",
+   "district": 10,
+   "seat": "HD10",
+   "seats": 1,
+   "current_member": {
+    "name": "Dan I. Helmer",
+    "party": "D",
+    "slug": "dan-i-helmer",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-10/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Dan Helmer",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd11",
+   "district": 11,
+   "seat": "HD11",
+   "seats": 1,
+   "current_member": {
+    "name": "Gretchen M. Bulova",
+    "party": "D",
+    "slug": "gretchen-m-bulova",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-11/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Gretchen M Bulova",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Vanessa Cardenas",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd12",
+   "district": 12,
+   "seat": "HD12",
+   "seats": 1,
+   "current_member": {
+    "name": "Holly M. Seibold",
+    "party": "D",
+    "slug": "holly-m-seibold",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-12/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Holly Seibold",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd13",
+   "district": 13,
+   "seat": "HD13",
+   "seats": 1,
+   "current_member": {
+    "name": "Marcus B. Simon",
+    "party": "D",
+    "slug": "marcus-b-simon",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-13/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Marcus Simon",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd14",
+   "district": 14,
+   "seat": "HD14",
+   "seats": 1,
+   "current_member": {
+    "name": "Vivian E. Watts",
+    "party": "D",
+    "slug": "vivian-e-watts",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-14/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "John M Forrest",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Vivian Watts",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd15",
+   "district": 15,
+   "seat": "HD15",
+   "seats": 1,
+   "current_member": {
+    "name": "Laura Jane Cohen",
+    "party": "D",
+    "slug": "laura-jane-cohen",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-15/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Laura Jane Cohen",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd16",
+   "district": 16,
+   "seat": "HD16",
+   "seats": 1,
+   "current_member": {
+    "name": "Paul E. Krizek",
+    "party": "D",
+    "slug": "paul-e-krizek",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-16/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Paul Krizek",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd17",
+   "district": 17,
+   "seat": "HD17",
+   "seats": 1,
+   "current_member": {
+    "name": "Garrett McGuire",
+    "party": "D",
+    "slug": "garrett-mcguire",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-17/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Garrett McGuire",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd18",
+   "district": 18,
+   "seat": "HD18",
+   "seats": 1,
+   "current_member": {
+    "name": "Kathy K.L. Tran",
+    "party": "D",
+    "slug": "kathy-k-l-tran",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-18/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Kathy Tran",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd19",
+   "district": 19,
+   "seat": "HD19",
+   "seats": 1,
+   "current_member": {
+    "name": "Rozia A. Henson, Jr.",
+    "party": "D",
+    "slug": "rozia-a-henson-jr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-19/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Rozia Henson",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd20",
+   "district": 20,
+   "seat": "HD20",
+   "seats": 1,
+   "current_member": null,
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-20/elections-redirect/?year_and_type=2027regular",
+   "candidates": []
+  },
+  {
+   "id": "hd21",
+   "district": 21,
+   "seat": "HD21",
+   "seats": 1,
+   "current_member": {
+    "name": "Joshua E. Thomas",
+    "party": "D",
+    "slug": "joshua-e-thomas",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-21/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Josh Thomas",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd22",
+   "district": 22,
+   "seat": "HD22",
+   "seats": 1,
+   "current_member": {
+    "name": "Elizabeth R. Guzman",
+    "party": "D",
+    "slug": "elizabeth-r-guzman",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-22/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Elizabeth Guzman",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd23",
+   "district": 23,
+   "seat": "HD23",
+   "seats": 1,
+   "current_member": {
+    "name": "Margaret A. Franklin",
+    "party": "D",
+    "slug": "margaret-a-franklin",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-23/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Margaret Angela Franklin",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Vern Robinson",
+     "incumbent": false,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd24",
+   "district": 24,
+   "seat": "HD24",
+   "seats": 1,
+   "current_member": {
+    "name": "Luke E. Torian",
+    "party": "D",
+    "slug": "luke-e-torian",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-24/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Luke Torian",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd25",
+   "district": 25,
+   "seat": "HD25",
+   "seats": 1,
+   "current_member": {
+    "name": "Briana D. Sewell",
+    "party": "D",
+    "slug": "briana-d-sewell",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-25/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Briana Sewell",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd26",
+   "district": 26,
+   "seat": "HD26",
+   "seats": 1,
+   "current_member": {
+    "name": "JJ Singh",
+    "party": "D",
+    "slug": "jj-singh",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-26/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "JJ Singh",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd27",
+   "district": 27,
+   "seat": "HD27",
+   "seats": 1,
+   "current_member": {
+    "name": "Atoosa R. Reaser",
+    "party": "D",
+    "slug": "atoosa-r-reaser",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-27/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Atoosa Reaser",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd28",
+   "district": 28,
+   "seat": "HD28",
+   "seats": 1,
+   "current_member": {
+    "name": "David A. Reid",
+    "party": "D",
+    "slug": "david-a-reid",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-28/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "David Reid",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd29",
+   "district": 29,
+   "seat": "HD29",
+   "seats": 1,
+   "current_member": {
+    "name": "Marty Martinez",
+    "party": "D",
+    "slug": "marty-martinez",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-29/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Marty Martinez",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd30",
+   "district": 30,
+   "seat": "HD30",
+   "seats": 1,
+   "current_member": {
+    "name": "John Chilton McAuliff",
+    "party": "D",
+    "slug": "john-chilton-mcauliff",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-30/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "John Chilton McAuliff",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd31",
+   "district": 31,
+   "seat": "HD31",
+   "seats": 1,
+   "current_member": {
+    "name": "Delores Oates",
+    "party": "R",
+    "slug": "delores-oates",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-31/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Shane Boswell",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Delores Oates",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd32",
+   "district": 32,
+   "seat": "HD32",
+   "seats": 1,
+   "current_member": {
+    "name": "Bill Wiley",
+    "party": "R",
+    "slug": "bill-wiley",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-32/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Bill Wiley",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd33",
+   "district": 33,
+   "seat": "HD33",
+   "seats": 1,
+   "current_member": {
+    "name": "Justin Pence",
+    "party": "R",
+    "slug": "justin-pence",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-33/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Catherine Elizabeth Rec",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Justin L Pence",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd34",
+   "district": 34,
+   "seat": "HD34",
+   "seats": 1,
+   "current_member": {
+    "name": "Tony O. Wilt",
+    "party": "R",
+    "slug": "tony-o-wilt",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-34/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Andrew Payton",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Tony Wilt",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd35",
+   "district": 35,
+   "seat": "HD35",
+   "seats": 1,
+   "current_member": {
+    "name": "Chris S. Runion",
+    "party": "R",
+    "slug": "chris-s-runion",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-35/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jena Lisa Crisler",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Chris Runion",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd36",
+   "district": 36,
+   "seat": "HD36",
+   "seats": 1,
+   "current_member": {
+    "name": "Ellen H. McLaughlin",
+    "party": "R",
+    "slug": "ellen-h-mclaughlin",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-36/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Makayla Venable",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Ellen McLaughlin",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd37",
+   "district": 37,
+   "seat": "HD37",
+   "seats": 1,
+   "current_member": {
+    "name": "Terry L. Austin",
+    "party": "R",
+    "slug": "terry-l-austin",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-37/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Terry Austin",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd38",
+   "district": 38,
+   "seat": "HD38",
+   "seats": 1,
+   "current_member": {
+    "name": "Sam Rasoul",
+    "party": "D",
+    "slug": "sam-rasoul",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-38/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Sam Rasoul",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd39",
+   "district": 39,
+   "seat": "HD39",
+   "seats": 1,
+   "current_member": {
+    "name": "Will Davis",
+    "party": "R",
+    "slug": "will-davis",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-39/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Eric Klotz",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Will Davis",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd40",
+   "district": 40,
+   "seat": "HD40",
+   "seats": 1,
+   "current_member": {
+    "name": "Joseph P. McNamara",
+    "party": "R",
+    "slug": "joseph-p-mcnamara",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-40/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Grayson Cotes",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Kiesha Preston",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Soren Roberts",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Joe McNamara",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd41",
+   "district": 41,
+   "seat": "HD41",
+   "seats": 1,
+   "current_member": {
+    "name": "Lily V. Franklin",
+    "party": "D",
+    "slug": "lily-v-franklin",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-41/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Lily Franklin",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd42",
+   "district": 42,
+   "seat": "HD42",
+   "seats": 1,
+   "current_member": {
+    "name": "Jason S. Ballard",
+    "party": "R",
+    "slug": "jason-s-ballard",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-42/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Emily Traud",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Jason Ballard",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd43",
+   "district": 43,
+   "seat": "HD43",
+   "seats": 1,
+   "current_member": {
+    "name": "James W. Morefield",
+    "party": "R",
+    "slug": "james-w-morefield",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-43/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Melanie Protti-Lawrence",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Will Morefield",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd44",
+   "district": 44,
+   "seat": "HD44",
+   "seats": 1,
+   "current_member": {
+    "name": "Israel D. O'Quinn",
+    "party": "R",
+    "slug": "israel-d-o-quinn",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-44/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Cindy Green",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Israel O'Quinn",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd45",
+   "district": 45,
+   "seat": "HD45",
+   "seats": 1,
+   "current_member": {
+    "name": "Terry G. Kilgore",
+    "party": "R",
+    "slug": "terry-g-kilgore",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-45/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Christopher Lee Brooks",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Terry Kilgore",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd46",
+   "district": 46,
+   "seat": "HD46",
+   "seats": 1,
+   "current_member": {
+    "name": "Mitchell Cornett",
+    "party": "R",
+    "slug": "mitchell-cornett",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-46/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Sherri Burris",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Mitchell D Cornett",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd47",
+   "district": 47,
+   "seat": "HD47",
+   "seats": 1,
+   "current_member": {
+    "name": "Wren M. Williams",
+    "party": "R",
+    "slug": "wren-m-williams",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-47/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Yvonne Rorrer",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Wren Williams",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd48",
+   "district": 48,
+   "seat": "HD48",
+   "seats": 1,
+   "current_member": {
+    "name": "Eric Phillips",
+    "party": "R",
+    "slug": "eric-phillips",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-48/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Melody Ann Cartwright",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Eric Phillips",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd49",
+   "district": 49,
+   "seat": "HD49",
+   "seats": 1,
+   "current_member": {
+    "name": "Madison Whittle",
+    "party": "R",
+    "slug": "madison-whittle",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-49/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Bryan Hale",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Hubert Pannell",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Madison John Redd Whittle",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd50",
+   "district": 50,
+   "seat": "HD50",
+   "seats": 1,
+   "current_member": {
+    "name": "Thomas C. Wright, Jr.",
+    "party": "R",
+    "slug": "thomas-c-wright-jr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-50/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Earnadette Powell Farrar",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Tommy Wright",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Trudy Berry",
+     "incumbent": false,
+     "party": "Other",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd51",
+   "district": 51,
+   "seat": "HD51",
+   "seats": 1,
+   "current_member": {
+    "name": "Eric R. Zehr",
+    "party": "R",
+    "slug": "eric-r-zehr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-51/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Eric Zehr",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd52",
+   "district": 52,
+   "seat": "HD52",
+   "seats": 1,
+   "current_member": {
+    "name": "Wendell S. Walker",
+    "party": "R",
+    "slug": "wendell-s-walker",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-52/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Rise Marie Hayes",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Wendell Walker",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd53",
+   "district": 53,
+   "seat": "HD53",
+   "seats": 1,
+   "current_member": {
+    "name": "Timothy P. Griffin",
+    "party": "R",
+    "slug": "timothy-p-griffin",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-53/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Sam Soghor",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Tim Griffin",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd54",
+   "district": 54,
+   "seat": "HD54",
+   "seats": 1,
+   "current_member": {
+    "name": "Katrina Callsen",
+    "party": "D",
+    "slug": "katrina-callsen",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-54/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Katrina Callsen",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd55",
+   "district": 55,
+   "seat": "HD55",
+   "seats": 1,
+   "current_member": {
+    "name": "Amy J. Laufer",
+    "party": "D",
+    "slug": "amy-j-laufer",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-55/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Amy Laufer",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd56",
+   "district": 56,
+   "seat": "HD56",
+   "seats": 1,
+   "current_member": {
+    "name": "Thomas A. Garrett, Jr.",
+    "party": "R",
+    "slug": "thomas-a-garrett-jr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-56/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jessica Robinson",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Tom Garrett",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd57",
+   "district": 57,
+   "seat": "HD57",
+   "seats": 1,
+   "current_member": {
+    "name": "May Nivar",
+    "party": "D",
+    "slug": "may-nivar",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-57/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "May Nivar",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd58",
+   "district": 58,
+   "seat": "HD58",
+   "seats": 1,
+   "current_member": {
+    "name": "Rodney T. Willett",
+    "party": "D",
+    "slug": "rodney-t-willett",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-58/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Rodney Willett",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd59",
+   "district": 59,
+   "seat": "HD59",
+   "seats": 1,
+   "current_member": {
+    "name": "Hyland F. \"Buddy\" Fowler, Jr.",
+    "party": "R",
+    "slug": "hyland-f-fowler-jr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-59/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Alayzia Coney",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Stan Scott",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Buddy Fowler",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd60",
+   "district": 60,
+   "seat": "HD60",
+   "seats": 1,
+   "current_member": {
+    "name": "Scott A. Wyatt",
+    "party": "R",
+    "slug": "scott-a-wyatt",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-60/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Erin Doss",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Scott Wyatt",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd61",
+   "district": 61,
+   "seat": "HD61",
+   "seats": 1,
+   "current_member": {
+    "name": "Michael J. Webert",
+    "party": "R",
+    "slug": "michael-j-webert",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-61/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Michael Webert",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd62",
+   "district": 62,
+   "seat": "HD62",
+   "seats": 1,
+   "current_member": {
+    "name": "Karen Hamilton",
+    "party": "R",
+    "slug": "karen-hamilton",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-62/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Sara Ratcliffe",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Karen Hamilton",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd63",
+   "district": 63,
+   "seat": "HD63",
+   "seats": 1,
+   "current_member": {
+    "name": "Phillip A. Scott",
+    "party": "R",
+    "slug": "phillip-a-scott",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-63/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Forrest Miller",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Phillip Scott",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd64",
+   "district": 64,
+   "seat": "HD64",
+   "seats": 1,
+   "current_member": {
+    "name": "Stacey Annie Carroll",
+    "party": "D",
+    "slug": "stacey-annie-carroll",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-64/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Stacey Annie Carroll",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd65",
+   "district": 65,
+   "seat": "HD65",
+   "seats": 1,
+   "current_member": {
+    "name": "Joshua G. Cole",
+    "party": "D",
+    "slug": "joshua-g-cole",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-65/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Joshua Cole",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Jannan Holmes",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd66",
+   "district": 66,
+   "seat": "HD66",
+   "seats": 1,
+   "current_member": {
+    "name": "Nicole Cole",
+    "party": "D",
+    "slug": "nicole-cole",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-66/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Nicole Cole",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Zachary Hulo",
+     "incumbent": false,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd67",
+   "district": 67,
+   "seat": "HD67",
+   "seats": 1,
+   "current_member": {
+    "name": "Hillary Pugh Kent",
+    "party": "R",
+    "slug": "hillary-pugh-kent",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-67/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Paige Conner Totaro",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Hillary Pugh Kent",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd68",
+   "district": 68,
+   "seat": "HD68",
+   "seats": 1,
+   "current_member": {
+    "name": "M. Keith Hodges",
+    "party": "R",
+    "slug": "m-keith-hodges",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-68/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Elaine Walters",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Keith Hodges",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd69",
+   "district": 69,
+   "seat": "HD69",
+   "seats": 1,
+   "current_member": {
+    "name": "Mark C. Downey",
+    "party": "D",
+    "slug": "mark-c-downey",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-69/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Scott Williams",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd70",
+   "district": 70,
+   "seat": "HD70",
+   "seats": 1,
+   "current_member": {
+    "name": "Shelly A. Simonds",
+    "party": "D",
+    "slug": "shelly-a-simonds",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-70/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Shelly Simonds",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd71",
+   "district": 71,
+   "seat": "HD71",
+   "seats": 1,
+   "current_member": {
+    "name": "Jessica L. Anderson",
+    "party": "D",
+    "slug": "jessica-l-anderson",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-71/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jessica Anderson",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd72",
+   "district": 72,
+   "seat": "HD72",
+   "seats": 1,
+   "current_member": {
+    "name": "R. Lee Ware",
+    "party": "R",
+    "slug": "r-lee-ware",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-72/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Bilal Raychouni",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Lee Ware",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd73",
+   "district": 73,
+   "seat": "HD73",
+   "seats": 1,
+   "current_member": {
+    "name": "Leslie Chambers Mehta",
+    "party": "D",
+    "slug": "leslie-chambers-mehta",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-73/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Leslie Mehta",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd74",
+   "district": 74,
+   "seat": "HD74",
+   "seats": 1,
+   "current_member": {
+    "name": "Mike A. Cherry",
+    "party": "R",
+    "slug": "mike-a-cherry",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-74/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jonas James Eppert",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Steve Stepp",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Mike Cherry",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd75",
+   "district": 75,
+   "seat": "HD75",
+   "seats": 1,
+   "current_member": {
+    "name": "Lindsey Dougherty",
+    "party": "D",
+    "slug": "lindsey-dougherty",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-75/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Lindsey Dougherty",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd76",
+   "district": 76,
+   "seat": "HD76",
+   "seats": 1,
+   "current_member": {
+    "name": "Debra D. Gardner",
+    "party": "D",
+    "slug": "debra-d-gardner",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-76/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Debra Gardner",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd77",
+   "district": 77,
+   "seat": "HD77",
+   "seats": 1,
+   "current_member": {
+    "name": "Charlie Schmidt",
+    "party": "D",
+    "slug": "charlie-schmidt",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-77/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Charlie Schmidt",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd78",
+   "district": 78,
+   "seat": "HD78",
+   "seats": 1,
+   "current_member": {
+    "name": "Betsy B. Carr",
+    "party": "D",
+    "slug": "betsy-b-carr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-78/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Betsy Carr",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd79",
+   "district": 79,
+   "seat": "HD79",
+   "seats": 1,
+   "current_member": {
+    "name": "Rae Cousins",
+    "party": "D",
+    "slug": "rae-cousins",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-79/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Rae Cousins",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd80",
+   "district": 80,
+   "seat": "HD80",
+   "seats": 1,
+   "current_member": {
+    "name": "Destiny LeVere Bolling",
+    "party": "D",
+    "slug": "destiny-levere-bolling",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-80/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Destiny LeVere Bolling",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd81",
+   "district": 81,
+   "seat": "HD81",
+   "seats": 1,
+   "current_member": {
+    "name": "Delores L. McQuinn",
+    "party": "D",
+    "slug": "delores-l-mcquinn",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-81/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Delores McQuinn",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd82",
+   "district": 82,
+   "seat": "HD82",
+   "seats": 1,
+   "current_member": {
+    "name": "Kimberly Pope Adams",
+    "party": "D",
+    "slug": "kimberly-pope-adams",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-82/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Kimberly Pope Adams",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd83",
+   "district": 83,
+   "seat": "HD83",
+   "seats": 1,
+   "current_member": {
+    "name": "H. Otto Wachsmann, Jr.",
+    "party": "R",
+    "slug": "h-otto-wachsmann-jr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-83/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Naomi Celeste Dawkins",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Mary Person",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Otto Wachsmann",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd84",
+   "district": 84,
+   "seat": "HD84",
+   "seats": 1,
+   "current_member": {
+    "name": "Nadarius E. Clark",
+    "party": "D",
+    "slug": "nadarius-e-clark",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-84/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jessica R Burgess",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Nadarius Clark",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd85",
+   "district": 85,
+   "seat": "HD85",
+   "seats": 1,
+   "current_member": {
+    "name": "Marcia S. \"Cia\" Price",
+    "party": "D",
+    "slug": "marcia-s-price",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-85/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Cia Price",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd86",
+   "district": 86,
+   "seat": "HD86",
+   "seats": 1,
+   "current_member": {
+    "name": "Virgil Thornton",
+    "party": "D",
+    "slug": "virgil-thornton",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-86/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Virgil Gene Thornton, Sr",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd87",
+   "district": 87,
+   "seat": "HD87",
+   "seats": 1,
+   "current_member": {
+    "name": "Jeion A. Ward",
+    "party": "D",
+    "slug": "jeion-a-ward",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-87/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jeion Ward",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd88",
+   "district": 88,
+   "seat": "HD88",
+   "seats": 1,
+   "current_member": {
+    "name": "Don Scott",
+    "party": "D",
+    "slug": "don-scott",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-88/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Don Scott",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd89",
+   "district": 89,
+   "seat": "HD89",
+   "seats": 1,
+   "current_member": {
+    "name": "Karen R. \"Kacey\" Carnegie",
+    "party": "D",
+    "slug": "karen-r-carnegie",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-89/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Karen Robins Carnegie",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd90",
+   "district": 90,
+   "seat": "HD90",
+   "seats": 1,
+   "current_member": {
+    "name": "James A. \"Jay\" Leftwich",
+    "party": "R",
+    "slug": "james-a-leftwich",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-90/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Rodney Nickens",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Jay Leftwich",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd91",
+   "district": 91,
+   "seat": "HD91",
+   "seats": 1,
+   "current_member": {
+    "name": "C.E. Cliff Hayes, Jr.",
+    "party": "D",
+    "slug": "c-e-cliff-hayes-jr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-91/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Cliff Hayes",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd92",
+   "district": 92,
+   "seat": "HD92",
+   "seats": 1,
+   "current_member": {
+    "name": "Bonita G. Anthony",
+    "party": "D",
+    "slug": "bonita-g-anthony",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-92/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Bonita Anthony",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd93",
+   "district": 93,
+   "seat": "HD93",
+   "seats": 1,
+   "current_member": {
+    "name": "Jackie H. Glass",
+    "party": "D",
+    "slug": "jackie-h-glass",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-93/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Jackie Glass",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd94",
+   "district": 94,
+   "seat": "HD94",
+   "seats": 1,
+   "current_member": {
+    "name": "Phil M. Hernandez",
+    "party": "D",
+    "slug": "phil-m-hernandez",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-94/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Phil Hernandez",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd95",
+   "district": 95,
+   "seat": "HD95",
+   "seats": 1,
+   "current_member": {
+    "name": "Alex Q. Askew",
+    "party": "D",
+    "slug": "alex-q-askew",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-95/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Alex Askew",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd96",
+   "district": 96,
+   "seat": "HD96",
+   "seats": 1,
+   "current_member": {
+    "name": "Kelly K. Convirs-Fowler",
+    "party": "D",
+    "slug": "kelly-k-convirs-fowler",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-96/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Kelly Fowler",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd97",
+   "district": 97,
+   "seat": "HD97",
+   "seats": 1,
+   "current_member": {
+    "name": "Michael B. Feggans",
+    "party": "D",
+    "slug": "michael-b-feggans",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-97/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Michael Feggans",
+     "incumbent": true,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd98",
+   "district": 98,
+   "seat": "HD98",
+   "seats": 1,
+   "current_member": {
+    "name": "Andrew Rice",
+    "party": "R",
+    "slug": "andrew-rice",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-98/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Cheryl Smith",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Andrew Rice",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd99",
+   "district": 99,
+   "seat": "HD99",
+   "seats": 1,
+   "current_member": {
+    "name": "Anne Ferrell Tata",
+    "party": "R",
+    "slug": "anne-ferrell-tata",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-99/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Josh Cohen",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Anne Ferrell Tata",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  },
+  {
+   "id": "hd100",
+   "district": 100,
+   "seat": "HD100",
+   "seats": 1,
+   "current_member": {
+    "name": "Robert S. Bloxom, Jr.",
+    "party": "R",
+    "slug": "robert-s-bloxom-jr",
+    "source_url": "https://lis.virginia.gov/"
+   },
+   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-100/elections-redirect/?year_and_type=2027regular",
+   "candidates": [
+    {
+     "name": "Ashley Joynes",
+     "incumbent": false,
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    },
+    {
+     "name": "Rob Bloxom, Jr",
+     "incumbent": true,
+     "party": "R",
+     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
+     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
+    }
+   ]
+  }
+ ]
+}
