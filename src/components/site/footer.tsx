@@ -82,7 +82,6 @@ export function SiteFooter({ location = SITE.location }: { location?: string } =
             site demonstrate method; they are labeled as such.
           </p>
           <p>
-            <Link to="/contact" className="text-gold underline">Report a correction</Link> ·{" "}
             <a href={SITE.giveUrl} target="_blank" rel="noreferrer" className="text-gold underline">{SITE.giveLabel}</a>
           </p>
         </div>
