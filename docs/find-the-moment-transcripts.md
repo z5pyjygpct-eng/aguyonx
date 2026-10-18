@@ -133,6 +133,27 @@ the site exactly (no edits, no speaker names added).
    block with PDF and Text links.
 4. Rebuild the downloads whenever the transcript windows file is rebuilt.
 
+## Loudoun 2023–2024 extension: morning ingest (first rows Oct 18, 2026)
+
+Rows from the mini's 2023–24 Loudoun extension (`queue_2023_2024.tsv`) are NOT pre-listed on the site
+(`captions_json` blank). For each finished key the morning ingest:
+
+1. Adds a manifest entry, oldest-last: BOS → `LOUDOUN_MEETINGS` (`id`/`clipId` = Granicus clip id,
+   `playerUrl` `loudoun.granicus.com/player/clip/{id}`, jump via `?entrytime=`); LCPS → `LCPS_MEETINGS`
+   (`id` = `{date}-{vimeoId}` from meta.json, `boardDocsUrl: BOARDDOCS_PUBLIC`, `kind` from the queue row).
+   Title/date/duration come from the queue row + meta.json.
+2. Indexes captions first: Granicus `https://loudoun.granicus.com/videos/{clip}/captions.vtt` (still 200 while the
+   archive MP4/HLS streams return 403) → `LOUDOUN_ESCRIBE_ONLY=1 LOUDOUN_ESCRIBE_KEYS={ids} LOUDOUN_VTT_DIR=…
+   node scripts/loudoun-caption-windows.mjs`; LCPS Vimeo `request.text_tracks` from the player config. A video
+   with no caption track gets an empty `[]` captions file (`windowCount: 0`); search uses the transcript.
+3. Transcript windows (retimed to those captions), `FTM_TRANSCRIPTS`, Coraggio PDF/TXT, thumbs as usual.
+4. Recaps → `loudoun-recaps-backfill.ts` via the backfill scripts: BOS votes ONLY from the Granicus-posted
+   Action Report (AgendaViewer view_id=73 → MetaViewer meta_id); LCPS votes ONLY from BoardDocs minutes.
+   None posted → `votesPosted: false`. BOS moments come from the official Granicus video index on the player
+   page (`<div class="index-point" time="…">`), kept only when the county captions near that second confirm
+   the item (the index's end-of-clip "Adjourn" marker usually fails this and is dropped). LCPS moments are
+   transcript-cued structural/agenda markers. No quotes; names only as printed in official records.
+
 ## Cities: City of Fairfax and City of Manassas (added Oct 10, 2026)
 
 Scope: meetings from 2025-01-01 to present only. Same Mac mini queue, placed after the 2025–26

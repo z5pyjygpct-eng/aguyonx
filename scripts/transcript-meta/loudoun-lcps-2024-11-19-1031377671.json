@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2024-11-19-1031377671.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2024-11-19-superintendent-s-recommended-fy2026-fy2031-capital-improvement-program",
+  "title": "Loudoun County School Board, Superintendent's Recommended FY2026-FY2031 Capital Improvement Program, Tuesday, November 19, 2024",
+  "shortTitle": "Superintendent's Recommended FY2026-FY2031 Capital Improvement Program \u00b7 Nov 19, 2024",
+  "date": "Tuesday, November 19, 2024",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "1h 32m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1031377671?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-18"
+}

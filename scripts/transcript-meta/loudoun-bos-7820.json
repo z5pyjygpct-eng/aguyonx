@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/7820.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2024-11-19-business-meeting",
+  "title": "Loudoun County Board of Supervisors, Business Meeting, Tuesday, November 19, 2024",
+  "shortTitle": "Business Meeting \u00b7 Nov 19, 2024",
+  "date": "Tuesday, November 19, 2024",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "7h 28m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/7820"
+    },
+    {
+      "label": "Agenda (Granicus)",
+      "href": "https://loudoun.granicus.com/AgendaViewer.php?view_id=73&clip_id=7820"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-18"
+}

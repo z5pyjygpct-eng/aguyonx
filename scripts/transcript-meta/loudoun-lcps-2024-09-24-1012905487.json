@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2024-09-24-1012905487.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2024-09-24-4th-tuesday-school-board-meeting-fy2026-capital-budget-priorities-of-the-school-board-work-session",
+  "title": "Loudoun County School Board, 4th Tuesday School Board Meeting & FY2026 Capital Budget Priorities of the School Board Work Session, Tuesday, September 24, 2024",
+  "shortTitle": "4th Tuesday School Board Meeting & FY2026 Capital Budget Priorities of the School Board Work Session \u00b7 Sep 24, 2024",
+  "date": "Tuesday, September 24, 2024",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "6h 6m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1012905487?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-18"
+}

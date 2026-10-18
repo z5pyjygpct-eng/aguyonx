@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-senate-floor/transcripts/vas-mg2JCdok9-U.json",
+  "outBase": "public/files/find-the-moment/va-senate-floor/transcripts/coraggio-transcript-va-senate-floor-2026-03-03-senate-of-virginia-floor-session",
+  "title": "Senate of Virginia Floor Session, Tuesday, March 3, 2026",
+  "shortTitle": "Senate Floor Session \u00b7 Mar 3, 2026",
+  "date": "Tuesday, March 3, 2026",
+  "place": "Senate of Virginia, Senate Chamber, State Capitol, Richmond",
+  "length": "2h 36m (video)",
+  "links": [
+    {
+      "label": "Official floor video (Senate of Virginia, YouTube)",
+      "href": "https://www.youtube.com/watch?v=mg2JCdok9-U"
+    },
+    {
+      "label": "LIS Senate minutes",
+      "href": "https://lis.virginia.gov/session-details/20261/minutes-list/S"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-18"
+}

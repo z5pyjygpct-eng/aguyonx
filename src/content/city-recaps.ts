@@ -60,6 +60,66 @@ export type CityRecap = Omit<LoudounRecap, "venue"> & { venue: CityVenueId; noVo
 
 const CITY_RECAPS_RAW: CityRecap[] = [
   {
+    slug: "alb-bos-920",
+    meetingId: "alb-bos-920",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, February 21, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 9h 23m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 18, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=920" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=920" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-21-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-21-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "113 pages"},
+    shareContext: "Albemarle Board of Supervisors, Feb 21, 2024",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 614, label: "Public comment / public hearing begins." },
+      { seconds: 13655, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "alb-bos-916",
+    meetingId: "alb-bos-916",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, February 7, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 9h 12m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 18, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=916" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=916" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-07-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-07-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "107 pages"},
+    shareContext: "Albemarle Board of Supervisors, Feb 7, 2024",
+    moments: [
+      { seconds: 35, label: "Pledge of Allegiance." },
+      { seconds: 1758, label: "Public comment / public hearing begins." },
+      { seconds: 2316, label: "Consent agenda motion." },
+      { seconds: 11993, label: "Motion to enter closed session." },
+      { seconds: 33091, label: "Adjournment." },
+    ],
+  },
+  {
     slug: "mcps-PtmoMEC7qP0",
     meetingId: "mcps-PtmoMEC7qP0",
     venue: "manassas-schools",
