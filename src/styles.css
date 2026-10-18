@@ -151,3 +151,22 @@
   .agx-mock [style*="grid-template-columns:1.3fr 1fr"] { grid-template-columns: minmax(0, 1fr) !important; }
   .agx-mock [style*="grid-template-columns:repeat(5,"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; clear: both; }
 }
+
+/* v4 frame for the legacy venue doors, rosters and indexes (preview). These pages render shared
+   search/list widgets that hard-code light-theme accents; inside .agx-legacy they read as v4 gold on navy.
+   Look only: no markup or text changes. */
+.agx-legacy .text-\[\#1E4B8E\], .agx-legacy .text-\[\#163a6e\], .agx-legacy .text-\[\#0d7377\], .agx-legacy .text-\[\#095456\] { color: var(--color-gold); }
+.agx-legacy .hover\:text-\[\#1E4B8E\]:hover, .agx-legacy .hover\:text-\[\#095456\]:hover, .agx-legacy .hover\:text-foreground:hover { color: var(--color-gold-hover); }
+.agx-legacy .bg-\[\#e8eef6\], .agx-legacy .bg-\[\#e4f2f2\] { background-color: rgb(245 184 46 / 0.12); }
+.agx-legacy .hover\:bg-\[\#e8eef6\]:hover, .agx-legacy .hover\:bg-\[\#e4f2f2\]:hover, .agx-legacy .hover\:bg-wash:hover { background-color: var(--color-navy-600); }
+.agx-legacy .border-\[\#1E4B8E\], .agx-legacy .border-\[\#0d7377\], .agx-legacy .border-\[\#1E4B8E\]\/30, .agx-legacy .border-\[\#1E4B8E\]\/40 { border-color: rgb(245 184 46 / 0.55); }
+.agx-legacy .hover\:border-\[\#0d7377\]:hover, .agx-legacy .hover\:border-\[\#1E4B8E\]:hover { border-color: var(--color-gold); }
+.agx-legacy .rounded-md.bg-\[\#1E4B8E\], .agx-legacy .bg-\[\#0d7377\] { background-color: var(--color-gold); color: var(--color-navy-900); }
+.agx-legacy .rounded-md.bg-\[\#1E4B8E\]:hover, .agx-legacy .bg-\[\#0d7377\]:hover { background-color: var(--color-gold-hover); }
+.agx-legacy mark { background-color: rgb(245 184 46 / 0.32); color: #fff; }
+.agx-legacy .bg-\[\#fdf0e6\] { background-color: rgb(245 184 46 / 0.1); color: #f6f3ea; border-color: var(--color-gold); }
+.agx-legacy .bg-\[\#e6f2ee\] { background-color: rgb(46 180 110 / 0.15); color: #7be0ae; }
+.agx-legacy .text-\[\#b42318\] { color: #ffb3bf; }
+.agx-legacy h2.font-serif { text-transform: uppercase; font-weight: 600; }
+.agx-legacy .rounded-md.border-border.bg-card { border-radius: var(--radius-xl); }
+.agx-legacy details > summary { color: var(--color-gold); }

@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
-import { Kicker } from "@/components/site/kicker";
+import { LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
 import { LoudounCrossMeetingSearch } from "@/components/site/loudoun-cross-meeting-search";
 import { LOUDOUN_MEETINGS } from "@/content/loudoun";
 import { LCPS_MEETINGS } from "@/content/lcps";
@@ -13,9 +13,11 @@ export const Route = createFileRoute("/counties/loudoun/find-the-moment")({
 function LoudounFindTheMomentPage() {
   return (
     <SiteShell>
+      <LegacyV4>
       <HomeSearch />
-      <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
-        <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+      <LegacyHero
+        crumbs={
+        <p>
           <Link to="/counties" className="hover:text-foreground hover:underline">
             VA Counties
           </Link>
@@ -26,16 +28,16 @@ function LoudounFindTheMomentPage() {
           <span className="mx-2 text-border">/</span>
           Find the Moment
         </p>
-        <Kicker className="mt-4">Virginia · Northern Virginia</Kicker>
-        <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          Search County + Schools together
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+        }
+        kicker="Virginia · Northern Virginia"
+        title="Search County + Schools together"
+      >
+        <p className="text-lg">
           Optional power tool — one box across both Loudoun venues:{" "}
           {LOUDOUN_MEETINGS.length} Board of Supervisors meetings and {LCPS_MEETINGS.length}{" "}
           School Board meetings. Jump straight to the video.
         </p>
-        <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
+        <p className="text-sm">
           Looking for one board only? Start at{" "}
           <Link
             to="/counties/loudoun"
@@ -52,11 +54,13 @@ function LoudounFindTheMomentPage() {
           </Link>
           .
         </p>
-
+      </LegacyHero>
+      <div className="mx-auto w-full max-w-6xl px-4 pb-14 sm:px-8">
         <div className="mt-10">
           <LoudounCrossMeetingSearch />
         </div>
-      </main>
+      </div>
+      </LegacyV4>
     </SiteShell>
   );
 }

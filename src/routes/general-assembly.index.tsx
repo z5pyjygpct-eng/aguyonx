@@ -1,7 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
-import { Kicker } from "@/components/site/kicker";
+import { ArrowRight } from "lucide-react";
+import { LEGACY_TILE, LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
 import { SENATE_MEETINGS, senateTranscriptCount } from "@/content/va-senate";
 import { HOUSE_MEETINGS, houseTranscriptCount } from "@/content/va-house";
 
@@ -15,27 +16,27 @@ function GeneralAssemblyIndex() {
   const h = houseTranscriptCount();
   return (
     <SiteShell>
+      <LegacyV4>
       <HomeSearch />
-      <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
-        <Kicker>Virginia</Kicker>
-        <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          General Assembly
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+      <LegacyHero kicker="Virginia" title="General Assembly">
+        <p className="text-lg">
           Floor sessions of the Virginia legislature: search what was said, jump to the official
           video, and see how each member voted from the official record.
         </p>
-        <ul className="mt-10 grid gap-8 sm:grid-cols-2">
+      </LegacyHero>
+      <div className="mx-auto w-full max-w-5xl px-4 py-10 sm:px-8 sm:py-12">
+        <ul className="grid gap-6 sm:grid-cols-2">
           <li>
             <Link
               to="/general-assembly/senate"
-              className="block rounded-md border border-border bg-card px-5 py-5 hover:bg-wash"
+              className={LEGACY_TILE}
             >
-              <p className="font-mono text-xs tracking-widest text-[#0d7377] uppercase">
+              <ArrowRight className="absolute top-4 right-4 size-5 text-gold transition-transform group-hover:translate-x-0.5" aria-hidden />
+              <p className={`inline-flex w-fit items-center rounded px-1.5 py-0.5 font-mono text-[11px] font-bold tracking-widest uppercase ${n > 0 ? "bg-gold text-navy-900" : "border border-gold/60 text-gold"}`}>
                 {n > 0 ? "Live" : "Transcripts in progress"}
               </p>
-              <p className="mt-2 font-serif text-2xl font-medium">Senate of Virginia</p>
-              <p className="mt-2 text-sm text-muted-foreground">
+              <p className="mt-2 font-serif text-2xl font-bold uppercase leading-tight">Senate of Virginia</p>
+              <p className="mt-2 text-sm text-on-dark-muted">
                 {n} of {SENATE_MEETINGS.length} 2026 floor sessions searchable. Recaps with LIS
                 roll-call votes.
               </p>
@@ -44,20 +45,22 @@ function GeneralAssemblyIndex() {
           <li>
             <Link
               to="/general-assembly/house"
-              className="block rounded-md border border-border bg-card px-5 py-5 hover:bg-wash"
+              className={LEGACY_TILE}
             >
-              <p className="font-mono text-xs tracking-widest text-[#0d7377] uppercase">
+              <ArrowRight className="absolute top-4 right-4 size-5 text-gold transition-transform group-hover:translate-x-0.5" aria-hidden />
+              <p className={`inline-flex w-fit items-center rounded px-1.5 py-0.5 font-mono text-[11px] font-bold tracking-widest uppercase ${h > 0 ? "bg-gold text-navy-900" : "border border-gold/60 text-gold"}`}>
                 {h > 0 ? "Live" : "Transcripts in progress"}
               </p>
-              <p className="mt-2 font-serif text-2xl font-medium">House of Delegates</p>
-              <p className="mt-2 text-sm text-muted-foreground">
+              <p className="mt-2 font-serif text-2xl font-bold uppercase leading-tight">House of Delegates</p>
+              <p className="mt-2 text-sm text-on-dark-muted">
                 {h} of {HOUSE_MEETINGS.length} 2026 floor session videos searchable. Recaps with LIS
                 roll-call votes.
               </p>
             </Link>
           </li>
         </ul>
-      </main>
+      </div>
+      </LegacyV4>
     </SiteShell>
   );
 }

@@ -3,6 +3,7 @@ import { ExternalLink } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
+import { LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
 import { CityMeetingList, CityMeetingSearch } from "@/components/site/city-meeting-search";
 import {
   CITY_BY_ID,
@@ -28,9 +29,11 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
   const next = all.filter((m) => m.date > today).sort((a, b) => a.date.localeCompare(b.date))[0];
   return (
     <SiteShell location={`${c.name}, Virginia`}>
+      <LegacyV4>
       <HomeSearch />
-      <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
-        <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+      <LegacyHero
+        crumbs={
+        <p>
           <Link to="/cities" className="hover:text-foreground hover:underline">
             VA Cities
           </Link>
@@ -48,19 +51,19 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
             </>
           ) : null}
         </p>
-        <Kicker className="mt-4">Virginia · {c.region}</Kicker>
-        <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          {v.name}
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+        }
+        kicker={<>Virginia · {c.region}</>}
+        title={v.name}
+      >
+        <p className="text-lg">
           Find the Moment: search what was said in {v.boardLabel} meetings since{" "}
           {v.since ?? "January 2025"} and jump straight to the official video ({v.videoHost}).
         </p>
-        <p className="mt-3 font-mono text-xs tracking-wide text-foreground">
+        <p className="font-mono text-xs tracking-wide text-gold">
           {count} meetings · {searchableN} searchable now · {count - searchableN} in queue
           {next ? ` · Next meeting: ${next.dateLabel}` : ""}
         </p>
-        <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
+        <p className="text-sm">
           Also:{" "}
           <Link
             to={CITY_VENUES[other].route}
@@ -78,10 +81,11 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
             {`Search ${(CITY_VENUES[c.venues[0]].tag ?? "council").toLowerCase()} + schools together`}
           </Link>
         </p>
-
+      </LegacyHero>
+      <div className="mx-auto w-full max-w-6xl px-4 pt-2 pb-14 sm:px-8">
         <section className="mt-10">
           <h2 className="font-serif text-2xl font-medium">Find the Moment</h2>
-          <div className="mt-4 grid gap-8 lg:grid-cols-[minmax(0,1fr)_15rem] lg:items-start">
+          <div className="mt-4 grid grid-cols-[minmax(0,1fr)] gap-8 lg:grid-cols-[minmax(0,1fr)_15rem] lg:items-start">
             <div>
               <CityMeetingSearch venues={[venue]} />
             </div>
@@ -107,7 +111,7 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
         </section>
 
         <section className="mt-12">
-          <Kicker>Official doors</Kicker>
+          <Kicker className="text-gold">Official doors</Kicker>
           <ul className="mt-3 space-y-1.5 text-sm">
             {v.doors.map((d) => (
               <li key={d.href}>
@@ -124,7 +128,8 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
             ))}
           </ul>
         </section>
-      </main>
+      </div>
+      </LegacyV4>
     </SiteShell>
   );
 }
@@ -132,14 +137,16 @@ export function CityVenuePage({ city, venue }: { city: CityId; venue: CityVenueI
 export function CityMissing() {
   return (
     <SiteShell>
-      <main className="mx-auto max-w-xl px-4 py-24 text-center">
-        <h1 className="font-serif text-3xl font-medium">Not found</h1>
-        <p className="mt-4">
-          <Link to="/cities" className="text-[#1E4B8E] underline-offset-2 hover:underline">
-            Back to VA Cities
-          </Link>
-        </p>
-      </main>
+      <LegacyV4>
+        <div className="mx-auto max-w-xl px-4 py-24 text-center">
+          <h1 className="font-serif text-4xl font-bold uppercase">Not found</h1>
+          <p className="mt-4">
+            <Link to="/cities" className="text-[#1E4B8E] underline-offset-2 hover:underline">
+              Back to VA Cities
+            </Link>
+          </p>
+        </div>
+      </LegacyV4>
     </SiteShell>
   );
 }

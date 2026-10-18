@@ -4,7 +4,7 @@ import { isoMeta, useMeetingFilters } from "@/components/site/meeting-filters";
 import { ExternalLink } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
-import { Kicker } from "@/components/site/kicker";
+import { LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
 import { VenueStats } from "@/components/site/loudoun-stats";
 import { FTM_TRANSCRIPTS } from "@/content/ftm-transcripts";
 import {
@@ -29,24 +29,23 @@ function VboePage() {
   const searchable = VBOE_MEETINGS.filter((m) => has.has(m.id)).length;
   return (
     <SiteShell location="Virginia">
+      <LegacyV4>
       <HomeSearch />
-      <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
-        <Kicker>Virginia · Statewide</Kicker>
-        <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          Virginia Board of Education
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+      <LegacyHero kicker="Virginia · Statewide" title="Virginia Board of Education">
+        <p className="text-lg">
           Find the Moment: search what the state Board of Education said in its work sessions and
           business meetings, and jump straight to the official VDOE video.
         </p>
-        <p className="mt-3 font-mono text-xs tracking-wide text-muted-foreground">
+        <p className="font-mono text-xs tracking-wide text-gold">
           {VBOE_MEETINGS.length} meeting videos · {searchable} searchable now ·{" "}
           {VBOE_MEETINGS.length - searchable} in queue
         </p>
+      </LegacyHero>
+      <div className="mx-auto w-full max-w-6xl px-4 pb-14 sm:px-8">
 
         <section className="mt-10">
           <h2 className="font-serif text-2xl font-medium">Find the Moment</h2>
-          <div className="mt-4 grid gap-8 lg:grid-cols-[minmax(0,1fr)_15rem] lg:items-start">
+          <div className="mt-4 grid grid-cols-[minmax(0,1fr)] gap-8 lg:grid-cols-[minmax(0,1fr)_15rem] lg:items-start">
             <div className="rounded-md border border-border bg-card px-5 py-5 text-sm text-muted-foreground">
               {searchable > 0
                 ? `${searchable} Board of Education meetings are transcribed. Open a meeting below to jump to its video.`
@@ -76,7 +75,7 @@ function VboePage() {
                 <span className="font-serif text-lg font-medium leading-snug">{m.title}</span>
                 <span className="text-xs text-muted-foreground">{m.duration}</span>
                 <span className="mt-auto flex flex-wrap gap-2 pt-1 text-xs">
-                  <a href={vboeVideoUrl(m)} target="_blank" rel="noopener noreferrer" className="rounded border border-border px-2 py-0.5 hover:bg-wash">
+                  <a href={vboeVideoUrl(m)} target="_blank" rel="noopener noreferrer" className="rounded border border-border px-2 py-0.5 hover:border-gold hover:text-gold">
                     Video
                   </a>
                   <span className="rounded border border-border px-2 py-0.5 text-muted-foreground">
@@ -104,7 +103,8 @@ function VboePage() {
             <li>Closed sessions are not streamed. Transcripts are machine-generated; check the video before quoting.</li>
           </ul>
         </details>
-      </main>
+      </div>
+      </LegacyV4>
     </SiteShell>
   );
 }

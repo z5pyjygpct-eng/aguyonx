@@ -1,7 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
-import { Kicker } from "@/components/site/kicker";
+import { ArrowRight } from "lucide-react";
+import { LEGACY_SOON, LEGACY_TILE, LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
 import { COUNTY_SHELVES, type ShelfDoor } from "@/content/counties";
 
 export const Route = createFileRoute("/counties/")({ component: CountiesIndex });
@@ -11,22 +12,23 @@ function DoorCard({ door }: { door: ShelfDoor }) {
     return (
       <Link
         to={door.to}
-        className="block h-full rounded-md border border-border bg-card px-5 py-5 transition-[background-color] duration-150 hover:bg-wash"
+        className={LEGACY_TILE}
       >
-        <p className="font-mono text-xs tracking-widest text-[#0d7377] uppercase">Live</p>
-        <p className="mt-2 font-serif text-2xl font-medium">{door.name}</p>
-        <p className="mt-2 text-sm text-muted-foreground">{door.dek}</p>
+        <ArrowRight className="absolute top-4 right-4 size-5 text-gold transition-transform group-hover:translate-x-0.5" aria-hidden />
+        <p className="inline-flex w-fit items-center rounded bg-gold px-1.5 py-0.5 font-mono text-[11px] font-bold tracking-widest text-navy-900 uppercase">Live</p>
+        <p className="mt-2 font-serif text-2xl font-bold uppercase leading-tight">{door.name}</p>
+        <p className="mt-2 text-sm text-on-dark-muted">{door.dek}</p>
       </Link>
     );
   }
 
   return (
-    <div className="block h-full rounded-md border border-dashed border-border bg-card/60 px-5 py-5">
-      <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+    <div className={LEGACY_SOON}>
+      <p className="w-fit rounded border border-on-dark-muted/50 px-1.5 py-0.5 font-mono text-xs tracking-widest text-on-dark-muted uppercase">
         Coming soon
       </p>
-      <p className="mt-2 font-serif text-2xl font-medium text-muted-foreground">{door.name}</p>
-      <p className="mt-2 text-sm text-muted-foreground">{door.dek}</p>
+      <p className="mt-2 font-serif text-2xl font-bold uppercase leading-tight">{door.name}</p>
+      <p className="mt-2 text-sm text-on-dark-muted">{door.dek}</p>
     </div>
   );
 }
@@ -34,26 +36,30 @@ function DoorCard({ door }: { door: ShelfDoor }) {
 function CountiesIndex() {
   return (
     <SiteShell>
+      <LegacyV4>
       <HomeSearch />
-      <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
-        <Kicker>Virginia</Kicker>
-        <p className="mt-3 font-mono text-xs tracking-widest text-muted-foreground uppercase">
-          Local meetings · public record
-        </p>
-        <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          VA Counties
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+      <LegacyHero
+        kicker={
+          <>
+            <p>Virginia</p>
+            <p className="mt-2 font-mono text-xs tracking-widest">Local meetings · public record</p>
+          </>
+        }
+        title="VA Counties"
+      >
+        <p className="text-lg">
           County and school board doors for meetings and the official record. No dossiers.
         </p>
-        <p className="mt-3 text-sm text-muted-foreground">
+        <p className="text-sm">
           Cities:{" "}
-          <Link to="/cities" className="text-[#1E4B8E] underline-offset-2 hover:underline">
+          <Link to="/cities" className="font-semibold text-gold underline-offset-2 hover:underline">
             City of Fairfax and City of Manassas
           </Link>
           .
         </p>
-        <ul className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      </LegacyHero>
+      <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-8 sm:py-12">
+        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {COUNTY_SHELVES.map((shelf) => (
             <li key={shelf.id} className="flex flex-col gap-4">
               <DoorCard door={shelf.county} />
@@ -61,7 +67,8 @@ function CountiesIndex() {
             </li>
           ))}
         </ul>
-      </main>
+      </div>
+      </LegacyV4>
     </SiteShell>
   );
 }

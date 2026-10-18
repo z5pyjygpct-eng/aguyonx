@@ -2,7 +2,7 @@ import { CityMissing } from "@/components/site/city-venue-page";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
-import { Kicker } from "@/components/site/kicker";
+import { LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
 import { CityMeetingList, CityMeetingSearch } from "@/components/site/city-meeting-search";
 import { CITY_BY_ID, type CityId } from "@/content/cities";
 
@@ -14,9 +14,11 @@ function Page() {
   if (!c) return <CityMissing />;
   return (
     <SiteShell location={`${c.name}, Virginia`}>
+      <LegacyV4>
       <HomeSearch />
-      <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
-        <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+      <LegacyHero
+        crumbs={
+        <p>
           <Link to="/cities" className="hover:text-foreground hover:underline">
             VA Cities
           </Link>
@@ -31,10 +33,11 @@ function Page() {
           <span className="mx-2 text-border">/</span>
           Find the Moment
         </p>
-        <Kicker className="mt-4">Virginia · {c.region}</Kicker>
-        <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          Search {c.shortName} Council + Schools together
-        </h1>
+        }
+        kicker={<>Virginia · {c.region}</>}
+        title={<>Search {c.shortName} Council + Schools together</>}
+      />
+      <div className="mx-auto w-full max-w-6xl px-4 pb-14 sm:px-8">
         <div className="mt-10">
           <CityMeetingSearch venues={c.venues} />
         </div>
@@ -42,7 +45,8 @@ function Page() {
           <h2 className="font-serif text-2xl font-medium">Meetings &amp; recaps</h2>
           <div className="mt-4"><CityMeetingList venues={c.venues} /></div>
         </div>
-      </main>
+      </div>
+      </LegacyV4>
     </SiteShell>
   );
 }

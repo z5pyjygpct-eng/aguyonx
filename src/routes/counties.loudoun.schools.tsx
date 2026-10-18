@@ -4,6 +4,7 @@ import { dateMeta, useMeetingFilters } from "@/components/site/meeting-filters";
 import { SiteShell } from "@/components/site/shell";
 import { HomeSearch } from "@/components/site/home-search";
 import { Kicker } from "@/components/site/kicker";
+import { LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
 import { LcpsMeetingSearch } from "@/components/site/lcps-meeting-search";
 import { LcpsPolicySearch } from "@/components/site/lcps-policy-search";
 import { LcpsBudgetSearch } from "@/components/site/lcps-budget-search";
@@ -35,9 +36,11 @@ function LoudounSchoolsPage() {
   const videoF = useMeetingFilters(LCPS_MEETINGS, (m) => dateMeta(m.dateLabel, lcpsKind(m.kind)), "meetings");
   return (
     <SiteShell>
+      <LegacyV4>
       <HomeSearch />
-      <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
-        <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+      <LegacyHero
+        crumbs={
+        <p>
           <Link to="/counties" className="hover:text-foreground hover:underline">
             VA Counties
           </Link>
@@ -48,11 +51,11 @@ function LoudounSchoolsPage() {
           <span className="mx-2 text-border">/</span>
           Schools
         </p>
-        <Kicker className="mt-4">Virginia · Northern Virginia</Kicker>
-        <h1 className="mt-2 font-serif text-4xl font-medium tracking-tight sm:text-5xl">
-          Loudoun Schools
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+        }
+        kicker="Virginia · Northern Virginia"
+        title="Loudoun Schools"
+      >
+        <p className="text-lg">
           <span className="font-medium text-foreground">Find the Moment</span> for Loudoun County
           Public Schools School Board — {LCPS_MEETINGS.length} meetings indexed (full board,
           committees, closed/appeals · 2025–2026 YTD). Captions are an index, not quotes. County
@@ -65,7 +68,8 @@ function LoudounSchoolsPage() {
           </Link>{" "}
           door.
         </p>
-
+      </LegacyHero>
+      <div className="mx-auto w-full max-w-6xl px-4 pb-14 sm:px-8">
         <div className="mt-10">
           <LcpsMeetingSearch />
           <p className="mt-4 text-sm text-muted-foreground">
@@ -80,7 +84,7 @@ function LoudounSchoolsPage() {
 
         {LOUDOUN_RECAPS.some((r) => (r.venue ?? "loudoun-bos") === "loudoun-lcps") ? (
           <section className="mt-10">
-            <Kicker>Meeting recaps</Kicker>
+            <Kicker className="text-gold">Meeting recaps</Kicker>
             {recapF.controls}
             <ul className="mt-3 space-y-2">
               {recapF.filtered.map(
@@ -106,7 +110,7 @@ function LoudounSchoolsPage() {
         ) : null}
 
         <section className="mt-14">
-          <Kicker>LCPS-TV</Kicker>
+          <Kicker className="text-gold">LCPS-TV</Kicker>
           <h2 className="mt-2 font-serif text-3xl font-medium">Meeting videos</h2>
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
             All {LCPS_MEETINGS.length} indexed School Board meetings (full board, committees, appeals, closed-session
@@ -156,7 +160,7 @@ function LoudounSchoolsPage() {
         </section>
 
         <section className="mt-14">
-          <Kicker>School Board</Kicker>
+          <Kicker className="text-gold">School Board</Kicker>
           <h2 className="mt-2 font-serif text-3xl font-medium">Thin roster</h2>
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
             Name, district, role. No bios, no finance, no person pages.
@@ -182,7 +186,7 @@ function LoudounSchoolsPage() {
         </section>
 
         <section className="mt-14" id="budget">
-          <Kicker>Budget</Kicker>
+          <Kicker className="text-gold">Budget</Kicker>
           <h2 className="mt-2 font-serif text-3xl font-medium">Schools money, kitchen-table</h2>
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
             Loudoun schools run July–June. {LCPS_BUDGET_FY27.fiscalYear} is{" "}
@@ -229,7 +233,9 @@ function LoudounSchoolsPage() {
             </li>
           </ul>
 
-          <figure className="mt-8 overflow-hidden rounded-md border border-border bg-paper">
+          <figure className="mt-8 overflow-hidden rounded-xl border border-border bg-paper">
+            {/* Chart is drawn for a light page: keep it on a light card (data colors unchanged). */}
+            <div className="bg-white p-2 sm:p-3">
             <img
               src="/files/lcps-budget/fy2027-operating-vs-ltf.png"
               alt="FY2027 Loudoun School Operating Fund total versus local tax funding, BOS Adopted"
@@ -237,6 +243,7 @@ function LoudounSchoolsPage() {
               width={1600}
               height={900}
             />
+            </div>
             <figcaption className="border-t border-border px-4 py-3 text-sm text-muted-foreground">
               Figure 1. FY2027 Loudoun school operating fund — total vs local tax funding (BOS
               Adopted). About 72% is local tax funding. Source: Loudoun County FY2027 Adopted
@@ -341,7 +348,7 @@ function LoudounSchoolsPage() {
         </section>
 
         <section className="mt-14">
-          <Kicker>Policies</Kicker>
+          <Kicker className="text-gold">Policies</Kicker>
           <h2 className="mt-2 font-serif text-3xl font-medium">Policies</h2>
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
             Current BoardDocs book — {LCPS_POLICY_BOOK}. {lcpsPolicyCount()} active
@@ -353,7 +360,7 @@ function LoudounSchoolsPage() {
         </section>
 
         <section className="mt-14">
-          <Kicker>Official doors</Kicker>
+          <Kicker className="text-gold">Official doors</Kicker>
           <h2 className="mt-2 font-serif text-3xl font-medium">Out to the record</h2>
           <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
             BoardDocs packets and LCPS-TV. Jump links open Vimeo from Find the Moment.
@@ -377,7 +384,8 @@ function LoudounSchoolsPage() {
             ))}
           </ul>
         </section>
-      </main>
+      </div>
+      </LegacyV4>
     </SiteShell>
   );
 }
