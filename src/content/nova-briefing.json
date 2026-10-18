@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,63 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-18",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 17) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (outlet headline, URL and Oct 17 ET publish date checked on each article page). Sources checked: Loudoun Now, Loudoun Times-Mirror, FFXnow, ARLnow, InsideNoVa, Prince William Times, Potomac Local, Blue Ridge Leader, Patch (Leesburg, Ashburn, Arlington, Fairfax City, Reston, Herndon, McLean, Manassas), WTOP, WUSA9, NBC Washington, FOX 5 DC, WJLA, Fairfax Times, Connection Newspapers; news.ts had no Oct 17 local items yet. Caveats: Saturday edition (thin weekend publish); Fairfax and Arlington had no verified prior-day local news posts from primary outlets (FFXnow/ARLnow Oct 17 archives 404; Patch town news pages showed no Oct 17 articles; Fairfax Times Oct 17 items were soft lifestyle features left out); Annandale Today 20-mph Mason District piece left out (outlet not on NG list; same speed-limit pilot already briefed Oct 16 via FFXnow); FCPD Search-and-Rescue feature left out (departmental blog, not NG outlet); WJLA Leesburg gunfire and WTOP Gainesville rabies pieces dropped as same-story duplicates of Loudoun Now and InsideNoVa; Daily Voice Round Hill fire failed verification (HTTP 403); WTOP regional weather and InsideNoVa/PWT sports left out; Loudoun Now/LTM/PWT search feeds returned HTTP 429 (read from site section/homepages instead); local RSS snapshots under /workspace/aguyonx/feed-*.xml were stale (no Oct 17 entries).",
+      "items": [
+        {
+          "id": "leesburg-plaza-shooting-loudounnow-2026-10-17",
+          "county": "Loudoun",
+          "headline": "Updated: Leesburg Police Investigating Leesburg Plaza Shooting",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/updated-leesburg-police-investigating-leesburg-plaza-shooting/article_e30deef6-3ee5-45e0-9183-41636b008dae.html",
+          "published": "2026-10-17",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "leesburg-rally-data-center-moratorium-ltm-2026-10-17",
+          "county": "Loudoun",
+          "headline": "Speakers at Leesburg rally call for statewide data center moratorium",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/real_estate_and_development/speakers-at-leesburg-rally-call-for-statewide-data-center-moratorium/article_753c7e80-7907-430f-88a3-5c19ee812d68.html",
+          "published": "2026-10-17",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "school-board-ne-loudoun-attendance-zones-ltm-2026-10-17",
+          "county": "Loudoun",
+          "headline": "School Board considers shifting some NE Loudoun elementary attendance zones",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/education/school-board-considers-shifting-some-ne-loudoun-elementary-attendance-zones/article_3ee0221b-a361-489a-9229-8d20bedda8d9.html",
+          "published": "2026-10-17",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "sugarland-run-man-convicted-sodomy-ltm-2026-10-17",
+          "county": "Loudoun",
+          "headline": "Sugarland Run man convicted of 2021 sodomy",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/sugarland-run-man-convicted-of-2021-sodomy/article_ab8fbdc2-c8e1-4322-901e-508914ac8ad1.html",
+          "published": "2026-10-17",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "rabid-cat-gainesville-insidenova-2026-10-17",
+          "county": "Prince William",
+          "headline": "Police warn of rabid cat in Gainesville neighborhood",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/headlines/police-warn-of-rabid-cat-in-gainesville-neighborhood/article_cb8416a0-5663-402e-9d37-7e670ea46fff.html",
+          "published": "2026-10-17",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Fairfax: no verified prior-day local news item from primary outlets",
+        "Arlington: no verified prior-day local news item from primary outlets"
+      ]
+    },
     {
       "date": "2026-10-17",
       "status": "ok",
