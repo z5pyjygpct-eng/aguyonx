@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Clapperboard, DollarSign, FileSearch, Landmark, Lock, Mail, MapPin, PencilLine, Sparkles } from "lucide-react";
+import { ArrowRight, Clapperboard, DollarSign, FileSearch, Landmark, Lock, Mail, MapPin, Sparkles } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { V4Main } from "@/components/site/lcps-v4";
 import { GA_PREVIEW_ROBOTS } from "@/lib/ga-dashboard";
@@ -28,7 +28,6 @@ const TOPICS: { icon: typeof Mail; title: string; subject: string; text: string 
   { icon: DollarSign, title: "Money and budgets", subject: "Tip: budget or spending", text: "A number looks odd, or you wonder where the money went? Ask me. I'll dig into the budget papers." },
   { icon: Landmark, title: "A vote or decision", subject: "Tip: vote or decision", text: "A vote coming up, a rule that changed, or a decision that surprised you. Point me to it." },
   { icon: FileSearch, title: "A public record", subject: "Tip: public record", text: "Know a public paper that would help explain something? Tell me what it is and who keeps it." },
-  { icon: PencilLine, title: "Something we got wrong", subject: "Tip: correction", text: "Did I get something wrong? Please tell me. I'd rather fix it than leave it up." },
   { icon: Sparkles, title: "Something else", subject: "Tip", text: "Doesn't fit a box? That's fine. Just tell me what you saw." },
 ];
 
@@ -53,7 +52,7 @@ const PRIVACY = [
 const NEXT = [
   ["I read it", "A real person reads every tip."],
   ["I check it", "I look at the meeting video, the budget papers and other public records."],
-  ["I use what holds up", "A good tip might become a clip, a note in a meeting recap or a fix to one of our pages."],
+  ["I use what holds up", "A good tip might become a clip or a note in a meeting recap."],
   ["I may write back", "If I have a question, I may reply to your email."],
 ] as const;
 
@@ -99,9 +98,10 @@ function TipsPage() {
           <section className="mt-10" aria-labelledby="by-topic">
             <h2 id="by-topic" className={h2}>What's your tip about?</h2>
             <p className="mt-1 text-sm text-on-dark-muted">Tap the one that fits. Not sure? Pick "Something else."</p>
-            <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {TOPICS.map(({ icon: Icon, title, subject, text }) => (
-                <a key={title} href={tipMailto(subject)} className={`${tile} flex flex-col`}>
+            {/* 5 tiles: 2+2+1(full) on tablet, 3+2 centered on desktop (6-col grid, each tile spans 2). */}
+            <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-6">
+              {TOPICS.map(({ icon: Icon, title, subject, text }, i) => (
+                <a key={title} href={tipMailto(subject)} className={`${tile} flex flex-col lg:col-span-2 ${i === 3 ? "lg:col-start-2" : ""} ${i === 4 ? "sm:col-span-2" : ""}`}>
                   <Arrow />
                   <Icon className="size-7 text-gold" aria-hidden />
                   <span className="mt-2 font-serif text-2xl font-bold uppercase leading-tight">{title}</span>
