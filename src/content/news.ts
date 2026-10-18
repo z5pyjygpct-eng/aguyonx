@@ -50,6 +50,16 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "loudoun-expanded-early-voting-oct18-loudoungov-2026-10-14",
+    date: "2026-10-14",
+    filed: "2026-10-18",
+    headline: "Expanded Early Voting Opportunities for November General Election Begin Oct. 18",
+    outlet: "Loudoun County, VA",
+    url: "https://www.loudoun.gov/m/newsflash/home/detail/10922",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "leesburg-plaza-shooting-loudounnow-2026-10-17",
     date: "2026-10-17",
     headline: "Updated: Leesburg Police Investigating Leesburg Plaza Shooting",
