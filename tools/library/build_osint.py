@@ -4,7 +4,7 @@
 - Groups by the CSV's 22 categories (order of first appearance).
 - Paid rule: tagged Paid when the Name contains "(paid)" or the Note says "paid" or "subscription"
   (the "(paid)" suffix is stripped from the display name; the tag shows instead). "Free account"/"free key" is not Paid.
-- Dedupes against src/content/library.ts (existing 98 win) by normalized URL; close name matches are
+- Dedupes against src/content/library.ts as shown on /library (src/lib/library-overrides.json applied; existing entries win) by normalized URL; close name matches are
   reported in dupes for review but only merged when listed in NAME_MERGES.
 Usage: python3 tools/library/build_osint.py [csv]
 """
@@ -28,6 +28,9 @@ def nname(s: str) -> str:
 lib = open(ROOT / "src/content/library.ts").read()
 existing = re.findall(r'slug: "([^"]+)",\s*title: "([^"]*)",.*?(?:href|file|tool): "([^"]+)"', lib, re.S)
 assert len(existing) == 98, len(existing)
+# Apply the page-layer overrides (Scott-approved link fixes/removals) so dedupe matches what /library shows.
+OV = json.loads((ROOT / "src/lib/library-overrides.json").read_text())
+existing = [(slug, t, OV["href"].get(slug, h)) for slug, t, h in existing if slug not in OV["exclude"]]
 by_url = {norm(h): (slug, t) for slug, t, h in existing}
 
 # Name matches that point at the same resource via a different URL (reviewed by hand). Empty unless found.

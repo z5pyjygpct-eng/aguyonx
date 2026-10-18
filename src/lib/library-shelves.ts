@@ -2,7 +2,16 @@
  * Research Library shelves (preview). Maps every item in src/content/library.ts (routine-owned, not edited here)
  * to one of 7 shelves. Items missing from this map fall back to a shelf by kind, so nothing can disappear.
  */
+import { LIBRARY } from "@/content/library";
 import type { LibraryItem } from "@/content/types";
+import OVERRIDES from "@/lib/library-overrides.json";
+
+const HREF_FIX: Record<string, string> = OVERRIDES.href;
+const EXCLUDE = new Set<string>(OVERRIDES.exclude);
+/** LIBRARY as shown on /library: Scott-approved href fixes applied, removed entries dropped. */
+export const LIBRARY_VIEW: LibraryItem[] = LIBRARY.filter((i) => !EXCLUDE.has(i.slug)).map((i) =>
+  HREF_FIX[i.slug] ? { ...i, href: HREF_FIX[i.slug] } : i,
+);
 
 export const SHELVES = [
   { id: "foia", label: "FOIA & tools" },

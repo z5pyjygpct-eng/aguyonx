@@ -1,7 +1,7 @@
 {
  "source": "osint-va-list.csv",
  "total": 226,
- "shown": 204,
+ "shown": 203,
  "categories": [
   {
    "name": "VA Legislature",
@@ -1301,13 +1301,6 @@
      "check": "unconfirmed"
     },
     {
-     "name": "Clerk of the House roll call votes",
-     "url": "https://clerk.house.gov/Votes",
-     "note": "Official House roll call votes",
-     "paid": false,
-     "check": "ok"
-    },
-    {
      "name": "Senate roll call votes",
      "url": "https://www.senate.gov/legislative/votes_new.htm",
      "note": "Official Senate roll call votes",
@@ -1336,6 +1329,13 @@
      "url": "https://www.congress.gov/",
      "existingSlug": "congress-gov",
      "existingTitle": "Congress.gov"
+    },
+    {
+     "category": "Federal: Legislation",
+     "name": "Clerk of the House roll call votes",
+     "url": "https://clerk.house.gov/Votes",
+     "existingSlug": "clerk-of-the-us-house-of-representatives-roll-call-votes",
+     "existingTitle": "Clerk of the US House of Representatives — Roll Call Votes"
     },
     {
      "category": "Federal: Legislation",

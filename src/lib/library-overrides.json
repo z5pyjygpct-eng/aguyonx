@@ -1,0 +1,8 @@
+{
+ "_note": "Scott-approved Library link fixes (Oct 17 2026), applied at the page layer because src/content/library.ts is routine-owned. Read by src/lib/library-shelves.ts and tools/library/build_osint.py (dedupe).",
+ "href": {
+  "clerk-of-the-us-house-of-representatives-roll-call-votes": "https://clerk.house.gov/Votes",
+  "connection-newspapers": "https://www.connectionnewspapers.com/"
+ },
+ "exclude": ["wjla-abc7-loudoun", "vote-smart-virginia-key-votes-rss"]
+}
