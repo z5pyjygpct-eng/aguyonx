@@ -29,6 +29,7 @@ const COLS = [
       { to: "/about", label: "About" },
       { to: "/contact", label: "Contact" },
       { to: "/library/foia", label: "FOIA letter desk" },
+      { to: "/tips", label: "Got Tips?" },
     ],
   },
 ] as const;

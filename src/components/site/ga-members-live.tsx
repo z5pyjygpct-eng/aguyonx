@@ -49,7 +49,7 @@ export function GaMembersLive({ slug }: { slug: "house-members" | "senate-member
   return (
     <SiteShell>
       <main className="agx-dark flex-1 bg-navy-800 text-white">
-        <div ref={ref} dangerouslySetInnerHTML={{ __html: html }} />
+        <div ref={ref} className="agx-mock" dangerouslySetInnerHTML={{ __html: html }} />
       </main>
     </SiteShell>
   );

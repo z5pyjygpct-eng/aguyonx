@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { ChevronDown, Menu } from "lucide-react";
 import {
@@ -9,6 +9,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { SITE } from "@/content/site";
+import { DASHBOARDS } from "@/lib/dashboards";
 
 /** v4 primary nav (Scott-approved): About, News, Investigations, Videos, Articles, Tools. */
 export const NAV_PRIMARY = [
@@ -19,9 +20,9 @@ export const NAV_PRIMARY = [
   { to: "/articles", label: "Articles" },
 ] as const;
 
-/** Everything else lives under Tools so no existing page loses its door. */
+/** Everything else lives under Other Resources so no existing page loses its door.
+ * News is not repeated here: its canonical place is the primary nav (Scott-approved order). */
 export const NAV_TOOLS = [
-  { to: "/news", label: "News" },
   { to: "/nova-briefing", label: "Daily NoVA Briefing" },
   { to: "/library", label: "Research Library" },
   { to: "/library/foia", label: "FOIA letter desk" },
@@ -58,6 +59,35 @@ const LINK =
 export function SiteHeader(_props: { inverted?: boolean } = {}) {
   const [open, setOpen] = useState(false);
   const [tools, setTools] = useState(false);
+  const [dash, setDash] = useState(false);
+  const toolsId = useId();
+  const dashId = useId();
+  const toolsRef = useRef<HTMLDivElement>(null);
+  const toolsBtn = useRef<HTMLButtonElement>(null);
+  // Other Resources is a click/tap disclosure: closes on outside click, on Esc (focus back to the button) and when focus leaves it.
+  useEffect(() => {
+    if (!tools) return;
+    const onDown = (e: PointerEvent) => {
+      if (toolsRef.current && !toolsRef.current.contains(e.target as Node)) setTools(false);
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setTools(false);
+        toolsBtn.current?.focus();
+      }
+    };
+    const onFocus = (e: FocusEvent) => {
+      if (toolsRef.current && e.target instanceof Node && !toolsRef.current.contains(e.target)) setTools(false);
+    };
+    document.addEventListener("pointerdown", onDown);
+    document.addEventListener("keydown", onKey);
+    document.addEventListener("focusin", onFocus);
+    return () => {
+      document.removeEventListener("pointerdown", onDown);
+      document.removeEventListener("keydown", onKey);
+      document.removeEventListener("focusin", onFocus);
+    };
+  }, [tools]);
   return (
     <header className="agx-dark sticky top-0 z-40 border-b border-navy-line/60 bg-navy-900 text-white">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
@@ -70,25 +100,27 @@ export function SiteHeader(_props: { inverted?: boolean } = {}) {
               {item.label}
             </Link>
           ))}
-          <div className="relative" onMouseLeave={() => setTools(false)}>
+          <div className="relative" ref={toolsRef}>
             <button
+              ref={toolsBtn}
               type="button"
               className={LINK}
               aria-expanded={tools}
-              aria-haspopup="menu"
+              aria-controls={toolsId}
               onClick={() => setTools((v) => !v)}
-              onMouseEnter={() => setTools(true)}
             >
-              Other Resources <ChevronDown className="ml-1 size-4 text-gold" />
+              Other Resources <ChevronDown className={`ml-1 size-4 text-gold transition-transform ${tools ? "rotate-180" : ""}`} aria-hidden />
             </button>
             {tools ? (
-              <div role="menu" className="absolute right-0 top-11 w-60 rounded-lg border border-navy-line bg-navy-700 p-2 shadow-xl">
+              <ul id={toolsId} className="absolute right-0 top-11 w-60 rounded-lg border border-navy-line bg-navy-700 p-2 shadow-xl">
                 {NAV_TOOLS.map((item) => (
-                  <Link key={item.to} to={item.to} role="menuitem" onClick={() => setTools(false)} className="flex min-h-11 items-center rounded-md px-3 text-sm text-white hover:bg-navy-600">
-                    {item.label}
-                  </Link>
+                  <li key={item.to}>
+                    <Link to={item.to} onClick={() => setTools(false)} className="flex min-h-11 items-center rounded-md px-3 text-sm text-white hover:bg-navy-600">
+                      {item.label}
+                    </Link>
+                  </li>
                 ))}
-              </div>
+              </ul>
             ) : null}
           </div>
           <a
@@ -116,13 +148,33 @@ export function SiteHeader(_props: { inverted?: boolean } = {}) {
               <SheetHeader>
                 <SheetTitle className="font-serif text-white">A GUY ON <span className="text-gold">X</span></SheetTitle>
               </SheetHeader>
-              <nav className="mt-4 flex flex-col overflow-y-auto px-4" aria-label="Mobile">
-                {[...NAV_PRIMARY, ...NAV_TOOLS.filter((t) => !NAV_PRIMARY.some((p) => p.to === t.to)), { to: "/contact", label: "Contact" } as const].map((item) => (
+              <nav className="mt-4 flex flex-col overflow-y-auto px-4 pb-6" aria-label="Mobile">
+                <button
+                  type="button"
+                  aria-expanded={dash}
+                  aria-controls={dashId}
+                  onClick={() => setDash((v) => !v)}
+                  className="flex min-h-12 items-center justify-between border-b border-navy-line/60 text-left font-serif text-lg uppercase tracking-wide"
+                >
+                  Dashboards <ChevronDown className={`size-5 text-gold transition-transform ${dash ? "rotate-180" : ""}`} aria-hidden />
+                </button>
+                {dash ? (
+                  <ul id={dashId} className="shrink-0 border-b border-navy-line/60 py-1 pl-3">
+                    {DASHBOARDS.map((d) => (
+                      <li key={d.slug}>
+                        <Link to="/dashboards/$body" params={{ body: d.slug }} onClick={() => setOpen(false)} className="flex min-h-11 items-center text-base text-on-dark-muted hover:text-white">
+                          {d.short}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+                {[...NAV_PRIMARY, ...NAV_TOOLS, { to: "/contact", label: "Contact" } as const].map((item) => (
                   <Link key={item.to} to={item.to} onClick={() => setOpen(false)} className="flex min-h-12 items-center border-b border-navy-line/60 font-serif text-lg uppercase tracking-wide">
                     {item.label}
                   </Link>
                 ))}
-                <a href={SITE.giveUrl} target="_blank" rel="noreferrer" onClick={() => setOpen(false)} className="mt-4 flex h-12 items-center justify-center rounded-lg bg-flag text-sm font-semibold tracking-[0.12em] text-white uppercase">
+                <a href={SITE.giveUrl} target="_blank" rel="noreferrer" onClick={() => setOpen(false)} className="mt-4 flex h-12 shrink-0 items-center justify-center rounded-lg bg-flag text-sm font-semibold tracking-[0.12em] text-white uppercase">
                   {SITE.giveLabel}
                 </a>
               </nav>

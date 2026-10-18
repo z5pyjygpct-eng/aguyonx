@@ -141,3 +141,13 @@
 .lcps-v4-search > section > p,
 .lcps-v4-search > section > h2,
 .lcps-v4-search > section > aside { display: none; }
+
+/* Mockup HTML (src/lib/mockups, inline styles) on phones: let inline flex rows wrap, two-column card grids stack and 5-across member grids go 2-across,
+   so /dashboards/{house,senate}/members and /mockups/* fit 390px with no sideways scroll. Not used by /mockups/ga-dashboard. */
+@media (max-width: 767px) {
+  .agx-mock [style*="display:flex"] { flex-wrap: wrap; }
+  .agx-mock [style*="display:flex"] > input[type="search"] { flex: 1 1 100% !important; }
+  .agx-mock [style*="grid-template-columns:1.25fr 1fr"],
+  .agx-mock [style*="grid-template-columns:1.3fr 1fr"] { grid-template-columns: minmax(0, 1fr) !important; }
+  .agx-mock [style*="grid-template-columns:repeat(5,"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; clear: both; }
+}

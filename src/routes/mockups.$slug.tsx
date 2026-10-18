@@ -36,7 +36,7 @@ function Page() {
             {slug === "ga-dashboard" ? "" : `${LIS_NOTE.has(slug) ? " Real scorecard and vote data will come from the LIS API." : ""} FOIA links are placeholders.`}
           </p>
         </div>
-        <div ref={ref} dangerouslySetInnerHTML={{ __html: m.html }} />
+        <div ref={ref} className="agx-mock" dangerouslySetInnerHTML={{ __html: m.html }} />
       </main>
     </SiteShell>
   );
