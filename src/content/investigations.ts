@@ -2,6 +2,156 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    "slug": "va-community-schools-social-service-hubs-2026",
+    "kind": "investigation",
+    "title": "How Virginia Turned Schools into Social-Service Hubs",
+    "dek": "Virginia community schools, 2017 to 2026. “Hub” is my word for it, not the law’s.",
+    "date": "2026-10-19",
+    "displayDate": "October 19, 2026",
+    "topic": "Schools",
+    "kicker": "Virginia",
+    "image": "/images/investigations/va-community-schools-social-service-hubs-2026.png",
+    "imageAlt": "Cover of How Virginia Turned Schools into Social-Service Hubs",
+    "access": "public",
+    "readMinutes": 34,
+    "body": [
+      {
+        "type": "p",
+        "text": "By Scott Mineo"
+      },
+      {
+        "type": "h2",
+        "text": "The short version"
+      },
+      {
+        "type": "p",
+        "text": "I started with a simple question. How did Virginia public schools end up as places where families pick up food, clothing, diapers and health care?"
+      },
+      {
+        "type": "p",
+        "text": "Here is what the record shows. Virginia law lets a school apply to become a \"community school,\" a center where outside partners bring health, social and family services to students and their families. The law itself doesn't mention food or clothing. The state's own guidance names them as possible supports: food pantries, coat and shoe programs and health clinics. The 2020 law tells the state education department to follow that guidance (2020 Acts Ch. 872; 2019 Framework). The department's 2022 grant memo sets no food or clothing requirement (Memo 257-22). I haven't seen its application materials.",
+        "cites": [
+          "c1",
+          "c2",
+          "c3"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "I call the result a hub. That word is my assessment, not the law's. I use it because the state's own 2024 guide says partnerships turn \"a school into a neighborhood hub of support\" (Guide to Virginia Community Schools Implementation, p. 41). It's also my read that in the record I looked at, outside partners, not school employees, supply most of the food, diaper and clinic help (LCPS FY24 Superintendent's Estimate of Needs, PDF p. 266; Guide, p. 41).",
+        "cites": [
+          "c4",
+          "c5"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Democrats wrote the community schools bills, starting in 2017, led by Del. Sam Rasoul and Del. Lashrecse Aird (HB2434). One group keeps showing up. Communities In Schools of Virginia is in the 2019 budget, the 2019 Framework, every budget since 2022, and the lobbying record. The Framework says it was \"Adapted from Communities In Schools model\" (Framework). The group has had its own named line in the 2019 budget and in every budget since 2022. It hired lobbyists for the matter \"To expand the Communities in Schools program\" (2019 Item 135; 2026 Item 124; VPAP).",
+        "cites": [
+          "c6",
+          "c2",
+          "c7",
+          "c8",
+          "c9"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Republicans are part of this story too, and I'm going to tell it straight. The first state directive on community schools came in 2019. It was an order to the education department to write best-practice guidance, tucked into budget language (2019 Item 135 I.2). Republicans held both chambers that year. All 51 House Republicans voted on the House conference report (51 of 100 votes, HV3371), and 21 Senate Republicans voted on Senate passage (21 of 40, SV0548) (HB1700). In 2020, Senate Republicans voted 11 to 8 for the bill that put community schools in the Code (HB1355). Gov. Youngkin signed the budgets that carried the grant money in 2022, 2024 and 2025, though in 2024 he first tried to cut the grant to zero (Governor's amendment 54). The biggest law paying for health care at school, SB1307 in 2021, came from a Republican, Sen. Siobhan Dunnavant. It passed with no Nay votes, and the House vote was a block vote (SB1307).",
+        "cites": [
+          "c7",
+          "c10",
+          "c11",
+          "c12",
+          "c13"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A few cautions before going further. A unanimous vote doesn't prove a bill helped anyone. A vote on a whole budget isn't a vote on community schools. A vote on a governor's substitute isn't a vote on the bill as introduced. Nothing I found shows why anyone voted the way they did, so I write about what people did, not what they meant. I could find no documented link between the Southern Poverty Law Center or Teaching Tolerance and Virginia community schools. More on that near the end."
+      },
+      {
+        "type": "p",
+        "text": "Read the full investigation in the PDF, with every figure, the voting record, the groups behind it, all sources and the bill-by-bill appendix."
+      }
+    ],
+    "citations": [
+      {
+        "id": "c1",
+        "label": "2020 Acts Ch. 872",
+        "href": "https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+ful+CHAP0872"
+      },
+      {
+        "id": "c2",
+        "label": "2019 Framework",
+        "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=C%3A%5CTownHall%5Cdocroot%5CGuidanceDocs_Proposed%5C201%5CGDoc_DOE_4416_20191126.pdf"
+      },
+      {
+        "id": "c3",
+        "label": "Memo 257-22",
+        "href": "https://doe.ar.virginia.gov/home/showpublisheddocument/40847/638336659011070000"
+      },
+      {
+        "id": "c4",
+        "label": "Guide to Virginia Community Schools Implementation, p. 41",
+        "href": "https://vastudentservices-clc.org/wp-content/uploads/2024/12/Guide_to_VCSI_12-24.pdf"
+      },
+      {
+        "id": "c5",
+        "label": "LCPS FY24 Superintendent's Estimate of Needs, PDF p. 266",
+        "href": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/4461/lcps/4333581/FY24_Superintendent_s_Estimate_of_Needs.pdf"
+      },
+      {
+        "id": "c6",
+        "label": "HB2434",
+        "href": "https://legacylis.virginia.gov/cgi-bin/legp604.exe?171+sum+HB2434"
+      },
+      {
+        "id": "c7",
+        "label": "2019 Item 135",
+        "href": "https://budget.lis.virginia.gov/item/2019/1/HB1700/Chapter/1/135/"
+      },
+      {
+        "id": "c8",
+        "label": "2026 Item 124",
+        "href": "https://budget.lis.virginia.gov/item/2026/2/HB30/Chapter/1/124/"
+      },
+      {
+        "id": "c9",
+        "label": "VPAP",
+        "href": "https://www.vpap.org/lobbying/client/359843-communities-in-schools-of-virginia/"
+      },
+      {
+        "id": "c10",
+        "label": "HB1700",
+        "href": "https://legacylis.virginia.gov/cgi-bin/legp604.exe?191+sum+HB1700"
+      },
+      {
+        "id": "c11",
+        "label": "HB1355",
+        "href": "https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+sum+HB1355"
+      },
+      {
+        "id": "c12",
+        "label": "Governor's amendment 54",
+        "href": "https://budget.lis.virginia.gov/amendment/2024/1/HB30/Enrolled/GR/"
+      },
+      {
+        "id": "c13",
+        "label": "SB1307",
+        "href": "https://legacylis.virginia.gov/cgi-bin/legp604.exe?211+sum+SB1307"
+      }
+    ],
+    "documents": [
+      {
+        "id": "pdf",
+        "title": "How Virginia Turned Schools into Social-Service Hubs (PDF)",
+        "href": "/files/investigations/va-community-schools-social-service-hubs-2026.pdf",
+        "kind": "pdf"
+      }
+    ]
+  },
+  {
     slug: "lcps-public-comment-speaker-time",
     kind: "investigation",
     title: "LCPS Public Comment and Speaker Time",
