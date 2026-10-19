@@ -8131,10 +8131,11 @@ const CITY_RECAPS_RAW: CityRecap[] = [
     whenWhere: "City of Fairfax School Board meeting · video 3h 0m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
-      note: "Official vote record not yet posted or linked on the city’s Granicus archive for this meeting. Votes will be added only from the adopted minutes.",
+      checkedLabel: "Oct 19, 2026, 4:44 PM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
       links: [
         { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4669" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4669&doc_id=f9261536-c718-11f1-89ef-005056a84798" },
         { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4669" },
       ],
     },
