@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2023-11-28-889506048.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2023-11-28-2nd-tuesday-school-board-meeting-moved-due-to-winter-break",
+  "title": "Loudoun County School Board, 2nd Tuesday School Board Meeting (*moved due to Winter break), Tuesday, November 28, 2023",
+  "shortTitle": "2nd Tuesday School Board Meeting (*moved due to Winter break) \u00b7 Nov 28, 2023",
+  "date": "Tuesday, November 28, 2023",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "7h 30m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/889506048?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-19"
+}

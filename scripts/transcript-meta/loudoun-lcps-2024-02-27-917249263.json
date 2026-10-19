@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2024-02-27-917249263.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2024-02-27-4th-tuesday-school-board-mtg-public-hearing-on-proposed-school-change-hen-hov-es-2nd-grade-students",
+  "title": "Loudoun County School Board, 4th Tuesday School Board Mtg/Public Hearing on Proposed School Change HEN/HOV ES 2nd Grade Students, Tuesday, February 27, 2024",
+  "shortTitle": "4th Tuesday School Board Mtg/Public Hearing on Proposed School Change HEN/HOV ES 2nd Grade Students \u00b7 Feb 27, 2024",
+  "date": "Tuesday, February 27, 2024",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "5h 27m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/917249263?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-19"
+}

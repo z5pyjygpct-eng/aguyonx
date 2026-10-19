@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2024-01-18-904222415.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2024-01-18-presentation-of-the-fy25-superintendent-s-estimate-of-needs",
+  "title": "Loudoun County School Board, Presentation of the FY25 Superintendent's Estimate of Needs, Thursday, January 18, 2024",
+  "shortTitle": "Presentation of the FY25 Superintendent's Estimate of Needs \u00b7 Jan 18, 2024",
+  "date": "Thursday, January 18, 2024",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "50m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/904222415?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-19"
+}

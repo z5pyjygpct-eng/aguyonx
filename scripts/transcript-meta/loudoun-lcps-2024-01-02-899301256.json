@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2024-01-02-899301256.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2024-01-02-swearing-in-of-school-board-members-and-annual-organizational-school-board-meeting",
+  "title": "Loudoun County School Board, Swearing in of School Board Members and Annual Organizational School Board Meeting, Tuesday, January 2, 2024",
+  "shortTitle": "Swearing in of School Board Members and Annual Organizational School Board Meeting \u00b7 Jan 2, 2024",
+  "date": "Tuesday, January 2, 2024",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "1h (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/899301256?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-19"
+}
