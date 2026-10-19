@@ -50,6 +50,16 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "beyer-east-potomac-golf-closure-arlnow-2026-10-18",
+    date: "2026-10-18",
+    filed: "2026-10-19",
+    headline: "Trump to close East Potomac golf course for 15 months as Beyer calls plan ‘a disgrace’",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/18/trump-to-close-east-potomac-golf-course-for-15-months-as-beyer-calls-plan-a-disgrace/",
+    people: [{ name: "Don Beyer", office: "U.S. Representative" }],
+    scope: "local",
+  },
+  {
     id: "bicyclist-struck-route-50-middleburg-loudounnow-2026-10-18",
     date: "2026-10-18",
     headline: "Bicyclist Struck by Truck, Critically Hurt on Route 50",
