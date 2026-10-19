@@ -2,6 +2,102 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    "slug": "va-community-schools-part-two-where-it-was-born-2026",
+    "kind": "investigation",
+    "title": "Community Schools Part Two: Where It Was Born",
+    "dek": "The 2019 Framework, the bills behind it, and the outside groups woven into it.",
+    "date": "2026-10-19",
+    "displayDate": "October 19, 2026",
+    "topic": "Schools",
+    "kicker": "Virginia",
+    "image": "/images/investigations/va-community-schools-part-two-where-it-was-born-2026.png",
+    "imageAlt": "Cover of Community Schools Part Two: Where It Was Born",
+    "access": "public",
+    "readMinutes": 20,
+    "body": [
+      {
+        "type": "p",
+        "text": "By Scott Mineo"
+      },
+      {
+        "type": "p",
+        "text": "This is Part Two. Read Part One: How Virginia Turned Schools into Social-Service Hubs.",
+        "cites": [
+          "c1"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The short version"
+      },
+      {
+        "type": "p",
+        "text": "In Part One I showed how Virginia schools became places where families pick up food, clothing and health care. This part asks a different question. Where did the idea come from, and who shaped the document the state still runs it on?"
+      },
+      {
+        "type": "p",
+        "text": "That document is the Virginia Department of Education's Virginia Community School Framework, published in October 2019 (Framework). The 2020 law told the department to \"adhere to its recommendations as published in the Virginia Community School Framework in October 2019\" (2020 Acts Ch. 872). The 2024 law still says the state's Office of Community Schools works \"in accordance with the Virginia Community School Framework\" (HB625).",
+        "cites": [
+          "c2",
+          "c3",
+          "c4"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "So I read the Framework cover to cover, all 45 pages, and then I looked up the outside groups it names.",
+        "cites": [
+          "c2"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Here is what the record shows. One nonprofit, Communities In Schools of Virginia, was written into the order that created the Framework, and the Framework says its model was \"Adapted from Communities In Schools model\" (Framework, p.9). The research the Framework leans on is one brief, and its title promises \"Equitable School Improvement\" (Framework, p.24). And the Framework points schools to groups that, in their own published words, call for \"anti-racist\" schools, a \"race equity lens\" and social-emotional learning built to \"prioritize equity.\"",
+        "cites": [
+          "c2"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The Framework itself is milder than those groups. I'll show you both, side by side, with a link next to every claim."
+      },
+      {
+        "type": "p",
+        "text": "Read the full investigation in the PDF, with every quote and page number, who wrote the Framework, the outside groups in their own words, the grant filings, how Virginia built on them, and all sources."
+      }
+    ],
+    "citations": [
+      {
+        "id": "c1",
+        "label": "Part One",
+        "href": "/investigations/va-community-schools-social-service-hubs-2026"
+      },
+      {
+        "id": "c2",
+        "label": "Framework",
+        "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=C%3A%5CTownHall%5Cdocroot%5CGuidanceDocs_Proposed%5C201%5CGDoc_DOE_4416_20191126.pdf"
+      },
+      {
+        "id": "c3",
+        "label": "2020 Acts Ch. 872",
+        "href": "https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+ful+CHAP0872"
+      },
+      {
+        "id": "c4",
+        "label": "HB625",
+        "href": "https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB625"
+      }
+    ],
+    "documents": [
+      {
+        "id": "pdf",
+        "title": "Community Schools Part Two: Where It Was Born (PDF)",
+        "href": "/files/investigations/va-community-schools-part-two-where-it-was-born-2026.pdf",
+        "kind": "pdf"
+      }
+    ]
+  },
+  {
     "slug": "va-community-schools-social-service-hubs-2026",
     "kind": "investigation",
     "title": "How Virginia Turned Schools into Social-Service Hubs",
@@ -72,10 +168,22 @@ export const INVESTIGATIONS: Story[] = [
       },
       {
         "type": "p",
+        "text": "Continue to Part Two: Where It Was Born, on the 2019 Framework and the outside groups woven into it.",
+        "cites": [
+          "p2"
+        ]
+      },
+      {
+        "type": "p",
         "text": "Read the full investigation in the PDF, with every figure, the voting record, the groups behind it, all sources and the bill-by-bill appendix."
       }
     ],
     "citations": [
+      {
+        "id": "p2",
+        "label": "Part Two",
+        "href": "/investigations/va-community-schools-part-two-where-it-was-born-2026"
+      },
       {
         "id": "c1",
         "label": "2020 Acts Ch. 872",
