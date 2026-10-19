@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,62 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-19",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 18, Sunday) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (HTTP 200, outlet headline, URL and Oct 18 ET publish date checked on each article page). Sources checked: fresh RSS from Loudoun Now, Loudoun Times-Mirror, InsideNoVa, FFXnow, ARLnow, Potomac Local, WTOP Virginia, Annandale Today, Blue Ridge Leader and Loudoun County news flash; news.ts had no Oct 18 local items. Caveats: Sunday edition (thin weekend publish). Prince William had no verified prior-day local news item. Prince William Times and Fairfax Times feeds returned HTTP 429; Loudoun Times-Mirror, FFXnow, Blue Ridge Leader and the Loudoun County news flash had no Oct 18 posts. Left out: Loudoun Now's Leesburg data center moratorium rally story (same rally already briefed Oct 18 via Loudoun Times-Mirror); WTOP off-duty Fairfax County officer arrest (same case already on News via FFXnow Oct 16); WTOP Vietnam veterans 'No Kings' piece and ARLnow East Potomac golf course story (regional/D.C. subjects, locality not clearly one of the four); Potomac Local Quantico live-fire notice (article does not tie it to Prince William); InsideNoVa Workhouse Arts Lorton exhibit (soft arts feature); InsideNoVa sports, lifestyle, state/national wire items and sponsored press releases. 20 candidates evaluated, 0 verification failures.",
+      "items": [
+        {
+          "id": "bicyclist-struck-route-50-middleburg-loudounnow-2026-10-18",
+          "county": "Loudoun",
+          "headline": "Bicyclist Struck by Truck, Critically Hurt on Route 50",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/bicyclist-struck-by-truck-critically-hurt-on-route-50/article_630aa7e3-7797-4f05-aade-2d5c86587dd2.html",
+          "published": "2026-10-18",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-struck-killed-route-28-chantilly-wtop-2026-10-18",
+          "county": "Fairfax",
+          "headline": "Man struck and killed on Route 28 in Chantilly",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/man-struck-and-killed-on-route-28-in-chantilly/",
+          "published": "2026-10-18",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "two-seriously-injured-house-fire-annandaletoday-2026-10-18",
+          "county": "Fairfax",
+          "headline": "Two people seriously injured in house fire",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/two-people-seriously-injured-in-house-fire/",
+          "published": "2026-10-18",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "pedestrian-struck-route-7-skyline-annandaletoday-2026-10-18",
+          "county": "Fairfax",
+          "headline": "Pedestrian suffers life-threatening injuries after being struck on Route 7",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/pedestrian-suffers-life-threatening-injuries-after-being-struck-on-route-7/",
+          "published": "2026-10-18",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "pedestrian-seriously-injured-rosslyn-arlnow-2026-10-18",
+          "county": "Arlington",
+          "headline": "Pedestrian seriously injured in Rosslyn incident",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/18/pedestrian-seriously-injured-in-rosslyn-incident/",
+          "published": "2026-10-18",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Prince William: no verified prior-day local news item from primary outlets (Prince William Times feed HTTP 429)"
+      ]
+    },
     {
       "date": "2026-10-18",
       "status": "ok",
