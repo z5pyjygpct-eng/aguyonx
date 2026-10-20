@@ -90,6 +90,9 @@ function FoiaDesk() {
               Name the public body, describe the records, copy the letter. The request is yours to
               send. This page stores a draft on this device only — it does not file anything.
             </p>
+            <p role="note" className="mt-4 max-w-2xl rounded-lg border border-gold bg-gold/10 px-4 py-3 text-sm font-semibold text-gold">
+              This is not legal advice. This tool helps you write a records request. For legal questions, talk to a lawyer or the Virginia FOIA Council.
+            </p>
           </div>
         </section>
 

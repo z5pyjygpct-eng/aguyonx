@@ -5,8 +5,8 @@ import { ftmSnippet, ftmStats, jumpHref, searchFtm, type FtmMeetingHit, type Ftm
 /** Grouped site search results (homepage, hubs, dashboards). Per-group limits with "Show more"; no global cap. */
 const FIRST = 5;
 const MORE = 10;
-const ORDER = ["Investigation", "Article", "Page", "2027", "Library", "Book", "Delegate paper", "Senator paper", "News"];
-const LABEL: Record<string, string> = { Investigation: "Investigations", Article: "Articles", Page: "Pages", "2027": "2027 candidates", Library: "Library", Book: "Books", "Delegate paper": "Delegate papers", "Senator paper": "Senator papers", News: "News" };
+const ORDER = ["Investigation", "Article", "Recap", "Page", "2027", "Library", "Book", "Delegate paper", "Senator paper", "Document", "News"];
+const LABEL: Record<string, string> = { Recap: "Meeting recaps and votes", Document: "Documents (PDF full text)", Investigation: "Investigations", Article: "Articles", Page: "Pages", "2027": "2027 candidates", Library: "Library", Book: "Books", "Delegate paper": "Delegate papers", "Senator paper": "Senator papers", News: "News" };
 const external = (h: string) => /^https?:/.test(h) || /\.(pdf|md|csv|txt)$/i.test(h);
 const clock = (s: number) => { const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), x = Math.floor(s % 60); return `${h ? `${h}:${String(m).padStart(2, "0")}` : m}:${String(x).padStart(2, "0")}`; };
 
@@ -73,7 +73,14 @@ function Group({ shelf, list, dark }: { shelf: string; list: SearchHit[]; dark: 
 }
 
 export function SiteSearchResults({ query, dark = false }: { query: string; dark?: boolean }) {
-  const hits = useMemo(() => searchSite(query, Infinity), [query]);
+  const base = useMemo(() => searchSite(query, Infinity), [query]);
+  const [extra, setExtra] = useState<{ q: string; hits: SearchHit[] } | null>(null);
+  useEffect(() => {
+    let on = true;
+    import("@/lib/search-extra").then((m) => m.searchExtra(query, new Set(base.map((h) => h.href)))).then((h) => on && setExtra({ q: query, hits: h })).catch(() => on && setExtra({ q: query, hits: [] }));
+    return () => { on = false; };
+  }, [query, base]);
+  const hits = useMemo(() => (extra && extra.q === query ? [...base, ...extra.hits] : base), [base, extra, query]);
   const [ftm, setFtm] = useState<{ q: string; r: FtmResult | null; err?: boolean } | null>(null);
   useEffect(() => {
     let on = true;

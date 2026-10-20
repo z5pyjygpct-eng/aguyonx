@@ -82,7 +82,9 @@ export function SiteFooter({ location = SITE.location }: { location?: string } =
             {SITE.credit} Citations are to public records and public media. Sample datasets on this
             site demonstrate method; they are labeled as such.
           </p>
-          <p>
+          <p className="flex flex-wrap gap-x-4 gap-y-1">
+            <Link to="/how-to" className="underline hover:text-white">How to use this site</Link>
+            <Link to="/sitemap" className="underline hover:text-white">Site map</Link>
             <a href={SITE.giveUrl} target="_blank" rel="noreferrer" className="text-gold underline">{SITE.giveLabel}</a>
           </p>
         </div>

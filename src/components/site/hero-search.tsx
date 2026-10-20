@@ -17,6 +17,13 @@ function useNarrow() {
 
 export function HeroSearch({ placeholder, placeholderNarrow, id = "hero-q" }: { placeholder: string; placeholderNarrow?: string; id?: string }) {
   const narrow = useNarrow();
+  // ?q= runs a search on load (used by /how-to examples and the 404 page)
+  useEffect(() => {
+    if (id !== "hero-q") return;
+    const v = new URLSearchParams(window.location.search).get("q");
+    if (v) { setQ(v); setSubmitted(v); }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const [q, setQ] = useState("");
   const [submitted, setSubmitted] = useState("");
   const query = submitted.trim();

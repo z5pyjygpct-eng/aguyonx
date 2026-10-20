@@ -4,6 +4,7 @@ import { ArrowRight, ExternalLink } from "lucide-react";
 import { SiteHeader } from "@/components/site/header";
 import { SiteFooter } from "@/components/site/footer";
 import { HeroSearch } from "@/components/site/hero-search";
+import { SignupBox } from "@/components/site/signup-box";
 import { siteStats } from "@/components/site/loudoun-stats";
 import { SITE } from "@/content/site";
 import { articleBySlug } from "@/content/articles";
@@ -255,7 +256,7 @@ function Home() {
             <div className="rounded-xl border border-flag bg-gradient-to-br from-[#3a0a14] to-navy-700 p-6">
               <h3 className="font-serif text-2xl font-semibold uppercase">Help fuel the public record</h3>
               <p className="mt-2 text-on-dark-muted">
-                Records requests, transcripts and hosting cost money. Every dollar keeps the archive free and searchable. <Placeholder>Preview · not live</Placeholder>
+                Records requests, transcripts and hosting cost money. Every dollar keeps the archive free and searchable.
               </p>
               <div className="mt-4 flex flex-wrap gap-2" role="radiogroup" aria-label="Donation amount (preview)">
                 {["$10", "$25", "$50", "$100", "Other"].map((a) => (
@@ -264,11 +265,12 @@ function Home() {
                   </button>
                 ))}
               </div>
-              <button type="button" disabled className="mt-4 inline-flex min-h-12 cursor-not-allowed items-center rounded-lg border border-white bg-flag px-6 font-serif font-bold tracking-[0.06em] uppercase opacity-90" title="Preview only — not connected to payments">
-                Give {amt === "Other" ? "" : amt} →
-              </button>
-              <p className="mt-2 text-xs text-night-muted">Amount picker is a design preview and is not connected to payments.</p>
+              <a href={SITE.giveUrl} target="_blank" rel="noreferrer" className="mt-4 inline-flex min-h-12 items-center rounded-lg border border-white bg-flag px-6 font-serif font-bold tracking-[0.06em] uppercase hover:bg-[#a3122a]">
+                Give {amt === "Other" ? "" : amt} on GiveSendGo →
+              </a>
+              <p className="mt-2 text-xs text-night-muted">Opens our GiveSendGo page. You choose the final amount there.</p>
             </div>
+            <div className="mt-6"><SignupBox /></div>
           </section>
         </div>
         <div className="h-14" />

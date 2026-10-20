@@ -21,11 +21,14 @@ import { Route as DelegatesRouteImport } from './routes/delegates'
 import { Route as FindTheMomentRouteImport } from './routes/find-the-moment'
 import { Route as GeneralAssemblyRouteImport } from './routes/general-assembly'
 import { Route as HowToRouteImport } from './routes/how-to'
+import { Route as HowWeWorkRouteImport } from './routes/how-we-work'
 import { Route as InvestigationsRouteImport } from './routes/investigations'
 import { Route as LibraryRouteImport } from './routes/library'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as NovaBriefingRouteImport } from './routes/nova-briefing'
+import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SenatorsRouteImport } from './routes/senators'
+import { Route as SitemapRouteImport } from './routes/sitemap'
 import { Route as TipsRouteImport } from './routes/tips'
 import { Route as VideosRouteImport } from './routes/videos'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
@@ -175,6 +178,11 @@ const HowToRoute = HowToRouteImport.update({
   path: '/how-to',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HowWeWorkRoute = HowWeWorkRouteImport.update({
+  id: '/how-we-work',
+  path: '/how-we-work',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const InvestigationsRoute = InvestigationsRouteImport.update({
   id: '/investigations',
   path: '/investigations',
@@ -195,9 +203,19 @@ const NovaBriefingRoute = NovaBriefingRouteImport.update({
   path: '/nova-briefing',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SenatorsRoute = SenatorsRouteImport.update({
   id: '/senators',
   path: '/senators',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapRoute = SitemapRouteImport.update({
+  id: '/sitemap',
+  path: '/sitemap',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TipsRoute = TipsRouteImport.update({
@@ -707,11 +725,14 @@ export interface FileRoutesByFullPath {
   '/find-the-moment': typeof FindTheMomentRoute
   '/general-assembly': typeof GeneralAssemblyRouteWithChildren
   '/how-to': typeof HowToRoute
+  '/how-we-work': typeof HowWeWorkRoute
   '/investigations': typeof InvestigationsRouteWithChildren
   '/library': typeof LibraryRouteWithChildren
   '/news': typeof NewsRoute
   '/nova-briefing': typeof NovaBriefingRoute
+  '/privacy': typeof PrivacyRoute
   '/senators': typeof SenatorsRoute
+  '/sitemap': typeof SitemapRoute
   '/tips': typeof TipsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
@@ -810,9 +831,12 @@ export interface FileRoutesByTo {
   '/delegates': typeof DelegatesRoute
   '/find-the-moment': typeof FindTheMomentRoute
   '/how-to': typeof HowToRoute
+  '/how-we-work': typeof HowWeWorkRoute
   '/news': typeof NewsRoute
   '/nova-briefing': typeof NovaBriefingRoute
+  '/privacy': typeof PrivacyRoute
   '/senators': typeof SenatorsRoute
+  '/sitemap': typeof SitemapRoute
   '/tips': typeof TipsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
@@ -912,11 +936,14 @@ export interface FileRoutesById {
   '/find-the-moment': typeof FindTheMomentRoute
   '/general-assembly': typeof GeneralAssemblyRouteWithChildren
   '/how-to': typeof HowToRoute
+  '/how-we-work': typeof HowWeWorkRoute
   '/investigations': typeof InvestigationsRouteWithChildren
   '/library': typeof LibraryRouteWithChildren
   '/news': typeof NewsRoute
   '/nova-briefing': typeof NovaBriefingRoute
+  '/privacy': typeof PrivacyRoute
   '/senators': typeof SenatorsRoute
+  '/sitemap': typeof SitemapRoute
   '/tips': typeof TipsRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
@@ -1021,11 +1048,14 @@ export interface FileRouteTypes {
     | '/find-the-moment'
     | '/general-assembly'
     | '/how-to'
+    | '/how-we-work'
     | '/investigations'
     | '/library'
     | '/news'
     | '/nova-briefing'
+    | '/privacy'
     | '/senators'
+    | '/sitemap'
     | '/tips'
     | '/videos'
     | '/articles/$slug'
@@ -1124,9 +1154,12 @@ export interface FileRouteTypes {
     | '/delegates'
     | '/find-the-moment'
     | '/how-to'
+    | '/how-we-work'
     | '/news'
     | '/nova-briefing'
+    | '/privacy'
     | '/senators'
+    | '/sitemap'
     | '/tips'
     | '/videos'
     | '/articles/$slug'
@@ -1225,11 +1258,14 @@ export interface FileRouteTypes {
     | '/find-the-moment'
     | '/general-assembly'
     | '/how-to'
+    | '/how-we-work'
     | '/investigations'
     | '/library'
     | '/news'
     | '/nova-briefing'
+    | '/privacy'
     | '/senators'
+    | '/sitemap'
     | '/tips'
     | '/videos'
     | '/articles/$slug'
@@ -1333,11 +1369,14 @@ export interface RootRouteChildren {
   FindTheMomentRoute: typeof FindTheMomentRoute
   GeneralAssemblyRoute: typeof GeneralAssemblyRouteWithChildren
   HowToRoute: typeof HowToRoute
+  HowWeWorkRoute: typeof HowWeWorkRoute
   InvestigationsRoute: typeof InvestigationsRouteWithChildren
   LibraryRoute: typeof LibraryRouteWithChildren
   NewsRoute: typeof NewsRoute
   NovaBriefingRoute: typeof NovaBriefingRoute
+  PrivacyRoute: typeof PrivacyRoute
   SenatorsRoute: typeof SenatorsRoute
+  SitemapRoute: typeof SitemapRoute
   TipsRoute: typeof TipsRoute
   VideosRoute: typeof VideosRoute
   DashboardsBodyRoute: typeof DashboardsBodyRoute
@@ -1489,6 +1528,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HowToRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/how-we-work': {
+      id: '/how-we-work'
+      path: '/how-we-work'
+      fullPath: '/how-we-work'
+      preLoaderRoute: typeof HowWeWorkRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/investigations': {
       id: '/investigations'
       path: '/investigations'
@@ -1517,11 +1563,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NovaBriefingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/senators': {
       id: '/senators'
       path: '/senators'
       fullPath: '/senators'
       preLoaderRoute: typeof SenatorsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap': {
+      id: '/sitemap'
+      path: '/sitemap'
+      fullPath: '/sitemap'
+      preLoaderRoute: typeof SitemapRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/tips': {
@@ -2304,11 +2364,14 @@ const rootRouteChildren: RootRouteChildren = {
   FindTheMomentRoute: FindTheMomentRoute,
   GeneralAssemblyRoute: GeneralAssemblyRouteWithChildren,
   HowToRoute: HowToRoute,
+  HowWeWorkRoute: HowWeWorkRoute,
   InvestigationsRoute: InvestigationsRouteWithChildren,
   LibraryRoute: LibraryRouteWithChildren,
   NewsRoute: NewsRoute,
   NovaBriefingRoute: NovaBriefingRoute,
+  PrivacyRoute: PrivacyRoute,
   SenatorsRoute: SenatorsRoute,
+  SitemapRoute: SitemapRoute,
   TipsRoute: TipsRoute,
   VideosRoute: VideosRoute,
   DashboardsBodyRoute: DashboardsBodyRoute,

@@ -162,6 +162,9 @@ function ftmPacksPlugin(): Plugin {
       // Site search transcript index (tools/search-ftm/build.mjs): reads the same window files.
       const r = spawnSync(process.execPath, ["tools/search-ftm/build.mjs"], { stdio: "inherit" });
       if (r.status !== 0) throw new Error("tools/search-ftm/build.mjs failed");
+      // sitemap.xml + /sitemap data (tools/sitemap/build.mjs)
+      const sm = spawnSync(process.execPath, ["tools/sitemap/build.mjs"], { stdio: "inherit" });
+      if (sm.status !== 0) throw new Error("tools/sitemap/build.mjs failed");
     },
   };
 }

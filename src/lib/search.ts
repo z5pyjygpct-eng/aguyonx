@@ -12,7 +12,7 @@ import { OFFICE_DOORS } from "@/content/offices";
 import { SITE } from "@/content/site";
 import type { BodyBlock, LibraryItem, Story } from "@/content/types";
 
-export type SearchShelf = "Article" | "News" | "Investigation" | "Library" | "Delegate paper" | "Senator paper" | "Book" | "Page" | "2027";
+export type SearchShelf = "Article" | "News" | "Investigation" | "Library" | "Delegate paper" | "Senator paper" | "Book" | "Page" | "2027" | "Recap" | "Document";
 
 export type SearchHit = {
   id: string;
@@ -22,7 +22,7 @@ export type SearchHit = {
   href: string;
 };
 
-type SearchDoc = SearchHit & {
+export type SearchDoc = SearchHit & {
   titleFields: string;
   body: string;
   districtNumber: string | null;
@@ -422,24 +422,32 @@ function buildIndex(): SearchDoc[] {
 
 const INDEX: SearchDoc[] = buildIndex();
 
-export function searchSite(raw: string, cap: number = RESULT_CAP): SearchHit[] {
+/** Score any doc list with the site query language (used by lazy extras: recaps, PDF full text). */
+export function searchDocs(docs: SearchDoc[], raw: string, cap: number = RESULT_CAP): SearchHit[] {
   const q = raw.trim();
   if (!q) return [];
   const tree = parseQuery(q);
   if (!tree) return [];
   const scored: Array<SearchHit & { score: number }> = [];
-  for (const doc of INDEX) {
+  for (const doc of docs) {
     const { ok, score } = evalNode(tree, doc);
     if (!ok) continue;
-    scored.push({
-      id: doc.id,
-      title: doc.title,
-      snippet: doc.snippet,
-      shelf: doc.shelf,
-      href: doc.href,
-      score,
-    });
+    scored.push({ id: doc.id, title: doc.title, snippet: doc.snippet, shelf: doc.shelf, href: doc.href, score });
   }
   scored.sort((a, b) => b.score - a.score || a.title.localeCompare(b.title));
   return scored.slice(0, cap).map(({ score: _score, ...hit }) => hit);
+}
+
+export function searchSite(raw: string, cap: number = RESULT_CAP): SearchHit[] {
+  return searchDocs(INDEX, raw, cap);
+}
+
+/** Index docs whose href (or story PDF) is a hosted PDF, for full-text matches. */
+export function pdfOwners(): Map<string, SearchDoc> {
+  const m = new Map<string, SearchDoc>();
+  for (const d of INDEX) {
+    if (d.href.endsWith(".pdf")) m.set(d.href, d);
+    else if (d.shelf === "Investigation") m.set(`/files/investigations/${d.href.split("/").pop()}.pdf`, d);
+  }
+  return m;
 }

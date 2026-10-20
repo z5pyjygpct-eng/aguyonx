@@ -25,3 +25,6 @@ public/files/find-the-moment/*/pack/
 
 # Site search transcript index (built by tools/search-ftm/build.mjs at vite build)
 public/files/search/ftm/
+
+# Built by tools/sitemap/build.mjs at vite build
+public/sitemap.xml

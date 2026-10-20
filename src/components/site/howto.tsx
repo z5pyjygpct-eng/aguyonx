@@ -59,7 +59,7 @@ export function StartHere({ venue = "loudoun-bos" as VenueKey }: { venue?: Venue
 export function SearchExamples({ onPick, showChips = true }: { onPick?: (q: string) => void; showChips?: boolean }) {
   const item = (q: string, label: string) =>
     onPick ? <button key={q} type="button" className={chipClass} onClick={() => onPick(q)}>{label}</button>
-      : <a key={q} className={chipClass} href={`/mockups/search?q=${encodeURIComponent(q)}`}>{label}</a>;
+      : <a key={q} className={chipClass} href={`/?q=${encodeURIComponent(q)}`}>{label}</a>;
   return (
     <div>
       <p className={lab}>Ask it like this</p>
