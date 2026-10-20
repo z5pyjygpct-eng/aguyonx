@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { VENUE_FTM, VENUE_LABEL, TRY_CHIPS, EXAMPLE_PROMPTS, type VenueKey } from "@/lib/voter-mock";
 
