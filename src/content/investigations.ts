@@ -2,6 +2,108 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    "slug": "va-democrats-same-issues-same-side-in-court-2026",
+    "kind": "investigation",
+    "title": "Same Issues, Same Side in Court",
+    "dek": "How Jay Jones, Abigail Spanberger and Virginia Democrats line up with the groups Data Republican named",
+    "date": "2026-10-20",
+    "displayDate": "October 20, 2026",
+    "topic": "Elections",
+    "kicker": "Virginia",
+    "image": "/images/investigations/va-democrats-same-issues-same-side-in-court-2026.png",
+    "imageAlt": "Cover of Same Issues, Same Side in Court",
+    "access": "public",
+    "readMinutes": 12,
+    "body": [
+      {
+        "type": "p",
+        "text": "By Scott Mineo"
+      },
+      {
+        "type": "h2",
+        "text": "The short version"
+      },
+      {
+        "type": "p",
+        "text": "On October 19, Data Republican posted two threads about a web of pro-democracy groups getting ready for the 2026 midterms. Virginia isn't in her videos. But I wanted to know how Virginia's own Democrats line up with what those groups are calling for.",
+        "cites": [
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Here is what the record shows. On October 15, Attorney General Jay Jones and the Department of Elections sent local election officials a bulletin on the same subjects as a toolkit from one of those groups, National Security Leaders for America. Virginia is a plaintiff in two federal cases where that group filed briefs on Virginia's side. Indivisible Virginia endorsed Jones and Gov. Abigail Spanberger. And HB640, the law that ended voter challenges at the polls, passed on straight party lines.",
+        "cites": [
+          "c3",
+          "c4",
+          "c5",
+          "c6",
+          "c7",
+          "c8"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "I'm not claiming anyone took orders. I'm showing you who is pushing what, and who in Richmond is doing it."
+      },
+      {
+        "type": "p",
+        "text": "Read the full investigation in the PDF, with the groups, the bulletin and the toolkit, the court cases, the HB640 vote, the alignment table, what the record does not show, and all sources."
+      }
+    ],
+    "citations": [
+      {
+        "id": "c1",
+        "label": "Data Republican, Part 1",
+        "href": "https://x.com/DataRepublican/status/2112157558765203878"
+      },
+      {
+        "id": "c2",
+        "label": "Data Republican, Part 2",
+        "href": "https://x.com/DataRepublican/status/2112364654991409339"
+      },
+      {
+        "id": "c3",
+        "label": "Oct. 15 bulletin to local election officials",
+        "href": "https://cdn.fliplink.me/pdfs/217366/c06b70f9~2026%20General%20Election%20Bulletin%20for%20Local%20Election%20Officials%2010.15.26.pdf"
+      },
+      {
+        "id": "c4",
+        "label": "NSL4A midterm toolkit",
+        "href": "https://www.nsl4a.org/midterm-election-military-intervention-toolkit"
+      },
+      {
+        "id": "c5",
+        "label": "California v. USPS, NSL4A brief",
+        "href": "https://www.courtlistener.com/docket/74701505/144/state-of-california-v-united-states-postal-service/"
+      },
+      {
+        "id": "c6",
+        "label": "State of California v. Trump, First Circuit docket",
+        "href": "https://www.courtlistener.com/docket/74755121/state-of-california-v-trump/"
+      },
+      {
+        "id": "c7",
+        "label": "Blue Voter Guide, Indivisible Virginia",
+        "href": "https://bluevoterguide.org/endorser-org/Indivisible/VA/2599"
+      },
+      {
+        "id": "c8",
+        "label": "LIS votes",
+        "href": "https://lis.blob.core.windows.net/lisfiles/20261/VOTE.CSV"
+      }
+    ],
+    "documents": [
+      {
+        "id": "pdf",
+        "title": "Same Issues, Same Side in Court (PDF)",
+        "href": "/files/investigations/va-democrats-same-issues-same-side-in-court-2026.pdf",
+        "kind": "pdf"
+      }
+    ]
+  },
+  {
     "slug": "va-community-schools-part-two-where-it-was-born-2026",
     "kind": "investigation",
     "title": "Community Schools Part Two: Where It Was Born",
