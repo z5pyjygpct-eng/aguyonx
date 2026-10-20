@@ -22,3 +22,6 @@ startup.sh
 
 # Find the Moment search packs (built by scripts/ftm-packs.mjs at vite build)
 public/files/find-the-moment/*/pack/
+
+# Site search transcript index (built by tools/search-ftm/build.mjs at vite build)
+public/files/search/ftm/

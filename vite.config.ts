@@ -1,3 +1,4 @@
+import { spawnSync } from "node:child_process";
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
 import type { Plugin } from "vite";
@@ -158,6 +159,9 @@ function ftmPacksPlugin(): Plugin {
       if (built) return;
       built = true;
       buildFtmPacks();
+      // Site search transcript index (tools/search-ftm/build.mjs): reads the same window files.
+      const r = spawnSync(process.execPath, ["tools/search-ftm/build.mjs"], { stdio: "inherit" });
+      if (r.status !== 0) throw new Error("tools/search-ftm/build.mjs failed");
     },
   };
 }

@@ -258,6 +258,13 @@ export function LoudounMeetingSearch() {
 
   const shown = hits.slice(0, HIT_CAP);
 
+  // ?q= prefill (site search "See all in Find the Moment" links carry the query)
+  useEffect(() => {
+    const v = new URLSearchParams(window.location.search).get("q");
+    if (v) runSearch(v);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   function runSearch(next: string) {
     setQ(next);
     setSubmitted(next.trim());

@@ -1,28 +1,6 @@
-import { type FormEvent, type ReactNode, useMemo, useState } from "react";
+import { type FormEvent, useState } from "react";
 import { Search } from "lucide-react";
-import { searchSite, type SearchHit } from "@/lib/search";
-
-function isFileOrExternal(href: string): boolean {
-  return (
-    href.startsWith("http://") ||
-    href.startsWith("https://") ||
-    href.startsWith("/files/") ||
-    /\.(pdf|md|csv|txt)$/i.test(href)
-  );
-}
-
-function ResultLink({ hit, children }: { hit: SearchHit; children: ReactNode }) {
-  const file = isFileOrExternal(hit.href);
-  return (
-    <a
-      href={hit.href}
-      className="block px-1 py-4 hover:bg-wash"
-      {...(file ? { target: "_blank", rel: "noreferrer" } : {})}
-    >
-      {children}
-    </a>
-  );
-}
+import { SiteSearchResults } from "@/components/site/site-search-results";
 
 export function HomeSearch() {
   const [q, setQ] = useState("");
@@ -34,7 +12,6 @@ export function HomeSearch() {
   }
 
   const query = submitted.trim();
-  const results = useMemo(() => (query ? searchSite(query) : []), [query]);
 
   return (
     <section className="border-b border-border">
@@ -66,27 +43,7 @@ export function HomeSearch() {
             />
           </div>
         </form>
-        {query ? (
-          results.length === 0 ? (
-            <p className="mt-5 text-sm text-muted-foreground">No matching records on this site.</p>
-          ) : (
-            <ul className="mt-5 divide-y divide-border border-y border-border">
-              {results.map((hit) => (
-                <li key={hit.id}>
-                  <ResultLink hit={hit}>
-                    <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
-                      {hit.shelf}
-                    </p>
-                    <h2 className="mt-1 font-serif text-xl font-medium">{hit.title}</h2>
-                    {hit.snippet ? (
-                      <p className="mt-1 text-sm text-muted-foreground">{hit.snippet}</p>
-                    ) : null}
-                  </ResultLink>
-                </li>
-              ))}
-            </ul>
-          )
-        ) : null}
+        {query ? <SiteSearchResults query={query} /> : null}
       </div>
     </section>
   );

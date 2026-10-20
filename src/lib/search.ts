@@ -34,6 +34,7 @@ type QueryNode =
   | { kind: "and"; kids: QueryNode[] }
   | { kind: "or"; kids: QueryNode[] };
 
+/** Default cap for callers that want a short list. Site search UIs pass Infinity and page per group. */
 const RESULT_CAP = 40;
 
 function fold(s: string): string {
@@ -410,7 +411,7 @@ function buildIndex(): SearchDoc[] {
 
 const INDEX: SearchDoc[] = buildIndex();
 
-export function searchSite(raw: string): SearchHit[] {
+export function searchSite(raw: string, cap: number = RESULT_CAP): SearchHit[] {
   const q = raw.trim();
   if (!q) return [];
   const tree = parseQuery(q);
@@ -429,5 +430,5 @@ export function searchSite(raw: string): SearchHit[] {
     });
   }
   scored.sort((a, b) => b.score - a.score || a.title.localeCompare(b.title));
-  return scored.slice(0, RESULT_CAP).map(({ score: _score, ...hit }) => hit);
+  return scored.slice(0, cap).map(({ score: _score, ...hit }) => hit);
 }

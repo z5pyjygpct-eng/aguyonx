@@ -1,12 +1,11 @@
-import { type FormEvent, useMemo, useState } from "react";
-import { searchSite } from "@/lib/search";
+import { type FormEvent, useState } from "react";
+import { SiteSearchResults } from "@/components/site/site-search-results";
 
 /** Dark-hero search box (v4). Same site index as HomeSearch; results render under the box. */
 export function HeroSearch({ placeholder, id = "hero-q" }: { placeholder: string; id?: string }) {
   const [q, setQ] = useState("");
   const [submitted, setSubmitted] = useState("");
   const query = submitted.trim();
-  const results = useMemo(() => (query ? searchSite(query).slice(0, 8) : []), [query]);
   function onSubmit(e: FormEvent) {
     e.preventDefault();
     setSubmitted(q);
@@ -31,25 +30,7 @@ export function HeroSearch({ placeholder, id = "hero-q" }: { placeholder: string
           Search
         </button>
       </form>
-      {query ? (
-        <div className="mt-3 rounded-xl bg-white p-2 text-navy-800 shadow-xl">
-          {results.length === 0 ? (
-            <p className="p-3 text-sm text-muted-foreground">No matching records on this site.</p>
-          ) : (
-            <ul className="divide-y divide-border">
-              {results.map((h) => (
-                <li key={h.id}>
-                  <a href={h.href} className="block rounded-lg px-3 py-3 hover:bg-wash">
-                    <p className="font-mono text-[11px] tracking-widest text-muted-foreground uppercase">{h.shelf}</p>
-                    <p className="font-semibold">{h.title}</p>
-                    {h.snippet ? <p className="mt-0.5 line-clamp-2 text-sm text-muted-foreground">{h.snippet}</p> : null}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-      ) : null}
+      {query ? <SiteSearchResults query={query} dark /> : null}
     </div>
   );
 }

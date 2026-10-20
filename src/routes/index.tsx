@@ -150,7 +150,7 @@ function Home() {
               <Link to="/about" className="font-semibold text-gold underline">About this project →</Link>
             </p>
             <div className="mt-7">
-              <HeroSearch placeholder={`Search ${stats.searchable.toLocaleString()} Virginia public meetings…`} />
+              <HeroSearch placeholder="Search for Ghana or a variety of topics: taxes, data centers, a name…" />
             </div>
             <h2 className="mt-10 font-serif text-3xl font-semibold text-gold uppercase">Dashboards</h2>
             <div className="mt-3 flex max-w-3xl flex-col gap-3 sm:flex-row">
