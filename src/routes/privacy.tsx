@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { DocPage, OpenQuestions } from "@/components/site/doc-page";
+import { DocPage } from "@/components/site/doc-page";
 
 export const Route = createFileRoute("/privacy")({
   head: () => ({ meta: [{ title: "Privacy · A Guy on X" }] }),
@@ -25,13 +25,6 @@ export const Route = createFileRoute("/privacy")({
       <p>News links, meeting videos and official records open on other websites (county video players, YouTube, Vimeo, the state legislature, news outlets). Those sites have their own rules.</p>
       <h2>Donations</h2>
       <p>Donate buttons go to our GiveSendGo page. Giving happens on GiveSendGo, not on this site.</p>
-      <OpenQuestions items={[
-        "Confirm the Vercel Web Analytics settings (Vercel describes it as cookie-free; we have not verified that ourselves).",
-        "The code includes a sign-in system (Better Auth) left from the site template. Is any sign-in turned on in production? If yes, this page needs a section on it.",
-        "Which email address should people use for privacy questions?",
-        "When the email sign-up goes live, add which service holds the addresses and how to unsubscribe.",
-        "Does Scott want a lawyer to review this before launch?",
-      ]} />
     </DocPage>
   ),
 });
