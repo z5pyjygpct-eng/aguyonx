@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,190 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-20",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 19, Monday) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (HTTP 200 or full page render, outlet headline, URL and Oct 19 ET publish date checked on each article page). Sources checked: RSS from Loudoun Now, Loudoun Times-Mirror, InsideNoVa, Prince William Times (BLOX feeds returned HTTP 429 to direct requests and were read through a scraping service), FFXnow, ARLnow, Reston Now, Potomac Local, WTOP Virginia, Annandale Today, Blue Ridge Leader, ALXnow and the Loudoun County news flash; news.ts had no Oct 19 local items. Caveats: Fairfax Times feed returned HTTP 429 and an empty result through the scraping service; Reston Now feed returned no items; Connection Newspapers feed did not respond. Left out: Loudoun Times-Mirror and Blue Ridge Leader versions of the Purcellville/Round Hill deputy shooting and the county's Round Hill shooting release (same incident as the Loudoun Now item); Loudoun Times-Mirror and WTOP versions of the Subramanyam letter (same incident); Manassas First Friday cancellation (InsideNoVa/WTOP; already briefed Oct 17 via Potomac Local); FFXnow weekend pedestrian-crash roundup (overlaps crashes briefed Oct 19); Supreme Court middle school admissions case (national); Potomac Local missing-adult alert (Spotsylvania) and Mary Washington Healthcare emails (Fredericksburg); General Assembly special session and Dominion power plan (statewide); Alexandria items (not one of the four localities); soft features, events, listings, sports and sponsored press releases. Blue Ridge Leader's Oct 19 posts carried Oct 20 timestamps and were not used. 22 article pages verified, 19 kept, 0 verification failures.",
+      "items": [
+        {
+          "id": "deputy-involved-shooting-purcellville-loudounnow-2026-10-19",
+          "county": "Loudoun",
+          "headline": "LCSO Investigating Deputy-involved Shooting in Purcellville; Subject Dead of Self-inflicted Wound",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/lcso-investigating-deputy-involved-shooting-in-purcellville-subject-dead-of-self-inflicted-wound/article_6b198511-92ae-4e77-974a-bb14707ee3c1.html",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "suspicious-letter-subramanyam-leesburg-office-loudounnow-2026-10-19",
+          "county": "Loudoun",
+          "headline": "All Clear Given After Suspicious Letter Investigation at Subramanyam's Leesburg Office",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/all-clear-given-after-suspicious-letter-investigation-at-subramanyams-leesburg-office/article_705a4edb-c997-4c10-90ad-6731a4abfb11.html",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "edwards-ferry-road-armed-robbery-loudounnow-2026-10-19",
+          "county": "Loudoun",
+          "headline": "Leesburg Police Investigating Edwards Ferry Road Armed Robbery",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/leesburg-police-investigating-edwards-ferry-road-armed-robbery/article_7144c27d-dfc3-458b-8618-0a0630d4fae5.html",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "equinix-sterling-ms-literacy-loudounnow-2026-10-19",
+          "county": "Loudoun",
+          "headline": "Equinix Donates $25K to Sterling MS Literacy Initiative As Local Support Continues",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/community_news/equinix-donates-25k-to-sterling-ms-literacy-initiative-as-local-support-continues/article_dd402abe-37c7-4c87-8e91-72372f4ae787.html",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "south-riding-man-pleads-guilty-ltm-2026-10-19",
+          "county": "Loudoun",
+          "headline": "South Riding man pleads guilty to molesting girl",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/south-riding-man-pleads-guilty-to-molesting-girl/article_a2dc8b70-298a-47f4-b1f8-f6d3895cdad0.html",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-fires-gun-altercation-leesburg-ltm-2026-10-19",
+          "county": "Loudoun",
+          "headline": "Man reports firing gun during altercation in Leesburg",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/man-reports-firing-gun-during-altercation-in-leesburg/article_97eced4a-261f-4717-958e-e30aa4033feb.html",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-12-month-data-center-pause-wtop-2026-10-19",
+          "county": "Loudoun",
+          "headline": "Loudoun to consider 12-month pause on data center applications",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/business-money/2026/10/loudoun-to-consider-12-month-pause-on-data-center-applications/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "abandoned-school-reston-fire-ffxnow-2026-10-19",
+          "county": "Fairfax",
+          "headline": "Abandoned school building in Reston burns down in two-alarm fire",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/19/abandoned-school-building-in-reston-burns-down-in-two-alarm-fire/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-center-corridor-redevelopment-ffxnow-2026-10-19",
+          "county": "Fairfax",
+          "headline": "County board takes steps to boost redevelopment in Fairfax Center corridor",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/19/county-board-takes-steps-to-boost-redevelopment-in-fairfax-center-corridor/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "teen-ebike-crash-mclean-hs-ffxnow-2026-10-19",
+          "county": "Fairfax",
+          "headline": "UPDATED: Teen on e-bike injured in crash near McLean High School",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/19/just-in-teen-on-e-bike-injured-in-crash-near-mclean-high-school/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "columbia-pike-shooting-footage-arlnow-2026-10-19",
+          "county": "Arlington",
+          "headline": "Footage of fatal Columbia Pike police shooting still not released, frustrating County Board members",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/19/footage-of-fatal-columbia-pike-police-shooting-still-not-released-frustrating-county-board-members/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-mental-health-court-felony-arlnow-2026-10-19",
+          "county": "Arlington",
+          "headline": "Arlington seeks to expand mental health court program to some felony cases",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/19/arlington-seeks-to-expand-mental-health-court-program-to-some-felony-cases/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-tow-fee-210-arlnow-2026-10-19",
+          "county": "Arlington",
+          "headline": "County Board to consider bumping the cost of a tow from $160 to $210",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/19/county-board-to-consider-bumping-the-cost-of-a-tow-from-160-to-210/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-affordable-housing-panel-arlnow-2026-10-19",
+          "county": "Arlington",
+          "headline": "Affordable housing panel struggles to deliver ‘substantive solution’",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/19/affordable-housing-panel-struggles-to-deliver-substantive-solution/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "vindman-subramanyam-suspicious-letters-insidenova-2026-10-19",
+          "county": "Prince William",
+          "headline": "Reps. Vindman, Subramanyam among those to receive 'suspicious' letters",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/prince_william/reps-vindman-subramanyam-among-those-to-receive-suspicious-letters/article_3ea72c57-f1ec-42b8-b576-220431b4fbc7.html",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-board-member-scores-myth-potomaclocal-2026-10-19",
+          "county": "Prince William",
+          "headline": "‘It’s a LIE’: Manassas board member rips myth blaming kids’ backgrounds for poor scores",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/19/its-a-lie-manassas-board-member-rips-myth-blaming-kids-backgrounds-for-poor-scores/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-airport-tower-contract-potomaclocal-2026-10-19",
+          "county": "Prince William",
+          "headline": "No airline named yet as Manassas Airport Commission recommends tower contract, hears incentive plan and rail connection update",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/19/no-airline-named-yet-manassas-airport-commission-recommends-tower-contract/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-2200-early-ballots-potomaclocal-2026-10-19",
+          "county": "Prince William",
+          "headline": "Manassas reports more than 2,200 early ballots cast",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/19/manassas-reports-more-than-2200-early-ballots-cast/",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "virginia-gateway-new-restaurants-pwt-2026-10-19",
+          "county": "Prince William",
+          "headline": "5 new restaurants, Orange Theory to open at Virginia Gateway",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/5-new-restaurants-orange-theory-to-open-at-virginia-gateway/article_b7843f97-8dd4-46d4-b822-d37b44adc57f.html",
+          "published": "2026-10-19",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Fairfax Times: feed unavailable (HTTP 429 / empty)",
+        "Reston Now: feed returned no items",
+        "Connection Newspapers: feed did not respond"
+      ]
+    },
     {
       "date": "2026-10-19",
       "status": "ok",
