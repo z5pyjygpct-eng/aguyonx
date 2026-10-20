@@ -1,8 +1,22 @@
-import { type FormEvent, useState } from "react";
+import { type FormEvent, useEffect, useState } from "react";
 import { SiteSearchResults } from "@/components/site/site-search-results";
 
 /** Dark-hero search box (v4). Same site index as HomeSearch; results render under the box. */
-export function HeroSearch({ placeholder, id = "hero-q" }: { placeholder: string; id?: string }) {
+/** True below Tailwind's sm breakpoint (640px). False during SSR, then follows the viewport. */
+function useNarrow() {
+  const [narrow, setNarrow] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 639.98px)");
+    const on = () => setNarrow(mq.matches);
+    on();
+    mq.addEventListener("change", on);
+    return () => mq.removeEventListener("change", on);
+  }, []);
+  return narrow;
+}
+
+export function HeroSearch({ placeholder, placeholderNarrow, id = "hero-q" }: { placeholder: string; placeholderNarrow?: string; id?: string }) {
+  const narrow = useNarrow();
   const [q, setQ] = useState("");
   const [submitted, setSubmitted] = useState("");
   const query = submitted.trim();
@@ -22,7 +36,7 @@ export function HeroSearch({ placeholder, id = "hero-q" }: { placeholder: string
             setQ(e.target.value);
             if (!e.target.value.trim()) setSubmitted("");
           }}
-          placeholder={placeholder}
+          placeholder={narrow && placeholderNarrow ? placeholderNarrow : placeholder}
           autoComplete="off"
           className="min-w-0 flex-1 rounded-l-xl bg-white px-5 text-base text-navy-800 placeholder:text-[#55627a]"
         />

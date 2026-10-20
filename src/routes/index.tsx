@@ -161,7 +161,7 @@ function Home() {
               </Link>
             </div>
             <div className="mt-7">
-              <HeroSearch placeholder="Search for Ghana or a variety of topics: taxes, data centers, a name…" />
+              <HeroSearch placeholder="Search for Ghana or a variety of topics: taxes, data centers, a name…" placeholderNarrow="Try Ghana or taxes" />
             </div>
             <h2 className="mt-10 font-serif text-3xl font-semibold text-gold uppercase">Dashboards</h2>
             <div className="mt-3 flex max-w-3xl flex-col gap-3 sm:flex-row">
