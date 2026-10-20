@@ -10,7 +10,7 @@ export function SignupBox({ dark = true }: { dark?: boolean }) {
       <p className="mt-1 text-sm text-on-dark-muted">New investigations and meeting recaps, when they’re posted.</p>
       <fieldset disabled className="mt-3 flex flex-col gap-2 sm:flex-row">
         <label htmlFor="signup-email" className="sr-only">Email address</label>
-        <input id="signup-email" type="email" placeholder="you@example.com" className="h-12 min-w-0 flex-1 cursor-not-allowed rounded-lg bg-white/80 px-4 text-navy-800 placeholder:text-[#55627a]" />
+        <input id="signup-email" type="email" placeholder="you@example.com" className="h-12 min-w-0 shrink-0 cursor-not-allowed sm:flex-1 rounded-lg bg-white/80 px-4 text-navy-800 placeholder:text-[#55627a]" />
         <button type="submit" className="h-12 cursor-not-allowed rounded-lg bg-on-dark-muted px-5 font-serif font-bold tracking-[0.06em] text-navy-800 uppercase">Coming soon</button>
       </fieldset>
       <p id="signup-note" className="mt-2 text-xs font-semibold text-gold">Coming soon. This box doesn’t collect or send anything yet.</p>
