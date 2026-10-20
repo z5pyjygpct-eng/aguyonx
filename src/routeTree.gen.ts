@@ -52,6 +52,9 @@ import { Route as MockupsMeetingsRouteImport } from './routes/mockups.meetings'
 import { Route as MockupsSearchRouteImport } from './routes/mockups.search'
 import { Route as MockupsTipsRouteImport } from './routes/mockups.tips'
 import { Route as MockupsVoterGuideRouteImport } from './routes/mockups.voter-guide'
+import { Route as ApiWeeklyConfirmRouteImport } from './routes/api.weekly.confirm'
+import { Route as ApiWeeklySubscribeRouteImport } from './routes/api.weekly.subscribe'
+import { Route as ApiWeeklyUnsubscribeRouteImport } from './routes/api.weekly.unsubscribe'
 import { Route as CitiesCityIndexRouteImport } from './routes/cities.$city.index'
 import { Route as CitiesCityFindTheMomentRouteImport } from './routes/cities.$city.find-the-moment'
 import { Route as CitiesCitySchoolsRouteImport } from './routes/cities.$city.schools'
@@ -332,6 +335,21 @@ const MockupsTipsRoute = MockupsTipsRouteImport.update({
 const MockupsVoterGuideRoute = MockupsVoterGuideRouteImport.update({
   id: '/mockups/voter-guide',
   path: '/mockups/voter-guide',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiWeeklyConfirmRoute = ApiWeeklyConfirmRouteImport.update({
+  id: '/api/weekly/confirm',
+  path: '/api/weekly/confirm',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiWeeklySubscribeRoute = ApiWeeklySubscribeRouteImport.update({
+  id: '/api/weekly/subscribe',
+  path: '/api/weekly/subscribe',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiWeeklyUnsubscribeRoute = ApiWeeklyUnsubscribeRouteImport.update({
+  id: '/api/weekly/unsubscribe',
+  path: '/api/weekly/unsubscribe',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CitiesCityIndexRoute = CitiesCityIndexRouteImport.update({
@@ -756,6 +774,9 @@ export interface FileRoutesByFullPath {
   '/general-assembly/': typeof GeneralAssemblyIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
+  '/api/weekly/confirm': typeof ApiWeeklyConfirmRoute
+  '/api/weekly/subscribe': typeof ApiWeeklySubscribeRoute
+  '/api/weekly/unsubscribe': typeof ApiWeeklyUnsubscribeRoute
   '/cities/$city/find-the-moment': typeof CitiesCityFindTheMomentRoute
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
@@ -856,6 +877,9 @@ export interface FileRoutesByTo {
   '/general-assembly': typeof GeneralAssemblyIndexRoute
   '/investigations': typeof InvestigationsIndexRoute
   '/library': typeof LibraryIndexRoute
+  '/api/weekly/confirm': typeof ApiWeeklyConfirmRoute
+  '/api/weekly/subscribe': typeof ApiWeeklySubscribeRoute
+  '/api/weekly/unsubscribe': typeof ApiWeeklyUnsubscribeRoute
   '/cities/$city/find-the-moment': typeof CitiesCityFindTheMomentRoute
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
@@ -967,6 +991,9 @@ export interface FileRoutesById {
   '/general-assembly/': typeof GeneralAssemblyIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
+  '/api/weekly/confirm': typeof ApiWeeklyConfirmRoute
+  '/api/weekly/subscribe': typeof ApiWeeklySubscribeRoute
+  '/api/weekly/unsubscribe': typeof ApiWeeklyUnsubscribeRoute
   '/cities/$city/find-the-moment': typeof CitiesCityFindTheMomentRoute
   '/cities/$city/schools': typeof CitiesCitySchoolsRoute
   '/counties/loudoun/find-the-moment': typeof CountiesLoudounFindTheMomentRoute
@@ -1079,6 +1106,9 @@ export interface FileRouteTypes {
     | '/general-assembly/'
     | '/investigations/'
     | '/library/'
+    | '/api/weekly/confirm'
+    | '/api/weekly/subscribe'
+    | '/api/weekly/unsubscribe'
     | '/cities/$city/find-the-moment'
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
@@ -1179,6 +1209,9 @@ export interface FileRouteTypes {
     | '/general-assembly'
     | '/investigations'
     | '/library'
+    | '/api/weekly/confirm'
+    | '/api/weekly/subscribe'
+    | '/api/weekly/unsubscribe'
     | '/cities/$city/find-the-moment'
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
@@ -1289,6 +1322,9 @@ export interface FileRouteTypes {
     | '/general-assembly/'
     | '/investigations/'
     | '/library/'
+    | '/api/weekly/confirm'
+    | '/api/weekly/subscribe'
+    | '/api/weekly/unsubscribe'
     | '/cities/$city/find-the-moment'
     | '/cities/$city/schools'
     | '/counties/loudoun/find-the-moment'
@@ -1387,6 +1423,9 @@ export interface RootRouteChildren {
   MockupsSearchRoute: typeof MockupsSearchRoute
   MockupsTipsRoute: typeof MockupsTipsRoute
   MockupsVoterGuideRoute: typeof MockupsVoterGuideRoute
+  ApiWeeklyConfirmRoute: typeof ApiWeeklyConfirmRoute
+  ApiWeeklySubscribeRoute: typeof ApiWeeklySubscribeRoute
+  ApiWeeklyUnsubscribeRoute: typeof ApiWeeklyUnsubscribeRoute
   DashboardsBoardOfEducationBudgetRoute: typeof DashboardsBoardOfEducationBudgetRoute
   DashboardsBoardOfEducationFindTheMomentRoute: typeof DashboardsBoardOfEducationFindTheMomentRoute
   DashboardsBoardOfEducationMembersRoute: typeof DashboardsBoardOfEducationMembersRoute
@@ -1743,6 +1782,27 @@ declare module '@tanstack/react-router' {
       path: '/mockups/voter-guide'
       fullPath: '/mockups/voter-guide'
       preLoaderRoute: typeof MockupsVoterGuideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/weekly/confirm': {
+      id: '/api/weekly/confirm'
+      path: '/api/weekly/confirm'
+      fullPath: '/api/weekly/confirm'
+      preLoaderRoute: typeof ApiWeeklyConfirmRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/weekly/subscribe': {
+      id: '/api/weekly/subscribe'
+      path: '/api/weekly/subscribe'
+      fullPath: '/api/weekly/subscribe'
+      preLoaderRoute: typeof ApiWeeklySubscribeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/weekly/unsubscribe': {
+      id: '/api/weekly/unsubscribe'
+      path: '/api/weekly/unsubscribe'
+      fullPath: '/api/weekly/unsubscribe'
+      preLoaderRoute: typeof ApiWeeklyUnsubscribeRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/cities/$city/': {
@@ -2382,6 +2442,9 @@ const rootRouteChildren: RootRouteChildren = {
   MockupsSearchRoute: MockupsSearchRoute,
   MockupsTipsRoute: MockupsTipsRoute,
   MockupsVoterGuideRoute: MockupsVoterGuideRoute,
+  ApiWeeklyConfirmRoute: ApiWeeklyConfirmRoute,
+  ApiWeeklySubscribeRoute: ApiWeeklySubscribeRoute,
+  ApiWeeklyUnsubscribeRoute: ApiWeeklyUnsubscribeRoute,
   DashboardsBoardOfEducationBudgetRoute: DashboardsBoardOfEducationBudgetRoute,
   DashboardsBoardOfEducationFindTheMomentRoute:
     DashboardsBoardOfEducationFindTheMomentRoute,

@@ -28,3 +28,4 @@ public/files/search/ftm/
 
 # Built by tools/sitemap/build.mjs at vite build
 public/sitemap.xml
+tools/weekly/drafts/
