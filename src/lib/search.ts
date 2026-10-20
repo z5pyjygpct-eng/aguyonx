@@ -327,6 +327,17 @@ function buildIndex(): SearchDoc[] {
   });
 
   docs.push({
+    id: "page-how-to",
+    title: "How to use this website",
+    snippet: "A plain guide: how to search, read a meeting's votes, and start from an issue.",
+    shelf: "Page",
+    href: "/how-to",
+    titleFields: "How to use this website help guide getting started start here",
+    body: "How to search. Example searches taxes data centers school safety what did my supervisor vote on. Try these. Start here guide for meetings and votes. Voter guide by issue.",
+    districtNumber: null,
+  });
+
+  docs.push({
     id: "page-contact",
     title: "Contact",
     snippet: `Tips, documents, and corrections. Until there is an email, the door is X.`,

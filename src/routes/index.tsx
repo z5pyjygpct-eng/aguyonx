@@ -138,17 +138,28 @@ function Home() {
         <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
           <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
           <div className="mx-auto max-w-7xl px-5 pt-6 pb-12 sm:px-8 lg:pt-12">
-            <p className="font-serif text-base font-semibold tracking-[0.16em] text-gold uppercase sm:text-2xl">VA Change Agent · Find the Moment</p>
-            <h1 className="mt-3 font-serif text-[40px] font-bold leading-[1.05] uppercase sm:text-6xl lg:text-7xl">
-              The Public Record
-              <br />
-              Is The <span className="text-gold">Story.</span>
-            </h1>
-            <p className="mt-4 max-w-2xl text-base text-on-dark-muted sm:text-xl">Find what was said, voted, and filed — then jump to the source.</p>
-            <p className="mt-2 max-w-2xl text-sm text-on-dark-muted sm:text-base">
-              We index Virginia public meetings, transcribe them, and link every claim to the official record.{" "}
-              <Link to="/about" className="font-semibold text-gold underline">About this project →</Link>
-            </p>
+            <div className="flex max-w-3xl flex-col gap-6 lg:max-w-[56rem] lg:flex-row lg:items-start lg:justify-between">
+              <div className="min-w-0">
+              <p className="font-serif text-base font-semibold tracking-[0.16em] text-gold uppercase sm:text-2xl">VA Change Agent · Find the Moment</p>
+              <h1 className="mt-3 font-serif text-[40px] font-bold leading-[1.05] uppercase sm:text-6xl lg:text-7xl">
+                The Public Record
+                <br />
+                Is The <span className="text-gold">Story.</span>
+              </h1>
+              <p className="mt-4 max-w-2xl text-base text-on-dark-muted sm:text-xl">Find what was said, voted, and filed — then jump to the source.</p>
+              <p className="mt-2 max-w-2xl text-sm text-on-dark-muted sm:text-base">
+                We index Virginia public meetings, transcribe them, and link every claim to the official record.{" "}
+                <Link to="/about" className="font-semibold text-gold underline">About this project →</Link>
+              </p>
+              </div>
+              <Link to="/how-to" className="group flex shrink-0 items-center justify-between gap-4 rounded-xl bg-gold px-6 py-5 text-navy-900 shadow-lg ring-gold-hover transition hover:bg-gold-hover focus-visible:ring-4 lg:mt-14 lg:w-72 lg:flex-col lg:items-start lg:justify-center lg:py-8">
+                <span>
+                  <span className="block font-mono text-xs font-semibold tracking-widest uppercase">New here?</span>
+                  <span className="mt-1 block font-serif text-2xl font-bold uppercase leading-tight">How to use this website</span>
+                </span>
+                <span aria-hidden className="font-serif text-2xl font-bold transition group-hover:translate-x-1">→</span>
+              </Link>
+            </div>
             <div className="mt-7">
               <HeroSearch placeholder="Search for Ghana or a variety of topics: taxes, data centers, a name…" />
             </div>

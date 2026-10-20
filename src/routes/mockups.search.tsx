@@ -1,10 +1,11 @@
 import { useMemo, useState, type FormEvent } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowRight, ChevronLeft, ChevronRight, Search, Sparkles } from "lucide-react";
+import { ArrowRight, Search, Sparkles } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { V4Main } from "@/components/site/lcps-v4";
 import { V4VenueHero } from "@/components/site/venue-v4";
 import { V4_VENUES } from "@/lib/v4-venues";
+import { Walkthrough } from "@/components/site/howto";
 import { searchSite, type SearchHit } from "@/lib/search";
 import { EXAMPLE_PROMPTS, TRY_CHIPS, VENUE_LABEL, VENUE_MEMBERS, meetingMatchCount, meetingMatches, relatedTerms, type VenueKey } from "@/lib/voter-mock";
 
@@ -18,33 +19,6 @@ export const Route = createFileRoute("/mockups/search")({
 const card = "rounded-xl border border-navy-line bg-navy-700";
 const lab = "font-mono text-xs tracking-widest text-gold uppercase";
 const chip = "inline-flex min-h-10 items-center rounded-full border border-navy-line bg-navy-800 px-4 text-sm font-semibold text-white hover:border-gold hover:text-gold";
-
-const STEPS: { t: string; title: string; text: string }[] = [
-  { t: "0:00–0:10", title: "Type a topic, not a perfect phrase", text: "One or two everyday words work best: “taxes”, “data centers”, a person’s name, or a district like “HD-10”. Or tap one of the examples." },
-  { t: "0:10–0:20", title: "Read the groups", text: "Results come grouped: our articles and investigations, meetings where it came up or was voted on, and news. Start at the top group." },
-  { t: "0:20–0:35", title: "Open a meeting to see every vote", text: "A meeting page lists every item the board voted on, with the official tally and a link to the county’s own minutes." },
-  { t: "0:35–0:45", title: "Hear it for yourself", text: "“Search what was said” jumps to the moment in the meeting video. Captions are an index, not quotes, so always check the video." },
-  { t: "0:45–0:55", title: "Nothing found? Try a neighbor", text: "If a word isn’t on our pages yet, we suggest close terms and send you to the meeting transcripts, where many more words live." },
-];
-
-function Walkthrough() {
-  const [i, setI] = useState(0);
-  const s = STEPS[i];
-  return (
-    <section className={`${card} p-5 sm:p-6`} aria-labelledby="howto">
-      <p className={lab}>How it works · about 55 seconds</p>
-      <h2 id="howto" className="mt-1 font-serif text-2xl font-semibold uppercase">Step {i + 1} of {STEPS.length}: {s.title}</h2>
-      <p className="mt-1 font-mono text-xs text-night-muted">{s.t}</p>
-      <p className="mt-3 max-w-2xl text-on-dark-muted">{s.text}</p>
-      <div className="mt-4 flex items-center gap-3">
-        <button type="button" disabled={i === 0} onClick={() => setI(i - 1)} className="inline-flex h-10 items-center gap-1 rounded-md border border-navy-line px-3 text-sm disabled:opacity-40"><ChevronLeft className="size-4" />Back</button>
-        <button type="button" onClick={() => setI((i + 1) % STEPS.length)} className="inline-flex h-10 items-center gap-1 rounded-md bg-gold px-4 text-sm font-semibold text-navy-900">{i === STEPS.length - 1 ? "Start over" : "Next"}<ChevronRight className="size-4" /></button>
-        <span className="flex gap-1.5" aria-hidden>{STEPS.map((_, k) => <span key={k} className={`size-2 rounded-full ${k === i ? "bg-gold" : "bg-navy-line"}`} />)}</span>
-      </div>
-      <p className="mt-3 text-xs text-night-muted">Mockup: a click-through, not a video. A recorded version would follow this storyboard.</p>
-    </section>
-  );
-}
 
 const external = (h: string) => /^https?:/.test(h) || /\.(pdf|md|csv|txt)$/i.test(h);
 const SHELF_ORDER = ["Investigation", "Article", "Page", "2027", "Library", "Book", "Delegate paper", "Senator paper", "News"];

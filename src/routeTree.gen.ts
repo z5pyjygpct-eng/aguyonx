@@ -20,6 +20,7 @@ import { Route as CountiesRouteImport } from './routes/counties'
 import { Route as DelegatesRouteImport } from './routes/delegates'
 import { Route as FindTheMomentRouteImport } from './routes/find-the-moment'
 import { Route as GeneralAssemblyRouteImport } from './routes/general-assembly'
+import { Route as HowToRouteImport } from './routes/how-to'
 import { Route as InvestigationsRouteImport } from './routes/investigations'
 import { Route as LibraryRouteImport } from './routes/library'
 import { Route as NewsRouteImport } from './routes/news'
@@ -167,6 +168,11 @@ const FindTheMomentRoute = FindTheMomentRouteImport.update({
 const GeneralAssemblyRoute = GeneralAssemblyRouteImport.update({
   id: '/general-assembly',
   path: '/general-assembly',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HowToRoute = HowToRouteImport.update({
+  id: '/how-to',
+  path: '/how-to',
   getParentRoute: () => rootRouteImport,
 } as any)
 const InvestigationsRoute = InvestigationsRouteImport.update({
@@ -700,6 +706,7 @@ export interface FileRoutesByFullPath {
   '/delegates': typeof DelegatesRoute
   '/find-the-moment': typeof FindTheMomentRoute
   '/general-assembly': typeof GeneralAssemblyRouteWithChildren
+  '/how-to': typeof HowToRoute
   '/investigations': typeof InvestigationsRouteWithChildren
   '/library': typeof LibraryRouteWithChildren
   '/news': typeof NewsRoute
@@ -802,6 +809,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/delegates': typeof DelegatesRoute
   '/find-the-moment': typeof FindTheMomentRoute
+  '/how-to': typeof HowToRoute
   '/news': typeof NewsRoute
   '/nova-briefing': typeof NovaBriefingRoute
   '/senators': typeof SenatorsRoute
@@ -903,6 +911,7 @@ export interface FileRoutesById {
   '/delegates': typeof DelegatesRoute
   '/find-the-moment': typeof FindTheMomentRoute
   '/general-assembly': typeof GeneralAssemblyRouteWithChildren
+  '/how-to': typeof HowToRoute
   '/investigations': typeof InvestigationsRouteWithChildren
   '/library': typeof LibraryRouteWithChildren
   '/news': typeof NewsRoute
@@ -1011,6 +1020,7 @@ export interface FileRouteTypes {
     | '/delegates'
     | '/find-the-moment'
     | '/general-assembly'
+    | '/how-to'
     | '/investigations'
     | '/library'
     | '/news'
@@ -1113,6 +1123,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/delegates'
     | '/find-the-moment'
+    | '/how-to'
     | '/news'
     | '/nova-briefing'
     | '/senators'
@@ -1213,6 +1224,7 @@ export interface FileRouteTypes {
     | '/delegates'
     | '/find-the-moment'
     | '/general-assembly'
+    | '/how-to'
     | '/investigations'
     | '/library'
     | '/news'
@@ -1320,6 +1332,7 @@ export interface RootRouteChildren {
   DelegatesRoute: typeof DelegatesRoute
   FindTheMomentRoute: typeof FindTheMomentRoute
   GeneralAssemblyRoute: typeof GeneralAssemblyRouteWithChildren
+  HowToRoute: typeof HowToRoute
   InvestigationsRoute: typeof InvestigationsRouteWithChildren
   LibraryRoute: typeof LibraryRouteWithChildren
   NewsRoute: typeof NewsRoute
@@ -1467,6 +1480,13 @@ declare module '@tanstack/react-router' {
       path: '/general-assembly'
       fullPath: '/general-assembly'
       preLoaderRoute: typeof GeneralAssemblyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/how-to': {
+      id: '/how-to'
+      path: '/how-to'
+      fullPath: '/how-to'
+      preLoaderRoute: typeof HowToRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/investigations': {
@@ -2283,6 +2303,7 @@ const rootRouteChildren: RootRouteChildren = {
   DelegatesRoute: DelegatesRoute,
   FindTheMomentRoute: FindTheMomentRoute,
   GeneralAssemblyRoute: GeneralAssemblyRouteWithChildren,
+  HowToRoute: HowToRoute,
   InvestigationsRoute: InvestigationsRouteWithChildren,
   LibraryRoute: LibraryRouteWithChildren,
   NewsRoute: NewsRoute,

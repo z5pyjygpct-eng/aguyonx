@@ -5,6 +5,7 @@ import { SiteShell } from "@/components/site/shell";
 import { V4Main, parseDate } from "@/components/site/lcps-v4";
 import { V4VenueHero } from "@/components/site/venue-v4";
 import { V4_VENUES } from "@/lib/v4-venues";
+import { StartHere } from "@/components/site/howto";
 import { MEETINGS, VENUE_FTM, VENUE_LABEL, coverage, loadRollCalls, type MeetingRow, type RollCall, type VenueKey } from "@/lib/voter-mock";
 
 /** Find the Moment "next step" mockup (preview only): every official vote on each meeting card + a Start here guide. */
@@ -18,26 +19,6 @@ const card = "rounded-xl border border-navy-line bg-navy-700";
 const lab = "font-mono text-xs tracking-widest text-gold uppercase";
 const PER = 8;
 const VENUES = (Object.keys(VENUE_LABEL) as VenueKey[]).filter((v) => v !== "va-boe");
-
-function StartHere({ venue }: { venue: VenueKey }) {
-  const steps = [
-    ["Pick a meeting", "Newest first. A green tag means the official votes are posted."],
-    ["Read what they decided", "Every item voted on is listed under the meeting, with the official tally."],
-    ["Check the source", "Each vote links to the minutes or roll call it came from."],
-    ["Hear the discussion", "Open the meeting page for video moments, or search what was said."],
-  ];
-  return (
-    <section className={`${card} border-l-4 border-l-gold p-5`} aria-labelledby="start">
-      <p id="start" className={lab}>Start here</p>
-      <ol className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-        {steps.map(([t, d], i) => (
-          <li key={t} className="flex gap-3"><span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-gold font-serif font-bold text-navy-900">{i + 1}</span><span><span className="block font-semibold">{t}</span><span className="block text-sm text-on-dark-muted">{d}</span></span></li>
-        ))}
-      </ol>
-      <p className="mt-3 text-sm"><a className="text-gold underline" href={VENUE_FTM[venue]}>Search what was said at {VENUE_LABEL[venue]} meetings</a></p>
-    </section>
-  );
-}
 
 function GaVotes({ row }: { row: MeetingRow }) {
   const [rc, setRc] = useState<RollCall[] | null>(null);
