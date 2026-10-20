@@ -217,7 +217,7 @@ function LibraryIndex() {
             <label htmlFor="lib-q" className="sr-only">Search the library</label>
             <div className="flex items-center gap-2 rounded-[10px] border border-navy-line bg-navy-700 px-3 focus-within:border-gold">
               <Search className="size-5 shrink-0 text-gold" aria-hidden />
-              <input id="lib-q" type="search" value={text} onChange={(e) => setQ(e.target.value)} placeholder={`Search ${total} sources — try "campaign finance", "FOIA", "Loudoun"`} className="h-12 w-full min-w-0 bg-transparent text-base text-white placeholder:text-night-muted focus:outline-none" />
+              <input id="lib-q" type="search" value={text} onChange={(e) => setQ(e.target.value)} placeholder={`Try "campaign finance", "FOIA" or "Loudoun"`} className="h-12 w-full min-w-0 bg-transparent text-base text-white placeholder:text-night-muted focus:outline-none" />
             </div>
           </form>
 
