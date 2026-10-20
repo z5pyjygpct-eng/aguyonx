@@ -31,6 +31,8 @@ export const CITY_MEETINGS: CityMeeting[] = [
     provider: "granicus-page",
     playerUrl: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4669",
     agendaUrl: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4669",
+    minutesUrl:
+      "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4669&doc_id=f9261536-c718-11f1-89ef-005056a84798",
   },
   {
     id: "fxc-4665",

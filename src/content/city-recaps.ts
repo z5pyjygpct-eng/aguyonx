@@ -60,6 +60,3145 @@ export type CityRecap = Omit<LoudounRecap, "venue"> & { venue: CityVenueId; noVo
 
 const CITY_RECAPS_RAW: CityRecap[] = [
   {
+    slug: "alb-bos-920",
+    meetingId: "alb-bos-920",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular Second Meeting",
+    dateLabel: "Wednesday, February 21, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 9h 23m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 18, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=920" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=920" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-21-albemarle-county-board-of-supervisors-regular-second-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-21-albemarle-county-board-of-supervisors-regular-second-meeting.txt", "pdfNote": "113 pages"},
+    shareContext: "Albemarle Board of Supervisors, Feb 21, 2024",
+    moments: [
+      { seconds: 0, label: "Meeting called to order." },
+      { seconds: 614, label: "Public comment / public hearing begins." },
+      { seconds: 13655, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "alb-bos-916",
+    meetingId: "alb-bos-916",
+    venue: "albemarle-bos",
+    title: "Albemarle County Board of Supervisors Regular First Meeting",
+    dateLabel: "Wednesday, February 7, 2024",
+    whenWhere: "Albemarle County Board of Supervisors meeting · video 9h 12m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 18, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted Board of Supervisors minutes / action letters for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Granicus)", href: "https://albemarle.granicus.com/MediaPlayer.php?view_id=1&clip_id=916" },
+        { label: "Agenda (Granicus)", href: "https://albemarle.granicus.com/AgendaViewer.php?view_id=1&clip_id=916" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-07-albemarle-county-board-of-supervisors-regular-first-meeting.pdf", "txtUrl": "/files/find-the-moment/albemarle-bos/transcripts/coraggio-transcript-albemarle-bos-2024-02-07-albemarle-county-board-of-supervisors-regular-first-meeting.txt", "pdfNote": "107 pages"},
+    shareContext: "Albemarle Board of Supervisors, Feb 7, 2024",
+    moments: [
+      { seconds: 35, label: "Pledge of Allegiance." },
+      { seconds: 1758, label: "Public comment / public hearing begins." },
+      { seconds: 2316, label: "Consent agenda motion." },
+      { seconds: 11993, label: "Motion to enter closed session." },
+      { seconds: 33091, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-PtmoMEC7qP0",
+    meetingId: "mcps-PtmoMEC7qP0",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - June 23, 2026",
+    dateLabel: "Tuesday, June 23, 2026",
+    whenWhere: "Manassas City School Board meeting · video 0h 28m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=PtmoMEC7qP0" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-06-23-manassas-city-school-board-meeting-june-23-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-06-23-manassas-city-school-board-meeting-june-23-2026.txt", "pdfNote": "9 pages"},
+    shareContext: "Manassas School Board, Jun 23, 2026",
+    moments: [
+      { seconds: 5, label: "Pledge of Allegiance." },
+      { seconds: 148, label: "Consent agenda motion." },
+      { seconds: 416, label: "Early agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-24ebsvo58l",
+    meetingId: "mcc-24ebsvo58l",
+    venue: "manassas-council",
+    title: "Manassas City Council Meeting",
+    dateLabel: "Monday, June 22, 2026",
+    whenWhere: "Manassas City Council meeting · video 0h 52m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/24ebsvo58l" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-06-22-manassas-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-06-22-manassas-city-council-meeting.txt", "pdfNote": "13 pages"},
+    shareContext: "Manassas City Council, Jun 22, 2026",
+    moments: [
+      { seconds: 24, label: "Pledge of Allegiance." },
+      { seconds: 1707, label: "Consent agenda motion." },
+      { seconds: 1780, label: "Public comment / public hearing begins." },
+      { seconds: 3153, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-lcf8ajyos0",
+    meetingId: "mcc-lcf8ajyos0",
+    venue: "manassas-council",
+    title: "Manassas City Council Meeting",
+    dateLabel: "Monday, June 15, 2026",
+    whenWhere: "Manassas City Council meeting · video 0h 30m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/lcf8ajyos0" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-06-15-manassas-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-06-15-manassas-city-council-meeting.txt", "pdfNote": "7 pages"},
+    shareContext: "Manassas City Council, Jun 15, 2026",
+    moments: [
+      { seconds: 460, label: "Early agenda business." },
+      { seconds: 847, label: "Mid-meeting discussion." },
+      { seconds: 1361, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcps-fH6QNecK5XY",
+    meetingId: "mcps-fH6QNecK5XY",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - June 9, 2026",
+    dateLabel: "Tuesday, June 9, 2026",
+    whenWhere: "Manassas City School Board meeting · video 0h 42m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=fH6QNecK5XY" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-06-09-manassas-city-school-board-meeting-june-9-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-06-09-manassas-city-school-board-meeting-june-9-2026.txt", "pdfNote": "11 pages"},
+    shareContext: "Manassas School Board, Jun 9, 2026",
+    moments: [
+      { seconds: 8, label: "Pledge of Allegiance." },
+      { seconds: 236, label: "Consent agenda motion." },
+      { seconds: 2397, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-z2l8toujy1",
+    meetingId: "mcc-z2l8toujy1",
+    venue: "manassas-council",
+    title: "Manassas City Council 06/08/26",
+    dateLabel: "Monday, June 8, 2026",
+    whenWhere: "Manassas City Council meeting · video 3h 7m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/z2l8toujy1" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-06-08-manassas-city-council-06-08-26.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-06-08-manassas-city-council-06-08-26.txt", "pdfNote": "43 pages"},
+    shareContext: "Manassas City Council, Jun 8, 2026",
+    moments: [
+      { seconds: 5, label: "Pledge of Allegiance." },
+      { seconds: 5704, label: "Consent agenda motion." },
+      { seconds: 7830, label: "Public comment / public hearing begins." },
+      { seconds: 11224, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-EKo7qi1StRw",
+    meetingId: "mcps-EKo7qi1StRw",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - May 19, 2026",
+    dateLabel: "Tuesday, May 19, 2026",
+    whenWhere: "Manassas City School Board meeting · video 1h 48m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=EKo7qi1StRw" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-05-19-manassas-city-school-board-meeting-may-19-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-05-19-manassas-city-school-board-meeting-may-19-2026.txt", "pdfNote": "23 pages"},
+    shareContext: "Manassas School Board, May 19, 2026",
+    moments: [
+      { seconds: 5, label: "Meeting called to order." },
+      { seconds: 3859, label: "Consent agenda motion." },
+      { seconds: 6254, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-v3ri5orh4t",
+    meetingId: "mcc-v3ri5orh4t",
+    venue: "manassas-council",
+    title: "Manassas City Council Meeting",
+    dateLabel: "Monday, May 18, 2026",
+    whenWhere: "Manassas City Council meeting · video 1h 16m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/v3ri5orh4t" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-05-18-manassas-city-council-meeting.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-05-18-manassas-city-council-meeting.txt", "pdfNote": "19 pages"},
+    shareContext: "Manassas City Council, May 18, 2026",
+    moments: [
+      { seconds: 1153, label: "Early agenda business." },
+      { seconds: 2308, label: "Mid-meeting discussion." },
+      { seconds: 3430, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcps-LYEbTXKTyD4",
+    meetingId: "mcps-LYEbTXKTyD4",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - May 14, 2026",
+    dateLabel: "Thursday, May 14, 2026",
+    whenWhere: "Manassas City School Board meeting · video 2h 29m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=LYEbTXKTyD4" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-05-14-manassas-city-school-board-work-session-may-14-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-05-14-manassas-city-school-board-work-session-may-14-2026.txt", "pdfNote": "31 pages"},
+    shareContext: "Manassas School Board, May 14, 2026",
+    moments: [
+      { seconds: 2244, label: "Early agenda business." },
+      { seconds: 4486, label: "Mid-meeting discussion." },
+      { seconds: 8953, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-5h6hd04s9z",
+    meetingId: "mcc-5h6hd04s9z",
+    venue: "manassas-council",
+    title: "Manassas City Council 5/14/2026",
+    dateLabel: "Thursday, May 14, 2026",
+    whenWhere: "Manassas City Council meeting · video 2h 46m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/5h6hd04s9z" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-05-14-manassas-city-council-5-14-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-05-14-manassas-city-council-5-14-2026.txt", "pdfNote": "39 pages"},
+    shareContext: "Manassas City Council, May 14, 2026",
+    moments: [
+      { seconds: 25, label: "Pledge of Allegiance." },
+      { seconds: 7107, label: "Consent agenda motion." },
+      { seconds: 9959, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-sq75vwkuyp",
+    meetingId: "mcc-sq75vwkuyp",
+    venue: "manassas-council",
+    title: "Manassas City Council Worksession 4/29/2026",
+    dateLabel: "Wednesday, April 29, 2026",
+    whenWhere: "Manassas City Council meeting · video 1h 5m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/sq75vwkuyp" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-29-manassas-city-council-worksession-4-29-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-29-manassas-city-council-worksession-4-29-2026.txt", "pdfNote": "15 pages"},
+    shareContext: "Manassas City Council, Apr 29, 2026",
+    moments: [
+      { seconds: 981, label: "Early agenda business." },
+      { seconds: 1956, label: "Mid-meeting discussion." },
+      { seconds: 2933, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcps-o17QQtfgIUM",
+    meetingId: "mcps-o17QQtfgIUM",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - April 28, 2026",
+    dateLabel: "Tuesday, April 28, 2026",
+    whenWhere: "Manassas City School Board meeting · video 1h 27m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=o17QQtfgIUM" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-04-28-manassas-city-school-board-meeting-april-28-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-04-28-manassas-city-school-board-meeting-april-28-2026.txt", "pdfNote": "23 pages"},
+    shareContext: "Manassas School Board, Apr 28, 2026",
+    moments: [
+      { seconds: 1383, label: "Consent agenda motion." },
+      { seconds: 2615, label: "Mid-meeting discussion." },
+      { seconds: 3950, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-0pifkyqxxc",
+    meetingId: "mcc-0pifkyqxxc",
+    venue: "manassas-council",
+    title: "Manassas City Council 4/27/2026",
+    dateLabel: "Monday, April 27, 2026",
+    whenWhere: "Manassas City Council meeting · video 2h 17m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/0pifkyqxxc" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-27-manassas-city-council-4-27-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-27-manassas-city-council-4-27-2026.txt", "pdfNote": "31 pages"},
+    shareContext: "Manassas City Council, Apr 27, 2026",
+    moments: [
+      { seconds: 23, label: "Pledge of Allegiance." },
+      { seconds: 6798, label: "Public comment / public hearing begins." },
+      { seconds: 8193, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-gnl0fgrjpf",
+    meetingId: "mcc-gnl0fgrjpf",
+    venue: "manassas-council",
+    title: "Manassas City Council 4/20/2026",
+    dateLabel: "Monday, April 20, 2026",
+    whenWhere: "Manassas City Council meeting · video 0h 40m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/gnl0fgrjpf" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-20-manassas-city-council-4-20-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-20-manassas-city-council-4-20-2026.txt", "pdfNote": "10 pages"},
+    shareContext: "Manassas City Council, Apr 20, 2026",
+    moments: [
+      { seconds: 614, label: "Early agenda business." },
+      { seconds: 1225, label: "Mid-meeting discussion." },
+      { seconds: 1833, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcps-_prmC4SNC78",
+    meetingId: "mcps-_prmC4SNC78",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - April 16, 2026",
+    dateLabel: "Thursday, April 16, 2026",
+    whenWhere: "Manassas City School Board meeting · video 3h 21m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=_prmC4SNC78" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-04-16-manassas-city-school-board-work-session-april-16-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-04-16-manassas-city-school-board-work-session-april-16-2026.txt", "pdfNote": "44 pages"},
+    shareContext: "Manassas School Board, Apr 16, 2026",
+    moments: [
+      { seconds: 51, label: "Pledge of Allegiance." },
+      { seconds: 3016, label: "Early agenda business." },
+      { seconds: 12051, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-hmb8oe6E2VE",
+    meetingId: "mcps-hmb8oe6E2VE",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - April 14, 2026",
+    dateLabel: "Tuesday, April 14, 2026",
+    whenWhere: "Manassas City School Board meeting · video 2h 16m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=hmb8oe6E2VE" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-04-14-manassas-city-school-board-meeting-april-14-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-04-14-manassas-city-school-board-meeting-april-14-2026.txt", "pdfNote": "34 pages"},
+    shareContext: "Manassas School Board, Apr 14, 2026",
+    moments: [
+      { seconds: 8, label: "Pledge of Allegiance." },
+      { seconds: 2232, label: "Consent agenda motion." },
+      { seconds: 8170, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-n42fa5y5b1",
+    meetingId: "mcc-n42fa5y5b1",
+    venue: "manassas-council",
+    title: "Manassas City Council 2026-04-13",
+    dateLabel: "Monday, April 13, 2026",
+    whenWhere: "Manassas City Council meeting · video 1h 36m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/n42fa5y5b1" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-13-manassas-city-council-2026-04-13.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-13-manassas-city-council-2026-04-13.txt", "pdfNote": "23 pages"},
+    shareContext: "Manassas City Council, Apr 13, 2026",
+    moments: [
+      { seconds: 3, label: "Pledge of Allegiance." },
+      { seconds: 4603, label: "Consent agenda motion." },
+      { seconds: 5790, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-wmh2k6jxmn",
+    meetingId: "mcc-wmh2k6jxmn",
+    venue: "manassas-council",
+    title: "Manassas City Council Worksession 4/8/2026",
+    dateLabel: "Wednesday, April 8, 2026",
+    whenWhere: "Manassas City Council meeting · video 0h 51m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/wmh2k6jxmn" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-08-manassas-city-council-worksession-4-8-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-08-manassas-city-council-worksession-4-8-2026.txt", "pdfNote": "10 pages"},
+    shareContext: "Manassas City Council, Apr 8, 2026",
+    moments: [
+      { seconds: 776, label: "Early agenda business." },
+      { seconds: 1532, label: "Mid-meeting discussion." },
+      { seconds: 2313, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-vr8pbfj1ln",
+    meetingId: "mcc-vr8pbfj1ln",
+    venue: "manassas-council",
+    title: "Manassas City Council Town Hall 3/25/2026",
+    dateLabel: "Wednesday, March 25, 2026",
+    whenWhere: "Manassas City Council meeting · video 2h 6m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/vr8pbfj1ln" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-25-manassas-city-council-town-hall-3-25-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-25-manassas-city-council-town-hall-3-25-2026.txt", "pdfNote": "31 pages"},
+    shareContext: "Manassas City Council, Mar 25, 2026",
+    moments: [
+      { seconds: 4, label: "Meeting called to order." },
+      { seconds: 1909, label: "Early agenda business." },
+      { seconds: 7604, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-7fkj3exzlf",
+    meetingId: "mcc-7fkj3exzlf",
+    venue: "manassas-council",
+    title: "Manassas City Council/ School Board Worksession 3/25/2026",
+    dateLabel: "Wednesday, March 25, 2026",
+    whenWhere: "Manassas City Council meeting · video 0h 54m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/7fkj3exzlf" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-25-manassas-city-council-school-board-worksession-3-25-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-25-manassas-city-council-school-board-worksession-3-25-2026.txt", "pdfNote": "14 pages"},
+    shareContext: "Manassas City Council, Mar 25, 2026",
+    moments: [
+      { seconds: 829, label: "Early agenda business." },
+      { seconds: 1625, label: "Mid-meeting discussion." },
+      { seconds: 3249, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-aBt3a0jtdQo",
+    meetingId: "mcps-aBt3a0jtdQo",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - March 24, 2026",
+    dateLabel: "Tuesday, March 24, 2026",
+    whenWhere: "Manassas City School Board meeting · video 2h 29m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=aBt3a0jtdQo" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-03-24-manassas-city-school-board-meeting-march-24-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-03-24-manassas-city-school-board-meeting-march-24-2026.txt", "pdfNote": "37 pages"},
+    shareContext: "Manassas School Board, Mar 24, 2026",
+    moments: [
+      { seconds: 5, label: "Pledge of Allegiance." },
+      { seconds: 1615, label: "Consent agenda motion." },
+      { seconds: 8767, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-g5wrzj038p",
+    meetingId: "mcc-g5wrzj038p",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/23/2026",
+    dateLabel: "Monday, March 23, 2026",
+    whenWhere: "Manassas City Council meeting · video 0h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/g5wrzj038p" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-23-manassas-city-council-3-23-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-23-manassas-city-council-3-23-2026.txt", "pdfNote": "14 pages"},
+    shareContext: "Manassas City Council, Mar 23, 2026",
+    moments: [
+      { seconds: 19, label: "Pledge of Allegiance." },
+      { seconds: 830, label: "Early agenda business." },
+      { seconds: 3363, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-M_U-Q5V_WYM",
+    meetingId: "mcps-M_U-Q5V_WYM",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Budget Work Session - March 18, 2026",
+    dateLabel: "Wednesday, March 18, 2026",
+    whenWhere: "Manassas City School Board meeting · video 2h 38m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=M_U-Q5V_WYM" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-03-18-manassas-city-school-board-budget-work-session-march-18-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-03-18-manassas-city-school-board-budget-work-session-march-18-2026.txt", "pdfNote": "35 pages"},
+    shareContext: "Manassas School Board, Mar 18, 2026",
+    moments: [
+      { seconds: 2392, label: "Early agenda business." },
+      { seconds: 4752, label: "Mid-meeting discussion." },
+      { seconds: 7112, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-v175en1bg5",
+    meetingId: "mcc-v175en1bg5",
+    venue: "manassas-council",
+    title: "Manassas City Council Worksession 3/18/2026",
+    dateLabel: "Wednesday, March 18, 2026",
+    whenWhere: "Manassas City Council meeting · video 2h 30m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/v175en1bg5" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-18-manassas-city-council-worksession-3-18-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-18-manassas-city-council-worksession-3-18-2026.txt", "pdfNote": "32 pages"},
+    shareContext: "Manassas City Council, Mar 18, 2026",
+    moments: [
+      { seconds: 2252, label: "Early agenda business." },
+      { seconds: 4509, label: "Mid-meeting discussion." },
+      { seconds: 8985, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-eQMN9xRMR0M",
+    meetingId: "mcps-eQMN9xRMR0M",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - March 12, 2026",
+    dateLabel: "Thursday, March 12, 2026",
+    whenWhere: "Manassas City School Board meeting · video 2h 6m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=eQMN9xRMR0M" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-03-12-manassas-city-school-board-work-session-march-12-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-03-12-manassas-city-school-board-work-session-march-12-2026.txt", "pdfNote": "25 pages"},
+    shareContext: "Manassas School Board, Mar 12, 2026",
+    moments: [
+      { seconds: 1881, label: "Early agenda business." },
+      { seconds: 3790, label: "Mid-meeting discussion." },
+      { seconds: 7499, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-RWfkGUocP-M",
+    meetingId: "mcps-RWfkGUocP-M",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - March 10, 2026",
+    dateLabel: "Tuesday, March 10, 2026",
+    whenWhere: "Manassas City School Board meeting · video 2h 25m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=RWfkGUocP-M" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-03-10-manassas-city-school-board-meeting-march-10-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-03-10-manassas-city-school-board-meeting-march-10-2026.txt", "pdfNote": "36 pages"},
+    shareContext: "Manassas School Board, Mar 10, 2026",
+    moments: [
+      { seconds: 5, label: "Pledge of Allegiance." },
+      { seconds: 1143, label: "Consent agenda motion." },
+      { seconds: 8676, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-ouc8ayycna",
+    meetingId: "mcc-ouc8ayycna",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/9/2026",
+    dateLabel: "Monday, March 9, 2026",
+    whenWhere: "Manassas City Council meeting · video 2h 7m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/ouc8ayycna" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-09-manassas-city-council-3-9-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-09-manassas-city-council-3-9-2026.txt", "pdfNote": "28 pages"},
+    shareContext: "Manassas City Council, Mar 9, 2026",
+    moments: [
+      { seconds: 27, label: "Pledge of Allegiance." },
+      { seconds: 1903, label: "Early agenda business." },
+      { seconds: 7644, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-53uxjcuex2",
+    meetingId: "mcc-53uxjcuex2",
+    venue: "manassas-council",
+    title: "Manassas City Council Worksession 3/6/2026",
+    dateLabel: "Friday, March 6, 2026",
+    whenWhere: "Manassas City Council meeting · video 3h 30m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/53uxjcuex2" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-06-manassas-city-council-worksession-3-6-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-06-manassas-city-council-worksession-3-6-2026.txt", "pdfNote": "34 pages"},
+    shareContext: "Manassas City Council, Mar 6, 2026",
+    moments: [
+      { seconds: 3144, label: "Early agenda business." },
+      { seconds: 6295, label: "Mid-meeting discussion." },
+      { seconds: 9475, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-rku5thibnd",
+    meetingId: "mcc-rku5thibnd",
+    venue: "manassas-council",
+    title: "Manassas City Council 2/25/2026",
+    dateLabel: "Wednesday, February 25, 2026",
+    whenWhere: "Manassas City Council meeting · video 0h 24m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/rku5thibnd" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-02-25-manassas-city-council-2-25-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-02-25-manassas-city-council-2-25-2026.txt", "pdfNote": "6 pages"},
+    shareContext: "Manassas City Council, Feb 25, 2026",
+    moments: [
+      { seconds: 351, label: "Early agenda business." },
+      { seconds: 732, label: "Mid-meeting discussion." },
+      { seconds: 1088, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcps-mkClC4OvKN8",
+    meetingId: "mcps-mkClC4OvKN8",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - February 24, 2026",
+    dateLabel: "Tuesday, February 24, 2026",
+    whenWhere: "Manassas City School Board meeting · video 4h 26m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=mkClC4OvKN8" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-02-24-manassas-city-school-board-meeting-february-24-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-02-24-manassas-city-school-board-meeting-february-24-2026.txt", "pdfNote": "66 pages"},
+    shareContext: "Manassas School Board, Feb 24, 2026",
+    moments: [
+      { seconds: 4, label: "Pledge of Allegiance." },
+      { seconds: 1526, label: "Consent agenda motion." },
+      { seconds: 15922, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-wi6c9qxdml",
+    meetingId: "mcc-wi6c9qxdml",
+    venue: "manassas-council",
+    title: "Manassas City Council 2/23/2026",
+    dateLabel: "Monday, February 23, 2026",
+    whenWhere: "Manassas City Council meeting · video 2h 24m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/wi6c9qxdml" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-02-23-manassas-city-council-2-23-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-02-23-manassas-city-council-2-23-2026.txt", "pdfNote": "32 pages"},
+    shareContext: "Manassas City Council, Feb 23, 2026",
+    moments: [
+      { seconds: 6, label: "Pledge of Allegiance." },
+      { seconds: 2154, label: "Early agenda business." },
+      { seconds: 8630, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-IWzXZKiYPaU",
+    meetingId: "mcps-IWzXZKiYPaU",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - February 10, 2026",
+    dateLabel: "Tuesday, February 10, 2026",
+    whenWhere: "Manassas City School Board meeting · video 3h 41m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=IWzXZKiYPaU" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-02-10-manassas-city-school-board-meeting-february-10-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-02-10-manassas-city-school-board-meeting-february-10-2026.txt", "pdfNote": "52 pages"},
+    shareContext: "Manassas School Board, Feb 10, 2026",
+    moments: [
+      { seconds: 7, label: "Meeting called to order." },
+      { seconds: 3324, label: "Early agenda business." },
+      { seconds: 12246, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-mixljyrvn3",
+    meetingId: "mcc-mixljyrvn3",
+    venue: "manassas-council",
+    title: "Manassas City Council 2/9/2026",
+    dateLabel: "Monday, February 9, 2026",
+    whenWhere: "Manassas City Council meeting · video 3h 16m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/mixljyrvn3" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-02-09-manassas-city-council-2-9-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-02-09-manassas-city-council-2-9-2026.txt", "pdfNote": "45 pages"},
+    shareContext: "Manassas City Council, Feb 9, 2026",
+    moments: [
+      { seconds: 1446, label: "Meeting called to order." },
+      { seconds: 6333, label: "Consent agenda motion." },
+      { seconds: 6400, label: "Public comment / public hearing begins." },
+      { seconds: 11776, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-oDJBpOPrZ1I",
+    meetingId: "mcps-oDJBpOPrZ1I",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - February 5, 2026",
+    dateLabel: "Thursday, February 5, 2026",
+    whenWhere: "Manassas City School Board meeting · video 2h 35m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=oDJBpOPrZ1I" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-02-05-manassas-city-school-board-work-session-february-5-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-02-05-manassas-city-school-board-work-session-february-5-2026.txt", "pdfNote": "35 pages"},
+    shareContext: "Manassas School Board, Feb 5, 2026",
+    moments: [
+      { seconds: 54, label: "Meeting called to order." },
+      { seconds: 2320, label: "Early agenda business." },
+      { seconds: 9185, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-m6iax1ridr",
+    meetingId: "mcc-m6iax1ridr",
+    venue: "manassas-council",
+    title: "Manassas City Council 1/23/2026 Retreat",
+    dateLabel: "Friday, January 23, 2026",
+    whenWhere: "Manassas City Council meeting · video 6h 6m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/m6iax1ridr" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-01-23-manassas-city-council-1-23-2026-retreat.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-01-23-manassas-city-council-1-23-2026-retreat.txt", "pdfNote": "78 pages"},
+    shareContext: "Manassas City Council, Jan 23, 2026",
+    moments: [
+      { seconds: 5475, label: "Early agenda business." },
+      { seconds: 10975, label: "Mid-meeting discussion." },
+      { seconds: 16470, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-ttqxnszwm8",
+    meetingId: "mcc-ttqxnszwm8",
+    venue: "manassas-council",
+    title: "Manassas City Council 1/22/2026 Retreat",
+    dateLabel: "Thursday, January 22, 2026",
+    whenWhere: "Manassas City Council meeting · video 5h 37m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/ttqxnszwm8" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-01-22-manassas-city-council-1-22-2026-retreat.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-01-22-manassas-city-council-1-22-2026-retreat.txt", "pdfNote": "61 pages"},
+    shareContext: "Manassas City Council, Jan 22, 2026",
+    moments: [
+      { seconds: 5052, label: "Early agenda business." },
+      { seconds: 10120, label: "Mid-meeting discussion." },
+      { seconds: 15172, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcps-EGAdSTArB0s",
+    meetingId: "mcps-EGAdSTArB0s",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Budget Work Session - January 20, 2026",
+    dateLabel: "Tuesday, January 20, 2026",
+    whenWhere: "Manassas City School Board meeting · video 1h 38m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=EGAdSTArB0s" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-01-20-manassas-city-school-board-budget-work-session-january-20-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-01-20-manassas-city-school-board-budget-work-session-january-20-2026.txt", "pdfNote": "22 pages"},
+    shareContext: "Manassas School Board, Jan 20, 2026",
+    moments: [
+      { seconds: 1470, label: "Early agenda business." },
+      { seconds: 2926, label: "Mid-meeting discussion." },
+      { seconds: 5845, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-Etkyun4wIyU",
+    meetingId: "mcps-Etkyun4wIyU",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - January 15, 2026",
+    dateLabel: "Thursday, January 15, 2026",
+    whenWhere: "Manassas City School Board meeting · video 2h 59m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=Etkyun4wIyU" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-01-15-manassas-city-school-board-work-session-january-15-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-01-15-manassas-city-school-board-work-session-january-15-2026.txt", "pdfNote": "41 pages"},
+    shareContext: "Manassas School Board, Jan 15, 2026",
+    moments: [
+      { seconds: 41, label: "Meeting called to order." },
+      { seconds: 2709, label: "Early agenda business." },
+      { seconds: 10754, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-d-StJV4i660",
+    meetingId: "mcps-d-StJV4i660",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - January 13, 2026",
+    dateLabel: "Tuesday, January 13, 2026",
+    whenWhere: "Manassas City School Board meeting · video 0h 50m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=d-StJV4i660" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-01-13-manassas-city-school-board-meeting-january-13-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-01-13-manassas-city-school-board-meeting-january-13-2026.txt", "pdfNote": "12 pages"},
+    shareContext: "Manassas School Board, Jan 13, 2026",
+    moments: [
+      { seconds: 19, label: "Pledge of Allegiance." },
+      { seconds: 736, label: "Early agenda business." },
+      { seconds: 1425, label: "Consent agenda motion." },
+    ],
+  },
+  {
+    slug: "mcc-6frd4h1pbh",
+    meetingId: "mcc-6frd4h1pbh",
+    venue: "manassas-council",
+    title: "Manassas City Council 1/13/2026",
+    dateLabel: "Tuesday, January 13, 2026",
+    whenWhere: "Manassas City Council meeting · video 1h 37m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/6frd4h1pbh" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-01-13-manassas-city-council-1-13-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-01-13-manassas-city-council-1-13-2026.txt", "pdfNote": "25 pages"},
+    shareContext: "Manassas City Council, Jan 13, 2026",
+    moments: [
+      { seconds: 1455, label: "Early agenda business." },
+      { seconds: 2916, label: "Mid-meeting discussion." },
+      { seconds: 4393, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-vxgqcm24tz",
+    meetingId: "mcc-vxgqcm24tz",
+    venue: "manassas-council",
+    title: "Manassas City Council 1/12/2026",
+    dateLabel: "Monday, January 12, 2026",
+    whenWhere: "Manassas City Council meeting · video 2h 7m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/vxgqcm24tz" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-01-12-manassas-city-council-1-12-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-01-12-manassas-city-council-1-12-2026.txt", "pdfNote": "27 pages"},
+    shareContext: "Manassas City Council, Jan 12, 2026",
+    moments: [
+      { seconds: 34, label: "Meeting called to order." },
+      { seconds: 5937, label: "Consent agenda motion." },
+      { seconds: 7637, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-0V4gMyI1rME",
+    meetingId: "mcps-0V4gMyI1rME",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Organizational Meeting - January 5, 2026",
+    dateLabel: "Monday, January 5, 2026",
+    whenWhere: "Manassas City School Board meeting · video 1h 10m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=0V4gMyI1rME" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-01-05-manassas-city-school-board-organizational-meeting-january-5-2026.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2026-01-05-manassas-city-school-board-organizational-meeting-january-5-2026.txt", "pdfNote": "15 pages"},
+    shareContext: "Manassas School Board, Jan 5, 2026",
+    moments: [
+      { seconds: 1072, label: "Early agenda business." },
+      { seconds: 2125, label: "Mid-meeting discussion." },
+      { seconds: 4189, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-pjAYdvbR91g",
+    meetingId: "mcps-pjAYdvbR91g",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - December 9, 2025",
+    dateLabel: "Tuesday, December 9, 2025",
+    whenWhere: "Manassas City School Board meeting · video 2h 2m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=pjAYdvbR91g" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-12-09-manassas-city-school-board-meeting-december-9-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-12-09-manassas-city-school-board-meeting-december-9-2025.txt", "pdfNote": "29 pages"},
+    shareContext: "Manassas School Board, Dec 9, 2025",
+    moments: [
+      { seconds: 4, label: "Meeting called to order." },
+      { seconds: 1979, label: "Consent agenda motion." },
+      { seconds: 7353, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-mkwyt3xzdf",
+    meetingId: "mcc-mkwyt3xzdf",
+    venue: "manassas-council",
+    title: "Manassas City Council 12/8/2025",
+    dateLabel: "Monday, December 8, 2025",
+    whenWhere: "Manassas City Council meeting · video 4h 16m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/mkwyt3xzdf" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-12-08-manassas-city-council-12-8-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-12-08-manassas-city-council-12-8-2025.txt", "pdfNote": "62 pages"},
+    shareContext: "Manassas City Council, Dec 8, 2025",
+    moments: [
+      { seconds: 3, label: "Meeting called to order." },
+      { seconds: 7456, label: "Public comment / public hearing begins." },
+      { seconds: 15349, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-xM-ATMhfpWM",
+    meetingId: "mcps-xM-ATMhfpWM",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - December 4, 2025",
+    dateLabel: "Thursday, December 4, 2025",
+    whenWhere: "Manassas City School Board meeting · video 0h 41m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=xM-ATMhfpWM" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-12-04-manassas-city-school-board-work-session-december-4-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-12-04-manassas-city-school-board-work-session-december-4-2025.txt", "pdfNote": "10 pages"},
+    shareContext: "Manassas School Board, Dec 4, 2025",
+    moments: [
+      { seconds: 77, label: "Meeting called to order." },
+      { seconds: 605, label: "Early agenda business." },
+      { seconds: 2366, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-rsqdahk3oe",
+    meetingId: "mcc-rsqdahk3oe",
+    venue: "manassas-council",
+    title: "Manassas City Council 11/17/2025",
+    dateLabel: "Monday, November 17, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 33m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/rsqdahk3oe" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-11-17-manassas-city-council-11-17-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-11-17-manassas-city-council-11-17-2025.txt", "pdfNote": "38 pages"},
+    shareContext: "Manassas City Council, Nov 17, 2025",
+    moments: [
+      { seconds: 2294, label: "Early agenda business." },
+      { seconds: 4601, label: "Mid-meeting discussion." },
+      { seconds: 6909, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-586r268xu0",
+    meetingId: "mcc-586r268xu0",
+    venue: "manassas-council",
+    title: "Manassas City Council 11/10/2025",
+    dateLabel: "Monday, November 10, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 22m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/586r268xu0" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-11-10-manassas-city-council-11-10-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-11-10-manassas-city-council-11-10-2025.txt", "pdfNote": "20 pages"},
+    shareContext: "Manassas City Council, Nov 10, 2025",
+    moments: [
+      { seconds: 55, label: "Pledge of Allegiance." },
+      { seconds: 3759, label: "Public comment / public hearing begins." },
+      { seconds: 4912, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-dh-xtAF-fsg",
+    meetingId: "mcps-dh-xtAF-fsg",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - November 6, 2025",
+    dateLabel: "Thursday, November 6, 2025",
+    whenWhere: "Manassas City School Board meeting · video 1h 45m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=dh-xtAF-fsg" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-11-06-manassas-city-school-board-work-session-november-6-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-11-06-manassas-city-school-board-work-session-november-6-2025.txt", "pdfNote": "18 pages"},
+    shareContext: "Manassas School Board, Nov 6, 2025",
+    moments: [
+      { seconds: 1581, label: "Early agenda business." },
+      { seconds: 3569, label: "Mid-meeting discussion." },
+      { seconds: 6253, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-lg7ojibvqf",
+    meetingId: "mcc-lg7ojibvqf",
+    venue: "manassas-council",
+    title: "Manassas City Council/ School Board Worksession 10/30/2025",
+    dateLabel: "Thursday, October 30, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 4m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/lg7ojibvqf" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-10-30-manassas-city-council-school-board-worksession-10-30-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-10-30-manassas-city-council-school-board-worksession-10-30-2025.txt", "pdfNote": "17 pages"},
+    shareContext: "Manassas City Council, Oct 30, 2025",
+    moments: [
+      { seconds: 28, label: "Meeting called to order." },
+      { seconds: 979, label: "Early agenda business." },
+      { seconds: 3724, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-nPCILXcd6YY",
+    meetingId: "mcps-nPCILXcd6YY",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - October 28, 2025",
+    dateLabel: "Tuesday, October 28, 2025",
+    whenWhere: "Manassas City School Board meeting · video 0h 55m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=nPCILXcd6YY" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-10-28-manassas-city-school-board-meeting-october-28-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-10-28-manassas-city-school-board-meeting-october-28-2025.txt", "pdfNote": "14 pages"},
+    shareContext: "Manassas School Board, Oct 28, 2025",
+    moments: [
+      { seconds: 0, label: "Pledge of Allegiance." },
+      { seconds: 717, label: "Consent agenda motion." },
+      { seconds: 3128, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-vtmf00h1yy",
+    meetingId: "mcc-vtmf00h1yy",
+    venue: "manassas-council",
+    title: "Manassas City Council 10/27/2025",
+    dateLabel: "Monday, October 27, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 49m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/vtmf00h1yy" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-10-27-manassas-city-council-10-27-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-10-27-manassas-city-council-10-27-2025.txt", "pdfNote": "35 pages"},
+    shareContext: "Manassas City Council, Oct 27, 2025",
+    moments: [
+      { seconds: 2551, label: "Early agenda business." },
+      { seconds: 4396, label: "Consent agenda motion." },
+      { seconds: 10155, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-4Tw5zPWXjO8",
+    meetingId: "mcps-4Tw5zPWXjO8",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - October 23, 2025",
+    dateLabel: "Thursday, October 23, 2025",
+    whenWhere: "Manassas City School Board meeting · video 1h 13m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=4Tw5zPWXjO8" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-10-23-manassas-city-school-board-work-session-october-23-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-10-23-manassas-city-school-board-work-session-october-23-2025.txt", "pdfNote": "18 pages"},
+    shareContext: "Manassas School Board, Oct 23, 2025",
+    moments: [
+      { seconds: 1082, label: "Early agenda business." },
+      { seconds: 2173, label: "Mid-meeting discussion." },
+      { seconds: 3287, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-3pk41z6kpc",
+    meetingId: "mcc-3pk41z6kpc",
+    venue: "manassas-council",
+    title: "Manassas City Council 10/20/2025",
+    dateLabel: "Monday, October 20, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 19m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/3pk41z6kpc" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-10-20-manassas-city-council-10-20-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-10-20-manassas-city-council-10-20-2025.txt", "pdfNote": "29 pages"},
+    shareContext: "Manassas City Council, Oct 20, 2025",
+    moments: [
+      { seconds: 2075, label: "Early agenda business." },
+      { seconds: 4170, label: "Mid-meeting discussion." },
+      { seconds: 6245, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcps-nW-xo5_IwDQ",
+    meetingId: "mcps-nW-xo5_IwDQ",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - October 14 2025",
+    dateLabel: "Tuesday, October 14, 2025",
+    whenWhere: "Manassas City School Board meeting · video 1h 23m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=nW-xo5_IwDQ" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-10-14-manassas-city-school-board-meeting-october-14-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-10-14-manassas-city-school-board-meeting-october-14-2025.txt", "pdfNote": "20 pages"},
+    shareContext: "Manassas School Board, Oct 14, 2025",
+    moments: [
+      { seconds: 1253, label: "Early agenda business." },
+      { seconds: 1434, label: "Consent agenda motion." },
+      { seconds: 4993, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-xniog5koa3",
+    meetingId: "mcc-xniog5koa3",
+    venue: "manassas-council",
+    title: "Manassas City Council 10/14/2025",
+    dateLabel: "Tuesday, October 14, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 57m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/xniog5koa3" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-10-14-manassas-city-council-10-14-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-10-14-manassas-city-council-10-14-2025.txt", "pdfNote": "25 pages"},
+    shareContext: "Manassas City Council, Oct 14, 2025",
+    moments: [
+      { seconds: 791, label: "Meeting called to order." },
+      { seconds: 1775, label: "Early agenda business." },
+      { seconds: 7042, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-ERqAB9kYIQU",
+    meetingId: "mcps-ERqAB9kYIQU",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Work Session - September 25, 2025",
+    dateLabel: "Thursday, September 25, 2025",
+    whenWhere: "Manassas City School Board meeting · video 2h 33m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=ERqAB9kYIQU" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-09-25-manassas-city-school-board-work-session-september-25-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-09-25-manassas-city-school-board-work-session-september-25-2025.txt", "pdfNote": "34 pages"},
+    shareContext: "Manassas School Board, Sep 25, 2025",
+    moments: [
+      { seconds: 47, label: "Meeting called to order." },
+      { seconds: 2297, label: "Early agenda business." },
+      { seconds: 4586, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "mcc-jgajel3mik",
+    meetingId: "mcc-jgajel3mik",
+    venue: "manassas-council",
+    title: "Manassas City Council 9/22/2025",
+    dateLabel: "Monday, September 22, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 9m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/jgajel3mik" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-09-22-manassas-city-council-9-22-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-09-22-manassas-city-council-9-22-2025.txt", "pdfNote": "30 pages"},
+    shareContext: "Manassas City Council, Sep 22, 2025",
+    moments: [
+      { seconds: 70, label: "Pledge of Allegiance." },
+      { seconds: 4942, label: "Public comment / public hearing begins." },
+      { seconds: 7789, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-vtqbst3wtx",
+    meetingId: "mcc-vtqbst3wtx",
+    venue: "manassas-council",
+    title: "Manassas City Council 9/15/2025",
+    dateLabel: "Monday, September 15, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 59m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/vtqbst3wtx" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-09-15-manassas-city-council-9-15-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-09-15-manassas-city-council-9-15-2025.txt", "pdfNote": "29 pages"},
+    shareContext: "Manassas City Council, Sep 15, 2025",
+    moments: [
+      { seconds: 1794, label: "Early agenda business." },
+      { seconds: 3586, label: "Mid-meeting discussion." },
+      { seconds: 7172, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-XmHxI7Tsz2M",
+    meetingId: "mcps-XmHxI7Tsz2M",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - September 9, 2025",
+    dateLabel: "Tuesday, September 9, 2025",
+    whenWhere: "Manassas City School Board meeting · video 2h 46m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=XmHxI7Tsz2M" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-09-09-manassas-city-school-board-meeting-september-9-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-09-09-manassas-city-school-board-meeting-september-9-2025.txt", "pdfNote": "44 pages"},
+    shareContext: "Manassas School Board, Sep 9, 2025",
+    moments: [
+      { seconds: 220, label: "Consent agenda motion." },
+      { seconds: 2500, label: "Early agenda business." },
+      { seconds: 9983, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-5xlp85pc11",
+    meetingId: "mcc-5xlp85pc11",
+    venue: "manassas-council",
+    title: "Manassas City Council 9/8/2025",
+    dateLabel: "Monday, September 8, 2025",
+    whenWhere: "Manassas City Council meeting · video 3h 46m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/5xlp85pc11" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-09-08-manassas-city-council-9-8-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-09-08-manassas-city-council-9-8-2025.txt", "pdfNote": "51 pages"},
+    shareContext: "Manassas City Council, Sep 8, 2025",
+    moments: [
+      { seconds: 47, label: "Pledge of Allegiance." },
+      { seconds: 8698, label: "Consent agenda motion." },
+      { seconds: 13598, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-_O6iC4C05qs",
+    meetingId: "mcps-_O6iC4C05qs",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - August 26, 2025",
+    dateLabel: "Tuesday, August 26, 2025",
+    whenWhere: "Manassas City School Board meeting · video 0h 58m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=_O6iC4C05qs" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-08-26-manassas-city-school-board-meeting-august-26-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-08-26-manassas-city-school-board-meeting-august-26-2025.txt", "pdfNote": "16 pages"},
+    shareContext: "Manassas School Board, Aug 26, 2025",
+    moments: [
+      { seconds: 207, label: "Consent agenda motion." },
+      { seconds: 859, label: "Early agenda business." },
+      { seconds: 3460, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-ju_AJLk0tIA",
+    meetingId: "mcps-ju_AJLk0tIA",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - August 12, 2025",
+    dateLabel: "Tuesday, August 12, 2025",
+    whenWhere: "Manassas City School Board meeting · video 2h 18m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=ju_AJLk0tIA" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-08-12-manassas-city-school-board-meeting-august-12-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-08-12-manassas-city-school-board-meeting-august-12-2025.txt", "pdfNote": "34 pages"},
+    shareContext: "Manassas School Board, Aug 12, 2025",
+    moments: [
+      { seconds: 1, label: "Meeting called to order." },
+      { seconds: 1983, label: "Consent agenda motion." },
+      { seconds: 8299, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-j6bpykz09x",
+    meetingId: "mcc-j6bpykz09x",
+    venue: "manassas-council",
+    title: "Manassas City Council 7/28/2025",
+    dateLabel: "Monday, July 28, 2025",
+    whenWhere: "Manassas City Council meeting · video 3h 2m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/j6bpykz09x" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-07-28-manassas-city-council-7-28-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-07-28-manassas-city-council-7-28-2025.txt", "pdfNote": "44 pages"},
+    shareContext: "Manassas City Council, Jul 28, 2025",
+    moments: [
+      { seconds: 0, label: "Pledge of Allegiance." },
+      { seconds: 3921, label: "Public comment / public hearing begins." },
+      { seconds: 10910, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-vbE8_X6A1rc",
+    meetingId: "mcps-vbE8_X6A1rc",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - July 22, 2025",
+    dateLabel: "Tuesday, July 22, 2025",
+    whenWhere: "Manassas City School Board meeting · video 2h 40m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=vbE8_X6A1rc" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-07-22-manassas-city-school-board-meeting-july-22-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-07-22-manassas-city-school-board-meeting-july-22-2025.txt", "pdfNote": "40 pages"},
+    shareContext: "Manassas School Board, Jul 22, 2025",
+    moments: [
+      { seconds: 923, label: "Consent agenda motion." },
+      { seconds: 2390, label: "Early agenda business." },
+      { seconds: 9521, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-1o58xmuxgh",
+    meetingId: "mcc-1o58xmuxgh",
+    venue: "manassas-council",
+    title: "Manassas City Council 7/21/2025",
+    dateLabel: "Monday, July 21, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 18m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/1o58xmuxgh" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-07-21-manassas-city-council-7-21-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-07-21-manassas-city-council-7-21-2025.txt", "pdfNote": "19 pages"},
+    shareContext: "Manassas City Council, Jul 21, 2025",
+    moments: [
+      { seconds: 1198, label: "Early agenda business." },
+      { seconds: 2369, label: "Mid-meeting discussion." },
+      { seconds: 4707, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-or8no1v9a5",
+    meetingId: "mcc-or8no1v9a5",
+    venue: "manassas-council",
+    title: "Manassas City Council 7/14/2025",
+    dateLabel: "Monday, July 14, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 46m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/or8no1v9a5" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-07-14-manassas-city-council-7-14-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-07-14-manassas-city-council-7-14-2025.txt", "pdfNote": "27 pages"},
+    shareContext: "Manassas City Council, Jul 14, 2025",
+    moments: [
+      { seconds: 54, label: "Pledge of Allegiance." },
+      { seconds: 2204, label: "Public comment / public hearing begins." },
+      { seconds: 6367, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-Y99XMWUD6lo",
+    meetingId: "mcps-Y99XMWUD6lo",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - July 8, 2025",
+    dateLabel: "Tuesday, July 8, 2025",
+    whenWhere: "Manassas City School Board meeting · video 1h 36m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=Y99XMWUD6lo" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-07-08-manassas-city-school-board-meeting-july-8-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-07-08-manassas-city-school-board-meeting-july-8-2025.txt", "pdfNote": "23 pages"},
+    shareContext: "Manassas School Board, Jul 8, 2025",
+    moments: [
+      { seconds: 4, label: "Pledge of Allegiance." },
+      { seconds: 164, label: "Consent agenda motion." },
+      { seconds: 5785, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-JXglyMDZMnI",
+    meetingId: "mcps-JXglyMDZMnI",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - June 24, 2025",
+    dateLabel: "Tuesday, June 24, 2025",
+    whenWhere: "Manassas City School Board meeting · video 1h 1m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=JXglyMDZMnI" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-06-24-manassas-city-school-board-meeting-june-24-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-06-24-manassas-city-school-board-meeting-june-24-2025.txt", "pdfNote": "17 pages"},
+    shareContext: "Manassas School Board, Jun 24, 2025",
+    moments: [
+      { seconds: 3, label: "Pledge of Allegiance." },
+      { seconds: 120, label: "Consent agenda motion." },
+      { seconds: 3706, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-1o5uboov76",
+    meetingId: "mcc-1o5uboov76",
+    venue: "manassas-council",
+    title: "Manassas City Council 6/23/2025",
+    dateLabel: "Monday, June 23, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 54m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/1o5uboov76" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-06-23-manassas-city-council-6-23-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-06-23-manassas-city-council-6-23-2025.txt", "pdfNote": "27 pages"},
+    shareContext: "Manassas City Council, Jun 23, 2025",
+    moments: [
+      { seconds: 2743, label: "Early agenda business." },
+      { seconds: 7910, label: "Public comment / public hearing begins." },
+      { seconds: 10451, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-1i4wtmuedp",
+    meetingId: "mcc-1i4wtmuedp",
+    venue: "manassas-council",
+    title: "Manassas City Council 6/16/2025",
+    dateLabel: "Monday, June 16, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 36m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/1i4wtmuedp" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-06-16-manassas-city-council-6-16-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-06-16-manassas-city-council-6-16-2025.txt", "pdfNote": "37 pages"},
+    shareContext: "Manassas City Council, Jun 16, 2025",
+    moments: [
+      { seconds: 2336, label: "Early agenda business." },
+      { seconds: 4678, label: "Mid-meeting discussion." },
+      { seconds: 7039, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcps-hM-lLe1xcUE",
+    meetingId: "mcps-hM-lLe1xcUE",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - June 10, 2025",
+    dateLabel: "Tuesday, June 10, 2025",
+    whenWhere: "Manassas City School Board meeting · video 1h 41m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=hM-lLe1xcUE" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-06-10-manassas-city-school-board-meeting-june-10-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-06-10-manassas-city-school-board-meeting-june-10-2025.txt", "pdfNote": "27 pages"},
+    shareContext: "Manassas School Board, Jun 10, 2025",
+    moments: [
+      { seconds: 2, label: "Meeting called to order." },
+      { seconds: 3386, label: "Consent agenda motion." },
+      { seconds: 6103, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-ryev5yyn0a",
+    meetingId: "mcc-ryev5yyn0a",
+    venue: "manassas-council",
+    title: "Manassas City Council 6/9/2025",
+    dateLabel: "Monday, June 9, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 19m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/ryev5yyn0a" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-06-09-manassas-city-council-6-9-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-06-09-manassas-city-council-6-9-2025.txt", "pdfNote": "18 pages"},
+    shareContext: "Manassas City Council, Jun 9, 2025",
+    moments: [
+      { seconds: 2104, label: "Early agenda business." },
+      { seconds: 5958, label: "Consent agenda motion." },
+      { seconds: 8368, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-y76mxr4pbu",
+    meetingId: "mcc-y76mxr4pbu",
+    venue: "manassas-council",
+    title: "Manassas City Council 6/2/2025",
+    dateLabel: "Monday, June 2, 2025",
+    whenWhere: "Manassas City Council meeting · video 0h 12m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/y76mxr4pbu" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-06-02-manassas-city-council-6-2-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-06-02-manassas-city-council-6-2-2025.txt", "pdfNote": "4 pages"},
+    shareContext: "Manassas City Council, Jun 2, 2025",
+    moments: [
+      { seconds: 211, label: "Public comment / public hearing begins." },
+      { seconds: 365, label: "Mid-meeting discussion." },
+      { seconds: 742, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-8sd9p6bm90",
+    meetingId: "mcc-8sd9p6bm90",
+    venue: "manassas-council",
+    title: "Manassas City Council 5/19/2025",
+    dateLabel: "Monday, May 19, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 36m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/8sd9p6bm90" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-05-19-manassas-city-council-5-19-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-05-19-manassas-city-council-5-19-2025.txt", "pdfNote": "24 pages"},
+    shareContext: "Manassas City Council, May 19, 2025",
+    moments: [
+      { seconds: 1444, label: "Early agenda business." },
+      { seconds: 2908, label: "Mid-meeting discussion." },
+      { seconds: 5796, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-tPgYVQxiuiI",
+    meetingId: "mcps-tPgYVQxiuiI",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - May 13, 2025",
+    dateLabel: "Tuesday, May 13, 2025",
+    whenWhere: "Manassas City School Board meeting · video 2h 46m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=tPgYVQxiuiI" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-05-13-manassas-city-school-board-meeting-may-13-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-05-13-manassas-city-school-board-meeting-may-13-2025.txt", "pdfNote": "37 pages"},
+    shareContext: "Manassas School Board, May 13, 2025",
+    moments: [
+      { seconds: 4, label: "Meeting called to order." },
+      { seconds: 5568, label: "Consent agenda motion." },
+      { seconds: 9963, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-og1frbg6gv",
+    meetingId: "mcc-og1frbg6gv",
+    venue: "manassas-council",
+    title: "Manassas City Council 5/12/2025",
+    dateLabel: "Monday, May 12, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 12m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/og1frbg6gv" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-05-12-manassas-city-council-5-12-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-05-12-manassas-city-council-5-12-2025.txt", "pdfNote": "31 pages"},
+    shareContext: "Manassas City Council, May 12, 2025",
+    moments: [
+      { seconds: 30, label: "Meeting called to order." },
+      { seconds: 5656, label: "Consent agenda motion." },
+      { seconds: 7926, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-lnn7aridbs",
+    meetingId: "mcc-lnn7aridbs",
+    venue: "manassas-council",
+    title: "Manassas City Council 4/30/2025",
+    dateLabel: "Wednesday, April 30, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 18m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/lnn7aridbs" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-04-30-manassas-city-council-4-30-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-04-30-manassas-city-council-4-30-2025.txt", "pdfNote": "31 pages"},
+    shareContext: "Manassas City Council, Apr 30, 2025",
+    moments: [
+      { seconds: 2068, label: "Early agenda business." },
+      { seconds: 4136, label: "Mid-meeting discussion." },
+      { seconds: 8279, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-UKIzg2hppbU",
+    meetingId: "mcps-UKIzg2hppbU",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - April 29, 2025",
+    dateLabel: "Tuesday, April 29, 2025",
+    whenWhere: "Manassas City School Board meeting · video 2h 9m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=UKIzg2hppbU" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-04-29-manassas-city-school-board-meeting-april-29-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-04-29-manassas-city-school-board-meeting-april-29-2025.txt", "pdfNote": "32 pages"},
+    shareContext: "Manassas School Board, Apr 29, 2025",
+    moments: [
+      { seconds: 1589, label: "Consent agenda motion." },
+      { seconds: 1952, label: "Early agenda business." },
+      { seconds: 7600, label: "Motion to enter closed session." },
+    ],
+  },
+  {
+    slug: "mcc-11tozzy664",
+    meetingId: "mcc-11tozzy664",
+    venue: "manassas-council",
+    title: "Manassas City Council 4/28/2025",
+    dateLabel: "Monday, April 28, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 16m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/11tozzy664" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-04-28-manassas-city-council-4-28-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-04-28-manassas-city-council-4-28-2025.txt", "pdfNote": "35 pages"},
+    shareContext: "Manassas City Council, Apr 28, 2025",
+    moments: [
+      { seconds: 29, label: "Pledge of Allegiance." },
+      { seconds: 2461, label: "Consent agenda motion." },
+      { seconds: 2529, label: "Public comment / public hearing begins." },
+      { seconds: 8192, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-6habw70a0y",
+    meetingId: "mcc-6habw70a0y",
+    venue: "manassas-council",
+    title: "Manassas City Council 4/21/2025",
+    dateLabel: "Monday, April 21, 2025",
+    whenWhere: "Manassas City Council meeting · video 0h 39m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/6habw70a0y" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-04-21-manassas-city-council-4-21-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-04-21-manassas-city-council-4-21-2025.txt", "pdfNote": "10 pages"},
+    shareContext: "Manassas City Council, Apr 21, 2025",
+    moments: [
+      { seconds: 588, label: "Early agenda business." },
+      { seconds: 1166, label: "Mid-meeting discussion." },
+      { seconds: 2336, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-e2da4law05",
+    meetingId: "mcc-e2da4law05",
+    venue: "manassas-council",
+    title: "Manassas City Council 4/14/2025",
+    dateLabel: "Monday, April 14, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 24m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/e2da4law05" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-04-14-manassas-city-council-4-14-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-04-14-manassas-city-council-4-14-2025.txt", "pdfNote": "21 pages"},
+    shareContext: "Manassas City Council, Apr 14, 2025",
+    moments: [
+      { seconds: 0, label: "Pledge of Allegiance." },
+      { seconds: 2938, label: "Public comment / public hearing begins." },
+      { seconds: 5089, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-C2x8BGYc6Ls",
+    meetingId: "mcps-C2x8BGYc6Ls",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - April 8, 2025",
+    dateLabel: "Tuesday, April 8, 2025",
+    whenWhere: "Manassas City School Board meeting · video 3h 18m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=C2x8BGYc6Ls" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-04-08-manassas-city-school-board-meeting-april-8-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-04-08-manassas-city-school-board-meeting-april-8-2025.txt", "pdfNote": "47 pages"},
+    shareContext: "Manassas School Board, Apr 8, 2025",
+    moments: [
+      { seconds: 2972, label: "Early agenda business." },
+      { seconds: 6939, label: "Consent agenda motion." },
+      { seconds: 11900, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-wwvfnqkvrz",
+    meetingId: "mcc-wwvfnqkvrz",
+    venue: "manassas-council",
+    title: "Manassas City Council 4/7/2025",
+    dateLabel: "Monday, April 7, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 12m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/wwvfnqkvrz" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-04-07-manassas-city-council-4-7-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-04-07-manassas-city-council-4-7-2025.txt", "pdfNote": "17 pages"},
+    shareContext: "Manassas City Council, Apr 7, 2025",
+    moments: [
+      { seconds: 1079, label: "Early agenda business." },
+      { seconds: 2189, label: "Mid-meeting discussion." },
+      { seconds: 4354, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-crcsl2pain",
+    meetingId: "mcc-crcsl2pain",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/31/2025",
+    dateLabel: "Monday, March 31, 2025",
+    whenWhere: "Manassas City Council meeting · video 0h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/crcsl2pain" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-31-manassas-city-council-3-31-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-31-manassas-city-council-3-31-2025.txt", "pdfNote": "13 pages"},
+    shareContext: "Manassas City Council, Mar 31, 2025",
+    moments: [
+      { seconds: 843, label: "Early agenda business." },
+      { seconds: 1692, label: "Mid-meeting discussion." },
+      { seconds: 3353, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-ca7affeomt",
+    meetingId: "mcc-ca7affeomt",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/26/2025",
+    dateLabel: "Wednesday, March 26, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 25m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/ca7affeomt" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-26-manassas-city-council-3-26-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-26-manassas-city-council-3-26-2025.txt", "pdfNote": "22 pages"},
+    shareContext: "Manassas City Council, Mar 26, 2025",
+    moments: [
+      { seconds: 41, label: "Meeting called to order." },
+      { seconds: 1291, label: "Early agenda business." },
+      { seconds: 2554, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "mcps-nNEUOyx75B0",
+    meetingId: "mcps-nNEUOyx75B0",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting, March 25, 2025",
+    dateLabel: "Tuesday, March 25, 2025",
+    whenWhere: "Manassas City School Board meeting · video 1h 44m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=nNEUOyx75B0" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-03-25-manassas-city-school-board-meeting-march-25-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-03-25-manassas-city-school-board-meeting-march-25-2025.txt", "pdfNote": "25 pages"},
+    shareContext: "Manassas School Board, Mar 25, 2025",
+    moments: [
+      { seconds: 4, label: "Meeting called to order." },
+      { seconds: 1575, label: "Early agenda business." },
+      { seconds: 2415, label: "Consent agenda motion." },
+    ],
+  },
+  {
+    slug: "mcc-ixc28w1drp",
+    meetingId: "mcc-ixc28w1drp",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/24/2025",
+    dateLabel: "Monday, March 24, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 54m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/ixc28w1drp" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-24-manassas-city-council-3-24-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-24-manassas-city-council-3-24-2025.txt", "pdfNote": "45 pages"},
+    shareContext: "Manassas City Council, Mar 24, 2025",
+    moments: [
+      { seconds: 55, label: "Pledge of Allegiance." },
+      { seconds: 2612, label: "Early agenda business." },
+      { seconds: 5243, label: "Mid-meeting discussion." },
+    ],
+  },
+  {
+    slug: "mcc-5ph53rxsls",
+    meetingId: "mcc-5ph53rxsls",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/19/2025",
+    dateLabel: "Wednesday, March 19, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 37m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/5ph53rxsls" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-19-manassas-city-council-3-19-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-19-manassas-city-council-3-19-2025.txt", "pdfNote": "26 pages"},
+    shareContext: "Manassas City Council, Mar 19, 2025",
+    moments: [
+      { seconds: 1460, label: "Early agenda business." },
+      { seconds: 2924, label: "Mid-meeting discussion." },
+      { seconds: 4380, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-af0mbo8fiu",
+    meetingId: "mcc-af0mbo8fiu",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/17/2025",
+    dateLabel: "Monday, March 17, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 59m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/af0mbo8fiu" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-17-manassas-city-council-3-17-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-17-manassas-city-council-3-17-2025.txt", "pdfNote": "30 pages"},
+    shareContext: "Manassas City Council, Mar 17, 2025",
+    moments: [
+      { seconds: 1785, label: "Early agenda business." },
+      { seconds: 3576, label: "Mid-meeting discussion." },
+      { seconds: 7140, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-9vgbhfimbl",
+    meetingId: "mcc-9vgbhfimbl",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/12/2025",
+    dateLabel: "Wednesday, March 12, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 10m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/9vgbhfimbl" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-12-manassas-city-council-3-12-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-12-manassas-city-council-3-12-2025.txt", "pdfNote": "16 pages"},
+    shareContext: "Manassas City Council, Mar 12, 2025",
+    moments: [
+      { seconds: 1064, label: "Early agenda business." },
+      { seconds: 2105, label: "Mid-meeting discussion." },
+      { seconds: 4175, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-YAblPmHhhbk",
+    meetingId: "mcps-YAblPmHhhbk",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - March 11, 2025",
+    dateLabel: "Tuesday, March 11, 2025",
+    whenWhere: "Manassas City School Board meeting · video 1h 44m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=YAblPmHhhbk" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-03-11-manassas-city-school-board-meeting-march-11-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-03-11-manassas-city-school-board-meeting-march-11-2025.txt", "pdfNote": "25 pages"},
+    shareContext: "Manassas School Board, Mar 11, 2025",
+    moments: [
+      { seconds: 6, label: "Meeting called to order." },
+      { seconds: 185, label: "Motion to enter closed session." },
+      { seconds: 2350, label: "Consent agenda motion." },
+      { seconds: 6214, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-w370ehm4hc",
+    meetingId: "mcc-w370ehm4hc",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/10/2025",
+    dateLabel: "Monday, March 10, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 12m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/w370ehm4hc" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-10-manassas-city-council-3-10-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-10-manassas-city-council-3-10-2025.txt", "pdfNote": "27 pages"},
+    shareContext: "Manassas City Council, Mar 10, 2025",
+    moments: [
+      { seconds: 746, label: "Pledge of Allegiance." },
+      { seconds: 3056, label: "Public comment / public hearing begins." },
+      { seconds: 7935, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-ab1mkdkbci",
+    meetingId: "mcc-ab1mkdkbci",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/5/2025",
+    dateLabel: "Wednesday, March 5, 2025",
+    whenWhere: "Manassas City Council meeting · video 0h 44m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/ab1mkdkbci" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-05-manassas-city-council-3-5-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-05-manassas-city-council-3-5-2025.txt", "pdfNote": "10 pages"},
+    shareContext: "Manassas City Council, Mar 5, 2025",
+    moments: [
+      { seconds: 659, label: "Early agenda business." },
+      { seconds: 1323, label: "Mid-meeting discussion." },
+      { seconds: 2636, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-i7zwzxa9lw",
+    meetingId: "mcc-i7zwzxa9lw",
+    venue: "manassas-council",
+    title: "Manassas City Council 3/3/2025",
+    dateLabel: "Monday, March 3, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 18m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/i7zwzxa9lw" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-03-manassas-city-council-3-3-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-03-03-manassas-city-council-3-3-2025.txt", "pdfNote": "20 pages"},
+    shareContext: "Manassas City Council, Mar 3, 2025",
+    moments: [
+      { seconds: 1171, label: "Early agenda business." },
+      { seconds: 2350, label: "Mid-meeting discussion." },
+      { seconds: 3538, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-o9kj5axxcj",
+    meetingId: "mcc-o9kj5axxcj",
+    venue: "manassas-council",
+    title: "Manassas City Council 2/26/2025",
+    dateLabel: "Wednesday, February 26, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 38m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/o9kj5axxcj" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-02-26-manassas-city-council-2-26-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-02-26-manassas-city-council-2-26-2025.txt", "pdfNote": "22 pages"},
+    shareContext: "Manassas City Council, Feb 26, 2025",
+    moments: [
+      { seconds: 1458, label: "Early agenda business." },
+      { seconds: 2920, label: "Mid-meeting discussion." },
+      { seconds: 5812, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-4Xz-UDhdRlU",
+    meetingId: "mcps-4Xz-UDhdRlU",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - February 25, 2025",
+    dateLabel: "Tuesday, February 25, 2025",
+    whenWhere: "Manassas City School Board meeting · video 3h 41m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=4Xz-UDhdRlU" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-02-25-manassas-city-school-board-meeting-february-25-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-02-25-manassas-city-school-board-meeting-february-25-2025.txt", "pdfNote": "55 pages"},
+    shareContext: "Manassas School Board, Feb 25, 2025",
+    moments: [
+      { seconds: 29, label: "Pledge of Allegiance." },
+      { seconds: 3726, label: "Consent agenda motion." },
+      { seconds: 13087, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-6z0l73u19p",
+    meetingId: "mcc-6z0l73u19p",
+    venue: "manassas-council",
+    title: "Manassas City Council 2/24/2025",
+    dateLabel: "Monday, February 24, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 55m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/6z0l73u19p" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-02-24-manassas-city-council-2-24-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-02-24-manassas-city-council-2-24-2025.txt", "pdfNote": "42 pages"},
+    shareContext: "Manassas City Council, Feb 24, 2025",
+    moments: [
+      { seconds: 8142, label: "Consent agenda motion." },
+      { seconds: 10310, label: "Motion to enter closed session." },
+      { seconds: 10483, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-g1545k21wt",
+    meetingId: "mcc-g1545k21wt",
+    venue: "manassas-council",
+    title: "Manassas City Council 2/18/2025",
+    dateLabel: "Tuesday, February 18, 2025",
+    whenWhere: "Manassas City Council meeting · video 1h 27m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/g1545k21wt" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-02-18-manassas-city-council-2-18-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-02-18-manassas-city-council-2-18-2025.txt", "pdfNote": "22 pages"},
+    shareContext: "Manassas City Council, Feb 18, 2025",
+    moments: [
+      { seconds: 1302, label: "Early agenda business." },
+      { seconds: 2615, label: "Mid-meeting discussion." },
+      { seconds: 5210, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-swy6mhw07g",
+    meetingId: "mcc-swy6mhw07g",
+    venue: "manassas-council",
+    title: "Manassas City Council 2/10/2025",
+    dateLabel: "Monday, February 10, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 56m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/swy6mhw07g" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-02-10-manassas-city-council-2-10-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-02-10-manassas-city-council-2-10-2025.txt", "pdfNote": "42 pages"},
+    shareContext: "Manassas City Council, Feb 10, 2025",
+    moments: [
+      { seconds: 2644, label: "Early agenda business." },
+      { seconds: 5325, label: "Mid-meeting discussion." },
+      { seconds: 10558, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcps-L5V91hTX7xE",
+    meetingId: "mcps-L5V91hTX7xE",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - January 28, 2025",
+    dateLabel: "Tuesday, January 28, 2025",
+    whenWhere: "Manassas City School Board meeting · video 1h 30m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=L5V91hTX7xE" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-01-28-manassas-city-school-board-meeting-january-28-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-01-28-manassas-city-school-board-meeting-january-28-2025.txt", "pdfNote": "23 pages"},
+    shareContext: "Manassas School Board, Jan 28, 2025",
+    moments: [
+      { seconds: 732, label: "Consent agenda motion." },
+      { seconds: 1362, label: "Early agenda business." },
+      { seconds: 5427, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-kdl1cd9eic",
+    meetingId: "mcc-kdl1cd9eic",
+    venue: "manassas-council",
+    title: "Manassas City Council 1/27/2025",
+    dateLabel: "Monday, January 27, 2025",
+    whenWhere: "Manassas City Council meeting · video 2h 55m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/kdl1cd9eic" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-27-manassas-city-council-1-27-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-27-manassas-city-council-1-27-2025.txt", "pdfNote": "42 pages"},
+    shareContext: "Manassas City Council, Jan 27, 2025",
+    moments: [
+      { seconds: 0, label: "Pledge of Allegiance." },
+      { seconds: 2620, label: "Early agenda business." },
+      { seconds: 10505, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-isvqgonen3",
+    meetingId: "mcc-isvqgonen3",
+    venue: "manassas-council",
+    title: "Manassas City Council Retreat 1/25/2025",
+    dateLabel: "Saturday, January 25, 2025",
+    whenWhere: "Manassas City Council meeting · video 3h 42m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/isvqgonen3" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-25-manassas-city-council-retreat-1-25-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-25-manassas-city-council-retreat-1-25-2025.txt", "pdfNote": "50 pages"},
+    shareContext: "Manassas City Council, Jan 25, 2025",
+    moments: [
+      { seconds: 3332, label: "Early agenda business." },
+      { seconds: 6667, label: "Mid-meeting discussion." },
+      { seconds: 9994, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-y1eepofq2b",
+    meetingId: "mcc-y1eepofq2b",
+    venue: "manassas-council",
+    title: "Manassas City Council Retreat 1/24/2025",
+    dateLabel: "Friday, January 24, 2025",
+    whenWhere: "Manassas City Council meeting · video 4h 46m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/y1eepofq2b" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-24-manassas-city-council-retreat-1-24-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-24-manassas-city-council-retreat-1-24-2025.txt", "pdfNote": "62 pages"},
+    shareContext: "Manassas City Council, Jan 24, 2025",
+    moments: [
+      { seconds: 4281, label: "Early agenda business." },
+      { seconds: 8601, label: "Mid-meeting discussion." },
+      { seconds: 12889, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcc-rcrc0lcqjo",
+    meetingId: "mcc-rcrc0lcqjo",
+    venue: "manassas-council",
+    title: "Manassas City Council Retreat 1/23/2025",
+    dateLabel: "Thursday, January 23, 2025",
+    whenWhere: "Manassas City Council meeting · video 4h 5m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/rcrc0lcqjo" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-23-manassas-city-council-retreat-1-23-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-23-manassas-city-council-retreat-1-23-2025.txt", "pdfNote": "54 pages"},
+    shareContext: "Manassas City Council, Jan 23, 2025",
+    moments: [
+      { seconds: 3672, label: "Early agenda business." },
+      { seconds: 7368, label: "Mid-meeting discussion." },
+      { seconds: 11049, label: "Later agenda business." },
+    ],
+  },
+  {
+    slug: "mcps-D_bbnDe_J9M",
+    meetingId: "mcps-D_bbnDe_J9M",
+    venue: "manassas-schools",
+    title: "Manassas City School Board Meeting - January 15, 2025",
+    dateLabel: "Wednesday, January 15, 2025",
+    whenWhere: "Manassas City School Board meeting · video 0h 36m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in BoardDocs minutes for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (YouTube)", href: "https://www.youtube.com/watch?v=D_bbnDe_J9M" },
+        { label: "Agendas, minutes & votes (BoardDocs)", href: "https://go.boarddocs.com/va/mcpsva/Board.nsf/Public" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-01-15-manassas-city-school-board-meeting-january-15-2025.pdf", "txtUrl": "/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-01-15-manassas-city-school-board-meeting-january-15-2025.txt", "pdfNote": "10 pages"},
+    shareContext: "Manassas School Board, Jan 15, 2025",
+    moments: [
+      { seconds: 551, label: "Early agenda business." },
+      { seconds: 714, label: "Consent agenda motion." },
+      { seconds: 2184, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-zusvxcpwis",
+    meetingId: "mcc-zusvxcpwis",
+    venue: "manassas-council",
+    title: "Manassas City Council 1/13/2025",
+    dateLabel: "Monday, January 13, 2025",
+    whenWhere: "Manassas City Council meeting · video 3h 3m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/zusvxcpwis" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-13-manassas-city-council-1-13-2025-zusvxcpwis.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-13-manassas-city-council-1-13-2025-zusvxcpwis.txt", "pdfNote": "43 pages"},
+    shareContext: "Manassas City Council, Jan 13, 2025",
+    moments: [
+      { seconds: 26, label: "Pledge of Allegiance." },
+      { seconds: 8456, label: "Consent agenda motion." },
+      { seconds: 10978, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "mcc-kmd5cfx44w",
+    meetingId: "mcc-kmd5cfx44w",
+    venue: "manassas-council",
+    title: "Manassas City Council 1/13/2025",
+    dateLabel: "Monday, January 13, 2025",
+    whenWhere: "Manassas City Council meeting · video 0h 27m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Oct 17, 2026, 8:00 AM ET",
+      note: "Official vote record not yet posted or located in adopted City Council minutes on the city’s Granicus agenda portal for this meeting. Votes will be added only from the official record.",
+      links: [
+        { label: "Meeting video (Wistia / RegionalWebTV)", href: "https://fast.wistia.net/embed/iframe/kmd5cfx44w" },
+        { label: "Agendas & minutes (Granicus)", href: "https://manassascity.granicus.com/ViewPublisher.php?view_id=1" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-13-manassas-city-council-1-13-2025-kmd5cfx44w.pdf", "txtUrl": "/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2025-01-13-manassas-city-council-1-13-2025-kmd5cfx44w.txt", "pdfNote": "7 pages"},
+    shareContext: "Manassas City Council, Jan 13, 2025",
+    moments: [
+      { seconds: 86, label: "Pledge of Allegiance." },
+      { seconds: 451, label: "Early agenda business." },
+      { seconds: 1666, label: "Adjournment." },
+    ],
+  },
+  {
     slug: "mcc-h5ha9dqnn1",
     meetingId: "mcc-h5ha9dqnn1",
     venue: "manassas-council",
@@ -4992,10 +8131,11 @@ const CITY_RECAPS_RAW: CityRecap[] = [
     whenWhere: "City of Fairfax School Board meeting · video 3h 0m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 12, 2026, 8:00 AM ET",
-      note: "Official vote record not yet posted or linked on the city’s Granicus archive for this meeting. Votes will be added only from the adopted minutes.",
+      checkedLabel: "Oct 19, 2026, 4:44 PM ET",
+      note: "Official minutes are linked below. Vote tallies will be entered only from those minutes (not yet transcribed into this recap). Until then votesPosted stays false.",
       links: [
         { label: "Agenda (Granicus)", href: "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4669" },
+        { label: "Minutes (Granicus)", href: "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4669&doc_id=f9261536-c718-11f1-89ef-005056a84798" },
         { label: "Meeting video (Granicus)", href: "https://fairfax.granicus.com/MediaPlayer.php?view_id=13&clip_id=4669" },
       ],
     },

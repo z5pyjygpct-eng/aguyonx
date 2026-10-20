@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/manassas-schools/transcripts/mcps-Y99XMWUD6lo.json",
+  "outBase": "public/files/find-the-moment/manassas-schools/transcripts/coraggio-transcript-manassas-schools-2025-07-08-manassas-city-school-board-meeting-july-8-2025",
+  "title": "Manassas City School Board Meeting - July 8, 2025",
+  "shortTitle": "School Board Meeting \u00b7 Jul 8, 2025",
+  "date": "Tuesday, July 8, 2025",
+  "place": "Manassas City Public Schools / School Board meeting, Virginia",
+  "length": "1h 36m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=Y99XMWUD6lo"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-17"
+}

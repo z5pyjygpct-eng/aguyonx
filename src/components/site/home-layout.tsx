@@ -83,6 +83,14 @@ export function HomeLayout({ children }: { children?: ReactNode }) {
         <p className="mx-auto mt-3 max-w-2xl font-sans text-sm tracking-wide text-white/90 sm:text-base">
           Find what was said, voted, and filed — then jump to the source.
         </p>
+        <div className="pointer-events-none mt-5 flex select-none justify-center sm:mt-6">
+          <div
+            role="note"
+            className="-rotate-3 whitespace-nowrap rounded-[2rem] border-4 border-dashed border-[#f3f0e7] bg-[#b3261e] px-4 py-2.5 font-serif text-[11px] font-bold uppercase tracking-wide text-[#f3f0e7] shadow-[0_10px_25px_rgba(0,0,0,0.45)] ring-4 ring-[#b3261e] min-[420px]:text-sm sm:px-8 sm:py-4 sm:text-2xl lg:text-3xl"
+          >
+            New and Improved Website Coming Real Soon!
+          </div>
+        </div>
       </header>
 
       {/* Mobile office doors */}

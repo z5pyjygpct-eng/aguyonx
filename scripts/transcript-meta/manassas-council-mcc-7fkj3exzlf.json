@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/manassas-council/transcripts/mcc-7fkj3exzlf.json",
+  "outBase": "public/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-03-25-manassas-city-council-school-board-worksession-3-25-2026",
+  "title": "Manassas City Council/ School Board Worksession 3/25/2026",
+  "shortTitle": "Council/ School Board Worksession 3/25/2026 \u00b7 Mar 25, 2026",
+  "date": "Wednesday, March 25, 2026",
+  "place": "Manassas City Council, Virginia",
+  "length": "0h 54m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Wistia / RegionalWebTV)",
+      "href": "https://fast.wistia.net/embed/iframe/7fkj3exzlf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-17"
+}

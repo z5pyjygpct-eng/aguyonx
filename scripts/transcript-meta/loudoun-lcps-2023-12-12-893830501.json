@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2023-12-12-893830501.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2023-12-12-4th-tuesday-school-board-meeting-to-include-fy2030-cip-capp-public-hearing",
+  "title": "Loudoun County School Board, 4th Tuesday School Board Meeting to include FY2030 CIP & CAPP Public Hearing, Tuesday, December 12, 2023",
+  "shortTitle": "4th Tuesday School Board Meeting to include FY2030 CIP & CAPP Public Hearing \u00b7 Dec 12, 2023",
+  "date": "Tuesday, December 12, 2023",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "5h 26m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/893830501?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-19"
+}

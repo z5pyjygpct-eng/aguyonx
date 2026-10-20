@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/manassas-council/transcripts/mcc-m6iax1ridr.json",
+  "outBase": "public/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-01-23-manassas-city-council-1-23-2026-retreat",
+  "title": "Manassas City Council 1/23/2026 Retreat, Friday, January 23, 2026",
+  "shortTitle": "Council 1/23/2026 Retreat \u00b7 Jan 23, 2026",
+  "date": "Friday, January 23, 2026",
+  "place": "Manassas City Council, Virginia",
+  "length": "6h 6m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Wistia / RegionalWebTV)",
+      "href": "https://fast.wistia.net/embed/iframe/m6iax1ridr"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-17"
+}

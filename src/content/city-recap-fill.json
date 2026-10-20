@@ -126,6 +126,28 @@
  },
  "fxc-2026-10-05-school-board-regular-meeting": {
   "generatedFrom": "official Granicus agenda/minutes + video index; transcript for timing only",
+  "decisions": [
+   {
+    "item": "1.04",
+    "action": "Ms. Hickman moved, and Ms. Kelsey seconded the adoption of the agenda as written and distributed. The motion passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4669&doc_id=f9261536-c718-11f1-89ef-005056a84798"
+    }
+   },
+   {
+    "item": "4.01",
+    "action": "Ms. Bartelme moved that the City of Fairfax School Board approve the minutes of the September 14, 2026, regular School Board meeting as printed and distributed. The motion to approve the minutes of the September 14, 2026, regular School Board meeting passed unanimously.",
+    "tally": "Unanimous",
+    "source": {
+     "label": "Official minutes (Granicus)",
+     "href": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4669&doc_id=f9261536-c718-11f1-89ef-005056a84798"
+    }
+   }
+  ],
+  "minutesKind": "pdf",
+  "noVotesRecorded": false,
   "agenda": [
    {
     "heading": "1. MEETING OPENING",

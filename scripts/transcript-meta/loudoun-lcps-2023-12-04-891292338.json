@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2023-12-04-891292338.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2023-12-04-public-hearings-and-work-session-elementary-school-attendance-zone-and-fy-2025-fy-2030-cip-capp",
+  "title": "Loudoun County School Board, Public Hearings and Work Session: Elementary School Attendance Zone and FY 2025-FY 2030 CIP & CAPP, Monday, December 4, 2023",
+  "shortTitle": "Public Hearings and Work Session: Elementary School Attendance Zone and FY 2025-FY 2030 CIP & CAPP \u00b7 Dec 4, 2023",
+  "date": "Monday, December 4, 2023",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "40m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/891292338?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-19"
+}

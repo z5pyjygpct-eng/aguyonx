@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-senate-floor/transcripts/vas-0jOFTqROTiw.json",
+  "outBase": "public/files/find-the-moment/va-senate-floor/transcripts/coraggio-transcript-va-senate-floor-2026-01-17-senate-of-virginia-floor-session",
+  "title": "Senate of Virginia Floor Session, Saturday, January 17, 2026",
+  "shortTitle": "Senate Floor Session \u00b7 Jan 17, 2026",
+  "date": "Saturday, January 17, 2026",
+  "place": "Senate of Virginia, Senate Chamber, State Capitol, Richmond",
+  "length": "1h 39m (video)",
+  "links": [
+    {
+      "label": "Official floor video (Senate of Virginia, YouTube)",
+      "href": "https://www.youtube.com/watch?v=0jOFTqROTiw"
+    },
+    {
+      "label": "LIS Senate minutes",
+      "href": "https://lis.virginia.gov/session-details/20261/minutes-list/S"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-18"
+}

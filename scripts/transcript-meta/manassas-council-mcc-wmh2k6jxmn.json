@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/manassas-council/transcripts/mcc-wmh2k6jxmn.json",
+  "outBase": "public/files/find-the-moment/manassas-council/transcripts/coraggio-transcript-manassas-council-2026-04-08-manassas-city-council-worksession-4-8-2026",
+  "title": "Manassas City Council Worksession 4/8/2026",
+  "shortTitle": "Council Worksession 4/8/2026 \u00b7 Apr 8, 2026",
+  "date": "Wednesday, April 8, 2026",
+  "place": "Manassas City Council, Virginia",
+  "length": "0h 51m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Wistia / RegionalWebTV)",
+      "href": "https://fast.wistia.net/embed/iframe/wmh2k6jxmn"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-17"
+}

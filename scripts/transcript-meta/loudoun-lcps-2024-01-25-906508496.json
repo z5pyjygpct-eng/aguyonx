@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2024-01-25-906508496.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2024-01-25-fy25-operating-budget-work-session-staffing-standards-compensation-central-office-and-others",
+  "title": "Loudoun County School Board, FY25 Operating Budget Work Session* (Staffing Standards; Compensation; Central Office; and Others), Thursday, January 25, 2024",
+  "shortTitle": "FY25 Operating Budget Work Session* (Staffing Standards; Compensation; Central Office; and Others) \u00b7 Jan 25, 2024",
+  "date": "Thursday, January 25, 2024",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "2h 50m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/906508496?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-19"
+}
