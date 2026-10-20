@@ -44,7 +44,10 @@ import { Route as InvestigationsSlugRouteImport } from './routes/investigations.
 import { Route as LibraryIndexRouteImport } from './routes/library.index'
 import { Route as LibraryFoiaRouteImport } from './routes/library.foia'
 import { Route as MockupsSlugRouteImport } from './routes/mockups.$slug'
+import { Route as MockupsMeetingsRouteImport } from './routes/mockups.meetings'
+import { Route as MockupsSearchRouteImport } from './routes/mockups.search'
 import { Route as MockupsTipsRouteImport } from './routes/mockups.tips'
+import { Route as MockupsVoterGuideRouteImport } from './routes/mockups.voter-guide'
 import { Route as CitiesCityIndexRouteImport } from './routes/cities.$city.index'
 import { Route as CitiesCityFindTheMomentRouteImport } from './routes/cities.$city.find-the-moment'
 import { Route as CitiesCitySchoolsRouteImport } from './routes/cities.$city.schools'
@@ -287,9 +290,24 @@ const MockupsSlugRoute = MockupsSlugRouteImport.update({
   path: '/mockups/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const MockupsMeetingsRoute = MockupsMeetingsRouteImport.update({
+  id: '/mockups/meetings',
+  path: '/mockups/meetings',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MockupsSearchRoute = MockupsSearchRouteImport.update({
+  id: '/mockups/search',
+  path: '/mockups/search',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MockupsTipsRoute = MockupsTipsRouteImport.update({
   id: '/mockups/tips',
   path: '/mockups/tips',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MockupsVoterGuideRoute = MockupsVoterGuideRouteImport.update({
+  id: '/mockups/voter-guide',
+  path: '/mockups/voter-guide',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CitiesCityIndexRoute = CitiesCityIndexRouteImport.update({
@@ -700,7 +718,10 @@ export interface FileRoutesByFullPath {
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/mockups/$slug': typeof MockupsSlugRoute
+  '/mockups/meetings': typeof MockupsMeetingsRoute
+  '/mockups/search': typeof MockupsSearchRoute
   '/mockups/tips': typeof MockupsTipsRoute
+  '/mockups/voter-guide': typeof MockupsVoterGuideRoute
   '/articles/': typeof ArticlesIndexRoute
   '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
@@ -793,7 +814,10 @@ export interface FileRoutesByTo {
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/mockups/$slug': typeof MockupsSlugRoute
+  '/mockups/meetings': typeof MockupsMeetingsRoute
+  '/mockups/search': typeof MockupsSearchRoute
   '/mockups/tips': typeof MockupsTipsRoute
+  '/mockups/voter-guide': typeof MockupsVoterGuideRoute
   '/articles': typeof ArticlesIndexRoute
   '/cities': typeof CitiesIndexRoute
   '/counties': typeof CountiesIndexRoute
@@ -897,7 +921,10 @@ export interface FileRoutesById {
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
   '/mockups/$slug': typeof MockupsSlugRoute
+  '/mockups/meetings': typeof MockupsMeetingsRoute
+  '/mockups/search': typeof MockupsSearchRoute
   '/mockups/tips': typeof MockupsTipsRoute
+  '/mockups/voter-guide': typeof MockupsVoterGuideRoute
   '/articles/': typeof ArticlesIndexRoute
   '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
@@ -1002,7 +1029,10 @@ export interface FileRouteTypes {
     | '/investigations/$slug'
     | '/library/foia'
     | '/mockups/$slug'
+    | '/mockups/meetings'
+    | '/mockups/search'
     | '/mockups/tips'
+    | '/mockups/voter-guide'
     | '/articles/'
     | '/cities/'
     | '/counties/'
@@ -1095,7 +1125,10 @@ export interface FileRouteTypes {
     | '/investigations/$slug'
     | '/library/foia'
     | '/mockups/$slug'
+    | '/mockups/meetings'
+    | '/mockups/search'
     | '/mockups/tips'
+    | '/mockups/voter-guide'
     | '/articles'
     | '/cities'
     | '/counties'
@@ -1198,7 +1231,10 @@ export interface FileRouteTypes {
     | '/investigations/$slug'
     | '/library/foia'
     | '/mockups/$slug'
+    | '/mockups/meetings'
+    | '/mockups/search'
     | '/mockups/tips'
+    | '/mockups/voter-guide'
     | '/articles/'
     | '/cities/'
     | '/counties/'
@@ -1295,7 +1331,10 @@ export interface RootRouteChildren {
   DashboardsGeneralAssemblyRoute: typeof DashboardsGeneralAssemblyRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
   MockupsSlugRoute: typeof MockupsSlugRoute
+  MockupsMeetingsRoute: typeof MockupsMeetingsRoute
+  MockupsSearchRoute: typeof MockupsSearchRoute
   MockupsTipsRoute: typeof MockupsTipsRoute
+  MockupsVoterGuideRoute: typeof MockupsVoterGuideRoute
   DashboardsBoardOfEducationBudgetRoute: typeof DashboardsBoardOfEducationBudgetRoute
   DashboardsBoardOfEducationFindTheMomentRoute: typeof DashboardsBoardOfEducationFindTheMomentRoute
   DashboardsBoardOfEducationMembersRoute: typeof DashboardsBoardOfEducationMembersRoute
@@ -1598,11 +1637,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MockupsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/mockups/meetings': {
+      id: '/mockups/meetings'
+      path: '/mockups/meetings'
+      fullPath: '/mockups/meetings'
+      preLoaderRoute: typeof MockupsMeetingsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mockups/search': {
+      id: '/mockups/search'
+      path: '/mockups/search'
+      fullPath: '/mockups/search'
+      preLoaderRoute: typeof MockupsSearchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/mockups/tips': {
       id: '/mockups/tips'
       path: '/mockups/tips'
       fullPath: '/mockups/tips'
       preLoaderRoute: typeof MockupsTipsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mockups/voter-guide': {
+      id: '/mockups/voter-guide'
+      path: '/mockups/voter-guide'
+      fullPath: '/mockups/voter-guide'
+      preLoaderRoute: typeof MockupsVoterGuideRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/cities/$city/': {
@@ -2234,7 +2294,10 @@ const rootRouteChildren: RootRouteChildren = {
   DashboardsGeneralAssemblyRoute: DashboardsGeneralAssemblyRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
   MockupsSlugRoute: MockupsSlugRoute,
+  MockupsMeetingsRoute: MockupsMeetingsRoute,
+  MockupsSearchRoute: MockupsSearchRoute,
   MockupsTipsRoute: MockupsTipsRoute,
+  MockupsVoterGuideRoute: MockupsVoterGuideRoute,
   DashboardsBoardOfEducationBudgetRoute: DashboardsBoardOfEducationBudgetRoute,
   DashboardsBoardOfEducationFindTheMomentRoute:
     DashboardsBoardOfEducationFindTheMomentRoute,
