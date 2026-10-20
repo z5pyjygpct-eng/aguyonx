@@ -21,15 +21,6 @@ function Home() {
   return (
     <div className="flex min-h-svh flex-col bg-background text-foreground">
       <HomeLayout>
-        <div className="pointer-events-none select-none flex justify-center px-4 pt-6 pb-2">
-          <div
-            role="note"
-            className="-rotate-3 rounded-[2rem] border-4 border-dashed border-[#f3f0e7] bg-[#b3261e] px-6 py-4 text-center font-serif text-xl font-bold uppercase leading-tight tracking-wide text-[#f3f0e7] shadow-[0_10px_25px_rgba(0,0,0,0.35)] ring-4 ring-[#b3261e] sm:px-10 sm:py-6 sm:text-3xl md:text-4xl"
-          >
-            <span className="mr-2">★</span>New and Improved Website Coming Real Soon!<span className="ml-2">★</span>
-          </div>
-        </div>
-
         <HomeSearch />
 
         <section className="border-b border-border">
