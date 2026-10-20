@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2023-01-12-788798254.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2023-01-12-fy24-operating-budget-work-session-staffing-standards-supplemental-salary-healthcare-and-others",
+  "title": "Loudoun County School Board, FY24 Operating Budget Work Session* (Staffing Standards; Supplemental Salary/Healthcare; and Others), Thursday, January 12, 2023",
+  "shortTitle": "FY24 Operating Budget Work Session* (Staffing Standards; Supplemental Salary/Healthcare; and Others) \u00b7 Jan 12, 2023",
+  "date": "Thursday, January 12, 2023",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "1h 40m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/788798254?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-20"
+}

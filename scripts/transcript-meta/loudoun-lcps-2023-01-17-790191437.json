@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2023-01-17-790191437.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2023-01-17-fy24-operating-budget-work-session-department-of-instruction-and-department-of-digital-innovation",
+  "title": "Loudoun County School Board, FY24 Operating Budget Work Session* (Department of Instruction and Department of Digital Innovation), Tuesday, January 17, 2023",
+  "shortTitle": "FY24 Operating Budget Work Session* (Department of Instruction and Department of Digital Innovation) \u00b7 Jan 17, 2023",
+  "date": "Tuesday, January 17, 2023",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "1h 29m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/790191437?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-20"
+}

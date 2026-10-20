@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/7821.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2024-11-21-transportation-and-land-use-committee-western-loudoun-rural-uses-and-standards-cpam-zoam",
+  "title": "Loudoun County Board of Supervisors, Transportation and Land Use Committee-Western Loudoun Rural Uses and Standards CPAM/ZOAM, Thursday, November 21, 2024",
+  "shortTitle": "Transportation and Land Use Committee-Western Loudoun Rural Uses and Standards CPAM/ZOAM \u00b7 Nov 21, 2024",
+  "date": "Thursday, November 21, 2024",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "4h 12m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/7821"
+    },
+    {
+      "label": "Agenda (Granicus)",
+      "href": "https://loudoun.granicus.com/AgendaViewer.php?view_id=73&clip_id=7821"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-20"
+}

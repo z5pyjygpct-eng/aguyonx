@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2023-05-23-829537129.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2023-05-23-4th-tuesday-school-board-meeting-and-public-hearing",
+  "title": "Loudoun County School Board, 4th Tuesday School Board Meeting and Public Hearing, Tuesday, May 23, 2023",
+  "shortTitle": "4th Tuesday School Board Meeting and Public Hearing \u00b7 May 23, 2023",
+  "date": "Tuesday, May 23, 2023",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "4h 26m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/829537129?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-20"
+}
