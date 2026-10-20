@@ -50,6 +50,19 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "special-session-court-of-appeals-called-off-vamercury-2026-10-19",
+    date: "2026-10-19",
+    filed: "2026-10-20",
+    headline: "General Assembly calls off Oct. 26 special session to elect judges",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/19/general-assembly-calls-off-oct-26-special-session-to-elect-judges/",
+    people: [
+      { name: "Scott Surovell", office: "State Senator" },
+      { name: "Glen Sturtevant", office: "State Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
     id: "deputy-involved-shooting-purcellville-loudounnow-2026-10-19",
     date: "2026-10-19",
     filed: "2026-10-20",
