@@ -50,6 +50,29 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "arlington-board-sues-armed-agents-polling-places-arlingtonva-2026-10-20",
+    date: "2026-10-20",
+    filed: "2026-10-21",
+    headline: "County Board Sues to Block Armed Federal Agents from Polling Places",
+    outlet: "Arlington County",
+    url: "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/Arlington-County-Board-Sues-Trump-Vance-Administration-to-Block-Armed-Federal-Agents-from-Polling-Places",
+    people: [{ name: "Matt de Ferranti", office: "Arlington official" }],
+    scope: "local",
+  },
+  {
+    id: "fairfax-sanctuary-judiciary-report-2026-10-20",
+    date: "2026-10-20",
+    filed: "2026-10-21",
+    headline: "New Report: The Dangers of Fairfax County's Radical Sanctuary City Policies",
+    outlet: "U.S. House Judiciary Committee",
+    url: "https://judiciary.house.gov/media/press-releases/new-report-dangers-fairfax-countys-radical-sanctuary-city-policies",
+    people: [
+      { name: "Steve Descano", office: "Fairfax Commonwealth's Attorney" },
+      { name: "Stacey Kincaid", office: "Fairfax Sheriff" },
+    ],
+    scope: "local",
+  },
+  {
     id: "child-care-affordability-gap-locke-sewell-vamercury-2026-10-20",
     date: "2026-10-20",
     headline: "Closing Virginia’s child care affordability gap could cost up to $4.5B a year",
