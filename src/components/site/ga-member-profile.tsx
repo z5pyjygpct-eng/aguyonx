@@ -3,6 +3,7 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, ExternalLink, Play } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
+import { GA_MEMBER_CONTACT } from "@/content/ga-member-contact";
 
 export type GaBill = { session: string; bill: string; title: string; outcome: "signed" | "vetoed" | "passed" | "failed" | "tabled"; status: string; statusDate: string; subjects: string[]; href: string };
 export type GaCounts = { total: number; passed: number; signed: number; vetoed: number; passedNoGovAction: number; failed: number; tabled: number };
@@ -51,6 +52,25 @@ function Soon({ text }: { text?: string }) {
     <div className="flex items-center justify-between gap-3 rounded-lg border border-dashed border-navy-line bg-navy-800 px-4 py-3">
       <span className="text-sm text-on-dark-muted">{text ?? "No published data yet."}</span>
       <span className="shrink-0 whitespace-nowrap rounded-full bg-on-dark-muted px-3 py-1 text-xs font-bold text-navy-800">Coming soon</span>
+    </div>
+  );
+}
+function MemberContact({ lisId, chamber }: { lisId: string; chamber: "house" | "senate" }) {
+  const c = GA_MEMBER_CONTACT[lisId];
+  const nl = <span className="text-on-dark-muted">Not listed</span>;
+  return (
+    <div className="mt-6 grid gap-3 text-sm">
+      <div className="rounded-lg border border-navy-line bg-navy-800 px-4 py-3">
+        <div className="text-night-muted">First elected to the {chamber === "house" ? "House" : "Senate"}</div>
+        <div className="font-semibold">{c?.firstElected ?? nl}</div>
+      </div>
+      <div className="rounded-lg border border-navy-line bg-navy-800 px-4 py-3">
+        <div className="text-night-muted">Capitol office &amp; contact</div>
+        {c?.office ? <address className="not-italic font-semibold">{c.office.map((l) => <span key={l} className="block">{l}</span>)}</address> : <div>{nl}</div>}
+        <div className="mt-2">Phone: {c?.phone ? <a href={`tel:${c.phone.replace(/[^\d]/g, "")}`} className="font-semibold text-gold hover:underline">{c.phone}</a> : nl}</div>
+        <div className="break-all">Email: {c?.email ? <a href={`mailto:${c.email}`} className="font-semibold text-gold hover:underline">{c.email}</a> : nl}</div>
+        {c ? <div className="mt-2 text-xs text-night-muted">Source: <a href={c.source} target="_blank" rel="noreferrer" className="underline hover:text-white">LIS member page</a> (official General Assembly Building office)</div> : null}
+      </div>
     </div>
   );
 }
@@ -121,10 +141,7 @@ export function GaMemberProfile({ m, meta }: { m: GaMember; meta: GaMeta }) {
             {m.committees.length ? (
               <ul className="mt-2 flex flex-wrap gap-2">{m.committees.map((c) => <li key={c} className="rounded-full border border-navy-line bg-navy-800 px-3 py-1 text-sm">{c}</li>)}</ul>
             ) : <div className="mt-2"><Soon text="LIS lists no committee seats for this member." /></div>}
-            <div className="mt-6 grid gap-3">
-              <Soon text="First elected" />
-              <Soon text="Office & contact" />
-            </div>
+            <MemberContact lisId={m.lisId} chamber={m.chamber} />
           </Card>
           <Card title="Voting scorecard" badge="LIS 2026 floor votes">
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
