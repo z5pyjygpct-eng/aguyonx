@@ -10,6 +10,20 @@ const LABEL: Record<string, string> = { Recap: "Meeting recaps and votes", Docum
 const external = (h: string) => /^https?:/.test(h) || /\.(pdf|md|csv|txt)$/i.test(h);
 const clock = (s: number) => { const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), x = Math.floor(s % 60); return `${h ? `${h}:${String(m).padStart(2, "0")}` : m}:${String(x).padStart(2, "0")}`; };
 
+const esc = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+function hlRegex(q: string): RegExp | null {
+  const p = q.trim().replace(/\s+/g, " ");
+  const words = p.split(" ").filter((w) => w.length >= 2);
+  const parts = [...new Set([p, ...words].filter((w) => w.length >= 2))].sort((a, b) => b.length - a.length).map(esc);
+  return parts.length ? new RegExp(`(${parts.join("|")})`, "gi") : null;
+}
+/** Wrap matches of the query (phrase + each word ≥2 chars, case-insensitive) in <mark>. */
+function Hl({ text, q }: { text: string; q: string }) {
+  const re = useMemo(() => hlRegex(q), [q]);
+  if (!re || !text) return <>{text}</>;
+  return <>{text.split(re).map((part, i) => (i % 2 ? <mark key={i} className="rounded-sm bg-[#fde7a3] px-0.5 font-semibold text-navy-800">{part}</mark> : part))}</>;
+}
+
 function useShown(n: number) {
   const [shown, setShown] = useState(FIRST);
   return { shown: Math.min(shown, n), more: n > shown ? () => setShown(shown + MORE) : null };
@@ -27,8 +41,8 @@ function MeetingRow({ h, terms, q }: { h: FtmMeetingHit; terms: string[]; q: str
   return (
     <li className="px-3 py-3">
       <p className="font-mono text-[11px] tracking-widest text-muted-foreground uppercase">{h.venue.label} · {h.dateLabel}</p>
-      <p className="font-semibold">{h.title}</p>
-      {sn === undefined ? <p className="mt-0.5 text-sm text-muted-foreground">Loading snippet…</p> : sn ? <p className="mt-0.5 line-clamp-3 text-sm text-muted-foreground">“{sn.text}”</p> : null}
+      <p className="font-semibold"><Hl text={h.title} q={q} /></p>
+      {sn === undefined ? <p className="mt-0.5 text-sm text-muted-foreground">Loading snippet…</p> : sn ? <p className="mt-0.5 line-clamp-3 text-sm text-muted-foreground">“<Hl text={sn.text} q={q} />”</p> : null}
       <p className="mt-1 flex flex-wrap gap-x-4 text-sm">
         <a href={href} target={h.jumpTpl ? "_blank" : undefined} rel="noreferrer" className="font-semibold underline">{h.jumpTpl && sn ? `Jump to ${clock(sn.start)} in the video` : "Open in Find the Moment"}</a>
         <span className="text-muted-foreground">{h.windows.length} moment{h.windows.length === 1 ? "" : "s"}</span>
@@ -43,7 +57,7 @@ function Meetings({ r, q, dark }: { r: FtmResult; q: string; dark: boolean }) {
   const top = r.byVenue[0];
   return (
     <section>
-      <p className="px-3 pt-3 font-mono text-xs tracking-widest text-muted-foreground uppercase">Meetings · what was said ({r.meetings.length} meetings, {r.moments.toLocaleString()} moments)</p>
+      <h3 className="mt-2 border-t-2 border-navy-700 bg-[#eaf0f8] px-3 py-2 font-mono text-xs font-bold tracking-widest text-navy-800 uppercase">Meetings · what was said ({r.meetings.length} meetings, {r.moments.toLocaleString()} moments)</h3>
       <ul className="divide-y divide-border">{r.meetings.slice(0, shown).map((h) => <MeetingRow key={h.idx} h={h} terms={r.terms} q={q} />)}</ul>
       <MoreBtn more={more} left={r.meetings.length - shown} dark={dark} />
       <div className="px-3 pb-3 text-sm">
@@ -56,15 +70,15 @@ function Meetings({ r, q, dark }: { r: FtmResult; q: string; dark: boolean }) {
   );
 }
 
-function Group({ shelf, list, dark }: { shelf: string; list: SearchHit[]; dark: boolean }) {
+function Group({ shelf, list, dark, q }: { shelf: string; list: SearchHit[]; dark: boolean; q: string }) {
   const { shown, more } = useShown(list.length);
   return (
     <section>
-      <p className="px-3 pt-3 font-mono text-xs tracking-widest text-muted-foreground uppercase">{LABEL[shelf] ?? shelf} ({list.length})</p>
+      <h3 className="mt-2 border-t-2 border-navy-700 bg-[#eaf0f8] px-3 py-2 font-mono text-xs font-bold tracking-widest text-navy-800 uppercase">{LABEL[shelf] ?? shelf} ({list.length})</h3>
       <ul className="divide-y divide-border">{list.slice(0, shown).map((h) => (
         <li key={h.id}><a href={h.href} {...(external(h.href) ? { target: "_blank", rel: "noreferrer" } : {})} className="block px-3 py-3 hover:bg-wash">
-          <p className="font-semibold">{h.title}</p>
-          {h.snippet ? <p className="mt-0.5 line-clamp-2 text-sm text-muted-foreground">{h.snippet}</p> : null}
+          <p className="font-semibold"><Hl text={h.title} q={q} /></p>
+          {h.snippet ? <p className="mt-0.5 line-clamp-2 text-sm text-muted-foreground"><Hl text={h.snippet} q={q} /></p> : null}
         </a></li>
       ))}</ul>
       <MoreBtn more={more} left={list.length - shown} dark={dark} />
@@ -101,7 +115,7 @@ export function SiteSearchResults({ query, dark = false }: { query: string; dark
         {hits.length} on our pages · {loading ? "searching meeting transcripts…" : ftm.err ? "meeting transcripts unavailable right now" : `${r?.meetings.length ?? 0} meetings mention it`}
       </p>
       {r && r.meetings.length ? <Meetings r={r} q={query} dark={dark} /> : null}
-      {groups.map((g) => <Group key={g.s} shelf={g.s} list={g.list} dark={dark} />)}
+      {groups.map((g) => <Group key={g.s} shelf={g.s} list={g.list} dark={dark} q={query} />)}
       {none ? <p className="p-3 text-sm text-muted-foreground">No matching records on this site or in meeting transcripts.</p> : null}
     </div>
   );
