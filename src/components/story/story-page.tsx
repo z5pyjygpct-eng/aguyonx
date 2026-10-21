@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { V4Main } from "@/components/site/lcps-v4";
 import { Button } from "@/components/ui/button";
-import { Citations, SourceDocs, StoryBody } from "@/components/story/body";
+import { Citations, RelatedResources, SourceDocs, StoryBody } from "@/components/story/body";
 import { SaveButton } from "@/components/story/save-button";
 import type { Story } from "@/content/types";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
@@ -141,6 +141,7 @@ export function StoryPage({ story }: { story: Story }) {
               <StoryBody blocks={story.body} citations={story.citations} />
             </article>
           ) : null}
+          <RelatedResources items={story.related} />
           <SourceDocs items={story.documents} />
           <Citations items={story.citations} />
         </div>

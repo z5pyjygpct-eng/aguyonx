@@ -6,6 +6,8 @@ import { V4Main } from "@/components/site/lcps-v4";
 import { STORY_TILE, StoryHero, StoryMeta } from "@/components/story/story-page";
 import { INVESTIGATIONS } from "@/content/investigations";
 
+const INDEX_TILE = STORY_TILE.replace("sm:grid-cols-12 sm:items-center", "h-full content-start");
+
 export const Route = createFileRoute("/investigations/")({ component: InvestigationsIndex });
 
 function InvestigationsIndex() {
@@ -20,16 +22,16 @@ function InvestigationsIndex() {
           {INVESTIGATIONS.length === 0 ? (
             <p className="text-on-dark-muted">Nothing on this shelf yet.</p>
           ) : (
-            <ul className="grid gap-4">
+            <ul className="grid gap-4 md:grid-cols-2">
               {INVESTIGATIONS.map((a) => (
                 <li key={a.slug}>
-                  <Link to="/investigations/$slug" params={{ slug: a.slug }} className={STORY_TILE}>
+                  <Link to="/investigations/$slug" params={{ slug: a.slug }} className={INDEX_TILE}>
                     <ArrowRight className="absolute top-4 right-4 size-5 text-gold transition-transform group-hover:translate-x-0.5" aria-hidden />
                     {/* Investigation covers are light chart/document graphics: keep them on a light card. */}
-                    <div className="rounded-md bg-white p-1.5 sm:col-span-4">
+                    <div className="rounded-md bg-white p-1.5 ">
                       <img src={a.image} alt={a.imageAlt} className="w-full" />
                     </div>
-                    <div className="min-w-0 sm:col-span-8">
+                    <div className="min-w-0">
                       <StoryMeta kicker={a.kicker} date={a.displayDate} />
                       <h2 className="mt-3 font-serif text-2xl font-bold leading-tight sm:text-[1.7rem]">{a.title}</h2>
                       <p className="mt-2 text-sm leading-relaxed text-on-dark-muted sm:text-base">{a.dek}</p>

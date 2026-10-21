@@ -41,6 +41,14 @@ export type Story = {
   body: BodyBlock[];
   citations: Citation[];
   documents: SourceDoc[];
+  related?: RelatedItem[];
+};
+
+export type RelatedItem = {
+  type: "investigation" | "ftm" | "recap" | "graphic" | "csv" | "pdf" | "x-thread" | "link";
+  title: string;
+  href: string;
+  note?: string;
 };
 
 export type LibraryKind =

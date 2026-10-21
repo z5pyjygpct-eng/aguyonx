@@ -1,4 +1,4 @@
-import type { BodyBlock, Citation, SourceDoc } from "@/content/types";
+import type { BodyBlock, Citation, RelatedItem, SourceDoc } from "@/content/types";
 import { HearingsChart } from "@/components/story/hearings-chart";
 import { XPost } from "@/components/story/x-post";
 import type { CSSProperties } from "react";
@@ -160,6 +160,35 @@ export function SourceDocs({ items }: { items: SourceDoc[] }) {
             </a>
           </li>
         ))}
+      </ul>
+    </section>
+  );
+}
+
+const RELATED_LABEL: Record<RelatedItem["type"], string> = {
+  investigation: "Investigation", ftm: "Find the Moment", recap: "Recap", graphic: "Graphic",
+  csv: "CSV", pdf: "PDF", "x-thread": "X thread", link: "Link",
+};
+
+export function RelatedResources({ items }: { items?: RelatedItem[] }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <section className="mt-12" aria-labelledby="related-resources">
+      <h2 id="related-resources" className="font-mono text-xs font-bold tracking-widest text-gold uppercase">Related resources</h2>
+      <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+        {items.map((r) => {
+          const ext = /^https?:/.test(r.href);
+          return (
+            <li key={r.href}>
+              <a href={r.href} target={ext ? "_blank" : undefined} rel={ext ? "noreferrer" : undefined}
+                className="flex h-full flex-col gap-1.5 rounded-lg border border-navy-line bg-navy-700 p-4 text-white hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                <span className="w-fit rounded border border-gold/60 px-1.5 py-0.5 font-mono text-[11px] tracking-widest text-gold uppercase">{RELATED_LABEL[r.type]}</span>
+                <span className="font-semibold leading-snug">{r.title}</span>
+                {r.note ? <span className="text-sm text-on-dark-muted">{r.note}</span> : null}
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </section>
   );

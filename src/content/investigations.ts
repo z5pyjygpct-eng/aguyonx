@@ -3,6 +3,29 @@ import type { Story } from "@/content/types";
 export const INVESTIGATIONS: Story[] = [
   {
     "slug": "va-democrats-same-issues-same-side-in-court-2026",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/va-democrats-same-issues-same-side-in-court-2026.pdf"
+      },
+      {
+        "type": "graphic",
+        "title": "Share graphic (1600×900)",
+        "href": "/images/investigations/va-democrats-same-issues-same-side-in-court-2026-graphic.png"
+      },
+      {
+        "type": "x-thread",
+        "title": "Data Republican, Part 1",
+        "href": "https://x.com/DataRepublican/status/2112157558765203878",
+        "note": "The thread this investigation responds to"
+      },
+      {
+        "type": "x-thread",
+        "title": "Data Republican, Part 2",
+        "href": "https://x.com/DataRepublican/status/2112364654991409339"
+      }
+    ],
     "kind": "investigation",
     "title": "Same Issues, Same Side in Court",
     "dek": "How Jay Jones, Abigail Spanberger and Virginia Democrats line up with the groups Data Republican named",
@@ -105,6 +128,19 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     "slug": "va-community-schools-part-two-where-it-was-born-2026",
+    "related": [
+      {
+        "type": "investigation",
+        "title": "Part One: How Virginia Turned Schools into Social-Service Hubs",
+        "href": "/investigations/va-community-schools-social-service-hubs-2026",
+        "note": "Start of the series"
+      },
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/va-community-schools-part-two-where-it-was-born-2026.pdf"
+      }
+    ],
     "kind": "investigation",
     "title": "Community Schools Part Two: Where It Was Born",
     "dek": "The 2019 Framework, the bills behind it, and the outside groups woven into it.",
@@ -201,6 +237,19 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     "slug": "va-community-schools-social-service-hubs-2026",
+    "related": [
+      {
+        "type": "investigation",
+        "title": "Part Two: Where It Was Born",
+        "href": "/investigations/va-community-schools-part-two-where-it-was-born-2026",
+        "note": "Continue the series"
+      },
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/va-community-schools-social-service-hubs-2026.pdf"
+      }
+    ],
     "kind": "investigation",
     "title": "How Virginia Turned Schools into Social-Service Hubs",
     "dek": "Virginia community schools, 2017 to 2026. “Hub” is my word for it, not the law’s.",
@@ -363,6 +412,13 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     slug: "lcps-public-comment-speaker-time",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/lcps-public-comment-speaker-time.pdf"
+      }
+    ],
     kind: "investigation",
     title: "LCPS Public Comment and Speaker Time",
     dek: "Staff’s own NoVA table puts Loudoun schools at 1 minute per speaker while peers sit at 2–3 and VSBA’s typical band is 2–5 — from the September 15, 2026 retreat packet.",
@@ -395,6 +451,13 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     slug: "why-loudoun-republicans-lost-2023-win-2027",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/why-loudoun-republicans-lost-2023-win-2027.pdf"
+      }
+    ],
     kind: "investigation",
     title: "Why Loudoun Republicans Lost in 2023 and How They Win Seats in 2027",
     dek: "One reading of the returns — supervisors, school board, split tickets — written so the cause and the path are both clear.",
@@ -426,6 +489,13 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     slug: "2026-dem-va-constitution-conflicts",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/2026-dem-va-constitution-conflicts.pdf"
+      }
+    ],
     kind: "investigation",
     title: "2026 Democratic Agenda — Conflicts with the Virginia Constitution",
     dek: "Eighty Democratic chief-patron measures from the 2026 Regular Session that press, rewrite, or try to lock policy into Virginia’s charter. Article I first, then elections, then constitutional amendments.",
@@ -457,6 +527,13 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     slug: "subramanyam-va10-questions-2026",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/subramanyam-va10-questions-2026.pdf"
+      }
+    ],
     kind: "investigation",
     title: "Questions for Further Inquiry: Suhas Subramanyam (VA-10)",
     dek: "Fair questions on dollars claimed, a House Nay, overlaps with Sen. Lucas, disclosures, and what stays open. Questions only — not a dossier dump.",
@@ -511,6 +588,13 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     slug: "va-illegal-immigrant-crime-2020-2026",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/va-illegal-immigrant-crime-2020-2026.pdf"
+      }
+    ],
     kind: "investigation",
     title: "Virginia Illegal-Immigrant Crime Intelligence, 2020–2026",
     dek: "42 unique sourced cases in the Commonwealth. Women and children first. Not a statewide crime census.",
@@ -541,6 +625,13 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     slug: "loudoun-data-center-intelligence-history-2015-2025",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/loudoun-data-center-intelligence-history-2015-2025.pdf"
+      }
+    ],
     kind: "investigation",
     title: "Loudoun County Data Center Intelligence History, 2015–2025",
     dek: "From Data Center Alley as an economic asset to a countywide locational regime. 224 data-center hits across 119 pages.",
@@ -570,6 +661,13 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     slug: "loudoun-tax-intelligence-history-2015-2025",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/loudoun-tax-intelligence-history-2015-2025.pdf"
+      }
+    ],
     kind: "investigation",
     title: "Loudoun County Tax Intelligence History, 2015–2025",
     dek: "Board tax, budget, revenue, and relief records. 674 tax hits across 284 pages of a 1,828-page corpus.",
@@ -599,6 +697,13 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     slug: "va-energy-legislative-intelligence-2026",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/va-energy-legislative-intelligence-2026.pdf"
+      }
+    ],
     kind: "investigation",
     title: "Virginia Energy Legislative Intelligence Analysis",
     dek: "2025–2026 corpus, 2026 session snapshot. 195 energy-policy bills after incidental keyword matches were removed.",
@@ -628,6 +733,13 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     slug: "loudoun-delegation-taxpayer-burden-2026",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/loudoun-delegation-taxpayer-burden-2026.pdf"
+      }
+    ],
     kind: "investigation",
     title: "Loudoun Delegate Delegation: 2026 Expanded Taxpayer Burden",
     dek: "Singh, Reaser, Reid, Martinez, and McAuliff. 287 potentially tax and taxpayer-burden bills. 13 delegation splits.",
@@ -657,6 +769,13 @@ export const INVESTIGATIONS: Story[] = [
   },
   {
     slug: "va-green-energy-architecture-2020-2026",
+    "related": [
+      {
+        "type": "pdf",
+        "title": "Full investigation (PDF)",
+        "href": "/files/investigations/va-green-energy-architecture-2020-2026.pdf"
+      }
+    ],
     kind: "investigation",
     title: "Virginia's Green-Energy Architecture, 2020–2026",
     dek: "How a 2020 statutory framework became a larger, more complicated energy system.",
