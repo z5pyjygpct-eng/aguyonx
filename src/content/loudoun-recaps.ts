@@ -1070,7 +1070,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "School Board meeting · video 7h 5m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 21, 2026, 12:28 PM ET",
+      checkedLabel: "Oct 21, 2026, 4:28 PM ET",
       note: "Official vote record not yet posted. BoardDocs meeting page has agenda only (BD-GetMinutes returns empty / no View Minutes content). Decisions will be filled from BoardDocs minutes when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "BoardDocs meeting", href: boarddocsMeeting("DXGKG851ACED") },
