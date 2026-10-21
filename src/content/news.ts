@@ -8,6 +8,7 @@ export type NewsOffice =
   | "U.S. Representative"
   | "State Senator"
   | "State Delegate"
+  | "State Delegate candidate"
   | "Loudoun Supervisor"
   | "Loudoun Chair"
   | "Loudoun Commonwealth's Attorney candidate"
@@ -49,6 +50,63 @@ export function peopleSearchText(people: NewsPerson[]): string {
 
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
+  {
+    id: "glen-pine-challenges-mcpike-hd5-alxnow-2026-10-20",
+    date: "2026-10-20",
+    filed: "2026-10-21",
+    headline: "Alexandria activist Glen Pine challenging Del. R. Kirk McPike for Democratic nomination",
+    outlet: "ALXnow",
+    url: "https://www.alxnow.com/2026/10/20/just-in-alexandria-activist-glen-pine-challenging-del-r-kirk-mcpike-for-democratic-nomination/",
+    people: [
+      { name: "Glen Pine", office: "State Delegate candidate" },
+      { name: "Kirk McPike", office: "State Delegate" },
+    ],
+    scope: "local",
+  },
+  {
+    id: "dominion-nextera-merger-turbulence-spanberger-jones-hashmi-vamercury-2026-10-20",
+    date: "2026-10-20",
+    filed: "2026-10-21",
+    headline: "Dominion-NextEra merger hits turbulence, faces opposition from Va. leaders, SCC staff",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/20/dominion-nextera-merger-hits-turbulence-faces-opposition-from-va-s-governor-ag-lt-gov-and-scc-staff/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Jay Jones", office: "Attorney General" },
+      { name: "Ghazala Hashmi", office: "Lieutenant Governor" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "jones-nextera-dominion-merger-statement-oag-3141-2026-10-20",
+    date: "2026-10-20",
+    filed: "2026-10-21",
+    headline: "VIDEO: Attorney General Jay Jones Releases Statement on NextEra Energy and Dominion Energy Merger Following His Filing of Testimony in Opposition to the Transaction",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3141-video-attorney-general-jay-jones-releases-statement-on-nextera-energy-and-dominion-energy-merger-following-his-filing-of-testimony-in-opposition-to-the-transaction",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-virginia-united-coalition-gov-2026-10-20",
+    date: "2026-10-20",
+    filed: "2026-10-21",
+    headline: "Governor Spanberger Announces Virginia United Coalition to Protect Virginians From Federal Healthcare & SNAP Cuts",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1127407-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "vindman-ollivant-immigration-prices-data-centers-pwtimes-2026-10-20",
+    date: "2026-10-20",
+    filed: "2026-10-21",
+    headline: "Vindman, Ollivant weigh in on immigration, high prices, data centers",
+    outlet: "Prince William Times",
+    url: "https://www.princewilliamtimes.com/elections/vindman-ollivant-weigh-in-on-immigration-high-prices-data-centers/article_86607810-4234-4692-9ab1-529a4c36e614.html",
+    people: [{ name: "Eugene Vindman", office: "U.S. Representative" }],
+    scope: "local",
+  },
   {
     id: "arlington-board-sues-armed-agents-polling-places-arlingtonva-2026-10-20",
     date: "2026-10-20",

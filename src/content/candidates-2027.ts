@@ -21,6 +21,13 @@ export const CANDIDATES_2027_EMPTY =
 /** Seed only people with a public source. Do not invent a caucus-wide list. */
 export const CANDIDATES_2027: Candidate2027[] = [
   {
+    id: "glen-pine",
+    name: "Glen Pine",
+    officeSought: "House of Delegates, District 5 (Democratic primary vs. Del. Kirk McPike)",
+    locality: "Alexandria",
+    status: "declared",
+  },
+  {
     id: "brittany-dunn-pirio",
     name: "Brittany Dunn-Pirio",
     officeSought: "Fairfax Commonwealth's Attorney",
