@@ -58,8 +58,8 @@ const subject = `This week at aguyonx.com (${new Date(`${sendDate}T12:00:00`).to
 
 const H = (s) => `<h2 style="font-family:Georgia,serif;font-size:18px;text-transform:uppercase;color:#0d1b33;border-bottom:2px solid #e8b931;padding-bottom:4px;margin:28px 0 8px">${esc(s)}</h2>`;
 const item = (i) => `<p style="margin:0 0 12px"><a href="${i.url}" style="color:#0d1b33;font-weight:bold">${esc(i.title)}</a>${i.date ? `<br><span style="color:#55627a;font-size:14px">${esc(i.date)}</span>` : ""}<br>${esc(i.line)}</p>`;
-// POSTAL_ADDRESS: empty until Scott supplies one (CAN-SPAM legal requirement). Never invent it. send.mjs refuses while empty.
-const addrHtml = POSTAL_ADDRESS ? `<br>${esc(POSTAL_ADDRESS)}` : "<br>[POSTAL ADDRESS REQUIRED: Scott to supply]";
+// CAN-SPAM postal address (approved by Scott), shown next to the unsubscribe link.
+const addrHtml = `<br>${esc(POSTAL_ADDRESS)}`;
 const html = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(subject)}</title></head>
 <body style="margin:0;background:#f4f6fa"><div style="max-width:600px;margin:0 auto;padding:24px;background:#ffffff;font-family:Georgia,serif;font-size:16px;line-height:1.55;color:#0d1b33">
 <p style="margin:0 0 4px;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#55627a">A Guy On X · Weekly update</p>
@@ -90,7 +90,7 @@ ${SITE.giveLabel}: ${SITE.giveUrl}
 You're getting this because you signed up at aguyonx.com.
 Unsubscribe: ${UNSUB}
 Privacy: ${site("/privacy")}
-${POSTAL_ADDRESS || "[POSTAL ADDRESS REQUIRED: Scott to supply]"}
+${POSTAL_ADDRESS}
 `;
 
 fs.mkdirSync(outDir, { recursive: true });
@@ -99,7 +99,6 @@ fs.writeFileSync(`${base}.html`, html);
 fs.writeFileSync(`${base}.txt`, text);
 fs.writeFileSync(`${base}.json`, JSON.stringify({ subject, from: WEEKLY_FROM, sendDate, window: [start.toISOString(), end.toISOString()], counts: Object.fromEntries(sections.map(([h, i]) => [h, i.length])) }, null, 2));
 console.log(JSON.stringify({ html: `${base}.html`, txt: `${base}.txt`, subject, counts: Object.fromEntries(sections.map(([h, i]) => [h, i.length])) }));
-if (!POSTAL_ADDRESS) console.warn("WARNING: no postal address (CAN-SPAM). send.mjs will refuse until src/lib/weekly/config.ts POSTAL_ADDRESS is set.");
 const errs = checkEmail(html, text);
 if (errs.length) { console.error("LINK CHECK FAILED:\n- " + errs.join("\n- ")); process.exit(1); }
 console.log("Link check passed. Nothing was sent.");

@@ -1,7 +1,7 @@
 // MANUAL send step for a reviewed weekly draft. NOT wired to anything; never runs automatically.
 // Refuses to run unless ALL of these hold:
 //   --i-have-scotts-approval flag, WEEKLY_SEND_APPROVED=yes env, a draft path,
-//   link check passes, postal address set, Scott's note filled in, env vars present.
+//   link check passes, Scott's note filled in, env vars present.
 // Usage (only after Scott approves a specific draft):
 //   WEEKLY_SEND_APPROVED=yes node tools/weekly/send.mjs tools/weekly/drafts/weekly-YYYY-MM-DD --i-have-scotts-approval
 // It creates a Resend Broadcast to RESEND_WEEKLY_SEGMENT_ID and sends it (Resend free plan: Broadcasts are
@@ -18,7 +18,6 @@ const text = fs.readFileSync(`${base}.txt`, "utf8");
 const meta = JSON.parse(fs.readFileSync(`${base}.json`, "utf8"));
 const errs = checkEmail(html, text);
 if (errs.length) die("link check failed:\n- " + errs.join("\n- "));
-if (/POSTAL ADDRESS REQUIRED/.test(html + text)) die("no postal address in the footer (CAN-SPAM). Set POSTAL_ADDRESS in src/lib/weekly/config.ts and redraft.");
 if (/\[SCOTT:/.test(html + text)) die("Scott's note placeholder is still in the draft.");
 const key = process.env.RESEND_API_KEY, seg = process.env.RESEND_WEEKLY_SEGMENT_ID;
 if (!key || !seg) die("RESEND_API_KEY and RESEND_WEEKLY_SEGMENT_ID must be set.");

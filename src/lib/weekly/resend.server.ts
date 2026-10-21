@@ -81,9 +81,9 @@ export async function unsubscribeContact(cfg: Cfg, email: string) {
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 function footer(unsubUrl: string) {
-  // POSTAL_ADDRESS is empty until Scott supplies one (CAN-SPAM). Rendered only when set; never invented.
-  const addrHtml = POSTAL_ADDRESS ? `<br>${esc(POSTAL_ADDRESS)}` : "";
-  const addrTxt = POSTAL_ADDRESS ? `\n${POSTAL_ADDRESS}` : "";
+  // CAN-SPAM postal address (approved by Scott).
+  const addrHtml = `<br>${esc(POSTAL_ADDRESS)}`;
+  const addrTxt = `\n${POSTAL_ADDRESS}`;
   return {
     html: `<p style="font-size:12px;color:#55627a;border-top:1px solid #dde3ec;padding-top:12px;margin-top:24px">You're getting this because you signed up at aguyonx.com. <a href="${unsubUrl}">Unsubscribe</a> · <a href="${WEEKLY_SITE}/privacy">Privacy</a>${addrHtml}</p>`,
     text: `\n---\nYou're getting this because you signed up at aguyonx.com.\nUnsubscribe: ${unsubUrl}\nPrivacy: ${WEEKLY_SITE}/privacy${addrTxt}\n`,
