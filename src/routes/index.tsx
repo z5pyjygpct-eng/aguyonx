@@ -12,6 +12,15 @@ import { newsNewestFirst, type NewsItem } from "@/content/news";
 import briefing from "@/content/nova-briefing.json";
 import { COMING_SOON_LOCALITIES, DASHBOARDS } from "@/lib/dashboards";
 
+const X_FEATURE = {
+  href: "https://x.com/VaChangeAgent/status/2052176246713323961",
+  image: "/images/featured/vachangeagent-2052176246713323961.jpg",
+  imageAlt: "VA Senator Louise Lucas: Medicaid to Medipaid",
+  title: "VA Senator Louise Lucas: MEDICAID TO MEDIPAID Fraudster",
+  text: "Virginia State Senator Louise Lucas (Senate District 18, Portsmouth, VA) and her family network operate 12 connected entities, with Lucas Lodge, LLC (NPI: 1205851110) as the primary one.",
+  displayDate: "May 6, 2026",
+};
+
 export const Route = createFileRoute("/")({ component: Home });
 
 const FEATURE_SLUG = "the-2025-virginia-election-a-playbook-for-candidates-to-fight-the-political-establishment";
@@ -203,10 +212,24 @@ function Home() {
           </section>
 
           {/* Feature */}
+          <section className="pt-12">
+            <h2 className="font-serif text-3xl font-semibold uppercase">Featured</h2>
+            {/* Lead: Scott's X Article (title and opening line quoted exactly from the post). Image stored locally, shown uncropped. */}
+            <a href={X_FEATURE.href} target="_blank" rel="noreferrer" className="group mt-4 flex flex-col overflow-hidden rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 transition-colors hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold lg:flex-row">
+              <div className="flex items-center justify-center bg-navy-900 lg:w-[52%]">
+                <img src={X_FEATURE.image} alt={X_FEATURE.imageAlt} width={719} height={288} className="aspect-[719/288] h-auto w-full object-contain" />
+              </div>
+              <div className="flex-1 p-5 sm:p-7">
+                <p className="font-serif text-xs font-semibold tracking-[0.18em] text-gold uppercase">On 𝕏 · @VaChangeAgent · {X_FEATURE.displayDate}</p>
+                <h3 className="mt-2 font-serif text-2xl leading-tight font-semibold sm:text-3xl">{X_FEATURE.title}</h3>
+                <p className="mt-3 text-on-dark-muted">{X_FEATURE.text}</p>
+                <span className="mt-5 inline-flex min-h-11 items-center rounded-lg bg-gold px-5 font-bold text-navy-800 group-hover:bg-gold-hover">Read on 𝕏 ↗</span>
+              </div>
+            </a>
+          </section>
           {feature ? (
-            <section className="pt-12">
-              <h2 className="font-serif text-3xl font-semibold uppercase">Featured</h2>
-              <div className="mt-4 flex flex-col overflow-hidden rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 lg:flex-row">
+            <section className="pt-6">
+              <div className="flex flex-col overflow-hidden rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 lg:flex-row">
                 <img src={feature.image} alt={feature.imageAlt} className="h-44 w-full object-cover sm:h-64 lg:h-auto lg:w-[52%]" />
                 <div className="flex-1 p-5 sm:p-7">
                   <p className="font-serif text-xs font-semibold tracking-[0.18em] text-gold uppercase">
