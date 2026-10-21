@@ -16,7 +16,7 @@ const col = (name: string, ch: "house" | "senate", foia: { label: string; href: 
 export const GA_DASHBOARD: Dashboard = {
   slug: "general-assembly", short: "Dashboard", title: "Virginia General Assembly", group: "state",
   columns: [
-    col("Virginia House of Delegates", "house", { label: "FOIA to House of Delegates", href: "https://vga.virginia.gov/help/foia/" }),
+    col("Virginia House of Delegates", "house", { label: "FOIA to House of Delegates", href: "https://publications.virginiageneralassembly.gov/download_publication/156" }),
     col("Senate of Virginia", "senate", { label: "FOIA to Senate", href: "https://apps.senate.virginia.gov/Senator/PDFs/SenateFOIARequest.pdf" }),
   ],
 };

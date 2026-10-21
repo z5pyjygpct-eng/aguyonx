@@ -23,7 +23,7 @@ export const FOIA = {
   acps: { label: "FOIA to ACPS", href: "https://www.k12albemarle.org/our-division/foia-requests" },
   manassas: { label: "FOIA to Manassas", href: "https://www.manassasva.gov/connect/city_manager_s_office/foia_requests.php" },
   mcps: { label: "FOIA to MCPS", href: "https://www.mcpsva.org/page/requests-for-informationfoia/" },
-  house: { label: "FOIA to House of Delegates", href: "https://vga.virginia.gov/help/foia/" },
+  house: { label: "FOIA to House of Delegates", href: "https://publications.virginiageneralassembly.gov/download_publication/156" },
   senate: { label: "FOIA to Senate", href: "https://apps.senate.virginia.gov/Senator/PDFs/SenateFOIARequest.pdf" },
   vdoe: { label: "FOIA to Board of Education", href: "https://www.doe.virginia.gov/about-vdoe/foia-requests" },
 } satisfies Record<string, DashFoia>;
