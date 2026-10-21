@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/7415.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2023-09-18-joint-board-of-supervisors-school-board-committee",
+  "title": "Loudoun County Board of Supervisors, Joint Board of Supervisors & School Board Committee, Monday, September 18, 2023",
+  "shortTitle": "Joint Board of Supervisors & School Board Committee \u00b7 Sep 18, 2023",
+  "date": "Monday, September 18, 2023",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "1h 38m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/7415"
+    },
+    {
+      "label": "Agenda (Granicus)",
+      "href": "https://loudoun.granicus.com/AgendaViewer.php?view_id=73&clip_id=7415"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-21"
+}

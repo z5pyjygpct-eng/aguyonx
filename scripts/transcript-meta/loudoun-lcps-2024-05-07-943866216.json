@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2024-05-07-943866216.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2024-05-07-finance-operations-committee-meeting",
+  "title": "Loudoun County School Board, Finance & Operations Committee Meeting, Tuesday, May 7, 2024",
+  "shortTitle": "Finance & Operations Committee Meeting \u00b7 May 7, 2024",
+  "date": "Tuesday, May 7, 2024",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "1h 54m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/943866216?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-21"
+}

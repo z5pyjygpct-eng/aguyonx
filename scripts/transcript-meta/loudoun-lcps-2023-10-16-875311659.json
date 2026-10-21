@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2023-10-16-875311659.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2023-10-16-loudoun-education-alliance-of-families-leaf-committee-meeting",
+  "title": "Loudoun County School Board, Loudoun Education Alliance of Families (LEAF) Committee Meeting, Monday, October 16, 2023",
+  "shortTitle": "Loudoun Education Alliance of Families (LEAF) Committee Meeting \u00b7 Oct 16, 2023",
+  "date": "Monday, October 16, 2023",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "1h 28m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/875311659?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-21"
+}
