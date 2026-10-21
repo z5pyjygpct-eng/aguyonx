@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,245 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-21",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 20, Tuesday) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (HTTP 200 or full page render through a scraping service, outlet headline, URL and Oct 20 ET publish date checked on each article page; the Loudoun County release date is from the county news flash feed). Sources checked: RSS from Loudoun Now, Loudoun Times-Mirror, InsideNoVa and Prince William Times (BLOX feeds returned HTTP 429 to direct requests and were read through a scraping service), FFXnow, ARLnow, Potomac Local, Annandale Today, Blue Ridge Leader and the Loudoun County news flash; news.ts had no Oct 20 local items. Caveats: Fairfax Times feed returned HTTP 429 and an empty result through the scraping service; Reston Now feed returned no items; WTOP Virginia feed redirected to a non-feed page; Connection Newspapers feed did not respond. Left out: Loudoun Times-Mirror versions of the Amazon/GWU land deal, grand jury indictments, Purcellville library and data center pause deferral (same stories as the Loudoun Now items) and the county's data center deferral release; Loudoun Valley student shooting (already briefed Oct 20); Potomac Local versions of the Lake Ridge teacher and Bennett Elementary knife stories, its police blotter, and the Vindman/Subramanyam suspicious-letters story (already briefed Oct 20); Prince William Times power line story (crosses several localities); 7th and 10th District congressional previews and Q&As (districts span several localities); Airports Authority CEO, Lufthansa Dulles flight and VRE board items (regional); Dominion-NextEra merger, Medicaid coalition and other state items (statewide); Falls Church and Stafford items (not one of the four localities); Blue Ridge Leader posts (Oct 19 posts carrying Oct 20 timestamps, plus a letter); soft features, events, sports and sponsored press releases. Capped: 26 in-scope items verified, kept 25; the Leesburg Diversity Committee domestic violence feature (Loudoun Now) was cut at the cap. 27 article pages verified, 0 verification failures.",
+      "items": [
+        {
+          "id": "amazon-donates-25-acres-of-gwu-campus-loudounnow-2026-10-20",
+          "county": "Loudoun",
+          "headline": "Amazon Donates 25 Acres of GWU Campus to Loudoun, Pledges No Data Centers",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/amazon-donates-25-acres-of-gwu-campus-to-loudoun-pledges-no-data-centers/article_d991240d-5176-4acf-ae84-f23e0dc8e2b3.html",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "grand-jury-approves-more-charges-in-south-loudounnow-2026-10-20",
+          "county": "Loudoun",
+          "headline": "Grand Jury Approves More Charges in South Riding Robbery, Leesburg Explosion Cases",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/grand-jury-approves-more-charges-in-south-riding-robbery-leesburg-explosion-cases/article_c29df1be-cafc-4392-95eb-716b2299bb9d.html",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "purcellville-ends-talks-with-county-over-library-loudounnow-2026-10-20",
+          "county": "Loudoun",
+          "headline": "Purcellville Ends Talks with County Over Library Sale",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/purcellville-ends-talks-with-county-over-library-sale/article_2e97e74c-2455-4bd4-9440-41176c903bd3.html",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "data-center-pause-removed-from-tonight-s-loudounnow-2026-10-20",
+          "county": "Loudoun",
+          "headline": "Data Center Pause Removed from Tonight’s Board of Supervisors’ Meeting",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/data-center-pause-removed-from-tonight-s-board-of-supervisors-meeting/article_3f4adbed-c8b5-4b73-bec8-b44fc89c858c.html",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "residents-briefed-on-latest-western-loudoun-rec-loudounnow-2026-10-20",
+          "county": "Loudoun",
+          "headline": "Residents Briefed on Latest Western Loudoun Rec Plans",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/residents-briefed-on-latest-western-loudoun-rec-plans/article_f88b6ede-0f6b-4515-a96c-8c810df27c18.html",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "nett-says-he-rejected-plea-deal-offer-ltm-2026-10-20",
+          "county": "Loudoun",
+          "headline": "Nett says he rejected plea deal offer ahead of his criminal trial",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/nett-says-he-rejected-plea-deal-offer-ahead-of-his-criminal-trial/article_725fb7c9-9509-4aa5-b4fa-754e622d946f.html",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "public-information-meeting-on-reconfiguring-cascades-library-loudoungov-2026-10-20",
+          "county": "Loudoun",
+          "headline": "Public Information Meeting on Reconfiguring Cascades Library/Senior Center Complex Property",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10939",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "sterling-man-struck-killed-by-car-in-loudounnow-2026-10-20",
+          "county": "Fairfax",
+          "headline": "Sterling Man Struck, Killed by Car in Fairfax County",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/sterling-man-struck-killed-by-car-in-fairfax-county/article_9cf68ae6-b763-4a4b-aad6-2ee3167c2db9.html",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcps-rolls-out-online-app-built-by-ffxnow-2026-10-20",
+          "county": "Fairfax",
+          "headline": "FCPS rolls out online app built by TJ students that identifies safer routes to schools",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/20/fcps-rolls-out-online-app-developed-by-tj-students-that-identifies-safer-routes-to-schools/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcdot-recommends-changes-to-make-route-29-ffxnow-2026-10-20",
+          "county": "Fairfax",
+          "headline": "FCDOT recommends changes to make Route 29 safer in West Falls Church",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/20/fcdot-recommends-changes-to-make-route-29-safer-in-west-falls-church/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-issues-call-for-future-businesses-to-ffxnow-2026-10-20",
+          "county": "Fairfax",
+          "headline": "County issues call for future businesses to fill redeveloped Mount Vernon High School",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/20/county-issues-call-for-future-businesses-to-fill-redeveloped-mount-vernon-high-school/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-school-board-refines-policy-limiting-kindergarten-ffxnow-2026-10-20",
+          "county": "Fairfax",
+          "headline": "Fairfax school board refines policy limiting kindergarten tech use, orders app reviews",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/20/fairfax-school-board-refines-policy-limiting-tech-use-in-kindergarten-orders-software-reviews/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "planning-commission-lauds-work-on-complex-lake-ffxnow-2026-10-20",
+          "county": "Fairfax",
+          "headline": "Planning commission lauds work on ‘complex’ Lake Fairfax Business Center development plan",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/20/planning-commission-lauds-work-on-complex-lake-fairfax-business-center-development-plan/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-to-review-use-of-flock-potomaclocal-2026-10-20",
+          "county": "Fairfax",
+          "headline": "Fairfax County to review use of Flock cameras amid privacy concerns",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/20/fairfax-county-to-review-use-of-flock-cameras-amid-privacy-concerns/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-seek-restaurant-burglars-annandaletoday-2026-10-20",
+          "county": "Fairfax",
+          "headline": "Police seek restaurant burglars",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/police-seek-restaurant-burglars/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "panel-silver-tsunami-requires-updated-policies-services-arlnow-2026-10-20",
+          "county": "Arlington",
+          "headline": "Panel: ‘Silver tsunami’ requires updated policies, services for Arlington seniors",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/20/panel-silver-tsunami-requires-updated-policies-services-for-arlington-seniors/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "suspect-denied-bond-for-alleged-stabbing-of-arlnow-2026-10-20",
+          "county": "Arlington",
+          "headline": "Suspect denied bond for alleged stabbing of Ballston towing company employee",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/20/suspect-denied-bond-for-alleged-stabbing-of-ballston-towing-company-employee/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "marine-corps-marathon-returns-this-weekend-bringing-arlnow-2026-10-20",
+          "county": "Arlington",
+          "headline": "Marine Corps Marathon returns this weekend, bringing Arlington road closures",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/20/marine-corps-marathon-returns-this-weekend-bringing-arlington-road-closures/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "microtransit-program-expands-into-south-arlington-reduces-arlnow-2026-10-20",
+          "county": "Arlington",
+          "headline": "‘Microtransit’ program expands into South Arlington, reduces rates",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/20/microtransit-program-expands-into-south-arlington-reduces-rates/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-police-chief-emphasizes-support-for-automated-arlnow-2026-10-20",
+          "county": "Arlington",
+          "headline": "Arlington police chief emphasizes support for automated license-plate readers",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/20/arlington-police-chief-emphasizes-support-for-automated-license-plate-readers/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "mother-charged-after-boy-brings-large-hunting-insidenova-2026-10-20",
+          "county": "Prince William",
+          "headline": "Mother charged after boy brings 'large hunting knife' to Bennett Elementary",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/headlines/mother-charged-after-boy-brings-large-hunting-knife-to-bennett-elementary/article_bf6e860b-cf37-46dd-93c6-3d73a20e05ad.html",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lake-ridge-private-school-teacher-charged-with-insidenova-2026-10-20",
+          "county": "Prince William",
+          "headline": "Lake Ridge private school teacher charged with assaulting 7-year-old student",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/headlines/lake-ridge-private-school-teacher-charged-with-assaulting-7-year-old-student/article_77a184b8-bf88-4cb7-a64b-f77d369108a8.html",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "exclusive-high-level-prince-william-county-employee-insidenova-2026-10-20",
+          "county": "Prince William",
+          "headline": "EXCLUSIVE: High-level Prince William County employee accused of harassment, 'blatant sexual contact'",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/prince_william/exclusive-high-level-prince-william-county-employee-accused-of-harassment-blatant-sexual-contact/article_7dc6c126-f85d-4699-ac60-e41927ef72ae.html",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-puts-more-money-into-christmas-events-potomaclocal-2026-10-20",
+          "county": "Prince William",
+          "headline": "Manassas puts more money into Christmas events after First Friday pause",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/20/manassas-puts-more-money-into-christmas-events-after-first-friday-pause/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "bhatt-roommate-recounts-missed-call-and-encounter-potomaclocal-2026-10-20",
+          "county": "Prince William",
+          "headline": "Bhatt roommate recounts missed call and encounter with Naresh Bhatt days before arrest",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/20/bhatt-roommate-recounts-missed-call-and-encounter-with-naresh-bhatt-days-before-arrest/",
+          "published": "2026-10-20",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Fairfax Times: feed unavailable (HTTP 429 / empty)",
+        "Reston Now: feed returned no items",
+        "WTOP Virginia: feed URL redirected to a non-feed page",
+        "Connection Newspapers: feed did not respond"
+      ]
+    },
     {
       "date": "2026-10-20",
       "status": "ok",

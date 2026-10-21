@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2024-09-23-1012207985.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2024-09-23-student-behavior-and-accountability-committee-closed-session",
+  "title": "Loudoun County School Board, Student Behavior and Accountability Committee (Closed Session), Monday, September 23, 2024",
+  "shortTitle": "Student Behavior and Accountability Committee (Closed Session) \u00b7 Sep 23, 2024",
+  "date": "Monday, September 23, 2024",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "7m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1012207985?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-21"
+}
