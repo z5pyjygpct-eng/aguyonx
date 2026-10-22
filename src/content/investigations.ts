@@ -73,6 +73,18 @@ export const INVESTIGATIONS: Story[] = [
         "title": "The Senator Who Legalized Pot (PDF)",
         "href": "/files/investigations/lucas-indictment-senator-who-legalized-pot-2026.pdf",
         "kind": "pdf"
+      },
+      {
+        "id": "indictment",
+        "title": "U.S. v. Lucas indictment (PDF, cover sheets with personal data removed)",
+        "href": "/files/investigations/lucas-indictment-senator-who-legalized-pot-2026-indictment.pdf",
+        "kind": "pdf"
+      },
+      {
+        "id": "graphic",
+        "title": "Share graphic (1080×1080)",
+        "href": "/images/investigations/lucas-indictment-senator-who-legalized-pot-2026-graphic-1080.png",
+        "kind": "link"
       }
     ]
   },
