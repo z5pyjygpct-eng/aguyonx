@@ -2,6 +2,81 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    "slug": "lucas-indictment-senator-who-legalized-pot-2026",
+    "related": [
+      {
+        "type": "graphic",
+        "title": "Share graphic (1080×1080)",
+        "href": "/images/investigations/lucas-indictment-senator-who-legalized-pot-2026-graphic-1080.png"
+      },
+      {
+        "type": "pdf",
+        "title": "U.S. v. Lucas indictment, Case No. 4:26-cr-75 (E.D. Va.)",
+        "href": "/files/investigations/lucas-indictment-senator-who-legalized-pot-2026-indictment.pdf",
+        "note": "Posted by DOJ. Criminal case cover sheets with defendants' personal data removed (pages 47–53 of DOJ's file)."
+      }
+    ],
+    "kind": "investigation",
+    "title": "The Senator Who Legalized Pot",
+    "dek": "What the federal indictment of Sen. L. Louise Lucas alleges, the marijuana laws she wrote, and who voted for them",
+    "date": "2026-10-22",
+    "displayDate": "October 22, 2026",
+    "topic": "Public Corruption",
+    "kicker": "Virginia",
+    "image": "/images/investigations/lucas-indictment-senator-who-legalized-pot-2026.png",
+    "imageAlt": "Cover of The Senator Who Legalized Pot",
+    "access": "public",
+    "readMinutes": 19,
+    "body": [
+      {
+        "type": "p",
+        "text": "By Scott Mineo"
+      },
+      {
+        "type": "h2",
+        "text": "The short version"
+      },
+      {
+        "type": "p",
+        "text": "On the morning of October 22, state Sen. L. Louise Lucas of Portsmouth surrendered to federal agents. She is the Senate President pro tempore and chairs the Finance and Appropriations Committee. A federal grand jury in Newport News indicted her on five counts: racketeering conspiracy, conspiracy to distribute 100 kilograms or more of marijuana, money-laundering conspiracy, conspiracy to commit honest-services fraud through bribery, and maintaining a drug-involved premises (DOJ).",
+        "cites": [
+          "c1"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Prosecutors allege that the senator who carried Virginia's marijuana legalization ran an illegal marijuana business out of her own cannabis store. They also allege she used her office to try to steer one of the state's new retail licenses. The FBI puts the scheme at about $4.5 million over five years."
+      },
+      {
+        "type": "p",
+        "text": "Lucas did not write the marijuana laws by herself. Across eight marijuana bills between 2021 and 2026, 124 Democratic legislators voted for or sponsored her legislation or its House twin. No Democrat is accused of anything, and neither is anyone else outside the seven defendants. What follows is what the indictment alleges, what the bills did, and who voted for them."
+      },
+      {
+        "type": "p",
+        "text": "An indictment is only an accusation. Lucas and her co-defendants are presumed innocent unless and until they are proven guilty."
+      },
+      {
+        "type": "p",
+        "text": "Read the full investigation in the PDF, with what the indictment alleges, the marijuana laws she wrote, who voted for them, and all sources."
+      }
+    ],
+    "citations": [
+      {
+        "id": "c1",
+        "label": "DOJ press release",
+        "href": "https://www.justice.gov/opa/pr/virginia-state-senator-indicted-leading-criminal-marijuana-distribution-enterprise"
+      }
+    ],
+    "documents": [
+      {
+        "id": "pdf",
+        "title": "The Senator Who Legalized Pot (PDF)",
+        "href": "/files/investigations/lucas-indictment-senator-who-legalized-pot-2026.pdf",
+        "kind": "pdf"
+      }
+    ]
+  },
+  {
     "slug": "va-democrats-same-issues-same-side-in-court-2026",
     "related": [
       {

@@ -21,6 +21,15 @@ const X_FEATURE = {
   displayDate: "May 6, 2026",
 };
 
+const LUCAS_FEATURE = {
+  slug: "lucas-indictment-senator-who-legalized-pot-2026",
+  image: "/images/featured/lucas-indictment-senator-who-legalized-pot-2026-1920x1080.png",
+  imageAlt: "BUSTED! Sen. L. Louise Lucas indicted on federal charges",
+  title: "The Senator Who Legalized Pot",
+  dek: "What the federal indictment of Sen. L. Louise Lucas alleges, the marijuana laws she wrote, and who voted for them",
+  displayDate: "October 22, 2026",
+};
+
 export const Route = createFileRoute("/")({ component: Home });
 
 const FEATURE_SLUG = "the-2025-virginia-election-a-playbook-for-candidates-to-fight-the-political-establishment";
@@ -214,8 +223,20 @@ function Home() {
           {/* Feature */}
           <section className="pt-12">
             <h2 className="font-serif text-3xl font-semibold uppercase">Featured</h2>
-            {/* Lead: Scott's X Article (title and opening line quoted exactly from the post). Image stored locally, shown uncropped. */}
-            <a href={X_FEATURE.href} target="_blank" rel="noreferrer" className="group mt-4 flex flex-col overflow-hidden rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 transition-colors hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold lg:flex-row">
+            {/* Lead: Lucas indictment investigation (Scott-approved Oct 22). 16:9 image shown uncropped. */}
+            <Link to="/investigations/$slug" params={{ slug: LUCAS_FEATURE.slug }} className="group mt-4 flex flex-col overflow-hidden rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 transition-colors hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold lg:flex-row">
+              <div className="flex items-center justify-center bg-navy-900 lg:w-[52%]">
+                <img src={LUCAS_FEATURE.image} alt={LUCAS_FEATURE.imageAlt} width={1920} height={1080} className="aspect-video h-auto w-full object-contain" />
+              </div>
+              <div className="flex-1 p-5 sm:p-7">
+                <p className="font-serif text-xs font-semibold tracking-[0.18em] text-gold uppercase">Investigation · {LUCAS_FEATURE.displayDate}</p>
+                <h3 className="mt-2 font-serif text-2xl leading-tight font-semibold sm:text-3xl">{LUCAS_FEATURE.title}</h3>
+                <p className="mt-3 text-on-dark-muted">{LUCAS_FEATURE.dek}</p>
+                <span className="mt-5 inline-flex min-h-11 items-center rounded-lg bg-gold px-5 font-bold text-navy-800 group-hover:bg-gold-hover">Read the investigation →</span>
+              </div>
+            </Link>
+            {/* Second: Scott's X Article (title and opening line quoted exactly from the post). Image stored locally, shown uncropped. */}
+            <a href={X_FEATURE.href} target="_blank" rel="noreferrer" className="group mt-6 flex flex-col overflow-hidden rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 transition-colors hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold lg:flex-row">
               <div className="flex items-center justify-center bg-navy-900 lg:w-[52%]">
                 <img src={X_FEATURE.image} alt={X_FEATURE.imageAlt} width={719} height={288} className="aspect-[719/288] h-auto w-full object-contain" />
               </div>
