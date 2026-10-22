@@ -213,12 +213,12 @@ export function RecapsV4Page({ venue, recaps, page, onPage }: { venue: V4Venue; 
   );
 }
 
-export function ComingSoonV4({ venue, kicker }: { venue: V4Venue; kicker: string }) {
+export function ComingSoonV4({ venue, kicker, label = "Coming soon" }: { venue: V4Venue; kicker: string; label?: string }) {
   return (
     <V4Main>
       <V4VenueHero venue={venue} kicker={kicker} />
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-8">
-        <p className="rounded-xl border border-dashed border-navy-line px-6 py-10 text-center font-serif text-2xl uppercase text-night-muted">Coming soon</p>
+        <p className="rounded-xl border border-dashed border-navy-line px-6 py-10 text-center font-serif text-2xl uppercase text-night-muted">{label}</p>
         <div className="mt-6"><FoiaButton foia={venue.foia} /></div>
       </div>
     </V4Main>
