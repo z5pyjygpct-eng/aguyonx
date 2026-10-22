@@ -30,6 +30,7 @@ import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SenatorsRouteImport } from './routes/senators'
 import { Route as SitemapRouteImport } from './routes/sitemap'
 import { Route as TipsRouteImport } from './routes/tips'
+import { Route as VaViolentCrimeOutcomesRouteImport } from './routes/va-violent-crime-outcomes'
 import { Route as VideosRouteImport } from './routes/videos'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
@@ -234,6 +235,11 @@ const SitemapRoute = SitemapRouteImport.update({
 const TipsRoute = TipsRouteImport.update({
   id: '/tips',
   path: '/tips',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VaViolentCrimeOutcomesRoute = VaViolentCrimeOutcomesRouteImport.update({
+  id: '/va-violent-crime-outcomes',
+  path: '/va-violent-crime-outcomes',
   getParentRoute: () => rootRouteImport,
 } as any)
 const VideosRoute = VideosRouteImport.update({
@@ -821,6 +827,7 @@ export interface FileRoutesByFullPath {
   '/senators': typeof SenatorsRoute
   '/sitemap': typeof SitemapRoute
   '/tips': typeof TipsRoute
+  '/va-violent-crime-outcomes': typeof VaViolentCrimeOutcomesRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
@@ -938,6 +945,7 @@ export interface FileRoutesByTo {
   '/senators': typeof SenatorsRoute
   '/sitemap': typeof SitemapRoute
   '/tips': typeof TipsRoute
+  '/va-violent-crime-outcomes': typeof VaViolentCrimeOutcomesRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
@@ -1058,6 +1066,7 @@ export interface FileRoutesById {
   '/senators': typeof SenatorsRoute
   '/sitemap': typeof SitemapRoute
   '/tips': typeof TipsRoute
+  '/va-violent-crime-outcomes': typeof VaViolentCrimeOutcomesRoute
   '/videos': typeof VideosRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
@@ -1183,6 +1192,7 @@ export interface FileRouteTypes {
     | '/senators'
     | '/sitemap'
     | '/tips'
+    | '/va-violent-crime-outcomes'
     | '/videos'
     | '/articles/$slug'
     | '/cities/$city'
@@ -1300,6 +1310,7 @@ export interface FileRouteTypes {
     | '/senators'
     | '/sitemap'
     | '/tips'
+    | '/va-violent-crime-outcomes'
     | '/videos'
     | '/articles/$slug'
     | '/dashboards/general-assembly'
@@ -1419,6 +1430,7 @@ export interface FileRouteTypes {
     | '/senators'
     | '/sitemap'
     | '/tips'
+    | '/va-violent-crime-outcomes'
     | '/videos'
     | '/articles/$slug'
     | '/cities/$city'
@@ -1543,6 +1555,7 @@ export interface RootRouteChildren {
   SenatorsRoute: typeof SenatorsRoute
   SitemapRoute: typeof SitemapRoute
   TipsRoute: typeof TipsRoute
+  VaViolentCrimeOutcomesRoute: typeof VaViolentCrimeOutcomesRoute
   VideosRoute: typeof VideosRoute
   DashboardsGeneralAssemblyRoute: typeof DashboardsGeneralAssemblyRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
@@ -1767,6 +1780,13 @@ declare module '@tanstack/react-router' {
       path: '/tips'
       fullPath: '/tips'
       preLoaderRoute: typeof TipsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/va-violent-crime-outcomes': {
+      id: '/va-violent-crime-outcomes'
+      path: '/va-violent-crime-outcomes'
+      fullPath: '/va-violent-crime-outcomes'
+      preLoaderRoute: typeof VaViolentCrimeOutcomesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/videos': {
@@ -2642,6 +2662,7 @@ const rootRouteChildren: RootRouteChildren = {
   SenatorsRoute: SenatorsRoute,
   SitemapRoute: SitemapRoute,
   TipsRoute: TipsRoute,
+  VaViolentCrimeOutcomesRoute: VaViolentCrimeOutcomesRoute,
   VideosRoute: VideosRoute,
   DashboardsGeneralAssemblyRoute: DashboardsGeneralAssemblyRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,

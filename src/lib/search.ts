@@ -348,6 +348,17 @@ function buildIndex(): SearchDoc[] {
     districtNumber: null,
   });
 
+  docs.push({
+    id: "page-va-violent-crime-outcomes",
+    title: "VA Violent Crime Outcomes",
+    snippet: "Search Virginia violent crime cases and outcomes, built by Virginians for Safe Communities (VSC).",
+    shelf: "Page",
+    href: "/va-violent-crime-outcomes",
+    titleFields: "VA Violent Crime Outcomes VSC Virginians for Safe Communities VA4SafeComm",
+    body: "Find any case, every outcome for murder, rape, robbery in every county except Fairfax only murder. Search names, county, offense, outcome and see trends. Hold Virginia prosecutors and judges accountable.",
+    districtNumber: null,
+  });
+
   for (const office of OFFICE_DOORS) {
     const extra =
       office.to === "/delegates" || office.to === "/senators"

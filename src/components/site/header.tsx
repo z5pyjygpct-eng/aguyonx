@@ -27,6 +27,7 @@ export const NAV_TOOLS = [
   { to: "/library", label: "Research Library" },
   { to: "/library/foia", label: "FOIA letter desk" },
   { to: "/2027", label: "2027 election" },
+  { to: "/va-violent-crime-outcomes", label: "VA Violent Crime Outcomes" },
   { to: "/tips", label: "Got Tips?" },
 ] as const;
 
