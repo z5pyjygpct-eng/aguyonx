@@ -25,6 +25,8 @@ export const FOIA = {
   mcps: { label: "FOIA to MCPS", href: "https://www.mcpsva.org/page/requests-for-informationfoia/" },
   house: { label: "FOIA to House of Delegates", href: "https://publications.virginiageneralassembly.gov/download_publication/156" },
   senate: { label: "FOIA to Senate", href: "https://apps.senate.virginia.gov/Senator/PDFs/SenateFOIARequest.pdf" },
+  hanover: { label: "FOIA to Hanover County", href: "https://www.hanovercounty.gov/356/Make-a-Public-Records-FOIA-Request" },
+  chesterfield: { label: "FOIA to Chesterfield County", href: "https://www.chesterfield.gov/FOIA" },
   vdoe: { label: "FOIA to Board of Education", href: "https://www.doe.virginia.gov/about-vdoe/foia-requests" },
 } satisfies Record<string, DashFoia>;
 
@@ -143,6 +145,42 @@ export const DASHBOARDS: Dashboard[] = [
     ],
   },
   {
+    slug: "hanover",
+    short: "Hanover",
+    title: "Hanover County",
+    group: "local",
+    columns: [
+      {
+        name: "Hanover County Board of Supervisors",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/hanover/bos/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/hanover/bos/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/hanover/bos/budget" },
+          { label: "Members", icon: "people", to: "/dashboards/hanover/bos/members" },
+        ],
+        foia: FOIA.hanover,
+      },
+    ],
+  },
+  {
+    slug: "chesterfield",
+    short: "Chesterfield",
+    title: "Chesterfield County",
+    group: "local",
+    columns: [
+      {
+        name: "Chesterfield County Board of Supervisors",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/chesterfield/bos/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/chesterfield/bos/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/chesterfield/bos/budget" },
+          { label: "Members", icon: "people", to: "/dashboards/chesterfield/bos/members" },
+        ],
+        foia: FOIA.chesterfield,
+      },
+    ],
+  },
+  {
     slug: "manassas",
     short: "Manassas",
     title: "City of Manassas",
@@ -231,4 +269,4 @@ export const DASHBOARDS: Dashboard[] = [
 ];
 
 export const DASHBOARD_BY_SLUG: Record<string, Dashboard> = Object.fromEntries(DASHBOARDS.map((d) => [d.slug, d]));
-export const COMING_SOON_LOCALITIES = ["Chesterfield", "Hanover", "Henrico"];
+export const COMING_SOON_LOCALITIES = ["Henrico"];
