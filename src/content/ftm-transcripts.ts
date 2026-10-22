@@ -11,6 +11,8 @@
  * (same {start,end,text} shape as caption windows; lazy-loaded on search).
  */
 
+import { VBOE_FTM_TRANSCRIPTS } from "./ftm-transcripts-vboe";
+
 export type FtmTranscriptVenue =
   | "loudoun-bos"
   | "loudoun-lcps"
@@ -47,6 +49,8 @@ export const FTM_TRANSCRIPT_LABEL =
   "Machine transcript (speech-to-text); check the video before quoting.";
 
 export const FTM_TRANSCRIPTS: FtmTranscript[] = [
+  // redesign-v4 preview only: Virginia Board of Education (new location; see ftm-transcripts-vboe.ts)
+  ...VBOE_FTM_TRANSCRIPTS,
   {
     meetingId: "escribe-3a6eea40",
     venue: "loudoun-bos",

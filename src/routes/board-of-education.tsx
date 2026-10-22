@@ -1,3 +1,4 @@
+import { VboeMeetingSearch } from "@/components/site/vboe-meeting-search";
 import { createFileRoute } from "@tanstack/react-router";
 import { FtmThumb } from "@/components/site/ftm-thumb";
 import { isoMeta, useMeetingFilters } from "@/components/site/meeting-filters";
@@ -46,11 +47,15 @@ function VboePage() {
         <section className="mt-10">
           <h2 className="font-serif text-2xl font-medium">Find the Moment</h2>
           <div className="mt-4 grid grid-cols-[minmax(0,1fr)] gap-8 lg:grid-cols-[minmax(0,1fr)_15rem] lg:items-start">
+            {searchable > 0 ? (
+              <VboeMeetingSearch />
+            ) : (
             <div className="rounded-md border border-border bg-card px-5 py-5 text-sm text-muted-foreground">
               {searchable > 0
                 ? `${searchable} Board of Education meetings are transcribed. Open a meeting below to jump to its video.`
                 : "Board of Education meetings are queued for transcription. Search opens here as transcripts post."}
             </div>
+            )}
             <VenueStats
               heading="By the numbers · Virginia Board of Education"
               meetings={VBOE_MEETINGS}
