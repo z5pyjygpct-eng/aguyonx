@@ -163,7 +163,7 @@
 .agx-legacy .hover\:border-\[\#0d7377\]:hover, .agx-legacy .hover\:border-\[\#1E4B8E\]:hover { border-color: var(--color-gold); }
 .agx-legacy .rounded-md.bg-\[\#1E4B8E\], .agx-legacy .bg-\[\#0d7377\] { background-color: var(--color-gold); color: var(--color-navy-900); }
 .agx-legacy .rounded-md.bg-\[\#1E4B8E\]:hover, .agx-legacy .bg-\[\#0d7377\]:hover { background-color: var(--color-gold-hover); }
-.agx-legacy mark { background-color: rgb(245 184 46 / 0.32); color: #fff; }
+.agx-legacy mark { background-color: #fde7a3; color: var(--color-navy-800); }
 .agx-legacy .bg-\[\#fdf0e6\] { background-color: rgb(245 184 46 / 0.1); color: #f6f3ea; border-color: var(--color-gold); }
 .agx-legacy .bg-\[\#e6f2ee\] { background-color: rgb(46 180 110 / 0.15); color: #7be0ae; }
 .agx-legacy .text-\[\#b42318\] { color: #ffb3bf; }

@@ -230,7 +230,7 @@ function Home() {
           {feature ? (
             <section className="pt-6">
               <div className="flex flex-col overflow-hidden rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 lg:flex-row">
-                <img src={feature.image} alt={feature.imageAlt} className="h-44 w-full object-cover sm:h-64 lg:h-auto lg:w-[52%]" />
+                <div className="flex items-center justify-center bg-navy-900 lg:w-[52%]"><img src={feature.image} alt={feature.imageAlt} className="h-auto max-h-80 w-full object-contain" /></div>
                 <div className="flex-1 p-5 sm:p-7">
                   <p className="font-serif text-xs font-semibold tracking-[0.18em] text-gold uppercase">
                     {feature.kicker} · {feature.displayDate}
