@@ -5,5 +5,5 @@ import { V4_VENUES } from "@/lib/v4-venues";
 
 export const Route = createFileRoute("/dashboards/chesterfield/bos/recaps")({
   head: () => ({ meta: [{ title: "Chesterfield BOS Meeting Recaps · A Guy on X" }] }),
-  component: () => <SiteShell><ComingSoonV4 venue={V4_VENUES["chesterfield-bos"]} kicker="Meeting Recaps" /></SiteShell>,
+  component: () => <SiteShell><ComingSoonV4 venue={V4_VENUES["chesterfield-bos"]} kicker="Meeting Recaps" label="In-Process" /></SiteShell>,
 });
