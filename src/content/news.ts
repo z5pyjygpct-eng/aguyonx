@@ -38,6 +38,8 @@ export type NewsItem = {
   people: NewsPerson[];
   scope: NewsScope;
   advocacy?: boolean;
+  /** Dashboard slugs (src/lib/dashboards.ts) this story is about. Set by ingest via tagNewsLocations; omit if none. */
+  locations?: string[];
 };
 
 export function personChip(person: NewsPerson): string {

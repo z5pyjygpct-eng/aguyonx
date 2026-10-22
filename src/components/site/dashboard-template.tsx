@@ -3,6 +3,7 @@ import { ArrowRight, BookOpen, DollarSign, ExternalLink, List, Mail, Play, Users
 import type { Dashboard, DashTile } from "@/lib/dashboards";
 import { HeroSearch } from "@/components/site/hero-search";
 import { Breadcrumbs, colId } from "@/components/site/breadcrumbs";
+import { LocationNews } from "@/components/site/location-news";
 
 const ICON = { play: Play, list: List, money: DollarSign, people: Users, book: BookOpen } as const;
 
@@ -91,6 +92,7 @@ export function DashboardTemplate({ d, plain = false }: { d: Dashboard; plain?: 
             </div>
           ))}
         </div>
+        {!plain && <LocationNews slug={d.slug} title={d.title} />}
         {!plain && <p className="mt-8 text-sm text-night-muted">
           "Coming soon" means we have no published data for that section yet. FOIA buttons open each body's official records-request page.
         </p>}
