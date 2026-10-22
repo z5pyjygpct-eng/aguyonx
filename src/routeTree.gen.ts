@@ -89,6 +89,11 @@ import { Route as DashboardsAlbemarleSchoolsFindTheMomentRouteImport } from './r
 import { Route as DashboardsAlbemarleSchoolsMembersRouteImport } from './routes/dashboards.albemarle.schools.members'
 import { Route as DashboardsAlbemarleSchoolsPoliciesRouteImport } from './routes/dashboards.albemarle.schools.policies'
 import { Route as DashboardsAlbemarleSchoolsRecapsRouteImport } from './routes/dashboards.albemarle.schools.recaps'
+import { Route as DashboardsBoardOfEducationRecapsSlugRouteImport } from './routes/dashboards.board-of-education.recaps_.$slug'
+import { Route as DashboardsChesterfieldBosBudgetRouteImport } from './routes/dashboards.chesterfield.bos.budget'
+import { Route as DashboardsChesterfieldBosFindTheMomentRouteImport } from './routes/dashboards.chesterfield.bos.find-the-moment'
+import { Route as DashboardsChesterfieldBosMembersRouteImport } from './routes/dashboards.chesterfield.bos.members'
+import { Route as DashboardsChesterfieldBosRecapsRouteImport } from './routes/dashboards.chesterfield.bos.recaps'
 import { Route as DashboardsFairfaxCityCouncilBudgetRouteImport } from './routes/dashboards.fairfax-city.council.budget'
 import { Route as DashboardsFairfaxCityCouncilFindTheMomentRouteImport } from './routes/dashboards.fairfax-city.council.find-the-moment'
 import { Route as DashboardsFairfaxCityCouncilMembersRouteImport } from './routes/dashboards.fairfax-city.council.members'
@@ -98,6 +103,10 @@ import { Route as DashboardsFairfaxCitySchoolsFindTheMomentRouteImport } from '.
 import { Route as DashboardsFairfaxCitySchoolsMembersRouteImport } from './routes/dashboards.fairfax-city.schools.members'
 import { Route as DashboardsFairfaxCitySchoolsPoliciesRouteImport } from './routes/dashboards.fairfax-city.schools.policies'
 import { Route as DashboardsFairfaxCitySchoolsRecapsRouteImport } from './routes/dashboards.fairfax-city.schools.recaps'
+import { Route as DashboardsHanoverBosBudgetRouteImport } from './routes/dashboards.hanover.bos.budget'
+import { Route as DashboardsHanoverBosFindTheMomentRouteImport } from './routes/dashboards.hanover.bos.find-the-moment'
+import { Route as DashboardsHanoverBosMembersRouteImport } from './routes/dashboards.hanover.bos.members'
+import { Route as DashboardsHanoverBosRecapsRouteImport } from './routes/dashboards.hanover.bos.recaps'
 import { Route as DashboardsHouseMembersSlugRouteImport } from './routes/dashboards.house.members_.$slug'
 import { Route as DashboardsLoudounBosBudgetRouteImport } from './routes/dashboards.loudoun.bos.budget'
 import { Route as DashboardsLoudounBosFindTheMomentRouteImport } from './routes/dashboards.loudoun.bos.find-the-moment'
@@ -543,6 +552,36 @@ const DashboardsAlbemarleSchoolsRecapsRoute =
     path: '/dashboards/albemarle/schools/recaps',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DashboardsBoardOfEducationRecapsSlugRoute =
+  DashboardsBoardOfEducationRecapsSlugRouteImport.update({
+    id: '/dashboards/board-of-education/recaps_/$slug',
+    path: '/dashboards/board-of-education/recaps/$slug',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsChesterfieldBosBudgetRoute =
+  DashboardsChesterfieldBosBudgetRouteImport.update({
+    id: '/dashboards/chesterfield/bos/budget',
+    path: '/dashboards/chesterfield/bos/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsChesterfieldBosFindTheMomentRoute =
+  DashboardsChesterfieldBosFindTheMomentRouteImport.update({
+    id: '/dashboards/chesterfield/bos/find-the-moment',
+    path: '/dashboards/chesterfield/bos/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsChesterfieldBosMembersRoute =
+  DashboardsChesterfieldBosMembersRouteImport.update({
+    id: '/dashboards/chesterfield/bos/members',
+    path: '/dashboards/chesterfield/bos/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsChesterfieldBosRecapsRoute =
+  DashboardsChesterfieldBosRecapsRouteImport.update({
+    id: '/dashboards/chesterfield/bos/recaps',
+    path: '/dashboards/chesterfield/bos/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DashboardsFairfaxCityCouncilBudgetRoute =
   DashboardsFairfaxCityCouncilBudgetRouteImport.update({
     id: '/dashboards/fairfax-city/council/budget',
@@ -595,6 +634,30 @@ const DashboardsFairfaxCitySchoolsRecapsRoute =
   DashboardsFairfaxCitySchoolsRecapsRouteImport.update({
     id: '/dashboards/fairfax-city/schools/recaps',
     path: '/dashboards/fairfax-city/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHanoverBosBudgetRoute =
+  DashboardsHanoverBosBudgetRouteImport.update({
+    id: '/dashboards/hanover/bos/budget',
+    path: '/dashboards/hanover/bos/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHanoverBosFindTheMomentRoute =
+  DashboardsHanoverBosFindTheMomentRouteImport.update({
+    id: '/dashboards/hanover/bos/find-the-moment',
+    path: '/dashboards/hanover/bos/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHanoverBosMembersRoute =
+  DashboardsHanoverBosMembersRouteImport.update({
+    id: '/dashboards/hanover/bos/members',
+    path: '/dashboards/hanover/bos/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHanoverBosRecapsRoute =
+  DashboardsHanoverBosRecapsRouteImport.update({
+    id: '/dashboards/hanover/bos/recaps',
+    path: '/dashboards/hanover/bos/recaps',
     getParentRoute: () => rootRouteImport,
   } as any)
 const DashboardsHouseMembersSlugRoute =
@@ -811,6 +874,11 @@ export interface FileRoutesByFullPath {
   '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
   '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
   '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
+  '/dashboards/board-of-education/recaps/$slug': typeof DashboardsBoardOfEducationRecapsSlugRoute
+  '/dashboards/chesterfield/bos/budget': typeof DashboardsChesterfieldBosBudgetRoute
+  '/dashboards/chesterfield/bos/find-the-moment': typeof DashboardsChesterfieldBosFindTheMomentRoute
+  '/dashboards/chesterfield/bos/members': typeof DashboardsChesterfieldBosMembersRoute
+  '/dashboards/chesterfield/bos/recaps': typeof DashboardsChesterfieldBosRecapsRoute
   '/dashboards/fairfax-city/council/budget': typeof DashboardsFairfaxCityCouncilBudgetRoute
   '/dashboards/fairfax-city/council/find-the-moment': typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
   '/dashboards/fairfax-city/council/members': typeof DashboardsFairfaxCityCouncilMembersRoute
@@ -820,6 +888,10 @@ export interface FileRoutesByFullPath {
   '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/hanover/bos/budget': typeof DashboardsHanoverBosBudgetRoute
+  '/dashboards/hanover/bos/find-the-moment': typeof DashboardsHanoverBosFindTheMomentRoute
+  '/dashboards/hanover/bos/members': typeof DashboardsHanoverBosMembersRoute
+  '/dashboards/hanover/bos/recaps': typeof DashboardsHanoverBosRecapsRoute
   '/dashboards/house/members/$slug': typeof DashboardsHouseMembersSlugRoute
   '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
@@ -914,6 +986,11 @@ export interface FileRoutesByTo {
   '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
   '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
   '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
+  '/dashboards/board-of-education/recaps/$slug': typeof DashboardsBoardOfEducationRecapsSlugRoute
+  '/dashboards/chesterfield/bos/budget': typeof DashboardsChesterfieldBosBudgetRoute
+  '/dashboards/chesterfield/bos/find-the-moment': typeof DashboardsChesterfieldBosFindTheMomentRoute
+  '/dashboards/chesterfield/bos/members': typeof DashboardsChesterfieldBosMembersRoute
+  '/dashboards/chesterfield/bos/recaps': typeof DashboardsChesterfieldBosRecapsRoute
   '/dashboards/fairfax-city/council/budget': typeof DashboardsFairfaxCityCouncilBudgetRoute
   '/dashboards/fairfax-city/council/find-the-moment': typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
   '/dashboards/fairfax-city/council/members': typeof DashboardsFairfaxCityCouncilMembersRoute
@@ -923,6 +1000,10 @@ export interface FileRoutesByTo {
   '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/hanover/bos/budget': typeof DashboardsHanoverBosBudgetRoute
+  '/dashboards/hanover/bos/find-the-moment': typeof DashboardsHanoverBosFindTheMomentRoute
+  '/dashboards/hanover/bos/members': typeof DashboardsHanoverBosMembersRoute
+  '/dashboards/hanover/bos/recaps': typeof DashboardsHanoverBosRecapsRoute
   '/dashboards/house/members/$slug': typeof DashboardsHouseMembersSlugRoute
   '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
@@ -1028,6 +1109,11 @@ export interface FileRoutesById {
   '/dashboards/albemarle/schools/members': typeof DashboardsAlbemarleSchoolsMembersRoute
   '/dashboards/albemarle/schools/policies': typeof DashboardsAlbemarleSchoolsPoliciesRoute
   '/dashboards/albemarle/schools/recaps': typeof DashboardsAlbemarleSchoolsRecapsRoute
+  '/dashboards/board-of-education/recaps_/$slug': typeof DashboardsBoardOfEducationRecapsSlugRoute
+  '/dashboards/chesterfield/bos/budget': typeof DashboardsChesterfieldBosBudgetRoute
+  '/dashboards/chesterfield/bos/find-the-moment': typeof DashboardsChesterfieldBosFindTheMomentRoute
+  '/dashboards/chesterfield/bos/members': typeof DashboardsChesterfieldBosMembersRoute
+  '/dashboards/chesterfield/bos/recaps': typeof DashboardsChesterfieldBosRecapsRoute
   '/dashboards/fairfax-city/council/budget': typeof DashboardsFairfaxCityCouncilBudgetRoute
   '/dashboards/fairfax-city/council/find-the-moment': typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
   '/dashboards/fairfax-city/council/members': typeof DashboardsFairfaxCityCouncilMembersRoute
@@ -1037,6 +1123,10 @@ export interface FileRoutesById {
   '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/hanover/bos/budget': typeof DashboardsHanoverBosBudgetRoute
+  '/dashboards/hanover/bos/find-the-moment': typeof DashboardsHanoverBosFindTheMomentRoute
+  '/dashboards/hanover/bos/members': typeof DashboardsHanoverBosMembersRoute
+  '/dashboards/hanover/bos/recaps': typeof DashboardsHanoverBosRecapsRoute
   '/dashboards/house/members_/$slug': typeof DashboardsHouseMembersSlugRoute
   '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
@@ -1143,6 +1233,11 @@ export interface FileRouteTypes {
     | '/dashboards/albemarle/schools/members'
     | '/dashboards/albemarle/schools/policies'
     | '/dashboards/albemarle/schools/recaps'
+    | '/dashboards/board-of-education/recaps/$slug'
+    | '/dashboards/chesterfield/bos/budget'
+    | '/dashboards/chesterfield/bos/find-the-moment'
+    | '/dashboards/chesterfield/bos/members'
+    | '/dashboards/chesterfield/bos/recaps'
     | '/dashboards/fairfax-city/council/budget'
     | '/dashboards/fairfax-city/council/find-the-moment'
     | '/dashboards/fairfax-city/council/members'
@@ -1152,6 +1247,10 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/members'
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/hanover/bos/budget'
+    | '/dashboards/hanover/bos/find-the-moment'
+    | '/dashboards/hanover/bos/members'
+    | '/dashboards/hanover/bos/recaps'
     | '/dashboards/house/members/$slug'
     | '/dashboards/loudoun/bos/budget'
     | '/dashboards/loudoun/bos/find-the-moment'
@@ -1246,6 +1345,11 @@ export interface FileRouteTypes {
     | '/dashboards/albemarle/schools/members'
     | '/dashboards/albemarle/schools/policies'
     | '/dashboards/albemarle/schools/recaps'
+    | '/dashboards/board-of-education/recaps/$slug'
+    | '/dashboards/chesterfield/bos/budget'
+    | '/dashboards/chesterfield/bos/find-the-moment'
+    | '/dashboards/chesterfield/bos/members'
+    | '/dashboards/chesterfield/bos/recaps'
     | '/dashboards/fairfax-city/council/budget'
     | '/dashboards/fairfax-city/council/find-the-moment'
     | '/dashboards/fairfax-city/council/members'
@@ -1255,6 +1359,10 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/members'
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/hanover/bos/budget'
+    | '/dashboards/hanover/bos/find-the-moment'
+    | '/dashboards/hanover/bos/members'
+    | '/dashboards/hanover/bos/recaps'
     | '/dashboards/house/members/$slug'
     | '/dashboards/loudoun/bos/budget'
     | '/dashboards/loudoun/bos/find-the-moment'
@@ -1359,6 +1467,11 @@ export interface FileRouteTypes {
     | '/dashboards/albemarle/schools/members'
     | '/dashboards/albemarle/schools/policies'
     | '/dashboards/albemarle/schools/recaps'
+    | '/dashboards/board-of-education/recaps_/$slug'
+    | '/dashboards/chesterfield/bos/budget'
+    | '/dashboards/chesterfield/bos/find-the-moment'
+    | '/dashboards/chesterfield/bos/members'
+    | '/dashboards/chesterfield/bos/recaps'
     | '/dashboards/fairfax-city/council/budget'
     | '/dashboards/fairfax-city/council/find-the-moment'
     | '/dashboards/fairfax-city/council/members'
@@ -1368,6 +1481,10 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/members'
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/hanover/bos/budget'
+    | '/dashboards/hanover/bos/find-the-moment'
+    | '/dashboards/hanover/bos/members'
+    | '/dashboards/hanover/bos/recaps'
     | '/dashboards/house/members_/$slug'
     | '/dashboards/loudoun/bos/budget'
     | '/dashboards/loudoun/bos/find-the-moment'
@@ -1450,6 +1567,11 @@ export interface RootRouteChildren {
   DashboardsAlbemarleSchoolsMembersRoute: typeof DashboardsAlbemarleSchoolsMembersRoute
   DashboardsAlbemarleSchoolsPoliciesRoute: typeof DashboardsAlbemarleSchoolsPoliciesRoute
   DashboardsAlbemarleSchoolsRecapsRoute: typeof DashboardsAlbemarleSchoolsRecapsRoute
+  DashboardsBoardOfEducationRecapsSlugRoute: typeof DashboardsBoardOfEducationRecapsSlugRoute
+  DashboardsChesterfieldBosBudgetRoute: typeof DashboardsChesterfieldBosBudgetRoute
+  DashboardsChesterfieldBosFindTheMomentRoute: typeof DashboardsChesterfieldBosFindTheMomentRoute
+  DashboardsChesterfieldBosMembersRoute: typeof DashboardsChesterfieldBosMembersRoute
+  DashboardsChesterfieldBosRecapsRoute: typeof DashboardsChesterfieldBosRecapsRoute
   DashboardsFairfaxCityCouncilBudgetRoute: typeof DashboardsFairfaxCityCouncilBudgetRoute
   DashboardsFairfaxCityCouncilFindTheMomentRoute: typeof DashboardsFairfaxCityCouncilFindTheMomentRoute
   DashboardsFairfaxCityCouncilMembersRoute: typeof DashboardsFairfaxCityCouncilMembersRoute
@@ -1459,6 +1581,10 @@ export interface RootRouteChildren {
   DashboardsFairfaxCitySchoolsMembersRoute: typeof DashboardsFairfaxCitySchoolsMembersRoute
   DashboardsFairfaxCitySchoolsPoliciesRoute: typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   DashboardsFairfaxCitySchoolsRecapsRoute: typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  DashboardsHanoverBosBudgetRoute: typeof DashboardsHanoverBosBudgetRoute
+  DashboardsHanoverBosFindTheMomentRoute: typeof DashboardsHanoverBosFindTheMomentRoute
+  DashboardsHanoverBosMembersRoute: typeof DashboardsHanoverBosMembersRoute
+  DashboardsHanoverBosRecapsRoute: typeof DashboardsHanoverBosRecapsRoute
   DashboardsHouseMembersSlugRoute: typeof DashboardsHouseMembersSlugRoute
   DashboardsLoudounBosBudgetRoute: typeof DashboardsLoudounBosBudgetRoute
   DashboardsLoudounBosFindTheMomentRoute: typeof DashboardsLoudounBosFindTheMomentRoute
@@ -2043,6 +2169,41 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardsAlbemarleSchoolsRecapsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dashboards/board-of-education/recaps_/$slug': {
+      id: '/dashboards/board-of-education/recaps_/$slug'
+      path: '/dashboards/board-of-education/recaps/$slug'
+      fullPath: '/dashboards/board-of-education/recaps/$slug'
+      preLoaderRoute: typeof DashboardsBoardOfEducationRecapsSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/chesterfield/bos/budget': {
+      id: '/dashboards/chesterfield/bos/budget'
+      path: '/dashboards/chesterfield/bos/budget'
+      fullPath: '/dashboards/chesterfield/bos/budget'
+      preLoaderRoute: typeof DashboardsChesterfieldBosBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/chesterfield/bos/find-the-moment': {
+      id: '/dashboards/chesterfield/bos/find-the-moment'
+      path: '/dashboards/chesterfield/bos/find-the-moment'
+      fullPath: '/dashboards/chesterfield/bos/find-the-moment'
+      preLoaderRoute: typeof DashboardsChesterfieldBosFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/chesterfield/bos/members': {
+      id: '/dashboards/chesterfield/bos/members'
+      path: '/dashboards/chesterfield/bos/members'
+      fullPath: '/dashboards/chesterfield/bos/members'
+      preLoaderRoute: typeof DashboardsChesterfieldBosMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/chesterfield/bos/recaps': {
+      id: '/dashboards/chesterfield/bos/recaps'
+      path: '/dashboards/chesterfield/bos/recaps'
+      fullPath: '/dashboards/chesterfield/bos/recaps'
+      preLoaderRoute: typeof DashboardsChesterfieldBosRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dashboards/fairfax-city/council/budget': {
       id: '/dashboards/fairfax-city/council/budget'
       path: '/dashboards/fairfax-city/council/budget'
@@ -2104,6 +2265,34 @@ declare module '@tanstack/react-router' {
       path: '/dashboards/fairfax-city/schools/recaps'
       fullPath: '/dashboards/fairfax-city/schools/recaps'
       preLoaderRoute: typeof DashboardsFairfaxCitySchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/hanover/bos/budget': {
+      id: '/dashboards/hanover/bos/budget'
+      path: '/dashboards/hanover/bos/budget'
+      fullPath: '/dashboards/hanover/bos/budget'
+      preLoaderRoute: typeof DashboardsHanoverBosBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/hanover/bos/find-the-moment': {
+      id: '/dashboards/hanover/bos/find-the-moment'
+      path: '/dashboards/hanover/bos/find-the-moment'
+      fullPath: '/dashboards/hanover/bos/find-the-moment'
+      preLoaderRoute: typeof DashboardsHanoverBosFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/hanover/bos/members': {
+      id: '/dashboards/hanover/bos/members'
+      path: '/dashboards/hanover/bos/members'
+      fullPath: '/dashboards/hanover/bos/members'
+      preLoaderRoute: typeof DashboardsHanoverBosMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/hanover/bos/recaps': {
+      id: '/dashboards/hanover/bos/recaps'
+      path: '/dashboards/hanover/bos/recaps'
+      fullPath: '/dashboards/hanover/bos/recaps'
+      preLoaderRoute: typeof DashboardsHanoverBosRecapsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/dashboards/house/members_/$slug': {
@@ -2476,6 +2665,13 @@ const rootRouteChildren: RootRouteChildren = {
   DashboardsAlbemarleSchoolsPoliciesRoute:
     DashboardsAlbemarleSchoolsPoliciesRoute,
   DashboardsAlbemarleSchoolsRecapsRoute: DashboardsAlbemarleSchoolsRecapsRoute,
+  DashboardsBoardOfEducationRecapsSlugRoute:
+    DashboardsBoardOfEducationRecapsSlugRoute,
+  DashboardsChesterfieldBosBudgetRoute: DashboardsChesterfieldBosBudgetRoute,
+  DashboardsChesterfieldBosFindTheMomentRoute:
+    DashboardsChesterfieldBosFindTheMomentRoute,
+  DashboardsChesterfieldBosMembersRoute: DashboardsChesterfieldBosMembersRoute,
+  DashboardsChesterfieldBosRecapsRoute: DashboardsChesterfieldBosRecapsRoute,
   DashboardsFairfaxCityCouncilBudgetRoute:
     DashboardsFairfaxCityCouncilBudgetRoute,
   DashboardsFairfaxCityCouncilFindTheMomentRoute:
@@ -2494,6 +2690,11 @@ const rootRouteChildren: RootRouteChildren = {
     DashboardsFairfaxCitySchoolsPoliciesRoute,
   DashboardsFairfaxCitySchoolsRecapsRoute:
     DashboardsFairfaxCitySchoolsRecapsRoute,
+  DashboardsHanoverBosBudgetRoute: DashboardsHanoverBosBudgetRoute,
+  DashboardsHanoverBosFindTheMomentRoute:
+    DashboardsHanoverBosFindTheMomentRoute,
+  DashboardsHanoverBosMembersRoute: DashboardsHanoverBosMembersRoute,
+  DashboardsHanoverBosRecapsRoute: DashboardsHanoverBosRecapsRoute,
   DashboardsHouseMembersSlugRoute: DashboardsHouseMembersSlugRoute,
   DashboardsLoudounBosBudgetRoute: DashboardsLoudounBosBudgetRoute,
   DashboardsLoudounBosFindTheMomentRoute:
