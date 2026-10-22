@@ -3,7 +3,7 @@ import { SiteShell } from "@/components/site/shell";
 import { DashboardTemplate } from "@/components/site/dashboard-template";
 import { DASHBOARD_BY_SLUG } from "@/lib/dashboards";
 
-export const Route = createFileRoute("/dashboards/$body")({
+export const Route = createFileRoute("/dashboards/$body/")({
   head: ({ params }) => ({
     meta: [{ title: `${DASHBOARD_BY_SLUG[params.body]?.title ?? "Dashboard"} Dashboard · A Guy on X` }],
   }),

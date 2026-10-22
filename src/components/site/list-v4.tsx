@@ -15,7 +15,8 @@ export function fmtIso(iso: string, year = true) {
   return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-US", { month: "short", day: "numeric", ...(year ? { year: "numeric" } : {}), timeZone: "UTC" });
 }
 
-export function ListV4Page({ kicker, title, dek, rows, groupLabel, groups, page, onPage, emptyNote, aside, search, headerShare }: {
+export function ListV4Page({ kicker, title, dek, rows, groupLabel, groups, page, onPage, emptyNote, aside, search, headerShare, crumbs }: {
+  crumbs?: import("@/components/site/breadcrumbs").Crumb[];
   search?: ReactNode; headerShare?: { text: string; url: string };
   kicker: string; title: string; dek: ReactNode; rows: V4Row[]; groupLabel: string; groups: { value: string; label: string }[];
   page: number; onPage: (p: number) => void; emptyNote?: (group: string) => ReactNode; aside?: ReactNode;
@@ -38,7 +39,7 @@ export function ListV4Page({ kicker, title, dek, rows, groupLabel, groups, page,
       <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
         <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
         <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8">
-          <Breadcrumbs items={[{ label: title }]} />
+          <Breadcrumbs items={crumbs ?? [{ label: title }]} />
           <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase sm:text-base">{kicker}</p>
           <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">{title}</h1>
           <p className="mt-3 max-w-2xl text-on-dark-muted">{dek}</p>

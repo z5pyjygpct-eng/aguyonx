@@ -1,4 +1,5 @@
-import { ExternalLink } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
+import { Link } from "@tanstack/react-router";
 import { newsForLocation } from "@/lib/news-locations";
 
 function fmt(d: string) {
@@ -8,10 +9,18 @@ function fmt(d: string) {
 
 /** Full-width gold News box on a location dashboard. Additive: homepage News / NoVA Briefings are unchanged. */
 export function LocationNews({ slug, title }: { slug: string; title: string }) {
-  const items = newsForLocation(slug);
+  const all = newsForLocation(slug);
+  const items = all.slice(0, 5);
   return (
     <section id="news" aria-labelledby="loc-news-h" className="mt-6 scroll-mt-24 rounded-xl bg-[#f5b82e] p-5 text-navy-800 sm:p-7">
-      <h2 id="loc-news-h" className="font-serif text-2xl font-bold uppercase">News: {title} Related News</h2>
+      <div className="flex flex-wrap items-center gap-3">
+        <h2 id="loc-news-h" className="font-serif text-2xl font-bold uppercase">News: {title} Related News</h2>
+        {all.length > 5 ? (
+          <Link to="/dashboards/$body/news" params={{ body: slug }} className="inline-flex min-h-11 items-center rounded-md bg-navy-800 px-4 font-semibold text-gold hover:bg-navy-700 sm:ml-auto">
+            All {title} News <ArrowRight className="ml-1 size-4" />
+          </Link>
+        ) : null}
+      </div>
       {items.length === 0 ? (
         <p className="mt-4 font-semibold">No related news yet</p>
       ) : (
