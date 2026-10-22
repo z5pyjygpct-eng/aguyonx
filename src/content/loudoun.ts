@@ -117,6 +117,20 @@ export const LOUDOUN_BOS: BosMember[] = [
 /** Searchable BOS meeting index — Granicus archive + eScribe (post-migration). */
 export const LOUDOUN_MEETINGS: LoudounMeeting[] = [
   {
+    id: "escribe-22e65f92",
+    provider: "escribe",
+    escribeId: "22e65f92-8862-46da-afba-f594bd09768a",
+    title: "Loudoun BOS Business Meeting",
+    dateLabel: "Oct 20, 2026",
+    duration: "8h 1m",
+    playerUrl:
+      "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=22e65f92-8862-46da-afba-f594bd09768a",
+    videoUrl:
+      "https://video.isilive.ca/loudouncty/91-Board-of-Supervisors-Business-Meeting-2026-10-20-19-51.mp4",
+    windowsUrl: "/files/find-the-moment/loudoun-bos/escribe-22e65f92.json",
+    windowCount: 707,
+  },
+  {
     id: "escribe-7960f118",
     provider: "escribe",
     escribeId: "7960f118-c668-45ef-a975-2362de95de1c",
