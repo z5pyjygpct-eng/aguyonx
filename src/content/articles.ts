@@ -19,18 +19,8 @@ export const ARTICLES: Story[] = [
         type: "p",
         text: "Introducing VPIP. The book came first. Grassroots Intelligence: The New Age of Citizen Political Research was written for a simple reason: professional-grade political research should not be locked behind consultant retainers.",
       },
-      {
-        type: "p",
-        text: "The full piece is on X.",
-      },
     ],
-    citations: [
-      {
-        id: "x-article",
-        label: "X Article",
-        href: "https://x.com/VaChangeAgent/status/2087217270191731178",
-      },
-    ],
+    citations: [],
     documents: [],
   },
   {

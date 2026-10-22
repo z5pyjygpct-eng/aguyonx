@@ -416,7 +416,6 @@ export const INVESTIGATIONS: Story[] = [
     ],
     citations: [
       { id: "boarddocs-item", label: "LCPS BoardDocs — School Board Retreat item 5.05 Public Comment (Sep 15, 2026)", href: "https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=DWNNKB6046A6" },
-      { id: "boarddocs-county", label: "Public Comments Comparison by County (reviewed 9/9/26)", href: "https://go.boarddocs.com/vsba/loudoun/Board.nsf/files/DXTHU94A26D7/$file/Public%20Comments%20Comparison%20by%20County%20(3).pdf" },
       { id: "boarddocs-vsba", label: "VSBA Policy Page — October 2025 (Open Meetings, Fair Voices)", href: "https://go.boarddocs.com/vsba/loudoun/Board.nsf/files/DXTKKD523958/$file/The%20Policy%20Page%20-%20VSBA%20Oct.%202025.pdf" },
     ],
     documents: [
