@@ -51,6 +51,36 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "arlington-ca-backs-board-polling-suit-arlingtonva-2026-10-21",
+    date: "2026-10-21",
+    filed: "2026-10-22",
+    headline: "Commonwealth\u2019s Attorney Backs Lawsuit to Protect Voters at Polls",
+    outlet: "Arlington County",
+    url: "https://www.arlingtonva.us/Government/Departments/Courts/Commonwealth-Attorney/Commonwealth%E2%80%99s-Attorney-News/Commonwealth%E2%80%99s-Attorney-Supports-Arlington-County-Board-Lawsuit-Against-Federal-Policies-to-Protect-Voters-from-Intimidation-at-Polling-Places",
+    people: [{ name: "Parisa Dehghani-Tafti", office: "Arlington Commonwealth's Attorney" }],
+    scope: "local",
+  },
+  {
+    id: "anderson-bulletin-registrars-doj-monitors-potomaclocal-2026-10-21",
+    date: "2026-10-21",
+    filed: "2026-10-22",
+    headline: "Former Del. Tim Anderson says Virginia bulletin tells registrars they may deny DOJ monitors access",
+    outlet: "Potomac Local News",
+    url: "https://www.potomaclocal.com/2026/10/21/virginia-bulletin-tells-registrars-they-may-deny-doj-monitors-access/",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "suspicious-letters-leesburg-mail-center-fox5dc-2026-10-21",
+    date: "2026-10-21",
+    filed: "2026-10-22",
+    headline: "Suspicious letters spark safety scares at regional lawmakers' offices, mail centers",
+    outlet: "FOX 5 DC",
+    url: "https://www.fox5dc.com/news/suspicious-letters-spark-safety-scares-regional-lawmakers-offices-mail-centers",
+    people: [{ name: "Suhas Subramanyam", office: "U.S. Representative" }],
+    scope: "local",
+  },
+  {
     id: "vantage-eyes-earlier-removal-of-gas-loudounnow-2026-10-21",
     date: "2026-10-21",
     filed: "2026-10-22",
