@@ -1,0 +1,202 @@
+Coraggio Consulting
+Loudoun County School Board, Technology Steering Committee Meeting, Thursday, June 15, 2023
+
+Date: Thursday, June 15, 2023
+Place: Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)
+Length: 37m (video)
+Official meeting video (Vimeo / LCPS-TV): https://player.vimeo.com/video/836700954?rel=0
+BoardDocs (School Board): https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public
+
+Machine transcript (speech-to-text) produced by Coraggio Consulting. Not an official county record. Names and numbers may be misspelled; check the video at the timestamp before quoting.
+Speech-to-text: whisper.cpp, model large-v3-turbo. Produced 2026-10-22. Timestamps are [HH:MM:SS] into the meeting video.
+
+----------------------------------------------------------------------
+
+[00:00:01] Good evening. I'd like to call to order the meeting of the June 15th, 2023, Technology Steering Committee. And our first order of business, I've been notified that Denise Corb would like to remotely participate in tonight's Technology Steering Committee meeting, and if she could state her location.
+
+[00:00:21] I am at my daughter's. I'm alone under policy 2420. I'm asking for remote participation due to an ongoing medical condition and disability as confirmed by LCPS HRTD under ADA law for health and medical reasons. Thank you.
+
+[00:00:47] Okay. I'll entertain a motion that Denise Corbo's request to participate remotely be granted. Sorry, Ms. Corbo, that's going to fail for lack of motion. Would you like to use a personal exemption? No, thank you. A medical exemption should suffice. Thank you.
+
+[00:01:04] Okay, thank you. And with that, we'll move on to item two of the agenda, public comment. And I have one commenter, and so we'll allow five minutes to start. So our first public commenter is Mario Vargas.
+
+[00:01:20] Good evening. I am a teacher at Broad Run High School, and I'm coming before you guys because I see that you guys are talking about content filtering through the district network. One of the things that I feel like that is lacking within our district is a classroom management software such as Dyno, GoGuardian, Land School, and also within the confines of Lightspeed as well.
+
+[00:01:43] This could allow us to monitor student progress in real time, utilizing screen sharing automatically from the student to the teacher. We would feel that this could cut down on academic dishonesty. It could cut down on student distracted.
+
+[00:02:00] Many times students are playing games when they should be doing work. In my classroom, we are high technology, and I utilize it quite frequently. And when we have increasing numbers of students coming into our classrooms and allowing us to have this type of technology could reduce the amount of time instead of me wandering around the classroom looking at 30 different computers trying to make sure that students are doing what they need to do.
+
+[00:02:27] I feel this could be absolutely useful, and the district should absolutely consider it in order to help teachers to cut down on academic dishonesty, to cut down on distracted learning, and also to make the classroom environment a bit more uniform as well.
+
+[00:02:45] Thank you. With that, we'll move on to the approval of the draft minutes. Is there a motion? I move to approve the minutes from the March 16, 2023 Technology Steering Committee meeting.
+
+[00:03:01] I'll second that. Any discussion? All those in favor of the motion please raise your hand and say aye. Aye. So that'll pass unanimously. Board members present with Ms. Corvo absent for the vote. All right. Item four on the agenda is our chat GPT update. Mr. Smith take it away.
+
+[00:03:20] Awesome. Well, thank you for the chance to present regarding AI and chat GPT. We talked about this in March and we're bringing back just an update. So we kind of did a baseline level set previously. So we have a couple slides and I'm going to speak to kind of the evolution, what things look like and kind of where we envision this going.
+
+[00:03:39] So just a reminder, ChatGPT is a text generative AI interface where you can go in and ask it a question and it'll generate text, whether that be a paragraph, it'll answer questions, it'll write emails, just different formats that you can cut and paste that text and put it into other things.
+
+[00:03:56] Since ChatGPT kind of started in November of 2022, and it got pretty popular in February of 2023, a lot of school districts reacted and just blocked it because we weren't sure about the technology and what it looked like. So we continue to block those as we become aware of them.
+
+[00:04:13] As you can see here, this is just a screenshot from a site that's like 30 ChatGPT alternatives. So we are seeing lots of growth in this space. Google Bar, just different applications that are coming around. And it's just, ChatGPT is just one tool of the AI tool available, so it's kind of like the Kleenex tissue scenario.
+
+[00:04:32] So it's how people are referring to them, but there are a ton of them. And there are tools that can generate image-to-text or images, and so all sorts of different AI generation that's out there. So as part of just establishing a baseline, we participated with the Virginia Association for Supervision of Curriculum and Development, the VASTI team, to help develop a white paper.
+
+[00:04:52] It's about 22 pages long, and it just outlines some things to be mindful of as you look at the technology. We are still currently blocking it for students, but we're actually having a conversation tomorrow about what this kind of looks like for the district and even some productivity gains that could be allowed if we grant staff access to it.
+
+[00:05:14] So you can see kind of the biggest thing right now is the U.S. Department of Education had called for an AI Bill of Rights. It includes six items that they really want to find by AI companies to make sure that it's ethical, that it's unbiased, that student data is protected. And that's really what we're waiting on before students' access is granted, is we really need to make sure that student data and student data privacy is protected. We see a lot of this technology is being created to share as much data and be as open as possible, and we really can't do that in the student environment with that student data. So staff signing up for accounts is much different than granting accounts for students and sending that access to those things. So here's another headline that I
+
+[00:05:53] just clipped and threw in here. New York schools were one of the big ones that just block chat GBT off the bat. And now they're kind of, a lot of school districts are having these conversations about reconsidering what the technology looks like. It's something that's here, and it's going to evolve, and it's going to stay. And so we're just working on ways about how we're going to bring that in responsibly and thoughtfully into the district. And I said, as of right now, there isn't a game plan to allow access for students just because of the student data privacy concerns.
+
+[00:06:21] We are also continuing to work with our vendors, such as like Turnitin, to do AI detection for plagiarism. So those are some of the things that are on the roadmap. So I think this will be something we continue to talk about for the next several years as it evolves. It is not something that we intend on shying away from or blocking for all staff.
+
+[00:06:40] So I think that will be one of the first steps that you see the district take. So that was really the update we have now. I'm happy to answer any questions or any gaps that I might have not covered. Thank you very much. So one question, you mentioned Google Bard.
+
+[00:06:59] Could you talk about some of the availability to students with that? I mean, I imagine it's built into like the whole Google suite. So is it something we can turn on and off or is it even available? Actually, Google Bard doesn't allow you to sign up with a school account. You have to use a personal account. So it's not even available in our Google Works suite to even enable for students.
+
+[00:07:18] I think that's pretty intentional from Google. I think they understand. So you can't even use your lcps.org account to sign up for Google Bar. You have to use a personal Gmail account. So that may be something that evolves and changes. A lot of these are in beta still. So it's just a growing, evolving.
+
+[00:07:36] And every day, there's another 30 articles that come out on it. I think my Google alert just goes off every single day about every single ChatGPT article that comes out. So it's evolving rapidly. I wonder how many of those are written by ChatGPT. One product I know that's come out is the Adobe, I think it's Illustrator, Photoshop, they've got sort of an AI fill in there, and I imagine that's part of the challenge and probably why New York City schools are thinking of like adding AI tools in there. So what products do we have that are introducing like AI things into there that we
+
+[00:08:10] have to consider as we go on? So AI has been around for a while. It's been everything from like recommending texts, grammatical changes, those type of things, tone changes to emails, like Grammarly, those type of things have been around for a while. And we do embed those things in many administrators use Grammarly to write emails and those type of things.
+
+[00:08:30] So we do already have a subset of that technology. And as we see, we do have an Adobe Creative Cloud. So that's one of the things I was actually just looking at today is what's included in our license with that. What are our configuration options? It's one of those things where things are kind of popping up all over the place and we're, they're coming so fast, we're reacting to them instead of being able to be proactive them so um that is the one that i was actually just looking at before this meeting to figure out what's included with our licensing what's showing for students what's showing for staff and the team is investigating it okay yeah no i'm it's it's just gonna be a game of um not really cat and mouse but just sort of you know seeing where it all goes and how we can use it and
+
+[00:09:09] where it's going to be detrimental um since dr ellis is here can i ask you what how this is going into the the curriculum the curriculum or teaching and learning like how you're anticipating changes that are happening in terms of like student access to Chromebooks, student access to any of these tools on our Chromebooks and how it's going to affect how we're going to teach our students in the next couple of years.
+
+[00:09:36] So I'll start and then ask Mr. Henriksen if he has anything to add. He has probably had more conversations with people in schools than I have in recent history. But I do know as recently as this past Tuesday during Inspire Loudon, we had a session on AI and I think it was a very popular session. It was an open conversation among teachers and I think the general consensus is that they would like to learn more about it, practice using it so that they're prepared, recognizing that it's not going away, that even if we were to take the stance that
+
+[00:10:13] it should be blocked, students still have access to it at home and other ways. They will find ways to use it. So how can we embrace it and really use it for good purposes in the classroom? How can we use it in instruction, design lessons around it, rather than just fighting what is destined to be an uphill battle? So I think teachers are curious, nervous, and we really need to have those conversations to be able to support them. Would you add anything? The only thing I would add is, you know, I participated as part of that panel discussion at Inspire Loudon, and there was
+
+[00:10:53] some interesting ideas that came up, and, you know, I think there will be some interesting ways that we can think about leveraging the technology to support student learning. Things like being able to give kids feedback in real time about their writing, to give teachers tools to make their work easier more streamlined but you know we're right on the front end of it and you know I think that it's going to the technology is going to evolve rapidly and and then the possibilities the potential for classrooms is also
+
+[00:11:29] going to evolve rapidly no thank you I agree with that and you know we'll see how it goes this is reminding me of the office co-pilot is that going to be rolled out through do you need details on that look specifically when it comes out and if it's going to be available to staff and then um the the microsoft copilot like the right so i don't have any details off the top of my head it's something that we are monitoring we have a we have weekly conversations about this with the amount of items that it's changing so i don't have any specifics right now but as they become available i think we don't want to
+
+[00:12:05] necessarily just take the approach of no we want to take the approach of who wants to pilot these things right now for example chat gbt is available to all of cabinet and we're doing session tomorrow on like what it looks like I envision that to be expanded and bring in more people so it's just as we're moving so fast we don't even have time to plan some of these things so as soon as we know about them we'll be sure to share that and we this is a topic that we can continue to talk about at the text area I think it's going to be constantly talked about over the next year this is content filtering okay thank you very much would you mind sharing the white paper with the committee when you went after this or this like send a link to it wherever absolutely it is
+
+[00:12:44] i think it's publicly available now i just had the um the um final draft version that hadn't been published but i believe it's been published now so i'll share that out with everyone okay thank you very much um and with that we can move on to the bright bites all right thanks for the opportunity to share a little bit about some of the data that uh we collected from our annual bright bite survey just this past april um if if you recall the bright bite survey is um a tool
+
+[00:13:18] that we've been using for I think about seven years now to help us get better insights into how technology is used in our classrooms, how it's used by our students both at home and at school, you know, how, what kind of progress we're making inside of our infrastructure with our support and access to devices and things like that. So for the first four years we used the BrightBytes survey, we used a version of their tool called the Technology and Learning Survey. Then three years ago when we were in the midst of COVID, they revised that survey to make it a little bit more reflective
+
+[00:13:56] of the learning environment that students were, or the diverse learning environments that students may be encountering at that particular time. The original version of the survey was a lot of questions around, you know, in the classroom, kind of very specific to in-person instruction, and they wanted to broaden that out a little bit. So we shifted over to a version of the survey they call it the Modern Learning Survey.
+
+[00:14:17] And this is our third year doing that survey. So on the slide here, it shows us some of the things that we can gain a little bit of insight into from the survey, access to devices and the support and the quality of support that our users are experiencing, thinking about the instructional uses, thinking about our technology competencies, just how proficient are our staff and our students using technology.
+
+[00:14:46] And then what are some professional learning needs that our staff might have around using technology to support instruction? And all of this data helps us to look for patterns and trends. We can look at our shifting over time. We can better understand our user experience.
+
+[00:15:03] We can think about the connections between how technology is used in classrooms and the way that students and teachers are reporting that it's used and the kinds of things we want to see happening in classrooms instructionally. And then we can think about how we plan for professional learning to help move us forward. So here's the responses, the number of responses we collected for the 2023 survey by audience.
+
+[00:15:29] So you can see over 46,000 responses collected across these four main stakeholder groups. Remember that the survey is administered to students in grades three through 12. So when we're looking at the total number of student responses, it's probably over 50% of the students that were eligible to respond actually responded.
+
+[00:15:48] Again, probably a little over 50% of the teachers who were eligible responded, so we're pretty happy with those numbers. It is slightly down from last year's response rate, but not too much, maybe about 9,000 total responses fewer than what we received last year. And we wanted to share briefly some of the data points that we're seeing in the data that we collected from our survey administration.
+
+[00:16:17] We don't want to spend necessarily too much time digging into each one, but we wanted to give an example of some of the kinds of data points that we can get from the survey and talk briefly about, you know, maybe what we're learning from those data points. So this, the survey is kind of broken up into a few different domains.
+
+[00:16:35] So the data points that we're going to share are, you know, kind of highlighting some of those different domains. This domain is the support domain. So this particular chart says, do our students, teachers, and leaders have access to support? You can see here that if you look at the always and usually responses, that's over 80% of the school community saying they always or usually have access to the support that they need with technology.
+
+[00:17:04] Again, this is in the support domain, so this is asking about quality of service, the quality of your devices, the quality of internet speed, and then the support for technology problems. You can see that when you see this kind of chart, it's broken up by a stakeholder group. So here we see school leader responses on the top set of bars and teacher responses on the bottom set of bars.
+
+[00:17:24] And so it just kind of helps us compare and contrast. So you'll see that structure in different data points that we're going to show tonight, where we have different responses from stakeholder groups sort of compared next to each other. So we can see here that 75% plus of teachers and school leaders are saying that the devices they have access to, the internet speed and the support that they're receiving for technology problems is above average or average.
+
+[00:17:57] So I'm shifting into an access domain, thinking about do our students have access to technology when they need it? What kinds of devices are they using to support their learning? So this question is about which devices are students using to complete their schoolwork? And you can see here that these are the different devices that students are reporting that they use.
+
+[00:18:17] You probably noticed that these percentages add up to more than 100%, and that's because it was a check-all-that-apply situation. So if a student used their school-issued device and a personal device, they might have checked off both things. But you can see here the vast majority of our students are using their school-issued device to support their school work with a variety of other devices, and then also doing work on paper as well.
+
+[00:18:46] Again, in the access domain, so how often do students report having access to devices to accomplish their work? And you can see this is, again, this is another way that you'll see these charts compare responses from different stakeholder groups. So this is what students are saying in the teal, the dark blue is what teachers are saying, and the pink is what parents are saying about access.
+
+[00:19:07] So 86% of parents say their child always has access to a device when they need it. 66, roughly 65% of teachers and students are saying that they always have access to devices. And you can see sort of how that breaks down across those five response options.
+
+[00:19:25] And the vast majority of our responses are always or usually. All right, so now we're getting into an online safety and digital citizenship domain. Again, this is comparing responses from two different stakeholder groups. We've got students on the top and teachers on the bottom.
+
+[00:19:43] How often do students learn about online safety topics? Things like acting respectfully is the first bar there of how to protect their identity and respond to bullying. And you can see that, you know, how students are responding to that question and, you know, whether they're receiving instruction or talking about these kinds of topics daily, a few times a week, a few times a month, et cetera.
+
+[00:20:06] One interesting thing to note is when students are responding to this question, they are aggregating their experience across all of the teachers that they work with. So generally, when we see students responding to questions about how frequently things are happening in classrooms, generally they're reporting that they're happening more frequently than the teachers are reporting that they're happening, usually because the teachers are reporting about their own experience and what they do with their set of students.
+
+[00:20:31] And students are reporting about their kind of cumulative experience across all of their classrooms. Again, here's a data point in the online safety domain. Do our students feel safe learning in online environments? So, you know, the good majority of our students are saying they're always or usually feeling safe when working online.
+
+[00:20:56] Another thing to note about some of the data points you see that NA over here on the right hand side, there's a considerable number of those that are NA. Those represent users that are respondents that skip that particular question. So users can skip questions. So you can see a good chunk of teachers skip this question.
+
+[00:21:15] You might surmise that perhaps they didn't feel like they really knew how their students were feeling. They went ahead and skipped that question because they didn't feel like they could respond in a way that would actually reflect their students' thoughts. All right, so now we're getting into some data about instruction, giving us some insights into the ways students are using technology to support their learning.
+
+[00:21:41] So this is frequency of learning tool use reported by teachers. So these are how teachers are responding to this question or the sort of set of questions about how frequently are they doing certain things in the classroom using tools like a learning management system. For us, our learning management system is Schoology.
+
+[00:21:57] So we can see that, you know, probably close to 70 percent of our teachers are saying that their students are using Schoology daily or a few times a week. And then we kind of it's hard to see the full question, but I'll kind of fill in the blanks for you here. Educational applications that deliver content is that second row.
+
+[00:22:16] Probably about 50% of our students are doing, you know, our teachers are using tools to deliver content daily or a few times a week. And then the next line down is educational applications that facilitate content creation, allowing students to be creators of, you know, videos and graphics and images and text and things like that.
+
+[00:22:38] So we see that that's happening perhaps with less frequency than students are consuming content, which is an interesting data point. The next line down is online curriculum or digital textbooks. And then we have things like using other virtual tools like virtual field trips or augmented reality, paper packets or physical textbooks.
+
+[00:23:01] It's important to know when those kinds of things are happening as well. And video conferencing using tools like Zoom or Google Meet and things like that. So you can see the frequency with which our teachers are reporting using those kinds of tools for instruction. Now that we've been using this version of the survey for a couple of years, we can start to look for patterns across years.
+
+[00:23:24] So here's an example of data that we see from our first administration of this survey in January of 2021 or spring of 2021 to this past administration. So one thing to note here is, you know, this particular chart that we're looking at right now is looking at use of a learning management system.
+
+[00:23:45] So remember in 2021, that was when most of our students were fully remote. So they were using that learning management system every single day. That was their conduit to their teacher. So as we see some of these data points moving, you know, downward or happening less frequently, that it might just be a reflection on the change in learning environment, not necessarily the change in practice.
+
+[00:24:09] And so it might not necessarily be a negative thing. It's just, you know, it's reflecting that particular moment in time. Here's another chart showing some trends over time. This one is educational applications that deliver content.
+
+[00:24:26] We're kind of looking at that bar of the first chart we saw over time here, and we can see that remaining steady sort of from 21 to 22, and then the number of students reporting or the number of teachers reporting they're using educational applications that deliver content, sort of the number that are saying they do that daily is kind of trending downward a bit.
+
+[00:24:55] All right, the next data point that we're looking at is how often are teachers and students reporting using digital tools to be creative for an audience. This is a data point that I find particularly interesting because I think that's where some of the real potential and power of technology in the classrooms lives and is having students become creators of content and then being able to share that content with a wider audience and share their ideas and get feedback on those ideas.
+
+[00:25:19] So again, we see the students and teachers kind of contrasted here with students at the top and teachers on the bottom. And we can see that students are reporting that, you know, 50% of them are saying that they're creating content, you know, daily or a few times a week. Fewer of them are saying they're asked to post or share those creations online, which is another thing that's a little bit interesting. And then we can see, you know, what teachers are reporting about those activities down below. And then this is showing that same data point over time over the last three years. We can
+
+[00:25:57] see how things have shifted from 2021 to 2023. All right, so the last domain that we're going to we're going to look at is data points around professional learning. So this data point shows us the types of professional learning experiences our teachers are engaging in, and whether it is formal PD sponsored by, organized by an organization outside of the school, formal PD
+
+[00:26:31] organized by LCPS, or informal PD. Informal PD would be things like, you know, seeing a link to an article on twitter and digging into that and learning a bit a little bit more about that you can see the kinds of things our teachers are engaging in here and one thing i i thought that was pretty interesting here is that 36 of teachers report spending more than three days of formal professional learning that comes from outside of the division so they're they're going to lots of different places to find professional learning i think that you know speaks to the commitment
+
+[00:27:07] our staff of supporting our students. And in this chart here, I know that the text is small, so I apologize, but this shows us professional development topics that teachers are interested in learning more about. The top three here, the top one with 40% of teachers saying they'd be interested in learning more about this is keeping students focused and on task while using technology.
+
+[00:27:37] The second one here is developing opportunities for critical thinking. And then the last one is using blended learning platforms and some of the examples that are there would be things like Schoology and learning management systems to develop those blended classrooms. And this is really useful information because we can take it and use it to plan and inform our planning for professional development for next school year.
+
+[00:28:05] And with that, I'll take any questions that you might have. Thank you very much for the presentation. Ms. Sheridan? No. Yeah, it's very interesting. A lot of great information. I think the trends are interesting to see. Just the fact that we're going from, now that we're more in person, we're kind of shifting back to not having to use, perhaps use computers as much as possible with some more in-person interaction and such.
+
+[00:28:39] So this will be good to see in a couple years as we just where things go, especially with the AI. So thank you very much for this. I appreciate your time and effort to put this together. And Mr. Smith, move on to the content filter parent portal? All right, so I know we've communicated this a couple times, but we wanted to officially bring it to the technology steering committee and kind of review it and answer any questions around the Lightspeed parent portal, which is our content filter parent portal. Lightspeed
+
+[00:29:17] is our internet content filter. This is already included with our existing licensing, so $0 ad to provide this visibility and transparency to our community. I will say one of the challenges that we had to overcome with deploying this and why we haven't done it before is it was a manual process in order to sign parents up. So 140,000 potential signups made it not logistically possible for us to manage it. Now we have built ourselves a way to automatically do that from a parent view feed. So parents will go in and select that. So that is why we're now able to deliver this at a scale. Like it was, we could do it for a handful easily, but for the amount of parents
+
+[00:29:56] we have it we just could deliver that so beginning this fall parents will be able to sign up for the light speed internet portal via parent view so directions will be sent out about that it'll be available for sign up on virtual first day which i think is august 14th this year but that's when all the school forums go out and they're able to go into parent view and start selecting those things what they'll be signing up for are weekly summary emails that will be sent to them each sunday i believe for each student that they have so they will get a separate email for each student to the email address on file that we have that we will validate so if it's an email address in
+
+[00:30:32] parent view that will be what gets the signed up for the emails for content filter so here's an example of one of the emails you can see this is a it's kind of a summary email how much how many sites they went to per day when it was being used average page views and then the top 10 visited hosts so you can see a lot of google youtube i think i pulled this this was my kids from like the last week of school. So it's nice having kids. They're my guinea pigs for a lot of this stuff.
+
+[00:31:04] So this would be the type of thing that they would receive. And then at the bottom of this email would be a link for them to sign up to actually register with the portal. Once they register with the portal, they'll be able to log in and get a bunch more information. So this is a draft document that kind of outlines what we have. We're working on videos. The vendor's actually tweaking some of the layouts of things right now so we haven't been able to finalize our documentation just yet until that's because we don't want to send something out that doesn't match with what it's going to be in the fall but basically they would click on this link they would register we have a separate url for our schools so it's not a shared environment it is dedicated to us
+
+[00:31:42] and they would be able to get additional functionality so once they log in you saw the summary email it just gave you an overview they'll be able to see as you see on the screen on the left every single website that's been visited by their students it can be a bit much as you go to one website that may be 15 or 20 actual website calls so it is a lot of information that's going to be provided you can see here 412 it wasn't that this is a doc that one of my kids was in and the whole time every time they updated it they're getting another url that it refreshed
+
+[00:32:18] or checked so it's going to be a lot of information which is why they focus on their summary emails but it will be available to parents, and they will be able to go through and see. It also helps to show duration of time on sites, those type of things. Another feature that will come to parents is they'll be able to pause web browsing on the Chromebook.
+
+[00:32:36] So they'll be able to sign in, and the temporary browsing pause is only when it's not on the LCPS network. We don't want to have Chromebooks that can't get to the Internet when a teacher is trying to do a lesson or a student is trying to get something done. So it's whenever it's not on the LCPS network, and these are the three options that they have.
+
+[00:32:54] Until tomorrow morning is 6 a.m., so after 6 a.m., it would be re-enabled for the next school day. And then if a student does try to go to an Internet website from their Chromebook, this would be the error message, or the message, not an error message, that they would see that parental pause is active so they can't get to a website.
+
+[00:33:10] So it'll provide additional transparency and feature functionality for parents. Like I said, it's a zero-net-cost ad for us, And we've engineered a way for it to be rolled out at scale. So we're really excited that that's coming this fall. With that, I'll take any questions that you have.
+
+[00:33:27] Okay, thank you very much. Ms. Sheridan? I just think that's a really great feature. So thanks for bringing that. I think parents will really appreciate being able to put that into place and be able to see where their children are going. So thank you. Yeah, no, I'm glad you guys did whatever you had to do to make this available.
+
+[00:33:45] With the web browsing, is that just for websites available through a Chrome tab, or would that also include any of the extensions or something that they might add to the browser or through the Chromebook? So the agent is installed on the Chromebook, so it'll be any web activity that takes place.
+
+[00:34:04] They are locked into the Chrome browser, so they can't go anywhere other than that. But if there is an extension that makes an app call, those would be shown too. So it's going to be, like, when you look at a log, there's thousands of entries for, you know, a couple minutes of work. So it'll capture all of that from that Chromebook.
+
+[00:34:21] If a student is using a personal device or something, it will not capture those. It's only going to capture where they're logged in, authenticated to the content filter. Okay. Thank you for that. Yeah, this is amazing. I think this will be a great addition, so I'm glad we're able to offer this.
+
+[00:34:38] We're starting our communication plans now, so we're spinning it up. I might be included in a superintendent's newsletter here coming soon. We're really going to ramp it up as we get into late July and August to inform families and students. We think it's important to tell everyone that they have people have visibility into this.
+
+[00:34:53] We want to be fully transparent across the board and then what people will be able to see and what kind of setting that expectation. So you'll see a lot more about this in about a month that there'll be a pretty decent sized communication plan around this. Great. Yeah, thank you again.
+
+[00:35:10] With that, we'll move on to item number five, new business, new business. And with that, we'll move on to item six. We're adjourned. Thank you. Oh, sorry. Chairman's prerogative. Based on this whole content filtering and some of the public comment that came, what availability does a teacher have during their time when they're in the classroom to monitor students?
+
+[00:35:33] Is there, like, a teacher sort of side to this kind of data? I mean, that's definitely more complicated because that's schedules and all that sort of stuff. But what kind of availability is there for us, and might there be available? LCPS currently doesn't own an application for Lightspeed does have that as an option.
+
+[00:35:53] It's an additional licensing fee that would have to be paid. But there are also others, as were mentioned, that are available. It is something we're researching. It would more than likely be a budget initiative. This may be different pricing models I've seen are up to $12 or $15 a student for this.
+
+[00:36:09] And so it can get pretty expensive pretty quick. So it'll have to be a prioritized budget initiative. So we are in the investigation phase right now. I think we heard that through the teacher advisory groups, that this is something that we want to at least investigate and put out there as a possible budget initiative.
+
+[00:36:25] So it's not included. If it was included already, we would be having a different conversation, but it comes down to, I think, getting funding and making sure that it's rostered and all of those things. It is a little bit more complex, not impossible. It just needs to be a little bit more thought out. - Sure, no, anytime you're dealing with class rosters and that they change very frequently, they can change very frequently, like that's definitely its own little management hurdle.
+
+[00:36:47] So, good to know, thank you. - Just one more thing to add is that it would manage devices. We have a 98% take rate on devices, but that means 2% of students are still using, choosing to use BYOT or personal devices for a lot of this. So, just kind of setting expectations. It's not gonna do everything.
+
+[00:37:03] It'll only do devices it's aware of that have been rostered. So we wanna make sure that we're thoughtful about that and we set expectations accordingly about what will be covered. Student cell phone use won't be covered by this. It's not gonna block internet access in a room or anything like that. So it'll be to manage those devices, which I still think has a benefit, but it just needs just to, you know, so there's no unrealistic expectations of what it's gonna do.
+
+[00:37:26] - I can definitely appreciate that. Thank you. And with that,
+
+----------------------------------------------------------------------
+Coraggio Consulting · aguyonx.com

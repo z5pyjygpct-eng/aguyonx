@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2023-02-15-799159882.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2023-02-15-minority-student-achievement-advisory-committee-msaac-meeting",
+  "title": "Loudoun County School Board, Minority Student Achievement Advisory Committee (MSAAC) Meeting, Wednesday, February 15, 2023",
+  "shortTitle": "Minority Student Achievement Advisory Committee (MSAAC) Meeting \u00b7 Feb 15, 2023",
+  "date": "Wednesday, February 15, 2023",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "1h 40m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/799159882?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-22"
+}

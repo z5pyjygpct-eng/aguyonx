@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2023-08-15-854806935.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2023-08-15-specialized-programs-and-centers-meeting",
+  "title": "Loudoun County School Board, Specialized Programs and Centers Meeting, Tuesday, August 15, 2023",
+  "shortTitle": "Specialized Programs and Centers Meeting \u00b7 Aug 15, 2023",
+  "date": "Tuesday, August 15, 2023",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "37m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/854806935?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-22"
+}

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/7211.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2023-03-08-finance-government-operations-and-economic-development-committee-capital-improvement-program-work-session",
+  "title": "Loudoun County Board of Supervisors, Finance/Government Operations and Economic Development Committee Capital Improvement Program Work Session, Wednesday, March 8, 2023",
+  "shortTitle": "Finance/Government Operations and Economic Development Committee Capital Improvement Program Work Session \u00b7 Mar 8, 2023",
+  "date": "Wednesday, March 8, 2023",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "1h 37m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/7211"
+    },
+    {
+      "label": "Agenda (Granicus)",
+      "href": "https://loudoun.granicus.com/AgendaViewer.php?view_id=73&clip_id=7211"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-22"
+}
