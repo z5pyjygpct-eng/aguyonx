@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/7216.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2023-03-14-finance-government-operations-and-economic-development-committee",
+  "title": "Loudoun County Board of Supervisors, Finance/Government Operations and Economic Development Committee, Tuesday, March 14, 2023",
+  "shortTitle": "Finance/Government Operations and Economic Development Committee \u00b7 Mar 14, 2023",
+  "date": "Tuesday, March 14, 2023",
+  "place": "Board Room, First Floor, Government Center, 1 Harrison Street SE, Leesburg, Virginia",
+  "length": "1h 21m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (county, Granicus)",
+      "href": "https://loudoun.granicus.com/player/clip/7216"
+    },
+    {
+      "label": "Agenda (Granicus)",
+      "href": "https://loudoun.granicus.com/AgendaViewer.php?view_id=73&clip_id=7216"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-22"
+}
