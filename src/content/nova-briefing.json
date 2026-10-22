@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,240 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-22",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 21, Wednesday) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (HTTP 200, outlet headline matched on the article page, Oct 21 ET publish date checked on each article page; Loudoun County release dates are from the county news flash feed). Sources checked: RSS from Loudoun Now, Loudoun Times-Mirror, InsideNoVa, Prince William Times, FFXnow, ARLnow, Potomac Local, Annandale Today, Blue Ridge Leader, the Loudoun County news flash, FOX 5 DC, WUSA9, NBC Washington and WTOP; news.ts had no Oct 21 local items. Caveats: 25 kept from 31 evaluated (at the 25-item cap, nothing cut for the cap); InsideNoVa and Prince William Times main feeds were mostly wire press releases and their section feeds returned HTTP 429 (InsideNoVa Prince William and Prince William Times local sections read through a scraping service); Fairfax Times feed returned HTTP 429; WUSA9 article pages returned HTTP 403, so its Centreville bear and repairman items could not be verified and were left out; WTOP feed had no Oct 21 in-scope items. Left out: FOX 5 Fairfax police chief/county executive traffic stop and Springfield hit-and-run (article pages show Oct 20 publish dates); InsideNoVa Factory of Fear (published Oct 15); Dulles Airport VIP facility (FFXnow, WUSA9; airport straddles Loudoun and Fairfax, locality unclear); Falls Church red light cameras (not inside the four localities); same-story duplicates (LTM gas turbines vs Loudoun Now; LTM Western Loudoun Rec meeting and Blue Ridge Leader Nett plea deal, both briefed Oct 21; FOX 5 and WUSA9 Amazon/GWU follow-ups, briefed Oct 21; Prince William Times Manassas knife arrest, briefed Oct 21; WUSA9 Bhatt dumpster and saw items vs InsideNoVa); duplicate Loudoun County housing release (aid 10942); statewide items (Spanberger Dominion, parole transparency, DOJ monitors bulletin); sports, restaurant lists, soft features and daily roundups.",
+      "items": [
+        {
+          "id": "vantage-eyes-earlier-removal-of-gas-loudounnow-2026-10-21",
+          "county": "Loudoun",
+          "headline": "Vantage Eyes Earlier Removal of Gas Turbines Amid Agreements with Saines, Dominion",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/vantage-eyes-earlier-removal-of-gas-turbines-amid-agreements-with-saines-dominion/article_b9acb434-0bf7-4576-a1a1-070d75599337.html",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-supervisors-to-consider-rent-subsidies-loudounnow-2026-10-21",
+          "county": "Loudoun",
+          "headline": "County Supervisors to Consider Rent Subsidies in Budget Talks",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/county-supervisors-to-consider-rent-subsidies-in-budget-talks/article_fe135fe1-e819-4d2f-b379-052a00a0099b.html",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "connections-underway-for-western-loudoun-broadband-loudounnow-2026-10-21",
+          "county": "Loudoun",
+          "headline": "Connections Underway for Western Loudoun Broadband Project",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/connections-underway-for-western-loudoun-broadband-project/article_f17d405d-f214-4bc4-80b1-ac3f46b54db8.html",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-accused-of-murdering-wife-confirms-loudounnow-2026-10-21",
+          "county": "Loudoun",
+          "headline": "Man Accused of Murdering Wife Confirms Plan to Represent Himself in Court",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/man-accused-of-murdering-wife-confirms-plan-to-represent-himself-in-court/article_833d2c6f-4dbc-4d32-b32f-c70027ff4c11.html",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "round-hill-fire-displaces-4-ltm-2026-10-21",
+          "county": "Loudoun",
+          "headline": "Round Hill fire displaces 4",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/fires_and_emergencies/round-hill-fire-displaces-4/article_f7028ba7-5b71-483e-97cc-f1c3b176efe2.html",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "public-invited-to-provide-comment-on-loudoungov-2026-10-21",
+          "county": "Loudoun",
+          "headline": "Public Invited to Provide Comment on Housing and Community Development Plans for Unspent Grant Funds",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10943",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "opportunities-to-serve-loudoun-seeks-applicants-loudoungov-2026-10-21",
+          "county": "Loudoun",
+          "headline": "Opportunities to Serve: Loudoun Seeks Applicants for Board of Zoning Appeals, Other Boards",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10941",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-to-hold-virtual-public-meeting-loudoungov-2026-10-21",
+          "county": "Loudoun",
+          "headline": "Loudoun to Hold Virtual Public Meeting on Old Ox Widening Project November 4",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10302",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-city-meetings-go-offline-as-ffxnow-2026-10-21",
+          "county": "Fairfax",
+          "headline": "Fairfax City meetings go offline, as FBI warns of AI-detected vulnerabilities",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/21/fairfax-city-meetings-go-offline-as-fbi-warns-of-ai-detected-vulnerability/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "flock-camera-debate-has-fairfax-leaders-ffxnow-2026-10-21",
+          "county": "Fairfax",
+          "headline": "Flock camera debate has Fairfax leaders weighing privacy concerns, public safety",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/21/fairfax-leaders-weigh-privacy-public-safety-as-debate-over-flock-cameras-rages/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcpd-seeks-publics-help-to-find-ffxnow-2026-10-21",
+          "county": "Fairfax",
+          "headline": "FCPD seeks public’s help to find burglars targeting chain restaurants",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/21/fcpd-seeks-publics-help-to-find-burglars-targeting-chain-restaurants/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "improvements-planned-for-minnie-peyton-community-annandaletoday-2026-10-21",
+          "county": "Fairfax",
+          "headline": "Improvements planned for Minnie Peyton Community Center",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/improvements-planned-for-minnie-peyton-community-center/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "gofundme-campaign-set-up-to-help-annandaletoday-2026-10-21",
+          "county": "Fairfax",
+          "headline": "GoFundMe campaign set up to help family devastated by a house fire",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/gofundme-campaign-set-up-to-help-family-devastated-by-a-house-fire/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-sues-trump-administration-over-fears-arlnow-2026-10-21",
+          "county": "Arlington",
+          "headline": "Arlington sues Trump administration over fears of federal agents at voting sites",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/21/arlington-sues-trump-administration-over-fears-of-federal-agents-at-voting-sites/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "acpd-finalizing-release-of-police-shooting-arlnow-2026-10-21",
+          "county": "Arlington",
+          "headline": "ACPD finalizing release of police shooting footage after criticism from County Board",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/21/acpd-finalizing-release-of-police-shooting-footage-after-criticism-from-county-board/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-recruitment-improving-in-arlington-amid-arlnow-2026-10-21",
+          "county": "Arlington",
+          "headline": "Police recruitment improving in Arlington amid hefty salary increases",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/21/police-recruitment-improving-in-arlington-amid-hefty-salary-increases/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "crystal-city-wine-shop-closing-next-arlnow-2026-10-21",
+          "county": "Arlington",
+          "headline": "Crystal City Wine Shop closing next week after 14 years",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/21/crystal-city-wine-shop-closing-next-week-after-14-years/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "naresh-bhatt-trial-surveillance-footage-shows-insidenova-2026-10-21",
+          "county": "Prince William",
+          "headline": "Naresh Bhatt Trial: Surveillance footage shows Bhatt making numerous stops at dumpsters",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/prince_william/naresh-bhatt-trial-surveillance-footage-shows-bhatt-making-numerous-stops-at-dumpsters/article_248c5137-75d6-44c3-8a3e-11734c776590.html",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "washington-manassas-airport-breaks-ground-on-insidenova-2026-10-21",
+          "county": "Prince William",
+          "headline": "Washington Manassas Airport breaks ground on $41M air traffic control tower",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/prince_william/washington-manassas-airport-breaks-ground-on-41m-air-traffic-control-tower/article_d0d826b2-0abb-4e71-b753-c29df9bd1ea7.html",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-manassas-man-charged-with-potomaclocal-2026-10-21",
+          "county": "Prince William",
+          "headline": "Police Blotter: Manassas Man Charged With Sexual Battery",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/21/police-blotter-2026-10-21/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "supervisors-signal-intent-to-revisit-data-potomaclocal-2026-10-21",
+          "county": "Prince William",
+          "headline": "Supervisors signal intent to revisit data center noise rules after no violations found under current thresholds",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/21/supervisors-signal-intent-to-revisit-data-center-noise-rules-after-no-violations-found-under-current-thresholds/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "chair-deshundra-jefferson-on-reimagining-prince-potomaclocal-2026-10-21",
+          "county": "Prince William",
+          "headline": "Chair Deshundra Jefferson on Reimagining Prince William: Town Halls, Data Centers, and Community Priorities",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/21/chair-deshundra-jefferson-reimagining-prince-william-podcast/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "dumfries-town-council-hears-q1-finances-potomaclocal-2026-10-21",
+          "county": "Prince William",
+          "headline": "Dumfries Town Council hears Q1 finances ahead by $326,000 as small area plans head to public review",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/21/dumfries-town-council-hears-q1-finances-ahead-by-326000-as-small-area-plans-head-to-public-review/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "quantico-opens-national-testing-center-for-potomaclocal-2026-10-21",
+          "county": "Prince William",
+          "headline": "Quantico opens National Testing Center for service members",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/21/quantico-national-testing-center-opens/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "babysitter-describes-anxious-naresh-bhatt-in-potomaclocal-2026-10-21",
+          "county": "Prince William",
+          "headline": "Babysitter describes anxious Naresh Bhatt in murder trial",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/21/bhatt-trial-babysitter-testimony/",
+          "published": "2026-10-21",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-10-21",
       "status": "ok",
