@@ -351,10 +351,21 @@ export const VBOE_FTM_TRANSCRIPTS: FtmTranscript[] = [
     sourceFile: "vboe-zSxgSDgMfEc.srt",
     note: "2 repeated segments collapsed",
   },
+  {
+    meetingId: "vboe-Kr8ocN3u3n8",
+    venue: "va-boe",
+    url: "/files/find-the-moment/va-boe/transcripts/vboe-Kr8ocN3u3n8.json",
+    windowCount: 423,
+    wordCount: 33073,
+    engine: "whisper.cpp \u00b7 large-v3-turbo",
+    generated: "2026-10-22",
+    sourceFile: "vboe-Kr8ocN3u3n8.srt",
+  },
 ];
 
 /** Coraggio transcript downloads (PDF + text) per VBOE meeting id. */
 export const VBOE_TRANSCRIPT_DOWNLOADS: Record<string, { pdfUrl: string; txtUrl: string }> = {
+  "vboe-Kr8ocN3u3n8": { pdfUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2025-03-26-work-session.pdf", txtUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2025-03-26-work-session.txt" },
   "vboe-xkwuQo_1YiA": { pdfUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-09-24-business-meeting.pdf", txtUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-09-24-business-meeting.txt" },
   "vboe-5jk9cnZ8jHM": { pdfUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-09-23-work-session-part-2.pdf", txtUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-09-23-work-session-part-2.txt" },
   "vboe-9V_VlATZfsE": { pdfUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-09-23-work-session-part-1.pdf", txtUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-09-23-work-session-part-1.txt" },
