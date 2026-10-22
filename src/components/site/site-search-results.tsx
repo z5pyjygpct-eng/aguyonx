@@ -57,7 +57,7 @@ function Meetings({ r, q, dark }: { r: FtmResult; q: string; dark: boolean }) {
   const top = r.byVenue[0];
   return (
     <section>
-      <h3 className="mt-3 rounded-md bg-navy-900 px-3 py-2 font-mono text-xs font-bold tracking-widest text-gold uppercase">Meetings · what was said ({r.meetings.length} meetings, {r.moments.toLocaleString()} moments)</h3>
+      <h3 className="mt-3 rounded-md border-l-4 border-gold bg-navy-900 px-3 py-2 font-mono text-xs font-bold tracking-widest text-gold uppercase">Meetings · what was said ({r.meetings.length} meetings, {r.moments.toLocaleString()} moments)</h3>
       <ul className="divide-y divide-border">{r.meetings.slice(0, shown).map((h) => <MeetingRow key={h.idx} h={h} terms={r.terms} q={q} />)}</ul>
       <MoreBtn more={more} left={r.meetings.length - shown} dark={dark} />
       <div className="px-3 pb-3 text-sm">
@@ -74,7 +74,7 @@ function Group({ shelf, list, dark, q }: { shelf: string; list: SearchHit[]; dar
   const { shown, more } = useShown(list.length);
   return (
     <section>
-      <h3 className="mt-3 rounded-md bg-navy-900 px-3 py-2 font-mono text-xs font-bold tracking-widest text-gold uppercase">{LABEL[shelf] ?? shelf} ({list.length})</h3>
+      <h3 className="mt-3 rounded-md border-l-4 border-gold bg-navy-900 px-3 py-2 font-mono text-xs font-bold tracking-widest text-gold uppercase">{LABEL[shelf] ?? shelf} ({list.length})</h3>
       <ul className="divide-y divide-border">{list.slice(0, shown).map((h) => (
         <li key={h.id}><a href={h.href} {...(external(h.href) ? { target: "_blank", rel: "noreferrer" } : {})} className="block px-3 py-3 hover:bg-wash">
           <p className="font-semibold"><Hl text={h.title} q={q} /></p>
