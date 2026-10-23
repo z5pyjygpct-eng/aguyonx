@@ -339,6 +339,7 @@ export function grokOgHeadTags({
   site = {},
   documentTitle = "",
   cwd = process.cwd(),
+  pageImage = "",
 } = {}) {
   const title = resolveOgTitle(site, appName, host, documentTitle);
   const publicHost = resolvePublicHost(host);
@@ -353,7 +354,16 @@ export function grokOgHeadTags({
   if (String(site.type ?? "").toLowerCase() === "x:game") {
     tags.push(`<meta property="og:type" content="x:game">`);
   }
-  if (publicHost) {
+  // Absolute share image: a page's own og:image wins, then site.imageUrl.
+  const fixedImage = /^https:\/\//i.test(pageImage)
+    ? pageImage
+    : /^https:\/\//i.test(String(site.imageUrl ?? "")) ? String(site.imageUrl) : "";
+  if (fixedImage) {
+    tags.push(`<meta property="og:image" content="${escapeHtml(fixedImage)}">`);
+    tags.push(`<meta property="og:image:width" content="1200">`);
+    tags.push(`<meta property="og:image:height" content="630">`);
+    tags.push(`<meta name="twitter:image" content="${escapeHtml(fixedImage)}">`);
+  } else if (publicHost) {
     const asset = resolveOgCardAsset(site, cwd);
     const custom = Boolean(asset);
     let image = custom
@@ -432,6 +442,8 @@ export function injectGrokPwaHead(html, ctx = {}) {
     host,
     documentTitle,
   );
+  const pageImageMatch = /<meta\b[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["']/i.exec(html);
+  const pageImage = pageImageMatch ? unescapeHtml(pageImageMatch[1]) : "";
   let next = stripShareMetaTags(html);
 
   const missing = grokPwaHeadTags(appName)
@@ -444,7 +456,7 @@ export function injectGrokPwaHead(html, ctx = {}) {
 
   next = insertAfterHeadOpen(
     next,
-    grokOgHeadTags({ host, appName, site, documentTitle, cwd }).join(""),
+    grokOgHeadTags({ host, appName, site, documentTitle, cwd, pageImage }).join(""),
   );
 
   if (!next.includes("/grok-app-builder/extensions.js")) {
