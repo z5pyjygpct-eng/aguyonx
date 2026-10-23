@@ -15749,5 +15749,288 @@ export const VBOE_RECAPS: VboeRecap[] = [
    }
   ],
   "context": []
+ },
+ {
+  "slug": "2022-09-15-business-meeting",
+  "meetingId": "vboe-cczTSpUkw4Q",
+  "date": "2022-09-15",
+  "title": "Business Meeting",
+  "dateLabel": "Sep 15, 2022",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 8h 46m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-09-15-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-09-15-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": true,
+   "checkedLabel": "Oct 23, 2026",
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. These minutes cover the Board's September 14-15, 2022 meeting days; this video is the Sep 15 business meeting.",
+   "links": [
+    {
+     "label": "Minutes, Sep 15, 2022 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=36888"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
+  },
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Ms. Holton made a motion to adopt the August 17, 2022, meeting minutes as presented. The motion was seconded by Mr. Hansen and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Ms. Holton made a motion to remove Mark Taylor from Item A for further discussion, seconded by Dr. Mann. After discussion, that motion was withdrawn and kept Item A as written. Ms. Holton commended the community’s vigorous participation while also remaining civil and respectful of differing viewpoints. Ms. Holton emphasized her belief in local government and trying to do as much as possible to defer to locally elected boards. However, after reading various racially offensive social media posts by Mr. Taylor, she stated that she was unable to support Mr. …",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Ms. Holton made a motion to approve the list of candidates, removing Mr. Taylor from the group, allowing for a separate vote for certification for Mr. Taylor. The motion was seconded by Mr. Rotherham and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Ms. Dutta made a motion to approve Mr. Taylor for certification for superintendent licensure. The motion was seconded by Mr. Hansen. This motion was carried by majority, with Ms. Holton and Dr. Mann voting against the motion.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Mr. Hansen made a motion to approve the Final Review of Guidelines and Criteria for the Award and Distribution of Lab School Start-up and Per-Pupil Funding Grants. The motion was seconded by Mr. Rotherham and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Mr. Hansen made a motion to approve the Final Review of Amendment 5 to Virginia’s Consolidated State Plan under the Every Student Succeeds Act of 2015. The motion was seconded by Mr. Rotherham and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Item D",
+    "action": "Final Review of Guidelines for Policies on Sudden Cardiac Arrest Prevention in StudentAthletes: Ms. Creasey made a motion, seconded by Mr. Rotherham, to approve the proposed 2022 Guidelines for Policies on Sudden Cardiac Arrest Prevention in Student-Athletes and authorize the VDOE to make technical edits.The motion passed unanimously.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Item E",
+    "action": "Final Review of Revisions to the Child Care Program Regulations (8VAC20-790) to Comply with Requirements of the 2023-2024 Appropriations Act (Exempt Action): Dr. Mann made a motion to approve the revisions to the Child Care Program regulations to comply with directives of the 2023-2024 Appropriations Act, which was seconded by Mr. Hansen. The motion passed unanimously.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Item H",
+    "action": "First Review of Guidelines for Implementing New Appropriation Act Provisions for Literary Fund School Construction Loans for the 2022-2024 Biennium: Dr. Mann made a motion to approve waiving First Review and approving the Guidelines for Implementing New Appropriation Act Provisions for Literary Fund School Construction Loans in the 2022-2024 Biennium, seconded by Ms. Dutta. The motion was carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Superintendent’S Update",
+    "action": "Dr. Mann made a motion that the Board reconvene in open session at 3:12 p.m.",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Superintendent’S Update",
+    "action": "Mr. Rotherham made a motion that Case #2 be deferred to allow the applicant to be present. The motion was seconded by Mr. Hansen and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Superintendent’S Update",
+    "action": "Ms. Holton made a motion to issue a license in Case #3. The motion was seconded by Dr. Mann, with Mr. Hanson, Dr. Seibert, Mr. Gecker and Mr. Rotherham voting against the motion. The motion did not carry due to the split vote. The Board asked for clarification from the counsel on how to proceed due to the split vote. Counsel was not able to provide guidance during the meeting but stated that they would research the matter to provide guidance on how to proceed at a later date.",
+    "tally": "Failed (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Closed session",
+    "action": "2 motions on individual teacher-license cases heard in closed session. Individuals are not named here; the minutes record each case and result.",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review to Certify a List of Qualified Persons for the Office of Division Superintendent of Schools"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Guidelines and Criteria for the Award and Distribution of Lab School Start-up and Per-Pupil Funding Grants"
+     },
+     {
+      "num": "C",
+      "title": "Final Review of an Amendment to Virginia’s Consolidated State Plan under the Every Student Succeeds Act of 2015 (ESSA) - Amendment 5"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "D",
+      "title": "Final Review of Guidelines for Policies on Sudden Cardiac Arrest Prevention in StudentAthletes"
+     },
+     {
+      "num": "E",
+      "title": "Final Review of Revisions to the Child Care Program Regulations (8VAC20-790) to Comply with Requirements of the 2023-2024 Appropriations Act (Exempt Action)"
+     },
+     {
+      "num": "F",
+      "title": "First Review of Comprehensive Revisions to the General Procedures and Information for Licensure and Background Checks for Child Day Programs and Family Day Systems (Proposed Stage)"
+     },
+     {
+      "num": "G",
+      "title": "First Review of Proposed Addition to Board Guidance on the Applied Studies Diploma."
+     },
+     {
+      "num": "H",
+      "title": "First Review of Guidelines for Implementing New Appropriation Act Provisions for Literary Fund School Construction Loans for the 2022-2024 Biennium"
+     },
+     {
+      "num": "I",
+      "title": "First Review of Preliminary Unified Regulatory Plan for Executive Order 19"
+     },
+     {
+      "num": "J",
+      "title": "First Review of Proposed Technical Revisions to the Bylaws of the Virginia Board of Education to Comply with Statutory Changes"
+     },
+     {
+      "num": "K",
+      "title": "First Review of the Proposed 2023 Board of Education Meeting Dates"
+     }
+    ]
+   },
+   {
+    "heading": "Presentations",
+    "items": [
+     {
+      "num": "L",
+      "title": "Update on Data Trends Used to Inform Virginia’s Strategic Plans for Educator Recruitment and Retention"
+     }
+    ]
+   }
+  ],
+  "moments": [
+   {
+    "seconds": 1928,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 2930,
+    "label": "Final Review to Certify a List of Qualified Persons for the Office of Division Superintendent of Schools (discussion near here)",
+    "item": "A",
+    "quote": "that misrepresented material facts an individual school board member submitted a letter of recommendation that misrepresented that letter as a letter of recommendation from our school board at that …"
+   },
+   {
+    "seconds": 6243,
+    "label": "First Review of Comprehensive Revisions to the General Procedures and Information for Licensure and Background Checks for Child Day … (discussion near here)",
+    "item": "F",
+    "quote": "For example, as I read the title of chapter 821, I, as a professional, could not understand what was meant by child day programs and family day systems. …"
+   },
+   {
+    "seconds": 6769,
+    "label": "Final Review of Guidelines and Criteria for the Award and Distribution of Lab School Start-up and Per-Pupil Funding Grants (discussion near here)",
+    "item": "B",
+    "quote": "Ph.D. I am a proud teacher from Acomat County currently serving as president of the 40,000 members of the Virginia Education Association, and I'm also here today standing in support of the …"
+   },
+   {
+    "seconds": 6913,
+    "label": "Final Review of an Amendment to Virginia’s Consolidated State Plan under the Every Student Succeeds Act of 2015 (ESSA) - Amendment 5 (discussion near here)",
+    "item": "C",
+    "quote": "note we are pleased to see the amendment in the essa plan for the ambitious five-year growth targets on state exams particularly for sub subgroups currently far behind should the board endorse this …"
+   },
+   {
+    "seconds": 8120,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 17280,
+    "label": "Final Review of Guidelines for Policies on Sudden Cardiac Arrest Prevention in StudentAthletes (discussion near here)",
+    "item": "D",
+    "quote": "after we turn on one switch. Okay, turn your mics on if you want them on. Otherwise, let it be. Board is back in session. …"
+   },
+   {
+    "seconds": 17564,
+    "label": "Final Review of Revisions to the Child Care Program Regulations (8VAC20-790) to Comply with Requirements of the 2023-2024 Appropriations … (discussion near here)",
+    "item": "E",
+    "quote": "thank you very much thank you ladies and gentlemen all right item e final review of revisions to child care program regs an exempt action miss conway happy to see you excellent good afternoon two …"
+   },
+   {
+    "seconds": 19093,
+    "label": "First Review of Proposed Addition to Board Guidance on the Applied Studies Diploma. (discussion near here)",
+    "item": "G",
+    "quote": "in education centers is very important anybody else if not thank you so much the board's got it on first review uh item g first review of proposed edition of board guidance on the applied studies …"
+   },
+   {
+    "seconds": 20506,
+    "label": "First Review of Guidelines for Implementing New Appropriation Act Provisions for Literary Fund School Construction Loans for the 2022-2024 … (discussion near here)",
+    "item": "H",
+    "quote": "Item H, First Review of Guidelines for Implementing New Appropriation Act Provisions for Literary Fund School Construction Loans for the Biennium. Good afternoon, everyone. …"
+   },
+   {
+    "seconds": 22194,
+    "label": "First Review of Proposed Technical Revisions to the Bylaws of the Virginia Board of Education to Comply with Statutory Changes (discussion near here)",
+    "item": "J",
+    "quote": "Yes. Thank you, President Gecker, Vice President, Dr. man members of the board superintendent baylow i know it's been a long few days so i will keep this short but we certainly appreciate all the …"
+   },
+   {
+    "seconds": 31511,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
  }
 ];

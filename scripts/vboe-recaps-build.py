@@ -19,8 +19,9 @@ MEET = [dict(zip(("id","yt","date","dateLabel","title","duration"), m.groups()))
     r'id: "(vboe-[^"]+)", youtubeId: "([^"]+)", date: "([^"]+)", dateLabel: "([^"]+)", title: "([^"]+)", duration: "([^"]+)"', src)]
 STOP = set("final review first board education virginia regulations regulation proposed amendments standards report annual school schools public division plan local their within under through about should would".split())
 HON = r"(?:Mr|Mrs|Ms|Dr)\. [A-Z][\w'’-]+(?: [A-Z][\w'’-]+)?"
+# 2022-09-15 -> 36888 added Oct 23 2026 (minutes dated "September 14-15, 2022", cover the Sep 15 business meeting).
 # Added 2026-10-23: 2022-2025 meetings (Town Hall board 93; only where the minutes' own date matches the video date)
-TH_2023 = {"2022-11-17":37248,"2023-02-02":37602,"2023-03-23":37761,"2023-04-20":37881,"2023-05-11":37996,"2023-06-15":38114,"2023-07-27":38351,"2023-08-31":38506,"2023-09-13":38649,"2023-09-14":38650,"2023-10-18":38850,"2023-10-19":38851,"2023-11-15":38955,"2023-12-12":39097,"2024-01-24":39330,"2024-01-25":39331,"2024-03-27":39628,"2024-03-28":39629,"2024-04-23":39766,"2024-04-24":39767,"2024-04-25":39768,"2024-05-21":39891,"2024-06-20":39996,"2024-06-21":39997,"2024-07-24":40187,"2024-08-28":40353,"2024-09-26":40572,"2024-10-23":40734,"2024-10-24":40735,"2024-12-02":40938,"2024-12-03":40939,"2025-02-26":40800,"2025-02-27":40801}
+TH_2023 = {"2022-09-15":36888,"2022-11-17":37248,"2023-02-02":37602,"2023-03-23":37761,"2023-04-20":37881,"2023-05-11":37996,"2023-06-15":38114,"2023-07-27":38351,"2023-08-31":38506,"2023-09-13":38649,"2023-09-14":38650,"2023-10-18":38850,"2023-10-19":38851,"2023-11-15":38955,"2023-12-12":39097,"2024-01-24":39330,"2024-01-25":39331,"2024-03-27":39628,"2024-03-28":39629,"2024-04-23":39766,"2024-04-24":39767,"2024-04-25":39768,"2024-05-21":39891,"2024-06-20":39996,"2024-06-21":39997,"2024-07-24":40187,"2024-08-28":40353,"2024-09-26":40572,"2024-10-23":40734,"2024-10-24":40735,"2024-12-02":40938,"2024-12-03":40939,"2025-02-26":40800,"2025-02-27":40801}
 TH.update(TH_2023)
 def CHK(m): return "Oct 23, 2026" if m["date"] < "2025-03-01" else "Oct 22, 2026"
 
@@ -130,6 +131,7 @@ for m in MEET:
         status = "DRAFT minutes (posted for Board approval)" if draft else "approved minutes"
         note = f"Votes below are from the {status} posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes."
         if part: note += f" The minutes cover the full {m['dateLabel']} meeting; this video is Part {part.group(1)}."
+        if mid == 36888: note += " These minutes cover the Board's September 14-15, 2022 meeting days; this video is the Sep 15 business meeting."
         if not decs: note = f"The {status} for {m['dateLabel']} record no motions or votes (presentations only)."
         groups = {}
         for sec, letter, title in agenda:
