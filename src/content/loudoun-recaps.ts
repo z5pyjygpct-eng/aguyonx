@@ -102,6 +102,9 @@ const ACTION_SEP1 =
 
 const ACTION_OCT14 =
   "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1976056/10-14-26%20Public%20Hearing%20Action%20Report.pdf";
+const ACTION_OCT20 =
+  "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1976200/10-20-26%20Business%20Meeting%20Action%20Report.pdf";
+const OCT20_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=22e65f92-8862-46da-afba-f594bd09768a&Agenda=Agenda&lang=English`;
 const OCT14_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=7960f118-c668-45ef-a975-2362de95de1c&Agenda=Agenda&lang=English`;
 const OCT6_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=3a6eea40-36a8-49b2-9488-cedd456be4d9&Agenda=Agenda&lang=English`;
 const SEP15_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=79595442-81c5-4c63-add5-9a91a8d6300b&Agenda=Agenda&lang=English`;
@@ -119,6 +122,181 @@ const boarddocsMeeting = (id: string) =>
   `https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=${id}`;
 
 const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
+
+  // --- 2026-10-23 morning: Oct 20 BOS Business Meeting (Whisper transcript + Action Report memo dated Oct 22, Laserfiche edoc 1976200) ---
+  {
+    slug: "bos-2026-10-20-business",
+    shareEnabled: true,
+    shareContext: "Loudoun BOS, Oct 20, 2026",
+    meetingId: "escribe-22e65f92",
+    title: "Board of Supervisors Business Meeting",
+    dateLabel: "Tuesday, Oct 20, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 8h 1m",
+    official: {
+      votesPosted: true,
+      checkedLabel: "Oct 23, 2026, 8:00 AM ET",
+      note: "Votes and deferrals below are taken from the county Action Report (memo dated Oct 22, 2026).",
+      links: [
+        { label: "Agenda (eScribe)", href: OCT20_AGENDA_HTML },
+        { label: "Action Report (PDF)", href: ACTION_OCT20 },
+        {
+          label: "County document folder for Board meetings",
+          href: LASERFICHE_BOS,
+        },
+      ],
+    },
+    decisions: [
+      {
+        item: "4",
+        action:
+          "Consent agenda approved (7a–7f, 11a–11i, 14a, 14c, 14e, 14f, 14g, 14i, 14k, and 14m). Consent items include the Finance/GOED Committee contract items, the Administrative Items Report (among them a $5 million County grant to The Conservation Fund toward establishing Oak Hill as a future Virginia State Park), the Rivana at Innovation Station CDA revenue bond resolution, and the Mooreview Parkway renaming to Ashburn Village Boulevard ($275,000 budget adjustment).",
+        tally: "7-0-2 (Supervisors Kershner and Saines absent)",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "11.i",
+        action:
+          "St. Louis Deferred Forgivable Loan Program established and Program Manual approved; exception to the Water and Wastewater Projects Funding Policy approved, moving $1,000,000 from the Water and Wastewater Fund to the program. Consent item.",
+        tally: "7-0-2 (Supervisors Kershner and Saines absent)",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "14.d",
+        action:
+          "Discussion of a County-funded limited rent supplement program for cost-burdened renters sent to the FY 2028 budget process; as amended, staff will also analyze funding scenarios from $5 million to $10 million, in addition to the $1 million–$3 million scenarios already proposed.",
+        tally: "6-3 (Supervisors Kershner, Letourneau, and Umstattd opposed)",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "14.h (Motion 1)",
+        action: "Department of Planning and Zoning Work Plan (Tables 1, 2, and 3) approved.",
+        tally: "9-0",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "14.h (Motion 2)",
+        action:
+          "Motion to direct staff to require gas-insulated substations to be at least 500 feet from a residential use in the Data Center Standards and Locations Phase 2 zoning amendment (ZOAM-2025-0002), and to state a County preference for substations co-located on data center sites in the Phase 2 Comprehensive Plan Amendment (CPAM-2025-0001), failed.",
+        tally: "3-6 (Supervisors Glass, Kershner, Letourneau, Saines, Turner, and Umstattd opposed)",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "14.j",
+        action:
+          "LEGI-2023-0097, Quantum Park (ZCPA-2023-0008) denied, based on four findings for denial (substation compatibility and visual impacts, inconsistency with the original office-park vision and the Suburban Employment Place Type, need for added proffers, and strain on the electrical grid).",
+        tally: "7-2 (Supervisors Kershner and Umstattd opposed)",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "14.l",
+        action:
+          "LEGI-2025-0020, Tuscarora Crossing Landbay 4 (SPEX-2025-0036) approved, subject to the Conditions of Approval dated Oct 13, 2026 and the Findings for Approval.",
+        tally: "5-4 (Supervisors Glass, Letourneau, Randall, and TeKrony opposed)",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "14.n",
+        action:
+          "Board Member Initiative on Flock and ALPR camera data (research camera counts, data use/sharing, and retention, and invite local law enforcement agencies to a future meeting) tabled to the Nov 17, 2026 Business Meeting, while the Board works toward receiving surveillance-camera information from law enforcement agencies.",
+        tally: "7-1-1 (Vice Chair Turner opposed; Supervisor Briskman absent)",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "14.o",
+        action:
+          "LEGI-2025-0012, Golden Substation (SPEX-2025-0032, -0033, and -0137) moved up for action at the Nov 5, 2026 Business Meeting instead of Dec 1, 2026.",
+        tally: "8-0-1 (Supervisor Briskman absent)",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "14.p",
+        action:
+          "Resolution to pause Board consideration of legislative applications for data centers and substations deferred to the Nov 17, 2026 Business Meeting (announced at the start of the meeting).",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "15 (closed session, Part 1)",
+        action:
+          "After the closed session on real property in the Algonkian District: County Administrator directed to continue discussions with Amazon Data Services, Inc. on the County acquiring about 25 acres on the Loudoun campus of George Washington University (valued at $65 million), and to accept a $5 million Amazon Data Services donation to the County housing trust.",
+        tally: "9-0",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+      {
+        item: "15 (closed session, Part 1)",
+        action:
+          "County Administrator directed to expeditiously process a rezoning application to include residential development and no data centers, with the 25 acres dedicated as a proffered contribution.",
+        tally: "8-1 (Supervisor Umstattd opposed)",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+    ],
+    context: [
+      {
+        text: "Item 14.l (Tuscarora Crossing Landbay 4) had been deferred from the Sept 15 and Oct 6, 2026 Business Meetings before this approval.",
+        source: { label: "Oct 6, 2026 Action Report", href: ACTION_OCT6 },
+      },
+      {
+        text: "A deferred closed-session item (legal advice on the data center grandfathering resolution) was moved to the Nov 5, 2026 Business Meeting.",
+        source: { label: "Oct 20, 2026 Action Report", href: ACTION_OCT20 },
+      },
+    ],
+    agenda: [
+      {
+        heading: "Information items",
+        items: [
+          { num: "10.a", title: "Youth in Government Day 2026", href: doc(1960) },
+          { num: "10.b", title: "Advisory Commission on Youth Report – State of Youth of Loudoun County, 2026", href: doc(1956) },
+          { num: "10.c", title: "Broadband Implementation Plan – Update", href: doc(1958) },
+        ],
+      },
+      {
+        heading: "Finance/GOED Committee reports (all on consent)",
+        items: [
+          { num: "11.a", title: "Award authority increase: Overhead Door and Security Gate Repair and Maintenance", href: doc(2012) },
+          { num: "11.b", title: "Award authority increase: Advanced Technology Solutions Aggregator", href: doc(2000) },
+          { num: "11.c", title: "Award authority increase: Software Solutions and Services", href: doc(2001) },
+          { num: "11.d", title: "Contract award: Program Management and Governance Support Services", href: doc(2013) },
+          { num: "11.e", title: "Contract renewal: Sidewalk and Trail Design Services", href: doc(2014) },
+          { num: "11.f", title: "Loudoun Health Commission FY 2026 Annual Report", href: doc(2020) },
+          { num: "11.g", title: "Proposed ordinance: real property owned by surviving spouses of certain persons killed in the line of duty", href: doc(2015) },
+          { num: "11.h", title: "Reallocation of unspent Community Development Block Grant funds", href: doc(2026) },
+          { num: "11.i", title: "St. Louis Deferred Forgivable Loan Program (Little River)", href: doc(2017) },
+        ],
+      },
+      {
+        heading: "Action items not proposed on consent",
+        items: [
+          { num: "14.b", title: "Appointments: nominations", href: doc(1934) },
+          { num: "14.d", title: "BMI response: Limited Rent Supplement Program to Promote Housing Stability", href: doc(1993) },
+          { num: "14.h", title: "Department of Planning and Zoning Work Plan", href: doc(1963) },
+          { num: "14.j", title: "LEGI-2023-0097, Quantum Park: ZCPA-2023-0008 (Broad Run)", href: doc(1948) },
+          { num: "14.l", title: "LEGI-2025-0020, Tuscarora Crossing Landbay 4: SPEX-2025-0036 (Leesburg)", href: doc(2004) },
+          { num: "14.n", title: "BMI: Flock camera data collection from Loudoun County law enforcement departments", href: doc(2030) },
+          { num: "14.o", title: "BMI: Golden Substation application scheduling (Sterling)", href: doc(2022) },
+          { num: "14.p", title: "DEFERRED: Resolution to pause Board consideration of legislative applications for data centers and substations", href: doc(2023) },
+          { num: "15", title: "Closed sessions (real property, Algonkian District; collective bargaining legal advice)" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-10-20-board-of-supervisors-business-meeting.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-10-20-board-of-supervisors-business-meeting.txt",
+      pdfNote: "84 pages",
+    },
+    moments: [
+      { seconds: 783, label: "Meeting called to order." },
+      { seconds: 923, item: "3", label: "Item 14.p deferral announced; consent agenda items read." },
+      { seconds: 1501, item: "4", label: "Consent agenda vote." },
+      { seconds: 10663, item: "15", label: "Board returns from closed session; certification vote." },
+      { seconds: 11728, item: "8", label: "Public input session opens." },
+      { seconds: 17619, item: "14.d", label: "Limited rent supplement initiative taken up." },
+      { seconds: 19227, item: "14.h", label: "Planning and Zoning work plan presentation." },
+      { seconds: 20832, item: "14.h", label: "Motion on gas-insulated substation setbacks and co-location read." },
+      { seconds: 22095, item: "14.j", label: "Quantum Park application taken up." },
+      { seconds: 23137, item: "14.l", label: "Tuscarora Crossing Landbay 4 application taken up." },
+      { seconds: 24869, item: "14.n", label: "Flock camera data initiative taken up." },
+      { seconds: 25788, item: "14.o", label: "Golden Substation scheduling motion read." },
+    ],
+  },
 
   // --- 2026-10-17 morning: Oct 14 BOS public hearing (Whisper transcript + Action Report posted Oct 16) ---
   {

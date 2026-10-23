@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-boe/transcripts/vboe-42cnvsI2Ho0.json",
+  "outBase": "public/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2023-03-08-lab-schools-standing-committee",
+  "title": "Virginia Board of Education, Lab Schools Standing Committee, Wednesday, March 8, 2023",
+  "shortTitle": "VA Board of Education Lab Schools Standing Committee \u00b7 Mar 8, 2023",
+  "date": "Wednesday, March 8, 2023",
+  "place": "Virginia Board of Education (Virginia Department of Education), Richmond, Virginia",
+  "length": "1h 2m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (VDOE, YouTube)",
+      "href": "https://www.youtube.com/watch?v=42cnvsI2Ho0"
+    },
+    {
+      "label": "Board of Education meetings, agendas and minutes (VDOE)",
+      "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-23"
+}

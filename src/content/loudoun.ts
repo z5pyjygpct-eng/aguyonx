@@ -1051,6 +1051,16 @@ export const LOUDOUN_MEETINGS: LoudounMeeting[] = [
     windowCount: 392,
   },
   {
+    id: "7763",
+    clipId: 7763,
+    title: "Finance/Government Operations and Economic Development Committee",
+    dateLabel: "Oct 8, 2024",
+    duration: "6h 40m",
+    playerUrl: "https://loudoun.granicus.com/player/clip/7763",
+    windowsUrl: "/files/find-the-moment/loudoun-bos/7763.json",
+    windowCount: 717,
+  },
+  {
     id: "7762",
     clipId: 7762,
     title: "Joint Board of Supervisors and School Board Committee",

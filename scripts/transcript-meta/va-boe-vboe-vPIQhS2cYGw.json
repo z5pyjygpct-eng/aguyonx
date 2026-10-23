@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-boe/transcripts/vboe-vPIQhS2cYGw.json",
+  "outBase": "public/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-11-17-business-meeting",
+  "title": "Virginia Board of Education, Business Meeting, Thursday, November 17, 2022",
+  "shortTitle": "VA Board of Education Business Meeting \u00b7 Nov 17, 2022",
+  "date": "Thursday, November 17, 2022",
+  "place": "Virginia Board of Education (Virginia Department of Education), Richmond, Virginia",
+  "length": "11h 10m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (VDOE, YouTube)",
+      "href": "https://www.youtube.com/watch?v=vPIQhS2cYGw"
+    },
+    {
+      "label": "Board of Education meetings, agendas and minutes (VDOE)",
+      "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-23"
+}

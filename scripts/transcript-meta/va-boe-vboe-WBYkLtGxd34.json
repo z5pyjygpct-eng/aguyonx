@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-boe/transcripts/vboe-WBYkLtGxd34.json",
+  "outBase": "public/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2023-08-31-special-meeting",
+  "title": "Virginia Board of Education, Special Meeting, Thursday, August 31, 2023",
+  "shortTitle": "VA Board of Education Special Meeting \u00b7 Aug 31, 2023",
+  "date": "Thursday, August 31, 2023",
+  "place": "Virginia Board of Education (Virginia Department of Education), Richmond, Virginia",
+  "length": "7h 51m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (VDOE, YouTube)",
+      "href": "https://www.youtube.com/watch?v=WBYkLtGxd34"
+    },
+    {
+      "label": "Board of Education meetings, agendas and minutes (VDOE)",
+      "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-23"
+}

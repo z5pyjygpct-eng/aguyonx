@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-boe/transcripts/vboe-4JK-dB26WIc.json",
+  "outBase": "public/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2023-07-26-executive-work-session",
+  "title": "Virginia Board of Education, Executive & Work Session, Wednesday, July 26, 2023",
+  "shortTitle": "VA Board of Education Executive & Work Session \u00b7 Jul 26, 2023",
+  "date": "Wednesday, July 26, 2023",
+  "place": "Virginia Board of Education (Virginia Department of Education), Richmond, Virginia",
+  "length": "8h 4m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (VDOE, YouTube)",
+      "href": "https://www.youtube.com/watch?v=4JK-dB26WIc"
+    },
+    {
+      "label": "Board of Education meetings, agendas and minutes (VDOE)",
+      "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-23"
+}
