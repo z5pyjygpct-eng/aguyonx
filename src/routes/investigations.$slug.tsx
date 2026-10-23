@@ -9,6 +9,11 @@ const PAGE_OG_IMAGES: Record<string, string> = {
 
 export const Route = createFileRoute("/investigations/$slug")({
   component: InvestigationPage,
+  loader: ({ params }) => {
+    const story = investigationBySlug(params.slug);
+    if (!story) throw notFound();
+    return { story };
+  },
   head: ({ params }) => {
     const img = PAGE_OG_IMAGES[params.slug];
     if (!img) return {};
@@ -21,11 +26,6 @@ export const Route = createFileRoute("/investigations/$slug")({
         { name: "twitter:image", content: img },
       ],
     };
-  },
-  loader: ({ params }) => {
-    const story = investigationBySlug(params.slug);
-    if (!story) throw notFound();
-    return { story };
   },
   notFoundComponent: Missing,
 });
