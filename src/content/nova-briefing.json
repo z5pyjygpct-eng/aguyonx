@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,242 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-23",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 22, Thursday) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (HTTP 200 or full page render through a scraping service; outlet headline, URL and Oct 22 ET publish date checked on each article page; the Loudoun County release date is from the county news flash feed). Sources checked: RSS from Loudoun Now, Loudoun Times-Mirror, InsideNoVa and Prince William Times (BLOX sites returned HTTP 429 to direct requests and were read through a scraping service), FFXnow, ARLnow, Potomac Local, Blue Ridge Leader, Fairfax Times, WTOP, NBC Washington, WUSA9, FOX 5 and the Loudoun County news flash; the Prince William Times surplus story came from the site's News page. Caveats: Annandale Today feed returned no items; InsideNoVa and Prince William Times main feeds carried only wire press releases, so their section pages were read instead. Left out: Loudoun Times-Mirror's Nett trial story (same story as the Loudoun Now item); Equinix Sterling Middle School donation (already briefed Oct 19); the county's preliminary Amazon agreement release and WTOP's Amazon data center follow-up (Amazon/GWU story already briefed Oct 21); NBC Washington and WTOP versions of the Iwo Jima statue story; Fairfax Times items (dated Oct 23 or earlier than Oct 22); Louise Lucas indictment coverage and other statewide items; Alexandria, Stafford, Fredericksburg and Culpeper items (not one of the four localities); soft features, restaurant and retail openings, events, sports and sponsored press releases. Capped: 27 in-scope items verified, kept 25; the Leesburg domestic violence candlelight vigil (Loudoun Times-Mirror) and the Key Bridge Marriott snow-storage story (ARLnow) were cut at the cap. About 55 candidate links screened; 0 verification failures.",
+      "items": [
+        {
+          "id": "loudoun-supervisors-eye-higher-goals-for-attainable-loudounnow-2026-10-22",
+          "county": "Loudoun",
+          "headline": "Loudoun Supervisors Eye Higher Goals for Attainable Housing Units",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/loudoun-supervisors-eye-higher-goals-for-attainable-housing-units/article_366ba908-9bf6-4d9c-aba4-911e0f9f3533.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lovettsville-council-doesn-t-renew-town-manager-loudounnow-2026-10-22",
+          "county": "Loudoun",
+          "headline": "Lovettsville Council Doesn't Renew Town Manager's Contract, Names Replacement",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/lovettsville-council-doesnt-renew-town-managers-contract-names-replacement/article_744b858c-75da-4aa6-8698-f6e31dd1fe1d.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "trial-for-purcellville-vice-mayor-pushed-to-loudounnow-2026-10-22",
+          "county": "Loudoun",
+          "headline": "Trial for Purcellville Vice Mayor Pushed to December",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/trial-for-purcellville-vice-mayor-pushed-to-december/article_9ce6de87-f837-4046-9994-7d43721afc0f.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "kaine-tours-loudoun-s-crisis-receiving-center-loudounnow-2026-10-22",
+          "county": "Loudoun",
+          "headline": "Kaine Tours Loudoun’s Crisis Receiving Center",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/kaine-tours-loudoun-s-crisis-receiving-center/article_b37c4c84-0324-42f4-b09a-21a13bd6f9e4.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "national-park-service-status-expected-to-boost-loudounnow-2026-10-22",
+          "county": "Loudoun",
+          "headline": "National Park Service Status Expected to Boost Dodona Manor",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/national-park-service-status-expected-to-boost-dodona-manor/article_d613b10b-4cd5-49cc-b137-da293093ed45.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "dmv-records-raise-questions-about-police-searches-brl-2026-10-22",
+          "county": "Loudoun",
+          "headline": "DMV Records Raise Questions About Police Searches of Purcellville Officials",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/dmv-records-raise-questions-about-police-searches-of-purcellville-officials/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "robin-linn-brings-a-creative-vision-to-brl-2026-10-22",
+          "county": "Loudoun",
+          "headline": "Robin Linn Brings a Creative Vision to Hamilton’s Future",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/robin-linn-brings-a-creative-vision-to-hamiltons-future/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "digest-rent-assistance-water-treatment-loans-land-ltm-2026-10-22",
+          "county": "Loudoun",
+          "headline": "DIGEST: Rent assistance, water treatment loans, land use applications, and more at the Board of Supervisors",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/real_estate_and_development/digest-rent-assistance-water-treatment-loans-land-use-applications-and-more-at-the-board-of/article_84686652-9c5e-44ce-b7e1-03f09be1d586.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "burk-begins-term-as-virginia-municipal-league-ltm-2026-10-22",
+          "county": "Loudoun",
+          "headline": "Burk begins term as Virginia Municipal League president",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/burk-begins-term-as-virginia-municipal-league-president/article_428a4f23-f4a5-4fe2-9a33-02dd65188ebc.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "an-important-part-of-the-property-s-ltm-2026-10-22",
+          "county": "Loudoun",
+          "headline": "'An important part of the property’s transformation': DTC Expo and Event Center opens next month",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/an-important-part-of-the-property-s-transformation-dtc-expo-and-event-center-opens-next/article_54fdb97a-53ed-4005-8692-b850ba476d6a.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prcs-earns-national-reaccreditation-in-parks-and-loudoungov-2026-10-22",
+          "county": "Loudoun",
+          "headline": "PRCS Earns National Reaccreditation in Parks and Recreation",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10946",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "city-centre-west-mixed-use-plan-may-ffxnow-2026-10-22",
+          "county": "Fairfax",
+          "headline": "City Centre West mixed-use plan may need tweaks to be viable, developer says",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/22/city-centre-west-mixed-use-proposal-may-need-tweaks-to-be-viable-developer-says/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "local-leaders-wary-of-state-legislature-s-ffxnow-2026-10-22",
+          "county": "Fairfax",
+          "headline": "Local leaders wary of state legislature’s push to consolidate N. Va. bus systems",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/22/local-leaders-wary-of-state-legislatures-push-to-consolidate-n-va-bus-systems/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcdot-proposes-new-bike-lanes-crosswalks-for-ffxnow-2026-10-22",
+          "county": "Fairfax",
+          "headline": "FCDOT proposes new bike lanes, crosswalks for road restriping program",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/22/fcdot-proposes-new-bike-lanes-crosswalks-for-road-restriping-program/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-injured-vehicles-damaged-in-green-valley-arlnow-2026-10-22",
+          "county": "Arlington",
+          "headline": "Man injured, vehicles damaged in Green Valley shooting",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/22/man-injured-vehicles-damaged-in-green-valley-shooting/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "just-in-gunfire-damages-cars-home-on-arlnow-2026-10-22",
+          "county": "Arlington",
+          "headline": "JUST IN: Gunfire damages cars, home on same Green Valley block as Wednesday shooting",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/22/just-in-gunfire-damages-cars-home-on-same-green-valley-block-as-wednesday-shooting/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "proposed-sidewalk-near-courthouse-sparks-debate-over-arlnow-2026-10-22",
+          "county": "Arlington",
+          "headline": "Proposed sidewalk near Courthouse sparks debate over tree loss, pedestrian safety",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/22/proposed-sidewalk-near-courthouse-sparks-debate-over-tree-loss-pedestrian-safety/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-convicted-of-break-in-unimaginable-sexual-arlnow-2026-10-22",
+          "county": "Arlington",
+          "headline": "Man convicted of break-in, ‘unimaginable’ sexual abuse of former girlfriend in Arlington",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/22/man-convicted-of-break-in-unimaginable-sexual-abuse-of-former-girlfriend-in-arlington/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "naacp-celebrates-a-transformative-year-with-top-arlnow-2026-10-22",
+          "county": "Arlington",
+          "headline": "NAACP celebrates a ‘transformative year’ with top state officials and Miss USA",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/22/naacp-celebrates-a-transformative-year-with-miss-usa-and-top-state-officials/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "supervisors-get-mixed-news-on-county-finances-pwtimes-2026-10-22",
+          "county": "Prince William",
+          "headline": "Supervisors get mixed news on county finances as data centers fuel $95M surplus",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/supervisors-get-mixed-news-on-county-finances-as-data-centers-fuel-95m-surplus/article_b8fab66a-5b16-4da0-a8af-63ed1d840a13.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "stafford-man-takes-sledgehammer-to-iwo-jima-insidenova-2026-10-22",
+          "county": "Prince William",
+          "headline": "Stafford man takes sledgehammer to Iwo Jima monument in Quantico, police say; damages estimated in hundreds of thousands",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/prince_william/stafford-man-takes-sledgehammer-to-iwo-jima-monument-in-quantico-police-say-damages-estimated-in/article_b203f88b-d3d0-4373-8285-a738ac6173c3.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fox-sources-say-iwo-jima-statue-suspect-potomaclocal-2026-10-22",
+          "county": "Prince William",
+          "headline": "Fox sources say Iwo Jima statue suspect is former DACA recipient whose status expired",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/22/fox-sources-iwo-jima-statue-suspect-former-daca/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "ring-leader-in-red-carpet-inn-drug-insidenova-2026-10-22",
+          "county": "Prince William",
+          "headline": "Ring leader in Red Carpet Inn drug ring sentenced to 18 years in prison",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/headlines/ring-leader-in-red-carpet-inn-drug-ring-sentenced-to-18-years-in-prison/article_6e4017d6-f2a2-4b44-a725-d73deeff3ba5.html",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-handgun-brandished-at-dumfries-construction-potomaclocal-2026-10-22",
+          "county": "Prince William",
+          "headline": "Police Blotter: Handgun Brandished at Dumfries Construction Site",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/22/police-blotter-2026-10-14/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "demolition-underway-at-411-mill-street-drydock-potomaclocal-2026-10-22",
+          "county": "Prince William",
+          "headline": "Demolition underway at 411 Mill Street drydock in Occoquan",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/22/occoquan-starts-demolition-of-411-mill-street-drydock/",
+          "published": "2026-10-22",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Annandale Today: feed returned no items"
+      ]
+    },
     {
       "date": "2026-10-22",
       "status": "ok",
