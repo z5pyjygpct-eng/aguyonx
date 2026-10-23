@@ -3,6 +3,7 @@ import { SiteShell } from "@/components/site/shell";
 import { FtmV4Page } from "@/components/site/venue-v4";
 import { V4_VENUES } from "@/lib/v4-venues";
 import { ccMeetings } from "@/lib/civicclerk-v4";
+import { CityMeetingSearch } from "@/components/site/city-meeting-search";
 
 const DATA = ccMeetings("chesterfield-bos");
 export const Route = createFileRoute("/dashboards/chesterfield/bos/find-the-moment")({
@@ -17,7 +18,7 @@ function Page() {
   const onPage = (p: number) => navigate({ search: { page: p } });
   return (
     <SiteShell>
-      <FtmV4Page venue={V4_VENUES["chesterfield-bos"]} meetings={DATA} page={page} onPage={onPage} />
+      <FtmV4Page venue={V4_VENUES["chesterfield-bos"]} meetings={DATA} search={<CityMeetingSearch venues={["chesterfield-bos"]} />} page={page} onPage={onPage} />
     </SiteShell>
   );
 }

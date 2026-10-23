@@ -12,6 +12,7 @@
  */
 
 import { VBOE_FTM_TRANSCRIPTS } from "./ftm-transcripts-vboe";
+import { HC_FTM_TRANSCRIPTS } from "./ftm-transcripts-hc";
 
 export type FtmTranscriptVenue =
   | "loudoun-bos"
@@ -24,7 +25,11 @@ export type FtmTranscriptVenue =
   | "albemarle-schools"
   | "va-senate-floor"
   | "va-house-floor"
-  | "va-boe";
+  | "va-boe"
+  | "hanover-bos"
+  | "hanover-schools"
+  | "chesterfield-bos"
+  | "chesterfield-schools";
 
 export type FtmTranscript = {
   /** Catalog meeting id (e.g. LOUDOUN_MEETINGS[].id). */
@@ -51,6 +56,7 @@ export const FTM_TRANSCRIPT_LABEL =
 export const FTM_TRANSCRIPTS: FtmTranscript[] = [
   // redesign-v4 preview only: Virginia Board of Education (new location; see ftm-transcripts-vboe.ts)
   ...VBOE_FTM_TRANSCRIPTS,
+  ...HC_FTM_TRANSCRIPTS,
   {
     meetingId: "escribe-3a6eea40",
     venue: "loudoun-bos",

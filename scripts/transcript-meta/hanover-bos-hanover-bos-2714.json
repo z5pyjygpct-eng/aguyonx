@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-bos/transcripts/hanover-bos-2714.json",
+  "outBase": "public/files/find-the-moment/hanover-bos/transcripts/coraggio-transcript-hanover-bos-2026-09-09-hanover-county-board-of-supervisors-post-closed-session-to-closing",
+  "title": "Hanover County Board of Supervisors - Post Closed Session to Closing, Wednesday, September 9, 2026",
+  "shortTitle": "Board of Supervisors - Post Closed Session to Closing \u00b7 Sep 9, 2026",
+  "date": "Wednesday, September 9, 2026",
+  "place": "Hanover County Board of Supervisors, Virginia",
+  "length": "3m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/2714/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5803,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5841,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-22"
+}

@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-schools/transcripts/han-sb-2688.json",
+  "outBase": "public/files/find-the-moment/hanover-schools/transcripts/coraggio-transcript-hanover-schools-2026-09-08-hanover-county-school-board-meeting",
+  "title": "Hanover County School Board Meeting, Tuesday, September 8, 2026",
+  "shortTitle": "Hanover County School Board Meeting \u00b7 Sep 8, 2026",
+  "date": "Tuesday, September 8, 2026",
+  "place": "Hanover County School Board, Virginia",
+  "length": "1h 36m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/2688/media"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-22"
+}

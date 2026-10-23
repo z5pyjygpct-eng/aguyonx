@@ -1,0 +1,97 @@
+[
+ {
+  "id": "hanover-bos-1585",
+  "venue": "hanover-bos",
+  "title": "Hanover County Board of Supervisors Meeting",
+  "date": "2026-09-09",
+  "dateLabel": "Sep 9, 2026",
+  "duration": "58m",
+  "provider": "civicclerk",
+  "playerUrl": "https://hanovercova.portal.civicclerk.com/event/1585/media",
+  "mediaUrl": "https://cpmedia.azureedge.net/hanovercova/5f51d28392.mp4",
+  "agendaUrl": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5797,plainText=false)",
+  "minutesUrl": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5841,plainText=false)"
+ },
+ {
+  "id": "hanover-bos-2714",
+  "venue": "hanover-bos",
+  "title": "Hanover County Board of Supervisors - Post Closed Session to Closing",
+  "date": "2026-09-09",
+  "dateLabel": "Sep 9, 2026",
+  "duration": "3m",
+  "provider": "civicclerk",
+  "playerUrl": "https://hanovercova.portal.civicclerk.com/event/2714/media",
+  "mediaUrl": "https://cpmedia.azureedge.net/hanovercova/0b9da239ce.mp4",
+  "agendaUrl": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5803,plainText=false)",
+  "minutesUrl": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5841,plainText=false)"
+ },
+ {
+  "id": "hanover-bos-1586",
+  "venue": "hanover-bos",
+  "title": "Hanover County Board of Supervisors Meeting",
+  "date": "2026-09-23",
+  "dateLabel": "Sep 23, 2026",
+  "duration": "1h 39m",
+  "provider": "civicclerk",
+  "playerUrl": "https://hanovercova.portal.civicclerk.com/event/1586/media",
+  "mediaUrl": "https://cpmedia.azureedge.net/hanovercova/38d9e27a-db33-4510-afd7-109a32f2881c.mp4",
+  "agendaUrl": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5827,plainText=false)",
+  "minutesUrl": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5896,plainText=false)"
+ },
+ {
+  "id": "han-sb-2688",
+  "venue": "hanover-schools",
+  "title": "Hanover County School Board Meeting",
+  "date": "2026-09-08",
+  "dateLabel": "Sep 8, 2026",
+  "duration": "1h 36m",
+  "provider": "civicclerk",
+  "playerUrl": "https://hanovercova.portal.civicclerk.com/event/2688/media",
+  "mediaUrl": "https://cpmedia.azureedge.net/hanovercova/3d0d7d3f-aff9-4656-b10b-dda5fbf75933.mp4"
+ },
+ {
+  "id": "chesterfield-bos-2030",
+  "venue": "chesterfield-bos",
+  "title": "Chesterfield County Board of Supervisors Meeting - September 23, 2026",
+  "date": "2026-09-23",
+  "dateLabel": "Sep 23, 2026",
+  "duration": "5h 51m",
+  "provider": "civicclerk",
+  "playerUrl": "https://chesterfieldcova.portal.civicclerk.com/event/2030/media",
+  "mediaUrl": "https://cpmedia.azureedge.net/chesterfieldcova/41b2d828-b016-4a46-86e1-ad17984fd403.mp4",
+  "agendaUrl": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5268,plainText=false)"
+ },
+ {
+  "id": "chesterfield-bos-2029",
+  "venue": "chesterfield-bos",
+  "title": "Chesterfield County Board of Supervisors Meeting - August 26, 2026",
+  "date": "2026-08-26",
+  "dateLabel": "Aug 26, 2026",
+  "duration": "8h 39m",
+  "provider": "civicclerk",
+  "playerUrl": "https://chesterfieldcova.portal.civicclerk.com/event/2029/media",
+  "mediaUrl": "https://cpmedia.azureedge.net/chesterfieldcova/97814c27d1.mp4",
+  "agendaUrl": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5210,plainText=false)",
+  "minutesUrl": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5292,plainText=false)"
+ },
+ {
+  "id": "chf-sb-400286",
+  "venue": "chesterfield-schools",
+  "title": "Chesterfield County School Board Business Meeting",
+  "date": "2026-09-08",
+  "dateLabel": "Sep 8, 2026",
+  "duration": "1h 17m",
+  "provider": "swagit",
+  "playerUrl": "https://chesterfieldschoolsva.new.swagit.com/videos/400286"
+ },
+ {
+  "id": "chf-sb-400239",
+  "venue": "chesterfield-schools",
+  "title": "Chesterfield County School Board Work Session",
+  "date": "2026-09-08",
+  "dateLabel": "Sep 8, 2026",
+  "duration": "1h 32m",
+  "provider": "swagit",
+  "playerUrl": "https://chesterfieldschoolsva.new.swagit.com/videos/400239"
+ }
+]

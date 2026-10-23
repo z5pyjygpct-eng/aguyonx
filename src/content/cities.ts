@@ -3,10 +3,11 @@
  * Same model as Loudoun: one door per body (council / schools), meetings 2025-01-01 to present,
  * machine transcripts from the Mac mini, recaps with votes only from official minutes.
  */
-import { CITY_MEETINGS } from "./cities-meetings";
+import { CITY_MEETINGS as BASE_CITY_MEETINGS } from "./cities-meetings";
+import { HC_MEETINGS } from "./hc-meetings";
 import { FTM_TRANSCRIPTS } from "./ftm-transcripts";
 
-export type CityId = "fairfax-city" | "manassas" | "albemarle";
+export type CityId = "fairfax-city" | "manassas" | "albemarle" | "hanover" | "chesterfield";
 export type CityBody = "council" | "schools";
 export type CityVenueId =
   | "fairfax-city-council"
@@ -14,8 +15,12 @@ export type CityVenueId =
   | "manassas-council"
   | "manassas-schools"
   | "albemarle-bos"
-  | "albemarle-schools";
-export type CityProvider = "granicus-page" | "youtube" | "wistia";
+  | "albemarle-schools"
+  | "hanover-bos"
+  | "hanover-schools"
+  | "chesterfield-bos"
+  | "chesterfield-schools";
+export type CityProvider = "granicus-page" | "youtube" | "wistia" | "civicclerk" | "swagit";
 
 export type CityMeeting = {
   /** Mac mini file_key and transcript meetingId (e.g. fxc-4676, mcps-<youtubeId>, mcc-<wistiaId>). */
@@ -33,6 +38,8 @@ export type CityMeeting = {
   agendaUrl?: string;
   /** Official minutes (votes source) when the host links them per meeting. */
   minutesUrl?: string;
+  /** CivicClerk: direct official mp4 (CivicPlus CDN) so jump links can open at a time (#t=). */
+  mediaUrl?: string;
 };
 
 export type CityDoor = { label: string; href: string };
@@ -187,6 +194,72 @@ export const CITY_VENUES: Record<CityVenueId, CityVenue> = {
       { label: "Meeting video (YouTube)", href: "https://www.youtube.com/@k12albemarle" },
     ],
   },
+  "hanover-bos": {
+    id: "hanover-bos",
+    city: "hanover",
+    body: "council",
+    name: "Hanover County Board of Supervisors",
+    buttonLabel: "Hanover Supervisors",
+    to: "/cities/hanover",
+    route: "/cities/$city",
+    boardLabel: "Board of Supervisors",
+    videoHost: "Hanover County meeting portal (CivicClerk)",
+    votesSource: "adopted Board of Supervisors minutes posted on Hanover County’s CivicClerk portal",
+    since: "January 2025",
+    tag: "Supervisors",
+    doors: [
+      { label: "Meetings, video & minutes (CivicClerk)", href: "https://hanovercova.portal.civicclerk.com/" },
+    ],
+  },
+  "hanover-schools": {
+    id: "hanover-schools",
+    city: "hanover",
+    body: "schools",
+    name: "Hanover County School Board",
+    buttonLabel: "Hanover Schools",
+    to: "/cities/hanover/schools",
+    route: "/cities/$city/schools",
+    boardLabel: "School Board",
+    videoHost: "Hanover County meeting portal (CivicClerk)",
+    votesSource: "adopted School Board minutes posted by Hanover County Public Schools",
+    since: "January 2025",
+    doors: [
+      { label: "Meetings & video (CivicClerk)", href: "https://hanovercova.portal.civicclerk.com/" },
+    ],
+  },
+  "chesterfield-bos": {
+    id: "chesterfield-bos",
+    city: "chesterfield",
+    body: "council",
+    name: "Chesterfield County Board of Supervisors",
+    buttonLabel: "Chesterfield Supervisors",
+    to: "/cities/chesterfield",
+    route: "/cities/$city",
+    boardLabel: "Board of Supervisors",
+    videoHost: "Chesterfield County meeting portal (CivicClerk)",
+    votesSource: "adopted Board of Supervisors minutes posted on Chesterfield County’s CivicClerk portal",
+    since: "January 2025",
+    tag: "Supervisors",
+    doors: [
+      { label: "Meetings, video & minutes (CivicClerk)", href: "https://chesterfieldcova.portal.civicclerk.com/" },
+    ],
+  },
+  "chesterfield-schools": {
+    id: "chesterfield-schools",
+    city: "chesterfield",
+    body: "schools",
+    name: "Chesterfield County School Board",
+    buttonLabel: "Chesterfield Schools",
+    to: "/cities/chesterfield/schools",
+    route: "/cities/$city/schools",
+    boardLabel: "School Board",
+    videoHost: "Chesterfield County Public Schools video archive (Swagit)",
+    votesSource: "adopted School Board minutes posted by Chesterfield County Public Schools (BoardDocs)",
+    since: "January 2025",
+    doors: [
+      { label: "Meeting video (Swagit)", href: "https://chesterfieldschoolsva.new.swagit.com/" },
+    ],
+  },
 };
 
 export const CITIES: City[] = [
@@ -215,7 +288,27 @@ export const CITIES: City[] = [
     region: "Central Virginia",
     venues: ["albemarle-bos", "albemarle-schools"],
   },
+  {
+    // Added Oct 23 2026: Mac mini transcripts (CivicClerk video) with votes from official minutes.
+    id: "hanover",
+    name: "Hanover County",
+    shortName: "Hanover",
+    to: "/cities/hanover",
+    region: "Central Virginia",
+    venues: ["hanover-bos", "hanover-schools"],
+  },
+  {
+    id: "chesterfield",
+    name: "Chesterfield County",
+    shortName: "Chesterfield",
+    to: "/cities/chesterfield",
+    region: "Central Virginia",
+    venues: ["chesterfield-bos", "chesterfield-schools"],
+  },
 ];
+
+const CITY_MEETINGS: CityMeeting[] = [...BASE_CITY_MEETINGS, ...HC_MEETINGS];
+export const ALL_CITY_MEETINGS = CITY_MEETINGS;
 
 export const CITY_BY_ID = Object.fromEntries(CITIES.map((c) => [c.id, c])) as Record<CityId, City>;
 
@@ -247,11 +340,15 @@ export function cityJumpUrl(m: CityMeeting, seconds: number): string {
       return `${m.playerUrl}&t=${s}s`;
     case "wistia":
       return `${m.playerUrl}?time=${s}`;
+    case "swagit":
+      return `${m.playerUrl}?ts=${s}`;
+    case "civicclerk":
+      return m.mediaUrl ? `${m.mediaUrl}#t=${s}` : m.playerUrl;
   }
 }
 
 export function isCityId(x: string): x is CityId {
-  return x === "fairfax-city" || x === "manassas" || x === "albemarle";
+  return x === "fairfax-city" || x === "manassas" || x === "albemarle" || x === "hanover" || x === "chesterfield";
 }
 
 /**

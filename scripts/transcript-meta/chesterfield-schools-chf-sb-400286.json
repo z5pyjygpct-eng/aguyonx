@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/chesterfield-schools/transcripts/chf-sb-400286.json",
+  "outBase": "public/files/find-the-moment/chesterfield-schools/transcripts/coraggio-transcript-chesterfield-schools-2026-09-08-chesterfield-county-school-board-business-meeting",
+  "title": "Chesterfield County School Board Business Meeting, Tuesday, September 8, 2026",
+  "shortTitle": "Chesterfield County School Board Business Meeting \u00b7 Sep 8, 2026",
+  "date": "Tuesday, September 8, 2026",
+  "place": "Chesterfield County School Board, Virginia",
+  "length": "1h 17m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://chesterfieldschoolsva.new.swagit.com/videos/400286"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-22"
+}

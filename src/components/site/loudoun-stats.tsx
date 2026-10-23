@@ -11,7 +11,7 @@ import { LOUDOUN_MEETINGS } from "@/content/loudoun";
 import { LCPS_MEETINGS } from "@/content/lcps";
 import { LOUDOUN_RECAPS } from "@/content/loudoun-recaps";
 import { FTM_TRANSCRIPTS } from "@/content/ftm-transcripts";
-import { CITY_MEETINGS } from "@/content/cities-meetings";
+import { ALL_CITY_MEETINGS as CITY_MEETINGS } from "@/content/cities";
 import { CITY_RECAPS } from "@/content/city-recaps";
 import { cityVenueLive } from "@/content/cities";
 
