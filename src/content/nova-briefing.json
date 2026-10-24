@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,242 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-24",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 23, Friday) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (HTTP 200, or full page render through a scraping service for BLOX sites that returned HTTP 429 to direct requests; outlet headline, URL and Oct 23 ET publish date checked on each article page or, for Loudoun County releases and the Loudoun Times-Mirror dispatchers feature, on the outlet's own feed). Sources checked: RSS from Loudoun Now, Loudoun Times-Mirror, InsideNoVa, Prince William Times and Fairfax Times (read through a scraping service), FFXnow, ARLnow, Annandale Today, Potomac Local, Blue Ridge Leader, WTOP, NBC Washington, WUSA9, FOX 5 and the Loudoun County news flash; InsideNoVa's Prince William section page and the Prince William Times News page. Caveats: the InsideNoVa, Prince William Times and Fairfax Times feeds carried only wire press releases for Oct 23; InsideNoVa's Prince William section showed no new Oct 23 local stories beyond items already briefed or older; no Prince William Times or InsideNoVa story on the Dominion lawsuit dated Oct 23 (the Prince William Times version is dated Oct 22), so the WTOP version is used. Left out: the WTOP version of the Arlington police body-camera story (same story as ARLnow); Potomac Local blotter and VDOT items (Spotsylvania and Fredericksburg District); Louise Lucas indictment coverage, the Blue Ridge Leader open letter to the State Senate and other statewide items; the Culpeper data center copper theft (not one of the four localities); soft features, restaurant openings, polls, events, sports and sponsored press releases. Not capped: 38 candidates evaluated, 25 kept; 0 verification failures.",
+      "items": [
+        {
+          "id": "man-arrested-after-sterling-shooting-loudounnow-2026-10-23",
+          "county": "Loudoun",
+          "headline": "Man Arrested After Sterling Shooting",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/man-arrested-after-sterling-shooting/article_a69a2c79-0873-47de-a31b-944c47d2de4c.html",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "judge-grants-special-prosecutors-intervention-in-loudounnow-2026-10-23",
+          "county": "Loudoun",
+          "headline": "Judge Grants Special Prosecutor’s Intervention in Nett’s Grievance Filing",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/judge-grants-special-prosecutor-s-intervention-in-nett-s-grievance-filing/article_12880a75-3bfe-4a99-851e-47f9d41f864d.html",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "school-board-appears-unlikely-to-adopt-loudounnow-2026-10-23",
+          "county": "Loudoun",
+          "headline": "School Board Appears Unlikely to Adopt Major Eastern Elementary School Boundary Changes",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/school-board-appears-unlikely-to-adopt-major-eastern-elementary-school-boundary-changes/article_404b7a2a-ed43-43fd-94f9-372ba5f424ef.html",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "feds-charge-alleged-drug-dealer-in-loudounnow-2026-10-23",
+          "county": "Loudoun",
+          "headline": "Feds Charge Alleged Drug Dealer in Sterling Man’s Fatal Overdose",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/feds-charge-alleged-drug-dealer-in-sterling-man-s-fatal-overdose/article_6a3c121c-09c7-4b49-a021-2a5a7f0e1785.html",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "school-board-members-in-the-dark-ltm-2026-10-23",
+          "county": "Loudoun",
+          "headline": "School Board members in the dark about Sheriff's Office having access to live video feeds at schools",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/education/school-board-members-in-the-dark-about-sheriffs-office-having-access-to-live-video-feeds/article_a6b355ef-a2e1-41be-b197-efe1a4f28e28.html",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "voices-of-reason-loudoun-emergency-dispatchers-ltm-2026-10-23",
+          "county": "Loudoun",
+          "headline": "Voices of reason: Loudoun emergency dispatchers answer thousands of calls annually",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/accidents/voices-of-reason-loudoun-emergency-dispatchers-answer-thousands-of-calls-annually/article_8dcd7433-7aea-4ead-8e9e-84116158ec17.html",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-clarifies-who-proposed-sale-of-brl-2026-10-23",
+          "county": "Loudoun",
+          "headline": "County Clarifies Who Proposed Sale of Purcellville Library Interest",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/county-clarifies-who-proposed-sale-of-purcellville-library-interest/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-county-to-require-additional-documentation-loudoungov-2026-10-23",
+          "county": "Loudoun",
+          "headline": "Loudoun County to Require Additional Documentation for High Energy Use Facility Land Use Application",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10948",
+          "published": "2026-10-23",
+          "tier": "Documented Fact"
+        },
+        {
+          "id": "community-development-block-grant-process-underway-loudoungov-2026-10-23",
+          "county": "Loudoun",
+          "headline": "Community Development Block Grant Process Underway in Loudoun",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10950",
+          "published": "2026-10-23",
+          "tier": "Documented Fact"
+        },
+        {
+          "id": "loudoun-county-firefighters-kick-off-heroes-loudoungov-2026-10-23",
+          "county": "Loudoun",
+          "headline": "Loudoun County Firefighters Kick Off “Heroes for the Holidays” Toy Drive",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10949",
+          "published": "2026-10-23",
+          "tier": "Documented Fact"
+        },
+        {
+          "id": "seven-story-apartment-building-in-fairfax-ffxnow-2026-10-23",
+          "county": "Fairfax",
+          "headline": "Seven-story apartment building in Fairfax City set to open in 2027, developer says",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/23/seven-story-apartment-building-in-fairfax-city-on-track-to-open-in-2027-developer-says/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "planning-commission-backs-addition-of-nearly-ffxnow-2026-10-23",
+          "county": "Fairfax",
+          "headline": "Planning commission backs addition of nearly 300 townhomes near Dulles Airport",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/23/planning-commission-backs-addition-of-nearly-300-townhomes-near-dulles-airport/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "reston-condo-neighborhood-cheers-addition-of-ffxnow-2026-10-23",
+          "county": "Fairfax",
+          "headline": "Reston condo neighborhood cheers addition of electric vehicle charger",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/23/reston-condo-neighborhood-cheers-addition-of-electric-vehicle-charger/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "nearly-month-long-closure-of-sidewalk-ffxnow-2026-10-23",
+          "county": "Fairfax",
+          "headline": "Nearly month-long closure of sidewalk on Georgetown Pike underway",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/23/nearly-month-long-closure-of-sidewalk-on-georgetown-pike-underway/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "va-transportation-head-pledges-more-cooperative-ffxnow-2026-10-23",
+          "county": "Fairfax",
+          "headline": "Va. transportation head pledges more cooperative approach to revamped I-495 Southside project",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/23/va-transportation-head-pledges-more-cooperative-approach-to-revamped-i-495-southside-project/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "burglars-strike-lambros-goldsmith-in-annandale-annandaletoday-2026-10-23",
+          "county": "Fairfax",
+          "headline": "Burglars strike Lambros Goldsmith in Annandale",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/burglars-strike-lambros-goldsmith-in-annandale/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcdot-proposes-restriping-projects-annandaletoday-2026-10-23",
+          "county": "Fairfax",
+          "headline": "FCDOT proposes restriping projects",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/fcdot-proposes-restriping-projects/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "just-in-acpd-releases-footage-of-arlnow-2026-10-23",
+          "county": "Arlington",
+          "headline": "JUST IN: ACPD releases footage of fatal police shooting on Columbia Pike",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/23/just-in-acpd-releases-footage-of-fatal-police-shooting-on-columbia-pike/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "stop-sign-cameras-could-come-to-arlnow-2026-10-23",
+          "county": "Arlington",
+          "headline": "Stop sign cameras could come to Arlington someday, are too ‘costly’ right now",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/23/stop-sign-cameras-could-come-to-arlington-someday-are-too-costly-right-now/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "optimist-club-celebrates-work-of-arlingtons-arlnow-2026-10-23",
+          "county": "Arlington",
+          "headline": "Optimist Club celebrates work of Arlington’s public-safety and court personnel",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/23/optimist-club-celebrates-work-of-arlingtons-public-safety-and-court-personnel/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-leaders-oppose-proposal-to-merge-arlnow-2026-10-23",
+          "county": "Arlington",
+          "headline": "Arlington leaders oppose proposal to merge N. Va. bus systems",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/23/arlington-leaders-oppose-proposal-to-merge-n-va-bus-systems/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-parties-advocacy-groups-split-on-arlnow-2026-10-23",
+          "county": "Arlington",
+          "headline": "Arlington parties, advocacy groups split on Virginia ballot measures",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/23/arlington-parties-advocacy-groups-split-on-virginia-ballot-measures/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "aps-students-could-lose-a-day-arlnow-2026-10-23",
+          "county": "Arlington",
+          "headline": "APS students could lose a day of class if there’s a primary next June",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/23/aps-students-could-lose-a-day-of-class-if-theres-a-primary-next-june/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "citing-urgent-need-dominion-energy-sues-wtop-2026-10-23",
+          "county": "Prince William",
+          "headline": "Citing ‘urgent need,’ Dominion Energy sues Prince William Co. over rejected substation plan",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/citing-urgent-need-dominion-energy-sues-prince-william-co-over-rejected-substation-plan/",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "jury-shown-video-of-bhatt-heaving-pwt-2026-10-23",
+          "county": "Prince William",
+          "headline": "Jury shown video of Bhatt heaving large trash bags into dumpsters as murder trial continues",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/jury-shown-video-of-bhatt-heaving-large-trash-bags-into-dumpsters-as-murder-trial-continues/article_4b43cb25-1fc1-4545-aa63-f5c6f8fcc383.html",
+          "published": "2026-10-23",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Prince William: only 2 qualifying Oct 23 stories found (InsideNoVa and Prince William Times feeds were press releases only)"
+      ]
+    },
     {
       "date": "2026-10-23",
       "status": "ok",
