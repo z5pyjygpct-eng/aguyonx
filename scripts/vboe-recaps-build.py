@@ -34,8 +34,10 @@ MAP_1024 = {"vboe-mw9_iIlBQ_I": (30679, (61, 584)), "vboe-e7xKkm2V8Ok": (30992, 
  "vboe-Qy9_eTP40mg": (31347, None), "vboe-dfe_FD2V8Sw": (31503, None), "vboe-8fYGbaXRHTY": (31628, None),
  "vboe-_m2HA_4ftqQ": (32612, (72, 548)), "vboe-wtJ44RMB7IA": (32748, (1, 65)), "vboe-q7jOfPX5wi4": (32748, (66, 357)),
  "vboe-GK4Pl0tXctw": (33077, (126, 541)), "vboe-i0wBFGyfpWI": (33235, (62, 455)), "vboe-eSl1gssmSnk": (33235, (456, 462)),
- "vboe-hUyPAkWm6FI": (36725, None), "vboe-LYT9-P5_gHc": (36725, None), "vboe-XLY0vCLSzmg": (36888, (735, 807))}
-NOTE_1024 = {"vboe-wtJ44RMB7IA": " This video is the Board's July 21, 2021 executive session (closed meeting on teacher-license cases); the votes shown are the open-session motions recorded for that day.",
+ "vboe-hUyPAkWm6FI": (36725, None), "vboe-LYT9-P5_gHc": (36725, None), "vboe-XLY0vCLSzmg": (36888, (735, 807)),
+ "vboe-cczTSpUkw4Q": (36888, (1, 734))}
+NOTE_1024 = {"vboe-cczTSpUkw4Q": " The Sep 14 executive session license votes in the same minutes are listed on the Sep 14 recap.",
+ "vboe-wtJ44RMB7IA": " This video is the Board's July 21, 2021 executive session (closed meeting on teacher-license cases); the votes shown are the open-session motions recorded for that day.",
  "vboe-XLY0vCLSzmg": " This video is the Sep 14, 2022 executive session (open-session license motions) followed by the work session; the minutes say no votes were taken in the work session.",
  "vboe-eSl1gssmSnk": " The Board's minutes say no votes were taken in the Oct 20, 2021 work session (teacher evaluation, Culturally Competent Educators update, Direct Aid rebenchmarking), which is in the second half of this video. The Committee on the Standards of Quality portion earlier in the video is not covered by the Board minutes posted on Town Hall.",
  "vboe-hUyPAkWm6FI": " This video covers the morning work session (HB 938) and the start of the business meeting.",

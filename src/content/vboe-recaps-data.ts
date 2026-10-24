@@ -15764,7 +15764,7 @@ export const VBOE_RECAPS: VboeRecap[] = [
   "official": {
    "votesPosted": true,
    "checkedLabel": "Oct 23, 2026",
-   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. These minutes cover the Board's September 14-15, 2022 meeting days; this video is the Sep 15 business meeting.",
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. These minutes cover the Board's September 14-15, 2022 meeting days; this video is the Sep 15 business meeting. Matched to this video by hand on Oct 24, 2026. The Sep 14 executive session license votes in the same minutes are listed on the Sep 14 recap.",
    "links": [
     {
      "label": "Minutes, Sep 15, 2022 (Town Hall PDF)",
@@ -15857,41 +15857,6 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "item": "Item H",
     "action": "First Review of Guidelines for Implementing New Appropriation Act Provisions for Literary Fund School Construction Loans for the 2022-2024 Biennium: Dr. Mann made a motion to approve waiving First Review and approving the Guidelines for Implementing New Appropriation Act Provisions for Literary Fund School Construction Loans in the 2022-2024 Biennium, seconded by Ms. Dutta. The motion was carried unanimously.",
     "tally": "Carried unanimously",
-    "source": {
-     "label": "Official minutes (PDF)",
-     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
-    }
-   },
-   {
-    "item": "Superintendent’S Update",
-    "action": "Dr. Mann made a motion that the Board reconvene in open session at 3:12 p.m.",
-    "tally": "Result not stated in the minutes",
-    "source": {
-     "label": "Official minutes (PDF)",
-     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
-    }
-   },
-   {
-    "item": "Superintendent’S Update",
-    "action": "Mr. Rotherham made a motion that Case #2 be deferred to allow the applicant to be present. The motion was seconded by Mr. Hansen and carried unanimously.",
-    "tally": "Carried unanimously",
-    "source": {
-     "label": "Official minutes (PDF)",
-     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
-    }
-   },
-   {
-    "item": "Superintendent’S Update",
-    "action": "Ms. Holton made a motion to issue a license in Case #3. The motion was seconded by Dr. Mann, with Mr. Hanson, Dr. Seibert, Mr. Gecker and Mr. Rotherham voting against the motion. The motion did not carry due to the split vote. The Board asked for clarification from the counsel on how to proceed due to the split vote. Counsel was not able to provide guidance during the meeting but stated that they would research the matter to provide guidance on how to proceed at a later date.",
-    "tally": "Failed (see minutes for the recorded vote)",
-    "source": {
-     "label": "Official minutes (PDF)",
-     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
-    }
-   },
-   {
-    "item": "Closed session",
-    "action": "2 motions on individual teacher-license cases heard in closed session. Individuals are not named here; the minutes record each case and result.",
     "source": {
      "label": "Official minutes (PDF)",
      "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
