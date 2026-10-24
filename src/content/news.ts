@@ -53,6 +53,26 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "spanberger-executive-directive-6-cyber-ai-governor-2026-10-23",
+    date: "2026-10-23",
+    filed: "2026-10-24",
+    headline: "Governor Spanberger Orders Creation of Statewide Plan to Strengthen Cybersecurity, Prevent & Respond to AI-Related Cyberattacks",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1127607-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "arlington-board-statement-video-release-arlingtonva-2026-10-23",
+    date: "2026-10-23",
+    filed: "2026-10-24",
+    headline: "Board Statement on Video Release of May Police-Involved Shooting",
+    outlet: "Arlington County",
+    url: "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/Board-Statement-on-Video-Release-of-May-Police-Involved-Shooting",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "man-arrested-after-sterling-shooting-loudounnow-2026-10-23",
     date: "2026-10-23",
     filed: "2026-10-24",
