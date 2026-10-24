@@ -316,6 +316,12 @@ export const INVESTIGATIONS: Story[] = [
     "slug": "va-community-schools-social-service-hubs-2026",
     "related": [
       {
+        "type": "video",
+        "title": "Video: The community schools story in 60 seconds",
+        "href": "/files/investigations/va-community-schools-60-seconds-2026.mp4",
+        "poster": "/files/investigations/va-community-schools-60-seconds-2026-poster.jpg"
+      },
+      {
         "type": "investigation",
         "title": "Part Two: Where It Was Born",
         "href": "/investigations/va-community-schools-part-two-where-it-was-born-2026",

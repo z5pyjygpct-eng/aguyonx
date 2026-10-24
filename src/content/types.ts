@@ -45,10 +45,11 @@ export type Story = {
 };
 
 export type RelatedItem = {
-  type: "investigation" | "ftm" | "recap" | "graphic" | "csv" | "pdf" | "x-thread" | "link";
+  type: "investigation" | "ftm" | "recap" | "graphic" | "csv" | "pdf" | "x-thread" | "link" | "video";
   title: string;
   href: string;
   note?: string;
+  poster?: string;
 };
 
 export type LibraryKind =
