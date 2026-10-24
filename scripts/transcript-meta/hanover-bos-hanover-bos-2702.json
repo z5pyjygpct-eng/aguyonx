@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-bos/transcripts/hanover-bos-2702.json",
+  "outBase": "public/files/find-the-moment/hanover-bos/transcripts/coraggio-transcript-hanover-bos-2026-08-26-hanover-county-board-of-supervisors-2-00-p-m-regular-meeting-session",
+  "title": "Hanover County Board of Supervisors - 2:00 p.m. - Regular Meeting Session, Wednesday, August 26, 2026",
+  "shortTitle": "Board of Supervisors - 2:00 p.m. - Regular Meeting Session \u00b7 Aug 26, 2026",
+  "date": "Wednesday, August 26, 2026",
+  "place": "Hanover County Board of Supervisors, Virginia",
+  "length": "1h 39m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/2702/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5780,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5809,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-23"
+}

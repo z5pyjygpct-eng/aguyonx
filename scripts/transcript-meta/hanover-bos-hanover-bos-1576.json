@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-bos/transcripts/hanover-bos-1576.json",
+  "outBase": "public/files/find-the-moment/hanover-bos/transcripts/coraggio-transcript-hanover-bos-2026-04-01-hanover-county-board-of-supervisors-budget-public-hearing",
+  "title": "Hanover County Board of Supervisors - Budget Public Hearing, Wednesday, April 1, 2026",
+  "shortTitle": "Board of Supervisors - Budget Public Hearing \u00b7 Apr 1, 2026",
+  "date": "Wednesday, April 1, 2026",
+  "place": "Hanover County Board of Supervisors, Virginia",
+  "length": "58m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/1576/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5512,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5530,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

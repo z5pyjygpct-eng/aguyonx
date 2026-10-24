@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/chesterfield-schools/transcripts/chf-sb-382157.json",
+  "outBase": "public/files/find-the-moment/chesterfield-schools/transcripts/coraggio-transcript-chesterfield-schools-2026-04-14-chesterfield-county-school-board-work-session",
+  "title": "Chesterfield County School Board Work Session, Tuesday, April 14, 2026",
+  "shortTitle": "School Board Work Session \u00b7 Apr 14, 2026",
+  "date": "Tuesday, April 14, 2026",
+  "place": "Chesterfield County School Board, Virginia",
+  "length": "1h 13m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://chesterfieldschoolsva.new.swagit.com/videos/382157"
+    },
+    {
+      "label": "Official minutes (BoardDocs, on the May 12, 2026 agenda for approval)",
+      "href": "https://go.boarddocs.com/vsba/chesterfield/Board.nsf/pfiles/DTZNPG606D16/$file/DRAFT%20MINUTES%20-%202026.04.14%20Work%20Session.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

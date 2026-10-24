@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-boe/transcripts/vboe-hUyPAkWm6FI.json",
+  "outBase": "public/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-08-17-work-session",
+  "title": "Virginia Board of Education, Work Session, Wednesday, August 17, 2022",
+  "shortTitle": "VA Board of Education Work Session \u00b7 Aug 17, 2022",
+  "date": "Wednesday, August 17, 2022",
+  "place": "Virginia Board of Education (Virginia Department of Education), Richmond, Virginia",
+  "length": "2h 46m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (VDOE, YouTube)",
+      "href": "https://www.youtube.com/watch?v=hUyPAkWm6FI"
+    },
+    {
+      "label": "Board of Education meetings, agendas and minutes (VDOE)",
+      "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

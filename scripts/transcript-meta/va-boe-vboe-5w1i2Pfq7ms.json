@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-boe/transcripts/vboe-5w1i2Pfq7ms.json",
+  "outBase": "public/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-10-14-special-committee-on-standards-of-accreditation",
+  "title": "Virginia Board of Education, Special Committee on Standards of Accreditation, Wednesday, October 14, 2020",
+  "shortTitle": "VA Board of Education Special Committee on Standards of Accreditation \u00b7 Oct 14, 2020",
+  "date": "Wednesday, October 14, 2020",
+  "place": "Virginia Board of Education (Virginia Department of Education), Richmond, Virginia",
+  "length": "2h 14m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (VDOE, YouTube)",
+      "href": "https://www.youtube.com/watch?v=5w1i2Pfq7ms"
+    },
+    {
+      "label": "Board of Education meetings, agendas and minutes (VDOE)",
+      "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

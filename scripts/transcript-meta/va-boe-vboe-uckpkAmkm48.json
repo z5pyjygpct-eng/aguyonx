@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-boe/transcripts/vboe-uckpkAmkm48.json",
+  "outBase": "public/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-01-27-special-committee-on-standards-of-accreditation",
+  "title": "Virginia Board of Education, Special Committee on Standards of Accreditation, Wednesday, January 27, 2021",
+  "shortTitle": "VA Board of Education Special Committee on Standards of Accreditation \u00b7 Jan 27, 2021",
+  "date": "Wednesday, January 27, 2021",
+  "place": "Virginia Board of Education (Virginia Department of Education), Richmond, Virginia",
+  "length": "1h 41m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (VDOE, YouTube)",
+      "href": "https://www.youtube.com/watch?v=uckpkAmkm48"
+    },
+    {
+      "label": "Board of Education meetings, agendas and minutes (VDOE)",
+      "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

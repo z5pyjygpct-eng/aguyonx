@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-bos/transcripts/hanover-bos-2703.json",
+  "outBase": "public/files/find-the-moment/hanover-bos/transcripts/coraggio-transcript-hanover-bos-2026-08-26-hanover-county-board-of-supervisors-6-00-p-m-public-hearings",
+  "title": "Hanover County Board of Supervisors - 6:00 p.m. - Public Hearings, Wednesday, August 26, 2026",
+  "shortTitle": "Board of Supervisors - 6:00 p.m. - Public Hearings \u00b7 Aug 26, 2026",
+  "date": "Wednesday, August 26, 2026",
+  "place": "Hanover County Board of Supervisors, Virginia",
+  "length": "1h 36m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/2703/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5781,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5811,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-23"
+}

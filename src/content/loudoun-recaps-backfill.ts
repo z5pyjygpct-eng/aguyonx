@@ -36651,4 +36651,84 @@ export const LOUDOUN_RECAPS_BACKFILL: LoudounRecap[] = [
       { seconds: 23973, label: "Adjournment." },
     ],
   },
+  {
+    slug: "lcps-2026-10-22-select-committee-of-the-school-board-regarding-w",
+    meetingId: "2026-10-22-1238510675",
+    venue: "loudoun-lcps",
+    title: "Select Committee of the School Board Regarding (MOU) with LCPS, LCSO and LPD",
+    dateLabel: "Thursday, Oct 22, 2026",
+    whenWhere: "School Board committee meeting · video 1h 59m",
+    official: {
+      votesPosted: false,
+      checkedLabel: CHECKED,
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DYVGER437D82") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1238510675?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda items as published (BoardDocs)",
+        dek: "Listed as published; these are agenda items, not results.",
+        items: [
+          { num: "1.01", title: "Attendance" },
+          { num: "2.01", title: "Procedures for Public Comment" },
+          { num: "3.01", title: "Review of MOU" },
+        ],
+      },
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-10-22-select-committee-of-the-school-board-regarding-mou-with-lcps-lcso-and-lpd.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-10-22-select-committee-of-the-school-board-regarding-mou-with-lcps-lcso-and-lpd.txt", "pdfNote": "28 pages"},
+    shareContext: "LCPS School Board, Oct 22, 2026",
+    moments: [
+      { seconds: 9, label: "Meeting called to order." },
+      { seconds: 155, label: "Public comment / public hearing begins." },
+      { seconds: 7161, label: "Adjournment." },
+    ],
+  },
+  {
+    slug: "lcps-2026-10-22-school-board-elementary-school-attendance-zone-p",
+    meetingId: "2026-10-22-1236391014",
+    venue: "loudoun-lcps",
+    title: "School Board Elementary School Attendance Zone Public Hearing & Work Session",
+    dateLabel: "Thursday, Oct 22, 2026",
+    whenWhere: "School Board meeting · video 45m",
+    official: {
+      votesPosted: false,
+      checkedLabel: CHECKED,
+      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      links: [
+        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DYDQCJ68A862") },
+        { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
+        { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1236391014?rel=0" },
+      ],
+    },
+    decisions: [
+    ],
+    context: [],
+    agenda: [
+      {
+        heading: "Agenda items as published (BoardDocs)",
+        dek: "Listed as published; these are agenda items, not results.",
+        items: [
+          { num: "1.01", title: "Attendance" },
+          { num: "1.02", title: "Remote Participation" },
+          { num: "2.01", title: "Eastern Loudoun Attendance Zone Overview" },
+          { num: "3.01", title: "Procedures for Public Comment" },
+          { num: "4.01", title: "Work Session" },
+        ],
+      },
+    ],
+    transcriptDownloads: {"pdfUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-10-22-school-board-elementary-school-attendance-zone-public-hearing-work-session.pdf", "txtUrl": "/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-10-22-school-board-elementary-school-attendance-zone-public-hearing-work-session.txt", "pdfNote": "12 pages"},
+    shareContext: "LCPS School Board, Oct 22, 2026",
+    moments: [
+      { seconds: 136, label: "Meeting called to order." },
+      { seconds: 1006, label: "Public comment / public hearing begins." },
+      { seconds: 2694, label: "Adjournment." },
+    ],
+  },
 ];

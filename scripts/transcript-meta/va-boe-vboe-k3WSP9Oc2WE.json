@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/va-boe/transcripts/vboe-k3WSP9Oc2WE.json",
+  "outBase": "public/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-09-22-standards-of-quality-session",
+  "title": "Virginia Board of Education, Standards of Quality Session, Wednesday, September 22, 2021",
+  "shortTitle": "VA Board of Education Standards of Quality Session \u00b7 Sep 22, 2021",
+  "date": "Wednesday, September 22, 2021",
+  "place": "Virginia Board of Education (Virginia Department of Education), Richmond, Virginia",
+  "length": "1h 49m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (VDOE, YouTube)",
+      "href": "https://www.youtube.com/watch?v=k3WSP9Oc2WE"
+    },
+    {
+      "label": "Board of Education meetings, agendas and minutes (VDOE)",
+      "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

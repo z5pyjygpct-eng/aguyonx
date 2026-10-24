@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/chesterfield-bos/transcripts/chesterfield-bos-3152.json",
+  "outBase": "public/files/find-the-moment/chesterfield-bos/transcripts/coraggio-transcript-chesterfield-bos-2026-08-24-chesterfield-county-board-of-supervisors-meeting-swearing-in-ceremony-for-kevin-a-catlin-d-p-a",
+  "title": "Chesterfield County Board of Supervisors Meeting - Swearing-In Ceremony for Kevin A. Catlin, D.P.A., Monday, August 24, 2026",
+  "shortTitle": "Board of Supervisors Meeting - Swearing-In Ceremony for Kevin A. Catlin, D.P.A. \u00b7 Aug 24, 2026",
+  "date": "Monday, August 24, 2026",
+  "place": "Chesterfield County Board of Supervisors, Virginia",
+  "length": "17m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://chesterfieldcova.portal.civicclerk.com/event/3152/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5205,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5217,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-23"
+}

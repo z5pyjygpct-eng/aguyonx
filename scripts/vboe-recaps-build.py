@@ -23,7 +23,11 @@ HON = r"(?:Mr|Mrs|Ms|Dr)\. [A-Z][\w'’-]+(?: [A-Z][\w'’-]+)?"
 # Added 2026-10-23: 2022-2025 meetings (Town Hall board 93; only where the minutes' own date matches the video date)
 TH_2023 = {"2022-09-15":36888,"2022-11-17":37248,"2023-02-02":37602,"2023-03-23":37761,"2023-04-20":37881,"2023-05-11":37996,"2023-06-15":38114,"2023-07-27":38351,"2023-08-31":38506,"2023-09-13":38649,"2023-09-14":38650,"2023-10-18":38850,"2023-10-19":38851,"2023-11-15":38955,"2023-12-12":39097,"2024-01-24":39330,"2024-01-25":39331,"2024-03-27":39628,"2024-03-28":39629,"2024-04-23":39766,"2024-04-24":39767,"2024-04-25":39768,"2024-05-21":39891,"2024-06-20":39996,"2024-06-21":39997,"2024-07-24":40187,"2024-08-28":40353,"2024-09-26":40572,"2024-10-23":40734,"2024-10-24":40735,"2024-12-02":40938,"2024-12-03":40939,"2025-02-26":40800,"2025-02-27":40801}
 TH.update(TH_2023)
-def CHK(m): return "Oct 23, 2026" if m["date"] < "2025-03-01" else "Oct 22, 2026"
+# Added 2026-10-24: 2020-2022 videos ingested Oct 24 2026. Their YouTube catalog dates/titles do not reliably match the
+# Town Hall minutes (e.g. a "Business Meeting" video is actually a committee session; minutes headers fall a day off), so
+# NO minutes are attached to them: votesPosted false until each video is matched to its minutes by hand.
+NOMAP_1024 = set(["vboe-2N0xO9h_t7o", "vboe-5w1i2Pfq7ms", "vboe-8FApFeZ-_Z0", "vboe-8fYGbaXRHTY", "vboe-G1Wbk7TDZGg", "vboe-GK4Pl0tXctw", "vboe-GZ5k1Xr-TQw", "vboe-G_cUYsYVGxk", "vboe-GdmjTI-I6IE", "vboe-HCYMQXsoLYs", "vboe-HpxprL7ccNg", "vboe-IWWkBYMYDSg", "vboe-LVpvdfY9L9w", "vboe-LYT9-P5_gHc", "vboe-P6kmxaBMey0", "vboe-Qy9_eTP40mg", "vboe-RfScME8c_4k", "vboe-XLY0vCLSzmg", "vboe-_NZ6ElwUFfU", "vboe-_m2HA_4ftqQ", "vboe-dfe_FD2V8Sw", "vboe-e7xKkm2V8Ok", "vboe-eMU5k9aPH2M", "vboe-eSl1gssmSnk", "vboe-hUyPAkWm6FI", "vboe-i0wBFGyfpWI", "vboe-jgguYIllqdI", "vboe-k3WSP9Oc2WE", "vboe-lexBvJdBJHo", "vboe-lfw6lprxWLM", "vboe-mAzST8Z4hFM", "vboe-mw9_iIlBQ_I", "vboe-nhXt0Qthp1I", "vboe-q7jOfPX5wi4", "vboe-rKIx9lmLEV0", "vboe-rt7G6H1EqhY", "vboe-sN4pbYcejAc", "vboe-uckpkAmkm48", "vboe-wtJ44RMB7IA", "vboe-yyTdlVgmZjw"])
+def CHK(m): return "Oct 24, 2026" if m["id"] in NOMAP_1024 else ("Oct 23, 2026" if m["date"] < "2025-03-01" else "Oct 22, 2026")
 
 def tally(t):
     if re.search(r"voted unanimously", t, re.I): return "Carried unanimously"
@@ -114,7 +118,7 @@ for m in MEET:
     if m["id"] not in tx: continue
     tslug = slugify(m["title"].replace("(Part ", "part-").replace(")", ""))
     slug = f"{m['date']}-{tslug}"
-    mid = TH.get(m["date"])
+    mid = None if m["id"] in NOMAP_1024 else TH.get(m["date"])
     part = re.search(r"Part (\d+)", m["title"])
     base = {"slug": slug, "meetingId": m["id"], "date": m["date"], "title": m["title"], "dateLabel": m["dateLabel"],
             "whenWhere": f"Virginia Board of Education · {m['title']} · video {m['duration']} · VDOE YouTube",
@@ -146,7 +150,7 @@ for m in MEET:
                "decisions": decs, "agenda": ag}
     else:
         agenda = []
-        rec = {**base, "official": {"votesPosted": False, "checkedLabel": CHK(m), "note": "Votes unavailable: no official VDOE minutes found for this meeting.", "links": []}, "decisions": [], "agenda": []}
+        rec = {**base, "official": {"votesPosted": False, "checkedLabel": CHK(m), "note": ("Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes)." if m["id"] in NOMAP_1024 else "Votes unavailable: no official VDOE minutes found for this meeting."), "links": []}, "decisions": [], "agenda": []}
     rec["moments"] = moments(m, agenda)
     rec["context"] = []
     recaps.append(rec)

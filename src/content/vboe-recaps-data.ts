@@ -16032,5 +16032,2009 @@ export const VBOE_RECAPS: VboeRecap[] = [
    }
   ],
   "context": []
+ },
+ {
+  "slug": "2022-09-14-work-session",
+  "meetingId": "vboe-XLY0vCLSzmg",
+  "date": "2022-09-14",
+  "title": "Work Session",
+  "dateLabel": "Sep 14, 2022",
+  "whenWhere": "Virginia Board of Education · Work Session · video 2h 57m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-09-14-work-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-09-14-work-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 76,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 1244,
+    "label": "Public comment period",
+    "quote": "And we want to make sure those documents are concise, clean, understandable, and accessible for all. Public comment, we opened public comment July 25th, and it will remain open on September 25th."
+   },
+   {
+    "seconds": 10474,
+    "label": "Presentation or new topic begins",
+    "quote": "I would have gone faster from the beginning. - No, we're all good, all good. - Such good information. - As Gillian said, the slides stand pretty well alone in this and in the next presentation, which …"
+   },
+   {
+    "seconds": 10565,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2022-08-17-work-session",
+  "meetingId": "vboe-hUyPAkWm6FI",
+  "date": "2022-08-17",
+  "title": "Work Session",
+  "dateLabel": "Aug 17, 2022",
+  "whenWhere": "Virginia Board of Education · Work Session · video 2h 46m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-08-17-work-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-08-17-work-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 4537,
+    "label": "Call to order",
+    "quote": "We're gonna call to order the August meeting of the Board of Education. If we could in the audience just keep it down to all. Thank you. Appreciate that. …"
+   },
+   {
+    "seconds": 4633,
+    "label": "Presentation or new topic begins",
+    "quote": "all appointed by Governor Youngkin on June 30, 2022, and I'd like to welcome each of them here today and give them a minute to introduce themselves to the public, both here in the and watching us on …"
+   },
+   {
+    "seconds": 4862,
+    "label": "Public comment period",
+    "quote": "- Yes, okay. The thumbs up instead of the aye will do for today. That's approved. Okay, public comment. …"
+   },
+   {
+    "seconds": 6903,
+    "label": "Presentation or new topic begins",
+    "quote": "i'm also a parent and grandparent of graduates of virginia public school systems first i'd like to welcome the new members to your first meeting and i'd like to recommend an anchor task for you the …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2022-08-17-business-meeting",
+  "meetingId": "vboe-LYT9-P5_gHc",
+  "date": "2022-08-17",
+  "title": "Business Meeting",
+  "dateLabel": "Aug 17, 2022",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 6h 10m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-08-17-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-08-17-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 158,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 2392,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 3055,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 4803,
+    "label": "Public comment period",
+    "quote": "And as you heard during the public comment, examples and discussions from local stakeholders who believe deeply in this concept bringing this innovation through a commitment to partnership and a …"
+   },
+   {
+    "seconds": 5066,
+    "label": "Presentation or new topic begins",
+    "quote": "tomorrow in our sol release one size fits all approach to education doesn't work anyone who has more than one child living in their home and watching them go through school know that kids need …"
+   },
+   {
+    "seconds": 7541,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 8089,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 14118,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 19537,
+    "label": "Recess or reconvene"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2022-04-21-business-meeting",
+  "meetingId": "vboe-rt7G6H1EqhY",
+  "date": "2022-04-21",
+  "title": "Business Meeting",
+  "dateLabel": "Apr 21, 2022",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 2h 43m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-04-21-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-04-21-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 996,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 1088,
+    "label": "Public comment period",
+    "quote": "- So moved. - Dr. Duran, is that a second, Dr. Davis-Vault? - Yes, ma'am. - Awesome, all in favor? - Aye. - Any opposed? Chair votes aye, motion carries. …"
+   },
+   {
+    "seconds": 1720,
+    "label": "Presentation or new topic begins",
+    "quote": "but yet it's okay for us to allow our children to have access to this we're crying out to you all of us the special ed parents the regular parents the grandparents and guys it's a new day so either …"
+   },
+   {
+    "seconds": 3064,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 3547,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 3722,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 3877,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 5865,
+    "label": "Presentation or new topic begins",
+    "quote": "you know and we've got a great head start representation on our advisory committee who we can engage on this I know sometimes folks want those to count and sometimes they don't and so what we can do …"
+   },
+   {
+    "seconds": 9717,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2022-04-20-work-session",
+  "meetingId": "vboe-RfScME8c_4k",
+  "date": "2022-04-20",
+  "title": "Work Session",
+  "dateLabel": "Apr 20, 2022",
+  "whenWhere": "Virginia Board of Education · Work Session · video 3h 18m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-04-20-work-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-04-20-work-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 64,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 5391,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 10348,
+    "label": "Presentation or new topic begins",
+    "quote": "of our approved uh curricula are as well as what are the sort of supplements to support our educators who are working in different languages but we have great representation on the early child …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2022-03-17-business-meeting",
+  "meetingId": "vboe-_NZ6ElwUFfU",
+  "date": "2022-03-17",
+  "title": "Business Meeting",
+  "dateLabel": "Mar 17, 2022",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 4h 16m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-03-17-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-03-17-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 68,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 193,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1114,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 2075,
+    "label": "Public comment period",
+    "quote": "You can email a copy to the web director of board relations, or you can hand one to her if you prefer. …"
+   },
+   {
+    "seconds": 3199,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 4614,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 6774,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 11982,
+    "label": "Presentation or new topic begins",
+    "quote": "So those are some of the pieces that they are still working out over at the legislature. The next item is House Bill 127, also from Davis, which is around our academic year governor schools and …"
+   },
+   {
+    "seconds": 15324,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2022-03-16-work-session",
+  "meetingId": "vboe-IWWkBYMYDSg",
+  "date": "2022-03-16",
+  "title": "Work Session",
+  "dateLabel": "Mar 16, 2022",
+  "whenWhere": "Virginia Board of Education · Work Session · video 4h 32m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-03-16-work-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-03-16-work-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 1962,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 4507,
+    "label": "Presentation or new topic begins",
+    "quote": "And I will stop there for any questions before I hand it over to our program experts here. If there are any questions, maybe at the next spot on call."
+   },
+   {
+    "seconds": 7916,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 9586,
+    "label": "Presentation or new topic begins",
+    "quote": "with paired text and text-based vocabulary and text-dependent questions they need a strong foundation in these early literacy skills so at this time I'm going to turn it over to Carmen who is going …"
+   },
+   {
+    "seconds": 11094,
+    "label": "Presentation or new topic begins",
+    "quote": "And I'm going to turn it over to Dr. Sam Hollins who will share some of this work and information on science of reading. Thank you guys so much. …"
+   },
+   {
+    "seconds": 12905,
+    "label": "Public comment period",
+    "quote": "framework that will kind of look at assessment moving forward so that virginia could align its practices and provide that public comment but also have a strong idea of how nape is moving forward and …"
+   },
+   {
+    "seconds": 16249,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2022-01-27-business-meeting",
+  "meetingId": "vboe-G_cUYsYVGxk",
+  "date": "2022-01-27",
+  "title": "Business Meeting",
+  "dateLabel": "Jan 27, 2022",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 2h 32m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-01-27-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-01-27-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 32,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 1201,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1914,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 4002,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 5519,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 6560,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 7514,
+    "label": "Presentation or new topic begins",
+    "quote": "to past surveys to the extent it is comparable and/or to the national teachers' principal survey data, if that is possible. Just help us understand where we are. …"
+   },
+   {
+    "seconds": 8951,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2022-01-26-work-session",
+  "meetingId": "vboe-yyTdlVgmZjw",
+  "date": "2022-01-26",
+  "title": "Work Session",
+  "dateLabel": "Jan 26, 2022",
+  "whenWhere": "Virginia Board of Education · Work Session · video 3h 19m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-01-26-work-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-01-26-work-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 814,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 6296,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 11886,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-11-17-work-session",
+  "meetingId": "vboe-nhXt0Qthp1I",
+  "date": "2021-11-17",
+  "title": "Work Session",
+  "dateLabel": "Nov 17, 2021",
+  "whenWhere": "Virginia Board of Education · Work Session · video 2h 4m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-11-17-work-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-11-17-work-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 421,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 5353,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 7249,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-10-21-business-meeting",
+  "meetingId": "vboe-i0wBFGyfpWI",
+  "date": "2021-10-21",
+  "title": "Business Meeting",
+  "dateLabel": "Oct 21, 2021",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 2h 9m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-10-21-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-10-21-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 596,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 1499,
+    "label": "Public comment period",
+    "quote": "parent and family involvement we appreciate all that you do thank you okay thank you all very much thank you for being with us we'll move on to uh public comment speakers will be recognized in the …"
+   },
+   {
+    "seconds": 2837,
+    "label": "Presentation or new topic begins",
+    "quote": "The VDOE team provided a presentation on the federal accountability requirements under ESSA and Virginia's school accreditation system. …"
+   },
+   {
+    "seconds": 4647,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 4755,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-10-20-standards-of-quality-session",
+  "meetingId": "vboe-eSl1gssmSnk",
+  "date": "2021-10-20",
+  "title": "Standards of Quality Session",
+  "dateLabel": "Oct 20, 2021",
+  "whenWhere": "Virginia Board of Education · Standards of Quality Session · video 4h 13m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-10-20-standards-of-quality-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-10-20-standards-of-quality-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 689,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 827,
+    "label": "Public comment period",
+    "quote": "- All good. - It's all good. Some days you can't resist. Okay, public comment. Nobody signed up, but is there anybody in the audience who'd like to address the board or the committee at this point? …"
+   },
+   {
+    "seconds": 7638,
+    "label": "Presentation or new topic begins",
+    "quote": "work session of the Virginia Board of Education. I'd like to welcome everybody. in particular our first guest dr matthew steinberg and dr seth hunter who have agreed to talk to us about teacher …"
+   },
+   {
+    "seconds": 15102,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-09-23-business-meeting",
+  "meetingId": "vboe-GK4Pl0tXctw",
+  "date": "2021-09-23",
+  "title": "Business Meeting",
+  "dateLabel": "Sep 23, 2021",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 2h 31m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-09-23-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-09-23-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 131,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 372,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 897,
+    "label": "Public comment period",
+    "quote": "- Okay, public comment. We have two people who have signed up and of course we'll open the floor after this. Carolyn Murphy, please come on up. …"
+   },
+   {
+    "seconds": 1440,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1670,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2905,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 7549,
+    "label": "Presentation or new topic begins",
+    "quote": "let you know that in october we will be bringing a presentation on teacher evaluation research from george mason university we've been working with them for a couple of months and they have been …"
+   },
+   {
+    "seconds": 8842,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-09-22-standards-of-quality-session",
+  "meetingId": "vboe-k3WSP9Oc2WE",
+  "date": "2021-09-22",
+  "title": "Standards of Quality Session",
+  "dateLabel": "Sep 22, 2021",
+  "whenWhere": "Virginia Board of Education · Standards of Quality Session · video 1h 49m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-09-22-standards-of-quality-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-09-22-standards-of-quality-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 331,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 4641,
+    "label": "Presentation or new topic begins",
+    "quote": "So if you would enlighten us, that would be great. I'll just mention one and turn it over to the team for others. But the main, I don't know that it's unintended. …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-07-22-business-meeting",
+  "meetingId": "vboe-q7jOfPX5wi4",
+  "date": "2021-07-22",
+  "title": "Business Meeting",
+  "dateLabel": "Jul 22, 2021",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 3h 14m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-07-22-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-07-22-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 361,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 527,
+    "label": "Public comment period",
+    "quote": "here. That's actually Dr. Davis Vaught, who is participating with us electronically today, as provided in our bylaws. The reason is medical, and her location is Bristol, Virginia. …"
+   },
+   {
+    "seconds": 773,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2639,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2778,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2981,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 6125,
+    "label": "Presentation or new topic begins",
+    "quote": "This is the Blueprint we're updating. And Dr. Trent chairs -- or co-chairs, I should say -- of the Workforce and Education Industry Council. And I want to thank her for being here with me today. …"
+   },
+   {
+    "seconds": 6792,
+    "label": "Presentation or new topic begins",
+    "quote": "and the next slide um obviously you know dr trend i do want to turn the program over to her for purposes of making this presentation acknowledge jennifer baird executive with altria who's her …"
+   },
+   {
+    "seconds": 7309,
+    "label": "Presentation or new topic begins",
+    "quote": "other related topics that Dr. Trent and I can respond to. Again, thank you for the, you know, very complete presentation about what you're doing uh you know the board clearly has some you know …"
+   },
+   {
+    "seconds": 8983,
+    "label": "Presentation or new topic begins",
+    "quote": "conference, one of the conferences that we were holding on education. He currently is president of Huntington Ingalls with Jones Newport Shipbuilding. They have 45,000 employees. …"
+   },
+   {
+    "seconds": 11579,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-07-21-work-session",
+  "meetingId": "vboe-wtJ44RMB7IA",
+  "date": "2021-07-21",
+  "title": "Work Session",
+  "dateLabel": "Jul 21, 2021",
+  "whenWhere": "Virginia Board of Education · Work Session · video 18m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-07-21-work-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-07-21-work-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 263,
+    "label": "Video begins"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-07-21-standards-of-quality-session",
+  "meetingId": "vboe-G1Wbk7TDZGg",
+  "date": "2021-07-21",
+  "title": "Standards of Quality Session",
+  "dateLabel": "Jul 21, 2021",
+  "whenWhere": "Virginia Board of Education · Standards of Quality Session · video 3h 1m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-07-21-standards-of-quality-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-07-21-standards-of-quality-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 306,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 1456,
+    "label": "Presentation or new topic begins",
+    "quote": "But at this moment, as we develop that plan, didn't want to offer anything prematurely in this review cycle since much of the work in the space is already underway and will really inform our …"
+   },
+   {
+    "seconds": 1613,
+    "label": "Presentation or new topic begins",
+    "quote": "And then the next item was special education staffing. And so with all of the work happening in response to the JLARC recommendation that their team and Dr. …"
+   },
+   {
+    "seconds": 4814,
+    "label": "Adjournment"
+   },
+   {
+    "seconds": 5838,
+    "label": "Public comment period",
+    "quote": "Thank you. Those minutes will stand approved. We do have time here in our agenda for public comment. So at this moment, if there's anyone here who would like to address the committee during public …"
+   },
+   {
+    "seconds": 6474,
+    "label": "Presentation or new topic begins",
+    "quote": "visible more transparent putting this out to school divisions we can see the gaps and where students have the opportunity to challenge themselves with academic and advanced coursework and school …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-06-17-business-meeting",
+  "meetingId": "vboe-_m2HA_4ftqQ",
+  "date": "2021-06-17",
+  "title": "Business Meeting",
+  "dateLabel": "Jun 17, 2021",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 6h 14m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-06-17-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-06-17-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 689,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 2408,
+    "label": "Public comment period",
+    "quote": "I said, you must have started very young. Yes, you did. And that kind of constancy of service, we just don't see a lot, that kind of commitment and work ethic and devotion. …"
+   },
+   {
+    "seconds": 4949,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 5586,
+    "label": "Presentation or new topic begins",
+    "quote": "we'll be bringing that forward in the fall for you so that we can meet that december 2021 deadline as required by code all right so i think with that i'm happy to answer any questions that you might …"
+   },
+   {
+    "seconds": 6558,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 8113,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 10105,
+    "label": "Presentation or new topic begins",
+    "quote": "this is really about just quickly moving into place some of the legislative requirements let's say that's not what this does and so maybe that's something we could debate for later but let's let's …"
+   },
+   {
+    "seconds": 10575,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 11141,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 12060,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-06-16-committee-on-the-standards-of-quality",
+  "meetingId": "vboe-GdmjTI-I6IE",
+  "date": "2021-06-16",
+  "title": "Committee on the Standards of Quality",
+  "dateLabel": "Jun 16, 2021",
+  "whenWhere": "Virginia Board of Education · Committee on the Standards of Quality · video 3h 13m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-06-16-committee-on-the-standards-of-quality.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-06-16-committee-on-the-standards-of-quality.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 533,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 5318,
+    "label": "Adjournment"
+   },
+   {
+    "seconds": 6190,
+    "label": "Presentation or new topic begins",
+    "quote": "overview of the growth assessments required by the 2021 legislative action i'm going to now turn it over to mrs shelley loving writer assistant superintendent for assessment accountability and ESEA …"
+   },
+   {
+    "seconds": 8549,
+    "label": "Presentation or new topic begins",
+    "quote": "We do know that there needs to be a lot more stakeholder engagement before we are to even in this area and so I did go ahead and currently would love to get the the committee's feedback on on all of …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-04-22-business-meeting",
+  "meetingId": "vboe-lexBvJdBJHo",
+  "date": "2021-04-22",
+  "title": "Business Meeting",
+  "dateLabel": "Apr 22, 2021",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 3h 48m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-04-22-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-04-22-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 15,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 205,
+    "label": "Public comment period",
+    "quote": "uh the board accepted written public comment for this meeting all comments that were received by 5 p.m. …"
+   },
+   {
+    "seconds": 313,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 576,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 957,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1111,
+    "label": "Presentation or new topic begins",
+    "quote": "This item is being brought to the board today for first review. At this time, I'll turn it over to Dr. …"
+   },
+   {
+    "seconds": 1431,
+    "label": "Presentation or new topic begins",
+    "quote": "bull by the horns and and and really uh expanded our our academy and and uh you know we're at the point now where we're finalizing our agreements with with uh the two entities that we have with …"
+   },
+   {
+    "seconds": 4242,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 4965,
+    "label": "Presentation or new topic begins",
+    "quote": "more minutes um i think we can that's fine you can probably go ahead and get started and not pop up for another couple minutes no thank you sir thank you thanks okay uh i guess we will move on to …"
+   },
+   {
+    "seconds": 8704,
+    "label": "Presentation or new topic begins",
+    "quote": "account as a way that we might be able to share the calendar professional development easily to all school divisions and all educators and then finally not wanting to take the thunder away from Dr. …"
+   },
+   {
+    "seconds": 9638,
+    "label": "Presentation or new topic begins",
+    "quote": "reflects some real real significant um uh effort uh from the department to be very service oriented and support oriented to the divisions and i'm just i applaud the hard work that's gone into getting …"
+   },
+   {
+    "seconds": 13693,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-04-21-board-retreat",
+  "meetingId": "vboe-sN4pbYcejAc",
+  "date": "2021-04-21",
+  "title": "Board Retreat",
+  "dateLabel": "Apr 21, 2021",
+  "whenWhere": "Virginia Board of Education · Board Retreat · video 2h 55m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-04-21-board-retreat.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-04-21-board-retreat.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 342,
+    "label": "Call to order",
+    "quote": "i think all right i see you dr duran here i think we have all nine right i think so yes we are good to go make sure yep i see nine faces excellent all right well uh we'll call the retreat i guess to …"
+   },
+   {
+    "seconds": 559,
+    "label": "Presentation or new topic begins",
+    "quote": "that will be moderated by dr wilson i am told that our retreat is being live streamed on the vboe youtube channel for our youtube watchers the chat feature is disabled as it is not monitored by staff …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-04-21-work-session",
+  "meetingId": "vboe-rKIx9lmLEV0",
+  "date": "2021-04-21",
+  "title": "Work Session",
+  "dateLabel": "Apr 21, 2021",
+  "whenWhere": "Virginia Board of Education · Work Session · video 1h 17m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-04-21-work-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-04-21-work-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 404,
+    "label": "Call to order",
+    "quote": "are everybody is here sorry i was counting it's easier when we're in person and we can just see if there's an empty chair this actually requires some work and skill like the world where's waldo view …"
+   },
+   {
+    "seconds": 879,
+    "label": "Presentation or new topic begins",
+    "quote": "a predictor right now it unfortunately predicts if you were from a lower income household you are more likely to not have that opportunity to come to school ready and we know these are the things …"
+   },
+   {
+    "seconds": 1029,
+    "label": "Presentation or new topic begins",
+    "quote": "make sure that more kids have access and that more programs have that opportunity to meet these kind of quality expectations with that i'm going to turn it over to my uva colleagues ask them to …"
+   },
+   {
+    "seconds": 1572,
+    "label": "Presentation or new topic begins",
+    "quote": "open the box i have no idea what this curriculum is and it went into a shelf in my classroom and so and that was that was the right move these the teachers were not supported at all to to understand …"
+   },
+   {
+    "seconds": 4590,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-04-20-special-committee-on-standards-of-accreditation",
+  "meetingId": "vboe-LVpvdfY9L9w",
+  "date": "2021-04-20",
+  "title": "Special Committee on Standards of Accreditation",
+  "dateLabel": "Apr 20, 2021",
+  "whenWhere": "Virginia Board of Education · Special Committee on Standards of Accreditation · video 2h 6m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-04-20-special-committee-on-standards-of-accreditation.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-04-20-special-committee-on-standards-of-accreditation.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 26,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 429,
+    "label": "Presentation or new topic begins",
+    "quote": "- We don't have anything to vote on today. So I think we are good to go, Dr. Fexton. - We cannot adopt the minutes, but other than that, we can move forward. - Yeah, no votes. - Okay, great. …"
+   },
+   {
+    "seconds": 613,
+    "label": "Presentation or new topic begins",
+    "quote": "So, move to approve the minutes. Thank you, Dr. Garan. Is there a second? Second. Second, ma'am. Thank you, Ms. Davis-Thought. and we'll do this by roll call. Ms. Davis-Vaught, Dr. Duran. Aye. …"
+   },
+   {
+    "seconds": 835,
+    "label": "Presentation or new topic begins",
+    "quote": "Then I'm going to turn it over to my colleagues Brittany Kennard and Rebecca Kahila to talk specifically about the very near-term changes to our data collection that will impact how we talk about and …"
+   },
+   {
+    "seconds": 1935,
+    "label": "Presentation or new topic begins",
+    "quote": "Next slide. And so with that, I'm going to turn it over to Brittany Kennard and Rebecca Kahila to talk through the framework and the details of our new data collection, the Student Behavior and …"
+   },
+   {
+    "seconds": 4822,
+    "label": "Presentation or new topic begins",
+    "quote": "that's another one because it does drive so much behavior. Okay. I'm going to ask if there's any final questions before we move on to our next presentation. Okay. I'd like to thank Dr."
+   },
+   {
+    "seconds": 7099,
+    "label": "Presentation or new topic begins",
+    "quote": "getting to critical thinking skills and really going deeper into the the mathematical content content and and helping them think through things and how it applies to their world and so the the …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-03-18-business-meeting",
+  "meetingId": "vboe-eMU5k9aPH2M",
+  "date": "2021-03-18",
+  "title": "Business Meeting",
+  "dateLabel": "Mar 18, 2021",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 2h 43m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-03-18-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-03-18-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 529,
+    "label": "Call to order",
+    "quote": "sorry we're getting ready to have a storm that's okay no problem we totally understand and now we also have dr duran so good board right and we're alive yes we are live perfect well then we'll call …"
+   },
+   {
+    "seconds": 660,
+    "label": "Public comment period",
+    "quote": "We'd like to welcome those joining us on the live stream from across the Commonwealth. A couple of things to note about our virtual meeting. …"
+   },
+   {
+    "seconds": 1204,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1614,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 4718,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 5877,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 9804,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-03-17-special-committee-on-standards-of-accreditation",
+  "meetingId": "vboe-lfw6lprxWLM",
+  "date": "2021-03-17",
+  "title": "Special Committee on Standards of Accreditation",
+  "dateLabel": "Mar 17, 2021",
+  "whenWhere": "Virginia Board of Education · Special Committee on Standards of Accreditation · video 2h 21m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-03-17-special-committee-on-standards-of-accreditation.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-03-17-special-committee-on-standards-of-accreditation.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 17,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 278,
+    "label": "Presentation or new topic begins",
+    "quote": "all righty i will stop my screen share so that we can actually see everybody and dr pexton i'll turn it over to you great thank you good afternoon everybody uh happy saint patrick's day uh to …"
+   },
+   {
+    "seconds": 425,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1203,
+    "label": "Presentation or new topic begins",
+    "quote": "So for those 11th graders coming in as transfers they would need one verified credit in English and one in a subject area of the student's own choosing and the big change there is that that was …"
+   },
+   {
+    "seconds": 1766,
+    "label": "Presentation or new topic begins",
+    "quote": "are Mr. Rashard Wright, who is the Chief of Staff in Newport News Public Schools, right down the street from Manhattan. Mr. …"
+   },
+   {
+    "seconds": 3363,
+    "label": "Presentation or new topic begins",
+    "quote": "possibilities when we do open the door and provide the equity of access to the opportunity absolutely dr grimes and i want to also uh you know turn it over to uh leah walker who could you know …"
+   },
+   {
+    "seconds": 4551,
+    "label": "Public comment period",
+    "quote": "So very good, Ms. Holton. - Yeah, thank you, Keisha, and thank you all. What a great presentation today. …"
+   },
+   {
+    "seconds": 5809,
+    "label": "Presentation or new topic begins",
+    "quote": "So I was gonna allow them to add comments if they still had them. And then I'm gonna go ahead and transition after those two comments into our next presentation 'cause I wanna give them time, which …"
+   },
+   {
+    "seconds": 6036,
+    "label": "Presentation or new topic begins",
+    "quote": "So Leslie and Leah, I will turn it over to you. - Wonderful, well, I will go ahead and kick us off. And kind of the way that I wanted this presentation to work would be to be kind of more of a …"
+   },
+   {
+    "seconds": 8474,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-01-28-business-meeting",
+  "meetingId": "vboe-P6kmxaBMey0",
+  "date": "2021-01-28",
+  "title": "Business Meeting",
+  "dateLabel": "Jan 28, 2021",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 5h 20m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-01-28-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-01-28-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 387,
+    "label": "Call to order",
+    "quote": "i'm going to go ahead and stop my screen share so everybody thank you can see each other um and we'll get started whenever you're ready call the meeting to order then uh first item is the roll call …"
+   },
+   {
+    "seconds": 533,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 629,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1672,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2366,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 8286,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 16672,
+    "label": "Presentation or new topic begins",
+    "quote": "of those. All the waivers and relief measures issued to date are posted on the website. I won't get into all of those for the sake of time at this late hour, but do know that we keep a running list …"
+   },
+   {
+    "seconds": 18672,
+    "label": "Presentation or new topic begins",
+    "quote": "that you would like to add in on this as well but we will be asking for additional periodic data from school divisions and we'll get some additional information from other assessments both SOL and …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2021-01-27-special-committee-on-standards-of-accreditation",
+  "meetingId": "vboe-uckpkAmkm48",
+  "date": "2021-01-27",
+  "title": "Special Committee on Standards of Accreditation",
+  "dateLabel": "Jan 27, 2021",
+  "whenWhere": "Virginia Board of Education · Special Committee on Standards of Accreditation · video 1h 41m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-01-27-special-committee-on-standards-of-accreditation.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-01-27-special-committee-on-standards-of-accreditation.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 200,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 687,
+    "label": "Presentation or new topic begins",
+    "quote": "um i'm trying i'm counting squares make sure we have everybody um but i think we've got everybody on maybe not everyone has their camera on just yet but we do have um everyone here so i'll go Go …"
+   },
+   {
+    "seconds": 844,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 4460,
+    "label": "Presentation or new topic begins",
+    "quote": "of understanding who these students are and their experiences, and of course how that's translating to student outcomes. So with that, I am going to turn it over to Dr. …"
+   },
+   {
+    "seconds": 6069,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-11-19-business-meeting",
+  "meetingId": "vboe-8fYGbaXRHTY",
+  "date": "2020-11-19",
+  "title": "Business Meeting",
+  "dateLabel": "Nov 19, 2020",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 4h 6m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-11-19-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-11-19-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 0,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 366,
+    "label": "Public comment period",
+    "quote": "A couple of things to note about our virtual meeting. One, the board has accepted a written public comment for this meeting. All comments that were received by 5 p.m. …"
+   },
+   {
+    "seconds": 1648,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 3641,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 5776,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 6169,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 12648,
+    "label": "Presentation or new topic begins",
+    "quote": "it's it's almost a complete rewrite and you know without uh over exaggerating i will say that this is probably our first foray into what competency-based standards can look like and uh just really …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-11-18-special-committee-on-standards-of-accreditation",
+  "meetingId": "vboe-mAzST8Z4hFM",
+  "date": "2020-11-18",
+  "title": "Special Committee on Standards of Accreditation",
+  "dateLabel": "Nov 18, 2020",
+  "whenWhere": "Virginia Board of Education · Special Committee on Standards of Accreditation · video 1h 4m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-11-18-special-committee-on-standards-of-accreditation.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-11-18-special-committee-on-standards-of-accreditation.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 1,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 189,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 496,
+    "label": "Presentation or new topic begins",
+    "quote": "and i know we all like to be very prompt um so i'm gonna stop screen share here so that everybody can see each other um and i'll go ahead and turn it over to you okay thank you hello good afternoon …"
+   },
+   {
+    "seconds": 597,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 737,
+    "label": "Presentation or new topic begins",
+    "quote": "systems across the country, including examples of school quality indicators from a number of states. At our September meeting, staff provided a presentation on the federal accountability requirements …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-10-15-business-meeting",
+  "meetingId": "vboe-dfe_FD2V8Sw",
+  "date": "2020-10-15",
+  "title": "Business Meeting",
+  "dateLabel": "Oct 15, 2020",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 3h 7m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-10-15-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-10-15-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 535,
+    "label": "Call to order",
+    "quote": "we are all here i'm going to go ahead and stop my share screen so we can see everyone's video wow um and i we're all set turn it over to you good thanks uh then we'll call the meeting of the the …"
+   },
+   {
+    "seconds": 766,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 873,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 4838,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 6535,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 7371,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 8485,
+    "label": "Presentation or new topic begins",
+    "quote": "We can deliver this training and the colleges and universities have already started to use it. So unless there are any specific questions about those revisions, I would like to turn it over to Nancy …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-10-14-special-committee-on-standards-of-accreditation",
+  "meetingId": "vboe-5w1i2Pfq7ms",
+  "date": "2020-10-14",
+  "title": "Special Committee on Standards of Accreditation",
+  "dateLabel": "Oct 14, 2020",
+  "whenWhere": "Virginia Board of Education · Special Committee on Standards of Accreditation · video 2h 14m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-10-14-special-committee-on-standards-of-accreditation.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-10-14-special-committee-on-standards-of-accreditation.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 31,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 940,
+    "label": "Presentation or new topic begins",
+    "quote": "and jamel wilson votes aye so with that that brings us then to the matter of the day uh doe staff presentation on certain unintended consequences related to the 2017 standards of accreditation we are …"
+   },
+   {
+    "seconds": 1323,
+    "label": "Presentation or new topic begins",
+    "quote": "Next slide, Julie. So with that being said, to kind of set the stage for you, I'm gonna hand it over to Shelly and Julie to really walk through some of the specific recommendations or I guess rather …"
+   },
+   {
+    "seconds": 2183,
+    "label": "Presentation or new topic begins",
+    "quote": "The next item is fairly simple. In the previous SOA, there was a new school rating for schools who do not yet have data. …"
+   },
+   {
+    "seconds": 5841,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 8039,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-09-17-business-meeting",
+  "meetingId": "vboe-Qy9_eTP40mg",
+  "date": "2020-09-17",
+  "title": "Business Meeting",
+  "dateLabel": "Sep 17, 2020",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 3h 58m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-09-17-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-09-17-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 56,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 544,
+    "label": "Presentation or new topic begins",
+    "quote": "minutes in the night time we still haven't seen him unless i missed it you haven't he is downstairs with my grandma well i understand your pet sitting but at an appropriate moment yeah all right well …"
+   },
+   {
+    "seconds": 730,
+    "label": "Public comment period",
+    "quote": "Our meeting today is being streamed live on the VDOE YouTube channel and on the board's public meeting webpage. We'd like to welcome those joining us on the live stream from across the commonwealth. …"
+   },
+   {
+    "seconds": 838,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1999,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2111,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2326,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 4260,
+    "label": "Presentation or new topic begins",
+    "quote": "I think you know that next on our agenda is the beginning of the process of certain revisions and that the commission has recommended. But before I speak, I guess I'll open it to the board members. …"
+   },
+   {
+    "seconds": 7843,
+    "label": "Presentation or new topic begins",
+    "quote": "Our next item is... I'm here, yeah. Okay, thank you. Ann, I think it's here. I see Dr. Pexton. Yeah, we're all here. Okay. Then we will get started again. …"
+   },
+   {
+    "seconds": 11704,
+    "label": "Presentation or new topic begins",
+    "quote": "We're joined today by both Christine Germeier, who is the SEAC chair, as well as Jill Sowers-Becker, who is our SEAC vice chair. I'm going to go ahead and turn it over to them. …"
+   },
+   {
+    "seconds": 13644,
+    "label": "Presentation or new topic begins",
+    "quote": "trying to because that's a big part of this so yeah no thank you thank you for the question then i'll turn it over to michael but um the what i what i will share is that uh we have seen obviously a …"
+   },
+   {
+    "seconds": 14168,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-09-16-special-committee-on-standards-of-accreditation",
+  "meetingId": "vboe-8FApFeZ-_Z0",
+  "date": "2020-09-16",
+  "title": "Special Committee on Standards of Accreditation",
+  "dateLabel": "Sep 16, 2020",
+  "whenWhere": "Virginia Board of Education · Special Committee on Standards of Accreditation · video 2h 12m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-09-16-special-committee-on-standards-of-accreditation.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-09-16-special-committee-on-standards-of-accreditation.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 0,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 215,
+    "label": "Presentation or new topic begins",
+    "quote": "So we will get started here in just a couple minutes once we have everybody joined. and i'll turn it over to dr pexton once we're ready dr hutchings thank you for joining us"
+   },
+   {
+    "seconds": 324,
+    "label": "Presentation or new topic begins",
+    "quote": "hear us and can you hear me yes ma'am we can thank you and dr duran can you hear us yes all right Great. We'll give folks just another minute to hop on, and then I'll turn it over to Dr. Pexton."
+   },
+   {
+    "seconds": 549,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 687,
+    "label": "Presentation or new topic begins",
+    "quote": "that described the Virginia's plan under ESSA and the Virginia's accreditation plan and the difference. …"
+   },
+   {
+    "seconds": 7915,
+    "label": "Presentation or new topic begins",
+    "quote": "Dr. Hutchings uh uh Casey Conger and Maria Eck for being with us today we really appreciate your time and hope that you'll stay close to the phone to be great advisors to us as we move forward and so …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-09-16-executive-session",
+  "meetingId": "vboe-2N0xO9h_t7o",
+  "date": "2020-09-16",
+  "title": "Executive Session",
+  "dateLabel": "Sep 16, 2020",
+  "whenWhere": "Virginia Board of Education · Executive Session · video 20m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-09-16-executive-session.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-09-16-executive-session.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 1109,
+    "label": "Call to order",
+    "quote": "monday night for the computer technology standards and there were some there was no video there either so zoom is is struggling this week all right um i think we have everybody and we are live on …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-07-23-business-meeting",
+  "meetingId": "vboe-HpxprL7ccNg",
+  "date": "2020-07-23",
+  "title": "Business Meeting",
+  "dateLabel": "Jul 23, 2020",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 1h 45m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-07-23-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-07-23-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 71,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 796,
+    "label": "Public comment period",
+    "quote": "live stream from across the Commonwealth. A couple of things to note about the virtual meeting, which are different from when we're in person. …"
+   },
+   {
+    "seconds": 887,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 983,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1162,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1962,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 6274,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-07-22-special-committee-on-standards-of-accreditation",
+  "meetingId": "vboe-GZ5k1Xr-TQw",
+  "date": "2020-07-22",
+  "title": "Special Committee on Standards of Accreditation",
+  "dateLabel": "Jul 22, 2020",
+  "whenWhere": "Virginia Board of Education · Special Committee on Standards of Accreditation · video 1h 42m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-07-22-special-committee-on-standards-of-accreditation.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-07-22-special-committee-on-standards-of-accreditation.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 43,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 244,
+    "label": "Presentation or new topic begins",
+    "quote": "So we'll just give folks a couple more minutes to sign on since we still have about six minutes till we begin. And then, Keisha, I'll turn it over to you when we're ready to get started. …"
+   },
+   {
+    "seconds": 858,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2539,
+    "label": "Public comment period",
+    "quote": "superintendents as well as potentially even teachers um and then certainly one other avenue although you know obviously being virtual right now doesn't lend itself to a ton of public comment but we …"
+   },
+   {
+    "seconds": 4366,
+    "label": "Presentation or new topic begins",
+    "quote": "something that, you know, has potential to bubble, then we bring it back. But I think at this point, we push it down. Right. I'm satisfied to do that. Me too. …"
+   },
+   {
+    "seconds": 4913,
+    "label": "Presentation or new topic begins",
+    "quote": "we could learn from we've got some concepts or thoughts around how we will get some feedback some some some empathy data some real some real time feedback as far as how things what kind of outcomes …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-06-18-special-committee-on-standards-of-accreditation",
+  "meetingId": "vboe-jgguYIllqdI",
+  "date": "2020-06-18",
+  "title": "Special Committee on Standards of Accreditation",
+  "dateLabel": "Jun 18, 2020",
+  "whenWhere": "Virginia Board of Education · Special Committee on Standards of Accreditation · video 56m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-06-18-special-committee-on-standards-of-accreditation.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-06-18-special-committee-on-standards-of-accreditation.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 5,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 836,
+    "label": "Public comment period",
+    "quote": "about changes to the regulations. You don't have to put in there what those changes are going to be necessarily but we do need to start that process. …"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-06-18-business-meeting",
+  "meetingId": "vboe-e7xKkm2V8Ok",
+  "date": "2020-06-18",
+  "title": "Business Meeting",
+  "dateLabel": "Jun 18, 2020",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 2h 47m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-06-18-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-06-18-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 0,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 233,
+    "label": "Public comment period",
+    "quote": "As is clear we are in a virtual meeting. It is being streamed live on the VDOE YouTube channel and on the board's public meeting web page. …"
+   },
+   {
+    "seconds": 516,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2305,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 3107,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 3318,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 10011,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-06-17-special-committee-on-standards-of-accreditation",
+  "meetingId": "vboe-HCYMQXsoLYs",
+  "date": "2020-06-17",
+  "title": "Special Committee on Standards of Accreditation",
+  "dateLabel": "Jun 17, 2020",
+  "whenWhere": "Virginia Board of Education · Special Committee on Standards of Accreditation · video 2h 1m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-06-17-special-committee-on-standards-of-accreditation.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-06-17-special-committee-on-standards-of-accreditation.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 40,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 435,
+    "label": "Presentation or new topic begins",
+    "quote": "substantial changes to the system a year ago from the committee led by diane that's it right good afternoon uh look i'm trying to get uh miss holton on um but let me go ahead and uh i will share the …"
+   },
+   {
+    "seconds": 1047,
+    "label": "Public comment period",
+    "quote": "stage in June 2017 to when we first released accreditation ratings for schools in fall 2018, the board conducted a series of public hearings around the state and created multiple other opportunities …"
+   },
+   {
+    "seconds": 1455,
+    "label": "Presentation or new topic begins",
+    "quote": "quality and add value when identifying struggling schools and are not just different lenses for looking at the same issue so we wanted to make sure that we didn't have a set of metrics that was only …"
+   },
+   {
+    "seconds": 2232,
+    "label": "Presentation or new topic begins",
+    "quote": "that talks more about what other states were doing and we can provide those to you and to the other committee members kind of in the in between for you all to review those yeah that would be …"
+   },
+   {
+    "seconds": 7248,
+    "label": "Recess or reconvene"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-01-23-business-meeting",
+  "meetingId": "vboe-mw9_iIlBQ_I",
+  "date": "2020-01-23",
+  "title": "Business Meeting",
+  "dateLabel": "Jan 23, 2020",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 3h 53m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-01-23-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-01-23-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 24, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 799,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 1755,
+    "label": "Public comment period",
+    "quote": "okay we're going to move into our public comment period uh each speaker will have three minutes it is the practice of this board not to respond to individual speakers however we do have uh"
+   },
+   {
+    "seconds": 5087,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 5275,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 8380,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 9241,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 13913,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
  }
 ];

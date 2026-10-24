@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/chesterfield-bos/transcripts/chesterfield-bos-2021.json",
+  "outBase": "public/files/find-the-moment/chesterfield-bos/transcripts/coraggio-transcript-chesterfield-bos-2026-02-25-chesterfield-county-board-of-supervisors-meeting-february-25-2026",
+  "title": "Chesterfield County Board of Supervisors Meeting - February 25, 2026, Wednesday, February 25, 2026",
+  "shortTitle": "Board of Supervisors Meeting - February 25, 2026 \u00b7 Feb 25, 2026",
+  "date": "Wednesday, February 25, 2026",
+  "place": "Chesterfield County Board of Supervisors, Virginia",
+  "length": "5h 20m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://chesterfieldcova.portal.civicclerk.com/event/2021/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3884,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3935,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-10-22-1236391014.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-10-22-school-board-elementary-school-attendance-zone-public-hearing-work-session",
+  "title": "Loudoun County School Board, School Board Elementary School Attendance Zone Public Hearing & Work Session, Thursday, October 22, 2026",
+  "shortTitle": "School Board Elementary School Attendance Zone Public Hearing & Work Session \u00b7 Oct 22, 2026",
+  "date": "Thursday, October 22, 2026",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "45m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1236391014?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}
