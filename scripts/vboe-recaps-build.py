@@ -27,6 +27,21 @@ TH.update(TH_2023)
 # Town Hall minutes (e.g. a "Business Meeting" video is actually a committee session; minutes headers fall a day off), so
 # NO minutes are attached to them: votesPosted false until each video is matched to its minutes by hand.
 NOMAP_1024 = set(["vboe-2N0xO9h_t7o", "vboe-5w1i2Pfq7ms", "vboe-8FApFeZ-_Z0", "vboe-8fYGbaXRHTY", "vboe-G1Wbk7TDZGg", "vboe-GK4Pl0tXctw", "vboe-GZ5k1Xr-TQw", "vboe-G_cUYsYVGxk", "vboe-GdmjTI-I6IE", "vboe-HCYMQXsoLYs", "vboe-HpxprL7ccNg", "vboe-IWWkBYMYDSg", "vboe-LVpvdfY9L9w", "vboe-LYT9-P5_gHc", "vboe-P6kmxaBMey0", "vboe-Qy9_eTP40mg", "vboe-RfScME8c_4k", "vboe-XLY0vCLSzmg", "vboe-_NZ6ElwUFfU", "vboe-_m2HA_4ftqQ", "vboe-dfe_FD2V8Sw", "vboe-e7xKkm2V8Ok", "vboe-eMU5k9aPH2M", "vboe-eSl1gssmSnk", "vboe-hUyPAkWm6FI", "vboe-i0wBFGyfpWI", "vboe-jgguYIllqdI", "vboe-k3WSP9Oc2WE", "vboe-lexBvJdBJHo", "vboe-lfw6lprxWLM", "vboe-mAzST8Z4hFM", "vboe-mw9_iIlBQ_I", "vboe-nhXt0Qthp1I", "vboe-q7jOfPX5wi4", "vboe-rKIx9lmLEV0", "vboe-rt7G6H1EqhY", "vboe-sN4pbYcejAc", "vboe-uckpkAmkm48", "vboe-wtJ44RMB7IA", "vboe-yyTdlVgmZjw"])
+# Added 2026-10-24 (hand match): each video matched to its Town Hall minutes by content (transcript opening/closing,
+# minutes approved, elections, public commenters, license motions). Ranges are 1-indexed line slices of m{ID}.raw.txt
+# where one Town Hall PDF covers two meeting days (executive session day + business day). None = whole PDF.
+MAP_1024 = {"vboe-mw9_iIlBQ_I": (30679, (61, 584)), "vboe-e7xKkm2V8Ok": (30992, None), "vboe-HpxprL7ccNg": (31129, None),
+ "vboe-Qy9_eTP40mg": (31347, None), "vboe-dfe_FD2V8Sw": (31503, None), "vboe-8fYGbaXRHTY": (31628, None),
+ "vboe-_m2HA_4ftqQ": (32612, (72, 548)), "vboe-wtJ44RMB7IA": (32748, (1, 65)), "vboe-q7jOfPX5wi4": (32748, (66, 357)),
+ "vboe-GK4Pl0tXctw": (33077, (126, 541)), "vboe-i0wBFGyfpWI": (33235, (62, 455)), "vboe-eSl1gssmSnk": (33235, (456, 462)),
+ "vboe-hUyPAkWm6FI": (36725, None), "vboe-LYT9-P5_gHc": (36725, None), "vboe-XLY0vCLSzmg": (36888, (735, 807))}
+NOTE_1024 = {"vboe-wtJ44RMB7IA": " This video is the Board's July 21, 2021 executive session (closed meeting on teacher-license cases); the votes shown are the open-session motions recorded for that day.",
+ "vboe-XLY0vCLSzmg": " This video is the Sep 14, 2022 executive session (open-session license motions) followed by the work session; the minutes say no votes were taken in the work session.",
+ "vboe-eSl1gssmSnk": " The Board's minutes say no votes were taken in the Oct 20, 2021 work session (teacher evaluation, Culturally Competent Educators update, Direct Aid rebenchmarking), which is in the second half of this video. The Committee on the Standards of Quality portion earlier in the video is not covered by the Board minutes posted on Town Hall.",
+ "vboe-hUyPAkWm6FI": " This video covers the morning work session (HB 938) and the start of the business meeting.",
+ "vboe-LYT9-P5_gHc": " This video picks up the business meeting after the morning session."}
+SLUG_KEEP = {"vboe-XLY0vCLSzmg": "2022-09-14-work-session", "vboe-hUyPAkWm6FI": "2022-08-17-work-session", "vboe-LYT9-P5_gHc": "2022-08-17-business-meeting",
+ "vboe-eSl1gssmSnk": "2021-10-20-standards-of-quality-session", "vboe-wtJ44RMB7IA": "2021-07-21-work-session"}
 def CHK(m): return "Oct 24, 2026" if m["id"] in NOMAP_1024 else ("Oct 23, 2026" if m["date"] < "2025-03-01" else "Oct 22, 2026")
 
 def tally(t):
@@ -42,8 +57,12 @@ def clip(s, n):
     c = s[:n]; i = max(c.rfind(". "), c.rfind("? "))
     return (c[:i+1] if i > n * 0.5 else c.rsplit(" ", 1)[0]) + " …"
 def slugify(t): return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", t.lower())).strip("-")
-def decisions(mid, url):
-    agenda, decs, _ = parse(f"{MIN}/m{mid}.raw.txt")
+def decisions(mid, url, rng=None):
+    f = f"{MIN}/m{mid}.raw.txt"
+    if rng:
+        f2 = f"/tmp/vboe-m{mid}-{rng[0]}-{rng[1]}.raw.txt"
+        open(f2, "w").write("".join(open(f).readlines()[rng[0]-1:rng[1]])); f = f2
+    agenda, decs, _ = parse(f)
     out, lic = [], 0
     for d in decs:
         t = d["text"]
@@ -117,8 +136,10 @@ tx = set(f[:-5] for f in os.listdir(TR) if f.endswith(".json"))
 for m in MEET:
     if m["id"] not in tx: continue
     tslug = slugify(m["title"].replace("(Part ", "part-").replace(")", ""))
-    slug = f"{m['date']}-{tslug}"
-    mid = None if m["id"] in NOMAP_1024 else TH.get(m["date"])
+    slug = SLUG_KEEP.get(m["id"], f"{m['date']}-{tslug}")
+    rng = None
+    if m["id"] in MAP_1024: mid, rng = MAP_1024[m["id"]]
+    else: mid = None if m["id"] in NOMAP_1024 else TH.get(m["date"])
     part = re.search(r"Part (\d+)", m["title"])
     base = {"slug": slug, "meetingId": m["id"], "date": m["date"], "title": m["title"], "dateLabel": m["dateLabel"],
             "whenWhere": f"Virginia Board of Education · {m['title']} · video {m['duration']} · VDOE YouTube",
@@ -130,13 +151,15 @@ for m in MEET:
         h = open(f"{MIN}/v{mid}.html", errors="ignore").read()
         v = re.search(rf"Minutes_DOE_{mid}_v(\d+)\.pdf", h); ver = v.group(1) if v else "1"
         url = f"https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\{mid}\\Minutes_DOE_{mid}_v{ver}.pdf"
-        draft = mid in (43092, 43093, 43094)
-        agenda, decs = decisions(mid, url)
+        draft = mid in (43092, 43093, 43094, 31628)
+        agenda, decs = decisions(mid, url, rng)
         status = "DRAFT minutes (posted for Board approval)" if draft else "approved minutes"
         note = f"Votes below are from the {status} posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes."
         if part: note += f" The minutes cover the full {m['dateLabel']} meeting; this video is Part {part.group(1)}."
         if mid == 36888: note += " These minutes cover the Board's September 14-15, 2022 meeting days; this video is the Sep 15 business meeting."
         if not decs: note = f"The {status} for {m['dateLabel']} record no motions or votes (presentations only)."
+        if m["id"] in MAP_1024: note += " Matched to this video by hand on Oct 24, 2026."
+        note += NOTE_1024.get(m["id"], "")
         groups = {}
         for sec, letter, title in agenda:
             if re.search(r"closed", sec or "", re.I): continue

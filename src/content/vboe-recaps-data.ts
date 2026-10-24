@@ -16037,21 +16037,76 @@ export const VBOE_RECAPS: VboeRecap[] = [
   "slug": "2022-09-14-work-session",
   "meetingId": "vboe-XLY0vCLSzmg",
   "date": "2022-09-14",
-  "title": "Work Session",
+  "title": "Executive Session and Work Session",
   "dateLabel": "Sep 14, 2022",
-  "whenWhere": "Virginia Board of Education · Work Session · video 2h 57m · VDOE YouTube",
+  "whenWhere": "Virginia Board of Education · Executive Session and Work Session · video 2h 57m · VDOE YouTube",
   "transcriptDownloads": {
    "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-09-14-work-session.pdf",
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-09-14-work-session.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. These minutes cover the Board's September 14-15, 2022 meeting days; this video is the Sep 15 business meeting. Matched to this video by hand on Oct 24, 2026. This video is the Sep 14, 2022 executive session (open-session license motions) followed by the work session; the minutes say no votes were taken in the work session.",
+   "links": [
+    {
+     "label": "Minutes, Sep 14, 2022 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=36888"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Motion",
+    "action": "Dr. Mann made a motion that the Board reconvene in open session at 3:12 p.m.",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Motion",
+    "action": "Mr. Rotherham made a motion that Case #2 be deferred to allow the applicant to be present. The motion was seconded by Mr. Hansen and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Motion",
+    "action": "Ms. Holton made a motion to issue a license in Case #3. The motion was seconded by Dr. Mann, with Mr. Hanson, Dr. Seibert, Mr. Gecker and Mr. Rotherham voting against the motion. The motion did not carry due to the split vote. The Board asked for clarification from the counsel on how to proceed due to the split vote. Counsel was not able to provide guidance during the meeting but stated that they would research the matter to provide guidance on how to proceed at a later date.",
+    "tally": "Failed (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   },
+   {
+    "item": "Closed session",
+    "action": "2 motions on individual teacher-license cases heard in closed session. Individuals are not named here; the minutes record each case and result.",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36888\\Minutes_DOE_36888_v3.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Work session",
+    "dek": "Presentations to the Board. The minutes list no lettered agenda items; materials are posted with VDOE's meeting agendas.",
+    "items": []
+   }
+  ],
   "moments": [
    {
     "seconds": 76,
@@ -16078,22 +16133,200 @@ export const VBOE_RECAPS: VboeRecap[] = [
   "slug": "2022-08-17-work-session",
   "meetingId": "vboe-hUyPAkWm6FI",
   "date": "2022-08-17",
-  "title": "Work Session",
+  "title": "Work Session and Business Meeting (Part 1)",
   "dateLabel": "Aug 17, 2022",
-  "whenWhere": "Virginia Board of Education · Work Session · video 2h 46m · VDOE YouTube",
+  "whenWhere": "Virginia Board of Education · Work Session and Business Meeting (Part 1) · video 2h 46m · VDOE YouTube",
   "transcriptDownloads": {
    "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-08-17-work-session.pdf",
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-08-17-work-session.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. The minutes cover the full Aug 17, 2022 meeting; this video is Part 1. Matched to this video by hand on Oct 24, 2026. This video covers the morning work session (HB 938) and the start of the business meeting.",
+   "links": [
+    {
+     "label": "Minutes, Aug 17, 2022 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=36725"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Mann made a motion to adopt the June 15, 2022, meeting minutes of the Board as presented. The motion was seconded by Dr. Davis-Vaught and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Mr. Hansen made a motion to approve the Final Review of Financial Report on the Literacy Fund and Updates to the First Priority Waiting List. The motion was seconded by Mrs. Creasey and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item C",
+    "action": "Final Review of a Proposal to Adopt Special Provisions Regarding Accreditation Indicators: Dr. Mann made a motion, seconded by Dr. Davis-Vaught to approve temporarily altering the inclusion of Virginia Alternate Assessment Program (VAAP) failing test records from the determination of the performance level for the student group “students with disabilities” in the Achievement Gap-English and Achievement Gap-Mathematics indicators for accreditation year 2022-2023, when the performance level for that student group is a Level Three and the rating is based solely on failing VAAP test records. This motion was carried by majority, with Ms. Dutta voting against the motion.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item C",
+    "action": "Final Review of a Proposal to Adopt Special Provisions Regarding Accreditation Indicators: Mrs. Creasey made a motion, seconded by Mr. Rotherham, to alter the measurement of the College, Career, and Civic Readiness Index (CCCRI) by adding an additional qualifying criteria, beginning in accreditation year 2023-2024. This motion passed unanimously. Remarks from Governor Youngkin During the VDOE staff presentation on Item C, the Board paused its business to welcome The Honorable Glenn Youngkin, 74th Governor of Virginia, and Mrs. Suzanne Youngkin, First Lady of Virginia. …",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item D",
+    "action": "Final Review of Revisions to the Board’s Guidelines for the Use of Computer Science Courses to Satisfy Graduation Requirements Volume 93 Page 86: Ms. Holton made a motion to approve the revisions to the Board’s Guidelines for the Use of Computer Science Courses to Satisfy Graduation Requirements, and was seconded by Dr. Davis- Vaught. This motion was carried by majority, with Ms. Dutta voting against the motion.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item E",
+    "action": "Final Review of Updates to the Board-Approved Courses to Satisfy Graduation Requirements for the Standard, Advanced Studies, and Modified Standard Diplomas in Virginia Public Schools: Ms. Holton made a motion to approve the revisions to the Board of Education Approved Courses to Satisfy Graduation Requirements for the Standard, Advanced Studies, and Modified Standard Diplomas in Virginia Public Schools, seconded by Dr. Davis-Vaught. This motion was carried by majority, with Ms. Dutta voting against the motion.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item F",
+    "action": "Final Review of the Proposed 2022 Physical Education Standards of Learning Curriculum Framework: Mr. Hansen made a motion to approve the Superintendent’s recommendation. The motion was seconded by Dr. Mann and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item H",
+    "action": "First Review of Proposed College Partnership Laboratory School Fund Planning Grant Guidelines: Mrs. Creasey made a motion to approve the Superintendent’s recommendation. The motion was seconded by Mr. Hansen and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Closed session",
+    "action": "Mr. Rotherham made a motion to go into executive session under § 2.2-3711(A)(8) of the Code of Virginia for the purpose of consultation with legal counsel employed or retained by a public body regarding specific legal matters requiring the provision of legal advice by such counsel relevant to a final review to certify the list of qualified persons for the office of Division Superintendent of Schools. …",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Executive Session #1",
+    "action": "Ms. Holton made a motion that the Board reconvene in open session at 12:23p.m.",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Executive Session #2",
+    "action": "Mr. Rotherham made a motion that the Board reconvene in open session at 7:43 p.m.",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Closed session",
+    "action": "4 motions on individual teacher-license cases heard in closed session. Individuals are not named here; the minutes record each case and result.",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review to Certify a List of Qualified Persons for the Office of Division Superintendent of Schools A motion was made by Dr. Seibert, seconded by Mrs. Creasey and carried unanimously, to certify the list of qualified persons for the office of Division Superintendent of Schools, with the"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Financial Report on the Literary Fund and Updates to the First Priority Waiting List"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "C",
+      "title": "Final Review of a Proposal to Adopt Special Provisions Regarding Accreditation Indicators"
+     },
+     {
+      "num": "D",
+      "title": "Final Review of Revisions to the Board’s Guidelines for the Use of Computer Science Courses to Satisfy Graduation Requirements Volume 93 Page 86"
+     },
+     {
+      "num": "E",
+      "title": "Final Review of Updates to the Board-Approved Courses to Satisfy Graduation Requirements for the Standard, Advanced Studies, and Modified Standard Diplomas in Virginia Public Schools"
+     },
+     {
+      "num": "F",
+      "title": "Final Review of the Proposed 2022 Physical Education Standards of Learning Curriculum Framework"
+     },
+     {
+      "num": "G",
+      "title": "First Review of the Proposed Revised 2022 History and Social Science Standards of Learning"
+     },
+     {
+      "num": "H",
+      "title": "First Review of Proposed College Partnership Laboratory School Fund Planning Grant Guidelines"
+     },
+     {
+      "num": "I",
+      "title": "First Review of Guidelines and Criteria for the Award and Distribution of Lab School Start-up and Per-Pupil Funding Grants"
+     },
+     {
+      "num": "J",
+      "title": "First Review of an Amendment to Virginia’s Consolidate State Plan under the Every Student Succeeds Act of 2015 (ESSA) - Amendment 5"
+     }
+    ]
+   }
+  ],
   "moments": [
+   {
+    "seconds": 1532,
+    "label": "Final Review of Updates to the Board-Approved Courses to Satisfy Graduation Requirements for the Standard, Advanced Studies, and Modified … (discussion near here)",
+    "item": "E",
+    "quote": "Last bullet there, we also wanted to prompt our stakeholders in thinking about access as a prerequisite to achievement. …"
+   },
    {
     "seconds": 4537,
     "label": "Call to order",
@@ -16110,9 +16343,33 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "quote": "- Yes, okay. The thumbs up instead of the aye will do for today. That's approved. Okay, public comment. …"
    },
    {
+    "seconds": 5510,
+    "label": "First Review of the Proposed Revised 2022 History and Social Science Standards of Learning (discussion near here)",
+    "item": "G",
+    "quote": "organization that advocates and organizes with asian americans in virginia and we urge the board to vote for the first review of the history and social sciences standards of learnings or sols and …"
+   },
+   {
+    "seconds": 6754,
+    "label": "First Review of Proposed College Partnership Laboratory School Fund Planning Grant Guidelines (discussion near here)",
+    "item": "H",
+    "quote": "While there are some items we plan to give technical comment on during the upcoming public comment sessions we feel the proposed process for final input at this stage makes sense and we encourage …"
+   },
+   {
     "seconds": 6903,
     "label": "Presentation or new topic begins",
     "quote": "i'm also a parent and grandparent of graduates of virginia public school systems first i'd like to welcome the new members to your first meeting and i'd like to recommend an anchor task for you the …"
+   },
+   {
+    "seconds": 7964,
+    "label": "Final Review of Revisions to the Board’s Guidelines for the Use of Computer Science Courses to Satisfy Graduation Requirements Volume 93 … (discussion near here)",
+    "item": "D",
+    "quote": "student body that represents our partnering school divisions and we consistently achieve sol scores at or above state averages this includes high levels of achievement for the 24 of our students who …"
+   },
+   {
+    "seconds": 9813,
+    "label": "Final Review to Certify a List of Qualified Persons for the Office of Division Superintendent of Schools A motion was made by Dr. … (discussion near here)",
+    "item": "A",
+    "quote": "- President, I move. - First day, sorry. Mr. President, I move the pursuant to Virginia Code 2.2-3711A8, the Virginia Board of Education convened a closed meeting for the purposes of discussion and …"
    }
   ],
   "context": []
@@ -16121,29 +16378,215 @@ export const VBOE_RECAPS: VboeRecap[] = [
   "slug": "2022-08-17-business-meeting",
   "meetingId": "vboe-LYT9-P5_gHc",
   "date": "2022-08-17",
-  "title": "Business Meeting",
+  "title": "Business Meeting (Part 2)",
   "dateLabel": "Aug 17, 2022",
-  "whenWhere": "Virginia Board of Education · Business Meeting · video 6h 10m · VDOE YouTube",
+  "whenWhere": "Virginia Board of Education · Business Meeting (Part 2) · video 6h 10m · VDOE YouTube",
   "transcriptDownloads": {
    "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-08-17-business-meeting.pdf",
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2022-08-17-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. The minutes cover the full Aug 17, 2022 meeting; this video is Part 2. Matched to this video by hand on Oct 24, 2026. This video picks up the business meeting after the morning session.",
+   "links": [
+    {
+     "label": "Minutes, Aug 17, 2022 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=36725"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Mann made a motion to adopt the June 15, 2022, meeting minutes of the Board as presented. The motion was seconded by Dr. Davis-Vaught and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Mr. Hansen made a motion to approve the Final Review of Financial Report on the Literacy Fund and Updates to the First Priority Waiting List. The motion was seconded by Mrs. Creasey and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item C",
+    "action": "Final Review of a Proposal to Adopt Special Provisions Regarding Accreditation Indicators: Dr. Mann made a motion, seconded by Dr. Davis-Vaught to approve temporarily altering the inclusion of Virginia Alternate Assessment Program (VAAP) failing test records from the determination of the performance level for the student group “students with disabilities” in the Achievement Gap-English and Achievement Gap-Mathematics indicators for accreditation year 2022-2023, when the performance level for that student group is a Level Three and the rating is based solely on failing VAAP test records. This motion was carried by majority, with Ms. Dutta voting against the motion.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item C",
+    "action": "Final Review of a Proposal to Adopt Special Provisions Regarding Accreditation Indicators: Mrs. Creasey made a motion, seconded by Mr. Rotherham, to alter the measurement of the College, Career, and Civic Readiness Index (CCCRI) by adding an additional qualifying criteria, beginning in accreditation year 2023-2024. This motion passed unanimously. Remarks from Governor Youngkin During the VDOE staff presentation on Item C, the Board paused its business to welcome The Honorable Glenn Youngkin, 74th Governor of Virginia, and Mrs. Suzanne Youngkin, First Lady of Virginia. …",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item D",
+    "action": "Final Review of Revisions to the Board’s Guidelines for the Use of Computer Science Courses to Satisfy Graduation Requirements Volume 93 Page 86: Ms. Holton made a motion to approve the revisions to the Board’s Guidelines for the Use of Computer Science Courses to Satisfy Graduation Requirements, and was seconded by Dr. Davis- Vaught. This motion was carried by majority, with Ms. Dutta voting against the motion.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item E",
+    "action": "Final Review of Updates to the Board-Approved Courses to Satisfy Graduation Requirements for the Standard, Advanced Studies, and Modified Standard Diplomas in Virginia Public Schools: Ms. Holton made a motion to approve the revisions to the Board of Education Approved Courses to Satisfy Graduation Requirements for the Standard, Advanced Studies, and Modified Standard Diplomas in Virginia Public Schools, seconded by Dr. Davis-Vaught. This motion was carried by majority, with Ms. Dutta voting against the motion.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item F",
+    "action": "Final Review of the Proposed 2022 Physical Education Standards of Learning Curriculum Framework: Mr. Hansen made a motion to approve the Superintendent’s recommendation. The motion was seconded by Dr. Mann and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Item H",
+    "action": "First Review of Proposed College Partnership Laboratory School Fund Planning Grant Guidelines: Mrs. Creasey made a motion to approve the Superintendent’s recommendation. The motion was seconded by Mr. Hansen and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Closed session",
+    "action": "Mr. Rotherham made a motion to go into executive session under § 2.2-3711(A)(8) of the Code of Virginia for the purpose of consultation with legal counsel employed or retained by a public body regarding specific legal matters requiring the provision of legal advice by such counsel relevant to a final review to certify the list of qualified persons for the office of Division Superintendent of Schools. …",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Executive Session #1",
+    "action": "Ms. Holton made a motion that the Board reconvene in open session at 12:23p.m.",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Executive Session #2",
+    "action": "Mr. Rotherham made a motion that the Board reconvene in open session at 7:43 p.m.",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   },
+   {
+    "item": "Closed session",
+    "action": "4 motions on individual teacher-license cases heard in closed session. Individuals are not named here; the minutes record each case and result.",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\36725\\Minutes_DOE_36725_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review to Certify a List of Qualified Persons for the Office of Division Superintendent of Schools A motion was made by Dr. Seibert, seconded by Mrs. Creasey and carried unanimously, to certify the list of qualified persons for the office of Division Superintendent of Schools, with the"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Financial Report on the Literary Fund and Updates to the First Priority Waiting List"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "C",
+      "title": "Final Review of a Proposal to Adopt Special Provisions Regarding Accreditation Indicators"
+     },
+     {
+      "num": "D",
+      "title": "Final Review of Revisions to the Board’s Guidelines for the Use of Computer Science Courses to Satisfy Graduation Requirements Volume 93 Page 86"
+     },
+     {
+      "num": "E",
+      "title": "Final Review of Updates to the Board-Approved Courses to Satisfy Graduation Requirements for the Standard, Advanced Studies, and Modified Standard Diplomas in Virginia Public Schools"
+     },
+     {
+      "num": "F",
+      "title": "Final Review of the Proposed 2022 Physical Education Standards of Learning Curriculum Framework"
+     },
+     {
+      "num": "G",
+      "title": "First Review of the Proposed Revised 2022 History and Social Science Standards of Learning"
+     },
+     {
+      "num": "H",
+      "title": "First Review of Proposed College Partnership Laboratory School Fund Planning Grant Guidelines"
+     },
+     {
+      "num": "I",
+      "title": "First Review of Guidelines and Criteria for the Award and Distribution of Lab School Start-up and Per-Pupil Funding Grants"
+     },
+     {
+      "num": "J",
+      "title": "First Review of an Amendment to Virginia’s Consolidate State Plan under the Every Student Succeeds Act of 2015 (ESSA) - Amendment 5"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 158,
     "label": "Video begins"
    },
    {
+    "seconds": 741,
+    "label": "Final Review of Updates to the Board-Approved Courses to Satisfy Graduation Requirements for the Standard, Advanced Studies, and Modified … (discussion near here)",
+    "item": "E",
+    "quote": "at least one qualifying criteria these students are placed in the numerator and you divide that that by the total number of students in the on-time graduation cohort which is the denominator …"
+   },
+   {
+    "seconds": 1448,
+    "label": "First Review of Proposed College Partnership Laboratory School Fund Planning Grant Guidelines (discussion near here)",
+    "item": "H",
+    "quote": "children the historic investment into lab schools is something that we collectively will go on a journey together and this has generated such extraordinary excitement from all fronts from students to …"
+   },
+   {
     "seconds": 2392,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "label": "Final Review to Certify a List of Qualified Persons for the Office of Division Superintendent of Schools A motion was made by Dr. … (discussion near here)",
+    "item": "A",
+    "quote": "And then second, sort of for the board, Is there, you know, the contemplation of a motion to approve these items in accordance with the superintendent's recommendation as set forth in the item? …"
    },
    {
     "seconds": 3055,
@@ -16164,16 +16607,28 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
-    "seconds": 8089,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "seconds": 8144,
+    "label": "Final Review of Revisions to the Board’s Guidelines for the Use of Computer Science Courses to Satisfy Graduation Requirements Volume 93 … (discussion near here)",
+    "item": "D",
+    "quote": "I did not mean to exclude you. I need to read further down the agenda sheet next time. Good afternoon. Good afternoon. Good afternoon, President Gecker, Vice President, Dr. …"
    },
    {
-    "seconds": 14118,
-    "label": "Recess or reconvene"
+    "seconds": 11109,
+    "label": "Final Review of the Proposed 2022 Physical Education Standards of Learning Curriculum Framework (discussion near here)",
+    "item": "F",
+    "quote": "review the proposed physical education standards of learning curriculum framework on june 15th the proposed curriculum framework was presented to you for first review at this time no comments have …"
    },
    {
-    "seconds": 19537,
-    "label": "Recess or reconvene"
+    "seconds": 12126,
+    "label": "First Review of the Proposed Revised 2022 History and Social Science Standards of Learning (discussion near here)",
+    "item": "G",
+    "quote": "first review of proposed revised 2022 history and social science standards of learning. Cristania, I guess I should call you Ms. Brown. Excuse me. Cristania is fine. Cristania is fine. Okay. …"
+   },
+   {
+    "seconds": 13153,
+    "label": "First Review of an Amendment to Virginia’s Consolidate State Plan under the Every Student Succeeds Act of 2015 (ESSA) - Amendment 5 (discussion near here)",
+    "item": "J",
+    "quote": "you suggest when we're talking about consistency in language where do you see that we may want to kind of consolidate content one of the biggest complaints that we have from many teachers is that …"
    }
   ],
   "context": []
@@ -16530,17 +16985,138 @@ export const VBOE_RECAPS: VboeRecap[] = [
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-10-21-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026.",
+   "links": [
+    {
+     "label": "Minutes, Oct 21, 2021 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33235\\Minutes_DOE_33235_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=33235"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Wilson made a motion to adopt the September 22-23, 2021, meeting minutes of the Board as presented. The motion was seconded by Dr. Davis-Vaught and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33235\\Minutes_DOE_33235_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Duran made a motion to approve the consent agenda as presented. The motion was seconded by Dr. Mann and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33235\\Minutes_DOE_33235_v1.pdf"
+    }
+   },
+   {
+    "item": "Item E",
+    "action": "Final Review of the 2021 Prescriptions to the Standards of Quality: Dr. Duran made a motion to approve 2021 Prescriptions to the Standards of Quality, as well as requesting the support cap be removed. The motion was seconded by Dr. Roberson and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33235\\Minutes_DOE_33235_v1.pdf"
+    }
+   },
+   {
+    "item": "Item G",
+    "action": "First Review of Recommendations for Appropriate Staffing and Funding Levels Necessary for State Operated Programs (SOP) in Regional and Local Detention Centers: Dr. Roberson made a motion to waive first review and approve Recommendations for Appropriate Staffing and Funding Levels Necessary for State Operated Programs (SOP) in Regional and Local Detention Centers. The motion was seconded by Dr. Mann and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33235\\Minutes_DOE_33235_v1.pdf"
+    }
+   },
+   {
+    "item": "Item H",
+    "action": "First Review of Fast Track Regulatory Action to Conform Definitions of “Traumatic Brain Injury”: Dr. Wilson made a motion to waive first review and approve the fast-track action to ensure alignment in regulatory language and guidance. The motion was seconded by Dr. Davis-Vaught and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33235\\Minutes_DOE_33235_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review to Certify a List of Qualified Persons for the Office of Division Superintendent of Schools"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Quarterly Report of the Literary Fund"
+     },
+     {
+      "num": "C",
+      "title": "Final Review of the Advisory Board on Teacher Education and Licensure Recommendation for Revisions to the Guidelines for Mentor Teacher Programs for Beginning and Experienced Teachers"
+     },
+     {
+      "num": "D",
+      "title": "Final Review of Approved Training Programs for the Treatment of Students with a Seizure Disorder Volume 92 Page 115"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "E",
+      "title": "Final Review of the 2021 Prescriptions to the Standards of Quality"
+     },
+     {
+      "num": "F",
+      "title": "First Review of the Proposed Stage of the Regulatory Action to Amend the Regulations Establishing Standards for the Accreditation of Public Schools in Virginia"
+     },
+     {
+      "num": "G",
+      "title": "First Review of Recommendations for Appropriate Staffing and Funding Levels Necessary for State Operated Programs (SOP) in Regional and Local Detention Centers"
+     },
+     {
+      "num": "H",
+      "title": "First Review of Fast Track Regulatory Action to Conform Definitions of “Traumatic Brain Injury”"
+     },
+     {
+      "num": "I",
+      "title": "First Review of the Board of Education’s 2021 Annual Report on the Conditions and Needs of Public Schools in Virginia"
+     }
+    ]
+   },
+   {
+    "heading": "Written Reports",
+    "items": [
+     {
+      "num": "J",
+      "title": "Report on Status of Memoranda of Understanding as Required for Danville City Public Schools, Greensville County Public Schools, Petersburg City Public Schools, Prince Edward County Public Schools, and Richmond City Public Schools"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 596,
     "label": "Video begins"
+   },
+   {
+    "seconds": 787,
+    "label": "Final Review of the Advisory Board on Teacher Education and Licensure Recommendation for Revisions to the Guidelines for Mentor Teacher … (discussion near here)",
+    "item": "C",
+    "quote": "The program identifies outstanding science, mathematics, computer science, and engineering teachers in each state and the four United States jurisdictions. …"
    },
    {
     "seconds": 1499,
@@ -16548,9 +17124,33 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "quote": "parent and family involvement we appreciate all that you do thank you okay thank you all very much thank you for being with us we'll move on to uh public comment speakers will be recognized in the …"
    },
    {
+    "seconds": 2360,
+    "label": "Final Review of the 2021 Prescriptions to the Standards of Quality (discussion near here)",
+    "item": "E",
+    "quote": "- Second. - Which way? That was to approve it? - To approve it. - Thank you. Dr. Duran, second Dr. Mann. Any discussion? All in favor signify by saying aye. …"
+   },
+   {
+    "seconds": 2709,
+    "label": "First Review of the Proposed Stage of the Regulatory Action to Amend the Regulations Establishing Standards for the Accreditation of Public … (discussion near here)",
+    "item": "F",
+    "quote": "- So moved, Mr. President. - Thank you, Dr. Durant, is there a second? - Second. - All in favor, signify by saying aye. - Aye. - Any opposed? That carries, thank you all very much. …"
+   },
+   {
     "seconds": 2837,
     "label": "Presentation or new topic begins",
     "quote": "The VDOE team provided a presentation on the federal accountability requirements under ESSA and Virginia's school accreditation system. …"
+   },
+   {
+    "seconds": 3092,
+    "label": "First Review of Fast Track Regulatory Action to Conform Definitions of “Traumatic Brain Injury” (discussion near here)",
+    "item": "H",
+    "quote": "accountability. But because this action does coincide with a formal regulatory motion for the board, this presentation here today will focus on those that did have an impact on standards of …"
+   },
+   {
+    "seconds": 4531,
+    "label": "First Review of Recommendations for Appropriate Staffing and Funding Levels Necessary for State Operated Programs (SOP) in Regional and … (discussion near here)",
+    "item": "G",
+    "quote": "receive a quality education thank you dr anderson slash wilson we appreciate that very much well thank you i've been honored to be a steward of this work and i will see you next time all right we're …"
    },
    {
     "seconds": 4647,
@@ -16567,21 +17167,40 @@ export const VBOE_RECAPS: VboeRecap[] = [
   "slug": "2021-10-20-standards-of-quality-session",
   "meetingId": "vboe-eSl1gssmSnk",
   "date": "2021-10-20",
-  "title": "Standards of Quality Session",
+  "title": "Committee on the Standards of Quality and Work Session",
   "dateLabel": "Oct 20, 2021",
-  "whenWhere": "Virginia Board of Education · Standards of Quality Session · video 4h 13m · VDOE YouTube",
+  "whenWhere": "Virginia Board of Education · Committee on the Standards of Quality and Work Session · video 4h 13m · VDOE YouTube",
   "transcriptDownloads": {
    "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-10-20-standards-of-quality-session.pdf",
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-10-20-standards-of-quality-session.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "The approved minutes for Oct 20, 2021 record no motions or votes (presentations only). Matched to this video by hand on Oct 24, 2026. The Board's minutes say no votes were taken in the Oct 20, 2021 work session (teacher evaluation, Culturally Competent Educators update, Direct Aid rebenchmarking), which is in the second half of this video. The Committee on the Standards of Quality portion earlier in the video is not covered by the Board minutes posted on Town Hall.",
+   "links": [
+    {
+     "label": "Minutes, Oct 20, 2021 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33235\\Minutes_DOE_33235_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=33235"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
   "decisions": [],
-  "agenda": [],
+  "agenda": [
+   {
+    "heading": "Work session",
+    "dek": "Presentations to the Board. The minutes list no lettered agenda items; materials are posted with VDOE's meeting agendas.",
+    "items": []
+   }
+  ],
   "moments": [
    {
     "seconds": 689,
@@ -16616,13 +17235,146 @@ export const VBOE_RECAPS: VboeRecap[] = [
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-09-23-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026.",
+   "links": [
+    {
+     "label": "Minutes, Sep 23, 2021 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33077\\Minutes_DOE_33077_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=33077"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Wilson made a motion to adopt the July 21-22, 2021meeting minutes of the Board as presented. The motion was seconded by Dr. Durán and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33077\\Minutes_DOE_33077_v1.pdf"
+    }
+   },
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Roberson made a motion to adopt the resolution. The motion was seconded by Dr. Wilson and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33077\\Minutes_DOE_33077_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Mann made a motion to approve the consent agenda as presented. The motion was seconded by Dr. Davis-Vaught and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33077\\Minutes_DOE_33077_v1.pdf"
+    }
+   },
+   {
+    "item": "Item D",
+    "action": "Final Review of Proposed Revisions to the Guidelines for Locally Awarded Verified Credits Contained in the Guidance Document Governing Certain Provisions of the Regulations Establishing Standards for Accrediting Public Schools in Virginia to Allow for the Use of Performance Assessments to Verify Credits in History and Social Science: Dr. Durán made a motion to approve proposed revisions to the Guidance Document Governing Certain Provisions of the Regulations Establishing Standards for Accrediting Public Schools in Virginia, 8VAC20-131-110 Standard and Verified Units of Credit: Locally-Awarded Verified Credit to allow for the use of performance assessments to verify credits in history and social science in response to the 2020 and 2021 Virginia General Assembly’s Appropriations Act. The motion was seconded by Dr. Anderson and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33077\\Minutes_DOE_33077_v1.pdf"
+    }
+   },
+   {
+    "item": "Item F",
+    "action": "First Review of Proposed Fast-Track Action for the Regulations Governing Special Education Programs for Children with Disabilities in Virginia: Dr. Roberson made a motion to waive first review and approve the exempt action to the Regulations Governing Special Education Programs for Children with Disabilities in Virginia. The motion was seconded by Dr. Anderson and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33077\\Minutes_DOE_33077_v1.pdf"
+    }
+   },
+   {
+    "item": "Item G",
+    "action": "First Review of Proposed Fast-Track Action for the Regulations Governing the Operation of Private Schools for Students with Disabilities: Dr. Wilson made a motion to waive first review and approve exempt action to the Regulations Governing the Operation of Private Schools for Students with Disabilities. The motion was seconded by Mr. Swann and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33077\\Minutes_DOE_33077_v1.pdf"
+    }
+   },
+   {
+    "item": "Item H",
+    "action": "First Review of Recommendations for School Division of Innovation (SDI) Designation: Dr. Durán made a motion to waive first review and approve the designation of School Division of Innovation to the recommended schools. The motion was seconded by Dr. Mann and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33077\\Minutes_DOE_33077_v1.pdf"
+    }
+   },
+   {
+    "item": "Item H",
+    "action": "First Review of Recommendations for School Division of Innovation (SDI) Designation: Dr. Durán made a motion to waive first review and approve the requested flexibilities for three School Divisions of Innovation as outlined in the Board item. The motion was seconded by Mr. Swann and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\33077\\Minutes_DOE_33077_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review to Certify a List of Qualified Persons for the Office of Division Superintendent of Schools"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Nominations to Fill Vacancies on Board Advisory Committees"
+     },
+     {
+      "num": "C",
+      "title": "Final Review of Proposed Board of Education Meeting Dates for 2022"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "D",
+      "title": "Final Review of Proposed Revisions to the Guidelines for Locally Awarded Verified Credits Contained in the Guidance Document Governing Certain Provisions of the Regulations Establishing Standards for Accrediting Public Schools in Virginia to Allow for the Use of Performance Assessments to Verify Credits in History and Social Science"
+     },
+     {
+      "num": "E",
+      "title": "First Review of Approved Training Programs for the Treatment of Students with a Seizure Disorder."
+     },
+     {
+      "num": "F",
+      "title": "First Review of Proposed Fast-Track Action for the Regulations Governing Special Education Programs for Children with Disabilities in Virginia"
+     },
+     {
+      "num": "G",
+      "title": "First Review of Proposed Fast-Track Action for the Regulations Governing the Operation of Private Schools for Students with Disabilities"
+     },
+     {
+      "num": "H",
+      "title": "First Review of Recommendations for School Division of Innovation (SDI) Designation"
+     },
+     {
+      "num": "I",
+      "title": "First Review of the Advisory Board on Teacher Education and Licensure Recommendations for Guidelines for Mentor Teacher Programs for Beginning and Experience Teachers"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 131,
@@ -16638,16 +17390,42 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "quote": "- Okay, public comment. We have two people who have signed up and of course we'll open the floor after this. Carolyn Murphy, please come on up. …"
    },
    {
+    "seconds": 1220,
+    "label": "Final Review of Proposed Revisions to the Guidelines for Locally Awarded Verified Credits Contained in the Guidance Document Governing … (discussion near here)",
+    "item": "D",
+    "quote": "this sure thank you uh amy akers good morning good morning um i'm amy akers i serve on the board of the virginia ascd and i'm here today to speak briefly on two agenda items both related to …"
+   },
+   {
     "seconds": 1440,
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
     "seconds": 1670,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "label": "First Review of Approved Training Programs for the Treatment of Students with a Seizure Disorder. (discussion near here)",
+    "item": "E",
+    "quote": "okay oh we need to vote on this is there a motion then to uh do what we've been asked to do which is approve this as drafted so moved thank you dr duran is there a second second uh-oh that was …"
+   },
+   {
+    "seconds": 1824,
+    "label": "First Review of Proposed Fast-Track Action for the Regulations Governing Special Education Programs for Children with Disabilities in … (discussion near here)",
+    "item": "F",
+    "quote": "If you remember, we brought that to you in January and April, respectively. And so this package contains edits and updates to the regulations governing special education programs for children with …"
+   },
+   {
+    "seconds": 1990,
+    "label": "First Review of Proposed Fast-Track Action for the Regulations Governing the Operation of Private Schools for Students with Disabilities (discussion near here)",
+    "item": "G",
+    "quote": "perhaps for a re-evaluation evaluation and assessments are performed in order to gather the most recent data and at times if a parent disagrees with an evaluation that is conducted by the school they …"
    },
    {
     "seconds": 2905,
     "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 3728,
+    "label": "First Review of Recommendations for School Division of Innovation (SDI) Designation (discussion near here)",
+    "item": "H",
+    "quote": "All in favor, signify by saying aye. Aye. Any opposed? Thank you, Dr. Hollins. My pleasure. Do you want to do item H also? No, sir. …"
    },
    {
     "seconds": 7549,
@@ -16705,13 +17483,141 @@ export const VBOE_RECAPS: VboeRecap[] = [
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-07-22-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026.",
+   "links": [
+    {
+     "label": "Minutes, Jul 22, 2021 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32748\\Minutes_DOE_32748_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=32748"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Wilson made a motion to approved the minutes of June 17, 2021, meeting of the Board. The motion was seconded by Dr. Davis-Vaught and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32748\\Minutes_DOE_32748_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Durán made a motion to approve the Consent Agenda as presented. The motion was seconded by Dr. Wilson and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32748\\Minutes_DOE_32748_v1.pdf"
+    }
+   },
+   {
+    "item": "Item E",
+    "action": "Final Review for Consent to the Establishment of a Joint-operated School – Region VII Virtual Academy: Dr. Wilson made a motion to approve the joint-operated Region VII Virtual Academy. The motion was seconded by Dr. Durán, Dr. Davis-Vaught recused from the vote and the motion carried.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32748\\Minutes_DOE_32748_v1.pdf"
+    }
+   },
+   {
+    "item": "Item F",
+    "action": "Final Review of Revisions to Model Guidance for Positive and Preventative Code of Student Conduct Policy and Alternatives to Suspension Volume 92 Page 89: Dr. Durán made a motion to approve the revisions to the Model Guidance for Positive and Preventative Code of Student Conduct Policy and Alternatives to Suspension with the change requested by Ms. Holton. The motion was seconded by Dr. Mann and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32748\\Minutes_DOE_32748_v1.pdf"
+    }
+   },
+   {
+    "item": "Item G",
+    "action": "Final Review of Revised Regulations for Licensed Child Day Centers Transferring from the Board of Social Services to the Board of Education: Dr. Wilson made a motion to approve the revised Regulations for Licensed Child Day Centers transferring from the Board of Social Services to the Board of Education. The motion was seconded by Dr. Anderson and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32748\\Minutes_DOE_32748_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review to Certify a List of Qualified Persons for the Office of Division Superintendent of Schools"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Financial Report on Literary Fund and Updates to the First Priority Waiting List"
+     },
+     {
+      "num": "C",
+      "title": "Final Review of Proposed Changes to Certain Accreditation Indicators in Response to the COVID-19 Pandemic and Legislative Action in the 2021 General Assembly"
+     },
+     {
+      "num": "D",
+      "title": "Final Review of Fast-Track Regulatory Action to Amend the Licensure Regulations for School Personnel and Regulations Governing the Review and Approval of Education Programs in Virginia (8VAC20-23 and 8VAC20-543) to Comport with Legislation from the 2021 Session of the General Assembly"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "E",
+      "title": "Final Review for Consent to the Establishment of a Joint-operated School – Region VII Virtual Academy"
+     },
+     {
+      "num": "F",
+      "title": "Final Review of Revisions to Model Guidance for Positive and Preventative Code of Student Conduct Policy and Alternatives to Suspension Volume 92 Page 89"
+     },
+     {
+      "num": "G",
+      "title": "Final Review of Revised Regulations for Licensed Child Day Centers Transferring from the Board of Social Services to the Board of Education"
+     },
+     {
+      "num": "H",
+      "title": "First Review of the Advisory Board on Teacher Education and Licensure Recommendations for Guidelines for Mentor Teacher Programs for Beginning and Experience Teachers"
+     },
+     {
+      "num": "I",
+      "title": "First Review of Proposed Revisions to the Guidelines for Locally Awarded Verified Credits to Allow for the Use of Performance Assessments to Verify Credits in History/ Social Science"
+     }
+    ]
+   },
+   {
+    "heading": "Presentations",
+    "items": [
+     {
+      "num": "J",
+      "title": "Blueprint Virginia 2023 – Briefing from Mr. Barry DuVal, President and CEO, Virginia Chamber of Commerce Barry DuVal, President and CEO of the Virginia Chamber of Commerce and Dr. Dietra Trent, Co-Chair of the Workforce and Education Blueprint Executive Committee presented the Board"
+     }
+    ]
+   },
+   {
+    "heading": "Written Reports",
+    "items": [
+     {
+      "num": "K",
+      "title": "Lifting of the Declared State of Emergency and Impact on State-level Waivers and Relief Measures"
+     },
+     {
+      "num": "L",
+      "title": "Report on African American History Education"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 361,
@@ -16727,36 +17633,50 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
+    "seconds": 1487,
+    "label": "Final Review of Revisions to Model Guidance for Positive and Preventative Code of Student Conduct Policy and Alternatives to Suspension … (discussion near here)",
+    "item": "F",
+    "quote": "meaningful public or professional input on the policy changes it enacted. And then our next reader jenny agamo isn't here she was unable to make it in time can i submit her comments do you want me to …"
+   },
+   {
+    "seconds": 1633,
+    "label": "Final Review of Fast-Track Regulatory Action to Amend the Licensure Regulations for School Personnel and Regulations Governing the Review … (discussion near here)",
+    "item": "D",
+    "quote": "Next, this is how we believe the RPS School Board has failed to prioritize attention to reopening. The decision to mandate that RPS administration create as quickly as possible a new construction …"
+   },
+   {
     "seconds": 2639,
+    "label": "Final Review for Consent to the Establishment of a Joint-operated School – Region VII Virtual Academy (discussion near here)",
+    "item": "E",
+    "quote": "consent agenda, items A through D. Is there anybody who wants to pull any item from the consent agenda or is there a motion to approve the agenda as drafted? Motion to approve the agenda as drafted. …"
+   },
+   {
+    "seconds": 2815,
+    "label": "Final Review of Revised Regulations for Licensed Child Day Centers Transferring from the Board of Social Services to the Board of Education (discussion near here)",
+    "item": "G",
+    "quote": "guidance for positive and preventative code of student conduct policy and alternatives to suspension or perhaps not all right we'll move on to item g final review of revised regulation for licensed …"
+   },
+   {
+    "seconds": 3033,
+    "label": "Final Review of Proposed Changes to Certain Accreditation Indicators in Response to the COVID-19 Pandemic and Legislative Action in the … (discussion near here)",
+    "item": "C",
+    "quote": "Good morning again. Good morning. Item I outlines proposed revisions to the standards of accreditation guidance, the standards of accreditation or SOA guidance document pertaining to awarding locally …"
+   },
+   {
+    "seconds": 4094,
+    "label": "Report on African American History Education (discussion near here)",
+    "item": "L",
+    "quote": "First, thank you for your wonderful work. In addition to what we've been talking about, the work to incorporate the, I've read your report on African-American history education and the work you've …"
+   },
+   {
+    "seconds": 4714,
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
-    "seconds": 2778,
-    "label": "Motion and vote. See the official minutes for the recorded result."
-   },
-   {
-    "seconds": 2981,
-    "label": "Motion and vote. See the official minutes for the recorded result."
-   },
-   {
-    "seconds": 6125,
-    "label": "Presentation or new topic begins",
-    "quote": "This is the Blueprint we're updating. And Dr. Trent chairs -- or co-chairs, I should say -- of the Workforce and Education Industry Council. And I want to thank her for being here with me today. …"
-   },
-   {
-    "seconds": 6792,
-    "label": "Presentation or new topic begins",
-    "quote": "and the next slide um obviously you know dr trend i do want to turn the program over to her for purposes of making this presentation acknowledge jennifer baird executive with altria who's her …"
-   },
-   {
-    "seconds": 7309,
-    "label": "Presentation or new topic begins",
-    "quote": "other related topics that Dr. Trent and I can respond to. Again, thank you for the, you know, very complete presentation about what you're doing uh you know the board clearly has some you know …"
-   },
-   {
-    "seconds": 8983,
-    "label": "Presentation or new topic begins",
-    "quote": "conference, one of the conferences that we were holding on education. He currently is president of Huntington Ingalls with Jones Newport Shipbuilding. They have 45,000 employees. …"
+    "seconds": 6379,
+    "label": "First Review of the Advisory Board on Teacher Education and Licensure Recommendations for Guidelines for Mentor Teacher Programs for … (discussion near here)",
+    "item": "H",
+    "quote": "of employment compared to the population at whole. So as we put the blueprint together, we're our advisory board and our steering committee is looking through multiple lenses. …"
    },
    {
     "seconds": 11579,
@@ -16769,21 +17689,58 @@ export const VBOE_RECAPS: VboeRecap[] = [
   "slug": "2021-07-21-work-session",
   "meetingId": "vboe-wtJ44RMB7IA",
   "date": "2021-07-21",
-  "title": "Work Session",
+  "title": "Executive Session (Closed Meeting)",
   "dateLabel": "Jul 21, 2021",
-  "whenWhere": "Virginia Board of Education · Work Session · video 18m · VDOE YouTube",
+  "whenWhere": "Virginia Board of Education · Executive Session (Closed Meeting) · video 18m · VDOE YouTube",
   "transcriptDownloads": {
    "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-07-21-work-session.pdf",
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-07-21-work-session.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026. This video is the Board's July 21, 2021 executive session (closed meeting on teacher-license cases); the votes shown are the open-session motions recorded for that day.",
+   "links": [
+    {
+     "label": "Minutes, Jul 21, 2021 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32748\\Minutes_DOE_32748_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=32748"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Executive Session",
+    "action": "Dr. Wilson made a motion that the Board reconvened in open session at 11:15a.m.",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32748\\Minutes_DOE_32748_v1.pdf"
+    }
+   },
+   {
+    "item": "Closed session",
+    "action": "3 motions on individual teacher-license cases heard in closed session. Individuals are not named here; the minutes record each case and result.",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32748\\Minutes_DOE_32748_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Work session",
+    "dek": "Presentations to the Board. The minutes list no lettered agenda items; materials are posted with VDOE's meeting agendas.",
+    "items": []
+   }
+  ],
   "moments": [
    {
     "seconds": 263,
@@ -16855,17 +17812,191 @@ export const VBOE_RECAPS: VboeRecap[] = [
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2021-06-17-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026.",
+   "links": [
+    {
+     "label": "Minutes, Jun 17, 2021 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32612\\Minutes_DOE_32612_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=32612"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Motion",
+    "action": "Mr. Gecker noted that Item I would be moved to July meeting agenda at the request of VDOE staff. The Board received welcoming remarks from The Honorable Atif Qarni, Virginia’s Secretary of Education.",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32612\\Minutes_DOE_32612_v1.pdf"
+    }
+   },
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Mann made a motion to approve the minutes from the April 21 - 22, 2021, meetings of the Board. The motion was seconded by Dr. Wilson and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32612\\Minutes_DOE_32612_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Wilson made a motion to accept all items listed on the consent agenda as presented. The motion was seconded by Dr. Davis-Vaught and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32612\\Minutes_DOE_32612_v1.pdf"
+    }
+   },
+   {
+    "item": "Item E",
+    "action": "Final Review of Guidelines for Practice Year 1 of the Early Childhood Unified Measurement and Improvement System: Dr. Mann made a motion to approve the Guidelines for Practice Year 1 of the Early Childhood Unified Measurement and Improvement System. The motion was seconded by Dr. Davis-Vaught and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32612\\Minutes_DOE_32612_v1.pdf"
+    }
+   },
+   {
+    "item": "Item F",
+    "action": "First Review of a Notice of Intended Regulatory Action (NOIRA) of Proposed Amendments to the Regulations Establishing the Standards for Accrediting Public Schools in Virginia (8 VAC 20-131) to Include Standards for the Accreditation of Full-Time Virtual Education: Dr. Wilson made a motion to waive first review and approve the NOIRA for promulgating regulations for virtual education as presented. The motion was seconded by Dr. Mann and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32612\\Minutes_DOE_32612_v1.pdf"
+    }
+   },
+   {
+    "item": "Item G",
+    "action": "First Review of a Notice of Intended Regulatory Action (NOIRA) to Amend the Licensure Regulations for School Personnel (8 VAC20-23) to Include Instruction in Cultural Competency for Initial Licensure and Renewal of a License: Dr. Roberson made a motion to waive first review and approve the NOIRA to begin the process to amend the Licensure Regulations for School Personnel to include instruction in cultural Volume 92 Page 76 competency for initial licensure and renewal of a license. The motion was seconded by Dr. Pexton and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32612\\Minutes_DOE_32612_v1.pdf"
+    }
+   },
+   {
+    "item": "Item J",
+    "action": "First Review of Proposed Guidelines for Local Alternative Assessments: 2021-2022 and Beyond: Ms. Holton made a motion to waive first review and approve the proposed Guidelines for Local Alternative Assessments: 2021-2022 and Beyond. The motion was seconded by Dr. Wilson, requesting to receive an update on the comments received on this item during the 30-day public comment window on Town Hall at the appropriate time. All members were in favor the motion carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32612\\Minutes_DOE_32612_v1.pdf"
+    }
+   },
+   {
+    "item": "Closed session",
+    "action": "Ms. Holton made a motion that the Board reconvened in open session at 3:02 p.m. and that to the best of each member’s knowledge (i) only public business matters lawfully exempt from open meeting requirements under this chapter and (ii) only such public business matters as were identified in the motion by which the closed meeting was convened were heard, discussed or considered. Any member who believes there was a departure from these requirements shall so state prior to the vote, indicating the substance of the departure that, in his or her judgement, has taken place. …",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32612\\Minutes_DOE_32612_v1.pdf"
+    }
+   },
+   {
+    "item": "Closed session",
+    "action": "3 motions on individual teacher-license cases heard in closed session. Individuals are not named here; the minutes record each case and result.",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\32612\\Minutes_DOE_32612_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review to Certify a List of Qualified Persons for the Office of Division Superintendent of Schools"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of the Proposed Curriculum Guidelines for Instruction on the Safe Use of and Risks of Abuse of Prescription Drugs"
+     },
+     {
+      "num": "C",
+      "title": "Final Review of Nominations to Fill Vacancies on Board of Education Advisory Committees"
+     },
+     {
+      "num": "D",
+      "title": "Final Review of the Implementation Timeline for the Guidelines for Uniform Performance Standards and Evaluation Criteria for Teachers"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "E",
+      "title": "Final Review of Guidelines for Practice Year 1 of the Early Childhood Unified Measurement and Improvement System"
+     },
+     {
+      "num": "F",
+      "title": "First Review of a Notice of Intended Regulatory Action (NOIRA) of Proposed Amendments to the Regulations Establishing the Standards for Accrediting Public Schools in Virginia (8 VAC 20-131) to Include Standards for the Accreditation of Full-Time Virtual Education"
+     },
+     {
+      "num": "G",
+      "title": "First Review of a Notice of Intended Regulatory Action (NOIRA) to Amend the Licensure Regulations for School Personnel (8 VAC20-23) to Include Instruction in Cultural Competency for Initial Licensure and Renewal of a License"
+     },
+     {
+      "num": "H",
+      "title": "First Review of Fast-Track Regulatory Action to Amend the Licensure Regulations for School Personnel and Regulations Governing the Review and Approval of Education Programs in Virginia (8VAC20-23 and 8VAC20-543) to Comport with Legislation from the 2021 Session of the General Assembly"
+     },
+     {
+      "num": "I",
+      "title": "First Review of Proposed Guidelines for Using State-Developed Performance Tasks to Verify Credit in History and Social Science"
+     },
+     {
+      "num": "J",
+      "title": "First Review of Proposed Guidelines for Local Alternative Assessments: 2021-2022 and Beyond"
+     },
+     {
+      "num": "K",
+      "title": "First Review of Proposed Changes to Certain Accreditation Indicators Shelley Loving-Ryder, assistant superintendent, department of student assessment, accountability, and ESEA Programs, presented this item to the Board on first review. In March 2020, the Superintendent of Public Instruction exercised emergency authority granted"
+     },
+     {
+      "num": "L",
+      "title": "First Review of Revisions to the Model Guidance for Positive Behavior and Preventative Code of Student Conduct Policy and Alternatives to Suspension"
+     }
+    ]
+   },
+   {
+    "heading": "Presentations",
+    "items": [
+     {
+      "num": "M",
+      "title": "State Special Education Advisory Committee (SSEAC) Annual Report"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 689,
     "label": "Video begins"
+   },
+   {
+    "seconds": 1728,
+    "label": "First Review of Proposed Changes to Certain Accreditation Indicators Shelley Loving-Ryder, assistant superintendent, department of student … (discussion near here)",
+    "item": "K",
+    "quote": "service along an upward and inspiring path that included numerous position changes promotions and titles before being selected as assistant superintendent of teacher education and licensure in 2007. …"
+   },
+   {
+    "seconds": 1838,
+    "label": "First Review of a Notice of Intended Regulatory Action (NOIRA) to Amend the Licensure Regulations for School Personnel (8 VAC20-23) to … (discussion near here)",
+    "item": "G",
+    "quote": "qualified teachers administrators and other license holders to ensure safe learning environments for students throughout the commonwealth patty has contributed has contributed countless hours and …"
    },
    {
     "seconds": 2408,
@@ -16873,8 +18004,32 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "quote": "I said, you must have started very young. Yes, you did. And that kind of constancy of service, we just don't see a lot, that kind of commitment and work ethic and devotion. …"
    },
    {
+    "seconds": 2507,
+    "label": "Final Review of Guidelines for Practice Year 1 of the Early Childhood Unified Measurement and Improvement System (discussion near here)",
+    "item": "E",
+    "quote": "Any discussion? Seeing none, all in favor signify by saying hi. - Aye. - Any opposed? Okay, we will move on and thank you. Move on to the action and discussion items. …"
+   },
+   {
+    "seconds": 3543,
+    "label": "First Review of Proposed Guidelines for Local Alternative Assessments: 2021-2022 and Beyond (discussion near here)",
+    "item": "J",
+    "quote": "provide some resources to our communities so they can use things to to provide stipends to those folks who are going above and beyond the the call of duty so a lot happening um this summer into the …"
+   },
+   {
+    "seconds": 4607,
+    "label": "First Review of a Notice of Intended Regulatory Action (NOIRA) of Proposed Amendments to the Regulations Establishing the Standards for … (discussion near here)",
+    "item": "F",
+    "quote": "Okay, item F, first review of the notice of intended regulatory action of proposed amendments to the regulations establishing the standards for accrediting public schools in Virginia to include …"
+   },
+   {
     "seconds": 4949,
     "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 5155,
+    "label": "Final Review of the Implementation Timeline for the Guidelines for Uniform Performance Standards and Evaluation Criteria for Teachers (discussion near here)",
+    "item": "D",
+    "quote": "result of those conversations on this next slide you'll see a summary chart with the mechanisms for implementation for each of these four requirements so the first there relates to the guidelines for …"
    },
    {
     "seconds": 5586,
@@ -16882,29 +18037,14 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "quote": "we'll be bringing that forward in the fall for you so that we can meet that december 2021 deadline as required by code all right so i think with that i'm happy to answer any questions that you might …"
    },
    {
+    "seconds": 5869,
+    "label": "First Review of Revisions to the Model Guidance for Positive Behavior and Preventative Code of Student Conduct Policy and Alternatives to … (discussion near here)",
+    "item": "L",
+    "quote": "language to make sure all graduates one graduate with those skills and differentiated instruction for special education students and that administrators also have instruction and kind of tailored …"
+   },
+   {
     "seconds": 6558,
     "label": "Recess or reconvene"
-   },
-   {
-    "seconds": 8113,
-    "label": "Motion and vote. See the official minutes for the recorded result."
-   },
-   {
-    "seconds": 10105,
-    "label": "Presentation or new topic begins",
-    "quote": "this is really about just quickly moving into place some of the legislative requirements let's say that's not what this does and so maybe that's something we could debate for later but let's let's …"
-   },
-   {
-    "seconds": 10575,
-    "label": "Motion and vote. See the official minutes for the recorded result."
-   },
-   {
-    "seconds": 11141,
-    "label": "Recess or reconvene"
-   },
-   {
-    "seconds": 12060,
-    "label": "Motion and vote. See the official minutes for the recorded result."
    }
   ],
   "context": []
@@ -17402,13 +18542,184 @@ export const VBOE_RECAPS: VboeRecap[] = [
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-11-19-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the DRAFT minutes (posted for Board approval) posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026.",
+   "links": [
+    {
+     "label": "Minutes, Nov 19, 2020 (Town Hall PDF, DRAFT)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31628\\Minutes_DOE_31628_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=31628"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Mann made a motion to approve the meeting minutes of October 14, 2020 and October 15 with a correction on page 108 where it referenced her saying “teaching the course” when she meant teaching content in general. The motion was seconded by Dr. Durán and carried unanimously by Board roll call vote. Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Jamelle Wilson - aye Dr. Keisha Pexton - aye Mr. Gecker welcomed the Board members, staff and the public to the Board of Education virtual Volume 91 Page 117 meeting.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31628\\Minutes_DOE_31628_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Wilson made a motion to approve the consent agenda as presented. The motion was seconded by Dr. Pexton and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31628\\Minutes_DOE_31628_v1.pdf"
+    }
+   },
+   {
+    "item": "Item E",
+    "action": "Final Review of a Process to Certify a List of Qualified Persons for the Office of Division Superintendents of Schools: Dr. Mann made a motion to approve the process to Certify a List of Qualified Persons for the Office of Division Superintendents of Schools. The motion was seconded by Dr. Wilson and carried unanimously by Board roll call vote. Volume 91 Page 119 Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught – aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31628\\Minutes_DOE_31628_v1.pdf"
+    }
+   },
+   {
+    "item": "Item F",
+    "action": "Final Review of the Board of Education’s 2020 Annual Report on the Condition and Needs of Public Schools in Virginia: Dr. Wilson made a motion to approve the 2020 Annual Report with any technical edits needed from staff. The motion was seconded by Dr. Duran and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson – aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31628\\Minutes_DOE_31628_v1.pdf"
+    }
+   },
+   {
+    "item": "Item G",
+    "action": "Final Review of Revisions to the Emergency Guidelines for Locally Awarded Verified Credits Due to COVID-19: Dr. Mann made a motion to waive first review and approve the revised Emergency Guidelines for Locally Awarded Verified Credits. The motion was seconded by Ms. Davis-Vaught and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31628\\Minutes_DOE_31628_v1.pdf"
+    }
+   },
+   {
+    "item": "Item H",
+    "action": "Final Review of Recommended Cut Scores for the Grades 3-8 and End-of-Course Standards of Learning Reading Tests Based on the 2017 English Standards: Dr. Duran reiterated his motion to recommend an amendment in the cut scores to the articulation committee to have it align with the articulation committee. The motion was seconded by Ms. Davis-Vaught and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught – aye Volume 91 Page 126 Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31628\\Minutes_DOE_31628_v1.pdf"
+    }
+   },
+   {
+    "item": "Item J",
+    "action": "First Review of Emergency Guidelines for the Use of Local Performance Assessment to Verify Credits in Writing for 2020-2021: Dr. Durán made a motion to waive first review and approve the proposed guidelines. The motion was seconded by Dr. Mann and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught – aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31628\\Minutes_DOE_31628_v1.pdf"
+    }
+   },
+   {
+    "item": "Item K",
+    "action": "First Review of Emergency Guidelines for the Use of Local Alternative Assessments in Lieu of the Virginia Studies, Civics and Economics, and Grade 8 Writing Standards of Learning Tests for the 2020-2021 School Year: Dr. Durán made a motion to waive first review and approve the emergency guidelines. The motion was seconded by Dr. Mann and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught – aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31628\\Minutes_DOE_31628_v1.pdf"
+    }
+   },
+   {
+    "item": "Item O",
+    "action": "Written Report on the Statewide Annual Performance Report for Career and Technical Education and the Virginia Community College System as a Sub-recipient of Perkins Funds from the Department of Education for School Year 2018-2019 George R. Willcox, director, operations and accountability, Office of Career, Technical, and: Dr. Lane updated the Board that many school divisions have moved to more in-person learning in the month of October. A revised Operational Status is available on the VDOE website. However, there will likely be regression as the holidays approach and community spread is more likely. Ms. Davis-Vaught shared with Board members her trip throughout Southwest Virginia, visiting various schools with Dr. Lane and Dr. Myers. She stated that they observed students during in- person classes and practiced safe social distancing.",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31628\\Minutes_DOE_31628_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review of Nomination to Fill a Vacancy on the State Special Education Advisory Committee"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Amendments to the Licensure Regulations for School Personnel, Procedural Guidelines for Conducting Licensure Hearings, and the Regulations Governing the Review and Approval of Education Programs in Virginia to Comport with Legislation from the General Assembly"
+     },
+     {
+      "num": "C",
+      "title": "Final Review of Technical Updates to the Board of Education Approved Courses to Satisfy Graduation Requirements for the Standard, Advanced Studies, and Modified Standard Diplomas in Virginia Public Schools"
+     },
+     {
+      "num": "D",
+      "title": "Final Review of Revisions to the Work-Based Learning Guide as required by House Bill 1680 (2020 General Assembly)"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "E",
+      "title": "Final Review of a Process to Certify a List of Qualified Persons for the Office of Division Superintendents of Schools"
+     },
+     {
+      "num": "F",
+      "title": "Final Review of the Board of Education’s 2020 Annual Report on the Condition and Needs of Public Schools in Virginia"
+     },
+     {
+      "num": "G",
+      "title": "Final Review of Revisions to the Emergency Guidelines for Locally Awarded Verified Credits Due to COVID-19"
+     },
+     {
+      "num": "H",
+      "title": "Final Review of Recommended Cut Scores for the Grades 3-8 and End-of-Course Standards of Learning Reading Tests Based on the 2017 English Standards"
+     },
+     {
+      "num": "I",
+      "title": "First Review of the Proposed Consolidation of the City of Covington and Alleghany County School Divisions"
+     },
+     {
+      "num": "J",
+      "title": "First Review of Emergency Guidelines for the Use of Local Performance Assessment to Verify Credits in Writing for 2020-2021"
+     },
+     {
+      "num": "K",
+      "title": "First Review of Emergency Guidelines for the Use of Local Alternative Assessments in Lieu of the Virginia Studies, Civics and Economics, and Grade 8 Writing Standards of Learning Tests for the 2020-2021 School Year"
+     },
+     {
+      "num": "L",
+      "title": "First Review of Revised Foundation Blocks for Learning"
+     },
+     {
+      "num": "M",
+      "title": "First Review of Proposed Revisions to the World Language Standards of Learning"
+     }
+    ]
+   },
+   {
+    "heading": "Written Reports",
+    "items": [
+     {
+      "num": "N",
+      "title": "Written Report on State-level Waivers and Relief Measures"
+     },
+     {
+      "num": "O",
+      "title": "Written Report on the Statewide Annual Performance Report for Career and Technical Education and the Virginia Community College System as a Sub-recipient of Perkins Funds from the Department of Education for School Year 2018-2019 George R. Willcox, director, operations and accountability, Office of Career, Technical, and"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 0,
@@ -17424,21 +18735,58 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
-    "seconds": 3641,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "seconds": 1755,
+    "label": "Final Review of Technical Updates to the Board of Education Approved Courses to Satisfy Graduation Requirements for the Standard, Advanced … (discussion near here)",
+    "item": "C",
+    "quote": "this report is required by section 22.1-18 of the Code of Virginia. This section outlines the requirements of the report, including the current standards of quality, information on student and parent …"
    },
    {
-    "seconds": 5776,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "seconds": 2214,
+    "label": "Final Review of Revisions to the Emergency Guidelines for Locally Awarded Verified Credits Due to COVID-19 (discussion near here)",
+    "item": "G",
+    "quote": "director thank you dr wilson second dr duran uh again by roll call dr mann hi miss holton Aye. Dr. Wilson. Aye. Ms. Davis-Vaugh. Aye. Dr. Duran. Aye. Dr. Pexton. Aye. And I, of course, vote aye. …"
    },
    {
-    "seconds": 6169,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "seconds": 3668,
+    "label": "Final Review of Recommended Cut Scores for the Grades 3-8 and End-of-Course Standards of Learning Reading Tests Based on the 2017 English … (discussion near here)",
+    "item": "H",
+    "quote": "Dr. Pexton? Aye. And I vote aye. Thank you all very much. Thank you. Okay, item H, final review of recommended cut scores for the grades three to eight and end of course standards of learning reading …"
    },
    {
-    "seconds": 12648,
-    "label": "Presentation or new topic begins",
-    "quote": "it's it's almost a complete rewrite and you know without uh over exaggerating i will say that this is probably our first foray into what competency-based standards can look like and uh just really …"
+    "seconds": 6397,
+    "label": "First Review of the Proposed Consolidation of the City of Covington and Alleghany County School Divisions (discussion near here)",
+    "item": "I",
+    "quote": "Gecker and another good morning to President Gecker Vice President Wilson Dr. Lane and members of the board i am very pleased to present to you and i guess i should say rather set the stage for you …"
+   },
+   {
+    "seconds": 7014,
+    "label": "Written Report on the Statewide Annual Performance Report for Career and Technical Education and the Virginia Community College System as a … (discussion near here)",
+    "item": "O",
+    "quote": "We believe the consolidation of Allegheny County and Covington City Public Schools will be in the interests of the students by providing additional course offerings, electives and activities. As Mr. …"
+   },
+   {
+    "seconds": 7119,
+    "label": "Final Review of Amendments to the Licensure Regulations for School Personnel, Procedural Guidelines for Conducting Licensure Hearings, and … (discussion near here)",
+    "item": "B",
+    "quote": "The funding from the General Assembly has been instrumental in getting us to where we are today. Next slide, please. Mr. Pete Grass. …"
+   },
+   {
+    "seconds": 9853,
+    "label": "First Review of Revised Foundation Blocks for Learning (discussion near here)",
+    "item": "L",
+    "quote": "Thank you, Ms. Loving Ryder, and thanks to the staff. I would say you guys are just like articulation committee just right thank you very much we appreciate it all right item l first review of …"
+   },
+   {
+    "seconds": 12633,
+    "label": "First Review of Proposed Revisions to the World Language Standards of Learning (discussion near here)",
+    "item": "M",
+    "quote": "But on the item M, I wanted to say that you see a lot of work that comes from the department. But I just wanted to also tell you how impressed I am with the New World Language Standards of Learning."
+   },
+   {
+    "seconds": 12725,
+    "label": "Final Review of Nomination to Fill a Vacancy on the State Special Education Advisory Committee (discussion near here)",
+    "item": "A",
+    "quote": "Most importantly, I'd like to acknowledge the hard work, the concerted efforts and valuable contributions of the teachers and curriculum specialists who served on the steering committee and the …"
    }
   ],
   "context": []
@@ -17500,13 +18848,184 @@ export const VBOE_RECAPS: VboeRecap[] = [
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-10-15-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026.",
+   "links": [
+    {
+     "label": "Minutes, Oct 15, 2020 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31503\\Minutes_DOE_31503_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=31503"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Ms. Davis-Vaught made a motion to approve the meeting minutes of September 16, 2020 and September 17, 2020. The motion was seconded by Dr. Mann and carried unanimously by Board roll call. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Jamelle Wilson – aye Dr. Keisha Pexton was absent from the meeting.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31503\\Minutes_DOE_31503_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Durán made a motion to approved items A-F on the consent agenda. The motion was seconded by Dr. Wilson and carried unanimously by Board roll call vote.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31503\\Minutes_DOE_31503_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Ms. Davis-Vaught made a motion to approve Item-G with the exception of George Mason University and University of Richmond. The motion was seconded by Dr. Mann and carried by Board roll call vote.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31503\\Minutes_DOE_31503_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Wilson made a motion to approve Item-G with the exception of George Mason University. The motion was seconded by Ms. Davis-Vaught and carried by Board roll call vote.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31503\\Minutes_DOE_31503_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Durán made a motion to approve Item-G with the exception of University of Richmond. The motion was seconded by Ms. Davis-Vaught and carried by Board roll call vote. Board Roll Call: Mr. Daniel Gecker – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Jamelle Wilson – recuse",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31503\\Minutes_DOE_31503_v1.pdf"
+    }
+   },
+   {
+    "item": "Item H",
+    "action": "Final Review of the Proposed Recommendations by the Governor’s Commission on African American History Education in Virginia: Dr. Wilson made a motion to approve Attachment A. The motion was seconded by Dr. Durán and carried unanimously by Board roll call vote.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31503\\Minutes_DOE_31503_v1.pdf"
+    }
+   },
+   {
+    "item": "Item H",
+    "action": "Final Review of the Proposed Recommendations by the Governor’s Commission on African American History Education in Virginia: Dr. Durán made a motion to approve Attachment D; the addition of a sub-Standard for VUS.8. Volume 91 Page 109 The motion was seconded by Ms. Davis-Vaught and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton – aye Dr. Tammy Mann - aye Dr. Jamelle Wilson – aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31503\\Minutes_DOE_31503_v1.pdf"
+    }
+   },
+   {
+    "item": "Item J",
+    "action": "Final Review of Proposed Revisions to the Regulations Governing Educational Services for Gifted Students (Proposed Stage): Dr. Mann made a motion to approve the revisions to the Regulations Governing Educational Services for Gifted Students. The motion was seconded by Dr. Duran and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton – aye Dr. Tammy Mann - aye Dr. Jamelle Wilson – aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31503\\Minutes_DOE_31503_v1.pdf"
+    }
+   },
+   {
+    "item": "Item K",
+    "action": "Final Review of Addition to the State Approved Textbooks for K-12 Science to Virginia’s Consolidated State Plan under the Every Student Succeeds Act of 2015 (ESSA) – Amendment 4: Ms. Holton made a motion to approve the textbooks for K-12 science. The motion was seconded by Dr. Wilson and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton – aye Dr. Tammy Mann - aye Dr. Jamelle Wilson – aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31503\\Minutes_DOE_31503_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Resolution of Recognition to Commemorate November 2020 as Family Engagement In Education Month"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Financial Report on Literary Fund"
+     },
+     {
+      "num": "C",
+      "title": "Final Review of an Amendment to Virginia’s Consolidated State Plan under the Every Student Succeeds Act of 2015 (ESSA) – Amendment 4"
+     },
+     {
+      "num": "D",
+      "title": "Final Review of the Proposed 2020 Computer Technology Standards of Learning"
+     },
+     {
+      "num": "E",
+      "title": "Final Review of the Guidance and Model Policy for the Notification of Protective Orders in Public Elementary and Secondary Schools"
+     },
+     {
+      "num": "F",
+      "title": "Final Review of the Notice of Intended Regulatory Action to Revise the Regulations Establishing Standards for Accrediting Public Schools in Virginia"
+     },
+     {
+      "num": "G",
+      "title": "Final Review of the Advisory Board on Teacher Education and Licensure's Recommendation to Approve New Education (Endorsement) Programs"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "H",
+      "title": "Final Review of the Proposed Recommendations by the Governor’s Commission on African American History Education in Virginia"
+     },
+     {
+      "num": "I",
+      "title": "Final Review of a Process to Certify a List of Qualified Persons for the Office of Division Superintendents of Schools"
+     },
+     {
+      "num": "J",
+      "title": "Final Review of Proposed Revisions to the Regulations Governing Educational Services for Gifted Students (Proposed Stage)"
+     },
+     {
+      "num": "K",
+      "title": "Final Review of Addition to the State Approved Textbooks for K-12 Science to Virginia’s Consolidated State Plan under the Every Student Succeeds Act of 2015 (ESSA) – Amendment 4"
+     },
+     {
+      "num": "L",
+      "title": "First Review of Amendments to the Licensure Regulations for School Personnel, Procedural Guidelines for Conducting Licensure Hearings, and the Regulations Governing the Review and Approval of Education Programs in Virginia to Comport with Legislation from the General Assembly"
+     },
+     {
+      "num": "M",
+      "title": "First Review of the Board of Education’s Annual Report on the Condition and Needs of Public Schools in Virginia"
+     }
+    ]
+   },
+   {
+    "heading": "Written Reports",
+    "items": [
+     {
+      "num": "N",
+      "title": "Interim Update on a New Process for the Approval of Textbooks and High Quality Instructional Materials"
+     },
+     {
+      "num": "O",
+      "title": "Update on Early Childhood Education in Virginia"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 535,
@@ -17514,29 +19033,64 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "quote": "we are all here i'm going to go ahead and stop my share screen so we can see everyone's video wow um and i we're all set turn it over to you good thanks uh then we'll call the meeting of the the …"
    },
    {
+    "seconds": 638,
+    "label": "Resolution of Recognition to Commemorate November 2020 as Family Engagement In Education Month (discussion near here)",
+    "item": "A",
+    "quote": "the board is by email at B, that's as in boy or board, OE at DOE, as in department of education since we are meeting virtually we will do a roll call vote for each item please be sure to speak …"
+   },
+   {
     "seconds": 766,
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
     "seconds": 873,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "label": "Final Review of the Advisory Board on Teacher Education and Licensure's Recommendation to Approve New Education (Endorsement) Programs (discussion near here)",
+    "item": "G",
+    "quote": "Great. Okay. Roll call on this. Ms. Houlton. Aye. Ms. Davis-Vaught. Aye. Dr. Duran. Aye. Dr. Wilson. Aye. Dr. Mann. Aye. And I vote aye. Okay. …"
+   },
+   {
+    "seconds": 966,
+    "label": "Final Review of the Proposed Recommendations by the Governor’s Commission on African American History Education in Virginia (discussion near here)",
+    "item": "H",
+    "quote": "commission on African-American history education in Virginia. Ms. Brown. Good morning. Good morning. how are you mr gecker dr wilson dr lane members of the board thank you so much for taking the time …"
+   },
+   {
+    "seconds": 1519,
+    "label": "Interim Update on a New Process for the Approval of Textbooks and High Quality Instructional Materials (discussion near here)",
+    "item": "N",
+    "quote": "timeline for the upcoming review and revision process, but it also includes the communications and the implementation of the subcommittee's recommendations for edits. …"
    },
    {
     "seconds": 4838,
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
-    "seconds": 6535,
+    "seconds": 4928,
+    "label": "Final Review of a Process to Certify a List of Qualified Persons for the Office of Division Superintendents of Schools (discussion near here)",
+    "item": "I",
+    "quote": "next phase and and Leah and everyone in the Commission members I'm sorry I just had to thank you yes yay thank you all right have a great afternoon Cristania let me celebrate you then once from the …"
+   },
+   {
+    "seconds": 6569,
+    "label": "Final Review of Proposed Revisions to the Regulations Governing Educational Services for Gifted Students (Proposed Stage) (discussion near here)",
+    "item": "J",
+    "quote": "board folks and see if there's a a process that they would prefer that still does not you know that meets the constitutional test here be glad to work thank you okay thank you all right item j uh …"
+   },
+   {
+    "seconds": 6661,
+    "label": "Final Review of Addition to the State Approved Textbooks for K-12 Science to Virginia’s Consolidated State Plan under the Every Student … (discussion near here)",
+    "item": "K",
+    "quote": "goals of their academic year governor school if a participating member. These changes were included in red and with double underlining on page 11 of the board item. …"
+   },
+   {
+    "seconds": 6950,
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
-    "seconds": 7371,
-    "label": "Recess or reconvene"
-   },
-   {
-    "seconds": 8485,
-    "label": "Presentation or new topic begins",
-    "quote": "We can deliver this training and the colleges and universities have already started to use it. So unless there are any specific questions about those revisions, I would like to turn it over to Nancy …"
+    "seconds": 8091,
+    "label": "First Review of Amendments to the Licensure Regulations for School Personnel, Procedural Guidelines for Conducting Licensure Hearings, and … (discussion near here)",
+    "item": "L",
+    "quote": "okay all right then i guess we can get started again we'll move on to item l the first review of amendments to licensure regulations for school personnel etc miss pitts and miss walsh good afternoon …"
    }
   ],
   "context": []
@@ -17603,13 +19157,145 @@ export const VBOE_RECAPS: VboeRecap[] = [
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-09-17-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026.",
+   "links": [
+    {
+     "label": "Minutes, Sep 17, 2020 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31347\\Minutes_DOE_31347_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=31347"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Durán made a motion to approve the meeting minutes of July 22 and July 23, 2020. The motion was seconded by Ms. Davis-Vaught and carried unanimously by Board roll call. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye Mr. Gecker welcomed the Board members, staff and the public to the Board of Education virtual meeting.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31347\\Minutes_DOE_31347_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Durán made a motion to approve the consent agenda as presented. The motion was seconded by Dr. Mann and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton – aye Dr. Jamelle Wilson – aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31347\\Minutes_DOE_31347_v1.pdf"
+    }
+   },
+   {
+    "item": "Item C",
+    "action": "Final Review of Resolution Prescribing the Standards of Quality for Public Schools in Virginia: Dr. Wilson made a motion to approve the Resolution Prescribing the Standards of Quality and directed staff to transmit to the Governor and General Assembly. The motion was seconded by Ms. Holton and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton – aye Dr. Tammy Mann - aye Dr. Keisha Pexton – aye Dr. Jamelle Wilson – aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31347\\Minutes_DOE_31347_v1.pdf"
+    }
+   },
+   {
+    "item": "Item D",
+    "action": "Final Review of Proposed State Approved Textbooks for K-12 Science: Ms. Holton made a motion to approve the textbooks list with one exception, the Virginia Elevated Six Grade textbook, and asked the department to reach out to publisher to offer an opportunity to update the images and bring this textbook back when and if revisions were completed to satisfaction. The motion was seconded by Dr. Durán and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Volume 91 Page 84 Ms. Anne Holton – aye Dr. Tammy Mann - aye Dr. Keisha Pexton – aye Dr. Jamelle Wilson – aye Ms. …",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31347\\Minutes_DOE_31347_v1.pdf"
+    }
+   },
+   {
+    "item": "Item J",
+    "action": "First Review of Recommendations for School Divisions of Innovation (SDI) Designation: Dr. Durán made a motion to waive first review and approve the list of school divisions to receive the SDI designation. The motion was seconded by Dr. Wilson and carried by Board roll call vote. Board Roll Call: Mr. Daniel Gecker – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton – aye Dr. Tammy Mann - aye Dr. Keisha Pexton – aye Dr. Jamelle Wilson – aye",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31347\\Minutes_DOE_31347_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review of Proposed Board of Education Meeting Dates for 2021."
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Nomination for Vacancy on the State Special Education Advisory Committee (SSEAC)"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "C",
+      "title": "Final Review of Resolution Prescribing the Standards of Quality for Public Schools in Virginia"
+     },
+     {
+      "num": "D",
+      "title": "Final Review of Proposed State Approved Textbooks for K-12 Science"
+     },
+     {
+      "num": "E",
+      "title": "Report from the Governor’s Commission on African American History Education in Virginia"
+     },
+     {
+      "num": "F",
+      "title": "First Review of the Recommendations for Technical Edits from the Governor’s Commission on African American History Education in Virginia"
+     },
+     {
+      "num": "G",
+      "title": "First Review of an Amendment to Virginia’s Consolidated State Plan under the Every Student Succeeds Act of 2015 (ESSA) – Amendment 4"
+     },
+     {
+      "num": "H",
+      "title": "First Review of a Process to Certify a List of Qualified Persons for the Office of Division Superintendents of Schools"
+     },
+     {
+      "num": "I",
+      "title": "First Review of Proposed Revisions to the Regulations Governing Educational Services for Gifted Students"
+     },
+     {
+      "num": "J",
+      "title": "First Review of Recommendations for School Divisions of Innovation (SDI) Designation"
+     }
+    ]
+   },
+   {
+    "heading": "Presentations",
+    "items": [
+     {
+      "num": "K",
+      "title": "State Special Education Advisory Committee (SSEAC) Annual Report Volume 91 Page 95"
+     }
+    ]
+   },
+   {
+    "heading": "Written Reports",
+    "items": [
+     {
+      "num": "L",
+      "title": "Written Report on Drive 2025, the Virginia Department of Education’s Strategic Plan"
+     },
+     {
+      "num": "M",
+      "title": "Update on Early Childhood Education in Virginia"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 56,
@@ -17626,8 +19312,16 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "quote": "Our meeting today is being streamed live on the VDOE YouTube channel and on the board's public meeting webpage. We'd like to welcome those joining us on the live stream from across the commonwealth. …"
    },
    {
-    "seconds": 838,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "seconds": 877,
+    "label": "Final Review of Resolution Prescribing the Standards of Quality for Public Schools in Virginia (discussion near here)",
+    "item": "C",
+    "quote": "get herself on sorry i it goes back to the speak clearly and distinctly so that the staff can record your voting and unmute yourself yeah i should say that too thanks ann uh dr mann hi dr pexton hi …"
+   },
+   {
+    "seconds": 1153,
+    "label": "Final Review of Proposed State Approved Textbooks for K-12 Science (discussion near here)",
+    "item": "D",
+    "quote": "All right, item D, final review of proposed state-approved textbooks for K-12 science. Dr. Peterson. - Good morning, and I'm gonna go ahead and share my screen."
    },
    {
     "seconds": 1999,
@@ -17638,28 +19332,28 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
-    "seconds": 2326,
-    "label": "Motion and vote. See the official minutes for the recorded result."
-   },
-   {
-    "seconds": 4260,
-    "label": "Presentation or new topic begins",
-    "quote": "I think you know that next on our agenda is the beginning of the process of certain revisions and that the commission has recommended. But before I speak, I guess I'll open it to the board members. …"
+    "seconds": 4427,
+    "label": "Final Review of Nomination for Vacancy on the State Special Education Advisory Committee (SSEAC) (discussion near here)",
+    "item": "B",
+    "quote": "to go by without my saying a special thank you to the commission, all members of the commission, each of the three subcommittees. The time, Dr. …"
    },
    {
     "seconds": 7843,
-    "label": "Presentation or new topic begins",
+    "label": "First Review of an Amendment to Virginia’s Consolidated State Plan under the Every Student Succeeds Act of 2015 (ESSA) – Amendment 4 (discussion near here)",
+    "item": "G",
     "quote": "Our next item is... I'm here, yeah. Okay, thank you. Ann, I think it's here. I see Dr. Pexton. Yeah, we're all here. Okay. Then we will get started again. …"
    },
    {
-    "seconds": 11704,
-    "label": "Presentation or new topic begins",
-    "quote": "We're joined today by both Christine Germeier, who is the SEAC chair, as well as Jill Sowers-Becker, who is our SEAC vice chair. I'm going to go ahead and turn it over to them. …"
+    "seconds": 9675,
+    "label": "First Review of Proposed Revisions to the Regulations Governing Educational Services for Gifted Students (discussion near here)",
+    "item": "I",
+    "quote": "Thank you. Thank you. Item I, first review of proposed revisions to the regulations governing educational services for gifted students. Mr. Bowling. Good afternoon, President Gecker, Dr. …"
    },
    {
-    "seconds": 13644,
-    "label": "Presentation or new topic begins",
-    "quote": "trying to because that's a big part of this so yeah no thank you thank you for the question then i'll turn it over to michael but um the what i what i will share is that uh we have seen obviously a …"
+    "seconds": 11456,
+    "label": "First Review of Recommendations for School Divisions of Innovation (SDI) Designation (discussion near here)",
+    "item": "J",
+    "quote": "really all the aspects that we're looking to do so uh with that we will accept that one for first review and move on to item j uh mr bowling right uh in moving forward uh it's my pleasure to present …"
    },
    {
     "seconds": 14168,
@@ -17759,13 +19453,129 @@ export const VBOE_RECAPS: VboeRecap[] = [
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-07-23-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026.",
+   "links": [
+    {
+     "label": "Minutes, Jul 23, 2020 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31129\\Minutes_DOE_31129_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=31129"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Durán made a motion to approve the meeting minutes of June 17, 2020 and June 18, 2020. The motion was seconded by Ms. Davis-Vaught and carried unanimously by Board roll call. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye Mr. Gecker welcomed the Board members, staff and the public to the Board of Education virtual meeting.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31129\\Minutes_DOE_31129_v1.pdf"
+    }
+   },
+   {
+    "item": "Election Of Vice President For The Unexpired Term Through July 2021",
+    "action": "Ms. Davis-Vaught made a motion to nominated Dr. Jamelle Wilson to serve in the role as Vice President for the Virginia Board of Education. The motion to nominate Dr. Wilson was seconded by Dr. Pexton. Mr. Gecker asked if there was motion to close nominations.",
+    "tally": "Result not stated in the minutes",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31129\\Minutes_DOE_31129_v1.pdf"
+    }
+   },
+   {
+    "item": "Election Of Vice President For The Unexpired Term Through July 2021",
+    "action": "Dr. Durán made a motion to close nominations. The motion was seconded by Dr. Mann and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson – aye The motion to elect Dr. Jamelle Wilson as Vice President was carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. …",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31129\\Minutes_DOE_31129_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Ms. Davis-Vaught made a motion to approve the consent agenda as presented. The motion was seconded by Dr. Durán and carried unanimously by Board roll call vote. Volume 91 Page 69 Board Roll Call: Mr. Daniel Gecker – aye Dr. Jamelle Wilson – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton – aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31129\\Minutes_DOE_31129_v1.pdf"
+    }
+   },
+   {
+    "item": "Item C",
+    "action": "First Review of Proposed Amendments to the Regulations Establishing Standards for Accrediting Public Schools in Virginia (8VAC20-131) to Comport with 2020 Legislation Passed by the General Assembly (Fast-Track Action): Dr. Wilson made a motion to waive first review and approved the proposed revisions. The motion was seconded by Dr. Durán and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker – aye Dr. Jamelle Wilson – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton – aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31129\\Minutes_DOE_31129_v1.pdf"
+    }
+   },
+   {
+    "item": "Item E",
+    "action": "First Review of Proposed Amendments to the Regulations Governing the Employment of Professional Personnel (8VAC20-441) to Comport with Legislation Passed by the 2020 General Assembly (Exempt Action): Dr. Durán made a motion to waive first review and approve the proposed amendment to the Regulations Governing the Employment of Professional Personnel. The motion was seconded by Dr. Wilson and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker – aye Dr. Jamelle Wilson – aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton – aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\31129\\Minutes_DOE_31129_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review of Financial Report on Literary Fund"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Recommendations Concerning Literary Fund Applications Approved for Release of Funds or Placement on a Waiting List"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "C",
+      "title": "First Review of Proposed Amendments to the Regulations Establishing Standards for Accrediting Public Schools in Virginia (8VAC20-131) to Comport with 2020 Legislation Passed by the General Assembly (Fast-Track Action)"
+     },
+     {
+      "num": "D",
+      "title": "First Review of Resolution Prescribing the Standards of Quality for Public Schools in Virginia"
+     },
+     {
+      "num": "E",
+      "title": "First Review of Proposed Amendments to the Regulations Governing the Employment of Professional Personnel (8VAC20-441) to Comport with Legislation Passed by the 2020 General Assembly (Exempt Action)"
+     },
+     {
+      "num": "F",
+      "title": "First Review of Guidance and Model Policy for the Notification of Protective Orders in Volume 91 Page 72 Public Elementary and Secondary Schools"
+     },
+     {
+      "num": "G",
+      "title": "First Review of Proposed State Approved Textbooks for K-12 Science"
+     }
+    ]
+   },
+   {
+    "heading": "Written Report",
+    "items": [
+     {
+      "num": "H",
+      "title": "Update on Early Childhood Education"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 71,
@@ -17785,12 +19595,34 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
-    "seconds": 1162,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "seconds": 1197,
+    "label": "First Review of Proposed Amendments to the Regulations Establishing Standards for Accrediting Public Schools in Virginia (8VAC20-131) to … (discussion near here)",
+    "item": "C",
+    "quote": "aye uh dr pexton aye and dr wilson aye and chair of force book all right action and discussion items item c uh first review of proposed amendments to regulations establishing standards for …"
    },
    {
-    "seconds": 1962,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "seconds": 1536,
+    "label": "First Review of Resolution Prescribing the Standards of Quality for Public Schools in Virginia (discussion near here)",
+    "item": "D",
+    "quote": "a second second thank you dr duran uh again by roll call miss davis fought dr duran hi miss holton aye dr mann aye dr pexton aye dr wilson aye and i vote aye okay uh item d first first review of …"
+   },
+   {
+    "seconds": 1991,
+    "label": "First Review of Guidance and Model Policy for the Notification of Protective Orders in Volume 91 Page 72 Public Elementary and Secondary … (discussion near here)",
+    "item": "F",
+    "quote": "Thank you, Dr. Wilson. Again, by roll call, Ms. Davis-Vaught. Aye. Dr. Duran. Aye. Ms. Holton. Aye. Dr. Mann. Aye. Dr. Pexton. Aye. Dr. Wilson. Aye. And I vote aye. Okay, item F. Thank you. …"
+   },
+   {
+    "seconds": 2208,
+    "label": "First Review of Proposed State Approved Textbooks for K-12 Science (discussion near here)",
+    "item": "G",
+    "quote": "Thank you. And when we do our final review, if you do get any public comment during the 30-day window that is not incorporated. …"
+   },
+   {
+    "seconds": 3792,
+    "label": "Update on Early Childhood Education (discussion near here)",
+    "item": "H",
+    "quote": "Okay. All right. The written report update on early childhood ed. I thought I saw Ms. Conway. I don't know if we have any questions about the report. I don't see any. So we will push on from there. …"
    },
    {
     "seconds": 6274,
@@ -17894,13 +19726,155 @@ export const VBOE_RECAPS: VboeRecap[] = [
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-06-18-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026.",
+   "links": [
+    {
+     "label": "Minutes, Jun 18, 2020 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30992\\Minutes_DOE_30992_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=30992"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Wilson made a motion to approve the meeting minutes of May 7, 2020 and June 2, 2020. The motion was seconded by Dr. Durán and carried unanimously by Board roll call. Board Roll Call: Mr. Daniel Gecker - aye Mrs. Diane Atkinson - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye Mr. Gecker welcomed the Board members, staff and the public to the Board of Education virtual meeting.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30992\\Minutes_DOE_30992_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Durán made a motion to approve the consent agenda as presented. The motion was seconded by Mrs. Atkinson and carried unanimously by Board roll call. Board Roll Call: Mr. Daniel Gecker - aye Mrs. Diane Atkinson -aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30992\\Minutes_DOE_30992_v1.pdf"
+    }
+   },
+   {
+    "item": "Item E",
+    "action": "Final Review of the Advisory Board on Teacher Education and Licensure Recommendation to Establish an Economics and Personal Finance (Add-on) Endorsement in the Licensure Regulations for School Personnel and the Regulations Governing the Review and Approval of Education Programs in Virginia: Ms. Holton made a motion to adopt the Superintendent of Public Instruction’s recommendation on this item with the change in 2-A from three semester in economics to six semester hours in economics OR a non-college credit institute in economics. The motion was seconded by Dr. Pexton and carried by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Mrs. Diane Atkinson -nay Dr. Francisco Durán - nay Ms. Anne Holton - aye Dr. Tammy Mann - nay Dr. Keisha Pexton - aye Dr. Jamelle Wilson - aye The regulatory language approved by the Board is as follows: 8VAC20-23-615.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30992\\Minutes_DOE_30992_v1.pdf"
+    }
+   },
+   {
+    "item": "Item F",
+    "action": "Final Review of Revisions to the Emergency Guidelines for Locally Awarded Verified Credits due to COVID-19: Dr. Durán made a motion to approve the revise guidelines for immediate implementation. The motion was seconded by Dr. Mann and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Mrs. Diane Atkinson -aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson – aye",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30992\\Minutes_DOE_30992_v1.pdf"
+    }
+   },
+   {
+    "item": "Item G",
+    "action": "First Review of Advisory Board on Teacher Education and Licensure Recommendations to Approve Undergraduate Education Endorsement Programs at Virginia Colleges and Universities: Dr. Durán made a motion to waive first review and approve the recommendations of ABTEL with the exception of University of Richmond. The motion was seconded by Ms. Holton. Mrs. Atkinson recused herself from the vote. The motion was carried by Board roll call vote.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30992\\Minutes_DOE_30992_v1.pdf"
+    }
+   },
+   {
+    "item": "Item G",
+    "action": "First Review of Advisory Board on Teacher Education and Licensure Recommendations to Approve Undergraduate Education Endorsement Programs at Virginia Colleges and Universities: Ms. Holton made a motion to waive first review and approve the recommendation of ABTEL, for the University of Richmond. The motion was seconded by Dr. Durán. Dr. Wilson and Mrs. Atkinson recused themselves from the vote. The motion was carried by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Mrs. Diane Atkinson -recuse Dr. Francisco Durán - aye Ms. Anne Holton - aye Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson – recuse",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30992\\Minutes_DOE_30992_v1.pdf"
+    }
+   },
+   {
+    "item": "Item K",
+    "action": "Written Report on State Regulatory and Statutory Waivers and Relief Measures Pursuant to Chapter 1283 of the 2020 Acts of Assembly A written report was provided by Dr. Leslie Sale, director of policy, department of policy, equity and communications. The report is available online at: Dr. Wilson moved that Board adopt the joint statement read by Dr. Francisco Durán, with the one change identified by Mr. Gecker. The motion was seconded by Dr. Durán and carried unanimously by Board roll call vote. Board Roll Call: Mr. Daniel Gecker - aye Mrs. Diane Atkinson -aye Ms. Pamela Davis-Vaught - aye Dr. Francisco Durán - aye Ms. Anne Holton - aye Volume 91 Page 62 Dr. Tammy Mann - aye Dr. Keisha Pexton - aye Dr. Jamelle Wilson – aye The full text of the approved joint statement of the Board is included below.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30992\\Minutes_DOE_30992_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review of Division-level Memorandum of Understanding for Danville City Public Schools"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Division-level Memorandum of Understanding for Prince Edward County Public Schools"
+     },
+     {
+      "num": "C",
+      "title": "Final Review of the Proposed Revisions to the Suicide Prevention Guidelines"
+     },
+     {
+      "num": "D",
+      "title": "Final Review of Nominations to Fill Vacancies on Board of Education Advisory Committees"
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "E",
+      "title": "Final Review of the Advisory Board on Teacher Education and Licensure Recommendation to Establish an Economics and Personal Finance (Add-on) Endorsement in the Licensure Regulations for School Personnel and the Regulations Governing the Review and Approval of Education Programs in Virginia"
+     },
+     {
+      "num": "F",
+      "title": "Final Review of Revisions to the Emergency Guidelines for Locally Awarded Verified Credits due to COVID-19"
+     },
+     {
+      "num": "G",
+      "title": "First Review of Advisory Board on Teacher Education and Licensure Recommendations to Approve Undergraduate Education Endorsement Programs at Virginia Colleges and Universities"
+     }
+    ]
+   },
+   {
+    "heading": "Presentations",
+    "items": [
+     {
+      "num": "H",
+      "title": "Update on Early Childhood Education"
+     },
+     {
+      "num": "I",
+      "title": "View from Here: State-level Descriptive Analyses of the 2019 Virginia Working Conditions Survey Volume 91 Page 59"
+     }
+    ]
+   },
+   {
+    "heading": "Written Reports",
+    "items": [
+     {
+      "num": "J",
+      "title": "Written Report on Schools Recognized for Exemplar Performance as Required by Recognition and Rewards for School Division Accountability (8VAC20-131-410) A written report was provided by Ms. Julie Molique, director of accountability, department of student assessment, accountability & ESEA programs. The report is available online at"
+     },
+     {
+      "num": "K",
+      "title": "Written Report on State Regulatory and Statutory Waivers and Relief Measures Pursuant to Chapter 1283 of the 2020 Acts of Assembly A written report was provided by Dr. Leslie Sale, director of policy, department of policy, equity and communications. The report is available online at"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 0,
@@ -17912,12 +19886,20 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "quote": "As is clear we are in a virtual meeting. It is being streamed live on the VDOE YouTube channel and on the board's public meeting web page. …"
    },
    {
-    "seconds": 516,
-    "label": "Motion and vote. See the official minutes for the recorded result."
+    "seconds": 582,
+    "label": "Final Review of the Advisory Board on Teacher Education and Licensure Recommendation to Establish an Economics and Personal Finance … (discussion near here)",
+    "item": "E",
+    "quote": "- Aye. - Okay, move on to item E. Final review of the advisory board teacher education licensure recommendations to establish an economics and personal finance add-on endorsement in the licensure …"
    },
    {
     "seconds": 2305,
     "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2424,
+    "label": "Final Review of Revisions to the Emergency Guidelines for Locally Awarded Verified Credits due to COVID-19 (discussion near here)",
+    "item": "F",
+    "quote": "you guys hear me yes thank you terrific um and let me just get my document pulled up so i can be prepared for any questions um so good morning president gecker vice president atkinson dr lane and …"
    },
    {
     "seconds": 3107,
@@ -17926,6 +19908,22 @@ export const VBOE_RECAPS: VboeRecap[] = [
    {
     "seconds": 3318,
     "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 3423,
+    "label": "Update on Early Childhood Education (discussion near here)",
+    "item": "H",
+    "quote": "okay uh dr duran hi miss holton hi dr man hi dr pexton hi and i vote i also okay covers thank you thank you very much patty yes we are now down i hope to uh presentations assembly tells me i missed …"
+   },
+   {
+    "seconds": 4264,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 5326,
+    "label": "View from Here: State-level Descriptive Analyses of the 2019 Virginia Working Conditions Survey Volume 91 Page 59 (discussion near here)",
+    "item": "I",
+    "quote": "deck that I won't take time to discuss here today. Go next slide, Emily. So we have been spending the last year spending time getting the results of this survey out to key stakeholders, doing some …"
    },
    {
     "seconds": 10011,
@@ -17997,13 +19995,136 @@ export const VBOE_RECAPS: VboeRecap[] = [
    "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-01-23-business-meeting.txt"
   },
   "official": {
-   "votesPosted": false,
+   "votesPosted": true,
    "checkedLabel": "Oct 24, 2026",
-   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
-   "links": []
+   "note": "Votes below are from the approved minutes posted by VDOE on Virginia Regulatory Town Hall. Motion text is quoted from the minutes. Matched to this video by hand on Oct 24, 2026.",
+   "links": [
+    {
+     "label": "Minutes, Jan 23, 2020 (Town Hall PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30679\\Minutes_DOE_30679_v1.pdf"
+    },
+    {
+     "label": "Town Hall meeting page",
+     "href": "https://townhall.virginia.gov/L/ViewMeeting.cfm?MeetingID=30679"
+    },
+    {
+     "label": "VDOE Board meetings, agendas and minutes",
+     "href": "https://www.doe.virginia.gov/state-board-data-funding/virginia-board-of-education"
+    }
+   ]
   },
-  "decisions": [],
-  "agenda": [],
+  "decisions": [
+   {
+    "item": "Approval Of Minutes",
+    "action": "Dr. Durán made a motion to approve the minutes of November 13-14, 2019, meetings of the Board. The motion was seconded by Dr. Wilson, Dr. Mann abstained and the motion carried.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30679\\Minutes_DOE_30679_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Mann made a motion to approve the consent agenda excluding Item C. The motion was seconded by Dr. Wilson and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30679\\Minutes_DOE_30679_v1.pdf"
+    }
+   },
+   {
+    "item": "Consent agenda",
+    "action": "Dr. Wilson made a motion to approve Item C. The motion was seconded by Mrs. Atkinson. Dr. Durán abstained. The motion was carried.",
+    "tally": "Carried (see minutes for the recorded vote)",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30679\\Minutes_DOE_30679_v1.pdf"
+    }
+   },
+   {
+    "item": "Item E",
+    "action": "Final Review of Proposed Revisions to the Health Education Standards of Learning: Dr. Durán made a motion to approve the revisions to the 2020 Health Education Standards of Learning. The motion was seconded by Mrs. Atkinson, and carried unanimously.",
+    "tally": "Carried unanimously",
+    "source": {
+     "label": "Official minutes (PDF)",
+     "href": "https://townhall.virginia.gov/L/GetFile.cfm?File=meeting\\93\\30679\\Minutes_DOE_30679_v1.pdf"
+    }
+   }
+  ],
+  "agenda": [
+   {
+    "heading": "Consent Agenda",
+    "items": [
+     {
+      "num": "A",
+      "title": "Final Review of Financial Report on Literary Fund"
+     },
+     {
+      "num": "B",
+      "title": "Final Review of Requests for Renewal of Alternative Accreditation Plans from Albemarle County Public Schools, Town of Colonial Beach Public Schools, Craig County Public Schools, Highland County Public Schools, Scott County Public Schools and York County Public Schools for High Schools with a Graduation Cohort of Fifty"
+     },
+     {
+      "num": "C",
+      "title": "Final Review of Requests for Renewal of Alternative Accreditation Plans from Albemarle County Public Schools, Arlington County Public Schools, Chesterfield County Public Schools, and Fairfax County Public Schools"
+     },
+     {
+      "num": "D",
+      "title": "Final Review of the Proposed Revisions to the Curriculum for the Virginia School Bus Operator Training Program to Conform to 2019 General Assembly Legislation At the request of Dr. Durán, Item C was pulled from the consent agenda."
+     }
+    ]
+   },
+   {
+    "heading": "Action/Discussion Items",
+    "items": [
+     {
+      "num": "E",
+      "title": "Final Review of Proposed Revisions to the Health Education Standards of Learning"
+     },
+     {
+      "num": "F",
+      "title": "First Review of Recommended Cut Scores for the Grades 3-8 and End-of-Course Standards of Learning Reading Tests Based on the 2017 English Standards"
+     },
+     {
+      "num": "G",
+      "title": "First Review of the Proposed Revisions to the Regulations Governing Secondary School Transcripts"
+     },
+     {
+      "num": "H",
+      "title": "First Review of the Proposed Revisions to the Suicide Prevention Guidelines"
+     }
+    ]
+   },
+   {
+    "heading": "(Vcscs).",
+    "items": [
+     {
+      "num": "I",
+      "title": "First Review of the Proposed Revisions to the Family Life Education and Standards of Learning"
+     },
+     {
+      "num": "J",
+      "title": "First Review of the Proposed Revisions to the Fine Arts Standards of Learning"
+     },
+     {
+      "num": "K",
+      "title": "First Review of Virginia’s Four-Year Perkins V State Plan George R. Willcox, director of career and technical education, operations and accountability, presented this item to the Board for first review."
+     }
+    ]
+   },
+   {
+    "heading": "Written Reports",
+    "items": [
+     {
+      "num": "L",
+      "title": "Timeline for World Language Standards of Learning Review Process"
+     },
+     {
+      "num": "M",
+      "title": "Update on the 2020 General Assembly"
+     }
+    ]
+   }
+  ],
   "moments": [
    {
     "seconds": 799,
@@ -18015,6 +20136,36 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "quote": "okay we're going to move into our public comment period uh each speaker will have three minutes it is the practice of this board not to respond to individual speakers however we do have uh"
    },
    {
+    "seconds": 2218,
+    "label": "First Review of Recommended Cut Scores for the Grades 3-8 and End-of-Course Standards of Learning Reading Tests Based on the 2017 English … (discussion near here)",
+    "item": "F",
+    "quote": "up with this a certain specific sol test we were first forced to learn overflowed material weeks before the test my peers and i felt that the students meticulously studied only to fill fulfill a …"
+   },
+   {
+    "seconds": 2332,
+    "label": "First Review of the Proposed Revisions to the Fine Arts Standards of Learning (discussion near here)",
+    "item": "J",
+    "quote": "for the opportunity to speak today on behalf and in support of the 2020 fine arts standards of learning review my name is jr snow and i have the privilege of serving the teachers and students of …"
+   },
+   {
+    "seconds": 2530,
+    "label": "First Review of Virginia’s Four-Year Perkins V State Plan George R. Willcox, director of career and technical education, operations and … (discussion near here)",
+    "item": "K",
+    "quote": "of the board and Dr. Lane. My name is Todd Lynn and I am the supervisor of Career and Technical Education for Shenandoah County Public Schools. …"
+   },
+   {
+    "seconds": 2661,
+    "label": "Final Review of Requests for Renewal of Alternative Accreditation Plans from Albemarle County Public Schools, Town of Colonial Beach Public … (discussion near here)",
+    "item": "B",
+    "quote": "CTE supervisor, I'm well-connected with our business partners, and most of them tell us that they will provide post-secondary education opportunities once the students have the skills necessary for …"
+   },
+   {
+    "seconds": 2799,
+    "label": "Timeline for World Language Standards of Learning Review Process (discussion near here)",
+    "item": "L",
+    "quote": "for the fine arts while providing inclusive language that support diverse student learning communities. …"
+   },
+   {
     "seconds": 5087,
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
@@ -18023,12 +20174,16 @@ export const VBOE_RECAPS: VboeRecap[] = [
     "label": "Motion and vote. See the official minutes for the recorded result."
    },
    {
-    "seconds": 8380,
-    "label": "Recess or reconvene"
+    "seconds": 9241,
+    "label": "First Review of the Proposed Revisions to the Regulations Governing Secondary School Transcripts (discussion near here)",
+    "item": "G",
+    "quote": "be great uh we're back in session item g first review of the proposed revisions to regulations governing secondary school transcripts good morning good morning president gecker vice president …"
    },
    {
-    "seconds": 9241,
-    "label": "Recess or reconvene"
+    "seconds": 9613,
+    "label": "First Review of the Proposed Revisions to the Suicide Prevention Guidelines (discussion near here)",
+    "item": "H",
+    "quote": "Okay. The Board will accept this for first review. Thank you. Thank you. All right. Item H, first review of the proposed revisions to the suicide prevention guidelines. Great. …"
    },
    {
     "seconds": 13913,
