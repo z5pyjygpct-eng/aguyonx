@@ -1,7 +1,7 @@
 import type { BodyBlock, Citation, RelatedItem, SourceDoc } from "@/content/types";
 import { HearingsChart } from "@/components/story/hearings-chart";
 import { XPost } from "@/components/story/x-post";
-import type { CSSProperties } from "react";
+import { useEffect, useState, type CSSProperties } from "react";
 
 /** The site's light :root tokens, re-applied inside the v4 navy frame for light-only embeds. */
 const LIGHT_VARS = {
@@ -170,6 +170,44 @@ const RELATED_LABEL: Record<RelatedItem["type"], string> = {
   csv: "CSV", pdf: "PDF", "x-thread": "X thread", link: "Link", video: "Video",
 };
 
+function VideoCard({ r }: { r: RelatedItem }) {
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    if (!open) return;
+    const k = (e: KeyboardEvent) => { if (e.key === "Escape") setOpen(false); };
+    window.addEventListener("keydown", k);
+    return () => window.removeEventListener("keydown", k);
+  }, [open]);
+  return (
+    <li>
+      <a href={r.href} onClick={(e) => { e.preventDefault(); setOpen(true); }} aria-haspopup="dialog"
+        className="flex h-full items-center gap-3 rounded-lg border border-navy-line bg-navy-700 p-4 text-white hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+        <span className="flex min-w-0 flex-1 flex-col gap-1.5">
+          <span className="w-fit rounded border border-gold/60 px-1.5 py-0.5 font-mono text-[11px] tracking-widest text-gold uppercase">{RELATED_LABEL[r.type]}</span>
+          <span className="font-semibold leading-snug">{r.title}</span>
+          {r.note ? <span className="text-sm text-on-dark-muted">{r.note}</span> : null}
+        </span>
+        <span className="relative h-16 w-9 shrink-0 overflow-hidden rounded bg-black ring-1 ring-navy-line">
+          {r.poster ? <img src={r.poster} alt="" loading="lazy" className="h-full w-full object-cover" /> : null}
+          <span className="absolute inset-0 flex items-center justify-center bg-black/30" aria-hidden="true">
+            <svg viewBox="0 0 24 24" className="h-4 w-4 fill-white"><path d="M8 5v14l11-7z" /></svg>
+          </span>
+        </span>
+      </a>
+      {open ? (
+        <div role="dialog" aria-modal="true" aria-label={r.title} onClick={() => setOpen(false)}
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/85 p-4">
+          <div className="relative flex max-h-full flex-col items-end gap-2" onClick={(e) => e.stopPropagation()}>
+            <button type="button" onClick={() => setOpen(false)} className="rounded border border-white/40 px-2 py-1 font-mono text-xs text-white uppercase hover:bg-white/10">Close ✕</button>
+            <video controls playsInline autoPlay poster={r.poster} src={r.href}
+              className="aspect-[9/16] max-h-[85vh] w-[min(360px,calc(100vw-2rem))] rounded-md bg-black object-contain" />
+          </div>
+        </div>
+      ) : null}
+    </li>
+  );
+}
+
 export function RelatedResources({ items }: { items?: RelatedItem[] }) {
   if (!items || items.length === 0) return null;
   return (
@@ -178,8 +216,8 @@ export function RelatedResources({ items }: { items?: RelatedItem[] }) {
       <ul className="mt-4 grid gap-3 sm:grid-cols-2">
         {items.map((r) => {
           const ext = /^https?:/.test(r.href);
-          if (r.type === "video") {
-            return (
+          if (r.type === "video") return <VideoCard key={r.href} r={r} />;
+          return (
               <li key={r.href} className="sm:col-span-2">
                 <figure className="flex flex-col gap-2 rounded-lg border border-navy-line bg-navy-700 p-4 text-white">
                   <span className="w-fit rounded border border-gold/60 px-1.5 py-0.5 font-mono text-[11px] tracking-widest text-gold uppercase">{RELATED_LABEL[r.type]}</span>
