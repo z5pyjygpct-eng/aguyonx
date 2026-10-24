@@ -218,20 +218,6 @@ export function RelatedResources({ items }: { items?: RelatedItem[] }) {
           const ext = /^https?:/.test(r.href);
           if (r.type === "video") return <VideoCard key={r.href} r={r} />;
           return (
-              <li key={r.href} className="sm:col-span-2">
-                <figure className="flex flex-col gap-2 rounded-lg border border-navy-line bg-navy-700 p-4 text-white">
-                  <span className="w-fit rounded border border-gold/60 px-1.5 py-0.5 font-mono text-[11px] tracking-widest text-gold uppercase">{RELATED_LABEL[r.type]}</span>
-                  <figcaption className="font-semibold leading-snug">{r.title}</figcaption>
-                  <video controls playsInline preload="metadata" poster={r.poster} className="aspect-[9/16] w-full rounded-md bg-black sm:max-w-[360px]">
-                    <source src={r.href} type="video/mp4" />
-                    <a href={r.href} className="text-gold underline">Download the video (MP4)</a>
-                  </video>
-                  {r.note ? <span className="text-sm text-on-dark-muted">{r.note}</span> : null}
-                </figure>
-              </li>
-            );
-          }
-          return (
             <li key={r.href}>
               <a href={r.href} target={ext ? "_blank" : undefined} rel={ext ? "noreferrer" : undefined}
                 className="flex h-full flex-col gap-1.5 rounded-lg border border-navy-line bg-navy-700 p-4 text-white hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold">
