@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,78 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-25",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 24, Saturday) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (HTTP 200, outlet headline matched on the article page, Oct 24 ET publish date checked on each article page; the Loudoun County release date is from the county news flash feed). Sources checked: RSS from Loudoun Times-Mirror, Prince William Times, FFXnow, ARLnow, Potomac Local, Annandale Today, Blue Ridge Leader, the Loudoun County news flash, FOX 5 DC, WUSA9, NBC Washington and WTOP; Loudoun Now and InsideNoVa link pages read through a scraping service; news.ts had no Oct 24 items. Caveats: light Saturday news day; 7 kept from 16 evaluated (not capped); Loudoun Now feed returned HTTP 429 and its homepage showed no Oct 24 news items; InsideNoVa has relaunched on a new site and its old RSS feeds now return HTML, so its Prince William section page was read instead; Fairfax Times feed returned HTTP 429; FFXnow, ARLnow, Loudoun Times-Mirror and Blue Ridge Leader feeds had no Oct 24 items. Left out: InsideNoVa Old Town Manassas gunfire and Prince William Times downtown Manassas gunfire (same story as the Potomac Local item); Loudoun Now Ashburn armed robbery (published Oct 23); Prince William Times I-95 bi-directional Express Lanes study (corridor spans Fairfax to Fredericksburg, locality unclear); FOX 5 Marine Corps Marathon closures (same story as WTOP); Loudoun Now Morven Park eventing title (sports); older InsideNoVa items still on its section page; statewide and out-of-area items (Virginia renter mold bill, Williamsburg porch collapse, Metro Red Line); sports scores and press releases.",
+      "items": [
+        {
+          "id": "early-voting-available-at-more-locations-annandaletoday-2026-10-24",
+          "county": "Fairfax",
+          "headline": "Early voting available at more locations",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/early-voting-available-at-more-locations/",
+          "published": "2026-10-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "smoke-alarms-alert-hamilton-family-to-loudoungov-2026-10-24",
+          "county": "Loudoun",
+          "headline": "Smoke Alarms Alert Hamilton Family to Accidental House Fire Late Friday Night",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10952",
+          "published": "2026-10-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-police-say-gunshots-near-church-potomaclocal-2026-10-24",
+          "county": "Prince William",
+          "headline": "Manassas police say gunshots near Church and Main damaged a vehicle; no one injured",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/24/manassas-police-say-gunshots-near-church-and-main-damaged-a-vehicle-no-one-injured/",
+          "published": "2026-10-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-raises-its-ev-charging-fees-wtop-2026-10-24",
+          "county": "Arlington",
+          "headline": "Arlington raises its EV charging fees by 72%",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/arlington-raises-its-ev-charging-fees-by-72/",
+          "published": "2026-10-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "marine-corps-marathon-brings-litany-of-wtop-2026-10-24",
+          "county": "Arlington",
+          "headline": "Marine Corps Marathon brings litany of road closures to DC, Arlington",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/transportation/2026/10/marine-corps-marathon-brings-litany-of-road-closures-to-dc-arlington/",
+          "published": "2026-10-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "how-playing-wordle-each-week-is-wtop-2026-10-24",
+          "county": "Fairfax",
+          "headline": "How playing Wordle each week is helping Fairfax Co. elementary schoolers boost reading skills",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/how-playing-wordle-each-week-is-helping-fairfax-co-elementary-schoolers-boost-reading-skills/",
+          "published": "2026-10-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-arrested-after-knifepoint-sexual-assault-insidenova-2026-10-24",
+          "county": "Prince William",
+          "headline": "Man arrested after knifepoint sexual assault at Manassas massage business",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/man-arrested-after-knifepoint-sexual-assault-at-manassas-massage-business-d5984b2f",
+          "published": "2026-10-24",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-10-24",
       "status": "ok",
