@@ -53,6 +53,26 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "school-board-resumes-talks-law-enforcement-loudounnow-2026-10-24",
+    date: "2026-10-24",
+    filed: "2026-10-25",
+    headline: "School Board Resumes Talks Over Law Enforcement Procedures",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/school-board-resumes-talks-over-law-enforcement-procedures/article_8a333229-c2f1-401d-b24a-ad3cd4bf4c60.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "october-2026-arlington-county-board-wrap-up-arlingtonva-2026-10-24",
+    date: "2026-10-24",
+    filed: "2026-10-25",
+    headline: "October 2026 Arlington County Board Wrap-Up",
+    outlet: "Arlington County",
+    url: "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/October-2026-Arlington-County-Board-Wrap-Up",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "early-voting-available-at-more-locations-annandaletoday-2026-10-24",
     date: "2026-10-24",
     filed: "2026-10-25",
