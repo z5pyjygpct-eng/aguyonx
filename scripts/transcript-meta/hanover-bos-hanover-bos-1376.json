@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-bos/transcripts/hanover-bos-1376.json",
+  "outBase": "public/files/find-the-moment/hanover-bos/transcripts/coraggio-transcript-hanover-bos-2025-03-26-hanover-county-board-of-supervisors-meeting-special-budget-work-session-2-00-pm-and-regular-meeting-6-00-pm",
+  "title": "Hanover County Board of Supervisors Meeting - Special Budget Work Session (2:00 pm) and Regular Meeting (6:00 pm), Wednesday, March 26, 2025",
+  "shortTitle": "Board of Supervisors Meeting - Special Budget Work Session (2:00 pm) and Regular Meeting (6:00 pm) \u00b7 Mar 26, 2025",
+  "date": "Wednesday, March 26, 2025",
+  "place": "Hanover County Board of Supervisors, Virginia",
+  "length": "5h 59m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/1376/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3623,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3737,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

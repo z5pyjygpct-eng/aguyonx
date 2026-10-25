@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/chesterfield-bos/transcripts/chesterfield-bos-1967.json",
+  "outBase": "public/files/find-the-moment/chesterfield-bos/transcripts/coraggio-transcript-chesterfield-bos-2026-01-07-chesterfield-county-board-of-supervisors-organizational-meeting-january-7-2026",
+  "title": "Chesterfield County Board of Supervisors Organizational Meeting - January 7, 2026, Wednesday, January 7, 2026",
+  "shortTitle": "Board of Supervisors Organizational Meeting - January 7, 2026 \u00b7 Jan 7, 2026",
+  "date": "Wednesday, January 7, 2026",
+  "place": "Chesterfield County Board of Supervisors, Virginia",
+  "length": "56m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://chesterfieldcova.portal.civicclerk.com/event/1967/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3834,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3842,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

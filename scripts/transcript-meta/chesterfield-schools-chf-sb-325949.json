@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/chesterfield-schools/transcripts/chf-sb-325949.json",
+  "outBase": "public/files/find-the-moment/chesterfield-schools/transcripts/coraggio-transcript-chesterfield-schools-2025-01-15-chesterfield-county-school-board-business-meeting",
+  "title": "Chesterfield County School Board Business Meeting, Wednesday, January 15, 2025",
+  "shortTitle": "School Board Business Meeting \u00b7 Jan 15, 2025",
+  "date": "Wednesday, January 15, 2025",
+  "place": "Chesterfield County School Board, Virginia",
+  "length": "36m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://chesterfieldschoolsva.new.swagit.com/videos/325949"
+    },
+    {
+      "label": "Official minutes (BoardDocs, on the Feb 25, 2025 agenda for approval)",
+      "href": "https://go.boarddocs.com/vsba/chesterfield/Board.nsf/pfiles/DDML4L54BE85/$file/DRAFT%20MINUTES%20-%202025.01.15%20Business%20Meeting.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

@@ -21,6 +21,7 @@ const BASE: Record<keyof typeof V4_VENUES, string> = {
   "fairfax-city-council": "/dashboards/fairfax-city/council", "fairfax-city-schools": "/dashboards/fairfax-city/schools",
   "manassas-council": "/dashboards/manassas/council", "manassas-schools": "/dashboards/manassas/schools",
   "hanover-bos": "/dashboards/hanover/bos", "chesterfield-bos": "/dashboards/chesterfield/bos",
+  "henrico-bos": "/dashboards/henrico/bos", "henrico-schools": "/dashboards/henrico/schools",
   "va-house": "/dashboards/house", "va-senate": "/dashboards/senate", "va-boe": "/dashboards/board-of-education",
 };
 const LOCATIONS = (Object.keys(BASE) as (keyof typeof V4_VENUES)[]).map((k) => ({ key: k, name: `${V4_VENUES[k].titleA} ${V4_VENUES[k].titleB}`, base: BASE[k] }));

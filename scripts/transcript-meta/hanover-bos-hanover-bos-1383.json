@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-bos/transcripts/hanover-bos-1383.json",
+  "outBase": "public/files/find-the-moment/hanover-bos/transcripts/coraggio-transcript-hanover-bos-2025-05-28-hanover-county-board-of-supervisors-meeting-regular-meeting-school-board-appointment",
+  "title": "Hanover County Board of Supervisors Meeting - Regular Meeting/School Board Appointment, Wednesday, May 28, 2025",
+  "shortTitle": "Board of Supervisors Meeting - Regular Meeting/School Board Appointment \u00b7 May 28, 2025",
+  "date": "Wednesday, May 28, 2025",
+  "place": "Hanover County Board of Supervisors, Virginia",
+  "length": "3h 39m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/1383/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3823,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3881,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

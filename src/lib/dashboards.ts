@@ -27,6 +27,8 @@ export const FOIA = {
   senate: { label: "FOIA to Senate", href: "https://apps.senate.virginia.gov/Senator/PDFs/SenateFOIARequest.pdf" },
   hanover: { label: "FOIA to Hanover County", href: "https://www.hanovercounty.gov/356/Make-a-Public-Records-FOIA-Request" },
   chesterfield: { label: "FOIA to Chesterfield County", href: "https://www.chesterfield.gov/FOIA" },
+  henrico: { label: "FOIA to Henrico County", href: "https://henrico.gov/government/freedom-information-act-foia/" },
+  hcps: { label: "FOIA to HCPS", href: "https://www.henricoschools.us/page/virginia-freedom-of-information-act-foia/" },
   vdoe: { label: "FOIA to Board of Education", href: "https://www.doe.virginia.gov/about-vdoe/foia-requests" },
 } satisfies Record<string, DashFoia>;
 
@@ -181,6 +183,35 @@ export const DASHBOARDS: Dashboard[] = [
     ],
   },
   {
+    slug: "henrico",
+    short: "Henrico",
+    title: "Henrico County",
+    group: "local",
+    columns: [
+      {
+        name: "Henrico County Board of Supervisors",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/henrico/bos/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/henrico/bos/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/henrico/bos/budget" },
+          { label: "Members", icon: "people", to: "/dashboards/henrico/bos/members" },
+        ],
+        foia: FOIA.henrico,
+      },
+      {
+        name: "Henrico County Public Schools",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/henrico/schools/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/henrico/schools/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/henrico/schools/budget" },
+          { label: "Policies", icon: "book", to: "/dashboards/henrico/schools/policies" },
+          { label: "Members", icon: "people", to: "/dashboards/henrico/schools/members" },
+        ],
+        foia: FOIA.hcps,
+      },
+    ],
+  },
+  {
     slug: "manassas",
     short: "Manassas",
     title: "City of Manassas",
@@ -269,4 +300,4 @@ export const DASHBOARDS: Dashboard[] = [
 ];
 
 export const DASHBOARD_BY_SLUG: Record<string, Dashboard> = Object.fromEntries(DASHBOARDS.map((d) => [d.slug, d]));
-export const COMING_SOON_LOCALITIES = ["Henrico"];
+export const COMING_SOON_LOCALITIES: string[] = [];

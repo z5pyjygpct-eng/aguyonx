@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-bos/transcripts/hanover-bos-1570.json",
+  "outBase": "public/files/find-the-moment/hanover-bos/transcripts/coraggio-transcript-hanover-bos-2026-02-11-hanover-county-board-of-supervisors-meeting",
+  "title": "Hanover County Board of Supervisors Meeting, Wednesday, February 11, 2026",
+  "shortTitle": "Board of Supervisors Meeting \u00b7 Feb 11, 2026",
+  "date": "Wednesday, February 11, 2026",
+  "place": "Hanover County Board of Supervisors, Virginia",
+  "length": "1h 51m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/1570/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4359,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

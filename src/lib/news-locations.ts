@@ -11,7 +11,7 @@ import { NEWS } from "@/content/news";
 import { NEWS_LOCATION_BACKFILL } from "@/content/news-locations";
 
 export type LocationSlug =
-  | "loudoun" | "fairfax-city" | "albemarle" | "hanover" | "chesterfield" | "manassas"
+  | "loudoun" | "fairfax-city" | "albemarle" | "hanover" | "chesterfield" | "henrico" | "manassas"
   | "house" | "senate" | "board-of-education";
 
 type Rule = { slug: LocationSlug; include: RegExp[]; exclude?: RegExp[]; offices?: RegExp };
@@ -23,6 +23,7 @@ export const LOCATION_RULES: Rule[] = [
   { slug: "albemarle", include: [/\balbemarle\b/i] },
   { slug: "hanover", include: [/\bhanover county\b/i, /\bhanover-county\b/i, /\bhanover (?:supervisors?|schools?|board)\b/i] },
   { slug: "chesterfield", include: [/\bchesterfield\b/i] },
+  { slug: "henrico", include: [/\bhenrico\b/i, /\bhcps\b/i] },
   // City of Manassas only; Manassas Park is a separate city.
   // City of Manassas only. A bare "Manassas" is often a Prince William County mailing address, so it
   // needs a city marker (city government, city schools, the city-owned airport, the city's First Friday).

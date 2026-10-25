@@ -7,7 +7,7 @@ import { CITY_MEETINGS as BASE_CITY_MEETINGS } from "./cities-meetings";
 import { HC_MEETINGS } from "./hc-meetings";
 import { FTM_TRANSCRIPTS } from "./ftm-transcripts";
 
-export type CityId = "fairfax-city" | "manassas" | "albemarle" | "hanover" | "chesterfield";
+export type CityId = "fairfax-city" | "manassas" | "albemarle" | "hanover" | "chesterfield" | "henrico";
 export type CityBody = "council" | "schools";
 export type CityVenueId =
   | "fairfax-city-council"
@@ -19,7 +19,9 @@ export type CityVenueId =
   | "hanover-bos"
   | "hanover-schools"
   | "chesterfield-bos"
-  | "chesterfield-schools";
+  | "chesterfield-schools"
+  | "henrico-bos"
+  | "henrico-schools";
 export type CityProvider = "granicus-page" | "youtube" | "wistia" | "civicclerk" | "swagit";
 
 export type CityMeeting = {
@@ -260,6 +262,43 @@ export const CITY_VENUES: Record<CityVenueId, CityVenue> = {
       { label: "Meeting video (Swagit)", href: "https://chesterfieldschoolsva.new.swagit.com/" },
     ],
   },
+  "henrico-bos": {
+    id: "henrico-bos",
+    city: "henrico",
+    body: "council",
+    name: "Henrico County Board of Supervisors",
+    buttonLabel: "Henrico Supervisors",
+    to: "/cities/henrico",
+    route: "/cities/$city",
+    boardLabel: "Board of Supervisors",
+    videoHost: "Henrico County video archive (Swagit)",
+    votesSource: "adopted Board of Supervisors minutes posted by Henrico County",
+    since: "January 2025",
+    tag: "Supervisors",
+    doors: [
+      { label: "Meeting video (Swagit)", href: "https://henricocountyva.new.swagit.com/" },
+      { label: "Agendas & minutes (Agend-O-Gram)", href: "https://henrico.gov/supervisors/supervisors-agenda-o-gram/" },
+    ],
+  },
+  "henrico-schools": {
+    id: "henrico-schools",
+    city: "henrico",
+    body: "schools",
+    name: "Henrico County School Board",
+    buttonLabel: "Henrico Schools",
+    to: "/cities/henrico/schools",
+    route: "/cities/$city/schools",
+    boardLabel: "School Board",
+    videoHost: "Henrico County Public Schools YouTube channel",
+    votesSource: "adopted School Board minutes posted by Henrico County Public Schools",
+    since: "January 2025",
+    doors: [
+      {
+        label: "Agendas & minutes (HCPS meeting portal)",
+        href: "https://henricoschools.community.diligentoneplatform.com/Portal/MeetingTypeList.aspx",
+      },
+    ],
+  },
 };
 
 export const CITIES: City[] = [
@@ -305,6 +344,15 @@ export const CITIES: City[] = [
     region: "Central Virginia",
     venues: ["chesterfield-bos", "chesterfield-schools"],
   },
+  {
+    // Added Oct 25 2026 (Scott approved Henrico Oct 24): Swagit BOS video + HCPS YouTube.
+    id: "henrico",
+    name: "Henrico County",
+    shortName: "Henrico",
+    to: "/cities/henrico",
+    region: "Central Virginia",
+    venues: ["henrico-bos", "henrico-schools"],
+  },
 ];
 
 const CITY_MEETINGS: CityMeeting[] = [...BASE_CITY_MEETINGS, ...HC_MEETINGS];
@@ -348,7 +396,7 @@ export function cityJumpUrl(m: CityMeeting, seconds: number): string {
 }
 
 export function isCityId(x: string): x is CityId {
-  return x === "fairfax-city" || x === "manassas" || x === "albemarle" || x === "hanover" || x === "chesterfield";
+  return x === "fairfax-city" || x === "manassas" || x === "albemarle" || x === "hanover" || x === "chesterfield" || x === "henrico";
 }
 
 /**

@@ -29,7 +29,9 @@ export type FtmTranscriptVenue =
   | "hanover-bos"
   | "hanover-schools"
   | "chesterfield-bos"
-  | "chesterfield-schools";
+  | "chesterfield-schools"
+  | "henrico-bos"
+  | "henrico-schools";
 
 export type FtmTranscript = {
   /** Catalog meeting id (e.g. LOUDOUN_MEETINGS[].id). */

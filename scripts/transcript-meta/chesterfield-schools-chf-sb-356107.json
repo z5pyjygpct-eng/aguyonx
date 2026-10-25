@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/chesterfield-schools/transcripts/chf-sb-356107.json",
+  "outBase": "public/files/find-the-moment/chesterfield-schools/transcripts/coraggio-transcript-chesterfield-schools-2025-09-19-chesterfield-county-school-board-special-meeting",
+  "title": "Chesterfield County School Board Special Meeting, Friday, September 19, 2025",
+  "shortTitle": "School Board Special Meeting \u00b7 Sep 19, 2025",
+  "date": "Friday, September 19, 2025",
+  "place": "Chesterfield County School Board, Virginia",
+  "length": "2m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://chesterfieldschoolsva.new.swagit.com/videos/356107"
+    },
+    {
+      "label": "Official minutes (BoardDocs, on the Oct 14, 2025 agenda for approval)",
+      "href": "https://go.boarddocs.com/vsba/chesterfield/Board.nsf/pfiles/DMUJLC4DADDB/$file/DRAFT%20MINUTES%20-%202025.09.19%20Special%20Meeting.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

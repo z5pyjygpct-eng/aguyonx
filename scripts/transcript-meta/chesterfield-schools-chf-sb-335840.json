@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/chesterfield-schools/transcripts/chf-sb-335840.json",
+  "outBase": "public/files/find-the-moment/chesterfield-schools/transcripts/coraggio-transcript-chesterfield-schools-2025-02-25-chesterfield-county-school-board-budget-work-session",
+  "title": "Chesterfield County School Board Budget Work Session, Tuesday, February 25, 2025",
+  "shortTitle": "School Board Budget Work Session \u00b7 Feb 25, 2025",
+  "date": "Tuesday, February 25, 2025",
+  "place": "Chesterfield County School Board, Virginia",
+  "length": "1h 24m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://chesterfieldschoolsva.new.swagit.com/videos/335840"
+    },
+    {
+      "label": "Official minutes (BoardDocs, on the Mar 11, 2025 agenda for approval)",
+      "href": "https://go.boarddocs.com/vsba/chesterfield/Board.nsf/pfiles/DENQJ56968CF/$file/DRAFT%20MINUTES%20-%202025.02.25%20Budget%20Work%20Session.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

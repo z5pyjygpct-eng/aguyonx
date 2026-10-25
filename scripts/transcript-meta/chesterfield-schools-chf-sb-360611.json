@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/chesterfield-schools/transcripts/chf-sb-360611.json",
+  "outBase": "public/files/find-the-moment/chesterfield-schools/transcripts/coraggio-transcript-chesterfield-schools-2025-11-12-chesterfield-county-school-board-work-session",
+  "title": "Chesterfield County School Board Work Session, Wednesday, November 12, 2025",
+  "shortTitle": "School Board Work Session \u00b7 Nov 12, 2025",
+  "date": "Wednesday, November 12, 2025",
+  "place": "Chesterfield County School Board, Virginia",
+  "length": "50m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://chesterfieldschoolsva.new.swagit.com/videos/360611"
+    },
+    {
+      "label": "Official minutes (BoardDocs, on the Dec 18, 2025 agenda for approval)",
+      "href": "https://go.boarddocs.com/vsba/chesterfield/Board.nsf/pfiles/DP2S97718C09/$file/DRAFT%20MINUTES%20-%202025.11.12%20Work%20Session.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

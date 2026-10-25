@@ -8,6 +8,7 @@ const ffx = { label: "City of Fairfax", to: "/dashboards/$body", params: { body:
 const mna = { label: "Manassas", to: "/dashboards/$body", params: { body: "manassas" } };
 const hanover = { label: "Hanover", to: "/dashboards/$body", params: { body: "hanover" } };
 const chesterfield = { label: "Chesterfield", to: "/dashboards/$body", params: { body: "chesterfield" } };
+const henrico = { label: "Henrico", to: "/dashboards/$body", params: { body: "henrico" } };
 const GA = { label: "General Assembly", to: "/dashboards/general-assembly" };
 export const V4_VENUES = {
   "loudoun-lcps": { crumbs: [loudoun, { label: "LCPS", to: "/dashboards/$body", params: { body: "loudoun" }, hash: "loudoun-county-public-schools" }], titleA: "Loudoun County", titleB: "Public Schools", foia: { label: "FOIA to LCPS", href: "https://www.lcps.org/foia" } },
@@ -20,6 +21,8 @@ export const V4_VENUES = {
   "manassas-schools": { crumbs: [mna, { label: "MCPS", to: "/dashboards/$body", params: { body: "manassas" }, hash: "manassas-city-public-schools" }], titleA: "Manassas City", titleB: "Public Schools", foia: FOIA.mcps },
   "hanover-bos": { crumbs: [hanover, { label: "Board of Supervisors", to: "/dashboards/$body", params: { body: "hanover" }, hash: "hanover-county-board-of-supervisors" }], titleA: "Hanover County", titleB: "Board of Supervisors", foia: FOIA.hanover },
   "chesterfield-bos": { crumbs: [chesterfield, { label: "Board of Supervisors", to: "/dashboards/$body", params: { body: "chesterfield" }, hash: "chesterfield-county-board-of-supervisors" }], titleA: "Chesterfield County", titleB: "Board of Supervisors", foia: FOIA.chesterfield },
+  "henrico-bos": { crumbs: [henrico, { label: "Board of Supervisors", to: "/dashboards/$body", params: { body: "henrico" }, hash: "henrico-county-board-of-supervisors" }], titleA: "Henrico County", titleB: "Board of Supervisors", foia: FOIA.henrico },
+  "henrico-schools": { crumbs: [henrico, { label: "HCPS", to: "/dashboards/$body", params: { body: "henrico" }, hash: "henrico-county-public-schools" }], titleA: "Henrico County", titleB: "Public Schools", foia: FOIA.hcps },
   "va-house": { crumbs: [GA, { label: "House of Delegates", to: "/dashboards/$body", params: { body: "house" } }], titleA: "Virginia", titleB: "House of Delegates", foia: FOIA.house },
   "va-senate": { crumbs: [GA, { label: "State Senate", to: "/dashboards/$body", params: { body: "senate" } }], titleA: "Senate of", titleB: "Virginia", foia: FOIA.senate },
   "va-boe": { crumbs: [{ label: "Virginia Department of Education" }, { label: "Board of Education", to: "/dashboards/$body", params: { body: "board-of-education" } }], titleA: "Virginia", titleB: "Board of Education", foia: FOIA.vdoe },

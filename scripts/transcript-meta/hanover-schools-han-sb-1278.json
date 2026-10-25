@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-schools/transcripts/han-sb-1278.json",
+  "outBase": "public/files/find-the-moment/hanover-schools/transcripts/coraggio-transcript-hanover-schools-2025-06-10-hanover-county-school-board-meeting",
+  "title": "Hanover County School Board Meeting, Tuesday, June 10, 2025",
+  "shortTitle": "School Board Meeting \u00b7 Jun 10, 2025",
+  "date": "Tuesday, June 10, 2025",
+  "place": "Hanover County School Board, Virginia",
+  "length": "3h 31m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/1278/media"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

@@ -109,6 +109,15 @@ import { Route as DashboardsHanoverBosBudgetRouteImport } from './routes/dashboa
 import { Route as DashboardsHanoverBosFindTheMomentRouteImport } from './routes/dashboards.hanover.bos.find-the-moment'
 import { Route as DashboardsHanoverBosMembersRouteImport } from './routes/dashboards.hanover.bos.members'
 import { Route as DashboardsHanoverBosRecapsRouteImport } from './routes/dashboards.hanover.bos.recaps'
+import { Route as DashboardsHenricoBosBudgetRouteImport } from './routes/dashboards.henrico.bos.budget'
+import { Route as DashboardsHenricoBosFindTheMomentRouteImport } from './routes/dashboards.henrico.bos.find-the-moment'
+import { Route as DashboardsHenricoBosMembersRouteImport } from './routes/dashboards.henrico.bos.members'
+import { Route as DashboardsHenricoBosRecapsRouteImport } from './routes/dashboards.henrico.bos.recaps'
+import { Route as DashboardsHenricoSchoolsBudgetRouteImport } from './routes/dashboards.henrico.schools.budget'
+import { Route as DashboardsHenricoSchoolsFindTheMomentRouteImport } from './routes/dashboards.henrico.schools.find-the-moment'
+import { Route as DashboardsHenricoSchoolsMembersRouteImport } from './routes/dashboards.henrico.schools.members'
+import { Route as DashboardsHenricoSchoolsPoliciesRouteImport } from './routes/dashboards.henrico.schools.policies'
+import { Route as DashboardsHenricoSchoolsRecapsRouteImport } from './routes/dashboards.henrico.schools.recaps'
 import { Route as DashboardsHouseMembersSlugRouteImport } from './routes/dashboards.house.members_.$slug'
 import { Route as DashboardsLoudounBosBudgetRouteImport } from './routes/dashboards.loudoun.bos.budget'
 import { Route as DashboardsLoudounBosFindTheMomentRouteImport } from './routes/dashboards.loudoun.bos.find-the-moment'
@@ -672,6 +681,60 @@ const DashboardsHanoverBosRecapsRoute =
     path: '/dashboards/hanover/bos/recaps',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DashboardsHenricoBosBudgetRoute =
+  DashboardsHenricoBosBudgetRouteImport.update({
+    id: '/dashboards/henrico/bos/budget',
+    path: '/dashboards/henrico/bos/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHenricoBosFindTheMomentRoute =
+  DashboardsHenricoBosFindTheMomentRouteImport.update({
+    id: '/dashboards/henrico/bos/find-the-moment',
+    path: '/dashboards/henrico/bos/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHenricoBosMembersRoute =
+  DashboardsHenricoBosMembersRouteImport.update({
+    id: '/dashboards/henrico/bos/members',
+    path: '/dashboards/henrico/bos/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHenricoBosRecapsRoute =
+  DashboardsHenricoBosRecapsRouteImport.update({
+    id: '/dashboards/henrico/bos/recaps',
+    path: '/dashboards/henrico/bos/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHenricoSchoolsBudgetRoute =
+  DashboardsHenricoSchoolsBudgetRouteImport.update({
+    id: '/dashboards/henrico/schools/budget',
+    path: '/dashboards/henrico/schools/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHenricoSchoolsFindTheMomentRoute =
+  DashboardsHenricoSchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/henrico/schools/find-the-moment',
+    path: '/dashboards/henrico/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHenricoSchoolsMembersRoute =
+  DashboardsHenricoSchoolsMembersRouteImport.update({
+    id: '/dashboards/henrico/schools/members',
+    path: '/dashboards/henrico/schools/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHenricoSchoolsPoliciesRoute =
+  DashboardsHenricoSchoolsPoliciesRouteImport.update({
+    id: '/dashboards/henrico/schools/policies',
+    path: '/dashboards/henrico/schools/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsHenricoSchoolsRecapsRoute =
+  DashboardsHenricoSchoolsRecapsRouteImport.update({
+    id: '/dashboards/henrico/schools/recaps',
+    path: '/dashboards/henrico/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DashboardsHouseMembersSlugRoute =
   DashboardsHouseMembersSlugRouteImport.update({
     id: '/dashboards/house/members_/$slug',
@@ -906,6 +969,15 @@ export interface FileRoutesByFullPath {
   '/dashboards/hanover/bos/find-the-moment': typeof DashboardsHanoverBosFindTheMomentRoute
   '/dashboards/hanover/bos/members': typeof DashboardsHanoverBosMembersRoute
   '/dashboards/hanover/bos/recaps': typeof DashboardsHanoverBosRecapsRoute
+  '/dashboards/henrico/bos/budget': typeof DashboardsHenricoBosBudgetRoute
+  '/dashboards/henrico/bos/find-the-moment': typeof DashboardsHenricoBosFindTheMomentRoute
+  '/dashboards/henrico/bos/members': typeof DashboardsHenricoBosMembersRoute
+  '/dashboards/henrico/bos/recaps': typeof DashboardsHenricoBosRecapsRoute
+  '/dashboards/henrico/schools/budget': typeof DashboardsHenricoSchoolsBudgetRoute
+  '/dashboards/henrico/schools/find-the-moment': typeof DashboardsHenricoSchoolsFindTheMomentRoute
+  '/dashboards/henrico/schools/members': typeof DashboardsHenricoSchoolsMembersRoute
+  '/dashboards/henrico/schools/policies': typeof DashboardsHenricoSchoolsPoliciesRoute
+  '/dashboards/henrico/schools/recaps': typeof DashboardsHenricoSchoolsRecapsRoute
   '/dashboards/house/members/$slug': typeof DashboardsHouseMembersSlugRoute
   '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
@@ -1020,6 +1092,15 @@ export interface FileRoutesByTo {
   '/dashboards/hanover/bos/find-the-moment': typeof DashboardsHanoverBosFindTheMomentRoute
   '/dashboards/hanover/bos/members': typeof DashboardsHanoverBosMembersRoute
   '/dashboards/hanover/bos/recaps': typeof DashboardsHanoverBosRecapsRoute
+  '/dashboards/henrico/bos/budget': typeof DashboardsHenricoBosBudgetRoute
+  '/dashboards/henrico/bos/find-the-moment': typeof DashboardsHenricoBosFindTheMomentRoute
+  '/dashboards/henrico/bos/members': typeof DashboardsHenricoBosMembersRoute
+  '/dashboards/henrico/bos/recaps': typeof DashboardsHenricoBosRecapsRoute
+  '/dashboards/henrico/schools/budget': typeof DashboardsHenricoSchoolsBudgetRoute
+  '/dashboards/henrico/schools/find-the-moment': typeof DashboardsHenricoSchoolsFindTheMomentRoute
+  '/dashboards/henrico/schools/members': typeof DashboardsHenricoSchoolsMembersRoute
+  '/dashboards/henrico/schools/policies': typeof DashboardsHenricoSchoolsPoliciesRoute
+  '/dashboards/henrico/schools/recaps': typeof DashboardsHenricoSchoolsRecapsRoute
   '/dashboards/house/members/$slug': typeof DashboardsHouseMembersSlugRoute
   '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
@@ -1145,6 +1226,15 @@ export interface FileRoutesById {
   '/dashboards/hanover/bos/find-the-moment': typeof DashboardsHanoverBosFindTheMomentRoute
   '/dashboards/hanover/bos/members': typeof DashboardsHanoverBosMembersRoute
   '/dashboards/hanover/bos/recaps': typeof DashboardsHanoverBosRecapsRoute
+  '/dashboards/henrico/bos/budget': typeof DashboardsHenricoBosBudgetRoute
+  '/dashboards/henrico/bos/find-the-moment': typeof DashboardsHenricoBosFindTheMomentRoute
+  '/dashboards/henrico/bos/members': typeof DashboardsHenricoBosMembersRoute
+  '/dashboards/henrico/bos/recaps': typeof DashboardsHenricoBosRecapsRoute
+  '/dashboards/henrico/schools/budget': typeof DashboardsHenricoSchoolsBudgetRoute
+  '/dashboards/henrico/schools/find-the-moment': typeof DashboardsHenricoSchoolsFindTheMomentRoute
+  '/dashboards/henrico/schools/members': typeof DashboardsHenricoSchoolsMembersRoute
+  '/dashboards/henrico/schools/policies': typeof DashboardsHenricoSchoolsPoliciesRoute
+  '/dashboards/henrico/schools/recaps': typeof DashboardsHenricoSchoolsRecapsRoute
   '/dashboards/house/members_/$slug': typeof DashboardsHouseMembersSlugRoute
   '/dashboards/loudoun/bos/budget': typeof DashboardsLoudounBosBudgetRoute
   '/dashboards/loudoun/bos/find-the-moment': typeof DashboardsLoudounBosFindTheMomentRoute
@@ -1271,6 +1361,15 @@ export interface FileRouteTypes {
     | '/dashboards/hanover/bos/find-the-moment'
     | '/dashboards/hanover/bos/members'
     | '/dashboards/hanover/bos/recaps'
+    | '/dashboards/henrico/bos/budget'
+    | '/dashboards/henrico/bos/find-the-moment'
+    | '/dashboards/henrico/bos/members'
+    | '/dashboards/henrico/bos/recaps'
+    | '/dashboards/henrico/schools/budget'
+    | '/dashboards/henrico/schools/find-the-moment'
+    | '/dashboards/henrico/schools/members'
+    | '/dashboards/henrico/schools/policies'
+    | '/dashboards/henrico/schools/recaps'
     | '/dashboards/house/members/$slug'
     | '/dashboards/loudoun/bos/budget'
     | '/dashboards/loudoun/bos/find-the-moment'
@@ -1385,6 +1484,15 @@ export interface FileRouteTypes {
     | '/dashboards/hanover/bos/find-the-moment'
     | '/dashboards/hanover/bos/members'
     | '/dashboards/hanover/bos/recaps'
+    | '/dashboards/henrico/bos/budget'
+    | '/dashboards/henrico/bos/find-the-moment'
+    | '/dashboards/henrico/bos/members'
+    | '/dashboards/henrico/bos/recaps'
+    | '/dashboards/henrico/schools/budget'
+    | '/dashboards/henrico/schools/find-the-moment'
+    | '/dashboards/henrico/schools/members'
+    | '/dashboards/henrico/schools/policies'
+    | '/dashboards/henrico/schools/recaps'
     | '/dashboards/house/members/$slug'
     | '/dashboards/loudoun/bos/budget'
     | '/dashboards/loudoun/bos/find-the-moment'
@@ -1509,6 +1617,15 @@ export interface FileRouteTypes {
     | '/dashboards/hanover/bos/find-the-moment'
     | '/dashboards/hanover/bos/members'
     | '/dashboards/hanover/bos/recaps'
+    | '/dashboards/henrico/bos/budget'
+    | '/dashboards/henrico/bos/find-the-moment'
+    | '/dashboards/henrico/bos/members'
+    | '/dashboards/henrico/bos/recaps'
+    | '/dashboards/henrico/schools/budget'
+    | '/dashboards/henrico/schools/find-the-moment'
+    | '/dashboards/henrico/schools/members'
+    | '/dashboards/henrico/schools/policies'
+    | '/dashboards/henrico/schools/recaps'
     | '/dashboards/house/members_/$slug'
     | '/dashboards/loudoun/bos/budget'
     | '/dashboards/loudoun/bos/find-the-moment'
@@ -1611,6 +1728,15 @@ export interface RootRouteChildren {
   DashboardsHanoverBosFindTheMomentRoute: typeof DashboardsHanoverBosFindTheMomentRoute
   DashboardsHanoverBosMembersRoute: typeof DashboardsHanoverBosMembersRoute
   DashboardsHanoverBosRecapsRoute: typeof DashboardsHanoverBosRecapsRoute
+  DashboardsHenricoBosBudgetRoute: typeof DashboardsHenricoBosBudgetRoute
+  DashboardsHenricoBosFindTheMomentRoute: typeof DashboardsHenricoBosFindTheMomentRoute
+  DashboardsHenricoBosMembersRoute: typeof DashboardsHenricoBosMembersRoute
+  DashboardsHenricoBosRecapsRoute: typeof DashboardsHenricoBosRecapsRoute
+  DashboardsHenricoSchoolsBudgetRoute: typeof DashboardsHenricoSchoolsBudgetRoute
+  DashboardsHenricoSchoolsFindTheMomentRoute: typeof DashboardsHenricoSchoolsFindTheMomentRoute
+  DashboardsHenricoSchoolsMembersRoute: typeof DashboardsHenricoSchoolsMembersRoute
+  DashboardsHenricoSchoolsPoliciesRoute: typeof DashboardsHenricoSchoolsPoliciesRoute
+  DashboardsHenricoSchoolsRecapsRoute: typeof DashboardsHenricoSchoolsRecapsRoute
   DashboardsHouseMembersSlugRoute: typeof DashboardsHouseMembersSlugRoute
   DashboardsLoudounBosBudgetRoute: typeof DashboardsLoudounBosBudgetRoute
   DashboardsLoudounBosFindTheMomentRoute: typeof DashboardsLoudounBosFindTheMomentRoute
@@ -2335,6 +2461,69 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardsHanoverBosRecapsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dashboards/henrico/bos/budget': {
+      id: '/dashboards/henrico/bos/budget'
+      path: '/dashboards/henrico/bos/budget'
+      fullPath: '/dashboards/henrico/bos/budget'
+      preLoaderRoute: typeof DashboardsHenricoBosBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/henrico/bos/find-the-moment': {
+      id: '/dashboards/henrico/bos/find-the-moment'
+      path: '/dashboards/henrico/bos/find-the-moment'
+      fullPath: '/dashboards/henrico/bos/find-the-moment'
+      preLoaderRoute: typeof DashboardsHenricoBosFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/henrico/bos/members': {
+      id: '/dashboards/henrico/bos/members'
+      path: '/dashboards/henrico/bos/members'
+      fullPath: '/dashboards/henrico/bos/members'
+      preLoaderRoute: typeof DashboardsHenricoBosMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/henrico/bos/recaps': {
+      id: '/dashboards/henrico/bos/recaps'
+      path: '/dashboards/henrico/bos/recaps'
+      fullPath: '/dashboards/henrico/bos/recaps'
+      preLoaderRoute: typeof DashboardsHenricoBosRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/henrico/schools/budget': {
+      id: '/dashboards/henrico/schools/budget'
+      path: '/dashboards/henrico/schools/budget'
+      fullPath: '/dashboards/henrico/schools/budget'
+      preLoaderRoute: typeof DashboardsHenricoSchoolsBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/henrico/schools/find-the-moment': {
+      id: '/dashboards/henrico/schools/find-the-moment'
+      path: '/dashboards/henrico/schools/find-the-moment'
+      fullPath: '/dashboards/henrico/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsHenricoSchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/henrico/schools/members': {
+      id: '/dashboards/henrico/schools/members'
+      path: '/dashboards/henrico/schools/members'
+      fullPath: '/dashboards/henrico/schools/members'
+      preLoaderRoute: typeof DashboardsHenricoSchoolsMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/henrico/schools/policies': {
+      id: '/dashboards/henrico/schools/policies'
+      path: '/dashboards/henrico/schools/policies'
+      fullPath: '/dashboards/henrico/schools/policies'
+      preLoaderRoute: typeof DashboardsHenricoSchoolsPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/henrico/schools/recaps': {
+      id: '/dashboards/henrico/schools/recaps'
+      path: '/dashboards/henrico/schools/recaps'
+      fullPath: '/dashboards/henrico/schools/recaps'
+      preLoaderRoute: typeof DashboardsHenricoSchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dashboards/house/members_/$slug': {
       id: '/dashboards/house/members_/$slug'
       path: '/dashboards/house/members/$slug'
@@ -2737,6 +2926,17 @@ const rootRouteChildren: RootRouteChildren = {
     DashboardsHanoverBosFindTheMomentRoute,
   DashboardsHanoverBosMembersRoute: DashboardsHanoverBosMembersRoute,
   DashboardsHanoverBosRecapsRoute: DashboardsHanoverBosRecapsRoute,
+  DashboardsHenricoBosBudgetRoute: DashboardsHenricoBosBudgetRoute,
+  DashboardsHenricoBosFindTheMomentRoute:
+    DashboardsHenricoBosFindTheMomentRoute,
+  DashboardsHenricoBosMembersRoute: DashboardsHenricoBosMembersRoute,
+  DashboardsHenricoBosRecapsRoute: DashboardsHenricoBosRecapsRoute,
+  DashboardsHenricoSchoolsBudgetRoute: DashboardsHenricoSchoolsBudgetRoute,
+  DashboardsHenricoSchoolsFindTheMomentRoute:
+    DashboardsHenricoSchoolsFindTheMomentRoute,
+  DashboardsHenricoSchoolsMembersRoute: DashboardsHenricoSchoolsMembersRoute,
+  DashboardsHenricoSchoolsPoliciesRoute: DashboardsHenricoSchoolsPoliciesRoute,
+  DashboardsHenricoSchoolsRecapsRoute: DashboardsHenricoSchoolsRecapsRoute,
   DashboardsHouseMembersSlugRoute: DashboardsHouseMembersSlugRoute,
   DashboardsLoudounBosBudgetRoute: DashboardsLoudounBosBudgetRoute,
   DashboardsLoudounBosFindTheMomentRoute:

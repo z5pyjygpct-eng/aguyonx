@@ -1,0 +1,17 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-schools/transcripts/han-sb-1595.json",
+  "outBase": "public/files/find-the-moment/hanover-schools/transcripts/coraggio-transcript-hanover-schools-2026-02-03-hanover-county-school-board-meeting",
+  "title": "Hanover County School Board Meeting, Tuesday, February 3, 2026",
+  "shortTitle": "School Board Meeting \u00b7 Feb 3, 2026",
+  "date": "Tuesday, February 3, 2026",
+  "place": "Hanover County School Board, Virginia",
+  "length": "33m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/1595/media"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

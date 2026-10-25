@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/hanover-bos/transcripts/hanover-bos-1378.json",
+  "outBase": "public/files/find-the-moment/hanover-bos/transcripts/coraggio-transcript-hanover-bos-2025-04-02-hanover-county-board-of-supervisors-meeting-budget-public-hearing",
+  "title": "Hanover County Board of Supervisors Meeting - Budget Public Hearing, Wednesday, April 2, 2025",
+  "shortTitle": "Board of Supervisors Meeting - Budget Public Hearing \u00b7 Apr 2, 2025",
+  "date": "Wednesday, April 2, 2025",
+  "place": "Hanover County Board of Supervisors, Virginia",
+  "length": "39m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://hanovercova.portal.civicclerk.com/event/1378/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3649,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3738,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

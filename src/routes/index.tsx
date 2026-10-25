@@ -200,7 +200,9 @@ function Home() {
                 </select>
               </label>
             </div>
-            <p className="mt-3 text-sm text-night-muted">Coming soon: {COMING_SOON_LOCALITIES.join(" · ")}</p>
+            {COMING_SOON_LOCALITIES.length > 0 && (
+              <p className="mt-3 text-sm text-night-muted">Coming soon: {COMING_SOON_LOCALITIES.join(" · ")}</p>
+            )}
           </div>
         </section>
 

@@ -1,0 +1,25 @@
+{
+  "windowsFile": "public/files/find-the-moment/chesterfield-bos/transcripts/chesterfield-bos-1231.json",
+  "outBase": "public/files/find-the-moment/chesterfield-bos/transcripts/coraggio-transcript-chesterfield-bos-2025-05-28-chesterfield-county-board-of-supervisors-meeting-may-28-2025",
+  "title": "Chesterfield County Board of Supervisors Meeting - May 28, 2025, Wednesday, May 28, 2025",
+  "shortTitle": "Board of Supervisors Meeting - May 28, 2025 \u00b7 May 28, 2025",
+  "date": "Wednesday, May 28, 2025",
+  "place": "Chesterfield County Board of Supervisors, Virginia",
+  "length": "4h 29m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (CivicClerk)",
+      "href": "https://chesterfieldcova.portal.civicclerk.com/event/1231/media"
+    },
+    {
+      "label": "Official agenda (CivicClerk)",
+      "href": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2173,plainText=false)"
+    },
+    {
+      "label": "Official minutes (CivicClerk)",
+      "href": "https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3604,plainText=false)"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-24"
+}

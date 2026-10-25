@@ -68,6 +68,7 @@ export function ftmLocalities(): FtmLocality[] {
     cityLocality("manassas", "Manassas"),
     cityLocality("hanover", "Hanover"),
     cityLocality("chesterfield", "Chesterfield"),
+    cityLocality("henrico", "Henrico"),
     {
       id: "general-assembly",
       label: "General Assembly",
