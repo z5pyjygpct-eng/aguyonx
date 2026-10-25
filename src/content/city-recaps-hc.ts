@@ -6892,9 +6892,9 @@ export const HC_RECAPS: CityRecap[] = [
     "dateLabel": "Wednesday, January 15, 2025",
     "whenWhere": "Hanover County Board of Supervisors meeting · video 3h 53m",
     "official": {
-      "votesPosted": false,
+      "votesPosted": true,
       "checkedLabel": "Oct 25, 2026, 8:30 AM ET",
-      "note": "Hanover County posted the official minutes for this meeting only as a scanned image, which our tools could not read reliably on Oct 25, 2026. Votes will be added only from the official record.",
+       "note": "Actions and tallies below are copied from the official minutes linked here (lightly cleaned of PDF scan artifacts). Hanover posted these minutes as a scanned image; we read them with OCR and checked every vote against the page image. Nothing is inferred from video or transcript.",
       "links": [
         {
           "label": "meeting video (CivicClerk)",
@@ -6910,7 +6910,134 @@ export const HC_RECAPS: CityRecap[] = [
         }
       ]
     },
-    "decisions": [],
+    "decisions": [
+      {
+        "item": "AMENDMENTS TO THE AGENDA",
+        "action": "Mr. Herzberg made a motion to amend the agenda with the addition of a Closed Session pursuant to the following authority: Va. Code Section 2.2-3711(A)(1) — Discussion of candidate for employment - Assessor Ms. Prichard seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "AMENDMENTS TO THE AGENDA",
+        "action": "Mr. Davis made a motion to approve the appointment of Board Members to Committees. Ms. Floyd seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "AMENDMENTS TO THE AGENDA",
+        "action": "Mr. Davis made a motion to add an additional agenda item as Item V. G. - Annual Reorganization — Extension of the Declaration of Local Emergency. Ms. Floyd seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "ANNUAL REORGANIZATION SESSION — Election of Chair",
+        "action": "Ms. Dibble nominated Mr. Michael Herzberg as Chair for 2025. Ms. Floyd seconded the motion. With no other nominees presented, Ms. Dibble called to close the nominations.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "ANNUAL REORGANIZATION SESSION — Election of Vice-Chair",
+        "action": "Mr. Stoneman nominated Mr. Sean Davis as Vice-Chair for 2025. Ms. Dibble seconded the nomination. With no other nominees presented, Mr. Herzberg called to close the nominations.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "ANNUAL REORGANIZATION SESSION",
+        "action": "Mr. Davis made a motion to adopt the 2025 Meeting Schedule as presented. Ms. Prichard seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "ANNUAL REORGANIZATION SESSION",
+        "action": "Mr. Davis made a motion to adopt the amended Appointment of Board Members to Committees. Ms. Prichard seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "ANNUAL REORGANIZATION SESSION",
+        "action": "Ms. Prichard made a motion for the Board’s consideration that the Board re-adopt the Standing Rules and Procedures. Mr. Stoneman seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "ANNUAL REORGANIZATION SESSION",
+        "action": "Mr. Davis made a motion to amend the resolution previously approved as follows: RESOLUTION HANOVER COUNTY BOARD OF SUPERVISORS CONFIRMATION OF LOCAL EMERGENCY WHEREAS, on January 7,2025, the county administrator, acting as directive director of emergency management pursuant to the authority of the Board of Supervisors, declared that an emergency existed in Hanover County because of a municipal water supply shortage …",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "CONSENT AGENDA",
+        "action": "Mr. Davis made a motion to approve the Consent Agenda as amended. Ms. Prichard seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "PRESENTATION: TRANSPORTATION UPDATES",
+        "action": "Mr. Stoneman made a motion to close discussion on this agenda item. Mr. Herzberg seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "PRESENTATION: TRANSPORTATION UPDATES",
+        "action": "Mr. Hudson asked that County staff be directed to consider the improvements to the Route 360/Atlee Rd./Cold Harbor Rd. roundabout in future small area design. Mr. Herzberg seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "CLOSED SESSION",
+        "action": "Mr. Davis made a motion that the Board of Supervisors enter into closed session pursuant to the following authority: Va. Code Section 2.2-3711(A)(1) — Discussion of candidate for employment — Assessor Ms. Prichard seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      },
+      {
+        "item": "CLOSED SESSION",
+        "action": "Mr. Davis made a motion that the Board of Supervisors certify that, during the closed session, only public business matters lawfully exempted from the open meeting requirements of the Freedom of Information Act, and only such public business matters as were identified in the motion of closed session, were discussed. Ms. Prichard seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3513,plainText=false)"
+        }
+      }
+    ],
     "context": [],
     "agenda": [],
     "transcriptDownloads": {
@@ -6938,9 +7065,9 @@ export const HC_RECAPS: CityRecap[] = [
     "dateLabel": "Wednesday, January 22, 2025",
     "whenWhere": "Hanover County Board of Supervisors meeting · video 5h 2m",
     "official": {
-      "votesPosted": false,
+      "votesPosted": true,
       "checkedLabel": "Oct 25, 2026, 8:30 AM ET",
-      "note": "Hanover County posted the official minutes for this meeting only as a scanned image, which our tools could not read reliably on Oct 25, 2026. Votes will be added only from the official record.",
+       "note": "Actions and tallies below are copied from the official minutes linked here (lightly cleaned of PDF scan artifacts). Hanover posted these minutes as a scanned image; we read them with OCR and checked every vote against the page image. Nothing is inferred from video or transcript.",
       "links": [
         {
           "label": "meeting video (CivicClerk)",
@@ -6956,7 +7083,152 @@ export const HC_RECAPS: CityRecap[] = [
         }
       ]
     },
-    "decisions": [],
+    "decisions": [
+      {
+        "item": "AMENDMENTS TO THE AGENDA",
+        "action": "Mr. Davis made a motion to add item VI.A. 2 - Director of Real Estate Appointment, appointing Mr. Derek Green to that position under the terms and conditions of employment agreed to by the County Administrator and Mr. Green. Ms. Prichard seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "AMENDMENTS TO THE AGENDA — SE2024-00026",
+        "action": "Mr. Davis then moved that the Board accept the request to defer case SE2024-00026 - Pamela Harris to March 26,2025 as requested by the applicant. Ms. Floyd seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "CONSENT AGENDA",
+        "action": "Mr. Davis made a motion to adopt the Consent Agenda as presented. Ms. Floyd seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PUBLIC HEARING: ORDINANCE 24-11",
+        "action": "Ms. Dibble made a motion to approve Ordinance 24-11 as presented. Mr. Stoneman seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PUBLIC HEARING: DISPOSITION AND SALE OF PUBLICLY-HELD REAL PROPERTY - GPIN 7788-52-6309 (part)",
+        "action": "Ms. Dibble made a motion to (1) approve the sale of GPIN 7788-52-6309 (part) to Northern Lewistown Road Associates, LLC for the appraised value of the property, and authorize the County Administrator and County Attorney to take all steps necessary to complete the sale. Ms. Prichard seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — CUP2024-00015",
+        "action": "Mr. Davis then made a motion to approve CUP2024-00015 — Hanover County Board of Supervisors (Public Utilities Department) as submitted. Ms. Floyd seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — REZ2024-00016",
+        "action": "Ms. Floyd made a motion to approve REZ2024-00016, Dovell and Williams, L.L.C, - Chickahominy District. Mr. Hudson second.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — CUP2024-00019",
+        "action": "Mr. Stoneman made a motion to approve CUP2024-00019, Virginia Electric and Power Company - Beaverdam District as submitted. Ms. Floyd seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — SE2024-00022",
+        "action": "Mr. Stoneman made a motion to approve SE2024-00022, Virginia Electric and Power Company — Beaverdam District. Mr. Hudson seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — REZ2024-00013",
+        "action": "Ms. Prichard made a motion to approve REZ2024-00013, FRHP Lincolnshire, L.L.C. Ms. Floyd seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — SE2023-00019",
+        "action": "Ms. Prichard made a motion to approve SE2023-00019, FRHP Lincolnshire, L.L.C. Ms. Floyd seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — REZ2024-00020",
+        "action": "He made a motion to approve REZ2024-00020, subject to the conceptual plan dated January 21,2025, and proffers dated December 19,2024. Mr. Davis seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — REZ2024-00014",
+        "action": "Ms. Prichard made a motion to defer REZ2024-00014, Belinda and Charles Flournoy for two months. Ms. Floyd seconded the motion. Ms. Prichard added that she would like to direct staff to develop a Comprehensive Plan Amendment.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — SE2024-00018",
+        "action": "Mr. Davis made a motion to deny SE2024-00018, Jacki Noel Melton and Dennis Wayne Melton, Jr. Ms. Dibble seconded the motion. Mr. Stoneman spoke regarding his business and noting the he would abstain from voting due to a perceived conflict of interest. The Chair called for the vote:",
+        "tally": "Carried 6-0 (Abstain: Stoneman)",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "Extend meeting",
+        "action": "Mr. Davis made a motion to extend the Board of Supervisors meeting to no later than 11:30 p.m., unless another additional motion is required. Ms. Prichard seconded the motion.",
+        "tally": "Carried 6-1 (Nay: Herzberg)",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — Ordinance 24-09",
+        "action": "Ms. Dibble made a motion as the chair of the Community Development Committee to adopt Ordinance 24-09 — Short-Term Rentals as presented with the following amendments: any short-term rental proposed in a residential subdivision will require a special exception not withstanding state code. Within the special exception process, any restrictive covenants will be submitted with that application. Ms. Prichard seconded the motion.",
+        "tally": "Carried 6-1 (Nay: Hudson)",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3516,plainText=false)"
+        }
+      }
+    ],
     "context": [],
     "agenda": [],
     "transcriptDownloads": {
@@ -6984,9 +7256,9 @@ export const HC_RECAPS: CityRecap[] = [
     "dateLabel": "Wednesday, February 12, 2025",
     "whenWhere": "Hanover County Board of Supervisors meeting · video 1h 48m",
     "official": {
-      "votesPosted": false,
+      "votesPosted": true,
       "checkedLabel": "Oct 25, 2026, 8:30 AM ET",
-      "note": "Hanover County posted the official minutes for this meeting only as a scanned image, which our tools could not read reliably on Oct 25, 2026. Votes will be added only from the official record.",
+       "note": "Actions and tallies below are copied from the official minutes linked here (lightly cleaned of PDF scan artifacts). Hanover posted these minutes as a scanned image; we read them with OCR and checked every vote against the page image. Nothing is inferred from video or transcript.",
       "links": [
         {
           "label": "meeting video (CivicClerk)",
@@ -7002,7 +7274,62 @@ export const HC_RECAPS: CityRecap[] = [
         }
       ]
     },
-    "decisions": [],
+    "decisions": [
+      {
+        "item": "AMENDMENTS TO THE AGENDA",
+        "action": "Mr. Davis made a motion to remove Item E — Request for Adoption of Resolution: Granting the Treasurer Authority to Write Off Taxes Owed Under a Certain Amount — from the Consent Agenda and remand to the Finance Committee. Ms. Floyd seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3626,plainText=false)"
+        }
+      },
+      {
+        "item": "AMENDMENTS TO THE AGENDA",
+        "action": "Mr. Davis made a motion to add the appointment of Mr. Ronald Edward Kieper Jr. to the Economic Development Authority, representing the Mechanicsville Magisterial District, filling an unexpired term ending December 31,2026 as Item V. D. 6. Mr. Ryan Hudson seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3626,plainText=false)"
+        }
+      },
+      {
+        "item": "CONSENT AGENDA",
+        "action": "Mr. Davis made a motion to adopt the Consent Agenda as amended. Ms. Floyd seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3626,plainText=false)"
+        }
+      },
+      {
+        "item": "COMMITTEE APPOINTMENT: PAMUNKEY REGIONAL LIBRARY BOARD",
+        "action": "Mr. Herzberg made a motion to appoint Ms. Jody McMaster as an At-Large member of the Pamunkey Regional Library Board, representing Hanover County. Mr. Hudson seconded. Ms. Prichard shared her appreciation of the manner in which Mr. Herzberg introduced this nomination to Board members but added that she would not be able to support this appointment.",
+        "tally": "Carried 6-1 (Nay: Prichard)",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3626,plainText=false)"
+        }
+      },
+      {
+        "item": "CLOSED SESSION",
+        "action": "Mr. Davis made a motion to move the Board into Closed Session pursuant to the following authorities: A. Va. Code Section 2.2-3711(a)(7) - Consultation with legal counsel pertaining to actual litigation — Christopher Hatcher et al. v. The County of Hanover B. Va. Code Section 2.2-371 1(a)(8) — Consultation with legal counsel regarding specific legal matters requiring provision of legal advice — Enforcement of Hanover …",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3626,plainText=false)"
+        }
+      },
+      {
+        "item": "CLOSED SESSION",
+        "action": "Mr. Davis made a motion that the Board of Supervisors certify that, during the closed session, only public business matters lawfully exempted from the open meeting requirements of the Freedom of Information Act, and only such public business matters as were identified in the motion of closed session, were discussed. Ms. Prichard seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3626,plainText=false)"
+        }
+      }
+    ],
     "context": [],
     "agenda": [],
     "transcriptDownloads": {
@@ -8318,9 +8645,9 @@ export const HC_RECAPS: CityRecap[] = [
     "dateLabel": "Wednesday, August 27, 2025",
     "whenWhere": "Hanover County Board of Supervisors meeting · video 4h 6m",
     "official": {
-      "votesPosted": false,
+      "votesPosted": true,
       "checkedLabel": "Oct 25, 2026, 8:30 AM ET",
-      "note": "Hanover County posted the official minutes for this meeting only as a scanned image, which our tools could not read reliably on Oct 25, 2026. Votes will be added only from the official record.",
+       "note": "Actions and tallies below are copied from the official minutes linked here (lightly cleaned of PDF scan artifacts). Hanover posted these minutes as a scanned image; we read them with OCR and checked every vote against the page image. Nothing is inferred from video or transcript.",
       "links": [
         {
           "label": "meeting video (CivicClerk)",
@@ -8336,7 +8663,125 @@ export const HC_RECAPS: CityRecap[] = [
         }
       ]
     },
-    "decisions": [],
+    "decisions": [
+      {
+        "item": "AMENDMENTS TO THE AGENDA",
+        "action": "Mr. Davis made a motion to add Item X B. — Closed Session - Virginia Code § 2.2-3711(a)(7) Consultation with legal counsel pertaining to actual litigation - Blagmon v. Hanover County. Ms. Prichard seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "CONSENT AGENDA",
+        "action": "Mr. Davis made a motion to approve the Consent Agenda as presented. Ms. Floyd seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "CLOSED SESSION",
+        "action": "Mr. Davis made a motion to move the Board of Supervisors into Closed Session under the following authorities: Va. Code § 2.2-3711(A)(3) — Consideration of the Acquisition of Real Property for a Public Purpose — Pole Green Rd Widening Project: GPINs …",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "CLOSED SESSION",
+        "action": "Mr. Davis made a motion that the Board of Supervisors certify that, during the closed session, only public business matters lawfully exempted from the open meeting requirements of the Freedom of Information Act, and only such public business matters as were identified in the motion of closed session, were discussed. Mr. Hudson seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "CLOSED SESSION — follow-up action",
+        "action": "Mr. Davis made a motion that the Board of Supervisors authorize advertisement of a public hearing on September 24,2025 at 6:00 PM regarding adoption of a resolution that would approve the acquisition by condemnation or other means of fee simple right of way and easements for the parcels with GPINS listed in the agenda item related to the Pole Green Road Widening Project. Ms. Floyd seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "CLOSED SESSION",
+        "action": "Mr. Davis made a motion to approve the proposed settlement in the Blagmon v. Hanover County under the terms discussed during closed session with the County Attorney and Outside Counsel. Ms. Prichard seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "PUBLIC HEARING: HANOVER COUNTY AIRPORT - LEASE OF REAL PROPERTY, 11152 AIR PARK ROAD",
+        "action": "Ms. Prichard made a motion to approve the lease of real property at 11152 Air Park Road in Hanover, Virginia as described in the presentation. Ms. Floyd seconded the motion.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — CUP2025-00006",
+        "action": "Ms. Floyd made a motion to approve CUP2025-00006 - St. Paul's Lutheran Church with conditions as presented. Mr. Hudson seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — SE2025-00012",
+        "action": "She made a motion to approve SE2025-00012 - Jessica and Garrett Christ with conditions listed, excluding Condition #4 (Access) and revision of Condition #6 (Deed of Easement). Ms. Floyd seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — SE2025-00017",
+        "action": "Mr. Herzberg made a motion to approve SE2025-00017 - Katherine T. and Bart F. Payne. Mr. Hudson seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — CPA2025-00002",
+        "action": "Ms. Dibble made a motion to accept CPA2025-00002 - Hanover County Board of Supervisors with revision number one from the Planning Commission as follows: Revision #1: On the conceptual plan, change the first 1,400 feet on the east side of U.S. Route 33 (from the Chickahominy River) from Commercial to Industrial, showing a 200’ buffer along U.S. Route 33 where existing vegetation will be maintained and supplemented …",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — Ordinance 25-12",
+        "action": "She made a motion to approve Ordinance 25-12 - Hanover County - Secondary Kitchens (Permitted Accessory Use in Agricultural and Single-Family Residential Zoning Districts. Mr. Hudson seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      },
+      {
+        "item": "PLANNING PUBLIC HEARINGS — Ordinance 25-11",
+        "action": "Ms. Floyd voted to approve Ordinance 25-11 - Hanover County - Recreational Substances, Retail Stores (Conditional Use in Select Commercial and Industrial Districts) as proposed. Ms. Prichard seconded.",
+        "tally": "Carried 7-0",
+        "source": {
+          "label": "Official minutes (Hanover County, CivicClerk)",
+          "href": "https://hanovercova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4125,plainText=false)"
+        }
+      }
+    ],
     "context": [],
     "agenda": [],
     "transcriptDownloads": {
@@ -9086,7 +9531,7 @@ export const HC_RECAPS: CityRecap[] = [
     "official": {
       "votesPosted": false,
       "checkedLabel": "Oct 25, 2026, 8:30 AM ET",
-      "note": "Hanover County posted the official minutes for this meeting only as a scanned image, which our tools could not read reliably on Oct 25, 2026. Votes will be added only from the official record.",
+       "note": "The file Hanover County posted as minutes for this joint meeting is the agenda and presentation slides, not minutes, so no official votes are available yet (checked Oct 25, 2026). Votes will be added only from the official record.",
       "links": [
         {
           "label": "meeting video (CivicClerk)",

@@ -107,7 +107,6 @@ export const VBOE_MEETINGS: VboeMeeting[] = [
   { id: "vboe-LYT9-P5_gHc", youtubeId: "LYT9-P5_gHc", date: "2022-08-17", dateLabel: "Aug 17, 2022", title: "Business Meeting (Part 2)", duration: "6h 10m", durationS: 22202 },
   { id: "vboe-rt7G6H1EqhY", youtubeId: "rt7G6H1EqhY", date: "2022-04-21", dateLabel: "Apr 21, 2022", title: "Business Meeting", duration: "2h 43m", durationS: 9800 },
   { id: "vboe-RfScME8c_4k", youtubeId: "RfScME8c_4k", date: "2022-04-20", dateLabel: "Apr 20, 2022", title: "Work Session", duration: "3h 18m", durationS: 11884 },
-  { id: "vboe-EGyzJjHe8Ak", youtubeId: "EGyzJjHe8Ak", date: "2022-04-20", dateLabel: "Apr 20, 2022", title: "Work Session (short segment)", duration: "36m", durationS: 2213 },
   { id: "vboe-_NZ6ElwUFfU", youtubeId: "_NZ6ElwUFfU", date: "2022-03-17", dateLabel: "Mar 17, 2022", title: "Business Meeting", duration: "4h 16m", durationS: 15373 },
   { id: "vboe-IWWkBYMYDSg", youtubeId: "IWWkBYMYDSg", date: "2022-03-16", dateLabel: "Mar 16, 2022", title: "Work Session", duration: "4h 32m", durationS: 16331 },
   { id: "vboe-G_cUYsYVGxk", youtubeId: "G_cUYsYVGxk", date: "2022-01-27", dateLabel: "Jan 27, 2022", title: "Business Meeting", duration: "2h 32m", durationS: 9152 },
