@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-schools/transcripts/hen-sb-zSQQUf1L6Mo.json",
+  "outBase": "public/files/find-the-moment/henrico-schools/transcripts/coraggio-transcript-henrico-schools-2025-06-12-henrico-county-school-board-monthly-meeting",
+  "title": "Henrico County School Board Monthly Meeting, Thursday, June 12, 2025",
+  "shortTitle": "School Board Monthly Meeting \u00b7 Jun 12, 2025",
+  "date": "Thursday, June 12, 2025",
+  "place": "Henrico County School Board, Virginia",
+  "length": "31m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=zSQQUf1L6Mo"
+    },
+    {
+      "label": "Official meeting portal (Henrico County Public Schools, Diligent Community)",
+      "href": "https://henricoschools.community.diligentoneplatform.com/Portal/MeetingTypeList.aspx"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

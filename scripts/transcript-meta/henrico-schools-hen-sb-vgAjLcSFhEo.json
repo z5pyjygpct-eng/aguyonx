@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-schools/transcripts/hen-sb-vgAjLcSFhEo.json",
+  "outBase": "public/files/find-the-moment/henrico-schools/transcripts/coraggio-transcript-henrico-schools-2024-08-22-henrico-county-school-board-monthly-meeting",
+  "title": "Henrico County School Board Monthly Meeting, Thursday, August 22, 2024",
+  "shortTitle": "School Board Monthly Meeting \u00b7 Aug 22, 2024",
+  "date": "Thursday, August 22, 2024",
+  "place": "Henrico County School Board, Virginia",
+  "length": "25m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=vgAjLcSFhEo"
+    },
+    {
+      "label": "Official meeting portal (Henrico County Public Schools, Diligent Community)",
+      "href": "https://henricoschools.community.diligentoneplatform.com/Portal/MeetingTypeList.aspx"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

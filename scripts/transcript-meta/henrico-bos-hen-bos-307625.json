@@ -1,0 +1,29 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-bos/transcripts/hen-bos-307625.json",
+  "outBase": "public/files/find-the-moment/henrico-bos/transcripts/coraggio-transcript-henrico-bos-2024-06-11-henrico-county-board-of-supervisors-regular-meeting",
+  "title": "Henrico County Board of Supervisors Regular Meeting, Tuesday, June 11, 2024",
+  "shortTitle": "Board of Supervisors Regular Meeting \u00b7 Jun 11, 2024",
+  "date": "Tuesday, June 11, 2024",
+  "place": "Henrico County Board of Supervisors, Virginia",
+  "length": "1h 50m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://henricocountyva.new.swagit.com/videos/307625"
+    },
+    {
+      "label": "Official agenda (Henrico County)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2024/061124ag.pdf"
+    },
+    {
+      "label": "Official minutes (Henrico County, regular meeting)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2024/061124regmins.PDF"
+    },
+    {
+      "label": "Agend-O-Gram, Jun 25, 2024 (records the Board's approval of these minutes)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2024/6-25-24Agend-O-Gram.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-26"
+}

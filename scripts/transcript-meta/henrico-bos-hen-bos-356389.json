@@ -1,0 +1,29 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-bos/transcripts/hen-bos-356389.json",
+  "outBase": "public/files/find-the-moment/henrico-bos/transcripts/coraggio-transcript-henrico-bos-2025-09-23-henrico-county-board-of-supervisors-regular-meeting",
+  "title": "Henrico County Board of Supervisors Regular Meeting, Tuesday, September 23, 2025",
+  "shortTitle": "Board of Supervisors Regular Meeting \u00b7 Sep 23, 2025",
+  "date": "Tuesday, September 23, 2025",
+  "place": "Henrico County Board of Supervisors, Virginia",
+  "length": "1h 4m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://henricocountyva.new.swagit.com/videos/356389"
+    },
+    {
+      "label": "Official agenda (Henrico County)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/092325ag.pdf"
+    },
+    {
+      "label": "Official minutes (Henrico County, regular meeting)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/092325regmins.PDF"
+    },
+    {
+      "label": "Minutes, Oct 14, 2025 (record the Board's approval of these minutes)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/101425regmins.PDF"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

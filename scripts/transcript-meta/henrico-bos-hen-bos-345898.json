@@ -1,0 +1,29 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-bos/transcripts/hen-bos-345898.json",
+  "outBase": "public/files/find-the-moment/henrico-bos/transcripts/coraggio-transcript-henrico-bos-2025-06-11-henrico-county-board-of-supervisors-joint-special-meeting-with-hanover-county-board-of-supervisors",
+  "title": "Henrico County Board of Supervisors Joint Special Meeting with Hanover County Board of Supervisors, Wednesday, June 11, 2025",
+  "shortTitle": "Board of Supervisors Joint Special Meeting with Hanover County Board of Supervisors \u00b7 Jun 11, 2025",
+  "date": "Wednesday, June 11, 2025",
+  "place": "Henrico County Board of Supervisors, Virginia",
+  "length": "1h 57m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://henricocountyva.new.swagit.com/videos/345898"
+    },
+    {
+      "label": "Official agenda (Henrico County)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/061125ag.pdf"
+    },
+    {
+      "label": "Official minutes (Henrico County, special meeting)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/061125spmins.PDF"
+    },
+    {
+      "label": "Agend-O-Gram, Jul 22, 2025 (records the Board's approval of these minutes)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/7-22-25Agend-O-Gram.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

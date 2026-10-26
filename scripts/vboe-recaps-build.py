@@ -44,7 +44,11 @@ NOTE_1024 = {"vboe-cczTSpUkw4Q": " The Sep 14 executive session license votes in
  "vboe-LYT9-P5_gHc": " This video picks up the business meeting after the morning session."}
 SLUG_KEEP = {"vboe-XLY0vCLSzmg": "2022-09-14-work-session", "vboe-hUyPAkWm6FI": "2022-08-17-work-session", "vboe-LYT9-P5_gHc": "2022-08-17-business-meeting",
  "vboe-eSl1gssmSnk": "2021-10-20-standards-of-quality-session", "vboe-wtJ44RMB7IA": "2021-07-21-work-session"}
-def CHK(m): return "Oct 24, 2026" if m["id"] in NOMAP_1024 else ("Oct 23, 2026" if m["date"] < "2025-03-01" else "Oct 22, 2026")
+# Added 2026-10-26: 5 videos ingested Oct 26 2026 (2 Lab Schools committees, Public Charter School committee, SOA special
+# committee, May 7 2020 business meeting). None are hand-matched to Town Hall minutes yet, so no minutes attach (votesPosted false).
+NEW_1026 = set(["vboe-sNdct5jUNZM", "vboe-mgKbMnJeUzU", "vboe-kAoe4aJil40", "vboe-_m_wh0bQEXE", "vboe-qZ239POaKFM"])
+NOMAP_1024 |= set(["vboe-qZ239POaKFM"])
+def CHK(m): return "Oct 26, 2026" if m["id"] in NEW_1026 else "Oct 24, 2026" if m["id"] in NOMAP_1024 else ("Oct 23, 2026" if m["date"] < "2025-03-01" else "Oct 22, 2026")
 
 def tally(t):
     if re.search(r"voted unanimously", t, re.I): return "Carried unanimously"

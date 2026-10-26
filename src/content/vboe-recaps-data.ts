@@ -5736,6 +5736,57 @@ export const VBOE_RECAPS: VboeRecap[] = [
   "context": []
  },
  {
+  "slug": "2025-05-08-public-charter-school-standing-committee",
+  "meetingId": "vboe-sNdct5jUNZM",
+  "date": "2025-05-08",
+  "title": "Public Charter School Standing Committee",
+  "dateLabel": "May 8, 2025",
+  "whenWhere": "Virginia Board of Education · Public Charter School Standing Committee · video 2h 4m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2025-05-08-public-charter-school-standing-committee.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2025-05-08-public-charter-school-standing-committee.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 26, 2026",
+   "note": "Votes unavailable: no official VDOE minutes found for this meeting.",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 653,
+    "label": "Call to order",
+    "quote": "Hello, my name is Mache Ashton, and I'd like to call this meeting to order. President Creasy, should I throw it over to you? Yes, that's fine. Okay. All right. Thank you. Good afternoon, everyone."
+   },
+   {
+    "seconds": 792,
+    "label": "Public comment period",
+    "quote": "from the July 2024 meeting? So moved. All those in favor? Any opposed? Okay. The standing committee accepts public comment on all matters related to public charter schools in Virginia. …"
+   },
+   {
+    "seconds": 1283,
+    "label": "Presentation or new topic begins",
+    "quote": "those antiquated and outdated processes. After this approval revised materials were provided to all of the applicants and the department staff began offering weekly charter school office hours which …"
+   },
+   {
+    "seconds": 1463,
+    "label": "Presentation or new topic begins",
+    "quote": "by a proof of concept. The Harbor School team is led today by Ms. Sarah Craig. Ms. Craig is the lead community founder of the Harbor School. Ms. …"
+   },
+   {
+    "seconds": 3262,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 7421,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
   "slug": "2025-03-27-business-meeting",
   "meetingId": "vboe-zSxgSDgMfEc",
   "date": "2025-03-27",
@@ -8809,6 +8860,68 @@ export const VBOE_RECAPS: VboeRecap[] = [
   "context": []
  },
  {
+  "slug": "2024-06-10-lab-schools-standing-committee",
+  "meetingId": "vboe-mgKbMnJeUzU",
+  "date": "2024-06-10",
+  "title": "Lab Schools Standing Committee",
+  "dateLabel": "Jun 10, 2024",
+  "whenWhere": "Virginia Board of Education · Lab Schools Standing Committee · video 2h 15m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2024-06-10-lab-schools-standing-committee.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2024-06-10-lab-schools-standing-committee.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 26, 2026",
+   "note": "Votes unavailable: no official VDOE minutes found for this meeting.",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 4,
+    "label": "Call to order",
+    "quote": "i'm sorry claire if you can check the waiting room i believe mr hanson may be waiting for us you are now live thank you sir all right well good afternoon my name is joe wadiska i'm the chair of the …"
+   },
+   {
+    "seconds": 146,
+    "label": "Public comment period",
+    "quote": "chair votes aye as well dr moran did we log your vote aye aye thank you ma'am all right the motion the minutes are are approved thank you so much at this time we are going to go to public comment on …"
+   },
+   {
+    "seconds": 257,
+    "label": "Presentation or new topic begins",
+    "quote": "help you today so thank you i'll turn it over to dr wallace and dr and i'm sorry madam chair i just do want to recognize mr hanson has entered the call as well thank you sir so dr nicholson will will …"
+   },
+   {
+    "seconds": 724,
+    "label": "Presentation or new topic begins",
+    "quote": "to look at instruction so that our students are monitored throughout the process as well as instruction that's created to give them the needed helps that they'll need to continue and to be strong in …"
+   },
+   {
+    "seconds": 3730,
+    "label": "Presentation or new topic begins",
+    "quote": "we're going to do is to invite you as a starting point to tell us about your application. You've got a presentation that you'll be bringing up. …"
+   },
+   {
+    "seconds": 5409,
+    "label": "Presentation or new topic begins",
+    "quote": "thank you it was wonderful to hear from each of you i'm now going to turn it over to dr andy armstrong who will present the staff report on the aerospace academy proposal thank you dr moran And …"
+   },
+   {
+    "seconds": 6631,
+    "label": "Presentation or new topic begins",
+    "quote": "committee's work. We will continue to accept and review lab school applications per statute while expanding our work to support those approved lab schools that will become operational in the fall of …"
+   },
+   {
+    "seconds": 8065,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
   "slug": "2024-05-21-special-meeting",
   "meetingId": "vboe-cdFJQWt6NHw",
   "date": "2024-05-21",
@@ -10591,6 +10704,42 @@ export const VBOE_RECAPS: VboeRecap[] = [
    },
    {
     "seconds": 9675,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2024-02-05-lab-schools-standing-committee",
+  "meetingId": "vboe-kAoe4aJil40",
+  "date": "2024-02-05",
+  "title": "Lab Schools Standing Committee",
+  "dateLabel": "Feb 5, 2024",
+  "whenWhere": "Virginia Board of Education · Lab Schools Standing Committee · video 1h 19m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2024-02-05-lab-schools-standing-committee.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2024-02-05-lab-schools-standing-committee.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 26, 2026",
+   "note": "Votes unavailable: no official VDOE minutes found for this meeting.",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 0,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 93,
+    "label": "Public comment period",
+    "quote": "The share votes aye as well. Any opposed the same? The motion is approved and therefore the minutes are approved from the last meeting at this time normally in our committee meetings we take public …"
+   },
+   {
+    "seconds": 4723,
     "label": "Adjournment"
    }
   ],
@@ -19407,6 +19556,82 @@ export const VBOE_RECAPS: VboeRecap[] = [
   "context": []
  },
  {
+  "slug": "2020-08-27-special-committee-on-standards-of-accreditation",
+  "meetingId": "vboe-_m_wh0bQEXE",
+  "date": "2020-08-27",
+  "title": "Special Committee on Standards of Accreditation",
+  "dateLabel": "Aug 27, 2020",
+  "whenWhere": "Virginia Board of Education · Special Committee on Standards of Accreditation · video 2h 18m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-08-27-special-committee-on-standards-of-accreditation.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-08-27-special-committee-on-standards-of-accreditation.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 26, 2026",
+   "note": "Votes unavailable: no official VDOE minutes found for this meeting.",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 0,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 128,
+    "label": "Presentation or new topic begins",
+    "quote": "rights to do it now because i'm changing it to all panelists um so you you should be good to go and our um when we get to you all's presentation our chair is going to introduce the ucs team and then …"
+   },
+   {
+    "seconds": 803,
+    "label": "Presentation or new topic begins",
+    "quote": "All right. I do have that it's 10 o'clock and we have all of our board members and all of our presenters here. …"
+   },
+   {
+    "seconds": 1046,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 1189,
+    "label": "Presentation or new topic begins",
+    "quote": "for our first presentation today we are joined by holly coy assistant superintendent for policy equity and communication dr leslie sale excuse me director of policy dr jennifer piveretta director of …"
+   },
+   {
+    "seconds": 1395,
+    "label": "Presentation or new topic begins",
+    "quote": "over to Dr. Pai Varenna to talk about the data and what that says about the potential impacts that this new quote unquote version of the SOA has had in Virginia. …"
+   },
+   {
+    "seconds": 2317,
+    "label": "Presentation or new topic begins",
+    "quote": "great thank you leslie um so as you'll see here we're going to transition over to the outcomes of these 2017 changes to the standards um the the data is primarily driven by accreditation but um dr …"
+   },
+   {
+    "seconds": 5592,
+    "label": "Presentation or new topic begins",
+    "quote": "and Ben, I will turn it over to you. And Ben, you're good to share our slides, right? All right."
+   },
+   {
+    "seconds": 5692,
+    "label": "Presentation or new topic begins",
+    "quote": "those issues and we provide opportunities for states to learn from one another through various convening opportunities so that is ecs and this is a quick road map of what we plan to cover today so …"
+   },
+   {
+    "seconds": 5960,
+    "label": "Presentation or new topic begins",
+    "quote": "Now I'm going to go ahead and hand it over to Ben and he's going to go over national overviews, more specifics on accountability systems. Thanks Alyssa and good morning everyone. …"
+   },
+   {
+    "seconds": 7708,
+    "label": "Presentation or new topic begins",
+    "quote": "I feel like we did at least get to understand or see some information today from the BDOE presentation about instructional programs. …"
+   }
+  ],
+  "context": []
+ },
+ {
   "slug": "2020-07-23-business-meeting",
   "meetingId": "vboe-HpxprL7ccNg",
   "date": "2020-07-23",
@@ -19944,6 +20169,68 @@ export const VBOE_RECAPS: VboeRecap[] = [
    {
     "seconds": 7248,
     "label": "Recess or reconvene"
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2020-05-07-business-meeting",
+  "meetingId": "vboe-qZ239POaKFM",
+  "date": "2020-05-07",
+  "title": "Business Meeting",
+  "dateLabel": "May 7, 2020",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 2h 11m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-05-07-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-05-07-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Oct 26, 2026",
+   "note": "Votes not shown yet: VDOE's minutes for this period could not be matched to this specific video with confidence (the video's posted date and title don't line up with the Town Hall minutes).",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 82,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 446,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 554,
+    "label": "Public comment period",
+    "quote": "We'd like to welcome those joining us in the live stream from across the Commonwealth. A couple of things to note about this meeting. one, the board accepted written public comment for the meeting. …"
+   },
+   {
+    "seconds": 698,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 892,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2738,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 4478,
+    "label": "Presentation or new topic begins",
+    "quote": "aye dr duran aye miss holton aye dr mann aye dr pexton aye dr wilson aye i vote aye thank you Thank you very much. Next item also you Ms. Pitts. …"
+   },
+   {
+    "seconds": 6319,
+    "label": "Presentation or new topic begins",
+    "quote": "hear an update on where we are, not today, but perhaps we can do it at the June meeting, if we can have a presentation on where we are and next steps, and what do we need to do to start preparing …"
+   },
+   {
+    "seconds": 7838,
+    "label": "Adjournment"
    }
   ],
   "context": []

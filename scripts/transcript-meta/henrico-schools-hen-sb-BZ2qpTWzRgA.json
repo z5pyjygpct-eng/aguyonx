@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-schools/transcripts/hen-sb-BZ2qpTWzRgA.json",
+  "outBase": "public/files/find-the-moment/henrico-schools/transcripts/coraggio-transcript-henrico-schools-2025-09-18-henrico-county-school-board-town-hall",
+  "title": "Henrico County School Board Town Hall, Thursday, September 18, 2025",
+  "shortTitle": "School Board Town Hall \u00b7 Sep 18, 2025",
+  "date": "Thursday, September 18, 2025",
+  "place": "Henrico County School Board, Virginia",
+  "length": "12m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=BZ2qpTWzRgA"
+    },
+    {
+      "label": "Official meeting portal (Henrico County Public Schools, Diligent Community)",
+      "href": "https://henricoschools.community.diligentoneplatform.com/Portal/MeetingTypeList.aspx"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

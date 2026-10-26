@@ -1,0 +1,29 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-bos/transcripts/hen-bos-379062.json",
+  "outBase": "public/files/find-the-moment/henrico-bos/transcripts/coraggio-transcript-henrico-bos-2026-03-24-henrico-county-board-of-supervisors-budget-public-hearing",
+  "title": "Henrico County Board of Supervisors Budget Public Hearing, Tuesday, March 24, 2026",
+  "shortTitle": "Board of Supervisors Budget Public Hearing \u00b7 Mar 24, 2026",
+  "date": "Tuesday, March 24, 2026",
+  "place": "Henrico County Board of Supervisors, Virginia",
+  "length": "15m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://henricocountyva.new.swagit.com/videos/379062"
+    },
+    {
+      "label": "Official agenda (Henrico County)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2026/32426ag.pdf"
+    },
+    {
+      "label": "Official minutes (Henrico County, regular meeting)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2026/032426RegMins.PDF"
+    },
+    {
+      "label": "Agend-O-Gram, Apr 14, 2026 (records the Board's approval of these minutes)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2026/4-14-26Agend-O-Gram.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

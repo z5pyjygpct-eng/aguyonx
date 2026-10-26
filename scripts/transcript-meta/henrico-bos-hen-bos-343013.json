@@ -1,0 +1,29 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-bos/transcripts/hen-bos-343013.json",
+  "outBase": "public/files/find-the-moment/henrico-bos/transcripts/coraggio-transcript-henrico-bos-2025-05-15-henrico-county-board-of-supervisors-and-planning-commission-special-joint-meeting-data-centers",
+  "title": "Henrico County Board of Supervisors and Planning Commission Special Joint Meeting (Data Centers), Thursday, May 15, 2025",
+  "shortTitle": "Board of Supervisors and Planning Commission Special Joint Meeting (Data Centers) \u00b7 May 15, 2025",
+  "date": "Thursday, May 15, 2025",
+  "place": "Henrico County Board of Supervisors, Virginia",
+  "length": "2h 55m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://henricocountyva.new.swagit.com/videos/343013"
+    },
+    {
+      "label": "Official agenda (Henrico County)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/051525ag.pdf"
+    },
+    {
+      "label": "Official minutes (Henrico County, special meeting)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/051525spmins.PDF"
+    },
+    {
+      "label": "Agend-O-Gram, Jun 10, 2025 (records the Board's approval of these minutes)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/6-10-25Agend-O-Gram.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-schools/transcripts/hen-sb-_t1tYDmuom8.json",
+  "outBase": "public/files/find-the-moment/henrico-schools/transcripts/coraggio-transcript-henrico-schools-2024-12-12-henrico-county-school-board-monthly-meeting",
+  "title": "Henrico County School Board Monthly Meeting, Thursday, December 12, 2024",
+  "shortTitle": "School Board Monthly Meeting \u00b7 Dec 12, 2024",
+  "date": "Thursday, December 12, 2024",
+  "place": "Henrico County School Board, Virginia",
+  "length": "45m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=_t1tYDmuom8"
+    },
+    {
+      "label": "Official meeting portal (Henrico County Public Schools, Diligent Community)",
+      "href": "https://henricoschools.community.diligentoneplatform.com/Portal/MeetingTypeList.aspx"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

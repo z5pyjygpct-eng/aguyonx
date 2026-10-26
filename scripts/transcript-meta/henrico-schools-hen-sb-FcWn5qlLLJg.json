@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-schools/transcripts/hen-sb-FcWn5qlLLJg.json",
+  "outBase": "public/files/find-the-moment/henrico-schools/transcripts/coraggio-transcript-henrico-schools-2025-08-14-henrico-county-school-board-work-session",
+  "title": "Henrico County School Board Work Session, Thursday, August 14, 2025",
+  "shortTitle": "School Board Work Session \u00b7 Aug 14, 2025",
+  "date": "Thursday, August 14, 2025",
+  "place": "Henrico County School Board, Virginia",
+  "length": "1h 29m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=FcWn5qlLLJg"
+    },
+    {
+      "label": "Official meeting portal (Henrico County Public Schools, Diligent Community)",
+      "href": "https://henricoschools.community.diligentoneplatform.com/Portal/MeetingTypeList.aspx"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

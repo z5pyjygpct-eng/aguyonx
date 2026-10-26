@@ -1,0 +1,29 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-bos/transcripts/hen-bos-334476.json",
+  "outBase": "public/files/find-the-moment/henrico-bos/transcripts/coraggio-transcript-henrico-bos-2025-02-11-henrico-county-board-of-supervisors-work-session",
+  "title": "Henrico County Board of Supervisors Work Session, Tuesday, February 11, 2025",
+  "shortTitle": "Board of Supervisors Work Session \u00b7 Feb 11, 2025",
+  "date": "Tuesday, February 11, 2025",
+  "place": "Henrico County Board of Supervisors, Virginia",
+  "length": "2h 18m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://henricocountyva.new.swagit.com/videos/334476"
+    },
+    {
+      "label": "Official agenda (Henrico County)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/021125ag.pdf"
+    },
+    {
+      "label": "Official minutes (Henrico County, special meeting)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/021125spmins.PDF"
+    },
+    {
+      "label": "Agend-O-Gram, Feb 25, 2025 (records the Board's approval of these minutes)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2025/2-25-25Agend-O-Gram.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

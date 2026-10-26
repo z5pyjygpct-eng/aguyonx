@@ -1,0 +1,29 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-bos/transcripts/hen-bos-371932.json",
+  "outBase": "public/files/find-the-moment/henrico-bos/transcripts/coraggio-transcript-henrico-bos-2026-01-13-henrico-county-board-of-supervisors-regular-meeting",
+  "title": "Henrico County Board of Supervisors Regular Meeting, Tuesday, January 13, 2026",
+  "shortTitle": "Board of Supervisors Regular Meeting \u00b7 Jan 13, 2026",
+  "date": "Tuesday, January 13, 2026",
+  "place": "Henrico County Board of Supervisors, Virginia",
+  "length": "1h 23m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://henricocountyva.new.swagit.com/videos/371932"
+    },
+    {
+      "label": "Official agenda (Henrico County)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2026/11326ag.pdf"
+    },
+    {
+      "label": "Official minutes (Henrico County, regular meeting)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2026/011326regmins.PDF"
+    },
+    {
+      "label": "Agend-O-Gram, Jan 27, 2026 (records the Board's approval of these minutes)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2026/1-27-26Agend-O-Gram.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}

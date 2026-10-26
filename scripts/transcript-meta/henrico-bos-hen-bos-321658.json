@@ -1,0 +1,29 @@
+{
+  "windowsFile": "public/files/find-the-moment/henrico-bos/transcripts/hen-bos-321658.json",
+  "outBase": "public/files/find-the-moment/henrico-bos/transcripts/coraggio-transcript-henrico-bos-2024-12-03-henrico-county-board-of-supervisors-regular-meeting",
+  "title": "Henrico County Board of Supervisors Regular Meeting, Tuesday, December 3, 2024",
+  "shortTitle": "Board of Supervisors Regular Meeting \u00b7 Dec 3, 2024",
+  "date": "Tuesday, December 3, 2024",
+  "place": "Henrico County Board of Supervisors, Virginia",
+  "length": "2h 30m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Swagit)",
+      "href": "https://henricocountyva.new.swagit.com/videos/321658"
+    },
+    {
+      "label": "Official agenda (Henrico County)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2024/120324ag.pdf"
+    },
+    {
+      "label": "Official minutes (Henrico County, regular meeting)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2024/120324regmins.PDF"
+    },
+    {
+      "label": "Agend-O-Gram, Dec 17, 2024 (records the Board's approval of these minutes)",
+      "href": "https://henrico.gov/pdfs/manager/meetings2024/12-17-24Agend-O-Gram.pdf"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-25"
+}
