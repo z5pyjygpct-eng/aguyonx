@@ -20668,10 +20668,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 1194,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 4296,
         "label": "Adjournment."
       }
@@ -21048,7 +21044,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 147,
+        "seconds": 3378,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -21613,10 +21609,6 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Feb 13, 2024",
     "moments": [
       {
-        "seconds": 577,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 611,
         "label": "Pledge of Allegiance."
       },
@@ -21794,12 +21786,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Feb 27, 2024",
     "moments": [
       {
-        "seconds": 314,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 340,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1597,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -21944,12 +21936,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Mar 12, 2024",
     "moments": [
       {
-        "seconds": 729,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 765,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1495,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -22184,12 +22176,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Mar 26, 2024",
     "moments": [
       {
-        "seconds": 719,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 735,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 6044,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 8172,
@@ -22690,7 +22682,7 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Apr 23, 2024",
     "moments": [
       {
-        "seconds": 521,
+        "seconds": 1738,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -22907,7 +22899,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 1328,
+        "seconds": 5248,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -23056,10 +23048,6 @@ export const HC_RECAPS: CityRecap[] = [
     },
     "shareContext": "Henrico BOS, May 28, 2024",
     "moments": [
-      {
-        "seconds": 401,
-        "label": "Public comment / public hearing begins."
-      },
       {
         "seconds": 456,
         "label": "Pledge of Allegiance."
@@ -23265,12 +23253,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Jun 11, 2024",
     "moments": [
       {
-        "seconds": 444,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 478,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 3237,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 6563,
@@ -23455,12 +23443,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Jun 25, 2024",
     "moments": [
       {
-        "seconds": 593,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 625,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 4215,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 5802,
@@ -23717,12 +23705,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Jul 9, 2024",
     "moments": [
       {
-        "seconds": 313,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 356,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 2483,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 7592,
@@ -23943,12 +23931,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Aug 13, 2024",
     "moments": [
       {
-        "seconds": 463,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 506,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 4365,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -24147,12 +24135,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Aug 27, 2024",
     "moments": [
       {
-        "seconds": 337,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 387,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 689,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -24541,12 +24529,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Sep 24, 2024",
     "moments": [
       {
-        "seconds": 491,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 542,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 3665,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 5942,
@@ -24740,12 +24728,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Oct 8, 2024",
     "moments": [
       {
-        "seconds": 491,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 529,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1538,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 3964,
@@ -24939,12 +24927,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Oct 22, 2024",
     "moments": [
       {
-        "seconds": 507,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 543,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 2573,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 4557,
@@ -25544,12 +25532,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Dec 3, 2024",
     "moments": [
       {
-        "seconds": 493,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 548,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1377,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 8965,
@@ -25594,12 +25582,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Dec 17, 2024",
     "moments": [
       {
-        "seconds": 628,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 665,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1882,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 4175,
@@ -25946,12 +25934,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Jan 14, 2025",
     "moments": [
       {
-        "seconds": 505,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 573,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 6148,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -26190,7 +26178,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 401,
+        "seconds": 1919,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -26234,12 +26222,7 @@ export const HC_RECAPS: CityRecap[] = [
       "pdfNote": "32 pages"
     },
     "shareContext": "Henrico BOS, Feb 11, 2025",
-    "moments": [
-      {
-        "seconds": 8139,
-        "label": "Public comment / public hearing begins."
-      }
-    ],
+    "moments": [],
     "noVotesRecorded": true
   },
   {
@@ -26491,12 +26474,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Feb 11, 2025",
     "moments": [
       {
-        "seconds": 437,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 496,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 720,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -26636,7 +26619,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 470,
+        "seconds": 1996,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -26831,7 +26814,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 518,
+        "seconds": 1299,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -26999,7 +26982,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 285,
+        "seconds": 5744,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -27226,12 +27209,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Apr 8, 2025",
     "moments": [
       {
-        "seconds": 474,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 491,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 2522,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -27308,7 +27291,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 463,
+        "seconds": 1045,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -27449,7 +27432,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 580,
+        "seconds": 1897,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -27527,7 +27510,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 145,
+        "seconds": 9254,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -27695,12 +27678,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, May 27, 2025",
     "moments": [
       {
-        "seconds": 556,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 591,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1459,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -27908,12 +27891,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Jun 10, 2025",
     "moments": [
       {
-        "seconds": 443,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 502,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 2331,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -27960,10 +27943,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 38,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 146,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 7045,
@@ -28261,7 +28240,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 456,
+        "seconds": 4214,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -28526,12 +28505,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Jul 22, 2025",
     "moments": [
       {
-        "seconds": 465,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 489,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1204,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -28806,7 +28785,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 738,
+        "seconds": 3224,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -29120,12 +29099,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Sep 9, 2025",
     "moments": [
       {
-        "seconds": 583,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 606,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1313,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -29310,7 +29289,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 435,
+        "seconds": 1127,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -29714,7 +29693,7 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Oct 28, 2025",
     "moments": [
       {
-        "seconds": 415,
+        "seconds": 844,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -30290,7 +30269,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 2300,
+        "seconds": 2470,
         "label": "Public comment / public hearing begins."
       }
     ]
@@ -30625,10 +30604,6 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Jan 13, 2026",
     "moments": [
       {
-        "seconds": 98,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 132,
         "label": "Pledge of Allegiance."
       },
@@ -30815,12 +30790,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Jan 27, 2026",
     "moments": [
       {
-        "seconds": 89,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 129,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 2015,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 3188,
@@ -30973,7 +30948,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 1757,
+        "seconds": 1870,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -31123,10 +31098,6 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Feb 24, 2026",
     "moments": [
       {
-        "seconds": 457,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 479,
         "label": "Pledge of Allegiance."
       },
@@ -31232,12 +31203,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Mar 10, 2026",
     "moments": [
       {
-        "seconds": 383,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 423,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 2181,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 4964,
@@ -31298,10 +31269,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 55,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 156,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 901,
@@ -31432,7 +31399,7 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Mar 24, 2026",
     "moments": [
       {
-        "seconds": 280,
+        "seconds": 386,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -31600,12 +31567,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Apr 14, 2026",
     "moments": [
       {
-        "seconds": 372,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 390,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 2250,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 10200,
@@ -31718,12 +31685,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, Apr 28, 2026",
     "moments": [
       {
-        "seconds": 342,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 397,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 2375,
+        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 3401,
@@ -31863,12 +31830,12 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico BOS, May 12, 2026",
     "moments": [
       {
-        "seconds": 339,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 375,
         "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 6084,
+        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -32062,7 +32029,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 1978,
+        "seconds": 2689,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -32514,7 +32481,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 2659,
+        "seconds": 3199,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -32803,7 +32770,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 1268,
+        "seconds": 4259,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -32993,7 +32960,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 454,
+        "seconds": 1533,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -33283,7 +33250,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 382,
+        "seconds": 5783,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -33327,10 +33294,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 492,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 6743,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 11709,
@@ -33406,10 +33369,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 34,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 8227,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 10350,
@@ -33496,10 +33455,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 3288,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 3608,
         "label": "Adjournment."
       }
@@ -33540,10 +33495,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 2,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 210,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 9791,
@@ -33619,10 +33570,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 261,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 2031,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 2794,
@@ -33705,10 +33652,6 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico Schools, Feb 22, 2024",
     "moments": [
       {
-        "seconds": 548,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 2208,
         "label": "Adjournment."
       }
@@ -33751,10 +33694,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 6805,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 9124,
         "label": "Adjournment."
       }
@@ -33791,12 +33730,7 @@ export const HC_RECAPS: CityRecap[] = [
       "pdfNote": "4 pages"
     },
     "shareContext": "Henrico Schools, Feb 3, 2025",
-    "moments": [
-      {
-        "seconds": 428,
-        "label": "Public comment / public hearing begins."
-      }
-    ]
+    "moments": []
   },
   {
     "slug": "hen-sb-8vDlCQUjZDs",
@@ -33833,10 +33767,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 0,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 9979,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 10934,
@@ -33989,12 +33919,7 @@ export const HC_RECAPS: CityRecap[] = [
       "pdfNote": "9 pages"
     },
     "shareContext": "Henrico Schools, Mar 28, 2024",
-    "moments": [
-      {
-        "seconds": 1933,
-        "label": "Public comment / public hearing begins."
-      }
-    ]
+    "moments": []
   },
   {
     "slug": "hen-sb-BC1LUu4oCt4",
@@ -34104,10 +34029,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 4162,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 4920,
         "label": "Adjournment."
       }
@@ -34144,12 +34065,7 @@ export const HC_RECAPS: CityRecap[] = [
       "pdfNote": "2 pages"
     },
     "shareContext": "Henrico Schools, Oct 23, 2025",
-    "moments": [
-      {
-        "seconds": 175,
-        "label": "Public comment / public hearing begins."
-      }
-    ]
+    "moments": []
   },
   {
     "slug": "hen-sb-BvuFOpmpB-I",
@@ -34186,10 +34102,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 50,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 4791,
-        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -34314,10 +34226,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 4054,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 4372,
         "label": "Adjournment."
       }
@@ -34362,10 +34270,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 2845,
         "label": "Adjournment."
-      },
-      {
-        "seconds": 2845,
-        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -34404,10 +34308,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 57,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 2102,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 2517,
@@ -34498,10 +34398,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 3203,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 5998,
         "label": "Adjournment."
       }
@@ -34542,10 +34438,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 58,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 7573,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 10143,
@@ -34628,10 +34520,6 @@ export const HC_RECAPS: CityRecap[] = [
     "shareContext": "Henrico Schools, Jan 25, 2024",
     "moments": [
       {
-        "seconds": 761,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 3413,
         "label": "Adjournment."
       }
@@ -34672,10 +34560,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 120,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 3299,
-        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -34829,7 +34713,7 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 4988,
+        "seconds": 5583,
         "label": "Public comment / public hearing begins."
       },
       {
@@ -34913,10 +34797,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 2367,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 3053,
         "label": "Adjournment."
       }
@@ -34959,10 +34839,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 3547,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 4111,
         "label": "Adjournment."
       }
@@ -35003,10 +34879,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 266,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 2973,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 3528,
@@ -35177,10 +35049,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 2046,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 2175,
         "label": "Adjournment."
       }
@@ -35217,12 +35085,7 @@ export const HC_RECAPS: CityRecap[] = [
       "pdfNote": "53 pages"
     },
     "shareContext": "Henrico Schools, Apr 18, 2024",
-    "moments": [
-      {
-        "seconds": 222,
-        "label": "Public comment / public hearing begins."
-      }
-    ]
+    "moments": []
   },
   {
     "slug": "hen-sb-ZCMd7cOaTcs",
@@ -35259,10 +35122,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 0,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 1120,
-        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -35339,12 +35198,7 @@ export const HC_RECAPS: CityRecap[] = [
       "pdfNote": "16 pages"
     },
     "shareContext": "Henrico Schools, Mar 13, 2025",
-    "moments": [
-      {
-        "seconds": 761,
-        "label": "Public comment / public hearing begins."
-      }
-    ]
+    "moments": []
   },
   {
     "slug": "hen-sb-_ARJNwgZ6vs",
@@ -35467,10 +35321,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 6011,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 6073,
         "label": "Adjournment."
       }
@@ -35546,10 +35396,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 4505,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 4540,
         "label": "Adjournment."
       }
@@ -35586,12 +35432,7 @@ export const HC_RECAPS: CityRecap[] = [
       "pdfNote": "2 pages"
     },
     "shareContext": "Henrico Schools, Oct 9, 2025",
-    "moments": [
-      {
-        "seconds": 65,
-        "label": "Public comment / public hearing begins."
-      }
-    ]
+    "moments": []
   },
   {
     "slug": "hen-sb-bhBGqDvfdLc",
@@ -35707,10 +35548,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 1874,
         "label": "Adjournment."
-      },
-      {
-        "seconds": 1874,
-        "label": "Public comment / public hearing begins."
       }
     ]
   },
@@ -35868,10 +35705,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 1002,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 6759,
         "label": "Adjournment."
       }
@@ -35947,10 +35780,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 2991,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 3021,
         "label": "Adjournment."
       }
@@ -35987,12 +35816,7 @@ export const HC_RECAPS: CityRecap[] = [
       "pdfNote": "7 pages"
     },
     "shareContext": "Henrico Schools, Jan 30, 2024",
-    "moments": [
-      {
-        "seconds": 1046,
-        "label": "Public comment / public hearing begins."
-      }
-    ]
+    "moments": []
   },
   {
     "slug": "hen-sb-hPYvi-ZfHyk",
@@ -36029,10 +35853,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 1,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 281,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 4268,
@@ -36072,10 +35892,6 @@ export const HC_RECAPS: CityRecap[] = [
     },
     "shareContext": "Henrico Schools, Feb 8, 2024",
     "moments": [
-      {
-        "seconds": 2948,
-        "label": "Public comment / public hearing begins."
-      },
       {
         "seconds": 3207,
         "label": "Adjournment."
@@ -36155,10 +35971,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 3,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 8376,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 8484,
@@ -36287,10 +36099,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 3122,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 3240,
         "label": "Adjournment."
       }
@@ -36369,10 +36177,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 41,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 2872,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 2978,
@@ -36454,10 +36258,6 @@ export const HC_RECAPS: CityRecap[] = [
     },
     "shareContext": "Henrico Schools, Dec 18, 2025",
     "moments": [
-      {
-        "seconds": 329,
-        "label": "Public comment / public hearing begins."
-      },
       {
         "seconds": 579,
         "label": "Adjournment."
@@ -36543,10 +36343,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 690,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 729,
         "label": "Adjournment."
       }
@@ -36584,10 +36380,6 @@ export const HC_RECAPS: CityRecap[] = [
     },
     "shareContext": "Henrico Schools, Aug 8, 2024",
     "moments": [
-      {
-        "seconds": 3118,
-        "label": "Public comment / public hearing begins."
-      },
       {
         "seconds": 3587,
         "label": "Adjournment."
@@ -36673,10 +36465,6 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       },
       {
-        "seconds": 860,
-        "label": "Public comment / public hearing begins."
-      },
-      {
         "seconds": 11543,
         "label": "Adjournment."
       }
@@ -36755,12 +36543,7 @@ export const HC_RECAPS: CityRecap[] = [
       "pdfNote": "3 pages"
     },
     "shareContext": "Henrico Schools, Apr 17, 2025",
-    "moments": [
-      {
-        "seconds": 304,
-        "label": "Public comment / public hearing begins."
-      }
-    ]
+    "moments": []
   },
   {
     "slug": "hen-sb-uxpg8scLYUk",
@@ -36794,10 +36577,6 @@ export const HC_RECAPS: CityRecap[] = [
     },
     "shareContext": "Henrico Schools, Aug 28, 2025",
     "moments": [
-      {
-        "seconds": 4622,
-        "label": "Public comment / public hearing begins."
-      },
       {
         "seconds": 4835,
         "label": "Adjournment."
@@ -36839,10 +36618,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 37,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 3275,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 3812,
@@ -37053,10 +36828,6 @@ export const HC_RECAPS: CityRecap[] = [
       {
         "seconds": 35,
         "label": "Pledge of Allegiance."
-      },
-      {
-        "seconds": 1580,
-        "label": "Public comment / public hearing begins."
       },
       {
         "seconds": 1887,

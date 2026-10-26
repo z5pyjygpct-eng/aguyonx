@@ -147,6 +147,11 @@ function RecapPage() {
 
               <section className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 px-4 py-5 sm:px-6">
                 <Kicker className="text-gold">Moments worth watching</Kicker>
+                {recap.moments.length === 0 && (
+                  <p className="mt-3 text-sm text-muted-foreground">
+                    No timestamped moments have been checked against the video for this meeting yet. Use the transcript downloads or Find the Moment search to jump into the video.
+                  </p>
+                )}
                 <ul className="mt-3 divide-y divide-border">
                   {recap.moments.map((m) => (
                     <li key={m.seconds} className="flex items-start gap-3 py-2.5">
