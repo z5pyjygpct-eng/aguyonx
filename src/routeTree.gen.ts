@@ -38,6 +38,7 @@ import { Route as CitiesIndexRouteImport } from './routes/cities.index'
 import { Route as CitiesCityRouteImport } from './routes/cities.$city'
 import { Route as CountiesIndexRouteImport } from './routes/counties.index'
 import { Route as CountiesLoudounRouteImport } from './routes/counties.loudoun'
+import { Route as DashboardsIndexRouteImport } from './routes/dashboards.index'
 import { Route as DashboardsGeneralAssemblyRouteImport } from './routes/dashboards.general-assembly'
 import { Route as FindTheMomentLocalityRouteImport } from './routes/find-the-moment_.$locality'
 import { Route as GeneralAssemblyIndexRouteImport } from './routes/general-assembly.index'
@@ -285,6 +286,11 @@ const CountiesLoudounRoute = CountiesLoudounRouteImport.update({
   id: '/loudoun',
   path: '/loudoun',
   getParentRoute: () => CountiesRoute,
+} as any)
+const DashboardsIndexRoute = DashboardsIndexRouteImport.update({
+  id: '/dashboards/',
+  path: '/dashboards/',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const DashboardsGeneralAssemblyRoute =
   DashboardsGeneralAssemblyRouteImport.update({
@@ -909,6 +915,7 @@ export interface FileRoutesByFullPath {
   '/articles/': typeof ArticlesIndexRoute
   '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
+  '/dashboards/': typeof DashboardsIndexRoute
   '/general-assembly/': typeof GeneralAssemblyIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
@@ -1032,6 +1039,7 @@ export interface FileRoutesByTo {
   '/articles': typeof ArticlesIndexRoute
   '/cities': typeof CitiesIndexRoute
   '/counties': typeof CountiesIndexRoute
+  '/dashboards': typeof DashboardsIndexRoute
   '/general-assembly': typeof GeneralAssemblyIndexRoute
   '/investigations': typeof InvestigationsIndexRoute
   '/library': typeof LibraryIndexRoute
@@ -1166,6 +1174,7 @@ export interface FileRoutesById {
   '/articles/': typeof ArticlesIndexRoute
   '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
+  '/dashboards/': typeof DashboardsIndexRoute
   '/general-assembly/': typeof GeneralAssemblyIndexRoute
   '/investigations/': typeof InvestigationsIndexRoute
   '/library/': typeof LibraryIndexRoute
@@ -1301,6 +1310,7 @@ export interface FileRouteTypes {
     | '/articles/'
     | '/cities/'
     | '/counties/'
+    | '/dashboards/'
     | '/general-assembly/'
     | '/investigations/'
     | '/library/'
@@ -1424,6 +1434,7 @@ export interface FileRouteTypes {
     | '/articles'
     | '/cities'
     | '/counties'
+    | '/dashboards'
     | '/general-assembly'
     | '/investigations'
     | '/library'
@@ -1557,6 +1568,7 @@ export interface FileRouteTypes {
     | '/articles/'
     | '/cities/'
     | '/counties/'
+    | '/dashboards/'
     | '/general-assembly/'
     | '/investigations/'
     | '/library/'
@@ -1681,6 +1693,7 @@ export interface RootRouteChildren {
   MockupsSearchRoute: typeof MockupsSearchRoute
   MockupsTipsRoute: typeof MockupsTipsRoute
   MockupsVoterGuideRoute: typeof MockupsVoterGuideRoute
+  DashboardsIndexRoute: typeof DashboardsIndexRoute
   ApiWeeklyConfirmRoute: typeof ApiWeeklyConfirmRoute
   ApiWeeklySubscribeRoute: typeof ApiWeeklySubscribeRoute
   ApiWeeklyUnsubscribeRoute: typeof ApiWeeklyUnsubscribeRoute
@@ -1963,6 +1976,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/counties/loudoun'
       preLoaderRoute: typeof CountiesLoudounRouteImport
       parentRoute: typeof CountiesRoute
+    }
+    '/dashboards/': {
+      id: '/dashboards/'
+      path: '/dashboards'
+      fullPath: '/dashboards/'
+      preLoaderRoute: typeof DashboardsIndexRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/dashboards/general-assembly': {
       id: '/dashboards/general-assembly'
@@ -2860,6 +2880,7 @@ const rootRouteChildren: RootRouteChildren = {
   MockupsSearchRoute: MockupsSearchRoute,
   MockupsTipsRoute: MockupsTipsRoute,
   MockupsVoterGuideRoute: MockupsVoterGuideRoute,
+  DashboardsIndexRoute: DashboardsIndexRoute,
   ApiWeeklyConfirmRoute: ApiWeeklyConfirmRoute,
   ApiWeeklySubscribeRoute: ApiWeeklySubscribeRoute,
   ApiWeeklyUnsubscribeRoute: ApiWeeklyUnsubscribeRoute,
