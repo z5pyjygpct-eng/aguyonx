@@ -182,7 +182,7 @@ function Home() {
             <div className="mt-7">
               <HeroSearch placeholder="Search for Ghana or a variety of topics: taxes, data centers, a name…" placeholderNarrow="Try Ghana or taxes" />
             </div>
-            <h2 className="mt-10 font-serif text-3xl font-semibold text-gold uppercase">Dashboards</h2>
+            <h2 className="mt-10 font-serif text-3xl font-semibold text-gold uppercase"><Link to="/dashboards" className="underline decoration-gold/40 decoration-2 underline-offset-4 transition hover:decoration-gold">Dashboards</Link></h2>
             <div className="mt-3 flex max-w-3xl flex-col gap-3 sm:flex-row">
               <label className="relative flex-1">
                 <span className="block font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Virginia counties &amp; cities</span>
