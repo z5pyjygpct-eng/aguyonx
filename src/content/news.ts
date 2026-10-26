@@ -53,6 +53,15 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "license-plate-reader-data-fresh-scrutiny-virginiamercury-2026-10-26",
+    date: "2026-10-26",
+    headline: "Law enforcement agencies’ use of license plate reader data faces fresh scrutiny",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/26/law-enforcement-agencies-use-of-license-plate-reader-data-faces-fresh-scrutiny/",
+    people: [{ name: "Scott Surovell", office: "State Senator" }],
+    scope: "statewide",
+  },
+  {
     id: "photos-expanded-early-voting-underway-ltm-2026-10-25",
     date: "2026-10-25",
     filed: "2026-10-26",
