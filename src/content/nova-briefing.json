@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,98 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-26",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 25, Sunday) local clips for Loudoun, Fairfax, Prince William and Arlington, verified live (HTTP 200, outlet headline matched on the article page, Oct 25 ET publish date checked on each article page). Sources checked: RSS from Loudoun Times-Mirror, Loudoun Now, Prince William Times, Fairfax Times, FFXnow, ARLnow, ALXnow, Potomac Local, Annandale Today, Blue Ridge Leader, the Loudoun County news flash, Fairfax County news, FOX 5 DC, WUSA9, NBC Washington and WTOP; InsideNoVa homepage and section pages read directly; news.ts had no Oct 25 items. Caveats: light Sunday news day; 9 kept from 22 evaluated (not capped); no Arlington story found for Oct 25 (ARLnow and FFXnow feeds had no Sunday items); Prince William County news feed returned HTTP 403; Connection Newspapers feed returned HTTP 404; Loudoun Now, Fairfax Times and Prince William Times feeds were mostly wire press releases, which were skipped; one WUSA9 house-fire story returned HTTP 403 and its locality could not be checked, so it was left out. Left out: NBC Washington and InsideNoVa Manassas crash stories (same crash as the Prince William Times Yorkshire item); InsideNoVa Dulles VIP terminal (airport spans Loudoun and Fairfax, locality unclear); Potomac Local Iwo Jima monument fundraiser and Quantico live-fire schedule (Marine Corps Base Quantico spans several counties, locality unclear); Potomac Local George Mason and VCU neuropathy study (locality unclear); WTOP Marine Corps Marathon recap (DC and Arlington, locality unclear); Prince William Times statewide elections-chief interview; Loudoun Now Lost Creek wine award and sports stories (Loudoun United, Dennis Scott); Potomac Local letter to the editor (opinion); Alexandria, Fauquier, DC and Maryland items (outside the four localities).",
+      "items": [
+        {
+          "id": "photos-expanded-early-voting-underway-ltm-2026-10-25",
+          "county": "Loudoun",
+          "headline": "PHOTOS: Expanded early voting underway in Loudoun County ahead of midterm elections",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/elections/photos-expanded-early-voting-underway-in-loudoun-county-ahead-of-midterm-elections/article_365c1c8d-530d-4a58-81b3-fb30697a9ef3.html",
+          "published": "2026-10-25",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "amazon-formally-withdraws-data-center-ltm-2026-10-25",
+          "county": "Loudoun",
+          "headline": "Amazon formally withdraws data center application at GWU campus",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/real_estate_and_development/amazon-formally-withdraws-data-center-application-at-gwu-campus/article_779d255c-1d3c-46eb-956d-1d2f2ad7cf79.html",
+          "published": "2026-10-25",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lovettsville-town-council-votes-not-ltm-2026-10-25",
+          "county": "Loudoun",
+          "headline": "Lovettsville Town Council votes not to renew town manager's contract",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/levels_of_government/lovettsville-town-council-votes-not-to-renew-town-managers-contract/article_e4171f8f-8a92-4724-a96c-dc33a7f77ea1.html",
+          "published": "2026-10-25",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "kaine-randall-tour-countys-new-ltm-2026-10-25",
+          "county": "Loudoun",
+          "headline": "Kaine, Randall tour county's new Crisis Receiving and Stabilization Center",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/health/kaine-randall-tour-countys-new-crisis-receiving-and-stabilization-center/article_a464c31d-fff5-45c9-bbaf-3f57e3e15463.html",
+          "published": "2026-10-25",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "parties-begin-final-voter-push-loudounnow-2026-10-25",
+          "county": "Loudoun",
+          "headline": "Parties Begin Final Voter Push Ahead of General Election",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/parties-begin-final-voter-push-ahead-of-general-election/article_a7571990-a46d-4e23-8541-5dd0619de925.html",
+          "published": "2026-10-25",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "annandale-parade-celebrates-bolivian-and-annandaletoday-2026-10-25",
+          "county": "Fairfax",
+          "headline": "Annandale Parade celebrates Bolivian and American culture",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/annandale-parade-celebrates-bolivian-and-american-culture/",
+          "published": "2026-10-25",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "2-dead-1-injured-in-pwt-2026-10-25",
+          "county": "Prince William",
+          "headline": "2 dead, 1 injured in Yorkshire crash; police seek witnesses",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/2-dead-1-injured-in-yorkshire-crash-police-seek-witnesses/article_980d728b-a0d2-48ab-ab11-e22dac88982d.html",
+          "published": "2026-10-25",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-airport-outlines-landingfee-waivers-potomaclocal-2026-10-25",
+          "county": "Prince William",
+          "headline": "Manassas airport outlines landing-fee waivers to lure airlines by late 2027",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/25/manassas-airport-outlines-landing-fee-waivers-to-lure-airlines-by-late-2027/",
+          "published": "2026-10-25",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "dale-city-holiday-market-set-potomaclocal-2026-10-25",
+          "county": "Prince William",
+          "headline": "Dale City Holiday Market set for Dec. 5",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/25/dale-city-holiday-market-set-for-dec-5/",
+          "published": "2026-10-25",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Arlington: no qualifying Oct 25 story found (ARLnow, FFXnow, WTOP, FOX 5, NBC Washington and WUSA9 checked)"
+      ]
+    },
     {
       "date": "2026-10-25",
       "status": "ok",
