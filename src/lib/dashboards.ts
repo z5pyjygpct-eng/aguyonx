@@ -29,6 +29,11 @@ export const FOIA = {
   chesterfield: { label: "FOIA to Chesterfield County", href: "https://www.chesterfield.gov/FOIA" },
   henrico: { label: "FOIA to Henrico County", href: "https://henrico.gov/government/freedom-information-act-foia/" },
   hcps: { label: "FOIA to HCPS", href: "https://www.henricoschools.us/page/virginia-freedom-of-information-act-foia/" },
+  // Fetched and confirmed 2026-10-27 (official request pages).
+  fairfaxCounty: { label: "FOIA to Fairfax County", href: "https://www.fairfaxcounty.gov/publicaffairs/vfoia-request" },
+  fcps: { label: "FOIA to FCPS", href: "https://www.fcps.edu/about-fcps/leadership/policies-regulations-notices/virginia-freedom-information-act-vfoia/request" },
+  princeWilliam: { label: "FOIA to Prince William County", href: "https://www.pwcva.gov/department/office-county-attorney/freedom-information-act/" },
+  pwcs: { label: "FOIA to PWCS", href: "https://www.pwcs.edu/about/foia" },
   vdoe: { label: "FOIA to Board of Education", href: "https://www.doe.virginia.gov/about-vdoe/foia-requests" },
 } satisfies Record<string, DashFoia>;
 
@@ -208,6 +213,64 @@ export const DASHBOARDS: Dashboard[] = [
           { label: "Members", icon: "people", to: "/dashboards/henrico/schools/members" },
         ],
         foia: FOIA.hcps,
+      },
+    ],
+  },
+  {
+    slug: "fairfax-county",
+    short: "Fairfax County",
+    title: "Fairfax County",
+    group: "local",
+    columns: [
+      {
+        name: "Fairfax County Board of Supervisors",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/fairfax-county/bos/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/fairfax-county/bos/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/fairfax-county/bos/budget" },
+          { label: "Members", icon: "people", to: "/dashboards/fairfax-county/bos/members" },
+        ],
+        foia: FOIA.fairfaxCounty,
+      },
+      {
+        name: "Fairfax County Public Schools",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/fairfax-county/schools/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/fairfax-county/schools/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/fairfax-county/schools/budget" },
+          { label: "Policies", icon: "book", to: "/dashboards/fairfax-county/schools/policies" },
+          { label: "Members", icon: "people", to: "/dashboards/fairfax-county/schools/members" },
+        ],
+        foia: FOIA.fcps,
+      },
+    ],
+  },
+  {
+    slug: "prince-william",
+    short: "Prince William",
+    title: "Prince William County",
+    group: "local",
+    columns: [
+      {
+        name: "Prince William Board of County Supervisors",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/prince-william/bos/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/prince-william/bos/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/prince-william/bos/budget" },
+          { label: "Members", icon: "people", to: "/dashboards/prince-william/bos/members" },
+        ],
+        foia: FOIA.princeWilliam,
+      },
+      {
+        name: "Prince William County Public Schools",
+        tiles: [
+          { label: "Find the Moment", icon: "play", to: "/dashboards/prince-william/schools/find-the-moment" },
+          { label: "Meeting Recaps", icon: "list", to: "/dashboards/prince-william/schools/recaps" },
+          { label: "Budget/Finances", icon: "money", to: "/dashboards/prince-william/schools/budget" },
+          { label: "Policies", icon: "book", to: "/dashboards/prince-william/schools/policies" },
+          { label: "Members", icon: "people", to: "/dashboards/prince-william/schools/members" },
+        ],
+        foia: FOIA.pwcs,
       },
     ],
   },

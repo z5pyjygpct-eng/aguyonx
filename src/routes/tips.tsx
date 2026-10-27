@@ -39,6 +39,8 @@ const BASE: Record<keyof typeof V4_VENUES, string> = {
   "manassas-council": "/dashboards/manassas/council", "manassas-schools": "/dashboards/manassas/schools",
   "hanover-bos": "/dashboards/hanover/bos", "chesterfield-bos": "/dashboards/chesterfield/bos",
   "henrico-bos": "/dashboards/henrico/bos", "henrico-schools": "/dashboards/henrico/schools",
+  "fairfax-county-bos": "/dashboards/fairfax-county/bos", "fairfax-county-schools": "/dashboards/fairfax-county/schools",
+  "pwc-bos": "/dashboards/prince-william/bos", "pwc-schools": "/dashboards/prince-william/schools",
   "va-house": "/dashboards/house", "va-senate": "/dashboards/senate", "va-boe": "/dashboards/board-of-education",
 };
 const PLACES = (Object.keys(BASE) as (keyof typeof V4_VENUES)[]).map((k) => ({

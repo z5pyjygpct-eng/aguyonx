@@ -69,6 +69,8 @@ export function ftmLocalities(): FtmLocality[] {
     cityLocality("hanover", "Hanover"),
     cityLocality("chesterfield", "Chesterfield"),
     cityLocality("henrico", "Henrico"),
+    cityLocality("fairfax-county", "Fairfax County"),
+    cityLocality("prince-william", "Prince William"),
     {
       id: "general-assembly",
       label: "General Assembly",

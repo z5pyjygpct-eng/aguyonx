@@ -12,6 +12,7 @@ import { NEWS_LOCATION_BACKFILL } from "@/content/news-locations";
 
 export type LocationSlug =
   | "loudoun" | "fairfax-city" | "albemarle" | "hanover" | "chesterfield" | "henrico" | "manassas"
+  | "fairfax-county" | "prince-william"
   | "house" | "senate" | "board-of-education";
 
 type Rule = { slug: LocationSlug; include: RegExp[]; exclude?: RegExp[]; offices?: RegExp };
@@ -24,6 +25,10 @@ export const LOCATION_RULES: Rule[] = [
   { slug: "hanover", include: [/\bhanover county\b/i, /\bhanover-county\b/i, /\bhanover (?:supervisors?|schools?|board)\b/i] },
   { slug: "chesterfield", include: [/\bchesterfield\b/i] },
   { slug: "henrico", include: [/\bhenrico\b/i, /\bhcps\b/i] },
+  // Fairfax County (not the City of Fairfax): named county, its board, or FCPS (but not "FCPS City").
+  { slug: "fairfax-county", include: [/\bfairfax county\b/i, /\bfcps\b(?![- ]?city)/i, /\bfairfax (?:board of supervisors|supervisors?)\b/i], offices: /^Fairfax County /i },
+  // Prince William County only. Not Prince William of the UK, Prince William Sound, or PwC.
+  { slug: "prince-william", include: [/\bprince william county\b/i, /\bpwcs\b/i, /\bprince william (?:board|supervisors?|schools?|police|bocs)\b/i], offices: /^Prince William County /i },
   // City of Manassas only; Manassas Park is a separate city.
   // City of Manassas only. A bare "Manassas" is often a Prince William County mailing address, so it
   // needs a city marker (city government, city schools, the city-owned airport, the city's First Friday).
@@ -56,8 +61,16 @@ export function tagNewsLocations(item: Pick<NewsItem, "headline" | "url" | "peop
   return out;
 }
 
+// Slugs added after the reviewed backfill was written. Backfilled items still get these from the tagger,
+// so older stories that clearly name the county show up in its News box.
+const POST_BACKFILL = new Set<LocationSlug>(["fairfax-county", "prince-william"]);
+
 export function newsLocations(item: NewsItem): string[] {
-  return item.locations ?? NEWS_LOCATION_BACKFILL[item.id] ?? tagNewsLocations(item);
+  if (item.locations) return item.locations;
+  const back = NEWS_LOCATION_BACKFILL[item.id];
+  if (!back) return tagNewsLocations(item);
+  const extra = tagNewsLocations(item).filter((s) => POST_BACKFILL.has(s) && !back.includes(s));
+  return extra.length ? [...back, ...extra] : back;
 }
 
 export function newsForLocation(slug: string): NewsItem[] {

@@ -106,6 +106,15 @@ import { Route as DashboardsFairfaxCitySchoolsFindTheMomentRouteImport } from '.
 import { Route as DashboardsFairfaxCitySchoolsMembersRouteImport } from './routes/dashboards.fairfax-city.schools.members'
 import { Route as DashboardsFairfaxCitySchoolsPoliciesRouteImport } from './routes/dashboards.fairfax-city.schools.policies'
 import { Route as DashboardsFairfaxCitySchoolsRecapsRouteImport } from './routes/dashboards.fairfax-city.schools.recaps'
+import { Route as DashboardsFairfaxCountyBosBudgetRouteImport } from './routes/dashboards.fairfax-county.bos.budget'
+import { Route as DashboardsFairfaxCountyBosFindTheMomentRouteImport } from './routes/dashboards.fairfax-county.bos.find-the-moment'
+import { Route as DashboardsFairfaxCountyBosMembersRouteImport } from './routes/dashboards.fairfax-county.bos.members'
+import { Route as DashboardsFairfaxCountyBosRecapsRouteImport } from './routes/dashboards.fairfax-county.bos.recaps'
+import { Route as DashboardsFairfaxCountySchoolsBudgetRouteImport } from './routes/dashboards.fairfax-county.schools.budget'
+import { Route as DashboardsFairfaxCountySchoolsFindTheMomentRouteImport } from './routes/dashboards.fairfax-county.schools.find-the-moment'
+import { Route as DashboardsFairfaxCountySchoolsMembersRouteImport } from './routes/dashboards.fairfax-county.schools.members'
+import { Route as DashboardsFairfaxCountySchoolsPoliciesRouteImport } from './routes/dashboards.fairfax-county.schools.policies'
+import { Route as DashboardsFairfaxCountySchoolsRecapsRouteImport } from './routes/dashboards.fairfax-county.schools.recaps'
 import { Route as DashboardsHanoverBosBudgetRouteImport } from './routes/dashboards.hanover.bos.budget'
 import { Route as DashboardsHanoverBosFindTheMomentRouteImport } from './routes/dashboards.hanover.bos.find-the-moment'
 import { Route as DashboardsHanoverBosMembersRouteImport } from './routes/dashboards.hanover.bos.members'
@@ -138,6 +147,15 @@ import { Route as DashboardsManassasSchoolsFindTheMomentRouteImport } from './ro
 import { Route as DashboardsManassasSchoolsMembersRouteImport } from './routes/dashboards.manassas.schools.members'
 import { Route as DashboardsManassasSchoolsPoliciesRouteImport } from './routes/dashboards.manassas.schools.policies'
 import { Route as DashboardsManassasSchoolsRecapsRouteImport } from './routes/dashboards.manassas.schools.recaps'
+import { Route as DashboardsPrinceWilliamBosBudgetRouteImport } from './routes/dashboards.prince-william.bos.budget'
+import { Route as DashboardsPrinceWilliamBosFindTheMomentRouteImport } from './routes/dashboards.prince-william.bos.find-the-moment'
+import { Route as DashboardsPrinceWilliamBosMembersRouteImport } from './routes/dashboards.prince-william.bos.members'
+import { Route as DashboardsPrinceWilliamBosRecapsRouteImport } from './routes/dashboards.prince-william.bos.recaps'
+import { Route as DashboardsPrinceWilliamSchoolsBudgetRouteImport } from './routes/dashboards.prince-william.schools.budget'
+import { Route as DashboardsPrinceWilliamSchoolsFindTheMomentRouteImport } from './routes/dashboards.prince-william.schools.find-the-moment'
+import { Route as DashboardsPrinceWilliamSchoolsMembersRouteImport } from './routes/dashboards.prince-william.schools.members'
+import { Route as DashboardsPrinceWilliamSchoolsPoliciesRouteImport } from './routes/dashboards.prince-william.schools.policies'
+import { Route as DashboardsPrinceWilliamSchoolsRecapsRouteImport } from './routes/dashboards.prince-william.schools.recaps'
 import { Route as DashboardsSenateMembersSlugRouteImport } from './routes/dashboards.senate.members_.$slug'
 import { Route as GeneralAssemblyHouseRecapsSlugRouteImport } from './routes/general-assembly.house.recaps.$slug'
 import { Route as GeneralAssemblySenateRecapsSlugRouteImport } from './routes/general-assembly.senate.recaps.$slug'
@@ -663,6 +681,60 @@ const DashboardsFairfaxCitySchoolsRecapsRoute =
     path: '/dashboards/fairfax-city/schools/recaps',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DashboardsFairfaxCountyBosBudgetRoute =
+  DashboardsFairfaxCountyBosBudgetRouteImport.update({
+    id: '/dashboards/fairfax-county/bos/budget',
+    path: '/dashboards/fairfax-county/bos/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCountyBosFindTheMomentRoute =
+  DashboardsFairfaxCountyBosFindTheMomentRouteImport.update({
+    id: '/dashboards/fairfax-county/bos/find-the-moment',
+    path: '/dashboards/fairfax-county/bos/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCountyBosMembersRoute =
+  DashboardsFairfaxCountyBosMembersRouteImport.update({
+    id: '/dashboards/fairfax-county/bos/members',
+    path: '/dashboards/fairfax-county/bos/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCountyBosRecapsRoute =
+  DashboardsFairfaxCountyBosRecapsRouteImport.update({
+    id: '/dashboards/fairfax-county/bos/recaps',
+    path: '/dashboards/fairfax-county/bos/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCountySchoolsBudgetRoute =
+  DashboardsFairfaxCountySchoolsBudgetRouteImport.update({
+    id: '/dashboards/fairfax-county/schools/budget',
+    path: '/dashboards/fairfax-county/schools/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCountySchoolsFindTheMomentRoute =
+  DashboardsFairfaxCountySchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/fairfax-county/schools/find-the-moment',
+    path: '/dashboards/fairfax-county/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCountySchoolsMembersRoute =
+  DashboardsFairfaxCountySchoolsMembersRouteImport.update({
+    id: '/dashboards/fairfax-county/schools/members',
+    path: '/dashboards/fairfax-county/schools/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCountySchoolsPoliciesRoute =
+  DashboardsFairfaxCountySchoolsPoliciesRouteImport.update({
+    id: '/dashboards/fairfax-county/schools/policies',
+    path: '/dashboards/fairfax-county/schools/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsFairfaxCountySchoolsRecapsRoute =
+  DashboardsFairfaxCountySchoolsRecapsRouteImport.update({
+    id: '/dashboards/fairfax-county/schools/recaps',
+    path: '/dashboards/fairfax-county/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DashboardsHanoverBosBudgetRoute =
   DashboardsHanoverBosBudgetRouteImport.update({
     id: '/dashboards/hanover/bos/budget',
@@ -855,6 +927,60 @@ const DashboardsManassasSchoolsRecapsRoute =
     path: '/dashboards/manassas/schools/recaps',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DashboardsPrinceWilliamBosBudgetRoute =
+  DashboardsPrinceWilliamBosBudgetRouteImport.update({
+    id: '/dashboards/prince-william/bos/budget',
+    path: '/dashboards/prince-william/bos/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsPrinceWilliamBosFindTheMomentRoute =
+  DashboardsPrinceWilliamBosFindTheMomentRouteImport.update({
+    id: '/dashboards/prince-william/bos/find-the-moment',
+    path: '/dashboards/prince-william/bos/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsPrinceWilliamBosMembersRoute =
+  DashboardsPrinceWilliamBosMembersRouteImport.update({
+    id: '/dashboards/prince-william/bos/members',
+    path: '/dashboards/prince-william/bos/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsPrinceWilliamBosRecapsRoute =
+  DashboardsPrinceWilliamBosRecapsRouteImport.update({
+    id: '/dashboards/prince-william/bos/recaps',
+    path: '/dashboards/prince-william/bos/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsPrinceWilliamSchoolsBudgetRoute =
+  DashboardsPrinceWilliamSchoolsBudgetRouteImport.update({
+    id: '/dashboards/prince-william/schools/budget',
+    path: '/dashboards/prince-william/schools/budget',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsPrinceWilliamSchoolsFindTheMomentRoute =
+  DashboardsPrinceWilliamSchoolsFindTheMomentRouteImport.update({
+    id: '/dashboards/prince-william/schools/find-the-moment',
+    path: '/dashboards/prince-william/schools/find-the-moment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsPrinceWilliamSchoolsMembersRoute =
+  DashboardsPrinceWilliamSchoolsMembersRouteImport.update({
+    id: '/dashboards/prince-william/schools/members',
+    path: '/dashboards/prince-william/schools/members',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsPrinceWilliamSchoolsPoliciesRoute =
+  DashboardsPrinceWilliamSchoolsPoliciesRouteImport.update({
+    id: '/dashboards/prince-william/schools/policies',
+    path: '/dashboards/prince-william/schools/policies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DashboardsPrinceWilliamSchoolsRecapsRoute =
+  DashboardsPrinceWilliamSchoolsRecapsRouteImport.update({
+    id: '/dashboards/prince-william/schools/recaps',
+    path: '/dashboards/prince-william/schools/recaps',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DashboardsSenateMembersSlugRoute =
   DashboardsSenateMembersSlugRouteImport.update({
     id: '/dashboards/senate/members_/$slug',
@@ -972,6 +1098,15 @@ export interface FileRoutesByFullPath {
   '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/fairfax-county/bos/budget': typeof DashboardsFairfaxCountyBosBudgetRoute
+  '/dashboards/fairfax-county/bos/find-the-moment': typeof DashboardsFairfaxCountyBosFindTheMomentRoute
+  '/dashboards/fairfax-county/bos/members': typeof DashboardsFairfaxCountyBosMembersRoute
+  '/dashboards/fairfax-county/bos/recaps': typeof DashboardsFairfaxCountyBosRecapsRoute
+  '/dashboards/fairfax-county/schools/budget': typeof DashboardsFairfaxCountySchoolsBudgetRoute
+  '/dashboards/fairfax-county/schools/find-the-moment': typeof DashboardsFairfaxCountySchoolsFindTheMomentRoute
+  '/dashboards/fairfax-county/schools/members': typeof DashboardsFairfaxCountySchoolsMembersRoute
+  '/dashboards/fairfax-county/schools/policies': typeof DashboardsFairfaxCountySchoolsPoliciesRoute
+  '/dashboards/fairfax-county/schools/recaps': typeof DashboardsFairfaxCountySchoolsRecapsRoute
   '/dashboards/hanover/bos/budget': typeof DashboardsHanoverBosBudgetRoute
   '/dashboards/hanover/bos/find-the-moment': typeof DashboardsHanoverBosFindTheMomentRoute
   '/dashboards/hanover/bos/members': typeof DashboardsHanoverBosMembersRoute
@@ -1004,6 +1139,15 @@ export interface FileRoutesByFullPath {
   '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
   '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
   '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
+  '/dashboards/prince-william/bos/budget': typeof DashboardsPrinceWilliamBosBudgetRoute
+  '/dashboards/prince-william/bos/find-the-moment': typeof DashboardsPrinceWilliamBosFindTheMomentRoute
+  '/dashboards/prince-william/bos/members': typeof DashboardsPrinceWilliamBosMembersRoute
+  '/dashboards/prince-william/bos/recaps': typeof DashboardsPrinceWilliamBosRecapsRoute
+  '/dashboards/prince-william/schools/budget': typeof DashboardsPrinceWilliamSchoolsBudgetRoute
+  '/dashboards/prince-william/schools/find-the-moment': typeof DashboardsPrinceWilliamSchoolsFindTheMomentRoute
+  '/dashboards/prince-william/schools/members': typeof DashboardsPrinceWilliamSchoolsMembersRoute
+  '/dashboards/prince-william/schools/policies': typeof DashboardsPrinceWilliamSchoolsPoliciesRoute
+  '/dashboards/prince-william/schools/recaps': typeof DashboardsPrinceWilliamSchoolsRecapsRoute
   '/dashboards/senate/members/$slug': typeof DashboardsSenateMembersSlugRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
@@ -1096,6 +1240,15 @@ export interface FileRoutesByTo {
   '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/fairfax-county/bos/budget': typeof DashboardsFairfaxCountyBosBudgetRoute
+  '/dashboards/fairfax-county/bos/find-the-moment': typeof DashboardsFairfaxCountyBosFindTheMomentRoute
+  '/dashboards/fairfax-county/bos/members': typeof DashboardsFairfaxCountyBosMembersRoute
+  '/dashboards/fairfax-county/bos/recaps': typeof DashboardsFairfaxCountyBosRecapsRoute
+  '/dashboards/fairfax-county/schools/budget': typeof DashboardsFairfaxCountySchoolsBudgetRoute
+  '/dashboards/fairfax-county/schools/find-the-moment': typeof DashboardsFairfaxCountySchoolsFindTheMomentRoute
+  '/dashboards/fairfax-county/schools/members': typeof DashboardsFairfaxCountySchoolsMembersRoute
+  '/dashboards/fairfax-county/schools/policies': typeof DashboardsFairfaxCountySchoolsPoliciesRoute
+  '/dashboards/fairfax-county/schools/recaps': typeof DashboardsFairfaxCountySchoolsRecapsRoute
   '/dashboards/hanover/bos/budget': typeof DashboardsHanoverBosBudgetRoute
   '/dashboards/hanover/bos/find-the-moment': typeof DashboardsHanoverBosFindTheMomentRoute
   '/dashboards/hanover/bos/members': typeof DashboardsHanoverBosMembersRoute
@@ -1128,6 +1281,15 @@ export interface FileRoutesByTo {
   '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
   '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
   '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
+  '/dashboards/prince-william/bos/budget': typeof DashboardsPrinceWilliamBosBudgetRoute
+  '/dashboards/prince-william/bos/find-the-moment': typeof DashboardsPrinceWilliamBosFindTheMomentRoute
+  '/dashboards/prince-william/bos/members': typeof DashboardsPrinceWilliamBosMembersRoute
+  '/dashboards/prince-william/bos/recaps': typeof DashboardsPrinceWilliamBosRecapsRoute
+  '/dashboards/prince-william/schools/budget': typeof DashboardsPrinceWilliamSchoolsBudgetRoute
+  '/dashboards/prince-william/schools/find-the-moment': typeof DashboardsPrinceWilliamSchoolsFindTheMomentRoute
+  '/dashboards/prince-william/schools/members': typeof DashboardsPrinceWilliamSchoolsMembersRoute
+  '/dashboards/prince-william/schools/policies': typeof DashboardsPrinceWilliamSchoolsPoliciesRoute
+  '/dashboards/prince-william/schools/recaps': typeof DashboardsPrinceWilliamSchoolsRecapsRoute
   '/dashboards/senate/members/$slug': typeof DashboardsSenateMembersSlugRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
@@ -1231,6 +1393,15 @@ export interface FileRoutesById {
   '/dashboards/fairfax-city/schools/members': typeof DashboardsFairfaxCitySchoolsMembersRoute
   '/dashboards/fairfax-city/schools/policies': typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   '/dashboards/fairfax-city/schools/recaps': typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  '/dashboards/fairfax-county/bos/budget': typeof DashboardsFairfaxCountyBosBudgetRoute
+  '/dashboards/fairfax-county/bos/find-the-moment': typeof DashboardsFairfaxCountyBosFindTheMomentRoute
+  '/dashboards/fairfax-county/bos/members': typeof DashboardsFairfaxCountyBosMembersRoute
+  '/dashboards/fairfax-county/bos/recaps': typeof DashboardsFairfaxCountyBosRecapsRoute
+  '/dashboards/fairfax-county/schools/budget': typeof DashboardsFairfaxCountySchoolsBudgetRoute
+  '/dashboards/fairfax-county/schools/find-the-moment': typeof DashboardsFairfaxCountySchoolsFindTheMomentRoute
+  '/dashboards/fairfax-county/schools/members': typeof DashboardsFairfaxCountySchoolsMembersRoute
+  '/dashboards/fairfax-county/schools/policies': typeof DashboardsFairfaxCountySchoolsPoliciesRoute
+  '/dashboards/fairfax-county/schools/recaps': typeof DashboardsFairfaxCountySchoolsRecapsRoute
   '/dashboards/hanover/bos/budget': typeof DashboardsHanoverBosBudgetRoute
   '/dashboards/hanover/bos/find-the-moment': typeof DashboardsHanoverBosFindTheMomentRoute
   '/dashboards/hanover/bos/members': typeof DashboardsHanoverBosMembersRoute
@@ -1263,6 +1434,15 @@ export interface FileRoutesById {
   '/dashboards/manassas/schools/members': typeof DashboardsManassasSchoolsMembersRoute
   '/dashboards/manassas/schools/policies': typeof DashboardsManassasSchoolsPoliciesRoute
   '/dashboards/manassas/schools/recaps': typeof DashboardsManassasSchoolsRecapsRoute
+  '/dashboards/prince-william/bos/budget': typeof DashboardsPrinceWilliamBosBudgetRoute
+  '/dashboards/prince-william/bos/find-the-moment': typeof DashboardsPrinceWilliamBosFindTheMomentRoute
+  '/dashboards/prince-william/bos/members': typeof DashboardsPrinceWilliamBosMembersRoute
+  '/dashboards/prince-william/bos/recaps': typeof DashboardsPrinceWilliamBosRecapsRoute
+  '/dashboards/prince-william/schools/budget': typeof DashboardsPrinceWilliamSchoolsBudgetRoute
+  '/dashboards/prince-william/schools/find-the-moment': typeof DashboardsPrinceWilliamSchoolsFindTheMomentRoute
+  '/dashboards/prince-william/schools/members': typeof DashboardsPrinceWilliamSchoolsMembersRoute
+  '/dashboards/prince-william/schools/policies': typeof DashboardsPrinceWilliamSchoolsPoliciesRoute
+  '/dashboards/prince-william/schools/recaps': typeof DashboardsPrinceWilliamSchoolsRecapsRoute
   '/dashboards/senate/members_/$slug': typeof DashboardsSenateMembersSlugRoute
   '/general-assembly/house/recaps/$slug': typeof GeneralAssemblyHouseRecapsSlugRoute
   '/general-assembly/senate/recaps/$slug': typeof GeneralAssemblySenateRecapsSlugRoute
@@ -1367,6 +1547,15 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/members'
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/fairfax-county/bos/budget'
+    | '/dashboards/fairfax-county/bos/find-the-moment'
+    | '/dashboards/fairfax-county/bos/members'
+    | '/dashboards/fairfax-county/bos/recaps'
+    | '/dashboards/fairfax-county/schools/budget'
+    | '/dashboards/fairfax-county/schools/find-the-moment'
+    | '/dashboards/fairfax-county/schools/members'
+    | '/dashboards/fairfax-county/schools/policies'
+    | '/dashboards/fairfax-county/schools/recaps'
     | '/dashboards/hanover/bos/budget'
     | '/dashboards/hanover/bos/find-the-moment'
     | '/dashboards/hanover/bos/members'
@@ -1399,6 +1588,15 @@ export interface FileRouteTypes {
     | '/dashboards/manassas/schools/members'
     | '/dashboards/manassas/schools/policies'
     | '/dashboards/manassas/schools/recaps'
+    | '/dashboards/prince-william/bos/budget'
+    | '/dashboards/prince-william/bos/find-the-moment'
+    | '/dashboards/prince-william/bos/members'
+    | '/dashboards/prince-william/bos/recaps'
+    | '/dashboards/prince-william/schools/budget'
+    | '/dashboards/prince-william/schools/find-the-moment'
+    | '/dashboards/prince-william/schools/members'
+    | '/dashboards/prince-william/schools/policies'
+    | '/dashboards/prince-william/schools/recaps'
     | '/dashboards/senate/members/$slug'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
@@ -1491,6 +1689,15 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/members'
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/fairfax-county/bos/budget'
+    | '/dashboards/fairfax-county/bos/find-the-moment'
+    | '/dashboards/fairfax-county/bos/members'
+    | '/dashboards/fairfax-county/bos/recaps'
+    | '/dashboards/fairfax-county/schools/budget'
+    | '/dashboards/fairfax-county/schools/find-the-moment'
+    | '/dashboards/fairfax-county/schools/members'
+    | '/dashboards/fairfax-county/schools/policies'
+    | '/dashboards/fairfax-county/schools/recaps'
     | '/dashboards/hanover/bos/budget'
     | '/dashboards/hanover/bos/find-the-moment'
     | '/dashboards/hanover/bos/members'
@@ -1523,6 +1730,15 @@ export interface FileRouteTypes {
     | '/dashboards/manassas/schools/members'
     | '/dashboards/manassas/schools/policies'
     | '/dashboards/manassas/schools/recaps'
+    | '/dashboards/prince-william/bos/budget'
+    | '/dashboards/prince-william/bos/find-the-moment'
+    | '/dashboards/prince-william/bos/members'
+    | '/dashboards/prince-william/bos/recaps'
+    | '/dashboards/prince-william/schools/budget'
+    | '/dashboards/prince-william/schools/find-the-moment'
+    | '/dashboards/prince-william/schools/members'
+    | '/dashboards/prince-william/schools/policies'
+    | '/dashboards/prince-william/schools/recaps'
     | '/dashboards/senate/members/$slug'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
@@ -1625,6 +1841,15 @@ export interface FileRouteTypes {
     | '/dashboards/fairfax-city/schools/members'
     | '/dashboards/fairfax-city/schools/policies'
     | '/dashboards/fairfax-city/schools/recaps'
+    | '/dashboards/fairfax-county/bos/budget'
+    | '/dashboards/fairfax-county/bos/find-the-moment'
+    | '/dashboards/fairfax-county/bos/members'
+    | '/dashboards/fairfax-county/bos/recaps'
+    | '/dashboards/fairfax-county/schools/budget'
+    | '/dashboards/fairfax-county/schools/find-the-moment'
+    | '/dashboards/fairfax-county/schools/members'
+    | '/dashboards/fairfax-county/schools/policies'
+    | '/dashboards/fairfax-county/schools/recaps'
     | '/dashboards/hanover/bos/budget'
     | '/dashboards/hanover/bos/find-the-moment'
     | '/dashboards/hanover/bos/members'
@@ -1657,6 +1882,15 @@ export interface FileRouteTypes {
     | '/dashboards/manassas/schools/members'
     | '/dashboards/manassas/schools/policies'
     | '/dashboards/manassas/schools/recaps'
+    | '/dashboards/prince-william/bos/budget'
+    | '/dashboards/prince-william/bos/find-the-moment'
+    | '/dashboards/prince-william/bos/members'
+    | '/dashboards/prince-william/bos/recaps'
+    | '/dashboards/prince-william/schools/budget'
+    | '/dashboards/prince-william/schools/find-the-moment'
+    | '/dashboards/prince-william/schools/members'
+    | '/dashboards/prince-william/schools/policies'
+    | '/dashboards/prince-william/schools/recaps'
     | '/dashboards/senate/members_/$slug'
     | '/general-assembly/house/recaps/$slug'
     | '/general-assembly/senate/recaps/$slug'
@@ -1737,6 +1971,15 @@ export interface RootRouteChildren {
   DashboardsFairfaxCitySchoolsMembersRoute: typeof DashboardsFairfaxCitySchoolsMembersRoute
   DashboardsFairfaxCitySchoolsPoliciesRoute: typeof DashboardsFairfaxCitySchoolsPoliciesRoute
   DashboardsFairfaxCitySchoolsRecapsRoute: typeof DashboardsFairfaxCitySchoolsRecapsRoute
+  DashboardsFairfaxCountyBosBudgetRoute: typeof DashboardsFairfaxCountyBosBudgetRoute
+  DashboardsFairfaxCountyBosFindTheMomentRoute: typeof DashboardsFairfaxCountyBosFindTheMomentRoute
+  DashboardsFairfaxCountyBosMembersRoute: typeof DashboardsFairfaxCountyBosMembersRoute
+  DashboardsFairfaxCountyBosRecapsRoute: typeof DashboardsFairfaxCountyBosRecapsRoute
+  DashboardsFairfaxCountySchoolsBudgetRoute: typeof DashboardsFairfaxCountySchoolsBudgetRoute
+  DashboardsFairfaxCountySchoolsFindTheMomentRoute: typeof DashboardsFairfaxCountySchoolsFindTheMomentRoute
+  DashboardsFairfaxCountySchoolsMembersRoute: typeof DashboardsFairfaxCountySchoolsMembersRoute
+  DashboardsFairfaxCountySchoolsPoliciesRoute: typeof DashboardsFairfaxCountySchoolsPoliciesRoute
+  DashboardsFairfaxCountySchoolsRecapsRoute: typeof DashboardsFairfaxCountySchoolsRecapsRoute
   DashboardsHanoverBosBudgetRoute: typeof DashboardsHanoverBosBudgetRoute
   DashboardsHanoverBosFindTheMomentRoute: typeof DashboardsHanoverBosFindTheMomentRoute
   DashboardsHanoverBosMembersRoute: typeof DashboardsHanoverBosMembersRoute
@@ -1769,6 +2012,15 @@ export interface RootRouteChildren {
   DashboardsManassasSchoolsMembersRoute: typeof DashboardsManassasSchoolsMembersRoute
   DashboardsManassasSchoolsPoliciesRoute: typeof DashboardsManassasSchoolsPoliciesRoute
   DashboardsManassasSchoolsRecapsRoute: typeof DashboardsManassasSchoolsRecapsRoute
+  DashboardsPrinceWilliamBosBudgetRoute: typeof DashboardsPrinceWilliamBosBudgetRoute
+  DashboardsPrinceWilliamBosFindTheMomentRoute: typeof DashboardsPrinceWilliamBosFindTheMomentRoute
+  DashboardsPrinceWilliamBosMembersRoute: typeof DashboardsPrinceWilliamBosMembersRoute
+  DashboardsPrinceWilliamBosRecapsRoute: typeof DashboardsPrinceWilliamBosRecapsRoute
+  DashboardsPrinceWilliamSchoolsBudgetRoute: typeof DashboardsPrinceWilliamSchoolsBudgetRoute
+  DashboardsPrinceWilliamSchoolsFindTheMomentRoute: typeof DashboardsPrinceWilliamSchoolsFindTheMomentRoute
+  DashboardsPrinceWilliamSchoolsMembersRoute: typeof DashboardsPrinceWilliamSchoolsMembersRoute
+  DashboardsPrinceWilliamSchoolsPoliciesRoute: typeof DashboardsPrinceWilliamSchoolsPoliciesRoute
+  DashboardsPrinceWilliamSchoolsRecapsRoute: typeof DashboardsPrinceWilliamSchoolsRecapsRoute
   DashboardsSenateMembersSlugRoute: typeof DashboardsSenateMembersSlugRoute
 }
 
@@ -2453,6 +2705,69 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardsFairfaxCitySchoolsRecapsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dashboards/fairfax-county/bos/budget': {
+      id: '/dashboards/fairfax-county/bos/budget'
+      path: '/dashboards/fairfax-county/bos/budget'
+      fullPath: '/dashboards/fairfax-county/bos/budget'
+      preLoaderRoute: typeof DashboardsFairfaxCountyBosBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-county/bos/find-the-moment': {
+      id: '/dashboards/fairfax-county/bos/find-the-moment'
+      path: '/dashboards/fairfax-county/bos/find-the-moment'
+      fullPath: '/dashboards/fairfax-county/bos/find-the-moment'
+      preLoaderRoute: typeof DashboardsFairfaxCountyBosFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-county/bos/members': {
+      id: '/dashboards/fairfax-county/bos/members'
+      path: '/dashboards/fairfax-county/bos/members'
+      fullPath: '/dashboards/fairfax-county/bos/members'
+      preLoaderRoute: typeof DashboardsFairfaxCountyBosMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-county/bos/recaps': {
+      id: '/dashboards/fairfax-county/bos/recaps'
+      path: '/dashboards/fairfax-county/bos/recaps'
+      fullPath: '/dashboards/fairfax-county/bos/recaps'
+      preLoaderRoute: typeof DashboardsFairfaxCountyBosRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-county/schools/budget': {
+      id: '/dashboards/fairfax-county/schools/budget'
+      path: '/dashboards/fairfax-county/schools/budget'
+      fullPath: '/dashboards/fairfax-county/schools/budget'
+      preLoaderRoute: typeof DashboardsFairfaxCountySchoolsBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-county/schools/find-the-moment': {
+      id: '/dashboards/fairfax-county/schools/find-the-moment'
+      path: '/dashboards/fairfax-county/schools/find-the-moment'
+      fullPath: '/dashboards/fairfax-county/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsFairfaxCountySchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-county/schools/members': {
+      id: '/dashboards/fairfax-county/schools/members'
+      path: '/dashboards/fairfax-county/schools/members'
+      fullPath: '/dashboards/fairfax-county/schools/members'
+      preLoaderRoute: typeof DashboardsFairfaxCountySchoolsMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-county/schools/policies': {
+      id: '/dashboards/fairfax-county/schools/policies'
+      path: '/dashboards/fairfax-county/schools/policies'
+      fullPath: '/dashboards/fairfax-county/schools/policies'
+      preLoaderRoute: typeof DashboardsFairfaxCountySchoolsPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/fairfax-county/schools/recaps': {
+      id: '/dashboards/fairfax-county/schools/recaps'
+      path: '/dashboards/fairfax-county/schools/recaps'
+      fullPath: '/dashboards/fairfax-county/schools/recaps'
+      preLoaderRoute: typeof DashboardsFairfaxCountySchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dashboards/hanover/bos/budget': {
       id: '/dashboards/hanover/bos/budget'
       path: '/dashboards/hanover/bos/budget'
@@ -2675,6 +2990,69 @@ declare module '@tanstack/react-router' {
       path: '/dashboards/manassas/schools/recaps'
       fullPath: '/dashboards/manassas/schools/recaps'
       preLoaderRoute: typeof DashboardsManassasSchoolsRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/prince-william/bos/budget': {
+      id: '/dashboards/prince-william/bos/budget'
+      path: '/dashboards/prince-william/bos/budget'
+      fullPath: '/dashboards/prince-william/bos/budget'
+      preLoaderRoute: typeof DashboardsPrinceWilliamBosBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/prince-william/bos/find-the-moment': {
+      id: '/dashboards/prince-william/bos/find-the-moment'
+      path: '/dashboards/prince-william/bos/find-the-moment'
+      fullPath: '/dashboards/prince-william/bos/find-the-moment'
+      preLoaderRoute: typeof DashboardsPrinceWilliamBosFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/prince-william/bos/members': {
+      id: '/dashboards/prince-william/bos/members'
+      path: '/dashboards/prince-william/bos/members'
+      fullPath: '/dashboards/prince-william/bos/members'
+      preLoaderRoute: typeof DashboardsPrinceWilliamBosMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/prince-william/bos/recaps': {
+      id: '/dashboards/prince-william/bos/recaps'
+      path: '/dashboards/prince-william/bos/recaps'
+      fullPath: '/dashboards/prince-william/bos/recaps'
+      preLoaderRoute: typeof DashboardsPrinceWilliamBosRecapsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/prince-william/schools/budget': {
+      id: '/dashboards/prince-william/schools/budget'
+      path: '/dashboards/prince-william/schools/budget'
+      fullPath: '/dashboards/prince-william/schools/budget'
+      preLoaderRoute: typeof DashboardsPrinceWilliamSchoolsBudgetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/prince-william/schools/find-the-moment': {
+      id: '/dashboards/prince-william/schools/find-the-moment'
+      path: '/dashboards/prince-william/schools/find-the-moment'
+      fullPath: '/dashboards/prince-william/schools/find-the-moment'
+      preLoaderRoute: typeof DashboardsPrinceWilliamSchoolsFindTheMomentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/prince-william/schools/members': {
+      id: '/dashboards/prince-william/schools/members'
+      path: '/dashboards/prince-william/schools/members'
+      fullPath: '/dashboards/prince-william/schools/members'
+      preLoaderRoute: typeof DashboardsPrinceWilliamSchoolsMembersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/prince-william/schools/policies': {
+      id: '/dashboards/prince-william/schools/policies'
+      path: '/dashboards/prince-william/schools/policies'
+      fullPath: '/dashboards/prince-william/schools/policies'
+      preLoaderRoute: typeof DashboardsPrinceWilliamSchoolsPoliciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboards/prince-william/schools/recaps': {
+      id: '/dashboards/prince-william/schools/recaps'
+      path: '/dashboards/prince-william/schools/recaps'
+      fullPath: '/dashboards/prince-william/schools/recaps'
+      preLoaderRoute: typeof DashboardsPrinceWilliamSchoolsRecapsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/dashboards/senate/members_/$slug': {
@@ -2942,6 +3320,22 @@ const rootRouteChildren: RootRouteChildren = {
     DashboardsFairfaxCitySchoolsPoliciesRoute,
   DashboardsFairfaxCitySchoolsRecapsRoute:
     DashboardsFairfaxCitySchoolsRecapsRoute,
+  DashboardsFairfaxCountyBosBudgetRoute: DashboardsFairfaxCountyBosBudgetRoute,
+  DashboardsFairfaxCountyBosFindTheMomentRoute:
+    DashboardsFairfaxCountyBosFindTheMomentRoute,
+  DashboardsFairfaxCountyBosMembersRoute:
+    DashboardsFairfaxCountyBosMembersRoute,
+  DashboardsFairfaxCountyBosRecapsRoute: DashboardsFairfaxCountyBosRecapsRoute,
+  DashboardsFairfaxCountySchoolsBudgetRoute:
+    DashboardsFairfaxCountySchoolsBudgetRoute,
+  DashboardsFairfaxCountySchoolsFindTheMomentRoute:
+    DashboardsFairfaxCountySchoolsFindTheMomentRoute,
+  DashboardsFairfaxCountySchoolsMembersRoute:
+    DashboardsFairfaxCountySchoolsMembersRoute,
+  DashboardsFairfaxCountySchoolsPoliciesRoute:
+    DashboardsFairfaxCountySchoolsPoliciesRoute,
+  DashboardsFairfaxCountySchoolsRecapsRoute:
+    DashboardsFairfaxCountySchoolsRecapsRoute,
   DashboardsHanoverBosBudgetRoute: DashboardsHanoverBosBudgetRoute,
   DashboardsHanoverBosFindTheMomentRoute:
     DashboardsHanoverBosFindTheMomentRoute,
@@ -2982,6 +3376,22 @@ const rootRouteChildren: RootRouteChildren = {
   DashboardsManassasSchoolsPoliciesRoute:
     DashboardsManassasSchoolsPoliciesRoute,
   DashboardsManassasSchoolsRecapsRoute: DashboardsManassasSchoolsRecapsRoute,
+  DashboardsPrinceWilliamBosBudgetRoute: DashboardsPrinceWilliamBosBudgetRoute,
+  DashboardsPrinceWilliamBosFindTheMomentRoute:
+    DashboardsPrinceWilliamBosFindTheMomentRoute,
+  DashboardsPrinceWilliamBosMembersRoute:
+    DashboardsPrinceWilliamBosMembersRoute,
+  DashboardsPrinceWilliamBosRecapsRoute: DashboardsPrinceWilliamBosRecapsRoute,
+  DashboardsPrinceWilliamSchoolsBudgetRoute:
+    DashboardsPrinceWilliamSchoolsBudgetRoute,
+  DashboardsPrinceWilliamSchoolsFindTheMomentRoute:
+    DashboardsPrinceWilliamSchoolsFindTheMomentRoute,
+  DashboardsPrinceWilliamSchoolsMembersRoute:
+    DashboardsPrinceWilliamSchoolsMembersRoute,
+  DashboardsPrinceWilliamSchoolsPoliciesRoute:
+    DashboardsPrinceWilliamSchoolsPoliciesRoute,
+  DashboardsPrinceWilliamSchoolsRecapsRoute:
+    DashboardsPrinceWilliamSchoolsRecapsRoute,
   DashboardsSenateMembersSlugRoute: DashboardsSenateMembersSlugRoute,
 }
 export const routeTree = rootRouteImport

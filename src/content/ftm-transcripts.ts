@@ -31,7 +31,11 @@ export type FtmTranscriptVenue =
   | "chesterfield-bos"
   | "chesterfield-schools"
   | "henrico-bos"
-  | "henrico-schools";
+  | "henrico-schools"
+  | "fairfax-county-bos"
+  | "fairfax-county-schools"
+  | "pwc-bos"
+  | "pwc-schools";
 
 export type FtmTranscript = {
   /** Catalog meeting id (e.g. LOUDOUN_MEETINGS[].id). */

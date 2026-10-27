@@ -7,7 +7,7 @@ import { CITY_MEETINGS as BASE_CITY_MEETINGS } from "./cities-meetings";
 import { HC_MEETINGS } from "./hc-meetings";
 import { FTM_TRANSCRIPTS } from "./ftm-transcripts";
 
-export type CityId = "fairfax-city" | "manassas" | "albemarle" | "hanover" | "chesterfield" | "henrico";
+export type CityId = "fairfax-city" | "manassas" | "albemarle" | "hanover" | "chesterfield" | "henrico" | "fairfax-county" | "prince-william";
 export type CityBody = "council" | "schools";
 export type CityVenueId =
   | "fairfax-city-council"
@@ -21,7 +21,11 @@ export type CityVenueId =
   | "chesterfield-bos"
   | "chesterfield-schools"
   | "henrico-bos"
-  | "henrico-schools";
+  | "henrico-schools"
+  | "fairfax-county-bos"
+  | "fairfax-county-schools"
+  | "pwc-bos"
+  | "pwc-schools";
 export type CityProvider = "granicus-page" | "youtube" | "wistia" | "civicclerk" | "swagit";
 
 export type CityMeeting = {
@@ -299,6 +303,75 @@ export const CITY_VENUES: Record<CityVenueId, CityVenue> = {
       },
     ],
   },
+  // Fairfax County + Prince William (Oct 27 2026, Scott approved): venue ids match the Mac mini body keys
+  // (fairfax-county-bos, fairfax-county-schools, pwc-bos, pwc-schools). Doors are official pages only.
+  "fairfax-county-bos": {
+    id: "fairfax-county-bos",
+    city: "fairfax-county",
+    body: "council",
+    name: "Fairfax County Board of Supervisors",
+    buttonLabel: "Fairfax County Supervisors",
+    to: "/cities/fairfax-county",
+    route: "/cities/$city",
+    boardLabel: "Board of Supervisors",
+    videoHost: "Fairfax County video archive",
+    votesSource: "adopted Board of Supervisors minutes posted by Fairfax County",
+    since: "January 2025",
+    tag: "Supervisors",
+    doors: [
+      { label: "Board of Supervisors (Fairfax County)", href: "https://www.fairfaxcounty.gov/boardofsupervisors/" },
+    ],
+  },
+  "fairfax-county-schools": {
+    id: "fairfax-county-schools",
+    city: "fairfax-county",
+    body: "schools",
+    name: "Fairfax County School Board",
+    buttonLabel: "Fairfax County Schools",
+    to: "/cities/fairfax-county/schools",
+    route: "/cities/$city/schools",
+    boardLabel: "School Board",
+    videoHost: "Fairfax County Public Schools YouTube channel",
+    votesSource: "adopted School Board minutes posted by Fairfax County Public Schools",
+    since: "January 2025",
+    doors: [
+      { label: "Fairfax County School Board (FCPS)", href: "https://www.fcps.edu/about-fcps/leadership/school-board" },
+    ],
+  },
+  "pwc-bos": {
+    id: "pwc-bos",
+    city: "prince-william",
+    body: "council",
+    name: "Prince William Board of County Supervisors",
+    buttonLabel: "Prince William Supervisors",
+    to: "/cities/prince-william",
+    route: "/cities/$city",
+    boardLabel: "Board of County Supervisors",
+    videoHost: "Prince William County video archive (Granicus)",
+    votesSource: "adopted Board of County Supervisors minutes posted by Prince William County",
+    since: "January 2025",
+    tag: "Supervisors",
+    doors: [
+      { label: "Board of County Supervisors (PWC)", href: "https://www.pwcva.gov/department/board-county-supervisors" },
+      { label: "Meeting video (Granicus)", href: "https://pwcgov.granicus.com/ViewPublisher.php?view_id=23" },
+    ],
+  },
+  "pwc-schools": {
+    id: "pwc-schools",
+    city: "prince-william",
+    body: "schools",
+    name: "Prince William County School Board",
+    buttonLabel: "Prince William Schools",
+    to: "/cities/prince-william/schools",
+    route: "/cities/$city/schools",
+    boardLabel: "School Board",
+    videoHost: "Prince William County Public Schools YouTube channel",
+    votesSource: "adopted School Board minutes posted by Prince William County Public Schools",
+    since: "January 2025",
+    doors: [
+      { label: "Prince William County School Board (PWCS)", href: "https://www.pwcs.edu/about/school_board/" },
+    ],
+  },
 };
 
 export const CITIES: City[] = [
@@ -353,6 +426,23 @@ export const CITIES: City[] = [
     region: "Central Virginia",
     venues: ["henrico-bos", "henrico-schools"],
   },
+  {
+    // Added Oct 27 2026 (Scott approved): template first; transcripts/recaps post via the overnight ingest.
+    id: "fairfax-county",
+    name: "Fairfax County",
+    shortName: "Fairfax County",
+    to: "/cities/fairfax-county",
+    region: "Northern Virginia",
+    venues: ["fairfax-county-bos", "fairfax-county-schools"],
+  },
+  {
+    id: "prince-william",
+    name: "Prince William County",
+    shortName: "Prince William",
+    to: "/cities/prince-william",
+    region: "Northern Virginia",
+    venues: ["pwc-bos", "pwc-schools"],
+  },
 ];
 
 const CITY_MEETINGS: CityMeeting[] = [...BASE_CITY_MEETINGS, ...HC_MEETINGS];
@@ -396,7 +486,7 @@ export function cityJumpUrl(m: CityMeeting, seconds: number): string {
 }
 
 export function isCityId(x: string): x is CityId {
-  return x === "fairfax-city" || x === "manassas" || x === "albemarle" || x === "hanover" || x === "chesterfield" || x === "henrico";
+  return x === "fairfax-city" || x === "manassas" || x === "albemarle" || x === "hanover" || x === "chesterfield" || x === "henrico" || x === "fairfax-county" || x === "prince-william";
 }
 
 /**

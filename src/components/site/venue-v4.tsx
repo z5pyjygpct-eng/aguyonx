@@ -142,8 +142,9 @@ export function FtmV4Page({ venue, meetings, search, page, onPage }: { venue: V4
           <h2 className="font-serif text-3xl font-semibold uppercase">Meeting videos</h2>
           <FoiaButton foia={venue.foia} />
         </div>
-        <VideoChart meetings={sorted} />
-        {f.controls}
+        {sorted.length === 0 ? <p className="mt-6 rounded-xl border border-dashed border-navy-line px-6 py-10 text-center font-serif text-2xl uppercase text-night-muted">In-Process</p> : null}
+        {sorted.length ? <VideoChart meetings={sorted} /> : null}
+        {sorted.length ? f.controls : null}
         <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
           {f.rows.map((m) => (
             <li key={m.id} className="overflow-hidden rounded-xl border border-navy-line bg-navy-700">
@@ -184,7 +185,8 @@ export function RecapsV4Page({ venue, recaps, page, onPage }: { venue: V4Venue; 
           <h2 className="font-serif text-3xl font-semibold uppercase">Meeting Recaps</h2>
           <FoiaButton foia={venue.foia} />
         </div>
-        {f.controls}
+        {sorted.length === 0 ? <p className="mt-6 rounded-xl border border-dashed border-navy-line px-6 py-10 text-center font-serif text-2xl uppercase text-night-muted">In-Process</p> : null}
+        {sorted.length ? f.controls : null}
         <ul className="mt-6 flex flex-col gap-3">
           {f.rows.map((r) => {
             const [wd, ...rest] = r.dateLabel.split(", ");
