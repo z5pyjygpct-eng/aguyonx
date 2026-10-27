@@ -21,6 +21,15 @@ export const VIDEOS_DEK =
 /** Newest first. */
 export const VIDEOS: SiteVideo[] = [
   {
+    id: "aguyonx-story-2026-10-27",
+    date: "2026-10-27",
+    title: "Why aguyonx.com? Dale's Story",
+    byline: "",
+    src: "/videos/aguyonx-story-2026-10-27.mp4",
+    poster: "/images/aguyonx-story-2026-10-27-poster.jpg",
+    dek: "About a minute on why this site exists: the public record, made easy to find.",
+  },
+  {
     id: "vdoe-911-rewrite-proof",
     date: "2026-09-02",
     title:
