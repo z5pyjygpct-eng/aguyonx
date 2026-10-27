@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,231 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-27",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 26, Monday) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched on the article page, Oct 26 ET publish date checked on each article page; Loudoun County release dates are from the county news flash feed). Sources checked: RSS from ARLnow, FFXnow, Annandale Today, Loudoun Times-Mirror, Potomac Local, Blue Ridge Leader, the Loudoun County news flash, Fairfax County news, FOX 5 DC, WUSA9, NBC Washington and WTOP; Loudoun Now and InsideNoVa pages read through a scraping service; news.ts Oct 26 items were all statewide, so none qualified. Caveats: 24 kept from 37 evaluated (not capped); Prince William Times and Fairfax Times feeds returned HTTP 429 after retries; Loudoun Now feeds were rate-limited or missing, so its homepage was read instead; three WUSA9 articles returned HTTP 403 and could not be verified (NOVA Parks Arlington e-moto, Fairfax e-bike guilty plea, Woodbridge machete; the machete story is covered by the Potomac Local blotter item). Left out: same-event duplicates (Potomac Local, WUSA9 and InsideNoVa reports of the Yorkshire two-killed crash already in the Oct 26 edition; WUSA9 Old Town Manassas gunfire; WTOP, WUSA9 and InsideNoVa Manassas Park school handgun reports; Loudoun Times-Mirror Hamilton house fire); Loudoun Now Rt. 50 bicycle crash (locality unclear); Loudoun Now items dated before Oct 26; InsideNoVa Manassas First Friday (dated Oct 19); low-priority items (Arlington leaf collection, anime convention move to Chantilly, Loudoun Youth Battle of the Bands, Nexus234 career fair, WRAP SoberRide); Alexandria, DC, Maryland and statewide items; sports, opinion and press releases.",
+      "items": [
+        {
+          "id": "school-bond-boosters-seek-broadbased-arlnow-2026-10-26",
+          "county": "Arlington",
+          "headline": "School bond boosters seek ‘broad-based support’ for $80M referendum",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/26/school-bond-boosters-seek-broad-based-support-for-80m-referendum/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-who-fled-to-europe-arlnow-2026-10-26",
+          "county": "Arlington",
+          "headline": "Man who fled to Europe after 2023 Clarendon shooting sentenced to 17 years",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/26/man-who-fled-to-europe-after-2023-clarendon-shooting-sentenced-to-17-years/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "officials-higher-fees-for-charging-arlnow-2026-10-26",
+          "county": "Arlington",
+          "headline": "Officials: Higher fees for charging electric vehicles will make program ‘self-sustaining’",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/26/officials-higher-fees-for-charging-electric-vehicles-will-make-program-self-sustaining/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "pickleball-players-press-for-a-arlnow-2026-10-26",
+          "county": "Arlington",
+          "headline": "Pickleball players press for a ‘flagship facility’ at Quincy Park",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/26/pickleball-players-press-for-a-flagship-facility-at-quincy-park/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "developer-to-share-latest-plan-ffxnow-2026-10-26",
+          "county": "Fairfax",
+          "headline": "Developer to share latest plan for former T-Mobile campus in Reston tonight",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/26/developer-to-share-latest-plan-for-former-t-mobile-campus-in-reston-tonight/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "planned-senior-living-complex-on-ffxnow-2026-10-26",
+          "county": "Fairfax",
+          "headline": "Planned senior living complex on Shipgarten site praised for ‘striking’ architecture",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/26/planned-senior-living-complex-on-site-of-shipgarten-in-tysons-praised-for-striking-architecture/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "pedestrian-critically-injured-in-crash-ffxnow-2026-10-26",
+          "county": "Fairfax",
+          "headline": "Pedestrian critically injured in crash in University Mall parking lot",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/26/pedestrian-critically-injured-in-crash-in-university-mall-parking-lot/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "reston-association-approves-new-budget-ffxnow-2026-10-26",
+          "county": "Fairfax",
+          "headline": "Reston Association approves new budget, capital projects plan",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/26/reston-association-approves-new-budget-capital-projects-plan/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "vienna-reopens-case-for-traffic-ffxnow-2026-10-26",
+          "county": "Fairfax",
+          "headline": "Vienna reopens case for traffic signal outside Madison High School",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/26/vienna-reopens-case-for-traffic-signal-outside-madison-high-school/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcpd-wraps-up-road-shark-ffxnow-2026-10-26",
+          "county": "Fairfax",
+          "headline": "FCPD wraps up ‘Road Shark’ traffic safety campaign with over 60K tickets issued",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/26/fcpd-wraps-up-road-shark-traffic-safety-campaign-with-over-60k-tickets-issued/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "doge-victim-launches-campaign-for-annandaletoday-2026-10-26",
+          "county": "Fairfax",
+          "headline": "DOGE victim launches campaign for the House of Delegates",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/doge-victim-launches-campaign-for-the-house-of-delegates/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "2-men-injured-in-fairfax-fox5-2026-10-26",
+          "county": "Fairfax",
+          "headline": "2 men injured in Fairfax County domestic shooting",
+          "outlet": "FOX 5 DC",
+          "url": "https://www.fox5dc.com/news/2-men-injured-fairfax-county-domestic-shooting",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-convicted-in-nonfatal-northern-fox5-2026-10-26",
+          "county": "Fairfax",
+          "headline": "Man convicted in non-fatal Northern Virginia road rage shooting",
+          "outlet": "FOX 5 DC",
+          "url": "https://www.fox5dc.com/news/man-convicted-non-fatal-northern-virginia-road-rage-shooting",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-man-gets-10-12-ltm-2026-10-26",
+          "county": "Loudoun",
+          "headline": "Fairfax man gets 10 1/2 years for assaulting jail deputies",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/fairfax-man-gets-10-1-2-years-for-assaulting-jail-deputies/article_10eb98fe-319c-4cc1-9fe9-fafedce418c9.html",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "sterling-man-accused-of-shooting-ltm-2026-10-26",
+          "county": "Loudoun",
+          "headline": "Sterling man accused of shooting woman",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/sterling-man-accused-of-shooting-woman/article_b9a44208-45f5-411b-a8a3-36dbce0f5fce.html",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "photos-naacp-gop-chapters-rally-ltm-2026-10-26",
+          "county": "Loudoun",
+          "headline": "PHOTOS: NAACP, GOP chapters rally ahead of Nov. 3 midterms",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/continuing_coverage/photos-naacp-gop-chapters-rally-ahead-of-nov-3-midterms/article_e2256572-a181-490e-b7d8-c7f9c0ee5d11.html",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-library-system-named-virginia-ltm-2026-10-26",
+          "county": "Loudoun",
+          "headline": "Loudoun Library system named Virginia Library of the Year",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/community/loudoun-library-system-named-virginia-library-of-the-year/article_b9512319-06ea-4aa3-bbd3-0b8cbf30ca82.html",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "six-things-to-know-about-loudoungov-2026-10-26",
+          "county": "Loudoun",
+          "headline": "Six Things to Know about the November 3 General Election in Loudoun",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10954",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-offers-free-behavioral-health-loudoungov-2026-10-26",
+          "county": "Loudoun",
+          "headline": "Loudoun Offers Free Behavioral Health Training Sessions in November",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10953",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "as-school-budget-talks-begin-loudounnow-2026-10-26",
+          "county": "Loudoun",
+          "headline": "As School Budget Talks Begin, Board Looks to Cost-Cutting Measures",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/as-school-budget-talks-begin-board-looks-to-cost-cutting-measures/article_dd8c0708-5e35-45ec-9824-9e4dc045e109.html",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-updates-data-center-regulations-loudounnow-2026-10-26",
+          "county": "Loudoun",
+          "headline": "Loudoun Updates Data Center Regulations in Response to State Code Changes",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/loudoun-updates-data-center-regulations-in-response-to-state-code-changes/article_ff4b891f-8cb8-49cc-9487-72f4e0300bc2.html",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-park-art-teacher-arrested-potomaclocal-2026-10-26",
+          "county": "Prince William",
+          "headline": "Manassas Park art teacher arrested after loaded handgun found in middle school parking lot",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/26/manassas-park-art-teacher-arrested-handgun-middle-school-parking-lot/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prosecutors-highlight-saw-evidence-on-wtop-2026-10-26",
+          "county": "Prince William",
+          "headline": "Prosecutors highlight saw evidence on day 11 of Naresh Bhatt murder trial; defense pushes back on investigation",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/prosecutors-highlight-saw-evidence-on-day-11-of-naresh-bhatt-murder-trial-defense-pushes-back-on-investigation/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-man-arrested-after-potomaclocal-2026-10-26",
+          "county": "Prince William",
+          "headline": "Police Blotter: Man arrested after brandishing machete in Woodbridge road rage",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/26/police-blotter-2026-10-26/",
+          "published": "2026-10-26",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-10-26",
       "status": "ok",
