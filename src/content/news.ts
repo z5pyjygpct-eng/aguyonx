@@ -53,6 +53,26 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "lawmakers-approve-plan-k12-funding-formula-virginiamercury-2026-10-27",
+    date: "2026-10-27",
+    headline: "Virginia lawmakers approve plan to advance new K-12 school funding formula",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/27/virginia-lawmakers-approve-plan-to-advance-new-k-12-funding-formula/",
+    people: [{ name: "Mamie Locke", office: "State Senator" }, { name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+    locations: ["senate"],
+  },
+  {
+    id: "manassas-new-interim-mayor-ralph-smith-pwtimes-2026-10-26",
+    date: "2026-10-26",
+    filed: "2026-10-27",
+    headline: "Manassas has a new interim mayor: Ralph Smith",
+    outlet: "Prince William Times",
+    url: "https://www.princewilliamtimes.com/localnews/manassas-has-a-new-interim-mayor-ralph-smith/article_e3426d55-5d38-4f72-8429-37d578835f85.html",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "school-bond-boosters-seek-broadbased-arlnow-2026-10-26",
     date: "2026-10-26",
     filed: "2026-10-27",
