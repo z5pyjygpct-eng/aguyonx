@@ -21,6 +21,15 @@ export const VIDEOS_DEK =
 /** Newest first. */
 export const VIDEOS: SiteVideo[] = [
   {
+    id: "aguyonx-fairfax-pw-announce-2026-10-27",
+    date: "2026-10-27",
+    title: "Fairfax & Prince William County are coming to aguyonx.com",
+    byline: "",
+    src: "/videos/aguyonx-fairfax-pw-announce-2026-10-27.mp4",
+    poster: "/images/aguyonx-fairfax-pw-announce-2026-10-27-poster.jpg",
+    dek: "Fairfax County and Prince William County dashboards are now on aguyonx.com.",
+  },
+  {
     id: "aguyonx-story-2026-10-27",
     date: "2026-10-27",
     title: "Why aguyonx.com? Dale's Story",
