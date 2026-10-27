@@ -21,6 +21,33 @@ export const VIDEOS_DEK =
 /** Newest first. */
 export const VIDEOS: SiteVideo[] = [
   {
+    id: "aguyonx-ga-members-walkthrough-2026-10-27",
+    date: "2026-10-27",
+    title: "How to look up your legislators",
+    byline: "",
+    src: "/videos/aguyonx-ga-members-walkthrough-2026-10-27.mp4",
+    poster: "/images/aguyonx-ga-members-walkthrough-2026-10-27-poster.jpg",
+    dek: "A walkthrough of finding a delegate or senator from the House and Senate members pages on aguyonx.com. Bills, financials and scorecards for every member are coming soon.",
+  },
+  {
+    id: "aguyonx-features-tour-2026-10-27",
+    date: "2026-10-27",
+    title: "More than Find the Moment: a tour of aguyonx.com",
+    byline: "",
+    src: "/videos/aguyonx-features-tour-2026-10-27.mp4",
+    poster: "/images/aguyonx-features-tour-2026-10-27-poster.jpg",
+    dek: "A quick tour of News, Articles, Investigations, the FOIA desk, Videos and the Research Library.",
+  },
+  {
+    id: "aguyonx-mission-2026-10-27",
+    date: "2026-10-27",
+    title: "All in one place",
+    byline: "",
+    src: "/videos/aguyonx-mission-2026-10-27.mp4",
+    poster: "/images/aguyonx-mission-2026-10-27-poster.jpg",
+    dek: "Virginia's public record is scattered across many sites. aguyonx.com brings meetings, dashboards and official sources together in one place.",
+  },
+  {
     id: "aguyonx-fairfax-pw-announce-2026-10-27",
     date: "2026-10-27",
     title: "Fairfax & Prince William County are coming to aguyonx.com",
