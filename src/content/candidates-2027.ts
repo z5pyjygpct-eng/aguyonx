@@ -28,6 +28,13 @@ export const CANDIDATES_2027: Candidate2027[] = [
     status: "declared",
   },
   {
+    id: "john-michael-forrest",
+    name: "John Michael Forrest",
+    officeSought: "House of Delegates, District 14 (Democratic primary vs. Del. Vivian Watts)",
+    locality: "Fairfax County",
+    status: "declared",
+  },
+  {
     id: "brittany-dunn-pirio",
     name: "Brittany Dunn-Pirio",
     officeSought: "Fairfax Commonwealth's Attorney",
