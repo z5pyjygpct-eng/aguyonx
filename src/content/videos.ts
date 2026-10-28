@@ -21,6 +21,17 @@ export const VIDEOS_DEK =
 /** Newest first. */
 export const VIDEOS: SiteVideo[] = [
   {
+    id: "aguyonx-sb624-2026-10-27",
+    date: "2026-10-27",
+    title: "Sharia Creep in Virginia: Salim, Spanberger, Hashmi & the Muslim Brotherhood Blueprint",
+    byline: "",
+    src: "/videos/aguyonx-sb624-2026-10-27.mp4",
+    poster: "/images/aguyonx-sb624-2026-10-27-poster.jpg",
+    dek: "SB 624, the Sharia-Free America Caucus, and the article's allegations, labeled as allegations.",
+    sourceLabel: "Read the full article",
+    sourceUrl: "/articles/sharia-creep-in-virginia-salim-spanberger-hashmi-the-muslim-brotherhood-blueprint",
+  },
+  {
     id: "aguyonx-va-constitution-conflicts-2026-10-27",
     date: "2026-10-27",
     title: "2026 Democratic Agenda: Conflicts with the Virginia Constitution",

@@ -63,8 +63,9 @@ function VideosIndex() {
                     <p className="mt-auto pt-3 text-sm">
                       <a
                         href={v.sourceUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        {...(v.sourceUrl.startsWith("/") && !v.sourceUrl.startsWith("/files/")
+                          ? {}
+                          : { target: "_blank", rel: "noopener noreferrer" })}
                         className="font-semibold text-gold underline-offset-2 hover:underline"
                       >
                         {v.sourceLabel ?? "Source"}
