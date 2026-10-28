@@ -384,6 +384,11 @@ Non-Loudoun recaps must come out at Loudoun depth (agenda, official decisions wi
 moments, transcript downloads). After ANY new recap or transcript is posted (morning ingest, venue recap
 routines, Official votes watch), run `npm run recaps:enrich` before build/commit/push. It runs:
 - `scripts/fairfax-recap-fill.py`: Fairfax City council + schools (Granicus agenda, minutes, video index).
+- `scripts/ffx-pw-votes.py`: official votes for Fairfax County BOS (Clerk's Board Summary PDF, full-Board meetings
+  only; committees have no action record), FCPS (BoardDocs vsba/fairfax structured minutes; final minutes that are
+  only scanned PDFs are skipped, no OCR), PWC BOCS (Granicus "Brief", MinutesViewer view_id=23 clip_id from the slug)
+  and PWCS (BoardDocs vsba/pwcs minutes). Every decision carries its source link; recaps with no record yet stay
+  "votes not yet posted" and are never held. Re-run anytime (`--only slug,...`, `--refresh`); merges, never removes.
 - `scripts/albemarle-recap-fill.py`: Albemarle School Board. Agenda from ACPS ElectronicSchoolBoard
   (`esb.k12albemarle.org/public_agendaview.aspx?mtgId=…`, matched by date; index cached in
   `data/albemarle/esb-index.json`). Decisions ONLY from ADOPTED minutes, which ESB publishes as PDFs on
