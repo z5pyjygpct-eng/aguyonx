@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3787.json",
+  "outBase": "public/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-02-17-prince-william-board-of-county-supervisors-meeting",
+  "title": "Prince William Board of County Supervisors Meeting, Tuesday, February 17, 2026",
+  "shortTitle": "Prince William Board of County Supervisors Meeting \u00b7 Feb 17, 2026",
+  "date": "Tuesday, February 17, 2026",
+  "place": "Prince William County Board of County Supervisors, Virginia",
+  "length": "3h 34m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Prince William County, Granicus)",
+      "href": "https://pwcgov.granicus.com/player/clip/3787"
+    },
+    {
+      "label": "Official Board of County Supervisors page (Prince William County)",
+      "href": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-28"
+}

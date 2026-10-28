@@ -406,3 +406,14 @@ filters first built for the Loudoun BOS recaps. The video/meeting list heading i
   localities such as Chesterfield/Hanover/Henrico) get both automatically.
 - Hand-built venue pages (Loudoun BOS/LCPS, House, Senate, Board of Ed) call the hook directly; any new
   non-template venue page must do the same.
+
+## Fairfax County + Prince William whisper ingest (2026-10-28)
+- Venues `fairfax-county-bos` (Granicus clips, ids `fxco-bos-<clip>`), `fairfax-county-schools` (YouTube, `fxco-sb-<videoId>`),
+  `pwc-bos` (Granicus, `pwc-bos-<clip>`), `pwc-schools` (YouTube, `pwc-sb-<videoId>`).
+- Data is appended (same path as Henrico) to `src/content/ftm-transcripts-hc.ts`, `src/content/city-recaps-hc.ts` and
+  `src/content/hc-meetings-transcribed.json` by research/ftm-whisper/scripts/w1028/ingest.py + merge.py, so entries show on
+  `/dashboards/fairfax-county/*` and `/dashboards/prince-william/*` (Find the Moment + recaps) via `albMeetings`/`albRecaps`.
+  Recap pages: `/cities/fairfax-county/recaps/<slug>`, `/cities/prince-william/recaps/<slug>`.
+- Granicus `playerUrl` = `<MediaPlayer url>?redirect=true` so jump links append `&entrytime=<s>`.
+- Votes: every FFX/PWC recap ships `votesPosted: false` with a per-venue note until an official-minutes source is wired
+  (FFX BOS adopted minutes / Board Summary; FCPS BoardDocs; PWC BOCS minutes; PWCS BoardDocs). Never from transcripts.

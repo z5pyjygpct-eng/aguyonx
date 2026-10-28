@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4065.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-02-27-fairfax-county-board-of-supervisors-legislative-committee",
+  "title": "Fairfax County Board of Supervisors Legislative Committee, Friday, February 27, 2026",
+  "shortTitle": "Board of Supervisors Legislative Committee \u00b7 Feb 27, 2026",
+  "date": "Friday, February 27, 2026",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "1h 9m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/4065"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-28"
+}

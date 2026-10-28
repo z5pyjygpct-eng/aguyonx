@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-7DPXtspmXg0.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-03-03-fairfax-county-school-board-work-session",
+  "title": "Fairfax County School Board Work Session, Tuesday, March 3, 2026",
+  "shortTitle": "School Board Work Session \u00b7 Mar 3, 2026",
+  "date": "Tuesday, March 3, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "3h 14m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=7DPXtspmXg0"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-28"
+}

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-nDC4eOTULAk.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-03-03-fairfax-county-school-board-work-session-announcement-of-closed-meeting",
+  "title": "Fairfax County School Board Work Session \u2014 Announcement of Closed Meeting, Tuesday, March 3, 2026",
+  "shortTitle": "School Board Work Session \u2014 Announcement of Closed Meeting \u00b7 Mar 3, 2026",
+  "date": "Tuesday, March 3, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "0m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=nDC4eOTULAk"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-28"
+}
