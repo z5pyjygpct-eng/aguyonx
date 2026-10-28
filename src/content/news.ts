@@ -6,6 +6,8 @@ export type NewsOffice =
   | "Lieutenant Governor"
   | "U.S. Senator"
   | "U.S. Representative"
+  | "U.S. House candidate (VA-01)"
+  | "U.S. House candidate (VA-05)"
   | "State Senator"
   | "State Delegate"
   | "State Delegate candidate"
