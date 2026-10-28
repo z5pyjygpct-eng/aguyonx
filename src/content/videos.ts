@@ -21,6 +21,17 @@ export const VIDEOS_DEK =
 /** Newest first. */
 export const VIDEOS: SiteVideo[] = [
   {
+    id: "aguyonx-va-constitution-conflicts-2026-10-27",
+    date: "2026-10-27",
+    title: "2026 Democratic Agenda: Conflicts with the Virginia Constitution",
+    byline: "",
+    src: "/videos/aguyonx-va-constitution-conflicts-2026-10-27.mp4",
+    poster: "/images/aguyonx-va-constitution-conflicts-2026-10-27-poster.jpg",
+    dek: "What the investigation finds about the 2026 agenda's conflicts with the Virginia Constitution, and why they matter.",
+    sourceLabel: "Read the full investigation",
+    sourceUrl: "/files/investigations/2026-dem-va-constitution-conflicts.pdf",
+  },
+  {
     id: "aguyonx-ga-members-walkthrough-2026-10-27",
     date: "2026-10-27",
     title: "How to look up your legislators",
