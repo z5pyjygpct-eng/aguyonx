@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,240 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-28",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 27, Tuesday) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (outlet headline matched on the article page and Oct 27 ET publish date checked on each article page; the Loudoun County release date is from its news flash page). Sources checked: RSS from ARLnow, FFXnow, Annandale Today, Loudoun Times-Mirror, Potomac Local, Blue Ridge Leader, the Loudoun County news flash, FOX 5 DC, WUSA9, NBC Washington and WTOP; Loudoun Now and InsideNoVa homepages. News.ts Oct 27 items were statewide or regional, so none qualified. Caveats: capped at 25 kept from 33 candidate pages checked; 4 failed the date check (Loudoun Now Ashburn armed robbery dated Oct 23; InsideNoVa Manassas massage-business assault Oct 24, National Merit semifinalists Oct 23 and Dulles VIP terminal Oct 25). Prince William Times, Fairfax Times and the Loudoun Now feed returned HTTP 429; the Fairfax County news feed is stale (last item 2020), so it was a gap. Four WUSA9 articles (HTTP 403) and three Loudoun Now articles (HTTP 429) to direct requests were read and verified through a fetch service. Left out because of the cap: ARLnow Leeway Overlee stumbling stones; Annandale Today Pines interpretive sign; Loudoun Now swift water drills and Young Kings mentorship. Left out as same-event duplicates: Loudoun Times-Mirror Golden to Mars appeals (covered by Loudoun Now); WTOP and FOX 5 Herndon shooting (covered by FFXnow); FOX 5 Haymarket student struck (covered by WUSA9); WUSA9 Woodbridge machete (in the Oct 27 edition); Blue Ridge Leader Hamilton house fire (county release in the Oct 25 edition). Low-priority items left out: Vienna Halloween parade, Workhouse hot shop, Food for Neighbors, Saigon Saigon, Arlington breast cancer survivor profile, Potomac Mills trick-or-treat, Kukur Tihar, Loudoun PRCS Election Day hours. Also left out: N.Va. urban heat island mapping (locality unclear); Alexandria, DC, Maryland and statewide items; sports, opinion and sponsored posts.",
+      "items": [
+        {
+          "id": "footage-of-columbia-pike-police-arlnow-2026-10-27",
+          "county": "Arlington",
+          "headline": "Footage of Columbia Pike police shooting prompts calls to fix ‘institutional failures’",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/27/footage-of-columbia-pike-police-shooting-prompts-calls-to-fix-institutional-failures/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "three-men-sentenced-for-arson-arlnow-2026-10-27",
+          "county": "Arlington",
+          "headline": "Three men sentenced for arson at Columbia Pike apartment building",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/27/three-men-sentenced-over-fire-in-columbia-pike-apartment-building/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "demolition-gets-underway-at-ballstonarea-arlnow-2026-10-27",
+          "county": "Arlington",
+          "headline": "Demolition gets underway at Ballston-area office building",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/27/demolition-gets-underway-at-ballston-area-office-building/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "new-waymo-mapping-vehicles-spotted-arlnow-2026-10-27",
+          "county": "Arlington",
+          "headline": "NEW: Waymo mapping vehicles spotted in Arlington neighborhoods",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/27/new-waymo-mapping-vehicles-spotted-in-arlington-neighborhoods/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-could-set-higher-bar-arlnow-2026-10-27",
+          "county": "Arlington",
+          "headline": "Arlington could set higher bar for sending historic district proposals to County Board",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/27/arlington-could-set-higher-bar-for-sending-historic-district-proposals-to-county-board/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "herndon-man-charged-with-shooting-ffxnow-2026-10-27",
+          "county": "Fairfax",
+          "headline": "Herndon man charged with shooting at Dulles Greene apartments",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/27/herndon-man-charged-with-shooting-at-dulles-greene-apartments/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-school-board-starts-ffxnow-2026-10-27",
+          "county": "Fairfax",
+          "headline": "Fairfax County School Board starts solidifying priorities for new General Assembly, Congress",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/27/fairfax-county-school-board-starts-solidifying-priorities-for-new-general-assembly-congress/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "falls-church-man-pleads-guilty-ffxnow-2026-10-27",
+          "county": "Fairfax",
+          "headline": "Falls Church man pleads guilty to shooting e-bike rider in Fair Oaks area",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/27/falls-church-man-pleads-guilty-in-shooting-of-e-bike-rider-in-fair-oaks-area/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "park-bond-funds-could-be-annandaletoday-2026-10-27",
+          "county": "Fairfax",
+          "headline": "Park bond funds could be used for Poe Terrace Park",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/park-bond-funds-could-be-used-for-poe-terrace-park/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "mount-vernon-house-fire-that-wusa9-2026-10-27",
+          "county": "Fairfax",
+          "headline": "Mount Vernon house fire that injured one and displaced two people was caused by 'electrical event'",
+          "outlet": "WUSA9",
+          "url": "https://www.wusa9.com/article/news/local/fire/mount-vernon-house-fire-injured-one-displaced-two-people-caused-electrical-event/65-a4cef7c5-af83-4f99-b014-890ca6f23c09",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "person-hospitalized-after-getting-stuck-wusa9-2026-10-27",
+          "county": "Fairfax",
+          "headline": "Person hospitalized after getting stuck between train, platform at Wiehle-Reston East Metro Station",
+          "outlet": "WUSA9",
+          "url": "https://www.wusa9.com/article/traffic/mission-metro/metro-train-stuck-fairfax-county/65-050c2cf3-e02d-4800-8588-d44a49adc825",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lcps-institutes-strategic-hiring-pause-loudounnow-2026-10-27",
+          "county": "Loudoun",
+          "headline": "LCPS Institutes Strategic Hiring Pause as Enrollment Declines",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/education/lcps-institutes-strategic-hiring-pause-as-enrollment-declines/article_04eca7fd-b839-4229-9f34-1652c5142507.html",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "school-board-digs-into-enrollment-loudounnow-2026-10-27",
+          "county": "Loudoun",
+          "headline": "School Board Digs into Enrollment, Budget Challenges; Largely Opposes School Closures",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/school-board-digs-into-enrollment-budget-challenges-largely-opposes-school-closures/article_1ea960d7-8103-4a83-a8e2-929acee262f8.html",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "parties-file-supreme-court-appeal-loudounnow-2026-10-27",
+          "county": "Loudoun",
+          "headline": "Parties File Supreme Court Appeal in Loudoun Power Line Case",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/parties-file-supreme-court-appeal-in-loudoun-power-line-case/article_3b279413-169c-44c0-b9ee-e7d6df746c24.html",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "2-kids-struck-by-car-loudounnow-2026-10-27",
+          "county": "Loudoun",
+          "headline": "2 Kids Struck by Car Near Stone Bridge High School",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/2-kids-struck-by-car-near-stone-bridge-high-school/article_1bc1316c-fea3-4b23-a074-de3df2dfcf15.html",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "mother-arrested-following-drowning-death-loudoungov-2026-10-27",
+          "county": "Loudoun",
+          "headline": "Mother Arrested Following Drowning Death of 8-Month-Old Infant",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10957",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "board-adopts-2027-legislative-agenda-potomaclocal-2026-10-27",
+          "county": "Prince William",
+          "headline": "Board adopts 2027 legislative agenda",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/27/board-adopts-2027-legislative-agenda/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-council-names-ralph-smith-potomaclocal-2026-10-27",
+          "county": "Prince William",
+          "headline": "Manassas council names Ralph Smith interim mayor effective Oct. 27",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/27/manassas-council-names-ralph-smith-interim-mayor-effective-oct-27-2/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-accused-of-damaging-iwo-potomaclocal-2026-10-27",
+          "county": "Prince William",
+          "headline": "Man accused of damaging Iwo Jima memorial faces federal charges",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/27/man-accused-of-damaging-iwo-jima-memorial-faces-federal-charges/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-motorcycle-operator-killed-potomaclocal-2026-10-27",
+          "county": "Prince William",
+          "headline": "Police Blotter: Motorcycle operator killed in Dumfries crash",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/27/police-blotter-2026-10-27/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "hairbrush-dna-saw-evidence-highlighted-wtop-2026-10-27",
+          "county": "Prince William",
+          "headline": "Hairbrush DNA, saw evidence highlighted in Naresh Bhatt murder trial",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/hairbrush-dna-saw-evidence-highlighted-in-naresh-bhatt-murder-trial/",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-county-student-in-wusa9-2026-10-27",
+          "county": "Prince William",
+          "headline": "Prince William County student in life-threatening condition after being hit by a car",
+          "outlet": "WUSA9",
+          "url": "https://www.wusa9.com/article/traffic/incidents/crash/prince-william-county-student-life-threatening-condition-hit-by-car/65-1a4b4a7f-d73c-4d24-9ec7-dd07f58310f8",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "alert-witnesses-spot-3yearold-toddler-wusa9-2026-10-27",
+          "county": "Prince William",
+          "headline": "Alert witnesses spot 3-year-old toddler alone in car; family member charged",
+          "outlet": "WUSA9",
+          "url": "https://www.wusa9.com/article/news/crime/child-neglect-child-left-in-car-woodbridge/65-ceff8a25-8537-400f-a1c0-28ddcb77e52b",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-supervisors-approve-200k-insidenova-2026-10-27",
+          "county": "Prince William",
+          "headline": "Prince William supervisors approve $200K for investigation into alleged harassment by high-level official",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/prince-william-county-funds-200k-for-independent-misconduct-investigation-9de7f45e",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-school-board-finalizes-insidenova-2026-10-27",
+          "county": "Prince William",
+          "headline": "Prince William School Board finalizes name for county's newest elementary school",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/prince-william-school-board-finalizes-name-for-countys-newest-elementary-school-05c94632",
+          "published": "2026-10-27",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-10-27",
       "status": "ok",
