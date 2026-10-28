@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4198.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-07-07-fairfax-county-board-of-supervisors-environmental-committee",
+  "title": "Fairfax County Board of Supervisors Environmental Committee, Tuesday, July 7, 2026",
+  "shortTitle": "Board of Supervisors Environmental Committee \u00b7 Jul 7, 2026",
+  "date": "Tuesday, July 7, 2026",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "1h 2m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/4198"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-27"
+}

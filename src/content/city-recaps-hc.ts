@@ -38309,5 +38309,1571 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Adjournment."
       }
     ]
+  },
+  {
+    "slug": "pwc-bos-3901",
+    "meetingId": "pwc-bos-3901",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "dateLabel": "Tuesday, September 1, 2026",
+    "whenWhere": "Prince William County Board of County Supervisors meeting · video 9h 30m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Prince William County's adopted Board of County Supervisors minutes / resolutions. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Prince William County, Granicus)",
+          "href": "https://pwcgov.granicus.com/player/clip/3901"
+        },
+        {
+          "label": "Board of County Supervisors page (Prince William County)",
+          "href": "https://www.pwcva.gov/department/board-county-supervisors"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-09-01-prince-william-board-of-county-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-09-01-prince-william-board-of-county-supervisors-meeting.txt",
+      "pdfNote": "132 pages"
+    },
+    "shareContext": "PWC BOCS, Sep 1, 2026",
+    "moments": [
+      {
+        "seconds": 1536,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 6777,
+        "label": "Public comment / public hearing begins."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-Len5_ly2Uyw",
+    "meetingId": "fxco-sb-Len5_ly2Uyw",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Public Engagement Committee Meeting",
+    "dateLabel": "Tuesday, September 1, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 37m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=Len5_ly2Uyw"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-09-01-fairfax-county-school-board-public-engagement-committee-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-09-01-fairfax-county-school-board-public-engagement-committee-meeting.txt",
+      "pdfNote": "10 pages"
+    },
+    "shareContext": "FCPS, Sep 1, 2026",
+    "moments": [
+      {
+        "seconds": 2250,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4233",
+    "meetingId": "fxco-bos-4233",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Legislative Committee",
+    "dateLabel": "Tuesday, September 1, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 15m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4233"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-09-01-fairfax-county-board-of-supervisors-legislative-committee.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-09-01-fairfax-county-board-of-supervisors-legislative-committee.txt",
+      "pdfNote": "21 pages"
+    },
+    "shareContext": "Fairfax BOS, Sep 1, 2026",
+    "moments": [
+      {
+        "seconds": 4507,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4232",
+    "meetingId": "fxco-bos-4232",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Land Use Committee",
+    "dateLabel": "Tuesday, September 1, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 55m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4232"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-09-01-fairfax-county-board-of-supervisors-land-use-committee.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-09-01-fairfax-county-board-of-supervisors-land-use-committee.txt",
+      "pdfNote": "15 pages"
+    },
+    "shareContext": "Fairfax BOS, Sep 1, 2026",
+    "moments": [
+      {
+        "seconds": 3298,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4231",
+    "meetingId": "fxco-bos-4231",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Budget Policy Committee",
+    "dateLabel": "Tuesday, September 1, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 28m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4231"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-09-01-fairfax-county-board-of-supervisors-budget-policy-committee.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-09-01-fairfax-county-board-of-supervisors-budget-policy-committee.txt",
+      "pdfNote": "26 pages"
+    },
+    "shareContext": "Fairfax BOS, Sep 1, 2026",
+    "moments": []
+  },
+  {
+    "slug": "fxco-sb-4BjCOK45FDk",
+    "meetingId": "fxco-sb-4BjCOK45FDk",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "dateLabel": "Thursday, August 27, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 3h 59m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=4BjCOK45FDk"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-08-27-fairfax-county-school-board-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-08-27-fairfax-county-school-board-meeting.txt",
+      "pdfNote": "57 pages"
+    },
+    "shareContext": "FCPS, Aug 27, 2026",
+    "moments": [
+      {
+        "seconds": 163,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 14355,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-U0sRBtRFpsg",
+    "meetingId": "fxco-sb-U0sRBtRFpsg",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Audit Committee Meeting",
+    "dateLabel": "Tuesday, August 25, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 21m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=U0sRBtRFpsg"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-08-25-fairfax-county-school-board-audit-committee-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-08-25-fairfax-county-school-board-audit-committee-meeting.txt",
+      "pdfNote": "6 pages"
+    },
+    "shareContext": "FCPS, Aug 25, 2026",
+    "moments": [
+      {
+        "seconds": 1218,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-2pShVIjnNPo",
+    "meetingId": "fxco-sb-2pShVIjnNPo",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Audit Committee Meeting — Confirmation of Closed Meeting",
+    "dateLabel": "Tuesday, August 25, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 2m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=2pShVIjnNPo"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-08-25-fairfax-county-school-board-audit-committee-meeting-confirmation-of-closed-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-08-25-fairfax-county-school-board-audit-committee-meeting-confirmation-of-closed-meeting.txt",
+      "pdfNote": "2 pages"
+    },
+    "shareContext": "FCPS, Aug 25, 2026",
+    "moments": []
+  },
+  {
+    "slug": "fxco-bos-4227",
+    "meetingId": "fxco-bos-4227",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "dateLabel": "Tuesday, August 25, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 8h 16m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4227"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-08-25-fairfax-county-board-of-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-08-25-fairfax-county-board-of-supervisors-meeting.txt",
+      "pdfNote": "129 pages"
+    },
+    "shareContext": "Fairfax BOS, Aug 25, 2026",
+    "moments": [
+      {
+        "seconds": 17,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 10470,
+        "label": "Public comment / public hearing begins."
+      },
+      {
+        "seconds": 29725,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-9Oxa5FvN9to",
+    "meetingId": "fxco-sb-9Oxa5FvN9to",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Governance Committee Meeting",
+    "dateLabel": "Thursday, August 20, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 1h 53m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=9Oxa5FvN9to"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-08-20-fairfax-county-school-board-governance-committee-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-08-20-fairfax-county-school-board-governance-committee-meeting.txt",
+      "pdfNote": "24 pages"
+    },
+    "shareContext": "FCPS, Aug 20, 2026",
+    "moments": [
+      {
+        "seconds": 6754,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-ZWZmX9cdDtE",
+    "meetingId": "fxco-sb-ZWZmX9cdDtE",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Work Session",
+    "dateLabel": "Tuesday, August 18, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 3h 37m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=ZWZmX9cdDtE"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-08-18-fairfax-county-school-board-work-session.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-08-18-fairfax-county-school-board-work-session.txt",
+      "pdfNote": "56 pages"
+    },
+    "shareContext": "FCPS, Aug 18, 2026",
+    "moments": [
+      {
+        "seconds": 13005,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "pwc-bos-3873",
+    "meetingId": "pwc-bos-3873",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "dateLabel": "Tuesday, July 21, 2026",
+    "whenWhere": "Prince William County Board of County Supervisors meeting · video 7h 44m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Prince William County's adopted Board of County Supervisors minutes / resolutions. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Prince William County, Granicus)",
+          "href": "https://pwcgov.granicus.com/player/clip/3873"
+        },
+        {
+          "label": "Board of County Supervisors page (Prince William County)",
+          "href": "https://www.pwcva.gov/department/board-county-supervisors"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-07-21-prince-william-board-of-county-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-07-21-prince-william-board-of-county-supervisors-meeting.txt",
+      "pdfNote": "108 pages"
+    },
+    "shareContext": "PWC BOCS, Jul 21, 2026",
+    "moments": [
+      {
+        "seconds": 981,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 4036,
+        "label": "Public comment / public hearing begins."
+      },
+      {
+        "seconds": 27812,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-YPheOVJLK1I",
+    "meetingId": "fxco-sb-YPheOVJLK1I",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Public Hearing",
+    "dateLabel": "Thursday, July 16, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 30m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=YPheOVJLK1I"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-07-16-fairfax-county-school-board-public-hearing.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-07-16-fairfax-county-school-board-public-hearing.txt",
+      "pdfNote": "6 pages"
+    },
+    "shareContext": "FCPS, Jul 16, 2026",
+    "moments": [
+      {
+        "seconds": 1816,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-PHBFQUixALc",
+    "meetingId": "fxco-sb-PHBFQUixALc",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "dateLabel": "Thursday, July 16, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 6h 52m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=PHBFQUixALc"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-07-16-fairfax-county-school-board-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-07-16-fairfax-county-school-board-meeting.txt",
+      "pdfNote": "87 pages"
+    },
+    "shareContext": "FCPS, Jul 16, 2026",
+    "moments": [
+      {
+        "seconds": 652,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 24679,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "pwc-bos-3866",
+    "meetingId": "pwc-bos-3866",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting — Work Session",
+    "dateLabel": "Tuesday, July 14, 2026",
+    "whenWhere": "Prince William County Board of County Supervisors meeting · video 5h 40m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Prince William County's adopted Board of County Supervisors minutes / resolutions. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Prince William County, Granicus)",
+          "href": "https://pwcgov.granicus.com/player/clip/3866"
+        },
+        {
+          "label": "Board of County Supervisors page (Prince William County)",
+          "href": "https://www.pwcva.gov/department/board-county-supervisors"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-07-14-prince-william-board-of-county-supervisors-meeting-work-session.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-07-14-prince-william-board-of-county-supervisors-meeting-work-session.txt",
+      "pdfNote": "80 pages"
+    },
+    "shareContext": "PWC BOCS, Jul 14, 2026",
+    "moments": [
+      {
+        "seconds": 20388,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4209",
+    "meetingId": "fxco-bos-4209",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "dateLabel": "Tuesday, July 14, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 6h 26m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4209"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-07-14-fairfax-county-board-of-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-07-14-fairfax-county-board-of-supervisors-meeting.txt",
+      "pdfNote": "96 pages"
+    },
+    "shareContext": "Fairfax BOS, Jul 14, 2026",
+    "moments": [
+      {
+        "seconds": 47,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 23174,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-jnyxuKzLWcc",
+    "meetingId": "fxco-sb-jnyxuKzLWcc",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Public Hearing",
+    "dateLabel": "Monday, July 13, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 1h 30m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=jnyxuKzLWcc"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-07-13-fairfax-county-school-board-public-hearing.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-07-13-fairfax-county-school-board-public-hearing.txt",
+      "pdfNote": "20 pages"
+    },
+    "shareContext": "FCPS, Jul 13, 2026",
+    "moments": [
+      {
+        "seconds": 5409,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-RmtsQCBfnsM",
+    "meetingId": "fxco-sb-RmtsQCBfnsM",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "dateLabel": "Thursday, July 9, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 5h 1m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=RmtsQCBfnsM"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-07-09-fairfax-county-school-board-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-07-09-fairfax-county-school-board-meeting.txt",
+      "pdfNote": "66 pages"
+    },
+    "shareContext": "FCPS, Jul 9, 2026",
+    "moments": [
+      {
+        "seconds": 829,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 18036,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "pwc-bos-3859",
+    "meetingId": "pwc-bos-3859",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "dateLabel": "Tuesday, July 7, 2026",
+    "whenWhere": "Prince William County Board of County Supervisors meeting · video 7h 44m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Prince William County's adopted Board of County Supervisors minutes / resolutions. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Prince William County, Granicus)",
+          "href": "https://pwcgov.granicus.com/player/clip/3859"
+        },
+        {
+          "label": "Board of County Supervisors page (Prince William County)",
+          "href": "https://www.pwcva.gov/department/board-county-supervisors"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-07-07-prince-william-board-of-county-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-07-07-prince-william-board-of-county-supervisors-meeting.txt",
+      "pdfNote": "112 pages"
+    },
+    "shareContext": "PWC BOCS, Jul 7, 2026",
+    "moments": [
+      {
+        "seconds": 68,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 27847,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4201",
+    "meetingId": "fxco-bos-4201",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Land Use Policy Committee",
+    "dateLabel": "Tuesday, July 7, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 31m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4201"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-07-07-fairfax-county-board-of-supervisors-land-use-policy-committee.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-07-07-fairfax-county-board-of-supervisors-land-use-policy-committee.txt",
+      "pdfNote": "25 pages"
+    },
+    "shareContext": "Fairfax BOS, Jul 7, 2026",
+    "moments": [
+      {
+        "seconds": 5425,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4198",
+    "meetingId": "fxco-bos-4198",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Environmental Committee",
+    "dateLabel": "Tuesday, July 7, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 2m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4198"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-07-07-fairfax-county-board-of-supervisors-environmental-committee.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-07-07-fairfax-county-board-of-supervisors-environmental-committee.txt",
+      "pdfNote": "18 pages"
+    },
+    "shareContext": "Fairfax BOS, Jul 7, 2026",
+    "moments": [
+      {
+        "seconds": 3717,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb--hok5GRbz9E",
+    "meetingId": "fxco-sb--hok5GRbz9E",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "dateLabel": "Thursday, June 25, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 5h 15m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=-hok5GRbz9E"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-25-fairfax-county-school-board-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-25-fairfax-county-school-board-meeting.txt",
+      "pdfNote": "68 pages"
+    },
+    "shareContext": "FCPS, Jun 25, 2026",
+    "moments": [
+      {
+        "seconds": 227,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 18874,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "pwc-bos-3856",
+    "meetingId": "pwc-bos-3856",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "dateLabel": "Tuesday, June 23, 2026",
+    "whenWhere": "Prince William County Board of County Supervisors meeting · video 5h 30m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Prince William County's adopted Board of County Supervisors minutes / resolutions. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Prince William County, Granicus)",
+          "href": "https://pwcgov.granicus.com/player/clip/3856"
+        },
+        {
+          "label": "Board of County Supervisors page (Prince William County)",
+          "href": "https://www.pwcva.gov/department/board-county-supervisors"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-06-23-prince-william-board-of-county-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-06-23-prince-william-board-of-county-supervisors-meeting.txt",
+      "pdfNote": "72 pages"
+    },
+    "shareContext": "PWC BOCS, Jun 23, 2026",
+    "moments": [
+      {
+        "seconds": 850,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 19773,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-LAVf07nlxOM",
+    "meetingId": "fxco-sb-LAVf07nlxOM",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Forum",
+    "dateLabel": "Tuesday, June 23, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 31m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=LAVf07nlxOM"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-23-fairfax-county-school-board-forum.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-23-fairfax-county-school-board-forum.txt",
+      "pdfNote": "9 pages"
+    },
+    "shareContext": "FCPS, Jun 23, 2026",
+    "moments": [
+      {
+        "seconds": 1831,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb--8_6UhyRlFo",
+    "meetingId": "fxco-sb--8_6UhyRlFo",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Work Session",
+    "dateLabel": "Tuesday, June 23, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 5h 3m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=-8_6UhyRlFo"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-23-fairfax-county-school-board-work-session.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-23-fairfax-county-school-board-work-session.txt",
+      "pdfNote": "77 pages"
+    },
+    "shareContext": "FCPS, Jun 23, 2026",
+    "moments": [
+      {
+        "seconds": 18160,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4189",
+    "meetingId": "fxco-bos-4189",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "dateLabel": "Tuesday, June 23, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 4h 4m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4189"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-23-fairfax-county-board-of-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-23-fairfax-county-board-of-supervisors-meeting.txt",
+      "pdfNote": "54 pages"
+    },
+    "shareContext": "Fairfax BOS, Jun 23, 2026",
+    "moments": [
+      {
+        "seconds": 2,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 8661,
+        "label": "Public comment / public hearing begins."
+      },
+      {
+        "seconds": 14640,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-jVOyz96MOII",
+    "meetingId": "fxco-sb-jVOyz96MOII",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Governance Committee Meeting",
+    "dateLabel": "Tuesday, June 16, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 2h 4m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=jVOyz96MOII"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-16-fairfax-county-school-board-governance-committee-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-16-fairfax-county-school-board-governance-committee-meeting.txt",
+      "pdfNote": "30 pages"
+    },
+    "shareContext": "FCPS, Jun 16, 2026",
+    "moments": [
+      {
+        "seconds": 7414,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4187",
+    "meetingId": "fxco-bos-4187",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Council for Economic Opportunity",
+    "dateLabel": "Tuesday, June 16, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 32m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4187"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-16-fairfax-county-council-for-economic-opportunity.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-16-fairfax-county-council-for-economic-opportunity.txt",
+      "pdfNote": "27 pages"
+    },
+    "shareContext": "Fairfax BOS, Jun 16, 2026",
+    "moments": []
+  },
+  {
+    "slug": "fxco-bos-4185",
+    "meetingId": "fxco-bos-4185",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Health & Human Services Committee",
+    "dateLabel": "Tuesday, June 16, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 37m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4185"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-16-fairfax-county-board-of-supervisors-health-human-services-committee.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-16-fairfax-county-board-of-supervisors-health-human-services-committee.txt",
+      "pdfNote": "25 pages"
+    },
+    "shareContext": "Fairfax BOS, Jun 16, 2026",
+    "moments": [
+      {
+        "seconds": 5814,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4184",
+    "meetingId": "fxco-bos-4184",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Transportation Committee",
+    "dateLabel": "Tuesday, June 16, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 19m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4184"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-16-fairfax-county-board-of-supervisors-transportation-committee.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-16-fairfax-county-board-of-supervisors-transportation-committee.txt",
+      "pdfNote": "22 pages"
+    },
+    "shareContext": "Fairfax BOS, Jun 16, 2026",
+    "moments": [
+      {
+        "seconds": 4734,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-qEZetJ0ub9E",
+    "meetingId": "fxco-sb-qEZetJ0ub9E",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Audit Committee Meeting — Confirmation of Closed Meeting",
+    "dateLabel": "Monday, June 15, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 2m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=qEZetJ0ub9E"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-15-fairfax-county-school-board-audit-committee-meeting-confirmation-of-closed-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-15-fairfax-county-school-board-audit-committee-meeting-confirmation-of-closed-meeting.txt",
+      "pdfNote": "2 pages"
+    },
+    "shareContext": "FCPS, Jun 15, 2026",
+    "moments": []
+  },
+  {
+    "slug": "fxco-sb-GBc9BZ0c04A",
+    "meetingId": "fxco-sb-GBc9BZ0c04A",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Audit Committee Meeting",
+    "dateLabel": "Monday, June 15, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 1h 8m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=GBc9BZ0c04A"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-15-fairfax-county-school-board-audit-committee-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-15-fairfax-county-school-board-audit-committee-meeting.txt",
+      "pdfNote": "16 pages"
+    },
+    "shareContext": "FCPS, Jun 15, 2026",
+    "moments": []
+  },
+  {
+    "slug": "fxco-sb-SZoQLz6_hk4",
+    "meetingId": "fxco-sb-SZoQLz6_hk4",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "dateLabel": "Thursday, June 11, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 5h 2m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=SZoQLz6_hk4"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-11-fairfax-county-school-board-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-06-11-fairfax-county-school-board-meeting.txt",
+      "pdfNote": "63 pages"
+    },
+    "shareContext": "FCPS, Jun 11, 2026",
+    "moments": [
+      {
+        "seconds": 146,
+        "label": "Pledge of Allegiance."
+      }
+    ]
+  },
+  {
+    "slug": "pwc-bos-3844",
+    "meetingId": "pwc-bos-3844",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting — Work Session",
+    "dateLabel": "Tuesday, June 9, 2026",
+    "whenWhere": "Prince William County Board of County Supervisors meeting · video 3h 51m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Prince William County's adopted Board of County Supervisors minutes / resolutions. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Prince William County, Granicus)",
+          "href": "https://pwcgov.granicus.com/player/clip/3844"
+        },
+        {
+          "label": "Board of County Supervisors page (Prince William County)",
+          "href": "https://www.pwcva.gov/department/board-county-supervisors"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-06-09-prince-william-board-of-county-supervisors-meeting-work-session.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-06-09-prince-william-board-of-county-supervisors-meeting-work-session.txt",
+      "pdfNote": "54 pages"
+    },
+    "shareContext": "PWC BOCS, Jun 9, 2026",
+    "moments": [
+      {
+        "seconds": 1118,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 13842,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4174",
+    "meetingId": "fxco-bos-4174",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "dateLabel": "Tuesday, June 9, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 3h 59m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4174"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-09-fairfax-county-board-of-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-09-fairfax-county-board-of-supervisors-meeting.txt",
+      "pdfNote": "58 pages"
+    },
+    "shareContext": "Fairfax BOS, Jun 9, 2026",
+    "moments": [
+      {
+        "seconds": 22,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 14366,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "pwc-sb--3ew-tUaWJk",
+    "meetingId": "pwc-sb--3ew-tUaWJk",
+    "venue": "pwc-schools",
+    "title": "Prince William County School Board Meeting",
+    "dateLabel": "Wednesday, June 3, 2026",
+    "whenWhere": "Prince William County School Board meeting · video 3h 58m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Prince William County School Board's approved minutes. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=-3ew-tUaWJk"
+        },
+        {
+          "label": "School Board page (PWCS)",
+          "href": "https://www.pwcs.edu/about/school_board/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-schools/transcripts/coraggio-transcript-pwc-schools-2026-06-03-prince-william-county-school-board-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-schools/transcripts/coraggio-transcript-pwc-schools-2026-06-03-prince-william-county-school-board-meeting.txt",
+      "pdfNote": "52 pages"
+    },
+    "shareContext": "PWCS, Jun 3, 2026",
+    "moments": [
+      {
+        "seconds": 348,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 14231,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "pwc-bos-3842",
+    "meetingId": "pwc-bos-3842",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "dateLabel": "Tuesday, June 2, 2026",
+    "whenWhere": "Prince William County Board of County Supervisors meeting · video 4h 9m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Prince William County's adopted Board of County Supervisors minutes / resolutions. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Prince William County, Granicus)",
+          "href": "https://pwcgov.granicus.com/player/clip/3842"
+        },
+        {
+          "label": "Board of County Supervisors page (Prince William County)",
+          "href": "https://www.pwcva.gov/department/board-county-supervisors"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-06-02-prince-william-board-of-county-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-06-02-prince-william-board-of-county-supervisors-meeting.txt",
+      "pdfNote": "61 pages"
+    },
+    "shareContext": "PWC BOCS, Jun 2, 2026",
+    "moments": [
+      {
+        "seconds": 28,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 9575,
+        "label": "Public comment / public hearing begins."
+      },
+      {
+        "seconds": 14911,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4165",
+    "meetingId": "fxco-bos-4165",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Joint Meeting with Fairfax Water Board",
+    "dateLabel": "Tuesday, June 2, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 25m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4165"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-02-fairfax-county-joint-meeting-with-fairfax-water-board.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-02-fairfax-county-joint-meeting-with-fairfax-water-board.txt",
+      "pdfNote": "22 pages"
+    },
+    "shareContext": "Fairfax BOS, Jun 2, 2026",
+    "moments": []
+  },
+  {
+    "slug": "fxco-bos-4164",
+    "meetingId": "fxco-bos-4164",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Older Adults Committee",
+    "dateLabel": "Tuesday, June 2, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 17m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4164"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-02-fairfax-county-board-of-supervisors-older-adults-committee.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-02-fairfax-county-board-of-supervisors-older-adults-committee.txt",
+      "pdfNote": "22 pages"
+    },
+    "shareContext": "Fairfax BOS, Jun 2, 2026",
+    "moments": [
+      {
+        "seconds": 4658,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-nLsMRJ_SNaI",
+    "meetingId": "fxco-sb-nLsMRJ_SNaI",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "dateLabel": "Thursday, May 21, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 3h 47m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Oct 28, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=nLsMRJ_SNaI"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-05-21-fairfax-county-school-board-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-05-21-fairfax-county-school-board-meeting.txt",
+      "pdfNote": "52 pages"
+    },
+    "shareContext": "FCPS, May 21, 2026",
+    "moments": [
+      {
+        "seconds": 815,
+        "label": "Pledge of Allegiance."
+      }
+    ]
   }
 ];

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4165.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-06-02-fairfax-county-joint-meeting-with-fairfax-water-board",
+  "title": "Fairfax County Joint Meeting with Fairfax Water Board, Tuesday, June 2, 2026",
+  "shortTitle": "Joint Meeting with Fairfax Water Board \u00b7 Jun 2, 2026",
+  "date": "Tuesday, June 2, 2026",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "1h 25m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/4165"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-27"
+}

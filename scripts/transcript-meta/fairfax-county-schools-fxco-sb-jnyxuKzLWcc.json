@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-jnyxuKzLWcc.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-07-13-fairfax-county-school-board-public-hearing",
+  "title": "Fairfax County School Board Public Hearing, Monday, July 13, 2026",
+  "shortTitle": "School Board Public Hearing \u00b7 Jul 13, 2026",
+  "date": "Monday, July 13, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "1h 30m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=jnyxuKzLWcc"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-27"
+}
