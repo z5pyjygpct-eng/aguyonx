@@ -206,6 +206,23 @@ export default defineConfig(({ command, isPreview }) => ({
             // manifest + head-tag middleware). Nitro v3 defaults serverDir to
             // false, so removing this silently unwires /?install=1 on deploys.
             serverDir: "./server",
+            // Anti-clickjacking, site-wide: no aguyonx.com page frames another
+            // aguyonx.com page, so no site may embed us. `continue: true` keeps
+            // routing on to static files and the SSR function.
+            vercel: {
+              config: {
+                routes: [
+                  {
+                    src: "/(.*)",
+                    headers: {
+                      "X-Frame-Options": "DENY",
+                      "Content-Security-Policy": "frame-ancestors 'none'",
+                    },
+                    continue: true,
+                  },
+                ],
+              },
+            },
             // Find the Moment pack chunks have a content hash in the name, so
             // they never change: cache them for a year (browser + CDN).
             routeRules: Object.fromEntries(
