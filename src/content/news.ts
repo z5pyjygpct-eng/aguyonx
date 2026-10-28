@@ -99,7 +99,7 @@ export const NEWS: NewsItem[] = [
     headline: "Virginia’s 5th District is officially in play: Both parties’ national committees make TV buys in the congressional race.",
     outlet: "Cardinal News",
     url: "https://cardinalnews.org/2026/10/27/the-5th-is-officially-in-play-both-parties-national-committee-make-tv-buys-in-the-district/",
-    people: [{ name: "Tom Perriello", office: "U.S. Representative" }],
+    people: [{ name: "Tom Perriello", office: "U.S. House candidate (VA-05)" }],
     scope: "statewide",
   },
   {
@@ -109,7 +109,7 @@ export const NEWS: NewsItem[] = [
     headline: "Former Rep. Tom Perriello Pledges to ‘End War,’ Remove Trump’s Tariff Authority If Elected",
     outlet: "The Daily Signal",
     url: "https://www.dailysignal.com/2026/10/27/perriello-pledges-to-end-war-remove-trumps-tariff-authority/",
-    people: [{ name: "Tom Perriello", office: "U.S. Representative" }],
+    people: [{ name: "Tom Perriello", office: "U.S. House candidate (VA-05)" }],
     scope: "statewide",
   },
   {
@@ -120,7 +120,7 @@ export const NEWS: NewsItem[] = [
     outlet: "Virginia Scope",
     url: "https://www.virginiascope.com/latest-internal-poll-from-democrats-shows-a-1-point-race-in-va-01/",
     people: [
-      { name: "Shannon Taylor", office: "U.S. Representative" },
+      { name: "Shannon Taylor", office: "U.S. House candidate (VA-01)" },
       { name: "Mark Warner", office: "U.S. Senator" },
     ],
     scope: "statewide",
@@ -465,7 +465,7 @@ export const NEWS: NewsItem[] = [
     people: [
       { name: "Eugene Vindman", office: "U.S. Representative" },
       { name: "Elaine Luria", office: "U.S. Representative" },
-      { name: "Shannon Taylor", office: "U.S. Representative" },
+      { name: "Shannon Taylor", office: "U.S. House candidate (VA-01)" },
     ],
     scope: "statewide",
   },
@@ -2051,7 +2051,7 @@ export const NEWS: NewsItem[] = [
     headline: "5 things to know about the surprisingly competitive 5th District congressional race",
     outlet: "Cardinal News",
     url: "https://cardinalnews.org/2026/10/20/5-things-to-know-about-the-surprisingly-competitive-5th-district-congressional-race/",
-    people: [{ name: "Tom Perriello", office: "U.S. Representative" }],
+    people: [{ name: "Tom Perriello", office: "U.S. House candidate (VA-05)" }],
     scope: "statewide",
   },
   {
@@ -2322,9 +2322,9 @@ export const NEWS: NewsItem[] = [
     outlet: "Virginia Scope",
     url: "https://www.virginiascope.com/pete-buttigieg-rallies-with-taylor-luria-perriello/",
     people: [
-      { name: "Shannon Taylor", office: "U.S. Representative" },
+      { name: "Shannon Taylor", office: "U.S. House candidate (VA-01)" },
       { name: "Elaine Luria", office: "U.S. Representative" },
-      { name: "Tom Perriello", office: "U.S. Representative" },
+      { name: "Tom Perriello", office: "U.S. House candidate (VA-05)" },
     ],
     scope: "statewide",
   },
@@ -2583,7 +2583,7 @@ export const NEWS: NewsItem[] = [
     headline: "Perriello holds 2-1 cash advantage over McGuire. He’s the only Democratic challenger in Virginia with financial edge.",
     outlet: "Cardinal News",
     url: "https://cardinalnews.org/2026/10/17/perriello-holds-2-1-cash-advantage-over-mcguire-hes-only-democratic-challenger-in-virginia-with-financial-edge/",
-    people: [{ name: "Tom Perriello", office: "U.S. Representative" }],
+    people: [{ name: "Tom Perriello", office: "U.S. House candidate (VA-05)" }],
     scope: "statewide",
   },
   {
@@ -3748,7 +3748,7 @@ export const NEWS: NewsItem[] = [
     people: [
       { name: "Mark Warner", office: "U.S. Senator" },
       { name: "Suhas Subramanyam", office: "U.S. Representative" },
-      { name: "Tom Perriello", office: "U.S. Representative" },
+      { name: "Tom Perriello", office: "U.S. House candidate (VA-05)" },
     ],
     scope: "statewide",
   },
@@ -4501,7 +4501,7 @@ export const NEWS: NewsItem[] = [
       "In Virginia, Democrat hoping to oust Republican tests anti-corruption message echoing around country",
     outlet: "WTOP (AP)",
     url: "https://wtop.com/news/2026/10/in-virginia-democrat-hoping-to-oust-republican-tests-anti-corruption-message-echoing-around-country/",
-    people: [{ name: "Shannon Taylor", office: "U.S. Representative" }],
+    people: [{ name: "Shannon Taylor", office: "U.S. House candidate (VA-01)" }],
     scope: "statewide",
   },
   {
@@ -4758,7 +4758,7 @@ export const NEWS: NewsItem[] = [
     headline: "Perriello seeks another 5th District upset as McGuire leans on Trump",
     outlet: "Virginia Mercury",
     url: "https://virginiamercury.com/2026/10/05/perriello-seeks-another-5th-district-upset-as-mcguire-leans-on-trump/",
-    people: [{ name: "Tom Perriello", office: "U.S. Representative" }],
+    people: [{ name: "Tom Perriello", office: "U.S. House candidate (VA-05)" }],
     scope: "statewide",
   },
   {
@@ -4950,9 +4950,9 @@ export const NEWS: NewsItem[] = [
     outlet: "Cardinal News",
     url: "https://cardinalnews.org/2026/10/02/early-voting-numbers-show-a-shift-toward-democrats-if-those-hold-at-least-two-house-seats-in-virginia-could-flip-and-a-third-could-be-close/",
     people: [
-      { name: "Shannon Taylor", office: "U.S. Representative" },
+      { name: "Shannon Taylor", office: "U.S. House candidate (VA-01)" },
       { name: "Elaine Luria", office: "U.S. Representative" },
-      { name: "Tom Perriello", office: "U.S. Representative" },
+      { name: "Tom Perriello", office: "U.S. House candidate (VA-05)" },
       { name: "Beth Macy", office: "U.S. Representative" },
       { name: "Mark Warner", office: "U.S. Senator" },
     ],
@@ -4976,8 +4976,8 @@ export const NEWS: NewsItem[] = [
     outlet: "The Washington Post",
     url: "https://www.washingtonpost.com/politics/2026/10/01/shannon-taylor-has-edge-over-rob-wittman-virginia-house-district-post-poll-finds/",
     people: [
-      { name: "Shannon Taylor", office: "U.S. Representative" },
-      { name: "Tom Perriello", office: "U.S. Representative" },
+      { name: "Shannon Taylor", office: "U.S. House candidate (VA-01)" },
+      { name: "Tom Perriello", office: "U.S. House candidate (VA-05)" },
     ],
     scope: "statewide",
   },
@@ -5108,9 +5108,9 @@ export const NEWS: NewsItem[] = [
     outlet: "Virginia Mercury",
     url: "https://virginiamercury.com/2026/10/01/heres-how-incumbents-in-virginias-1st-2nd-and-5th-congressional-districts-have-voted-on-abortion/",
     people: [
-      { name: "Shannon Taylor", office: "U.S. Representative" },
+      { name: "Shannon Taylor", office: "U.S. House candidate (VA-01)" },
       { name: "Elaine Luria", office: "U.S. Representative" },
-      { name: "Tom Perriello", office: "U.S. Representative" },
+      { name: "Tom Perriello", office: "U.S. House candidate (VA-05)" },
     ],
     scope: "statewide",
   },
@@ -5432,7 +5432,7 @@ export const NEWS: NewsItem[] = [
     headline: "Denver Riggleman leads (Former) Republicans for Perriello rollout",
     outlet: "Augusta Free Press",
     url: "https://augustafreepress.com/news/denver-riggleman-leads-former-republicans-for-perriello-rollout/",
-    people: [{ name: "Tom Perriello", office: "U.S. Representative" }],
+    people: [{ name: "Tom Perriello", office: "U.S. House candidate (VA-05)" }],
     scope: "statewide",
   },
   {
