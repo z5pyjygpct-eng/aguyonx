@@ -53,6 +53,15 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "reproductive-rights-amendment-nov-13-hearing-virginiamercury-2026-10-28",
+    date: "2026-10-28",
+    headline: "If Virginians approve reproductive rights amendment, a hearing is set for Nov. 13 to challenge it",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/28/if-virginians-approve-reproductive-rights-amendment-a-hearing-is-set-for-nov-13-to-challenge-it/",
+    people: [],
+    scope: "statewide",
+  },
+  {
     id: "footage-of-columbia-pike-police-arlnow-2026-10-27",
     date: "2026-10-27",
     filed: "2026-10-28",
