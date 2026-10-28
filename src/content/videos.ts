@@ -21,6 +21,15 @@ export const VIDEOS_DEK =
 /** Newest first. */
 export const VIDEOS: SiteVideo[] = [
   {
+    id: "aguyonx-my-research-desk-2026-10-27",
+    date: "2026-10-27",
+    title: "My Research Desk (Concept)",
+    byline: "",
+    src: "/videos/aguyonx-my-research-desk-2026-10-27.mp4",
+    poster: "/images/aguyonx-my-research-desk-2026-10-27-poster.jpg",
+    dek: "A concept for a personal page on aguyonx.com. It is not live yet. Would you use it?",
+  },
+  {
     id: "aguyonx-sb624-2026-10-27",
     date: "2026-10-27",
     title: "Sharia Creep in Virginia: Salim, Spanberger, Hashmi & the Muslim Brotherhood Blueprint",
