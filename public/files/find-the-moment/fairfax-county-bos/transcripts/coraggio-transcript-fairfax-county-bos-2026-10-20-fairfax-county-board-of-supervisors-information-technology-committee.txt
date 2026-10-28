@@ -1,0 +1,444 @@
+Coraggio Consulting
+Fairfax County Board of Supervisors Information Technology Committee, Tuesday, October 20, 2026
+
+Date: Tuesday, October 20, 2026
+Place: Fairfax County Board of Supervisors, Virginia
+Length: 1h 23m (video)
+Official meeting video (Fairfax County): https://video.fairfaxcounty.gov/player/clip/4306
+Official Board of Supervisors page (Fairfax County): https://www.fairfaxcounty.gov/boardofsupervisors/
+
+Machine transcript (speech-to-text) produced by Coraggio Consulting. Not an official county record. Names and numbers may be misspelled; check the video at the timestamp before quoting.
+Speech-to-text: whisper.cpp, model large-v3-turbo. Produced 2026-10-26. Timestamps are [HH:MM:SS] into the meeting video.
+
+----------------------------------------------------------------------
+
+[00:00:16] I'm going to go ahead and call this meeting to order of the Information Technology Committee. What I think, because we've got a couple of ITPAC members at the table, let me just go around and have everybody introduce themselves real quick.
+
+[00:00:33] And I want to thank you all for your participation. We'll get staff introductions done at the same time. I'm going to give you – go ahead, Beth. Tell us who you are. Beth Tierra County Attorney. Alicia Cere-McCormick, Deputy County Executive.
+
+[00:00:51] Matt Harrison, CIO, Director of DIT. Maura Powers, CTO, Deputy Director. Anita Rao, Chief Applications Officer and Deputy Director. Sam Nunn, the Assistant Chief of Applications. Erica Jones, Chief Director of Innovation.
+
+[00:01:10] McKissita Tate, Chief Director of Customer Experience. Mike Palacios, Chief Infrastructure Director. Matt Sunken, ITPAC member, Providence District. Sean Rastetter, ITPAC Chairman, Springfield District.
+
+[00:01:25] All right. And I think everybody knows who the board members are, so I'm going to stop right there. I want to thank you. Get started. You should have the agenda in front of you. I'm going to give a quick update on the affidavit board matter, and you guys can add anything that you would like on that. We're going to talk about the Fairfax Customer Portal, DIT initiative updates, and then the joint board FCPS board IT committee update discussion so the affidavit tool that staff has
+
+[00:01:59] been working on in response to my board member board matter it's not quite where it needs to be it is a very detailed useful tool that's run into complications both on the legal side and on the industry side so it is it is in process we've got to make it I think a little more user friendly for industry, because we don't want a tool that's not helpful to them as well. So we got a little bit more work to do on that. It is being done. Did you want to add anything to that update?
+
+[00:02:35] No, I think that was great. Thank you. Okay. Saved a couple of minutes on that one. Any board members update on that? Let's move on. I am going to turn it over to you, or Anita, to you, Matt Harrison, to give us an update on the Fairfax County customer portal and then get board members' response to that.
+
+[00:03:03] And are we waiting for slides? Okay. Yeah, not good.
+
+[00:03:29] Okay. Yeah, let's a little song, a little dance. So, again, good morning, Mr. Chairman, members of the board. My name is Matt Harrison.
+
+[00:03:44] I'm CIO and director of DIT. So before we get started, I will just sort of give a little bit of an overview of where we're going to go today and kind of the strategy around this. So as we walk through these different presentations today, I really want to emphasize that these initiatives are not something I would consider independent technology projects.
+
+[00:04:07] They're very much part of a coordinated strategy to modernize how Fairfax County delivers services, supports its workforce, and manages its technology investments. Our focus is really on three fundamental outcomes. One is making county services easier to access.
+
+[00:04:26] Two, improving the efficiency and effectiveness of our operations. And three, ensuring the technology foundation supporting these services are secure, resilient, and financially sustainable. Equally important, we are approaching this work with a strong emphasis on enterprise architecture, responsible governance, digital equity, and measurable value.
+
+[00:04:49] We recognize the fiscal challenges that the county is under right now, and our strategy is designed to maximize those existing investments, reduce duplication, and create capacity for continued modernization. Did I do it right on time?
+
+[00:05:08] Yes. Fantastic. All right, we planned it. So first presentation is going to be Anita Rao, and she's going to walk through where we are with Customer Portal. So take it away. Good morning, Chairman McKay, members of the board.
+
+[00:05:25] I'm Anita Rao, I'm the Chief Applications Officer and Deputy Director in DIT. Last November we introduced the IDO Customer Portal as part of the broader vision to create a more unified digital experience for Fairfax County residents.
+
+[00:05:43] And today residents access the wide variety of applications and services that we have in the county through different entry points using different technologies that were implemented over the years based on the specific business needs. So as a result, the residents may encounter some challenges going to different points. So with Customer Portal, we are addressing the challenge of creating that challenge and creating a common digital front door for our residents to access services as well as applications. Our goal was just to create one place for them to
+
+[00:06:22] discover the services and then complete their transactions and attract requests and ultimately to access all that with one unified account. So this is intentionally an iterative journey rather than waiting years to have a large-scale technology transformation. We're trying to deliver it in stages and building reusable capabilities so we can support additional services in the future. So as you can see on the screen, we started building the customer
+
+[00:06:56] portal and when we looked at building it, one of the opportunities we were looking at was how to improve customer experience across the board and get to information as well as services. So we started with ensuring the launch of Ask Fairfax. In August, we launched Ask Fairfax, which is our generative AI chat board, which helps residents get to information easier and their ability to find services without having to know where they need to
+
+[00:07:28] go to. We launched it in August, and we've had tremendous success. In the month of August, we had over 50,000 questions come through Ask Fairfax representing about 20,000 unique users, and we had a satisfaction of over 90%. We take satisfaction when we get a thumbs up or no comment at all, because we know when somebody doesn't like it, we always hear back from them. So since then, till now, we've had over 85,000 questions come in through Ask Fairfax. So it's been very positive since then. So Ask Fairfax and Customer Portal are
+
+[00:08:07] going to serve as complementary purposes. Ask Fairfax will give people access to information, whereas customer portal is going to give them a central point of going to get those services, complete the transactions, and track their requests. So everything starts, of course, with the county website. You will see we are keeping that in mind. We have prominently placed the customer portal right on the top right below ask Fairfax and we will still have access to the information that is still available which will be under the explore tab to
+
+[00:08:42] get to information about those services and so this actually represents a first step towards a unified resident experience so as we move to the to the next slide this will be the portal the home page of the customer portal where you will see we have featured five applications integrated with the customer portal and this is actually behind the scenes we've done a lot of work to get it here we have worked across diverse set of county applications
+
+[00:09:17] built on different technologies like hosted on-prem and different types of applications to create a more connected connected experience for our users so So rather than replacing the systems we have, our goal was to connect them in a way that preserves existing business processes, but at the same time, the underlying system can still be the system of record, right?
+
+[00:09:42] And we are also taking an iterative approach to build reusable integration patterns so we can support additional services over time. So we identified integration patterns that used resources, similar resources in the applications.
+
+[00:09:58] So the first set of applications you will see under featured applications are personal property tax, consumer complaints, permitting and code compliance functions, and transient occupancy tax services. At the top of that, you will also see a lookup request capability.
+
+[00:10:17] So for the integrated services that are part of this in the first iteration, users can put their e-mail address to lookup status. Of course, when they put in their e-mail address to ensure that it is secure, a code, a multifactor authentication is enabled so a code will go back to them and they'll have the code to go in and enter before they see this information.
+
+[00:10:38] And below that, you will see the whole comprehensive, broader catalog of county services that we we currently have, which will -- the point is that we have integrated five. People still come to a central point. They will see these services and they will see the broader category of services underneath it. And as we move forward in our upcoming releases, we will start integrating more applications and features into the portal so they will have a unified experience.
+
+[00:11:09] As we -- and the second thing, the other -- we have multiple work streams in our roadmap. We will start integrating a few more applications beginning of the year and then follow up with having some intelligent self-service agents to help them complete filling the applications to get to the transactions and also eventually getting to our one Fairfax County account, a county account so users can have their account created with the county and then move forward with their authentication layer. So at this point with this process we are going to still currently
+
+[00:11:48] have what is there so we are not displacing it. We are protecting the investments we've already made so that we don't have to recreate some of these things but also provide users a more unified and a more simpler approach with the county.
+
+[00:12:04] And then I'm going to give it to Sam to walk through some of our work streams we have in our roadmap. Oh, thank you, Anita. Thanks for the legwork. I'm just going to take you guys through this slide here, which actually talks about three different work streams, as we said.
+
+[00:12:21] These work streams are going to be worked on pallially rather than a sequential way. First one is the continued service integration. We are targeting, as we know, as part of the customer portal, we have already integrated five applications, but we're going to target three additional in Q1 of 2027 and then another additional three on Q2 of 2027 using the patents established through our initial release.
+
+[00:12:45] The second work stream is the conversational AI chatbot or agent. Between now and April, the work includes selecting the initial anonymous transactions, defining the conversational flows as well as connecting those transactions to the county, appropriate county services. Testing it end-to-end experience as well as establishing the security logging and monitoring and guardrails needed for the production use. The target for phase one is going to be in April of 2027. And the third work stream is about the one county account.
+
+[00:13:17] The need for one county account is very clear. As we have, residents should not have to create and manage separate accounts on, you know, just to simplify that process. These county services happen to be supported by different applications, right? Implementing that outcome is more than adding a new login screen versus customer portal, but also making sure our county services actually span on cloud, on-prem, as well as vendor-hosted applications.
+
+[00:13:42] Some applications already maintain their own resident accounts, including permitting and tax-related services. Those identities cannot simply be disappeared once we establish an enterprise identity capability. The first step towards this is to establish the county's residence identity platform and a common authentication approach.
+
+[00:14:05] From there on, we will be able to introduce one county account and determine application by application whether their existing identities can be transitioned or federated. Once we onboard these authenticated services incrementally, beginning with selected services which have a high resident value as well as technical readiness makes sense, we will be able to transition application by application as that.
+
+[00:14:31] We have identified, as we continue this integration of these services in parallel, we need to advance the resident identity architecture as well as the platform approach, determining how each of these existing application accounts can be linked, transition, or identifying the first authenticated services to be on board.
+
+[00:14:50] So we are advancing in that way. These are three parallel streams that we're working, and they will be complementing each other. As we have committed last November, a direction towards having a unified resident experience, the initial release of this portal is the first delivery against that direction and not the final state as we say so the work completed today it gives us a common digital front door and the first set of reusable service integrations the next phase expands those integrations while advancing the conversational or 311 agent and one county account in parallel the approach is iterative by
+
+[00:15:25] design as anita pointed out delivering a tangible improvements as well as reusing what we built and progressively connect the county's diverse systems into a more consistent experience for residents thank you all right thank you um let me uh you got any comments thoughts yeah i do um first thanks for the update i mean we've been talking about getting to this point uh for a while so i appreciate all the progress that's being made and i know it's not as simple as it might seem it never is um but i do have a couple of questions and i just want to make sure i follow up i think
+
+[00:16:04] You know, what you were saying a moment ago, Sam, answers my question, but I just want to verify that. So right now, many people have a Fairfax portal for paying personal property taxes. That's the main thing that people use.
+
+[00:16:20] Are you, in this transition, are those accounts going to be carried over into this, or is every county resident who is in the Fairfax portal today going to have to get all new credentials? Sure. No, the goal is for that to get transition.
+
+[00:16:38] So we will still create an overall county account, and then we'll have a token that we'll pass through, and there's going to be a federation authorization level. So the goal is to do that. We are not expecting them to go create another account. But we are working through the architecture and looking at the different options on how we are going to implement it.
+
+[00:16:58] So for those folks who go there typically once a year to pay their car taxes, When they go back in, they will be seeing this next year, next October when car taxes are due. Many of them are going to be logging in in the weeks leading up to that.
+
+[00:17:13] I mean, I'm sure you've seen the patterns of when people use this tool. But since right now you really can only do one thing with it, there's people flocking to it during a certain period of time. So, you know, testing and making sure of that I think is going to be really important because we have properly and well-trained people to use that tool now, which helps all of us.
+
+[00:17:33] We don't want to lose any of those people through the transition, and obviously you share that goal as well. Yes, and we will ensure that we have – we will not roll it out right before key things. We're going to give them ahead of time to make sure they're all used to it and have some communications out and ensure that we get everybody on board and take them along with us as we move through.
+
+[00:17:54] Okay, good. And my second question on slide five, you have the featured applications up there, and I'm just curious how we determine those as the featured applications, and can those be supplemented seasonally? I mean, I just think of our offices, and I maybe have gotten two or three calls a year about transit occupancy tax, but I get a lot of calls about how do I get a library card, where can I adopt an animal, when do the park summer camp start, and so I'm just curious as to is that a generic setting right now that can be modified based on seasonal activity or what's actually going on in the county? And how did we determine those six categories?
+
+[00:18:34] So these five applications are the ones that were selected to be integrated with a customer portal right now. They are, like I said, different technologies that we wanted to, in the first phase, ensure that we are meeting every requirement of different types of technologies. So these are just the ones that are completely integrated, but the others, as they do, they will change.
+
+[00:18:54] So we just highlighted the ones that are currently integrated, and they can change as seasonally as when they want, so absolutely. MR. Yeah, I think there's real value in that because we have the history and we know when people are interfacing with our technology for various things, and we can kind of predict when those are going to be high level.
+
+[00:19:16] And if we could get to an integrated system where, you know, a county function to most county residents, they don't know the department, they don't care what department it is, they just know what they need. And if we're going to drive people to this portal and really add value to it over time, I think being aware of the things that people are most asking about or wanting and having those jump right up at you and not having to drill down on three, four or five clicks to get there, I think is going to be really important.
+
+[00:19:45] The good news is I know we have those patterns, and so we can utilize that intelligence, I think, hopefully to seasonally populate this with what those things are that save people the most time. Yeah, we will be looking at traffic patterns that come in, and we always collaborate with Office of Public Affairs on the questions they get, so we'll be working together to ensure that it's...
+
+[00:20:09] Okay, and I think last comment on that. I appreciate... Do you have something on this? No, on this. No, Mr. Chairman, just real quick. We also have a very enthusiastic partner in Jay Doshi. So, you know, working with him, especially on tax-related things, has made this process simpler. And we're kind of under the philosophy that we want to, you know, build it and they will come.
+
+[00:20:27] That's both residents as well as internal agencies. We want to be able to demonstrate that we can do this successfully. We want to publish our metrics. You know, we want to show what's capable by having this sort of unification under a single portal. And by doing that, engaging more agencies into our process and hopefully getting more on board quickly.
+
+[00:20:44] Yeah, I think that's good, and I know that takes time and energy to be able to work on all those interfaces. I just think over time this could be a really powerful customer service tool, but it has to be regularly updated. The metrics have to match what's on here to make it useful to most people most of the time.
+
+[00:21:05] I think all of us have gone to these before where there's 10 links to things you don't care about and the one you need isn't there. And so I would just hope we can, you know, accelerate efforts to plug in those other things that are on people's minds as quickly as we can. That'll get your people coming back to this, and we'll be saving a lot of staff time for Jay and his team, but also, you know, potentially a lot of other county agencies as well.
+
+[00:21:29] So thank you. Your question made me think of one thing. Is parks a part of this, or has parks been reached out? Just want to make sure there, because summer camps would be huge. Yes, I mean, they're aware of this coming, but as I said, we worked with, like Matt pointed out, with TACS, J-Doshi.
+
+[00:21:48] We've also talked to our partners in LDS with SELA. So those were the two we included, and we are going to, and I think parks are also looking for a new system for their registration. So once they reach that point, then we will work with them on this as well.
+
+[00:22:05] You said you had one more. That was actually what it was going to be. I mentioned some of the things that are on county residents' minds that we hear a lot about. The only other thing I was going to mention is the coordination with public affairs is great for trying to identify what we're hearing, but I would include the board offices too.
+
+[00:22:23] And, you know, we can tell you what the top ten things are that we hear from our constituents in a given year, and a lot of them are consistent. And so, you know, use us for feedback as well on, you know, developing what maybe some of those seasonal things are that we could put on here.
+
+[00:22:38] And we've got to let the architecture drive some of it, like the new park system, but at the same time, we want our customers, and I appreciate the use of customer here. Walter, you started us down the customer rural path. You want to?
+
+[00:22:54] Yeah, just a couple of quick comments. This is all going in the right direction, so thank you all for moving this way. You know, Ask Fairfax is a good step. I think it's also probably helpful to acknowledge that some of the commercial applications, some of the frontier models are always going to be a couple of steps ahead of us on some of this, and that's okay.
+
+[00:23:17] But I think, you know, where we can, you know, move in that direction because that's clearly where our residents and businesses are moving and are coming to expect that level of service, really. I did want to just check on the, I'm very glad to see the 311 AI agent project moving forward.
+
+[00:23:40] That's something we've talked, I know, with the board for a number of years about. And I would just note, and I think maybe many of us have now experienced this, some of the customer service tools in the marketplace have improved tremendously, just literally within the last few months.
+
+[00:23:59] And so are we looking to utilize that tool, those types of tools that are out there? And I honestly don't know who's selling and what's commercially available, but I just know it works. Sure. We are always on the lookout for who's doing what in the market and bringing them in, discussing potential pilots.
+
+[00:24:21] And in fact, in our data and AI presentation, we will probably have some conversation around that as well. But, you know, we know that there are so many different things that we can take advantage of in the market if it's the right, you know, company to partner with and under the right conditions. So we're not closing any doors on that.
+
+[00:24:39] Fantastic. Okay, that's good to hear. And then I think offline I do want to talk a little bit about some cybersecurity and agentic AI issues. So, anyway, thank you. All right. I think I saw Dan next. Yeah, Supra, start.
+
+[00:24:59] Thank you. And I didn't know where this is, but I'm trying to think of what is the vision, the end vision, if you will, of this. When I go to my bank or any of my financial accounts and I plug in and I sign in, invariably I get the screen that I want.
+
+[00:25:20] I've already set it up. I've put the pieces together that I want there, et cetera, et cetera. Or is that part of what this vision is, is I literally can create my own county account and put in the pieces that I want and exclude the ones that I don't want to use? Yes, the eventual goal is that.
+
+[00:25:36] Once you have a county account, when you log in, the vision is that you have the applications you've already selected. And if you have others, you'll be able to add in there as you want. And when you log in, that's what you're going to see. That is where we are aiming to go to. We're building it iteratively to ensure that we get to that and personalization.
+
+[00:25:57] I'm looking for a sense, an order of magnitude. Is that a couple years away, five years away, ten years away? Any sense of how that goes and where that might fit on the horizon? I don't want to give a date, but I would say it would be within a couple of years, definitely.
+
+[00:26:15] Okay. Thank you. I would just add to that. There are a lot of foundational things that need to take place before we can get to something like that. I understand. But it's absolutely where we want to go, and, you know, what I think the team has done an exceptional job at is thinking about this iteratively, right?
+
+[00:26:31] It's not, we don't want to do a big bang and have everybody wait 10 years to get something, right? This is, where can we provide value as quickly as possible to get us to that end state? And to be perfectly frank, there's probably never going to be an end state, right? There's always going to be additional things that we're going to want to do and improve upon, and that's where our metrics are going to come into play as well.
+
+[00:26:51] I agree with the approach and appreciate the incrementalist, the fact that we are heading in the right direction. It may take time, but it also depends on technology, too. So thank you. Yeah, you don't want to wait so long to launch something that's out of date when you launch it.
+
+[00:27:08] And the way things are going, that kind of happens with some regularity. Supervisor Min is next. Well, thank you, Mr. Chairman, and I'll be brief. Real quick, it's great to hear that you're working with Jay. Obviously, his department is the gold standard here in Fairfax.
+
+[00:27:25] county so um i would um say two things real quick one let's just make sure as we move forward we don't lose that personal touch with our residents like ai is great but you know people want to hear someone on the other end of the phone so let's just make sure that we're not losing that part and also i think uh maybe the chairman mckay mentioned but the importance of updating the website and making sure that we're doing that regularly so people aren't coming to something that's stale or or old we need to make sure that they're you know going to the website and finding
+
+[00:27:58] things that are that are pertinent and timely so thank you very much roshanaga you next thank you um i appreciate all this work i'm really excited about what supervisor stork also brought up with the the county um let me ask this question if they're creating their own county account um have you thought about sort of the concern people have about creating another account and how to sort of get around that concern the ease of creating that account and maintaining that account because I think that stops people from doing that for too many different websites so that's something just to you don't have to answer today but something to think about and that goes into my next point is that you know and I may have missed some of this I had to step out for a call
+
+[00:28:37] real quick but are there what's your plan around user experience testing before and afterwards so we are partnering with a testing company to help us through this to go through the journey we are going to have some monitor the metrics the full journey from when they come in to go there And that will help us determine if we need to make changes, how we are going to do that.
+
+[00:29:00] We're going to do a lot of testing with that. And the initial phase, and that's what this is with this first one, this is the one approach. And as we've got a couple of different options as we move forward, so we will try a couple of those things. But the first release is going to be highly putting this prominently and seeing how the people react to it and get the feedback from this testing as well.
+
+[00:29:22] Just to add on to that, now that we're going to be in production, we're going to be able to look at every single interaction that a customer has at every point within a page. We'll be capturing metrics on all of that.
+
+[00:29:37] We'll be identifying friction points throughout that process so that we can start looking at how do we get our customers to where they want to be and to complete a transaction 100% of the time, right? So identifying those friction points, it's great to do that ahead of time, which we will.
+
+[00:29:55] But I think it's even more important that we're doing that in production and watching how things actually progress. And that's going to become even more important, especially as we roll out the agent next year and continue to add services. So it gives us that many more opportunities to really identify those friction points and solve them.
+
+[00:30:12] I would just encourage you really to do a lot of user experience testing before you roll it out. Because once you roll it out, if you – and I don't know where your balance is, right, on that testing. But once you roll it out, of course, you need to see how people are using it that maybe doesn't appear in the user experience testing.
+
+[00:30:27] But if you roll it out and rely too much on that testing, you end up with disgruntled people who are using it initially because it's not working the way they might have expected. So I just would encourage you to look at that balance. I don't know where that is. The other question I had is the web versus mobile access. Does more people access these websites using their cell phones?
+
+[00:30:45] What's the plan for around mobile access? Our website is always responsive. So we have done multiple testing on different devices, different handhold, mobile resolution. So it is going to be responsive. They're going to have the same experience as they do on a desktop in a mobile device.
+
+[00:31:04] Are you trying to streamline it a little more for mobile? Because I know sometimes websites need to be more streamlined for mobile. Yes, we are. So it's not going to have a lot of the imagery that it may have and all that stuff. But they will get to the transactions that we do. So it will be there. At some point, and this is not something I can't imagine it's going to happen, in the next couple of years, but we want to get to the point where we can develop a hybrid app in some fashion. In today's world, yes, we are responsive, but that is really a web-based sort of product on a mobile device. As we learn more, we'll be able to identify what
+
+[00:31:39] are some of those transactions that we want to make more specifically friendly within a mobile app experience versus what's going to happen on the web, right? And really, it's to be understanding our customer base too and you know where are they accessing us from that helps us prioritize a little bit where we want to push our development activities yeah thank you that's what i was trying to get at is i think sometimes we take a web-based application and sort of jury rig it for mobile which doesn't always work as well as mobile then something that's developed separately for a web-based application is for mobile so that's what i was trying to get to and then what should you i'm sorry oh no i was just going to add to that you know the county has a
+
+[00:32:15] a native official county web application, mobile app, I'm sorry. So once we are, as we test some of these, we will implement in there, so it's specific for a mobile application as well. One last question, if that's okay, if we have time.
+
+[00:32:32] We're good. Okay. Well, I would just leave you with this thought around rolling this out and the usability of it, but the trust in government is at an all-time low, right? So ease of access of information just to lift up the importance of the work you're doing is a big part of building and continuing to maintain that trust in government.
+
+[00:32:52] So it is very important the work you're doing. Just the joint IT committee, because I started on that on the school board side before I got in this seat. But I'm glad to see there's an AI and analytics joint team as part of that. One of the things we talked about was as we're rolling out future technologies, working more in collaboration with the schools where possible to sort of plan that rollout of some of these things or usability of some of these new tools together.
+
+[00:33:17] Is that part of what that team is about, or can you tell a little bit more about that team? That will be part of the next presentation after the rest. I jumped ahead. Yeah, you jumped ahead, but it's exciting that you're interested in that. Thank you. Thank you. Okay, Supervisor Palchuk. Thank you, Mr. Chairman.
+
+[00:33:33] Thank you. I don't think it could get much worse. than it is right now, other than maybe in our DIT. I do think we want to be cautious, but there's so much room for improvement in how our customers access our services.
+
+[00:33:51] So, yes, let's continue to test it and improve it, but I would say let's move forward. Let's not break DITs. But I do think there's a lot of frustration, personally in our community, and people who having to use new parts of the government services, oh, a whole new system, a whole new complication, right?
+
+[00:34:15] So I think it will be well-received, and let's continue to review user experience and improvements. But absolutely, I would say let's move expeditiously. I trust your team to do this correctly. And then one area where I would say let's really be cautious is it's not used very often, right?
+
+[00:34:37] No one uses these services very often. And so being able to capture your own safely, but being the ease of forgetting passwords and logins and being able to do that, I think will go a huge way to having people be happier with being able to access these services online.
+
+[00:35:00] We're behind the ball of other jurisdictions, and I appreciate your work on this, and I would say let's move forward. Thank you. All right. Any other board members with questions? Any thoughts or questions or recommendations from our ITPAC members?
+
+[00:35:18] Yeah, I was going to say the speed at which they took this to production was pretty impressive. I mean, there's been a lot of design, a lot of discussion. We've talked about this for probably about a year, but the team didn't actually start this pilot until July. So they brought this to production and in front of customers in a period of about two months.
+
+[00:35:37] And I think the team can actually move even faster, right? So I encourage the team, like, adopt an agile methodology, right? Iterative releases, get feedback from the customer. If the customer doesn't like that, make changes. We don't have to do this in a waterfall way. So I just want to include us to the team.
+
+[00:35:52] And, again, where we've been from now to a year ago is pretty impressive. Thank you. Thank you for that, Sean. With that, if there are no further questions, that was the fun part.
+
+[00:36:08] Now we're going to get briefed. So IT, sorry about that, guys. Well, this could be fun, too. This is fun, actually. I've got a little bit of the pre-brief. We're going to go into a series of updates and discussion on some of our IT initiatives. So with that.
+
+[00:36:24] Great. Thank you. So Erica will give us an update on data and AI, then McKissa on customer experience, and then Mike on our infrastructure work. All right. Hi, everyone. My name is Erica Jones. About six months ago, DIT created their Innovation Division, and the goal of this vision is really how do we empower Fairfax County by fostering innovation, governing responsible AI, and delivering actionable data-driven insights to transform public services, both internally for employees, but also enhance community outcomes.
+
+[00:37:01] When this division was stood up, kind of the current state of data and AI was we have a really strong foundation in Fairfax County. There's not nothing to build upon. We're not starting and building this up from the ground up. We have a lot of federated innovation just based on the different departments across Fairfax County. There's a lot of really great data in AIWARC going on, and through this division, we want to elevate and enhance that and have decentralized innovation with centralized governance that allows the departments to
+
+[00:37:38] innovate while maintaining common architecture, data quality, cyber privacy, and responsible AI practices. This will allow us to move faster and provide the best solution possible for the county and the residents. And then also in the emergency, there is emerging AI. The pace at which AI is moving month to month, day to day, year to year, it's going to look drastically different in a month from now and a year from now than it does today. So how do we really with this division, how do we put that foundation in place to allow Fairfax County to upskill their workforce, get our data
+
+[00:38:15] foundation in place, get our data governance ownership in place so that we can take advantage of these emerging technologies, so that we can act in an agile work style, so that we can pivot, try something new, see if we get return on investment if we don't pivot to something else, because AI is going to be drastically changing every single month from now on.
+
+[00:38:36] So we have to work in that way. There is really no other option. The goals for this division is really to, one, kind of break down departmental silos. Data across Fairfax County today, even inside of different departments, is difficult to access.
+
+[00:38:53] It's difficult to access to combine different halves of your department together to create data-driven decisions to drive programs and initiatives forward. So part of this is how can we create almost an enterprise data lake and break down those silos and make it not only easier to perform analytics inside of those departments, but to have technology foster, collab, connecting two different departments together, where today might be almost impossible to do so.
+
+[00:39:25] Goals, so along with the governance, it's also upscaling the workforce. This is a huge change that we want to be cognizant of all of our workforce, no matter what technology and skill sets that they have today. And AI is a new tool that's going to come out and impact every single employee in our workforce, not to take over any jobs, but just be another tool in their toolbox to help them.
+
+[00:39:50] And so we want to make sure that it's something that they are aware of, know how to use and know how to use correctly. and we be smart about the areas that we do use in and interact with it. And then at the forefront of all, this is just public trust and transparency.
+
+[00:40:07] There's going to be a lot around just how are we using all of this data that we have to make the best interest for our customers and our residents, but also being just transparent about policies that we are doing. Overall, this division, we're structuring it in five major swim lanes, and you can see that at the bottom of the slide.
+
+[00:40:30] Swim lane number one is outreach, really engaging proactively with all the different Fairfax County departments and agencies, vendors, industry experts, external partnership, neighboring counties. It is such an evolving landscape to be successful and to kind of put Fairfax County at the foremost.
+
+[00:40:48] You want to have that kind of collaborative outreach to kind of what's happening in industry academia across the neighboring counties. The second swim lane is around community. So really fostering this culture of data and AI literacy and collaboration, connecting practitioners across the departments and enthusiasts across the county around creating kind of data and AI communities of practice, establishing and launching different training
+
+[00:41:23] programs out to the different departments as well so that they can kind of upskill in different areas across data and AI. On the third swim lane is governance, and this is kind of enterprise data and AI governance all built in one.
+
+[00:41:40] How can we establish policies, ethical frameworks, compliance standards necessary to ensure data and AI assets are used responsibly and securely. We are collaborating closely with DMV and OCA and our DIT security team to kind of build and launch a enterprise data and AI governance council focusing on not only data, but analytics, AI, security, and legal compliance policies and bringing all of those initiatives together to move those initiatives forward.
+
+[00:42:14] And then the last two, swim lanes, innovation is really, can DIT be this centralized expertise to accelerate prototyping, analytics, automation, and execution of these innovation pilots across Fairfax County?
+
+[00:42:30] Some of these are departments scale drastically in different sizes, maturity levels, resources. So can we provide those resources across the county to really drive those pilots forward? And then on the enterprise side, can we provision and manage standardized platforms to give agencies and data scientists, AI engineers, unified data access and the tools needed to achieve their mission?
+
+[00:42:56] Can we expand AI beyond kind of those departmental capabilities and kind of drive those innovations so that we don't have to kind of reinvent the wheel or duplicate efforts in each own department and provide a centralized enterprise look?
+
+[00:43:14] So that's at a high level, the structure, kind of the big initiatives. And on the two more pieces on the enterprise side, one of our big kind of upcoming initiatives is really piloting and partnering with NCS and OCA to start building out kind of an enterprise data lake and seeing what getting kind of bringing down those data silos to get together.
+
+[00:43:43] On the AI side, we are releasing some upcoming pilots, not only on the personal productivity side of AI, but also on the development side as well. So that's coming up here shortly as well. Thank you.
+
+[00:44:02] You have one more slide or is that something else? Just one slide. So this is the next. I got it. All right. Why don't we stop here and do questions? Does that work? I think that makes sense.
+
+[00:44:19] Do you have thoughts or comments? Any thoughts or comments? You know, and I know you're a department that doesn't oversee all of our departments, but, you know, one of the things that kind of concerns, not concerns me, but I want to make sure we're taking the opportunity of how do we know it's being used in that we don't, I mean, in all the departments, is there, I don't know exactly how to say this, but, you know, that our supervisors and managers are properly,
+
+[00:44:54] And I think it's a training required versus optional training on how are we using this to have our employees better get their job done. And I know that's tough for a department that I've been reminded regularly, doesn't control the whole thing.
+
+[00:45:14] And I guess we got the guy who does control the whole thing, not here right now. But how are we making sure that we're actually using that or is that something you're doing? And I didn't see training in one of the swim lanes, but... Yeah, so no, so great question.
+
+[00:45:32] Training is kind of built into that community swim lane. So really, how do we provide both data and AI training across maturity levels for our workforce so that we can upskill and meet our employees where they are today? But your question was one of the very first things that we looked at of, Before we figure out an AI strategy or policy or what pilots that we want to do, understanding how are we using it as a workforce today.
+
+[00:46:01] And that's one of the very first analytics projects that we did when standing up the division. So we have various AI chat assistants that are available for county employees to use. And so we brought in all of that data together and really classified how across department and then down to the individual level, looking also kind of by job family and job class, how frequently were they using certain AI technologies or were they, did they ever use AI technologies?
+
+[00:46:36] Were they kind of infrequent users or were they repeat users or power users? And kind of to classify that behavior of are we, how is AI being used across the department? Are certain departments ahead? Do they have more makeup of those power users or certain departments behind?
+
+[00:46:55] What type of job, class, or family, and how are they using it? And so we really wanted to classify what, without doing much marketing or outreach today, what was the baseline use of AI kind of across the county so that we can then develop these customized training plans to elevate it.
+
+[00:47:14] How are we doing? Based on that look, I mean, I'm kind of curious how many of our employees are actually using it to do their jobs. You know, I use it to do some of my jobs, but I mean, it's...
+
+[00:47:30] Yeah, so I would say we have kind of rolling data over the last 11 months, but then we update kind of how are people using it over the last three months. I would say that more than half of Fairfax County employees interact with AI technology in some way, shape, or form over the last three months.
+
+[00:47:51] And then I think it might be closer to about 25 are kind of repeat users of it. But what we're really trying to do with that innovation swim lane is as we, with the community and innovation, as we figure out training and as we do it, not only tracking use, but then being smart about what's the return on investment of this use.
+
+[00:48:12] They might be using it, but is it making our processes easier and better and streamlined, or is it making them more difficult in some way, shape, or form? So we really want to be cognizant of tracking the metrics to do that. Alicia Cere McCormick, Supervisor Herity. That's perfect.
+
+[00:48:28] One of the new things, too, that we've been talking about is with HR, our new Human Resources Director, and obviously our new IT director had some really great ideas and have some ways to help navigate this process for employees, to not make it scary, to ensure that they feel like they're not being, you know, positioned out of a job, that this is to help their life be more efficient and more effective.
+
+[00:48:46] And so we're going to find ways to make this something that more and more people start to use. They see it as an asset that's available to them that will make their life a little bit better and make us all a little bit more effective and efficient. Does that generate any questions, any thoughts?
+
+[00:49:06] Okay. All right. Let's move on to customer experience. Oh, I'm sorry. This is in a, we're talking kind of more micro there. I want to do a little bit more macro. The economic development initiatives that we have, the CEO in particular, we put together an AI group as part of what the CEO identified.
+
+[00:49:29] Have you all been engaged and you have some kind of connectivity to that work? And maybe you could just tell me how you all are plugging into not only, Obviously, it affects us as a county, but more importantly, it affects how we support and hopefully accelerate the region overall in our AI work.
+
+[00:49:47] So I think as it relates, we've been partnering a lot, and a lot of what Erica also mentioned through a lot of the work that they're doing, they're partnering with the different agencies, they're partnering with the different groups. Rebecca Mowdry and her agency we've been partnering very closely with.
+
+[00:50:02] Matt has been engaged, Erica has been engaged, and we're trying to make sure that we're intentionally having checkpoints with them so that we can make sure that we are kind of considering what's happening out there as well as we start building and continuing to grow the strategy that Erica talked about today and just add on to that real quick one of the things I'm really interested in is startups and incubators and for FX County and understanding that universe a little bit better understanding who we can partner with there when we were talking earlier about Supervisor Alcorn's comment and looking at pilots and those sort of things.
+
+[00:50:40] I mean, these are the folks that I would love to engage with because they're local, they're hungry, you know, they're maybe not so well-funded, but they don't require us to pay them a lot of money to do things. So that kind of is like a real sweet spot that I hope we can engage in a little bit more. I really love what you just said, and I think it's one of our key opportunities.
+
+[00:51:00] And I know we're putting together, or actually the group is putting together a kind of written AI economy action plan, And do we have something similar that we're plugging our elements into? I know they're still working on it, so it's not a completed project or product, but kind of where do you? Not yet, but we will engage with Rebecca and work with her on that.
+
+[00:51:17] Okay, excellent. Thank you. All right, Sean. Yeah, I was going to just say, I don't think I brought this up last time, but it's something I'm certainly seeing in the private industry with just the amount of the phrase that people are using is AI slop, right, which is just the inundation of documents that are generated and code that is generated that is not being read.
+
+[00:51:38] that is being pushed through. And for better or for worse, right, some of those can have security vulnerabilities. Some of them have just incorrect statements that are, you know, either hallucinated or people aren't checking. It's like an economic theory called the Jevons Paradox. It came out like in the 1800s when you had industrialization and people were consuming actually more coal as they started producing more and more factories when the idea is if you're becoming more efficient, you should be consuming less coal. And you see the same kind of thing happening with AI, people are consuming more AI and producing more documents and more process, right? So I guess the point I wanted to bring up is as the organization starts adopting more and
+
+[00:52:15] more AI, we want to make sure that we don't become more bureaucratic, that we don't produce more documents and more process and more AI slot, right? Because I'm certainly seeing that in the private industry, so. Thank you for that. That's a very key. So I'm brand new here, so you'll have Forgive me. So my former employer actually has a co-pilot security desk to make sure there isn't any AI misuse. Is there anything along those lines that we're doing as well?
+
+[00:52:50] We have a very rigorous security program. And one of the key partnerships between the data AI and innovation team is with our security folks. So we're being very intentional about how that's being approached. All right.
+
+[00:53:08] Should we move on to customer experience? Oh, afternoon officially. I was about to say good morning again. It's noon. I'm Kesa Tate, Chief Director of Customer Experience, and I wanted to kind of give an overview of how customer experience is structured into three divisions.
+
+[00:53:24] Since joining the county myself in January, we spent some time doing some deep dives and understanding the construct, did some work with some of your offices and your chiefs of staff to see the needs and what we need across the county from an experience perspective. perspective. And we're organized into three specific areas. We have our strategic office, which consists of training. That's our DIT training. And to Alicia's point, we partner with DHR to discover and determine what training is needed across the county with regard to technology. We have our customer improvement specialist and VIP support. And as you guys
+
+[00:54:00] know, our service now ESMP team is within that division. We also have courts technology, which specializes for courtroom technology as well as their own help desk. We have our PC replacement program under operations and mobility center service desk and print mail services and operations is within that as well as multifunctional devices across the county. But one thing I wanted to mention, and I know there's a lot of talk about, you know, innovation and AI, you know, I think our focus for customer experience is more, it's going beyond the technical assistance that we give our county. We want to make sure that we're creating better service across the board,
+
+[00:54:40] consistent and readily available when needed, which put our focus and emphasis more along the lines of improved customer expectations and making sure we're communicating, we're setting clear service standards that can be met. All the needs of our employees can be met throughout the county. So you can go to the next slide. I know there's lots of discussion about AI and it won't stop there. It will continue. So for FY27, internally we're focused on deploying AI agents and assistance into our service model that gives users a better experience whenever they need it or whenever they're contacting IT for support. We're actually starting with
+
+[00:55:16] our help desk with the calls and tickets that come into the help desk by deploying and enabling automated resolution and response to the use of AI agents that are able to complete tasks without human intervention. But I do want to say this. There is the alternative in the configuration for when needed. It can absolutely escalate to a human. Not to mention, this gives our focus with our technicians the ability to focus on more complex issues and able to go out and give in-person support when needed. So it takes the smaller things away that can be resolved by AI. So with that being said, I just want to make sure that everyone here knows that our goal
+
+[00:55:56] is consistent and fast experience without sacrificing quality or the experience that they actually want. So I want to make sure, and in addition to that, I think the focus that in all of my discovery sessions, no one wants to spend a lot of time calling the help desk just to get tech support. They want to be able to do their work, continue to do their work without interruption and to get the service they need the moment they need it, not waiting in a queue, not waiting for call. So that's been the key element within all of the divisions within customer experience.
+
+[00:56:28] And as we mature in this model, we are constantly reviewing data. We're constantly looking to identify trends for continuous improvement. And even to Sean's point, we want to make sure that we're doing this in such a way that we're not sacrificing. It's not too much. It's not allowed all the time, but we want to make sure that we're getting you what you need when you need it through the use of AI. So that's our focus for this year.
+
+[00:56:49] All right. Looks like we have a couple of questions. No, I'm good. All right. Let me start down with Supervisor Behrman. Thank you. How are you tracking how well it's working? This hasn't been deployed yet. Okay.
+
+[00:57:04] We're in the research and discovery phase. We've done a little bit of pilot just to understand how conversational the AI is, what is it doing, what's the kickout points. We want to make sure. We're starting so small with a pilot with just password resets, something that can be done around the clock. Someone is in a meeting and they want to do a reset, things like that.
+
+[00:57:21] So it hasn't officially rolled out yet. Okay. Sorry. How are you going to? Yeah, thank you. That's my follow-up is, yeah, this is all great, but we need to make sure that whatever we're doing is continuing to produce customer experience that people are actually happy with and not unhappy with. And let's, I'll be blunt. There are some people, they just hear AI and they're going to be immediately unhappy with it. And then there are actually, frankly, some people hear AI and they're going to be immediately happy with it. That's great. But how do we make sure that that, you know,
+
+[00:57:56] that 80% in the middle that are experiencing something new are experiencing it in a positive way? And how do we track that? Yeah, the good news is that there's metrics that are produced for the kickout rate because they can kick out at any time. This AI agent that we're using particularly has been tracked sentiment. So you can hear the frustration and it knows what to do in the moment. We still send out customer satisfaction surveys. None of that will change.
+
+[00:58:21] So we'll still monitor and track that data and evaluate it, of course. And I love it that we will have access to the agent ourselves so we can adjust the kickout points, the frustration rates. That's why we want to kind of slow crawl this through an agility type of rollout to make sure that we're doing the right thing with the right types of AI agent cases, of course.
+
+[00:58:42] All right, Supervisor Lusk and then Palchik. Thank you, Mr. Chairman. Quickly, I'll just ask first, what is our goal on, because I like this point about higher first contact resolution. Do we have a goal around that in terms of having a number or percentage of our interactions be on a first-time resolution basis?
+
+[00:59:09] Yeah, especially for something like a password reset, we're shooting for 90% or higher. Because there should be minimal instances where that kicks out, unless it may be a brand new associate. They're not quite set up in AD, and it can't validate or send out the verification. It'll kick out.
+
+[00:59:25] So we want to monitor that kickout rate to a minimum. That's why we're starting with something as simple as you call in, verify your credentials, and you can do, like, multi-factor authentication and move forward. But we'll eventually have goals for other kind of services that the customer is contacting us on.
+
+[00:59:40] Mm-hmm. Okay. So even in the same, I mean, we don't want to roll anything out. It's going to have like a 50% success rate. Correct. We definitely want to keep those types of instances that can move through the process 90% or higher. And then on this question of hallucinations, I know that we have that issue with some of the AI technologies.
+
+[00:59:59] How are we addressing that? Or is it more of a closed-loop system? This is very structured with the ones that it goes through. So it's not autonomous where it's just talking to you and calculating it. It's going to look for a knowledge article. It's going to look for credentials. It's going to validate against a database and then give access.
+
+[01:00:17] I guess that makes more sense. I appreciate that clarification, and that concludes my questions. Thank you. All right. Supervisor Paltzik, do you have a question? Yes. Thank you, Mr. Chairman. Thank you. I think as we try to understand this, I think it's really important to also go a step back when we're talking about user experience, right, and what is the language that we're using and how are we communicating, I guess, in the non-AI agent portions.
+
+[01:00:44] So someone recently sent me the Woodlands Township in Texas, and they're a website, and it's geared toward older adults, and it really has everything on there, and then there's an option, right, for resident support. So I don't know, as we're doing the AI piece, if we're tapping that into how our online presence is sort of structuring for basic language as to what it is that people might want help with.
+
+[01:01:15] Trash and recycling, right? So let me say this. This is all internal facing for Fairfax County employees that contact my help desk. Your help desk. This isn't citizen facing. This aspect isn't. Yeah, and I guess, but that's a good place to test all of this, right?
+
+[01:01:36] So I don't know if we're testing what we will then phase out, I assume, to citizens. And I think as someone who would prefer to not call an agent and to just find it online, and I've been at this for eight years, it is hard to find a lot of things on our internal system as well as our external.
+
+[01:01:57] So I don't know how we're sort of marrying those two together. Yeah, so it's a great question. And we really haven't built a lot of strategy yet around how we would marry internal customer experience versus external. I think what we're going to find as Anita and her team develop the 3-1-1 agent that you know and because the goal of that ultimately is to get to the point where the the resident the customer can just say i want to do this and then have the system guide them through that process right so it's very similar in terms of a process like a workflow that we're going to do internally and we'll absolutely be able to take lessons from that
+
+[01:02:35] and apply them for our residents and vice versa because we'll learn a lot from residents as well as we move forward on the internal piece and i guess my question is will the building the 311 agent which i love help inform how we build beyond the 311 agent i don't know if that makes sense like i'm not sure i don't know if that's outdated right but rather than saying you have to know which department you're going to for help right correct yes we this is a natural needs to be a natural language sort of process where it's like i need a trash can and then the system can understand what they need it understands the process to do that it can interface with the
+
+[01:03:15] applications it needs to internally to provide that service without anyone having to talk to an agent now if they want to talk to an agent we can absolutely you know transition that as well and there will be metrics around that um but again that's a little bit further out um on the resident side you know we'll start testing those things in the next calendar year um while well, Makissa and her team will continue developing the internal stuff now.
+
+[01:03:43] Okay, that's helpful. And I would just say probably our offices are a really good testing ground, right, because we're not experts. We have staff who are trying to help with an issue that comes up, right? Yeah, and I know you guys have met Josh Batten, been working with, and he's on this committee as we're going through all of the pilots and updating what we need, what the kickout rate is.
+
+[01:04:02] I mean, and us just piloting it and doing it ourselves, it was just incredible. We were saying just anything like, oh, I've got to reset my password again. It's like, okay, which password are you looking to reset? Like, it's so, you wouldn't know you were interacting with an AI. And we kind of want it that way. When you call the help desk number, so it doesn't change for any request, either you call or you open a ticket.
+
+[01:04:21] And when you open a ticket, ServiceNow has now assist. So that's just giving you assistance as you go through that. But this is calling in. So you're speaking, and it's kind of a language going back and forth. It was pretty impressive. So we're excited about it. Very exciting. Thank you. Any other thoughts and comments on this before we move to infrastructure?
+
+[01:04:41] All right, you're up. Good afternoon, Mike Palacios, Director of Infrastructure. First time here, so bear with me. A little nervous on the uptake here. Infrastructure, a very exciting topic.
+
+[01:05:01] We don't hear it until something breaks. All right, so the county does rely heavily on technology to deliver services to our employees and the residents. Our infrastructure supports more than 40 agencies throughout the county, approximately 238 different facilities, and 15,000-plus users.
+
+[01:05:20] This includes our enterprise network, our wireless infrastructure, communication infrastructure, cybersecurity, data centers that support the hundreds of county applications and services. Our primary mission is to maintain a reliable, secure, and resilient environment that county agencies can depend on every day.
+
+[01:05:41] As we continue to evolve this infrastructure, we're focused on strengthening the resiliency, minimizing the service disruptions, ensuring technology continues to meet the changes of the county. Ultimately, it's about maintaining the critical services we provide while preparing the infrastructure for tomorrow's needs.
+
+[01:06:02] Next slide. Building on that foundation, we're taking a strategic approach through a multi-year process in modernizing our infrastructure environment. Across the network, wireless communications, security, data center environments, we're systematically replacing aging technologies that consolidate legacy systems and introducing more efficient and supportable solutions.
+
+[01:06:27] These efforts are already producing measurable results. We've reduced our network switch footprint by approximately 27% over the last couple years, while doubling our power over Ethernet capabilities and significantly expanding our wireless coverage, matter of fact, almost threefold, and continue making progress retiring legacy voice and security technologies.
+
+[01:06:52] We're also extending our modernization efforts across the county inside the facilities. We have a lot of aging facilities where the infrastructure is old, the cabling, the electrical, the grounding, the space, the power consumption, and supporting these infrastructure needs.
+
+[01:07:11] Collectively, these initiatives reduce technical debt, strengthen our cybersecurity, and improve resiliency and simplify long-term operations. Equally important, modernization creates the opportunity to lower operational costs over time, reducing legacy systems, improving infrastructure lifecycle management.
+
+[01:07:33] We can create efficiencies that help the county invest in new initiatives, including emerging technologies such as artificial intelligence, while ensuring our infrastructure continues to support these evolving capabilities. Our goal isn't to simply replace aging technology, but to build a more secure, resilient, efficient, and sustainable foundation for the county's future.
+
+[01:07:56] Thank you for your time. All right. Thank you. That wasn't bad. Any questions for me? I have an impossible question for you. So I will acknowledge that on the onset. But this never stops. I mean, as soon as you're done, you know, replacing or upgrading one piece of infrastructure, you're on to the next and eventually you're back to where you started again. And so I guess my question is, is what sense do you have on where we are on that horizon? Do you feel like we're, you know, at the midpoint, three quarters of the way through before we start over again,
+
+[01:08:35] knowing that it never stops. Give us a sense of confidence in where we are in terms of updating all of those older elements that you just mentioned. I mean, you're stuck with a lot of legacy pieces, not unlike a lot of other county agencies, but you're stuck with a lot of legacy pieces that haven't been necessarily touched or modernized in a long time. So can you give us a kind of a grade, maybe, or a health check on where we are?
+
+[01:09:06] Go ahead, turn your mic on if you can. That's right. Our network switch environment and our router environment is currently up to date. However, we are already getting end-of-life notices for these, right? So usually the good news is after we get these notices, we get about five years to start replacing.
+
+[01:09:25] So the end-of-life target is fluid, so you never know when the manufacturer is going to drop that announcement. Our Wi-Fi infrastructure, we went from Wi-Fi 5 or 6. We're already starting to roll out 7, and I'm already playing it for 8. So it just depends on the technology.
+
+[01:09:43] We're looking at the VM infrastructure. What is our next steps for that? We have VCF 9 coming down the road. That's going to take some upskilling for the team as well. From our cable infrastructure, we all started off with CAT 3.
+
+[01:09:58] We moved it to CAT 5. We're now at CAT 6 and CAT 60. And that's just demanding the different evolution of technologies that rolls out. We're putting an overhead page in, which is going to be eating up tremendous amount of power off of our switches. So our network is no longer just providing data, Internet access.
+
+[01:10:19] We're providing power. We're a utility company now, where these devices are pulling up to 90 watts just for one device. Yeah, I think that's an important, helps us understand this a little bit, because what we know is this never stops.
+
+[01:10:35] And that's a confirmation of that, that this is not a project that ends. And it's one that we have to continue to feed, so to speak, feed financially, feed from a technical standpoint and a talent standpoint. So I wanted to make sure we got that out there so that people understand that.
+
+[01:10:55] And that's for the true infrastructure, not necessarily the hardware. How many, I think, and that's, I'm going to let you go ahead and take it because I think what you're looking for is really the hardware software infrastructure it sounds like we're in pretty good shape um i keep hearing about mainframes and legacy mainframes and then the software side of it go ahead so we're off a mainframe um but i will say it is highly complex right because you do have the hardware layer that allows you to do all the technology that you want to connect all of our buildings and then there's the software that's on top of it right so you can
+
+[01:11:33] have a piece of hardware, if you have a computer with no software, it's not going to do anything for you, right? So you need the operating system updates. You need the extra software to do your, you know, the work that you have, the application. So again, this is a very highly complex type of work that Mike and his team are doing.
+
+[01:11:51] It's a lot of that. The hardware pieces are also highly tied to what is happening with FMD and coordinating across with them. So I think those are some of the keys as we look at the different work streams, as we're talking about kind of the fiber lines through the walls versus the software pieces, we're trying to target by type of work stream where are we in that process.
+
+[01:12:12] And I would say to your earlier question about the grades, I think each one has a different grade because there are in different points of that life cycle. Just one more thing. I think from a grade perspective, if we can maintain a solid C consistently, I think we're going to be in an okay place, right?
+
+[01:12:31] That means we're not breaking, you know, we're not impacting service levels, those kind of things. I think the other part of it, and Mr. Chairman, you're bringing it up as far as from a funding perspective, you know, we need to continue to have these conversations in a strategic way as well. It's not like necessarily what's next year's funding picture going to look like, what do we need to do next year? It's are there technologies that we should be investing in now that are going to provide a longer-term benefit that, you know, may reduce costs over three to five-year horizon, right? So those are the conversations that, you know, I'm going to have with Alicia and with Brian.
+
+[01:13:04] But it's just something to keep in mind as we're going through our budgeting process that we may want to target some of those investments sooner than later to help provide benefit down the road. I really appreciate that. I mean, I think this is one of these where ideally all these investments would over time yield savings.
+
+[01:13:24] And perhaps in a lot of ways in some categories it will do that. In the meantime, I think what a lot of our focus is is in improving the customer experience, whether that's a county employee or whether that's a county resident. And those two goals can be working in tandem and in partnership with each other over time.
+
+[01:13:42] But I appreciate that because from the budget standpoint, I mean, we obviously, all of us, are very concerned about the integrity of our systems. And I know we have outstanding folks who do an amazing job making sure that integrity and that safety level is maintained.
+
+[01:13:59] And we have that reputation. We want to make sure we also have that forward-thinking reputation in the way of customer service, too. And it is important to understand the complexities of the infrastructure with the software interfaces and how those things work.
+
+[01:14:15] So this has been helpful. Yeah, and, you know, my favorite example of the needs that we have, we've got an HR system that will only allow us to hire employees from three states. And I've been at a lot smaller companies than companies across the country.
+
+[01:14:32] So there is, I'm going to give you C, I'll let you go with C, but it's not cheap to make a jump. And it's a difficult place to be. And any other comments before I go to the impact?
+
+[01:14:49] Go ahead. Mike, you mentioned the current status of the router and switch and wireless infrastructure. Can you also give us some permission on the firewall infrastructure? So, yeah, we're going through a major... Microphone. I'll get used to it. We're actually going through a major firewall upgrade right now.
+
+[01:15:08] We had some legacy firewalls that now are being replaced with newer firewalls. I'm not going to mention vendor names. And then we also have our current standard firewalls that we've moved into that we're trying to consolidate so we have a single pane of glass.
+
+[01:15:24] Those are also going to need to get refreshed. So we're looking at between, we're about 50% of the way done now. We'll probably be 100% done within the next two fiscal year cycles. All right. Anything else on infrastructure?
+
+[01:15:42] All right. Our final topic is the update on the Joint Board of Supervisors School Board IT Committee. And, Mara, are you going to handle that? You're up. So I do think this conversation is really good and timely. Also, again, because of the budget, I will say, having started as a small one-point-in-time committee, we have continued our partnership moving forward.
+
+[01:16:07] So even yesterday, as soon as yesterday, we were having a conversation with Gaudeman from the schools to really talk about what are some of those long-term strategies. Because I think, as you mentioned before, looking at potential areas of collaboration, potential areas of where we might be able to realize some of those savings, we know it's not a sprint in order to get there.
+
+[01:16:26] We understand it is a marathon so that we work towards getting to a place where the economies of scale are really having that realization between both the school's IT team as well as ours. So we've continued to have meetings. We're meeting every other month.
+
+[01:16:43] We usually have a very strict agenda that we go through, and then we also come up with other strategic items that we want to address. Most recently, our analytics teams, our AI and data folks have been working with the schools. We're using common platforms right now for data lake housework, and Erica and team have connected with the school's team on that so that lessons can be learned so that maybe our teams can accelerate a little bit faster so we can do some of that cross-pollination and cross-training with the teams.
+
+[01:17:15] Our infrastructure and networking team have always been very close with us in the schools, And as we look to really consider that long-term plan around our data center, our hardware, and our software for supporting our infrastructure, that is one of the conversations that we are really having with the schools, because it was a major investment in 2022 to buy some of the hardware that is currently running our enterprise.
+
+[01:17:41] We continue to work through RFPs. We have several RFPs underway. we have a recently new staff aug contract that was awarded and now both the schools and county government have access to a lot of new vendors to help support and that went through a competitive process we're working through both the it products and hardware i mean again that is another issue that we're both still facing is the rising costs of devices the rising costs of pcs and how to maintain um some stability in a very kind of volatile area right now um and again we're also
+
+[01:18:18] going through an rfp with our cable infrastructure um you know i do have just a little bit of discounts and savings we were able to allow um fcps to get onto the same e-signature platform that we were using in the same agreement right so they were using that platform anyway and they were paying much more for it so now because we were able to get them part into our contract they're are saving a lot of money on that one. So that one's good. And then, as I mentioned before, we are still continuing to have these long-term strategic discussions. So I know the committee was a point in time, but we are really embracing that long-term partnership and ability to learn
+
+[01:18:56] from each other. So again, I mean, thank you guys for even just having that because it made a connection that I think is staying true for now and into the future. Okay. Any thoughts, Mr. Chairman, I know this was your board initiative. Yeah, and I appreciate the update because this is exactly where I hoped we had been heading.
+
+[01:19:18] And I know there's collaboration that is ongoing, but I think the leadership both on schools and county needed to remind folks the importance of doing this at the staff level to give you the opportunity to have that dialogue.
+
+[01:19:35] This is an area, contrary to what I just said, I mean, you know, about long-term savings, this is an area where I think there are real opportunities for short-term savings, too. And you mentioned one here, but I think there's a lot of other areas. I mean, in essence, what we are doing is we're running two entirely separate IT enterprises under the umbrella of the county.
+
+[01:19:58] And it is, you know, I think there's long-term things here for sure, but, you know, let's focus on the short-term things too. I mean, I, you know, my kids will be out of school by the time we get to a point where I would hope we, you know, treat customers, parents.
+
+[01:20:15] The tools that we had earlier that the county have can be integrated in some ways. I mean, if you are a parent of a school student today, you have half a dozen different logins for different things. It is maddening.
+
+[01:20:31] And then you have a separate whole set for county applications. And so, you know, I know there's a lot of complications, and it's difficult it is sometimes to upgrade our own systems. You know, it's that much more difficult when you're talking about, in essence, an entirely different enterprise.
+
+[01:20:47] But I would hope we continue to look for those short-term wins, create savings opportunities, not lose sight of the customer focus, like you all are focused on the customer piece. I hope we're bringing that type of environment to the table when we talk to schools as well, because they're not here, and I don't want this to be a criticism of schools, but some of the things I've seen recently seem to be a step backwards.
+
+[01:21:14] this year, you know, the schools rolled out a technological improvement to track kids that are on buses, and they gave every kid who wanted to ride the bus a separate scan card. Now they have to carry it a scan to get onto the bus, which takes longer to get onto the bus, and now kids don't want to ride the bus because now they have to carry another actual physical credential that has an outdated photo in it because of the way it was rolled out. So these are the kind of things that, you know, increase collaboration. At the end of the day, it's our parents, it's our kids, it's our taxpayers that pay for that. And, you know, those are the kind of little things that
+
+[01:21:50] set people off and expect our departments and the schools and county to be working collaboratively more together. And so the discounts and savings category of this, I hope, you know, continues to grow. And I really appreciate the fact that we already have some wins here because that's exactly what we were hoping for. So I want to keep up that momentum. Supervisor Al. Just thank you and keep going. Supervisor Stork. Thank you and keep going. Any other thank you and keep going?
+
+[01:22:26] Any other thoughts on this topic? All right. I'm going to get us close to wrapped up on time. So first of all, thank you to the IPEC members for being here, for your comments, for what you do working with our staff. Thank you all for the work you're doing. Well done. I had asked for a cyber threat briefing in closed session. I think we have just because you brought that up earlier I think we've decided those can be better had in one on ones or one on twos so that is that's going to can be broader that way we're not limited to the very narrow
+
+[01:23:05] so those will be happening please take the time to meet with our security staff and with that this meeting is adjourned unless there's anything else. Adjourned. - Okay, yes, okay.
+
+----------------------------------------------------------------------
+Coraggio Consulting · aguyonx.com

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/pwc-schools/transcripts/pwc-sb-XiobtppGwOo.json",
+  "outBase": "public/files/find-the-moment/pwc-schools/transcripts/coraggio-transcript-pwc-schools-2026-09-23-joint-session-of-the-prince-william-bocs-and-school-board",
+  "title": "Joint Session of the Prince William BOCS and School Board, Wednesday, September 23, 2026",
+  "shortTitle": "Joint Session of the Prince William BOCS and School Board \u00b7 Sep 23, 2026",
+  "date": "Wednesday, September 23, 2026",
+  "place": "Prince William County School Board, Virginia",
+  "length": "2h 59m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=XiobtppGwOo"
+    },
+    {
+      "label": "Official School Board page (PWCS)",
+      "href": "https://www.pwcs.edu/about/school_board/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-26"
+}

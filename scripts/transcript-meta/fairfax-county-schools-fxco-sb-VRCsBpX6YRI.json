@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-VRCsBpX6YRI.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-09-08-fairfax-county-school-board-budget-committee-of-the-whole",
+  "title": "Fairfax County School Board Budget Committee of the Whole, Tuesday, September 8, 2026",
+  "shortTitle": "School Board Budget Committee of the Whole \u00b7 Sep 8, 2026",
+  "date": "Tuesday, September 8, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "1h 1m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=VRCsBpX6YRI"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-26"
+}

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4304.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-10-20-fairfax-county-council-for-economic-opportunity-meeting",
+  "title": "Fairfax County Council for Economic Opportunity Meeting, Tuesday, October 20, 2026",
+  "shortTitle": "Council for Economic Opportunity Meeting \u00b7 Oct 20, 2026",
+  "date": "Tuesday, October 20, 2026",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "1h 26m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/4304"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-26"
+}

@@ -13647,6 +13647,26 @@ export const FTM_TRANSCRIPTS: FtmTranscript[] = [
     generated: "2026-10-24",
     sourceFile: "1236391014.srt",
   },
+  {
+    meetingId: "2026-10-26-1239691536",
+    venue: "loudoun-lcps",
+    url: "/files/find-the-moment/loudoun-lcps/transcripts/2026-10-26-1239691536.json",
+    windowCount: 50,
+    wordCount: 2771,
+    engine: "whisper.cpp \u00b7 large-v3-turbo",
+    generated: "2026-10-28",
+    sourceFile: "1239691536.srt",
+  },
+  {
+    meetingId: "2026-10-26-1239690052",
+    venue: "loudoun-lcps",
+    url: "/files/find-the-moment/loudoun-lcps/transcripts/2026-10-26-1239690052.json",
+    windowCount: 11,
+    wordCount: 759,
+    engine: "whisper.cpp \u00b7 large-v3-turbo",
+    generated: "2026-10-28",
+    sourceFile: "1239690052.srt",
+  },
 ];
 
 export const FTM_TRANSCRIPT_BY_MEETING: Record<string, FtmTranscript> = Object.fromEntries(

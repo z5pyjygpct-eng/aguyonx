@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4241.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-09-15-fairfax-county-board-of-supervisors-meeting",
+  "title": "Fairfax County Board of Supervisors Meeting, Tuesday, September 15, 2026",
+  "shortTitle": "Board of Supervisors Meeting \u00b7 Sep 15, 2026",
+  "date": "Tuesday, September 15, 2026",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "8h 46m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/4241"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-26"
+}

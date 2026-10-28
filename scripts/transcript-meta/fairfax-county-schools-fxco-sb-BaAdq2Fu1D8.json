@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-BaAdq2Fu1D8.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-10-08-fairfax-county-school-board-meeting",
+  "title": "Fairfax County School Board Meeting, Thursday, October 8, 2026",
+  "shortTitle": "School Board Meeting \u00b7 Oct 8, 2026",
+  "date": "Thursday, October 8, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "5h 41m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=BaAdq2Fu1D8"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-26"
+}

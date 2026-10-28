@@ -1,0 +1,554 @@
+Coraggio Consulting
+Fairfax County Board of Supervisors Safety & Security Committee, Tuesday, October 20, 2026
+
+Date: Tuesday, October 20, 2026
+Place: Fairfax County Board of Supervisors, Virginia
+Length: 1h 57m (video)
+Official meeting video (Fairfax County): https://video.fairfaxcounty.gov/player/clip/4305
+Official Board of Supervisors page (Fairfax County): https://www.fairfaxcounty.gov/boardofsupervisors/
+
+Machine transcript (speech-to-text) produced by Coraggio Consulting. Not an official county record. Names and numbers may be misspelled; check the video at the timestamp before quoting.
+Speech-to-text: whisper.cpp, model large-v3-turbo. Produced 2026-10-26. Timestamps are [HH:MM:SS] into the meeting video.
+
+----------------------------------------------------------------------
+
+[00:00:00] Good afternoon everyone. I'd like to call our safety and security meeting to order for October 20th, 2026. We have one agenda item, so we'll have an opportunity for the board members to ask questions, and today's discussion will be on our automated license plate reader, or LPR program, and we'll have an opportunity to hear from the staff. Following that, we'll have the board ask any questions that they have and then we will conclude the meeting so with that let me turn it
+
+[00:00:36] over to mr. chairman before we do that I just I want to mention a couple things just to just to level set for those who are to our committee meetings and don't normally attend a board committee meeting this of course is on the agenda today because of the board matter that I introduced and the board supported to have a dialogue about FLOC, how it works, how it operates, what protections are in place, et cetera.
+
+[00:01:02] The reason why I wanted to be recognized is because the board never takes action in committees, so there will be no action taken at this committee. This is an opportunity for us to get a presentation from the police department and for board members to ask specific questions about this technology and to get answers and to have that dialogue.
+
+[00:01:21] If there is to be any action that's taken in the future, it would happen at a full Board of Supervisors meeting. And so I don't know if that's the case. I don't want to prejudge that there will be any action or not. But I just want to make sure everybody understands that technically that action would have to be taken by the board at a formal Board of Supervisors meeting.
+
+[00:01:41] As tradition is, our committees do not take any type of action. There are no action items on the agenda. So I just wanted to level set that for our conversation. Thank you, Mr. Chairman. And with that, I'd like to now turn it over to Chief Kevin Davis to start our presentation.
+
+[00:02:00] Chairman McKay, Chairman Lust, Board of Supervisors, I'm Kevin Davis. I'm the Chief of Police for the Fairfax County Police Department, obviously joined by Deputy County Executive Tom Arnold, Assistant Chief John Lieb, Operations, Major Hudson Bull, who's the commander of our real-time crime center, Dana Ferrara, who oversees our IT, and Deputy Chief Viva Wallace-Spalding of Community Engagement and Partnerships. I have a very brief opening statement, and then we'll turn it over to Major Hudson-Bull to begin.
+
+[00:02:35] In the lobby of Public Safety Headquarters is a framed letter written by actor Jack Webb to the FCPD dated October 17, 1968. Jack Webb, as some may recall, played LAPD Sergeant Joe Friday on a police tv series called Dragnet. Sergeant Friday was known for saying just the facts in his role as a detective. Our presentation today will be just about the facts. No emotion from us, no hypotheticals, no rumors, no speculation, no guessing. We're going to just give facts to the Board of Supervisors. We've spent a great deal of time with you, your staff, community groups,
+
+[00:03:14] advocates, local and national media discussing automated license plate readers and their contributions to the crime fight and public safety and we look forward to continuing this conversation today and in the future. One thing is certain about this technology or one thing that is certain about this technology and the yet-to-be-seen technologies of tomorrow is the Fairfax County Police Department will get it right and serve as the example across the nation. Policies, retention schedules access restrictions audits and transparency are often born right here
+
+[00:03:52] in fairfax county that's a source of pride for all of us and one should one that we should continue to embrace major hudson bull the commander of our real-time crime center will kick off the presentation and thank you all so much for your for your time thank you chief davis and members of the board for the past four years i've overseen our license plate reader program During that time, we have built a model license plate reader program, one that incorporates community input, data-informed policing, transparency, and strong accountability measures.
+
+[00:04:26] As Chief Davis mentioned, today's presentation will provide you with many facts about our program. However, I want to begin by emphasizing three important points. First, our officers have never conducted an illegal license plate reader search.
+
+[00:04:41] Second, our officers have never conducted license plate reader searches for immigration enforcement purposes. And third, our officers and our detectives rely on this technology every day to solve and prevent crime. It has become an essential law enforcement tool that has a direct impact on the public safety of Fairfax County. These three points are important to keep in mind as we discuss the history, operations, safeguards, and successes of our program today. Starting with the history and background of license plate readers. They've been in use for the National
+
+[00:05:20] Capital Region for about 20 years. We've been using them in Fairfax County since about 2008. During that time, there have been numerous cases for the continued and lawful use of license plate readers. Here in Fairfax County, we saw one of those such cases with Neal v. Fairfax County that started in 2015. That came to a conclusion in 2020 with the Virginia State Supreme Court, which upheld the Fairfax County Police Department's use of license plate readers.
+
+[00:05:53] What many of you remember of license plate readers is what you see in that picture there to the right is those old license plate reader systems that were affixed to the trunks of cruisers and they were reading license plate readers. Those have been in use for some time. Now they look much different, and we'll show you some pictures of what they look like now. In 2022, coming off the Neal versus Fairfax County case, we met with several different stakeholders in the community and began our program as we see it now. Those meetings with stakeholders built what our program
+
+[00:06:31] is today. In one of the very first meetings we had with a community group, they said that the first thing that they had a problem with our license plate reader program was the data retention period, which at the time was one year. Before we even put a camera in the ground, we took that community input and we made the change to reduce the data retention period from one year to 30 days.
+
+[00:06:54] Now there's a state code in place, which has reduced it even further to 21 days. We saw that private communities were using license plate readers successfully to solve a crime. In the Drainsville Magisterial District, the McLean Police District, there were several HOAs who had license plate readers in place and they were using them to successfully solve crimes that were occurring in their neighborhood. When we saw the successful use of those license plate readers, specifically flock safety technology, we decided that we were going to build a new program with
+
+[00:07:29] new tools in place from the prior tools that we were using before. We took several steps to establish a new license plate reader program at that time. One of the first things we did was get rid of our online training that we had, and we replaced that with mandatory in-person training.
+
+[00:07:48] It was two hours, it's now three hours, and it's now approved by DCJS so our officers can get credit for taking the course. During that training, our officers learned things like how to react to license plate reader alerts, what they can conduct searches for, and the consequences if they were to conduct an unlawful search. The other thing we did was put a commander in charge of the program, which has been me for four years, in charge of oversight and auditing. We will go further into auditing later in the presentation. The other thing we did was look at crime data to figure out
+
+[00:08:25] how we were going to place the cameras so that they would have the largest impact on public safety in Fairfax County. We often hear questions about why there are license plate readers in certain locations, and there is a vetting process that the police department conducts to place each and every camera that we operate in Fairfax County? Number one, we look at the concentration of crime that is occurring in that area. Number two, we look at will the camera being put in that location actually solve the crime problem that is being seen there? And number three, do we have the consent of the private owner to place the camera on that property? If all three of those are met and the
+
+[00:09:04] camera can be placed in that location, then we will do that. If you were to overlay a crime heat map in Fairfax County over where we have our license plate readers, it will exactly match up. The other thing we did was start talking about this program. We conducted numerous community education events. We went to HOA meetings. We hosted CACs in the Real-Time Crime Center. Many of you had the opportunity to come to the Real-Time Crime Center and talk about license plate readers there. We did this even though other law enforcement agencies opposed us talking so much about the program, but we wanted to make sure that if we were going to use this technology in
+
+[00:09:43] Fairfax County, that we communicate it with the community. The other thing we did was update our policy. We had an SOP in place for several years. We updated that in 2022, and then now the state mandated that we have a public-facing general order, which we have had. We were the first in the state to have a public-facing general order based on the new law that was passed in July of 2025. The other thing we did was increase our communication about our success stories through our Public Affairs Bureau, and you'll see some of those examples later on in the presentation.
+
+[00:10:18] When we talk about the community really starting this program for the police department, we look at the Drainsville Magisterial District, the McLean Police District, where this program was born. There were several HOAs that were experiencing burglaries almost every weekend, and you heard from one of those community members last week during a public comment period who explained that they would go out to dinner, they would come home, and their homes had been burglarized. There is a community member who spoke with me who described they were in their home
+
+[00:10:51] when their home was burglarized. They themselves, as an HOA, purchased license plate readers and put them up in the entrance and exits to their communities. The police department would respond these burglaries and get that evidence from those license plate readers that were privately owned. The success of that license plate reader system really did not come to fruition until the Fairfax County Police Department began using the same license plate reader system. It was at that time that you incorporated real-time alerts and real-time searches to be able to quickly solve these crimes
+
+[00:11:27] and bring them to an end. The McLean Police District has the highest concentration of privately owned cameras throughout Fairfax County. There are 40 privately owned in the McLean District. There are 10 that are operated by the police department, mostly centered around the Tysons area. At the end of 2022, we started with just one location with five flock safety cameras. In the early 2023, we put up several small locations of flock safety
+
+[00:12:03] cameras, and in four months, we saw more successes than we saw in the prior four years. We're able to locate stolen vehicles and recover them. We're able to recover narcotics, dangerous narcotics. We're able to find missing people. From the first few months we were able to then expand into the eight other police districts and begin a county-wide program that you see today.
+
+[00:12:28] We operate 84 flock safety cameras. There are about 120 privately owned cameras throughout the county and we'll go further into how those privately owned cameras operate, how we interact with them later on. There are 714 Axon Fleet 3 LPRs inside our police cruisers and that is what replaced those old ones that you saw on the trunks of the police cruisers earlier. To go into our data and this slide will answer a lot of questions that people may have about data and sharing and how networking works
+
+[00:13:07] within the license plate reader system. We as the Fairfax County Police Department own all the data that is collected by the cameras. We control who can see it. We control the data retention, which is also controlled by the state. The data is stored in the Amazon Web Services GovCloud, similar to many other systems that we use here in the police department. And the next slide, Major Dana Ferreira will talk more about how that works with our IT infrastructure in Fairfax County. The Department of Information Technology
+
+[00:13:45] with Fairfax County has an architectural review board that approves the use of these storage systems for our data within the police department and any county department that wants to use these systems. We went through a lengthy review process with them in 2022, and the Flock Safety System and Axon System both passed the architectural review board. The data that is collected by the cameras cannot be sold to third parties, and we control the access to that data. We often hear that there are no flock safety contracts that can be found on the DPMM website. That is because in
+
+[00:14:24] 2022, Fairfax County DPMM approved the terms and conditions for which we could use flock safety. After that, all purchases have been procured through the Insight Public Sector Omnia Partners contract. That is the purchasing vehicle in which we make our payments for flock safety products.
+
+[00:14:44] We do not control that process. That process is controlled by DPMM. In July 1, 2025, there was a new law passed, Virginia Code Section 2.2-5517, which pretty much controls everything that we do with license plate readers in the Commonwealth of Virginia, including data sharing.
+
+[00:15:06] That law made it so that we cannot share LPR data with agencies outside the Commonwealth of Virginia. That includes any federal agencies and includes the Districts of Columbia and Maryland. The vendors have taken steps to increase their security practices.
+
+[00:15:24] It's important to note that Flock Safety has never had a contract with ICE, and they currently do not have a contract with ICE. To talk more about how the private cameras work, private ALPR cameras are purchased by either a private person, an HOA, or a business.
+
+[00:15:42] They purchase the camera and they put that camera on their property. They are the owners of it. They own the data that is collected by it. They can choose to share that data with the Fairfax County Police Department. They could give that data to anyone else that they want. That is up to them.
+
+[00:15:59] It is their camera. It's privately owned and it's on private property. The best thing to relate it to is if you were to stand on the street corner and put your cell phone on video mode and point it out at the street and take video of traffic going by, that is your data, it's collected by you, you're standing on private property, you can do that.
+
+[00:16:18] If you choose to share that with the Fairfax County Police Department, you can. The important thing to note is if the Fairfax County Police Department wants to access that data to run a search on that data, we have to comply with the same Virginia law that we would if we owned the camera and the data. So all the same rules apply for the police department accessing that data, but that is a privately owned camera. It's collecting private data. It is not owned by the police department. I'm going to turn it over to Major Dana Ferreira to talk about data security.
+
+[00:16:54] Thank you, sir, and thank you, supervisors. Appreciate your time. I just want to reemphasize some of the things that Major Bull said about how the data in both ALPR systems is protected. So both systems do sit within Amazon AWS GovCloud. This is a solution that the FCPD and the county have trusted for many, many years. This is a CJIS-compliant environment, which is the Criminal Justice Information Service. It's a federal standard that criminal justice agencies follow to ensure that PII and crime-related data is being properly stored.
+
+[00:17:27] We keep other things in there. We have other solutions that sit in AWS GovCloud to include all of the storage of our body-worn camera and in-car video systems, all digital evidence that the police department comes into possession of. The DPSC is utilizing AWS to house its cloud-based emergency call-taking system, and our record management sits in AWS GovCloud.
+
+[00:17:51] This is a vetted service we've been using for years. In checking with DIT, other vendors outside of public safety in the county are also using AWS GovCloud because of its reliability. It's one of several vendors that are leveraged in this space.
+
+[00:18:08] As the major said, both systems that we use went through the architectural review process. This is a process that all county, and especially public safety technologies, go through to ensure they are compatible with the county system. to ensure that data is protected in a way that both for the data itself and for the people whose data it is, and that it continues to function as intended.
+
+[00:18:31] Both have gone through. It's tested and vetted by the experts from the Department of Information Technology. And as the major said, both technologies passed that process prior to inception. The only other thing I'll say and throw on this is that both of these solutions are SOC 2 compliant.
+
+[00:18:48] If you are not familiar, this is a standard put out by the American Institute of Certified Public Accountants, which looks at especially as a service or SAS architectured systems and evaluates them across five core elements to include security, availability, the integrity of processing that occurs, the confidentiality of the data, and the privacy of the people whose data it is.
+
+[00:19:15] Both of these services have that certification as a requirement of the Department of Information Technology and maintain that certification. I'll throw it back to you, sir. Thank you. Thank you. As we've moved the program forward, we had not stopped making changes to the program.
+
+[00:19:36] It's important to understand that in 2022, before we put the first camera in the ground, we made changes to the program. Throughout the year of 2022 and 2023, we made changes. 2024, 2025, same thing. We still make changes to the program today. We look at national best practices. We look at trends and patterns that we see across the country, and we adapt our program to make sure it is the best program that it can be for our community.
+
+[00:20:02] We were one of the first agencies, and we actually helped develop this product to institute an AI automated auditing tool, which helps us surface possible suspicious search activity amongst our users. We spent a year working with our vendors to develop the product, and then they were able to roll it out.
+
+[00:20:23] We were one of only five that were able to test the product, and that goes into how well we audit our system. So to explain our auditing, every single search that we conduct is audited by a team of auditors. It's a nonstop process that occurs within the real-time crime center.
+
+[00:20:39] Every single search is looked over to ensure that it has all the proper information filled out. And if anything surfaces that could be suspicious, the detectives look at it and tie it to a case to ensure that it is a relevant and proper search.
+
+[00:20:56] The AI auditing tool surfaces suspicious activities such as, did a detective search the same plate for more than 30 days? or is that the only plate that that detective has ever searched? If it does, it flags it.
+
+[00:21:13] We're then able to corroborate the information with either a report or a case number, which is required when you conduct a license plate reader search. Beyond the auditing tool, one change that we recently made this year was reducing the amount of users who can conduct searches.
+
+[00:21:32] Prior to this year, we had 821 users who could conduct searches. That is, all users who have been through training and were able and have conducted lawful searches. The largest group of users who could conduct searches were our patrol officers.
+
+[00:21:49] But what we saw was the real-time crime center detectives were conducting the same search at the same time. And usually the patrol officers went up calling the real-time crime center and asking them to conduct a more thorough search. What we did was eliminate the patrol officers from being able to conduct searches.
+
+[00:22:08] Now they just contact the real-time crime center. That reduced our user pool from 821 to 296. That reduces our risk. It helps us conduct better audits, and it makes it so that the searches are more meaningful. The other change that we made was that no one above the rank of major will have access to the flock safety system.
+
+[00:22:31] We did this because we saw several national trends where there was some degradation in the public trust of the senior leadership if they had access to the system, we wanted to remove that worry from the community. What we did was we conducted an audit of all our members who were deputy chiefs and above, and then we removed them from the system.
+
+[00:22:54] Most of them had never even been in the system for the period that we did the audit, but a lot of them went to the training to learn how to use the system and then never had to access it afterwards. The other thing that we did was I, myself, as overseeing this program, do not have the ability to search.
+
+[00:23:12] That is separately and independently audited, and there is a separate reporting system if someone were to see that I did the search. We wanted to make sure that there was no question about the integrity of our auditing and our oversight that is put in to this program.
+
+[00:23:27] The other thing we did was start a real-time crime center transparency webpage, and it's publicly available. It has a lot of information on it, and most of it is about license plate readers. To talk about how this got started, there was an article written July 3rd, 2025.
+
+[00:23:47] The article is about the Federal Hidden Immigration Network. In this article, the WHRO described the Fairfax County Police Department as having over half of the immigration-related searches that they found through their own investigation, and I tell you that that is a complete lie.
+
+[00:24:10] that is not true, and we were able to have conversations with both the author and the editor of that article. They refused to change their article. However, they did agree with some of the statements that we made with them, and because of that, we started the Real-Time Crime Center Transparency webpage, where we answer the questions that our community has directly on that webpage. If we watch a board meeting where someone has a question, we try to put that on the transparency webpage as soon as possible. Questions that you have had about this article are on the
+
+[00:24:48] Real-Time Crime Center transparency webpage. The other thing that we put on the Real-Time Crime Center transparency webpage was a recent rumor about the Fairfax County Police Department having flock cameras on FCPS property. That again is not true. That was started because there is a deflock map that showed cameras that were publicly reported on school property. That was not true.
+
+[00:25:15] Those are publicly reported. Anyone can say that there's a camera there. Those cameras were just school-owned security cameras. No relation to the Fairfax County Police Department. However, that grew legs and went on to Reddit, and then everyone believed that FCPS had Fairfax County Police Department flock safety cameras on their property. It was not true. I will applaud the DFLOC Fairfax County group, I was able to reach out to one of their leaders and ask them to remove those from the DFLOC map, which that person did, and I appreciate the communication that we had in
+
+[00:25:53] place before then that allowed that to happen. The other rumor that we recently heard was that there is a camera specifically in the Reston District, and I believe you all heard this at a recent meeting, that was on a sidewalk. It was facing a sidewalk and pointed at kids who were walking to school. That again was not true. That camera is pointed to the street. We actually had to release an image from that camera to prove that it was not pointing at the sidewalk. It's not pointing at the children on the street, and it wasn't in front of the school. It's a block and a half away
+
+[00:26:30] from the school. But that brought in our question of where do you put those cameras? We have some data that shows, and I have it here with me, a heat map of crime in the Reston District. We operate four flock safety cameras in the Reston District. All four of those land within the concentrated areas of crime that occur in the Reston District. We justify every single camera placement that we have. We take it seriously where they go. We look at things like schools, shelters, churches that are nearby to make sure that even though the data shows it should go there, is it the right and
+
+[00:27:10] proper thing to do. We also look specifically at locations where we have seen high concentrations of crime, and do the flock cameras make a difference at that locations? One of those locations is the Tyson's Corner Center, obviously a busy shopping center where we saw crime calls for service, shopliftings, robberies, motor vehicle thefts drop after the installation of flock safety cameras in 2023 at those locations. To go in specifically about some of those crimes that
+
+[00:27:49] were solved thanks to the license plate readers at Tyson's Corner Center, first you can look at an armed robbery where a worker at the mall was confronted by two suspects armed with a gun and robbed him left in a vehicle. Thanks to the license plate reader system being in place, we're able to identify that vehicle and not only identify it, but before they're able to leave Fairfax County, know where it was headed, send officers to the area, make a traffic stop on the vehicle. They were able to arrest the two suspects and recover the gun. A picture of the
+
+[00:28:24] gun you can see right there. The other thing it's helped with is organized retail theft or organized crime. What you see in the top right are tens of thousands of dollars of clothing that was stolen from Tyson's Corner Center. It was hidden in a nearby hotel room until detectives caught on to them and were able to arrest them, recover all those goods, and get them back to our store owners.
+
+[00:28:49] The other case on there is from a critical missing person. We received information that a person was suicidal. They were going to go to Tyson's Corner Center to harm themselves, and they were in a vehicle. We were able to enter that vehicle into the license plate reader system and get an alert for that vehicle as it entered Tyson's Corner Center. Our TUT officers were able to go and locate the vehicle and stop the person just prior to them harming themselves.
+
+[00:29:18] We also look broadly at lessons learned from major incidents that have occurred in the D.C. area. PERF, the Police Executive Research Forum, conducted a study to show that during the D.C. sniper case, there was information very early on, a tip that could have led to the identification of the actual suspect vehicle of the D.C. sniper.
+
+[00:29:46] However, local police departments spent the next 22 days searching for a white box truck that was not involved. They relate that to the recent Brown University shooting where Flock Safety license plate readers specifically were in place for this case.
+
+[00:30:06] And they helped identify the shooter's vehicle very quickly and bring a swift resolution to that before more broader violence could occur. One of the lessons that we learn from this as a police department is this could happen again. We hope it does not, but when the moment happens, we cannot just snap our fingers and put a license plate reader program in place.
+
+[00:30:29] We have to have it in place beforehand to be ready to deal with situations like this. On the next slide, it shows you the numbers and the results. And the numbers can be impressive, but one thing you have to remember is that there are a victim or victims behind those numbers.
+
+[00:30:50] And a lot of people tell me, well, it's just a stolen car. Well, it's just a stolen car until it's your stolen car, and it interrupts your life, it affects you getting to work, it affects your children going to school or after school activities, it takes away your privacy, your security, and your safety.
+
+[00:31:06] I have talked to some of those victims before myself, and they explain to me how thankful they are that they have their vehicles back. But more than just stolen vehicles, 2,672 arrest charges, three-quarters of those are felony arrest charges, 60 missing people located.
+
+[00:31:27] We're going to talk specifically about one of those cases in just a minute, 67 guns recovered. And if you have to put a monetary value to it, we included that at the bottom of this slide. I'm going to talk specifically about a few cases that license plate readers played a direct impact in the capture of these suspects.
+
+[00:31:50] The first one was a suspect who was driving to different Fairfax County schools, exposing himself and committing other crimes in front of children who were outside the school, either in recess or in physical education class.
+
+[00:32:06] Detectives had learned that it was likely a probable suspect. That probable suspect's vehicle was entered into the license plate reader system. Some portable license plate reader cameras were moved outside of the school area, and they alerted to this person driving near the school.
+
+[00:32:24] Officers went to that location to look for him, including the school resource officer. They could not find him in the parking lot. We get another license plate reader alert down the road. We go to that location, and he is in the school, in the act of his crime, caught by our officers, and stopped and arrested.
+
+[00:32:44] After that day, he did not commit those crimes anymore. In this second case, there were two kids who were at a bus stop. They were walking to the bus stop. They were approached by a man in a vehicle who tried to coax the children into his vehicle.
+
+[00:33:06] The two kids, it was an older sister and a younger brother. The older sister recognized the danger. She told her little brother to run. And in the pictures, you can see them physically running away from this vehicle. They told an adult nearby. the adult snapped a photo with her cell phone, but you couldn't read the license plate image.
+
+[00:33:27] They were able to send that picture to police. There is a license plate reader on this street. We were able to quickly identify the vehicle and not only identify the vehicle, but see that it alerted to another license plate reader alert down the road in front of another bus stop. And our officers were able to quickly locate the suspect and detain him. That investigation moved so fast that we had to wait for detectives to get to the school to try to locate the kids to try to get them to a safe place to conduct an interview. So we had to wait several hours before charges
+
+[00:34:04] could be placed on this suspect. In this third case, a homicide suspect murdered his ex-partner in violation of a protective order as she was leaving her work. She walked out of her work and he was there waiting and he shot and killed her.
+
+[00:34:26] He then got into a vehicle and he left the scene. A witness was able to get a license plate number for that vehicle. We immediately put that vehicle into our LPR hot list to get alerts for if it drove past one of our LPR cameras.
+
+[00:34:43] It actually drove past several LPR cameras. We were able to provide real-time updates to our partners. We put a lookout as they were headed towards Maryland and thankfully our Maryland partners, they were on our radio channel, were able to stop the vehicle just as it crossed over into Maryland. They were able to detain the suspect and recover the weapon in that case. This fourth case is a missing couple. They left one afternoon, elderly couple, to go to a doctor's appointment and they never showed up. The family reported them missing
+
+[00:35:23] to police and the next morning we received a lookout from the neighboring police department that this couple had been missing now for over 12 hours. We were able to run a license plate reader search on the vehicle and see that it had been driving all over Northern Virginia throughout the night.
+
+[00:35:39] We then were able to get an alert for the vehicle driving on Route 1 in our Mount Vernon district. Two minutes after the alert, our officers located the vehicle. We had recovered the couple, and the family called us, and we arranged for the family to come down and pick them up and get them home safely.
+
+[00:36:00] and the last case are some armed carjacking suspects. They had committed several, it was over a dozen armed robberies and carjackings throughout the DMV for several days. They were actually in our area to locate a new vehicle because they believed that police had located the vehicle that they were driving and did not want to get arrested in that vehicle. They wanted to find a new victim and a new vehicle. When they did, they drove past one of our flock safety license plate readers in our Mount Vernon district. Our officers quickly located the car.
+
+[00:36:38] They did pursue the vehicle in that case. That pursuit went into Maryland and several suspects fled from the car. Guns falling out of them as they were running from the car. You see a picture there of the guns that they had on them, all of them wearing masks, and all of them arrested.
+
+[00:36:56] Closed several cases throughout the District of Columbia, Maryland, and Virginia. And finally, I'll leave you with the options that we look at as we move forward with this program. As we said, since 2022, we have made several changes to this program. We don't stop making changes. We look at trends, we look at patterns, and we adapt and try to make the best possible program that we can for our community. One of the options we're looking at is maintaining the current program and evaluating other vendors. The next option that we have is maintaining the current program,
+
+[00:37:33] testing and evaluating new systems that can comply with Virginia State Code and our general order. And the last option that we have is becoming a closed network where we don't share our data outside of Fairfax County. That is extremely restrictive. We believe that it will lessen our ability to solve crimes. However, we believe that an evaluation period in one year to see where the state is in holding other jurisdictions accountable and ensuring that Everyone is complying with the state code would be beneficial. Thank you. Thank you very much Major bull for the presentation today
+
+[00:38:12] Is extremely helpful to understand history and to get details on this issue I'm also very happy and delighted that we have the opportunity as a board to discuss this very important topic here today and The way I see it there are really three categories of concern that we hear from the community First, there are concerns that apply to all license plate readers generally.
+
+[00:38:40] Second, there are concerns about the county's policies and oversight to prevent misuse. And third, there are concerns that apply to Flock and their technology specifically. I think this presentation today exhibits the public safety benefit of automatic license plate readers here in Fairfax County and does it well.
+
+[00:39:05] And I appreciate how proactive our police department has been to ensure that we are protecting data and preventing misuse from the start. So thank you for that. What concerns me is that I don't know whether I can say the same about the vendor we've chosen based on what we've heard and seen across the country.
+
+[00:39:30] And that gives me pause. So my focus and our focus today is we want to learn what we can do here in Fairfax County to ensure our residents feel that they are safe and that they can trust our police department and the technology that we use.
+
+[00:39:53] And with that in mind, I have a number of questions, and we'll get the opportunity to let every member here also ask questions that they have, but I'll start with mine, and we do have significant time. The first question I have is, one concern is the length of time that data is stored.
+
+[00:40:12] And across the nation, there are varying lengths of time that the data is kept. FLOC's default setting, for example, is for seven days. Now, how did we here in Fairfax County settle on 21 days?
+
+[00:40:28] And has there been any consideration of whether to reduce that data retention period? Chairman Lusk, I'll start and turn it over to the expert. Our original retention schedule was one year. And based on the initial conversations we had a couple years ago on our own, we put into place a 30-day retention schedule.
+
+[00:40:54] When the Commonwealth was contemplating legislation, they looked all around the Commonwealth, but they looked hard at Fairfax County and what we were doing. So when the legislature decided that 21 days was the most appropriate timeframe, we certainly felt we could live with that.
+
+[00:41:15] The example that I like to give to folks when we talk about the potential additional reductions of a retention schedule is you're going on vacation, and it's July, and you're gone for a week, and your house is broken into, and maybe you stay a couple extra days.
+
+[00:41:32] Maybe you're gone 10 days, and you come home and discover that your home is broken into, your property is stolen, damaged, et cetera, and all the while a vehicle. Because in suburban jurisdictions across the country, criminals drive to and from crime scenes. They're rarely walking.
+
+[00:41:49] So the vehicle is the mechanism of transportation for criminals in suburban jurisdictions like ours. We don't want to have a retention schedule that's so narrow that we would harm the ability to capture criminals and do justice for victims by having it be too brief. And if it were five days or if it were two days, I think we would routinely lose the ability to go back in time and identify suspicious vehicles coming and going from crime scenes. Okay, thank you. Yeah, there are over 30 states that have laws on the books pertaining to license plate readers. Not all of
+
+[00:42:29] them force a retention period. But the retention periods vary from one state that has minutes of a retention period to five years is the longest that I've heard. And so 21 days in Virginia is on the shorter end of that retention period, along with, as the chief discussed, you go on vacation, you come back, someone's broken into your home. Also, it takes time sometimes for our detectives to gather information about cases that lead them to a certain vehicle.
+
+[00:43:00] There are some cases that start out that we don't even know a vehicle is involved. We don't learn that until several weeks later. And so we've already had detectives, they come to me and say, I've got a case that I'm working on. We just found out a vehicle's involved. It's 40 days ago.
+
+[00:43:17] Am I able to somehow go back and get the data? The answer is no. It's permanently deleted, not even with a court order. Can you go in and get that data after the 21 days it's gone? Okay. No, thank you for that. My second question is I'm interested in hearing more about our data sharing with other jurisdictions.
+
+[00:43:39] How often are we sharing data with other jurisdictions? What percentage of our cases involve sharing of data? And then if you can help me understand, when we agree to share data with other jurisdictions, what level of access do those jurisdictions have to our data and our systems, and how are we regulating that access?
+
+[00:44:06] The data sharing is all controlled by state code. So Virginia passed a law, became effective July 1, 2025, that said all Virginia agencies who want to use license plate readers must comply with Virginia Code Section 2.2-5517.
+
+[00:44:21] It's monitored quarterly and annually. If you want to run a license plate reader program in the state of Virginia's law enforcement agency, you need to comply with the code section which states you can only use the license plate reader system for certain offenses which are outlined within the code section. It has to be a Virginia code violation. You cannot share the data with federal agencies. You can, however, get court orders of which you might have to comply with. The other thing is that you cannot share the data outside the Commonwealth of Virginia. For us in northern
+
+[00:45:01] Virginia, it makes it very restrictive because we often see crimes tied to Maryland, the district, And before, we were able to share that license plate reader data between those jurisdictions. Now we cannot. However, we came in compliance with the state code, obviously.
+
+[00:45:18] And so we deal with that restriction. So there are several variations of how departments run their programs. But the one thing that is constant between all of them is we all have to comply with the code section 2.2-5517.
+
+[00:45:36] And in that, you cannot run searches for things like immigration enforcement. It has to be a Virginia code violation. The other thing that the vendors did during that time was force the compliance into the user. So they make it when you run a search now. When you go, you have to fill out a drop-down box that says the code violation of which you are searching.
+
+[00:45:58] And then you have to enter the case or event number, which is required by the state code. A lot of that state code is modeled after what we are already doing here in Fairfax County. really the only change we had to make was produce a public-facing general order and reduce our retention period by nine days. Okay. I'll have a little follow-up here. In the most recent Virginia Crime Commission reports, they reported that some Virginia law enforcement agencies are not using
+
+[00:46:30] ALPR in accordance with this new state statute. Do we know who those agencies are that are not in compliance, and how do we ensure those agencies are responsibly handling the data that we share?
+
+[00:46:49] Thank you. We've sent a letter to the Virginia Crime Commission asking the very same question that you have, sir. We would like to know the agencies that they report are not compliant with the code section. However, I also asked in that letter that Chief Davis authored to the Virginia Crime Commission that we add a part to that to make it so that when agencies are filling out these surveys, it is more clear to understand what is being asked and what you are answering. I myself have filled out those surveys and can say that it's a little bit incomplete. The questions are a little bit incomplete. They're a little bit
+
+[00:47:28] vague. It makes it difficult for an agency who maybe doesn't have the ability to have a subject matter expert full-time on this fill out a survey with some questions that may be a little bit difficult to understand if you don't do this full-time at the pace we do it here in Fairfax County. Okay, thank you. Chairman, we have not received a response. I think that's important tonight. Okay, I appreciate that you've asked the question and you can share with us once you've gotten that answer. Regarding your option number three, is it right that if we choose
+
+[00:48:01] not to share our data with other jurisdictions then do they not share their data with us first and then second how would that system work exactly just so I understand if we go with option three yeah option three would make it so that we would not share our data outside of Fairfax County however if other departments in Virginia wanted to share their data with us they could however you would have to think that if we're going to take that step they may also take the same step that is going to severely limit our ability to solve crimes. To not think right now that there is a
+
+[00:48:39] criminal network or a group of bad guys watching this, getting ready to plan their next move based on what we say here would be short sight of us to think that. There are people ready to act on what we say here. And so because of that, we want to make sure we make the best decision and options moving forward for public safety in Fairfax County. The option number three, though, allows us to consolidate, reevaluate, and then in a year come back to see what the results of that year have been. Okay, and then just a couple more. How is the crime data trending this year across the
+
+[00:49:19] county for crimes that FLOC typically is assisting us with? We have looked at several locations where we have FLOC safety cameras. The highest concentration of our cameras are at major shopping centers, Tyson's Corner Center, Springfield Town Center, and Fair Oaks Mall. In all three of those locations, since we have put in place license plate readers, there has been a drop in both calls for service and crime. And I can say specifically that when we publicize our wins at some of those
+
+[00:49:55] locations, you see a drastic drop soon after. It used to be that we would get stolen vehicle alerts coming into some of those shopping centers on a daily basis. That doesn't occur anymore, and we believe it's because people know that the cameras are there.
+
+[00:50:12] So not only are they acting to solve crime in the moment, they're acting as a deterrent as well. Chairman, the danger, I think I presented the 2025 crime report back in April, and to say we had a Super Bowl year in 2025 is not an understatement.
+
+[00:50:29] The only danger in winning the Super Bowl is you've got to do it again. So we're pleasantly surprised and proud of the technology insertion because in 2026, so far, and it's almost over, we're having another one of those years.
+
+[00:50:44] And the significant reductions in crime around the circumferences of Tyson's and Springfield and Fair Oaks is a big driver of that. Okay. No, no. Appreciate that. And then my last question is, there's 120 private cameras in Fairfax County.
+
+[00:51:03] How many of those does the Fairfax County Police Department have access to? And then can you explain how that relationship works? There are 120 that we have access to. That varies day to day because sometimes a new business will install some.
+
+[00:51:19] Sometimes they'll take them away. There may be more than that that we don't know about because we don't have access to them. The sharing of that data with the Fairfax County Police Department is not mandatory by the person who purchases that camera. Again, those are privately owned cameras.
+
+[00:51:36] They're on private property, and they're collecting data that's owned by that private owner. They can choose to share that data with whoever they would like. If they would like to share it with the Fairfax County Police Department, then we can access that data, and it does help in several cases.
+
+[00:51:53] So with that, I'll just quickly say, you know, I believe that we should continue into our next steps and evaluating and changing possibly our policies and procedures to ensure that we remain on the leading edge.
+
+[00:52:10] I'm very interested in this data retention timeline, and I heard you very clearly on how we arrived at the number that we have today. But I certainly think we could relook at that and determine if there's a shorter period.
+
+[00:52:26] I think it wouldn't hurt even for us to continue looking at the number of cameras that we have and evaluating the number of officers who are accessing this system as well. And I'll say I just really appreciate what the police department has done in making sure that our system has got the necessary barriers and protections.
+
+[00:52:53] I don't feel that same way about the vendor again. I think I'm still struggling here with how we should evaluate the FLOC technology as it relates to the concerns that we're hearing from the community.
+
+[00:53:11] and we have to ensure that we're doing everything for those policies to be appropriately managed and controlled. And I'll say I look forward to continuing to be a part of this discussion on this issue.
+
+[00:53:29] And with that, I will turn it over now to the chairman for his questions, and I will recognize my colleagues, starting with Mr. Bierman on the far end. Thank you. Thank you for the presentation and, you know, when I brought the board matter forward to have this conversation, this is exactly what we need to be doing because as I know all of you acknowledge, there are concerns, not just here in our community, but nationwide about these programs.
+
+[00:53:57] And so being able to lay out what we do, why we do it, how we do it is really important, not just for us as a board, but it's really important for our entire community to hear and to critique and give us feedback and ideas as well. i have a couple of quick questions and i say quick because i do think they're they're quick answers and i'm going to start with the example you gave us of the person standing or person who has a camera out on their property and the fact that we can ask for access to that information but they own that information so they can do whatever they want with it i just want to get a confirmation
+
+[00:54:35] that in no circumstances do our police officers ever ask the owners of those private cameras to share that information with anyone else. In other words, if they have it, we see it, we can't share it with another law enforcement agency or federal agency, under no circumstance do we ever suggest that the owner of one of those private cameras do that. That's correct. Our officers know our policies very well not just the alpr policy and the state code but the fairfax county trust policy that has been part of all of our programs not just license plate readers but
+
+[00:55:13] department-wide in information sharing it's in our general orders they know that and this system again is very regulated but our officers don't work in conjunction with federal agencies to say you should go look here you should go look there just because they know a license plate reader camera might be there that does not happen okay and two we saw you know in drainsville where the cameras are you you can see where they are it's very clear at the real-time crime center I guess my question is how often do we look at where the ones we control are located I understand their strict
+
+[00:55:49] criteria that we use for placing them but help us understand as a community how often those move or don't move? We look at the camera locations annually, and that goes by the budget to see what our budget's going to be for the year, if we will be able to remove, add, or just move cameras that we have. And so we get with the district commanders at each district station, we get their input on where their cameras currently are. And we haven't added a camera for over a year, and so we haven't had to add any locations in over a year. But we get the input
+
+[00:56:26] it from some of the commanders said, well, I'd like to move this one from here to here. We're seeing this trend, this crime occur here. And so we look at it and we literally pull up a heat map of crime in their district. And we talk about the crime that's occurring specifically at those locations because of the national conversation that's occurring. I would say that this year we've looked at it much more than just annually. It's probably been looked at almost every month to see the different crime that's occurring, what the cameras are doing. We get asked a lot of questions about each location and we try to provide some feedback on what that camera has done
+
+[00:57:02] and justify why it is there. Okay and I appreciate you walking us through the audit process but I just want to clarify one thing because you mentioned the AI tool. There is also human verification throughout the audit process. We're not relying on that alone. I guess question one And question two, remind us the frequency of the auditing and if there are artificial triggers that would compel you to do an audit out of turn more frequently.
+
+[00:57:35] Yes, so there is a human component to the audit. So 100% of the searches are reviewed with the human eye first. We have a team of five with a supervisor who turns in monthly their audits to me for final review and approval. then I go back in and spot check all of the audits. The human audit looks at everything from who's this detective or officer? Why are they conducting the search? Why is it being conducted at this time? What are they looking for? Does it make sense that this officer would conduct a search for this crime reason? And then if there are questions, they can go and verify that through
+
+[00:58:13] the case number by pulling up reports, by pulling up calls for service and verifying does that license plate or does this search reason fit with the crime that they say they were searching for? Then, separately, an AI audit tool goes in and flags for some of those reasons I mentioned earlier. All of those that get flagged are then audited again. And so every single one that is flagged then has to be audited by our team with a justification put for why it flagged it. And then we even sometimes have to reach out to the officer to say, why did you conduct this search? They have
+
+[00:58:49] to bring forward the information on why they conducted the search. So it goes under 100% human review, 100% audit tool review. Those that get flagged then get looked at again. That is compiled monthly. It is brought to me from the supervisor. Sometimes we'll meet as the entire team. We go through the audit. We talk and see if there's any trends or patterns that we are seeing that we need to identify. And then we submit the audit. The state law compels us to do it monthly. However, the audit is almost nonstop for us. When the team gets to work during their
+
+[00:59:24] day, they start doing the audit. They've split it up by team and they are continually running the audit. If something gets flagged, it's done immediately. And so if that AI audit tool sees something that is suspicious, it lets us know immediately that, hey, this needs review. And then we put it under a complete review. Okay. And two other quick ones. One, the retention 21-day retention standard that's Commonwealth of Virginia. We know everyone uses that. Are you aware of any police departments or law enforcement agencies in Virginia that have a lower retention
+
+[01:00:02] period? And I would presume under the code section, 21 days is the ceiling. So you could adopt anything below the 21 days. You just could not retain above the 21 days. Is that correct? And are we aware of any Virginia public safety agencies that adhere to a lower time period? Yeah, so you are correct sir. I'm not aware of any, but I would suspect that there are some that have lower retention periods. The 21 days for us, again, we're Fairfax County, we're the largest police jurisdiction in the state of Virginia. We solve a lot of crime with our license plate readers. That
+
+[01:00:39] 21 days gives us the time to get that information to be able to solve that. However, we are very aware that the limit is 21 days. Yeah, I don't have any doubt why we are using 21 days. But I do think as a follow-up to us, I think it would be good to see in Virginia if we can do some research and figure out if other jurisdictions are holding a lower retention period, what those jurisdictions are.
+
+[01:01:04] And then, of course, we can do a technical comparison of, you know, how they relate to Fairfax County in size and complexity. It's just a curiosity, a follow-up question. And then my final one is, with my board matter, of course, we had the letter addressed to Flock, raising a lot of concerns and questions that this board has.
+
+[01:01:23] We now have received their response. I guess, is there anything, and I share some of the same challenges with this particular vendor, but not to pick on this one particular vendor at this moment, you've seen the response. is there anything in the response that gives us pause, number one? And number two, now that we have received that response, is that publicly posted somewhere so that people in the general public can also see, at least initially, what the responses were from that vendor to the questions that the board raised? So that is publicly posted. It was publicly posted along with this
+
+[01:02:02] presentation so that anyone can read it. We are very aware of some of the things dealing with the vendor. However, as the police department, we look at the specific tool and will that tool be able to be used responsibly and effectively in Fairfax County. And that's what we did in this case. We understand the conversation that's occurring nationwide. However, when you look at some of these different tools that are out there in different vendors, a lot of them are the same tool doing the same thing, but a different name on the side of the camera. And so we are very
+
+[01:02:37] careful to choose a vendor based on things that maybe their their CEO leadership said because that could easily be another vendor the next day we evaluate the tool and its effectiveness yeah no I appreciate that and I want the public to know those answers are out there and review them again not to to pick on this one vendor but obviously we want to make sure their tool matches what our requirements are but I also think we can't ignore the national reputation that some vendors have over others, fairly or unfairly. I think the fact is there's
+
+[01:03:13] been some suspicions and some concerns raised with this specific one that are real. And they may be related to the vendor. They may be more related to the way the police departments in those jurisdictions are using the technology and whether or not they have some of the guardrails in place that we have. So I realize that's a very gray area. But I think we also have to just be conscious of the fact that there are some national concerns with that particular vendor that we take to heart as well. But thank you for the presentation. Appreciate it. Okay. Thank you, Mr. Chairman.
+
+[01:03:45] Let me now move to my colleagues, starting with Supervisor Bierman, and I will work up the rail. Thank you, Mr. Chairman. Approximately how many images are captured by our 84 FLOC cameras in a month? I'll get that number to you, but it is a lot. Do we utilize FLOC OS or FLOC OS notebook, which are FLOC's integrated AI investigation tools?
+
+[01:04:12] The FLOC OS, the only part of that that is used is the map, which you saw was up earlier showing the McLean Police District. That is the only part of FLOC OS. We don't have the other parts of it which you are describing. How many times is a typical FLOC single license plate search run throughout the course of an investigation?
+
+[01:04:32] Could you ask that again? Sorry. How many times would a typical FLOC single license plate search be run throughout the course of an investigation? It can vary. If you're talking about how often a vehicle tag could be run through the Flock Safety System for a specific search, it really depends.
+
+[01:04:52] Number one, it will depend on do we know what the exact tag is from the beginning. One thing is you may have partial tags or partial characters or partial descriptions. And so you could start your investigation. So if you have a single case number and say you need to run that tag several times to get to the suspect or the suspect vehicle, the full information of that vehicle, it could be a lot.
+
+[01:05:18] So do we use Flock cameras to develop a pattern of life profile of certain cars? Pattern of life is a terminology that's been used by Flock itself to describe how its technology works. No, so we use Flock safety cameras to know if a vehicle was at a certain point at a certain time.
+
+[01:05:39] So you're saying that we don't utilize the tools that FLOC has. But then I have a follow-up question, which is when we share our data with another FLOC user, like, say, Prince William County or City of Richmond, and they go in and they're looking at our data, but they do use those tools, are they able to sit in Richmond and look at our data?
+
+[01:06:07] Everyone in Virginia has to follow the same state code, which is 2.2-5517, for how they use license plate readers. When you say develop a pattern, you could infer that if there is a vehicle that passes by the same flock safety license plate reader at the same time every single day, and you found that when you ran the search, you could say that likely it will run by that same camera the next day, possibly.
+
+[01:06:33] But you can't do that to then develop the pattern of life, as you said. And we teach that here in Fairfax County, understanding that other jurisdictions, as the concern you raised, may have different ways in which they conduct investigations, different tools that they use.
+
+[01:06:51] And so could they put all of that together to say that, yes, this person passed by camera one, then by camera two, and then by camera three every single day? Sure. You could put that together because that's the data that's in front of you. So I will beat up on Flock for a moment here because Flock OS is a tool.
+
+[01:07:11] It's an AI investigator-led AI tool, Flock OS. Flock OS can aggregate and synthesize information from data sources the customer is already authorized to access and use, including the customer's Flock data and connected third-party sources.
+
+[01:07:29] There was an article on Wired.com talking about this tool and how when you are integrating using AI, all of these data sources, you actually were able to track individuals and not just cars.
+
+[01:07:45] What's really interesting is that what I just read to you was not from Floch's letter back to us, where we cited that exact article and asked about AI search tools. What I just read to you was from Flock's letter back to Senator Hawley, who asked the same question in the Senate.
+
+[01:08:05] I mean, look, he does happen to live in Fairfax County, but, you know, I don't like that. I don't like that then Flock, on the other hand, when they responded, all they wanted to talk about was LPR machine learning or freeform search when we were asking the very questions about AI searches.
+
+[01:08:26] And look, sir, actually everyone on that side of the table, I really, really appreciate the degree to which you have tried to get a handle on this and you've put in place various guardrails.
+
+[01:08:41] I appreciate the auditing, but what I am struggling with is that there are other police departments around the country who thought that they had guardrails in place and who nevertheless, like in California, Mountain View, California also has laws, found out later that there were back doors into their systems being used by other people.
+
+[01:09:05] And so if we're talking about our 84 cameras that are seeing people in our area and the back door that could be used by someone who is engaged in bad stuff, who's from a different place, that really concerns me.
+
+[01:09:23] And it concerns me that we are working with a vendor that, frankly, they care when it hits their bottom line. For many years, they didn't care. And so I appreciate that they're starting to make waves to care, but it's not a good situation.
+
+[01:09:42] I also want to go back to where we started with this whole thing. Sorry, not this whole thing, this hearing, which of course was a quote from Jack Webb. Jack Webb, of course, was on a show called Dragnet. I think a lot of people are pretty concerned about the flock system and the Dragnet that is created.
+
+[01:10:01] And the quote you said was from 1968. I can't help it as an attorney here. You know, 1968, it takes me back to 1967, which was Katz v. United States, which was a case that said the underlying principle of the Fourth Amendment was that it protects people, not places.
+
+[01:10:23] And Katz v. United States was about your reasonable expectation of privacy. Now, the basis of believing that ALPRs are consistent with the Fourth Amendment has typically been linked to a case called United States v. Knott's. United States v. Knott's was a 1983 case in which a beeper was put into a single car. And in that case, the court said that you have no reasonable expectation of privacy in your movements down the public street. Now, the people
+
+[01:10:59] were challenging that as a Fourth Amendment search. They said, but that could lead to, again, dragnet style policing. And in fact, the court said, no, that's not a big deal. We're just talking about a beeper on a car. And it said in the court, the court addressed the concern. They said, but the fact is that reality hardly suggests abuse. If such dragnet type law enforcement practices as respondent envisions should eventually occur, there will be time enough for us to, time enough then to determine whether different constitutional principles may be
+
+[01:11:34] applicable. So that was 1983. The interesting thing is that, yes, there are a lot of cases that have found that ALPR is constitutional, but there was a case that was just decided this summer, Chattery v. United States. And I'm sorry to take you all down a constitutional rabbit hole, but I have to do this. So Chattery v. United States was about cell site location data. And what's
+
+[01:12:05] interesting about that. Chattery v. United States found a reasonable expectation of privacy in a geofence warrant for your cell phone location data, even when it was capturing you when you were in public. It was actually about a bank robbery in Midlothian, Virginia. It went to the Fourth Circuit. And the argument that was made by people who said it wasn't a Fourth Amendment search was that you just don't have any reasonable expectation of privacy in public. In fact, the dissent from Justice Coney Barrett, said, I agree with Justice Alito that under our Fourth Circuit
+
+[01:12:41] precedent, including Carpenter, that's another case about cell phone, Chattery had no reasonable expectation of privacy in data about his public movements that he voluntarily disclosed to Google. But the court nevertheless found that you needed a Fourth Amendment, you needed a warrant to get that information. Look, I bring that all up because a court just in Oklahoma, it's probably the first court in the country did find that an ALPR search needed a warrant. And I also bring up the warrant aspect because the truth is that all of this is done, all this searching is done without a warrant,
+
+[01:13:19] but frankly, a lot of it could be done with a warrant. And actually, there's model legislation out there saying, don't necessarily knock down all the cameras, but put in place warrant requirements because you need to protect people's Fourth Amendment rights. And these cases, I think, are pretty instructive. And, you know, I'm reading this case from Oklahoma. This is a which I think reveals what I think a lot of people are concerned about. To be sure, ALPR technology does not provide the same precision and location as information as cell phones. But it still could reveal a lot about a person's whereabouts. It's easy to imagine the kinds of sensitive information
+
+[01:13:57] it collects. It could track and log a couple struggling to start a family at the fertility clinic. It could show how often someone visits a liquor store or a casino. Well, not in Tyson's, but still. It could show which doctor someone goes to or what lawyer's office someone visits.
+
+[01:14:14] It also collects mundane information about people's commutes, but it collects a tremendous amount of such information all the time. I really think that's what people are worried about, And I think that's why there has been backlash against this technology. And while the courts have not yet caught up, I do think we have an opportunity to potentially be ready for the courts to catch up.
+
+[01:14:38] I will close, and I'm sorry I talked so long, but I will close only with pointing out one thing, which is I don't doubt that there are potential law enforcement benefits to this technology. But I want to note, I went back and I watched the May 20th, 2025 safety and security meeting, which was in part about shoplifting at Tyson's.
+
+[01:14:57] It was in the crime data. And Chief Davis, you did say flock is a contributing factor in that. And you said you thought that was helping us with retail crime. But you also said the retail community and Tyson's compete with each other to solve the most number of crimes.
+
+[01:15:13] And they're much more proactive. And you said that was a benefit. and Assistant Chief Blakely said the additional layers of permanent police officers assigned to that district on a daily basis, it's kind of like old school community policing. Everyone gets to know each other for smell your faces in a really tight concentrated area. You talked about the good stuff that the TUT team is doing to connect with the community. And I just worry that if we continue down this road of working with a company like Flock, those types of interactions, those connections with the community do actually break down and there's a negative effect to that and so thank
+
+[01:15:50] you for listening thanks thank you very much supervisor bierman uh supervisor jimenez thank you mr chairman yeah mr bierman you still got to go to maryland if you want to go to the sphere but to um get back to this topic i just have three quick questions and thank you all for for your presentation and for being here today. One is, Major Bull, you mentioned that majors can no longer use this information or the system, correct? I'm sorry, can you repeat the question,
+
+[01:16:25] sir? You mentioned earlier that to jump into the flock system as a police officer, you can't be above major. Yeah, the ring of deputy chief or above, we removed all their access from the flock safety system for majors who are generally in charge of our police district stations they still have the ability to go into the flock safety system I am the only major that is not allowed to conduct a search and that is because I oversee the program right and our audits do you still have to go through the training yeah I've helped develop the training yeah I'm just wondering if we're not using the system but you're still doing the training yes
+
+[01:17:05] sir. Okay, thank you. You also talked a lot about how private owners can sell the data to anyone, so that means they can sell it to ICE? So we do not control what private people do. So I can go to ICE. So I can go to ICE, okay. In the three options you laid out in front of us, I think there was one option that I didn't see, and that option is no ALPR systems at all. Is that something that moving forward is laid out on the table or is that an option that, well, I
+
+[01:17:42] guess it's not an option. Tom Arnold, Deputy County Executive. Supervisor Jimenez, we put the presentation together with the recommendations that we thought were best for the community to keep the community safe and we provided that to you. Obviously, the board can take whatever action that you would like, so if you came back with another alternative to what we presented, we will certainly adhere to that. Okay, thank you, sir. Thank you, Supervisor Jimenez.
+
+[01:18:08] Supervisor Palcic. Thank you, Mr. Chairman. Thank you, Major Bull and Chief. So, you know, Supervisor Brewer and I have very different styles and different trainings and backgrounds, but I think we're trying to get to a similar place, is that we all care, and you said it, right? We care about the security and the safety of our community, right? My major concerns are not about what FCPD is doing and has done to protect that. My major concern, and unfortunately some of this brings me back to the discussions we had around the trust policy about, what, eight years
+
+[01:18:43] ago or so. And there was pushback, right? And we had to find compromises, understand what it meant to get judicial search warrants. I think we all know about them today. And I guess in my more social science training, as I look through this evidence, I have questions, and those are around proving the null hypothesis, right? So when you have an experiment where you're trying to show causation, you have to prove the lack of it, right? And I know we have some testimony and
+
+[01:19:20] you have some examples, but I feel that there's still so much more information, the trust but verify, right? There's so much more information that is missing, so it doesn't feel like honestly a propaganda campaign, right? I think we're all trying to get to how do we keep our community safe. And at a time where I see news articles of concerns of, you know, our commander in chief trying to overturn elections, I come from a country where there were those concerns, right?
+
+[01:19:48] I understand most of us here have not had to live in that. And so I think we all care about the security and safety and the trust, right, that our community has. That's why we have our trust policy, the trust that our community has in public safety, in our police officers, when we know we can't control what is happening at other levels of government and policing. And so I think my questions are that there's still things that haven't been answered, right? You've talked about when it works, right? Or who's using Flock or what commercial centers are using it or what police
+
+[01:20:26] departments are using it. What I haven't seen and what I find to be really helpful in a policy discussion which is why i don't think we're really ready to end that discussion today is um what else what is the note what what happens when there are commercial centers who are using other technology are there commercial centers in the county currently using private video technology and sharing that with the police department are you talking about outside license plate readers or are you talking about so my understanding you know i'll point at mosaic because it publicly shared that it ended its contract with flock correct and i believe they are looking at other
+
+[01:21:04] contracts, and I believe they are continuing their relationship with the police department. So rather than trying to prove that FLOC is the only way, I really want us to look at the evidence, and I believe they're not the only property owner that is concerned about public sentiment and trust, right, in their community and has looked at other options. And what I'm concerned about is that all of that is missing here in this information. So Chief. Supervisor Palachek, thank you, first of all.
+
+[01:21:32] If there's any missing pieces or gaps in our presentation, we're more than happy to do whatever follow-up is necessary. You know, the more specific we can get from you or the rest of the board about things that we may be missing in this presentation, we will gladly go back and seek those answers.
+
+[01:21:51] One of the things that we're most proud of over the last 24 months is a program that we started called Connect Fairfax County. and that gives the residential community, the business community, the ability to share their cameras with us, either some of the time or all the time, if they so choose to do so. And we've been very fortunate to use that to solve crimes. So again, if there's any gaps in the presentation, I'm sorry if their perception is there are gaps, we'll go back and do more work. I think it's
+
+[01:22:27] probably playing this technology explosion in America is happening faster than the ability to litigate it. And I know we're not going to litigate it in this room. That's probably not the appropriate place, but I get it. We get it. And we're just continuing to be thoughtful about it because we want Fairfax County to be the leader. We think we already are, but we want to be thoughtful. And if we're missing any pieces in the presentation, we're more than happy to go back can fill in those gaps. Well, I appreciate that because I do think we're missing quite a few pieces, right? I understand. I feel like we're looking at it from one very sort of minute angle
+
+[01:23:02] and for yours is the how can we be the most effective public safety department, right? But I think as we look at the broader community, right, and the trust, I've had conversations with some communities that are struggling to decide whether or not to put them in their community and I'm not sure that you're hearing from those community members who have their concerns, right? I think there's a lot, right? If we brought in a Mason researcher that would say there's quite a bit missing here, right, for us to make a more informed decision, right? Yeah, so Supervisor Pouchet, respectfully, I have police chief colleagues all around the country. They routinely
+
+[01:23:36] come to us to get information about our program because we have the reputation for having the most detail, the most specificity, the best policies, the best auditing. So I understand that sentiment. I can just tell you that within the law enforcement community, we're still seen as the leader in this regard. And that's why we took so many steps to meet with you all individually and your staffs. And Major Bull is a modest person, but he has met with advocates, contrarians. We'll bring them in a real-time crime center. I'm not disagreeing with you,
+
+[01:24:12] Chief. I appreciate what you shared. It's more for me. This is not my subject area. Any specific questions, we will go out and get those answers. I will, because I do think we don't have them. We don't have those here. Like very basic things, you know, do we have the number of cases?
+
+[01:24:28] When we're talking about 21 days, I don't, you know, I'm hearing you say why we're looking at 21 days. I know I've heard conversations the state is looking at lowering that limit. So we may be forced to look at that if we continue with this program. And so do we have the number of cases, the number of days we've had to go back for all of the cases that have been studied?
+
+[01:24:46] I assume you have that data. So, we don't record the number of days at which the retention period started and which ended for the data. However, we do keep extensive data on the over 1,600 cases and this is just the one-page sheet that we keep on every single case. So, we look at things for the cases that we do solve or where we use license plate readers and it had some type of effect on the case to the date and time, the location of the camera, what information for the person that was arrested or the suspect that was gleaned from the information, the arrest charges, all the way down to the details of the case.
+
+[01:25:22] So you could go into the over 1,600 cases that have used license plate readers over the four years, and you could read every detail about that case, and it's all tied to a case number, so you go into the case and read specifically about that entire case. Okay.
+
+[01:25:37] I will follow up with questions, because knowing you have that data, I think there are some questions that would help us make a better informed decision about, number one, in this country it's about privacy right absolutely number one right and no thank you um just to me that's the big concern right is yes we could be i don't know in england and have cameras everywhere and and have that lack of privacy but that's not where we are and so i think it is upon us to ensure that in order to maximize safety we are also continuing to protect privacy because god forbid right we have
+
+[01:26:16] a very different police department or other agencies that we we don't control we know at the federal level there are concerns and so i think i just i don't want this to be taken personally it's not it's not so i mean we look forward to your questions and we'll get to work on them right away i just recall you know i was a police chief back in 2015 when american law enforcement agencies were having the body-worn camera uh conversation i'm proud to be a pioneer in that And I remember privacy concerns that came up with that while people wanted to see what the police were doing, how we were doing it, we were being lawful.
+
+[01:26:51] But there were serious concerns about having a body-worn camera on inside someone's home, inside someone's business, inside of a hospital, interacting with the victim. So I know these are difficult conversations with multiple layers, and we are proud to continue to have those conversations and get you greater specific.
+
+[01:27:10] To me, that's what today is. You know, I go back to the process we went through. I was still on the school board when we were looking at the trust policy, right? And there was a lot of pushback from your predecessors on having that conversation. But I think in the end, we came to a policy that we're all very proud of, right? And I want us to get there.
+
+[01:27:26] I want us to get there with how we use technology in a time that it is changing so quickly, so rapidly. And so I appreciate that, and I do think we need a further conversation on that. Thank you. Thank you. Thank you, Supervisor Palchek, Supervisor Sizemore Heiser. So, what I want to start with is saying two things can be true at once, right?
+
+[01:27:50] I think you all can do your best in this rapidly changing environment to put all the safeguards you've discussed in place, and privacy concerns can outweigh the best safeguards that we have because of privacy concerns, the concerns with FLOC, the contracts.
+
+[01:28:10] I read somewhere that the vendor's actually a third-party vendor insight public sector, not FLOC. Is that a pass-through for FLOC? Who is InSight? What are their security measures? And if that's not true, let me know. But that's something I'd read. That's just, it's a purchasing vehicle that we are only working with FLOC.
+
+[01:28:27] Like many contracts that we ride throughout the county, it is simply a procurement mechanism. They have no ties to anything that we're doing. But that's the kind of thing I would just say, like, listen, no one is doubting that technology like this can help with crimes.
+
+[01:28:43] No one is doubting that. Honestly, I'm not. So I don't know if the presentation that focused primarily on that is addressing the concerns that we're hearing, to be perfectly honest, right? Like, if you feel this is a great tool that you want to continue using, the first thing we need to do is address the concerns.
+
+[01:29:08] So I don't think people are arguing about the ability to solve crimes with this. That's my first conversation I'll make. I would love on slide about the impact on Tyson's Corner to get the raw numbers, not just the percentages, because it talks about the calls for service percentage decrease, but what does the raw number change?
+
+[01:29:31] That would be a helpful piece of data to understand as well. And I did watch the 2025, the one that my colleague referenced as well. And so I would love to know how, I mean, you're saying the calls for service are down because people know cameras are there, so therefore not going, right?
+
+[01:29:46] And I think I understand that point, but I also wonder who's not going because they're afraid the cameras are there. Who's not going, who's not leaving their house because they're afraid they're there, not because they're going to commit a crime. That does, I mean, since the beginning of our country, since the beginning of our country, the time that between privacy and security was a challenge.
+
+[01:30:14] That's why the Fourth Amendment is there. And so I think we owe it to our community to ask those questions and answer those questions. Because I think that's how we know that we're finding the right balance here. Because it's always a balance. I think you guys do incredible work.
+
+[01:30:30] I really do. And I think you have done incredible work in putting these security safeguards. But I want to be able to address the community's concerns. And I don't really see that as much in this presentation. So I'm going to ask some questions around some of my questions. And hopefully you have answers today. I appreciate the answer about Insight and hope you have others.
+
+[01:30:47] But I have five concerns or questions. The first is around privacy and Fourth Amendment. And I think my fellow legal colleague did a good job, so I'm not going to go down that path. It did a good job. But there's the precedent around cell phones from the Supreme Court specifically talked about Fourth Amendment right to privacy in public spaces.
+
+[01:31:09] I have concerns about stalking. I just do. And I appreciate the safeguards you have internally. But as we've heard, the data isn't closed down internally.
+
+[01:31:25] And even if it was, I don't know how we close it down from hacking. I know that we use AWS. We talked about AWS. I think Major Ferrer talked about AWS. AWS's data retention has a third-party auditing tool as part of its data security measures.
+
+[01:31:45] But they don't release the data from its third-party auditing tools. I would love to know what AWS's third-party auditing tool says about its data retention. I'd love to know what security there is from AWS around hacking. My concern, so that's a concern I have there because I think it's great that we're able to solve crimes more.
+
+[01:32:10] Law enforcement tools, of course, help us solve crimes more, right? And this is a proactive law enforcement tool. I also want to make sure we're protecting people's privacy and ability to be out in the public without fear, and that's the balance. Immigration, I have concerns about immigration, right?
+
+[01:32:27] I think what my colleagues mentioned, the private folks share it with ICE. Is the data secure enough that it's not going to be able to be accessed? I have concerns about the election that my colleague brought up. So the data security concerns are deep for me because we're talking about people's right to privacy, which is a constitutional right, right?
+
+[01:32:49] There's a balancing of rights. And when it's this deep of a constitutional right that's existed for 250 years, I worry about it. I have lots of concerns about the vendor, not just Flock, but ALPR. I was really concerned about the letter we got back from Flock and the section where it talked about the question was about access to data and the answer was about ownership.
+
+[01:33:12] That was really concerning to me because if you're not going to just answer the question that's being asked, what are you hiding? That's not you guys. I get that, right? That's Flock's answers. I totally, that's not, I'm not looking for you to respond to that. I'm not, I don't want to come across that way. I'm just saying that I have vendor concerns and that is one of my many vendor concerns.
+
+[01:33:29] Then they kind of said, well, we don't really access the data except we do access the data when we're using an aggregate to check our systems like what the heck does that mean we're using an aggregate to check our systems but you own the data if there if there isn't some possibility of nefariousness access to their data again this is not you all i appreciate the why would they dance around that question so we see in this day and age crimes against women predominantly women
+
+[01:34:08] sexual assault the clearance rate is low women are afraid domestic violence is mostly affecting women. Stalking is mostly affecting women. Immigrants are afraid. I believe, and I have reason to believe, that a lot of the drop, not all, but a lot of the drop in school enrollment is due to ICE enforcement in immigration. Kids aren't going to school. There was a lot in here that was aimed to tug at our emotions. That also tugs at my emotion. And I don't know the right
+
+[01:34:47] balance. I appreciate, I really do, all the work you guys are doing to try to find that right balance. I truly do. I mean, I have the utmost respect for the work you do. I truly do. This is not an easy thing, I think, for any of us to sit up here and say, we want you to have the tools to be successful.
+
+[01:35:04] But our job here is also to make sure that people have the ability to have their privacy rights, and that's the balance we're trying to find, have concerns. Thank you. Thank you, Supervisor Sizemore Heiser. Next is Supervisor Stewart. Thank you, Mr. Chairman, and I thank you very much for the presentation.
+
+[01:35:23] I share a lot of the concerns about FLOC, and I'm going to put that over here because the core focus for me is the trust that I have and the individuals who we've hired to ensure that what this county does is done with the greatest respect for privacy and obviously in accordance with our own rules, laws, regulations, and trust policies.
+
+[01:35:46] And I think FCPD has done that, and I'm greatly appreciative. I've spent a great deal of time talking to Major Bull as well as many others about what we're doing and how that technology can support and make a huge difference in our lives.
+
+[01:36:03] And I can assure you that it has done just that, at least in the Mount Vernon district, in a number of ways. I've seen that difference. I've seen the kidnappings that were aborted or changed, the guns that have been taken, the folks that have sped off and down Richmond Highway trying to cross the bridge to get away.
+
+[01:36:24] Those folks are only being caught. So there are those real issues, and I know those are things that I think for all of us are meaningful because in the end, my number one job is public safety and to do that in a way that doesn't devalue our Fourth Amendment and the privacy rights that we all have.
+
+[01:36:42] So for me, it's about using technology in the appropriate way and ensuring that we do it cautiously and ensure that we respect individual rights in that process. So I'm going to say, in my experience, and I've had this conversation for now many, many years about FLOC, I don't think the core issue is the FCPD part of the FLOC.
+
+[01:37:06] I think the core issue is the other FLOC, quote-unquote FLOC cameras, or other cameras that are out there. So those are issues that I think maybe as a county we need to look at, and maybe better yet as a state, need to look at and have some parameters or restrictions put around those, because I think those are really the bigger challenge that we have, not necessarily our 21-day limit.
+
+[01:37:31] These are real issues in our community. Again, you cannot imagine being more frustrated and to see a robbery or to see, in the most recent cases a number of younger people stealing multiple cars mostly in the southeastern part of the county not limited to one district and that going on for months and the team that you put together and the team that and the tools that they use and their ability to only catch those
+
+[01:38:06] well I'll say kids because they were from about 18 to 25 or so years of age and some residents some not residents of the area. I don't know how else you automatically resolve that. Yes, you might get lucky, and yes, you might have the resources, but in the end, the difference that it made in my communities was real, and I can't tell you how many people were appreciative of the efforts, and I know it takes all the above. You have to do it in a respectful, privacy-oriented
+
+[01:38:40] way, but in the end, that technology and our knowledge is evolving, and we, you know, we can't be Luddites about it. We have to recognize that there's roles there for all that. I think back to the body-worn camera. Chief, you mentioned that. I know we had a number of discussions about body-worn cameras. I mean, and I, again, I was one of those people that was supportive. In fact, Mount Vernon Police Station was one of the pilots for it, and I wanted it, if for no other reason, because I was convinced and I'm still convinced and I think it's been proven that what we would find from that is
+
+[01:39:13] not so much what a police officer was doing wrong but how they were being confronted and frankly abused or really harmed by some of the our own residents and and if you will shining back a light on some of the individual behaviors that police officers have to put up with and I know I will say this certain parts of the county have more challenges with that than other parts of the that's not to say that I'm not very frustrated at times with the police in particular a couple situations right now that I'm very unhappy about but but I know that I know that I can trust and work with you and we will find a way to
+
+[01:39:51] it because in the end public safety respect for privacy is crucial now I understand the body one cameras have a 60-day limit if you will you can we can hold the data for 60 days so is that different from the 21 days and and and I know there's the other part of this which is also the state cameras that are a key part of some of our interstate systems and how those interface with those yes so our body-worn cameras and our in-car video is actually all dictated by the library of Virginia so it has to do with the classification of the crime some are as short as 30 days if they're not associated with any type of criminal investigation for instance an officer testing the equipment at the beginning of their
+
+[01:40:30] shift all the way up to I believe a hundred years for serious felony crimes against person but we all follow the library of virginia guidance on that and and you're going to find that's the same uh throughout the common law so if we identified a particular vehicle that was involved with something and we don't have the rest of the story the rest of information we just know that a serious incident occurred when the alpr identified this we would have the right to keep that longer than 21 days similar to what um was just referenced yeah so once that image becomes evidence in a case
+
+[01:41:06] It is then stored per the Library of Virginia Records Retention Act, same as Major Ferrer said. In some of the most serious cases, that could be retained for up to 100 years, but it has to be evidence in a crime. The other thing I would mention is that we've had a number of cold cases that have been solved lately, and 100% closure rate over the last several years and murders that have happened in the county.
+
+[01:41:28] I mean, I'm not explicitly linking that to ALPRs, but I know that it's about focus and having tools to hopefully make a difference. I'm worried about our state law enforcement folks and the tools and the ability they have to sometimes support.
+
+[01:41:46] When people are fleeing down Route 1 and they're crossing that bridge, I have heard this story. I'm asking it as a question. And, Viva, I know that we've had this conversation. Maybe somebody could at least comment, how do we interface with them, and what are we missing, and how can that be better?
+
+[01:42:07] I will say that prior to July 1st, 2025, when we were able to share that license plate reader data in real time with our nearby jurisdictions in Maryland and D.C., we could see that vehicle traveling and give real-time updates over the radio even to our partners in those neighboring jurisdictions.
+
+[01:42:25] Now what we have to do, because that stops in the Commonwealth of Virginia, we have to then reach out to that agency, give them the lookout, and hope that they will then conduct that search. We usually do that through the Real-Time Crime Center. We do that over the radio. We will call Real-Time Crime Center to Real-Time Crime Center and say, we just had a vehicle flee from us involved in this type of crime.
+
+[01:42:46] We have to go through a process. They have to go through a process to conduct the search to see if maybe it's in their jurisdiction. And then the last point and question, really, that I have is, because you referenced earlier about sharing data, and I love the way that we're doing this, and I don't know of any holes in that right now.
+
+[01:43:07] And if somebody has a hole, please share it with me, because I think it seems like to me you've looked for every way to do that. In fact, the conversation we had is about hacking and how you all have had that tested to make sure and minimize that. Can we select who we share our data with to ensure that whoever that is has the same high standards and same degree of capability and focus that we have?
+
+[01:43:35] Yes, we can, and that is why we authored that letter to the Virginia Crime Commission to get answers back from them so that we can make better decisions for our program moving forward. Because that's the part of it that I feel strongly about is if people can't comply with our standards and follow our standards, then I really don't want us to be working with them because I do value people's privacy.
+
+[01:43:57] And the misuse of that data, as we've seen around the country, has a real consequence to individuals. So I think we can do both and look forward to further conversations about it. Thank you. Thank you, Supervisor Sork. Supervisor Alcorn. Thank you, and thank you for letting this go along, Mr. Chairman.
+
+[01:44:13] I realize. Just a few comments quickly. First of all, Supervisor Stork and Reston, when we commit crimes, we walk or take transit. So that's not a license plate thing. Yeah, that's right. No, seriously. You know, there's some things I think that would be helpful for us all to consider as we're talking about this.
+
+[01:44:39] And I think the discussion is very helpful. It's really the development and the implementation of the new AI tools that's taken concerns about these ALPRs to a whole new level. I mean, that's really what's, I think, elevated the concern.
+
+[01:44:55] And we're also using a vendor that has somehow, somehow managed to unite right and left, you know, Ron DeSantos and Greg Abbott and Bernie Sanders, you know, are all, you know, in the same team somehow on this one.
+
+[01:45:11] So we do have, and I think this discussion shows we do have a responsibility as the governing body to thoughtfully consider this and to talk it through. But I think there's also, as we enter this new age of AI, I think we have to make sure that we're avoiding any enabling of a surveillance state and also avoiding any harm to others, not by anything that we would do, but by the data that we collect and could be misused by others.
+
+[01:45:49] You know, and I do continue to have questions about this particular vendor and whether or not, I mean, they don't encrypt their data, you know, the data, it's not on a privately, a private or a closed network, and I'm not convinced they're not misusing it.
+
+[01:46:08] And again, that gets back Supervisor Paul Cech, actually. It's hard to prove the negative. So if I were voting today, and I know we're not voting today, I would vote to end the contract for the ALPR cameras with that vendor.
+
+[01:46:24] But I want to say, in my view, there's an even bigger issue than one controversial vendor. We really need to have a broader community discussion about the goals, about best practices, and the limits of digital law enforcement in the AIH.
+
+[01:46:44] Because that's really where we are. You know, we're now into digital law enforcement in the AI age. And I think we need to bring in folks, you know, not just attorneys, law enforcement and elected officials, but we really need to bring in the broader community, you know, the civil liberties folks.
+
+[01:47:06] You know, we need to have folks from homeowners associations that, you know, use and operate these cameras. We need to have the IT and data specialists as part of this discussion and really do dive into it in a very public way.
+
+[01:47:24] The other thing I'd point out, it needs to not just be us in Fairfax County. I think actually we can in some ways start it, start the discussion here in Fairfax County, but it needs to be regional at a minimum because, you know, you've already noted some of the problems with sharing data outside the Commonwealth of Virginia.
+
+[01:47:43] So we do have a long history of cooperation through COG of working with other jurisdictions. And so I'm thinking about option three. Option three, maybe with a regional emphasis or a regional focus to capture the DMV is probably what we would need to think about.
+
+[01:48:08] But again, only as part, it's my opinion, as a part of a larger discussion of how we do digital law enforcement in the AI age. And watch out for quantum. We have to think about that, too. So thank you.
+
+[01:48:24] Thank you, Supervisor Alcorn. Supervisor Herity. And I'll try to be brief. I'll start by thanking the chief and major. This was a very thorough presentation, and I very, very much appreciated. um you know privacy is a concern um there seems to be a lot of misinformation floating around and i don't often say that you know i share the big brother concern i mean we we have to be very careful about what we do um but at at the same time i mean you mentioned this thing's having
+
+[01:49:01] real impact from mclean and that community member you referenced that confronted the person in our house that started the McLean cameras, he's no longer in Fairfax anymore. And all the way to Mount Vernon. I mean, these things are incredibly effective. I've heard a lot about unanswered questions, but I haven't heard any of those questions that you haven't really answered because they're concerns. They're not questions. And I think there's a difference between concerns
+
+[01:49:35] and questions. I think we all have concerns. You all have concerns. But I'd like to see what those questions are before we move forward. I appreciate you bringing up victims. Every one of those numbers is a victim. We don't often talk about victims enough when we talk about public safety. I don't want any of these people to be a victim, any of my residents to be a victim, and this does stop bad stuff from happening. And, you know, I'm going to go back to, I appreciate the
+
+[01:50:10] body camera discussion, because I think this is right where that was. It's not much different than whether we did body cameras or not do body it was the privacy concern and it really gets to people but early in my time as a supervisor i went out on a ride along with the narcotics unit and i heard something from the the person that was we were trying to get to sell us some drugs and they said yeah i know where to get them but not in fairfax county i don't want to get caught and to hear that made me very proud of what you all do and your point about the bad guys are watching i don't
+
+[01:50:49] don't want to be doing what all these other jurisdictions are doing and pulling out of something that keeps our communities safe. So we got to think long and hard before we make any sudden changes. We may want to evaluate other vendors. I'm open to that. But I don't want to send the bad guys a message that Tyson's Corner and Fair Oaks Mall and all those other places are open for business again. So that's kind of where I am on this. I do appreciate the privacy concerns. I struggle with them, but, you know, I think we need to keep our community safe.
+
+[01:51:29] Thank you, Supervisor Herity. And final questions from Supervisor Smith. I probably have something to say that nobody said yet. I appreciate the details. I appreciate the professionalism of our police force, right? We're going to work to make it right. The difficult time that we're in right now is that there's not trust in the public because of these stories they've read across the country. Um, I've talked to people that feel like they are going to be tracked. I don't know how you explain to them, you're not being tracked, right? Because of these
+
+[01:52:07] stories, because of what they're hearing. And, um, you know, Supervisor Harrity said there's concerns, there's not really answers to some of these questions. And that's the difficult, um, time we're in right now, because the concerns, because of the privacy. And I think that it's important for people to see the details of how this is working and the benefits it provides.
+
+[01:52:35] I just don't have the right answer to get past that fear. And I don't know that there's another answer you can give than what you've given. Because the power of AI, the power of how somebody out there might be using a tool. I think that's what makes this so difficult right now. Thank you. Thank you, Supervisor Smith. And for the conclusion here, I'll let Deputy County Executive Tom Arnold provide a response.
+
+[01:53:03] Thank you, sir. I just think that what we've heard a lot about today is the balancing between safety and privacy. And it's a challenge. And I think the chairman mentioned as well as the brand, recognition, damage, whatever it might be. But as you all know, and I think I've been very proud, as you have over the last five years I've sat here with this team and we come every spring to present the annual crime data, what you've seen for the last five years is that the reduction because of their good work.
+
+[01:53:32] So I think that when you all are watching videos in April of next year and crime goes up, you could watch this meeting again and see why it went up if you end this program, because this would be why it goes up, because we don't have this toll. I think that it's really important that we presented the facts that we have.
+
+[01:53:50] What you heard are a lot of news articles and things that we can't verify that are even true. All we could provide was what was true. But one hard, fast example I'll give you is Supervisor Jimenez's district, who was very adamant and concerned about crime that was going on in Fairmont Village for his communities.
+
+[01:54:09] And oftentimes these are black and brown communities that don't necessarily have the voice that you're hearing. And so Supervisor Jimenez worked with the Mason District Commander to install cameras in Fairmont Gardens, and we've greatly reduced the criminal activity that was going on there.
+
+[01:54:27] And so it's trying to find that balance over the vocal minority versus the silent majority, or where does that exist? And so as time evolves and we see the debate in Congress right now or the government over AI, and do you slow down, do you not slow down?
+
+[01:54:44] I think the one hesitation that we have is this group is so good at going out and finding the new technology that exists out there to begin trying it and using it. And if something would ever come up, they would flag it and make sure you all are aware because you're the ones that have to answer the constituents. And if we build in too many safeguards and stops that limit their ability to utilize it, we just have to buffer that, right?
+
+[01:55:07] I understand what you all were saying, and I also don't hear the complaints that you do, but I think it's a two-way street to make sure they can continue being agile as they have been for the several years to keep watching the reductions in crime that we have to make the community safe and make people want to continue to live here and balancing out both sides of what you're hearing.
+
+[01:55:26] So thanks for your time. Thank you very much. Before we close, I'd just like to note again, thank you to Chief Lieb, Chief, excuse me, Major Bull, Deputy County Executive Arnold, Chief Davis, and the others that are on the side of the table for their work in responding to all the questions that we heard today. So I acknowledge that there are questions that still need answers. So if it be okay chief davis i would recommend that my colleagues send any outstanding questions to you and then what we could do is have you provide a response that then comes back to all of the
+
+[01:56:06] board members so we'll have a list of all the questions and then we'll have a list of their corresponding responses we'll get you a nip out for that we can get we can get you a nip if you want it to be public so however you want us to compile it we can get a nip so it's public or if you want to yeah i think in this case we should follow the budget committee model just so to make sure if you have questions you may get an answer to a question have another one but i think what's really important and i can't emphasize this enough that every board member get the same information back and that's the benefit of the budget q a process and i think we should follow that just to make sure everybody's getting the same information at the same time and has an inability
+
+[01:56:44] to do that. So with that, our public safety security meeting is adjourned at 327. Thank you.
+
+----------------------------------------------------------------------
+Coraggio Consulting · aguyonx.com

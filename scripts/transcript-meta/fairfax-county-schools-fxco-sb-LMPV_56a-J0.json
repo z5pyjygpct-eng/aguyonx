@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-LMPV_56a-J0.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-09-02-fairfax-county-school-board-administration-committee-meeting",
+  "title": "Fairfax County School Board Administration Committee Meeting, Wednesday, September 2, 2026",
+  "shortTitle": "School Board Administration Committee Meeting \u00b7 Sep 2, 2026",
+  "date": "Wednesday, September 2, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "1h 41m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=LMPV_56a-J0"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-26"
+}

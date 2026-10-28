@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4306.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-10-20-fairfax-county-board-of-supervisors-information-technology-committee",
+  "title": "Fairfax County Board of Supervisors Information Technology Committee, Tuesday, October 20, 2026",
+  "shortTitle": "Board of Supervisors Information Technology Committee \u00b7 Oct 20, 2026",
+  "date": "Tuesday, October 20, 2026",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "1h 23m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/4306"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-26"
+}

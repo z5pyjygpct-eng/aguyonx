@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4281.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-10-06-fairfax-county-board-of-supervisors-general-assembly-legislative-work-session",
+  "title": "Fairfax County Board of Supervisors General Assembly Legislative Work Session, Tuesday, October 6, 2026",
+  "shortTitle": "Board of Supervisors General Assembly Legislative Work Session \u00b7 Oct 6, 2026",
+  "date": "Tuesday, October 6, 2026",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "1h 41m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/4281"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-26"
+}
