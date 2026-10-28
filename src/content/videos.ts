@@ -26,7 +26,7 @@ export const VIDEOS: SiteVideo[] = [
     title: "Sharia Creep in Virginia: Salim, Spanberger, Hashmi & the Muslim Brotherhood Blueprint",
     byline: "",
     src: "/videos/aguyonx-sb624-2026-10-27.mp4",
-    poster: "/images/aguyonx-sb624-2026-10-27-poster.jpg",
+    poster: "/images/aguyonx-sb624-2026-10-27-poster2.jpg",
     dek: "SB 624, the Sharia-Free America Caucus, and the article's allegations, labeled as allegations.",
     sourceLabel: "Read the full article",
     sourceUrl: "/articles/sharia-creep-in-virginia-salim-spanberger-hashmi-the-muslim-brotherhood-blueprint",
