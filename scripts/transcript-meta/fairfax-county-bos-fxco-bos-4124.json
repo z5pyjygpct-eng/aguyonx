@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4124.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-04-16-fairfax-county-board-of-supervisors-budget-public-hearing",
+  "title": "Fairfax County Board of Supervisors Budget Public Hearing, Thursday, April 16, 2026",
+  "shortTitle": "Board of Supervisors Budget Public Hearing \u00b7 Apr 16, 2026",
+  "date": "Thursday, April 16, 2026",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "2h 35m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/4124"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-27"
+}

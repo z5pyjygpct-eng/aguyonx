@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-vnQNfcbFMTw.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-03-19-fairfax-county-school-board-swearing-in-ceremony",
+  "title": "Fairfax County School Board Swearing In Ceremony, Thursday, March 19, 2026",
+  "shortTitle": "School Board Swearing In Ceremony \u00b7 Mar 19, 2026",
+  "date": "Thursday, March 19, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "15m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=vnQNfcbFMTw"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-28"
+}

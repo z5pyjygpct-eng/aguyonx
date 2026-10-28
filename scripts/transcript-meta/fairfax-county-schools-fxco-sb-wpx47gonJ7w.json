@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-wpx47gonJ7w.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-03-19-fairfax-county-school-board-meeting",
+  "title": "Fairfax County School Board Meeting, Thursday, March 19, 2026",
+  "shortTitle": "School Board Meeting \u00b7 Mar 19, 2026",
+  "date": "Thursday, March 19, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "4h 19m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=wpx47gonJ7w"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-28"
+}
