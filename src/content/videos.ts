@@ -26,7 +26,7 @@ export const VIDEOS: SiteVideo[] = [
     title: "2026 Democratic Agenda: Conflicts with the Virginia Constitution",
     byline: "",
     src: "/videos/aguyonx-va-constitution-conflicts-2026-10-27.mp4",
-    poster: "/images/aguyonx-va-constitution-conflicts-2026-10-27-poster.jpg",
+    poster: "/images/aguyonx-va-constitution-conflicts-2026-10-27-poster2.jpg",
     dek: "What the investigation finds about the 2026 agenda's conflicts with the Virginia Constitution, and why they matter.",
     sourceLabel: "Read the full investigation",
     sourceUrl: "/files/investigations/2026-dem-va-constitution-conflicts.pdf",
