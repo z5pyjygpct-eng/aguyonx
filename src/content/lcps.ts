@@ -67,6 +67,19 @@ const BOARDDOCS_PUBLIC =
 /** School Board meetings + committees/closed/appeals — CY2025 + 2026 YTD (lean lazy-load). */
 export const LCPS_MEETINGS: LcpsMeeting[] = [
   {
+    id: "2026-10-27-1238582612",
+    vimeoId: "1238582612",
+    title: "4th Tuesday School Board Meeting and FY28 Budget Work Session",
+    dateLabel: "Oct 27, 2026",
+    duration: "7h 14m",
+    playerUrl: "https://player.vimeo.com/video/1238582612?rel=0",
+    boardDocsUrl: BOARDDOCS_PUBLIC,
+    lcpsTvUrl: LCPS_TV,
+    windowsUrl: "/files/find-the-moment/loudoun-lcps/1238582612.json",
+    windowCount: 716,
+    kind: "full_board",
+  },
+  {
     id: "2026-10-26-1239691536",
     vimeoId: "1239691536",
     title: "Student Behavior and Accountability Committee (SBAC)",

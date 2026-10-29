@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-lFA5uoix1oQ.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-01-05-fairfax-county-school-board-audit-committee-meeting-confirmation-of-closed-meeting",
+  "title": "Fairfax County School Board Audit Committee Meeting \u2014 Confirmation of Closed Meeting, Monday, January 5, 2026",
+  "shortTitle": "School Board Audit Committee Meeting \u2014 Confirmation of Closed Meeting \u00b7 Jan 5, 2026",
+  "date": "Monday, January 5, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "1m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=lFA5uoix1oQ"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-28"
+}

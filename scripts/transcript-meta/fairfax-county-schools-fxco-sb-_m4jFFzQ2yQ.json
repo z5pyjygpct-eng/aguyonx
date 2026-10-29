@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-_m4jFFzQ2yQ.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2025-12-15-fairfax-county-school-board-pec-meeting",
+  "title": "Fairfax County School Board PEC Meeting, Monday, December 15, 2025",
+  "shortTitle": "School Board PEC Meeting \u00b7 Dec 15, 2025",
+  "date": "Monday, December 15, 2025",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "39m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=_m4jFFzQ2yQ"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-28"
+}
