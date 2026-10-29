@@ -67,6 +67,20 @@ const BOARDDOCS_PUBLIC =
 /** School Board meetings + committees/closed/appeals — CY2025 + 2026 YTD (lean lazy-load). */
 export const LCPS_MEETINGS: LcpsMeeting[] = [
   {
+    id: "2026-10-28-1240586716",
+    vimeoId: "1240586716",
+    title: "Legislative and Policy Committee Meeting",
+    dateLabel: "Oct 28, 2026",
+    duration: "1h 24m",
+    playerUrl: "https://player.vimeo.com/video/1240586716?rel=0",
+    boardDocsUrl: BOARDDOCS_PUBLIC,
+    lcpsTvUrl: LCPS_TV,
+    windowsUrl: "/files/find-the-moment/loudoun-lcps/1240586716.json",
+    windowCount: 175,
+    kind: "committee",
+    committeeName: "Legislative and Policy Committee Meeting",
+  },
+  {
     id: "2026-10-27-1238582612",
     vimeoId: "1238582612",
     title: "4th Tuesday School Board Meeting and FY28 Budget Work Session",
