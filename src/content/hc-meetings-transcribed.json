@@ -5624,5 +5624,65 @@
     "duration": "5h 7m",
     "provider": "youtube",
     "playerUrl": "https://www.youtube.com/watch?v=Cb4yaH-pkN8"
+  },
+  {
+    "id": "fxco-sb-l0ktqVQfMW8",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Forum",
+    "date": "2025-10-07",
+    "dateLabel": "Oct 7, 2025",
+    "duration": "9m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=l0ktqVQfMW8"
+  },
+  {
+    "id": "fxco-bos-3921",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Land Use Policy Committee",
+    "date": "2025-10-07",
+    "dateLabel": "Oct 7, 2025",
+    "duration": "30m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3921?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3920",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Health and Human Services Committee",
+    "date": "2025-10-07",
+    "dateLabel": "Oct 7, 2025",
+    "duration": "1h 22m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3920?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3917",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Legislative Committee",
+    "date": "2025-10-07",
+    "dateLabel": "Oct 7, 2025",
+    "duration": "1h 21m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3917?redirect=true"
+  },
+  {
+    "id": "pwc-sb-P8Q0H2JHpwo",
+    "venue": "pwc-schools",
+    "title": "Prince William County School Board Meeting",
+    "date": "2025-10-01",
+    "dateLabel": "Oct 1, 2025",
+    "duration": "1h 48m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=P8Q0H2JHpwo"
+  },
+  {
+    "id": "fxco-sb-8ndjWA1vUd0",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Administration Committee Meeting",
+    "date": "2025-10-01",
+    "dateLabel": "Oct 1, 2025",
+    "duration": "1h 5m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=8ndjWA1vUd0"
   }
 ]

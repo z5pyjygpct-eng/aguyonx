@@ -5249,5 +5249,66 @@ export const HC_FTM_TRANSCRIPTS: FtmTranscript[] = [
     "engine": "whisper.cpp · large-v3-turbo",
     "generated": "2026-10-29",
     "sourceFile": "fxco-sb-Cb4yaH-pkN8.srt"
+  },
+  {
+    "meetingId": "fxco-sb-l0ktqVQfMW8",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-l0ktqVQfMW8.json",
+    "windowCount": 24,
+    "wordCount": 1535,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-l0ktqVQfMW8.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3921",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3921.json",
+    "windowCount": 69,
+    "wordCount": 4177,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3921.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3920",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3920.json",
+    "windowCount": 192,
+    "wordCount": 13179,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3920.srt",
+    "note": "2 repeated segments collapsed"
+  },
+  {
+    "meetingId": "fxco-bos-3917",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3917.json",
+    "windowCount": 204,
+    "wordCount": 12930,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3917.srt"
+  },
+  {
+    "meetingId": "pwc-sb-P8Q0H2JHpwo",
+    "venue": "pwc-schools",
+    "url": "/files/find-the-moment/pwc-schools/transcripts/pwc-sb-P8Q0H2JHpwo.json",
+    "windowCount": 260,
+    "wordCount": 16205,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-sb-P8Q0H2JHpwo.srt"
+  },
+  {
+    "meetingId": "fxco-sb-8ndjWA1vUd0",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-8ndjWA1vUd0.json",
+    "windowCount": 165,
+    "wordCount": 10332,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-8ndjWA1vUd0.srt"
   }
 ];
