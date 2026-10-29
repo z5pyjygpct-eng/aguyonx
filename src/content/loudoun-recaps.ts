@@ -989,7 +989,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "Board Room, Government Center, Leesburg · video 34m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 29, 2026, 9:05 AM ET",
+      checkedLabel: "Oct 29, 2026, 8:40 AM ET",
       note: "Official vote record not yet posted on Granicus for this clip (Action Report section present but no Action Report document linked). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "Agenda (Granicus)", href: granicusAgenda(8179) },
@@ -1030,7 +1030,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "Board Room, Government Center, Leesburg · video 1h 48m",
     official: {
       votesPosted: false,
-      checkedLabel: "Oct 29, 2026, 9:05 AM ET",
+      checkedLabel: "Oct 29, 2026, 8:40 AM ET",
       note: "Official vote record not yet posted on Granicus for this clip (Action Report section present but no Action Report document linked). Decisions will be filled from the county Action Report when available. Do not infer votes from the video or machine transcript.",
       links: [
         { label: "Agenda (Granicus)", href: granicusAgenda(8178) },
@@ -1248,7 +1248,7 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     whenWhere: "School Board meeting · video 7h 5m",
     official: {
       votesPosted: true,
-      checkedLabel: "Oct 29, 2026, 9:05 AM ET",
+      checkedLabel: "Oct 29, 2026, 8:40 AM ET",
       note: "Votes below are taken from the BoardDocs minutes for this meeting (posted to BoardDocs after the Board's Oct 27, 2026 consent agenda listed them for adoption). Motion text is quoted from the minutes, shortened where marked with …; tallies list members as the minutes record them. Item 12.03 (Policy 8155): the minutes list the main-motion vote first, then the amendments; the last recorded 12.03 vote is Mrs. Griffiths' motion, as amended by Ms. Riccardi, to move the item to the next School Board meeting (Policy 8155 was then adopted on Oct 13, 2026). Items 13.01–13.07 were information items; 14.01 (cameras during public comment) and 15.01 were not addressed due to time constraints. Adjourned 11:30 p.m.",
       links: [
         { label: "Sep 22, 2026 BoardDocs minutes", href: boarddocsMeeting("DXGKG851ACED") },
