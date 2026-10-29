@@ -55,6 +55,26 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "dominion-asks-scc-recoup-rggi-costs-virginiamercury-2026-10-29",
+    date: "2026-10-29",
+    headline: "Dominion asks SCC to recoup RGGI costs from customers, adding up to $13 to bills monthly",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/29/dominion-asks-scc-to-recoup-rggi-costs-from-customers-adding-up-to-13-to-bills-monthly/",
+    people: [],
+    scope: "statewide",
+  },
+  {
+    id: "lcps-freezes-hiring-considers-school-closures-wjla-2026-10-28",
+    date: "2026-10-28",
+    filed: "2026-10-29",
+    headline: "Loudoun County Public Schools freezes hiring, considers school closures",
+    outlet: "WJLA",
+    url: "https://wjla.com/news/local/loudoun-county-public-schools-closure-hamilton-lucketts-lincoln-aldie-elementary-student-enrollment-teacher-freeze-aaron-spence-bathrooms-budget-cuts",
+    people: [],
+    scope: "local",
+    locations: ["loudoun"],
+  },
+  {
     id: "arguments-flare-over-missing-middle-arlnow-2026-10-28",
     date: "2026-10-28",
     filed: "2026-10-29",
