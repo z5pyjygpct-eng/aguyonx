@@ -8,6 +8,7 @@ export type NewsOffice =
   | "U.S. Representative"
   | "U.S. House candidate (VA-01)"
   | "U.S. House candidate (VA-05)"
+  | "U.S. House candidate (VA-06)"
   | "State Senator"
   | "State Delegate"
   | "State Delegate candidate"
@@ -54,6 +55,45 @@ export function peopleSearchText(people: NewsPerson[]): string {
 
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
+  {
+    id: "macy-dopesick-campaign-trail-cline-va06-vamercury-2026-10-29",
+    date: "2026-10-29",
+    headline: "From ‘Dopesick’ to the campaign trail: Beth Macy takes on Ben Cline in Virginia’s 6th District",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/10/29/from-dopesick-to-the-campaign-trail-beth-macy-takes-on-ben-cline-in-virginias-6th-district/",
+    people: [{ name: "Beth Macy", office: "U.S. House candidate (VA-06)" }],
+    scope: "statewide",
+  },
+  {
+    id: "lucas-indictment-retail-cannabis-questions-cardinal-2026-10-29",
+    date: "2026-10-29",
+    headline: "Lucas indictment raises two big questions about Virginia’s coming legal retail cannabis market",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/10/29/lucas-indictment-raises-two-big-questions-about-virginias-coming-legal-retail-cannabis-market/",
+    people: [{ name: "L. Louise Lucas", office: "State Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-scotus-revoked-vanity-plate-potomaclocal-2026-10-28",
+    date: "2026-10-28",
+    filed: "2026-10-29",
+    headline: "Virginia attorney general asks Supreme Court to review revoked vanity plate",
+    outlet: "Potomac Local",
+    url: "https://www.potomaclocal.com/2026/10/28/virginia-attorney-general-asks-supreme-court-to-review-revoked-vanity-plate/",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-flag-order-janet-howell-governor-2026-10-27",
+    date: "2026-10-27",
+    filed: "2026-10-29",
+    headline: "Governor’s Flag Order in Memory and Respect of State Senator Janet D. Howell",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1127707-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+    locations: ["senate"],
+  },
   {
     id: "dominion-asks-scc-recoup-rggi-costs-virginiamercury-2026-10-29",
     date: "2026-10-29",
