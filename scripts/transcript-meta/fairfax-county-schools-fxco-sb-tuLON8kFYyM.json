@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-tuLON8kFYyM.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2025-12-01-fairfax-county-school-board-aap-annandale-public-hearing",
+  "title": "Fairfax County School Board AAP Annandale Public Hearing, Monday, December 1, 2025",
+  "shortTitle": "School Board AAP Annandale Public Hearing \u00b7 Dec 1, 2025",
+  "date": "Monday, December 1, 2025",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "23m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=tuLON8kFYyM"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-28"
+}

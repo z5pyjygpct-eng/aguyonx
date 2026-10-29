@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/pwc-schools/transcripts/pwc-sb-85gR-s0FmDw.json",
+  "outBase": "public/files/find-the-moment/pwc-schools/transcripts/coraggio-transcript-pwc-schools-2025-10-08-prince-william-county-school-board-joint-meeting-with-board-of-county-supervisors",
+  "title": "Prince William County School Board joint meeting with Board of County Supervisors, Wednesday, October 8, 2025",
+  "shortTitle": "School Board joint meeting with Board of County Supervisors \u00b7 Oct 8, 2025",
+  "date": "Wednesday, October 8, 2025",
+  "place": "Prince William County School Board, Virginia",
+  "length": "2h 5m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=85gR-s0FmDw"
+    },
+    {
+      "label": "Official School Board page (PWCS)",
+      "href": "https://www.pwcs.edu/about/school_board/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-29"
+}

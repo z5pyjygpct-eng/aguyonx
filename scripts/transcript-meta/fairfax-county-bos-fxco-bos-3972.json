@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3972.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2025-11-25-fairfax-county-board-of-supervisors-fairfax-county-bos-nov-25-safety-security-committee",
+  "title": "Fairfax County Board of Supervisors Fairfax County BOS: Nov. 25 Safety & Security Committee, Tuesday, November 25, 2025",
+  "shortTitle": "Board of Supervisors Fairfax County BOS: Nov. 25 Safety & Security Committee \u00b7 Nov 25, 2025",
+  "date": "Tuesday, November 25, 2025",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "1h 31m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/3972"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-28"
+}
