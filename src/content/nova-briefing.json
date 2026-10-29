@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,240 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-29",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 28, Wednesday) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (outlet headline matched on the article page and Oct 28 ET publish date checked on each article page). Sources checked: RSS from ARLnow, FFXnow, Annandale Today, Potomac Local, Blue Ridge Leader, the Loudoun County news flash, WUSA9, NBC Washington, WTOP (Virginia feed) and the Loudoun Now article feed (press releases only on Oct 28); Loudoun Now and InsideNoVa homepages. News.ts Oct 28 items were statewide, so none qualified. Caveats: capped at 25 kept; 49 candidate pages checked, over the 40-page guide. 36 were dated Oct 28 and none of those failed verification. 13 undated homepage links were screened out on the date check (Loudoun Now: Randall-Amazon video Oct 20, Lovettsville town manager Oct 22, Purcellville vice mayor trial Oct 22, Sterling shooting arrest Oct 23, Nett grievance Oct 23, Lunsford knife Oct 24, school budget Oct 26, library of the year Oct 21, MWAA Potter retirement Oct 15; InsideNoVa: Manassas Park gun and school closures Oct 26, Dumfries Road motorcyclist Oct 27, Old Town Manassas gunfire Oct 24, Manassas pickup crash Oct 26). Prince William Times, Fairfax Times and Loudoun Times-Mirror returned HTTP 429, the FOX 5 Virginia feed returned 404, and the NBC Washington feed had no Oct 28 items, so those were gaps. One WUSA9 article (HTTP 403) and one Loudoun Now article (HTTP 429) to direct requests were read through a fetch service. Left out because of the cap: ARLnow Goodwill mural and McCormick & Schmick's closing; FFXnow Fair Oaks Mall play space and South Block juice shop; Annandale Today Vietnam veterans oral history; WTOP Fairfax high schooler aviation podcast; Loudoun County Community on Purpose and Freedom Center Museum ribbon cutting releases. Left out as same-event duplicates: WUSA9 e-moto safety events (covered by ARLnow), WUSA9 home-fire burglaries and Richmond Highway bus crash (covered by FFXnow), WUSA9 and InsideNoVa Bhatt trial (covered by WTOP), WUSA9 Prince William student struck and Loudoun mother drowning arrest and Loudoun Now mother charged with murder (all in the Oct 28 edition). Also left out: Falls Church early voting (independent city, locality unclear); Alexandria, DC, Maryland and statewide items; sports, opinion, letters, sponsored posts and a police blotter.",
+      "items": [
+        {
+          "id": "arguments-flare-over-missing-middle-arlnow-2026-10-28",
+          "county": "Arlington",
+          "headline": "Arguments flare over Missing Middle, densification at County Board town hall",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/28/missing-middle-arguments-flare-at-county-board-town-hall/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "new-ambassador-program-would-expand-arlnow-2026-10-28",
+          "county": "Arlington",
+          "headline": "New ‘ambassador’ program would expand road safety outreach in Arlington",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/28/new-ambassador-program-would-expand-road-safety-outreach-in-arlington/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "misuse-of-emotos-ebikes-spotlighted-arlnow-2026-10-28",
+          "county": "Arlington",
+          "headline": "Misuse of e-motos, e-bikes spotlighted in new Arlington trail safety series",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/28/misuse-of-e-motos-e-bikes-spotlighted-in-new-arlington-trail-safety-series/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "judge-finds-metro-hair-toucher-wusa9-2026-10-28",
+          "county": "Arlington",
+          "headline": "Judge finds Metro hair toucher not guilty in Arlington assault case",
+          "outlet": "WUSA9",
+          "url": "https://www.wusa9.com/article/news/legal/metro-hair-toucher-not-guilty-arlington/65-08151c30-cd1b-4ef1-8693-96d2aa0ede89",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-charged-with-killing-exgirlfriend-ffxnow-2026-10-28",
+          "county": "Fairfax",
+          "headline": "Man charged with killing ex-girlfriend in Woodburn dragging out court process, prosecutors say",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/28/man-charged-with-killing-ex-girlfriend-in-woodburn-dragging-out-court-process-prosecutors-say/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-leaders-seek-collaboration-with-ffxnow-2026-10-28",
+          "county": "Fairfax",
+          "headline": "Fairfax leaders seek collaboration with governor as Va.’s data center rules evolve",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/28/fairfax-leaders-seek-collaboration-with-governor-as-va-s-data-center-rules-evolve/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "four-accused-of-burglaries-targeting-ffxnow-2026-10-28",
+          "county": "Fairfax",
+          "headline": "Four accused of burglaries targeting victims of home fires in Fairfax County",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/28/four-accused-of-burglaries-targeting-victims-of-home-fires-in-fairfax-county/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fourtime-herndon-town-council-candidate-ffxnow-2026-10-28",
+          "county": "Fairfax",
+          "headline": "Four-time Herndon Town Council candidate aims to cut through partisan conflict",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/28/four-time-herndon-town-council-candidate-aims-to-cut-through-partisan-conflict/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "residents-start-moving-into-new-ffxnow-2026-10-28",
+          "county": "Fairfax",
+          "headline": "Residents start moving into new affordable housing near Fairfax Government Center",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/28/residents-start-moving-into-affordable-housing-development-near-fairfax-government-center/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "just-in-two-injured-in-ffxnow-2026-10-28",
+          "county": "Fairfax",
+          "headline": "JUST IN: Two injured in Richmond Highway school bus crash",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/28/just-in-two-injured-in-richmond-highway-school-bus-crash/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "randall-announces-agreement-with-amazon-brl-2026-10-28",
+          "county": "Loudoun",
+          "headline": "Randall Announces Agreement with Amazon to Abandon GW Campus Data Center",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/randall-announces-agreement-with-amazon-to-abandon-gw-campus-data-center/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "supervisors-table-data-center-audit-brl-2026-10-28",
+          "county": "Loudoun",
+          "headline": "Supervisors Table Data Center Audit As Pause Faces Delays",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/supervisors-table-data-center-audit-as-pause-faces-delays/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "perrys-electionseason-financial-warning-omits-brl-2026-10-28",
+          "county": "Loudoun",
+          "headline": "Perry’s Election-Season Financial Warning Omits Key Facts",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/perrys-election-season-financial-warning-omits-key-facts/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "nighttime-rt-7-ramp-closures-brl-2026-10-28",
+          "county": "Loudoun",
+          "headline": "Nighttime Rt. 7 Ramp Closures Scheduled in Western Loudoun Through Nov. 6",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/nighttime-rt-7-ramp-closures-scheduled-in-western-loudoun-through-nov-6/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "bradford-prepares-defense-in-murder-loudounnow-2026-10-28",
+          "county": "Loudoun",
+          "headline": "Bradford Prepares Defense in Murder Case from Jail",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/bradford-prepares-defense-in-murder-case-from-jail/article_2149c2db-da73-4990-aafb-ec0985c1c117.html",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "brambleton-birchwood-residents-speak-out-loudounnow-2026-10-28",
+          "county": "Loudoun",
+          "headline": "Brambleton, Birchwood Residents Speak Out Against STACK Data Centers",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/brambleton-birchwood-residents-speak-out-against-stack-data-centers/article_63e7b889-3806-419e-af9c-1d7f8c3099a2.html",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-leaders-cut-the-ribbon-loudounnow-2026-10-28",
+          "county": "Loudoun",
+          "headline": "Loudoun Leaders Cut the Ribbon on Fast-Tracked Sterling Apartments",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/loudoun-leaders-cut-the-ribbon-on-fast-tracked-sterling-apartments/article_e0e92ca3-ea46-42bb-a733-d1abbc7dd005.html",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-pastor-sues-to-potomaclocal-2026-10-28",
+          "county": "Prince William",
+          "headline": "Prince William pastor sues to block Virginia same-sex marriage ballot question",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/28/prince-william-pastor-sues-to-block-virginia-same-sex-marriage-ballot-question/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "church-party-goes-bang-chief-potomaclocal-2026-10-28",
+          "county": "Prince William",
+          "headline": "CHURCH PARTY GOES BANG: Chief Details Friday Night Shooting as Community Demands Answers",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/28/church-party-goes-bang-chief-details-friday-night-shooting-as-community-demands-answers/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-council-deadlocks-twice-on-potomaclocal-2026-10-28",
+          "county": "Prince William",
+          "headline": "Manassas council deadlocks twice on Center Street apartment-garage rezoning; outcome unclear",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/28/manassas-council-deadlocks-on-center-street-rezoning/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "aoc-and-vindman-to-headline-potomaclocal-2026-10-28",
+          "county": "Prince William",
+          "headline": "AOC and Vindman to headline GOTV rally in Prince William County Friday",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/28/aoc-and-vindman-to-headline-gotv-rally-in-prince-william-county-friday/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "eight-sentenced-for-firearm-drug-wtop-2026-10-28",
+          "county": "Prince William",
+          "headline": "Eight sentenced for firearm, drug trafficking after raid at Haymarket ranch",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/eight-sentenced-for-firearm-drug-trafficking-after-raid-at-haymarket-ranch/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "texts-internet-searches-offer-insight-wtop-2026-10-28",
+          "county": "Prince William",
+          "headline": "Texts, internet searches offer insight into Bhatt marriage before Manassas Park mother’s disappearance",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/exts-and-whatsapp-messages-offer-look-into-bhatt-marriage-before-disappearance/",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "family-seeks-information-after-gainesville-insidenova-2026-10-28",
+          "county": "Prince William",
+          "headline": "Family seeks information after Gainesville teen struck, critically injured near bus stop",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/family-seeks-information-after-gainesville-teen-struck-near-bus-stop-2684c55d",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-county-opens-inclusive-insidenova-2026-10-28",
+          "county": "Prince William",
+          "headline": "Prince William County opens inclusive playground at George Hellwig Memorial Park",
+          "outlet": "InsideNoVa",
+          "url": "https://www.insidenova.com/news/inclusive-playground-built-at-george-hellwig-memorial-park-in-prince-william-county-761d5490",
+          "published": "2026-10-28",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-10-28",
       "status": "ok",
