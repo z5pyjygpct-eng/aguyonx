@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-AJN1qZ5qyQE.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2025-04-10-fairfax-county-school-board-regular-meeting",
+  "title": "Fairfax County School Board \u2014 Regular Meeting, Thursday, April 10, 2025",
+  "shortTitle": "School Board \u2014 Regular Meeting \u00b7 Apr 10, 2025",
+  "date": "Thursday, April 10, 2025",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "4h 9m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=AJN1qZ5qyQE"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-30"
+}

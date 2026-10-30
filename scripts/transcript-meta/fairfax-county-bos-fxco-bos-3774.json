@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3774.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2025-04-23-fairfax-county-board-of-supervisors-budget-public-hearing",
+  "title": "Fairfax County Board of Supervisors Budget Public Hearing, Wednesday, April 23, 2025",
+  "shortTitle": "Board of Supervisors Budget Public Hearing \u00b7 Apr 23, 2025",
+  "date": "Wednesday, April 23, 2025",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "6h 7m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/3774"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-30"
+}

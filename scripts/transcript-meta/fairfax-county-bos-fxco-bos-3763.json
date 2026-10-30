@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3763.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2025-04-08-fairfax-county-board-of-supervisors-transportation-committee",
+  "title": "Fairfax County Board of Supervisors Transportation Committee, Tuesday, April 8, 2025",
+  "shortTitle": "Board of Supervisors Transportation Committee \u00b7 Apr 8, 2025",
+  "date": "Tuesday, April 8, 2025",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "1h 34m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/3763"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-30"
+}
