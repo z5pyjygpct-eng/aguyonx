@@ -36864,6 +36864,7 @@ export const LOUDOUN_RECAPS_BACKFILL: LoudounRecap[] = [
       { seconds: 932, label: "Item 5.01 (information): Policy 2220." },
       { seconds: 1334, label: "Item 5.02 (information): Policy 2430, School Board Agenda." },
       { seconds: 1966, label: "Item 5.03 (information): Policy 3065, Information Security Protection." },
+      { seconds: 2095, label: "Item 5.04 (information): Equal access to public education and protection of immigration and citizenship-related information. Staff present changes required by House Bill 836 to Policies 1040, 8030, 8115, 8125, 8610, and 8640; posted for public feedback." },
       { seconds: 3477, label: "Item 6.01 (discussion): Policy 2520, Participation by the Public." },
       { seconds: 4969, label: "New business; adjournment." },
     ],
