@@ -5310,5 +5310,397 @@ export const HC_FTM_TRANSCRIPTS: FtmTranscript[] = [
     "engine": "whisper.cpp · large-v3-turbo",
     "generated": "2026-10-29",
     "sourceFile": "fxco-sb-8ndjWA1vUd0.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3910",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3910.json",
+    "windowCount": 530,
+    "wordCount": 31803,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3910.srt"
+  },
+  {
+    "meetingId": "fxco-sb-texPgLvUegw",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-texPgLvUegw.json",
+    "windowCount": 427,
+    "wordCount": 32059,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-texPgLvUegw.srt"
+  },
+  {
+    "meetingId": "pwc-bos-3693",
+    "venue": "pwc-bos",
+    "url": "/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3693.json",
+    "windowCount": 234,
+    "wordCount": 13580,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-bos-3693.srt"
+  },
+  {
+    "meetingId": "pwc-sb-64gSVxOkik4",
+    "venue": "pwc-schools",
+    "url": "/files/find-the-moment/pwc-schools/transcripts/pwc-sb-64gSVxOkik4.json",
+    "windowCount": 254,
+    "wordCount": 15192,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-sb-64gSVxOkik4.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3895",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3895.json",
+    "windowCount": 21,
+    "wordCount": 1210,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3895.srt"
+  },
+  {
+    "meetingId": "pwc-bos-3689",
+    "venue": "pwc-bos",
+    "url": "/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3689.json",
+    "windowCount": 201,
+    "wordCount": 11356,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-bos-3689.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3901",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3901.json",
+    "windowCount": 174,
+    "wordCount": 11488,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3901.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3898",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3898.json",
+    "windowCount": 232,
+    "wordCount": 14916,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3898.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3897",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3897.json",
+    "windowCount": 88,
+    "wordCount": 6608,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3897.srt"
+  },
+  {
+    "meetingId": "fxco-sb-4a-7wdJNKBk",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-4a-7wdJNKBk.json",
+    "windowCount": 219,
+    "wordCount": 14411,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-4a-7wdJNKBk.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3896",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3896.json",
+    "windowCount": 217,
+    "wordCount": 14844,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3896.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3886",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3886.json",
+    "windowCount": 593,
+    "wordCount": 35169,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3886.srt"
+  },
+  {
+    "meetingId": "fxco-bos-4317",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4317.json",
+    "windowCount": 1028,
+    "wordCount": 58594,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-4317.srt",
+    "note": "5 repeated segments collapsed"
+  },
+  {
+    "meetingId": "fxco-sb-BJbcZi_KtgM",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-BJbcZi_KtgM.json",
+    "windowCount": 3,
+    "wordCount": 106,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-BJbcZi_KtgM.srt"
+  },
+  {
+    "meetingId": "fxco-sb-HGM8jAfu7RE",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-HGM8jAfu7RE.json",
+    "windowCount": 475,
+    "wordCount": 34137,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-HGM8jAfu7RE.srt"
+  },
+  {
+    "meetingId": "pwc-bos-3685",
+    "venue": "pwc-bos",
+    "url": "/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3685.json",
+    "windowCount": 1181,
+    "wordCount": 73286,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-bos-3685.srt",
+    "note": "2 repeated segments collapsed"
+  },
+  {
+    "meetingId": "fxco-sb-A31z_hojvdc",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-A31z_hojvdc.json",
+    "windowCount": 345,
+    "wordCount": 26942,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-A31z_hojvdc.srt"
+  },
+  {
+    "meetingId": "pwc-sb-qvDPK9BuQ34",
+    "venue": "pwc-schools",
+    "url": "/files/find-the-moment/pwc-schools/transcripts/pwc-sb-qvDPK9BuQ34.json",
+    "windowCount": 455,
+    "wordCount": 27411,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-sb-qvDPK9BuQ34.srt"
+  },
+  {
+    "meetingId": "fxco-sb-mu87YH2Roig",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-mu87YH2Roig.json",
+    "windowCount": 458,
+    "wordCount": 33663,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-mu87YH2Roig.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3883",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3883.json",
+    "windowCount": 750,
+    "wordCount": 43702,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3883.srt"
+  },
+  {
+    "meetingId": "fxco-sb-u11acsrpEFo",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-u11acsrpEFo.json",
+    "windowCount": 415,
+    "wordCount": 30995,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-u11acsrpEFo.srt"
+  },
+  {
+    "meetingId": "pwc-bos-3680",
+    "venue": "pwc-bos",
+    "url": "/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3680.json",
+    "windowCount": 586,
+    "wordCount": 35191,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-bos-3680.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3868",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3868.json",
+    "windowCount": 623,
+    "wordCount": 35547,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3868.srt"
+  },
+  {
+    "meetingId": "pwc-bos-3663",
+    "venue": "pwc-bos",
+    "url": "/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3663.json",
+    "windowCount": 326,
+    "wordCount": 18439,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-bos-3663.srt"
+  },
+  {
+    "meetingId": "fxco-sb-_7HJjaVJTD0",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-_7HJjaVJTD0.json",
+    "windowCount": 317,
+    "wordCount": 23138,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-_7HJjaVJTD0.srt"
+  },
+  {
+    "meetingId": "fxco-sb-BV5mh54mC3A",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-BV5mh54mC3A.json",
+    "windowCount": 269,
+    "wordCount": 17971,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-BV5mh54mC3A.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3862",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3862.json",
+    "windowCount": 148,
+    "wordCount": 8987,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3862.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3861",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3861.json",
+    "windowCount": 190,
+    "wordCount": 11691,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3861.srt"
+  },
+  {
+    "meetingId": "fxco-sb-cEePO6zMQKs",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-cEePO6zMQKs.json",
+    "windowCount": 390,
+    "wordCount": 28054,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-cEePO6zMQKs.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3852",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3852.json",
+    "windowCount": 662,
+    "wordCount": 37670,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3852.srt"
+  },
+  {
+    "meetingId": "pwc-bos-3657",
+    "venue": "pwc-bos",
+    "url": "/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3657.json",
+    "windowCount": 468,
+    "wordCount": 27356,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-bos-3657.srt"
+  },
+  {
+    "meetingId": "fxco-sb-CzzCW2t-k-g",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-CzzCW2t-k-g.json",
+    "windowCount": 534,
+    "wordCount": 42066,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-CzzCW2t-k-g.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3850",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3850.json",
+    "windowCount": 326,
+    "wordCount": 21642,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3850.srt"
+  },
+  {
+    "meetingId": "fxco-sb-Agn0QYbLQJ8",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-Agn0QYbLQJ8.json",
+    "windowCount": 530,
+    "wordCount": 32252,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-sb-Agn0QYbLQJ8.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3833",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3833.json",
+    "windowCount": 697,
+    "wordCount": 41675,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3833.srt"
+  },
+  {
+    "meetingId": "pwc-bos-3652",
+    "venue": "pwc-bos",
+    "url": "/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3652.json",
+    "windowCount": 544,
+    "wordCount": 37020,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-bos-3652.srt"
+  },
+  {
+    "meetingId": "pwc-sb-0vVyzMc7LjI",
+    "venue": "pwc-schools",
+    "url": "/files/find-the-moment/pwc-schools/transcripts/pwc-sb-0vVyzMc7LjI.json",
+    "windowCount": 445,
+    "wordCount": 25835,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-sb-0vVyzMc7LjI.srt"
+  },
+  {
+    "meetingId": "pwc-bos-3651",
+    "venue": "pwc-bos",
+    "url": "/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3651.json",
+    "windowCount": 959,
+    "wordCount": 56637,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "pwc-bos-3651.srt"
+  },
+  {
+    "meetingId": "fxco-bos-3824",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3824.json",
+    "windowCount": 142,
+    "wordCount": 10010,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-10-29",
+    "sourceFile": "fxco-bos-3824.srt"
   }
 ];

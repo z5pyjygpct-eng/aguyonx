@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3897.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2025-09-16-fairfax-county-board-of-supervisors-personnel-and-reorganization-committee",
+  "title": "Fairfax County Board of Supervisors Personnel and Reorganization Committee, Tuesday, September 16, 2025",
+  "shortTitle": "Board of Supervisors Personnel and Reorganization Committee \u00b7 Sep 16, 2025",
+  "date": "Tuesday, September 16, 2025",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "37m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/3897"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-29"
+}

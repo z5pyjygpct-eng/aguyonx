@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-4a-7wdJNKBk.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2025-09-16-fairfax-county-school-board-work-session",
+  "title": "Fairfax County School Board Work Session, Tuesday, September 16, 2025",
+  "shortTitle": "School Board Work Session \u00b7 Sep 16, 2025",
+  "date": "Tuesday, September 16, 2025",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "1h 30m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=4a-7wdJNKBk"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-29"
+}
