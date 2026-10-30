@@ -80,6 +80,11 @@ def vote_block(body, dbg=None):
     lines = body.split("\n"); votes, cur, last, brk = {}, None, "", ""
     for l in lines:
         lm = re.match(r"^\s*" + LABRX + r"(.*)$", l, re.I)
+        if not lm and cur is not None:
+            lm2 = re.match(r"^\s*(No|Abstain|Recused|Not\W*Present(?:\W*at\W*Vote)?|Absent)\s+(\S.*)$", l, re.I)
+            if lm2:
+                f2, r2 = names_in(lm2[2])
+                if f2 and r2 <= 3: lm = lm2
         if lm:
             lab = re.sub(r"\W", "", lm[1]).lower(); lab = {"yes": "Yes", "no": "No", "abstain": "Abstain", "recused": "Recused"}.get(lab, "Not Present at Vote")
             if lab in votes: brk = l; break
@@ -101,9 +106,22 @@ def vote_block(body, dbg=None):
     return out
 
 def _flat(text):
-    return "\n".join(l.strip() for l in text.split("\n") if l.strip() and l.strip() != "=====PAGE=====")
+    """Join pages. Running page headers (lines repeated at the top of 3+ pages, date lines) and lone page numbers
+    at a page boundary are dropped so a vote list split across a page break reads as one block. Nothing else changes."""
+    pages = [[l.strip() for l in pg.split("\n") if l.strip()] for pg in text.split("=====PAGE=====")]
+    from collections import Counter
+    tops = Counter(l for pg in pages[1:] for l in set(pg[:6]))
+    rep = {l for l, c in tops.items() if c >= 3 or (c >= 2 and len(pages) <= 4)}
+    DATE = re.compile(r"^(\w+\s+)?(January|February|March|April|May|June|July|August|September|October|November|December)\s*\d{1,2},?\s*\d{4}$", re.I)
+    out = []
+    for i, pg in enumerate(pages):
+        if i:
+            while pg and (pg[0] in rep or DATE.match(pg[0])): pg = pg[1:]
+        while pg and re.fullmatch(r"\d{1,3}", pg[-1]): pg = pg[:-1]
+        out += pg
+    return "\n".join(out)
 
-def blocks(text, src):
+def blocks(text, src, roster=None):
     """one entry per 'Final Resolution' in the document: a vote dict, or None if that block fails the gate"""
     flat = _flat(text)
     fins = list(re.finditer(r"^\W*Final\W*Resolution\W*(.*)$", flat, re.I | re.M))
@@ -128,7 +146,7 @@ def blocks(text, src):
         if not m or not votes or not votes.get("Yes") or not re.match(r"Motion (Carries|Fails)$", res):
             out.append(None); continue
         allv = sum(votes.values(), [])
-        if len(set(allv)) != len(allv) or len(allv) > 12:
+        if len(set(allv)) != len(allv) or len(allv) > 12 or (roster is not None and set(allv) != set(roster)):
             out.append(None); continue
         its = re.findall(r"^.{0,40}?\bItem\s*(\d{1,2}\.[0-9oO]{1,2})\W*(.{3,160})$", before, re.I | re.M)
         item = f"{its[-1][0].replace('o','0').replace('O','0')} {its[-1][1].strip()}" if its else ""
@@ -157,7 +175,66 @@ def date_ok(text, d):
     want = re.sub(r"\s+", "", d.strftime("%B %-d, %Y")).lower()
     return want in p1.replace(".", ",") or want.replace(",", "") in p1.replace(",", "").replace(".", "")
 
+def committee_roster(text):
+    """Committee members PRESENT, from the minutes' own attendance block ('... with the following ... members present:').
+    Lines marked Absent are excluded; community members are added to the name matcher for this document only."""
+    flat = _flat(text)
+    m = re.search(r"following\W+(?:Board|Committee)?\W*members\W+present\W*\n([\s\S]{5,900}?)\n\s*(?:Also\b|Board members not|Staff|Item|\d\.\d|Motion)", flat, re.I)
+    if not m: return None
+    ro, extra = [], {}
+    for l in m[1].split("\n"):
+        if re.search(r"absent", l, re.I): continue
+        nm = re.sub(r"\(.*$", "", l).strip(" .,")
+        f, r = names_in(nm)
+        if len(f) == 1 and r <= 3: ro.append(f[0]); continue
+        cm = re.match(r"^([A-Z][a-z]+)\s+([A-Z][A-Za-z'\-]{3,})$", nm)
+        if cm and re.search(r"community|citizen|member", l, re.I):
+            extra[nm] = [cm[2].lower()]; ro.append(nm); continue
+        return None
+    return (ro, extra) if 2 <= len(ro) <= 9 and len(set(ro)) == len(ro) else None
+
+def _with_extra(extra, fn):
+    global FILLER
+    saved, sf = dict(MARK), FILLER
+    MARK.update(extra)
+    FILLER = sorted(set(FILLER) | {okey(w) for n in extra for w in n.split()}, key=len, reverse=True)
+    try: return fn()
+    finally:
+        MARK.clear(); MARK.update(saved); FILLER = sf
+
+def committee_votes(pdf, src, d=None):
+    """Committee meeting: every recorded vote must account for exactly the members present on its own attendance
+    roster. Every 'Yes:' roll call in the document must be matched to such a vote, else the meeting stays pending.
+    Unrecorded votes ('without objection') also keep the meeting pending."""
+    res = []
+    for dpi in (200, 300):
+        t = ocr_pdf(pdf, f"{pdf}.{dpi}.txt", dpi)
+        if d and not date_ok(t, d): return None
+        if re.search(r"without\W*objection", t, re.I): return None
+        rr = committee_roster(t)
+        if not rr: res.append(None); continue
+        ro, extra = rr
+        def run():
+            fl = _flat(t)
+            # committee minutes sometimes omit 'Final Resolution': normalise so each roll call is a block
+            fl = re.sub(r"(?m)^(?!.*Final\W*Resolution)(.*\n)(?=\s*Yes\s*:)", r"\1Final Resolution: Motion Carries\n", fl)
+            b = blocks(fl, src, ro)
+            nyes = len(re.findall(r"(?m)^\s*Yes\s*:", fl))
+            return b if b and all(b) and len(b) == nyes else None
+        res.append(_with_extra(extra, run))
+    a, b = res
+    if a and b:
+        ka, kb = [x["_key"] for x in a], [x["_key"] for x in b]
+        if len(ka) == len(kb) and ka != kb: return None
+        lo, hi = (ka, kb) if len(ka) < len(kb) else (kb, ka)
+        if any(k not in hi for k in lo): return None
+        got = a if len(ka) >= len(kb) else b
+    else:
+        got = a or b
+    return _clean(got) if got else None
+
 def votes_for_pdf(pdf, src, d=None, full_board=True):
+    if not full_board: return committee_votes(pdf, src, d)
     """Two independent OCR passes (200 and 300 dpi). A recorded vote is accepted only if
     (full board: all 12 members accounted for in that pass) or (both passes read the identical mover/second/result/vote lists).
     Every 'Final Resolution' in the document must be accepted, else the meeting stays pending (None)."""
@@ -201,7 +278,7 @@ def fcps_ocr_votes(meeting_unique, d, curl, cache, label):
         pdf = curl(url, name, referer=f"{B}/Public")
         if not pdf: continue
         src = {"label": f"Official approved minutes ({label}, scanned PDF)", "href": url}
-        got = votes_for_pdf(pdf, src, d, full_board=not re.search(r"committee|audit|governance|budget", urllib.parse.unquote(h), re.I))
+        got = votes_for_pdf(pdf, src, d, full_board=not re.search(r"committee|commitee|audit|governance|budget|cpdc|pec\b|admin", urllib.parse.unquote(h), re.I))
         if got: return got, {"label": f"Official approved minutes ({label}): {urllib.parse.unquote(h.split('/')[-1])}", "href": url}
     return None, "ocr-doubtful-or-date-mismatch"
 
