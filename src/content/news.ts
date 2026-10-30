@@ -56,6 +56,36 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "lucas-mcdonnell-precedent-defense-wvtf-2026-10-30",
+    date: "2026-10-30",
+    headline: "How does McDonnell case impact the defense of Sen. Louise Lucas?",
+    outlet: "WVTF",
+    url: "https://www.wvtf.org/news/2026-10-30/how-does-mcdonnell-case-impact-the-defense-of-sen-louise-lucas",
+    people: [{ name: "L. Louise Lucas", office: "State Senator" }],
+    scope: "statewide",
+    locations: ["senate"],
+  },
+  {
+    id: "spanberger-nbc-nightly-backup-generators-data-centers-governor-2026-10-29",
+    date: "2026-10-29",
+    filed: "2026-10-30",
+    headline: "On NBC Nightly News, Governor Spanberger Highlights Work to Limit Backup Generator Use, Aggressively Hold Data Centers Accountable",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1127820-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-gm-data-privacy-settlement-oag-2026-10-29",
+    date: "2026-10-29",
+    filed: "2026-10-30",
+    headline: "Attorney General Jones Secures $6.5 Million for the Commonwealth in General Motors Data Privacy Settlement",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3145-attorney-general-jones-secures-6-5-million-for-the-commonwealth-in-general-motors-data-privacy-settlement",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
     id: "macy-dopesick-campaign-trail-cline-va06-vamercury-2026-10-29",
     date: "2026-10-29",
     headline: "From ‘Dopesick’ to the campaign trail: Beth Macy takes on Ben Cline in Virginia’s 6th District",
