@@ -4,7 +4,9 @@ Fairfax County + Prince William official votes -> recaps (Scott OK'd 2026-10-28)
 Votes come ONLY from official records, each decision carries its source link. Never from video/transcript.
   fairfax-county-bos  : Clerk's Board Summary PDF ("Report of Actions"), fairfaxcounty.gov/boardofsupervisors/board-meeting-summaries
                         (full-Board meetings only; committee meetings have no posted action record -> stay pending)
-  fairfax-county-schools: FCPS BoardDocs (vsba/fairfax) structured minutes (BD-GetMinutes) for the matching meeting
+  fairfax-county-schools: FCPS BoardDocs (vsba/fairfax) structured minutes (BD-GetMinutes) for the matching meeting;
+                        if empty, OCR of the meeting's own APPROVED scanned minutes PDF (scripts/fcps_minutes_ocr.py, needs
+                        /workspace/ocrenv with rapidocr_onnxruntime; strict roster/12-vote/date gate, else stays pending; --no-ocr skips)
   pwc-bos             : PWC Board of County Supervisors "Brief" (official action record) on pwcgov.granicus.com MinutesViewer, by clip id
   pwc-schools         : PWCS BoardDocs (vsba/pwcs) structured minutes (BD-GetMinutes)
 Writes/merges src/content/city-recap-fill.json (decisions, noVotesRecorded, links), applied by city-recaps.ts applyFill.
@@ -310,10 +312,21 @@ def main():
                     if sub:  # short closed-meeting clip of a committee/work session: only the closed-meeting motions
                         got = [x for x in got if re.search(r"closed", x["_title"] + x["action"], re.I)]
                     dec = got
-            kind = "boarddocs"
+                elif v == "fairfax-county-schools" and "--no-ocr" not in args:
+                    # FCPS posts most approved minutes only as scanned PDFs: OCR fallback (scripts/fcps_minutes_ocr.py)
+                    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+                    import fcps_minutes_ocr
+                    got, info = fcps_minutes_ocr.fcps_ocr_votes(m["unique"], d, curl, cache, lab)
+                    if got:
+                        sub = r["title"].split(" — ")[1] if " — " in r["title"] else ""
+                        if sub: got = [x for x in got if re.search(r"closed", x["_title"] + x["action"], re.I)]
+                        dec, link, kind = got, info, "boarddocs-ocr"
+                    else:
+                        r["_why"] = info
+            if kind != "boarddocs-ocr": kind = "boarddocs"
         prev = fill.get(r["slug"], {})
         if dec is None:
-            report.append((v, r["slug"], r["dateLabel"], "pending", 0)); continue
+            report.append((v, r["slug"], r["dateLabel"], "pending", 0, r.get("_why", ""))); continue
         for x in dec: x.pop("_title", None)
         keep = [x for x in prev.get("decisions", []) if not any(x["action"] == y["action"] for y in dec)]
         f = dict(prev)
@@ -326,7 +339,7 @@ def main():
     json.dump(fill, open(OUT, "w"), indent=1, ensure_ascii=False)
     json.dump(report, open(os.path.join(cache, "report.json"), "w"), indent=1)
     from collections import Counter
-    c = Counter((a, s) for a, _, _, s, _ in report)
+    c = Counter((x[0], x[3]) for x in report)
     for k in sorted(c): print(k, c[k])
     print(f"wrote {OUT}")
 
