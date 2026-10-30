@@ -2,6 +2,7 @@
 import type { VboeMeeting } from "./va-boe";
 
 export const VBOE_MEETINGS: VboeMeeting[] = [
+  { id: "vboe-COnQGrgBtsw", youtubeId: "COnQGrgBtsw", date: "2026-10-29", dateLabel: "Oct 29, 2026", title: "Business Meeting", duration: "2h 14m", durationS: 8090 },
   { id: "vboe-P2m7OZiEvpA", youtubeId: "P2m7OZiEvpA", date: "2026-10-28", dateLabel: "Oct 28, 2026", title: "Work Session (Part 2)", duration: "5h 21m", durationS: 19298 },
   { id: "vboe-xkwuQo_1YiA", youtubeId: "xkwuQo_1YiA", date: "2026-09-24", dateLabel: "Sep 24, 2026", title: "Business Meeting", duration: "2h 27m", durationS: 8865 },
   { id: "vboe-5jk9cnZ8jHM", youtubeId: "5jk9cnZ8jHM", date: "2026-09-23", dateLabel: "Sep 23, 2026", title: "Work Session (Part 2)", duration: "5h 25m", durationS: 19509 },
