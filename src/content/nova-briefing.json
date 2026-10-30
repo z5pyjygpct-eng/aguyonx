@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,231 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-30",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 29, Thursday) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched on the article page and Oct 29 ET publish date checked on each article page). Sources checked: RSS from ARLnow, FFXnow, Annandale Today, Potomac Local, Blue Ridge Leader (no Oct 29 items), the Loudoun County news flash, Loudoun Times-Mirror, Prince William Times, Patch Leesburg, WUSA9, NBC Washington and WTOP (Virginia feed); Loudoun Now and InsideNoVa homepages. News.ts Oct 29 items were statewide, so none qualified. Caveats: capped; 40 candidate pages checked (the 40-page guide) and 24 kept. 2 failed verification (WUSA9 Loudoun bicyclist and Bhatt trial pages returned HTTP 403), 5%. Screened out on the date check: InsideNoVa Gainesville North Korean remote-work plea (Oct 30), Manassas crash victims identified (Oct 26), Bhatt trial day 11 (Oct 27); Loudoun County street lighting program news flash (posted Sept. 21, re-sent in the feed). Gaps: Loudoun Now article feed, Fairfax Times and InsideNoVa search feeds returned HTTP 429 or HTML, the FOX 5 Virginia feed returned 404, Connection Newspapers feed returned 500. Left out as same-event duplicates: Loudoun Now Purcellville displacement and Loudoun County Purcellville evacuation and LCSO bicyclist releases and Patch versions (covered by Loudoun Times-Mirror and Loudoun Now), InsideNoVa sheep (covered by Potomac Local), Potomac Local Hellwig Park playground (in the Oct 29 edition via InsideNoVa). Left out for the cap: ARLnow Douglas Park spooky house contest and PopUp Bagels Ballston; FFXnow Chantilly restaurant; Loudoun Times-Mirror Leesburg Halloween parade photos; Loudoun County PRCS awards. Also left out: ARLnow I-395 chase sentencing (locality unclear), a Potomac Local police blotter, Alexandria, Stafford, Spotsylvania, DC, statewide and earnings items.",
+      "items": [
+        {
+          "id": "removal-of-flock-cameras-arlnow-2026-10-29",
+          "county": "Arlington",
+          "headline": "Removal of Flock cameras in Arlington draws flak from all sides at town hall",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/29/removal-of-flock-cameras-in-arlington-draws-criticism-from-all-sides-at-town-hall/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "assault-in-park-near-arlnow-2026-10-29",
+          "county": "Arlington",
+          "headline": "Assault in park near W-L raises safety concerns for local parents",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/29/assault-in-park-near-w-l-raises-safety-concerns-for-local-parents/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "number-of-jobless-arlington-arlnow-2026-10-29",
+          "county": "Arlington",
+          "headline": "Number of jobless Arlington residents still up nearly 25% since Trump’s return",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/29/number-of-jobless-arlington-residents-still-up-nearly-25-since-trumps-return/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-gop-enters-final-arlnow-2026-10-29",
+          "county": "Arlington",
+          "headline": "Arlington GOP enters final election push with little mention of local candidates",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/29/arlington-gop-enters-final-election-push-with-little-mention-of-local-candidates/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "herndon-seeks-main-street-ffxnow-2026-10-29",
+          "county": "Fairfax",
+          "headline": "Herndon seeks ‘Main Street’ status to guide downtown revitalization",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/29/herndon-seeks-main-street-status-to-guide-downtown-revitalization/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-countys-jobless-rate-ffxnow-2026-10-29",
+          "county": "Fairfax",
+          "headline": "Fairfax County’s jobless rate still elevated compared to before Trump’s second term",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/29/fairfax-countys-jobless-rate-still-elevated-compared-to-before-trumps-second-term/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "exinova-physical-therapist-faces-ffxnow-2026-10-29",
+          "county": "Fairfax",
+          "headline": "Ex-Inova physical therapist faces more sexual assault accusations after 2025 arrest",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/29/inova-physical-therapist-faces-more-sexual-assault-accusations-after-2025-arrest/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-circuit-court-offers-ffxnow-2026-10-29",
+          "county": "Fairfax",
+          "headline": "Fairfax Circuit Court offers free alerts for property record fraud",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/29/fairfax-circuit-court-offers-free-alerts-for-property-record-fraud/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "aerospace-defense-company-picks-ffxnow-2026-10-29",
+          "county": "Fairfax",
+          "headline": "Aerospace defense company picks Reston for new East Coast HQ",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/29/aerospace-defense-company-picks-reston-for-new-east-coast-hq/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "virginia-man-runs-200-ffxnow-2026-10-29",
+          "county": "Fairfax",
+          "headline": "Virginia man runs 200 miles to Fairfax to raise awareness of opioid addiction",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/29/virginia-man-runs-200-miles-to-fairfax-to-raise-awareness-of-opioid-addiction/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "dominion-wants-to-construct-annandaletoday-2026-10-29",
+          "county": "Fairfax",
+          "headline": "Dominion wants to construct a monopole at the Lincolnia pool for a data center",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/dominion-wants-to-construct-a-monopole-at-the-lincolnia-pool-for-a-data-center/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "board-approves-rezoning-for-annandaletoday-2026-10-29",
+          "county": "Fairfax",
+          "headline": "Board approves rezoning for Gallows Road housing project",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/board-approves-rezoning-for-gallows-road-housing-project/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "nearly-60-residents-displaced-loudountimesmirror-2026-10-29",
+          "county": "Loudoun",
+          "headline": "Nearly 60 residents displaced for unsafe conditions at Purcellville apartment complex",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/community/nearly-60-residents-displaced-for-unsafe-conditions-at-purcellville-apartment-complex/article_30e05f81-613c-4327-a932-adf430bf99af.html",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lcps-predicts-10-enrollment-loudountimesmirror-2026-10-29",
+          "county": "Loudoun",
+          "headline": "LCPS predicts 10% enrollment drop by 2032",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/education/lcps-predicts-10-enrollment-drop-by-2032/article_4acdc5c8-3f1a-427b-b662-3208b00e6401.html",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "leesburg-man-gets-8-loudountimesmirror-2026-10-29",
+          "county": "Loudoun",
+          "headline": "Leesburg man gets 8 years for distributing child sexual abuse material",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/leesburg-man-gets-8-years-for-distributing-child-sexual-abuse-material/article_5cdf0410-5800-49f7-b0f1-83c116030064.html",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-charged-with-sexually-loudountimesmirror-2026-10-29",
+          "county": "Loudoun",
+          "headline": "Man charged with sexually assaulting woman near Ashburn Metro station",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/man-charged-with-sexually-assaulting-woman-near-ashburn-metro-station/article_16db36ec-2b46-4a2d-a659-712d268b4dc2.html",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "business-community-gathers-for-loudountimesmirror-2026-10-29",
+          "county": "Loudoun",
+          "headline": "Business community gathers for energy panel as anti-merger protesters rally outside",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/business-community-gathers-for-energy-panel-as-anti-merger-protesters-rally-outside/article_049cb0fe-e8e7-46df-aa1c-08f18cbaebad.html",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "option-of-school-closures-wtop-2026-10-29",
+          "county": "Loudoun",
+          "headline": "Option of school closures piques Loudoun Co. School Board",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/option-of-school-closures-piques-loudoun-co-school-board/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-county-is-next-potomaclocal-2026-10-29",
+          "county": "Loudoun",
+          "headline": "Loudoun County is next in line to consider school closures after Prince William",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/29/loudoun-school-board-largely-rejects-closing-four-western-elementary-schools/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "bicyclist-killed-in-st-loudounnow-2026-10-29",
+          "county": "Loudoun",
+          "headline": "Bicyclist Killed in St. Louis Road Crash",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/bicyclist-killed-in-st-louis-road-crash/article_38dcb193-70ba-4292-9329-562ed005793e.html",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "registrar-says-federal-monitors-princewilliamtimes-2026-10-29",
+          "county": "Prince William",
+          "headline": "Registrar says federal monitors won’t be allowed inside the county's polls on Election Day",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/registrar-says-federal-monitors-won-t-be-allowed-inside-the-countys-polls-on-election-day/article_c5284163-8734-4e4d-9d11-71c7982e737a.html",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "banking-records-tesla-sale-wtop-2026-10-29",
+          "county": "Prince William",
+          "headline": "Banking records, Tesla sale highlighted as prosecution nears end of Naresh Bhatt murder case",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/banking-records-tesla-sale-highlighted-as-prosecution-nears-end-of-naresh-bhatt-murder-case/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-park-police-seek-potomaclocal-2026-10-29",
+          "county": "Prince William",
+          "headline": "Manassas Park police seek owner of runaway sheep",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/29/manassas-park-police-seek-owner-of-runaway-sheep/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "parent-student-press-school-potomaclocal-2026-10-29",
+          "county": "Prince William",
+          "headline": "Parent, student press School Board on locked bathrooms at Colgan High",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/29/parent-student-press-school-board-on-locked-bathrooms-at-colgan-high/",
+          "published": "2026-10-29",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-10-29",
       "status": "ok",
