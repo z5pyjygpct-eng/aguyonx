@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,244 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-10-31",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 30, Friday) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched on the article page and Oct 30 ET publish date checked on each article page). Sources checked: RSS from ARLnow, FFXnow, ALXnow, Annandale Today, Potomac Local, Blue Ridge Leader, the Loudoun County news flash (no Oct 30 items), Fairfax Times and Loudoun Now search feeds (press releases only on Oct 30), Patch Leesburg/Ashburn, NBC Washington (no Oct 30 Northern Virginia items), WUSA9 and WTOP (Virginia feed); Loudoun Now homepage. News.ts Oct 30 items were statewide, so none qualified. Caveats: capped; 32 candidate pages checked and 25 kept. 2 failed verification (Patch Ashburn Dulles-area shopping center and Loudoun drive-thru Chipotle pages served no readable headline or date), 6%. Screened out on the date check: Loudoun Now Loudoun Valley time capsule (Oct 29). Left out on locality: Alexandria and Falls Church items (independent cities outside the four), Stafford and Fredericksburg items, ARLnow Food for Neighbors anniversary (regional program), Patch NoVA airport teen murder arrest. Left out to stay under the 25 cap: ARLnow Pentagon City ice rink, FFXnow Centreville Malaysian restaurant closing. Left out as same-event duplicates: Purcellville apartment evacuation follow-ups (Loudoun Now, Blue Ridge Leader, WUSA9; covered Oct 29), WUSA9 W-L substitute sentencing (covered by ARLnow), Patch Loudoun radios (covered by Loudoun Now). Gaps: Prince William Times and Loudoun Times-Mirror feeds returned HTTP 429 twice; InsideNoVa and WTOP's older region feed returned HTML instead of RSS.",
+      "items": [
+        {
+          "id": "former-wl-substitute-teacher-arlnow-2026-10-30",
+          "county": "Arlington",
+          "headline": "Former W-L substitute teacher sentenced to five years for sexual conduct with student",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/30/former-w-l-substitute-teacher-sentenced-to-five-years-for-relationship-with-student/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lgbtq-panels-new-chair-arlnow-2026-10-30",
+          "county": "Arlington",
+          "headline": "LGBTQ panel’s new chair seeks more face time with Arlington county manager",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/30/lgbtq-panels-new-chair-seeks-more-face-time-with-arlington-county-manager/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "popup-art-festival-on-arlnow-2026-10-30",
+          "county": "Arlington",
+          "headline": "Pop-up art festival on Langston Blvd brought exposure for artists, family fun",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/30/pop-up-art-festival-on-langston-blvd-brought-exposure-for-artists-family-fun/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "breaking-man-hit-by-arlnow-2026-10-30",
+          "county": "Arlington",
+          "headline": "BREAKING: Man hit by train at Virginia Square Metro station",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/30/breaking-man-hit-by-train-at-virginia-square-metro-station/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-board-tangles-with-arlnow-2026-10-30",
+          "county": "Arlington",
+          "headline": "County Board tangles with legislators over who should pay Metro costs",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/30/county-board-tangles-with-legislators-over-who-should-pay-metro-costs/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "democratic-leaders-aim-to-arlnow-2026-10-30",
+          "county": "Arlington",
+          "headline": "Democratic leaders aim to pay thank-you visits to all Arlington precincts",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/10/30/democratic-leaders-aim-to-pay-thank-you-visits-to-all-arlington-precincts/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "neighborhood-reps-oppose-rule-annandaletoday-2026-10-30",
+          "county": "Fairfax",
+          "headline": "Neighborhood reps oppose rule changes for ALUs",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/neighborhood-reps-oppose-rule-changes-for-alus/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-seek-bank-jugging-annandaletoday-2026-10-30",
+          "county": "Fairfax",
+          "headline": "Police seek bank jugging suspect",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/police-seek-bank-jugging-suspect/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "tj-students-send-soccer-annandaletoday-2026-10-30",
+          "county": "Fairfax",
+          "headline": "TJ students send soccer gear to kids in eight countries",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/tj-students-send-soccer-gear-to-kids-in-eight-countries/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "womens-soccer-association-saluted-ffxnow-2026-10-30",
+          "county": "Fairfax",
+          "headline": "Women’s Soccer Association saluted for 50 years of promoting sport in Fairfax",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/30/womens-soccer-association-saluted-for-50-years-of-promoting-sport-in-fairfax/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "herndon-vice-mayor-says-ffxnow-2026-10-30",
+          "county": "Fairfax",
+          "headline": "Herndon vice mayor says steady leadership needed as big decisions face next town council",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/30/herndon-vice-mayor-says-steady-leadership-needed-as-big-decisions-face-next-town-council/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "falafel-chain-opens-larger-ffxnow-2026-10-30",
+          "county": "Fairfax",
+          "headline": "Falafel chain opens larger shop at Mosaic District with startup incubator",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/30/falafel-chain-opens-larger-shop-at-mosaic-district-with-startup-incubator/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "suspect-in-fatal-stabbing-ffxnow-2026-10-30",
+          "county": "Fairfax",
+          "headline": "Suspect in fatal stabbing at Hybla Valley bus stop will undergo competency review",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/30/suspect-in-fatal-stabbing-at-hybla-valley-bus-stop-will-undergo-competency-review/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "critics-of-license-plate-ffxnow-2026-10-30",
+          "county": "Fairfax",
+          "headline": "Critics of license plate readers call on leaders to ‘de-Flock’ Fairfax",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/10/30/critics-of-license-plate-readers-call-on-leaders-to-de-flock-fairfax/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "he-advocated-for-more-wtop-2026-10-30",
+          "county": "Fairfax",
+          "headline": "He advocated for more cameras to address crime. Now, Fairfax Co. supervisor may want to end the program",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/he-advocated-for-more-cameras-to-address-crime-now-fairfax-co-supervisor-may-want-to-end-the-program/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "gainesville-residents-call-for-potomaclocal-2026-10-30",
+          "county": "Prince William",
+          "headline": "Gainesville residents call for 12-month pause on data center applications",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/30/gainesville-residents-call-for-12-month-pause-on-data-center-applications/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "gainesville-man-pleads-guilty-potomaclocal-2026-10-30",
+          "county": "Prince William",
+          "headline": "Gainesville man pleads guilty in North Korean remote-employment scheme",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/30/gainesville-man-pleads-guilty-north-korean-remote-employment-scheme/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "admissibility-of-mamta-kafle-potomaclocal-2026-10-30",
+          "county": "Prince William",
+          "headline": "Admissibility of Mamta Kafle Bhatt's accusations of domestic abuse debated",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/30/bhatt-trial-debates-admissibility-of-domestic-abuse-accusations/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-co-turf-wtop-2026-10-30",
+          "county": "Prince William",
+          "headline": "Prince William Co. turf management program opens $9M turf research center",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/10/prince-william-co-turf-management-program-opens-9m-turf-research-center/",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "community-demands-safety-upgrades-loudounnow-2026-10-30",
+          "county": "Loudoun",
+          "headline": "Community Demands Safety Upgrades Near Stone Bridge High School as Pedestrian Crashes Continue",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/community-demands-safety-upgrades-near-stone-bridge-high-school-as-pedestrian-crashes-continue/article_c5b926b0-10a4-4111-b4d6-1eeb34054425.html",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "spence-responds-to-concerns-loudounnow-2026-10-30",
+          "county": "Loudoun",
+          "headline": "Spence Responds to Concerns About School Budget, Enrollment",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/education/spence-responds-to-concerns-about-school-budget-enrollment/article_676f7e6a-d890-4ad8-9c59-7448c5a1bd7e.html",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-law-enforcement-fully-loudounnow-2026-10-30",
+          "county": "Loudoun",
+          "headline": "Loudoun Law Enforcement Fully Encrypts Radios as Agencies Vow Transparency",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/loudoun-law-enforcement-fully-encrypts-radios-as-agencies-vow-transparency/article_256d06f8-9752-4dfd-a36b-1bbb6a1f3f3a.html",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "mother-charged-with-homicide-loudounnow-2026-10-30",
+          "county": "Loudoun",
+          "headline": "Mother Charged with Homicide in Infant’s Death Denied Bond",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/mother-charged-with-homicide-in-infant-s-death-denied-bond/article_08b62c66-071e-4ae0-84a0-2e3ef0981313.html",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "tension-increases-in-loudouns-loudounnow-2026-10-30",
+          "county": "Loudoun",
+          "headline": "Tension Increases in Loudoun’s Mayoral Races Ahead of Election",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/tension-increases-in-loudoun-s-mayoral-races-ahead-of-election/article_db82f089-71fd-41cb-9edd-ae7c5336d2dc.html",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "middleburgs-mandatory-water-restrictions-loudounnow-2026-10-30",
+          "county": "Loudoun",
+          "headline": "Middleburg's Mandatory Water Restrictions to End",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/towns/middleburgs-mandatory-water-restrictions-to-end/article_0fbcff3a-cb2e-42e4-8042-b074132f345e.html",
+          "published": "2026-10-30",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Prince William Times feed: HTTP 429",
+        "Loudoun Times-Mirror feed: HTTP 429",
+        "InsideNoVa feed: HTML, not RSS"
+      ]
+    },
     {
       "date": "2026-10-30",
       "status": "ok",
