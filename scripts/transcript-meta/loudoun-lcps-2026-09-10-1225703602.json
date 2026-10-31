@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-lcps/transcripts/2026-09-10-1225703602.json",
+  "outBase": "public/files/find-the-moment/loudoun-lcps/transcripts/coraggio-transcript-loudoun-lcps-2026-09-10-joint-committee-of-the-loudoun-county-school-board-lcsb-and-loudoun-county-board",
+  "title": "Loudoun County School Board, Joint Committee of the Loudoun County School Board (LCSB) and Loudoun County Board of Supervisors (BOS) Meeting, Thursday, September 10, 2026",
+  "shortTitle": "Joint Committee of the Loudoun County School Board (LCSB) and Loudoun County Board of Supervisors (BOS) Meeting \u00b7 Sep 10, 2026",
+  "date": "Thursday, September 10, 2026",
+  "place": "Loudoun County Public Schools / School Board meeting (see BoardDocs / LCPS-TV)",
+  "length": "1h 8m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Vimeo / LCPS-TV)",
+      "href": "https://player.vimeo.com/video/1225703602?rel=0"
+    },
+    {
+      "label": "BoardDocs (School Board)",
+      "href": "https://go.boarddocs.com/vsba/loudoun/Board.nsf/Public"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-30"
+}

@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/pwc-schools/transcripts/pwc-sb-DbsiIdl65v0.json",
+  "outBase": "public/files/find-the-moment/pwc-schools/transcripts/coraggio-transcript-pwc-schools-2025-02-10-prince-william-county-school-board-public-hearing",
+  "title": "Prince William County School Board Public Hearing, Monday, February 10, 2025",
+  "shortTitle": "School Board Public Hearing \u00b7 Feb 10, 2025",
+  "date": "Monday, February 10, 2025",
+  "place": "Prince William County School Board, Virginia",
+  "length": "3m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=DbsiIdl65v0"
+    },
+    {
+      "label": "Official School Board page (PWCS)",
+      "href": "https://www.pwcs.edu/about/school_board/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-30"
+}
