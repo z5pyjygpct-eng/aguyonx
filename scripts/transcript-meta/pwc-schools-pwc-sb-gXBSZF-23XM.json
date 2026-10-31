@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/pwc-schools/transcripts/pwc-sb-gXBSZF-23XM.json",
+  "outBase": "public/files/find-the-moment/pwc-schools/transcripts/coraggio-transcript-pwc-schools-2024-12-04-prince-william-county-school-board-meeting",
+  "title": "Prince William County School Board Meeting, Wednesday, December 4, 2024",
+  "shortTitle": "School Board Meeting \u00b7 Dec 4, 2024",
+  "date": "Wednesday, December 4, 2024",
+  "place": "Prince William County School Board, Virginia",
+  "length": "2h 57m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=gXBSZF-23XM"
+    },
+    {
+      "label": "Official School Board page (PWCS)",
+      "href": "https://www.pwcs.edu/about/school_board/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-31"
+}

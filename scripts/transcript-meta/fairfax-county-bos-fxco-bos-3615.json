@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3615.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2024-11-26-fairfax-county-budget-policy-joint-school-board-committee",
+  "title": "Fairfax County Budget Policy Joint School Board Committee, Tuesday, November 26, 2024",
+  "shortTitle": "Budget Policy Joint School Board Committee \u00b7 Nov 26, 2024",
+  "date": "Tuesday, November 26, 2024",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "1h 35m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/3615"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-31"
+}

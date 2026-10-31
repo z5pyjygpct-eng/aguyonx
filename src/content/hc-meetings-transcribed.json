@@ -6674,5 +6674,385 @@
     "duration": "1h 57m",
     "provider": "youtube",
     "playerUrl": "https://www.youtube.com/watch?v=xWa_LkErueI"
+  },
+  {
+    "id": "fxco-bos-3599",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "date": "2024-11-19",
+    "dateLabel": "Nov 19, 2024",
+    "duration": "6h 0m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3599?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3610",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Legislative Committee",
+    "date": "2024-11-26",
+    "dateLabel": "Nov 26, 2024",
+    "duration": "1h 4m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3610?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3611",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Land Use Committee",
+    "date": "2024-11-26",
+    "dateLabel": "Nov 26, 2024",
+    "duration": "47m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3611?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3614",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Housing Committee",
+    "date": "2024-11-26",
+    "dateLabel": "Nov 26, 2024",
+    "duration": "1h 0m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3614?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3615",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Budget Policy Joint School Board Committee",
+    "date": "2024-11-26",
+    "dateLabel": "Nov 26, 2024",
+    "duration": "1h 35m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3615?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3618",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "date": "2024-12-03",
+    "dateLabel": "Dec 3, 2024",
+    "duration": "5h 14m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3618?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3628",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Economic Initiatives Committee",
+    "date": "2024-12-10",
+    "dateLabel": "Dec 10, 2024",
+    "duration": "1h 13m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3628?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3629",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Environmental Committee",
+    "date": "2024-12-10",
+    "dateLabel": "Dec 10, 2024",
+    "duration": "1h 31m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3629?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3639",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "date": "2025-01-14",
+    "dateLabel": "Jan 14, 2025",
+    "duration": "7h 1m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3639?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3651",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Legislative Committee",
+    "date": "2025-01-17",
+    "dateLabel": "Jan 17, 2025",
+    "duration": "2h 8m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3651?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3653",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Legislative Committee",
+    "date": "2025-01-24",
+    "dateLabel": "Jan 24, 2025",
+    "duration": "1h 57m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3653?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3655",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Land Use Policy Committee",
+    "date": "2025-01-28",
+    "dateLabel": "Jan 28, 2025",
+    "duration": "1h 28m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3655?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3657",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Health and Human Services Committee",
+    "date": "2025-01-28",
+    "dateLabel": "Jan 28, 2025",
+    "duration": "1h 29m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3657?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3666",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Legislative Committee",
+    "date": "2025-01-31",
+    "dateLabel": "Jan 31, 2025",
+    "duration": "1h 28m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3666?redirect=true"
+  },
+  {
+    "id": "fxco-bos-3668",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "date": "2025-02-04",
+    "dateLabel": "Feb 4, 2025",
+    "duration": "4h 52m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/3668?redirect=true"
+  },
+  {
+    "id": "fxco-sb-5iss9ermvPk",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "date": "2024-12-19",
+    "dateLabel": "Dec 19, 2024",
+    "duration": "3h 19m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=5iss9ermvPk"
+  },
+  {
+    "id": "fxco-sb-99mfihXfIbo",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "date": "2024-12-05",
+    "dateLabel": "Dec 5, 2024",
+    "duration": "4h 33m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=99mfihXfIbo"
+  },
+  {
+    "id": "fxco-sb-IzSGZuRvJ-Q",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Work Session",
+    "date": "2024-12-03",
+    "dateLabel": "Dec 3, 2024",
+    "duration": "5h 3m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=IzSGZuRvJ-Q"
+  },
+  {
+    "id": "fxco-sb-KrjkkLhurQo",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "date": "2025-01-09",
+    "dateLabel": "Jan 9, 2025",
+    "duration": "2h 49m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=KrjkkLhurQo"
+  },
+  {
+    "id": "fxco-sb-MAJhM3Cdf5k",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Work Session",
+    "date": "2024-12-17",
+    "dateLabel": "Dec 17, 2024",
+    "duration": "1h 11m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=MAJhM3Cdf5k"
+  },
+  {
+    "id": "fxco-sb-Osbw021YF94",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Work Session",
+    "date": "2025-01-14",
+    "dateLabel": "Jan 14, 2025",
+    "duration": "3h 56m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=Osbw021YF94"
+  },
+  {
+    "id": "fxco-sb-_uKkmEEH_iw",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "date": "2025-02-06",
+    "dateLabel": "Feb 6, 2025",
+    "duration": "3h 28m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=_uKkmEEH_iw"
+  },
+  {
+    "id": "fxco-sb-bR8G7tJMjw4",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "date": "2025-01-23",
+    "dateLabel": "Jan 23, 2025",
+    "duration": "4h 26m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=bR8G7tJMjw4"
+  },
+  {
+    "id": "fxco-sb-cnCsvBC_M_s",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Work Session",
+    "date": "2025-02-04",
+    "dateLabel": "Feb 4, 2025",
+    "duration": "5h 6m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=cnCsvBC_M_s"
+  },
+  {
+    "id": "fxco-sb-ykZ_jyOA-SU",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Budget Public Hearing",
+    "date": "2025-02-04",
+    "dateLabel": "Feb 4, 2025",
+    "duration": "42m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=ykZ_jyOA-SU"
+  },
+  {
+    "id": "pwc-bos-3578",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting — Work Session",
+    "date": "2024-11-26",
+    "dateLabel": "Nov 26, 2024",
+    "duration": "6h 53m",
+    "provider": "granicus-page",
+    "playerUrl": "https://pwcgov.granicus.com/player/clip/3578?redirect=true"
+  },
+  {
+    "id": "pwc-bos-3581",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting — Joint Legislative Meeting",
+    "date": "2024-12-02",
+    "dateLabel": "Dec 2, 2024",
+    "duration": "1h 34m",
+    "provider": "granicus-page",
+    "playerUrl": "https://pwcgov.granicus.com/player/clip/3581?redirect=true"
+  },
+  {
+    "id": "pwc-bos-3586",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "date": "2024-12-10",
+    "dateLabel": "Dec 10, 2024",
+    "duration": "9h 3m",
+    "provider": "granicus-page",
+    "playerUrl": "https://pwcgov.granicus.com/player/clip/3586?redirect=true"
+  },
+  {
+    "id": "pwc-bos-3589",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "date": "2024-12-17",
+    "dateLabel": "Dec 17, 2024",
+    "duration": "3h 6m",
+    "provider": "granicus-page",
+    "playerUrl": "https://pwcgov.granicus.com/player/clip/3589?redirect=true"
+  },
+  {
+    "id": "pwc-bos-3590",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors — Joint Meeting with the Prince William County School Board",
+    "date": "2024-12-17",
+    "dateLabel": "Dec 17, 2024",
+    "duration": "1h 17m",
+    "provider": "granicus-page",
+    "playerUrl": "https://pwcgov.granicus.com/player/clip/3590?redirect=true"
+  },
+  {
+    "id": "pwc-bos-3591",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors — Organizational Meeting",
+    "date": "2025-01-14",
+    "dateLabel": "Jan 14, 2025",
+    "duration": "5h 7m",
+    "provider": "granicus-page",
+    "playerUrl": "https://pwcgov.granicus.com/player/clip/3591?redirect=true"
+  },
+  {
+    "id": "pwc-bos-3593",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "date": "2025-01-21",
+    "dateLabel": "Jan 21, 2025",
+    "duration": "3h 20m",
+    "provider": "granicus-page",
+    "playerUrl": "https://pwcgov.granicus.com/player/clip/3593?redirect=true"
+  },
+  {
+    "id": "pwc-bos-3599",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "date": "2025-02-04",
+    "dateLabel": "Feb 4, 2025",
+    "duration": "2h 40m",
+    "provider": "granicus-page",
+    "playerUrl": "https://pwcgov.granicus.com/player/clip/3599?redirect=true"
+  },
+  {
+    "id": "pwc-sb-9Xyl_4jwK9Y",
+    "venue": "pwc-schools",
+    "title": "Prince William County School Board Meeting",
+    "date": "2025-01-08",
+    "dateLabel": "Jan 8, 2025",
+    "duration": "1h 28m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=9Xyl_4jwK9Y"
+  },
+  {
+    "id": "pwc-sb-TtxSw5Fp1uA",
+    "venue": "pwc-schools",
+    "title": "Prince William County School Board Work Session - January 15, 2025 - Capital Improvement Program",
+    "date": "2025-01-15",
+    "dateLabel": "Jan 15, 2025",
+    "duration": "1h 57m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=TtxSw5Fp1uA"
+  },
+  {
+    "id": "pwc-sb-gXBSZF-23XM",
+    "venue": "pwc-schools",
+    "title": "Prince William County School Board Meeting",
+    "date": "2024-12-04",
+    "dateLabel": "Dec 4, 2024",
+    "duration": "2h 57m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=gXBSZF-23XM"
+  },
+  {
+    "id": "pwc-sb-xE2AIcwvvK4",
+    "venue": "pwc-schools",
+    "title": "Prince William County School Board Meeting",
+    "date": "2025-01-22",
+    "dateLabel": "Jan 22, 2025",
+    "duration": "1h 33m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=xE2AIcwvvK4"
+  },
+  {
+    "id": "pwc-sb-xxeNSdmp-z4",
+    "venue": "pwc-schools",
+    "title": "Prince William County School Board Meeting",
+    "date": "2025-02-05",
+    "dateLabel": "Feb 5, 2025",
+    "duration": "2h 36m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=xxeNSdmp-z4"
   }
 ]

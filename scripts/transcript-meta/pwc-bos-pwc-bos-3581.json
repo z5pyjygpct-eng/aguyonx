@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3581.json",
+  "outBase": "public/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2024-12-02-prince-william-board-of-county-supervisors-meeting-joint-legislative-meeting",
+  "title": "Prince William Board of County Supervisors Meeting \u2014 Joint Legislative Meeting, Monday, December 2, 2024",
+  "shortTitle": "Prince William Board of County Supervisors Meeting \u2014 Joint Legislative Meeting \u00b7 Dec 2, 2024",
+  "date": "Monday, December 2, 2024",
+  "place": "Prince William County Board of County Supervisors, Virginia",
+  "length": "1h 34m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Prince William County, Granicus)",
+      "href": "https://pwcgov.granicus.com/player/clip/3581"
+    },
+    {
+      "label": "Official Board of County Supervisors page (Prince William County)",
+      "href": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-31"
+}
