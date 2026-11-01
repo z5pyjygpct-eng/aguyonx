@@ -56,6 +56,16 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "virginia-dc-sue-over-arch-arlnow-2026-10-31",
+    date: "2026-10-31",
+    filed: "2026-11-01",
+    headline: "Virginia and D.C. sue over arch with construction potentially set to start next week",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/10/31/virginia-and-d-c-sue-over-arch-with-construction-potentially-set-to-start-next-week/",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "local",
+  },
+  {
     id: "bank-of-america-coming-annandaletoday-2026-10-31",
     date: "2026-10-31",
     filed: "2026-11-01",
