@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,93 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-01",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Oct 31, Saturday) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched on the article page, Oct 31 ET publish date checked on the article page or the outlet's feed). Sources checked: RSS from ARLnow, FFXnow, ALXnow, Annandale Today, Potomac Local, Blue Ridge Leader, the Loudoun County news flash (no Oct 31 items), Loudoun Now and Loudoun Times-Mirror search feeds, Patch Leesburg, NBC Washington Northern Virginia, WUSA9 Virginia and WTOP's main feed. News.ts had no Oct 31 items. 10 candidate pages checked, 8 kept, 0 failed verification. Left out on locality: ARLnow and Patch items on Virginia and D.C. suing over the memorial arch (state and federal case, locality unclear), Potomac Local Stafford house fire, ALXnow Alexandria items. Left out as a same-event duplicate: NBC Washington USDA housing evacuation in Loudoun (the Purcellville apartment evacuation was covered Oct 29). Loudoun Now's Oct 31 feed was otherwise paid press releases, which were skipped. Gaps: no Arlington items qualified for Oct 31 (ARLnow's only local post was the arch lawsuit). Prince William Times and Fairfax Times feeds returned HTTP 429 twice; InsideNoVa's feed returned unreadable XML with no items; WTOP's Virginia region feed returned HTML instead of RSS, and its main feed only held Nov 1 items.",
+      "items": [
+        {
+          "id": "bank-of-america-coming-annandaletoday-2026-10-31",
+          "county": "Fairfax",
+          "headline": "Bank of America coming to Gatehouse Plaza",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/bank-of-america-coming-to-gatehouse-plaza/",
+          "published": "2026-10-31",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "launch-loudoun-offers-free-blueridgeleader-2026-10-31",
+          "county": "Loudoun",
+          "headline": "Launch Loudoun Offers Free Workshops and Resources for Small Businesses",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/launch-loudoun-offers-free-workshops-and-resources-for-small-businesses/",
+          "published": "2026-10-31",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prcs-wins-four-statewide-blueridgeleader-2026-10-31",
+          "county": "Loudoun",
+          "headline": "PRCS Wins Four Statewide Awards",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/prcs-wins-four-statewide-awards/",
+          "published": "2026-10-31",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "leesburg-town-attorney-chris-blueridgeleader-2026-10-31",
+          "county": "Loudoun",
+          "headline": "Leesburg Town Attorney Chris Spera to Retire",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/leesburg-town-attorney-chris-spera-to-retire/",
+          "published": "2026-10-31",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "warner-kaine-stump-in-loudounnow-2026-10-31",
+          "county": "Loudoun",
+          "headline": "Warner, Kaine Stump in Sterling With 72 Hours Until Midterms",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/warner-kaine-stump-in-sterling-with-72-hours-until-midterms/article_3253a922-1d78-40b5-8d33-ebc5fab3d4b4.html",
+          "published": "2026-10-31",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "subramanyam-calls-for-investigation-loudountimesmirror-2026-10-31",
+          "county": "Loudoun",
+          "headline": "Subramanyam calls for investigation after 60 people displaced from Purcellville apartment complex",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/subramanyam-calls-for-investigation-after-60-people-displaced-from-purcellville-apartment-complex/article_c954e3f1-7c06-47b7-8550-2ae1bcb26f76.html",
+          "published": "2026-10-31",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "montclair-home-turns-front-potomaclocal-2026-10-31",
+          "county": "Prince William",
+          "headline": "Montclair home turns front yard into Hogwarts Halloween display with a train that opens into Hogsmeade",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/31/montclair-hogwarts-halloween-display-holly-side/",
+          "published": "2026-10-31",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-dies-after-bmw-potomaclocal-2026-10-31",
+          "county": "Prince William",
+          "headline": "Man dies after BMW crosses into oncoming traffic on Centreville Road, police say",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/10/31/man-dies-after-bmw-crosses-into-oncoming-traffic-on-centreville-road/",
+          "published": "2026-10-31",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Arlington: no qualifying Oct 31 items",
+        "Prince William Times feed: HTTP 429",
+        "Fairfax Times feed: HTTP 429",
+        "InsideNoVa feed: unreadable, no items",
+        "WTOP Virginia feed: HTML instead of RSS"
+      ]
+    },
     {
       "date": "2026-10-31",
       "status": "ok",
