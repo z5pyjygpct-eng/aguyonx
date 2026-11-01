@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-w9-XmV3EVK0.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2024-09-12-fairfax-county-school-board-meeting",
+  "title": "Fairfax County School Board Meeting, Thursday, September 12, 2024",
+  "shortTitle": "School Board Meeting \u00b7 Sep 12, 2024",
+  "date": "Thursday, September 12, 2024",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "3h 53m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=w9-XmV3EVK0"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-31"
+}

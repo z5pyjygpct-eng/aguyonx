@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-i04W3vvtV4w.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2024-10-08-fairfax-county-school-board-work-session",
+  "title": "Fairfax County School Board Work Session, Tuesday, October 8, 2024",
+  "shortTitle": "School Board Work Session \u00b7 Oct 8, 2024",
+  "date": "Tuesday, October 8, 2024",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "4h 35m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=i04W3vvtV4w"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-10-31"
+}
