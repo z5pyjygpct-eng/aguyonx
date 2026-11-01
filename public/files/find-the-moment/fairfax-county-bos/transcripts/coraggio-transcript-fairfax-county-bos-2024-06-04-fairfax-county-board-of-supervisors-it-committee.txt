@@ -1,0 +1,472 @@
+Coraggio Consulting
+Fairfax County Board of Supervisors IT Committee, Tuesday, June 4, 2024
+
+Date: Tuesday, June 4, 2024
+Place: Fairfax County Board of Supervisors, Virginia
+Length: 1h 30m (video)
+Official meeting video (Fairfax County): https://video.fairfaxcounty.gov/player/clip/3368
+Official Board of Supervisors page (Fairfax County): https://www.fairfaxcounty.gov/boardofsupervisors/
+
+Machine transcript (speech-to-text) produced by Coraggio Consulting. Not an official county record. Names and numbers may be misspelled; check the video at the timestamp before quoting.
+Speech-to-text: whisper.cpp, model large-v3-turbo. Produced 2026-11-01. Timestamps are [HH:MM:SS] into the meeting video.
+
+----------------------------------------------------------------------
+
+[00:00:05] All right, I want to go ahead and call this meeting of the Board's Information Technology Committee meeting to end a session. This is my first meeting as chair of the IT committee. I want to thank Supervisor Alcorn, obviously, for his service as the previous chair.
+
+[00:00:27] Went out and attended an ITPAC meeting, what was that, a couple weeks ago, a month ago, to get to know the folks on ITPAC. Interestingly enough, I actually served on ITPAC back as the North Virginia Technology Council's appointee back under Chairman Hanley.
+
+[00:00:47] But anyway, I want to get them more involved in the IT committee. You're going to see a couple of them here. I did speak with Superintendent Reed about filling the open Fairfax County Public Schools spot on ITPAC, and she is working on that.
+
+[00:01:04] A lot of exciting stuff going on around IT. I'd encourage any of my fellow colleagues, if you've got any ideas or thoughts, please share them with me, the things that you want to brought before the committee. I met with Clerk of Court Falcon, Chris Falcon, the other day.
+
+[00:01:22] He's got a lot of interesting things going, said some very nice things about our IT committee and Jay Doshi and folks. So I think we'll get a presentation on that eventually. I know a lot of board members are getting briefed on that. And staff's been working diligently on some things, and AI is one of those.
+
+[00:01:44] It's one of those things that conjures up a lot of adjectives, everything from how useful it is to how scary it is. And I'm happy to say I think we're on top of it and kind of in front of it. So I'm going to turn it over to Greg Scott to take it from there on AI, and then we'll get moving.
+
+[00:02:05] Good morning, Chairman and Board. First of all, I'd like to introduce two other IMPACT members that are joining us today. We have Kathy Walsh, who's representing the Chairman's Office. And then we have Carter Bates, who represents Braddock District. And also, we'll have two members of IPAC on our panel this morning as we talk about AI.
+
+[00:02:26] So we're going to talk a little bit about artificial intelligence. And AI went from this emerging technology to this immediate threat to a compelling opportunity. And so we're going to talk about how we're going to approach AI in Fairfax County and some of the use cases that we're piloting right now.
+
+[00:02:46] So I'll let the rest of the panel introduce themselves, and then we'll do the presentation. Nate Wendland, Deputy Director in DIT. And Maura Power, I'm an IT Program Director in DIT as well.
+
+[00:03:03] Sean Rastetter, Springfield District Representative. Rashnee Goyal, Joinsville District Representative. So I'm going to get into the presentation and talk a little bit about artificial intelligence, specifically generative AI.
+
+[00:03:19] And I think what's really important is to understand what sets generative AI apart from the traditional AI that we've known for so many years. So generative AI is really based off of training of lots and lots of data. So just like you as a human, consider everything that you've learned over your years as different pieces of information and your ability to have your own cognitive thoughts on that.
+
+[00:03:44] Generative AI mimics that. So it takes a bunch of trained data and then it creates new content based off of the data that it's trained. So this is what has really changed the market and changed how a lot of people approach working with AI since it was publicly released in, I think, 2022.
+
+[00:04:04] So that's kind of when a lot of the energy around AI in general got started. So with that, with the advent of the new generative AI and making it more publicly available, we found that there are a lot of opportunities, right?
+
+[00:04:20] So there's opportunities to use this type of technology to really help advance what we're doing here in the county, to help with things like public engagement, to, you know, better connect with our constituents, people who maybe aren't as technologically, you know, adept.
+
+[00:04:38] They can ask questions very easily of how do I do this, how can I do that, and this content can be generated to provide them with that information. But with those opportunities that we have, so come some of those challenges that we've talked through and that I think the part that scares everyone, right?
+
+[00:04:56] How do we make sure we're secure? How do we make sure that our data is protected? How do we protect from false information being out there? So those are all of the things that really started us to get us focused in a very, I think, a good approach in what we've taken so that we can make sure we're on top of this.
+
+[00:05:19] So with those, the areas of focus, we really started with our IT policy advisory committee. So these are folks that are in the market that, you know, have been selected by you guys to really help provide that commercial, that marketplace type of experience and bring that into the government and public sector.
+
+[00:05:42] So we started with conversations with them. We had a lot of very fruitful, I think, conversations around things to be considered of. You know, we looked specifically at other jurisdictions, how other states and folks were also handling it.
+
+[00:05:57] And with that, we decided to approach it from a guideline perspective. So we spend a lot of time working in-house, working with partners across DIT, across other areas within our county government. So Office of County Attorney, the OPA, and really the Policy Advisory Committee and really took an approach to develop some guidelines.
+
+[00:06:22] And underlying all of it, we wanted to make sure we maintain that security posture that we've always had, making sure that we're building processes in place because now artificial intelligence is coming baked into most of the products that are out there.
+
+[00:06:37] So how do we make sure that there's security amongst the new products that are coming in or products that we already have, and then we really started thinking, how can we best develop some business use cases that are driven based off of the needs of Fairfax County, the needs of the community, and the needs of our agencies.
+
+[00:06:55] So with that, you know, again, we started those employee guidelines, and the guidelines we focused, again, internally on Fairfax County employees on how to make sure they are protecting information, make sure that they understand kind of the risks associated with using the publicly available generative AI tools that are out there. So things like ChatGPT, the Microsoft Copilot, you know, Google Gemini, they're all out there. People can use them publicly. So we wanted to make sure people understood what that means when they start putting information in there. And then we also wanted to talk to them and make sure people
+
+[00:07:33] understood the kind of what happens when the technology tools that they have now come with AI and generative AI in it. So what are some good use cases that people can follow? Some principles that we have, because I think responsibility is very important in everything that we do.
+
+[00:07:52] You know, we have our one Fairfax policy. We want to make sure that these technology tools are not based off of anything that could have bias in them. So we want to make sure that the, you know, our, you know, our strategic plan drivers, our One Fairfax policy, all of that type of information is baked into the tools that we start to use. And then again, reinforcing our rigorous security standards and posture. So with that, again, we're focused on the delivering improved business outcomes. We did align the strategic plan drivers. So as we've looked at
+
+[00:08:30] different AI technologies and what we can use to provide a secure method for generative AI use for our employees and for the public. We've looked to make sure that any of the systems and vendors that we work with have responsible AI use policies, because I think that's incredibly important.
+
+[00:08:51] And then again, we've leveraged all of those strategic partnerships. So we've engaged with um george mason we've engaged with educational institutions we've engaged with our um obviously our idpac policy advisory committee we've talked specifically with the county attorneys and we started a ai work group to really address some of the policy things that we needed to make sure were kind of addressed additionally we've also worked with the public technology institute doing some presentations with them being involved in other committees as well gov ai also just
+
+[00:09:31] making sure that we're staying on top of the research staying on top of new policies and laws because state law is can change federal law can change regulations can change as this emerging technology evolves and then underscoring it all making sure that we have responsible use from all county employees. So really quickly, we have some deployments. And this is kind of the fun stuff. So this is where we've created some AI tools that are contained within the
+
+[00:10:06] Fairfax County environment to do those things, such as protect our data. So we've got several templates that our applications group has created where AI is baked into the application. So you can start working through asking okay how do I do this in this application how you know this will help improve the efficiency of the worker so let's say they're trying to process a new client that's come in who needs certain resources there they can start saying okay well how do I do this and that
+
+[00:10:42] generative AI is reading back on that application reading back on maybe the user guide for how to use that application. So they're delivering that service faster. An additional deployment, one that I think is very cool and interesting, is where we've used it for data analytics reasons. So we're using the power of that large language model against the databases that are contained within our enterprise. So specifically, one of the projects that we've started working on is the plus data warehouse and the plus data so we've provided this closed model on top
+
+[00:11:17] of our data and basically you can say how many inspections have happened here what's happened here how many revenue how much revenue was gained in this certain you know period of time and the the chat assistant pretty much runs all of that data for you granted there is a lot that we still have to make sure that we're testing, we're validating the model, we're validating how it works, but there is a lot of potential use that will accelerate the time to value for the constituents and the employees as well. And then one of the other more, I think, exciting models that we have, and honestly I've
+
+[00:11:56] used it a lot myself, and I know that our data is protected when we use it, is just a general chat assistant. So asking, hey, rephrase this for me, rewrite this for me. And everyone, you know, there are products on the market that allow you to do the same thing. What I think sets our chat assistant a little bit apart is that it's closed, it's contained within the Fairfax County environment, so no one else owns that data. So we can then run the sentiment analysis on what are people asking.
+
+[00:12:28] So if a lot of people are starting to ask, like, how can I rewrite this job description? Maybe that's an opportunity for us to look at some of these job descriptions because, wait a second, on this analysis that we've done on what's gone into the prompts, everyone's asking to rewrite a new management analyst job class or something.
+
+[00:12:50] So maybe that's something that we need to look at. So it's going to provide us with some opportunities for insights against what is it that people are trying to do so that we can, you know, better serve the public, have a more efficient government, you know, and really ensure that we're meeting those goals of the strategic plan.
+
+[00:13:08] And then, let's see. So with that, I'm actually going to segue a little bit to our industry experts who we've worked with very closely, and it's been very exciting. Hey, folks. Thank you for the opportunity to be here today. As mentioned, my name is Sean Rastetter.
+
+[00:13:24] I currently work as an AI engineer and a product manager for Google. Obviously, my comments are my own. I'm speaking on behalf of myself as a citizen. So if you will, I've exchanged my normal sandals and fluff-flops for a suit and tie this morning. You're probably wondering, why are we discussing this now?
+
+[00:13:40] What is it about today, specifically, that we're thinking that artificial intelligence is something that's a relevant and worthy topic? I've been doing AI for long enough to remember when machine learning and statistical methods were called just that and not lumped into traditional AI. It certainly makes me feel old now that general AI and traditional AI are separate.
+
+[00:13:59] But suffice to say, AI has been around for a long time. It's nothing new. I think the way that it's being deployed and used today is different. We all were there 18 months ago when OpenAI released ChatGPT. We started using it. I think the whole world had an explosion of accessibility to AI.
+
+[00:14:17] And that's really what this is about, is AI is now breaking out of the ivory tower of enterprises and going into the hands of users, right? And that's a fantastic and amazing moment, but it's also a terrifying moment for all of us, right? There are a lot of things that at the same time as a committee, we discussed with the Information Technology Policy Advisory Committee, discussed with the county, like, hey, how are we handling response to AI and governance?
+
+[00:14:41] You know, do we have a process in place to vet use cases to make sure that we're not introducing bias, preventing hallucinations, adding safety and groundedness to these things, you know, making sure that these represent the values of not just us in this room, but the constituents, you know, who vote for us, right? So I think all these things were conversations that we started. And I can provide an industry perspective because obviously I've been working in this space for a while. I think that most organizations fell into kind of two buckets. You had the first type of organization that was like senior executives and C-levels were like, this is a big deal. We need to do something about this right now.
+
+[00:15:14] Here's a bunch of money, innovation, go do something with this, right? And I think that is the kind of solution. It's like more of a solution in search of a problem. A lot of those type of organizations got it wrong with governance, got it wrong with responsible AI, and produced a lot of solutions that weren't really valuable. And then there was the second type of organization that kind of did the opposite. These were more of your financial services, your banks, healthcare spaces, where they basically just turned everything off and had a very long conversation with lawyers and accountants about what could be done and how it could be done.
+
+[00:15:44] And that slowed down progress. And I'm proud to say, it's actually very, very proud to say that I think this group here got it right. They kind of were like, how can we be forward-leaning but also being responsible? So this group here, we had conversations about what are the kind of things that we need to have, developing governance and guardrails around these use cases, making sure that they could speak with the right individuals, learn the process.
+
+[00:16:07] And within a matter of nine months, this organization here, this team, went from, I think, very open and willing to learn to what I would describe as experts, almost even industry-leading experts, particularly in the locality and city space, developing some solutions that you see here that are honestly, by technology standards in the industry, very, very vast and very expansive.
+
+[00:16:27] So kudos to this team. I'm excited for where things are going to go, and suffice to say that this is going to be an open dialogue. We're excited to be here and excited to start a conversation. Thank you. So I'm Rajni Goyal. I am a professor at Howard University in Washington, D.C., and my area of research is cybersecurity, information systems in general.
+
+[00:16:51] And I echo everything my friends and colleagues here have said. So my added value, one thing I'd really like to emphasize is the misuse of AI also. And I have to, again, compliment our colleagues here who have really focused in and really understood the use cases, but they also have considered the misuse cases when they have developed these policies and guidelines.
+
+[00:17:16] Some of the, in academia, there's, of course, vast research being done on just understanding the value of AI, the consequences, the impacts. And one of the pieces I'd really like to focus on is this education of AI and awareness around AI and a consistent message that we're giving our constituents.
+
+[00:17:41] And K-12 education and the leadership there really, I believe, should work hand-in-hand, interlocked with what our county is doing. Because from what we hear in education and academia is, of course, struggling with this, is how do our students properly, just as the employees are being made aware, how do the students, how are they being made aware of proper use, responsible use, ethical use of AI?
+
+[00:18:13] And how are the instructors, and from a faculty perspective, I'm Associate Dean of Academic Affairs, is how do we enhance our curriculum and how do we educate our faculty, which is analogous to the employees or the teachers in our K-12, to put forth these issues and the opportunities around AI.
+
+[00:18:35] And so the guidelines that have been set, that have been proposed by the association here, should at least be together working with what the county schools are also looking at and hopefully dialoguing to make sure that the policies that are in the county are being also propagated through the K-12 schools.
+
+[00:19:03] and so there's a lot of hesitation around putting guidelines because of academic freedom etc etc in the in the county schools what we've done here is that we've said okay we know what is best practices and this this committee and we all spoke a lot about this what are best practices how do we assure so the assurance piece is really important privacy piece is really important because there was a lot of hesitation around, you know, what's going to happen to this data once I put it in. So they were very mindful when these guidelines were put forth and as they're
+
+[00:19:43] training their employees as awareness around the comfort level around privacy and the security. Having it, having these policies, the one of the key pieces that we speak about in academia is proper investment into what's coming forward. So without the proper investment into these policies and training, as well as the AI, generative AI is going to require, and we speak a lot about this in our research, is how do we know what to invest in, in technology-wise? And again, our colleagues here
+
+[00:20:21] have really made an effort to understand what the value add of certain hardware, software needs to be in order to do what they are proposing they need to do to, you know, put this out. We're happy to answer any questions, but just a little background on what we think is happening here. And then to wrap up, we do have questions. One of the things I do want to highlight here is that these are all images generated by AI. So we threw up, you know, give us natural language, give us a question
+
+[00:20:55] image with Fairfax County in it, and you can get lots of different options from it. So I think those are some of the cool things that you can do. But again, it also underscores this is why you have to have the policies and guardrails because there are no questions as to who owns that image right so and if you can use that image so those are the types of things that we really wanted to make sure were in our guidelines and again we open the floor to questions or back to you chairman very creative on the last slide that that's interesting it's kind of funny the first one looks almost like the world police and fire games kind of colors i mean
+
+[00:21:34] and i don't know whether it went out and grabbed that logo and probably did because it was out there so much. But I don't know where the other two came from. But with that, I'm going to hold my questions. I'll go ahead and turn it to the chairman and see if he's got any, and then we'll go down the line here. Thank you. Excellent presentation. Thank you. First, just a compliment.
+
+[00:21:57] I mean, it's reassuring to hear people in private industry telling us that, you know, our team, our staff, and I know our county executives personally invested a lot of time in this, have it right. And frankly, I believe we're one of the only local government, certainly in Virginia, that even have guidelines and are in this space. And so I think it's just another feather in our cap in Fairfax County we shouldn't take for granted because clearly a lot of work, both from our county staff team and ITPAC and our residents have gone into this. And so I just want to
+
+[00:22:33] compliment everyone on that. I guess one question that I have is we talked a lot about AI information and tools that are out there, but one of the things that I know I've noticed in my office, we've probably noticed it in other supervisors' offices, we're starting to get AI-generated constituent correspondence coming into our offices, and at least from our standpoint at my office,
+
+[00:22:58] It's very clear what is authentically sent in by an individual and what is AI-generated just by the way the language is written, overuse of some words and emphasis areas that make it clear that it's AI-generated.
+
+[00:23:13] And so I guess I'm interested in hearing from our team, is that something you see that irons out to a point where it would be very difficult for us to determine something that is AI-generated versus personally authentic?
+
+[00:23:29] It doesn't make any difference from our standpoint of our office if we're getting AI-generated letters on a particular issue. It's not like it counts any different than one that is uniquely developed by an individual, but I think it is very obvious right now the difference between the two.
+
+[00:23:45] And is that something you think is with us with AI technology for a long time, or you think that's something where it would be very difficult for someone to distinguish the difference between the two? Great question.
+
+[00:24:02] I think one of the things when we start looking into this for the future is that there is AI that's developed to create it intentionally to be undetectable and be very human-like as a response.
+
+[00:24:18] The further down we advance, the harder that will be to know the difference for what's coming in. The question is, the information that's coming in, does it matter, or is there an intent behind it that we need to look at from that point?
+
+[00:24:35] I think how it's phrased, how it's rephrased, that isn't as important as the intent. So I think that that is sort of what we would look at as a long-term thing, to know how do we make sure we position ourselves to not waste time on something that doesn't have good intent behind it.
+
+[00:24:56] And if I could add, you have large language models, you have machine learning and natural language processing. So we have to really take those three entities and figure out what's happening.
+
+[00:25:13] And, you know, I believe Nate, Wetland, and Nora Moore have done a great job thus far. And what we're trying to do as a county is basically uptake our services, personalize our services to ensure that we can move forward.
+
+[00:25:29] And they have done an excellent job to date. And we got a lot more things coming out later and down the road. But AI is here to stay. Remember when Al Gore created the Internet? We didn't think that was going to stay. And here it is. So great job.
+
+[00:25:45] And I'd like to add to that is you have to remember that many of the researchers are coming up with great tools to actually detect the difference, too. So the research, so right now, maybe it's on our own reading and our own eyes, but I'm very confident that there's going to be excellent tools that's going to help us provide that distinction that you're asking about.
+
+[00:26:09] Okay. Thank you for that. And just one other quick one on the guidelines. The guidelines for generative AI use that are on here, mostly geared towards our county employees. And I guess the question is, is it would be impossible for DIT to kind of source good references versus bad references.
+
+[00:26:29] And so to a certain extent, we're relying on county staff and using these tools to decipher that. And I'm just wondering, obviously, we want to encourage the use, but we want to encourage the use, as many people here have said, in a responsible, ethical way.
+
+[00:26:45] And so is this a constant, ongoing deploying of information to county staff to ensure that our staff are using the right sources as opposed to using sources that have been manipulated for whatever purpose, and then we may be, unbeknownst to ourselves, spreading misinformation to the public?
+
+[00:27:08] Good question there, Chairman Greg Scott, Director of Information Technology. When we first started looking at policy, we had to disdain ourselves between AI-generated policies and policies that were not generated by AI.
+
+[00:27:24] So, yes, it's a constantly ongoing thing that we're going to have to do. And as the technology continues to grow and refine, we're going to have to continue to adapt and look at our policies as well. So it's an ongoing attempt that we're going to have to continue to do.
+
+[00:27:41] And I think just to add, we have the core principles and core values in our strategic plan, and those guiding principles should guide every employee in what it is that they're doing. So I think that helps underscore making sure that we are going to reputable sites, making sure that we're validating the type of information.
+
+[00:28:01] And a little bit like security training, it's going to be an ongoing kind of effort to reeducate, to make sure people are kind of following that North Star. So I think we have to continue to kind of integrate that type of validation into everything that we do.
+
+[00:28:18] I appreciate that because I think that is the most important thing in this presentation because there's a lot of misinformation out there. People have come to the county. This was particularly poignant during the COVID-19 pandemic. People came to the county for the correct factual information.
+
+[00:28:36] So Fairfax County is a source of factually correct information in a sea of misinformation. And so we want to be able to take advantage of the efficiencies and technology that this brings us, but obviously not at the expense of the intelligence that we're putting out.
+
+[00:28:53] in making sure that we maintain our reputation in that space. And so I know it's a delicate balance, but once you're in a position where you're a trusted entity for information, the stakes are much higher for you to make sure that you're using this tool to create efficiencies, but not using this tool at the expense of accuracy.
+
+[00:29:12] And I think that'll be the ongoing challenge that we all will face. But great, great presentation, and thank you to all our experts. And with that, I'll turn to Supervisor Alcorn, who represents BitSurf, to Google and rest in the actual creator of the interview.
+
+[00:29:32] Yeah, is he living in Hunter Mill? He might be in Drainsville, actually. I know he works in Hunter Mill. Yeah, he works in Hunter Mill, totally. Yeah, that's right. Exactly. Fantastic presentation. Great progress on this.
+
+[00:29:49] You know, the guidelines are excellent. I mean, the guidelines are a fantastic first step. They're basically the guardrails for the use of this technology. But I think it's also important for us to step back and understand the reason this is important is because exactly what you said, Mr. County Executive, this is going to help county employees do their job better.
+
+[00:30:14] It's going to help them do things a lot faster, in some cases a lot faster. They're going to be a lot more efficient. So my question is, what's the next step in terms of encouraging the use of this? Because I know a lot of employees are figuring it out on their own.
+
+[00:30:32] And as somebody who's spent most of my professional life drafting things for various reasons, this is a game changer. This basically takes something that used to take an hour to 15 minutes. You know, you're basically reviewing the first draft as opposed to trying to think through everything from the get-go.
+
+[00:30:53] So what's the next step in terms of deployment to make our county employees and our systems more efficient? What would be the next step? Nate Wentland, Deputy Director, DIT. One of the, I think the next step is one thing that we recognize from the industry is finding the business case first.
+
+[00:31:16] Creating a blanket, you know, hey, everyone just use this for anything is not really the direction we're trying to go. We're trying to find what is the thing that we could focus on to create effective and efficient government and then use that then to do the development for the next steps.
+
+[00:31:34] So, yeah, so we're really trying to have the agencies and the business help to drive those next steps. Okay, good. That was what I was going to suggest. This is not a centralized change. This has to be something based on individual business units, individuals, you know, who figure this out.
+
+[00:31:55] So I would hope that we would come up with some sort of way to basically share this information as business cases become known and, frankly, as others can learn from that.
+
+[00:32:12] And it'd be sort of a bottoms-up approach because that's where we're going to get, I think, the biggest bang. And we're going to be surprised. I mean, there are going to be some places where the tools really don't make much a difference, but we're going to see places where the tools are going to make a huge difference. So let's be ready for that and think about it in a more distributed way.
+
+[00:32:31] So thank you. I'm Supervisor Alcorn. That's a great, great talking point. We're looking at the individualized business plans that we have throughout the county. Once we go through that architecture, we're going to then come back to this group and figure out where we start with a pilot to ensure that we can do, because there's three types of learning, but we need to be a little bit discreet in our learning systems and make sure that we can pinpoint how we can have a better user experience as well as create the opportunity for us to be more effective, more efficient.
+
+[00:33:07] So it's an iterative process. I think we're probably six to nine months away before we can start with a pilot where we can just say all right let's go um these guys are doing a great job in the background i'm not ready to say we're which pilot we're going to start with first but we are building that platform now great and in the meantime our employees can use under these guidelines the publicly available so they're also figuring it out so okay great thank you all right supervisor walk and show we'll just go down the line okay thank you mr chairman and al gore's taking a lot of abuse here
+
+[00:33:44] I will note he did he did introduce and pass the legislation that funded the connection of all of the networks, the university networks and the military networks came out of the Reagan White House, actually. So he did play a role there. But actually, Supervisor Alcorn hit the nail on the head with the question that I wanted to ask, which is, you know, what are we doing to encourage our workforce to utilize AI in their day-to-day work?
+
+[00:34:16] Because I think, you know, we correctly need to educate and focus on the potential downsides and misinformation that exists or misinformation that maybe an AI tool could generate.
+
+[00:34:33] But I also think the other potential downside is if you're not using it in your day-to-day work, and you could be, right? So I would say that in the year 2024, you know, if you're drafting a memo or producing some kind of content and you're not using an AI tool to assist you in that, it's the same thing as in 2014 if you were using a typewriter, right?
+
+[00:34:59] Like you can write the memo with a typewriter, but it's going to take longer and probably not going to be the best product. So I guess two questions there. I mean, one, do we have trainings available for county employees, not just trainings to avoid the downside, obviously we have to have that, but trainings about how to use an AI tool in your day-to-day work, whether you're producing a document, writing a memo, producing something for public consumption.
+
+[00:35:30] And then in the day-to-day workflows of county employees, and Mr. Rastetter is here close your ears, but the word processing tool that most county employees use, for example, do they have access to an AI assistant, and will they have access to an AI, or the spreadsheet tool that county employees use? Because they can be much more efficient if they have access within their day-to-day workflow, and then they know how to do it in a responsible and effective
+
+[00:36:04] way. So where are we in getting there? Gregory Scott, director of IT. Most of that is now built into the software. We're a big Microsoft shop, and a lot of that's already built into those products.
+
+[00:36:22] So as you're using it, you'll probably start seeing things generated. You'll probably get a report generated weekly. This tells you what your use of the platform was. So it's starting to be baked into the software. And as far as devices, I know two weeks ago Dell announced that their new devices, their new laptops will already have AI built in it. So your everyday use, your new operating systems have AI in it. So it's here. And if you're not a knowledge to it, it's already
+
+[00:36:57] there. So it's coming baked within a lot of the software tools now and for use. To bake into your question, Supervisor Walkinshaw. We are trying to consider how we would do training for AI throughout the county. Folks that use it are typically in IT and finance, and they use it.
+
+[00:37:17] But again, when we look at health and human services, those are the areas that we're going to have to have some intricate training to ensure that we don't get ourselves in a spot that's not in a good place. So we're working on that. I've been talking with Chris Leonard about things as such with the DIT, but that's going to be a huge, huge lift because we have a lot of things we have to consider as we use it in health and human services. That's going to be the biggest challenge for us is how do we provision those services in a way where it doesn't get outside of what we
+
+[00:37:52] typically do. John Raster here, Springfield District. Just one kind of point to make on that. Understanding the data stewardship is really important with a lot of these tools because not all General AI tools are made equally, and they have different rules and requirements. On the consumer side, a lot of those are taking that data and then using them to retrain them.
+
+[00:38:11] And so making sure your county employees understand the difference between, you know, an enterprise agreement where they can safely put in data there versus a consumer agreement. I would hate to be in a situation where a county employee puts PII in a consumer product and then they own that. And that's a serious consideration, something that, you know, this organization's been thinking about and something that our county employees need to be thinking about as well.
+
+[00:38:31] And to dovetail off of that, great, great point. We are looking at private AI versus the other, open. So we are trying to get into that space where we know when we put something in, it's going to come back correct.
+
+[00:38:48] I'd like to just add one, and he mentioned health and human services. The other huge area where training needs to be done is in the county schools. Because if you think about, as you just mentioned, about the data and how it's being used to educate and innovation, how are we creating innovation at the K-12 if the generative AI, we don't want it to lead to mediocrity where we just all have these general ideas without having core, innovative, creative ideas.
+
+[00:39:19] If we can generate a picture like that, how are we going to assure that it's been created by the student or by the educator? Supervisor Popczyk. Thank you. Well, actually, I'm really happy to follow Dr. Gold because I pulled up Common Sense Media, which is what I used as an educator, to help educate our kids.
+
+[00:39:42] And they were saying, right, predicted to be the largest disruptive change. But it brings more questions and it does answers. And I think that's a little bit of where we are in the guardrails. But I think as my colleagues, supervisor Ralkenshaw mentioned, really is not just of the products we're looking at, but how do we educate?
+
+[00:39:59] And I would argue that our schools are probably better at it than we are in some ways, looking at how, you know, we educate and we work together, but not just our kids. I think that with AI, and I can tell you going into my staff calling me on the older end of my office is who feels more comfortable with it and who doesn't and why, right? And I'm actually thinking back to my freshman year in high school where all of the search engines had just come out and we actually did research and it turned out Google was the best one at that time. But it really, right, and it really took us not being told
+
+[00:40:37] which one it was, right? But we were given an assignment to practice with each single want and have that hands-on research. We came out with the conclusion that at the time, I'm not going to talk to Nell, but at the time that was the best search engine. No one knew Google the way they do now back then. And so I do think there's a lot of opportunity for us to partner. And if we aren't partnering with the schools, we should continue to. My understanding is our staff and they have excellent IT directors and so do we should do that. But not just because we need to tell schools how to do it because there are things I think we can learn from them on how to do that
+
+[00:41:16] piece of it so I do think there's a lot of opportunity but having those guardrails and working collaboratively so I don't want to create new task forces but if there's an opportunity that we do the AI research with that collaboration if it's not happening already it absolutely has to happen but perhaps staff can talk about what collaboration they currently have with the school currently more power we would love to we you know we obviously collaborate with it pack I think we have a vacancy for a school member which I think would also
+
+[00:41:52] be good we've collaborated with other jurisdictions from a training perspective as well like we're using those opportunities such as the the art conference we did a session on AI and using generative AI in your day-to-day day basis also in the security awareness we're also throwing some training in there our partners across the river in Montgomery County Maryland they've even looked at our guidelines and use some of our information to put into their guidelines so we're really trying to make sure that we're collaborating with as many folks as possible and would really welcome the opportunity to work with the schools because I think that would be great I'm supervisor Palachek
+
+[00:42:31] I've been speaking to dr. Reed superintendent read about some streamlining of our cyber and our AI, we're in communication, trying to understand how to make that happen. Once we have that opportunity to come forward, we definitely will. But that is an ongoing, constant communication. And as you know, this is, I hate to say this, this is as stream as COVID, because we didn't know what COVID was. We still don't really know what AI is. And we're trying to work through everything together. But the schools have been very supportive. Dr. Reed has
+
+[00:43:04] been very supportive, very collaborative, and we are looking forward to getting her person on this board as well as working together collaboratively to better Fairfax County. That's good to, and as I heard, opportunities for health and human services, so if that can be a place to do that through that committee, I'd be happy to work with you on that as well.
+
+[00:43:26] Thank you. Supervisor Lusk. Thank you. I'll go quickly. I just wanted to maybe harken back to the point about kind of the private sort of kind of private cloud versus the public cloud, private internal systems within the county versus the outside systems.
+
+[00:43:46] And just trying to think through with our, I guess, templates and use cases, are they going to be originally focused on kind of using just our internal kind of closed system approach? okay and then just trying to understand we talk about the hallucinations and we talk about the biases that are created with the kind of open platforms is there the potential that you could also have within that closed system some of the same types of experiences and okay so yeah um so
+
+[00:44:25] again it's based off of training your data so you have to use those machine learning models to help train the data there is a lot of coding that is involved in it and so you can have hallucinations Because you could say, hey, I have an issue around complaints, and it might pull in all sorts of complaints, some that may be relevant, some that may be not.
+
+[00:44:45] So that's where you have to go through and do some of the fine-tuning. So we start with these baseline models that have been created, you know, in the market. We use them. We implement them within our private, you know, cloud. And then from there, we do that training to ensure that there is no hallucination, so that we ensure that there's some grounding on the data and everything.
+
+[00:45:06] So that's kind of the process that we go through. And I'll let Sean speak to it as well. Sean Rassida here, Springfield District. I wish the industry was at a point where all models that could release to have at least a model card and a data card that represent this is the data that was trained on. Here's the version. Here's some, you know, governance around that.
+
+[00:45:23] The industry is not at that. But I think Fairfax County certainly can lead the way. new models that are produced internally or even fine-tuned versions of models that exist commercially, you could have that kind of governance where you would know, okay, hey, is this data here appropriate? Is it representative? If it's not, can we change that?
+
+[00:45:41] And to add to that, can we actually measure using data that's been held out and not used for training? Can we actually measure the groundedness, right? Have a way to actually measure responses and see if those responses are actually correct and not hallucinating, right? Those are all things that I think Fairfax County can definitely weigh in.
+
+[00:45:57] Now, I'm assuming that this is like an ongoing thing that you're going to be kind of perpetually doing, right? As the models grow, more data gets added, you've got to be consistently churning through and making sure you don't have this kind of going off the range with the system.
+
+[00:46:14] Yeah, that's the trick to machine learning and AI in general is that like unlike a normal software deployment where you can take it and stick it somewhere and given the same inputs, it would produce the same outputs. Machine learning and AI has this innate combination of data. And if the data in the world around us changes, like, you know, the response is going to change, right?
+
+[00:46:31] So you've kind of got this gig-out principle where, like, garbage in, garbage out. So auditing the data that goes in, auditing the model itself, making sure that it's a kind of living and breathing thing, it's a process, not an endpoint, and treating it that way, I think will allow the organization to be more prepared. And then the last question is just thinking about companies locally, emerging technologies in this space.
+
+[00:46:53] I assume we're trying to make sure we stay on top of who are the latest and greatest companies developing the latest and greatest technologies around AI, and then the management of AI as well. Absolutely. Absolutely. We are.
+
+[00:47:10] Can I just comment really quick on one of your – so one of the things, Nate Winland, Deputy Director of DIT, one of the things that I think we also have to look at is the idea that this is going to create the requirement of business experts who understand the data to then use that to help the business process and make it more efficient.
+
+[00:47:31] So I think when a lot of people think of AI, they don't really think of that consideration that you're going to need experts, more experts, more people to be able to understand that data and know when something is responding incorrectly for us to then refine those machine learning and AI deployments so that that way we get to a better spot of cleaner outputs.
+
+[00:47:56] And that inherently, to Sean's point, means cleaner data, right? And I think the data is really the key point here, not the tool that is accessing the data. I just want to add one point, and I think we haven't mentioned this word, but we definitely want to keep in mind when we do the data, the equity of the AI, the usage.
+
+[00:48:18] Because throughout the county, as we have employees, are we assuring, again, that there is equal access to some of these tools? Again, when I think about the schools, are we giving an unequal or by, you know, an advantage to certain constituents versus not?
+
+[00:48:39] So I think underlying it is like the humans and the usage and the equity just needs to always be baked into our decisions. Supervisor Amenis? Thank you, Mr. Chairman, and good morning. Thank you for your presentation.
+
+[00:48:56] I found this to be extremely interesting. a topic with so many different parts to it, and everyone's touched on a lot of different parts, and one of the things that I want to touch on is kind of what, a little bit on what Chairman McKay had to say, but actually a little turned around. So Chairman McKay talked a little bit about AI being used to come to offices, right? And I'd like to kind of talk a little bit about AI being used from offices outward, and the responsibility that we have that our services provide, that our offices provide. Obviously, every single one of us is here to provide constituent services and the very
+
+[00:49:33] best answers and try to solve solutions to our constituents in Fairfax County. And I would just say that, you know, AI is a fantastic tool. And as we've all talked about, it keeps growing and we don't know where it is exactly. And we're trying to get a grasp on it. But I would just say that there is a responsibility on our end, our office's end, Fairfax County services end, to make sure that we don't forget that there's no exception, there is no substitution for that one-on-one human interaction. So while we can use AI as a tool, let us not forget that we're here to serve
+
+[00:50:08] one-on-one our constituents to the best we can to help solve and rectify and work with our residents. And moving forward, I really hope that we put an effort in to not just depend on AI, but to remember that there is a face behind every office and every service. Thank you.
+
+[00:50:32] The new guys had the same point. You stole my line. Yeah, I was just thinking sitting here that the linchpin of this is going to be what the human backstop is when you're interacting with consumers. I mean, looking at page seven for government, transform the citizen experience with chatbots or virtual assistants to assist people with a wide range of inquiries or chatbots can be used as a conversational patient assistance.
+
+[00:50:57] You know, I think we've all called our bank or the cable company or somebody else. And, you know, after talking to a chat bot for a while, screamed operator into the phone. And it's really important that we figure out what those backstops are. I actually was thinking of what Chairman McKay had said at our older adults committee, where we had put up a phone number for older adults to call about a certain issue.
+
+[00:51:20] And Chairman McKay said, better have somebody on the other end of that phone who's able to pick up. So I think that this is all really great, but sort of the linchpin of whether it's going to work in the government context is whether we can still continue to provide the one-on-one personalized service that is demanded of government as opposed to, say, you know, a big bank or a private company sometimes. And also, I just want to commend you all on being so incredibly timely since the New York Times news alert at the very moment that you were speaking was open AI has not done enough to
+
+[00:51:56] prevent its artificial intelligence systems from becoming dangerous, a group of former and current employees said. So trying to find ways to have internal systems. You guys are timely. And as usual, Fairfax County, we're at the cutting edge. So thank you. Thank you. I always use customer service instead of operator. Probably works better. Supervisor Smith, I haven't forgotten you.
+
+[00:52:22] Thank you. I feel like I have a lot to learn about this, but I have a question about the virtual assistant on the website and how we deal with that and how we update correct information. A couple weeks ago, we got a phone call from a constituent who put in that they wanted to know about how to get a special permit for extended hours. They were directed to my office, right?
+
+[00:52:45] So then my staff started playing and putting questions in at the website, and the answers were very interesting. And so when we talk about serving the public and having correct information, how are we dealing with that aspect? So the chatbot on the website, and I will defer to the rest of the team, but it is also, it's based off of that traditional model, right?
+
+[00:53:10] And so it's not using that generative AI capability. And a lot has to go into the training. There has to be specific, you know, information that goes into kind of how that product is used. So I think that's part of it. People are now expecting that generative AI type of experience with all chatbots now, even though all chatbots aren't necessarily based on the same technology.
+
+[00:53:36] Would that be something we're going to look at adapting and changing? It's, again, it's about that open versus close, that learn versus generative. We're playing around with a lot of different things. People ask, when did AI start? Well, as soon as we did that new website, AI was on our website, right?
+
+[00:53:53] That was seven years ago. People didn't even know that. We are looking at trying to understand what is the best way when you get on our website to get our questions answered as opposed to whatever else is out there because it is a learned system, and we're trying to peel back from the learned system to be more of a private, closed source so we can train the answer to be not called Sully District for use permits.
+
+[00:54:23] But if you do, they'll get you the answer. Without a doubt. The funny thing was the person who put in the question lived in Drainsville District, so I like that. So anyway, any last questions?
+
+[00:54:42] Sure. I'm sitting here, and a lot of what was said, I had a chance to tour MITRE Labs the other day, and I know they're starting AI, and they do a lot. I don't think, I don't know if we contract with them or not, but what I especially appreciated as a social psychology anthropology person is that they have a human factors person in every single team on every single engineering project.
+
+[00:55:01] How are we including that? Because I think a lot of what we heard is the human factors piece of this work. Yeah, there is a principle called human in the loop, and so that is something that you have to have in all of your AI deployments, so we do incorporate that principle in kind of work and everything that we're doing as well especially as it relates back to the data right like having the data stores the people who know it people who know the business like you have to have that human in the loop and I think that's a principle that we we follow and are we learning because we're here for MITRE and the groups that are in the county doing this work I know we may
+
+[00:55:34] not contract with them but yeah they will in deputy picture um the we do we Greg and I actually were there at a conference just recently um they're one of the many partners that we are touching base with. I think what we're trying to do within Fairfax County is learn from as many people as we possibly can and then not make the same mistakes as they're going down the path or reinventing the wheel if they've already done something very good. And MITRE is just one of those, GMU and many others that we're talking with and moving down that path. Thank you.
+
+[00:56:10] So my questions all got asked very early, but what I'd like to have go back to the board if we could, and I like the training for employees so that they can encourage, because I think there are a lot of employees out there that are afraid of it.
+
+[00:56:31] They're not going to jump into it unless we give them the comfort level, but within their own work world, not system-wide, how can we get training to our employees on how to use that? where it's appropriate some people it's not appropriate for but how do they uh how they get more efficient at their jobs if we can have them use it and what are the dangers too i mean i think the dangers need to be there and obviously the policy but that would be useful i think to get back to the board how we're going to approach that i i heard a lot about you know this needs
+
+[00:57:04] to be decentralized instead of just coming from one centralized but it probably needs to come to a centralized place before it gets implemented, obviously, and customer service. So those were kind of the four big themes.
+
+[00:57:19] I don't know if I missed any big themes, but it would be helpful to get the training back to the board if we can. And with that, I want to start by thanking ITPAC and the IT team for really, you are in front of this and on top of it, and it's a great opportunity, and it's very scary all at the same time.
+
+[00:57:41] But I think you guys nailed it, and we're in front, so thank you very much. And with that, I guess we're going to go on to the digital equity plan and try to do that in 20 minutes, so whoever's doing that's going to have to move quickly because I do want to leave a little bit of time for the affidavit board matter because I think there'll be some questions on that too.
+
+[00:58:43] All right, we'll go ahead and get started. I'll let the staff introduce themselves. Who's going to present? Good morning. My name is Lisa Cape Watang. I am the Program and Partnership Director for One Fairfax. Good morning.
+
+[00:58:58] My name is Christiana Gergic. I'm Director of the Strategy and Economics Practice at GuideHouse. And I know GuideHouse isn't quite as famous as Google, your last presenter, so I'll just briefly introduce who we are. We started our origins as PwC's public sector practice before they divested that business.
+
+[00:59:15] We're now a mature firm in our own right that we still focus on the public sector, and we're proud to have our global HQ right here in Fairfax County, Virginia. And I'm here with my colleague, Gabby. Hi, my name is Gabby Bryan. I'm an associate director with GuideHouse. And we've had the privilege of working with Fairfax County on this and also with the Commonwealth on their broadband projects as well.
+
+[00:59:38] So since the last digital equity update to the IT committee, the Office of the County Executive and the Department of Information Technology have spearheaded the development of a county-wide digital equity action plan.
+
+[00:59:58] And the Digital Equity Action Plan positions the county for opportunities to expand high-speed internet access and devices, support digital skills, and capacity building across the county to close the digital divide.
+
+[01:00:17] So today we'll be providing an overview of the plan development process, Key takeaways from the stakeholder engagement and rapid state assessment landscape, which was led by the Guidehouse team. We'll also provide an overview of the plan's goals for the next five years, as well as the implementation for the first year and next steps.
+
+[01:00:41] So in terms of digital equity, when we talk about digital equity, we're talking about the ability for all residents to access, understand, and use digital tools that are essential for many of the tasks of modern day life.
+
+[01:00:57] So applying for jobs, paying bills, accessing and using recreational activities, completing homework, as well as staying informed and connected to government and county community resources. So the plan intentionally considers how different places and populations in the county are faring in relation to digital access, affordability, literacy, skills, with a focus on policies, programs, and services, as well as infrastructure that helps people to bridge the digital divide.
+
+[01:01:32] The plan is also aligned with the countywide strategic plan and can bolster a number of strategies across the 10 community outcome areas of the strategic plan. So the plan really focuses on the digital equity action plan, focuses on strategies that can foster inclusive community engagement in local decision-making, strategies that can increase residents' access to essential services, information and resources, strategies that can promote social and economic opportunity, ensuring that businesses and residents have the access, the tools, and the skills to participate,
+
+[01:02:11] as well as contribute to the economy. And as well as strategies that ensure that the county stays ahead in the adoption of innovative technologies, that includes AI, that can improve service delivery. There are also strategies that focus on how digital equity efforts led by the county and nonprofit partners are also critical to lifelong learning and education, as well as healthy communities.
+
+[01:02:39] So again, the plan development was led by the team at GuideHouse, who worked with the Commonwealth to develop the Virginia Opportunity Digital Opportunity Plan. And I'll turn it over to the GuideHouse team, and they will describe the process that was used to develop the plan.
+
+[01:02:59] Thanks, Lisa Kay. So GuideHouse, as Lisa Kay has mentioned, we've been working with over 10 states and numerous counties across the country on their different broadband and digital equity plans. These have really come to the forefront post-pandemic and with more use cases like AI, it really dovetails with the previous presentation.
+
+[01:03:18] The pandemic really revealed how dependent we are on the Internet for everything from telehealth to schooling to working from home. So we've seen a sort of rise in the increase of putting together these types of plans. The other reason that a lot of counties and states are thinking about this is the subject of a large increase in federal funding under the Infrastructure Investment and Jobs Act, the IIJA.
+
+[01:03:39] So in order to help develop a digital equity action plan for the county, we undertook this three-stage process, which you can see on the screens. The first component was a stakeholder engagement plan. We engaged with over 50 stakeholders across the county government departments, schools, business community, the Internet service providers, and NGOs to understand that qualitative evidence base of where there might be current issues, but also where there's current programs already in place.
+
+[01:04:08] A lot of times with digital equity, we see a lot of programs already in place, but maybe that no one's sort of like coordinating all these different elements across a complex ecosystem of players. So that engagement really allowed us to understand the existing work and programs that were in place and also co-create and collaborate on the elements of the plan itself.
+
+[01:04:29] We did that engagement through a variety of channels to make sure people had multiple points of connection with the team. we had one-on-one interviews. We had open office hours where county staff could show up. And we also did briefings with the Carla, the chief equity officer, and the digital equity coordination team within the county. And you can see a full list of those that we consulted within the plan itself. The second component, which I'll only touch on briefly because Gabby's going to have a slide on this in a second, but we did a rapid current state to make sure we understand, really understood the current state of broadband provision within the county.
+
+[01:05:06] So we looked at a lot of maps. We did a lot of data analysis to really understand the current lay of the land. We also did leading practices research. So there's a nonprofit called the NDIA, which designates counties across the country as digital equity trailblazers.
+
+[01:05:22] And so we looked at a selection of four jurisdictions to see what they were doing, to see what we might be able to replicate here in Fairfax County, and also put the county itself on a pathway to becoming a trailblazer in this space. So all of that fed into the Digital Equity Action Plan, and the plan was developed iteratively with Lisa Kay and Greg and Carla and the team.
+
+[01:05:44] It's designed to be an accessible document, so it's not full of overly technical sort of broadband jargon. It's under 30 pages so that people can hopefully engage with the vision and sort of principles and actions that are set forward in the plan and then everything else we pushed into appendices, so all that rich data is still there.
+
+[01:06:03] But hopefully the plan itself is a nice, easy read and keeps it under that sort of 30-page mark. And I'll hand it over to Gabby just to talk a little bit more about that current state assessment that we did. Thanks.
+
+[01:06:18] So we wanted to highlight some of the kind of core evidence and information that provided the foundation for this plan. And I'll start by kind of just going over that map really briefly. That's for fiber access and shows kind of where there are dense areas that don't have fiber access.
+
+[01:06:41] And we know that fiber has kind of become a little bit of the gold standard as far as scalability and reliability for Internet access. The good news is that Fairfax has a lot of great infrastructure. Only less than 2% of the county has no Internet whatsoever.
+
+[01:06:59] That is really important, and the county should be applauded for that. I think that is also, though, really important to kind of emphasize that for those folks that are without internet access, they're also facing additional compounding challenges with getting internet access.
+
+[01:07:18] So some of those things that we took into account when it comes to getting internet access and being able to be on the digital platforms is kind of looking at the vulnerability index that the county has taken on already.
+
+[01:07:35] So those folks who may not have access to a car where English isn't the primary language in the household, all of those things sort of compound in making it more difficult to access the Internet like the rest of the folks in their community.
+
+[01:07:49] Additionally, we wanted to also think about how we might approach folks such as the ability to be able to actually afford Internet as well, making sure that we thought through those access points and also emphasizing the importance of the programs that do exist throughout the county and making sure that the ecosystem that they're being provided isn't fragmented.
+
+[01:08:19] and that there's a holistic approach in the customer journey to folks being able to access the Internet. Those pieces of evidence really served as that foundation, and we were able to create kind of five specific areas for the action plan to focus on.
+
+[01:08:39] And I'll hand it over to Lisa Kay to talk a little bit more about those areas. So the Digital Equity Action Plan builds upon and improves existing efforts led by the county and nonprofit organizations.
+
+[01:08:54] It provides a roadmap for a holistic, evidence-informed approach through improved coordination and partnerships across the county as well as the Commonwealth of Virginia. So based on the findings from the stakeholder engagement and rapid state assessment of the digital equity landscape in Fairfax County, the proposed digital equity action plan, again, is a five-year roadmap to achieve the vision that all Fairfax County residents have the resources and the skills to participate and thrive in a digitally connected community.
+
+[01:09:31] So the action plan achieves this vision through five specific goals in these areas, advancement, access, affordability, awareness, and adoption. So just wanted to highlight advancement is really a driving force to sustain movement in these other areas.
+
+[01:09:57] Advancement focuses on the operational needs and capacity building required of the county and partners to really sustain momentum in these other focus areas. And so with each of these goals in these five areas, the plan provides strategies, actions, and proposed metrics.
+
+[01:10:20] And wanted to highlight the focus on metrics will put the county at the cutting edge of measuring these strategies and actions that are proposed in the plan. It gives us the ability to track our progress and effectiveness of the digital equity work that's happening across the county.
+
+[01:10:41] And so the plan provides a phased approach to implementation over the next five years that supports changes in the landscape, a rapidly changing landscape, and the integration of new data and information that could lead to new action.
+
+[01:10:57] So overall, the implementation requires an internal infrastructure. We have created a digital equity coordination team of various county departments. And so that requires support and leadership to implement those coordinated efforts, internal and external partnerships, and engaging stakeholders in the broader ecosystem. That includes Fairfax County public schools, Internet service providers, nonprofits, our higher education institutions,
+
+[01:11:34] as well as the Virginia Office of Broadband. It also underscores the importance of inclusive community engagement to refine the proposed actions in the plan. So many of the implementation steps that you see here for year one are already underway.
+
+[01:11:52] And so just to highlight a few, these are actions that are led by the Digital Equity Coordination Team of county departments, and that team will continue to lead and support operationalizing the plan, strategies, and actions.
+
+[01:12:08] So we have begun and will continue to engage the Virginia Office of Broadband to prepare for future funding opportunities. We had a great discussion with the Virginia Broadband Team last Friday. And in our recent discussions, we have identified, with the help of the Virginia Broadband Team, their term and future opportunities to fund many of the strategies and actions proposed in the plan.
+
+[01:12:36] We've had discussions with Internet service providers in starting to share the proposed Plan, and we've discussed opportunities with them to ensure, collaborative opportunities to ensure that residents are aware of the low-cost Internet plans that are available and ways to address in the county areas that do not have Internet coverage, as well as investigating wiring at our multi-dwelling units as well.
+
+[01:13:04] The Department of Information Technology is exploring efforts to expand public Wi-Fi throughout the county. And our public affairs, our Office of Public Affairs, plans to educate staff about the accessibility and readability of digital information so that people with disabilities and residents with lower literacy levels can have an equitable access to county content and information. Our public libraries, they are distributing public PCs, Chromebooks,
+
+[01:13:38] hotspots, using data to maximize access where there is most demand. And we will continue to explore partnerships with local businesses, our higher education institutions, our community-based nonprofit organizations on ways to support the recruitment and training of individuals and individuals from underrepresented groups into high-demand tech jobs. And so in terms of Next steps, we will continue to normalize the plan and share it with county departments.
+
+[01:14:16] Many of the county departments that are a part of the digital equity coordination team are charged with sharing with other staff in their departments the plan and starting to prioritize activities to implement the proposed strategies in the plan.
+
+[01:14:38] We, again, have had preliminary discussions with our Internet service providers as well as the Virginia Broadband Office. And so to further support sharing and normalizing this plan, we are working with Cox to once again host a digital equity summit similar to last year during Digital Inclusion Week. And so please save the date. Digital Inclusion Week is October 7th through 13th. You will all be invited to the Digital Equity Summit, which will feature community-based nonprofits, our internet service providers, the state broadband office, county departments, and
+
+[01:15:15] other government stakeholders as well. It's an opportunity for us to share the takeaways from the planning development, as well as to foster partnerships to support implementation of the plan's proposed actions. So in closing, this digital equity action plan we see as an opportunity for greater cross-departmental, cross-sector partnerships, as well as inclusive community engagement with residents in order to close the digital divide in Fairfax County.
+
+[01:15:49] And so, we'll open it to any questions. I'll turn it back over to you. All right. And we'll try to keep the questions brief. I've got one quick question, then I'll turn it over to the chairman. For the data on the 6.8 or the 1.6% of Fairfax County lack of computer and 4% lack of broadband, what was the data source on that?
+
+[01:16:11] We used the U.S. Census. Okay. So it was from Census Reports. Was there a breakout on age by chance? They don't do a great job, actually, when it comes to kind of laying over data like that.
+
+[01:16:29] And so off of the top of my head, I'm going to say actually no, that there wasn't. But I can verify that and get back to you. That was a curiosity question. I always go back to my mom who said the Internet was going to steal her identity, and she didn't want anything to do with any of it, and there's no way you were going to convince her otherwise.
+
+[01:16:49] There are fewer and fewer of those left, but there's still some of them out there, and I was curious how many of them. We do see, you know, certain parts of the population. As part of our work for the Commonwealth of Virginia, we did a statewide survey, and so we have some better, more granular data for Virginia.
+
+[01:17:04] But as you suspect, it tends to be older individuals, veterans, rural populations, and English as a second language that sort of struggle the most with these digital equity issues. Okay. Thank you. Chairman?
+
+[01:17:20] And also the ones that we are most challenged with getting them to respond to the census to begin with. And so, you know, I think relative to that question, one thing that census answer would not tell us is that every FCPS student is issued a laptop.
+
+[01:17:39] And the answer for those families probably was no, because it wasn't thought in the context in which the question was being asked. And so that leads me just to the point I want to make, which is our cross work with FCPS. The population that I am most worried about are our young people who get computers at school but are falling behind academically because they can't use them at home.
+
+[01:18:02] And one thing I've learned as a parent of two FCPS students, if you don't have that capability at home, your child is falling behind, period. And so, to me, when I look at the map in the areas where we have these holes, we also have large populations of young kids, high concentrations of Title I schools in those areas.
+
+[01:18:23] And I am curious to know how we're going to work closely with FCPS, because to me in Fairfax County, while it might be 2% is great, I still find it completely inexcusable that any child who's enrolled in FCPS and has issued a laptop by FCPS cannot access that outside of the school building that they're issued that laptop in.
+
+[01:18:46] And to me, that affects them, makes them vulnerable potentially for the rest of their life because they're falling behind academically. And so what work are we doing directly related to FCPS specifically on these kids in our school system that don't have access at home or outside of the school building?
+
+[01:19:11] That's a really good point. We actually did get a chance to talk with the school systems, and they informed us that in some cases that kids were getting laptops to take home. but one of the major issues there with as far as confounding like information that's being compounded especially in the census is a household might say yeah we do have a computer in our household but that's a school issued computer and that's actually very limited in what the student is able to do on it and also if an adult is using it they can't use it for things like job searches
+
+[01:19:46] and all of those types of things and so you bring up a really great point that there's a lot of information and data that we need to kind of go directly to the community to kind of find out what are the real issues that they're facing with students who are having difficulty if they're not if they're not provided a computer you know what is their journey to kind of being able to access online for those households that are depending on the student's laptop as well what are the additional barriers that they're facing and so that was really something that came through with the interviews that we did and also looking at the data and pairing it together to really get the
+
+[01:20:26] deeper story of what these students and families are facing when it comes to access and being able to actually get online. Yeah, I think this is really important because there's a hardware cost and then there's the monthly cost. And for students, FCPS is doing the right thing, issuing kids the hardware, which is one of the major expenses. But if that hardware can't be used outside of the school day our children are falling behind and to me that's something with some of the programs including the $10 a month service we need to be doing much better and infiltrating those
+
+[01:21:02] neighborhoods and helping with that because candidly in essence what has happened is with those computers being issued to these kids it's $10 a month student tuition if you don't have access to at least that $10 a month program your child is falling behind and to me it's almost a cost of educating kids in today's day and age. Now, who bears that cost is something we can debate, but to me, I would love to see us focus like a laser in those communities where kids are enrolled in FCPS, have issued hardware, and do not have broadband access at home, and why, and how we can
+
+[01:21:39] help with that, because every minute that goes by, and I did my original board matter on this issue some years ago, and I got to tell you, what this does is confirm exactly what was in my head at the time, which is where our islands are, where access doesn't exist. And every minute that goes by, these kids are potentially falling behind and start to chain reaction to all the other things that they might be challenged with. And so I think this is really important to see if we can figure out a way to laser focus on that aspect. You're right to point out affordability. Cost is often the biggest issue cited by these families. And the other thing that's happened actually since we
+
+[01:22:16] wrote the plan is that the federally funded affordable connectivity program the acp ended literally days ago um that was supporting over 25 000 households in fairfax county um so you know i think it's the plan is meant to be a living document but almost already needs a refresh in terms of that affordability issue so supervisor bearman first yeah so uh i just want to drill down from the general to the very specific we've got two percent of households without broadband access. We've got 4% without a broadband subscription. What are the actual steps
+
+[01:22:55] to get to 100%? So what's the identification step? What are the multiple funding sources to potentially do this? Who do we have to work with at the apartment buildings or the houses? You know, what are the utilities involved? What's the four-step plan to get specifically to get from 98 percent to 100 percent? What's that look like? Thank you, Supervisor Behrman, Alicia Seard-McCormick, Deputy County Executive for Administration. It's like you wanted to be part of the five-year action plan, so thank you, because that's exactly what we're trying to do is understand, first of all,
+
+[01:23:31] it was identification. We need to know the problem so that we can solve it, and so the next step is trying to figure out what we need to do, and the resourcing is part of it, affordability. The ACP going away doesn't help that, but we're working with the Virginia Broadband Office, and we're continuing to explore and obviously focusing our time and attention on it helps it as well.
+
+[01:23:50] So we'll get back to you with more details and we'll definitely have this as part of the digital summit because I do think working with our community-based organizations has helped us as well to move this forward in terms of letting people know what's out there, educating them, but continuing to focus our time and energy and attention and obviously just making this a priority has been really essential to moving the needle forward.
+
+[01:24:12] Thank you. Supervisor Palchuk and then Jimenez. Thank you. I'm happy. I know I think we're all happy and frustrated to still be at the spot moving forward, right, baby steps, and understanding that that program was very much needed, right? I know even the pre-pandemic, the $10 a month, the family was so frustrating, so few were registered, because getting on and staying on were really huge barriers.
+
+[01:24:37] And so definitely agree that partnership with the schools and that targeting, and I would even say early childhood, too, because the gaps start there. And so I do think recommendations on where those monthly gaps are, because I know the schools had tried to do it with the hotspots, and even those have limits, right, especially if only one child has that computer and every member has that.
+
+[01:25:05] I guess my question, I don't see them at the table, but I assume NCS and their technology offices are involved in this work. And so this really is sounding a lot more like an HHS in addition to IT. Lisa, if you want to share on the NCS work, or Alicia, a little bit.
+
+[01:25:22] So yes, Alicia is here in McCormick again. So NCS has absolutely been essential in this process, that they have worked with us and obviously making the connections to our CBOs. And then Greg also reminded me that the Internet service providers that have also been partners in this have really helped us move this forward, because we're all focusing our time and attention and energy on it because we recognize the importance of it.
+
+[01:25:43] As Chairman McKay had said before, this is just like having water and, you know, being able to have your lights on and being able to operate within your home. So we know that this is an essential area for us. So we've got all hands on deck. Happy to hear that. Thank you. Supervisor Menezes.
+
+[01:26:00] Thank you, Mr. Chairman, and being mindful of time. Mr. Bierman, earlier I said that I had taken his comments. May he return the favor, so thank you. I just want to say that, you know, I really look forward to the report and the follow-up. I think that every day, and I think we all know this, every single day that that 2% is there, the gap widens.
+
+[01:26:20] Every day someone is following behind even more. So, you know, obviously we are all invested. I have heard that you all are obviously prioritizing this, but I just want to be really mindful that every day the gap is widening, and that's very concerning. Thank you. All right, Supervisor Lust, this is going to cost you five minutes of public safety.
+
+[01:26:40] Oh, is it? Time. Okay, fine. I'll accept that. Even though I'm not going to take five minutes. I'm not taking five minutes. I just want to acknowledge, again, the importance of this report and appreciate the way it's laid out, the graphics, the materials, very well done.
+
+[01:26:57] So I want to state that. I was a little bit surprised, though. There's one thing that did kind of capture me. And on page 67, when I was looking at the graphic there, you had a little call out for Alexandria. And it says the address with the largest number of units without broadband is 7410 Spring Village Drive, a retirement community.
+
+[01:27:22] That was a little bit of a surprise to me. And I guess I would be not asking for it here now, but would like to get a little more information about the specifics in terms of the number of residents there that do not have broadband. And then thinking through, I guess, the strategy for us to try to approach that particular community and figure out how we can address that.
+
+[01:27:45] Because I thought that was a little intriguing in terms of the socioeconomics of the folks that live there and thinking about how well-educated they are. I did not anticipate this to be a factor. So thank you.
+
+[01:28:02] I won't comment on that specific address, but I will say, in general, a lot of the hot spots across the county that you see in this map are in multi-dwelling units, which may have some form of Internet access and maybe something like fixed wireless rather than fiber, which, you know, as Gabby mentioned, everyone wants fiber to the premise, right?
+
+[01:28:22] That makes sure that you have the highest speeds upload and download that you need. Sometimes fixed wireless can be an okay solution in some instances, but you do often see kind of throttling or issues, particularly in times of peak demand, so hence the focus on fiber in the plan.
+
+[01:28:38] And you might be referencing actually a map that's not currently on the screen? Yes, okay, and that, I'm trying to recall because I'm pulling back in my memory, I think that might actually be a census tract number as well.
+
+[01:28:57] So I can definitely look into that and get you more information about it as well. But, again, a lot of that information is information that we pulled right from the efforts that have been happening around broadband equity access and deployment with B and everything.
+
+[01:29:14] So we'll definitely pull more on that and get back to you. Okay, I think in summary what I heard loud and clear is the importance of getting this, getting FCPS involved and getting that kind of targeted to those kids.
+
+[01:29:30] But thank you all very much. I appreciate it. And, Greg, quick update. Apologies, Supervisor Luss for running over. Greg Scott, Director of IT. Where we're supposed to come back to this meeting is to give a brief update from a board matter on the affidavit.
+
+[01:29:47] We've made some inroads and some progress, especially led by Beth Teer's organization, the legal side of it. And now we've been working with DPD, the Department of Planning and Development, to go through the process and to refine those steps.
+
+[01:30:05] They have some external meetings with some of their staff and committees. and then hopefully in July we'll start the process of outlining the requirements to build out the system so stay tuned we'll be coming around to the board offices to get a little more detail from you and how you use the list but we're making progress supervisor Alcorn very quickly are you coordinating the Planning Commission on that because they use the data to okay yes that's That's what DPD is doing, DPD.
+
+[01:30:41] Any further things to come before the committee? With that, we're adjourned.
+
+----------------------------------------------------------------------
+Coraggio Consulting · aguyonx.com

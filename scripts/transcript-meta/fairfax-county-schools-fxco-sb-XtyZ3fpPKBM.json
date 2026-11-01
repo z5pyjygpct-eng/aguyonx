@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-XtyZ3fpPKBM.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2024-06-20-fairfax-county-school-board-committee-report-work-session",
+  "title": "Fairfax County School Board Committee Report Work Session, Thursday, June 20, 2024",
+  "shortTitle": "School Board Committee Report Work Session \u00b7 Jun 20, 2024",
+  "date": "Thursday, June 20, 2024",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "4h 9m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=XtyZ3fpPKBM"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-11-01"
+}
