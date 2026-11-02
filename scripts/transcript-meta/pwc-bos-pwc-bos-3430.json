@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/pwc-bos/transcripts/pwc-bos-3430.json",
+  "outBase": "public/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2024-01-29-prince-william-board-of-county-supervisors-retreat-part-1-audio-only",
+  "title": "Prince William Board of County Supervisors Retreat \u2014 part 1 (Audio Only), Monday, January 29, 2024",
+  "shortTitle": "Prince William Board of County Supervisors Retreat \u2014 part 1 (Audio Only) \u00b7 Jan 29, 2024",
+  "date": "Monday, January 29, 2024",
+  "place": "Prince William County Board of County Supervisors, Virginia",
+  "length": "6h 56m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Prince William County, Granicus)",
+      "href": "https://pwcgov.granicus.com/player/clip/3430"
+    },
+    {
+      "label": "Official Board of County Supervisors page (Prince William County)",
+      "href": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-11-02"
+}

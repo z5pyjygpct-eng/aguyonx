@@ -1,0 +1,462 @@
+Coraggio Consulting
+Fairfax County Board of Supervisors Safety and Security Committee, Tuesday, March 12, 2024
+
+Date: Tuesday, March 12, 2024
+Place: Fairfax County Board of Supervisors, Virginia
+Length: 1h 30m (video)
+Official meeting video (Fairfax County): https://video.fairfaxcounty.gov/player/clip/3284
+Official Board of Supervisors page (Fairfax County): https://www.fairfaxcounty.gov/boardofsupervisors/
+
+Machine transcript (speech-to-text) produced by Coraggio Consulting. Not an official county record. Names and numbers may be misspelled; check the video at the timestamp before quoting.
+Speech-to-text: whisper.cpp, model large-v3-turbo. Produced 2026-11-01. Timestamps are [HH:MM:SS] into the meeting video.
+
+----------------------------------------------------------------------
+
+[00:00:01] Good afternoon, everyone, and welcome to the safety and security meeting for today, which is March 12th, 2024. We have two agenda items, and I'm going to move swiftly to them because I've been told we need to move quickly today.
+
+[00:00:19] So the first item is a data-informed policing model that will be presented to us by Chief Kevin Davis. And then following that, we'll have an opportunity to hear from the board members here with any questions and discussion. And then after Chief Davis, we will have him come back and do technology and policing as our second agenda item.
+
+[00:00:42] And we'll also have the opportunity for board members to ask questions. So with that, I'll move to Chief Davis. Thank you. Thank you, Chairman Lusk, Chairman McKay, Board of Supervisors. I'm Kevin Davis, Police Chief for Fairfax County Police Department. And on behalf of the men and women of our police department, I'm here to discuss our 2023 crime data, and then next, our recent technological advances. I'm joined by Director Elizabeth Quintana. Director Quintana is the lead on our Office of Data Analytics and Strategic Initiatives, and Lieutenant Hudson Bull, who is in the process, it's not yet completed,
+
+[00:01:20] but in the process of standing up a real-time crime center for Fairfax County, and I'll discuss that as we move forward. As you know, the FCPD takes pride in operating as a data-informed police department that constantly seeks innovative and new technologies to better serve our community. Throughout the year, our crime analysts review current and historical data to identify seasonal trends and patterns. They collaborate with commanders and specialty units to make data-informed decisions on times and locations, enforcement, and our mere presence sometimes will be most effective. Additionally, we want to make sure our officers are equipped with the best
+
+[00:01:59] tools and resources to do their work safely and efficiently. The purpose of today's presentation is to review our crime in 2023 and also demonstrate how technology is helping apprehend offenders and keep our community safe. So as we move to the first slide, I take great pride, we take great pride rather, of being able to continue to state that Fairfax County remains the safest jurisdiction of our size in America for violent crime. And I want to define that because sometimes when we say something as important as that, it lacks definition or context. So violent crime in America,
+
+[00:02:39] as it's captured and ranked by the Major City Chiefs Association, considers murders, robberies, aggravated assaults, and sexual assaults. And they simply add up all those raw numbers and they come up with a total. And then they rank our agency against all the other agencies that constitute the largest police departments in America, 70 out of the 18,000. And that's where you come up, we come up rather, right where we've consistently been as the safest, largest jurisdiction of our size. That doesn't mean obviously that we don't have crime challenges. And I'll talk about some
+
+[00:03:17] of the crime challenges and I'll talk about a couple of Achilles heels that we need to continue to address, most notably, simple assaults and larcenies or thefts or retail crime. Our top ranking is a testament to the dedication of our police department, the strong and robust community partnerships that we've collectively formed, everybody in this room, and the support we receive from the community, county government, and elected officials. I'm happy to report that
+
+[00:03:51] homicides were down 23% in Fairfax County last year. So what does that mean? We went from 22 murders in 2022 to 17 in 2023. Nationally, homicides went down across the country in the largest jurisdictions about 15%. So we're on the good side of that with a reduction of about 23 percent. The 17 homicides we saw in 2023, and one is too many, all 17 of them were closed with
+
+[00:04:25] an arrest. So 100 percent closure rate is something that not too many agencies can brag about. We're also pleased to report a reduction this year in forcible sex offenses. Okay, I want to talk about assaults for a second. This year we observed a significant rise in assault offenses, and that's for the second year in a row. Nearly 81% of all assaults in Fairfax County are categorized as simple assaults, which are misdemeanor assaults, which overwhelmingly occur with a victim and an
+
+[00:05:00] offender known to each other. About 5% of all of our assault crimes last year involve assaults on law enforcement officers. So I want to just add to that for a second. It's important to note that the total number of officers assaulted, both simple and aggravated, has increased over the last two years. In 2023, 473, so that's more than one a day, of our police officers were assaulted.
+
+[00:05:29] Most are simple assaults, but assaulted nonetheless, and that kind of speaks to, and I'm not going to go down the health and wellness rabbit hole, but it speaks to the necessity that we keep focusing on the health and wellness of our officers. So this increase represents an increase of 94 additional officers compared to 2022, and an increase of 192 officers being assaulted since 2021. It has our attention, and we're taking steps to mitigate it. Regarding the crime of burglary, and I always am fond of saying if someone breaks into your home, the sanctity of your home,
+
+[00:06:07] it makes you feel a certain way that no other crime makes you feel. And our overall burglaries decreased in 2023 however we did observe a spike in residential burglaries so commercial burglaries down residential burglaries up we monitored and discussed the increase at our weekly crime meeting and our analysts tracked the criminal incidents and suspicious activities related to a couple series of residential burglaries that we had so from that we created an interactive dashboard So we can see all the district stations that have been impacted, days, times, MOs, et cetera.
+
+[00:06:45] The dashboard includes a map that highlights areas detectives and patrol officers need to focus their patrol operations and their surveillance operations. In addition to these operative measures, FCPD also continually met with affected communities.
+
+[00:07:01] I know some of you in this room have joined me and others at community events where we discussed homes that have been broken into. Recently, and this made the news for a couple days in a row, suspects tied to several of our residential burglies in December and January were arrested in Cobb County, Georgia.
+
+[00:07:20] This particular crew used rose delivery ruses, that's a tongue twister, rose delivery ruses to approach target houses, knock on the door. If someone didn't answer the door, then they went back shortly thereafter and broke into the home, targeting mostly jewelry, high-end jewelry, and cash kept in the home.
+
+[00:07:43] We still see a lot of residential burglaries, and you think, you know, and there's some cultural and other, you know, matters associated with this, but a large amount of cash is still kept in some homes in Fairfax County, so we need to continue to educate folks.
+
+[00:08:04] Recently, suspects tied to that crime are held accountable in Georgia, and they're awaiting extradition eventually after they face their criminal charges down south to the Commonwealth of Virginia. Regarding robberies, and just this morning, if you saw the news, you probably saw that in Prince George's County, another ATM machine was tied up to the back of a pickup truck and ripped out of a 7-Eleven.
+
+[00:08:32] There is a sizable crew that's been targeting all of the larger jurisdictions in the National Capital Region. Some are ATMs that are hooked up to the back of a pickup truck and taken. The majority of them now are taken by a crew who has, they have their hands on what are really fire and rescue equipment, the jaws of life and other tools.
+
+[00:08:56] And they're going into these convenience stores. They're holding the employees at bay, so that constitutes the robbery. and then they're literally prying into the ATM machine. I'm not going to say it out loud, but you'd be surprised how much money is contained in these small ATM machines.
+
+[00:09:14] The 7-Elevens and the convenience stores don't suffer the loss as the victim because they rent out that space. So small ATM machines, maybe that's a legislative item down the road, but it's really a challenge for us. So we're focusing on that series of robberies with regional partners.
+
+[00:09:34] A lot of these folks have been identified. We're working with federal partners as well because federal charges are certainly appropriate given the nature of their crimes and how they cross from one jurisdiction to the other. So the next slide, larceny.
+
+[00:09:50] Larceny is the old school word for theft. And retail crime is the new way that I and so many others talk about thefts because the word theft seems to minimize the seriousness of the offense. I shared with one of you before the meeting that two years ago, our year-end number of thefts throughout the entirety of Fairfax County was 4,000 thefts, and last year, it jumped to 7,000 thefts, so 4,000 to 7,000 thefts, so that's our Achilles heel.
+
+[00:10:22] It's something that's impacting jurisdictions across the country, quite frankly, and on April 2nd, Northern Virginia chiefs and sheriffs are meeting with each other and the prosecutorial community and the loss prevention community of all Northern Virginia jurisdictions to try to come up with some innovative solutions. So that's coming. Everyone is jumping up and down about what we need to do to prevent, mitigate, and hold these really organized groups better accountable
+
+[00:10:56] because the folks that are committing these crimes, they aren't stealing food to feed their children or clothes to put on their backs. They're stealing large quantities of high-end merchandise that later end up on Facebook. What's the back page? You're younger, Diane. Marketplace.
+
+[00:11:15] Facebook Marketplace. Pawn shops are very old school. It's Facebook Marketplace, and they're turning these things around very quickly. In our county, they tend to rent or to get a nearby hotel. They'll travel here quite often from outside of Fairfax County, as far away as New York, Philly on a number of occasions, and they'll just stay and go on a spree and take as much as they possibly can. And we catch them a lot of times. So I'm looking forward to that symposium, one-day symposium, to see what we can better do about larcenies, because just looking at the slide,
+
+[00:11:50] you can see it has certainly spiked, and we need to find some better solutions to address it. Another type of larceny or theft regarding motor vehicle parts, you'll remember not so much last year, but the couple years preceding, we talked nonstop about the theft of catalytic converters, and it was the crime du jour, not just here in Fairfax, but regionally.
+
+[00:12:16] A lot of those theft crews have been arrested and held accountable. They came from the south, not from the north, but a lot of those folks have been held accountable, we've, from that, had a dramatic decrease in the theft of catalytic converters. So what has taken its place in 2024? While it's not catalytic converters, it's the theft of tires and rims.
+
+[00:12:41] So we're seeing a huge uptick in the thefts of tires and rims, and they're just put on milk crates and cinder blocks. But it's something we're keeping an eye on, not just in the county, but regionally regarding auto thefts we're relatively flat you can see in in auto thefts just just about a thousand auto thefts in 2023 that's up a little bit from a couple years prior but we're relatively steady we credit a lot of the work two years ago we stood up a full-time auto crimes enforcement team so all they do is go after these crews and typically by crew i don't
+
+[00:13:20] mean necessarily a sophisticated organization, but a group of often young people who go out together and steal cars. And the cars that are being stolen the most are Kia and Hyundais. And if you remember, and it was a very real thing, the Kia and Hyundai TikTok challenge to record the crime that you commit of a theft or a Hyundai and post it on TikTok, that actually still does happen. And from that, Kias and Hyundais have been stolen at disproportionately high rates.
+
+[00:13:54] The most common vehicle make stolen in 23 was the Hyundais, particularly in the Mount Vernon district. We created the FCPD Ace team. I talked about that. They have, from April 22, when we stood them up to December 23, they've recovered 245 stolen vehicles, 33 guns, and arrested 544 people. So they're doing a lot of work. The vast majority of the cars stolen in
+
+[00:14:28] Fairfax County are later recovered in the District of Columbia or in Prince George's County. And we share daily information back and forth with those jurisdictions. And I'll discuss our license plate reader program later. I know that generates a lot of interest. So pedestrian fatalities. If you look at 2023, we really had a good year, not to minimize the loss of life for the nine pedestrians who were killed. And that's, again, nine too many. But if you look at where we were the year before,
+
+[00:15:02] which was a record high year of the last 10 or so, a lot of things were done within policing and government and communities to really, I think, get that number down to something that we should be proud of a lot of work to do parentheses no doubt about it this year you all probably are aware particularly after the pedestrian was struck and killed by the the the motorist who was in the stolen car we're at three pedestrian fatalities so far in in 2024 so what are we doing about it
+
+[00:15:38] road shark that's an enforcement program that starts up again this weekend 50 means 50 click at our ticket, school zone enforcement, youth traffic safety outreach. The response has been positive to all those programs that will absolutely continue. The total fatalities from crashes, vehicle crashes, dropped from 45 to 29 in 2023. And again, I stated that pedestrian fatalities dropped to nine in 2023. So the challenge is to sustain that momentum.
+
+[00:16:13] So far this year, we have, like I said, three pedestrian fatalities and 11 motor vehicle fatalities. More than 30 impaired drivers were arrested, and more than 600 traffic citations have been issued to motorists so far this year.
+
+[00:16:31] Our DWI enforcement continues with a focus between the 11 p.m. and 2 a.m. hours of the day. We increased our DUI arrest in 2023 by the tune of several hundred. We regularly discuss traffic statistics at our weekly crime meeting and disseminate reports.
+
+[00:16:53] We keep track. We keep score because we do think enforcement is a piece. It's only a piece, but it's certainly a piece of safe roadways. More on pedestrian fatalities. Here we are. At the BOS meeting on February 19th, a question was asked about pedestrian fatalities in the county over recent years.
+
+[00:17:15] I believe we are sharing a heat map, a document, later today, if we haven't already shared it earlier today. I think it's out. Our Office of Data Analytics and Strategic Initiatives reviewed all the DMV treads reports associated with pedestrian fatalities from 2019 to 2023 and identified 77 pedestrians who were fatally struck and killed during those five years.
+
+[00:17:40] So 77 over five years. More than 50% of the pedestrians were struck while crossing outside of an intersection or crossing at an intersection against a signal. Most of these pedestrian fatalities occurred when the weather was clear.
+
+[00:17:57] Most incidents occurred at night, and no pedestrians who were fatally struck were wearing any type of reflective clothing. Generally, this is not a singular issue. There are many factors, like I mentioned, including obeying the laws, traffic engineering, and other contributing factors in the deaths and serious injuries we've experienced.
+
+[00:18:18] We have been working with Deputy County Executive Rachel Flynn, and she's leading a cross-collaboration of county agencies who are looking at this issue very closely, and we'll have more to present to the BOS at a future committee meeting, I'm sure.
+
+[00:18:35] The new dashboard. So this is something Chairman Lutz reminded me that I talked about three years ago when I got here. We have to internally and externally, internally facing, externally facing, be able to share real-time crime data with the community.
+
+[00:18:51] So we're finally here. We're putting the finishing touches on this. Everything is easier said than done. A lot of work internally, a lot of work with the county IT department to bring this to fruition, and a lot of modeling after our own fire and rescue department, who does data really, really well.
+
+[00:19:09] So this open data portal will be soon launched, and community members visiting the portal can obtain updated data on arrests, citations, and warnings going back to 2019. The portal also includes links to data we are required to publicly post under the Commonwealth's Community Policing Act.
+
+[00:19:29] The portal continues, again, like I said, to be a work in progress, but we're ready to launch it. The site will continue to be modernized to improve transparency and communication between our agency and the community. One recent update we are excited to announce is the launch of the new ArcGIS dashboards for the community to now view county crime data, demographics, and locations in real time.
+
+[00:19:56] And we are putting the final touches on these dashboards now and it will go up in the very near future. fcpd information technology division has created these new and innovative crime mapping dashboards which show year-to-date crime in comparison to the preceding three years the dashboards extract data from our records management system we have a new records management system vendor that is on board and working very closely with us they're updated every hour and they display this information which you'll see live they'll display it at every hour 20 minutes past the hour
+
+[00:20:33] with updated rms data so it's as real time as it gets so the first page you see here is is uh crime against persons again it includes assaults ag assaults forcible sex offenses offenses and homicides the community will see the aggregate of these crime types and victim demographics including race ethnicity sex and age when they access the page they can also interact with the the data by selecting features which filter all of the graphs in the dashboard. So it's a really interactive dashboard. The mapping component is a tremendous upgrade allowing community members to
+
+[00:21:12] see crime in their area and overall in our eight and soon to be nine police district stations. The second page you see here is interactive just like the first and focuses on crimes against property. Is that crimes against property? Specifically larceny, auto theft, burglary, robbery, arson offenses. The bar graph to the left displays when these crimes occur most often throughout the day, and the graph on the bottom depicts the crime by police district. The boundaries for our police districts are visible on the map so community members can identify their corresponding
+
+[00:21:51] police district and access links taking them to the station's contact information and leadership information. In the case they are unsure what district they reside in, the find my police district feature on the map allows community members to type in their address and see where their police district is. So the next slide. In keeping with our effort to be absolutely as transparent as possible, the dashboard will be easily accessible on multiple platforms.
+
+[00:22:22] This slide shows a previous of how our dashboards will look, a preview rather, of how our dashboards will look like on both tablets and mobile phones. So we're excited and proud of these new crime mapping dashboards and what they will mean to our community. And I know it's been a topic of conversation for a few years now, and we're finally at that moment where we can press a button, and this will be on autopilot. And we can, of course, make changes along the way. And that, in keeping with the brevity hint from Chairman Lusk, concludes my
+
+[00:22:57] presentation, and I'm ready to answer any questions. So I'll start by saying thank you very much, chief davis uh very informative presentation and uh really excited about the work you're doing on data and you're right we talked about this three years ago and it's finally come to fruition so thank you for being steadfast in making sure this came to the place it is here today so let me um just run through the presentation very fast there's a couple things i want to acknowledge
+
+[00:23:26] And again, just appreciate what you and the police department have done to continue to make Fairfax County one of the safest jurisdictions of its size in the nation, the safest, based on data that you've reported here today.
+
+[00:23:42] So we're very pleased and appreciate the work that you and the team does to ensure that. I also wanted to acknowledge something that you mentioned in slide four.
+
+[00:23:55] He talked a little bit about the Springfield Christmas anti-theft, and I just want to be clear here in saying I know the work that was done by the police department, specifically in the Frank County District, and I want to acknowledge the work that they did specifically in going and meeting with the retailers and really trying to figure out what was the issue with them coming forward to let us know about criminality in their stores, and then how we were able to establish relationships with their specific shrinkage and security staff
+
+[00:24:33] to ensure that when crimes happen, they contact us and we are physically, which is also amazing, we're physically in the vicinity or in the town center. So the beauty there is we can respond quickly. And what that really does is ensures that anyone that's committing those types of crimes knows and we should get caught and maybe by the way you should not be thinking about committing those types of crimes here in this area so i just wanted to acknowledge the good work of the department and
+
+[00:25:06] specifically the franconia district station to achieve the success thank you yep so quickly let me ask and i appreciate what you said on pedestrian fatalities and i'll look forward to seeing, I guess, the report that will come back with Rachel Flynn that addresses kind of some of the after action here to try to address this. This is a very kind of disturbing thing, particularly in South County. And unfortunately, I guess both myself and Supervisor Stork are the ones who receive those phone calls. And we've been getting a bunch of those phone calls here in the last two
+
+[00:25:44] weeks. And something certainly needs to be done here to try to reduce those numbers of strikes and fatalities. So we'll look forward to seeing that. I also wanted to get to a couple of things.
+
+[00:26:02] One of the questions I wanted to ask you, Chief Davis, is in the work that we have been doing with COG, we've heard that one of the things that they're focused on is trying to find out, particularly for their carjackings and some of their larcenies and other robberies.
+
+[00:26:21] Who's perpetrating those? What's the age of the folks who are committing these crimes? And what they have learned is that some of them are younger. We're talking about minors specifically. And they're trying to figure out what to do to address that, at least in their locality.
+
+[00:26:40] A question for you, understanding that we've got some similar type crimes, what's been the age of the perpetrators of some of these larcenies, robberies, and carjackings? Well, thank you, Chairman Lusk.
+
+[00:26:56] About a month ago, the Police Executive Research Forum, PERF, had a one-day symposium on carjackings in the National Capital Region. And I'm not going to talk about any other jurisdictions. Okay. But, you know, we stand in a unique position where we had 25 carjackings last year.
+
+[00:27:17] We had 27 the year before. Those numbers pale in comparison. Yes. And when we got on the topic of who are committing the carjackings in Fairfax County, there's 25. We don't see the trends that other jurisdictions are seeing.
+
+[00:27:32] We see, frankly, adults, adult men who are committing the carjackings. I know other jurisdictions have different experiences, but we're seeing adult men committing these carjackings. And our success rate in catching them is impressive.
+
+[00:27:49] No, no, that's important to know, and I appreciate you being able to make that clarification, and I'm certainly happy to hear and know that. Let me ask on the dashboard, which I very much am excited about and see so much value for.
+
+[00:28:07] You mentioned that it's being presented specifically as district station data. Is there ever a point where it might be able to disaggregate to magisterial district? Do we anticipate that we could get to that level of analysis?
+
+[00:28:23] Good afternoon, Chairman Lusk, Chairman McKay, members of the board. My name is Elizabeth King-Thun. I am the director of Office of Data Analytics and Strategic Initiatives. And in regards to the crime dashboard, I believe that that is the future that we're going towards to show the crime data by the magisterial districts.
+
+[00:28:42] Currently, the way we capture data in our records management system is by the police district, so that's how we are presenting it currently, but we do look into the future as a second version to that dashboard showing that. I think that will be helpful, obviously helpful for us as members of the board, but then for the residents, the simplicity of them being able to identify kind of which area they live in.
+
+[00:29:04] Let me also ask, Chief, in terms of the co-production model and really helping with the development of the strategy for data and policing? What is the co-production model that you see? So as you know, Chairman Luss, a lot of work has been done over the last several years with the Matrix Working Group and other community groups, and we're looking very much forward to the One Fairfax Community Roundtable.
+
+[00:29:34] So we'll continue that work with them. there are a couple new policies and changes to existing policies that we have kind of on deck to discuss with that group. I know that it's being formed right now, and we look forward to that continued same type of interaction. I know. I think that's really important, and I appreciate you making that clear. And then last, I'll just say I look forward to having you report next year. I guess this will be an annual kind of program for us here with the Public Safety
+
+[00:30:09] and Security Committee. And thank you for this year's report. Thank you, sir. So let me turn it over to the chairman. Thank you. Just very quickly, first, on the dashboards, this is outstanding. I know how long it's taken to get to this point. One of the things we didn't talk about relative to the dashboard per se is talked a lot about the transparency side of things, which is important, but I know that you're using this to inform efficiencies and officer deployment and some other resources. I don't know if you wanted to mention anything about that or not, but this tool is great for the public knowing what's going on in the community, but it's also great for
+
+[00:30:49] the department. Right. So thanks, Chairman. Internally, we have a weekly crime meeting that's historically for the last 30 or so years in our profession been referred to as Comstat. We refer to it as CORE. And we discuss these very things. So whether I'm a community member or a police commander, if I'm looking at crime and the basics, the blocking and tackling associated with the crime fight, it's prevention, detection, and accountability. So we use it to
+
+[00:31:25] inform our discretionary operational and investigative assets, you know, what days of the week, what places in the county, what do you do, why do you do it, and where do you do it. So 409 square miles or so is too large of a jurisdiction just to wander out into the county and engage in a successful crime-fighting strategy. So it informs us on a weekly basis, daily basis. It's smart policing. Yeah, I mean, the transparency piece is huge, but to me,
+
+[00:31:59] that piece is the biggest benefit, I think, even to our constituents to know that that is how we're using the data, and I think that's really important. Chief, when you were talking on slide three about the homicides, outstanding 100% closure rate, that's an amazing statistic.
+
+[00:32:20] The one thing I didn't hear is how many of those 17 were domestic-related? Five, Chairman. Five of the 17. Roughly a third of those were domestic-related. And that's actually down a little bit from the last two years. During the heavy, three years, the heavy COVID years, a third plus were not only domestic-related, but they were indoors.
+
+[00:32:42] And then the really unique trend that we didn't see last year, we saw years before, were adult children living at home taking the lives of their parents. I think we remember that and the mental health implications of that. Two other quick questions, and then I'm done.
+
+[00:32:57] On page six, the auto theft, you mentioned the Kias and the Hyundais and the TikTok component. Remembering when we were handing out the clubs at the Lorton Community Center, there was also that technology key piece that was going on.
+
+[00:33:14] Is that still an issue? Is that a driver in this, or has that now been overtaken by the manufacturers and technology? The cloning of key fobs, that's still a huge issue. And we get impacted at our car dealerships all the time. And a lot of it starts out with some type of knowledge of how the car dealership is set up and where the keys are and where the office is. And you kind of get where that comes from. But the fob, aka key cloning technologies are amazingly sophisticated now. And we're seeing that when we see thefts in particular at car dealerships. But we're working
+
+[00:33:52] with them to educate them. They have to, in my opinion, better target harden their facilities. And some of them don't do that overnight. No, right, right. I appreciate that. I think I have two more. One, on page seven, the pedestrian fatalities, all the education programming that we're doing in there. I'm just wondering if, because we know exactly where these occurred and we can identify patterns with where we, where these have occurred, are we doing anything specifically tailored to those corridors on the education front? Because I know as I drive around
+
+[00:34:30] the county, I see blatant pedestrian violations in terms of crossing and other things in some parts of the county that I don't see in other parts. We know some parts of the county have much higher pedestrian activity than others do. And so are we custom tailoring some education initiatives to those corridors where these issues are paramount concern?
+
+[00:34:52] Yes, sir, we are. A little bit of a challenge, and we have to find new ways to adapt and overcome. When legislation was passed making jaywalking not a primary offense but a secondary offense, a short-sighted response to that would be, well, we can't have conversations with pedestrians.
+
+[00:35:09] Of course we can't. It's not an enforcement conversation, but it's an educational conversation. And then really inside the schools and our engagement in the past calendar year with FCPS and Dr. Reed and her staff has been a lot higher than years prior, at least since I've been here, and pedestrian fatality, opioids, overdoses, they're dialed into that, and they've taken a chunk of that responsibility to better communicate to their students about pedestrian responsibilities.
+
+[00:35:39] Good, good. And then my last question on larcenies and shoplifting. I know we heard in the past that, you know, there were a couple big properties in the county that was where the highest percentage of these incidents occurred, and that's the benefit and downside of having regional malls and a lot of big box retailers.
+
+[00:35:57] Is that still the case? Does it seem to be concentrated with our big box stores and our regional malls, or is it more at this point now scattered across the board? So, Chairman, I'd say three names, Tyson, Springfield, Fair Oaks, that's the bulk of it.
+
+[00:36:14] And as other jurisdictions, and we're all familiar with other jurisdictions, as they have over time lost their larger shopping venues like malls, I think we are the shopping, you know, like you said, for better or for worse, everybody comes here to shop.
+
+[00:36:30] Yeah, okay. But the loss prevention community, Chairman, they're a part of our April 2nd conversation. And I always use Saks Fifth Avenue as an example. They do loss prevention better than anything I've seen. And their commitment to prevention really keeps their numbers, their crimes, much lower than some of their competitors.
+
+[00:36:54] And they will prosecute people. So the other piece of this that we haven't talked about and we can talk offline about it is I know in the past we've had some retailers reluctant to follow through on the prosecution end of things. So we're doing a good job, but word gets out that that's not happening and something we can talk about offline to see where the trends are with that.
+
+[00:37:13] But I really appreciate the report, and probably the biggest takeaway from this report is the introduction of this dashboard, which I think is here. So well done. Thank you. Okay. Thank you, Mr. Chairman. I will now turn to my colleagues, and I'll start with James Walkinshaw, Supervisor Walkinshaw.
+
+[00:37:30] Thank you, Mr. Chairman. Thank you, Chief. Just one question on the assaults. you noted that the majority were among people who are known to each other. What's the percentage of those assaults that are domestic violence or interpersonal intimate partner violence?
+
+[00:37:50] So, Supervisor, I should have that at my fingertips. Okay. Yeah, you can get it to me. I'll get it to you. Okay. It's a high percentage, I would suspect. It's a very high percentage. Yeah, okay. I think that's important, you know, just to note in terms of, you know, our focus, but also we're talking about folks who are known to each other for the most part that have a relationship for the most part not random violence taking place in the community so super i'd say even our aggravated assaults our felony assaults those two vastly are people known to each other as well yeah it is rare to have a random stranger aggravated assault or simple assault does it
+
+[00:38:30] happen it does but there are that's a that's a smaller percentage of the time and and related to that, the LAP, the Lethality Assessment Program expansion is in place. Officers, everyone is trained and it's being implemented. So in most of those cases where you have a domestic violence or intimate partner-related violence assault and a police officer responds, they're going through the LAP protocol. Yes, they are. And some folks would say that the better a jurisdiction is at uh, lethality assessments and, um, just having a better awareness to, you know, about the necessity
+
+[00:39:06] of documenting serious crimes like assault. Uh, some would say that that will, the better you get at that, you, you may, um, surface more reporting. That's right. Yeah. That, that, that, that's what I was, that's what I was getting at. Um, and obviously we want the number to be zero or lower, but, but the fact that we're capturing it, we're going through that process is actually saving lives with respect to the LAP program, especially.
+
+[00:39:31] Absolutely. Yeah. Absolutely. Thank you. Thank you, Supervisor Walkinshaw, Supervisor Palachuk, followed by Supervisor Harry. Thank you, Mr. Chairman. Thank you, Chief, and your whole team. This question, I don't know if it can be answered right here. As we're looking at auto thefts, right, and tracking it and the data and the work that we're doing and you're doing is really helpful.
+
+[00:39:49] I think one question I've had from constituents is knowing that we have so many boundaries, right, with other districts and other jurisdictions. And I don't know if you can speak to it here a little bit, but where there is that coordination and the ability to communicate across departments, even when certain parts of the operation maybe cannot communicate as quickly.
+
+[00:40:13] I know you and your team do a lot on that cross-jurisdiction work. So, Supervisor, I'd say the communication is almost immediate now in real time because so many jurisdictions, to include ours, has advanced license plate reader technologies that we're going to talk about at the next presentation.
+
+[00:40:32] So the immediate availability to share information about a car involved in a crime or about a car that's stolen or carjacked, we don't wait to share reports like we did five years ago. we're sharing it in real time with all those other jurisdictions that share the same camera and surveillance technologies. So it's particularly on the Northern Virginia side and on the Montgomery Prince George's County side, there's constant back and forth communication. We still have to
+
+[00:41:05] take the careful steps to verify and confirm to ensure that that car that we're about to stop was absolutely involved in in a crime and there's a class that lieutenant bull teaches that speaks directly to that just because we have technology uh we have to we still have to verify trust but verify uh and so we we're really careful about how we teach our officers to interact with the technology so it sounds like there are definitely improvements there but maybe the training and how did you are seeing that we're able to do more of that immediate communication than maybe we could
+
+[00:41:41] years ago. Good afternoon, Chairman McKay, Chairman Luskin, members of the board. I'm Lieutenant Hudson Bull. I'm commander of our Real-Time Crime Center, which oversees our license plate reader program. And to talk about the real-time communication, using the different technologies that we've advanced to here in Fairfax County and have been adopted based on our success by regional partners, we are able to more quickly locate vehicles of interest that may have been stolen or involved in other crimes.
+
+[00:42:14] And also our detectives from our auto crimes enforcement team, they're the ones out there talking to detectives from other regional partners as well. So we really combine the technology and the communication piece together as well as the training that the chief discussed where we make sure that our officers are following the steps every single time before they stop the car.
+
+[00:42:35] I know it's your next presentation. just seeing that the auto thefts we know continue to rise, even with all the work. I appreciate that these efforts hopefully will help us see some diminishing of that moving forward. Thank you. Thank you, Supervisor Palachuk, Supervisor Herity, followed by Supervisor Mendez.
+
+[00:42:52] Yeah, I'm going to start by kind of recognizing all the good work that's in here. I mean, it is truly incredible. I mean, from the speed enforcement to the ACE team, looked ahead, what you guys are doing with the license plate readers. Absolutely incredible in terms of catching people and stopping crime.
+
+[00:43:15] Fill in our shortfall with the recruiting classes, which isn't in here. The 100% closure rate on homicides, I mean, that's something that, I mean, not many jurisdictions, I'm not even going to ask if any, how many other, but I know none of our regional partners has got that rate.
+
+[00:43:33] challenging times uh and i spent most of the last year talking with residents at their door um i know you know but i the safest jurisdiction of our size in the country kind of rings hollow with our residents brings hollow with our residents when they can only use one entrance at the giant they go to shop and they can only try one shoe on because the rest of them are locked up electronics are locked up you've got armed guards at whole foods you got to worry about
+
+[00:44:09] when you go to Burke Lake now because break-ins have doubled there that somebody's going to break into your car because they've doubled. Many of these are regional trends because it's not just us. It's not the county it was even five years ago, much less when I was young. And yes, assaults and thefts are up, as you noted, but our residents today are more likely to witness or be exposed to crime than they were, like I said, even five years ago. And I think you said 7,000 to, or 4,000 to
+
+[00:44:47] 7,000. When I used to go to, when some of my proudest moments were going on the ride-alongs with the jump squad, and I would hear, and I used to, I heard it more than once, that yeah, I can get you drugs, but not here in Fairfax County. Because if you did something in Fairfax County, you not only got caught, but you got prosecuted. You guys are doing a great job on the getting caught part, and unfortunately, you don't control the getting prosecuted part. I wish you did. We got a Commonwealth attorney that's fairly incompetent at making that part happen, especially stopping
+
+[00:45:21] this retail crime because our partners have given up on prosecuting because they don't get prosecuted. I'm just with caution on overuse, the department on the overuse of the same jurisdiction of our size in the country. I want to go to a couple of quick questions.
+
+[00:45:45] I didn't know we were doing co-production of policies that wasn't in here, but I heard the question answer. I'd like to understand that process and I'd like to make sure that we've got our auditor police auditor involved and our you know that i know we've got a group of activists that want to be very involved in co-production but i want to make sure our average citizens are at the table too so if i could understand how that all works that would be helpful to me you don't have to tell me now but i or you can tell me now but uh sure uh supervisor thank you and um
+
+[00:46:22] co-production in in my mind is synonymous with collaboration and communication and conversation And as we meet with various groups, and we have and continue to do so, and we talk about existing policies that we are considering amending or new policies that we're considering implementing, it's always important to hear their experiences and their viewpoints.
+
+[00:46:46] And that doesn't mean we agree 100% of the time, but at least at the end of it all, when a new policy is written or an existing policy is revised, they tend to have better ownership of it because they participated in the process. So that's a perfect answer. Are we engaging the CACs in that process too?
+
+[00:47:04] So every CAC is different. I imagine that some of the folks who religiously attend the CAC meetings may be considered to be part of the upcoming One Fairfax Community Roundtable. So that's going to be a new group kind of invigorated and ready to work with us. So I don't know who's going to be part of that group yet, but we look forward to working with them.
+
+[00:47:26] And our police auditor, I imagine, would be very involved in that, or no? Let's see. So we involve the office of the county attorney. We involve Carla Bruce. We involve a lot, particularly on the policies that we know generate a lot of community interest.
+
+[00:47:42] We try to be as inclusive as possible. Okay. I guess the only suggestion I'd have for you is, and I said it earlier with the 100% homicide close rate, I like the notion, and you do a good job of getting out there when we catch people and all the great work you're doing, but, you know, the whole notion of you do crime in Fairfax County, you're going to get caught, and I think there's a prevention aspect there, and you're doing the job.
+
+[00:48:10] You're doing a great job of it, but I think the more we can get that out, and I'm sure you sent a press release because the press never covers the good news, but I'm sure you sent something out on the 100% closure rate, but if you haven't, that's certainly something that I would focus on because I think it's important to let people know that you come to Fairfax, we've got a police department that's strong and getting stronger, and you're going to get caught.
+
+[00:48:35] And I'm glad to hear you're working with the retail crime, and I think a piece of that is getting them back engaged and prosecuting that crime because we've got to do something to stem the retail threat. And I think there's a partnership there in prevention and in catching them.
+
+[00:48:54] And with that, I've just got to close where I began, keep up the great work. Thank you, Supervisor. I mentioned the same thing to the academy class that we graduated last week, largest since 2008. I said, you know, one of the things we're proud of as a county is you will be held accountable for the crimes that you commit.
+
+[00:49:12] So as those brand-new 48 Fairfax County police officers are out there today, I hope it's something that they become proud of as well. Mr. Chairman, just very briefly on slide two, because I hear Supervisor Herity say this.
+
+[00:49:28] He's the only person I hear say that the major city chiefs association data is somehow inaccurate or we shouldn't be proud of it. We should be very proud of it. We've had this statistic in place for a lot of years. I think that's a better indicator of what's going on than the doors you chose to knock on.
+
+[00:49:47] And so I hear something very different from the community. I hear concerns about some of these things, especially regional things. But I hear great respect for the work that our officers department are doing. And frankly, everywhere I go, and I mention that, I get nothing but nods of agreement.
+
+[00:50:03] And that's the Fairfax County we know. And so sometimes if we're worried about people's perceptions of our community, what we say can lead their perceptions. And in a lot of ways, we see false perceptions about people, about demographics, about the community being involved, about statistics.
+
+[00:50:22] This is the major city chiefs association. This is a nonpartisan, nonpolitically motivated organization of police chiefs that gather this data and position us as number one. So as chairman of this board, I want to make sure you know we keep saying that and we'd be proud of that.
+
+[00:50:40] Okay, we have two more speakers. Next is Mr. Jimenez, followed by Mr. Bierman, and we'll close this discussion. Well, thank you, Mr. Chairman, and nice to see you, Chief Davis, and thank you for your presentation. Always great to hear of all the good work that's happening throughout our county.
+
+[00:50:59] You know, one, instead of a question, I just have a quick comment, and it's that I want to highlight and commend the leadership and officers of Mason District. Since I came to office, Commander Weeks and Deputy Chief Corey have been nothing but helpful.
+
+[00:51:17] They have forged a partnership in which they are out in the community, along with other officers. They are involving themselves with the community, not just being, you know, just there when something goes on, but there before something happens. And I think that's key. I think having that relationship with the community, with the supervisor's office, with others is what's going to make success and bring about success in Fairfax County.
+
+[00:51:40] So I just wanted to highlight that as a positive thing that I've seen and looking forward to continuing to have that partnership. So thank you. Thank you, Supervisor Jimenez. Supervisor Bierman. I'm just going to second what Chairman McKay said and save my next remarks.
+
+[00:51:57] I'd like to ask some questions in the next section on speed cameras, so we can move on. Thank you. I appreciate that. I also knocked on a lot of doors and heard a lot of what Chairman McKay is talking about, over 6,000 of them. But anyway, thanks. Thank you very much, Supervisor Bierman.
+
+[00:52:15] So we'll transition to the next presentation. So we'll welcome back Chief Davis, and he'll talk a little bit about technology and policing. Thank you, Chairman Lusk, Chairman McKay, Board of Supervisors, Kevin Davis again, Fairfax County Police Chief.
+
+[00:52:34] We're committed to embracing new technology in the crime fight. New technologies can improve operational efficiency and officer safety. As we look to new technologies, concerns can range from infrastructure, storage space concerns, hardware, and lastly, safeguarding individual privacy and liberties at all times.
+
+[00:52:57] And we're very aware of all those things. By focusing on national best practices and training, response, and technology standards, the FCPD has become a national leader with many of our policing technology programs. Technology has increased regional awareness of crimes and allows for effective partnerships amongst our neighboring jurisdictions.
+
+[00:53:17] We'll cover some of the newest FCPD advances in the past year briefly today. From the outset, we want to establish that the FCPD embraces innovation that is secure and protects individual privacy and helps put our officers and resources in the right places at the right time while keeping them as safe as possible.
+
+[00:53:38] So, CORE. What is CORE? I touched on it a little bit earlier. It's our version of ComStat. We talk about crime trends, patterns, the who, what, when, and where of the crime fight, the blocking and tackling of police work.
+
+[00:53:53] And we find it to be very effective, timely and accurate information in intelligence sharing, rapid deployment of resources as each of your magisterial districts will encounter a spike along the way.
+
+[00:54:10] We will move departmental resources to the area that needs it, regardless of district station boundaries. Our Corps is held weekly. District commanders share information about responses to crime and coordinate necessary assistance needed from each other to include our specialty units.
+
+[00:54:31] This process has proved very helpful in 2023, in particular when we saw an increase in retail crime and organized retail crime, and they're two different things, in some of the larger retailers in the county. We developed plans to aid officers investigating the groups by deploying technology devices at these locations that helped identify the groups and resulted in numerous arrests and the recovery of tens of thousands of dollars of stolen merchandise.
+
+[00:55:01] Technology and policing. Now, multiple technologies are used daily by the FCPD to include automated speed enforcement, helicopter and drone programs, body-worn cameras and in-car videos, and lastly, the license plate readers or LPRs.
+
+[00:55:22] And today's license plate reader is not yesteryear's license plate reader. Yesteryear's license plate reader could only read the tag. That's it. Not the make, not the model, not the color, not the defects. Today's license plate readers are much more sophisticated, and it is rare, although it looks great on TV and in the movies, when victims or witnesses can recite a full tag number. That is quite often not the case, but they can almost often always describe the car otherwise by color, by make, by model,
+
+[00:55:57] truck, SUV, sedan. So as we input this data after a crime is committed in real time, and Lieutenant Bull will talk about that, we're able to feed into a license plate reader that on Richmond Highway, we're looking for a red four-door sedan. And it will sort all the motor vehicles that travel along that space and only give you back the red four-door sedans. And from that, we've been able to solve a lot of crimes. Along the way, we've made other changes. And this
+
+[00:56:30] one, I want to say really clearly, we've had a 92% reduction in the data retention period. We've reduced the amount of time we hold on to that data by 92%, 30 days. That's it. Unless it's evidence in a crime, of course. We've mandated department-wide training and we've updated the policy to make it easier for our officers to understand their expectations when responding to an LPR hit. Don't just believe it. Verify it. Verify it with the dispatcher. Double and triple
+
+[00:57:04] check it. There's a lot of information at times and misinformation about the scope of the LPR programs is something that we're always happy to talk to folks about. So to be clear as well, FCPD has coordinated from its inception with our LPR vendor that we are not to receive alerts for the following. Immigration enforcement, driver's license violations, expired registrations or inspection violations, or civil infractions. We don't get hits or reads on any of those
+
+[00:57:41] matters whatsoever. Results. 2023 was our first full year utilizing the LPR program as we know today, we saw inspiring results and numerous successes to include 134 stolen vehicle recoveries, estimated $2 million, 23 gun recoveries, and the recovery of dangerous narcotics in our area to specifically include fentanyl and heroin. Most notably, 19 missing persons were located with our
+
+[00:58:13] LPR system in 2023. So 19, and a lot of them were vulnerable older adults. One critically missing person who was missing for over eight hours because he became lost and confused, drove by one of our police officers in a car that we had put into LPR, and we made a U-turn and safely brought him back home. As our program continues to grow, we expect even better results in the future. The Real-Time Crime Center, and this is a work in progress, and we're getting there. I mentioned earlier that we have a new records management system vendor that's doing a lot of
+
+[00:58:53] work and we expect them to be near completion by the end of October, early November. But in the meantime, we're building our own real-time crime center to build on the successes of our LPR program and to facilitate quicker access to the various technology systems used by our agency to incorporate better data sharing with our officers in real time. Our police officers and detectives at the scene of a crime or the scene of an incident will now be able to get information
+
+[00:59:28] about persons, vehicles, and addresses that in yesteryear they would have to go back to the office, figure it out, and put a report out 24 hours later. We don't have to wait 24 hours anymore. We can do it in real time. When our police officers focus on the safety of their response to a call and dealing with the situation at hand, the FCPD's first real-time crime center will actively investigate the situation using innovative data communication and technology resources. The Real-Time Crime Center serves as a nerve center to focus on providing efficient and effective policing
+
+[01:00:05] services for our community and increasing officer situational awareness and safety. When fully operational in the coming days or weeks, the center will include a 24-7, 365 police supervisor and detective coverage along with non-sworn investigative aides.
+
+[01:00:24] As other jurisdictions across the region strive to set up their own real-time crime centers, we are already forming partnerships with them. These partnerships will be vital in quickly addressing crime problems that span jurisdictional boundaries, and someone said it earlier, a lot of these issues have no jurisdictional boundaries.
+
+[01:00:46] Trulio, we're really excited about Trulio. We've been talking about it for almost a year. It's finally here. We're rolling out Trulio training for the very first time. And I had a bunch of notes about Trulio, but I'm just going to tell you in my own words what Trulio is. With all the community expectations surrounding body-worn cameras, there is probably a notion or two out there that the majority or all of the body-worn camera footage captured by our police officers is reviewed, and it's not.
+
+[01:01:16] It can't possibly all be reviewed. So we do have built-in audits that our supervisors are required to complete for every police officer. But that's a human auditing a technology. Well, Trulio is technology auditing technology.
+
+[01:01:32] And what Trulio does, it captures audio only. It transcribes every word that the body-worn camera captures, every word. So we tell Trulio, our vendor, that we're interested in these words.
+
+[01:01:48] And I don't have to say them out loud for you to know what they are. We're interested in these words. But we're also interested in the words, thank you, you're welcome, how can I help you, do you need help how can I help you so it's going to capture words that in and of themselves don't necessarily mean anything at all but as we look at individual officers and their performances and most officers engage the community on a one-to-one basis without the benefit of an on-scene supervisor that's just the nature of our profession so now you'll be able to pull
+
+[01:02:23] up Kevin Davis's Trulio and see what words he is using to interact with the community and are these words consistent with our expectation. There's often a lot of anxiety associated with the rollout of something like this in any organization. Similar anxiety existed when body cameras were rolled out in policing and before that when in-car videos were rolled out in policing, a lot of anxiety amongst the rank and file and that's completely normal. What I expect will happen with Trulio is we'll find that our officers more often than not engage in
+
+[01:03:00] conversations and use words that are consistent with our expectations. I think we're going to find out that we are who we say we are, but we're also going to find out along the way, from time to time, that an officer is not acting like himself or herself and is interacting with community members in a way that is a concern to us and it gives us an ability to get in front of it left of boom as opposed to right of boom. So if Lieutenant Bull is otherwise really where he
+
+[01:03:34] needs to be with Trulio and then one particular month he's in a different place suddenly, that gives us an intervention opportunity to say, hey, what's going on? What's going on? Because a lot of times things that happen at home and in our private lives will make their way to how we interact with people on the street. So it's a health and wellness tool. There are other jurisdictions that are engaging in Trulio. NYPD is one, not across the board, but they've introduced it to a big chunk of their department, and we look forward to being one of the first large jurisdictions
+
+[01:04:11] to use it. We've met with the PBA about this and told them it's simply a tool, just like the body camera is simply a tool, and we're going to learn things about ourselves in this that will confirm the suspicions we have that we're pretty good to great most of the time, but it will also give us opportunities to coach and mentor COPS and occasionally discipline, if necessary, those who are interacting in a way that we don't find acceptable. So that, in essence, is truly it.
+
+[01:04:41] The next slide, when I went off the script, Lieutenant Bull, is Axon My90. And I'll tell you in my own words what Axon My90 is, and we've had it for about a year. It's a technology that is sent to persons that we interact with on calls for service. So we tell Axon My90 that we want to send a five-question survey to every burglary victim, stolen car victim, robbery victim, 911 caller who simply wants to see the police about loud noises in his or her neighborhood.
+
+[01:05:19] We tell Y90 that we want the person associated with that call for service, and 99 times out of 100, that person has a cell phone. So the days of not having a cell phone are long gone. And virtually every call for service, we're capturing the cell phone of the person we interact with.
+
+[01:05:35] And when we clear the scene, that person within several minutes gets a five-question survey. And not only do we receive our feedback from My90 about how well we're doing, but it compares us to other jurisdictions who use the My90 product. And we are consistently in the B-plus to solid A range.
+
+[01:05:57] You know, if I had to put a number on it, we're like the 87 to 96 range. And we're consistently there, consistently. And when we're occasionally not there, we know which interaction resulted in a customer dissatisfaction, for lack of a better description, and we're able to coach and mentor those officers who aren't getting the positive feedback that the majority of our cops get.
+
+[01:06:21] So it's a great tool. There was anxiety about a year ago associated with this. That's now kind of gone by the wayside because they see it's a valuable tool. And I expect the same thing will happen with Trulia. So to summarize, these are just a few of our technology-based initiatives going on in the FCPD.
+
+[01:06:42] They're critical to continue to garner trust and support from our community. We'll continue to leverage sound policies and work with community members, particularly when it comes to technology that several years ago I think our country, our community was probably in a different place with drones or unmanned aerial aircrafts, probably in a different place with LPRs.
+
+[01:07:07] So as we move to a place where it norms, we're not going to take that for granted. We're not going to spike the football and think that the hard work of communicating with folks is over because we do know that there are anxieties and suspicions associated with cameras.
+
+[01:07:23] even cameras in public spaces, and we get that, and we're not afraid of that conversation. And 10 years from now, who knows what this looks like, but we're building this in real time, and we're proud of where we are. So I'll pause there and take questions.
+
+[01:07:39] Okay. Thank you again, Chief Davis. Appreciate this presentation, and we'll say on the LPRs in particular, just amazing results. I mean, just to look at the numbers that you have provided in this chart and to know we've gotten arrests, we've gotten recovery of property in excess of $2 million.
+
+[01:08:03] I mean, these are very positive things. And the guns that are recovered, you mentioned 23 earlier. I was impressed when Lieutenant Bull talked about it, but to see it on paper, it's even more impressive. So I just want to reiterate, this supervisor certainly appreciates the work that's being done and acknowledges it is helping us reduce crime and address issues in our community.
+
+[01:08:31] If I could, Chief, when you talked a little bit about the real-time crime center, you mentioned kind of the collaboration with other jurisdictions and was just trying to get a better handle on, like, how that actually works. I mean, do we have similar platforms and technology that we're using between jurisdictions and sharing information through the platform, or are we doing something different, just to understand that? So I'll start it off, Chairman Lewis. There are different platforms out there. Right. So there's different vendors, different platforms, but regardless of the platforms, they can still speak to each other. Okay. And the old days, and by the old days, I mean five years ago,
+
+[01:09:11] of crime analysts picking up the phone, sending emails, text messages, that's now being replaced by the real-time nature of how we share information. Supervisor, just to expand upon that, we are really working with other agencies, real-time crime centers, specifically the Metropolitan Police Department in Washington, D.C., to communicate in real-time with pictures or possibly videos of suspects as they cross jurisdictional boundaries just using real-time messaging systems similar to Microsoft Teams or other similar platforms.
+
+[01:09:47] I'm sure that's making a difference, so thank you for doing that. On Trulio, just so I'm a little aware of this too, but you talked about it, and I appreciate that 60 days is the timeline for it.
+
+[01:10:03] Can you help me understand what information we might share with the public around what is collected through the system? So, Chairman Luss, we'll probably take a similar approach that we did with My90. So we have to be in a period of at least three-plus months to be able to trust the data and what it's telling us.
+
+[01:10:26] But we'll find a thoughtful way to be transparent about the data that we're collecting. The way we've shared information about My90 has seemed to work really well when we tell the communities that this is what you're saying about us. Trulio is a little bit different.
+
+[01:10:42] My90 is this is what you're saying about us. Trulio is this is what we're seeing about our own performances with community members. Right. And, you know, we're looking at it saying, are they consistent with what we say out loud? Are we walking the walk? Right. Or are we just talking the talk?
+
+[01:10:59] So it'll undoubtedly give some training and coaching opportunities. Yeah. You know, there are occasions in policing when language is used that's not always pristine. Yeah. And that's not necessarily an infraction or not necessarily the end of the world, but it'll give us an opportunity to see when those things happen and what we can do to better coach and train our officers.
+
+[01:11:25] What have you seen from the data that's come back from my head? From Trulio, from I-90 or Trulio? My-90 first. Yeah, my-90, we're in the good to great range. We're in the B-plus to solid A student, 87 to 95. We don't have any data back yet on Trulio.
+
+[01:11:43] They've got to be in it for 30 days. So we're training the supervisors right now because ultimately the supervisors are going to be tasked with going in and reviewing the Trulio indications or the hits. So, you know, and then from that, they make a decision.
+
+[01:12:01] Is this discipline? Is this coaching? Is this mentoring? Or is this an occasion to celebrate the performance of this officer? And I think we're going to get all of the above. But I think mostly we're going to get the good feedback. Okay, perfect. Let me turn it over to Chairman McKay. Yeah, thank you, Chief.
+
+[01:12:17] Excellent presentation. I appreciate the data retention reduction too because I think that's part of people's anxiety as much as the technology is the data, you know, the hold on the data and who has access to that and is it going to be given to somebody in the future and obviously we don't do anything like that.
+
+[01:12:35] So I appreciate that. On the My90, on the slide it says that the survey is only given to community members who had an interaction with a police officer prior to taking the survey. I took the survey because I called in a motor vehicle accident.
+
+[01:12:53] It was very easy, very simple to do the survey. However, I never interacted with a police officer. I only interacted with a call taker. So I guess the question I have is how we're disaggregating experience with the police department per se from experience with a call taker if we're considering them the same thing because, you know, obviously very favorable review by me.
+
+[01:13:18] It was excellent, but I will just say I never interacted with a police officer per se. Well, thank you, Chairman. That scenario is news to me. I thought there was a way that they were differentiated, but I'll look into that and get back to you. Yeah, because I think, I mean, the call taker is part of one's experience, even if it's an interaction with a police officer.
+
+[01:13:39] I mean, I think our call takers, police officers are both excellent. I just want to make sure that people who are being surveyed know the difference, if there is a difference between who they're being surveyed on. But I found it to be very easy to use, and I think the results that you've published about it, I think, are important to continually update to the community.
+
+[01:13:59] Because one of the pieces of this that I think is important, well, it's important to me, I think it's important to most of us, is giving some people in our community the confidence to call the police department in the first case. And so we know that there's a lot of crimes committed and there's an intimidation with calling the police department.
+
+[01:14:16] Seeing that interaction is an A minus, B plus, wherever we are, builds confidence in some members of our community to reach out and call the police department when they need help. And I think that's an important part of this, besides just monitoring how well our officers are doing, is getting people more comfortable with that interaction.
+
+[01:14:35] Thank you, Chairman McKay. First up is Supervisor Bierman, followed by Supervisor Alcorn, followed by Supervisor Stork. This Trulio program is awesome. I mean, we were just talking about, you know, being happy with our police department.
+
+[01:14:53] This is what people want to see with body-worn camera footage as the next level of using it. As somebody who's watched a lot of body-worn camera footage when I was on the police civilian review panel, the opportunities for instruction, for highlighting great interactions, for, you know, remediating negative interactions for, you know, I think the last case where I was on the civilian review panel, I actually think part of our suggestion.
+
+[01:15:23] was that the body-worn camera footage should be a part of police academy training for how that interaction had gone. So kudos. This is great. This is what I think a lot of people in the community, going back to the co-production model, a lot of people in the community have been asking for utilizing this kind of footage for these types of improvements for years.
+
+[01:15:50] And I think it's also something that I recognize that there are a lot of police officers who will be very concerned about this at first, but it's something that you should sell to your officers. This is yet another step that Fairfax County is going to take to make sure that we have the best police department in the country.
+
+[01:16:09] So that's really exciting. And I don't actually have a question about that. Sorry, I just got excited. I do have a question, though. Another thing that I've always been a big fan of is automated speed enforcement.
+
+[01:16:24] And I know we have a pilot program for automated speed enforcement in school zones because that's where we can do it in the county right now. I saw that at Chesterbrook Elementary, we had 386 violations. I really need one of those cameras at Churchill Road Elementary, too, just putting that out there.
+
+[01:16:41] But my question is, is the automated speed camera enforcement program in schools, school zones, how is it going? And also, we just ended a legislative session. Is this something that you would like to see outside of school zones as something that we may ask the state for future authority to do?
+
+[01:17:05] He's talked enough, so I'll take this one. Tom Arnold, Deputy County Executive. So I think with the photo speed enforcement, what we have seen through the pilot, you know, obviously there were some challenges associated at various levels of the business practices behind it with processing. And we've made some adjustments while we were waiting through the legislative changes that we were looking to see what might go through the GA with the time requirements for what the sticking point was a citation within the code has to be issued within 30 days.
+
+[01:17:33] And if it's not, then it's got to be purged within 60. And so we started off with issuing notices of violations, which would go out through the vendor, which allowed the prepayment by violators, and we could leave the court system out of it because we didn't want the court system to be inundated with thousands of citations.
+
+[01:17:50] Where the problem came up was with just the U.S. mailing and the ticket validation and so forth, the violators were receiving the information within days of when the citation was due or the notice of violation was due. And that's where many of you had obviously heard through your constituents, the frustrations they have with the process.
+
+[01:18:07] So fortunately, with the hard work of the police department and working with the general district court, we came up with a solution as well as the county attorney's office to combine the notice of violations and the citations so we could send them out as one. So it met the intent of what was within the code, but it also allowed us to send these out.
+
+[01:18:25] They are beginning to be sent out already. It will go through the court system in July. And so that's where we're coming to the board in June to talk about expansion in hopes that will have a little bit of information back where we can see what we think will be successful if it really is.
+
+[01:18:40] That will, again, by doing that, it will allow someone that had a violation 60 to 90 days to make the payment versus 30 days. And then it also won't inundate the court system with unnecessary work because people had prepaid these. So that will be what will allow us to arm us with information to share with you to then move to phase one expansion, which would be the additional 50 cameras, maybe that school there as well. Right now, Traffic Division is out checking to do the photo speed enforcement test to determine what locations would be appropriate and, of course, coordinate that with FCPS. So I think that's the likely next step, but we feel like we're in a pretty good
+
+[01:19:18] place both with the vendor as well as the General District Court. We still have some challenges working through some of the permitting with VDOT, but I think, again, credit to Deputy Chief Bob Blakely and his team on the Traffic Support Division to handle that. And then with With expansion, obviously right now we've got, I believe, the ability to do red light cameras.
+
+[01:19:40] And that's something that we've thought about with the June presentation to bring that to the board as something to consider as we look at the photo speed enforcement for school and work zones as well as the school bus arm camera starting. And then if the board would like us to look in the direction of any sort of expansion, we'll certainly take your feedback from that June meeting to see if that's another area we want to look at.
+
+[01:20:02] that, obviously, legislative. Great. Thank you. As somebody who's been caught by speed cameras more times than I should admit, I think they're very effective, and I'm glad to hear that the program is working. Thank you. Thank you, Supervisor Beerman. I'm going to move the Supervisor Walkinshaw. Yeah, just on that point, we did support legislation this year. We work with Delegate Sebold that would have allowed for the use of speed enforcement cameras in high-risk intersections i think as defined by vdot that was unsuccessful richmond's reaction is is uh they
+
+[01:20:37] want to see more data from from additional jurisdictions on the school zone um camera enforcement before they're willing to entertain more of it i think one thing just for all of us if you look at a map of fairfax county with all of the schools on it that's a lot of the county So if we were able to expand to a lot more schools, you can cover much of the county.
+
+[01:21:01] You miss some key areas, you know, Fairfax County Parkway and other major corridors like that, but you can cover a lot of the county with just schools on cameras. Okay, thank you, Supervisor Walkinshaw. Next is Supervisor Alcorn, followed by Supervisor Stork, and then closing with Supervisor Palchek.
+
+[01:21:17] Thank you. So great presentation, Chief. Appreciate that. Really good summary of technology we are using. I wanted to ask you for any insights you might have into technology that others are using that's useful for us or for your department.
+
+[01:21:34] And here I'm thinking ring cameras, you know, security cameras. What are some of the things you're seeing? You know, I know some of the policies are changing out there for some of those companies, but let us know what's going on with others' technology right now.
+
+[01:21:50] So, one plug, Ring Doorbell, owned by Amazon. So, you probably recall about a month ago, they came out with a new internal policy to require a subpoena. The old days, six months ago, there's a crime committed in a community, residential community, for example.
+
+[01:22:10] Our detectives make contact with Ring Doorbell. They tell us which homes in the community by address have a Ring Doorbell, And then we would knock on those doors and 100 times out of 100 get their voluntary consent for them to share the video with us.
+
+[01:22:27] So now there's an extra hurdle in the way, or a step, rather, that we have to take to do that. But ring doorbells are extraordinarily helpful. And then some of the cars that are manufactured these days, the smart cars, the Teslas, they are constantly recording.
+
+[01:22:45] I don't know if you own a Tesla supervisor. I do not. But the Teslas are... I have a pickup. so so just taking advantage of technology that's uh owned operated by commercial enterprise by by corporations um so we are doing that and and ring doorbell has been very helpful wamada uh is very helpful uh with with us um seamless so i don't know that other people are doing something that we're not necessarily but there are other things that we're doing in terms of interacting with technology that...
+
+[01:23:20] And we are taking advantage of that, it sounds like. We are, absolutely. Anytime we have a residential barricade or a police incident, we put our unmanned aerial aircraft in the air just to get eyes on it. You probably remember a couple months ago, we had a man on a rooftop of an apartment complex who refused to come down, spent the night on his rooftop, ate snow off of the roof.
+
+[01:23:43] We were able to see exactly what he was doing only because we had a drone in the air. And then we bought him a Domino pizza, and he came down. Thank you. Yes, sir. Thank you, Supervisor Alcorn. Supervisor Stewart. Thank you, Mr. Chairman. And I'm a huge fan of the LPRs and what they've done, the FLOC cameras.
+
+[01:24:03] I know it's not just FLOC because it's an industry, but that's made a significant difference. And I know a lot of the numbers here came from the corridor, the highway, where we had a couple cameras that were exceptionally successful in identifying people that were being held against their will and guns that ultimately they led to and obviously a whole slew of cars that were taken.
+
+[01:24:26] We have talked to a number of other communities along the corridor. I know Supervisor Lesk and I have had meetings with them, and they're embracing this technology as well, and they're adding it. Is there any limitation on that from your perspective about using that?
+
+[01:24:42] And then the second part of the question is, How do we get the kind of granular data that we then can use to go back to those communities? And I'm thinking of one in particular where we've not really gotten their, in my mind, support, sufficient support to try to deter some of the crime that's being committed in the community.
+
+[01:25:04] Thank you, Supervisor. I'll let Lieutenant Bull get into some of the details. You know, just over a year ago, seems like longer than that, But there were flock safety cameras were in certain neighborhoods, HOAs that could afford them at the points of ingress and egress.
+
+[01:25:20] And then it expanded into the police department purchasing some and were data informed. So we put them in areas where there are more outdoor crimes than in other parts of the county. So it's a perfect kind of hybrid of FCPD flock safety cameras in areas where we know crimes occur more often outdoors and communities allowing us access to their flock safety cameras in residential areas.
+
+[01:25:46] Now, the disparities there are not every community can afford a flock safety camera. So I know that's part of the question. Yes, and Supervisor, we rely on private property owners to give us permission to place cameras on their property.
+
+[01:26:03] And so our crime prevention officers and our community outreach officers do approach communities and ask them permission to place these cameras on their property because there is a lack of a VDOT permitting process at this time. So we do form partnerships with those communities to try to get their permission to put the cameras up.
+
+[01:26:23] But again, there are a number of communities, as they learn about the program and learn about our successes, they do look at investing and purchasing their own cameras, even though the police department maybe hasn't come to them to ask to put one on their property. Any recommendations about how do you get communities that express interest that have been slow in moving forward with that?
+
+[01:26:45] Yes, sir. We've gone to a number of community HOA meetings, CACs. We release media releases fairly often, and we're more than happy to go to those communities and talk to them, answer their questions, maybe some of their criticisms or feedback on the program.
+
+[01:27:04] We go out all the time, and we'd be more than happy to come out and talk to that community in person. Captain Mitchell has been great. I don't want to take anything away from him, but we have a couple of communities where they've not been as active as they've committed to being, and I'm looking for ways to move them along more quickly.
+
+[01:27:19] So thank you. Thank you, Supervisor Stork. Supervisor Palchak. Thank you, Mr. Chairman. And first of all, I just want to thank you and commend you. I think when we hear technology, right, and policing, it can sound a little bit, how is this being used?
+
+[01:27:35] So I think the fact that you have really done the research and finding the right technology with the goals of solving issues, whether it's around understanding how we do and improve our policing, how we use data. And I think, as you mentioned, 400 square miles is a big area, right, especially when there's a challenge of having the capacity and the staffing.
+
+[01:27:56] How do we use this in a smart way? So first of all, I'm just, as someone who maybe was a little bit, I think there are some technologies, I think that sounds great, the speed cameras. but some of the others, a little reticent to accept. I appreciate the way that it's been thoughtfully looked at and deployed, especially the training piece and how we're going to look at that.
+
+[01:28:16] I think my one question, you may have answered this. There's so much that you presented. The Trulio, Trulio, does that have language capacities with different languages as well? So that's probably the third question I'm not able to answer tonight. I don't know.
+
+[01:28:32] I'm going to find out because undoubtedly we have several bilingual officers, And I'm going to guess yes, but I'm going to verify first and tell you the answer to that. Okay. Because we're going to have to capture it. So you'll know by the time you leave the building.
+
+[01:28:48] Your PIO might know, but she probably knows. No, I appreciate that. And then I think you may have said this, but clearly with the Traleo, just understanding if there are any privacy issues, especially if there's this new capacity of people who may be foing us and understanding how it might impact things captured in the community.
+
+[01:29:07] So the Trulio is only on when the body-worn camera is activated. So we already have certain scenarios that we prohibit the use of a body camera. So when the body camera is not on, Trulio in turn won't be on. So we're interacting with the sexual assault victim, we're interacting with a vulnerable witness or someone who's perhaps a confidential informant.
+
+[01:29:32] So the only time that Trulio is activated is when the body camera is on. And in those circumstances, we would be able to capture the transcript of the body camera footage. And I assume, as with FOIA, anything that is sensitive that could not be FOIA-able, even though Trulio is now looking through all of that, it remains the same sensitivity.
+
+[01:29:55] Absolutely. If Trulia captures something that's later subject to an internal investigation or a criminal investigation, anything is subject to FOIA, but it wouldn't necessarily be releasable. Okay. Thank you. Really appreciate it.
+
+[01:30:11] Thank you, Supervisor Palchuk. And with that, I will say thank you to Chief Davis and his staff for their exceptional work here today. And I'll note our next meeting will be on June 4th, 2024, at 1 p.m. And with that, today's meeting is adjourned.
+
+----------------------------------------------------------------------
+Coraggio Consulting · aguyonx.com
