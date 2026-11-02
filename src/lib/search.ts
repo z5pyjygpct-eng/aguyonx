@@ -338,6 +338,17 @@ function buildIndex(): SearchDoc[] {
   });
 
   docs.push({
+    id: "page-emergency-monitor",
+    title: "Emergency Monitor – Live Log",
+    snippet: "A live log, updated about every 2 hours.",
+    shelf: "Page",
+    href: "/emergency-monitor",
+    titleFields: "Emergency Monitor Live Log",
+    body: "Emergency monitor live log updated about every 2 hours.",
+    districtNumber: null,
+  });
+
+  docs.push({
     id: "page-contact",
     title: "Contact",
     snippet: `Tips, documents, and corrections. Until there is an email, the door is X.`,

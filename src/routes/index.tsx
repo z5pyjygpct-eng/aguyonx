@@ -168,7 +168,8 @@ function Home() {
               <p className="mt-4 max-w-2xl text-base text-on-dark-muted sm:text-xl">Find what was said, voted, and filed — then jump to the source.</p>
               <p className="mt-2 max-w-2xl text-sm text-on-dark-muted sm:text-base">
                 We index Virginia public meetings, transcribe them, and link every claim to the official record.{" "}
-                <Link to="/about" className="font-semibold text-gold underline">About this project →</Link>
+                <Link to="/about" className="font-semibold text-gold underline">About this project →</Link>{" · "}
+                <Link to="/emergency-monitor" className="font-semibold text-gold underline">Emergency Monitor – Live Log →</Link>
               </p>
               </div>
               <Link to="/how-to" className="group flex shrink-0 items-center justify-between gap-4 rounded-xl bg-gold px-6 py-5 text-navy-900 shadow-lg ring-gold-hover transition hover:bg-gold-hover focus-visible:ring-4 lg:mt-14 lg:w-72 lg:flex-col lg:items-start lg:justify-center lg:py-8">
