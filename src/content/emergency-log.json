@@ -1,1 +1,348 @@
-{ "entries": [] }
+{
+  "entries": [
+    {
+      "datetime": "2026-11-02T16:00:00-05:00",
+      "regions": {
+        "America": [
+          {
+            "severity": "MEDIUM",
+            "title": "Power outage in DC's Foggy Bottom",
+            "location": "Foggy Bottom, Washington, DC",
+            "type": "Power Outage",
+            "summary": "Pepco said an event at its I Street Substation left about 1,100 customers without power, and outage maps listed 1,176. The area is blocks from the White House, and traffic lights and some federal facilities were affected. Firefighters responded to smoke from multiple manholes, and a manhole explosion was reported outside the World Bank.",
+            "status": "Restoration status and cause not confirmed in the cited posts",
+            "links": [
+              {
+                "url": "https://x.com/TFTC21/status/2117315923090854262",
+                "label": "TFTC on X (verified)"
+              },
+              {
+                "url": "https://x.com/BethanyForTruth/status/2117319081636647229",
+                "label": "Post on X (manhole explosion report)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Flash flooding in Brevard County, Florida",
+            "location": "Brevard and Indian River Counties, FL",
+            "type": "Infrastructure",
+            "summary": "NWS Melbourne reports 16 to 22 inches of rain, with 1 to 2 more inches possible. At 2 PM ET the Flash Flood Emergency for southern Brevard was lowered to a Considerable Flash Flood Warning, and a Flood Warning is in effect until 9:30 PM ET. Florida's Division of Emergency Management is deploying flood pumps to Central and South Florida.",
+            "status": "Official warnings in effect; flooding impacts continue",
+            "links": [
+              {
+                "url": "https://x.com/NWSMelbourne/status/2117355931671695626",
+                "label": "NWS Melbourne (verified)"
+              },
+              {
+                "url": "https://x.com/NWSMelbourne/status/2117331165740769333",
+                "label": "NWS Melbourne downgrade (verified)"
+              },
+              {
+                "url": "https://x.com/FLSERT/status/2117325599031074816",
+                "label": "FL Division of Emergency Management (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Two Maricopa County vote centers briefly closed over power issues",
+            "location": "Paradise Community College and Sunset Canyon School vote centers, Maricopa County, AZ",
+            "type": "Election",
+            "summary": "Maricopa County Elections said the vote centers at Paradise Community College and Sunset Canyon School were temporarily closed because of power-related issues (an earlier version of the post said storm-related) and sent voters to nearby locations. The closure was posted at about 10:57 AM ET on Nov 2, the day before the Nov 3 General Election. The county said both centers were open again at about 1:25 PM ET. Online claims of fraud or targeting have no official confirmation.",
+            "status": "Resolved; both vote centers reopened per Maricopa County Elections",
+            "links": [
+              {
+                "url": "https://x.com/MaricopaVote/status/2117287200891314567",
+                "label": "Maricopa County Elections closure notice (verified)"
+              },
+              {
+                "url": "https://x.com/MaricopaVote/status/2117322101174718879",
+                "label": "Maricopa County Elections reopening (verified)"
+              }
+            ]
+          }
+        ],
+        "Europe": [
+          {
+            "severity": "HIGH",
+            "title": "Second wave of cyberattacks on supermarket refrigeration",
+            "location": "At least seven European countries, including Belgium and Sweden",
+            "type": "Cyber",
+            "summary": "Grocery stores in at least seven European countries saw refrigerator temperatures soar on Monday, and several confirmed a cyberattack similar to one in France three weeks ago. In Belgium, about 40 stores across Delhaize, Carrefour, Spa and other chains were hit, with about €100,000 of food thrown away.",
+            "status": "Confirmed by several companies; attribution unknown",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2117275578344620444",
+                "label": "Reuters (verified)"
+              },
+              {
+                "url": "https://x.com/AFP/status/2117292055458205949",
+                "label": "AFP"
+              },
+              {
+                "url": "https://x.com/BBCWorld/status/2117216490105561262",
+                "label": "BBC World (verified)"
+              },
+              {
+                "url": "https://x.com/euronews/status/2117217178671788238",
+                "label": "euronews (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Violent cost-of-living and anti-government protests",
+            "location": "France, Germany and Albania",
+            "type": "Unrest",
+            "summary": "On Oct 31, masked rioters looted shops in Frankfurt, and German police fired water cannons at youths throwing Molotov cocktails. In Paris and elsewhere in France, police fired tear gas as hundreds of thousands marched against living costs and police violence. In Tirana, protesters threw Molotov cocktails and paving stones at police.",
+            "status": "Confirmed by major outlets; further marches possible",
+            "links": [
+              {
+                "url": "https://x.com/AFP/status/2116833844225585460",
+                "label": "AFP on Frankfurt"
+              },
+              {
+                "url": "https://x.com/AFP/status/2116606130642186469",
+                "label": "AFP on France"
+              },
+              {
+                "url": "https://x.com/SkyNews/status/2116647186721054939",
+                "label": "Sky News on Tirana (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Spyware alerts for German officials",
+            "location": "Germany",
+            "type": "Cyber",
+            "summary": "People who received the alerts were told to treat their phones as compromised. It is not yet known who is behind the attack or how many people were affected.",
+            "status": "Under investigation",
+            "links": [
+              {
+                "url": "https://x.com/euronews/status/2117206406801854699",
+                "label": "euronews (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "London–Bulgaria flight diverted after bomb threat",
+            "location": "Budapest, Hungary",
+            "type": "Terror",
+            "summary": "A plane flying from London to Bulgaria was diverted to Budapest after a reported bomb threat. No further details were confirmed this run.",
+            "status": "Developing",
+            "links": [
+              {
+                "url": "https://x.com/SkyNews/status/2117257266076557813",
+                "label": "Sky News (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Island-wide blackout on La Palma",
+            "location": "La Palma, Canary Islands, Spain",
+            "type": "Power Outage",
+            "summary": "A storm cut power across La Palma for about four hours, affecting more than 50,500 supply points. Power was restored at 10:26 local time.",
+            "status": "Restored; no X post linked"
+          }
+        ],
+        "Russia": [
+          {
+            "severity": "HIGH",
+            "title": "Emergency alert apps in Ukraine and Russia hacked",
+            "location": "Ukraine and Russia",
+            "type": "Cyber",
+            "summary": "Ukraine and Russia both said their emergency alert apps had been hacked, sending false warnings about air raids and chemical and nuclear attacks. Russia said its app suffered a \"massive cyberattack\" on Monday, hours after Ukraine reported its own hack. In Ukraine the fake nuclear warning caused unease but not panic.",
+            "status": "Officially confirmed by both governments; attribution unproven",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2117299446622879904",
+                "label": "Reuters (verified)"
+              },
+              {
+                "url": "https://x.com/AFP/status/2117200952306401431",
+                "label": "AFP"
+              },
+              {
+                "url": "https://x.com/BBCWorld/status/2117325113724944470",
+                "label": "BBC World (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "Russian bombs kill 24 at aid point in Komyshuvakha",
+            "location": "Komyshuvakha, Zaporizhzhia region, Ukraine",
+            "type": "Other",
+            "summary": "Zelenskyy said aerial bombs hit the settlement several times starting in the morning, targeting a school where people were receiving humanitarian aid. The Kyiv Independent reports 24 killed.",
+            "status": "Official statement issued; toll may rise",
+            "links": [
+              {
+                "url": "https://x.com/ZelenskyyUa/status/2117301501098086698",
+                "label": "Zelenskyy (verified)"
+              },
+              {
+                "url": "https://x.com/KyivIndependent/status/2117332834360635555",
+                "label": "Kyiv Independent"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Ukrainian drone strike reported on Samara oil facility",
+            "location": "Prosvet, Samara Oblast, Russia",
+            "type": "Infrastructure",
+            "summary": "Ukrainian monitoring channels reported that Ukrainian drones struck the Samara Linear Production and Dispatch Station in Prosvet overnight.",
+            "status": "Reported by Ukrainian channels; no Russian confirmation seen",
+            "links": [
+              {
+                "url": "https://x.com/KyivIndependent/status/2117124712727826832",
+                "label": "Kyiv Independent"
+              }
+            ]
+          }
+        ],
+        "Middle East": [
+          {
+            "severity": "MEDIUM",
+            "title": "Tanker attacks in the Strait of Hormuz",
+            "location": "Strait of Hormuz",
+            "type": "Infrastructure",
+            "summary": "Iran's IRGC Navy says two tankers \"exploded\" after hitting mines in Hormuz. ADNOC's CEO said nearly one billion barrels have been drained from global inventories since the strait was disrupted.",
+            "status": "IRGC claim reported by Reuters; independent confirmation limited",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2117051608190144626",
+                "label": "Reuters on IRGC claim (verified)"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2117298188193616098",
+                "label": "Reuters on ADNOC (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Reports the US is weighing renewed strikes on Iran",
+            "location": "Iran",
+            "type": "Other",
+            "summary": "Reports say the US is weighing renewed strikes on Iran after the midterms, and Iran has warned of retaliation against US bases. A claim of an imminent US nuclear strike is unconfirmed.",
+            "status": "No strikes confirmed; from X News summaries, no X post linked"
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Israeli operation around Hebron",
+            "location": "Hebron, West Bank",
+            "type": "Unrest",
+            "summary": "Israel launched a large-scale operation around Hebron after a shooting attack killed two soldiers. Palestinians have returned home to survey the damage.",
+            "status": "Ongoing",
+            "links": [
+              {
+                "url": "https://x.com/SkyNews/status/2117279238592016428",
+                "label": "Sky News (verified)"
+              }
+            ]
+          }
+        ],
+        "Africa": [
+          {
+            "severity": "MEDIUM",
+            "title": "Johannesburg water crisis",
+            "location": "Johannesburg, South Africa",
+            "type": "Infrastructure",
+            "summary": "Residents and civic activists planned a protest outside Johannesburg Water's head office, and the Joburg Crisis Alliance is threatening legal action against the city over unreliable water supply. The mayor says intensified technical work is beginning to improve supply.",
+            "status": "Ongoing",
+            "links": [
+              {
+                "url": "https://x.com/JHBWater/status/2117247510653616557",
+                "label": "Johannesburg Water"
+              },
+              {
+                "url": "https://x.com/SABCNews/status/2117184942010667136",
+                "label": "SABC News"
+              },
+              {
+                "url": "https://x.com/eNCA/status/2117243519815315494",
+                "label": "eNCA"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "'Tinubu Must Go' protests in Gusau",
+            "location": "Gusau, Zamfara State, Nigeria",
+            "type": "Unrest",
+            "summary": "Largely peaceful protests over insecurity and hardship were reported in Gusau.",
+            "status": "From X News summaries; no X post linked"
+          }
+        ],
+        "South America": [
+          {
+            "severity": "HIGH",
+            "title": "Truck bomb near military base in Planadas, Colombia",
+            "location": "Planadas, Colombia",
+            "type": "Terror",
+            "summary": "A truck bomb detonated near a military base in Planadas, killing four people, including a two-month-old girl, an official said. The blast heavily damaged a hospital, a school and several homes.",
+            "status": "Confirmed by officials and major outlets; no claim of responsibility seen",
+            "links": [
+              {
+                "url": "https://x.com/BBCWorld/status/2117239134091718991",
+                "label": "BBC World (verified)"
+              },
+              {
+                "url": "https://x.com/EuroPostAgency/status/2117226170676851174",
+                "label": "EuroPost Agency"
+              }
+            ]
+          }
+        ]
+      },
+      "trending": [
+        {
+          "title": "No emergency topic trending globally",
+          "summary": "Worldwide X trends are dominated by sports, Turkish politics and US Election Day."
+        }
+      ],
+      "threats": [
+        {
+          "severity": "MONITORING",
+          "title": "Linux kernel flaw CVE-2026-98432",
+          "location": "Global",
+          "type": "Cyber",
+          "summary": "The flaw remains unpatched on Ubuntu. Watch for exploitation.",
+          "status": "From X News summaries; no X post linked"
+        },
+        {
+          "severity": "MONITORING",
+          "title": "BTCPay Server hot wallets drained",
+          "location": "Global",
+          "type": "Cyber",
+          "summary": "About 18 BTC was reported drained from BTCPay Server hot wallets.",
+          "status": "From X News summaries; no X post linked"
+        },
+        {
+          "severity": "MONITORING",
+          "title": "Cyberattack at Spandana Sphoorty Financial",
+          "location": "India",
+          "type": "Cyber",
+          "summary": "India's Spandana Sphoorty Financial reported a cyberattack involving its bank account.",
+          "status": "Company-reported",
+          "links": [
+            {
+              "url": "https://x.com/Reuters/status/2117270575986946331",
+              "label": "Reuters (verified)"
+            }
+          ]
+        },
+        {
+          "title": "Unsupported 'coordinated attack' claims",
+          "summary": "Posts linking the DC outage, the EU fridge attacks and other outages as one coordinated event have no evidence. Treat them as separate incidents.",
+          "status": "Unverified"
+        }
+      ]
+    }
+  ]
+}
