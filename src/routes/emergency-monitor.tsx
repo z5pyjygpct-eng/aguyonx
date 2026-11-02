@@ -12,7 +12,7 @@ type LogItem = {
   severity?: Severity;
   title?: string;
   location?: string;
-  type?: "Cyber" | "Power Outage" | "Unrest" | "Terror" | "Infrastructure" | "Other";
+  type?: "Cyber" | "Power Outage" | "Unrest" | "Terror" | "Infrastructure" | "Election" | "Other";
   summary?: string;
   status?: string;
 };
