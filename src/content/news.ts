@@ -56,6 +56,36 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "spanberger-k12-funding-formula-virginiamercury-2026-11-02",
+    date: "2026-11-02",
+    headline: "Virginia governor pledges overhaul of outdated K-12 school funding formula",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/02/virginia-governor-pledges-overhaul-of-outdated-k-12-school-funding-formula/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "biscuit-rigsby-rights-restoration-wtvr-2026-11-01",
+    date: "2026-11-01",
+    filed: "2026-11-02",
+    headline: "‘Biscuit Rigsby’: Dog’s name raises questions about Virginia’s voting rights restoration process",
+    outlet: "WTVR CBS 6",
+    url: "https://www.wtvr.com/news/local-news/biscuit-rigsby-claims-virginia-felon-voting-rights-restoration-nov-1-2026",
+    people: [{ name: "Tom Garrett", office: "State Delegate" }, { name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "lcso-realtime-ops-center-drones-loudounnow-2026-11-01",
+    date: "2026-11-01",
+    filed: "2026-11-02",
+    headline: "Sheriff’s Office Seeing Success with Realtime Operations Center, Drone Program",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/sheriff-s-office-seeing-success-with-realtime-operations-center-drone-program/article_97388e7d-0328-433a-b563-98979914400a.html",
+    people: [{ name: "Mike Chapman", office: "Loudoun official" }],
+    scope: "local",
+    locations: ["loudoun"],
+  },
+  {
     id: "boo-halloween-at-the-annandaletoday-2026-11-01",
     date: "2026-11-01",
     filed: "2026-11-02",
