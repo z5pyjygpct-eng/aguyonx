@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-9lEXSiyrhyM.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2024-05-09-fairfax-county-school-board-meeting",
+  "title": "Fairfax County School Board Meeting, Thursday, May 9, 2024",
+  "shortTitle": "School Board Meeting \u00b7 May 9, 2024",
+  "date": "Thursday, May 9, 2024",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "4h 59m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=9lEXSiyrhyM"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-11-01"
+}
