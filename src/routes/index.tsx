@@ -169,17 +169,23 @@ function Home() {
               <p className="mt-2 max-w-2xl text-sm text-on-dark-muted sm:text-base">
                 We index Virginia public meetings, transcribe them, and link every claim to the official record.{" "}
                 <Link to="/about" className="font-semibold text-gold underline">About this project →</Link></p>
-              <p className="mt-4">
-                <Link to="/emergency-monitor" className="inline-flex min-h-11 items-center rounded-md bg-gold px-5 text-sm font-semibold text-navy-900 hover:bg-gold-hover">Emergency Monitor</Link>
-              </p>
               </div>
-              <Link to="/how-to" className="group flex shrink-0 items-center justify-between gap-4 rounded-xl bg-gold px-6 py-5 text-navy-900 shadow-lg ring-gold-hover transition hover:bg-gold-hover focus-visible:ring-4 lg:mt-14 lg:w-72 lg:flex-col lg:items-start lg:justify-center lg:py-8">
+              <div className="flex shrink-0 flex-col gap-4 lg:mt-14 lg:w-72">
+              <Link to="/how-to" className="group flex shrink-0 items-center justify-between gap-4 rounded-xl bg-gold px-6 py-5 text-navy-900 shadow-lg ring-gold-hover transition hover:bg-gold-hover focus-visible:ring-4 lg:w-72 lg:flex-col lg:items-start lg:justify-center lg:py-8">
                 <span>
                   <span className="block font-mono text-xs font-semibold tracking-widest uppercase">New here?</span>
                   <span className="mt-1 block font-serif text-2xl font-bold uppercase leading-tight">How to use this website</span>
                 </span>
                 <span aria-hidden className="font-serif text-2xl font-bold transition group-hover:translate-x-1">→</span>
               </Link>
+              <Link to="/emergency-monitor" className="group flex shrink-0 items-center justify-between gap-4 rounded-xl bg-[#C8102E] px-6 py-5 text-white shadow-lg ring-[#ff6b7f] transition hover:bg-[#a50d26] focus-visible:ring-4 lg:w-72 lg:flex-col lg:items-start lg:justify-center lg:py-8">
+                <span>
+                  <span className="block font-mono text-xs font-semibold tracking-widest uppercase">Live · Updated every 2 hours</span>
+                  <span className="mt-1 block font-serif text-2xl font-bold uppercase leading-tight">Emergency Monitoring</span>
+                </span>
+                <span aria-hidden className="font-serif text-2xl font-bold transition group-hover:translate-x-1">→</span>
+              </Link>
+              </div>
             </div>
             <div className="mt-7">
               <HeroSearch placeholder="Search for Ghana or a variety of topics: taxes, data centers, a name…" placeholderNarrow="Try Ghana or taxes" />
