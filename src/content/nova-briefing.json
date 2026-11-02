@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,42 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-02",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Nov 1, Sunday) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched the article page's h1, Nov 1 ET publish date checked on the article page). Sources checked: RSS from ARLnow, FFXnow, ALXnow, Annandale Today, Potomac Local, Blue Ridge Leader, the Loudoun County news flash, Loudoun Times-Mirror search feed, Patch Leesburg, NBC Washington Northern Virginia, WUSA9 Virginia and WTOP's main feed, plus the Prince William Times, Loudoun Now and Fairfax Times homepages. News.ts had no Nov 1 items. 9 candidate pages checked, 2 kept, 0 failed verification. Left out on locality: Prince William Times items on a Virginia 1st District congressional race (statewide wire story) and a daylight saving time bill (national). Left out as published before Nov 1: three Prince William Times homepage stories dated Oct 28 to Oct 30. Not news items: an ARLnow obituary, an ARLnow college sports item about a Yorktown graduate and the Loudoun Times-Mirror Week 10 football scoreboard. Gaps: no Loudoun, Prince William or Arlington news items qualified for Nov 1. FFXnow, Potomac Local, Blue Ridge Leader and Patch Leesburg had no Nov 1 posts. Loudoun Now, Prince William Times and Fairfax Times feeds returned HTTP 429 twice, and the Loudoun Now homepage returned an empty page; InsideNoVa's feed returned HTML instead of RSS; WTOP's Virginia feed returned HTML and its main feed only held Nov 2 items.",
+      "items": [
+        {
+          "id": "boo-halloween-at-the-annandaletoday-2026-11-01",
+          "county": "Fairfax",
+          "headline": "Boo! Halloween at the Asian Night Market",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/boo-halloween-at-the-asian-night-market/",
+          "published": "2026-11-01",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "justice-high-school-ptsa-annandaletoday-2026-11-01",
+          "county": "Fairfax",
+          "headline": "Justice High School PTSA seeks donations for the Wolf Shack",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/justice-high-school-ptsa-seeks-donations-for-the-wolf-shack/",
+          "published": "2026-11-01",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Loudoun: no qualifying Nov 1 items",
+        "Prince William: no qualifying Nov 1 items",
+        "Arlington: no qualifying Nov 1 items",
+        "Loudoun Now feed: HTTP 429, homepage empty",
+        "Prince William Times feed: HTTP 429",
+        "Fairfax Times feed: HTTP 429",
+        "InsideNoVa feed: HTML, no items",
+        "WTOP Virginia feed: HTML instead of RSS"
+      ]
+    },
     {
       "date": "2026-11-01",
       "status": "ok",

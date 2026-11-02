@@ -56,6 +56,26 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "boo-halloween-at-the-annandaletoday-2026-11-01",
+    date: "2026-11-01",
+    filed: "2026-11-02",
+    headline: "Boo! Halloween at the Asian Night Market",
+    outlet: "Annandale Today",
+    url: "https://annandaletoday.com/boo-halloween-at-the-asian-night-market/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "justice-high-school-ptsa-annandaletoday-2026-11-01",
+    date: "2026-11-01",
+    filed: "2026-11-02",
+    headline: "Justice High School PTSA seeks donations for the Wolf Shack",
+    outlet: "Annandale Today",
+    url: "https://annandaletoday.com/justice-high-school-ptsa-seeks-donations-for-the-wolf-shack/",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "virginia-dc-sue-over-arch-arlnow-2026-10-31",
     date: "2026-10-31",
     filed: "2026-11-01",
