@@ -174,19 +174,19 @@
           },
           {
             "severity": "HIGH",
-            "title": "Russian bombs kill 24 at aid point in Komyshuvakha",
+            "title": "Russian bombs kill at least 18 at aid point in Komyshuvakha; later report says 24",
             "location": "Komyshuvakha, Zaporizhzhia region, Ukraine",
             "type": "Other",
-            "summary": "Zelenskyy said aerial bombs hit the settlement several times starting in the morning, targeting a school where people were receiving humanitarian aid. The Kyiv Independent reports 24 killed.",
-            "status": "Official statement issued; toll may rise",
+            "summary": "Zelenskyy said aerial bombs hit a school in Komyshuvakha where people were receiving humanitarian aid, followed by a double-tap strike of nine more bombs on the shelter where people were taking cover. He said 18 people had been reported killed and five injured, and the search for people continues. A later Kyiv Independent report puts the toll at 24.",
+            "status": "Rescue and search ongoing; toll 18 per Zelenskyy, 24 per later Kyiv Independent report",
             "links": [
               {
                 "url": "https://x.com/ZelenskyyUa/status/2117301501098086698",
-                "label": "Zelenskyy (verified)"
+                "label": "Zelenskyy: 18 killed, 5 injured (verified)"
               },
               {
                 "url": "https://x.com/KyivIndependent/status/2117332834360635555",
-                "label": "Kyiv Independent"
+                "label": "Kyiv Independent: 24 killed"
               }
             ]
           },
