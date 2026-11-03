@@ -124,9 +124,16 @@ function visibleSections(e: LogEntry, f: Filter): [string, LogItem[]][] {
   return items?.length ? [[f, items]] : [];
 }
 
+function countItems(f: Filter) {
+  return ENTRIES.reduce((n, e) => n + visibleSections(e, f).reduce((m, [, items]) => m + items.length, 0), 0);
+}
+const COUNTS = Object.fromEntries(FILTERS.map((f) => [f, countItems(f)])) as Record<Filter, number>;
+
 function EmergencyMonitorPage() {
   const [filter, setFilter] = useState<Filter>("All");
+  const [showEarlier, setShowEarlier] = useState(false);
   const shown = ENTRIES.filter((e) => visibleSections(e, filter).length > 0);
+  const earlierCount = shown.length - 1;
   const stamp = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" }); // YYYY-MM-DD in ET
   // Computed in the browser after load (the page is prebuilt), re-checked every minute.
   const [now, setNow] = useState<number | null>(null);
@@ -175,7 +182,7 @@ function EmergencyMonitorPage() {
           </div>
           <p className="em-noprint mt-2 text-xs text-on-dark-muted">PDF opens your browser's print dialog — choose "Save as PDF". Links stay clickable.</p>
 
-          <div className="em-noprint mt-6 flex flex-wrap gap-2" role="group" aria-label="Filter by region">
+          <div className="em-noprint sticky top-[65px] z-30 -mx-5 mt-6 flex gap-2 overflow-x-auto bg-navy-900 px-5 py-2 sm:static sm:mx-0 sm:flex-wrap sm:overflow-visible sm:bg-transparent sm:px-0 sm:py-0" role="group" aria-label="Filter by region">
             {FILTERS.map((f) => {
               const on = f === filter;
               return (
@@ -184,9 +191,10 @@ function EmergencyMonitorPage() {
                   type="button"
                   aria-pressed={on}
                   onClick={() => setFilter(f)}
-                  className={`min-h-11 rounded-full border px-4 text-sm font-semibold transition ${on ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-700 text-[#F6F3EA] hover:border-gold"}`}
+                  aria-label={`${f}, ${COUNTS[f]} item${COUNTS[f] === 1 ? "" : "s"}`}
+                  className={`min-h-11 shrink-0 whitespace-nowrap rounded-full border px-4 text-sm font-semibold transition ${on ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-700 text-[#F6F3EA] hover:border-gold"}`}
                 >
-                  {f}
+                  {f} <span className={on ? "font-normal" : "font-normal text-on-dark-muted"}>({COUNTS[f]})</span>
                 </button>
               );
             })}
@@ -203,8 +211,8 @@ function EmergencyMonitorPage() {
             </p>
           ) : (
             <ol className="mt-8 space-y-6">
-              {shown.map((e) => (
-                <li key={e.datetime} className="em-entry rounded-xl border border-navy-line border-l-4 border-l-gold bg-navy-700 px-5 py-5 text-[#F6F3EA]">
+              {shown.map((e, idx) => (
+                <li key={e.datetime} className={`em-entry ${idx > 0 && !showEarlier ? "hidden print:block" : ""} rounded-xl border border-navy-line border-l-4 border-l-gold bg-navy-700 px-5 py-5 text-[#F6F3EA]`}>
                   <h2 className="font-serif text-xl font-semibold text-gold"><time dateTime={e.datetime}>{fmtET(e.datetime)}</time></h2>
                   {visibleSections(e, filter).map(([name, items]) => (
                     <section key={name} className="mt-4">
@@ -236,6 +244,13 @@ function EmergencyMonitorPage() {
                 </li>
               ))}
             </ol>
+          )}
+          {earlierCount > 0 && (
+            <div className="em-noprint mt-6">
+              <button type="button" aria-expanded={showEarlier} onClick={() => setShowEarlier((v) => !v)} className={btn}>
+                {showEarlier ? "Hide earlier updates" : `Show earlier updates (${earlierCount})`}
+              </button>
+            </div>
           )}
           </div>
         </div>
