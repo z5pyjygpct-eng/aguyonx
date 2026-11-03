@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
@@ -19,7 +19,7 @@ type LogItem = {
 const SEV_CLASS: Record<string, string> = {
   HIGH: "border-[#b91c1c] bg-[#b91c1c] text-white",
   MEDIUM: "border-[#b45309] bg-[#f59e0b] text-[#1f1300]",
-  MONITORING: "border-[#475569] bg-[#64748b] text-white",
+  MONITORING: "border-[#475569] bg-[#556274] text-white",
 };
 function headline(it: LogItem) {
   return [it.severity ? `[${it.severity}]` : "", it.title ?? ""].filter(Boolean).join(" – ");
@@ -92,8 +92,24 @@ function toCSV() {
   return "\uFEFF" + rows.join("\r\n");
 }
 
+const EM_TITLE = "Emergency Monitor – Live Log | aguyonx.com";
+const EM_DESC = "A live log of emergencies and threats worldwide — cyber, power outages, unrest, terror, infrastructure and elections — sorted by region and updated about every 2 hours, with sources on X.";
+const EM_URL = "https://aguyonx.com/emergency-monitor";
+const STALE_MS = 3 * 60 * 60 * 1000;
+
 export const Route = createFileRoute("/emergency-monitor")({
-  head: () => ({ meta: [{ title: "Emergency Monitor – Live Log | aguyonx.com" }] }),
+  head: () => ({
+    meta: [
+      { title: EM_TITLE },
+      { name: "description", content: EM_DESC },
+      { property: "og:title", content: EM_TITLE },
+      { property: "og:description", content: EM_DESC },
+      { property: "og:url", content: EM_URL },
+      { name: "twitter:title", content: EM_TITLE },
+      { name: "twitter:description", content: EM_DESC },
+    ],
+    links: [{ rel: "canonical", href: EM_URL }],
+  }),
   component: EmergencyMonitorPage,
 });
 
@@ -111,7 +127,16 @@ function visibleSections(e: LogEntry, f: Filter): [string, LogItem[]][] {
 function EmergencyMonitorPage() {
   const [filter, setFilter] = useState<Filter>("All");
   const shown = ENTRIES.filter((e) => visibleSections(e, filter).length > 0);
-  const stamp = new Date().toISOString().slice(0, 10);
+  const stamp = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" }); // YYYY-MM-DD in ET
+  // Computed in the browser after load (the page is prebuilt), re-checked every minute.
+  const [now, setNow] = useState<number | null>(null);
+  useEffect(() => {
+    setNow(Date.now());
+    const t = setInterval(() => setNow(Date.now()), 60_000);
+    return () => clearInterval(t);
+  }, []);
+  const newest = ENTRIES[0]?.datetime;
+  const stale = newest != null && now != null && now - Date.parse(newest) > STALE_MS;
   return (
     <SiteShell>
       <LegacyV4>
@@ -123,7 +148,7 @@ function EmergencyMonitorPage() {
   .em-log .em-sev { -webkit-print-color-adjust: exact; print-color-adjust: exact; border-width: 2px; }
   .em-log .em-sev-HIGH { background: #b91c1c !important; color: #fff !important; border-color: #b91c1c !important; }
   .em-log .em-sev-MEDIUM { background: #f59e0b !important; color: #000 !important; border-color: #b45309 !important; }
-  .em-log .em-sev-MONITORING { background: #64748b !important; color: #fff !important; border-color: #475569 !important; }
+  .em-log .em-sev-MONITORING { background: #556274 !important; color: #fff !important; border-color: #475569 !important; }
 }`}</style>
         <div className="em-noprint">
           <LegacyHero trail={[{ label: "Emergency Monitor" }]} kicker="Live log" title="Emergency Monitor – Live Log" width="max-w-4xl">
@@ -131,11 +156,21 @@ function EmergencyMonitorPage() {
           </LegacyHero>
         </div>
         <div className="em-log mx-auto w-full max-w-4xl px-5 py-8 sm:px-8 sm:py-10">
-          <h1 className="hidden font-serif text-2xl font-semibold print:block">Emergency Monitor – Live Log</h1>
+          <p aria-hidden="true" className="hidden font-serif text-2xl font-semibold print:block">Emergency Monitor – Live Log</p>
+          {newest && (
+            <p className="mb-4 text-sm text-[#F6F3EA]">
+              <span className="font-semibold">Last updated:</span> <time dateTime={newest}>{fmtET(newest)}</time>
+            </p>
+          )}
+          {stale && (
+            <p role="status" className="em-noprint mb-6 rounded-md border-2 border-[#ff6b7f] bg-[#C8102E] px-4 py-3 text-sm font-semibold text-white">
+              Heads up: this log may be stale. The newest entry is more than 3 hours old.
+            </p>
+          )}
           <div className="em-noprint flex flex-wrap items-center gap-3" aria-label="Download the log">
             <span className="text-sm font-semibold text-on-dark-muted">Download:</span>
-            <button type="button" className={btn} onClick={() => window.print()}>PDF</button>
-            <button type="button" className={btn} onClick={() => save(`emergency-log-${stamp}.txt`, toText(), "text/plain;charset=utf-8")}>Text</button>
+            <button type="button" className={btn} aria-label="Download PDF (opens your browser's print dialog)" onClick={() => window.print()}>PDF</button>
+            <button type="button" className={btn} onClick={() => save(`emergency-log-${stamp}.txt`, toText(), "text/plain;charset=utf-8")}>TXT</button>
             <button type="button" className={btn} onClick={() => save(`emergency-log-${stamp}.csv`, toCSV(), "text/csv;charset=utf-8")}>CSV</button>
           </div>
           <p className="em-noprint mt-2 text-xs text-on-dark-muted">PDF opens your browser's print dialog — choose "Save as PDF". Links stay clickable.</p>
@@ -149,7 +184,7 @@ function EmergencyMonitorPage() {
                   type="button"
                   aria-pressed={on}
                   onClick={() => setFilter(f)}
-                  className={`min-h-10 rounded-full border px-4 text-sm font-semibold transition ${on ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-700 text-[#F6F3EA] hover:border-gold"}`}
+                  className={`min-h-11 rounded-full border px-4 text-sm font-semibold transition ${on ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-700 text-[#F6F3EA] hover:border-gold"}`}
                 >
                   {f}
                 </button>
@@ -157,6 +192,7 @@ function EmergencyMonitorPage() {
             })}
           </div>
 
+          <div aria-live="polite">
           {ENTRIES.length > 0 && shown.length === 0 ? (
             <p className="mt-8 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
               No {filter} items in the log right now. <button type="button" className="font-semibold text-gold underline" onClick={() => setFilter("All")}>Show all</button>
@@ -201,6 +237,7 @@ function EmergencyMonitorPage() {
               ))}
             </ol>
           )}
+          </div>
         </div>
       </LegacyV4>
     </SiteShell>

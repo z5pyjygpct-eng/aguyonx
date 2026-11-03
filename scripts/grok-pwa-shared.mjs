@@ -340,16 +340,23 @@ export function grokOgHeadTags({
   documentTitle = "",
   cwd = process.cwd(),
   pageImage = "",
+  pageShare = null,
 } = {}) {
-  const title = resolveOgTitle(site, appName, host, documentTitle);
+  // A page that sets its own og:url opts in to its own share title/description.
+  const title = pageShare?.title || resolveOgTitle(site, appName, host, documentTitle);
   const publicHost = resolvePublicHost(host);
   const tags = [
     `<meta name="twitter:card" content="summary_large_image">`,
     `<meta property="og:title" content="${escapeHtml(title)}">`,
   ];
-  const description = String(site.description ?? "").trim();
+  const description = String(pageShare?.description || site.description || "").trim();
   if (description) {
     tags.push(`<meta property="og:description" content="${escapeHtml(description)}">`);
+  }
+  if (pageShare?.url) {
+    tags.push(`<meta property="og:url" content="${escapeHtml(pageShare.url)}">`);
+    tags.push(`<meta name="twitter:title" content="${escapeHtml(title)}">`);
+    if (description) tags.push(`<meta name="twitter:description" content="${escapeHtml(description)}">`);
   }
   if (String(site.type ?? "").toLowerCase() === "x:game") {
     tags.push(`<meta property="og:type" content="x:game">`);
@@ -444,6 +451,14 @@ export function injectGrokPwaHead(html, ctx = {}) {
   );
   const pageImageMatch = /<meta\b[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["']/i.exec(html);
   const pageImage = pageImageMatch ? unescapeHtml(pageImageMatch[1]) : "";
+  const metaContent = (key) => {
+    const m = new RegExp(`<meta\\b[^>]*(?:property|name)=["']${key}["'][^>]*content=["']([^"']*)["']`, "i").exec(html);
+    return m ? unescapeHtml(m[1]).trim() : "";
+  };
+  const pageUrl = metaContent("og:url");
+  const pageShare = pageUrl
+    ? { url: pageUrl, title: metaContent("og:title"), description: metaContent("og:description") }
+    : null;
   let next = stripShareMetaTags(html);
 
   const missing = grokPwaHeadTags(appName)
@@ -456,7 +471,7 @@ export function injectGrokPwaHead(html, ctx = {}) {
 
   next = insertAfterHeadOpen(
     next,
-    grokOgHeadTags({ host, appName, site, documentTitle, cwd, pageImage }).join(""),
+    grokOgHeadTags({ host, appName, site, documentTitle, cwd, pageImage, pageShare }).join(""),
   );
 
   if (!next.includes("/grok-app-builder/extensions.js")) {
