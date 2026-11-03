@@ -1,5 +1,7 @@
-import { type FormEvent, useEffect, useState } from "react";
-import { SiteSearchResults } from "@/components/site/site-search-results";
+import { lazy, Suspense, type FormEvent, useEffect, useState } from "react";
+
+/** Search index loads only once someone searches (keeps it out of every page's main bundle). */
+const SiteSearchResults = lazy(() => import("@/components/site/site-search-results").then((m) => ({ default: m.SiteSearchResults })));
 
 /** Dark-hero search box (v4). Same site index as HomeSearch; results render under the box. */
 /** True below Tailwind's sm breakpoint (640px). False during SSR, then follows the viewport. */
@@ -51,7 +53,7 @@ export function HeroSearch({ placeholder, placeholderNarrow, id = "hero-q" }: { 
           Search
         </button>
       </form>
-      {query ? <SiteSearchResults query={query} dark /> : null}
+      {query ? <Suspense fallback={<p className="mt-4 text-sm opacity-80" role="status">Searching…</p>}><SiteSearchResults query={query} dark /></Suspense> : null}
     </div>
   );
 }

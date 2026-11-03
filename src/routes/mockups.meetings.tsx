@@ -6,7 +6,8 @@ import { V4Main, parseDate } from "@/components/site/lcps-v4";
 import { V4VenueHero } from "@/components/site/venue-v4";
 import { V4_VENUES } from "@/lib/v4-venues";
 import { StartHere } from "@/components/site/howto";
-import { MEETINGS, VENUE_FTM, VENUE_LABEL, coverage, loadRollCalls, type MeetingRow, type RollCall, type VenueKey } from "@/lib/voter-mock";
+import { MEETINGS, VENUE_FTM, coverage, loadRollCalls, type MeetingRow, type RollCall } from "@/lib/voter-mock";
+import { VENUE_LABEL, type VenueKey } from "@/lib/voter-mock-meta";
 
 /** Find the Moment "next step" mockup (preview only): every official vote on each meeting card + a Start here guide. */
 export const Route = createFileRoute("/mockups/meetings")({
