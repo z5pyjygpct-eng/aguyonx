@@ -1,6 +1,8 @@
-import { type FormEvent, useState } from "react";
+import { lazy, Suspense, type FormEvent, useState } from "react";
 import { Search } from "lucide-react";
-import { SiteSearchResults } from "@/components/site/site-search-results";
+
+/** Search index loads only once someone searches (keeps it out of every page's main bundle). */
+const SiteSearchResults = lazy(() => import("@/components/site/site-search-results").then((m) => ({ default: m.SiteSearchResults })));
 
 export function HomeSearch() {
   const [q, setQ] = useState("");
@@ -43,7 +45,7 @@ export function HomeSearch() {
             />
           </div>
         </form>
-        {query ? <SiteSearchResults query={query} /> : null}
+        {query ? <Suspense fallback={<p className="mt-4 text-sm opacity-80" role="status">Searching…</p>}><SiteSearchResults query={query} /></Suspense> : null}
       </div>
     </section>
   );

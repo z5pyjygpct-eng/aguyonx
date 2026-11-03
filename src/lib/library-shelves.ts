@@ -13,16 +13,8 @@ export const LIBRARY_VIEW: LibraryItem[] = LIBRARY.filter((i) => !EXCLUDE.has(i.
   HREF_FIX[i.slug] ? { ...i, href: HREF_FIX[i.slug] } : i,
 );
 
-export const SHELVES = [
-  { id: "foia", label: "FOIA & tools" },
-  { id: "money", label: "Money & spending" },
-  { id: "laws", label: "Laws, votes & elections" },
-  { id: "gov", label: "State & local government" },
-  { id: "watch", label: "Watchdogs & research" },
-  { id: "vanews", label: "Virginia & NoVA news" },
-  { id: "natnews", label: "National news" },
-] as const;
-export type ShelfId = (typeof SHELVES)[number]["id"];
+import { SHELVES, type ShelfId } from "@/lib/library-shelf-defs";
+export { SHELVES, type ShelfId };
 
 export const START_HERE = [
   "foia-desk",

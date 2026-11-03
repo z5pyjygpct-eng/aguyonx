@@ -8,10 +8,9 @@ import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 export const Route = createFileRoute("/find-the-moment_/$locality")({
   component: LocalityHub,
-  head: ({ params }) => {
-    const l = ftmLocalities().find((x) => x.id === params.locality);
-    return { meta: [{ title: `${l?.title ?? "Locality"} · Find the Moment · A Guy on X` }] };
-  },
+  // Title lookup lives in the (code-split) loader so the localities data stays out of the main bundle.
+  loader: ({ params }) => ({ title: ftmLocalities().find((x) => x.id === params.locality)?.title }),
+  head: ({ loaderData }) => ({ meta: [{ title: `${loaderData?.title ?? "Locality"} · Find the Moment · A Guy on X` }] }),
 });
 
 function LocalityHub() {

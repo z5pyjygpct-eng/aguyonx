@@ -4,7 +4,8 @@ import { SiteShell } from "@/components/site/shell";
 import { V4Main, parseDate } from "@/components/site/lcps-v4";
 import { V4VenueHero } from "@/components/site/venue-v4";
 import { V4_VENUES } from "@/lib/v4-venues";
-import { ISSUES, VENUE_LABEL, issueMoments, issueStories, issueVotes, type VenueKey } from "@/lib/voter-mock";
+import { issueMoments, issueStories, issueVotes } from "@/lib/voter-mock";
+import { ISSUES, VENUE_LABEL, type VenueKey } from "@/lib/voter-mock-meta";
 
 /** Voter guide by issue (preview mockup). Every link is computed from repo data: official decisions, recap moments, our stories. */
 export const Route = createFileRoute("/mockups/voter-guide")({

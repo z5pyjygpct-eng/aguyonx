@@ -5,7 +5,8 @@ import { SiteShell } from "@/components/site/shell";
 import { V4Main } from "@/components/site/lcps-v4";
 import { V4VenueHero } from "@/components/site/venue-v4";
 import type { LibraryItem } from "@/content/types";
-import { LIBRARY_VIEW as LIBRARY, SHELVES, START_HERE, shelfOf, type ShelfId } from "@/lib/library-shelves";
+import { LIBRARY_VIEW as LIBRARY, START_HERE, shelfOf } from "@/lib/library-shelves";
+import { SHELVES, type ShelfId } from "@/lib/library-shelf-defs";
 import OSINT from "@/lib/osint-va.json";
 import { cn } from "@/lib/utils";
 

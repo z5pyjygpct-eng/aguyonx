@@ -197,7 +197,8 @@ export default defineConfig(({ command, isPreview }) => ({
     grokPwaPlugin(),
     ftmPacksPlugin(),
     tailwindcss(),
-    tanstackStart(),
+    // Loaders get their own chunks so recap/article lookups stay out of the main bundle.
+    tanstackStart({ router: { codeSplittingOptions: { defaultBehavior: [["loader"], ["component"], ["errorComponent"], ["notFoundComponent"]] } } }),
     ...(command === "build" || isPreview
       ? [
           nitro({

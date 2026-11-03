@@ -7,7 +7,8 @@ import { V4VenueHero } from "@/components/site/venue-v4";
 import { V4_VENUES } from "@/lib/v4-venues";
 import { Walkthrough } from "@/components/site/howto";
 import { searchSite, type SearchHit } from "@/lib/search";
-import { EXAMPLE_PROMPTS, TRY_CHIPS, VENUE_LABEL, VENUE_MEMBERS, meetingMatchCount, meetingMatches, relatedTerms, type VenueKey } from "@/lib/voter-mock";
+import { EXAMPLE_PROMPTS, TRY_CHIPS, VENUE_MEMBERS, meetingMatchCount, meetingMatches, relatedTerms } from "@/lib/voter-mock";
+import { VENUE_LABEL, type VenueKey } from "@/lib/voter-mock-meta";
 
 /** Search onboarding mockup (preview only). Same site index as the homepage box (src/lib/search.ts), plus meeting titles/votes. */
 export const Route = createFileRoute("/mockups/search")({
