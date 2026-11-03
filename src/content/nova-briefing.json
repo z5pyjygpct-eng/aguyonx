@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,245 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-03",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Nov 2, Monday) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched the article page, Nov 2 ET publish date checked on the article page). Sources checked: RSS from ARLnow, FFXnow, ALXnow, Annandale Today, Potomac Local, Blue Ridge Leader, Loudoun Times-Mirror, Patch (Loudoun, Fairfax, Arlington, Prince William), WTOP, InsideNoVa, the Loudoun County news flash and the Loudoun Sheriff's Office; plus news.ts. 36 candidates evaluated; 1 screened out on date (Loudoun County 'Purcellville Apartments Evacuated' was posted Oct 29); 1 failed verification (a Patch Vienna Metro story whose page headline no longer matched its feed headline). 34 qualified and the run hit the 25-item cap, so this edition is capped: the 9 lowest-scoring items (restaurant/theater openings, community events, two county ceremonial notices and two Patch items duplicating stronger Loudoun coverage) were left out. Excluded as other locality or unclear: ALXnow (Alexandria), Stafford, Fredericksburg and Manassas Park items, and an NBC4 trial story with no clear county. Nov 2 news.ts items (Medicare for All, VA-05, K-12 funding formula) are statewide and excluded. Gaps: Loudoun Now returned press releases and HTTP 429 with no reachable Nov 2 news stories; Prince William Times returned 429 then only press releases; Fairfax Times returned 429; InsideNoVa's feed was unreadable; WTOP's feed carried only Nov 3 items; Blue Ridge Leader had no Nov 2 posts.",
+      "items": [
+        {
+          "id": "more-work-needed-to-arlnow-2026-11-02",
+          "county": "Arlington",
+          "headline": "More work needed to leave room for buses in $2.5M Military Road roundabout",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/02/extra-work-needed-after-2-5m-military-road-roundabout-didnt-leave-room-for-buses/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "brawl-caught-on-video-arlnow-2026-11-02",
+          "county": "Arlington",
+          "headline": "Brawl caught on video outside Columbia Pike lounge, a night after bottle attack on same block",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/02/brawl-caught-on-video-outside-columbia-pike-lounge-a-night-after-bottle-attack-on-same-block/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "repeat-offender-gets-12month-arlnow-2026-11-02",
+          "county": "Arlington",
+          "headline": "Repeat offender gets 12-month sentence for attacking woman at Pentagon City bathroom",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/02/repeat-offender-gets-12-month-sentence-for-attacking-woman-at-pentagon-city-bathroom/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "election-day-in-arlington-arlnow-2026-11-02",
+          "county": "Arlington",
+          "headline": "Election Day in Arlington tomorrow: What’s on the ballot and where to vote",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/02/election-day-in-arlington-whats-on-the-ballot-and-where-to-vote-tomorrow/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-apartment-rents-rise-arlnow-2026-11-02",
+          "county": "Arlington",
+          "headline": "Arlington apartment rents rise over 1% year-over-year in October",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/02/arlington-apartment-rents-rise-over-1-year-over-year-in-october/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-sees-massive-ffxnow-2026-11-02",
+          "county": "Fairfax",
+          "headline": "Fairfax County sees massive increase in early voting ahead of midterm election",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/02/fairfax-county-sees-massive-increase-in-early-voting-ahead-of-midterm-election/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "herndon-town-council-candidate-ffxnow-2026-11-02",
+          "county": "Fairfax",
+          "headline": "Herndon Town Council candidate Justin Britt wants to build on what makes town special",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/02/herndon-town-council-candidate-justin-britt-wants-to-build-on-what-makes-town-special/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "new-fcps-policies-governing-ffxnow-2026-11-02",
+          "county": "Fairfax",
+          "headline": "New FCPS policies governing educational technology, use of AI start to take shape",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/02/new-fcps-policies-governing-educational-technology-use-of-ai-start-to-take-shape/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "tysons-apartment-rents-increase-ffxnow-2026-11-02",
+          "county": "Fairfax",
+          "headline": "Tysons apartment rents increase, while other Fairfax County areas post declines",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/02/tysons-apartment-rents-increase-while-other-fairfax-county-areas-post-declines/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "murder-trial-set-for-ffxnow-2026-11-02",
+          "county": "Fairfax",
+          "headline": "Murder trial set for man charged with fatally shooting Reston roommate",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/02/murder-trial-set-for-man-charged-with-fatally-shooting-reston-roommate/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcpd-driver-dies-after-ffxnow-2026-11-02",
+          "county": "Fairfax",
+          "headline": "FCPD: Driver dies after crashing into Fairfax County Parkway traffic signal",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/02/fcpd-driver-dies-after-crashing-into-fairfax-county-parkway-traffic-signal/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "open-house-thursday-for-loudountimesmirror-2026-11-02",
+          "county": "Loudoun",
+          "headline": "Open house Thursday for planned data centers, substation near Brambleton",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/real_estate_and_development/open-house-thursday-for-planned-data-centers-substation-near-brambleton/article_6092af10-bdb9-4801-acf0-7f1605fca86a.html",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "feds-will-take-over-loudountimesmirror-2026-11-02",
+          "county": "Loudoun",
+          "headline": "Feds will take over management of Purcellville East Apartments, owner says",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/feds-will-take-over-management-of-purcellville-east-apartments-owner-says/article_db62f881-9992-4617-bbb6-beeb3dfc0dd7.html",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "town-man-charged-over-loudountimesmirror-2026-11-02",
+          "county": "Loudoun",
+          "headline": "Town man charged over Leesburg Plaza shots-fired incident",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/town-man-charged-over-leesburg-plaza-shots-fired-incident/article_490029da-e519-4bcb-8e3d-b45c57551555.html",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "what-to-know-about-loudountimesmirror-2026-11-02",
+          "county": "Loudoun",
+          "headline": "What to know about the 2026 election in Loudoun County",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/levels_of_government/county/what-to-know-about-the-2026-election-in-loudoun-county/article_abc651a8-1443-46a2-b198-47979bd1de5d.html",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-man-sentenced-for-loudoungov-2026-11-02",
+          "county": "Loudoun",
+          "headline": "Fairfax Man Sentenced for Assaulting Jail Deputies",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10971",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "broadlands-boardwalk-park-to-loudoungov-2026-11-02",
+          "county": "Loudoun",
+          "headline": "Broadlands Boardwalk Park to Temporarily Close for Replacement Project",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10970",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "election-day-notice-2026-loudoungov-2026-11-02",
+          "county": "Loudoun",
+          "headline": "Election Day Notice 2026",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10969",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "applications-are-open-for-loudoungov-2026-11-02",
+          "county": "Loudoun",
+          "headline": "Applications are Open for Loudoun County Street Lighting Program",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10965",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-county-sheriffs-office-loudoungov-2026-11-02",
+          "county": "Loudoun",
+          "headline": "Loudoun County Sheriff’s Office Launches “Operation Highway Hound” to Target Aggressive Driving",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10968",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lcso-arrests-man-following-loudoungov-2026-11-02",
+          "county": "Loudoun",
+          "headline": "LCSO Arrests Man Following Domestic Assault in Aldie",
+          "outlet": "Loudoun County",
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10966",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "congressman-probes-inspection-records-patch-2026-11-02",
+          "county": "Loudoun",
+          "headline": "Congressman Probes Inspection Records Of Unsafe Loudoun Apartments After Evacuation",
+          "outlet": "Patch",
+          "url": "https://patch.com/virginia/ashburn/congressman-probing-inspection-records-unsafe-loudoun-apartments-after-evacuation",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-teen-stabbed-potomaclocal-2026-11-02",
+          "county": "Prince William",
+          "headline": "Police Blotter: Teen Stabbed in Woodbridge; Woman Accused of Assaulting Officer Six Times",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/02/police-blotter-2026-11-02/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-county-says-potomaclocal-2026-11-02",
+          "county": "Prince William",
+          "headline": "Prince William County says no to federal election observers",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/02/prince-william-county-says-no-to-federal-election-observers/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-expands-warehouse-potomaclocal-2026-11-02",
+          "county": "Prince William",
+          "headline": "Prince William expands warehouse overlay next to Bristoe Station battlefield",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/02/prince-william-expands-warehouse-overlay-next-to-bristoe-station/",
+          "published": "2026-11-02",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Loudoun Now: no reachable Nov 2 news stories (press releases / HTTP 429)",
+        "Prince William Times: no reachable Nov 2 news stories (HTTP 429, then press releases only)",
+        "Fairfax Times: unavailable (HTTP 429)",
+        "Capped: 34 qualified, 25 kept"
+      ]
+    },
     {
       "date": "2026-11-02",
       "status": "ok",
