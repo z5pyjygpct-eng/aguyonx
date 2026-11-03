@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-oT-frVMGZn0.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2023-12-12-fairfax-county-school-board-work-session",
+  "title": "Fairfax County School Board Work Session, Tuesday, December 12, 2023",
+  "shortTitle": "School Board Work Session \u00b7 Dec 12, 2023",
+  "date": "Tuesday, December 12, 2023",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "2h 45m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=oT-frVMGZn0"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-11-02"
+}
