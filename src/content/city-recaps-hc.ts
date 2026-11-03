@@ -58033,12 +58033,12 @@ export const HC_RECAPS: CityRecap[] = [
     "transcriptDownloads": {
       "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2023-09-19-fairfax-county-board-of-supervisors-legislative-committee.pdf",
       "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2023-09-19-fairfax-county-board-of-supervisors-legislative-committee.txt",
-      "pdfNote": "41 pages"
+      "pdfNote": "19 pages"
     },
     "shareContext": "Fairfax BOS, Sep 19, 2023",
     "moments": [
       {
-        "seconds": 10583,
+        "seconds": 4151,
         "label": "Adjournment."
       }
     ]

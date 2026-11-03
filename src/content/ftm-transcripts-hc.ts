@@ -8443,12 +8443,12 @@ export const HC_FTM_TRANSCRIPTS: FtmTranscript[] = [
     "meetingId": "fxco-bos-3020",
     "venue": "fairfax-county-bos",
     "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-3020.json",
-    "windowCount": 394,
-    "wordCount": 24762,
+    "windowCount": 168,
+    "wordCount": 11162,
     "engine": "whisper.cpp · large-v3-turbo",
     "generated": "2026-11-03",
     "sourceFile": "fxco-bos-3020.srt",
-    "note": "2 repeated segments collapsed"
+    "note": "2 repeated segments collapsed; tail after 1:09:11 removed (the county's clip runs into the Economic Initiatives Committee, which is its own meeting, fxco-bos-3021)"
   },
   {
     "meetingId": "fxco-bos-3021",
