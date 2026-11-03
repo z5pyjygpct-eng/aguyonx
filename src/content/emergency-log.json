@@ -1,6 +1,1079 @@
 {
   "entries": [
     {
+      "datetime": "2026-11-03T08:00:00-05:00",
+      "regions": {
+        "America": [
+          {
+            "severity": "MEDIUM",
+            "title": "Ballot scanners failing across Westchester County polling places",
+            "location": "Westchester County, New York, USA",
+            "type": "Election",
+            "summary": "Rep. Mike Lawler says there is a problem with every ballot scanner in Westchester County, and that the Board of Elections is working with its vendors and does not yet know whether the ballots or the machines are the cause. New York Attorney General Letitia James says her office is monitoring the scanner issue and is in touch with the state and local Boards of Elections. Both say voters can still fill out and hand in their ballots at their polling places and that those votes will count. NBC New York is reporting the problem.",
+            "status": "Official statement issued (NY Attorney General); voting continuing; cause and fix time not yet announced; no post from the Westchester Board of Elections found on X this sweep",
+            "links": [
+              {
+                "url": "https://x.com/NewYorkStateAG/status/2117597208971296819",
+                "label": "NY Attorney General Letitia James (verified)"
+              },
+              {
+                "url": "https://x.com/lawler4ny/status/2117593541102690781",
+                "label": "Rep. Mike Lawler"
+              },
+              {
+                "url": "https://x.com/NBCNewYork/status/2117602265762603244",
+                "label": "NBC New York (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Power outage at two Richmond precincts on Election Day",
+            "location": "Richmond, Virginia (Precincts 504 and 505)",
+            "type": "Election",
+            "summary": "The Richmond Office of Elections says it is aware of a power outage affecting Precincts 504 and 505 and that utility crews are on site working to restore power. The office says both precincts are still expected to open for voting as scheduled at 6:00 a.m.",
+            "status": "Official statement issued by the local elections office; restoration in progress",
+            "links": [
+              {
+                "url": "https://x.com/RVA_Votes/status/2117571582948192465",
+                "label": "Richmond Office of Elections (official)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Montana ballot label printing malfunction may slow voting",
+            "location": "Montana (Yellowstone County cited)",
+            "type": "Election",
+            "summary": "Mario Nawfal, citing Q2 News, reports a statewide malfunction since Friday in the system that prints ballot identification labels, forcing election workers to handwrite voter names and ballot numbers. Yellowstone County officials reportedly warned that last-minute registrations, updates and replacement ballots should expect delays, and a backup procedure is in place.",
+            "status": "Single secondhand source; no post from Montana's Secretary of State or county officials found this sweep",
+            "links": [
+              {
+                "url": "https://x.com/MarioNawfal/status/2117514614623867279",
+                "label": "Mario Nawfal citing Q2 News (unverified account)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Flooding forces polling place relocations in Florida",
+            "location": "Brevard, Broward (Davie), Indian River, Palm Beach and St. Lucie counties, Florida, USA",
+            "type": "Election",
+            "summary": "Brevard County's Supervisor of Elections is temporarily relocating a limited number of precinct polling places because of extreme flooding, and Florida's Secretary of State has published an updated list of polling locations for flood-hit counties. Reporter Gary Fineout says five Brevard polling places are inaccessible and about 13,000 voters in those precincts had not yet voted. Polls are open 7 a.m. to 7 p.m., and voters are asked to check the county site for their location. On Election Day morning the Florida Department of State urged flood-affected voters to check their polling place before going, and the Town of Davie says Precinct T018 (Paradise Village Clubhouse) moved to Tree Tops Park because of severe flooding.",
+            "status": "Official statement issued; relocations in effect for Election Day. Widely shared posts say the governor signed an order moving polling places in seven counties; this sweep did not find the order itself posted on X.",
+            "links": [
+              {
+                "url": "https://x.com/FLSecofState/status/2117584374312980690",
+                "label": "Florida Department of State"
+              },
+              {
+                "url": "https://x.com/TownofDavie/status/2117599071045079428",
+                "label": "Town of Davie: Precinct T018 relocated"
+              },
+              {
+                "url": "https://x.com/votebrevard/status/2117408888001871954",
+                "label": "Brevard Supervisor of Elections (verified)"
+              },
+              {
+                "url": "https://x.com/CordByrd/status/2117421560558481560",
+                "label": "Florida Secretary of State Cord Byrd"
+              },
+              {
+                "url": "https://x.com/TCPalm/status/2117349824882258218",
+                "label": "TCPalm"
+              },
+              {
+                "url": "https://x.com/FOX29WFLX/status/2117360857336123659",
+                "label": "WFLX Fox 29"
+              },
+              {
+                "url": "https://x.com/votebrevard/status/2117468057169957239",
+                "label": "Brevard Supervisor of Elections: polls 7am-7pm, check relocations (verified)"
+              },
+              {
+                "url": "https://x.com/fineout/status/2117432977882026313",
+                "label": "Gary Fineout, reporter"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Pump station outage cuts water pressure in parts of Richmond",
+            "location": "Richmond, Virginia, USA",
+            "type": "Infrastructure",
+            "summary": "A vehicle struck a utility pole Monday evening, knocking out power to a city pump station and dropping water pressure in parts of the Fan, the Museum District and nearby areas. The Richmond Times-Dispatch reports no boil-water advisory will be issued, and CBS 6 says pressure is returning to normal.",
+            "status": "Resolving; no boil-water advisory per local media",
+            "links": [
+              {
+                "url": "https://x.com/12OnYourSide/status/2117427317207101563",
+                "label": "12 On Your Side WWBT"
+              },
+              {
+                "url": "https://x.com/RTDNEWS/status/2117447237479350704",
+                "label": "Richmond Times-Dispatch"
+              },
+              {
+                "url": "https://x.com/CBS6/status/2117485711339176034",
+                "label": "WTVR CBS 6 (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Suspicious briefcase forces evacuation of San Diego Registrar of Voters",
+            "location": "San Diego County Registrar of Voters, Kearny Mesa, San Diego, CA",
+            "type": "Election",
+            "summary": "NBC 7 San Diego reports a suspicious briefcase found at the Registrar of Voters office Monday afternoon prompted an evacuation lasting a few hours, one day before the general election. Local reporting says law enforcement and the registrar determined the item was not a threat. Fraud or targeting claims circulating online have no official support.",
+            "status": "Resolved; item deemed not a threat per local media",
+            "links": [
+              {
+                "url": "https://x.com/nbcsandiego/status/2117424667635908772",
+                "label": "NBC 7 San Diego (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Police incident and shelter-in-place at U of T Mississauga residence",
+            "location": "McLuhan Court Residence, University of Toronto Mississauga, Mississauga, Ontario, Canada",
+            "type": "Other",
+            "summary": "The University of Toronto Mississauga told people to shelter in place over police activity at McLuhan Court residence Monday night. Peel Regional Police say the incident is isolated and contained to a single residential unit, the immediate area was evacuated, and no injuries were reported. Online reports of shots fired have not been confirmed by police on X.",
+            "status": "Active police incident, contained; no injuries reported per Peel Police",
+            "links": [
+              {
+                "url": "https://x.com/UTM/status/2117459379557400894",
+                "label": "U of T Mississauga"
+              },
+              {
+                "url": "https://x.com/PeelPolice/status/2117467223023558881",
+                "label": "Peel Regional Police (verified)"
+              },
+              {
+                "url": "https://x.com/PeelPolice/status/2117478257117266064",
+                "label": "Peel Regional Police update (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Power outage in DC's Foggy Bottom",
+            "location": "Foggy Bottom, Washington, DC",
+            "type": "Power Outage",
+            "summary": "Pepco said an event at its I Street Substation left about 1,100 customers without power, and outage maps listed 1,176. The area is blocks from the White House, and traffic lights and some federal facilities were affected. Firefighters responded to smoke from multiple manholes, and a manhole explosion was reported outside the World Bank. X News summaries say Pepco restored power by early afternoon and officials reported no sign of foul play.",
+            "status": "Stabilized: power reported restored Monday afternoon; cause under investigation, no foul play reported. Candidate to scale back.",
+            "links": [
+              {
+                "url": "https://x.com/TFTC21/status/2117315923090854262",
+                "label": "TFTC on X (verified)"
+              },
+              {
+                "url": "https://x.com/BethanyForTruth/status/2117319081636647229",
+                "label": "Post on X (manhole explosion report)"
+              },
+              {
+                "url": "https://x.com/NEWSMAX/status/2117410180367626516",
+                "label": "Newsmax (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Flash flooding on Florida's Space and Treasure Coasts",
+            "location": "Brevard, Indian River and St. Lucie Counties, FL",
+            "type": "Infrastructure",
+            "summary": "NWS Melbourne reported 16 to 22 inches of rain in parts of Brevard County, with a Flood Warning until 9:30 PM ET. New Flash Flood Warnings cover parts of Indian River and St. Lucie Counties until 8 PM ET after 4 to 10 inches of rain. Governor DeSantis signed Executive Order 26-227 for the flooding. CBS News reports Port St. Lucie streets underwater, a local state of emergency and widespread road closures.",
+            "status": "Official warnings in effect; state executive order issued",
+            "links": [
+              {
+                "url": "https://x.com/NWSMelbourne/status/2117355931671695626",
+                "label": "NWS Melbourne Flood Warning (verified)"
+              },
+              {
+                "url": "https://x.com/NWSMelbourne/status/2117362588438720539",
+                "label": "NWS Melbourne, Indian River and St. Lucie (verified)"
+              },
+              {
+                "url": "https://x.com/NWSMelbourne/status/2117387970189709462",
+                "label": "NWS Melbourne, warning extended to 8 PM (verified)"
+              },
+              {
+                "url": "https://x.com/FLSERT/status/2117365364250075340",
+                "label": "FL Division of Emergency Management on EO 26-227 (verified)"
+              },
+              {
+                "url": "https://x.com/CBSNews/status/2117471793187324222",
+                "label": "CBS News, Port St. Lucie flooding (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Maricopa County vote centers closed over power outages",
+            "location": "Laveen Elementary School District Office vote center (Nov 3); Paradise Community College and Sunset Canyon School vote centers (Nov 2); Maricopa County, AZ",
+            "type": "Election",
+            "summary": "On Election Day morning, Maricopa County Elections said the vote center at the Laveen Elementary School District Office is temporarily closed because of a power outage and pointed voters to nearby locations. On Nov 2, the county temporarily closed the Paradise Community College and Sunset Canyon School vote centers over power-related issues and reopened both that afternoon. Online claims of fraud or targeting have no official confirmation.",
+            "status": "Laveen vote center temporarily closed per Maricopa County Elections (posted about 7:52 AM ET); the Nov 2 closures were resolved",
+            "links": [
+              {
+                "url": "https://x.com/MaricopaVote/status/2117600851745263809",
+                "label": "Maricopa County Elections: Laveen closure (verified)"
+              },
+              {
+                "url": "https://x.com/MaricopaVote/status/2117287200891314567",
+                "label": "Maricopa County Elections closure notice (verified)"
+              },
+              {
+                "url": "https://x.com/MaricopaVote/status/2117322101174718879",
+                "label": "Maricopa County Elections reopening (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Suspect arrested in Fairfield Spirit Halloween store shooting",
+            "location": "Fairfield, CA",
+            "type": "Other",
+            "summary": "Police say a suspect was arrested in Friday's mass shooting inside a Spirit Halloween store in Fairfield. One woman was killed and six others were injured.",
+            "status": "Suspect in custody per police",
+            "links": [
+              {
+                "url": "https://x.com/nbcbayarea/status/2117391469229015241",
+                "label": "NBC Bay Area (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Flooding in northern Arizona",
+            "location": "Sedona, Oak Creek and Coconino County, Arizona, USA",
+            "type": "Infrastructure",
+            "summary": "Weekend storms flooded Oak Creek near Sedona and other parts of northern Arizona. The Arizona Emergency Information Network posted local assistance and road-hazard contacts for Coconino County, Flagstaff and Oak Creek. X News summaries report evacuations, road closures and a statewide emergency declaration, which were not confirmed in a linked official post.",
+            "status": "Under investigation",
+            "links": [
+              {
+                "url": "https://x.com/AzEIN/status/2117346006912180470",
+                "label": "Arizona Emergency Information Network (verified)"
+              },
+              {
+                "url": "https://x.com/sedonanews/status/2117354917522502025",
+                "label": "Sedona Red Rock News"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Learjet crash in Florida kills nine",
+            "location": "Florida, USA",
+            "type": "Other",
+            "summary": "A Learjet crashed in Florida on Sunday, killing all nine people on board. Investigators say the aircraft may have broken up before crashing and that finding the cause will take time.",
+            "status": "Under investigation",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2117419026494165373",
+                "label": "Reuters (verified)"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2117421503503622235",
+                "label": "Al Jazeera English (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Bexar County ballot scanner problems during early voting",
+            "location": "Bexar County (San Antonio), Texas, USA",
+            "type": "Election",
+            "summary": "KSAT reported that election judges said some ballots were placed in scanners' emergency compartments during scanner problems at Bexar County early voting sites. The county declined an interview and said it could not provide a statement. The number of affected sites and how long the problems lasted have not been officially confirmed.",
+            "status": "Early reports from local media; no official county statement",
+            "links": [
+              {
+                "url": "https://x.com/ksatnews/status/2115971971317997632",
+                "label": "KSAT 12"
+              },
+              {
+                "url": "https://x.com/dmills3710/status/2117338303297200411",
+                "label": "Post on X quoting KSAT reporting"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Two killed, two injured in Moss Landing beach shooting",
+            "location": "Moss Landing, Monterey County, California",
+            "type": "Other",
+            "summary": "The Monterey County Sheriff's Office says a shooting on Jetty Road just before 2:00 a.m. on Nov. 2 left two people dead and two others injured. The sheriff says there is no active threat to the community, and Jetty Road and Moss Landing State Beach are closed while detectives investigate.",
+            "status": "Official statement issued; motive and suspect not released",
+            "links": [
+              {
+                "url": "https://x.com/MCoSheriff/status/2117400804332327354",
+                "label": "Monterey County Sheriff's Office (official)"
+              },
+              {
+                "url": "https://x.com/ksbw/status/2117507612015051184",
+                "label": "KSBW Action News 8"
+              }
+            ]
+          }
+        ],
+        "Europe": [
+          {
+            "severity": "HIGH",
+            "title": "Second wave of cyberattacks on supermarket refrigeration",
+            "location": "At least seven European countries, including Belgium and Sweden",
+            "type": "Cyber",
+            "summary": "Grocery stores in at least seven European countries saw refrigerator temperatures soar on Monday, and several confirmed a cyberattack similar to one in France three weeks ago. In Belgium, about 40 stores across Delhaize, Carrefour, Spa and other chains were hit, with about €100,000 of food thrown away. BBC reports a huge amount of food dumped in dozens of supermarkets across several countries, and Xinhua says the method matches the October attack in France, where hackers remotely raised temperatures. Security researcher Lukasz Olejnik now lists confirmed victims in Sweden, Belgium, Ireland, Luxembourg, Estonia, the Netherlands, Finland, Portugal, Germany and Italy, with Poland and Romania suspected.",
+            "status": "Confirmed by several companies and major outlets; attribution unknown; spread to Portugal, Germany and Italy per one researcher, not yet confirmed by major outlets",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2117603788571672722",
+                "label": "Al Jazeera English (verified)"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2117400136443732005",
+                "label": "Reuters (verified)"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2117275578344620444",
+                "label": "Reuters (verified)"
+              },
+              {
+                "url": "https://x.com/AFP/status/2117292055458205949",
+                "label": "AFP"
+              },
+              {
+                "url": "https://x.com/BBCWorld/status/2117216490105561262",
+                "label": "BBC World (verified)"
+              },
+              {
+                "url": "https://x.com/euronews/status/2117217178671788238",
+                "label": "euronews (verified)"
+              },
+              {
+                "url": "https://x.com/BBCWorld/status/2117379176533463544",
+                "label": "BBC World update (verified)"
+              },
+              {
+                "url": "https://x.com/XHNews/status/2117359213055713618",
+                "label": "Xinhua"
+              },
+              {
+                "url": "https://x.com/lukOlejnik/status/2117515598766715178",
+                "label": "Lukasz Olejnik, security researcher"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Violent cost-of-living and anti-government protests",
+            "location": "France, Germany and Albania",
+            "type": "Unrest",
+            "summary": "On Oct 31, masked rioters looted shops in Frankfurt, and German police fired water cannons at youths throwing Molotov cocktails. In Paris and elsewhere in France, police fired tear gas as hundreds of thousands marched against living costs and police violence. In Tirana, protesters threw Molotov cocktails and paving stones at police. Swiss paper Tages-Anzeiger says the riots also reached Switzerland over the weekend, with protests in Zurich.",
+            "status": "Confirmed by major outlets; further marches possible",
+            "links": [
+              {
+                "url": "https://x.com/AFP/status/2116833844225585460",
+                "label": "AFP on Frankfurt"
+              },
+              {
+                "url": "https://x.com/AFP/status/2116606130642186469",
+                "label": "AFP on France"
+              },
+              {
+                "url": "https://x.com/SkyNews/status/2116647186721054939",
+                "label": "Sky News on Tirana (verified)"
+              },
+              {
+                "url": "https://x.com/tagesanzeiger/status/2117525332789981338",
+                "label": "Tages-Anzeiger"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Spyware alerts for German officials",
+            "location": "Germany",
+            "type": "Cyber",
+            "summary": "People who received the alerts were told to treat their phones as compromised. It is not yet known who is behind the attack or how many people were affected.",
+            "status": "Under investigation",
+            "links": [
+              {
+                "url": "https://x.com/euronews/status/2117206406801854699",
+                "label": "euronews (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Bomb threats hit several European flights",
+            "location": "Warsaw-Modlin and Warsaw Chopin airports, Poland; Murcia, Spain; Budapest, Hungary",
+            "type": "Terror",
+            "summary": "LOT Polish Airlines flight LO286 from London Heathrow diverted to Warsaw-Modlin after a reported bomb threat, landing at 09:00 UTC, and the airport was closed for checks. Reuters says Modlin has reopened and a second flight, from Copenhagen, was checked at Warsaw Chopin. A London–Bulgaria flight was diverted to Budapest on Nov 2 after a similar threat. A further threat to a Ryanair flight landing in Murcia, Spain, is reported by smaller accounts but wasn't confirmed by a major outlet this sweep.",
+            "status": "Modlin reopened per Reuters; no explosives reported found; threats under investigation",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2117602899983237143",
+                "label": "Reuters (verified)"
+              },
+              {
+                "url": "https://x.com/flightradar24/status/2117565188043936119",
+                "label": "Flightradar24"
+              },
+              {
+                "url": "https://x.com/SkyNews/status/2117257266076557813",
+                "label": "Sky News (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Poland deploys counterterrorism police near Kaliningrad",
+            "location": "Poland, near Russia's Kaliningrad exclave",
+            "type": "Other",
+            "summary": "Poland has deployed police counterterrorism units near the Kaliningrad border after intelligence warnings of possible sabotage in the coming days, the Kyiv Independent reports, citing Polish media.",
+            "status": "Early reports; no incident reported",
+            "links": [
+              {
+                "url": "https://x.com/KyivIndependent/status/2117494359667171823",
+                "label": "The Kyiv Independent"
+              }
+            ]
+          }
+        ],
+        "Russia": [
+          {
+            "severity": "HIGH",
+            "title": "Emergency alert apps in Ukraine and Russia hacked",
+            "location": "Ukraine and Russia",
+            "type": "Cyber",
+            "summary": "Ukraine and Russia both said their emergency alert apps had been hacked, sending false warnings about air raids and chemical and nuclear attacks. Russia said its app suffered a \"massive cyberattack\" on Monday, hours after Ukraine reported its own hack. In Ukraine the fake nuclear warning caused unease but not panic. Zelenskyy told PBS NewsHour that Ukraine targeted Russia's emergency alert systems in a retaliatory hack. Hackmanac reports the attacker exploited a flaw in the admin panel of the Russian Emergency Ministry app to push false alerts across 33 regions.",
+            "status": "Officially confirmed by both governments; Zelenskyy says Ukraine's hack of Russian alerts was retaliation",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2117299446622879904",
+                "label": "Reuters (verified)"
+              },
+              {
+                "url": "https://x.com/AFP/status/2117200952306401431",
+                "label": "AFP"
+              },
+              {
+                "url": "https://x.com/BBCWorld/status/2117325113724944470",
+                "label": "BBC World (verified)"
+              },
+              {
+                "url": "https://x.com/KyivIndependent/status/2117393380447568167",
+                "label": "Kyiv Independent: Zelenskyy confirms retaliation"
+              },
+              {
+                "url": "https://x.com/H4ckmanac/status/2117568340084318211",
+                "label": "Hackmanac (cyber threat tracker)"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "Russian bombing kills 29 at aid point in Komyshuvakha",
+            "location": "Komyshuvakha, Zaporizhzhia region, Ukraine",
+            "type": "Other",
+            "summary": "Zelenskyy said aerial bombs hit a school in Komyshuvakha where people were receiving humanitarian aid, followed by more bombs on the shelter where people were taking cover. Reuters reported 26 killed earlier, citing emergency services, and Zelenskyy now says the toll has risen to 29, with five injured and people still under the rubble.",
+            "status": "Toll rising; 29 killed per Zelenskyy; rescue continues under threat of repeat strikes",
+            "links": [
+              {
+                "url": "https://x.com/ZelenskyyUa/status/2117532744729100646",
+                "label": "Volodymyr Zelenskyy: toll 29 (verified)"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2117387558929760406",
+                "label": "Reuters: 26 killed (verified)"
+              },
+              {
+                "url": "https://x.com/ZelenskyyUa/status/2117301501098086698",
+                "label": "Zelenskyy: 18 killed, 5 injured (verified)"
+              },
+              {
+                "url": "https://x.com/KyivIndependent/status/2117332834360635555",
+                "label": "Kyiv Independent: 24 killed"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "Massive overnight Russian strike on Ukraine's power grid",
+            "location": "Odesa, Cherkasy, Zhytomyr, Vinnytsia, Kharkiv, Dnipro, Chernivtsi, Chernihiv and Rivne regions, Ukraine",
+            "type": "Infrastructure",
+            "summary": "President Zelenskyy says Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles overnight, mainly at power plants and substations across nine regions, and that emergency and unscheduled power outages are ongoing in many cities. He says a strike on a Kharkiv city clinical hospital injured 73 people and damaged its cardiology department. Anton Gerashchenko reports one person killed and at least 17 injured in Dnipro, and NOELreports lists the Ladyzhyn, Prydniprovska, Kryvorizka and Zmiivska thermal power plants as hit. The Kyiv Independent reports that Russian attacks across Ukraine killed 38 people and injured 158, and that a morning missile strike hit hospitals in Dnipro.",
+            "status": "Official statement issued by Ukraine's president; air raid alerts continuing; no Ukrenergo damage assessment found this sweep; customer outage counts not confirmed",
+            "links": [
+              {
+                "url": "https://x.com/KyivIndependent/status/2117597122618880050",
+                "label": "Kyiv Independent: 38 killed, 158 injured"
+              },
+              {
+                "url": "https://x.com/ZelenskyyUa/status/2117532744729100646",
+                "label": "Volodymyr Zelenskyy (verified)"
+              },
+              {
+                "url": "https://x.com/Gerashchenko_en/status/2117535562831708286",
+                "label": "Anton Gerashchenko"
+              },
+              {
+                "url": "https://x.com/NOELreports/status/2117529171534471361",
+                "label": "NOELreports"
+              },
+              {
+                "url": "https://x.com/KyivIndependent/status/2117464904437551545",
+                "label": "Kyiv Independent"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Ukrainian drone strike reported on Yaroslavl oil refinery",
+            "location": "Yaroslavl, Yaroslavl Oblast, Russia",
+            "type": "Infrastructure",
+            "summary": "The Kyiv Independent reports that Ukraine struck the Slavneft-YANOS oil refinery in Yaroslavl with drones overnight on Nov. 3, with residents reporting several fires at the facility, citing Ukrainian monitoring channels. OSINT accounts posted video of fires in the industrial zone, and the independent Russian outlet ASTRA reported explosions in the area. Russian officials had not confirmed damage or casualties at the time of this sweep. Kyiv Post reports the Slavneft-owned refinery caught fire after the drone attack.",
+            "status": "Early reports; no official Russian statement yet",
+            "links": [
+              {
+                "url": "https://x.com/KyivIndependent/status/2117449739298087053",
+                "label": "The Kyiv Independent"
+              },
+              {
+                "url": "https://x.com/Exilenova_plus/status/2117432212434092070",
+                "label": "Exilenova+ (OSINT)"
+              },
+              {
+                "url": "https://x.com/thetect0nic/status/2117450908732653594",
+                "label": "The Tectonic (citing ASTRA)"
+              },
+              {
+                "url": "https://x.com/KyivPost/status/2117499074676949333",
+                "label": "Kyiv Post"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Ukrainian drone strike reported on Samara oil facility",
+            "location": "Prosvet, Samara Oblast, Russia",
+            "type": "Infrastructure",
+            "summary": "Ukrainian monitoring channels reported that Ukrainian drones struck the Samara Linear Production and Dispatch Station in Prosvet overnight. Kazakhstan reportedly suspended oil pumping through the Atyrau-Samara pipeline after the attack on the Samara hub, with its Energy Ministry cited via TASS.",
+            "status": "Strike reported by Ukrainian channels; Kazakh halt reported via TASS and market wires, not yet seen from major Western outlets",
+            "links": [
+              {
+                "url": "https://x.com/KyivIndependent/status/2117124712727826832",
+                "label": "Kyiv Independent"
+              },
+              {
+                "url": "https://x.com/WorldWarGlobal/status/2117321369402638573",
+                "label": "Post citing TASS on Kazakh halt (unverified account)"
+              },
+              {
+                "url": "https://x.com/zerohedge/status/2117278264058351804",
+                "label": "zerohedge headline"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Clashes at facility near Kyiv over detention reports",
+            "location": "Petropavlivska Borshchahivka, Kyiv Oblast, Ukraine",
+            "type": "Unrest",
+            "summary": "Hundreds of civilians gathered at an unmarked facility after unverified reports that mobilized men were being unlawfully held. Protesters attacked the facility and threw eggs, and police and the National Guard responded with tear gas and fired into the air. Military intelligence chief Kyrylo Budanov urged the crowd to disperse, saying there were no more hostages inside.",
+            "status": "Developing; detention allegations unverified; higher death claims online are unsupported",
+            "links": [
+              {
+                "url": "https://x.com/KyivIndependent/status/2117388745020239951",
+                "label": "Kyiv Independent"
+              },
+              {
+                "url": "https://x.com/nexta_tv/status/2117346763170365709",
+                "label": "NEXTA on Budanov"
+              }
+            ]
+          }
+        ],
+        "Middle East": [
+          {
+            "severity": "HIGH",
+            "title": "US strikes on Iran's Qeshm Island",
+            "location": "Qeshm Island, Strait of Hormuz, Iran",
+            "type": "Other",
+            "summary": "A US official told Reuters that the US carried out strikes on Iran's Qeshm Island in the Strait of Hormuz late Monday, Nov. 2. The Economic Times, citing The Wall Street Journal, says it is the latest in a series of limited, unpublicized US strikes in recent weeks. Iran's state news agency IRNA earlier reported five explosions on the island. Officials quoted in media describe the strike as a defensive response to Iranian surface-to-air fire on a US aircraft; CENTCOM has not issued a statement. An Israeli military spokesperson says Israel was not involved.",
+            "status": "Reported by Reuters, WSJ and Axios citing US officials, who describe limited self-defense strikes on an IRGC missile launcher; no official CENTCOM statement found; damage and casualties unknown",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2117592313639702894",
+                "label": "Al Jazeera English: Israel says not involved (verified)"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2117461536515964946",
+                "label": "Reuters citing US official (verified)"
+              },
+              {
+                "url": "https://x.com/EconomicTimes/status/2117457668939841922",
+                "label": "Economic Times citing WSJ"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2117413951872868843",
+                "label": "Al Jazeera English on explosions (verified)"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2117362769615823265",
+                "label": "Iran International English"
+              },
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2117497380127887593",
+                "label": "Al Arabiya English (verified)"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2117439277139169321",
+                "label": "Iran International English"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2117497044759630289",
+                "label": "Reuters (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Indian cargo dhow struck off Oman; one sailor killed",
+            "location": "Near Limah, Oman",
+            "type": "Other",
+            "summary": "India's shipping minister says the Indian vessel MSV AL JUSUFI, carrying 14 Indian seafarers, was struck by an unidentified aerial object near the Omani coast on Nov. 2. One crew member was killed and 13 were rescued by the Omani Coast Guard. India's foreign ministry condemned the attack and called continuing attacks on shipping in the region deeply concerning.",
+            "status": "Official statement issued; attacker not identified",
+            "links": [
+              {
+                "url": "https://x.com/sarbanandsonwal/status/2117465940392894483",
+                "label": "Sarbananda Sonowal, India's shipping minister (verified)"
+              },
+              {
+                "url": "https://x.com/ANI/status/2117500542549459219",
+                "label": "ANI (verified)"
+              },
+              {
+                "url": "https://x.com/ians_india/status/2117500290912141351",
+                "label": "IANS (verified)"
+              },
+              {
+                "url": "https://x.com/PTI_News/status/2117509805640417514",
+                "label": "Press Trust of India"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Tanker attacks in the Strait of Hormuz",
+            "location": "Strait of Hormuz",
+            "type": "Infrastructure",
+            "summary": "Iran's IRGC Navy now says three oil tankers exploded after hitting naval mines while transiting the Strait of Hormuz without Iranian permission, and claims the ships had switched off their navigation and identification systems; it earlier claimed two tankers hit mines. ADNOC's CEO said nearly one billion barrels have been drained from global inventories since the strait was disrupted. A navigational warning (NAVAREA IX 425/26) says the tug Selat Storm, involved in a security incident, has sunk west of Jazirat Um al Ghanam.",
+            "status": "IRGC claims reported by Al Jazeera and Reuters; no independent maritime or government confirmation of the latest three tankers; flags and casualties unknown",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2117573338088268099",
+                "label": "Al Jazeera English on new IRGC claim (verified)"
+              },
+              {
+                "url": "https://x.com/clashreport/status/2117561157330596110",
+                "label": "Clash Report"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2117051608190144626",
+                "label": "Reuters on IRGC claim (verified)"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2117298188193616098",
+                "label": "Reuters on ADNOC (verified)"
+              },
+              {
+                "url": "https://x.com/CocoPostel/status/2117499099914084803",
+                "label": "Post Open Source (verified)"
+              },
+              {
+                "url": "https://x.com/live_ais_com/status/2117492462885470424",
+                "label": "Live-AIS.com"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Israeli operation around Hebron",
+            "location": "Hebron, West Bank",
+            "type": "Unrest",
+            "summary": "Israel launched a large-scale operation around Hebron after a shooting attack killed two soldiers. Palestinians have returned home to survey the damage. Reuters now reports Israeli troops have withdrawn and displaced Palestinians are returning.",
+            "status": "Troops withdrawn per Reuters; stabilizing",
+            "links": [
+              {
+                "url": "https://x.com/SkyNews/status/2117279238592016428",
+                "label": "Sky News (verified)"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2117368710839050293",
+                "label": "Reuters on withdrawal (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Unconfirmed report of explosion at British Embassy in Baghdad",
+            "location": "Baghdad, Iraq",
+            "type": "Other",
+            "summary": "Iran's Tasnim News Agency reported explosions heard inside the British Embassy in Baghdad. Other accounts describe a roadside device hitting a diplomatic vehicle instead. No official confirmation, casualties or damage details have been seen.",
+            "status": "Single-source and unconfirmed",
+            "links": [
+              {
+                "url": "https://x.com/DeItaone/status/2117267706890367249",
+                "label": "Walter Bloomberg citing Tasnim"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Houthis claim drone strikes on Saudi Arabia's Dammam airport",
+            "location": "Dammam and Jizan, Saudi Arabia",
+            "type": "Other",
+            "summary": "Houthi military spokesman Yahya Saree claimed drone attacks over the past 48 hours on Dammam airport, which he said disrupted air traffic, and on military targets in Jizan. The Saudi-led coalition said air defenses intercepted two drones over the Riyadh region, with no damage or casualties disclosed. The Houthi claims about Dammam have not been independently confirmed.",
+            "status": "Unconfirmed claims; coalition statement on Riyadh interceptions",
+            "links": [
+              {
+                "url": "https://x.com/TheObserverLens/status/2117293520042250635",
+                "label": "Post on X (Houthi claim)"
+              },
+              {
+                "url": "https://x.com/NuclearID68/status/2117313648120992112",
+                "label": "Post on X (coalition statement)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Unexplained explosion in Iraq's Diyala province",
+            "location": "Diyala province, Iraq",
+            "type": "Other",
+            "summary": "Faytuks Network reports an explosion on the outskirts of Diyala that was reportedly heard in neighboring Salah al-Din, with locals describing intense military aircraft activity. Security officials told Iraqi Sabereen News the cause and nature of the blast are unknown.",
+            "status": "Early reports; cause unknown; no official statement",
+            "links": [
+              {
+                "url": "https://x.com/FaytuksNetwork/status/2117531018005463184",
+                "label": "Faytuks Network"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Israeli air strike kills police officers near Khan Younis",
+            "location": "Khan Younis, southern Gaza",
+            "type": "Other",
+            "summary": "Gaza's interior ministry says an Israeli air strike killed and wounded several police officers near Khan Younis. The number of casualties wasn't given.",
+            "status": "Single-sided claim (Gaza interior ministry) reported by Al Jazeera; no Israeli military comment found this sweep",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2117573775680242052",
+                "label": "Al Jazeera English (verified)"
+              }
+            ]
+          }
+        ],
+        "Africa": [
+          {
+            "severity": "MEDIUM",
+            "title": "Power failure at Mapleton pumping station cuts water to six Gauteng-area municipalities",
+            "location": "Ekurhuleni, Tshwane (Pretoria), Lesedi, Govan Mbeki, Victor Khanye and Thembisile Hani municipalities, South Africa",
+            "type": "Infrastructure",
+            "summary": "Rand Water says a City of Ekurhuleni electricity failure at its Mapleton Pumping Station in Boksburg has caused water outages in six municipalities, including the Ekurhuleni and Tshwane metros. As of 09:00 local time Rand Water said pumping remained interrupted and no restoration time had been given. The City of Ekurhuleni later said the Mapleton substation was energised to 50% capacity as repairs continue.",
+            "status": "Official statements issued by Rand Water and the City of Ekurhuleni; partial power restored; water supply still disrupted",
+            "links": [
+              {
+                "url": "https://x.com/Rand_Water/status/2117501597919920292",
+                "label": "Rand Water media statement"
+              },
+              {
+                "url": "https://x.com/Rand_Water/status/2117540322146418952",
+                "label": "Rand Water: pumping still interrupted"
+              },
+              {
+                "url": "https://x.com/City_Ekurhuleni/status/2117542835620880586",
+                "label": "City of Ekurhuleni: substation at 50% (verified)"
+              },
+              {
+                "url": "https://x.com/eNCA/status/2117531356339015754",
+                "label": "eNCA"
+              },
+              {
+                "url": "https://x.com/Newzroom405/status/2117535649372758202",
+                "label": "Newzroom Afrika (verified)"
+              },
+              {
+                "url": "https://x.com/IOL/status/2117542026895933632",
+                "label": "IOL News"
+              },
+              {
+                "url": "https://x.com/eNCA/status/2117554180852166705",
+                "label": "eNCA"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Bandits ambush police on Sokoto–Gusau highway",
+            "location": "Sokoto–Gusau highway, Zamfara State, Nigeria",
+            "type": "Terror",
+            "summary": "Suspected bandits ambushed police officers traveling from Sokoto to Zamfara State for special duty, killing at least five, according to New Telegraph. Local outlets report some officers were abducted and say police confirmed the attack.",
+            "status": "Confirmed by police, per local reports",
+            "links": [
+              {
+                "url": "https://x.com/NewTelegraphNIG/status/2117295948657561715",
+                "label": "New Telegraph Nigeria (verified)"
+              },
+              {
+                "url": "https://x.com/preshworldnews/status/2117408681415356708",
+                "label": "Presh World News"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Explosion at Metafrique Steel plant in Douala",
+            "location": "Douala, Cameroon",
+            "type": "Infrastructure",
+            "summary": "An explosion at the Metafrique Steel plant killed at least four people and severely burned 16, the regional governor said. The cause is under investigation.",
+            "status": "Official toll from regional governor; cause under investigation",
+            "links": [
+              {
+                "url": "https://x.com/Africa_lix/status/2117318633676222866",
+                "label": "Africalix (verified)"
+              },
+              {
+                "url": "https://x.com/cgtnafrica/status/2117317512044159289",
+                "label": "CGTN Africa"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Johannesburg water crisis",
+            "location": "Johannesburg, South Africa",
+            "type": "Infrastructure",
+            "summary": "Residents and civic activists planned a protest outside Johannesburg Water's head office, and the Joburg Crisis Alliance is threatening legal action against the city over unreliable water supply. The mayor says intensified technical work is beginning to improve supply.",
+            "status": "Ongoing",
+            "links": [
+              {
+                "url": "https://x.com/JHBWater/status/2117247510653616557",
+                "label": "Johannesburg Water"
+              },
+              {
+                "url": "https://x.com/SABCNews/status/2117184942010667136",
+                "label": "SABC News"
+              },
+              {
+                "url": "https://x.com/eNCA/status/2117243519815315494",
+                "label": "eNCA"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "'Tinubu Must Go' protests in Gusau",
+            "location": "Gusau, Zamfara State, Nigeria",
+            "type": "Unrest",
+            "summary": "Largely peaceful protests over insecurity and hardship were reported in Gusau.",
+            "status": "From X News summaries; no X post linked"
+          },
+          {
+            "severity": "MONITORING",
+            "title": "MK Party organiser shot dead before KZN local elections",
+            "location": "Umzumbe, KwaZulu-Natal, South Africa",
+            "type": "Unrest",
+            "summary": "MK Party regional organiser Lastborn Shazi was shot dead at his home in Umzumbe during preparations for South Africa's local government elections. KZN police spokesperson Col. Robert Netshiunda appealed for calm and asked the public to give police space to investigate the murder.",
+            "status": "Police investigating; no arrests reported",
+            "links": [
+              {
+                "url": "https://x.com/Newzroom405/status/2117513960995881424",
+                "label": "Newzroom Afrika (verified)"
+              },
+              {
+                "url": "https://x.com/SABCNews/status/2117561660349030869",
+                "label": "SABC News"
+              },
+              {
+                "url": "https://x.com/brieflyza/status/2117530777395355986",
+                "label": "Briefly News"
+              }
+            ]
+          }
+        ],
+        "South America": [
+          {
+            "severity": "HIGH",
+            "title": "Truck bomb near military base in Planadas, Colombia",
+            "location": "Planadas, Colombia",
+            "type": "Terror",
+            "summary": "A truck bomb detonated near a military base in Planadas, killing four people, including a two-month-old girl, an official said. The blast heavily damaged a hospital, a school and several homes.",
+            "status": "Confirmed by officials and major outlets; no claim of responsibility seen",
+            "links": [
+              {
+                "url": "https://x.com/BBCWorld/status/2117239134091718991",
+                "label": "BBC World (verified)"
+              },
+              {
+                "url": "https://x.com/EuroPostAgency/status/2117226170676851174",
+                "label": "EuroPost Agency"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Drone attack kills two soldiers in Colombia's Chocó",
+            "location": "Rural Chocó department, Colombia",
+            "type": "Terror",
+            "summary": "DW Español reports two soldiers were killed and five wounded in a drone attack in a rural area of Chocó. It is the second explosives attack in Colombia in under 24 hours, after the Planadas truck bomb.",
+            "status": "Reported by an established outlet; no claim of responsibility seen",
+            "links": [
+              {
+                "url": "https://x.com/dw_espanol/status/2117483634420580720",
+                "label": "DW Español"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Security breach halts Brazil's Mercado Bitcoin exchange",
+            "location": "Brazil",
+            "type": "Cyber",
+            "summary": "Mercado Bitcoin, one of Brazil's largest crypto exchanges, said it identified and contained a security incident in one of its systems overnight and suspended deposits and withdrawals as a precaution. In a later update it put the assets involved at about US$38 million and said about US$11 million had been frozen with partners including Tether and Circle. The exchange says customers will not lose assets and no data was leaked; services remained suspended with no restart time given.",
+            "status": "Official statement issued; services suspended",
+            "links": [
+              {
+                "url": "https://x.com/MercadoBitcoin/status/2117239507263132056",
+                "label": "Mercado Bitcoin official statement"
+              },
+              {
+                "url": "https://x.com/MercadoBitcoin/status/2117395630150795543",
+                "label": "Mercado Bitcoin update"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Protesters block Morón–Coro highway over power failures",
+            "location": "Morón–Coro highway, Venezuela",
+            "type": "Unrest",
+            "summary": "Caraota Digital reports residents blocked the Morón–Coro highway in another protest over electrical failures, demanding answers from authorities.",
+            "status": "Single-source local report",
+            "links": [
+              {
+                "url": "https://x.com/CaraotaDigital/status/2117507679124086801",
+                "label": "Caraota Digital"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Colombian police say they foiled a bomb attack on a Pan-American Highway toll",
+            "location": "Nariño, Colombia, near the Ecuador border",
+            "type": "Terror",
+            "summary": "UHN Plus reports that Colombia's president said police foiled an attack on a toll station on the Pan-American Highway in Nariño and found 117 kilos of explosives.",
+            "status": "Single source this sweep; no post from Colombian police or the presidency found on X",
+            "links": [
+              {
+                "url": "https://x.com/UHN_Plus/status/2117597686194946203",
+                "label": "UHN Plus (verified)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Explosion and fire at Zulia substation reported to cut power",
+            "location": "Federación substation, Ciudad Ojeda, Zulia, Venezuela",
+            "type": "Power Outage",
+            "summary": "An activist account reports a loud explosion followed by a fire at the Federación electrical substation in Ciudad Ojeda, leaving parts of Zulia without power. Scale and cause aren't known.",
+            "status": "Early reports; single non-official source; no statement from Corpoelec found",
+            "links": [
+              {
+                "url": "https://x.com/JPActivista/status/2117578415691727205",
+                "label": "Jonatan Palacios (unverified account)"
+              }
+            ]
+          }
+        ]
+      },
+      "threats": [
+        {
+          "severity": "MONITORING",
+          "title": "UK warns of AI-powered attack on critical infrastructure",
+          "location": "United Kingdom",
+          "type": "Cyber",
+          "summary": "The UK's National Cyber Security Centre said Britain should be prepared for an AI-powered cyberattack on its critical national infrastructure within two years, and named China as likely the best equipped, per Reuters.",
+          "status": "Official assessment; no specific incident",
+          "links": [
+            {
+              "url": "https://x.com/Reuters/status/2117469330925400539",
+              "label": "Reuters (verified)"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "Record $6.3bn Binance hack",
+          "location": "Global",
+          "type": "Cyber",
+          "summary": "More than $6 billion in crypto assets were stolen from Binance in a hack the FBI blamed on North Korea, according to AFP. North Korea denies responsibility.",
+          "status": "Under investigation",
+          "links": [
+            {
+              "url": "https://x.com/BBCWorld/status/2117420969748750837",
+              "label": "BBC World (verified)"
+            },
+            {
+              "url": "https://x.com/AFP/status/2116972290764062848",
+              "label": "AFP"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "Linux kernel flaw CVE-2026-98432",
+          "location": "Global",
+          "type": "Cyber",
+          "summary": "The flaw remains unpatched on Ubuntu. Watch for exploitation.",
+          "status": "From X News summaries; no X post linked"
+        },
+        {
+          "severity": "MONITORING",
+          "title": "BTCPay Server hot wallets drained",
+          "location": "Global",
+          "type": "Cyber",
+          "summary": "About 18 BTC was reported drained from BTCPay Server hot wallets.",
+          "status": "From X News summaries; no X post linked"
+        },
+        {
+          "severity": "MONITORING",
+          "title": "Cyberattack at Spandana Sphoorty Financial",
+          "location": "India",
+          "type": "Cyber",
+          "summary": "India's Spandana Sphoorty Financial reported a cyberattack involving its bank account.",
+          "status": "Company-reported",
+          "links": [
+            {
+              "url": "https://x.com/Reuters/status/2117270575986946331",
+              "label": "Reuters (verified)"
+            }
+          ]
+        },
+        {
+          "title": "Unsupported 'coordinated attack' claims",
+          "summary": "Posts linking the DC outage, the EU fridge attacks and other outages as one coordinated event have no evidence. Treat them as separate incidents.",
+          "status": "Unverified"
+        },
+        {
+          "title": "Low-priority log",
+          "summary": "Fraud-framing posts about Maricopa vote centers and the San Diego registrar evacuation have no official support. Unverified posts claim the refrigeration attacks spread to 13 European countries and to US military installations. Unverified claims of a successful Iranian strike on a US base in Kuwait have no official confirmation. A 'Worldwide Alert' roundup from the Paul Gold Eagle account is drawing traction and mixes real events with unsupported claims. A claim from an account styled as a Bloomberg whistleblower that Russia hit six power plants and killed 32 has no credible support. Posts implying a Mesa vote center outage was deliberate have no official support. New this sweep: an unverified account's claim of a Jacksonville blackout has no JEA or media corroboration, and an unverified claim that 25 Florida polling places were relocated lacks an official source.",
+          "status": "Unverified; not elevated"
+        }
+      ]
+    },
+    {
       "datetime": "2026-11-03T06:00:00-05:00",
       "regions": {
         "America": [
