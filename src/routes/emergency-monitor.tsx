@@ -127,7 +127,7 @@ function visibleSections(e: LogEntry, f: Filter): [string, LogItem[]][] {
 function EmergencyMonitorPage() {
   const [filter, setFilter] = useState<Filter>("All");
   const shown = ENTRIES.filter((e) => visibleSections(e, filter).length > 0);
-  const stamp = new Date().toISOString().slice(0, 10);
+  const stamp = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" }); // YYYY-MM-DD in ET
   // Computed in the browser after load (the page is prebuilt), re-checked every minute.
   const [now, setNow] = useState<number | null>(null);
   useEffect(() => {
