@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,249 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-04",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Nov 3, Election Day) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched the article page's title or h1, Nov 3 ET publish date checked on the article page). Sources checked: RSS from ARLnow, FFXnow, ALXnow, Annandale Today, Potomac Local, Blue Ridge Leader, Loudoun Times-Mirror, the Loudoun County news flash, Patch (Leesburg, Ashburn, Reston, Fairfax, Arlington, Woodbridge), NBC Washington Northern Virginia, WUSA9 Virginia and WTOP, plus news.ts. 31 candidate pages checked; 4 failed verification (two WUSA9 pages, a Vienna Metro Commanders-fans story and a teen-driver manslaughter story, returned HTTP 403; two Patch pages, a Reston ballot drop box and an Ashburn indie game developer, returned a page with no readable headline or date), 2 were left out as unclear locality (a Loudoun Times-Mirror election-night timing guide and an ARLnow senior-living ratings item), and 25 were kept, which is the cap but did not force any cuts. Excluded as statewide, national or other locality: Virginia constitutional amendment explainers and results pieces (Loudoun Times-Mirror, Patch, WUSA9), Patch's region-wide congressional results page, Potomac Local's statewide Election Day overview, ALXnow (Alexandria), a Stafford sales-tax vote, a Falls Church city hiring story, a Maryland House race (WTOP) and an Attorney General release in news.ts. Gaps: Loudoun Now, Prince William Times and Fairfax Times feeds returned HTTP 429 twice; InsideNoVa's feed returned HTML instead of RSS; WTOP's Virginia feed returned HTML; the Loudoun County news flash had no Nov 3 posts; Prince William had only two qualifying items.",
+      "items": [
+        {
+          "id": "developing-arlington-democrats-cruise-arlnow-2026-11-03",
+          "county": "Arlington",
+          "headline": "DEVELOPING: Arlington Democrats cruise locally as party set to control Congress",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/03/developing-with-local-races-lopsided-arlington-democrats-watch-the-fight-for-congress/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "election-day-begins-smoothly-arlnow-2026-11-03",
+          "county": "Arlington",
+          "headline": "Election Day begins smoothly in Arlington after big early voting turnout",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/03/election-day-begins-smoothly-in-arlington-after-big-early-voting-turnout/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "clarendon-presbyterian-seeks-offers-arlnow-2026-11-03",
+          "county": "Arlington",
+          "headline": "Clarendon Presbyterian seeks offers for property after dropping redevelopment plans",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/03/clarendon-presbyterian-seeks-offers-for-property-after-dropping-redevelopment-plans/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "competing-factors-could-outpace-arlnow-2026-11-03",
+          "county": "Arlington",
+          "headline": "‘Competing factors’ could outpace Arlington’s tree canopy goal, forester warns",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/03/competing-factors-could-outpace-arlingtons-tree-canopy-goal-forester-warns/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "bonsai-sushi-closes-in-arlnow-2026-11-03",
+          "county": "Arlington",
+          "headline": "Bonsai Sushi closes in Crystal City, space listed for lease",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/03/bonsai-sushi-closes-in-crystal-city-space-listed-for-lease/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "new-japanesestyle-cafe-opening-arlnow-2026-11-03",
+          "county": "Arlington",
+          "headline": "New Japanese-style cafe opening inside Ryu Izakaya on Columbia Pike",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/03/new-japanese-style-cafe-coming-to-ryu-izakaya-on-columbia-pike/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "breaking-va-constitutional-amendments-ffxnow-2026-11-03",
+          "county": "Fairfax",
+          "headline": "BREAKING: Va. constitutional amendments pass, as Fairfax Congressmen win reelection",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/03/breaking-va-constitutional-amendments-pass-as-fairfax-incumbents-win-reelection/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-reports-steady-ffxnow-2026-11-03",
+          "county": "Fairfax",
+          "headline": "Fairfax County reports ‘steady’ voter turnout so far for Election Day 2026",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/03/fairfax-county-reports-steady-voter-turnout-so-far-for-election-day-2026/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-seeks-funding-to-ffxnow-2026-11-03",
+          "county": "Fairfax",
+          "headline": "County seeks funding to upgrade South Lakes Drive Park in Reston",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/03/county-seeks-funding-to-upgrade-south-lakes-drive-park-in-reston/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "conviction-upheld-for-man-ffxnow-2026-11-03",
+          "county": "Fairfax",
+          "headline": "Conviction upheld for man found guilty of shooting ex at Mount Vernon apartment",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/03/conviction-upheld-for-man-found-guilty-of-shooting-ex-at-mount-vernon-apartment/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "courthouse-plaza-redevelopment-heads-ffxnow-2026-11-03",
+          "county": "Fairfax",
+          "headline": "Courthouse Plaza redevelopment heads back to Fairfax City Council despite height concerns",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/03/height-concerns-remain-as-courthouse-plaza-redevelopment-heads-back-to-fairfax-city-council/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "mclean-art-gallery-welcomes-ffxnow-2026-11-03",
+          "county": "Fairfax",
+          "headline": "McLean Art Gallery welcomes new exhibit, prepares for 2027 closure",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/03/mclean-art-gallery-welcomes-new-exhibit-prepares-for-2027-closure/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "nandos-periperi-chicken-to-ffxnow-2026-11-03",
+          "county": "Fairfax",
+          "headline": "Nando’s Peri-Peri Chicken to open in Fairfax Corner with free food pop-up",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/03/nandos-peri-peri-chicken-to-open-in-fairfax-corner-with-free-food-pop-up/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "the-fairfax-womens-soccer-annandaletoday-2026-11-03",
+          "county": "Fairfax",
+          "headline": "The Fairfax Women’s Soccer Association celebrates its 50th anniversary",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/the-fairfax-womens-soccer-association-celebrates-its-50th-anniversary/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "sumbramanyan-reelected-to-congress-ltm-2026-11-03",
+          "county": "Loudoun",
+          "headline": "Sumbramanyan reelected to Congress",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/elections/sumbramanyan-reelected-to-congress/article_02e4bd72-5bdc-4c58-866c-9ae780c89894.html",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "rayner-ousts-bertaut-in-ltm-2026-11-03",
+          "county": "Loudoun",
+          "headline": "Rayner ousts Bertaut in Purcellville, Hornbaker reelected in Lovettsville",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/elections/rayner-ousts-bertaut-in-purcellville-hornbaker-reelected-in-lovettsville/article_83e65e8f-2ae9-4101-b2eb-61df26376c92.html",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-voters-approve-up-ltm-2026-11-03",
+          "county": "Loudoun",
+          "headline": "Loudoun voters approve up to $357 million in bonds for county projects",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/education/loudoun-voters-approve-up-to-357-million-in-bonds-for-county-projects/article_42255928-2e4f-41bd-ad21-da038be4bd8c.html",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "from-the-economy-to-ltm-2026-11-03",
+          "county": "Loudoun",
+          "headline": "From the economy to sidewalks, Loudoun voters on what matters to them this Election Day",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/elections/from-the-economy-to-sidewalks-loudoun-voters-on-what-matters-to-them-this-election-day/article_005d2893-a01a-4d30-8c32-49bd047c2337.html",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "busing-healthcare-mobile-health-ltm-2026-11-03",
+          "county": "Loudoun",
+          "headline": "Busing healthcare: Mobile health clinics will treat LCPS students, staff",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/education/busing-healthcare-mobile-health-clinics-will-treat-lcps-students-staff/article_ad2e9ed1-aa12-49e4-aa98-689e2e426983.html",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-continues-assistance-to-blueridgeleader-2026-11-03",
+          "county": "Loudoun",
+          "headline": "County Continues Assistance to Displaced Purcellville East Residents",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/county-continues-assistance-to-displaced-purcellville-east-residents/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "middleburg-lifts-mandatory-water-blueridgeleader-2026-11-03",
+          "county": "Loudoun",
+          "headline": "Middleburg Lifts Mandatory Water Restrictions, Encourages Conservation",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/middleburg-lifts-mandatory-water-restrictions-encourages-conservation/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "subramanyam-launches-federal-investigation-blueridgeleader-2026-11-03",
+          "county": "Loudoun",
+          "headline": "Subramanyam Launches Federal Investigation into Unsafe Conditions at Purcellville EastApartments",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/subramanyam-launches-federal-investigation-into-unsafe-conditions-at-purcellville-eastapartments/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "va10-race-heats-up-wjla-2026-11-03",
+          "county": "Loudoun",
+          "headline": "VA-10 race heats up as Subramanyam, Beckwith and Malik battle for House seat",
+          "outlet": "WJLA",
+          "url": "https://wjla.com/news/elections/va-10-race-heats-up-as-subramanyam-beckwith-malik-battle-for-house-seat-virginia-10th-district-congress-candidates-loudoun-fauquier-rappahannock",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "vindman-and-subramanyam-hold-potomaclocal-2026-11-03",
+          "county": "Prince William",
+          "headline": "Vindman and Subramanyam hold their seats in the 7th and 10th districts",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/03/vindman-subramanyam-hold-7th-and-10th-district-seats/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-16yearold-charged-potomaclocal-2026-11-03",
+          "county": "Prince William",
+          "headline": "Police Blotter: 16-Year-Old Charged in Crash That Killed Two Near Manassas; McDonald’s Worker Robbed in Woodbridge",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/03/police-blotter-2026-11-03/",
+          "published": "2026-11-03",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Loudoun Now feed: HTTP 429",
+        "Prince William Times feed: HTTP 429",
+        "Fairfax Times feed: HTTP 429",
+        "InsideNoVa feed: HTML, no items",
+        "WTOP Virginia feed: HTML instead of RSS",
+        "Loudoun County news flash: no Nov 3 posts",
+        "WUSA9 article pages: HTTP 403 (2 items unverified)",
+        "Patch article pages: no readable headline (2 items unverified)"
+      ]
+    },
     {
       "date": "2026-11-03",
       "status": "ok",
