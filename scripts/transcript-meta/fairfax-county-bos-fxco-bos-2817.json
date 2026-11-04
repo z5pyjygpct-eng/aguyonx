@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-2817.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2023-04-11-fairfax-county-board-of-supervisors-meeting",
+  "title": "Fairfax County Board of Supervisors Meeting, Tuesday, April 11, 2023",
+  "shortTitle": "Board of Supervisors Meeting \u00b7 Apr 11, 2023",
+  "date": "Tuesday, April 11, 2023",
+  "place": "Fairfax County Board of Supervisors, Virginia",
+  "length": "7h 10m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (Fairfax County)",
+      "href": "https://video.fairfaxcounty.gov/player/clip/2817"
+    },
+    {
+      "label": "Official Board of Supervisors page (Fairfax County)",
+      "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-11-04"
+}
