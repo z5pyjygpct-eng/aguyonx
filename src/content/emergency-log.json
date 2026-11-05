@@ -59,6 +59,14 @@
               {
                 "url": "https://x.com/HCSOSheriff/status/2118081226988790051",
                 "label": "HCSO media briefing on X"
+              },
+              {
+                "url": "https://x.com/WFLA/status/2118176488189210981",
+                "label": "WFLA on X"
+              },
+              {
+                "url": "https://x.com/WFLA/status/2118097117138841960",
+                "label": "WFLA HCSO timeline on X"
               }
             ]
           },
@@ -119,12 +127,12 @@
             ]
           },
           {
-            "severity": "MONITORING",
-            "title": "Spokane County, WA shooting: two civilians and one deputy dead; second deputy on life support",
+            "severity": "MEDIUM",
+            "title": "Spokane County, WA shooting: deputy killed responding to domestic call; second on life support",
             "location": "Spokane County (Spangle area), Washington, USA",
             "type": "Other",
-            "summary": "Officials announced Tuesday night that two civilians were killed and two Spokane County sheriff's deputies were critically injured in a shooting Tuesday afternoon. The suspect is dead. The incident is over and there is no indication of a wider threat; motive and details have not been released in the posts reviewed. Update, 8 PM ET: KOMO News reports one of the deputies has died and the second remains on life support.",
-            "status": "Confirmed by officials; one deputy dead and second on life support per KOMO News; incident over",
+            "summary": "Spokane County deputies responding to a domestic call near Spangle were ambushed. One deputy has died and a second remains on life support and is not expected to survive, per Seattle Times and other outlets. Reporting puts overall dead at about four including the suspect; two civilians were also killed. The incident is over; agencies continue aftermath coverage.",
+            "status": "Confirmed LODD; second deputy critical per Seattle Times/KOMO/Fox; incident over",
             "links": [
               {
                 "url": "https://x.com/komonews/status/2118129241053184214",
@@ -141,6 +149,18 @@
               {
                 "url": "https://x.com/WBC24News/status/2117898957367939546",
                 "label": "WBC24 (verified)"
+              },
+              {
+                "url": "https://x.com/seattletimes/status/2118218753397711085",
+                "label": "Seattle Times on X"
+              },
+              {
+                "url": "https://x.com/FOX13News/status/2118229372687540484",
+                "label": "FOX13 News on X"
+              },
+              {
+                "url": "https://x.com/fox5dc/status/2118202929307926708",
+                "label": "Fox 5 DC on X"
               }
             ]
           },
