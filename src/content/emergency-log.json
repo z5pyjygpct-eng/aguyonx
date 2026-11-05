@@ -577,13 +577,21 @@
             ]
           },
           {
-            "severity": "MONITORING",
-            "title": "Chicago polling places run out of ballots; long lines",
+            "severity": "MEDIUM",
+            "title": "Chicago Board of Elections admits coding error caused ballot shortages",
             "location": "Chicago, IL (including Logan Square)",
             "type": "Election",
-            "summary": "Block Club Chicago reports voters spent hours in line as polling places across the city ran out of ballots. Earlier, an AP reporter said a Logan Square polling place ran out of ballots twice, with poll workers saying they received about 50 of the ballots needed for one precinct that morning. Aggregator posts claim six more sites ran short and that extra ballots were printed, but no Chicago Board of Elections statement was found on X this sweep.",
-            "status": "Reported by Block Club Chicago and an on-scene AP reporter; no Chicago Board of Elections statement found on X; polls closed at 7 p.m. CT",
+            "summary": "Block Club Chicago reports the Chicago Board of Election Commissioners admitted a \"coding error\" caused ballot shortages and long waits on Election Day (Nov. 3). A local I-Team report says the Board confirmed a technical error spanning multiple locations, does not yet know how widespread shortages were, and declined on-camera interviews. Earlier reporting (Block Club, AP on scene) documented hours-long lines and sites running out of ballots, including Logan Square.",
+            "status": "Official Board admission of coding/technical error; scope of shortages still being assessed; polls closed Nov. 3",
             "links": [
+              {
+                "url": "https://x.com/Jstar5151/status/2118353351792304363",
+                "label": "J-Star I-Team: Board confirms technical error"
+              },
+              {
+                "url": "https://x.com/BlockClubCHI/status/2118334808887570694",
+                "label": "Block Club Chicago: BoE coding error"
+              },
               {
                 "url": "https://x.com/BlockClubCHI/status/2117761327296844118",
                 "label": "Block Club Chicago"
@@ -1526,6 +1534,36 @@
         "Russia": [
           {
             "severity": "MEDIUM",
+            "title": "Main gas pipeline explosion and fire in Topkinsky district, Kemerovo",
+            "location": "Topki / Topkinsky district, Kemerovo Oblast, Russia (Siberia)",
+            "type": "Infrastructure",
+            "summary": "On Nov. 5 a main gas transmission pipeline in the Topkinsky municipal district suffered depressurization, followed by a powerful explosion and large fire. Regional Governor Ilya Seredyuk confirmed the fire; later reports say the blaze was extinguished. Multiple accounts note this is the second major Russian trunk-pipeline fire in about a month (after a Penza-region incident around Oct. 13). Cause remains unclear; sabotage is speculated in some posts but not proven.",
+            "status": "Confirmed by regional governor; fire reported extinguished; cause under investigation / unclear",
+            "links": [
+              {
+                "url": "https://x.com/KyivPost/status/2118355411493376097",
+                "label": "KyivPost: governor confirms fire"
+              },
+              {
+                "url": "https://x.com/visegrad24/status/2118354104422633735",
+                "label": "Visegrád 24 (verified)"
+              },
+              {
+                "url": "https://x.com/front_ukrainian/status/2118354871199904070",
+                "label": "MilitaryNewsUA: Topki depressurization"
+              },
+              {
+                "url": "https://x.com/CGTNEurope/status/2118331470607429853",
+                "label": "CGTN Europe: Russian reports"
+              },
+              {
+                "url": "https://x.com/Maks_NAFO_FELLA/status/2118350927052562548",
+                "label": "MAKS 26: pipeline fire video"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
             "title": "Water outages across all Kyiv districts after emergency power cuts at the city water utility",
             "location": "Kyiv, Ukraine",
             "type": "Infrastructure",
@@ -2007,8 +2045,8 @@
             "title": "Ukrainian drone strike sets Ryazan oil refinery on fire",
             "location": "Ryazan, Russia",
             "type": "Infrastructure",
-            "summary": "Overnight Nov 4–5, several OSINT accounts reported the Rosneft-owned Ryazan refinery, one of Russia's largest (~17 million metric tons/year), on fire after a Ukrainian drone attack, with locals citing explosions and air-defense activity. Exilenova+ posted night footage of several industrial fires. Update, midnight ET Nov 5: FinancialJuice and First Squawk report Russian authorities say drones struck industrial facilities in Ryazan, setting fires; The Kyiv Independent reports the Rosneft Ryazan refinery was targeted; Ukrainian OSINT accounts also claim a nearby Wildberries/logistics site burned. No official Russian damage assessment found on X; the plant was reportedly also hit on October 15.",
-            "status": "Authorities acknowledge fires at Ryazan industrial sites per market wires; Kyiv Independent corroborates refinery targeting; damage extent unknown; Ukraine reported to have confirmed the strike (LiveSquawk)",
+            "summary": "Overnight Nov 4–5, Ukrainian drones hit the Rosneft Ryazan oil refinery (~340,000 b/d, ~5% of Russian refining; supplies Moscow fuels including military). Governor Pavel Malkov reported 200+ drones in the region; fires at industrial sites were reported contained. Morning Nov 5 update: additional OSINT video of a large refinery fire circulated (Jay in Kyiv, MilitaryNewsUA, verified Post Open Source/CocoPostel); X News and secondary posts cite Reuters video analysis tying the fire to the plant. Framed as the fifth major Russian refinery hit in about seven days. Damage extent still unclear.",
+            "status": "Attack and fire corroborated by OSINT video, governor drone-wave report, and secondary cites of Reuters analysis; official Russian damage assessment still limited; plant previously hit Oct. 15",
             "links": [
               {
                 "url": "https://x.com/LiveSquawk/status/2118260304882888762",
@@ -2045,6 +2083,18 @@
               {
                 "url": "https://x.com/WCLNews247/status/2118145949990109309",
                 "label": "World Conflict Live 24/7 (earlier report)"
+              },
+              {
+                "url": "https://x.com/JayinKyiv/status/2118344388455661995",
+                "label": "Jay in Kyiv: Ryazan wave + refinery fire"
+              },
+              {
+                "url": "https://x.com/front_ukrainian/status/2118341541773324554",
+                "label": "MilitaryNewsUA: strike video"
+              },
+              {
+                "url": "https://x.com/CocoPostel/status/2118337339995156605",
+                "label": "CocoPostel (verified): fire footage"
               }
             ]
           },
@@ -2556,6 +2606,20 @@
           }
         ],
         "Africa": [
+          {
+            "severity": "MONITORING",
+            "title": "SAF airstrike hits residential area and water facility in North Kordofan",
+            "location": "North Kordofan, Sudan",
+            "type": "Other",
+            "summary": "The Sudan Times, citing The Emergency Lawyers, reports a Sudanese Armed Forces aircraft bombed a residential area and a vital water facility in North Kordofan, killing at least two women and injuring about 10 others. The group accused SAF of repeatedly targeting civilians and essential infrastructure.",
+            "status": "Single-outlet report citing Emergency Lawyers; limited independent corroboration this sweep",
+            "links": [
+              {
+                "url": "https://x.com/thesudantimes/status/2118351000952029476",
+                "label": "The Sudan Times"
+              }
+            ]
+          },
           {
             "severity": "MONITORING",
             "title": "Two killed near voting stations after South Africa's local elections",
@@ -3266,7 +3330,7 @@
       },
       "threats": [
         {
-          "text": "8:00–10:00 AM ET sweep: no NEW HIGH alerts vs the 8:00 AM ET entry. Material updates: Reuters confirms ≥25 European flights hit by hoax bomb threats with fighter escorts (Europe MEDIUM, was lower count); France Nov. 5 strikes escalate with Lyon tear gas/water cannons (Europe MEDIUM); Komyshuvakha aid-point strike toll now 43 with one survivor found (Russia HIGH, was 42); Iranian Navy claims additional Hormuz tanker mine fires (Middle East MEDIUM, unconfirmed). Continuing: Crédit Mutuel Arkéa ~€100–118M cyber theft; supermarket/blood-bank refrigeration cyber; Kyiv water/power; Sunset Park Brooklyn fire; Spokane deputy shooting. Election watch: no new confirmed polling-place outages or equipment failures meeting the bar this window; post–Nov. 3 fraud speculation ignored. Ignored: conspiracy framing of Europe cyber+aviation as a single coordinated war, uncorroborated worldwide-blackout claims."
+          "text": "8:00–10:00 AM ET sweep (+ late corroboration pass): no NEW HIGH alerts vs the 8:00 AM ET entry. Added: Kemerovo/Topki main gas pipeline explosion-fire (Russia MEDIUM; governor-confirmed, fire extinguished, cause unclear); Chicago BoE coding-error admission for Nov. 3 ballot shortages (America MEDIUM, was MONITORING); North Kordofan SAF airstrike on residential/water site (Africa MONITORING). Strengthened: Ryazan Rosneft refinery fire (Russia MEDIUM) with morning OSINT video and secondary Reuters-analysis cites. Also noted earlier this window: Reuters ≥25 Europe bomb-threat flights; France Lyon tear gas/water cannons; Komyshuvakha toll 42–43; Hormuz tanker mine claims. Watching (not elevated): Rawalakot AJK security clearance of sit-ins with contested casualty claims and recycled drone imagery; CERT-In CRAFTY FALCON advisory on AI-driven bank/fintech/crypto campaigns (sector alert, not a confirmed mega-breach today). Ignored: Brazil Sistel dump brag; Houthi Taiz casualty misfires; election-fraud laundry lists without official confirmation; conspiracy framing."
         },
         {
           "text": "6:00–8:00 AM ET sweep: no NEW HIGH alerts vs the 6:00 AM ET entry. New: Amman stabbing that Jordan calls a terrorist attack (MEDIUM, Middle East); tanker hit by two projectiles north of Qatar per UKMTO (MEDIUM, Middle East); water outages across Kyiv after power cuts at the water utility (MEDIUM, Russia); Sunset Park, Brooklyn house fire kills six (MONITORING, America). Updated: Komyshuvakha toll now 42 with 33 missing per National Police; Ukraine reported to confirm the Ryazan refinery strike. Election watch: no new US polling-place or election-office disruption reports this window. Ignored: viral 'Simpsons blackout on Nov 17' prediction (fictional clip) and posts tying ballot shortages or outages to cheating without evidence."
