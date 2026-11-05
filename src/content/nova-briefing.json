@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,249 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-05",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Nov 4) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched the article page title or h1, Nov 4 ET publish date checked on the article page or the outlet homepage card). Sources checked: RSS from ARLnow, FFXnow, ALXnow, Annandale Today, Potomac Local, Blue Ridge Leader, Loudoun County news flash, Patch (Leesburg, Ashburn, Reston, Fairfax, Arlington, Woodbridge), NBC Washington Northern Virginia, WUSA9 Virginia, WTOP local, Fairfax Times, plus Loudoun Now / Loudoun Times-Mirror / Prince William Times homepages (their RSS returned HTTP 429 on first try; Loudoun Now RSS recovered on retry), and news.ts. 40 candidate pages checked; 3 failed verification (WUSA9 Fairfax teen crash returned HTTP 403; Patch Reston polling-places and Patch Ashburn Loudoun bonds pages returned no readable headline), and 25 were kept at the cap (soft features and duplicate Prince William Times race write-ups of Potomac Local clips already verified were left out to stay at 25). Excluded as statewide, national or other locality: ALXnow (Alexandria), Falls Church-only ARLnow items, Annandale Today statewide blue-wave piece, constitutional-amendment and Warner statewide results (WUSA9, WTOP, PWT alert, LTM/Potomac Local statewide), Dominion-NextEra merger (LTM), sponsored Indigo McLean open-house, Morning Notes/Daily Debriefs, real-estate listing roundups, and NBC Washington items whose feed dates were not reliably Nov 4. Gaps: Loudoun Times-Mirror and Prince William Times RSS HTTP 429 (homepages used instead); InsideNoVa feed HTML; WTOP Virginia feed HTML; Blue Ridge Leader had no Nov 4 posts; Loudoun County news flash had only civic alerts; Fairfax Times feed was mostly wire press releases.",
+      "items": [
+        {
+          "id": "historic-tsunami-of-democratic-arlnow-2026-11-04",
+          "county": "Arlington",
+          "headline": "‘Historic tsunami’ of Democratic wins in Congress raises hopes for Arlington leaders",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/04/historic-tsunami-of-blue-wins-in-congress-raises-hopes-for-arlington-democrats/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-leaders-want-a-arlnow-2026-11-04",
+          "county": "Arlington",
+          "headline": "Arlington leaders want a say in the future of Waymo in Virginia",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/04/arlington-leaders-want-a-say-in-the-future-of-waymo-in-virginia/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-stepping-up-traffic-arlnow-2026-11-04",
+          "county": "Arlington",
+          "headline": "Police stepping up traffic enforcement in Arlington Ridge and Rosslyn next week",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/04/police-stepping-up-traffic-enforcement-in-arlington-ridge-and-rosslyn-next-week/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "former-langston-blvd-hair-arlnow-2026-11-04",
+          "county": "Arlington",
+          "headline": "Former Langston Blvd hair salon is demolished for single-family homes",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/04/former-langston-blvd-hair-salon-is-demolished-for-single-family-homes/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "from-food-truck-to-arlnow-2026-11-04",
+          "county": "Arlington",
+          "headline": "From food truck to future restaurant: El Alfa Taqueria finds its home in Arlington",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/04/from-food-truck-to-future-restaurant-el-alfa-taqueria-finds-its-home-in-arlington-aed1/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "sushi2go-rebranding-as-wasab-arlnow-2026-11-04",
+          "county": "Arlington",
+          "headline": "Sushi2Go rebranding as ‘WasaB’ after renovations in Ballston",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/04/sushi2go-rebranding-as-wasab-after-renovations-in-ballston/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "breaking-teen-critically-injured-ffxnow-2026-11-04",
+          "county": "Fairfax",
+          "headline": "BREAKING: Teen critically injured in crash outside Chantilly High School",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/04/breaking-teen-critically-injured-in-crash-outside-chantilly-high-school/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-election-turnout-ffxnow-2026-11-04",
+          "county": "Fairfax",
+          "headline": "Fairfax County election turnout matches last midterms, as Va. joins national Trump backlash",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/04/fairfax-county-election-turnout-matches-last-midterms-as-va-joins-national-trump-backlash/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-city-elects-democraticendorsed-ffxnow-2026-11-04",
+          "county": "Fairfax",
+          "headline": "Fairfax City elects Democratic-endorsed mayor, keeps three incumbents on council",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/04/fairfax-city-elects-democratic-endorsed-mayor-keeps-three-incumbents-on-council/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "newcomers-nearly-sweep-herndon-ffxnow-2026-11-04",
+          "county": "Fairfax",
+          "headline": "Newcomers nearly sweep Herndon Town Council election, signaling desire for change",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/04/newcomers-nearly-sweep-herndon-town-council-election-signaling-desire-for-change/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "chantilly-man-accused-of-ffxnow-2026-11-04",
+          "county": "Fairfax",
+          "headline": "Chantilly man accused of killing wife set to face trial next year",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/04/chantilly-man-accused-of-killing-wife-set-to-face-trial-next-year/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-proposes-new-ffxnow-2026-11-04",
+          "county": "Fairfax",
+          "headline": "Fairfax County proposes new polling sites, boundary changes for 2027 elections",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/04/fairfax-county-proposes-new-polling-sites-boundary-changes-for-2027-elections/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "townhouses-approved-for-the-ffxnow-2026-11-04",
+          "county": "Fairfax",
+          "headline": "Townhouses approved for The Mile in Tysons, as developer agrees to speed up park delivery",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/04/townhouses-approved-for-the-mile-in-tysons-as-developer-agrees-to-speed-up-park-delivery/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "pedestrian-safety-advocates-call-ffxnow-2026-11-04",
+          "county": "Fairfax",
+          "headline": "Pedestrian safety advocates call for Route 7 lighting, crossings review based on new study",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/04/pedestrian-safety-advocates-call-for-route-7-lighting-crossings-review-based-on-new-study/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "purcellville-voters-pick-new-loudounnow-2026-11-04",
+          "county": "Loudoun",
+          "headline": "Purcellville Voters Pick New Path for Town’s Future",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/purcellville-voters-pick-new-path-for-town-s-future/article_059f48fe-a58c-495d-a9ce-4338aa563c82.html",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "linn-elected-as-hamilton-loudounnow-2026-11-04",
+          "county": "Loudoun",
+          "headline": "Linn Elected as Hamilton Mayor, Vance Reelected in Hillsboro",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/linn-elected-as-hamilton-mayor-vance-reelected-in-hillsboro/article_fc69cd1b-faf7-4b76-8a5f-22612dcaf272.html",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "hornbaker-cites-power-lines-loudounnow-2026-11-04",
+          "county": "Loudoun",
+          "headline": "Hornbaker Cites Power Lines, Comprehensive Plan, Town Manager as Next Term Priorities",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/hornbaker-cites-power-lines-comprehensive-plan-town-manager-as-next-term-priorities/article_e1830805-0cd7-43ec-bdea-78c620ec0e0e.html",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "subramanyam-looks-to-second-loudounnow-2026-11-04",
+          "county": "Loudoun",
+          "headline": "Subramanyam Looks to Second Term with Democratic Majority",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/subramanyam-looks-to-second-term-with-democratic-majority/article_a41b5186-1b6c-4caf-b2ed-7482b3b947ca.html",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lcps-healthworks-celebrate-mobile-loudounnow-2026-11-04",
+          "county": "Loudoun",
+          "headline": "LCPS, HealthWorks Celebrate Mobile Medical Care Launch",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/lcps-healthworks-celebrate-mobile-medical-care-launch/article_cb6a62ac-dcc6-4fe1-88f2-79c682b1de74.html",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "faith-giving-circle-would-ltm-2026-11-04",
+          "county": "Loudoun",
+          "headline": "'Faith giving circle' would help shelter homeless families this winter",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/faith-giving-circle-would-help-shelter-homeless-families-this-winter/article_938b6b48-7910-42ac-b7ef-b7ebe90e1e0d.html",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "read-the-room-initiative-ltm-2026-11-04",
+          "county": "Loudoun",
+          "headline": "Read the room: Initiative aims to hook Sterling Middle School students on reading",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/education/read-the-room-initiative-aims-to-hook-sterling-middle-school-students-on-reading/article_40b05660-e028-4818-8e48-866168f5e976.html",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "judge-halts-order-calling-pwt-2026-11-04",
+          "county": "Prince William",
+          "headline": "Judge halts order calling for Prince William schools to rehire ousted teachers union president",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/judge-halts-order-calling-for-prince-william-schools-to-rehire-ousted-teachers-union-president/article_8afd2f65-3456-47cc-a956-72c28a5aa472.html",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "brescia-says-manassas-school-potomaclocal-2026-11-04",
+          "county": "Prince William",
+          "headline": "Brescia says Manassas School Board race not conceded; recount possible after certification",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/04/brescia-says-manassas-school-board-race-not-conceded-recount-possible/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-man-robbed-potomaclocal-2026-11-04",
+          "county": "Prince William",
+          "headline": "Police Blotter: Man Robbed at Gunpoint in Social Media Sale Near Manassas; School Employee Charged After Boy Pushed in Gym Class",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/04/police-blotter-2026-11-04/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-voters-unseat-sole-potomaclocal-2026-11-04",
+          "county": "Prince William",
+          "headline": "Manassas voters unseat sole Republican on City Council",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/04/manassas-voters-unseat-sole-republican-on-city-council/",
+          "published": "2026-11-04",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Loudoun Times-Mirror feed: HTTP 429 (homepage used)",
+        "Prince William Times feed: HTTP 429 (homepage used)",
+        "InsideNoVa feed: HTML, no items",
+        "WTOP Virginia feed: HTML instead of RSS",
+        "Blue Ridge Leader: no Nov 4 posts",
+        "WUSA9 article page: HTTP 403 (1 item unverified)",
+        "Patch article pages: no readable headline (2 items unverified)",
+        "Fairfax Times feed: wire press releases only, no local news"
+      ]
+    },
     {
       "date": "2026-11-04",
       "status": "ok",
