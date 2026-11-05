@@ -1028,6 +1028,36 @@
           },
           {
             "severity": "MEDIUM",
+            "title": "Aer Lingus EI402 Dublin–Rome diverted to French military base after bomb alert",
+            "location": "Évreux-Fauville Air Base, Normandy, France (Dublin–Rome route)",
+            "type": "Other",
+            "summary": "An Airbus A320 on Aer Lingus flight EI402 from Dublin to Rome was diverted to Évreux-Fauville military air base after a bomb alert. Al Arabiya English and TRT World Now, citing the French prime minister’s office, confirmed the diversion and said authorities were monitoring in real time. AIRLIVE and First Squawk reported the same. No confirmed device or casualties in cited posts; the incident follows a recent wave of European aviation bomb-hoax diversions. A claim that Rome Fiumicino closed is single-source and unverified here.",
+            "status": "Active / developing; French PM’s office monitoring; no device confirmed in cited posts",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2118266414461034841",
+                "label": "Al Arabiya English (verified)"
+              },
+              {
+                "url": "https://x.com/TRTWorldNow/status/2118266337927823677",
+                "label": "TRT World Now (verified)"
+              },
+              {
+                "url": "https://x.com/airlivenet/status/2118266082876182950",
+                "label": "AIRLIVE"
+              },
+              {
+                "url": "https://x.com/FirstSquawk/status/2118267304232529984",
+                "label": "First Squawk"
+              },
+              {
+                "url": "https://x.com/MarioNawfal/status/2118266111317700635",
+                "label": "Mario Nawfal"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
             "title": "Cyberattack enabled fraudulent transactions at French bank Crédit Mutuel Arkéa",
             "location": "Brittany, France",
             "type": "Cyber",
@@ -1257,7 +1287,7 @@
             "title": "Bomb threats hit several European flights",
             "location": "Warsaw-Modlin and Warsaw Chopin airports, Poland; Murcia, Spain; Budapest, Hungary",
             "type": "Terror",
-            "summary": "Bomb threats have now hit at least six passenger flights to Poland, Spain, Bulgaria and Italy. LOT flight LO286 from London diverted to Warsaw-Modlin, and Reuters says Modlin has since reopened. Two Ryanair flights to Rome Fiumicino, from Dublin and Lisbon, were escorted by Italian Air Force jets and searched after landing. Searches so far have found no explosives. The Daily Mail now reports the threats have spread, with multiple flights, including three from the UK, forced to make emergency landings.",
+            "summary": "Bomb threats have now hit at least six passenger flights to Poland, Spain, Bulgaria and Italy. LOT flight LO286 from London diverted to Warsaw-Modlin, and Reuters says Modlin has since reopened. Two Ryanair flights to Rome Fiumicino, from Dublin and Lisbon, were escorted by Italian Air Force jets and searched after landing. Searches so far have found no explosives. The Daily Mail now reports the threats have spread, with multiple flights, including three from the UK, forced to make emergency landings. Overnight into Nov. 5, Aer Lingus EI402 (Dublin–Rome) was diverted to Évreux-Fauville after a bomb alert, with the French PM’s office confirming the diversion.",
             "status": "No explosives found per reports so far; threats under investigation; no attribution",
             "links": [
               {
@@ -1291,6 +1321,10 @@
               {
                 "url": "https://x.com/SkyNews/status/2117257266076557813",
                 "label": "Sky News"
+              },
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2118266414461034841",
+                "label": "Al Arabiya English (verified)"
               }
             ]
           },
@@ -2978,7 +3012,7 @@
       },
       "threats": [
         {
-          "text": "Overnight 2:00–4:00 AM ET sweep: no NEW HIGH alerts vs the 2:00 AM ET entry. New/updated: northern Georgia flash floods and water rescues (MEDIUM, America); France nationwide Nov. 5 strikes (MEDIUM, Europe); Crédit Mutuel Arkéa ~$133M loss confirmation (Europe MEDIUM update); Kyiv worst water outage of the war cascading from Nov. 3 grid strikes (Russia HIGH power-grid update); Spokane deputy death confirmed overnight. Election watch: no new polling-place disruption reports after polls closed. Ignored: viral '15-country bank hack' compilation posts and unverified Aiwanger death claims."
+          "text": "Overnight 2:00–4:00 AM ET sweep: no NEW HIGH alerts vs the 2:00 AM ET entry. New/updated: northern Georgia flash floods and water rescues (MEDIUM, America); France nationwide Nov. 5 strikes (MEDIUM, Europe); Crédit Mutuel Arkéa ~$133M loss confirmation (Europe MEDIUM update); Kyiv worst water outage of the war cascading from Nov. 3 grid strikes (Russia HIGH power-grid update); Spokane deputy death confirmed overnight. Election watch: no new polling-place disruption reports after polls closed. Ignored: viral '15-country bank hack' compilation posts and unverified Aiwanger death claims; post-publish amend: Aer Lingus EI402 bomb-alert diversion to Évreux (MEDIUM, Europe; French PM’s office via Al Arabiya/TRT)."
         },
         {
           "severity": "MEDIUM",
