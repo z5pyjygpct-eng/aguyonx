@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/pwc-schools/transcripts/pwc-sb-l0XjROWCxlo.json",
+  "outBase": "public/files/find-the-moment/pwc-schools/transcripts/coraggio-transcript-pwc-schools-2023-03-08-prince-william-county-school-board-work-session",
+  "title": "Prince William County School Board Work Session, Wednesday, March 8, 2023",
+  "shortTitle": "School Board Work Session \u00b7 Mar 8, 2023",
+  "date": "Wednesday, March 8, 2023",
+  "place": "Prince William County School Board, Virginia",
+  "length": "1h 13m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=l0XjROWCxlo"
+    },
+    {
+      "label": "Official School Board page (PWCS)",
+      "href": "https://www.pwcs.edu/about/school_board/"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-11-04"
+}

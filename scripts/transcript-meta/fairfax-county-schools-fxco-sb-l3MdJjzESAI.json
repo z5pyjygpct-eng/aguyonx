@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-l3MdJjzESAI.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2023-02-09-fairfax-county-school-board-meeting",
+  "title": "Fairfax County School Board Meeting, Thursday, February 9, 2023",
+  "shortTitle": "School Board Meeting \u00b7 Feb 9, 2023",
+  "date": "Thursday, February 9, 2023",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "5h 29m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=l3MdJjzESAI"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-11-04"
+}
