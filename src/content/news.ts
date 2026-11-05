@@ -56,6 +56,37 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "loudoun-supervisors-vote-board-salaries-30-loudounnow-2026-11-04",
+    date: "2026-11-04",
+    filed: "2026-11-05",
+    headline: "Loudoun supervisors set to vote on plan to raise board salaries 30%",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/supervisors-set-to-vote-on-plan-to-raise-board-salaries-30/article_5ab0ef0c-5475-42da-8c4c-2945a7796c98.html",
+    people: [],
+    scope: "local",
+    locations: ["loudoun"],
+  },
+  {
+    id: "nextera-dominion-merger-hearings-begin-vamercury-2026-11-05",
+    date: "2026-11-05",
+    filed: "2026-11-05",
+    headline: "Public hearings for the NextEra-Dominion merger have begun. Here’s what you need to know.",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/05/public-hearings-for-the-nextera-dominion-merger-have-begun-heres-what-you-need-to-know/",
+    people: [],
+    scope: "statewide",
+  },
+  {
+    id: "virginia-voters-split-1-sales-tax-schools-vamercury-2026-11-05",
+    date: "2026-11-05",
+    filed: "2026-11-05",
+    headline: "Virginia voters split on 1% sales tax for school construction",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/05/virginia-voters-split-on-1-sales-tax-for-school-construction/",
+    people: [],
+    scope: "statewide",
+  },
+  {
     id: "historic-tsunami-of-democratic-arlnow-2026-11-04",
     date: "2026-11-04",
     filed: "2026-11-05",
