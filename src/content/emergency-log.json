@@ -154,12 +154,24 @@
           },
           {
             "severity": "MEDIUM",
-            "title": "Flash flooding and water rescues across northern Georgia",
-            "location": "Fannin, Gilmer, Whitfield counties, GA (Blue Ridge, McCaysville, Dalton, Ellijay)",
+            "title": "Flash Flood Emergency in McCaysville/Copperhill; record Toccoa crest, 30+ rescues",
+            "location": "McCaysville, GA / Copperhill, TN (Toccoa/Ocoee); Fannin, Gilmer, Whitfield counties, GA",
             "type": "Infrastructure",
-            "summary": "NWS Atlanta issued continuing Flash Flood Warnings overnight for Chatsworth, Ellijay and Blue Ridge through 5:00 AM EST after heavy rain. Fannin County EMA relayed the warning. WSB-TV and OSINT accounts report ongoing water rescues, flooded streets in Dalton and Blue Ridge, and downtown McCaysville businesses inundated. A flash flood emergency covered southern Fannin and northern Gilmer counties earlier overnight.",
-            "status": "Active flooding; rescues underway; warnings extended overnight",
+            "summary": "A Flash Flood Emergency covered McCaysville, Georgia, and Copperhill, Tennessee, as the Toccoa River hit a record crest over 18 feet Thursday morning. FOX Weather drone video shows downtown inundation; AlertMedia reports at least 30 people rescued in McCaysville with evacuations and access routes closed; FOX Chattanooga reports swiftwater crews active. This escalates the northern Georgia flooding already logged overnight.",
+            "status": "Flash Flood Emergency; dozens of rescues; damage assessment underway",
             "links": [
+              {
+                "url": "https://x.com/foxweather/status/2118448278064816258",
+                "label": "FOX Weather: McCaysville drone, 18+ ft crest"
+              },
+              {
+                "url": "https://x.com/alertmedia/status/2118448328169947296",
+                "label": "AlertMedia: 30+ rescues, state of emergency"
+              },
+              {
+                "url": "https://x.com/FOX_Chattanooga/status/2118441675789902086",
+                "label": "FOX Chattanooga: Copperhill/McCaysville rescues"
+              },
               {
                 "url": "https://x.com/NWSAtlanta/status/2118245741822976148",
                 "label": "NWS Atlanta (verified)"
@@ -997,9 +1009,13 @@
             "title": "Flash flooding on Florida's Space and Treasure Coasts",
             "location": "Brevard, Indian River and St. Lucie Counties, FL",
             "type": "Infrastructure",
-            "summary": "NWS Melbourne reported 16 to 22 inches of rain in parts of Brevard County, with a Flood Warning until 9:30 PM ET. New Flash Flood Warnings cover parts of Indian River and St. Lucie Counties until 8 PM ET after 4 to 10 inches of rain. Governor DeSantis signed Executive Order 26-227 for the flooding. CBS News reports Port St. Lucie streets underwater, a local state of emergency and widespread road closures. Update, 8 PM ET: World Central Kitchen says historic flooding in Barefoot Bay has isolated communities, left residents without power and stranded families in their homes.",
-            "status": "Official warnings in effect; state executive order issued",
+            "summary": "NWS Melbourne reported 16 to 22 inches of rain in parts of Brevard County, with a Flood Warning until 9:30 PM ET. New Flash Flood Warnings cover parts of Indian River and St. Lucie Counties until 8 PM ET after 4 to 10 inches of rain. Governor DeSantis signed Executive Order 26-227 for the flooding. CBS News reports Port St. Lucie streets underwater, a local state of emergency and widespread road closures. Update, 8 PM ET: World Central Kitchen says historic flooding in Barefoot Bay has isolated communities, left residents without power and stranded families in their homes. Rep. Scott Franklin (verified) says Gov. DeSantis expanded Florida's fall flooding state of emergency to add counties including Okeechobee, Glades and Hendry after his request, extending resources to more flooded communities.",
+            "status": "Official warnings in effect; state executive order issued; state of emergency expanded to additional counties",
             "links": [
+              {
+                "url": "https://x.com/RepFranklin/status/2118446437449228712",
+                "label": "Rep. Franklin (verified): EO expanded"
+              },
               {
                 "url": "https://x.com/NWSMelbourne/status/2117355931671695626",
                 "label": "NWS Melbourne Flood Warning (verified)"
@@ -1129,9 +1145,17 @@
             "title": "Nationwide strikes and marches across France on Nov. 5",
             "location": "France (Paris and cities nationwide)",
             "type": "Unrest",
-            "summary": "CBS News reports more than 600,000 people took to the streets across France on Thursday in the country's largest day of demonstrations in years, with workers, students and unions demanding higher wages and better public services. Sky News (verified) reports further disruption and a general strike after weeks of student protests. Tear gas and clashes were reported in Paris and Lyon; the Interior Ministry figure of roughly 600,000 is cited across outlets. This continues the Nov. 5 strike wave already logged.",
+            "summary": "CBS News and Sky News report more than 600,000 people took to the streets across France on Thursday (Interior Ministry), the largest day since September; the CGT union claims nearly 1.6 million. Channel 4 News and TRT World (verified) corroborate Interior vs union headcounts, with riot-police charges in Paris, fringe violence near schools, and injuries from firework mortars. Workers, students and unions demanded higher wages and better public services amid rising living costs.",
             "status": "Confirmed large nationwide turnout; Sky News and CBS News coverage; clashes in major cities",
             "links": [
+              {
+                "url": "https://x.com/Channel4News/status/2118431938734072130",
+                "label": "Channel 4 News: 600k govt / 1.6M unions"
+              },
+              {
+                "url": "https://x.com/trtworld/status/2118440837847683465",
+                "label": "TRT World (verified): Interior ~600k"
+              },
               {
                 "url": "https://x.com/CBSNews/status/2118443487423037851",
                 "label": "CBS News (verified): 600,000+ nationwide"
@@ -1257,9 +1281,21 @@
             "title": "Second wave of cyberattacks on supermarket refrigeration",
             "location": "Across Europe, including Belgium, Sweden, Germany, Romania and the UK",
             "type": "Cyber",
-            "summary": "Grocery stores in at least seven European countries saw refrigerator temperatures soar on Monday, and several confirmed a cyberattack similar to one in France three weeks ago. In Belgium, about 40 stores across Delhaize, Carrefour, Spa and other chains were hit, with about €100,000 of food thrown away. BBC reports a huge amount of food dumped in dozens of supermarkets across several countries, and Xinhua says the method matches the October attack in France, where hackers remotely raised temperatures. Security researcher Lukasz Olejnik now lists confirmed victims in Sweden, Belgium, Ireland, Luxembourg, Estonia, the Netherlands, Finland, Portugal, Germany and Italy, with Poland and Romania suspected. Sky News reports a top UK security official says the attacks have also affected the UK meat processing industry. Reuters now reports European supermarkets rushing to patch vulnerabilities, and Channel 4 News says GCHQ is alerting UK companies that could be at risk. AFP reports Germany, Romania and the UK joined the list of countries hit on Tuesday, and Sky News reports new warnings from the UK AI minister and the National Cyber Security Centre. The Hindu now puts the attack at 11 European countries, with store temperatures pushed as high as 50°C, and notes the attackers appear to seek disruption rather than ransom. Update, 8 PM ET: a market-news account relays a headline that Ahold Delhaize has cut its profit forecast after a cyber attack; the company statement and its link to the refrigeration wave were not confirmed on X this sweep.",
-            "status": "Confirmed by several companies and major outlets; UK meat processing impact reported by Sky News; attribution unknown",
+            "summary": "FBI Cyber Branch and FBI San Diego (verified), with CISA, HHS, USDA and DOT, issued a joint fact sheet today warning that industrial refrigeration and cold-chain monitoring systems are being targeted globally across critical infrastructure, putting food and medicine inventory at risk. This follows the second wave of European supermarket refrigeration cyberattacks already logged as HIGH, plus the French EFS blood-service cold-storage intrusion via contractor Coolworld. The National (verified) covers who may be behind European blood-bank and supermarket cold-storage attacks. Organizations are urged to apply the mitigations and report suspicious activity to the FBI.",
+            "status": "Official US multi-agency fact sheet issued Nov 5; ongoing global targeting of refrigeration OT; European supermarket/blood-bank incidents previously confirmed",
             "links": [
+              {
+                "url": "https://x.com/FBICyberBranch/status/2118388213555290487",
+                "label": "FBI Cyber Branch (verified): refrigeration fact sheet"
+              },
+              {
+                "url": "https://x.com/FBISanDiego/status/2118448467689218071",
+                "label": "FBI San Diego (verified): same advisory"
+              },
+              {
+                "url": "https://x.com/TheNationalNews/status/2118440944370602330",
+                "label": "The National (verified): Europe cold-storage attacks"
+              },
               {
                 "url": "https://x.com/AFP/status/2117873258666000536",
                 "label": "AFP: Germany, Romania and UK hit"
@@ -2190,8 +2226,20 @@
             "location": "Amman, Jordan",
             "type": "Terror",
             "summary": "Jordan's Public Security Directorate says Corporal Jawad Ali Khalaf Al-Salaytah was killed and a second security officer injured when an attacker struck them with a sharp weapon in Amman on Thursday, and it described the incident as a terrorist attack. Al Jazeera English and other outlets report the suspect was arrested. No motive or affiliation has been released.",
-            "status": "Official PSD statement issued, relayed by Anadolu, AlMamlaka and Roya News; suspect arrested",
+            "status": "Official terror designation; suspect in custody; regional MFA condemnations",
             "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2118423100433867126",
+                "label": "Al Jazeera English (verified)"
+              },
+              {
+                "url": "https://x.com/The_NewArab/status/2118430707001315755",
+                "label": "The New Arab (verified)"
+              },
+              {
+                "url": "https://x.com/kuna_en/status/2118435264947163594",
+                "label": "KUNA English (verified): Kuwait condemns"
+              },
               {
                 "url": "https://x.com/anadoluagency/status/2118310581748826331",
                 "label": "Anadolu (verified): PSD calls it terrorist attack"
