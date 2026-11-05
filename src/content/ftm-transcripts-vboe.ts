@@ -1431,6 +1431,26 @@ export const VBOE_FTM_TRANSCRIPTS: FtmTranscript[] = [
     generated: "2026-10-26",
     sourceFile: "vboe-qZ239POaKFM.srt",
   },
+  {
+    meetingId: "vboe-COnQGrgBtsw",
+    venue: "va-boe",
+    url: "/files/find-the-moment/va-boe/transcripts/vboe-COnQGrgBtsw.json",
+    windowCount: 225,
+    wordCount: 16324,
+    engine: "whisper.cpp \u00b7 large-v3-turbo",
+    generated: "2026-11-05",
+    sourceFile: "vboe-COnQGrgBtsw.srt",
+  },
+  {
+    meetingId: "vboe-P2m7OZiEvpA",
+    venue: "va-boe",
+    url: "/files/find-the-moment/va-boe/transcripts/vboe-P2m7OZiEvpA.json",
+    windowCount: 462,
+    wordCount: 38618,
+    engine: "whisper.cpp \u00b7 large-v3-turbo",
+    generated: "2026-11-05",
+    sourceFile: "vboe-P2m7OZiEvpA.srt",
+  },
 ];
 
 /** Coraggio transcript downloads (PDF + text) per VBOE meeting id. */
@@ -1576,4 +1596,6 @@ export const VBOE_TRANSCRIPT_DOWNLOADS: Record<string, { pdfUrl: string; txtUrl:
   "vboe-kAoe4aJil40": { pdfUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2024-02-05-lab-schools-standing-committee.pdf", txtUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2024-02-05-lab-schools-standing-committee.txt" },
   "vboe-_m_wh0bQEXE": { pdfUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-08-27-special-committee-on-standards-of-accreditation.pdf", txtUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-08-27-special-committee-on-standards-of-accreditation.txt" },
   "vboe-qZ239POaKFM": { pdfUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-05-07-business-meeting.pdf", txtUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2020-05-07-business-meeting.txt" },
+  "vboe-COnQGrgBtsw": { pdfUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-10-29-business-meeting.pdf", txtUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-10-29-business-meeting.txt" },
+  "vboe-P2m7OZiEvpA": { pdfUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-10-28-work-session-part-2.pdf", txtUrl: "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-10-28-work-session-part-2.txt" },
 };

@@ -3,6 +3,123 @@ import type { VboeRecap } from "./vboe-recaps";
 
 export const VBOE_RECAPS: VboeRecap[] = [
  {
+  "slug": "2026-10-29-business-meeting",
+  "meetingId": "vboe-COnQGrgBtsw",
+  "date": "2026-10-29",
+  "title": "Business Meeting",
+  "dateLabel": "Oct 29, 2026",
+  "whenWhere": "Virginia Board of Education · Business Meeting · video 2h 14m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-10-29-business-meeting.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-10-29-business-meeting.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Nov 5, 2026",
+   "note": "Votes unavailable: no official VDOE minutes found for this meeting.",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 578,
+    "label": "Call to order",
+    "quote": "Good morning. It is, excuse me, it is 9am and I will call this meeting to order. As is customary for this board, we will begin with a moment of silence, followed by the Pledge of Allegiance."
+   },
+   {
+    "seconds": 689,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 2219,
+    "label": "Public comment period",
+    "quote": "people another language another lens on the world is greatly appreciated we will now transition to the public comment portion of our meeting as stated in the board's bylaws it is a pleasure of the …"
+   },
+   {
+    "seconds": 3244,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 3481,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   },
+   {
+    "seconds": 6995,
+    "label": "Presentation or new topic begins",
+    "quote": "year and I know that there's a lot of concern about many schools that were identified as TSI was because special education populations and so I love the focus on support and that we're thinking if we …"
+   },
+   {
+    "seconds": 8036,
+    "label": "Motion and vote. See the official minutes for the recorded result."
+   }
+  ],
+  "context": []
+ },
+ {
+  "slug": "2026-10-28-work-session-part-2",
+  "meetingId": "vboe-P2m7OZiEvpA",
+  "date": "2026-10-28",
+  "title": "Work Session (Part 2)",
+  "dateLabel": "Oct 28, 2026",
+  "whenWhere": "Virginia Board of Education · Work Session (Part 2) · video 5h 21m · VDOE YouTube",
+  "transcriptDownloads": {
+   "pdfUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-10-28-work-session-part-2.pdf",
+   "txtUrl": "/files/find-the-moment/va-boe/transcripts/coraggio-transcript-va-boe-2026-10-28-work-session-part-2.txt"
+  },
+  "official": {
+   "votesPosted": false,
+   "checkedLabel": "Nov 5, 2026",
+   "note": "Votes unavailable: no official VDOE minutes found for this meeting.",
+   "links": []
+  },
+  "decisions": [],
+  "agenda": [],
+  "moments": [
+   {
+    "seconds": 128,
+    "label": "Video begins"
+   },
+   {
+    "seconds": 243,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 978,
+    "label": "Presentation or new topic begins",
+    "quote": "Before he comes to the podium, I'm going to turn it over to Superintendent Conway. Wonderful. Thank you all, and good morning. I am pleased to introduce your Secretary of Education, Dr. …"
+   },
+   {
+    "seconds": 2612,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 4287,
+    "label": "Recess or reconvene"
+   },
+   {
+    "seconds": 7420,
+    "label": "Presentation or new topic begins",
+    "quote": "come back to our work session and up next is item b the presentation on back to school tour with that wonderful thank you president ashton um as secretary smith noted we had the opportunity to do a …"
+   },
+   {
+    "seconds": 7942,
+    "label": "Presentation or new topic begins",
+    "quote": "morning. And we'll hopefully hear from us as well later this afternoon. But these ideas around expanded early learning, cultivating great educators, and equipping our students with the resources that …"
+   },
+   {
+    "seconds": 8869,
+    "label": "Presentation or new topic begins",
+    "quote": "So with that, I'm going to turn it over to Grace to lead you through the rest of the slides. Well, thank you, Chief Boy, for that introduction, and thank you to the members of the board for allowing …"
+   },
+   {
+    "seconds": 19241,
+    "label": "Adjournment"
+   }
+  ],
+  "context": []
+ },
+ {
   "slug": "2026-09-24-business-meeting",
   "meetingId": "vboe-xkwuQo_1YiA",
   "date": "2026-09-24",

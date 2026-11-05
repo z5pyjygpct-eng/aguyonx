@@ -48,7 +48,9 @@ SLUG_KEEP = {"vboe-XLY0vCLSzmg": "2022-09-14-work-session", "vboe-hUyPAkWm6FI": 
 # committee, May 7 2020 business meeting). None are hand-matched to Town Hall minutes yet, so no minutes attach (votesPosted false).
 NEW_1026 = set(["vboe-sNdct5jUNZM", "vboe-mgKbMnJeUzU", "vboe-kAoe4aJil40", "vboe-_m_wh0bQEXE", "vboe-qZ239POaKFM"])
 NOMAP_1024 |= set(["vboe-qZ239POaKFM"])
-def CHK(m): return "Oct 26, 2026" if m["id"] in NEW_1026 else "Oct 24, 2026" if m["id"] in NOMAP_1024 else ("Oct 23, 2026" if m["date"] < "2025-03-01" else "Oct 22, 2026")
+# Added 2026-11-05: Oct 28 (Work Session Part 2) and Oct 29, 2026 (Business Meeting). Minutes not yet on Town Hall (votesPosted false).
+NEW_1105 = set(["vboe-COnQGrgBtsw", "vboe-P2m7OZiEvpA"])
+def CHK(m): return "Nov 5, 2026" if m["id"] in NEW_1105 else "Oct 26, 2026" if m["id"] in NEW_1026 else "Oct 24, 2026" if m["id"] in NOMAP_1024 else ("Oct 23, 2026" if m["date"] < "2025-03-01" else "Oct 22, 2026")
 
 def tally(t):
     if re.search(r"voted unanimously", t, re.I): return "Carried unanimously"
