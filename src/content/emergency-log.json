@@ -49,11 +49,11 @@
             ]
           },
           {
-            "severity": "MONITORING",
+            "severity": "MEDIUM",
             "title": "House fire in Brooklyn's Sunset Park kills six, injures seven including three firefighters",
             "location": "58th Street, Sunset Park, Brooklyn, New York City, USA",
             "type": "Other",
-            "summary": "A three-alarm fire tore through a home on 58th Street in Sunset Park early Thursday, killing six people and injuring seven others, three of them firefighters, according to ABC7 New York and Gothamist. Update, 10 AM ET: Gothamist reiterates six killed and seven injured; Mayor Zohran Mamdani praised FDNY efforts and urged fire-safety precautions. Cause under investigation; lithium-ion batteries mentioned as a local concern in commentary but not confirmed as the cause in cited posts.",
+            "summary": "A three-alarm fire tore through a home on 58th Street in Sunset Park early Thursday, killing six people and injuring about seven to nine others including firefighters, according to ABC7 New York, Gothamist and the New York Post. Lithium-ion battery / e-bike frames were noted at the scene; cause remains under investigation. Mayor Zohran Mamdani praised FDNY efforts and urged fire-safety precautions.",
             "status": "Confirmed by established local outlets; cause under investigation",
             "links": [
               {
@@ -2983,6 +2983,24 @@
         ],
         "South America": [
           {
+            "severity": "HIGH",
+            "title": "Paraguay: Ueno Bank seizure locks out ~3M; Peña resigns as Diputados approve juicio político",
+            "location": "Asunción, Paraguay (national)",
+            "type": "Unrest",
+            "summary": "Paraguay’s central bank seized digital lender Ueno Bank, locking roughly three million customers (~60% of adults) out of accounts and sparking protests with riot police and water cannons reported in Asunción. The Chamber of Deputies (@DiputadosPy) said Thursday it approved juicio político against President Santiago Peña 78–0 in an extraordinary session amid the Ueno crisis, and that Peña presented his resignation during the session; a second session was called regarding Vice President Pedro Alliana. Authorities have reported executive detentions and deposit-repayment measures; AP and other outlets had already confirmed the resignation earlier Thursday.",
+            "status": "Official Diputados statement: juicio político approved 78–0; resignation presented; banking crisis ongoing",
+            "links": [
+              {
+                "url": "https://x.com/DiputadosPy/status/2118419934078214309",
+                "label": "Cámara de Diputados (official): juicio político 78–0"
+              },
+              {
+                "url": "https://x.com/NikMilanovic/status/2118416344823590980",
+                "label": "LatAm briefing: scale and political ties"
+              }
+            ]
+          },
+          {
             "severity": "MONITORING",
             "title": "Heavy fighting between Colombian Army and FARC dissidents in Timba, Valle del Cauca",
             "location": "Timba, Buenos Aires municipality, Valle del Cauca, Colombia",
@@ -3143,48 +3161,6 @@
               {
                 "url": "https://x.com/EuroPostAgency/status/2117226170676851174",
                 "label": "EuroPost Agency"
-              }
-            ]
-          },
-          {
-            "severity": "MEDIUM",
-            "title": "Paraguay President Santiago Peña resigns amid Ueno Bank collapse and Asunción protests",
-            "location": "Asunción, Paraguay (national)",
-            "type": "Unrest",
-            "summary": "AP reports Paraguay President Santiago Peña resigned Thursday after the collapse of Ueno Bank; Radio Mitre quotes his video statement and says Vice President Pedro Alliana is due to take over to finish the term to 2028. Bloomberg Línea says the resignation came as Congress debated impeachment. Última Hora's UH Mundo reports police used tear gas and rubber pellets to disperse a second night of protests in Asunción by depositors demanding impeachment of Peña and Alliana. Earlier: depositors and employees clashed with police downtown on Tuesday night, and Reuters reported the central bank chief resigned.",
-            "status": "Resignation confirmed by AP; transition to vice president pending; protests ongoing; no injury or arrest figures seen",
-            "links": [
-              {
-                "url": "https://x.com/AP/status/2118382854325363063",
-                "label": "AP (verified): Peña resigns"
-              },
-              {
-                "url": "https://x.com/radiomitre/status/2118382947854119032",
-                "label": "Radio Mitre: resignation statement"
-              },
-              {
-                "url": "https://x.com/BloombergLinea_/status/2118379646609699092",
-                "label": "Bloomberg Línea"
-              },
-              {
-                "url": "https://x.com/UH_Mundo/status/2118387912769445999",
-                "label": "UH Mundo: police disperse protests"
-              },
-              {
-                "url": "https://x.com/UltimaHoracom/status/2117768734995538266",
-                "label": "Última Hora"
-              },
-              {
-                "url": "https://x.com/UltimaHoracom/status/2117779270244200474",
-                "label": "Última Hora: riot police block route to Congress"
-              },
-              {
-                "url": "https://x.com/npyoficial/status/2117764367295123464",
-                "label": "NPY"
-              },
-              {
-                "url": "https://x.com/Reuters/status/2117809084397216181",
-                "label": "Reuters (verified): central bank chief resigns"
               }
             ]
           },
@@ -3364,7 +3340,7 @@
       },
       "threats": [
         {
-          "text": "Noon–2:00 PM ET sweep: no NEW HIGH alerts vs the 12:00 PM ET entry. Updated: Des Moines post office shooting (America MEDIUM; female employee suspect; injuries not life-threatening). Updated: Kyiv water/power blackouts continuing with afternoon citywide blackout video; Komyshuvakha toll confirmed at 43 with Zelenskyy warning it could approach 100 (Russia HIGH, already logged). Updated: France nationwide strike (Europe MEDIUM) with U.S. Embassy caution. New MONITORING: Richmond Hill, Ontario hydro transformer explosion (America); Beget Russian host wipe still largely offline day 4 (Russia); Lagos/Abuja grid shortfalls and Shomolu protest (Africa); Army–FARC dissident fighting in Timba, Colombia (South America). Election watch: no new verified polling-place outages meeting the bar this window; prior Election Day items retained. Prior HIGHs unchanged: Europe supermarket refrigeration cyber; Ukraine grid/Komyshuvakha/alert-app hacks; US Qeshm strikes; Colombia Planadas truck bomb."
+          "text": "Noon–2:00 PM ET sweep: no brand-new HIGH event vs the 12:00 PM ET entry titles. Elevated existing Paraguay Ueno/Peña crisis from MEDIUM→HIGH after official Cámara de Diputados post approving juicio político 78–0 the same day as the resignation (already logged at noon as MEDIUM). Updated: Des Moines post office shooting (America MEDIUM); Kyiv water/power blackouts; Komyshuvakha toll 43 (Russia HIGH). Brooklyn Sunset Park fire elevated MONITORING→MEDIUM on broader outlet confirmation. New MONITORING: Richmond Hill, Ontario hydro transformer explosion; Beget Russian host wipe day 4; Lagos/Abuja shortfalls & Shomolu protest; Timba Army–FARC fighting. Election watch: no new verified polling-place outages meeting the bar. Prior HIGHs retained: Europe supermarket refrigeration cyber; Ukraine grid/Komyshuvakha/alert-app hacks; US Qeshm; Colombia Planadas; Paraguay Ueno/Peña (now HIGH)."
         },
         {
           "text": "10:00 AM–noon ET sweep: no NEW HIGH alerts vs the 10:00 AM ET entry. New: Des Moines post office shooting (America MEDIUM; 3 injured, suspect in custody). Updated: Paraguay president resigned amid Ueno Bank crisis and protests (South America MEDIUM, AP-confirmed); Reuters analysis confirms Ryazan refinery hit; AFP on French protest violence; FRANCE 24 on Crédit Mutuel Arkéa €100M+ theft; DigiCert breach logged as MONITORING. IRGC claims of more Hormuz tanker fires remain unverified (already logged). No new official US election-site disruptions found; election watch is stabilizing and can be scaled back."
