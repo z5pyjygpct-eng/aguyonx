@@ -53,6 +53,32 @@
         "Europe": [
           {
             "severity": "MEDIUM",
+            "title": "UPDATE: Eastern France school-bus crash near Lent — child and young adult dead; ~16 injured",
+            "location": "Near Lent, eastern France (near Swiss border)",
+            "type": "Other",
+            "summary": "Casualty update to the 4:00 AM ET MONITORING Reuters 'several victims' item. Sky News (verified) reported a child and a young adult died after a bus crash near Lent. France 24 English (verified) reported at least two killed and 16 injured in a school-bus accident in eastern France. Anadolu Agency (verified) said about 43 were aboard including minors. Cause and fuller official toll still developing.",
+            "status": "Confirmed by major verified wires — fatalities established; investigation ongoing",
+            "links": [
+              {
+                "url": "https://x.com/SkyNews/status/2118657998675423318",
+                "label": "Sky News (verified): child + young adult dead near Lent"
+              },
+              {
+                "url": "https://x.com/France24_en/status/2118655100663333109",
+                "label": "France 24 English (verified): ≥2 killed, 16 injured"
+              },
+              {
+                "url": "https://x.com/anadoluagency/status/2118657160166916190",
+                "label": "Anadolu English (verified): school bus; dozens aboard"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2118630275513295177",
+                "label": "Reuters (verified): prior breaking several victims (4am)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
             "title": "Ireland: RTÉ and multiple media outlets evacuated after emailed bomb threats",
             "location": "Dublin, Ireland (RTÉ Donnybrook/Montrose campus; other Dublin media offices)",
             "type": "Other",
@@ -79,12 +105,16 @@
           },
           {
             "severity": "MONITORING",
-            "title": "UK Bonfire Night disorder follow-up: Glasgow/Meadow Well coverage continues",
-            "location": "United Kingdom (Glasgow; Meadow Well / North Shields)",
+            "title": "UK Bonfire Night disorder follow-up: Glasgow/Meadow Well; STV cites seven arrests across Scotland",
+            "location": "United Kingdom (Glasgow; Meadow Well / North Shields; Scotland-wide arrests)",
             "type": "Unrest",
-            "summary": "Follow-on to already-logged Bonfire Night disorder. GB News (verified) carried Friday commentary on Glasgow disruptions. Secondary posts cited seven arrests in Glasgow after fireworks attacks on emergency services and a police vehicle set alight; prior MEDIUM Glasgow/Meadow Well entries remain the primary logs. No confirmed large-scale citywide escalation beyond prior incidents in this window.",
-            "status": "Prior incidents stand; follow-up coverage",
+            "summary": "Follow-on to already-logged Bonfire Night disorder. STV News (verified) reported seven people arrested across Scotland amid Bonfire Night disorder. GB News carried Friday commentary on Glasgow disruptions. Prior MEDIUM Glasgow/Meadow Well entries remain the primary logs; no confirmed large-scale citywide escalation beyond prior incidents.",
+            "status": "Prior incidents stand; follow-up arrests/coverage",
             "links": [
+              {
+                "url": "https://x.com/STVNews/status/2118660383275987260",
+                "label": "STV News (verified): seven arrested across Scotland"
+              },
               {
                 "url": "https://x.com/GBNEWS/status/2118652158216417777",
                 "label": "GB News (verified): Bonfire Night disruptions in Glasgow"
@@ -92,7 +122,7 @@
             ]
           },
           {
-            "text": "No material new wire this window on the already-logged eastern France bus crash or Crédit Mutuel Arkéa ~€100M cyber theft (Reuters already logged). Residual secondary posts continue without a scale upgrade."
+            "text": "No material new wire this window on the already-logged Crédit Mutuel Arkéa ~€100M cyber theft (Reuters). Residual secondary posts continue without a scale upgrade."
           }
         ],
         "Russia": [
@@ -131,7 +161,25 @@
         ],
         "Middle East": [
           {
-            "text": "No material change this window to the already-logged Saudi Najran two-missile intercept (Anadolu/TRT) or residual Iraq NOTAM / tanker items. Secondary Houthi/Najran recirculation continues without a new official scale upgrade meeting an alert raise."
+            "severity": "MEDIUM",
+            "title": "NEW: Saudi-led coalition says drone intercepted/destroyed over Mecca region",
+            "location": "Mecca / Makkah region, Saudi Arabia",
+            "type": "Other",
+            "summary": "Al Arabiya English (verified) and Anadolu Agency (verified) report the Saudi-led coalition said air defenses intercepted and destroyed a drone over the Mecca region on Friday. Coverage links the intercept to the same-day Najran ballistic-missile intercepts already logged. No ground mass-casualty reports in the verified posts reviewed. Distinct from the Najran dual-missile item.",
+            "status": "Official coalition statement via verified wires; no reported ground casualties",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2118652396549062752",
+                "label": "Al Arabiya English (verified): drone intercepted over Mecca region"
+              },
+              {
+                "url": "https://x.com/anadoluagency/status/2118656585333403849",
+                "label": "Anadolu English (verified): Mecca-region drone intercept"
+              }
+            ]
+          },
+          {
+            "text": "No material change to the already-logged Najran two-missile intercept (MEDIUM) or residual Iraq NOTAM / tanker items. Secondary recirculation continues without a further scale upgrade."
           }
         ],
         "Africa": [
@@ -148,23 +196,27 @@
       "trending": [
         {
           "severity": "HIGH",
-          "title": "Western Japan: 128 shinkin credit unions outage — Yahoo reports ATM/services restored; cause still equipment failure",
+          "title": "UPDATE: Western Japan 128 shinkin outage largely restored (NHK/Nikkei); residual transfer limits",
           "location": "Western Japan (Tokai region westward through Kyushu; East Japan / major banks unaffected)",
           "type": "Infrastructure",
-          "summary": "CONTINUATION of the already-logged (and previously alerted) Shinkin Joint Center outage affecting 128 western Japan credit unions from about 1:30 p.m. JST Nov 6. Yahoo! News Topics (verified) posted that ATMs and related services had been restored after the large-scale disruption. Mainichi and earlier wires said the cause was communications-equipment failure, not a cyberattack. Asia sits outside the six regional buckets, so this remains under Trending. Not a NEW HIGH vs prior entries.",
-          "status": "Confirmed outage; secondary verified headline says services restored; not attributed to cyberattack",
+          "summary": "CONTINUATION / recovery of the already-logged and previously alerted Shinkin Joint Center outage affecting 128 western Japan credit unions from about 1:30 p.m. JST Nov 6. NHK reported services restored before ~6 p.m. except some functions; a follow-up NHK note said 128 shinkin were restored except transfers to other financial institutions. Nikkei (verified) and Yahoo! News Topics (verified) likewise reported restoration. Cause remains communications-equipment failure, not a cyberattack. NOT a NEW HIGH vs prior alerts.",
+          "status": "Largely restored per NHK + Nikkei + Yahoo — residual external-transfer limits possible; not cyberattack",
           "links": [
             {
+              "url": "https://x.com/nikkei/status/2118657663194034445",
+              "label": "Nikkei (verified): western Japan 128 shinkin joint-system outage restored"
+            },
+            {
+              "url": "https://x.com/nhk_news/status/2118645336126509352",
+              "label": "NHK: 128 shinkin restored except other-institution transfers"
+            },
+            {
+              "url": "https://x.com/nhk_news/status/2118640906308145200",
+              "label": "NHK flash: restored before 6pm except some services"
+            },
+            {
               "url": "https://x.com/YahooNewsTopics/status/2118645818999849440",
-              "label": "Yahoo! News Topics (verified): shinkin outage — ATMs etc restored"
-            },
-            {
-              "url": "https://x.com/mainichi/status/2118618911440814427",
-              "label": "Mainichi (verified, prior): 128 credit unions; not a cyberattack per center"
-            },
-            {
-              "url": "https://x.com/TheInsiderPaper/status/2118625962384609384",
-              "label": "Insider Paper (verified, prior): Bloomberg — 128 shinkin banks outage"
+              "label": "Yahoo! News Topics (verified): ATMs etc restored"
             }
           ]
         },
