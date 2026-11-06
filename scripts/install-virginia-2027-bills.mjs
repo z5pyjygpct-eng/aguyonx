@@ -1,38 +1,53 @@
 #!/usr/bin/env node
 /**
- * Install a new-filings ledger into the public tracker.
+ * Install the public Virginia 2027 ledger.
  *
  * Usage:
- *   node scripts/install-virginia-2027-bills.mjs path/to/bills-new-2027.json
+ *   node scripts/install-virginia-2027-bills.mjs path/to/bills.json
  *
- * Reads the ingestion-runbook output (bills-new-2027.json). Refuses carryovers.
- * Strips `source_fields` (raw LIS column echo). Writes
- * src/content/virginia-2027-bills.json. Does not edit React components.
- * Does not download or copy raw LIS CSV files.
+ * Accepts the full session ledger (`bills[]` with both filing classes) or a
+ * file that already has `new_filings` and `continued`. Writes both arrays to
+ * src/content/virginia-2027-bills.json. Strips `source_fields` and summary HTML.
+ * Does not edit React components and does not download or copy raw LIS CSVs.
+ *
+ * A new-only file is refused, so a daily refresh cannot drop the continued set.
  */
 import fs from "node:fs";
 import path from "node:path";
 
 const dest = path.join(process.cwd(), "src/content/virginia-2027-bills.json");
 const src = process.argv[2];
+const NEW = "new_2027_filing";
+const CONTINUED = "continued_from_2026";
+const ALLOWED_CONTINUED_CATEGORY = "continued-uncategorized";
 
 if (!src) {
-  console.error("Usage: node scripts/install-virginia-2027-bills.mjs <bills-new-2027.json>");
+  console.error("Usage: node scripts/install-virginia-2027-bills.mjs <bills.json>");
   process.exit(1);
 }
 
 const raw = JSON.parse(fs.readFileSync(src, "utf8"));
-if (!raw || !Array.isArray(raw.bills)) {
-  console.error("Refusing: input has no bills array.");
+let rows = [];
+if (Array.isArray(raw?.bills)) rows = raw.bills;
+else if (Array.isArray(raw?.new_filings) || Array.isArray(raw?.continued)) {
+  rows = [...(raw.new_filings ?? []), ...(raw.continued ?? [])];
+} else {
+  console.error("Refusing: input has no bills, new_filings, or continued array.");
   process.exit(1);
 }
 
 const problems = [];
 const seen = new Set();
-for (const [i, bill] of raw.bills.entries()) {
+const fresh = [];
+const carried = [];
+
+for (const [i, bill] of rows.entries()) {
   const id = bill?.bill_number || `row ${i}`;
-  if (bill?.filing_class !== "new_2027_filing" || bill?.carried_over !== false) {
-    problems.push(`${id} is not a new 2027 filing (filing_class=${bill?.filing_class}, carried_over=${bill?.carried_over}). Pass bills-new-2027.json. Carryovers are not published.`);
+  const carriedOver = bill?.carried_over === true;
+  const isNew = bill?.filing_class === NEW && bill?.carried_over === false;
+  const isContinued = bill?.filing_class === CONTINUED && carriedOver;
+  if (!isNew && !isContinued) {
+    problems.push(`${id} filing_class (${bill?.filing_class}) does not match Carried_over (${bill?.carried_over}).`);
   }
   if (!bill?.bill_number || !bill?.title || !bill?.chamber || !bill?.status_label || !bill?.introduction_date) {
     problems.push(`${id} is missing bill number, title, chamber, status, or introduction date.`);
@@ -42,6 +57,19 @@ for (const [i, bill] of raw.bills.entries()) {
   }
   if (seen.has(bill?.bill_number)) problems.push(`${id} is a duplicate bill number.`);
   if (bill?.bill_number) seen.add(bill.bill_number);
+  if (isContinued) {
+    const ids = new Set([...(bill.category_ids ?? []), ...(bill.categories ?? []).map((c) => c?.category_id)].filter(Boolean));
+    for (const categoryId of ids) {
+      if (categoryId !== ALLOWED_CONTINUED_CATEGORY) {
+        problems.push(`${id} has editorial category ${categoryId}. Continued bills may only carry ${ALLOWED_CONTINUED_CATEGORY}.`);
+      }
+    }
+    carried.push(bill);
+  } else if (isNew) fresh.push(bill);
+}
+
+if (!fresh.length || !carried.length) {
+  problems.push(`Need both filing classes. Got ${fresh.length} new and ${carried.length} continued. Pass the full bills.json.`);
 }
 
 if (problems.length) {
@@ -51,20 +79,31 @@ if (problems.length) {
   process.exit(1);
 }
 
-const bills = raw.bills.map((bill) => {
+function publish(bill) {
   const next = { ...bill };
   delete next.source_fields;
+  if (next.summary && typeof next.summary === "object") {
+    const summary = { ...next.summary };
+    delete summary.summary_text_html;
+    next.summary = summary;
+  }
   return next;
-});
+}
 
-const out = { ...raw, bills };
+const out = {
+  meta: { ...(raw.meta ?? {}), subset: "new_filings_and_continued" },
+  taxonomy: raw.taxonomy ?? [],
+  new_filings: fresh.map(publish),
+  continued: carried.map(publish),
+};
 fs.mkdirSync(path.dirname(dest), { recursive: true });
-fs.writeFileSync(dest, `${JSON.stringify(out, null, 2)}\n`);
+fs.writeFileSync(dest, `${JSON.stringify(out)}\n`);
 console.log(
   JSON.stringify({
     wrote: dest,
-    bills: bills.length,
-    stripped: "source_fields",
+    new_filings: out.new_filings.length,
+    continued: out.continued.length,
+    stripped: ["source_fields", "summary.summary_text_html"],
     session: raw.meta?.session_code ?? null,
     captured_at: raw.meta?.captured_at ?? null,
   }),

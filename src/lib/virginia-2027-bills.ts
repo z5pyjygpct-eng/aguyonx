@@ -71,8 +71,11 @@ export type LedgerMeta = {
 export type Ledger = {
   meta: LedgerMeta;
   taxonomy: TaxonomyEntry[];
-  bills: BillRecord[];
+  new_filings: BillRecord[];
+  continued: BillRecord[];
 };
+
+export type FilingSet = "new" | "continued";
 
 export type BillFilters = {
   q?: string;
@@ -81,19 +84,31 @@ export type BillFilters = {
   chamber?: string;
   party?: string;
   status?: string;
+  /** Omitted or "new" is the default list. "continued" is the carried-over set only. */
+  filing?: FilingSet;
 };
 
 export type Counted = { value: string; label: string; count: number };
 
 const NEW_FILING = "new_2027_filing";
+const CONTINUED = "continued_from_2026";
 
-/** Rows this page is allowed to show. Carryovers never pass. */
+/** New 2027 filings: Carried_over is false and filing_class is new_2027_filing. */
 export function isNewFiling(bill: BillRecord): boolean {
   return bill.filing_class === NEW_FILING && bill.carried_over === false;
 }
 
+/** 2026 measures carried into this session. Not inferred from status text. */
+export function isContinued(bill: BillRecord): boolean {
+  return bill.filing_class === CONTINUED && bill.carried_over === true;
+}
+
 export function newFilings(ledger: Ledger): BillRecord[] {
-  return ledger.bills.filter(isNewFiling);
+  return (ledger.new_filings ?? []).filter(isNewFiling);
+}
+
+export function continuedFilings(ledger: Ledger): BillRecord[] {
+  return (ledger.continued ?? []).filter(isContinued);
 }
 
 /** H* member ids are Delegates; S* are Senators. Same prefix rule as chamber. */
@@ -144,7 +159,9 @@ export function matchesQuery(bill: BillRecord, q: string | undefined): boolean {
 }
 
 export function matchesFilters(bill: BillRecord, f: BillFilters): boolean {
-  if (!isNewFiling(bill)) return false;
+  if (f.filing === "continued") {
+    if (!isContinued(bill)) return false;
+  } else if (!isNewFiling(bill)) return false;
   if (f.category && !categoryIdsOf(bill).includes(f.category)) return false;
   if (f.patron && !patronIdsOf(bill).includes(f.patron)) return false;
   if (f.chamber && bill.chamber !== f.chamber) return false;
@@ -293,11 +310,19 @@ export function ledgerProblems(ledger: Ledger): string[] {
   if (!ledger?.meta?.session_code) problems.push("meta.session_code missing");
   if (!ledger?.meta?.captured_at) problems.push("meta.captured_at missing");
   if (!ledger?.meta?.source_primary) problems.push("meta.source_primary missing");
-  if (!Array.isArray(ledger?.bills)) return [...problems, "bills is not an array"];
+  if (!Array.isArray(ledger?.new_filings) || !Array.isArray(ledger?.continued)) {
+    return [...problems, "new_filings and continued arrays are required"];
+  }
   const seen = new Set<string>();
-  ledger.bills.forEach((bill, i) => {
+  const check = (bill: BillRecord, i: number, expect: "new" | "continued") => {
     const id = bill?.bill_number || `#${i}`;
-    if (!isNewFiling(bill)) problems.push(`${id} is not a new 2027 filing`);
+    if (expect === "new" && !isNewFiling(bill)) problems.push(`${id} is in new_filings but is not a new 2027 filing`);
+    if (expect === "continued" && !isContinued(bill)) problems.push(`${id} is in continued but is not carried over`);
+    if (expect === "continued") {
+      for (const categoryId of categoryIdsOf(bill)) {
+        if (categoryId !== "continued-uncategorized") problems.push(`${id} continued category ${categoryId} is not allowed`);
+      }
+    }
     if (!bill.bill_number) problems.push(`row ${i} missing bill_number`);
     if (!bill.title) problems.push(`${id} missing title`);
     if (!bill.chamber) problems.push(`${id} missing chamber`);
@@ -308,6 +333,8 @@ export function ledgerProblems(ledger: Ledger): string[] {
     if (seen.has(bill.bill_number)) problems.push(`${id} duplicate bill_number`);
     seen.add(bill.bill_number);
     if ("source_fields" in (bill as object)) problems.push(`${id} still has source_fields`);
-  });
+  };
+  ledger.new_filings.forEach((bill, i) => check(bill, i, "new"));
+  ledger.continued.forEach((bill, i) => check(bill, i, "continued"));
   return problems;
 }

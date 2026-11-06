@@ -5,7 +5,9 @@ import test from "node:test";
 import {
   categoryCounts,
   categoryIdsOf,
+  continuedFilings,
   filterBills,
+  isContinued,
   isNewFiling,
   ledgerProblems,
   matchesFilters,
@@ -21,21 +23,31 @@ const ledger = JSON.parse(
 ) as Ledger;
 
 const bills = newFilings(ledger);
+const continued = continuedFilings(ledger);
+const mixed = [...bills, ...continued];
 
-test("published ledger is 19 new filings and nothing else", () => {
-  assert.equal(ledger.bills.length, 19);
+test("published ledger keeps 19 new filings and 443 continued records", () => {
   assert.equal(bills.length, 19);
+  assert.equal(continued.length, 443);
+  assert.equal(ledger.new_filings.length, 19);
+  assert.equal(ledger.continued.length, 443);
   assert.deepEqual(ledgerProblems(ledger), []);
   assert.equal(JSON.stringify(ledger).includes("source_fields"), false);
-  assert.equal(ledger.meta.subset, "new_2027_filing_only");
   assert.equal(ledger.meta.session_code, "20271");
-  const numbers = bills.map((b) => b.bill_number);
-  assert.equal(new Set(numbers).size, 19);
-  for (const bill of ledger.bills) assert.equal(isNewFiling(bill), true);
+  assert.equal(new Set(bills.map((b) => b.bill_number)).size, 19);
+  for (const bill of ledger.new_filings) assert.equal(isNewFiling(bill), true);
+  for (const bill of ledger.continued) assert.equal(isContinued(bill), true);
+  for (const bill of continued) {
+    assert.deepEqual(categoryIdsOf(bill), ["continued-uncategorized"]);
+    assert.ok(bill.categories.every((c) => c.confidence === "unsupported"));
+  }
 });
 
 test("default filters and sort keep every new filing", () => {
   assert.equal(filterBills(bills, {}).length, 19);
+  assert.equal(filterBills(mixed, {}).length, 19);
+  assert.equal(filterBills(mixed, { party: "R" }).length, 4);
+  assert.equal(filterBills(continued, {}).length, 0);
   const sorted = sortBills(bills);
   assert.equal(sorted.length, 19);
   assert.deepEqual(new Set(sorted.map((b) => b.bill_number)), new Set(bills.map((b) => b.bill_number)));
@@ -154,6 +166,28 @@ test("Republican and Democrat shortcuts follow the chief patron only", () => {
   assert.equal(filterBills(bills, { party: "R", q: "Favola" }).length, 0);
   assert.deepEqual(filterBills(bills, { party: "R", q: "Cherry" }).map((b) => b.bill_number).sort(), ["HB1532", "HB1533"]);
   assert.equal(filterBills(bills, {}).length, 19);
+});
+
+test("continued subset stays separate from the 19 new filings", () => {
+  assert.equal(filterBills(mixed, { filing: "continued" }).length, 443);
+  assert.equal(filterBills(mixed, { filing: "continued", party: "R" }).length, 140);
+  assert.equal(filterBills(mixed, { filing: "continued", party: "D" }).length, 301);
+  assert.equal(filterBills(mixed, { filing: "continued", party: "missing" }).length, 2);
+  const missing = filterBills(mixed, { filing: "continued", party: "missing" }).map((b) => b.bill_number).sort();
+  assert.deepEqual(missing, ["HB1314", "HB382"]);
+  for (const bill of filterBills(mixed, { filing: "continued", party: "missing" })) {
+    assert.equal(bill.chief_patron_party_code, null);
+    assert.equal(bill.chief_patron_party, null);
+    assert.equal(bill.status_label, "Continued from prior session");
+  }
+  assert.equal(filterBills(mixed, { q: "HB1003" }).length, 0);
+  assert.deepEqual(filterBills(mixed, { filing: "continued", q: "HB1003" }).map((b) => b.bill_number), ["HB1003"]);
+  const backToNew = filterBills(mixed, { party: "R" });
+  assert.equal(backToNew.length, 4);
+  assert.ok(backToNew.every((b) => isNewFiling(b)));
+  assert.equal(filterBills(mixed, { filing: "new", chamber: "Senate" }).length, bills.filter((b) => b.chamber === "Senate").length);
+  assert.ok(filterBills(mixed, { filing: "continued", category: "energy-data-centers" }).length === 0);
+  assert.equal(filterBills(mixed, { filing: "continued", category: "continued-uncategorized" }).length, 443);
 });
 
 test("search does not use summary text", () => {

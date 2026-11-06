@@ -11,6 +11,7 @@ import {
   categoryLabel,
   chamberOptions,
   committeeLines,
+  continuedFilings,
   filterBills,
   measureKindCounts,
   newFilings,
@@ -35,6 +36,7 @@ export const Route = createFileRoute("/virginia-2027-bills")({
     ...(typeof s.chamber === "string" && s.chamber ? { chamber: s.chamber } : {}),
     ...(typeof s.party === "string" && s.party ? { party: s.party } : {}),
     ...(typeof s.status === "string" && s.status ? { status: s.status } : {}),
+    ...(s.filing === "continued" ? { filing: "continued" as const } : {}),
   }),
   head: () => ({
     meta: [
@@ -54,26 +56,33 @@ const MISSING = "Not in this LIS capture";
 function Virginia2027BillsPage() {
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
-  const all = useMemo(() => sortBills(newFilings(LEDGER)), []);
-  const withheld = LEDGER.bills.length - all.length;
-  const visible = useMemo(() => filterBills(all, search), [all, search]);
-  const categories = useMemo(() => categoryCounts(LEDGER, all), [all]);
-  const patrons = useMemo(() => patronOptions(all), [all]);
-  const chambers = useMemo(() => chamberOptions(all), [all]);
-  const parties = useMemo(() => partyOptions(all), [all]);
-  const statuses = useMemo(() => statusOptions(all), [all]);
-  const kinds = useMemo(() => measureKindCounts(all), [all]);
-  const withSummary = all.filter((b) => b.summary_plain).length;
-  const missingParty = all.filter((b) => !b.chief_patron_party_code).length;
-  const historyEvents = all.reduce((n, b) => n + (b.history_event_count ?? 0), 0);
-  const active = Boolean(search.q || search.category || search.patron || search.chamber || search.party || search.status);
+  const fresh = useMemo(() => sortBills(newFilings(LEDGER)), []);
+  const carried = useMemo(() => sortBills(continuedFilings(LEDGER)), []);
+  const filing = search.filing === "continued" ? "continued" : "new";
+  const population = filing === "continued" ? carried : fresh;
+  const withheld = LEDGER.new_filings.length - fresh.length + (LEDGER.continued.length - carried.length);
+  const visible = useMemo(() => filterBills(population, { ...search, filing }), [population, search, filing]);
+  const categories = useMemo(() => categoryCounts(LEDGER, population), [population]);
+  const patrons = useMemo(() => patronOptions(population), [population]);
+  const chambers = useMemo(() => chamberOptions(population), [population]);
+  const parties = useMemo(() => partyOptions(population), [population]);
+  const statuses = useMemo(() => statusOptions(population), [population]);
+  const kinds = useMemo(() => measureKindCounts(fresh), []);
+  const withSummary = fresh.filter((b) => b.summary_plain).length;
+  const missingParty = fresh.filter((b) => !b.chief_patron_party_code).length;
+  const historyEvents = fresh.reduce((n, b) => n + (b.history_event_count ?? 0), 0);
+  const active = Boolean(search.q || search.category || search.patron || search.chamber || search.party || search.status || search.filing);
 
-  const setSearch = (patch: BillFilters) => {
+  const setSearch = (patch: { [K in keyof BillFilters]?: BillFilters[K] | "" }) => {
     const next = { ...search, ...patch };
     const clean: BillFilters = {};
-    for (const [k, v] of Object.entries(next) as [keyof BillFilters, string | undefined][]) {
-      if (v) clean[k] = v;
-    }
+    if (next.q) clean.q = next.q;
+    if (next.category) clean.category = next.category;
+    if (next.patron) clean.patron = next.patron;
+    if (next.chamber) clean.chamber = next.chamber;
+    if (next.party) clean.party = next.party;
+    if (next.status) clean.status = next.status;
+    if (next.filing === "continued") clean.filing = "continued";
     navigate({ search: clean, replace: true, resetScroll: false });
   };
 
@@ -89,7 +98,7 @@ function Virginia2027BillsPage() {
               Virginia 2027 <span className="text-gold">bills</span>
             </h1>
             <p className="mt-4 max-w-3xl text-base text-on-dark-muted sm:text-lg">
-              {all.length} new filings for the {LEDGER.meta.session_label}. Continued measures are not listed.
+              {fresh.length} new filings for the {LEDGER.meta.session_label}. Continued 2026 measures stay off this list until you choose Continued from 2026.
             </p>
             {kinds.length ? (
               <p className="mt-1 max-w-3xl font-mono text-sm text-gold">{kinds.map((k) => `${k.label}: ${k.count}`).join(" · ")}</p>
@@ -112,7 +121,7 @@ function Virginia2027BillsPage() {
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-8">
           {withheld > 0 ? (
             <p className="mt-3 rounded-xl border border-flag bg-[#3a1020] px-4 py-3 text-sm" role="status">
-              {withheld} {withheld === 1 ? "row was" : "rows were"} withheld because {withheld === 1 ? "it is" : "they are"} not a new 2027 filing. Carryovers are not shown.
+              {withheld} {withheld === 1 ? "row was" : "rows were"} withheld because the filing class did not match its list.
             </p>
           ) : null}
 
@@ -134,11 +143,22 @@ function Virginia2027BillsPage() {
               </div>
             </form>
 
+            <FilingShortcuts
+              fresh={fresh.length}
+              carried={carried.length}
+              selected={filing}
+              onPick={(next) => setSearch({ filing: next === "continued" ? "continued" : "" })}
+            />
+            {filing === "continued" ? (
+              <p className="mt-3 text-sm text-on-dark-muted" role="status">
+                Continued from 2026: {carried.length} measures with LIS filing class continued_from_2026 (Carried_over yes). These are 2026 measures carried into this session. Carried over is not recorded as a failure. Continued records: editorial categories not all assigned.
+              </p>
+            ) : null}
             <PartyShortcuts parties={parties} selected={search.party ?? ""} onPick={(party) => setSearch({ party })} />
 
             <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               <Select label="Patron" value={search.patron ?? ""} onChange={(patron) => setSearch({ patron })}>
-                <option value="">All Delegates and Senators ({all.length})</option>
+                <option value="">All Delegates and Senators ({population.length})</option>
                 {patrons.map((p) => (
                   <option key={p.value} value={p.value}>
                     {patronOptionLabel(p)}
@@ -146,7 +166,7 @@ function Virginia2027BillsPage() {
                 ))}
               </Select>
               <Select label="Chamber" value={search.chamber ?? ""} onChange={(chamber) => setSearch({ chamber })}>
-                <option value="">All chambers ({all.length})</option>
+                <option value="">All chambers ({population.length})</option>
                 {chambers.map((c) => (
                   <option key={c.value} value={c.value}>
                     {c.label} · {c.count}
@@ -154,7 +174,7 @@ function Virginia2027BillsPage() {
                 ))}
               </Select>
               <Select label="Party" value={search.party ?? ""} onChange={(party) => setSearch({ party })}>
-                <option value="">All parties ({all.length})</option>
+                <option value="">All parties ({population.length})</option>
                 {parties.map((p) => (
                   <option key={p.value} value={p.value}>
                     {p.label} · {p.count}
@@ -162,7 +182,7 @@ function Virginia2027BillsPage() {
                 ))}
               </Select>
               <Select label="Status" value={search.status ?? ""} onChange={(status) => setSearch({ status })}>
-                <option value="">All statuses ({all.length})</option>
+                <option value="">All statuses ({population.length})</option>
                 {statuses.map((s) => (
                   <option key={s.value} value={s.value}>
                     {s.label} · {s.count}
@@ -173,13 +193,13 @@ function Virginia2027BillsPage() {
 
             <div className="mt-4">
               <p className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase" id="va2027-cats">
-                Editorial categories · counts from all {all.length} new filings
+                Editorial categories · counts from all {population.length} {filing === "continued" ? "continued records" : "new filings"}
               </p>
               <p className="mt-1 text-xs text-night-muted">
-                Not official LIS subjects. A filing can be in more than one category, so the counts add up to more than {all.length}.
+                Not official LIS subjects. A filing can be in more than one category, so the counts add up to more than {population.length}.
               </p>
               <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="va2027-cats">
-                <FilterChip active={!search.category} onClick={() => setSearch({ category: "" })} count={all.length}>
+                <FilterChip active={!search.category} onClick={() => setSearch({ category: "" })} count={population.length}>
                   All categories
                 </FilterChip>
                 {categories.map((c) => (
@@ -191,7 +211,7 @@ function Virginia2027BillsPage() {
             </div>
 
             <p className="mt-4 text-sm text-on-dark-muted" aria-live="polite">
-              Showing {visible.length} of {all.length} new filings.
+              Showing {visible.length} of {population.length} {filing === "continued" ? "continued from 2026" : "new filings"}.
               {active ? (
                 <button type="button" onClick={() => navigate({ search: {}, replace: true, resetScroll: false })} className="ml-3 font-semibold text-gold underline">
                   Clear filters
@@ -209,7 +229,7 @@ function Virginia2027BillsPage() {
           </ul>
           {visible.length === 0 ? (
             <p className="mt-4 rounded-xl border border-dashed border-navy-line px-4 py-6 text-sm text-on-dark-muted" role="status">
-              No filings match these filters. Clearing them shows all {all.length}.
+              No filings match these filters. Clearing them shows all {fresh.length} new filings.
             </p>
           ) : null}
 
@@ -220,12 +240,12 @@ function Virginia2027BillsPage() {
                 Bill number, title, patrons, chamber, committee, status, introduction date, and links are copied from the LIS capture. Nothing on a card was written to fill a blank.
               </li>
               <li>
-                Official summaries are on {withSummary} of {all.length} cards. The other {all.length - withSummary} have no Summaries.csv row in this capture.
+                Official summaries are on {withSummary} of {fresh.length} new-filing cards. The other {fresh.length - withSummary} have no Summaries.csv row in this capture.
               </li>
               <li>
                 Party is not a column in the LIS bill file. Chief-patron party comes from the chamber roster snapshot named on the card. {missingParty === 0
-                  ? `All ${all.length} chief patrons in this new-filing set have a roster party.`
-                  : `${missingParty} of ${all.length} chief patrons have no roster party. Those cards say so.`}
+                  ? `All ${fresh.length} chief patrons in this new-filing set have a roster party.`
+                  : `${missingParty} of ${fresh.length} chief patrons have no roster party. Those cards say so.`}
                 {typeof LEDGER.meta.counts?.party_missing_chief_patron === "number"
                   ? ` The full session ledger notes ${LEDGER.meta.counts.party_missing_chief_patron} chief patrons without a roster party.`
                   : null}{" "}
@@ -234,10 +254,10 @@ function Virginia2027BillsPage() {
               <li>
                 Categories and confidence are editorial, from the official title and the official summary when one exists. LIS subject codes were not in this capture.
               </li>
-              <li>History events attached to these {all.length} filings in this capture: {historyEvents}.</li>
+              <li>History events attached to these {fresh.length} new filings in this capture: {historyEvents}.</li>
               {LEDGER.meta.counts ? (
                 <li>
-                  Full session file counts in this ledger: {LEDGER.meta.counts.total ?? "—"} total, {LEDGER.meta.counts.new_2027_filing ?? all.length} new,{" "}
+                  Full session file counts in this ledger: {LEDGER.meta.counts.total ?? "—"} total, {LEDGER.meta.counts.new_2027_filing ?? fresh.length} new,{" "}
                   {LEDGER.meta.counts.continued_from_2026 ?? "—"} continued. Only the new filings are on this page.
                 </li>
               ) : null}
@@ -270,6 +290,37 @@ function Virginia2027BillsPage() {
         </div>
       </V4Main>
     </SiteShell>
+  );
+}
+
+function FilingShortcuts({ fresh, carried, selected, onPick }: { fresh: number; carried: number; selected: "new" | "continued"; onPick: (next: "new" | "continued") => void }) {
+  const chips = [
+    { id: "new" as const, label: "New 2027 filings", count: fresh },
+    { id: "continued" as const, label: "Continued from 2026", count: carried },
+  ];
+  return (
+    <div className="mt-4">
+      <p id="va2027-filing" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Filing</p>
+      <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="va2027-filing">
+        {chips.map((chip) => {
+          const active = selected === chip.id;
+          return (
+            <button
+              key={chip.id}
+              type="button"
+              data-filing={chip.id}
+              data-count={chip.count}
+              aria-pressed={active}
+              onClick={() => onPick(chip.id)}
+              className={`inline-flex min-h-12 items-center gap-2 rounded-xl border px-4 text-base font-semibold ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
+            >
+              {chip.label}
+              <span className={`rounded-full px-1.5 text-xs ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`}>{chip.count}</span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
   );
 }
 
@@ -344,8 +395,8 @@ function BillCard({ bill }: { bill: BillRecord }) {
   const ids = categoryIdsOf(bill);
   const patrons = bill.sponsors?.length
     ? bill.sponsors
-    : bill.chief_patron_id && bill.chief_patron_name
-      ? [{ member_id: bill.chief_patron_id, member_name: bill.chief_patron_name, patron_type: "not in Sponsors.csv" }]
+    : bill.chief_patron_id
+      ? [{ member_id: bill.chief_patron_id, member_name: bill.chief_patron_name || "Name not in this capture", patron_type: "not in Sponsors.csv" }]
       : [];
   return (
     <article
@@ -381,7 +432,7 @@ function BillCard({ bill }: { bill: BillRecord }) {
                         {p.member_name}
                       </span>
                       <span className="text-on-dark-muted"> · {p.member_id} · {p.patron_type}</span>
-                      {party ? <span className="text-white"> · {party}</span> : isChief && !bill.chief_patron_party_code ? <span className="text-on-dark-muted"> · Party not in the chamber roster</span> : null}
+                      {party ? <span className="text-white"> · {party}</span> : isChief && !bill.chief_patron_party_code ? <span className="text-on-dark-muted"> · Unavailable</span> : null}
                       {isChief && bill.chief_patron_party_source ? <span className="mt-0.5 block text-xs text-night-muted">Party source: {bill.chief_patron_party_source}</span> : null}
                     </li>
                   );

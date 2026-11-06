@@ -1,6 +1,6 @@
 # Virginia 2027 bills — data contract
 
-The public page at `/virginia-2027-bills` lists **new 2027 filings**. It does not list measures carried over from 2026. Do not copy raw LIS CSV files into this repo or into `public/`.
+The public page at `/virginia-2027-bills` opens on the **new 2027 filings**. Measures carried over from 2026 are a second array and appear only when Continued from 2026 is selected. Do not copy raw LIS CSV files into this repo or into `public/`.
 
 The React page, filters, and counts read one file:
 
@@ -10,7 +10,7 @@ Replacing that file with a later capture does **not** require editing components
 
 ## Refresh (repeatable)
 
-Daily filing updates are a handoff from the CoS watch to Web. The ingestion steps live in the research runbook (daily LIS snapshot, join, categorize from title and official summary only). This website does not download those CSVs. When Web receives a new `bills-new-2027.json`:
+Daily filing updates are a handoff from the CoS watch to Web. The ingestion steps live in the research runbook (daily LIS snapshot, join, categorize from title and official summary only). This website does not download those CSVs. When Web receives a full `bills.json` (both filing classes):
 
 ```bash
 node scripts/install-virginia-2027-bills.mjs path/to/bills-new-2027.json
@@ -20,7 +20,8 @@ npx vite build
 
 The install script:
 
-- Accepts only rows with `filing_class` `new_2027_filing` and `carried_over: false`. Any carryover aborts the write.
+- Requires both `new_2027_filing` (`carried_over: false`) and `continued_from_2026` (`carried_over: true`). A new-only file is refused so the continued set is not dropped.
+- Writes `new_filings` and `continued`. `filing_class` must match `carried_over`. Continued rows may only keep the category `continued-uncategorized`.
 - Requires a bill number, official title, chamber, status, introduction date, and `https://lis.virginia.gov/` detail URL on every row.
 - Deletes `source_fields` (the raw LIS column echo) before writing.
 - Leaves every other sourced field as it arrived, including null summaries and null committees.
@@ -39,13 +40,13 @@ Party is not in those CSVs. The ledger joins it from chamber roster snapshots. T
 
 ## Shape the page reads
 
-Top level: `meta`, `taxonomy`, `bills`.
+Top level: `meta`, `taxonomy`, `new_filings`, `continued`. The page opens on `new_filings`. `continued` is the carried-over set.
 
 `meta` used on the page: `session_code`, `session_label`, `captured_at`, `source_primary`, `sources_joined`, `counts`, `publish_status`, `subset`, `notes`.
 
 `taxonomy[]`: `id`, `label`. Optional `keywords` are unused by the page. Category names come from this list, then from the bill's own `category_label` if an id is new.
 
-Each `bills[]` row:
+Each row in either array:
 
 | Field | Shown as |
 | --- | --- |
@@ -77,7 +78,8 @@ All filters AND together. An empty filter matches every new filing.
 - Category: bill's category ids. Secondary categories count. Counts on the chips are for the full new-filing set, so they do not shrink when another filter is on.
 - Patron: chief patron or any sponsor, labeled Delegate or Senator from the member id.
 - Chamber: `chamber`.
-- Party: chief patron party code. The Republican and Democrat buttons set this same filter and read `chief_patron_party_code`. A co-patron does not change it. `missing` is offered in the party menu only when some chief patron has no code.
+- Filing: omitted or `new` is the 19 new filings. `continued` is only `continued_from_2026`. Party, chamber, patron, status, category, and search then run inside that set. They do not mix the two sets.
+- Party: chief patron party code. The Republican and Democrat buttons set this same filter and read `chief_patron_party_code` inside the selected filing set. A co-patron does not change it. A missing roster party stays blank (`Unavailable`). `missing` is offered in the party menu only when some chief patron in that set has no code.
 - Status: exact `status_label`.
 
 Sort is newest `introduction_date` first, then bill number. Sorting does not drop rows. The default page (no query string) shows every new filing.
