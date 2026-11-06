@@ -1,6 +1,179 @@
 {
   "entries": [
     {
+      "datetime": "2026-11-06T04:00:00-05:00",
+      "regions": {
+        "America": [
+          {
+            "severity": "HIGH",
+            "title": "Lakewood CO police shooting investigation continues; fatality already confirmed",
+            "location": "Lakewood, Colorado (West Colfax Ave & Wadsworth Blvd area)",
+            "type": "Other",
+            "summary": "Overnight and early Friday coverage continues on the Thursday evening Lakewood police shooting already logged: one Lakewood police agent killed, three officers and a civilian injured, suspect deceased near an RTD bus. Local traffic accounts still reported closures on Wadsworth and Colfax related to the scene. No new official casualty revision in this window beyond prior confirmations.",
+            "status": "Active investigation; officer fatality previously confirmed; scene/traffic impacts ongoing overnight",
+            "links": [
+              {
+                "url": "https://x.com/KDVR/status/2118567814940459034",
+                "label": "KDVR FOX31: Lakewood agent died; 3 officers + civilian injured; suspect dead"
+              },
+              {
+                "url": "https://x.com/TotalTrafficDEN/status/2118627119764783305",
+                "label": "Total Traffic Denver: Wadsworth closures for police activity"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "FBI/CISA cold-chain OT cyber advisory remains active; no major new U.S. OT hit confirmed this window",
+            "location": "United States (nationwide advisory)",
+            "type": "Cyber",
+            "summary": "The Nov 5 FBI Cyber Branch / CISA joint warning on industrial refrigeration and cold-chain controllers remains the standing U.S. cyber advisory already logged. Secondary X discussion continued overnight; no newly corroborated large-scale U.S. grocery/hospital cold-storage compromise surfaced in this 4am ET sweep beyond the prior advisory.",
+            "status": "Official multi-agency advisory remains in effect; monitoring for further OT impacts",
+            "links": [
+              {
+                "url": "https://x.com/FBICyberBranch/status/2118468417413918915",
+                "label": "FBI Cyber Branch (verified): cold-chain refrigeration OT warning"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Election watch: no official voting-location outages meeting the bar this window",
+            "location": "United States (post–Nov 3, 2026 Election Day residual watch)",
+            "type": "Election",
+            "summary": "Searched for polling-place closures, e-pollbook/equipment failures, power or network outages at voting sites, evacuations/threats, and incident-driven long delays. No county election office, Secretary of State, or other official confirmation of a voting-location disruption meeting the Emergency bar appeared in this window. Partisan fraud-claim posts without official corroboration were ignored.",
+            "status": "No qualifying official reports this sweep",
+            "links": []
+          }
+        ],
+        "Europe": [
+          {
+            "severity": "MONITORING",
+            "title": "Bus crash in eastern France near Switzerland; authorities report several victims",
+            "location": "Eastern France near Swiss border",
+            "type": "Other",
+            "summary": "Reuters (verified) reported early Friday that a bus crashed in eastern France near Switzerland and that local authorities said there were 'several victims.' Casualty counts, cause, and exact commune were not yet detailed in the breaking wire. Treat as early official-wire reporting pending fuller figures.",
+            "status": "Early reports — Reuters breaking; scale under investigation",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2118630275513295177",
+                "label": "Reuters (verified): bus crash eastern France; several victims"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "UK Bonfire Night disorder: Meadow Well / Glasgow items stand; ITV follows police criticism",
+            "location": "United Kingdom (Meadow Well, North Shields; Glasgow)",
+            "type": "Unrest",
+            "summary": "No major new wave beyond the already-logged Glasgow police-vehicle fire and Meadow Well Bonfire Night disorder. ITV News Tyne Tees (verified) continued Friday coverage that police criticised 'unacceptable' violence in Meadow Well. Prior MEDIUM Glasgow/Meadow Well entries from the 2:00 AM ET run remain the primary logs.",
+            "status": "Prior incidents stand; follow-up coverage; no confirmed large-scale citywide escalation this window",
+            "links": [
+              {
+                "url": "https://x.com/itvtynetees/status/2118625663976362435",
+                "label": "ITV Tyne Tees (verified): police criticise Meadow Well violence"
+              }
+            ]
+          }
+        ],
+        "Russia": [
+          {
+            "severity": "MEDIUM",
+            "title": "UPDATE: Russian strikes cause new power outages in 7 Ukrainian regions; Kyiv area worst hit",
+            "location": "Ukraine (Kyiv area and six other regions; Vinnytsia named in secondary reports)",
+            "type": "Power Outage",
+            "summary": "Reuters (verified) and Al Arabiya English (verified) report that Russian attacks on energy infrastructure caused new power outages in seven Ukrainian regions, with the Kyiv area worst hit, citing Ukraine’s deputy energy minister (Artem Nekrasov in secondary wires). This is a material scale update to the already-logged Kyiv blackout/water-stress MONITORING item. Exact customer counts and restoration timelines were not in the Reuters post text.",
+            "status": "Official Ukrainian energy statement via major wires; outages ongoing",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2118629564691738813",
+                "label": "Reuters (verified): new outages in 7 Ukrainian regions; Kyiv worst"
+              },
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2118614336390209607",
+                "label": "Al Arabiya English (verified): outages in seven regions including Kyiv"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "UPDATE: Afipsky oil refinery strike/fire coverage continues; TVP World circulates overnight imagery",
+            "location": "Afipsky Oil Refinery, Krasnodar Krai, Russia",
+            "type": "Infrastructure",
+            "summary": "Follow-on to the already-logged overnight Ukrainian drone strike and fire at Afipsky. TVP World and other monitors continued Friday morning posts describing flames/smoke at the Krasnodar-region refinery and related southern Russia reports; production-damage assessment still unconfirmed officially in this window. Distinct from the separate seven-region Ukraine grid outages item.",
+            "status": "Developing — fire/strike already logged; damage assessment ongoing",
+            "links": [
+              {
+                "url": "https://x.com/TVPWorld_com/status/2118625548108747091",
+                "label": "TVP World: Afipsky refinery strike; flames/smoke footage described"
+              }
+            ]
+          }
+        ],
+        "Middle East": [
+          {
+            "severity": "MEDIUM",
+            "title": "Saudi-led coalition: two Houthi ballistic missiles toward Najran intercepted; debris damage assessed",
+            "location": "Najran province, southwestern Saudi Arabia",
+            "type": "Other",
+            "summary": "NEW relative to the already-logged Medina-region intercept: Saudi-led coalition spokesman Turki al-Maliki said air defenses intercepted and destroyed two Houthi ballistic missiles targeting Najran. Anadolu Agency and TRT World (both verified) reported debris fell after the interceptions with damage being assessed; Saudi Civil Defense had issued warnings. Distinct from the Nov 5 Medina-area intercept already in the 2:00 AM ET entry.",
+            "status": "Official coalition statement via verified wires; damage assessment ongoing",
+            "links": [
+              {
+                "url": "https://x.com/anadoluagency/status/2118619155364552910",
+                "label": "Anadolu English (verified): two Houthi missiles toward Najran intercepted"
+              },
+              {
+                "url": "https://x.com/trtworld/status/2118623798941340134",
+                "label": "TRT World (verified): coalition intercepts two ballistic missiles at Najran"
+              }
+            ]
+          },
+          {
+            "text": "No material change this window to the already-logged Iraq nuclear-emergency NOTAM item or the tanker attack north of Qatar (one seafarer missing). Residual secondary posts continue without new official scale figures meeting an upgrade."
+          }
+        ],
+        "Africa": [
+          {
+            "text": "No new Africa items meeting the bar this window. Routine municipal outage notices (e.g., Johannesburg City Power / Ekurhuleni) and chronic Nigeria power frustration do not clear the major/disruptive threshold. Prior MEDIUM Egypt border-guard and Kenya Lamu items stand."
+          }
+        ],
+        "South America": [
+          {
+            "text": "No new South America items meeting the bar this window. Prior Falcón, Venezuela blackout-related road blockades remain the last logged regional item."
+          }
+        ]
+      },
+      "trending": [
+        {
+          "severity": "HIGH",
+          "title": "Western Japan: 128 shinkin credit unions hit by Shinkin Joint Center outage — ATMs, counters, online banking down",
+          "location": "Western Japan (Tokai region westward through Kyushu; East Japan / major banks unaffected)",
+          "type": "Infrastructure",
+          "summary": "NEW: A communications-equipment failure at the Shinkin Joint Center (West Japan) disrupted services at 128 credit unions (shinkin banks) from about 1:30–1:35 p.m. JST on Nov 6. ATMs, branch counters, transfers, and internet banking were halted. Bloomberg (via Insider Paper, verified), Mainichi (verified), NHK-cited reporting, and Shinkin Central Bank / Joint Center statements say the cause is equipment failure and not a cyberattack. PayPay paused related credit-union charges. Restoration timeline was unclear for hours; some secondary posts claimed partial recovery later Friday afternoon — treat restoration as unconfirmed unless official. Asia falls outside the six regional buckets, so this is logged under Trending.",
+          "status": "Confirmed by major Japanese and international wires + operator statements; not attributed to cyberattack",
+          "links": [
+            {
+              "url": "https://x.com/TheInsiderPaper/status/2118625962384609384",
+              "label": "Insider Paper (verified): Bloomberg — 128 shinkin banks ATM/counter outage"
+            },
+            {
+              "url": "https://x.com/mainichi/status/2118618911440814427",
+              "label": "Mainichi (verified): 128 credit unions; not a cyberattack per center"
+            },
+            {
+              "url": "https://x.com/sore_shirabeta/status/2118626144056471956",
+              "label": "Update citing Shinkin Central Bank/Joint Center: equipment failure, not cyber"
+            },
+            {
+              "url": "https://x.com/sore_shirabeta/status/2118582525241298965",
+              "label": "NHK-linked alert: 128 western Japan credit unions down"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "datetime": "2026-11-06T02:00:00-05:00",
       "regions": {
         "America": [
