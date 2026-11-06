@@ -1,6 +1,6 @@
-# Virginia 2027 bills — preview data contract
+# Virginia 2027 bills — data contract
 
-Preview only. The page at `/virginia-2027-bills` lists **new 2027 filings**. It does not list measures carried over from 2026. Do not merge this to production until Scott approves. Do not copy raw LIS CSV files into this repo or into `public/`.
+The public page at `/virginia-2027-bills` lists **new 2027 filings**. It does not list measures carried over from 2026. Do not copy raw LIS CSV files into this repo or into `public/`.
 
 The React page, filters, and counts read one file:
 
@@ -93,9 +93,9 @@ They are not LIS subject codes. Confidence stays the value in the file:
 
 Do not invent a summary, a sponsor, a status, a party, or a subject to fill a hole. Leave the null and let the page say it is missing.
 
-## Preview boundaries
+## Page
 
-- Route is `noindex`, so the sitemap builder leaves it out.
+- The route is public. The sitemap builder includes it.
 - Home links to it. Other Resources and the footer Virginia column do too.
 - Build check for this page is `npx vite build`.
-- Do not merge the pull request and do not deploy production from it.
+- Official LIS links, the capture time, editorial categories, and missing-data notes stay on the page. Do not fill a blank with a guessed summary, sponsor, status, or party.

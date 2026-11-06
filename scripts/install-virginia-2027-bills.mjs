@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Install a new-filings ledger into the preview page.
+ * Install a new-filings ledger into the public tracker.
  *
  * Usage:
  *   node scripts/install-virginia-2027-bills.mjs path/to/bills-new-2027.json

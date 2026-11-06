@@ -1,5 +1,5 @@
 /**
- * Virginia 2027 new-filing ledger. Pure readers for the preview page.
+ * Virginia 2027 new-filing ledger. Pure readers for the public tracker.
  * The page renders `src/content/virginia-2027-bills.json` only.
  * Refreshing that file (see docs/virginia-2027-bills.md) does not require
  * editing this module as long as the fields below stay present.
@@ -87,7 +87,7 @@ export type Counted = { value: string; label: string; count: number };
 
 const NEW_FILING = "new_2027_filing";
 
-/** Rows this preview is allowed to show. Carryovers never pass. */
+/** Rows this page is allowed to show. Carryovers never pass. */
 export function isNewFiling(bill: BillRecord): boolean {
   return bill.filing_class === NEW_FILING && bill.carried_over === false;
 }

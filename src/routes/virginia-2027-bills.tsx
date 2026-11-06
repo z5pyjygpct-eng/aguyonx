@@ -38,13 +38,12 @@ export const Route = createFileRoute("/virginia-2027-bills")({
   }),
   head: () => ({
     meta: [
-      { title: "Virginia 2027 bills (preview) · A Guy on X" },
+      { title: "Virginia 2027 bills · A Guy on X" },
       {
         name: "description",
         content:
-          "Preview of new 2027 Regular Session filings from the Virginia Legislative Information System. Continued bills are not included. Categories are editorial, not LIS subjects.",
+          "New 2027 Regular Session filings from the Virginia Legislative Information System. Continued bills are not included. Categories are editorial, not LIS subjects.",
       },
-      { name: "robots", content: "noindex" },
     ],
   }),
   component: Virginia2027BillsPage,
@@ -85,7 +84,7 @@ function Virginia2027BillsPage() {
           <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
           <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8">
             <Breadcrumbs items={[{ label: "Virginia 2027 bills" }]} />
-            <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">Preview · LIS session {LEDGER.meta.session_code}</p>
+            <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">LIS session {LEDGER.meta.session_code}</p>
             <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">
               Virginia 2027 <span className="text-gold">bills</span>
             </h1>
@@ -111,7 +110,6 @@ function Virginia2027BillsPage() {
         </section>
 
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-8">
-          <p className="inline-block rounded bg-flag px-2 py-0.5 font-mono text-[11px] font-bold tracking-wider text-white uppercase">Preview only</p>
           {withheld > 0 ? (
             <p className="mt-3 rounded-xl border border-flag bg-[#3a1020] px-4 py-3 text-sm" role="status">
               {withheld} {withheld === 1 ? "row was" : "rows were"} withheld because {withheld === 1 ? "it is" : "they are"} not a new 2027 filing. Carryovers are not shown.
