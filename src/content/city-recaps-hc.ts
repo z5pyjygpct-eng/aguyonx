@@ -64215,5 +64215,109 @@ export const HC_RECAPS: CityRecap[] = [
     },
     "shareContext": "PWCS, Jan 11, 2023",
     "moments": []
+  },
+  {
+    "slug": "fxco-sb-AodkWymLx78",
+    "meetingId": "fxco-sb-AodkWymLx78",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Administration Committee Meeting",
+    "dateLabel": "Wednesday, November 4, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 59m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 6, 2026, 7:55 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=AodkWymLx78"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-04-fairfax-county-school-board-administration-committee-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-04-fairfax-county-school-board-administration-committee-meeting.txt",
+      "pdfNote": "13 pages"
+    },
+    "shareContext": "FCPS, Nov 4, 2026",
+    "moments": [
+      {
+        "seconds": 232,
+        "label": "Closed-meeting certification."
+      },
+      {
+        "seconds": 280,
+        "label": "Approval of September 2, 2026 committee minutes."
+      },
+      {
+        "seconds": 319,
+        "label": "Update to Policy 1819 before full board consideration."
+      },
+      {
+        "seconds": 388,
+        "label": "Committee discussion / SOPs for board approval."
+      },
+      {
+        "seconds": 3533,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-M78osTz6R6U",
+    "meetingId": "fxco-sb-M78osTz6R6U",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Administration Committee Meeting — Announcement of Closed",
+    "dateLabel": "Wednesday, November 4, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 9m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 6, 2026, 7:55 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=M78osTz6R6U"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-04-fairfax-county-school-board-administration-committee-meeting-announcement-of-closed.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-04-fairfax-county-school-board-administration-committee-meeting-announcement-of-closed.txt",
+      "pdfNote": "2 pages"
+    },
+    "shareContext": "FCPS, Nov 4, 2026",
+    "moments": [
+      {
+        "seconds": 377,
+        "label": "Meeting called to order."
+      },
+      {
+        "seconds": 423,
+        "label": "Remote participation confirmation."
+      },
+      {
+        "seconds": 442,
+        "label": "Motion to recess into closed meeting."
+      },
+      {
+        "seconds": 523,
+        "label": "Recess to closed session."
+      }
+    ]
   }
 ];

@@ -10041,5 +10041,25 @@ export const HC_FTM_TRANSCRIPTS: FtmTranscript[] = [
     "engine": "whisper.cpp · large-v3-turbo",
     "generated": "2026-11-04",
     "sourceFile": "pwc-sb-yOwKUhF6Tnw.srt"
+  },
+  {
+    "meetingId": "fxco-sb-AodkWymLx78",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-AodkWymLx78.json",
+    "windowCount": 99,
+    "wordCount": 7675,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-11-05",
+    "sourceFile": "fxco-sb-AodkWymLx78.srt"
+  },
+  {
+    "meetingId": "fxco-sb-M78osTz6R6U",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-M78osTz6R6U.json",
+    "windowCount": 5,
+    "wordCount": 380,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-11-05",
+    "sourceFile": "fxco-sb-M78osTz6R6U.srt"
   }
 ];

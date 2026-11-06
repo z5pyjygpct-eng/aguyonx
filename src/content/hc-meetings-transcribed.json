@@ -10374,5 +10374,25 @@
     "duration": "1h 32m",
     "provider": "youtube",
     "playerUrl": "https://www.youtube.com/watch?v=yOwKUhF6Tnw"
+  },
+  {
+    "id": "fxco-sb-AodkWymLx78",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Administration Committee Meeting",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 4, 2026",
+    "duration": "59m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=AodkWymLx78"
+  },
+  {
+    "id": "fxco-sb-M78osTz6R6U",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Administration Committee Meeting — Announcement of Closed",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 4, 2026",
+    "duration": "9m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=M78osTz6R6U"
   }
 ]
