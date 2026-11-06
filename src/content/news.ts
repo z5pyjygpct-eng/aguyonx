@@ -56,6 +56,36 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "scc-hearing-dominion-nextera-higher-bills-vamercury-2026-11-06",
+    date: "2026-11-06",
+    filed: "2026-11-06",
+    headline: "At SCC hearing, Virginians say Dominion-NextEra merger could mean higher bills, new risk",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/06/at-scc-hearing-virginians-say-dominion-nextera-merger-could-mean-higher-bills-new-risk/",
+    people: [],
+    scope: "statewide",
+  },
+  {
+    id: "county-towns-cannabis-ordinances-loudounnow-2026-11-05",
+    date: "2026-11-05",
+    filed: "2026-11-06",
+    headline: "County, Towns Move to Enact Cannabis Ordinances Following State Changes",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/county-towns-move-to-enact-cannabis-ordinances-following-state-changes/article_cb471ecf-7d2e-4da5-a4de-2bc47b92ab40.html",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "protesters-rally-against-trumps-arch-arlnow-2026-11-05",
+    date: "2026-11-05",
+    filed: "2026-11-06",
+    headline: "Protesters rally against Trump's arch ahead of key decision from federal panel",
+    outlet: "ARLnow",
+    url: "https://www.arlnow.com/2026/11/05/protesters-rally-against-trumps-arch-ahead-of-key-decision-from-federal-panel/",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "breaking-police-investigating-shooting-in-arlington-arlnow-2026-11-05",
     date: "2026-11-05",
     filed: "2026-11-06",
