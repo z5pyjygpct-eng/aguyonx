@@ -1,6 +1,322 @@
 {
   "entries": [
     {
+      "datetime": "2026-11-06T08:00:00-05:00",
+      "regions": {
+        "America": [
+          {
+            "severity": "HIGH",
+            "title": "Lakewood CO: agent killed in line of duty; national coverage continues; no casualty upgrade",
+            "location": "Lakewood, Colorado (West Colfax Ave & Wadsworth Blvd / RTD bus)",
+            "type": "Other",
+            "summary": "CONTINUATION of the Thursday evening shooting already logged HIGH: Lakewood PD previously confirmed one agent died of injuries, three agents hospitalized, a bystander injured, and the suspect killed after opening fire when agents contacted him boarding an RTD bus. In this 8:00 AM ET window Fox News, the Denver Post, Breaking911, and Adams County Sheriff reiterated the same casualty picture and condolences. No official revision to deaths, officer conditions, or suspect status.",
+            "status": "Active investigation; officer fatality confirmed; no material upgrade vs 6am",
+            "links": [
+              {
+                "url": "https://x.com/LakewoodPDCO/status/2118604498381967383",
+                "label": "Lakewood PD (verified): agent shot and killed in line of duty"
+              },
+              {
+                "url": "https://x.com/FoxNews/status/2118677257208107507",
+                "label": "Fox News: 1 officer killed, 3 wounded; suspect dead; bystander injured"
+              },
+              {
+                "url": "https://x.com/denverpost/status/2118689511907471639",
+                "label": "Denver Post: Lakewood agent killed; three wounded on RTD bus boarding"
+              },
+              {
+                "url": "https://x.com/AdamsCoSheriff/status/2118691200240615845",
+                "label": "Adams County Sheriff (verified): condolences for fallen Lakewood agent"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "FBI/CISA cold-chain OT cyber advisory remains active; no major new U.S. OT hit confirmed this window",
+            "location": "United States (nationwide advisory)",
+            "type": "Cyber",
+            "summary": "The Nov 5 FBI Cyber Branch / CISA joint warning on industrial refrigeration and cold-chain controllers remains the standing U.S. cyber advisory already logged. X News summaries continued Friday morning; no newly corroborated large-scale U.S. grocery, hospital, or blood-bank cold-storage compromise surfaced in this 8am ET sweep beyond the prior advisory.",
+            "status": "Official multi-agency advisory remains in effect; monitoring for further OT impacts",
+            "links": [
+              {
+                "url": "https://x.com/FBICyberBranch/status/2118468417413918915",
+                "label": "FBI Cyber Branch (verified): cold-chain refrigeration OT warning"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Election watch: no official voting-location outages meeting the bar this window",
+            "location": "United States (post–Nov 3, 2026 Election Day residual watch)",
+            "type": "Election",
+            "summary": "Searched for polling-place closures, e-pollbook/equipment failures, power or network outages at voting sites, evacuations/threats, and incident-driven long delays. No county election office, Secretary of State, or other official confirmation of a voting-location disruption meeting the Emergency bar appeared in this window. Partisan fraud-claim posts without official corroboration were ignored.",
+            "status": "No qualifying official reports this sweep",
+            "links": []
+          }
+        ],
+        "Europe": [
+          {
+            "severity": "MEDIUM",
+            "title": "NEW: Lyon Lycée Édouard-Herriot entrance set on fire during student blockade; pupils evacuated",
+            "location": "Lycée Édouard-Herriot, 6th arrondissement, Lyon, France",
+            "type": "Unrest",
+            "summary": "NEW: During Friday morning lycée blockades, fires at the entrance of Lycée Édouard-Herriot ignited the main door/façade while classes were underway. Le Progrès Lyon and Le Progrès (verified) reported considerable damage and emergency evacuation of students who had been in class. BFMTV (verified) reported four people arrested in the Rhône amid lycée unrest and the Herriot door fire. No injuries reported in reviewed verified posts; firefighters extinguished the blaze.",
+            "status": "Confirmed by local verified press — entrance damaged; students evacuated; no injuries in reviewed posts; arrests ongoing",
+            "links": [
+              {
+                "url": "https://x.com/leprogreslyon/status/2118651664483623063",
+                "label": "Le Progrès Lyon (verified): door in flames; considerable damage"
+              },
+              {
+                "url": "https://x.com/leprogreslyon/status/2118657580113289567",
+                "label": "Le Progrès Lyon (verified): students evacuated urgently"
+              },
+              {
+                "url": "https://x.com/Le_Progres/status/2118674112688320512",
+                "label": "Le Progrès (verified): door in flames; considerable damage"
+              },
+              {
+                "url": "https://x.com/BFMTV/status/2118662363326935491",
+                "label": "BFMTV (verified): four arrested in Rhône; Herriot door burned"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "UPDATE: Ireland/UK media bomb-threat wave — Sky confirms UK security threat; RTÉ staff returning; FT links to Europe flight-hoax wave",
+            "location": "Dublin, Ireland (RTÉ Donnybrook and other newsrooms); United Kingdom (Sky)",
+            "type": "Other",
+            "summary": "Material update to the 6:00 AM ET Ireland RTÉ/multi-outlet MEDIUM. Al Arabiya English (verified) reported British broadcaster Sky confirmed receiving a security threat hours after RTÉ’s evacuation. Financial Times reported Friday bomb threats forced Irish newsroom evacuations including RTÉ as European airlines/airports faced fresh disruption after earlier-week hoaxes. RTÉ News cited Taoiseach Micheál Martin calling threats to RTÉ and other media 'worrying.' Mid-day reports said staff were allowed back onto the RTÉ campus and the 1pm TV news returned. No device confirmation in posts reviewed.",
+            "status": "Confirmed multi-outlet evacuations; Sky threat via wires; RTÉ re-entry underway; no confirmed devices in reviewed posts",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2118682651200520629",
+                "label": "Al Arabiya English (verified): Sky received security threat after RTE evacuation"
+              },
+              {
+                "url": "https://x.com/FT/status/2118689903558971858",
+                "label": "Financial Times: Irish newsrooms incl. RTÉ evacuated; Europe aviation disruption"
+              },
+              {
+                "url": "https://x.com/rtenews/status/2118687468623118828",
+                "label": "RTÉ News: Taoiseach Micheál Martin — threats 'worrying'; taken seriously"
+              },
+              {
+                "url": "https://x.com/FT/status/2118681394050203941",
+                "label": "Financial Times: new wave targets Irish media and EU flights"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "UPDATE: Europe flight bomb-hoax wave continues Friday — French PM cites threats over France; Prague–Rome divert",
+            "location": "Europe (France airspace; Czechia/Italy; multi-country wave)",
+            "type": "Other",
+            "summary": "Continuation of the already-logged Europe flight bomb-hoax wave. Sky News (verified) reported French Prime Minister Sébastien Lecornu said bomb threats were made against aircraft flying over France. Reuters (verified) reported a Prague–Rome flight diverted to Venice after a bomb scare. FT linked aviation disruption to the same Friday wave affecting Irish media. No explosives confirmed in reviewed posts; pattern remains a disruptive hoax wave.",
+            "status": "Confirmed Friday continuation via Sky (Lecornu) and Reuters diversion — no devices found in reviewed accounts",
+            "links": [
+              {
+                "url": "https://x.com/SkyNews/status/2118663445587341792",
+                "label": "Sky News (verified): Lecornu — bomb threats against aircraft over France"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2118659820911759458",
+                "label": "Reuters (verified): Prague–Rome bomb scare forces divert to Venice"
+              },
+              {
+                "url": "https://x.com/FT/status/2118689903558971858",
+                "label": "FT: airlines/airports across Europe face fresh disruption"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Eastern France Lent school-bus crash — toll unchanged (child + young adult dead; ~16 injured)",
+            "location": "Near Lent, Ain department, eastern France",
+            "type": "Other",
+            "summary": "Residual coverage of the already-logged 6:00 AM ET MEDIUM. Wire recirculation continues to cite two dead (minor and young adult) and about 16 injured. No verified toll upgrade or new cause finding meeting a severity change in this window.",
+            "status": "Confirmed prior toll stands — investigation ongoing; no material upgrade",
+            "links": [
+              {
+                "url": "https://x.com/SkyNews/status/2118657998675423318",
+                "label": "Sky News (verified): child + young adult dead near Lent"
+              },
+              {
+                "url": "https://x.com/France24_en/status/2118655100663333109",
+                "label": "France 24 English (verified): ≥2 killed, 16 injured"
+              }
+            ]
+          },
+          {
+            "text": "No material new wire this window on the already-logged Crédit Mutuel Arkéa ~€100M cyber theft. UK Bonfire Night residual (Glasgow/Meadow Well) remains below a new escalation. Residual secondary posts continue without a scale upgrade."
+          }
+        ],
+        "Russia": [
+          {
+            "severity": "MEDIUM",
+            "title": "UPDATE: Ukraine multi-region power/water stress; Zelenskyy says Kyiv situation worst",
+            "location": "Ukraine (Kyiv worst; multi-region outages continue)",
+            "type": "Power Outage",
+            "summary": "CONTINUATION of the already-logged seven-region outage picture. President Zelenskyy (verified) said he held a coordination call on restoring energy after Russian strikes and that the situation is worst in Kyiv, with prolonged power and water outages for people and businesses. He also cited local winter-preparation gaps alongside the Russian operation against energy infrastructure. Prior Reuters seven-region and ASTRA ~50k Dnipropetrovsk figures still stand; no new independent national customer-total upgrade in this window.",
+            "status": "Ongoing — Zelenskyy confirms Kyiv as worst; restoration efforts continuing",
+            "links": [
+              {
+                "url": "https://x.com/ZelenskyyUa/status/2118683012602761709",
+                "label": "Zelenskyy (verified): Kyiv worst — prolonged power and water outages"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2118629564691738813",
+                "label": "Reuters (verified, prior): new outages in 7 Ukrainian regions; Kyiv worst"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Afipsky oil refinery strike/fire — Bloomberg frames intensifying Ukraine energy-plant campaign",
+            "location": "Afipsky Oil Refinery, Krasnodar Krai, Russia",
+            "type": "Infrastructure",
+            "summary": "Follow-on to the already-logged HIGH Ukrainian drone strike/fire at Afipsky. Bloomberg (verified) reported Ukraine attacked a sixth Russian crude-processing plant in the past week as Kyiv’s campaign against energy facilities intensifies. No stronger official Russian production-damage confirmation or new separate HIGH facility event established in this window. Distinct from the separate Ukraine grid-outages item.",
+            "status": "Developing — already-logged HIGH continues; damage assessment still unconfirmed officially",
+            "links": [
+              {
+                "url": "https://x.com/business/status/2118688614125076659",
+                "label": "Bloomberg (verified): Ukraine hit sixth Russian crude-processing plant in a week"
+              }
+            ]
+          }
+        ],
+        "Middle East": [
+          {
+            "severity": "MONITORING",
+            "title": "NEW: Drone attack reported on Iranian Kurdish opposition HQ east of Erbil",
+            "location": "East of Erbil, Erbil Governorate, Iraqi Kurdistan",
+            "type": "Other",
+            "summary": "NEW: Al Arabiya English (verified) BREAKING cited a security source saying a drone attack targeted the headquarters of the Iranian Kurdish opposition east of Erbil. i24NEWS English amplified matching reporting citing Al Arabiya. No casualty figures, damage assessment, or multi-wire confirmation (Reuters/AFP/AP) appeared in this sweep. Distinct from the already-logged Mecca-region drone and Najran missile intercepts.",
+            "status": "Early Al Arabiya security-source report; casualties and perpetrator unconfirmed",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2118676476836856245",
+                "label": "Al Arabiya English (verified): drone attack on Iranian Kurdish opposition HQ east of Erbil"
+              },
+              {
+                "url": "https://x.com/i24NEWS_EN/status/2118677510544294155",
+                "label": "i24NEWS English: amplifies Al Arabiya Erbil drone report"
+              }
+            ]
+          },
+          {
+            "text": "No material change to the already-logged Mecca-region drone intercept (MEDIUM) or Najran two-missile intercept (MEDIUM). Iraq NOTAM / tanker residual items show only secondary recirculation without a further scale upgrade. Unverified Hormuz undersea-cable sabotage framing ignored."
+          }
+        ],
+        "Africa": [
+          {
+            "severity": "MEDIUM",
+            "title": "NEW: Ethiopia Arsi Zone — reports of ~34 Orthodox Christian bodies recovered in Robe Woreda after Nov 5 attack",
+            "location": "Robe Woreda / Indeto, East Arsi Zone, Oromia Region, Ethiopia",
+            "type": "Unrest",
+            "summary": "NEW: Elias Meseret (former AP Ethiopia reporter) and Orthodoxy Daily News reported that about 34 Christian bodies were recovered in Robe Woreda after a Nov 5 attack, days after earlier Arsi Zone massacres that killed dozens of Orthodox believers. TesfaNews reported fresh deadly attacks in Indeto/Robe with casualty figures still unconfirmed. No Reuters/AFP/AP wire match found in this window — treat as developing mass-casualty communal violence pending major-wire confirmation. Higher secondary single-assault claims remain unreconciled.",
+            "status": "Credible regional/journalist corroboration; exact toll still reconciling; no major global wire yet",
+            "links": [
+              {
+                "url": "https://x.com/EliasMeseret/status/2118664425355755881",
+                "label": "Elias Meseret: 34 more Christian bodies in Robe Woreda, Arsi"
+              },
+              {
+                "url": "https://x.com/OrthodoxyNews/status/2118641847413379142",
+                "label": "Orthodoxy Daily News: Nov 5 Robe Woreda attack; 34 bodies recovered"
+              },
+              {
+                "url": "https://x.com/tesfanews/status/2118651480370827417",
+                "label": "TesfaNews: fresh deadly attacks Indeto/Robe, Arsi — tolls unconfirmed"
+              }
+            ]
+          },
+          {
+            "text": "No other Africa items meeting the bar this window. Chronic Nigeria grid frustration and routine municipal notices remain below the major/disruptive threshold. Prior MEDIUM Egypt/Kenya items stand."
+          }
+        ],
+        "South America": [
+          {
+            "text": "CONTINUATION only (NOT NEW HIGH): Paraguay Ueno Bank / Peña political crisis remains the last major regional log. TN Todo Noticias reported Congress rejected processing President Santiago Peña’s resignation and is debating his request for more time to prepare an impeachment defense. No confirmed new bank-run scale upgrade beyond the already-logged crisis. Prior Falcón, Venezuela blackout-related items unchanged."
+          }
+        ]
+      },
+      "trending": [
+        {
+          "severity": "HIGH",
+          "title": "UPDATE: Western Japan 128 shinkin fully restored ~7:05 p.m. JST; equipment failure, not cyber",
+          "location": "Western Japan (Tokai westward through Kyushu; East Japan / major banks unaffected)",
+          "type": "Infrastructure",
+          "summary": "CONTINUATION / recovery of the already-logged and previously alerted Shinkin Joint Center outage affecting 128 western Japan credit unions. Livedoor News (verified) and other Japanese wires reported full restoration around 7:05 p.m. JST after about 5.5 hours; cause described as equipment failure, not unauthorized access. NOT a NEW HIGH vs prior alerts.",
+          "status": "Fully restored per Japanese wires — equipment failure, not cyberattack",
+          "links": [
+            {
+              "url": "https://x.com/livedoornews/status/2118686083525296159",
+              "label": "Livedoor News (verified): ~5.5h outage; full restore 7:05pm; equipment failure"
+            },
+            {
+              "url": "https://x.com/nikkei/status/2118657663194034445",
+              "label": "Nikkei (verified, prior): western Japan 128 shinkin joint-system outage restored"
+            },
+            {
+              "url": "https://x.com/nhk_news/status/2118645336126509352",
+              "label": "NHK (prior): 128 shinkin restored except other-institution transfers"
+            }
+          ]
+        },
+        {
+          "severity": "MEDIUM",
+          "title": "UPDATE: NTT Docomo confirms ~290k customer-data leak after unauthorized access; CEO apology",
+          "location": "Japan (nationwide Docomo)",
+          "type": "Cyber",
+          "summary": "Material CONTINUATION of the Nov 5 Docomo disruption item. NHK and Nikkei (verified) report unauthorized access led to leakage of up to about 290,000 customer records (including ID-document numbers); the company president apologized. Separately, the Nov 5 nationwide mobile disruption was reported restored early Nov 6. Distinct from the western Japan shinkin equipment outage.",
+          "status": "Confirmed major Japanese wire coverage of leak + CEO apology; monitoring for further scale revisions",
+          "links": [
+            {
+              "url": "https://x.com/nhk_news/status/2118652883696771365",
+              "label": "NHK: max ~290k+ customer info leaked; president apologizes"
+            },
+            {
+              "url": "https://x.com/nikkei/status/2118646869693771973",
+              "label": "Nikkei (verified): Docomo leak includes ID-document numbers; CEO apology"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "Assam, India: Oil India Tengakhat tank-farm fire — company/PTI/Reuters Asia confirm 1 dead, 6 injured",
+          "location": "Tengakhat Intermediate Tank Farm, Dibrugarh district, Assam, India",
+          "type": "Infrastructure",
+          "summary": "CONTINUATION of the 6:00 AM ET MONITORING item. PTI cites Oil India: fire ~9:05 a.m. during maintenance; one contractor employee (Raju Dutta) killed; six others with burn injuries. Reuters Asia echoes one dead, six injured. Industrial accident framing; not terror. Toll aligns with the common 6am figure — no material upgrade.",
+          "status": "Company statement via PTI + Reuters Asia; investigation ongoing",
+          "links": [
+            {
+              "url": "https://x.com/PTI_News/status/2118673638740431178",
+              "label": "PTI: Oil India statement — 1 dead (Raju Dutta), 6 burn injuries"
+            },
+            {
+              "url": "https://x.com/ReutersAsia/status/2118690063789727927",
+              "label": "Reuters Asia: one dead, six injured at Oil India Assam facility"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "South Korea: Gopax crypto exchange halts deposits/withdrawals/trading after hacking-threat email",
+          "location": "South Korea (Gopax)",
+          "type": "Cyber",
+          "summary": "NEW: WatcherGuru (verified) reports Gopax halted withdrawals after a hacking-threat email. Secondary reporting says deposits/trading also paused, no asset loss confirmed, and funds are moving to cold storage. Precautionary halt — not a confirmed breach of critical civic infrastructure.",
+          "status": "Exchange precautionary halt widely reported; no confirmed funds loss in reviewed posts",
+          "links": [
+            {
+              "url": "https://x.com/WatcherGuru/status/2118651788949630989",
+              "label": "WatcherGuru (verified): Gopax halts withdrawals after hacking threat"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "datetime": "2026-11-06T06:00:00-05:00",
       "regions": {
         "America": [
