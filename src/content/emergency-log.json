@@ -1,6 +1,307 @@
 {
   "entries": [
     {
+      "datetime": "2026-11-06T00:00:00-05:00",
+      "regions": {
+        "America": [
+          {
+            "severity": "HIGH",
+            "title": "Lakewood CO police shooting: 1 officer killed, 3 wounded, civilian injured; suspect dead",
+            "location": "Lakewood, Colorado (West Colfax Ave & Wadsworth Blvd; RTD Route 76 bus)",
+            "type": "Other",
+            "summary": "On the evening of Thursday, November 5, 2026, Lakewood police responded to a suspicious-person call near West Colfax Avenue and Wadsworth Boulevard. Officials and local outlets report one Lakewood police agent killed, three other officers hospitalized, a civilian injured, and the suspect dead after a shooting involving an RTD-contracted bus. Denver Health confirmed patients from the incident; RTD issued a statement of concern about the Route 76 shooting.",
+            "status": "Active investigation; officer fatality confirmed by department via local media; suspect deceased",
+            "links": [
+              {
+                "url": "https://x.com/KDVR/status/2118567814940459034",
+                "label": "KDVR FOX31: Lakewood agent died; 3 officers + civilian injured; suspect dead"
+              },
+              {
+                "url": "https://x.com/BNONews/status/2118567253276791055",
+                "label": "BNO News: Officer killed, 3 hospitalized after bus shooting"
+              },
+              {
+                "url": "https://x.com/denverpost/status/2118560182590443804",
+                "label": "Denver Post: Denver7/Denver Health on officers shot"
+              },
+              {
+                "url": "https://x.com/denverpost/status/2118567763736195109",
+                "label": "Denver Post: Officers injured near West Colfax/Wadsworth"
+              },
+              {
+                "url": "https://x.com/Osint613/status/2118569092399649061",
+                "label": "OSINT613: Four officers shot, one dead; civilian injured; suspect killed"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "FBI/CISA joint alert: OT cyberattacks on industrial refrigeration / cold-chain systems",
+            "location": "United States (nationwide advisory); global cold-chain / grocery / healthcare OT",
+            "type": "Cyber",
+            "summary": "On November 5, 2026, FBI Cyber Branch and partners (CISA, HHS, USDA, DOT) warned of ongoing malicious cyber activity targeting industrial refrigeration and cold-chain temperature controllers used for food, medicine, and related critical infrastructure. Attackers exploit unpatched or internet-exposed controllers to force heating/defrost cycles, risking spoilage, equipment damage, and fire hazards. Recent confirmed impacts include European supermarket refrigeration compromises and a French blood-service cold-storage incident (products reportedly saved); secondary reporting also cites a Pentagon probe of earlier U.S. military commissary freezer failures. No official nation-state attribution in the FBI post.",
+            "status": "Active multi-agency advisory; global campaign ongoing; U.S. food/medicine/cold-storage operators urged to harden/isolate controllers",
+            "links": [
+              {
+                "url": "https://x.com/FBICyberBranch/status/2118468417413918915",
+                "label": "FBI Cyber Branch (verified): Official cold-chain refrigeration OT warning"
+              },
+              {
+                "url": "https://x.com/DarkWebInformer/status/2118450341356204490",
+                "label": "Dark Web Informer (verified): CISA/FBI warning; grocery, military, French blood bank"
+              },
+              {
+                "url": "https://x.com/lvpcfix/status/2118469377951781323",
+                "label": "Verified account: CISA+FBI+HHS+USDA+DOT joint fact sheet summary"
+              }
+            ]
+          }
+        ],
+        "Europe": [
+          {
+            "severity": "MEDIUM",
+            "title": "Europe flight bomb-hoax wave: ~27–30 flights hit Nov 5; “Male State” emails; EU aviation security sharing activated",
+            "location": "Europe (Ireland, Italy, UK, Poland, Spain, Bulgaria, Romania, others)",
+            "type": "Other",
+            "summary": "UPDATE to already-logged 27+ Europe flight bomb hoaxes / Aer Lingus EI402: overnight reporting and Reuters-cited tallies put Thursday’s second wave at roughly 27–30 passenger flights disrupted (diversions, fighter escorts, searches). No explosives found. Some threat emails reportedly signed “Fighters of the Male State,” linked to a banned Russian far-right/misogynist movement; attribution unconfirmed. Romanian intel noted additional threats including a KLM flight via Bucharest. EU reportedly activated aviation security information-sharing. All passengers safe.",
+            "status": "Developing — update to logged hoax wave; investigations ongoing, no confirmed hostile actor",
+            "links": [
+              {
+                "url": "https://x.com/volcaholic1/status/2118481554951606749",
+                "label": "volcaholic1 — Reuters: ≥27 flights affected, fighters scrambled, no explosives"
+              },
+              {
+                "url": "https://x.com/ILRedAlert/status/2118472696082149430",
+                "label": "ILRedAlert — Romanian intel: more planes incl. KLM; Reuters ≥27 flights"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2118426889266053580",
+                "label": "Reuters (verified) — explainer: wave of bomb threats against flights in Europe"
+              },
+              {
+                "url": "https://x.com/theinformant_x/status/2118529171270009060",
+                "label": "theinformant_x — “Fighters of the Male State” email signature claim"
+              },
+              {
+                "url": "https://x.com/HedgehogGeopol/status/2118516578845139071",
+                "label": "HedgehogGeopol — Reuters second-wave summary, no attribution yet"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "FBI/CISA warn on refrigeration OT cyberattacks after Europe supermarket and French blood-service incidents",
+            "location": "Europe / global (alert follows EU supermarket & France EFS cold-storage attacks)",
+            "type": "Cyber",
+            "summary": "Related to already-logged HIGH second-wave supermarket refrigeration cyberattacks and French blood-service cold-storage cyber: U.S. FBI and CISA issued a Nov 5 joint alert on malicious actors targeting electronic temperature controllers in grocery, cold storage, and healthcare. Europe incidents spoiled food stocks and attempted to overheat French blood/plasma storage (staff intervened; supplies saved). IBTimes UK and X News continued circulating the France blood-bank OT details overnight. Official guidance: isolate controllers, patch, change defaults, set safe temperature limits.",
+            "status": "Official warning issued — Europe incidents already logged; monitoring for further OT hits",
+            "links": [
+              {
+                "url": "https://x.com/IBTimesUK/status/2118547863986671792",
+                "label": "IBTimes UK — France blood storage refrigeration cyberattempt to 110°C"
+              }
+            ]
+          }
+        ],
+        "Russia": [
+          {
+            "severity": "HIGH",
+            "title": "Ukrainian drone strike sets Afipsky oil refinery ablaze overnight Nov 6 (Krasnodar Krai)",
+            "location": "Afipsky Oil Refinery, Krasnodar Krai, Russia",
+            "type": "Infrastructure",
+            "summary": "NEW overnight: Multiple OSINT/monitoring channels report Ukrainian long-range drones struck the Afipsky oil refinery in Krasnodar Krai in the early hours of 6 Nov 2026, with a large industrial fire and smoke; Exilenova+ posted attack and morning fire imagery. Plant is one of southern Russia’s largest (~6.25–7 Mt/yr crude; diesel, gasoline, fuel oil). Blyskavka also noted fires in Krasnodar and Adygea under clarification. Scale of production damage unconfirmed officially; 13th-ish strike on this site since 2023 per oil-war trackers. Distinct from already-logged Yaroslavl/Samara/Ryazan and Ozon Adygeysk fire.",
+            "status": "Developing — fire visually reported; damage assessment ongoing; no official casualty figures",
+            "links": [
+              {
+                "url": "https://x.com/Exilenova_plus/status/2118546580685156820",
+                "label": "Exilenova+ — Afipsky oil refinery attacked (imagery)"
+              },
+              {
+                "url": "https://x.com/Exilenova_plus/status/2118560393862041723",
+                "label": "Exilenova+ — Afipsky oil refinery this morning (fire imagery)"
+              },
+              {
+                "url": "https://x.com/AMK_Mapping_/status/2118551657214878176",
+                "label": "AMK Mapping — Ukrainian long-range drones; large fire"
+              },
+              {
+                "url": "https://x.com/Gerashchenko_en/status/2118564987564151279",
+                "label": "Anton Gerashchenko — Afipsky drone attack; ~6.25 Mt/yr capacity"
+              },
+              {
+                "url": "https://x.com/blyskavka_ua/status/2118570193056133261",
+                "label": "Blyskavka — Afipsky NPZ on fire; fires also Krasnodar/Adygea"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Russia claims strike on power station/electrical substation near Sumy; FAB/KAB glide-bomb video circulates",
+            "location": "Sumy Oblast, Ukraine",
+            "type": "Infrastructure",
+            "summary": "NEW: Russian MoD cited by newswires (FinancialJuice, First Squawk) claimed a strike on a power plant/station near Sumy. Al Arabiya English (verified) reported Aerospace Forces struck a power station near Sumy and a military brigade in Zaporizhzhia using a FAB-3000. AMK Mapping posted video described as a Russian KAB-500 glide-bomb strike on an electrical substation in Sumy Oblast. Civilian outage impact in Sumy not yet independently confirmed in this window; fits ongoing grid-targeting pattern already logged for Kyiv/oblasts.",
+            "status": "Developing — MoD claim + OSINT video; local outage extent unclear",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2118568725876003261",
+                "label": "Al Arabiya English (verified) — power station near Sumy + Zaporizhzhia FAB-3000"
+              },
+              {
+                "url": "https://x.com/AMK_Mapping_/status/2118568652048081362",
+                "label": "AMK Mapping — KAB-500 glide-bomb on Sumy Oblast electrical substation (video)"
+              },
+              {
+                "url": "https://x.com/financialjuice/status/2118558803134230591",
+                "label": "FinancialJuice — Russia hits power plant near Sumy (MoD via newswires)"
+              },
+              {
+                "url": "https://x.com/FirstSquawk/status/2118562540318077231",
+                "label": "First Squawk — Russian forces hit power station near Sumy (MoD)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Kyiv blackout/water crisis continues; Zelenskyy urges grid-repair gear at Madrid summit",
+            "location": "Kyiv, Ukraine (diplomacy in Madrid)",
+            "type": "Power Outage",
+            "summary": "Status update to already-logged Kyiv evening blackout / emergency power cuts / water outages / massive overnight grid strike: X News and overnight posts show large parts of Kyiv still dark with water/heating stress after Russian energy strikes. Euronews (verified) reports Zelenskyy at the Ibero-American Summit in Madrid urging leaders to help Ukraine obtain equipment to repair the damaged power grid. Not a new strike in this window; humanitarian/energy crisis remains acute ahead of winter.",
+            "status": "Ongoing — repair/aid appeal; city still under emergency outage conditions",
+            "links": [
+              {
+                "url": "https://x.com/euronews/status/2118559577524310346",
+                "label": "euronews (verified) — Zelenskyy Madrid: help repair power grid"
+              },
+              {
+                "url": "https://x.com/Gerashchenko_en/status/2118471179552116796",
+                "label": "Gerashchenko — large part of Kyiv blackout; water/heating impacted"
+              },
+              {
+                "url": "https://x.com/TheStudyofWar/status/2118558492675936610",
+                "label": "ISW (verified) — overnight RU 128 drones + 2 Kh-35; UA strikes Ryazan/Oryol continue"
+              }
+            ]
+          }
+        ],
+        "Middle East": [
+          {
+            "severity": "MEDIUM",
+            "title": "Iraq activates nuclear emergency plans and radiation monitors; NOTAM restricts airspace",
+            "location": "Iraq (Iran border; Baghdad/Erbil airspace)",
+            "type": "Infrastructure",
+            "summary": "Iraq’s National Commission for Nuclear Regulation activated emergency response plans and radiation early-warning monitors along the Iran border amid fears of possible U.S. strikes on Iranian nuclear sites. A NOTAM reportedly restricts Iraqi airspace from about Nov 7–11 for expected military activity. Officials assess fallout risk to Iraq as low based on distance, terrain, and winds; no strike or radiation incident has occurred.",
+            "status": "Developing — precautionary measures; no confirmed new US strike as of early Nov 6",
+            "links": [
+              {
+                "url": "https://x.com/ferozwala/status/2118565816929308707",
+                "label": "Iraq radiation monitoring along Iran border"
+              },
+              {
+                "url": "https://x.com/Conflict_Matrix/status/2118560049622904987",
+                "label": "Conflict Matrix: Iraq fears US strike fallout"
+              },
+              {
+                "url": "https://x.com/osintmeobserver/status/2118542104024465684",
+                "label": "OSINT ME Observer: Iraq NOTAM Nov 7–11"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "UPDATE: Tanker attacked north of Qatar — IMO/UKMTO details; one seafarer missing",
+            "location": "~50 nm north of Madinat ash Shamal, Qatar / Persian Gulf",
+            "type": "Infrastructure",
+            "summary": "Follow-up reporting on the previously logged tanker strike north of Qatar: UKMTO/IMO-linked accounts say the vessel was hit by unidentified projectiles (event ~Nov 4 2320 GMT), with one seafarer reported missing. Separate Iranian claims of multiple Hormuz mine strikes on tankers/tug remain only partly corroborated and attribution for the Qatar incident is unknown. Oil markets cited renewed tanker risk as supporting crude.",
+            "status": "Developing — vessel ID and crew status still clarifying; attribution unknown",
+            "links": [
+              {
+                "url": "https://x.com/ClavrFalls/status/2118563399961280531",
+                "label": "IMO identifies tanker N of Qatar; seafarer missing"
+              },
+              {
+                "url": "https://x.com/TheDailyPioneer/status/2118523998955098517",
+                "label": "Pioneer: tanker hit by 2 projectiles off Qatar"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2118550645729058936",
+                "label": "Iran International: renewed Gulf/Hormuz tanker attacks"
+              }
+            ]
+          }
+        ],
+        "Africa": [
+          {
+            "severity": "MEDIUM",
+            "title": "Two Egyptian Border Guard officers killed in illegal gold-mining crackdown on Sudan border",
+            "location": "Egypt–Sudan southern border / Eastern Desert",
+            "type": "Other",
+            "summary": "Egypt’s military said two army officers — including Col. Ahmed Samir, Chief of Staff of the Southern Region Border Guards, and a battalion operations chief — were killed in a firefight with armed groups during Operation Southern Shield against illegal gold mining. Reuters, Al Arabiya English, and other outlets carried the military spokesperson’s account; hundreds of miners were reportedly detained in related operations. Separate October airstrike reports on a border mine (dozens of miner deaths) remain distinct from this Nov 5 announcement.",
+            "status": "Confirmed by Egyptian military spokesperson; operation ongoing",
+            "links": [
+              {
+                "url": "https://x.com/ReutersAfrica/status/2118471031283200227",
+                "label": "Reuters Africa: two Egyptian officers killed"
+              },
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2118444733106159706",
+                "label": "Al Arabiya EN: Border Guards chief of staff killed"
+              },
+              {
+                "url": "https://x.com/ReutersWorld/status/2118488575066988719",
+                "label": "Reuters World: gold-mining crackdown deaths"
+              },
+              {
+                "url": "https://x.com/MiddleEast_24/status/2118554969800356049",
+                "label": "ME24: Col. Ahmed Samir named"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "Kenyan police constable shot dead returning to security camp in Lamu East (Boni Forest)",
+            "location": "Lamu East Sub-County, Kenya (Boni Forest / Operation Amani Boni)",
+            "type": "Terror",
+            "summary": "Police Constable Frederick Okelele Shikuku was shot and killed while returning to a security camp in Lamu East. Lamu County Police Commander Shadrack Ruto confirmed the death and opened an investigation. The killing comes amid security operations against suspected Al-Shabaab militants in the Boni Forest under Operation Amani Boni; investigators had not publicly attributed the attack or announced arrests at time of reporting. Daily Nation covered the incident.",
+            "status": "Confirmed death; attribution not publicly established",
+            "links": [
+              {
+                "url": "https://x.com/NationAfrica/status/2118364521341604159",
+                "label": "Daily Nation: police officer killed in Lamu"
+              },
+              {
+                "url": "https://x.com/yoyachris1/status/2118562069813305550",
+                "label": "Report naming PC Frederick Okelele Shikuku"
+              },
+              {
+                "url": "https://x.com/dunkaruma/status/2118550858442907800",
+                "label": "Dunkaruma: Lamu East camp attack"
+              }
+            ]
+          }
+        ],
+        "South America": [
+          {
+            "severity": "MEDIUM",
+            "title": "Overnight road blockades across western Falcón, Venezuela, over prolonged blackouts",
+            "location": "Falcón state, Venezuela (José Laurencio Silva; Urumaco; Buchivacoa; Falcón–Zulia highway)",
+            "type": "Unrest",
+            "summary": "On the night of Nov 5, residents in multiple Falcón municipalities blocked roads to protest repeated multi-hour blackouts. VPItv reported closures in José Laurencio Silva on the eastern Falcón coast; local reporting described the Falcón–Zulia national highway trancada at Río Seco, Urumaco, and Puerto Zazarida. Distinct from already-logged Morón–Coro and Zulia substation items as a same-night geographic expansion of blackout-driven unrest. Chronic outages continue nationwide; a national labor paro is separately planned for Nov 16.",
+            "status": "Active protests Nov 5 night; power crisis ongoing",
+            "links": [
+              {
+                "url": "https://x.com/VPITV/status/2118527246256181732",
+                "label": "VPItv: José Laurencio Silva road closures over apagones"
+              },
+              {
+                "url": "https://x.com/soypetitygarcia/status/2118525672960196783",
+                "label": "Falcón–Zulia highway blockades Urumaco / Puerto Zazarida"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "datetime": "2026-11-05T22:00:00-05:00",
       "regions": {
         "America": [
