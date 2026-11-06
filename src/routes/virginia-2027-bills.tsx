@@ -42,7 +42,7 @@ export const Route = createFileRoute("/virginia-2027-bills")({
       {
         name: "description",
         content:
-          "New 2027 Regular Session filings from the Virginia Legislative Information System. Continued bills are not included. Categories are editorial, not LIS subjects.",
+          "New filings for the Virginia 2027 Regular Session, from the Legislative Information System. Continued bills are not listed. Categories are editorial filters, not official LIS subjects.",
       },
     ],
   }),
@@ -96,7 +96,7 @@ function Virginia2027BillsPage() {
             ) : null}
             <p className="mt-2 max-w-3xl text-sm text-on-dark-muted">
               Snapshot captured {LEDGER.meta.captured_at}
-              {LEDGER.meta.timezone_note ? ` (${LEDGER.meta.timezone_note})` : ""}. This page does not update itself. Official records:{" "}
+              {LEDGER.meta.timezone_note ? ` (${LEDGER.meta.timezone_note})` : ""}. Daily filing updates are a handoff from the CoS watch to Web. This page does not pull LIS itself. Official records:{" "}
               <a href="https://lis.virginia.gov/" target="_blank" rel="noreferrer" className="font-semibold text-gold underline">
                 Legislative Information System
               </a>

@@ -10,7 +10,7 @@ Replacing that file with a later capture does **not** require editing components
 
 ## Refresh (repeatable)
 
-The ingestion steps live in the research runbook (daily LIS snapshot, join, categorize from title and official summary only). This website does not download those CSVs. When a new `bills-new-2027.json` is ready:
+Daily filing updates are a handoff from the CoS watch to Web. The ingestion steps live in the research runbook (daily LIS snapshot, join, categorize from title and official summary only). This website does not download those CSVs. When Web receives a new `bills-new-2027.json`:
 
 ```bash
 node scripts/install-virginia-2027-bills.mjs path/to/bills-new-2027.json
