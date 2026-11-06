@@ -170,7 +170,7 @@ function Home() {
                 We index Virginia public meetings, transcribe them, and link every claim to the official record.{" "}
                 <Link to="/about" className="font-semibold text-gold underline">About this project →</Link></p>
               </div>
-              <div className="flex shrink-0 flex-col gap-4 lg:mt-14 lg:w-72">
+              <div data-home-actions className="flex shrink-0 flex-col gap-4 lg:mt-14 lg:w-72">
               <Link to="/how-to" className="group flex shrink-0 items-center justify-between gap-4 rounded-xl bg-gold px-6 py-5 text-navy-900 shadow-lg ring-gold-hover transition hover:bg-gold-hover focus-visible:ring-4 lg:w-72 lg:flex-col lg:items-start lg:justify-center lg:py-8">
                 <span>
                   <span className="block font-mono text-xs font-semibold tracking-widest uppercase">New here?</span>
@@ -178,10 +178,17 @@ function Home() {
                 </span>
                 <span aria-hidden className="font-serif text-2xl font-bold transition group-hover:translate-x-1">→</span>
               </Link>
-              <Link to="/emergency-monitor" className="group flex shrink-0 items-center justify-between gap-4 rounded-xl bg-[#C8102E] px-6 py-5 text-white shadow-lg ring-[#ff6b7f] transition hover:bg-[#a50d26] focus-visible:ring-4 lg:w-72 lg:flex-col lg:items-start lg:justify-center lg:py-8">
+              <Link to="/emergency-monitor" className="group flex shrink-0 items-center justify-between gap-4 rounded-xl bg-[#C8102E] px-6 py-3 text-white shadow-lg ring-[#ff6b7f] transition hover:bg-[#a50d26] focus-visible:ring-4 lg:w-72 lg:flex-col lg:items-start lg:justify-center lg:py-4">
                 <span>
                   <span className="block font-mono text-xs font-semibold tracking-widest uppercase">Live · Updated every 2 hours</span>
                   <span className="mt-1 block font-serif text-2xl font-bold uppercase leading-tight">Emergency Monitoring</span>
+                </span>
+                <span aria-hidden className="font-serif text-2xl font-bold transition group-hover:translate-x-1">→</span>
+              </Link>
+              <Link to="/virginia-2027-bills" className="group flex shrink-0 items-center justify-between gap-4 rounded-xl bg-forest px-6 py-3 text-white shadow-lg ring-[#9ec0ef] transition hover:bg-[#163a6e] focus-visible:ring-4 lg:w-72 lg:flex-col lg:items-start lg:justify-center lg:py-4">
+                <span>
+                  <span className="block font-mono text-xs font-semibold tracking-widest uppercase">New • Updated daily as filed</span>
+                  <span className="mt-1 block font-serif text-2xl font-bold uppercase leading-tight">Virginia 2027 bills</span>
                 </span>
                 <span aria-hidden className="font-serif text-2xl font-bold transition group-hover:translate-x-1">→</span>
               </Link>

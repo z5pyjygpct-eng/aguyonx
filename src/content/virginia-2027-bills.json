@@ -1,0 +1,1835 @@
+{
+  "meta": {
+    "session_code": "20271",
+    "session_label": "2027 Regular Session",
+    "captured_at": "2026-11-05T19:50:56-05:00",
+    "timezone_note": "America/New_York",
+    "source_primary": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+    "sources_joined": [
+      "https://lis.blob.core.windows.net/lisfiles/20271/Sponsors.csv",
+      "https://lis.blob.core.windows.net/lisfiles/20271/Summaries.csv",
+      "https://lis.blob.core.windows.net/lisfiles/20271/Members.csv",
+      "https://lis.blob.core.windows.net/lisfiles/20271/Committees.csv",
+      "https://lis.blob.core.windows.net/lisfiles/20271/HISTORY.CSV",
+      "reference/delegates-lis.json (house.vga.virginia.gov)",
+      "reference/senators-lis.json (apps.senate.virginia.gov)"
+    ],
+    "counts": {
+      "total": 462,
+      "new_2027_filing": 19,
+      "continued_from_2026": 443,
+      "new_with_summary": 4,
+      "new_without_summary": 15,
+      "party_missing_chief_patron": 2
+    },
+    "publish_status": "preview_only_no_production_merge",
+    "notes": [
+      "Topical categories applied to new_2027_filing only in this version.",
+      "Continued measures tagged continued-uncategorized (deferred).",
+      "Party not in LIS CSVs; joined from official chamber roster snapshots by lisId.",
+      "No aguyonx production writes from this research package."
+    ],
+    "subset": "new_2027_filing_only"
+  },
+  "taxonomy": [
+    {
+      "id": "energy-data-centers",
+      "label": "Energy & Data Centers",
+      "keywords": [
+        "data center",
+        "data centers"
+      ]
+    },
+    {
+      "id": "taxation",
+      "label": "Taxation & Revenue",
+      "keywords": [
+        "income tax",
+        "sales tax",
+        "tax bracket",
+        "taxation",
+        "tax,",
+        "excise"
+      ]
+    },
+    {
+      "id": "education-k12",
+      "label": "K-12 Education",
+      "keywords": [
+        "school service provider",
+        "high school student athlete",
+        "student and family personal information",
+        "k-12",
+        "public school"
+      ]
+    },
+    {
+      "id": "higher-education",
+      "label": "Higher Education",
+      "keywords": [
+        "hampton university",
+        "land-grant university",
+        "college",
+        "university"
+      ]
+    },
+    {
+      "id": "retirement-pensions",
+      "label": "Retirement & Pensions",
+      "keywords": [
+        "retirement system",
+        "valors",
+        "virginia retirement system",
+        "911 dispatcher",
+        "emergency dispatcher"
+      ]
+    },
+    {
+      "id": "public-safety",
+      "label": "Public Safety",
+      "keywords": [
+        "emergency dispatcher",
+        "state police",
+        "public safety"
+      ]
+    },
+    {
+      "id": "courts-justice",
+      "label": "Courts & Justice",
+      "keywords": [
+        "admissibility",
+        "writs of vacatur",
+        "court-appointed counsel",
+        "courts of justice",
+        "nondisclosure"
+      ]
+    },
+    {
+      "id": "disability-rights",
+      "label": "Disability Rights",
+      "keywords": [
+        "developmental or intellectual disabilities",
+        "developmental disabilities",
+        "intellectual disabilities"
+      ]
+    },
+    {
+      "id": "consumer-protection",
+      "label": "Consumer Protection",
+      "keywords": [
+        "surveillance pricing",
+        "consumer transactions",
+        "civil penalties"
+      ]
+    },
+    {
+      "id": "local-government",
+      "label": "Local Government",
+      "keywords": [
+        "local governing bodies",
+        "local approval",
+        "public hearing and notice",
+        "newport news",
+        "hampton, cities"
+      ]
+    },
+    {
+      "id": "transparency-accountability",
+      "label": "Transparency & Accountability",
+      "keywords": [
+        "nondisclosure agreements prohibited",
+        "public hearing and notice",
+        "reporting requirements"
+      ]
+    },
+    {
+      "id": "corrections",
+      "label": "Corrections & Prisons",
+      "keywords": [
+        "red onion",
+        "department of corrections",
+        "inmates",
+        "correctional"
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Health & Behavioral Health",
+      "keywords": [
+        "clinical psychologists",
+        "prescriptive authority",
+        "pregnant",
+        "postpartum",
+        "health"
+      ]
+    },
+    {
+      "id": "crime-victims",
+      "label": "Crime Victims & Trafficking",
+      "keywords": [
+        "human trafficking",
+        "domestic violence",
+        "writs of vacatur"
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "label": "Privacy & Student Data",
+      "keywords": [
+        "personal information",
+        "deletion of student",
+        "school service providers"
+      ]
+    },
+    {
+      "id": "athletics",
+      "label": "Student Athletics",
+      "keywords": [
+        "student athletes",
+        "eligibility, enrollment"
+      ]
+    },
+    {
+      "id": "legislative-procedure",
+      "label": "Legislative Procedure & Resolutions",
+      "keywords": [
+        "expulsion of senator",
+        "seeking the expulsion"
+      ]
+    }
+  ],
+  "bills": [
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB837",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Individuals with developmental or intellectual disabilities; admissibility of statements in cases.",
+      "introduction_date": "9/17/2026",
+      "chief_patron_id": "S0086",
+      "chief_patron_name": "Barbara A. Favola",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0086",
+        "patron_name_from_bills": "Favola",
+        "member_id": "S0086",
+        "member_name": "Barbara A. Favola",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0086",
+          "member_name": "Barbara A. Favola",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S13",
+      "senate_committee_name": "Courts of Justice",
+      "status_label": "Referred to Committee for Courts of Justice",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee for Courts of Justice",
+        "last_senate_action_date": "9/17/2026",
+        "status_label": "Referred to Committee for Courts of Justice"
+      },
+      "full_text_doc1": "SB837",
+      "full_text_date1": "9/17/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB837",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB837/text/SB837",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "courts-justice",
+          "category_label": "Courts & Justice",
+          "confidence": "medium",
+          "evidence": "Official title: Individuals with developmental or intellectual disabilities; admissibility of statements in cases. No Summaries.csv row yet.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        },
+        {
+          "category_id": "disability-rights",
+          "category_label": "Disability Rights",
+          "confidence": "medium",
+          "evidence": "Same title language on developmental or intellectual disabilities.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "courts-justice",
+      "primary_category_label": "Courts & Justice",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "courts-justice",
+        "disability-rights"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "HB1532",
+      "measure_kind": "House Bill",
+      "chamber": "House",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Virginia Law Officers' Retirement System; emergency dispatchers.",
+      "introduction_date": "9/23/2026",
+      "chief_patron_id": "H0335",
+      "chief_patron_name": "Mike A. Cherry",
+      "chief_patron_party_code": "R",
+      "chief_patron_party": "Republican",
+      "chief_patron_party_source": "house.vga.virginia.gov via reference/delegates-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "H0335",
+        "patron_name_from_bills": "Cherry",
+        "member_id": "H0335",
+        "member_name": "Mike A. Cherry",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "R",
+        "party": "Republican",
+        "party_source": "house.vga.virginia.gov via reference/delegates-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "H0335",
+          "member_name": "Mike A. Cherry",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": null,
+      "senate_committee_name": null,
+      "status_label": "Committee Referral Pending",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": "Committee Referral Pending",
+        "last_house_action_date": "9/23/2026",
+        "last_senate_action": null,
+        "last_senate_action_date": null,
+        "status_label": "Committee Referral Pending"
+      },
+      "full_text_doc1": "HB1532",
+      "full_text_date1": "9/23/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/HB1532",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/HB1532/text/HB1532",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": "SUMMARY AS INTRODUCED",
+      "summary_plain": "Virginia Law Officers' Retirement System; emergency dispatchers. Extends membership in the Virginia Law Officers' Retirement System (VaLORS) to emergency dispatchers who are employed by the Department of State Police, Capitol Police, and agencies whose law-enforcement officers are eligible for membership in VaLORS. The bill has a delayed effective date of July 1, 2028, and provides that such membership applies only to service earned on or after July 1, 2028.",
+      "summary": {
+        "summary_doc_id": "HB1532S",
+        "summary_type": "SUMMARY AS INTRODUCED",
+        "summary_text_html": "<p class=sumtext><b>Virginia Law Officers' Retirement System; emergency  dispatchers. </b>Extends membership in the Virginia Law Officers' Retirement  System (VaLORS) to emergency dispatchers who are employed by the Department of  State Police, Capitol Police, and agencies whose law-enforcement officers are  eligible for membership in VaLORS. The bill has a delayed effective date of  July 1, 2028, and provides that such membership applies only to service earned  on or after July 1, 2028.",
+        "summary_text_plain": "Virginia Law Officers' Retirement System; emergency dispatchers. Extends membership in the Virginia Law Officers' Retirement System (VaLORS) to emergency dispatchers who are employed by the Department of State Police, Capitol Police, and agencies whose law-enforcement officers are eligible for membership in VaLORS. The bill has a delayed effective date of July 1, 2028, and provides that such membership applies only to service earned on or after July 1, 2028."
+      },
+      "summary_count": 1,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "retirement-pensions",
+          "category_label": "Retirement & Pensions",
+          "confidence": "high",
+          "evidence": "Title and SUMMARY AS INTRODUCED: extends VaLORS membership to emergency dispatchers.",
+          "evidence_source": "BILLS.CSV Bill_description + Summaries.csv SUMMARY AS INTRODUCED"
+        },
+        {
+          "category_id": "public-safety",
+          "category_label": "Public Safety",
+          "confidence": "high",
+          "evidence": "Summary references emergency dispatchers employed by Department of State Police / CAPS context in VaLORS.",
+          "evidence_source": "Summaries.csv SUMMARY AS INTRODUCED"
+        }
+      ],
+      "primary_category_id": "retirement-pensions",
+      "primary_category_label": "Retirement & Pensions",
+      "primary_category_confidence": "high",
+      "category_ids": [
+        "retirement-pensions",
+        "public-safety"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "HB1533",
+      "measure_kind": "House Bill",
+      "chamber": "House",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Va. Retirement System; enhanced retirement benefits for 911 dispatchers, delayed effective date.",
+      "introduction_date": "9/23/2026",
+      "chief_patron_id": "H0335",
+      "chief_patron_name": "Mike A. Cherry",
+      "chief_patron_party_code": "R",
+      "chief_patron_party": "Republican",
+      "chief_patron_party_source": "house.vga.virginia.gov via reference/delegates-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "H0335",
+        "patron_name_from_bills": "Cherry",
+        "member_id": "H0335",
+        "member_name": "Mike A. Cherry",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "R",
+        "party": "Republican",
+        "party_source": "house.vga.virginia.gov via reference/delegates-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "H0335",
+          "member_name": "Mike A. Cherry",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": null,
+      "senate_committee_name": null,
+      "status_label": "Committee Referral Pending",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": "Committee Referral Pending",
+        "last_house_action_date": "9/23/2026",
+        "last_senate_action": null,
+        "last_senate_action_date": null,
+        "status_label": "Committee Referral Pending"
+      },
+      "full_text_doc1": "HB1533",
+      "full_text_date1": "9/23/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/HB1533",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/HB1533/text/HB1533",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": "SUMMARY AS INTRODUCED",
+      "summary_plain": "Virginia Retirement System; enhanced retirement benefits for 911 dispatchers. Allows local governments to provide enhanced retirement benefits for hazardous duty service to full-time salaried 911 dispatchers. The bill provides that such enhanced retirement benefits apply only to service earned as a full-time salaried 911 dispatcher on or after July 1, 2028, but allows an employer, as that term is defined in relevant law, to provide such enhanced retirement benefits for service earned as a full-time salaried 911 dispatcher before July 1, 2028, in addition to service earned on or after that date. The bill has a delayed effective date of July 1, 2028.",
+      "summary": {
+        "summary_doc_id": "HB1533S",
+        "summary_type": "SUMMARY AS INTRODUCED",
+        "summary_text_html": "<p class=sumtext><b>Virginia Retirement System; enhanced retirement benefits  for 911 dispatchers.</b> Allows local governments to provide enhanced  retirement benefits for hazardous duty service to full-time salaried 911  dispatchers. The bill provides that such enhanced retirement benefits apply  only to service earned as a full-time salaried 911 dispatcher on or after July  1, 2028, but allows an employer, as that term is defined in relevant law, to  provide such enhanced retirement benefits for service earned as a full-time  salaried 911 dispatcher before July 1, 2028, in addition to service earned on  or after that date. The bill has a delayed effective date of July 1, 2028.",
+        "summary_text_plain": "Virginia Retirement System; enhanced retirement benefits for 911 dispatchers. Allows local governments to provide enhanced retirement benefits for hazardous duty service to full-time salaried 911 dispatchers. The bill provides that such enhanced retirement benefits apply only to service earned as a full-time salaried 911 dispatcher on or after July 1, 2028, but allows an employer, as that term is defined in relevant law, to provide such enhanced retirement benefits for service earned as a full-time salaried 911 dispatcher before July 1, 2028, in addition to service earned on or after that date. The bill has a delayed effective date of July 1, 2028."
+      },
+      "summary_count": 1,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "retirement-pensions",
+          "category_label": "Retirement & Pensions",
+          "confidence": "high",
+          "evidence": "Title and summary: enhanced VRS retirement benefits for 911 dispatchers.",
+          "evidence_source": "BILLS.CSV Bill_description + Summaries.csv SUMMARY AS INTRODUCED"
+        }
+      ],
+      "primary_category_id": "retirement-pensions",
+      "primary_category_label": "Retirement & Pensions",
+      "primary_category_confidence": "high",
+      "category_ids": [
+        "retirement-pensions"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB838",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Surveillance pricing practices; consumer transactions, civil penalties.",
+      "introduction_date": "10/2/2026",
+      "chief_patron_id": "S0125",
+      "chief_patron_name": "Russet Perry",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0125",
+        "patron_name_from_bills": "Perry",
+        "member_id": "S0125",
+        "member_name": "Russet Perry",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0125",
+          "member_name": "Russet Perry",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S02",
+      "senate_committee_name": "Commerce and Labor",
+      "status_label": "Referred to Committee on Commerce and Labor",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Commerce and Labor",
+        "last_senate_action_date": "10/2/2026",
+        "status_label": "Referred to Committee on Commerce and Labor"
+      },
+      "full_text_doc1": "SB838",
+      "full_text_date1": "10/2/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB838",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB838/text/SB838",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "consumer-protection",
+          "category_label": "Consumer Protection",
+          "confidence": "medium",
+          "evidence": "Official title: Surveillance pricing practices; consumer transactions, civil penalties.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "consumer-protection",
+      "primary_category_label": "Consumer Protection",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "consumer-protection"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB839",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Local governing bodies; member nondisclosure agreements prohibited.",
+      "introduction_date": "10/8/2026",
+      "chief_patron_id": "S0134",
+      "chief_patron_name": "Michael J. Jones",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0134",
+        "patron_name_from_bills": "Jones",
+        "member_id": "S0134",
+        "member_name": "Michael J. Jones",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0134",
+          "member_name": "Michael J. Jones",
+          "patron_type": "1 - Chief Patron"
+        },
+        {
+          "member_id": "S0126",
+          "member_name": "Danica A. Roem",
+          "patron_type": "2 - Chief Co-Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S07",
+      "senate_committee_name": "Local Government",
+      "status_label": "Referred to Committee on Local Government",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Local Government",
+        "last_senate_action_date": "10/8/2026",
+        "status_label": "Referred to Committee on Local Government"
+      },
+      "full_text_doc1": "SB839",
+      "full_text_date1": "10/8/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB839",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB839/text/SB839",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "local-government",
+          "category_label": "Local Government",
+          "confidence": "medium",
+          "evidence": "Official title: Local governing bodies; member nondisclosure agreements prohibited.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        },
+        {
+          "category_id": "transparency-accountability",
+          "category_label": "Transparency & Accountability",
+          "confidence": "medium",
+          "evidence": "Title prohibits member nondisclosure agreements.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "local-government",
+      "primary_category_label": "Local Government",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "local-government",
+        "transparency-accountability"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB840",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Corrections, Director of the Department of; placement of inmates, Red Onion State Prison.",
+      "introduction_date": "10/8/2026",
+      "chief_patron_id": "S0134",
+      "chief_patron_name": "Michael J. Jones",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0134",
+        "patron_name_from_bills": "Jones",
+        "member_id": "S0134",
+        "member_name": "Michael J. Jones",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0134",
+          "member_name": "Michael J. Jones",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S09",
+      "senate_committee_name": "Rehabilitation and Social Services",
+      "status_label": "Referred to Committee on Rehabilitation and Social Services",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Rehabilitation and Social Services",
+        "last_senate_action_date": "10/8/2026",
+        "status_label": "Referred to Committee on Rehabilitation and Social Services"
+      },
+      "full_text_doc1": "SB840",
+      "full_text_date1": "10/8/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB840",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB840/text/SB840",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "corrections",
+          "category_label": "Corrections & Prisons",
+          "confidence": "medium",
+          "evidence": "Official title: Corrections, Director of the Department of; placement of inmates, Red Onion State Prison.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "corrections",
+      "primary_category_label": "Corrections & Prisons",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "corrections"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB841",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Data centers; public hearing and notice requirements.",
+      "introduction_date": "10/8/2026",
+      "chief_patron_id": "S0134",
+      "chief_patron_name": "Michael J. Jones",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0134",
+        "patron_name_from_bills": "Jones",
+        "member_id": "S0134",
+        "member_name": "Michael J. Jones",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0134",
+          "member_name": "Michael J. Jones",
+          "patron_type": "1 - Chief Patron"
+        },
+        {
+          "member_id": "S0126",
+          "member_name": "Danica A. Roem",
+          "patron_type": "2 - Chief Co-Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S07",
+      "senate_committee_name": "Local Government",
+      "status_label": "Referred to Committee on Local Government",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Local Government",
+        "last_senate_action_date": "10/8/2026",
+        "status_label": "Referred to Committee on Local Government"
+      },
+      "full_text_doc1": "SB841",
+      "full_text_date1": "10/8/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB841",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB841/text/SB841",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "energy-data-centers",
+          "category_label": "Energy & Data Centers",
+          "confidence": "medium",
+          "evidence": "Official title: Data centers; public hearing and notice requirements.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        },
+        {
+          "category_id": "local-government",
+          "category_label": "Local Government",
+          "confidence": "medium",
+          "evidence": "Title addresses public hearing and notice requirements (local process).",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        },
+        {
+          "category_id": "transparency-accountability",
+          "category_label": "Transparency & Accountability",
+          "confidence": "medium",
+          "evidence": "Public hearing and notice requirements in title.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "energy-data-centers",
+      "primary_category_label": "Energy & Data Centers",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "energy-data-centers",
+        "local-government",
+        "transparency-accountability"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB842",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "High school student athletes; eligibility, enrollment.",
+      "introduction_date": "10/8/2026",
+      "chief_patron_id": "S0134",
+      "chief_patron_name": "Michael J. Jones",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0134",
+        "patron_name_from_bills": "Jones",
+        "member_id": "S0134",
+        "member_name": "Michael J. Jones",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0134",
+          "member_name": "Michael J. Jones",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S04",
+      "senate_committee_name": "Education and Health",
+      "status_label": "Referred to Committee on Education and Health",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Education and Health",
+        "last_senate_action_date": "10/8/2026",
+        "status_label": "Referred to Committee on Education and Health"
+      },
+      "full_text_doc1": "SB842",
+      "full_text_date1": "10/8/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB842",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB842/text/SB842",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "education-k12",
+          "category_label": "K-12 Education",
+          "confidence": "medium",
+          "evidence": "Official title: High school student athletes; eligibility, enrollment.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        },
+        {
+          "category_id": "athletics",
+          "category_label": "Student Athletics",
+          "confidence": "medium",
+          "evidence": "Title expressly concerns student athletes eligibility/enrollment.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "education-k12",
+      "primary_category_label": "K-12 Education",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "education-k12",
+        "athletics"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB843",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Data centers; state permitting, local approval, moratorium, sunset.",
+      "introduction_date": "10/9/2026",
+      "chief_patron_id": "S0125",
+      "chief_patron_name": "Russet Perry",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0125",
+        "patron_name_from_bills": "Perry",
+        "member_id": "S0125",
+        "member_name": "Russet Perry",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0125",
+          "member_name": "Russet Perry",
+          "patron_type": "1 - Chief Patron"
+        },
+        {
+          "member_id": "S0126",
+          "member_name": "Danica A. Roem",
+          "patron_type": "2 - Chief Co-Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S07",
+      "senate_committee_name": "Local Government",
+      "status_label": "Referred to Committee on Local Government",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Local Government",
+        "last_senate_action_date": "10/9/2026",
+        "status_label": "Referred to Committee on Local Government"
+      },
+      "full_text_doc1": "SB843",
+      "full_text_date1": "10/9/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB843",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB843/text/SB843",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "energy-data-centers",
+          "category_label": "Energy & Data Centers",
+          "confidence": "medium",
+          "evidence": "Official title: Data centers; state permitting, local approval, moratorium, sunset.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        },
+        {
+          "category_id": "local-government",
+          "category_label": "Local Government",
+          "confidence": "medium",
+          "evidence": "Title includes local approval.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "energy-data-centers",
+      "primary_category_label": "Energy & Data Centers",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "energy-data-centers",
+        "local-government"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "HB1534",
+      "measure_kind": "House Bill",
+      "chamber": "House",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "School service providers; deletion of student and family personal information.",
+      "introduction_date": "10/16/2026",
+      "chief_patron_id": "H0364",
+      "chief_patron_name": "Timothy P. Griffin",
+      "chief_patron_party_code": "R",
+      "chief_patron_party": "Republican",
+      "chief_patron_party_source": "house.vga.virginia.gov via reference/delegates-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "H0364",
+        "patron_name_from_bills": "Griffin",
+        "member_id": "H0364",
+        "member_name": "Timothy P. Griffin",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "R",
+        "party": "Republican",
+        "party_source": "house.vga.virginia.gov via reference/delegates-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "H0364",
+          "member_name": "Timothy P. Griffin",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": null,
+      "senate_committee_name": null,
+      "status_label": "Committee Referral Pending",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": "Committee Referral Pending",
+        "last_house_action_date": "10/16/2026",
+        "last_senate_action": null,
+        "last_senate_action_date": null,
+        "status_label": "Committee Referral Pending"
+      },
+      "full_text_doc1": "HB1534",
+      "full_text_date1": "10/16/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/HB1534",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/HB1534/text/HB1534",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": "SUMMARY AS INTRODUCED",
+      "summary_plain": "School service providers; deletion of student and family personal information. Requires, unless otherwise required by state or federal law or regulation, each school service provider, defined in the bill as a provider, pursuant to a contract with a school division or a private elementary or secondary school in the Commonwealth, of software or a website, mobile application, or online service that (i) is designed and marketed primarily for use in elementary or secondary schools; (ii) is used (a) at the direction of teachers or other employees at elementary or secondary schools or (b) by any school-affiliated entity; and (iii) collects and maintains, uses, or shares student personal information or family personal information, to delete all student personal information and family personal information within six months of the termination of the contract between the school service provider and the school or school division and to delete all relevant student personal information and family personal information within six months of a student's graduation from high school.",
+      "summary": {
+        "summary_doc_id": "HB1534S",
+        "summary_type": "SUMMARY AS INTRODUCED",
+        "summary_text_html": "<p class=sumtext><b>School service providers; deletion of student and family  personal information.</b> Requires, unless otherwise  required by state or federal law or regulation, each school service provider,  defined in the bill as a provider, pursuant to a contract with a school  division or a private elementary or secondary school  in the Commonwealth, of software or a website,  mobile application, or online service that (i) is designed and marketed  primarily for use in elementary or secondary schools; (ii) is used (a) at the  direction of teachers or other employees at elementary or secondary schools or  (b) by any school-affiliated entity; and (iii) collects and maintains, uses, or  shares student personal information or family personal information, to delete all student personal information and family personal  information within six months of the termination of the contract between the  school service provider and the school or school division and to delete all  relevant student personal information and family personal information within  six months of a student's graduation from high school.",
+        "summary_text_plain": "School service providers; deletion of student and family personal information. Requires, unless otherwise required by state or federal law or regulation, each school service provider, defined in the bill as a provider, pursuant to a contract with a school division or a private elementary or secondary school in the Commonwealth, of software or a website, mobile application, or online service that (i) is designed and marketed primarily for use in elementary or secondary schools; (ii) is used (a) at the direction of teachers or other employees at elementary or secondary schools or (b) by any school-affiliated entity; and (iii) collects and maintains, uses, or shares student personal information or family personal information, to delete all student personal information and family personal information within six months of the termination of the contract between the school service provider and the school or school division and to delete all relevant student personal information and family personal information within six months of a student's graduation from high school."
+      },
+      "summary_count": 1,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "privacy-data",
+          "category_label": "Privacy & Student Data",
+          "confidence": "high",
+          "evidence": "Title and summary: school service providers; deletion of student and family personal information.",
+          "evidence_source": "BILLS.CSV Bill_description + Summaries.csv SUMMARY AS INTRODUCED"
+        },
+        {
+          "category_id": "education-k12",
+          "category_label": "K-12 Education",
+          "confidence": "high",
+          "evidence": "Summary defines school service provider and student/family personal information.",
+          "evidence_source": "Summaries.csv SUMMARY AS INTRODUCED"
+        }
+      ],
+      "primary_category_id": "privacy-data",
+      "primary_category_label": "Privacy & Student Data",
+      "primary_category_confidence": "high",
+      "category_ids": [
+        "privacy-data",
+        "education-k12"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "HB1535",
+      "measure_kind": "House Bill",
+      "chamber": "House",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Individuals with developmental or intellectual disabilities; admissibility of statements.",
+      "introduction_date": "10/20/2026",
+      "chief_patron_id": "H0354",
+      "chief_patron_name": "Katrina Callsen",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "house.vga.virginia.gov via reference/delegates-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "H0354",
+        "patron_name_from_bills": "Callsen",
+        "member_id": "H0354",
+        "member_name": "Katrina Callsen",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "house.vga.virginia.gov via reference/delegates-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "H0354",
+          "member_name": "Katrina Callsen",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": null,
+      "senate_committee_name": null,
+      "status_label": "Committee Referral Pending",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": "Committee Referral Pending",
+        "last_house_action_date": "10/20/2026",
+        "last_senate_action": null,
+        "last_senate_action_date": null,
+        "status_label": "Committee Referral Pending"
+      },
+      "full_text_doc1": "HB1535",
+      "full_text_date1": "10/20/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/HB1535",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/HB1535/text/HB1535",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": "SUMMARY AS INTRODUCED",
+      "summary_plain": "Admissibility of statements by individuals with developmental or intellectual disabilities in certain cases. Prohibits admission of any evidence from an individual with developmental disabilities or intellectual disabilities, as defined in relevant law, in certain criminal prosecutions unless the court finds by a preponderance of the evidence that such individual's decision to speak to law enforcement did not have a direct and substantial relationship to such individual's disability. The bill requires notice be given to the attorney for the Commonwealth if a defendant intends to introduce expert testimony regarding his disability. The bill prohibits any statements made by a defendant during an examination by an expert witness from being used against him except for impeachment or perjury.",
+      "summary": {
+        "summary_doc_id": "HB1535S",
+        "summary_type": "SUMMARY AS INTRODUCED",
+        "summary_text_html": "<p class=sumtext><b>Admissibility of statements by  individuals with developmental or intellectual disabilities in certain cases.</b>  Prohibits admission of any evidence from an individual with developmental  disabilities or intellectual disabilities, as defined in relevant law, in  certain criminal prosecutions unless the court finds by a preponderance of the  evidence that such individual's decision to speak to law enforcement did not  have a direct and substantial relationship to such individual's disability. The  bill requires notice be given to the attorney for the Commonwealth if a  defendant intends to introduce expert testimony regarding his disability. The  bill prohibits any statements made by a defendant during an examination by an  expert witness from being used against him except for impeachment or perjury.",
+        "summary_text_plain": "Admissibility of statements by individuals with developmental or intellectual disabilities in certain cases. Prohibits admission of any evidence from an individual with developmental disabilities or intellectual disabilities, as defined in relevant law, in certain criminal prosecutions unless the court finds by a preponderance of the evidence that such individual's decision to speak to law enforcement did not have a direct and substantial relationship to such individual's disability. The bill requires notice be given to the attorney for the Commonwealth if a defendant intends to introduce expert testimony regarding his disability. The bill prohibits any statements made by a defendant during an examination by an expert witness from being used against him except for impeachment or perjury."
+      },
+      "summary_count": 1,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "courts-justice",
+          "category_label": "Courts & Justice",
+          "confidence": "high",
+          "evidence": "Summary: admissibility of statements by individuals with DD/ID in certain cases.",
+          "evidence_source": "BILLS.CSV Bill_description + Summaries.csv SUMMARY AS INTRODUCED"
+        },
+        {
+          "category_id": "disability-rights",
+          "category_label": "Disability Rights",
+          "confidence": "high",
+          "evidence": "Title/summary expressly concern developmental or intellectual disabilities.",
+          "evidence_source": "BILLS.CSV Bill_description + Summaries.csv SUMMARY AS INTRODUCED"
+        }
+      ],
+      "primary_category_id": "courts-justice",
+      "primary_category_label": "Courts & Justice",
+      "primary_category_confidence": "high",
+      "category_ids": [
+        "courts-justice",
+        "disability-rights"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB844",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Licensed clinical psychologists; prescriptive authority, report.",
+      "introduction_date": "10/22/2026",
+      "chief_patron_id": "S0086",
+      "chief_patron_name": "Barbara A. Favola",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0086",
+        "patron_name_from_bills": "Favola",
+        "member_id": "S0086",
+        "member_name": "Barbara A. Favola",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0086",
+          "member_name": "Barbara A. Favola",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S04",
+      "senate_committee_name": "Education and Health",
+      "status_label": "Referred to Committee on Education and Health",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Education and Health",
+        "last_senate_action_date": "10/22/2026",
+        "status_label": "Referred to Committee on Education and Health"
+      },
+      "full_text_doc1": "SB844",
+      "full_text_date1": "10/22/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB844",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB844/text/SB844",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "health",
+          "category_label": "Health & Behavioral Health",
+          "confidence": "medium",
+          "evidence": "Official title: Licensed clinical psychologists; prescriptive authority, report.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "health",
+      "primary_category_label": "Health & Behavioral Health",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "health"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB845",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Pregnant & postpartum inmates; reporting requirements of state, regional, & local correctional fac.",
+      "introduction_date": "10/26/2026",
+      "chief_patron_id": "S0067",
+      "chief_patron_name": "Mamie E. Locke",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0067",
+        "patron_name_from_bills": "Locke",
+        "member_id": "S0067",
+        "member_name": "Mamie E. Locke",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0067",
+          "member_name": "Mamie E. Locke",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S09",
+      "senate_committee_name": "Rehabilitation and Social Services",
+      "status_label": "Referred to Committee on Rehabilitation and Social Services",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Rehabilitation and Social Services",
+        "last_senate_action_date": "10/26/2026",
+        "status_label": "Referred to Committee on Rehabilitation and Social Services"
+      },
+      "full_text_doc1": "SB845",
+      "full_text_date1": "10/26/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB845",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB845/text/SB845",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "corrections",
+          "category_label": "Corrections & Prisons",
+          "confidence": "medium",
+          "evidence": "Official title: Pregnant & postpartum inmates; reporting requirements of state, regional, & local correctional fac.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        },
+        {
+          "category_id": "health",
+          "category_label": "Health & Behavioral Health",
+          "confidence": "medium",
+          "evidence": "Title concerns pregnant and postpartum inmates.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "corrections",
+      "primary_category_label": "Corrections & Prisons",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "corrections",
+        "health"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB846",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Hampton University; recognition and restoration of status as a land-grant university, report.",
+      "introduction_date": "10/26/2026",
+      "chief_patron_id": "S0067",
+      "chief_patron_name": "Mamie E. Locke",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0067",
+        "patron_name_from_bills": "Locke",
+        "member_id": "S0067",
+        "member_name": "Mamie E. Locke",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0067",
+          "member_name": "Mamie E. Locke",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S04",
+      "senate_committee_name": "Education and Health",
+      "status_label": "Referred to Committee on Education and Health",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Education and Health",
+        "last_senate_action_date": "10/26/2026",
+        "status_label": "Referred to Committee on Education and Health"
+      },
+      "full_text_doc1": "SB846",
+      "full_text_date1": "10/26/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB846",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB846/text/SB846",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "higher-education",
+          "category_label": "Higher Education",
+          "confidence": "medium",
+          "evidence": "Official title: Hampton University; recognition and restoration of status as a land-grant university, report.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "higher-education",
+      "primary_category_label": "Higher Education",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "higher-education"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB847",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Human trafficking and ongoing domestic violence; issuance of writs of vacatur for victims, sealing.",
+      "introduction_date": "10/26/2026",
+      "chief_patron_id": "S0067",
+      "chief_patron_name": "Mamie E. Locke",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0067",
+        "patron_name_from_bills": "Locke",
+        "member_id": "S0067",
+        "member_name": "Mamie E. Locke",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0067",
+          "member_name": "Mamie E. Locke",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S13",
+      "senate_committee_name": "Courts of Justice",
+      "status_label": "Referred to Committee for Courts of Justice",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee for Courts of Justice",
+        "last_senate_action_date": "10/26/2026",
+        "status_label": "Referred to Committee for Courts of Justice"
+      },
+      "full_text_doc1": "SB847",
+      "full_text_date1": "10/26/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB847",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB847/text/SB847",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "crime-victims",
+          "category_label": "Crime Victims & Trafficking",
+          "confidence": "medium",
+          "evidence": "Official title: Human trafficking and ongoing domestic violence; issuance of writs of vacatur for victims, sealing.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        },
+        {
+          "category_id": "courts-justice",
+          "category_label": "Courts & Justice",
+          "confidence": "medium",
+          "evidence": "Title concerns writs of vacatur and sealing.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "crime-victims",
+      "primary_category_label": "Crime Victims & Trafficking",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "crime-victims",
+        "courts-justice"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB848",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Newport News & Hampton, Cities of; pilot prog. for compensation of private court-appointed counsel.",
+      "introduction_date": "10/26/2026",
+      "chief_patron_id": "S0067",
+      "chief_patron_name": "Mamie E. Locke",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0067",
+        "patron_name_from_bills": "Locke",
+        "member_id": "S0067",
+        "member_name": "Mamie E. Locke",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0067",
+          "member_name": "Mamie E. Locke",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S13",
+      "senate_committee_name": "Courts of Justice",
+      "status_label": "Referred to Committee for Courts of Justice",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee for Courts of Justice",
+        "last_senate_action_date": "10/26/2026",
+        "status_label": "Referred to Committee for Courts of Justice"
+      },
+      "full_text_doc1": "SB848",
+      "full_text_date1": "10/26/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB848",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB848/text/SB848",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "courts-justice",
+          "category_label": "Courts & Justice",
+          "confidence": "medium",
+          "evidence": "Official title: Newport News & Hampton pilot program for compensation of private court-appointed counsel.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        },
+        {
+          "category_id": "local-government",
+          "category_label": "Local Government",
+          "confidence": "medium",
+          "evidence": "Title names Cities of Newport News & Hampton pilot program.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "courts-justice",
+      "primary_category_label": "Courts & Justice",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "courts-justice",
+        "local-government"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB849",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Income tax, state; establishes a new bracket on income above $1 million.",
+      "introduction_date": "10/26/2026",
+      "chief_patron_id": "S0067",
+      "chief_patron_name": "Mamie E. Locke",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0067",
+        "patron_name_from_bills": "Locke",
+        "member_id": "S0067",
+        "member_name": "Mamie E. Locke",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0067",
+          "member_name": "Mamie E. Locke",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S05",
+      "senate_committee_name": "Finance and Appropriations",
+      "status_label": "Referred to Committee on Finance and Appropriations",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Finance and Appropriations",
+        "last_senate_action_date": "10/26/2026",
+        "status_label": "Referred to Committee on Finance and Appropriations"
+      },
+      "full_text_doc1": "SB849",
+      "full_text_date1": "10/26/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB849",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB849/text/SB849",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "taxation",
+          "category_label": "Taxation & Revenue",
+          "confidence": "medium",
+          "evidence": "Official title: Income tax, state; establishes a new bracket on income above $1 million.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "taxation",
+      "primary_category_label": "Taxation & Revenue",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "taxation"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SR173",
+      "measure_kind": "Senate Resolution",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Seeking the expulsion of Senator L. Louise Lucas.",
+      "introduction_date": "10/30/2026",
+      "chief_patron_id": "S0088",
+      "chief_patron_name": "Bryce E. Reeves",
+      "chief_patron_party_code": "R",
+      "chief_patron_party": "Republican",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0088",
+        "patron_name_from_bills": "Reeves",
+        "member_id": "S0088",
+        "member_name": "Bryce E. Reeves",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "R",
+        "party": "Republican",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0088",
+          "member_name": "Bryce E. Reeves",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S08",
+      "senate_committee_name": "Privileges and Elections",
+      "status_label": "Referred to Committee on Privileges and Elections",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Privileges and Elections",
+        "last_senate_action_date": "10/30/2026",
+        "status_label": "Referred to Committee on Privileges and Elections"
+      },
+      "full_text_doc1": "SR173",
+      "full_text_date1": "10/30/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SR173",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SR173/text/SR173",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "legislative-procedure",
+          "category_label": "Legislative Procedure & Resolutions",
+          "confidence": "medium",
+          "evidence": "Official title: Seeking the expulsion of Senator L. Louise Lucas.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "legislative-procedure",
+      "primary_category_label": "Legislative Procedure & Resolutions",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "legislative-procedure"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    },
+    {
+      "session_code": "20271",
+      "session_label": "2027 Regular Session",
+      "bill_number": "SB850",
+      "measure_kind": "Senate Bill",
+      "chamber": "Senate",
+      "filing_class": "new_2027_filing",
+      "carried_over": false,
+      "title": "Data centers, large; moratorium, approval requirements, utility independent classifications, report.",
+      "introduction_date": "11/2/2026",
+      "chief_patron_id": "S0134",
+      "chief_patron_name": "Michael J. Jones",
+      "chief_patron_party_code": "D",
+      "chief_patron_party": "Democrat",
+      "chief_patron_party_source": "apps.senate.virginia.gov via reference/senators-lis.json",
+      "chief_patron": {
+        "patron_id_from_bills": "S0134",
+        "patron_name_from_bills": "Jones",
+        "member_id": "S0134",
+        "member_name": "Michael J. Jones",
+        "patron_type": "1 - Chief Patron",
+        "party_code": "D",
+        "party": "Democrat",
+        "party_source": "apps.senate.virginia.gov via reference/senators-lis.json"
+      },
+      "sponsors": [
+        {
+          "member_id": "S0134",
+          "member_name": "Michael J. Jones",
+          "patron_type": "1 - Chief Patron"
+        }
+      ],
+      "house_committee_id": null,
+      "house_committee_name": null,
+      "senate_committee_id": "S02",
+      "senate_committee_name": "Commerce and Labor",
+      "status_label": "Referred to Committee on Commerce and Labor",
+      "status": {
+        "carried_over": false,
+        "passed": false,
+        "passed_house": false,
+        "passed_senate": false,
+        "failed": false,
+        "approved": false,
+        "vetoed": false,
+        "emergency": false,
+        "last_house_action": null,
+        "last_house_action_date": null,
+        "last_senate_action": "Referred to Committee on Commerce and Labor",
+        "last_senate_action_date": "11/2/2026",
+        "status_label": "Referred to Committee on Commerce and Labor"
+      },
+      "full_text_doc1": "SB850",
+      "full_text_date1": "11/2/2026",
+      "lis_detail_url": "https://lis.virginia.gov/bill-details/20271/SB850",
+      "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB850/text/SB850",
+      "source_bills_csv_url": "https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV",
+      "summary_type": null,
+      "summary_plain": null,
+      "summary": null,
+      "summary_count": 0,
+      "history_event_count": 0,
+      "categories": [
+        {
+          "category_id": "energy-data-centers",
+          "category_label": "Energy & Data Centers",
+          "confidence": "medium",
+          "evidence": "Official title: Data centers, large; moratorium, approval requirements, utility independent classifications, report.",
+          "evidence_source": "BILLS.CSV Bill_description only"
+        }
+      ],
+      "primary_category_id": "energy-data-centers",
+      "primary_category_label": "Energy & Data Centers",
+      "primary_category_confidence": "medium",
+      "category_ids": [
+        "energy-data-centers"
+      ],
+      "captured_at": "2026-11-05T19:50:56-05:00"
+    }
+  ]
+}

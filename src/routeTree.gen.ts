@@ -33,6 +33,7 @@ import { Route as SitemapRouteImport } from './routes/sitemap'
 import { Route as TipsRouteImport } from './routes/tips'
 import { Route as VaViolentCrimeOutcomesRouteImport } from './routes/va-violent-crime-outcomes'
 import { Route as VideosRouteImport } from './routes/videos'
+import { Route as Virginia2027BillsRouteImport } from './routes/virginia-2027-bills'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
 import { Route as CitiesIndexRouteImport } from './routes/cities.index'
@@ -279,6 +280,11 @@ const VaViolentCrimeOutcomesRoute = VaViolentCrimeOutcomesRouteImport.update({
 const VideosRoute = VideosRouteImport.update({
   id: '/videos',
   path: '/videos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const Virginia2027BillsRoute = Virginia2027BillsRouteImport.update({
+  id: '/virginia-2027-bills',
+  path: '/virginia-2027-bills',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ArticlesIndexRoute = ArticlesIndexRouteImport.update({
@@ -1031,6 +1037,7 @@ export interface FileRoutesByFullPath {
   '/tips': typeof TipsRoute
   '/va-violent-crime-outcomes': typeof VaViolentCrimeOutcomesRoute
   '/videos': typeof VideosRoute
+  '/virginia-2027-bills': typeof Virginia2027BillsRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
@@ -1178,6 +1185,7 @@ export interface FileRoutesByTo {
   '/tips': typeof TipsRoute
   '/va-violent-crime-outcomes': typeof VaViolentCrimeOutcomesRoute
   '/videos': typeof VideosRoute
+  '/virginia-2027-bills': typeof Virginia2027BillsRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
   '/find-the-moment/$locality': typeof FindTheMomentLocalityRoute
@@ -1328,6 +1336,7 @@ export interface FileRoutesById {
   '/tips': typeof TipsRoute
   '/va-violent-crime-outcomes': typeof VaViolentCrimeOutcomesRoute
   '/videos': typeof VideosRoute
+  '/virginia-2027-bills': typeof Virginia2027BillsRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
@@ -1483,6 +1492,7 @@ export interface FileRouteTypes {
     | '/tips'
     | '/va-violent-crime-outcomes'
     | '/videos'
+    | '/virginia-2027-bills'
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
@@ -1630,6 +1640,7 @@ export interface FileRouteTypes {
     | '/tips'
     | '/va-violent-crime-outcomes'
     | '/videos'
+    | '/virginia-2027-bills'
     | '/articles/$slug'
     | '/dashboards/general-assembly'
     | '/find-the-moment/$locality'
@@ -1779,6 +1790,7 @@ export interface FileRouteTypes {
     | '/tips'
     | '/va-violent-crime-outcomes'
     | '/videos'
+    | '/virginia-2027-bills'
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
@@ -1933,6 +1945,7 @@ export interface RootRouteChildren {
   TipsRoute: typeof TipsRoute
   VaViolentCrimeOutcomesRoute: typeof VaViolentCrimeOutcomesRoute
   VideosRoute: typeof VideosRoute
+  Virginia2027BillsRoute: typeof Virginia2027BillsRoute
   DashboardsGeneralAssemblyRoute: typeof DashboardsGeneralAssemblyRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
   MockupsSlugRoute: typeof MockupsSlugRoute
@@ -2205,6 +2218,13 @@ declare module '@tanstack/react-router' {
       path: '/videos'
       fullPath: '/videos'
       preLoaderRoute: typeof VideosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/virginia-2027-bills': {
+      id: '/virginia-2027-bills'
+      path: '/virginia-2027-bills'
+      fullPath: '/virginia-2027-bills'
+      preLoaderRoute: typeof Virginia2027BillsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/articles/': {
@@ -3272,6 +3292,7 @@ const rootRouteChildren: RootRouteChildren = {
   TipsRoute: TipsRoute,
   VaViolentCrimeOutcomesRoute: VaViolentCrimeOutcomesRoute,
   VideosRoute: VideosRoute,
+  Virginia2027BillsRoute: Virginia2027BillsRoute,
   DashboardsGeneralAssemblyRoute: DashboardsGeneralAssemblyRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
   MockupsSlugRoute: MockupsSlugRoute,
