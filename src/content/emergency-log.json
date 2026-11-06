@@ -1,6 +1,198 @@
 {
   "entries": [
     {
+      "datetime": "2026-11-06T06:00:00-05:00",
+      "regions": {
+        "America": [
+          {
+            "severity": "HIGH",
+            "title": "Lakewood CO: department confirms agent killed in line of duty; investigation continues",
+            "location": "Lakewood, Colorado (West Colfax Ave & Wadsworth Blvd)",
+            "type": "Other",
+            "summary": "CONTINUATION of the Thursday evening shooting already logged: Lakewood Police Department (verified) posted that at about 6:30 p.m. Nov 5 agents responded to a suspicious-person call near West Colfax and Wadsworth and that a Lakewood police agent was shot and killed in the line of duty. Colorado State Patrol expressed condolences for the fallen agent and three injured agents. KDVR earlier reported one agent dead, three officers and a civilian injured, and the suspect deceased. No new official casualty revision in this 6am ET window beyond prior confirmations.",
+            "status": "Active investigation; officer fatality confirmed by Lakewood PD; scene impacts overnight",
+            "links": [
+              {
+                "url": "https://x.com/LakewoodPDCO/status/2118604498381967383",
+                "label": "Lakewood PD (verified): agent shot and killed in line of duty"
+              },
+              {
+                "url": "https://x.com/CSP_News/status/2118575492576289045",
+                "label": "Colorado State Patrol: condolences for fallen Lakewood agent"
+              },
+              {
+                "url": "https://x.com/KDVR/status/2118567814940459034",
+                "label": "KDVR FOX31: Lakewood agent died; 3 officers + civilian injured; suspect dead"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "FBI/CISA cold-chain OT cyber advisory remains active; no major new U.S. OT hit confirmed this window",
+            "location": "United States (nationwide advisory)",
+            "type": "Cyber",
+            "summary": "The Nov 5 FBI Cyber Branch / CISA joint warning on industrial refrigeration and cold-chain controllers remains the standing U.S. cyber advisory already logged. Secondary X discussion continued into Friday morning; no newly corroborated large-scale U.S. grocery/hospital cold-storage compromise surfaced in this 6am ET sweep beyond the prior advisory.",
+            "status": "Official multi-agency advisory remains in effect; monitoring for further OT impacts",
+            "links": [
+              {
+                "url": "https://x.com/FBICyberBranch/status/2118468417413918915",
+                "label": "FBI Cyber Branch (verified): cold-chain refrigeration OT warning"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Election watch: no official voting-location outages meeting the bar this window",
+            "location": "United States (post–Nov 3, 2026 Election Day residual watch)",
+            "type": "Election",
+            "summary": "Searched for polling-place closures, e-pollbook/equipment failures, power or network outages at voting sites, evacuations/threats, and incident-driven long delays. No county election office, Secretary of State, or other official confirmation of a voting-location disruption meeting the Emergency bar appeared in this window. Partisan fraud-claim posts without official corroboration were ignored.",
+            "status": "No qualifying official reports this sweep",
+            "links": []
+          }
+        ],
+        "Europe": [
+          {
+            "severity": "MEDIUM",
+            "title": "Ireland: RTÉ and multiple media outlets evacuated after emailed bomb threats",
+            "location": "Dublin, Ireland (RTÉ Donnybrook/Montrose campus; other Dublin media offices)",
+            "type": "Other",
+            "summary": "NEW: Ireland’s national broadcaster RTÉ evacuated its Donnybrook campus Friday morning after an emailed bomb threat; Newstalk FM reported gardaí and emergency vehicles on site and live programming disruption. TheJournal.ie reported from campus that Newstalk and Today FM offices were also evacuated. Tech journalist Adrian Weckler and Anadolu Agency (verified) corroborate multi-outlet evacuations including Irish Independent. Faytuks Network cited RTÉ reporting that Taoiseach Micheál Martin said it was too early to say whether threats were individual or coordinated; sniffer-dog searches were described. No device confirmation in posts reviewed; treat as developing emailed-threat evacuations.",
+            "status": "Official/media corroboration of evacuations; investigation ongoing; no confirmed device in reviewed posts",
+            "links": [
+              {
+                "url": "https://x.com/NewstalkFM/status/2118635976583205085",
+                "label": "Newstalk FM: RTÉ Donnybrook evacuated; gardaí on site"
+              },
+              {
+                "url": "https://x.com/thejournal_ie/status/2118648748955828605",
+                "label": "TheJournal.ie: RTÉ campus evacuated; Newstalk/Today FM also cleared"
+              },
+              {
+                "url": "https://x.com/adrianweckler/status/2118650331852660742",
+                "label": "Adrian Weckler: RTÉ, Newstalk, Irish Independent evacuated"
+              },
+              {
+                "url": "https://x.com/anadoluagency/status/2118656611417739513",
+                "label": "Anadolu English (verified): RTE and other Irish media evacuated"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "UK Bonfire Night disorder follow-up: Glasgow/Meadow Well coverage continues",
+            "location": "United Kingdom (Glasgow; Meadow Well / North Shields)",
+            "type": "Unrest",
+            "summary": "Follow-on to already-logged Bonfire Night disorder. GB News (verified) carried Friday commentary on Glasgow disruptions. Secondary posts cited seven arrests in Glasgow after fireworks attacks on emergency services and a police vehicle set alight; prior MEDIUM Glasgow/Meadow Well entries remain the primary logs. No confirmed large-scale citywide escalation beyond prior incidents in this window.",
+            "status": "Prior incidents stand; follow-up coverage",
+            "links": [
+              {
+                "url": "https://x.com/GBNEWS/status/2118652158216417777",
+                "label": "GB News (verified): Bonfire Night disruptions in Glasgow"
+              }
+            ]
+          },
+          {
+            "text": "No material new wire this window on the already-logged eastern France bus crash or Crédit Mutuel Arkéa ~€100M cyber theft (Reuters already logged). Residual secondary posts continue without a scale upgrade."
+          }
+        ],
+        "Russia": [
+          {
+            "severity": "MEDIUM",
+            "title": "Ukraine: multi-region power outages continue; Dnipropetrovsk reports ~50,000 without power after morning strikes",
+            "location": "Ukraine (Kyiv area and multiple regions; Dnipropetrovsk/Kamianske–Samariv districts named)",
+            "type": "Power Outage",
+            "summary": "CONTINUATION of the already-logged seven-region outage picture. Secondary reporting (ASTRA citing Dnipropetrovsk regional military administration head Alexander Ganzha) said a Russian morning attack on energy infrastructure left up to about 50,000 subscribers without electricity in Kamianske and Samariv districts, with one person injured in Kamianske. Broader Kyiv-area blackout/water-stress coverage continued on X without a new Reuters post in this exact window. Exact national customer totals and restoration timelines remain incomplete.",
+            "status": "Ongoing outages; regional admin figure via secondary wire; prior multi-region picture stands",
+            "links": [
+              {
+                "url": "https://x.com/ASTRA_PRESS/status/2118659366609887474",
+                "label": "ASTRA: ~50,000 without power in Dnipropetrovsk districts after morning attack"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2118629564691738813",
+                "label": "Reuters (verified, prior window): new outages in 7 Ukrainian regions; Kyiv worst"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "Russia: Afipsky oil refinery strike/fire coverage continues; damage assessment unconfirmed",
+            "location": "Afipsky Oil Refinery, Krasnodar Krai, Russia",
+            "type": "Infrastructure",
+            "summary": "Follow-on to the already-logged Ukrainian drone strike and fire at Afipsky. Secondary Friday posts continued to recirculate strike/fire claims for the Krasnodar-region refinery; no stronger official Russian production-damage confirmation appeared in this window. Distinct from the separate Ukraine grid-outages item.",
+            "status": "Developing — fire/strike already logged; damage assessment ongoing",
+            "links": [
+              {
+                "url": "https://x.com/TVPWorld_com/status/2118625548108747091",
+                "label": "TVP World (prior window): Afipsky refinery strike; flames/smoke described"
+              }
+            ]
+          }
+        ],
+        "Middle East": [
+          {
+            "text": "No material change this window to the already-logged Saudi Najran two-missile intercept (Anadolu/TRT) or residual Iraq NOTAM / tanker items. Secondary Houthi/Najran recirculation continues without a new official scale upgrade meeting an alert raise."
+          }
+        ],
+        "Africa": [
+          {
+            "text": "No new Africa items meeting the bar this window. Chronic Nigeria power frustration and routine municipal notices (e.g., Johannesburg City Power) remain below the major/disruptive threshold. Prior MEDIUM Egypt/Kenya items stand."
+          }
+        ],
+        "South America": [
+          {
+            "text": "No new South America items meeting the bar this window. Prior Paraguay Ueno Bank / Peña political crisis and Falcón, Venezuela blackout-related items remain the last major regional logs."
+          }
+        ]
+      },
+      "trending": [
+        {
+          "severity": "HIGH",
+          "title": "Western Japan: 128 shinkin credit unions outage — Yahoo reports ATM/services restored; cause still equipment failure",
+          "location": "Western Japan (Tokai region westward through Kyushu; East Japan / major banks unaffected)",
+          "type": "Infrastructure",
+          "summary": "CONTINUATION of the already-logged (and previously alerted) Shinkin Joint Center outage affecting 128 western Japan credit unions from about 1:30 p.m. JST Nov 6. Yahoo! News Topics (verified) posted that ATMs and related services had been restored after the large-scale disruption. Mainichi and earlier wires said the cause was communications-equipment failure, not a cyberattack. Asia sits outside the six regional buckets, so this remains under Trending. Not a NEW HIGH vs prior entries.",
+          "status": "Confirmed outage; secondary verified headline says services restored; not attributed to cyberattack",
+          "links": [
+            {
+              "url": "https://x.com/YahooNewsTopics/status/2118645818999849440",
+              "label": "Yahoo! News Topics (verified): shinkin outage — ATMs etc restored"
+            },
+            {
+              "url": "https://x.com/mainichi/status/2118618911440814427",
+              "label": "Mainichi (verified, prior): 128 credit unions; not a cyberattack per center"
+            },
+            {
+              "url": "https://x.com/TheInsiderPaper/status/2118625962384609384",
+              "label": "Insider Paper (verified, prior): Bloomberg — 128 shinkin banks outage"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "Assam, India: explosion/fire at Oil India Intermediate Tank Farm in Tengakhat; fatalities/injuries reported",
+          "location": "Tengakhat, Dibrugarh district, Assam, India (Oil India Limited Intermediate Tank Farm)",
+          "type": "Infrastructure",
+          "summary": "NEW: NDTV (verified), Hindustan Times (verified), and IANS (verified) report a blast and major fire Friday morning during maintenance at Oil India’s Intermediate Tank Farm in Tengakhat. Casualty figures in posts vary (commonly one dead and about five to six injured, or five critically injured with one missing in earlier wires); injured were taken to Assam Medical College and Hospital, Dibrugarh. Firefighting ongoing. Industrial accident framing in major Indian wires; not reported as terror. Asia logged under Trending.",
+          "status": "Confirmed by major Indian wires; casualty counts still reconciling; firefighting ongoing",
+          "links": [
+            {
+              "url": "https://x.com/ndtv/status/2118605750625018296",
+              "label": "NDTV (verified): major fire at Oil India tank farm; 1 dead, 6 injured"
+            },
+            {
+              "url": "https://x.com/htTweets/status/2118615089594925449",
+              "label": "Hindustan Times (verified): explosion; workers critically injured"
+            },
+            {
+              "url": "https://x.com/ians_india/status/2118623821322404279",
+              "label": "IANS (verified): blast then fire at Tengakhat ITF; serious burn injuries"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "datetime": "2026-11-06T04:00:00-05:00",
       "regions": {
         "America": [
@@ -168,242 +360,6 @@
             {
               "url": "https://x.com/sore_shirabeta/status/2118582525241298965",
               "label": "NHK-linked alert: 128 western Japan credit unions down"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "datetime": "2026-11-06T02:00:00-05:00",
-      "regions": {
-        "America": [
-          {
-            "severity": "HIGH",
-            "title": "UPDATE: Lakewood CO officer fatality confirmed; Polis, Jeffco Sheriff, miles-long procession",
-            "location": "Lakewood, Colorado (West Colfax Ave & Wadsworth Blvd; RTD Route 76)",
-            "type": "Other",
-            "summary": "Overnight follow-up to the Thursday evening Lakewood shooting already logged: Governor Jared Polis (verified) issued condolences confirming one Lakewood Police agent killed in the line of duty, three agents injured, and a wounded civilian. Jefferson County Sheriff (verified) posted solidarity with Lakewood PD. KDVR and Kyle Clark documented a miles-long honor procession and bagpipes outside Denver Health. Suspect remains deceased; investigation active. No change to casualty counts from the prior HIGH alert.",
-            "status": "Confirmed — official statements from Colorado governor and Jeffco Sheriff; procession completed; investigation ongoing",
-            "links": [
-              {
-                "url": "https://x.com/GovofCO/status/2118574623663042677",
-                "label": "Gov. Jared Polis (verified) — condolences; 1 agent killed, 3 injured, civilian wounded"
-              },
-              {
-                "url": "https://x.com/jeffcosheriffco/status/2118602231566016662",
-                "label": "Jeffco Sheriff (verified) — mourning fallen Lakewood agent"
-              },
-              {
-                "url": "https://x.com/KDVR/status/2118594981858545695",
-                "label": "KDVR FOX31 — miles-long procession for fallen agent"
-              },
-              {
-                "url": "https://x.com/KyleClark/status/2118596599698116710",
-                "label": "Kyle Clark — procession video from Denver Health area"
-              }
-            ]
-          },
-          {
-            "severity": "HIGH",
-            "title": "FBI/CISA cold-chain OT cyber advisory remains active; secondary X coverage continues overnight",
-            "location": "United States (nationwide advisory); global cold-chain OT",
-            "type": "Cyber",
-            "summary": "No new official FBI Cyber Branch post in this window beyond the Nov 5 joint advisory already logged. Dark-web and industry accounts continued circulating the CISA/FBI/HHS/USDA/DOT warning on malicious activity against industrial refrigeration and cold-chain temperature controllers. Operators still urged to isolate controllers from the public internet, patch, and change defaults. No new confirmed U.S. grocery or healthcare OT compromise reported in this sweep.",
-            "status": "Active multi-agency advisory — monitoring for further OT hits; no new U.S. incident confirmed this window",
-            "links": [
-              {
-                "url": "https://x.com/FBICyberBranch/status/2118468417413918915",
-                "label": "FBI Cyber Branch (verified) — prior official cold-chain OT warning (still authoritative)"
-              },
-              {
-                "url": "https://x.com/DailyDarkWeb/status/2118600671804985657",
-                "label": "Dark Web Intelligence — overnight recirculation of CISA/FBI cold-chain warning"
-              }
-            ]
-          },
-          {
-            "severity": "MONITORING",
-            "title": "Election watch: no official voting-location outages meeting the bar this window",
-            "location": "United States (post–Nov 3, 2026 Election Day)",
-            "type": "Election",
-            "summary": "Searches for polling-place closures, e-pollbook failures, power/network outages at voting sites, evacuations, and incident-driven delays returned no corroborated posts from county election offices, Secretaries of State, or other official election accounts in this window. Unverified partisan fraud claims and anecdotal replies (including a Toledo threat anecdote) did not meet corroboration rules and were not elevated.",
-            "status": "Quiet — no official election-infrastructure disruption meeting the bar",
-            "links": []
-          }
-        ],
-        "Europe": [
-          {
-            "severity": "MEDIUM",
-            "title": "Glasgow Bonfire Night: police vehicle set alight; fireworks aimed at police and ambulance crews",
-            "location": "Glasgow, Scotland (Greenside Street / Hogganfield / Provanmill area)",
-            "type": "Unrest",
-            "summary": "On Bonfire Night (5 Nov), STV News (verified) and GB News (verified) reported a police car set alight and ambulance workers targeted with fireworks while crews tried to reach an injured man in Glasgow. One ambulance worker was reported injured; at least one male was arrested per secondary reporting. Separate STV coverage noted fireworks thrown at fire crews during Scotland’s large Bonfire Night policing operation. Distinct from Meadow Well (North Shields) disorder the same night.",
-            "status": "Confirmed by verified Scottish/UK outlets — arrests reported; disorder tied to Bonfire Night",
-            "links": [
-              {
-                "url": "https://x.com/STVNews/status/2118464777752080542",
-                "label": "STV News (verified) — police car alight; ambulance worker injured"
-              },
-              {
-                "url": "https://x.com/GBNEWS/status/2118494021228335214",
-                "label": "GB News (verified) — police vehicle set alight; ambulance crews targeted"
-              },
-              {
-                "url": "https://x.com/STVNews/status/2118439104384012483",
-                "label": "STV News (verified) — fireworks thrown at fire crews"
-              }
-            ]
-          },
-          {
-            "severity": "MEDIUM",
-            "title": "Meadow Well, North Shields: Bonfire Night disorder; riot police attacked over false HMO claim",
-            "location": "Meadow Well / Waterville Road, North Shields, England",
-            "type": "Unrest",
-            "summary": "ChronicleLive reported riot police attacked during chaotic Bonfire Night scenes in Meadow Well, with later coverage citing violence driven by misinformation that a completed Waterville Road building would become an HMO (police/local reporting: planned as a supermarket). Secondary posts citing a Northumbria Police statement said emergency services faced bricks, missiles, and fireworks; a building was set alight and a Metro station closed. Not the same incident as Glasgow.",
-            "status": "Developing — local press confirmed; official force account post not located in this sweep; police statement quoted secondhand",
-            "links": [
-              {
-                "url": "https://x.com/ChronicleLive/status/2118465915016597508",
-                "label": "ChronicleLive — BREAKING: riot police attacked in Meadow Well"
-              },
-              {
-                "url": "https://x.com/ChronicleLive/status/2118484630798233913",
-                "label": "ChronicleLive — riot police deployed; HMO misinformation"
-              }
-            ]
-          },
-          {
-            "severity": "MONITORING",
-            "title": "Europe flight bomb-hoax wave: no major new wave tallies overnight; prior Nov 5 disruption stands",
-            "location": "Europe (multi-country)",
-            "type": "Other",
-            "summary": "No new Reuters or equivalent tally in this window beyond the already-logged ~27–30 flight disruptions on 5 Nov. Secondary accounts recirculated the hoax wave and “Male State” email-signature claims. All prior reporting still holds that no explosives were found and passengers were safe. EU aviation security information-sharing reportedly activated earlier.",
-            "status": "Stabilizing — prior MEDIUM alert stands; watching for a fresh wave",
-            "links": [
-              {
-                "url": "https://x.com/Reuters/status/2118426889266053580",
-                "label": "Reuters (verified) — prior explainer on Europe flight bomb threats"
-              }
-            ]
-          }
-        ],
-        "Russia": [
-          {
-            "severity": "HIGH",
-            "title": "UPDATE: Afipsky oil refinery fire imagery persists; smoke reported toward Krasnodar",
-            "location": "Afipsky Oil Refinery, Krasnodar Krai, Russia",
-            "type": "Infrastructure",
-            "summary": "Follow-up to the overnight Ukrainian drone strike already logged as HIGH: Exilenova+ attack and morning fire imagery remain the primary visual record. Secondary monitors described thick smoke toward Krasnodar and noted additional fires under clarification in Krasnodar/Adygea. Production-damage assessment and official casualty figures still unconfirmed. Distinct from earlier Yaroslavl/Samara/Ryazan and other logged refinery hits.",
-            "status": "Developing — fire visually corroborated; official damage assessment pending",
-            "links": [
-              {
-                "url": "https://x.com/Exilenova_plus/status/2118546580685156820",
-                "label": "Exilenova+ — Afipsky oil refinery attacked (imagery)"
-              },
-              {
-                "url": "https://x.com/Exilenova_plus/status/2118560393862041723",
-                "label": "Exilenova+ — Afipsky this morning (fire imagery)"
-              },
-              {
-                "url": "https://x.com/anno1540/status/2118599281485451521",
-                "label": "anno1540 — timeline/location note; overnight after 01:00 local"
-              }
-            ]
-          },
-          {
-            "severity": "MONITORING",
-            "title": "Kyiv energy blackout/water stress continues; no new independent scale figure this window",
-            "location": "Kyiv / Ukraine grid",
-            "type": "Power Outage",
-            "summary": "X News summaries and OSINT accounts continued describing major blackout and water-access stress in Kyiv after Russian strikes on power infrastructure. No new official customer-count or Zelenskyy grid statement unique to this two-hour window beyond the already-logged MONITORING item. Pattern remains grid-targeting into winter.",
-            "status": "Ongoing — prior MONITORING stands; scale figures unchanged this sweep",
-            "links": []
-          }
-        ],
-        "Middle East": [
-          {
-            "severity": "MEDIUM",
-            "title": "Saudi-led coalition: Houthi ballistic missile toward Medina region intercepted; Arab states condemn",
-            "location": "Medina region, Saudi Arabia (missile intercepted; Eastern Province drone also reported downed)",
-            "type": "Terror",
-            "summary": "Saudi Press Agency English (verified) and Al Arabiya English (verified) reported the Saudi-led coalition intercepted and destroyed a ballistic missile launched by Yemen’s Houthi militia toward the Medina region (5 Nov). SPA also carried Qatar and Bahrain condemnations. TRT World and Anadolu covered Arab-state support; Egypt’s foreign ministry condemnation circulated 6 Nov via Iran International English. Houthis have denied targeting Madinah per some wires. No confirmed impact on the holy city itself.",
-            "status": "Confirmed intercept per coalition/SPA — condemnations ongoing; Houthis dispute targeting claim",
-            "links": [
-              {
-                "url": "https://x.com/Spa_Eng/status/2118282322365894752",
-                "label": "SPA English (verified) — coalition intercept toward Madinah region"
-              },
-              {
-                "url": "https://x.com/AlArabiya_Eng/status/2118280373972987959",
-                "label": "Al Arabiya English (verified) — Houthi missile toward Medina intercepted"
-              },
-              {
-                "url": "https://x.com/Spa_Eng/status/2118415259568414795",
-                "label": "SPA English (verified) — Qatar condemns attempt to target Madinah"
-              },
-              {
-                "url": "https://x.com/trtworld/status/2118580391871164605",
-                "label": "TRT World (verified) — Arab states voice support after intercept"
-              },
-              {
-                "url": "https://x.com/anadoluagency/status/2118576630465466462",
-                "label": "Anadolu (verified) — Qatar/Kuwait/Bahrain/Jordan condemn; Houthis deny"
-              }
-            ]
-          },
-          {
-            "text": "No material change this window to the already-logged Iraq nuclear-emergency NOTAM item or the tanker attack north of Qatar (one seafarer missing). Those MEDIUM items stand."
-          }
-        ],
-        "Africa": [
-          {
-            "text": "No new Africa items meeting the bar this window. Prior MEDIUM items stand: Egyptian Border Guard officers killed on the Sudan border (Saudi AlEkhbariya EN reiterated condolences overnight) and the Kenyan police constable killed in Lamu East. Chronic Nigeria grid complaints remain below the major/disruptive bar without a new acute national outage confirmation."
-          }
-        ],
-        "South America": [
-          {
-            "text": "No new South America items meeting the bar this window. Prior Falcón, Venezuela blackout-related road blockades remain the last logged MEDIUM item. A planned Venezuela health/education/university national strike from 16 Nov (El Nacional) is labor action, not an acute security/infrastructure crisis for this log."
-          }
-        ]
-      },
-      "trending": [
-        {
-          "severity": "HIGH",
-          "title": "Japan: 128 shinkin (credit unions) hit by shared-system outage; ATMs and counters unavailable",
-          "location": "Western Japan / Tōkai westward (128 shinkin on shared system)",
-          "type": "Infrastructure",
-          "summary": "NHK News and Nikkei (verified) report a system failure affecting 128 credit unions from the Tōkai region westward through western Japan. Branch counters and ATMs were fully unavailable; NHK attributed the disruption to a communications failure on the shared system. Nikkei likewise reported ATMs and counter transactions down. Recovery timeline was not established in the cited posts. Conspiracy framing (e.g., “financial reset”) appeared in low-quality replies and is ignored. No confirmed cyber attribution in official coverage.",
-          "status": "Confirmed by NHK and Nikkei — large multi-institution banking outage; cause reported as communications/equipment fault on shared system; restoration TBD",
-          "links": [
-            {
-              "url": "https://x.com/nhk_news/status/2118581413964657046",
-              "label": "NHK News — flash: 128 shinkin; counters/ATMs fully unavailable"
-            },
-            {
-              "url": "https://x.com/nhk_news/status/2118582160223539266",
-              "label": "NHK News — communications fault; counters/ATMs down"
-            },
-            {
-              "url": "https://x.com/nikkei/status/2118597041282515285",
-              "label": "Nikkei (verified) — 128 western Japan shinkin; ATM/counter outage"
-            }
-          ]
-        },
-        {
-          "severity": "MONITORING",
-          "title": "Gujarat High Court bomb-threat email; police/bomb squad checks in Ahmedabad",
-          "location": "Ahmedabad, Gujarat, India",
-          "type": "Other",
-          "summary": "News18 Gujarati and TV9 Gujarati reported a bomb-threat email to Gujarat High Court on the morning of 6 Nov, with mentions in local coverage of other sites and precautionary police/bomb-squad checks. No verified national wire confirmation located in this sweep; no explosion reported. Treated as MONITORING pending higher-credibility corroboration.",
-          "status": "Early local reports — precautionary security response; no blast reported",
-          "links": [
-            {
-              "url": "https://x.com/News18Guj/status/2118597616183431516",
-              "label": "News18 Gujarati — High Court bomb-threat email; security response"
-            },
-            {
-              "url": "https://x.com/tv9gujarati/status/2118589787648958918",
-              "label": "TV9 Gujarati — bomb threat email; police and bomb squad on alert"
             }
           ]
         }
