@@ -77,7 +77,7 @@ All filters AND together. An empty filter matches every new filing.
 - Category: bill's category ids. Secondary categories count. Counts on the chips are for the full new-filing set, so they do not shrink when another filter is on.
 - Patron: chief patron or any sponsor, labeled Delegate or Senator from the member id.
 - Chamber: `chamber`.
-- Party: chief patron party code. `missing` is offered only when some chief patron has no code.
+- Party: chief patron party code. The Republican and Democrat buttons set this same filter and read `chief_patron_party_code`. A co-patron does not change it. `missing` is offered in the party menu only when some chief patron has no code.
 - Status: exact `status_label`.
 
 Sort is newest `introduction_date` first, then bill number. Sorting does not drop rows. The default page (no query string) shows every new filing.

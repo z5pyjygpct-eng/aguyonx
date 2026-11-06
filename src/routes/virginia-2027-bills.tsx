@@ -134,6 +134,8 @@ function Virginia2027BillsPage() {
               </div>
             </form>
 
+            <PartyShortcuts parties={parties} selected={search.party ?? ""} onPick={(party) => setSearch({ party })} />
+
             <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               <Select label="Patron" value={search.patron ?? ""} onChange={(patron) => setSearch({ patron })}>
                 <option value="">All Delegates and Senators ({all.length})</option>
@@ -268,6 +270,39 @@ function Virginia2027BillsPage() {
         </div>
       </V4Main>
     </SiteShell>
+  );
+}
+
+function PartyShortcuts({ parties, selected, onPick }: { parties: { value: string; label: string; count: number }[]; selected: string; onPick: (party: string) => void }) {
+  const shortcuts = (["R", "D"] as const).flatMap((code) => {
+    const row = parties.find((p) => p.value === code);
+    return row ? [row] : [];
+  });
+  if (!shortcuts.length) return null;
+  return (
+    <div className="mt-4">
+      <p id="va2027-party-shortcuts" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Chief patron party</p>
+      <p className="mt-1 text-xs text-night-muted">Republican and Democrat use the chief patron’s roster party. A co-patron does not change this filter.</p>
+      <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="va2027-party-shortcuts">
+        {shortcuts.map((p) => {
+          const active = selected === p.value;
+          return (
+            <button
+              key={p.value}
+              type="button"
+              data-party-filter={p.value}
+              data-count={p.count}
+              aria-pressed={active}
+              onClick={() => onPick(active ? "" : p.value)}
+              className={`inline-flex min-h-12 items-center gap-2 rounded-xl border px-4 text-base font-semibold ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
+            >
+              {p.label}
+              <span className={`rounded-full px-1.5 text-xs ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`}>{p.count}</span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
   );
 }
 

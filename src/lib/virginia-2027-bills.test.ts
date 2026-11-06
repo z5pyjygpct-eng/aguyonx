@@ -134,6 +134,28 @@ test("a filter excludes only non-matches", () => {
   assert.ok(without.every((b) => b.summary_plain == null));
 });
 
+test("Republican and Democrat shortcuts follow the chief patron only", () => {
+  const republican = filterBills(bills, { party: "R" });
+  const democrat = filterBills(bills, { party: "D" });
+  assert.deepEqual(republican.map((b) => b.bill_number).sort(), ["HB1532", "HB1533", "HB1534", "SR173"]);
+  assert.equal(democrat.length, 15);
+  assert.equal(republican.length + democrat.length, 19);
+  assert.ok(republican.every((b) => b.chief_patron_party_code === "R" && b.chief_patron_party === "Republican"));
+  assert.ok(democrat.every((b) => b.chief_patron_party_code === "D" && b.chief_patron_party === "Democrat"));
+  for (const number of ["SB839", "SB841", "SB843"]) {
+    assert.equal(democrat.some((b) => b.bill_number === number), true, number);
+    assert.equal(republican.some((b) => b.bill_number === number), false, number);
+  }
+  assert.deepEqual(
+    filterBills(bills, { party: "R", chamber: "House" }).map((b) => b.bill_number).sort(),
+    ["HB1532", "HB1533", "HB1534"],
+  );
+  assert.deepEqual(filterBills(bills, { party: "D", q: "Favola" }).map((b) => b.bill_number).sort(), ["SB837", "SB844"]);
+  assert.equal(filterBills(bills, { party: "R", q: "Favola" }).length, 0);
+  assert.deepEqual(filterBills(bills, { party: "R", q: "Cherry" }).map((b) => b.bill_number).sort(), ["HB1532", "HB1533"]);
+  assert.equal(filterBills(bills, {}).length, 19);
+});
+
 test("search does not use summary text", () => {
   const hb = bills.find((b) => b.bill_number === "HB1532")!;
   assert.match(hb.summary_plain ?? "", /July 1, 2028/);
