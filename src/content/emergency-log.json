@@ -165,9 +165,13 @@
             "title": "UPDATE: Paris Yellow Vests — two spokespersons arrested ahead of banned Concorde rally",
             "location": "Paris, France",
             "type": "Unrest",
-            "summary": "franceinfo reports two Yellow Vest spokespersons were detained in Paris before their banned Place de la Concorde assembly on the fourth consecutive Saturday of protests. No mass-casualty or large-scale riot confirmed by wires this window.",
+            "summary": "AFP reports thousands protested across France on Saturday, with Paris police moving to prevent an unauthorized gathering near the Élysée. franceinfo reports two Yellow Vest spokespersons were detained before their banned Place de la Concorde assembly. No mass-casualty or large-scale riot confirmed by wires this window.",
             "status": "Day-of protests; arrests reported; no major disorder confirmed by wires",
             "links": [
+              {
+                "url": "https://x.com/AFP/status/2119100680128307591",
+                "label": "AFP: thousands protested; police prevent gathering near Élysée"
+              },
               {
                 "url": "https://x.com/franceinfo/status/2119073890748043538",
                 "label": "franceinfo: two Yellow Vest spokespersons arrested before banned Concorde rally"
@@ -356,15 +360,23 @@
           },
           {
             "severity": "MONITORING",
-            "title": "CONTINUATION: AFP — Syrian troops set to deploy to Saudi Arabia and Yemen against Houthis",
+            "title": "UPDATE: Syria denies plans to send troops to Yemen — contradicts earlier AFP report",
             "location": "Saudi Arabia / Yemen",
             "type": "Other",
-            "summary": "Prior AFP reporting, citing Yemeni officials, that thousands of Syrian troops are set to deploy to Saudi Arabia and Yemen against the Houthis stands. No new official announcement found this window.",
-            "status": "Wire report citing officials; not officially announced",
+            "summary": "Reuters reports Syria denies plans to send troops to Yemen as Saudi military ties deepen. Al Jazeera English cites a Syrian diplomatic source via SANA dismissing deployment reports as baseless. This contradicts the earlier AFP report, citing Yemeni officials, that thousands of Syrian troops were set to deploy to Saudi Arabia and Yemen against the Houthis.",
+            "status": "Contested — AFP claim vs Syrian denial via Reuters/SANA",
             "links": [
               {
+                "url": "https://x.com/Reuters/status/2119108902931337295",
+                "label": "Reuters: Syria denies plans to send troops to Yemen"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119114132129558775",
+                "label": "Al Jazeera English: Syrian source via SANA dismisses deployment reports"
+              },
+              {
                 "url": "https://x.com/AFP/status/2119082527948222543",
-                "label": "@AFP on X"
+                "label": "AFP earlier: thousands of Syrian troops set to deploy (Yemeni officials)"
               }
             ]
           }
@@ -375,12 +387,16 @@
             "title": "CONTINUATION: Eastern DRC Cantine-Aloya ADF attack — toll at least 33",
             "location": "Cantine-Aloya, North Kivu, DR Congo",
             "type": "Terror",
-            "summary": "Reuters baseline of at least 33 civilians killed in an Islamic State-linked ADF attack on Cantine-Aloya stands. No material new wire toll update found this window.",
+            "summary": "Reuters baseline of at least 33 civilians killed in an Islamic State-linked ADF attack on Cantine-Aloya stands. CGTN Africa additionally reports that Ebola patients fled a clinic after the insurgent attack. No material new wire death-toll revision found this window.",
             "status": "Confirmed; toll baseline unchanged",
             "links": [
               {
                 "url": "https://x.com/Reuters/status/2118848853256335734",
                 "label": "Reuters: at least 33 civilians killed in ADF attack in North Kivu"
+              },
+              {
+                "url": "https://x.com/cgtnafrica/status/2119112747178656215",
+                "label": "CGTN Africa: Ebola patients flee after attack killing at least 33"
               }
             ]
           },
@@ -469,6 +485,32 @@
         ]
       },
       "trending": [
+        {
+          "severity": "MEDIUM",
+          "title": "NEW: Japan M5.7 quake — intensity upper-5 in Aichi; no tsunami",
+          "location": "Western Shizuoka / Aichi Prefecture, Japan",
+          "type": "Other",
+          "summary": "NHK and NHK World report a magnitude 5.7 earthquake around 1:04 a.m. JST Nov 8 (about 11:04 a.m. ET Nov 7), with intensity upper 5 (震度5強) in hardest-hit parts of Aichi. The Japan Meteorological Agency says there is no tsunami threat and scheduled a press briefing. No mass-casualty confirmation found in posts reviewed this window.",
+          "status": "Confirmed quake; no tsunami; damage and injury toll still early",
+          "links": [
+            {
+              "url": "https://x.com/NHKWORLD_News/status/2119111070560502193",
+              "label": "NHK World: M5.7 in Aichi; intensity upper 5; no tsunami"
+            },
+            {
+              "url": "https://x.com/nhk_news/status/2119100576827097174",
+              "label": "NHK: Aichi intensity 5-strong; no tsunami concern"
+            },
+            {
+              "url": "https://x.com/nhk_news/status/2119099823324627117",
+              "label": "NHK: earthquake bulletin — Aichi intensity 5-strong"
+            },
+            {
+              "url": "https://x.com/JMA_kishou/status/2119105069962686915",
+              "label": "JMA: press conference on western Shizuoka quake"
+            }
+          ]
+        },
         {
           "severity": "MONITORING",
           "title": "CONTINUATION: Muzaffarabad / Rawalakot (AJK) unrest — casualty claims still unverified by wires",
