@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,212 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-07",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Nov 6) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched the article page title or h1, Nov 6 ET publish date checked on the article page or the outlet homepage card). Sources checked: RSS from ARLnow, FFXnow, ALXnow, Annandale Today, Potomac Local, Blue Ridge Leader, Loudoun County news flash, Patch (Leesburg, Ashburn, Reston, Fairfax, Arlington, Woodbridge), NBC Washington Northern Virginia, WUSA9 Virginia, WTOP local, Fairfax Times, Loudoun Times-Mirror, Prince William Times (RSS recovered after an initial HTTP 429), plus Loudoun Now RSS/homepage (LN RSS/home initially HTTP 429 then recovered; LN RSS was mostly wire/sponsored and homepage cards were used for local Nov 6). Also news.ts (VA Mercury Lucas/NextEra statewide already filed — excluded as statewide). 32 candidate pages checked; 0 failed verification after Patch pages were re-fetched with gzip decompression (7 Patch URLs initially returned compressed bodies with empty titles); 22 kept (under the 25 cap) after soft lifestyle fluff was dropped first (ARLnow healthcare webinar and Coach Sam Fox tournament feature; Potomac Local Woodbridge Navy feature; also left out LTM DIGEST overlapping LN Golden/salary detail, Loudoun Patriot Award, Loudoun recycle/surplus alerts, LTM data-centers charity feature, Christmas Market soft feature, and Veterans Day 5K). Excluded as statewide, national or other locality: ALXnow (Alexandria), Fairfax Times/Loudoun Now wire press-release floods, LTM Lucas expulsion and NextEra SCC statewide reprints, AI data-centers midterms wrap, Trump arch federal litigation (ARLnow/Patch/NBC), Stafford/Fredericksburg/MD WTOP and WUSA9 items, Potomac Local Jeopardy/Stafford yoga/IRS/JetBlue, NBC Washington items with unreliable feed dates, Morning Notes/Polls, Blue Ridge Leader (no Nov 6 posts), InsideNoVa HTML feed, WTOP Virginia feed HTML. Gaps: Loudoun Now RSS initially HTTP 429 (homepage used); Patch Fairfax/Arlington/Woodbridge feeds returned empty shells; Annandale Today had one Nov 6 item; PWT had one clear Nov 6 localnews item in RSS.",
+      "items": [
+        {
+          "id": "arlington-democrats-celebrate-wins-in-congress-arlnow-2026-11-06",
+          "county": "Arlington",
+          "headline": "Arlington Democrats celebrate wins in Congress, seek to build on momentum for 2028",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/06/arlington-democrats-celebrate-wins-in-congress-seek-to-build-on-momentum-for-2028/",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "beyer-slams-trumps-pick-of-stephen-arlnow-2026-11-06",
+          "county": "Arlington",
+          "headline": "Beyer slams Trump’s pick of Stephen Miller for new chief of staff",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/06/beyer-slams-trumps-pick-of-stephen-miller-for-new-chief-of-staff/",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "construction-starting-soon-on-upgraded-fields-arlnow-2026-11-06",
+          "county": "Arlington",
+          "headline": "Construction starting soon on upgraded fields at Kenmore Middle School",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/06/construction-starting-soon-on-upgraded-fields-at-kenmore-middle-school/",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "annandale-man-indicted-on-federal-illegal-patch-2026-11-06",
+          "county": "Fairfax",
+          "headline": "Annandale Man Indicted On Federal Illegal Reentry Charge After Prior Gun Conviction",
+          "outlet": "Patch",
+          "url": "https://patch.com/virginia/annandale/annandale-man-indicted-federal-illegal-reentry-charge-after-prior-gun-conviction",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-tasks-visit-fairfax-with-leading-ffxnow-2026-11-06",
+          "county": "Fairfax",
+          "headline": "County tasks Visit Fairfax with leading community events, phasing out Celebrate Fairfax",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/06/county-officially-tasks-visit-fairfax-with-leading-community-events-phasing-out-celebrate-fairfax/",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcdot-adds-16-more-pedestrian-safety-ffxnow-2026-11-06",
+          "county": "Fairfax",
+          "headline": "FCDOT adds 16 more pedestrian safety projects to to-do list",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/06/fcdot-adds-16-more-pedestrian-safety-projects-to-to-do-list/",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcdot-to-proceed-with-sidewalk-project-annandale-2026-11-06",
+          "county": "Fairfax",
+          "headline": "FCDOT to proceed with sidewalk project in Bailey’s Crossroads",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/fcdot-to-proceed-with-sidewalk-project-in-baileys-crossroads/",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-arrest-leads-to-federal-patch-2026-11-06",
+          "county": "Fairfax",
+          "headline": "Fairfax County Arrest Leads To Federal Indictment Of Man Previously Deported From U.S.",
+          "outlet": "Patch",
+          "url": "https://patch.com/virginia/mclean/fairfax-county-arrest-leads-federal-indictment-man-previously-deported-u-s",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-voters-ok-bond-funding-ffxnow-2026-11-06",
+          "county": "Fairfax",
+          "headline": "Fairfax County voters OK bond funding for parks, human services renovations",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/06/fairfax-county-voters-ok-bond-funding-for-parks-human-services-renovations/",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "former-annandale-catholic-school-substitute-teacher-patch-2026-11-06",
+          "county": "Fairfax",
+          "headline": "Former Annandale Catholic School Substitute Teacher Sentenced For Child Sex Abuse",
+          "outlet": "Patch",
+          "url": "https://patch.com/virginia/annandale/former-annandale-catholic-school-substitute-teacher-sentenced-child-sex-abuse",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "gdit-says-only-20-of-565-patch-2026-11-06",
+          "county": "Fairfax",
+          "headline": "GDIT Says Only 20 Of 565 Northern Virginia Workers In Layoff Notices Were Impacted",
+          "outlet": "Patch",
+          "url": "https://patch.com/virginia/reston/gdit-says-only-20-565-northern-virginia-workers-layoff-notices-were-impacted",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "basement-fire-displaces-family-of-five-potomaclocal-2026-11-06",
+          "county": "Prince William",
+          "headline": "Basement fire displaces family of five and their dog in Catharpin",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/06/catharpin-basement-fire-displaces-family-of-five-and-dog/",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-indecent-exposure-reported-in-potomaclocal-2026-11-06",
+          "county": "Prince William",
+          "headline": "Police Blotter: Indecent exposure reported in Woodbridge; missing teen Nevaeh Simpson located safe",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/06/police-blotter-2026-11-06/",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prosecutor-calls-naresh-bhatt-a-liar-pwt-2026-11-06",
+          "county": "Prince William",
+          "headline": "Prosecutor calls Naresh Bhatt ‘a liar’ after Bhatt claimed his wife committed suicide",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/prosecutor-calls-naresh-bhatt-a-liar-after-bhatt-claimed-his-wife-committed-suicide/article_ffbc5956-165c-4722-9ade-07aef6feac60.html",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "after-months-of-delay-golden-substation-loudounnow-2026-11-06",
+          "county": "Loudoun",
+          "headline": "After Months of Delay, Golden Substation Garners Board Approval",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/loudoun/after-months-of-delay-golden-substation-garners-board-approval/article_ee5fd0bf-f99a-4cec-a8ba-9a9cf44d14db.html",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "concrete-waste-illegally-dumped-into-leesburg-patch-2026-11-06",
+          "county": "Loudoun",
+          "headline": "Concrete Waste Illegally Dumped Into Leesburg Storm Drain, Town Says",
+          "outlet": "Patch",
+          "url": "https://patch.com/virginia/leesburg/concrete-waste-illegally-dumped-leesburg-storm-drain-town-says",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lcps-auditor-cites-concerns-with-school-loudounnow-2026-11-06",
+          "county": "Loudoun",
+          "headline": "LCPS Auditor Cites Concerns with School Bus Operations",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/education/lcps-auditor-cites-concerns-with-school-bus-operations/article_14feda59-6ab2-4c47-bba3-fb15cab09135.html",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lcso-seeks-witnesses-after-crash-leaves-loudounnow-2026-11-06",
+          "county": "Loudoun",
+          "headline": "LCSO Seeks Witnesses After Crash Leaves 2 Seriously Hurt",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/lcso-seeks-witnesses-after-crash-leaves-2-seriously-hurt/article_f798a1f8-ca43-43a3-b5cc-eef7227ca68c.html",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-fbi-agent-admits-to-stealing-patch-2026-11-06",
+          "county": "Loudoun",
+          "headline": "Loudoun FBI Agent Admits To Stealing $2.4 Million In Cryptocurrency From Investigation Targets",
+          "outlet": "Patch",
+          "url": "https://patch.com/virginia/ashburn/loudoun-fbi-agent-admits-stealing-2-4-million-cryptocurrency-investigation-targets",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-arrested-after-leesburg-stabbing-loudounnow-2026-11-06",
+          "county": "Loudoun",
+          "headline": "Man Arrested After Leesburg Stabbing",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/man-arrested-after-leesburg-stabbing/article_006fe1c5-d79f-4314-a158-14ed37262979.html",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "person-detained-after-jumping-fence-at-loudounnow-2026-11-06",
+          "county": "Loudoun",
+          "headline": "Person Detained After Jumping Fence at Sterling State Department Facility",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/person-detained-after-jumping-fence-at-sterling-state-department-facility/article_7454c07c-00a5-4503-8fc3-835581993032.html",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "supervisors-approve-plan-to-phase-in-loudounnow-2026-11-06",
+          "county": "Loudoun",
+          "headline": "Supervisors Approve Plan to Phase in 30% Board Salary Increases",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/supervisors-approve-plan-to-phase-in-30-board-salary-increases/article_e09c9fe7-123a-4e46-a09d-c7feecc59d5a.html",
+          "published": "2026-11-06",
+          "tier": "Reported Claim"
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "status": "ok",
