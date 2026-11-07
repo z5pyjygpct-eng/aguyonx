@@ -1,6 +1,400 @@
 {
   "entries": [
     {
+      "datetime": "2026-11-07T04:00:00-05:00",
+      "regions": {
+        "America": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Armed Venezuelan national arrested near White House after alleged Trump threat — no new official developments",
+            "location": "Constitution Avenue near the White House, Washington, D.C.",
+            "type": "Other",
+            "summary": "Continuation of the arrest first logged at 10:00 PM ET Nov 6 (Ronny Yordrix Guanipa Chrinos; firearms found in a stolen vehicle, per criminal complaint and DHS). No new Secret Service, DHS or DOJ statement or court date found this window. No shots fired.",
+            "status": "Suspect in custody and charged; quiet this window",
+            "links": [
+              {
+                "url": "https://x.com/ABC/status/2118891780376604772",
+                "label": "ABC: Venezuelan national arrested near White House with several firearms, per complaint/DHS"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Lakewood, CO shooting — Agent Nicholas Graham mourned; toll unchanged",
+            "location": "Lakewood, Colorado (West Colfax Ave & Wadsworth Blvd)",
+            "type": "Other",
+            "summary": "Continuation of the Nov 5 shooting that killed Lakewood Police Agent Nicholas Graham, 33; suspect Gabriel Steven Garcia (parolee) was killed by returning fire. X News summary still reports three other agents and a bystander wounded, two agents released. No new official developments this window.",
+            "status": "Investigation and mourning ongoing; toll unchanged",
+            "links": [
+              {
+                "url": "https://x.com/LakewoodPDCO/status/2118862842862727430",
+                "label": "Lakewood PD: official statement on Agent Nicholas Graham"
+              },
+              {
+                "url": "https://x.com/i/trending/2118548998478774282",
+                "label": "X News: Lakewood Officer Nicholas Graham killed in suspect shooting"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "UPDATE: Salt Lake City barricade (900 S / 1900 E) — SLCPD says no change as of midnight",
+            "location": "Yalecrest area, Salt Lake City, Utah",
+            "type": "Other",
+            "summary": "SLCPD posted that as of midnight local time there was no change: the man remained barricaded and the half-mile shelter-in-place stayed in effect. Shots were earlier fired from inside the home. A secondary claim that the suspect shot himself remains unconfirmed by police. Localized incident.",
+            "status": "Active standoff at last official update",
+            "links": [
+              {
+                "url": "https://x.com/slcpd/status/2118962220415832228",
+                "label": "SLCPD: no change as of midnight; shelter in place remains"
+              },
+              {
+                "url": "https://x.com/tvheidihatch/status/2118961471468241388",
+                "label": "KUTV (Heidi Hatch): man remains barricaded as of midnight"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Queens Public Library ransomware outage across 66 branches",
+            "location": "Queens, New York City",
+            "type": "Cyber",
+            "summary": "The ransomware attack that began Nov 4 continues to affect the library's online systems, per officials cited by Gothamist. No new official update this window. Public-service disruption below the critical-infrastructure bar.",
+            "status": "Outage ongoing; under investigation",
+            "links": [
+              {
+                "url": "https://x.com/Gothamist/status/2118399313994740088",
+                "label": "Gothamist: Queens Public Library online system downed by ransomware"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Utah San Juan River flood aftermath — DEQ E. coli advisory remains",
+            "location": "San Juan River; San Juan and Washington counties, Utah",
+            "type": "Infrastructure",
+            "summary": "Governor's state of emergency and Utah DEQ health advisory remain in place. No new official posts this window.",
+            "status": "Advisory active; quiet",
+            "links": [
+              {
+                "url": "https://x.com/UtahDEQ/status/2118862948517265867",
+                "label": "Utah DEQ (prior): San Juan River health advisory update"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: FBI cold-chain / refrigeration cyber advisory — no new U.S. hit confirmed",
+            "location": "United States (nationwide advisory)",
+            "type": "Cyber",
+            "summary": "The Nov 5 FBI warning remains the reference. Posts this window recirculated the earlier French supermarket and blood-service refrigeration incidents; no newly corroborated U.S. hospital, utility, water or grid cyber incident found.",
+            "status": "Advisory in effect",
+            "links": [
+              {
+                "url": "https://x.com/FBICyberBranch/status/2118468417413918915",
+                "label": "FBI Cyber (prior): cold-chain/refrigeration advisory"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Election watch: no official voting-location or canvass-site disruptions found this window",
+            "location": "United States",
+            "type": "Election",
+            "summary": "Searches for polling-site, canvass or election-office closures, evacuations, threats or outages found no official reports this window. Posts seen were unverified fraud claims or political commentary, which are not logged.",
+            "status": "No disruptions found"
+          }
+        ],
+        "Europe": [
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Europe flight and media bomb-hoax wave — no devices found",
+            "location": "Multiple European countries; Irish and other broadcasters",
+            "type": "Other",
+            "summary": "Anadolu's briefing describes bomb threats against flights and media outlets in at least five European countries; X News summarizes at least 14 flight diversions or escorts on Nov 5–6 and evacuations at RTÉ, the Irish Independent and Newstalk, with no explosives found. No new incidents confirmed this window.",
+            "status": "Investigations continue; no culprit confirmed",
+            "links": [
+              {
+                "url": "https://x.com/anadoluagency/status/2118942791434653863",
+                "label": "Anadolu: bomb threats target flights, media outlets in at least 5 European countries"
+              },
+              {
+                "url": "https://x.com/i/trending/2118267799986729365",
+                "label": "X News: hoax bomb threats disrupt European flights and Irish media"
+              }
+            ]
+          },
+          {
+            "text": "Scaled back: Amsterdam Microsoft data-center protest arrests — no new developments this window."
+          }
+        ],
+        "Russia": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Ukrainian strike on Saratov oil refinery — Ukraine's Stratcom confirms targeting",
+            "location": "Saratov, Russia",
+            "type": "Infrastructure",
+            "summary": "Ukraine's Center for Strategic Communications says the Saratov refinery, which supplies fuel to the Russian army, was targeted overnight, and Militarnyi reports it was struck with drones alongside a missile strike on Oryol's Proton plant. OSINTtechnical earlier cited locals reporting multiple major fires. Extent of damage and casualties remain unverified by wire services.",
+            "status": "Fires reported; official Ukrainian claim; damage unverified",
+            "links": [
+              {
+                "url": "https://x.com/StratcomCentre/status/2118990352979726804",
+                "label": "Ukraine Stratcom: Saratov refinery targeted; Oryol Proton and Rostov warehouse also hit"
+              },
+              {
+                "url": "https://x.com/militarnyi/status/2118976183861981401",
+                "label": "Militarnyi: missile strike on Oryol Proton plant, drones on Saratov refinery"
+              },
+              {
+                "url": "https://x.com/Osinttechnical/status/2118925484494852211",
+                "label": "OSINTtechnical: Saratov refinery suffering multiple major fires"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "UPDATE: Russian overnight strike on Ukraine's energy grid — large-scale outage in Zhytomyr region",
+            "location": "Kyiv and Zhytomyr regions, Ukraine",
+            "type": "Power Outage",
+            "summary": "Ukrinform reports a large-scale power outage in Zhytomyr region after a Russian strike on an energy facility. In Kyiv, Mayor Klitschko said the Northern Bridge was damaged and five people injured, including a 14-year-old, per the Kyiv Independent. X News summarizes the attack as 172 drones and 36 ballistic missiles with blackouts and water disruptions in the capital; those figures are not independently confirmed here.",
+            "status": "Repairs ongoing; outages continuing",
+            "links": [
+              {
+                "url": "https://x.com/Ukrinform_News/status/2118987414236434471",
+                "label": "Ukrinform: large-scale power outage in Zhytomyr region after Russian strike"
+              },
+              {
+                "url": "https://x.com/KyivIndependent/status/2118938162001015022",
+                "label": "Kyiv Independent: Northern Bridge damaged, 5 injured including child"
+              },
+              {
+                "url": "https://x.com/i/trending/2118849874900685188",
+                "label": "X News: Russian missiles hammer Kyiv's energy grid and bridges"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Oryol Proton plant struck overnight",
+            "location": "Oryol, Russia",
+            "type": "Other",
+            "summary": "Militarnyi and Ukraine's Stratcom describe a missile strike on the Proton plant, which they say makes Iskander-M and Pantsir components. Stratcom notes OSINT analysts report a possible fire. No Russian official confirmation found.",
+            "status": "Ukrainian claims; damage unverified",
+            "links": [
+              {
+                "url": "https://x.com/militarnyi/status/2118976183861981401",
+                "label": "Militarnyi: missile strike on Proton plant in Oryol"
+              }
+            ]
+          }
+        ],
+        "Middle East": [
+          {
+            "severity": "MONITORING",
+            "title": "RESOLVED: Isfahan explosions attributed to controlled disposal of unexploded ordnance",
+            "location": "Isfahan Province, Iran",
+            "type": "Other",
+            "summary": "OSINTdefender relayed local Iranian media saying the explosions near Isfahan were controlled demolitions of unexploded ordnance from earlier fighting. X News summary says no injuries or damage were reported. Can be scaled back.",
+            "status": "Explained by local officials; no damage reported",
+            "links": [
+              {
+                "url": "https://x.com/sentdefender/status/2118974968625307866",
+                "label": "OSINTdefender: Isfahan blasts were controlled UXO demolition, per local media"
+              },
+              {
+                "url": "https://x.com/i/trending/2118962538968715440",
+                "label": "X News: controlled blasts in Isfahan Province spark brief alarm"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: U.S.–Iran tensions after Qeshm Island strikes; Qatar mediation continues",
+            "location": "Qeshm Island, Iran; Gulf region",
+            "type": "Other",
+            "summary": "Reuters earlier cited Tasnim reporting two missiles struck Qeshm Island. This window Reuters reports Qatar says its mediation between the U.S. and Iran continues to prevent escalation. No new strikes confirmed this window.",
+            "status": "Tense; no new confirmed strikes",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2118908840007635443",
+                "label": "Reuters (prior): two missiles strike Iran's Qeshm Island, per Tasnim"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2118991888564756943",
+                "label": "Reuters: Qatar says US–Iran mediation continues to prevent escalation"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Saudi air defenses intercept Houthi cruise missile and drone aimed at Riyadh",
+            "location": "Riyadh region, Saudi Arabia",
+            "type": "Other",
+            "summary": "The Saudi-led coalition said it intercepted and destroyed a Houthi cruise missile and a drone targeting the Riyadh region. No impacts or casualties reported. Separate reports of a ballistic missile aimed at Madinah come from lower-credibility accounts and are not confirmed here.",
+            "status": "Official coalition statement; no damage reported",
+            "links": [
+              {
+                "url": "https://x.com/TheSiasatDaily/status/2118988002454090009",
+                "label": "Siasat Daily: coalition intercepted Houthi cruise missile and drone targeting Riyadh"
+              }
+            ]
+          }
+        ],
+        "Africa": [
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Eastern DRC Cantine-Aloya ADF attack — toll 33",
+            "location": "Cantine-Aloya, North Kivu, DR Congo",
+            "type": "Terror",
+            "summary": "Reuters reported at least 33 civilians killed by ADF militants who burned homes and a health center. No updated toll found this window.",
+            "status": "Confirmed by Reuters; toll unchanged",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2118848853256335734",
+                "label": "Reuters: at least 33 civilians killed in ADF attack on Cantine-Aloya"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Ethiopia Arsi Zone killings of Orthodox Christians",
+            "location": "East Arsi Zone, Oromia, Ethiopia",
+            "type": "Terror",
+            "summary": "X News summary cites local reports of more than 35 killed in the Nov 5 Endeto Kebele attack and a cumulative toll of at least 94 in under three weeks. Figures come from local and church sources; no federal confirmation found.",
+            "status": "Local reports; not officially confirmed",
+            "links": [
+              {
+                "url": "https://x.com/i/trending/2118679332713353516",
+                "label": "X News: dozens of Orthodox Christians killed in Arsi Zone attacks"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "UPDATE: Somalia Chief Justice reportedly dismissed and arrested; seeks international protection",
+            "location": "Mogadishu, Somalia",
+            "type": "Unrest",
+            "summary": "The Africa Judges and Jurists Forum says it is concerned by reports that Chief Justice Bashe Yusuf Ahmed was dismissed and arrested a day after the Supreme Court ruled the president's term ended in May 2026. ChimpReports says the Chief Justice is seeking international protection. No Somali government confirmation found; no unrest reported yet.",
+            "status": "Early reports; unconfirmed by government",
+            "links": [
+              {
+                "url": "https://x.com/AfricanJurists/status/2118959687852814433",
+                "label": "AJJF: concern over reported dismissal and arrest of Somalia's Chief Justice"
+              },
+              {
+                "url": "https://x.com/ChimpReports/status/2118955358475686111",
+                "label": "ChimpReports: Somalia Chief Justice seeks international protection"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Nigeria: multi-state power outages; minister promises phased restoration in 48–72 hours",
+            "location": "Lagos, FCT and other states, Nigeria",
+            "type": "Power Outage",
+            "summary": "Per X News, Power Minister Joseph Tegbe said outages in four states including Lagos and the FCT stem from planned Egbin maintenance, gas constraints and damaged transmission lines, with first units back within 48 to 72 hours. Residents report outages lasting days. Not a cyber or attack event.",
+            "status": "Official explanation issued; restoration pending",
+            "links": [
+              {
+                "url": "https://x.com/i/trending/2118992534558896608",
+                "label": "X News: Nigeria's power minister promises improvement within 48–72 hours"
+              }
+            ]
+          }
+        ],
+        "South America": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Paraguay — Senate impeaches Peña; Alliana sworn in; ex-president held at military base",
+            "location": "Asunción, Paraguay",
+            "type": "Unrest",
+            "summary": "Reuters reports the Senate voted to impeach President Santiago Peña and that Pedro Alliana was sworn in as president. Al Jazeera reports Peña was moved to a military base for his protection after house arrest following the Ueno bank collapse. No new unrest confirmed this window.",
+            "status": "Confirmed by Reuters and Al Jazeera; transition under way",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2118973000938561565",
+                "label": "Reuters: Paraguay Senate votes to impeach President Peña"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2118956632558227480",
+                "label": "Reuters: Alliana sworn in as president after Peña impeachment"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2118946557164695831",
+                "label": "Al Jazeera: Peña moved to military base for his own protection"
+              }
+            ]
+          },
+          {
+            "text": "Scaled back: São Paulo four-story building collapse (four injured, per Reuters) — no further developments."
+          }
+        ]
+      },
+      "trending": [
+        {
+          "severity": "MONITORING",
+          "title": "UPDATE: Ghaziabad police-outpost blast — online claim by little-known group; police suspect it is fake",
+          "location": "Vasundhara, Ghaziabad, Uttar Pradesh, India",
+          "type": "Terror",
+          "summary": "Ghaziabad's Police Commissioner said a sub-inspector and a delivery worker were present when the blast hit the outpost's rear wall and an investigation has begun. India Today reports Delhi Police joined the probe as agencies suspect a fake terror outfit behind an online claim. Initial forensic checks reportedly found no explosive residue; cause still undetermined.",
+          "status": "Under investigation",
+          "links": [
+            {
+              "url": "https://x.com/airnewsalerts/status/2118977070256791662",
+              "label": "All India Radio: Ghaziabad Police Commissioner on Vasundhara outpost blast"
+            },
+            {
+              "url": "https://x.com/IndiaToday/status/2118963165472137543",
+              "label": "India Today: Delhi Police roped in; possible fake terror outfit suspected"
+            },
+            {
+              "url": "https://x.com/i/trending/2118930289032626290",
+              "label": "X News: explosion at Ghaziabad police outpost"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "Oil India Tengakhat tank-farm explosion — death toll rises to two or three",
+          "location": "Tengakhat, Dibrugarh, Assam, India",
+          "type": "Infrastructure",
+          "summary": "ANI cited Oil India saying a worker died and six were injured in a fire after an explosion at the Intermediate Tank Farm on Nov 6. Northeast Now reports a second death on Nov 7 and one worker still missing; Northeast Live reports a toll of three. Industrial accident during maintenance, not an attack.",
+          "status": "Toll rising; figures vary by outlet",
+          "links": [
+            {
+              "url": "https://x.com/ANI/status/2118692840662552915",
+              "label": "ANI: one dead, six injured in Oil India Tengakhat fire, per OIL"
+            },
+            {
+              "url": "https://x.com/NENowNews/status/2118982559078195217",
+              "label": "Northeast Now: death toll rises to two; one worker missing"
+            },
+            {
+              "url": "https://x.com/NELiveTV/status/2118957918402044088",
+              "label": "Northeast Live: death toll rises to 3"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "CONTINUATION: Pakistan-administered Kashmir — protest camps cleared; at least 3 reported dead",
+          "location": "Rawalakot and other sites, Pakistan-administered Kashmir",
+          "type": "Unrest",
+          "summary": "X News summary says protesters report at least three killed and 18 injured when security forces cleared sit-in camps on Nov 5; authorities deny excessive force. Crowds are still reported gathering.",
+          "status": "Tolls disputed; tensions persist",
+          "links": [
+            {
+              "url": "https://x.com/i/trending/2118915775671210259",
+              "label": "X News: deadly clashes as Pakistan clears Kashmir protest camps"
+            }
+          ]
+        },
+        {
+          "text": "Scaled back: Japan data-leak items (SMBC Consumer Finance, NTT Docomo, Sagawa Express) and the western Japan shinkin outage — no new developments; shinkin fully restored."
+        }
+      ]
+    },
+    {
       "datetime": "2026-11-07T02:00:00-05:00",
       "regions": {
         "America": [
