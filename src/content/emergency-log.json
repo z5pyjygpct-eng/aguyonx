@@ -1,6 +1,562 @@
 {
   "entries": [
     {
+      "datetime": "2026-11-06T20:00:00-05:00",
+      "regions": {
+        "America": [
+          {
+            "status": "Active investigation / mourning; official PD memorial posted; no casualty-count upgrade vs 6:00 PM ET",
+            "title": "CONTINUATION: Lakewood CO LODD — official PD mourns Agent Nicholas Graham, 33; 1 LODD / suspect Garcia unchanged",
+            "type": "Other",
+            "location": "Lakewood, Colorado (West Colfax Ave & Wadsworth Blvd / RTD bus)",
+            "severity": "HIGH",
+            "links": [
+              {
+                "url": "https://x.com/LakewoodPDCO/status/2118862842862727430",
+                "label": "LakewoodPDCO (verified) — official mourning for Agent Nicholas Graham, 33, LODD"
+              },
+              {
+                "url": "https://x.com/htTweets/status/2118872297113358714",
+                "label": "htTweets (verified) — Nic Graham identified as Lakewood agent killed"
+              }
+            ],
+            "summary": "CONTINUATION of the Thursday evening (Nov 5 ~6:30 p.m. MT) RTD-bus shooting already logged HIGH. In this window, verified Lakewood Police Department posted an official mourning statement for Agent Nicholas Graham, 33, killed in the line of duty, describing his 2019 hire, investigative work, and family. Verified Hindustan Times also recirculated identification of Nic Graham as the fallen agent. No official revision raising LODD deaths above one; prior-window naming of deceased parolee suspect Gabriel Steven Garcia and the three injured agents plus civilian remains unchanged."
+          },
+          {
+            "status": "Cleanup/recovery; 1 flood death (victim now identified); no multi-fatality upgrade",
+            "title": "UPDATE: McCaysville GA / Murray County flood — victim identified; death count still 1; cleanup underway",
+            "type": "Other",
+            "location": "McCaysville, Fannin County, Georgia / Copperhill, Polk County, Tennessee / Murray County, Georgia (Toccoa/Ocoee River)",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/fox7austin/status/2118844649477403105",
+                "label": "fox7austin (verified) — Murray County flood victim identified, officials said"
+              },
+              {
+                "url": "https://x.com/fox13seattle/status/2118871153905148328",
+                "label": "fox13seattle — same Murray County victim-identified report"
+              },
+              {
+                "url": "https://x.com/wsbtv/status/2118870428718452905",
+                "label": "wsbtv — cleanup underway after McCaysville catastrophic flash flood"
+              }
+            ],
+            "summary": "Material update to the already-logged MEDIUM North Georgia / Copperhill flood. Verified FOX 7 Austin and FOX 13 Seattle report officials have identified the woman who died when floodwaters swept her car away in Murray County; no second fatality is stated. WSB-TV reports cleanup underway after the catastrophic flash flood that devastated McCaysville. Death toll remains one Murray County driver; recovery continues."
+          },
+          {
+            "status": "SOE remains in effect; DEQ recreational water health advisory active; monitoring for further infra/casualty escalation",
+            "title": "UPDATE: Utah San Juan flood aftermath — DEQ E. coli health advisory after sewage/runoff; Cox SOE counties unchanged",
+            "type": "Infrastructure",
+            "location": "San Juan River / San Juan County and Washington County, Utah",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/UtahDEQ/status/2118862948517265867",
+                "label": "UtahDEQ — San Juan River E. coli health advisory after sewage/flood runoff"
+              }
+            ],
+            "summary": "Material update to the already-logged MEDIUM Utah Gov. Cox state of emergency for San Juan and Washington county floods. Utah Department of Environmental Quality posted a health advisory update stating active flooding has passed but severe health hazards remain: upstream sewage spills and flood runoff drove E. coli well above safe recreational limits on the San Juan River. No new Cox/UtahGov SOE posts appeared in this window; no mass-casualty figures found."
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: FBI/CISA cold-chain OT advisory — no major new U.S. OT hit confirmed this window",
+            "location": "United States (nationwide advisory)",
+            "type": "Cyber",
+            "summary": "CONTINUATION of the Nov 5 FBI/CISA joint warning on industrial refrigeration / cold-chain controllers. No new from:FBICyberBranch / from:CISACyber posts in this window beyond prior fact-sheet recirculation. Searches for verified U.S. hospital/utility/pipeline/water/power-grid ransomware or wiper hits did not surface a newly corroborated large-scale U.S. OT compromise this sweep. Conspiracy \"power grid cyber attack\" chatter ignored.",
+            "status": "Official multi-agency advisory remains in effect; monitoring for further U.S. OT impacts",
+            "links": [
+              {
+                "url": "https://x.com/FBICyberBranch/status/2118468417413918915",
+                "label": "FBICyberBranch (verified) — original Nov 5 cold-chain advisory (prior)"
+              }
+            ]
+          },
+          {
+            "status": "No qualifying official reports this sweep",
+            "title": "Election watch: no official voting-location outages meeting the bar this window",
+            "type": "Election",
+            "location": "United States (post–Nov 3, 2026 Election Day residual watch)",
+            "severity": "MONITORING",
+            "links": [],
+            "summary": "Searched polling-place closures, e-pollbook/voting-equipment failures, power outages at voting sites, and county/Secretary of State election-incident reports since 22:45Z. Verified official SOS/election-office outage queries returned zero results; remaining hits were partisan fraud claims or unrelated procedural discussion without official voting-location disruption confirmation — ignored. No qualifying official voting-location outages this sweep."
+          }
+        ],
+        "Europe": [
+          {
+            "status": "Confirmed multi-source CONTINUATION (Meduza Andropov restatement + Times Now DK/CZ recirculation + X News); no devices; perpetrator unestablished",
+            "title": "CONTINUATION / light UPDATE: Europe flight + media bomb-hoax — Meduza restates Andropov newsroom emails; Times Now Denmark/Czech/Prague–Bucharest Friday continuation; still no devices",
+            "type": "Other",
+            "location": "Europe (Ireland RTÉ/Newstalk; UK Sky; Bulgaria Nova TV; Denmark/Czech aviation claims; multi-country aviation; Eurocontrol residual)",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/meduza_en/status/2118851676715061759",
+                "label": "Meduza in English: RTÉ/Sky/Nova emailed threats; Andropov claim; no explosives found"
+              },
+              {
+                "url": "https://x.com/TimesNow/status/2118863505709470200",
+                "label": "Times Now (unverified large outlet): Denmark/Czech aircraft threats + Prague–Bucharest flight checks Friday"
+              },
+              {
+                "url": "https://x.com/i/trending/2118267799986729365",
+                "label": "X News: Hoax bomb threats disrupt European flights and Irish media (updated ~00:31Z)"
+              }
+            ],
+            "summary": "Continuation of already-logged Friday bomb-hoax MEDIUM. Meduza in English restated that Ireland’s RTÉ, Britain’s Sky and Bulgaria’s Nova received emailed bomb threats Friday; those to RTÉ and Nova named “Mikhail Andropov,” who claimed credit for recent airline hoaxes and warned worse is coming — and that no explosives were found. Times Now (large unverified outlet) recirculated Friday aviation security scares targeting aircraft in Denmark and the Czech Republic plus a Prague–Bucharest flight bomb threat triggering security checks. X News story ‘Hoax Bomb Threats Disrupt European Flights and Irish Media’ updated ~00:31Z. Residual secondary recirculation of ‘clock is ticking’ / ≥18 Friday flights framing continues. Still no explosives/devices confirmed anywhere — remains MEDIUM, not NEW HIGH. Perpetrator still unestablished."
+          },
+          {
+            "status": "Continuation only — recirculation; prior mayoral/préfecture detail still the high-cred anchors; no severity change",
+            "title": "CONTINUATION: Lyon Lycée Édouard-Herriot entrance fire — recirculation only; no casualty/wire upgrade",
+            "type": "Unrest",
+            "location": "Lycée Édouard-Herriot, 6th arrondissement, Lyon, France",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/stream1818/status/2118851434410348785",
+                "label": "Secondary (thin/unverified): Herriot morning fire; ~1080 kids inside; evacuated; no injuries"
+              }
+            ],
+            "summary": "Continuation of already-logged morning entrance fire. Thin secondary recirculation restates bins/scooters stacked at entrance set alight with students inside, facade flames, full evacuation, no injuries. No new verified AFP/national-wire fatality upgrade or expanded arson campaign. Remains localized school-property arson with no reported fatalities — not elevated."
+          },
+          {
+            "status": "Prior toll stands — no severity change this window",
+            "title": "CONTINUATION: Eastern France Lent school-bus crash — toll unchanged (2 dead; 16 injured)",
+            "type": "Other",
+            "location": "Near Lent, Ain department, eastern France",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/BreitbartLondon/status/2118837078498636042",
+                "label": "Breitbart London: Two killed, 16 injured in France school bus crash"
+              },
+              {
+                "url": "https://x.com/ivyasaa/status/2118868504636235791",
+                "label": "Secondary digest: Lent Ain crash — two students dead, sixteen injured (links CP24)"
+              }
+            ],
+            "summary": "No material change vs prior entry. Breitbart London and secondary digests restated Ain coach crash near Lent with two dead and 16 injured. No fatality increase or new investigative upgrade meeting a severity change — not elevated."
+          }
+        ],
+        "Russia": [
+          {
+            "status": "Ongoing MEDIUM — evening/overnight Kyiv ballistic UPDATE (Kyiv Independent + Klitschko via Anewz + AMK OSINT; NO Reuters/AFP/BBC wire yet); not NEW HIGH",
+            "title": "UPDATE: Ukraine multi-region power/heating — Kyiv evening/overnight ballistic progressed (Kyiv Independent + Klitschko; AMK OSINT ~30 missiles / energy targets; third wave ~01:06Z; residential debris damage; still no Reuters/AFP/BBC wire)",
+            "type": "Power Outage",
+            "location": "Ukraine (Kyiv / suburbs / Brovary / Trypillya claims; multi-region grid under attack)",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/KyivIndependent/status/2118847891984843236",
+                "label": "Kyiv Independent: ballistic waves slam Kyiv; Klitschko — attacking infrastructure near city"
+              },
+              {
+                "url": "https://x.com/Anewz_tv/status/2118867859506098365",
+                "label": "Anewz (verified): Klitschko — early Saturday ballistic; two residential buildings damaged"
+              },
+              {
+                "url": "https://x.com/AMK_Mapping_/status/2118858564383236246",
+                "label": "AMK Mapping (unverified OSINT): ~16 Iskander-M + ~14 Zircon; energy targets listed; claims no Kyiv outages yet"
+              },
+              {
+                "url": "https://x.com/AMK_Mapping_/status/2118872638475182140",
+                "label": "AMK Mapping: 2 more Iskander-M northern Kyiv suburbs (~01:06Z)"
+              },
+              {
+                "url": "https://x.com/maria_drutska/status/2118872672667042112",
+                "label": "Maria Drutska: Kyiv under ballistic attack right now; extremely loud explosions"
+              },
+              {
+                "url": "https://x.com/K_Loukerenko/status/2118872142309703839",
+                "label": "Kyrylo Loukerenko: ballistic threat Kyiv; can hear explosions"
+              },
+              {
+                "url": "https://x.com/ForwardlineSPOT/status/2118852568294068357",
+                "label": "SPOT relay kyivcityofficial: Solomianskyi 5-story debris hit; emergency services en route"
+              }
+            ],
+            "summary": "Continuation of already-logged multi-region / Kyiv-worst MEDIUM with material evening–overnight development after ~22:45Z. Kyiv Independent reported several waves of Russian ballistic missiles targeting the capital after Zelenskyy’s warning, citing Mayor Vitali Klitschko that Russia is attacking infrastructure facilities near the city. Verified Anewz later quoted Klitschko that an early-Saturday ballistic attack damaged two residential buildings (debris struck a five-storey apartment in a western district; another facade damaged). ForwardlineSPOT relayed kyivcityofficial Telegram: Solomianskyi five-story debris hit + blast-wave window damage; shelter alerts. AMK Mapping (established conflict OSINT, unverified) claimed a large-scale combined strike of ~16 Iskander-M + ~14 Zircon (~30 total) hitting Trypillya TPP, Kyivska 750 kV, Novokyivska 330 kV, Brovarska 330 kV substations, Solomianskyi unknown target, and eastern industrial zone — and stated that despite heavy energy targeting, no power outages had occurred in Kyiv as of ~00:10Z. ~01:06Z: maria_drutska / K_Loukerenko / GlushkoDenys / AMK reported a further ballistic wave / 2 more Iskander-M northern suburbs (‘third time tonight’). X News Zelenskyy imminent-strike / Kyiv blackout stories remain active. No Reuters/AP/AFP/BBC verified wire found in this window confirming missile counts, casualties, or outage delta from tonight’s salvo — treat OSINT scale and ‘no outages yet’ as DEVELOPING. Ongoing multi-region blackouts remain the baseline. Not elevated to NEW HIGH without verified multi-source wire on tonight’s strike scale/impact."
+          },
+          {
+            "status": "Developing — already-logged HIGH continues; fire previously corroborated; damage/production impact still unverified",
+            "title": "CONTINUATION: Afipsky oil refinery strike/fire — residual recirculation; X News misattribution note; no new satellite damage confirmation",
+            "type": "Infrastructure",
+            "location": "Afipsky Oil Refinery, Krasnodar Krai, Russia",
+            "severity": "HIGH",
+            "links": [
+              {
+                "url": "https://x.com/FAB87F/status/2118851459517145517",
+                "label": "FAB87F (unverified): Afipsky Krasnodar drone overnight Nov 6; ~6.25 Mt capacity framing"
+              },
+              {
+                "url": "https://x.com/i/trending/2118862501681168808",
+                "label": "X News: Social media ‘Iran strikes’ video actually shows Afipsky refinery fire"
+              }
+            ],
+            "summary": "Follow-on to already-logged HIGH Ukrainian drone strike/fire at Afipsky. This window: residual secondary recirculation (FAB87F capacity framing; Maks_NAFO digest). X News story noted social-media clips mislabeled as Iran strikes were actually the Afipsky refinery fire. No new FIRMS/satellite/thermal confirmation or verified production-loss figure after 22:45Z. No confirmed scale upgrade meeting a NEW HIGH re-alert — keep CONTINUATION HIGH only."
+          },
+          {
+            "status": "Ongoing MEDIUM — fire/video continue; munition-type dispute UPDATE; no wire; damage unverified; below NEW HIGH bar",
+            "title": "CONTINUATION / UPDATE: Oryol Proton (Proton-Electrotex) plant strike/fire — munition-type dispute (Neptune vs deleted Flamingo claim); fire/video recirculation; still no wire",
+            "type": "Infrastructure",
+            "location": "Proton / Proton-Electrotex plant, Oryol, Russia (~400 km from Ukraine)",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/BohuslavskaKate/status/2118854141682368740",
+                "label": "Kate from Kharkiv (unverified established): fire at Proton military plant Oryol after strike"
+              },
+              {
+                "url": "https://x.com/Beefeater_Fella/status/2118866644017741829",
+                "label": "Beefeater (unverified): moment of missile strike on Proton plant Oryol"
+              },
+              {
+                "url": "https://x.com/Beefeater_Fella/status/2118866970137542929",
+                "label": "Beefeater citing Dnipro OSINT: fire near Proton building #48"
+              },
+              {
+                "url": "https://x.com/AMK_Mapping_/status/2118863080914612251",
+                "label": "AMK Mapping: Neptune likely; Firepoint CEO Flamingo claim deleted"
+              }
+            ],
+            "summary": "Continuation of already-logged NEW MEDIUM Oryol Proton strike. This window: BohuslavskaKate / Beefeater_Fella / Worldsource24 recirculated fire and strike-moment video near Building No. 48. Material attribution UPDATE: AMK Mapping said Neptune cruise missiles appear to have been used and that the Firepoint CEO indicated FP-5 Flamingo then deleted that post — munition type now contested. Still no Reuters/AP/AFP/BBC verified wire and no Russian official confirmation; damage/production impact unverified. Not civilian critical infra — keep MEDIUM developing, not NEW HIGH."
+          },
+          {
+            "status": "Toll recirculation (53 / day 5); below NEW HIGH re-alert bar without stronger new verified multi-source break this sweep",
+            "title": "CONTINUATION MONITORING: Zaporizhzhia Komyshuvakha (Nov 2) aid-site strike — toll still 53; day-5 recirculation",
+            "type": "Terror",
+            "location": "Komyshuvakha, Zaporizhzhia region, Ukraine",
+            "severity": "MONITORING",
+            "links": [
+              {
+                "url": "https://x.com/FAB87F/status/2118857690831098365",
+                "label": "FAB87F (unverified): Komyshuvakha toll 53 per regional authorities; search continues"
+              },
+              {
+                "url": "https://x.com/ivyasaa/status/2118868551503380482",
+                "label": "Secondary digest: Komyshuvakha toll 53 day 5 (links Kyiv Independent)"
+              },
+              {
+                "url": "https://x.com/i/trending/2118749229338222966",
+                "label": "X News: Death toll rises to 53 in Russian airstrike on Ukraine aid site"
+              }
+            ],
+            "summary": "Continuation of Nov 2 Russian double-tap strike on underground aid/shelter site. This window: FAB87F and secondary digests restated regional authorities’ toll of 53; search day 5 framing continues (ivyasaa links Kyiv Independent). No strong new first-party verified English wire break after 22:45Z establishing a fresh first-seen toll change beyond the already-circulating 53 — keep MONITORING continuation, not NEW HIGH for Scott wake."
+          }
+        ],
+        "Middle East": [
+          {
+            "status": "Still early / single-outlet; quiet this window",
+            "title": "CONTINUATION: Erbil drone on Iranian Kurdish HQ — still no wire upgrade this window",
+            "type": "Other",
+            "location": "East of Erbil / Jumman–Choman area, Erbil Governorate, Iraqi Kurdistan",
+            "severity": "MONITORING",
+            "links": [
+              {
+                "url": "https://x.com/ariel_oseran/status/2118677256058941925",
+                "label": "Prior Al Arabiya–cited report (no fresh primary this window)"
+              }
+            ],
+            "summary": "CONTINUATION of 6:00 PM ET MONITORING. Search since 22:45Z returned essentially no Erbil-drone/Kurdish-HQ hits (only unrelated PUK/KDP government-split recirculation and generic Iran/US chatter). search_news for Erbil drone likewise returned no matching story. No new casualties, perpetrator ID, or Reuters/AFP/AP/Al Arabiya upgrade. Remains early / single-outlet era. Quiet this window."
+          },
+          {
+            "status": "Prior MEDIUM stands; Medina location detail via The Hindu; Riyadh still wire-confirmed; heavy-attack claims unverified",
+            "title": "CONTINUATION / LOCATION UPDATE: Saudi Mecca/Riyadh/Najran intercepts + The Hindu reports Medina-region drone downed",
+            "type": "Other",
+            "location": "Makkah / Mecca region + Riyadh region + Medina region + Najran, Saudi Arabia",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/the_hindu/status/2118859727954485348",
+                "label": "The Hindu (00:15Z): coalition downs Houthi drone over Medina region; Houthis deny"
+              },
+              {
+                "url": "https://x.com/anadoluagency/status/2118800297799676124",
+                "label": "Anadolu Agency (verified, prior): drone destroyed in Riyadh region — Turki al-Maliki"
+              },
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2118801369851219994",
+                "label": "Al Arabiya English (verified, prior): drone intercepted/destroyed in Riyadh region"
+              },
+              {
+                "url": "https://x.com/Saudi_Gazette/status/2118800482118545476",
+                "label": "Saudi Gazette (prior): coalition intercepts/destroys drone in Riyadh region"
+              },
+              {
+                "url": "https://x.com/i/trending/2118740886896918779",
+                "label": "X News: Coalition destroys drone targeting Makkah during Friday prayers (no casualties)"
+              }
+            ],
+            "summary": "CONTINUATION of already-logged MEDIUM (Mecca drone + Riyadh drone + Najran ballistic). Material location UPDATE this window: The Hindu (00:15Z) reports Saudi-led coalition intercepted/destroyed a Houthi-launched drone over the Medina region Friday; Houthis denied any attack on the kingdom. Prior Anadolu Agency + Al Arabiya English + Saudi Gazette confirmations of Riyadh-region intercept (Turki al-Maliki) still stand from earlier. X News Makkah Friday-prayers intercept story unchanged (no damage/casualties). Viral unverified claims of a 'heavy missile attack' / successive blasts hitting Riyadh tonight are NOT wire-confirmed — circulating videos match intercept flashes; do not elevate. PressTV Dammam airport flight-halt claim remains UNVERIFIED. No SPA scale upgrade beyond intercept-and-destroy; no casualties. Do not re-alert / not HIGH."
+          },
+          {
+            "status": "Multi-outlet ~30 toll; conflicting attribution; MEDIUM stands",
+            "title": "CONTINUATION: Yemen Taiz Al-Hadara / Al-Wazi'iyah market strike — ~30 killed; blame still disputed",
+            "type": "Other",
+            "location": "Al-Hadara market, Al-Wazi'iyah district, Taiz governorate, Yemen",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/i/trending/2118696356584075688",
+                "label": "X News (updated ~00:59Z): Dozens killed in Yemen market strike amid blame game"
+              },
+              {
+                "url": "https://x.com/AmjadD_Undertkr/status/2118863004104360140",
+                "label": "Secondary video: Al Hadara Market ruins / Al Wazi'iyah (Saudi-airstrike attribution)"
+              },
+              {
+                "url": "https://x.com/WarOsintFELLA/status/2118857282851049562",
+                "label": "Secondary: AP-framed '≥30, Houthis say' market airstrike (AP not independent verify)"
+              }
+            ],
+            "summary": "CONTINUATION of 6:00 PM MEDIUM. X News story updated ~00:59Z still frames Al-Hadara Popular Market strike killing around 30 civilians; Houthi spokesman Yahya Saree blames Saudi F-15 vs Yemeni government sources blaming Houthi ballistic missile; Al Jazeera could not independently verify. Secondary recirculation (WarOsintFELLA citing AP 'at least 30, Houthis say' / AP could not independently verify; AmjadD_Undertkr video of Al Hadara rubble) continues same framing. No Reuters/AFP/AP reconciliation of attribution or toll upgrade. Not HIGH without clean wire reconciliation."
+          }
+        ],
+        "Africa": [
+          {
+            "status": "Credible regional + X News + TRT Afrika via AAA; no major global wire for HIGH",
+            "title": "CONTINUATION: Ethiopia Arsi/Oromia Orthodox killings — ≥34 / cumulative ≥94; still no Reuters/AFP/AP",
+            "type": "Unrest",
+            "location": "Endeto / Robe Woreda / Arsi Zone, Oromia Region, Ethiopia",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/i/trending/2118679332713353516",
+                "label": "X News (updated ~01:00Z): ≥34 Orthodox killed Endeto; cumulative 94 in <3 weeks"
+              },
+              {
+                "url": "https://x.com/AAA_Amhara/status/2118867491128582365",
+                "label": "AAA_Amhara citing TRT Afrika: death toll rises after 34 more Orthodox killed"
+              }
+            ],
+            "summary": "CONTINUATION of 6:00 PM MEDIUM. X News updated ~01:00Z still cites ≥34 Orthodox Christians killed Nov 5 in Endeto / East Arsi near St. Mary Church; cumulative 94 in <3 weeks after October Merti/Shirka (~60). AAA_Amhara recirculates TRT Afrika 'Death toll rises… 34 more Orthodox Christians killed'. Advocate posts float inflated figures (110+, 200, 40) — do NOT raise toll beyond documented ≥34 / cumulative ≥94. Still no Reuters/AFP/AP — remain MEDIUM, not HIGH."
+          },
+          {
+            "status": "Prior MEDIUM stands; Reuters firms toll at ≥33; WHO notes insecurity vs Ebola; Mabalako displacement continues",
+            "title": "CONTINUATION / TOLL FIRM: Eastern DRC Cantine-Aloya ADF raid — Reuters locks ≥33 killed; Ebola patients fled; Mabalako panic continues",
+            "type": "Unrest",
+            "location": "Cantine-Aloya / Beni territory + Mabalako, North Kivu, Democratic Republic of Congo",
+            "severity": "MEDIUM",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2118848853256335734",
+                "label": "Reuters (verified, 23:31Z): ≥33 killed Cantine-Aloya ADF raid; health center burned; residents flee"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2118868551922569225",
+                "label": "Reuters (verified, 00:50Z): Islamist militants force Ebola patients to flee in deadly Congo raid"
+              },
+              {
+                "url": "https://x.com/DrTedros/status/2118864699924107564",
+                "label": "WHO DG DrTedros (verified): briefs UK on DRC Ebola + insecurity challenges"
+              },
+              {
+                "url": "https://x.com/JetleeIDF/status/2118866684018634832",
+                "label": "Local FR: populations flee Mabalako overnight fearing new ADF attacks after Cantine"
+              }
+            ],
+            "summary": "CONTINUATION of 6:00 PM MEDIUM (already elevated on Reuters + UNOCHA). Material this window: Reuters (verified) detail post 23:31Z locks 'at least 33 civilians' killed when IS-linked ADF attacked Cantine-Aloya, burning homes, a health center and other buildings and forcing residents to flee; Reuters 00:50Z recirculates 'Islamist militants force Ebola patients to flee in deadly Congo raid'. WHO DG DrTedros (verified) briefs UK minister on DRC Ebola developments and insecurity challenges to containment. Local FR recirculation continues Mabalako nocturnal flight after Cantine (JetleeIDF). No nationwide collapse / no toll jump beyond 33 — remain MEDIUM."
+          }
+        ],
+        "South America": [
+          {
+            "status": "Peña house arrest confirmed by Reuters+NTN24; Alliana sworn as president; fiscalía investigation ongoing; still HIGH continuation not NEW HIGH",
+            "title": "UPDATE CONTINUATION (not NEW HIGH): Paraguay Ueno/Peña — Senate removal + Alliana sworn; Reuters confirms Peña house arrest",
+            "type": "Infrastructure",
+            "location": "Asunción / nationwide, Paraguay",
+            "severity": "HIGH",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2118871197915967836",
+                "label": "Reuters (verified): Peña placed under house arrest after impeachment"
+              },
+              {
+                "url": "https://x.com/NTN24/status/2118864210079986077",
+                "label": "NTN24 (verified): Peña detained at residence; house arrest after Senate removal"
+              },
+              {
+                "url": "https://x.com/AP/status/2118831105839083844",
+                "label": "AP (verified) BREAKING: Senate votes to remove Peña after Ueno collapse"
+              },
+              {
+                "url": "https://x.com/AFP/status/2118827585018732649",
+                "label": "AFP BREAKING: Senate impeaches Peña over banking crisis"
+              },
+              {
+                "url": "https://x.com/infobae/status/2118842516355383297",
+                "label": "Infobae (verified): Congress swore in Pedro Alliana as new president"
+              },
+              {
+                "url": "https://x.com/bbcmundo/status/2118853501635719198",
+                "label": "BBC Mundo: Who is Pedro Alliana, new Paraguay president"
+              },
+              {
+                "url": "https://x.com/i/trending/2118342651346923918",
+                "label": "X News: Paraguay Peña / Ueno Bank collapse (story updated into window)"
+              }
+            ],
+            "summary": "CONTINUATION of already-logged Paraguay Ueno Bank / Peña HIGH — do NOT re-flag as NEW HIGH. Material process UPDATE vs 6:00 PM ET (which logged prosecutors seeking detention / Alliana sworn): Reuters (verified, ~01:00Z) 'Paraguay ex-president Peña placed under house arrest after impeachment'; NTN24 (verified) residence detention + house arrest hours after Senate removal; America Elige — house arrest on suspicion of breach of public trust / flee speculation; BBC Mundo Alliana profile; A24 — Alliana sworn + fiscalía detention order, plus note Antonio Barrios to assume vice presidency. X News story still active (updated ~00:40Z). Same Ueno/banking + constitutional crisis — escalate status within HIGH continuation only."
+          }
+        ]
+      },
+      "trending": [
+        {
+          "status": "Fully restored; residual shared-system risk commentary continues; no new outage confirmed",
+          "title": "CONTINUATION: Western Japan 128 shinkin fully restored ~7:05 p.m. JST; equipment failure, not cyber",
+          "type": "Infrastructure",
+          "location": "Western Japan (Tokai westward through Kyushu; ~3,430 branches; East Japan / major banks unaffected)",
+          "severity": "HIGH",
+          "links": [
+            {
+              "url": "https://x.com/tbsnewsdig/status/2118807837983793494",
+              "label": "TBS NEWS DIG: 128 western Japan shinkin outage; ~6h then restore"
+            },
+            {
+              "url": "https://x.com/BullTheoryio/status/2118738525776474542",
+              "label": "BullTheoryio (verified): 128 shinkin; equipment failure not cyber; restored"
+            },
+            {
+              "url": "https://x.com/jijicom/status/2118687942550106403",
+              "label": "Jiji (verified): complete restore; equipment failure, western Japan"
+            },
+            {
+              "url": "https://x.com/livedoornews/status/2118686083525296159",
+              "label": "Livedoor (verified): ~5.5h; full restore 7:05pm; not unauthorized access; 3430 branches"
+            },
+            {
+              "url": "https://x.com/i/trending/2118619860800274577",
+              "label": "X News: hardware failure; full restore ~7pm; cyberattack ruled out"
+            }
+          ],
+          "summary": "CONTINUATION of already-alerted Shinkin Joint Center outage. 8pm window (~22:45Z+): no re-outage and no cyber attribution flip. In-window secondary recirculation only (JP explainers restating ~5.5h / full restore 19:05; EN InsiderPaper/visegrad RTs of outage). Prior verified TBS / BullTheoryio / Jiji / Livedoor wires still resolve; X News story still frames hardware/communications glitch with full restore (~7 p.m. JST). Conspiracy/cyber framing ignored. Not a NEW HIGH."
+        },
+        {
+          "status": "Guarantee system still stopped for new apps/limit increases; partner notices circulating; resume aimed mid-November",
+          "title": "CONTINUATION: SMBC Consumer Finance guarantee-system unauthorized access — up to 188 partner FIs halt new card-loan intake",
+          "type": "Cyber",
+          "location": "Japan (SMBC Consumer Finance / Promise guarantee platform; partner regional banks, shinkin, net banks nationwide)",
+          "severity": "MEDIUM",
+          "links": [
+            {
+              "url": "https://x.com/nikkei/status/2118629253352755458",
+              "label": "Nikkei (verified): max 188 FIs halt new card loans after guarantee-company unauthorized access"
+            }
+          ],
+          "summary": "CONTINUATION of 10:00 AM ET NEW MEDIUM. 8pm window: Nikkei 188-FI halt post still resolves; secondary JP recirculation of Resona/Yokohama Bank notices + ~32万 / partner spillover — no scale upgrade beyond already-logged 188 FIs; no ATM/core-banking freeze. Distinct from western Japan shinkin equipment outage. Not NEW HIGH."
+        },
+        {
+          "status": "Confirmed major-outlet coverage of leak scale + CEO apology; online procedures still stopped; monitoring for scale revisions",
+          "title": "CONTINUATION: NTT Docomo ~290k–294,839 customer-data leak; CEO apology; consolation payments",
+          "type": "Cyber",
+          "location": "Japan (nationwide Docomo / My docomo + Online Shop; ahamo site)",
+          "severity": "MEDIUM",
+          "links": [
+            {
+              "url": "https://x.com/hst_tvasahi/status/2118713070013026532",
+              "label": "TV Asahi (verified): max 294,839; CEO apology; ID/bank/workplace data; consolation payments considered"
+            }
+          ],
+          "summary": "CONTINUATION of Nov 5 / early-Nov-6 MEDIUM. 8pm window: heavy secondary recirculation of max ~294,839 / ID+bank data / consolation payments / official Docomo apology RT; TV Asahi prior verified post still resolves. No upward scale revision beyond already-logged max. Distinct from SMBC CF and shinkin outage. Not NEW HIGH."
+        },
+        {
+          "status": "EC/app halt still in effect; physical stores open; restart aimed 1–2 days; large-scale counts still unconfirmed on primary wires",
+          "title": "CONTINUATION: MUJI (Ryohin Keikaku) net store + app still halted after customer-data leak; restart aim 1–2 days; stores open",
+          "type": "Cyber",
+          "location": "Japan (MUJI / Ryohin Keikaku e-commerce + official app; physical stores open)",
+          "severity": "MONITORING",
+          "links": [
+            {
+              "url": "https://x.com/nikkei/status/2118623738086166902",
+              "label": "Nikkei (verified): MUJI EC site stop; security strengthening after customer-info leak"
+            },
+            {
+              "url": "https://x.com/livedoornews/status/2118625685652775223",
+              "label": "Livedoor (verified): net store + official app temporarily stopped; restart 1–2 days; stores open"
+            },
+            {
+              "url": "https://x.com/cnet_japan/status/2118849454870503779",
+              "label": "CNET Japan: MUJI net store temporarily stopped for security strengthening"
+            }
+          ],
+          "summary": "CONTINUATION of 4:00 PM ET NEW MONITORING. 8pm window: no verified Nikkei/Livedoor/Yahoo restart confirmation; muji_net official halt notice still recirculating; CNET Japan + Yahoo Topics + 47 News RTs restate EC/app halt for security strengthening, restart 1–2 days, stores open. Secondary unconfirmed ~27.26M claims continue in tabloid digests — NOT upgraded on primary Nikkei/Livedoor halt posts re-verified. Retail EC, not civic critical infra — below MEDIUM. Not NEW HIGH."
+        },
+        {
+          "status": "Company/wire line stable at 1 dead, 6 injured; investigation ongoing; quiet on major verified wires in window",
+          "title": "CONTINUATION: Assam Oil India Tengakhat tank-farm fire — 1 dead, 6 injured (unchanged toll); no material verified upgrade",
+          "type": "Infrastructure",
+          "location": "Tengakhat Intermediate Tank Farm, Dibrugarh district, Assam, India",
+          "severity": "MONITORING",
+          "links": [
+            {
+              "url": "https://x.com/ANI/status/2118692840662552915",
+              "label": "ANI (verified): Oil India — 1 dead, 6 injured at Tengakhat ITF"
+            }
+          ],
+          "summary": "CONTINUATION of 6:00 AM–6:00 PM ET MONITORING. 8pm window: ANI prior post still resolves at 1 dead, 6 injured; DNA (unverified) '5 critically injured' headline recirculation treated as incomplete/stale framing — not promoted as UPDATE. No in-window ANI/PTI/Hindu toll revision found. Industrial/maintenance accident framing; not terror. No material casualty/scale upgrade."
+        },
+        {
+          "status": "Exchange precautionary halt still in effect; no confirmed funds loss; resume time unset",
+          "title": "CONTINUATION: South Korea Gopax crypto exchange halt after hacking-threat email; no confirmed asset loss",
+          "type": "Cyber",
+          "location": "South Korea (Gopax / Streami; Binance-backed)",
+          "severity": "MONITORING",
+          "links": [
+            {
+              "url": "https://x.com/WatcherGuru/status/2118651788949630989",
+              "label": "WatcherGuru (verified): Gopax halts withdrawals after hacking threat"
+            }
+          ],
+          "summary": "CONTINUATION of 8:00 AM–6:00 PM ET MONITORING. 8pm window: WatcherGuru prior flash still resolves; secondary day-two notes cold storage / withdrawals still halted / resume unset. No confirmed theft/losses. Still below MEDIUM civic-infra bar."
+        },
+        {
+          "status": "City announcement via Kobe Shimbun still primary; email-leak possibility up to ~139k; scope beyond email not confirmed",
+          "title": "CONTINUATION: Kakogawa City (Hyogo) online application + My Number card systems — possible email leak up to ~139k",
+          "type": "Cyber",
+          "location": "Kakogawa City, Hyogo Prefecture, Japan",
+          "severity": "MONITORING",
+          "links": [
+            {
+              "url": "https://x.com/kobeshinbun/status/2118626975086731592",
+              "label": "Kobe Shimbun: Kakogawa online application + My Number systems; emails may have leaked, max ~139k"
+            }
+          ],
+          "summary": "CONTINUATION of 4:00 PM ET NEW MONITORING. 8pm window: no material verified scale upgrade beyond Kobe Shimbun city announcement (max ~139k emails; My Number-related systems involved). Local municipal email exposure — below MEDIUM. Not NEW HIGH."
+        },
+        {
+          "status": "Company disclosure via NHK/Asahi/ITmedia still primary; ~2.80M PII + ~9.7k card numbers in voice recordings; monitoring for scale revisions",
+          "title": "CONTINUATION: Rohto Pharmaceutical — ~2.80M customer PII leak via mail-order phone system; ~9,715 card numbers in call-audio data",
+          "type": "Cyber",
+          "location": "Japan (Rohto Pharmaceutical mail-order / telephone sales system; nationwide customers)",
+          "severity": "MONITORING",
+          "links": [
+            {
+              "url": "https://x.com/nhk_news/status/2118628968958226716",
+              "label": "NHK News: Rohto unauthorized access; ~2.80M personal info leaked"
+            },
+            {
+              "url": "https://x.com/asahi/status/2118659169381450012",
+              "label": "Asahi (verified): ~9k card numbers incl. in voice-data leak after unauthorized access"
+            }
+          ],
+          "summary": "CONTINUATION of 6:00 PM ET NEW MONITORING (no longer NEW). 8pm window: NHK / Asahi / ITmedia prior wires still resolve and heavily recirculate; no scale revision beyond ~2,797,545 PII / 9,715 call-audio card cases. Pharma retail/mail-order PII — not civic critical infra / banking — below MEDIUM. Not NEW HIGH. Distinct from Docomo / SMBC CF / MUJI / Sagawa."
+        },
+        {
+          "status": "NHK disclosure; ~53.23M possible external leak; damage investigation ongoing; monitoring for confirmed counts / operational impact",
+          "title": "NEW MONITORING: Sagawa Express (佐川急便) — up to ~53.23M sender/recipient records possibly leaked; damage under investigation",
+          "type": "Cyber",
+          "location": "Japan (Sagawa Express / logistics nationwide)",
+          "severity": "MONITORING",
+          "links": [
+            {
+              "url": "https://x.com/nhk_news/status/2118640799697260611",
+              "label": "NHK News: Sagawa Express — 53.23M possibly leaked externally; damage under investigation"
+            }
+          ],
+          "summary": "FIRST SURFACE in emergency log (NHK wire from ~09:45Z Nov 6 missed by earlier sweeps; still heavily recirculating in 22:45Z+ digests — 489 RTs on NHK post). NHK: unauthorized access; max 53.23 million records possibly leaked externally; company investigating damage status. Courier/logistics PII (sender/recipient name/address class per secondary digests) — not civic critical infra / banking outage — below MEDIUM bar despite large count. Distinct from Docomo / SMBC CF / MUJI / Rohto / Kakogawa. Not NEW HIGH."
+        }
+      ]
+    },
+    {
       "datetime": "2026-11-06T18:00:00-05:00",
       "regions": {
         "America": [
