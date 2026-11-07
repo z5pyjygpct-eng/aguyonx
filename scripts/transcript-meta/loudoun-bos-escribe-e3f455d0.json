@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/loudoun-bos/transcripts/escribe-e3f455d0.json",
+  "outBase": "public/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-11-05-board-of-supervisors-business-meeting",
+  "title": "Loudoun County Board of Supervisors Business Meeting, Thursday, November 5, 2026",
+  "shortTitle": "BOS Business Meeting \u00b7 Nov 5, 2026",
+  "date": "Thursday, November 5, 2026",
+  "place": "Loudoun County Government Center, Leesburg, Virginia",
+  "length": "6h 16m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (eScribe)",
+      "href": "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=e3f455d0-966e-4b24-8d8d-cd5a02f4721c"
+    },
+    {
+      "label": "Meeting page and agenda (eScribe)",
+      "href": "https://pub-loudoun.escribemeetings.com/Meeting.aspx?Id=e3f455d0-966e-4b24-8d8d-cd5a02f4721c&Agenda=Agenda&lang=English"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-11-06"
+}

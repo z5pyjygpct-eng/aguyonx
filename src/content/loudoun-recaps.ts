@@ -123,6 +123,99 @@ const boarddocsMeeting = (id: string) =>
 
 const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
 
+  // --- 2026-11-07 morning: Nov 5 BOS Business Meeting (Whisper transcript; Action Report not yet posted) ---
+  {
+    slug: "bos-2026-11-05-business",
+    shareEnabled: true,
+    shareContext: "Loudoun BOS, Nov 5, 2026",
+    meetingId: "escribe-e3f455d0",
+    title: "Board of Supervisors Business Meeting",
+    dateLabel: "Thursday, Nov 5, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 6h 16m",
+    official: {
+      votesPosted: false,
+      checkedLabel: "Nov 7, 2026, 7:55 AM ET",
+      note: "The county has not posted the Action Report or minutes for this meeting yet. Votes and outcomes will be added only from that official record; nothing is taken from the video or transcript.",
+      links: [
+        { label: "Agenda (eScribe)", href: "https://pub-loudoun.escribemeetings.com/Meeting.aspx?Id=e3f455d0-966e-4b24-8d8d-cd5a02f4721c&Agenda=Agenda&lang=English" },
+        { label: "Meeting video (eScribe)", href: "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=e3f455d0-966e-4b24-8d8d-cd5a02f4721c" },
+        { label: "County document folder for Board meetings", href: LASERFICHE_BOS },
+      ],
+    },
+    decisions: [],
+    context: [],
+    agenda: [
+      {
+        heading: "Ceremonial resolutions and proclamations",
+        items: [
+          { num: "7.a", title: "Resolution: historic opening of the Loudoun Freedom Center Museum at Union Street", href: doc(2331) },
+          { num: "7.b", title: "Proclamation: America Recycles Day, November 15, 2026", href: doc(2380) },
+          { num: "7.c", title: "Resolution: 60th anniversary of the Committee for Dulles", href: doc(2383) },
+          { num: "7.d", title: "Proclamation: Diwali 2026", href: doc(2393) },
+        ],
+      },
+      {
+        heading: "Information items",
+        items: [
+          { num: "10.a", title: "Presentation of the Patriot Award to the County Administrator", href: doc(2341) },
+          { num: "10.b", title: "Permissiveness of Gas Turbines Countywide", href: doc(2372) },
+        ],
+      },
+      {
+        heading: "Finance/GOED Committee reports",
+        items: [
+          { num: "11.a", title: "Contract renewal: Job Order Contract for General Construction", href: doc(2357) },
+          { num: "11.b", title: "Contract award and FY 2027 CIP amendment: Brambleton West Park Improvements", href: doc(2353) },
+          { num: "11.c", title: "Contract award: construction of Arcola Quarters for the Enslaved", href: doc(2351) },
+          { num: "11.d", title: "Location and design endorsement: Franklin Park to Purcellville Trail", href: doc(2366) },
+          { num: "11.e", title: "Location and design endorsement: Montresor Road Sidewalk", href: doc(2358) },
+          { num: "11.f", title: "Space Strategy Update: Eastern Service Center", href: doc(2347) },
+          { num: "11.g", title: "FY 2027 Supplemental Appropriation for Loudoun County Public Schools", href: doc(2375) },
+        ],
+      },
+      {
+        heading: "Action items",
+        dek: "Proposed on consent: 7a–7d, 11a–11f, 14a, 14c, 14d and 14e (per the posted agenda).",
+        items: [
+          { num: "14.a", title: "Appointments: Confirmations", href: doc(2323) },
+          { num: "14.b", title: "Appointments: Nominations", href: doc(2325) },
+          { num: "14.c", title: "Administrative Items Report", href: doc(2382) },
+          { num: "14.d", title: "Resolution of Intent to Amend DOAM-2026-0004: Facilities Standards Manual standards for gated residential communities", href: doc(2363) },
+          { num: "14.e", title: "Authorization to advertise: amendments to Chapter 466 (Operation of Vehicles)", href: doc(2327) },
+          { num: "14.f", title: "Legislative Report, Draft 2027 Legislative Program", href: doc(2343) },
+          { num: "14.g", title: "LEGI-2025-0012, Golden Substation: SPEX-2025-0032, SPEX-2025-0033 and SPEX-2025-0137", href: doc(2384) },
+          { num: "14.h", title: "2028\u20132031 Board of Supervisors Term Compensation Structure", href: doc(2381) },
+          { num: "14.i", title: "Board Member Initiative: Project Labor Agreement Threshold", href: doc(2374) },
+          { num: "15", title: "Closed sessions" },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-11-05-board-of-supervisors-business-meeting.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-11-05-board-of-supervisors-business-meeting.txt",
+      pdfNote: "71 pages",
+    },
+    moments: [
+      { seconds: 825, label: "Meeting called to order." },
+      { seconds: 914, item: "3", label: "Additions or deletions to the agenda; consent agenda items read." },
+      { seconds: 1205, item: "4", label: "Consent agenda motion and vote." },
+      { seconds: 1689, item: "10.a", label: "Patriot Award presentation." },
+      { seconds: 2323, item: "10.b", label: "Information item: permissiveness of gas turbines countywide." },
+      { seconds: 3219, item: "11.g", label: "FY 2027 supplemental appropriation for Loudoun County Public Schools taken up." },
+      { seconds: 4406, item: "15", label: "Board recesses into closed session." },
+      { seconds: 6586, item: "15", label: "Board returns from closed session; certification." },
+      { seconds: 6664, item: "7.d", label: "Diwali proclamation." },
+      { seconds: 7397, item: "8", label: "Public input session opens." },
+      { seconds: 10892, item: "14.g", label: "Golden Substation application taken up." },
+      { seconds: 12779, item: "14.i", label: "Project labor agreement threshold initiative taken up." },
+      { seconds: 14213, item: "14.h", label: "2028\u20132031 Board term compensation structure taken up." },
+      { seconds: 17173, item: "14.f", label: "Draft 2027 Legislative Program presentation." },
+      { seconds: 19339, item: "9", label: "Disclosures and Board comments." },
+      { seconds: 20639, item: "15", label: "Final closed session." },
+      { seconds: 22574, label: "Adjournment." },
+    ],
+  },
+
   // --- 2026-10-23 morning: Oct 20 BOS Business Meeting (Whisper transcript + Action Report memo dated Oct 22, Laserfiche edoc 1976200) ---
   {
     slug: "bos-2026-10-20-business",
