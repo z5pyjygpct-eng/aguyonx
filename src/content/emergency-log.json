@@ -1,6 +1,587 @@
 {
   "entries": [
     {
+      "datetime": "2026-11-07T16:04:17-05:00",
+      "regions": {
+        "America": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Armed Venezuelan national arrested near White House",
+            "location": "Near the White House, Washington, D.C.",
+            "type": "Other",
+            "summary": "ABC continues to report that a Venezuelan national was arrested after being found in a stolen vehicle near the White House with several firearms, citing a criminal complaint and DHS. No new developments found this window.",
+            "status": "Suspect in custody and charged; no new developments",
+            "links": [
+              {
+                "url": "https://x.com/ABC/status/2119068196770656403",
+                "label": "ABC: Venezuelan national arrested near White House with firearms"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Lakewood, CO — Agent Nicholas Graham killed in line of duty",
+            "location": "Lakewood, Colorado",
+            "type": "Other",
+            "summary": "Lakewood Police continue to mourn Agent Nicholas Graham, 33, killed in the line of duty. No new developments found this window.",
+            "status": "Unchanged",
+            "links": [
+              {
+                "url": "https://x.com/LakewoodPDCO/status/2118862842862727430",
+                "label": "Lakewood PD: Agent Nicholas Graham killed in line of duty"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Guatemalan opposition lawmaker Julio Portillo and three police officers killed",
+            "location": "Guatemala",
+            "type": "Terror",
+            "summary": "AFP names the slain opposition lawmaker as Julio Portillo; he and three police officers were killed in an armed attack on Friday. Reuters and Al Jazeera English carry the same facts citing authorities. No arrests or motive found this window.",
+            "status": "Confirmed; motive unknown",
+            "links": [
+              {
+                "url": "https://x.com/AFP/status/2119120228487512561",
+                "label": "AFP: lawmaker Julio Portillo and three police killed"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119082624127815913",
+                "label": "Reuters: Guatemalan lawmaker, three police killed"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119165493768487198",
+                "label": "Al Jazeera English: lawmaker and three police killed"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Queens Public Library ransomware outage",
+            "location": "Queens, New York",
+            "type": "Cyber",
+            "summary": "Gothamist's report that the library's online system was taken down by ransomware stands. No restoration announcement found this window. No new developments found this window.",
+            "status": "Ongoing; low change",
+            "links": [
+              {
+                "url": "https://x.com/Gothamist/status/2118399313994740088",
+                "label": "Gothamist: Queens Public Library online system downed by ransomware"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Election watch: no official voting-location or canvass-site disruptions found this window",
+            "location": "United States",
+            "type": "Election",
+            "summary": "Searches for polling-place, election-office, canvass and tabulation disruptions (evacuations, threats, outages, equipment failures) found no reports from county election offices, Secretaries of State or established outlets. Posts alleging a rigged count in California and complaints about the uncalled Alaska Senate race are opinion without official confirmation and are not logged as incidents.",
+            "status": "Clear"
+          }
+        ],
+        "Europe": [
+          {
+            "severity": "HIGH",
+            "title": "UPDATE: Kraków Main Market Square shooting — six confirmed dead; PM says more victims likely at attacker's home",
+            "location": "Main Market Square, Kraków, Poland",
+            "type": "Terror",
+            "summary": "Reuters, AP and AFP report at least six killed and about 15 wounded when a gunman opened fire in Kraków's Main Market Square before police shot and arrested him. Interior Minister Kierwiński said everything points to the 25-year-old Polish suspect being fascinated by far-right ideologies (per Visegrád 24). PM Tusk's office says there are probably dead people in the attacker's family home and that this will be confirmed; Visegrád 24 reports three bodies found there, taking the toll to nine, but that figure is not yet officially confirmed. Visegrád 24 reports both officers who stopped the attacker are in critical condition and that a British citizen was among the dead.",
+            "status": "Confirmed attack; six confirmed dead; possible additional victims at suspect's home under verification; motive reported as far-right ideology",
+            "links": [
+              {
+                "url": "https://x.com/PremierRP/status/2119173203796873695",
+                "label": "Polish PM's office: probably dead people in attacker's home, to be confirmed"
+              },
+              {
+                "url": "https://x.com/tvn24/status/2119172808060096807",
+                "label": "TVN24: Tusk says dead people found in attacker's home"
+              },
+              {
+                "url": "https://x.com/visegrad24/status/2119173317663904229",
+                "label": "Visegrád 24: three bodies in family home, toll nine (unconfirmed)"
+              },
+              {
+                "url": "https://x.com/visegrad24/status/2119151076418994360",
+                "label": "Visegrád 24: Interior Minister cites far-right ideologies"
+              },
+              {
+                "url": "https://x.com/visegrad24/status/2119172036241313862",
+                "label": "Visegrád 24: both officers in critical condition"
+              },
+              {
+                "url": "https://x.com/visegrad24/status/2119169499702382928",
+                "label": "Visegrád 24: British citizen among dead"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119137809940488200",
+                "label": "Reuters: at least six killed, 15 wounded"
+              },
+              {
+                "url": "https://x.com/AP/status/2119116296046444748",
+                "label": "AP: at least six dead, 15 wounded"
+              },
+              {
+                "url": "https://x.com/AFP/status/2119140442373591256",
+                "label": "AFP: six killed, deadliest shooting in decades"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Tirana clashes — water cannon used on masked anti-government protesters",
+            "location": "Tirana, Albania",
+            "type": "Unrest",
+            "summary": "Al Jazeera English reports police used water cannon to disperse masked protesters in Tirana as anti-government demonstrations entered their third week; Bloomberg reported water cannon and tear gas earlier. No official casualty figures found.",
+            "status": "Ongoing",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119168008853782660",
+                "label": "Al Jazeera English: water cannon on masked protesters, third week"
+              },
+              {
+                "url": "https://x.com/business/status/2119124000450199774",
+                "label": "Bloomberg: water cannon and tear gas in Tirana"
+              },
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2119133653192114437",
+                "label": "Al Arabiya English: clashes and water cannon in Tirana"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Belgian Finance Ministry cyberattack blocks new company registrations",
+            "location": "Belgium",
+            "type": "Cyber",
+            "summary": "Belga's report that new companies cannot start after a cyberattack on the Ministry of Finance stands. No restoration or attribution found this window.",
+            "status": "Ongoing",
+            "links": [
+              {
+                "url": "https://x.com/Belga_English/status/2119019676143431800",
+                "label": "Belga: new companies can't start after Finance Ministry cyberattack"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: France fourth Saturday of cost-of-living protests; banned Yellow Vests rally blocked",
+            "location": "Paris and other French cities",
+            "type": "Unrest",
+            "summary": "AFP reports thousands protested across France with Paris police moving to prevent an unauthorised gathering near the Élysée. Reuters reports hundreds gathered in Place de la République in support of the student-led movement. No major violence reported by wires this window.",
+            "status": "Ongoing; ban on Concorde rally enforced",
+            "links": [
+              {
+                "url": "https://x.com/AFP/status/2119100680128307591",
+                "label": "AFP: thousands protest; police block unauthorised Élysée gathering"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119117677360709941",
+                "label": "Reuters: hundreds rally at Place de la République"
+              },
+              {
+                "url": "https://x.com/CBSNews/status/2119118294963597610",
+                "label": "CBS: protests and strikes continue into weekend"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "NEW: Ransomware group claims Maersk logistics-platform data, demands $5 million",
+            "location": "Denmark (Maersk / LF Logistics)",
+            "type": "Cyber",
+            "summary": "Dark Web Informer reports the WhiteArmor ransomware group claims data tied to Maersk's OCF / LF Logistics platform and is demanding $5 million in Bitcoin. This is a threat-actor claim only; no confirmation from Maersk, no reported operational disruption and no mainstream corroboration found.",
+            "status": "Unverified criminal claim",
+            "links": [
+              {
+                "url": "https://x.com/DarkWebInformer/status/2119141668586656236",
+                "label": "Dark Web Informer: WhiteArmor claims Maersk logistics data"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Italian FM Tajani personal data leaked on dark web",
+            "location": "Italy",
+            "type": "Cyber",
+            "summary": "BBC World now also reports Tajani's statement that hackers leaked his personal data; Al Jazeera English reported PM Meloni blaming pro-Russian hackers.",
+            "status": "Confirmed leak; attribution political, not technical",
+            "links": [
+              {
+                "url": "https://x.com/BBCWorld/status/2119110968831553635",
+                "label": "BBC: Italian FM says hackers leaked his personal data"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119056021528207502",
+                "label": "AJE: Meloni blames pro-Russian hackers"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Europe flight and media bomb-hoax wave",
+            "location": "At least five European countries",
+            "type": "Terror",
+            "summary": "Anadolu's earlier briefing on bomb threats targeting flights and media outlets stands; no new threats or devices reported this window.",
+            "status": "Quiet this window",
+            "links": [
+              {
+                "url": "https://x.com/anadoluagency/status/2118942791434653863",
+                "label": "Anadolu: bomb threats target flights, media in 5+ European countries"
+              }
+            ]
+          }
+        ],
+        "Russia": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Ukrainian strike on Saratov oil refinery",
+            "location": "Saratov, Russia",
+            "type": "Infrastructure",
+            "summary": "Ukraine's Stratcom says the Saratov refinery supplying fuel to the Russian army was targeted overnight. No new wire damage assessment found this window.",
+            "status": "Strike confirmed by Ukraine; damage extent unclear",
+            "links": [
+              {
+                "url": "https://x.com/StratcomCentre/status/2118990352979726804",
+                "label": "Ukraine Stratcom: Saratov refinery targeted"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Kyiv overnight strike — Russia confirms targets; power cuts in five regions",
+            "location": "Kyiv and other Ukrainian regions",
+            "type": "Power Outage",
+            "summary": "Reuters reports Russia says it hit targets in and around Kyiv in a massive overnight strike. Folha reports Ukraine registered power cuts in five regions after the attack. Ukrinform quotes Zelensky saying Ukraine is currently generating more electricity than it consumes.",
+            "status": "Repairs under way; grid stabilizing per Zelensky",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119130279927226737",
+                "label": "Reuters: Russia says it hit targets in and around Kyiv"
+              },
+              {
+                "url": "https://x.com/folha/status/2119127189224333757",
+                "label": "Folha: power cuts in five regions after attack"
+              },
+              {
+                "url": "https://x.com/Ukrinform_News/status/2119126567771087292",
+                "label": "Ukrinform: Zelensky says generation exceeds consumption"
+              }
+            ]
+          }
+        ],
+        "Middle East": [
+          {
+            "severity": "MEDIUM",
+            "title": "NEW: Explosions heard on Qeshm Island and in Jask, Sirik and Bandar Abbas, southern Iran",
+            "location": "Hormozgan Province, Iran (Strait of Hormuz)",
+            "type": "Other",
+            "summary": "Iranian state TV, as reported by Al Arabiya English and Iran International, says explosions were heard in Jask, Sirik, Bandar Abbas and Qeshm, with the cause unclear; IRNA reported two explosions in eastern Qeshm (per Al Jazeera English). IRGC-linked Tasnim cites a source saying the blasts were not related to missile strikes. Viral claims of a U.S. strike are unconfirmed and no U.S. statement was found.",
+            "status": "Under investigation; cause unknown",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2119165370116276508",
+                "label": "Al Arabiya English: Iranian state TV reports explosions in four southern locations"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119160459156938979",
+                "label": "Al Jazeera English: IRNA reports two explosions on Qeshm"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2119164439907672320",
+                "label": "Iran International: state TV says cause unknown"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2119168116194259224",
+                "label": "Iran International: Tasnim says not missile strikes"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "UPDATE: Houthis say 25–27 killed in air strikes they blame on Saudi-led coalition",
+            "location": "Near Sanaa, Yemen",
+            "type": "Other",
+            "summary": "Reuters cites the Houthi-run health ministry as saying strikes it blames on Saudi Arabia killed 27 near Sanaa; Al Jazeera English cites Houthi figures of at least 25 killed and 30 injured, with Houthi-affiliated media saying nine strikes hit telecommunications networks in Sa'ada governorate. No Saudi-led coalition confirmation found.",
+            "status": "Houthi claim; not independently verified",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119158120995848478",
+                "label": "Reuters: Houthi health ministry says 27 killed near Sanaa"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119161717594993053",
+                "label": "Al Jazeera English: at least 25 killed, telecom targets in Sa'ada"
+              },
+              {
+                "url": "https://x.com/BBCWorld/status/2119115500965757268",
+                "label": "BBC: Houthis say at least 25 killed in Saudi air strike"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119123968796045679",
+                "label": "AJE: Houthis say 25 killed near Sanaa; unverified"
+              },
+              {
+                "url": "https://x.com/Saudi_Gazette/status/2119115828377657720",
+                "label": "Saudi Gazette: Houthi cruise missile toward Riyadh intercepted"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: CENTCOM task force on Iranian land routes; Iran warns of response",
+            "location": "Iran / region",
+            "type": "Other",
+            "summary": "Reuters and Al Jazeera English reported CENTCOM's new task force to restrict Iranian land routes. Iranian security official Mohsen Rezaei posted a warning apparently aimed at Washington: 'Start a war, and you'll face a devastating response.' See separate item on explosions in southern Iran.",
+            "status": "Escalating posture; no new strikes reported this window",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119169267186700571",
+                "label": "Al Jazeera English: Rezaei warns of 'devastating response'"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119125242413035694",
+                "label": "Reuters exclusive: US looks to restrict Iranian land commerce"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119129002116018181",
+                "label": "AJE: CENTCOM announces task force against Iran"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119120197051121875",
+                "label": "AJE: Rezaei warns of devastating response"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119078651647914437",
+                "label": "AJE: Iraq FM says Hormuz exports resumed"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Syria denies troop deployment to Yemen",
+            "location": "Syria / Yemen",
+            "type": "Other",
+            "summary": "Reuters and Al Jazeera English (citing SANA) report Syria denies plans to send forces to Yemen, contradicting an earlier AFP report.",
+            "status": "Contested; denial stands",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119170540497760587",
+                "label": "Reuters: Syria denies plans to send troops to Yemen"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119108902931337295",
+                "label": "Reuters: Syria denies plans to send troops to Yemen"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119114132129558775",
+                "label": "AJE: Syrian source dismisses deployment reports"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Explosions reported near Fars Cement Factory, Shiraz — no official cause",
+            "location": "Shiraz, Iran",
+            "type": "Infrastructure",
+            "summary": "Single-source OSINT report of explosions; no official Iranian or wire confirmation found this window.",
+            "status": "Unconfirmed",
+            "links": [
+              {
+                "url": "https://x.com/visegrad24/status/2119062563610853835",
+                "label": "Visegrád 24: reports of explosions at Fars Cement Factory"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "NEW: Heavy rain floods tens of thousands of displaced people's tents in Gaza",
+            "location": "Gaza Strip",
+            "type": "Infrastructure",
+            "summary": "AFP cites Palestinian authorities as saying heavy rain on Saturday flooded tens of thousands of displaced people's tents, leaving them without shelter. Al Jazeera English reports the Palestinian Presidency blamed Israeli authorities for the worsening humanitarian situation.",
+            "status": "Ongoing humanitarian impact",
+            "links": [
+              {
+                "url": "https://x.com/AFP/status/2119165574743777731",
+                "label": "AFP: rain floods tens of thousands of tents in Gaza"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119162975697379396",
+                "label": "Al Jazeera English: Palestinian Presidency statement on flooding"
+              }
+            ]
+          }
+        ],
+        "Africa": [
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Eastern DRC Cantine-Aloya ADF attack — at least 33 killed",
+            "location": "North Kivu, DR Congo",
+            "type": "Terror",
+            "summary": "Reuters baseline of at least 33 civilians killed stands; CGTN Africa reports Ebola patients fled after the attack. No new toll this window.",
+            "status": "Confirmed; toll unchanged",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2118848853256335734",
+                "label": "Reuters: at least 33 civilians killed in ADF attack"
+              },
+              {
+                "url": "https://x.com/cgtnafrica/status/2119112747178656215",
+                "label": "CGTN Africa: Ebola patients flee after attack"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Ethiopia Arsi/Oromia attack — dozens reported killed",
+            "location": "Arsi area, Oromia, Ethiopia",
+            "type": "Terror",
+            "summary": "Addis Standard remains the primary source; still no wire corroboration found this window.",
+            "status": "Developing; needs corroboration",
+            "links": [
+              {
+                "url": "https://x.com/addisstandard/status/2119039503436222742",
+                "label": "Addis Standard: dozens killed in second Arsi-area attack"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Somalia Chief Justice dispute",
+            "location": "Mogadishu, Somalia",
+            "type": "Unrest",
+            "summary": "Garowe Online reports the president's appointee was sworn in as Chief Justice amid a constitutional dispute. No unrest reported this window.",
+            "status": "Political/legal dispute; no violence reported",
+            "links": [
+              {
+                "url": "https://x.com/GaroweOnline/status/2119076301927858444",
+                "label": "Garowe Online: new Chief Justice sworn in amid dispute"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Nigeria multi-state power outages",
+            "location": "Lagos, FCT and other states, Nigeria",
+            "type": "Power Outage",
+            "summary": "Power Minister Joseph Tegbe's 48–72 hour restoration timeline (Egbin maintenance, gas constraints, line sabotage) continues to circulate; residents still report load shedding. No grid-collapse signal.",
+            "status": "Restoration in progress per ministry"
+          }
+        ],
+        "South America": [
+          {
+            "severity": "HIGH",
+            "title": "UPDATE: Explosive-drone attack on army base in Santa Rosa del Sur, Bolívar — three soldiers killed, eight seriously wounded",
+            "location": "Cantón Militar, Santa Rosa del Sur, southern Bolívar, Colombia",
+            "type": "Terror",
+            "summary": "El Tiempo and Blu Radio report the Army says three soldiers were killed and eight seriously wounded when explosive-laden drones hit the military cantonment in Santa Rosa del Sur, southern Bolívar, on Saturday; earlier reports put total wounded at 14–16. President Abelardo De La Espriella condemned it as a cowardly terrorist attack and vowed to pursue those responsible, and Defence Minister Iván Cancino expressed solidarity. No group has claimed it.",
+            "status": "Confirmed; three dead per Army; perpetrators not identified",
+            "links": [
+              {
+                "url": "https://x.com/ELTIEMPO/status/2119150544077951279",
+                "label": "El Tiempo: Army reports 3 soldiers killed, 8 wounded"
+              },
+              {
+                "url": "https://x.com/BluRadioCo/status/2119150422115901538",
+                "label": "Blu Radio: three soldiers killed, eight seriously wounded"
+              },
+              {
+                "url": "https://x.com/ELTIEMPO/status/2119153756927393925",
+                "label": "El Tiempo: President De La Espriella condemns attack"
+              },
+              {
+                "url": "https://x.com/NoticiasCaracol/status/2119173566176567602",
+                "label": "Noticias Caracol: president speaks after attack, three soldiers dead"
+              },
+              {
+                "url": "https://x.com/BluRadioCo/status/2119173666478924119",
+                "label": "Blu Radio: Defence Minister Cancino statement"
+              },
+              {
+                "url": "https://x.com/NoticiasRCN/status/2119142396445475080",
+                "label": "RCN: initial report of drone attack"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "UPDATE: Paraguay — ex-president Peña charged with breach of trust",
+            "location": "Asunción, Paraguay",
+            "type": "Unrest",
+            "summary": "Reuters reports former president Santiago Peña appeared before prosecutors in Asunción and was charged with breach of trust and administration for personal gain; Al Jazeera English reports he was detained after impeachment over alleged misconduct linked to a collapsed digital bank. Alliana remains sworn in.",
+            "status": "Constitutional transition complete; prosecution under way",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119157944298168474",
+                "label": "Reuters: Peña charged with breach of trust"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119164234231673223",
+                "label": "Al Jazeera English: Peña appears before prosecutors"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119142910364950892",
+                "label": "Reuters: Peña faces prosecutors after impeachment"
+              }
+            ]
+          }
+        ]
+      },
+      "trending": [
+        {
+          "severity": "MEDIUM",
+          "title": "CONTINUATION: Japan M5.7 quake — at least four injured in Aichi; expressways closed",
+          "location": "Western Shizuoka / Aichi Prefecture, Japan",
+          "type": "Other",
+          "summary": "NHK reports at least four people injured in Aichi as of 2:30 a.m. local time, five expressways fully closed in Aichi, and stopped elevators in Nagoya. JMA issued a press release on the quake and has said there is no tsunami threat.",
+          "status": "No tsunami; minor injuries; transport disruption",
+          "links": [
+            {
+              "url": "https://x.com/nhk_news/status/2119130776180842852",
+              "label": "NHK: at least 4 injured in Aichi"
+            },
+            {
+              "url": "https://x.com/nhk_news/status/2119118193411457298",
+              "label": "NHK: five Aichi expressways closed"
+            },
+            {
+              "url": "https://x.com/JMA_kishou/status/2119132440258363713",
+              "label": "JMA: press release on western Shizuoka quake"
+            },
+            {
+              "url": "https://x.com/NHKWORLD_News/status/2119111070560502193",
+              "label": "NHK World: M5.7, upper 5, no tsunami"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "CONTINUATION: Muzaffarabad / Rawalakot (AJK) unrest",
+          "location": "Pakistan-administered Kashmir",
+          "type": "Unrest",
+          "summary": "Reports of clashes and a security crackdown continue; casualty claims remain unverified by major wires.",
+          "status": "Unverified tolls",
+          "links": [
+            {
+              "url": "https://x.com/soldierspeaks/status/2119058540253806877",
+              "label": "@soldierspeaks: clashes spread to Muzaffarabad"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "CONTINUATION: Ghaziabad police-outpost blast under NIA investigation",
+          "location": "Ghaziabad, Uttar Pradesh, India",
+          "type": "Terror",
+          "summary": "NIA team at the Vasundhara outpost; an online responsibility claim remains unverified. Not confirmed as terrorism.",
+          "status": "Under investigation",
+          "links": [
+            {
+              "url": "https://x.com/ANI/status/2119022911625507156",
+              "label": "ANI: NIA team at Vasundhara blast site"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "datetime": "2026-11-07T14:11:28-05:00",
       "regions": {
         "America": [
