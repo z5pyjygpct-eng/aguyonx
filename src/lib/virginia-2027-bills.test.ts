@@ -26,15 +26,15 @@ const bills = newFilings(ledger);
 const continued = continuedFilings(ledger);
 const mixed = [...bills, ...continued];
 
-test("published ledger keeps 19 new filings and 443 continued records", () => {
-  assert.equal(bills.length, 19);
+test("published ledger keeps 20 new filings and 443 continued records", () => {
+  assert.equal(bills.length, 20);
   assert.equal(continued.length, 443);
-  assert.equal(ledger.new_filings.length, 19);
+  assert.equal(ledger.new_filings.length, 20);
   assert.equal(ledger.continued.length, 443);
   assert.deepEqual(ledgerProblems(ledger), []);
   assert.equal(JSON.stringify(ledger).includes("source_fields"), false);
   assert.equal(ledger.meta.session_code, "20271");
-  assert.equal(new Set(bills.map((b) => b.bill_number)).size, 19);
+  assert.equal(new Set(bills.map((b) => b.bill_number)).size, 20);
   for (const bill of ledger.new_filings) assert.equal(isNewFiling(bill), true);
   for (const bill of ledger.continued) assert.equal(isContinued(bill), true);
   for (const bill of continued) {
@@ -44,16 +44,16 @@ test("published ledger keeps 19 new filings and 443 continued records", () => {
 });
 
 test("default filters and sort keep every new filing", () => {
-  assert.equal(filterBills(bills, {}).length, 19);
-  assert.equal(filterBills(mixed, {}).length, 19);
+  assert.equal(filterBills(bills, {}).length, 20);
+  assert.equal(filterBills(mixed, {}).length, 20);
   assert.equal(filterBills(mixed, { party: "R" }).length, 4);
   assert.equal(filterBills(continued, {}).length, 0);
   const sorted = sortBills(bills);
-  assert.equal(sorted.length, 19);
+  assert.equal(sorted.length, 20);
   assert.deepEqual(new Set(sorted.map((b) => b.bill_number)), new Set(bills.map((b) => b.bill_number)));
   const newest = sorted[0]!;
-  assert.equal(newest.bill_number, "SB850");
-  assert.equal(newest.introduction_date, "11/2/2026");
+  assert.equal(newest.bill_number, "SB851");
+  assert.equal(newest.introduction_date, "11/5/2026");
 });
 
 test("every bill is findable by its own number, title fragment, patron, category, chamber, party, and status", () => {
@@ -111,7 +111,7 @@ test("chamber, party, and status partitions cover every filing exactly once", ()
       assert.equal(hits.length, count, `${key}=${value}`);
       seen += hits.length;
     }
-    assert.equal(seen, 19, key);
+    assert.equal(seen, 20, key);
   }
 });
 
@@ -133,7 +133,7 @@ test("patron filter keeps co-patron bills and does not invent a party for them",
 
 test("a filter excludes only non-matches", () => {
   const house = filterBills(bills, { chamber: "House" });
-  assert.ok(house.length > 0 && house.length < 19);
+  assert.ok(house.length > 0 && house.length < 20);
   assert.ok(house.every((b) => b.chamber === "House"));
   const senateNumbers = new Set(bills.filter((b) => b.chamber === "Senate").map((b) => b.bill_number));
   for (const bill of house) assert.equal(senateNumbers.has(bill.bill_number), false);
@@ -141,8 +141,8 @@ test("a filter excludes only non-matches", () => {
   assert.equal(filterBills(bills, { category: "not-a-category" }).length, 0);
   const withSummary = bills.filter((b) => b.summary_plain);
   const without = bills.filter((b) => !b.summary_plain);
-  assert.equal(withSummary.length, 4);
-  assert.equal(without.length, 15);
+  assert.equal(withSummary.length, 20);
+  assert.equal(without.length, 0);
   assert.ok(without.every((b) => b.summary_plain == null));
 });
 
@@ -150,8 +150,8 @@ test("Republican and Democrat shortcuts follow the chief patron only", () => {
   const republican = filterBills(bills, { party: "R" });
   const democrat = filterBills(bills, { party: "D" });
   assert.deepEqual(republican.map((b) => b.bill_number).sort(), ["HB1532", "HB1533", "HB1534", "SR173"]);
-  assert.equal(democrat.length, 15);
-  assert.equal(republican.length + democrat.length, 19);
+  assert.equal(democrat.length, 16);
+  assert.equal(republican.length + democrat.length, 20);
   assert.ok(republican.every((b) => b.chief_patron_party_code === "R" && b.chief_patron_party === "Republican"));
   assert.ok(democrat.every((b) => b.chief_patron_party_code === "D" && b.chief_patron_party === "Democrat"));
   for (const number of ["SB839", "SB841", "SB843"]) {
@@ -162,19 +162,19 @@ test("Republican and Democrat shortcuts follow the chief patron only", () => {
     filterBills(bills, { party: "R", chamber: "House" }).map((b) => b.bill_number).sort(),
     ["HB1532", "HB1533", "HB1534"],
   );
-  assert.deepEqual(filterBills(bills, { party: "D", q: "Favola" }).map((b) => b.bill_number).sort(), ["SB837", "SB844"]);
+  assert.deepEqual(filterBills(bills, { party: "D", q: "Favola" }).map((b) => b.bill_number).sort(), ["SB837", "SB844", "SB851"]);
   assert.equal(filterBills(bills, { party: "R", q: "Favola" }).length, 0);
   assert.deepEqual(filterBills(bills, { party: "R", q: "Cherry" }).map((b) => b.bill_number).sort(), ["HB1532", "HB1533"]);
-  assert.equal(filterBills(bills, {}).length, 19);
+  assert.equal(filterBills(bills, {}).length, 20);
 });
 
-test("continued subset stays separate from the 19 new filings", () => {
+test("continued subset stays separate from the 20 new filings", () => {
   assert.equal(filterBills(mixed, { filing: "continued" }).length, 443);
   assert.equal(filterBills(mixed, { filing: "continued", party: "R" }).length, 140);
-  assert.equal(filterBills(mixed, { filing: "continued", party: "D" }).length, 301);
-  assert.equal(filterBills(mixed, { filing: "continued", party: "missing" }).length, 2);
+  assert.equal(filterBills(mixed, { filing: "continued", party: "D" }).length, 294);
+  assert.equal(filterBills(mixed, { filing: "continued", party: "missing" }).length, 9);
   const missing = filterBills(mixed, { filing: "continued", party: "missing" }).map((b) => b.bill_number).sort();
-  assert.deepEqual(missing, ["HB1314", "HB382"]);
+  assert.deepEqual(missing, ["HB1314", "HB377", "HB382", "HB635", "HB638", "HB96", "SB318", "SB638", "SB760"]);
   for (const bill of filterBills(mixed, { filing: "continued", party: "missing" })) {
     assert.equal(bill.chief_patron_party_code, null);
     assert.equal(bill.chief_patron_party, null);

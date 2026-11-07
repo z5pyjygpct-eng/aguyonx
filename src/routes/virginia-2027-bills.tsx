@@ -393,11 +393,12 @@ function FilterChip({ active, onClick, count, children, value = "" }: { active: 
 function BillCard({ bill }: { bill: BillRecord }) {
   const committees = committeeLines(bill);
   const ids = categoryIdsOf(bill);
-  const patrons = bill.sponsors?.length
-    ? bill.sponsors
-    : bill.chief_patron_id
-      ? [{ member_id: bill.chief_patron_id, member_name: bill.chief_patron_name || "Name not in this capture", patron_type: "not in Sponsors.csv" }]
-      : [];
+  const sponsorRows = bill.sponsors ?? [];
+  const chiefListed = !!bill.chief_patron_id && sponsorRows.some((s) => s.member_id === bill.chief_patron_id);
+  const chiefRow = !chiefListed && bill.chief_patron_id
+    ? [{ member_id: bill.chief_patron_id, member_name: bill.chief_patron_name || bill.chief_patron?.patron_name_from_bills || "Name not in this capture", patron_type: "not in Sponsors.csv" }]
+    : [];
+  const patrons = [...chiefRow, ...sponsorRows];
   return (
     <article
       id={`bill-${bill.bill_number}`}

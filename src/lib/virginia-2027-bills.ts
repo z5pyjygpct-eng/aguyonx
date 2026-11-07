@@ -32,6 +32,8 @@ export type BillRecord = {
   chief_patron_party_code: string | null;
   chief_patron_party: string | null;
   chief_patron_party_source: string | null;
+  /** Bill-file patron fields. Party stays null when the roster has no match. */
+  chief_patron?: { patron_name_from_bills?: string | null; member_name?: string | null } | null;
   sponsors: Patron[];
   house_committee_id: string | null;
   house_committee_name: string | null;
