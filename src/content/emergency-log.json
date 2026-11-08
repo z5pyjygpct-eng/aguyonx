@@ -1,6 +1,529 @@
 {
   "entries": [
     {
+      "datetime": "2026-11-07T22:15:00-05:00",
+      "regions": {
+        "America": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Armed Venezuelan national arrested near White House",
+            "location": "Near the White House, Washington, D.C.",
+            "type": "Other",
+            "summary": "Prior reporting stands: Venezuelan national Ronny Yordrix Guanipa Chrinos was arrested near the White House with firearms in a stolen vehicle, per DHS and ABC. No new primary DHS or wire statement found this window; secondary posts repeat the same facts. Age and motive details in unverified commentary are not used.",
+            "status": "Suspect in custody and charged; no material change",
+            "links": [
+              {
+                "url": "https://x.com/ABC/status/2119068196770656403",
+                "label": "ABC: Venezuelan national arrested near White House with firearms"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Lakewood, CO — Agent Nicholas Graham killed in line of duty",
+            "location": "Lakewood, Colorado",
+            "type": "Other",
+            "summary": "Lakewood Police continue to mourn Agent Nicholas Graham, 33, killed in the line of duty. No new official developments found this window. Unverified posts about fake fundraisers are not logged without a Lakewood PD source.",
+            "status": "Unchanged",
+            "links": [
+              {
+                "url": "https://x.com/LakewoodPDCO/status/2118862842862727430",
+                "label": "Lakewood PD: Agent Nicholas Graham killed in line of duty"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Guatemalan opposition lawmaker Julio Portillo and three police officers killed",
+            "location": "Zacapa, Guatemala",
+            "type": "Terror",
+            "summary": "CNN en Español and other outlets continue to report that opposition lawmaker Julio Portillo and three police officers were killed in an armed attack. Secondary posts place the attack in Río Hondo, Zacapa, and say Portillo died at the regional hospital. No arrests or confirmed motive found this window.",
+            "status": "Confirmed; motive unknown",
+            "links": [
+              {
+                "url": "https://x.com/CNNEE/status/2119195705000570971",
+                "label": "CNN en Español: diputado y tres policías muertos"
+              },
+              {
+                "url": "https://x.com/AFP/status/2119120228487512561",
+                "label": "AFP: lawmaker Julio Portillo and three police killed"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119082624127815913",
+                "label": "Reuters: Guatemalan lawmaker, three police killed"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Queens Public Library ransomware outage",
+            "location": "Queens, New York",
+            "type": "Cyber",
+            "summary": "Queens Public Library services remain disrupted by a ransomware attack. No restoration announcement found this window.",
+            "status": "Ongoing",
+            "links": [
+              {
+                "url": "https://x.com/Gothamist/status/2118399313994740088",
+                "label": "Gothamist: Queens Public Library online system downed by ransomware"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Election watch: no official voting-location or canvass-site disruptions found this window",
+            "location": "United States",
+            "type": "Election",
+            "summary": "Searches for polling-place, election-office, canvass and tabulation disruptions found no new official reports from county election offices, Secretaries of State or established wires this window. Circulating recaps of a Seminole County, Georgia, memory-card upload remain a post-election administration story, not a new voting-site outage, and are not logged as an incident. Fraud claims without official confirmation are ignored.",
+            "status": "Clear"
+          }
+        ],
+        "Europe": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Kraków Main Market Square shooting — PM Tusk calls it terrorism; national mourning Nov 8–9",
+            "location": "Main Market Square, Kraków, and Ostrowiec Świętokrzyski, Poland",
+            "type": "Terror",
+            "summary": "No material change to the official picture this window. PAP has reported six killed and 16 wounded when a masked 24-year-old drove onto Kraków’s Main Market Square and opened fire before police wounded and arrested him; among the dead is a British national. Al Jazeera English reports PM Donald Tusk has described the attack as an act of terrorism. Three bodies found at the attacker’s apartment in Ostrowiec Świętokrzyski are most likely his parents and sister, per national police HQ via PAP. President Nawrocki declared national mourning for 8–9 November (TVN24). Do not treat an aggregated “nine dead” figure as a single official toll.",
+            "status": "Confirmed attack; described as terrorism by the PM; six dead in the square plus three bodies at the home under investigation; national mourning declared",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119232524933333052",
+                "label": "Al Jazeera English: Tusk calls Kraków shooting terrorism"
+              },
+              {
+                "url": "https://x.com/BBCWorld/status/2119194735441051678",
+                "label": "BBC World: six killed, three more bodies at attacker’s home"
+              },
+              {
+                "url": "https://x.com/tvn24/status/2119202872889881030",
+                "label": "TVN24: three bodies found in Ostrowiec apartment (Tusk/police)"
+              },
+              {
+                "url": "https://x.com/PAPinformacje/status/2119186360498000232",
+                "label": "PAP: six dead, 16 wounded; British victim; mourning"
+              },
+              {
+                "url": "https://x.com/PAPinformacje/status/2119186917673619628",
+                "label": "PAP: KGP says bodies likely parents and sister"
+              },
+              {
+                "url": "https://x.com/tvn24/status/2119194042902999068",
+                "label": "TVN24: Nawrocki signs national mourning Nov 8–9"
+              },
+              {
+                "url": "https://x.com/FCDOGovUK/status/2119194494847643661",
+                "label": "UK FCDO: mourns British national and other victims"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119137809940488200",
+                "label": "Reuters: at least six killed, 15 wounded (earlier)"
+              },
+              {
+                "url": "https://x.com/AFP/status/2119140442373591256",
+                "label": "AFP: six killed (earlier)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Police officer’s home destroyed by arson in Auch, France",
+            "location": "Auch, France",
+            "type": "Unrest",
+            "summary": "Interior Minister Laurent Nuñez said a police officer’s home in Auch was deliberately set on fire and destroyed, and that everything suggests the attack was because of the officer’s profession. Reuters carried the minister’s account. No material update found this window.",
+            "status": "Confirmed by interior minister; investigation underway",
+            "links": [
+              {
+                "url": "https://x.com/NunezLaurent/status/2119171905160991050",
+                "label": "Interior Minister Nuñez: Auch officer’s home burned"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119193219850293305",
+                "label": "Reuters: police officer’s home destroyed by fire"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: France — fourth Saturday of cost-of-living protests; Yellow Vests defy ban in Paris",
+            "location": "Paris and nationwide, France",
+            "type": "Unrest",
+            "summary": "Al Jazeera English reports police clashed with protesters in Paris as Yellow Vests defied a ban, with two coordinators arrested, and at least 146,000 people marching across France against the cost of living for a fourth straight week. No verified new nationwide casualty or arrest totals from wires found this window.",
+            "status": "Ongoing",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119188300003160361",
+                "label": "Al Jazeera English: Yellow Vests defy ban; 146,000 marched"
+              },
+              {
+                "url": "https://x.com/FoxNews/status/2119195006833480086",
+                "label": "Fox News: tear gas and clashes in Paris"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Tirana clashes — water cannon used on masked anti-government protesters",
+            "location": "Tirana, Albania",
+            "type": "Unrest",
+            "summary": "Anti-government protests in Tirana continue into a further week of demonstrations with prior reports of water cannon and tear gas. No verified wire posts with new casualty figures found this window.",
+            "status": "Ongoing",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119168008853782660",
+                "label": "Al Jazeera English: water cannon on masked protesters"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Belgian Finance Ministry cyberattack blocks new company registrations",
+            "location": "Belgium",
+            "type": "Cyber",
+            "summary": "No material update found this window on the Belgian Finance Ministry cyberattack that had been blocking new company registrations.",
+            "status": "Unchanged; prior reporting stands"
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Ransomware group claims Maersk logistics-platform data",
+            "location": "Europe / global logistics",
+            "type": "Cyber",
+            "summary": "Leak-site trackers continue to circulate a “whitearmor” ransomware claim against Maersk. Maersk has not confirmed the claim in posts found this window.",
+            "status": "Unconfirmed claim",
+            "links": [
+              {
+                "url": "https://x.com/LandscapeThreat/status/2119197794191978732",
+                "label": "LandscapeThreat: whitearmor Maersk claim tracker"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Italian FM Tajani personal data leaked on dark web; Europe bomb-hoax wave",
+            "location": "Italy / Europe",
+            "type": "Cyber",
+            "summary": "No material change found this window on the Tajani dark-web data leak. Background continues on Friday’s Irish media bomb-hoax evacuations ahead of the Nov 12 European Political Community summit in Dublin.",
+            "status": "Ongoing context; low change"
+          }
+        ],
+        "Russia": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Ukrainian strike on Saratov oil refinery",
+            "location": "Saratov, Russia",
+            "type": "Infrastructure",
+            "summary": "No new official casualty or damage figures found this window. Prior reporting of a Ukrainian strike and fires at the Saratov Rosneft oil refinery stands. Aggregator claims about capacity and nearby store damage are not treated as wire-confirmed.",
+            "status": "Unchanged; prior targeting confirmation stands",
+            "links": [
+              {
+                "url": "https://x.com/StratcomCentre/status/2118990352979726804",
+                "label": "Ukraine Stratcom: Saratov refinery targeting (prior)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Ukraine power cuts — Dnipro blackout over 60,000 customers; Zhytomyr substation destroyed",
+            "location": "Dnipro and Zhytomyr region, Ukraine",
+            "type": "Power Outage",
+            "summary": "No new official customer-count or repair-timeline update found this window. Prior Ukrainska Pravda reporting stands: a continuing blackout in Dnipro affecting more than 60,000 consumers, and the destruction of an electrical substation in Zhytomyr region with a warning of a lengthy outage, following Saturday’s missile and drone attack on Kyiv’s energy infrastructure.",
+            "status": "Ongoing outages; no new figures this window",
+            "links": [
+              {
+                "url": "https://x.com/ukrpravda_news/status/2119223265755582571",
+                "label": "Ukrainska Pravda: Dnipro blackout, 60,000+ without power"
+              },
+              {
+                "url": "https://x.com/ukrpravda_news/status/2119222939933393028",
+                "label": "Ukrainska Pravda: Zhytomyr substation destroyed"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Kyiv overnight strike — power cuts; no verified new attack tonight",
+            "location": "Kyiv and other regions, Ukraine",
+            "type": "Infrastructure",
+            "summary": "Prior overnight attack figures stand. No verified wire or Kyiv Independent corroboration of a fresh tonight strike was found in this window. Unverified blackout claims beyond previously reported outages are not elevated.",
+            "status": "Overnight attack aftermath ongoing; fresh tonight strike claims unverified"
+          }
+        ],
+        "Middle East": [
+          {
+            "severity": "MEDIUM",
+            "title": "NEW: Flash floods in Erbil kill two, per the governor; schools closed Sunday",
+            "location": "Erbil, Kurdistan Region, Iraq",
+            "type": "Other",
+            "summary": "Al Arabiya and Al Hadath report that flash floods after heavy rain struck Erbil, inundating streets and residential neighborhoods and damaging homes, shops and vehicles. Both outlets say Erbil’s governor announced two deaths from the floods and that authorities mobilized to pump out water. A later Al Arabiya post said civil defense was on alert and official work at educational institutions was suspended. Search-and-rescue work was still being reported as ongoing.",
+            "status": "Confirmed by regional outlets citing the governor; recovery underway",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya/status/2119216735652044825",
+                "label": "Al Arabiya: Erbil governor announces two flood deaths"
+              },
+              {
+                "url": "https://x.com/AlHadath/status/2119217826363834870",
+                "label": "Al Hadath: two dead; homes, shops and vehicles damaged"
+              },
+              {
+                "url": "https://x.com/AlHadath/status/2119218342410035213",
+                "label": "Al Hadath correspondent: two dead; traffic disrupted"
+              },
+              {
+                "url": "https://x.com/AlArabiya/status/2119248540983558648",
+                "label": "Al Arabiya: civil defense mobilized; schools closed"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "NEW: Saudi Civil Defense issues then lifts early-warning alerts in Eastern Province cities",
+            "location": "Dammam, Al Ahsa and Buqayq, Eastern Province, Saudi Arabia",
+            "type": "Other",
+            "summary": "The official Saudi Civil Defense account said the National Early Warning Platform issued danger alerts for Dammam, Al Ahsa Governorate and Buqayq Governorate, then posted that the danger had passed in each of those places about 10 minutes later, urging people to keep following instructions, avoid gathering or filming, and call 911 in an emergency. Verified state broadcaster Al Ekhbariya also reported early-warning alerts for Dammam, Dhahran, Buqayq and Hofuf. No official statement of an intercept, impact or cause was found. Unverified posts claiming explosions or a Houthi missile strike in Dammam are not logged.",
+            "status": "Official alerts issued and lifted; no confirmed impact or attributed cause",
+            "links": [
+              {
+                "url": "https://x.com/SaudiDCD/status/2119243925491736717",
+                "label": "Saudi Civil Defense: warning issued in Dammam"
+              },
+              {
+                "url": "https://x.com/SaudiDCD/status/2119245078627807263",
+                "label": "Saudi Civil Defense: warning issued in Al Ahsa"
+              },
+              {
+                "url": "https://x.com/SaudiDCD/status/2119245325911396791",
+                "label": "Saudi Civil Defense: warning issued in Buqayq"
+              },
+              {
+                "url": "https://x.com/SaudiDCD/status/2119246668147142705",
+                "label": "Saudi Civil Defense: danger has passed in Dammam"
+              },
+              {
+                "url": "https://x.com/SaudiDCD/status/2119246874892706183",
+                "label": "Saudi Civil Defense: danger has passed in Al Ahsa"
+              },
+              {
+                "url": "https://x.com/SaudiDCD/status/2119247071580434829",
+                "label": "Saudi Civil Defense: danger has passed in Buqayq"
+              },
+              {
+                "url": "https://x.com/alekhbariyatv/status/2119245006149935326",
+                "label": "Al Ekhbariya: Civil Defense alerts for Dammam, Dhahran, Buqayq and Hofuf"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "UPDATE: UAE National Guard says it rescued 22 people from a burning cargo ship in the Gulf of Oman",
+            "location": "Gulf of Oman / Strait of Hormuz approaches",
+            "type": "Infrastructure",
+            "summary": "Al Jazeera English reports the United Arab Emirates’ National Guard said it rescued 22 people from a burning cargo ship in the Gulf of Oman, after the IRGC said two oil tankers struck naval mines and caught fire near the Strait of Hormuz. Earlier Iranian claims that the tankers had used unauthorized routes were not independently confirmed, and identities, flags and casualties beyond the rescue figure were not given in the Al Jazeera English post.",
+            "status": "UAE rescue confirmed by Al Jazeera English; IRGC mine claim still unconfirmed independently",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119254687665033224",
+                "label": "Al Jazeera English: UAE rescued 22 from burning cargo ship"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2119177315267559704",
+                "label": "Iran International: IRGC Navy says two tankers hit mines"
+              },
+              {
+                "url": "https://x.com/PressTV/status/2119192389747085790",
+                "label": "Press TV: IRGC Navy confirms two tankers burning"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Explosions in southern Iran — state media link to Hormuz activity; no damage reported; US-strike claims uncorroborated",
+            "location": "Qeshm Island, Jask, Sirik, Bandar Abbas, Iran",
+            "type": "Other",
+            "summary": "No Reuters, AP, AFP or CENTCOM confirmation of a new US strike tonight was found in this sweep. Prior Al Jazeera English reporting that Iranian state media linked explosions heard on Qeshm Island and elsewhere in southern Iran to activity in the Strait of Hormuz, with no damage reported on the island so far, still stands. Unverified accounts claiming a fresh wave of US strikes are not logged.",
+            "status": "Explosions previously acknowledged by Iranian state media; cause disputed; fresh US-strike claims unverified",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119180592579277056",
+                "label": "Al Jazeera English: explosions linked to Hormuz activity, no damage"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: CENTCOM disables St. Kitts-flagged M/V Huda in Gulf of Oman for blockade violation",
+            "location": "Gulf of Oman",
+            "type": "Other",
+            "summary": "US Central Command said its forces disabled the St. Kitts-flagged M/V Huda on Nov 7 after the crew ignored warnings and tried to violate the naval blockade against Iran. No new official casualty or follow-on interdiction statement found this window.",
+            "status": "Official CENTCOM statement; no material change",
+            "links": [
+              {
+                "url": "https://x.com/CENTCOM/status/2119167271989870888",
+                "label": "CENTCOM: M/V Huda disabled in Gulf of Oman"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Houthi-run health ministry says strikes near Sanaa killed 33",
+            "location": "al-Sharya village near Sanaa, Yemen",
+            "type": "Other",
+            "summary": "Al Jazeera English now also reports the death toll from Saudi-led air strikes on Yemen’s Al Shariyah village has risen to 33, with 39 wounded, according to a Houthi health ministry spokesperson. That matches earlier Reuters and Iran International figures. The numbers come from Houthi-run authorities and have not been independently verified.",
+            "status": "Houthi-run ministry figures; not independently verified",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119252221049364616",
+                "label": "Al Jazeera English: Houthi ministry says 33 killed, 39 wounded"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119220873466880465",
+                "label": "Reuters: Houthi-run ministry says strikes kill 33"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2119218530943922275",
+                "label": "Iran International: 33 killed, 39 wounded east of Sanaa"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Syria denies troop deployment to Yemen; Shiraz cement explosions; Gaza tent floods",
+            "location": "Syria / Shiraz, Iran / Gaza",
+            "type": "Other",
+            "summary": "Reuters previously carried Syria’s denial of a combat troop deployment to Yemen; no material change found this window. Shiraz cement-factory explosions and Gaza tent-flood reports likewise had no material update meeting the bar.",
+            "status": "Low change"
+          }
+        ],
+        "Africa": [
+          {
+            "severity": "MEDIUM",
+            "title": "NEW: UDM councillor Luxolo Namette shot dead in Motherwell, Gqeberha",
+            "location": "Motherwell, Gqeberha, Eastern Cape, South Africa",
+            "type": "Other",
+            "summary": "SABC News reports that former Nelson Mandela Bay deputy mayor and former councillor Luxolo Namete was shot dead in Motherwell on Saturday afternoon. IOL, identifying him as UDM councillor Luxolo Namette, says the party fears he may have been targeted because of his political activities. The Citizen likewise reported the killing and noted Eastern Cape police. Motive and suspects were not confirmed in these posts.",
+            "status": "Confirmed by national outlets; murder investigation; political motive alleged by the party, not independently established",
+            "links": [
+              {
+                "url": "https://x.com/SABCNews/status/2119128252463906932",
+                "label": "SABC News: former deputy mayor Luxolo Namete shot dead"
+              },
+              {
+                "url": "https://x.com/IOL/status/2119131804116615529",
+                "label": "IOL: UDM councillor Namette shot dead; party fears political targeting"
+              },
+              {
+                "url": "https://x.com/TheCitizen_News/status/2119173212219027834",
+                "label": "The Citizen: Namette shot and killed in Gqeberha"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Deadly clash at opposition rally in Asaba, Nigeria — police confirm 1 dead, 5 injured",
+            "location": "Nnebisi Road, Asaba, Delta State, Nigeria",
+            "type": "Unrest",
+            "summary": "No new official police casualty update found this window. A Delta State Police Command press release, posted by Nigeria Police Force spokesperson Olumuyiwa Adejobi, previously said a violent incident during an Obedient/OK movement rally left one person dead and five injured. Supporters on both sides trade blame; claims of additional deaths remain unconfirmed.",
+            "status": "Official police statement issued; investigation underway; no new figures",
+            "links": [
+              {
+                "url": "https://x.com/Princemoye1/status/2119190271367762386",
+                "label": "Delta State Police Command press release (via NPF spokesperson)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Eastern DRC Cantine-Aloya ADF attack — at least 33 killed",
+            "location": "Eastern Democratic Republic of Congo",
+            "type": "Terror",
+            "summary": "No material update found this window on the Cantine-Aloya ADF attack. Prior toll of at least 33 killed stands.",
+            "status": "Unchanged"
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Ethiopia Arsi/Oromia attacks — cumulative toll rising in secondary reports",
+            "location": "Arsi / Oromia, Ethiopia",
+            "type": "Terror",
+            "summary": "No new wire-confirmed single incident was found this window. Secondary and advocacy accounts have cited cumulative Orthodox Christian death tolls over recent weeks. Keep as MEDIUM with caution on secondary tallies.",
+            "status": "Ongoing violence; cumulative figures not wire-confirmed in this sweep"
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Sudan — secondary reports of deadly drone strikes including market and displaced camps",
+            "location": "Sudan (al-Dabba; Blue Nile; North Darfur)",
+            "type": "Other",
+            "summary": "No new wire-confirmed casualty figures found this window. Secondary posts have described recent drone attacks, including around a market in al-Dabba and displaced people in Blue Nile. This stays MONITORING pending a direct wire confirmation.",
+            "status": "Early/secondary reports; needs wire confirmation"
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Somalia Chief Justice dispute; Nigeria multi-state power outages",
+            "location": "Somalia / Nigeria",
+            "type": "Other",
+            "summary": "No material updates meeting the bar found this window.",
+            "status": "Low change"
+          }
+        ],
+        "South America": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Santa Rosa del Sur drone attack — Army reports 3 dead, 47 injured (16 seriously)",
+            "location": "Santa Rosa del Sur, Bolívar, Colombia",
+            "type": "Terror",
+            "summary": "No new official Army casualty update found this window. Prior reporting stands: explosive-laden drones struck the Santa Rosa military cantonment while soldiers were at lunch; TSM Noticias cited a Colombian Army update of three dead and 47 injured, 16 of them seriously. Defense Minister Jorge Mora has attributed the attack to the ELN; no claim of responsibility found.",
+            "status": "Confirmed; no new casualty figures this window; ELN blamed by the government, no claim",
+            "links": [
+              {
+                "url": "https://x.com/tsmnoticias/status/2119211921480057190",
+                "label": "TSM Noticias: Army update, 3 dead and 47 injured"
+              },
+              {
+                "url": "https://x.com/NoticiasRCN/status/2119230708661236177",
+                "label": "Noticias RCN: wounded transferred to Bucaramanga"
+              },
+              {
+                "url": "https://x.com/NoticiasCaracol/status/2119224605910978910",
+                "label": "Noticias Caracol: drones hit cantonment during lunch"
+              },
+              {
+                "url": "https://x.com/ELTIEMPO/status/2119196267309887781",
+                "label": "El Tiempo: three dead, 35 wounded"
+              },
+              {
+                "url": "https://x.com/BluRadioCo/status/2119181462809219225",
+                "label": "Blu Radio: Mora blames ELN; 3 dead, 35+ wounded"
+              },
+              {
+                "url": "https://x.com/mindefensa/status/2119176374858535188",
+                "label": "Mindefensa: condemns Santa Rosa attack"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Paraguay — judge orders pretrial detention for ex-president Peña; Alliana sworn in",
+            "location": "Asunción, Paraguay",
+            "type": "Other",
+            "summary": "No material legal or succession update found this window. ABC Digital and EFE previously reported Judge Humberto Otazú ordered pretrial detention for former president Santiago Peña in the Ueno Bank case. Reuters reported Pedro Alliana was sworn in as the new president after Peña’s impeachment.",
+            "status": "Pretrial detention ordered; presidential succession completed; no material change",
+            "links": [
+              {
+                "url": "https://x.com/ABCDigital/status/2119179720021377493",
+                "label": "ABC Digital: pretrial detention for Peña"
+              },
+              {
+                "url": "https://x.com/EFEnoticias/status/2119182614670066027",
+                "label": "EFE: judge sends Peña to pretrial detention"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119195721354125698",
+                "label": "Reuters: Pedro Alliana sworn in as president"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "datetime": "2026-11-07T20:15:00-05:00",
       "regions": {
         "America": [
