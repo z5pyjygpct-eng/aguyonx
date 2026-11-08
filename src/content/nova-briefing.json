@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,57 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-08",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Saturday, Nov 7) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched the article page title, Nov 7 ET publish date confirmed on the article page). Sources checked: RSS from ARLnow, FFXnow, ALXnow, Annandale Today, Potomac Local, Blue Ridge Leader, Loudoun County news flash, Loudoun Times-Mirror, Patch (Leesburg, Ashburn, Reston, Fairfax, Arlington, Woodbridge), NBC Washington Northern Virginia, WUSA9 Virginia, WTOP local, Fairfax Times; plus Loudoun Now news page and Prince William Times homepage (their RSS returned HTTP 429), and news.ts (no Nov 7 items). 20 candidate pages checked, 0 failed verification, 4 kept. Left out: older-dated homepage stories (Nov 1 to Nov 6), high-school sports scoreboards and game stories (PWT Week 11 results, Gainesville vs. Patriot, LTM Week 11 scoreboard), a Fredericksburg-area I-95 sign item (Potomac Local), Maryland, D.C. and statewide WTOP items, and Fairfax Times wire press releases. Light Saturday news day.",
+      "items": [
+        {
+          "id": "man-arrested-after-gunfire-arlnow-2026-11-07",
+          "county": "Arlington",
+          "headline": "Man arrested after gunfire reported in parts of North Arlington",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/07/man-arrested-after-gunfire-reported-in-parts-of-north-arlington/",
+          "published": "2026-11-07",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "their-face-just-lights-wtop-2026-11-07",
+          "county": "Prince William",
+          "headline": "‘Their face just lights up’: Veterans honored at Manassas parade",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/their-face-just-lights-up-veterans-honored-at-manassas-parade-2/",
+          "published": "2026-11-07",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "before-his-stunning-claims-pwt-2026-11-07",
+          "county": "Prince William",
+          "headline": "Before his stunning claims, Bhatt told the jury of his harrowing upbringing in Nepal",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/before-his-stunning-claims-bhatt-told-the-jury-of-his-harrowing-upbringing-in-nepal/article_5ef1a337-afe6-46a4-b56e-7f2e17b2f1ec.html",
+          "published": "2026-11-07",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "advanced-corrective-chiropractic-named-loudounnow-2026-11-07",
+          "county": "Loudoun",
+          "headline": "Advanced Corrective Chiropractic Named Loudoun’s Small Business of the Year",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/business/advanced-corrective-chiropractic-named-loudoun-s-small-business-of-the-year/article_e8bd73cf-5095-42cd-99e2-8f9a0dd29a0d.html",
+          "published": "2026-11-07",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Fairfax: no verified Nov 7 local stories (FFXnow posted nothing Saturday; Fairfax Times feed was wire press releases only; Patch Fairfax feed empty)",
+        "Loudoun Now and Prince William Times RSS: HTTP 429 (news page / homepage used)",
+        "InsideNoVa: feed and homepage returned HTML with no readable article list",
+        "WTOP Virginia feed: HTML instead of RSS (WTOP local feed used)",
+        "Patch Arlington, Fairfax, Woodbridge feeds: empty; Patch Leesburg/Ashburn/Reston had no Nov 7 posts"
+      ]
+    },
     {
       "date": "2026-11-07",
       "status": "ok",
