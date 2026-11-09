@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,60 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-09",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Sunday, Nov 8) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched article page title, Nov 8 ET publish date confirmed on the page). Sources checked: RSS from ARLnow, FFXnow, ALXnow, Annandale Today, Potomac Local, Blue Ridge Leader, WTOP local, Loudoun County news flash; Loudoun Now and Prince William Times homepages (their RSS returned HTTP 429; Loudoun Times-Mirror RSS also 429, news page showed no Nov 8 dates; Patch RSS returned 404); news.ts (no Nov 8 items). 10 candidate pages checked, 0 failed verification, 5 kept. Left out: WTOP National Veterans Parade (locality not stated in article), Maryland and D.C. items, non-local columns, sponsored content. Light Sunday news day.",
+      "items": [
+        {
+          "id": "firefighters-respond-to-house-fire-loudounnow-2026-11-08",
+          "county": "Loudoun",
+          "headline": "Firefighters Respond to House Fire; 4 Displaced",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/firefighters-respond-to-house-fire-4-displaced/article_2aa6a05a-9089-49e0-b38b-1585492fe7c2.html",
+          "published": "2026-11-08",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "marine-corps-museum-marks-its-20th-anniversary-pwt-2026-11-08",
+          "county": "Prince William",
+          "headline": "Marine Corps museum marks its 20th anniversary this week",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/marine-corps-museum-marks-its-20th-anniversary-this-week/article_28d353a0-2b7f-4b65-a16f-22a0dd627af6.html",
+          "published": "2026-11-08",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "photos-northern-virginia-veterans-parade-pwt-2026-11-08",
+          "county": "Prince William",
+          "headline": "PHOTOS: Northern Virginia Veterans Parade draws an patriotic crowd",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/photos-northern-virginia-veterans-parade-draws-an-patriotic-crowd/collection_76f6b5a8-9a0e-4c84-aa2a-4ec403fbdfcc.html",
+          "published": "2026-11-08",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "naresh-bhatt-expected-back-on-stand-wtop-2026-11-08",
+          "county": "Prince William",
+          "headline": "Naresh Bhatt expected back on stand as defense seeks to bolster claim he dismembered, but did not kill, his wife",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/naresh-bhatt-expected-back-on-stand-as-defense-seeks-to-bolster-claim-he-dismembered-but-did-not-kill-his-wife/",
+          "published": "2026-11-08",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "virginia-man-facing-charges-north-arlington-shootings-wtop-2026-11-08",
+          "county": "Arlington",
+          "headline": "Virginia man facing charges over string of North Arlington shootings, police say",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/virginia-man-facing-charges-over-string-of-north-arlington-shootings-police-say/",
+          "published": "2026-11-08",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-11-08",
       "status": "ok",
