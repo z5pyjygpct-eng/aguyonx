@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { DocPage, OpenQuestions } from "@/components/site/doc-page";
+import { DocPage } from "@/components/site/doc-page";
 import { FTM_TRANSCRIPTS } from "@/content/ftm-transcripts";
 
 export const Route = createFileRoute("/how-we-work")({
@@ -25,11 +25,6 @@ function Page() {
       <p>Articles and investigations list their sources. If you can’t see where a number came from, we leave it out.</p>
       <h2>Mistakes</h2>
       <p>If we get something wrong, tell us and we’ll fix it.</p>
-      <OpenQuestions items={[
-        "How should readers report a correction (email address or form)?",
-        "Should we name the machine that runs the transcription, or how often it runs?",
-        "Do budget pages need their own section on sources?",
-      ]} />
     </DocPage>
   );
 }
