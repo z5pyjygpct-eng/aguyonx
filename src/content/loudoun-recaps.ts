@@ -104,6 +104,7 @@ const ACTION_OCT14 =
   "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1976056/10-14-26%20Public%20Hearing%20Action%20Report.pdf";
 const ACTION_OCT20 =
   "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1976200/10-20-26%20Business%20Meeting%20Action%20Report.pdf";
+const ACTION_NOV5 = doc(2446);
 const OCT20_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=22e65f92-8862-46da-afba-f594bd09768a&Agenda=Agenda&lang=English`;
 const OCT14_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=7960f118-c668-45ef-a975-2362de95de1c&Agenda=Agenda&lang=English`;
 const OCT6_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=3a6eea40-36a8-49b2-9488-cedd456be4d9&Agenda=Agenda&lang=English`;
@@ -123,7 +124,7 @@ const boarddocsMeeting = (id: string) =>
 
 const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
 
-  // --- 2026-11-07 morning: Nov 5 BOS Business Meeting (Whisper transcript; Action Report not yet posted) ---
+  // --- 2026-11-07 morning / 2026-11-09 evening: Nov 5 BOS Business Meeting (Whisper transcript + Action Report memo dated Nov 9, eScribe DocumentId 2446) ---
   {
     slug: "bos-2026-11-05-business",
     shareEnabled: true,
@@ -133,17 +134,169 @@ const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
     dateLabel: "Thursday, Nov 5, 2026",
     whenWhere: "Board Room, Government Center, Leesburg · video 6h 16m",
     official: {
-      votesPosted: false,
-      checkedLabel: "Nov 7, 2026, 7:55 AM ET",
-      note: "The county has not posted the Action Report or minutes for this meeting yet. Votes and outcomes will be added only from that official record; nothing is taken from the video or transcript.",
+      votesPosted: true,
+      checkedLabel: "Nov 9, 2026, 4:40 PM ET",
+      note: "Votes and outcomes below are taken from the county Action Report (memo dated Nov 9, 2026).",
       links: [
         { label: "Agenda (eScribe)", href: "https://pub-loudoun.escribemeetings.com/Meeting.aspx?Id=e3f455d0-966e-4b24-8d8d-cd5a02f4721c&Agenda=Agenda&lang=English" },
+        { label: "Action Report (PDF)", href: ACTION_NOV5 },
         { label: "Meeting video (eScribe)", href: "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=e3f455d0-966e-4b24-8d8d-cd5a02f4721c" },
         { label: "County document folder for Board meetings", href: LASERFICHE_BOS },
       ],
     },
-    decisions: [],
-    context: [],
+    decisions: [
+      {
+        item: "4",
+        action:
+          "Consent agenda approved (7a, 7b, 7c, 7d, 11a, 11b, 11c, 11d, 11e, 11f, 14a, 14c, 14d, and 14e). Consent items include ceremonial resolutions and proclamations (Loudoun Freedom Center Museum at Union Street; America Recycles Day, November 15, 2026; 60th anniversary of the Committee for Dulles; and Diwali 2026), Finance/GOED Committee contract and endorsement items, appointments confirmations, the Administrative Items Report, a Resolution of Intent to Amend the Facilities Standards Manual (DOAM-2026-0004), and authorization to advertise amendments to Chapter 466 (Operation of Vehicles) for a December 9, 2026 public hearing.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "11.a",
+        action:
+          "Job Order Contract for General Construction Work renewed with Nichols Contracting, Inc., Howard Shockey & Sons, Inc., S-Works Construction Corporation, and Weston Solutions, Inc. for February 1, 2027, through January 31, 2028, in an amount not to exceed $10,000,000. Consent item.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "11.b",
+        action:
+          "Contract awarded to San Jose Construction Group, Inc. for Brambleton West Park Improvements in the total amount of $8,872,300, and the FY 2027 Capital Improvement Program amended by moving $4,207,727 from the CIP Contingency account to the Brambleton West Park Improvement project in the Capital Projects Fund. Consent item.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "11.c",
+        action:
+          "Contract awarded to Nichols Contracting, Inc. for construction of Arcola Quarters for the Enslaved in the total amount of $11,800,000. Consent item.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "11.d",
+        action:
+          "Location and major design elements of the Franklin Park to Purcellville Trail project endorsed; staff directed to proceed with final design and construction documents. Consent item.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "11.e",
+        action:
+          "Location and major design elements of the Montresor Road Sidewalk project endorsed; staff directed to proceed with final design and construction documents. Consent item.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "11.f",
+        action:
+          "Lakeside II space plan and departmental allocation endorsed for consolidating Health and Human Services operations in the Eastern Region; staff authorized to proceed with final design documents. Consent item.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "11.g",
+        action:
+          "FY 2027 supplemental appropriation for Loudoun County Public Schools: $6,700,000 of additional state revenue appropriated, with matching expenditure authority in the Schools Operating Fund; FY 2026 year-end fund balance of $13,500,000 appropriated in the General Fund, the payment to the School Division increased by the same amount, and $13,500,000 of Local Tax Funding appropriated in the Schools Operating Fund with matching expenditure authority.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.a",
+        action:
+          "Appointments confirmed: Adnan Mamoon as the Loudoun County Public Schools Representative on the Fiscal Impact Committee (term expires December 31, 2027), nominated by the School Board; and Eileen Shaffer as the Disability Services Board Representative on the Housing Advisory Board (term expires December 31, 2030), nominated by the Disability Services Board. Consent item.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.c",
+        action:
+          "Administrative Items Report of November 5, 2026, approved. The report includes FY 2027 budget adjustments increasing the General Fund by $1,083,845, the State and Federal Grant Fund by $200,000, the Public Facilities Fund by $18,342, the Transportation District Fund by $18,342, and the Capital Projects Fund by $311,490; the revised 2026 Board meeting calendar; approval of minutes (Attachments 1 through 3); authorization to move $3,930,904.67 from multiple completed LCPS capital projects (Waxpool Elementary School, C.S. Monroe Conversion, Lucketts Wastewater Facility, Division Security Improvements, School Security Vestibules, Elementary School Classroom Additions at Catoctin Elementary and Hutchinson Farm Elementary, Douglass School, and Henrietta Lacks Elementary School) to the Vocation, Independence, Employment, and Work Readiness Transition Academy and to close those projects, plus $20,039,095.33 from the LCPS CIP Contingency Account to that Academy project; appropriation of $525,444.09 in cash proffer contributions to the Loudoun County Parkway project; and rescinding Northern Virginia Transportation Authority regional 70 percent revenue of $12,823,585 from the Loudoun County Parkway project and $5,953,115.46 from the Loudoun County Parkway – Dulles West Boulevard to Route 50 project, closing both projects. Consent item.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.d",
+        action:
+          "Resolution of Intent to Amend the Loudoun County Facilities Standards Manual adopted (DOAM-2026-0004, standards for gated residential communities), as provided in Attachment 1 to the Action Item. Consent item.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.e",
+        action:
+          "Staff authorized to advertise and schedule a December 9, 2026, public hearing on proposed amendments to Chapter 466 of the Codified Ordinances (Operation of Vehicles), which would permit reducing the speed limit on any highway, including those in the state highway system, with an existing posted speed limit of 25 miles per hour to 20 or 15 miles per hour, as outlined in Attachment 1 to the Action Item. Consent item.",
+        tally: "7-0-2 (Supervisors Letourneau and Saines absent)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.f (Motion 1)",
+        action:
+          "Policy statement added to the 2027 Legislative Program: support legislation removing electric utilities’ legal obligation to deliver power to High Energy Use Facility customers (over 100 megawatts) that have been approved administratively or legislatively in Planning District 8 if the jurisdiction’s local power grid is constrained, no viable high voltage transmission line route exists to energize the customer, or if there is a backlog of electric service agreements for more than 3 years. Vice Chair Turner’s friendly amendment changing “and/or” to “or” was accepted.",
+        tally: "8-1 (Supervisor Umstattd opposed)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.f (Motion 2)",
+        action:
+          "The following statement temporarily removed from the program: “Collective Bargaining: The Board is supportive of employees’ right to unionize. The County supports collective bargaining legislation that protects local government authority, including management rights and financial control, and the flexibility to tailor agreements to the needs of the locality and its employees.”",
+        tally: "9-0",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.f (Motion 3)",
+        action:
+          "Draft 2027 Legislative Program (Attachment 1) and the Legislative Initiative on Reproductive Rights (Attachment 2) endorsed as amended at this meeting, and staff directed to advertise both for the December 9, 2026, Board of Supervisors Public Hearing.",
+        tally: "7-2 (Supervisors Kershner and Letourneau opposed)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.g",
+        action:
+          "LEGI-2025-0012, Golden Substation (SPEX-2025-0032, SPEX-2025-0033, and SPEX-2025-0137) approved, subject to the Conditions of Approval dated July 10, 2026, and based on the Findings for Approval provided as Attachments 1 and 2 to the Action Item.",
+        tally: "6-3 (Supervisors Briskman, Randall, and TeKrony opposed)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.h (Motion 1)",
+        action:
+          "2028–2031 Board of Supervisors Term Compensation Structure adopted as depicted in Table 1 of the Action Item, except the Chair At-Large, after the Chair’s compensation was split from the original motion without objection.",
+        tally: "5-4 (Supervisors Kershner, Letourneau, Randall, and Umstattd opposed)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.h (Motion 2)",
+        action:
+          "Substitute motion adopted for the 2028–2031 Chair At-Large Term Compensation Structure: $114,434.27 in 2028, $117,867.30 in 2029, $121,403.32 in 2030, and $125,045.42 in 2031. The substitute replaced a motion to adopt the Chair At-Large compensation as depicted in Table 1.",
+        tally: "5-2-2 (Supervisors Letourneau and Umstattd opposed; Supervisors Briskman and Randall abstained)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        item: "14.i",
+        action:
+          "Staff directed to attach a Project Labor Agreement to any new construction contract or bid that costs $40,000,000 or more, as outlined in the Action Item. Chair Randall accepted Supervisor Briskman’s friendly amendment to specify “new” construction contracts or bids, and did not accept Supervisor Kershner’s friendly amendment to remove horizontal projects.",
+        tally: "7-2 (Supervisors Kershner and Letourneau opposed)",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+    ],
+    context: [
+      {
+        text: "The Action Report notes Supervisor Saines arrived at 5:19 p.m. and Supervisor Letourneau arrived at 5:27 p.m., after the first closed-session motion, which passed 7-0-2 with those two members absent.",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        text: "Item 14.b records nominations only (no vote): Supervisor Kershner nominated Jonathan Wymer as an at-large representative to the Arts Advisory Committee, and Chair Randall nominated Alice Frazier for reappointment as an at-large representative to the Economic Development Authority.",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        text: "Under item 14.f, the Action Report records Supervisor Briskman requested that Virginia Department of Transportation Traffic Calming guidelines include communication between paving crews and signalization crews regarding bike lanes; that the Legislative Committee review the Governor’s data center framework; and that the Legislative Committee review the Northern Virginia Aging Network 2027 Legislative Priorities. Supervisor Umstattd requested that staff provide additional information regarding all possible energy sources.",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+      {
+        text: "Two closed sessions considered acquisition of property for public use, first in the Catoctin Election District (entry vote 7-0-2, Supervisors Letourneau and Saines absent) and then in the Broad Run and Sterling Election Districts (entry vote 9-0). The Action Report states that no formal action was taken in either closed session; both certifications passed 9-0 by roll call.",
+        source: { label: "Nov 5, 2026 Action Report", href: ACTION_NOV5 },
+      },
+    ],
     agenda: [
       {
         heading: "Ceremonial resolutions and proclamations",
