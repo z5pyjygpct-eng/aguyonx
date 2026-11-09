@@ -56,6 +56,16 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "virginia-localities-rethink-license-plate-readers-vamercury-2026-11-09",
+    date: "2026-11-09",
+    filed: "2026-11-09",
+    headline: "Virginia localities rethink use of license plate readers amid privacy concerns, report states",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/09/virginia-localities-rethink-use-of-license-plate-readers-amid-privacy-concerns-report-states/",
+    people: [],
+    scope: "statewide",
+  },
+  {
     id: "firefighters-respond-to-house-fire-loudounnow-2026-11-08",
     date: "2026-11-08",
     filed: "2026-11-09",
