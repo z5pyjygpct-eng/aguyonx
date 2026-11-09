@@ -2,7 +2,7 @@
 """Build the /2027 election data (preview draft) from VPAP + official ballot calendars.
 
 Writes one JSON per office type to src/lib/:
-  elections-2027-house.json, elections-2027-senate.json, elections-2027-sb.json, elections-2027-bos.json
+  elections-2027-house.json, elections-2027-senate.json, elections-2027-sb.json, elections-2027-bos.json, elections-2027-co.json
 
 Sources (fetched live; nothing typed in by hand except the ballot-calendar facts in LOCALITIES, each with its URL):
   - VPAP statewide candidate lists:  https://www.vpap.org/elections/{house,senate}/candidates/general/
@@ -11,9 +11,10 @@ Sources (fetched live; nothing typed in by hand except the ballot-calendar facts
     and each seat's elections.json
 Rules: a candidate, party or incumbent flag appears only if a fetched source says so; every record keeps its source URL.
 Adding a locality = add an entry to LOCALITIES and re-run.
-Usage: python3 tools/elections-2027/build.py
+Usage: python3 tools/elections-2027/build.py        (all five files)
+       python3 tools/elections-2027/build.py co     (constitutional officers only)
 """
-import datetime as dt, html, json, re, subprocess, time
+import datetime as dt, html, json, re, subprocess, sys, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -25,6 +26,13 @@ ELECT_BOS = "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_
 ELECT_CSB = "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf"
 ELECT_CC = "https://www.elections.virginia.gov/media/boardpapers/calendar/CityCncl26-31-November.pdf"
 ELECT_CITYSB = "https://www.elections.virginia.gov/media/boardpapers/calendar/CITY-SCHOOL-BOARD-ELECTIONS.pdf"
+ELECT_5YR = "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf"
+VACODE_217 = "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-217/"
+LOUDOUN_CO = "https://www.loudoun.gov/89/Constitutional-Officers"
+ALBEMARLE_CO = "https://www.albemarle.org/government/elections/elected-officials"
+ALBEMARLE_ACFR = "https://www.albemarle.org/home/showpublisheddocument/16768/638126655293930000"
+FAIRFAX_CITY_CO = "https://www.fairfaxva.gov/Government/Council/All-Elected-Officials"
+MANASSAS_CO = "https://www.manassasva.gov/voter_registration_and_elections/elected_officials.php"
 
 # Ballot facts per locality (from the official calendars above). VPAP supplies the seats and filings.
 LOCALITIES = [
@@ -46,6 +54,41 @@ LOCALITIES = [
      "sb": {"label": "School Board", "on_2027": True, "ballot_source": ELECT_CSB, "seats": ["school-board-19"],
             "note": "Staggered terms: At-Large, Rivanna, Scottsville and White Hall are up in 2027; Jack Jouett, Rio and Samuel Miller in 2029."}},
 ]
+# Constitutional officers (Va. Const. art. VII sec. 4; Va. Code 24.2-217). Counties elect sheriff, commonwealth's attorney, treasurer and
+# commissioner of the revenue in 2027 (4-year terms); clerks of the circuit court are 8-year terms (counties 2023 -> 2031). Cities elect the
+# four offices in 2025/2029 unless they share the office with a county, in which case city voters vote on the county's 2027 schedule.
+# "offices" = races on the Nov. 2, 2027 ballot ("vpap" = the VPAP locality whose race city voters vote in, when shared);
+# "off_cycle" = offices in the locality that are NOT on the 2027 ballot, each with the source that says so. Every entry below was checked
+# against the locality's own page; anything that couldn't be verified is left out (see the build report).
+SHERIFF = ("Sheriff", "sheriff-11")
+CA = ("Commonwealth's Attorney", "commonwealths-attorney-15")
+TREAS = ("Treasurer", "treasurer-12")
+COR = ("Commissioner of the Revenue", "commissioner-of-the-revenue-14")
+CLERK_2031 = {"office": "Clerk of the Circuit Court", "next": "Nov. 2031 (8-year term)", "source_url": VACODE_217}
+CO = {
+    "loudoun": {"on_2027": True, "ballot_source": ELECT_5YR, "ballot_source_label": "ELECT calendar", "vpap": "loudoun-county-va",
+                "offices": [SHERIFF, CA, TREAS, COR],
+                "off_cycle": [{**CLERK_2031, "source_url": LOUDOUN_CO}],
+                "note": "Loudoun elects all four four-year constitutional offices in 2027. The Clerk of the Circuit Court has an eight-year term.",
+                "note_source": LOUDOUN_CO},
+    "albemarle": {"on_2027": True, "ballot_source": ELECT_5YR, "ballot_source_label": "ELECT calendar", "vpap": "albemarle-county-va",
+                  "offices": [SHERIFF, CA],
+                  "off_cycle": [{**CLERK_2031, "source_url": ALBEMARLE_CO},
+                                {"office": "Treasurer and Commissioner of the Revenue", "next": "not elected in Albemarle (county-executive form; an appointed finance director holds both roles)", "source_url": ALBEMARLE_ACFR}],
+                  "note": "Albemarle elects a sheriff and a commonwealth's attorney.", "note_source": ALBEMARLE_CO},
+    "fairfax-city": {"on_2027": True, "ballot_source": FAIRFAX_CITY_CO, "ballot_source_label": "City of Fairfax", "vpap": "fairfax-county-va",
+                     "offices": [SHERIFF, CA],
+                     "off_cycle": [{"office": "Treasurer and Commissioner of the Revenue", "next": "Nov. 2029 (terms expire Dec. 31, 2029)", "source_url": FAIRFAX_CITY_CO},
+                                   {**CLERK_2031, "source_url": FAIRFAX_CITY_CO}],
+                     "note": "City voters vote in the Fairfax County races for sheriff and commonwealth's attorney (shared offices, terms expire Dec. 31, 2027).",
+                     "note_source": FAIRFAX_CITY_CO},
+    "manassas": {"on_2027": True, "ballot_source": MANASSAS_CO, "ballot_source_label": "City of Manassas", "vpap": "prince-william-county-va",
+                 "offices": [SHERIFF, CA],
+                 "off_cycle": [{"office": "Treasurer and Commissioner of the Revenue", "next": "Nov. 2029", "source_url": MANASSAS_CO},
+                               {**CLERK_2031, "source_url": MANASSAS_CO}],
+                 "note": "City voters vote in the Prince William County races for sheriff and commonwealth's attorney (shared offices, next election 2027).",
+                 "note_source": MANASSAS_CO},
+}
 PARTY = {"D": "D", "R": "R"}
 # Sourced corrections layered on VPAP (race id -> note, source, and names whose VPAP incumbent flag is out of date).
 RACE_NOTES = {
@@ -65,6 +108,7 @@ def get(url, referer=VPAP + "/", accept="text/html"):
     key = CACHE / (AS_OF + "-" + re.sub(r"[^A-Za-z0-9]+", "_", url)[-150:])
     if key.exists():
         return key.read_text()
+    time.sleep(3)  # VPAP rate-limits bursts (403); pace uncached fetches
     body = _fetch(url, referer, accept)
     key.write_text(body)
     return body
@@ -163,12 +207,41 @@ def local(office):
                                   "body": b["label"], "seat": seat, "seats": e["number_of_seats"], "vpap_url": page, "candidates": cands})
     return races, none
 
-def main():
-    house = chamber("house", 100, "HD")
-    senate = chamber("senate", 40, "SD")
-    for name, data in (("house", house), ("senate", senate)):
-        (OUT / f"elections-2027-{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
-    for office in ("sb", "bos"):
+def constitutional():
+    """Constitutional-officer races on the Nov. 2, 2027 ballot, per locality in LOCALITIES (config in CO). Candidates come only from VPAP's
+    tracked 2027 elections; a seat VPAP doesn't track yet is a blank seat. VPAP's 'untracked_districts' (old campaign committees) are NOT filings and are ignored."""
+    races = []
+    for L in LOCALITIES:
+        c = CO[L["id"]]
+        base = f"{VPAP}/localities/{c['vpap']}/elections/"
+        seats = {x["slug"]: x for x in json.loads(get(base + "seats.json", referer=base, accept="application/json"))["seats"]}
+        for label, slug in c["offices"]:
+            assert slug in seats, (L["id"], slug)
+            d = json.loads(get(seats[slug]["data_url"].replace(":443", ""), referer=base, accept="application/json"))
+            cands, page = [], base
+            for te in d["tracked_elections"]:
+                if te["date"] != "2027-11-02":
+                    continue
+                assert d["selected_year_and_type"] == "2027regular", (L["id"], slug, d["selected_year_and_type"])
+                for e in te["elections"]:
+                    page = VPAP + e["election_url"]
+                    for x in e["candidates"]:
+                        m = re.match(r"^(.*?)\s*\((D|R|I|L|G)\)$", x["name"])
+                        nm, p = (m.group(1), m.group(2)) if m else (x["name"], None)
+                        cands.append({"name": nm, "incumbent": bool(x["is_incumbent"]), "filing_source_url": page,
+                                      "party": PARTY.get(p, "Other") if p else None, "party_source_url": page if p else None})
+            races.append({"id": f"{L['id']}-{re.sub(r'[^a-z0-9]+', '-', label.lower()).strip('-')}", "locality": L["name"], "locality_id": L["id"],
+                          "body": "Constitutional Officers", "seat": label, "seats": 1, "vpap_url": page, "candidates": cands})
+    return races
+
+def main(only=None):
+    """only='co' rebuilds just the constitutional-officers file (leaves the other four untouched)."""
+    if only is None:
+        house = chamber("house", 100, "HD")
+        senate = chamber("senate", 40, "SD")
+        for name, data in (("house", house), ("senate", senate)):
+            (OUT / f"elections-2027-{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
+    for office in (("sb", "bos") if only is None else ()):
         races, none = local(office)
         locs = [{"id": L["id"], "name": L["name"], "kind": L["kind"], "body": L[office]["label"], "on_2027": L[office]["on_2027"],
                  "ballot_source_url": L[office]["ballot_source"], **({"note": L[office]["note"]} if L[office].get("note") else {}),
@@ -179,10 +252,17 @@ def main():
             data["nonpartisan_note"] = "VPAP does not display party identification for school board elections; Virginia law (§ 22.1-57.3(E)) has no party nomination process for school board."
             data["nonpartisan_source_url"] = "https://law.lis.virginia.gov/vacode/title22.1/chapter5/section22.1-57.3/"
         (OUT / f"elections-2027-{office}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
-    for f in ("house", "senate", "sb", "bos"):
+    co_locs = [{"id": L["id"], "name": L["name"], "kind": L["kind"], "body": "Constitutional Officers", "on_2027": CO[L["id"]]["on_2027"],
+                "ballot_source_url": CO[L["id"]]["ballot_source"], "ballot_source_label": CO[L["id"]]["ballot_source_label"],
+                "note": CO[L["id"]]["note"], "note_source_url": CO[L["id"]]["note_source"],
+                "off_cycle": [{"office": o["office"], "next": o["next"], "source_url": o["source_url"]} for o in CO[L["id"]]["off_cycle"]]} for L in LOCALITIES]
+    co = {"office": "co", "election": "2027-11-02", "as_of": AS_OF, "source_url": f"{VPAP}/elections/local/", "ballot_source_url": ELECT_5YR,
+          "terms_source_url": VACODE_217, "localities": co_locs, "races": constitutional(), "no_2027": []}
+    (OUT / "elections-2027-co.json").write_text(json.dumps(co, indent=1, ensure_ascii=False) + "\n")
+    for f in ("house", "senate", "sb", "bos", "co"):
         d = json.loads((OUT / f"elections-2027-{f}.json").read_text())
         c = [x for r in d["races"] for x in r["candidates"]]
         print(f, "races", len(d["races"]), "cands", len(c), {p: sum(1 for x in c if x.get("party") == p) for p in ("D", "R", "Other", None)}, "inc", sum(x["incumbent"] for x in c))
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1] if len(sys.argv) > 1 else None)
