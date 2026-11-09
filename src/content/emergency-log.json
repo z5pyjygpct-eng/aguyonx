@@ -1,6 +1,1580 @@
 {
   "entries": [
     {
+      "datetime": "2026-11-09T06:15:00-05:00",
+      "regions": {
+        "America": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Armed Venezuelan national arrested near White House",
+            "location": "Near the White House, Washington, D.C.",
+            "type": "Other",
+            "summary": "Prior reporting stands: Venezuelan national Ronny Yordrix Guanipa Chrinos was arrested near the White House with firearms in a stolen vehicle, per DHS and ABC. No new primary DHS or wire statement found this window; the story remains in routine follow-up coverage.",
+            "status": "Suspect in custody and charged; stabilized; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/ABC/status/2119068196770656403",
+                "label": "ABC: Venezuelan national arrested near White House with firearms"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Lakewood, CO — Agent Nicholas Graham killed in line of duty",
+            "location": "Lakewood, Colorado",
+            "type": "Other",
+            "summary": "Lakewood Police continue to mourn Agent Nicholas Graham, 33, killed in the line of duty. No new official Lakewood PD statement was found this window.",
+            "status": "Unchanged; stabilized; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/LakewoodPDCO/status/2118862842862727430",
+                "label": "Lakewood PD: Agent Nicholas Graham killed in line of duty"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Guatemalan opposition lawmaker Julio Portillo and three police officers killed",
+            "location": "Zacapa, Guatemala",
+            "type": "Terror",
+            "summary": "CNN en Español, AFP and Reuters previously reported that opposition lawmaker Julio Portillo and three police officers were killed in an armed attack in Zacapa. No arrests or confirmed motive found this window.",
+            "status": "Confirmed; motive unknown; no material change; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/CNNEE/status/2119195705000570971",
+                "label": "CNN en Español: diputado y tres policías muertos"
+              },
+              {
+                "url": "https://x.com/AFP/status/2119120228487512561",
+                "label": "AFP: lawmaker Julio Portillo and three police killed"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119082624127815913",
+                "label": "Reuters: Guatemalan lawmaker, three police killed"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Queens Public Library ransomware outage",
+            "location": "Queens, New York",
+            "type": "Cyber",
+            "summary": "Queens Public Library services remain disrupted by a ransomware attack. No restoration announcement found this window.",
+            "status": "Ongoing; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/Gothamist/status/2118399313994740088",
+                "label": "Gothamist: Queens Public Library online system downed by ransomware"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Pacific Northwest storm outages — Washington and British Columbia restorations continue",
+            "location": "Washington state, and British Columbia (Chemainus / Thetis Island, Bella Coola, Pemberton)",
+            "type": "Power Outage",
+            "summary": "Prior reporting stands: FOX Weather said nearly 50,000 residents were without power across Washington state, and BC Hydro reported localized outages in Chemainus/Thetis Island, Bella Coola and near Pemberton. Seattle City Light's most recent official total found remains its 12:10 AM PT update of about 29,000 customers across 167 events. No newer utility totals were found this window, and no critical-site impact has been reported.",
+            "status": "Weather-driven restorations; no material new utility update this window; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/foxweather/status/2119459934198997022",
+                "label": "FOX Weather: nearly 50,000 without power across Washington"
+              },
+              {
+                "url": "https://x.com/bchydro/status/2119459837029277843",
+                "label": "BC Hydro: 3,320 customers out in Chemainus, Thetis Island and nearby"
+              },
+              {
+                "url": "https://x.com/bchydro/status/2119456044766142605",
+                "label": "BC Hydro: 1,314 customers out in Bella Coola and nearby"
+              },
+              {
+                "url": "https://x.com/bchydro/status/2119451841935118756",
+                "label": "BC Hydro: 504 customers out near Pemberton, restoration expected by noon"
+              },
+              {
+                "url": "https://x.com/SEACityLight/status/2119341865740677617",
+                "label": "Seattle City Light: 12:10 AM update, ~29,000 customers, 167 events"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: One killed, three wounded in two shootings at Winston-Salem State University during homecoming",
+            "location": "Winston-Salem, North Carolina",
+            "type": "Other",
+            "summary": "NBC Connecticut reports one person was killed and three were wounded in shootings on the Winston-Salem State University campus Saturday night during homecoming weekend. Other outlets report the university canceled remaining homecoming events. No arrests or motive were found in this sweep.",
+            "status": "Confirmed by established outlet; police investigating; localized; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/NBCConnecticut/status/2119474027269865608",
+                "label": "NBC Connecticut: 1 killed, 3 wounded in shootings on WSSU campus"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "Election watch: no official voting-location or canvass-site disruptions found this window",
+            "location": "United States",
+            "type": "Election",
+            "summary": "Searches this window for polling-place, election-office and canvass disruption reports (closures, outages, evacuations, threats) returned no credible official reports of new disruptions. Nothing is logged as an election disruption.",
+            "status": "Clear this window; no official voting-location disruptions found",
+            "links": []
+          }
+        ],
+        "Europe": [
+          {
+            "severity": "HIGH",
+            "title": "UPDATE: Kraków shooting — gunman died in hospital; CBS says authorities describe him as holding far-right views",
+            "location": "Main Market Square, Kraków, and Ostrowiec Świętokrzyski, Poland",
+            "type": "Terror",
+            "summary": "AP, BBC, Sky News, AFP and Al Jazeera report that Polish police say the 24-year-old gunman, who killed six people and wounded 15 in Kraków's Main Market Square on Saturday, has died in hospital. Anadolu says the victims were four women and two men and that prosecutors have opened a terrorism investigation. Al Hadath reports police found the bodies of the attacker's parents and sister at his home. AFP says authorities described him as \"fascinated by far-right ideologies\"; the motive assessment remains preliminary.",
+            "status": "Attacker dead; terrorism investigation continues; national mourning in effect; motive assessment preliminary; CBS and NBC confirmations added this window",
+            "links": [
+              {
+                "url": "https://x.com/CBSNews/status/2119737549618839673",
+                "label": "CBS News (verified): gunman died; authorities say he had far-right views"
+              },
+              {
+                "url": "https://x.com/NBCNews/status/2119726699877150914",
+                "label": "NBC News (verified): gunman in suspected far-right terror attack has died"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119706580421685643",
+                "label": "Reuters (verified): Kraków gunman has died in hospital, police said"
+              },
+              {
+                "url": "https://x.com/AP/status/2119686254035870101",
+                "label": "AP (verified): Kraków gunman died in hospital, police say"
+              },
+              {
+                "url": "https://x.com/BBCBreaking/status/2119678036064796776",
+                "label": "BBC Breaking News (verified): gunman has died in hospital"
+              },
+              {
+                "url": "https://x.com/SkyNews/status/2119678440139886940",
+                "label": "Sky News (verified): gunman died in hospital"
+              },
+              {
+                "url": "https://x.com/AFP/status/2119679091188134367",
+                "label": "AFP News Agency: gunman has died, police report"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119682572951388443",
+                "label": "Al Jazeera English (verified): gunman has died"
+              },
+              {
+                "url": "https://x.com/anadoluagency/status/2119680530631303232",
+                "label": "Anadolu English (verified): gunman died; terrorism probe opened"
+              },
+              {
+                "url": "https://x.com/ABC/status/2119683776175309169",
+                "label": "ABC News (verified): suspect died in hospital"
+              },
+              {
+                "url": "https://x.com/AlHadath/status/2119686786821550512",
+                "label": "Al Hadath (verified): parents' and sister's bodies found at attacker's home"
+              },
+              {
+                "url": "https://x.com/AFP/status/2119664239619059979",
+                "label": "AFP News Agency: terrorism probe; mourners at Main Market Square"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119648713886826806",
+                "label": "Reuters (verified): Poland begins two days of national mourning"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Greek coast guard retrieves bodies of 12 migrants from a boat off Crete",
+            "location": "Off Crete, Greece",
+            "type": "Other",
+            "summary": "Reuters reports Greece's coast guard retrieved the bodies of 12 dead migrants from a boat sailing off Crete early on November 9, and that it was not immediately clear how they died. Al Hadath reports the bodies of 20 refugees have been found off Greece's coasts over two days after their boat sank.",
+            "status": "Official (coast guard) recovery reported by Reuters; cause of deaths unclear; figures differ between outlets; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119707829263093954",
+                "label": "Reuters (verified): bodies of 12 migrants retrieved off Crete"
+              },
+              {
+                "url": "https://x.com/AlHadath/status/2119708119940936049",
+                "label": "Al Hadath (verified): 20 refugee bodies found off Greece over two days"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Met Police say no security issues found after Chessington World of Adventures evacuation",
+            "location": "Chessington, south-west London / Surrey, United Kingdom",
+            "type": "Other",
+            "summary": "Hits Radio News and Greatest Hits Radio Surrey report that police received a threat against Chessington World of Adventures on Sunday morning, prompting an evacuation and early closure, and that the Metropolitan Police say no security issues have been identified and there is no wider risk to the public. The Independent and Metro earlier confirmed the evacuation, and BBC London said the A243 Leatherhead Road was closed and later reopened. No injuries were reported.",
+            "status": "Threat assessed; no security issues found; stabilized; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/HitsRadioNews/status/2119487143517036717",
+                "label": "Hits Radio News: Met Police say no security issues identified"
+              },
+              {
+                "url": "https://x.com/GHRSurrey/status/2119488150842085533",
+                "label": "Greatest Hits Radio Surrey: no wider risk to the public"
+              },
+              {
+                "url": "https://x.com/Independent/status/2119465327939449154",
+                "label": "The Independent: Chessington evacuated as police respond to incident"
+              },
+              {
+                "url": "https://x.com/MetroUK/status/2119443026955104496",
+                "label": "Metro: park abruptly closed after parkwide evacuation"
+              },
+              {
+                "url": "https://x.com/BBCLondonNews/status/2119424145251250196",
+                "label": "BBC London: A243 closed following a police incident"
+              },
+              {
+                "url": "https://x.com/BBCLondonNews/status/2119436486793720269",
+                "label": "BBC London: A243 reopened after police incident"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Police officer’s home destroyed by arson in Auch, France",
+            "location": "Auch, France",
+            "type": "Unrest",
+            "summary": "Interior Minister Laurent Nuñez said a police officer’s home in Auch was deliberately set on fire and destroyed, and that everything suggests the attack was because of the officer’s profession. Reuters carried the minister’s account. No material update found this window.",
+            "status": "Confirmed by interior minister; investigation underway; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/NunezLaurent/status/2119171905160991050",
+                "label": "Interior Minister Nuñez: Auch officer’s home burned"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119193219850293305",
+                "label": "Reuters: police officer’s home destroyed by fire"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "UPDATE: France cost-of-living protests — PM Lecornu holds talks; EU report says covert Russian network exploited riots online",
+            "location": "Paris and nationwide, France",
+            "type": "Unrest",
+            "summary": "Al Jazeera English previously reported police clashed with protesters in Paris as Yellow Vests defied a ban, with two coordinators arrested, and at least 146,000 people marching across France against the cost of living for a fourth straight week. No verified new nationwide casualty or arrest totals from wires were found this window. Reuters reports Prime Minister Lecornu is holding talks over protesters' cost-of-living concerns, and, in an exclusive, that an EU report says a covert Russian network exploited the French riots on social media.",
+            "status": "Ongoing; government talks under way; EU report findings reported by Reuters, not independently verified",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119744328952132053",
+                "label": "Reuters (verified): French PM Lecornu holds talks over cost-of-living concerns"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119743061504798941",
+                "label": "Reuters (verified) exclusive: covert Russian network exploited French riots, EU report says"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119188300003160361",
+                "label": "Al Jazeera English: Yellow Vests defy ban; 146,000 marched"
+              },
+              {
+                "url": "https://x.com/FoxNews/status/2119195006833480086",
+                "label": "Fox News: tear gas and clashes in Paris"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Tirana clashes — water cannon used on masked anti-government protesters",
+            "location": "Tirana, Albania",
+            "type": "Unrest",
+            "summary": "Anti-government protests in Tirana continue into a further week of demonstrations with prior reports of water cannon and tear gas. No verified wire posts with new casualty figures found this window.",
+            "status": "Ongoing; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119168008853782660",
+                "label": "Al Jazeera English: water cannon on masked protesters"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Belgian Finance Ministry cyberattack blocks new company registrations",
+            "location": "Belgium",
+            "type": "Cyber",
+            "summary": "No material update found this window on the Belgian Finance Ministry cyberattack that had been blocking new company registrations.",
+            "status": "Unchanged; prior reporting stands; carried forward from 4:15 AM ET, no newer change found",
+            "links": []
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Ransomware group claims Maersk logistics-platform data",
+            "location": "Europe / global logistics",
+            "type": "Cyber",
+            "summary": "Leak-site trackers continue to circulate a “whitearmor” ransomware claim against Maersk. Maersk has not confirmed the claim in posts found this window.",
+            "status": "Unconfirmed claim; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/LandscapeThreat/status/2119197794191978732",
+                "label": "LandscapeThreat: whitearmor Maersk claim tracker"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Italian FM Tajani personal data leaked on dark web; Europe bomb-hoax wave",
+            "location": "Italy / Europe",
+            "type": "Cyber",
+            "summary": "No material change found this window on the Tajani dark-web data leak. Background continues on Friday’s Irish media bomb-hoax evacuations ahead of the Nov 12 European Political Community summit in Dublin, and on reporting that European intelligence services are investigating whether Russia or pro-Kremlin groups were behind coordinated bomb threats against passenger flights; no attribution has been established.",
+            "status": "Ongoing context; low change; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/NewVoiceUkraine/status/2119278990766821848",
+                "label": "NV, citing FT: Europe probes possible Russian link to flight bomb threats"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Reuters — G7 ministers to discuss recent cyber attacks, Italy says",
+            "location": "G7 / Italy",
+            "type": "Cyber",
+            "summary": "Reuters reports that Italy said G7 ministers will discuss recent cyber attacks. The post does not specify which incidents; it comes amid recent European items already in this log, including the Belgian Finance Ministry cyberattack and a European bomb-hoax wave.",
+            "status": "Official diplomatic response announced; details not specified; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119477588531843364",
+                "label": "Reuters: G7 ministers to discuss recent cyber attacks"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: France opens investigation into bomb threats against European aircraft; threats reached 13 countries",
+            "location": "France and wider Europe",
+            "type": "Other",
+            "summary": "Al Hadath reports France opened an investigation to identify those behind bomb threats targeting European aircraft, after the wave extended to 13 countries. Secondary accounts cite a Sunday Times report that Irish security sources suspect Russian involvement. I did not find a primary Irish or EU official statement in this sweep, so the attribution is unconfirmed.",
+            "status": "Investigation opened; attribution unconfirmed; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AlHadath/status/2119533685531656429",
+                "label": "Al Hadath: France opens probe as threats spread to 13 countries"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Brenner Base Tunnel builder BBT SE confirms cyberattack; Everest group claim unverified",
+            "location": "Austria / Italy (Brenner Base Tunnel project)",
+            "type": "Cyber",
+            "summary": "Security Affairs is covering a breach at Brenner Base Tunnel SE, the company building the rail tunnel between Austria and Italy, with the Everest group named. Posts citing the company say it was hit by a targeted cyberattack on October 17 and that no operations are affected; the tunnel is not yet in service.",
+            "status": "Company confirmation reported second-hand; extortion-group claim unverified; no operational impact reported; low urgency; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/securityaffairs/status/2119487119949214001",
+                "label": "Security Affairs (Pierluigi Paganini): BBT SE breach, Everest named"
+              },
+              {
+                "url": "https://x.com/securerail/status/2119316499798409598",
+                "label": "Secure Railways (unverified account): BBT SE says targeted cyberattack Oct 17, no operations affected"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "NEW: Estonia's interior minister urges Europe to treat Russian sabotage as state-sponsored terrorism, citing supermarket cyberattacks",
+            "location": "Estonia / Europe-wide",
+            "type": "Cyber",
+            "summary": "Kyiv Post reports Estonia's interior minister urged Europe to classify Russian sabotage as state-sponsored terrorism. It says the warning comes amid cyberattacks affecting nearly 100 supermarkets across Europe and a wider rise in suspected Russian-linked sabotage. Attribution of the supermarket attacks has not been officially confirmed in this window.",
+            "status": "Official statement reported by one established outlet; attribution unconfirmed",
+            "links": [
+              {
+                "url": "https://x.com/KyivPost/status/2119725505444467130",
+                "label": "Kyiv Post: Estonia urges classifying Russian sabotage as terrorism; ~100 supermarkets hit"
+              }
+            ]
+          }
+        ],
+        "Russia": [
+          {
+            "severity": "MEDIUM",
+            "title": "NEW: Russian attack on Odesa infrastructure facility kills three civilians",
+            "location": "Odesa, Ukraine",
+            "type": "Infrastructure",
+            "summary": "Kyiv Post reports three civilians, two women and a man, were killed in a Russian attack on Odesa, and another woman was hospitalized with severe injuries. It says the strike damaged a warehouse storing food supplies for kindergartens and schools, sparking a fire. SABC News reports the head of the city's military administration said an infrastructure facility was hit.",
+            "status": "Official (city military administration) figures relayed by established outlets",
+            "links": [
+              {
+                "url": "https://x.com/KyivPost/status/2119743215259513079",
+                "label": "Kyiv Post: three civilians killed in Russian attack on Odesa"
+              },
+              {
+                "url": "https://x.com/SABCNews/status/2119747082986635411",
+                "label": "SABC News: attack on Odesa infrastructure facility kills three, city official says"
+              },
+              {
+                "url": "https://x.com/NewsUkraineRBC/status/2119747506129269002",
+                "label": "RBC-Ukraine: Russia strikes Odesa infrastructure, people killed and injured"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: IAEA says off-site power restored to Zaporizhzhia nuclear plant",
+            "location": "Zaporizhzhia Nuclear Power Plant, Enerhodar, Russian-occupied Zaporizhzhia region, Ukraine",
+            "type": "Infrastructure",
+            "summary": "The IAEA says it has been informed that power has been restored to the Zaporizhzhia Nuclear Power Plant, ending the plant's 27th loss of off-site power since the conflict began. The plant had lost its connection to its sole remaining 330 kV line earlier Sunday and ran on emergency diesel generators. The cause of the outage has not been stated.",
+            "status": "Official statement issued; off-site power restored after about 10 hours on diesel (Kyiv Independent citing IAEA); stabilized, monitoring can scale back; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/KyivIndependent/status/2119598779812708364",
+                "label": "@KyivIndependent on X"
+              },
+              {
+                "url": "https://x.com/iaeaorg/status/2119504174429704501",
+                "label": "IAEA: power restored to ZNPP, ending 27th loss of off-site power"
+              },
+              {
+                "url": "https://x.com/iaeaorg/status/2119366872579625058",
+                "label": "IAEA: ZNPP lost all off-site power; diesel generators, about two weeks of fuel"
+              },
+              {
+                "url": "https://x.com/CGTNEurope/status/2119439111605915694",
+                "label": "CGTN Europe: IAEA says ZNPP again lost all off-site power"
+              },
+              {
+                "url": "https://x.com/NikkeiAsia/status/2119401722078490712",
+                "label": "Nikkei Asia: Zaporizhzhia plant again relies on backup power"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Ukrainian strike on Saratov oil refinery",
+            "location": "Saratov, Russia",
+            "type": "Infrastructure",
+            "summary": "No new official casualty or damage figures found this window. Prior reporting of a Ukrainian strike and fires at the Saratov Rosneft oil refinery stands.",
+            "status": "Unchanged; prior targeting confirmation stands; stabilized; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/StratcomCentre/status/2118990352979726804",
+                "label": "Ukraine Stratcom: Saratov refinery targeting (prior)"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Zelensky says Dnipro region reported on restoring power after overnight and morning strikes",
+            "location": "Dnipropetrovsk region (Dnipro, Pavlohrad, Kamianske and other communities), Ukraine; also Kharkiv and Zhytomyr regions",
+            "type": "Power Outage",
+            "summary": "President Volodymyr Zelensky said after a meeting with regional administration heads that the Dnipro region reported on restoring power following strikes overnight and this morning. His earlier post said more than 600,000 customers, including businesses and critical infrastructure, were without power at the peak and that supply was gradually being restored. The same meeting included a report on energy-system challenges in the Zhytomyr region and a task for the Ministry of Energy. No new peak or remaining-outage figure was given in the later post.",
+            "status": "Restoration under way; peak of 600,000+ stands; no completion time given; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/ZelenskyyUa/status/2119448597137662382",
+                "label": "Zelensky: Dnipro region reported on restoring power after overnight and morning strikes"
+              },
+              {
+                "url": "https://x.com/ZelenskyyUa/status/2119436762044936279",
+                "label": "Zelensky: 600,000+ customers out at peak; power gradually being restored"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119413392033378341",
+                "label": "Al Jazeera English: more than 600,000 without power in Dnipropetrovsk"
+              },
+              {
+                "url": "https://x.com/CBSNews/status/2119404567888576731",
+                "label": "CBS News: hundreds of thousands without power after Russian strikes"
+              },
+              {
+                "url": "https://x.com/ukrpravda_news/status/2119323108092105213",
+                "label": "Ukrainska Pravda: blackout, 600,000+ consumers without power"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Leningrad governor confirms drone strike in Kirishi industrial zone; fires reported at KINEF refinery",
+            "location": "Kirishi, Leningrad Oblast, Russia",
+            "type": "Infrastructure",
+            "summary": "Kyiv Post reports Leningrad region governor Alexander Drozdenko said 113 drones were downed overnight and confirmed a strike in Kirishi's industrial zone. Local residents reported several fires at the KINEF refinery, Russia's second-largest, with three processing units possibly hit, per Kyiv Post. RBC-Ukraine and Ukrainska Pravda also report fires at the refinery after the drone attack.",
+            "status": "Strike on industrial zone confirmed by regional governor; extent of refinery damage not officially confirmed; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/KyivPost/status/2119679927725236323",
+                "label": "Kyiv Post: governor confirms strike in Kirishi industrial zone; 113 drones downed"
+              },
+              {
+                "url": "https://x.com/ZMiST_Ua/status/2119681541492060495",
+                "label": "ZMiST (verified): KINEF attacked, multiple fires"
+              },
+              {
+                "url": "https://x.com/NewsUkraineRBC/status/2119685166482538516",
+                "label": "RBC-Ukraine: drones strike major refinery in Leningrad region"
+              },
+              {
+                "url": "https://x.com/ukrpravda_news/status/2119678770336665717",
+                "label": "Ukrainska Pravda: Russia's second-largest refinery attacked, fire"
+              },
+              {
+                "url": "https://x.com/KyivIndependent/status/2119643015576695021",
+                "label": "Kyiv Independent: drones struck KINEF refinery"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Zelensky says power, water and heating supply is very difficult in many cities, worst in Kyiv, Dnipro, Sumy, Donetsk regions and Kherson",
+            "location": "Kyiv and other regions, Ukraine",
+            "type": "Infrastructure",
+            "summary": "Zelensky said after a call with European Commission President Ursula von der Leyen that many Ukrainian cities and communities face a very difficult situation with power, water and heating because of Russian strikes, worst in Kyiv, the Dnipro, Sumy and Donetsk regions and Kherson. Ukrainska Pravda reports Zelensky said the EU will apply a special emergency-assistance mechanism for Ukraine. AFP previously reported Kyiv blackouts.",
+            "status": "Official statement issued; outages ongoing; no new consumer totals; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/ZelenskyyUa/status/2119701239654957331",
+                "label": "Zelensky (verified): power, water and heating situation very difficult"
+              },
+              {
+                "url": "https://x.com/ukrpravda_news/status/2119704692951265334",
+                "label": "Ukrainska Pravda: EU to apply emergency-assistance mechanism, Zelensky says"
+              },
+              {
+                "url": "https://x.com/AFP/status/2119652950532399547",
+                "label": "AFP: Kyiv plunges into darkness as power cuts bite"
+              },
+              {
+                "url": "https://x.com/ZelenskyyUa/status/2119436762044936279",
+                "label": "Zelensky: Kyiv contingency transport plans"
+              },
+              {
+                "url": "https://x.com/AlArabiya/status/2119290435545739710",
+                "label": "Al Arabiya: Kyiv plunged into darkness after renewed attacks on grid"
+              },
+              {
+                "url": "https://x.com/AlHadath/status/2119289023193587783",
+                "label": "Al Hadath: Russian attacks on power grids darken Kyiv"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Sky News — one person killed in a Ukrainian drone attack in western Russia; Moscow struck emergency workers on rescue missions",
+            "location": "Western Russia; rescue-mission location not named in the Sky News post",
+            "type": "Other",
+            "summary": "Sky News reports that one person has died after being hit by a Ukrainian drone attack in western Russia, and that Moscow has struck emergency workers on rescue missions. The post did not name the Russian locality, identify the victim, or give a casualty figure for the rescue-worker strike. No matching Reuters or AFP post, and no official Ukrainian emergency-service statement, was found in this sweep to add detail.",
+            "status": "Single established outlet; details limited; awaiting corroboration; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/SkyNews/status/2119458247530660244",
+                "label": "Sky News: one dead in Ukrainian drone attack in western Russia; Moscow struck rescue workers"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Hackers claim Rosstat breach and publish war-death data",
+            "location": "Russia (Rosstat, federal statistics agency)",
+            "type": "Cyber",
+            "summary": "Belarusian Cyber Partisans and a group calling itself Silent Crow say they breached Rosstat and published death-certificate data indicating roughly 390,000 to 450,000 war-linked military deaths through late August 2026. Analyst Janis Kluge has said the figures are in line with independent estimates. The scale of the intrusion and Rosstat’s official position could not be confirmed from a primary or wire source in this sweep.",
+            "status": "Hacker claim; independent confirmation pending; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/jakluge/status/2119111272986030166",
+                "label": "Janis Kluge: hackers publish Rosstat war-death data"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Moscow police detain about 200 people at Kitay-Gorod; detainees say they were offered military contracts",
+            "location": "Kitay-Gorod, Moscow, Russia",
+            "type": "Other",
+            "summary": "Meduza previously reported that Moscow police detained about 200 people at Kitay-Gorod and that detainees said they were offered military contracts. In a new report, Meduza says more than a hundred teenagers were detained in central Moscow on Saturday and quotes detainees disputing that only 'informals' (youth subculture members) were taken.",
+            "status": "Single-source report; no official comment found; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/meduzaproject/status/2119501898868797824",
+                "label": "Meduza: more than a hundred teenagers detained in central Moscow (Russian)"
+              },
+              {
+                "url": "https://x.com/meduzaproject/status/2119323484274729036",
+                "label": "Meduza: ~200 detained at Kitay-Gorod"
+              },
+              {
+                "url": "https://x.com/meduzaproject/status/2119348876947722731",
+                "label": "Meduza: follow-up report on Kitay-Gorod youth scene after the raid"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Rostov governor says Ukrainian drones hit a key bridge and power stations",
+            "location": "Rostov Oblast, Russia",
+            "type": "Infrastructure",
+            "summary": "The Kyiv Independent reports that the Rostov Oblast governor said Ukrainian drones hit a key bridge and power stations in the region. Drone debris reportedly damaged the bridge over the Mius River on a strategic road linking Rostov Oblast with Russian-occupied areas of Ukraine. No outage figures or casualties were given in the post.",
+            "status": "Official (regional governor) claim relayed by established outlet; damage extent unclear; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/KyivIndependent/status/2119491784699199815",
+                "label": "Kyiv Independent: drones hit bridge, power stations in Rostov Oblast"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "UPDATE: Kremenchuk drone strike — seven injured; Ukrainska Pravda says a rehabilitation center for disabled children was destroyed",
+            "location": "Kremenchuk, Poltava region, Ukraine",
+            "type": "Other",
+            "summary": "Bykvu reports seven people were injured in the Russian drone attack on Kremenchuk, including a 16-year-old boy hospitalized with serious injuries, and an apartment building was damaged. ZMiST reports a hotel was engulfed in flames and a high-rise residential building also caught fire.",
+            "status": "Confirmed strike; seven injured; no deaths reported; facility destruction reported by Ukrainian outlet",
+            "links": [
+              {
+                "url": "https://x.com/ukrpravda_news/status/2119728570373374020",
+                "label": "Ukrainska Pravda: rehabilitation center for children with disabilities destroyed in Kremenchuk"
+              },
+              {
+                "url": "https://x.com/Bykvu/status/2119675243857908037",
+                "label": "Bykvu: seven injured in Kremenchuk, including 16-year-old"
+              },
+              {
+                "url": "https://x.com/ZMiST_Ua/status/2119680497659805820",
+                "label": "ZMiST (verified): hotel and high-rise on fire after strike"
+              },
+              {
+                "url": "https://x.com/NewsUkraineRBC/status/2119542383910003013",
+                "label": "RBC-Ukraine: drones hit hotel and apartment building (earlier count: 4 injured)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Overnight Russian attack on Ukraine — RBC-Ukraine reports 317 drones; Odesa region energy hit",
+            "location": "Odesa region and other regions of Ukraine",
+            "type": "Power Outage",
+            "summary": "RBC-Ukraine reports Russia attacked Ukraine overnight with 317 drones, including 105 jet-powered UAVs. Anadolu reports Ukraine said seven people were injured in the Poltava region, while Moscow claims it downed 430 Ukrainian drones over 14 regions and Crimea. Earlier reports said energy facilities in the Odesa region were hit, causing outages.",
+            "status": "Ongoing; drone counts per Ukrainian outlet; Russian MoD figures unverified independently; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/NewsUkraineRBC/status/2119700769272389689",
+                "label": "RBC-Ukraine: 317 drones overnight including 105 jet-powered"
+              },
+              {
+                "url": "https://x.com/anadoluagency/status/2119714493483647419",
+                "label": "Anadolu (verified): 7 injured in Poltava region; Moscow claims 430 drones downed"
+              },
+              {
+                "url": "https://x.com/ukrpravda_news/status/2119685931045183975",
+                "label": "Ukrainska Pravda: 317 drones launched, 276 neutralized"
+              },
+              {
+                "url": "https://x.com/rbc_ukraine/status/2119679532294623521",
+                "label": "RBC-Ukraine: massive attack on Odesa region energy, outages"
+              },
+              {
+                "url": "https://x.com/SputnikInt/status/2119671147436400667",
+                "label": "Sputnik (Russian state media): MoD claims four substations hit"
+              },
+              {
+                "url": "https://x.com/MilitarySummary/status/2119553451764118005",
+                "label": "Military Summary: DTEK facility in northern Odesa region struck"
+              },
+              {
+                "url": "https://x.com/MilitarySummary/status/2119556756984709482",
+                "label": "Military Summary: Ukrenergo cites round-the-clock outages Monday"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Russian drones damage residential buildings in Khmelnytskyi, causing a fire",
+            "location": "Khmelnytskyi, Ukraine",
+            "type": "Other",
+            "summary": "Ukrainska Pravda reports Russian drones damaged residential buildings in Khmelnytskyi and started a fire. Casualty figures were not given.",
+            "status": "Single established outlet; details limited; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/ukrpravda_news/status/2119592911754912194",
+                "label": "@ukrpravda_news on X"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Drone hits energy workers' vehicle in Sumy; nine injured in Izium and Balakliia; Poltava children's center destroyed",
+            "location": "Sumy, Kharkiv and Poltava regions, Ukraine",
+            "type": "Infrastructure",
+            "summary": "Ukrainska Pravda reports a Russian drone attacked a vehicle carrying energy workers in Sumy, injuring three, one seriously, and that attacks on Izium and Balakliia injured nine. Kyiv Post reports a Russian drone strike destroyed a center for children with disabilities in the Poltava region.",
+            "status": "Reported by Ukrainian outlets; casualty figures preliminary; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/ukrpravda_news/status/2119704247180919146",
+                "label": "Ukrainska Pravda: drone hits energy workers in Sumy, 3 injured"
+              },
+              {
+                "url": "https://x.com/ukrpravda_news/status/2119699446069907926",
+                "label": "Ukrainska Pravda: Izium and Balakliia attacked, 9 injured"
+              },
+              {
+                "url": "https://x.com/KyivPost/status/2119715356100948101",
+                "label": "Kyiv Post: Poltava region center for children with disabilities destroyed"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Meduza reports Rosneft has begun restricting fuel sales at filling stations",
+            "location": "Russia",
+            "type": "Infrastructure",
+            "summary": "Meduza reports Rosneft has started introducing limits on fuel sales at its filling stations. This follows a run of Ukrainian drone strikes on Russian refineries, including Kirishi and Saratov; no official Rosneft statement was found in this sweep.",
+            "status": "Single established outlet; scope and regions not specified; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/meduzaproject/status/2119694510171029511",
+                "label": "Meduza: Rosneft begins restricting fuel sales at filling stations"
+              }
+            ]
+          }
+        ],
+        "Middle East": [
+          {
+            "severity": "HIGH",
+            "title": "UPDATE: Khor Mor gas field — production suspended; US envoy Barrack condemns drone attack as \"an attack on the Iraqi people\"",
+            "location": "Khor Mor gas field, Chamchamal / Sulaymaniyah, Kurdistan Region of Iraq",
+            "type": "Power Outage",
+            "summary": "Dana Gas, the field's UAE-based operator, says the fire caused by the Sunday-night suspected drone attack has been extinguished and no staff were injured, per Rudaw and The New Region. Production remains suspended while damage is assessed. Al Jazeera previously reported more than 70% of Iraqi Kurdistan was without power. An Iraqi security source told Al-Araby TV the drone was launched from Salahuddin province; this attribution is not confirmed.",
+            "status": "Production suspended pending damage assessment; US envoy condemnation added this window (Rudaw); attacker not officially confirmed",
+            "links": [
+              {
+                "url": "https://x.com/RudawEnglish/status/2119747436331639089",
+                "label": "Rudaw English (verified): US envoy Tom Barrack condemns Khor Mor drone attack"
+              },
+              {
+                "url": "https://x.com/RudawEnglish/status/2119663515841499415",
+                "label": "Rudaw English (verified): Dana Gas says fire extinguished, no injuries"
+              },
+              {
+                "url": "https://x.com/thenewregion/status/2119675903038959820",
+                "label": "The New Region (verified): production suspended during damage assessment"
+              },
+              {
+                "url": "https://x.com/K24English/status/2119675367040622923",
+                "label": "Kurdistan24 English: Dana Gas confirms drone strike"
+              },
+              {
+                "url": "https://x.com/khaleejtimes/status/2119679784817131797",
+                "label": "Khaleej Times: Dana Gas suspends Khor Mor operations"
+              },
+              {
+                "url": "https://x.com/AlarabyTV/status/2119685750081871927",
+                "label": "Al-Araby TV (verified): Iraqi security source says drone launched from Salahuddin"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119603414405382619",
+                "label": "Reuters (verified): production suspended, sources say"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119621613469528334",
+                "label": "Al Jazeera English (verified): Kurdistan outages"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Iran says navigation aids in the Strait of Hormuz were destroyed and no unauthorised vessels transited overnight",
+            "location": "Strait of Hormuz",
+            "type": "Infrastructure",
+            "summary": "Reuters reports Iran says no unauthorised vessels transited the Strait of Hormuz overnight after navigation aids were destroyed. Al Hadath reports the IRGC claims it destroyed US navigation systems south of Hormuz and blocked ship passage. The claims have not been independently confirmed, and no UKMTO or CENTCOM statement on them was found this window.",
+            "status": "Iranian official claims; not independently verified; shipping impact unclear; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119710342301221164",
+                "label": "Reuters (verified): Iran says no unauthorised vessels transited Hormuz overnight"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119648773798248697",
+                "label": "Reuters: Iran says no unauthorised vessels transited Hormuz after navigation aids destroyed"
+              },
+              {
+                "url": "https://x.com/AlHadath/status/2119652294094360926",
+                "label": "Al Hadath: IRGC claims destroying US navigation systems south of Hormuz"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Iranian navy says an oil tanker caught fire after striking a mine east of Hormuz",
+            "location": "East of the Strait of Hormuz / Musandam coast, Oman",
+            "type": "Infrastructure",
+            "summary": "Al Arabiya English, citing Iranian media, reports Iran’s navy said an oil tanker caught fire after striking a naval mine east of the Strait of Hormuz. Iran International, summarizing the Sunday navy statement, said the vessel had been sailing through a prohibited area with its identification systems switched off, that the incident occurred before noon, and that the navy warned the strait would remain closed to vessels violating Iranian restrictions until threats were removed. That claim is not independently confirmed. Earlier official maritime advisories still stand: UKMTO warnings 199-26 and 200-26, and JMIC’s note of two attacks on vessels in the latest reporting period. The IRGC’s earlier claim that three tankers exploded and burned also remains unconfirmed independently.",
+            "status": "Iranian navy claim via regional outlets; UKMTO and JMIC advisories stand; independent confirmation pending; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2119468524548526555",
+                "label": "Al Arabiya English: Iranian navy says tanker caught fire after striking a mine"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2119468177667018955",
+                "label": "Iran International: navy says tanker hit a mine in a prohibited area with AIS off"
+              },
+              {
+                "url": "https://x.com/UK_MTO/status/2119441739425681783",
+                "label": "UKMTO: JMIC Advisory Note Update 112 (Nov 8)"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2119445309541466528",
+                "label": "Iran International: JMIC reports two attacks this period, down from four"
+              },
+              {
+                "url": "https://x.com/UK_MTO/status/2119357459471237504",
+                "label": "UKMTO: Warning 199-26"
+              },
+              {
+                "url": "https://x.com/UK_MTO/status/2119379751207051560",
+                "label": "UKMTO: Warning 200-26"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Iranian official says US strikes on Qeshm Island caused no damage to residential areas or vital infrastructure",
+            "location": "Qeshm Island and Hormozgan Province, Iran",
+            "type": "Other",
+            "summary": "A Hormozgan deputy governor told state media that a US attack hit Qeshm Island overnight but damaged no vital infrastructure or services, and that the targeted sites were away from residential and commercial areas, per Al Arabiya English and Iran International. He told IRIB the situation is under control, per Al Jazeera. Al Arabiya, citing Tasnim, also reports three bursts of gunfire near Sirik port, which Iranian TV attributes to confronting violating vessels.",
+            "status": "Iranian official claim via state media; no independent damage assessment; no US statement found this window; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/PressTV/status/2119716998615863570",
+                "label": "Press TV (Iranian state media): official says no damage to residential areas or vital infrastructure"
+              },
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2119677308931825785",
+                "label": "Al Arabiya English (verified): no vital infrastructure damaged in US attack on Qeshm"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2119659888640946287",
+                "label": "Iran International: Hormozgan deputy governor on Qeshm attack"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119678888347590879",
+                "label": "Al Jazeera English (verified): Qeshm situation under control"
+              },
+              {
+                "url": "https://x.com/AlHadath/status/2119685790775034235",
+                "label": "Al Hadath (verified): Iran acknowledges US attack on Qeshm"
+              },
+              {
+                "url": "https://x.com/AlArabiya/status/2119684464263536772",
+                "label": "Al Arabiya (verified): gunfire reported near Sirik port"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119552611020145130",
+                "label": "Al Jazeera English (verified): earlier state-media 'projectiles' report"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Reuters — Saudi civil defense says danger passed in Riyadh minutes after alert",
+            "location": "Riyadh (King Abdullah Financial District) and other regions, Saudi Arabia",
+            "type": "Terror",
+            "summary": "Reuters reports Saudi Arabia's civil defense said danger had passed in Riyadh on November 9, minutes after raising an alert, a day after a Houthi attack damaged an Aramco office building in the city. No damage from Monday's alert has been reported.",
+            "status": "Alert lifted; official statement issued; no damage reported from Monday alert; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119710339440726072",
+                "label": "Reuters (verified): danger passed in Riyadh minutes after alert"
+              },
+              {
+                "url": "https://x.com/arabnews/status/2119676023700586853",
+                "label": "Arab News: early warning system activated in Riyadh"
+              },
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2119677417027461432",
+                "label": "Al Arabiya English (verified): all-clear for Riyadh"
+              },
+              {
+                "url": "https://x.com/arabnews/status/2119679782954672496",
+                "label": "Arab News: Riyadh danger has passed"
+              },
+              {
+                "url": "https://x.com/IranIntl_En/status/2119684226932957591",
+                "label": "Iran International: UAE condemns Houthi attempt to target Saudi Arabia"
+              },
+              {
+                "url": "https://x.com/AlHadath/status/2119501501018116318",
+                "label": "Al Hadath (verified): coalition destroyed Sanaa launch platform"
+              },
+              {
+                "url": "https://x.com/AFP/status/2119459394328961508",
+                "label": "AFP News Agency: Saudi energy ministry says Aramco building targeted in attempted attack"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119374388361416750",
+                "label": "Reuters (verified): Aramco building in Riyadh damaged by falling debris, ministry says"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Iranian media say Saturday explosions in southern Iran were military activity, not US strikes",
+            "location": "Qeshm Island, Jask, Sirik, Bandar Abbas, Iran",
+            "type": "Other",
+            "summary": "Al Arabiya English reports Iranian media suggest explosions heard in southern Iran on Saturday evening were related to Iranian military activities rather than US strikes, while both sides reported that shipping had been hit in or near the Strait of Hormuz. No Reuters, AP, AFP or CENTCOM confirmation of a US strike was found in this sweep. Unverified accounts claiming a fresh wave of US strikes are not logged.",
+            "status": "Explosions previously acknowledged; Iranian media now attribute them to military activity; US-strike claims unverified; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2119472275825070442",
+                "label": "Al Arabiya English: Iranian media link southern explosions to military activity, not US strikes"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119180592579277056",
+                "label": "Al Jazeera English: explosions linked to Hormuz activity, no damage"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Flash floods in Erbil kill two, per the governor; schools closed Sunday",
+            "location": "Erbil, Kurdistan Region, Iraq",
+            "type": "Other",
+            "summary": "Al Arabiya and Al Hadath report that flash floods after heavy rain struck Erbil, inundating streets and residential neighborhoods and damaging homes, shops and vehicles. Both outlets said Erbil’s governor announced two deaths and that official work at educational institutions was suspended. No new casualty figures found this window.",
+            "status": "Confirmed by regional outlets citing the governor; recovery underway; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya/status/2119216735652044825",
+                "label": "Al Arabiya: Erbil governor announces two flood deaths"
+              },
+              {
+                "url": "https://x.com/AlHadath/status/2119217826363834870",
+                "label": "Al Hadath: two dead; homes, shops and vehicles damaged"
+              },
+              {
+                "url": "https://x.com/AlArabiya/status/2119248540983558648",
+                "label": "Al Arabiya: civil defense mobilized; schools closed"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: UAE National Guard says it rescued 22 people from a burning cargo ship in the Gulf of Oman",
+            "location": "Gulf of Oman / Strait of Hormuz approaches",
+            "type": "Infrastructure",
+            "summary": "Al Jazeera English reports the United Arab Emirates’ National Guard said it rescued 22 people from a burning cargo ship in the Gulf of Oman. Identities, flags and casualties beyond the rescue figure were not given in that post. No material update found this window.",
+            "status": "UAE rescue previously confirmed; no material change; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119254687665033224",
+                "label": "Al Jazeera English: UAE rescued 22 from burning cargo ship"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: CENTCOM disables St. Kitts-flagged M/V Huda in Gulf of Oman for blockade violation",
+            "location": "Gulf of Oman",
+            "type": "Other",
+            "summary": "US Central Command said its forces disabled the St. Kitts-flagged M/V Huda on Nov 7 after the crew ignored warnings and tried to violate the naval blockade against Iran. No new official casualty or follow-on interdiction statement found this window.",
+            "status": "Official CENTCOM statement; no material change; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/CENTCOM/status/2119167271989870888",
+                "label": "CENTCOM: M/V Huda disabled in Gulf of Oman"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Houthi-run ministry toll stands on strike near Sanaa",
+            "location": "al-Sharya village near Sanaa, Yemen",
+            "type": "Other",
+            "summary": "Reuters previously published witness video it obtained but could not verify that appears to show a strike in Yemen, noting the Houthi-run health ministry said airstrikes in the same village near Sanaa killed at least two dozen people. Al Jazeera English and Reuters previously reported a Houthi-run ministry toll of 33 killed and 39 wounded. Figures come from Houthi-run authorities and are not independently verified. No new official or wire tally found this window.",
+            "status": "Houthi-run ministry figures; not independently verified; no new tally; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119432250445951081",
+                "label": "Reuters: witness video of strike near Sanaa"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119252221049364616",
+                "label": "Al Jazeera English: Houthi ministry says 33 killed, 39 wounded"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119220873466880465",
+                "label": "Reuters: Houthi-run ministry says strikes kill 33"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Flash floods destroy Al-Suwai'iya bridge in Deir ez-Zor, cutting roads",
+            "location": "Deir ez-Zor province, Syria",
+            "type": "Infrastructure",
+            "summary": "Al Arabiya previously reported torrential floods destroyed the Al-Suwai'iya bridge in Deir ez-Zor province and cut roads. No casualty figures were given. No material update found this window.",
+            "status": "Early report; single outlet; no update; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya/status/2119287109273940243",
+                "label": "Al Arabiya: floods destroy bridge in Deir ez-Zor"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Sand embankment collapse onto displaced families’ tents in Gaza kills at least five, including four children",
+            "location": "Gaza",
+            "type": "Other",
+            "summary": "Al Jazeera English and Anadolu report at least five people, a woman and four children, were killed when a sand embankment collapsed onto tents sheltering displaced Palestinians in Deir al-Balah, central Gaza, during heavy rain. Anadolu says others were injured and residents are searching for the missing with basic tools amid a power outage.",
+            "status": "Confirmed by multiple established outlets; search for missing ongoing; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119654967568912426",
+                "label": "Al Jazeera English: at least five killed, including four children"
+              },
+              {
+                "url": "https://x.com/anadoluagency/status/2119656232835252720",
+                "label": "Anadolu: woman and four children killed in Deir al-Balah landslide"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119550534856360159",
+                "label": "Al Jazeera English: sand cliff collapses on tents, at least five killed"
+              },
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2119544664986411486",
+                "label": "Al Arabiya English: rescue service says five died in rain-linked incident"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Heavy rain floods tens of thousands of displaced Gazans' tents",
+            "location": "Gaza Strip",
+            "type": "Other",
+            "summary": "AFP reports heavy rain has flooded tens of thousands of displaced Gazans' tents, leaving them without shelter, according to Palestinian authorities. Al Jazeera English says hundreds of thousands of Palestinians are vulnerable to flooding, noting Israel continues to block mobile homes from entering Gaza. Separately, the sand-embankment collapse in central Gaza killed at least five.",
+            "status": "Ongoing weather-driven humanitarian impact; figures from Palestinian authorities; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AFP/status/2119686635633692678",
+                "label": "AFP News Agency: rain floods tens of thousands of tents"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119675738668347447",
+                "label": "Al Jazeera English (verified): hundreds of thousands vulnerable to flooding"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Iranian state media say Mahshahr blasts were exploding transformers, not an attack",
+            "location": "Mahshahr, Khuzestan province, Iran",
+            "type": "Infrastructure",
+            "summary": "Several blasts were reported in the Iranian port city of Mahshahr. Al Jazeera English, citing Iranian state media, says they were caused by two exploding electrical transformers rather than an attack. No independent confirmation or casualty figures found.",
+            "status": "Official (state media) explanation issued; single-source; monitoring; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119572403223499095",
+                "label": "Al Jazeera English: Mahshahr blasts were exploding transformers, state media say"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "NEW: Lebanon power crisis — state utility threatens to cut supply to Beirut airport over unpaid bills; cabinet approves $100M for fuel",
+            "location": "Lebanon (Beirut Rafic Hariri International Airport)",
+            "type": "Power Outage",
+            "summary": "Al Hadath reports Électricité du Liban has threatened to cut power to public institutions that have not paid, led by Beirut airport, which it says owes about $22 million. The cabinet approved a bill opening a $100 million credit for fuel shipments, but Al Hadath says available funds cover no more than 30% of that. No actual cut to the airport has been reported.",
+            "status": "Threatened, not occurred; single established outlet",
+            "links": [
+              {
+                "url": "https://x.com/AlHadath/status/2119739274215972904",
+                "label": "Al Hadath (verified): Lebanon power crisis; Beirut airport faces cut-off over $22M arrears"
+              }
+            ]
+          }
+        ],
+        "Africa": [
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Egypt Health Ministry raises Giza train collision toll to 7 dead, 112 injured",
+            "location": "Al-Ayyat district, Giza Governorate, Egypt (Cairo–Aswan line)",
+            "type": "Infrastructure",
+            "summary": "Al Jazeera English, citing Egypt's Ministry of Health, reports seven people were killed and 112 injured after two passenger trains collided and derailed in Giza's El-Ayyat district. CBS News and CGTN Africa carry the same updated figures. The earlier ministry tally was 4 dead and 88 injured; authorities have opened an investigation.",
+            "status": "Confirmed; investigation ordered; Health Ministry figure 7 dead, 112 injured; Xinhua now reports 125 injured (figures vary); carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AJEnglish/status/2119497681005420830",
+                "label": "Al Jazeera English: 7 killed, 112 injured (Health Ministry)"
+              },
+              {
+                "url": "https://x.com/CBSNews/status/2119479258670100928",
+                "label": "CBS News: at least 7 killed, more than 100 injured"
+              },
+              {
+                "url": "https://x.com/cgtnafrica/status/2119504704669458778",
+                "label": "CGTN Africa: at least 7 killed, 112 injured"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119449906003751089",
+                "label": "Reuters: Giza train collision kills 4 and injures 88, health ministry says"
+              },
+              {
+                "url": "https://x.com/mohpegypt/status/2119436072484495490",
+                "label": "Egypt Health Ministry: 88 injured, 4 passengers dead (initial tally)"
+              },
+              {
+                "url": "https://x.com/AlarabyTV/status/2119439333929189787",
+                "label": "Al Araby TV: Health Ministry says 4 dead, 88 injured"
+              },
+              {
+                "url": "https://x.com/XHNews/status/2119418616009683156",
+                "label": "Xinhua: train accident kills driver, injures at least 64"
+              },
+              {
+                "url": "https://x.com/XHNews/status/2119609158479835525",
+                "label": "@XHNews on X"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Reuters carries government figure of at least 21 dead after a migrant boat sinks off Senegal",
+            "location": "Atlantic coast, northwestern Senegal",
+            "type": "Other",
+            "summary": "Reuters reports at least 21 people died after a migrant boat sank off the Senegal coast, citing the government. That corroborates earlier AFP and Al Jazeera English reports; Al Jazeera English said the Senegalese Interior Ministry called the toll provisional and said the search was continuing.",
+            "status": "Official provisional toll now also carried by Reuters; search ongoing; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/Reuters/status/2119468753842811352",
+                "label": "Reuters: at least 21 dead after migrant boat sinks off Senegal, government says"
+              },
+              {
+                "url": "https://x.com/AFP/status/2119444895731528078",
+                "label": "AFP: migrant boat sinks off Senegal, at least 21 dead"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119437284663542131",
+                "label": "Al Jazeera English: Interior Ministry says toll provisional"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Zamfara village attack — local council chair says 12 family members killed",
+            "location": "Gidan Taba village, Maradun LGA, Zamfara State, Nigeria",
+            "type": "Terror",
+            "summary": "Premium Times reports the local council chair says 12 members of one family were killed in the bandit attack in Zamfara state, Nigeria. Earlier reports from Nigerian outlets said family members were burned to death and gave tolls of 11 to 13. No police or state government statement was found this window.",
+            "status": "Local official figure reported by established Nigerian outlet; no police statement found; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/PremiumTimesng/status/2119651355178500430",
+                "label": "Premium Times: council chair says 12 family members killed"
+              },
+              {
+                "url": "https://x.com/BusinessDayNg/status/2119476810211586325",
+                "label": "BusinessDay: 12 family members burned to death in Zamfara"
+              },
+              {
+                "url": "https://x.com/dawisu/status/2119469389992870256",
+                "label": "Bashir Ahmad: eleven killed as bandits set family home ablaze"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: South Sudan — 23 dead in four weeks of army–opposition clashes in the north",
+            "location": "Ruweng and Unity State, northern South Sudan",
+            "type": "Unrest",
+            "summary": "Al Arabiya English and CGTN Africa report authorities and police say four weeks of clashes between South Sudan government and opposition forces in the north have left 23 people dead and thousands displaced, with tensions rising ahead of December 22 polls. This is a cumulative toll, not a single new incident. No new official figure found this window.",
+            "status": "Ongoing conflict; cumulative figures; no new tally; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/AlArabiya_Eng/status/2119431108366410137",
+                "label": "Al Arabiya English: 23 dead in four weeks of clashes"
+              },
+              {
+                "url": "https://x.com/cgtnafrica/status/2119424405285556324",
+                "label": "CGTN Africa: 23 dead; thousands fled"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Gunmen kill four at Bellville taxi rank in Cape Town; man and 7-year-old child wounded",
+            "location": "Bellville taxi rank, Cape Town, South Africa",
+            "type": "Unrest",
+            "summary": "SAPS said four gunmen travelling in two vehicles opened fire at the long-distance side of the Bellville taxi rank at about 21:00 Saturday, killing four men and wounding another man and a seven-year-old child. No arrests have been reported. No material update found this window.",
+            "status": "Confirmed by police; suspects at large; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/SAPoliceService/status/2119320331546460267",
+                "label": "SAPS: four killed, man and child injured at Bellville rank"
+              },
+              {
+                "url": "https://x.com/eNCA/status/2119289399883997590",
+                "label": "eNCA: four killed in Bellville taxi rank shooting"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: UDM councillor Luxolo Namette shot dead in Motherwell, Gqeberha",
+            "location": "Motherwell, Gqeberha, Eastern Cape, South Africa",
+            "type": "Other",
+            "summary": "SABC News, IOL and The Citizen previously reported that UDM councillor and former Nelson Mandela Bay deputy mayor Luxolo Namette (also rendered Namete) was shot dead in Motherwell. The party has said it fears he may have been targeted because of his political activities. Motive and suspects were not confirmed. No material update found this window.",
+            "status": "Confirmed by national outlets; murder investigation; political motive alleged by the party, not independently established; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/SABCNews/status/2119128252463906932",
+                "label": "SABC News: former deputy mayor Luxolo Namete shot dead"
+              },
+              {
+                "url": "https://x.com/IOL/status/2119131804116615529",
+                "label": "IOL: UDM councillor Namette shot dead; party fears political targeting"
+              },
+              {
+                "url": "https://x.com/TheCitizen_News/status/2119173212219027834",
+                "label": "The Citizen: Namette shot and killed in Gqeberha"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Deadly clash at opposition rally in Asaba, Nigeria — police confirm 1 dead, 5 injured",
+            "location": "Nnebisi Road, Asaba, Delta State, Nigeria",
+            "type": "Unrest",
+            "summary": "No new official police casualty update found this window. A Delta State Police Command press release, posted by Nigeria Police Force spokesperson Olumuyiwa Adejobi, previously said a violent incident during an Obedient/OK movement rally left one person dead and five injured. Claims of additional deaths remain unconfirmed.",
+            "status": "Official police statement issued; investigation underway; no new figures; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/Princemoye1/status/2119190271367762386",
+                "label": "Delta State Police Command press release (via NPF spokesperson)"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Eastern DRC Cantine-Aloya ADF attack — at least 33 killed",
+            "location": "Eastern Democratic Republic of Congo",
+            "type": "Terror",
+            "summary": "Africa CDC Director-General Jean Kaseya said he was outraged by the deadly attack on civilians in Cantine-Aloya, North Kivu, noting health facilities were attacked and reports that hundreds of people with confirmed or suspected Ebola fled. He called for a corridor of peace to protect civilians, patients and health workers. The prior toll of at least 33 killed stands; no newer official figure was found.",
+            "status": "Official health-agency statement on record; toll unchanged; Ebola response disrupted; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/Dr_JeanKaseya/status/2119317182718906486",
+                "label": "Dr Jean Kaseya (Africa CDC Director-General): statement on Cantine-Aloya attack"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Sudan — secondary reports of deadly drone strikes including market and displaced camps",
+            "location": "Sudan (al-Dabba; Blue Nile; North Darfur)",
+            "type": "Other",
+            "summary": "No new wire-confirmed casualty figures found this window. Secondary posts have described recent drone attacks, including around a market in al-Dabba and displaced people in Blue Nile. Awaiting direct wire confirmation.",
+            "status": "Early/secondary reports; needs wire confirmation; carried forward from 4:15 AM ET, no newer change found",
+            "links": []
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Benishangul-Gumuz attack — police figure of 52 dead reported; higher claims unverified",
+            "location": "Daleti kebele, Buldigilu woreda, Assosa zone, Benishangul-Gumuz, Ethiopia",
+            "type": "Unrest",
+            "summary": "The Abay Times reports police say 52 people were killed in a Nov. 5 attack on Daleti kebele, and Borkena reports more than 52 killed. Responsibility is disputed: some accounts blame Oromo armed groups, while the OLF alleges police then killed more than 43 Oromo civilians. Claims of 105 or more dead come from partisan accounts and were not confirmed.",
+            "status": "Police figure reported second-hand; attribution disputed; no international wire found; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/TheAbayTimes/status/2119072273709568068",
+                "label": "The Abay Times: police say 52 killed in Benishangul-Gumuz attack"
+              },
+              {
+                "url": "https://x.com/zborkena/status/2119152552751063268",
+                "label": "Borkena: over 52 killed in Benishangul-Gumuz attack"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Gunmen kill three men in Grassy Park, Cape Town",
+            "location": "Grassy Park, Cape Town, South Africa",
+            "type": "Other",
+            "summary": "eNCA reports the Western Cape Anti-Gang Unit is investigating the killing of three men aged 22 to 39 in Grassy Park after gunmen opened fire on four people, wounding one more.",
+            "status": "Police investigating; single established outlet; localized; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/eNCA/status/2119687062144090360",
+                "label": "eNCA: three killed in Grassy Park shooting"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "NEW: Police shoot dead five cash-in-transit robbery suspects in Gqeberha",
+            "location": "Kempston Road, Gqeberha, Eastern Cape, South Africa",
+            "type": "Other",
+            "summary": "eNCA reports police shot and killed five cash-in-transit heist suspects in Gqeberha on Monday morning. Other posts attribute confirmation to the Hawks; no police or guard injuries have been reported in sources reviewed.",
+            "status": "Reported by established national broadcaster; localized; investigation under way",
+            "links": [
+              {
+                "url": "https://x.com/eNCA/status/2119704385068400659",
+                "label": "eNCA: police kill five cash-in-transit heist suspects in Gqeberha"
+              }
+            ]
+          }
+        ],
+        "South America": [
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Santa Rosa del Sur drone attack on army base — Noticias Caracol says about 47 wounded; possible perpetrator identified",
+            "location": "Santa Rosa del Sur, Bolívar, Colombia",
+            "type": "Terror",
+            "summary": "No new official casualty revision was found this window. Prior reporting stands: an explosive-drone attack on Jungle Infantry Battalion No. 48 killed at least three soldiers. Wounded counts still vary by source (Teleantioquia previously cited 35 wounded; the Army had cited 47 injured, 16 seriously). No group has claimed the attack.",
+            "status": "Confirmed; three soldiers killed; about 47 wounded per Noticias Caracol (figures have varied); authorities say a possible perpetrator is identified; army reinforced security; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/NoticiasCaracol/status/2119608541900091842",
+                "label": "@NoticiasCaracol on X"
+              },
+              {
+                "url": "https://x.com/ELTIEMPO/status/2119619033041445358",
+                "label": "@ELTIEMPO on X"
+              },
+              {
+                "url": "https://x.com/Teleantioquia/status/2119445588462989601",
+                "label": "Teleantioquia: 3 soldiers dead, 35 wounded; attack videos"
+              },
+              {
+                "url": "https://x.com/COMANDANTE_EJC/status/2119305821259452856",
+                "label": "Army commander: visit to Santa Rosa, three killed"
+              },
+              {
+                "url": "https://x.com/AJEnglish/status/2119312921390154036",
+                "label": "Al Jazeera English: three soldiers killed, at least 16 wounded"
+              }
+            ]
+          },
+          {
+            "severity": "HIGH",
+            "title": "CONTINUATION: Paraguay — judge orders pretrial detention for ex-president Peña; Alliana sworn in",
+            "location": "Asunción, Paraguay",
+            "type": "Other",
+            "summary": "No new legal ruling beyond the previously reported pretrial detention was found this window. Noticias Caracol, ABC Digital and EFE previously reported that a judge sent former president Santiago Peña to preventive prison in the intervened Ueno Bank case, and Reuters reported Pedro Alliana was sworn in as president after Peña’s impeachment.",
+            "status": "Pretrial detention ordered; presidential succession completed; no material change; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/NoticiasCaracol/status/2119414636013338939",
+                "label": "Noticias Caracol: judge sends Santiago Peña to preventive prison in Ueno Bank case"
+              },
+              {
+                "url": "https://x.com/ABCDigital/status/2119179720021377493",
+                "label": "ABC Digital: pretrial detention for Peña"
+              },
+              {
+                "url": "https://x.com/EFEnoticias/status/2119182614670066027",
+                "label": "EFE: judge sends Peña to pretrial detention"
+              },
+              {
+                "url": "https://x.com/Reuters/status/2119195721354125698",
+                "label": "Reuters: Pedro Alliana sworn in as president"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: La Jornada reports another drone-explosive attack on Villa Rica toll plaza in Cauca",
+            "location": "Villa Rica, Cauca, Colombia",
+            "type": "Terror",
+            "summary": "La Jornada reports a further attack with drone-launched explosives on the Villa Rica toll plaza on the Pan-American Highway, saying preliminary information attributed to authorities indicates no injuries and no damage to the toll; it is not clear whether this is separate from the earlier attack. Earlier, Blu Radio and El Tiempo reported drone-launched explosives at the toll and the president ordered a security deployment. La Jornada links it to recent attacks on the El Mango and Mondomo tolls.",
+            "status": "Official statements issued earlier; latest report preliminary and from a regional outlet; attribution unknown; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/LaJornadaco/status/2119679427038568837",
+                "label": "La Jornada: new drone-explosive attack on Villa Rica toll, no injuries"
+              },
+              {
+                "url": "https://x.com/BluRadioCo/status/2119604320597651641",
+                "label": "Blu Radio: Villa Rica toll attack"
+              },
+              {
+                "url": "https://x.com/ELTIEMPO/status/2119613490658791887",
+                "label": "EL TIEMPO: president orders security deployment"
+              },
+              {
+                "url": "https://x.com/BluRadioCo/status/2119603378531741999",
+                "label": "Blu Radio: drone explosives at toll"
+              },
+              {
+                "url": "https://x.com/ELTIEMPO/status/2119580547345223905",
+                "label": "EL TIEMPO: Popayán–Cali road closed"
+              }
+            ]
+          },
+          {
+            "severity": "MEDIUM",
+            "title": "CONTINUATION: Colombia's president attributes threats against media outlets to the ELN; Caracol issues new statement",
+            "location": "Bogotá, Colombia",
+            "type": "Terror",
+            "summary": "El Comercio reports Colombia's president attributed the attack threats against several media outlets to the ELN. El Tiempo reports Caracol Televisión issued a new statement Sunday after the attack alert and expressed solidarity with other media. Police had earlier said no explosives were found after the evacuation of Caracol's Bogotá facilities.",
+            "status": "Official attribution by president; no attack has occurred; security protocols in place; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/elcomercio_peru/status/2119503010560688384",
+                "label": "El Comercio: Colombian president attributes media threats to ELN"
+              },
+              {
+                "url": "https://x.com/ELTIEMPO/status/2119487850341122119",
+                "label": "El Tiempo: Caracol issues new statement after attack alert"
+              },
+              {
+                "url": "https://x.com/NoticiasCaracol/status/2119471257758413296",
+                "label": "Noticias Caracol: company statement on alert and security protocols"
+              },
+              {
+                "url": "https://x.com/ELTIEMPO/status/2119449131554885933",
+                "label": "El Tiempo: press-freedom reactions after reported bomb threats at Caracol"
+              },
+              {
+                "url": "https://x.com/ELTIEMPO/status/2119389247434018910",
+                "label": "El Tiempo: police say no explosives found (earlier)"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: Ecuador — protests in Quito and other cities against government budget cuts",
+            "location": "Quito and other cities, Ecuador",
+            "type": "Unrest",
+            "summary": "TRT Español previously reported protests returned to Ecuador's streets, with students, workers and other sectors denouncing deterioration of public services and budget cuts. No casualties or major clashes were reported in posts found this window.",
+            "status": "Peaceful mobilizations reported; low impact; no material change; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/trt_espanol/status/2119429911874040308",
+                "label": "TRT Español: protests return to Ecuador's streets"
+              }
+            ]
+          },
+          {
+            "severity": "MONITORING",
+            "title": "CONTINUATION: New explosion on Suárez road in Cauca; lightning reportedly detonated explosives",
+            "location": "Suárez, Cauca, Colombia",
+            "type": "Terror",
+            "summary": "La Jornada reports a new explosion on the road linking Suárez municipality in northern Cauca, saying lightning reportedly detonated explosives on the roadway. Noticias Caracol earlier reported another explosion in rural Suárez. No injuries were mentioned in these posts.",
+            "status": "Early report from regional outlet; cause preliminary; carried forward from 4:15 AM ET, no newer change found",
+            "links": [
+              {
+                "url": "https://x.com/LaJornadaco/status/2119675938958876910",
+                "label": "La Jornada: lightning reportedly detonated explosives on Suárez road"
+              },
+              {
+                "url": "https://x.com/NoticiasCaracol/status/2119490970198663438",
+                "label": "Noticias Caracol: another explosion in rural Suárez"
+              }
+            ]
+          }
+        ]
+      },
+      "trending": [
+        {
+          "severity": "MONITORING",
+          "title": "NEW: Water floods tunnel at Tarbela Dam 5th Extension construction site in Pakistan; workers evacuated, work suspended",
+          "location": "Tarbela Dam T-5 project, Haripur, Pakistan",
+          "type": "Infrastructure",
+          "summary": "Dawn cites WAPDA as saying water entered the under-construction powerhouse area and a tunnel after a weak rock mass collapsed during excavation, prompting evacuation. Radio Pakistan says WAPDA confirmed all workers were safely evacuated. The main dam is not reported damaged, and work on the extension is reported suspended.",
+          "status": "Official (WAPDA) statement issued; no casualties reported",
+          "links": [
+            {
+              "url": "https://x.com/dawn_com/status/2119745725508825436",
+              "label": "Dawn: WAPDA says water entered T-5 powerhouse area and tunnel after rock collapse"
+            },
+            {
+              "url": "https://x.com/RadioPakistan/status/2119748673362129057",
+              "label": "Radio Pakistan: WAPDA confirms all workers safely evacuated"
+            }
+          ]
+        },
+        {
+          "severity": "MEDIUM",
+          "title": "CONTINUATION: High-rise fire in Taiyuan, Shanxi, kills 14, Xinhua says",
+          "location": "Taiyuan, Shanxi province, China",
+          "type": "Other",
+          "summary": "Reuters, citing the state-run Xinhua news agency, reports a fire at a high-rise apartment building in Taiyuan killed 14 people. The cause and number of injured were not given in the posts.",
+          "status": "Official state-media figure via Reuters; cause unknown; carried forward from 4:15 AM ET, no newer change found",
+          "links": [
+            {
+              "url": "https://x.com/Reuters/status/2119651219157225920",
+              "label": "Reuters: Taiyuan high-rise fire kills 14, Xinhua says"
+            },
+            {
+              "url": "https://x.com/Reuters/status/2119633636550988227",
+              "label": "Reuters: apartment building fire in northern China kills 14"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "CONTINUATION: M5.7 central Japan earthquake — Reuters previously said at least 22 injured",
+          "location": "Aichi and Shizuoka area, central Japan",
+          "type": "Other",
+          "summary": "Reuters, citing local media, previously reported the 5.7-magnitude earthquake in central Japan injured at least 22 people. Al Jazeera English reported windows broke and trains at Nagoya Station were delayed. No tsunami was issued and no deaths were reported. No new official casualty update found this window.",
+          "status": "Minor injuries; no deaths; stabilized; carried forward from 4:15 AM ET, no newer change found",
+          "links": [
+            {
+              "url": "https://x.com/Reuters/status/2119429924230439067",
+              "label": "Reuters: at least 22 injured"
+            },
+            {
+              "url": "https://x.com/AJEnglish/status/2119422116000845869",
+              "label": "Al Jazeera English: windows broken, Nagoya trains delayed"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "CONTINUATION: Oil India tank-farm fire in Dibrugarh, Assam — death toll previously raised to four",
+          "location": "Tengakhat, Dibrugarh district, Assam, India",
+          "type": "Infrastructure",
+          "summary": "Press Trust of India previously reported that the death toll from a fire at an Oil India Ltd facility in Assam’s Dibrugarh district rose to four after another injured worker died on Sunday. PTI, citing an official and an Oil India statement, said the fire broke out on November 6 after an explosion during maintenance work. This is an industrial accident during maintenance, not a reported attack. No new official toll found this window.",
+          "status": "Official statement via PTI; industrial accident; no new toll; carried forward from 4:15 AM ET, no newer change found",
+          "links": [
+            {
+              "url": "https://x.com/PTI_News/status/2119403611994182138",
+              "label": "PTI: Oil India Dibrugarh tank-farm fire death toll rises to four"
+            }
+          ]
+        },
+        {
+          "severity": "MONITORING",
+          "title": "DEBUNKED: Viral “Amsterdam car bomb” video is April 2025 footage",
+          "location": "Dam Square, Amsterdam, Netherlands",
+          "type": "Other",
+          "summary": "Low-credibility accounts are still circulating video of a car exploding on Dam Square as a new car-bomb attack. Multiple context replies, including from Grok, identify the footage as April 3, 2025, when a Dutch man deliberately set fire to his own car; police treated it as arson, and he was the only person hurt. Not a current incident.",
+          "status": "Recycled footage; not a new event; logged only because it is circulating. The earlier Mynewshub debunk post no longer resolves and was dropped.; carried forward from 4:15 AM ET, no newer change found",
+          "links": [
+            {
+              "url": "https://x.com/Theworl04/status/2119679960617009516",
+              "label": "Theworl04 (unverified): viral 'car bomb' claim, recycled footage"
+            },
+            {
+              "url": "https://x.com/grok/status/2119677552369242364",
+              "label": "Grok (verified, automated reply): footage is from April 3, 2025"
+            }
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "severity": "MONITORING",
+          "title": "CONTINUATION: Blast at Vasundhara police outpost in Ghaziabad investigated as possible terror attack",
+          "location": "Indirapuram, Ghaziabad, Uttar Pradesh, India",
+          "type": "Terror",
+          "summary": "WION previously reported the blast at the Vasundhara police outpost is being investigated as a possible terror attack after an online claim of responsibility. Other posts said one food delivery worker was lightly hurt and that cause and claim are unverified. No new official finding was found this window.",
+          "status": "Under investigation; claim unverified; carried forward from 4:15 AM ET, no newer change found",
+          "links": [
+            {
+              "url": "https://x.com/WIONews/status/2119304849296867670",
+              "label": "WION: Vasundhara outpost blast probed as possible terror attack"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "datetime": "2026-11-09T04:15:00-05:00",
       "regions": {
         "America": [
