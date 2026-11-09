@@ -4,7 +4,7 @@ import { V4Main } from "@/components/site/lcps-v4";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
 
 /** Simple v4 text page: hero with breadcrumbs, optional draft banner, readable column. */
-export function DocPage({ crumb, titleA, titleB, dek, draft, children }: { crumb: string; titleA: string; titleB?: string; dek?: string; draft?: boolean; children: ReactNode }) {
+export function DocPage({ crumb, titleA, titleB, dek, children }: { crumb: string; titleA: string; titleB?: string; dek?: string; draft?: boolean; children: ReactNode }) {
   return (
     <SiteShell>
       <V4Main>
@@ -16,7 +16,6 @@ export function DocPage({ crumb, titleA, titleB, dek, draft, children }: { crumb
             {dek ? <p className="mt-4 max-w-2xl text-lg text-on-dark-muted">{dek}</p> : null}
           </div>
         </section>
-        {draft ? <div role="status" className="bg-gold text-navy-900"><p className="mx-auto max-w-7xl px-4 py-3 text-center font-serif text-lg font-bold tracking-[0.14em] uppercase sm:px-8">Draft for Scott’s review</p></div> : null}
         <div className="doc-v4 mx-auto max-w-3xl space-y-6 px-4 py-8 text-on-dark-muted sm:px-8 [&_a]:text-gold [&_a]:underline [&_h2]:mt-8 [&_h2]:font-serif [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:text-white [&_h2]:uppercase [&_li]:ml-5 [&_li]:list-disc [&_li]:mt-1">{children}</div>
       </V4Main>
     </SiteShell>

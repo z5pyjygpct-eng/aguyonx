@@ -68,9 +68,6 @@ const h2 = "font-serif text-3xl font-semibold uppercase";
 function Arrow() {
   return <ArrowRight className="absolute top-4 right-4 size-5 text-gold transition-transform group-hover:translate-x-0.5" aria-hidden />;
 }
-function Draft() {
-  return <span className="ml-2 inline-block rounded bg-flag px-1.5 py-0.5 align-middle font-mono text-[10px] font-bold tracking-wider text-white uppercase">Draft</span>;
-}
 
 function TipsPage() {
   return (
@@ -140,15 +137,13 @@ function TipsPage() {
 
           <div className="mt-12 grid gap-5 lg:grid-cols-2">
             <section className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-6" aria-labelledby="privacy">
-              <h2 id="privacy" className="flex flex-wrap items-center font-serif text-2xl font-semibold uppercase"><Lock className="mr-2 size-6 text-gold" aria-hidden />Your privacy<Draft /></h2>
-              <p className="mt-1 text-xs text-on-dark-muted">Draft wording for Scott to review. Not a legal promise.</p>
+              <h2 id="privacy" className="flex flex-wrap items-center font-serif text-2xl font-semibold uppercase"><Lock className="mr-2 size-6 text-gold" aria-hidden />Your privacy</h2>
               <ul className="mt-3 space-y-2 text-base text-[#F6F3EA]">
                 {PRIVACY.map((p) => <li key={p} className="flex gap-2"><span className="text-gold">•</span><span>{p}</span></li>)}
               </ul>
             </section>
             <section className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-6" aria-labelledby="next">
-              <h2 id="next" className="font-serif text-2xl font-semibold uppercase">What happens next<Draft /></h2>
-              <p className="mt-1 text-xs text-on-dark-muted">Draft steps for Scott to review.</p>
+              <h2 id="next" className="font-serif text-2xl font-semibold uppercase">What happens next</h2>
               <ol className="mt-3 space-y-3">
                 {NEXT.map(([t, d], i) => (
                   <li key={t} className="flex gap-3">

@@ -246,8 +246,7 @@ function Election2027Page() {
       <V4Main>
         <V4VenueHero venue={{ crumbs: [{ label: "Other Resources" }], titleA: "2027", titleB: "Election", foia: { label: "", href: "" } }} kicker="2027 election" />
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-8">
-          <p className="inline-block rounded bg-flag px-2 py-0.5 font-mono text-[11px] font-bold tracking-wider text-white uppercase">Draft for Scott's review</p>
-          <p className="mt-2 max-w-3xl text-sm text-[#F6F3EA]">
+          <p className="max-w-3xl text-sm text-[#F6F3EA]">
             Who has filed for the Nov. 2, 2027 general election. Tap a seat to see the candidates. A blank seat means no filing yet.{" "}
             <span className="text-on-dark-muted">Source: <a href={d.source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">VPAP</a>, as of {fmtDate(d.as_of)}.</span>
           </p>

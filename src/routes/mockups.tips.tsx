@@ -140,7 +140,6 @@ function Page() {
                 </a>
                 <section className={card}>
                   <h3 className="flex items-center font-serif text-2xl font-semibold uppercase"><Lock className="mr-2 size-6 text-gold" aria-hidden />Your privacy<Placeholder /></h3>
-                  <p className="mt-1 text-xs text-night-muted">Draft wording for Scott to approve. Not a legal promise.</p>
                   <ul className="mt-3 space-y-2 text-base text-[#F6F3EA]">
                     {PRIVACY.map((p) => <li key={p} className="flex gap-2"><span className="text-gold">•</span><span>{p}</span></li>)}
                   </ul>
@@ -152,7 +151,6 @@ function Page() {
 
           <section className="mt-10">
             <h2 className="font-serif text-3xl font-semibold uppercase">What happens next<Placeholder /></h2>
-            <p className="mt-1 text-xs text-night-muted">Draft steps for Scott to approve.</p>
             <ol className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {NEXT.map(([t, d], i) => (
                 <li key={t} className="rounded-[10px] border border-navy-line border-l-4 border-l-gold bg-navy-700 p-4">
