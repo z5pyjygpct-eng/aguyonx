@@ -10061,5 +10061,15 @@ export const HC_FTM_TRANSCRIPTS: FtmTranscript[] = [
     "engine": "whisper.cpp · large-v3-turbo",
     "generated": "2026-11-05",
     "sourceFile": "fxco-sb-M78osTz6R6U.srt"
+  },
+  {
+    "meetingId": "pwc-sb-R6RVWG_kAVw",
+    "venue": "pwc-schools",
+    "url": "/files/find-the-moment/pwc-schools/transcripts/pwc-sb-R6RVWG_kAVw.json",
+    "windowCount": 381,
+    "wordCount": 22210,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-11-09",
+    "sourceFile": "pwc-sb-R6RVWG_kAVw.srt"
   }
 ];

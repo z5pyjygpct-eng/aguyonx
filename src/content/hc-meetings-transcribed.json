@@ -10394,5 +10394,15 @@
     "duration": "9m",
     "provider": "youtube",
     "playerUrl": "https://www.youtube.com/watch?v=M78osTz6R6U"
+  },
+  {
+    "id": "pwc-sb-R6RVWG_kAVw",
+    "venue": "pwc-schools",
+    "title": "Prince William County School Board Meeting",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 4, 2026",
+    "duration": "2h 25m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=R6RVWG_kAVw"
   }
 ]

@@ -64319,5 +64319,43 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Recess to closed session."
       }
     ]
+  },
+  {
+    "slug": "pwc-sb-R6RVWG_kAVw",
+    "meetingId": "pwc-sb-R6RVWG_kAVw",
+    "venue": "pwc-schools",
+    "title": "Prince William County School Board Meeting",
+    "dateLabel": "Wednesday, November 4, 2026",
+    "whenWhere": "Prince William County School Board meeting · video 2h 25m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 10, 2026, 7:50 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Prince William County School Board's approved minutes. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=R6RVWG_kAVw"
+        },
+        {
+          "label": "School Board page (PWCS)",
+          "href": "https://www.pwcs.edu/about/school_board/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-schools/transcripts/coraggio-transcript-pwc-schools-2026-11-04-prince-william-county-school-board-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-schools/transcripts/coraggio-transcript-pwc-schools-2026-11-04-prince-william-county-school-board-meeting.txt",
+      "pdfNote": "39 pages"
+    },
+    "shareContext": "PWCS, Nov 4, 2026",
+    "moments": [
+      {
+        "seconds": 343,
+        "label": "Pledge of Allegiance."
+      }
+    ]
   }
 ];
