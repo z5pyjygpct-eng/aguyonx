@@ -62588,5 +62588,80 @@
     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=CL84YZ0DBC11"
    }
   ]
+ },
+ "pwc-sb-R6RVWG_kAVw": {
+  "decisions": [
+   {
+    "item": "1.02",
+    "action": "1.02 Approval of Agenda: Motion by Jennifer Wall, second by Lisa A Zargarpur.",
+    "tally": "Motion Passed 5-0",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LRL576882"
+    }
+   },
+   {
+    "item": "2.01",
+    "action": "2.01 Closed Session Motion: Motion by Jennifer Wall, second by Tracy L Blake.",
+    "tally": "Motion Passed 5-0",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LRL576882"
+    }
+   },
+   {
+    "item": "7.01",
+    "action": "7.01 Closed Session Certification: Motion by Jennifer Wall, second by Loree Williams.",
+    "tally": "Motion Passed 6-0 (Abstain: Erica C Tredinnick)",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LRL576882"
+    }
+   },
+   {
+    "item": "8.01",
+    "action": "8.01 Approval of Appointments and Releases of Specific Employees: Motion by Jennifer Wall, second by Loree Williams.",
+    "tally": "Motion Passed 6-0 (Abstain: Erica C Tredinnick)",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LRL576882"
+    }
+   },
+   {
+    "item": "8.02",
+    "action": "8.02 Grievance Appeal for Employee T27-003: Motion by Jennifer Wall, second by Tracy L Blake.",
+    "tally": "Motion Passed 6-0 (Abstain: Erica C Tredinnick)",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LRL576882"
+    }
+   },
+   {
+    "item": "11.01",
+    "action": "11.01 Adoption of Consent Agenda (4): Motion by Jennifer Wall, second by Tracy L Blake.",
+    "tally": "Motion Passed 6-0 (Not Present at Vote: Lisa A Zargarpur)",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LRL576882"
+    }
+   },
+   {
+    "item": "12.01",
+    "action": "12.01 Approval of Acknowledgements & Recognitions (4): Motion by Jennifer Wall, second by Loree Williams.",
+    "tally": "Motion Passed 5-0 (Abstain: Erica C Tredinnick; Not Present at Vote: Lisa A Zargarpur)",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LRL576882"
+    }
+   }
+  ],
+  "noVotesRecorded": false,
+  "votesSource": "boarddocs",
+  "links": [
+   {
+    "label": "Official minutes (PWCS BoardDocs): School Board Meeting",
+    "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LRL576882"
+   }
+  ]
  }
 }
