@@ -15,7 +15,18 @@ export const CHAMBERS: Chamber[] = ["house", "senate"];
 export type OutcomeTally = { total: number; signed: number; vetoed: number; passed: number; failed: number; tabled: number };
 export type CategoryTally = { n: number; signed: number; passed: number; failed: number; tabled: number };
 export type BillMode = "all" | "legis";
-export type BillAgg = { tally: OutcomeTally; categorized: number; uncategorized: number; categories: Record<string, CategoryTally> };
+export type BillAgg = { tally: OutcomeTally; categorized: number; official: number; uncategorized: number; categories: Record<string, CategoryTally> };
+
+/** Per-bill categories from tools/ga-members/party-categories.py: [labels, "o" = official LIS subject | "a" = aguyonx title rules]. */
+export type CategoryFile = { generated: string; bills: Record<string, [string[], "o" | "a"]> };
+/** Party tallies on final-passage / third-reading roll calls only, from scripts/build-ga-passage-votes.mjs. */
+export type PassageChamber = {
+  rollCallsWithMembers: number; rollCallsCounted: number; byKind: { passage: number; defeat: number; thirdReading: number; adoption: number };
+  party: Record<Party, { Y: number; N: number; A: number; X: number; withMajority: number; yeaNay: number }>;
+  unmatchedMemberVotes: number; matchedMemberVotes: number; unmatchedMembers: number;
+  agreement: { unanimous: number; sameSide: number; opposite: number; noMajority: number };
+};
+export type PassageFile = { generated: string; chambers: Record<Chamber, PassageChamber> };
 
 export type VoteAgg = { total: number; yea: number; nay: number; abstain: number; notVoting: number; withParty: number; againstParty: number };
 
@@ -49,28 +60,30 @@ export type PartyCompare = {
   data: Record<Chamber, Record<Party, PartyChamberAgg>>;
   keyVotes: Record<Chamber, KeyVoteRow[]>;
   tracker: Tracker;
+  passage: PassageFile;
   excludedHonor: Record<Chamber, Record<Party, number>>;
 };
 
-export const HONOR_CATEGORIES = new Set(["Memorial resolutions", "Commendations"]);
+export const HONOR_CATEGORIES = new Set(["Memorial resolutions", "Commendations", "Commemorations"]);
 /** 2-point buckets: "under 80", 80–81.9, 82–83.9, ... 98–100. */
 export const UNITY_BUCKETS = ["<80", ...Array.from({ length: 10 }, (_, i) => (i === 9 ? "98–100" : `${80 + 2 * i}–${81 + 2 * i}`))];
 const bucketOf = (pct: number) => (pct < 80 ? 0 : Math.min(Math.floor((pct - 80) / 2), 9) + 1);
 
 const HONOR_TITLE = /^(Celebrating the life of|Commending)\b/i;
 /** Honor resolution = LIS-title or category match, whatever its outcome (so tabled or failed commendations are removed too). */
-export const isHonor = (b: GaBill) => isHonorResolution(b) || HONOR_TITLE.test(b.title) || (b.categories ?? []).some((c) => HONOR_CATEGORIES.has(c));
+export const isHonor = (b: GaBill, cats: string[] = []) => isHonorResolution(b) || HONOR_TITLE.test(b.title) || cats.some((c) => HONOR_CATEGORIES.has(c));
 
 const emptyTally = (): OutcomeTally => ({ total: 0, signed: 0, vetoed: 0, passed: 0, failed: 0, tabled: 0 });
-const emptyBillAgg = (): BillAgg => ({ tally: emptyTally(), categorized: 0, uncategorized: 0, categories: {} });
+const emptyBillAgg = (): BillAgg => ({ tally: emptyTally(), categorized: 0, official: 0, uncategorized: 0, categories: {} });
 
-function addBill(a: BillAgg, b: GaBill) {
+function addBill(a: BillAgg, b: GaBill, entry: [string[], "o" | "a"] | undefined) {
   const t = a.tally;
   t.total++;
   t[b.outcome]++;
-  const cats = b.categories ?? [];
+  const cats = entry?.[0] ?? [];
   if (!cats.length) { a.uncategorized++; return; }
   a.categorized++;
+  if (entry?.[1] === "o") a.official++;
   for (const c of cats) {
     const e = (a.categories[c] ??= { n: 0, signed: 0, passed: 0, failed: 0, tabled: 0 });
     e.n++;
@@ -86,6 +99,8 @@ const VOTE_RE = /\((\d+)-Y (\d+)-N (\d+)-A\)/;
 export function buildPartyCompare(
   files: Record<Chamber, { generated: string; sources: string[]; floorRollCalls: number; members: GaMember[] }>,
   ledger: Ledger,
+  catFile: CategoryFile,
+  passage: PassageFile,
 ): PartyCompare {
   const data = {} as PartyCompare["data"];
   const keyVotes = { house: [], senate: [] } as PartyCompare["keyVotes"];
@@ -109,9 +124,10 @@ export function buildPartyCompare(
       a.members++;
       a.coPatron += Object.values(m.coPatronCounts ?? {}).reduce((s, n) => s + n, 0);
       for (const b of m.bills) {
-        addBill(a.bills.all, b);
-        if (isHonor(b)) excludedHonor[ch][m.party]++;
-        else addBill(a.bills.legis, b);
+        const entry = catFile.bills[`${b.session}|${b.bill}`];
+        addBill(a.bills.all, b, entry);
+        if (isHonor(b, entry?.[0])) excludedHonor[ch][m.party]++;
+        else addBill(a.bills.legis, b, entry);
       }
       const v = a.votes;
       v.total += m.votes.total; v.yea += m.votes.yea; v.nay += m.votes.nay; v.abstain += m.votes.abstain; v.notVoting += m.votes.notVoting;
@@ -164,6 +180,6 @@ export function buildPartyCompare(
   return {
     generated: files.house.generated > files.senate.generated ? files.house.generated : files.senate.generated,
     sources: [...new Set([...files.house.sources, ...files.senate.sources])],
-    floorRollCalls, data, keyVotes, tracker: tr, excludedHonor,
+    floorRollCalls, data, keyVotes, tracker: tr, excludedHonor, passage,
   };
 }

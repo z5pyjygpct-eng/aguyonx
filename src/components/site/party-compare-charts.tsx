@@ -22,14 +22,19 @@ const ratio = (n: number, d: number) => (d > 0 ? (100 * n) / d : null);
 function chambersOf(sel: ChamberSel): Chamber[] { return sel === "both" ? ["house", "senate"] : [sel]; }
 
 export function pooled(c: PartyCompare, sel: ChamberSel, p: Party, mode: BillMode) {
-  const out = { members: 0, coPatron: 0, tally: { total: 0, signed: 0, vetoed: 0, passed: 0, failed: 0, tabled: 0 } as OutcomeTally, categorized: 0, uncategorized: 0, categories: {} as Record<string, CategoryTally>,
+  const out = { members: 0, coPatron: 0, tally: { total: 0, signed: 0, vetoed: 0, passed: 0, failed: 0, tabled: 0 } as OutcomeTally, categorized: 0, official: 0, uncategorized: 0, categories: {} as Record<string, CategoryTally>,
+    pv: { Y: 0, N: 0, A: 0, X: 0, withMajority: 0, yeaNay: 0 }, passageCalls: 0, agreement: { unanimous: 0, sameSide: 0, opposite: 0, noMajority: 0 }, passageUnmatched: 0, passageMatched: 0,
     votes: { total: 0, yea: 0, nay: 0, abstain: 0, notVoting: 0, withParty: 0, againstParty: 0 }, unityHist: UNITY_BUCKETS.map(() => 0), unityMembers: 0, partial: 0, honor: 0 };
   for (const ch of chambersOf(sel)) {
     const a = c.data[ch][p];
     out.members += a.members; out.coPatron += a.coPatron; out.unityMembers += a.unityMembers; out.partial += a.partialTermMembers; out.honor += c.excludedHonor[ch][p];
     const b: BillAgg = a.bills[mode];
     (Object.keys(out.tally) as (keyof OutcomeTally)[]).forEach((k) => { out.tally[k] += b.tally[k]; });
-    out.categorized += b.categorized; out.uncategorized += b.uncategorized;
+    out.categorized += b.categorized; out.official += b.official; out.uncategorized += b.uncategorized;
+    const pc = c.passage.chambers[ch], pp = pc.party[p];
+    out.pv.Y += pp.Y; out.pv.N += pp.N; out.pv.A += pp.A; out.pv.X += pp.X; out.pv.withMajority += pp.withMajority; out.pv.yeaNay += pp.yeaNay;
+    out.passageCalls += pc.rollCallsCounted; out.passageUnmatched += pc.unmatchedMemberVotes; out.passageMatched += pc.matchedMemberVotes;
+    (Object.keys(out.agreement) as (keyof typeof out.agreement)[]).forEach((k) => { out.agreement[k] += pc.agreement[k]; });
     for (const [k, v] of Object.entries(b.categories)) {
       const e = (out.categories[k] ??= { n: 0, signed: 0, passed: 0, failed: 0, tabled: 0 });
       e.n += v.n; e.signed += v.signed; e.passed += v.passed; e.failed += v.failed; e.tabled += v.tabled;
@@ -168,15 +173,17 @@ export const METRICS: Metric[] = [
   { key: "signed", label: "Signed into law", method: "Share of the party's chief-patron measures whose LIS status is signed by the governor. Resolutions never go to the governor.", kind: "pct", value: (x) => ratio(x.tally.signed, x.tally.total), detail: (x) => `${fmt(x.tally.signed)} of ${fmt(x.tally.total)} measures` },
   { key: "failed", label: "Did not pass", method: "Share defeated, stricken or folded into another measure.", kind: "pct", value: (x) => ratio(x.tally.failed, x.tally.total), detail: (x) => `${fmt(x.tally.failed)} of ${fmt(x.tally.total)} measures` },
   { key: "tabled", label: "Left in committee or continued", method: "Share left in committee or continued to 2027 per LIS status.", kind: "pct", value: (x) => ratio(x.tally.tabled, x.tally.total), detail: (x) => `${fmt(x.tally.tabled)} of ${fmt(x.tally.total)} measures` },
-  { key: "yea", label: "Yea votes", method: "Of all floor roll-call records that list a member of the party (2026 sessions), the share recorded Yea.", kind: "pct", value: (x) => ratio(x.votes.yea, x.votes.total), detail: (x) => `${fmt(x.votes.yea)} of ${fmt(x.votes.total)} roll-call records` },
-  { key: "nay", label: "Nay votes", method: "Same denominator: the share recorded Nay.", kind: "pct", value: (x) => ratio(x.votes.nay, x.votes.total), detail: (x) => `${fmt(x.votes.nay)} of ${fmt(x.votes.total)} roll-call records` },
-  { key: "missed", label: "Not voting", method: "Same denominator: the share recorded as not voting (absent or no vote cast).", kind: "pct", value: (x) => ratio(x.votes.notVoting, x.votes.total), detail: (x) => `${fmt(x.votes.notVoting)} of ${fmt(x.votes.total)} roll-call records` },
-  { key: "unity", label: "Voted with own party's majority", method: "On roll calls where a party's majority voted one way, the share of yea/nay votes that matched that majority (LIS-derived field in the member data).", kind: "pct", value: (x) => ratio(x.votes.withParty, x.votes.withParty + x.votes.againstParty), detail: (x) => `${fmt(x.votes.withParty)} of ${fmt(x.votes.withParty + x.votes.againstParty)} yea/nay votes` },
+  { key: "yea", label: "Yea on final-passage votes", method: "Of the party's member votes on final-passage and third-reading roll calls (rule in Method below), the share recorded Yea.", kind: "pct", value: (x) => ratio(x.pv.Y, x.pv.Y + x.pv.N + x.pv.A + x.pv.X), detail: (x) => `${fmt(x.pv.Y)} of ${fmt(x.pv.Y + x.pv.N + x.pv.A + x.pv.X)} member votes` },
+  { key: "nay", label: "Nay on final-passage votes", method: "Same denominator: the share recorded Nay.", kind: "pct", value: (x) => ratio(x.pv.N, x.pv.Y + x.pv.N + x.pv.A + x.pv.X), detail: (x) => `${fmt(x.pv.N)} of ${fmt(x.pv.Y + x.pv.N + x.pv.A + x.pv.X)} member votes` },
+  { key: "missed", label: "Not voting on final-passage votes", method: "Same denominator: the share recorded as not voting (a small number also abstained).", kind: "pct", value: (x) => ratio(x.pv.X, x.pv.Y + x.pv.N + x.pv.A + x.pv.X), detail: (x) => `${fmt(x.pv.X)} of ${fmt(x.pv.Y + x.pv.N + x.pv.A + x.pv.X)} member votes (${fmt(x.pv.A)} abstained)` },
+  { key: "unityPass", label: "With own party's majority, final-passage votes", method: "On final-passage votes where the party's majority voted one way, the share of that party's yea/nay votes that matched the majority.", kind: "pct", value: (x) => ratio(x.pv.withMajority, x.pv.yeaNay), detail: (x) => `${fmt(x.pv.withMajority)} of ${fmt(x.pv.yeaNay)} yea/nay votes` },
+  { key: "unity", label: "With own party's majority, all floor roll calls", method: "On every floor roll call (passage, amendments and motions alike; LIS descriptions are not in the member summary) where a party's majority voted one way, the share of yea/nay votes that matched the majority.", kind: "pct", value: (x) => ratio(x.votes.withParty, x.votes.withParty + x.votes.againstParty), detail: (x) => `${fmt(x.votes.withParty)} of ${fmt(x.votes.withParty + x.votes.againstParty)} yea/nay votes` },
 ];
 export const METRIC_GROUPS: { title: string; keys: string[] }[] = [
   { title: "Who is in the room", keys: ["members"] },
   { title: "Bill activity (chief patron)", keys: ["bills", "co", "passed", "signed", "failed", "tabled"] },
-  { title: "Floor voting record", keys: ["yea", "nay", "missed", "unity"] },
+  { title: "Floor voting record: final-passage votes", keys: ["yea", "nay", "missed", "unityPass"] },
+  { title: "Floor voting record: all roll calls", keys: ["unity"] },
 ];
 
 export function FaceOff({ c, sel, mode }: { c: PartyCompare; sel: ChamberSel; mode: BillMode }) {
@@ -326,6 +333,40 @@ export function UnityHistogram({ c, sel }: { c: PartyCompare; sel: ChamberSel })
   );
 }
 
+/* ---------- FINAL-PASSAGE AGREEMENT ---------- */
+const AGREE = [
+  { k: "unanimous", label: "No dissent", color: "#7EE0A0", note: "Every recorded Yea/Nay vote went the same way" },
+  { k: "sameSide", label: "Both party majorities on the same side", color: "#3FB5A5", note: "Some members dissented, but a majority of each party voted the same way" },
+  { k: "opposite", label: "Party majorities on opposite sides", color: "#F5B82E", note: "A majority of Republicans and a majority of Democrats voted opposite ways" },
+  { k: "noMajority", label: "A party split evenly", color: "#6D86B0", note: "At least one party had no Yea/Nay majority" },
+] as const;
+export function PassageAgreement({ c, sel }: { c: PartyCompare; sel: ChamberSel }) {
+  const { bind, layer, container } = useTip();
+  const on = useGrow();
+  const rows = chambersOf(sel).map((ch) => ({ ch, p: c.passage.chambers[ch] }));
+  return (
+    <div {...container} className="relative rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-4 sm:p-7">
+      <ul className="mb-5 flex flex-wrap gap-x-5 gap-y-2 text-sm">{AGREE.map((a) => <li key={a.k} className="inline-flex items-center gap-2"><span aria-hidden className="size-3 rounded-sm" style={{ background: a.color }} />{a.label}</li>)}</ul>
+      <div className="space-y-6">
+        {rows.map(({ ch, p }) => (
+          <div key={ch}>
+            <div className="mb-1.5 flex flex-wrap items-baseline justify-between gap-2"><h3 className="font-serif text-xl font-bold uppercase">{ch === "house" ? "House of Delegates" : "Senate of Virginia"}</h3><span className="text-sm text-on-dark-muted">{fmt(p.rollCallsCounted)} final-passage roll calls</span></div>
+            <div className="flex h-11 overflow-hidden rounded-md bg-navy-900">
+              {AGREE.map((a) => p.agreement[a.k] ? (
+                <div key={a.k} {...bind(<><TipLine><b>{a.label}</b>: {fmt(p.agreement[a.k])} of {fmt(p.rollCallsCounted)} ({pct(p.agreement[a.k], p.rollCallsCounted)})</TipLine><div className="mt-0.5 text-on-dark-muted">{a.note}</div></>)}
+                  className="flex h-full items-center justify-center text-xs font-bold text-navy-900 outline-offset-[-2px] transition-[width,filter] duration-700 ease-out hover:brightness-125 focus-visible:brightness-125 motion-reduce:transition-none"
+                  style={{ width: on ? `${(p.agreement[a.k] / p.rollCallsCounted) * 100}%` : "0%", background: a.color }}>{p.agreement[a.k] / p.rollCallsCounted > 0.07 ? pct(p.agreement[a.k], p.rollCallsCounted, 0) : ""}</div>
+              ) : null)}
+            </div>
+            <p className="mt-1 text-xs tabular-nums text-night-muted">{AGREE.map((a) => `${a.label}: ${fmt(p.agreement[a.k])}`).join(" · ")}</p>
+          </div>
+        ))}
+      </div>
+      {layer}
+    </div>
+  );
+}
+
 /* ---------- KEY VOTES ---------- */
 function recLabel(a: string) {
   const m = a.match(/recommendation No\.?\s*(.+?)\s*\(/i);
@@ -466,7 +507,7 @@ export function CategoryChart({ c, sel, mode }: { c: PartyCompare; sel: ChamberS
       <div className="mt-6 grid gap-3 border-t border-navy-line/60 pt-4 text-xs text-night-muted sm:grid-cols-2">
         {([["R", R], ["D", D]] as const).map(([p, x]) => (
           <div key={p}>
-            <div className="mb-1 flex justify-between"><span className="font-semibold" style={{ color: P_COLOR[p] }}>{P_NAME[p]}: categorized</span><span className="tabular-nums">{fmt(x.categorized)} of {fmt(x.tally.total)} ({pct(x.categorized, x.tally.total, 0)})</span></div>
+            <div className="mb-1 flex justify-between"><span className="font-semibold" style={{ color: P_COLOR[p] }}>{P_NAME[p]}: categorized</span><span className="tabular-nums">{fmt(x.categorized)} of {fmt(x.tally.total)} ({pct(x.categorized, x.tally.total, 0)}){x.official ? ` · ${fmt(x.official)} from official LIS subjects` : ""}</span></div>
             <div className="h-2 overflow-hidden rounded-full bg-navy-900"><div className="h-full rounded-full transition-[width] duration-700 motion-reduce:transition-none" style={{ width: on ? pct(x.categorized, x.tally.total, 1) : "0%", background: P_COLOR[p] }} /></div>
           </div>
         ))}
