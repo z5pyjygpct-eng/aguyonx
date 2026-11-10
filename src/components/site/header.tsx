@@ -28,7 +28,7 @@ export const NAV_TOOLS = [
   { to: "/library/foia", label: "FOIA letter desk" },
   { to: "/2027", label: "2027 election" },
   { to: "/virginia-2027-bills", label: "Virginia 2027 bills" },
-  { to: "/data/republicans-vs-democrats", label: "Republicans vs. Democrats" },
+  { to: "/data/republicans-vs-democrats", label: "Visual Data" },
   { to: "/va-violent-crime-outcomes", label: "VA Violent Crime Outcomes" },
   { to: "/tips", label: "Got Tips?" },
 ] as const;
