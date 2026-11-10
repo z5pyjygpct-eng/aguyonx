@@ -1,16 +1,17 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, ExternalLink, Play } from "lucide-react";
+import { ArrowRight, ChevronDown, ExternalLink, Play } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import { GA_MEMBER_CONTACT } from "@/content/ga-member-contact";
 
-export type GaBill = { session: string; bill: string; title: string; outcome: "signed" | "vetoed" | "passed" | "failed" | "tabled"; status: string; statusDate: string; subjects: string[]; href: string };
+export type GaBill = { session: string; bill: string; title: string; outcome: "signed" | "vetoed" | "passed" | "failed" | "tabled"; status: string; statusDate: string; subjects: string[]; categories?: string[]; href: string };
 export type GaCounts = { total: number; passed: number; signed: number; vetoed: number; passedNoGovAction: number; failed: number; tabled: number };
 export type GaMember = {
   slug: string; name: string; district: number; party: "D" | "R"; lisId: string; chamber: "house" | "senate"; committees: string[];
   bills: GaBill[]; billCounts: Record<string, GaCounts>; coPatronCounts: Record<string, number>;
   subjectCounts: [string, number][]; subjectBills: number;
+  categoryCounts?: [string, number][]; categoryBills?: number;
   votes: { total: number; yea: number; nay: number; abstain: number; notVoting: number; withParty: number; againstParty: number };
   recentVotes: { date: string; session: string; vote: string; bills: { bill: string; title: string; action: string; voteHref: string }[]; moreBills: number }[];
 };
@@ -22,6 +23,7 @@ const VOTE: Record<string, { label: string; cls: string }> = {
   Y: { label: "Yea", cls: "text-[#7EE0A0]" }, N: { label: "Nay", cls: "text-[#FF7A85]" }, A: { label: "Abstain", cls: "text-gold" }, X: { label: "Not voting", cls: "text-night-muted" },
 };
 const OUT: Record<GaBill["outcome"], string> = { signed: "Signed", vetoed: "Vetoed", passed: "Passed", failed: "Failed", tabled: "Tabled / continued" };
+const OUT_CLS: Record<GaBill["outcome"], string> = { signed: "text-[#7EE0A0]", vetoed: "text-[#FF7A85]", passed: "text-[#7EE0A0]", failed: "text-[#FF7A85]", tabled: "text-gold" };
 const SUFFIX = /^(Jr\.?|Sr\.?|II|III|IV)$/;
 
 function dateLabel(iso: string) {
@@ -110,6 +112,95 @@ function SourceNote({ meta }: { meta: GaMeta }) {
     <p className="text-xs text-night-muted">
       Source: LIS public data files ({meta.sources.map((s, i) => <span key={s}>{i ? ", " : ""}<a href={s + "BILLS.CSV"} className="underline hover:text-white">{s.replace("https://", "")}</a></span>)}) — BILLS, HISTORY, VOTE, Sponsors, CommitteeMembers. Built {dateLabel(meta.generated)}. Floor roll calls only; committee votes excluded.
     </p>
+  );
+}
+
+
+function billsForGroup(bills: GaBill[], name: string, tags: (b: GaBill) => string[]) {
+  return bills.filter((b) => tags(b).includes(name));
+}
+
+function SubjectGroup({ name, bills, defaultOpen }: { name: string; bills: GaBill[]; defaultOpen: boolean }) {
+  const [open, setOpen] = useState(defaultOpen);
+  return (
+    <div className="border-b border-navy-line/70 last:border-b-0">
+      <button type="button" aria-expanded={open} onClick={() => setOpen(!open)} className="flex w-full items-center gap-3 px-3 py-2.5 text-left hover:bg-navy-600/40">
+        <ChevronDown className={`size-4 shrink-0 text-gold transition-transform ${open ? "" : "-rotate-90"}`} aria-hidden />
+        <span className="min-w-0 flex-1 font-semibold">{name}</span>
+        <span className="font-serif text-xl font-bold text-gold">{bills.length}</span>
+      </button>
+      {open ? (
+        <ul className="border-t border-navy-line/50 bg-navy-800">
+          {bills.map((b) => (
+            <li key={b.session + b.bill} className="px-3 py-2 text-sm">
+              <div className="flex items-baseline justify-between gap-3">
+                <a href={b.href} target="_blank" rel="noreferrer" className="font-mono font-semibold text-gold hover:underline">{b.bill}<ExternalLink className="ml-1 inline size-3" aria-hidden /></a>
+                <span className={`shrink-0 text-xs ${OUT_CLS[b.outcome]}`}>{OUT[b.outcome]}{b.session === "20262" ? " · Special I" : ""}</span>
+              </div>
+              <div className="text-on-dark-muted">{b.title}</div>
+            </li>
+          ))}
+        </ul>
+      ) : null}
+    </div>
+  );
+}
+
+function SubjectGroupList({ groups, bills, tags }: { groups: [string, number][]; bills: GaBill[]; tags: (b: GaBill) => string[] }) {
+  return (
+    <div className="overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+      {groups.map(([name]) => {
+        const list = billsForGroup(bills, name, tags);
+        return <SubjectGroup key={name} name={name} bills={list} defaultOpen={list.length > 0 && list.length <= 8} />;
+      })}
+    </div>
+  );
+}
+
+function BillSubjectsCard({ m }: { m: GaMember }) {
+  const official = m.subjectCounts ?? [];
+  const categories = m.categoryCounts ?? [];
+  const officialBills = m.subjectBills ?? 0;
+  const categoryBills = m.categoryBills ?? 0;
+  const uncategorized = m.bills.filter((b) => !(b.subjects && b.subjects.length) && !((b.categories ?? []).length));
+  const badge = official.length && categories.length ? "LIS subjects + aguyonx categories" : official.length ? "LIS subjects" : categories.length ? "aguyonx categories" : "LIS subjects";
+  const note = officialBills && categoryBills
+    ? `LIS has published official subjects for ${officialBills} of this member's ${m.bills.length} bills, shown first. The remaining ${categoryBills} ${categoryBills === 1 ? "bill is" : "bills are"} grouped by aguyonx categories based on each bill's official LIS title and summary.`
+    : officialBills && officialBills < m.bills.length
+      ? `LIS has published official subjects for ${officialBills} of this member's ${m.bills.length} bills so far.`
+      : officialBills
+        ? "Official LIS subjects for this member's 2026 bills."
+        : categoryBills
+          ? `LIS has not published official subjects for ${m.bills.length === 1 ? "this bill" : `these ${m.bills.length} bills`}. The groups below are aguyonx categories based on each bill's official LIS title and summary. Every bill links to its LIS page.`
+          : m.bills.length
+            ? `LIS has not published official subjects for this member's ${m.bills.length} bills, and no clear category could be taken from the official titles or summaries.`
+            : "No chief-patron bills in the 2026 LIS files.";
+  return (
+    <Card title="Bill subjects" badge={badge}>
+      {m.bills.length ? <p className="mb-4 text-xs text-night-muted">{note}</p> : null}
+      {official.length ? (
+        <div className="mb-5">
+          {categories.length || uncategorized.length ? <h3 className="mb-2 text-sm font-semibold tracking-wide text-gold uppercase">Official LIS subjects</h3> : null}
+          <SubjectGroupList groups={official} bills={m.bills} tags={(b) => b.subjects ?? []} />
+        </div>
+      ) : null}
+      {categories.length ? (
+        <div>
+          {official.length ? <h3 className="mb-2 text-sm font-semibold tracking-wide text-gold uppercase">aguyonx categories <span className="font-sans text-[11px] font-bold tracking-wide text-gold/80 normal-case">(from LIS titles and summaries)</span></h3> : null}
+          <SubjectGroupList groups={categories} bills={m.bills} tags={(b) => b.categories ?? []} />
+        </div>
+      ) : null}
+      {uncategorized.length ? (
+        <div className={official.length || categories.length ? "mt-5" : ""}>
+          <h3 className="mb-2 text-sm font-semibold tracking-wide text-gold uppercase">Uncategorized</h3>
+          <p className="mb-2 text-xs text-night-muted">No official LIS subject, and no clear category from the official LIS title or summary. Each bill still links to its LIS page.</p>
+          <div className="overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+            <SubjectGroup defaultOpen={uncategorized.length <= 8} name="Uncategorized" bills={uncategorized} />
+          </div>
+        </div>
+      ) : null}
+      {!m.bills.length ? <Soon text="No chief-patron bills in the 2026 LIS files." /> : null}
+    </Card>
   );
 }
 
@@ -209,14 +300,7 @@ export function GaMemberProfile({ m, meta }: { m: GaMember; meta: GaMeta }) {
             ) : <div className="mt-3"><Soon text="No chief-patron bills in the 2026 LIS files." /></div>}
           </Card>
           <div className="grid min-w-0 content-start gap-6">
-            <Card title="Bill subjects" badge="LIS subjects">
-              {m.subjectCounts.length ? (
-                <>
-                  <ul className="flex flex-wrap gap-2">{m.subjectCounts.map(([s, n]) => <li key={s} className="rounded-full border border-navy-line bg-navy-800 px-3 py-1 text-sm">{s} <span className="text-gold">{n}</span></li>)}</ul>
-                  <p className="mt-3 text-xs text-night-muted">LIS has published subjects for only {m.subjectBills} of this member's {m.bills.length} bills so far.</p>
-                </>
-              ) : <Soon text="LIS has not published subjects for this member's 2026 bills." />}
-            </Card>
+            <BillSubjectsCard m={m} />
             <Card title="Find the Moment">
               <a href={ftm} className="flex min-h-[72px] items-center gap-4 rounded-xl border border-navy-line border-l-4 border-l-gold bg-navy-800 px-5 py-3 hover:bg-navy-600">
                 <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-gold/15 text-gold"><Play className="size-5" aria-hidden /></span>
