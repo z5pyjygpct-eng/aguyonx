@@ -26,15 +26,24 @@ const bills = newFilings(ledger);
 const continued = continuedFilings(ledger);
 const mixed = [...bills, ...continued];
 
-test("published ledger keeps 20 new filings and 443 continued records", () => {
-  assert.equal(bills.length, 20);
+test("published ledger keeps 21 new filings and 443 continued records", () => {
+  assert.equal(bills.length, 21);
   assert.equal(continued.length, 443);
-  assert.equal(ledger.new_filings.length, 20);
+  assert.equal(ledger.new_filings.length, 21);
   assert.equal(ledger.continued.length, 443);
   assert.deepEqual(ledgerProblems(ledger), []);
   assert.equal(JSON.stringify(ledger).includes("source_fields"), false);
   assert.equal(ledger.meta.session_code, "20271");
-  assert.equal(new Set(bills.map((b) => b.bill_number)).size, 20);
+  assert.equal(new Set(bills.map((b) => b.bill_number)).size, 21);
+  const sb852 = bills.find((b) => b.bill_number === "SB852");
+  assert.ok(sb852);
+  assert.equal(sb852.title, "Virginia Clean Energy & Community Flood Preparedness Act; repeal, electric utility customer credit.");
+  assert.equal(sb852.chief_patron_name, "Bill DeSteph");
+  assert.equal(sb852.chief_patron_party_code, "R");
+  assert.equal(sb852.introduction_date, "11/9/2026");
+  assert.deepEqual(categoryIdsOf(sb852), ["energy-data-centers"]);
+  assert.equal(bills.find((b) => b.bill_number === "SB851")?.title, "Persons with disabilities; nondiscrimination, integration.");
+  assert.equal(bills.find((b) => b.bill_number === "SR173")?.title, "Lucas, L. Louise; seeking expulsion from Senate.");
   for (const bill of ledger.new_filings) assert.equal(isNewFiling(bill), true);
   for (const bill of ledger.continued) assert.equal(isContinued(bill), true);
   for (const bill of continued) {
@@ -44,16 +53,16 @@ test("published ledger keeps 20 new filings and 443 continued records", () => {
 });
 
 test("default filters and sort keep every new filing", () => {
-  assert.equal(filterBills(bills, {}).length, 20);
-  assert.equal(filterBills(mixed, {}).length, 20);
-  assert.equal(filterBills(mixed, { party: "R" }).length, 4);
+  assert.equal(filterBills(bills, {}).length, 21);
+  assert.equal(filterBills(mixed, {}).length, 21);
+  assert.equal(filterBills(mixed, { party: "R" }).length, 5);
   assert.equal(filterBills(continued, {}).length, 0);
   const sorted = sortBills(bills);
-  assert.equal(sorted.length, 20);
+  assert.equal(sorted.length, 21);
   assert.deepEqual(new Set(sorted.map((b) => b.bill_number)), new Set(bills.map((b) => b.bill_number)));
   const newest = sorted[0]!;
-  assert.equal(newest.bill_number, "SB851");
-  assert.equal(newest.introduction_date, "11/5/2026");
+  assert.equal(newest.bill_number, "SB852");
+  assert.equal(newest.introduction_date, "11/9/2026");
 });
 
 test("every bill is findable by its own number, title fragment, patron, category, chamber, party, and status", () => {
@@ -111,7 +120,7 @@ test("chamber, party, and status partitions cover every filing exactly once", ()
       assert.equal(hits.length, count, `${key}=${value}`);
       seen += hits.length;
     }
-    assert.equal(seen, 20, key);
+    assert.equal(seen, 21, key);
   }
 });
 
@@ -133,7 +142,7 @@ test("patron filter keeps co-patron bills and does not invent a party for them",
 
 test("a filter excludes only non-matches", () => {
   const house = filterBills(bills, { chamber: "House" });
-  assert.ok(house.length > 0 && house.length < 20);
+  assert.ok(house.length > 0 && house.length < 21);
   assert.ok(house.every((b) => b.chamber === "House"));
   const senateNumbers = new Set(bills.filter((b) => b.chamber === "Senate").map((b) => b.bill_number));
   for (const bill of house) assert.equal(senateNumbers.has(bill.bill_number), false);
@@ -141,7 +150,7 @@ test("a filter excludes only non-matches", () => {
   assert.equal(filterBills(bills, { category: "not-a-category" }).length, 0);
   const withSummary = bills.filter((b) => b.summary_plain);
   const without = bills.filter((b) => !b.summary_plain);
-  assert.equal(withSummary.length, 20);
+  assert.equal(withSummary.length, 21);
   assert.equal(without.length, 0);
   assert.ok(without.every((b) => b.summary_plain == null));
 });
@@ -149,9 +158,9 @@ test("a filter excludes only non-matches", () => {
 test("Republican and Democrat shortcuts follow the chief patron only", () => {
   const republican = filterBills(bills, { party: "R" });
   const democrat = filterBills(bills, { party: "D" });
-  assert.deepEqual(republican.map((b) => b.bill_number).sort(), ["HB1532", "HB1533", "HB1534", "SR173"]);
+  assert.deepEqual(republican.map((b) => b.bill_number).sort(), ["HB1532", "HB1533", "HB1534", "SB852", "SR173"]);
   assert.equal(democrat.length, 16);
-  assert.equal(republican.length + democrat.length, 20);
+  assert.equal(republican.length + democrat.length, 21);
   assert.ok(republican.every((b) => b.chief_patron_party_code === "R" && b.chief_patron_party === "Republican"));
   assert.ok(democrat.every((b) => b.chief_patron_party_code === "D" && b.chief_patron_party === "Democrat"));
   for (const number of ["SB839", "SB841", "SB843"]) {
@@ -165,10 +174,11 @@ test("Republican and Democrat shortcuts follow the chief patron only", () => {
   assert.deepEqual(filterBills(bills, { party: "D", q: "Favola" }).map((b) => b.bill_number).sort(), ["SB837", "SB844", "SB851"]);
   assert.equal(filterBills(bills, { party: "R", q: "Favola" }).length, 0);
   assert.deepEqual(filterBills(bills, { party: "R", q: "Cherry" }).map((b) => b.bill_number).sort(), ["HB1532", "HB1533"]);
-  assert.equal(filterBills(bills, {}).length, 20);
+  assert.equal(filterBills(bills, {}).length, 21);
+  assert.equal(filterBills(bills, { category: "energy-data-centers" }).some((b) => b.bill_number === "SB852"), true);
 });
 
-test("continued subset stays separate from the 20 new filings", () => {
+test("continued subset stays separate from the 21 new filings", () => {
   assert.equal(filterBills(mixed, { filing: "continued" }).length, 443);
   assert.equal(filterBills(mixed, { filing: "continued", party: "R" }).length, 140);
   assert.equal(filterBills(mixed, { filing: "continued", party: "D" }).length, 294);
@@ -183,7 +193,7 @@ test("continued subset stays separate from the 20 new filings", () => {
   assert.equal(filterBills(mixed, { q: "HB1003" }).length, 0);
   assert.deepEqual(filterBills(mixed, { filing: "continued", q: "HB1003" }).map((b) => b.bill_number), ["HB1003"]);
   const backToNew = filterBills(mixed, { party: "R" });
-  assert.equal(backToNew.length, 4);
+  assert.equal(backToNew.length, 5);
   assert.ok(backToNew.every((b) => isNewFiling(b)));
   assert.equal(filterBills(mixed, { filing: "new", chamber: "Senate" }).length, bills.filter((b) => b.chamber === "Senate").length);
   assert.ok(filterBills(mixed, { filing: "continued", category: "energy-data-centers" }).length === 0);

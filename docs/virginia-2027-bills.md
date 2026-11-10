@@ -95,9 +95,9 @@ They are not LIS subject codes. Confidence stays the value in the file:
 
 Do not invent a summary, a sponsor, a status, a party, or a subject to fill a hole. Leave the null and let the page say it is missing.
 
-## Capture 2026-11-07
+## Capture 2026-11-10
 
-The CoS watch handed Web a full `bills.json` captured `2026-11-07T08:27:41-05:00`. The install kept both arrays: 20 new filings and 443 continued. SB851 (Barbara A. Favola, Democrat) is the added new filing. All 20 new filings now have `SUMMARY AS INTRODUCED` text from `Summaries.csv`. Confidence on the previous 19 was not raised when those summaries were joined. SB851 is `disability-rights` at the confidence already in that ledger (`high`). Nine continued chief patrons have no roster party (HB96, HB377, HB382, HB635, HB638, HB1314, SB318, SB638, SB760). Their party stays null. Co-patron party is not filled in.
+The CoS watch handed Web a full `bills.json` captured `2026-11-10T08:26:42-05:00`. The install kept both arrays: 21 new filings and 443 continued. SB852 (Bill DeSteph, Republican) is the added new filing, category Energy & Data Centers at the ledger confidence (`high`). Official titles changed for SB851 (`nondiscrimination, integration.`) and SR173 (`Lucas, L. Louise; seeking expulsion from Senate.`). All 21 new filings have `SUMMARY AS INTRODUCED`. Confidence on the previous filings was not changed. Nine continued chief patrons still have no roster party (HB96, HB377, HB382, HB635, HB638, HB1314, SB318, SB638, SB760). Their party stays null. Co-patron party is not filled in.
 
 ## Page
 
