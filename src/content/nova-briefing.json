@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,195 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-10",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Monday, Nov 9) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched article page title, Nov 9 ET publish time confirmed in page metadata or feed). Sources checked: RSS from ARLnow, FFXnow, ALXnow, Annandale Today, Potomac Local, Blue Ridge Leader, WTOP local, Loudoun County news flash; Loudoun Now homepage and article pages (RSS returned HTTP 429; a few article pages also 429). 22 candidate pages checked, 0 failed verification, 20 kept. Left out: WTOP Bhatt trial story and Culmore Clinic story (locality not stated in the page text), Dulles concourse (straddles counties), Alexandria items, regional Metro and drone items, DC items, sponsored content.",
+      "items": [
+        {
+          "id": "chapman-chandler-spar-after-lcso-proposes-new-sro-agreement-loudounnow-2026-11-09",
+          "county": "Loudoun",
+          "headline": "Chapman, Chandler Spar After LCSO Proposes New SRO Agreement",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/chapman-chandler-spar-after-lcso-proposes-new-sro-agreement/article_3bf6c5fc-2100-4245-b84d-46d8b4fe1148.html",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "displacement-of-purcellville-apartments-residents-to-continu-loudounnow-2026-11-09",
+          "county": "Loudoun",
+          "headline": "Displacement of Purcellville Apartments Residents to Continue until Mid-December",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/displacement-of-purcellville-apartments-residents-to-continue-until-mid-december/article_47523d47-7941-489c-9324-14493df57196.html",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "driver-critically-hurt-in-lovettsville-crash-loudounnow-2026-11-09",
+          "county": "Loudoun",
+          "headline": "Driver Critically Hurt in Lovettsville Crash",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/driver-critically-hurt-in-lovettsville-crash/article_09d70b20-1c7c-4baa-8b33-c95234567a2b.html",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "south-riding-woman-seeks-answers-after-deputy-fatally-shoots-loudounnow-2026-11-09",
+          "county": "Loudoun",
+          "headline": "South Riding Woman Seeks Answers After Deputy Fatally Shoots Dog",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/south-riding-woman-seeks-answers-after-deputy-fatally-shoots-dog/article_7e8c6e1f-71c7-4c16-b030-ae440490b743.html",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "middleburg-celebrates-service-with-additional-veterans-banne-loudounnow-2026-11-09",
+          "county": "Loudoun",
+          "headline": "Middleburg Celebrates Service with Additional Veterans Banners",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/towns/middleburg-celebrates-service-with-additional-veterans-banners/article_e35b4b6e-7f6d-4c3c-9ddf-f5b6ee30ba31.html",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "what-s-happening-in-your-neighborhood-sheriff-s-office-relea-loudounnow-2026-11-09",
+          "county": "Loudoun",
+          "headline": "What’s Happening in Your Neighborhood? Sheriff’s Office Releases Little Crime Information After Radio Encryption",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/what-s-happening-in-your-neighborhood-sheriff-s-office-releases-little-crime-information-after-radio/article_d9630a70-4a75-466f-977b-1f4f3a38031b.html",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "potential-bump-in-metrobus-fares-raises-concerns-for-county-arlnow-2026-11-09",
+          "county": "Arlington",
+          "headline": "Potential bump in Metrobus fares raises concerns for County Board member",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/09/potential-bump-in-metrobus-fares-raises-concerns-for-county-board-member/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-parents-group-wants-polling-places-moved-out-of-sc-arlnow-2026-11-09",
+          "county": "Arlington",
+          "headline": "Arlington parents group wants polling places moved out of schools",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/09/arlington-parents-group-wants-polling-places-moved-out-of-schools/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "deer-sharpshooting-returns-next-month-in-several-arlington-p-arlnow-2026-11-09",
+          "county": "Arlington",
+          "headline": "Deer sharpshooting returns next month in several Arlington parks",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/09/deer-sharpshooting-returns-next-month-in-several-arlington-parks/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "acpd-driver-strikes-police-car-almost-runs-over-medics-while-arlnow-2026-11-09",
+          "county": "Arlington",
+          "headline": "ACPD: Driver strikes police car, almost runs over medics while fleeing near Rosslyn",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/09/acpd-driver-strikes-police-car-almost-runs-over-medics-while-fleeing-near-rosslyn/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "pedestrian-panel-wants-no-more-blockades-of-ice-in-crosswalk-arlnow-2026-11-09",
+          "county": "Arlington",
+          "headline": "Pedestrian panel wants no more ‘blockades of ice’ in crosswalks this winter",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/09/pedestrian-panel-wants-no-more-blockades-of-ice-in-crosswalks-this-winter/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-planning-commissioners-back-looser-accessory-dwellin-ffxnow-2026-11-09",
+          "county": "Fairfax",
+          "headline": "Fairfax planning commissioners back looser accessory dwelling rules than proposed by staff",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/09/fairfax-planning-commissioners-back-looser-accessory-dwelling-rules-than-proposed-by-staff/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcpd-man-charged-with-drunk-driving-after-crashing-into-dwi-ffxnow-2026-11-09",
+          "county": "Fairfax",
+          "headline": "FCPD: Man charged with drunk driving after crashing into DWI officer’s cruiser",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/09/fcpd-man-charged-with-drunk-driving-after-crashing-into-dwi-officers-cruiser/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "residential-redevelopment-of-longstanding-wolf-trap-nursery-ffxnow-2026-11-09",
+          "county": "Fairfax",
+          "headline": "Residential redevelopment of longstanding Wolf Trap Nursery site approved",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/09/residential-redevelopment-of-longstanding-wolf-trap-nursery-site-approved/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "reston-s-walker-nature-center-upgrades-wildlife-viewing-equi-ffxnow-2026-11-09",
+          "county": "Fairfax",
+          "headline": "Reston’s Walker Nature Center upgrades wildlife viewing equipment",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/09/restons-walker-nature-center-upgrades-wildlife-viewing-equipment/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "new-wildfire-to-close-tysons-galleria-restaurant-in-early-20-ffxnow-2026-11-09",
+          "county": "Fairfax",
+          "headline": "NEW: Wildfire to close Tysons Galleria restaurant in early 2027",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/09/new-wildfire-to-close-tysons-galleria-restaurant-in-early-2027/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-and-manassas-park-backed-democrats-and-the-abortion-potomaclocal-2026-11-09",
+          "county": "Prince William",
+          "headline": "Manassas and Manassas Park backed Democrats and the abortion amendment by wider margins than in 2024",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/09/manassas-manassas-park-backed-democrats-abortion-amendment-wider-margins-than-2024/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-13-year-old-robbed-of-shoes-near-manassas-woo-potomaclocal-2026-11-09",
+          "county": "Prince William",
+          "headline": "Police Blotter: 13-year-old robbed of shoes near Manassas; Woodbridge woman charged after brandishing gun at teen",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/09/police-blotter-2026-11-09/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-city-public-schools-no-school-wednesday-nov-11-for-potomaclocal-2026-11-09",
+          "county": "Prince William",
+          "headline": "Manassas City Public Schools: no school Wednesday, Nov. 11, for Veterans Day",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/09/manassas-city-public-schools-veterans-day-no-school-nov-11/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-residents-to-take-part-in-national-veterans-d-potomaclocal-2026-11-09",
+          "county": "Prince William",
+          "headline": "Prince William residents to take part in national Veterans Day ceremonies",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/09/prince-william-residents-national-veterans-day-ceremonies/",
+          "published": "2026-11-09",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-11-09",
       "status": "ok",
