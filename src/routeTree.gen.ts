@@ -42,6 +42,7 @@ import { Route as CountiesIndexRouteImport } from './routes/counties.index'
 import { Route as CountiesLoudounRouteImport } from './routes/counties.loudoun'
 import { Route as DashboardsIndexRouteImport } from './routes/dashboards.index'
 import { Route as DashboardsGeneralAssemblyRouteImport } from './routes/dashboards.general-assembly'
+import { Route as DataRepublicansVsDemocratsRouteImport } from './routes/data.republicans-vs-democrats'
 import { Route as FindTheMomentLocalityRouteImport } from './routes/find-the-moment_.$locality'
 import { Route as GeneralAssemblyIndexRouteImport } from './routes/general-assembly.index'
 import { Route as GeneralAssemblyHouseRouteImport } from './routes/general-assembly.house'
@@ -326,6 +327,12 @@ const DashboardsGeneralAssemblyRoute =
   DashboardsGeneralAssemblyRouteImport.update({
     id: '/dashboards/general-assembly',
     path: '/dashboards/general-assembly',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DataRepublicansVsDemocratsRoute =
+  DataRepublicansVsDemocratsRouteImport.update({
+    id: '/data/republicans-vs-democrats',
+    path: '/data/republicans-vs-democrats',
     getParentRoute: () => rootRouteImport,
   } as any)
 const FindTheMomentLocalityRoute = FindTheMomentLocalityRouteImport.update({
@@ -1042,6 +1049,7 @@ export interface FileRoutesByFullPath {
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
   '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
+  '/data/republicans-vs-democrats': typeof DataRepublicansVsDemocratsRoute
   '/find-the-moment/$locality': typeof FindTheMomentLocalityRoute
   '/general-assembly/house': typeof GeneralAssemblyHouseRouteWithChildren
   '/general-assembly/senate': typeof GeneralAssemblySenateRouteWithChildren
@@ -1188,6 +1196,7 @@ export interface FileRoutesByTo {
   '/virginia-2027-bills': typeof Virginia2027BillsRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
+  '/data/republicans-vs-democrats': typeof DataRepublicansVsDemocratsRoute
   '/find-the-moment/$locality': typeof FindTheMomentLocalityRoute
   '/investigations/$slug': typeof InvestigationsSlugRoute
   '/library/foia': typeof LibraryFoiaRoute
@@ -1341,6 +1350,7 @@ export interface FileRoutesById {
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
   '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
+  '/data/republicans-vs-democrats': typeof DataRepublicansVsDemocratsRoute
   '/find-the-moment_/$locality': typeof FindTheMomentLocalityRoute
   '/general-assembly/house': typeof GeneralAssemblyHouseRouteWithChildren
   '/general-assembly/senate': typeof GeneralAssemblySenateRouteWithChildren
@@ -1497,6 +1507,7 @@ export interface FileRouteTypes {
     | '/cities/$city'
     | '/counties/loudoun'
     | '/dashboards/general-assembly'
+    | '/data/republicans-vs-democrats'
     | '/find-the-moment/$locality'
     | '/general-assembly/house'
     | '/general-assembly/senate'
@@ -1643,6 +1654,7 @@ export interface FileRouteTypes {
     | '/virginia-2027-bills'
     | '/articles/$slug'
     | '/dashboards/general-assembly'
+    | '/data/republicans-vs-democrats'
     | '/find-the-moment/$locality'
     | '/investigations/$slug'
     | '/library/foia'
@@ -1795,6 +1807,7 @@ export interface FileRouteTypes {
     | '/cities/$city'
     | '/counties/loudoun'
     | '/dashboards/general-assembly'
+    | '/data/republicans-vs-democrats'
     | '/find-the-moment_/$locality'
     | '/general-assembly/house'
     | '/general-assembly/senate'
@@ -1947,6 +1960,7 @@ export interface RootRouteChildren {
   VideosRoute: typeof VideosRoute
   Virginia2027BillsRoute: typeof Virginia2027BillsRoute
   DashboardsGeneralAssemblyRoute: typeof DashboardsGeneralAssemblyRoute
+  DataRepublicansVsDemocratsRoute: typeof DataRepublicansVsDemocratsRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
   MockupsSlugRoute: typeof MockupsSlugRoute
   MockupsMeetingsRoute: typeof MockupsMeetingsRoute
@@ -2281,6 +2295,13 @@ declare module '@tanstack/react-router' {
       path: '/dashboards/general-assembly'
       fullPath: '/dashboards/general-assembly'
       preLoaderRoute: typeof DashboardsGeneralAssemblyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/data/republicans-vs-democrats': {
+      id: '/data/republicans-vs-democrats'
+      path: '/data/republicans-vs-democrats'
+      fullPath: '/data/republicans-vs-democrats'
+      preLoaderRoute: typeof DataRepublicansVsDemocratsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/find-the-moment_/$locality': {
@@ -3294,6 +3315,7 @@ const rootRouteChildren: RootRouteChildren = {
   VideosRoute: VideosRoute,
   Virginia2027BillsRoute: Virginia2027BillsRoute,
   DashboardsGeneralAssemblyRoute: DashboardsGeneralAssemblyRoute,
+  DataRepublicansVsDemocratsRoute: DataRepublicansVsDemocratsRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
   MockupsSlugRoute: MockupsSlugRoute,
   MockupsMeetingsRoute: MockupsMeetingsRoute,
