@@ -15,6 +15,10 @@ import { HC_RECAPS } from "./city-recaps-hc";
 type Fill = {
   decisions?: CityRecap["decisions"];
   noVotesRecorded?: boolean;
+  /** FCPS scanned minutes read by text recognition (OCR): shown above the votes. */
+  scanNote?: string;
+  /** Scanned minutes too unclear to read votes reliably: no votes published, recap says so and links the minutes. */
+  scanFlag?: string;
   agenda?: CityRecap["agenda"];
   moments?: (CityRecap["moments"][number] & { how?: string })[];
   /** Extra official-record links (e.g. Albemarle ESB agenda); appended, never replacing. */
@@ -44,6 +48,8 @@ function applyFill(r: CityRecap): CityRecap {
     agenda,
     moments,
     noVotesRecorded,
+    scanNote: decisions.length || noVotesRecorded ? f.scanNote : undefined,
+    scanFlag: !decisions.length ? f.scanFlag : undefined,
     official: {
       ...r.official,
       links: [...r.official.links, ...(f.links ?? []).filter((l) => !r.official.links.some((x) => x.href === l.href))],
@@ -52,12 +58,14 @@ function applyFill(r: CityRecap): CityRecap {
         ? "Actions and tallies below are copied from the official minutes linked here. Nothing is inferred from video or transcript."
         : noVotesRecorded
           ? "The official minutes for this meeting record no votes (discussion only)."
-          : r.official.note,
+          : f.scanFlag && !decisions.length
+            ? f.scanFlag
+            : r.official.note,
     },
   };
 }
 
-export type CityRecap = Omit<LoudounRecap, "venue"> & { venue: CityVenueId; noVotesRecorded?: boolean };
+export type CityRecap = Omit<LoudounRecap, "venue"> & { venue: CityVenueId; noVotesRecorded?: boolean; scanNote?: string; scanFlag?: string };
 
 const CITY_RECAPS_RAW: CityRecap[] = [
   {

@@ -5,8 +5,10 @@ Votes come ONLY from official records, each decision carries its source link. Ne
   fairfax-county-bos  : Clerk's Board Summary PDF ("Report of Actions"), fairfaxcounty.gov/boardofsupervisors/board-meeting-summaries
                         (full-Board meetings only; committee meetings have no posted action record -> stay pending)
   fairfax-county-schools: FCPS BoardDocs (vsba/fairfax) structured minutes (BD-GetMinutes) for the matching meeting;
-                        if empty, OCR of the meeting's own APPROVED scanned minutes PDF (scripts/fcps_minutes_ocr.py, needs
-                        /workspace/ocrenv with rapidocr_onnxruntime; strict roster/12-vote/date gate, else stays pending; --no-ocr skips)
+                        if empty, OCR of the meeting's own APPROVED scanned minutes PDF (scripts/fcps_minutes_ocr.py +
+                        fcps_minutes_relaxed.py, needs /workspace/ocrenv with rapidocr_onnxruntime; relaxed bar 2026-11-10:
+                        publish a vote when the tally accounts for every member the minutes show present, or publish the
+                        stated outcome only; withhold a meeting when under half its recorded votes are readable; --no-ocr skips)
   pwc-bos             : PWC Board of County Supervisors "Brief" (official action record) on pwcgov.granicus.com MinutesViewer, by clip id
   pwc-schools         : PWCS BoardDocs (vsba/pwcs) structured minutes (BD-GetMinutes)
 Writes/merges src/content/city-recap-fill.json (decisions, noVotesRecorded, links), applied by city-recaps.ts applyFill.
@@ -282,6 +284,7 @@ def main():
     for r in recaps:
         if only and r["slug"] not in only: continue
         v, dec, link, kind = r["venue"], None, None, ""
+        scan = flagged = novotes = None
         d = ymd(r["dateLabel"])
         if v == "fairfax-county-bos":
             if re.search(r"Board of Supervisors (Meeting|Budget Public Hearing)$", r["title"]) and d in ffx_idx:
@@ -316,15 +319,46 @@ def main():
                     # FCPS posts most approved minutes only as scanned PDFs: OCR fallback (scripts/fcps_minutes_ocr.py)
                     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
                     import fcps_minutes_ocr
-                    got, info = fcps_minutes_ocr.fcps_ocr_votes(m["unique"], d, curl, cache, lab)
+                    got, info, meta = fcps_minutes_ocr.fcps_ocr_votes(m["unique"], d, curl, cache, lab)
+                    closed_clip = bool(re.search(r"closed meeting", r["title"], re.I))
                     if got:
-                        sub = r["title"].split(" — ")[1] if " — " in r["title"] else ""
-                        if sub: got = [x for x in got if re.search(r"closed", x["_title"] + x["action"], re.I)]
-                        dec, link, kind = got, info, "boarddocs-ocr"
+                        if closed_clip:
+                            got = [x for x in got if re.search(r"closed", (x.get("_title") or "") + x["action"], re.I)]
+                        if got:
+                            dec, link, kind = got, info, "boarddocs-ocr"
+                            scan = {"note": fcps_minutes_ocr.OCR_NOTE, "stats": {k: meta[k] for k in ("bar", "total", "A", "B", "C") if k in meta}}
+                            if meta.get("C") or meta.get("B"):
+                                bits = []
+                                if meta.get("B"): bits.append(f"{meta['B']} vote(s) show only the outcome stated in the minutes, with no tally, because the count could not be read reliably")
+                                if meta.get("C"): bits.append(f"{meta['C']} recorded vote(s) were too unclear to read and are not listed")
+                                tx = "; ".join(bits)
+                                scan["note"] += " " + tx[0].upper() + tx[1:] + "."
+                        else:
+                            # companion closed-meeting clip: other votes belong on the main recap
+                            novotes = info
+                            scan = {"note": fcps_minutes_ocr.CLOSED_NOVOTES_NOTE, "closed_companion": True}
+                    elif isinstance(info, dict) and meta.get("novotes"):
+                        novotes = info
+                    elif isinstance(info, dict) and meta.get("flag"):
+                        # scanned minutes exist but are too garbled: publish nothing, flag the recap and link the minutes
+                        flagged = {"link": info, "meta": meta}
                     else:
                         r["_why"] = info
             if kind != "boarddocs-ocr": kind = "boarddocs"
         prev = fill.get(r["slug"], {})
+        if dec is None and novotes and not prev.get("decisions"):
+            note = (scan or {}).get("note") if (scan or {}).get("closed_companion") else fcps_minutes_ocr.NOVOTES_NOTE
+            fill[r["slug"]] = dict(prev, decisions=[], noVotesRecorded=True, votesSource="boarddocs-ocr", scanNote=note,
+                                   links=[l for l in prev.get("links", []) if l["href"] != novotes["href"]] + [novotes])
+            fill[r["slug"]].pop("scanStats", None); fill[r["slug"]].pop("scanFlag", None)
+            why = "ocr: no separate closed-meeting vote in scanned minutes" if (scan or {}).get("closed_companion") else "ocr: no motions/votes in scanned minutes"
+            report.append((v, r["slug"], r["dateLabel"], "no-votes-in-record", 0, why)); continue
+        if dec is None and flagged and not prev.get("decisions"):
+            fill[r["slug"]] = dict(prev, scanFlag=fcps_minutes_ocr.FLAG_TEXT, noVotesRecorded=False, votesSource="boarddocs-ocr-flag",
+                                   links=[l for l in prev.get("links", []) if l["href"] != flagged["link"]["href"]] + [flagged["link"]],
+                                   scanStats={k: flagged["meta"].get(k) for k in ("total", "A", "B", "C") if k in flagged["meta"]})
+            report.append((v, r["slug"], r["dateLabel"], "flagged", 0, flagged["meta"].get("why") or "; ".join(f"{a}: {b}" for a, b in flagged["meta"].get("reasons", [])[:3])))
+            continue
         if dec is None:
             report.append((v, r["slug"], r["dateLabel"], "pending", 0, r.get("_why", ""))); continue
         for x in dec: x.pop("_title", None)
@@ -333,6 +367,7 @@ def main():
         f["decisions"] = dec + keep
         f["noVotesRecorded"] = len(f["decisions"]) == 0
         f["votesSource"] = kind
+        if scan: f["scanNote"], f["scanStats"] = scan["note"], scan["stats"]; f.pop("scanFlag", None)
         f["links"] = [l for l in prev.get("links", []) if l["href"] != link["href"]] + [link]
         fill[r["slug"]] = f
         report.append((v, r["slug"], r["dateLabel"], "votes" if f["decisions"] else "no-votes-in-record", len(f["decisions"])))

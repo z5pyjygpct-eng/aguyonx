@@ -386,7 +386,11 @@ routines, Official votes watch), run `npm run recaps:enrich` before build/commit
 - `scripts/fairfax-recap-fill.py`: Fairfax City council + schools (Granicus agenda, minutes, video index).
 - `scripts/ffx-pw-votes.py`: official votes for Fairfax County BOS (Clerk's Board Summary PDF, full-Board meetings
   only; committees have no action record), FCPS (BoardDocs vsba/fairfax structured minutes; final minutes that are
-  only scanned PDFs are skipped, no OCR), PWC BOCS (Granicus "Brief", MinutesViewer view_id=23 clip_id from the slug)
+  only scanned PDFs are read by OCR with the relaxed bar in `scripts/fcps_minutes_relaxed.py`: each vote is graded
+  A = tally published only if it accounts for every member the minutes' own attendance list shows present (members
+  marked Absent are not expected; a dropped name fails it), B = stated outcome only, no number, C = unreadable and not
+  published; a meeting under half readable is flagged "scan too unclear, see minutes"; needs rapidocr in /workspace/ocrenv,
+  `--no-ocr` skips; each OCR recap carries a visible "read by text recognition" note + link to the official minutes), PWC BOCS (Granicus "Brief", MinutesViewer view_id=23 clip_id from the slug)
   and PWCS (BoardDocs vsba/pwcs minutes). Every decision carries its source link; recaps with no record yet stay
   "votes not yet posted" and are never held. Re-run anytime (`--only slug,...`, `--refresh`); merges, never removes.
 - `scripts/albemarle-recap-fill.py`: Albemarle School Board. Agenda from ACPS ElectronicSchoolBoard

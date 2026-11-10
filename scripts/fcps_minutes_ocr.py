@@ -7,7 +7,7 @@ Requires RapidOCR in /workspace/ocrenv (pip install rapidocr_onnxruntime) and po
 Quality gate: every vote name must fuzzy-match the board roster and Yes+No+Abstain+NotPresent must equal 12;
 any failing motion makes the whole meeting stay pending (returns None).
 """
-import os, re, subprocess, json, difflib, sys, urllib.parse
+import os, re, subprocess, json, difflib, sys, urllib.parse, glob
 
 OCR_PY = os.environ.get("OCR_PY", "/workspace/ocrenv/bin/python")
 BOARD = ["Karl Frisch", "Ricardy Anderson", "Kyle McDaniel", "Melanie K. Meren", "Rachna Sizemore Heizer",
@@ -34,6 +34,27 @@ def ocr_pdf(pdf, cache_txt, dpi=200):
             " for b in rows: print(b[1])\n print('=====PAGE=====')\n")
     out = subprocess.run([OCR_PY, "-c", code, d], capture_output=True, text=True, check=True).stdout
     open(cache_txt, "w").write(out); return out
+
+
+def ocr_pages(pdf, pages, dpi=300):
+    """OCR only the given 1-based pages at dpi; per-page text cached. -> {page: text}"""
+    out, todo = {}, []
+    for n in pages:
+        c = f"{pdf}.{dpi}.p{n}.txt"
+        if os.path.exists(c): out[n] = open(c).read()
+        else: todo.append(n)
+    if todo:
+        d = f"{pdf}.{dpi}.pp"; os.makedirs(d, exist_ok=True)
+        for n in todo: subprocess.run(["pdftoppm", "-r", str(dpi), "-png", "-f", str(n), "-l", str(n), pdf, f"{d}/q{n}"], check=True)
+        code = ("import sys,glob\nfrom rapidocr_onnxruntime import RapidOCR\no=RapidOCR()\n"
+                "for p in sys.argv[2:]:\n r,_=o(p)\n rows=sorted(r or [],key=lambda b:(round(b[0][0][1]/12),b[0][0][0]))\n"
+                " print('\\n'.join(b[1] for b in rows)); print('=====PAGE=====')\n")
+        imgs = []
+        for n in todo: imgs += sorted(glob.glob(f"{d}/q{n}-*.png"))
+        res = subprocess.run([OCR_PY, "-c", code, "x"] + imgs, capture_output=True, text=True, check=True).stdout.split("=====PAGE=====\n")
+        for n, t in zip(todo, res):
+            open(f"{pdf}.{dpi}.p{n}.txt", "w").write(t); out[n] = t
+    return out
 
 def match_name(tok):
     k = KEY(tok)
@@ -258,29 +279,74 @@ def _clean(lst):
     for x in lst: x.pop("_key", None)
     return lst
 
+NOVOTES_NOTE = ("Read by text recognition (OCR) from the scanned official minutes: no motions or votes appear in them. "
+                "Check the official minutes linked in Sources.")
+CLOSED_NOVOTES_NOTE = ("The official minutes for this closed-meeting announcement or confirmation did not include a separate identifiable closed-meeting vote that could be published here. "
+                       "Other actions from the same minutes appear on the companion meeting recap. Check the official minutes linked in Sources.")
+FLAG_TEXT = "Official minutes scan too unclear to read votes reliably; see the official minutes linked in Sources."
+OCR_NOTE = ("Votes on this page were read by text recognition (OCR) from scanned official minutes, not typed by hand. "
+            "Check them against the official minutes linked in Sources.")
+
 def fcps_ocr_votes(meeting_unique, d, curl, cache, label):
-    """find this meeting's own approved-minutes PDF on its BoardDocs agenda and OCR it. Returns (decisions, link) or (None, reason)."""
-    if not os.path.exists(OCR_PY): return None, "no-ocr-env"
+    """find this meeting's own approved-minutes PDF on its BoardDocs agenda and OCR it.
+    Returns (decisions, link, meta) or (None, reason_or_link, meta). meta: {"bar": "strict"|"relaxed", "A","B","C","total", "flag": bool}
+    Bar 1 (strict, unchanged): every vote accounts for all 12 members (or the committee roster), both passes agree.
+    Bar 2 (relaxed, 2026-11-10, scripts/fcps_minutes_relaxed.py): per-vote grades A (numbers, attendance-consistent) / B (stated outcome only,
+    no number) / C (unreadable, not published). A meeting is published when at least half its recorded votes are A or B; otherwise it is flagged."""
+    import fcps_minutes_relaxed as fr
+    if not os.path.exists(OCR_PY): return None, "no-ocr-env", {}
     B, CID = "https://go.boarddocs.com/vsba/fairfax/Board.nsf", "A9HDX937D70D"
     ag = curl(f"{B}/BD-GetAgenda?open", f"bdag-{meeting_unique}.html", post=f"id={meeting_unique}&current_committee_id={CID}", referer=f"{B}/Public", keep=False)
     t = open(ag, errors="ignore").read() if ag else ""
     items = [i for i in minutes_items(t) if not re.search(r"approv(al|e) of", i[2], re.I)]
-    if not items: return None, "no-minutes-item"
+    if not items: return None, "no-minutes-item", {}
     cands = []
     for u, _o, title in items:
         f = curl(f"{B}/BD-GetPublicFiles?open", f"bdpf-{u}.html", post=f"id={u}&current_committee_id={CID}", referer=f"{B}/Public", keep=False)
         for h in re.findall(r'href="([^"]+\.pdf)"', open(f, errors="ignore").read(), re.I) if f else []:
             if approved_file(urllib.parse.unquote(h), title): cands.append(h)
-    if not cands: return None, "minutes-not-approved-or-not-posted"
+    if not cands: return None, "minutes-not-approved-or-not-posted", {}
+    best, first_link, why, novotes = None, None, "ocr-doubtful", None
     for h in cands:
         url = "https://go.boarddocs.com" + h if h.startswith("/") else h
         name = "fcpsmin-" + re.sub(r"\W", "_", h.split("/pfiles/")[-1])[:120] + ".pdf"
         pdf = curl(url, name, referer=f"{B}/Public")
         if not pdf: continue
         src = {"label": f"Official approved minutes ({label}, scanned PDF)", "href": url}
-        got = votes_for_pdf(pdf, src, d, full_board=not re.search(r"committee|commitee|audit|governance|budget|cpdc|pec\b|admin", urllib.parse.unquote(h), re.I))
-        if got: return got, {"label": f"Official approved minutes ({label}): {urllib.parse.unquote(h.split('/')[-1])}", "href": url}
-    return None, "ocr-doubtful-or-date-mismatch"
+        link = {"label": f"Official approved minutes ({label}): {urllib.parse.unquote(h.split('/')[-1])}", "href": url}
+        first_link = first_link or link
+        committee = bool(re.search(r"committee|commitee|audit|governance|budget|cpdc|pec\b|admin", urllib.parse.unquote(h), re.I))
+        t2 = ocr_pdf(pdf, f"{pdf}.200.txt", 200)
+        fin, why = fr.relaxed_for_text(t2, None, src, d, committee)
+        if fin is not None and any(x["grade"] != "A" for x in fin):
+            # retry only the pages holding unresolved votes (and the next page, where a list may continue) at 300 dpi
+            pages = t2.split("=====PAGE=====")
+            fr_pos = [m.start() for m in re.finditer(r"(?im)^\W*Final\W*Resolution", t2)]
+            need = set()
+            for k, x in enumerate(fin):
+                if x["grade"] != "A" and k < len(fr_pos):
+                    pg = t2[:fr_pos[k]].count("=====PAGE=====")
+                    need |= {pg + 1, min(pg + 2, len(pages) - 1 or 1)}
+            hi = ocr_pages(pdf, sorted(n for n in need if 1 <= n <= max(1, len(pages) - 1)), 300)
+            hyb = "=====PAGE=====".join(hi.get(i + 1, pg) for i, pg in enumerate(pages))
+            fin, why = fr.relaxed_for_text(t2, hyb, src, d, committee)
+        if fin is None:
+            if why == "no-recorded-votes-found" and not re.search(r"\bmotion|\bvot|yes\W*:|carries|unanimous|\bayes?\b", t2, re.I):
+                novotes = link
+            continue
+        dec, st = fr.summarize(fin)
+        st["link"] = link
+        if best is None or st["A"] * 2 + st["B"] > best[1]["A"] * 2 + best[1]["B"]: best = (dec, st, link)
+    if best and (best[1]["A"] + best[1]["B"]) >= 1 and (best[1]["A"] + best[1]["B"]) * 2 >= best[1]["total"]:
+        dec, st, link = best
+        return dec, link, {"bar": "relaxed", "total": st["total"], "A": st["A"], "B": st["B"], "C": st["C"], "flag": False, "reasons": st["reasons"]}
+    if novotes and not best:
+        return None, novotes, {"bar": "relaxed", "novotes": True, "flag": False}
+    if first_link:
+        m = {"bar": "relaxed", "flag": True, "why": why}
+        if best: m.update(total=best[1]["total"], A=best[1]["A"], B=best[1]["B"], C=best[1]["C"], reasons=best[1]["reasons"])
+        return None, first_link, m
+    return None, "ocr-doubtful-or-date-mismatch", {}
 
 if __name__ == "__main__":
     print(json.dumps(votes_for_pdf(sys.argv[1], {"label": "test", "href": ""}), indent=1))

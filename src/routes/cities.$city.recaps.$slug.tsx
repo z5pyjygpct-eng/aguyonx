@@ -99,6 +99,12 @@ function RecapPage() {
               <section className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 px-4 py-5 sm:px-6">
                 <Kicker className="text-gold">What was decided · How each member voted</Kicker>
                 {recap.official.votesPosted && recap.decisions.length > 0 ? (
+                  <>
+                  {recap.scanNote ? (
+                    <aside className="mt-3 rounded-r-md border-l-4 border-gold bg-gold/10 px-4 py-3 text-sm text-[#F6F3EA]">
+                      <strong className="font-semibold">Read from scanned minutes.</strong> {recap.scanNote}
+                    </aside>
+                  ) : null}
                   <ul className="mt-3 space-y-3">
                     {recap.decisions.map((d, di) => (
                       <li key={`${di}-${d.item}`} className="text-sm">
@@ -111,10 +117,16 @@ function RecapPage() {
                       </li>
                     ))}
                   </ul>
+                  </>
+                ) : recap.scanFlag ? (
+                  <aside className="mt-3 rounded-r-md border-l-4 border-gold bg-gold/10 px-4 py-3 text-sm text-[#F6F3EA]">
+                    <strong className="font-semibold">Votes not read from the scanned minutes.</strong> {recap.scanFlag}
+                    <span className="mt-1 block text-xs">Last checked {recap.official.checkedLabel}.</span>
+                  </aside>
                 ) : recap.noVotesRecorded ? (
                   <aside className="mt-3 rounded-r-md border-l-4 border-border bg-muted px-4 py-3 text-sm text-muted-foreground">
                     <strong className="font-semibold text-foreground">No votes recorded.</strong>{" "}
-                    {recap.official.note}
+                    {recap.scanNote ?? recap.official.note}
                     <span className="mt-1 block text-xs">Last checked {recap.official.checkedLabel}.</span>
                   </aside>
                 ) : (
