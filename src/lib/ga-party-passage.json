@@ -1,0 +1,80 @@
+{
+ "rule": "see scripts/build-ga-passage-votes.mjs",
+ "generated": "2026-10-13",
+ "chambers": {
+  "house": {
+   "rollCallsWithMembers": 1577,
+   "rollCallsCounted": 874,
+   "byKind": {
+    "passage": 830,
+    "defeat": 11,
+    "thirdReading": 2,
+    "adoption": 31
+   },
+   "party": {
+    "R": {
+     "Y": 13323,
+     "N": 16771,
+     "A": 16,
+     "X": 482,
+     "withMajority": 26776,
+     "yeaNay": 30026
+    },
+    "D": {
+     "Y": 52685,
+     "N": 1106,
+     "A": 14,
+     "X": 1225,
+     "withMajority": 53219,
+     "yeaNay": 53791
+    }
+   },
+   "unmatchedMemberVotes": 1325,
+   "matchedMemberVotes": 85622,
+   "agreement": {
+    "unanimous": 97,
+    "sameSide": 293,
+    "opposite": 482,
+    "noMajority": 2
+   },
+   "unmatchedMembers": 5
+  },
+  "senate": {
+   "rollCallsWithMembers": 1485,
+   "rollCallsCounted": 729,
+   "byKind": {
+    "passage": 668,
+    "defeat": 17,
+    "thirdReading": 17,
+    "adoption": 27
+   },
+   "party": {
+    "R": {
+     "Y": 5334,
+     "N": 8265,
+     "A": 18,
+     "X": 234,
+     "withMajority": 12505,
+     "yeaNay": 13545
+    },
+    "D": {
+     "Y": 14512,
+     "N": 325,
+     "A": 1,
+     "X": 119,
+     "withMajority": 14538,
+     "yeaNay": 14777
+    }
+   },
+   "unmatchedMemberVotes": 352,
+   "matchedMemberVotes": 28808,
+   "agreement": {
+    "unanimous": 157,
+    "sameSide": 105,
+    "opposite": 461,
+    "noMajority": 6
+   },
+   "unmatchedMembers": 2
+  }
+ }
+}

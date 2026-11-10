@@ -5,11 +5,11 @@ import { SiteShell } from "@/components/site/shell";
 import { V4Main } from "@/components/site/lcps-v4";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import {
-  CategoryChart, FaceOff, KeyVotes, METRICS, OutcomeDonuts, P_COLOR, PartyKey, Section, SeatDots, Segmented, TrackerPanel, UnityHistogram, pooled, type ChamberSel,
+  CategoryChart, FaceOff, KeyVotes, METRICS, OutcomeDonuts, PassageAgreement, P_COLOR, PartyKey, Section, SeatDots, Segmented, TrackerPanel, UnityHistogram, pooled, type ChamberSel,
 } from "@/components/site/party-compare-charts";
 import type { GaMember } from "@/components/site/ga-member-profile";
 import { dateLabel } from "@/lib/ga-member-stats";
-import { buildPartyCompare, type BillMode, type PartyCompare } from "@/lib/ga-party-compare";
+import { buildPartyCompare, type BillMode, type CategoryFile, type PartyCompare, type PassageFile } from "@/lib/ga-party-compare";
 import type { Ledger } from "@/lib/virginia-2027-bills";
 
 const URL = "https://aguyonx.com/data/republicans-vs-democrats";
@@ -19,12 +19,14 @@ type GaFile = { generated: string; sources: string[]; floorRollCalls: number; me
 
 export const Route = createFileRoute("/data/republicans-vs-democrats")({
   loader: async (): Promise<PartyCompare> => {
-    const [h, s, l] = await Promise.all([
+    const [h, s, l, cats, pass] = await Promise.all([
       import("@/lib/ga-members-2026-house.json"),
       import("@/lib/ga-members-2026-senate.json"),
       import("@/content/virginia-2027-bills.json"),
+      import("@/lib/ga-party-categories.json"),
+      import("@/lib/ga-party-passage.json"),
     ]);
-    return buildPartyCompare({ house: h.default as unknown as GaFile, senate: s.default as unknown as GaFile }, l.default as unknown as Ledger);
+    return buildPartyCompare({ house: h.default as unknown as GaFile, senate: s.default as unknown as GaFile }, l.default as unknown as Ledger, cats.default as unknown as CategoryFile, pass.default as unknown as PassageFile);
   },
   head: ({ loaderData }) => {
     const asOf = loaderData ? ` Data as of ${dateLabel(loaderData.generated)}.` : "";
@@ -58,6 +60,9 @@ function Page() {
   const asOf = dateLabel(c.generated);
   const trAsOf = new Date(c.tracker.capturedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "America/New_York" });
   const partial = R.partial + D.partial;
+  const ps = (["house", "senate"] as const).map((k) => c.passage.chambers[k]);
+  const pm = ps.reduce((n, x) => n + x.unmatchedMemberVotes, 0), pmAll = ps.reduce((n, x) => n + x.unmatchedMemberVotes + x.matchedMemberVotes, 0), pmN = ps.reduce((n, x) => n + x.unmatchedMembers, 0);
+  const pmPct = `${((100 * pm) / pmAll).toFixed(1)}% of member votes`;
   const unmatched = (["new", "continued"] as const).reduce((n, k) => n + c.tracker.byParty[k].house["?"] + c.tracker.byParty[k].senate["?"], 0);
   const lisAsOf = `Source: Legislative Information System (LIS), 2026 Regular and Special I sessions. As of ${asOf}.`;
 
@@ -104,7 +109,7 @@ function Page() {
 
           <Section id="face-off" kicker="At a glance" title="The two parties, side by side"
             lead={<>Bars start from the middle and grow outward. Hover, tap or tab to a bar for the exact numbers behind it. Chamber and measure filters above apply to every chart down to the policy areas.</>}
-            note={<>{lisAsOf} Honor resolutions (celebrating a life, commending someone) are {mode === "legis" ? <>currently <b>excluded</b>: {sx.honor.toLocaleString()} Republican and {sd.honor.toLocaleString()} Democratic measures left out here</> : <>currently <b>included</b> ({sx.honor.toLocaleString()} Republican and {sd.honor.toLocaleString()} Democratic)</>}. Roll-call and member rows are not affected by that filter. Yea and Nay shares count every roll call (passage, amendments and motions alike); this page does not separate them, so the gap between parties reflects the roll calls on record, not a ranking.</>}>
+            note={<>{lisAsOf} Honor resolutions (celebrating a life, commending someone) are {mode === "legis" ? <>currently <b>excluded</b>: {sx.honor.toLocaleString()} Republican and {sd.honor.toLocaleString()} Democratic measures left out here</> : <>currently <b>included</b> ({sx.honor.toLocaleString()} Republican and {sd.honor.toLocaleString()} Democratic)</>}. Voting and member rows are not affected by that filter. Yea, Nay and Not voting use only final-passage and third-reading roll calls (rule under Method), so procedural motions, amendments and conference reports are not mixed in.</>}>
             <FaceOff c={c} sel={sel} mode={mode} />
           </Section>
 
@@ -114,16 +119,18 @@ function Page() {
           </Section>
 
           <Section id="voting" kicker="Floor voting record" title="How each caucus votes"
-            lead="Two views of the roll calls: how closely members stay with their own party's majority, and the most recent roll calls on record with each party's tally."
-            note={<>{lisAsOf} {c.floorRollCalls.house.toLocaleString()} House and {c.floorRollCalls.senate.toLocaleString()} Senate floor roll calls are in the data. {partial} member{partial === 1 ? " appears" : "s appear"} on fewer roll calls than their chamber total (partial terms); percentages use only the roll calls that list them.</>}>
-            <h3 className="mb-3 font-serif text-xl font-bold uppercase">Party unity, member by member (no names)</h3>
+            lead="Final-passage and third-reading votes only, so procedural motions are not mixed in: how often the two parties' majorities land on the same side, how closely members stay with their own party's majority, and the most recent roll calls with each party's tally."
+            note={<>{lisAsOf} {c.floorRollCalls.house.toLocaleString()} House and {c.floorRollCalls.senate.toLocaleString()} Senate floor roll calls are in the data; {c.passage.chambers.house.rollCallsCounted.toLocaleString()} House and {c.passage.chambers.senate.rollCallsCounted.toLocaleString()} of them are final-passage or third-reading votes. {partial} member{partial === 1 ? " appears" : "s appear"} on fewer roll calls than their chamber total (partial terms); percentages use only the roll calls that list them.</>}>
+            <h3 className="mb-3 font-serif text-xl font-bold uppercase">Do the party majorities agree on final passage?</h3>
+            <PassageAgreement c={c} sel={sel} />
+            <h3 className="mt-10 mb-3 font-serif text-xl font-bold uppercase">Party unity, member by member (no names; all floor roll calls)</h3>
             <UnityHistogram c={c} sel={sel} />
             <h3 className="mt-10 mb-3 font-serif text-xl font-bold uppercase">Most recent roll calls, party tallies</h3>
             <KeyVotes c={c} sel={sel} />
           </Section>
 
           <Section id="policy" kicker="Policy areas from bills" title="What each party's bills are about"
-            lead={<>Policy areas come only from bills the members sponsor. In the default view (honor resolutions removed) only a minority of measures carry a category; see the coverage meter below the chart. Official LIS subjects exist for very few measures, so the groups below are <b className="text-white">aguyonx categories</b>: editorial labels assigned from each measure's official LIS title and summary. They are not stances, and a bill can carry more than one.</>}
+            lead={<>Policy areas come only from bills the members sponsor. Official LIS subjects exist for very few measures, so the groups below are <b className="text-white">aguyonx categories</b>: editorial labels assigned by fixed keyword rules from each measure's official LIS title and summary (an official LIS subject is used wherever one exists). Measures that no rule clearly fits stay uncategorized. They are not stances, and a bill can carry more than one category. How the rules work is under Method.</>}
             note={<>{lisAsOf} Bills with no clear category are not shown in the bars; the coverage meter at the bottom of the chart gives each party's categorized share. Shares are of a party's categorized bills, so they say what a party's categorized bills are about, not how much it sponsors. “Passed GA” means passed both chambers, including measures later signed.</>}>
             <CategoryChart c={c} sel={sel} mode={mode} />
           </Section>
@@ -141,8 +148,26 @@ function Page() {
                 <ul className="mt-3 space-y-2 text-sm leading-relaxed text-[#F6F3EA]">
                   <li>Each party's figures are the sum of its members' own LIS records. No member is weighted, adjusted or singled out, and no individual is named on this page.</li>
                   <li>Bills are counted by chief patron only. Co-patron listings are counted separately.</li>
+                  <li>Vote shares use only final-passage and third-reading roll calls (rule below). Party-unity over all roll calls is shown separately and labeled.</li>
                   <li>Percentages always use the party's own total as the denominator, so a party with fewer members is not penalized in rates.</li>
                   <li>Policy areas are <b>aguyonx categories</b> (editorial), derived from official bill titles and summaries. No stance, motive or quote is inferred.</li>
+                </ul>
+                <h3 className="mt-6 font-serif text-xl font-bold uppercase">Which votes count as “final passage”</h3>
+                <p className="mt-3 text-sm leading-relaxed text-[#F6F3EA]">Each floor roll call carries LIS's own action description. A roll call is counted only if <b>every</b> bill in it has a description that starts with one of these, and nothing else is counted:</p>
+                <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed text-[#F6F3EA]">
+                  <li>“Passed House/Senate” or “Read third time and passed House/Senate”, including “with substitute”, “with amendment(s)” and Block Vote versions;</li>
+                  <li>“Read third time and defeated by House/Senate”, “Defeated by Senate” or “Failed to pass House” (included so that only successful votes do not tilt the Yea share);</li>
+                  <li>Senate “(on 3rd reading)” votes where the reading was dispensed or waived;</li>
+                  <li>“Agreed to by House/Senate”, only when every bill in the roll call is a resolution (HJ, HR, SJ, SR).</li>
+                </ul>
+                <p className="mt-2 text-sm leading-relaxed text-[#F6F3EA]">Left out: first and second readings, amendments, substitutes agreed or rejected, conference reports, concurrence in the Governor's recommendations, reconsiderations, motions, “Passed in enrolled form”, and “Passed by”. {c.passage.chambers.house.rollCallsCounted.toLocaleString()} of {c.passage.chambers.house.rollCallsWithMembers.toLocaleString()} House and {c.passage.chambers.senate.rollCallsCounted.toLocaleString()} of {c.passage.chambers.senate.rollCallsWithMembers.toLocaleString()} Senate roll calls qualify. Member lists match LIS's printed tallies on every roll call checked. The rule is a short script in the repository (<code>scripts/build-ga-passage-votes.mjs</code>) and is the same for both parties.</p>
+                <h3 className="mt-6 font-serif text-xl font-bold uppercase">How policy areas are assigned</h3>
+                <ul className="mt-3 space-y-2 text-sm leading-relaxed text-[#F6F3EA]">
+                  <li>1. If LIS published an official subject for a measure, that subject is used (child subjects roll up to their official parent subject).</li>
+                  <li>2. Honor resolutions are recognised from the official title (“Celebrating the life of”, “Commending”, “; commending”, “; designating”) and are left out of the legislation-only view.</li>
+                  <li>3. Otherwise the same matching the member pages' Bill subjects card uses (official subject vocabulary and fixed phrases in the title and summary), plus keyword rules on the <b>lead phrase of the official LIS title</b> (the words before the first semicolon, which LIS uses to name the subject). A rule needs an explicit topic word, such as “Zoning”, “Medicaid” or “Firearms”.</li>
+                  <li>4. If nothing matches, the measure stays <b>uncategorized</b>; it is never guessed. A measure can carry more than one category.</li>
+                  <li>Rules are plain regular expressions in <code>tools/ga-members/party-categories.py</code>. Party is never read, so both parties go through identical rules. Categories are editorial aguyonx categories, not official LIS subjects and not stances.</li>
                 </ul>
                 <h3 className="mt-6 font-serif text-xl font-bold uppercase">Sources</h3>
                 <ul className="mt-3 space-y-1 text-sm text-[#F6F3EA]">
@@ -155,8 +180,10 @@ function Page() {
                 <ul className="mt-3 space-y-2 text-sm leading-relaxed text-[#F6F3EA]">
                   <li>House District 20 is vacant and not counted. Counts reflect the roster in the data as of {asOf}.</li>
                   <li>{partial} member{partial === 1 ? "" : "s"} served part of the period and are listed on fewer roll calls; their rates use only the roll calls that list them.</li>
-                  <li>Only the 12 most recent roll calls per chamber are held for every member, so the party-tally chart shows those; earlier roll calls are counted in the totals but not itemized.</li>
-                  <li>Official LIS subjects exist for few measures. Categories cover {sx.categorized.toLocaleString()} of {sx.tally.total.toLocaleString()} Republican and {sd.categorized.toLocaleString()} of {sd.tally.total.toLocaleString()} Democratic measures in the current view; the rest are uncategorized and left out of the policy bars.</li>
+                  <li>The roll-call tally chart itemizes only the 12 most recent roll calls per chamber (the ones held for every member); all final-passage votes are counted in the party totals and the agreement chart.</li>
+                  <li>Party for a vote comes from the roster files. {pm} member vote{pm === 1 ? "" : "s"} on final-passage roll calls ({pmPct}) were cast by {pmN} people no longer on the roster, whose party is not in the repo; those votes are left out rather than guessed.</li>
+                  <li>Official LIS subjects exist for few measures. In the current view categories cover {sx.categorized.toLocaleString()} of {sx.tally.total.toLocaleString()} Republican and {sd.categorized.toLocaleString()} of {sd.tally.total.toLocaleString()} Democratic measures; the rest stay uncategorized and are left out of the policy bars.</li>
+                  <li>The party-unity measure over all floor roll calls cannot separate passage from procedural votes, because LIS descriptions are not in the member summary; the final-passage version above can.</li>
                   <li>Tracker party is joined from rosters; {unmatched} of {c.tracker.total.toLocaleString()} measures have no match. Continued 2027 bills have no topic categories yet.</li>
                   <li>Not on this page, because the repo holds no source for them: committee votes, amendments, floor speeches, and any measure of how a bill's content differs between parties.</li>
                 </ul>
