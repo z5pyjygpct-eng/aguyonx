@@ -56,6 +56,26 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "local-state-leaders-still-debating-who-should-pay-for-futu-ffxnow-2026-11-09",
+    date: "2026-11-09",
+    filed: "2026-11-10",
+    headline: "Local, state leaders still debating who should pay for future Metro service",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/11/09/local-state-leaders-still-debating-who-should-pay-for-future-metro-service/",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "concourse-e-opens-at-dulles-airport-with-further-expansion-p-loudountimes-2026-11-09",
+    date: "2026-11-09",
+    filed: "2026-11-10",
+    headline: "Concourse E opens at Dulles Airport, with further expansion planned",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/business_and_economy/real_estate_and_development/concourse-e-opens-at-dulles-airport-with-further-expansion-planned/article_cb239be9-2e7e-45a9-a65c-683e7a855862.html",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "chapman-chandler-spar-after-lcso-proposes-new-sro-agreement-loudounnow-2026-11-09",
     date: "2026-11-09",
     filed: "2026-11-10",
