@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { GaMemberProfile, GaVacancyProfile, type GaMember, type GaMeta } from "@/components/site/ga-member-profile";
 import { GA_PREVIEW_ROBOTS } from "@/lib/ga-dashboard";
+import { memberHead } from "@/lib/ga-member-stats";
 
 export const Route = createFileRoute("/dashboards/house/members_/$slug")({
   loader: async ({ params }) => {
@@ -10,7 +11,11 @@ export const Route = createFileRoute("/dashboards/house/members_/$slug")({
     if (!m) throw notFound();
     return { vacant: null, m, meta: { generated: d.generated, sources: d.sources, floorRollCalls: d.floorRollCalls } };
   },
-  head: ({ loaderData }) => ({ meta: [{ title: `${loaderData?.m ? `Del. ${loaderData.m.name}` : "House District 20 (vacant)"} · A Guy on X` }, ...GA_PREVIEW_ROBOTS] }),
+  // Member profiles are public and indexable. The vacant-seat placeholder is not a member page, so it keeps noindex.
+  head: ({ loaderData }) =>
+    loaderData?.m && loaderData.meta
+      ? memberHead(loaderData.m, loaderData.meta)
+      : { meta: [{ title: "House District 20 (vacant) · A Guy on X" }, ...GA_PREVIEW_ROBOTS] },
   component: Page,
 });
 
