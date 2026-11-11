@@ -5,6 +5,10 @@
  * editing this module as long as the fields below stay present.
  */
 
+import { GA_MEMBER_DISTRICTS } from "./ga-member-districts.ts";
+
+const DISTRICT_BY_LIS = Object.fromEntries(GA_MEMBER_DISTRICTS.map((row) => [row.lisId, row]));
+
 export type Patron = {
   member_id: string;
   member_name: string;
@@ -145,19 +149,201 @@ export function patronIdsOf(bill: BillRecord): string[] {
 export function patronNamesOf(bill: BillRecord): string[] {
   const names = new Set<string>();
   if (bill.chief_patron_name) names.add(bill.chief_patron_name);
-  for (const s of bill.sponsors ?? []) if (s?.member_name) names.add(s.member_name);
+  if (bill.chief_patron?.member_name) names.add(bill.chief_patron.member_name);
+  if (bill.chief_patron?.patron_name_from_bills) names.add(bill.chief_patron.patron_name_from_bills);
+  for (const s of bill.sponsors ?? []) {
+    if (s?.member_name) names.add(s.member_name);
+  }
   return [...names];
 }
 
-/** Search covers bill number, official title, and patron names only. */
+const HONORIFICS = new Set(["mr", "mrs", "ms", "dr", "the"]);
+
+export type ParsedBillQuery = {
+  patronChamber: "House" | "Senate" | null;
+  districtChamber: "House" | "Senate" | null;
+  districtNumber: number | null;
+  billPrefix: string | null;
+  billDigits: string | null;
+  tokens: string[];
+};
+
+/** Pull a structured tracker query out of a free-text string. Exported for tests. */
+export function parseBillQuery(raw: string | undefined): ParsedBillQuery {
+  const parsed: ParsedBillQuery = {
+    patronChamber: null,
+    districtChamber: null,
+    districtNumber: null,
+    billPrefix: null,
+    billDigits: null,
+    tokens: [],
+  };
+  let q = (raw ?? "").toLowerCase();
+  if (!q.trim()) return parsed;
+
+  const take = (re: RegExp, use: (m: RegExpExecArray) => void) => {
+    q = q.replace(re, (match, ...rest) => {
+      const groups = rest.slice(0, -2);
+      const offset = rest[rest.length - 2] as number;
+      use(Object.assign([match, ...groups], { 0: match, index: offset, input: q }) as RegExpExecArray);
+      return " ";
+    });
+  };
+
+  // Chamber-specific districts first so "Senate District 13" is not read as the title "Sen".
+  take(/\b(?:house\s+district|h\s*\.\s*d\s*\.?|hd)\s*-?\s*0*(\d+)\b/g, (m) => {
+    parsed.districtChamber = "House";
+    parsed.districtNumber = Number(m[1]);
+  });
+  take(/\b(?:senate\s+district|s\s*\.\s*d\s*\.?|sd)\s*-?\s*0*(\d+)\b/g, (m) => {
+    parsed.districtChamber = "Senate";
+    parsed.districtNumber = Number(m[1]);
+  });
+  take(/\bdistrict\s*-?\s*0*(\d+)\b/g, (m) => {
+    if (parsed.districtNumber == null) {
+      parsed.districtChamber = null;
+      parsed.districtNumber = Number(m[1]);
+    }
+  });
+  take(/\b(\d+)\s*(?:st|nd|rd|th)\b/g, (m) => {
+    if (parsed.districtNumber == null) {
+      parsed.districtChamber = null;
+      parsed.districtNumber = Number(m[1]);
+    }
+  });
+
+  // Specific bill numbers before a bare prefix: H.B. 1234, HB-1234, hb1234, HB01234, SJ31, etc.
+  take(/\b([hs])\s*\.?\s*([bjr])\s*\.?\s*-?\s*0*(\d+)\b/g, (m) => {
+    parsed.billPrefix = `${m[1]}${m[2]}`.toUpperCase();
+    parsed.billDigits = String(Number(m[3]));
+  });
+  // Bare prefix: HB, H.B., SB, SJ, HR, SR.
+  take(/\b([hs])\s*\.?\s*([bjr])\s*\.?\b/g, (m) => {
+    if (!parsed.billPrefix) parsed.billPrefix = `${m[1]}${m[2]}`.toUpperCase();
+  });
+
+  take(/\b(senator|sen)\.?\b/g, () => {
+    parsed.patronChamber = "Senate";
+  });
+  take(/\b(delegate|del)\.?\b/g, () => {
+    parsed.patronChamber = "House";
+  });
+
+  parsed.tokens = q
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter((tok) => tok && tok.length > 1 && !HONORIFICS.has(tok));
+  return parsed;
+}
+
+function canonicalBillNumber(billNumber: string): { prefix: string; digits: string; compact: string } | null {
+  const m = /^(HB|SB|HJ|SJ|HR|SR)\s*-?\s*0*(\d+)$/i.exec(billNumber.trim());
+  if (!m) return null;
+  const prefix = m[1].toUpperCase();
+  const digits = String(Number(m[2]));
+  return { prefix, digits, compact: `${prefix}${digits}` };
+}
+
+function billHasPatronInChamber(bill: BillRecord, chamber: "House" | "Senate"): boolean {
+  const prefix = chamber === "House" ? "H" : "S";
+  return patronIdsOf(bill).some((id) => id.startsWith(prefix));
+}
+
+function billHasPatronInDistrict(bill: BillRecord, district: number, chamber: "House" | "Senate" | null): boolean {
+  return patronIdsOf(bill).some((id) => {
+    const row = DISTRICT_BY_LIS[id];
+    if (!row || row.district !== district) return false;
+    if (!chamber) return true;
+    return chamber === "House" ? row.chamber === "house" : row.chamber === "senate";
+  });
+}
+
+function normalizeHay(parts: Array<string | null | undefined>): string {
+  const canonParts = parts.filter(Boolean) as string[];
+  const raw = canonParts.join(" ").toLowerCase();
+  return raw
+    .replace(/([a-z])(\d)/g, "$1 $2")
+    .replace(/(\d)([a-z])/g, "$1 $2")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function searchHaystack(bill: BillRecord): string {
+  const canon = canonicalBillNumber(bill.bill_number);
+  return normalizeHay([
+    bill.bill_number,
+    bill.title,
+    ...patronNamesOf(bill),
+    canon?.compact,
+    canon ? `${canon.prefix} ${canon.digits}` : null,
+  ]);
+}
+
+function billTextHay(bill: BillRecord): string {
+  const canon = canonicalBillNumber(bill.bill_number);
+  return normalizeHay([bill.bill_number, bill.title, canon?.compact, canon ? `${canon.prefix} ${canon.digits}` : null]);
+}
+
+function namesForPatron(bill: BillRecord, memberId: string): string[] {
+  const names: string[] = [];
+  if (bill.chief_patron_id === memberId) {
+    if (bill.chief_patron_name) names.push(bill.chief_patron_name);
+    if (bill.chief_patron?.member_name) names.push(bill.chief_patron.member_name);
+    if (bill.chief_patron?.patron_name_from_bills) names.push(bill.chief_patron.patron_name_from_bills);
+  }
+  for (const s of bill.sponsors ?? []) {
+    if (s?.member_id === memberId && s.member_name) names.push(s.member_name);
+  }
+  return names;
+}
+
+function tokensMatchScopedPatron(bill: BillRecord, tokens: string[], chamber: "House" | "Senate"): boolean {
+  const prefix = chamber === "House" ? "H" : "S";
+  const ids = patronIdsOf(bill).filter((id) => id.startsWith(prefix));
+  const titleHay = billTextHay(bill);
+  return ids.some((id) => {
+    const hay = normalizeHay([...namesForPatron(bill, id), titleHay]);
+    return tokens.every((token) => tokenInHay(token, hay));
+  });
+}
+
+function tokenInHay(token: string, hay: string): boolean {
+  return new RegExp(`(?:^| )${token}(?: |$)`).test(` ${hay} `);
+}
+
+/** Search covers bill number, official title, and patron names only — never the official summary. */
 export function matchesQuery(bill: BillRecord, q: string | undefined): boolean {
-  const query = (q ?? "").trim().toLowerCase();
+  const query = (q ?? "").trim();
   if (!query) return true;
-  const hay = [bill.bill_number, bill.title, ...patronNamesOf(bill)].join("\n").toLowerCase();
-  if (hay.includes(query)) return true;
-  const compact = (s: string) => s.replace(/[^a-z0-9]/g, "");
-  const qCompact = compact(query);
-  return qCompact.length > 0 && compact(hay).includes(qCompact);
+  const parsed = parseBillQuery(query);
+  const hasConstraint =
+    parsed.patronChamber ||
+    parsed.districtNumber != null ||
+    parsed.billPrefix ||
+    parsed.tokens.length > 0;
+  if (!hasConstraint) return false;
+
+  if (parsed.billPrefix) {
+    const canon = canonicalBillNumber(bill.bill_number);
+    if (!canon || canon.prefix !== parsed.billPrefix) return false;
+    if (parsed.billDigits && canon.digits !== parsed.billDigits) return false;
+  }
+  if (parsed.patronChamber) {
+    if (!billHasPatronInChamber(bill, parsed.patronChamber)) return false;
+    if (parsed.tokens.length && !tokensMatchScopedPatron(bill, parsed.tokens, parsed.patronChamber)) return false;
+  }
+  if (parsed.districtNumber != null && !billHasPatronInDistrict(bill, parsed.districtNumber, parsed.districtChamber)) {
+    return false;
+  }
+  if (parsed.tokens.length && !parsed.patronChamber) {
+    const hay = searchHaystack(bill);
+    for (const token of parsed.tokens) {
+      if (!tokenInHay(token, hay)) return false;
+    }
+  }
+  return true;
 }
 
 export function matchesFilters(bill: BillRecord, f: BillFilters): boolean {

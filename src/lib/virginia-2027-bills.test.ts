@@ -11,7 +11,10 @@ import {
   isNewFiling,
   ledgerProblems,
   matchesFilters,
+  matchesQuery,
   newFilings,
+  parseBillQuery,
+  patronNamesOf,
   patronOptions,
   sortBills,
   type BillFilters,
@@ -206,4 +209,136 @@ test("search does not use summary text", () => {
   assert.equal(hb.title.includes("July 1, 2028"), false);
   assert.equal(matchesFilters(hb, { q: "July 1, 2028" }), false);
   assert.equal(matchesFilters(hb, { q: "emergency dispatchers" }), true);
+});
+
+
+const JONES_ALL = ["HB278", "SB222", "SB355", "SB624", "SB728", "SB739", "SB740", "SB839", "SB840", "SB841", "SB842", "SB850"];
+const JONES_NEW = ["SB839", "SB840", "SB841", "SB842", "SB850"];
+const MCCLURE = ["HB1003", "HB1409", "HB278", "HB339", "HB35", "HB839", "HB865", "HB92", "HB96"];
+const SD13 = ["HB1280", "SB274", "SB284", "SB287", "SB355", "SB475", "SB624", "SB678"];
+const HD45 = ["HB1162", "HB13", "HB703"];
+
+function hits(q: string): string[] {
+  return mixed.filter((b) => matchesQuery(b, q)).map((b) => b.bill_number).sort();
+}
+
+function assertSameSet(actual: string[], expected: string[], label: string) {
+  assert.deepEqual(actual, [...expected].sort(), label);
+}
+
+test("patronNamesOf includes the full member name and the short LIS name", () => {
+  const sb839 = mixed.find((b) => b.bill_number === "SB839")!;
+  const names = patronNamesOf(sb839);
+  assert.ok(names.includes("Michael J. Jones"), names.join(" | "));
+  assert.ok(names.includes("Jones"), names.join(" | "));
+});
+
+test("name queries tokenize and ignore middle initials and leftover honorifics", () => {
+  assertSameSet(hits("Jones"), JONES_ALL, "Jones");
+  assertSameSet(hits("Michael Jones"), JONES_ALL, "Michael Jones");
+  assertSameSet(hits("Senator Michael J. Jones"), JONES_ALL, "Senator Michael J. Jones");
+  assertSameSet(hits("Sen. Jones"), JONES_ALL, "Sen. Jones");
+  assertSameSet(hits("Sen Jones"), JONES_ALL, "Sen Jones");
+  // Default tracker view is new filings only.
+  assertSameSet(
+    filterBills(mixed, { q: "Senator Michael J. Jones" }).map((b) => b.bill_number).sort(),
+    JONES_NEW,
+    "new-filing view",
+  );
+});
+
+test("Delegate Adele Y. McClure and Del. McClure find her House-patron bills", () => {
+  assertSameSet(hits("Delegate Adele Y. McClure"), MCCLURE, "Delegate Adele Y. McClure");
+  assertSameSet(hits("Del. McClure"), MCCLURE, "Del. McClure");
+  // A Senate-title + House surname should not return her bills.
+  assert.equal(hits("Sen. McClure").length, 0);
+});
+
+test("Sen / Delegate alone narrow to bills with a patron from that chamber", () => {
+  const sen = hits("Senator");
+  const del = hits("Delegate");
+  assert.ok(sen.length > 0 && del.length > 0);
+  for (const id of sen) {
+    const bill = mixed.find((b) => b.bill_number === id)!;
+    assert.ok(
+      [bill.chief_patron_id, ...(bill.sponsors ?? []).map((s) => s.member_id)].some((m) => m?.startsWith("S")),
+      id,
+    );
+  }
+  for (const id of del) {
+    const bill = mixed.find((b) => b.bill_number === id)!;
+    assert.ok(
+      [bill.chief_patron_id, ...(bill.sponsors ?? []).map((s) => s.member_id)].some((m) => m?.startsWith("H")),
+      id,
+    );
+  }
+  assert.equal(sen.length, mixed.filter((b) => [b.chief_patron_id, ...(b.sponsors ?? []).map((s) => s.member_id)].some((m) => m?.startsWith("S"))).length);
+  assert.equal(del.length, mixed.filter((b) => [b.chief_patron_id, ...(b.sponsors ?? []).map((s) => s.member_id)].some((m) => m?.startsWith("H"))).length);
+});
+
+test("combinations AND together", () => {
+  assertSameSet(hits("Sen Jones data"), ["SB841", "SB850"], "Sen Jones data");
+  assert.deepEqual(hits("Sen Jones energy"), [], "Sen Jones energy has no official title hit");
+});
+
+test("forgiving Senate District 13 formats all match the same bills", () => {
+  const variants = ["SD13", "SD-13", "SD 13", "S.D. 13", "Senate District 13", "SD013", "sd13"];
+  for (const q of variants) assertSameSet(hits(q), SD13, q);
+});
+
+test("forgiving House District 45 formats all match the same bills", () => {
+  const variants = ["HD45", "HD-45", "HD 45", "hd45", "H.D. 45", "House District 45", "District 45", "HD045", "45th"];
+  for (const q of variants) assertSameSet(hits(q), HD45, q);
+});
+
+test("forgiving bill-number formats for real ledger bills, including leading zeros", () => {
+  const cases: Record<string, string[]> = {
+    SB852: ["SB852", "SB-852", "SB 852", "S.B. 852", "sb852", "SB0852", "sb 852"],
+    HB1532: ["HB1532", "HB-1532", "HB 1532", "H.B. 1532", "hb1532", "HB01532"],
+    HB13: ["HB13", "HB-13", "HB 13", "H.B. 13", "hb13", "HB013", "HB0013"],
+    HJ14: ["HJ14", "HJ-14", "HJ 14", "H.J. 14", "hj14", "HJ014"],
+    SJ31: ["SJ31", "SJ-31", "SJ 31", "S.J. 31", "sj31", "SJ031"],
+    SR173: ["SR173", "SR-173", "SR 173", "S.R. 173", "sr173", "SR0173"],
+    SR6: ["SR6", "SR-6", "SR 6", "S.R. 6", "sr6", "SR06"],
+  };
+  for (const [bill, variants] of Object.entries(cases)) {
+    for (const q of variants) {
+      assertSameSet(hits(q), [bill], `${q} -> ${bill}`);
+    }
+  }
+});
+
+test("bare bill prefixes select every bill of that kind; HR is absent from this ledger", () => {
+  assert.equal(hits("SB").length, 190);
+  assert.ok(hits("SB").every((id) => id.startsWith("SB")));
+  assert.equal(hits("HB").length, 259);
+  assert.ok(hits("HB").every((id) => id.startsWith("HB")));
+  assert.equal(hits("HJ").length, 12);
+  assert.ok(hits("HJ").every((id) => id.startsWith("HJ")));
+  assert.equal(hits("SJ").length, 1);
+  assert.deepEqual(hits("SJ"), ["SJ31"]);
+  assert.equal(hits("SR").length, 2);
+  assert.deepEqual(hits("SR"), ["SR173", "SR6"].sort());
+  assert.deepEqual(hits("HR"), []);
+  assert.deepEqual(hits("H.B."), hits("HB"));
+  assert.deepEqual(hits("S.B."), hits("SB"));
+});
+
+test("H.B. and S.D. period forms do not break ordinary name tokens", () => {
+  const name = parseBillQuery("Senator Michael J. Jones");
+  assert.equal(name.patronChamber, "Senate");
+  assert.deepEqual(name.tokens, ["michael", "jones"]);
+  assert.equal(name.billPrefix, null);
+  assert.equal(name.districtNumber, null);
+
+  const bill = parseBillQuery("H.B. 1532");
+  assert.equal(bill.billPrefix, "HB");
+  assert.equal(bill.billDigits, "1532");
+  assert.deepEqual(bill.tokens, []);
+
+  const district = parseBillQuery("S.D. 13");
+  assert.equal(district.districtChamber, "Senate");
+  assert.equal(district.districtNumber, 13);
+  assert.deepEqual(district.tokens, []);
+  assert.equal(district.billPrefix, null);
 });
