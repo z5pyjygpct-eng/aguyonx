@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,239 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-11",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Tuesday, Nov 10) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched RSS title, Nov 10 ET publish time confirmed in page metadata). Sources checked: RSS from ARLnow, FFXnow, Annandale Today, Potomac Local, Blue Ridge Leader, WTOP local; Loudoun Now RSS returned HTTP 429 and InsideNoVA returned HTTP 403 (not covered). 30 candidate pages checked, 0 failed verification, 25 kept (capped at 25). Left out: Naresh Bhatt verdict and National Museum of the Marine Corps (locality not stated in page text), Dulles concourse (straddles counties), Alexandria, Maryland, DC, Stafford and statewide items, sponsored content, daily roundups.",
+      "items": [
+        {
+          "id": "fairfax-county-public-library-launches-online-portal-for-ffxnow-2026-11-10",
+          "county": "Fairfax",
+          "headline": "Fairfax County Public Library launches online portal for historical photos",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/10/fairfax-county-public-library-launches-online-portal-for-historical-photos/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "plastic-bag-tax-funds-700-recycling-bins-for-hybla-valle-ffxnow-2026-11-10",
+          "county": "Fairfax",
+          "headline": "Plastic bag tax funds 700 recycling bins for Hybla Valley neighborhood",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/10/plastic-bag-tax-funds-700-recycling-bins-for-hybla-valley-neighborhood/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "veterans-day-to-close-fairfax-county-government-but-not-ffxnow-2026-11-10",
+          "county": "Fairfax",
+          "headline": "Veterans Day to close Fairfax County government, but not schools",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/10/veterans-day-to-close-fairfax-county-government-but-not-schools/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "pilates-chain-opens-tysons-studio-kicking-off-va-expansi-ffxnow-2026-11-10",
+          "county": "Fairfax",
+          "headline": "Pilates chain opens Tysons studio, kicking off Va. expansion",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/10/pilates-chain-opens-tysons-studio-kicking-off-va-expansion/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "popular-reston-holiday-parade-s-2026-return-will-bring-n-ffxnow-2026-11-10",
+          "county": "Fairfax",
+          "headline": "Popular Reston Holiday Parade’s 2026 return will bring notable changes",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/10/changes-planned-for-popular-reston-holiday-parades-2026-return/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "assistance-available-for-small-fairfax-county-businesses-ffxnow-2026-11-10",
+          "county": "Fairfax",
+          "headline": "Assistance available for small Fairfax County businesses impacted by drought",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/10/assistance-available-for-small-fairfax-county-businesses-impacted-by-drought/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "pedestrian-struck-on-leesburg-pike-in-seven-corners-annandaletoday-2026-11-10",
+          "county": "Fairfax",
+          "headline": "Pedestrian struck on Leesburg Pike in Seven Corners",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/pedestrian-crash-victim-in-life-threatening-condition/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "dominion-responds-to-concerns-about-a-monopole-at-the-li-annandaletoday-2026-11-10",
+          "county": "Fairfax",
+          "headline": "Dominion responds to concerns about a monopole at the Lincolnia Park pool",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/dominion-responds-to-concerns-about-a-monopole-at-the-lincolnia-park-pool/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "former-teacher-at-st-michael-sentenced-for-sexual-abuse-annandaletoday-2026-11-10",
+          "county": "Fairfax",
+          "headline": "Former teacher at St. Michael sentenced for sexual abuse",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/former-teacher-at-st-michael-sentenced-for-sexual-abuse/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcps-recommends-keeping-bren-mar-park-es-students-at-edi-annandaletoday-2026-11-10",
+          "county": "Fairfax",
+          "headline": "FCPS recommends keeping Bren Mar Park ES students at Edison",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/fcps-recommends-keeping-bren-mar-park-es-students-at-edison/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "residents-urged-to-come-out-in-force-for-the-hearing-on-annandaletoday-2026-11-10",
+          "county": "Fairfax",
+          "headline": "Residents urged to come out in force for the hearing on the Edsall substation",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/residents-urged-to-come-out-in-force-for-the-hearing-on-the-edsall-substation/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "kennedy-relatives-ask-judge-to-block-memorial-circle-arc-arlnow-2026-11-10",
+          "county": "Arlington",
+          "headline": "Kennedy relatives ask judge to block Memorial Circle arch, citing shadow over family graves",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/10/kennedy-relatives-ask-judge-to-block-memorial-circle-arch-citing-shadow-over-family-graves/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "at-100-arlington-wwii-veteran-recalls-surviving-the-bomb-arlnow-2026-11-10",
+          "county": "Arlington",
+          "headline": "At 100, Arlington WWII veteran recalls surviving the bombing of the USS Franklin",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/10/at-100-arlington-veteran-recalls-surviving-the-bombing-of-the-uss-franklin/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "wera-96-7-returns-to-full-power-broadcasting-in-arlingto-arlnow-2026-11-10",
+          "county": "Arlington",
+          "headline": "WERA 96.7 returns to full-power broadcasting in Arlington",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/10/wera-96-7-returns-to-full-power-broadcasting-in-arlington/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "acpd-bystanders-restrain-man-accused-of-slashing-two-peo-arlnow-2026-11-10",
+          "county": "Arlington",
+          "headline": "ACPD: Bystanders restrain man accused of slashing two people with a knife in Crystal City",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/10/acpd-bystanders-restrain-man-accused-of-slashing-two-people-with-a-knife-in-crystal-city/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "open-house-happening-at-columbia-pike-artist-studios-thi-arlnow-2026-11-10",
+          "county": "Arlington",
+          "headline": "Open house happening at Columbia Pike Artist Studios this weekend",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/10/open-house-happening-at-columbia-pike-artist-studios-this-weekend/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-board-member-disappointed-by-single-family-home-p-arlnow-2026-11-10",
+          "county": "Arlington",
+          "headline": "County Board member ‘disappointed’ by single-family home project on Langston Blvd",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/10/county-board-member-disappointed-by-single-family-home-project-on-langston-blvd/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "hearings-on-arlington-s-updated-transportation-plan-expe-arlnow-2026-11-10",
+          "county": "Arlington",
+          "headline": "Hearings on Arlington’s updated transportation plan expected next month",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/10/hearings-on-arlingtons-updated-transportation-plan-expected-next-month/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-county-hypothermia-prevention-shelter-opens-nove-blueridgeleader-2026-11-10",
+          "county": "Loudoun",
+          "headline": "Loudoun County Hypothermia Prevention Shelter Opens November 15",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/loudoun-county-hypothermia-prevention-shelter-opens-november-15/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "residents-encouraged-to-take-recycling-pledge-for-americ-blueridgeleader-2026-11-10",
+          "county": "Loudoun",
+          "headline": "Residents Encouraged to Take Recycling Pledge for America Recycles Day",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/residents-encouraged-to-take-recycling-pledge-for-america-recycles-day/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-voters-decide-congressional-and-town-elections-blueridgeleader-2026-11-10",
+          "county": "Loudoun",
+          "headline": "Loudoun Voters Decide Congressional and Town Elections",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/loudoun-voters-decide-congressional-and-town-elections/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-parks-list-veterans-day-hours-for-nov-11-potomaclocal-2026-11-10",
+          "county": "Prince William",
+          "headline": "Prince William parks list Veterans Day hours for Nov. 11",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/10/prince-william-parks-list-veterans-day-hours-for-nov-11/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "dumfries-police-sergeants-finish-command-excellence-scho-potomaclocal-2026-11-10",
+          "county": "Prince William",
+          "headline": "Dumfries police sergeants finish Command Excellence School",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/10/dumfries-police-sergeants-finish-command-excellence-school/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "stacy-keach-2012-manassas-christmas-parade-grand-marshal-potomaclocal-2026-11-10",
+          "county": "Prince William",
+          "headline": "Stacy Keach, 2012 Manassas Christmas Parade grand marshal, dies at 85",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/10/stacy-keach-2012-manassas-christmas-parade-grand-marshal-dies/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "demolition-underway-at-occoquan-s-411-mill-street-drydoc-potomaclocal-2026-11-10",
+          "county": "Prince William",
+          "headline": "Demolition underway at Occoquan’s 411 Mill Street drydock",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/10/demolition-underway-at-occoquans-411-mill-street-drydock/",
+          "published": "2026-11-10",
+          "tier": "Reported Claim"
+        }
+      ]
+    },
     {
       "date": "2026-11-10",
       "status": "ok",
