@@ -56,6 +56,29 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "spanberger-ga-leaders-legislative-priorities-release-gov-2026-11-10",
+    date: "2026-11-10",
+    filed: "2026-11-11",
+    headline: "Governor Spanberger, General Assembly Leaders Preview Key Legislative Priorities to Move Virginia Forward, Build a Stronger, Safer, & More Affordable Commonwealth",
+    outlet: "Office of the Governor",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/november-releases/name-1128686-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "democrats-united-behind-2027-agenda-vascope-2026-11-10",
+    date: "2026-11-10",
+    filed: "2026-11-11",
+    headline: "After a year of disagreements, Democrats appear united behind new agenda",
+    outlet: "Virginia Scope",
+    url: "https://www.virginiascope.com/after-a-year-of-disagreements-democrats-appear-united-behind-new-agenda/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+      { name: "Scott Surovell", office: "State Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
     id: "briskman-criticizes-by-right-data-center-broadlands-loudountimes-2026-11-10",
     date: "2026-11-10",
     filed: "2026-11-11",
