@@ -1,6 +1,8 @@
 import { useMemo, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { ExternalLink, Search } from "lucide-react";
+import { PlainSummaryModal } from "@/components/site/plain-summary-modal";
+import { EDITORIAL_LABEL, PENDING_MESSAGE, summaryFor } from "@/lib/va2027-bill-summaries";
 import { SiteShell } from "@/components/site/shell";
 import { V4Main } from "@/components/site/lcps-v4";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
@@ -399,6 +401,11 @@ function BillCard({ bill }: { bill: BillRecord }) {
     ? [{ member_id: bill.chief_patron_id, member_name: bill.chief_patron_name || bill.chief_patron?.patron_name_from_bills || "Name not in this capture", patron_type: "not in Sponsors.csv" }]
     : [];
   const patrons = [...chiefRow, ...sponsorRows];
+  const rec = summaryFor(bill.bill_number);
+  const sourceLinks = [
+    { label: "Official LIS page", url: bill.lis_detail_url },
+    ...(bill.lis_text_url ? [{ label: "Bill text", url: bill.lis_text_url }] : []),
+  ];
   return (
     <article
       id={`bill-${bill.bill_number}`}
@@ -410,8 +417,20 @@ function BillCard({ bill }: { bill: BillRecord }) {
       data-patrons={patrons.map((p) => p.member_id).join("|")}
       className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-4 sm:p-5"
     >
-      <p className="font-mono text-xs tracking-widest text-gold uppercase">{bill.measure_kind} · {bill.chamber}</p>
-      <h2 className="mt-1 font-serif text-3xl font-bold text-white">{bill.bill_number}</h2>
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <div className="min-w-0 flex-1">
+          <p className="font-mono text-xs tracking-widest text-gold uppercase">{bill.measure_kind} · {bill.chamber}</p>
+          <h2 className="mt-1 font-serif text-3xl font-bold text-white">{bill.bill_number}</h2>
+        </div>
+        <PlainSummaryModal
+          title={`${bill.bill_number} · ${bill.title}`}
+          summary={rec.status === "ok" ? rec.summary : null}
+          status={rec.status}
+          editorialLabel={EDITORIAL_LABEL}
+          sourceLinks={sourceLinks}
+          pendingMessage={PENDING_MESSAGE}
+        />
+      </div>
       <p className="mt-2 text-base font-semibold text-white">{bill.title}</p>
 
       <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">

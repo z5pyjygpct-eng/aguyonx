@@ -98,6 +98,17 @@ const out = {
 };
 fs.mkdirSync(path.dirname(dest), { recursive: true });
 fs.writeFileSync(dest, `${JSON.stringify(out)}\n`);
+
+const summariesPath = path.join(process.cwd(), "src/lib/va2027-bill-summaries.json");
+let missingSummaries = [];
+if (fs.existsSync(summariesPath)) {
+  const catalog = JSON.parse(fs.readFileSync(summariesPath, "utf8"));
+  const entries = catalog.bills ?? catalog;
+  missingSummaries = [...out.new_filings, ...out.continued]
+    .map((b) => b.bill_number)
+    .filter((id) => !entries[id]);
+}
+
 console.log(
   JSON.stringify({
     wrote: dest,
@@ -106,5 +117,8 @@ console.log(
     stripped: ["source_fields", "summary.summary_text_html"],
     session: raw.meta?.session_code ?? null,
     captured_at: raw.meta?.captured_at ?? null,
+    summaries_missing: missingSummaries.length,
+    summaries_missing_ids: missingSummaries,
+    summaries_note: "Bills without a summaries-file entry render as pending. They are not guessed. Run node scripts/check-bill-summaries.mjs and add official-source drafts.",
   }),
 );

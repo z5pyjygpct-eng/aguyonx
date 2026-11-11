@@ -105,3 +105,23 @@ The CoS watch handed Web a full `bills.json` captured `2026-11-10T08:26:42-05:00
 - Home links to it. Other Resources and the footer Virginia column do too.
 - Build check for this page is `npx vite build`.
 - Official LIS links, the capture time, editorial categories, and missing-data notes stay on the page. Do not fill a blank with a guessed summary, sponsor, status, or party.
+
+## Plain-language summaries
+
+Each bill card has a gold **Summary of Bill** button (navy lettering) that opens a short kitchen-table summary. Those summaries live in a **separate** file, so a daily ledger install cannot overwrite them:
+
+`src/lib/va2027-bill-summaries.json`
+
+The file is keyed by bill number (`SB852`, `HB1532`, …). Each entry has `summary`, `status` (`ok` or `pending`), `sourceUsed` (`lis-summary`, `bill-text`, or `title`), and `generatedAt`.
+
+If a bill in `src/content/virginia-2027-bills.json` has **no** entry in the summaries file, the page still shows the button and the modal says the summary is pending. It never leaves the modal blank and never invents a summary. The same pending message is used when an entry exists but `status` is `pending`.
+
+### How a new bill gets a summary (daily path)
+
+The daily tracker updater (CloudAgent `bc-527b98e1-aac5-5696-b2c2-118e59e362fe`, via the CoS 8 AM bill-watch) already refreshes the research ledger and installs `src/content/virginia-2027-bills.json`. That install does **not** write the summaries file. After each install:
+
+1. Run `node scripts/check-bill-summaries.mjs`. The script lists every bill that has no summaries-file entry, plus any `ok` summary that is too short/long or that contains a digit or `$` not present in the official LIS title or official summary.
+2. For each missing bill, read the official LIS summary (`summary_plain` / Summaries.csv) and, if that is missing or only a short heading, the official bill text at `lis_text_url`. Write a 3–5 sentence plain-language summary at about an 8th-grade reading level. Use only facts in that official text. Do not invent effects, costs, numbers, dates, or a stance. Prefer “would” over “will.” If the official summary and text are still too thin to support three grounded sentences, store `status: "pending"` and leave `summary` empty.
+3. Add the entry to `src/lib/va2027-bill-summaries.json`, run the validator again, and include the summaries file in the same preview/production change as the ledger only after the validator is clean.
+
+The install script itself prints `summaries_missing` and `summaries_missing_ids` so a missing entry is visible in the daily log. It does not fail the install, because a new filing should still go on the tracker as pending rather than block the update.
