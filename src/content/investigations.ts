@@ -2,6 +2,140 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    "slug": "va-gop-website-analysis-2026",
+    "related": [],
+    "kind": "investigation",
+    "title": "virginia.gop: A Party Website That Asks for Money First and Helps Voters Last",
+    "dek": "A critical look at the Republican Party of Virginia's website: what a voter can and cannot do there, how current it is, how fast and accessible it is, how many people visit, and how to fix it",
+    "date": "2026-11-11",
+    "displayDate": "November 11, 2026",
+    "topic": "Elections",
+    "kicker": "Virginia",
+    "image": "/images/investigations/va-gop-website-analysis-2026.png",
+    "imageAlt": "Cover of virginia.gop: A Party Website That Asks for Money First and Helps Voters Last",
+    "access": "public",
+    "readMinutes": 22,
+    "body": [
+      {
+        "type": "h2",
+        "text": "The short version"
+      },
+      {
+        "type": "p",
+        "text": "Bottom line. The Republican Party of Virginia's website is built to collect money and contact information, not to help a voter vote. On a phone, the entire first screen is a gala banner and five donation buttons. The \"Vote\" button hands you to a Republican National Committee form that requires your name, home address, email and mobile number and signs you up for recurring texts, and the homepage has zero links to Virginia's Department of Elections. The only page about congressional candidates still shows the 2022 slate and has not been edited since July 21, 2022. The party posted no news at all from July through October 2026, the months of the fall campaign, and its statewide calendar lists exactly one event between today and the end of 2027. On a phone, the homepage's main content took about 14 seconds to appear in two of three Google tests, more than five times Google's \"good\" line. Nothing we flagged on November 7 has been fixed."
+      },
+      {
+        "type": "p",
+        "text": "Nothing in this paper says the site is empty or abandoned. It has a long directory of county party chairs, a working events calendar, a real candidate-training curriculum and a page for reporting election problems. The problem is that the things a voter needs most, where to vote, who is on the ballot, what to do this weekend, are missing, out of date, or behind a sign-up form."
+      },
+      {
+        "type": "h2",
+        "text": "Eight findings"
+      },
+      {
+        "type": "p",
+        "text": "1. The Vote button is a sign-up form, not voting help. Two clicks from the homepage (Take Action, then Vote) lead to vote.gop, \"Paid for by the Republican National Committee.\" The first screen requires 8 fields before any information appears, the State box starts blank with all 50 states, and the mobile number field joins a recurring text-message program. Not one link on that page or on the virginia.gop homepage goes to elections.virginia.gov."
+      },
+      {
+        "type": "p",
+        "text": "2. The candidate page is four years old. virginia.gop/congressional-candidates/ is titled \"Meet your 2022 Congressional Candidates!\", was last edited July 21, 2022, and still lists the 2022 slate. Nothing on the homepage or anywhere else on the site links to it. The only 2026 candidate information is a single May 28, 2026 news post."
+      },
+      {
+        "type": "p",
+        "text": "3. The news went quiet during the campaign. The site published 68 news posts in 2025 and 11 in 2026 through November 11. After June 17, 2026, the next post was the November 6 election-results statement: zero posts in July, August, September and October."
+      },
+      {
+        "type": "p",
+        "text": "4. The calendar is party business, and it has run dry. Of 148 events listed for 2026, 135 (91%) are party nominating meetings or conventions. The calendar shows zero events in October 2026, and from November 11, 2026 through December 31, 2027 it lists one event: a Fifth District convention on November 14."
+      },
+      {
+        "type": "p",
+        "text": "5. Stale pages are still live and still asking. The resume bank opens \"As we look ahead to November 2025\" (last edited June 29, 2025). The Virginia Victory page still recruits volunteers for the 2025 statewide ticket \"this November\" (last edited July 23, 2025). The redistricting page still says \"If their rigged maps pass,\" six months after the party's own May 8, 2026 statement on the court ruling (last edited March 20, 2026)."
+      },
+      {
+        "type": "p",
+        "text": "6. It is slow on a phone and heavy everywhere. Google's Lighthouse gave the homepage a phone speed score of 59 out of 100 (middle of three runs) against 77 for Virginia Democrats. The homepage weighs about 3.5 megabytes on a phone; Google estimates about 1.6 megabytes of that could be saved just by sending pictures in a better size and format."
+      },
+      {
+        "type": "p",
+        "text": "7. Blind and low-vision visitors hit walls. An automated disability-access scan found 202 rule failures across 10 party pages. The county directory alone has 125 links a screen reader cannot name, and 122 of its 123 email links are bare envelope icons with no label."
+      },
+      {
+        "type": "p",
+        "text": "8. The traffic is small, and visitors leave fast. Similarweb estimates about 10,300 visits to virginia.gop in October 2026, against about 13,500 for Virginia Democrats. The average visit lasted 40 seconds, less than half the Democrats' 86 seconds. The Tranco research ranking puts the site at number 966,509 among all websites on November 10, slightly ahead of Virginia Democrats (1,326,297)."
+      },
+      {
+        "type": "h2",
+        "text": "What would fix it"
+      },
+      {
+        "type": "p",
+        "text": "These are plain fixes, most of them cheap, listed roughly from biggest voter impact to smallest."
+      },
+      {
+        "type": "p",
+        "text": "1. Put a \"How to vote in Virginia\" box on the homepage with direct links to the Department of Elections for registration, polling place, absentee ballots and ballot tracking, with no sign-up required."
+      },
+      {
+        "type": "p",
+        "text": "2. Replace the 2022 candidates page with a current 2026–2027 ballot guide, clearly dated, linked from the menu, and archive the old page with a \"2022\" label."
+      },
+      {
+        "type": "p",
+        "text": "3. Take down or date-stamp the resume bank, Virginia Victory, check-back-soon, empty \"Vote\" page and old training schedule. Update the redistricting page to say what happened."
+      },
+      {
+        "type": "p",
+        "text": "4. Fix the phone link: one missing digit."
+      },
+      {
+        "type": "p",
+        "text": "5. Fix the Salem and Bristol links, fill in or explain the two vacancies, and add text labels to the 122 envelope icons."
+      },
+      {
+        "type": "p",
+        "text": "6. Shrink the homepage pictures. That alone could cut more than 1.5 megabytes from a phone load."
+      },
+      {
+        "type": "p",
+        "text": "7. List real volunteer tasks with dates and places before asking for a phone number."
+      },
+      {
+        "type": "p",
+        "text": "8. Add a site search box and post news through campaign season, not just before and after it."
+      },
+      {
+        "type": "p",
+        "text": "Read the full paper in the PDF: the scorecard, speed and disability-access tests, traffic estimates, what changed since November 7, screenshots, charts and all 21 sources."
+      }
+    ],
+    "citations": [
+      {
+        "id": "c1",
+        "label": "virginia.gop homepage",
+        "href": "https://virginia.gop/"
+      },
+      {
+        "id": "c2",
+        "label": "virginia.gop congressional candidates page (2022)",
+        "href": "https://virginia.gop/congressional-candidates/"
+      },
+      {
+        "id": "c3",
+        "label": "Virginia Department of Elections",
+        "href": "https://www.elections.virginia.gov/"
+      }
+    ],
+    "documents": [
+      {
+        "id": "pdf",
+        "title": "virginia.gop: A Party Website That Asks for Money First and Helps Voters Last (PDF)",
+        "href": "/files/investigations/va-gop-website-analysis-2026.pdf",
+        "kind": "pdf"
+      }
+    ]
+  },
+  {
     "slug": "lucas-indictment-senator-who-legalized-pot-2026",
     "related": [
       {
