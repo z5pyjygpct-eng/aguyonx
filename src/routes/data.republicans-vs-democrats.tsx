@@ -7,6 +7,8 @@ import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import {
   CategoryChart, FaceOff, KeyVotes, METRICS, OutcomeDonuts, PassageAgreement, P_COLOR, PartyKey, Section, SeatDots, Segmented, TrackerPanel, UnityHistogram, pooled, type ChamberSel,
 } from "@/components/site/party-compare-charts";
+import { CommitteeDeaths, Demographics, MemberRanks } from "@/components/site/party-visual-sections";
+import type { CommitteeFile, DemoFile, RanksFile } from "@/lib/ga-visual-sections";
 import type { GaMember } from "@/components/site/ga-member-profile";
 import { dateLabel } from "@/lib/ga-member-stats";
 import { buildPartyCompare, type BillMode, type CategoryFile, type PartyCompare, type PassageFile } from "@/lib/ga-party-compare";
@@ -16,20 +18,29 @@ const URL = "https://aguyonx.com/data/republicans-vs-democrats";
 const TITLE = "Republicans vs. Democrats in the Virginia General Assembly · A Guy on X";
 
 type GaFile = { generated: string; sources: string[]; floorRollCalls: number; members: GaMember[] };
+type PageData = { compare: PartyCompare; ranks: RanksFile; committee: CommitteeFile; demo: DemoFile };
 
 export const Route = createFileRoute("/data/republicans-vs-democrats")({
-  loader: async (): Promise<PartyCompare> => {
-    const [h, s, l, cats, pass] = await Promise.all([
+  loader: async (): Promise<PageData> => {
+    const [h, s, l, cats, pass, ranks, committee, demo] = await Promise.all([
       import("@/lib/ga-members-2026-house.json"),
       import("@/lib/ga-members-2026-senate.json"),
       import("@/content/virginia-2027-bills.json"),
       import("@/lib/ga-party-categories.json"),
       import("@/lib/ga-party-passage.json"),
+      import("@/lib/ga-visual-ranks.json"),
+      import("@/lib/ga-visual-committee.json"),
+      import("@/lib/ga-visual-demographics.json"),
     ]);
-    return buildPartyCompare({ house: h.default as unknown as GaFile, senate: s.default as unknown as GaFile }, l.default as unknown as Ledger, cats.default as unknown as CategoryFile, pass.default as unknown as PassageFile);
+    return {
+      compare: buildPartyCompare({ house: h.default as unknown as GaFile, senate: s.default as unknown as GaFile }, l.default as unknown as Ledger, cats.default as unknown as CategoryFile, pass.default as unknown as PassageFile),
+      ranks: ranks.default as unknown as RanksFile,
+      committee: committee.default as unknown as CommitteeFile,
+      demo: demo.default as unknown as DemoFile,
+    };
   },
   head: ({ loaderData }) => {
-    const asOf = loaderData ? ` Data as of ${dateLabel(loaderData.generated)}.` : "";
+    const asOf = loaderData ? ` Data as of ${dateLabel(loaderData.compare.generated)}.` : "";
     const description = `Virginia House and Senate Republicans and Democrats side by side: floor voting records, bill outcomes and policy areas from official LIS records (2026 sessions and the 2027 tracker).${asOf}`;
     return {
       meta: [
@@ -52,7 +63,7 @@ const CHAMBER_OPTS = [{ value: "both" as const, label: "Both chambers" }, { valu
 const MODE_OPTS = [{ value: "legis" as const, label: "Legislation only" }, { value: "all" as const, label: "All incl. honor resolutions" }];
 
 function Page() {
-  const c = Route.useLoaderData();
+  const { compare: c, ranks, committee, demo } = Route.useLoaderData();
   const [sel, setSel] = useState<ChamberSel>("both");
   const [mode, setMode] = useState<BillMode>("legis");
   const R = pooled(c, "both", "R", "all"), D = pooled(c, "both", "D", "all");
@@ -81,7 +92,7 @@ function Page() {
                 <span style={{ color: P_COLOR.R }}>Republicans</span> <span className="text-night-muted">vs.</span> <span style={{ color: P_COLOR.D }}>Democrats</span>
               </h1>
               <p className="mt-5 max-w-xl text-lg leading-relaxed text-[#F6F3EA]">
-                The House and Senate records of each party, side by side. Voting records, what happened to each party's bills, and the policy areas those bills cover. Every number comes from official LIS records and is computed the same way for both parties.
+                The House and Senate records of each party, side by side. Voting records, what happened to each party's bills, and the policy areas those bills cover. Further down, members are ranked on official final-passage votes, bipartisan bills that stopped in committee are listed, and voting records are set next to official Census figures for each district. Every number comes from official records and is computed the same way for both parties.
               </p>
               <dl className="mt-6 grid max-w-xl grid-cols-3 gap-3 text-center">
                 {[{ k: "Members", r: R.members, d: D.members }, { k: "Chief-patron measures", r: R.tally.total, d: D.tally.total }, { k: "Roll-call records", r: R.votes.total, d: D.votes.total }].map((x) => (
@@ -141,12 +152,16 @@ function Page() {
             <TrackerPanel c={c} />
           </Section>
 
+          <MemberRanks ranks={ranks} sel={sel} />
+          <CommitteeDeaths data={committee} sel={sel} />
+          <Demographics ranks={ranks} demo={demo} sel={sel} />
+
           <Section id="method" kicker="Method, sources and gaps" title="How these numbers are made">
             <div className="grid gap-6 lg:grid-cols-2">
               <div className="rounded-xl border border-navy-line bg-navy-700 p-5 sm:p-7">
                 <h3 className="font-serif text-xl font-bold uppercase">Same method for everyone</h3>
                 <ul className="mt-3 space-y-2 text-sm leading-relaxed text-[#F6F3EA]">
-                  <li>Each party's figures are the sum of its members' own LIS records. No member is weighted, adjusted or singled out, and no individual is named on this page.</li>
+                  <li>Each party's figures in the party-total charts above are the sum of its members' own LIS records. No member is weighted, adjusted or singled out in those totals. The three sections further down do name members, because they rank or plot individual official roll-call records; no member is featured as a spotlight.</li>
                   <li>Bills are counted by chief patron only. Co-patron listings are counted separately.</li>
                   <li>Vote shares use only final-passage and third-reading roll calls (rule below). Party-unity over all roll calls is shown separately and labeled.</li>
                   <li>Percentages always use the party's own total as the denominator, so a party with fewer members is not penalized in rates.</li>
@@ -173,6 +188,13 @@ function Page() {
                 <ul className="mt-3 space-y-1 text-sm text-[#F6F3EA]">
                   {c.sources.map((s) => <li key={s}><a className="inline-flex items-center gap-1 break-all text-gold hover:underline" href={s} target="_blank" rel="noreferrer">{s} <ExternalLink className="size-3 shrink-0" aria-hidden /></a></li>)}
                   <li><a className="inline-flex items-center gap-1 break-all text-gold hover:underline" href="https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV" target="_blank" rel="noreferrer">https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV <ExternalLink className="size-3 shrink-0" aria-hidden /></a></li>
+                  {demo.sources.map((s) => <li key={s}><a className="inline-flex items-center gap-1 break-all text-gold hover:underline" href={s} target="_blank" rel="noreferrer">{s} <ExternalLink className="size-3 shrink-0" aria-hidden /></a></li>)}
+                </ul>
+                <h3 className="mt-6 font-serif text-xl font-bold uppercase">Member rankings, committee deaths and Census figures</h3>
+                <ul className="mt-3 space-y-2 text-sm leading-relaxed text-[#F6F3EA]">
+                  <li>Member ranks use the same final-passage / third-reading rule as the party totals. “With the chamber” is the share of a member’s Yea/Nay votes that matched the chamber’s Yea-or-Nay majority. “With their party when the parties split” uses only roll calls where the Republican majority and the Democratic majority disagreed, and asks whether the member matched their own party’s majority. The builder is <code>tools/ga-members/visual-sections.py</code>.</li>
+                  <li>A bill “died in committee” only if it never passed both chambers (LIS Passed is not Y) and its last decisive LIS history action is left in, continued in, tabled in, passed by indefinitely in, stricken in, or failed to report from a named committee. Later floor or governor action cancels an earlier committee death. Bipartisan means at least one Republican and one Democrat in official Sponsors.csv, with party from the rosters.</li>
+                  <li>District figures are U.S. Census Bureau 2020–2024 ACS 5-year estimates on 2024 legislative-session geography (the current Virginia maps). Median household income is table B19013; bachelor’s or higher is table B15003. The 2019–2023 ACS uses the previous map and is not used here.</li>
                 </ul>
               </div>
               <div className="rounded-xl border border-navy-line bg-navy-700 p-5 sm:p-7">
@@ -186,6 +208,10 @@ function Page() {
                   <li>The party-unity measure over all floor roll calls cannot separate passage from procedural votes, because LIS descriptions are not in the member summary; the final-passage version above can.</li>
                   <li>Tracker party is joined from rosters; {unmatched} of {c.tracker.total.toLocaleString()} measures have no match. Continued 2027 bills have no topic categories yet.</li>
                   <li>Not on this page, because the repo holds no source for them: committee votes, amendments, floor speeches, and any measure of how a bill's content differs between parties.</li>
+                  <li>District partisan lean is omitted. Official statewide-race results (Governor 2025, President 2024) are published by locality and precinct, not as official totals by current House or Senate district, and this page does not re-add precincts (some precincts split across lines).</li>
+                  <li>Census urban/rural population is omitted for these districts: the 2020–2024 ACS 5-year detailed tables do not publish that split at the state legislative district, and the 2020 Census urban/rural tables use earlier district lines.</li>
+                  <li>Members who appear on fewer than 85% of their chamber’s final-passage roll calls are labeled “partial term” and are left out of the “both ends” charts and the Census scatter when they also fall short of the minimum Yea/Nay count (50 for chamber or Yea share, 30 for party-split votes).</li>
+                  <li>One House district’s median household income is top-coded by the Census Bureau at $250,000 or more.</li>
                 </ul>
                 <h3 className="mt-6 font-serif text-xl font-bold uppercase">Metric definitions</h3>
                 <dl className="mt-3 space-y-2 text-xs leading-relaxed text-on-dark-muted">
