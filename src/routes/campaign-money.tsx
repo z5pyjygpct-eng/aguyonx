@@ -37,7 +37,7 @@ export const Route = createFileRoute("/campaign-money")({
       {
         name: "description",
         content:
-          "See who funds Virginia delegates, senators, supervisors, and school board candidates, from official Virginia Department of Elections filings. Search a name, a district, or a donor.",
+          "See who funds Virginia delegates, senators, supervisors, and school board candidates, from official Virginia Department of Elections filings. Search a name, a district, a donor, or a dollar amount such as $15,000 or $10k+.",
       },
     ],
   }),
@@ -71,16 +71,18 @@ function Page() {
             </h1>
             <p className="mt-4 max-w-2xl text-lg text-on-dark-muted">
               See who funds Virginia delegates, senators, supervisors, and school board candidates — from the state's own
-              campaign finance reports. Search a person, a district, a committee, or a donor like Clean Virginia. This is
-              not the government's budget.
+              campaign finance reports. Search a person, a district, a committee, a donor like Clean Virginia, or a dollar
+              amount such as $15,000, 50k, or $10k+. This is not the government's budget.
             </p>
           </div>
         </section>
         <div className="mx-auto max-w-4xl px-4 py-8 sm:px-8">
-          {donor ? <div className="mb-8"><DonorView donorId={donor} /></div> : null}
+          <CampaignMoneyLookup initialQuery={q ?? ""} initialKind={office ?? "all"} localityId={locality} />
+
+          {donor ? <div className="mt-8"><DonorView donorId={donor} /></div> : null}
 
           {memberSlug && picked ? (
-            <div className="mb-8">
+            <div className="mt-8 mb-8">
               <CampaignMoneySection
                 slug={memberSlug}
                 summary={summary}
@@ -91,7 +93,7 @@ function Page() {
               />
             </div>
           ) : featured && featured.status === "ready" && featured.cashOnHandCents != null ? (
-            <div className="mb-8">
+            <div className="mt-8 mb-8">
               <FeaturedMoneyTeaser
                 name={featured.name}
                 honorific={featured.honorific}
@@ -114,7 +116,6 @@ function Page() {
             </div>
           ) : null}
 
-          <CampaignMoneyLookup initialQuery={q ?? ""} initialKind={office ?? "all"} localityId={locality} />
           <p className="mt-6 text-xs text-night-muted">
             Source: Virginia Department of Elections campaign finance reports (cfreports.elections.virginia.gov).
             Totals use the latest amendment of each official report. Committee matches were taken from the state's

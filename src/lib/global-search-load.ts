@@ -1,5 +1,6 @@
 import { asLegislatorRecord, asLocalRecord, type CampaignMoneyRecord } from "@/lib/campaign-money-search";
 import { expandDonorFile, type DonorFile, type DonorRecord } from "@/lib/finance-donors";
+import type { FinanceIndex } from "@/lib/finance-summaries";
 import { searchGlobal, type CompactBill, type GlobalHit, type GlobalSearchData } from "@/lib/global-search";
 
 type LegislatorFile = {
@@ -27,12 +28,14 @@ function loadData(): Promise<GlobalSearchData> {
     import("@/content/finance-local-committees.json"),
     import("@/content/finance-donors.json"),
     import("@/content/bills-2027-search.json"),
+    import("@/content/finance-summaries/_index.json"),
   ])
-    .then(([legs, locals, donors, bills]) => {
+    .then(([legs, locals, donors, bills, indexMod]) => {
       const legislatorFile = unwrap(legs as unknown as { default?: LegislatorFile } | LegislatorFile);
       const localFile = unwrap(locals as unknown as { default?: LocalFile } | LocalFile);
       const donorFile = unwrap(donors as unknown as { default?: DonorFile } | DonorFile);
       const billFile = unwrap(bills as unknown as { default?: BillFile } | BillFile);
+      const indexFile = unwrap(indexMod as unknown as { default?: FinanceIndex } | FinanceIndex);
       const legislators: CampaignMoneyRecord[] = Object.values(legislatorFile.members).map(asLegislatorRecord);
       const localRecords: CampaignMoneyRecord[] = (localFile.committees ?? []).map(asLocalRecord);
       const donorRecords: DonorRecord[] = expandDonorFile(donorFile);
@@ -41,6 +44,7 @@ function loadData(): Promise<GlobalSearchData> {
         locals: localRecords,
         donors: donorRecords,
         bills: billFile.bills ?? [],
+        members: indexFile.members ?? [],
       };
     })
     .catch((err) => {

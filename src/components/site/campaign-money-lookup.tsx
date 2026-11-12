@@ -9,6 +9,11 @@ import {
   type CampaignMoneyRecord,
   type OfficeKind,
 } from "@/lib/campaign-money";
+import { loadDonors } from "@/lib/global-search-load";
+import type { DonorRecord } from "@/lib/finance-donors";
+import type { FinanceIndexRow } from "@/lib/finance-summaries";
+import { loadFinanceIndex } from "@/lib/finance-summaries-load";
+import { parseMoneyQuery, searchByAmount, type AmountHit } from "@/lib/money-query";
 import { cn } from "@/lib/utils";
 
 const EXAMPLES = [
@@ -16,6 +21,7 @@ const EXAMPLES = [
   { label: "Kilgore", query: "Kilgore" },
   { label: "Phyllis Randall", query: "Phyllis Randall" },
   { label: "Ashburn school board", query: "Ashburn school board" },
+  { label: "$15,000+", query: "$15,000+" },
 ];
 
 const KIND_CHIPS: { label: string; kind: OfficeKind | "all" }[] = [
@@ -34,6 +40,15 @@ function personLabel(hit: CampaignMoneyHit): string {
   return hit.name;
 }
 
+function amountSearch(hit: AmountHit): { member?: string; donor?: string } {
+  const raw = hit.href.split("?")[1] ?? "";
+  const params = new URLSearchParams(raw);
+  return {
+    member: params.get("member") ?? undefined,
+    donor: params.get("donor") ?? undefined,
+  };
+}
+
 export function CampaignMoneyLookup({
   compact = false,
   initialQuery = "",
@@ -49,6 +64,27 @@ export function CampaignMoneyLookup({
   const [submitted, setSubmitted] = useState(initialQuery.trim());
   const [kind, setKind] = useState<OfficeKind | "all">(initialKind);
   const [localRecords, setLocalRecords] = useState<CampaignMoneyRecord[] | null>(null);
+  const [members, setMembers] = useState<FinanceIndexRow[] | null>(null);
+  const [donors, setDonors] = useState<DonorRecord[] | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    Promise.all([loadFinanceIndex(), loadDonors()])
+      .then(([index, list]) => {
+        if (cancelled) return;
+        setMembers(index.members);
+        setDonors(list);
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setMembers([]);
+          setDonors([]);
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -71,10 +107,20 @@ export function CampaignMoneyLookup({
     return localRecords ? [...LEGISLATOR_RECORDS, ...localRecords] : LEGISLATOR_RECORDS;
   }, [localRecords]);
 
+  const money = useMemo(() => (submitted ? parseMoneyQuery(submitted) : null), [submitted]);
+  const nameQuery = money ? money.rest : submitted;
   const hits = useMemo(
-    () => (submitted ? rankCampaignMoney(records, submitted, 25, { kind, localityId }) : []),
-    [submitted, records, kind, localityId],
+    () => (nameQuery ? rankCampaignMoney(records, nameQuery, 25, { kind, localityId }) : []),
+    [nameQuery, records, kind, localityId],
   );
+  const amountHits = useMemo(() => {
+    if (!money) return [];
+    if (members == null || donors == null) return null;
+    let list = searchByAmount(money, members, donors, 25);
+    if (kind === "legislator") list = list.filter((h) => h.kind === "legislator");
+    if (kind === "supervisor" || kind === "school-board") list = list.filter((h) => h.kind === "donor");
+    return list;
+  }, [money, members, donors, kind]);
 
   function run(next: string) {
     setQ(next);
@@ -92,10 +138,10 @@ export function CampaignMoneyLookup({
         <>
           <h2 className="font-serif text-2xl font-semibold uppercase">Who is funding this campaign?</h2>
           <p className="mt-2 text-sm text-on-dark-muted">
-            Type a person, a district, a donor, or part of a committee name. You do not need the exact official title.
-            "Patrick Hope" will find "Friends of Patrick Hope," and "Kilgore" opens our custom view of official state filings.
-            This covers sitting House and Senate members, plus Board of Supervisors and school board candidates who have filed
-            with the Virginia Department of Elections.
+            Type a person, a district, a donor, part of a committee name, or a dollar amount such as $15,000, 50k, or $10k+.
+            You do not need the exact official title. "Patrick Hope" will find "Friends of Patrick Hope," and "Kilgore" opens
+            our custom view of official state filings. This covers sitting House and Senate members, plus Board of Supervisors
+            and school board candidates who have filed with the Virginia Department of Elections.
           </p>
         </>
       )}
@@ -115,9 +161,9 @@ export function CampaignMoneyLookup({
               setQ(e.target.value);
               const next = e.target.value.trim();
               if (!next) setSubmitted("");
-              else if (next.length >= 2 || /^\d{1,3}$/.test(next)) setSubmitted(next);
+              else if (next.length >= 2 || /^\d{1,3}$/.test(next) || parseMoneyQuery(next)) setSubmitted(next);
             }}
-            placeholder="Name, district, or part of a committee title"
+            placeholder="Name, district, donor, or $15,000 / 50k / $10k+"
             enterKeyHint="search"
             autoComplete="off"
             autoCorrect="off"
@@ -166,19 +212,45 @@ export function CampaignMoneyLookup({
 
       {submitted ? (
         <div className="mt-5" aria-live="polite">
-          {hits.length === 0 && kind !== "legislator" && localRecords === null ? (
+          {hits.length === 0 && !amountHits?.length && kind !== "legislator" && localRecords === null ? (
             <p className="text-sm text-on-dark-muted">Loading Board of Supervisors and school board committees…</p>
-          ) : hits.length === 0 ? (
+          ) : money && amountHits === null ? (
+            <p className="text-sm text-on-dark-muted">Looking up dollar amounts…</p>
+          ) : hits.length === 0 && !amountHits?.length ? (
             <p className="text-sm text-on-dark-muted">
-              No official committee matched "{submitted}." Try a last name, a first and last name, or a district like HD 45 or Ashburn.
+              No official committee or dollar-amount match for "{submitted}." Try a last name, a district like HD 45, or an amount such as $15,000, 50k, or $10k+.
             </p>
           ) : (
             <>
               <p className="font-mono text-xs tracking-widest text-night-muted uppercase">
-                {hits.length} {hits.length === 1 ? "match" : "matches"}
+                {(hits.length + (amountHits?.length ?? 0))} {(hits.length + (amountHits?.length ?? 0)) === 1 ? "match" : "matches"}
                 {localRecords === null ? " · local committees still loading" : ""}
               </p>
-              <ul className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+              {amountHits && amountHits.length > 0 ? (
+                <ul className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+                  {amountHits.map((hit) => {
+                    const search = amountSearch(hit);
+                    return (
+                      <li key={hit.id} className="px-4 py-3 sm:px-5">
+                        <Link
+                          to="/campaign-money"
+                          search={search}
+                          className="font-semibold text-white hover:text-gold hover:underline"
+                        >
+                          {hit.title}
+                        </Link>
+                        <div className="text-xs uppercase tracking-widest text-gold mt-1">
+                          {hit.kind === "legislator" ? "Campaign total" : "Donor total"}
+                          {hit.match === "min" ? " · at or above" : hit.match === "near" ? " · near this amount" : " · exact match"}
+                        </div>
+                        <div className="text-sm text-on-dark-muted">{hit.snippet}</div>
+                      </li>
+                    );
+                  })}
+                </ul>
+              ) : null}
+              {hits.length > 0 ? (
+              <ul className={amountHits && amountHits.length > 0 ? "mt-4 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800" : "mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800"}>
                 {hits.map((hit) => (
                   <li key={hit.lisId || hit.committeeId} className="px-4 py-3 sm:px-5">
                     <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -232,6 +304,7 @@ export function CampaignMoneyLookup({
                   </li>
                 ))}
               </ul>
+              ) : null}
             </>
           )}
         </div>

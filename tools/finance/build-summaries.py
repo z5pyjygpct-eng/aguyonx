@@ -567,7 +567,7 @@ def main() -> None:
                 d["name"] = gft["name"]
         donors_sorted = sorted(donor_acc.values(), key=lambda d: (-d["cents"], d["name"].lower()))
         top_donors = []
-        for d in donors_sorted[:10]:
+        for d in donors_sorted:
             slug = slugify(d["name"])
             entry = {
                 "name": d["name"],

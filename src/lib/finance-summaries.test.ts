@@ -36,6 +36,8 @@ test("Kilgore mid-year 2026 totals match the official state XML for report 49557
   assert.equal(kilgore.verification?.matchedOfficialXml, true);
   assert.equal(kilgore.donors?.[0]?.name, "Ballard for Delegate");
   assert.equal(kilgore.donors?.[0]?.cents, 1_500_000);
+  assert.equal(kilgore.donors?.length, 40);
+  assert.ok((kilgore.donors ?? []).every((d, i, all) => i === 0 || all[i - 1]!.cents >= d.cents));
   assert.ok(kilgore.csvPath?.endsWith("/terry-g-kilgore.csv"));
   const csv = fs.readFileSync(path.join(import.meta.dirname, "../../public/files/campaign-money/terry-g-kilgore.csv"), "utf8");
   assert.match(csv, /Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30/);

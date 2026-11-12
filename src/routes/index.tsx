@@ -155,7 +155,7 @@ function Home() {
                   <Link to="/about" className="font-semibold text-gold underline">About this project →</Link></p>
               </div>
               <div className="min-w-0 lg:col-start-1 lg:row-start-2 lg:max-w-[46rem]">
-                <HeroSearch placeholder="Search a name, bill, district, donor, or committee…" placeholderNarrow="Hope, SB 852, HD45…" />
+                <HeroSearch placeholder="Search a name, bill, district, donor, $50k, or committee…" placeholderNarrow="Hope, SB 852, $10k+…" />
               </div>
               <HeroFeatureTiles className="lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:mt-10 lg:self-start" />
             </div>

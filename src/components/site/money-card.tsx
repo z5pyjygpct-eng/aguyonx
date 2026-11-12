@@ -246,6 +246,54 @@ function SpendingCategory({ category }: { category: { name: string; cents: numbe
   );
 }
 
+
+const DONOR_PAGE_SIZE = 10;
+
+function pageItems(page: number, pages: number): Array<number | "gap"> {
+  if (pages <= 7) return Array.from({ length: pages }, (_, i) => i + 1);
+  const keep = new Set([1, pages, page, page - 1, page + 1, page - 2, page + 2]);
+  const nums = [...keep].filter((n) => n >= 1 && n <= pages).sort((a, b) => a - b);
+  const out: Array<number | "gap"> = [];
+  for (const n of nums) {
+    const prev = out[out.length - 1];
+    if (typeof prev === "number" && n > prev + 1) out.push("gap");
+    out.push(n);
+  }
+  return out;
+}
+
+function DonorPages({ page, pages, onPage }: { page: number; pages: number; onPage: (n: number) => void }) {
+  if (pages <= 1) return null;
+  return (
+    <nav aria-label="Donor list pages" className="mt-3 flex flex-wrap items-center gap-2">
+      <span className="font-mono text-xs tracking-widest text-night-muted uppercase">Pages:</span>
+      {pageItems(page, pages).map((item, i) =>
+        item === "gap" ? (
+          <span key={`gap-${i}`} className="px-1 text-night-muted">
+            …
+          </span>
+        ) : (
+          <button
+            key={item}
+            type="button"
+            aria-label={`Page ${item}`}
+            aria-current={item === page ? "page" : undefined}
+            onClick={() => onPage(item)}
+            className={cn(
+              "inline-flex min-h-9 min-w-9 items-center justify-center rounded-md border px-2.5 text-sm font-semibold",
+              item === page
+                ? "border-gold bg-gold text-navy-900"
+                : "border-navy-line bg-navy-800 text-on-dark-muted hover:border-gold hover:text-gold",
+            )}
+          >
+            {item}
+          </button>
+        ),
+      )}
+    </nav>
+  );
+}
+
 function ReadyView({
   s,
   billsHref,
@@ -258,6 +306,14 @@ function ReadyView({
   variant: "profile" | "hub";
 }) {
   const [allFilings, setAllFilings] = useState(false);
+  const [donorPage, setDonorPage] = useState(1);
+  const donors = s.donors ?? [];
+  const donorPages = Math.max(1, Math.ceil(donors.length / DONOR_PAGE_SIZE));
+  const safeDonorPage = Math.min(donorPage, donorPages);
+  const donorSlice = donors.slice((safeDonorPage - 1) * DONOR_PAGE_SIZE, safeDonorPage * DONOR_PAGE_SIZE);
+  useEffect(() => {
+    setDonorPage(1);
+  }, [s.slug]);
   const report = s.latestReport;
   const filings = s.filings ?? [];
   const shownFilings = allFilings ? filings : filings.slice(0, 8);
@@ -319,16 +375,16 @@ function ReadyView({
 
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Who funds {firstName}?</h3>
       <p className="mt-1 text-sm text-on-dark-muted">
-        Top 10 itemized givers in this {s.cycleLabel ? s.cycleLabel.toLowerCase() : "cycle"}, including{" "}
-        <MoneyTerm term="In-kind">gifts of goods or services</MoneyTerm>. Names appear as they were filed with the state.
+        All {donors.length.toLocaleString()} itemized givers in this {s.cycleLabel ? s.cycleLabel.toLowerCase() : "cycle"}, including{" "}
+        <MoneyTerm term="In-kind">gifts of goods or services</MoneyTerm>, shown {DONOR_PAGE_SIZE} at a time. Names appear as they were filed with the state.
       </p>
-      {s.donors?.length ? (
-        <ol className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
-          {s.donors.map((d, i) => (
+      {donors.length ? (
+        <ol className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800" start={(safeDonorPage - 1) * DONOR_PAGE_SIZE + 1}>
+          {donorSlice.map((d, i) => (
             <li key={d.name} className="flex flex-col gap-1 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
               <div className="min-w-0">
                 <div className="font-semibold">
-                  <span className="mr-2 font-mono text-xs text-night-muted">{i + 1}.</span>
+                  <span className="mr-2 font-mono text-xs text-night-muted">{(safeDonorPage - 1) * DONOR_PAGE_SIZE + i + 1}.</span>
                   {d.donorId ? (
                     <Link to="/campaign-money" search={{ donor: d.donorId }} className="hover:text-gold hover:underline">
                       {d.name}
@@ -351,6 +407,12 @@ function ReadyView({
       ) : (
         <p className="mt-3 text-sm text-on-dark-muted">No itemized donors in the reports we have loaded for this cycle.</p>
       )}
+      <DonorPages page={safeDonorPage} pages={donorPages} onPage={setDonorPage} />
+      {donors.length > DONOR_PAGE_SIZE ? (
+        <p className="mt-2 text-xs text-night-muted">
+          Showing {(safeDonorPage - 1) * DONOR_PAGE_SIZE + 1}–{Math.min(safeDonorPage * DONOR_PAGE_SIZE, donors.length)} of {donors.length.toLocaleString()}
+        </p>
+      ) : null}
       <SourceLine reportId={report?.id} filed={report?.filed} amendment={report?.amendment} extra={s.itemizedNote} />
 
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Where does the money come from?</h3>

@@ -4,6 +4,7 @@ import path from "node:path";
 import { describe, it } from "node:test";
 import { asLegislatorRecord, asLocalRecord } from "./campaign-money-search.ts";
 import { expandDonorFile, findDonor, type DonorFile } from "./finance-donors.ts";
+import type { FinanceIndex } from "./finance-summaries.ts";
 import { searchGlobal, type CompactBill, type GlobalHit, type GlobalSearchData } from "./global-search.ts";
 
 const root = path.join(import.meta.dirname, "..");
@@ -20,12 +21,14 @@ const localFile = loadJson("content/finance-local-committees.json") as {
 };
 const donorFile = loadJson("content/finance-donors.json") as DonorFile;
 const billFile = loadJson("content/bills-2027-search.json") as { bills: CompactBill[] };
+const financeIndex = loadJson("content/finance-summaries/_index.json") as FinanceIndex;
 
 const DATA: GlobalSearchData = {
   legislators: Object.values(legislatorFile.members).map(asLegislatorRecord),
   locals: (localFile.committees ?? []).map(asLocalRecord),
   donors: expandDonorFile(donorFile),
   bills: billFile.bills ?? [],
+  members: financeIndex.members,
 };
 
 function byCategory(hits: GlobalHit[], category: GlobalHit["category"]) {
@@ -107,6 +110,20 @@ describe("global search", () => {
     assert.ok(sd33.length, "expected a Senate District 33 member");
     assert.ok(sd33.every((h) => h.href.startsWith("/dashboards/senate/members/") || /33/.test(h.snippet) || /33/.test(h.title) || /Senate of Virginia · District 33/.test(h.snippet)));
     assert.ok(sd33.some((h) => /District 33/.test(h.snippet)));
+  });
+
+  it("dollar amounts such as $50,000, 50k, and $10k+ find campaign totals and donors", () => {
+    for (const q of ["$50,000", "50000", "50k", ">50000", "$10k+"]) {
+      const hits = searchGlobal(q, DATA);
+      assert.ok(hits.length, `expected amount hits for ${q}`);
+      assert.ok(
+        hits.some((h) => h.category === "Legislator"),
+        `expected a campaign total in ${q}, got ${hits.slice(0, 8).map((h) => h.title).join("; ")}`,
+      );
+      assert.ok(hits.some((h) => h.category === "Donor"));
+    }
+    const named = searchGlobal("Kilgore $10k+", DATA);
+    assert.ok(named.some((h) => /terry-g-kilgore/.test(h.href)));
   });
 
   it("committee links stay on the official state site", () => {

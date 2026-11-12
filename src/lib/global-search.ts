@@ -1,4 +1,6 @@
 import { rankCampaignMoney, committeePageUrl, type CampaignMoneyRecord } from "./campaign-money-search.ts";
+import type { FinanceIndexRow } from "./finance-summaries.ts";
+import { parseMoneyQuery, searchByAmount } from "./money-query.ts";
 import { parseBillQuery } from "./virginia-2027-bills.ts";
 import { findDonor, formatUsd, searchDonors, type DonorRecord } from "./finance-donors.ts";
 
@@ -33,6 +35,7 @@ export type GlobalSearchData = {
   locals: CampaignMoneyRecord[];
   donors: DonorRecord[];
   bills: CompactBill[];
+  members?: FinanceIndexRow[];
 };
 
 function looksLikeBillNumber(raw: string): boolean {
@@ -168,18 +171,53 @@ const CATEGORY_ORDER: GlobalCategory[] = [
   "Meeting / Page",
 ];
 
-/** People, committees, donors, and 2027 bills. Site pages and meetings stay in the existing search UI. */
+function amountHits(query: string, data: GlobalSearchData, cap = 16): GlobalHit[] {
+  const money = parseMoneyQuery(query);
+  if (!money || !data.members?.length) return [];
+  return searchByAmount(money, data.members, data.donors, cap).map((h) => ({
+    id: h.id,
+    category: h.kind === "legislator" ? ("Legislator" as const) : ("Donor" as const),
+    title: h.title,
+    snippet: h.snippet,
+    href: h.href,
+    score: h.score + 20,
+  }));
+}
+
+function mergeHits(existing: GlobalHit[], extras: GlobalHit[]): GlobalHit[] {
+  const byHref = new Map(existing.map((h) => [h.href, h]));
+  for (const hit of extras) {
+    const prev = byHref.get(hit.href);
+    if (prev) {
+      prev.score = Math.max(prev.score, hit.score);
+      if (hit.snippet) prev.snippet = hit.snippet;
+      continue;
+    }
+    byHref.set(hit.href, hit);
+    existing.push(hit);
+  }
+  return existing;
+}
+
+/** People, committees, donors, dollar amounts, and 2027 bills. Site pages and meetings stay in the existing search UI. */
 export function searchGlobal(query: string, data: GlobalSearchData): GlobalHit[] {
-  const q = query.trim();
-  if (q.length < 2) return [];
+  const raw = query.trim();
+  const money = parseMoneyQuery(raw);
+  const q = money?.rest || raw;
+  const moneyOnly = Boolean(money && !money.rest);
+  if (!money && q.length < 2) return [];
   const peoplePool = [...data.legislators, ...data.locals];
-  const hits = [
-    ...peopleHits(data.legislators, q, "Legislator", 6),
-    ...peopleHits(data.locals, q, "Local Candidate", 6),
-    ...committeeHits(peoplePool, q, 6),
-    ...donorHits(data.donors, q, 6),
-    ...searchBills(data.bills, q, 8),
-  ];
+  const hits: GlobalHit[] = [];
+  if (!moneyOnly && q.length >= 2) {
+    hits.push(
+      ...peopleHits(data.legislators, q, "Legislator", 6),
+      ...peopleHits(data.locals, q, "Local Candidate", 6),
+      ...committeeHits(peoplePool, q, 6),
+      ...donorHits(data.donors, q, 6),
+      ...searchBills(data.bills, q, 8),
+    );
+  }
+  mergeHits(hits, amountHits(raw, data));
   hits.sort((a, b) => {
     const cat = CATEGORY_ORDER.indexOf(a.category) - CATEGORY_ORDER.indexOf(b.category);
     if (cat) return cat;

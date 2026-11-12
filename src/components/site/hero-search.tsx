@@ -53,7 +53,7 @@ export function HeroSearch({ placeholder, placeholderNarrow, id = "hero-q" }: { 
           Search
         </button>
       </form>
-      <p className="mt-2 text-sm text-on-dark-muted">Legislators, Board of Supervisors and school board candidates, donors, committees, 2027 bills, and the public record.</p>
+      <p className="mt-2 text-sm text-on-dark-muted">Legislators, Board of Supervisors and school board candidates, donors, dollar amounts ($15,000, 50k, $10k+), committees, 2027 bills, and the public record.</p>
       {query ? <Suspense fallback={<p className="mt-4 text-sm opacity-80" role="status">Searching…</p>}><SiteSearchResults query={query} dark /></Suspense> : null}
     </div>
   );
