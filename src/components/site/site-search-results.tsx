@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { searchSite, type SearchHit } from "@/lib/search";
 import { ftmSnippet, ftmStats, jumpHref, searchFtm, type FtmMeetingHit, type FtmResult, type FtmSnippet } from "@/lib/ftm-search";
+import { searchGlobalLive } from "@/lib/global-search-load";
+import { CATEGORY_ORDER, type GlobalCategory, type GlobalHit } from "@/lib/global-search";
 
 /** Grouped site search results (homepage, hubs, dashboards). Per-group limits with "Show more"; no global cap. */
 const FIRST = 5;
@@ -34,6 +36,40 @@ function MoreBtn({ more, left, dark }: { more: (() => void) | null; left: number
   return <button type="button" onClick={more} className={`mt-1 ml-3 mb-2 text-sm font-semibold underline ${dark ? "text-navy-700" : "text-foreground"}`}>Show more ({left} left)</button>;
 }
 
+const PAGE_SHELF_BADGE: Record<string, GlobalCategory> = {
+  Recap: "Meeting / Page",
+  Page: "Meeting / Page",
+  Document: "Meeting / Page",
+  Investigation: "Meeting / Page",
+  Article: "Meeting / Page",
+  Library: "Meeting / Page",
+  Book: "Meeting / Page",
+  News: "Meeting / Page",
+  "2027": "Meeting / Page",
+  "Delegate paper": "Meeting / Page",
+  "Senator paper": "Meeting / Page",
+};
+
+function Badge({ label }: { label: string }) {
+  return <span className="mr-2 inline-block rounded-sm bg-navy-900 px-1.5 py-0.5 font-mono text-[10px] font-bold tracking-widest text-gold uppercase">{label}</span>;
+}
+
+function GlobalGroup({ category, list, dark, q }: { category: GlobalCategory; list: GlobalHit[]; dark: boolean; q: string }) {
+  const { shown, more } = useShown(list.length);
+  return (
+    <section>
+      <h3 className="mt-3 rounded-md border-l-4 border-gold bg-navy-900 px-3 py-2 font-mono text-xs font-bold tracking-widest text-gold uppercase">{category} ({list.length})</h3>
+      <ul className="divide-y divide-border">{list.slice(0, shown).map((h) => (
+        <li key={h.id}><a href={h.href} {...(h.external ? { target: "_blank", rel: "noreferrer" } : {})} className="block px-3 py-3 hover:bg-wash">
+          <p className="font-semibold"><Badge label={h.category} /><Hl text={h.title} q={q} /></p>
+          {h.snippet ? <p className="mt-0.5 line-clamp-2 text-sm text-muted-foreground"><Hl text={h.snippet} q={q} /></p> : null}
+        </a></li>
+      ))}</ul>
+      <MoreBtn more={more} left={list.length - shown} dark={dark} />
+    </section>
+  );
+}
+
 function MeetingRow({ h, terms, q }: { h: FtmMeetingHit; terms: string[]; q: string }) {
   const [sn, setSn] = useState<FtmSnippet | null | undefined>(undefined);
   useEffect(() => { let on = true; ftmSnippet(h, terms, q).then((s) => on && setSn(s)).catch(() => on && setSn(null)); return () => { on = false; }; }, [h, terms, q]);
@@ -41,7 +77,7 @@ function MeetingRow({ h, terms, q }: { h: FtmMeetingHit; terms: string[]; q: str
   return (
     <li className="px-3 py-3">
       <p className="font-mono text-[11px] tracking-widest text-muted-foreground uppercase">{h.venue.label} · {h.dateLabel}</p>
-      <p className="font-semibold"><Hl text={h.title} q={q} /></p>
+      <p className="font-semibold"><Badge label="Meeting / Page" /><Hl text={h.title} q={q} /></p>
       {sn === undefined ? <p className="mt-0.5 text-sm text-muted-foreground">Loading snippet…</p> : sn ? <p className="mt-0.5 line-clamp-3 text-sm text-muted-foreground">“<Hl text={sn.text} q={q} />”</p> : null}
       <p className="mt-1 flex flex-wrap gap-x-4 text-sm">
         <a href={href} target={h.jumpTpl ? "_blank" : undefined} rel="noreferrer" className="font-semibold underline">{h.jumpTpl && sn ? `Jump to ${clock(sn.start)} in the video` : "Open in Find the Moment"}</a>
@@ -77,7 +113,7 @@ function Group({ shelf, list, dark, q }: { shelf: string; list: SearchHit[]; dar
       <h3 className="mt-3 rounded-md border-l-4 border-gold bg-navy-900 px-3 py-2 font-mono text-xs font-bold tracking-widest text-gold uppercase">{LABEL[shelf] ?? shelf} ({list.length})</h3>
       <ul className="divide-y divide-border">{list.slice(0, shown).map((h) => (
         <li key={h.id}><a href={h.href} {...(external(h.href) ? { target: "_blank", rel: "noreferrer" } : {})} className="block px-3 py-3 hover:bg-wash">
-          <p className="font-semibold"><Hl text={h.title} q={q} /></p>
+          <p className="font-semibold"><Badge label={PAGE_SHELF_BADGE[shelf] ?? "Meeting / Page"} /><Hl text={h.title} q={q} /></p>
           {h.snippet ? <p className="mt-0.5 line-clamp-2 text-sm text-muted-foreground"><Hl text={h.snippet} q={q} /></p> : null}
         </a></li>
       ))}</ul>
@@ -95,6 +131,14 @@ export function SiteSearchResults({ query, dark = false }: { query: string; dark
     return () => { on = false; };
   }, [query, base]);
   const hits = useMemo(() => (extra && extra.q === query ? [...base, ...extra.hits] : base), [base, extra, query]);
+  const [deep, setDeep] = useState<{ q: string; hits: GlobalHit[] } | null>(null);
+  useEffect(() => {
+    let on = true;
+    searchGlobalLive(query).then((h) => on && setDeep({ q: query, hits: h })).catch(() => on && setDeep({ q: query, hits: [] }));
+    return () => { on = false; };
+  }, [query]);
+  const globalHits = deep && deep.q === query ? deep.hits : [];
+  const globalGroups = CATEGORY_ORDER.map((c) => ({ c, list: globalHits.filter((h) => h.category === c) })).filter((g) => g.list.length);
   const [ftm, setFtm] = useState<{ q: string; r: FtmResult | null; err?: boolean } | null>(null);
   useEffect(() => {
     let on = true;
@@ -106,17 +150,18 @@ export function SiteSearchResults({ query, dark = false }: { query: string; dark
     return () => { on = false; };
   }, [query]);
   const groups = ORDER.map((s) => ({ s, list: hits.filter((h) => h.shelf === s) })).filter((g) => g.list.length);
-  const loading = !ftm || ftm.q !== query;
-  const r = loading ? null : ftm.r;
-  const none = !loading && !hits.length && !r?.meetings.length;
+  const loading = !ftm || ftm.q !== query || !deep || deep.q !== query;
+  const r = !ftm || ftm.q !== query ? null : ftm.r;
+  const none = !loading && !hits.length && !r?.meetings.length && !globalHits.length;
   return (
     <div className={`divide-y divide-border ${dark ? "mt-3 rounded-xl bg-white p-1 text-navy-800 shadow-xl" : "mt-5 border-y border-border"}`} aria-live="polite">
       <p className="px-3 py-2 text-sm text-muted-foreground">
-        {hits.length} on our pages · {loading ? "searching meeting transcripts…" : ftm.err ? "meeting transcripts unavailable right now" : `${r?.meetings.length ?? 0} meetings mention it`}
+        {(!deep || deep.q !== query) ? "searching people, bills, and official finance…" : `${globalHits.length} people, bills, and official finance matches`} · {hits.length} on our pages · {(!ftm || ftm.q !== query) ? "searching meeting transcripts…" : ftm.err ? "meeting transcripts unavailable right now" : `${r?.meetings.length ?? 0} meetings mention it`}
       </p>
+      {globalGroups.map((g) => <GlobalGroup key={g.c} category={g.c} list={g.list} dark={dark} q={query} />)}
       {r && r.meetings.length ? <Meetings r={r} q={query} dark={dark} /> : null}
       {groups.map((g) => <Group key={g.s} shelf={g.s} list={g.list} dark={dark} q={query} />)}
-      {none ? <p className="p-3 text-sm text-muted-foreground">No matching records on this site or in meeting transcripts.</p> : null}
+      {none ? <p className="p-3 text-sm text-muted-foreground">No matching records on this site, in official finance files, or in meeting transcripts.</p> : null}
     </div>
   );
 }

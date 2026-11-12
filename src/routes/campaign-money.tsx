@@ -2,9 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import { CampaignMoneyLookup } from "@/components/site/campaign-money-lookup";
+import { DonorView } from "@/components/site/donor-view";
 import type { OfficeKind } from "@/lib/campaign-money";
 
-type Search = { q?: string; office?: OfficeKind; locality?: string };
+type Search = { q?: string; office?: OfficeKind; locality?: string; donor?: string };
 
 function parseOffice(v: unknown): OfficeKind | undefined {
   if (v === "legislator" || v === "supervisor" || v === "school-board") return v;
@@ -16,6 +17,7 @@ export const Route = createFileRoute("/campaign-money")({
     q: typeof search.q === "string" ? search.q : undefined,
     office: parseOffice(search.office),
     locality: typeof search.locality === "string" ? search.locality : undefined,
+    donor: typeof search.donor === "string" ? search.donor : undefined,
   }),
   head: () => ({
     meta: [
@@ -31,7 +33,7 @@ export const Route = createFileRoute("/campaign-money")({
 });
 
 function Page() {
-  const { q, office, locality } = Route.useSearch();
+  const { q, office, locality, donor } = Route.useSearch();
   return (
     <SiteShell>
       <main className="agx-dark flex-1 bg-navy-800 text-white">
@@ -57,6 +59,7 @@ function Page() {
           </div>
         </section>
         <div className="mx-auto max-w-4xl px-4 py-8 sm:px-8">
+          {donor ? <div className="mb-8"><DonorView donorId={donor} /></div> : null}
           <CampaignMoneyLookup initialQuery={q ?? ""} initialKind={office ?? "all"} localityId={locality} />
           <p className="mt-6 text-xs text-night-muted">
             Source: Virginia Department of Elections campaign finance reports (cfreports.elections.virginia.gov).
