@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,168 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-12",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Wednesday, Nov 11) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched RSS title, Nov 11 publish time confirmed in page metadata). Sources checked: RSS from ARLnow, FFXnow, Annandale Today, Potomac Local, Blue Ridge Leader, Loudoun Times-Mirror, WTOP local; Loudoun Now and Prince William Times RSS returned HTTP 429, InsideNoVA HTTP 403 (not covered); FFXnow feed had no Nov 11 items. 17 candidate local pages checked, 0 failed verification, 16 kept. Left out: statewide, national, Stafford, Spotsylvania, UMW, DC and Arlington-cemetery national stories; Dulles (straddles counties); locked-bathroom school board story and LoSchiavo state meet (locality not confirmed); PRINT duplicates.",
+      "items": [
+        {
+          "id": "annandale-spa-for-sale-annandaletod-2026-11-11",
+          "county": "Fairfax",
+          "headline": "Annandale spa for sale",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/annandale-spa-for-sale/",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "the-community-studio-brings-art-activities-to-annandale-annandaletod-2026-11-11",
+          "county": "Fairfax",
+          "headline": "The Community Studio brings art activities to Annandale",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/the-community-studio-brings-art-activities-to-annandale/",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "how-fairfax-co-s-plastic-bag-tax-helped-community-get-c-wtop-2026-11-11",
+          "county": "Fairfax",
+          "headline": "How Fairfax Co.’s plastic bag tax helped community get covered recycle bins for free",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/how-fairfax-co-s-plastic-bag-tax-helped-community-get-covered-recycle-bins-for-free/",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "developing-body-found-in-woods-along-spout-run-parkway-arlnow-2026-11-11",
+          "county": "Arlington",
+          "headline": "DEVELOPING: Body found in woods along Spout Run Parkway",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/11/developing-body-found-in-woods-along-spout-run-parkway/",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "briskman-puts-residents-and-data-centers-in-focus-blueridgelea-2026-11-11",
+          "county": "Loudoun",
+          "headline": "Briskman Puts Residents and Data Centers in Focus",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/briskman-puts-residents-and-data-centers-in-focus/",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "after-an-outpouring-of-support-purcellville-east-reside-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "After an outpouring of support, Purcellville East residents expected home by mid-December",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/after-an-outpouring-of-support-purcellville-east-residents-expected-home-by-mid-december/article_2b41fe6e-660e-4645-92ba-a1b403cf4d0d.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "willard-middle-school-choir-selected-to-perform-at-stat-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "Willard Middle School choir selected to perform at state music conference",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/community/willard-middle-school-choir-selected-to-perform-at-state-music-conference/article_4c1dc87d-d918-4ef0-bf54-c5c6c048dd60.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lcps-hires-new-spokesperson-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "LCPS hires new spokesperson",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/education/lcps-hires-new-spokesperson/article_00c4eb1f-1174-475f-b9c6-166376e562aa.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-supervisors-staff-begin-fy28-budget-talks-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "Loudoun supervisors, staff begin FY28 budget talks",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/budget_and_tax/loudoun-supervisors-staff-begin-fy28-budget-talks/article_dd0fc891-1a9f-42f4-b75c-0b297653270a.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "purcellville-town-council-hires-acting-town-manager-fir-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "Purcellville Town Council hires acting town manager, fires Fraser",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/purcellville-town-council-hires-acting-town-manager-fires-fraser/article_b3d620ca-4bb0-4037-949f-ae1c691f97d5.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "a-day-to-reflect-and-remember-veterans-day-tributes-hel-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "'A day to reflect and remember': Veterans Day tributes held around Loudoun County",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/community/a-day-to-reflect-and-remember-veterans-day-tributes-held-around-loudoun-county/article_3bfc6add-5c5d-48a1-9133-2582b9108afb.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "suspect-in-1-7-million-gold-bars-scam-indicted-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "Suspect in $1.7 million gold bars scam indicted",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/suspect-in-1-7-million-gold-bars-scam-indicted/article_bffc84e1-5279-4517-8af4-bec0cba3c1d0.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "annual-use-of-lcps-ombuds-rises-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "Annual use of LCPS ombuds rises",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/education/annual-use-of-lcps-ombuds-rises/article_17e0cbb5-5b93-45dc-b750-70117db7af56.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "tigers-advance-to-vhsl-class-6-field-hockey-championshi-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "Tigers advance to VHSL Class 6 field hockey championship game",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/sports/tigers-advance-to-vhsl-class-6-field-hockey-championship-game/article_7a78b332-5b8e-4f78-9aca-856f8f867b43.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-football-teams-qualify-for-vhsl-playoffs-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "Loudoun football teams qualify for VHSL playoffs",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/sports/loudoun-football-teams-qualify-for-vhsl-playoffs/article_4bd16168-69ed-4426-96ec-c8e348d40181.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "print-briar-woods-wins-4th-consecutive-cheer-championsh-loudountimes-2026-11-11",
+          "county": "Loudoun",
+          "headline": "PRINT: Briar Woods wins 4th consecutive cheer championship",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/sports/print-briar-woods-wins-4th-consecutive-cheer-championship/article_f84aafb4-c59f-4089-84a5-797d95cb11e8.html",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-chorale-heads-to-carnegie-hall-for-america-s-2-potomaclocal-2026-11-11",
+          "county": "Prince William",
+          "headline": "Manassas Chorale heads to Carnegie Hall for America’s 250th anniversary",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/11/manassas-chorale-heads-to-carnegie-hall-americas-250th/",
+          "published": "2026-11-11",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-11-11",
       "status": "ok",
