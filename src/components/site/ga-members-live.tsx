@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site/shell";
 import IDX from "@/lib/ga-members-2026-index.json";
 import { MOCKUPS } from "@/lib/mockups/mockups-data";
 import { withMockupCrumbs } from "@/lib/mockup-crumbs";
+import { CampaignMoneyLookup } from "@/components/site/campaign-money-lookup";
 
 const VACANCY =
   '<div class="dl" data-name="Vacant" data-d="20" data-p="V" style="border:1px dashed #F5B82E;background:#08142D;border-left:3px solid #F5B82E;border-radius:10px;padding:7px 12px;display:block"><div style="font-weight:600;font-size:14px;">Vacant — District 20</div><div style="font-size:11px;color:#9AA8C2">special election Nov 3</div></div>';
@@ -50,6 +51,18 @@ export function GaMembersLive({ slug }: { slug: "house-members" | "senate-member
   return (
     <SiteShell>
       <main className="agx-dark flex-1 bg-navy-800 text-white">
+        <div className="mx-auto max-w-7xl px-4 pt-6 sm:px-8">
+          <div className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-6">
+            <p className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">Campaign money</p>
+            <h2 className="mt-1 font-serif text-2xl font-semibold uppercase">Who is funding their campaign?</h2>
+            <p className="mt-2 text-sm text-on-dark-muted">
+              Look up a sitting member's official Virginia Department of Elections committee page, or a Board of Supervisors or school board candidate. You do not need the exact committee title.
+            </p>
+            <div className="mt-4">
+              <CampaignMoneyLookup compact />
+            </div>
+          </div>
+        </div>
         <div ref={ref} className="agx-mock" dangerouslySetInnerHTML={{ __html: html }} />
       </main>
     </SiteShell>

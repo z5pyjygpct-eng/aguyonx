@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, ChevronDown, ExternalLink, FileText, Landmark, Mail, Phone, Play } from "lucide-react";
+import { ArrowRight, ChevronDown, CircleDollarSign, ExternalLink, FileText, Landmark, Mail, Phone, Play } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import { GA_CONTACT_GENERATED, GA_MEMBER_CONTACT } from "@/content/ga-member-contact";
 import { GA_DASHBOARD } from "@/lib/ga-dashboard";
 import { billSentenceParts, breakdownBills, coPatronTotal, dateLabel, isHonorResolution, joinPlain, type BillBreakdown } from "@/lib/ga-member-stats";
+import { campaignMoneyLink } from "@/lib/campaign-money";
 
 export type GaBill = { session: string; bill: string; title: string; outcome: "signed" | "vetoed" | "passed" | "failed" | "tabled"; status: string; statusDate: string; subjects: string[]; categories?: string[]; href: string };
 export type GaCounts = { total: number; passed: number; signed: number; vetoed: number; passedNoGovAction: number; failed: number; tabled: number };
@@ -96,12 +97,14 @@ function HeroActions({ m }: { m: GaMember }) {
   const lisPage = c?.source ?? `https://lis.virginia.gov/member-information/${m.lisId}/members-legislators`;
   // FOIA target is the one already verified on the Scott-approved General Assembly dashboard (House or Senate clerk's request form).
   const foia = GA_DASHBOARD.columns.find((col) => col.name.includes(m.chamber === "house" ? "House" : "Senate"))?.foia;
+  const money = campaignMoneyLink(m.lisId);
   return (
     <div className="mt-6">
       <div className="flex flex-wrap gap-3">
         {c?.phone ? <a href={`tel:${c.phone.replace(/[^\d]/g, "")}`} className={HERO_BTN_MAIN}><Phone className="size-4" aria-hidden />Call {c.phone}</a> : null}
         {c?.email ? <a href={`mailto:${c.email}`} aria-label={`Email ${c.email}`} className={HERO_BTN}><Mail className="size-4" aria-hidden />Email the office</a> : null}
         <a href={lisPage} target="_blank" rel="noreferrer" className={HERO_BTN}><Landmark className="size-4" aria-hidden />LIS member page<ExternalLink className="size-3" aria-hidden /></a>
+        {money ? <a href={money.href} target="_blank" rel="noreferrer" className={HERO_BTN} aria-label={`Campaign money for ${m.name}, official Virginia Department of Elections committee page`}><CircleDollarSign className="size-4" aria-hidden />Campaign money<ExternalLink className="size-3" aria-hidden /></a> : null}
         {foia ? <a href={foia.href} target="_blank" rel="noreferrer" className={HERO_BTN}><FileText className="size-4" aria-hidden />{foia.label}<ExternalLink className="size-3" aria-hidden /></a> : null}
       </div>
       {foia ? <p className="mt-2 text-xs text-night-muted">Records requests go to the {m.chamber === "house" ? "House" : "Senate"} Clerk's office, which handles them for the whole chamber.</p> : null}

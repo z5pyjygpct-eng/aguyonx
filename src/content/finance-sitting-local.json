@@ -1,0 +1,96 @@
+{
+  "generated": "2026-11-12",
+  "source": "Official Virginia Department of Elections committee pages, matched to the site's Loudoun Board of Supervisors and Loudoun County School Board rosters.",
+  "members": {
+    "loudoun-bos|Phyllis J. Randall": {
+      "committeeId": "0f0e5872-7496-e411-b268-984be103f032",
+      "committeeName": "Friends of Phyllis Randall",
+      "committeeCode": "CC-14-00415"
+    },
+    "loudoun-bos|Caleb A. Kershner": {
+      "committeeId": "7bf2c602-c6ab-493e-bfe6-9928c3ab1a16",
+      "committeeName": "Caleb 4 Catoctin",
+      "committeeCode": "CC-23-01089"
+    },
+    "loudoun-bos|Juli E. Briskman": {
+      "committeeId": "21c0c1c3-f8b4-e811-bffd-984be103f032",
+      "committeeName": "Briskman for Supervisor",
+      "committeeCode": "CC-18-00409"
+    },
+    "loudoun-bos|Koran Saines": {
+      "committeeId": "03e1f81b-6c9a-e411-b268-984be103f032",
+      "committeeName": "Friends of Koran T. Saines",
+      "committeeCode": "CC-15-00026"
+    },
+    "loudoun-bos|Kristen C. Umstattd": {
+      "committeeId": "ab4cf133-c567-4742-acf0-03e195c382c8",
+      "committeeName": "Kristen4Leesburg",
+      "committeeCode": "CC-23-00577"
+    },
+    "loudoun-bos|Laura A. TeKrony": {
+      "committeeId": "139b42a5-e7ba-4bc1-9be2-6fb3e0bc4187",
+      "committeeName": "Friends of Laura A. TeKrony",
+      "committeeCode": "CC-23-01821"
+    },
+    "loudoun-bos|Matthew F. Letourneau": {
+      "committeeId": "df4b4c73-ebc9-e111-b0b8-984be103f032",
+      "committeeName": "Friends of Matt Letourneau",
+      "committeeCode": "CC-12-01135"
+    },
+    "loudoun-bos|Michael R. Turner": {
+      "committeeId": "9ee73c78-f793-e811-b888-984be103f032",
+      "committeeName": "Mike Turner for Ashburn.",
+      "committeeCode": "CC-18-00343"
+    },
+    "loudoun-bos|Sylvia R. Glass": {
+      "committeeId": "cae9cf5c-0ca7-e811-a517-984be103f032",
+      "committeeName": "Friends of Sylvia Glass",
+      "committeeCode": "CC-18-00388"
+    },
+    "loudoun-lcps|Anne Donohue": {
+      "committeeId": "9da1fc4e-7b55-4682-9ec6-d5ef1f967d96",
+      "committeeName": "Friends of Anne for At Large",
+      "committeeCode": "CC-23-00816"
+    },
+    "loudoun-lcps|April Chandler": {
+      "committeeId": "97c3beee-dcf4-4f8d-98eb-d8c4aba4e6db",
+      "committeeName": "April for Algonkian",
+      "committeeCode": "CC-22-00757"
+    },
+    "loudoun-lcps|Deana Griffiths": {
+      "committeeId": "f8af6d38-989f-455d-92d3-8494e6c17bca",
+      "committeeName": "Deana For Ashburn",
+      "committeeCode": "CC-23-00492"
+    },
+    "loudoun-lcps|Ross Svenson": {
+      "committeeId": "9fc34270-a508-4018-95a1-18ce256f5977",
+      "committeeName": "Ross Svenson for School Board",
+      "committeeCode": "CC-25-00246"
+    },
+    "loudoun-lcps|Kari LaBell": {
+      "committeeId": "80e7b4d5-d976-4b0a-8874-52808f04c47b",
+      "committeeName": "KARI FOR CATOCTIN",
+      "committeeCode": "CC-23-00523"
+    },
+    "loudoun-lcps|Jon Pepper": {
+      "committeeId": "724a983d-ab8b-426f-9408-a3fa562f8c10",
+      "committeeName": "Jon Pepper for School Board",
+      "committeeCode": "CC-25-00621"
+    },
+    "loudoun-lcps|Lauren Shernoff": {
+      "committeeId": "b0ff9740-5705-4b7c-bc20-41876caeee11",
+      "committeeName": "The Lauren for Leesburg Committee",
+      "committeeCode": "CC-23-01198"
+    },
+    "loudoun-lcps|Dr. Sumera Rashid": {
+      "committeeId": "9d1b6931-0be3-46ac-8db6-ed26bfb1eae7",
+      "committeeName": "Friends of Dr. Sumera Rashid",
+      "committeeCode": "CC-23-01790"
+    },
+    "loudoun-lcps|Amy Riccardi": {
+      "committeeId": "17d9408e-c8c0-4ada-905f-071177004ff0",
+      "committeeName": "Amy For Sterling",
+      "committeeCode": "CC-23-02073"
+    }
+  }
+}

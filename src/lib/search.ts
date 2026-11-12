@@ -327,6 +327,17 @@ function buildIndex(): SearchDoc[] {
   });
 
   docs.push({
+    id: "page-campaign-money",
+    title: "Who is funding this campaign?",
+    snippet: "Look up official Virginia Department of Elections committee pages for House and Senate members, Board of Supervisors candidates, and school board candidates.",
+    shelf: "Page",
+    href: "/campaign-money",
+    titleFields: "Campaign money donors committee Board of Supervisors school board House Senate who funds this campaign Government budget is a different page",
+    body: "Official campaign committee pages at the Virginia Department of Elections cfreports. Friends of, committee for, for Senate, for Delegate. You do not need the exact committee title. Not the government budget.",
+    districtNumber: null,
+  });
+
+  docs.push({
     id: "page-how-to",
     title: "How to use this website",
     snippet: "A plain guide: how to search, read a meeting's votes, and start from an issue.",

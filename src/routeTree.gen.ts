@@ -14,6 +14,7 @@ import { Route as R2027RouteImport } from './routes/2027'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as ArticlesRouteImport } from './routes/articles'
 import { Route as BoardOfEducationRouteImport } from './routes/board-of-education'
+import { Route as CampaignMoneyRouteImport } from './routes/campaign-money'
 import { Route as CitiesRouteImport } from './routes/cities'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as CountiesRouteImport } from './routes/counties'
@@ -186,6 +187,11 @@ const ArticlesRoute = ArticlesRouteImport.update({
 const BoardOfEducationRoute = BoardOfEducationRouteImport.update({
   id: '/board-of-education',
   path: '/board-of-education',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CampaignMoneyRoute = CampaignMoneyRouteImport.update({
+  id: '/campaign-money',
+  path: '/campaign-money',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CitiesRoute = CitiesRouteImport.update({
@@ -1025,6 +1031,7 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/articles': typeof ArticlesRouteWithChildren
   '/board-of-education': typeof BoardOfEducationRoute
+  '/campaign-money': typeof CampaignMoneyRoute
   '/cities': typeof CitiesRouteWithChildren
   '/contact': typeof ContactRoute
   '/counties': typeof CountiesRouteWithChildren
@@ -1179,6 +1186,7 @@ export interface FileRoutesByTo {
   '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/board-of-education': typeof BoardOfEducationRoute
+  '/campaign-money': typeof CampaignMoneyRoute
   '/contact': typeof ContactRoute
   '/delegates': typeof DelegatesRoute
   '/emergency-monitor': typeof EmergencyMonitorRoute
@@ -1326,6 +1334,7 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/articles': typeof ArticlesRouteWithChildren
   '/board-of-education': typeof BoardOfEducationRoute
+  '/campaign-money': typeof CampaignMoneyRoute
   '/cities': typeof CitiesRouteWithChildren
   '/contact': typeof ContactRoute
   '/counties': typeof CountiesRouteWithChildren
@@ -1483,6 +1492,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/articles'
     | '/board-of-education'
+    | '/campaign-money'
     | '/cities'
     | '/contact'
     | '/counties'
@@ -1637,6 +1647,7 @@ export interface FileRouteTypes {
     | '/2027'
     | '/about'
     | '/board-of-education'
+    | '/campaign-money'
     | '/contact'
     | '/delegates'
     | '/emergency-monitor'
@@ -1783,6 +1794,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/articles'
     | '/board-of-education'
+    | '/campaign-money'
     | '/cities'
     | '/contact'
     | '/counties'
@@ -1939,6 +1951,7 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   ArticlesRoute: typeof ArticlesRouteWithChildren
   BoardOfEducationRoute: typeof BoardOfEducationRoute
+  CampaignMoneyRoute: typeof CampaignMoneyRoute
   CitiesRoute: typeof CitiesRouteWithChildren
   ContactRoute: typeof ContactRoute
   CountiesRoute: typeof CountiesRouteWithChildren
@@ -2099,6 +2112,13 @@ declare module '@tanstack/react-router' {
       path: '/board-of-education'
       fullPath: '/board-of-education'
       preLoaderRoute: typeof BoardOfEducationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/campaign-money': {
+      id: '/campaign-money'
+      path: '/campaign-money'
+      fullPath: '/campaign-money'
+      preLoaderRoute: typeof CampaignMoneyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/cities': {
@@ -3294,6 +3314,7 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   ArticlesRoute: ArticlesRouteWithChildren,
   BoardOfEducationRoute: BoardOfEducationRoute,
+  CampaignMoneyRoute: CampaignMoneyRoute,
   CitiesRoute: CitiesRouteWithChildren,
   ContactRoute: ContactRoute,
   CountiesRoute: CountiesRouteWithChildren,

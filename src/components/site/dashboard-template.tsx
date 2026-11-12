@@ -30,7 +30,7 @@ function Tile({ t }: { t: DashTile }) {
       </div>
     );
   return (
-    <Link to={t.to} hash={t.hash} className={`${cls} border-l-4 border-l-gold transition-colors hover:border-gold hover:bg-navy-600`}>
+    <Link to={t.to as never} search={t.search as never} hash={t.hash} className={`${cls} border-l-4 border-l-gold transition-colors hover:border-gold hover:bg-navy-600`}>
       {inner}
     </Link>
   );

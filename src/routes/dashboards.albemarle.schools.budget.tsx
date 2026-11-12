@@ -4,6 +4,6 @@ import { ALBEMARLE_SCHOOLS_BUDGET_PAGE } from "@/lib/budget-pages/albemarle-scho
 import { GA_PREVIEW_ROBOTS } from "@/lib/ga-dashboard";
 
 export const Route = createFileRoute("/dashboards/albemarle/schools/budget")({
-  head: () => ({ meta: [{ title: "ACPS Budget & Finance · A Guy on X" }, ...GA_PREVIEW_ROBOTS] }),
+  head: () => ({ meta: [{ title: "ACPS Government budget · A Guy on X" }, ...GA_PREVIEW_ROBOTS] }),
   component: () => <BudgetPage data={ALBEMARLE_SCHOOLS_BUDGET_PAGE} />,
 });

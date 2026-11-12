@@ -4,7 +4,7 @@
  * FOIA URLs were fetched and confirmed as each jurisdiction's official FOIA
  * request page on 2026-10-14 (see docs/redesign-v4.md).
  */
-export type DashTile = { label: string; icon: "play" | "list" | "money" | "people" | "book"; to: string | null; hash?: string; accentIcon?: boolean };
+export type DashTile = { label: string; icon: "play" | "list" | "money" | "people" | "book"; to: string | null; hash?: string; accentIcon?: boolean; search?: Record<string, string> };
 export type DashFoia = { label: string; href: string };
 export type DashColumn = { name: string; sub?: string; tiles: DashTile[]; foia: DashFoia };
 export type Dashboard = { slug: string; short: string; title: string; group: "local" | "state"; columns: DashColumn[] };
@@ -44,7 +44,7 @@ function cityCols(base: string, council: string, schools: string, f1: DashFoia, 
       tiles: [
         { label: "Find the Moment", icon: "play", to: base },
         { label: "Meeting Recaps", icon: "list", to: base },
-        soon("Budget/Finances", "money"),
+        soon("Government budget", "money"),
         soon("Members", "people"),
       ],
       foia: f1,
@@ -54,7 +54,7 @@ function cityCols(base: string, council: string, schools: string, f1: DashFoia, 
       tiles: [
         { label: "Find the Moment", icon: "play", to: `${base}/schools` },
         { label: "Meeting Recaps", icon: "list", to: `${base}/schools` },
-        soon("Budget/Finances", "money"),
+        soon("Government budget", "money"),
         soon("Policies", "book"),
         soon("Members", "people"),
       ],
@@ -75,7 +75,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/loudoun/bos/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/loudoun/bos/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/loudoun/bos/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/loudoun/bos/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "supervisor", locality: "loudoun" } },
           { label: "Members", icon: "people", to: "/dashboards/loudoun/bos/members" },
         ],
         foia: FOIA.loudoun,
@@ -85,7 +86,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/loudoun/schools/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/loudoun/schools/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/loudoun/schools/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/loudoun/schools/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "school-board", locality: "loudoun" } },
           { label: "Policies", icon: "book", to: "/dashboards/loudoun/schools/policies" },
           { label: "Members", icon: "people", to: "/dashboards/loudoun/schools/members" },
         ],
@@ -104,7 +106,7 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/fairfax-city/council/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/fairfax-city/council/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/fairfax-city/council/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/fairfax-city/council/budget" },
           { label: "Members", icon: "people", to: "/dashboards/fairfax-city/council/members" },
         ],
         foia: FOIA.fairfaxCity,
@@ -114,7 +116,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/fairfax-city/schools/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/fairfax-city/schools/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/fairfax-city/schools/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/fairfax-city/schools/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "school-board", locality: "fairfax-city" } },
           { label: "Policies", icon: "book", to: "/dashboards/fairfax-city/schools/policies" },
           { label: "Members", icon: "people", to: "/dashboards/fairfax-city/schools/members" },
         ],
@@ -133,7 +136,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/albemarle/bos/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/albemarle/bos/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/albemarle/bos/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/albemarle/bos/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "supervisor", locality: "albemarle" } },
           { label: "Members", icon: "people", to: "/dashboards/albemarle/bos/members" },
         ],
         foia: FOIA.albemarle,
@@ -143,7 +147,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/albemarle/schools/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/albemarle/schools/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/albemarle/schools/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/albemarle/schools/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "school-board", locality: "albemarle" } },
           { label: "Policies", icon: "book", to: "/dashboards/albemarle/schools/policies" },
           { label: "Members", icon: "people", to: "/dashboards/albemarle/schools/members" },
         ],
@@ -162,7 +167,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/hanover/bos/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/hanover/bos/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/hanover/bos/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/hanover/bos/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "supervisor", locality: "hanover" } },
           { label: "Members", icon: "people", to: "/dashboards/hanover/bos/members" },
         ],
         foia: FOIA.hanover,
@@ -180,7 +186,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/chesterfield/bos/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/chesterfield/bos/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/chesterfield/bos/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/chesterfield/bos/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "supervisor", locality: "chesterfield" } },
           { label: "Members", icon: "people", to: "/dashboards/chesterfield/bos/members" },
         ],
         foia: FOIA.chesterfield,
@@ -198,7 +205,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/henrico/bos/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/henrico/bos/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/henrico/bos/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/henrico/bos/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "supervisor", locality: "henrico" } },
           { label: "Members", icon: "people", to: "/dashboards/henrico/bos/members" },
         ],
         foia: FOIA.henrico,
@@ -208,7 +216,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/henrico/schools/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/henrico/schools/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/henrico/schools/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/henrico/schools/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "school-board", locality: "henrico" } },
           { label: "Policies", icon: "book", to: "/dashboards/henrico/schools/policies" },
           { label: "Members", icon: "people", to: "/dashboards/henrico/schools/members" },
         ],
@@ -227,7 +236,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/fairfax-county/bos/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/fairfax-county/bos/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/fairfax-county/bos/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/fairfax-county/bos/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "supervisor", locality: "fairfax-county" } },
           { label: "Members", icon: "people", to: "/dashboards/fairfax-county/bos/members" },
         ],
         foia: FOIA.fairfaxCounty,
@@ -237,7 +247,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/fairfax-county/schools/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/fairfax-county/schools/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/fairfax-county/schools/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/fairfax-county/schools/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "school-board", locality: "fairfax-county" } },
           { label: "Policies", icon: "book", to: "/dashboards/fairfax-county/schools/policies" },
           { label: "Members", icon: "people", to: "/dashboards/fairfax-county/schools/members" },
         ],
@@ -256,7 +267,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/prince-william/bos/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/prince-william/bos/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/prince-william/bos/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/prince-william/bos/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "supervisor", locality: "prince-william" } },
           { label: "Members", icon: "people", to: "/dashboards/prince-william/bos/members" },
         ],
         foia: FOIA.princeWilliam,
@@ -266,7 +278,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/prince-william/schools/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/prince-william/schools/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/prince-william/schools/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/prince-william/schools/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "school-board", locality: "prince-william" } },
           { label: "Policies", icon: "book", to: "/dashboards/prince-william/schools/policies" },
           { label: "Members", icon: "people", to: "/dashboards/prince-william/schools/members" },
         ],
@@ -285,7 +298,7 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/manassas/council/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/manassas/council/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/manassas/council/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/manassas/council/budget" },
           { label: "Members", icon: "people", to: "/dashboards/manassas/council/members" },
         ],
         foia: FOIA.manassas,
@@ -295,7 +308,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/manassas/schools/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/manassas/schools/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/manassas/schools/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/manassas/schools/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money", search: { office: "school-board", locality: "manassas" } },
           { label: "Policies", icon: "book", to: "/dashboards/manassas/schools/policies" },
           { label: "Members", icon: "people", to: "/dashboards/manassas/schools/members" },
         ],
@@ -314,7 +328,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/house/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/house/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/house/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/house/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money" },
           { label: "Policies", icon: "book", to: "/dashboards/house/policies" },
           { label: "Members", icon: "people", to: "/dashboards/house/members" },
         ],
@@ -333,7 +348,8 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/senate/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/senate/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/senate/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/senate/budget" },
+          { label: "Campaign money", icon: "money", to: "/campaign-money" },
           { label: "Policies", icon: "book", to: "/dashboards/senate/policies" },
           { label: "Members", icon: "people", to: "/dashboards/senate/members" },
         ],
@@ -352,7 +368,7 @@ export const DASHBOARDS: Dashboard[] = [
         tiles: [
           { label: "Find the Moment", icon: "play", to: "/dashboards/board-of-education/find-the-moment" },
           { label: "Meeting Recaps", icon: "list", to: "/dashboards/board-of-education/recaps" },
-          { label: "Budget/Finances", icon: "money", to: "/dashboards/board-of-education/budget" },
+          { label: "Government budget", icon: "money", to: "/dashboards/board-of-education/budget" },
           { label: "Policies", icon: "book", to: "/dashboards/board-of-education/policies" },
           { label: "Members", icon: "people", to: "/dashboards/board-of-education/members" },
         ],

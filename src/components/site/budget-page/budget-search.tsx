@@ -9,6 +9,7 @@ import {
 } from "react";
 import { ExternalLink, FileText, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { fuzzyScore, matchOffset, phraseNorm } from "@/lib/name-search";
 
 const HIT_CAP = 24;
 const FETCH_CONCURRENCY = 4;
@@ -66,10 +67,6 @@ function searchNorm(s: string): string {
   return fold(s).replace(/,/g, "");
 }
 
-function phraseNorm(query: string): string {
-  return searchNorm(query).replace(/\s+/g, " ").trim();
-}
-
 function escapeRegExp(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
@@ -99,9 +96,9 @@ function HighlightedSnippet({ text, query }: { text: string; query: string }) {
   return <>{nodes}</>;
 }
 
-function snippetAround(hay: string, phrase: string): string {
+function snippetAround(hay: string, query: string): string {
   const normHay = phraseNorm(hay);
-  let best = phrase ? normHay.indexOf(phrase) : -1;
+  let best = matchOffset(hay, query);
   if (best < 0) {
     const trimmed = hay.replace(/\s+/g, " ").trim();
     return trimmed.length > SNIPPET_RADIUS * 2
@@ -118,24 +115,23 @@ function snippetAround(hay: string, phrase: string): string {
   return slice;
 }
 
-function scoreDoc(doc: BudgetSearchDoc, text: string, phrase: string): BudgetHit | null {
+function scoreDoc(doc: BudgetSearchDoc, text: string, query: string): BudgetHit | null {
+  const phrase = phraseNorm(query);
   if (!phrase) return null;
   const metaRaw = `${doc.label} ${doc.dek} ${doc.kind} ${doc.source}`;
-  const meta = phraseNorm(metaRaw);
-  const body = phraseNorm(text);
-  const inMeta = meta.includes(phrase);
-  const inBody = body.includes(phrase);
-  if (!inMeta && !inBody) return null;
+  const hit = fuzzyScore(query, [
+    { text: metaRaw, weight: 10 },
+    { text: text, weight: 3 },
+  ]);
+  if (!hit) return null;
 
-  let score = 0;
-  if (inMeta) score += 10;
-  if (inBody) score += 3;
+  let score = hit.score;
   if (doc.kind.startsWith("BOS")) score += 1;
   if (doc.kind === "Amendment" || doc.kind === "Guide") score += 0.5;
 
   return {
     doc,
-    snippet: snippetAround(text || doc.dek, phrase),
+    snippet: snippetAround(text || doc.dek, query),
     score,
   };
 }

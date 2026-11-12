@@ -4,6 +4,8 @@ import { ChevronDown, ExternalLink, Mail, Phone, Play } from "lucide-react";
 import { V4Main } from "@/components/site/lcps-v4";
 import { V4VenueHero, FoiaButton, type V4Venue } from "@/components/site/venue-v4";
 import type { MemberData } from "@/lib/members-v4";
+import { sittingLocalCampaignMoney } from "@/lib/campaign-money-local";
+import { CampaignMoneyLookup } from "@/components/site/campaign-money-lookup";
 
 const PH = "rounded border border-dashed border-gold/60 px-1.5 py-0.5 font-mono text-[10px] tracking-wider text-gold uppercase";
 function Placeholder({ children }: { children?: ReactNode }) {
@@ -45,7 +47,8 @@ function Fold({ title, children }: { title: string; children: ReactNode }) {
   );
 }
 
-function Profile({ m, rosterUrl, recapTo }: { m: MemberData; rosterUrl: string; recapTo: string }) {
+function Profile({ m, rosterUrl, recapTo, campaignVenue }: { m: MemberData; rosterUrl: string; recapTo: string; campaignVenue?: "loudoun-bos" | "loudoun-lcps" }) {
+  const money = campaignVenue ? sittingLocalCampaignMoney(campaignVenue, m.name) : null;
   return (
     <div className="col-span-full rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 p-4 sm:p-6">
       <div className="flex flex-wrap items-start gap-5">
@@ -54,6 +57,11 @@ function Profile({ m, rosterUrl, recapTo }: { m: MemberData; rosterUrl: string; 
           <h3 className="font-serif text-3xl font-bold uppercase">{m.name}{m.party ? <span className="ml-2 font-mono text-base text-night-muted">({m.party})</span> : null}</h3>
           <p className="text-[#F6F3EA]">{m.role} · {m.district} District</p>
           <div className="mt-2 space-y-1"><Placeholder>Term dates.</Placeholder><Placeholder>Email and phone — see the <a className="text-gold underline" href={rosterUrl} target="_blank" rel="noreferrer">official roster</a>.</Placeholder></div>
+          {money ? (
+            <a href={money.href} target="_blank" rel="noreferrer" className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-md border border-gold px-4 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-900">
+              Campaign money: {money.committeeName}<ExternalLink className="size-3" aria-hidden />
+            </a>
+          ) : null}
         </div>
       </div>
       <div className="mt-5 grid gap-3 lg:grid-cols-2">
@@ -92,7 +100,7 @@ function Profile({ m, rosterUrl, recapTo }: { m: MemberData; rosterUrl: string; 
   );
 }
 
-export function MembersV4Page({ venue, boardName, explainer, members, rosterUrl, recapTo, comingSoon }: { comingSoon?: boolean; venue: V4Venue; boardName: string; explainer: string; members: MemberData[]; rosterUrl: string; recapTo: string }) {
+export function MembersV4Page({ venue, boardName, explainer, members, rosterUrl, recapTo, comingSoon, campaignVenue }: { comingSoon?: boolean; venue: V4Venue; boardName: string; explainer: string; members: MemberData[]; rosterUrl: string; recapTo: string; campaignVenue?: "loudoun-bos" | "loudoun-lcps" }) {
   const [district, setDistrict] = useState("All"); const [office, setOffice] = useState("All");
   const [sort, setSort] = useState<"name" | "att">("name"); const [open, setOpen] = useState<string | null>(null);
   const districts = ["All", ...new Set(members.map((m) => m.district))]; const offices = ["All", ...new Set(members.map((m) => m.role))];
@@ -107,7 +115,7 @@ export function MembersV4Page({ venue, boardName, explainer, members, rosterUrl,
       {comingSoon ? <div role="status" className="bg-gold text-navy-900"><p className="mx-auto max-w-7xl px-4 py-3 text-center font-serif text-lg font-bold tracking-[0.14em] uppercase sm:px-8">Coming soon · Preview mockup — not yet live</p></div> : null}
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-8">
         <div className="flex flex-wrap items-end justify-between gap-4">
-          <div><h2 className="font-serif text-3xl font-semibold uppercase">{boardName}</h2><p className="text-[#F6F3EA]">{explainer}</p></div>
+          <div><p className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">Who sits on this board?</p><h2 className="mt-1 font-serif text-3xl font-semibold uppercase">{boardName}</h2><p className="text-[#F6F3EA]">{explainer}</p></div>
           <FoiaButton foia={venue.foia} />
         </div>
         <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -137,9 +145,19 @@ export function MembersV4Page({ venue, boardName, explainer, members, rosterUrl,
                 </button>
               </li>
             );
-            return isOpen ? [cardEl, <li key={m.id + "-p"} className="col-span-full"><Profile m={m} rosterUrl={rosterUrl} recapTo={recapTo} /></li>] : [cardEl];
+            return isOpen ? [cardEl, <li key={m.id + "-p"} className="col-span-full"><Profile m={m} rosterUrl={rosterUrl} recapTo={recapTo} campaignVenue={campaignVenue} /></li>] : [cardEl];
           })}
         </ul>
+
+        {campaignVenue ? (
+          <section className="mt-10 rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5">
+            <h2 className="font-serif text-2xl font-semibold uppercase">Who is funding their campaign?</h2>
+            <p className="mt-2 text-sm text-on-dark-muted">Official Virginia Department of Elections committee pages for this board and for other Board of Supervisors and school board candidates. You do not need the exact committee title.</p>
+            <div className="mt-4">
+              <CampaignMoneyLookup compact initialKind={campaignVenue === "loudoun-lcps" ? "school-board" : "supervisor"} localityId="loudoun" />
+            </div>
+          </section>
+        ) : null}
 
         <section className="mt-10 rounded-[10px] border border-navy-line border-l-4 border-l-gold bg-navy-700 p-5">
           <h2 className="font-serif text-2xl font-semibold uppercase">Board attendance · last 12 months</h2>

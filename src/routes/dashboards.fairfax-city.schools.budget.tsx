@@ -4,6 +4,6 @@ import { FAIRFAX_CITY_SCHOOLS_BUDGET_PAGE } from "@/lib/budget-pages/fairfax-cit
 import { GA_PREVIEW_ROBOTS } from "@/lib/ga-dashboard";
 
 export const Route = createFileRoute("/dashboards/fairfax-city/schools/budget")({
-  head: () => ({ meta: [{ title: "Fairfax City Schools Budget & Finance · A Guy on X" }, ...GA_PREVIEW_ROBOTS] }),
+  head: () => ({ meta: [{ title: "Fairfax City Schools Government budget · A Guy on X" }, ...GA_PREVIEW_ROBOTS] }),
   component: () => <BudgetPage data={FAIRFAX_CITY_SCHOOLS_BUDGET_PAGE} />,
 });

@@ -4,6 +4,6 @@ import { ComingSoonV4 } from "@/components/site/venue-v4";
 import { V4_VENUES } from "@/lib/v4-venues";
 
 export const Route = createFileRoute("/dashboards/henrico/schools/budget")({
-  head: () => ({ meta: [{ title: "HCPS Budget & Finance · A Guy on X" }] }),
-  component: () => <SiteShell><ComingSoonV4 venue={V4_VENUES["henrico-schools"]} kicker="Budget & Finance" label="In-Process" /></SiteShell>,
+  head: () => ({ meta: [{ title: "HCPS Government budget · A Guy on X" }] }),
+  component: () => <SiteShell><ComingSoonV4 venue={V4_VENUES["henrico-schools"]} kicker="Government budget" label="In-Process" /></SiteShell>,
 });

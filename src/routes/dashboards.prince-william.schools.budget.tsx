@@ -4,6 +4,6 @@ import { ComingSoonV4 } from "@/components/site/venue-v4";
 import { V4_VENUES } from "@/lib/v4-venues";
 
 export const Route = createFileRoute("/dashboards/prince-william/schools/budget")({
-  head: () => ({ meta: [{ title: "PWCS Budget & Finance · A Guy on X" }] }),
-  component: () => <SiteShell><ComingSoonV4 venue={V4_VENUES["pwc-schools"]} kicker="Budget & Finance" label="In-Process" /></SiteShell>,
+  head: () => ({ meta: [{ title: "PWCS Government budget · A Guy on X" }] }),
+  component: () => <SiteShell><ComingSoonV4 venue={V4_VENUES["pwc-schools"]} kicker="Government budget" label="In-Process" /></SiteShell>,
 });
