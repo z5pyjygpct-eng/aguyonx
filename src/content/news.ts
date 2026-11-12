@@ -95,6 +95,10 @@ export const NEWS: NewsItem[] = [
     outlet: "Burke, VA Patch",
     url: "https://patch.com/virginia/burke/braddock-supervisor-rachna-sizemore-heizer-announces-reelection-bid-fairfax-county",
     people: [{ name: "Rachna Sizemore Heizer", office: "Fairfax official" }],
+    scope: "local",
+    locations: ["fairfax-county"],
+  },
+  {
     id: "environmental-groups-rally-statewide-data-center-moratorium-vamercury-2026-11-12",
     date: "2026-11-12",
     filed: "2026-11-12",
