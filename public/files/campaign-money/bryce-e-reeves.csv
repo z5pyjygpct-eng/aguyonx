@@ -1,0 +1,657 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$284,992.84",,VA,,"From official Schedule H, November 2027 election cycle",H,496403,2026-07-15
+summary,2026-06-30,Raised this cycle,"$771,119.64",,,,Total receipts this election cycle (Schedule H),H,496403,2026-07-15
+summary,2026-06-30,Spent this cycle,"$613,914.64",,,,Total disbursements this election cycle (Schedule H),H,496403,2026-07-15
+contribution,2025-07-22,Anheuser Busch,$500,Baldwinsville,NY,pac,,A,479196,2026-01-15
+contribution,2025-08-20,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-12-17,Virginia Natural Gas,"$1,000",Virginia Beach,VA,pac,,A,479196,2026-01-15
+contribution,2025-07-22,"Capital One Services, LLC","$1,000",Reston,VA,pac,,A,479196,2026-01-15
+contribution,2025-07-22,Comcast Corporation,$500,Philadephia,PA,pac,,A,479196,2026-01-15
+contribution,2025-10-21,VA Mortgage Lenders PAC,$500,Glen Allen,VA,pac,,A,479196,2026-01-15
+contribution,2025-08-20,Huntington Ingalls Industries,"$1,000",Newport News,VA,pac,,A,479196,2026-01-15
+contribution,2025-08-20,Virginia Society of the AIA,"$1,000",Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-11-06,Cozen O'Conner,$500,Philadelphia,PA,pac,,A,479196,2026-01-15
+contribution,2025-10-21,VAMICPAC,$500,RIchmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-07-26,Gary Weber,$100,Locust Grove,VA,individual,,A,479196,2026-01-15
+contribution,2025-08-26,Gary Weber,$100,Locust Grove,VA,individual,,A,479196,2026-01-15
+contribution,2025-09-26,Gary Weber,$100,Locust Grove,VA,individual,,A,479196,2026-01-15
+contribution,2025-10-26,Gary Weber,$100,Locust Grove,VA,individual,,A,479196,2026-01-15
+contribution,2025-11-26,Gary Weber,$100,Locust Grove,VA,individual,,A,479196,2026-01-15
+contribution,2025-12-26,Gary Weber,$100,Locust Grove,VA,individual,,A,479196,2026-01-15
+contribution,2025-11-06,Verizon,$500,Washington,DC,pac,,A,479196,2026-01-15
+contribution,2025-10-07,American Property Casualty Insurance Association,$500,Chicago,IL,pac,,A,479196,2026-01-15
+contribution,2025-07-22,DoorDash,"$2,000",San Fransisco,CA,pac,,A,479196,2026-01-15
+contribution,2025-08-20,Virginia Spirits Assocition,$750,N Chesterfield,VA,pac,,A,479196,2026-01-15
+contribution,2025-07-22,Larry Buckner,"$1,000",Lorton,VA,individual,,A,479196,2026-01-15
+contribution,2025-09-30,VA Beverage Association,$750,Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-09-30,NOVEC,"$1,000",Manassas,VA,pac,,A,479196,2026-01-15
+contribution,2025-11-04,Virginia Maritime Assoc,"$1,000",Norfolk,VA,pac,,A,479196,2026-01-15
+contribution,2025-11-04,VA Apt. Mgmt Assoc PAC,"$1,000",Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-07-22,"All Points Broadband Partners, LLC",$500,Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-07-22,CVS Health,"$1,000",Woonsocket,RI,pac,,A,479196,2026-01-15
+contribution,2025-11-06,The Cigna Group Employee,$500,Philadelphia,PA,pac,,A,479196,2026-01-15
+contribution,2025-07-29,Gilead Sciences Inc.,"$1,000",Raliegh,NC,pac,,A,479196,2026-01-15
+contribution,2025-10-09,Delta Dental,$500,Roanoke,VA,pac,,A,479196,2026-01-15
+contribution,2025-08-20,Boyd-Pamunkey Casino,"$2,500",Norfolk,VA,pac,,A,479196,2026-01-15
+contribution,2025-11-06,"Elevnace Health, Inc.",$500,Cincinnati,OH,pac,,A,479196,2026-01-15
+contribution,2025-11-14,Publix,$500,Lakeland,FL,pac,,A,479196,2026-01-15
+contribution,2025-11-06,Sun Tribe Trading LLC,$500,Charlottesville,VA,pac,,A,479196,2026-01-15
+contribution,2025-10-07,Maximus,"$5,000",McLean,VA,pac,,A,479196,2026-01-15
+contribution,2025-08-20,Visa,$500,Austin,TX,pac,,A,479196,2026-01-15
+contribution,2025-08-20,Comstock Hospitality Holdings,"$10,000",Reston,VA,pac,,A,479196,2026-01-15
+contribution,2025-07-29,New York LLC,"$25,000",Vancouver,WA,pac,,A,479196,2026-01-15
+contribution,2025-07-22,PMI Corporate Services,"$5,000",San Rafael,CA,pac,,A,479196,2026-01-15
+contribution,2025-09-20,Bombardier,"$5,000",Wichita,KS,pac,,A,479196,2026-01-15
+contribution,2025-07-08,William Taylor,"$3,000",Pinehurst,NC,individual,,A,479196,2026-01-15
+contribution,2025-11-04,CATPAC,"$1,000",Irving,TX,pac,,A,479196,2026-01-15
+contribution,2025-09-30,Richmond Area Municipal Contractors Association PAC,"$1,000",Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-09-30,Mountain Valley Pipeline LLC,"$1,000",Canonsburg,PA,pac,,A,479196,2026-01-15
+contribution,2025-09-30,Joshco LLC,"$2,500",Great Falls,VA,pac,,A,479196,2026-01-15
+contribution,2025-09-29,Zillow Group,$500,Seattle,WA,pac,,A,479196,2026-01-15
+contribution,2025-11-24,Live Casino,"$15,000",Petersburg,VA,pac,,A,479196,2026-01-15
+contribution,2025-10-20,Rivers Sports Games,"$5,000",Portsmouth,VA,pac,,A,479196,2026-01-15
+contribution,2025-08-28,Amazon.com,"$3,000",Seattle,WA,pac,,A,479196,2026-01-15
+contribution,2025-11-04,Norfolk Southern Corp,"$1,000",Norfolk,VA,pac,,A,479196,2026-01-15
+contribution,2025-08-27,Realtors PAC of VA,"$2,500",Glen Allen,VA,pac,,A,479196,2026-01-15
+contribution,2025-10-21,Genworth Financial,"$1,500",Lynchburg,VA,pac,,A,479196,2026-01-15
+contribution,2025-09-30,Virginia Wine Wholesalers,"$2,000",Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-10-21,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-07-14,Dominion PAC,"$25,000",Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-08-01,Dominion PAC,"$25,000",Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-12-11,Dominion PAC,"$25,000",Richmond,VA,pac,,A,479196,2026-01-15
+contribution,2025-11-06,Washington Gas Light Company,$500,Washington,DC,pac,,A,479196,2026-01-15
+contribution,2025-10-02,Eli Lilly & Company,"$1,000",Indianapolis,IN,pac,,A,479196,2026-01-15
+contribution,2025-11-06,Entertainment Software Association,$500,Washington,DC,pac,,A,479196,2026-01-15
+contribution,2025-09-29,Virginia Credit Union PAC,"$2,500",Lynchburg,VA,pac,,A,479196,2026-01-15
+contribution,2026-01-09,Carbon Solutions Group,$500,Chicago,IL,pac,,A,496403,2026-07-15
+contribution,2026-01-13,State Farm,"$1,250",Bloomington,IL,pac,,A,496403,2026-07-15
+contribution,2026-03-25,VA Digital Infrastructure,"$2,500",Leesburg,VA,pac,,A,496403,2026-07-15
+contribution,2026-01-09,Virginia Charitable Gaming Association,$500,Richmond,VA,pac,,A,496403,2026-07-15
+contribution,2026-04-10,VGW Luckyland Inc,"$10,000",Wilmington,DE,pac,,A,496403,2026-07-15
+contribution,2026-01-03,Old Dominion Hwy PAC,$500,Charlottesville,VA,pac,,A,496403,2026-07-15
+contribution,2026-04-10,Virginia Sherriff's Association,$250,Richmond,VA,pac,,A,496403,2026-07-15
+contribution,2026-03-05,Transurban USA Inc-CR,$500,Richmond,VA,pac,,A,496403,2026-07-15
+contribution,2026-01-07,Dominion PAC,"$50,000",Richmond,VA,pac,,A,496403,2026-07-15
+contribution,2026-05-28,Dominion PAC,"$25,000",Richmond,VA,pac,,A,496403,2026-07-15
+contribution,2026-04-20,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,496403,2026-07-15
+contribution,2026-01-03,Commercial Development PAC,$500,Alexandria,VA,pac,,A,496403,2026-07-15
+contribution,2026-03-25,Virginia Association of Health Plans PAC,"$1,000",Richmond,VA,pac,,A,496403,2026-07-15
+contribution,2026-01-03,Hunton Andrews Kurth,"$1,500",Richmond,VA,pac,,A,496403,2026-07-15
+contribution,2026-01-13,POM Of Virginia LLC,"$5,000",Duluth,GA,pac,,A,496403,2026-07-15
+contribution,2026-01-13,Virginia Equine PAC,"$2,000",Charlottesville,VA,pac,,A,496403,2026-07-15
+contribution,2026-01-13,Jushi Inc.,"$1,000",Boca Raton,FL,pac,,A,496403,2026-07-15
+contribution,2026-01-06,Sports Betting Alliance,"$15,000",Lubbock,TX,pac,,A,496403,2026-07-15
+contribution,2026-04-27,Paul Goldean,"$2,500",Charlotte,NC,individual,,A,496403,2026-07-15
+contribution,2026-04-24,Michael Pace,"$2,500",Hartwell,GA,individual,,A,496403,2026-07-15
+contribution,2026-01-06,"Arrow International, Inc.","$1,000",Cleveland,OH,pac,,A,496403,2026-07-15
+contribution,2026-04-27,VA Operators for Skill,"$5,000",Richmond,VA,pac,,A,496403,2026-07-15
+contribution,2026-01-03,Sentara,$500,Norfolk,VA,pac,,A,496403,2026-07-15
+contribution,2026-01-03,Humana,$750,Lexington,KY,pac,,A,496403,2026-07-15
+contribution,2026-01-12,Organizing for VA Seniors,"$2,500",Fairfax,VA,pac,,A,496403,2026-07-15
+contribution,2026-01-13,National Coalition of Associations of 7-Eleven Franchises,"$2,500",Ceres,CA,pac,,A,496403,2026-07-15
+contribution,2026-01-13,American Electric Power,"$2,500",Washington,DC,pac,,A,496403,2026-07-15
+contribution,2026-01-13,Nova Distro,"$2,500",Manassas,VA,pac,,A,496403,2026-07-15
+in_kind,2025-08-30,"Johnson Realty Advisors, Inc.",$447.50,Fredericksburg,VA,pac,Office Space,B,479196,2026-01-15
+in_kind,2025-09-30,"Johnson Realty Advisors, Inc.",$895,Fredericksburg,VA,pac,Office Space,B,479196,2026-01-15
+in_kind,2025-10-31,"Johnson Realty Advisors, Inc.",$895,Fredericksburg,VA,pac,Office Space,B,479196,2026-01-15
+in_kind,2025-11-30,"Johnson Realty Advisors, Inc.",$895,Fredericksburg,VA,pac,Office Space,B,479196,2026-01-15
+in_kind,2025-12-31,"Johnson Realty Advisors, Inc.",$895,Fredericksburg,VA,pac,Office Space,B,479196,2026-01-15
+in_kind,2025-07-01,Lester Properties,"$4,756.70",Fredericksburg,VA,pac,Office Space,B,479196,2026-01-15
+in_kind,2025-08-01,Lester Properties,"$2,378.35",Fredericksburg,VA,pac,Office Space,B,479196,2026-01-15
+in_kind,2026-06-30,"Johnson Realty Advisors, Inc.","$5,370",Fredericksburg,VA,pac,Office Space,B,496403,2026-07-15
+in_kind,2026-04-21,Gentry Locke,$154.35,Richmond,VA,individual,Event Food,B,496403,2026-07-15
+other_receipt,2025-08-01,Amazon.com,$61.63,Seattle,WA,pac,Returned Goods,C,479196,2026-01-15
+other_receipt,2025-07-31,The Home Depot,$40.12,Fredericksburg,VA,pac,Bryce Reeves,C,479196,2026-01-15
+other_receipt,2025-07-30,Atlantic Union Bank,$38,Fredericksburg,VA,pac,Fee Refund,C,479196,2026-01-15
+other_receipt,2025-10-20,Walmart,$12.64,Bentonville,AR,pac,Goods not needed,C,479196,2026-01-15
+other_receipt,2025-08-28,O'Reilly,$13.69,Fredericksburg,VA,pac,Goods Not Needed,C,479196,2026-01-15
+other_receipt,2025-08-31,O'Reilly,$10.53,Fredericksburg,VA,pac,Goods Not Needed,C,479196,2026-01-15
+other_receipt,2026-04-07,USPS,$0.05,Fredericksburg,VA,pac,Refund Verification Charge,C,496403,2026-07-15
+other_receipt,2026-04-07,USPS,$0.47,Fredericksburg,VA,pac,Refund Verification Charge,C,496403,2026-07-15
+other_receipt,2026-02-22,Xfinity,$28.92,Fredericksburg,VA,pac,Return,C,496403,2026-07-15
+expenditure,2025-07-15,Amazon.com,$33.99,Seattle,WA,pac,Office Supplies,D,479196,2026-01-15
+expenditure,2025-07-17,Amazon.com,$477.68,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-07-21,Amazon.com,$74.36,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-07-23,Amazon.com,$180.60,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-07-23,Amazon.com,$184.89,Seattle,WA,pac,Event Supplies,D,479196,2026-01-15
+expenditure,2025-07-24,Amazon.com,$7.21,Seattle,WA,pac,Office Supplies,D,479196,2026-01-15
+expenditure,2025-07-24,Amazon.com,$23.38,Seattle,WA,pac,Office Supplies,D,479196,2026-01-15
+expenditure,2025-07-28,Amazon.com,"$1,879.68",Seattle,WA,pac,Laptop,D,479196,2026-01-15
+expenditure,2025-07-30,Amazon.com,$219.54,Seattle,WA,pac,Truck Parts,D,479196,2026-01-15
+expenditure,2025-07-30,Amazon.com,$18.68,Seattle,WA,pac,Event Supplies,D,479196,2026-01-15
+expenditure,2025-07-31,Amazon.com,$133.96,Seattle,WA,pac,Office Supplies,D,479196,2026-01-15
+expenditure,2025-08-01,Amazon.com,$38.94,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-08-16,Amazon.com,$113.35,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-08-16,Amazon.com,$36.84,Seattle,WA,pac,Supplies for new office,D,479196,2026-01-15
+expenditure,2025-08-18,Amazon.com,$808.88,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-08-18,Amazon.com,$470.31,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-08-18,Amazon.com,$56.86,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-08-18,Amazon.com,$82.54,Seattle,WA,pac,Supplies for new office,D,479196,2026-01-15
+expenditure,2025-08-18,Amazon.com,$49.44,Seattle,WA,pac,Supplies for new office,D,479196,2026-01-15
+expenditure,2025-08-18,Amazon.com,$84.21,Seattle,WA,pac,Supplies for new office,D,479196,2026-01-15
+expenditure,2025-08-19,Amazon.com,$47.48,Seattle,WA,pac,Supplies for new office,D,479196,2026-01-15
+expenditure,2025-08-20,Amazon.com,$27.37,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-08-29,Amazon.com,$546.27,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-08-30,Amazon.com,$410.66,Seattle,WA,pac,Truck Parts,D,479196,2026-01-15
+expenditure,2025-09-02,Amazon.com,$559.13,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-09-05,Amazon.com,$46.01,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-10-20,Amazon.com,$122.14,Seattle,WA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-10-23,Amazon.com,$61.53,Seattle,WA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-10-23,Amazon.com,$166.36,Seattle,WA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-11-08,Amazon.com,$14.73,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-11-11,Amazon.com,$31.58,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-11-21,Amazon.com,$89.06,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-12-01,Amazon.com,$39.96,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-12-08,Amazon.com,$193.75,Seattle,WA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-11-17,Coins for Anything,"$1,145",Spotsylvania,VA,pac,Coins,D,479196,2026-01-15
+expenditure,2025-07-01,Costco,$121.24,Fredericksburg,VA,pac,Food & drinks for office,D,479196,2026-01-15
+expenditure,2025-08-18,Costco,"$1,005.47",Fredericksburg,VA,pac,Food & Drinks for event,D,479196,2026-01-15
+expenditure,2025-08-26,Costco,$252.71,Fredericksburg,VA,pac,Food & Drinks for event,D,479196,2026-01-15
+expenditure,2025-08-20,Treasurer of VA,$45,Richmond,VA,pac,Flag,D,479196,2026-01-15
+expenditure,2025-11-06,Treasurer of VA,$48,Richmond,VA,pac,Flag,D,479196,2026-01-15
+expenditure,2025-07-14,Verizon,$471.69,Dallas,TX,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-07-22,Verizon,$94.99,Dallas,TX,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-08-14,Verizon,$125.22,Dallas,TX,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-08-22,Verizon,$94.99,Dallas,TX,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-09-15,Verizon,$125.22,Dallas,TX,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-10-14,Verizon,$134.93,Dallas,TX,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-10-22,Verizon,$184.28,Dallas,TX,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-11-14,Verizon,$134.97,Dallas,TX,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-12-15,Verizon,$134.97,Dallas,TX,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-12-16,Jenny Books,"$2,000",Fredericksburg,VA,individual,Thank you,D,479196,2026-01-15
+expenditure,2025-07-29,Staples,$36.86,Fredericksburg,VA,pac,Office Supplies,D,479196,2026-01-15
+expenditure,2025-08-13,Staples,$51.59,Fredericksburg,VA,pac,Office Supplies,D,479196,2026-01-15
+expenditure,2025-08-14,Staples,$57.90,Fredericksburg,VA,pac,Office Supplies,D,479196,2026-01-15
+expenditure,2025-10-21,Staples,$577,Fredericksburg,VA,pac,Printer Ink,D,479196,2026-01-15
+expenditure,2025-10-23,Staples,$52.63,Fredericksburg,VA,pac,Office Supplies,D,479196,2026-01-15
+expenditure,2025-08-12,Bryce Reeves,$560.06,Spotsylvania,VA,individual,Reimburse travel expenses from NCSL meetings,D,479196,2026-01-15
+expenditure,2025-09-30,Bryce Reeves,"$2,130.67",Spotsylvania,VA,individual,Reimburse purchase of laptop,D,479196,2026-01-15
+expenditure,2025-10-20,Bryce Reeves,"$2,214.88",Spotsylvania,VA,individual,NCLS Military Task Force,D,479196,2026-01-15
+expenditure,2025-10-23,Bryce Reeves,$400,Spotsylvania,VA,individual,NCLS Military Task Force,D,479196,2026-01-15
+expenditure,2025-11-09,Bryce Reeves,"$2,500",Spotsylvania,VA,individual,Reimbursement for purchase of camper top,D,479196,2026-01-15
+expenditure,2025-12-11,Republican Party of Virginia,"$2,500",Richmond,VA,party,Donation,D,479196,2026-01-15
+expenditure,2025-07-01,Ristorante Renato,$225.87,Fredericksburg,VA,pac,Constituents Dinner,D,479196,2026-01-15
+expenditure,2025-11-25,United Airlines,$37.61,Chicago,IL,pac,Travel,D,479196,2026-01-15
+expenditure,2025-11-25,United Airlines,$49.44,Chicago,IL,pac,Travel,D,479196,2026-01-15
+expenditure,2025-11-25,United Airlines,$171.99,Chicago,IL,pac,Travel,D,479196,2026-01-15
+expenditure,2025-11-25,United Airlines,$692.16,Chicago,IL,pac,Travel,D,479196,2026-01-15
+expenditure,2025-11-25,United Airlines,$976.97,Chicago,IL,pac,Travel,D,479196,2026-01-15
+expenditure,2025-07-31,The Home Depot,$307.58,Fredericksburg,VA,pac,Supplies for NCSL Events,D,479196,2026-01-15
+expenditure,2025-08-19,The Home Depot,$14.72,Fredericksburg,VA,pac,Truck Parts,D,479196,2026-01-15
+expenditure,2025-08-20,The Home Depot,$137.42,Fredericksburg,VA,pac,Locks for Office,D,479196,2026-01-15
+expenditure,2025-09-28,The Home Depot,$846.67,Fredericksburg,VA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-10-07,Fas Mart,$54.56,Fredericksburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-08-05,7-Eleven,$42.72,Fredeicksburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-08-11,Gravatt Entertainment,$250,Fredericksburg,VA,pac,Entertainment for Event,D,479196,2026-01-15
+expenditure,2025-09-12,Mama's Pizza and Subs,$229.25,Locust Grove,VA,pac,Political Dinner,D,479196,2026-01-15
+expenditure,2025-07-30,Atlantic Union Bank,$38,Fredericksburg,VA,pac,Bank Fee,D,479196,2026-01-15
+expenditure,2025-08-23,Atlantic Union Bank,$30,Fredericksburg,VA,pac,Bank Fee,D,479196,2026-01-15
+expenditure,2025-08-23,Atlantic Union Bank,$35,Fredericksburg,VA,pac,Bank Fee,D,479196,2026-01-15
+expenditure,2025-07-21,State Farm Insurance,$481,Fredericksburg,VA,pac,Insurance,D,479196,2026-01-15
+expenditure,2025-08-19,State Farm Insurance,$558.88,Fredericksburg,VA,pac,Insurance,D,479196,2026-01-15
+expenditure,2025-09-06,State Farm Insurance,$6.78,Fredericksburg,VA,pac,Insurance,D,479196,2026-01-15
+expenditure,2025-10-15,State Farm Insurance,$13.55,Fredericksburg,VA,pac,Insurance,D,479196,2026-01-15
+expenditure,2025-10-22,State Farm Insurance,$176.25,Fredericksburg,VA,pac,Insurance,D,479196,2026-01-15
+expenditure,2025-10-01,Dominos Pizza,$49.67,Fredericksburg,VA,pac,Staff Lunch,D,479196,2026-01-15
+expenditure,2025-08-08,Shell,$37.71,Fredericksburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-09-17,FedEx,$70.40,Fredericksburg,VA,pac,Shipping,D,479196,2026-01-15
+expenditure,2025-10-04,FedEx,$119.62,Fredericksburg,VA,pac,Shipping,D,479196,2026-01-15
+expenditure,2025-07-28,Sheetz,$35.83,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-08-13,Sheetz,$40.98,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-08-25,Sheetz,$42.38,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-09-22,Sheetz,$41.78,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-09,Sheetz,$35.98,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-21,Sheetz,$41.04,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-11-11,Sheetz,$34.53,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-11-20,Sheetz,$38.70,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-11-25,Sheetz,$39.05,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-12-08,Sheetz,$38.52,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-09-17,Godaddy,$44.38,Scottsdale,AZ,pac,Website Managment,D,479196,2026-01-15
+expenditure,2025-07-24,Harbor Freight,$31.57,Fredericksburg,VA,pac,Truck Parts,D,479196,2026-01-15
+expenditure,2025-10-17,Wawa,$40.38,Fredericksburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-12-05,Wawa,$40.90,Fredericksburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-12-10,Wawa,$64.39,Fredericksburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-12-11,Wawa,$38.62,Fredericksburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-07-25,American Airlines,$496.96,Fort Worth,TX,pac,Travel,D,479196,2026-01-15
+expenditure,2025-09-13,Delta Air,$35,Atlanta,GA,pac,Bag Fee,D,479196,2026-01-15
+expenditure,2025-09-19,Delta Air,$100,Atlanta,GA,pac,Bag Fee,D,479196,2026-01-15
+expenditure,2025-07-29,Uber,$16.99,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-07-30,Uber,$23.83,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-07-30,Uber,$35.04,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-07-30,Uber,$25.92,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-08-03,Uber,$14.92,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-08-03,Uber,$16.82,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-08-04,Uber,$14.91,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-08-04,Uber,$21.99,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-08-04,Uber,$13.91,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-08-05,Uber,$20.98,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-08-05,Uber,$26.91,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-08-05,Uber,$27.92,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-08-06,Uber,$24.96,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-08-08,Uber,$22.91,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-10-03,Uber,$13.91,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-10-03,Uber,$10.98,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-10-19,Uber,$10.88,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-10-25,Uber,$15.05,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-10-30,Uber,$21.95,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-10-30,Uber,$23.29,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-10-30,Uber,$0.66,San Fransisco,CA,pac,Transaction Fee,D,479196,2026-01-15
+expenditure,2025-10-30,Uber,$0.70,San Fransisco,CA,pac,Transaction Fee,D,479196,2026-01-15
+expenditure,2025-10-31,Uber,$16.87,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-10-31,Uber,$21.29,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-10-31,Uber,$0.51,San Fransisco,CA,pac,Transaction Fee,D,479196,2026-01-15
+expenditure,2025-10-31,Uber,$0.64,San Fransisco,CA,pac,Transaction Fee,D,479196,2026-01-15
+expenditure,2025-11-10,Uber,$39.86,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-11-10,Uber,$5.99,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-11-13,Uber,$25.92,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-12-02,Uber,$24.06,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-12-04,Uber,$23.92,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-12-07,Uber,$9.99,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-12-18,Uber,$20.78,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-12-18,Uber,$17.96,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-12-18,Uber,$66.64,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-12-19,Uber,$31.92,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-12-29,Uber,$31.14,San Fransisco,CA,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-07-23,Colonial Parking,$40,Washington,DC,pac,Parking,D,479196,2026-01-15
+expenditure,2025-09-09,Colonial Parking,$21.95,Washington,DC,pac,Parking,D,479196,2026-01-15
+expenditure,2025-09-10,Colonial Parking,$174.50,Washington,DC,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-08-14,Christopher Snider,$524.23,Spotsylvania,VA,individual,Reimburse Mileage,D,479196,2026-01-15
+expenditure,2025-12-14,Sheetz,$36.82,Louisa,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-12,Tractor Supply,$251.86,Fredericksburg,VA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-07-10,Grill 309,$144.10,Culpeper,VA,pac,Political Dinner,D,479196,2026-01-15
+expenditure,2025-09-11,Grill 309,$400,Culpeper,VA,pac,Political Dinner,D,479196,2026-01-15
+expenditure,2025-07-04,Raven's Nest,$35.13,Culpeper,VA,pac,Team Lunch,D,479196,2026-01-15
+expenditure,2025-08-28,Wawa,$43.48,Virginia Beach,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-04,Wawa,$106.52,Virginia Beach,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-09-08,Walmart,$87.63,Locust Grove,VA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-10-01,Walmart,$213.36,Locust Grove,VA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-10-17,Walmart,$91.35,Locust Grove,VA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-10-18,Walmart,$54.44,Locust Grove,VA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-11-23,Walmart,$187.43,Locust Grove,VA,pac,Vacuum for Office,D,479196,2026-01-15
+expenditure,2025-09-19,Dulles International Airport,$147,Dullus,VA,pac,Parking,D,479196,2026-01-15
+expenditure,2025-12-04,Dulles International Airport,$63,Dullus,VA,pac,Parking,D,479196,2026-01-15
+expenditure,2025-11-30,Royal Farms,$62.37,Fredericksburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-07-01,Google Workspace,$123.64,Mountain View,VA,pac,Software,D,479196,2026-01-15
+expenditure,2025-08-01,Google Workspace,$103.30,Mountain View,VA,pac,Software,D,479196,2026-01-15
+expenditure,2025-09-01,Google Workspace,$92.40,Mountain View,VA,pac,Software,D,479196,2026-01-15
+expenditure,2025-10-01,Google Workspace,$101.92,Mountain View,VA,pac,Software,D,479196,2026-01-15
+expenditure,2025-11-01,Google Workspace,$126,Mountain View,VA,pac,Software,D,479196,2026-01-15
+expenditure,2025-12-01,Google Workspace,$126,Mountain View,VA,pac,Software,D,479196,2026-01-15
+expenditure,2025-09-16,Fiverr,$45.70,New York,NY,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-10-21,Deluxe,$95,Shoreview,MN,pac,Checks,D,479196,2026-01-15
+expenditure,2025-07-08,Joe Desilets,"$5,000",Fairfax,VA,individual,Consulting,D,479196,2026-01-15
+expenditure,2025-08-20,Joe Desilets,"$5,000",Fairfax,VA,individual,Consultation,D,479196,2026-01-15
+expenditure,2025-09-17,Joe Desilets,"$15,000",Fairfax,VA,individual,Consulting,D,479196,2026-01-15
+expenditure,2025-07-21,Flodesk,$19,Danville,CA,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-08-21,Flodesk,$19,Danville,CA,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-09-21,Flodesk,$19,Danville,CA,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-10-21,Flodesk,$19,Danville,CA,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-11-21,Flodesk,$19,Danville,CA,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-12-21,Flodesk,$19,Danville,CA,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-08-25,Eventbrite,$35.70,San Fransisco,CA,pac,Event Tickets,D,479196,2026-01-15
+expenditure,2025-12-05,Eventbrite,$537.22,San Fransisco,CA,pac,Event Tickets - Donald W. Huffman Advance,D,479196,2026-01-15
+expenditure,2025-07-09,James Manetz,$595.29,Spotsylvania,VA,individual,Mileage,D,479196,2026-01-15
+expenditure,2025-09-05,James Manetz,$308.84,Spotsylvania,VA,individual,Mileage,D,479196,2026-01-15
+expenditure,2025-09-30,Loomly,$65,Studio City,CA,pac,Social Media Management,D,479196,2026-01-15
+expenditure,2025-09-30,Loomly,$523,Studio City,CA,pac,Social Media Management,D,479196,2026-01-15
+expenditure,2025-07-08,WinRed,$96,Alexandria,VA,pac,Processing Fee,D,479196,2026-01-15
+expenditure,2025-07-26,WinRed,$3.94,Alexandria,VA,pac,Processing Fee,D,479196,2026-01-15
+expenditure,2025-08-26,WinRed,$3.94,Alexandria,VA,pac,Processing Fee,D,479196,2026-01-15
+expenditure,2025-09-26,WinRed,$3.94,Alexandria,VA,pac,Processing Fee,D,479196,2026-01-15
+expenditure,2025-10-28,WinRed,$3.94,Alexandria,VA,pac,Processing Fee,D,479196,2026-01-15
+expenditure,2025-11-26,WinRed,$3.94,Alexandria,VA,pac,Processing Fee,D,479196,2026-01-15
+expenditure,2025-12-29,WinRed,$3.94,Alexandria,VA,pac,Processing Fee,D,479196,2026-01-15
+expenditure,2025-07-09,Shutterstock,$29,New York,NY,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-08-09,Shutterstock,$29,New York,NY,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-09-09,Shutterstock,$29,New York,NY,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-09-19,Shutterstock,$29,New York,NY,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-10-09,Shutterstock,$29,New York,NY,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-11-09,Shutterstock,$29,New York,NY,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-12-09,Shutterstock,$29,New York,NY,pac,Marketing,D,479196,2026-01-15
+expenditure,2025-08-20,Vistaprint,$26.09,Waltham,MA,pac,Printing,D,479196,2026-01-15
+expenditure,2025-10-13,America First Patriots,$350,Culpeper,VA,pac,Golf Tournament,D,479196,2026-01-15
+expenditure,2025-08-18,EIN Presswire,$528.94,Washington,DC,pac,Advertising,D,479196,2026-01-15
+expenditure,2025-09-02,Murphy Express,$96,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-09-07,Murphy Express,$92.12,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-09-11,Murphy Express,$94.98,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-09-11,Murphy Express,$82.71,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-09-27,Murphy Express,$77.27,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-12,Murphy Express,$67.34,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-14,Murphy Express,$65.56,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-15,Murphy Express,$38.82,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-17,Murphy Express,$98.26,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-19,Murphy Express,$80.38,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-21,Murphy Express,$74.52,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-11-04,Murphy Express,$51.93,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-11-16,Murphy Express,$79.32,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-12-16,Murphy Express,$51.21,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-12-28,Murphy Express,$42.94,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-07-09,El Tio Tex-Mex,$626.92,Gainesville,VA,pac,Political Dinner,D,479196,2026-01-15
+expenditure,2025-07-03,Taco Bell,$39.72,Locust Grove,VA,pac,Staff Lunch,D,479196,2026-01-15
+expenditure,2025-11-24,Taco Bell,$41.88,Locust Grove,VA,pac,Staff Lunch,D,479196,2026-01-15
+expenditure,2025-07-03,Xfinity,"$1,495.25",Philadelphia,PA,pac,Phone,D,479196,2026-01-15
+expenditure,2025-08-16,Xfinity,$282.08,Philadelphia,PA,pac,Internet Service,D,479196,2026-01-15
+expenditure,2025-09-16,Xfinity,$157.08,Philadelphia,PA,pac,Internet Service,D,479196,2026-01-15
+expenditure,2025-10-18,Xfinity,$197.08,Philadelphia,PA,pac,Internet Service,D,479196,2026-01-15
+expenditure,2025-10-22,Xfinity,$210.59,Philadelphia,PA,pac,Internet Service,D,479196,2026-01-15
+expenditure,2025-10-23,Xfinity,$232.52,Philadelphia,PA,pac,Internet Service,D,479196,2026-01-15
+expenditure,2025-11-17,Xfinity,$191.37,Philadelphia,PA,pac,Internet Service,D,479196,2026-01-15
+expenditure,2025-11-23,Xfinity,$116.26,Philadelphia,PA,pac,Internet Service,D,479196,2026-01-15
+expenditure,2025-12-17,Xfinity,$179.40,Philadelphia,PA,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-12-23,Xfinity,$119.42,Philadelphia,PA,pac,Phone Service,D,479196,2026-01-15
+expenditure,2025-08-28,Lauren Baker,"$1,976.86",Boston,MA,individual,Event planning & food,D,479196,2026-01-15
+expenditure,2025-07-21,Shell,$52.76,Purceville,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-07-26,Jet Blue,$112,Long Island,NY,pac,Travel,D,479196,2026-01-15
+expenditure,2025-07-26,Jet Blue,$125,Long Island,NY,pac,Travel,D,479196,2026-01-15
+expenditure,2025-07-26,Jet Blue,$193.30,Long Island,NY,pac,Travel,D,479196,2026-01-15
+expenditure,2025-07-26,Jet Blue,$409.30,Long Island,NY,pac,Travel,D,479196,2026-01-15
+expenditure,2025-07-09,Coalition for a Better Future PAc,"$34,000",Ruckersville,VA,pac,Donation,D,479196,2026-01-15
+expenditure,2025-07-30,Total Wine & More,"$1,167.70",Dorchester,MA,pac,Event Supplies,D,479196,2026-01-15
+expenditure,2025-07-30,Doms Sausages,$315,Malden,MA,pac,Food for Event,D,479196,2026-01-15
+expenditure,2025-08-02,Burkes Seafood,"$1,054.40",Quincy,MA,pac,Fundraising Dinner,D,479196,2026-01-15
+expenditure,2025-08-02,Pan Asia,$122.09,Boston,MA,pac,Team Lunch,D,479196,2026-01-15
+expenditure,2025-08-03,Alfredos Italian Kitchen,$135,Boston,MA,pac,Team lunch,D,479196,2026-01-15
+expenditure,2025-08-05,Storage Wise,$128.24,Locust Grove,VA,pac,Storage Unit,D,479196,2026-01-15
+expenditure,2025-09-01,Storage Wise,$188,Locust Grove,VA,pac,Storage Unit,D,479196,2026-01-15
+expenditure,2025-10-01,Storage Wise,$188,Locust Grove,VA,pac,Storage Unit,D,479196,2026-01-15
+expenditure,2025-11-01,Storage Wise,$188,Locust Grove,VA,pac,Storage Unit,D,479196,2026-01-15
+expenditure,2025-12-01,Storage Wise,$188,Locust Grove,VA,pac,Storage Unit,D,479196,2026-01-15
+expenditure,2025-08-08,All My Sons,$100,Springfield,VA,pac,Moving Services,D,479196,2026-01-15
+expenditure,2025-08-13,All My Sons,"$4,508.53",Springfield,VA,pac,Moving Services,D,479196,2026-01-15
+expenditure,2025-08-16,Royal Farms,$19.68,Laurel,MD,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-08-16,Royal Farms,$82.52,Laurel,MD,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-08-16,Exxon,$41.05,Locust Grove,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-08-18,DMV,$615.25,Culpeper,VA,pac,Vehicle Registration/Tags,D,479196,2026-01-15
+expenditure,2025-10-21,DMV,$180.09,Culpeper,VA,pac,Vehicle Registration,D,479196,2026-01-15
+expenditure,2025-10-23,DMV,$16.66,Culpeper,VA,pac,Registration/Tags,D,479196,2026-01-15
+expenditure,2025-10-23,DMV,$40,Culpeper,VA,pac,Registration/Tags,D,479196,2026-01-15
+expenditure,2025-08-18,Tint Lab LLC,$186,Fredericksburg,VA,pac,Windows for campaign truck,D,479196,2026-01-15
+expenditure,2025-08-20,Shell,$41.11,MIneral,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-08-23,O'Reilly,$400.95,Fredericksburg,VA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-08-31,O'Reilly,$421.07,Fredericksburg,VA,pac,Campaign truck parts,D,479196,2026-01-15
+expenditure,2025-10-22,O'Reilly,$645.37,Fredericksburg,VA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-11-12,O'Reilly,$82.86,Fredericksburg,VA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-11-13,O'Reilly,$13.28,Fredericksburg,VA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-08-24,Chucks Auto Body,"$1,500",Barboursville,VA,pac,Truck Repairs,D,479196,2026-01-15
+expenditure,2025-08-29,Coop's Auto Repair,"$1,645.52",Fredericksburg,VA,pac,Campaign truck repairs,D,479196,2026-01-15
+expenditure,2025-10-06,Coop's Auto Repair,$179.14,Fredericksburg,VA,pac,Campaign Truck Repairs,D,479196,2026-01-15
+expenditure,2025-12-10,Coop's Auto Repair,"$1,183.45",Fredericksburg,VA,pac,Vehicle Repairs,D,479196,2026-01-15
+expenditure,2025-08-28,Shine and Line,$465.75,Fredericksburg,VA,pac,Truck Parts,D,479196,2026-01-15
+expenditure,2025-11-04,Shine and Line,$724.50,Fredericksburg,VA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-08-19,Tobacco & Gas,$68.71,Fredericksburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-08-31,Auto Seat Zone,$514,"London, United Kingdom",NY,pac,Campaign truck parts,D,479196,2026-01-15
+expenditure,2025-09-01,short Food Citgo,$43.13,Unionville,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-09-13,News & Gifts,$52.97,Dullus,VA,pac,Food while on travel,D,479196,2026-01-15
+expenditure,2025-09-16,The Old Man & the Sea,$46.21,"Jaffa, Israel",NY,pac,Food while on travel,D,479196,2026-01-15
+expenditure,2025-09-16,The Old Man & the Sea,$1.39,"Jaffa, Israel",NY,pac,Transaction Fee,D,479196,2026-01-15
+expenditure,2025-09-18,El Al Airport Lod,$105,"Center District, Israel",NY,pac,Transportation,D,479196,2026-01-15
+expenditure,2025-09-18,El Al Airport Lod,$3.15,"Center District, Israel",NY,pac,Transaction Fee,D,479196,2026-01-15
+expenditure,2025-09-12,Paul Koch,$500,Unionville,VA,individual,Media,D,479196,2026-01-15
+expenditure,2025-09-12,Paul Koch,"$1,500",Unionville,VA,individual,Media,D,479196,2026-01-15
+expenditure,2025-09-23,Committee to Elect Jennifer Craig Ford,$500,Fredericksburg,VA,pac,Contribution,D,479196,2026-01-15
+expenditure,2025-09-25,Lidl,$19.61,Fredericksburg,VA,pac,Food for Office,D,479196,2026-01-15
+expenditure,2025-09-27,Handy Mart,$38.45,Fredericksburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-16,The Upper Crust,$23.90,Gettysburg,PA,pac,Political Lunch,D,479196,2026-01-15
+expenditure,2025-10-17,The Upper Crust,$25.44,Gettysburg,PA,pac,Team Lunch,D,479196,2026-01-15
+expenditure,2025-10-06,Friends of Carrie Coyner,"$1,000",Chester,VA,pac,Donation,D,479196,2026-01-15
+expenditure,2025-10-17,Sunoco,$41.36,Leesburg,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-10-18,Keyme Locksmiths,$88.27,Fredericksburg,VA,pac,Keys for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-10-17,Gettysburg Hotel,$38.16,Gettysburg,PA,pac,Parking,D,479196,2026-01-15
+expenditure,2025-10-21,American Trucks,$868.68,Paoli,PA,pac,Parts for Campaign Truck,D,479196,2026-01-15
+expenditure,2025-10-21,Orange County Treasurer,$40.13,Orange,VA,pac,Taxes on Campaign Vehicles,D,479196,2026-01-15
+expenditure,2025-10-21,Orange County Treasurer,$2.50,Orange,VA,pac,Transaction Fee,D,479196,2026-01-15
+expenditure,2025-10-21,Iobit,$29.95,Eden Prairie,MN,pac,Software,D,479196,2026-01-15
+expenditure,2025-10-22,CARid,"$1,481.23",Cranbury,NJ,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-12-08,CARid,$537.25,Cranbury,NJ,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-10-27,Edwards Store,$36.36,Rhoadesville,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-12-12,Edwards Store,$41.47,Rhoadesville,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-11-05,Extreme Powersports,$100.63,Fredericksburg,VA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-11-05,Extreme Powersports,"$1,018.43",Fredericksburg,VA,pac,Parts for Campaign Vehicle,D,479196,2026-01-15
+expenditure,2025-09-05,Star Spangled ball,$500,Virginia Beach,VA,pac,Donation,D,479196,2026-01-15
+expenditure,2025-11-19,Clearwater Grill,$55.96,Locust Grove,VA,pac,Constituent Lunch,D,479196,2026-01-15
+expenditure,2025-11-21,The Higlander Hilton,$422.40,Radford,VA,pac,Lodging,D,479196,2026-01-15
+expenditure,2025-11-25,Subway,$51.87,Locust Grove,VA,pac,Food for Volunteers,D,479196,2026-01-15
+expenditure,2025-10-04,Laid Not Sprayed,"$1,860",Fredericksburg,VA,pac,Campaign Truck Wrap,D,479196,2026-01-15
+expenditure,2025-12-09,Laid Not Sprayed,"$1,100",Fredericksburg,VA,pac,Vehicle Wrapping,D,479196,2026-01-15
+expenditure,2025-12-13,Joe's Seafood,$738.51,Washington,DC,pac,Political Dinner,D,479196,2026-01-15
+expenditure,2025-12-20,sheetz,$38.36,Orange,VA,pac,Fuel,D,479196,2026-01-15
+expenditure,2025-12-23,Rice Village Parking,$3.20,Houston,TX,pac,Parking,D,479196,2026-01-15
+expenditure,2025-07-10,Abby Heelen,$140,Culpeper,VA,individual,Payroll,D,479196,2026-01-15
+expenditure,2025-09-17,Abby Heelen,"$1,540",Culpeper,VA,individual,Payroll,D,479196,2026-01-15
+expenditure,2025-10-31,Abby Heelen,"$1,300",Culpeper,VA,individual,Payroll,D,479196,2026-01-15
+expenditure,2025-08-01,Diamond Rentals,$310,Dedham,MA,pac,Event Supplies,D,479196,2026-01-15
+expenditure,2025-08-08,Fort Lauderdale Airport,$20.30,Fort Lauderdale,FL,pac,Travel,D,479196,2026-01-15
+expenditure,2025-08-08,Ritz-Carlton,$30.76,Fort Lauderdale,FL,pac,Parking,D,479196,2026-01-15
+expenditure,2025-09-13,Vineyard Vines,$57.66,Leesburg,VA,pac,Thank you gift,D,479196,2026-01-15
+expenditure,2025-09-05,Virginia Beach GOP,$300,Virginia Beach,VA,party,Stars &  Strips Banquet,D,479196,2026-01-15
+expenditure,2025-09-30,Kimpton The Forum,$22.11,Charlottesville,VA,pac,Political Meetings,D,479196,2026-01-15
+expenditure,2025-10-01,Kimpton The Forum,$27.38,Charlottesville,VA,pac,Political Meetings,D,479196,2026-01-15
+expenditure,2025-10-03,Catnina D'Italia,$160,Fairfax,VA,pac,Political Dinner,D,479196,2026-01-15
+expenditure,2025-09-25,Higgins for Delegate,"$1,000",Waterford,VA,candidate,Donation,D,479196,2026-01-15
+expenditure,2025-10-17,The Horse Soldier,$503.50,Gettysburg,VA,pac,Pictures for new office,D,479196,2026-01-15
+expenditure,2025-10-09,Friends of Brian Keith Triplett,$250,Lynchburg,VA,pac,Donation,D,479196,2026-01-15
+expenditure,2025-12-03,Four Seasons,$91.32,Las Vegas,NV,pac,Food while on travel,D,479196,2026-01-15
+expenditure,2025-12-11,Cates Auto Repair,"$1,250",Stafford,VA,pac,Repairs to Campaign Truck,D,479196,2026-01-15
+expenditure,2025-12-09,Luke Wilts,$427.36,Washington,DC,individual,"Reimburse Lodging Expense, Wyndham Garden",D,479196,2026-01-15
+expenditure,2025-08-18,David Adamson,"$13,000",Chicopee,MA,individual,Purchase Campaign Truck,D,479196,2026-01-15
+expenditure,2026-01-23,Amazon.com,$35.51,Seattle,WA,pac,Office Supplies,D,496403,2026-07-15
+expenditure,2026-01-30,Amazon.com,$263.24,Seattle,WA,pac,"Food, drinks & office supplies",D,496403,2026-07-15
+expenditure,2026-03-28,Amazon.com,$18.46,Seattle,WA,pac,Truck supplies,D,496403,2026-07-15
+expenditure,2026-03-29,Amazon.com,$220.06,Seattle,WA,pac,Audio/visual equipment,D,496403,2026-07-15
+expenditure,2026-05-23,Amazon.com,$147.22,Seattle,WA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-05-24,Amazon.com,$45.57,Seattle,WA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-05-25,Amazon.com,$30,Seattle,WA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-05-25,Amazon.com,$32.63,Seattle,WA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-06-21,Amazon.com,$110.40,Seattle,WA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-06-22,Amazon.com,$38.95,Seattle,WA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-06-25,Amazon.com,$106.74,Seattle,WA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-01-18,Costco,$213.78,Fredericksburg,VA,pac,Food & drinks for office,D,496403,2026-07-15
+expenditure,2026-02-23,Costco,$333.05,Fredericksburg,VA,pac,Monitor & snacks for office,D,496403,2026-07-15
+expenditure,2026-06-04,Costco,$225.13,Fredericksburg,VA,pac,Candy for Parade,D,496403,2026-07-15
+expenditure,2026-06-26,Costco,$180.10,Fredericksburg,VA,pac,Event Supplies,D,496403,2026-07-15
+expenditure,2026-01-16,Meriwether Godsey Inc,$500,Richmond,VA,pac,Food Service,D,496403,2026-07-15
+expenditure,2026-01-21,Treasurer of VA,$147,Richmond,VA,pac,Parking,D,496403,2026-07-15
+expenditure,2026-03-20,USPS,$333,Fredericksburg,VA,pac,Postage,D,496403,2026-07-15
+expenditure,2026-03-20,USPS,$333,Fredericksburg,VA,pac,Postage,D,496403,2026-07-15
+expenditure,2026-03-26,USPS,$138.29,Fredericksburg,VA,pac,Postage,D,496403,2026-07-15
+expenditure,2026-04-07,USPS,$0.05,Fredericksburg,VA,pac,Verification Charge,D,496403,2026-07-15
+expenditure,2026-04-07,USPS,$0.47,Fredericksburg,VA,pac,Verification Charge,D,496403,2026-07-15
+expenditure,2026-04-14,USPS,$481.51,Fredericksburg,VA,pac,Postage,D,496403,2026-07-15
+expenditure,2026-06-17,USPS,$29.44,Fredericksburg,VA,pac,Postage,D,496403,2026-07-15
+expenditure,2026-01-14,Verizon,$134.97,Dallas,TX,pac,Phone Service,D,496403,2026-07-15
+expenditure,2026-02-17,Verizon,$134.97,Dallas,TX,pac,Phone Service,D,496403,2026-07-15
+expenditure,2026-03-16,Verizon,$134.97,Dallas,TX,pac,Phone Service,D,496403,2026-07-15
+expenditure,2026-04-14,Verizon,$134.97,Dallas,TX,pac,Phone Service,D,496403,2026-07-15
+expenditure,2026-05-15,Verizon,$134.91,Dallas,TX,pac,Phone Service,D,496403,2026-07-15
+expenditure,2026-06-15,Verizon,$134.93,Dallas,TX,pac,Phone Service,D,496403,2026-07-15
+expenditure,2026-01-06,Staples,$68.40,Fredericksburg,VA,pac,Office Supplies,D,496403,2026-07-15
+expenditure,2026-06-25,Best Buy,$70.55,Fredericksburg,VA,pac,Phone Charger,D,496403,2026-07-15
+expenditure,2026-02-25,The Virginia Shop,$250.16,Richmond,VA,pac,Prints,D,496403,2026-07-15
+expenditure,2026-03-02,The Virginia Shop,$148.92,Richmond,VA,pac,Prints,D,496403,2026-07-15
+expenditure,2026-03-03,The Virginia Shop,$169.39,Richmond,VA,pac,Prints,D,496403,2026-07-15
+expenditure,2026-06-18,LAZ Parking,$21,Washington,DC,pac,Parking,D,496403,2026-07-15
+expenditure,2026-02-09,Atlantic Union Bank,$30,Fredericksburg,VA,pac,Wire Fee,D,496403,2026-07-15
+expenditure,2026-04-10,Atlantic Union Bank,$15,Fredericksburg,VA,pac,Wire Fee,D,496403,2026-07-15
+expenditure,2026-04-17,Atlantic Union Bank,$30,Fredericksburg,VA,pac,Wire Fee,D,496403,2026-07-15
+expenditure,2026-03-05,State Farm Insurance,$662,Fredericksburg,VA,pac,Insurance,D,496403,2026-07-15
+expenditure,2026-05-20,State Farm Insurance,$13.55,Fredericksburg,VA,pac,Insurance,D,496403,2026-07-15
+expenditure,2026-05-26,State Farm Insurance,$210.02,Fredericksburg,VA,pac,Insurance,D,496403,2026-07-15
+expenditure,2026-03-09,Richmond Times Dispatch,$0.99,Richmond,VA,pac,Newspaper,D,496403,2026-07-15
+expenditure,2026-04-06,Richmond Times Dispatch,$14.99,Richmond,VA,pac,Newspaper,D,496403,2026-07-15
+expenditure,2026-05-04,Richmond Times Dispatch,$14.99,Richmond,VA,pac,Newspaper,D,496403,2026-07-15
+expenditure,2026-06-01,Richmond Times Dispatch,$14.99,Richmond,VA,pac,Newspaper,D,496403,2026-07-15
+expenditure,2026-06-29,Richmond Times Dispatch,$14.99,Richmond,VA,pac,Newspaper,D,496403,2026-07-15
+expenditure,2026-06-04,Sheetz,$45.74,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-06-26,Sheetz,$32.42,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-06-27,Sheetz,$81.56,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-06-27,Sheetz,$93.29,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-04-01,Creative Color,"$1,332.05",Fredericksburg,VA,pac,Signs,D,496403,2026-07-15
+expenditure,2026-06-18,Culpeper County Republican Committee,$180,Culpeper,VA,pac,250th Celebration Event Ticket,D,496403,2026-07-15
+expenditure,2026-04-16,Giant Food,$51.70,Fredericksburg,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-04-30,Giant Food,$53.83,Fredericksburg,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-06-16,Wawa,$39.58,Fredericksburg,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-04-02,City of Norfolk Parking,$5,Norfolk,VA,pac,Parking,D,496403,2026-07-15
+expenditure,2026-01-07,Uber,$9.99,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-02-07,Uber,$9.99,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-03-07,Uber,$9.99,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-03-15,Uber,$14.98,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-03-15,Uber,$23.96,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-03-15,Uber,$26.48,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-03-16,Uber,$2.64,San Fransisco,CA,pac,Tranportation,D,496403,2026-07-15
+expenditure,2026-03-16,Uber,$32.75,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-06,Uber,$27.93,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-06,Uber,$18.95,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-07,Uber,$9.99,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-08,Uber,$15.46,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-08,Uber,$39.55,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-12,Uber,$26.98,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-13,Uber,$4.05,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-13,Uber,$24.98,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-24,Uber,$38.87,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-28,Uber,$5.83,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-04-28,Uber,$28.54,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-05-07,Uber,$9.99,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-05-13,Uber,$35.84,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-05-14,Uber,$71.93,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-05-14,Uber,$45.94,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-05-15,Uber,$17.98,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-06-04,Uber,$17.86,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-06-07,Uber,$9.99,San Fransisco,CA,pac,Transportation,D,496403,2026-07-15
+expenditure,2026-06-05,Microsoft,$99.99,Redmond,WA,pac,Software,D,496403,2026-07-15
+expenditure,2026-06-05,Old Ebbitt Grill,$282.38,Washington,DC,pac,Political Dinner,D,496403,2026-07-15
+expenditure,2026-01-13,Sheetz,$37.67,Louisa,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-04-10,Sheetz,$52.97,Louisa,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-04-18,Sheetz,$34.47,Louisa,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-04-22,Sheetz,$55.09,Louisa,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-04-26,Sheetz,$50.65,Louisa,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-05-30,Sheetz,$52.48,Louisa,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-05-20,Tractor Supply,$410.11,Fredericksburg,VA,pac,Parts for Campaign Truck,D,496403,2026-07-15
+expenditure,2026-04-22,Logan Euker,$180.60,Fredericksburg,VA,individual,Mileage Reiumbursement,D,496403,2026-07-15
+expenditure,2026-04-02,Hilton Norfolk,$94.18,Norfolk,VA,pac,Lunch Meeting,D,496403,2026-07-15
+expenditure,2026-05-01,Wawa,$90.14,Virginia Beach,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-01-06,Walmart,$100.48,Locust Grove,VA,pac,Office Supplies,D,496403,2026-07-15
+expenditure,2026-05-28,Walmart,$133.13,Locust Grove,VA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-01-01,Google Workspace,$121.99,Mountain View,VA,pac,Software,D,496403,2026-07-15
+expenditure,2026-02-01,Google Workspace,$126.50,Mountain View,VA,pac,Software,D,496403,2026-07-15
+expenditure,2026-03-01,Google Workspace,$133.20,Mountain View,VA,pac,Software,D,496403,2026-07-15
+expenditure,2026-04-01,Google Workspace,$137.51,Mountain View,VA,pac,Software,D,496403,2026-07-15
+expenditure,2026-05-01,Google Workspace,$138,Mountain View,VA,pac,Software,D,496403,2026-07-15
+expenditure,2026-06-01,Google Workspace,$138,Mountain View,VA,pac,Software,D,496403,2026-07-15
+expenditure,2026-05-19,Radley Chevrolet,"$20,206",Fredericksburg,VA,pac,Campaign Vehicle,D,496403,2026-07-15
+expenditure,2026-05-21,Radley Chevrolet,$694.01,Fredericksburg,VA,pac,Truck Repairs,D,496403,2026-07-15
+expenditure,2026-02-09,Bay Armoury,"$11,606.89",Locust Grove,VA,pac,Consulting,D,496403,2026-07-15
+expenditure,2026-01-21,Flodesk,$19,Danville,CA,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-02-21,Flodesk,$19,Danville,CA,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-03-21,Flodesk,$19,Danville,CA,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-04-21,Flodesk,$19,Danville,CA,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-05-21,Flodesk,$19,Danville,CA,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-06-21,Flodesk,$19,Danville,CA,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-01-09,Shutterstock,$29,New York,NY,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-02-09,Shutterstock,$29,New York,NY,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-03-09,Shutterstock,$29,New York,NY,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-04-09,Shutterstock,$29,New York,NY,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-05-09,Shutterstock,$29,New York,NY,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-06-09,Shutterstock,$29,New York,NY,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-01-12,Larry Green,"$1,000",Reva,VA,individual,Consulting,D,496403,2026-07-15
+expenditure,2026-02-16,Larry Green,$347.81,Reva,VA,individual,Transportation,D,496403,2026-07-15
+expenditure,2026-02-16,Larry Green,"$1,000",Reva,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-03-13,Larry Green,"$1,000",Reva,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-03-13,Larry Green,$570.26,Reva,VA,individual,Reimburse travel,D,496403,2026-07-15
+expenditure,2026-04-17,Larry Green,$590.19,Reva,VA,individual,Reimburse Fuel,D,496403,2026-07-15
+expenditure,2026-04-17,Larry Green,"$1,000",Reva,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-05-14,Larry Green,$612.71,Reva,VA,individual,Reimburse Mileage,D,496403,2026-07-15
+expenditure,2026-05-14,Larry Green,"$1,000",Reva,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-06-15,Larry Green,$455.91,Reva,VA,individual,Reimburse Mileage,D,496403,2026-07-15
+expenditure,2026-06-15,Larry Green,"$1,000",Reva,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-03-06,IPower,$119.98,Jacksonville,FL,pac,Marketing,D,496403,2026-07-15
+expenditure,2026-04-15,Xpress Copy,"$1,131.75",Culpeper,VA,pac,Letterhead & Envelopes,D,496403,2026-07-15
+expenditure,2026-04-23,Xpress Copy,$59.98,Culpeper,VA,pac,Printing,D,496403,2026-07-15
+expenditure,2026-03-02,Culpeper Exponent,$0.99,Culpeper,VA,pac,Newspaper,D,496403,2026-07-15
+expenditure,2026-04-02,Culpeper Exponent,$14.99,Culpeper,VA,pac,Newspaper,D,496403,2026-07-15
+expenditure,2026-04-30,Culpeper Exponent,$14.99,Culpeper,VA,pac,Newspaper,D,496403,2026-07-15
+expenditure,2026-05-28,Culpeper Exponent,$14.99,Culpeper,VA,pac,Newspaper,D,496403,2026-07-15
+expenditure,2026-06-25,Culpeper Exponent,$14.99,Culpeper,VA,pac,Newspaper,D,496403,2026-07-15
+expenditure,2026-01-11,Murphy Express,$34.94,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-01-12,Murphy Express,$10.52,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-01-15,Murphy Express,$47.19,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-01-18,Murphy Express,$44.86,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-03-06,Murphy Express,$38.55,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-04-07,Murphy Express,$49.33,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-05-11,Murphy Express,$108.87,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-06-25,Murphy Express,$79,Locust Grove,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-02-07,Lake of the Woods Republican Club,$225,Locust Grove,VA,pac,Reagan Dinner,D,496403,2026-07-15
+expenditure,2026-01-16,Xfinity,$179.40,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-01-23,Xfinity,$119.42,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-02-06,Xfinity,$105.01,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-02-16,Xfinity,$179.35,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-02-23,Xfinity,$119.42,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-03-19,Xfinity,$227.43,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-03-22,Xfinity,$119.42,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-04-15,Xfinity,$140.81,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-04-22,Xfinity,$119.42,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-05-16,Xfinity,$201.92,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-05-22,Xfinity,$119.42,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-06-15,Xfinity,$201.81,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-06-22,Xfinity,$119.42,Philadelphia,PA,pac,Internet Service,D,496403,2026-07-15
+expenditure,2026-01-01,Storage Wise,$188,Locust Grove,VA,pac,Storage Unit,D,496403,2026-07-15
+expenditure,2026-02-01,Storage Wise,$188,Locust Grove,VA,pac,Storage Unit,D,496403,2026-07-15
+expenditure,2026-03-01,Storage Wise,$202.57,Locust Grove,VA,pac,Storage Unit,D,496403,2026-07-15
+expenditure,2026-04-01,Storage Wise,$200,Locust Grove,VA,pac,Storage Unit,D,496403,2026-07-15
+expenditure,2026-05-01,Storage Wise,$200,Locust Grove,VA,pac,Storage Unit,D,496403,2026-07-15
+expenditure,2026-06-01,Storage Wise,$200,Locust Grove,VA,pac,Storage Unit,D,496403,2026-07-15
+expenditure,2026-05-21,Tint Lab LLC,$289,Fredericksburg,VA,pac,Window Tinting,D,496403,2026-07-15
+expenditure,2026-01-06,Chucks Auto Body,"$2,000",Barboursville,VA,pac,Truck Repairs,D,496403,2026-07-15
+expenditure,2026-06-09,Chucks Auto Body,"$2,289.60",Barboursville,VA,pac,Truck Repairs,D,496403,2026-07-15
+expenditure,2026-01-15,Coop's Auto Repair,$953.07,Fredericksburg,VA,pac,Vehicle Repairs,D,496403,2026-07-15
+expenditure,2026-03-19,Coop's Auto Repair,"$2,374.35",Fredericksburg,VA,pac,Vehicle Repairs,D,496403,2026-07-15
+expenditure,2026-06-09,Coop's Auto Repair,$707.69,Fredericksburg,VA,pac,Truck Repairs,D,496403,2026-07-15
+expenditure,2026-06-19,Coop's Auto Repair,"$1,378",Fredericksburg,VA,pac,Truck Repairs,D,496403,2026-07-15
+expenditure,2026-05-23,American Trucks,"$1,086.70",Paoli,PA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-05-29,American Trucks,$54.36,Paoli,PA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-06-10,American Trucks,$658.60,Paoli,PA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-06-27,American Trucks,$611.08,Paoli,PA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-01-09,Abby Heelen,"$1,290",Culpeper,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-02-28,Abby Heelen,$800,Culpeper,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-03-20,Abby Heelen,$100,Culpeper,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-02-12,Jenna DeSteph,$850,Henrico,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-02-27,Jenna DeSteph,$245.65,Henrico,VA,individual,Mileage Reimbursement,D,496403,2026-07-15
+expenditure,2026-02-27,Jenna DeSteph,$925,Henrico,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-03-20,Jenna DeSteph,$584,Henrico,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-01-06,Radco,"$1,337.97",Baxter,MN,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-01-12,Philip Michaels,$330.46,Virginia Beach,VA,pac,Shirts,D,496403,2026-07-15
+expenditure,2026-01-15,Exxon,$39.74,Kents Store,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-02-08,Exxon,$80.47,New Kent,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-02-08,Xfinity,$28.92,Fredericksburg,VA,pac,Phone Case,D,496403,2026-07-15
+expenditure,2026-02-11,Noras Flowers,$115.28,Lancaster,OH,pac,Thank you,D,496403,2026-07-15
+expenditure,2026-03-05,Jill Kavanagh,"$2,000",Troy,VA,individual,Consulting,D,496403,2026-07-15
+expenditure,2026-03-25,Jill Kavanagh,"$1,000",Troy,VA,individual,Consulting,D,496403,2026-07-15
+expenditure,2026-03-25,Jill Kavanagh,"$1,000",Troy,VA,individual,Consulting,D,496403,2026-07-15
+expenditure,2026-03-25,Jill Kavanagh,"$1,000",Troy,VA,individual,Consulting,D,496403,2026-07-15
+expenditure,2026-03-02,New York Times,$4,New York,NY,pac,Subscription,D,496403,2026-07-15
+expenditure,2026-03-28,New York Times,$4,New York,NY,pac,Subscription,D,496403,2026-07-15
+expenditure,2026-04-25,New York Times,$4,New York,NY,pac,Subscription,D,496403,2026-07-15
+expenditure,2026-05-23,New York Times,$4,New York,NY,pac,Subscription,D,496403,2026-07-15
+expenditure,2026-06-20,New York Times,$4,New York,NY,pac,Subscription,D,496403,2026-07-15
+expenditure,2026-03-09,Andie Darko,"$1,000",Mechanicsville,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-03-20,Andie Darko,$316.35,Mechanicsville,VA,individual,Reimburse Parking,D,496403,2026-07-15
+expenditure,2026-03-20,Disruptor Radio LLC,"$2,500",Washington,DC,pac,Media,D,496403,2026-07-15
+expenditure,2026-03-30,Uber Eats,$28.95,San Francisco,CA,pac,Dinner,D,496403,2026-07-15
+expenditure,2026-04-17,Guidant Polling & Strategy,"$20,000",Boise,ID,pac,Consulting,D,496403,2026-07-15
+expenditure,2026-04-17,Twinbow Mart,$88.13,Spotsylvania,VA,pac,Staff Lunch,D,496403,2026-07-15
+expenditure,2026-05-02,North Time,$135.36,"Mississauga, ON L4Z 1P4",,pac,Watch,D,496403,2026-07-15
+expenditure,2026-05-13,Country Corner,$54.34,Louisa,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-05-17,Timmys Grocery,$81.27,Victoria,VA,pac,Lunch,D,496403,2026-07-15
+expenditure,2026-05-21,Rough Country,$726.26,Dyersburg,TN,pac,Truck Accessories,D,496403,2026-07-15
+expenditure,2026-05-22,Rough Country,$73.47,Dyersburg,TN,pac,Truck Acessories,D,496403,2026-07-15
+expenditure,2026-05-24,Pedal Commander,$288.76,Camarillo,CA,pac,Truck Accessories,D,496403,2026-07-15
+expenditure,2026-05-25,Auto Zone,$76.30,Richmond,VA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-05-26,Exxon,$59.54,Gordonsville,VA,pac,Fuel,D,496403,2026-07-15
+expenditure,2026-05-21,Agora Solutions LLC,$350.50,Lynchburg,VA,pac,Texting,D,496403,2026-07-15
+expenditure,2026-03-06,Julia Depret-Guellaume,"$1,000",Salem,VA,individual,Payroll,D,496403,2026-07-15
+expenditure,2026-06-17,World Trim Factory,$188.48,Santa Paula,CA,pac,Truck Parts,D,496403,2026-07-15
+expenditure,2026-02-22,Network Solutions,$361.99,Dullus,VA,pac,Network Services,D,496403,2026-07-15
+expenditure,2026-02-23,Network Solutions,$10.99,Dullus,VA,pac,Network Services,D,496403,2026-07-15
+expenditure,2026-06-29,Ollivant for Congress,"$1,000",Fredericksburg,VA,candidate,Donation,D,496403,2026-07-15
+debt,2019-10-22,Virginia Senate Republican Caucus,"$35,000",Williamsburg,VA,party,,F,479196,2026-01-15
+debt,2019-10-22,Virginia Senate Republican Caucus,"$35,000",Williamsburg,VA,party,,F,496403,2026-07-15

@@ -1,0 +1,55 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$57,926.26",,VA,,"From official Schedule H, November 2027 election cycle",H,496776,2026-07-15
+summary,2026-06-30,Raised this cycle,"$28,500.01",,,,Total receipts this election cycle (Schedule H),H,496776,2026-07-15
+summary,2026-06-30,Spent this cycle,"$16,938.66",,,,Total disbursements this election cycle (Schedule H),H,496776,2026-07-15
+contribution,2026-06-29,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,496776,2026-07-15
+contribution,2026-01-13,VA Operators for Skill,"$1,000",Richmond,VA,pac,,A,496776,2026-07-15
+contribution,2026-06-01,VA Operators for Skill,"$5,000",Richmond,VA,pac,,A,496776,2026-07-15
+contribution,2026-06-01,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,496776,2026-07-15
+contribution,2026-01-13,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,pac,,A,496776,2026-07-15
+contribution,2026-01-01,Commissioner of Revenue PAC - CORPAC,$250,Staunton,VA,pac,,A,496776,2026-07-15
+contribution,2026-01-13,PPE Casino Resorts Petersburg,"$1,000",Baltimore,MD,pac,,A,496776,2026-07-15
+contribution,2026-04-13,Community-Owned Power PAC,$500,Glen Allen,VA,pac,,A,496776,2026-07-15
+contribution,2026-04-24,Dominion Energy Inc. PAC,"$15,000",Richmond,VA,pac,,A,496776,2026-07-15
+contribution,2026-06-16,Capital Results LLC,$500,Richmond,VA,pac,,A,496776,2026-07-15
+other_receipt,2026-01-01,Friends of Chad Green,"$1,500",Seaford,VA,pac,Voided check,C,496776,2026-07-15
+expenditure,2026-01-07,Election CFO,"$1,008",Alexandria,VA,pac,Consulting,D,496776,2026-07-15
+expenditure,2026-02-11,Election CFO,$287,Alexandria,VA,pac,Consulting,D,496776,2026-07-15
+expenditure,2026-03-19,Election CFO,$258,Alexandria,VA,pac,Consulting,D,496776,2026-07-15
+expenditure,2026-03-31,Election CFO,$264,Alexandria,VA,pac,Consulting,D,496776,2026-07-15
+expenditure,2026-05-07,Election CFO,$303.51,Alexandria,VA,pac,Consulting,D,496776,2026-07-15
+expenditure,2026-06-02,Election CFO,$262.63,Alexandria,VA,pac,Consulting,D,496776,2026-07-15
+expenditure,2026-04-10,Roanoke County Republican Committee,$250,Roanoke,VA,pac,Contribution,D,496776,2026-07-15
+expenditure,2026-03-02,EZ Pass,$70,Richmond,VA,pac,Travel,D,496776,2026-07-15
+expenditure,2026-01-28,Meriwether Godsey Inc.,$648,Lynchburg,VA,pac,Event Catering,D,496776,2026-07-15
+expenditure,2026-03-24,House Republican Campaign Committee,"$1,000",Mechanicsville,VA,party,Contribution,D,496776,2026-07-15
+expenditure,2026-05-01,House Republican Campaign Committee,"$5,000",Mechanicsville,VA,party,Contribution,D,496776,2026-07-15
+expenditure,2026-06-09,USPS,$156,Washington,DC,pac,Postage,D,496776,2026-07-15
+expenditure,2026-01-08,Walmart,$23.57,Bentonville,AR,pac,Food,D,496776,2026-07-15
+expenditure,2026-06-03,Omni Homestead Resort,$254.80,Hot Springs,VA,pac,Travel,D,496776,2026-07-15
+expenditure,2026-01-14,JLK Political Strategies,"$3,400",Richmond,VA,pac,Consulting,D,496776,2026-07-15
+expenditure,2026-01-04,Squarespace,$44.40,New York,NY,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-01-19,Squarespace,$20,New York,NY,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-02-02,Squarespace,$44.40,New York,NY,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-03-02,Squarespace,$44.40,New York,NY,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-04-03,Squarespace,$44.40,New York,NY,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-05-04,Squarespace,$44.40,New York,NY,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-06-03,Squarespace,$44.40,New York,NY,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-01-07,Food Lion,$45.35,Salisbury,NC,pac,Food,D,496776,2026-07-15
+expenditure,2026-03-17,Amazon,$101.09,Seattle,WA,pac,Supplies,D,496776,2026-07-15
+expenditure,2026-01-19,Constant Contact,$118,Waltham,MA,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-01-26,Constant Contact,$59,Waltham,MA,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-02-25,Constant Contact,$59,Waltham,MA,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-03-25,Constant Contact,$59,Waltham,MA,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-04-27,Constant Contact,$59,Waltham,MA,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-05-25,Constant Contact,$59,Waltham,MA,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-06-25,Constant Contact,$59,Waltham,MA,pac,Online Services,D,496776,2026-07-15
+expenditure,2026-03-09,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,pac,Contribution,D,496776,2026-07-15
+expenditure,2026-03-23,Dementi Studios,$208.82,Richmond,VA,pac,Printing,D,496776,2026-07-15
+expenditure,2026-04-27,Omni Richmond,$738.17,Richmond,VA,pac,Travel,D,496776,2026-07-15
+expenditure,2026-04-28,Omni Richmond,$230.26,Richmond,VA,pac,Travel,D,496776,2026-07-15
+expenditure,2026-06-22,Omni Richmond,$230.26,Richmond,VA,pac,Travel,D,496776,2026-07-15
+expenditure,2026-06-30,Omni Richmond,$230.26,Richmond,VA,pac,Travel,D,496776,2026-07-15
+expenditure,2026-04-29,"Agora Solutions, LLC",$210.54,Lynchburg,VA,pac,Texting,D,496776,2026-07-15
+debt,2023-02-23,William P. Davis,"$43,500",Rocky Mount,VA,individual,,F,496776,2026-07-15

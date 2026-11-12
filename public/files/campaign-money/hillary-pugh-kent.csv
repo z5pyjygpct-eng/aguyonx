@@ -1,0 +1,44 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$57,491.90",,VA,,"From official Schedule H, November 2027 election cycle",H,495451,2026-07-14
+summary,2026-06-30,Raised this cycle,"$32,289.23",,,,Total receipts this election cycle (Schedule H),H,495451,2026-07-14
+summary,2026-06-30,Spent this cycle,"$21,880.59",,,,Total disbursements this election cycle (Schedule H),H,495451,2026-07-14
+contribution,2026-06-01,Virginia Wine Wholesalers Political Action Committee (PAC 91-258),"$6,500",Richmond,VA,pac,,A,495451,2026-07-14
+contribution,2026-06-01,Virginia Dental Political Action Committee (PAC 12-00253),"$2,500",Richmond,VA,pac,,A,495451,2026-07-14
+contribution,2026-01-12,Dominion Energy Inc. PAC,"$10,000",Richmond,VA,pac,,A,495451,2026-07-14
+contribution,2026-06-01,Virginia Beverage Association (PAC 91-208),"$2,500",Richmond,VA,pac,,A,495451,2026-07-14
+contribution,2026-06-17,Anheuser Busch,$500,St. Louis,MO,pac,,A,495451,2026-07-14
+contribution,2026-06-01,"Altria Client Services, LLC","$1,000",Richmond,VA,pac,,A,495451,2026-07-14
+contribution,2026-01-12,Commercial Development PAC,$250,Alexandria,VA,pac,,A,495451,2026-07-14
+contribution,2026-06-17,"Danville Distributing Company, Inc","$1,000",Danville,VA,pac,,A,495451,2026-07-14
+contribution,2026-04-17,Commisioner of Revenue PAC,$250,Staunton,VA,pac,,A,495451,2026-07-14
+in_kind,2026-06-15,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,"$2,881.12",Richmond,VA,pac,"Fundraiser Reception,co-host with VWWA",B,495451,2026-07-14
+in_kind,2026-06-15,Virginia Wine Wholesalers Political Action Committee (PAC 91-258),"$2,881.11",Richmond,VA,pac,"Fundraiser Reception,co-host with VBWA",B,495451,2026-07-14
+in_kind,2026-06-17,GOPAC,"$1,500",Arlington,VA,pac,Leadership class,B,495451,2026-07-14
+other_receipt,2026-02-06,"Wix.Com, Inc.",$277,San Francisco,CA,pac,Refund/overpay,C,495451,2026-07-14
+expenditure,2026-01-05,"JDS Solutions, LLC",$200,Midlothian,VA,pac,Consulting,D,495451,2026-07-14
+expenditure,2026-02-10,"JDS Solutions, LLC",$200,Midlothian,VA,pac,Consulting,D,495451,2026-07-14
+expenditure,2026-03-03,"JDS Solutions, LLC",$200,Midlothian,VA,pac,Consulting,D,495451,2026-07-14
+expenditure,2026-04-02,"JDS Solutions, LLC",$200,Midlothian,VA,pac,Consulting,D,495451,2026-07-14
+expenditure,2026-05-04,"JDS Solutions, LLC",$200,Midlothian,VA,pac,Consulting,D,495451,2026-07-14
+expenditure,2026-06-05,"JDS Solutions, LLC",$200,Midlothian,VA,pac,Consulting,D,495451,2026-07-14
+expenditure,2026-01-03,Google LLC,$25.20,Mountain View,CA,pac,G Suite,D,495451,2026-07-14
+expenditure,2026-02-02,Google LLC,$25.20,Mountain View,CA,pac,Google Workspace,D,495451,2026-07-14
+expenditure,2026-03-03,Google LLC,$25.20,Mountain View,CA,pac,Google Workspace,D,495451,2026-07-14
+expenditure,2026-04-01,Google LLC,$25.20,Mountain View,CA,pac,Google WorkSpace,D,495451,2026-07-14
+expenditure,2026-05-01,Google LLC,$25.20,Mountain View,CA,pac,Google Workspace,D,495451,2026-07-14
+expenditure,2026-06-01,Google LLC,$25.20,Mountain View,CA,pac,Google Workspace,D,495451,2026-07-14
+expenditure,2026-02-09,United States Postal Service,$78,Warsaw,VA,pac,Stamps,D,495451,2026-07-14
+expenditure,2026-02-02,Verizon,$101.12,Newark,NJ,pac,Phone Service,D,495451,2026-07-14
+expenditure,2026-03-02,Verizon,$91.02,Newark,NJ,pac,phone service,D,495451,2026-07-14
+expenditure,2026-04-02,Verizon,$91.02,Newark,NJ,pac,Phone Service,D,495451,2026-07-14
+expenditure,2026-05-04,Verizon,$90.97,Newark,NJ,pac,Phone Service,D,495451,2026-07-14
+expenditure,2026-06-02,Verizon,$71.26,Newark,NJ,pac,Phone Service,D,495451,2026-07-14
+expenditure,2026-05-29,Amazon,$114.77,Seattle,WA,pac,Flags,D,495451,2026-07-14
+expenditure,2026-02-06,"Wix.Com, Inc.",$468,San Francisco,CA,pac,Website Domain,D,495451,2026-07-14
+expenditure,2026-04-01,House Republican Campaign Committee,"$1,000",Henrico,VA,party,Caucus Dues,D,495451,2026-07-14
+expenditure,2026-04-21,House Republican Campaign Committee,"$10,000",Henrico,VA,party,Caucus Dues,D,495451,2026-07-14
+expenditure,2026-03-05,Treasurer of Virginia,$74,Richmond,VA,pac,Flags,D,495451,2026-07-14
+expenditure,2026-04-02,Treasurer of Virginia,$37,Richmond,VA,pac,Flag,D,495451,2026-07-14
+expenditure,2026-01-06,Rappahannock Record,$50,Kilmarnock,VA,pac,Newspaper,D,495451,2026-07-14
+expenditure,2026-03-02,Friends of Andrew Rice,"$1,000",Richmond,VA,pac,Donation,D,495451,2026-07-14

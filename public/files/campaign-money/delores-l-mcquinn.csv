@@ -1,0 +1,23 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$165,101.86",,VA,,"From official Schedule H, November 2027 election cycle",H,495906,2026-07-14
+summary,2026-06-30,Raised this cycle,"$13,000",,,,Total receipts this election cycle (Schedule H),H,495906,2026-07-14
+summary,2026-06-30,Spent this cycle,"$14,025",,,,Total disbursements this election cycle (Schedule H),H,495906,2026-07-14
+contribution,2026-01-09,Virginia Automobile & Truck Dealers,"$2,500",Richmond,VA,pac,,A,495906,2026-07-14
+contribution,2026-01-13,IBEW Voluntary Fund,"$1,000",Washington,DC,pac,,A,495906,2026-07-14
+contribution,2026-01-13,Comstock Hospitality  Holdings,"$5,000",Reston,VA,pac,,A,495906,2026-07-14
+contribution,2026-01-09,Boyd-Pamunkey Casino PAC,"$1,500",Norfolk,VA,pac,,A,495906,2026-07-14
+contribution,2026-01-09,Boyd-Pamunkey Casino PAC,"$1,500",Norfolk,VA,pac,,A,495906,2026-07-14
+contribution,2026-01-13,American Electric Power,"$1,500",Washington,DC,pac,,A,495906,2026-07-14
+expenditure,2026-03-29,House Democratic Caucus,"$7,500",Richmond,VA,party,Dues,D,495906,2026-07-14
+expenditure,2026-01-01,Daytriel McQuinn-Nzassi,"$1,000",Richmond,VA,individual,Treasure/Campaign,D,495906,2026-07-14
+expenditure,2026-01-01,Celeste Anderson,"$2,500",Glen Allen,VA,individual,Consultation/Campaign Work,D,495906,2026-07-14
+expenditure,2026-04-14,Celeste Anderson,"$1,000",Glen Allen,VA,individual,Support for McQuinn,D,495906,2026-07-14
+expenditure,2026-03-10,Meriweathers Restaurant,$75,Richmond,VA,pac,Food,D,495906,2026-07-14
+expenditure,2026-01-01,A Pink Christmas Foundation,$500,Chester,VA,pac,Breast Cancer Awareness,D,495906,2026-07-14
+expenditure,2026-01-01,Marquita Carmichael,$125,Richmond,VA,individual,Support,D,495906,2026-07-14
+expenditure,2026-06-15,Marquita Carmichael,$200,Richmond,VA,individual,Assisting work,D,495906,2026-07-14
+expenditure,2026-01-01,Penni Sweetburg-Lee,$125,North Chesterfield,VA,individual,Support,D,495906,2026-07-14
+expenditure,2026-03-29,Richmond Times Dispatch,$500,Richmond,VA,pac,Event- Women that Drive Richmond,D,495906,2026-07-14
+expenditure,2026-06-14,Continental Societies Inc.,$500,Richmond,VA,pac,Scholarship Support,D,495906,2026-07-14
+debt,2019-04-18,Keith Westbrook,$100,Richmond,VA,individual,,F,495906,2026-07-14

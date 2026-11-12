@@ -1,0 +1,188 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$108,333.14",,VA,,"From official Schedule H, November 2027 election cycle",H,497270,2026-07-15
+summary,2026-06-30,Raised this cycle,"$365,525.78",,,,Total receipts this election cycle (Schedule H),H,497270,2026-07-15
+summary,2026-06-30,Spent this cycle,"$274,718.13",,,,Total disbursements this election cycle (Schedule H),H,497270,2026-07-15
+contribution,2025-09-30,Premium Distributors,"$1,000",Chantilly,VA,pac,,A,480212,2026-01-15
+contribution,2025-09-30,Virginia Automobile & Truck Dealers,"$2,500",Richmond,VA,pac,,A,480212,2026-01-15
+contribution,2025-09-30,Anheuser Busch,$500,Atlanta,GA,pac,,A,480212,2026-01-15
+contribution,2025-09-30,NOVEC,"$1,000",Manassas,VA,pac,,A,480212,2026-01-15
+contribution,2025-10-14,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,pac,,A,480212,2026-01-15
+contribution,2025-09-02,CareFirst,"$1,500",Washington,VA,pac,,A,480212,2026-01-15
+contribution,2025-10-20,Virginia Maritime Association,"$1,000",Norflok,VA,pac,,A,480212,2026-01-15
+contribution,2025-11-24,Bank of America,$500,Wilmington,DE,pac,,A,480212,2026-01-15
+contribution,2025-09-02,Old Dominion Highway PAC,$500,Lynchburg,VA,pac,,A,480212,2026-01-15
+contribution,2025-09-02,Realtors PAC,"$1,500",Henrico,VA,pac,,A,480212,2026-01-15
+contribution,2025-07-30,HCA for Good Government,"$1,000",Reston,VA,pac,,A,480212,2026-01-15
+contribution,2025-11-12,Washington Gas Light Company PAC,"$1,000",Springfield,VA,pac,,A,480212,2026-01-15
+contribution,2025-10-14,Delta Dental,$500,Roanoke,VA,pac,,A,480212,2026-01-15
+contribution,2025-11-12,T-Mobile,$500,Atlanta,GA,pac,,A,480212,2026-01-15
+contribution,2025-07-17,Maury S. Cralle,$50,Burke,VA,individual,,A,480212,2026-01-15
+contribution,2025-08-15,Maury S. Cralle,$50,Burke,VA,individual,,A,480212,2026-01-15
+contribution,2025-08-25,Maury S. Cralle,$100,Burke,VA,individual,,A,480212,2026-01-15
+contribution,2025-09-15,Maury S. Cralle,$50,Burke,VA,individual,,A,480212,2026-01-15
+contribution,2025-09-25,Maury S. Cralle,$100,Burke,VA,individual,,A,480212,2026-01-15
+contribution,2025-10-15,Maury S. Cralle,$50,Burke,VA,individual,,A,480212,2026-01-15
+contribution,2025-10-25,Maury S. Cralle,$100,Burke,VA,individual,,A,480212,2026-01-15
+contribution,2025-11-25,Maury S. Cralle,$100,Burke,VA,individual,,A,480212,2026-01-15
+contribution,2025-12-15,Maury S. Cralle,$50,Burke,VA,individual,,A,480212,2026-01-15
+contribution,2025-12-25,Maury S. Cralle,$100,Burke,VA,individual,,A,480212,2026-01-15
+contribution,2025-12-15,Dominion Energy,"$10,000",Richmond,VA,pac,,A,480212,2026-01-15
+contribution,2025-07-15,Mike Sternad,$50,Baileys Crossroads,VA,individual,,A,480212,2026-01-15
+contribution,2025-08-15,Mike Sternad,$50,Baileys Crossroads,VA,individual,,A,480212,2026-01-15
+contribution,2025-09-15,Mike Sternad,$50,Baileys Crossroads,VA,individual,,A,480212,2026-01-15
+contribution,2025-10-15,Mike Sternad,$50,Baileys Crossroads,VA,individual,,A,480212,2026-01-15
+contribution,2025-11-12,Norfolk Southern,"$1,000",Richmond,VA,pac,,A,480212,2026-01-15
+contribution,2025-09-02,"Amazon.com Services, Inc","$3,000",Seattle,WA,pac,,A,480212,2026-01-15
+contribution,2025-07-30,Huntington Ingalls Industries,"$1,000",Newport News,VA,pac,,A,480212,2026-01-15
+contribution,2025-09-30,Virginia Beverage Association,"$1,500",Richmond,VA,pac,,A,480212,2026-01-15
+contribution,2025-09-02,General Motors Company,$500,Washington,DC,pac,,A,480212,2026-01-15
+contribution,2025-10-14,"Reedville Bait Company, LLC",$500,Burgess,VA,pac,,A,480212,2026-01-15
+contribution,2025-10-23,The Williams Companies,"$1,000",Tulsa,OK,pac,,A,480212,2026-01-15
+contribution,2025-09-30,Mountain Valley Pipeline,"$2,000",Canonsburg,PA,pac,,A,480212,2026-01-15
+contribution,2025-11-12,Micron Technology,"$1,000",Boise,ID,pac,,A,480212,2026-01-15
+contribution,2025-09-30,Pfizer,"$1,000",Richmond,VA,pac,,A,480212,2026-01-15
+contribution,2025-09-02,Merck,"$1,000",Washington,DC,pac,,A,480212,2026-01-15
+contribution,2025-11-12,Publix,$750,Lakeland,FL,pac,,A,480212,2026-01-15
+contribution,2025-09-02,"Gilead Sciences, Inc.","$1,000",Forest City,CA,pac,,A,480212,2026-01-15
+contribution,2025-09-02,Enterprise Holdings,"$1,000",St. Louis,MO,pac,,A,480212,2026-01-15
+contribution,2025-12-31,Scott Plein,"$1,000",Bristow,VA,individual,,A,480212,2026-01-15
+contribution,2025-12-31,Scott Plein,"$1,000",Bristow,VA,individual,,A,480212,2026-01-15
+contribution,2025-10-20,VA Mortgage Bankers PAC,$500,Glen Allen,VA,pac,,A,480212,2026-01-15
+contribution,2025-09-30,Caesars Enterprise Solutions,"$1,000",Las Vegas,NV,pac,,A,480212,2026-01-15
+contribution,2025-09-02,United,$500,Houston,TX,pac,,A,480212,2026-01-15
+contribution,2025-11-24,Virginia Asphalt Association,"$1,000",Richmond,VA,pac,,A,480212,2026-01-15
+contribution,2025-10-20,Vision Management Services,"$1,000",Chicago,IL,pac,,A,480212,2026-01-15
+contribution,2025-09-30,Strata Solar,"$1,000",Durham,NC,pac,,A,480212,2026-01-15
+contribution,2025-09-02,Ortho PAC,$250,Richmond,VA,pac,,A,480212,2026-01-15
+contribution,2025-07-30,Visa,"$2,500",Austin,TX,pac,,A,480212,2026-01-15
+contribution,2025-08-27,"American Federation of State, County and Municipal Employees","$2,000",# 202W,VA,pac,,A,480212,2026-01-15
+contribution,2025-11-12,AT&T,$500,St. Louis,MO,pac,,A,480212,2026-01-15
+contribution,2025-07-01,Peter Fabry,$10,Annandale,VA,individual,,A,480212,2026-01-15
+contribution,2025-08-01,Peter Fabry,$10,Annandale,VA,individual,,A,480212,2026-01-15
+contribution,2025-09-01,Peter Fabry,$10,Annandale,VA,individual,,A,480212,2026-01-15
+contribution,2025-10-01,Peter Fabry,$10,Annandale,VA,individual,,A,480212,2026-01-15
+contribution,2025-11-01,Peter Fabry,$10,Annandale,VA,individual,,A,480212,2026-01-15
+contribution,2025-12-01,Peter Fabry,$10,Annandale,VA,individual,,A,480212,2026-01-15
+contribution,2025-11-12,Cigna Group Employee PAC,$500,Philadelpia,PA,pac,,A,480212,2026-01-15
+contribution,2025-10-20,USAA,$500,San Antonio,TX,pac,,A,480212,2026-01-15
+contribution,2025-09-30,Smithfield Support Services,"$1,000",Lisle,IL,pac,,A,480212,2026-01-15
+contribution,2025-07-30,Reworld Waste LLC,$500,Reston,VA,pac,,A,480212,2026-01-15
+contribution,2025-10-20,Elevance Health Inc,"$1,000",Cincinnatti,OH,pac,,A,480212,2026-01-15
+contribution,2025-10-16,darian bradshaw,"$1,000",Washington,DC,individual,,A,480212,2026-01-15
+contribution,2025-09-30,NEET MidAlantic,"$2,000",Juno Beach,FL,pac,,A,480212,2026-01-15
+contribution,2025-09-30,Virginia CUPAC,"$2,500",Tallahassee,FL,pac,,A,480212,2026-01-15
+contribution,2025-09-30,Buspatrol America LLC,"$1,000",Lorton,VA,pac,,A,480212,2026-01-15
+contribution,2025-10-14,American Property Casualty Insurance Association,$500,Chicago,IL,pac,,A,480212,2026-01-15
+contribution,2025-10-20,VAMICPAC,$500,Richmond,VA,pac,,A,480212,2026-01-15
+contribution,2025-10-23,Virginia Food Industry Association,$500,Raleigh,NC,pac,,A,480212,2026-01-15
+contribution,2025-11-12,Sun Tribe Trading,$500,Charlottesville,VA,pac,,A,480212,2026-01-15
+contribution,2026-04-05,HBAV Build PAC,"$5,000",Richmond,VA,pac,,A,497270,2026-07-15
+contribution,2026-06-11,Dominion PAC,"$25,000",Richmond,VA,pac,,A,497270,2026-07-15
+contribution,2026-03-20,Kevin Boyle,$150,Burke,VA,individual,,A,497270,2026-07-15
+contribution,2026-04-24,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,497270,2026-07-15
+contribution,2026-06-30,Al's Towing & Storage,"$5,000",Sterling,VA,pac,,A,497270,2026-07-15
+contribution,2026-06-30,"Dominion Towing, Inc.","$5,000",Lorton,VA,pac,,A,497270,2026-07-15
+contribution,2026-06-30,Battlefield Towing & Storage,"$5,000",Chantilly,VA,pac,,A,497270,2026-07-15
+contribution,2026-03-15,Maury S. Cralle,$50,Burke,VA,individual,,A,497270,2026-07-15
+contribution,2026-03-25,Maury S. Cralle,$100,Burke,VA,individual,,A,497270,2026-07-15
+contribution,2026-04-15,Maury S. Cralle,$50,Burke,VA,individual,,A,497270,2026-07-15
+contribution,2026-04-25,Maury S. Cralle,$100,Burke,VA,individual,,A,497270,2026-07-15
+contribution,2026-05-25,Maury S. Cralle,$100,Burke,VA,individual,,A,497270,2026-07-15
+contribution,2026-06-15,Maury S. Cralle,$100,Burke,VA,individual,,A,497270,2026-07-15
+contribution,2026-06-25,Maury S. Cralle,$50,Burke,VA,individual,,A,497270,2026-07-15
+contribution,2026-06-25,Waste Management,"$2,000",Washington,DC,pac,,A,497270,2026-07-15
+contribution,2026-03-14,Metallurgical Coal Producers Association,"$1,000",Lebanon,VA,pac,,A,497270,2026-07-15
+contribution,2026-01-01,Peter Fabry,$10,Annandale,VA,individual,,A,497270,2026-07-15
+contribution,2026-04-01,Peter Fabry,$10,Annandale,VA,individual,,A,497270,2026-07-15
+contribution,2026-05-01,Peter Fabry,$10,Annandale,VA,individual,,A,497270,2026-07-15
+contribution,2026-06-01,Peter Fabry,$10,Annandale,VA,individual,,A,497270,2026-07-15
+contribution,2026-06-30,Affordable Towing and Recovery,"$5,000",Chesapeake,VA,pac,,A,497270,2026-07-15
+contribution,2026-04-07,CNX Gas Company,"$2,500",Canonsburg,PA,pac,,A,497270,2026-07-15
+contribution,2026-03-14,Organizing for VA Seniors,"$2,500",Fairfax,VA,pac,,A,497270,2026-07-15
+contribution,2026-06-30,Henrys Wrecker Service,"$5,000",Falls Church,VA,pac,,A,497270,2026-07-15
+expenditure,2025-09-15,Microsoft,$129.99,Redmond,WA,pac,Technology,D,480212,2026-01-15
+expenditure,2025-10-09,Microsoft,$129.99,Redmond,WA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-12-19,Senate Democratic Caucus,"$15,000",Richmond,VA,party,Contribution,D,480212,2026-01-15
+expenditure,2025-11-12,Bank of America,$180,Wilmington,DE,pac,Withdrawal,D,480212,2026-01-15
+expenditure,2025-07-02,GoDaddy,$8.99,Scottsdale,AZ,pac,Website,D,480212,2026-01-15
+expenditure,2025-08-04,GoDaddy,$8.99,Scottsdale,AZ,pac,Website,D,480212,2026-01-15
+expenditure,2025-09-02,GoDaddy,$8.99,Scottsdale,AZ,pac,Website,D,480212,2026-01-15
+expenditure,2025-10-02,GoDaddy,$9.99,Scottsdale,AZ,pac,Website,D,480212,2026-01-15
+expenditure,2025-11-03,GoDaddy,$9.99,Scottsdale,AZ,pac,Website,D,480212,2026-01-15
+expenditure,2025-11-19,GoDaddy,$70.57,Scottsdale,AZ,pac,Website,D,480212,2026-01-15
+expenditure,2025-12-02,GoDaddy,$9.99,Scottsdale,AZ,pac,Website,D,480212,2026-01-15
+expenditure,2025-11-10,Staples,$173.25,Burke,VA,pac,Supplies,D,480212,2026-01-15
+expenditure,2025-11-13,Staples,$46.61,Burke,VA,pac,Supplies,D,480212,2026-01-15
+expenditure,2025-08-25,Nationbuilder,"$2,681.25",Los Angeles,CA,pac,Digital,D,480212,2026-01-15
+expenditure,2025-08-13,Centreville Immigration Forum,$590.24,Centreville,VA,pac,Contribution,D,480212,2026-01-15
+expenditure,2025-08-28,Elizabeth Spinney,"$1,500",Vienna,VA,individual,Consulting,D,480212,2026-01-15
+expenditure,2025-07-11,Jimmy Rogers,"$1,000",Springfield,VA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-08-12,Jimmy Rogers,"$1,000",Springfield,VA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-09-30,Jimmy Rogers,"$1,000",Springfield,VA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-10-16,Jimmy Rogers,"$1,020",Springfield,VA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-10-24,Jimmy Rogers,"$1,000",Springfield,VA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-10-31,Jimmy Rogers,"$1,000",Springfield,VA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-11-20,Jimmy Rogers,"$1,000",Springfield,VA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-11-25,Jimmy Rogers,"$2,000",Springfield,VA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-07-07,Max Shatzen,$500,Irvine,CA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-09-04,Max Shatzen,$500,Irvine,CA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-11-24,Max Shatzen,$500,Irvine,CA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-12-02,Max Shatzen,"$1,000",Irvine,CA,individual,Campaign Work,D,480212,2026-01-15
+expenditure,2025-09-16,Panera Bread,$525.73,Fairfax,VA,pac,Catering,D,480212,2026-01-15
+expenditure,2025-08-14,Fairfax Democrats,"$1,000",Fairfax,VA,pac,Contribution,D,480212,2026-01-15
+expenditure,2025-09-29,Fairfax Democrats,$270,Fairfax,VA,pac,Contribution,D,480212,2026-01-15
+expenditure,2025-08-18,Chris Falcon,$500,Annandale,VA,individual,Contribution,D,480212,2026-01-15
+expenditure,2025-07-07,Richmond Times Dispatch,$27.99,Mechanicsville,VA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-08-01,Richmond Times Dispatch,$27.99,Mechanicsville,VA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-08-29,Richmond Times Dispatch,$32.98,Mechanicsville,VA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-09-26,Richmond Times Dispatch,$32.98,Mechanicsville,VA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-10-17,Richmond Times Dispatch,$37.99,Mechanicsville,VA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-11-14,Richmond Times Dispatch,$37.99,Mechanicsville,VA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-12-12,Richmond Times Dispatch,$37.99,Mechanicsville,VA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-09-29,Capital One Services,$25,"Reston, VA",VA,pac,Parking,D,480212,2026-01-15
+expenditure,2025-09-09,Spanberger for Governor,"$10,000",Glen Allen,VA,pac,Contribution,D,480212,2026-01-15
+expenditure,2025-11-03,Spanberger for Governor,"$5,000",Glen Allen,VA,pac,Contribution,D,480212,2026-01-15
+expenditure,2025-07-02,Reston Limousine,$167.07,Sterling,VA,pac,Transportation,D,480212,2026-01-15
+expenditure,2025-07-10,IHOP,$81.16,Fairfax,VA,pac,Food,D,480212,2026-01-15
+expenditure,2025-07-18,Ghazala for Virginia,"$2,500",Richmond,VA,pac,Contribution,D,480212,2026-01-15
+expenditure,2025-10-21,Ghazala for Virginia,"$5,000",Richmond,VA,pac,Contribution,D,480212,2026-01-15
+expenditure,2025-07-24,Sickles for Delegate,"$1,500",Alexandria,VA,candidate,Contribution,D,480212,2026-01-15
+expenditure,2025-08-01,Friends of Charniele Herring,"$2,500",Alexandria,VA,pac,Contribution,D,480212,2026-01-15
+expenditure,2025-08-04,RING,$10.59,Hawthorne,CA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-10-02,RING,$10.59,Hawthorne,CA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-11-03,RING,$10.59,Hawthorne,CA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-12-02,RING,$10.59,Hawthorne,CA,pac,Subscription,D,480212,2026-01-15
+expenditure,2025-08-12,christie craig,$518,Chesapeake,VA,individual,Reimbursement,D,480212,2026-01-15
+expenditure,2025-11-14,ACCA,$500,Annandale,VA,pac,Donation,D,480212,2026-01-15
+expenditure,2025-11-17,SPARC Solutions,$250,Tysons,VA,pac,Donation,D,480212,2026-01-15
+expenditure,2025-12-10,SPARC Solutions,$500,Tysons,VA,pac,Donation,D,480212,2026-01-15
+expenditure,2025-11-24,Google,$19.99,Mountain View,CA,pac,Technology,D,480212,2026-01-15
+expenditure,2025-11-25,john zwier,$500,St Paul,MN,individual,Donation,D,480212,2026-01-15
+expenditure,2025-12-12,Senate of Virginia,$147,Richmond,VA,pac,Expense,D,480212,2026-01-15
+expenditure,2025-12-19,Alexa for School Board,$250,Braddock,VA,candidate,Contribution,D,480212,2026-01-15
+expenditure,2025-12-31,Alexa for School Board,$250,Braddock,VA,candidate,Contribution,D,480212,2026-01-15
+expenditure,2025-12-19,Friends of Gretchen Bulova,"$5,000",Fairfax,VA,pac,Contribution,D,480212,2026-01-15
+expenditure,2026-05-27,Giant,$286.10,Springfield,VA,pac,event catering,D,497270,2026-07-15
+expenditure,2026-06-24,Marriott Richmond,$136.05,Richmond,VA,pac,travel expense,D,497270,2026-07-15
+expenditure,2026-01-09,Jimmy Rogers,"$1,000",Springfield,VA,individual,campaign,D,497270,2026-07-15
+expenditure,2026-02-17,Jimmy Rogers,"$1,000",Springfield,VA,individual,campaign,D,497270,2026-07-15
+expenditure,2026-02-27,Jimmy Rogers,"$1,035.70",Springfield,VA,individual,supplies reimbursement,D,497270,2026-07-15
+expenditure,2026-03-30,Jimmy Rogers,"$1,000",Springfield,VA,individual,campaign,D,497270,2026-07-15
+expenditure,2026-05-11,Jimmy Rogers,"$1,000",Springfield,VA,individual,campaign,D,497270,2026-07-15
+expenditure,2026-06-18,Jimmy Rogers,"$1,780",Springfield,VA,individual,reimbursement and campaign,D,497270,2026-07-15
+expenditure,2026-01-06,Max Shatzen,$940,Irvine,CA,individual,mileage and parking expenses,D,497270,2026-07-15
+expenditure,2026-02-11,Max Shatzen,$500,Irvine,CA,individual,campaign,D,497270,2026-07-15
+expenditure,2026-02-25,Max Shatzen,$752.30,Irvine,CA,individual,expenses reimbursement,D,497270,2026-07-15
+expenditure,2026-03-25,Max Shatzen,"$1,350",Irvine,CA,individual,campaign,D,497270,2026-07-15
+expenditure,2026-05-11,Max Shatzen,$500,Irvine,CA,individual,campaign,D,497270,2026-07-15
+expenditure,2026-04-03,Richmond Times Dispatch,$37.99,Mechanicsville,VA,pac,newspaper subscription,D,497270,2026-07-15
+expenditure,2026-05-01,Richmond Times Dispatch,$37.99,Mechanicsville,VA,pac,newspaper subscription,D,497270,2026-07-15
+expenditure,2026-06-26,Richmond Times Dispatch,$37.99,Mechanicsville,VA,pac,newspaper subscription,D,497270,2026-07-15
+expenditure,2026-03-20,Walkinshaw for Congress,$250,Merrifield,VA,candidate,campaign contribution,D,497270,2026-07-15
+expenditure,2026-01-11,Bennett-Parker for Senate,$500,Alexandria,VA,candidate,campaign contribution,D,497270,2026-07-15
+expenditure,2026-01-12,Bennett-Parker for Senate,$500,Alexandria,VA,candidate,Campaign Contribution,D,497270,2026-07-15
+expenditure,2026-01-12,Friends of Garrett McGuire,$500,Alexandria,VA,pac,campaign contribution,D,497270,2026-07-15
+expenditure,2026-01-14,Rebecca Eskow,"$4,375",Annandale,VA,individual,communications director,D,497270,2026-07-15
+expenditure,2026-03-11,Edo's Squid,$474.95,Richmond,VA,pac,staff appreciation dinner,D,497270,2026-07-15
+expenditure,2026-06-08,Anthropic Claude,$100,San Francisco,VA,pac,AI research,D,497270,2026-07-15

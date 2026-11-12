@@ -1,0 +1,124 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$32,236.55",,VA,,"From official Schedule H, January 2026 election cycle",H,497462,2026-07-15
+summary,2026-06-30,Raised this cycle,"$18,794.13",,,,Total receipts this election cycle (Schedule H),H,497462,2026-07-15
+summary,2026-06-30,Spent this cycle,"$39,029.61",,,,Total disbursements this election cycle (Schedule H),H,497462,2026-07-15
+contribution,2025-12-30,SEIU COPE,"$2,500",Washington,DC,individual,,A,477973,2026-01-14
+contribution,2025-12-26,Victoria Cousins,$200,Richmond,VA,individual,,A,477973,2026-01-14
+contribution,2025-12-26,Friends of Saddam Azlan Salim,$500,Merrifield,VA,candidate,,A,477973,2026-01-14
+contribution,2025-12-30,Megan Hull,$250,Piedmont,CA,individual,,A,477973,2026-01-14
+contribution,2025-12-28,IBEW PAC Voluntary Fund,"$1,500",Washington,DC,pac,,A,477973,2026-01-14
+contribution,2026-01-01,Jennifer Carroll Foy for State Senate,"$1,000",Woodbridge,VA,candidate,,A,483366,2026-03-18
+contribution,2026-01-01,SEIU COPE,"$2,500",Washington,DC,pac,,A,483366,2026-03-18
+contribution,2026-01-09,Cathy Bruce,$25,Henrico,VA,individual,,A,497462,2026-07-15
+contribution,2026-01-31,Kenya Gibson for Council,$250,Richmond,VA,candidate,,A,497462,2026-07-15
+contribution,2026-03-20,Jane Alphin,$6,Richmond,VA,individual,,A,497462,2026-07-15
+contribution,2026-03-20,Stephen Doak,$50,Richmond,VA,individual,,A,497462,2026-07-15
+contribution,2026-04-17,Clean Virginia,"$7,500",Charlottesville,VA,pac,,A,497462,2026-07-15
+contribution,2026-05-20,Stephen Doak,$50,Richmond,VA,individual,,A,497462,2026-07-15
+contribution,2026-05-21,Drew Sarrett,"$1,000",Henrico,VA,individual,,A,497462,2026-07-15
+contribution,2026-05-26,Allen Allen Allen & Allen,"$2,000",Richmond,VA,pac,,A,497462,2026-07-15
+contribution,2026-05-26,"Lantz & Robins, P.C. Law Firm",$750,Richmond,VA,pac,,A,497462,2026-07-15
+contribution,2026-05-26,Phelan Petty Injury Lawyers,$250,Richmond,VA,pac,,A,497462,2026-07-15
+contribution,2026-05-26,Rachel Yates,$250,Henrico,VA,individual,,A,497462,2026-07-15
+contribution,2026-06-01,Commonwealth Law Group,"$1,500",Richmond,VA,pac,,A,497462,2026-07-15
+contribution,2026-06-04,Virginia Trial Lawyers Association PAC,"$2,500",Richmond,VA,pac,,A,497462,2026-07-15
+contribution,2026-06-12,"Cantor Grana Buckner Bucci, P.C.","$1,000",Richmond,VA,pac,,A,497462,2026-07-15
+contribution,2026-06-12,"ReidGoodwin, PLC",$250,Richmond,VA,pac,,A,497462,2026-07-15
+contribution,2026-06-20,Stephen Doak,$50,Richmond,VA,individual,,A,497462,2026-07-15
+contribution,2026-06-20,Thomas Kirchoff,$3.13,Pittsford,NY,individual,,A,497462,2026-07-15
+in_kind,2025-12-31,Richmond for All Action Fund,$259,Richmond,VA,pac,Advertisement,B,477973,2026-01-14
+in_kind,2026-01-02,Richmond for All Action Fund,$155,Richmond,VA,pac,Meta Ads,B,483366,2026-03-18
+in_kind,2026-01-05,Richmond for All Action Fund,$954,Richmond,VA,pac,Meta Ads,B,483366,2026-03-18
+in_kind,2026-01-06,Richmond for All Action Fund,$272,Richmond,VA,pac,Meta Ads,B,483366,2026-03-18
+in_kind,2026-01-23,Richmond for All Action Fund,$360,Richmond,VA,pac,Meta Ads,B,497462,2026-07-15
+in_kind,2026-05-21,Clean Virginia,"$1,000",Charlottesville,VA,pac,Social media training,B,497462,2026-07-15
+expenditure,2025-12-28,ActBlue,$49.56,Burke,VA,pac,Fee,D,477973,2026-01-14
+expenditure,2025-12-29,Facebook,$104,Menlo Park,CA,pac,Advertisments,D,477973,2026-01-14
+expenditure,2025-12-29,Panera Bread,$5.79,North Chesterfield,VA,pac,Snacks for Volunteers,D,477973,2026-01-14
+expenditure,2025-12-30,Facebook,$318,Menlo Park,CA,pac,Advertisement,D,477973,2026-01-14
+expenditure,2025-12-30,Stella's Grocery - Westover Hills,$12.21,Richmond,VA,pac,Snacks for Volunteers,D,477973,2026-01-14
+expenditure,2025-12-30,Zoom,$167.90,San Jose,CA,pac,Video Conferencing,D,477973,2026-01-14
+expenditure,2025-12-31,ActBlue,$118.02,Burke,VA,pac,Fee,D,477973,2026-01-14
+expenditure,2025-12-31,Facebook,$582,Menlo Park,CA,pac,Advertisement,D,477973,2026-01-14
+expenditure,2026-01-01,Google,$11.76,Mountain View,CA,pac,Gsuite,D,483366,2026-03-18
+expenditure,2026-01-01,Google,$2.54,Mountain View,CA,pac,Ads,D,483366,2026-03-18
+expenditure,2026-01-02,Google,$360,Mountain View,CA,pac,Ads,D,483366,2026-03-18
+expenditure,2026-01-03,Google,"$1,050",Mountain View,CA,pac,Ads,D,483366,2026-03-18
+expenditure,2026-01-03,Paramount,"$1,567.28",San Francisco,CA,pac,Advertising,D,483366,2026-03-18
+expenditure,2026-01-04,Google,"$1,000",Mountain View,CA,pac,Ads,D,483366,2026-03-18
+expenditure,2026-01-05,Facebook,"$3,084.07",Menlo Park,CA,pac,Ads,D,483366,2026-03-18
+expenditure,2026-01-05,Google,"$1,000",Mountain View,CA,pac,Ads,D,483366,2026-03-18
+expenditure,2026-01-05,Scale to Win,$447.55,San Francisco,CA,pac,Texting platform,D,483366,2026-03-18
+expenditure,2026-01-06,Google,$500,Mountain View,CA,pac,Ads,D,483366,2026-03-18
+expenditure,2026-01-07,Roku,$505.81,San Jose,CA,pac,Ads,D,497462,2026-07-15
+expenditure,2026-01-08,Disney Campaign Manager,$587.74,New York,NY,pac,Ads,D,497462,2026-07-15
+expenditure,2026-01-08,Ryan Flavin,$615,Reston,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-01-09,Chesterfield County Democratic Committee,$250,North Chesterfield,VA,pac,Contribution,D,497462,2026-07-15
+expenditure,2026-01-09,"Printersmark, Inc.","$13,758.19",Richmond,VA,pac,Literature,D,497462,2026-07-15
+expenditure,2026-01-09,Walmart,$40.07,Bentonville,AR,pac,Checks,D,497462,2026-07-15
+expenditure,2026-01-11,Friends of Lamont,$500,Richmond,VA,pac,Contribution,D,497462,2026-07-15
+expenditure,2026-01-11,Virginia Legislative Black Caucus,"$1,000",Richmond,VA,pac,Contribution,D,497462,2026-07-15
+expenditure,2026-01-12,Safadi Safwan,$255,Haymarket,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-01-13,Virginia Future Generations PAC,$500,North Chesterfield,VA,pac,Contribution,D,497462,2026-07-15
+expenditure,2026-01-18,Canva,$7.50,Austin,TX,pac,Software,D,497462,2026-07-15
+expenditure,2026-01-21,Truist,$88,Richmond,VA,pac,Service charge,D,497462,2026-07-15
+expenditure,2026-01-23,Daniel Baum,$243.33,Chesapeake,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-01-30,Daniel Baum,$305,Chesapeake,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-01-31,Roku,$342.73,San Jose,CA,pac,Ads,D,497462,2026-07-15
+expenditure,2026-02-01,Google,$20.10,Mountain View,CA,pac,Office Software,D,497462,2026-07-15
+expenditure,2026-02-01,Google,$83.74,Mountain View,CA,pac,Ads,D,497462,2026-07-15
+expenditure,2026-02-01,Google,$12.98,Mountain View,CA,pac,Gsuite,D,497462,2026-07-15
+expenditure,2026-02-02,Scale to Win,$485.28,San Francisco,CA,pac,Texting platform,D,497462,2026-07-15
+expenditure,2026-02-06,Daniel Baum,$360,Chesapeake,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-02-13,Daniel Baum,$245,Chesapeake,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-02-13,CVS,$11.64,North Chesterfield,VA,pac,Event supplies,D,497462,2026-07-15
+expenditure,2026-02-18,Canva,$7.50,Austin,TX,pac,Software,D,497462,2026-07-15
+expenditure,2026-02-20,Daniel Baum,$125,Chesapeake,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-02-23,Truist,$18,Richmond,VA,pac,Service charge,D,497462,2026-07-15
+expenditure,2026-02-23,VCU Development and Alumni Relations,$500,Richmond,VA,pac,Contribution,D,497462,2026-07-15
+expenditure,2026-02-27,Daniel Baum,$360,Chesapeake,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-03-01,Google,$12.98,Mountain View,CA,pac,Gsuite,D,497462,2026-07-15
+expenditure,2026-03-01,Google,$30.75,Mountain View,CA,pac,Office Software,D,497462,2026-07-15
+expenditure,2026-03-01,Google,$42,Mountain View,CA,pac,Office Software,D,497462,2026-07-15
+expenditure,2026-03-06,Daniel Baum,$280,Chesapeake,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-03-18,Canva,$15,Austin,TX,pac,Software,D,497462,2026-07-15
+expenditure,2026-04-01,Google,$12.98,Mountain View,CA,pac,Gsuite,D,497462,2026-07-15
+expenditure,2026-04-06,House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus dues,D,497462,2026-07-15
+expenditure,2026-04-17,Gwendolyn Otwell,"$2,000",Richmond,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-04-18,Canva,$15,Austin,TX,pac,Software,D,497462,2026-07-15
+expenditure,2026-04-29,Department of Elections,$2.30,Richmond,VA,pac,Fee,D,497462,2026-07-15
+expenditure,2026-04-29,Department of Elections,$100,Richmond,VA,pac,Fee,D,497462,2026-07-15
+expenditure,2026-04-29,"EveryAction, Inc. USA",$237.50,Austin,TX,pac,Software,D,497462,2026-07-15
+expenditure,2026-04-29,"EveryAction, Inc. USA",$300,Austin,TX,pac,Software,D,497462,2026-07-15
+expenditure,2026-05-01,Google,$12.95,Mountain View,CA,pac,Gsuite,D,497462,2026-07-15
+expenditure,2026-05-01,Google,$41.72,Mountain View,CA,pac,Office Software,D,497462,2026-07-15
+expenditure,2026-05-04,Virginia Museum of History & Culture,$5,Richmond,VA,pac,Event parking,D,497462,2026-07-15
+expenditure,2026-05-06,Richmond Crusade For Voters,$500,Richmond,VA,pac,Contribution,D,497462,2026-07-15
+expenditure,2026-05-08,Tazza Kitchen,$74.05,Richmond,VA,pac,Meals,D,497462,2026-07-15
+expenditure,2026-05-13,Mom's Siam 2 Restaurant,$51.07,Richmond,VA,pac,Meals,D,497462,2026-07-15
+expenditure,2026-05-14,Gold Lion Community Cafe,$18.59,Richmond,VA,pac,Meal,D,497462,2026-07-15
+expenditure,2026-05-16,Puritan Cleaners,$44.58,Richmond,VA,pac,Dry-cleaning,D,497462,2026-07-15
+expenditure,2026-05-17,River City Dance and Performing Arts,$50,North Chesterfield,VA,pac,Ads,D,497462,2026-07-15
+expenditure,2026-05-18,Canva,$15,Austin,TX,pac,Software,D,497462,2026-07-15
+expenditure,2026-05-20,Daniel Baum,$125,Chesapeake,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-05-20,"Passport Labs, Inc.",$5.45,Charlotte,NC,pac,Parking,D,497462,2026-07-15
+expenditure,2026-05-26,Meriwether Godsey,$12.75,Richmond,VA,pac,Meal,D,497462,2026-07-15
+expenditure,2026-05-27,Legal Aid Justice Center,$500,Richmond,VA,pac,Contribution,D,497462,2026-07-15
+expenditure,2026-05-29,Meriwether Godsey,$12.75,Richmond,VA,pac,Meal,D,497462,2026-07-15
+expenditure,2026-05-29,"Spaceship, Inc.",$28.88,Phoenix,AZ,pac,Software,D,497462,2026-07-15
+expenditure,2026-05-29,USPS,$15.60,Richmond,VA,pac,Postage,D,497462,2026-07-15
+expenditure,2026-06-01,Google,$12.89,Mountain View,CA,pac,Gsuite,D,497462,2026-07-15
+expenditure,2026-06-01,Google,$36.84,Mountain View,CA,pac,Office Software,D,497462,2026-07-15
+expenditure,2026-06-02,Starbucks Coffee Company,$7.41,Richmond,VA,pac,Meal,D,497462,2026-07-15
+expenditure,2026-06-05,Target,$33.91,Richmond,VA,pac,Office supplies,D,497462,2026-07-15
+expenditure,2026-06-08,Salaam Bhatti for Congress,"$1,000",Richmond,VA,candidate,Contribution,D,497462,2026-07-15
+expenditure,2026-06-09,Daniel Baum,$255,Chesapeake,VA,individual,Payroll,D,497462,2026-07-15
+expenditure,2026-06-11,Amazon,$52.97,Seattle,WA,pac,Office Supplies,D,497462,2026-07-15
+expenditure,2026-06-11,Victoria Cousins,$837.31,Richmond,VA,individual,Event catering,D,497462,2026-07-15
+expenditure,2026-06-11,Charles Schmidt,$646.80,Richmond,VA,individual,Special session travel,D,497462,2026-07-15
+expenditure,2026-06-12,Amazon,$120.53,Seattle,WA,pac,Office Supplies,D,497462,2026-07-15
+expenditure,2026-06-18,Canva,$15,Austin,TX,pac,Software,D,497462,2026-07-15
+expenditure,2026-06-24,Hacienda Catering,"$1,305.59",Midlothian,VA,pac,Event catering,D,497462,2026-07-15
+expenditure,2026-06-25,Richmond Community Legal Fund,$5.85,Richmond,VA,pac,Event expense,D,497462,2026-07-15
+expenditure,2026-06-29,Daniel Baum,$50,Chesapeake,VA,individual,Payroll,D,497462,2026-07-15

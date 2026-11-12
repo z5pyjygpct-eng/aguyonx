@@ -1,0 +1,95 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$2,574.41",,VA,,"From official Schedule H, November 2027 election cycle",H,497390,2026-07-15
+summary,2026-06-30,Raised this cycle,"$12,150.01",,,,Total receipts this election cycle (Schedule H),H,497390,2026-07-15
+summary,2026-06-30,Spent this cycle,"$15,499.74",,,,Total disbursements this election cycle (Schedule H),H,497390,2026-07-15
+contribution,2026-06-20,Clean Virginia,"$8,500",Charlottesville,VA,pac,,A,497390,2026-07-15
+contribution,2026-01-07,Williams Mullen Clark & Dobbins,$250,Richmond,VA,pac,,A,497390,2026-07-15
+contribution,2026-06-29,CRNA PAC,$500,Richmond,VA,pac,,A,497390,2026-07-15
+contribution,2026-01-07,Virginia Health Care Association PAC,"$1,500",Richmond,VA,pac,,A,497390,2026-07-15
+contribution,2026-03-16,SMART TD PAC,$500,Chester,VA,pac,,A,497390,2026-07-15
+contribution,2026-03-16,Verizon,$500,Washington,DC,pac,,A,497390,2026-07-15
+expenditure,2026-03-30,Staples,$71.01,Woodbridge,VA,pac,Office Supplies,D,497390,2026-07-15
+expenditure,2026-02-23,Truist Bank,$20,Woodbridge,VA,pac,Bank Fee,D,497390,2026-07-15
+expenditure,2026-03-04,Truist Bank,$36,Woodbridge,VA,pac,Overdraft Fee,D,497390,2026-07-15
+expenditure,2026-03-10,Truist Bank,$36,Woodbridge,VA,pac,Overdraft Fee,D,497390,2026-07-15
+expenditure,2026-05-21,Truist Bank,$40,Woodbridge,VA,pac,Service Fees,D,497390,2026-07-15
+expenditure,2026-01-02,Canva,$12.99,San Jose,CA,pac,Graphics,D,497390,2026-07-15
+expenditure,2026-02-02,Canva,$12.99,San Jose,CA,pac,graphic designer,D,497390,2026-07-15
+expenditure,2026-03-02,Canva,$12.99,San Jose,CA,pac,graphic designer tool,D,497390,2026-07-15
+expenditure,2026-04-03,Canva,$12.99,San Jose,CA,pac,graphic designing tool,D,497390,2026-07-15
+expenditure,2026-05-04,Canva,$12.99,San Jose,CA,pac,graphic tool,D,497390,2026-07-15
+expenditure,2026-06-02,Canva,$12.99,San Jose,CA,pac,Graphic Design,D,497390,2026-07-15
+expenditure,2026-01-26,Constant Contact,$67,Waltham,MA,pac,Email tool,D,497390,2026-07-15
+expenditure,2026-02-25,Constant Contact,$67,Waltham,MA,pac,Emailing Tool,D,497390,2026-07-15
+expenditure,2026-04-02,Constant Contact,$67,Waltham,MA,pac,Emailing System,D,497390,2026-07-15
+expenditure,2026-04-27,Constant Contact,$67,Waltham,MA,pac,email tool,D,497390,2026-07-15
+expenditure,2026-05-26,Constant Contact,$67,Waltham,MA,pac,Emailing System,D,497390,2026-07-15
+expenditure,2026-06-25,Constant Contact,$67,Waltham,MA,pac,Emailing System,D,497390,2026-07-15
+expenditure,2026-01-07,Act Blue Technical Service,$1.79,Somerville,MA,pac,Fees,D,497390,2026-07-15
+expenditure,2026-03-16,Act Blue Technical Service,$0.60,Somerville,MA,pac,Fee,D,497390,2026-07-15
+expenditure,2026-06-29,Act Blue Technical Service,$2.19,Somerville,MA,pac,Fees,D,497390,2026-07-15
+expenditure,2026-05-18,Democratic Party of Virginia,$350,Richmond,VA,party,DPVA Tickets (Act Blue),D,497390,2026-07-15
+expenditure,2026-05-18,Democratic Party of Virginia,$250,Richmond,VA,party,DPVA Gala,D,497390,2026-07-15
+expenditure,2026-01-12,Paychex,$58,Rochester,NY,pac,Payroll fee,D,497390,2026-07-15
+expenditure,2026-02-10,Paychex,$210.50,Rochester,NY,pac,Payroll,D,497390,2026-07-15
+expenditure,2026-03-10,Paychex,$58,Rochester,NY,pac,Fee,D,497390,2026-07-15
+expenditure,2026-04-10,Paychex,$58,Rochester,NY,pac,fee,D,497390,2026-07-15
+expenditure,2026-05-11,Paychex,$65,Rochester,NY,pac,Invoice,D,497390,2026-07-15
+expenditure,2026-06-10,Paychex,$65,Rochester,NY,pac,Invoice,D,497390,2026-07-15
+expenditure,2026-06-10,Fairfax County Democratic Committee,$200,Fairfax,VA,pac,FCDC Gala,D,497390,2026-07-15
+expenditure,2026-01-02,Prince William County Democratic Committee,$250,Manassas,VA,pac,PWC Young Dems,D,497390,2026-07-15
+expenditure,2026-01-07,VIRGINIA HOUSE DEMOCRATIC CAUCUS,"$5,000",Richmond,VA,party,Dues,D,497390,2026-07-15
+expenditure,2026-04-22,VIRGINIA HOUSE DEMOCRATIC CAUCUS,"$2,500",Richmond,VA,party,Dues,D,497390,2026-07-15
+expenditure,2026-04-23,Treasurer of Virginia,$49,Richmond,VA,pac,Invoice,D,497390,2026-07-15
+expenditure,2026-04-23,Treasurer of Virginia,$498.14,Richmond,VA,pac,Ipad,D,497390,2026-07-15
+expenditure,2026-01-02,Alphabet Inc.,$70.60,Mountain View,CA,pac,Google Office Tools,D,497390,2026-07-15
+expenditure,2026-02-02,Alphabet Inc.,$59.56,Mountain View,CA,pac,Google office tools,D,497390,2026-07-15
+expenditure,2026-03-02,Alphabet Inc.,$59.56,Mountain View,CA,pac,Google Tools,D,497390,2026-07-15
+expenditure,2026-04-02,Alphabet Inc.,$33.60,Mountain View,CA,pac,Google tools,D,497390,2026-07-15
+expenditure,2026-04-22,Alphabet Inc.,$25.96,Mountain View,CA,pac,Service Charge,D,497390,2026-07-15
+expenditure,2026-05-04,Alphabet Inc.,$33.60,Mountain View,CA,pac,Office Tool,D,497390,2026-07-15
+expenditure,2026-05-04,Alphabet Inc.,$13.46,Mountain View,CA,pac,Service Charge,D,497390,2026-07-15
+expenditure,2026-06-02,Alphabet Inc.,$55.32,Mountain View,CA,pac,Google Office Service,D,497390,2026-07-15
+expenditure,2026-01-23,Apple Inc,$69.99,Cupertino,CA,pac,Microsoft tools + Adobe,D,497390,2026-07-15
+expenditure,2026-01-15,Merriwether's Cafe at the GAB,$324,Richmond,VA,pac,Meal Plan,D,497390,2026-07-15
+expenditure,2026-01-07,Hostinger USA,$131.88,Wilmington,DE,pac,Website,D,497390,2026-07-15
+expenditure,2026-01-13,Michaels Stores,$97.47,Woodbridge,VA,pac,Frames for Resolutions,D,497390,2026-07-15
+expenditure,2026-01-05,"Anthropic, PBC",$20,San Franciso,CA,pac,Office AI Tool,D,497390,2026-07-15
+expenditure,2026-02-04,"Anthropic, PBC",$20,San Franciso,CA,pac,office tool,D,497390,2026-07-15
+expenditure,2026-03-04,"Anthropic, PBC",$20,San Franciso,CA,pac,office tool,D,497390,2026-07-15
+expenditure,2026-03-30,"Anthropic, PBC",$96.03,San Franciso,CA,pac,Office Tool,D,497390,2026-07-15
+expenditure,2026-04-29,"Anthropic, PBC",$100,San Franciso,CA,pac,office tool,D,497390,2026-07-15
+expenditure,2026-05-29,"Anthropic, PBC",$100,San Franciso,CA,pac,Office Tool,D,497390,2026-07-15
+expenditure,2026-06-29,"Anthropic, PBC",$100,San Franciso,CA,pac,Office Tool,D,497390,2026-07-15
+expenditure,2026-01-15,"Adobe, Inc.",$29.99,San Jose,CA,pac,Office Tool,D,497390,2026-07-15
+expenditure,2026-02-17,"Adobe, Inc.",$29.99,San Jose,CA,pac,Adobe tool,D,497390,2026-07-15
+expenditure,2026-03-27,"Adobe, Inc.",$29.99,San Jose,CA,pac,office tool,D,497390,2026-07-15
+expenditure,2026-04-15,"Adobe, Inc.",$29.99,San Jose,CA,pac,office tool,D,497390,2026-07-15
+expenditure,2026-05-15,"Adobe, Inc.",$29.99,San Jose,CA,pac,Adobe,D,497390,2026-07-15
+expenditure,2026-06-16,"Adobe, Inc.",$29.99,San Jose,CA,pac,office tool,D,497390,2026-07-15
+expenditure,2026-01-20,X Corporation (Fmly. Twitter),$8,San Francisco,CA,pac,twitter subscription,D,497390,2026-07-15
+expenditure,2026-02-18,X Corporation (Fmly. Twitter),$8,San Francisco,CA,pac,Subscription,D,497390,2026-07-15
+expenditure,2026-04-15,X Corporation (Fmly. Twitter),$8,San Francisco,CA,pac,subscription,D,497390,2026-07-15
+expenditure,2026-05-15,X Corporation (Fmly. Twitter),$8,San Francisco,CA,pac,Subscription,D,497390,2026-07-15
+expenditure,2026-06-15,X Corporation (Fmly. Twitter),$8,San Francisco,CA,pac,Subscription,D,497390,2026-07-15
+expenditure,2026-01-07,Lee Enterprises (Online News Subscription),$16.99,Davenport,IA,pac,News subscription,D,497390,2026-07-15
+expenditure,2026-02-04,Lee Enterprises (Online News Subscription),$16.99,Davenport,IA,pac,news subscription,D,497390,2026-07-15
+expenditure,2026-03-04,Lee Enterprises (Online News Subscription),$16.99,Davenport,IA,pac,subscription,D,497390,2026-07-15
+expenditure,2026-01-20,Calendly LLC,$15,Buford,GA,pac,office tool,D,497390,2026-07-15
+expenditure,2026-02-17,Calendly LLC,$15,Buford,GA,pac,office tool,D,497390,2026-07-15
+expenditure,2026-01-21,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,office conference tool,D,497390,2026-07-15
+expenditure,2026-02-23,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,Office Conference Tool,D,497390,2026-07-15
+expenditure,2026-04-01,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,Office tool,D,497390,2026-07-15
+expenditure,2026-04-21,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,video conference tool,D,497390,2026-07-15
+expenditure,2026-05-21,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,Video Conferencing,D,497390,2026-07-15
+expenditure,2026-06-22,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,Video Conferencing,D,497390,2026-07-15
+expenditure,2026-01-12,Silver Diner,$58.42,Fairfax,VA,pac,Staff meal,D,497390,2026-07-15
+expenditure,2026-03-27,EveryAction INC,$315,Austin,TX,pac,NGP,D,497390,2026-07-15
+expenditure,2026-04-22,EveryAction INC,$315,Austin,TX,pac,NGP,D,497390,2026-07-15
+expenditure,2026-06-10,EveryAction INC,$157.50,Austin,TX,pac,NGP,D,497390,2026-07-15
+expenditure,2026-06-17,EveryAction INC,$157.50,Austin,TX,pac,NGP,D,497390,2026-07-15
+expenditure,2026-06-29,Gummys Home Cooking,$108.17,Richmond,VA,pac,Campaign Work Lunch,D,497390,2026-07-15
+expenditure,2026-04-22,Commonwealth Victory Fund,$650,Richmond,VA,pac,Invoice,D,497390,2026-07-15
+expenditure,2026-01-07,Margaret For Virginia,"$1,000",Woodbridge,VA,pac,Donation,D,497390,2026-07-15
+expenditure,2026-01-11,James Wade,$600,Midlothian,VA,individual,Stipend,D,497390,2026-07-15

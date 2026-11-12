@@ -1,0 +1,101 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$30,620.66",,VA,,"From official Schedule H, November 2025 election cycle",H,494952,2026-07-13
+summary,2026-06-30,Raised this cycle,"$14,310.20",,,,Total receipts this election cycle (Schedule H),H,494952,2026-07-13
+summary,2026-06-30,Spent this cycle,"$21,411.34",,,,Total disbursements this election cycle (Schedule H),H,494952,2026-07-13
+contribution,2025-12-03,International Union of Painters and Allied Trades,$250,Hanover,MD,pac,,A,475651,2026-01-08
+contribution,2026-01-13,"Arrow International, Inc.",$500,Cleveland,OH,pac,,A,494952,2026-07-13
+contribution,2026-04-17,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,494952,2026-07-13
+contribution,2026-01-09,Commissioner of the Revenue Political Action Committee,$250,Staunton,VA,pac,,A,494952,2026-07-13
+contribution,2026-01-13,"Humana, Inc.",$750,Lexington,KY,pac,,A,494952,2026-07-13
+contribution,2026-01-13,McGuireWoods,$250,Richmond,VA,pac,,A,494952,2026-07-13
+contribution,2026-01-09,Metro Virginia Political Action Committee M301,$250,Washington,DC,pac,,A,494952,2026-07-13
+contribution,2026-06-08,Textron Political Action Committee,$250,Providence,RI,pac,,A,494952,2026-07-13
+contribution,2026-01-09,Vantage Data Centers Management,$500,Santa Clara,CA,pac,,A,494952,2026-07-13
+contribution,2026-04-30,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,494952,2026-07-13
+contribution,2026-04-30,Virginia Sheriffs' Association,$250,Richmond,VA,pac,,A,494952,2026-07-13
+in_kind,2026-05-14,Realtors Political Action Committee of Virginia,$578.54,Glen Allen,VA,pac,Event Food & Beverages,B,494952,2026-07-13
+expenditure,2025-11-30,ActBlue,$0.09,Somerville,MA,pac,Merchant Service Fee,D,475651,2026-01-08
+expenditure,2025-11-30,Tara Epes,$225,Newport News,VA,individual,Campaign Services,D,475651,2026-01-08
+expenditure,2025-11-30,U.S. Department of the Treasury,$38.26,Washington,DC,pac,Payroll Taxes,D,475651,2026-01-08
+expenditure,2025-11-30,Cheryl Wilfred,$230.87,Newport News,VA,individual,Campaign Services,D,475651,2026-01-08
+expenditure,2025-12-01,Google LLC,$100.80,Mountain View,CA,pac,Software,D,475651,2026-01-08
+expenditure,2025-12-01,Google LLC,$12.85,Mountain View,CA,pac,Google Suite,D,475651,2026-01-08
+expenditure,2025-12-07,ActBlue,$0.99,Somerville,MA,pac,Merchant Service Fee,D,475651,2026-01-08
+expenditure,2025-12-15,Pressable WordPress Hosting,$31,San Antonio,TX,pac,Website Hosting,D,475651,2026-01-08
+expenditure,2025-12-16,Network Solutions,$59.18,Jacksonville,FL,pac,Website,D,475651,2026-01-08
+expenditure,2025-12-22,"Canva Pty, Ltd.",$198.84,Austin,TX,pac,Online Graphic Design Tool,D,475651,2026-01-08
+expenditure,2025-12-22,Truist Bank,$20,Newport News,VA,pac,Bank Fee,D,475651,2026-01-08
+expenditure,2025-12-23,NGP VAN Inc.,"$1,102.50",Washington,DC,pac,Database Management,D,475651,2026-01-08
+expenditure,2025-12-28,ActBlue,$0.09,Somerville,MA,pac,Merchant Service Fee,D,475651,2026-01-08
+expenditure,2025-12-31,Tara Epes,$975,Newport News,VA,individual,Campaign Services,D,475651,2026-01-08
+expenditure,2025-12-31,U.S. Department of the Treasury,$38.26,Washington,DC,pac,Payroll Taxes,D,475651,2026-01-08
+expenditure,2025-12-31,U.S. Department of the Treasury,$42,Washington,DC,pac,Payroll Taxes,D,475651,2026-01-08
+expenditure,2025-12-31,Virginia Department of Taxation,$51,Richmond,VA,pac,Payroll Taxes,D,475651,2026-01-08
+expenditure,2025-12-31,Cheryl Wilfred,$230.87,Newport News,VA,individual,Campaign Services,D,475651,2026-01-08
+expenditure,2026-01-01,Google LLC,$12.85,Mountain View,CA,pac,Google Suite,D,494952,2026-07-13
+expenditure,2026-01-01,Google LLC,$105.40,Mountain View,CA,pac,Software,D,494952,2026-07-13
+expenditure,2026-01-05,Thrive Peninsula,"$1,500",Newport News,VA,pac,October 2025 - March 2026 Rent,D,494952,2026-07-13
+expenditure,2026-01-11,ActBlue,$0.99,Somerville,MA,pac,Merchant Service Fee,D,494952,2026-07-13
+expenditure,2026-01-12,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Dues,D,494952,2026-07-13
+expenditure,2026-01-12,Virginia Latino Leaders Council,$250,Arlington,VA,pac,Event Sponsor,D,494952,2026-07-13
+expenditure,2026-01-15,Pressable WordPress Hosting,$31,San Antonio,TX,pac,Website Hosting,D,494952,2026-07-13
+expenditure,2026-01-21,Truist Bank,$20,Newport News,VA,pac,Bank Fee,D,494952,2026-07-13
+expenditure,2026-01-25,Ariana Reason,$75,Newport News,VA,individual,Internship Stipend,D,494952,2026-07-13
+expenditure,2026-01-31,Tara Epes,$600,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+expenditure,2026-01-31,U.S. Department of the Treasury,$38.26,Washington,DC,pac,Payroll Taxes,D,494952,2026-07-13
+expenditure,2026-01-31,Cheryl Wilfred,$230.87,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+expenditure,2026-02-02,Google LLC,$12.98,Mountain View,CA,pac,Google Suite,D,494952,2026-07-13
+expenditure,2026-02-02,Google LLC,$109.20,Mountain View,CA,pac,Software,D,494952,2026-07-13
+expenditure,2026-02-17,Pressable WordPress Hosting,$31,San Antonio,TX,pac,Website Hosting,D,494952,2026-07-13
+expenditure,2026-02-23,Truist Bank,$20,Newport News,VA,pac,Bank Fee,D,494952,2026-07-13
+expenditure,2026-02-27,Tara Epes,$300,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+expenditure,2026-02-28,U.S. Department of the Treasury,$38.26,Washington,DC,pac,Payroll Taxes,D,494952,2026-07-13
+expenditure,2026-02-28,Cheryl Wilfred,$230.87,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+expenditure,2026-03-02,Google LLC,$109.20,Mountain View,CA,pac,Software,D,494952,2026-07-13
+expenditure,2026-03-02,Google LLC,$7.30,Mountain View,CA,pac,Google Suite,D,494952,2026-07-13
+expenditure,2026-03-10,NGP VAN Inc.,"$1,102.50",Washington,DC,pac,Database Management,D,494952,2026-07-13
+expenditure,2026-03-16,Pressable WordPress Hosting,$31,San Antonio,TX,pac,Website Hosting,D,494952,2026-07-13
+expenditure,2026-03-19,Golden Corral,$16.45,Newport News,VA,pac,Men's Breakfast Meeting,D,494952,2026-07-13
+expenditure,2026-03-23,Truist Bank,$20,Newport News,VA,pac,Bank Fee,D,494952,2026-07-13
+expenditure,2026-03-29,ActBlue,$4.04,Somerville,MA,pac,Merchant Service Fee,D,494952,2026-07-13
+expenditure,2026-03-31,Tara Epes,$300,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+expenditure,2026-03-31,U.S. Department of the Treasury,$38.26,Washington,DC,pac,Payroll Taxes,D,494952,2026-07-13
+expenditure,2026-03-31,Virginia Employment Commission,$1,Richmond,VA,pac,1st Quarter State Unemployment Tax (SUTA),D,494952,2026-07-13
+expenditure,2026-03-31,Cheryl Wilfred,$230.87,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+expenditure,2026-04-02,Google LLC,$109.20,Mountain View,CA,pac,Software,D,494952,2026-07-13
+expenditure,2026-04-02,Google LLC,$12.93,Mountain View,CA,pac,Google Suite,D,494952,2026-07-13
+expenditure,2026-04-05,ActBlue,$0.99,Somerville,MA,pac,Merchant Service Fee,D,494952,2026-07-13
+expenditure,2026-04-15,Pressable WordPress Hosting,$31,San Antonio,TX,pac,Website Hosting,D,494952,2026-07-13
+expenditure,2026-04-21,Truist Bank,$20,Newport News,VA,pac,Bank Fee,D,494952,2026-07-13
+expenditure,2026-04-22,Commonwealth Victory Fund,$650,Richmond,VA,pac,2025 Homestead Charges,D,494952,2026-07-13
+expenditure,2026-04-23,14th & Main Street Parking Garage,$10,Richmond,VA,pac,Parking Fee,D,494952,2026-07-13
+expenditure,2026-04-24,14th & Main Street Parking Garage,$15,Richmond,VA,pac,Parking Fee,D,494952,2026-07-13
+expenditure,2026-04-30,National Caucus of Environmental Legislatures,$250,Washington,DC,pac,Conference Fee,D,494952,2026-07-13
+expenditure,2026-04-30,U.S. Department of the Treasury,$38.26,Washington,DC,pac,Payroll Taxes,D,494952,2026-07-13
+expenditure,2026-04-30,Cheryl Wilfred,$230.87,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+expenditure,2026-05-01,National Caucus of Environmental Legislatures,$250,Washington,DC,pac,Conference Fee,D,494952,2026-07-13
+expenditure,2026-05-01,National Conference of State Legislatures,$755,Washington,DC,pac,Conference Fee,D,494952,2026-07-13
+expenditure,2026-05-03,ActBlue,$0.09,Somerville,MA,pac,Merchant Service Fee,D,494952,2026-07-13
+expenditure,2026-05-04,Google LLC,$12.95,Mountain View,CA,pac,Google Suite,D,494952,2026-07-13
+expenditure,2026-05-04,Google LLC,$109.20,Mountain View,CA,pac,Software,D,494952,2026-07-13
+expenditure,2026-05-14,Pressable WordPress Hosting,$31,San Antonio,TX,pac,Website Hosting,D,494952,2026-07-13
+expenditure,2026-05-18,Education Week,$39,Bethesda,MD,pac,Subscription,D,494952,2026-07-13
+expenditure,2026-05-21,Truist Bank,$20,Newport News,VA,pac,Bank Fee,D,494952,2026-07-13
+expenditure,2026-05-27,Tara Epes,$450,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+expenditure,2026-05-31,ActBlue,$1.08,Somerville,MA,pac,Merchant Service Fee,D,494952,2026-07-13
+expenditure,2026-05-31,U.S. Department of the Treasury,$38.26,Washington,DC,pac,Payroll Taxes,D,494952,2026-07-13
+expenditure,2026-05-31,Cheryl Wilfred,$230.87,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+expenditure,2026-06-02,Google LLC,$12.89,Mountain View,CA,pac,Google Suite,D,494952,2026-07-13
+expenditure,2026-06-02,Google LLC,$109.20,Mountain View,CA,pac,Software,D,494952,2026-07-13
+expenditure,2026-06-06,United States Postal Service,$216,Newport News,VA,pac,P.O. Box Fee,D,494952,2026-07-13
+expenditure,2026-06-07,ActBlue,$0.99,Somerville,MA,pac,Merchant Service Fee,D,494952,2026-07-13
+expenditure,2026-06-09,Thrive Peninsula,"$1,000",Newport News,VA,pac,April 2026 - July 2026 Rent,D,494952,2026-07-13
+expenditure,2026-06-15,Pressable WordPress Hosting,$31,San Antonio,TX,pac,Website Hosting,D,494952,2026-07-13
+expenditure,2026-06-22,Truist Bank,$20,Newport News,VA,pac,Bank Fee,D,494952,2026-07-13
+expenditure,2026-06-29,VCU 14th Street Parking Deck,$9,Richmond,VA,pac,Parking Fee,D,494952,2026-07-13
+expenditure,2026-06-30,ActBlue,$0.99,Somerville,MA,pac,Merchant Service Fee,D,494952,2026-07-13
+expenditure,2026-06-30,Tara Epes,$375,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+expenditure,2026-06-30,Tara Epes,$15.60,Newport News,VA,individual,Stamps,D,494952,2026-07-13
+expenditure,2026-06-30,U.S. Department of the Treasury,$38.26,Washington,DC,pac,Payroll Taxes,D,494952,2026-07-13
+expenditure,2026-06-30,Cheryl Wilfred,$230.87,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13

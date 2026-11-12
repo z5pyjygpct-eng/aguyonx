@@ -1,0 +1,97 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$35,119.46",,VA,,"From official Schedule H, November 2027 election cycle",H,496940,2026-07-15
+summary,2026-06-30,Raised this cycle,"$26,118.04",,,,Total receipts this election cycle (Schedule H),H,496940,2026-07-15
+summary,2026-06-30,Spent this cycle,"$38,194.55",,,,Total disbursements this election cycle (Schedule H),H,496940,2026-07-15
+contribution,2026-01-10,Gayle Ropp,$200,Arlington,VA,individual,,A,496940,2026-07-15
+contribution,2026-01-08,Carol Skelly,$200,Arlington,VA,individual,,A,496940,2026-07-15
+contribution,2026-01-10,Nancy S. Hyde,$200,Arlington,VA,individual,,A,496940,2026-07-15
+contribution,2026-03-17,Humana,$500,Richmond,VA,pac,,A,496940,2026-07-15
+contribution,2026-06-16,Virginia Trial Lawyers PAC,"$5,000",Richmond,VA,pac,,A,496940,2026-07-15
+contribution,2026-06-16,Virginia Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,A,496940,2026-07-15
+contribution,2026-03-17,McGuire Woods Consulting,$250,Alexandria,VA,pac,,A,496940,2026-07-15
+contribution,2026-06-01,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,496940,2026-07-15
+contribution,2026-01-10,Moira Saucedo,$250,Alexandria,VA,individual,,A,496940,2026-07-15
+contribution,2026-04-17,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,496940,2026-07-15
+contribution,2026-01-10,Victor Johnson,$250,Arlington,VA,individual,,A,496940,2026-07-15
+contribution,2026-01-10,Paul Nolan,$300,Arlington,VA,individual,,A,496940,2026-07-15
+contribution,2026-01-10,William Walls,$250,Arlington,VA,individual,,A,496940,2026-07-15
+contribution,2026-06-10,Virginia CRNA Who Care About Healthcare PAC,$500,Roanoke,VA,pac,,A,496940,2026-07-15
+contribution,2026-01-10,Lucia Claster,$250,Arlington,VA,individual,,A,496940,2026-07-15
+contribution,2026-01-13,Friends of Ballad Health PAC,"$2,000",Johnson City,TN,pac,,A,496940,2026-07-15
+contribution,2026-06-24,Jessica Brightman,$250,Arlington,VA,individual,,A,496940,2026-07-15
+contribution,2026-03-17,Arrow International,$500,Cleveland,OH,pac,,A,496940,2026-07-15
+contribution,2026-03-17,PRA Group,$500,Norfolk,VA,pac,,A,496940,2026-07-15
+expenditure,2026-02-23,Mary P. Dooley,$390,Arlington,VA,individual,Reimbursement to Mary Dooley for postage,D,496940,2026-07-15
+expenditure,2026-03-09,Mary P. Dooley,$731.80,Arlington,VA,individual,"Reimbursement for Mary Dooley:
+Gift cards and fees from Walgreens for gifts",D,496940,2026-07-15
+expenditure,2026-01-11,ActBlue,$43.48,Cambridge,MA,pac,ActBlue fees,D,496940,2026-07-15
+expenditure,2026-01-18,ActBlue,$3.95,Cambridge,MA,pac,ActBlue fees,D,496940,2026-07-15
+expenditure,2026-02-12,Verizon Wireless,$110,Worcester,MA,pac,Wireless phone,D,496940,2026-07-15
+expenditure,2026-03-12,Verizon Wireless,$110,Worcester,MA,pac,Wireless phone,D,496940,2026-07-15
+expenditure,2026-04-10,Verizon Wireless,$110,Worcester,MA,pac,Verizon Wireless,D,496940,2026-07-15
+expenditure,2026-05-12,Verizon Wireless,$110,Worcester,MA,pac,Wireless phones,D,496940,2026-07-15
+expenditure,2026-06-12,Verizon Wireless,$110,Worcester,MA,pac,Verizon Wireless,D,496940,2026-07-15
+expenditure,2026-01-15,Staples,$68.46,Framingham,MA,pac,Office supplies,D,496940,2026-07-15
+expenditure,2026-01-24,Staples,$41.75,Framingham,MA,pac,Office supplies,D,496940,2026-07-15
+expenditure,2026-03-26,Staples,$154.64,Framingham,MA,pac,Office supplies,D,496940,2026-07-15
+expenditure,2026-03-23,Earthly Goods,"$6,054",New Albany,IN,pac,Seeds $6039 + $15,D,496940,2026-07-15
+expenditure,2026-04-27,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,Caucus dues,D,496940,2026-07-15
+expenditure,2026-06-22,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,House Democratic dues,D,496940,2026-07-15
+expenditure,2026-02-02,Democratic Party of Virginia,"$13,037.23",Richmond,VA,party,Constituent Survey,D,496940,2026-07-15
+expenditure,2026-01-06,Verizon,$131.34,Albany,NY,pac,Verizon phone payment,D,496940,2026-07-15
+expenditure,2026-02-19,Verizon,$134.34,Albany,NY,pac,Verizon phone,D,496940,2026-07-15
+expenditure,2026-03-10,Verizon,$134.34,Albany,NY,pac,Verizon,D,496940,2026-07-15
+expenditure,2026-04-08,Verizon,$134.34,Albany,NY,pac,Verizon phone,D,496940,2026-07-15
+expenditure,2026-05-13,Verizon,$134.34,Albany,NY,pac,Verizon phone,D,496940,2026-07-15
+expenditure,2026-06-16,Verizon,$134.34,Albany,NY,pac,Verizon phone,D,496940,2026-07-15
+expenditure,2026-04-09,Commonwealth Victory Fund,$744.18,Richmond,VA,pac,Homestead 2024,D,496940,2026-07-15
+expenditure,2026-04-09,Commonwealth Victory Fund,"$1,075.66",Richmond,VA,pac,Homestead 2025,D,496940,2026-07-15
+expenditure,2026-03-08,Arlington County Democratic Committee,$155.50,Arlington,VA,pac,Blue Victory Dinner,D,496940,2026-07-15
+expenditure,2026-02-06,Arlington Chamber of Commerce,$588,Arlington,VA,pac,Arlington Chamber annual dues,D,496940,2026-07-15
+expenditure,2026-01-14,Arlington Democratic Joint Campaign,$35,Arlington,VA,pac,Arlington Democrats Membership,D,496940,2026-07-15
+expenditure,2026-02-15,Arlington Democratic Joint Campaign,$35,Arlington,VA,pac,Arlington Democrate dues,D,496940,2026-07-15
+expenditure,2026-03-15,Arlington Democratic Joint Campaign,$35,Arlington,VA,pac,Arlington Dems monthly dues,D,496940,2026-07-15
+expenditure,2026-04-14,Arlington Democratic Joint Campaign,$35,Arlington,VA,pac,Arlington Democrats,D,496940,2026-07-15
+expenditure,2026-05-14,Arlington Democratic Joint Campaign,$35,Arlington,VA,pac,Arlington Democrats membership,D,496940,2026-07-15
+expenditure,2026-06-14,Arlington Democratic Joint Campaign,$35,Arlington,VA,pac,Arlington Democrats dues,D,496940,2026-07-15
+expenditure,2026-01-26,Constant Contact,$131,Waltham,MA,pac,ENewsletter,D,496940,2026-07-15
+expenditure,2026-02-26,Constant Contact,$131,Waltham,MA,pac,e Newsletter,D,496940,2026-07-15
+expenditure,2026-03-26,Constant Contact,$131,Waltham,MA,pac,e Newsletter,D,496940,2026-07-15
+expenditure,2026-04-26,Constant Contact,$131,Waltham,MA,pac,E Newsletter,D,496940,2026-07-15
+expenditure,2026-05-26,Constant Contact,$131,Waltham,MA,pac,E newsletter,D,496940,2026-07-15
+expenditure,2026-06-26,Constant Contact,$152,Waltham,MA,pac,e Newsletter,D,496940,2026-07-15
+expenditure,2026-04-01,Virginia Farm Bureau Federation AGPAC,$40,Richmond,VA,pac,Virginia Farm Bureau - Annual Membership,D,496940,2026-07-15
+expenditure,2026-01-05,Blue Virginia,$25,Arlington,VA,pac,Blue Virginia membership dues,D,496940,2026-07-15
+expenditure,2026-02-05,Blue Virginia,$25,Arlington,VA,pac,Blue Virginia,D,496940,2026-07-15
+expenditure,2026-03-05,Blue Virginia,$25,Arlington,VA,pac,Blue Virginia dues,D,496940,2026-07-15
+expenditure,2026-04-05,Blue Virginia,$25,Arlington,VA,pac,Blue Virginia dues,D,496940,2026-07-15
+expenditure,2026-05-05,Blue Virginia,$25,Arlington,VA,pac,Blue Virginia,D,496940,2026-07-15
+expenditure,2026-06-05,Blue Virginia,$25,Arlington,VA,pac,Blue Virginia dues,D,496940,2026-07-15
+expenditure,2026-01-01,Wix.com,$25.20,New York,NY,pac,Website monthly subscription,D,496940,2026-07-15
+expenditure,2026-01-30,Wix.com,$624,New York,NY,pac,Website annual renewal,D,496940,2026-07-15
+expenditure,2026-02-01,Wix.com,$25.20,New York,NY,pac,Monthly website fee,D,496940,2026-07-15
+expenditure,2026-03-01,Wix.com,$25.20,New York,NY,pac,Website annual subscription,D,496940,2026-07-15
+expenditure,2026-04-02,Wix.com,$25.20,New York,NY,pac,Website monthly subscription,D,496940,2026-07-15
+expenditure,2026-05-30,Favola for State Senate,$150,Arlington,VA,pac,Ad with Senator Favola,D,496940,2026-07-15
+expenditure,2026-03-03,League of Women Voters,$15,Arlington,VA,pac,League of Women Voters dues,D,496940,2026-07-15
+expenditure,2026-03-03,League of Women Voters,$35.25,Arlington,VA,pac,League of Women Voters dues,D,496940,2026-07-15
+expenditure,2026-03-05,League of Women Voters,$24.75,Arlington,VA,pac,League of Women Voters dues,D,496940,2026-07-15
+expenditure,2026-03-20,Susan Anderson,$660,Arlington,VA,individual,Reimbursement for bank fees,D,496940,2026-07-15
+expenditure,2026-02-01,Go Daddy,$22.19,Tempe,AZ,pac,Go Daddy subscription,D,496940,2026-07-15
+expenditure,2026-03-22,Act Blue,$1.19,Somerville,MA,pac,Act Blue fees,D,496940,2026-07-15
+expenditure,2026-04-19,Act Blue,$0.99,Somerville,MA,pac,Act Blue fees,D,496940,2026-07-15
+expenditure,2026-04-26,Act Blue,$0.20,Somerville,MA,pac,Act Blue fees,D,496940,2026-07-15
+expenditure,2026-05-17,Act Blue,$0.99,Somerville,MA,pac,Act Blue fees,D,496940,2026-07-15
+expenditure,2026-05-24,Act Blue,$0.20,Somerville,MA,pac,ActBlue fees,D,496940,2026-07-15
+expenditure,2026-06-21,Act Blue,$4.94,Somerville,MA,pac,Act Blue fees,D,496940,2026-07-15
+expenditure,2026-06-28,Act Blue,$10.08,Somerville,MA,pac,ActBlue fees,D,496940,2026-07-15
+expenditure,2026-01-11,Optimist Club of Arlington Virginia,$110,Arlington,VA,pac,Optimist Club dues,D,496940,2026-07-15
+expenditure,2026-04-20,REPRO Rising VA,$207.25,Alexandria,VA,pac,REPRO Rising Gala 2026 Ticket,D,496940,2026-07-15
+expenditure,2026-01-30,Arlington Community Federal Credit Union,$20,Falls Church,VA,pac,Wire transfer fee,D,496940,2026-07-15
+expenditure,2026-03-16,Arlington Community Federal Credit Union,$30,Falls Church,VA,pac,Overdrawn,D,496940,2026-07-15
+expenditure,2026-04-24,Arlington Community Federal Credit Union,$20,Falls Church,VA,pac,Wire transfer fee,D,496940,2026-07-15
+expenditure,2026-02-01,Homewood Suites,$290.70,Richmond,VA,pac,Lodging,D,496940,2026-07-15
+expenditure,2026-02-23,Massey Comprehensive Cancer Center at VCU,$100,Richmond,VA,pac,The House Team - Capitol Square Basketball Classic (MCV Foundation),D,496940,2026-07-15
+expenditure,2026-03-06,Westhampton Pastry Shop,$35.45,Richmond,VA,pac,Coffee with constituent,D,496940,2026-07-15
+expenditure,2026-04-08,Eventbrite,$81.88,San Francisco,CA,pac,Ticket for Arlington County Civic Federation 2026 Banquet and Awards Ceremony,D,496940,2026-07-15

@@ -1,0 +1,40 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$10,921.73",,VA,,"From official Schedule H, November 2027 election cycle",H,497331,2026-07-15
+summary,2026-06-30,Raised this cycle,"$10,704.36",,,,Total receipts this election cycle (Schedule H),H,497331,2026-07-15
+summary,2026-06-30,Spent this cycle,"$9,859.12",,,,Total disbursements this election cycle (Schedule H),H,497331,2026-07-15
+contribution,2026-05-12,Timothy Ryan,$50,Goldvein,VA,individual,,A,497331,2026-07-15
+contribution,2026-01-05,Virginia Bankers Association State PAC,$500,Glen Allen,VA,pac,,A,497331,2026-07-15
+contribution,2026-01-05,Hunton Andrews Kurth LLP,$500,Richmond,VA,pac,,A,497331,2026-07-15
+contribution,2026-01-05,Virginia Manufctured & Modular Housing Association PAC,$250,Henrico,VA,pac,,A,497331,2026-07-15
+contribution,2026-01-13,Transurban USA Inc,$250,Tysons,VA,pac,,A,497331,2026-07-15
+contribution,2026-01-13,Realtors Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,A,497331,2026-07-15
+contribution,2026-04-02,karen hamilton,$500,orange,VA,individual,,A,497331,2026-07-15
+contribution,2026-03-26,Alana Sypsomos,$200,Manassas,VA,individual,,A,497331,2026-07-15
+contribution,2026-03-26,Wende Zellmer,$500,Grapevine,TX,individual,,A,497331,2026-07-15
+contribution,2026-06-24,CCRC,$125,Culpeper,VA,pac,,A,497331,2026-07-15
+in_kind,2026-04-13,karen hamilton,$120,orange,VA,individual,postage,B,497331,2026-07-15
+other_receipt,2026-03-02,karen hamilton,"$3,500",Orange,VA,individual,lodging reimbursement,C,497331,2026-07-15
+other_receipt,2026-06-29,karen hamilton,"$1,971.36",orange,VA,individual,lodging reimbursement,C,497331,2026-07-15
+other_receipt,2026-06-29,karen hamilton,$648,orange,VA,individual,meal plan reimbursement,C,497331,2026-07-15
+expenditure,2026-04-14,USPS,$166.53,Orange,VA,pac,postage,D,497331,2026-07-15
+expenditure,2026-04-15,USPS,$812,Orange,VA,pac,postage,D,497331,2026-07-15
+expenditure,2026-01-13,Amazon,$199.02,Seattle,WA,pac,supplies,D,497331,2026-07-15
+expenditure,2026-06-24,Anedot,$30.02,New Orleans,LA,pac,anedot fees,D,497331,2026-07-15
+expenditure,2026-01-20,Wix.Com,$288,Tel Aviv,,pac,website services,D,497331,2026-07-15
+expenditure,2026-01-20,Wix.Com,$300,Tel Aviv,,pac,website services,D,497331,2026-07-15
+expenditure,2026-01-20,Shell Service Station,$24.47,Culpeper,VA,pac,travel,D,497331,2026-07-15
+expenditure,2026-01-05,Sunoco,$60.35,Orange,VA,pac,travel,D,497331,2026-07-15
+expenditure,2026-01-12,Sunoco,$49.64,Orange,VA,pac,travel,D,497331,2026-07-15
+expenditure,2026-04-14,Wawa,$77.75,Richmond,VA,pac,travel,D,497331,2026-07-15
+expenditure,2026-01-15,Hilton Hotels,$288.79,Richmond,VA,pac,lodging,D,497331,2026-07-15
+expenditure,2026-01-28,Hilton Hotels,"$5,471.36",Richmond,VA,pac,lodging,D,497331,2026-07-15
+expenditure,2026-01-02,ikea,$172.66,woodbridge,VA,pac,supplies,D,497331,2026-07-15
+expenditure,2026-01-12,ikea,$397.42,woodbridge,VA,pac,supply cabinet,D,497331,2026-07-15
+expenditure,2026-01-12,home goods,$384.99,Glen Allen,VA,pac,office supplies,D,497331,2026-07-15
+expenditure,2026-01-12,Maggiano's,$77.88,Richmond,VA,pac,meeting,D,497331,2026-07-15
+expenditure,2026-01-14,PMC Parking,$29.32,Richmond,VA,pac,parking,D,497331,2026-07-15
+expenditure,2026-01-14,PMC Parking,$8.50,Richmond,VA,pac,parking,D,497331,2026-07-15
+expenditure,2026-01-28,Meriwether's,$648,richmond,VA,pac,meal plan-reimbursed,D,497331,2026-07-15
+expenditure,2026-03-27,Papa Johns,$252.42,Culpeper,VA,pac,event,D,497331,2026-07-15
+debt,2025-07-01,Hamilton Cameron,$8,Orange,VA,individual,,F,497331,2026-07-15

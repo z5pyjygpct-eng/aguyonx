@@ -1,0 +1,61 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$47,822.59",,VA,,"From official Schedule H, November 2027 election cycle",H,494583,2026-07-12
+summary,2026-06-30,Raised this cycle,"$24,140",,,,Total receipts this election cycle (Schedule H),H,494583,2026-07-12
+summary,2026-06-30,Spent this cycle,"$36,110.85",,,,Total disbursements this election cycle (Schedule H),H,494583,2026-07-12
+contribution,2026-01-12,Linda and Lynn Daft,$200,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-04,Linda and Lynn Daft,$200,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-08,Valerie and Bob Sutter,$200,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-01,Jim and Judy McConville,$200,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-13,Marlyn Bolen and Beverly Clement,$150,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-01,VA Sheriffs' Association,$500,Richmond,VA,pac,,A,494583,2026-07-12
+contribution,2026-06-01,Tom and Nancy Appler,$200,Vienna,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-16,"Altria Client  Services, Inc.","$2,500",Richmond,VA,pac,,A,494583,2026-07-12
+contribution,2026-06-24,HCA for Good Government PAC,"$1,000",Richmond,VA,pac,,A,494583,2026-07-12
+contribution,2026-06-13,Barbara and Gary Allen,$200,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-15,Robert and Vivian Miller,$200,Alexandria,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-22,VA BankPAC,"$1,500",Glen Allen,VA,pac,,A,494583,2026-07-12
+contribution,2026-06-15,VA Trial Lawyers Association PAC,"$5,000",Richmond,VA,pac,,A,494583,2026-07-12
+contribution,2026-06-25,Carolyn Johnson,$300,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-13,Roy and Louann Meisinger,$150,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-29,Old Dominion Highway Contractors PAC,$500,Chantilly,VA,pac,,A,494583,2026-07-12
+contribution,2026-06-16,Sue Langley,$150,Vienna,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-11,Bill and Sue Chandler,$120,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-13,Terilee and Jim Edwards-Hewitt,$40,Alexandria,VA,individual,,A,494583,2026-07-12
+contribution,2026-01-01,George Kralovec,$250,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-05-26,George Kralovec,$200,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-15,"Anheuser-Busch Companies, Inc.",$500,Atlanta,GA,pac,,A,494583,2026-07-12
+contribution,2026-06-30,Karen Swindells,$300,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-02,Chuck and Jane Roper,$200,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-01,Penelope Earley,$200,Annandale,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-13,George Cody,$200,Alexandria,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-09,Sylvia Patton,$200,Fairfax Station,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-01,"Robert J. Surovell, esq",$250,Alexandria,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-13,Loren Hershey,$500,Oakton,VA,individual,,A,494583,2026-07-12
+contribution,2026-06-15,Seven Hills Strategy Group LLC,$750,Richmond,VA,pac,,A,494583,2026-07-12
+contribution,2026-01-06,Everytown for Gun Safety Action Fund,"$1,000",New York,NY,pac,,A,494583,2026-07-12
+contribution,2026-01-13,"Strobel Investments, LP","$1,500",Branenton,FL,pac,,A,494583,2026-07-12
+contribution,2026-01-13,Robin Earl Delmer,"$1,500",Atlanta,GA,individual,,A,494583,2026-07-12
+contribution,2026-05-26,Henry R. Morin,$200,Annandale,VA,individual,,A,494583,2026-07-12
+expenditure,2026-03-19,House Democratic Caucus,"$30,000",Richmond,VA,party,dues,D,494583,2026-07-12
+expenditure,2026-05-15,USPS,"$1,501.95",Merrifield,VA,pac,bulk mail,D,494583,2026-07-12
+expenditure,2026-04-24,INFOCUS,"$1,538.78",Chantilly,VA,pac,printing and mail services,D,494583,2026-07-12
+expenditure,2026-06-03,INFOCUS,"$2,148.94",Chantilly,VA,pac,printing and mail services,D,494583,2026-07-12
+expenditure,2026-01-04,Act Blue,$9.88,Cambridge,MA,pac,service fee,D,494583,2026-07-12
+expenditure,2026-01-11,Act Blue,$3.95,Cambridge,MA,pac,service fee,D,494583,2026-07-12
+expenditure,2026-01-18,Act Blue,$9.88,Cambridge,MA,pac,service fee,D,494583,2026-07-12
+expenditure,2026-05-25,Act Blue,$29.23,Cambridge,MA,pac,service fee,D,494583,2026-07-12
+expenditure,2026-05-31,Act Blue,$15.01,Cambridge,MA,pac,service fee,D,494583,2026-07-12
+expenditure,2026-06-07,Act Blue,$17.38,Cambridge,MA,pac,service fee,D,494583,2026-07-12
+expenditure,2026-06-14,Act Blue,$52.95,Cambridge,MA,pac,service fee,D,494583,2026-07-12
+expenditure,2026-06-11,Fairfax Propane,$38,Fairfax,VA,pac,event supplies,D,494583,2026-07-12
+expenditure,2026-01-21,Truist,$5,Charlotte,NC,pac,service charge,D,494583,2026-07-12
+expenditure,2026-02-23,Truist,$5,Charlotte,NC,pac,service charge,D,494583,2026-07-12
+expenditure,2026-03-23,Truist,$5,Charlotte,NC,pac,service charge,D,494583,2026-07-12
+expenditure,2026-04-21,Truist,$5,Charlotte,NC,pac,service charge,D,494583,2026-07-12
+expenditure,2026-05-21,Truist,$5,Charlotte,NC,pac,service charge,D,494583,2026-07-12
+expenditure,2026-06-22,Truist,$5,Charlotte,NC,pac,service charge,D,494583,2026-07-12
+expenditure,2026-06-11,Walmart,$59.80,Fairfax,VA,pac,event food and supplies,D,494583,2026-07-12
+expenditure,2026-06-11,Costco,$376.47,Fairfax,VA,pac,event food,D,494583,2026-07-12
+expenditure,2026-06-15,Brooke Rental Center,$96.56,Vienna,VA,pac,event chair rental,D,494583,2026-07-12
+expenditure,2026-06-12,Giant,$182.07,Springfield,VA,pac,event food,D,494583,2026-07-12

@@ -1,0 +1,63 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$17,009.67",,VA,,"From official Schedule H, November 2025 election cycle",H,497070,2026-07-15
+summary,2026-06-30,Raised this cycle,"$11,290",,,,Total receipts this election cycle (Schedule H),H,497070,2026-07-15
+summary,2026-06-30,Spent this cycle,"$16,947.36",,,,Total disbursements this election cycle (Schedule H),H,497070,2026-07-15
+contribution,2025-12-30,Acadia Healthcare Company Inc PAC,$500,Franklin,TN,pac,,A,479857,2026-01-15
+contribution,2025-12-30,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,A,479857,2026-01-15
+contribution,2025-12-22,Mental Health PAC,"$1,000",Washington,DC,pac,,A,479857,2026-01-15
+contribution,2025-12-30,Micron Technology,"$1,500",Atlanta,ID,pac,,A,479857,2026-01-15
+contribution,2025-12-30,Mid-Atlantic Laborers' Political Education Fund,"$2,500",Reston,VA,pac,,A,479857,2026-01-15
+contribution,2025-12-30,Plasterers Cement Masons and Shophands PAC,$250,Beltsville,MD,pac,,A,479857,2026-01-15
+contribution,2025-12-15,Sentara Health Plans,$250,Virginia Beach,VA,pac,,A,479857,2026-01-15
+contribution,2025-12-30,VSP Vision Care Inc,$500,Rancho Cordova,CA,pac,,A,479857,2026-01-15
+contribution,2026-04-08,Commissioner of the Revenue Political Action Committee,$250,Staunton,VA,pac,,A,497070,2026-07-15
+contribution,2026-01-06,Kimberly Harrison,"$1,000",Woodbridge,VA,individual,,A,497070,2026-07-15
+contribution,2026-04-08,Nicholas Josefowitz,"$1,000",San Francisco,CA,individual,,A,497070,2026-07-15
+contribution,2026-01-07,McGuireWoods,$250,Richmond,VA,pac,,A,497070,2026-07-15
+contribution,2026-04-08,MGM Resorts International,"$1,000",Las Vegas,NV,pac,,A,497070,2026-07-15
+contribution,2026-01-13,Prince William Chamber PAC,"$5,000",Henrico,VA,pac,,A,497070,2026-07-15
+contribution,2026-04-08,Textron INC Political Action Committee,$500,Providence,RI,pac,,A,497070,2026-07-15
+contribution,2026-01-07,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,A,497070,2026-07-15
+contribution,2026-04-08,Vantage Data Centers Management Co LLC,$500,Santa Clara,CA,pac,,A,497070,2026-07-15
+contribution,2026-04-08,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,497070,2026-07-15
+contribution,2026-01-07,Virginia Manufactured and Modular Housing Association,"$1,000",Richmond,VA,pac,,A,497070,2026-07-15
+other_receipt,2025-12-15,Off Duty Management,$36.72,Katy,TX,pac,Last hour unneeded,C,479857,2026-01-15
+expenditure,2025-12-02,Google LLC,$10.80,Mountain View,CA,pac,Google Workspace,D,479857,2026-01-15
+expenditure,2025-12-02,Google Voice Inc.,$25.70,Mountain View,CA,pac,Google Voice Line,D,479857,2026-01-15
+expenditure,2025-12-15,Off Duty Management,$611.05,Katy,TX,pac,Off Duty Officer for Food Giveaway Event,D,479857,2026-01-15
+expenditure,2025-12-18,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,Zoom Accoount,D,479857,2026-01-15
+expenditure,2025-12-31,TD Bank,$10,Saint Louis,MO,pac,Maintenance Fee,D,479857,2026-01-15
+expenditure,2026-01-01,"Zoom Communications, Inc.",$17.90,San Jose,CA,pac,Zoom Professional Account,D,497070,2026-07-15
+expenditure,2026-01-02,Google LLC,$10.80,Mountain View,CA,pac,Google Workspace,D,497070,2026-07-15
+expenditure,2026-01-02,Google Voice Inc.,$25.70,Mountain View,CA,pac,Google Voice Number,D,497070,2026-07-15
+expenditure,2026-01-13,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Contribution,D,497070,2026-07-15
+expenditure,2026-01-30,TD Bank,$10,Saint Louis,MO,pac,Maintenance Fee,D,497070,2026-07-15
+expenditure,2026-02-02,Google LLC,$138.24,Mountain View,CA,pac,Google Workspace,D,497070,2026-07-15
+expenditure,2026-02-02,Google Voice Inc.,$25.96,Mountain View,CA,pac,Google Voice Number,D,497070,2026-07-15
+expenditure,2026-02-02,Natasha Slezak,"$1,152",Philadelphia,PA,individual,Staffing,D,497070,2026-07-15
+expenditure,2026-02-09,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,Zoom Professional Account,D,497070,2026-07-15
+expenditure,2026-02-16,Natasha Slezak,"$1,139",Philadelphia,PA,individual,Staffing,D,497070,2026-07-15
+expenditure,2026-02-27,TD Bank,$10,Saint Louis,MO,pac,Maintenance Fee,D,497070,2026-07-15
+expenditure,2026-03-02,Google LLC,$57.99,Mountain View,CA,pac,Google Workspace,D,497070,2026-07-15
+expenditure,2026-03-02,Google Voice Inc.,$25.96,Mountain View,CA,pac,Google Voice Number,D,497070,2026-07-15
+expenditure,2026-03-02,Natasha Slezak,$972,Philadelphia,PA,individual,Staffing,D,497070,2026-07-15
+expenditure,2026-03-09,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,Zoom Professional Account,D,497070,2026-07-15
+expenditure,2026-03-13,Natasha Slezak,"$1,116",Philadelphia,PA,individual,Staffing,D,497070,2026-07-15
+expenditure,2026-03-31,Glass Light Hotel & Gallery Autograph Collection,$264.05,Norfolk,VA,pac,Hotel for Convention,D,497070,2026-07-15
+expenditure,2026-03-31,TD Bank,$10,Saint Louis,MO,pac,Maintenance Fee,D,497070,2026-07-15
+expenditure,2026-04-02,Google Voice Inc.,$25.96,Mountain View,CA,pac,Google Voice Number,D,497070,2026-07-15
+expenditure,2026-04-09,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,Zoom Professional Account,D,497070,2026-07-15
+expenditure,2026-04-23,Commonwealth Victory Fund,"$1,083.42",Richmond,VA,pac,Contribution,D,497070,2026-07-15
+expenditure,2026-04-29,NAACP - Prince William,$108.55,Manassas,VA,pac,Contribution,D,497070,2026-07-15
+expenditure,2026-04-29,WalMart Stores Inc,$54.40,Bentonville,AR,pac,Reimbursement,D,497070,2026-07-15
+expenditure,2026-04-30,TD Bank,$10,Saint Louis,MO,pac,Maintenance Fee,D,497070,2026-07-15
+expenditure,2026-05-04,Google Voice Inc.,$25.92,Mountain View,CA,pac,Google Voice Number,D,497070,2026-07-15
+expenditure,2026-05-11,"Rising Tide Interactive, LLC","$2,900",Washington,DC,pac,Media Production,D,497070,2026-07-15
+expenditure,2026-05-11,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,Zoom Professional Account,D,497070,2026-07-15
+expenditure,2026-05-29,TD Bank,$10,Saint Louis,MO,pac,Maintenance Fee,D,497070,2026-07-15
+expenditure,2026-06-02,Google Voice Inc.,$25.81,Mountain View,CA,pac,Google Voice Number,D,497070,2026-07-15
+expenditure,2026-06-03,Costco,$90.05,Issaquah,WA,pac,Snacks for Community Event,D,497070,2026-07-15
+expenditure,2026-06-05,"Staples, Inc.",$38.45,Framingham,MA,pac,Office Supplies,D,497070,2026-07-15
+expenditure,2026-06-09,"Zoom Communications, Inc.",$17.84,San Jose,CA,pac,Zoom Professional Account,D,497070,2026-07-15
+expenditure,2026-06-30,TD Bank,$10,Saint Louis,MO,pac,Maintenance Fee,D,497070,2026-07-15

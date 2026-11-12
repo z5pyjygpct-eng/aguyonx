@@ -1,0 +1,221 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$36,167.21",,VA,,"From official Schedule H, November 2027 election cycle",H,494024,2026-07-10
+summary,2026-06-30,Raised this cycle,"$55,615.31",,,,Total receipts this election cycle (Schedule H),H,494024,2026-07-10
+summary,2026-06-30,Spent this cycle,"$33,312.67",,,,Total disbursements this election cycle (Schedule H),H,494024,2026-07-10
+contribution,2026-01-08,Megan Gallagher,$250,Middleburg,VA,individual,,A,494024,2026-07-10
+contribution,2026-01-09,Nigel Ogilvie,$250,The Plains,VA,individual,,A,494024,2026-07-10
+contribution,2026-01-09,Capital Results,$250,Richmond,VA,pac,,A,494024,2026-07-10
+contribution,2026-01-11,Jack McNamee,$200,Leesburg,VA,individual,,A,494024,2026-07-10
+contribution,2026-04-30,Beverly Chiasson,$100,Purcellville,VA,individual,,A,494024,2026-07-10
+contribution,2026-03-18,Brian Groenhout,$500,Maryville,TN,individual,,A,494024,2026-07-10
+contribution,2026-05-23,Mitchell Seipt,$50,Purcellville,VA,individual,,A,494024,2026-07-10
+contribution,2026-06-23,Mitchell Seipt,$50,Purcellville,VA,individual,,A,494024,2026-07-10
+contribution,2026-04-20,Dee Pendley,$100,Linden,VA,individual,,A,494024,2026-07-10
+contribution,2026-03-28,Herschel Kanter,$25,Arlington,VA,individual,,A,494024,2026-07-10
+contribution,2026-04-28,Herschel Kanter,$25,Arlington,VA,individual,,A,494024,2026-07-10
+contribution,2026-05-28,Herschel Kanter,$25,Arlington,VA,individual,,A,494024,2026-07-10
+contribution,2026-06-28,Herschel Kanter,$25,Arlington,VA,individual,,A,494024,2026-07-10
+contribution,2026-03-31,Peter Schwartz,$250,Delaplane,VA,individual,,A,494024,2026-07-10
+contribution,2026-04-01,Frances Craig,"$1,000",Ashburn,VA,individual,,A,494024,2026-07-10
+contribution,2026-04-01,MJ Zuckerman,$500,Round Hill,VA,individual,,A,494024,2026-07-10
+contribution,2026-05-01,MJ Zuckerman,$50,Round Hill,VA,individual,,A,494024,2026-07-10
+contribution,2026-06-01,MJ Zuckerman,$50,Round Hill,VA,individual,,A,494024,2026-07-10
+contribution,2026-04-02,Florence Keenan,$500,Rectortown,VA,individual,,A,494024,2026-07-10
+contribution,2026-06-29,Felicity Francis,$100,Round Hill,VA,individual,,A,494024,2026-07-10
+contribution,2026-04-27,Christopher Petusky,$500,Upperville,VA,individual,,A,494024,2026-07-10
+contribution,2026-06-12,Paul Brinkman,$500,Alexandria,VA,individual,,A,494024,2026-07-10
+contribution,2026-01-12,Hunton Andrews Kurth LLP,$500,Richmond,VA,pac,,A,494024,2026-07-10
+contribution,2026-01-12,Virginia Bankers Association State PAC,$500,Glen Allen,VA,pac,,A,494024,2026-07-10
+contribution,2026-01-13,Realtors Political Action Commitee of Virginia,$500,Glen Allen,VA,pac,,A,494024,2026-07-10
+contribution,2026-01-13,Vow PAC,$500,Richmond,VA,pac,,A,494024,2026-07-10
+contribution,2026-06-18,Vow PAC,"$1,000",Richmond,VA,pac,,A,494024,2026-07-10
+contribution,2026-01-13,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,pac,,A,494024,2026-07-10
+contribution,2026-01-14,Virginia Hospital & Healthcare Assoc. Political Action Commitee,$500,Richmond,VA,pac,,A,494024,2026-07-10
+contribution,2026-04-20,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,A,494024,2026-07-10
+contribution,2026-06-26,Clean Virginia Fund,"$25,000",Charlottesville,VA,pac,,A,494024,2026-07-10
+contribution,2026-06-03,Virginia Sherrifs' Association Political Action Commitee,$250,Richmond,VA,pac,,A,494024,2026-07-10
+contribution,2026-06-18,Comstock Hospitality Holdings LLC,"$5,000",Reston,VA,pac,,A,494024,2026-07-10
+contribution,2026-06-30,Transurban (USA) Inc.,$250,Tysons,VA,pac,,A,494024,2026-07-10
+contribution,2026-06-30,Virginia Harness Horse Association,$500,Saluda,VA,pac,,A,494024,2026-07-10
+contribution,2026-06-16,ACE Development Company LLC c/o AES Renewable Holdings LLC,$500,Salt Lake City,UT,pac,,A,494024,2026-07-10
+in_kind,2026-05-20,Comstock Hospitality Holdings LLC,"$4,427.82",Reston,VA,pac,"Event, Food and Beverage",B,494024,2026-07-10
+in_kind,2026-06-16,"Southcliff Strategies, LLC","$1,415.39",Richmond,VA,pac,"Event Venue, Food and Beverage",B,494024,2026-07-10
+other_receipt,2026-05-08,Gusto,$80,San Francisco,CA,pac,Credit refund,C,494024,2026-07-10
+expenditure,2026-01-02,Google Workspace,$191.05,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-02-02,Google Workspace,$158.40,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-03-02,Google Workspace,$158.40,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-04-02,Google Workspace,$158.40,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-05-04,Google Workspace,$158.40,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-06-02,Google Workspace,$158.40,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-01-02,Google,$63.61,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-02-02,Google,$48.89,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-03-02,Google,$48.89,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-04-02,Google,$48.89,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-05-04,Google,$48.79,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-06-02,Google,$48.60,Mountain View,CA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-01-05,Virginia Tax,$47.73,Richmond,VA,pac,Taxes,D,494024,2026-07-10
+expenditure,2026-01-05,Gusto,$104,San Francisco,CA,pac,Fee,D,494024,2026-07-10
+expenditure,2026-02-03,Gusto,$104,San Francisco,CA,pac,Fee,D,494024,2026-07-10
+expenditure,2026-03-04,Gusto,$104,San Francisco,CA,pac,Fees,D,494024,2026-07-10
+expenditure,2026-04-03,Gusto,$104,San Francisco,CA,pac,Fees,D,494024,2026-07-10
+expenditure,2026-05-05,Gusto,$80,San Francisco,CA,pac,Fee,D,494024,2026-07-10
+expenditure,2026-01-12,USPS,$53,The Plains,VA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-02-09,Amtrak,$113.90,Washington,DC,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-09,Amtrak,$75,Washington,DC,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-14,Amtrak,$90,Washington,DC,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-16,Amtrak,$146,Washington,DC,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-23,Amtrak,$104,Washington,DC,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-24,Amtrak,$82,Washington,DC,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-01-12,Greyhound,$53.11,Dallas,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-01-12,Uber,$40.83,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-01-14,Uber,$11.35,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-01-16,Uber,$11.71,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-02-02,Uber,$12.98,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-02-02,Uber,$55,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-02-05,Uber,$21.98,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-03-16,Uber,$12.04,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-15,Uber,$26.16,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-15,Uber,$16.93,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-23,Uber,$30.23,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-11,Uber,$15.64,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-22,Uber,$93.05,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-22,Uber,$13.96,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-22,Uber,$25.09,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-01,Uber,$3.76,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-22,Uber,$23.47,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-23,Uber,$17.58,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-29,Uber,$39.97,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-30,Uber,$5,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-30,Uber,$24.44,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-30,Uber,$24.77,San Francisco,CA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-01-13,Thaiverse 2 LLC,$350,Middleburg,VA,pac,Rental,D,494024,2026-07-10
+expenditure,2026-01-13,Erin Lehman,$500,Harpers Ferry,WV,individual,Payroll,D,494024,2026-07-10
+expenditure,2026-02-12,Erin Lehman,$500,Harpers Ferry,WV,individual,Payroll,D,494024,2026-07-10
+expenditure,2026-05-05,Erin Lehman,$500,Harpers Ferry,WV,individual,Payroll,D,494024,2026-07-10
+expenditure,2026-01-14,Amazon,$90.05,Seattle,WA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-01-14,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Dues,D,494024,2026-07-10
+expenditure,2026-01-15,T-Mobile,$71.60,Bellevue,WA,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-01-16,Handwrytten,$195,Tempe,AZ,pac,Thank You Notes,D,494024,2026-07-10
+expenditure,2026-02-17,Handwrytten,$195,Tempe,AZ,pac,Thank You Cards,D,494024,2026-07-10
+expenditure,2026-03-17,Handwrytten,$195,Tempe,AZ,pac,Thank You Cards,D,494024,2026-07-10
+expenditure,2026-01-16,Target,$87.45,Minneapolis,MN,pac,Office Supplies,D,494024,2026-07-10
+expenditure,2026-01-20,Loudoun Times-Mirror,$7.99,Leesburg,VA,pac,News Subscription,D,494024,2026-07-10
+expenditure,2026-02-17,Loudoun Times-Mirror,$7.99,Leesburg,VA,pac,News Subscription,D,494024,2026-07-10
+expenditure,2026-03-20,Loudoun Times-Mirror,$7.99,Leesburg,VA,pac,News Subscription,D,494024,2026-07-10
+expenditure,2026-04-20,Loudoun Times-Mirror,$7.99,Leesburg,VA,pac,News Subscription,D,494024,2026-07-10
+expenditure,2026-05-21,Loudoun Times-Mirror,$7.99,Leesburg,VA,pac,News Subscription,D,494024,2026-07-10
+expenditure,2026-06-22,Loudoun Times-Mirror,$7.99,Leesburg,VA,pac,News Subscription,D,494024,2026-07-10
+expenditure,2026-01-21,Truist,$154,Charlotte,NC,pac,Bank Fees,D,494024,2026-07-10
+expenditure,2026-02-23,Truist,$52,Charlotte,NC,pac,Bank Fees,D,494024,2026-07-10
+expenditure,2026-04-21,Truist,$104,Charlotte,NC,pac,Bank Fees,D,494024,2026-07-10
+expenditure,2026-05-21,Truist,$234,Charlotte,NC,pac,Bank Fees,D,494024,2026-07-10
+expenditure,2026-06-22,Truist,$208,Charlotte,NC,pac,Bank Fees,D,494024,2026-07-10
+expenditure,2026-01-27,Moizelles Cleaners,$61,Richmond,VA,pac,Cleaning Services,D,494024,2026-07-10
+expenditure,2026-01-26,Wix,$234,New York,NY,pac,Website Domain Fees,D,494024,2026-07-10
+expenditure,2026-02-02,Holiday Inn,$564.70,Atlanta,GA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-02-02,EveryAction,"$1,176",Austin,TX,pac,Fundraising Management,D,494024,2026-07-10
+expenditure,2026-03-02,EveryAction,$588,Austin,TX,pac,Fundraising Management,D,494024,2026-07-10
+expenditure,2026-03-09,EveryAction,$558,Austin,TX,pac,Fundraising Management,D,494024,2026-07-10
+expenditure,2026-04-06,EveryAction,$588,Austin,TX,pac,Fundraising Management,D,494024,2026-07-10
+expenditure,2026-05-11,EveryAction,$588,Austin,TX,pac,Fundraising Management,D,494024,2026-07-10
+expenditure,2026-06-08,EveryAction,$588,Austin,TX,pac,Fundraising Management,D,494024,2026-07-10
+expenditure,2026-02-09,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-03-19,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-03-30,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-07,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-07,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-13,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-15,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-11,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-19,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-21,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-29,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-09,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-15,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-25,E-ZPass,$35,Clifton Forge,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-02-20,Canva,$20,Austin,TX,pac,Professional Services,D,494024,2026-07-10
+expenditure,2026-03-20,Canva,$20,Austin,TX,pac,Professional Services,D,494024,2026-07-10
+expenditure,2026-04-20,Canva,$20,Austin,TX,pac,Professional Services,D,494024,2026-07-10
+expenditure,2026-05-20,Canva,$20,Austin,TX,pac,Professional Services,D,494024,2026-07-10
+expenditure,2026-06-22,Canva,$20,Austin,TX,pac,Professional Services,D,494024,2026-07-10
+expenditure,2026-02-23,Elite Cleaners,$72.20,Richmond,VA,pac,Cleaning Services,D,494024,2026-07-10
+expenditure,2026-03-04,Tarrants Cafe,$414.77,Richmond,VA,pac,Food for Events,D,494024,2026-07-10
+expenditure,2026-03-03,Meriwether Godsey,$577.57,Lynchburg,VA,pac,Food for Events,D,494024,2026-07-10
+expenditure,2026-03-16,Exxonmobil,$43.21,Spring,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-03-20,Exxonmobil,$52.52,Spring,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-16,Exxonmobil,$26.57,Spring,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-29,Exxonmobil,$36.99,Spring,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-25,Exxonmobil,$48.12,Spring,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-01-12,ActBlue,$146.96,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-03-19,ActBlue,$45.76,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-03-23,ActBlue,$5.95,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-03-26,ActBlue,$50,Boston,MA,pac,Fundraising Management,D,494024,2026-07-10
+expenditure,2026-03-26,ActBlue,$2.58,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-03-30,ActBlue,$17.01,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-04-01,ActBlue,$100,Boston,MA,pac,Fundraising Management,D,494024,2026-07-10
+expenditure,2026-04-01,ActBlue,$27.10,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-04-02,ActBlue,$61.23,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-04-06,ActBlue,$19.75,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-04-09,ActBlue,$1.03,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-04-13,ActBlue,$5.73,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-04-20,ActBlue,$0.80,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-04-27,ActBlue,$8.51,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-04-30,ActBlue,$21.34,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-05-04,ActBlue,$14.44,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-05-07,ActBlue,$0.04,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-05-11,ActBlue,$1.98,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-05-14,ActBlue,$50,Boston,MA,pac,Fee,D,494024,2026-07-10
+expenditure,2026-05-14,ActBlue,$50,Boston,MA,pac,Fee,D,494024,2026-07-10
+expenditure,2026-05-14,ActBlue,$2.77,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-05-18,ActBlue,$0.40,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-05-21,ActBlue,$1.20,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-05-26,ActBlue,$2.38,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-05-28,ActBlue,$350,Boston,MA,pac,Fee,D,494024,2026-07-10
+expenditure,2026-05-28,ActBlue,$0.40,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-06-01,ActBlue,$1.59,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-06-04,ActBlue,$4.95,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-06-08,ActBlue,$0.04,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-06-11,ActBlue,$1.98,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-06-15,ActBlue,$20.54,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-06-18,ActBlue,$0.40,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-06-20,ActBlue,$3.95,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-06-22,ActBlue,$1.40,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-06-25,ActBlue,$2.18,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-06-29,ActBlue,$1.79,Boston,MA,pac,Fundraising Fee,D,494024,2026-07-10
+expenditure,2026-04-01,United Airlines,$138.91,Chicago,IL,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-09,United Airlines,$278.40,Chicago,IL,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-04,United Airlines,$233.40,Chicago,IL,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-04,United Airlines,$208.39,Chicago,IL,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-04,United Airlines,$184.40,Chicago,IL,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-15,7-Eleven,$49.47,Irving,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-16,IAD Dulles Hourly,$32,Dulles,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-20,Aldie Liberty,$34.46,Aldie,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-04-20,Richmond Times-Dispatch,$0.99,Richmond,VA,pac,News Subscription,D,494024,2026-07-10
+expenditure,2026-05-21,Richmond Times-Dispatch,$14.99,Richmond,VA,pac,News Subscription,D,494024,2026-07-10
+expenditure,2026-06-18,Richmond Times-Dispatch,$14.99,Richmond,VA,pac,News Subscription,D,494024,2026-07-10
+expenditure,2026-05-04,Citgo,$50.07,Houston,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-04,Shell,$26.84,Houston,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-01,Shell,$30.19,Houston,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-05-11,Sunoco,$38.79,Dallas,TX,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-10,Deja Brew Cafe,$4.57,Warrenton,VA,pac,Food for Events,D,494024,2026-07-10
+expenditure,2026-06-15,Homewood Suites,$157.68,McLean,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-22,Hamilton Hotel DC,$85.76,Washington,DC,pac,Food for Event,D,494024,2026-07-10
+expenditure,2026-06-29,Round Hill Exxon Service Center,$53.68,Round Hill,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-01-02,Gallaudet University,$100,Washington,DC,pac,Event Fee,D,494024,2026-07-10
+expenditure,2026-03-18,Pyles Dennis,$180,The Plains,VA,individual,Office Supplies,D,494024,2026-07-10
+expenditure,2026-03-24,Virginia House of Delegates,$300,Richmond,VA,pac,Official Flags for Office,D,494024,2026-07-10
+expenditure,2026-04-01,Singh for GA,$50,Peachtree Corners,GA,pac,Political Contribution,D,494024,2026-07-10
+expenditure,2026-04-08,National Sporting Library,$49.05,Middleburg,VA,pac,Event Fee,D,494024,2026-07-10
+expenditure,2026-04-28,National Sporting Library,$150,Middleburg,VA,pac,Event Fee,D,494024,2026-07-10
+expenditure,2026-04-27,Michaels Arts and Crafts,$69.93,Irving,TX,pac,Event Supplies,D,494024,2026-07-10
+expenditure,2026-05-08,Blu Design Company,$20,Purcellville,VA,pac,Gifts,D,494024,2026-07-10
+expenditure,2026-05-20,Sunny Day Strategies,"$1,000",Washington,DC,pac,Email Fundraising,D,494024,2026-07-10
+expenditure,2026-04-22,Torchlight Media,$725,Henrico,VA,pac,Videography Services,D,494024,2026-07-10
+expenditure,2026-06-05,National Conference of State Legislatures,$755,Denver,CO,pac,Legislative Conference Registration,D,494024,2026-07-10
+expenditure,2026-06-11,Round Hill Farm to Trail Co.,$9.92,Round Hill,VA,pac,Food Expense,D,494024,2026-07-10
+expenditure,2026-06-22,Metro Variety Shop,$33.90,Washington,DC,pac,Gifts,D,494024,2026-07-10
+expenditure,2026-05-21,The Henley Park Hotel,$162.43,Washington,DC,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-22,The Commonwealth Hotel,$142.64,Richmond,VA,pac,Travel Expenses,D,494024,2026-07-10
+expenditure,2026-06-29,Great Meadow,$125.22,The Plains,VA,pac,Event Fee,D,494024,2026-07-10
+expenditure,2026-06-30,Great Meadow,$63.12,The Plains,VA,pac,Event Fee,D,494024,2026-07-10

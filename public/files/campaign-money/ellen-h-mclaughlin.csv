@@ -1,0 +1,56 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$24,073.45",,VA,,"From official Schedule H, November 2027 election cycle",H,494844,2026-07-13
+summary,2026-06-30,Raised this cycle,"$7,354.10",,,,Total receipts this election cycle (Schedule H),H,494844,2026-07-13
+summary,2026-06-30,Spent this cycle,"$15,998.83",,,,Total disbursements this election cycle (Schedule H),H,494844,2026-07-13
+contribution,2026-05-28,Jared Moon,$104.10,Lexington,VA,individual,,A,494844,2026-07-13
+contribution,2026-01-12,Dominion Energy Inc Political Action Committee,"$5,000",Richmond,VA,pac,,A,494844,2026-07-13
+contribution,2026-01-12,Commissioner of Revenue PAC - CORPAC,$250,Newport News,VA,pac,,A,494844,2026-07-13
+contribution,2026-01-04,Vantage Data Centers Management Co LLC,$500,Santa Clara,CA,pac,,A,494844,2026-07-13
+contribution,2026-01-04,HBAV Build-PAC,"$1,500",Richmond,VA,pac,,A,494844,2026-07-13
+expenditure,2026-05-31,WinRed Technical Services LLC,$4.10,Arlington,VA,pac,Fundraising Fees,D,494844,2026-07-13
+expenditure,2026-01-05,Election CFO,"$1,000",Alexandria,VA,pac,Consulting,D,494844,2026-07-13
+expenditure,2026-02-06,Election CFO,$271.63,Alexandria,VA,pac,Consulting,D,494844,2026-07-13
+expenditure,2026-03-06,Election CFO,$267.95,Alexandria,VA,pac,Consulting,D,494844,2026-07-13
+expenditure,2026-04-08,Election CFO,$263,Alexandria,VA,pac,Consulting,D,494844,2026-07-13
+expenditure,2026-05-07,Election CFO,$272.11,Alexandria,VA,pac,Consulting,D,494844,2026-07-13
+expenditure,2026-06-03,Election CFO,$258,Alexandria,VA,pac,Consulting,D,494844,2026-07-13
+expenditure,2026-01-09,USPS,$1.01,Washington,DC,pac,Postage,D,494844,2026-07-13
+expenditure,2026-04-08,USPS,$78,Washington,DC,pac,Postage,D,494844,2026-07-13
+expenditure,2026-01-20,"JJSB Properties, LLC",$309.99,Raleigh,NC,pac,Rent,D,494844,2026-07-13
+expenditure,2026-02-22,"JJSB Properties, LLC",$309.99,Raleigh,NC,pac,Rent,D,494844,2026-07-13
+expenditure,2026-03-23,"JJSB Properties, LLC",$309.99,Raleigh,NC,pac,Rent,D,494844,2026-07-13
+expenditure,2026-04-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,pac,Rent,D,494844,2026-07-13
+expenditure,2026-05-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,pac,Rent,D,494844,2026-07-13
+expenditure,2026-06-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,pac,Rent,D,494844,2026-07-13
+expenditure,2026-03-18,Walmart,$120.25,Bentonville,AR,pac,Office Supplies,D,494844,2026-07-13
+expenditure,2026-03-12,Dominion Energy Inc,$157.70,Richmond,VA,pac,Utilities,D,494844,2026-07-13
+expenditure,2026-01-02,Google,$79.20,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-01-02,Google,$12.85,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-02-01,Google,$12.98,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-02-01,Google,$79.20,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-03-01,Google,$79.20,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-03-01,Google,$12.98,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-04-01,Google,$12.98,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-04-01,Google,$79.20,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-05-03,Google,$12.95,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-05-03,Google,$79.20,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-06-01,Google,$79.20,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-06-02,Google,$12.89,Mountain View,CA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-03-30,House Republican Campaign Committee,"$1,000",Henrico,VA,party,Contribution,D,494844,2026-07-13
+expenditure,2026-04-24,House Republican Campaign Committee,"$7,000",Henrico,VA,party,Contribution,D,494844,2026-07-13
+expenditure,2026-06-29,House Republican Campaign Committee,$550,Henrico,VA,party,Event Tickets,D,494844,2026-07-13
+expenditure,2026-01-19,MailChimp,$54,Atanta,GA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-02-19,MailChimp,$54,Atanta,GA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-03-19,MailChimp,$54,Atanta,GA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-04-20,MailChimp,$61,Atanta,GA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-05-19,MailChimp,$61,Atanta,GA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-06-19,MailChimp,$61,Atanta,GA,pac,Online Services,D,494844,2026-07-13
+expenditure,2026-01-12,Target,$72.58,Minneapolis,MN,pac,Office Supplies,D,494844,2026-07-13
+expenditure,2026-01-12,Comcast,$159.33,Philadelphia,PA,pac,Utilities,D,494844,2026-07-13
+expenditure,2026-02-13,Comcast,$159.33,Philadelphia,PA,pac,Utilities,D,494844,2026-07-13
+expenditure,2026-03-13,Comcast,$159.33,Philadelphia,PA,pac,Utilities,D,494844,2026-07-13
+expenditure,2026-04-12,Comcast,$159.33,Philadelphia,PA,pac,Utilities,D,494844,2026-07-13
+expenditure,2026-05-13,Comcast,$159.33,Philadelphia,PA,pac,Utilities,D,494844,2026-07-13
+expenditure,2026-06-14,Comcast,$159.33,Philadelphia,PA,pac,Utilities,D,494844,2026-07-13
+expenditure,2026-03-10,FJE Solutions LLC,$968.75,Arlington,VA,pac,Consulting,D,494844,2026-07-13

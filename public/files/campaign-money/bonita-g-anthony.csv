@@ -1,0 +1,95 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$8,086.12",,VA,,"From official Schedule H, November 2027 election cycle",H,496938,2026-07-15
+summary,2026-06-30,Raised this cycle,"$28,005.01",,,,Total receipts this election cycle (Schedule H),H,496938,2026-07-15
+summary,2026-06-30,Spent this cycle,"$23,833.08",,,,Total disbursements this election cycle (Schedule H),H,496938,2026-07-15
+contribution,2026-04-17,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,496938,2026-07-15
+contribution,2026-05-19,Suprenia Wade-Powell,$50,Norfolk,VA,individual,,A,496938,2026-07-15
+contribution,2026-06-17,Suprenia Wade-Powell,$50,Norfolk,VA,individual,,A,496938,2026-07-15
+contribution,2026-05-18,Tamara Carrouthers,$50,Virginia Beach,VA,individual,,A,496938,2026-07-15
+contribution,2026-06-16,Tamara Carrouthers,$50,Virginia Beach,VA,individual,,A,496938,2026-07-15
+contribution,2026-05-15,Valerie Fulwood,$50,Norfolk,VA,individual,,A,496938,2026-07-15
+contribution,2026-06-15,Valerie Fulwood,$50,Norfolk,VA,individual,,A,496938,2026-07-15
+contribution,2026-06-11,James T Lang,$250,Chesapeake,VA,individual,,A,496938,2026-07-15
+contribution,2026-04-17,DRIVE Committee - FEC ID# C00032979,"$1,000",Washington,DC,pac,,A,496938,2026-07-15
+contribution,2026-05-20,Virginia Automobile & Truck Dealers PAC,$500,Richmond,VA,pac,,A,496938,2026-07-15
+contribution,2026-06-16,Altria Client Services,"$1,000",Richmond,VA,pac,,A,496938,2026-07-15
+contribution,2026-01-13,"Arrow International, Inc",$500,Cleveland,OH,pac,,A,496938,2026-07-15
+contribution,2026-06-16,Anheuser Busch,$250,St. Louis,MO,pac,,A,496938,2026-07-15
+contribution,2026-04-26,Virginia Farm Bureau Federationa AGPAC,$500,Richmond,VA,pac,,A,496938,2026-07-15
+contribution,2026-06-29,Comcast,$500,Philadelphia,PA,pac,,A,496938,2026-07-15
+contribution,2026-06-07,Junius Williams,$500,Portsmouth,VA,individual,,A,496938,2026-07-15
+contribution,2026-03-16,SMART TD PAC,"$1,000",Chester,VA,pac,,A,496938,2026-07-15
+contribution,2026-03-16,Commercial Development PAC,$250,Alexandria,VA,pac,,A,496938,2026-07-15
+contribution,2026-01-13,"Humana, Inc",$500,Lexington,KY,pac,,A,496938,2026-07-15
+contribution,2026-01-12,Access Point Public Affairs,$500,Virginia Beach,VA,pac,,A,496938,2026-07-15
+contribution,2026-06-14,Kenneth C Alexander,$500,Norfolk,VA,individual,,A,496938,2026-07-15
+expenditure,2026-06-17,USPS,$214,Norfolk,VA,pac,P.O. Box Renewal for 1 year,D,496938,2026-07-15
+expenditure,2026-01-16,TowneBank,$34,Norfolk,VA,pac,Bank Fees,D,496938,2026-07-15
+expenditure,2026-01-31,TowneBank,$20,Norfolk,VA,pac,Bank Fee,D,496938,2026-07-15
+expenditure,2026-02-18,TowneBank,$33,Norfolk,VA,pac,Bank Fee,D,496938,2026-07-15
+expenditure,2026-03-17,TowneBank,$31,Norfolk,VA,pac,Bank Fees,D,496938,2026-07-15
+expenditure,2026-04-16,TowneBank,$31,Norfolk,VA,pac,Bank Fees,D,496938,2026-07-15
+expenditure,2026-04-30,TowneBank,$20,Norfolk,VA,pac,Bank Fees,D,496938,2026-07-15
+expenditure,2026-05-18,TowneBank,$31,Norfolk,VA,pac,Bank Fee,D,496938,2026-07-15
+expenditure,2026-06-16,TowneBank,$32,Norfolk,VA,pac,Bank Fees,D,496938,2026-07-15
+expenditure,2026-06-30,TowneBank,$20,Norfolk,VA,pac,Bank Fee,D,496938,2026-07-15
+expenditure,2026-03-15,ActBlue Technical Services,$1.98,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-03-22,ActBlue Technical Services,$5.94,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-03-29,ActBlue Technical Services,$2.18,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-04-19,ActBlue Technical Services,$7.92,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-05-03,ActBlue Technical Services,$0.20,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-05-13,ActBlue Technical Services,$0.20,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-05-17,ActBlue Technical Services,$2.97,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-05-24,ActBlue Technical Services,$4.95,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-06-07,ActBlue Technical Services,$23.70,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-06-14,ActBlue Technical Services,$31.64,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-06-21,ActBlue Technical Services,$8.91,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-06-28,ActBlue Technical Services,$1.98,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-06-30,ActBlue Technical Services,$0.20,Somerville,MA,pac,ActBlue Fees,D,496938,2026-07-15
+expenditure,2026-01-02,"Google Voice, Inc",$24.20,Mountain View,CA,pac,Google workspace,D,496938,2026-07-15
+expenditure,2026-02-02,"Google Voice, Inc",$24.46,Mountain View,CA,pac,Google Workspace,D,496938,2026-07-15
+expenditure,2026-03-02,"Google Voice, Inc",$24.46,Mountain View,CA,pac,Google Services,D,496938,2026-07-15
+expenditure,2026-04-02,"Google Voice, Inc",$24.46,Mountain View,CA,pac,Google Services,D,496938,2026-07-15
+expenditure,2026-05-04,"Google Voice, Inc",$24.39,Mountain View,CA,pac,Google Services,D,496938,2026-07-15
+expenditure,2026-06-02,"Google Voice, Inc",$24.31,Mountain View,CA,pac,Google Services,D,496938,2026-07-15
+expenditure,2026-01-28,"Canva, Inc",$14.99,Austin,TX,pac,Team subscription fee,D,496938,2026-07-15
+expenditure,2026-03-02,"Canva, Inc",$14.99,Austin,TX,pac,Graphics Team Subscription,D,496938,2026-07-15
+expenditure,2026-03-30,"Canva, Inc",$14.99,Austin,TX,pac,Graphics Team Subscription,D,496938,2026-07-15
+expenditure,2026-04-28,"Canva, Inc",$14.99,Austin,TX,pac,Graphics Team subscription,D,496938,2026-07-15
+expenditure,2026-05-28,"Canva, Inc",$14.99,Austin,TX,pac,Team subscription for graphics,D,496938,2026-07-15
+expenditure,2026-06-29,"Canva, Inc",$14.99,Austin,TX,pac,Team graphics subscription,D,496938,2026-07-15
+expenditure,2026-01-08,"The Rocket Science Group, LLC",$45,Atlanta,GA,pac,Email Subscription Service,D,496938,2026-07-15
+expenditure,2026-02-09,"The Rocket Science Group, LLC",$45,Atlanta,GA,pac,Email subscription service,D,496938,2026-07-15
+expenditure,2026-03-09,"The Rocket Science Group, LLC",$45,Atlanta,GA,pac,email subscription service,D,496938,2026-07-15
+expenditure,2026-04-08,"The Rocket Science Group, LLC",$45,Atlanta,GA,pac,Email subscription service,D,496938,2026-07-15
+expenditure,2026-05-08,"The Rocket Science Group, LLC",$45,Atlanta,GA,pac,Email Subscription service,D,496938,2026-07-15
+expenditure,2026-06-08,"The Rocket Science Group, LLC",$45,Atlanta,GA,pac,Email subscription service,D,496938,2026-07-15
+expenditure,2026-01-20,Erica Callicutt,$500,Newport News,VA,individual,Political Consultant Stipend,D,496938,2026-07-15
+expenditure,2026-02-17,Erica Callicutt,"$1,000",Newport News,VA,individual,Political Consulting Stipend,D,496938,2026-07-15
+expenditure,2026-03-24,Erica Callicutt,$500,Newport News,VA,individual,Political Stipend,D,496938,2026-07-15
+expenditure,2026-05-05,Erica Callicutt,"$1,500",Newport News,VA,individual,Political Stipend- part of win bonus due,D,496938,2026-07-15
+expenditure,2026-06-23,Erica Callicutt,$500,Newport News,VA,individual,Political stipend,D,496938,2026-07-15
+expenditure,2026-06-09,LynTracey Images,$125,Hampton,VA,pac,Photography for fundraising event,D,496938,2026-07-15
+expenditure,2026-01-28,Wave Break Digital LLC,$150,Lewes,DE,pac,Website hosting and maintenance,D,496938,2026-07-15
+expenditure,2026-03-02,Wave Break Digital LLC,$150,Lewes,DE,pac,Website Hosting and Maintenance,D,496938,2026-07-15
+expenditure,2026-03-30,Wave Break Digital LLC,$150,Lewes,DE,pac,Website Hosting and Maintenance,D,496938,2026-07-15
+expenditure,2026-04-28,Wave Break Digital LLC,$150,Lewes,DE,pac,Website Hosting and Maintenance,D,496938,2026-07-15
+expenditure,2026-05-28,Wave Break Digital LLC,$150,Lewes,DE,pac,Website hosting and maintenance,D,496938,2026-07-15
+expenditure,2026-06-29,Wave Break Digital LLC,$150,Lewes,DE,pac,Website hosting and maintenance,D,496938,2026-07-15
+expenditure,2026-04-21,House Democractic Caucus,"$7,500",Richmond,VA,pac,House Dem Caucus Dues,D,496938,2026-07-15
+expenditure,2026-02-04,DemsGive,"$2,995",Washington,DC,pac,Digital Consultant,D,496938,2026-07-15
+expenditure,2026-05-01,Virginia State University Foundation,"$1,000",Petersburg,VA,pac,VSU Scholarships Fundraising Gala,D,496938,2026-07-15
+expenditure,2026-01-05,Cardamom Beloin,$250,Richmond,VA,individual,Session Aide - presession stipend,D,496938,2026-07-15
+expenditure,2026-01-14,Cardamom Beloin,"$1,000",Richmond,VA,individual,Session Aide Stipend,D,496938,2026-07-15
+expenditure,2026-02-02,NGP VAN,$341.25,Austin,TX,pac,NGP VAN,D,496938,2026-07-15
+expenditure,2026-03-02,NGP VAN,$157.50,Austin,TX,pac,NGP VAN Organizing,D,496938,2026-07-15
+expenditure,2026-05-11,NGP VAN,$744.20,Austin,TX,pac,NGP VAN invoices,D,496938,2026-07-15
+expenditure,2026-05-26,NGP VAN,$165.38,Austin,TX,pac,NGP VAN list,D,496938,2026-07-15
+expenditure,2026-06-01,NGP VAN,$165.37,Austin,TX,pac,NGP VAN,D,496938,2026-07-15
+expenditure,2026-06-08,NGP VAN,$192.94,Austin,TX,pac,NGP VAN,D,496938,2026-07-15
+expenditure,2026-04-06,Broad Creek Consulting,"$1,000",Richmond,VA,pac,Compliance and Audit,D,496938,2026-07-15
+expenditure,2026-05-05,Broad Creek Consulting,"$2,000",Richmond,VA,pac,Compliance and Audit,D,496938,2026-07-15
+expenditure,2026-06-02,Beignets and Brew,$231.45,Norfolk,VA,pac,Event Catering,D,496938,2026-07-15
+loan,2026-01-12,Bonita Anthony,"$8,000",Norfolk,VA,individual,R,E,496938,2026-07-15
+debt,2026-01-12,Bonita Anthony,"$8,000",Norfolk,VA,individual,,F,496938,2026-07-15

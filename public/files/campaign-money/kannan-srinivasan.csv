@@ -1,0 +1,230 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$106,629.26",,VA,,"From official Schedule H, January 2025 election cycle",H,497051,2026-07-15
+summary,2026-06-30,Raised this cycle,"$156,465.28",,,,Total receipts this election cycle (Schedule H),H,497051,2026-07-15
+summary,2026-06-30,Spent this cycle,"$164,868.53",,,,Total disbursements this election cycle (Schedule H),H,497051,2026-07-15
+contribution,2025-08-28,AFSCME,"$2,000",Washington,DC,pac,,A,480183,2026-01-15
+contribution,2025-11-23,Srikanth Akunuri,$250,Ashburn,VA,individual,,A,480183,2026-01-15
+contribution,2025-09-07,Richard and Rosemary Allen,$250,Ashburn,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Malliga Janakiraman,$600,Ashburn,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Selva Jayaraman,$500,Bethesda,MD,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Pratik Jha,$300,Sterling,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,vishal kandregula,$250,Ashburn,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-09,Narsimha Koppula,"$2,500",Vienna,VA,individual,,A,480183,2026-01-15
+contribution,2025-12-31,Satish Korpe,$100,Capitol Heights,MD,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Senthil Kumar,$500,Chantilly,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Baskar Kumaresan,$108,Chantilly,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Chris Leyen,$250,Richmond,VA,individual,,A,480183,2026-01-15
+contribution,2025-10-07,LKQ Corp Employee Fund,$500,Washington,DC,pac,,A,480183,2026-01-15
+contribution,2025-11-23,Manoj Mathai,$500,Centreville,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-26,McGuire Woods,$500,Richmond,VA,pac,,A,480183,2026-01-15
+contribution,2025-11-26,Micron Technology,"$1,000",Boise,ID,pac,,A,480183,2026-01-15
+contribution,2025-11-23,Nageswara Rao Mudhlur,"$1,500",Brambleton,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Shekar Narasimhan,"$1,000",Dunn Loring,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Sundi Natarajan,$500,Ashburn,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Nag Nelluri,$500,Ashburn,VA,individual,,A,480183,2026-01-15
+contribution,2025-10-07,NOVEC,"$1,000",Manassas,VA,pac,,A,480183,2026-01-15
+contribution,2025-11-26,Damayanti Page,"$2,500",Aldie,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,rakhee palekar,"$1,000",Vienna,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Narsing Rao Panagari,$500,Sterling,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Nupur Panjabi,"$1,000",Sterling,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Raj Paradkar,$250,Ashburn,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Thirupathi Pochampally,$200,Mclean,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Geethanjali Prabhukumar,$600,Leesburg,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-26,Pooja Priyang,$200,Springfield,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Jyothi Raghavan,$250,Herndon,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Venkat Ramineni,"$1,000",Brambleton,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-26,Gary Rappaport,$500,Mc Lean,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Sean Rashid,$500,Great Falls,VA,individual,,A,480183,2026-01-15
+contribution,2025-10-22,Rivers Portsmouth Gaming,"$5,000",Portsmouth,VA,pac,,A,480183,2026-01-15
+contribution,2025-11-16,Ryan Ruzic,$250,Purcellville,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Sumeet Shrivastava,"$2,500",Chantilly,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Devinder Singh,$250,Lorton,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-26,Sunil Singh,$251,Great Falls,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Atchuthan Sriskandarajah,"$1,000",Fairfax,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Sindhu Srivatsa,$200,Brambleton,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Ravi Tangirala,$250,Chantilly,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Ravi Thudi,$500,Ashburn,VA,individual,,A,480183,2026-01-15
+contribution,2025-10-07,United Airlines,$250,Chicago,IL,pac,,A,480183,2026-01-15
+contribution,2025-12-19,UpVote PAC,$500,Chesterfield,VA,pac,,A,480183,2026-01-15
+contribution,2025-10-07,VA Beverage Association,$750,Richmond,VA,pac,,A,480183,2026-01-15
+contribution,2025-10-07,VA Operators for Skill,"$1,000",Henrico,VA,pac,,A,480183,2026-01-15
+contribution,2025-10-07,Virginia Automobile & Truck Dealers PAC,"$1,500",Richmond,VA,pac,,A,480183,2026-01-15
+contribution,2025-10-07,Virginia Beer Wholesalers,"$1,000",Richmond,VA,pac,,A,480183,2026-01-15
+contribution,2025-10-14,Virginia Maritime Association,$500,Norfolk,VA,pac,,A,480183,2026-01-15
+contribution,2025-10-07,Virginia Realtors PAC,"$1,000",Glen Allen,VA,pac,,A,480183,2026-01-15
+contribution,2025-11-18,Vithalla LLC,"$5,000",Manassas,VA,pac,,A,480183,2026-01-15
+contribution,2025-08-25,Amazon,"$1,000",Seattle,WA,pac,,A,480183,2026-01-15
+contribution,2025-11-26,Americans4Hindus PAC,"$2,500",Mc Lean,VA,pac,,A,480183,2026-01-15
+contribution,2025-12-12,Asurion,"$2,000",Nashville,TN,pac,,A,480183,2026-01-15
+contribution,2025-11-23,Srinivas Attili,$350,Herndon,VA,individual,,A,480183,2026-01-15
+contribution,2025-10-07,Bloom Energy,"$1,500",San Jose,CA,pac,,A,480183,2026-01-15
+contribution,2025-11-23,Venkat Burri,$116,Ashburn,VA,individual,,A,480183,2026-01-15
+contribution,2025-08-07,Capital One Services,"$1,000",Reston,VA,pac,,A,480183,2026-01-15
+contribution,2025-11-23,Jayanth Challa,"$1,000",Vienna,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Mohankumar CHANNARAYAPATNA-Nara,$500,Brambleton,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Lax Chepuri,$500,Chantilly,VA,individual,,A,480183,2026-01-15
+contribution,2025-12-31,Commercial Development PAC,$500,Alexandria,VA,pac,,A,480183,2026-01-15
+contribution,2025-10-19,SEIU COPE,"$1,000",Washington,DC,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Viresh Desai,$250,Dulles,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-10,Enterprise,$500,Saint Louis,MO,pac,,A,480183,2026-01-15
+contribution,2025-11-23,James Farver,$250,Leesburg,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Lorency Fernando Maran,$600,Chantilly,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-26,Friends of JJ Singh,"$1,000",Ashburn,VA,pac,,A,480183,2026-01-15
+contribution,2025-11-23,Ramit Ghosh,$250,Great Falls,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Anil kumar Gumadavalli,$151,Leesburg,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Atul Gupta,"$2,500",Lynchburg,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-23,Vishal Gupta,$850,Leesburg,VA,individual,,A,480183,2026-01-15
+contribution,2025-11-16,Shyamali Hauth,$250,Reston,VA,individual,,A,480183,2026-01-15
+contribution,2025-12-19,HCA for Good Government,"$1,500",Richmond,VA,pac,,A,480183,2026-01-15
+contribution,2025-11-23,Vaibhav Jain,$251,Arlington,VA,individual,,A,480183,2026-01-15
+contribution,2026-06-29,Altria Client Services,"$1,500",Richmond,VA,pac,,A,497051,2026-07-15
+contribution,2026-04-17,Clean Virginia,"$10,000",Charlottesville,VA,pac,,A,497051,2026-07-15
+contribution,2026-06-29,CRNA PAC,$500,Roanoke,VA,pac,,A,497051,2026-07-15
+contribution,2026-01-05,HBAV Build PAC,"$2,500",Richmond,VA,pac,,A,497051,2026-07-15
+contribution,2026-05-10,Loren Hershey,"$1,000",Oakton,VA,individual,,A,497051,2026-07-15
+contribution,2026-01-12,Hunton Andrews Kurth,"$1,000",Richmond,VA,pac,,A,497051,2026-07-15
+contribution,2026-03-31,Mello Solutions,$250,New York,NY,pac,,A,497051,2026-07-15
+contribution,2026-01-05,NOVA Build PAC,"$1,000",Chantilly,VA,pac,,A,497051,2026-07-15
+contribution,2026-01-11,Capital Results,$500,Richmond,VA,individual,,A,497051,2026-07-15
+contribution,2026-01-12,Truckers PAC,$250,Richmond,VA,pac,,A,497051,2026-07-15
+contribution,2026-01-12,Virginia Bankers Association State PAC,"$1,000",Glen Allen,VA,pac,,A,497051,2026-07-15
+contribution,2026-01-12,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,497051,2026-07-15
+contribution,2026-03-31,Virginia Farm Bureau,$500,Richmond,VA,pac,,A,497051,2026-07-15
+in_kind,2025-11-18,Celebration by Rupa Vira,"$4,800",Ashburn,VA,pac,Catering/Events,B,480183,2026-01-15
+in_kind,2025-10-18,Bhanu Illindra,$340,Aldie,VA,individual,Catering/Events,B,480183,2026-01-15
+in_kind,2026-05-21,Clean Virginia,"$1,000",Charlottesville,VA,pac,Social Media Training,B,497051,2026-07-15
+other_receipt,2025-11-24,Opt In Monster,$513,Boston,MA,pac,Refund,C,480183,2026-01-15
+expenditure,2025-07-01,Suhas for Virginia,"$1,000",Ashburn,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-07-06,ActBlue,$0.52,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-07-07,Canva,$15,Austin,TX,pac,Software,D,480183,2026-01-15
+expenditure,2025-07-07,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,480183,2026-01-15
+expenditure,2025-07-14,BlueHost,$2.49,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-07-14,Hampton Inn,$122.43,Virginia Beach,VA,pac,Lodging,D,480183,2026-01-15
+expenditure,2025-07-28,BlueHost,$24.90,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-08-03,ActBlue,$0.12,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-08-06,Canva,$15,Austin,TX,pac,Software,D,480183,2026-01-15
+expenditure,2025-08-07,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,480183,2026-01-15
+expenditure,2025-08-10,ActBlue,$0.40,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-08-12,Virginia Senate Democratic Caucus,"$5,000",Richmond,VA,party,Contribution,D,480183,2026-01-15
+expenditure,2025-08-14,BlueHost,$2.49,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-08-28,BlueHost,$24.90,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-09-07,ActBlue,$10.40,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-09-08,Canva,$30,Austin,TX,pac,Software,D,480183,2026-01-15
+expenditure,2025-09-08,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,480183,2026-01-15
+expenditure,2025-09-09,AWard for Virginia,$39.63,Mechanicsville,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Bennington For Virginia,$39.63,Amissville,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Cindy Green for Virginia,$39.63,Bristol,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Committee to Elect Scott K Konopasek,$39.63,Rockville,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Crisler for Virginia,$39.63,Port Republic,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Critzer for Delegate,$39.63,Midlothian,VA,candidate,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Earnadette Powell Farrar For Virginia,$39.63,Chase City,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Eric Klotz for Delegate,$39.63,Hardy,VA,candidate,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Forrest Miller for VA,$39.63,Locust Grove,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Friends of Andrew Hartless,$39.63,Lexington,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Friends of Angela Chainer,$39.63,Troy,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Friends of Biko Agozino,$39.63,Christiansburg,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Friends of Cathy Rec,$39.63,Quicksburg,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Friends of Elaine Walters,$39.63,Hustle,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Friends of Melody Cartwright,$39.63,Martinsville,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Friends of Rodney Nickens,$39.62,Chesapeake,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Friends of Shane Boswell,$39.63,Berryville,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Friends of Yvonne Rorrer,$39.63,Patrick Springs,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,HaggertyforHouse,$39.63,Colonial Beach,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Jonathan Lucci for Virginia,$39.63,Winchester,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Josh Outsey for Virginia,$39.63,Big Stone Gap,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Joy Powers for Virginia,$39.63,Vinton,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Mary Sumner for 43rd District,$39.63,Clintwood,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Sam for VA,$39.63,Amherst,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Sara for Virginia,$39.63,Ruckersville,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Venable 4 Virginia,$39.63,Stuarts Draft,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-09,Virginians for Jamie,$39.63,Marion,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-15,BlueHost,$2.49,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-09-15,Loudon County Democratic Committee,$150,Leesburg,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-09-15,Trader Joe's,$30.18,Ashburn,VA,pac,Meals,D,480183,2026-01-15
+expenditure,2025-09-29,BlueHost,$24.90,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-10-05,ActBlue,$0.52,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-10-06,Canva,$30,Austin,TX,pac,Software,D,480183,2026-01-15
+expenditure,2025-10-07,KG LLC,"$2,000",Washington,DC,pac,Compliance Services,D,480183,2026-01-15
+expenditure,2025-10-07,NGP VAN,"$2,920.83",Washington,DC,pac,Software,D,480183,2026-01-15
+expenditure,2025-10-07,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,480183,2026-01-15
+expenditure,2025-10-12,ActBlue,$1.98,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-10-14,BlueHost,$2.49,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-10-19,ActBlue,$39.50,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-10-20,BlueHost,"$1,176",Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-10-20,Diwali 2025,$250,Fairfax,VA,pac,Event Ticket,D,480183,2026-01-15
+expenditure,2025-10-20,Staples,$43.61,Fairfax,VA,pac,Office Supplies,D,480183,2026-01-15
+expenditure,2025-10-23,April for Algonkian,$250,Sterling,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-10-23,Arben for Sterling,$250,Ashburn,VA,pac,Contribution,D,480183,2026-01-15
+expenditure,2025-10-23,Jon Pepper for School Board,$250,Aldie,VA,candidate,Contribution,D,480183,2026-01-15
+expenditure,2025-10-23,Ross Svenson for School Board,$250,Ashburn,VA,candidate,Contribution,D,480183,2026-01-15
+expenditure,2025-10-27,"Gibson Universal, LLC",$121.90,Henrico,VA,pac,Printing,D,480183,2026-01-15
+expenditure,2025-10-28,BlueHost,$24.90,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-10-29,Dementi Studio,$254.40,Richmond,VA,pac,Photography Services,D,480183,2026-01-15
+expenditure,2025-11-02,ActBlue,$0.12,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-11-06,Canva,$30,Austin,TX,pac,Software,D,480183,2026-01-15
+expenditure,2025-11-07,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,480183,2026-01-15
+expenditure,2025-11-09,ActBlue,$114.95,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-11-14,BlueHost,$2.49,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-11-16,ActBlue,$316.35,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-11-17,Opt In Monster,$570,Boston,MA,pac,Software,D,480183,2026-01-15
+expenditure,2025-11-23,ActBlue,$711.77,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-11-28,BlueHost,$24.90,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-11-28,BlueHost,$89.88,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-12-07,ActBlue,$2.72,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2025-12-08,Canva,$30,Austin,TX,pac,Software,D,480183,2026-01-15
+expenditure,2025-12-08,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,480183,2026-01-15
+expenditure,2025-12-15,BlueHost,$2.49,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-12-29,BlueHost,$24.90,Jacksonville,FL,pac,Web Hosting,D,480183,2026-01-15
+expenditure,2025-12-31,ActBlue,$3.95,Somerville,MA,pac,Credit Card Processing Fee,D,480183,2026-01-15
+expenditure,2026-01-04,ActBlue,$0.12,Somerville,MA,pac,Credit Card Processing Fee,D,497051,2026-07-15
+expenditure,2026-01-04,ActBlue,$0.12,Somerville,MA,pac,Credit Card Processing Fees,D,497051,2026-07-15
+expenditure,2026-01-05,Amazon,$360.20,Seattle,WA,pac,Office Supplies,D,497051,2026-07-15
+expenditure,2026-01-05,Costco,$127.19,Sterling,VA,pac,Office Supplies,D,497051,2026-07-15
+expenditure,2026-01-05,Costco,$111.27,Sterling,VA,pac,Office Supplies,D,497051,2026-07-15
+expenditure,2026-01-05,Costco,$42.39,Sterling,VA,pac,Office Supplies,D,497051,2026-07-15
+expenditure,2026-01-06,Canva,$30,Austin,TX,pac,Software,D,497051,2026-07-15
+expenditure,2026-01-07,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,497051,2026-07-15
+expenditure,2026-01-11,ActBlue,$19.75,Somerville,MA,pac,Credit Card Processing Fee,D,497051,2026-07-15
+expenditure,2026-01-11,ActBlue,$19.75,Somerville,MA,pac,Credit Card Processing Fees,D,497051,2026-07-15
+expenditure,2026-01-14,BlueHost,$2.49,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-01-28,BlueHost,$24.90,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-02-06,Canva,$30,Austin,TX,pac,Software,D,497051,2026-07-15
+expenditure,2026-02-09,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,497051,2026-07-15
+expenditure,2026-02-11,Pats Florist,$99.79,Richmond,VA,pac,Flowers,D,497051,2026-07-15
+expenditure,2026-02-12,Amazon,$115.71,Seattle,WA,pac,Office Supplies,D,497051,2026-07-15
+expenditure,2026-02-17,BlueHost,$2.49,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-02-17,VCU,$250,Richmond,VA,pac,Massey Center Contribution,D,497051,2026-07-15
+expenditure,2026-02-18,Feedmore.org,$250,Henrico,VA,pac,Senate Page Program Contribution,D,497051,2026-07-15
+expenditure,2026-02-18,United States Postal Service,$285,Dulles,VA,pac,PO Box,D,497051,2026-07-15
+expenditure,2026-02-25,BlueHost,$29.90,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-03-06,Canva,$30,Austin,TX,pac,Software,D,497051,2026-07-15
+expenditure,2026-03-09,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,497051,2026-07-15
+expenditure,2026-03-12,Dementi Studio,$208.82,Richmond,VA,pac,Photography Services,D,497051,2026-07-15
+expenditure,2026-03-16,BlueHost,$2.99,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-03-19,Virginia Senate Democratic Caucus,"$6,250",Richmond,VA,party,Contribution,D,497051,2026-07-15
+expenditure,2026-03-19,Virginia Senate Democratic Caucus,$500,Richmond,VA,party,Contribution,D,497051,2026-07-15
+expenditure,2026-03-30,BlueHost,$29.90,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-04-05,ActBlue,$0.12,Somerville,MA,pac,Credit Card Processing Fees,D,497051,2026-07-15
+expenditure,2026-04-06,Canva,$30,Austin,TX,pac,Software,D,497051,2026-07-15
+expenditure,2026-04-07,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,497051,2026-07-15
+expenditure,2026-04-13,Canva,$25.75,Austin,TX,pac,Software,D,497051,2026-07-15
+expenditure,2026-04-14,BlueHost,$2.99,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-04-27,BlueHost,$29.90,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-04-28,Michaels,$101.92,Richmond,VA,pac,Office Supplies,D,497051,2026-07-15
+expenditure,2026-05-03,ActBlue,$0.12,Somerville,MA,pac,Credit Card Processing Fees,D,497051,2026-07-15
+expenditure,2026-05-06,Canva,$30,Austin,TX,pac,Software,D,497051,2026-07-15
+expenditure,2026-05-06,Senate of Virginia,$477.49,Richmond,VA,pac,Postage & Stationary,D,497051,2026-07-15
+expenditure,2026-05-07,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,497051,2026-07-15
+expenditure,2026-05-10,ActBlue,$35.95,Somerville,MA,pac,Credit Card Processing Fees,D,497051,2026-07-15
+expenditure,2026-05-11,Best Buy,$83.74,Sterling,VA,pac,Office Supplies,D,497051,2026-07-15
+expenditure,2026-05-14,BlueHost,$2.99,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-05-28,BlueHost,$29.90,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-05-29,Loudon County Democratic Committee,$350,Leesburg,VA,pac,Contribution,D,497051,2026-07-15
+expenditure,2026-06-04,BlueHost,$222.26,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-06-07,ActBlue,$0.12,Somerville,MA,pac,Credit Card Processing Fees,D,497051,2026-07-15
+expenditure,2026-06-08,Canva,$30,Austin,TX,pac,Software,D,497051,2026-07-15
+expenditure,2026-06-08,Wave Break Digital LLC,$150,Washington,DC,pac,Digital Services,D,497051,2026-07-15
+expenditure,2026-06-15,BlueHost,$2.99,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15
+expenditure,2026-06-26,Democratic Black Caucus,$250,Richmond,VA,pac,Contribution,D,497051,2026-07-15
+expenditure,2026-06-29,BlueHost,$29.90,Jacksonville,FL,pac,Website Hosting,D,497051,2026-07-15

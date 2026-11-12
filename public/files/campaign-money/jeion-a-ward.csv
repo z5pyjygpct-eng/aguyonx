@@ -1,0 +1,102 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$264,191.21",,VA,,"From official Schedule H, November 2027 election cycle",H,495745,2026-07-14
+summary,2026-06-30,Raised this cycle,"$85,519.08",,,,Total receipts this election cycle (Schedule H),H,495745,2026-07-14
+summary,2026-06-30,Spent this cycle,"$84,178.12",,,,Total disbursements this election cycle (Schedule H),H,495745,2026-07-14
+contribution,2026-01-06,Virginia AFL-CIO,"$5,000",Richmond,VA,pac,,A,495745,2026-07-14
+contribution,2026-05-27,Virginia AFL-CIO,"$1,000",Richmond,VA,pac,,A,495745,2026-07-14
+contribution,2026-01-10,Carrie C. Carter,$300,Hampton,VA,individual,,A,495745,2026-07-14
+contribution,2026-01-02,Ross A Mugler,$200,Hampton,VA,individual,,A,495745,2026-07-14
+contribution,2026-01-07,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,A,495745,2026-07-14
+contribution,2026-01-12,Virginia Farm Bureau Federation AgPAC,$250,Richmond,VA,pac,,A,495745,2026-07-14
+contribution,2026-05-18,IBEW PAC,"$2,000",Washington,DC,pac,,A,495745,2026-07-14
+contribution,2026-01-06,NiSource Inc. PAC,$500,Chester,VA,pac,,A,495745,2026-07-14
+contribution,2026-03-16,Virginia Forest Resources PAC,$250,Richmond,VA,pac,,A,495745,2026-07-14
+contribution,2026-03-16,Advansix Inc.,$500,parsippany,NJ,pac,,A,495745,2026-07-14
+contribution,2026-03-16,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,pac,,A,495745,2026-07-14
+contribution,2026-03-20,Virginia Oil & Gas Association,"$1,000",Abingdon,VA,pac,,A,495745,2026-07-14
+contribution,2026-06-16,Altria Client Services,"$2,500",Richmond,VA,pac,,A,495745,2026-07-14
+contribution,2026-03-17,United Association of Jrnym & Apprntcs,$500,Norfolk,VA,pac,,A,495745,2026-07-14
+contribution,2026-01-10,Jason Parker,$150,Seaford,VA,individual,,A,495745,2026-07-14
+contribution,2026-06-16,Anheuser Busch Companies,$500,St Louis,MO,pac,,A,495745,2026-07-14
+contribution,2026-03-16,"Apex Clean Energy Holdings, Inc","$1,000",Charlottesville,VA,pac,,A,495745,2026-07-14
+contribution,2026-03-16,Mid-Atlantic Pipe Trades Association,"$1,000",Columbia,MD,pac,,A,495745,2026-07-14
+contribution,2026-01-07,"All Points Broadband Partners, LLC.","$1,000",Richmond,VA,pac,,A,495745,2026-07-14
+contribution,2026-01-09,Dominion Energy,"$50,000",Richmond,VA,pac,,A,495745,2026-07-14
+contribution,2026-01-07,VA Digital Infrastructure PAC,"$2,500",Leesburg,VA,pac,,A,495745,2026-07-14
+contribution,2026-01-10,Michelle Clayton,$250,Henrico County,VA,individual,,A,495745,2026-07-14
+contribution,2026-04-15,DRIVE Committee,$500,Washington,DC,pac,,A,495745,2026-07-14
+contribution,2026-01-07,Carbon Solutions Group,"$1,000",Chicago,IL,pac,,A,495745,2026-07-14
+contribution,2026-01-10,Steamfitters Local Union No. 602,"$3,000",Capitol Heights,MD,pac,,A,495745,2026-07-14
+contribution,2026-01-06,VEA Fund for Children and Public Education,"$1,500",Henrico,VA,pac,,A,495745,2026-07-14
+contribution,2026-01-13,Friends of Ballad Health PAC,"$2,500",Johnson City,TN,pac,,A,495745,2026-07-14
+contribution,2026-01-13,Northern Virginia Chamber of Commerce PAC,$500,Tysons Corner,VA,pac,,A,495745,2026-07-14
+contribution,2026-03-16,Humana Political Action Committee,$500,Louisville,KY,pac,,A,495745,2026-07-14
+contribution,2026-03-17,"PRA Group, Inc",$500,Norfolk,VA,pac,,A,495745,2026-07-14
+in_kind,2026-01-10,Virginia State Building and Construction Trade Council,"$2,279.08",Richmond,VA,pac,Brunch,B,495745,2026-07-14
+other_receipt,2026-03-17,Towne Bank,$125,Norfolk,VA,pac,Check book Print Fee Refund,C,495745,2026-07-14
+expenditure,2026-04-07,House Democratic Caucus,"$15,000",Richmond,VA,party,Dues,D,495745,2026-07-14
+expenditure,2026-03-10,Verizon,$566.98,Dallas,TX,pac,Communication Services,D,495745,2026-07-14
+expenditure,2026-04-14,Verizon,$400.99,Dallas,TX,pac,Communication Expense,D,495745,2026-07-14
+expenditure,2026-05-12,Verizon,$399.86,Dallas,TX,pac,Communication Expense,D,495745,2026-07-14
+expenditure,2026-06-10,Verizon,$401.20,Dallas,TX,pac,Communication Expense,D,495745,2026-07-14
+expenditure,2026-04-01,USPS Riverdale Station,$244,Hampton,VA,pac,Post Office Box,D,495745,2026-07-14
+expenditure,2026-03-05,Meriwether's,$648,Richmond,VA,pac,Meals,D,495745,2026-07-14
+expenditure,2026-01-12,BJ's Wholesalers,$82.24,Hampton,VA,pac,Fundraiser Supplies,D,495745,2026-07-14
+expenditure,2026-01-13,AT&T,$242.75,Hampton,VA,pac,Phone Expense,D,495745,2026-07-14
+expenditure,2026-03-26,AT&T,$241.59,Hampton,VA,pac,Phone Expense,D,495745,2026-07-14
+expenditure,2026-05-26,AT&T,$235.55,Hampton,VA,pac,Phone Expense,D,495745,2026-07-14
+expenditure,2026-06-22,AT&T,$481.12,Hampton,VA,pac,Phone Expense,D,495745,2026-07-14
+expenditure,2026-01-09,Best Buy #479,$846.94,Newport News,VA,pac,Computer Equipment,D,495745,2026-07-14
+expenditure,2026-01-02,Amazon Marketplace,$80.49,Seattle,WA,pac,Fundraiser Supplies,D,495745,2026-07-14
+expenditure,2026-01-20,Amazon Marketplace,$49.94,Seattle,WA,pac,MS Awareness Hospitality,D,495745,2026-07-14
+expenditure,2026-01-21,Amazon Marketplace,$13.12,Seattle,WA,pac,MS Awareness Hospitality,D,495745,2026-07-14
+expenditure,2026-01-21,Amazon Marketplace,$15.44,Seattle,WA,pac,MS Awareness Hospitality,D,495745,2026-07-14
+expenditure,2026-01-21,Amazon Marketplace,$71.41,Seattle,WA,pac,Office Supplies,D,495745,2026-07-14
+expenditure,2026-02-09,Amazon Marketplace,$45.77,Seattle,WA,pac,Valentine's Day Gifts,D,495745,2026-07-14
+expenditure,2026-01-02,ActBlue Virginia,$0.99,Somerville,MA,pac,Fees,D,495745,2026-07-14
+expenditure,2026-01-02,ActBlue Virginia,$3.95,Somerville,MA,pac,Fees,D,495745,2026-07-14
+expenditure,2026-01-02,ActBlue Virginia,$7.90,Somerville,MA,pac,Fees,D,495745,2026-07-14
+expenditure,2026-01-04,ActBlue Virginia,$1.98,Somerville,MA,pac,Fees,D,495745,2026-07-14
+expenditure,2026-01-05,ActBlue Virginia,$1.98,Somerville,MA,pac,Fees,D,495745,2026-07-14
+expenditure,2026-01-06,ActBlue Virginia,$1.98,Somerville,MA,pac,Fees,D,495745,2026-07-14
+expenditure,2026-01-06,ActBlue Virginia,$59.25,Somerville,MA,pac,Fees,D,495745,2026-07-14
+expenditure,2026-01-09,ActBlue Virginia,$3.95,Somerville,MA,pac,Fees,D,495745,2026-07-14
+expenditure,2026-01-13,ActBlue Virginia,$3.95,Somerville,MA,pac,Fees,D,495745,2026-07-14
+expenditure,2026-01-13,ActBlue Virginia,$3.95,Somerville,MA,pac,Fees,D,495745,2026-07-14
+expenditure,2026-04-17,100 Black Men,"$1,500",Newport News,VA,pac,Table for Event,D,495745,2026-07-14
+expenditure,2026-02-09,Shell Oil,$24.65,Hampton,VA,pac,Gas,D,495745,2026-07-14
+expenditure,2026-05-04,Commonwealth Victory Fund,$661.34,Richmond,VA,pac,Homestead Donation,D,495745,2026-07-14
+expenditure,2026-03-25,Harland Clarke,$396.89,San Antonio,TX,pac,Checks/Banking Expense,D,495745,2026-07-14
+expenditure,2026-02-09,Dollar Tree,$24.65,Newport News,VA,pac,Valentine's Day Decor,D,495745,2026-07-14
+expenditure,2026-03-23,Office Depot 5910,"$1,666.98",Newville,PA,pac,Office Furniture,D,495745,2026-07-14
+expenditure,2026-03-24,Office Depot 5910,$421.86,Newville,PA,pac,Office Furniture,D,495745,2026-07-14
+expenditure,2026-01-13,Hampton Yacht Club,$250,Hampton,VA,pac,Gratuity for Staff,D,495745,2026-07-14
+expenditure,2026-03-19,NAACP,$312.36,Hampton,VA,pac,Tickets to Freedom Banquet,D,495745,2026-07-14
+expenditure,2026-01-07,Old Point National Bank,$15,Hampton,VA,pac,Charge back Fee,D,495745,2026-07-14
+expenditure,2026-01-09,Old Point National Bank,$15,Hampton,VA,pac,Bank Fee,D,495745,2026-07-14
+expenditure,2026-01-06,"TSO Hampton Roads OB, LLLP","$1,653.24",Hampton,VA,pac,Rent Expense,D,495745,2026-07-14
+expenditure,2026-01-07,"TSO Hampton Roads OB, LLLP","$1,653.24",Hampton,VA,pac,Rent Expense,D,495745,2026-07-14
+expenditure,2026-02-10,"TSO Hampton Roads OB, LLLP","$1,653.24",Hampton,VA,pac,Rent Expense,D,495745,2026-07-14
+expenditure,2026-03-11,"TSO Hampton Roads OB, LLLP","$1,653.24",Hampton,VA,pac,Rent Expense,D,495745,2026-07-14
+expenditure,2026-04-15,"TSO Hampton Roads OB, LLLP","$1,653.24",Hampton,VA,pac,Rent Expense,D,495745,2026-07-14
+expenditure,2026-05-13,"TSO Hampton Roads OB, LLLP","$1,653.24",Hampton,VA,pac,Rent Expense,D,495745,2026-07-14
+expenditure,2026-06-09,"TSO Hampton Roads OB, LLLP","$1,653.04",Hampton,VA,pac,Rent Expense,D,495745,2026-07-14
+expenditure,2026-01-26,Black Virginian News,$69,San Francisco,CA,pac,Subscription,D,495745,2026-07-14
+expenditure,2026-01-02,Google,$13.23,Ann Arbor,MI,pac,Software,D,495745,2026-07-14
+expenditure,2026-03-18,Google,$21,Ann Arbor,MI,pac,Software,D,495745,2026-07-14
+expenditure,2026-03-18,Google,$21,Ann Arbor,MI,pac,Software,D,495745,2026-07-14
+expenditure,2026-05-01,Google,$21,Ann Arbor,MI,pac,Software,D,495745,2026-07-14
+expenditure,2026-06-10,Google,$21,Ann Arbor,MI,pac,Software,D,495745,2026-07-14
+expenditure,2026-01-15,Virginia House Democratic Caucus,"$25,000",Richmond,VA,party,Dues,D,495745,2026-07-14
+expenditure,2026-01-08,Sant Corporation,$16.63,Hampton,VA,pac,Gas for Legislative Assistant,D,495745,2026-07-14
+expenditure,2026-01-26,Deontae Dowdell,"$2,500",Richmond,VA,individual,Legislative Services,D,495745,2026-07-14
+expenditure,2026-02-09,Deontae Dowdell,"$2,500",Richmond,VA,individual,Legislative Services,D,495745,2026-07-14
+expenditure,2026-02-20,Deontae Dowdell,"$2,500",Richmond,VA,individual,Legislative Services,D,495745,2026-07-14
+expenditure,2026-03-09,Deontae Dowdell,"$2,500",Richmond,VA,individual,Legislative Services,D,495745,2026-07-14
+expenditure,2026-03-10,Common House Richmond,"$3,115.51",Richmond,VA,pac,General Assembly Dinner,D,495745,2026-07-14
+expenditure,2026-03-18,Common House Richmond,"$3,888.70",Richmond,VA,pac,General Assembly Dinner,D,495745,2026-07-14
+expenditure,2026-04-14,Sister to Sister Community Organization,$250,Newport News,VA,pac,Donation,D,495745,2026-07-14
+expenditure,2026-05-06,Hampton Alumnae Chapter Delta Sigma Theta,"$2,000",Hampton,VA,pac,DREF Donation/Sponsorship,D,495745,2026-07-14
+expenditure,2026-06-30,Boys and Girls Club,$100,Hampton,VA,pac,Donation,D,495745,2026-07-14
+expenditure,2026-01-13,Deluxe Business Systems,$343.49,Cleveland,OH,pac,Business Checks/Products,D,495745,2026-07-14

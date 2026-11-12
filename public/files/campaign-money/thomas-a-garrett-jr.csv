@@ -1,0 +1,95 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$13,327.52",,VA,,"From official Schedule H, November 2027 election cycle",H,497465,2026-07-16
+summary,2026-06-30,Raised this cycle,"$20,000",,,,Total receipts this election cycle (Schedule H),H,497465,2026-07-16
+summary,2026-06-30,Spent this cycle,"$12,486.91",,,,Total disbursements this election cycle (Schedule H),H,497465,2026-07-16
+contribution,2026-01-09,Virginia Cable Politcal Action Committee,$500,Richmond,VA,pac,,A,497465,2026-07-16
+contribution,2026-01-05,"Tenaska Partners,n L.P","$1,000",Omaha,NE,pac,,A,497465,2026-07-16
+contribution,2026-04-24,Altria Client Services,"$1,000",Richmond,VA,pac,,A,497465,2026-07-16
+contribution,2026-01-12,Dominion Electric PAC,"$10,000",Richmond,VA,pac,,A,497465,2026-07-16
+contribution,2026-06-03,Dominion Electric PAC,"$5,000",Richmond,VA,pac,,A,497465,2026-07-16
+contribution,2026-01-12,Virginia Manufactured & Modular Housing Association PAC,$500,Henrico,VA,pac,,A,497465,2026-07-16
+contribution,2026-01-12,Virginia Manufactured & Modular Housing Association PAC,$500,Henrico,VA,pac,,A,497465,2026-07-16
+contribution,2026-01-01,"Arrow International, INC",$500,Cleveland,OH,pac,,A,497465,2026-07-16
+contribution,2026-04-22,Virginia Farm Bureau,$500,Richmond,VA,pac,,A,497465,2026-07-16
+contribution,2026-01-08,Virginia Bankers Association,$500,Glen Allen,VA,pac,,A,497465,2026-07-16
+expenditure,2026-01-12,Amazon,$45.57,Seattle,WA,pac,Office Supplies,D,497465,2026-07-16
+expenditure,2026-01-20,Amazon,$69.23,Seattle,WA,pac,Office Supplies,D,497465,2026-07-16
+expenditure,2026-01-20,Amazon,$50.08,Seattle,WA,pac,Office Supplies,D,497465,2026-07-16
+expenditure,2026-01-20,Amazon,$39.96,Seattle,WA,pac,Office Supplies,D,497465,2026-07-16
+expenditure,2026-06-04,Amazon,$43.54,Seattle,WA,pac,Office Supplies,D,497465,2026-07-16
+expenditure,2026-06-05,Amazon,$144.25,Seattle,WA,pac,Office Supplies,D,497465,2026-07-16
+expenditure,2026-01-14,Wal-Mart,$39.45,Lynchburg,VA,pac,Office Supplies,D,497465,2026-07-16
+expenditure,2026-04-13,The UPS Store,$17.40,Charlottesville,VA,pac,mail,D,497465,2026-07-16
+expenditure,2026-01-29,Exxon,$35.71,Charlottesville,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-02-09,Exxon,$49,Charlottesville,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-03-03,Exxon,$48.01,Charlottesville,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-06-05,Exxon,$27.01,Charlottesville,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-01-13,CityParking INC,$8,Richmond,VA,pac,Parking,D,497465,2026-07-16
+expenditure,2026-01-14,CityParking INC,$8,Richmond,VA,pac,Parking,D,497465,2026-07-16
+expenditure,2026-02-19,CityParking INC,$20,Richmond,VA,pac,Parking,D,497465,2026-07-16
+expenditure,2026-02-23,CityParking INC,$4,Richmond,VA,pac,parking,D,497465,2026-07-16
+expenditure,2026-04-22,CityParking INC,$32,Richmond,VA,pac,Parking,D,497465,2026-07-16
+expenditure,2026-01-13,Wawa,$42.41,Richmond,VA,pac,Gas,D,497465,2026-07-16
+expenditure,2026-01-20,Wawa,$36,Richmond,VA,pac,Gas,D,497465,2026-07-16
+expenditure,2026-01-22,Wawa,$41.14,Richmond,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-01-23,Wawa,$33.02,Richmond,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-02-24,Wawa,$40,Richmond,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-01-20,Drury Plaza Hotel Richmond,$237.55,Glen Allen,VA,pac,Hotel,D,497465,2026-07-16
+expenditure,2026-02-11,Drury Plaza Hotel Richmond,$276.72,Glen Allen,VA,pac,hotel,D,497465,2026-07-16
+expenditure,2026-02-17,Drury Plaza Hotel Richmond,$174.41,Glen Allen,VA,pac,hotel,D,497465,2026-07-16
+expenditure,2026-01-07,Costco,"$1,599.80",Glen Allen,VA,pac,Office Supplies,D,497465,2026-07-16
+expenditure,2026-02-04,Sheetz,$36.19,Farmville,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-01-30,Hilton Richmond,$399.50,Richmond,VA,pac,hotel,D,497465,2026-07-16
+expenditure,2026-03-06,Hilton Richmond,$198.84,Richmond,VA,pac,hotel,D,497465,2026-07-16
+expenditure,2026-03-06,Hilton Richmond,$8.83,Richmond,VA,pac,hotel,D,497465,2026-07-16
+expenditure,2026-01-28,Meriwether's,$9.55,Richmond,VA,pac,Coffee,D,497465,2026-07-16
+expenditure,2026-04-23,Meriwether's,$4.85,Richmond,VA,pac,coffee,D,497465,2026-07-16
+expenditure,2026-04-23,Meriwether's,$9.10,Richmond,VA,pac,coffee,D,497465,2026-07-16
+expenditure,2026-01-12,Target,$26.88,Glen Allen,VA,pac,Office Supplies,D,497465,2026-07-16
+expenditure,2026-02-12,Treasurer of Virginia,$37,Richmond,VA,pac,flag,D,497465,2026-07-16
+expenditure,2026-01-15,Royal Mart,$37,Staunton,VA,pac,Gas,D,497465,2026-07-16
+expenditure,2026-02-27,Royal Mart,$40.01,Staunton,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-03-06,Royal Mart,$32,Staunton,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-06-03,Royal Mart,$46,Staunton,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-05-26,Tavern on the James,$105,Scottsville,VA,pac,Dinner,D,497465,2026-07-16
+expenditure,2026-04-22,The Market,$38,Scottsville,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-05-26,The Market,$11,Scottsville,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-02-12,Bookbinders Seafood and Restaurant,$244.45,Richmond,VA,pac,Dinner,D,497465,2026-07-16
+expenditure,2026-02-06,Cafe Rustica,$39.48,Richmond,VA,pac,Dinner,D,497465,2026-07-16
+expenditure,2026-06-03,Omni Hotsprings,$15.27,Hot Springs,VA,pac,hotel,D,497465,2026-07-16
+expenditure,2026-04-17,Staples,$149.46,Richmond,VA,pac,Office Supplies,D,497465,2026-07-16
+expenditure,2026-04-23,Staples,$90.15,Richmond,VA,pac,printing,D,497465,2026-07-16
+expenditure,2026-04-23,Staples,$70.98,Richmond,VA,pac,printing,D,497465,2026-07-16
+expenditure,2026-01-30,McDonalds,$7.75,Gordonsville,VA,pac,breakfast,D,497465,2026-07-16
+expenditure,2026-01-14,Pivot Parking,$35,Unknown,VA,pac,Parking,D,497465,2026-07-16
+expenditure,2026-04-24,Pivot Parking,$8,Unknown,VA,pac,parking,D,497465,2026-07-16
+expenditure,2026-06-23,Pivot Parking,$30,Unknown,VA,pac,parking,D,497465,2026-07-16
+expenditure,2026-06-30,Pivot Parking,$30,Unknown,VA,pac,parking,D,497465,2026-07-16
+expenditure,2026-01-07,Kanak Indian Kitchen,$50.07,Charlottesville,VA,pac,Lunch Meeting,D,497465,2026-07-16
+expenditure,2026-01-12,Thai Noodle House,$65.65,Charlottesville,VA,pac,Lunch Meeting,D,497465,2026-07-16
+expenditure,2026-01-20,Flow Hyundai of Charlottesville,$149.16,Charlottesville,VA,pac,Car maint.,D,497465,2026-07-16
+expenditure,2026-01-20,Krispy Kreme,$13.45,Richmond,VA,pac,Donuts,D,497465,2026-07-16
+expenditure,2026-01-26,BP,$42,Richmond,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-02-19,BP,$46.16,Richmond,VA,pac,gas,D,497465,2026-07-16
+expenditure,2026-01-27,CJ Blastos,"$1,250",Richmond,VA,individual,Session Aide,D,497465,2026-07-16
+expenditure,2026-02-24,CJ Blastos,$100,Richmond,VA,individual,session aide,D,497465,2026-07-16
+expenditure,2026-02-23,The Melting Pot,$296.58,Charlottesville,VA,pac,dinner,D,497465,2026-07-16
+expenditure,2026-03-06,Sticker Mule,$815.14,unknown,VA,pac,stickers,D,497465,2026-07-16
+expenditure,2026-03-06,Maharaja Fine,$121.38,Charlottesville,VA,pac,dinner,D,497465,2026-07-16
+expenditure,2026-04-16,Taylor Thomas,$600,Palmyra,VA,individual,Video Production,D,497465,2026-07-16
+expenditure,2026-05-19,Taylor Thomas,$500,Palmyra,VA,individual,Video Production,D,497465,2026-07-16
+expenditure,2026-04-20,Westin Hotel,"$1,500",Richmond,VA,pac,event space,D,497465,2026-07-16
+expenditure,2026-05-01,Westin Hotel,"$1,222.25",Richmond,VA,pac,event,D,497465,2026-07-16
+expenditure,2026-04-20,Guitar Center,$296.75,Richmond,VA,pac,sound equipment,D,497465,2026-07-16
+expenditure,2026-04-22,Guitar Center,$140.95,Richmond,VA,pac,sound equipment,D,497465,2026-07-16
+expenditure,2026-04-28,Farmville Meter,$1,farmville,VA,pac,parking,D,497465,2026-07-16
+expenditure,2026-04-28,Savour,$56.29,Farmville,VA,pac,dinner,D,497465,2026-07-16
+expenditure,2026-04-29,Asian Cafe,$30.69,Mineral,VA,pac,lunch,D,497465,2026-07-16
+expenditure,2026-05-04,The Butcher's Son,$136.36,Virginia Beach,VA,pac,dinner,D,497465,2026-07-16
+expenditure,2026-05-04,Shell,$90,Virginia Beach,VA,pac,Gas,D,497465,2026-07-16
+expenditure,2026-05-08,UVA Parking,$5,charlottesville,VA,pac,parking,D,497465,2026-07-16
+expenditure,2026-05-28,Google,$14.99,Richmond,VA,pac,Google,D,497465,2026-07-16
+expenditure,2026-06-08,Google,$5.50,Richmond,VA,pac,google,D,497465,2026-07-16
+expenditure,2026-06-29,Google,$14.99,Richmond,VA,pac,Google,D,497465,2026-07-16
+debt,2022-11-22,Jr Thomas A Garrett,$100,Scottsville,VA,individual,,F,497465,2026-07-16

@@ -29,3 +29,6 @@ public/files/search/ftm/
 # Built by tools/sitemap/build.mjs at vite build
 public/sitemap.xml
 tools/weekly/drafts/
+
+# Combined finance summary (site loads per-member JSON under src/content/finance-summaries/)
+src/content/finance-summaries.json

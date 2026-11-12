@@ -1,0 +1,71 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$53,015.25",,VA,,"From official Schedule H, November 2025 election cycle",H,497035,2026-07-15
+summary,2026-06-30,Raised this cycle,"$30,955.02",,,,Total receipts this election cycle (Schedule H),H,497035,2026-07-15
+summary,2026-06-30,Spent this cycle,"$42,422.77",,,,Total disbursements this election cycle (Schedule H),H,497035,2026-07-15
+contribution,2025-11-30,Gera Williams,$10,Richmond,VA,individual,,A,480091,2026-01-15
+contribution,2025-12-28,Gera Williams,$10,Richmond,VA,individual,,A,480091,2026-01-15
+contribution,2025-12-28,Thad Williamson,$10,Richmond,VA,individual,,A,480091,2026-01-15
+contribution,2025-11-30,Keir Rocha,$25,North Bay Village,FL,individual,,A,480091,2026-01-15
+contribution,2025-12-31,Keir Rocha,$25,North Bay Village,FL,individual,,A,480091,2026-01-15
+contribution,2026-01-12,Allen Allen Allen & Allen,"$1,000",Richmond,VA,pac,,A,497035,2026-07-15
+contribution,2026-01-13,Altria Client Services,"$2,500",Richmond,VA,pac,,A,497035,2026-07-15
+contribution,2026-06-30,Altria Client Services,"$1,500",Richmond,VA,pac,,A,497035,2026-07-15
+contribution,2026-06-30,Anheuser Busch Companies,$250,Saint Louis,MO,pac,,A,497035,2026-07-15
+contribution,2026-01-07,Arrow International,$500,Cleveland,OH,pac,,A,497035,2026-07-15
+contribution,2026-04-21,Clean Virginia,"$10,000",Charlottesville,VA,pac,,A,497035,2026-07-15
+contribution,2026-06-30,Comcast Financial Agency Corporation,$500,Philadelphia,PA,pac,,A,497035,2026-07-15
+contribution,2026-01-13,Comstock Hospitality Holdings,"$5,000",Reston,VA,pac,,A,497035,2026-07-15
+contribution,2026-01-07,Gary Hershner,$250,Richmond,VA,individual,,A,497035,2026-07-15
+contribution,2026-04-01,Historic Richmond Properties,$500,Richmond,VA,pac,,A,497035,2026-07-15
+contribution,2026-01-12,IBEW PAC Voluntary Fund,"$1,000",Washington,DC,pac,,A,497035,2026-07-15
+contribution,2026-01-12,IBEW PAC Voluntary Fund,$750,Washington,DC,pac,,A,497035,2026-07-15
+contribution,2026-04-01,Jushi Inc,"$1,000",Boca Raton,FL,pac,,A,497035,2026-07-15
+contribution,2026-01-07,Metro Virginia PAC,$500,Washington,DC,pac,,A,497035,2026-07-15
+contribution,2026-04-03,Organizing for VA Seniors,"$1,000",Fairfax,VA,pac,,A,497035,2026-07-15
+contribution,2026-04-01,Virginia Banker's Association State PAC,"$1,500",Glen Allen,VA,pac,,A,497035,2026-07-15
+contribution,2026-01-07,Virginia Cable Political Action Committee,$500,Richmond,VA,pac,,A,497035,2026-07-15
+contribution,2026-04-01,Virginia Farm Bureau Federation PAC,$500,Richmond,VA,pac,,A,497035,2026-07-15
+contribution,2026-01-12,Virginia Housing Coalition,"$1,000",Richmond,VA,pac,,A,497035,2026-07-15
+contribution,2026-01-12,Virginia Sheriffs' Association Political Action Committee,$500,Richmond,VA,pac,,A,497035,2026-07-15
+contribution,2026-01-07,VOW PAC,$500,Richmond,VA,pac,,A,497035,2026-07-15
+expenditure,2025-11-30,ActBlue,$1.39,Somerville,MA,pac,Credit Card Processing Fees,D,480091,2026-01-15
+expenditure,2025-12-02,Google,$33.60,Mountain View,CA,pac,Email Services,D,480091,2026-01-15
+expenditure,2025-12-07,ActBlue,$5.93,Somerville,MA,pac,Credit Card Processing Fees,D,480091,2026-01-15
+expenditure,2025-12-22,Intuit,$40.28,Mountain View,CA,pac,Software,D,480091,2026-01-15
+expenditure,2025-12-28,ActBlue,$0.80,Somerville,MA,pac,Credit Card Processing Fees,D,480091,2026-01-15
+expenditure,2025-12-31,ActBlue,$0.99,Somerville,MA,pac,Credit Card Processing Fees,D,480091,2026-01-15
+expenditure,2026-01-01,Eric Steigleder,"$1,500",Richmond,VA,individual,Communications Consulting,D,497035,2026-07-15
+expenditure,2026-01-02,Google,$33.60,Mountain View,CA,pac,Email Services,D,497035,2026-07-15
+expenditure,2026-01-12,KG LLC,"$5,250",Washington,DC,pac,Compliance Services,D,497035,2026-07-15
+expenditure,2026-01-12,Julianne McFarland,"$2,800.25",Richmond,VA,individual,Campaign Services,D,497035,2026-07-15
+expenditure,2026-01-12,Printersmark,"$1,110.34",Richmond,VA,pac,Printing,D,497035,2026-07-15
+expenditure,2026-01-15,Erin Trimmer,$966,Midlothian,VA,individual,Session Aide,D,497035,2026-07-15
+expenditure,2026-01-22,Intuit,$40.28,Mountain View,CA,pac,Software,D,497035,2026-07-15
+expenditure,2026-02-02,Google,$33.60,Mountain View,CA,pac,Email Services,D,497035,2026-07-15
+expenditure,2026-02-23,Intuit,$40.28,Mountain View,CA,pac,Software,D,497035,2026-07-15
+expenditure,2026-03-02,Google,$33.60,Mountain View,CA,pac,Email Services,D,497035,2026-07-15
+expenditure,2026-03-22,ActBlue,$0.40,Somerville,MA,pac,Credit Card Processing Fees,D,497035,2026-07-15
+expenditure,2026-03-23,Evinco Strategies,"$18,350.32",San Diego,CA,pac,Fundraising Consulting,D,497035,2026-07-15
+expenditure,2026-03-23,Intuit,$40.28,Mountain View,CA,pac,Software,D,497035,2026-07-15
+expenditure,2026-03-29,ActBlue,$1.39,Somerville,MA,pac,Credit Card Processing Fees,D,497035,2026-07-15
+expenditure,2026-04-02,Google,$33.60,Mountain View,CA,pac,Email Services,D,497035,2026-07-15
+expenditure,2026-04-03,Living the Dream Inc,$200,Richmond,VA,pac,Contribution,D,497035,2026-07-15
+expenditure,2026-04-09,Virginia Legislative Black Caucus,"$1,500",Richmond,VA,pac,Contribution,D,497035,2026-07-15
+expenditure,2026-04-13,Eric Steigleder,"$1,000",Richmond,VA,individual,Communications Consulting,D,497035,2026-07-15
+expenditure,2026-04-21,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Contribution,D,497035,2026-07-15
+expenditure,2026-04-22,Intuit,$40.28,Mountain View,CA,pac,Software,D,497035,2026-07-15
+expenditure,2026-04-26,ActBlue,$0.80,Somerville,MA,pac,Credit Card Processing Fees,D,497035,2026-07-15
+expenditure,2026-05-01,Staples,$52.88,Richmond,VA,pac,Office Supplies,D,497035,2026-07-15
+expenditure,2026-05-03,ActBlue,$0.99,Somerville,MA,pac,Credit Card Processing Fees,D,497035,2026-07-15
+expenditure,2026-05-04,Google,$33.60,Mountain View,CA,pac,Email Services,D,497035,2026-07-15
+expenditure,2026-05-19,Lee's Famous,$317.80,Richmond,VA,pac,Catering/Events,D,497035,2026-07-15
+expenditure,2026-05-22,Intuit,$40.28,Mountain View,CA,pac,Software,D,497035,2026-07-15
+expenditure,2026-05-24,ActBlue,$0.80,Somerville,MA,pac,Credit Card Processing Fees,D,497035,2026-07-15
+expenditure,2026-05-26,Wix.com,$204,New York,NY,pac,Website Hosting,D,497035,2026-07-15
+expenditure,2026-05-31,ActBlue,$0.99,Somerville,MA,pac,Credit Card Processing Fees,D,497035,2026-07-15
+expenditure,2026-06-02,Google,$33.60,Mountain View,CA,pac,Email Services,D,497035,2026-07-15
+expenditure,2026-06-09,Commonwealth Victory Fund,"$1,220.74",Richmond,VA,pac,Contribution,D,497035,2026-07-15
+expenditure,2026-06-22,Intuit,$40.28,Mountain View,CA,pac,Software,D,497035,2026-07-15
+expenditure,2026-06-28,ActBlue,$0.80,Somerville,MA,pac,Credit Card Processing Fees,D,497035,2026-07-15
+expenditure,2026-06-30,ActBlue,$0.99,Somerville,MA,pac,Credit Card Processing Fees,D,497035,2026-07-15

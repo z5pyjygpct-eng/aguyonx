@@ -1,0 +1,169 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$76,654.39",,VA,,"From official Schedule H, November 2027 election cycle",H,495571,2026-07-14
+summary,2026-06-30,Raised this cycle,"$115,696",,,,Total receipts this election cycle (Schedule H),H,495571,2026-07-14
+summary,2026-06-30,Spent this cycle,"$146,925.40",,,,Total disbursements this election cycle (Schedule H),H,495571,2026-07-14
+contribution,2026-04-23,Virginia Farm Bureau AgPAC,$500,Richmond,VA,pac,,A,495571,2026-07-14
+contribution,2026-01-13,Virginia Oil and Gas Association PAC,"$1,000",Abingdon,VA,pac,,A,495571,2026-07-14
+contribution,2026-05-19,Virginia Automobile & Truck Dealers Association PAC (VADA),"$1,000",Richmond,VA,pac,,A,495571,2026-07-14
+contribution,2026-01-13,Virginia Cable Telecommunications Association  (VCTA PAC),"$5,000",Richmond,VA,pac,,A,495571,2026-07-14
+contribution,2026-05-27,Virginia Cable Telecommunications Association  (VCTA PAC),"$1,000",Richmond,VA,pac,,A,495571,2026-07-14
+contribution,2026-06-26,Altria Client Services Inc.,"$7,500",Richmond,VA,pac,,A,495571,2026-07-14
+contribution,2026-05-27,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,495571,2026-07-14
+contribution,2026-05-19,Huntington Ingalls Industries,"$2,500",Newport News,VA,pac,,A,495571,2026-07-14
+contribution,2026-06-12,Virginia Beverage Association PAC,"$1,500",Richmond,VA,pac,,A,495571,2026-07-14
+contribution,2026-06-12,Virginia Wine Wholesalers Association PAC,"$6,500",Richmond,VA,pac,,A,495571,2026-07-14
+contribution,2026-06-12,Virginia Dental Association VADPAC,"$3,500",Henrico,VA,pac,,A,495571,2026-07-14
+contribution,2026-04-23,Mrs. Eva T. Hardy,"$1,500",Richmond,VA,individual,,A,495571,2026-07-14
+contribution,2026-01-09,Humana Inc.,"$1,000",Louisville,KY,pac,,A,495571,2026-07-14
+contribution,2026-01-13,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,A,495571,2026-07-14
+contribution,2026-05-27,Truckers PAC of Virginia,$250,Richmond,VA,pac,,A,495571,2026-07-14
+contribution,2026-01-13,Virginia Apartment Management Association PAC,$500,Henrico,VA,pac,,A,495571,2026-07-14
+contribution,2026-04-23,Dr. William L. Murray,"$2,500",Henrico,VA,individual,,A,495571,2026-07-14
+contribution,2026-01-02,Wiley for Delegate,"$8,000",Winchester,VA,candidate,,A,495571,2026-07-14
+contribution,2026-01-13,Metallurgical Coal Producers Association,"$1,500",Lebanon,VA,pac,,A,495571,2026-07-14
+contribution,2026-01-02,Ballard for Delegate,"$15,000",Pearisburg,VA,candidate,,A,495571,2026-07-14
+contribution,2026-06-12,American Electric Power Committee for Responsible Government,"$2,000",Washington,DC,pac,,A,495571,2026-07-14
+contribution,2026-01-13,Virginia Operators for Skill,"$5,000",Richmond,VA,pac,,A,495571,2026-07-14
+contribution,2026-06-12,Turman Lumber Company Inc.,"$2,500",Riner,VA,pac,,A,495571,2026-07-14
+contribution,2026-01-13,Dimension Energy LLC,$500,Atlanta,GA,pac,,A,495571,2026-07-14
+contribution,2026-01-13,PRA Group Inc.,"$1,000",Norfolk,VA,pac,,A,495571,2026-07-14
+contribution,2026-01-02,Will Davis for Delegate,"$8,000",Rocky Mount,VA,candidate,,A,495571,2026-07-14
+contribution,2026-01-12,Scott Greenblatt,"$1,500",Pinehurst,NC,individual,,A,495571,2026-07-14
+contribution,2026-01-13,OneMain General Services Corp.,"$1,500",Irving,TX,pac,,A,495571,2026-07-14
+contribution,2026-01-13,National Coalition of Associations of 7-Eleven Franchisees,"$5,000",Ceres,CA,pac,,A,495571,2026-07-14
+contribution,2026-01-13,Karmin A. Pace,"$5,000",Chattanooga,TN,individual,,A,495571,2026-07-14
+contribution,2026-01-13,Carbon Solutions Group,"$1,000",Chicago,IL,pac,,A,495571,2026-07-14
+contribution,2026-01-13,VSP Vision,"$1,000",Rancho Cordova,CA,pac,,A,495571,2026-07-14
+contribution,2026-01-13,Paul Goldean,"$2,500",Charlotte,NC,individual,,A,495571,2026-07-14
+contribution,2026-01-13,First American Title Insurance Company,"$2,000",Scottsdale,AZ,pac,,A,495571,2026-07-14
+contribution,2026-01-13,Rocket LLC,"$2,000",Detroit,MI,pac,,A,495571,2026-07-14
+contribution,2026-06-09,Rocket LLC,"$1,500",Detroit,MI,pac,,A,495571,2026-07-14
+contribution,2026-04-07,Eye PAC,"$1,000",Richmond,VA,pac,,A,495571,2026-07-14
+contribution,2026-06-02,Stephen Mullins,$200,Clintwood,VA,individual,,A,495571,2026-07-14
+contribution,2026-05-19,Valicy Inc.,"$1,000",Greenville,NC,pac,,A,495571,2026-07-14
+contribution,2026-06-12,National Shooting Sports Foundation,"$1,000",Shelton,CT,pac,,A,495571,2026-07-14
+contribution,2026-06-26,Virginia CRNAs Who Care About Healthcare PAC,"$1,000",Roanoke,VA,pac,,A,495571,2026-07-14
+in_kind,2026-03-20,Republican Party of Virginia Inc.,"$7,566",Richmond,VA,party,"Printing, postage and mailing",B,495571,2026-07-14
+other_receipt,2026-03-31,Scott County VA Star,$65,Gate City,VA,pac,Stale check never cashed,C,495571,2026-07-14
+other_receipt,2026-03-31,Scott County VA Star,$240,Gate City,VA,pac,Stale check never cashed,C,495571,2026-07-14
+other_receipt,2026-03-31,Scott County VA Star,$125,Gate City,VA,pac,Stale check never cashed,C,495571,2026-07-14
+expenditure,2026-01-09,Scott County VA Star,$804.50,Gate City,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-01-09,Scott County VA Star,$125,Gate City,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-01-09,Scott County VA Star,$65,Gate City,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-01-09,Scott County VA Star,$178,Gate City,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-01-09,Scott County VA Star,$375,Gate City,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-01-09,Scott County VA Star,$579.50,Gate City,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-02-17,Scott County VA Star,$150,Gate City,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-04-07,Scott County VA Star,$264.50,Gate City,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-06-10,Scott County VA Star,$539,Gate City,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-06-10,Scott County VA Star,$275,Gate City,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-04-07,Coalfield Progress,$325,Norton,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-04-06,Terry G. Kilgore,$250.85,Gate City,VA,individual,Mileage reimbursement,D,495571,2026-07-14
+expenditure,2026-04-27,Terry G. Kilgore,$498.14,Gate City,VA,individual,Reimbursement for equipment,D,495571,2026-07-14
+expenditure,2026-04-27,Terry G. Kilgore,$179.69,Gate City,VA,individual,Reimbursement for dinner,D,495571,2026-07-14
+expenditure,2026-04-27,Terry G. Kilgore,$313.20,Gate City,VA,individual,Mileage reimbursement,D,495571,2026-07-14
+expenditure,2026-05-26,Terry G. Kilgore,"$1,400.70",Gate City,VA,individual,Mileage reimbursement,D,495571,2026-07-14
+expenditure,2026-06-10,Terry G. Kilgore,$361.05,Gate City,VA,individual,Mileage reimbursement,D,495571,2026-07-14
+expenditure,2026-04-24,Gate City High School,$500,Gate City,VA,pac,Donation,D,495571,2026-07-14
+expenditure,2026-01-09,Rye Cove Band Boosters,$200,Gate City,VA,pac,Donation,D,495571,2026-07-14
+expenditure,2026-02-17,The Post,$275,Big Stone Gap,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-06-10,The Post,$45,Big Stone Gap,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-01-09,Powell Valley Printing,$55,Pennington Gap,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-01-09,Powell Valley Printing,$175,Pennington Gap,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-01-09,Powell Valley Printing,$105,Pennington Gap,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-06-10,Powell Valley Printing,$105,Pennington Gap,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-06-10,Town of Dungannon,$200,Dungannon,VA,pac,Parade donation,D,495571,2026-07-14
+expenditure,2026-01-29,Republican Party of Virginia Inc.,"$7,500",Richmond,VA,party,Donation,D,495571,2026-07-14
+expenditure,2026-03-02,Republican Party of Virginia Inc.,"$9,000",Richmond,VA,party,Donation,D,495571,2026-07-14
+expenditure,2026-03-30,Postmaster,$11.50,Gate City,VA,pac,Postage,D,495571,2026-07-14
+expenditure,2026-04-07,Postmaster,$225,Gate City,VA,pac,Postage,D,495571,2026-07-14
+expenditure,2026-05-21,Postmaster,$17.61,Gate City,VA,pac,Postage,D,495571,2026-07-14
+expenditure,2026-02-05,Scott County Telephone,$113.19,Gate City,VA,pac,Telephone service,D,495571,2026-07-14
+expenditure,2026-04-07,Scott County Telephone,$227.97,Gate City,VA,pac,Telephone service,D,495571,2026-07-14
+expenditure,2026-05-06,Scott County Telephone,$113.08,Gate City,VA,pac,Telephone service,D,495571,2026-07-14
+expenditure,2026-06-10,Scott County Telephone,$113.08,Gate City,VA,pac,Telephone service,D,495571,2026-07-14
+expenditure,2026-05-21,Forest Consulting Services,$242.10,Richmond,VA,pac,"Tax Forms preparation, distribution and e-filing",D,495571,2026-07-14
+expenditure,2026-04-16,Rye Cove High School,$500,Duffield,VA,pac,Donation,D,495571,2026-07-14
+expenditure,2026-04-27,Twin Springs High School,$100,Nickelsville,VA,pac,Donation,D,495571,2026-07-14
+expenditure,2026-01-08,Valley Broadcasting & Communications,$750,Norton,VA,pac,Advertising sponsor,D,495571,2026-07-14
+expenditure,2026-01-08,Valley Broadcasting & Communications,$450,Norton,VA,pac,Advertising sponsor,D,495571,2026-07-14
+expenditure,2026-01-09,Valley Broadcasting & Communications,$125,Norton,VA,pac,Advertising sponsor,D,495571,2026-07-14
+expenditure,2026-02-17,Valley Broadcasting & Communications,$425,Norton,VA,pac,Advertising sponsor,D,495571,2026-07-14
+expenditure,2026-04-07,Valley Broadcasting & Communications,$600,Norton,VA,pac,Advertising,D,495571,2026-07-14
+expenditure,2026-03-30,Teresa Cress,$125,Gate City,VA,individual,Office work,D,495571,2026-07-14
+expenditure,2026-03-30,Teresa Cress,$408,Gate City,VA,individual,Office work,D,495571,2026-07-14
+expenditure,2026-05-21,Teresa Cress,$355,Gate City,VA,individual,Office work,D,495571,2026-07-14
+expenditure,2026-05-21,Teresa Cress,$250,Gate City,VA,individual,Campaign work,D,495571,2026-07-14
+expenditure,2026-04-07,Southern Graphics,$657.94,Gate City,VA,pac,Printing,D,495571,2026-07-14
+expenditure,2026-05-06,Bobby May Advertising Specialties,"$1,882.22",Hurley,VA,pac,Campaign materials,D,495571,2026-07-14
+expenditure,2026-01-02,Farmers & Miners Bank,$30,Pennington Gap,VA,pac,Banking services,D,495571,2026-07-14
+expenditure,2026-01-27,Farmers & Miners Bank,$15,Pennington Gap,VA,pac,Banking services,D,495571,2026-07-14
+expenditure,2026-02-27,Farmers & Miners Bank,$15,Pennington Gap,VA,pac,Banking services,D,495571,2026-07-14
+expenditure,2026-01-09,Scott County Telephone Co-op,$112.32,Gate City,VA,pac,Telephone service,D,495571,2026-07-14
+expenditure,2026-05-27,Jericho Shriners,$25,Kingsport,TN,pac,Donation,D,495571,2026-07-14
+expenditure,2026-04-07,Lee County Sheriff's Office,$100,Jonesville,VA,pac,Donation,D,495571,2026-07-14
+expenditure,2026-04-07,Amazon.com,$102.31,Seattle,WA,pac,Event supplies,D,495571,2026-07-14
+expenditure,2026-04-07,Amazon.com,$107.95,Seattle,WA,pac,Office supplies,D,495571,2026-07-14
+expenditure,2026-05-06,Sam's Club,$674.85,Bristol,VA,pac,Office supplies,D,495571,2026-07-14
+expenditure,2026-05-21,Sam's Club,$97.73,Bristol,VA,pac,Office supplies,D,495571,2026-07-14
+expenditure,2026-01-12,Anedot,$60.30,Baton Rouge,LA,pac,Credit card processing fees,D,495571,2026-07-14
+expenditure,2026-06-02,Anedot,$8.30,Baton Rouge,LA,pac,Credit card processing fees,D,495571,2026-07-14
+expenditure,2026-06-10,Duffield Daze,$100,Duffield,VA,pac,Donation,D,495571,2026-07-14
+expenditure,2026-02-12,Augustus B. Chafin,"$5,000",Lebanon,VA,individual,Campaign work,D,495571,2026-07-14
+expenditure,2026-03-11,Augustus B. Chafin,$47.14,Lebanon,VA,individual,Reimbursement for candy,D,495571,2026-07-14
+expenditure,2026-03-11,Augustus B. Chafin,"$4,000",Lebanon,VA,individual,Session work,D,495571,2026-07-14
+expenditure,2026-01-29,Red Maverick Media,$680,Harrisburg,PA,pac,Campaign materials,D,495571,2026-07-14
+expenditure,2026-01-29,Red Maverick Media,"$3,415",Harrisburg,PA,pac,Campaign materials,D,495571,2026-07-14
+expenditure,2026-01-29,Red Maverick Media,"$3,415",Harrisburg,PA,pac,Campaign materials,D,495571,2026-07-14
+expenditure,2026-04-07,Norton,$69.99,Mountain View,CA,pac,Software subscription,D,495571,2026-07-14
+expenditure,2026-02-12,Hilton Hotel Short Pump,$221.40,Richmond,VA,pac,Travel expense,D,495571,2026-07-14
+expenditure,2026-03-11,Walmart,$3.98,Grundy,VA,pac,Office supplies,D,495571,2026-07-14
+expenditure,2026-03-11,Walmart,$61.29,Grundy,VA,pac,Office supplies,D,495571,2026-07-14
+expenditure,2026-05-21,Walmart,$28.88,Grundy,VA,pac,Office supplies,D,495571,2026-07-14
+expenditure,2026-04-14,Point of Friction PAC,"$2,500",Christiansburg,VA,pac,Donation,D,495571,2026-07-14
+expenditure,2026-04-07,Microsoft,$99.99,Redmond,WA,pac,Software subscription,D,495571,2026-07-14
+expenditure,2026-01-02,Hayley Allison,"$4,500",Cedar Bluff,VA,individual,Campaign work,D,495571,2026-07-14
+expenditure,2026-01-09,Hayley Allison,"$4,500",Cedar Bluff,VA,individual,Campaign work,D,495571,2026-07-14
+expenditure,2026-02-17,Hayley Allison,$711,Cedar Bluff,VA,individual,Expense reimbursement,D,495571,2026-07-14
+expenditure,2026-03-02,Hayley Allison,"$4,500",Cedar Bluff,VA,individual,Session work,D,495571,2026-07-14
+expenditure,2026-04-07,Hayley Allison,"$4,500",Cedar Bluff,VA,individual,Consulting fees,D,495571,2026-07-14
+expenditure,2026-04-07,Hayley Allison,$503.15,Cedar Bluff,VA,individual,Mileage reimbursement,D,495571,2026-07-14
+expenditure,2026-04-27,Hayley Allison,"$1,422",Cedar Bluff,VA,individual,Per diem,D,495571,2026-07-14
+expenditure,2026-04-27,Hayley Allison,"$4,500",Cedar Bluff,VA,individual,Consulting fees,D,495571,2026-07-14
+expenditure,2026-05-06,Hayley Allison,$768.50,Cedar Bluff,VA,individual,Mileage reimbursement,D,495571,2026-07-14
+expenditure,2026-05-19,Hayley Allison,"$4,500",Cedar Bluff,VA,individual,Consulting fees,D,495571,2026-07-14
+expenditure,2026-05-26,Hayley Allison,"$1,222.35",Cedar Bluff,VA,individual,Mileage reimbursement,D,495571,2026-07-14
+expenditure,2026-06-10,Hayley Allison,"$4,500",Cedar Bluff,VA,individual,Campaign work,D,495571,2026-07-14
+expenditure,2026-06-26,Hayley Allison,"$1,222.35",Cedar Bluff,VA,individual,Mileage reimbursement,D,495571,2026-07-14
+expenditure,2026-02-06,Virginia FCCLA Leadership Foundation,$400,Glen Allen,VA,pac,Donation,D,495571,2026-07-14
+expenditure,2026-02-17,Pivot Parking,$735,Richmond,VA,pac,Parking,D,495571,2026-07-14
+expenditure,2026-04-07,Pivot Parking,$665,Richmond,VA,pac,Parking,D,495571,2026-07-14
+expenditure,2026-06-26,Google,$209.74,Mountain View,CA,pac,Software fees,D,495571,2026-07-14
+expenditure,2026-04-07,Washington Post,$120,Washington,DC,pac,Subscription,D,495571,2026-07-14
+expenditure,2026-04-27,Target - Richmond,$176.48,Richmond,VA,pac,Event expenses,D,495571,2026-07-14
+expenditure,2026-06-26,Mailchimp,$318,Atlanta,GA,pac,Email services,D,495571,2026-07-14
+expenditure,2026-05-06,Dickenson County Sheriffs Office,$500,Clintwood,VA,pac,Donation,D,495571,2026-07-14
+expenditure,2026-04-27,Canva,$119.99,"Surry Hills, New South Wales, Australia",,pac,Software fees,D,495571,2026-07-14
+expenditure,2026-02-17,Vogue Flowers,$147.40,Richmond,VA,pac,Flowers,D,495571,2026-07-14
+expenditure,2026-04-07,Meriwether's,$24.40,Richmond,VA,pac,Food,D,495571,2026-07-14
+expenditure,2026-02-12,Sam's Club - Richmond,$163.78,Richmond,VA,pac,Office supplies,D,495571,2026-07-14
+expenditure,2026-03-25,Knights Consulting LLC,"$1,000",Nora,VA,pac,Consulting fees,D,495571,2026-07-14
+expenditure,2026-01-27,Cygnal (IFA Holdings LLC),"$30,000",Washington,DC,pac,Polling,D,495571,2026-07-14
+expenditure,2026-01-27,Chalmers Adams Backer & Wallen LLC,"$3,423.92",Fairfax,VA,pac,Legal services,D,495571,2026-07-14
+expenditure,2026-02-17,Staples,$289.37,Richmond,VA,pac,Office supplies,D,495571,2026-07-14
+expenditure,2026-02-17,Chick-Fil-A,$100,Richmond,VA,pac,Food,D,495571,2026-07-14
+expenditure,2026-04-07,Chick-Fil-A,$105.25,Richmond,VA,pac,Food,D,495571,2026-07-14
+expenditure,2026-04-07,Chick-Fil-A,$167.21,Richmond,VA,pac,Food,D,495571,2026-07-14
+expenditure,2026-02-24,Freedom 1776 PAC,"$1,000",Duffield,VA,pac,Donation,D,495571,2026-07-14
+expenditure,2026-02-27,Friends of Andrew Rice,"$5,000",Virginia Beach,VA,pac,Campaign contribution,D,495571,2026-07-14
+expenditure,2026-03-09,House & Donovan LLC,$300,Norfolk,VA,pac,Consulting fees,D,495571,2026-07-14
+expenditure,2026-03-11,CostCo.,$10.48,Glen Allen,VA,pac,Office supplies,D,495571,2026-07-14
+expenditure,2026-04-06,Tobacco Company Restaurant,$704.26,Richmond,VA,pac,Meeting expenses,D,495571,2026-07-14
+expenditure,2026-04-06,Hyatt Virginia Beach,$216.96,Virginia Beach,VA,pac,Lodging,D,495571,2026-07-14
+expenditure,2026-04-07,Bonchon Restaurant,$145.16,Midlothian,VA,pac,Food,D,495571,2026-07-14
+expenditure,2026-04-07,Event Brite Inc.,$30.09,San Francisco,CA,pac,Office expense,D,495571,2026-07-14
+expenditure,2026-05-06,Taylor Thomas,"$1,000",Palmyra,VA,individual,Consulting fees,D,495571,2026-07-14
+expenditure,2026-06-08,Dickenson County Republican Party,$500,Nora,VA,party,Donation,D,495571,2026-07-14
+expenditure,2026-06-09,Agora Solutions LLC,$410.31,Miami,FL,pac,Communications,D,495571,2026-07-14
+expenditure,2026-06-08,Giles County Republican Committee,$500,Pearisburg,VA,pac,Donation,D,495571,2026-07-14

@@ -7,6 +7,7 @@ import { GA_CONTACT_GENERATED, GA_MEMBER_CONTACT } from "@/content/ga-member-con
 import { GA_DASHBOARD } from "@/lib/ga-dashboard";
 import { billSentenceParts, breakdownBills, coPatronTotal, dateLabel, isHonorResolution, joinPlain, type BillBreakdown } from "@/lib/ga-member-stats";
 import { campaignMoneyLink } from "@/lib/campaign-money";
+import { CampaignMoneySection } from "@/components/site/money-card";
 
 export type GaBill = { session: string; bill: string; title: string; outcome: "signed" | "vetoed" | "passed" | "failed" | "tabled"; status: string; statusDate: string; subjects: string[]; categories?: string[]; href: string };
 export type GaCounts = { total: number; passed: number; signed: number; vetoed: number; passedNoGovAction: number; failed: number; tabled: number };
@@ -104,7 +105,7 @@ function HeroActions({ m }: { m: GaMember }) {
         {c?.phone ? <a href={`tel:${c.phone.replace(/[^\d]/g, "")}`} className={HERO_BTN_MAIN}><Phone className="size-4" aria-hidden />Call {c.phone}</a> : null}
         {c?.email ? <a href={`mailto:${c.email}`} aria-label={`Email ${c.email}`} className={HERO_BTN}><Mail className="size-4" aria-hidden />Email the office</a> : null}
         <a href={lisPage} target="_blank" rel="noreferrer" className={HERO_BTN}><Landmark className="size-4" aria-hidden />LIS member page<ExternalLink className="size-3" aria-hidden /></a>
-        {money ? <a href={money.href} target="_blank" rel="noreferrer" className={HERO_BTN} aria-label={`Campaign money for ${m.name}, official Virginia Department of Elections committee page`}><CircleDollarSign className="size-4" aria-hidden />Campaign money<ExternalLink className="size-3" aria-hidden /></a> : null}
+        {money ? <a href="#campaign-money" className={HERO_BTN} aria-label={`Campaign money for ${m.name}`}><CircleDollarSign className="size-4" aria-hidden />Campaign money</a> : null}
         {foia ? <a href={foia.href} target="_blank" rel="noreferrer" className={HERO_BTN}><FileText className="size-4" aria-hidden />{foia.label}<ExternalLink className="size-3" aria-hidden /></a> : null}
       </div>
       {foia ? <p className="mt-2 text-xs text-night-muted">Records requests go to the {m.chamber === "house" ? "House" : "Senate"} Clerk's office, which handles them for the whole chamber.</p> : null}
@@ -425,10 +426,13 @@ export function GaMemberProfile({ m, meta }: { m: GaMember; meta: GaMeta }) {
                 ))}
               </ul>
               <p className="mt-4 rounded-lg border border-navy-line border-l-4 border-l-gold bg-navy-700/60 px-4 py-3 text-sm text-on-dark-muted">
-                <strong className="text-white">How to read this page:</strong> every number here is a count from the General Assembly's own public records (called LIS). They are counts, not grades or opinions. Each card shows where its facts come from and the date the data was pulled. Votes are full-chamber floor votes only, not committee votes.
+                <strong className="text-white">How to read this page:</strong> every number here is a count from the General Assembly's own public records (called LIS). They are counts, not grades or opinions. Each card shows where its facts come from and the date the data was pulled. Votes are full-chamber floor votes only, not committee votes. Campaign money figures come from official Virginia Department of Elections reports, with a source line on every section.
               </p>
             </div>
           ) : null}
+          <div className="lg:col-span-2">
+            <CampaignMoneySection slug={m.slug} officialHref={campaignMoneyLink(m.lisId)?.href} billsHref="#bills" votesHref="#votes" />
+          </div>
           {hasSummary ? (
             <div className={`min-w-0 lg:self-stretch [&>section]:h-full ${hasVotes ? "" : "lg:col-span-2"}`}><Card id="summary" title="Summary" asOf={`${m.committees.length ? `Committees as of ${built} · Source: LIS · ` : ""}LIS member ID ${m.lisId}`}>
                 {m.committees.length ? (

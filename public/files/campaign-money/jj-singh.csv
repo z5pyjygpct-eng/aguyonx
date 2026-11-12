@@ -1,0 +1,75 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$26,689.81",,VA,,"From official Schedule H, November 2025 election cycle",H,495357,2026-07-14
+summary,2026-06-30,Raised this cycle,"$9,176.01",,,,Total receipts this election cycle (Schedule H),H,495357,2026-07-14
+summary,2026-06-30,Spent this cycle,"$11,249.81",,,,Total disbursements this election cycle (Schedule H),H,495357,2026-07-14
+contribution,2025-12-23,Capital Results LLC,$250,Richmond,VA,pac,,A,478519,2026-01-14
+contribution,2025-12-02,"Carbon Solutions Group, LLC",$250,Chicago,IL,pac,,A,478519,2026-01-14
+contribution,2025-12-02,HBAV BUILD PAC,"$1,000",Richmond,VA,pac,,A,478519,2026-01-14
+contribution,2025-12-28,Darshan Khalsa,$25,Reston,VA,individual,,A,478519,2026-01-14
+contribution,2025-12-02,McGuireWoods,$250,Richmond,VA,pac,,A,478519,2026-01-14
+contribution,2025-12-23,Virginia Manufactured & Modular Housing Assoc. PAC,$250,Henrico,VA,pac,,A,478519,2026-01-14
+contribution,2026-06-24,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,495357,2026-07-14
+contribution,2026-04-17,Clean Virginia,"$7,500",Charlottesville,VA,pac,,A,495357,2026-07-14
+contribution,2026-04-08,Commercial Develpers PAC,$500,Alexandria,VA,pac,,A,495357,2026-07-14
+contribution,2026-05-29,Beant Deu,$101,Burke,VA,individual,,A,495357,2026-07-14
+expenditure,2025-12-04,Canva,$15,Austin,TX,pac,Software,D,478519,2026-01-14
+expenditure,2025-12-16,Squarespace,$36,New York,NY,pac,Website Hosting,D,478519,2026-01-14
+expenditure,2025-12-22,Truist,$15,Ashburn,VA,pac,Bank Fees,D,478519,2026-01-14
+expenditure,2025-12-26,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Contribution,D,478519,2026-01-14
+expenditure,2025-12-29,Loudoun County Democratic Committee,$250,Leesburg,VA,pac,Contribution,D,478519,2026-01-14
+expenditure,2025-12-29,NGP VAN,$183.75,Washington,DC,pac,Software,D,478519,2026-01-14
+expenditure,2025-12-31,ActBlue Technical Services,$0.99,West Somerville,MA,pac,Service charges,D,478519,2026-01-14
+expenditure,2026-01-02,Four Lions Media,"$1,227.96",Rockville,MD,pac,Printed Materials,D,495357,2026-07-14
+expenditure,2026-01-05,Canva,$15,Austin,TX,pac,Software,D,495357,2026-07-14
+expenditure,2026-01-07,Franklin for Virginia,$250,Woodbridge,VA,pac,Campaign Contribution,D,495357,2026-07-14
+expenditure,2026-01-07,Friends of Garrett McGuire,$250,Alexandria,VA,pac,Campaign Contribution,D,495357,2026-07-14
+expenditure,2026-01-07,Friends of Gretchen Bulova,$250,Fairfax,VA,pac,Campaign Contribution,D,495357,2026-07-14
+expenditure,2026-01-12,Sweetgreen OneLoudoun,$60.60,Ashburn,VA,pac,Food and Beverage,D,495357,2026-07-14
+expenditure,2026-01-15,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,495357,2026-07-14
+expenditure,2026-01-16,Squarespace,$36,New York,NY,pac,Website Hosting,D,495357,2026-07-14
+expenditure,2026-01-21,Truist,$15,Ashburn,VA,pac,Bank Fees,D,495357,2026-07-14
+expenditure,2026-02-02,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,495357,2026-07-14
+expenditure,2026-02-05,Canva,$15,Austin,TX,pac,Software,D,495357,2026-07-14
+expenditure,2026-02-09,Capital Ale House,$64.08,Richmond,VA,pac,Food & Beverage,D,495357,2026-07-14
+expenditure,2026-02-10,Singh for GA,$250,Peachtree Corners,GA,pac,Campaign Contribution,D,495357,2026-07-14
+expenditure,2026-02-12,Dannan for School Board,$100,Burke,VA,candidate,Campaign Contribution,D,495357,2026-07-14
+expenditure,2026-02-17,Squarespace,$36,New York,NY,pac,Website Hosting,D,495357,2026-07-14
+expenditure,2026-02-17,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,495357,2026-07-14
+expenditure,2026-02-23,Truist,$15,Ashburn,VA,pac,Bank Fees,D,495357,2026-07-14
+expenditure,2026-03-05,Canva,$15,Austin,TX,pac,Software,D,495357,2026-07-14
+expenditure,2026-03-06,The UPS Store,$435,Sterling,VA,pac,PO Box Rental,D,495357,2026-07-14
+expenditure,2026-03-12,USPS 700 E Main Richmond,$78,Richmond,VA,pac,Postage,D,495357,2026-07-14
+expenditure,2026-03-16,Squarespace,$36,New York,NY,pac,Website Hosting,D,495357,2026-07-14
+expenditure,2026-03-18,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,495357,2026-07-14
+expenditure,2026-03-23,Gretchen Bulova,$125,Fairfax,VA,individual,Reimbursement,D,495357,2026-07-14
+expenditure,2026-03-23,Colonial Parking,$6,Mclean,VA,pac,Parking,D,495357,2026-07-14
+expenditure,2026-03-23,Truist,$15,Ashburn,VA,pac,Bank Fees,D,495357,2026-07-14
+expenditure,2026-03-29,Helmer for Congress,$250,Clifton,VA,candidate,Campaign Contribution,D,495357,2026-07-14
+expenditure,2026-03-30,Virginians for Suhas Subramanyam,$750,Ashburn,VA,pac,Contribution,D,495357,2026-07-14
+expenditure,2026-04-02,Loudoun County Democratic Committee,$100,Leesburg,VA,pac,Contribution,D,495357,2026-07-14
+expenditure,2026-04-02,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,495357,2026-07-14
+expenditure,2026-04-06,Canva,$15,Austin,TX,pac,Software,D,495357,2026-07-14
+expenditure,2026-04-07,Virginia House Democratic Caucus,$165,Richmond,VA,party,Contribution,D,495357,2026-07-14
+expenditure,2026-04-16,Squarespace,$36,New York,NY,pac,Website Hosting,D,495357,2026-07-14
+expenditure,2026-04-17,The Boardroom,"$1,024.62",New York,NY,pac,Event food and beverage,D,495357,2026-07-14
+expenditure,2026-04-21,CVS,$31.16,Herndon,VA,pac,Office Supplies,D,495357,2026-07-14
+expenditure,2026-04-21,Truist,$15,Ashburn,VA,pac,Bank Fees,D,495357,2026-07-14
+expenditure,2026-04-22,Treasurer of Virginia,$433.05,Richmond,VA,pac,Computer Equipment,D,495357,2026-07-14
+expenditure,2026-04-29,Andrea Tovar,$75,Ashburn,VA,individual,Mileage Reimbursement,D,495357,2026-07-14
+expenditure,2026-04-29,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,495357,2026-07-14
+expenditure,2026-04-30,ActBlue Technical Services,$1.98,West Somerville,MA,pac,Service charges,D,495357,2026-07-14
+expenditure,2026-04-30,CVS,$14.62,Herndon,VA,pac,Office Supplies,D,495357,2026-07-14
+expenditure,2026-05-01,United States Postal Service,$156,Arlington,VA,pac,Postage,D,495357,2026-07-14
+expenditure,2026-05-05,Democratic Asian Americans of VA,$200,Falls Church,VA,pac,Contribution,D,495357,2026-07-14
+expenditure,2026-05-05,Department of Motor Vehicles,$125.16,Richmond,VA,pac,License Plate,D,495357,2026-07-14
+expenditure,2026-05-06,Canva,$15,Austin,TX,pac,Software,D,495357,2026-07-14
+expenditure,2026-05-14,Commonwealth Victory Fund,"$1,095",Richmond,VA,pac,Campaign Event,D,495357,2026-07-14
+expenditure,2026-05-18,Squarespace,$36,New York,NY,pac,Website Hosting,D,495357,2026-07-14
+expenditure,2026-05-21,Truist,$15,Ashburn,VA,pac,Bank Fees,D,495357,2026-07-14
+expenditure,2026-05-26,eBay Inc.,$84.59,San Jose,CA,pac,Reading materials (Seller: Thirft.Books),D,495357,2026-07-14
+expenditure,2026-06-04,Andrea Tovar,$250,Ashburn,VA,individual,Consulting,D,495357,2026-07-14
+expenditure,2026-06-05,Canva,$15,Austin,TX,pac,Software,D,495357,2026-07-14
+expenditure,2026-06-16,Squarespace,$36,New York,NY,pac,Website Hosting,D,495357,2026-07-14
+expenditure,2026-06-22,Truist,$15,Ashburn,VA,pac,Bank Fees,D,495357,2026-07-14
+expenditure,2026-06-30,ActBlue Technical Services,$0.99,West Somerville,MA,pac,Service charges,D,495357,2026-07-14

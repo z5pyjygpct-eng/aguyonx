@@ -1,0 +1,74 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$74,411.77",,VA,,"From official Schedule H, November 2027 election cycle",H,495778,2026-07-14
+summary,2026-06-30,Raised this cycle,"$55,250.04",,,,Total receipts this election cycle (Schedule H),H,495778,2026-07-14
+summary,2026-06-30,Spent this cycle,"$15,837.49",,,,Total disbursements this election cycle (Schedule H),H,495778,2026-07-14
+contribution,2026-04-22,Virginia Cable Telecommunications Association PAC,$500,Richmond,VA,pac,,A,495778,2026-07-14
+contribution,2026-01-12,Dominion Energy Inc. Political Action Committee VA,"$15,000",Richmond,VA,pac,,A,495778,2026-07-14
+contribution,2026-05-28,Dominion Energy Inc. Political Action Committee VA,"$25,000",Richmond,VA,pac,,A,495778,2026-07-14
+contribution,2026-06-29,Virginia Sheriffs' Association PAC,$250,Richmond,VA,pac,,A,495778,2026-07-14
+contribution,2026-06-05,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,495778,2026-07-14
+contribution,2026-05-22,Virginia Farm Bureau Federation Ag PAC,$500,Richmond,VA,pac,,A,495778,2026-07-14
+contribution,2026-06-30,Virginia Poultry Federation PAC,$500,Harrisonburg,VA,pac,,A,495778,2026-07-14
+contribution,2026-06-30,Waste Management,$750,Houston,TX,pac,,A,495778,2026-07-14
+contribution,2026-06-15,Mr. Robert B. Frazier,$500,Harrisonburg,VA,individual,,A,495778,2026-07-14
+contribution,2026-06-16,Friends of Mark Obenshain,$250,Harrisonburg,VA,pac,,A,495778,2026-07-14
+contribution,2026-01-12,Republican Women of Harrisonburg-Rockingham County,$500,Harrisonburg,VA,party,,A,495778,2026-07-14
+contribution,2026-06-16,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,495778,2026-07-14
+contribution,2026-06-22,Anheuser Busch Companies,$250,Atlanta,GA,pac,,A,495778,2026-07-14
+contribution,2026-04-22,Truckers Political Action Committee of Virginia,$250,Richmond,VA,pac,,A,495778,2026-07-14
+contribution,2026-06-16,Priscilla E. Cummiskey,$500,Harrisonburg,VA,individual,,A,495778,2026-07-14
+contribution,2026-06-16,Priscilla E. Cummiskey,$100,Harrisonburg,VA,individual,,A,495778,2026-07-14
+contribution,2026-06-16,Hon Charles Willard Haywood,$150,Harrisonburg,VA,individual,,A,495778,2026-07-14
+contribution,2026-04-22,Virginia Operators for Skill,"$5,000",Richmond,VA,pac,,A,495778,2026-07-14
+contribution,2026-06-16,Becky A Christophel,$200,Harrisonburg,VA,individual,,A,495778,2026-07-14
+contribution,2026-01-13,"Dimension Energy, LLC",$500,Atlanta,GA,pac,,A,495778,2026-07-14
+contribution,2026-01-12,First American Title Insurance Company,"$1,000",Scottsdale,AZ,pac,,A,495778,2026-07-14
+contribution,2026-06-22,"Marcella A, Smith",$200,Bridgewater,VA,individual,,A,495778,2026-07-14
+contribution,2026-06-22,Keens Storage Trailers & Containers LLC,$200,Harrisonburg,VA,pac,,A,495778,2026-07-14
+other_receipt,2026-01-30,Bank of America,$0.62,Glen Allen,VA,pac,Interest earned,C,495778,2026-07-14
+other_receipt,2026-02-27,Bank of America,$0.99,Glen Allen,VA,pac,Interest earned,C,495778,2026-07-14
+other_receipt,2026-03-31,Bank of America,$1.29,Glen Allen,VA,pac,Interest earned,C,495778,2026-07-14
+other_receipt,2026-04-30,Bank of America,$0.65,Glen Allen,VA,pac,Interest earned,C,495778,2026-07-14
+other_receipt,2026-05-29,Bank of America,$0.53,Glen Allen,VA,pac,Interest earned,C,495778,2026-07-14
+other_receipt,2026-06-30,Bank of America,$0.96,Glen Allen,VA,pac,Interest earned,C,495778,2026-07-14
+expenditure,2026-06-22,Costco Wholesale,$135.50,Harrisonburg,VA,pac,Parade candy,D,495778,2026-07-14
+expenditure,2026-03-12,Forest Consulting Services,$500,Richmond,VA,pac,"Accounting, reporting and consulting services",D,495778,2026-07-14
+expenditure,2026-04-16,Forest Consulting Services,$500,Richmond,VA,pac,"Accounting, reporting and consulting services",D,495778,2026-07-14
+expenditure,2026-05-12,Forest Consulting Services,$128.55,Richmond,VA,pac,"Tax Forms preparation, distribution and filing",D,495778,2026-07-14
+expenditure,2026-03-16,House Republican Campaign Committee,"$1,000",Richmond,VA,party,Donation,D,495778,2026-07-14
+expenditure,2026-04-16,House Republican Campaign Committee,"$9,000",Richmond,VA,party,Donation,D,495778,2026-07-14
+expenditure,2026-03-25,Friends of Mark Obenshain,$80,Harrisonburg,VA,pac,Reimbursement for Prayer Breakfast,D,495778,2026-07-14
+expenditure,2026-02-09,Rockingham County Republican Party,$315,Harrisonburg,VA,party,Sponsorship,D,495778,2026-07-14
+expenditure,2026-06-22,Republican Women of Harrisonburg-Rockingham County,$300,Harrisonburg,VA,pac,Donation,D,495778,2026-07-14
+expenditure,2026-06-01,Postmaster,$250,Harrisonburg,VA,pac,Post office box rental,D,495778,2026-07-14
+expenditure,2026-03-06,Red Maverick Media,$205,Harrisburg,PA,pac,Google fees,D,495778,2026-07-14
+expenditure,2026-04-16,Red Maverick Media,$708.20,Harrisburg,PA,pac,Communications expense,D,495778,2026-07-14
+expenditure,2026-05-07,"Amazon.com Services, Inc",$42.01,Seattle,WA,pac,Campaign equipment,D,495778,2026-07-14
+expenditure,2026-06-30,WinRed,$29.55,Cheyenne,WY,pac,Credit card processing fees,D,495778,2026-07-14
+expenditure,2026-03-12,The Farm Ministry,$250,Dayton,VA,pac,Donation,D,495778,2026-07-14
+expenditure,2026-06-22,Postmaster - Broadway,$8.05,Broadway,VA,pac,Postage,D,495778,2026-07-14
+expenditure,2026-03-02,Bank of America,$5,Glen Allen,VA,pac,Banking services,D,495778,2026-07-14
+expenditure,2026-03-06,Bank of America,$1,Glen Allen,VA,pac,Banking services,D,495778,2026-07-14
+expenditure,2026-04-17,Bank of America,$1,Glen Allen,VA,pac,Banking services,D,495778,2026-07-14
+expenditure,2026-05-08,Bank of America,$1,Glen Allen,VA,pac,Banking services,D,495778,2026-07-14
+expenditure,2026-06-23,Brix and Columns Vineyards LLC,$631.70,McGaheysville,VA,pac,Event expense,D,495778,2026-07-14
+expenditure,2026-01-29,Google One,$1.99,Mountain View,CA,pac,Cloud storage,D,495778,2026-07-14
+expenditure,2026-03-02,Google One,$1.99,Mountain View,CA,pac,Software fees,D,495778,2026-07-14
+expenditure,2026-03-30,Google One,$1.99,Mountain View,CA,pac,Cloud storage,D,495778,2026-07-14
+expenditure,2026-04-27,Google One,$1.99,Mountain View,CA,pac,Cloud storage,D,495778,2026-07-14
+expenditure,2026-05-27,Google One,$1.99,Mountain View,CA,pac,Cloud storage,D,495778,2026-07-14
+expenditure,2026-06-27,Google One,$1.99,Mountain View,CA,pac,Cloud storage,D,495778,2026-07-14
+expenditure,2026-01-02,Google GSuite,$16.80,Mountain View,CA,pac,Service apps,D,495778,2026-07-14
+expenditure,2026-02-02,Google GSuite,$16.80,Mountain View,CA,pac,Software fees,D,495778,2026-07-14
+expenditure,2026-03-02,Google GSuite,$16.80,Mountain View,CA,pac,Software fees,D,495778,2026-07-14
+expenditure,2026-06-26,GoDaddy,$46.38,Scottsdale,AZ,pac,Website expense,D,495778,2026-07-14
+expenditure,2026-02-23,Zoom.com,$153.29,San Jose,CA,pac,Meeting expense,D,495778,2026-07-14
+expenditure,2026-03-23,Zoom.com,$17.84,San Jose,CA,pac,Meeting expense,D,495778,2026-07-14
+expenditure,2026-04-21,Zoom.com,$17.84,San Jose,CA,pac,Meeting expense,D,495778,2026-07-14
+expenditure,2026-05-21,Zoom.com,$17.84,San Jose,CA,pac,Meeting expense,D,495778,2026-07-14
+expenditure,2026-02-27,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,pac,Campaign contribution,D,495778,2026-07-14
+expenditure,2026-04-01,Google Workspace,$16.80,Mountain View,CA,pac,Service apps,D,495778,2026-07-14
+expenditure,2026-05-01,Google Workspace,$16.80,Mountain View,CA,pac,Service apps,D,495778,2026-07-14
+expenditure,2026-06-01,Google Workspace,$16.80,Mountain View,CA,pac,Service apps,D,495778,2026-07-14
+expenditure,2026-04-22,Campaign Sidekick,$380,Aledo,TX,pac,Voter contacts,D,495778,2026-07-14

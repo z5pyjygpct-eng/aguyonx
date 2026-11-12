@@ -1,0 +1,264 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$60,018.24",,VA,,"From official Schedule H, November 2027 election cycle",H,497060,2026-07-15
+summary,2026-06-30,Raised this cycle,"$44,211.39",,,,Total receipts this election cycle (Schedule H),H,497060,2026-07-15
+summary,2026-06-30,Spent this cycle,"$121,768.44",,,,Total disbursements this election cycle (Schedule H),H,497060,2026-07-15
+contribution,2025-12-23,Democratic Party of Virginia,"$15,000",Richmond,VA,party,,A,476683,2026-01-12
+contribution,2025-12-03,Joe Dillard Jr,$125,Ashland,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-22,Freedom Virginia,"$1,000",Arlington,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-23,Friends of Ghazala Hashmi,"$7,500",North Chesterfield,VA,candidate,,A,476683,2026-01-12
+contribution,2025-12-18,Friends of JJ Sing,$300,Ashburn,VA,candidate,,A,476683,2026-01-12
+contribution,2025-12-15,Friends of Yvonne Rorrer,$125,Patrick Springs,VA,candidate,,A,476683,2026-01-12
+contribution,2025-11-18,Donald Jerome Gee,$500,Richmond,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-28,Earl J Gee,$275,Chesterfield,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-22,Paul Goldean,"$5,000",Charlotte,NC,individual,,A,476683,2026-01-12
+contribution,2025-12-18,HCA for Good Government,"$1,000",Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-07,Devon M Henry,$500,Glen Allen,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-26,Tahj Hite,$550,Chesterfield,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-11,JJ Holmes,"$1,000",Scottsdale,AZ,individual,,A,476683,2026-01-12
+contribution,2025-11-12,Michael Hopkins,$500,Richmond,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-25,Brian Keith Jackson,$500,Richmond,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-14,Jay Yogeshwar Inc,"$2,500",Chester,VA,pac,,A,476683,2026-01-12
+contribution,2025-11-11,Robley Jones,$500,Richmond,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-12,Candi King,$500,Dumfries,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-18,Law Office of Arnold Henderson,$300,Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-03,Jong Lim,$250,Moseley,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-10,Harold Marioneaux,"$1,000",Chesapeake,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-18,Joseph Massie,"$2,000",Richmond,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-14,Kevin McDonald,"$1,000",Charlottesville,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-22,McGuire Woods,$750,Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-11-06,Mike Jones for Delegate,"$219,965.75",Richmond,VA,candidate,,A,476683,2026-01-12
+contribution,2025-11-25,Michelle Mosby,$400,Richmond,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-22,Michael Pace,"$5,000",Nashville,TN,individual,,A,476683,2026-01-12
+contribution,2025-11-14,Samuel Parham,"$1,000",Petersburg,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-17,James Parson,"$1,000",Schertz,TX,individual,,A,476683,2026-01-12
+contribution,2025-12-02,Orrin Pullings,"$1,000",North Chesterfield,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-18,Richmond Build PAC,"$1,000",Henrico,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-19,Richmond Realtors PAC,"$1,000",Henrico,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-18,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-09,HARRISON RODAY,$250,Richmond,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-28,"Sanko Auto Care, LLC","$1,000",North Chesterfield,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-03,Save Democracy PAC,"$5,000",Washington,DC,pac,,A,476683,2026-01-12
+contribution,2025-12-18,Sonjia Smith,"$15,000",Charlottesville,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-22,Michael Thorne-Begland,$250,Richmond,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-18,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-04,VA Imports,"$2,000",Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-11-14,VALCV PAC,$500,Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-18,VALCV PAC,"$10,000",Chesapeake,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-18,Virginia Automobile & Truck Dealers PAC,"$2,500",Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-25,Virginia Bankers Association PAC,"$1,000",Fairfax,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-22,Virginia CRNA,"$1,000",Roanoke,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-22,Virginia Health Care Association PAC,"$1,000",Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-22,Virginia Legislative Black Caucus,"$10,000",Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-19,Virginia Professional Firefighters,"$2,500",Manassas,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-22,Virginia Senate Democratic Caucus,"$80,000",Richmond,VA,party,,A,476683,2026-01-12
+contribution,2025-12-18,Virginia Trial Lawyers,"$5,000",Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-22,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-09,Kimberly Adams,$250,North Dinwiddie,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-03,DEMARIO Adkins,$500,Glen Allen,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-19,DEMARIO Adkins,$650,Glen Allen,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-03,Leonard Bennett,"$5,000",Carrollton,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-11,Glen Besa,$500,North Chesterfield,VA,individual,,A,476683,2026-01-12
+contribution,2025-11-26,Richard Brewer,"$1,000",Charlottesville,VA,individual,,A,476683,2026-01-12
+contribution,2025-12-19,Critzer for Delegate Campaign Committee,$500,Midlothian,VA,candidate,,A,476683,2026-01-12
+contribution,2025-12-18,Carbon Solutions Group,$750,Chicago,IL,pac,,A,476683,2026-01-12
+contribution,2025-11-10,Clean Virginia,"$10,000",Charlottesville,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-08,Clean Virginia,"$20,000",Charlottesville,VA,pac,,A,476683,2026-01-12
+contribution,2025-12-12,Clean Virginia,"$30,000",Charlottesville,VA,pac,,A,476683,2026-01-12
+contribution,2025-11-14,Critzer for Delegate,$750,Midlothian,VA,candidate,,A,476683,2026-01-12
+contribution,2025-12-28,Glen Besa,$100,North Chesterfield,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-26,Data Center Coalition,"$1,500",Leesburg,VA,pac,,A,480075,2026-01-15
+contribution,2025-12-31,John Finn,$250,North Chesterfield,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-28,Harold Green,$250,Midlothian,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-28,Terone Green,$250,Henrico,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-30,Megan Hull,$250,Piedmont,CA,individual,,A,480075,2026-01-15
+contribution,2025-12-31,IBEW PAC Voluntary Fund,"$1,000",Washington,DC,pac,,A,480075,2026-01-15
+contribution,2025-12-28,Catina Jones,$500,Parkland,FL,individual,,A,480075,2026-01-15
+contribution,2025-12-28,Robley Jones,$101,Richmond,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-28,Laura Lafayette,"$1,000",Glen Allen,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-28,William Leighty,$250,Richmond,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-26,Alfred C Liggins III,"$5,000",Silver Spring,MD,individual,,A,480075,2026-01-15
+contribution,2025-12-28,Carolyn McDonnell,"$1,000",Virginia Beach,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-30,Floyd Miller II,$125,Glen Allen,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-28,Shirley Randall,$500,Cape Charles,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-28,Michael Schewel,$250,Richmond,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-30,Dwight Snead,$250,Glen Allen,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-30,Mike Street,$250,Henrico,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-31,UWUA COPE,"$5,000",Washington,DC,pac,,A,480075,2026-01-15
+contribution,2025-12-31,VA Beverage Association,"$1,000",Richmond,VA,pac,,A,480075,2026-01-15
+contribution,2025-12-31,VA Operators for Skill,"$5,000",Henrico,VA,pac,,A,480075,2026-01-15
+contribution,2025-12-31,VADPAC,"$1,000",Henrico,VA,pac,,A,480075,2026-01-15
+contribution,2025-12-31,Virginia Wine Wholesalers,"$1,500",Richmond,VA,pac,,A,480075,2026-01-15
+contribution,2025-12-28,Angelia Williams Graves,"$1,500",Norfolk,VA,individual,,A,480075,2026-01-15
+contribution,2025-12-27,Frederick Blair Wimbush,$250,Virginia Beach,VA,individual,,A,480075,2026-01-15
+contribution,2026-01-03,Helmer For Virginia,"$1,000",Clifton,VA,individual,,A,482367,2026-02-05
+contribution,2026-01-04,Helmer for Virginia,"$1,000",Clifton,VA,candidate,,A,482367,2026-02-05
+contribution,2026-01-01,David Howe,$150,Oakland,CA,individual,,A,482367,2026-02-05
+contribution,2026-01-06,Hakim Lucas,"$5,000",Henrico,VA,individual,,A,482367,2026-02-05
+contribution,2026-01-03,Margaret Taylor,$500,Midlothian,VA,individual,,A,482367,2026-02-05
+contribution,2026-01-13,7-Eleven,$500,Irving,TX,pac,,A,497060,2026-07-15
+contribution,2026-06-11,Demario R Adkins,$500,Glen Allen,VA,individual,,A,497060,2026-07-15
+contribution,2026-06-18,"Alex Taylor Law, PLC",$250,Richmond,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-18,"Allen, Allen, & Allen","$2,500",Richmond,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-22,Altria Client Services,"$1,500",Richmond,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-22,Anheuser Busch,$500,Saint Louis,MO,pac,,A,497060,2026-07-15
+contribution,2026-06-18,Zachary Branch,"$1,000",Moseley,VA,individual,,A,497060,2026-07-15
+contribution,2026-06-03,Carvana,"$1,000",Tempe,AZ,pac,,A,497060,2026-07-15
+contribution,2026-04-17,Clean Virginia,"$12,500",Charlottesville,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-16,Mackenzie Clements,$250,North Chesterfield,VA,individual,,A,497060,2026-07-15
+contribution,2026-01-09,Community Solar Action Fund,"$1,000",Washington,DC,pac,,A,497060,2026-07-15
+contribution,2026-06-17,Charlene Fox,$500,Henrico,VA,individual,,A,497060,2026-07-15
+contribution,2026-06-22,Donald Jerome Gee,$500,Richmond,VA,individual,,A,497060,2026-07-15
+contribution,2026-01-13,Greater VA Carpenters,"$2,500",Ashland,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-18,Harold Green Sr,$250,Midlothian,VA,individual,,A,497060,2026-07-15
+contribution,2026-06-16,Monroe E Harris Jr,$500,Richmond,VA,individual,,A,497060,2026-07-15
+contribution,2026-03-20,William B. Hopkins Jr,"$1,000",Roanoke,VA,individual,,A,497060,2026-07-15
+contribution,2026-06-18,Kamaren Jewett,$350,Chesterfield,VA,individual,,A,497060,2026-07-15
+contribution,2026-06-18,Law Office of Horace F Hunter PC,$250,Richmond,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-17,London Firearm's Exchange LLC,"$1,000",Midlothian,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-18,Joseph Massie,"$2,000",Richmond,VA,individual,,A,497060,2026-07-15
+contribution,2026-06-18,McGuire Woods,$500,Richmond,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-18,Floyd Miller II,$125,Richmond,VA,individual,,A,497060,2026-07-15
+contribution,2026-01-13,Next Chapter PAC,"$2,500",North Chesterfield,VA,pac,,A,497060,2026-07-15
+contribution,2026-01-13,Realtors PAC,"$1,000",Glen Allen,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-15,William Robins,"$1,000",Richmond,VA,individual,,A,497060,2026-07-15
+contribution,2026-06-18,Donte Smith,$250,Glen Allen,VA,individual,,A,497060,2026-07-15
+contribution,2026-06-07,Mike Street,$250,Henrico,VA,individual,,A,497060,2026-07-15
+contribution,2026-01-13,Strobel Investments,"$5,000",Bradenton,FL,pac,,A,497060,2026-07-15
+contribution,2026-01-13,Vantage Data Centers,"$1,000",Kelseyville,CA,pac,,A,497060,2026-07-15
+contribution,2026-06-22,Virginia Apartment Management Association PAC,$500,Henrico,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-22,Virginia CRNA,$500,Roanoke,VA,pac,,A,497060,2026-07-15
+contribution,2026-06-22,Virginia Optometric Association,$250,Glen Allen,VA,pac,,A,497060,2026-07-15
+in_kind,2026-01-04,Planned Parenthood of VA,"$4,075",Richmond,VA,pac,Staff Time for Voter Contact,B,482367,2026-02-05
+other_receipt,2026-01-30,Wells Fargo,$0.78,San Francisco,CA,pac,Interest Bearing Account,C,497060,2026-07-15
+other_receipt,2026-02-27,Wells Fargo,$0.45,San Francisco,CA,pac,Interest Bearing Account,C,497060,2026-07-15
+other_receipt,2026-03-31,Wells Fargo,$0.48,San Francisco,CA,pac,Interest Bearing Account,C,497060,2026-07-15
+other_receipt,2026-04-30,Wells Fargo,$0.43,San Francisco,CA,pac,Interest Bearing Account,C,497060,2026-07-15
+other_receipt,2026-05-29,Wells Fargo,$0.42,San Francisco,CA,pac,Interest Bearing Account,C,497060,2026-07-15
+other_receipt,2026-06-30,Wells Fargo,$0.35,San Francisco,CA,pac,Interest Bearing Account,C,497060,2026-07-15
+expenditure,2025-11-06,Bank of America,$30,North Chesterfield,VA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-11-10,Democratic Party of Virginia,"$2,355.90",Richmond,VA,party,Contribution,D,476683,2026-01-12
+expenditure,2025-11-10,Mellinger Group,"$6,000",Baltimore,MD,pac,Fundraising Consulting,D,476683,2026-01-12
+expenditure,2025-11-16,ActBlue,$187.63,Somerville,MA,pac,Credit Card Processing Fees,D,476683,2026-01-12
+expenditure,2025-11-19,Mission Control,"$7,333.90",Washington,DC,pac,Mail,D,476683,2026-01-12
+expenditure,2025-11-19,UpLift,"$9,050",Berkeley,CA,pac,Digital Advertising and Texting,D,476683,2026-01-12
+expenditure,2025-11-23,ActBlue,$158.88,Somerville,MA,pac,Credit Card Processing Fees,D,476683,2026-01-12
+expenditure,2025-11-24,Canal Partners,"$3,200",Atlanta,GA,pac,TV Advertising,D,476683,2026-01-12
+expenditure,2025-11-24,Canal Partners,"$5,000",Atlanta,GA,pac,TV Advertising,D,476683,2026-01-12
+expenditure,2025-11-24,Aaron Facio-Cortes,"$3,500",Wesley Chapel,FL,individual,General Campaign Consulting,D,476683,2026-01-12
+expenditure,2025-11-24,Mission Control,"$6,511.81",Washington,DC,pac,Mail,D,476683,2026-01-12
+expenditure,2025-11-24,Mark Rennie,"$1,000",Richmond,VA,individual,Field Consulting,D,476683,2026-01-12
+expenditure,2025-11-24,Wells Fargo,$125,San Francisco,CA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-11-25,Mark Rennie,"$1,000",Richmond,VA,individual,Field Consulting,D,476683,2026-01-12
+expenditure,2025-11-25,Wells Fargo,$45,San Francisco,CA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-11-25,Wells Fargo,$50,San Francisco,CA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-11-25,Wells Fargo,$45,San Francisco,CA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-11-25,Charles Willis,$375,Richmond,VA,individual,DJ Services,D,476683,2026-01-12
+expenditure,2025-11-26,Orson Lange,$600,Richmond,VA,individual,Field Consulting,D,476683,2026-01-12
+expenditure,2025-11-26,Tyler Richards,$750,Chester,VA,individual,Field Consulting,D,476683,2026-01-12
+expenditure,2025-11-26,UpLift,"$11,075",Berkeley,CA,pac,Digital Advertising and Texting,D,476683,2026-01-12
+expenditure,2025-11-26,Wells Fargo,$75,San Francisco,CA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-11-30,ActBlue,$102.71,Somerville,MA,pac,Credit Card Processing Fees,D,476683,2026-01-12
+expenditure,2025-12-01,Canal Partners,"$3,200",Atlanta,GA,pac,TV Advertising,D,476683,2026-01-12
+expenditure,2025-12-01,Canal Partners,"$3,450",Atlanta,GA,pac,TV Advertising,D,476683,2026-01-12
+expenditure,2025-12-01,Canal Partners,"$10,000",Atlanta,GA,pac,TV Advertising,D,476683,2026-01-12
+expenditure,2025-12-01,NGP VAN,$530,Washington,DC,pac,Software,D,476683,2026-01-12
+expenditure,2025-12-02,Canal Partners,"$109,275",Atlanta,GA,pac,TV Advertising,D,476683,2026-01-12
+expenditure,2025-12-03,Canal Partners,"$2,000",Atlanta,GA,pac,TV Advertising,D,476683,2026-01-12
+expenditure,2025-12-03,Mission Control,"$6,422.10",Washington,DC,pac,Mail,D,476683,2026-01-12
+expenditure,2025-12-03,NGP VAN,$530,Washington,DC,pac,Software,D,476683,2026-01-12
+expenditure,2025-12-03,UpLift,"$4,000",Berkeley,CA,pac,Digital Advertising and Texting,D,476683,2026-01-12
+expenditure,2025-12-03,UpLift,"$11,775",Berkeley,CA,pac,Digital Advertising and Texting,D,476683,2026-01-12
+expenditure,2025-12-03,Wells Fargo,$50,San Francisco,CA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-12-04,Chesterfield County Democratic Committee,"$3,000",North Chesterfield,VA,pac,Filing Fee,D,476683,2026-01-12
+expenditure,2025-12-05,Orson Lange,$300,Richmond,VA,individual,Field Consulting,D,476683,2026-01-12
+expenditure,2025-12-05,Tyler Richards,$625,Chester,VA,individual,Field Consulting,D,476683,2026-01-12
+expenditure,2025-12-05,Wells Fargo,$50,San Francisco,CA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-12-07,ActBlue,$300.22,Somerville,MA,pac,Credit Card Processing Fees,D,476683,2026-01-12
+expenditure,2025-12-08,DK Strategies,"$1,000",Washington,DC,pac,Production,D,476683,2026-01-12
+expenditure,2025-12-08,NGP VAN,$265,Washington,DC,pac,Software,D,476683,2026-01-12
+expenditure,2025-12-08,Rhonda Rides,"$1,000",Richmond,VA,pac,Transportation,D,476683,2026-01-12
+expenditure,2025-12-08,Wells Fargo,$50,San Francisco,CA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-12-08,Charles Willis,$820,Richmond,VA,individual,DJ Services,D,476683,2026-01-12
+expenditure,2025-12-12,Aaron Facio-Cortes,"$2,000",Wesley Chapel,FL,individual,General Campaign Consulting,D,476683,2026-01-12
+expenditure,2025-12-12,Orson Lange,"$1,125",Richmond,VA,individual,Field Consulting,D,476683,2026-01-12
+expenditure,2025-12-12,Tyler Richards,"$1,100",Chester,VA,individual,Field Consulting,D,476683,2026-01-12
+expenditure,2025-12-12,Wells Fargo,$75,San Francisco,CA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-12-14,ActBlue,$46.43,Somerville,MA,pac,Credit Card Processing Fees,D,476683,2026-01-12
+expenditure,2025-12-19,Canal Partners,"$5,200",Atlanta,GA,pac,TV Advertising,D,476683,2026-01-12
+expenditure,2025-12-19,Democratic Party of Virginia,"$30,938.16",Richmond,VA,party,Contribution,D,476683,2026-01-12
+expenditure,2025-12-19,Wells Fargo,$50,San Francisco,CA,pac,Bank Fees,D,476683,2026-01-12
+expenditure,2025-12-21,ActBlue,$60.49,Somerville,MA,pac,Credit Card Processing Fees,D,476683,2026-01-12
+expenditure,2025-12-26,Canal Partners,"$98,300",Atlanta,GA,pac,TV Advertising,D,480075,2026-01-15
+expenditure,2025-12-26,Wells Fargo,$25,San Francisco,CA,pac,Bank Fees,D,480075,2026-01-15
+expenditure,2025-12-29,ActBlue,$487.26,Somerville,MA,pac,Credit Card Processing Fees,D,480075,2026-01-15
+expenditure,2025-12-29,"Focused SMB, LLC",$320,Henrico,VA,pac,Printing,D,480075,2026-01-15
+expenditure,2025-12-29,Rhonda Rides,$500,Richmond,VA,pac,Transportation,D,480075,2026-01-15
+expenditure,2025-12-29,UpLift,"$20,000",Berkeley,CA,pac,Digital Advertising and Texting,D,480075,2026-01-15
+expenditure,2025-12-29,Wells Fargo,$25,San Francisco,CA,pac,Bank Fees,D,480075,2026-01-15
+expenditure,2025-12-31,ActBlue,$50.60,Somerville,MA,pac,Credit Card Processing Fees,D,480075,2026-01-15
+expenditure,2026-01-02,Intuit,$99.09,Plano,TX,pac,Check Stock,D,482367,2026-02-05
+expenditure,2026-01-04,ActBlue,$87.94,Somerville,MA,pac,Credit Card Processing Fees,D,482367,2026-02-05
+expenditure,2026-01-04,Aaron Facio-Cortes,"$2,500",Wesley Chapel,FL,individual,General Campaign Consulting,D,482367,2026-02-05
+expenditure,2026-01-05,Printersmark,"$3,573.41",Richmond,VA,pac,Printing,D,482367,2026-02-05
+expenditure,2026-01-05,Wells Fargo,$25,San Francisco,CA,pac,Bank Fees,D,482367,2026-02-05
+expenditure,2026-01-07,Bella Italia,$987.45,North Chesterfield,VA,pac,Catering/Events,D,497060,2026-07-15
+expenditure,2026-01-07,Mellinger Group,"$15,000",Baltimore,MD,pac,Fundraising Consulting,D,497060,2026-07-15
+expenditure,2026-01-07,Mellinger Group,"$3,000",Baltimore,MD,pac,Fundraising Consulting,D,497060,2026-07-15
+expenditure,2026-01-07,UpLift,$700,Berkeley,CA,pac,Texting,D,497060,2026-07-15
+expenditure,2026-01-07,UpLift,$680,Berkeley,CA,pac,Texting,D,497060,2026-07-15
+expenditure,2026-01-07,Wells Fargo,$25,San Francisco,CA,pac,Bank Fees,D,497060,2026-07-15
+expenditure,2026-01-07,Wells Fargo,$25,San Francisco,CA,pac,Bank Fees,D,497060,2026-07-15
+expenditure,2026-01-09,Aaron Facio-Cortes,"$10,000",Wesley Chapel,FL,individual,General Campaign Consulting,D,497060,2026-07-15
+expenditure,2026-01-09,KG LLC,"$10,680.56",Washington,DC,pac,Compliance Consulting,D,497060,2026-07-15
+expenditure,2026-01-09,Printersmark,$773.80,Richmond,VA,pac,Printing,D,497060,2026-07-15
+expenditure,2026-01-09,Wells Fargo,$25,San Francisco,CA,pac,Bank Fees,D,497060,2026-07-15
+expenditure,2026-01-09,Wells Fargo,$25,San Francisco,CA,pac,Bank Fees,D,497060,2026-07-15
+expenditure,2026-01-09,Wells Fargo,$25,San Francisco,CA,pac,Bank Fees,D,497060,2026-07-15
+expenditure,2026-01-11,ActBlue,$241.63,Somerville,MA,pac,Credit Card Processing Fee,D,497060,2026-07-15
+expenditure,2026-01-23,Abbi Easter,"$40,000",North Chesterfield,VA,individual,General Campaign Consulting,D,497060,2026-07-15
+expenditure,2026-01-23,Wells Fargo,$25,San Francisco,CA,pac,Bank Fees,D,497060,2026-07-15
+expenditure,2026-02-20,Virginia Legislative Black Caucus,"$3,000",Richmond,VA,pac,Contribution,D,497060,2026-07-15
+expenditure,2026-03-04,NGP VAN,"$1,060",Washington,DC,pac,Software,D,497060,2026-07-15
+expenditure,2026-03-22,ActBlue,$0.17,Somerville,MA,pac,Credit Card Processing Fee,D,497060,2026-07-15
+expenditure,2026-03-27,Printersmark,"$1,004.88",Richmond,VA,pac,Printing,D,497060,2026-07-15
+expenditure,2026-04-01,NGP VAN,$265,Washington,DC,pac,Software,D,497060,2026-07-15
+expenditure,2026-04-08,NGP VAN,$795,Washington,DC,pac,Software,D,497060,2026-07-15
+expenditure,2026-04-09,Money Train LLC,"$8,000",Dallas,TX,pac,Events,D,497060,2026-07-15
+expenditure,2026-04-09,OG Design,"$1,500",Glen Allen,VA,pac,Printing,D,497060,2026-07-15
+expenditure,2026-04-09,The Love Movement RVa,"$2,000",Richmond,VA,pac,Events,D,497060,2026-07-15
+expenditure,2026-04-09,Wells Fargo,$25,San Francisco,CA,pac,Bank Fees,D,497060,2026-07-15
+expenditure,2026-04-19,ActBlue,$0.04,Somerville,MA,pac,Credit Card Processing Fee,D,497060,2026-07-15
+expenditure,2026-04-26,ActBlue,$0.13,Somerville,MA,pac,Credit Card Processing Fee,D,497060,2026-07-15
+expenditure,2026-05-13,NGP VAN,$795,Washington,DC,pac,Software,D,497060,2026-07-15
+expenditure,2026-05-19,7-Eleven,$100,Irving,TX,pac,Office Supplies,D,497060,2026-07-15
+expenditure,2026-05-19,ActBlue,$285.66,Somerville,MA,pac,Credit Card Processing Fee,D,497060,2026-07-15
+expenditure,2026-05-19,American Airlines,$604.81,Dallas,TX,pac,Airfare,D,497060,2026-07-15
+expenditure,2026-05-19,American Express,$39,New York,NY,pac,Credit Card Fee,D,497060,2026-07-15
+expenditure,2026-05-19,Croaker's Spot,$548.86,Richmond,VA,pac,Meals,D,497060,2026-07-15
+expenditure,2026-05-19,Hertz,$600.72,Estero,FL,pac,Car Rental,D,497060,2026-07-15
+expenditure,2026-05-19,JC3 Photography,"$1,295.19",North Chesterfield,VA,pac,Photography Services,D,497060,2026-07-15
+expenditure,2026-05-19,Kenny Lee & Co,$105.30,Ridgefield,NJ,pac,Merch,D,497060,2026-07-15
+expenditure,2026-05-19,Live Casino Hotel,$30,Hanover,MD,pac,Lodging,D,497060,2026-07-15
+expenditure,2026-05-19,Movieland,"$2,426.50",Richmond,VA,pac,Catering/Events,D,497060,2026-07-15
+expenditure,2026-05-19,Next Chapter PAC,"$1,000",North Chesterfield,VA,pac,Contribution,D,497060,2026-07-15
+expenditure,2026-05-19,Rosie's Gaming,"$5,451.17",New Kent,VA,pac,Catering/Events,D,497060,2026-07-15
+expenditure,2026-05-19,Starbucks,$39.42,Richmond,VA,pac,Meals,D,497060,2026-07-15
+expenditure,2026-05-19,The Benedict,$98.13,Richmond,VA,pac,Meals,D,497060,2026-07-15
+expenditure,2026-05-19,VA ABC,$271.33,Mechanicsville,VA,pac,Catering/Events,D,497060,2026-07-15
+expenditure,2026-05-24,ActBlue,$0.17,Somerville,MA,pac,Credit Card Processing Fee,D,497060,2026-07-15
+expenditure,2026-05-28,Commonwealth Victory Fund,"$2,274.36",Richmond,VA,pac,Contribution,D,497060,2026-07-15
+expenditure,2026-06-03,Mellinger Group,"$1,500",Baltimore,MD,pac,Fundraising Consulting,D,497060,2026-07-15
+expenditure,2026-06-07,ActBlue,$9.88,Somerville,MA,pac,Credit Card Processing Fee,D,497060,2026-07-15
+expenditure,2026-06-10,NGP VAN,$795,Washington,DC,pac,Software,D,497060,2026-07-15
+expenditure,2026-06-14,ActBlue,$23.70,Somerville,MA,pac,Credit Card Processing Fee,D,497060,2026-07-15
+expenditure,2026-06-17,Edward Baskerville,$350,Richmond,VA,individual,Events,D,497060,2026-07-15
+expenditure,2026-06-21,ActBlue,$196.70,Somerville,MA,pac,Credit Card Processing Fee,D,497060,2026-07-15
+expenditure,2026-06-25,American Express,$72.81,New York,NY,pac,Credit Card Fee,D,497060,2026-07-15
+expenditure,2026-06-25,Bella Italia,$58.48,North Chesterfield,VA,pac,Meals,D,497060,2026-07-15
+expenditure,2026-06-25,Cinema Cafe Chester,"$1,722",Chester,VA,pac,Catering/Events,D,497060,2026-07-15
+expenditure,2026-06-25,Experimac,$476.99,Richmond,VA,pac,Computer Repair,D,497060,2026-07-15
+expenditure,2026-06-25,Senate of Virginia,$242.41,Virginia Beach,VA,pac,Office Supplies,D,497060,2026-07-15
+expenditure,2026-06-25,The Flying Pig,$291.24,Midlothian,VA,pac,Meals,D,497060,2026-07-15
+expenditure,2026-06-25,United States Postal Service,$196,Richmond,VA,pac,PO Box,D,497060,2026-07-15
+expenditure,2026-06-28,ActBlue,$3.95,Somerville,MA,pac,Credit Card Processing Fee,D,497060,2026-07-15

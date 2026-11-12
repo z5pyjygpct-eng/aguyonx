@@ -1,0 +1,43 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$95,569.30",,VA,,"From official Schedule H, November 2027 election cycle",H,495663,2026-07-14
+summary,2026-06-30,Raised this cycle,"$14,873.55",,,,Total receipts this election cycle (Schedule H),H,495663,2026-07-14
+summary,2026-06-30,Spent this cycle,"$9,545.58",,,,Total disbursements this election cycle (Schedule H),H,495663,2026-07-14
+contribution,2026-06-25,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,495663,2026-07-14
+contribution,2026-01-06,Metis Services Inc.,$500,Roanoke,VA,pac,,A,495663,2026-07-14
+contribution,2026-01-06,"Tenaska Virginia Partners, L.P.","$1,000",Omaha,NE,pac,,A,495663,2026-07-14
+contribution,2026-03-27,Virginia Association of Health Plans PAC,"$1,000",Richmond,VA,pac,,A,495663,2026-07-14
+contribution,2026-06-25,Anheuser Busch Companies,$500,Saint Louis,MO,pac,,A,495663,2026-07-14
+contribution,2026-01-13,NiSource Inc. PAC,$250,Columbus,OH,pac,,A,495663,2026-07-14
+contribution,2026-01-06,McGuire Woods,"$1,000",Richmond,VA,pac,,A,495663,2026-07-14
+contribution,2026-01-13,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,A,495663,2026-07-14
+contribution,2026-01-13,Metallurgical Coal Producers Association PAC,"$1,500",Lebanon,VA,pac,,A,495663,2026-07-14
+contribution,2026-03-27,American Chemistry Council,"$2,000",Washington,DC,pac,,A,495663,2026-07-14
+contribution,2026-04-27,American Chemistry Council,"$2,000",Washington,DC,pac,,A,495663,2026-07-14
+contribution,2026-01-13,Dimension Energy LLC,$250,Atlanta,GA,pac,,A,495663,2026-07-14
+contribution,2026-01-06,Vantage Data Centers Management Co. LLC,"$1,000",Santa Clara,CA,pac,,A,495663,2026-07-14
+contribution,2026-01-12,Scott Greenblatt,"$1,000",Pinehurst,NC,individual,,A,495663,2026-07-14
+contribution,2026-01-13,Carbon Solutions Group LLC,$500,Chicago,IL,pac,,A,495663,2026-07-14
+contribution,2026-01-13,"Arrow International, Inc.",$500,Cleveland,OH,pac,,A,495663,2026-07-14
+in_kind,2026-06-02,K-VA-T Food Stores,$200,Abingdon,VA,pac,Bottled water,B,495663,2026-07-14
+in_kind,2026-03-27,Seven Hills Strategy Group LLC,$423.55,Richmond,VA,pac,Event food and beverage,B,495663,2026-07-14
+expenditure,2026-03-31,House Republican Campaign Committee,"$1,000",Richmond,VA,party,Donation,D,495663,2026-07-14
+expenditure,2026-05-15,Postmaster,$125,Bristol,VA,pac,Post office box rental,D,495663,2026-07-14
+expenditure,2026-06-10,John Battle High School,$500,Bristol,VA,pac,Advertising,D,495663,2026-07-14
+expenditure,2026-05-29,Forest Consulting Services,$52.85,Richmond,VA,pac,"Tax Forms preparation, distribution and e-filing",D,495663,2026-07-14
+expenditure,2026-01-26,Innovative Graphics,$332.64,Norton,VA,pac,Campaign materials,D,495663,2026-07-14
+expenditure,2026-01-10,Israel O'Quinn,"$4,843",Bristol,VA,individual,Mileage reimbursement,D,495663,2026-07-14
+expenditure,2026-05-02,Food City,$333.30,Bristol,VA,pac,Teacher Appeciation Week supplies,D,495663,2026-07-14
+expenditure,2026-06-16,PULP Printhouse,$405.41,Bristol,TN,pac,Mailing expense,D,495663,2026-07-14
+expenditure,2026-06-18,Believe in Bristol,$10,Bristol,TN,pac,Parade fee,D,495663,2026-07-14
+expenditure,2026-01-12,Anedot,$40.30,Baton Rouge,LA,pac,Credit card processing fees,D,495663,2026-07-14
+expenditure,2026-06-10,Holston High School Athletic Boosters,$600,Damascus,VA,pac,Advertising,D,495663,2026-07-14
+expenditure,2026-01-02,Google,$50.40,Mountain View,CA,pac,Software fees,D,495663,2026-07-14
+expenditure,2026-02-02,Google,$50.40,Mountain View,CA,pac,Software fees,D,495663,2026-07-14
+expenditure,2026-03-02,Google,$50.40,Mountain View,CA,pac,Software fees,D,495663,2026-07-14
+expenditure,2026-04-02,Google,$50.40,Mountain View,CA,pac,Software fees,D,495663,2026-07-14
+expenditure,2026-05-01,Google,$50.40,Mountain View,CA,pac,Software fees,D,495663,2026-07-14
+expenditure,2026-06-03,Google,$50.40,Mountain View,CA,pac,Software fees,D,495663,2026-07-14
+expenditure,2026-06-03,Google,$50.40,Mountain View,CA,pac,Software fees,D,495663,2026-07-14
+expenditure,2026-06-15,Abingdon High School Band Boosters,$250,Abingdon,VA,pac,Advertising,D,495663,2026-07-14
+expenditure,2026-03-19,Banners.com (Lakes Area GraphiX),$76.73,Kensington,MN,pac,Campaign materials,D,495663,2026-07-14

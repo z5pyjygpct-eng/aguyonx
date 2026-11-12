@@ -1,11 +1,15 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import { CampaignMoneyLookup } from "@/components/site/campaign-money-lookup";
 import { DonorView } from "@/components/site/donor-view";
+import { CampaignMoneySection, FeaturedMoneyTeaser } from "@/components/site/money-card";
 import type { OfficeKind } from "@/lib/campaign-money";
+import { FEATURED_MONEY_SLUG, profileMoneyHref, type FinanceIndexRow } from "@/lib/finance-summaries";
+import { findIndexRow, loadFinanceIndex } from "@/lib/finance-summaries-load";
 
-type Search = { q?: string; office?: OfficeKind; locality?: string; donor?: string };
+type Search = { q?: string; office?: OfficeKind; locality?: string; donor?: string; member?: string };
 
 function parseOffice(v: unknown): OfficeKind | undefined {
   if (v === "legislator" || v === "supervisor" || v === "school-board") return v;
@@ -18,14 +22,15 @@ export const Route = createFileRoute("/campaign-money")({
     office: parseOffice(search.office),
     locality: typeof search.locality === "string" ? search.locality : undefined,
     donor: typeof search.donor === "string" ? search.donor : undefined,
+    member: typeof search.member === "string" ? search.member : undefined,
   }),
   head: () => ({
     meta: [
-      { title: "Who is funding this campaign? · A Guy on X" },
+      { title: "Campaign money · A Guy on X" },
       {
         name: "description",
         content:
-          "Look up official campaign committees at the Virginia Department of Elections for House and Senate members, Board of Supervisors candidates, and school board candidates. You do not need the exact committee title.",
+          "See who funds Virginia delegates, senators, supervisors, and school board candidates, from official Virginia Department of Elections filings. Search a name, a district, or a donor.",
       },
     ],
   }),
@@ -33,12 +38,32 @@ export const Route = createFileRoute("/campaign-money")({
 });
 
 function Page() {
-  const { q, office, locality, donor } = Route.useSearch();
+  const { q, office, locality, donor, member } = Route.useSearch();
+  const [featured, setFeatured] = useState<FinanceIndexRow | null>(null);
+  const [picked, setPicked] = useState<FinanceIndexRow | null | undefined>(member ? undefined : null);
+
+  useEffect(() => {
+    let on = true;
+    loadFinanceIndex().then((index) => {
+      if (!on) return;
+      setFeatured(findIndexRow(index, FEATURED_MONEY_SLUG) ?? null);
+      if (member) setPicked(findIndexRow(index, member) ?? null);
+      else setPicked(null);
+    });
+    return () => {
+      on = false;
+    };
+  }, [member]);
+
+  const memberSlug = picked?.slug ?? (member || undefined);
+  const billsHref = picked ? `${profileMoneyHref(picked.chamber, picked.slug).replace("#campaign-money", "")}#bills` : "#bills";
+  const votesHref = picked ? `${profileMoneyHref(picked.chamber, picked.slug).replace("#campaign-money", "")}#votes` : "#votes";
+
   return (
     <SiteShell>
       <main className="agx-dark flex-1 bg-navy-800 text-white">
         <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
-          <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
+          <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-[#164A3A]" />
           <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8">
             <Breadcrumbs
               items={[
@@ -46,24 +71,63 @@ function Page() {
                 { label: "Campaign money" },
               ]}
             />
-            <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">Campaign money</p>
+            <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-[#8FCB9B] uppercase">
+              State filings · Official records
+            </p>
             <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">
-              Who is funding <span className="text-gold">this campaign?</span>
+              Campaign <span className="text-gold">Money</span>
             </h1>
             <p className="mt-4 max-w-2xl text-lg text-on-dark-muted">
-              This is the official campaign committee page at the Virginia Department of Elections, not the
-              government's budget. Until we publish our own totals, each result opens that person's state committee
-              page in a new tab. You can look up a House or Senate member, a Board of Supervisors candidate, or a
-              school board candidate. You do not need the exact committee title.
+              See who funds Virginia delegates, senators, supervisors, and school board candidates — from the state's own
+              campaign finance reports. Search a person, a district, a committee, or a donor like Clean Virginia. This is
+              not the government's budget.
             </p>
           </div>
         </section>
         <div className="mx-auto max-w-4xl px-4 py-8 sm:px-8">
           {donor ? <div className="mb-8"><DonorView donorId={donor} /></div> : null}
+
+          {member && picked === undefined ? (
+            <p className="mb-8 text-sm text-on-dark-muted">Loading official campaign finance reports…</p>
+          ) : memberSlug && picked ? (
+            <div className="mb-8">
+              <CampaignMoneySection
+                slug={memberSlug}
+                billsHref={billsHref}
+                votesHref={votesHref}
+                officialHref={picked.committeeId ? `https://cfreports.elections.virginia.gov/Committee/Index/${picked.committeeId}` : undefined}
+                variant="hub"
+              />
+            </div>
+          ) : featured && featured.status === "ready" && featured.cashOnHandCents != null ? (
+            <div className="mb-8">
+              <FeaturedMoneyTeaser
+                name={featured.name}
+                honorific={featured.honorific}
+                district={featured.district}
+                chamber={featured.chamber}
+                cashOnHandCents={featured.cashOnHandCents}
+                raisedCycleCents={featured.raisedCycleCents ?? 0}
+                spentCycleCents={featured.spentCycleCents ?? 0}
+                asOf={featured.asOf}
+                memberSlug={FEATURED_MONEY_SLUG}
+              />
+              <p className="mt-3 text-sm text-on-dark-muted">
+                Featured example: {featured.honorific} {featured.name} ({featured.chamber === "house" ? "HD" : "SD"} {featured.district}).
+                The same layout is used for every legislator.{" "}
+                <Link to="/dashboards/house/members/$slug" params={{ slug: "terry-g-kilgore" }} className="font-semibold text-gold hover:underline">
+                  Open his profile
+                </Link>
+                .
+              </p>
+            </div>
+          ) : null}
+
           <CampaignMoneyLookup initialQuery={q ?? ""} initialKind={office ?? "all"} localityId={locality} />
           <p className="mt-6 text-xs text-night-muted">
             Source: Virginia Department of Elections campaign finance reports (cfreports.elections.virginia.gov).
-            Committee matches were taken from the state's official report files, not from the Virginia Public Access Project.
+            Totals use the latest amendment of each official report. Committee matches were taken from the state's
+            official report files, not from the Virginia Public Access Project.
           </p>
         </div>
       </main>

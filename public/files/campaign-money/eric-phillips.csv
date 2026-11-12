@@ -1,0 +1,48 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$34,115.07",,VA,,"From official Schedule H, November 2027 election cycle",H,496672,2026-07-15
+summary,2026-06-30,Raised this cycle,"$44,666.84",,,,Total receipts this election cycle (Schedule H),H,496672,2026-07-15
+summary,2026-06-30,Spent this cycle,"$12,881.50",,,,Total disbursements this election cycle (Schedule H),H,496672,2026-07-15
+contribution,2026-01-07,McGuire Woods,$500,Richmond,VA,pac,,A,496672,2026-07-15
+contribution,2026-06-08,"Altria Client Services, LLC","$1,000",Richmond,VA,pac,,A,496672,2026-07-15
+contribution,2026-03-25,Community Owned Power PAC,"$1,000",Glen Allen,VA,pac,,A,496672,2026-07-15
+contribution,2026-01-12,Dominion Energy Inc PAC,"$5,000",Richmond,VA,pac,,A,496672,2026-07-15
+contribution,2026-05-28,Dominion Energy Inc PAC,"$25,000",Richmond,VA,pac,,A,496672,2026-07-15
+contribution,2026-01-27,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,pac,,A,496672,2026-07-15
+contribution,2026-01-07,HBAV Build-PAC,"$1,500",Richmond,VA,pac,,A,496672,2026-07-15
+contribution,2026-01-27,Arrow International Inc,$500,Cleveland,OH,pac,,A,496672,2026-07-15
+contribution,2026-01-27,PPE Casino Resorts Petersburg,"$1,000",Baltimore,MD,pac,,A,496672,2026-07-15
+contribution,2026-01-27,VA Operators for Skill,"$1,000",Richmond,VA,pac,,A,496672,2026-07-15
+contribution,2026-06-08,VA Operators for Skill,"$5,000",Richmond,VA,pac,,A,496672,2026-07-15
+contribution,2026-06-26,Capital Results LLC,$500,Richmond,VA,pac,,A,496672,2026-07-15
+other_receipt,2026-02-10,Target,$16.84,Danville,VA,pac,Refund of Purchase,C,496672,2026-07-15
+expenditure,2026-01-24,Truist,$24,Williamsburg,VA,pac,Service Charge,D,496672,2026-07-15
+expenditure,2026-02-23,Truist,$28,Williamsburg,VA,pac,Service Charges,D,496672,2026-07-15
+expenditure,2026-03-23,Truist,$20,Williamsburg,VA,pac,Service Charges,D,496672,2026-07-15
+expenditure,2026-04-21,Truist,$28,Williamsburg,VA,pac,Service Charges,D,496672,2026-07-15
+expenditure,2026-01-05,ADP,$78.21,Richmond,VA,pac,Payroll Fees,D,496672,2026-07-15
+expenditure,2026-01-30,ADP,$78.21,Richmond,VA,pac,Payroll Fees,D,496672,2026-07-15
+expenditure,2026-02-09,ADP,$101.70,Richmond,VA,pac,Payroll Fees,D,496672,2026-07-15
+expenditure,2026-03-06,ADP,$78.21,Richmond,VA,pac,Payroll Fees,D,496672,2026-07-15
+expenditure,2026-04-10,ADP,$78.21,Richmond,VA,pac,Payroll Fees,D,496672,2026-07-15
+expenditure,2026-05-15,ADP,$78.21,Richmond,VA,pac,Payroll Fees,D,496672,2026-07-15
+expenditure,2026-06-26,ADP,$78.21,Richmond,VA,pac,Payroll Fees,D,496672,2026-07-15
+expenditure,2026-04-09,Star News Corporation,"$2,000",Martinsville,VA,pac,Advertisement,D,496672,2026-07-15
+expenditure,2026-01-05,Campaign Compliance Center,"$1,000",Williamsburg,VA,pac,Campaign Compliance,D,496672,2026-07-15
+expenditure,2026-02-02,Campaign Compliance Center,"$1,000",Williamsburg,VA,pac,Campaign Compliance,D,496672,2026-07-15
+expenditure,2026-02-16,Campaign Compliance Center,"$1,000",Williamsburg,VA,pac,Campaign Compliance,D,496672,2026-07-15
+expenditure,2026-03-16,Campaign Compliance Center,"$1,000",Williamsburg,VA,pac,Campaign Compliance,D,496672,2026-07-15
+expenditure,2026-04-01,Campaign Compliance Center,"$1,000",Williamsburg,VA,pac,Campaign Compliance,D,496672,2026-07-15
+expenditure,2026-05-04,Campaign Compliance Center,"$1,000",Williamsburg,VA,pac,Campaign Compliance,D,496672,2026-07-15
+expenditure,2026-06-30,Campaign Compliance Center,"$1,000",Williamsburg,VA,pac,Campaign Compliance,D,496672,2026-07-15
+expenditure,2026-04-01,House Republican Campaign Committee,"$1,000",Henrico,VA,party,Donation,D,496672,2026-07-15
+expenditure,2026-04-23,"Amazon.com Services, LLC",$85.03,Seattle,WA,pac,Supplies,D,496672,2026-07-15
+expenditure,2026-06-24,"Amazon.com Services, LLC",$53.14,Seattle,WA,pac,Supplies,D,496672,2026-07-15
+expenditure,2026-06-09,USPS,$156,Lightfoot,VA,pac,Postage,D,496672,2026-07-15
+expenditure,2026-02-09,Target,$16.84,Danville,VA,pac,Supplies,D,496672,2026-07-15
+expenditure,2026-02-09,Target,$72.28,Danville,VA,pac,Supplies,D,496672,2026-07-15
+expenditure,2026-02-27,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,pac,Donation,D,496672,2026-07-15
+expenditure,2026-04-17,"CSGA Group, LLC",$327.25,Winchester,VA,pac,Texting,D,496672,2026-07-15
+expenditure,2026-06-26,Martinsville Lady A's,$500,Martinsville,VA,pac,Sponsorship,D,496672,2026-07-15
+debt,2023-12-13,Eric Phillips,"$75,000",Martinsville,VA,individual,,F,496672,2026-07-15
+debt,2025-04-22,Eric Phillips,"$24,000",Martinsville,VA,individual,,F,496672,2026-07-15

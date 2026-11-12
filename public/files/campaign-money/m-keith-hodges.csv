@@ -1,0 +1,36 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$36,450.84",,VA,,"From official Schedule H, November 2027 election cycle",H,497094,2026-07-15
+summary,2026-06-30,Raised this cycle,"$9,750",,,,Total receipts this election cycle (Schedule H),H,497094,2026-07-15
+summary,2026-06-30,Spent this cycle,"$12,388.10",,,,Total disbursements this election cycle (Schedule H),H,497094,2026-07-15
+contribution,2026-06-30,Waste Management,$750,Houston,TX,pac,,A,497094,2026-07-15
+contribution,2026-06-16,Virginia CRNA-PAC,$500,Charlottesville,VA,pac,,A,497094,2026-07-15
+contribution,2026-06-17,Anheuser Busch,$250,St. Louis,MO,pac,,A,497094,2026-07-15
+contribution,2026-06-01,VA OPERATORS FOR SKILL,"$5,000",RICHMOND,VA,pac,,A,497094,2026-07-15
+contribution,2026-06-30,GlaxoSmithKline LLC PAC (GSK PAC),$250,Washington,DC,pac,,A,497094,2026-07-15
+contribution,2026-01-13,"Comstock Hospitality Holding, LLC","$2,500",Reston,VA,pac,,A,497094,2026-07-15
+contribution,2026-05-02,VSP VISION,$500,RANCHO CORDOVA,CA,pac,,A,497094,2026-07-15
+expenditure,2026-01-02,Truist,$24.95,Gloucester,VA,pac,AUTHNET GATEWAY,D,497094,2026-07-15
+expenditure,2026-01-21,Truist,$5,Gloucester,VA,pac,BANK CHARGES,D,497094,2026-07-15
+expenditure,2026-01-26,Truist,$94.90,Gloucester,VA,pac,MERCHANT FEE,D,497094,2026-07-15
+expenditure,2026-02-03,Truist,$24.95,Gloucester,VA,pac,AUTHNET GATEWAY,D,497094,2026-07-15
+expenditure,2026-02-17,Truist,$94.90,Gloucester,VA,pac,MERCHANT FEE,D,497094,2026-07-15
+expenditure,2026-02-23,Truist,$5,Gloucester,VA,pac,BANK CHARGES,D,497094,2026-07-15
+expenditure,2026-03-03,Truist,$24.95,Gloucester,VA,pac,AUTHNET GATEWAY,D,497094,2026-07-15
+expenditure,2026-03-16,Truist,$94.90,Gloucester,VA,pac,MERCHANT FEE,D,497094,2026-07-15
+expenditure,2026-03-23,Truist,$8,Gloucester,VA,pac,BANK CHARGES,D,497094,2026-07-15
+expenditure,2026-04-02,Truist,$24.95,Gloucester,VA,pac,AUTHNET GATEWAY,D,497094,2026-07-15
+expenditure,2026-04-15,Truist,$94.90,Gloucester,VA,pac,MERCHANT FEE,D,497094,2026-07-15
+expenditure,2026-04-21,Truist,$5,Gloucester,VA,pac,BANK CHARGES,D,497094,2026-07-15
+expenditure,2026-05-04,Truist,$24.95,Gloucester,VA,pac,AUTHNET GATEWAY,D,497094,2026-07-15
+expenditure,2026-05-15,Truist,$94.90,Gloucester,VA,pac,MERCHANT FEE,D,497094,2026-07-15
+expenditure,2026-05-21,Truist,$5,Gloucester,VA,pac,BANK CHARGES,D,497094,2026-07-15
+expenditure,2026-06-02,Truist,$24.95,Gloucester,VA,pac,AUTHNET GATEWAY,D,497094,2026-07-15
+expenditure,2026-06-15,Truist,$94.90,Gloucester,VA,pac,MERCHANT FEE,D,497094,2026-07-15
+expenditure,2026-06-22,Truist,$5,Gloucester,VA,pac,BANK CHARGES,D,497094,2026-07-15
+expenditure,2026-01-03,United States Postal Service,$106,UrbannA,VA,pac,POST OFFICE BOX RENTAL,D,497094,2026-07-15
+expenditure,2026-03-19,WXGM,"$2,376",Gloucester,VA,pac,advertising,D,497094,2026-07-15
+expenditure,2026-04-09,WRAR FM,$502,Tappahannock,VA,pac,ADVERTISING,D,497094,2026-07-15
+expenditure,2026-04-09,WNNT FM,$502,Warsaw,VA,pac,ADVERTISING,D,497094,2026-07-15
+expenditure,2026-05-22,Donald Sandridge,$150,Gloucester Point,VA,individual,SEAFOOD FESTIVAL TICKETS,D,497094,2026-07-15
+expenditure,2026-01-10,Moving Mountains PAC,"$8,000",Richmond,VA,pac,POLITICAL CONTRIBUTION,D,497094,2026-07-15

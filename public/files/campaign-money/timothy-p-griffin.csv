@@ -1,0 +1,66 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$9,871.27",,VA,,"From official Schedule H, November 2027 election cycle",H,495309,2026-07-14
+summary,2026-06-30,Raised this cycle,"$13,820",,,,Total receipts this election cycle (Schedule H),H,495309,2026-07-14
+summary,2026-06-30,Spent this cycle,"$13,260.36",,,,Total disbursements this election cycle (Schedule H),H,495309,2026-07-14
+contribution,2026-06-08,Matthew Pack,$500,Forest,VA,individual,,A,495309,2026-07-14
+contribution,2026-06-08,Brandon Butler,$120,Goode,VA,individual,,A,495309,2026-07-14
+contribution,2026-06-25,Lawrence Howard Hansberry III,$250,Amherst,VA,individual,,A,495309,2026-07-14
+contribution,2026-06-25,Peake for Senate,$250,Lynchburg,VA,candidate,,A,495309,2026-07-14
+contribution,2026-06-08,Mr S Vance Wilkins Jr.,$500,Amherst,VA,individual,,A,495309,2026-07-14
+contribution,2026-06-08,R Carlton Ballowe,$150,Faber,VA,individual,,A,495309,2026-07-14
+contribution,2026-06-08,Carl Coffey,$500,Roseland,VA,individual,,A,495309,2026-07-14
+contribution,2026-06-08,Carl Coffey,"$1,000",Roseland,VA,individual,,A,495309,2026-07-14
+contribution,2026-06-08,Altria Client Services LLC,$500,Richmond,VA,pac,,A,495309,2026-07-14
+contribution,2026-06-25,John W Ballard III,$125,Gladstone,VA,individual,,A,495309,2026-07-14
+contribution,2026-06-08,Atul Gupta,"$5,000",Lynchburg,VA,individual,,A,495309,2026-07-14
+contribution,2026-03-31,"Arrow International, Inc",$500,Cleveland,OH,pac,,A,495309,2026-07-14
+contribution,2026-06-08,Janet S Seay,$150,Goode,VA,individual,,A,495309,2026-07-14
+contribution,2026-01-13,PPE Casino Resorts Petersburg,"$1,000",Baltimore,MD,pac,,A,495309,2026-07-14
+contribution,2026-03-31,PPE Casino Resorts Petersburg,"$1,000",Baltimore,MD,pac,,A,495309,2026-07-14
+contribution,2026-06-08,Teresa Almond,"$1,000",Madison Heights,VA,individual,,A,495309,2026-07-14
+contribution,2026-06-08,Jonathan Berry,$500,Goode,VA,individual,,A,495309,2026-07-14
+contribution,2026-06-25,Jacquie Johnson,$150,Evington,VA,individual,,A,495309,2026-07-14
+expenditure,2026-03-02,Mary Katherine Bennett,$92,Forest,VA,individual,reimbursement,D,495309,2026-07-14
+expenditure,2026-01-15,"The Yummy Potato, LLC","$1,500",Forest,VA,pac,consulting,D,495309,2026-07-14
+expenditure,2026-02-20,"The Yummy Potato, LLC","$1,500",Forest,VA,pac,consulting,D,495309,2026-07-14
+expenditure,2026-03-31,"The Yummy Potato, LLC","$1,510",Forest,VA,pac,consulting,D,495309,2026-07-14
+expenditure,2026-05-19,"The Yummy Potato, LLC","$2,000",Forest,VA,pac,consulting,D,495309,2026-07-14
+expenditure,2026-03-05,Constant Contact,$81,Waltham,MA,pac,email services,D,495309,2026-07-14
+expenditure,2026-03-30,Constant Contact,$2.58,Waltham,MA,pac,email services,D,495309,2026-07-14
+expenditure,2026-04-06,Constant Contact,$91,Waltham,MA,pac,email services,D,495309,2026-07-14
+expenditure,2026-05-05,Constant Contact,$91,Waltham,MA,pac,email services,D,495309,2026-07-14
+expenditure,2026-06-05,Constant Contact,$91,Waltham,MA,pac,email services,D,495309,2026-07-14
+expenditure,2026-02-20,Meriwether-Godsey Inc,$23.20,Lynchburg,VA,pac,food and catering,D,495309,2026-07-14
+expenditure,2026-02-02,Storage Rentals of America,$340,Forest,VA,pac,storage locker,D,495309,2026-07-14
+expenditure,2026-03-31,Storage Rentals of America,$120,Forest,VA,pac,storage locker,D,495309,2026-07-14
+expenditure,2026-04-27,Storage Rentals of America,$100,Forest,VA,pac,storage locker,D,495309,2026-07-14
+expenditure,2026-05-26,Storage Rentals of America,$100,Forest,VA,pac,storage locker,D,495309,2026-07-14
+expenditure,2026-06-26,Storage Rentals of America,$100,Forest,VA,pac,storage locker,D,495309,2026-07-14
+expenditure,2026-03-31,House Republican Caucus Committee (HRCC),"$1,010",Henrico,VA,party,caucus dues,D,495309,2026-07-14
+expenditure,2026-03-04,Rick's Custom Frame,"$1,006.79",Richmond,VA,pac,frames,D,495309,2026-07-14
+expenditure,2026-03-16,5th Congressional District of Virginia Republican Committee,"$1,010",Lovingston,VA,party,donation to political committee,D,495309,2026-07-14
+expenditure,2026-01-23,Meta,$140.52,Menlo Park,CA,pac,advertising,D,495309,2026-07-14
+expenditure,2026-02-02,Meta,$24.77,Menlo Park,CA,pac,advertising,D,495309,2026-07-14
+expenditure,2026-03-02,Meta,$22.20,Menlo Park,CA,pac,advertising,D,495309,2026-07-14
+expenditure,2026-01-20,The Tobacco Company,$296.30,Richmond,VA,pac,food and catering,D,495309,2026-07-14
+expenditure,2026-01-30,The Tobacco Company,$34.97,Richmond,VA,pac,food and catering,D,495309,2026-07-14
+expenditure,2026-02-11,Chicano's Cocina Bar and Grill,$79.23,Richmond,VA,pac,food and catering,D,495309,2026-07-14
+expenditure,2026-02-27,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,pac,campaign committee donation,D,495309,2026-07-14
+expenditure,2026-03-05,Little Mexico,$94.66,Richmond,VA,pac,food and catering,D,495309,2026-07-14
+expenditure,2026-03-09,Chick-Fil-A,$31.33,Lynchburg,VA,pac,dining,D,495309,2026-07-14
+expenditure,2026-03-09,Chick-Fil-A,$69,Lynchburg,VA,pac,dining,D,495309,2026-07-14
+expenditure,2026-03-11,Capital Ale House,$72.69,Richmond,VA,pac,dining,D,495309,2026-07-14
+expenditure,2026-03-20,Starbucks Coffee,$4.31,Farmville,VA,pac,dining,D,495309,2026-07-14
+expenditure,2026-02-17,"RiversideFM, Inc",$29.87,Palo Alto,CA,pac,video editing,D,495309,2026-07-14
+expenditure,2026-03-16,"RiversideFM, Inc",$29.87,Palo Alto,CA,pac,video editing,D,495309,2026-07-14
+expenditure,2026-04-14,"RiversideFM, Inc",$29.87,Palo Alto,CA,pac,video editing,D,495309,2026-07-14
+expenditure,2026-05-14,"RiversideFM, Inc",$29.87,Palo Alto,CA,pac,video editing,D,495309,2026-07-14
+expenditure,2026-06-15,"RiversideFM, Inc",$29.87,Palo Alto,CA,pac,video editing,D,495309,2026-07-14
+expenditure,2026-03-20,"Mirage, Inc",$24.99,New York,NY,pac,video editing,D,495309,2026-07-14
+expenditure,2026-04-20,"Mirage, Inc",$24.99,New York,NY,pac,video captioning,D,495309,2026-07-14
+expenditure,2026-05-20,"Mirage, Inc",$24.99,New York,NY,pac,video captioning,D,495309,2026-07-14
+expenditure,2026-06-22,"Mirage, Inc",$24.99,New York,NY,pac,video captioning,D,495309,2026-07-14
+expenditure,2026-04-01,GoDaddy,$102.19,Tempe,AZ,pac,website,D,495309,2026-07-14
+expenditure,2026-04-17,Harpoon Larry's,$78.31,Newport News,VA,pac,dining,D,495309,2026-07-14
+expenditure,2026-04-01,Squarespace,$192,New York,NY,pac,web services,D,495309,2026-07-14

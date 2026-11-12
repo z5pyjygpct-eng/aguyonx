@@ -9,7 +9,7 @@ import { Link, type LinkProps } from "@tanstack/react-router";
  *        to     – an internal route (typed, so a typo fails the build)
  *        kicker – the small mono line on top, keep it to a few words
  *        title  – the big uppercase line, keep it to ~3 words
- *        tone   – "gold" | "red" | "blue" (add a new tone in TONE if a new color is ever approved)
+ *        tone   – "gold" | "red" | "blue" | "green" (add a new tone in TONE if a new color is ever approved)
  *        wide   – optional; true makes the tile a full-width bar across both columns
  *   2. That's it. Tiles flow into a 2-column grid in array order; every normal tile has the same width and height
  *      (the row stretches to the tallest one), and "wide" tiles are a compact full-width bar.
@@ -17,19 +17,21 @@ import { Link, type LinkProps } from "@tanstack/react-router";
  *      still sit beside the headline/subhead/search column on desktop and never push the search bar down.
  *      Prefer a "wide" bar, or retire an old tile, over adding a long stack.
  */
-type Tone = "gold" | "red" | "blue";
+type Tone = "gold" | "red" | "blue" | "green";
 type HeroTile = { to: LinkProps["to"]; kicker: string; title: string; tone: Tone; wide?: boolean };
 
 export const HERO_TILES: HeroTile[] = [
   { to: "/how-to", kicker: "New here?", title: "How to use this website", tone: "gold" },
   { to: "/virginia-2027-bills", kicker: "New • Updated daily as filed", title: "Virginia 2027 bills", tone: "blue" },
   { to: "/emergency-monitor", kicker: "Live · Updated every 2 hours", title: "Emergency Monitoring", tone: "red", wide: true },
+  { to: "/campaign-money", kicker: "State filings · Official records", title: "Campaign Finance", tone: "green", wide: true },
 ];
 
 const TONE: Record<Tone, string> = {
   gold: "bg-gold text-navy-900 ring-gold-hover hover:bg-gold-hover",
   red: "bg-[#C8102E] text-white ring-[#ff6b7f] hover:bg-[#a50d26]",
   blue: "bg-forest text-white ring-[#9ec0ef] hover:bg-[#163a6e]",
+  green: "bg-[#164A3A] text-white ring-[#8FCB9B] hover:bg-[#1C5C49]",
 };
 
 export function HeroFeatureTiles({ className = "" }: { className?: string }) {

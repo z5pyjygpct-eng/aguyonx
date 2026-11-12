@@ -1,0 +1,189 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$52,153.81",,VA,,"From official Schedule H, November 2025 election cycle",H,491648,2026-07-02
+summary,2026-06-30,Raised this cycle,"$1,537,929.59",,,,Total receipts this election cycle (Schedule H),H,491648,2026-07-02
+summary,2026-06-30,Spent this cycle,"$1,517,899.80",,,,Total disbursements this election cycle (Schedule H),H,491648,2026-07-02
+contribution,2025-12-30,"Christian & Barton, LLP",$0,Richmond,VA,pac,,A,475146,2026-01-06
+contribution,2025-12-17,McGuireWoods,$500,Richmond,VA,pac,,A,475146,2026-01-06
+contribution,2025-12-16,The Medical Society of Virginia PAC,"$1,000",Richmond,VA,pac,,A,475146,2026-01-06
+contribution,2025-12-09,Virginia Beer Wholesalers Association,$500,Richmond,VA,pac,,A,475146,2026-01-06
+contribution,2025-12-16,Virginia Beer Wholesalers Association,$119.95,Richmond,VA,pac,,A,475146,2026-01-06
+contribution,2025-12-16,Virginia Manufactured & Modular Housing Assoc.,$250,Richmond,VA,pac,,A,475146,2026-01-06
+contribution,2026-01-12,"Allen, Allen, Allen & Allen","$1,000",Richmond,VA,pac,,A,491648,2026-07-02
+contribution,2026-05-14,"Allen, Allen, Allen & Allen","$1,000",Richmond,VA,pac,,A,491648,2026-07-02
+contribution,2026-06-04,Altria Client Services Inc.,"$1,000",Richmond,VA,pac,,A,491648,2026-07-02
+contribution,2026-06-15,Anheuser Busch,$500,Atlanta,GA,pac,,A,491648,2026-07-02
+contribution,2026-01-12,"Arrowhead International, Inc.","$1,000",Cleveland,OH,pac,,A,491648,2026-07-02
+contribution,2026-03-17,"Christian & Barton, LLP",$250,,,pac,,A,491648,2026-07-02
+contribution,2026-01-05,Commercial Development PAC,$500,Alexandria,VA,pac,,A,491648,2026-07-02
+contribution,2026-01-12,Dominion Energy Pac,"$10,000",Richmond,VA,pac,,A,491648,2026-07-02
+contribution,2026-03-17,J Ward For Delegate Last Name Left Blank,$80,Hampton,VA,candidate,,A,491648,2026-07-02
+contribution,2026-06-02,Transurban USA Inc.,$500,Tysons,VA,pac,,A,491648,2026-07-02
+contribution,2026-03-17,Virginia Bankers Association State PAC,"$1,000",Glen Allen,VA,pac,,A,491648,2026-07-02
+contribution,2026-01-12,Virginia Charitable Gaming Council,$500,,,pac,,A,491648,2026-07-02
+contribution,2026-05-07,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,491648,2026-07-02
+contribution,2026-04-16,Virginia Sheriffs' Association PAC,$250,Richmond,VA,pac,,A,491648,2026-07-02
+contribution,2026-01-05,Virginia Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,A,491648,2026-07-02
+contribution,2026-06-15,Virginia Trial Lawyers PAC,"$2,500",Richmond,VA,pac,,A,491648,2026-07-02
+contribution,2026-01-06,Russell Bailey,"$1,000",Chesapeake,VA,individual,,A,491648,2026-07-02
+contribution,2026-01-13,Michael Carlin,$500,Virginia Beach,VA,individual,,A,491648,2026-07-02
+contribution,2026-04-07,James Leftwich,"$6,734.85",Chesapeake,VA,individual,,A,491648,2026-07-02
+contribution,2026-05-07,Michael Lewis,$500,Onancock,VA,individual,,A,491648,2026-07-02
+contribution,2026-01-07,Cynthia MacDonald,$250,Chesapeake,VA,individual,,A,491648,2026-07-02
+in_kind,2026-01-07,Co-Op PAC,"$1,089.36",Glen Allen,VA,pac,event,B,491648,2026-07-02
+expenditure,2025-12-12,"7-Eleven, Inc.",$69.71,,WI,pac,gas expense,D,475146,2026-01-06
+expenditure,2025-12-12,Adobe Systems,$9.99,,CA,pac,office expense,D,475146,2026-01-06
+expenditure,2025-12-12,Adobe Systems,$29.99,,CA,pac,office expense,D,475146,2026-01-06
+expenditure,2025-12-12,Adobe Systems,$19.99,,CA,pac,office expense,D,475146,2026-01-06
+expenditure,2025-12-10,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,475146,2026-01-06
+expenditure,2025-12-10,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,475146,2026-01-06
+expenditure,2025-12-19,Angela Chellew,"$3,640",Virginia Beach,VA,individual,reimbursement for mileage,D,475146,2026-01-06
+expenditure,2025-12-30,Christie New Craig For Senate,$425,Chesapeake,VA,candidate,food for event,D,475146,2026-01-06
+expenditure,2025-12-30,Christie New Craig For Senate,$319.24,Chesapeake,VA,candidate,food for event,D,475146,2026-01-06
+expenditure,2025-12-12,City Parking Inc,$10,Richmond,VA,pac,parking expense for meeting,D,475146,2026-01-06
+expenditure,2025-12-12,Exxon Mobil,$63.56,Chesapeake,VA,pac,gas for staff,D,475146,2026-01-06
+expenditure,2025-12-12,Go Daddy,$8.99,Scottsdale,AZ,pac,domain expense,D,475146,2026-01-06
+expenditure,2025-12-12,Go Daddy,$17.99,Scottsdale,AZ,pac,domain expense,D,475146,2026-01-06
+expenditure,2025-12-12,Google,$45.60,,CA,pac,domain expense,D,475146,2026-01-06
+expenditure,2025-12-12,"Jungle Disk, LLC",$10,San Antonio,TX,pac,office expense,D,475146,2026-01-06
+expenditure,2025-12-12,Lockside Bar & Grill,$98.24,Chesapeake,VA,pac,food for staff & voluneers,D,475146,2026-01-06
+expenditure,2025-12-12,Love's Travel Stops,$74.30,Providence Forge,VA,pac,gas expense,D,475146,2026-01-06
+expenditure,2025-12-15,Assembly Strategies LLC,"$1,060",Richmond,VA,pac,mail expense,D,475146,2026-01-06
+expenditure,2025-12-12,Public Storage,$339,Chesapeake,VA,pac,campaign storage,D,475146,2026-01-06
+expenditure,2025-12-12,Richmond Times Dispatch,$40.99,Richmond,VI,pac,RTD Subscription,D,475146,2026-01-06
+expenditure,2025-12-12,Sheetz,$47.33,,VA,pac,gas expense,D,475146,2026-01-06
+expenditure,2025-12-15,Vanco Payment Solutions,$0.50,Bloomington,MN,pac,monthly service fee,D,475146,2026-01-06
+expenditure,2025-12-12,Village Inn,$50.48,Chesapeake,VA,pac,lunch for volunteers,D,475146,2026-01-06
+expenditure,2026-03-16,1-800 Flowers.com,$363.52,Richmond,VA,pac,flowers for session staff,D,491648,2026-07-02
+expenditure,2026-06-14,7-eleven,$89.18,,VA,pac,gas expense,D,491648,2026-07-02
+expenditure,2026-01-14,Adobe Systems,$9.99,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-01-14,Adobe Systems,$29.99,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-01-14,Adobe Systems,$19.99,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-02-11,Adobe Systems,$19.99,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-02-13,Adobe Systems,$39.98,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-03-16,Adobe Systems,$39.98,,,pac,adobe expense,D,491648,2026-07-02
+expenditure,2026-04-13,Adobe Systems,$19.99,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-04-13,Adobe Systems,$39.98,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-04-13,Adobe Systems,$19.99,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-05-11,Adobe Systems,$39.98,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-05-11,Adobe Systems,$19.99,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-06-14,Adobe Systems,$39.38,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-06-14,Adobe Systems,$19.99,,,pac,office expense,D,491648,2026-07-02
+expenditure,2026-01-14,AMEX,$150,,WA,pac,annual fee,D,491648,2026-07-02
+expenditure,2026-01-14,ASPCA,$250,New York,NY,pac,donation,D,491648,2026-07-02
+expenditure,2026-01-14,Capital Ale House,$375,Richmond,VA,pac,event expense,D,491648,2026-07-02
+expenditure,2026-02-11,Capital Ale House,$497.68,Richmond,VA,pac,event expense,D,491648,2026-07-02
+expenditure,2026-01-14,Capitol Cafe,$9.93,Richmond,VA,pac,Richmond lunch meeting,D,491648,2026-07-02
+expenditure,2026-01-29,Angela Chellew,$111.39,Virginia Beach,VA,individual,gas reimbursement,D,491648,2026-07-02
+expenditure,2026-02-03,Angela Chellew,$500,Virginia Beach,VA,individual,coompliance services,D,491648,2026-07-02
+expenditure,2026-02-12,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone & data,D,491648,2026-07-02
+expenditure,2026-03-10,Angela Chellew,$500,Virginia Beach,VA,individual,compliance,D,491648,2026-07-02
+expenditure,2026-03-10,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone & data,D,491648,2026-07-02
+expenditure,2026-03-18,Angela Chellew,$154.50,Virginia Beach,VA,individual,reimbursement for gas to richmond,D,491648,2026-07-02
+expenditure,2026-04-03,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,491648,2026-07-02
+expenditure,2026-04-03,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone & data,D,491648,2026-07-02
+expenditure,2026-05-08,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,491648,2026-07-02
+expenditure,2026-05-08,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone & data,D,491648,2026-07-02
+expenditure,2026-06-03,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone & data,D,491648,2026-07-02
+expenditure,2026-06-03,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,491648,2026-07-02
+expenditure,2026-01-02,Chesapeake Rotary,$347.50,Chesapeake,VA,pac,dues,D,491648,2026-07-02
+expenditure,2026-06-29,Chesapeake Rotary,$347.50,Chesapeake,VA,pac,dues,D,491648,2026-07-02
+expenditure,2026-04-13,Chicanos Cocina,$165.74,Richmond,VA,pac,dinner meeting,D,491648,2026-07-02
+expenditure,2026-06-15,Christie New Craig For Senate,$334.90,Chesapeake,VA,candidate,reimbursement for chairs,D,491648,2026-07-02
+expenditure,2026-06-14,City Parking Inc,$10,Richmond,VA,pac,staff parking expense,D,491648,2026-07-02
+expenditure,2026-04-08,Crisis Pregnancy Center,$150,,VA,pac,donation,D,491648,2026-07-02
+expenditure,2026-01-14,Doodle,$83.40,San Francisco,CA,pac,office expense,D,491648,2026-07-02
+expenditure,2026-01-14,Dropbox,$203.88,,CA,pac,office expense,D,491648,2026-07-02
+expenditure,2026-06-14,Dropbox,$199.99,,CA,pac,office expense,D,491648,2026-07-02
+expenditure,2026-06-14,Essex Software,$96,Charlotte,NC,pac,office expense,D,491648,2026-07-02
+expenditure,2026-02-11,Exxon Mobil,$37.07,Chesapeake,VA,pac,gas expense,D,491648,2026-07-02
+expenditure,2026-02-12,Flower Shop Network,$97.97,Paragould,AR,pac,flowers for staff,D,491648,2026-07-02
+expenditure,2026-01-14,Food Lion,$16.64,,VA,pac,drinks for district meeting,D,491648,2026-07-02
+expenditure,2026-03-03,Friends Of Andrew Rice,"$2,000",Virginia Beach,VA,pac,donation,D,491648,2026-07-02
+expenditure,2026-01-14,Go Daddy,$17.99,Scottsdale,AZ,pac,office expense,D,491648,2026-07-02
+expenditure,2026-01-14,Go Daddy,$8.99,Scottsdale,AZ,pac,office expense,D,491648,2026-07-02
+expenditure,2026-02-11,Go Daddy,$9.99,Scottsdale,AZ,pac,domain expense,D,491648,2026-07-02
+expenditure,2026-02-12,Go Daddy,$17.99,Scottsdale,AZ,pac,domain expense,D,491648,2026-07-02
+expenditure,2026-03-16,Go Daddy,$29.98,Scottsdale,AZ,pac,domain expense,D,491648,2026-07-02
+expenditure,2026-04-13,Go Daddy,$19.99,Scottsdale,AZ,pac,domain expense,D,491648,2026-07-02
+expenditure,2026-04-13,Go Daddy,$787.41,Scottsdale,AZ,pac,office expense,D,491648,2026-07-02
+expenditure,2026-05-11,Go Daddy,$19.99,Scottsdale,AZ,pac,domain expense,D,491648,2026-07-02
+expenditure,2026-05-11,Go Daddy,$9.99,Scottsdale,AZ,pac,domain expense,D,491648,2026-07-02
+expenditure,2026-06-14,Go Daddy,$9.99,Scottsdale,AZ,pac,domain expense,D,491648,2026-07-02
+expenditure,2026-06-14,Go Daddy,$19.99,Scottsdale,AZ,pac,domain expense,D,491648,2026-07-02
+expenditure,2026-06-14,Go Daddy,$119.99,Scottsdale,AZ,pac,domain expense,D,491648,2026-07-02
+expenditure,2026-01-14,Google,$33.60,,CA,pac,office expense,D,491648,2026-07-02
+expenditure,2026-02-11,Google,$33.60,,CA,pac,office expense,D,491648,2026-07-02
+expenditure,2026-03-16,Google,$33.60,,CA,pac,office expense,D,491648,2026-07-02
+expenditure,2026-04-13,Google,$33.60,,CA,pac,office expense,D,491648,2026-07-02
+expenditure,2026-05-12,Google,$33.60,,CA,pac,domain expense,D,491648,2026-07-02
+expenditure,2026-06-14,Google,$33.60,,CA,pac,office expense,D,491648,2026-07-02
+expenditure,2026-04-13,Great Bridge Frame & Art,$217.15,Chesapeake,VA,pac,resolution framing,D,491648,2026-07-02
+expenditure,2026-02-11,Harris Teeter,$95.71,,VA,pac,Richmond office expense,D,491648,2026-07-02
+expenditure,2026-01-14,Hot Rodders Cafe,$40.61,Chesapeake,VA,pac,constituent lunch meeting,D,491648,2026-07-02
+expenditure,2026-04-08,HRCC,"$1,000",Richmond,VA,pac,dues,D,491648,2026-07-02
+expenditure,2026-05-01,HRCC,"$7,000",,VA,pac,dues,D,491648,2026-07-02
+expenditure,2026-01-14,Jimmy Johns,$108.35,Chesapeake,VA,pac,food for district meeting,D,491648,2026-07-02
+expenditure,2026-02-12,Jimmy Johns,$99.68,Chesapeake,VA,pac,food for community meeting,D,491648,2026-07-02
+expenditure,2026-01-14,"Jungle Disk, LLC",$10,San Antonio,TX,pac,office expense,D,491648,2026-07-02
+expenditure,2026-02-11,"Jungle Disk, LLC",$10,San Antonio,TX,pac,office expense,D,491648,2026-07-02
+expenditure,2026-03-16,"Jungle Disk, LLC",$10,San Antonio,TX,pac,office expense,D,491648,2026-07-02
+expenditure,2026-04-13,"Jungle Disk, LLC",$15,San Antonio,TX,pac,data expense,D,491648,2026-07-02
+expenditure,2026-05-11,"Jungle Disk, LLC",$15,San Antonio,TX,pac,data expense,D,491648,2026-07-02
+expenditure,2026-06-14,"Jungle Disk, LLC",$15,San Antonio,TX,pac,office expense,D,491648,2026-07-02
+expenditure,2026-04-01,"Kinser, Leftwich & Kahle, P.C.",$899.76,Chesapeake,VA,pac,postage reimbursement,D,491648,2026-07-02
+expenditure,2026-01-26,Last Name Left Blank,$280,Chesapeake,VA,pac,campaign work,D,491648,2026-07-02
+expenditure,2026-01-14,Love's Travel Stops,$72.95,Providence Forge,VA,pac,gas expense,D,491648,2026-07-02
+expenditure,2026-01-14,Love's Travel Stops,$72.30,Providence Forge,VA,pac,gas expense,D,491648,2026-07-02
+expenditure,2026-02-13,Love's Travel Stops,$33.90,Providence Forge,VA,pac,gas expense,D,491648,2026-07-02
+expenditure,2026-04-13,Love's Travel Stops,$62.01,Providence Forge,VA,pac,staff gas expense,D,491648,2026-07-02
+expenditure,2026-04-13,Love's Travel Stops,$61.89,Providence Forge,VA,pac,Richmond gas expense,D,491648,2026-07-02
+expenditure,2026-04-13,Love's Travel Stops,$69.01,Providence Forge,VA,pac,Richmond gas expense,D,491648,2026-07-02
+expenditure,2026-03-16,LOVE'S Travel Store,$50.02,Dispunta,VA,pac,gas expense to Richmond,D,491648,2026-07-02
+expenditure,2026-03-16,Meriweather Godsey,$12.77,,VA,pac,coffee for staff,D,491648,2026-07-02
+expenditure,2026-04-13,Meriweather Godsey,$10.15,,VA,pac,coffee for staff,D,491648,2026-07-02
+expenditure,2026-02-13,Metropolis Parking,$20.99,Nasville,TN,pac,Richmond parking,D,491648,2026-07-02
+expenditure,2026-01-14,Milebe Properties,"$6,326.88",Richmond,VA,pac,Richmond accomodations hold,D,491648,2026-07-02
+expenditure,2026-03-16,Nothing Bundt Cakes,$157.52,Richmond,VA,pac,cakes for staff appreciation,D,491648,2026-07-02
+expenditure,2026-06-14,ODU Parking,$5,Norfolk,VA,pac,parking expense for staff,D,491648,2026-07-02
+expenditure,2026-02-11,Office Max,$85.61,,VA,pac,office expense,D,491648,2026-07-02
+expenditure,2026-04-13,"PDFfiller, Inc.",$144,Brookline,MA,pac,office expense,D,491648,2026-07-02
+expenditure,2026-01-15,Moving Mountains PAC,"$8,000",Richmond,VA,pac,donation,D,491648,2026-07-02
+expenditure,2026-06-04,Assembly Strategies LLC,"$2,040.08",Richmond,VA,pac,voter letters,D,491648,2026-07-02
+expenditure,2026-01-14,Public Storage,$339,Chesapeake,VA,pac,campaign storage,D,491648,2026-07-02
+expenditure,2026-02-13,Public Storage,$339,Chesapeake,VA,pac,campaign storage,D,491648,2026-07-02
+expenditure,2026-03-16,Public Storage,$339,Chesapeake,VA,pac,campaign storage,D,491648,2026-07-02
+expenditure,2026-04-13,Public Storage,$339,Chesapeake,VA,pac,campaign storage,D,491648,2026-07-02
+expenditure,2026-05-11,Public Storage,$417,Chesapeake,VA,pac,campaign storage,D,491648,2026-07-02
+expenditure,2026-06-14,Public Storage,$417,Chesapeake,VA,pac,campaign storage,D,491648,2026-07-02
+expenditure,2026-06-09,Republican Party of Chesapeake,"$1,000",Chesapeake,VA,party,table sponsor,D,491648,2026-07-02
+expenditure,2026-01-28,Republican Party Of Virginia Beach,$75,Virginia Beach,VA,party,send off dinner ticket,D,491648,2026-07-02
+expenditure,2026-01-14,Richmond Times Dispatch,$40.99,Richmond,VI,pac,subscription,D,491648,2026-07-02
+expenditure,2026-01-14,Richmond Times Dispatch,$40.99,Richmond,VI,pac,subscription,D,491648,2026-07-02
+expenditure,2026-02-13,Richmond Times Dispatch,$40.99,Richmond,VI,pac,subscription,D,491648,2026-07-02
+expenditure,2026-03-16,Richmond Times Dispatch,$40.99,Richmond,VI,pac,monthly subscription,D,491648,2026-07-02
+expenditure,2026-04-13,Richmond Times Dispatch,$40.99,Richmond,VI,pac,subscription,D,491648,2026-07-02
+expenditure,2026-05-18,Richmond Times Dispatch,$40.99,Richmond,VI,pac,subscription,D,491648,2026-07-02
+expenditure,2026-06-16,Richmond Times Dispatch,$40.99,Richmond,VI,pac,monthly subscription,D,491648,2026-07-02
+expenditure,2026-04-13,Rick's Custom Frame,$201.36,Richmond,VA,pac,resolution framing,D,491648,2026-07-02
+expenditure,2026-04-13,Royal Farms,$58,Suffolk,VA,pac,staff gas expense,D,491648,2026-07-02
+expenditure,2026-06-14,Sheetz,$51.95,,VA,pac,gas expense,D,491648,2026-07-02
+expenditure,2026-02-13,Shell,$74.83,,VA,pac,gas expense,D,491648,2026-07-02
+expenditure,2026-04-13,Shell,$21.61,,VA,pac,Richmond gas expense,D,491648,2026-07-02
+expenditure,2026-06-14,Shell,$73.08,,VA,pac,gas expense,D,491648,2026-07-02
+expenditure,2026-04-13,The Fresh Market,$17.64,Virginia Beach,VA,pac,food for Richmond office,D,491648,2026-07-02
+expenditure,2026-01-14,The Virginia Shop,$31.48,Richmond,VA,pac,education material for elementary class,D,491648,2026-07-02
+expenditure,2026-02-11,Trail Blazer Campaign Services,$384.65,Minneapolis,MN,pac,database expense,D,491648,2026-07-02
+expenditure,2026-05-11,Trail Blazer Campaign Services,$384.65,Minneapolis,MN,pac,database expense,D,491648,2026-07-02
+expenditure,2026-05-15,Treasurer of Virginia,$433.05,,VA,pac,computer,D,491648,2026-07-02
+expenditure,2026-01-08,Vanco Payment Solutions,$28.85,Bloomington,MN,pac,processing fees,D,491648,2026-07-02
+expenditure,2026-01-12,Vanco Payment Solutions,$14.65,Bloomington,MN,pac,processing fees,D,491648,2026-07-02
+expenditure,2026-02-17,Vanco Payment Solutions,$2.33,Bloomington,MN,pac,monthy service charge,D,491648,2026-07-02
+expenditure,2026-05-15,VFRW,$250,,VA,pac,sponsorship,D,491648,2026-07-02
+expenditure,2026-04-13,Virginia Commonwealth University,$100,Richmond,VA,pac,donation,D,491648,2026-07-02
+expenditure,2026-04-13,Virginian Pilot,$1,,VA,pac,fee,D,491648,2026-07-02
+expenditure,2026-01-19,VRBO,$407.97,Austin,TX,pac,Richmond accomodations hold expense,D,491648,2026-07-02
+expenditure,2026-03-16,Wawa,$73.27,Chesapeake,VA,pac,gas expense for Richmond,D,491648,2026-07-02
+expenditure,2026-04-16,Western Tidewater Young Republicans,$150,,VA,pac,donation,D,491648,2026-07-02
+debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,pac,,F,475146,2026-01-06
+debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,pac,,F,491648,2026-07-02

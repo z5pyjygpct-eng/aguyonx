@@ -1,0 +1,7 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$23,778.50",,VA,,"From official Schedule H, November 2027 election cycle",H,497323,2026-07-15
+summary,2026-06-30,Raised this cycle,"$6,000",,,,Total receipts this election cycle (Schedule H),H,497323,2026-07-15
+summary,2026-06-30,Spent this cycle,$0,,,,Total disbursements this election cycle (Schedule H),H,497323,2026-07-15
+contribution,2026-01-13,Comstock Hospitality Holdings,"$5,000",Reston,VA,pac,,A,497323,2026-07-15
+contribution,2026-01-13,PPE Casino Resort,"$1,000",Baltimore,MD,pac,,A,497323,2026-07-15

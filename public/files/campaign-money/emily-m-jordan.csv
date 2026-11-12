@@ -1,0 +1,418 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$241,414.19",,VA,,"From official Schedule H, November 2027 election cycle",H,496782,2026-07-15
+summary,2026-06-30,Raised this cycle,"$431,029.09",,,,Total receipts this election cycle (Schedule H),H,496782,2026-07-15
+summary,2026-06-30,Spent this cycle,"$213,891.97",,,,Total disbursements this election cycle (Schedule H),H,496782,2026-07-15
+contribution,2025-08-01,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-12-18,Dominion Energy Inc Political Action Committee - Virginia,"$10,000",Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-31,TransCanada USA Services Inc PAC,"$1,000",Washington,DC,pac,,A,479619,2026-01-15
+contribution,2025-10-23,ULT Political Action Committee,"$1,000",Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-12-03,Virginia Beer Wholesalers Association,"$3,500",Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-20,HBAV Build - PAC,"$1,000",Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-09-25,Republic National Distributing Company LLC,$750,Atlanta,GA,pac,,A,479619,2026-01-15
+contribution,2025-09-16,Virginia Wine Wholesalers Political Action Committee,"$2,000",Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-07-23,Williams Mullen Clark and Dobbins,$500,Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-07-23,Williams Mullen Clark and Dobbins,$500,Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-07,Vision Management Services,"$5,000",Chicago,IL,pac,,A,479619,2026-01-15
+contribution,2025-07-23,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-07-23,Comcast Corporation,$500,Philadelphia,PA,pac,,A,479619,2026-01-15
+contribution,2025-09-25,"Associated Distributors, LLC","$1,000",Sandston,VA,pac,,A,479619,2026-01-15
+contribution,2025-09-16,Anheuser Busch Companies,$500,St Louis,MO,pac,,A,479619,2026-01-15
+contribution,2025-08-26,Ortho PAC,$250,Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-08-26,Virginia Bankers Association State PAC,$500,Glen Allen,VA,pac,,A,479619,2026-01-15
+contribution,2025-09-08,Capital One Services LLC,"$1,000",Reston,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-08,American Property Casualty Insurance Association PAC,$500,Chicago,IL,pac,,A,479619,2026-01-15
+contribution,2025-10-07,Wood Products PAC of Virginia,$500,Sandston,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$5,000",Portsmouth,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-23,Commonwealth Fiber Services,"$1,250",Wakefield,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-23,Mary Hensley,"$1,250",Suffolk,VA,individual,,A,479619,2026-01-15
+contribution,2025-10-23,Skydive Suffolk Training Center LLC,"$2,500",Suffolk,VA,pac,,A,479619,2026-01-15
+contribution,2025-11-24,VamicPAC,$500,Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-11-21,John H. Bivens,"$10,000",New York,NY,individual,,A,479619,2026-01-15
+contribution,2025-12-03,Hoffman Beverage Company,"$1,000",Chesapeake,VA,pac,,A,479619,2026-01-15
+contribution,2025-08-26,Realtors PAC of Virginia,"$2,500",Glen Allen,VA,pac,,A,479619,2026-01-15
+contribution,2025-11-24,The Cigna Group Employee PAC,$500,Philadelphia,PA,pac,,A,479619,2026-01-15
+contribution,2025-11-24,"Publix North Carolina, LP",$500,Lakeland,FL,pac,,A,479619,2026-01-15
+contribution,2025-10-31,International Paper Political Action Committee,"$1,500",Washington,DC,pac,,A,479619,2026-01-15
+contribution,2025-08-26,Amazon.com Services LLC,"$2,000",Seattle,WA,pac,,A,479619,2026-01-15
+contribution,2025-12-19,VA Operators for Skill,"$2,500",Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-20,Huntington Ingalls Industries,"$1,000",Newport News,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-14,Virginia Maritime Association Political Action Committee,"$1,000",Norfolk,VA,pac,,A,479619,2026-01-15
+contribution,2025-08-26,Engineering Companies of Virginia PAC,$500,Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-07-29,The Doctors Company Virginia PAC,"$1,000",Napa,CA,pac,,A,479619,2026-01-15
+contribution,2025-08-26,Virginia Society of the AIA PAC,$500,Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-31,Verizon Inc.,$500,Washington,DC,pac,,A,479619,2026-01-15
+contribution,2025-09-25,Richmond Area Municipal Contractors,"$1,000",Richmond,VA,pac,,A,479619,2026-01-15
+contribution,2025-10-23,The Williams Companies,"$1,000",Tulsa,OK,pac,,A,479619,2026-01-15
+contribution,2025-12-19,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,479619,2026-01-15
+contribution,2025-08-26,Boyd-Pamunkey Casino Political Action Committee,"$1,000",Norfolk,VA,pac,,A,479619,2026-01-15
+contribution,2025-07-29,Virginia Spirits Association,$500,Moseley,VA,pac,,A,479619,2026-01-15
+contribution,2025-12-19,"Vantage Data Centers Management CO, LLC",$500,Santa Clara,CA,pac,,A,479619,2026-01-15
+contribution,2025-12-19,Comstock Hospitality Holdings LLC,"$5,000",reston,VA,pac,,A,479619,2026-01-15
+contribution,2025-07-23,Transurban (US) Inc.,$500,Tysons,VA,pac,,A,479619,2026-01-15
+contribution,2025-08-26,Relix Inc.,$500,New York,NY,pac,,A,479619,2026-01-15
+contribution,2026-05-21,Alan Will,$500,Suffolk,VA,individual,,A,496782,2026-07-15
+contribution,2026-01-07,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,496782,2026-07-15
+contribution,2026-06-02,ULT Political Action Committee,"$1,000",Richmond,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Community-Owned Power PAC,"$1,000",Glen Allen,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Jushi Inc.,"$1,000",Boca Raton,FL,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Metro Virginia PAC M301,$500,Washington,DC,pac,,A,496782,2026-07-15
+contribution,2026-06-23,Anheuser Busch Companies,$500,St Louis,MO,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Associated General Contractors of Virginia Inc Political Action Committee,$500,Glen Allen,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-06,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Jennifer Bivins,$250,Suffolk,VA,individual,,A,496782,2026-07-15
+contribution,2026-01-06,Advansix Inc. Political Action Committee,$500,Parsippany,NJ,pac,,A,496782,2026-07-15
+contribution,2026-01-07,Sports Betting Alliance,"$10,000",Lubbock,TX,pac,,A,496782,2026-07-15
+contribution,2026-06-08,Sports Betting Alliance,"$100,000",Lubbock,TX,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Paul Goldean,"$2,500",Charlotte,NC,individual,,A,496782,2026-07-15
+contribution,2026-01-11,VA Operators for Skill,"$2,500",Richmond,VA,pac,,A,496782,2026-07-15
+contribution,2026-04-15,VA Operators for Skill,"$5,000",Richmond,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-07,Commissioner of Revenue Political Action Committee,$250,Newport News,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-06,"Metis Services, Inc.","$1,000",Roanoke,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-11,McGuireWoods,"$1,000",Richmond,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Virginia Manufactured & Modular Housing Association PAC,$500,Henrico,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Access Point Public Affairs LLC,"$1,000",Virginia Beach,VA,pac,,A,496782,2026-07-15
+contribution,2026-05-15,Access Point Public Affairs LLC,"$1,000",Virginia Beach,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-06,Virginia Asphalt Association Political Action Committee,$500,Richmond,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-06,Lisa V. Gontarek,$250,Chesapeake,VA,individual,,A,496782,2026-07-15
+contribution,2026-06-23,Virginia CRNAs Who Care About Health Care PAC,$500,Richmond,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-06,Sentara Health Plans,$500,Virginia Beach,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Alan J. Joseph,"$1,000",Hartwell,GA,individual,,A,496782,2026-07-15
+contribution,2026-01-13,Storm for Virginia,"$10,185.40",Alexandria,VA,pac,,A,496782,2026-07-15
+contribution,2026-06-02,Storm for Virginia,$730.42,Alexandria,VA,pac,,A,496782,2026-07-15
+contribution,2026-06-11,Storm for Virginia,$100,Alexandria,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Karmin A. Pace,"$1,000",Chattanooga,TN,individual,,A,496782,2026-07-15
+contribution,2026-05-15,Karmin A. Pace,"$2,500",Chattanooga,TN,individual,,A,496782,2026-07-15
+contribution,2026-01-11,"Botanaway, Inc.","$2,500",Richmond,VA,pac,,A,496782,2026-07-15
+contribution,2026-01-11,Organizing for VA Seniors,"$2,500",Fairfax,VA,pac,,A,496782,2026-07-15
+contribution,2026-03-27,Hunter March,$250,Suffolk,VA,individual,,A,496782,2026-07-15
+contribution,2026-04-15,Emily Spence,$200,Blackstone,VA,individual,,A,496782,2026-07-15
+contribution,2026-05-15,Kishore S. Thota,$250,Colonial Heights,VA,individual,,A,496782,2026-07-15
+contribution,2026-05-21,VA Apt Management Association PAC,"$1,000",Richmond,VA,pac,,A,496782,2026-07-15
+other_receipt,2025-10-23,Cypress Creek Golfers Club,"$1,035",Smithfield,VA,pac,Return,C,479619,2026-01-15
+other_receipt,2025-12-15,Georgia Peanut Commission,$65.53,Tifton,GA,pac,Refund,C,479619,2026-01-15
+other_receipt,2026-01-13,Havana 59,$400,Richmond,VA,pac,Return of Deposit,C,496782,2026-07-15
+other_receipt,2026-06-18,Southwest Airlines,$37.90,Dallas,VA,pac,Refund of Travel,C,496782,2026-07-15
+expenditure,2025-07-08,Election CFO,$358,Alexandria,VA,pac,Consulting,D,479619,2026-01-15
+expenditure,2025-08-02,Election CFO,$358,Alexandria,VA,pac,Consulting,D,479619,2026-01-15
+expenditure,2025-09-04,Election CFO,$358,Alexandria,VA,pac,Consulting,D,479619,2026-01-15
+expenditure,2025-10-06,Election CFO,$358,Alexandria,VA,pac,Consulting,D,479619,2026-01-15
+expenditure,2025-11-04,Election CFO,$358,Alexandria,VA,pac,Consulting,D,479619,2026-01-15
+expenditure,2025-12-05,Election CFO,$358,Alexandria,VA,pac,Consulting,D,479619,2026-01-15
+expenditure,2025-07-04,Ebenezer UMC,$18,"Suffolk, VA",VA,pac,Contribution,D,479619,2026-01-15
+expenditure,2025-07-04,GoDaddy.com,$8.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-07-05,GoDaddy.com,$8.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-08-04,GoDaddy.com,$8.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-08-05,GoDaddy.com,$8.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-08-14,GoDaddy.com,$26.97,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-09-05,GoDaddy.com,$8.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-09-05,GoDaddy.com,$8.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-09-26,GoDaddy.com,$22.19,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-10-01,GoDaddy.com,$95.88,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-10-06,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-10-06,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-11-05,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-11-05,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-11-14,GoDaddy.com,$26.97,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-12-03,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-12-04,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-12-22,GoDaddy.com,$95.88,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-12-23,GoDaddy.com,$95.88,Scottsdale,AZ,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-07-03,Walmart,$77.35,Bentonville,AR,pac,Office supplies,D,479619,2026-01-15
+expenditure,2025-12-12,Walmart,$175.45,Bentonville,AR,pac,Event Expenses,D,479619,2026-01-15
+expenditure,2025-07-11,El Rodeo Mexican Restaurant,$99.25,Windsor,VA,pac,Food,D,479619,2026-01-15
+expenditure,2025-08-13,El Rodeo Mexican Restaurant,$162.05,Windsor,VA,pac,Catering for special event,D,479619,2026-01-15
+expenditure,2025-12-23,El Rodeo Mexican Restaurant,$813.97,Windsor,VA,pac,staff & volunteer Christmas event,D,479619,2026-01-15
+expenditure,2025-10-15,USPS,$78,Washington,DC,pac,Postage,D,479619,2026-01-15
+expenditure,2025-11-24,USPS,$78,Washington,DC,pac,Postage,D,479619,2026-01-15
+expenditure,2025-07-22,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-08-15,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-09-16,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-10-14,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-11-10,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-12-08,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-12-14,Masons Grill and Smokehouse,$122.87,Suffolk,VA,pac,Luncheon meeting,D,479619,2026-01-15
+expenditure,2025-10-20,Grafik Trenz LLC,$131.40,Smithfield,VA,pac,Printing,D,479619,2026-01-15
+expenditure,2025-12-30,Smithfield Station,$135,Smithfield,VA,pac,Legislative Luncheon,D,479619,2026-01-15
+expenditure,2025-09-16,Smithfield VA Events,"$3,185",Smithfield,VA,pac,Event Costs,D,479619,2026-01-15
+expenditure,2025-08-11,Truist,$10,Charlotte,NC,pac,Bank Fee,D,479619,2026-01-15
+expenditure,2025-12-22,Truist,$22,Charlotte,NC,pac,Bank Fee,D,479619,2026-01-15
+expenditure,2025-07-01,7-Eleven Inc,$43.21,Irving,TX,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-06,Verizon,$30.63,New York,NY,pac,Phones,D,479619,2026-01-15
+expenditure,2025-09-08,Verizon,$30.63,New York,NY,pac,Phones,D,479619,2026-01-15
+expenditure,2025-10-08,Verizon,$30.63,New York,NY,pac,Phones,D,479619,2026-01-15
+expenditure,2025-11-06,Verizon,$30.63,New York,NY,pac,Phones,D,479619,2026-01-15
+expenditure,2025-12-06,Verizon,$30.63,New York,NY,pac,Phone,D,479619,2026-01-15
+expenditure,2025-10-28,Airbnb,$266.70,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-11-26,Airbnb,$197.75,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-01,319 Main LLC,"$1,800",Smithfield,VA,pac,Rent,D,479619,2026-01-15
+expenditure,2025-12-29,319 Main LLC,"$1,446",Smithfield,VA,pac,Rent,D,479619,2026-01-15
+expenditure,2025-11-21,Hilton Worldwide,$256.68,McLean,VA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-11-21,Hilton Worldwide,$256.68,McLean,VA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-25,Mailchimp.com,$276,Atlanta,GA,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-08-26,Mailchimp.com,$276,Atlanta,GA,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-09-25,Mailchimp.com,$240,Atlanta,GA,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-10-27,Mailchimp.com,$240,Atlanta,GA,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-11-26,Mailchimp.com,$240,Atlanta,GA,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-12-26,Mailchimp.com,$240,Atlanta,GA,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-07-06,Verizon,$30.63,Washington,DC,pac,Phones,D,479619,2026-01-15
+expenditure,2025-10-18,Isle of Wight County,$40,Isle of Wight,VA,pac,Event Tickets and Parking,D,479619,2026-01-15
+expenditure,2025-12-22,Dollar General,$26.01,Goodlettsville,TN,pac,Supplies,D,479619,2026-01-15
+expenditure,2025-12-09,Jennifer Bivins,$500,Suffolk,VA,individual,Consulting,D,479619,2026-01-15
+expenditure,2025-07-24,Emily Jordan,$497.67,Windsor,VA,individual,Mileage Reimbursement,D,479619,2026-01-15
+expenditure,2025-08-11,Emily Jordan,$516.66,Windsor,VA,individual,Reimbursement for travel expenses,D,479619,2026-01-15
+expenditure,2025-09-11,Isle of Wight County Fair,$56.85,Windsor,VA,pac,County Fair and Parking,D,479619,2026-01-15
+expenditure,2025-09-11,Isle of Wight County Fair,$22.74,Windsor,VA,pac,Event Tickets and Parking,D,479619,2026-01-15
+expenditure,2025-09-11,Isle of Wight County Fair,$79.59,Windsor,VA,pac,Event Tickets and Parking,D,479619,2026-01-15
+expenditure,2025-09-11,Isle of Wight County Fair,$34.11,Windsor,VA,pac,Event Tickets and Parking,D,479619,2026-01-15
+expenditure,2025-10-09,Suffolk Ruritan Club,$270,Suffolk,VA,pac,Event Tickets,D,479619,2026-01-15
+expenditure,2025-11-24,Havana 59,$600,Richmond,VA,pac,Fundraising event deposit,D,479619,2026-01-15
+expenditure,2025-12-16,Commonwealth Prayer Breakfast,$535.38,Richmond,VA,pac,Event Tickets,D,479619,2026-01-15
+expenditure,2025-07-21,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-08-19,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-09-17,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-10-20,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-11-17,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-12-17,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,479619,2026-01-15
+expenditure,2025-08-12,Barons Pub,$347.53,Suffolk,VA,pac,Catering for special event,D,479619,2026-01-15
+expenditure,2025-07-03,Amazon,$25.37,Seattle,WA,pac,Office Supplies,D,479619,2026-01-15
+expenditure,2025-07-10,Amazon,$156.76,Seattle,WA,pac,Office Supplies,D,479619,2026-01-15
+expenditure,2025-12-02,Amazon,$137.28,Seattle,WA,pac,Office Supplies,D,479619,2026-01-15
+expenditure,2025-12-22,Andy Jordan,$190,Windsor,VA,individual,Catering Expenses,D,479619,2026-01-15
+expenditure,2025-11-19,Sheetz,$79.66,Altoona,PA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-11,Windsor Ruritan Club,$300,Windsor,VA,pac,Sponsorship,D,479619,2026-01-15
+expenditure,2025-07-11,Windsor Ruritan Club,$250,Windsor,VA,pac,Tickets,D,479619,2026-01-15
+expenditure,2025-10-02,City of Norfolk,$11,Norfolk,VA,pac,Parking,D,479619,2026-01-15
+expenditure,2025-09-30,Kimpton the Forum Hotel,$43.62,Charlottesville,VA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-04,Budget.com,$112.56,Parsippany,NJ,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-04,American Airlines,$21.94,Fort Worth,TX,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-04,American Airlines,$20.35,Fort Worth,TX,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-04,American Airlines,$447,Fort Worth,TX,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-04,American Airlines,$24.75,Fort Worth,TX,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-04,American Airlines,$352.74,Fort Worth,TX,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-04,American Airlines,$453.42,Fort Worth,TX,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-07,American Airlines,$40,Fort Worth,TX,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-04,Allegiant Air,$616,Las Vegas,NV,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-08,ConferenceDirect,$1,Beverly Hills,CA,pac,Online Services,D,479619,2026-01-15
+expenditure,2025-07-14,Cracker Barrel,$18.37,Lebanon,TN,pac,Food,D,479619,2026-01-15
+expenditure,2025-07-15,Love's Travel Stop,$65.82,Oklahoma City,OK,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-15,Country Inn,$204.60,Minnetonka,MN,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-15,Uber,$25.15,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-17,Uber,$9.05,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-17,Uber,$30.25,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-21,Uber,$146.55,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-21,Uber,$24.18,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-21,Uber,$48.18,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-01,Uber,$28.93,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-04,Uber,$38.09,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-05,Uber,$20.97,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-05,Uber,$19.47,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-05,Uber,$3.15,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-05,Uber,$50.46,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-06,Uber,$12.99,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-07,Uber,$20.01,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-07,Uber,$15.68,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-07,Uber,$33.66,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-10-28,Uber,$19.70,San Francisco,CA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-07-18,Marriott,$899.95,Bethesda,MD,pac,Travel,D,479619,2026-01-15
+expenditure,2025-11-04,Marriott,$15,Bethesda,MD,pac,Parking,D,479619,2026-01-15
+expenditure,2025-07-30,Marathon,$40,Findlay,OH,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-08,Fairmont Copley Plaza Hotel,"$1,355.52",Boston,MA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-08-06,Don Valerio's,$80.28,Eastville,VA,pac,Food,D,479619,2026-01-15
+expenditure,2025-08-05,The Star-Spangled Ball,$321.96,Virginia Beach,VA,pac,Event Sponsorship,D,479619,2026-01-15
+expenditure,2025-10-21,Fiddlin Pig,$478.19,Smithfield,VA,pac,Welcome reception catering,D,479619,2026-01-15
+expenditure,2025-08-26,Suffolk First Citizen,$99.74,Suffolk,VA,pac,Event Fee,D,479619,2026-01-15
+expenditure,2025-08-28,Redds Filling Station,$45.24,Windsor,VA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-09-29,Westin,$708.06,Seattle,WA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-10-06,Harper's Table,$886.63,Suffolk,VA,pac,Catering for special event,D,479619,2026-01-15
+expenditure,2025-10-06,The Smithfield,$76.28,Smithfield,VA,pac,Food,D,479619,2026-01-15
+expenditure,2025-10-14,Town Point Club,$483.67,Norfolk,VA,pac,Breakfast for legislative briefing,D,479619,2026-01-15
+expenditure,2025-10-21,Willy's Cigars,$244.42,Suffolk,VA,pac,gift bags and supplies for special event,D,479619,2026-01-15
+expenditure,2025-10-21,Fairfield Inn & Suites,$185.22,Bethesda,MD,pac,Travel,D,479619,2026-01-15
+expenditure,2025-10-21,Fairfield Inn & Suites,$185.22,Bethesda,MD,pac,Travel,D,479619,2026-01-15
+expenditure,2025-10-21,Cypress Creek Golfers Club,"$3,761.75",Smithfield,VA,pac,Event Expenses,D,479619,2026-01-15
+expenditure,2025-10-29,Lemaire,$92.60,Richmond,VA,pac,Food,D,479619,2026-01-15
+expenditure,2025-10-27,Delta Hotels,$182.56,Richmond,VA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-10-27,Delta Hotels,$182.56,Richmond,VA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-10-27,Delta Hotels,$182.56,Richmond,VA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-10-20,City of Franklin,$20,Franklin,VA,pac,Parade Fee,D,479619,2026-01-15
+expenditure,2025-10-20,Suffolk Parks and Recreation,$50,Suffolk,VA,pac,Parade Fee,D,479619,2026-01-15
+expenditure,2025-11-05,Wawa,$69.39,Wawa,PA,pac,Travel,D,479619,2026-01-15
+expenditure,2025-11-05,Neat Bird Chicken & Whiskey,$328.21,Chesapeake,VA,pac,Food,D,479619,2026-01-15
+expenditure,2025-11-12,The Hamilton,$245.60,Washington,DC,pac,Food,D,479619,2026-01-15
+expenditure,2025-11-12,The Hamilton,$49.55,Washington,DC,pac,Food,D,479619,2026-01-15
+expenditure,2025-12-11,The Hamilton,$104.97,Washington,DC,pac,Food,D,479619,2026-01-15
+expenditure,2025-11-12,ROOST White House,$118,Washington,DC,pac,Travel,D,479619,2026-01-15
+expenditure,2025-11-13,ROOST White House,$844.91,Washington,DC,pac,Travel,D,479619,2026-01-15
+expenditure,2025-11-13,Butterworths,$239.10,Washington,DC,pac,Food,D,479619,2026-01-15
+expenditure,2025-11-14,Instacart,$49.95,San Francisco,CA,pac,Food,D,479619,2026-01-15
+expenditure,2025-11-14,Homegoods,$45.20,Framingham,MA,pac,Supplies,D,479619,2026-01-15
+expenditure,2025-12-01,Jewells Creative Designs,$200,Smithfield,VA,pac,Campaign Apparel,D,479619,2026-01-15
+expenditure,2025-12-04,Savannah Seffler,$500,Hallwood,VA,individual,Election operations support,D,479619,2026-01-15
+expenditure,2025-12-13,Dollar Tree,$54.29,Chesapeake,VA,pac,Event Expenses,D,479619,2026-01-15
+expenditure,2025-12-11,Georgia Peanut Commission,$132.53,Tifton,GA,pac,Peanut lapel pins,D,479619,2026-01-15
+expenditure,2025-12-17,City Parking Inc.,$20,Richmond,VA,pac,Parking,D,479619,2026-01-15
+expenditure,2025-09-08,Hampton Roads Chamber of Commerce,$250,Norfolk,VA,pac,Event Sponsorship,D,479619,2026-01-15
+expenditure,2025-12-09,Eagles Restaurant,$200.05,Williamsburg,VA,pac,Food,D,479619,2026-01-15
+expenditure,2026-01-07,Election CFO,$350,Alexandria,VA,pac,Consulting,D,496782,2026-07-15
+expenditure,2026-02-10,Election CFO,$371.98,Alexandria,VA,pac,Consulting,D,496782,2026-07-15
+expenditure,2026-03-19,Election CFO,$358,Alexandria,VA,pac,Consulting,D,496782,2026-07-15
+expenditure,2026-04-06,Election CFO,$358,Alexandria,VA,pac,Consulting,D,496782,2026-07-15
+expenditure,2026-05-01,Election CFO,$358,Alexandria,VA,pac,Consulting,D,496782,2026-07-15
+expenditure,2026-06-03,Election CFO,$358,Alexandria,VA,pac,Consulting,D,496782,2026-07-15
+expenditure,2026-01-05,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-01-09,GoDaddy.com,$179.88,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-01-20,GoDaddy.com,$22.19,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-02-05,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-02-14,GoDaddy.com,$29.97,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-03-05,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-04-02,GoDaddy.com,$107.88,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-04-05,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-04-23,GoDaddy.com,$179.88,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-05-05,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-05-14,GoDaddy.com,$29.97,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-06-05,GoDaddy.com,$9.99,Scottsdale,AZ,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-03-30,OfficeMax,$75.98,Boca Raton,FL,pac,Office Supplies,D,496782,2026-07-15
+expenditure,2026-06-27,Walmart,$147.22,Bentonville,AR,pac,Supplies,D,496782,2026-07-15
+expenditure,2026-01-02,El Rodeo Mexican Restaurant,$177.19,Windsor,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-01-06,El Rodeo Mexican Restaurant,$137.81,Windsor,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-04-19,El Rodeo Mexican Restaurant,$152.01,Windsor,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-04-29,El Rodeo Mexican Restaurant,$147,Windsor,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-05-11,El Rodeo Mexican Restaurant,$159.63,Windsor,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-01-27,USPS,$125,Washington,DC,pac,Postage,D,496782,2026-07-15
+expenditure,2026-05-21,USPS,$78,Washington,DC,pac,Postage,D,496782,2026-07-15
+expenditure,2026-01-05,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-02-02,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-03-02,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-03-30,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-04-27,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-05-26,Virginian Pilot,$34,Norfolk,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-06-26,Virginian Pilot,$67.96,Norfolk,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-04-21,Smithfield Station,$286.08,Smithfield,VA,pac,Event Costs,D,496782,2026-07-15
+expenditure,2026-02-24,Republican Party of Virginia,"$1,389",Richmond,VA,party,Contribution,D,496782,2026-07-15
+expenditure,2026-01-06,Smithfield VA Events,"$2,986",Smithfield,VA,pac,Event Costs,D,496782,2026-07-15
+expenditure,2026-01-13,Lowes,$57.69,Mooresville,NC,pac,Campaign Supplies,D,496782,2026-07-15
+expenditure,2026-03-13,7-Eleven Inc,$57.10,Irving,TX,pac,Travel,D,496782,2026-07-15
+expenditure,2026-04-30,7-Eleven Inc,$46.54,Irving,TX,pac,Travel,D,496782,2026-07-15
+expenditure,2026-05-13,7-Eleven Inc,$81.44,Irving,TX,pac,Travel,D,496782,2026-07-15
+expenditure,2026-04-20,Robocent Inc,"$1,572.48",Virginia Beach,VA,pac,Phone Calls,D,496782,2026-07-15
+expenditure,2026-04-20,Robocent Inc,$216.28,Virginia Beach,VA,pac,Phone Calls,D,496782,2026-07-15
+expenditure,2026-04-21,Robocent Inc,"$1,322.48",Virginia Beach,VA,pac,Phone Calls,D,496782,2026-07-15
+expenditure,2026-01-06,Verizon,$30.63,New York,NY,pac,Phones,D,496782,2026-07-15
+expenditure,2026-02-06,Verizon,$30.63,New York,NY,pac,Phones,D,496782,2026-07-15
+expenditure,2026-03-06,Verizon,$30.63,New York,NY,pac,Phones,D,496782,2026-07-15
+expenditure,2026-04-08,Verizon,$30.63,New York,NY,pac,Phones,D,496782,2026-07-15
+expenditure,2026-05-18,Verizon,$50.63,New York,NY,pac,Phones,D,496782,2026-07-15
+expenditure,2026-06-19,Verizon,$5.63,New York,NY,pac,Phones,D,496782,2026-07-15
+expenditure,2026-02-10,319 Main LLC,"$1,851",Smithfield,VA,pac,Rent,D,496782,2026-07-15
+expenditure,2026-03-16,319 Main LLC,"$1,861",Smithfield,VA,pac,Rent,D,496782,2026-07-15
+expenditure,2026-05-20,319 Main LLC,"$1,936",Smithfield,VA,pac,Rent,D,496782,2026-07-15
+expenditure,2026-01-25,Mailchimp.com,$240,Atlanta,GA,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-02-25,Mailchimp.com,$240,Atlanta,GA,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-03-25,Mailchimp.com,$240,Atlanta,GA,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-04-25,Mailchimp.com,$268,Atlanta,GA,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-05-25,Mailchimp.com,$268,Atlanta,GA,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-06-25,Mailchimp.com,$268,Atlanta,GA,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-06-10,Virginia Federation of Republican Women,$250,Richmond,VA,pac,Contribution,D,496782,2026-07-15
+expenditure,2026-01-27,Isle of Wight County,$40,Isle of Wight,VA,pac,Event Tickets and Parking,D,496782,2026-07-15
+expenditure,2026-03-11,Will Drewery,"$2,500",Sedley,VA,individual,Consulting,D,496782,2026-07-15
+expenditure,2026-04-09,"Publix North Carolina, LP",$213.86,Lakeland,FL,pac,Food,D,496782,2026-07-15
+expenditure,2026-04-20,Western Tidewater Young Republicans,$300,Suffolk,VA,pac,Contribution,D,496782,2026-07-15
+expenditure,2026-04-13,Exxon,$20.15,Spring,TX,pac,Travel,D,496782,2026-07-15
+expenditure,2026-03-11,Smithfield Events,"$2,565",Smithfield,VA,pac,Event Costs,D,496782,2026-07-15
+expenditure,2026-04-11,Smithfield Events,$135,Smithfield,VA,pac,Event Costs,D,496782,2026-07-15
+expenditure,2026-01-11,Havana 59,$55.55,Richmond,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-01-11,Havana 59,"$2,499.91",Richmond,VA,pac,Venue and Food,D,496782,2026-07-15
+expenditure,2026-01-14,Fat Dragon Chinese Kitchen and Bar,$205.90,Richmond,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-02-03,Thirst and Fifth Gastropub,$261.05,Richmond,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-02-19,Thirst and Fifth Gastropub,$122.15,Richmond,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-01-27,Womack Publishing Co Inc,$84,Chatham,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-01-17,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-02-17,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-03-17,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-04-17,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-05-17,Windsor Weekly,$2.99,Franklin,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-01-17,The Tidewater News,$99.99,Franklin,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-03-24,For Kids Inc.,"$1,000",Chesapeake,VA,pac,Contribution,D,496782,2026-07-15
+expenditure,2026-01-05,Amazon,$292.32,Seattle,WA,pac,Supplies,D,496782,2026-07-15
+expenditure,2026-02-17,Amazon,$162.11,Seattle,WA,pac,Supplies,D,496782,2026-07-15
+expenditure,2026-02-12,Treasurer of Virginia,$242.75,Richmond,VA,pac,Postage,D,496782,2026-07-15
+expenditure,2026-03-11,Treasurer of Virginia,$48,Richmond,VA,pac,Flag,D,496782,2026-07-15
+expenditure,2026-04-06,Treasurer of Virginia,$114.70,Richmond,VA,pac,Postage,D,496782,2026-07-15
+expenditure,2026-05-12,Treasurer of Virginia,$882,Richmond,VA,pac,Stationary,D,496782,2026-07-15
+expenditure,2026-06-02,Treasurer of Virginia,$219,Richmond,VA,pac,Stationary,D,496782,2026-07-15
+expenditure,2026-04-09,Andy Jordan,$378.21,Windsor,VA,individual,Mileage Reimbursement,D,496782,2026-07-15
+expenditure,2026-03-21,Shell Oil Co.,$58,Houston,TX,pac,Travel,D,496782,2026-07-15
+expenditure,2026-04-22,Shell Oil Co.,$44,Houston,TX,pac,Travel,D,496782,2026-07-15
+expenditure,2026-05-04,Sheetz,$69,Altoona,PA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-03-11,Joyner Gray Yale Ruritan Club,$200,Courtland,VA,pac,Contribution,D,496782,2026-07-15
+expenditure,2026-04-15,Windsor Ruritan Club,$600,Windsor,VA,pac,Event Tickets,D,496782,2026-07-15
+expenditure,2026-04-16,Suffolk Prayer Breakfast,$200,Suffolk,VA,pac,Sponsorship,D,496782,2026-07-15
+expenditure,2026-04-30,City of Norfolk,$2,Norfolk,VA,pac,Parking,D,496782,2026-07-15
+expenditure,2026-06-01,Smithfield Times,$41.50,Smithfield,VA,pac,Subscription,D,496782,2026-07-15
+expenditure,2026-01-17,Uber,$55.67,San Francisco,CA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-02-20,Uber,$32.02,San Francisco,CA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-03-21,Marriott,$140.82,Bethesda,MD,pac,Travel,D,496782,2026-07-15
+expenditure,2026-04-10,Wawa,$20.24,Wawa,PA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-28,Instacart,$163.46,San Francisco,CA,pac,Food,D,496782,2026-07-15
+expenditure,2026-05-06,Jewells Creative Designs,$108,Smithfield,VA,pac,Campaign Supplies,D,496782,2026-07-15
+expenditure,2026-01-05,Dollar Tree,$18.55,Chesapeake,VA,pac,Supplies,D,496782,2026-07-15
+expenditure,2026-01-05,K2 Awards,$571.83,Richmond,VA,pac,Campaign Supplies,D,496782,2026-07-15
+expenditure,2026-01-11,Michaels,$146.88,Irving,TX,pac,Supplies,D,496782,2026-07-15
+expenditure,2026-01-11,Sam's Club,$412.53,Bentonville,AR,pac,Supplies,D,496782,2026-07-15
+expenditure,2026-01-11,Virginia ABC Store,$524.01,Richmond,VA,pac,Beverages,D,496782,2026-07-15
+expenditure,2026-01-01,Senate Republican Caucus,"$12,500",Richmond,VA,party,Dues,D,496782,2026-07-15
+expenditure,2026-01-11,Coopers Hawk Winery & Restaurant,$206.41,Richmond,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-01-13,Carytown Indian Cuisine,$157.53,Richmond,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-01-10,Family Properties 456,"$1,485",Richmond,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-01-21,Waffle House,$57,Norcross,GA,pac,Food,D,496782,2026-07-15
+expenditure,2026-01-21,Lillie Pearl,$254.23,Richmond,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-01-18,William Drewery,"$2,500",Sedley,VA,individual,Consulting,D,496782,2026-07-15
+expenditure,2026-01-26,Thirst and Fifth Gastropub,$64.48,Richmond,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-02-03,Jefferson Lemaire Restaurant,$154.39,Richmond,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-02-23,Brunswick Republican Committee,$250,Richmond,VA,pac,Contribution,D,496782,2026-07-15
+expenditure,2026-02-20,Blitz,$7,Los Angeles,CA,pac,Online Services,D,496782,2026-07-15
+expenditure,2026-02-28,Watermans Surfside Grille,$257.40,Virginia Beach,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-02-13,VCU,$200,Richmond,VA,pac,Contribution,D,496782,2026-07-15
+expenditure,2026-03-09,Sine Irish Pub,$99.46,Richmond,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-03-30,Smithfield Gourmet Cafe and Bakery,$72.85,Smithfield,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-06-12,Smithfield Gourmet Cafe and Bakery,$105.99,Smithfield,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-04-02,Office Depot,$59.24,Boca Raton,FL,pac,Supplies,D,496782,2026-07-15
+expenditure,2026-04-02,Office Depot,$33.91,Boca Raton,FL,pac,Supplies,D,496782,2026-07-15
+expenditure,2026-04-02,Taste of Smithfield Restaurant,$90.65,Smithfield,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-06-24,Taste of Smithfield Restaurant,$100.97,Smithfield,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-04-04,The Cockeyed Rooster,$116.29,Smithfield,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-04-08,Crossings Cafe,$46.31,Portsmouth,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-04-09,National Wild Turkey Federation,$500,Edgefield,SC,pac,Contribution,D,496782,2026-07-15
+expenditure,2026-04-14,Starbucks,$14.28,Seattle,WA,pac,Food,D,496782,2026-07-15
+expenditure,2026-04-21,Dairy Queen,$20,Bloomington,MN,pac,Food,D,496782,2026-07-15
+expenditure,2026-04-21,Royal Farms,$79.55,Baltimore,MD,pac,Travel,D,496782,2026-07-15
+expenditure,2026-03-20,BP,$22.80,Houston,TX,pac,Travel,D,496782,2026-07-15
+expenditure,2026-03-24,BP,$72.15,Houston,TX,pac,Travel,D,496782,2026-07-15
+expenditure,2026-04-15,BP,$50.01,Houston,TX,pac,Travel,D,496782,2026-07-15
+expenditure,2026-04-26,BP,$72.31,Houston,TX,pac,Travel,D,496782,2026-07-15
+expenditure,2026-05-04,Spoonful of Comfort,$121.27,Salt Lake City,UT,pac,Food,D,496782,2026-07-15
+expenditure,2026-05-11,Qiana Elmore,$60,Chesapeake,VA,individual,Catering,D,496782,2026-07-15
+expenditure,2026-05-15,Woco Mart,$74,Ivor,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-05-16,Golden Corral,$24.79,Raleigh,NC,pac,Food,D,496782,2026-07-15
+expenditure,2026-05-21,Cure Coffee,$14.89,Smithfield,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-05-28,Redds Filling Station,$323.42,Windsor,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-05-27,Commonwealth Club,"$1,882.68",Richmond,VA,pac,Membership,D,496782,2026-07-15
+expenditure,2026-06-17,Southwest Airlines,$175.40,Dallas,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-17,Southwest Airlines,$175.40,Dallas,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-17,Southwest Airlines,$175.40,Dallas,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-17,Southwest Airlines,$175.40,Dallas,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-17,Southwest Airlines,$163.20,Dallas,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-17,Southwest Airlines,$163.20,Dallas,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-17,Southwest Airlines,$163.20,Dallas,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-17,Southwest Airlines,$163.20,Dallas,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-18,Southwest Airlines,$43.80,Dallas,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-18,Southwest Airlines,$37.90,Dallas,VA,pac,Travel,D,496782,2026-07-15
+expenditure,2026-06-18,Fort Morgan Municipal Airport,$2.99,Fort Morgan,CO,pac,Parking,D,496782,2026-07-15
+expenditure,2026-06-19,Todd Jurichs Bistro,$300,Norfolkd,VA,pac,Food,D,496782,2026-07-15
+expenditure,2026-06-10,Cindy Payne,$250,Suffolk,VA,individual,Consulting,D,496782,2026-07-15
+expenditure,2026-06-23,CVS,$53.17,Woonsocket,RI,pac,Supplies,D,496782,2026-07-15
+expenditure,2026-06-19,Felicia Leffler,"$2,000",Forest,VA,individual,Consulting,D,496782,2026-07-15
+expenditure,2026-06-27,Hardees,$13.36,Franklin,TN,pac,Food,D,496782,2026-07-15
+debt,2017-03-24,Joseph Brewer,"$3,000",Suffolk,VA,individual,,F,479619,2026-01-15
+debt,2017-03-24,Joseph Brewer,"$3,000",Suffolk,VA,individual,,F,496782,2026-07-15

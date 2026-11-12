@@ -1,0 +1,54 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$15,401.57",,VA,,"From official Schedule H, November 2025 election cycle",H,495350,2026-07-14
+summary,2026-06-30,Raised this cycle,"$193,542.85",,,,Total receipts this election cycle (Schedule H),H,495350,2026-07-14
+summary,2026-06-30,Spent this cycle,"$196,839.59",,,,Total disbursements this election cycle (Schedule H),H,495350,2026-07-14
+contribution,2025-12-04,Elizabeth Jackson,$10,Ashburn,VA,individual,,A,475762,2026-01-08
+contribution,2025-11-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,475762,2026-01-08
+contribution,2025-12-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,475762,2026-01-08
+contribution,2026-05-26,Patricia Brown,$150,Palmyra,VA,individual,,A,495350,2026-07-14
+contribution,2026-04-17,Clean Virginia,"$7,500",Charlottesville,VA,pac,,A,495350,2026-07-14
+contribution,2026-01-13,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,pac,,A,495350,2026-07-14
+contribution,2026-06-18,Comstock Hospitality Holdings LLC,"$5,000",Reston,VA,pac,,A,495350,2026-07-14
+contribution,2026-03-21,Tamberley Cummins,$250,Leesburg,VA,individual,,A,495350,2026-07-14
+contribution,2026-01-13,Dennis Griesing,$500,Leesburg,VA,individual,,A,495350,2026-07-14
+contribution,2026-05-07,Virginia Bankers Association State PAC,$500,Glen Allen,VA,pac,,A,495350,2026-07-14
+contribution,2026-01-09,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,A,495350,2026-07-14
+in_kind,2026-05-01,Comstock Hospitality Holdings LLC,"$4,234.70",Reston,VA,pac,Fundraiser Event and Catering,B,495350,2026-07-14
+other_receipt,2025-12-19,Virginia Beer Wholesalers Association PAC,$155.62,Richmond,VA,pac,Event Supplies Reimbursement,C,475762,2026-01-08
+other_receipt,2026-01-06,Virginia Wine Wholesalers PAC,$238.30,Richmond,VA,pac,Event Materials Reimbursement,C,495350,2026-07-14
+expenditure,2025-12-01,Gibson Print,$809.05,Henrico,VA,pac,Holiday Mailer,D,475762,2026-01-08
+expenditure,2025-12-01,Texas Roadhouse,$500,Chantilly,VA,pac,Donor Appreciation,D,475762,2026-01-08
+expenditure,2025-12-12,Matthew Montgomery,$238.30,Reston,VA,individual,Reimbursement for Event Supplies,D,475762,2026-01-08
+expenditure,2025-12-12,World Market,$11.10,Dulles,VA,pac,Event Supplies,D,475762,2026-01-08
+expenditure,2025-12-13,Wegmans,$256.80,Reston,VA,pac,Event Supplies,D,475762,2026-01-08
+expenditure,2025-12-29,ActBlue,$1.39,West Somerville,MA,pac,Fees,D,475762,2026-01-08
+expenditure,2026-01-06,ActBlue,$0.40,West Somerville,MA,pac,Act Blue Fees,D,495350,2026-07-14
+expenditure,2026-01-08,Yearli.com,$38.34,Grand Rapids,MI,pac,Tax Prep,D,495350,2026-07-14
+expenditure,2026-01-12,Matthew Montgomery,$259.55,Reston,VA,individual,Reimbursement for MLK Event,D,495350,2026-07-14
+expenditure,2026-01-13,Matthew Montgomery,$69,Reston,VA,individual,Reimbursement of Office Supplies,D,495350,2026-07-14
+expenditure,2026-01-15,House Democratic Caucus,"$7,500",Richmond,VA,party,Dues,D,495350,2026-07-14
+expenditure,2026-01-16,Virginia Latino Caucus,"$2,500",Richmond,VA,pac,Dues,D,495350,2026-07-14
+expenditure,2026-01-21,ActBlue,$21.85,West Somerville,MA,pac,Act Blue Fees,D,495350,2026-07-14
+expenditure,2026-01-26,Doris Martinez,$804.08,Leesburg,VA,individual,Reimbursement for Event Supplies,D,495350,2026-07-14
+expenditure,2026-01-30,"Zoom Video Communications, Inc",$167.90,San Jose,CA,pac,Office Supplies,D,495350,2026-07-14
+expenditure,2026-02-02,NGP VAN Inc.,$336,Washington,DC,pac,NGP,D,495350,2026-07-14
+expenditure,2026-03-04,Matthew Montgomery,$34.97,Reston,VA,individual,Office Supplies Reimbursement,D,495350,2026-07-14
+expenditure,2026-03-31,Dan Helmer for VA,"$1,000",Clifton,VA,pac,Political Donation,D,495350,2026-07-14
+expenditure,2026-04-24,United States Post Office,$488,Leesburg,VA,pac,Post office box,D,495350,2026-07-14
+expenditure,2026-05-06,Fernando Martinez,$300,Leesburg,VA,individual,VPAP Donation,D,495350,2026-07-14
+expenditure,2026-05-06,Fernando Martinez,$56.85,Leesburg,VA,individual,Gas,D,495350,2026-07-14
+expenditure,2026-05-06,Fernando Martinez,$52.75,Leesburg,VA,individual,Charity Donation,D,495350,2026-07-14
+expenditure,2026-05-06,Fernando Martinez,$56.98,Leesburg,VA,individual,Parking Reimbursement,D,495350,2026-07-14
+expenditure,2026-05-06,Matthew Montgomery,$30,Reston,VA,individual,Parking,D,495350,2026-07-14
+expenditure,2026-05-07,Commonwealth Victory Fund,$650,Richmond,VA,pac,2025 Homestead,D,495350,2026-07-14
+expenditure,2026-05-11,NGP VAN Inc.,"$1,058.40",Washington,DC,pac,"Quarterly Payment, Campaign Software",D,495350,2026-07-14
+expenditure,2026-05-15,Loudoun County Democratic Committee,$725,Leesburg,VA,pac,Event Sponsorship,D,495350,2026-07-14
+expenditure,2026-05-19,Repro Rising Virginia,$225,Alexandria,VA,pac,Event Ticket,D,495350,2026-07-14
+expenditure,2026-05-28,Democratic Latino Organization of Virginia,$100,Richmond,VA,pac,Event Ticket,D,495350,2026-07-14
+expenditure,2026-05-28,Network NOVA,$182.17,Falls Church,VA,pac,Event Registration,D,495350,2026-07-14
+expenditure,2026-06-08,NGP VAN Inc.,$352.80,Washington,DC,pac,Monthly Expenditure,D,495350,2026-07-14
+expenditure,2026-06-23,Virginia Young Democrats,$125,Richmond,VA,pac,Event Ticket,D,495350,2026-07-14
+expenditure,2026-06-29,Doug Mejia for Herndon Town Council,$150,Herndon,VA,pac,Political Donation,D,495350,2026-07-14
+expenditure,2026-06-29,Loudoun County Democratic Committee,$200,Leesburg,VA,pac,Event Sponsorship,D,495350,2026-07-14
+expenditure,2026-06-30,ActBlue,$32.12,West Somerville,MA,pac,Fees,D,495350,2026-07-14

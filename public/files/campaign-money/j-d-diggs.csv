@@ -1,0 +1,378 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$608,729.10",,VA,,"From official Schedule H, November 2027 election cycle",H,494956,2026-07-13
+summary,2026-06-30,Raised this cycle,"$812,548.32",,,,Total receipts this election cycle (Schedule H),H,494956,2026-07-13
+summary,2026-06-30,Spent this cycle,"$223,637.25",,,,Total disbursements this election cycle (Schedule H),H,494956,2026-07-13
+contribution,2025-11-20,Paula Willoughby,$26.35,Mechanicsville,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-11,Stephen C Barrs,"$1,000",Hayes,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-12,Jeff Wassmer,$521.15,Newport News,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-17,Donald Streater,$200,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-14,Donald Streater,$250,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-04,Thomas Shepperd,$260.73,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-07-17,Beverley R Roberts,$50,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-10,Beverley R Roberts,$50,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-10-05,Beverley R Roberts,$50,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-07,Beverley R Roberts,$100,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-11-20,Michael Watson,$104.48,Gloucester,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-16,Michael Watson,$250,Gloucester,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-17,Ivan W Dickerson,$100,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-03,John Masters,"$1,041.98",Newport News,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-09,Shari Rendall,$104.48,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-23,Cowles M Spencer,$500,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-30,"Motorola Solutions, Inc Political Action Committee","$1,000",Washington,DC,pac,,A,478855,2026-01-15
+contribution,2025-07-01,Susan Yungbluth,$26.35,Newport News,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-30,Susan Yungbluth,$52.40,Newport News,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-09,Drew Mulhare,$156.56,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-15,Michael P Chohany,$500,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-16,Eastern Floor Covering,$450,Newport News,VA,pac,,A,478855,2026-01-15
+contribution,2025-12-10,Susan Stanaway,$521.15,Hayes,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-29,Raymond H Suttle Jr,$100,Newport News,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-31,Allen Barber,$150,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-10,Dr Peter Guhl,$156.56,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-07-02,Diane Henry,$52.40,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-07-17,Sheila S Noll,$250,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-16,H J Coxton,"$1,000",Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-11,David H Bowditch,$200,Hayes,VA,individual,,A,478855,2026-01-15
+contribution,2025-09-08,Constance R Jones,$300,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-16,Constance R Jones,$500,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-16,Stephen J Huebner,$250,Toano,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-16,Seaford Scallop Company,$250,Seaford,VA,pac,,A,478855,2026-01-15
+contribution,2025-12-13,Frank Richardson,$156.56,Newport News,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-05,Roger Nelson,$52.40,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-09-09,Roger Nelson,$52.40,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-10-02,Roger Nelson,$52.40,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-10-22,Roger Nelson,$52.40,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-16,David A Hux,$150,Poquoson,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-11,Stephen Ferguson,"$1,000",Newport News,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-16,Heather L Cordasco,$250,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-07-13,Rosanne M Reddin,$60,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-10-14,Bradford A Powell,$26.35,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-09-14,Richard Danker,$250,Middleburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-04,Mark A Pohto,$100,Poquoson,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-23,Mark A Pohto,$104.48,Poquoson,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-17,Richard Biege,$104.48,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-07-09,Dr. Michael E Renforth,$260.73,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-11,Dr. Michael E Renforth,$260.73,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-06,Dwight Bryant,"$1,000",Newport News,VA,individual,,A,478855,2026-01-15
+contribution,2025-09-07,James Derderian,"$1,000",Annapolis,MD,individual,,A,478855,2026-01-15
+contribution,2025-12-09,Thomas A Burcher,$260.73,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-15,Michael Petersen,$156.56,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-04,Richard Duvall,$104.48,Alexandria,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-13,Thomas W Meehan,$250,Newport News,VA,individual,,A,478855,2026-01-15
+contribution,2025-09-21,Bonnie Bilski,$25,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-21,Bonnie Bilski,$50,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-12,John Gleason,$250,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-08,Candice Kelley,$156.56,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-10,Douglas R Holroyd,$150,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-05,Sharon J Flowers,$20,Seaford,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-16,Clarke W Rowley III,$250,Gloucester Point,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-16,Jesse Parker,"$1,000",Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-08,Elizabeth McCormick,"$1,041.98",Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-12,Arvind Patel,$156.56,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-10,Steven Spain,"$2,604.48",Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-31,Virginia Sheriffs Association Political Action Committee,$250,Richmond,VA,pac,,A,478855,2026-01-15
+contribution,2025-09-09,Agnes M Manzie,$104.48,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-10-24,Merilyn B Johnston,"$1,000",Leesburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-07-12,Robert Landrum,"$1,041.98",Aldie,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-19,John K Freeman,"$5,000",Bethesda,MD,individual,,A,478855,2026-01-15
+contribution,2025-07-09,Katreen Rinaldi,"$1,041.98",Oakton,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-13,Craig Stevens,$521.15,Warrenton,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-10,Greg Granger,$260.73,Williamsburg,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-11,"Waltz Commercial Real Estate, LLC",$150,Yorktown,VA,pac,,A,478855,2026-01-15
+contribution,2025-12-17,VA Operators for Skill,"$2,500",Richmond,VA,pac,,A,478855,2026-01-15
+contribution,2025-10-24,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,A,478855,2026-01-15
+contribution,2025-10-19,Huntington Ingalls Industries,"$1,000",Newport News,VA,pac,,A,478855,2026-01-15
+contribution,2025-09-04,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,A,478855,2026-01-15
+contribution,2025-09-21,Virginia Automobile & Truck Dealers PAC,"$2,500",Richmond,VA,pac,,A,478855,2026-01-15
+contribution,2025-08-23,"Amazon.com Services, LLC","$1,000",Arlington,VA,pac,,A,478855,2026-01-15
+contribution,2025-08-23,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,A,478855,2026-01-15
+contribution,2025-09-21,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,A,478855,2026-01-15
+contribution,2025-11-07,Omega Protein,"$2,500",Calais,ME,pac,,A,478855,2026-01-15
+contribution,2025-12-14,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,A,478855,2026-01-15
+contribution,2025-08-01,Dominion Energy Inc. PAC - Virginia,"$25,000",Richmond,VA,pac,,A,478855,2026-01-15
+contribution,2025-12-08,Dominion Energy Inc. PAC - Virginia,"$50,000",Richmond,VA,pac,,A,478855,2026-01-15
+contribution,2025-12-15,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,478855,2026-01-15
+contribution,2025-07-10,Mohammad Akbar,$750,McLean,VA,individual,,A,478855,2026-01-15
+contribution,2025-09-14,Anheuser Busch Companies,$250,St. Louis,MO,pac,,A,478855,2026-01-15
+contribution,2025-10-24,Ulrich E Boesch,$80,Fairfax,VA,individual,,A,478855,2026-01-15
+contribution,2025-10-24,ARDA-Resort Owners Coalition PAC,"$1,000",Washington,DC,pac,,A,478855,2026-01-15
+contribution,2025-12-11,"Colonial Eye Care, PLC",$250,Williamsburg,VA,pac,,A,478855,2026-01-15
+contribution,2025-07-04,Norman Donnelly,$260.73,Newport News,VA,individual,,A,478855,2026-01-15
+contribution,2025-10-22,Senex Law PC,"$1,000",Hampton,VA,pac,,A,478855,2026-01-15
+contribution,2025-07-14,Susan Valentine,$500,Alexandria,VA,individual,,A,478855,2026-01-15
+contribution,2025-08-13,Anita Harlow,$521.15,Haymarket,VA,individual,,A,478855,2026-01-15
+contribution,2025-09-01,LKQ Corporation Employee Good Government Fund,$500,Washington,DC,pac,,A,478855,2026-01-15
+contribution,2025-09-07,General Motors Company PAC,$250,Washington,DC,pac,,A,478855,2026-01-15
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$5,000",Portsmouth,VA,pac,,A,478855,2026-01-15
+contribution,2025-10-22,Peter Michael Kubin,$150,Virginia Beach,VA,individual,,A,478855,2026-01-15
+contribution,2025-10-22,VA Apt. Mgmt. Assoc. PAC,"$1,000",Richmond,VA,pac,,A,478855,2026-01-15
+contribution,2025-11-03,Enterprise Mobility Political Action Committee,$500,St. Louis,MO,pac,,A,478855,2026-01-15
+contribution,2025-11-30,State Farm Federal PAC,"$1,000",Bloomington,IL,pac,,A,478855,2026-01-15
+contribution,2025-12-05,Julie Bartley,$260.73,Tabb,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-07,"Principle Advantage Government Relations Group, LLC",$250,Williamsburg,VA,pac,,A,478855,2026-01-15
+contribution,2025-12-16,Mary Roane,$312.81,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-23,"Kelly's, Inc","$1,000",Virginia Beach,VA,pac,,A,478855,2026-01-15
+contribution,2025-12-26,VA Digital Infrastructure PAC,"$1,000",Leesburg,VA,pac,,A,478855,2026-01-15
+contribution,2025-12-28,HBAV Build-PAC,"$1,000",Richmond,VA,pac,,A,478855,2026-01-15
+contribution,2025-12-30,Pamela Romeo,$104.48,Yorktown,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-31,Jim Graves,$104.48,Henrico,VA,individual,,A,478855,2026-01-15
+contribution,2025-12-31,Tommy Garner Air Conditioning & Heating,"$5,000",Newport News,VA,pac,,A,478855,2026-01-15
+contribution,2026-04-07,William G Diggs,$100,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,Richard Scott Ashe,$500,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-19,Bob Deeds,$104.48,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-24,Terry D Ricks,$100,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-22,Michael Deluca,$500,Seaford,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-14,Jeff Wassmer,$521.15,Seaford,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-07,William E Miller,$35,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-21,William E Miller,$25,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-24,Donald Streater,$104.48,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-01,Donald Streater,$104.48,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-06,Donald Streater,$400,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,Donald Streater,$200,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-13,Donald Streater,$50,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-27,Thomas Shepperd,$521.15,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-30,Beverley R Roberts,$100,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-14,Beverley R Roberts,$100,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Gregory Peck,$104.48,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-31,Nora Ann Lambiotte,$50,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-26,Nora Ann Lambiotte,$50,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-01-13,Michael Watson,$250,Gloucester,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-15,Shelley Anderson,$416.98,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-16,Nicholas P Stokes,$27.40,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-13,Nicholas P Stokes,$30,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Nicholas P Stokes,$52.40,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-31,Walter Reiser,$50,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-08,John Masters,"$1,041.98",Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-14,John T Dorsey,$100,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-22,Cowles M Spencer,"$1,500",Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-26,Albert J Tumminello,$100,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-16,Susan Yungbluth,$104.48,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-14,Drew Mulhare,$260.73,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-15,Michael P Chohany,$500,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-31,John R Baer,$100,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-13,Mary C Ward,$500,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-23,Susan Stanaway,$521.15,Hayes,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,Lynn Grimsley,$400,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-27,Raymond H Suttle Jr,$100,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-24,Norbert F Smith,$500,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Dr Peter Guhl,$75,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-24,Stephen Roane,$260.73,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,Sheila S Noll,$250,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,H J Coxton,"$1,500",Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,"Davis Management Company, Inc",$500,Yorktown,VA,pac,,A,494956,2026-07-13
+contribution,2026-04-24,Peninsula Hardwood Mulch,$400,Yorktown,VA,pac,,A,494956,2026-07-13
+contribution,2026-04-07,Constance R Jones,$416.98,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-16,Raymond Folsom,$52.40,Gloucester,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-29,Raymond Folsom,$104.48,Gloucester,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Robert Heffley,$52.40,Palmyra,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,Stephen J Huebner,$400,Toano,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-29,Seaford Scallop Company,$250,Seaford,VA,pac,,A,494956,2026-07-13
+contribution,2026-03-16,Mel Moss,$26,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-24,Mel Moss,$25,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-29,Mel Moss,$26.35,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-26,John P Good Jr,"$2,500",Winchester,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-13,Jay Curtis,$300,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-24,Richard D Kern Jr.,$500,Winchester,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-19,Roger Nelson,$52.40,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Roger Nelson,$52.40,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-27,Grafton Station Apartments,"$1,000",Yorktown,VA,pac,,A,494956,2026-07-13
+contribution,2026-04-20,John Dusewicz,$416.98,Hayes,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-21,Hans Hohlreider,"$1,041.98",Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-07,Rosanne M Reddin,$30,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-13,Richard Danker,$250,Middleburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-16,John M Poutier,$52.40,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-31,Antonio Ulisse,$40,Poquoson,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,James F Prince,$104.48,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-14,Alvin M Watkins,$52.40,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-14,John Harris,$50,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-13,Leslie Guthrie,$50,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-27,Robert Brown,"$1,041.98",Poquoson,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-08,Dwight Bryant,"$1,000",Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-01-14,John Hutchinson,$104.48,Seaford,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-23,Bruce Eberle,$260.73,Vienna,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-14,Robert Norton,$100,Irvington,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-07,Cathy Gillespie,"$1,041.98",Alexandria,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-26,Gail Wilson,$30,Hampton,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Dwight Alexander,$125,Hampton,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-14,James Deviese,$100,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-17,Thomas Ruch,$260.73,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-28,Thomas A Wash Jr,"$1,000",Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-13,Mark Turner Construction LLC,$250,Glen Allen,VA,pac,,A,494956,2026-07-13
+contribution,2026-04-24,Greg Garrett,$500,Norfolk,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-07,Thomas W Meehan,"$1,041.98",Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-13,Candice Kelley,$260.73,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-31,William A Pruitt,$50,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-09,Patricia Heath,$260.73,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-01-13,Lourdes Farley,$52.40,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-01,Edward Lewis,$52.40,Quinton,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-19,Edward Lewis,$52.40,Quinton,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,Robin L Milewski,$250,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,Clarke W Rowley III,$400,Gloucester Point,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-14,Joseph R Beck,$250,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-29,Mary Sadler,$52.40,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,James Shoemaker,"$1,041.98",Poquoson,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-07,Steven Spain,"$5,208.65",Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-30,Mary Bork,"$2,500",McLean,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-07,Virginia Sheriffs Association Political Action Committee,$250,Richmond,VA,pac,,A,494956,2026-07-13
+contribution,2026-05-19,Michael Stetina,$104.48,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-14,John S Fusek,$52.40,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-18,Agnes M Manzie,$416.98,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-24,William D McGalliard,$104.48,Seaford,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-31,Merilyn B Johnston,"$2,500",Leesburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-15,Rob Frogale,"$1,000",Winchester,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-28,Robert Landrum,$521.15,Aldie,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-30,Ronald O Fowler,$100,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-17,Katreen Rinaldi,"$1,041.98",Oakton,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-23,Bobbie Kilberg,"$1,000",McLean,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-20,Ronald C Ripley,$521.15,Virginia Beach,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Henry J Dunn,$260.73,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-04,Ellis W Sharadin,$100,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-24,Craig Stevens,$521.15,Warrenton,VA,individual,,A,494956,2026-07-13
+contribution,2026-01-10,John B Kishman,$36.77,Fairfax,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-16,John B Kishman,$36.77,Fairfax,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-13,John B Kishman,$36.77,Fairfax,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-24,David Mize,$52.40,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-04,Timothy Trant,$250,Poquoson,VA,individual,,A,494956,2026-07-13
+contribution,2026-01-13,VA Operators for Skill,"$2,500",Richmond,VA,pac,,A,494956,2026-07-13
+contribution,2026-04-23,VA Operators for Skill,"$5,000",Richmond,VA,pac,,A,494956,2026-07-13
+contribution,2026-06-26,Robert M Hall,$200,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-01-09,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,494956,2026-07-13
+contribution,2026-06-13,Virginia Automobile & Truck Dealers PAC,$500,Richmond,VA,pac,,A,494956,2026-07-13
+contribution,2026-01-10,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,494956,2026-07-13
+contribution,2026-04-18,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,494956,2026-07-13
+contribution,2026-04-24,Dominion Energy Inc. PAC - Virginia,"$25,000",Richmond,VA,pac,,A,494956,2026-07-13
+contribution,2026-06-30,Dominion Energy Inc. PAC - Virginia,"$25,000",Richmond,VA,pac,,A,494956,2026-07-13
+contribution,2026-01-13,Virginia Manufactured & Modular Housing Assoc PAC,$500,Henrico,VA,pac,,A,494956,2026-07-13
+contribution,2026-06-30,Judy Hutchinson,$104.48,Seaford,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-19,Lynn Caruthers,"$1,041.98",McLean,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-31,Christopher G Griffin,$50,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-19,Mohammad Akbar,$521.15,McLean,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Comstock Hospitality Holdings LLC,"$5,000",Reston,VA,pac,,A,494956,2026-07-13
+contribution,2026-05-13,Andrea Best-Ley,$50,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-10,George A Eanes Jr,$100,Glen Allen,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-15,Shirley T Weaver,$50,Suffolk,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-01,Thomas J McInerney,"$10,000",Henrico,VA,individual,,A,494956,2026-07-13
+contribution,2026-01-09,Metallurgical Coal Producers Assoc PAC,"$1,000",Grundy,VA,pac,,A,494956,2026-07-13
+contribution,2026-06-30,Rich Savage,$260.73,Richmond,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Thomas R Doss,$104.48,Marion,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-16,Peter Kao,"$1,041.98",Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-01,Transurban (USA) Inc. - CR,$500,Tysons,VA,pac,,A,494956,2026-07-13
+contribution,2026-05-31,Susan Valentine,$500,Alexandria,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-31,Anita Harlow,$521.15,Haymarket,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-01,Jim Graves,$104.48,Henrico,VA,individual,,A,494956,2026-07-13
+contribution,2026-01-13,David Yancey,$500,Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,David Yancey,"$1,000",Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-01-14,Mark Rinaldi,$104.48,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-03-16,Ronald Montgomery,$104.48,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-10,"Kelly's at Strawbridge, Inc","$1,000",Virginia Beach,VA,pac,,A,494956,2026-07-13
+contribution,2026-04-15,Adele Lockhart,"$1,041.98",Newport News,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-18,Gregory D Ballentine,$200,Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-20,Keith Vander Vennet,"$1,041.98",Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-24,Leslie Henderson,"$1,041.98",Williamsburg,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-27,Vincent Passero,$250,Toano,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,Debra H Burcher,$500,Yorktown,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,Gray Wooten,$150,Hayes,VA,individual,,A,494956,2026-07-13
+contribution,2026-04-29,All Point Services LLC,$400,Yorktown,VA,pac,,A,494956,2026-07-13
+contribution,2026-05-14,Mary Susan King,$150,Gainsville,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-14,John Poague,"$1,041.98",Catharpin,VA,individual,,A,494956,2026-07-13
+contribution,2026-05-31,Gary L Jones,"$1,000",Bristow,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-08,Sports Betting Alliance,"$100,000",Fairfax,VA,pac,,A,494956,2026-07-13
+contribution,2026-06-18,Seven Hills Strategy Group LLC,$250,Richmond,VA,pac,,A,494956,2026-07-13
+contribution,2026-06-24,Denise Balzano,$260.73,McLean,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Pauline Thompson,$500,Falls Church,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Carole Stadfeld,$500,McLean,VA,individual,,A,494956,2026-07-13
+contribution,2026-06-30,Norris E Mitchell,$500,McLean,VA,individual,,A,494956,2026-07-13
+in_kind,2026-06-30,Comstock Hospitality Holdings LLC,"$4,437",Reston,VA,pac,Dinner & Room Rental,B,494956,2026-07-13
+other_receipt,2025-07-31,Towne Bank,$0.62,Yorktown,VA,pac,Checking Interest,C,478855,2026-01-15
+other_receipt,2025-08-22,Towne Bank,"$1,820.12",Yorktown,VA,pac,CD Interest,C,478855,2026-01-15
+other_receipt,2025-08-29,Towne Bank,$0.83,Yorktown,VA,pac,Check Interest,C,478855,2026-01-15
+other_receipt,2025-09-30,Towne Bank,$0.81,Yorktown,VA,pac,Checking Interest,C,478855,2026-01-15
+other_receipt,2025-10-22,Towne Bank,"$1,217.68",Yorktown,VA,pac,CD Interest,C,478855,2026-01-15
+other_receipt,2025-10-31,Towne Bank,$0.86,Yorktown,VA,pac,Checking Interest,C,478855,2026-01-15
+other_receipt,2025-11-28,Towne Bank,$0.88,Yorktown,VA,pac,Checking Interest,C,478855,2026-01-15
+other_receipt,2025-12-31,Towne Bank,$1.34,Yorktown,VA,pac,Checking Interest,C,478855,2026-01-15
+other_receipt,2026-01-22,Towne Bank,"$1,842.29",Yorktown,VA,pac,CD Interest,C,494956,2026-07-13
+other_receipt,2026-01-30,Towne Bank,$0.62,Yorktown,VA,pac,Checking Interest,C,494956,2026-07-13
+other_receipt,2026-02-27,Towne Bank,$0.26,Yorktown,VA,pac,Checking Interest,C,494956,2026-07-13
+other_receipt,2026-03-20,Towne Bank,"$1,192.06",Yorktown,VA,pac,CD Interest,C,494956,2026-07-13
+other_receipt,2026-03-31,Towne Bank,$0.27,Yorktown,VA,pac,Checking Interest,C,494956,2026-07-13
+other_receipt,2026-04-08,Towne Bank,"$1,187.26",Yorktown,VA,pac,CD Interest,C,494956,2026-07-13
+other_receipt,2026-04-30,Towne Bank,$0.53,Yorktown,VA,pac,Checking Interest,C,494956,2026-07-13
+other_receipt,2026-05-29,Towne Bank,$0.85,Yorktown,VA,pac,Checking Interest,C,494956,2026-07-13
+other_receipt,2026-06-22,Towne Bank,"$1,638.45",Yorktown,VA,pac,CD Interest,C,494956,2026-07-13
+other_receipt,2026-06-30,Towne Bank,$1.49,Yorktown,VA,pac,Checking Interest,C,494956,2026-07-13
+expenditure,2025-07-30,Mailchimp,$285,Atlanta,GA,pac,email services,D,478855,2026-01-15
+expenditure,2025-08-30,Mailchimp,$285,Atlanta,GA,pac,email services,D,478855,2026-01-15
+expenditure,2025-10-01,Mailchimp,$285,Atlanta,GA,pac,email services,D,478855,2026-01-15
+expenditure,2025-10-30,Mailchimp,$285,Atlanta,GA,pac,email services,D,478855,2026-01-15
+expenditure,2025-11-30,Mailchimp,$321,Atlanta,GA,pac,email services,D,478855,2026-01-15
+expenditure,2025-12-30,Mailchimp,$285,Atlanta,GA,pac,email services,D,478855,2026-01-15
+expenditure,2025-12-31,WinRed,$3.08,Arlington,VA,pac,Transaction Fees,D,478855,2026-01-15
+expenditure,2025-12-31,"Anedot, Inc",$786.99,New Orleans,LA,pac,Transaction Fees,D,478855,2026-01-15
+expenditure,2025-09-03,"John Henry Printing, Inc",$674.10,Yorktown,VA,pac,Printing,D,478855,2026-01-15
+expenditure,2025-07-01,"Bay Amoury II, LLC","$1,500",Locust Grove,VA,pac,Consulting,D,478855,2026-01-15
+expenditure,2025-07-01,"Bay Amoury II, LLC","$1,500",Locust Grove,VA,pac,Consulting,D,478855,2026-01-15
+expenditure,2025-07-01,"Bay Amoury II, LLC","$1,500",Locust Grove,VA,pac,Consulting,D,478855,2026-01-15
+expenditure,2025-09-02,"Bay Amoury II, LLC","$1,500",Locust Grove,VA,pac,Consulting,D,478855,2026-01-15
+expenditure,2025-09-02,"Bay Amoury II, LLC","$3,200",Locust Grove,VA,pac,Consulting,D,478855,2026-01-15
+expenditure,2025-10-02,"Bay Amoury II, LLC","$1,500",Locust Grove,VA,pac,Consulting,D,478855,2026-01-15
+expenditure,2025-11-03,"Bay Amoury II, LLC","$1,500",Locust Grove,VA,pac,Consulting,D,478855,2026-01-15
+expenditure,2025-12-18,JOUAM,$250,Poquoson,VA,pac,Sponsorship,D,478855,2026-01-15
+expenditure,2025-07-01,Michael Joseph Link,"$1,000",Hampton,VA,individual,Consulting,D,478855,2026-01-15
+expenditure,2025-08-01,Michael Joseph Link,"$1,000",Hampton,VA,individual,Consulting,D,478855,2026-01-15
+expenditure,2025-09-02,Michael Joseph Link,"$1,000",Hampton,VA,individual,Consulting,D,478855,2026-01-15
+expenditure,2025-10-01,Michael Joseph Link,"$1,000",Hampton,VA,individual,consulting,D,478855,2026-01-15
+expenditure,2025-11-06,Michael Joseph Link,"$1,000",Hampton,VA,individual,Consulting,D,478855,2026-01-15
+expenditure,2025-12-03,Michael Joseph Link,"$1,000",Hampton,VA,individual,Consulting,D,478855,2026-01-15
+expenditure,2025-12-07,Virginia Peninsula Chamber,$135,Newport News,VA,pac,Tickets,D,478855,2026-01-15
+expenditure,2025-12-16,Riverwalk Restaurant,"$1,975.70",Yorktown,VA,pac,Food,D,478855,2026-01-15
+expenditure,2025-09-14,Sam's Club,$70.55,Newport News,VA,pac,Parade Candy,D,478855,2026-01-15
+expenditure,2025-07-07,Virginia Senate Republican Caucus,"$12,500",Richmond,VA,party,Contribution,D,478855,2026-01-15
+expenditure,2025-07-28,Virginia Senate Republican Caucus,"$1,500",Richmond,VA,party,Contribution,D,478855,2026-01-15
+expenditure,2025-10-14,Friends of Chad Green,"$2,500",Seaford,VA,pac,Contribution,D,478855,2026-01-15
+expenditure,2025-07-01,Google LLC,$36,Mountain View,CA,pac,email services,D,478855,2026-01-15
+expenditure,2025-08-04,Google LLC,$40.45,Mountain View,CA,pac,email services,D,478855,2026-01-15
+expenditure,2025-08-31,Google LLC,$42,Mountain View,CA,pac,email services,D,478855,2026-01-15
+expenditure,2025-10-01,Google LLC,$42,Mountain View,CA,pac,email services,D,478855,2026-01-15
+expenditure,2025-10-31,Google LLC,$42,Mountain View,CA,pac,email services,D,478855,2026-01-15
+expenditure,2025-12-02,Google LLC,$42,Mountain View,CA,pac,email services,D,478855,2026-01-15
+expenditure,2025-08-18,Patsy's American,"$1,569.02",Vienna,VA,pac,Fundraiser Dinner,D,478855,2026-01-15
+expenditure,2025-08-31,Friends of Cynthia Scaturico,$500,Newport News,VA,pac,Donation,D,478855,2026-01-15
+expenditure,2025-12-31,Godaddy,$539.24,Tempe,AZ,pac,Website services,D,478855,2026-01-15
+expenditure,2026-03-23,"Squarespace, Inc",$276,New York,NY,pac,Website services,D,494956,2026-07-13
+expenditure,2026-04-04,"Squarespace, Inc",$34,New York,NY,pac,Website,D,494956,2026-07-13
+expenditure,2026-04-06,"Squarespace, Inc",$42,New York,NY,pac,Website,D,494956,2026-07-13
+expenditure,2026-01-30,Mailchimp,$285,Atlanta,GA,pac,Email Services,D,494956,2026-07-13
+expenditure,2026-03-02,Mailchimp,$285,Atlanta,GA,pac,email services,D,494956,2026-07-13
+expenditure,2026-03-30,Mailchimp,$285,Atlanta,GA,pac,email services,D,494956,2026-07-13
+expenditure,2026-04-30,Mailchimp,$285,Atlanta,GA,pac,email services,D,494956,2026-07-13
+expenditure,2026-05-30,Mailchimp,$285,Atlanta,GA,pac,email services,D,494956,2026-07-13
+expenditure,2026-06-30,Mailchimp,$285,Atlanta,GA,pac,email services,D,494956,2026-07-13
+expenditure,2026-06-30,"Anedot, Inc","$1,725.25",New Orleans,LA,pac,Service Fees,D,494956,2026-07-13
+expenditure,2026-05-20,Towne Bank,$15,Yorktown,VA,pac,Bank Fee,D,494956,2026-07-13
+expenditure,2026-05-20,Towne Bank,$25,Yorktown,VA,pac,Bank Charge,D,494956,2026-07-13
+expenditure,2026-01-02,"Bay Amoury II, LLC","$1,500",Locust Grove,VA,pac,Consulting,D,494956,2026-07-13
+expenditure,2026-01-02,"Bay Amoury II, LLC","$1,500",Locust Grove,VA,pac,Consulting,D,494956,2026-07-13
+expenditure,2026-01-05,"Bay Amoury II, LLC",$95,Locust Grove,VA,pac,Consulting,D,494956,2026-07-13
+expenditure,2026-01-05,"Bay Amoury II, LLC","$1,414.32",Locust Grove,VA,pac,Consulting,D,494956,2026-07-13
+expenditure,2026-02-04,"Bay Amoury II, LLC","$1,500",Locust Grove,VA,pac,Consulting,D,494956,2026-07-13
+expenditure,2026-03-03,"Bay Amoury II, LLC","$1,500",Locust Grove,VA,pac,Consulting,D,494956,2026-07-13
+expenditure,2026-04-29,"Bay Amoury II, LLC","$4,569.50",Locust Grove,VA,pac,Consulting,D,494956,2026-07-13
+expenditure,2026-04-24,HSP Direct,"$6,465",Ashburn,VA,pac,Mail services,D,494956,2026-07-13
+expenditure,2026-05-17,HSP Direct,"$5,795.42",Ashburn,VA,pac,Direct Mail,D,494956,2026-07-13
+expenditure,2026-01-04,Michael Joseph Link,$500,Newport News,VA,individual,Consulting,D,494956,2026-07-13
+expenditure,2026-02-02,Michael Joseph Link,"$1,000",Newport News,VA,individual,February/March,D,494956,2026-07-13
+expenditure,2026-04-02,Michael Joseph Link,$500,Newport News,VA,individual,Consulting,D,494956,2026-07-13
+expenditure,2026-05-05,Michael Joseph Link,$500,Newport News,VA,individual,Consulting,D,494956,2026-07-13
+expenditure,2026-06-03,Michael Joseph Link,$500,Newport News,VA,individual,Consulting,D,494956,2026-07-13
+expenditure,2026-02-27,GoDaddy,$22.19,Tempe,AZ,pac,Internet services,D,494956,2026-07-13
+expenditure,2026-04-29,Riverwalk Restaurant,"$2,799.43",Yorktown,VA,pac,Venue,D,494956,2026-07-13
+expenditure,2026-01-01,Tax Bandits,$3.25,Rock Hill,SC,pac,Tax Filing,D,494956,2026-07-13
+expenditure,2026-01-01,Google LLC,$42,Mountain View,CA,pac,email services,D,494956,2026-07-13
+expenditure,2026-02-02,Google LLC,$42,Mountain View,CA,pac,Email Services,D,494956,2026-07-13
+expenditure,2026-03-02,Google LLC,$42,Mountain View,CA,pac,email services,D,494956,2026-07-13
+expenditure,2026-03-31,Google LLC,$42,Mountain View,CA,pac,email services,D,494956,2026-07-13
+expenditure,2026-04-30,Google LLC,$42,Mountain View,CA,pac,email services,D,494956,2026-07-13
+expenditure,2026-05-31,Google LLC,$42,Mountain View,CA,pac,email services,D,494956,2026-07-13
+expenditure,2026-01-05,Department of the Treasury IRS,"$1,096",Ogden,UT,pac,Federal Tax Payment,D,494956,2026-07-13
+expenditure,2026-01-05,Virginia Department of Taxation,$313.14,Richmond,VA,pac,State Tax Payment,D,494956,2026-07-13

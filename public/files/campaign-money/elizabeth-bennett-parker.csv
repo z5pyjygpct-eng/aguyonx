@@ -1,0 +1,111 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$96,034.70",,VA,,"From official Schedule H, February 2026 election cycle",H,494130,2026-07-10
+summary,2026-06-30,Raised this cycle,"$207,255.43",,,,Total receipts this election cycle (Schedule H),H,494130,2026-07-10
+summary,2026-06-30,Spent this cycle,"$111,220.73",,,,Total disbursements this election cycle (Schedule H),H,494130,2026-07-10
+contribution,2026-01-09,Peter Appel,$250,McLean,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-12,Melissa Assalone,$250,Richmond,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-15,John Bennett,"$5,000",Delray Beach,FL,individual,,A,482324,2026-02-04
+contribution,2026-01-09,Joseph Canny,$250,Alexandria,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-09,Jerry Casagrande,$250,Alexandria,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-12,Clean Virginia,"$20,000",Charlottesville,VA,pac,,A,482324,2026-02-04
+contribution,2026-01-09,Michele Cumberland,$250,Alexandria,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-09,Nikki Drevich,$500,Washington,DC,individual,,A,482324,2026-02-04
+contribution,2026-01-08,Ebbin For Virginia,"$25,000",Alexandria,VA,pac,,A,482324,2026-02-04
+contribution,2026-01-08,Elect Elizabeth Bennett-Parker,$350,Alexandria,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-08,Elect Elizabeth Bennett-Parker,"$35,000",Alexandria,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-08,Friends of Price,$250,Newport News,VA,pac,,A,482324,2026-02-04
+contribution,2026-01-13,Helmer For Virginia,$250,Clifton,VA,pac,,A,482324,2026-02-04
+contribution,2026-01-08,Kelly Johnson,$250,Alexandria,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-09,David Jones,$250,Washington,DC,individual,,A,482324,2026-02-04
+contribution,2026-01-08,Ann Joyce,$200,Arlington,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-14,Katie Cristol For County Board,$500,Arlington,VA,pac,,A,482324,2026-02-04
+contribution,2026-01-12,Krizek for Delegate,"$1,000",Alexandria,VA,candidate,,A,482324,2026-02-04
+contribution,2026-01-11,David Marsden,$500,Burke,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-12,Carolyn McDonnell,"$1,000",Virginia Beach,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-08,Jeremy Mcpike,"$1,000",Woodbridge,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-11,Tram Nguyen,"$1,000",Richmond,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-10,Jennie O'Holleran,$250,Richmond,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-09,Amanda Parker Hazelwood,$250,Alexandria,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-11,Dorene Pickup,$250,Alexandria,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-09,Michael Schuster,$250,Alexandria,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-12,Southcliff Strategies,$250,Richmond,VA,pac,,A,482324,2026-02-04
+contribution,2026-01-14,The Virginia Forward PAC,"$2,000",Springfield,VA,pac,,A,482324,2026-02-04
+contribution,2026-01-12,Two Capitols Consulting,"$1,000",Richmond,VA,pac,,A,482324,2026-02-04
+contribution,2026-01-10,Virginia Beer Wholesalers,"$2,500",Richmond,VA,pac,,A,482324,2026-02-04
+contribution,2026-01-14,Virginia Petroleum And Commercial Marketers PAC,$250,Richmond,VA,pac,,A,482324,2026-02-04
+contribution,2026-01-09,Danielle Vogel,$250,Falls Church,VA,individual,,A,482324,2026-02-04
+contribution,2026-01-08,Angelia Williams Graves,"$1,500",Norfolk,VA,individual,,A,482324,2026-02-04
+contribution,2026-03-30,Capital One Services LLC,"$1,000",Reston,VA,pac,,A,494130,2026-07-10
+contribution,2026-03-30,Clean Virginia,$0.01,Charlottesville,VA,pac,,A,494130,2026-07-10
+contribution,2026-04-17,Clean Virginia,"$10,000",Charlottesville,VA,pac,,A,494130,2026-07-10
+contribution,2026-06-08,Counterspark Inc.,$500,Washington,DC,individual,,A,494130,2026-07-10
+contribution,2026-05-22,Elect Elizabeth Bennett-Parker,"$60,619.99",Alexandria,VA,individual,,A,494130,2026-07-10
+contribution,2026-06-30,Colin Harris,$250,Alexandria,VA,individual,,A,494130,2026-07-10
+contribution,2026-06-09,Virginia Automobile & Truck Dealers PAC,$500,Richmond,VA,pac,,A,494130,2026-07-10
+contribution,2026-06-09,Virginia Cable Television PAC,$500,Richmond,VA,pac,,A,494130,2026-07-10
+contribution,2026-06-09,Virginia Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,A,494130,2026-07-10
+in_kind,2026-01-29,Democratic Party Of Virginia,"$3,294.08",Richmond,VA,party,Postage,B,482324,2026-02-04
+in_kind,2026-01-29,Democratic Party Of Virginia,"$10,717",Richmond,VA,party,Mailer,B,482324,2026-02-04
+in_kind,2026-01-09,Elect Elizabeth Bennett-Parker,"$2,703",Alexandria,VA,individual,Database Access,B,482324,2026-02-04
+in_kind,2026-01-09,Elect Elizabeth Bennett-Parker,$180,Alexandria,VA,individual,Event Tickets,B,482324,2026-02-04
+in_kind,2026-01-09,Kenneth Krupicka,$600,Alexandria,VA,individual,Food And Drink,B,482324,2026-02-04
+in_kind,2026-01-09,Justin Wilson,$277.50,Alexandria,VA,individual,Food And Drink,B,482324,2026-02-04
+in_kind,2026-02-02,Democratic Party Of Virginia,"$7,823.72",Richmond,VA,party,Postage,B,483213,2026-03-11
+other_receipt,2026-02-25,Gusto,$38.52,Denver,CO,pac,REFUND,C,494130,2026-07-10
+expenditure,2026-01-11,ActBlue,$460.99,Boston,MA,pac,Transaction Fee,D,482324,2026-02-04
+expenditure,2026-01-18,ActBlue,$290.11,Boston,MA,pac,Transaction Fee,D,482324,2026-02-04
+expenditure,2026-01-11,Alexandria Democratic Committee,$360,Alexandria,VA,pac,Filing Fee,D,482324,2026-02-04
+expenditure,2026-01-29,Creative Print Group,"$1,020",Baltimore,MD,pac,Printing,D,482324,2026-02-04
+expenditure,2026-01-21,Democratic Party Of Virginia,"$10,717",Richmond,VA,party,Contribution,D,482324,2026-02-04
+expenditure,2026-01-29,Democratic Party Of Virginia,"$12,411.44",Richmond,VA,party,Contribution,D,482324,2026-02-04
+expenditure,2026-01-15,Foundation Blue Media,"$5,500",Washington,DC,pac,Video production,D,482324,2026-02-04
+expenditure,2026-01-15,Foundation Blue Media,"$15,195",Washington,DC,pac,Digital,D,482324,2026-02-04
+expenditure,2026-01-21,Gusto,$144.08,Denver,CO,pac,Payroll service,D,482324,2026-02-04
+expenditure,2026-01-21,Gusto,$716.45,Denver,CO,pac,Payroll Service,D,482324,2026-02-04
+expenditure,2026-01-29,Gusto,$821.41,Denver,CO,pac,Payroll Service,D,482324,2026-02-04
+expenditure,2026-01-29,Gusto,"$2,452.64",Denver,CO,pac,Payroll Service,D,482324,2026-02-04
+expenditure,2026-01-29,Moore Campaigns LLC,"$3,348",Washington,DC,pac,Printing,D,482324,2026-02-04
+expenditure,2026-01-29,Potomac Graphics Inc,$291.50,Alexandria,VA,pac,Printing,D,482324,2026-02-04
+expenditure,2026-01-29,RDG Impact,"$3,000",Alexandria,VA,pac,Consulting Fee,D,482324,2026-02-04
+expenditure,2026-01-29,Stones Phones,"$10,745.76",Rancho Mirage,CA,pac,Phone Calls,D,482324,2026-02-04
+expenditure,2026-01-23,Tax Bandits,$2.75,Rock Hill,SC,pac,Tax Form,D,482324,2026-02-04
+expenditure,2026-01-08,Truist,$61.74,Alexandria,VA,pac,Checkbook,D,482324,2026-02-04
+expenditure,2026-01-29,Kelsey Wright,"$2,000",Alexandria,VA,individual,Consulting Fee,D,482324,2026-02-04
+expenditure,2026-02-09,Action Network,$58.75,Washington,DC,pac,Email Service,D,483213,2026-03-11
+expenditure,2026-02-02,Google,$20.40,Mountain View,CA,pac,Gsuite,D,483213,2026-03-11
+expenditure,2026-02-02,Google,$12.98,Mountain View,CA,pac,Gsuite,D,483213,2026-03-11
+expenditure,2026-02-03,Gusto,$200,Denver,CO,pac,Payroll Service,D,483213,2026-03-11
+expenditure,2026-02-05,Switchboard,$0.01,Washington,DC,pac,ACH Setup,D,483213,2026-03-11
+expenditure,2026-02-10,Switchboard,$180.32,Washington,DC,pac,Texting,D,483213,2026-03-11
+expenditure,2026-02-03,The Blue Deal LLC,"$1,540.56",Annandale,VA,pac,Yard Signs,D,483213,2026-03-11
+expenditure,2026-02-09,United States Postal Service,$202.80,Alexandria,VA,pac,Stamps,D,483213,2026-03-11
+expenditure,2026-03-22,ActBlue,$7.90,Boston,MA,pac,Transaction Fee,D,494130,2026-07-10
+expenditure,2026-06-14,ActBlue,$19.75,Boston,MA,pac,Transaction Fee,D,494130,2026-07-10
+expenditure,2026-03-09,Action Network,$32.50,Washington,DC,pac,Email Service,D,494130,2026-07-10
+expenditure,2026-04-08,Action Network,$15,Washington,DC,pac,Email Service,D,494130,2026-07-10
+expenditure,2026-05-08,Action Network,$15,Washington,DC,pac,Email Service,D,494130,2026-07-10
+expenditure,2026-06-08,Action Network,$15,Washington,DC,pac,Email Service,D,494130,2026-07-10
+expenditure,2026-03-25,Alexandria Democratic Committee,$250,Alexandria,VA,pac,Contribution,D,494130,2026-07-10
+expenditure,2026-05-07,Alexandria Democratic Committee,$500,Alexandria,VA,pac,Event Sponsorship,D,494130,2026-07-10
+expenditure,2026-02-12,Steve Barrett,$500,Alexandria,VA,individual,Photography Services,D,494130,2026-07-10
+expenditure,2026-05-19,Favola For State Senate,$150,Arlington,VA,pac,NoVA Labor Ad,D,494130,2026-07-10
+expenditure,2026-04-23,Friends of Price,$750,Newport News,VA,pac,Campaign Contribution,D,494130,2026-07-10
+expenditure,2026-03-02,Google,$20.40,Mountain View,CA,pac,Gsuite,D,494130,2026-07-10
+expenditure,2026-03-02,Google,$12.98,Mountain View,CA,pac,Gsuite,D,494130,2026-07-10
+expenditure,2026-04-02,Google,$20.40,Mountain View,CA,pac,Gsuite,D,494130,2026-07-10
+expenditure,2026-04-02,Google,$12.98,Mountain View,CA,pac,Gsuite,D,494130,2026-07-10
+expenditure,2026-05-04,Google,$20.40,Mountain View,CA,pac,Gsuite,D,494130,2026-07-10
+expenditure,2026-05-04,Google,$12.95,Mountain View,CA,pac,Gsuite,D,494130,2026-07-10
+expenditure,2026-06-02,Google,$20.40,Mountain View,CA,pac,Gsuite,D,494130,2026-07-10
+expenditure,2026-06-02,Google,$12.89,Mountain View,CA,pac,Gsuite,D,494130,2026-07-10
+expenditure,2026-02-12,Gusto,"$2,249.04",Denver,CO,pac,Payroll Service,D,494130,2026-07-10
+expenditure,2026-03-04,Gusto,$304,Denver,CO,pac,Payroll Service,D,494130,2026-07-10
+expenditure,2026-06-10,Gusto,$726.06,Denver,CO,pac,Payroll Service,D,494130,2026-07-10
+expenditure,2026-06-11,Moore Campaigns LLC,$0.13,Washington,DC,pac,ACH Setup,D,494130,2026-07-10
+expenditure,2026-03-23,Sandy For The City,$500,Alexandria,VA,pac,Campaign Contribution,D,494130,2026-07-10
+expenditure,2026-03-09,Switchboard,$736.80,Washington,DC,pac,Texting,D,494130,2026-07-10
+expenditure,2026-06-26,Tenants And Workers United,$250,Alexandria,VA,pac,Event Sponsorship,D,494130,2026-07-10
+expenditure,2026-02-23,Truist,$174,Alexandria,VA,pac,Service Charges,D,494130,2026-07-10
+expenditure,2026-04-23,Virginia Senate Democratic Caucus,"$6,250",Richmond,VA,party,Caucus Dues,D,494130,2026-07-10
+expenditure,2026-06-26,Virginia Young Democrats,$250,Midlothian,VA,pac,Event Sponsorship,D,494130,2026-07-10

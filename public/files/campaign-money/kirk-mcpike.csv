@@ -1,0 +1,122 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$14,153.48",,VA,,"From official Schedule H, February 2026 election cycle",H,496444,2026-07-15
+summary,2026-06-30,Raised this cycle,"$99,004.46",,,,Total receipts this election cycle (Schedule H),H,496444,2026-07-15
+summary,2026-06-30,Spent this cycle,"$84,850.98",,,,Total disbursements this election cycle (Schedule H),H,496444,2026-07-15
+contribution,2026-01-24,Janet Garber,$250,Alexandria,VA,individual,,A,482264,2026-02-02
+contribution,2026-01-24,Catherine Haley,$250,Dallas,TX,individual,,A,482264,2026-02-02
+contribution,2026-01-24,Jeff Dalton,$500,McKinney,TX,individual,,A,482264,2026-02-02
+contribution,2026-01-24,Gregory Porter,$500,Kansas City,MO,individual,,A,482264,2026-02-02
+contribution,2026-01-24,Matt Angle,$250,Arlington,VA,individual,,A,482264,2026-02-02
+contribution,2026-01-24,Reginald Brown,"$5,000",Alexandria,VA,individual,,A,482264,2026-02-02
+contribution,2026-01-25,Rafael Elizalde,$250,Riverside,CA,individual,,A,482264,2026-02-02
+contribution,2026-01-26,Jennifer Roberts,$150,Sedro-Woolley,WA,individual,,A,482264,2026-02-02
+contribution,2026-01-27,Carrie Capuco,$250,Alexandria,VA,individual,,A,482264,2026-02-02
+contribution,2026-01-22,Redella Pepper,$500,Alexandria,VA,individual,,A,482264,2026-02-02
+contribution,2026-01-22,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,482264,2026-02-02
+contribution,2026-01-28,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,482264,2026-02-02
+contribution,2026-01-26,Friends of Ghazala Hashmi,$500,Richmond,VA,candidate,,A,482264,2026-02-02
+contribution,2026-01-22,Kirk for Alexandria,"$26,516.06",Alexandria,VA,candidate,,A,482264,2026-02-02
+contribution,2026-01-22,Kirk McPike,$251.27,Alexandria,VA,individual,,A,482264,2026-02-02
+contribution,2026-01-30,Brett Morrow,$150,Santa Monica,CA,individual,,A,483236,2026-03-12
+contribution,2026-02-02,Paul Berry,"$1,000",Reston,VA,individual,,A,483236,2026-03-12
+contribution,2026-02-02,Jonathan Lau,"$1,000",Alexandria,VA,individual,,A,483236,2026-03-12
+contribution,2026-02-05,Carol McPike,"$1,000",Boerne,TX,individual,,A,483236,2026-03-12
+contribution,2026-02-04,Kevin Greenlief,$500,Alexandria,VA,individual,,A,483236,2026-03-12
+contribution,2026-02-09,Charles Miller,$500,LOUISA,VA,individual,,A,483236,2026-03-12
+contribution,2026-06-29,Karl Bach,$500,Alexandria,VA,individual,,A,496444,2026-07-15
+contribution,2026-04-16,Clean Virginia Fund,$0.01,Charlottesville,VA,pac,,A,496444,2026-07-15
+contribution,2026-04-16,Clean Virginia Fund,$0.01,Charlottesville,VA,pac,,A,496444,2026-07-15
+contribution,2026-04-16,Clean Virginia Fund,$0.01,Charlottesville,VA,pac,,A,496444,2026-07-15
+contribution,2026-04-21,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,A,496444,2026-07-15
+contribution,2026-03-30,Kirk for Alexandria,"$4,555.24",Alexandria,VA,candidate,,A,496444,2026-07-15
+contribution,2026-02-12,Rob Krupicka,$250,Alexandria,VA,individual,,A,496444,2026-07-15
+contribution,2026-06-07,Daniel Roth,$500,Alexandria,VA,individual,,A,496444,2026-07-15
+contribution,2026-06-15,Greg Parks,$300,Alexandria,VA,individual,,A,496444,2026-07-15
+contribution,2026-06-17,Anh Phan,$150,Alexandria,VA,individual,,A,496444,2026-07-15
+contribution,2026-06-18,Ivy Whitlatch,$500,Alexandria,VA,individual,,A,496444,2026-07-15
+contribution,2026-06-19,Tiffeny Sanchez,"$1,000",Alexandria,VA,individual,,A,496444,2026-07-15
+contribution,2026-06-20,John Heflin,$250,Washington,DC,individual,,A,496444,2026-07-15
+contribution,2026-06-22,Justin Wilson,$250,ALEXANDRIA,VA,individual,,A,496444,2026-07-15
+contribution,2026-06-22,Timothy Lovain,$150,Alexandria,VA,individual,,A,496444,2026-07-15
+contribution,2026-06-22,Timothy Lovain,$150,Alexandria,VA,individual,,A,496444,2026-07-15
+contribution,2026-05-19,Transurban Inc,$250,Tysons,VA,pac,,A,496444,2026-07-15
+contribution,2026-06-20,Eva Hartman,"$1,000",Alexandria,VA,individual,,A,496444,2026-07-15
+in_kind,2026-01-23,Kirk for Alexandria,"$4,875",Alexandria,VA,candidate,Digital Advertising,B,482264,2026-02-02
+in_kind,2026-01-23,Kirk for Alexandria,"$9,924.83",Alexandria,VA,candidate,Paid Calls,B,482264,2026-02-02
+in_kind,2026-01-23,Kirk for Alexandria,"$1,350",Alexandria,VA,candidate,Printed Materials,B,482264,2026-02-02
+in_kind,2026-01-23,Kirk for Alexandria,"$1,009.12",Alexandria,VA,candidate,Printed Materials,B,482264,2026-02-02
+in_kind,2026-02-03,Democratic Party of Virginia,"$3,294.08",Richmond,VA,party,Mail Production / Postage,B,483236,2026-03-12
+in_kind,2026-02-04,Tricia Maher-Miller,$150,Alexandria,VA,individual,Office Supplies,B,483236,2026-03-12
+in_kind,2026-06-03,Alexandria Democratic Committee,$250,Alexandria,VA,pac,Use of Office Space,B,496444,2026-07-15
+in_kind,2026-05-27,GENTRY LOCKE,$165.64,Richmond,VA,pac,Reception Menu/Service Fee,B,496444,2026-07-15
+in_kind,2026-03-01,Kirk McPike,$56.48,Alexandria,VA,individual,February Google Workspace Subscription,B,496444,2026-07-15
+in_kind,2026-03-13,Kirk McPike,$35,Alexandria,VA,individual,PoliEngine March Internet Subscription,B,496444,2026-07-15
+in_kind,2026-04-01,Kirk McPike,$67.20,Alexandria,VA,individual,March Google Workspace Subscription,B,496444,2026-07-15
+in_kind,2026-04-13,Kirk McPike,$35,Alexandria,VA,individual,PoliEngine April Internet Subscription,B,496444,2026-07-15
+in_kind,2026-05-01,Kirk McPike,$54.56,Alexandria,VA,individual,April Google Workspace,B,496444,2026-07-15
+in_kind,2026-05-13,Kirk McPike,$35,Alexandria,VA,individual,PoliEngine May Internet Subscription,B,496444,2026-07-15
+in_kind,2026-06-01,Kirk McPike,$50.40,Alexandria,VA,individual,May Google Workspace Subcription,B,496444,2026-07-15
+in_kind,2026-06-13,Kirk McPike,$35,Alexandria,VA,individual,PoliEngine June Internet Subscription,B,496444,2026-07-15
+in_kind,2026-06-15,Kirk McPike,$261,Alexandria,VA,individual,PO Box Renewal,B,496444,2026-07-15
+in_kind,2026-06-30,Kirk McPike,$50.40,Alexandria,VA,individual,June Google Workspace Subscription,B,496444,2026-07-15
+expenditure,2026-01-23,Mailchimp,$26.50,Atlanta,GA,pac,Email Tool,D,482264,2026-02-02
+expenditure,2026-01-25,ActBlue Technical Services,$332.06,Boston,MA,pac,Service Fees,D,482264,2026-02-02
+expenditure,2026-01-29,ActBlue Technical Services,$24.71,Boston,MA,pac,Service Fees,D,482264,2026-02-02
+expenditure,2026-01-27,The Blue Deal LLC,$805.92,Fairfax,VA,pac,Campaign Signs,D,482264,2026-02-02
+expenditure,2026-01-28,Democratic Party of Virginia,"$2,000",Richmond,VA,party,Direct Mail,D,482264,2026-02-02
+expenditure,2026-01-28,Burke and Herbert Bank,$30,Alexandria,VA,pac,Wire fee,D,482264,2026-02-02
+expenditure,2026-01-29,Graduate Richmond by Hilton,$213.93,Richmond,VA,pac,Hotel Room,D,482264,2026-02-02
+expenditure,2026-01-21,Karl Bach,$19.25,Alexandria,VA,individual,Reimbursement for postage,D,482264,2026-02-02
+expenditure,2026-01-23,Kirk McPike,$35,Alexandria,VA,individual,Reimbursement for Website,D,482264,2026-02-02
+expenditure,2026-01-23,Kirk McPike,"$1,116.24",Alexandria,VA,individual,Reimbursement for Voter File,D,482264,2026-02-02
+expenditure,2026-01-23,Kirk McPike,$209.35,Alexandria,VA,individual,Reimbursement for Printing,D,482264,2026-02-02
+expenditure,2026-01-23,Kirk McPike,$76.85,Alexandria,VA,individual,Reimbursement for Printing,D,482264,2026-02-02
+expenditure,2026-02-01,ActBlue Technical Services,$40.62,Boston,MA,pac,Service Fees,D,483236,2026-03-12
+expenditure,2026-02-08,ActBlue Technical Services,$60.95,Boston,MA,pac,Service Fees,D,483236,2026-03-12
+expenditure,2026-02-04,Burke and Herbert Bank,$47.02,Alexandria,VA,pac,Checks,D,483236,2026-03-12
+expenditure,2026-02-02,Karl Bach,"$4,000",Alexandria,VA,individual,Campaign Staff,D,483236,2026-03-12
+expenditure,2026-02-10,Karl Bach,$19.24,Alexandria,VA,individual,Reimbursement for Printing,D,483236,2026-03-12
+expenditure,2026-01-30,Kirk for Alexandria,"$21,955.19",Alexandria,VA,pac,Campaign Contribution,D,483236,2026-03-12
+expenditure,2026-01-30,"The Pivot Group, Inc.","$13,112.38",Washington,DC,pac,Direct Mail,D,483236,2026-03-12
+expenditure,2026-02-02,"The Pivot Group, Inc.","$1,820",Washington,DC,pac,Campaign Literature,D,483236,2026-03-12
+expenditure,2026-03-23,Mailchimp,$26.50,Atlanta,GA,pac,Email Mail Tool,D,496444,2026-07-15
+expenditure,2026-04-23,Mailchimp,$26.50,Atlanta,GA,pac,Email Mail Tool,D,496444,2026-07-15
+expenditure,2026-02-15,ActBlue Technical Services,$30.81,Boston,MA,pac,Service Fees,D,496444,2026-07-15
+expenditure,2026-02-11,Karl Bach,$500,Alexandria,VA,individual,Campaign Salary,D,496444,2026-07-15
+expenditure,2026-03-31,Karl Bach,$500,Alexandria,VA,individual,March Campaign Staff,D,496444,2026-07-15
+expenditure,2026-04-01,Tobias Anthony,$500,McLean,VA,individual,Campaign Staff,D,496444,2026-07-15
+expenditure,2026-05-12,Tobias Anthony,$500,McLean,VA,individual,May Campaign Staff,D,496444,2026-07-15
+expenditure,2026-04-07,House Democratic Caucus,"$7,500",Richmond,VA,party,2026 VHDC Caucus Dues,D,496444,2026-07-15
+expenditure,2026-06-29,Staples,$86.49,Alexandria,VA,pac,Plastic Paper Holders + Name Tags,D,496444,2026-07-15
+expenditure,2026-06-23,Mailchimp,$26.50,Atlanta,GA,pac,Email mail tool,D,496444,2026-07-15
+expenditure,2026-06-23,Target,$73.14,Alexandria,VA,pac,Picture Frames,D,496444,2026-07-15
+expenditure,2026-06-14,ADP,$92,Roseland,NJ,pac,Debit for Taxes,D,496444,2026-07-15
+expenditure,2026-06-12,Tobias Anthony,$461.75,McLean,VA,individual,June Campaign Staff,D,496444,2026-07-15
+expenditure,2026-06-04,Shell Oil,$47.77,ARLINGTON,VA,pac,Campiagn Gasoline Expense,D,496444,2026-07-15
+expenditure,2026-06-05,"ADP, Inc",$99.41,Philadelphia,PA,pac,ADP Enhanced Payroll,D,496444,2026-07-15
+expenditure,2026-06-01,The UPS Store,$24.38,Alexandria,VA,pac,Printed Event Flyers,D,496444,2026-07-15
+expenditure,2026-05-23,Mailchimp,$26.50,Atlanta,GA,pac,Email mail tool,D,496444,2026-07-15
+expenditure,2026-05-05,Printing Company of VA,$276.66,Richmond,VA,pac,500 CAPITOL IMAGE LETTERHEAD & ENVELOPES,D,496444,2026-07-15
+expenditure,2026-03-25,Alexandria Democratic Committee,$100,Alexandria,VA,pac,Event Ticket,D,496444,2026-07-15
+expenditure,2026-04-28,Alexandria Democratic Committee,$500,Alexandria,VA,pac,Alexandria Democratic Committee Rock the Blue Dinner Tickets,D,496444,2026-07-15
+expenditure,2026-04-27,USPS,$15.60,Alexandria,VA,pac,Postage Stamps,D,496444,2026-07-15
+expenditure,2026-04-27,USPS,$31.20,Alexandria,VA,pac,Postage Stamps,D,496444,2026-07-15
+expenditure,2026-06-07,ActBlue,$19.75,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-15,ActBlue,$13.83,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-16,ActBlue,$1.98,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-17,ActBlue,$5.93,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-18,ActBlue,$19.75,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-19,ActBlue,$39.50,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-20,ActBlue,$13.25,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-22,ActBlue,$23.72,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-24,ActBlue,$3.96,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-25,ActBlue,$3.96,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-26,ActBlue,$3.95,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-28,ActBlue,$1.39,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-29,ActBlue,$20.76,Boston,MA,pac,Credit card processing fees,D,496444,2026-07-15
+expenditure,2026-06-29,Evening Star Cafe,"$1,932.18",Alexandria,VA,pac,Taco Bar + Drink Tickets,D,496444,2026-07-15
+expenditure,2026-03-30,ASAP Printing and Graphics,$323.30,Alexandria,VA,pac,Campaign Letterhead,D,496444,2026-07-15
+expenditure,2026-04-06,Scholarship Fund of Alexandria,$362.69,Alexandria,VA,pac,Scholarship Fund of Alexandria Gala Ticket,D,496444,2026-07-15
+expenditure,2026-03-12,House of Delegates,$20.85,Richmond,VA,pac,Postage,D,496444,2026-07-15
+expenditure,2026-02-11,Infocus Campaigns,"$2,951.10",Oklahoma City,OK,pac,Campaign Texting Service,D,496444,2026-07-15

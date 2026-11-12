@@ -1,0 +1,91 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$91,153.15",,VA,,"From official Schedule H, November 2027 election cycle",H,496198,2026-07-15
+summary,2026-06-30,Raised this cycle,"$116,439",,,,Total receipts this election cycle (Schedule H),H,496198,2026-07-15
+summary,2026-06-30,Spent this cycle,"$99,072.92",,,,Total disbursements this election cycle (Schedule H),H,496198,2026-07-15
+contribution,2026-01-10,Virginia Beer Wholesaler's Association PAC,"$1,000",Richmond,VA,pac,,A,496198,2026-07-15
+contribution,2026-01-10,Mr. W. Carey Crane III,"$2,000",The Plains,VA,individual,,A,496198,2026-07-15
+contribution,2026-06-11,Virginia Beverage Association PAC,"$1,500",Richmond,VA,pac,,A,496198,2026-07-15
+contribution,2026-06-11,Virginia Dental Association PAC (VADPAC),"$2,500",Henrico,VA,pac,,A,496198,2026-07-15
+contribution,2026-01-10,Mr. Benjamin S. Cooper,"$1,000",Orlean,VA,individual,,A,496198,2026-07-15
+contribution,2026-05-15,Mr. Steven W. Rodgers,$500,Warrenton,VA,individual,,A,496198,2026-07-15
+contribution,2026-01-10,Mrs. Polly L. Gault,"$1,000",Orlean,VA,individual,,A,496198,2026-07-15
+contribution,2026-01-10,Virginia Hospital and Healthcare Association PAC,"$1,000",Richmond,VA,pac,,A,496198,2026-07-15
+contribution,2026-06-26,Anheuser Busch Companies,$500,Atlanta,GA,pac,,A,496198,2026-07-15
+contribution,2026-01-12,Dominion Energy Inc. Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,496198,2026-07-15
+contribution,2026-05-29,Dominion Energy Inc. Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,496198,2026-07-15
+contribution,2026-01-10,Virginia Bankers Association State PAC,"$2,500",Glen Allen,VA,pac,,A,496198,2026-07-15
+contribution,2026-01-13,Capital One Services LLC,"$1,000",Reston,VA,pac,,A,496198,2026-07-15
+contribution,2026-01-13,NiSource Inc. PAC,$500,Columbus,OH,pac,,A,496198,2026-07-15
+contribution,2026-05-15,Ms. Mary O. Gauthier,$250,Warrenton,VA,individual,,A,496198,2026-07-15
+contribution,2026-04-26,Ms. Laura W. Van Roijen,$250,The Plains,VA,individual,,A,496198,2026-07-15
+contribution,2026-05-22,Mr. Kenneth C. Rietz,"$5,000",Delaplane,VA,individual,,A,496198,2026-07-15
+contribution,2026-05-15,Groux Investments LLC,$500,Broad Run,VA,pac,,A,496198,2026-07-15
+contribution,2026-05-15,Mr. Michael T. Hall,$500,The Plains,VA,individual,,A,496198,2026-07-15
+contribution,2026-05-15,Mr. Matthew W. Neiswanger,"$1,000",Flint Hill,VA,individual,,A,496198,2026-07-15
+contribution,2026-01-10,POM of Virginia LLC,"$10,000",Duluth,GA,pac,,A,496198,2026-07-15
+contribution,2026-05-15,Mr. Ernest M. Oare,$500,Warrenton,VA,individual,,A,496198,2026-07-15
+contribution,2026-06-11,Virginia Operators for Skill,"$5,000",Henrico,VA,pac,,A,496198,2026-07-15
+contribution,2026-05-15,Mr. Wayne L. Spellman,$500,Warrenton,VA,individual,,A,496198,2026-07-15
+contribution,2026-05-12,Commissioner of Revenue PAC,$750,Staunton,VA,pac,,A,496198,2026-07-15
+contribution,2026-05-15,Mrs. Carole L. Hemphill,$200,Warrenton,VA,individual,,A,496198,2026-07-15
+contribution,2026-01-10,Carbon Solutions Group LLC,$500,Chicago,IL,pac,,A,496198,2026-07-15
+contribution,2026-01-10,Dimension Energy LLC,$250,Atlanta,GA,pac,,A,496198,2026-07-15
+contribution,2026-01-10,Troutman Pepper Locke LLP,"$1,000",Atlanta,GA,pac,,A,496198,2026-07-15
+contribution,2026-01-10,PPE Casino Resorts Petersburg,"$2,500",Baltimore,MD,pac,,A,496198,2026-07-15
+contribution,2026-01-08,Mental Health PAC,"$1,000",Washington,DC,pac,,A,496198,2026-07-15
+contribution,2026-01-08,VSP Vision,$500,Rancho Cordova,CA,pac,,A,496198,2026-07-15
+contribution,2026-01-12,Scott Greenblatt,"$1,000",Pinehurst,NC,individual,,A,496198,2026-07-15
+contribution,2026-01-13,Rocket Mortgage LLC,"$1,000",Detroit,MI,pac,,A,496198,2026-07-15
+contribution,2026-06-11,Rocket Mortgage LLC,"$1,000",Detroit,MI,pac,,A,496198,2026-07-15
+contribution,2026-01-13,Arrow International Inc.,$500,Cleveland,OH,pac,,A,496198,2026-07-15
+contribution,2026-05-15,Mrs. Joyce Payne Fendley,$500,Casanova,VA,individual,,A,496198,2026-07-15
+contribution,2026-06-26,Virginia CRNAs Who Care About Healthcare PAC,$500,Roanoke,VA,pac,,A,496198,2026-07-15
+in_kind,2026-06-01,Republican Party of Virginia,"$13,722",Richmond,VA,party,"Printing, postage and mailing",B,496198,2026-07-15
+expenditure,2026-02-25,Fauquier County Republican Committee,$45,Warrenton,VA,pac,Donation,D,496198,2026-07-15
+expenditure,2026-03-16,Carter Hall Properties,"$1,500",Warrenton,VA,pac,District office rent,D,496198,2026-07-15
+expenditure,2026-03-26,House Republican Campaign Committee,"$15,000",Richmond,VA,party,Donation,D,496198,2026-07-15
+expenditure,2026-04-24,Treasurer of Virginia,$15,Richmond,VA,pac,House of Delegates replacement badge,D,496198,2026-07-15
+expenditure,2026-04-15,Conner Miller,"$1,250",Washington,VA,individual,Campaign work,D,496198,2026-07-15
+expenditure,2026-04-30,Conner Miller,"$1,250",Washington,VA,individual,Campaign work,D,496198,2026-07-15
+expenditure,2026-05-15,Conner Miller,"$1,250",Washington,VA,individual,Campaign work,D,496198,2026-07-15
+expenditure,2026-05-29,Conner Miller,"$1,250",Washington,VA,individual,Campaign work,D,496198,2026-07-15
+expenditure,2026-01-02,Google,$50.40,Mountain View,CA,pac,Software fees,D,496198,2026-07-15
+expenditure,2026-02-02,Google,$50.40,Mountain View,CA,pac,Software fees,D,496198,2026-07-15
+expenditure,2026-03-02,Google,$50.40,Mountain View,CA,pac,Software fees,D,496198,2026-07-15
+expenditure,2026-04-01,Google,$47.01,Mountain View,CA,pac,Software fees,D,496198,2026-07-15
+expenditure,2026-05-01,Google,$46.80,Mountain View,CA,pac,Software fees,D,496198,2026-07-15
+expenditure,2026-06-01,Google,$47.82,Mountain View,CA,pac,Software fees,D,496198,2026-07-15
+expenditure,2026-01-06,Printworks,$601.19,Lynchburg,VA,pac,Mailing,D,496198,2026-07-15
+expenditure,2026-01-12,Anedot,$40.30,Baton Rouge,LA,pac,Credit card processing fees,D,496198,2026-07-15
+expenditure,2026-03-31,Anedot,$4.30,Baton Rouge,LA,pac,Credit card processing fees,D,496198,2026-07-15
+expenditure,2026-04-30,Anedot,$18.58,Baton Rouge,LA,pac,Credit card processing fees,D,496198,2026-07-15
+expenditure,2026-05-12,Anedot,$4.60,Baton Rouge,LA,pac,Credit card processing fees,D,496198,2026-07-15
+expenditure,2026-06-11,Postmaster,$61,Warrenton,VA,pac,Postage,D,496198,2026-07-15
+expenditure,2026-06-12,Postmaster,$78,Warrenton,VA,pac,Postage,D,496198,2026-07-15
+expenditure,2026-06-11,Fauquier County Fair,"$2,000",Warrenton,VA,pac,Sponsorship,D,496198,2026-07-15
+expenditure,2026-01-14,JPM Strategies LLC,$780,Richmond,VA,pac,Consulting fees,D,496198,2026-07-15
+expenditure,2026-01-27,FP1 Strategies LLC,"$1,544.27",Arlington,VA,pac,Mailing,D,496198,2026-07-15
+expenditure,2026-03-02,FP1 Strategies LLC,"$1,534.28",Arlington,VA,pac,Mailing,D,496198,2026-07-15
+expenditure,2026-03-20,FP1 Strategies LLC,"$1,010.26",Arlington,VA,pac,Mailing,D,496198,2026-07-15
+expenditure,2026-04-15,FP1 Strategies LLC,"$1,345.78",Arlington,VA,pac,Mailing,D,496198,2026-07-15
+expenditure,2026-04-27,FP1 Strategies LLC,"$7,423.76",Arlington,VA,pac,Mailing expense,D,496198,2026-07-15
+expenditure,2026-05-19,FP1 Strategies LLC,"$1,163.11",Arlington,VA,pac,Mailing expense,D,496198,2026-07-15
+expenditure,2026-06-24,FP1 Strategies LLC,"$1,126.56",Arlington,VA,pac,Mailing expense,D,496198,2026-07-15
+expenditure,2026-02-04,Hard Shell Restaurant,$310,Richmond,VA,pac,Meeting food and beverage,D,496198,2026-07-15
+expenditure,2026-02-19,Store at Locust Hill,$30.30,The Plains,VA,pac,Travel expense,D,496198,2026-07-15
+expenditure,2026-01-02,GC Main,$840,Sheridan,WY,pac,Communications,D,496198,2026-07-15
+expenditure,2026-02-03,GC Main,$760,Sheridan,WY,pac,Communications,D,496198,2026-07-15
+expenditure,2026-03-05,GC Main,$300,Sheridan,WY,pac,Communications,D,496198,2026-07-15
+expenditure,2026-04-02,GC Main,$300,Sheridan,WY,pac,Communications,D,496198,2026-07-15
+expenditure,2026-05-05,GC Main,$300,Sheridan,WY,pac,Communications,D,496198,2026-07-15
+expenditure,2026-05-19,GC Main,$390,Sheridan,WY,pac,Communications,D,496198,2026-07-15
+expenditure,2026-03-18,Mailreach Warming,$242.40,"Paris, France",TX,pac,Mailing expense,D,496198,2026-07-15
+expenditure,2026-01-19,Sophie Motl,$300,Minneapolis,MN,individual,Session work,D,496198,2026-07-15
+expenditure,2026-01-28,Westham Tavern,$130,Richmond,VA,pac,Meeting food and beverage,D,496198,2026-07-15
+expenditure,2026-01-30,Rappahannock Restaurant,$385,Richmond,VA,pac,Meeting food and beverage,D,496198,2026-07-15
+expenditure,2026-02-26,Friends of Andrew Rice,"$40,000",Virginia Beach,VA,pac,Campaign contribution,D,496198,2026-07-15
+expenditure,2026-03-11,Acacia Midtown Restaurant,$330,Richmond,VA,pac,Meeting food and beverage,D,496198,2026-07-15
+expenditure,2026-05-22,Email Octopus,$54.54,London EC2A 4NE United Kingdom,,pac,Email services,D,496198,2026-07-15
+expenditure,2026-06-23,Email Octopus,$54.54,London EC2A 4NE United Kingdom,,pac,Email services,D,496198,2026-07-15
+expenditure,2026-06-25,Kroger,$35.32,Chester,VA,pac,Event supplies,D,496198,2026-07-15

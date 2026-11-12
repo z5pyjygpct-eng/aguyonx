@@ -1,0 +1,171 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$168,213.51",,VA,,"From official Schedule H, November 2027 election cycle",H,497426,2026-07-15
+summary,2026-06-30,Raised this cycle,"$70,485.85",,,,Total receipts this election cycle (Schedule H),H,497426,2026-07-15
+summary,2026-06-30,Spent this cycle,"$50,204.73",,,,Total disbursements this election cycle (Schedule H),H,497426,2026-07-15
+contribution,2026-04-08,Virginia Sheriffs' Association PAC,$250,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-24,Virginia Automobile and Truck Dealers PAC,$500,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-04-16,Virginia Farm Bureau AgPAC,$500,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-06,Frances Crutchfield,$500,Midlothian,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-06,Pierce Homer,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-01-09,IBEW PAC Voluntary Fund,"$1,000",Washington,DC,pac,,A,497426,2026-07-15
+contribution,2026-01-09,IBEW PAC Voluntary Fund,"$1,000",Washington,DC,pac,,A,497426,2026-07-15
+contribution,2026-05-06,IBEW PAC Voluntary Fund,"$2,000",Washington,DC,pac,,A,497426,2026-07-15
+contribution,2026-01-09,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-04-02,Thomas Williamson,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-20,Joseph Kearfott,$150,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-06,Altria Client Services Inc.,"$1,500",Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-06,McGuire Woods PAC,$500,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-06-05,HCA for Good Government,"$3,000",Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-06-14,Anheuser-Busch,"$1,000",Atlanta,GA,pac,,A,497426,2026-07-15
+contribution,2026-05-24,Transurban USA Inc.,$500,Tysons,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-11,"Virginia Petroleum, Convenience, and Grocery Association, Inc. PAC",$500,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-01-09,Truckers PAC of Virginia,$500,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-06,Truckers PAC of Virginia,$500,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-24,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-05,Charles Chen,$190,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-01-08,Commercial Development PAC,$500,Alexandria,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-06,Lucile Miller,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-05,"Capital One Services, LLC",$500,Reston,VA,pac,,A,497426,2026-07-15
+contribution,2026-01-09,Humana,$750,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-04-08,Mr. A. Lynn Ivey III,"$1,000",Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-09,J. Patterson Lawson,"$1,000",Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-06,Mr. Philip P. Burks,$200,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-02,Eugenia Redmond,$300,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-29,Thomas N. Innes,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-07,Virginia R. Edmunds,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-24,"Virginia Poultry Federation, Inc.",$250,Harrisonburg,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-03,Frederick P. Helm,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-16,Mark Emblidge,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-22,John Paul Bullock Jr.,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-05,Thomas Moffatt,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-06,Ashley Lockhart,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-03,Robert Downs,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-06,Wendy Klein,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-06,PSYCHMD PAC,$500,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-04-17,Clean Virginia Fund,"$8,500",Charlottesville,VA,pac,,A,497426,2026-07-15
+contribution,2026-04-30,David Ford,"$1,000",Washington,DC,individual,,A,497426,2026-07-15
+contribution,2026-04-15,Thomas Garner,"$1,000",Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-20,Cindi Cobbs,$200,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-27,Anne Lloyd,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-03,Philip Abraham,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-02,Robert Brian Ball,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-14,Winfield Ryan,$200,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-06,Virginia Preservation PAC,$500,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-10,Colette McEachin,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-27,Michael Schewel,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-27,Christopher Robinson Tompkins III,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-13,Robert Hetherington,$200,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-15,Jennie O'Holleran,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-04,Casper L Sigmon II,$125,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-19,Tom Smith,$200,Henrico,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-27,Catherine L Danford,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-13,Samuel W. Daniel,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-08,Priscilla Burbank,"$1,000",Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-01-13,Arrow International,"$1,000",Cleveland,OH,pac,,A,497426,2026-07-15
+contribution,2026-04-27,Tracy Kemp Stallings,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-06-25,Sentara,"$1,000",Virginia Beach,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-06,James Morris,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-01-12,Albers & Co,"$1,000",Arlington,VA,pac,,A,497426,2026-07-15
+contribution,2026-01-13,Comstock Hospitality Holdings,"$5,000",Reston,VA,pac,,A,497426,2026-07-15
+contribution,2026-05-06,Cloud HQ,"$1,000",Washington,DC,pac,,A,497426,2026-07-15
+contribution,2026-01-09,Heavy Construction Contractors Association,$500,Manassas,VA,pac,,A,497426,2026-07-15
+contribution,2026-04-27,James Price,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-06,L. Bradford Armstrong,$150,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-22,Denise Williams,$200,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-01-01,Randall Grumbine,$125,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-04,Michael Rabin,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-06,William Robins,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-01-13,Tremco,"$1,000",Beachwood,OH,pac,,A,497426,2026-07-15
+contribution,2026-05-06,The Massie Law Firm,$500,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-04-27,Eva Hardy,"$1,000",Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-28,Deborah Easter,"$1,000",Charlottesville,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-09,Kurt Engleman,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-20,James Dyke,$200,Reston,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-28,Thomas Fauquet,$200,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-06,VaOurWay,$500,Richmond,VA,pac,,A,497426,2026-07-15
+contribution,2026-04-19,Peter Broadbent,"$1,000",Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-27,Julie Weissend,$500,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-04-29,M. Alice Lynch,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-04,Farhad Aghdami,$250,Richmond,VA,individual,,A,497426,2026-07-15
+contribution,2026-05-24,Valicy,"$1,000",Greenville,NC,pac,,A,497426,2026-07-15
+contribution,2026-01-13,Organizing for VA Seniors,"$5,000",Fairfax,VA,pac,,A,497426,2026-07-15
+contribution,2026-04-24,Virginia Association of Nurse Anesthesiology,$500,Roanoke,VA,pac,,A,497426,2026-07-15
+contribution,2026-06-05,Virginia Association of Nurse Anesthesiology,$500,Roanoke,VA,pac,,A,497426,2026-07-15
+contribution,2026-06-15,Virginia Association of Nurse Anesthesiology,$500,Roanoke,VA,pac,,A,497426,2026-07-15
+other_receipt,2026-01-30,Atlantic Union Bank,$3.59,Ruther Glen,VA,pac,interest,C,497426,2026-07-15
+other_receipt,2026-02-27,Atlantic Union Bank,$3.22,Ruther Glen,VA,pac,interest,C,497426,2026-07-15
+other_receipt,2026-03-31,Atlantic Union Bank,$3.56,Ruther Glen,VA,pac,interest,C,497426,2026-07-15
+other_receipt,2026-04-30,Atlantic Union Bank,$3.35,Ruther Glen,VA,pac,interest,C,497426,2026-07-15
+other_receipt,2026-05-29,Atlantic Union Bank,$4.06,Ruther Glen,VA,pac,interest,C,497426,2026-07-15
+other_receipt,2026-06-30,Atlantic Union Bank,$4.07,Ruther Glen,VA,pac,interest,C,497426,2026-07-15
+expenditure,2026-04-16,Treasurer of Virginia,$63,Richmond,VA,pac,framing,D,497426,2026-07-15
+expenditure,2026-04-22,Treasurer of Virginia,$498,Richmond,VA,pac,office equipment,D,497426,2026-07-15
+expenditure,2026-05-06,Patricia Robinson,$525,Richmond,VA,individual,catering,D,497426,2026-07-15
+expenditure,2026-05-09,USPS,$31.20,Washington,DC,pac,postage,D,497426,2026-07-15
+expenditure,2026-05-20,USPS,$46.80,Washington,DC,pac,postage,D,497426,2026-07-15
+expenditure,2026-05-03,Ellwood Thompson's Local Market,$3.54,Richmond,VA,pac,food,D,497426,2026-07-15
+expenditure,2026-02-14,Kroger,$181.71,Richmond,VA,pac,beverages,D,497426,2026-07-15
+expenditure,2026-03-29,Kroger,$21.05,Richmond,VA,pac,beverages,D,497426,2026-07-15
+expenditure,2026-03-29,Kroger,$251.37,Richmond,VA,pac,beverages,D,497426,2026-07-15
+expenditure,2026-03-29,Kroger,$108,Richmond,VA,pac,beverages,D,497426,2026-07-15
+expenditure,2026-04-24,Kroger,$20.26,Richmond,VA,pac,food,D,497426,2026-07-15
+expenditure,2026-04-24,Kroger,$29.10,Richmond,VA,pac,food,D,497426,2026-07-15
+expenditure,2026-04-24,Kroger,$48.55,Richmond,VA,pac,food,D,497426,2026-07-15
+expenditure,2026-05-15,Betsy B. Carr,$102.22,Richmond,VA,individual,Reimbursement - internet services,D,497426,2026-07-15
+expenditure,2026-06-30,Betsy B. Carr,$31.96,Richmond,VA,individual,Reimbursement - internet services,D,497426,2026-07-15
+expenditure,2026-01-22,Mailchimp,$132,Atlanta,GA,pac,internet services,D,497426,2026-07-15
+expenditure,2026-02-22,Mailchimp,$132,Atlanta,GA,pac,internet services,D,497426,2026-07-15
+expenditure,2026-03-22,Mailchimp,$132,Atlanta,GA,pac,internet services,D,497426,2026-07-15
+expenditure,2026-04-22,Mailchimp,$148,Atlanta,GA,pac,internet services,D,497426,2026-07-15
+expenditure,2026-01-13,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,contribution,D,497426,2026-07-15
+expenditure,2026-03-09,Abbi Easter,"$2,000",North Chesterfield,VA,individual,consulting,D,497426,2026-07-15
+expenditure,2026-04-27,Abbi Easter,"$2,000",North Chesterfield,VA,individual,consulting,D,497426,2026-07-15
+expenditure,2026-05-15,Abbi Easter,"$2,000",North Chesterfield,VA,individual,consulting,D,497426,2026-07-15
+expenditure,2026-04-03,Commonwealth Victory Fund,"$1,743.09",Richmond,VA,pac,contribution,D,497426,2026-07-15
+expenditure,2026-01-11,Amazon.com,$143.99,Seattle,WA,pac,software,D,497426,2026-07-15
+expenditure,2026-04-16,Amazon.com,$57.23,Seattle,WA,pac,frames,D,497426,2026-07-15
+expenditure,2026-05-27,Amazon.com,$179.31,Seattle,WA,pac,framing,D,497426,2026-07-15
+expenditure,2026-04-02,Christopher's Runaway Gourmay,$27,Richmond,VA,pac,food,D,497426,2026-07-15
+expenditure,2026-04-10,Christopher's Runaway Gourmay,$27,Richmond,VA,pac,food,D,497426,2026-07-15
+expenditure,2026-04-21,Christopher's Runaway Gourmay,$16.50,Richmond,VA,pac,food,D,497426,2026-07-15
+expenditure,2026-04-24,Dropbox,$119.88,San Francisco,CA,pac,internet services,D,497426,2026-07-15
+expenditure,2026-05-02,Richmond Crusade for Voters,$50,Richmond,VA,pac,contribution,D,497426,2026-07-15
+expenditure,2026-05-29,USPS,$31.20,Washington,DC,pac,postage,D,497426,2026-07-15
+expenditure,2026-05-18,Virginia Department of Elections,$67.51,Richmond,VA,pac,voter lists,D,497426,2026-07-15
+expenditure,2026-06-30,ActBlue Virginia,$937.83,Somerville,MA,pac,merchant fees 1/1/26-6/30/26,D,497426,2026-07-15
+expenditure,2026-03-29,The Fresh Market,$21.05,Richmond,VA,pac,food,D,497426,2026-07-15
+expenditure,2026-05-03,The Fresh Market,$7,Richmond,VA,pac,food,D,497426,2026-07-15
+expenditure,2026-03-19,Michael's,$58.23,Richmond,VA,pac,framing,D,497426,2026-07-15
+expenditure,2026-01-01,Extra Attic,$160,Richmond,VA,pac,storage,D,497426,2026-07-15
+expenditure,2026-02-01,Extra Attic,$160,Richmond,VA,pac,storage,D,497426,2026-07-15
+expenditure,2026-03-01,Extra Attic,$160,Richmond,VA,pac,storage,D,497426,2026-07-15
+expenditure,2026-04-01,Extra Attic,$160,Richmond,VA,pac,storage,D,497426,2026-07-15
+expenditure,2026-05-01,Extra Attic,$160,Richmond,VA,pac,storage,D,497426,2026-07-15
+expenditure,2026-04-24,Publix,$86.51,Lakeland,FL,pac,food,D,497426,2026-07-15
+expenditure,2026-04-26,Publix,$27.57,Lakeland,FL,pac,food,D,497426,2026-07-15
+expenditure,2026-05-12,Atlantic Union Bank,$32.50,Ruther Glen,VA,pac,check printing,D,497426,2026-07-15
+expenditure,2026-04-25,Whole Foods Market,$20.19,Richmond,VA,pac,food,D,497426,2026-07-15
+expenditure,2026-04-01,Luke Sweeney,"$14,296.01",Richmond,VA,individual,consulting,D,497426,2026-07-15
+expenditure,2026-01-01,Google LLC,$103.03,Mountain View,CA,pac,internet services,D,497426,2026-07-15
+expenditure,2026-02-01,Google LLC,$100,Mountain View,CA,pac,internet services,D,497426,2026-07-15
+expenditure,2026-03-01,Google LLC,$115.20,Mountain View,CA,pac,internet services,D,497426,2026-07-15
+expenditure,2026-04-01,Google LLC,$128.40,Mountain View,CA,pac,internet services,D,497426,2026-07-15
+expenditure,2026-05-01,Google LLC,$128.40,Mountain View,CA,pac,internet services,D,497426,2026-07-15
+expenditure,2026-03-28,Virginia ABC,$19.99,Richmond,VA,pac,beverages,D,497426,2026-07-15
+expenditure,2026-01-01,Armenian National Committee,$15,Washington,DC,pac,contribution,D,497426,2026-07-15
+expenditure,2026-03-04,Rick's Custom Framing,$201.36,Richmond,VA,pac,framing,D,497426,2026-07-15
+expenditure,2026-06-30,"Heart of Virginia Council, Scouting America",$300,Henrico,VA,pac,sponsorship,D,497426,2026-07-15
+expenditure,2026-03-25,microsoft,$199.99,Redmond,WA,pac,software,D,497426,2026-07-15
+expenditure,2026-04-23,Fan District Association,$25,Richmond,VA,pac,contribution,D,497426,2026-07-15
+expenditure,2026-01-13,Jaime Wise,$348,Alexandria,VA,individual,consulting,D,497426,2026-07-15
+expenditure,2026-03-09,Historic West Grace Street Association,$30,Richmond,VA,pac,contribution,D,497426,2026-07-15
+expenditure,2026-03-26,"Living the Dream, inc",$100,Richmond,VA,pac,contribution,D,497426,2026-07-15
+expenditure,2026-03-27,The Next Chapter PAC,"$1,000",Richmond,VA,pac,contribution,D,497426,2026-07-15
+expenditure,2026-03-27,Arianna Angles,$25,Midlothian,VA,individual,contribution - Southampton Elementary Literacy Luau,D,497426,2026-07-15
+expenditure,2026-04-23,Madison Brown,"$2,000",Fredericksburg,VA,individual,consulting,D,497426,2026-07-15
+expenditure,2026-05-03,Madison Brown,"$2,000",Fredericksburg,VA,individual,consulting,D,497426,2026-07-15
+expenditure,2026-05-15,Madison Brown,"$2,000",Fredericksburg,VA,individual,consulting,D,497426,2026-07-15
+expenditure,2026-05-29,Madison Brown,"$2,000",Fredericksburg,VA,individual,consulting,D,497426,2026-07-15
+expenditure,2026-06-19,Madison Brown,"$2,000",Fredericksburg,VA,individual,consulting,D,497426,2026-07-15
+expenditure,2026-05-27,Anna Estes,$110,Henrico,VA,individual,parking reimbursement,D,497426,2026-07-15

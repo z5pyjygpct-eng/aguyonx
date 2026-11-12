@@ -1,0 +1,50 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$66,983.32",,VA,,"From official Schedule H, November 2027 election cycle",H,494760,2026-07-13
+summary,2026-06-30,Raised this cycle,"$3,274.87",,,,Total receipts this election cycle (Schedule H),H,494760,2026-07-13
+summary,2026-06-30,Spent this cycle,"$4,110.19",,,,Total disbursements this election cycle (Schedule H),H,494760,2026-07-13
+contribution,2026-04-24,Ms. Ann Klieves,$100,Brodnax,VA,individual,,A,494760,2026-07-13
+contribution,2026-03-31,Rob Hughes,$500,Lynchburg,VA,individual,,A,494760,2026-07-13
+contribution,2026-01-13,PPE Casino Resorts Petersburg,"$2,000",Baltimore,MD,pac,,A,494760,2026-07-13
+expenditure,2026-03-31,ANEDOT,$25.61,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-04-01,ANEDOT,$2.30,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-04-17,ANEDOT,$4.30,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-04-24,ANEDOT,$4.30,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-05-10,ANEDOT,$0.62,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-05-11,ANEDOT,$4.30,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-05-14,ANEDOT,$2.30,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-05-15,ANEDOT,$4.30,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-05-22,ANEDOT,$2.30,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-05-29,ANEDOT,$0.54,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-06-20,ANEDOT,$0.62,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-06-27,ANEDOT,$0.60,New Orleans,LA,pac,online donor fee,D,494760,2026-07-13
+expenditure,2026-02-26,Campbell County Republican Committee,$100,Rustburg,VA,pac,Donation,D,494760,2026-07-13
+expenditure,2026-02-28,Campbell County Republican Committee,$60,Rustburg,VA,pac,membership dues,D,494760,2026-07-13
+expenditure,2026-02-25,5th Congressional District Of Virginia Republican Committee,$175,Lovingston,VA,party,Donation,D,494760,2026-07-13
+expenditure,2026-01-24,Constant Contacts,$119,Waltham,MA,pac,Newsletter,D,494760,2026-07-13
+expenditure,2026-02-25,Constant Contacts,$119,Waltham,MA,pac,Newsletter,D,494760,2026-07-13
+expenditure,2026-03-25,Constant Contacts,$119,Waltham,MA,pac,Newsletter,D,494760,2026-07-13
+expenditure,2026-04-24,Constant Contacts,$119,Waltham,MA,pac,Newsletter,D,494760,2026-07-13
+expenditure,2026-05-26,Constant Contacts,$119,Waltham,MA,pac,Newsletter,D,494760,2026-07-13
+expenditure,2026-06-25,Constant Contacts,$119,Waltham,MA,pac,Newsletter,D,494760,2026-07-13
+expenditure,2026-02-16,Amazon,$104.25,Seattle,WA,pac,supplies,D,494760,2026-07-13
+expenditure,2026-06-03,Amazon,$127.38,Seattle,WA,pac,Amazon,D,494760,2026-07-13
+expenditure,2026-06-17,Proud Patriots of Smith Mountain Lake,$41.98,Moneta,VA,pac,contribution,D,494760,2026-07-13
+expenditure,2026-03-20,Walmart,$36.99,Lynchburg,VA,pac,supplies,D,494760,2026-07-13
+expenditure,2026-03-23,Walmart,$39.22,Lynchburg,VA,pac,food products,D,494760,2026-07-13
+expenditure,2026-01-02,Google Suite,$25.20,Mountain View,CA,pac,Email/web,D,494760,2026-07-13
+expenditure,2026-02-02,Google Suite,$25.20,Mountain View,CA,pac,Email/web,D,494760,2026-07-13
+expenditure,2026-03-02,Google Suite,$25.20,Mountain View,CA,pac,email/web,D,494760,2026-07-13
+expenditure,2026-04-01,Google Suite,$25.20,Mountain View,CA,pac,email/web,D,494760,2026-07-13
+expenditure,2026-05-01,Google Suite,$25.20,Mountain View,CA,pac,email/web,D,494760,2026-07-13
+expenditure,2026-06-01,Google Suite,$25.20,Mountain View,CA,pac,Email/Web,D,494760,2026-07-13
+expenditure,2026-01-27,Treasurer of Virginia,$25,Richmond,VA,pac,Office Supply,D,494760,2026-07-13
+expenditure,2026-01-28,Treasurer of Virginia,$102.30,Richmond,VA,pac,Filing Fee,D,494760,2026-07-13
+expenditure,2026-02-27,Treasurer of Virginia,$47,Richmond,VA,pac,supplies,D,494760,2026-07-13
+expenditure,2026-01-30,United States Postal Services,$36,Lynchburg,VA,pac,Office Supplies,D,494760,2026-07-13
+expenditure,2026-01-02,The UPS Store,$228,Lynchburg,VA,pac,Postal Services,D,494760,2026-07-13
+expenditure,2026-03-20,The UPS Store,$228,Lynchburg,VA,pac,box rental,D,494760,2026-07-13
+expenditure,2026-05-25,The UPS Store,$21.18,Lynchburg,VA,pac,postage,D,494760,2026-07-13
+expenditure,2026-01-27,Zehr Jodi,$800,Rustburg,VA,individual,Treasury,D,494760,2026-07-13
+expenditure,2026-03-16,House Republican Campaign Committee,"$1,000",Mechanicsville,VA,party,house campaign caucus dues,D,494760,2026-07-13
+expenditure,2026-04-04,Brookneal Volunteer Fire Department,$20.60,Brookneal,VA,pac,contribution,D,494760,2026-07-13

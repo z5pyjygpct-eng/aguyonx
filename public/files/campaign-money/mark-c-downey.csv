@@ -1,0 +1,406 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-12-31. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-12-31,Cash on hand (ending balance),$0,,VA,,"From official Schedule H, November 2025 election cycle",H,504103,2026-08-31
+summary,2026-12-31,Raised this cycle,"$8,852.67",,,,Total receipts this election cycle (Schedule H),H,504103,2026-08-31
+summary,2026-12-31,Spent this cycle,"$38,938.50",,,,Total disbursements this election cycle (Schedule H),H,504103,2026-08-31
+contribution,2025-10-24,Karol Moorman,$10,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-24,Inese Verzemnieks,$30,Westminster,CO,individual,,A,480893,2026-01-20
+contribution,2025-10-24,Donald Wells,$50,Charlottesville,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-24,WinVirginia,"$3,000",Vienna,VA,pac,,A,480893,2026-01-20
+contribution,2025-10-25,Andrew Smith,$150,Toano,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-26,Stair Calhoun,$35.71,Falls Church,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-26,Stair Calhoun,$500,Falls Church,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-26,Dianne Holland,$50,Fairfax,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-27,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-27,Margerie DuBois,$25,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-27,Greater VA Carpenters PEC,"$5,000",Ashland,VA,pac,,A,480893,2026-01-20
+contribution,2025-10-27,Reid for Delegate,"$5,000",Broadlands,VA,candidate,,A,480893,2026-01-20
+contribution,2025-10-28,Diane Feineis,$25,Virginia Beach,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-28,Sonjia Smith,"$75,000",Charlottesville,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-28,Virginia House Democratic Caucus,"$53,000",Richmond,VA,party,,A,480893,2026-01-20
+contribution,2025-10-29,Tim Dick,$500,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-29,Rachael Edwards,$100,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-29,Diane Feineis,$20,Virginia Beach,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-29,Mid-Atlantic Laborers Political Education Fund (MALPEF),"$3,000",Reston,VA,pac,,A,480893,2026-01-20
+contribution,2025-10-30,Leah Hardenbergh,$25,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-30,Lori Jacobson,$50,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-30,Joan Newman,$50,Bluemont,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-31,William Croom,$100,Clearwater,FL,individual,,A,480893,2026-01-20
+contribution,2025-10-31,Joshua Lubbers,$100,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-31,Anne Rasmussen,$100,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-10-31,Tides Advocacy Fund,"$2,500",West Hollywood,CA,pac,,A,480893,2026-01-20
+contribution,2025-11-01,David Fly,$100,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-01,Robert Margrave,$10,Arlington,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-02,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-03,Margerie DuBois,$25,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-04,Alan Kennedy,$100,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-05,Judith Faust,$20,New Orleans,LA,individual,,A,480893,2026-01-20
+contribution,2025-11-05,Jeanne Hobbs,$20,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-05,Nathan Via,$250,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-09,Gary Cusack,$100,Yorktown,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-10,Michael Hudson,$10,Blacksburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-10,Peter Kageleiry,$100,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-12,David Forrest,$25,Yorktown,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-13,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-16,Elizabeth De Falcon,$50,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-22,Christopher Hicks,$50,Newport News,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-25,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,480893,2026-01-20
+contribution,2025-11-29,Judith Faust,$15,New Orleans,LA,individual,,A,480896,2026-01-20
+contribution,2025-11-30,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-11-30,William Croom,$100,Clearwater,FL,individual,,A,480896,2026-01-20
+contribution,2025-11-30,Leah Hardenbergh,$5,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-11-30,Lori Jacobson,$50,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-01,David Fly,$100,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-02,Tom Fenn,$25,Yorktown,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-02,Richard Lesher McCluney Jr,$50,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-06,Anne Rasmussen,$100,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-07,Elizabeth Broderick,$200,Hampton,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-07,Alison Lennarz,$250,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-08,Virginia Beer Wholesalers Association Political Action Committee,$500,Richmond,VA,pac,,A,480896,2026-01-20
+contribution,2025-12-10,Steven Chisholm,$100,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-10,EMPAC,"$1,500",Richmond,VA,pac,,A,480896,2026-01-20
+contribution,2025-12-10,Tom Fenn,$100,Yorktown,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-10,Michael Hudson,$10,Blacksburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-10,KidsMD PAC,"$2,500",Richmond,VA,pac,,A,480896,2026-01-20
+contribution,2025-12-10,Ortho Pac,"$1,500",Richmond,VA,pac,,A,480896,2026-01-20
+contribution,2025-12-10,PsychMD PAC,"$1,500",Richmond,VA,pac,,A,480896,2026-01-20
+contribution,2025-12-10,VA Operators For Skill,"$1,000",Richmond,VA,pac,,A,480896,2026-01-20
+contribution,2025-12-10,VA Society of Anesthesiologists PAC,"$5,000",Richmond,VA,pac,,A,480896,2026-01-20
+contribution,2025-12-12,David Forrest,$25,Yorktown,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-15,Christine Payne,$100,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-16,John Curtis,"$1,000",Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-18,Tom Fenn,$250,Yorktown,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-19,Betty Leviner,$250,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-21,Alan Kennedy,$250,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-21,Richard Lesher McCluney Jr,$100,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-22,Christopher Hicks,$50,Newport News,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-22,Ross Mugler,$250,Hampton,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-25,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-27,David and Georgia Ann Tetrault,$200,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-29,HCA For Good Government,"$1,000",Richmond,VA,pac,,A,480896,2026-01-20
+contribution,2025-12-30,Leah Hardenbergh,$5,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-30,Betty Leviner,$250,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2025-12-30,Chris Mayer,$100,Williamsburg,VA,individual,,A,480896,2026-01-20
+contribution,2026-01-01,John McGlennon,$100,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-01-01,John McGlennon,$100,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-01-05,Beth Parziale,$250,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-01-05,David and Georgia Ann Tetrault,$100,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-01-08,Lisa Ownby,"$2,000",Toano,VA,individual,,A,495828,2026-07-14
+contribution,2026-01-09,Capital Results,$250,Richmond,VA,individual,,A,495828,2026-07-14
+contribution,2026-01-13,"Christian And Barton, LLP",$250,Richmond,VA,pac,,A,495828,2026-07-14
+contribution,2026-01-13,IBEW PAC Voluntary Fund,"$1,000",Washington,DC,pac,,A,495828,2026-07-14
+contribution,2026-01-13,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,495828,2026-07-14
+contribution,2026-01-13,Organizing for VA Seniors,"$5,000",Fairfax,VA,pac,,A,495828,2026-07-14
+contribution,2026-01-13,Realtors Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,A,495828,2026-07-14
+contribution,2026-01-13,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,pac,,A,495828,2026-07-14
+contribution,2026-03-17,William Croom,$500,Valley Village,CA,individual,,A,495828,2026-07-14
+contribution,2026-03-31,"Hunton Andrews Kurth, LLP",$500,Richmond,VA,pac,,A,495828,2026-07-14
+contribution,2026-04-04,David and Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-04-17,William Croom,$500,Valley Village,CA,individual,,A,495828,2026-07-14
+contribution,2026-04-20,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,A,495828,2026-07-14
+contribution,2026-04-21,USACS PAC,$500,Canton,OH,pac,,A,495828,2026-07-14
+contribution,2026-04-21,VA Bankers Association State PAC,$500,Glen Allen,VA,pac,,A,495828,2026-07-14
+contribution,2026-04-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-05-04,David and Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-05-08,Steven Chisholm,$50,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-05-12,ARDA - Resort Owners Coaltition PAC,"$1,000",Washington,DC,pac,,A,495828,2026-07-14
+contribution,2026-05-12,FarmDoc PAC,"$1,000",Richmond,VA,pac,,A,495828,2026-07-14
+contribution,2026-05-12,KidsMD PAC,"$2,500",Richmond,VA,pac,,A,495828,2026-07-14
+contribution,2026-05-12,Ortho Pac,"$1,500",Richmond,VA,pac,,A,495828,2026-07-14
+contribution,2026-05-12,PsychMD PAC,"$1,500",Richmond,VA,pac,,A,495828,2026-07-14
+contribution,2026-05-12,VA Society of Anesthesiologists PAC,"$1,500",Richmond,VA,pac,,A,495828,2026-07-14
+contribution,2026-05-16,barbara boardman,$250,Mclean,VA,individual,,A,495828,2026-07-14
+contribution,2026-05-17,William Croom,$500,Valley Village,CA,individual,,A,495828,2026-07-14
+contribution,2026-05-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-05-31,Anne Henry,$250,Newport News,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-01,Clean Virginia Fund,"$25,000",Charlottesville,VA,pac,,A,495828,2026-07-14
+contribution,2026-06-04,David and Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-07,Michael Levine,$500,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-07,Claire Stephens,$500,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-08,Steven Chisholm,$50,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-15,Eric Peterson,$150,Norfolk,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-17,William Croom,$500,Valley Village,CA,individual,,A,495828,2026-07-14
+contribution,2026-06-17,Christine Llewellyn,$250,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-22,Bill Roberts,$200,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-23,Anheuser Busch Companies,$500,Washington,DC,pac,,A,495828,2026-07-14
+contribution,2026-06-23,Virginia Association of Nurse Anesthetists,$500,Roanoke,VA,pac,,A,495828,2026-07-14
+contribution,2026-06-26,Anne Henry,$50,Newport News,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-28,Beth Parziale,$250,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-29,Historic Triangle Dems,"$1,000",Williamsburg,VA,pac,,A,495828,2026-07-14
+contribution,2026-06-30,David Brakman,$250,Newport News,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-30,John Hummel,$500,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-30,Stephanie Moore,$500,Williamsburg,VA,individual,,A,495828,2026-07-14
+contribution,2026-06-30,Elizabeth Wash,$500,Yorktown,VA,individual,,A,495828,2026-07-14
+contribution,2026-07-12,David Forrest,$25,Yorktown,VA,individual,,A,504103,2026-08-31
+contribution,2026-07-17,William Croom,$500,Valley Village,CA,individual,,A,504103,2026-08-31
+contribution,2026-07-17,Merck Sharp & Dohme LLC,$500,Rahway,NJ,pac,,A,504103,2026-08-31
+contribution,2026-07-17,Sentara Health Plans,$250,Virginia Beach,VA,pac,,A,504103,2026-08-31
+contribution,2026-07-17,The Doctor's Company Virginia PAC,$500,Napa,CA,pac,,A,504103,2026-08-31
+contribution,2026-07-17,Virginia Health Care Association,"$1,000",Richmond,VA,pac,,A,504103,2026-08-31
+contribution,2026-07-17,Virginia Hospital and Healthcare Assoc PAC,"$1,000",Richmond,VA,pac,,A,504103,2026-08-31
+contribution,2026-07-26,Anne Henry,$50,Newport News,VA,individual,,A,504103,2026-08-31
+contribution,2026-07-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,504103,2026-08-31
+contribution,2026-07-28,Vertex Pharmaceuticals Incorporated Political Contributions,"$1,000",Boston,MA,pac,,A,504103,2026-08-31
+contribution,2026-08-04,David and Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,504103,2026-08-31
+contribution,2026-08-05,Thomas Moul,$200,Williamsburg,VA,individual,,A,504103,2026-08-31
+contribution,2026-08-05,Elizabeth Webster,$25,Hayes,VA,individual,,A,504103,2026-08-31
+contribution,2026-08-06,Jaylan Haley,$50,Yorktown,VA,individual,,A,504103,2026-08-31
+contribution,2026-08-08,Steven Chisholm,$50,Williamsburg,VA,individual,,A,504103,2026-08-31
+contribution,2026-08-08,Christine Payne,"$1,000",Williamsburg,VA,individual,,A,504103,2026-08-31
+contribution,2026-08-12,David Forrest,$25,Yorktown,VA,individual,,A,504103,2026-08-31
+contribution,2026-08-17,William Croom,$500,Valley Village,CA,individual,,A,504103,2026-08-31
+contribution,2026-08-17,KidsMD PAC,$421.17,Richmond,VA,pac,,A,504103,2026-08-31
+contribution,2026-08-17,Virginia Radiology Political Action Committee,"$1,000",Richmond,VA,pac,,A,504103,2026-08-31
+contribution,2026-08-26,Anne Henry,$50,Newport News,VA,individual,,A,504103,2026-08-31
+contribution,2026-08-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,504103,2026-08-31
+contribution,2026-07-04,David and Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,504103,2026-08-31
+contribution,2026-07-05,Elizabeth Webster,$25,Hayes,VA,individual,,A,504103,2026-08-31
+contribution,2026-07-07,Christine Payne,$250,Williamsburg,VA,individual,,A,504103,2026-08-31
+contribution,2026-07-08,Steven Chisholm,$50,Williamsburg,VA,individual,,A,504103,2026-08-31
+in_kind,2025-10-24,Planned Parenthood Virginia PAC,"$5,616",Richmond,VA,pac,Tele-Town Hall Program,B,480893,2026-01-20
+in_kind,2025-10-24,Progress Now,"$8,000",Earlysville,VA,pac,digital advertisements,B,480893,2026-01-20
+in_kind,2025-10-24,Red Wine & Blue,$8.03,Cleveland,OH,pac,Staff Time for Organizing and GOTV,B,480893,2026-01-20
+in_kind,2025-10-27,New Virginia Majority,$893.04,Alexandria,VA,pac,Digital outreach,B,480893,2026-01-20
+in_kind,2025-10-27,Planned Parenthood Virginia PAC,"$5,715.88",Richmond,VA,pac,Paid phones program,B,480893,2026-01-20
+in_kind,2025-10-28,"American Federation of State, & Municipal Employees PAC","$2,052",Washington,DC,pac,Voter Contact,B,480893,2026-01-20
+in_kind,2025-10-28,Planned Parenthood Virginia PAC,"$3,956",Richmond,VA,pac,Mail piece production and postage,B,480893,2026-01-20
+in_kind,2025-10-29,UNITE HERE,"$7,892.12",New York,NY,pac,Local 25 salaries and benefits,B,480893,2026-01-20
+in_kind,2025-10-29,UNITE HERE,$641.27,New York,NY,pac,Local 23 salaries and benefits,B,480893,2026-01-20
+in_kind,2025-10-30,Vote Pro-Choice PAC,"$3,455.20",New York,NY,pac,Voter engagement,B,480893,2026-01-20
+in_kind,2025-10-31,Progressive Turnout Project,"$1,000",Evanston,IL,pac,Payroll disbursement,B,480893,2026-01-20
+in_kind,2025-11-04,Red Wine & Blue,$12.34,Cleveland,OH,pac,Staff Time for Organizing and GOTV,B,480893,2026-01-20
+in_kind,2025-11-04,Vote Pro-Choice PAC,"$5,830.61",New York,NY,pac,Pro-choice voter engagement,B,480893,2026-01-20
+in_kind,2025-11-05,Vote Pro-Choice PAC,"$2,420",New York,NY,pac,Pro-choice voter engagement,B,480893,2026-01-20
+in_kind,2025-11-07,Progressive Turnout Project,"$1,000",Evanston,IL,pac,Payroll disbursement,B,480893,2026-01-20
+in_kind,2025-11-12,Democratic Party of Virginia,$219.61,Richmond,VA,party,Printing,B,480893,2026-01-20
+in_kind,2025-12-05,New Virginia Majority,$893.04,Alexandria,VA,pac,Digital outreach,B,480896,2026-01-20
+in_kind,2026-06-09,Clean Virginia Fund,"$2,500",Charlottesville,VA,pac,Research,B,495828,2026-07-14
+in_kind,2026-06-25,Clean Virginia Fund,"$15,000",Charlottesville,VA,pac,Research,B,495828,2026-07-14
+expenditure,2025-10-24,GMMB,"$130,944",Washington,DC,pac,Media buying,D,480893,2026-01-20
+expenditure,2025-10-24,Wells Fargo Bank,$40,Williamsburg,VA,pac,Wire fee,D,480893,2026-01-20
+expenditure,2025-10-26,ActBlue Technical Services,$44.87,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-10-27,ActBlue Technical Services,$6.79,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-10-28,ActBlue Technical Services,$3.77,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-10-29,ActBlue Technical Services,$24.77,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-10-30,ActBlue Technical Services,$11.88,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-10-30,Dover Strategy Group,"$123,343",Dunedin,FL,pac,Digital advertising,D,480893,2026-01-20
+expenditure,2025-10-31,Canva,$50,Austin,TX,pac,Design software,D,480893,2026-01-20
+expenditure,2025-10-31,"Gusto, Inc","$2,372.19",San Francisco,CA,pac,Payroll tax,D,480893,2026-01-20
+expenditure,2025-10-31,"Gusto, Inc","$6,778.06",San Francisco,CA,pac,Payroll,D,480893,2026-01-20
+expenditure,2025-10-31,SpringHill Suites by Marriott Williamsburg,$645.71,Williamsburg,VA,pac,Travel,D,480893,2026-01-20
+expenditure,2025-10-31,Walmart,$280,Williamsburg,VA,pac,Office supplies,D,480893,2026-01-20
+expenditure,2025-11-02,ActBlue Technical Services,$20.12,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-03,ActBlue Technical Services,$8.32,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-03,"Buffer, Inc",$84,San Francisco,CA,pac,Social media tech,D,480893,2026-01-20
+expenditure,2025-11-03,Google LLC,$48.34,Mountain View,CA,pac,Tech services,D,480893,2026-01-20
+expenditure,2025-11-04,ActBlue Technical Services,$8.02,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-04,Embassy Suites by Hilton Williamsburg,$137.81,Williamsburg,VA,pac,Travel,D,480893,2026-01-20
+expenditure,2025-11-04,Fairfield by Marriott Inn & Suites Williamsburg,$230.48,Williamsburg,VA,pac,Travel,D,480893,2026-01-20
+expenditure,2025-11-04,"Gusto, Inc",$91,San Francisco,CA,pac,Payroll fee,D,480893,2026-01-20
+expenditure,2025-11-04,Sena Kozar Strategies,"$50,439.91",Washington,DC,pac,TV production & filming,D,480893,2026-01-20
+expenditure,2025-11-04,Wells Fargo Bank,$40,Williamsburg,VA,pac,Wire fee,D,480893,2026-01-20
+expenditure,2025-11-05,ActBlue Technical Services,$12.16,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-05,Panera Bread,$332.16,Williamsburg,VA,pac,Lunch for volunteers,D,480893,2026-01-20
+expenditure,2025-11-06,Flywire Global Corp,$439.80,Boston,MA,pac,Digital marketing,D,480893,2026-01-20
+expenditure,2025-11-07,"FH Strategies, LLC","$8,233.33",Albany,NY,pac,Fundraising consulting,D,480893,2026-01-20
+expenditure,2025-11-07,GDA Wins,"$2,192.40",Washington,DC,pac,Lit pieces,D,480893,2026-01-20
+expenditure,2025-11-07,Wells Fargo Bank,$25,Williamsburg,VA,pac,Wire fee,D,480893,2026-01-20
+expenditure,2025-11-09,ActBlue Technical Services,$4.76,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-10,ActBlue Technical Services,$4.35,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-11,ActBlue Technical Services,$0.20,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-12,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-13,ActBlue Technical Services,$1.24,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-14,"Gusto, Inc","$2,372.19",San Francisco,CA,pac,Payroll tax,D,480893,2026-01-20
+expenditure,2025-11-14,"Gusto, Inc","$6,778.06",San Francisco,CA,pac,Payroll,D,480893,2026-01-20
+expenditure,2025-11-16,ActBlue Technical Services,$2.18,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-18,United States Postal Service,$188,Williamsburg,VA,pac,PO Box fee,D,480893,2026-01-20
+expenditure,2025-11-19,ActBlue Technical Services,$0.79,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-19,Chanello's Pizza,$52.92,Williamsburg,VA,pac,Food for volunteers,D,480893,2026-01-20
+expenditure,2025-11-23,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-24,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-25,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-25,Virginia Employment Commission,$71.81,Richmond,VA,pac,Taxes,D,480893,2026-01-20
+expenditure,2025-11-27,ActBlue Technical Services,$2.06,Somerville,MA,pac,Credit card fee,D,480893,2026-01-20
+expenditure,2025-11-30,ActBlue Technical Services,$8.52,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-01,ActBlue Technical Services,$3.95,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-01,"Gusto, Inc","$2,372.19",San Francisco,CA,pac,Payroll tax,D,480896,2026-01-20
+expenditure,2025-12-01,"Gusto, Inc","$6,778.06",San Francisco,CA,pac,Payroll,D,480896,2026-01-20
+expenditure,2025-12-01,Virginia Department of Taxation,$207.42,Richmond,VA,pac,Taxes,D,480896,2026-01-20
+expenditure,2025-12-02,ActBlue Technical Services,$3.22,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-02,Google LLC,$32.19,Mountain View,CA,pac,Tech services,D,480896,2026-01-20
+expenditure,2025-12-02,Google LLC,$51.40,Mountain View,CA,pac,Tech services,D,480896,2026-01-20
+expenditure,2025-12-02,"Gusto, Inc",$91,San Francisco,CA,pac,Payroll fee,D,480896,2026-01-20
+expenditure,2025-12-04,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-07,ActBlue Technical Services,$24.31,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-08,ActBlue Technical Services,$0.41,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-08,Virginia Department of Taxation,$292.30,Richmond,VA,pac,Payroll tax,D,480896,2026-01-20
+expenditure,2025-12-10,ActBlue Technical Services,$10.68,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-11,ActBlue Technical Services,$2.18,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-14,ActBlue Technical Services,$1.64,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-15,ActBlue Technical Services,$5.93,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-16,ActBlue Technical Services,$39.70,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-16,"Gusto, Inc","$4,796.43",San Francisco,CA,pac,Payroll,D,480896,2026-01-20
+expenditure,2025-12-16,"Gusto, Inc","$1,662.57",San Francisco,CA,pac,Payroll,D,480896,2026-01-20
+expenditure,2025-12-17,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-18,ActBlue Technical Services,$9.88,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-21,ActBlue Technical Services,$26.48,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-22,ActBlue Technical Services,$11.86,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-25,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-28,ActBlue Technical Services,$8.38,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-29,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-29,New Partners Teleservices LLC,"$5,000",Saint Cloud,MN,pac,Phone services,D,480896,2026-01-20
+expenditure,2025-12-29,Wells Fargo Bank,$25,Williamsburg,VA,pac,Wire fee,D,480896,2026-01-20
+expenditure,2025-12-30,ActBlue Technical Services,$17.98,Somerville,MA,pac,Credit card fee,D,480896,2026-01-20
+expenditure,2025-12-30,Virginia State Corporation Committee,$25,Richmond,VA,pac,Annual registration fee,D,480896,2026-01-20
+expenditure,2025-12-31,"Gusto, Inc","$4,796.43",San Francisco,CA,pac,Payroll,D,480896,2026-01-20
+expenditure,2025-12-31,"Gusto, Inc","$1,662.57",San Francisco,CA,pac,Payroll tax,D,480896,2026-01-20
+expenditure,2026-01-01,ActBlue Technical Services,$4.94,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-01-02,Google LLC,$51.40,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-01-02,Google LLC,$49.75,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-01-04,ActBlue Technical Services,$5.19,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-01-05,ActBlue Technical Services,$26.67,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-01-05,"Gusto, Inc",$91,San Francisco,CA,pac,Payroll fee,D,495828,2026-07-14
+expenditure,2026-01-06,ActBlue Technical Services,$11.86,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-01-08,ActBlue Technical Services,$82.37,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-01-11,ActBlue Technical Services,$10.68,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-01-12,ActBlue Technical Services,$9.88,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-01-13,ActBlue Technical Services,$4.35,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-01-13,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Dues,D,495828,2026-07-14
+expenditure,2026-01-13,Wells Fargo Bank,$25,Williamsburg,VA,pac,Wire fee,D,495828,2026-07-14
+expenditure,2026-01-30,"Gusto, Inc",$327.13,San Francisco,CA,pac,Payroll Tax,D,495828,2026-07-14
+expenditure,2026-01-30,Lena Weisman,"$1,057.25",Williamsburg,VA,individual,Payroll,D,495828,2026-07-14
+expenditure,2026-02-02,Google LLC,$70.71,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-02-02,Google LLC,$43.21,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-02-03,"Gusto, Inc",$100,San Francisco,CA,pac,Payroll fee,D,495828,2026-07-14
+expenditure,2026-02-13,"Gusto, Inc",$327.11,San Francisco,CA,pac,Payroll Tax,D,495828,2026-07-14
+expenditure,2026-02-13,Publix Super Market,$28.55,Williamsburg,VA,pac,office supplies,D,495828,2026-07-14
+expenditure,2026-02-13,Sweet Tooth,$21.25,Gloucester,VA,pac,Volunteer appreciation,D,495828,2026-07-14
+expenditure,2026-02-13,TJ Maxx,$7.48,Williamsburg,VA,pac,Office supplies,D,495828,2026-07-14
+expenditure,2026-02-13,Lena Weisman,"$1,057.26",Williamsburg,VA,individual,Payroll,D,495828,2026-07-14
+expenditure,2026-02-27,"Gusto, Inc",$327.13,San Francisco,CA,pac,Payroll Tax,D,495828,2026-07-14
+expenditure,2026-02-27,Lena Weisman,"$1,057.25",Williamsburg,VA,individual,Payroll,D,495828,2026-07-14
+expenditure,2026-03-02,Google LLC,$75.60,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-03-02,Google LLC,$40.44,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-03-04,"Gusto, Inc",$100,San Francisco,CA,pac,Payroll fee,D,495828,2026-07-14
+expenditure,2026-03-17,ActBlue Technical Services,$38.11,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-03-17,"Gusto, Inc",$327.11,San Francisco,CA,pac,Payroll Tax,D,495828,2026-07-14
+expenditure,2026-03-17,Harland Clarke Checks,$103.09,High Point,NC,pac,Office supplies,D,495828,2026-07-14
+expenditure,2026-03-17,Rick's Custom Frame,$402.72,Richmond,VA,pac,Commending resolution framing,D,495828,2026-07-14
+expenditure,2026-03-17,Lena Weisman,"$1,057.26",Williamsburg,VA,individual,Payroll,D,495828,2026-07-14
+expenditure,2026-03-18,ActBlue Technical Services,$0.05,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-03-19,ActBlue Technical Services,$0.36,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-03-20,Zoom,$178.40,San Jose,CA,pac,Software,D,495828,2026-07-14
+expenditure,2026-03-22,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-03-30,ActBlue Technical Services,$0.20,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-04-01,"Gusto, Inc",$776,San Francisco,CA,pac,Payroll Tax,D,495828,2026-07-14
+expenditure,2026-04-01,Lena Weisman,"$1,989.75",Williamsburg,VA,individual,Payroll,D,495828,2026-07-14
+expenditure,2026-04-02,ActBlue Technical Services,$0.25,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-04-02,Google LLC,$40.44,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-04-02,Google LLC,$73.15,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-04-03,"Gusto, Inc",$100,San Francisco,CA,pac,Payroll fee,D,495828,2026-07-14
+expenditure,2026-04-05,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-04-08,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-04-12,ActBlue Technical Services,$1.59,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-04-13,ActBlue Technical Services,$0.25,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-04-19,ActBlue Technical Services,$20.11,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-04-27,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-04-30,ActBlue Technical Services,$0.20,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-03,ActBlue Technical Services,$0.25,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-04,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-04,"FH Strategies, LLC","$5,500",Albany,NY,pac,Fundraising Consulting,D,495828,2026-07-14
+expenditure,2026-05-04,Google LLC,$69.60,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-05-04,Google LLC,$38.87,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-05-05,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-05,"Gusto, Inc",$91,San Francisco,CA,pac,Payroll fee,D,495828,2026-07-14
+expenditure,2026-05-10,ActBlue Technical Services,$2.38,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-11,ActBlue Technical Services,$0.20,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-12,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-13,ActBlue Technical Services,$0.45,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-17,ActBlue Technical Services,$33.58,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-18,ActBlue Technical Services,$5.93,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-19,ActBlue Technical Services,$18.14,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-21,ActBlue Technical Services,$8.04,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-24,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-26,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-27,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-05-31,ActBlue Technical Services,$10.08,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-01,"Gusto, Inc","$2,307.50",San Francisco,CA,pac,Payroll Tax,D,495828,2026-07-14
+expenditure,2026-06-01,Lucas Laing,"$3,230",Northampton,MA,individual,Payroll,D,495828,2026-07-14
+expenditure,2026-06-02,ActBlue Technical Services,$0.25,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-02,Google LLC,$38.72,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-06-02,Google LLC,$63.66,Mountain View,CA,pac,Tech services,D,495828,2026-07-14
+expenditure,2026-06-02,"Gusto, Inc",$91,San Francisco,CA,pac,Payroll fee,D,495828,2026-07-14
+expenditure,2026-06-03,Lucas Anderton,"$3,000",Virginia Beach,VA,individual,Web services,D,495828,2026-07-14
+expenditure,2026-06-03,Tonianne Beals,"$1,064",Virginia Beach,VA,individual,Reimbursement,D,495828,2026-07-14
+expenditure,2026-06-04,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-07,ActBlue Technical Services,$46.42,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-08,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-11,ActBlue Technical Services,$0.20,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-14,ActBlue Technical Services,$4.94,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-15,ActBlue Technical Services,$5.93,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-17,ActBlue Technical Services,$29.63,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-17,United States Postal Service,$78,Williamsburg,VA,pac,Postage,D,495828,2026-07-14
+expenditure,2026-06-21,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-22,ActBlue Technical Services,$9.88,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-25,Treasurer of Virginia,$300,Richmond,VA,pac,Flag sets,D,495828,2026-07-14
+expenditure,2026-06-28,ActBlue Technical Services,$22.73,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-29,ActBlue Technical Services,$3.95,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-30,ActBlue Technical Services,$85.54,Somerville,MA,pac,Credit card fee,D,495828,2026-07-14
+expenditure,2026-06-30,Economy Printing,$220.52,Portsmouth,VA,pac,Printing services,D,495828,2026-07-14
+expenditure,2026-07-02,ActBlue Technical Services,$0.25,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-07-02,Google LLC,$65.24,Mountain View,CA,pac,Tech services,D,504103,2026-08-31
+expenditure,2026-07-02,Google LLC,$39.01,Mountain View,CA,pac,Tech services,D,504103,2026-08-31
+expenditure,2026-07-02,"Gusto, Inc",$82,San Francisco,CA,pac,Payroll fee,D,504103,2026-08-31
+expenditure,2026-07-05,ActBlue Technical Services,$2.97,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-07-06,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-07-07,ActBlue Technical Services,$9.88,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-07-07,Tonianne Beals,$897.15,Virginia Beach,VA,individual,Payroll,D,504103,2026-08-31
+expenditure,2026-07-07,Ella Forlin,"$1,243.75",Williamsburg,VA,individual,Payroll,D,504103,2026-08-31
+expenditure,2026-07-07,"Gusto, Inc",$627.85,San Francisco,CA,pac,Payroll Tax,D,504103,2026-08-31
+expenditure,2026-07-08,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-07-08,Meriwether Godsey,$763.82,Lynchburg,VA,pac,Food preparation,D,504103,2026-08-31
+expenditure,2026-07-12,ActBlue Technical Services,$1.59,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-07-16,Tonianne Beals,$897.15,Virginia Beach,VA,individual,Payroll,D,504103,2026-08-31
+expenditure,2026-07-16,Ella Forlin,"$1,243.75",Williamsburg,VA,individual,Payroll,D,504103,2026-08-31
+expenditure,2026-07-16,"Gusto, Inc",$627.85,San Francisco,CA,pac,Payroll tax,D,504103,2026-08-31
+expenditure,2026-07-19,ActBlue Technical Services,$20.11,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-07-21,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-07-26,ActBlue Technical Services,$2.97,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-07-27,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-07-30,ActBlue Technical Services,$0.20,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-02,ActBlue Technical Services,$0.25,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-03,Tonianne Beals,$897.15,Virginia Beach,VA,individual,Payroll,D,504103,2026-08-31
+expenditure,2026-08-03,Ella Forlin,"$1,243.75",Williamsburg,VA,individual,Payroll,D,504103,2026-08-31
+expenditure,2026-08-03,Google LLC,$72.34,Mountain View,CA,pac,Tech services,D,504103,2026-08-31
+expenditure,2026-08-03,Google LLC,$37.95,Mountain View,CA,pac,Tech services,D,504103,2026-08-31
+expenditure,2026-08-03,"Gusto, Inc",$627.85,San Francisco,CA,pac,Payroll tax,D,504103,2026-08-31
+expenditure,2026-08-04,ActBlue Technical Services,$2.97,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-04,"Gusto, Inc",$91,San Francisco,CA,pac,Payroll fee,D,504103,2026-08-31
+expenditure,2026-08-05,ActBlue Technical Services,$8.89,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-06,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-09,ActBlue Technical Services,$41.48,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-10,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-11,ActBlue Technical Services,$0.20,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-11,GoDaddy,$94.47,Tempe,AZ,pac,Web services,D,504103,2026-08-31
+expenditure,2026-08-11,GoDaddy,$23.88,Tempe,AZ,pac,Web services,D,504103,2026-08-31
+expenditure,2026-08-11,PolitiMetrics,"$2,115",Williamsburg,VA,pac,Tech services,D,504103,2026-08-31
+expenditure,2026-08-12,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-12,GoDaddy,$35.18,Tempe,AZ,pac,Web services,D,504103,2026-08-31
+expenditure,2026-08-13,Tonianne Beals,$897.15,Virginia Beach,VA,individual,Payroll,D,504103,2026-08-31
+expenditure,2026-08-13,Ella Forlin,"$1,243.75",Williamsburg,VA,individual,Payroll,D,504103,2026-08-31
+expenditure,2026-08-13,"Gusto, Inc",$627.85,San Francisco,CA,pac,Payroll tax,D,504103,2026-08-31
+expenditure,2026-08-17,ActBlue Technical Services,$19.75,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-18,Dr. Downey for Virginia,"$10,000",Williamsburg,VA,pac,Campaign contribution,D,504103,2026-08-31
+expenditure,2026-08-23,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-23,Michaels Stores,$77.36,Virginia Beach,VA,pac,Frames for commending resolution,D,504103,2026-08-31
+expenditure,2026-08-26,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-27,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-30,ActBlue Technical Services,$0.20,Somerville,MA,pac,Credit card fee,D,504103,2026-08-31
+expenditure,2026-08-31,Tonianne Beals,$458.94,Virginia Beach,VA,individual,Payroll,D,504103,2026-08-31
+expenditure,2026-08-31,Dr. Downey for Virginia,"$6,211.25",Williamsburg,VA,pac,Campaign contribution,D,504103,2026-08-31
+expenditure,2026-08-31,Ella Forlin,"$1,243.75",Williamsburg,VA,individual,Payroll,D,504103,2026-08-31
+expenditure,2026-08-31,"Gusto, Inc",$509,San Francisco,CA,pac,Payroll tax,D,504103,2026-08-31
+expenditure,2026-08-31,Printersmark Inc,"$5,817.53",Richmond,VA,pac,Printing services,D,504103,2026-08-31

@@ -1,0 +1,162 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$513,263.28",,VA,,"From official Schedule H, November 2027 election cycle",H,497108,2026-07-15
+summary,2026-06-30,Raised this cycle,"$245,851.92",,,,Total receipts this election cycle (Schedule H),H,497108,2026-07-15
+summary,2026-06-30,Spent this cycle,"$101,702.67",,,,Total disbursements this election cycle (Schedule H),H,497108,2026-07-15
+contribution,2026-06-16,Virginia Wine Wholesalers Political Action Committee,"$10,000",Richmond,VA,pac,,A,497108,2026-07-15
+contribution,2026-05-05,"Dominion Energy, Inc. PAC","$100,000",Richmond,VA,pac,,A,497108,2026-07-15
+contribution,2026-06-22,Altria Client Services,"$10,000",Richmond,VA,pac,,A,497108,2026-07-15
+contribution,2026-06-16,VA Beverage Association,"$2,000",Richmond,VA,pac,,A,497108,2026-07-15
+contribution,2026-06-22,Anheuser Busch,"$2,500",Washington,DC,pac,,A,497108,2026-07-15
+contribution,2026-06-15,HCA for Good Government,"$2,500",Nashville,TN,pac,,A,497108,2026-07-15
+contribution,2026-01-13,"7-Eleven, Inc.","$2,500",Dallas,TX,pac,,A,497108,2026-07-15
+contribution,2026-01-13,Prince William Chamber PAC,"$10,000",Manassas,VA,pac,,A,497108,2026-07-15
+contribution,2026-01-13,IBEW PAC Voluntary Fund,"$5,000",Washington,DC,pac,,A,497108,2026-07-15
+contribution,2026-01-13,Jushi,"$6,000",Boca Raton,FL,pac,,A,497108,2026-07-15
+contribution,2026-05-26,Jushi,"$5,000",Boca Raton,FL,pac,,A,497108,2026-07-15
+contribution,2026-06-16,Johnson Brothers Service Distributing,"$2,500",Lorton,VA,pac,,A,497108,2026-07-15
+contribution,2026-06-15,VA Operators for Skill,"$20,000",Richmond,VA,pac,,A,497108,2026-07-15
+contribution,2026-06-16,Virginia Dental Political Action Committee,"$5,000",Richmond,VA,pac,,A,497108,2026-07-15
+contribution,2026-06-16,"Virginia Imports, LTD.","$2,000",Springfield,VA,pac,,A,497108,2026-07-15
+contribution,2026-01-13,PPE Casino Resorts Petersburg,"$20,000",Baltimore,MD,pac,,A,497108,2026-07-15
+contribution,2026-06-22,Virginia Council of Nurse Practitioners PAC,"$1,000",Charlottesville,VA,pac,,A,497108,2026-07-15
+contribution,2026-01-09,Margaret for Virginia,"$2,400.15",Woodbridge,VA,candidate,,A,497108,2026-07-15
+contribution,2026-01-09,Margaret for Virginia,$99.85,Woodbridge,VA,candidate,,A,497108,2026-07-15
+contribution,2026-01-12,Organizing for VA Seniors,"$10,000",Fairfax,VA,pac,,A,497108,2026-07-15
+contribution,2026-05-13,Organizing for VA Seniors,"$10,000",Fairfax,VA,pac,,A,497108,2026-07-15
+contribution,2026-01-13,Robin Delmer,"$1,500",Atlanta,GA,individual,,A,497108,2026-07-15
+contribution,2026-01-13,George Strobell,"$1,500",Bradenton,FL,individual,,A,497108,2026-07-15
+contribution,2026-05-18,Friends of Garrett McGuire,"$2,500",Alexandria,VA,pac,,A,497108,2026-07-15
+contribution,2026-01-11,"Verano Holdings, LLC","$1,000",Chicago,IL,pac,,A,497108,2026-07-15
+contribution,2026-05-13,ND CH Development LLC,"$10,000",Towson,MD,pac,,A,497108,2026-07-15
+other_receipt,2026-01-24,Hilton Richmond Downtown,$572.10,Richmond,VA,pac,Refund of Purchase,C,497108,2026-07-15
+other_receipt,2026-06-18,Hilton Richmond Downtown,$53.39,Richmond,VA,pac,Refund,C,497108,2026-07-15
+other_receipt,2026-05-27,George Fazio Golf Course,$116.43,"Hilton Head Island,",SC,pac,Overcharged,C,497108,2026-07-15
+expenditure,2026-01-02,Verizon,$201.87,Richmond,VA,pac,Phones Services,D,497108,2026-07-15
+expenditure,2026-02-18,Verizon,$201.85,Richmond,VA,pac,Phone Services,D,497108,2026-07-15
+expenditure,2026-03-09,Verizon,$201.87,Richmond,VA,pac,Phone Services,D,497108,2026-07-15
+expenditure,2026-04-01,Verizon,$173.61,Richmond,VA,pac,Phones Services,D,497108,2026-07-15
+expenditure,2026-04-30,Verizon,$180.96,Richmond,VA,pac,Phones Services,D,497108,2026-07-15
+expenditure,2026-06-08,Verizon,$180.98,Richmond,VA,pac,Phone Services,D,497108,2026-07-15
+expenditure,2026-04-24,Kappa Foundation of Woodbridge,"$1,000",Woodbridge,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-01-09,Old Hickory Golf Club,$195,Prince William,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-04-17,Old Hickory Golf Club,"$1,000",Prince William,VA,pac,Fundraising Event,D,497108,2026-07-15
+expenditure,2026-05-01,Old Hickory Golf Club,$218,Prince William,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-05-14,Old Hickory Golf Club,$153,Prince William,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-04-25,Costco,$60.24,Woodbridge,VA,pac,Office Supplies,D,497108,2026-07-15
+expenditure,2026-05-09,Costco,$65.03,Woodbridge,VA,pac,Office Supplies,D,497108,2026-07-15
+expenditure,2026-05-19,Costco,$60.02,Woodbridge,VA,pac,Office Supplies,D,497108,2026-07-15
+expenditure,2026-06-02,Costco,$72.26,Woodbridge,VA,pac,Office Supplies,D,497108,2026-07-15
+expenditure,2026-02-16,George M. Hampton Foundation,$500,Dumfries,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-05-13,George M. Hampton Foundation,$600,Dumfries,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-05-07,Commonwealth Victory Fund,"$6,408.44",Richmond,VA,pac,House Democratic Caucus Retreat,D,497108,2026-07-15
+expenditure,2026-03-18,House Democratic Caucus,"$40,000",Richmond,VA,party,Caucus Dues,D,497108,2026-07-15
+expenditure,2026-01-19,Hilton Richmond Downtown,$572.10,Richmond,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-01-24,Hilton Richmond Downtown,$572.10,Richmond,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-01-26,Hilton Richmond Downtown,$182.56,Richmond,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-01-26,Hilton Richmond Downtown,$547.68,Richmond,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-02-09,Hilton Richmond Downtown,$182.56,Richmond,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-04-23,Hilton Richmond Downtown,$547.68,Richmond,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-06-11,Hilton Richmond Downtown,$182.56,Richmond,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-06-17,Hilton Richmond Downtown,$627.83,Richmond,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-06-18,Hilton Richmond Downtown,$9.04,Richmond,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-06-28,Hilton Richmond Downtown,$184.56,Richmond,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-03-24,Virginia Legislative Black Caucus,"$10,000",Hampton,VA,pac,Annual Dues,D,497108,2026-07-15
+expenditure,2026-03-29,Prince William County Democratic Committee,$500,Manassas,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-01-01,Google,$58.80,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-01-01,Google,$12.10,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-02-01,Google,$58.80,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-02-01,Google,$12.23,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-03-01,Google,$58.80,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-03-01,Google,$12.23,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-04-01,Google,$60.03,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-04-01,Google,$12.23,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-05-01,Google,$61.20,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-05-01,Google,$12.20,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-06-01,Google,$61.20,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-06-01,Google,$12.14,Mountain View,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-04-18,The UPS Store,$375.12,Dumfries,VA,pac,Mail Services,D,497108,2026-07-15
+expenditure,2026-04-08,GSUMC Flames,$600,Woodbridge,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-05-15,Arc of Greater Prince William,"$1,000",Woodbridge,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-01-27,Meriwether Godsey,$648,Lynchburg,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-02-26,Meriwether Godsey,$733.77,Lynchburg,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-02-19,Feedmore,$300,Richmond,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-02-24,Massey Cancer Center,$250,Richmond,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-06-08,Boys and Girls Club of Greater Washington,"$1,000",Washington,DC,pac,Donation,D,497108,2026-07-15
+expenditure,2026-02-11,Treasurer of Virginia,$47,Richmond,VA,pac,Office Supplies,D,497108,2026-07-15
+expenditure,2026-04-29,Treasurer of Virginia,$498.14,Richmond,VA,pac,Technology,D,497108,2026-07-15
+expenditure,2026-03-27,Sylvia Moore,"$1,500",Fredercksburg,VA,individual,Constuling Services,D,497108,2026-07-15
+expenditure,2026-06-12,Sylvia Moore,"$1,500",Fredercksburg,VA,individual,Consulting Services,D,497108,2026-07-15
+expenditure,2026-06-07,Pi Lambda Lambda,$500,Woodbridge,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-03-28,Edible Arrangements,$82.44,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-01-01,Washington Post,$14,Washington,DC,pac,News Services,D,497108,2026-07-15
+expenditure,2026-01-29,Washington Post,$14,Washington,DC,pac,News Services,D,497108,2026-07-15
+expenditure,2026-02-26,Washington Post,$14,Washington,DC,pac,News Services,D,497108,2026-07-15
+expenditure,2026-03-26,Washington Post,$14,Washington,DC,pac,News Services,D,497108,2026-07-15
+expenditure,2026-04-23,Washington Post,$14,Washington,DC,pac,News Services,D,497108,2026-07-15
+expenditure,2026-05-21,Washington Post,$14,Washington,DC,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-06-18,Washington Post,$14,Washington,DC,pac,News Services,D,497108,2026-07-15
+expenditure,2026-01-03,Go Daddy,$9.99,Scottsdale,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-02-03,Go Daddy,$9.99,Scottsdale,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-03-03,Go Daddy,$9.99,Scottsdale,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-03-04,Go Daddy,$44.38,Scottsdale,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-04-03,Go Daddy,$9.99,Scottsdale,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-05-03,Go Daddy,$9.99,Scottsdale,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-06-03,Go Daddy,$9.99,Scottsdale,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-01-05,Richmond Times Dispatch,$36.99,Richmond,VA,pac,News Services,D,497108,2026-07-15
+expenditure,2026-02-02,Richmond Times Dispatch,$36.99,Richmond,VA,pac,News Services,D,497108,2026-07-15
+expenditure,2026-03-02,Richmond Times Dispatch,$36.99,Richmond,VA,pac,News Services,D,497108,2026-07-15
+expenditure,2026-03-30,Richmond Times Dispatch,$36.99,Richmond,VA,pac,News Services,D,497108,2026-07-15
+expenditure,2026-04-27,Richmond Times Dispatch,$36.99,Richmond,VA,pac,News Services,D,497108,2026-07-15
+expenditure,2026-05-25,Richmond Times Dispatch,$36.99,Richmond,VA,pac,News Services,D,497108,2026-07-15
+expenditure,2026-06-22,Richmond Times Dispatch,$36.99,Richmond,VA,pac,News Services,D,497108,2026-07-15
+expenditure,2026-01-13,Zoom,$16.79,San Jose,CA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-02-11,Zoom,$16.79,San Jose,CA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-03-11,Zoom,$16.79,San Jose,CA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-04-11,Zoom,$16.79,San Jose,CA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-05-11,Zoom,$16.79,San Jose,CA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-06-11,Zoom,$16.79,San Jose,CA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-03-23,Colonial Parking,$37,Washington,DC,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-05-18,Siteground,$215.88,Alexandria,VA,pac,Web Services,D,497108,2026-07-15
+expenditure,2026-02-19,Ep Silon Sigma Foundation,"$2,650",Richmond,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-05-18,The Omni Homestead Resort,$32.32,Hot Springs,VA,pac,Travel and Lodging,D,497108,2026-07-15
+expenditure,2026-03-24,Nathan Dowdy,"$2,500",Henrico,VA,individual,Consulting Services,D,497108,2026-07-15
+expenditure,2026-03-02,Virginia Scope,$77,Richmond,VA,pac,News Services,D,497108,2026-07-15
+expenditure,2026-03-24,Friends of Derrick Wood,"$2,500",Dumfries,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-02-09,Luke Torian,$500,Woodbridge,VA,individual,Reimbursement,D,497108,2026-07-15
+expenditure,2026-01-10,Bistro L'Hermitage,$664.07,Woodbridge,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-06-02,Bistro L'Hermitage,$263.55,Woodbridge,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-05-22,Ivy Foundation of Great Prince William County,"$1,000",Prince William County,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-04-08,"Good Trouble Foundation, Inc.",$400,College Park,GA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-06-18,"4Imprint, Inc.","$1,519.55",Oshkosh,WI,pac,Event Material,D,497108,2026-07-15
+expenditure,2026-01-07,Chophouse 119,$572.59,Hilton Head Island,SC,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-05-25,Chophouse 119,$135.75,Hilton Head Island,SC,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-05-21,Bourbon and Fig,$152.52,Lake Ridge,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-03-26,Bar Colline,$348.57,Arlington,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-01-17,Thirst & Fifth Gastropub,$590.33,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-01-18,Thirst & Fifth Gastropub,$68.75,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-01-22,Thirst & Fifth Gastropub,$205.39,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-01-25,Thirst & Fifth Gastropub,$237,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-02-23,Thirst & Fifth Gastropub,$94.32,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-03-04,Moore Street Cafe,$76.27,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-02-28,The Hard Shell,$380.97,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-02-12,Apple Store,$62.54,Richmond,VA,pac,Office Supplies,D,497108,2026-07-15
+expenditure,2026-02-12,Apple Store,"$1,482.94",Richmond,VA,pac,Office Supplies,D,497108,2026-07-15
+expenditure,2026-02-26,Kroger,$55.83,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-02-06,Kroger,$58.92,Richmond,VA,pac,Event Materials,D,497108,2026-07-15
+expenditure,2026-02-06,Publix,$49.77,Richmond,VA,pac,Event Materials,D,497108,2026-07-15
+expenditure,2026-02-06,Publix,$34.92,Richmond,VA,pac,Event Materials,D,497108,2026-07-15
+expenditure,2026-01-11,The Tobacco Company Restaurant,$314.46,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-01-30,Africanne on Main,$92.79,Richmond,VA,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-01-13,Target,$310.13,Richmond,VA,pac,Office Supplies,D,497108,2026-07-15
+expenditure,2026-01-14,Target,$56.83,Richmond,VA,pac,Office Supplies,D,497108,2026-07-15
+expenditure,2026-02-11,Florists' Transworld Delivery,$116.58,Downers Grove,IL,pac,Flowers,D,497108,2026-07-15
+expenditure,2026-02-17,Cheryl Oppan,"$4,500",Richmond,VA,individual,Consulting Services,D,497108,2026-07-15
+expenditure,2026-01-05,Old South Golf Links,$354.93,Bluffton,SC,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-05-26,Old South Golf Links,$419.20,Bluffton,SC,pac,Fundraising Event,D,497108,2026-07-15
+expenditure,2026-03-30,Outwest Steakhouse,$202,Kernersville,NC,pac,Food and Beverage,D,497108,2026-07-15
+expenditure,2026-04-03,Arthur Hills Golf Course,$633.08,Hilton Head Island,SC,pac,Fundraising Event,D,497108,2026-07-15
+expenditure,2026-04-23,Adele McClure for Congress,$500,Washington,DC,candidate,Donation,D,497108,2026-07-15
+expenditure,2026-05-01,Guadalupe Free Clinic,"$1,000",Colonial Beach,VA,pac,Donation,D,497108,2026-07-15
+expenditure,2026-05-27,George Fazio Golf Course,$465.70,Hilton Head Island,SC,pac,Fundraising Event,D,497108,2026-07-15
+expenditure,2026-05-02,1609 Prime Cuts & Cocktails,$160,Dumfries,VA,pac,Food and Beverage,D,497108,2026-07-15

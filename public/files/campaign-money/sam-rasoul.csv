@@ -1,0 +1,165 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$36,046.65",,VA,,"From official Schedule H, November 2025 election cycle",H,494717,2026-07-13
+summary,2026-06-30,Raised this cycle,"$537,660.70",,,,Total receipts this election cycle (Schedule H),H,494717,2026-07-13
+summary,2026-06-30,Spent this cycle,"$522,111.32",,,,Total disbursements this election cycle (Schedule H),H,494717,2026-07-13
+contribution,2025-12-10,Rishi Jaitly,$109,Blacksburg,VA,individual,,A,476492,2026-01-11
+contribution,2025-12-14,Lana Wahid,"$1,000",Fincastle,VA,individual,,A,476492,2026-01-11
+contribution,2025-12-05,Michael Maxey,$250,Salem,VA,individual,,A,476492,2026-01-11
+contribution,2026-04-22,Dustin Wade,"$1,000",South Chesterfield,VA,individual,,A,494717,2026-07-13
+expenditure,2025-12-01,Roanoke City Democratic Committee,$10,Roanoke,VA,pac,Contribution,D,476492,2026-01-11
+expenditure,2025-11-28,Roanoke Times,$31.99,Roanoke,VA,pac,Fee,D,476492,2026-01-11
+expenditure,2025-12-01,Google LLC,$25.20,Mountain View,CA,pac,Fee,D,476492,2026-01-11
+expenditure,2025-11-30,Food Lion,$31,Roanoke,VA,pac,Food for event,D,476492,2026-01-11
+expenditure,2025-12-02,Campaign Deputy,$555,Louisville,KY,pac,Fee,D,476492,2026-01-11
+expenditure,2025-11-28,qasimrashid.com,$50,Garrisonville,VA,pac,Contribution,D,476492,2026-01-11
+expenditure,2025-12-17,Western Virginia Water Authority,$50.17,Roanoke,VA,pac,Water,D,476492,2026-01-11
+expenditure,2025-12-08,Sheetz,$34.86,Roanoke,VA,pac,Gas,D,476492,2026-01-11
+expenditure,2025-12-15,GoDaddy,$50.19,Scottsdale,AZ,pac,Fee,D,476492,2026-01-11
+expenditure,2025-12-16,GoDaddy,$22.19,Scottsdale,AZ,pac,Fee,D,476492,2026-01-11
+expenditure,2025-12-15,Sheetz,$30.66,Mount Jackson,VA,pac,Gas,D,476492,2026-01-11
+expenditure,2025-12-15,Canva,$12.95,Roanoke,VA,pac,Fee,D,476492,2026-01-11
+expenditure,2025-12-22,Zoom,$17.84,San Jose,CA,pac,Fee,D,476492,2026-01-11
+expenditure,2025-12-08,Appalachain Power,$70.02,Canton,OH,pac,Power,D,476492,2026-01-11
+expenditure,2025-12-01,Makala Gray,$500,Charlottesville,VA,individual,Contract services,D,476492,2026-01-11
+expenditure,2025-12-23,Makala Gray,$500,Charlottesville,VA,individual,Contract Services,D,476492,2026-01-11
+expenditure,2025-12-22,Jenny Rasoul,$400,Blue Ridge,VA,individual,Contract Services,D,476492,2026-01-11
+expenditure,2025-12-02,Dominic Harden,"$1,000",Salem,VA,individual,Contract Services,D,476492,2026-01-11
+expenditure,2025-12-24,Dominic Harden,"$1,000",Salem,VA,individual,Contract Services,D,476492,2026-01-11
+expenditure,2025-12-23,Sheetz,$29.62,Roanoke,VA,pac,Gas,D,476492,2026-01-11
+expenditure,2025-12-22,Glo Fiber,$88.18,Edinburg,VA,pac,Internet,D,476492,2026-01-11
+expenditure,2025-12-29,Roanoke Times,$31.99,Roanoke,VA,pac,Subscription fee,D,476492,2026-01-11
+expenditure,2025-12-08,Google LLC,$3.99,Mountain View,CA,pac,Fee,D,476492,2026-01-11
+expenditure,2025-12-26,Roanoke Valley Young Democrats,$10,Salem,VA,pac,Contribution,D,476492,2026-01-11
+expenditure,2025-12-31,Moxie Media,"$3,608",Seattle,WA,pac,Mail services,D,476492,2026-01-11
+expenditure,2025-12-15,Pilot Travel Center,$34.64,Raphine,VA,pac,Gas,D,476492,2026-01-11
+expenditure,2025-12-12,Sara Deen for Assembly 2026,$250,Rolling Hills Estates,CA,pac,Contribution,D,476492,2026-01-11
+expenditure,2026-01-02,Roanoke City Democratic Committee,$10,Roanoke,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-01-02,Google LLC,$25.20,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-06-22,Glo Fiber,$88.12,Edinburg,VA,pac,Internet,D,494717,2026-07-13
+expenditure,2026-06-22,Zoom,$17.84,San Jose,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-06-17,Western Virginia Water Authority,$48.20,Roanoke,VA,pac,Utilities,D,494717,2026-07-13
+expenditure,2026-06-15,Canva,$12.95,Roanoke,VA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-06-09,Appalachian Power,$100.08,Richmond,VA,pac,Power,D,494717,2026-07-13
+expenditure,2026-06-17,Virginia Young Democrats,$250,Richmond,VA,pac,Sponsorship,D,494717,2026-07-13
+expenditure,2026-06-15,Roanoke Times,$31.99,Roanoke,VA,pac,Subscription fee,D,494717,2026-07-13
+expenditure,2026-06-02,Campaign Deputy,$555,Louisville,KY,pac,Fee,D,494717,2026-07-13
+expenditure,2026-06-25,Roanoke Valley Young Democrats,$10,Salem,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-06-02,Google LLC,$25.20,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-06-09,Google LLC,$3.99,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-06-15,Campaign Deputy,$86.78,Louisville,KY,pac,Fee,D,494717,2026-07-13
+expenditure,2026-06-16,USPS,$250,Roanoke,VA,pac,PO Box Fee,D,494717,2026-07-13
+expenditure,2026-06-01,Roanoke City Democratic Committee,$10,Roanoke,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-05-29,Kroger Fuel,$51.38,Roanoke,VA,pac,Gas,D,494717,2026-07-13
+expenditure,2026-05-26,Roanoke Valley Young Democrats,$10,Salem,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-05-20,Glo Fiber,$88.20,Edinburg,VA,pac,,D,494717,2026-07-13
+expenditure,2026-05-20,Western Virginia Water Authority,$47.97,Roanoke,VA,pac,Utilities,D,494717,2026-07-13
+expenditure,2026-05-20,Zoom,$17.84,San Jose,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-05-18,Roanoke Times,$31.99,Roanoke,VA,pac,Subscription fee,D,494717,2026-07-13
+expenditure,2026-05-15,Canva,$12.95,Roanoke,VA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-05-14,Kroger Fuel,$44.83,Roanoke,VA,pac,Gas,D,494717,2026-07-13
+expenditure,2026-05-11,Appalachian Power,$120.67,Richmond,VA,pac,Power,D,494717,2026-07-13
+expenditure,2026-05-11,Hootsuite,"$1,188",New York,NY,pac,Fee,D,494717,2026-07-13
+expenditure,2026-05-11,Basil Pizza,$312.67,Roanoke,VA,pac,Food for event,D,494717,2026-07-13
+expenditure,2026-04-29,NAACP Roanoke Branch,$80,Roanoke,VA,pac,Advertisement,D,494717,2026-07-13
+expenditure,2026-04-27,Roanoke Valley Young Democrats,$10,Salem,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-04-21,Western Virginia Water Authority,$46.81,Roanoke,VA,pac,Utilities,D,494717,2026-07-13
+expenditure,2026-04-20,Roanoke Times,$31.99,Roanoke,VA,pac,Subscription fee,D,494717,2026-07-13
+expenditure,2026-04-20,Zoom,$17.84,San Jose,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-04-15,Canva,$12.95,Roanoke,VA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-01-02,Roanoke City Democratic Committee,$10,Roanoke,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-04-10,Appalachian Power,$69.74,Richmond,VA,pac,Power,D,494717,2026-07-13
+expenditure,2026-04-01,Google LLC,$25.20,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-04-01,Roanoke City Democratic Committee,$10,Roanoke,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-03-30,Rural Caucus of the Democratic Party of Virginia,$500,Floyd,VA,party,Sponsorship,D,494717,2026-07-13
+expenditure,2026-05-29,Makala Gray,"$1,000",Charlottesville,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-03-03,Makala Gray,$500,Charlottesville,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-01-08,Makala Gray,"$1,000",Charlottesville,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-01-30,Makala Gray,$500,Charlottesville,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-04-01,Makala Gray,$500,Charlottesville,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-04-29,Makala Gray,"$1,000",Charlottesville,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-06-01,Jenny Rasoul,$400,Blue Ridge,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-01-08,Jenny Rasoul,$400,Blue Ridge,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-03-20,Jenny Rasoul,$800,Blue Ridge,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-04-21,Jenny Rasoul,$400,Blue Ridge,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-05-05,Jenny Rasoul,$400,Blue Ridge,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-06-01,Elaina Corfield,$250,Roanoke,VA,individual,Contract services,D,494717,2026-07-13
+expenditure,2026-02-03,Elaina Corfield,$250,Roanoke,VA,individual,Contract services,D,494717,2026-07-13
+expenditure,2026-04-02,Elaina Corfield,$250,Roanoke,VA,individual,Contract services,D,494717,2026-07-13
+expenditure,2026-03-05,Elaina Corfield,$250,Roanoke,VA,individual,Contract services,D,494717,2026-07-13
+expenditure,2026-03-11,Appalachian Power,$102.12,Richmond,VA,pac,Power,D,494717,2026-07-13
+expenditure,2026-01-07,Appalachian Power,$108.15,Richmond,VA,pac,Power,D,494717,2026-07-13
+expenditure,2026-02-10,Appalachian Power,$108.51,Richmond,VA,pac,Power,D,494717,2026-07-13
+expenditure,2026-02-19,Western Virginia Water Authority,$48.06,Roanoke,VA,pac,Utilities,D,494717,2026-07-13
+expenditure,2026-03-18,Western Virginia Water Authority,$46.53,Roanoke,VA,pac,Utilities,D,494717,2026-07-13
+expenditure,2026-01-20,Western Virginia Water Authority,$48.78,Roanoke,VA,pac,Utilities,D,494717,2026-07-13
+expenditure,2026-02-02,Roanoke City Democratic Committee,$10,Roanoke,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-03-02,Roanoke City Democratic Committee,$10,Roanoke,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-03-24,Sheetz,$54.06,Roanoke,VA,pac,Gas,D,494717,2026-07-13
+expenditure,2026-01-05,Roanoke Tribune,$215.38,Roanoke,VA,pac,Advertisement,D,494717,2026-07-13
+expenditure,2026-04-20,Glo Fiber,$88.12,Edinburg,VA,pac,Internet,D,494717,2026-07-13
+expenditure,2026-03-20,Glo Fiber,$88.20,Edinburg,VA,pac,Internet,D,494717,2026-07-13
+expenditure,2026-01-20,Glo Fiber,$88.16,Edinburg,VA,pac,Internet,D,494717,2026-07-13
+expenditure,2026-02-20,Glo Fiber,$88.32,Edinburg,VA,pac,Internet,D,494717,2026-07-13
+expenditure,2026-02-23,Roanoke Times,$31.99,Roanoke,VA,pac,Subscription fee,D,494717,2026-07-13
+expenditure,2026-01-26,Roanoke Times,$31.99,Roanoke,VA,pac,Subscription fee,D,494717,2026-07-13
+expenditure,2026-03-23,Roanoke Times,$31.99,Roanoke,VA,pac,Subscription fee,D,494717,2026-07-13
+expenditure,2026-05-27,Roanoke Times,$150,Roanoke,VA,pac,Advertisement,D,494717,2026-07-13
+expenditure,2026-03-09,Google LLC,$3.99,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-05-08,Google LLC,$3.99,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-05-01,Google LLC,$25.20,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-04-08,Google LLC,$3.99,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-02-02,Google LLC,$25.20,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-03-02,Google LLC,$25.20,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-02-17,Google LLC,$3.99,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-01-08,Google LLC,$3.99,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-01-02,Google LLC,$25.20,Mountain View,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-05-21,Papa Johns,$50.28,Roanoke,VA,pac,Food for event,D,494717,2026-07-13
+expenditure,2026-06-29,Lisa for Coles,$100,Manassas,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-01-15,Virginia Young Democrats,$250,Richmond,VA,pac,Sponsorship,D,494717,2026-07-13
+expenditure,2026-02-25,Roanoke Valley Young Democrats,$20,Salem,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-01-26,Roanoke Valley Young Democrats,$10,Salem,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-03-25,Roanoke Valley Young Democrats,$10,Salem,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-01-22,GoDaddy,$19.99,Scottsdale,AZ,pac,Fee,D,494717,2026-07-13
+expenditure,2026-03-02,GoDaddy,$22.19,Scottsdale,AZ,pac,Fee,D,494717,2026-07-13
+expenditure,2026-05-22,Grace's Pizza,$112.69,Roanoke,VA,pac,Food for event,D,494717,2026-07-13
+expenditure,2026-03-16,Canva,$12.95,Roanoke,VA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-01-14,Canva,$12.95,Roanoke,VA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-02-17,Canva,$12.95,Roanoke,VA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-03-19,Basil Pizza,$354.86,Roanoke,VA,pac,Food for event,D,494717,2026-07-13
+expenditure,2026-03-17,BJ's Wholesale Club,$50.55,Roanoke,VA,pac,Event supplies,D,494717,2026-07-13
+expenditure,2026-01-20,BJ's Wholesale Club,$339.85,Roanoke,VA,pac,Event supplies,D,494717,2026-07-13
+expenditure,2026-03-02,BJ's Wholesale Club,$55.36,Roanoke,VA,pac,Gas,D,494717,2026-07-13
+expenditure,2026-06-25,Bethleham Bible College,$55,Roanoke,VA,pac,Event ticket,D,494717,2026-07-13
+expenditure,2026-06-16,Black Virginia News,$69,Suffolk,VA,pac,Subscription,D,494717,2026-07-13
+expenditure,2026-02-20,Zoom,$17.48,San Jose,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-03-20,Zoom,$17.84,San Jose,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-01-20,Zoom,$17.84,San Jose,CA,pac,Fee,D,494717,2026-07-13
+expenditure,2026-03-02,Campaign Deputy,$555,Louisville,KY,pac,Fee,D,494717,2026-07-13
+expenditure,2026-06-10,Ruwa for Georgia,$250,Duluth,GA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-05-15,Leisure Media,$14.95,Roanoke,VA,pac,Contract services,D,494717,2026-07-13
+expenditure,2026-05-22,Salaam Bhatti for Congress,$250,Richmond,VA,candidate,Contribution,D,494717,2026-07-13
+expenditure,2026-05-12,Sheetz 2364,$44.28,Fishersville,VA,pac,Gas,D,494717,2026-07-13
+expenditure,2026-06-01,Emilio's Famous Pizza,$60.49,Roanoke,VA,pac,Food for event,D,494717,2026-07-13
+expenditure,2026-05-05,WESTERN VIRGINIA CLUW,$240,Roanoke,VA,pac,Advertisement,D,494717,2026-07-13
+expenditure,2026-04-17,Sheetz 2750,$37.02,Christiansburg,VA,pac,Gas,D,494717,2026-07-13
+expenditure,2026-04-22,Exxon A-Plus  #14,$39.34,Richmond,VA,pac,Gas,D,494717,2026-07-13
+expenditure,2026-04-27,Empowerfund,$100,Madison,WI,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-05-26,Shatila Food Products,$723.09,Dearborn,MI,pac,Gifts,D,494717,2026-07-13
+expenditure,2026-03-30,Los Ayudantes SWVA,$50,Roanoke,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-03-30,Los Ayudantes SWVA,$50,Roanoke,VA,pac,Contribution,D,494717,2026-07-13
+expenditure,2026-05-08,Elaina Corfield,$250,Roanoke,VA,individual,Contract services,D,494717,2026-07-13
+expenditure,2026-05-27,Dominic Harden,"$1,000",Salem,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-03-04,Dominic Harden,"$1,000",Salem,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-01-07,Dominic Harden,"$1,000",Salem,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-01-30,Dominic Harden,"$2,000",Salem,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-04-02,Dominic Harden,"$1,000",Salem,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-04-14,Dominic Harden,"$1,000",Salem,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-04-30,Dominic Harden,"$1,000",Salem,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-04-30,Dominic Harden,"$1,000",Salem,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-02-17,Kamran Fareedi,"$1,175",Herndon,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-01-13,Kamran Fareedi,$600,Herndon,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-04-10,Kamran Fareedi,$855,Herndon,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-05-06,Kamran Fareedi,$870,Herndon,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-03-09,Kamran Fareedi,"$1,560",Herndon,VA,individual,Contract Services,D,494717,2026-07-13
+expenditure,2026-01-12,Griffin Shaver,$255,Roanoke,VA,individual,Contract Services,D,494717,2026-07-13

@@ -92,9 +92,10 @@ export function CampaignMoneyLookup({
         <>
           <h2 className="font-serif text-2xl font-semibold uppercase">Who is funding this campaign?</h2>
           <p className="mt-2 text-sm text-on-dark-muted">
-            Type a person, a district, or part of a committee name. You do not need the exact official title.
-            "Patrick Hope" will find "Friends of Patrick Hope." This covers sitting House and Senate members,
-            plus Board of Supervisors and school board candidates who have filed with the Virginia Department of Elections.
+            Type a person, a district, a donor, or part of a committee name. You do not need the exact official title.
+            "Patrick Hope" will find "Friends of Patrick Hope," and "Kilgore" opens our custom view of official state filings.
+            This covers sitting House and Senate members, plus Board of Supervisors and school board candidates who have filed
+            with the Virginia Department of Elections.
           </p>
         </>
       )}
@@ -195,16 +196,38 @@ export function CampaignMoneyLookup({
                           {hit.committeeCode ? ` (${hit.committeeCode})` : ""}
                         </div>
                       </div>
-                      <a
-                        href={hit.href}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-md border border-gold px-4 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-900"
-                        aria-label={`Official Virginia Department of Elections committee page for ${hit.name}`}
-                      >
-                        Official committee page
-                        <ExternalLink className="size-3" aria-hidden />
-                      </a>
+                      {hit.kind === "legislator" && hit.slug && hit.chamber ? (
+                        <div className="flex shrink-0 flex-col gap-2 sm:items-end">
+                          <Link
+                            to="/campaign-money"
+                            search={{ member: hit.slug }}
+                            className="inline-flex min-h-11 items-center justify-center rounded-md border border-gold bg-gold px-4 text-sm font-bold text-navy-900 hover:bg-white hover:border-white"
+                          >
+                            Our campaign money view
+                          </Link>
+                          <a
+                            href={hit.href}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex min-h-9 items-center justify-center gap-1 text-xs font-semibold text-gold hover:underline"
+                            aria-label={`Official Virginia Department of Elections committee page for ${hit.name}`}
+                          >
+                            Official state committee page
+                            <ExternalLink className="size-3" aria-hidden />
+                          </a>
+                        </div>
+                      ) : (
+                        <a
+                          href={hit.href}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-md border border-gold px-4 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-900"
+                          aria-label={`Official Virginia Department of Elections committee page for ${hit.name}`}
+                        >
+                          Official committee page
+                          <ExternalLink className="size-3" aria-hidden />
+                        </a>
+                      )}
                     </div>
                   </li>
                 ))}

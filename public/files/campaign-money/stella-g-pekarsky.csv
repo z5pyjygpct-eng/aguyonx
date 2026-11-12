@@ -1,0 +1,149 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$85,605.54",,VA,,"From official Schedule H, November 2023 election cycle",H,493940,2026-07-09
+summary,2026-06-30,Raised this cycle,"$189,593.99",,,,Total receipts this election cycle (Schedule H),H,493940,2026-07-09
+summary,2026-06-30,Spent this cycle,"$168,216.98",,,,Total disbursements this election cycle (Schedule H),H,493940,2026-07-09
+contribution,2025-08-27,"American Federation of State, County and Municipal Employees","$2,000",Washington,DC,pac,,A,474920,2026-01-05
+contribution,2025-09-03,American Hotel and Lodging Association Political Action Committee,"$1,000",Washington,DC,pac,,A,474920,2026-01-05
+contribution,2025-08-29,Anheuser-Busch Companies Political Action Committee,$500,Saint Louis,MO,pac,,A,474920,2026-01-05
+contribution,2025-11-11,AT&T,$500,Dallas,TX,pac,,A,474920,2026-01-05
+contribution,2025-11-11,Baltimore Washington Construction and Public Employees Laborers PAC,"$2,500",Upper Marlboro,MD,pac,,A,474920,2026-01-05
+contribution,2025-08-29,Caesars Enterprise Services LLC,"$1,000",Las Vegas,NV,pac,,A,474920,2026-01-05
+contribution,2025-10-16,"Capital One Services, LLC","$1,000",Reston,VA,pac,,A,474920,2026-01-05
+contribution,2025-09-02,Cedar Mountain Stone Corp,$250,Pine City,NY,pac,,A,474920,2026-01-05
+contribution,2025-09-02,Chemung Contracting Corp,$250,Pine City,NY,pac,,A,474920,2026-01-05
+contribution,2025-12-04,Cozen O'Connor,$500,Philadelphia,PA,pac,,A,474920,2026-01-05
+contribution,2025-11-11,"Enterprise Holdings, Inc/Emterprise Mobility Political Action Committee",$500,Saint Louis,MO,pac,,A,474920,2026-01-05
+contribution,2025-10-16,HCA for Good Government,"$1,000",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-12-31,Home Builders Association of Virginia Build PAC,"$2,000",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-10-16,Huntington Ingalls Industries,"$1,000",Newport News,VA,pac,,A,474920,2026-01-05
+contribution,2025-09-09,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-08-14,LKQ Corporation Employee Good Government Fund,$500,Washington,DC,pac,,A,474920,2026-01-05
+contribution,2025-12-04,McGuireWoods LLP,$500,Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-09-12,Northern Virginia Electric Cooperative,"$1,000",Manassas,VA,pac,,A,474920,2026-01-05
+contribution,2025-12-31,NOVA Build PAC,"$1,000",Chantilly,VA,pac,,A,474920,2026-01-05
+contribution,2025-10-01,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,474920,2026-01-05
+contribution,2025-10-16,Ortho PAC,$250,Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-09-09,Premium Distributors of VA LLC,"$1,000",Chantilly,VA,pac,,A,474920,2026-01-05
+contribution,2025-11-11,PsychMD PAC,"$1,000",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-10-16,Reworld Waste LLC,$500,Alexandria,VA,pac,,A,474920,2026-01-05
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$5,000",Portsmouth,VA,pac,,A,474920,2026-01-05
+contribution,2025-12-30,Teresa Thompson Selove,$100,Centreville,VA,individual,,A,474920,2026-01-05
+contribution,2025-09-04,Strata Solar LLC,"$1,000",Durham,NC,pac,,A,474920,2026-01-05
+contribution,2025-08-28,VA Bankers Association PAC,"$1,500",Glen Allen,VA,pac,,A,474920,2026-01-05
+contribution,2025-12-26,VA Operators for Skill,"$2,500",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-12-26,VA Psychology PAC,$500,Henrico,VA,pac,,A,474920,2026-01-05
+contribution,2025-09-12,VADPAC,"$3,500",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-12-31,Vantage Data Centers,$500,Santa Clara,CA,pac,,A,474920,2026-01-05
+contribution,2025-09-08,Virginia Automobile & Truck Dealers PAC,"$2,500",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-11-11,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-09-12,Virginia Beverage Association,$750,Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-09-25,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-11-12,Virginia CRNAs Who Care About Healthcare PAC,$750,Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-10-22,Virginia Forest Resources PAC,$250,Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-12-31,Virginia Health Care Association PAC,"$1,000",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-09-12,Virginia Hospital & Healthcare Assoc Political Action Committee,"$1,500",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-11-11,Virginia Manufactured and Modular Housing Association PAC,$500,Henrico,VA,pac,,A,474920,2026-01-05
+contribution,2025-10-01,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,A,474920,2026-01-05
+contribution,2025-08-28,Virginia Pharmacists Association PAC,$250,North Chesterfield,VA,pac,,A,474920,2026-01-05
+contribution,2025-10-06,Virginia Radiology PAC,$500,Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2025-09-22,Virginia Society of Anesthesiologists,"$1,500",Richmond,VA,pac,,A,474920,2026-01-05
+contribution,2026-06-19,Altria Client Services LLC,"$1,500",Richmond,VA,pac,,A,493940,2026-07-09
+contribution,2026-03-30,Clean Virginia,$0.01,Charlottesville,VA,pac,,A,493940,2026-07-09
+contribution,2026-04-27,Clean Virginia,"$12,500",Charlottesville,VA,pac,,A,493940,2026-07-09
+contribution,2026-01-12,Ronald Franklin,$500,Upland,CA,individual,,A,493940,2026-07-09
+contribution,2026-05-05,Loren Walter Hershey,"$1,000",Oakton,VA,individual,,A,493940,2026-07-09
+contribution,2026-03-20,Humana Inc,$750,Lexington,KY,pac,,A,493940,2026-07-09
+contribution,2026-04-27,McGuireWoods LLP,$500,Richmond,VA,pac,,A,493940,2026-07-09
+contribution,2026-04-27,Metro Virginia PAC M301,$500,Washington,DC,pac,,A,493940,2026-07-09
+contribution,2026-03-31,Denis Pelli,$250,New York,NY,individual,,A,493940,2026-07-09
+contribution,2026-06-19,Virginia CRNAs Who Care About Healthcare PAC,$500,Richmond,VA,pac,,A,493940,2026-07-09
+contribution,2026-06-19,Virginia Education Association,$500,Richmond,VA,pac,,A,493940,2026-07-09
+contribution,2026-04-27,Virginia Society of Health System Pharmacist PAC,$250,Chesapeake,VA,pac,,A,493940,2026-07-09
+contribution,2026-03-20,Walgreens Family of Companies,$500,Deerfield,IL,pac,,A,493940,2026-07-09
+contribution,2026-05-25,Williams Mullen Clark & Dobbins,$500,Richmond,VA,pac,,A,493940,2026-07-09
+other_receipt,2026-06-30,Switchboard,"$2,295.98",Washington,DC,pac,Refund of overpayment,C,493940,2026-07-09
+expenditure,2025-07-02,Google,$23.76,Mountain View,CA,pac,Software,D,474920,2026-01-05
+expenditure,2025-08-04,Google,$26.77,Mountain View,CA,pac,Software,D,474920,2026-01-05
+expenditure,2025-08-19,Spanberger for Governor,"$1,000",Glen Allen,VA,pac,Contribution,D,474920,2026-01-05
+expenditure,2025-09-01,VA Senate Democratic Caucus,"$5,000",Richmond,VA,party,Caucus dues,D,474920,2026-01-05
+expenditure,2025-09-02,Google,$27.60,Mountain View,CA,pac,Software,D,474920,2026-01-05
+expenditure,2025-09-10,Moon for Braddock District,$500,Fairfax,VA,pac,Contribution,D,474920,2026-01-05
+expenditure,2025-09-10,Sabrina Mattin for Braddock Supervisor,$500,Fairfax,VA,pac,Contribution,D,474920,2026-01-05
+expenditure,2025-09-21,Friends of JJ Singh,$200,Ashburn,VA,pac,Contribution,D,474920,2026-01-05
+expenditure,2025-10-02,Google,$24.56,Mountain View,CA,pac,Software,D,474920,2026-01-05
+expenditure,2025-10-03,NGP VAN,$400,Washington,DC,pac,Campaign database,D,474920,2026-01-05
+expenditure,2025-10-15,Town of Clifton,$250,Clifton,VA,pac,Event sponsor,D,474920,2026-01-05
+expenditure,2025-10-15,VA House Democratic Caucus,"$2,500",Richmond,VA,party,Contribution,D,474920,2026-01-05
+expenditure,2025-10-17,Meriwether's Capitol Cafe,$413.21,Richmond,VA,pac,Meals for event,D,474920,2026-01-05
+expenditure,2025-10-17,Meriwether's Capitol Cafe,$395.25,Richmond,VA,pac,Meals for event,D,474920,2026-01-05
+expenditure,2025-10-31,Virginia Department of Taxation,$88.42,Richmond,VA,pac,Payroll taxes,D,474920,2026-01-05
+expenditure,2025-11-02,ActBlue Technical Services,$1.98,Somerville,MA,pac,Donation collection fee,D,474920,2026-01-05
+expenditure,2025-11-03,Google,$15.60,Mountain View,CA,pac,Software,D,474920,2026-01-05
+expenditure,2025-11-06,NGP VAN,$400,Washington,DC,pac,Campaign database,D,474920,2026-01-05
+expenditure,2025-11-10,Virginia Blue Star Printing,$755.90,Fairlawn,VA,pac,Printing,D,474920,2026-01-05
+expenditure,2025-12-02,Google,$15.60,Mountain View,CA,pac,Software,D,474920,2026-01-05
+expenditure,2025-12-14,ActBlue Technical Services,$1.39,Somerville,MA,pac,Donation collection fee,D,474920,2026-01-05
+expenditure,2025-12-21,ActBlue Technical Services,$1.98,Somerville,MA,pac,Donation collection fee,D,474920,2026-01-05
+expenditure,2025-12-22,NGP VAN,$400,Washington,DC,pac,Campaign database,D,474920,2026-01-05
+expenditure,2025-12-23,VA Senate Democratic Caucus,"$6,250",Richmond,VA,party,Caucus dues,D,474920,2026-01-05
+expenditure,2025-12-23,VA Senate Democratic Caucus,$500,Richmond,VA,party,2026 Session meals,D,474920,2026-01-05
+expenditure,2025-12-26,NGP VAN,$400,Washington,DC,pac,Campaign database,D,474920,2026-01-05
+expenditure,2025-12-31,ActBlue Technical Services,$54.61,Somerville,MA,pac,Donation collection fee,D,474920,2026-01-05
+expenditure,2026-01-02,Google,$15.60,Mountain View,CA,pac,Software,D,493940,2026-07-09
+expenditure,2026-01-04,ActBlue Technical Services,$0.12,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-01-06,Switchboard,$689.44,Washington,DC,pac,Texting platform,D,493940,2026-07-09
+expenditure,2026-01-11,ActBlue Technical Services,$0.40,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-01-18,ActBlue Technical Services,$245.54,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-01-20,State Navigate,$250,Little Rock,AR,pac,Event sponsorship,D,493940,2026-07-09
+expenditure,2026-02-02,Delta Hotels - Richmond,"$3,286.08",Richmond,VA,pac,Lodging for student event,D,493940,2026-07-09
+expenditure,2026-02-02,Google,$15.60,Mountain View,CA,pac,Software,D,493940,2026-07-09
+expenditure,2026-02-02,Meriwether's Capitol Cafe,$589.92,Richmond,VA,pac,Meals for event,D,493940,2026-07-09
+expenditure,2026-02-02,Meriwether's Capitol Cafe,$589.92,Richmond,VA,pac,Meals for event,D,493940,2026-07-09
+expenditure,2026-02-02,NGP VAN,$400,Washington,DC,pac,Campaign database,D,493940,2026-07-09
+expenditure,2026-02-09,All About Challenge Coins,$344.50,Winter Park,FL,pac,campaign materials,D,493940,2026-07-09
+expenditure,2026-02-10,Owen Kathcart,"$1,000",Washington,DC,individual,Housing stipend,D,493940,2026-07-09
+expenditure,2026-02-19,VCU Massey Cancer Center,$250,Richmond,VA,pac,Contribution,D,493940,2026-07-09
+expenditure,2026-02-23,Andrea Mariscal,$500,Centreville,VA,individual,Internship stipend,D,493940,2026-07-09
+expenditure,2026-02-25,Chicano's Cocina Bar & Grill,$436.91,Richmond,VA,pac,Food for youth program,D,493940,2026-07-09
+expenditure,2026-02-25,Dunkin Donuts - Richmond,$115.42,Richmond,VA,pac,Food for youth program,D,493940,2026-07-09
+expenditure,2026-02-25,Marco's Pizza,$175.59,Richmond,VA,pac,Food for youth program,D,493940,2026-07-09
+expenditure,2026-02-25,Media Press,"$1,099.38",Chantilly,VA,pac,Campaign supplies,D,493940,2026-07-09
+expenditure,2026-02-25,Meriwether's Capitol Cafe,$261.55,Richmond,VA,pac,Food for youth program,D,493940,2026-07-09
+expenditure,2026-03-02,Google,$15.60,Mountain View,CA,pac,Software,D,493940,2026-07-09
+expenditure,2026-03-02,NGP VAN,$400,Washington,DC,pac,Campaign database,D,493940,2026-07-09
+expenditure,2026-03-05,NGP VAN,$400,Washington,DC,pac,Campaign database,D,493940,2026-07-09
+expenditure,2026-03-11,LW Transportation Services,"$2,080",Fredericksburg,VA,pac,Transportation for student event,D,493940,2026-07-09
+expenditure,2026-03-12,Wix.com,$48,New York,NY,pac,Website,D,493940,2026-07-09
+expenditure,2026-03-29,Helmer for Congress,"$1,000",Clifton,VA,candidate,Contribution,D,493940,2026-07-09
+expenditure,2026-03-31,ActBlue Technical Services,$26.76,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-04-02,Google,$15.60,Mountain View,CA,pac,Software,D,493940,2026-07-09
+expenditure,2026-04-05,ActBlue Technical Services,$4.48,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-04-06,NGP VAN,$400,Washington,DC,pac,Campaign database,D,493940,2026-07-09
+expenditure,2026-04-07,Switchboard,"$2,364.86",Washington,DC,pac,Texting platform,D,493940,2026-07-09
+expenditure,2026-04-07,Web Hosting Hub,$38.99,Virginia Beach,VA,pac,Web hosting,D,493940,2026-07-09
+expenditure,2026-04-08,Wix.com,$24,New York,NY,pac,Website,D,493940,2026-07-09
+expenditure,2026-04-10,Pantograph Labs,"$2,890.14",Woodside,NY,pac,Advertising,D,493940,2026-07-09
+expenditure,2026-04-12,ActBlue Technical Services,$1.59,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-04-21,Web Hosting Hub,$134.88,Virginia Beach,VA,pac,Web hosting,D,493940,2026-07-09
+expenditure,2026-04-29,Fairfax County Democratic Committee,$500,Fairfax,VA,pac,Event sponsorship,D,493940,2026-07-09
+expenditure,2026-04-29,Fairfax County Democratic Committee,$600,Fairfax,VA,pac,Event sponsorship,D,493940,2026-07-09
+expenditure,2026-04-30,Fairfax County Democratic Committee,$250,Fairfax,VA,pac,Event sponsorship,D,493940,2026-07-09
+expenditure,2026-05-03,ActBlue Technical Services,$1.80,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-05-04,Google,$15.60,Mountain View,CA,pac,Software,D,493940,2026-07-09
+expenditure,2026-05-05,NOVA Labor Federation,$500,Annandale,VA,pac,Event program ad,D,493940,2026-07-09
+expenditure,2026-05-08,Wix.com,$24,New York,NY,pac,Website,D,493940,2026-07-09
+expenditure,2026-05-10,ActBlue Technical Services,$39.70,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-05-11,NGP VAN,$400,Washington,DC,pac,Campaign database,D,493940,2026-07-09
+expenditure,2026-05-11,Web Hosting Hub,$38.99,Virginia Beach,VA,pac,Web hosting,D,493940,2026-07-09
+expenditure,2026-05-17,ActBlue Technical Services,$0.60,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-05-17,CAPAVA,$250,Fairfax,VA,pac,Event sponsorship,D,493940,2026-07-09
+expenditure,2026-05-22,Deluxe Corporation,$143.63,Minneapolis,MN,pac,Checks,D,493940,2026-07-09
+expenditure,2026-05-31,ActBlue Technical Services,$1,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-06-02,Google,$15.60,Mountain View,CA,pac,Software,D,493940,2026-07-09
+expenditure,2026-06-05,NGP VAN,$400,Washington,DC,pac,Campaign database,D,493940,2026-07-09
+expenditure,2026-06-08,Wix.com,$24,New York,NY,pac,Website,D,493940,2026-07-09
+expenditure,2026-06-14,ActBlue Technical Services,$0.60,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09
+expenditure,2026-06-15,USPS - Centreville,$188,Centreville,VA,pac,PO Box,D,493940,2026-07-09
+expenditure,2026-06-18,Surovell for State Senate,$872.50,Mount Vernon,VA,pac,Door hangers,D,493940,2026-07-09
+expenditure,2026-06-30,ActBlue Technical Services,$0.60,Somerville,MA,pac,Donation collection fee,D,493940,2026-07-09

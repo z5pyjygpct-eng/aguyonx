@@ -1,0 +1,36 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$19,818.18",,VA,,"From official Schedule H, November 2027 election cycle",H,496761,2026-07-15
+summary,2026-06-30,Raised this cycle,"$7,000",,,,Total receipts this election cycle (Schedule H),H,496761,2026-07-15
+summary,2026-06-30,Spent this cycle,"$22,221.62",,,,Total disbursements this election cycle (Schedule H),H,496761,2026-07-15
+contribution,2026-01-12,Dominion Energy Inc. Political Action Committee,"$5,000",Richmond,VA,pac,,A,496761,2026-07-15
+contribution,2026-01-05,Commercial Development PAC,$250,Alexandria,VA,pac,,A,496761,2026-07-15
+contribution,2026-01-05,Virginia Manufactured and Modular Housing Association PAC,$250,Henrico,VA,pac,,A,496761,2026-07-15
+contribution,2026-01-13,Realtors Political Action Committee,$500,Glen Allen,VA,pac,,A,496761,2026-07-15
+contribution,2026-06-29,Virginia Harness Horse Association,$500,Saluda,VA,pac,,A,496761,2026-07-15
+other_receipt,2026-03-16,Coalition for Better Schools,$500,Mount Jackson,VA,pac,Stale check voided,C,496761,2026-07-15
+expenditure,2026-03-23,Timmy French for Senate,$138.90,Woodstock,VA,candidate,Reimbursement for resolution framing,D,496761,2026-07-15
+expenditure,2026-01-02,Creative Direct LLC,$521,Richmond,VA,pac,Printing,D,496761,2026-07-15
+expenditure,2026-03-12,Forest Consulting Services,$500,Richmond,VA,pac,"Accounting, reporting and consulting services",D,496761,2026-07-15
+expenditure,2026-05-14,Forest Consulting Services,$52.85,Richmond,VA,pac,"Tax form preparation, distribution and e-filing",D,496761,2026-07-15
+expenditure,2026-03-16,Wilt for Delegate,$50,Harrisonburg,VA,candidate,Campaign contribution,D,496761,2026-07-15
+expenditure,2026-01-08,Bank of America,$15,Glen Allen,VA,pac,Banking services,D,496761,2026-07-15
+expenditure,2026-02-06,Bank of America,$15,Glen Allen,VA,pac,Banking services,D,496761,2026-07-15
+expenditure,2026-03-02,Bank of America,$1,Glen Allen,VA,pac,Banking services,D,496761,2026-07-15
+expenditure,2026-03-06,Bank of America,$15,Glen Allen,VA,pac,Banking services,D,496761,2026-07-15
+expenditure,2026-03-24,Bank of America,$1,Glen Allen,VA,pac,Banking services,D,496761,2026-07-15
+expenditure,2026-04-07,Bank of America,$15,Glen Allen,VA,pac,Banking services,D,496761,2026-07-15
+expenditure,2026-05-07,Bank of America,$15,Glen Allen,VA,pac,Banking services,D,496761,2026-07-15
+expenditure,2026-06-05,Bank of America,$15,Glen Allen,VA,pac,Banking services,D,496761,2026-07-15
+expenditure,2026-06-09,Postmaster,$78,Edinburg,VA,pac,Postage,D,496761,2026-07-15
+expenditure,2026-01-23,Treasurer of Virginia,$300,Richmond,VA,pac,Flags,D,496761,2026-07-15
+expenditure,2026-02-06,Friends of Andrew Rice,"$1,250",Virginia Beach,VA,pac,Campaign contribution,D,496761,2026-07-15
+expenditure,2026-03-02,Virginia Public Access Project,$250,Richmond,VA,pac,Charitable donation,D,496761,2026-07-15
+expenditure,2026-06-11,Meriwether Godsey,"$1,325.87",Philadelphia,PA,pac,Event expense - food and labor,D,496761,2026-07-15
+expenditure,2026-03-16,House Republican Campaign Committee,"$1,000",Richmond,VA,party,Contribution,D,496761,2026-07-15
+expenditure,2026-04-02,House Republican Campaign Committee,"$15,000",Richmond,VA,party,Contribution,D,496761,2026-07-15
+expenditure,2026-06-18,House Republican Campaign Committee,$400,Richmond,VA,party,Contribution,D,496761,2026-07-15
+expenditure,2026-04-03,Treasurer Virginia Tech,$500,Woodstock,VA,pac,Sponsorship,D,496761,2026-07-15
+expenditure,2026-04-17,Constant Contact,$294,Waltham,MA,pac,Email services,D,496761,2026-07-15
+expenditure,2026-03-16,Ogden Mid Atlantic,$169,Martinsburg,WV,pac,Subscription,D,496761,2026-07-15
+expenditure,2026-06-25,Republican Women of Harrisonburg Rockingham,$300,Harrisonburg,VA,pac,Donation,D,496761,2026-07-15

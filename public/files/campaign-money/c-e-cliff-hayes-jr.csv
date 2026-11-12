@@ -1,0 +1,109 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$87,251.02",,VA,,"From official Schedule H, November 2027 election cycle",H,497452,2026-07-15
+summary,2026-06-30,Raised this cycle,"$30,100",,,,Total receipts this election cycle (Schedule H),H,497452,2026-07-15
+summary,2026-06-30,Spent this cycle,"$62,743.09",,,,Total disbursements this election cycle (Schedule H),H,497452,2026-07-15
+contribution,2026-04-01,Walgreens,$500,Deerfield,IL,pac,,A,497452,2026-07-15
+contribution,2026-01-13,PPE Casino Resort Petersburg,"$2,500",Baltimore,MD,pac,,A,497452,2026-07-15
+contribution,2026-01-13,POM of Virginia,"$5,000",Richmond,VA,pac,,A,497452,2026-07-15
+contribution,2026-01-13,Quest Diagnostice Incorporated PAC,$500,Secaucus,NJ,pac,,A,497452,2026-07-15
+contribution,2026-01-13,Virginia Society of Health System Pharmacist PAC,$250,Chesapeake,VA,pac,,A,497452,2026-07-15
+contribution,2026-01-13,National Coalition of Associations,"$5,000",Ceres,CA,pac,,A,497452,2026-07-15
+contribution,2026-01-13,Organizing for VA Seniors,"$1,000",Fairfax,VA,pac,,A,497452,2026-07-15
+contribution,2026-01-13,Humana Inc.,$500,Lexington,KY,pac,,A,497452,2026-07-15
+contribution,2026-06-25,Zulekia Court No 35,$500,Chesapeake,VA,pac,,A,497452,2026-07-15
+contribution,2026-06-08,International Longshoreman's Association Local 1248,$300,Norfolk,VA,pac,,A,497452,2026-07-15
+contribution,2026-06-24,"Altria Client Services, LLC","$1,000",Richmond,VA,pac,,A,497452,2026-07-15
+contribution,2026-06-24,Virginia Certified Registered Nurse Anesthetists PAC,$500,Forest Hill,MD,pac,,A,497452,2026-07-15
+contribution,2026-01-13,Commonwealth Strategy Group,$500,Richmond,VA,pac,,A,497452,2026-07-15
+contribution,2026-06-24,Anheuser-Busch Companies,$500,Van Nuys,CA,pac,,A,497452,2026-07-15
+contribution,2026-04-24,Virginia Operators for Skill,"$10,000",Richmond,VA,pac,,A,497452,2026-07-15
+contribution,2026-01-13,"7-Eleven, Inc.","$1,000",Irving,TX,pac,,A,497452,2026-07-15
+contribution,2026-05-30,Costella Williams,$250,Portsmouth,VA,individual,,A,497452,2026-07-15
+expenditure,2026-01-26,Constant Contact,$62,Waltham,MA,pac,SOFTWARE SUBSCRIPTION,D,497452,2026-07-15
+expenditure,2026-02-26,Constant Contact,$62,Waltham,MA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-03-26,Constant Contact,$62,Waltham,MA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-06-08,OfficeMax/Office Depot,$27.55,Chesapeake,VA,pac,Office supplies,D,497452,2026-07-15
+expenditure,2026-03-17,Sheryl Reddington,"$2,400",Chesapeake,VA,individual,CONSULTING,D,497452,2026-07-15
+expenditure,2026-03-17,Sheryl Reddington,"$7,019.10",Chesapeake,VA,individual,CONSULTING POLICY,D,497452,2026-07-15
+expenditure,2026-01-28,Brickhouse Diner,$42.32,Norfolk,VA,pac,MEETING,D,497452,2026-07-15
+expenditure,2026-02-23,Massey Cancer Center,$300,Richmond,VA,pac,DONATION CANCER RESEARCH,D,497452,2026-07-15
+expenditure,2026-03-15,Mount Lebanon Baptist Church,$115,Chesapeake,VA,pac,MINISTRY,D,497452,2026-07-15
+expenditure,2026-03-22,Mount Lebanon Baptist Church,$250,Chesapeake,VA,pac,MINISTRY,D,497452,2026-07-15
+expenditure,2026-04-27,House Democratic Caucus,"$20,000",Richmond,VA,party,DUES,D,497452,2026-07-15
+expenditure,2026-03-25,New Chesapeake Men for Progress,$959.25,Chesapeake,VA,pac,"SCHOLARSHIP SPONSORSHIP, AD, ONLINE FEES",D,497452,2026-07-15
+expenditure,2026-01-26,Microsoft Corp,$9.99,Seattle,WA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-02-26,Microsoft Corp,$9.99,Seattle,WA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-03-26,Microsoft Corp,$9.99,Seattle,WA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-03-27,Microsoft Corp,$99,Seattle,WA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-01-24,Sam's Club,$50.11,Chesapeake,VA,pac,FUEL,D,497452,2026-07-15
+expenditure,2026-02-13,Norfolk State University Foundation,"$1,000",Norfolk,VA,pac,SCHOLARSHIP FOUNDATION,D,497452,2026-07-15
+expenditure,2026-03-30,Norfolk State University Foundation,$250,Norfolk,VA,pac,SCHOLARSHIP DONATION,D,497452,2026-07-15
+expenditure,2026-01-13,"Alpha Phi Alpha - Alpha Phi Lambda Chapter (Norfolk, VA)","$1,000",Norfolk,VA,pac,scholarship dinner sponsorship - twenty pearls,D,497452,2026-07-15
+expenditure,2026-01-14,City of Richmond,$21,Richmond,VA,pac,parking,D,497452,2026-07-15
+expenditure,2026-01-11,Adobe Systems,$779.88,San Jose,CA,pac,software suite,D,497452,2026-07-15
+expenditure,2026-02-28,Adobe Systems,$779.88,San Jose,CA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-01-16,Wawa Sandston,$80.01,Sandston,VA,pac,Fuel,D,497452,2026-07-15
+expenditure,2026-01-14,Mama J's,$43.92,Richmond,VA,pac,dinner meeting,D,497452,2026-07-15
+expenditure,2026-01-15,Mama J's,$70.68,Richmond,VA,pac,Meeting,D,497452,2026-07-15
+expenditure,2026-01-17,Mama J's,$77.45,Richmond,VA,pac,MEETING,D,497452,2026-07-15
+expenditure,2026-01-18,Mama J's,$41.81,Richmond,VA,pac,MEETING,D,497452,2026-07-15
+expenditure,2026-02-08,7 Eleven Kempsville,$80.01,Chesapeake,VA,pac,FUEL,D,497452,2026-07-15
+expenditure,2026-03-18,7 Eleven Kempsville,$125,Chesapeake,VA,pac,FUEL,D,497452,2026-07-15
+expenditure,2026-01-13,Hilton - The Main,$75.84,Norfolk,VA,pac,Dinner meeting,D,497452,2026-07-15
+expenditure,2026-02-06,Hilton - The Main,$625.01,Norfolk,VA,pac,LODGING STF,D,497452,2026-07-15
+expenditure,2026-03-16,Norton Antivirus Software,$59.99,Mountain Valley,CA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-02-28,Ups Store,$324,Chesapeake,VA,pac,MAILBOX,D,497452,2026-07-15
+expenditure,2026-02-13,Sheryl Reddington,"$3,318",Chesapeake,VA,pac,STAFF CONSULTING,D,497452,2026-07-15
+expenditure,2026-01-11,My Storage,$171,Chesapeake,VA,pac,storage,D,497452,2026-07-15
+expenditure,2026-02-11,My Storage,$171,Chesapeake,VA,pac,STORAGE,D,497452,2026-07-15
+expenditure,2026-03-11,My Storage,$171,Chesapeake,VA,pac,STORAGE,D,497452,2026-07-15
+expenditure,2026-03-14,Cutlass Grille,$140.70,Chesapeake,VA,pac,MEETING,D,497452,2026-07-15
+expenditure,2026-02-26,Cavalier Manor Little League,"$1,000",Portsmouth,VA,pac,DONATION/SPONSORSHIP,D,497452,2026-07-15
+expenditure,2026-01-13,Evoice,$56.93,Los Angeles,CA,pac,office phone,D,497452,2026-07-15
+expenditure,2026-02-14,Evoice,$56.93,Los Angeles,CA,pac,OFFICE PHONE,D,497452,2026-07-15
+expenditure,2026-03-13,Evoice,$56.93,Los Angeles,CA,pac,PHONE OFFICE,D,497452,2026-07-15
+expenditure,2026-03-25,Remarkable,$29,Oslo,DC,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-01-16,Portsmouth Alumni Chapter of Delta Sigma Theta,$120.07,Portsmouth,VA,pac,Donation,D,497452,2026-07-15
+expenditure,2026-01-18,Chat GPT,$20,San Francisco,CA,pac,SUBSCRIPTION,D,497452,2026-07-15
+expenditure,2026-02-16,Chat GPT,$20,San Francisco,CA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-03-18,Chat GPT,$20,San Francisco,CA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-01-16,Hilton Downtown Richmond,$594.78,Richmond,VA,pac,LODGING,D,497452,2026-07-15
+expenditure,2026-01-18,Hilton Downtown Richmond,$353.72,Richmond,VA,pac,LODGING - STAFF,D,497452,2026-07-15
+expenditure,2026-01-25,Hilton Downtown Richmond,"$1,378.02",Richmond,VA,pac,STAFF LODGING,D,497452,2026-07-15
+expenditure,2026-02-01,Hilton Downtown Richmond,"$1,562.02",Richmond,VA,pac,LODGING STAFF,D,497452,2026-07-15
+expenditure,2026-02-13,Hilton Downtown Richmond,$971.55,Richmond,VA,pac,LODGING STAFF,D,497452,2026-07-15
+expenditure,2026-02-27,Hilton Downtown Richmond,$575.92,Richmond,VA,pac,LODGING STAFF,D,497452,2026-07-15
+expenditure,2026-03-08,Hilton Downtown Richmond,"$1,484.48",Richmond,VA,pac,LODGING STAFF,D,497452,2026-07-15
+expenditure,2026-03-14,Hilton Downtown Richmond,"$1,100.52",Richmond,VA,pac,STAFF LODGING,D,497452,2026-07-15
+expenditure,2026-03-15,Hilton Downtown Richmond,$40,Richmond,VA,pac,LAUNDRY,D,497452,2026-07-15
+expenditure,2026-01-16,Tidewater Metro Ministers Conference,$250,Norfolk,VA,pac,DONATION,D,497452,2026-07-15
+expenditure,2026-02-21,Virginia Union University,"$1,068.91",Richmond,VA,pac,SPONSOR EDUCATION DINNER,D,497452,2026-07-15
+expenditure,2026-02-06,Canva,$120,Austin,TX,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-03-12,Canva,$300,Austin,TX,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-02-20,bitly.com,$120,New York,NY,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-03-28,United Airlines,$576.79,Chicago,IL,pac,FLIGHT - AI CONFERENCE JOHN HOPTKINS,D,497452,2026-07-15
+expenditure,2026-01-28,Google,$19.99,Mountain View,CA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-02-05,Google,$139.99,Mountain View,CA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-02-27,Google,$19.99,Mountain View,CA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-03-27,Google,$19.99,Mountain View,CA,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-03-05,Hampton University,"$1,000",Hampton,VA,pac,SCHOLARSHIP FOUNDATION DINNER ANDREW BILLINGSLEY 100 BDAY,D,497452,2026-07-15
+expenditure,2026-01-29,Breakout Clips,$39,Dover,DE,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-02-28,Breakout Clips,$39,Dover,DE,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-03-29,Breakout Clips,$39,Dover,DE,pac,SOFTWARE,D,497452,2026-07-15
+expenditure,2026-03-05,Wawa Military Hwy,$59.05,Chesapeake,VA,pac,FUEL,D,497452,2026-07-15
+expenditure,2026-05-13,Zulekia Court No 35,"$1,100",Chesapeake,VA,pac,Service,D,497452,2026-07-15
+expenditure,2026-05-30,Walgreen's Store,$34.51,Portsmouth,VA,pac,Supplies,D,497452,2026-07-15
+expenditure,2026-01-07,B. Michell Band,"$1,500",Hampton,VA,pac,band/entertainment -Sendoff Event,D,497452,2026-07-15
+expenditure,2026-01-12,Renaissance Portsmouth,"$1,000",Portsmouth,VA,pac,Sendoff,D,497452,2026-07-15
+expenditure,2026-05-28,CPH Insurance,$176,Chicago,IL,pac,fundraiser,D,497452,2026-07-15
+expenditure,2026-01-14,Sweet Treats,"$1,150",Portsmouth,VA,pac,Sendoff Specialty desserts,D,497452,2026-07-15
+expenditure,2026-01-14,Hampton University,$500,Hampton,VA,pac,Donation Scholarship Foundation,D,497452,2026-07-15
+expenditure,2026-01-18,FIRST BAPTIST CHURCH RICHMOND,$50,RICHMOND,VA,pac,DONATION,D,497452,2026-07-15
+expenditure,2026-01-16,ALFRED STREET BAPTIST CHURCH,"$1,000",ALEXANDRIA,VA,pac,CHURCH MINISTRY,D,497452,2026-07-15
+expenditure,2026-01-20,PENNY LANE PUB,$54.53,RICHMOND,VA,pac,MEETING,D,497452,2026-07-15
+expenditure,2026-01-26,MARRIOTT RICHMOND,$126.26,RICHMOND,VA,pac,DINNER MEETING,D,497452,2026-07-15
+expenditure,2026-02-05,TOBACCO COMPANY RESTUARANT,$54.73,RICHMOND,VA,pac,MEETING,D,497452,2026-07-15
+expenditure,2026-03-23,WILLIAM & MARY FOUNDATION,$500,WILLIAMSBURG,VA,pac,DONATION SCHOLARSHIPS,D,497452,2026-07-15
+expenditure,2026-04-26,CELINA FAIRFAX CHILDREN'S FUND,"$1,010",FAIRFAX,VA,pac,DONATION SCHOLARSHIP FUND FOR FAIRFAX KIDS,D,497452,2026-07-15
+expenditure,2026-06-22,FATHERHOOD FOUNDATION,$350,CHESAPEAKE,VA,pac,FOUNDATION/SCHOLARSHIPS,D,497452,2026-07-15

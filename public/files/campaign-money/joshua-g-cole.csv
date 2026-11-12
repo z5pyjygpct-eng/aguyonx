@@ -1,0 +1,165 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, as of 2026-06-30. Not from VPAP.
+section,date,name,amount_usd,city,state,type,description,schedule,report_id,filing_date
+summary,2026-06-30,Cash on hand (ending balance),"$9,190.76",,VA,,"From official Schedule H, November 2025 election cycle",H,497457,2026-07-15
+summary,2026-06-30,Raised this cycle,"$15,469.72",,,,Total receipts this election cycle (Schedule H),H,497457,2026-07-15
+summary,2026-06-30,Spent this cycle,"$38,300.03",,,,Total disbursements this election cycle (Schedule H),H,497457,2026-07-15
+contribution,2025-12-23,Clean Virginia Fund,"$6,000",Charlottesville,VA,pac,,A,479883,2026-01-15
+contribution,2025-12-19,Evan Kraft,$20,Wayne,NJ,individual,,A,479883,2026-01-15
+contribution,2025-12-11,Barry Kropf,$15,Washington,DC,individual,,A,479883,2026-01-15
+contribution,2025-12-24,Joseph Mancini,$25,Medford,NJ,individual,,A,479883,2026-01-15
+contribution,2025-12-25,Susan McCalley,$14.29,Needham,MA,individual,,A,479883,2026-01-15
+contribution,2025-11-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,479883,2026-01-15
+contribution,2025-12-15,Mochel Morris,$5,Fredericksburg,VA,individual,,A,479883,2026-01-15
+contribution,2025-12-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,479883,2026-01-15
+contribution,2025-12-07,Michael Philipp,$50,Inver Grove Heights,MN,individual,,A,479883,2026-01-15
+contribution,2025-12-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,479883,2026-01-15
+contribution,2025-12-04,Sharon Thomas,$50,Sterling,VA,individual,,A,479883,2026-01-15
+contribution,2025-12-23,James Wetzel,$20,Midlothian,VA,individual,,A,479883,2026-01-15
+contribution,2026-04-24,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,497457,2026-07-15
+contribution,2026-06-16,Anheuser-Busch,$500,Washington,DC,pac,,A,497457,2026-07-15
+contribution,2026-03-30,Clean Virginia Fund,$0.01,Charlottesville,VA,pac,,A,497457,2026-07-15
+contribution,2026-04-17,Clean Virginia Fund,"$8,500",Charlottesville,VA,pac,,A,497457,2026-07-15
+contribution,2026-06-15,HCA for Good Government,"$1,500",Richmond,VA,pac,,A,497457,2026-07-15
+contribution,2026-01-05,Jushi Inc,"$1,000",Boca Raton,FL,pac,,A,497457,2026-07-15
+contribution,2026-04-25,Underground to Uplift PAC,"$1,000",Hampton,VA,pac,,A,497457,2026-07-15
+contribution,2026-01-09,Virginia Cable Political Action Committee,$500,Richmond,VA,pac,,A,497457,2026-07-15
+contribution,2026-06-09,Virginia CRNA's Who Care About Healthcare PAC,$500,Richmond,VA,pac,,A,497457,2026-07-15
+contribution,2026-05-31,Virginia Harness Horse Association,$250,Saluda,VA,pac,,A,497457,2026-07-15
+contribution,2026-06-16,Virginia Sheriff's PAC,$250,Richmond,VA,pac,,A,497457,2026-07-15
+other_receipt,2026-01-20,Homewood Suites,$325.57,Richmond,VA,pac,Travel expenses,C,497457,2026-07-15
+other_receipt,2026-01-20,Paychex,$0.02,Rochester,NY,pac,Payroll,C,497457,2026-07-15
+expenditure,2025-11-28,Adobe,$19.99,San Jose,CA,pac,Software,D,479883,2026-01-15
+expenditure,2025-11-28,Paychex,$79.60,Rochester,NY,pac,Payroll Fee,D,479883,2026-01-15
+expenditure,2025-11-29,Pressable,$45,San Antonio,TX,pac,Web Hosting,D,479883,2026-01-15
+expenditure,2025-12-01,Eunice Haigler,"$2,000",Fredericksburg,VA,individual,Staff Stipend,D,479883,2026-01-15
+expenditure,2025-12-01,Doreen Paramore,$625,Stafford,VA,individual,Catering,D,479883,2026-01-15
+expenditure,2025-12-02,Jessica Barloga,$50,Fredericksburg,VA,individual,Gas Stipend,D,479883,2026-01-15
+expenditure,2025-12-04,Cox Communications,$174.24,Atlanta,GA,pac,Internet Service Payment,D,479883,2026-01-15
+expenditure,2025-12-05,Joshua Cole,$379.09,Richmond,VA,individual,Reimbursement,D,479883,2026-01-15
+expenditure,2025-12-05,"EveryAction, Inc.",$428.20,Washington,DC,pac,Database Software,D,479883,2026-01-15
+expenditure,2025-12-09,Angel R Funez,$110,Fredericksburg,VA,individual,Security 10.21 event,D,479883,2026-01-15
+expenditure,2025-12-11,Eunice Haigler,$650,Fredericksburg,VA,individual,Staff Stipend,D,479883,2026-01-15
+expenditure,2025-12-13,"Google, Inc.",$69.76,Mountain View,CA,pac,GSuite,D,479883,2026-01-15
+expenditure,2025-12-17,Eunice Haigler,"$2,000",Fredericksburg,VA,individual,Staff Stipend,D,479883,2026-01-15
+expenditure,2025-12-18,Ionos,$21.62,Chesterbrook,PA,pac,Website hosting,D,479883,2026-01-15
+expenditure,2025-12-19,Olive Garden,$230.24,Fredericksburg,VA,pac,Staff Meal,D,479883,2026-01-15
+expenditure,2025-12-20,Chism Strategies,$125,Jackson,MS,pac,Donation robo-call ads for Margaret Franklin,D,479883,2026-01-15
+expenditure,2025-12-20,Teach to Reach Teens,$250,Fredericksburg,VA,pac,Charitable donation,D,479883,2026-01-15
+expenditure,2025-12-21,Canva,$12.99,Austin,TX,pac,Graphic Design Software,D,479883,2026-01-15
+expenditure,2025-12-21,Hot cards,$705.37,Chagrin Falls,OH,pac,Printing,D,479883,2026-01-15
+expenditure,2025-12-22,Truist,$112.91,Fredericksburg,VA,pac,Bank Fees,D,479883,2026-01-15
+expenditure,2025-12-24,Ionos,$120,Chesterbrook,PA,pac,Website hosting,D,479883,2026-01-15
+expenditure,2025-12-27,Adobe,$19.99,San Jose,CA,pac,Software,D,479883,2026-01-15
+expenditure,2025-12-28,Office Depot #430,$116.23,Fredericksburg,VA,pac,Printing,D,479883,2026-01-15
+expenditure,2025-12-29,Pressable,$45,San Antonio,TX,pac,Web Hosting,D,479883,2026-01-15
+expenditure,2025-12-30,Jessica Barloga,"$6,500",Fredericksburg,VA,individual,Campaign Manager,D,479883,2026-01-15
+expenditure,2026-01-01,State Navigate,$500,Roanoke,VA,pac,Donation,D,497457,2026-07-15
+expenditure,2026-01-02,Eunice Haigler,"$2,500",Fredericksburg,VA,individual,Campaign consulting services,D,497457,2026-07-15
+expenditure,2026-01-07,Costco,$126.35,Fredericksburg,VA,pac,Office snack and beverages,D,497457,2026-07-15
+expenditure,2026-01-10,Fredericksburg NAACP,$257.78,Fredericksburg,VA,pac,Sponsorship for the NAACP MLK Breakfast,D,497457,2026-07-15
+expenditure,2026-01-11,Homewood Suites by Hilton Richmond-Downtown,$325.57,Richmond,VA,pac,Lodging in Richmond,D,497457,2026-07-15
+expenditure,2026-01-12,Paychex,$58,Rochester,NY,pac,Payroll processing services,D,497457,2026-07-15
+expenditure,2026-01-13,"Google, Inc.",$69.73,Mountain View,CA,pac,Google Fi campaign phone service,D,497457,2026-07-15
+expenditure,2026-01-18,Ionos,$21.62,Chesterbrook,PA,pac,Campaign website hosting services,D,497457,2026-07-15
+expenditure,2026-01-21,Canva,$12.99,Austin,TX,pac,Graphic design software,D,497457,2026-07-15
+expenditure,2026-01-21,Truist,$40,Fredericksburg,VA,pac,Bank account service charges,D,497457,2026-07-15
+expenditure,2026-01-22,Nahjah Wilson,$702,Fredericksburg,VA,individual,Intern pay,D,497457,2026-07-15
+expenditure,2026-01-24,Ionos,$120,Chesterbrook,PA,pac,Google Workspace subscriptions,D,497457,2026-07-15
+expenditure,2026-01-27,Adobe,$19.99,San Jose,CA,pac,Adobe Creative Cloud subscription,D,497457,2026-07-15
+expenditure,2026-01-29,Pressable,$45,San Antonio,TX,pac,Managed WordPress website hosting,D,497457,2026-07-15
+expenditure,2026-01-30,"Lee Enterprises, Incorporated",$0.99,Mechanicsville,VA,pac,Richmond Times-Dispatch subscription,D,497457,2026-07-15
+expenditure,2026-02-01,Moxy Richmond Downtown,$331.40,Richmond,VA,pac,Lodging and hotel incidentals,D,497457,2026-07-15
+expenditure,2026-02-01,Moxy Richmond Downtown,$5.11,Richmond,VA,pac,Lodging and hotel incidentals,D,497457,2026-07-15
+expenditure,2026-02-02,Bonterra LLC,$428.20,Austin,TX,pac,"Campaign CRM, email and fundraising software",D,497457,2026-07-15
+expenditure,2026-02-02,Nahjah Wilson,$170,Fredericksburg,VA,individual,Parking reimbursement,D,497457,2026-07-15
+expenditure,2026-02-02,Nahjah Wilson,$643.86,Fredericksburg,VA,individual,Mileage reimbursement,D,497457,2026-07-15
+expenditure,2026-02-03,Pippin Sparrow,$750,Ashland,VA,individual,Social media consulting,D,497457,2026-07-15
+expenditure,2026-02-10,Karina Pacheco,"$1,296",Richmond,VA,individual,Intern pay,D,497457,2026-07-15
+expenditure,2026-02-10,Paychex,$254.50,Rochester,NY,pac,Payroll processing services,D,497457,2026-07-15
+expenditure,2026-02-11,Nahjah Wilson,$120,Fredericksburg,VA,individual,Parking reimbursement,D,497457,2026-07-15
+expenditure,2026-02-13,"Google, Inc.",$69.73,Mountain View,CA,pac,Google Fi campaign phone service,D,497457,2026-07-15
+expenditure,2026-02-16,Walmart #1523,$63.70,Glen Allen,VA,pac,Food and refreshments for student tour,D,497457,2026-07-15
+expenditure,2026-02-16,Nahjah Wilson,$919.80,Fredericksburg,VA,individual,Mileage reimbursement,D,497457,2026-07-15
+expenditure,2026-02-16,Nahjah Wilson,$720,Fredericksburg,VA,individual,Intern pay,D,497457,2026-07-15
+expenditure,2026-02-18,Ionos,$21.62,Chesterbrook,PA,pac,Campaign website hosting services,D,497457,2026-07-15
+expenditure,2026-02-20,Pippin Sparrow,$750,Ashland,VA,individual,Social media consulting,D,497457,2026-07-15
+expenditure,2026-02-21,Canva,$12.99,Austin,TX,pac,Graphic design software,D,497457,2026-07-15
+expenditure,2026-02-24,Ionos,$120,Chesterbrook,PA,pac,Google Workspace subscriptions,D,497457,2026-07-15
+expenditure,2026-02-27,Adobe,$19.99,San Jose,CA,pac,Adobe Creative Cloud subscription,D,497457,2026-07-15
+expenditure,2026-02-28,Pressable,$45,San Antonio,TX,pac,Managed WordPress website hosting,D,497457,2026-07-15
+expenditure,2026-03-02,Bonterra LLC,$428.20,Austin,TX,pac,"Campaign CRM, email and fundraising software",D,497457,2026-07-15
+expenditure,2026-03-02,Taylor Cummings,$138.60,Fredericksburg,VA,individual,Parking fees reimbursement,D,497457,2026-07-15
+expenditure,2026-03-02,"Lee Enterprises, Incorporated",$14.99,Mechanicsville,VA,pac,Richmond Times-Dispatch subscription,D,497457,2026-07-15
+expenditure,2026-03-02,Nahjah Wilson,$646.80,Fredericksburg,VA,individual,Mileage reimbursement,D,497457,2026-07-15
+expenditure,2026-03-02,Nahjah Wilson,$576,Fredericksburg,VA,individual,Intern pay,D,497457,2026-07-15
+expenditure,2026-03-02,Nahjah Wilson,$180,Fredericksburg,VA,individual,Parking fees reimbursement,D,497457,2026-07-15
+expenditure,2026-03-09,Stafford County Democratic Committee,$500,Fredericksburg,VA,pac,Breakfast sponsorship,D,497457,2026-07-15
+expenditure,2026-03-10,Paychex,$58,Rochester,NY,pac,Payroll processing services,D,497457,2026-07-15
+expenditure,2026-03-12,Karina Pacheco,"$1,296",Richmond,VA,individual,Intern pay,D,497457,2026-07-15
+expenditure,2026-03-12,Nahjah Wilson,"$1,471.84",Fredericksburg,VA,individual,"Payment for work, mileage, and parking",D,497457,2026-07-15
+expenditure,2026-03-13,"Google, Inc.",$69.73,Mountain View,CA,pac,Google Fi campaign phone service,D,497457,2026-07-15
+expenditure,2026-03-13,Pippin Sparrow,"$1,125",Ashland,VA,individual,Social media consulting,D,497457,2026-07-15
+expenditure,2026-03-19,Ionos,$21.62,Chesterbrook,PA,pac,Campaign website hosting services,D,497457,2026-07-15
+expenditure,2026-03-21,Canva,$12.99,Austin,TX,pac,Graphic design software,D,497457,2026-07-15
+expenditure,2026-03-24,Ionos,$120,Chesterbrook,PA,pac,Google Workspace subscriptions,D,497457,2026-07-15
+expenditure,2026-03-27,Adobe,$19.99,San Jose,CA,pac,Adobe Creative Cloud subscription,D,497457,2026-07-15
+expenditure,2026-03-28,Pressable,$45,San Antonio,TX,pac,Managed WordPress website hosting,D,497457,2026-07-15
+expenditure,2026-03-30,"Lee Enterprises, Incorporated",$14.99,Mechanicsville,VA,pac,Richmond Times-Dispatch subscription,D,497457,2026-07-15
+expenditure,2026-04-04,7th Congressional District Democratic Committee,"$1,000",Fredericksburg,VA,pac,Sign donation,D,497457,2026-07-15
+expenditure,2026-04-06,Taylor Cummings,$92.40,Fredericksburg,VA,individual,Parking reimbursement,D,497457,2026-07-15
+expenditure,2026-04-06,Taylor Cummings,$92.40,Fredericksburg,VA,individual,Parking reimbursement,D,497457,2026-07-15
+expenditure,2026-04-08,Costco,$67.12,Fredericksburg,VA,pac,Food and drink for student event,D,497457,2026-07-15
+expenditure,2026-04-08,Pippin Sparrow,"$2,250",Ashland,VA,individual,Social media consulting,D,497457,2026-07-15
+expenditure,2026-04-10,Paychex,$58,Rochester,NY,pac,Payroll processing services,D,497457,2026-07-15
+expenditure,2026-04-10,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Dues payment,D,497457,2026-07-15
+expenditure,2026-04-13,Joshua Cole,$544.40,Richmond,VA,individual,Reimbursement for campaign staff apparel,D,497457,2026-07-15
+expenditure,2026-04-13,"Google, Inc.",$69.69,Mountain View,CA,pac,Google Fi campaign phone service,D,497457,2026-07-15
+expenditure,2026-04-15,Pizza Hut,$50,Fredericksburg,VA,pac,Pizza for campaign event,D,497457,2026-07-15
+expenditure,2026-04-18,Ionos,$21.62,Chesterbrook,PA,pac,Campaign website hosting services,D,497457,2026-07-15
+expenditure,2026-04-21,Canva,$12.99,Austin,TX,pac,Graphic design software,D,497457,2026-07-15
+expenditure,2026-04-23,Eunice Haigler,"$1,500",Fredericksburg,VA,individual,Campaign consulting services,D,497457,2026-07-15
+expenditure,2026-04-24,Hilton Norfolk The Main,$80.33,Norfolk,VA,pac,Lodging in Norfolk,D,497457,2026-07-15
+expenditure,2026-04-26,Hilton Global Foundation,$1,Mclean,VA,pac,Charitable Contribution,D,497457,2026-07-15
+expenditure,2026-04-27,Adobe,$19.99,San Jose,CA,pac,Adobe Creative Cloud subscription,D,497457,2026-07-15
+expenditure,2026-04-27,Ionos,$120,Chesterbrook,PA,pac,Google Workspace subscriptions,D,497457,2026-07-15
+expenditure,2026-04-27,"Lee Enterprises, Incorporated",$14.99,Mechanicsville,VA,pac,Richmond Times-Dispatch subscription,D,497457,2026-07-15
+expenditure,2026-04-28,Eunice Haigler,$63.86,Fredericksburg,VA,individual,Reimbursement,D,497457,2026-07-15
+expenditure,2026-04-28,Pressable,$45,San Antonio,TX,pac,Managed WordPress website hosting,D,497457,2026-07-15
+expenditure,2026-05-01,Commonwealth Victory Fund,"$1,146",Richmond,VA,pac,Homestead expenses,D,497457,2026-07-15
+expenditure,2026-05-11,Bonterra LLC,$449.61,Austin,TX,pac,"Campaign CRM, email and fundraising software",D,497457,2026-07-15
+expenditure,2026-05-11,Paychex,$89,Rochester,NY,pac,Payroll processing services,D,497457,2026-07-15
+expenditure,2026-05-13,"Google, Inc.",$69.69,Mountain View,CA,pac,Google Fi campaign phone service,D,497457,2026-07-15
+expenditure,2026-05-15,Sweet Reasons Gourmet Cupcakes,$127.93,Fredericksburg,VA,pac,Desserts for Police Appreciation Week event,D,497457,2026-07-15
+expenditure,2026-05-18,Ionos,$21.62,Chesterbrook,PA,pac,Campaign website hosting services,D,497457,2026-07-15
+expenditure,2026-05-19,Joshua Cole,$24,Richmond,VA,individual,Reimb: airport parking for campaign travel,D,497457,2026-07-15
+expenditure,2026-05-19,Joshua Cole,$197.87,Richmond,VA,individual,Reimb: lodging for campaign travel,D,497457,2026-07-15
+expenditure,2026-05-19,Joshua Cole,$13.94,Richmond,VA,individual,Reimb: rideshare for campaign travel,D,497457,2026-07-15
+expenditure,2026-05-19,Joshua Cole,$21.91,Richmond,VA,individual,Reimb: rideshare for campaign travel,D,497457,2026-07-15
+expenditure,2026-05-19,Eric Sundberg,$155.86,Richmond,VA,individual,Reimbursement for Edible Arrangements gift,D,497457,2026-07-15
+expenditure,2026-05-19,Eric Sundberg,$70.73,Richmond,VA,individual,Reimbursement for pizza for student group,D,497457,2026-07-15
+expenditure,2026-05-21,Canva,$12.99,Austin,TX,pac,Graphic design software,D,497457,2026-07-15
+expenditure,2026-05-25,"Lee Enterprises, Incorporated",$14.99,Mechanicsville,VA,pac,Richmond Times-Dispatch subscription,D,497457,2026-07-15
+expenditure,2026-05-26,Bonterra LLC,$449.61,Austin,TX,pac,"Campaign CRM, email and fundraising software",D,497457,2026-07-15
+expenditure,2026-05-26,Ionos,$120,Chesterbrook,PA,pac,Google Workspace subscriptions,D,497457,2026-07-15
+expenditure,2026-05-27,Adobe,$19.99,San Jose,CA,pac,Adobe Creative Cloud subscription,D,497457,2026-07-15
+expenditure,2026-05-28,Pressable,$45,San Antonio,TX,pac,Managed WordPress website hosting,D,497457,2026-07-15
+expenditure,2026-06-01,Bonterra LLC,$449.61,Austin,TX,pac,"Campaign CRM, email and fundraising software",D,497457,2026-07-15
+expenditure,2026-06-01,Z?s Southern Kitchen,$260.16,Fredericksburg,VA,pac,Deposit for campaign event catering,D,497457,2026-07-15
+expenditure,2026-06-04,Eunice Haigler,"$1,000",Fredericksburg,VA,individual,Campaign consulting services,D,497457,2026-07-15
+expenditure,2026-06-09,Super Rico Fredericksburg,$428.08,Fredericksburg,VA,pac,Catering for campaign event,D,497457,2026-07-15
+expenditure,2026-06-09,Walmart,$46.48,Fredericksburg,VA,pac,Beverages and food-service supplies for event,D,497457,2026-07-15
+expenditure,2026-06-09,Walmart,$62.97,Fredericksburg,VA,pac,Desserts and serving supplies for event,D,497457,2026-07-15
+expenditure,2026-06-10,Actblue Technical Services,$250,Somerville,MA,pac,Service charge,D,497457,2026-07-15
+expenditure,2026-06-10,Paychex,$65,Rochester,NY,pac,Payroll processing services,D,497457,2026-07-15
+expenditure,2026-06-10,Eric Sundberg,$1.64,Richmond,VA,individual,Parking reimbursement - 06/09/26,D,497457,2026-07-15
+expenditure,2026-06-10,Z2B Media,$200,Rochester Hills,MI,pac,Photography and editing services,D,497457,2026-07-15
+expenditure,2026-06-13,"Google, Inc.",$69.69,Mountain View,CA,pac,Google Fi campaign phone service,D,497457,2026-07-15
+expenditure,2026-06-18,Ionos,$61.79,Chesterbrook,PA,pac,Campaign website domains renewal,D,497457,2026-07-15
+expenditure,2026-06-21,Canva,$12.99,Austin,TX,pac,Graphic design software,D,497457,2026-07-15
+expenditure,2026-06-22,"Lee Enterprises, Incorporated",$14.99,Mechanicsville,VA,pac,Richmond Times-Dispatch subscription,D,497457,2026-07-15
+expenditure,2026-06-22,Truist,$42,Fredericksburg,VA,pac,Bank account service charges,D,497457,2026-07-15
+expenditure,2026-06-25,Ionos,$120,Chesterbrook,PA,pac,Google Workspace subscriptions,D,497457,2026-07-15
+expenditure,2026-06-27,Adobe,$19.99,San Jose,CA,pac,Adobe Creative Cloud subscription,D,497457,2026-07-15
+expenditure,2026-06-28,Pressable,$45,San Antonio,TX,pac,Managed WordPress website hosting,D,497457,2026-07-15
+expenditure,2026-06-28,"The Berkeley Richmond, Outset Collection by Hilton",$109.62,Richmond,VA,pac,Lodging in Richmond,D,497457,2026-07-15
+expenditure,2026-06-28,"The Berkeley Richmond, Outset Collection by Hilton",$103.82,Richmond,VA,pac,Lodging in Richmond,D,497457,2026-07-15
