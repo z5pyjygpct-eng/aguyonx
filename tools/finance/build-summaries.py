@@ -600,10 +600,19 @@ def main() -> None:
         }
 
         cat_acc: Counter[str] = Counter()
+        cat_items: dict[str, list[dict]] = defaultdict(list)
         vendor_acc: dict[str, dict] = {}
         for s in spending:
             cat = spend_category(s["item"], s["name"])
             cat_acc[cat] += s["cents"]
+            cat_items[cat].append(
+                {
+                    "name": s["name"],
+                    "item": s["item"],
+                    "date": s["date"],
+                    "cents": s["cents"],
+                }
+            )
             key = fold(s["name"]) or s["name"]
             v = vendor_acc.get(key)
             if v is None:
@@ -614,7 +623,14 @@ def main() -> None:
             if len(s["name"]) > len(v["name"]):
                 v["name"] = s["name"]
         categories = [
-            {"name": name, "cents": cents}
+            {
+                "name": name,
+                "cents": cents,
+                "items": sorted(
+                    cat_items[name],
+                    key=lambda x: (-x["cents"], x.get("date") or "", (x.get("name") or "").lower()),
+                ),
+            }
             for name, cents in sorted(cat_acc.items(), key=lambda kv: (-kv[1], kv[0]))
         ]
         vendors = sorted(vendor_acc.values(), key=lambda v: (-v["cents"], v["name"].lower()))[:10]

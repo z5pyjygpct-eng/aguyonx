@@ -1,6 +1,6 @@
 import { useEffect, useId, useState, type ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
-import { Download, ExternalLink } from "lucide-react";
+import { ChevronDown, Download, ExternalLink } from "lucide-react";
 import {
   committeeUrl,
   formatDate,
@@ -15,6 +15,7 @@ import {
   reportXmlUrl,
   type DonorKind,
   type FinanceFiling,
+  type FinanceSpendItem,
   type FinanceSummary,
 } from "@/lib/finance-summaries";
 import { loadFinanceSummary } from "@/lib/finance-summaries-load";
@@ -173,6 +174,78 @@ function FilingRow({ f }: { f: FinanceFiling }) {
   );
 }
 
+
+function groupSpendItems(items: FinanceSpendItem[]) {
+  const map = new Map<string, { name: string; cents: number; payments: FinanceSpendItem[] }>();
+  for (const item of items) {
+    const key = item.name || "Not stated";
+    const group = map.get(key) ?? { name: key, cents: 0, payments: [] };
+    group.cents += item.cents;
+    group.payments.push(item);
+    map.set(key, group);
+  }
+  for (const group of map.values()) {
+    group.payments.sort((a, b) => b.cents - a.cents || (a.date ?? "").localeCompare(b.date ?? ""));
+  }
+  return [...map.values()].sort((a, b) => b.cents - a.cents || a.name.localeCompare(b.name));
+}
+
+function SpendingCategory({ category }: { category: { name: string; cents: number; items?: FinanceSpendItem[] } }) {
+  const [open, setOpen] = useState(false);
+  const items = category.items ?? [];
+  const vendors = groupSpendItems(items);
+  const paymentCount = items.length;
+  return (
+    <li>
+      <button
+        type="button"
+        aria-expanded={open}
+        onClick={() => setOpen((v) => !v)}
+        className="flex min-h-11 w-full items-center justify-between gap-3 px-4 py-3 text-left text-sm hover:bg-navy-600/40"
+      >
+        <span className="flex min-w-0 items-start gap-2">
+          <ChevronDown className={`mt-0.5 size-4 shrink-0 text-gold transition-transform ${open ? "" : "-rotate-90"}`} aria-hidden />
+          <span className="min-w-0">
+            <span className="block font-medium">{category.name}</span>
+            <span className="block text-xs text-night-muted">
+              {paymentCount ? `${paymentCount} ${paymentCount === 1 ? "payment" : "payments"}` : "No itemized payments"}
+              {paymentCount ? ` · ${open ? "Hide who was paid" : "See who was paid"}` : ""}
+            </span>
+          </span>
+        </span>
+        <span className="shrink-0 font-serif text-lg font-bold text-gold">{formatUsd(category.cents)}</span>
+      </button>
+      {open ? (
+        <ul className="divide-y divide-navy-line/50 border-t border-navy-line/50 bg-navy-900/40">
+          {vendors.length === 0 ? (
+            <li className="px-4 py-3 pl-10 text-sm text-on-dark-muted">No itemized payments in the reports we have loaded for this category.</li>
+          ) : (
+            vendors.map((vendor) => (
+              <li key={vendor.name} className="px-4 py-3 pl-10">
+                <div className="flex items-start justify-between gap-3 text-sm">
+                  <span className="min-w-0 font-semibold">{vendor.name}</span>
+                  <span className="shrink-0 font-serif text-base font-bold text-gold">{formatUsd(vendor.cents)}</span>
+                </div>
+                <ul className="mt-1 space-y-1">
+                  {vendor.payments.map((payment, i) => (
+                    <li key={`${vendor.name}-${payment.date}-${payment.item}-${i}`} className="flex items-baseline justify-between gap-3 text-xs text-on-dark-muted">
+                      <span className="min-w-0">
+                        {payment.item || "Not stated"}
+                        {payment.date ? ` · ${formatShortDate(payment.date)}` : ""}
+                      </span>
+                      <span className="shrink-0">{formatUsd(payment.cents)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))
+          )}
+        </ul>
+      ) : null}
+    </li>
+  );
+}
+
 function ReadyView({
   s,
   billsHref,
@@ -327,16 +400,14 @@ function ReadyView({
 
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">How is the money spent?</h3>
       <p className="mt-1 text-sm text-on-dark-muted">
-        Spending by plain-language category, plus the vendors paid the most in this cycle. Category groups are ours, built
-        from the state's free-text “item or service” field — they are not official state categories.
+        Spending by plain-language category, plus the vendors paid the most in this cycle. Tap a category to see who was
+        paid, what the state filing listed, and the amount. Category groups are ours, built from the state's free-text
+        “item or service” field — they are not official state categories.
       </p>
       {s.spending?.categories.length ? (
         <ul className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
           {s.spending.categories.map((c) => (
-            <li key={c.name} className="flex items-center justify-between gap-3 px-4 py-2.5 text-sm">
-              <span>{c.name}</span>
-              <span className="shrink-0 font-serif text-lg font-bold text-gold">{formatUsd(c.cents)}</span>
-            </li>
+            <SpendingCategory key={c.name} category={c} />
           ))}
         </ul>
       ) : (

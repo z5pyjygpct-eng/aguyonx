@@ -40,6 +40,13 @@ export type FinanceLatestReport = {
   amendment: number;
 };
 
+export type FinanceSpendItem = {
+  name: string;
+  item?: string;
+  date?: string;
+  cents: number;
+};
+
 export type FinanceSummary = {
   lisId: string;
   slug: string;
@@ -88,7 +95,7 @@ export type FinanceSummary = {
   };
   size?: { smallCents: number; largeCents: number; rule: string };
   spending?: {
-    categories: { name: string; cents: number }[];
+    categories: { name: string; cents: number; items?: FinanceSpendItem[] }[];
     vendors: { name: string; cents: number; count: number }[];
     groupingNote: string;
   };

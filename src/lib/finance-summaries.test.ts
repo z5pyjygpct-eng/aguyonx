@@ -64,3 +64,27 @@ test("display helpers format official dates, sources, and percents in plain lang
   assert.equal(late.total, 22);
   assert.equal(late.late, 4);
 });
+
+test("Kilgore spending categories include itemized payees so a category can be opened to see who was paid", () => {
+  const categories = kilgore.spending?.categories ?? [];
+  assert.ok(categories.length > 0);
+  for (const category of categories) {
+    const items = category.items ?? [];
+    assert.ok(items.length > 0, `${category.name} should list itemized payments`);
+    assert.equal(
+      items.reduce((sum, item) => sum + item.cents, 0),
+      category.cents,
+      `${category.name} itemized payments should add up to the category total`,
+    );
+    assert.ok(items[0]!.name);
+    assert.ok(items.every((item, i) => i === 0 || items[i - 1]!.cents >= item.cents));
+  }
+  const consulting = categories.find((c) => c.name === "Consulting and campaign work");
+  assert.ok(consulting);
+  assert.equal(consulting.cents, 4_329_210);
+  assert.ok(consulting.items?.some((item) => item.name === "Hayley Allison"));
+  const polling = categories.find((c) => c.name === "Polling and research");
+  assert.equal(polling?.items?.[0]?.name, "Cygnal (IFA Holdings LLC)");
+  assert.equal(polling?.items?.[0]?.item, "Polling");
+  assert.equal(polling?.items?.[0]?.cents, 3_000_000);
+});
