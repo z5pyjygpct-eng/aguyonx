@@ -10404,5 +10404,25 @@
     "duration": "2h 25m",
     "provider": "youtube",
     "playerUrl": "https://www.youtube.com/watch?v=R6RVWG_kAVw"
+  },
+  {
+    "id": "fxco-sb-fEybSMgrlCs",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Work Session",
+    "date": "2026-11-10",
+    "dateLabel": "Nov 10, 2026",
+    "duration": "4h 20m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=fEybSMgrlCs"
+  },
+  {
+    "id": "fxco-sb-a22OqF_ms28",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Public Hearing — Middle School Advanced Academic Programs (AAP)",
+    "date": "2026-11-10",
+    "dateLabel": "Nov 10, 2026",
+    "duration": "20m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=a22OqF_ms28"
   }
 ]

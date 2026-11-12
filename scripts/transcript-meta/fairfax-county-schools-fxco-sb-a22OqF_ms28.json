@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-a22OqF_ms28.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-10-fairfax-county-school-board-public-hearing-middle-school-aap",
+  "title": "Fairfax County School Board Public Hearing \u2014 Middle School AAP, Tuesday, November 10, 2026",
+  "shortTitle": "School Board Public Hearing \u2014 Middle School AAP \u00b7 Nov 10, 2026",
+  "date": "Tuesday, November 10, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "20m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=a22OqF_ms28"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-11-11"
+}

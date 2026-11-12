@@ -13658,6 +13658,16 @@ export const FTM_TRANSCRIPTS: FtmTranscript[] = [
     sourceFile: "1236391014.srt",
   },
   {
+    meetingId: "2026-11-10-1245588570",
+    venue: "loudoun-lcps",
+    url: "/files/find-the-moment/loudoun-lcps/transcripts/2026-11-10-1245588570.json",
+    windowCount: 514,
+    wordCount: 32826,
+    engine: "whisper.cpp \u00b7 large-v3-turbo",
+    generated: "2026-11-11",
+    sourceFile: "1245588570.srt",
+  },
+  {
     meetingId: "2026-11-04-1243482933",
     venue: "loudoun-lcps",
     url: "/files/find-the-moment/loudoun-lcps/transcripts/2026-11-04-1243482933.json",

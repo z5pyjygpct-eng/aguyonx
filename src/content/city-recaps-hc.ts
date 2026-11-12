@@ -64357,5 +64357,121 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Pledge of Allegiance."
       }
     ]
+  },
+  {
+    "slug": "fxco-sb-fEybSMgrlCs",
+    "meetingId": "fxco-sb-fEybSMgrlCs",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Work Session",
+    "dateLabel": "Tuesday, November 10, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 4h 20m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 12, 2026, 7:55 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=fEybSMgrlCs"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-10-fairfax-county-school-board-work-session.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-10-fairfax-county-school-board-work-session.txt",
+      "pdfNote": "63 pages"
+    },
+    "shareContext": "FCPS, Nov 10, 2026",
+    "moments": [
+      {
+        "seconds": 10,
+        "label": "Budget committee of the whole called to order; closed-meeting certification."
+      },
+      {
+        "seconds": 111,
+        "label": "Presentation: fiscal year 2028 fiscal forecast (start of budget season)."
+      },
+      {
+        "seconds": 3775,
+        "label": "Budget committee of the whole adjourns."
+      },
+      {
+        "seconds": 3781,
+        "label": "Work session called to order; remote participation vote."
+      },
+      {
+        "seconds": 3854,
+        "label": "Presentation: kindergarten through grade 12 school start times."
+      },
+      {
+        "seconds": 9806,
+        "label": "Brief recess."
+      },
+      {
+        "seconds": 9819,
+        "label": "High school programming options."
+      },
+      {
+        "seconds": 15578,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-a22OqF_ms28",
+    "meetingId": "fxco-sb-a22OqF_ms28",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Public Hearing — Middle School Advanced Academic Programs (AAP)",
+    "dateLabel": "Tuesday, November 10, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 20m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 12, 2026, 7:55 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=a22OqF_ms28"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-10-fairfax-county-school-board-public-hearing-middle-school-aap.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-10-fairfax-county-school-board-public-hearing-middle-school-aap.txt",
+      "pdfNote": "6 pages"
+    },
+    "shareContext": "FCPS, Nov 10, 2026",
+    "moments": [
+      {
+        "seconds": 55,
+        "label": "Public hearing on expanding Advanced Academic Programs (AAP) to more middle schools opens; speaker procedures."
+      },
+      {
+        "seconds": 192,
+        "label": "First speaker."
+      },
+      {
+        "seconds": 1163,
+        "label": "Last speaker."
+      },
+      {
+        "seconds": 1185,
+        "label": "Adjournment."
+      }
+    ]
   }
 ];
