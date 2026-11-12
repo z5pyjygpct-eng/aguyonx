@@ -62,6 +62,13 @@ export const CANDIDATES_2027: Candidate2027[] = [
     locality: "Loudoun County",
     status: "declared",
   },
+  {
+    id: "rachna-sizemore-heizer",
+    name: "Rachna Sizemore Heizer",
+    officeSought: "Fairfax Braddock District Supervisor (reelection)",
+    locality: "Fairfax County",
+    status: "declared",
+  },
 ];
 
 export function newsForCandidate(name: string): NewsItem[] {
