@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
@@ -6,8 +5,8 @@ import { CampaignMoneyLookup } from "@/components/site/campaign-money-lookup";
 import { DonorView } from "@/components/site/donor-view";
 import { CampaignMoneySection, FeaturedMoneyTeaser } from "@/components/site/money-card";
 import type { OfficeKind } from "@/lib/campaign-money";
-import { FEATURED_MONEY_SLUG, profileMoneyHref, type FinanceIndexRow } from "@/lib/finance-summaries";
-import { findIndexRow, loadFinanceIndex } from "@/lib/finance-summaries-load";
+import { FEATURED_MONEY_SLUG, profileMoneyHref } from "@/lib/finance-summaries";
+import { findIndexRow, loadFinanceIndex, loadFinanceSummary } from "@/lib/finance-summaries-load";
 
 type Search = { q?: string; office?: OfficeKind; locality?: string; donor?: string; member?: string };
 
@@ -24,6 +23,14 @@ export const Route = createFileRoute("/campaign-money")({
     donor: typeof search.donor === "string" ? search.donor : undefined,
     member: typeof search.member === "string" ? search.member : undefined,
   }),
+  loaderDeps: ({ search }: { search: Search }) => ({ member: search.member }),
+  loader: async ({ deps }) => {
+    const index = await loadFinanceIndex();
+    const featured = findIndexRow(index, FEATURED_MONEY_SLUG) ?? null;
+    const picked = deps.member ? findIndexRow(index, deps.member) ?? null : null;
+    const summary = picked ? await loadFinanceSummary(picked.slug) : null;
+    return { featured, picked, summary };
+  },
   head: () => ({
     meta: [
       { title: "Campaign money · A Guy on X" },
@@ -39,22 +46,7 @@ export const Route = createFileRoute("/campaign-money")({
 
 function Page() {
   const { q, office, locality, donor, member } = Route.useSearch();
-  const [featured, setFeatured] = useState<FinanceIndexRow | null>(null);
-  const [picked, setPicked] = useState<FinanceIndexRow | null | undefined>(member ? undefined : null);
-
-  useEffect(() => {
-    let on = true;
-    loadFinanceIndex().then((index) => {
-      if (!on) return;
-      setFeatured(findIndexRow(index, FEATURED_MONEY_SLUG) ?? null);
-      if (member) setPicked(findIndexRow(index, member) ?? null);
-      else setPicked(null);
-    });
-    return () => {
-      on = false;
-    };
-  }, [member]);
-
+  const { featured, picked, summary } = Route.useLoaderData();
   const memberSlug = picked?.slug ?? (member || undefined);
   const billsHref = picked ? `${profileMoneyHref(picked.chamber, picked.slug).replace("#campaign-money", "")}#bills` : "#bills";
   const votesHref = picked ? `${profileMoneyHref(picked.chamber, picked.slug).replace("#campaign-money", "")}#votes` : "#votes";
@@ -87,12 +79,11 @@ function Page() {
         <div className="mx-auto max-w-4xl px-4 py-8 sm:px-8">
           {donor ? <div className="mb-8"><DonorView donorId={donor} /></div> : null}
 
-          {member && picked === undefined ? (
-            <p className="mb-8 text-sm text-on-dark-muted">Loading official campaign finance reports…</p>
-          ) : memberSlug && picked ? (
+          {memberSlug && picked ? (
             <div className="mb-8">
               <CampaignMoneySection
                 slug={memberSlug}
+                summary={summary}
                 billsHref={billsHref}
                 votesHref={votesHref}
                 officialHref={picked.committeeId ? `https://cfreports.elections.virginia.gov/Committee/Index/${picked.committeeId}` : undefined}

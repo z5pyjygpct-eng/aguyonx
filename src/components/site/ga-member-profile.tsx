@@ -8,6 +8,7 @@ import { GA_DASHBOARD } from "@/lib/ga-dashboard";
 import { billSentenceParts, breakdownBills, coPatronTotal, dateLabel, isHonorResolution, joinPlain, type BillBreakdown } from "@/lib/ga-member-stats";
 import { campaignMoneyLink } from "@/lib/campaign-money";
 import { CampaignMoneySection } from "@/components/site/money-card";
+import type { FinanceSummary } from "@/lib/finance-summaries";
 
 export type GaBill = { session: string; bill: string; title: string; outcome: "signed" | "vetoed" | "passed" | "failed" | "tabled"; status: string; statusDate: string; subjects: string[]; categories?: string[]; href: string };
 export type GaCounts = { total: number; passed: number; signed: number; vetoed: number; passedNoGovAction: number; failed: number; tabled: number };
@@ -383,7 +384,7 @@ function VoteGroup({ items }: { items: VoteRow[] }) {
   );
 }
 
-export function GaMemberProfile({ m, meta }: { m: GaMember; meta: GaMeta }) {
+export function GaMemberProfile({ m, meta, finance }: { m: GaMember; meta: GaMeta; finance?: FinanceSummary | null }) {
   const { first, last } = splitName(m.name);
   const title = m.chamber === "house" ? "Del." : "Sen.";
   const p = PARTY[m.party];
@@ -431,7 +432,7 @@ export function GaMemberProfile({ m, meta }: { m: GaMember; meta: GaMeta }) {
             </div>
           ) : null}
           <div className="lg:col-span-2">
-            <CampaignMoneySection slug={m.slug} officialHref={campaignMoneyLink(m.lisId)?.href} billsHref="#bills" votesHref="#votes" />
+            <CampaignMoneySection slug={m.slug} summary={finance} officialHref={campaignMoneyLink(m.lisId)?.href} billsHref="#bills" votesHref="#votes" />
           </div>
           {hasSummary ? (
             <div className={`min-w-0 lg:self-stretch [&>section]:h-full ${hasVotes ? "" : "lg:col-span-2"}`}><Card id="summary" title="Summary" asOf={`${m.committees.length ? `Committees as of ${built} · Source: LIS · ` : ""}LIS member ID ${m.lisId}`}>
