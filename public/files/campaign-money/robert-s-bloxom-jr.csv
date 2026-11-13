@@ -3,54 +3,54 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$5,274.14",,VA,,"From official Schedule H, November 2027 election cycle",H,495400,2026-07-14
 summary,2026-06-30,Raised this cycle,"$14,750",,,,Total receipts this election cycle (Schedule H),H,495400,2026-07-14
 summary,2026-06-30,Spent this cycle,"$20,195.65",,,,Total disbursements this election cycle (Schedule H),H,495400,2026-07-14
-contribution,2026-06-04,"Altria Client Services, Inc.","$1,500",Richmond,VA,pac,,A,495400,2026-07-14
+contribution,2026-06-04,"Altria Client Services, Inc.","$1,500",Richmond,VA,business,,A,495400,2026-07-14
 contribution,2026-01-06,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,495400,2026-07-14
 contribution,2026-01-12,Commerical Development PAC,$500,Alexandria,VA,pac,,A,495400,2026-07-14
-contribution,2026-06-17,Anheuser Busch,$500,Marietta,GA,pac,,A,495400,2026-07-14
+contribution,2026-06-17,Anheuser Busch,$500,Marietta,GA,business,,A,495400,2026-07-14
 contribution,2026-01-14,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,A,495400,2026-07-14
-contribution,2026-01-12,Transurban (USA) Inc.,$500,Tysons,VA,pac,,A,495400,2026-07-14
+contribution,2026-01-12,Transurban (USA) Inc.,$500,Tysons,VA,business,,A,495400,2026-07-14
 contribution,2026-01-12,American Chemistry Council,"$2,000",Washington,DC,pac,,A,495400,2026-07-14
-contribution,2026-06-04,VA Operators for Skill,"$5,000",Richmond,VA,pac,,A,495400,2026-07-14
+contribution,2026-06-04,VA Operators for Skill,"$5,000",Richmond,VA,business,,A,495400,2026-07-14
 contribution,2026-01-12,Virginia Society of CPAS Political Action Committee,$500,Glen Allen,VA,pac,,A,495400,2026-07-14
-contribution,2026-01-14,Organizing for VA Seniors,"$2,500",Fairfax,VA,pac,,A,495400,2026-07-14
-contribution,2026-01-14,VSP Vision,$500,Rancho Cordova,CA,pac,,A,495400,2026-07-14
+contribution,2026-01-14,Organizing for VA Seniors,"$2,500",Fairfax,VA,business,,A,495400,2026-07-14
+contribution,2026-01-14,VSP Vision,$500,Rancho Cordova,CA,business,,A,495400,2026-07-14
 contribution,2026-03-16,Mr Andre Wiggins,$500,Nassawadox,VA,individual,,A,495400,2026-07-14
-expenditure,2026-04-23,Omni Hotel & Resorts,$404.09,Hot Springs,VA,pac,Check Card - Omni Homestead - Travel & Lodging,D,495400,2026-07-14
-expenditure,2026-06-13,Treasurer of Virginia,$498.14,Richmond,VA,pac,Ck. 1301 - Treasurer of Virginia - I Pad Pro,D,495400,2026-07-14
-expenditure,2026-01-15,Walmart,$51.94,Bentonville,AR,pac,Check Card - Walmart - Supplies for Fundraiser,D,495400,2026-07-14
-expenditure,2026-01-24,Habitat for Humanity,$100,Eastville,VA,pac,Ck. No. 1268 - Habitat for Humanity - Polar Plunge,D,495400,2026-07-14
-expenditure,2026-02-19,Habitat for Humanity,$100,Eastville,VA,pac,Ck. 1272 - Habitat for Humanity - Polar Plunge,D,495400,2026-07-14
-expenditure,2026-06-30,ESVA Habitat for Humanity,$150,Exmore,VA,pac,Ck. 1302 - ESVA Habitat for Humanity - Golf Sponsor,D,495400,2026-07-14
+expenditure,2026-04-23,Omni Hotel & Resorts,$404.09,Hot Springs,VA,business,Check Card - Omni Homestead - Travel & Lodging,D,495400,2026-07-14
+expenditure,2026-06-13,Treasurer of Virginia,$498.14,Richmond,VA,business,Ck. 1301 - Treasurer of Virginia - I Pad Pro,D,495400,2026-07-14
+expenditure,2026-01-15,Walmart,$51.94,Bentonville,AR,business,Check Card - Walmart - Supplies for Fundraiser,D,495400,2026-07-14
+expenditure,2026-01-24,Habitat for Humanity,$100,Eastville,VA,business,Ck. No. 1268 - Habitat for Humanity - Polar Plunge,D,495400,2026-07-14
+expenditure,2026-02-19,Habitat for Humanity,$100,Eastville,VA,business,Ck. 1272 - Habitat for Humanity - Polar Plunge,D,495400,2026-07-14
+expenditure,2026-06-30,ESVA Habitat for Humanity,$150,Exmore,VA,business,Ck. 1302 - ESVA Habitat for Humanity - Golf Sponsor,D,495400,2026-07-14
 expenditure,2026-03-17,House Republican Campaign Committee,"$1,000",Richmond,VA,party,Ck. 1276 - House Republican Campaign Committee - ROMP Dues,D,495400,2026-07-14
 expenditure,2026-04-30,House Republican Campaign Committee,"$9,000",Richmond,VA,party,Ck. 1280 - House Republican Campaign Committee - Romp Dues,D,495400,2026-07-14
-expenditure,2026-02-14,Riverside Shore Memorial Hospital Auxiliary,$300,Onancock,VA,pac,Ck. 1270 - RSMH Auxiliary - Ice Sponsor,D,495400,2026-07-14
+expenditure,2026-02-14,Riverside Shore Memorial Hospital Auxiliary,$300,Onancock,VA,business,Ck. 1270 - RSMH Auxiliary - Ice Sponsor,D,495400,2026-07-14
 expenditure,2026-02-17,Joseph Hopkins,$143.73,Accomac,VA,individual,Ck. 1271 - Jody Hopkins - Administrative Assistant for Valentines,D,495400,2026-07-14
-expenditure,2026-02-07,Sage Diner,"$2,400",Onley,VA,pac,Ck. 1281 - Sage Diner - Appreciation Dinner,D,495400,2026-07-14
-expenditure,2026-06-09,Bloxom Fire Department,$500,Bloxom,VA,pac,Bloxom Music Festival Sponsorship,D,495400,2026-07-14
-expenditure,2026-01-30,Constant Contact,$91,Gainesville,FL,pac,Check Card Purchase - Constant Contact - Email Blast Service,D,495400,2026-07-14
-expenditure,2026-03-02,Constant Contact,$91,Gainesville,FL,pac,Check Card Purchase - Constant Contact - Email Blast Service,D,495400,2026-07-14
-expenditure,2026-03-30,Constant Contact,$91,Gainesville,FL,pac,Check Card Purchase - Constant Contact - Email Blast Service,D,495400,2026-07-14
-expenditure,2026-04-30,Constant Contact,$91,Gainesville,FL,pac,Check Card - Constant Contact - Email Blast Service,D,495400,2026-07-14
-expenditure,2026-06-01,Constant Contact,$91,Gainesville,FL,pac,Check Card Purchase - Constant Contact - Email Blast Service,D,495400,2026-07-14
-expenditure,2026-06-30,Constant Contact,$104,Gainesville,FL,pac,Check Card Purchase - Constant Contact - Email Blast Service,D,495400,2026-07-14
+expenditure,2026-02-07,Sage Diner,"$2,400",Onley,VA,business,Ck. 1281 - Sage Diner - Appreciation Dinner,D,495400,2026-07-14
+expenditure,2026-06-09,Bloxom Fire Department,$500,Bloxom,VA,business,Bloxom Music Festival Sponsorship,D,495400,2026-07-14
+expenditure,2026-01-30,Constant Contact,$91,Gainesville,FL,business,Check Card Purchase - Constant Contact - Email Blast Service,D,495400,2026-07-14
+expenditure,2026-03-02,Constant Contact,$91,Gainesville,FL,business,Check Card Purchase - Constant Contact - Email Blast Service,D,495400,2026-07-14
+expenditure,2026-03-30,Constant Contact,$91,Gainesville,FL,business,Check Card Purchase - Constant Contact - Email Blast Service,D,495400,2026-07-14
+expenditure,2026-04-30,Constant Contact,$91,Gainesville,FL,business,Check Card - Constant Contact - Email Blast Service,D,495400,2026-07-14
+expenditure,2026-06-01,Constant Contact,$91,Gainesville,FL,business,Check Card Purchase - Constant Contact - Email Blast Service,D,495400,2026-07-14
+expenditure,2026-06-30,Constant Contact,$104,Gainesville,FL,business,Check Card Purchase - Constant Contact - Email Blast Service,D,495400,2026-07-14
 expenditure,2026-01-01,Rebecca J. Chambliss,$200,Virginia Beach,VA,individual,Ck. No. 1267 - Rebecca J. Chambliss - Consulting,D,495400,2026-07-14
 expenditure,2026-02-01,Rebecca J. Chambliss,$200,Virginia Beach,VA,individual,Ck. 1269 - Rebecca J. Chambliss - Consulting,D,495400,2026-07-14
 expenditure,2026-03-01,Rebecca J. Chambliss,$200,Virginia Beach,VA,individual,Ck. 1274 - Rebecca J. Chambliss - Consulting,D,495400,2026-07-14
 expenditure,2026-04-01,Rebecca J. Chambliss,$200,Virginia Beach,VA,individual,Ck. 1277 - Rebecca J. Chambliss - Consulting,D,495400,2026-07-14
 expenditure,2026-04-30,Rebecca J. Chambliss,$200,Virginia Beach,VA,individual,Ck. 1279 - Rebecca J. Chambliss - Consulting,D,495400,2026-07-14
-expenditure,2026-01-15,Poe's Pub,$170.68,Richmond,VA,pac,Check Card - Poe's Pub - Fundraiser Before Session,D,495400,2026-07-14
-expenditure,2026-02-19,Accomack NAACP,$50,Parksley,VA,pac,Ck. 1273 - Accomack County NAACP - Freedom Fund Banquet,D,495400,2026-07-14
-expenditure,2026-01-26,Apple I Cloud,$0.99,Cupertino,CA,pac,Check Card Purchase - Apple I Cloud - Storage,D,495400,2026-07-14
-expenditure,2026-02-24,Apple I Cloud,$0.99,Cupertino,CA,pac,Check Card Purchase - Apple I Cloud - Storage,D,495400,2026-07-14
-expenditure,2026-03-24,Apple I Cloud,$0.99,Cupertino,CA,pac,Check Card Purchase - Apple I Cloud - Storage,D,495400,2026-07-14
-expenditure,2026-04-24,Apple I Cloud,$0.99,Cupertino,CA,pac,Check Card - Apple I Cloud - I Cloud Storage,D,495400,2026-07-14
-expenditure,2026-05-26,Apple I Cloud,$0.99,Cupertino,CA,pac,Check Card - Apple I Cloud - I Cloud Storage,D,495400,2026-07-14
-expenditure,2026-06-24,Apple I Cloud,$0.99,Cupertino,CA,pac,Check Card Purchase - Apple I Cloud - I Cloud Storage,D,495400,2026-07-14
-expenditure,2026-06-09,Eastern Shore Rural Health,$250,Onancock,VA,pac,Ck. 1283 - E. S. Rural Health - Be Well Block Party,D,495400,2026-07-14
-expenditure,2026-03-04,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,pac,Ck. 1275 - Friends of Andrew Rice - Campaign Donation,D,495400,2026-07-14
-expenditure,2026-01-09,ESCC Foundation,$150,Enterprise,AL,pac,Check Card - ESCC Foundation - Oyster Roast Fundraiser,D,495400,2026-07-14
-expenditure,2026-01-15,Jefferson Hotel,"$1,250.98",Richmond,VA,pac,Check Card Purchase - Jefferson Hotel - Lodging for Inauguration,D,495400,2026-07-14
-expenditure,2026-03-18,Zeffy's,$255,"Montreal, QB Canada",,pac,Check Card Purchase - Zeffy's - Golf Sponsorship E. S. Colts,D,495400,2026-07-14
-expenditure,2026-04-18,BSRWC,$500,Virginia Beach,VA,pac,Ck. 1278 - BSRWC - Boots & BBQ,D,495400,2026-07-14
-expenditure,2026-05-06,E. S. Coalition Against Domestic Violence,$154.79,Onancock,VA,pac,Check Card - E. S. Coalition Against Domestic Violence - Mother's Day Oyster Roast & Pig Picking,D,495400,2026-07-14
-expenditure,2026-06-26,Rick's Custom Framing,$201.36,Richmond,VA,pac,Check Card Purchase - Rick's Custom Framing - Framing Pictures,D,495400,2026-07-14
+expenditure,2026-01-15,Poe's Pub,$170.68,Richmond,VA,business,Check Card - Poe's Pub - Fundraiser Before Session,D,495400,2026-07-14
+expenditure,2026-02-19,Accomack NAACP,$50,Parksley,VA,business,Ck. 1273 - Accomack County NAACP - Freedom Fund Banquet,D,495400,2026-07-14
+expenditure,2026-01-26,Apple I Cloud,$0.99,Cupertino,CA,business,Check Card Purchase - Apple I Cloud - Storage,D,495400,2026-07-14
+expenditure,2026-02-24,Apple I Cloud,$0.99,Cupertino,CA,business,Check Card Purchase - Apple I Cloud - Storage,D,495400,2026-07-14
+expenditure,2026-03-24,Apple I Cloud,$0.99,Cupertino,CA,business,Check Card Purchase - Apple I Cloud - Storage,D,495400,2026-07-14
+expenditure,2026-04-24,Apple I Cloud,$0.99,Cupertino,CA,business,Check Card - Apple I Cloud - I Cloud Storage,D,495400,2026-07-14
+expenditure,2026-05-26,Apple I Cloud,$0.99,Cupertino,CA,business,Check Card - Apple I Cloud - I Cloud Storage,D,495400,2026-07-14
+expenditure,2026-06-24,Apple I Cloud,$0.99,Cupertino,CA,business,Check Card Purchase - Apple I Cloud - I Cloud Storage,D,495400,2026-07-14
+expenditure,2026-06-09,Eastern Shore Rural Health,$250,Onancock,VA,business,Ck. 1283 - E. S. Rural Health - Be Well Block Party,D,495400,2026-07-14
+expenditure,2026-03-04,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,business,Ck. 1275 - Friends of Andrew Rice - Campaign Donation,D,495400,2026-07-14
+expenditure,2026-01-09,ESCC Foundation,$150,Enterprise,AL,business,Check Card - ESCC Foundation - Oyster Roast Fundraiser,D,495400,2026-07-14
+expenditure,2026-01-15,Jefferson Hotel,"$1,250.98",Richmond,VA,business,Check Card Purchase - Jefferson Hotel - Lodging for Inauguration,D,495400,2026-07-14
+expenditure,2026-03-18,Zeffy's,$255,"Montreal, QB Canada",,business,Check Card Purchase - Zeffy's - Golf Sponsorship E. S. Colts,D,495400,2026-07-14
+expenditure,2026-04-18,BSRWC,$500,Virginia Beach,VA,business,Ck. 1278 - BSRWC - Boots & BBQ,D,495400,2026-07-14
+expenditure,2026-05-06,E. S. Coalition Against Domestic Violence,$154.79,Onancock,VA,business,Check Card - E. S. Coalition Against Domestic Violence - Mother's Day Oyster Roast & Pig Picking,D,495400,2026-07-14
+expenditure,2026-06-26,Rick's Custom Framing,$201.36,Richmond,VA,business,Check Card Purchase - Rick's Custom Framing - Framing Pictures,D,495400,2026-07-14

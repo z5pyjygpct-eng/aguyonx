@@ -3,89 +3,89 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$288,361.35",,VA,,"From official Schedule H, November 2027 election cycle",H,496501,2026-07-15
 summary,2026-06-30,Raised this cycle,"$325,844.20",,,,Total receipts this election cycle (Schedule H),H,496501,2026-07-15
 summary,2026-06-30,Spent this cycle,"$102,432.42",,,,Total disbursements this election cycle (Schedule H),H,496501,2026-07-15
-contribution,2025-08-18,Comcast,$500,Philadelphia,PA,pac,,A,479427,2026-01-15
+contribution,2025-08-18,Comcast,$500,Philadelphia,PA,business,,A,479427,2026-01-15
 contribution,2025-10-20,"Virginia State Police Association, Inc.",$250,Richmond,VA,pac,,A,479427,2026-01-15
-contribution,2025-10-20,Williams Mullen Clark & Dobbins,$500,Richmond,VA,pac,,A,479427,2026-01-15
+contribution,2025-10-20,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,479427,2026-01-15
 contribution,2025-11-05,Virginia Beer Wholesalers Association,"$2,500",Richmond,VA,pac,,A,479427,2026-01-15
-contribution,2025-11-05,"Micron Technology, Inc.","$1,000",Boise,ID,pac,,A,479427,2026-01-15
+contribution,2025-11-05,"Micron Technology, Inc.","$1,000",Boise,ID,business,,A,479427,2026-01-15
 contribution,2025-09-15,Virginia Beverage Association,$500,Richmond,VA,pac,,A,479427,2026-01-15
-contribution,2025-11-05,Anheuser-Busch,$500,Atlanta,GA,pac,,A,479427,2026-01-15
+contribution,2025-11-05,Anheuser-Busch,$500,Atlanta,GA,business,,A,479427,2026-01-15
 contribution,2025-07-17,Joe Nash,$26.03,Woodbridge,VA,individual,,A,479427,2026-01-15
 contribution,2025-08-17,Joe Nash,$26.03,Woodbridge,VA,individual,,A,479427,2026-01-15
-contribution,2025-10-06,Reedville Bait Company,$500,Burgess,VA,pac,,A,479427,2026-01-15
-contribution,2025-11-10,Huntington Ingalls Industries,$500,Newport News,VA,pac,,A,479427,2026-01-15
+contribution,2025-10-06,Reedville Bait Company,$500,Burgess,VA,business,,A,479427,2026-01-15
+contribution,2025-11-10,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,479427,2026-01-15
 contribution,2025-12-29,HBAV Build-PAC,"$5,000",Richmond,VA,pac,,A,479427,2026-01-15
-contribution,2025-10-20,PhRMA,"$1,000",Washington,DC,pac,,A,479427,2026-01-15
-contribution,2025-11-17,McGuireWoods LLC,"$1,000",Richmond,VA,pac,,A,479427,2026-01-15
-contribution,2025-11-05,Publix,$500,Durham,NC,pac,,A,479427,2026-01-15
+contribution,2025-10-20,PhRMA,"$1,000",Washington,DC,business,,A,479427,2026-01-15
+contribution,2025-11-17,McGuireWoods LLC,"$1,000",Richmond,VA,business,,A,479427,2026-01-15
+contribution,2025-11-05,Publix,$500,Durham,NC,business,,A,479427,2026-01-15
 contribution,2025-10-27,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,479427,2026-01-15
 contribution,2025-12-22,VA Operators for Skill,"$2,500",Richmond,VA,pac,,A,479427,2026-01-15
 contribution,2025-10-20,Virginia Maritime Association PAC,"$1,000",Norfolk,VA,pac,,A,479427,2026-01-15
-contribution,2025-10-01,Premium Distributors of Virginia,"$1,000",Chantilly,VA,pac,,A,479427,2026-01-15
+contribution,2025-10-01,Premium Distributors of Virginia,"$1,000",Chantilly,VA,business,,A,479427,2026-01-15
 contribution,2025-10-20,ULT Political Action Committee,$500,Richmond,VA,pac,,A,479427,2026-01-15
 contribution,2025-11-24,Commissioner of Revenue PAC,$250,Newport News,VA,pac,,A,479427,2026-01-15
 contribution,2025-11-05,McKesson Employee's PAC,$400,Washington,DC,pac,,A,479427,2026-01-15
 contribution,2025-07-28,Boyd-Pamunkey Casino PAC,"$1,000",Norfolk,VA,pac,,A,479427,2026-01-15
-contribution,2025-09-23,ACE Development Company LLC,$500,Salt Lake City,UT,pac,,A,479427,2026-01-15
-contribution,2025-09-23,Smithfield Support Services Corp.,"$2,000",Lisle,IL,pac,,A,479427,2026-01-15
-contribution,2025-09-03,Virginia Pharmacists Association,$500,Richmond,VA,pac,,A,479427,2026-01-15
-contribution,2025-10-01,All Points Broadband Partners LLC,$500,Richmond,VA,pac,,A,479427,2026-01-15
+contribution,2025-09-23,ACE Development Company LLC,$500,Salt Lake City,UT,business,,A,479427,2026-01-15
+contribution,2025-09-23,Smithfield Support Services Corp.,"$2,000",Lisle,IL,business,,A,479427,2026-01-15
+contribution,2025-09-03,Virginia Pharmacists Association,$500,Richmond,VA,business,,A,479427,2026-01-15
+contribution,2025-10-01,All Points Broadband Partners LLC,$500,Richmond,VA,business,,A,479427,2026-01-15
 contribution,2025-10-20,VAMICPAC,$500,Richmond,VA,pac,,A,479427,2026-01-15
 contribution,2025-10-06,Community-Owned Power PAC,"$1,000",Glen Allen,VA,pac,,A,479427,2026-01-15
-contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$5,000",Portsmouth,VA,pac,,A,479427,2026-01-15
-contribution,2025-11-05,Gilead Sciences Inc.,"$1,000",Raleigh,NC,pac,,A,479427,2026-01-15
-contribution,2025-11-24,Seven Hills Strategy Group LLC,$250,Richmond,VA,pac,,A,479427,2026-01-15
-contribution,2025-12-30,Humana,$750,Lexington,KY,pac,,A,479427,2026-01-15
-contribution,2025-09-03,Deloitte,"$1,000",Wasington,DC,pac,,A,479427,2026-01-15
-contribution,2025-08-04,Visa,"$1,000",Austin,TX,pac,,A,479427,2026-01-15
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$5,000",Portsmouth,VA,business,,A,479427,2026-01-15
+contribution,2025-11-05,Gilead Sciences Inc.,"$1,000",Raleigh,NC,business,,A,479427,2026-01-15
+contribution,2025-11-24,Seven Hills Strategy Group LLC,$250,Richmond,VA,business,,A,479427,2026-01-15
+contribution,2025-12-30,Humana,$750,Lexington,KY,business,,A,479427,2026-01-15
+contribution,2025-09-03,Deloitte,"$1,000",Wasington,DC,business,,A,479427,2026-01-15
+contribution,2025-08-04,Visa,"$1,000",Austin,TX,business,,A,479427,2026-01-15
 contribution,2025-10-01,HCA for Good Government,"$2,500",Richmond,VA,pac,,A,479427,2026-01-15
 contribution,2025-10-15,Dominion Political Action Committee - VA,"$50,000",Richmond,VA,pac,,A,479427,2026-01-15
 contribution,2025-12-18,Dominion Political Action Committee - VA,"$15,000",Richmond,VA,pac,,A,479427,2026-01-15
 contribution,2025-10-01,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,A,479427,2026-01-15
-contribution,2025-12-08,Genworth Financial Corporation,"$1,000",Lynchburg,VA,pac,,A,479427,2026-01-15
+contribution,2025-12-08,Genworth Financial Corporation,"$1,000",Lynchburg,VA,business,,A,479427,2026-01-15
 contribution,2025-07-07,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,479427,2026-01-15
 contribution,2025-10-22,Virginia Sheriffs' Association Political Action Committee,$500,Richmond,VA,pac,,A,479427,2026-01-15
 contribution,2025-08-25,Realtors Political Action Committee of Virginia,"$2,000",Glen Allen,VA,pac,,A,479427,2026-01-15
-contribution,2026-06-30,Waste Management,"$1,000",Washington,DC,pac,,A,496501,2026-07-15
+contribution,2026-06-30,Waste Management,"$1,000",Washington,DC,business,,A,496501,2026-07-15
 contribution,2026-01-07,Dominion Political Action Committee - VA,"$35,000",Richmond,VA,pac,,A,496501,2026-07-15
-contribution,2026-06-15,Anheuser-Busch,$500,Atlanta,GA,pac,,A,496501,2026-07-15
+contribution,2026-06-15,Anheuser-Busch,$500,Atlanta,GA,business,,A,496501,2026-07-15
 contribution,2026-04-13,John H Morris IV,$100,Warsaw,VA,individual,,A,496501,2026-07-15
 contribution,2026-04-13,Bonnie Morris,$100,Warsaw,VA,individual,,A,496501,2026-07-15
 contribution,2026-01-13,VA Operators for Skill,"$2,500",Richmond,VA,pac,,A,496501,2026-07-15
 contribution,2026-04-27,VA Operators for Skill,"$5,000",Richmond,VA,pac,,A,496501,2026-07-15
-contribution,2026-01-13,"Apex Clean Energy Holdings, LLC",$250,Charlottesville,VA,pac,,A,496501,2026-07-15
-contribution,2026-01-13,"Carbon Solutions Group, LLC",$250,Chicago,IL,pac,,A,496501,2026-07-15
+contribution,2026-01-13,"Apex Clean Energy Holdings, LLC",$250,Charlottesville,VA,business,,A,496501,2026-07-15
+contribution,2026-01-13,"Carbon Solutions Group, LLC",$250,Chicago,IL,business,,A,496501,2026-07-15
 contribution,2026-05-18,William Spotswood,$104.10,Ponte Vedra Beach,VA,individual,,A,496501,2026-07-15
-in_kind,2025-11-05,"Capital One Services, LLC","$2,500",Reston,VA,pac,Fundraising Event,B,479427,2026-01-15
-expenditure,2025-07-10,Treasurer of Virginia,$48,Richmond,VA,pac,Virginia Flag,D,479427,2026-01-15
+in_kind,2025-11-05,"Capital One Services, LLC","$2,500",Reston,VA,business,Fundraising Event,B,479427,2026-01-15
+expenditure,2025-07-10,Treasurer of Virginia,$48,Richmond,VA,business,Virginia Flag,D,479427,2026-01-15
 expenditure,2025-08-18,Virginia Senate Republican Caucus,"$1,500",Richmond,VA,party,Contribution,D,479427,2026-01-15
-expenditure,2025-07-10,USPS,$365,Montross,VA,pac,Stamps,D,479427,2026-01-15
+expenditure,2025-07-10,USPS,$365,Montross,VA,business,Stamps,D,479427,2026-01-15
 expenditure,2025-07-02,Jake Salmons,"$1,500",Clarkville,VA,individual,Treasurer,D,479427,2026-01-15
-expenditure,2025-07-02,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,479427,2026-01-15
-expenditure,2025-08-04,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,479427,2026-01-15
-expenditure,2025-09-02,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,479427,2026-01-15
-expenditure,2025-10-01,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,479427,2026-01-15
-expenditure,2025-11-05,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,479427,2026-01-15
-expenditure,2025-12-03,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,479427,2026-01-15
-expenditure,2025-07-19,WinRed,$1.03,Arlington,VA,pac,Transaction Fee,D,479427,2026-01-15
-expenditure,2025-08-18,WinRed,$1.03,Arlington,VA,pac,Transaction Fee,D,479427,2026-01-15
-expenditure,2025-09-17,WinRed,$1.03,Arlington,VA,pac,Transaction Fee,D,479427,2026-01-15
+expenditure,2025-07-02,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,479427,2026-01-15
+expenditure,2025-08-04,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,479427,2026-01-15
+expenditure,2025-09-02,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,479427,2026-01-15
+expenditure,2025-10-01,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,479427,2026-01-15
+expenditure,2025-11-05,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,479427,2026-01-15
+expenditure,2025-12-03,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,479427,2026-01-15
+expenditure,2025-07-19,WinRed,$1.03,Arlington,VA,business,Transaction Fee,D,479427,2026-01-15
+expenditure,2025-08-18,WinRed,$1.03,Arlington,VA,business,Transaction Fee,D,479427,2026-01-15
+expenditure,2025-09-17,WinRed,$1.03,Arlington,VA,business,Transaction Fee,D,479427,2026-01-15
 expenditure,2025-08-05,Hillary Pugh Kent for Delegate,$250,Warsaw,VA,candidate,Campaign Contribution,D,479427,2026-01-15
-expenditure,2025-10-16,Blue Ridge Bank,$30,Montross,VA,pac,Bank Fee,D,479427,2026-01-15
+expenditure,2025-10-16,Blue Ridge Bank,$30,Montross,VA,business,Bank Fee,D,479427,2026-01-15
 expenditure,2025-08-05,Orrock for House,$250,Thornburg,VA,candidate,Campaign Contribution,D,479427,2026-01-15
-expenditure,2025-08-05,John Reid for Virginia,$250,Henrico,VA,pac,Campaign Contribution,D,479427,2026-01-15
-expenditure,2025-09-24,John Reid for Virginia,"$1,000",Henrico,VA,pac,Campaign Contribution,D,479427,2026-01-15
-expenditure,2025-10-16,John Reid for Virginia,"$25,000",Henrico,VA,pac,Campaign Donation,D,479427,2026-01-15
-expenditure,2025-09-17,Miyares for Virginia,"$5,000",Virginia Beach,VA,pac,Campaign Contribution,D,479427,2026-01-15
-expenditure,2026-06-18,VPAP Sunshine Caucus,$300,Richmond,VA,pac,Donation,D,496501,2026-07-15
-expenditure,2026-06-23,USPS,$624,Montross,VA,pac,Stamps,D,496501,2026-07-15
+expenditure,2025-08-05,John Reid for Virginia,$250,Henrico,VA,business,Campaign Contribution,D,479427,2026-01-15
+expenditure,2025-09-24,John Reid for Virginia,"$1,000",Henrico,VA,business,Campaign Contribution,D,479427,2026-01-15
+expenditure,2025-10-16,John Reid for Virginia,"$25,000",Henrico,VA,business,Campaign Donation,D,479427,2026-01-15
+expenditure,2025-09-17,Miyares for Virginia,"$5,000",Virginia Beach,VA,business,Campaign Contribution,D,479427,2026-01-15
+expenditure,2026-06-18,VPAP Sunshine Caucus,$300,Richmond,VA,business,Donation,D,496501,2026-07-15
+expenditure,2026-06-23,USPS,$624,Montross,VA,business,Stamps,D,496501,2026-07-15
 expenditure,2026-01-05,Jake Salmons,"$1,500",Clarkville,VA,individual,Treasurer,D,496501,2026-07-15
-expenditure,2026-01-05,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,496501,2026-07-15
-expenditure,2026-02-09,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,496501,2026-07-15
-expenditure,2026-03-02,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,496501,2026-07-15
-expenditure,2026-04-01,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,496501,2026-07-15
-expenditure,2026-05-13,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,496501,2026-07-15
-expenditure,2026-06-04,JDS Solutions LLC,$200,Chesterfield,VA,pac,Email Service Provider,D,496501,2026-07-15
-expenditure,2026-05-19,WinRed,$9.20,Arlington,VA,pac,Transaction Fee,D,496501,2026-07-15
-expenditure,2026-02-09,Massey Cancer Center,$250,Richmond,VA,pac,Donation,D,496501,2026-07-15
-expenditure,2026-06-18,Valentine Group,"$1,884",Vega Alta,PR,pac,Website Hosting,D,496501,2026-07-15
+expenditure,2026-01-05,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,496501,2026-07-15
+expenditure,2026-02-09,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,496501,2026-07-15
+expenditure,2026-03-02,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,496501,2026-07-15
+expenditure,2026-04-01,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,496501,2026-07-15
+expenditure,2026-05-13,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,496501,2026-07-15
+expenditure,2026-06-04,JDS Solutions LLC,$200,Chesterfield,VA,business,Email Service Provider,D,496501,2026-07-15
+expenditure,2026-05-19,WinRed,$9.20,Arlington,VA,business,Transaction Fee,D,496501,2026-07-15
+expenditure,2026-02-09,Massey Cancer Center,$250,Richmond,VA,business,Donation,D,496501,2026-07-15
+expenditure,2026-06-18,Valentine Group,"$1,884",Vega Alta,PR,business,Website Hosting,D,496501,2026-07-15

@@ -3,35 +3,35 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$12,203.53",,VA,,"From official Schedule H, November 2027 election cycle",H,493158,2026-07-06
 summary,2026-06-30,Raised this cycle,"$2,920.08",,,,Total receipts this election cycle (Schedule H),H,493158,2026-07-06
 summary,2026-06-30,Spent this cycle,"$7,987.46",,,,Total disbursements this election cycle (Schedule H),H,493158,2026-07-06
-contribution,2026-06-18,Virginia Association of Nurse Anesthetists,$250,Forest Hill,MD,pac,,A,493158,2026-07-06
+contribution,2026-06-18,Virginia Association of Nurse Anesthetists,$250,Forest Hill,MD,business,,A,493158,2026-07-06
 contribution,2026-01-13,Friends of Ballad Health PAC,$500,Johnson City,TN,pac,,A,493158,2026-07-06
-contribution,2026-01-13,VA Operators For Skill,"$1,000",Richmond,VA,pac,,A,493158,2026-07-06
-contribution,2026-01-13,Virginia Oil & Gas Association,$500,Abingdon,VA,pac,,A,493158,2026-07-06
-contribution,2026-01-12,Realtors Political Actions Committee of Virginia,$500,Glen Allen,VA,pac,,A,493158,2026-07-06
-in_kind,2026-01-13,Cozen OConnor,$170.08,Richmond,VA,pac,170.08,B,493158,2026-07-06
-expenditure,2026-02-28,United States Postal Service,$78,Independence,VA,pac,Postage,D,493158,2026-07-06
-expenditure,2026-04-19,"CSGA Group, LLC",$220.50,Lynchburg,VA,pac,Text Messaging,D,493158,2026-07-06
-expenditure,2026-01-20,Mail Chimp,$20,Atlanta,GA,pac,Email Services,D,493158,2026-07-06
-expenditure,2026-02-18,Mail Chimp,$20,Atlanta,GA,pac,Email Services,D,493158,2026-07-06
-expenditure,2026-03-18,Mail Chimp,$20,Atlanta,GA,pac,Email Services,D,493158,2026-07-06
-expenditure,2026-01-02,Google Inc.,$26.40,Mountain View,CA,pac,Website Services,D,493158,2026-07-06
-expenditure,2026-02-02,Google Inc.,$26.40,Mountain View,CA,pac,Website Services,D,493158,2026-07-06
-expenditure,2026-03-02,Google Inc.,$26.40,Mountain View,CA,pac,Website Services,D,493158,2026-07-06
-expenditure,2026-04-02,Google Inc.,$26.40,Mountain View,CA,pac,Website Services,D,493158,2026-07-06
-expenditure,2026-05-01,Google Inc.,$26.40,Mountain View,CA,pac,Website Services,D,493158,2026-07-06
-expenditure,2026-06-01,Google Inc.,$26.40,Mountain View,CA,pac,Website Services,D,493158,2026-07-06
-expenditure,2026-02-26,Pulaski County Republican Committee,$250,Pulaski,VA,pac,Donation,D,493158,2026-07-06
+contribution,2026-01-13,VA Operators For Skill,"$1,000",Richmond,VA,business,,A,493158,2026-07-06
+contribution,2026-01-13,Virginia Oil & Gas Association,$500,Abingdon,VA,business,,A,493158,2026-07-06
+contribution,2026-01-12,Realtors Political Actions Committee of Virginia,$500,Glen Allen,VA,business,,A,493158,2026-07-06
+in_kind,2026-01-13,Cozen OConnor,$170.08,Richmond,VA,business,170.08,B,493158,2026-07-06
+expenditure,2026-02-28,United States Postal Service,$78,Independence,VA,business,Postage,D,493158,2026-07-06
+expenditure,2026-04-19,"CSGA Group, LLC",$220.50,Lynchburg,VA,business,Text Messaging,D,493158,2026-07-06
+expenditure,2026-01-20,Mail Chimp,$20,Atlanta,GA,business,Email Services,D,493158,2026-07-06
+expenditure,2026-02-18,Mail Chimp,$20,Atlanta,GA,business,Email Services,D,493158,2026-07-06
+expenditure,2026-03-18,Mail Chimp,$20,Atlanta,GA,business,Email Services,D,493158,2026-07-06
+expenditure,2026-01-02,Google Inc.,$26.40,Mountain View,CA,business,Website Services,D,493158,2026-07-06
+expenditure,2026-02-02,Google Inc.,$26.40,Mountain View,CA,business,Website Services,D,493158,2026-07-06
+expenditure,2026-03-02,Google Inc.,$26.40,Mountain View,CA,business,Website Services,D,493158,2026-07-06
+expenditure,2026-04-02,Google Inc.,$26.40,Mountain View,CA,business,Website Services,D,493158,2026-07-06
+expenditure,2026-05-01,Google Inc.,$26.40,Mountain View,CA,business,Website Services,D,493158,2026-07-06
+expenditure,2026-06-01,Google Inc.,$26.40,Mountain View,CA,business,Website Services,D,493158,2026-07-06
+expenditure,2026-02-26,Pulaski County Republican Committee,$250,Pulaski,VA,business,Donation,D,493158,2026-07-06
 expenditure,2026-03-19,House Republican Campaign Committee,"$3,000",Mechanicsville,VA,party,Contribution,D,493158,2026-07-06
 expenditure,2026-03-24,House Republican Campaign Committee,"$1,000",Mechanicsville,VA,party,Contribution,D,493158,2026-07-06
-expenditure,2026-03-27,Virginia House of Delegates,$111,Richmond,VA,pac,Constituent Flags,D,493158,2026-07-06
+expenditure,2026-03-27,Virginia House of Delegates,$111,Richmond,VA,business,Constituent Flags,D,493158,2026-07-06
 expenditure,2026-04-05,Smyth County Republican Party,$500,Marion,VA,party,Event Sponsorship,D,493158,2026-07-06
-expenditure,2026-04-05,Rich Valley Fair,$500,Saltville,VA,pac,Fair Sponsorship,D,493158,2026-07-06
-expenditure,2026-04-15,"A and B Printing, LLC",$147.42,Marion,VA,pac,Signage,D,493158,2026-07-06
-expenditure,2026-04-22,Virginia House of Delegates,$498.14,Richmond,VA,pac,Ipad,D,493158,2026-07-06
+expenditure,2026-04-05,Rich Valley Fair,$500,Saltville,VA,business,Fair Sponsorship,D,493158,2026-07-06
+expenditure,2026-04-15,"A and B Printing, LLC",$147.42,Marion,VA,business,Signage,D,493158,2026-07-06
+expenditure,2026-04-22,Virginia House of Delegates,$498.14,Richmond,VA,business,Ipad,D,493158,2026-07-06
 expenditure,2026-05-01,Grayson County Republican Party,$500,Independence,VA,party,Event Sponsorship,D,493158,2026-07-06
 expenditure,2026-05-14,Taylor Billings,$80,Chilhowie,VA,individual,Reimbursement for Framing,D,493158,2026-07-06
-expenditure,2026-06-02,Omni Homestead,$635.47,Hot Springs,VA,pac,Lodging,D,493158,2026-07-06
-expenditure,2026-06-09,Banners.com,$78.45,Kensington,MN,pac,Car Magnets,D,493158,2026-07-06
+expenditure,2026-06-02,Omni Homestead,$635.47,Hot Springs,VA,business,Lodging,D,493158,2026-07-06
+expenditure,2026-06-09,Banners.com,$78.45,Kensington,MN,business,Car Magnets,D,493158,2026-07-06
 debt,2025-03-26,Mitchell D Cornett,"$5,000",Independence,VA,individual,,F,493158,2026-07-06
 debt,2025-03-29,Mitchell Devan Cornett,"$10,000",Independence,VA,individual,,F,493158,2026-07-06
 debt,2025-05-23,Mitchell D Cornett,"$10,000",Independence,VA,individual,,F,493158,2026-07-06

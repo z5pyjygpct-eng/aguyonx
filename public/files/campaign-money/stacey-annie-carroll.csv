@@ -3,8 +3,8 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),$651.49,,VA,,"From official Schedule H, November 2027 election cycle",H,502507,2026-07-27
 summary,2026-06-30,Raised this cycle,"$18,013.70",,,,Total receipts this election cycle (Schedule H),H,502507,2026-07-27
 summary,2026-06-30,Spent this cycle,"$32,931.41",,,,Total disbursements this election cycle (Schedule H),H,502507,2026-07-27
-contribution,2026-06-26,Altria Client Services,"$1,000",Richmond,VA,pac,,A,502507,2026-07-27
-contribution,2026-06-26,Anheuser Busch,$250,Williamsburg,VA,pac,,A,502507,2026-07-27
+contribution,2026-06-26,Altria Client Services,"$1,000",Richmond,VA,business,,A,502507,2026-07-27
+contribution,2026-06-26,Anheuser Busch,$250,Williamsburg,VA,business,,A,502507,2026-07-27
 contribution,2026-04-05,Marilyn Carter,$64,Fredericksburg,VA,individual,,A,502507,2026-07-27
 contribution,2026-05-05,Marilyn Carter,$64,Fredericksburg,VA,individual,,A,502507,2026-07-27
 contribution,2026-06-05,Marilyn Carter,$64,Fredericksburg,VA,individual,,A,502507,2026-07-27
@@ -13,72 +13,72 @@ contribution,2026-03-28,Calvin Hickey,$125,Warrenton,VA,individual,,A,502507,202
 contribution,2026-04-28,Calvin Hickey,$125,Warrenton,VA,individual,,A,502507,2026-07-27
 contribution,2026-05-28,Calvin Hickey,$125,Warrenton,VA,individual,,A,502507,2026-07-27
 contribution,2026-06-28,Calvin Hickey,$125,Warrenton,VA,individual,,A,502507,2026-07-27
-contribution,2026-06-22,Virginia Sherrif Association,$250,Richmond,VA,pac,,A,502507,2026-07-27
+contribution,2026-06-22,Virginia Sherrif Association,$250,Richmond,VA,business,,A,502507,2026-07-27
 in_kind,2026-05-15,Leonard Lacey,$750,Stafford,VA,individual,Catering,B,502507,2026-07-27
-other_receipt,2026-03-04,Brafferton Square,"$2,907.22",Stafford,VA,pac,Refund of Security Deposit,C,502507,2026-07-27
-other_receipt,2026-04-29,SWAY,"$10,779.39",Chevy Chase,MD,pac,Refund on Unused Services,C,502507,2026-07-27
-expenditure,2026-01-09,Elias Law Group,"$2,053.93",Washington,DC,pac,Attorney Fees,D,502507,2026-07-27
-expenditure,2026-06-29,Shake Shack,$34.40,Oxon Hill,MD,pac,Meeting Lunch,D,502507,2026-07-27
-expenditure,2026-06-29,City of Richmond,$12,Richmond,VA,pac,Parking Fees,D,502507,2026-07-27
-expenditure,2026-06-24,WAWA,$92.22,Stafford,VA,pac,Gasoline,D,502507,2026-07-27
-expenditure,2026-06-23,Family Dollar,$6.05,LOUISA,VA,pac,Miscellaneous Items,D,502507,2026-07-27
+other_receipt,2026-03-04,Brafferton Square,"$2,907.22",Stafford,VA,business,Refund of Security Deposit,C,502507,2026-07-27
+other_receipt,2026-04-29,SWAY,"$10,779.39",Chevy Chase,MD,business,Refund on Unused Services,C,502507,2026-07-27
+expenditure,2026-01-09,Elias Law Group,"$2,053.93",Washington,DC,business,Attorney Fees,D,502507,2026-07-27
+expenditure,2026-06-29,Shake Shack,$34.40,Oxon Hill,MD,business,Meeting Lunch,D,502507,2026-07-27
+expenditure,2026-06-29,City of Richmond,$12,Richmond,VA,business,Parking Fees,D,502507,2026-07-27
+expenditure,2026-06-24,WAWA,$92.22,Stafford,VA,business,Gasoline,D,502507,2026-07-27
+expenditure,2026-06-23,Family Dollar,$6.05,LOUISA,VA,business,Miscellaneous Items,D,502507,2026-07-27
 expenditure,2026-04-20,Howard Rudat,"$2,500",Stafford,VA,individual,Campaign Administration Assistance,D,502507,2026-07-27
-expenditure,2026-01-05,Google,$110,Mountain View,CA,pac,Google,D,502507,2026-07-27
-expenditure,2026-02-05,Google,$110,Mountain View,CA,pac,Google,D,502507,2026-07-27
-expenditure,2026-03-05,Google,$110,Mountain View,CA,pac,Google Workspace,D,502507,2026-07-27
-expenditure,2026-05-04,Google,$231.99,Mountain View,CA,pac,Google Workspace,D,502507,2026-07-27
-expenditure,2026-01-05,Gusto,$80,San Francisco,CA,pac,Campaign HR,D,502507,2026-07-27
-expenditure,2026-02-03,Gusto,$80,San Francisco,CA,pac,Campaign HR,D,502507,2026-07-27
-expenditure,2026-05-05,Gusto,$80,San Francisco,CA,pac,Fees,D,502507,2026-07-27
-expenditure,2026-03-09,Canva,$15,Austin,TX,pac,Flyer Subscription,D,502507,2026-07-27
-expenditure,2026-04-09,Canva,$15,Austin,TX,pac,Flyer Design Subscription,D,502507,2026-07-27
-expenditure,2026-05-09,Canva,$15,Austin,TX,pac,Flyer Design Subscription,D,502507,2026-07-27
-expenditure,2026-01-12,Carter Bank,$25,Stafford,VA,pac,Bank Charge,D,502507,2026-07-27
-expenditure,2026-02-12,Carter Bank,$25,Stafford,VA,pac,Bank Fees,D,502507,2026-07-27
-expenditure,2026-02-20,Carter Bank,$10,Stafford,VA,pac,Bank Fees,D,502507,2026-07-27
-expenditure,2026-04-10,Carter Bank,$25,Stafford,VA,pac,Bank Fees,D,502507,2026-07-27
-expenditure,2026-05-11,Carter Bank,$55,Stafford,VA,pac,Bank Fees,D,502507,2026-07-27
-expenditure,2026-01-12,Pressable,$45,San Antonio,TX,pac,Campaign Website,D,502507,2026-07-27
-expenditure,2026-02-12,Pressable,$45,San Antonio,TX,pac,Campaign Website,D,502507,2026-07-27
-expenditure,2026-03-12,Pressable,$45,San Antonio,TX,pac,Campaign Website,D,502507,2026-07-27
-expenditure,2026-04-13,Pressable,$45,San Antonio,TX,pac,Website Monthly charge,D,502507,2026-07-27
-expenditure,2026-05-12,Pressable,$45,San Antonio,TX,pac,Website Monthly Fee,D,502507,2026-07-27
-expenditure,2026-05-15,Orleans Bistro,$73.51,Fredericksburg,VA,pac,Lunch Meeting,D,502507,2026-07-27
+expenditure,2026-01-05,Google,$110,Mountain View,CA,business,Google,D,502507,2026-07-27
+expenditure,2026-02-05,Google,$110,Mountain View,CA,business,Google,D,502507,2026-07-27
+expenditure,2026-03-05,Google,$110,Mountain View,CA,business,Google Workspace,D,502507,2026-07-27
+expenditure,2026-05-04,Google,$231.99,Mountain View,CA,business,Google Workspace,D,502507,2026-07-27
+expenditure,2026-01-05,Gusto,$80,San Francisco,CA,business,Campaign HR,D,502507,2026-07-27
+expenditure,2026-02-03,Gusto,$80,San Francisco,CA,business,Campaign HR,D,502507,2026-07-27
+expenditure,2026-05-05,Gusto,$80,San Francisco,CA,business,Fees,D,502507,2026-07-27
+expenditure,2026-03-09,Canva,$15,Austin,TX,business,Flyer Subscription,D,502507,2026-07-27
+expenditure,2026-04-09,Canva,$15,Austin,TX,business,Flyer Design Subscription,D,502507,2026-07-27
+expenditure,2026-05-09,Canva,$15,Austin,TX,business,Flyer Design Subscription,D,502507,2026-07-27
+expenditure,2026-01-12,Carter Bank,$25,Stafford,VA,business,Bank Charge,D,502507,2026-07-27
+expenditure,2026-02-12,Carter Bank,$25,Stafford,VA,business,Bank Fees,D,502507,2026-07-27
+expenditure,2026-02-20,Carter Bank,$10,Stafford,VA,business,Bank Fees,D,502507,2026-07-27
+expenditure,2026-04-10,Carter Bank,$25,Stafford,VA,business,Bank Fees,D,502507,2026-07-27
+expenditure,2026-05-11,Carter Bank,$55,Stafford,VA,business,Bank Fees,D,502507,2026-07-27
+expenditure,2026-01-12,Pressable,$45,San Antonio,TX,business,Campaign Website,D,502507,2026-07-27
+expenditure,2026-02-12,Pressable,$45,San Antonio,TX,business,Campaign Website,D,502507,2026-07-27
+expenditure,2026-03-12,Pressable,$45,San Antonio,TX,business,Campaign Website,D,502507,2026-07-27
+expenditure,2026-04-13,Pressable,$45,San Antonio,TX,business,Website Monthly charge,D,502507,2026-07-27
+expenditure,2026-05-12,Pressable,$45,San Antonio,TX,business,Website Monthly Fee,D,502507,2026-07-27
+expenditure,2026-05-15,Orleans Bistro,$73.51,Fredericksburg,VA,business,Lunch Meeting,D,502507,2026-07-27
 expenditure,2026-06-23,Stacey Carroll,$303.50,Stafford,VA,individual,Reimbursement Expenses,D,502507,2026-07-27
-expenditure,2026-04-03,Gusto,$80,San Francisco,CA,pac,Campaign Support Asisstance,D,502507,2026-07-27
-expenditure,2026-04-13,FH Strategies,"$5,500",Virginia Beach,VA,pac,Finance Fees,D,502507,2026-07-27
+expenditure,2026-04-03,Gusto,$80,San Francisco,CA,business,Campaign Support Asisstance,D,502507,2026-07-27
+expenditure,2026-04-13,FH Strategies,"$5,500",Virginia Beach,VA,business,Finance Fees,D,502507,2026-07-27
 expenditure,2026-04-14,Tracey Green,"$1,000",Saint Petersburg,FL,individual,Campaign Administration,D,502507,2026-07-27
-expenditure,2026-04-30,Virginia House Democrats Caucus,"$7,500",Richmond,VA,pac,House Caucus Dues,D,502507,2026-07-27
-expenditure,2026-04-29,Buffalo Wild Wings,$30,Stafford,VA,pac,Campaign Meeting,D,502507,2026-07-27
+expenditure,2026-04-30,Virginia House Democrats Caucus,"$7,500",Richmond,VA,business,House Caucus Dues,D,502507,2026-07-27
+expenditure,2026-04-29,Buffalo Wild Wings,$30,Stafford,VA,business,Campaign Meeting,D,502507,2026-07-27
 expenditure,2026-03-16,Tracey Green,"$1,000",Saint Petersburg,FL,individual,Campaign Administration,D,502507,2026-07-27
-expenditure,2026-03-04,Gusto,$80,San Francisco,CA,pac,Campaign HR,D,502507,2026-07-27
-expenditure,2026-03-10,Carter Bank,$25,Stafford,VA,pac,Bank Fees,D,502507,2026-07-27
-expenditure,2026-03-04,Tea Go Cafe,"$1,669.50",Stafford,VA,pac,Constituent Services,D,502507,2026-07-27
-expenditure,2026-03-20,Tea Go Cafe,$667.80,Stafford,VA,pac,Constituent Services,D,502507,2026-07-27
-expenditure,2026-03-09,Amazon,$7.40,Seattle,WA,pac,Supplies,D,502507,2026-07-27
-expenditure,2026-02-18,Digital Strategy Group,"$1,233.24",Washington,DC,pac,Digital Strategy,D,502507,2026-07-27
-expenditure,2026-03-13,Digital Strategy Group,$514.67,Washington,DC,pac,Digital Strategy Fees,D,502507,2026-07-27
-expenditure,2026-01-16,Meriwether,$4.54,Lynchburg,VA,pac,Breakfast Meeting,D,502507,2026-07-27
-expenditure,2026-02-25,Meriwether,$311.67,Lynchburg,VA,pac,Team Breakfast,D,502507,2026-07-27
-expenditure,2026-03-19,Meriwether,"$1,298.33",Lynchburg,VA,pac,Team Lunch Catering,D,502507,2026-07-27
-expenditure,2026-03-12,Treasurer of Virginia,$208.82,Richmond,VA,pac,Service Payment,D,502507,2026-07-27
-expenditure,2026-03-25,UMI Japanese Cuisine,$44.19,Stafford,VA,pac,Campaign Lunch,D,502507,2026-07-27
-expenditure,2026-02-23,Virginia Legislative Black Caucus,"$1,500",Dumfries,VA,pac,Caucus Dues,D,502507,2026-07-27
-expenditure,2026-02-10,State Farm,$72.82,Stafford,VA,pac,Insurance,D,502507,2026-07-27
-expenditure,2026-01-20,USPS,$156,Stafford,VA,pac,Postage,D,502507,2026-07-27
-expenditure,2026-02-03,USPS,$214,Stafford,VA,pac,USPS Post Office Box,D,502507,2026-07-27
-expenditure,2026-02-05,Virginia House of Delegates,$37,RIchmond,VA,pac,Office Expense,D,502507,2026-07-27
-expenditure,2026-02-26,Virginia House of Delegates,$25,RIchmond,VA,pac,Office Supplies,D,502507,2026-07-27
-expenditure,2026-02-11,Sheetz,$56.84,Stafford,VA,pac,Travel Expense for District Meeting,D,502507,2026-07-27
-expenditure,2026-02-13,Sheetz,$59.83,Stafford,VA,pac,Travel Expense for in District Meetings and Campaign,D,502507,2026-07-27
-expenditure,2026-02-17,WAWA,$79.39,Stafford,VA,pac,Ccampaign Travel Expense,D,502507,2026-07-27
-expenditure,2026-02-17,CVS,$29.99,Stafford,VA,pac,Supplies,D,502507,2026-07-27
-expenditure,2026-02-23,Domain Name Services,$265,Stafford,VA,pac,Domain Name Services,D,502507,2026-07-27
+expenditure,2026-03-04,Gusto,$80,San Francisco,CA,business,Campaign HR,D,502507,2026-07-27
+expenditure,2026-03-10,Carter Bank,$25,Stafford,VA,business,Bank Fees,D,502507,2026-07-27
+expenditure,2026-03-04,Tea Go Cafe,"$1,669.50",Stafford,VA,business,Constituent Services,D,502507,2026-07-27
+expenditure,2026-03-20,Tea Go Cafe,$667.80,Stafford,VA,business,Constituent Services,D,502507,2026-07-27
+expenditure,2026-03-09,Amazon,$7.40,Seattle,WA,business,Supplies,D,502507,2026-07-27
+expenditure,2026-02-18,Digital Strategy Group,"$1,233.24",Washington,DC,business,Digital Strategy,D,502507,2026-07-27
+expenditure,2026-03-13,Digital Strategy Group,$514.67,Washington,DC,business,Digital Strategy Fees,D,502507,2026-07-27
+expenditure,2026-01-16,Meriwether,$4.54,Lynchburg,VA,business,Breakfast Meeting,D,502507,2026-07-27
+expenditure,2026-02-25,Meriwether,$311.67,Lynchburg,VA,business,Team Breakfast,D,502507,2026-07-27
+expenditure,2026-03-19,Meriwether,"$1,298.33",Lynchburg,VA,business,Team Lunch Catering,D,502507,2026-07-27
+expenditure,2026-03-12,Treasurer of Virginia,$208.82,Richmond,VA,business,Service Payment,D,502507,2026-07-27
+expenditure,2026-03-25,UMI Japanese Cuisine,$44.19,Stafford,VA,business,Campaign Lunch,D,502507,2026-07-27
+expenditure,2026-02-23,Virginia Legislative Black Caucus,"$1,500",Dumfries,VA,business,Caucus Dues,D,502507,2026-07-27
+expenditure,2026-02-10,State Farm,$72.82,Stafford,VA,business,Insurance,D,502507,2026-07-27
+expenditure,2026-01-20,USPS,$156,Stafford,VA,business,Postage,D,502507,2026-07-27
+expenditure,2026-02-03,USPS,$214,Stafford,VA,business,USPS Post Office Box,D,502507,2026-07-27
+expenditure,2026-02-05,Virginia House of Delegates,$37,RIchmond,VA,business,Office Expense,D,502507,2026-07-27
+expenditure,2026-02-26,Virginia House of Delegates,$25,RIchmond,VA,business,Office Supplies,D,502507,2026-07-27
+expenditure,2026-02-11,Sheetz,$56.84,Stafford,VA,business,Travel Expense for District Meeting,D,502507,2026-07-27
+expenditure,2026-02-13,Sheetz,$59.83,Stafford,VA,business,Travel Expense for in District Meetings and Campaign,D,502507,2026-07-27
+expenditure,2026-02-17,WAWA,$79.39,Stafford,VA,business,Ccampaign Travel Expense,D,502507,2026-07-27
+expenditure,2026-02-17,CVS,$29.99,Stafford,VA,business,Supplies,D,502507,2026-07-27
+expenditure,2026-02-23,Domain Name Services,$265,Stafford,VA,business,Domain Name Services,D,502507,2026-07-27
 expenditure,2026-02-24,Stacey Carroll,$310,Stafford,VA,individual,Intern Stipend Reimbursement,D,502507,2026-07-27
 expenditure,2026-02-12,Stacey Carroll,$525,Stafford,VA,individual,reimbursement for Intern Stipend,D,502507,2026-07-27
-expenditure,2026-01-13,Virginia Museum of Richmond,$6,Richmond,VA,pac,Parking,D,502507,2026-07-27
-expenditure,2026-01-14,Margaret for Virginia,"$1,000",Woodbridge,VA,pac,Campaign Donation,D,502507,2026-07-27
-expenditure,2026-01-14,Omni Richmond,$20,Richmond,VA,pac,Parking,D,502507,2026-07-27
-expenditure,2026-01-13,Lillie Pearl Restaurant,$139.14,Richmond,VA,pac,Intern Team Lunch,D,502507,2026-07-27
-expenditure,2026-01-14,Paperless Post,$57,New York,NY,pac,Supplies,D,502507,2026-07-27
-expenditure,2026-06-05,Colonial Forge High School,$165.64,Stafford,VA,pac,Facility Rental Custodian Feww,D,502507,2026-07-27
+expenditure,2026-01-13,Virginia Museum of Richmond,$6,Richmond,VA,business,Parking,D,502507,2026-07-27
+expenditure,2026-01-14,Margaret for Virginia,"$1,000",Woodbridge,VA,business,Campaign Donation,D,502507,2026-07-27
+expenditure,2026-01-14,Omni Richmond,$20,Richmond,VA,business,Parking,D,502507,2026-07-27
+expenditure,2026-01-13,Lillie Pearl Restaurant,$139.14,Richmond,VA,business,Intern Team Lunch,D,502507,2026-07-27
+expenditure,2026-01-14,Paperless Post,$57,New York,NY,business,Supplies,D,502507,2026-07-27
+expenditure,2026-06-05,Colonial Forge High School,$165.64,Stafford,VA,business,Facility Rental Custodian Feww,D,502507,2026-07-27

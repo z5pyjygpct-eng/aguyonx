@@ -3,9 +3,9 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$50,067.75",,VA,,"From official Schedule H, November 2027 election cycle",H,494986,2026-07-13
 summary,2026-06-30,Raised this cycle,"$17,715",,,,Total receipts this election cycle (Schedule H),H,494986,2026-07-13
 summary,2026-06-30,Spent this cycle,"$9,024.47",,,,Total disbursements this election cycle (Schedule H),H,494986,2026-07-13
-contribution,2026-04-24,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,494986,2026-07-13
-contribution,2026-04-22,Anheuser Busch,$250,St. Louis,MO,pac,,A,494986,2026-07-13
-contribution,2026-04-17,Clean Virginia,"$7,500",Charlottesville,VA,pac,,A,494986,2026-07-13
+contribution,2026-04-24,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,494986,2026-07-13
+contribution,2026-04-22,Anheuser Busch,$250,St. Louis,MO,business,,A,494986,2026-07-13
+contribution,2026-04-17,Clean Virginia,"$7,500",Charlottesville,VA,business,,A,494986,2026-07-13
 contribution,2026-01-04,Joe Daniel,$500,Culpepper,VA,individual,,A,494986,2026-07-13
 contribution,2026-04-04,Joe Daniel,$500,Culpepper,VA,individual,,A,494986,2026-07-13
 contribution,2026-05-04,Joe Daniel,$500,Culpepper,VA,individual,,A,494986,2026-07-13
@@ -23,18 +23,18 @@ contribution,2026-06-30,Leah Argie,$500,Keswick,VA,individual,,A,494986,2026-07-
 contribution,2026-06-30,Robert J Maushammer,$250,Charlottesville,VA,individual,,A,494986,2026-07-13
 contribution,2026-01-08,Commercial Development Political Action Committee,$250,Alexandria,VA,pac,,A,494986,2026-07-13
 expenditure,2026-04-20,Albemarle Democratic Party,$250,Charlottesville,VA,party,Contribution to County Democratic Party,D,494986,2026-07-13
-expenditure,2026-02-02,EveryAction Inc,$367.50,Chicago,IL,pac,NGP VAN payment,D,494986,2026-07-13
-expenditure,2026-03-02,EveryAction Inc,$367.50,Chicago,IL,pac,NGP VAN payment,D,494986,2026-07-13
-expenditure,2026-03-09,EveryAction Inc,$367.50,Chicago,IL,pac,NGP VAN payment,D,494986,2026-07-13
-expenditure,2026-04-16,EveryAction Inc,$367.50,Chicago,IL,pac,payment for NGP VAN,D,494986,2026-07-13
-expenditure,2026-05-19,EveryAction Inc,$250,Chicago,IL,pac,payment for NGP VAN,D,494986,2026-07-13
-expenditure,2026-05-02,Rural Caucus,$250,Richmond,VA,pac,Rural Caucus contribution,D,494986,2026-07-13
-expenditure,2026-04-23,Commonwealth Victory Fund,$650,Richmond,VA,pac,contribution towards Commonwealth Victory Fund,D,494986,2026-07-13
-expenditure,2026-03-30,Clean Virginia,$0.01,Charlottesville,VA,pac,Clean Virginia,D,494986,2026-07-13
+expenditure,2026-02-02,EveryAction Inc,$367.50,Chicago,IL,business,NGP VAN payment,D,494986,2026-07-13
+expenditure,2026-03-02,EveryAction Inc,$367.50,Chicago,IL,business,NGP VAN payment,D,494986,2026-07-13
+expenditure,2026-03-09,EveryAction Inc,$367.50,Chicago,IL,business,NGP VAN payment,D,494986,2026-07-13
+expenditure,2026-04-16,EveryAction Inc,$367.50,Chicago,IL,business,payment for NGP VAN,D,494986,2026-07-13
+expenditure,2026-05-19,EveryAction Inc,$250,Chicago,IL,business,payment for NGP VAN,D,494986,2026-07-13
+expenditure,2026-05-02,Rural Caucus,$250,Richmond,VA,business,Rural Caucus contribution,D,494986,2026-07-13
+expenditure,2026-04-23,Commonwealth Victory Fund,$650,Richmond,VA,business,contribution towards Commonwealth Victory Fund,D,494986,2026-07-13
+expenditure,2026-03-30,Clean Virginia,$0.01,Charlottesville,VA,business,Clean Virginia,D,494986,2026-07-13
 expenditure,2026-04-03,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,caucus dues,D,494986,2026-07-13
 expenditure,2026-01-08,Abigail Hendrickson,$200,Charlottesville,VA,individual,staff payment,D,494986,2026-07-13
 expenditure,2026-05-31,Abigail Hendrickson,$200,Charlottesville,VA,individual,staff payment,D,494986,2026-07-13
-expenditure,2026-06-30,ActBlue,$364.46,Somerville,MA,pac,Actblue fees for fundraising period,D,494986,2026-07-13
-expenditure,2026-01-02,Virginia National Bank,$120,Charlottesville,VA,pac,24 statements,D,494986,2026-07-13
-expenditure,2026-01-06,Virginia National Bank,$70,Charlottesville,VA,pac,bank research fee,D,494986,2026-07-13
+expenditure,2026-06-30,ActBlue,$364.46,Somerville,MA,business,Actblue fees for fundraising period,D,494986,2026-07-13
+expenditure,2026-01-02,Virginia National Bank,$120,Charlottesville,VA,business,24 statements,D,494986,2026-07-13
+expenditure,2026-01-06,Virginia National Bank,$70,Charlottesville,VA,business,bank research fee,D,494986,2026-07-13
 expenditure,2026-01-17,Kelly Fleming,$200,Denver,CO,individual,staff payment,D,494986,2026-07-13

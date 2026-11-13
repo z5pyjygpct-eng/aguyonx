@@ -4,17 +4,17 @@ summary,2026-06-30,Cash on hand (ending balance),"$195,502.27",,VA,,"From offici
 summary,2026-06-30,Raised this cycle,"$68,147.95",,,,Total receipts this election cycle (Schedule H),H,495410,2026-07-14
 summary,2026-06-30,Spent this cycle,"$44,627.01",,,,Total disbursements this election cycle (Schedule H),H,495410,2026-07-14
 contribution,2026-04-24,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,A,495410,2026-07-14
-contribution,2026-06-05,"Altria Client Services, Inc","$5,000",Richmond,VA,pac,,A,495410,2026-07-14
+contribution,2026-06-05,"Altria Client Services, Inc","$5,000",Richmond,VA,business,,A,495410,2026-07-14
 contribution,2026-04-24,Mary R Coles,$250,Roanoke,VA,individual,,A,495410,2026-07-14
 contribution,2026-06-11,Dominion Energy Inc. PAC,"$25,000",Richmond,VA,pac,,A,495410,2026-07-14
 contribution,2026-01-05,Virginia Asphalt Association,"$1,000",Henrico,VA,pac,,A,495410,2026-07-14
-contribution,2026-01-14,Virginia Operators for Skill,"$2,500",Richmond,VA,pac,,A,495410,2026-07-14
-contribution,2026-04-24,Virginia Operators for Skill,"$5,000",Richmond,VA,pac,,A,495410,2026-07-14
+contribution,2026-01-14,Virginia Operators for Skill,"$2,500",Richmond,VA,business,,A,495410,2026-07-14
+contribution,2026-04-24,Virginia Operators for Skill,"$5,000",Richmond,VA,business,,A,495410,2026-07-14
 contribution,2026-01-12,Christopher Peace,$150,Mechanicsvill,VA,individual,,A,495410,2026-07-14
-contribution,2026-01-14,Rocket,"$1,500",Detroit,MI,pac,,A,495410,2026-07-14
-contribution,2026-06-09,Rocket,"$1,000",Detroit,MI,pac,,A,495410,2026-07-14
-contribution,2026-01-05,"Safelite Fullillment, Inc.",$500,Columbus,OH,pac,,A,495410,2026-07-14
-contribution,2026-04-10,"VGW Corporate Services (Luckyland, Inc.)","$10,000",Boulder,CO,pac,,A,495410,2026-07-14
+contribution,2026-01-14,Rocket,"$1,500",Detroit,MI,business,,A,495410,2026-07-14
+contribution,2026-06-09,Rocket,"$1,000",Detroit,MI,business,,A,495410,2026-07-14
+contribution,2026-01-05,"Safelite Fullillment, Inc.",$500,Columbus,OH,business,,A,495410,2026-07-14
+contribution,2026-04-10,"VGW Corporate Services (Luckyland, Inc.)","$10,000",Boulder,CO,business,,A,495410,2026-07-14
 contribution,2026-06-23,Jared Moon,$100,Lexington,VA,individual,,A,495410,2026-07-14
 contribution,2026-06-25,Glen Thompson,$250,Richmond,VA,individual,,A,495410,2026-07-14
 contribution,2026-01-14,HBAV BUILD-PAC,"$2,000",Richmond,VA,pac,,A,495410,2026-07-14
@@ -23,90 +23,90 @@ contribution,2026-01-14,Virginia Cable Political Action Committee,"$1,500",Richm
 contribution,2026-04-24,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,495410,2026-07-14
 contribution,2026-01-14,Virginia Manufactured & Modular,$500,Henrico,VA,pac,,A,495410,2026-07-14
 contribution,2026-06-05,Old Dominion Hwy PAC,$250,Charlottesville,VA,pac,,A,495410,2026-07-14
-other_receipt,2026-01-19,Wix.com,$3.12,San Francisco,CA,pac,Refund,C,495410,2026-07-14
-other_receipt,2026-04-10,"FP1 Strategies, LLC","$9,923.78",Arlington,VA,pac,Refund of Duplicate Payment,C,495410,2026-07-14
-other_receipt,2026-01-16,Men's Warehouse,$171.05,Roanoke,VA,pac,Refund,C,495410,2026-07-14
-expenditure,2026-03-12,Fincastle Herald,$10.50,Salem,VA,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-03-21,Fincastle Herald,$7,Salem,VA,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-06-12,Fincastle Herald,$10.50,Salem,VA,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-05-14,USPS,$12.90,Buchanan,VA,pac,Postage,D,495410,2026-07-14
-expenditure,2026-01-05,Bank of Botetourt,$20,Buchanan,VA,pac,Fees,D,495410,2026-07-14
-expenditure,2026-04-10,Bank of Botetourt,$15,Buchanan,VA,pac,Wire Fee,D,495410,2026-07-14
-expenditure,2026-05-20,Botetourt County Republican Committee,"$2,000",Daleville,VA,pac,Donation,D,495410,2026-07-14
+other_receipt,2026-01-19,Wix.com,$3.12,San Francisco,CA,business,Refund,C,495410,2026-07-14
+other_receipt,2026-04-10,"FP1 Strategies, LLC","$9,923.78",Arlington,VA,business,Refund of Duplicate Payment,C,495410,2026-07-14
+other_receipt,2026-01-16,Men's Warehouse,$171.05,Roanoke,VA,business,Refund,C,495410,2026-07-14
+expenditure,2026-03-12,Fincastle Herald,$10.50,Salem,VA,business,Subscription,D,495410,2026-07-14
+expenditure,2026-03-21,Fincastle Herald,$7,Salem,VA,business,Subscription,D,495410,2026-07-14
+expenditure,2026-06-12,Fincastle Herald,$10.50,Salem,VA,business,Subscription,D,495410,2026-07-14
+expenditure,2026-05-14,USPS,$12.90,Buchanan,VA,business,Postage,D,495410,2026-07-14
+expenditure,2026-01-05,Bank of Botetourt,$20,Buchanan,VA,business,Fees,D,495410,2026-07-14
+expenditure,2026-04-10,Bank of Botetourt,$15,Buchanan,VA,business,Wire Fee,D,495410,2026-07-14
+expenditure,2026-05-20,Botetourt County Republican Committee,"$2,000",Daleville,VA,business,Donation,D,495410,2026-07-14
 expenditure,2026-01-05,Republican Party of Virginia,"$16,000",Richmond,VA,party,Donation,D,495410,2026-07-14
-expenditure,2026-01-12,Food Lion,$55.17,Daleville,VA,pac,Supplies,D,495410,2026-07-14
-expenditure,2026-02-15,Food Lion,$40.34,Daleville,VA,pac,Supplies,D,495410,2026-07-14
-expenditure,2026-03-04,The Virginia Shop,$65,Richmond,VA,pac,Virginia Merchandise/Gifts,D,495410,2026-07-14
-expenditure,2026-06-02,Omni Homestead Resort,$218.32,Hot Springs,VA,pac,Lodging,D,495410,2026-07-14
-expenditure,2026-04-09,Go Daddy,$47.76,Scottsdale,AZ,pac,Web Services,D,495410,2026-07-14
-expenditure,2026-05-01,Go Daddy,$48.18,Scottsdale,AZ,pac,Website Services,D,495410,2026-07-14
-expenditure,2026-01-02,American Express,$34.70,Newark,NJ,pac,Fees,D,495410,2026-07-14
-expenditure,2026-02-02,American Express,$1.36,Newark,NJ,pac,Fees,D,495410,2026-07-14
-expenditure,2026-04-03,American Express,$67.22,Newark,NJ,pac,Fees,D,495410,2026-07-14
-expenditure,2026-05-03,American Express,$4.95,Newark,NJ,pac,Fees,D,495410,2026-07-14
+expenditure,2026-01-12,Food Lion,$55.17,Daleville,VA,business,Supplies,D,495410,2026-07-14
+expenditure,2026-02-15,Food Lion,$40.34,Daleville,VA,business,Supplies,D,495410,2026-07-14
+expenditure,2026-03-04,The Virginia Shop,$65,Richmond,VA,business,Virginia Merchandise/Gifts,D,495410,2026-07-14
+expenditure,2026-06-02,Omni Homestead Resort,$218.32,Hot Springs,VA,business,Lodging,D,495410,2026-07-14
+expenditure,2026-04-09,Go Daddy,$47.76,Scottsdale,AZ,business,Web Services,D,495410,2026-07-14
+expenditure,2026-05-01,Go Daddy,$48.18,Scottsdale,AZ,business,Website Services,D,495410,2026-07-14
+expenditure,2026-01-02,American Express,$34.70,Newark,NJ,business,Fees,D,495410,2026-07-14
+expenditure,2026-02-02,American Express,$1.36,Newark,NJ,business,Fees,D,495410,2026-07-14
+expenditure,2026-04-03,American Express,$67.22,Newark,NJ,business,Fees,D,495410,2026-07-14
+expenditure,2026-05-03,American Express,$4.95,Newark,NJ,business,Fees,D,495410,2026-07-14
 expenditure,2026-03-16,House Republican Committee,"$1,000",Richmond,VA,party,Donation,D,495410,2026-07-14
 expenditure,2026-03-16,House Republican Committee,"$9,000",Richmond,VA,party,Donation,D,495410,2026-07-14
 expenditure,2026-06-20,House Republican Committee,$400,Richmond,VA,party,Donation - GOP Retreat,D,495410,2026-07-14
-expenditure,2026-03-17,Amazon.Com,$102.14,Seattle,WA,pac,Supplies,D,495410,2026-07-14
-expenditure,2026-06-09,Virginia Media Inc.,$138.75,Salem,VA,pac,Advertising - Graduation,D,495410,2026-07-14
-expenditure,2026-04-16,Amazon Marketplace,$23.11,Orlando,FL,pac,Supplies,D,495410,2026-07-14
-expenditure,2026-01-26,Richmond Times Dispatch,$38.99,Richmond,VA,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-02-23,Richmond Times Dispatch,$38.99,Richmond,VA,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-03-23,Richmond Times Dispatch,$38.99,Richmond,VA,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-04-20,Richmond Times Dispatch,$38.99,Richmond,VA,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-05-18,Richmond Times Dispatch,$38.99,Richmond,VA,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-06-15,Richmond Times Dispatch,$38.99,Richmond,VA,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-01-06,Virginian Pilot,$56,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-01-19,Virginian Pilot,$34,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-02-03,Virginian Pilot,$56,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-02-16,Virginian Pilot,$34,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-03-03,Virginian Pilot,$56,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-03-16,Virginian Pilot,$34,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-03-31,Virginian Pilot,$56,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-04-13,Virginian Pilot,$34,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-04-28,Virginian Pilot,$56,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-05-11,Virginian Pilot,$34,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-05-26,Virginian Pilot,$56,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-06-08,Virginian Pilot,$49.96,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-06-23,Virginian Pilot,$56,Lewisville,TX,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-06-19,Hilton Norfolk - The Main,"$1,137.26",Norfolk,VA,pac,Lodging,D,495410,2026-07-14
-expenditure,2026-03-28,The Washington Post Company,$140,Washington,DC,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-01-11,Wix.com,$62.12,San Francisco,CA,pac,Website Services,D,495410,2026-07-14
-expenditure,2026-02-11,Wix.com,$59,San Francisco,CA,pac,Website Services,D,495410,2026-07-14
-expenditure,2026-03-11,Wix.com,$59,San Francisco,CA,pac,Website Services,D,495410,2026-07-14
-expenditure,2026-04-11,Wix.com,$59,San Francisco,CA,pac,Website Services,D,495410,2026-07-14
-expenditure,2026-04-11,Wix.com,$348,San Francisco,CA,pac,Website Services,D,495410,2026-07-14
-expenditure,2026-05-11,Wix.com,$59,San Francisco,CA,pac,Website Services,D,495410,2026-07-14
-expenditure,2026-06-11,Wix.com,$59,San Francisco,CA,pac,Web Services,D,495410,2026-07-14
-expenditure,2026-05-20,Covington Lumberjacks,$500,Covington,VA,pac,Donation,D,495410,2026-07-14
-expenditure,2026-05-18,Virginia House of Delegates,$7,Richmond,VA,pac,Office Supplies,D,495410,2026-07-14
-expenditure,2026-01-03,Virginia Scope,$60,Richmond,VA,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-01-12,Anedot,$6.30,New Orleans,LA,pac,Fees,D,495410,2026-07-14
-expenditure,2026-04-24,Anedot,$10.30,New Orleans,LA,pac,Fees,D,495410,2026-07-14
-expenditure,2026-04-24,Anedot,$4.30,New Orleans,LA,pac,Fees,D,495410,2026-07-14
-expenditure,2026-05-12,Anedot,$4.30,New Orleans,LA,pac,Fees,D,495410,2026-07-14
-expenditure,2026-05-18,Anedot,$4.30,New Orleans,LA,pac,Fees,D,495410,2026-07-14
-expenditure,2026-06-23,Anedot,$4.30,New Orleans,LA,pac,Fees,D,495410,2026-07-14
-expenditure,2026-06-25,Anedot,$10.30,New Orleans,LA,pac,Fees,D,495410,2026-07-14
-expenditure,2026-03-02,WVJT LLC,$750,Covington,VA,pac,Advertising,D,495410,2026-07-14
-expenditure,2026-06-01,WVJT LLC,$750,Covington,VA,pac,Advertising,D,495410,2026-07-14
-expenditure,2026-01-24,WSJ Online,$7,New York,NY,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-02-21,WSJ Online,$7,New York,NY,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-04-18,WSJ Online,$54.99,New York,NY,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-05-14,WSJ Online,$54.99,New York,NY,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-06-13,WSJ Online,$54.99,New York,NY,pac,Subscription,D,495410,2026-07-14
-expenditure,2026-05-11,Sam's Club,$419.09,Roanoke,VA,pac,Television for Presentations,D,495410,2026-07-14
-expenditure,2026-01-03,Cardinal Productions,$500,Roanoke,VA,pac,Donation,D,495410,2026-07-14
-expenditure,2026-01-15,Alleghany County High School - Youth in Government,$450,Covington,VA,pac,Donation,D,495410,2026-07-14
-expenditure,2026-02-26,Friends of Andrew Rice,"$5,000",Virginia Beach,VA,pac,Donation,D,495410,2026-07-14
-expenditure,2026-02-20,VCU Massey Cancer Center,"$1,000",Richmond,VA,pac,Donation,D,495410,2026-07-14
-expenditure,2026-04-07,Rockbridge Area Republican Committee,$300,Lexington,VA,pac,Donation,D,495410,2026-07-14
+expenditure,2026-03-17,Amazon.Com,$102.14,Seattle,WA,business,Supplies,D,495410,2026-07-14
+expenditure,2026-06-09,Virginia Media Inc.,$138.75,Salem,VA,business,Advertising - Graduation,D,495410,2026-07-14
+expenditure,2026-04-16,Amazon Marketplace,$23.11,Orlando,FL,business,Supplies,D,495410,2026-07-14
+expenditure,2026-01-26,Richmond Times Dispatch,$38.99,Richmond,VA,business,Subscription,D,495410,2026-07-14
+expenditure,2026-02-23,Richmond Times Dispatch,$38.99,Richmond,VA,business,Subscription,D,495410,2026-07-14
+expenditure,2026-03-23,Richmond Times Dispatch,$38.99,Richmond,VA,business,Subscription,D,495410,2026-07-14
+expenditure,2026-04-20,Richmond Times Dispatch,$38.99,Richmond,VA,business,Subscription,D,495410,2026-07-14
+expenditure,2026-05-18,Richmond Times Dispatch,$38.99,Richmond,VA,business,Subscription,D,495410,2026-07-14
+expenditure,2026-06-15,Richmond Times Dispatch,$38.99,Richmond,VA,business,Subscription,D,495410,2026-07-14
+expenditure,2026-01-06,Virginian Pilot,$56,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-01-19,Virginian Pilot,$34,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-02-03,Virginian Pilot,$56,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-02-16,Virginian Pilot,$34,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-03-03,Virginian Pilot,$56,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-03-16,Virginian Pilot,$34,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-03-31,Virginian Pilot,$56,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-04-13,Virginian Pilot,$34,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-04-28,Virginian Pilot,$56,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-05-11,Virginian Pilot,$34,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-05-26,Virginian Pilot,$56,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-06-08,Virginian Pilot,$49.96,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-06-23,Virginian Pilot,$56,Lewisville,TX,business,Subscription,D,495410,2026-07-14
+expenditure,2026-06-19,Hilton Norfolk - The Main,"$1,137.26",Norfolk,VA,business,Lodging,D,495410,2026-07-14
+expenditure,2026-03-28,The Washington Post Company,$140,Washington,DC,business,Subscription,D,495410,2026-07-14
+expenditure,2026-01-11,Wix.com,$62.12,San Francisco,CA,business,Website Services,D,495410,2026-07-14
+expenditure,2026-02-11,Wix.com,$59,San Francisco,CA,business,Website Services,D,495410,2026-07-14
+expenditure,2026-03-11,Wix.com,$59,San Francisco,CA,business,Website Services,D,495410,2026-07-14
+expenditure,2026-04-11,Wix.com,$59,San Francisco,CA,business,Website Services,D,495410,2026-07-14
+expenditure,2026-04-11,Wix.com,$348,San Francisco,CA,business,Website Services,D,495410,2026-07-14
+expenditure,2026-05-11,Wix.com,$59,San Francisco,CA,business,Website Services,D,495410,2026-07-14
+expenditure,2026-06-11,Wix.com,$59,San Francisco,CA,business,Web Services,D,495410,2026-07-14
+expenditure,2026-05-20,Covington Lumberjacks,$500,Covington,VA,business,Donation,D,495410,2026-07-14
+expenditure,2026-05-18,Virginia House of Delegates,$7,Richmond,VA,business,Office Supplies,D,495410,2026-07-14
+expenditure,2026-01-03,Virginia Scope,$60,Richmond,VA,business,Subscription,D,495410,2026-07-14
+expenditure,2026-01-12,Anedot,$6.30,New Orleans,LA,business,Fees,D,495410,2026-07-14
+expenditure,2026-04-24,Anedot,$10.30,New Orleans,LA,business,Fees,D,495410,2026-07-14
+expenditure,2026-04-24,Anedot,$4.30,New Orleans,LA,business,Fees,D,495410,2026-07-14
+expenditure,2026-05-12,Anedot,$4.30,New Orleans,LA,business,Fees,D,495410,2026-07-14
+expenditure,2026-05-18,Anedot,$4.30,New Orleans,LA,business,Fees,D,495410,2026-07-14
+expenditure,2026-06-23,Anedot,$4.30,New Orleans,LA,business,Fees,D,495410,2026-07-14
+expenditure,2026-06-25,Anedot,$10.30,New Orleans,LA,business,Fees,D,495410,2026-07-14
+expenditure,2026-03-02,WVJT LLC,$750,Covington,VA,business,Advertising,D,495410,2026-07-14
+expenditure,2026-06-01,WVJT LLC,$750,Covington,VA,business,Advertising,D,495410,2026-07-14
+expenditure,2026-01-24,WSJ Online,$7,New York,NY,business,Subscription,D,495410,2026-07-14
+expenditure,2026-02-21,WSJ Online,$7,New York,NY,business,Subscription,D,495410,2026-07-14
+expenditure,2026-04-18,WSJ Online,$54.99,New York,NY,business,Subscription,D,495410,2026-07-14
+expenditure,2026-05-14,WSJ Online,$54.99,New York,NY,business,Subscription,D,495410,2026-07-14
+expenditure,2026-06-13,WSJ Online,$54.99,New York,NY,business,Subscription,D,495410,2026-07-14
+expenditure,2026-05-11,Sam's Club,$419.09,Roanoke,VA,business,Television for Presentations,D,495410,2026-07-14
+expenditure,2026-01-03,Cardinal Productions,$500,Roanoke,VA,business,Donation,D,495410,2026-07-14
+expenditure,2026-01-15,Alleghany County High School - Youth in Government,$450,Covington,VA,business,Donation,D,495410,2026-07-14
+expenditure,2026-02-26,Friends of Andrew Rice,"$5,000",Virginia Beach,VA,business,Donation,D,495410,2026-07-14
+expenditure,2026-02-20,VCU Massey Cancer Center,"$1,000",Richmond,VA,business,Donation,D,495410,2026-07-14
+expenditure,2026-04-07,Rockbridge Area Republican Committee,$300,Lexington,VA,business,Donation,D,495410,2026-07-14
 expenditure,2026-03-09,Wave for Congress,"$1,000",RIchmond,VA,candidate,Donation,D,495410,2026-07-14
-expenditure,2026-01-05,Sheetz,$61.88,Rocky Mount,VA,pac,Fuel,D,495410,2026-07-14
-expenditure,2026-01-05,EB * Commonwealth Prayer Breakfast,$55.20,San Francisco,CA,pac,Prayer Breakfast Tickets,D,495410,2026-07-14
-expenditure,2026-02-12,FTD,$116.58,Downers Grove,IL,pac,Flowers (Administrative Assistant),D,495410,2026-07-14
-expenditure,2026-02-21,FTD,$264.98,Downers Grove,IL,pac,Flowers (Barry Knight Funeral),D,495410,2026-07-14
-expenditure,2026-02-18,Chipotle,$739.46,Denver,CO,pac,Food for Pages,D,495410,2026-07-14
-expenditure,2026-03-13,Giftly,$159,San Francisco,CA,pac,Acknowledgement,D,495410,2026-07-14
-expenditure,2026-03-13,Giftly,$108,San Francisco,CA,pac,Acknowledgement,D,495410,2026-07-14
-expenditure,2026-05-11,Best Buy,$11.57,Roanoke,VA,pac,Supplies,D,495410,2026-07-14
+expenditure,2026-01-05,Sheetz,$61.88,Rocky Mount,VA,business,Fuel,D,495410,2026-07-14
+expenditure,2026-01-05,EB * Commonwealth Prayer Breakfast,$55.20,San Francisco,CA,business,Prayer Breakfast Tickets,D,495410,2026-07-14
+expenditure,2026-02-12,FTD,$116.58,Downers Grove,IL,business,Flowers (Administrative Assistant),D,495410,2026-07-14
+expenditure,2026-02-21,FTD,$264.98,Downers Grove,IL,business,Flowers (Barry Knight Funeral),D,495410,2026-07-14
+expenditure,2026-02-18,Chipotle,$739.46,Denver,CO,business,Food for Pages,D,495410,2026-07-14
+expenditure,2026-03-13,Giftly,$159,San Francisco,CA,business,Acknowledgement,D,495410,2026-07-14
+expenditure,2026-03-13,Giftly,$108,San Francisco,CA,business,Acknowledgement,D,495410,2026-07-14
+expenditure,2026-05-11,Best Buy,$11.57,Roanoke,VA,business,Supplies,D,495410,2026-07-14

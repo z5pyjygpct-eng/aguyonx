@@ -3,141 +3,141 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$199,914.77",,VA,,"From official Schedule H, November 2025 election cycle",H,496818,2026-07-15
 summary,2026-06-30,Raised this cycle,"$2,736,884.81",,,,Total receipts this election cycle (Schedule H),H,496818,2026-07-15
 summary,2026-06-30,Spent this cycle,"$2,698,709.23",,,,Total disbursements this election cycle (Schedule H),H,496818,2026-07-15
-contribution,2025-12-17,Allen Alllen Allen & Allen,"$1,000",Richmond,VA,pac,,A,479879,2026-01-15
+contribution,2025-12-17,Allen Alllen Allen & Allen,"$1,000",Richmond,VA,business,,A,479879,2026-01-15
 contribution,2025-12-08,Patricia Boland,$10,Midlothian,VA,individual,,A,479879,2026-01-15
 contribution,2025-12-26,Stephen Eldridge,$10,Midlothian,VA,individual,,A,479879,2026-01-15
 contribution,2025-12-22,David Fisher,$50,Greenville,VA,individual,,A,479879,2026-01-15
 contribution,2025-11-30,Emilie Larson,$50,Vienna,VA,individual,,A,479879,2026-01-15
 contribution,2025-12-29,Joanne Sweeney,$5,Midlothian,VA,individual,,A,479879,2026-01-15
 contribution,2025-11-30,Ashley Taylor,$10,North Chesterfield,VA,individual,,A,479879,2026-01-15
-contribution,2025-12-17,VA BEVERAGE ASSOCIATION,$750,Richmond,VA,pac,,A,479879,2026-01-15
+contribution,2025-12-17,VA BEVERAGE ASSOCIATION,$750,Richmond,VA,business,,A,479879,2026-01-15
 contribution,2025-12-17,VDA PAC,"$1,000",Richmond,VA,pac,,A,479879,2026-01-15
-contribution,2025-12-22,VIRGINIA BEER WHOLESALERS ASSOCIATION,$500,Richmond,VA,pac,,A,479879,2026-01-15
-contribution,2025-12-17,VIRGINIA WINE WHOLESALERS,"$1,000",Richmond,VA,pac,,A,479879,2026-01-15
+contribution,2025-12-22,VIRGINIA BEER WHOLESALERS ASSOCIATION,$500,Richmond,VA,business,,A,479879,2026-01-15
+contribution,2025-12-17,VIRGINIA WINE WHOLESALERS,"$1,000",Richmond,VA,business,,A,479879,2026-01-15
 contribution,2025-12-23,James Wetzel,$20,Midlothian,VA,individual,,A,479879,2026-01-15
 contribution,2025-12-27,Sara Louise Woodington,$17,Midlothian,VA,individual,,A,479879,2026-01-15
-contribution,2026-05-20,Acadia,"$2,500",San Diego,CA,pac,,A,496818,2026-07-15
-contribution,2026-05-21,Alllen Allen Allen & Allen,"$2,000",Richmond,VA,pac,,A,496818,2026-07-15
+contribution,2026-05-20,Acadia,"$2,500",San Diego,CA,business,,A,496818,2026-07-15
+contribution,2026-05-21,Alllen Allen Allen & Allen,"$2,000",Richmond,VA,business,,A,496818,2026-07-15
 contribution,2026-01-04,Betting on VA Jobs,"$2,000",Richmond,VA,pac,,A,496818,2026-07-15
-contribution,2026-05-21,Cantor Grana Buckner Bucci,"$1,000",Richmond,VA,pac,,A,496818,2026-07-15
-contribution,2026-04-17,Clean Virginia,"$5,000",Charlottesville,VA,pac,,A,496818,2026-07-15
-contribution,2026-06-26,Clean Virginia,"$25,000",Charlottesville,VA,pac,,A,496818,2026-07-15
-contribution,2026-06-27,Commonwealth Law Group,"$1,500",Richmond,VA,pac,,A,496818,2026-07-15
+contribution,2026-05-21,Cantor Grana Buckner Bucci,"$1,000",Richmond,VA,business,,A,496818,2026-07-15
+contribution,2026-04-17,Clean Virginia,"$5,000",Charlottesville,VA,business,,A,496818,2026-07-15
+contribution,2026-06-26,Clean Virginia,"$25,000",Charlottesville,VA,business,,A,496818,2026-07-15
+contribution,2026-06-27,Commonwealth Law Group,"$1,500",Richmond,VA,business,,A,496818,2026-07-15
 contribution,2026-01-07,COmmunity-Owned Power PAC,$500,Glen Allen,VA,pac,,A,496818,2026-07-15
-contribution,2026-01-04,HCA For Good Government,"$2,500",Richmond,VA,pac,,A,496818,2026-07-15
-contribution,2026-03-23,Hunton Andrews Kurth LLP,$500,Richmond,VA,pac,,A,496818,2026-07-15
+contribution,2026-01-04,HCA For Good Government,"$2,500",Richmond,VA,business,,A,496818,2026-07-15
+contribution,2026-03-23,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,A,496818,2026-07-15
 contribution,2026-01-07,IBEW PAC Voluntary Fund,"$2,000",Washington,DC,pac,,A,496818,2026-07-15
-contribution,2026-05-21,Lantz & Robins,$750,Richmond,VA,pac,,A,496818,2026-07-15
-contribution,2026-05-21,Phelan Petty Trial Attorneys,$250,Richmond,VA,pac,,A,496818,2026-07-15
-contribution,2026-05-21,Reid Goodwin,$250,Richmond,VA,pac,,A,496818,2026-07-15
+contribution,2026-05-21,Lantz & Robins,$750,Richmond,VA,business,,A,496818,2026-07-15
+contribution,2026-05-21,Phelan Petty Trial Attorneys,$250,Richmond,VA,business,,A,496818,2026-07-15
+contribution,2026-05-21,Reid Goodwin,$250,Richmond,VA,business,,A,496818,2026-07-15
 contribution,2026-05-21,Drew Sarrett,"$1,000",Henrico,VA,individual,,A,496818,2026-07-15
 contribution,2026-05-21,Trucker Political Action Committee of VA,$250,Richmond,VA,pac,,A,496818,2026-07-15
-contribution,2026-01-04,VA OPERATORS FOR SKILL,"$1,000",Richmond,VA,pac,,A,496818,2026-07-15
-contribution,2026-06-27,VA Trial Lawyers,"$2,500",Richmond,VA,pac,,A,496818,2026-07-15
+contribution,2026-01-04,VA OPERATORS FOR SKILL,"$1,000",Richmond,VA,business,,A,496818,2026-07-15
+contribution,2026-06-27,VA Trial Lawyers,"$2,500",Richmond,VA,business,,A,496818,2026-07-15
 contribution,2026-01-07,Virginia Automobile & Truck Dealers PAC,$250,Richmond,VA,pac,,A,496818,2026-07-15
-contribution,2026-01-07,Virginia Sherriff's Assocication,$250,Richmond,VA,pac,,A,496818,2026-07-15
-contribution,2026-01-04,Virginia Trial Lawyers,"$3,000",Richmond,VA,pac,,A,496818,2026-07-15
+contribution,2026-01-07,Virginia Sherriff's Assocication,$250,Richmond,VA,business,,A,496818,2026-07-15
+contribution,2026-01-04,Virginia Trial Lawyers,"$3,000",Richmond,VA,business,,A,496818,2026-07-15
 contribution,2026-05-21,Rachel Yates,$250,Henrico,VA,individual,,A,496818,2026-07-15
-expenditure,2025-11-28,Gusto LLC,"$2,063.36",Springfield,MO,pac,Payroll Taxes,D,479879,2026-01-15
+expenditure,2025-11-28,Gusto LLC,"$2,063.36",Springfield,MO,business,Payroll Taxes,D,479879,2026-01-15
 expenditure,2025-11-28,Audrey Kranc,"$4,018.86",Richmond,VA,individual,Employee Salary,D,479879,2026-01-15
 expenditure,2025-11-28,Audrey Kranc,$30,Richmond,VA,individual,Reimbursement,D,479879,2026-01-15
-expenditure,2025-11-30,ActBlue,$8.55,West Somerville,MA,pac,Processing Fee,D,479879,2026-01-15
-expenditure,2025-12-01,Google Inc.,$57.60,Mountain View,CA,pac,Google Suite,D,479879,2026-01-15
-expenditure,2025-12-03,Democracy Engine,$0.25,Washington,DC,pac,Processing Fee,D,479879,2026-01-15
-expenditure,2025-12-03,Gusto LLC,$116,Springfield,MO,pac,Payroll Fee,D,479879,2026-01-15
-expenditure,2025-12-03,Public Storage,$32.13,Glendale,CA,pac,Storage,D,479879,2026-01-15
+expenditure,2025-11-30,ActBlue,$8.55,West Somerville,MA,business,Processing Fee,D,479879,2026-01-15
+expenditure,2025-12-01,Google Inc.,$57.60,Mountain View,CA,business,Google Suite,D,479879,2026-01-15
+expenditure,2025-12-03,Democracy Engine,$0.25,Washington,DC,business,Processing Fee,D,479879,2026-01-15
+expenditure,2025-12-03,Gusto LLC,$116,Springfield,MO,business,Payroll Fee,D,479879,2026-01-15
+expenditure,2025-12-03,Public Storage,$32.13,Glendale,CA,business,Storage,D,479879,2026-01-15
 expenditure,2025-12-05,Abbi Easter,"$3,500",North Chesterfield,VA,individual,General Consultant,D,479879,2026-01-15
-expenditure,2025-12-05,Grassroots Analytics,$500,Washington,DC,pac,Data Consulting,D,479879,2026-01-15
-expenditure,2025-12-05,Optimize Services LLC,"$3,600",Boston,MA,pac,Operations Consulting,D,479879,2026-01-15
-expenditure,2025-12-07,ActBlue,$0.60,West Somerville,MA,pac,Processing Fee,D,479879,2026-01-15
-expenditure,2025-12-10,"Pressable, Inc.",$45,San Francisco,CA,pac,Web Hosting,D,479879,2026-01-15
-expenditure,2025-12-14,ActBlue,$1.99,West Somerville,MA,pac,Processing Fee,D,479879,2026-01-15
-expenditure,2025-12-17,Canva,$40,Austin,TX,pac,Photo Editing Software,D,479879,2026-01-15
-expenditure,2025-12-21,ActBlue,$0.80,West Somerville,MA,pac,Processing Fee,D,479879,2026-01-15
-expenditure,2025-12-22,Shannon Taylor for Virginia,$500,Midlothian,VA,pac,Contribution,D,479879,2026-01-15
-expenditure,2025-12-24,Bank of America,$30,Charlotte,NC,pac,Transfer Fee,D,479879,2026-01-15
+expenditure,2025-12-05,Grassroots Analytics,$500,Washington,DC,business,Data Consulting,D,479879,2026-01-15
+expenditure,2025-12-05,Optimize Services LLC,"$3,600",Boston,MA,business,Operations Consulting,D,479879,2026-01-15
+expenditure,2025-12-07,ActBlue,$0.60,West Somerville,MA,business,Processing Fee,D,479879,2026-01-15
+expenditure,2025-12-10,"Pressable, Inc.",$45,San Francisco,CA,business,Web Hosting,D,479879,2026-01-15
+expenditure,2025-12-14,ActBlue,$1.99,West Somerville,MA,business,Processing Fee,D,479879,2026-01-15
+expenditure,2025-12-17,Canva,$40,Austin,TX,business,Photo Editing Software,D,479879,2026-01-15
+expenditure,2025-12-21,ActBlue,$0.80,West Somerville,MA,business,Processing Fee,D,479879,2026-01-15
+expenditure,2025-12-22,Shannon Taylor for Virginia,$500,Midlothian,VA,business,Contribution,D,479879,2026-01-15
+expenditure,2025-12-24,Bank of America,$30,Charlotte,NC,business,Transfer Fee,D,479879,2026-01-15
 expenditure,2025-12-24,House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Dues,D,479879,2026-01-15
-expenditure,2025-12-24,Virginia Department of Elections,$71.30,Richmond,VA,pac,Dept of Election Fee,D,479879,2026-01-15
-expenditure,2025-12-24,Virginia Department of Elections,"$3,100",Richmond,VA,pac,Dept of Election Fee,D,479879,2026-01-15
-expenditure,2025-12-28,ActBlue,$8.11,West Somerville,MA,pac,Processing Fee,D,479879,2026-01-15
-expenditure,2025-12-29,Punch Bowl,$95.88,Framingham,MA,pac,Invitation Software,D,479879,2026-01-15
-expenditure,2025-12-29,Staples,$115.47,Framingham,MA,pac,Office Supplies,D,479879,2026-01-15
-expenditure,2025-12-31,ActBlue,$0.99,West Somerville,MA,pac,Processing Fee,D,479879,2026-01-15
+expenditure,2025-12-24,Virginia Department of Elections,$71.30,Richmond,VA,business,Dept of Election Fee,D,479879,2026-01-15
+expenditure,2025-12-24,Virginia Department of Elections,"$3,100",Richmond,VA,business,Dept of Election Fee,D,479879,2026-01-15
+expenditure,2025-12-28,ActBlue,$8.11,West Somerville,MA,business,Processing Fee,D,479879,2026-01-15
+expenditure,2025-12-29,Punch Bowl,$95.88,Framingham,MA,business,Invitation Software,D,479879,2026-01-15
+expenditure,2025-12-29,Staples,$115.47,Framingham,MA,business,Office Supplies,D,479879,2026-01-15
+expenditure,2025-12-31,ActBlue,$0.99,West Somerville,MA,business,Processing Fee,D,479879,2026-01-15
 expenditure,2025-12-31,Joseph Crosby,"$2,500",Richmond,VA,individual,Contractor Payment,D,479879,2026-01-15
-expenditure,2025-12-31,Democracy Engine,$0.26,Washington,DC,pac,Processing Fee,D,479879,2026-01-15
-expenditure,2025-12-31,Gusto LLC,"$2,387.36",Springfield,MO,pac,Payroll taxes,D,479879,2026-01-15
+expenditure,2025-12-31,Democracy Engine,$0.26,Washington,DC,business,Processing Fee,D,479879,2026-01-15
+expenditure,2025-12-31,Gusto LLC,"$2,387.36",Springfield,MO,business,Payroll taxes,D,479879,2026-01-15
 expenditure,2025-12-31,Audrey Kranc,"$4,469.11",Richmond,VA,individual,Employee Salary,D,479879,2026-01-15
-expenditure,2026-01-02,Google Inc.,$59.22,Mountain View,CA,pac,Web hosting,D,496818,2026-07-15
-expenditure,2026-01-04,ActBlue,$0.60,West Somerville,MA,pac,Processing fee,D,496818,2026-07-15
-expenditure,2026-01-05,Gusto,$104,Springfield,MO,pac,Payroll taxes,D,496818,2026-07-15
-expenditure,2026-01-05,Public Storage,$36.67,Glendale,CA,pac,Storage,D,496818,2026-07-15
-expenditure,2026-01-06,USPS,$156,Moseley,VA,pac,PO Box,D,496818,2026-07-15
-expenditure,2026-01-12,"Pressable, Inc.",$45,San Antonio,TX,pac,Web hosting,D,496818,2026-07-15
-expenditure,2026-01-12,Target Corporation,$170.19,Minneapolis,MN,pac,office supplies,D,496818,2026-07-15
-expenditure,2026-01-20,Canva,$40,Austin,TX,pac,Photo editing software,D,496818,2026-07-15
-expenditure,2026-01-26,Panera Bread,$64.75,Saint Louis,MO,pac,Staff lunch,D,496818,2026-07-15
-expenditure,2026-01-28,Meriwether Godsey,$648,Richmond,VA,pac,Catering,D,496818,2026-07-15
-expenditure,2026-01-30,Gusto,$73.60,Springfield,MO,pac,Payroll processing fee,D,496818,2026-07-15
+expenditure,2026-01-02,Google Inc.,$59.22,Mountain View,CA,business,Web hosting,D,496818,2026-07-15
+expenditure,2026-01-04,ActBlue,$0.60,West Somerville,MA,business,Processing fee,D,496818,2026-07-15
+expenditure,2026-01-05,Gusto,$104,Springfield,MO,business,Payroll taxes,D,496818,2026-07-15
+expenditure,2026-01-05,Public Storage,$36.67,Glendale,CA,business,Storage,D,496818,2026-07-15
+expenditure,2026-01-06,USPS,$156,Moseley,VA,business,PO Box,D,496818,2026-07-15
+expenditure,2026-01-12,"Pressable, Inc.",$45,San Antonio,TX,business,Web hosting,D,496818,2026-07-15
+expenditure,2026-01-12,Target Corporation,$170.19,Minneapolis,MN,business,office supplies,D,496818,2026-07-15
+expenditure,2026-01-20,Canva,$40,Austin,TX,business,Photo editing software,D,496818,2026-07-15
+expenditure,2026-01-26,Panera Bread,$64.75,Saint Louis,MO,business,Staff lunch,D,496818,2026-07-15
+expenditure,2026-01-28,Meriwether Godsey,$648,Richmond,VA,business,Catering,D,496818,2026-07-15
+expenditure,2026-01-30,Gusto,$73.60,Springfield,MO,business,Payroll processing fee,D,496818,2026-07-15
 expenditure,2026-01-30,Audrey Kranc,$369.40,Moseley,VA,individual,Employee Salary,D,496818,2026-07-15
-expenditure,2026-02-02,Google Inc.,$60,Mountain View,CA,pac,Gsuite,D,496818,2026-07-15
-expenditure,2026-02-03,Public Storage,$48,Glendale,CA,pac,storage,D,496818,2026-07-15
-expenditure,2026-02-04,Gusto,$104,Springfield,MO,pac,Payroll taxes,D,496818,2026-07-15
-expenditure,2026-02-09,Buttermilk and Honey,$53.52,Richmond,VA,pac,Staff lunch,D,496818,2026-07-15
-expenditure,2026-02-12,"Pressable, Inc.",$45,San Antonio,TX,pac,web hosting,D,496818,2026-07-15
-expenditure,2026-02-13,Target Corporation,$322.89,Minneapolis,MN,pac,office supplies,D,496818,2026-07-15
-expenditure,2026-02-17,Canva,$40,Austin,TX,pac,Photo editing software,D,496818,2026-07-15
-expenditure,2026-02-24,NGP VAN,"$1,554",Washington,DC,pac,Data software,D,496818,2026-07-15
-expenditure,2026-03-02,Google Inc.,$60,Mountain View,CA,pac,Gsuite,D,496818,2026-07-15
-expenditure,2026-03-02,Gusto,$73.60,Springfield,MO,pac,Payroll processing fee,D,496818,2026-07-15
+expenditure,2026-02-02,Google Inc.,$60,Mountain View,CA,business,Gsuite,D,496818,2026-07-15
+expenditure,2026-02-03,Public Storage,$48,Glendale,CA,business,storage,D,496818,2026-07-15
+expenditure,2026-02-04,Gusto,$104,Springfield,MO,business,Payroll taxes,D,496818,2026-07-15
+expenditure,2026-02-09,Buttermilk and Honey,$53.52,Richmond,VA,business,Staff lunch,D,496818,2026-07-15
+expenditure,2026-02-12,"Pressable, Inc.",$45,San Antonio,TX,business,web hosting,D,496818,2026-07-15
+expenditure,2026-02-13,Target Corporation,$322.89,Minneapolis,MN,business,office supplies,D,496818,2026-07-15
+expenditure,2026-02-17,Canva,$40,Austin,TX,business,Photo editing software,D,496818,2026-07-15
+expenditure,2026-02-24,NGP VAN,"$1,554",Washington,DC,business,Data software,D,496818,2026-07-15
+expenditure,2026-03-02,Google Inc.,$60,Mountain View,CA,business,Gsuite,D,496818,2026-07-15
+expenditure,2026-03-02,Gusto,$73.60,Springfield,MO,business,Payroll processing fee,D,496818,2026-07-15
 expenditure,2026-03-02,Audrey Kranc,$369.40,Moseley,VA,individual,Employee salary,D,496818,2026-07-15
 expenditure,2026-03-02,Audrey Kranc,$164.17,Moseley,VA,individual,reimbursement- office supplies,D,496818,2026-07-15
-expenditure,2026-03-03,Public Storage,$48,Glendale,CA,pac,storage,D,496818,2026-07-15
-expenditure,2026-03-04,Gusto,$92,Springfield,MO,pac,Payroll taxes,D,496818,2026-07-15
-expenditure,2026-03-09,Panera Bread,$48.27,Saint Louis,MO,pac,Staff breakfast,D,496818,2026-07-15
-expenditure,2026-03-12,"Pressable, Inc.",$45,San Antonio,TX,pac,web hosting,D,496818,2026-07-15
-expenditure,2026-03-13,Gusto,$73.60,Springfield,MO,pac,Payroll processing fee,D,496818,2026-07-15
+expenditure,2026-03-03,Public Storage,$48,Glendale,CA,business,storage,D,496818,2026-07-15
+expenditure,2026-03-04,Gusto,$92,Springfield,MO,business,Payroll taxes,D,496818,2026-07-15
+expenditure,2026-03-09,Panera Bread,$48.27,Saint Louis,MO,business,Staff breakfast,D,496818,2026-07-15
+expenditure,2026-03-12,"Pressable, Inc.",$45,San Antonio,TX,business,web hosting,D,496818,2026-07-15
+expenditure,2026-03-13,Gusto,$73.60,Springfield,MO,business,Payroll processing fee,D,496818,2026-07-15
 expenditure,2026-03-13,Audrey Kranc,$369.40,Moseley,VA,individual,Employee salary,D,496818,2026-07-15
-expenditure,2026-03-17,Canva,$40,Austin,TX,pac,Photo editing software,D,496818,2026-07-15
+expenditure,2026-03-17,Canva,$40,Austin,TX,business,Photo editing software,D,496818,2026-07-15
 expenditure,2026-03-31,Jospeph Crosby,"$1,000",Richmond,VA,individual,employee salary,D,496818,2026-07-15
-expenditure,2026-03-31,Virginia Legislative Black Caucus,"$1,500",Richmond,VA,pac,dues,D,496818,2026-07-15
-expenditure,2026-04-01,Google Inc.,$60,Mountain View,CA,pac,Gsuite,D,496818,2026-07-15
-expenditure,2026-04-03,Gusto,$104,Springfield,MO,pac,Payroll taxes,D,496818,2026-07-15
-expenditure,2026-04-03,Public Storage,$62,Glendale,CA,pac,storage,D,496818,2026-07-15
-expenditure,2026-04-07,JAMRA SPECIALTY COFFEE,$50.87,Richmond,VA,pac,Staff lunch,D,496818,2026-07-15
-expenditure,2026-04-08,Ricks Custom Frame,$201.36,Richmond,VA,pac,Framing,D,496818,2026-07-15
-expenditure,2026-04-09,NGP VAN,"$2,331",Washington,DC,pac,Data software,D,496818,2026-07-15
-expenditure,2026-04-13,"Pressable, Inc.",$45,San Antonio,TX,pac,web hosting,D,496818,2026-07-15
-expenditure,2026-04-15,Teeny Bs Catering,$965.20,North Chesterfield,VA,pac,Catering,D,496818,2026-07-15
-expenditure,2026-04-17,Canva,$40,Austin,TX,pac,photo editing software,D,496818,2026-07-15
-expenditure,2026-04-27,Panera Bread,$16.91,Saint Louis,MO,pac,travel meal,D,496818,2026-07-15
-expenditure,2026-04-30,Gusto,$119.61,Springfield,MO,pac,Payroll taxes,D,496818,2026-07-15
+expenditure,2026-03-31,Virginia Legislative Black Caucus,"$1,500",Richmond,VA,business,dues,D,496818,2026-07-15
+expenditure,2026-04-01,Google Inc.,$60,Mountain View,CA,business,Gsuite,D,496818,2026-07-15
+expenditure,2026-04-03,Gusto,$104,Springfield,MO,business,Payroll taxes,D,496818,2026-07-15
+expenditure,2026-04-03,Public Storage,$62,Glendale,CA,business,storage,D,496818,2026-07-15
+expenditure,2026-04-07,JAMRA SPECIALTY COFFEE,$50.87,Richmond,VA,business,Staff lunch,D,496818,2026-07-15
+expenditure,2026-04-08,Ricks Custom Frame,$201.36,Richmond,VA,business,Framing,D,496818,2026-07-15
+expenditure,2026-04-09,NGP VAN,"$2,331",Washington,DC,business,Data software,D,496818,2026-07-15
+expenditure,2026-04-13,"Pressable, Inc.",$45,San Antonio,TX,business,web hosting,D,496818,2026-07-15
+expenditure,2026-04-15,Teeny Bs Catering,$965.20,North Chesterfield,VA,business,Catering,D,496818,2026-07-15
+expenditure,2026-04-17,Canva,$40,Austin,TX,business,photo editing software,D,496818,2026-07-15
+expenditure,2026-04-27,Panera Bread,$16.91,Saint Louis,MO,business,travel meal,D,496818,2026-07-15
+expenditure,2026-04-30,Gusto,$119.61,Springfield,MO,business,Payroll taxes,D,496818,2026-07-15
 expenditure,2026-04-30,Audrey Kranc,$600.27,Moseley,VA,individual,Employee salary,D,496818,2026-07-15
-expenditure,2026-05-01,Google Inc.,$63.08,Mountain View,CA,pac,Gsuite,D,496818,2026-07-15
-expenditure,2026-05-01,Gusto,$33.24,Springfield,MO,pac,Payroll processing fee,D,496818,2026-07-15
+expenditure,2026-05-01,Google Inc.,$63.08,Mountain View,CA,business,Gsuite,D,496818,2026-07-15
+expenditure,2026-05-01,Gusto,$33.24,Springfield,MO,business,Payroll processing fee,D,496818,2026-07-15
 expenditure,2026-05-01,Alyssa Wooden,$166.85,Chesterfield,VA,individual,employee salary,D,496818,2026-07-15
-expenditure,2026-05-04,Public Storage,$62,Glendale,CA,pac,storage,D,496818,2026-07-15
-expenditure,2026-05-05,Gusto,$104,Springfield,MO,pac,payroll taxes,D,496818,2026-07-15
-expenditure,2026-05-12,Meriwether Godsey,"$2,786.48",Richmond,VA,pac,catering,D,496818,2026-07-15
-expenditure,2026-05-12,"Pressable, Inc.",$45,San Antonio,TX,pac,web hosting,D,496818,2026-07-15
-expenditure,2026-05-14,The Omni,$509.52,Richmond,VA,pac,travel,D,496818,2026-07-15
-expenditure,2026-05-15,National Conference of State Legislators,$755,Denver,CO,pac,Conference,D,496818,2026-07-15
-expenditure,2026-05-18,Canva,$40,Austin,TX,pac,photo editing software,D,496818,2026-07-15
-expenditure,2026-05-18,Gusto,$82.82,Springfield,MO,pac,Payroll processing fee,D,496818,2026-07-15
+expenditure,2026-05-04,Public Storage,$62,Glendale,CA,business,storage,D,496818,2026-07-15
+expenditure,2026-05-05,Gusto,$104,Springfield,MO,business,payroll taxes,D,496818,2026-07-15
+expenditure,2026-05-12,Meriwether Godsey,"$2,786.48",Richmond,VA,business,catering,D,496818,2026-07-15
+expenditure,2026-05-12,"Pressable, Inc.",$45,San Antonio,TX,business,web hosting,D,496818,2026-07-15
+expenditure,2026-05-14,The Omni,$509.52,Richmond,VA,business,travel,D,496818,2026-07-15
+expenditure,2026-05-15,National Conference of State Legislators,$755,Denver,CO,business,Conference,D,496818,2026-07-15
+expenditure,2026-05-18,Canva,$40,Austin,TX,business,photo editing software,D,496818,2026-07-15
+expenditure,2026-05-18,Gusto,$82.82,Springfield,MO,business,Payroll processing fee,D,496818,2026-07-15
 expenditure,2026-05-18,Alyssa Wooden,$367.58,Chesterfield,VA,individual,employee salary,D,496818,2026-07-15
-expenditure,2026-05-21,T Mobile,$195.55,Bellevue,WA,pac,work phone,D,496818,2026-07-15
-expenditure,2026-05-29,Gusto,$119.59,Springfield,MO,pac,Payroll taxes,D,496818,2026-07-15
+expenditure,2026-05-21,T Mobile,$195.55,Bellevue,WA,business,work phone,D,496818,2026-07-15
+expenditure,2026-05-29,Gusto,$119.59,Springfield,MO,business,Payroll taxes,D,496818,2026-07-15
 expenditure,2026-05-29,Audrey Kranc,$600.28,Moseley,VA,individual,Employee salary,D,496818,2026-07-15
-expenditure,2026-06-01,Google Inc.,$68.40,Mountain View,CA,pac,Gsuite,D,496818,2026-07-15
-expenditure,2026-06-02,ADT Security,$71.25,Boca Raton,FL,pac,Security system,D,496818,2026-07-15
-expenditure,2026-06-02,Gusto,$194,Springfield,MO,pac,Payroll taxes,D,496818,2026-07-15
-expenditure,2026-06-03,Public Storage,$62,Glendale,CA,pac,storage,D,496818,2026-07-15
-expenditure,2026-06-12,"Pressable, Inc.",$45,San Antonio,TX,pac,web hosting,D,496818,2026-07-15
-expenditure,2026-06-15,Lyft,$8.47,San Francisco,CA,pac,travel,D,496818,2026-07-15
-expenditure,2026-06-16,Gusto,$95.85,Springfield,MO,pac,Payroll processing fee,D,496818,2026-07-15
+expenditure,2026-06-01,Google Inc.,$68.40,Mountain View,CA,business,Gsuite,D,496818,2026-07-15
+expenditure,2026-06-02,ADT Security,$71.25,Boca Raton,FL,business,Security system,D,496818,2026-07-15
+expenditure,2026-06-02,Gusto,$194,Springfield,MO,business,Payroll taxes,D,496818,2026-07-15
+expenditure,2026-06-03,Public Storage,$62,Glendale,CA,business,storage,D,496818,2026-07-15
+expenditure,2026-06-12,"Pressable, Inc.",$45,San Antonio,TX,business,web hosting,D,496818,2026-07-15
+expenditure,2026-06-15,Lyft,$8.47,San Francisco,CA,business,travel,D,496818,2026-07-15
+expenditure,2026-06-16,Gusto,$95.85,Springfield,MO,business,Payroll processing fee,D,496818,2026-07-15
 expenditure,2026-06-16,Alyssa Wooden,$402.15,Chesterfield,VA,individual,Employee salary,D,496818,2026-07-15
-expenditure,2026-06-17,Canva,$40,Austin,TX,pac,photo editing software,D,496818,2026-07-15
-expenditure,2026-06-22,T Mobile,$213.92,Bellevue,WA,pac,work phone,D,496818,2026-07-15
-expenditure,2026-06-30,Gusto,$119.61,Springfield,MO,pac,Payroll taxes,D,496818,2026-07-15
-expenditure,2026-06-30,Gusto,$112.30,Springfield,MO,pac,Payroll processing fee,D,496818,2026-07-15
+expenditure,2026-06-17,Canva,$40,Austin,TX,business,photo editing software,D,496818,2026-07-15
+expenditure,2026-06-22,T Mobile,$213.92,Bellevue,WA,business,work phone,D,496818,2026-07-15
+expenditure,2026-06-30,Gusto,$119.61,Springfield,MO,business,Payroll taxes,D,496818,2026-07-15
+expenditure,2026-06-30,Gusto,$112.30,Springfield,MO,business,Payroll processing fee,D,496818,2026-07-15
 expenditure,2026-06-30,Audrey Kranc,$600.27,Moseley,VA,individual,employee salary,D,496818,2026-07-15
 expenditure,2026-06-30,Alyssa Wooden,$445.13,Chesterfield,VA,individual,employee salary,D,496818,2026-07-15

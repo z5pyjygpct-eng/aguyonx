@@ -4,50 +4,50 @@ summary,2026-06-30,Cash on hand (ending balance),"$70,533.79",,VA,,"From officia
 summary,2026-06-30,Raised this cycle,"$63,164.66",,,,Total receipts this election cycle (Schedule H),H,496102,2026-07-15
 summary,2026-06-30,Spent this cycle,"$41,953.39",,,,Total disbursements this election cycle (Schedule H),H,496102,2026-07-15
 contribution,2026-01-07,Community Owned Power PAC,$500,Glen Allen,VA,pac,,A,496102,2026-07-15
-contribution,2026-01-11,Christian and Barton LLP,$250,Richmond,VA,pac,,A,496102,2026-07-15
-contribution,2026-05-29,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,496102,2026-07-15
+contribution,2026-01-11,Christian and Barton LLP,$250,Richmond,VA,business,,A,496102,2026-07-15
+contribution,2026-05-29,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,496102,2026-07-15
 contribution,2026-06-26,Virginia CRNAs Who Care About Healthcare PAC,$500,Richmond,VA,pac,,A,496102,2026-07-15
 contribution,2026-01-06,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,496102,2026-07-15
-contribution,2026-06-26,HCA for Good Government,"$1,000",Richmond,VA,pac,,A,496102,2026-07-15
-contribution,2026-06-03,VA Operators for Skill,"$5,000",Richmond,VA,pac,,A,496102,2026-07-15
+contribution,2026-06-26,HCA for Good Government,"$1,000",Richmond,VA,business,,A,496102,2026-07-15
+contribution,2026-06-03,VA Operators for Skill,"$5,000",Richmond,VA,business,,A,496102,2026-07-15
 contribution,2026-05-28,Dominion Energy Inc. Political Action Committee Virginia,"$25,000",Richmond,VA,pac,,A,496102,2026-07-15
-contribution,2026-06-30,Waste Management,$750,Houston,TX,pac,,A,496102,2026-07-15
+contribution,2026-06-30,Waste Management,$750,Houston,TX,business,,A,496102,2026-07-15
 contribution,2026-05-29,McKesson Corporation Employees Political Fund,$500,Washington,DC,pac,,A,496102,2026-07-15
 contribution,2026-01-12,Organizing for VA Seniors,"$5,000",Fairfax,VA,pac,,A,496102,2026-07-15
 contribution,2026-04-28,Emily Erin Thomas Spence,$200,Blackstone,VA,individual,,A,496102,2026-07-15
 in_kind,2026-01-08,Republican Party of Virginia,"$22,265.66",Richmond,VA,party,"Printing, postage and mailing",B,496102,2026-07-15
 in_kind,2026-01-09,Mr. Alexander Macaulay,$375,Richmond,VA,individual,Event food and beverage,B,496102,2026-07-15
-expenditure,2026-03-23,Anedot,$8.56,Baton Rouge,LA,pac,Credit card processing fees,D,496102,2026-07-15
-expenditure,2026-04-28,Anedot,$8.30,Baton Rouge,LA,pac,Credit card processing fees,D,496102,2026-07-15
+expenditure,2026-03-23,Anedot,$8.56,Baton Rouge,LA,business,Credit card processing fees,D,496102,2026-07-15
+expenditure,2026-04-28,Anedot,$8.30,Baton Rouge,LA,business,Credit card processing fees,D,496102,2026-07-15
 expenditure,2026-03-16,House Republican Campaign Committee Inc.,"$1,000",Richmond,VA,party,Donation,D,496102,2026-07-15
 expenditure,2026-05-15,House Republican Campaign Committee Inc.,"$7,000",Richmond,VA,party,Donation,D,496102,2026-07-15
-expenditure,2026-05-04,Postmaster,$106,Stony Creek,VA,pac,Post office box rental,D,496102,2026-07-15
+expenditure,2026-05-04,Postmaster,$106,Stony Creek,VA,business,Post office box rental,D,496102,2026-07-15
 expenditure,2026-03-06,Republican Party of Virginia,$300,Richmond,VA,party,Donation,D,496102,2026-07-15
-expenditure,2026-01-02,Forest Consulting Services,"$1,500",Richmond,VA,pac,"Accounting, reporting and consulting services",D,496102,2026-07-15
-expenditure,2026-02-24,Forest Consulting Services,$500,Richmond,VA,pac,"Accounting, reporting and consulting services",D,496102,2026-07-15
-expenditure,2026-04-30,Forest Consulting Services,$500,Richmond,VA,pac,"Accounting, reporting and consulting services",D,496102,2026-07-15
-expenditure,2026-05-14,Forest Consulting Services,$90.70,Richmond,VA,pac,"Tax Forms preparation, distribution and filing",D,496102,2026-07-15
-expenditure,2026-01-09,Google,$104.25,Mountain View,CA,pac,Software fees,D,496102,2026-07-15
-expenditure,2026-02-03,Google,$104.64,Mountain View,CA,pac,Software fees,D,496102,2026-07-15
-expenditure,2026-03-10,Google,$104.64,Mountain View,CA,pac,Software fees,D,496102,2026-07-15
-expenditure,2026-04-03,Google,$104.64,Mountain View,CA,pac,Software fees,D,496102,2026-07-15
-expenditure,2026-05-04,Google,$104.57,Mountain View,CA,pac,Software fees,D,496102,2026-07-15
-expenditure,2026-06-05,Google,$104.40,Mountain View,CA,pac,Software fees,D,496102,2026-07-15
+expenditure,2026-01-02,Forest Consulting Services,"$1,500",Richmond,VA,business,"Accounting, reporting and consulting services",D,496102,2026-07-15
+expenditure,2026-02-24,Forest Consulting Services,$500,Richmond,VA,business,"Accounting, reporting and consulting services",D,496102,2026-07-15
+expenditure,2026-04-30,Forest Consulting Services,$500,Richmond,VA,business,"Accounting, reporting and consulting services",D,496102,2026-07-15
+expenditure,2026-05-14,Forest Consulting Services,$90.70,Richmond,VA,business,"Tax Forms preparation, distribution and filing",D,496102,2026-07-15
+expenditure,2026-01-09,Google,$104.25,Mountain View,CA,business,Software fees,D,496102,2026-07-15
+expenditure,2026-02-03,Google,$104.64,Mountain View,CA,business,Software fees,D,496102,2026-07-15
+expenditure,2026-03-10,Google,$104.64,Mountain View,CA,business,Software fees,D,496102,2026-07-15
+expenditure,2026-04-03,Google,$104.64,Mountain View,CA,business,Software fees,D,496102,2026-07-15
+expenditure,2026-05-04,Google,$104.57,Mountain View,CA,business,Software fees,D,496102,2026-07-15
+expenditure,2026-06-05,Google,$104.40,Mountain View,CA,business,Software fees,D,496102,2026-07-15
 expenditure,2026-01-02,William A. Pace,$200,Chatham,VA,individual,Campaign work,D,496102,2026-07-15
 expenditure,2026-02-02,William A. Pace,$200,Chatham,VA,individual,Session work,D,496102,2026-07-15
 expenditure,2026-03-02,William A. Pace,$200,Chatham,VA,individual,Session work,D,496102,2026-07-15
 expenditure,2026-04-01,William A. Pace,$200,Chatham,VA,individual,Session work,D,496102,2026-07-15
 expenditure,2026-05-01,William A. Pace,$200,Chatham,VA,individual,Campaign work,D,496102,2026-07-15
 expenditure,2026-06-01,William A. Pace,$200,Chatham,VA,individual,Campaign work,D,496102,2026-07-15
-expenditure,2026-06-11,GoDaddy.com,$37.18,Scottsdale,AZ,pac,Website expense,D,496102,2026-07-15
-expenditure,2026-06-12,GoDaddy.com,$74.36,Scottsdale,AZ,pac,Website expense,D,496102,2026-07-15
-expenditure,2026-01-08,State Corporation Commission,$25,Richmond,VA,pac,Annual corporate registration fee,D,496102,2026-07-15
-expenditure,2026-01-26,Mailchimp,$39.25,Atlanta,GA,pac,Email services,D,496102,2026-07-15
-expenditure,2026-02-24,Mailchimp,$39.25,Atlanta,GA,pac,Email services,D,496102,2026-07-15
-expenditure,2026-03-24,Mailchimp,$39.25,Atlanta,GA,pac,Email services,D,496102,2026-07-15
-expenditure,2026-04-24,Mailchimp,$39.25,Atlanta,GA,pac,Email services,D,496102,2026-07-15
-expenditure,2026-05-26,Mailchimp,$39.25,Atlanta,GA,pac,Email services,D,496102,2026-07-15
-expenditure,2026-06-24,Mailchimp,$39.25,Atlanta,GA,pac,Email services,D,496102,2026-07-15
-expenditure,2026-05-29,Cardinal Consult,"$4,000",Midlothian,VA,pac,Consulting fees,D,496102,2026-07-15
-expenditure,2026-01-27,Tidewater News,$99.99,Franklin,VA,pac,Subscription,D,496102,2026-07-15
-expenditure,2026-03-02,Friends of Andrew Rice,"$2,000",Virginia Beach,VA,pac,Contribution,D,496102,2026-07-15
+expenditure,2026-06-11,GoDaddy.com,$37.18,Scottsdale,AZ,business,Website expense,D,496102,2026-07-15
+expenditure,2026-06-12,GoDaddy.com,$74.36,Scottsdale,AZ,business,Website expense,D,496102,2026-07-15
+expenditure,2026-01-08,State Corporation Commission,$25,Richmond,VA,business,Annual corporate registration fee,D,496102,2026-07-15
+expenditure,2026-01-26,Mailchimp,$39.25,Atlanta,GA,business,Email services,D,496102,2026-07-15
+expenditure,2026-02-24,Mailchimp,$39.25,Atlanta,GA,business,Email services,D,496102,2026-07-15
+expenditure,2026-03-24,Mailchimp,$39.25,Atlanta,GA,business,Email services,D,496102,2026-07-15
+expenditure,2026-04-24,Mailchimp,$39.25,Atlanta,GA,business,Email services,D,496102,2026-07-15
+expenditure,2026-05-26,Mailchimp,$39.25,Atlanta,GA,business,Email services,D,496102,2026-07-15
+expenditure,2026-06-24,Mailchimp,$39.25,Atlanta,GA,business,Email services,D,496102,2026-07-15
+expenditure,2026-05-29,Cardinal Consult,"$4,000",Midlothian,VA,business,Consulting fees,D,496102,2026-07-15
+expenditure,2026-01-27,Tidewater News,$99.99,Franklin,VA,business,Subscription,D,496102,2026-07-15
+expenditure,2026-03-02,Friends of Andrew Rice,"$2,000",Virginia Beach,VA,business,Contribution,D,496102,2026-07-15

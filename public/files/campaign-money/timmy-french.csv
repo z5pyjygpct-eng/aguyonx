@@ -4,12 +4,12 @@ summary,2026-06-30,Cash on hand (ending balance),"$193,692.48",,VA,,"From offici
 summary,2026-06-30,Raised this cycle,"$289,111.41",,,,Total receipts this election cycle (Schedule H),H,494947,2026-07-13
 summary,2026-06-30,Spent this cycle,"$103,182.54",,,,Total disbursements this election cycle (Schedule H),H,494947,2026-07-13
 contribution,2025-10-08,Eric Dalke,$500,Woodstock,VA,individual,,A,476266,2026-01-10
-contribution,2025-10-11,Massanutten View Farm LLC,$200,Woodstock,VA,pac,,A,476266,2026-01-10
+contribution,2025-10-11,Massanutten View Farm LLC,$200,Woodstock,VA,business,,A,476266,2026-01-10
 contribution,2025-10-09,David M Hutton,$208.20,Woodstock,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-09,Aaron L Bushong,$500,Woodstock,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Devon F Pence,$300,Woodstock,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Catherine Dalke,$500,Woodstock,VA,individual,,A,476266,2026-01-10
-contribution,2025-10-11,"Lawyer's Row, LLC",$500,Woodstock,VA,pac,,A,476266,2026-01-10
+contribution,2025-10-11,"Lawyer's Row, LLC",$500,Woodstock,VA,business,,A,476266,2026-01-10
 contribution,2025-10-03,Amanda Culp,$125,Woodstock,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Billy Hockman,$200,Strasburg,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Dennis M Morris,$200,Toms Brook,VA,individual,,A,476266,2026-01-10
@@ -25,7 +25,7 @@ contribution,2025-12-18,Dominion Energy Inc Pac Virginia,"$10,000",Richmond,VA,p
 contribution,2025-10-11,Lee Hepner,$500,Woodstock,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Mark Dotson,$100,New Market,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Wayne Sager,$104.10,Woodstock,VA,individual,,A,476266,2026-01-10
-contribution,2025-10-31,Huntington Ingalls Industries,$500,Newport News,VA,pac,,A,476266,2026-01-10
+contribution,2025-10-31,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,476266,2026-01-10
 contribution,2025-09-23,S. John Massoud,$100,Strasburg,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-09,Marie Rundquist,$200,Woodstock,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Benjamin Freakley,"$1,000",Woodstock,VA,individual,,A,476266,2026-01-10
@@ -38,12 +38,12 @@ contribution,2025-08-12,Amazon PAC,"$1,500",Richmond,VA,pac,,A,476266,2026-01-10
 contribution,2025-10-03,Patti Menders,$208.20,Broadlands,VA,individual,,A,476266,2026-01-10
 contribution,2025-08-13,Engineering Companies of Virginia,"$1,000",Richmond,VA,pac,,A,476266,2026-01-10
 contribution,2025-10-21,Randy Kibler,"$1,041.02",Edinburg,VA,individual,,A,476266,2026-01-10
-contribution,2025-10-11,Virginia Harness Horse Association,"$1,000",Saluda,VA,pac,,A,476266,2026-01-10
+contribution,2025-10-11,Virginia Harness Horse Association,"$1,000",Saluda,VA,business,,A,476266,2026-01-10
 contribution,2025-10-11,Lori Udall,$100,Hume,VA,individual,,A,476266,2026-01-10
-contribution,2025-09-27,Premium Distributors of Virginia Inc,"$1,000",Chantilly,VA,pac,,A,476266,2026-01-10
+contribution,2025-09-27,Premium Distributors of Virginia Inc,"$1,000",Chantilly,VA,business,,A,476266,2026-01-10
 contribution,2025-12-24,Sports Betting Alliance,"$10,000",Lubbock,TX,pac,,A,476266,2026-01-10
-contribution,2025-11-06,Vantage Data Centers Management Company,$500,Santa Clara,CA,pac,,A,476266,2026-01-10
-contribution,2025-10-18,Williams Mullins Clark & Dobbins,$500,Richmond,VA,pac,,A,476266,2026-01-10
+contribution,2025-11-06,Vantage Data Centers Management Company,$500,Santa Clara,CA,business,,A,476266,2026-01-10
+contribution,2025-10-18,Williams Mullins Clark & Dobbins,$500,Richmond,VA,business,,A,476266,2026-01-10
 contribution,2025-12-29,First Energy PAC,"$1,000",Akron,OH,pac,,A,476266,2026-01-10
 contribution,2025-10-11,Joshua Stephens,$300,Quicksburg,VA,individual,,A,476266,2026-01-10
 contribution,2025-07-28,Timothy Johnson,$104.10,Bluemont,VA,individual,,A,476266,2026-01-10
@@ -51,7 +51,7 @@ contribution,2025-10-08,Timothy Johnson,$312.30,Bluemont,VA,individual,,A,476266
 contribution,2025-10-06,Todd Holtzman,"$1,041.02",Mt Jackson,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-07,Christopher Pangle,$520.51,Woodstock,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Laura Sager,$104.10,Woodstock,VA,individual,,A,476266,2026-01-10
-contribution,2025-08-29,Anheuser Busch Companies,$500,St Louis,MO,pac,,A,476266,2026-01-10
+contribution,2025-08-29,Anheuser Busch Companies,$500,St Louis,MO,business,,A,476266,2026-01-10
 contribution,2025-10-03,Johnson & Johnson,$500,Washington,DC,pac,,A,476266,2026-01-10
 contribution,2025-10-07,Geary W Showman,$200,Woodstock,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-10,Reed Shifflett,$500,New Market,VA,individual,,A,476266,2026-01-10
@@ -59,14 +59,14 @@ contribution,2025-10-10,Peter Truban,$250,Woodstock,VA,individual,,A,476266,2026
 contribution,2025-10-11,Virginia Equine PAC,"$1,000",Charlottesville,VA,pac,,A,476266,2026-01-10
 contribution,2025-10-11,Susan Claytor,"$1,000",Winchester,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Jerry Arbogast,$200,Mt Jackson,VA,individual,,A,476266,2026-01-10
-contribution,2025-10-11,Wightman Cattle & Grain,$500,Mt Jackson,VA,pac,,A,476266,2026-01-10
+contribution,2025-10-11,Wightman Cattle & Grain,$500,Mt Jackson,VA,business,,A,476266,2026-01-10
 contribution,2025-07-30,Home Builders Association of Virginia,"$1,000",Richmond,VA,pac,,A,476266,2026-01-10
 contribution,2025-10-12,James Williams IV,$500,Mt Jackson,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-22,Verizon PAC,$500,Washington,DC,pac,,A,476266,2026-01-10
-contribution,2025-10-02,Principle Advantage Government Relations Group,$250,Williamsburg,VA,pac,,A,476266,2026-01-10
-contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$5,000",Portsmouth,VA,pac,,A,476266,2026-01-10
-contribution,2025-10-03,NEET Mid-Atlantic,"$1,000",Juno Beach,FL,pac,,A,476266,2026-01-10
-contribution,2025-09-27,All Points Broadband Partners,$500,Richmond,VA,pac,,A,476266,2026-01-10
+contribution,2025-10-02,Principle Advantage Government Relations Group,$250,Williamsburg,VA,business,,A,476266,2026-01-10
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$5,000",Portsmouth,VA,business,,A,476266,2026-01-10
+contribution,2025-10-03,NEET Mid-Atlantic,"$1,000",Juno Beach,FL,business,,A,476266,2026-01-10
+contribution,2025-09-27,All Points Broadband Partners,$500,Richmond,VA,business,,A,476266,2026-01-10
 contribution,2025-10-11,Justin Pence,$500,Edinburg,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Frederick Hepner,$200,Woodstock,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Thomas Truban,"$1,000",Woodstock,VA,individual,,A,476266,2026-01-10
@@ -74,140 +74,140 @@ contribution,2025-10-07,Theodore Rhea,$200,Woodstock,VA,individual,,A,476266,202
 contribution,2025-10-11,William D French Jr,$200,Charlottesville,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-07,H Paige Manuel,$520.51,Winchester,VA,individual,,A,476266,2026-01-10
 contribution,2026-04-20,William B Holtzman,"$5,000",Mount Jackson,VA,individual,,A,494947,2026-07-13
-contribution,2026-04-23,Virginia Operators For Skill,"$5,000",Richmond,VA,pac,,A,494947,2026-07-13
+contribution,2026-04-23,Virginia Operators For Skill,"$5,000",Richmond,VA,business,,A,494947,2026-07-13
 contribution,2026-04-20,Virginia Sheriff's Assoction PAC,$250,Richmond,VA,pac,,A,494947,2026-07-13
 contribution,2026-06-30,Virginia Poultry Federation PAC,$500,Harrisonburg,VA,pac,,A,494947,2026-07-13
 contribution,2026-01-09,Dominion Energy Inc Pac Virginia,"$55,000",Richmond,VA,pac,,A,494947,2026-07-13
-contribution,2026-06-16,Virginia State Dairymens Assoc,$100,Bridgewater,VA,pac,,A,494947,2026-07-13
+contribution,2026-06-16,Virginia State Dairymens Assoc,$100,Bridgewater,VA,business,,A,494947,2026-07-13
 contribution,2026-04-20,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,494947,2026-07-13
-contribution,2026-06-30,"Capital Results, Inc",$500,Richmond,VA,pac,,A,494947,2026-07-13
+contribution,2026-06-30,"Capital Results, Inc",$500,Richmond,VA,business,,A,494947,2026-07-13
 contribution,2026-01-13,McGuireWoods Consulting LLP (Public Affairs Solutions),"$1,000",Richmond,VA,pac,,A,494947,2026-07-13
-contribution,2026-06-30,Comcast Financial Agency Corp,$500,Philadelphia,PA,pac,,A,494947,2026-07-13
-contribution,2026-01-12,Comstock Hospitality Holdings,"$5,000",Reston,VA,pac,,A,494947,2026-07-13
+contribution,2026-06-30,Comcast Financial Agency Corp,$500,Philadelphia,PA,business,,A,494947,2026-07-13
+contribution,2026-01-12,Comstock Hospitality Holdings,"$5,000",Reston,VA,business,,A,494947,2026-07-13
 contribution,2026-01-13,"POM of Virginia, LLC","$5,000",Duluth,GA,pac,,A,494947,2026-07-13
 contribution,2026-04-23,"POM of Virginia, LLC","$2,500",Duluth,GA,pac,,A,494947,2026-07-13
-contribution,2026-01-13,National Coalition of Associations of 7-Eleven Franchisees,"$2,500",Ceres,CA,pac,,A,494947,2026-07-13
-contribution,2026-06-03,Transurban (USA) Inc.,$250,Tysons,VA,pac,,A,494947,2026-07-13
-in_kind,2025-10-11,Happenings Event Planning LLC,$300,Woodstock,VA,pac,Fundraiser Catering,B,476266,2026-01-10
-in_kind,2025-10-10,Adam's Apples & Herbs,$118,Woodstock,VA,pac,Fundraiser Decorations,B,476266,2026-01-10
-in_kind,2026-06-09,Gentry Locke Consulting,$450,Richmond,VA,pac,Venue Rental,B,494947,2026-07-13
+contribution,2026-01-13,National Coalition of Associations of 7-Eleven Franchisees,"$2,500",Ceres,CA,business,,A,494947,2026-07-13
+contribution,2026-06-03,Transurban (USA) Inc.,$250,Tysons,VA,business,,A,494947,2026-07-13
+in_kind,2025-10-11,Happenings Event Planning LLC,$300,Woodstock,VA,business,Fundraiser Catering,B,476266,2026-01-10
+in_kind,2025-10-10,Adam's Apples & Herbs,$118,Woodstock,VA,business,Fundraiser Decorations,B,476266,2026-01-10
+in_kind,2026-06-09,Gentry Locke Consulting,$450,Richmond,VA,business,Venue Rental,B,494947,2026-07-13
 other_receipt,2025-12-30,Timmy French,$134.79,Woodstock,VA,individual,Reimbursement for travel expenses that were subsequently paid for by Commonwealth,C,476266,2026-01-10
 other_receipt,2025-12-30,Timmy French,$397.24,Woodstock,VA,individual,Reimbursement for travel expenses that were subsequently paid for by Commonwealth,C,476266,2026-01-10
-other_receipt,2025-08-25,Amazon,$54.82,Seattle,WA,pac,"Online Purchase, Wrong Item",C,476266,2026-01-10
-other_receipt,2026-02-18,Dementi Studio,$100.70,Richmond,VA,pac,Returned Item,C,494947,2026-07-13
+other_receipt,2025-08-25,Amazon,$54.82,Seattle,WA,business,"Online Purchase, Wrong Item",C,476266,2026-01-10
+other_receipt,2026-02-18,Dementi Studio,$100.70,Richmond,VA,business,Returned Item,C,494947,2026-07-13
 other_receipt,2026-03-26,Justin Pence for Delegate,$138.90,Edinburg,VA,candidate,Reimbursement,C,494947,2026-07-13
 expenditure,2025-10-18,Amy F Barbour,$115.93,Woodstock,VA,individual,Fundraiser Supplies Re-imbursement,D,476266,2026-01-10
 expenditure,2025-12-30,Shelley F Schechtel,$36.31,Woodstock,VA,individual,Fundraiser Supplies Re-imbursement,D,476266,2026-01-10
-expenditure,2025-08-21,Amazon,$54.82,Seattle,WA,pac,Fundraiser Supplies,D,476266,2026-01-10
-expenditure,2025-08-22,Amazon,$55.39,Seattle,WA,pac,Fundraiser Supplies,D,476266,2026-01-10
-expenditure,2025-09-11,Coldspark,$621.50,Pittsburgh,PA,pac,Marketing,D,476266,2026-01-10
-expenditure,2025-10-18,Springdale Meats,$444.29,Woodstock,VA,pac,Fundraiser Meats,D,476266,2026-01-10
-expenditure,2025-10-10,Walmart Inc,$113.67,Bentonville,AR,pac,Fundraiser Supplies,D,476266,2026-01-10
-expenditure,2025-12-31,Win Red,$200.88,Arlington,VA,pac,Win Red Fees,D,476266,2026-01-10
-expenditure,2025-10-18,Happenings Event Planning LLC,$500,Woodstock,VA,pac,Fundraiser Catering,D,476266,2026-01-10
-expenditure,2025-10-10,Fast Signs Inc,$106.07,Winchester,VA,pac,Signs,D,476266,2026-01-10
-expenditure,2025-07-30,"Sheetz, Inc",$125.01,Altoona,PA,pac,Gas,D,476266,2026-01-10
-expenditure,2025-09-08,"Sheetz, Inc",$110.73,Altoona,PA,pac,Gas,D,476266,2026-01-10
-expenditure,2025-10-14,"Sheetz, Inc",$120.52,Altoona,PA,pac,Gas,D,476266,2026-01-10
-expenditure,2025-10-27,"Sheetz, Inc",$94.38,Altoona,PA,pac,Gas,D,476266,2026-01-10
-expenditure,2025-11-05,"Sheetz, Inc",$109.57,Altoona,PA,pac,Gas,D,476266,2026-01-10
-expenditure,2025-08-01,Frederick County Fair,"$1,003",Clear Brook,VA,pac,4H Livestock Sale,D,476266,2026-01-10
-expenditure,2025-08-01,Warren County 4-H,$760,Front Royal,VA,pac,4H Livestock Sale,D,476266,2026-01-10
-expenditure,2025-07-15,Ruritan Club of Clarke County,"$1,000",Berryville,VA,pac,Sponsorship,D,476266,2026-01-10
-expenditure,2025-08-15,Ruritan Club of Clarke County,"$1,050",Berryville,VA,pac,4H Livestock Sale,D,476266,2026-01-10
-expenditure,2025-08-20,Shenandoah County Fair Association,"$1,200",Woodstock,VA,pac,Sponsorship,D,476266,2026-01-10
-expenditure,2025-08-30,Shenandoah County Fair Association,$749.25,Woodstock,VA,pac,Livestock Sale,D,476266,2026-01-10
-expenditure,2025-12-30,Shenandoah County Fair Association,$600,Woodstock,VA,pac,Rental Fee for Fundraiser,D,476266,2026-01-10
-expenditure,2025-07-09,Woodstock Young Farmers,$300,Mount Jackson,VA,pac,Sponsorship,D,476266,2026-01-10
+expenditure,2025-08-21,Amazon,$54.82,Seattle,WA,business,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-08-22,Amazon,$55.39,Seattle,WA,business,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-09-11,Coldspark,$621.50,Pittsburgh,PA,business,Marketing,D,476266,2026-01-10
+expenditure,2025-10-18,Springdale Meats,$444.29,Woodstock,VA,business,Fundraiser Meats,D,476266,2026-01-10
+expenditure,2025-10-10,Walmart Inc,$113.67,Bentonville,AR,business,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-12-31,Win Red,$200.88,Arlington,VA,business,Win Red Fees,D,476266,2026-01-10
+expenditure,2025-10-18,Happenings Event Planning LLC,$500,Woodstock,VA,business,Fundraiser Catering,D,476266,2026-01-10
+expenditure,2025-10-10,Fast Signs Inc,$106.07,Winchester,VA,business,Signs,D,476266,2026-01-10
+expenditure,2025-07-30,"Sheetz, Inc",$125.01,Altoona,PA,business,Gas,D,476266,2026-01-10
+expenditure,2025-09-08,"Sheetz, Inc",$110.73,Altoona,PA,business,Gas,D,476266,2026-01-10
+expenditure,2025-10-14,"Sheetz, Inc",$120.52,Altoona,PA,business,Gas,D,476266,2026-01-10
+expenditure,2025-10-27,"Sheetz, Inc",$94.38,Altoona,PA,business,Gas,D,476266,2026-01-10
+expenditure,2025-11-05,"Sheetz, Inc",$109.57,Altoona,PA,business,Gas,D,476266,2026-01-10
+expenditure,2025-08-01,Frederick County Fair,"$1,003",Clear Brook,VA,business,4H Livestock Sale,D,476266,2026-01-10
+expenditure,2025-08-01,Warren County 4-H,$760,Front Royal,VA,business,4H Livestock Sale,D,476266,2026-01-10
+expenditure,2025-07-15,Ruritan Club of Clarke County,"$1,000",Berryville,VA,business,Sponsorship,D,476266,2026-01-10
+expenditure,2025-08-15,Ruritan Club of Clarke County,"$1,050",Berryville,VA,business,4H Livestock Sale,D,476266,2026-01-10
+expenditure,2025-08-20,Shenandoah County Fair Association,"$1,200",Woodstock,VA,business,Sponsorship,D,476266,2026-01-10
+expenditure,2025-08-30,Shenandoah County Fair Association,$749.25,Woodstock,VA,business,Livestock Sale,D,476266,2026-01-10
+expenditure,2025-12-30,Shenandoah County Fair Association,$600,Woodstock,VA,business,Rental Fee for Fundraiser,D,476266,2026-01-10
+expenditure,2025-07-09,Woodstock Young Farmers,$300,Mount Jackson,VA,business,Sponsorship,D,476266,2026-01-10
 expenditure,2025-07-02,Virginia Senate Republican Caucus,"$12,500",Williamsburg,VA,party,Dues,D,476266,2026-01-10
 expenditure,2025-07-28,Virginia Senate Republican Caucus,"$1,500",Williamsburg,VA,party,Dues,D,476266,2026-01-10
-expenditure,2025-10-11,"Freedom Funnel Cakes, LLC",$275,Edinburg,VA,pac,Fundraiser Catering,D,476266,2026-01-10
-expenditure,2025-09-07,Star Tannery Volunteer Fire Department,$100,Star Tannery,VA,pac,Donation,D,476266,2026-01-10
-expenditure,2025-12-02,State Corporation Commission,$50,Richmond,VA,pac,Annual Corporation Fee,D,476266,2026-01-10
-expenditure,2025-10-10,Virginia Eagle Distributing Company Inc,$198.80,Verona,VA,pac,Fundraiser Supplies,D,476266,2026-01-10
-expenditure,2025-07-07,Square Space,$84,New York,NY,pac,Website,D,476266,2026-01-10
-expenditure,2025-07-24,Square Space,$6.50,New York,NY,pac,Website,D,476266,2026-01-10
-expenditure,2025-08-04,Square Space,$100.80,New York,NY,pac,Website,D,476266,2026-01-10
-expenditure,2025-09-04,Square Space,$100.80,New York,NY,pac,Website,D,476266,2026-01-10
-expenditure,2025-10-06,Square Space,$100.80,New York,NY,pac,Website,D,476266,2026-01-10
-expenditure,2025-11-05,Square Space,$100.80,New York,NY,pac,Website,D,476266,2026-01-10
-expenditure,2025-12-04,Square Space,$100.80,New York,NY,pac,Website,D,476266,2026-01-10
-expenditure,2025-07-07,Constant Contact,$33.25,Waltham,MA,pac,Marketing,D,476266,2026-01-10
-expenditure,2025-08-04,Constant Contact,$33.25,Waltham,MA,pac,Marketing,D,476266,2026-01-10
-expenditure,2025-09-04,Constant Contact,$33.25,Waltham,MA,pac,Marketing,D,476266,2026-01-10
-expenditure,2025-10-06,Constant Contact,$33.25,Waltham,MA,pac,Marketing,D,476266,2026-01-10
-expenditure,2025-11-04,Constant Contact,$33.25,Waltham,MA,pac,Marketing,D,476266,2026-01-10
-expenditure,2025-12-04,Constant Contact,$33.25,Waltham,MA,pac,Marketing,D,476266,2026-01-10
-expenditure,2025-09-29,Virginia ABC,$85,Mechanicsville,VA,pac,ABC License for Fundraiser,D,476266,2026-01-10
-expenditure,2025-09-11,Wakeman's Grove Church of the Brethren,$430,Edinburg,VA,pac,Sponsorship,D,476266,2026-01-10
-expenditure,2025-10-09,Costco,$857.76,Sterling,VA,pac,Fundraiser Supplies,D,476266,2026-01-10
-expenditure,2025-10-09,Sharp Shopper,$67.99,Ephrata,PA,pac,Fundraiser Supplies,D,476266,2026-01-10
-expenditure,2025-12-30,Cave Ridge Vineyard,$338.33,Mt Jackson,VA,pac,Fundraiser Supplies,D,476266,2026-01-10
-expenditure,2025-10-10,Four Star Printing,$52.72,Woodstock,VA,pac,Fundraiser Supplies,D,476266,2026-01-10
-expenditure,2025-10-11,Boy Scout Troop 199,"$1,000",Woodstock,VA,pac,Donation,D,476266,2026-01-10
-expenditure,2025-09-14,Middletown Volunteer Fire Dept,$100,Middletown,VA,pac,Donation,D,476266,2026-01-10
-expenditure,2025-07-11,Sunoco,$125,Belle Haven,VA,pac,Gas-Reimbursed on 12/30/25,D,476266,2026-01-10
-expenditure,2025-07-11,Hampton Inn,$244.86,Belle Haven,VA,pac,"Lodging, Re-imbursed on 12/30/25",D,476266,2026-01-10
+expenditure,2025-10-11,"Freedom Funnel Cakes, LLC",$275,Edinburg,VA,business,Fundraiser Catering,D,476266,2026-01-10
+expenditure,2025-09-07,Star Tannery Volunteer Fire Department,$100,Star Tannery,VA,business,Donation,D,476266,2026-01-10
+expenditure,2025-12-02,State Corporation Commission,$50,Richmond,VA,business,Annual Corporation Fee,D,476266,2026-01-10
+expenditure,2025-10-10,Virginia Eagle Distributing Company Inc,$198.80,Verona,VA,business,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-07-07,Square Space,$84,New York,NY,business,Website,D,476266,2026-01-10
+expenditure,2025-07-24,Square Space,$6.50,New York,NY,business,Website,D,476266,2026-01-10
+expenditure,2025-08-04,Square Space,$100.80,New York,NY,business,Website,D,476266,2026-01-10
+expenditure,2025-09-04,Square Space,$100.80,New York,NY,business,Website,D,476266,2026-01-10
+expenditure,2025-10-06,Square Space,$100.80,New York,NY,business,Website,D,476266,2026-01-10
+expenditure,2025-11-05,Square Space,$100.80,New York,NY,business,Website,D,476266,2026-01-10
+expenditure,2025-12-04,Square Space,$100.80,New York,NY,business,Website,D,476266,2026-01-10
+expenditure,2025-07-07,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,476266,2026-01-10
+expenditure,2025-08-04,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,476266,2026-01-10
+expenditure,2025-09-04,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,476266,2026-01-10
+expenditure,2025-10-06,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,476266,2026-01-10
+expenditure,2025-11-04,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,476266,2026-01-10
+expenditure,2025-12-04,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,476266,2026-01-10
+expenditure,2025-09-29,Virginia ABC,$85,Mechanicsville,VA,business,ABC License for Fundraiser,D,476266,2026-01-10
+expenditure,2025-09-11,Wakeman's Grove Church of the Brethren,$430,Edinburg,VA,business,Sponsorship,D,476266,2026-01-10
+expenditure,2025-10-09,Costco,$857.76,Sterling,VA,business,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-10-09,Sharp Shopper,$67.99,Ephrata,PA,business,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-12-30,Cave Ridge Vineyard,$338.33,Mt Jackson,VA,business,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-10-10,Four Star Printing,$52.72,Woodstock,VA,business,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-10-11,Boy Scout Troop 199,"$1,000",Woodstock,VA,business,Donation,D,476266,2026-01-10
+expenditure,2025-09-14,Middletown Volunteer Fire Dept,$100,Middletown,VA,business,Donation,D,476266,2026-01-10
+expenditure,2025-07-11,Sunoco,$125,Belle Haven,VA,business,Gas-Reimbursed on 12/30/25,D,476266,2026-01-10
+expenditure,2025-07-11,Hampton Inn,$244.86,Belle Haven,VA,business,"Lodging, Re-imbursed on 12/30/25",D,476266,2026-01-10
 expenditure,2025-08-21,Justin Pence for Delegate,"$2,000",Edinburg,VA,candidate,Donation,D,476266,2026-01-10
-expenditure,2025-10-01,Buc-ees,$113.60,Mt Crawford,VA,pac,Gas-Timmy reimbursed on 12/30/25,D,476266,2026-01-10
-expenditure,2025-10-01,Buc-ees,$11.19,Mt Crawford,VA,pac,Gas - Reimbursed on 12/30/25,D,476266,2026-01-10
-expenditure,2025-10-09,Food Maxx,$25.53,Winchester,VA,pac,Fundraiser Supplies,D,476266,2026-01-10
-expenditure,2025-10-10,Adam's Apples & Herbs,$67,Woodstock,VA,pac,Fundraiser Decorations,D,476266,2026-01-10
-expenditure,2025-10-10,Schenck's Foods,$148.63,Winchester,VA,pac,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-10-01,Buc-ees,$113.60,Mt Crawford,VA,business,Gas-Timmy reimbursed on 12/30/25,D,476266,2026-01-10
+expenditure,2025-10-01,Buc-ees,$11.19,Mt Crawford,VA,business,Gas - Reimbursed on 12/30/25,D,476266,2026-01-10
+expenditure,2025-10-09,Food Maxx,$25.53,Winchester,VA,business,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-10-10,Adam's Apples & Herbs,$67,Woodstock,VA,business,Fundraiser Decorations,D,476266,2026-01-10
+expenditure,2025-10-10,Schenck's Foods,$148.63,Winchester,VA,business,Fundraiser Supplies,D,476266,2026-01-10
 expenditure,2025-10-11,Sam Dinges,$350,Woodstock,VA,individual,Fundraiser Entertainment,D,476266,2026-01-10
-expenditure,2025-10-14,Rockingham Coop,$99.99,Strasburg,VA,pac,Fundraiser Supplies,D,476266,2026-01-10
+expenditure,2025-10-14,Rockingham Coop,$99.99,Strasburg,VA,business,Fundraiser Supplies,D,476266,2026-01-10
 expenditure,2025-11-14,Jeff Walters,"$1,000",Woodstock,VA,individual,Campaign Support,D,476266,2026-01-10
 expenditure,2025-12-12,Jeff Walters,"$1,000",Woodstock,VA,individual,Campaign Support,D,476266,2026-01-10
-expenditure,2025-10-01,Virginia Oil,$10,Charlottesville,VA,pac,Accidental Charge - Reimbursed 12/30/25,D,476266,2026-01-10
-expenditure,2025-10-02,Kimpton Inn,$27.38,Charlottesville,VA,pac,Accidental Charge - Reimbursed 12/30/25,D,476266,2026-01-10
-expenditure,2026-01-28,Shenandoah County Chamber of Commerce,$75,Woodstock,VA,pac,Chamber Membership,D,494947,2026-07-13
-expenditure,2026-03-27,Shenandoah County Republican Committee,$500,Woodstock,VA,pac,Donation,D,494947,2026-07-13
-expenditure,2026-06-09,"Sheetz, Inc",$128.11,Altoona,PA,pac,Gas,D,494947,2026-07-13
-expenditure,2026-06-09,"Sheetz, Inc",$65.23,Altoona,PA,pac,Gas,D,494947,2026-07-13
-expenditure,2026-06-09,"Sheetz, Inc",$33.85,Altoona,PA,pac,Gas,D,494947,2026-07-13
-expenditure,2026-04-06,Food Lion,$48.57,Woodstock,VA,pac,Office Supplies,D,494947,2026-07-13
-expenditure,2026-04-06,"Staples, Inc",$311.69,Framingham,MA,pac,Office Supplies,D,494947,2026-07-13
+expenditure,2025-10-01,Virginia Oil,$10,Charlottesville,VA,business,Accidental Charge - Reimbursed 12/30/25,D,476266,2026-01-10
+expenditure,2025-10-02,Kimpton Inn,$27.38,Charlottesville,VA,business,Accidental Charge - Reimbursed 12/30/25,D,476266,2026-01-10
+expenditure,2026-01-28,Shenandoah County Chamber of Commerce,$75,Woodstock,VA,business,Chamber Membership,D,494947,2026-07-13
+expenditure,2026-03-27,Shenandoah County Republican Committee,$500,Woodstock,VA,business,Donation,D,494947,2026-07-13
+expenditure,2026-06-09,"Sheetz, Inc",$128.11,Altoona,PA,business,Gas,D,494947,2026-07-13
+expenditure,2026-06-09,"Sheetz, Inc",$65.23,Altoona,PA,business,Gas,D,494947,2026-07-13
+expenditure,2026-06-09,"Sheetz, Inc",$33.85,Altoona,PA,business,Gas,D,494947,2026-07-13
+expenditure,2026-04-06,Food Lion,$48.57,Woodstock,VA,business,Office Supplies,D,494947,2026-07-13
+expenditure,2026-04-06,"Staples, Inc",$311.69,Framingham,MA,business,Office Supplies,D,494947,2026-07-13
 expenditure,2026-03-31,Winchester GOP,$500,Winchester,VA,party,Donation,D,494947,2026-07-13
-expenditure,2026-02-03,"T-Mobile, Inc",$910.83,Bellvue,TN,pac,Phone,D,494947,2026-07-13
-expenditure,2026-03-21,Michaels Corporation,"$1,023.81",Irving,TX,pac,Framing,D,494947,2026-07-13
-expenditure,2026-06-09,Office Max,$599.78,Naperville,IL,pac,Office Supplies,D,494947,2026-07-13
-expenditure,2026-02-12,Dementi Studio,$100.70,Richmond,VA,pac,Photography,D,494947,2026-07-13
-expenditure,2026-01-05,Square Space,$100.80,New York,NY,pac,Website,D,494947,2026-07-13
-expenditure,2026-02-05,Square Space,$100.80,New York,NY,pac,Website,D,494947,2026-07-13
-expenditure,2026-02-18,Square Space,$15,New York,NY,pac,Website,D,494947,2026-07-13
-expenditure,2026-03-05,Square Space,$100.80,New York,NY,pac,Website,D,494947,2026-07-13
-expenditure,2026-04-06,Square Space,$100.80,New York,NY,pac,Website,D,494947,2026-07-13
-expenditure,2026-05-05,Square Space,$100.80,New York,NY,pac,Website,D,494947,2026-07-13
-expenditure,2026-06-05,Square Space,$100.80,New York,NY,pac,Website,D,494947,2026-07-13
-expenditure,2026-01-05,Constant Contact,$33.25,Waltham,MA,pac,Email Marketing,D,494947,2026-07-13
-expenditure,2026-02-04,Constant Contact,$33.25,Waltham,MA,pac,Email Marketing,D,494947,2026-07-13
-expenditure,2026-03-04,Constant Contact,$33.25,Waltham,MA,pac,Email Marketing,D,494947,2026-07-13
-expenditure,2026-04-07,Constant Contact,$33.25,Waltham,MA,pac,Email Marketing,D,494947,2026-07-13
-expenditure,2026-05-04,Constant Contact,$33.25,Waltham,MA,pac,Email Marketing,D,494947,2026-07-13
-expenditure,2026-06-04,Constant Contact,$33.25,Waltham,MA,pac,Email Marketing,D,494947,2026-07-13
-expenditure,2026-05-29,Four Star Printing,$6.05,Woodstock,VA,pac,Office Supplies,D,494947,2026-07-13
-expenditure,2026-03-24,Frederick County Republican Committee,$500,Winchester,VA,pac,Donation,D,494947,2026-07-13
-expenditure,2026-02-23,Feed More,$100,Richmond,VA,pac,Donation,D,494947,2026-07-13
-expenditure,2026-02-19,VCU Massey Cancer Center,$250,Richmond,VA,pac,Donation,D,494947,2026-07-13
+expenditure,2026-02-03,"T-Mobile, Inc",$910.83,Bellvue,TN,business,Phone,D,494947,2026-07-13
+expenditure,2026-03-21,Michaels Corporation,"$1,023.81",Irving,TX,business,Framing,D,494947,2026-07-13
+expenditure,2026-06-09,Office Max,$599.78,Naperville,IL,business,Office Supplies,D,494947,2026-07-13
+expenditure,2026-02-12,Dementi Studio,$100.70,Richmond,VA,business,Photography,D,494947,2026-07-13
+expenditure,2026-01-05,Square Space,$100.80,New York,NY,business,Website,D,494947,2026-07-13
+expenditure,2026-02-05,Square Space,$100.80,New York,NY,business,Website,D,494947,2026-07-13
+expenditure,2026-02-18,Square Space,$15,New York,NY,business,Website,D,494947,2026-07-13
+expenditure,2026-03-05,Square Space,$100.80,New York,NY,business,Website,D,494947,2026-07-13
+expenditure,2026-04-06,Square Space,$100.80,New York,NY,business,Website,D,494947,2026-07-13
+expenditure,2026-05-05,Square Space,$100.80,New York,NY,business,Website,D,494947,2026-07-13
+expenditure,2026-06-05,Square Space,$100.80,New York,NY,business,Website,D,494947,2026-07-13
+expenditure,2026-01-05,Constant Contact,$33.25,Waltham,MA,business,Email Marketing,D,494947,2026-07-13
+expenditure,2026-02-04,Constant Contact,$33.25,Waltham,MA,business,Email Marketing,D,494947,2026-07-13
+expenditure,2026-03-04,Constant Contact,$33.25,Waltham,MA,business,Email Marketing,D,494947,2026-07-13
+expenditure,2026-04-07,Constant Contact,$33.25,Waltham,MA,business,Email Marketing,D,494947,2026-07-13
+expenditure,2026-05-04,Constant Contact,$33.25,Waltham,MA,business,Email Marketing,D,494947,2026-07-13
+expenditure,2026-06-04,Constant Contact,$33.25,Waltham,MA,business,Email Marketing,D,494947,2026-07-13
+expenditure,2026-05-29,Four Star Printing,$6.05,Woodstock,VA,business,Office Supplies,D,494947,2026-07-13
+expenditure,2026-03-24,Frederick County Republican Committee,$500,Winchester,VA,business,Donation,D,494947,2026-07-13
+expenditure,2026-02-23,Feed More,$100,Richmond,VA,business,Donation,D,494947,2026-07-13
+expenditure,2026-02-19,VCU Massey Cancer Center,$250,Richmond,VA,business,Donation,D,494947,2026-07-13
 expenditure,2026-01-14,Jeff Walters,"$1,000",Woodstock,VA,individual,Campaign Support,D,494947,2026-07-13
 expenditure,2026-02-13,Jeff Walters,"$1,000",Woodstock,VA,individual,Campaign Support,D,494947,2026-07-13
 expenditure,2026-03-13,Jeff Walters,"$1,000",Woodstock,VA,individual,Campaign Support,D,494947,2026-07-13
 expenditure,2026-04-14,Jeff Walters,"$1,000",Woodstock,VA,individual,Campaign Support,D,494947,2026-07-13
 expenditure,2026-05-14,Jeff Walters,"$1,000",Woodstock,VA,individual,Campaign Support,D,494947,2026-07-13
 expenditure,2026-06-12,Jeff Walters,"$1,000",Woodstock,VA,individual,Campaign Support,D,494947,2026-07-13
-expenditure,2026-01-14,Publix,$80.16,Richmond,VA,pac,Office Suppllies,D,494947,2026-07-13
-expenditure,2026-01-17,"Metropolis Technologies, Inc.",$22,Nashville,TN,pac,Parking,D,494947,2026-07-13
-expenditure,2026-02-09,Coleman Brothers Flower Inc,$108.35,Richmond,VA,pac,Flowers,D,494947,2026-07-13
-expenditure,2026-02-18,Kroger,$35.27,Richmond,VA,pac,Office Supplies,D,494947,2026-07-13
-expenditure,2026-02-20,French Brothers Dairy LLC,"$1,440",Woodstock,VA,pac,Cell phone service,D,494947,2026-07-13
-expenditure,2026-02-20,USPS,$126,Woodstock,VA,pac,PO Box Rental,D,494947,2026-07-13
-expenditure,2026-03-24,Warren County Republican Commitee,$500,Front Royal,VA,pac,Donation,D,494947,2026-07-13
-expenditure,2026-03-31,Clarke County Republican Committee,$500,Berryville,VA,pac,Donation,D,494947,2026-07-13
-expenditure,2026-04-08,Shell Service Station,$104.11,Winchester,VA,pac,Gas,D,494947,2026-07-13
-expenditure,2026-04-11,Skyline High School,$150,Front Royal,VA,pac,FFA Sponsorship,D,494947,2026-07-13
-expenditure,2026-04-14,Mt. Jackson Lions,$450,Mt. Jackson,VA,pac,Sponsorship,D,494947,2026-07-13
-expenditure,2026-05-04,Water Street Kitchen,$65.32,Winchester,VA,pac,Campaign,D,494947,2026-07-13
-expenditure,2026-05-04,Vibissa Beer,$20,Front Royal,VA,pac,Parking,D,494947,2026-07-13
-expenditure,2026-05-28,UPS,$9.63,Atlanta,GA,pac,Postage/Carrier,D,494947,2026-07-13
-expenditure,2026-06-26,"Holtzman Express, Strasburg",$120.66,Strasburg,VA,pac,Gas,D,494947,2026-07-13
-expenditure,2026-04-01,Virginia Tech Treasurer,$600,Blacksburg,VA,pac,Donation,D,494947,2026-07-13
+expenditure,2026-01-14,Publix,$80.16,Richmond,VA,business,Office Suppllies,D,494947,2026-07-13
+expenditure,2026-01-17,"Metropolis Technologies, Inc.",$22,Nashville,TN,business,Parking,D,494947,2026-07-13
+expenditure,2026-02-09,Coleman Brothers Flower Inc,$108.35,Richmond,VA,business,Flowers,D,494947,2026-07-13
+expenditure,2026-02-18,Kroger,$35.27,Richmond,VA,business,Office Supplies,D,494947,2026-07-13
+expenditure,2026-02-20,French Brothers Dairy LLC,"$1,440",Woodstock,VA,business,Cell phone service,D,494947,2026-07-13
+expenditure,2026-02-20,USPS,$126,Woodstock,VA,business,PO Box Rental,D,494947,2026-07-13
+expenditure,2026-03-24,Warren County Republican Commitee,$500,Front Royal,VA,business,Donation,D,494947,2026-07-13
+expenditure,2026-03-31,Clarke County Republican Committee,$500,Berryville,VA,business,Donation,D,494947,2026-07-13
+expenditure,2026-04-08,Shell Service Station,$104.11,Winchester,VA,business,Gas,D,494947,2026-07-13
+expenditure,2026-04-11,Skyline High School,$150,Front Royal,VA,business,FFA Sponsorship,D,494947,2026-07-13
+expenditure,2026-04-14,Mt. Jackson Lions,$450,Mt. Jackson,VA,business,Sponsorship,D,494947,2026-07-13
+expenditure,2026-05-04,Water Street Kitchen,$65.32,Winchester,VA,business,Campaign,D,494947,2026-07-13
+expenditure,2026-05-04,Vibissa Beer,$20,Front Royal,VA,business,Parking,D,494947,2026-07-13
+expenditure,2026-05-28,UPS,$9.63,Atlanta,GA,business,Postage/Carrier,D,494947,2026-07-13
+expenditure,2026-06-26,"Holtzman Express, Strasburg",$120.66,Strasburg,VA,business,Gas,D,494947,2026-07-13
+expenditure,2026-04-01,Virginia Tech Treasurer,$600,Blacksburg,VA,business,Donation,D,494947,2026-07-13

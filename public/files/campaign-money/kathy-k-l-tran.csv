@@ -6,8 +6,8 @@ summary,2026-06-30,Spent this cycle,"$62,780.26",,,,Total disbursements this ele
 contribution,2025-03-18,Michelle Allendoerfer,$200,Springfield,VA,individual,,A,497098,2026-07-15
 contribution,2025-02-28,KELCY ALLWEIN,$25,Alexandria,VA,individual,,A,497098,2026-07-15
 contribution,2025-03-28,KELCY ALLWEIN,$25,Alexandria,VA,individual,,A,497098,2026-07-15
-contribution,2025-03-18,"American Federation of State, County and Municipal Employees, AFL-CIO","$10,000",Washington,DC,pac,,A,497098,2026-07-15
-contribution,2025-02-24,Arrow International Inc.,$500,Cleveland,OH,pac,,A,497098,2026-07-15
+contribution,2025-03-18,"American Federation of State, County and Municipal Employees, AFL-CIO","$10,000",Washington,DC,business,,A,497098,2026-07-15
+contribution,2025-02-24,Arrow International Inc.,$500,Cleveland,OH,business,,A,497098,2026-07-15
 contribution,2025-03-16,Mary Bauch,$250,Arlington,VA,individual,,A,497098,2026-07-15
 contribution,2025-03-31,Jonathan Beckham,$250,Kennesaw,GA,individual,,A,497098,2026-07-15
 contribution,2025-03-23,Nelfred Blanding,$200,Springfield,VA,individual,,A,497098,2026-07-15
@@ -32,7 +32,7 @@ contribution,2025-03-17,Ms. Katherine DeVan,"$1,000",Springfield,VA,individual,,
 contribution,2025-03-14,Sharon Downey,$250,Springfield,VA,individual,,A,497098,2026-07-15
 contribution,2025-03-16,Michael Duncanson,$200,Springfield,VA,individual,,A,497098,2026-07-15
 contribution,2025-03-27,Sallie Rosenberger Eissler,$250,Lorton,VA,individual,,A,497098,2026-07-15
-contribution,2025-02-24,"Elevance Health, Inc.",$500,Cincinnati,OH,pac,,A,497098,2026-07-15
+contribution,2025-02-24,"Elevance Health, Inc.",$500,Cincinnati,OH,business,,A,497098,2026-07-15
 contribution,2025-03-16,Raquel Espana,$250,Mountain View,CA,individual,,A,497098,2026-07-15
 contribution,2025-03-23,Raquel Espana,$25,Mountain View,CA,individual,,A,497098,2026-07-15
 contribution,2025-03-23,Robert Fasick,$500,Springfield,VA,individual,,A,497098,2026-07-15
@@ -83,21 +83,21 @@ contribution,2025-03-18,Laura Morgan-Kessler,$250,Springfield,VA,individual,,A,4
 contribution,2025-03-30,Mr. Shekar Narasimhan,$500,Mclean,VA,individual,,A,497098,2026-07-15
 contribution,2025-02-28,Andrew Petruzziello,$100,Springfield,VA,individual,,A,497098,2026-07-15
 contribution,2025-03-15,Andrew Petruzziello,$200,Springfield,VA,individual,,A,497098,2026-07-15
-contribution,2025-02-24,PPE Casino Resorts,"$5,000",Baltimore,MD,pac,,A,497098,2026-07-15
+contribution,2025-02-24,PPE Casino Resorts,"$5,000",Baltimore,MD,business,,A,497098,2026-07-15
 contribution,2025-03-17,Amisha Raja,$250,Springfield,VA,individual,,A,497098,2026-07-15
 contribution,2025-03-18,Dr. Terence N. Reisman,$250,Tallahassee,FL,individual,,A,497098,2026-07-15
 contribution,2025-03-18,Ms. Beirne Roose-Snyder,$250,Takoma Park,MD,individual,,A,497098,2026-07-15
 contribution,2025-03-25,Susan Rosenblum,$100,Silver Spring,MD,individual,,A,497098,2026-07-15
 contribution,2025-03-10,Sondra Russell,"$1,000",Springfield,VA,individual,,A,497098,2026-07-15
-contribution,2025-02-24,Scott C. Plein Revocable Trust,$750,Bristow,VA,pac,,A,497098,2026-07-15
-contribution,2025-02-24,"Sentara Health Administration, Inc.","$1,000",Virginia Beach,VA,pac,,A,497098,2026-07-15
+contribution,2025-02-24,Scott C. Plein Revocable Trust,$750,Bristow,VA,business,,A,497098,2026-07-15
+contribution,2025-02-24,"Sentara Health Administration, Inc.","$1,000",Virginia Beach,VA,business,,A,497098,2026-07-15
 contribution,2025-02-27,Linh Song,"$5,000",Ann Arbor,MI,individual,,A,497098,2026-07-15
 contribution,2025-03-13,Dr. Thomas Timberg,$100,Bethesda,MD,individual,,A,497098,2026-07-15
 contribution,2025-03-13,Evelyn Tomaszewski,$100,Springfield,VA,individual,,A,497098,2026-07-15
 contribution,2025-03-21,Robert Tsukayama,$100,Alexandria,VA,individual,,A,497098,2026-07-15
-contribution,2025-02-24,"Uber Technologies, Inc.",$500,San Francisco,CA,pac,,A,497098,2026-07-15
+contribution,2025-02-24,"Uber Technologies, Inc.",$500,San Francisco,CA,business,,A,497098,2026-07-15
 contribution,2025-02-24,VA Digital Infrastructure PAC,"$5,000",Leesburg,VA,pac,,A,497098,2026-07-15
-contribution,2025-02-24,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,pac,,A,497098,2026-07-15
+contribution,2025-02-24,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,business,,A,497098,2026-07-15
 contribution,2025-02-24,Virginia Pharmacists Association Pharmacist Care Political Action Committee,$500,Richmond,VA,pac,,A,497098,2026-07-15
 contribution,2025-02-24,Virginia Physical Therapy Association,$500,Clifton,VA,pac,,A,497098,2026-07-15
 contribution,2025-01-06,Tony Wai,$50,Fairfax Station,VA,individual,,A,497098,2026-07-15
@@ -195,7 +195,7 @@ contribution,2025-04-16,Mr. Van Smith,$500,Charlottesville,VA,individual,,A,4971
 contribution,2025-05-30,Robert Surovell,$250,Alexandria,VA,individual,,A,497115,2026-07-15
 contribution,2025-05-31,Galina Varchena,$500,Alexandria,VA,individual,,A,497115,2026-07-15
 contribution,2025-06-03,Virginia Bankers Association State PAC,"$3,500",Glen Allen,VA,pac,,A,497115,2026-07-15
-contribution,2025-05-15,Virginia Optometric Association,$500,Glen Allen,VA,pac,,A,497115,2026-07-15
+contribution,2025-05-15,Virginia Optometric Association,$500,Glen Allen,VA,business,,A,497115,2026-07-15
 contribution,2025-04-20,Virginia Radiology PAC,"$1,000",Richmond,VA,pac,,A,497115,2026-07-15
 contribution,2025-05-16,Virginia Sheriffs' Association,$250,Richmond,VA,pac,,A,497115,2026-07-15
 contribution,2025-06-05,Vote Mama,"$1,000",Seattle,WA,pac,,A,497115,2026-07-15
@@ -205,13 +205,13 @@ contribution,2025-04-26,Tony Wai,$10,Fairfax Station,VA,individual,,A,497115,202
 contribution,2025-05-06,Tony Wai,$50,Fairfax Station,VA,individual,,A,497115,2026-07-15
 contribution,2025-05-26,Tony Wai,$10,Fairfax Station,VA,individual,,A,497115,2026-07-15
 contribution,2025-06-05,Dean Wanderer,$236,Springfield,VA,individual,,A,497115,2026-07-15
-contribution,2025-05-13,Waste Management,"$1,000",Houston,TX,pac,,A,497115,2026-07-15
+contribution,2025-05-13,Waste Management,"$1,000",Houston,TX,business,,A,497115,2026-07-15
 contribution,2025-05-29,William Wells,$100,Springfield,VA,individual,,A,497115,2026-07-15
-contribution,2025-05-15,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,pac,,A,497115,2026-07-15
+contribution,2025-05-15,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,A,497115,2026-07-15
 contribution,2025-04-28,Portia Wu,$250,Chevy Chase,MD,individual,,A,497115,2026-07-15
 contribution,2025-06-08,Judy Burnam,$210,Springfield,VA,individual,,A,497123,2026-07-15
 contribution,2025-06-30,Judy Burnam,$10,Springfield,VA,individual,,A,497123,2026-07-15
-contribution,2025-06-30,Chesapeake Climate Action Network,$500,Takoma Park,MD,pac,,A,497123,2026-07-15
+contribution,2025-06-30,Chesapeake Climate Action Network,$500,Takoma Park,MD,business,,A,497123,2026-07-15
 contribution,2025-06-20,Rose C. Chu,$50,Washington,DC,individual,,A,497123,2026-07-15
 contribution,2025-06-14,Hillary Clawson,$25,Lorton,VA,individual,,A,497123,2026-07-15
 contribution,2025-06-26,Kelly Johnson,$250,Alexandria,VA,individual,,A,497123,2026-07-15
@@ -238,7 +238,7 @@ contribution,2025-06-07,Khai Nguyen,$256,Fairfax,VA,individual,,A,497123,2026-07
 contribution,2025-06-19,Andrew Petruzziello,$100,Springfield,VA,individual,,A,497123,2026-07-15
 contribution,2025-06-13,Stephanie Powers,$50,Alexandria,VA,individual,,A,497123,2026-07-15
 contribution,2025-06-08,Anne Reed,$166.67,Alexandria,VA,individual,,A,497123,2026-07-15
-contribution,2025-06-29,Republic Services Inc.,$250,Phoenix,AZ,pac,,A,497123,2026-07-15
+contribution,2025-06-29,Republic Services Inc.,$250,Phoenix,AZ,business,,A,497123,2026-07-15
 contribution,2025-06-18,Susan Rosenblum,$6,Silver Spring,MD,individual,,A,497123,2026-07-15
 contribution,2025-06-21,Jeffrey Sachs,$90,Springfield,VA,individual,,A,497123,2026-07-15
 contribution,2025-06-24,Matthew Salo,$233.33,Alexandria,VA,individual,,A,497123,2026-07-15
@@ -251,8 +251,8 @@ contribution,2025-06-12,Ms. Doua Thor,$200,Elk Grove,CA,individual,,A,497123,202
 contribution,2025-06-16,Evelyn Tomaszewski,$50,Springfield,VA,individual,,A,497123,2026-07-15
 contribution,2025-06-29,Transurban (USA) Inc.,"$1,000",Tysons,VA,pac,,A,497123,2026-07-15
 contribution,2025-06-22,Rodrigo Velasquez,$50,Springfield,VA,individual,,A,497123,2026-07-15
-contribution,2025-06-29,Virginia Cable Telecommunications Association,"$2,500",Richmond,VA,pac,,A,497123,2026-07-15
-contribution,2025-06-20,Virginia Education Association,$500,Richmond,VA,pac,,A,497123,2026-07-15
+contribution,2025-06-29,Virginia Cable Telecommunications Association,"$2,500",Richmond,VA,business,,A,497123,2026-07-15
+contribution,2025-06-20,Virginia Education Association,$500,Richmond,VA,business,,A,497123,2026-07-15
 contribution,2025-06-10,Virginia Hospital & Healthcare Association PAC,"$1,500",Richmond,VA,pac,,A,497123,2026-07-15
 contribution,2025-06-09,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,497123,2026-07-15
 contribution,2025-06-20,Virginia Wine Wholesalers Political Action Committee,"$3,000",Richmond,VA,pac,,A,497123,2026-07-15
@@ -284,12 +284,12 @@ contribution,2025-06-07,Stephen Hoskins,$20,Fairfax Station,VA,individual,,A,497
 contribution,2025-06-25,Ms. Joan M. Huffer,$333.33,Alexandria,VA,individual,,A,497123,2026-07-15
 contribution,2025-06-14,Louann Yoshi Igasaki,$236,Alexandria,VA,individual,,A,497123,2026-07-15
 contribution,2025-07-23,Mr. Ronald D. Abramson,"$1,000",Washington,DC,individual,,A,497127,2026-07-15
-contribution,2025-08-20,ACE Development Company,"$2,500",Salt Lake City,UT,pac,,A,497127,2026-07-15
+contribution,2025-08-20,ACE Development Company,"$2,500",Salt Lake City,UT,business,,A,497127,2026-07-15
 contribution,2025-07-28,KELCY ALLWEIN,$25,Alexandria,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-28,KELCY ALLWEIN,$25,Alexandria,VA,individual,,A,497127,2026-07-15
-contribution,2025-07-19,Altria Client Services LLC,"$2,500",Richmond,VA,pac,,A,497127,2026-07-15
-contribution,2025-08-20,Amazon.com Services Inc.,"$2,000",Seattle,WA,pac,,A,497127,2026-07-15
-contribution,2025-08-27,"American Federation of State, County and Municipal Employees, AFL-CIO","$15,000",Washington,DC,pac,,A,497127,2026-07-15
+contribution,2025-07-19,Altria Client Services LLC,"$2,500",Richmond,VA,business,,A,497127,2026-07-15
+contribution,2025-08-20,Amazon.com Services Inc.,"$2,000",Seattle,WA,business,,A,497127,2026-07-15
+contribution,2025-08-27,"American Federation of State, County and Municipal Employees, AFL-CIO","$15,000",Washington,DC,business,,A,497127,2026-07-15
 contribution,2025-07-03,Anheuser Busch Compaines,$500,Saint Louis,MO,pac,,A,497127,2026-07-15
 contribution,2025-08-26,Katharine Baker,$125,Glen Allen,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-31,Nelfred Blanding,$32,Springfield,VA,individual,,A,497127,2026-07-15
@@ -303,14 +303,14 @@ contribution,2025-07-14,Hillary Clawson,$25,Lorton,VA,individual,,A,497127,2026-
 contribution,2025-08-14,Hillary Clawson,$25,Lorton,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-20,Clean Virginia Fund,"$25,000",Charlottesville,VA,pac,,A,497127,2026-07-15
 contribution,2025-08-20,James Closs,$8,Springfield,VA,individual,,A,497127,2026-07-15
-contribution,2025-08-19,Comcast Corporation,$500,Philadelphia,PA,pac,,A,497127,2026-07-15
-contribution,2025-07-03,CSX Corporation,$500,Rockville,MD,pac,,A,497127,2026-07-15
+contribution,2025-08-19,Comcast Corporation,$500,Philadelphia,PA,business,,A,497127,2026-07-15
+contribution,2025-07-03,CSX Corporation,$500,Rockville,MD,business,,A,497127,2026-07-15
 contribution,2025-07-06,Gilman Cuda,$6,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-07-31,Gilman Cuda,$35,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-06,Gilman Cuda,$6,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-07,Gilman Cuda,$60,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-22,Democratic Party DPVA Rent,$750,Richmond,VA,party,,A,497127,2026-07-15
-contribution,2025-07-01,DoorDash Inc.,$500,San Francisco,CA,pac,,A,497127,2026-07-15
+contribution,2025-07-01,DoorDash Inc.,$500,San Francisco,CA,business,,A,497127,2026-07-15
 contribution,2025-08-21,Tuyet Duong,$64,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-07-19,Elect Elizabeth Bennett-Parker,$566.67,Alexandria,VA,candidate,,A,497127,2026-07-15
 contribution,2025-07-25,John Eltzroth,$300,Dunn Loring,VA,individual,,A,497127,2026-07-15
@@ -326,14 +326,14 @@ contribution,2025-08-20,Marissa Goldsmith,$160,Springfield,VA,individual,,A,4971
 contribution,2025-07-08,Sue Goodhart,$500,Alexandria,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-26,Ms. Virginia Hamilton,$62,Oakland,CA,individual,,A,497127,2026-07-15
 contribution,2025-07-14,Kenneth Hannsgen,$500,Blacksburg,VA,individual,,A,497127,2026-07-15
-contribution,2025-08-08,HCA for Good Government,"$2,000",Glen Allen,VA,pac,,A,497127,2026-07-15
+contribution,2025-08-08,HCA for Good Government,"$2,000",Glen Allen,VA,business,,A,497127,2026-07-15
 contribution,2025-07-17,Sara Helfer,$20,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-17,Sara Helfer,$20,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-17,Philip Jay Hirschkop,$250,Lorton,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-08,Frank Holleman,"$1,000",Greenville,SC,individual,,A,497127,2026-07-15
 contribution,2025-07-07,Stephen Hoskins,$20,Fairfax Station,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-07,Stephen Hoskins,$20,Fairfax Station,VA,individual,,A,497127,2026-07-15
-contribution,2025-07-10,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,pac,,A,497127,2026-07-15
+contribution,2025-07-10,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,497127,2026-07-15
 contribution,2025-08-19,Sushil Kumar Jain,$100,Dunn Loring,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-31,Anthony F. Joyce,$50,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-30,Deborah Joyce,$32,Springfield,VA,individual,,A,497127,2026-07-15
@@ -357,7 +357,7 @@ contribution,2025-08-31,Eric Lin,$250,Chesterfield,VA,individual,,A,497127,2026-
 contribution,2025-07-21,Ms. Kim-Ha Ly,$4,Woodbridge,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-21,Ms. Kim-Ha Ly,$4,Woodbridge,VA,individual,,A,497127,2026-07-15
 contribution,2025-07-21,Laura Macdonald,$250,Alexandria,VA,individual,,A,497127,2026-07-15
-contribution,2025-07-10,Maxim Healthcare Services,$500,Columbia,MD,pac,,A,497127,2026-07-15
+contribution,2025-07-10,Maxim Healthcare Services,$500,Columbia,MD,business,,A,497127,2026-07-15
 contribution,2025-07-17,Irene McGhee,$50,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-07-31,Mr. Thomas J. Moore,$500,Fairfax Station,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-31,Mr. Thomas J. Moore,$50,Fairfax Station,VA,individual,,A,497127,2026-07-15
@@ -372,10 +372,10 @@ contribution,2025-08-27,Marianne Palastro,$32,Springfield,VA,individual,,A,49712
 contribution,2025-07-30,Andrew Petruzziello,$100,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-20,Andrew Petruzziello,$100,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-08,Christine Plummer,$500,Springfield,VA,individual,,A,497127,2026-07-15
-contribution,2025-07-15,PMI US Corporate Services,"$10,000",San Rafael,CA,pac,,A,497127,2026-07-15
+contribution,2025-07-15,PMI US Corporate Services,"$10,000",San Rafael,CA,business,,A,497127,2026-07-15
 contribution,2025-08-09,Janet Quinn,$100,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-27,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,A,497127,2026-07-15
-contribution,2025-07-19,Reworld Waste LLC,"$1,000",Reston,VA,pac,,A,497127,2026-07-15
+contribution,2025-07-19,Reworld Waste LLC,"$1,000",Reston,VA,business,,A,497127,2026-07-15
 contribution,2025-08-08,Mr. Edward Hart Rice,"$25,000",Vienna,VA,individual,,A,497127,2026-07-15
 contribution,2025-07-16,Susan Rosenblum,$6,Silver Spring,MD,individual,,A,497127,2026-07-15
 contribution,2025-08-16,Susan Rosenblum,$6,Silver Spring,MD,individual,,A,497127,2026-07-15
@@ -385,7 +385,7 @@ contribution,2025-08-02,Lucas Lawson Thornton,$500,Fincastle,VA,individual,,A,49
 contribution,2025-08-19,Evelyn Tomaszewski,$60,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-07-15,John M. Underwood,$300,Arlington,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-27,Virginia Association of Health Plans PAC,"$1,000",Richmond,VA,pac,,A,497127,2026-07-15
-contribution,2025-08-22,Virginia Optometric Association,"$3,000",Glen Allen,VA,pac,,A,497127,2026-07-15
+contribution,2025-08-22,Virginia Optometric Association,"$3,000",Glen Allen,VA,business,,A,497127,2026-07-15
 contribution,2025-07-19,Virginia Wine Wholesalers Political Action Committee,$191.59,Richmond,VA,pac,,A,497127,2026-07-15
 contribution,2025-08-19,Julie Wagner,$32,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-07-06,Tony Wai,$50,Fairfax Station,VA,individual,,A,497127,2026-07-15
@@ -394,7 +394,7 @@ contribution,2025-08-06,Tony Wai,$50,Fairfax Station,VA,individual,,A,497127,202
 contribution,2025-08-26,Tony Wai,$10,Fairfax Station,VA,individual,,A,497127,2026-07-15
 contribution,2025-07-07,James Wallar,$200,Fairfax,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-31,Bruce Wasem,"$2,000",Wise,VA,individual,,A,497127,2026-07-15
-contribution,2025-08-01,Wells Fargo & Co. Virginia Employees,$500,Minneapolis,MN,pac,,A,497127,2026-07-15
+contribution,2025-08-01,Wells Fargo & Co. Virginia Employees,$500,Minneapolis,MN,business,,A,497127,2026-07-15
 contribution,2025-07-23,William Wells,$50,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-08-23,William Wells,$50,Springfield,VA,individual,,A,497127,2026-07-15
 contribution,2025-07-02,Sharon Wilkinson,$250,Alexandria,VA,individual,,A,497127,2026-07-15
@@ -406,22 +406,22 @@ contribution,2025-09-12,Ellen Bender,$250,New York,NY,individual,,A,497130,2026-
 contribution,2025-09-30,Betting on Virginia Jobs,"$5,000",Richmond,VA,pac,,A,497130,2026-07-15
 contribution,2025-09-30,Judy Burnam,$10,Springfield,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-24,Peter Campbell,$50,Springfield,VA,individual,,A,497130,2026-07-15
-contribution,2025-09-03,Capital One Services,"$1,500",Reston,VA,pac,,A,497130,2026-07-15
-contribution,2025-09-03,Care Advantage Inc,"$2,500",North Chesterfield,VA,pac,,A,497130,2026-07-15
+contribution,2025-09-03,Capital One Services,"$1,500",Reston,VA,business,,A,497130,2026-07-15
+contribution,2025-09-03,Care Advantage Inc,"$2,500",North Chesterfield,VA,business,,A,497130,2026-07-15
 contribution,2025-09-19,Michael Cassidy,$125,Henrico,VA,individual,,A,497130,2026-07-15
-contribution,2025-09-15,Cedar Mountain Stone Corporation,$500,Pine City,NY,pac,,A,497130,2026-07-15
+contribution,2025-09-15,Cedar Mountain Stone Corporation,$500,Pine City,NY,business,,A,497130,2026-07-15
 contribution,2025-09-30,Helen Chang,$200,Plano,TX,individual,,A,497130,2026-07-15
-contribution,2025-09-15,Chemung Contracting Corporation,$500,Pine City,NY,pac,,A,497130,2026-07-15
-contribution,2025-09-15,Chesapeake Climate Action Network,$250,Takoma Park,MD,pac,,A,497130,2026-07-15
+contribution,2025-09-15,Chemung Contracting Corporation,$500,Pine City,NY,business,,A,497130,2026-07-15
+contribution,2025-09-15,Chesapeake Climate Action Network,$250,Takoma Park,MD,business,,A,497130,2026-07-15
 contribution,2025-09-29,Roger Claassen,$250,Hyattsville,MD,individual,,A,497130,2026-07-15
 contribution,2025-09-04,Hillary Clawson,$100,Lorton,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-14,Hillary Clawson,$25,Lorton,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-26,Clean Virginia Fund,"$25,000",Charlottesville,VA,pac,,A,497130,2026-07-15
 contribution,2025-09-21,Leigh Ann Collier,$250,Glen Allen,VA,individual,,A,497130,2026-07-15
-contribution,2025-09-23,Communications Workers of America Union,"$2,500",Richmond,VA,pac,,A,497130,2026-07-15
+contribution,2025-09-23,Communications Workers of America Union,"$2,500",Richmond,VA,business,,A,497130,2026-07-15
 contribution,2025-09-16,Community-Owned Power PAC,"$1,500",Glen Allen,VA,pac,,A,497130,2026-07-15
 contribution,2025-09-25,Elizabeth Rowe Costle,$250,McLean,VA,individual,,A,497130,2026-07-15
-contribution,2025-09-20,Cozen O'Connor,$500,Philadelphia,PA,pac,,A,497130,2026-07-15
+contribution,2025-09-20,Cozen O'Connor,$500,Philadelphia,PA,business,,A,497130,2026-07-15
 contribution,2025-09-06,Gilman Cuda,$6,Springfield,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-25,Ms. Barbara Davis,$500,Arlington,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-24,Democratic Party DPVA Rent,$750,Richmond,VA,party,,A,497130,2026-07-15
@@ -434,8 +434,8 @@ contribution,2025-09-08,Ms. Margaret Ewell,$60,Springfield,VA,individual,,A,4971
 contribution,2025-09-09,Fairfax County Democratic Committee,$700,Fairfax,VA,party,,A,497130,2026-07-15
 contribution,2025-09-10,Freedom Virginia,"$5,000",Arlington,VA,pac,,A,497130,2026-07-15
 contribution,2025-09-03,Anthony Fung,$125,Richmond,VA,individual,,A,497130,2026-07-15
-contribution,2025-09-03,General Motors Company,$250,Washington,DC,pac,,A,497130,2026-07-15
-contribution,2025-09-20,Genworth Financial,"$1,500",Lynchburg,VA,pac,,A,497130,2026-07-15
+contribution,2025-09-03,General Motors Company,$250,Washington,DC,business,,A,497130,2026-07-15
+contribution,2025-09-20,Genworth Financial,"$1,500",Lynchburg,VA,business,,A,497130,2026-07-15
 contribution,2025-09-25,Ms. Gay M. Gilbert,$250,Washington,DC,individual,,A,497130,2026-07-15
 contribution,2025-09-05,Judith Gilbert,$32,Springfield,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-30,Judith Gilbert,$14,Springfield,VA,individual,,A,497130,2026-07-15
@@ -446,7 +446,7 @@ contribution,2025-09-04,Jennifer Guernsey,$100,Springfield,VA,individual,,A,4971
 contribution,2025-09-26,Kenneth Hannsgen,"$2,000",Blacksburg,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-23,Mr. Linh Hoang,$50,Washington,DC,individual,,A,497130,2026-07-15
 contribution,2025-09-07,Stephen Hoskins,$20,Fairfax Station,VA,individual,,A,497130,2026-07-15
-contribution,2025-09-20,Hunton Andrews Kurth LLP,"$1,500",Richmond,VA,pac,,A,497130,2026-07-15
+contribution,2025-09-20,Hunton Andrews Kurth LLP,"$1,500",Richmond,VA,business,,A,497130,2026-07-15
 contribution,2025-09-20,Louann Yoshi Igasaki,$150,Alexandria,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-27,Mr. Paul Jaffe,$250,Springfield,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-08,Johnny Kitts,$25,Springfield,VA,individual,,A,497130,2026-07-15
@@ -470,34 +470,34 @@ contribution,2025-09-19,Ms. Susan G. Meckel,$150,La Mesa,CA,individual,,A,497130
 contribution,2025-09-24,Mr. Thomas J. Moore,$500,Fairfax Station,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-30,Mr. Thomas J. Moore,$10,Fairfax Station,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-25,Mr. Shekar Narasimhan,"$1,000",Mclean,VA,individual,,A,497130,2026-07-15
-contribution,2025-09-09,Newport News Shipbuilding,$500,Newport News,VA,pac,,A,497130,2026-07-15
+contribution,2025-09-09,Newport News Shipbuilding,$500,Newport News,VA,business,,A,497130,2026-07-15
 contribution,2025-09-24,Khanh Nguyen,"$1,000",Cupertino,CA,individual,,A,497130,2026-07-15
 contribution,2025-09-08,Ngoctram Nguyen,$500,Richmond,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-17,Quynhtrang Nguyen,$250,Washington,DC,individual,,A,497130,2026-07-15
 contribution,2025-09-16,PsychMD PAC,$500,Richmond,VA,pac,,A,497130,2026-07-15
-contribution,2025-09-25,Reynolds American Inc. Services Company,"$1,000",Winston Salem,NC,pac,,A,497130,2026-07-15
+contribution,2025-09-25,Reynolds American Inc. Services Company,"$1,000",Winston Salem,NC,business,,A,497130,2026-07-15
 contribution,2025-09-16,Susan Rosenblum,$6,Silver Spring,MD,individual,,A,497130,2026-07-15
 contribution,2025-09-29,Sondra Russell,"$1,000",Springfield,VA,individual,,A,497130,2026-07-15
-contribution,2025-09-25,Seven Hills Strategy Group LLC,"$1,000",Richmond,VA,pac,,A,497130,2026-07-15
+contribution,2025-09-25,Seven Hills Strategy Group LLC,"$1,000",Richmond,VA,business,,A,497130,2026-07-15
 contribution,2025-09-29,Mr. Jonathan Shaw,$100,Springfield,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-16,State Farm Federal PAC,"$1,500",Bloomington,IL,pac,,A,497130,2026-07-15
-contribution,2025-09-15,Strata Clean Energy,"$2,000",Durham,NC,pac,,A,497130,2026-07-15
+contribution,2025-09-15,Strata Clean Energy,"$2,000",Durham,NC,business,,A,497130,2026-07-15
 contribution,2025-09-24,Surovell for State Senate,$500,Mount Vernon,VA,candidate,,A,497130,2026-07-15
 contribution,2025-09-18,Le Tan,$50,Richmond,TX,individual,,A,497130,2026-07-15
 contribution,2025-09-19,Clarence K. Tong,$125,Fairfax,VA,individual,,A,497130,2026-07-15
 contribution,2025-09-09,Julie Tran,$250,Studio City,CA,individual,,A,497130,2026-07-15
 contribution,2025-09-24,Transurban (USA) Inc.,"$1,000",Tysons,VA,pac,,A,497130,2026-07-15
-contribution,2025-09-03,United,"$1,000",Houston,TX,pac,,A,497130,2026-07-15
+contribution,2025-09-03,United,"$1,000",Houston,TX,business,,A,497130,2026-07-15
 contribution,2025-09-21,UpVote PAC,"$1,000",Chesterfield,VA,pac,,A,497130,2026-07-15
 contribution,2025-09-03,VA Beverage Association Political Action Committee,$750,Richmond,VA,pac,,A,497130,2026-07-15
-contribution,2025-09-16,VA Forestry Products Association,$500,Sandston,VA,pac,,A,497130,2026-07-15
+contribution,2025-09-16,VA Forestry Products Association,$500,Sandston,VA,business,,A,497130,2026-07-15
 contribution,2025-09-25,Rodrigo Velasquez,$25,Springfield,VA,individual,,A,497130,2026-07-15
-contribution,2025-09-03,Virginia AFL-CIO,"$2,500",Richmond,VA,pac,,A,497130,2026-07-15
+contribution,2025-09-03,Virginia AFL-CIO,"$2,500",Richmond,VA,business,,A,497130,2026-07-15
 contribution,2025-09-16,Virginia Automobile Truck Dealers Political Action Committee,"$1,000",Richmond,VA,pac,,A,497130,2026-07-15
 contribution,2025-09-09,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,A,497130,2026-07-15
 contribution,2025-09-15,Virginia Credit Union PAC,"$5,000",Tallahassee,FL,pac,,A,497130,2026-07-15
 contribution,2025-09-16,Virginia CRNAs Who Care About Healthcare PAC,"$1,000",Roanoke,VA,pac,,A,497130,2026-07-15
-contribution,2025-09-03,Virginia Dental Association Exempt Functions Account H,"$3,500",Richmond,VA,pac,,A,497130,2026-07-15
+contribution,2025-09-03,Virginia Dental Association Exempt Functions Account H,"$3,500",Richmond,VA,business,,A,497130,2026-07-15
 contribution,2025-09-16,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,497130,2026-07-15
 contribution,2025-09-15,Virginia Manufactured & Modular Housing Association PAC,$500,Henrico,VA,pac,,A,497130,2026-07-15
 contribution,2025-09-30,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,A,497130,2026-07-15
@@ -532,26 +532,26 @@ contribution,2025-10-15,Andrew Petruzziello,$100,Springfield,VA,individual,,A,49
 contribution,2025-10-10,Ms. Elise Pressma,$126,Silver Spring,MD,individual,,A,497140,2026-07-15
 contribution,2025-10-23,Realtors Political Action Committee of Virginia,"$2,000",Glen Allen,VA,pac,,A,497140,2026-07-15
 contribution,2025-10-21,Dr. Terence N. Reisman,"$1,000",Tallahassee,FL,individual,,A,497140,2026-07-15
-contribution,2025-10-20,Rivers Portsmouth Gaming LLC,"$1,000",Chicago,IL,pac,,A,497140,2026-07-15
+contribution,2025-10-20,Rivers Portsmouth Gaming LLC,"$1,000",Chicago,IL,business,,A,497140,2026-07-15
 contribution,2025-10-16,Susan Rosenblum,$6,Silver Spring,MD,individual,,A,497140,2026-07-15
 contribution,2025-10-23,Jeffrey Sachs,$100,Springfield,VA,individual,,A,497140,2026-07-15
 contribution,2025-10-06,Ronald H. Saff,$125,Tallahassee,FL,individual,,A,497140,2026-07-15
 contribution,2025-10-10,Service Employees International Union - Committee on Political Education,"$20,000",Washington,DC,pac,,A,497140,2026-07-15
-contribution,2025-10-05,Smithfield Support Services Corporation,"$1,500",Lisle,IL,pac,,A,497140,2026-07-15
+contribution,2025-10-05,Smithfield Support Services Corporation,"$1,500",Lisle,IL,business,,A,497140,2026-07-15
 contribution,2025-10-18,Le Tan,$50,Richmond,TX,individual,,A,497140,2026-07-15
 contribution,2025-10-06,Mr. Kevin O. Thompson,$250,Washington,DC,individual,,A,497140,2026-07-15
 contribution,2025-10-10,Virginia Association of Mutual Insurance PAC,$500,Richmond,VA,pac,,A,497140,2026-07-15
 contribution,2025-10-06,Virginia Sierra Club Political Action Committee,"$1,000",Richmond,VA,pac,,A,497140,2026-07-15
-contribution,2025-10-05,Visa,"$1,000",San Francisco,CA,pac,,A,497140,2026-07-15
+contribution,2025-10-05,Visa,"$1,000",San Francisco,CA,business,,A,497140,2026-07-15
 contribution,2025-10-06,Tony Wai,$50,Fairfax Station,VA,individual,,A,497140,2026-07-15
 contribution,2025-10-16,Walmart Inc PAC for Responsible Government,$500,Bentonville,AR,pac,,A,497140,2026-07-15
 contribution,2025-10-05,Bruce Wasem,$100,Wise,VA,individual,,A,497140,2026-07-15
 contribution,2025-10-23,William Wells,$50,Springfield,VA,individual,,A,497140,2026-07-15
-contribution,2025-10-10,Williams Mullen Clark & Dobbins,$500,Richmond,VA,pac,,A,497140,2026-07-15
-contribution,2025-10-16,Williams Mullen Clark & Dobbins,$500,Richmond,VA,pac,,A,497140,2026-07-15
+contribution,2025-10-10,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,497140,2026-07-15
+contribution,2025-10-16,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,497140,2026-07-15
 contribution,2025-10-11,William Brandt,$100,Tallahassee,FL,individual,,A,497140,2026-07-15
 contribution,2025-10-09,Tom Brownscombe,$50,Houston,TX,individual,,A,497140,2026-07-15
-contribution,2025-10-05,"CareFirst Management Co, LLC","$1,000",Owings Mills,MD,pac,,A,497140,2026-07-15
+contribution,2025-10-05,"CareFirst Management Co, LLC","$1,000",Owings Mills,MD,business,,A,497140,2026-07-15
 contribution,2025-10-14,Zhaohui Chen,$150,Mclean,VA,individual,,A,497140,2026-07-15
 contribution,2025-10-03,Chiropractic Political Action,$500,Glen Allen,VA,pac,,A,497140,2026-07-15
 contribution,2025-10-14,Hillary Clawson,$25,Lorton,VA,individual,,A,497140,2026-07-15
@@ -559,8 +559,8 @@ contribution,2025-10-17,Arthur Cook,$500,Falls Church,VA,individual,,A,497140,20
 contribution,2025-10-06,Gilman Cuda,$6,Springfield,VA,individual,,A,497140,2026-07-15
 contribution,2025-10-18,Gilman Cuda,$26,Springfield,VA,individual,,A,497140,2026-07-15
 contribution,2025-10-06,Warner Norris Dalhouse,$500,Moneta,VA,individual,,A,497140,2026-07-15
-contribution,2025-10-06,DaVita,$500,Federal Way,WA,pac,,A,497140,2026-07-15
-contribution,2025-10-10,Delta Dental,$500,Roanoke,VA,pac,,A,497140,2026-07-15
+contribution,2025-10-06,DaVita,$500,Federal Way,WA,business,,A,497140,2026-07-15
+contribution,2025-10-10,Delta Dental,$500,Roanoke,VA,business,,A,497140,2026-07-15
 contribution,2025-10-03,Democratic Party DPVA Rent,$750,Richmond,VA,party,,A,497140,2026-07-15
 contribution,2025-10-16,Kiet Do,$100,Chula Vista,CA,individual,,A,497140,2026-07-15
 contribution,2025-10-04,Elliott Dubin,$5,Springfield,VA,individual,,A,497140,2026-07-15
@@ -569,13 +569,13 @@ contribution,2025-10-02,Paul Feltman,$150,Teaneck,NJ,individual,,A,497140,2026-0
 contribution,2025-10-06,Ms. Gerard Fiala,$100,Washington,DC,individual,,A,497140,2026-07-15
 contribution,2025-10-23,Ms. Anita Fredendall,$100,San Diego,CA,individual,,A,497140,2026-07-15
 contribution,2025-10-10,Sheldon Friedman,$100,Springfield,VA,individual,,A,497140,2026-07-15
-contribution,2025-10-23,"Gene Sweetnam, OD PC",$250,Burke,VA,pac,,A,497140,2026-07-15
+contribution,2025-10-23,"Gene Sweetnam, OD PC",$250,Burke,VA,business,,A,497140,2026-07-15
 contribution,2025-10-23,Greater VA Carpenters PEC,"$5,000",Ashland,VA,pac,,A,497140,2026-07-15
 contribution,2025-10-01,Michael Halle,$25,Springfield,VA,individual,,A,497140,2026-07-15
 contribution,2025-10-13,Michael Halle,$25,Springfield,VA,individual,,A,497140,2026-07-15
 contribution,2025-10-28,KELCY ALLWEIN,$25,Alexandria,VA,individual,,A,497142,2026-07-15
-contribution,2025-11-07,Altria Client Services LLC,"$2,500",Richmond,VA,pac,,A,497142,2026-07-15
-contribution,2025-10-27,"AT&T Services, Inc.",$500,Bedminster,NJ,pac,,A,497142,2026-07-15
+contribution,2025-11-07,Altria Client Services LLC,"$2,500",Richmond,VA,business,,A,497142,2026-07-15
+contribution,2025-10-27,"AT&T Services, Inc.",$500,Bedminster,NJ,business,,A,497142,2026-07-15
 contribution,2025-10-30,Tom Brownscombe,$6,Houston,TX,individual,,A,497142,2026-07-15
 contribution,2025-10-30,Judy Burnam,$10,Springfield,VA,individual,,A,497142,2026-07-15
 contribution,2025-11-14,Hillary Clawson,$25,Lorton,VA,individual,,A,497142,2026-07-15
@@ -601,30 +601,30 @@ contribution,2025-11-16,Paula Lettice,$5,Alexandria,VA,individual,,A,497142,2026
 contribution,2025-11-21,Ms. Kim-Ha Ly,$4,Woodbridge,VA,individual,,A,497142,2026-07-15
 contribution,2025-10-24,Marlan Maralit,$25,Springfield,VA,individual,,A,497142,2026-07-15
 contribution,2025-10-30,Carol Marek,$25.50,Springfield,VA,individual,,A,497142,2026-07-15
-contribution,2025-10-30,McGuireWoods,$500,Richmond,VA,pac,,A,497142,2026-07-15
-contribution,2025-11-07,Mid-Atlantic Laborers? Political Education Fund,"$3,500",Reston,VA,pac,,A,497142,2026-07-15
-contribution,2025-11-07,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,pac,,A,497142,2026-07-15
+contribution,2025-10-30,McGuireWoods,$500,Richmond,VA,business,,A,497142,2026-07-15
+contribution,2025-11-07,Mid-Atlantic Laborers? Political Education Fund,"$3,500",Reston,VA,business,,A,497142,2026-07-15
+contribution,2025-11-07,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,business,,A,497142,2026-07-15
 contribution,2025-10-27,Anuradha Nehru,$100,Bethesda,MD,individual,,A,497142,2026-07-15
 contribution,2025-10-24,Khai Nguyen,$100,Fairfax,VA,individual,,A,497142,2026-07-15
 contribution,2025-10-27,Khanh Nguyen,"$1,000",Cupertino,CA,individual,,A,497142,2026-07-15
 contribution,2025-10-25,Demetra Nightingale,$50,Arlington,VA,individual,,A,497142,2026-07-15
 contribution,2025-10-28,Marianne Palastro,$25.50,Springfield,VA,individual,,A,497142,2026-07-15
 contribution,2025-10-27,Christine Plummer,$100,Springfield,VA,individual,,A,497142,2026-07-15
-contribution,2025-11-07,Prime Theraputics,$500,Saint Paul,MN,pac,,A,497142,2026-07-15
-contribution,2025-10-27,Publix,$500,Lakeland,FL,pac,,A,497142,2026-07-15
+contribution,2025-11-07,Prime Theraputics,$500,Saint Paul,MN,business,,A,497142,2026-07-15
+contribution,2025-10-27,Publix,$500,Lakeland,FL,business,,A,497142,2026-07-15
 contribution,2025-10-29,Janet Quinn,$200,Springfield,VA,individual,,A,497142,2026-07-15
 contribution,2025-11-16,Susan Rosenblum,$6,Silver Spring,MD,individual,,A,497142,2026-07-15
-contribution,2025-10-28,Sentara Health Plans,"$2,500",Virginia Beach,VA,pac,,A,497142,2026-07-15
+contribution,2025-10-28,Sentara Health Plans,"$2,500",Virginia Beach,VA,business,,A,497142,2026-07-15
 contribution,2025-10-28,Ying Smith,$25.50,Springfield,VA,individual,,A,497142,2026-07-15
-contribution,2025-11-07,Sun Tribe Trading LLC,$750,Charlottesville,VA,pac,,A,497142,2026-07-15
+contribution,2025-11-07,Sun Tribe Trading LLC,$750,Charlottesville,VA,business,,A,497142,2026-07-15
 contribution,2025-10-27,Robert Surovell,$100,Alexandria,VA,individual,,A,497142,2026-07-15
-contribution,2025-10-27,Troutman Pepper Locke,"$2,500",Atlanta,GA,pac,,A,497142,2026-07-15
+contribution,2025-10-27,Troutman Pepper Locke,"$2,500",Atlanta,GA,business,,A,497142,2026-07-15
 contribution,2025-10-29,Robert Tsukayama,$25.50,Alexandria,VA,individual,,A,497142,2026-07-15
 contribution,2025-11-11,VA Digital Infrastructure PAC,"$2,500",Leesburg,VA,pac,,A,497142,2026-07-15
 contribution,2025-11-07,Virginia Forest Resources PAC,$250,Richmond,VA,pac,,A,497142,2026-07-15
 contribution,2025-10-30,Virginia League of Conservation Voters PAC,"$5,000",Richmond,VA,pac,,A,497142,2026-07-15
 contribution,2025-11-07,Virginia Society of Eye Physicians and Surgeons,"$1,000",Richmond,VA,pac,,A,497142,2026-07-15
-contribution,2025-11-21,VSP Vision,$500,Rancho Cordova,CA,pac,,A,497142,2026-07-15
+contribution,2025-11-21,VSP Vision,$500,Rancho Cordova,CA,business,,A,497142,2026-07-15
 contribution,2025-10-26,Tony Wai,$10,Fairfax Station,VA,individual,,A,497142,2026-07-15
 contribution,2025-11-06,Tony Wai,$50,Fairfax Station,VA,individual,,A,497142,2026-07-15
 contribution,2025-11-26,Tony Wai,$10,Fairfax Station,VA,individual,,A,497142,2026-07-15
@@ -653,22 +653,22 @@ contribution,2025-12-16,Paula Lettice,$5,Alexandria,VA,individual,,A,497145,2026
 contribution,2025-12-21,Ms. Kim-Ha Ly,$4,Woodbridge,VA,individual,,A,497145,2026-07-15
 contribution,2025-12-30,Carolyn McDonnell,"$1,000",Virginia Beach,VA,individual,,A,497145,2026-07-15
 contribution,2025-12-23,Metro Virginia PAC M301,$500,Washington,DC,pac,,A,497145,2026-07-15
-contribution,2025-11-29,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,pac,,A,497145,2026-07-15
-contribution,2025-12-29,"Principle Advantage Government Relations Group, LLC",$500,Virginia Beach,VA,pac,,A,497145,2026-07-15
+contribution,2025-11-29,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,business,,A,497145,2026-07-15
+contribution,2025-12-29,"Principle Advantage Government Relations Group, LLC",$500,Virginia Beach,VA,business,,A,497145,2026-07-15
 contribution,2025-12-16,Susan Rosenblum,$6,Silver Spring,MD,individual,,A,497145,2026-07-15
 contribution,2025-12-23,VA Psychology PAC,$500,Henrico,VA,pac,,A,497145,2026-07-15
-contribution,2025-12-23,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,pac,,A,497145,2026-07-15
+contribution,2025-12-23,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,business,,A,497145,2026-07-15
 contribution,2025-12-23,Virginia CRNAs Who Care About Healthcare PAC,$500,Roanoke,VA,pac,,A,497145,2026-07-15
-contribution,2025-12-23,Virginia Health Care Association,"$2,500",Richmond,VA,pac,,A,497145,2026-07-15
-contribution,2025-12-23,Virginia Optometric Association,"$1,000",Glen Allen,VA,pac,,A,497145,2026-07-15
+contribution,2025-12-23,Virginia Health Care Association,"$2,500",Richmond,VA,business,,A,497145,2026-07-15
+contribution,2025-12-23,Virginia Optometric Association,"$1,000",Glen Allen,VA,business,,A,497145,2026-07-15
 contribution,2025-12-23,Virginia Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,A,497145,2026-07-15
 contribution,2025-12-06,Tony Wai,$50,Fairfax Station,VA,individual,,A,497145,2026-07-15
 contribution,2025-12-26,Tony Wai,$10,Fairfax Station,VA,individual,,A,497145,2026-07-15
 contribution,2025-12-23,William Wells,$50,Springfield,VA,individual,,A,497145,2026-07-15
-contribution,2026-06-29,Altria Client Services LLC,"$2,500",Richmond,VA,pac,,A,497271,2026-07-15
+contribution,2026-06-29,Altria Client Services LLC,"$2,500",Richmond,VA,business,,A,497271,2026-07-15
 contribution,2026-06-29,Anheuser Busch Compaines,$500,Saint Louis,MO,pac,,A,497271,2026-07-15
 contribution,2026-06-18,Marta Calderon,$50,Alexandria,VA,individual,,A,497271,2026-07-15
-contribution,2026-01-09,Carbon Solutions Group,$750,Chicago,IL,pac,,A,497271,2026-07-15
+contribution,2026-01-09,Carbon Solutions Group,$750,Chicago,IL,business,,A,497271,2026-07-15
 contribution,2026-04-22,Clean Virginia Fund,"$25,000",Charlottesville,VA,pac,,A,497271,2026-07-15
 contribution,2026-03-15,Commercial Development Political Action Committee,$500,Alexandria,VA,pac,,A,497271,2026-07-15
 contribution,2026-01-09,Community Solar Action Fund,"$1,000",Washington,DC,pac,,A,497271,2026-07-15
@@ -683,19 +683,19 @@ contribution,2026-01-03,Kenneth Hannsgen,$200,Blacksburg,VA,individual,,A,497271
 contribution,2026-04-03,Kenneth Hannsgen,$200,Blacksburg,VA,individual,,A,497271,2026-07-15
 contribution,2026-05-03,Kenneth Hannsgen,$200,Blacksburg,VA,individual,,A,497271,2026-07-15
 contribution,2026-06-03,Kenneth Hannsgen,$200,Blacksburg,VA,individual,,A,497271,2026-07-15
-contribution,2026-03-15,"Humana, Inc",$500,Lexington,KY,pac,,A,497271,2026-07-15
+contribution,2026-03-15,"Humana, Inc",$500,Lexington,KY,business,,A,497271,2026-07-15
 contribution,2026-04-30,Joe Kukella,$100,Mason Neck,VA,individual,,A,497271,2026-07-15
-contribution,2026-05-30,"MGM Resorts International Operations, Inc","$1,000",Las Vegas,NV,pac,,A,497271,2026-07-15
+contribution,2026-05-30,"MGM Resorts International Operations, Inc","$1,000",Las Vegas,NV,business,,A,497271,2026-07-15
 contribution,2026-03-15,Organizing for Virginia Seniors,"$5,000",Fairfax,VA,pac,,A,497271,2026-07-15
 contribution,2026-03-15,Lloyd Chris Petersen,$500,McLean,VA,individual,,A,497271,2026-07-15
-contribution,2026-03-15,PPE Casino Resorts,"$5,000",Baltimore,MD,pac,,A,497271,2026-07-15
-contribution,2026-03-15,PPE Casino Resorts,"$2,500",Baltimore,MD,pac,,A,497271,2026-07-15
+contribution,2026-03-15,PPE Casino Resorts,"$5,000",Baltimore,MD,business,,A,497271,2026-07-15
+contribution,2026-03-15,PPE Casino Resorts,"$2,500",Baltimore,MD,business,,A,497271,2026-07-15
 contribution,2026-06-29,Transurban (USA) Inc.,$500,Tysons,VA,pac,,A,497271,2026-07-15
 contribution,2026-03-15,Virginia Cable PAC,"$2,500",Richmond,VA,pac,,A,497271,2026-07-15
 contribution,2026-03-15,Virginia College of Emergency Physicians,$250,Richmond,VA,pac,,A,497271,2026-07-15
 contribution,2026-03-15,Virginia CRNAs Who Care About Healthcare PAC,$500,Roanoke,VA,pac,,A,497271,2026-07-15
 contribution,2026-06-29,Virginia CRNAs Who Care About Healthcare PAC,"$1,000",Roanoke,VA,pac,,A,497271,2026-07-15
-contribution,2026-06-15,Virginia Health Care Association,"$1,000",Richmond,VA,pac,,A,497271,2026-07-15
+contribution,2026-06-15,Virginia Health Care Association,"$1,000",Richmond,VA,business,,A,497271,2026-07-15
 contribution,2026-03-15,Virginia Society of Health System Pharmacists PAC,$250,Chesapeake,VA,pac,,A,497271,2026-07-15
 contribution,2026-04-06,Tony Wai,$50,Fairfax Station,VA,individual,,A,497271,2026-07-15
 contribution,2026-04-26,Tony Wai,$10,Fairfax Station,VA,individual,,A,497271,2026-07-15
@@ -703,7 +703,7 @@ contribution,2026-05-06,Tony Wai,$50,Fairfax Station,VA,individual,,A,497271,202
 contribution,2026-05-26,Tony Wai,$10,Fairfax Station,VA,individual,,A,497271,2026-07-15
 contribution,2026-06-06,Tony Wai,$50,Fairfax Station,VA,individual,,A,497271,2026-07-15
 contribution,2026-06-26,Tony Wai,$10,Fairfax Station,VA,individual,,A,497271,2026-07-15
-contribution,2026-06-30,Waste Management,"$2,000",Houston,TX,pac,,A,497271,2026-07-15
+contribution,2026-06-30,Waste Management,"$2,000",Houston,TX,business,,A,497271,2026-07-15
 in_kind,2025-03-23,Ms. Geeta Rao Gupta,$495.82,Springfield,VA,individual,Event Supplies,B,497098,2026-07-15
 in_kind,2025-01-09,Ms. Kathy Tran,$16.79,Springfield,VA,individual,Zoom Subscription,B,497098,2026-07-15
 in_kind,2025-02-09,Ms. Kathy Tran,$16.79,Springfield,VA,individual,Zoom Subscription,B,497098,2026-07-15
@@ -720,8 +720,8 @@ in_kind,2025-09-21,Ngoctram Nguyen,$359.31,Richmond,VA,individual,Event Supplies
 in_kind,2025-09-09,Ms. Kathy Tran,$17.84,Springfield,VA,individual,Zoom,B,497130,2026-07-15
 in_kind,2025-09-13,Julie Wagner,$100,Springfield,VA,individual,Event Supplies,B,497130,2026-07-15
 in_kind,2025-09-21,Michelle Wesolowski,$359.31,Richmond,VA,individual,Event Supplies,B,497130,2026-07-15
-in_kind,2025-09-16,Capital Results LLC,"$1,276.89",Richmond,VA,pac,Event Supplies,B,497130,2026-07-15
-in_kind,2025-09-16,Commonwealth Strategy Group LLC,$212.03,Richmond,VA,pac,Event Supplies,B,497130,2026-07-15
+in_kind,2025-09-16,Capital Results LLC,"$1,276.89",Richmond,VA,business,Event Supplies,B,497130,2026-07-15
+in_kind,2025-09-16,Commonwealth Strategy Group LLC,$212.03,Richmond,VA,business,Event Supplies,B,497130,2026-07-15
 in_kind,2025-10-09,Ms. Kathy Tran,$17.84,Springfield,VA,individual,Zoom,B,497140,2026-07-15
 in_kind,2025-11-09,Ms. Kathy Tran,$17.84,Springfield,VA,individual,Zoom,B,497142,2026-07-15
 in_kind,2025-12-09,Ms. Kathy Tran,$17.84,Springfield,VA,individual,Zoom,B,497145,2026-07-15
@@ -731,268 +731,268 @@ in_kind,2026-04-09,Ms. Kathy Tran,$17.84,Springfield,VA,individual,Zoom,B,497271
 in_kind,2026-05-09,Ms. Kathy Tran,$17.84,Springfield,VA,individual,Zoom,B,497271,2026-07-15
 in_kind,2026-06-09,Ms. Kathy Tran,$17.84,Springfield,VA,individual,Zoom,B,497271,2026-07-15
 in_kind,2026-01-09,Virginia Beer Wholesalers Association PAC,$320.47,Richmond,VA,pac,Event Catering,B,497271,2026-07-15
-other_receipt,2025-04-29,County of Fairfax,$352.80,Fairfax,VA,pac,Refund of Qualifying Fee,C,497115,2026-07-15
+other_receipt,2025-04-29,County of Fairfax,$352.80,Fairfax,VA,business,Refund of Qualifying Fee,C,497115,2026-07-15
 other_receipt,2026-03-15,Nicole Huggins,"$1,182.70",Ambler,PA,individual,Reimbursement for unauthorized payment,C,497271,2026-07-15
-expenditure,2025-01-02,Google Inc.,$187.20,Mountain View,CA,pac,G-Suite,D,497098,2026-07-15
+expenditure,2025-01-02,Google Inc.,$187.20,Mountain View,CA,business,G-Suite,D,497098,2026-07-15
 expenditure,2025-01-06,Virginia House Democratic Caucus,"$30,000",Richmond,VA,party,Caucus Dues,D,497098,2026-07-15
-expenditure,2025-01-10,"Paychex, Inc.",$58,Fairfax,VA,pac,Payroll Fees,D,497098,2026-07-15
-expenditure,2025-01-12,ActBlue,$4.99,Cambridge,MA,pac,Service Fee,D,497098,2026-07-15
-expenditure,2025-01-17,"Squarespace, Inc.",$33,New York,NY,pac,Website Services,D,497098,2026-07-15
+expenditure,2025-01-10,"Paychex, Inc.",$58,Fairfax,VA,business,Payroll Fees,D,497098,2026-07-15
+expenditure,2025-01-12,ActBlue,$4.99,Cambridge,MA,business,Service Fee,D,497098,2026-07-15
+expenditure,2025-01-17,"Squarespace, Inc.",$33,New York,NY,business,Website Services,D,497098,2026-07-15
 expenditure,2025-01-30,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497098,2026-07-15
-expenditure,2025-01-30,"Paychex, Inc.",$80,Fairfax,VA,pac,Payroll Taxes,D,497098,2026-07-15
-expenditure,2025-01-30,"Paychex, Inc.",$250.28,Fairfax,VA,pac,Payroll Fees,D,497098,2026-07-15
-expenditure,2025-02-03,Google Inc.,$96.84,Mountain View,CA,pac,G-Suite,D,497098,2026-07-15
-expenditure,2025-02-15,"A.J. Dwoskin & Associates, Inc.","$1,696.04",Fairfax,VA,pac,Rent,D,497098,2026-07-15
-expenditure,2025-02-18,"Squarespace, Inc.",$33,New York,NY,pac,Website Services,D,497098,2026-07-15
-expenditure,2025-02-23,ActBlue,$64.99,Cambridge,MA,pac,Service Fee,D,497098,2026-07-15
-expenditure,2025-02-26,GoDaddy.com,$188.64,Scottsdale,AZ,pac,Website Services,D,497098,2026-07-15
-expenditure,2025-03-01,Annandale-North Springfield Little League,"$1,000",Annandale,VA,pac,League Sponsorship,D,497098,2026-07-15
-expenditure,2025-03-02,ActBlue,$289.14,Cambridge,MA,pac,Service Fee,D,497098,2026-07-15
-expenditure,2025-03-06,GoDaddy.com,$213.46,Scottsdale,AZ,pac,Website Services,D,497098,2026-07-15
-expenditure,2025-03-06,Google Inc.,$79.20,Mountain View,CA,pac,G-Suite,D,497098,2026-07-15
-expenditure,2025-03-06,Google Inc.,$12.77,Mountain View,CA,pac,G-Suite,D,497098,2026-07-15
-expenditure,2025-03-09,ActBlue,$30.76,Cambridge,MA,pac,Service Fee,D,497098,2026-07-15
-expenditure,2025-03-10,"Paychex, Inc.",$58,Fairfax,VA,pac,Payroll Fees,D,497098,2026-07-15
-expenditure,2025-03-16,ActBlue,$303.16,Cambridge,MA,pac,Service Fee,D,497098,2026-07-15
-expenditure,2025-03-17,County of Fairfax,$352,Fairfax,VA,pac,Qualifying Fee,D,497098,2026-07-15
-expenditure,2025-03-17,Fairfax County Public Library,$7.20,Alexandria,VA,pac,Photocopying,D,497098,2026-07-15
-expenditure,2025-03-17,"Squarespace, Inc.",$33,New York,NY,pac,Website Services,D,497098,2026-07-15
-expenditure,2025-03-17,United States Postal Service,$9.68,Alexandria,VA,pac,Postage,D,497098,2026-07-15
-expenditure,2025-03-21,Costco,$102.63,Springfield,VA,pac,Event supplies,D,497098,2026-07-15
-expenditure,2025-03-21,Wegmans,$82.58,Alexandria,VA,pac,Event supplies,D,497098,2026-07-15
-expenditure,2025-03-23,ActBlue,$288.06,Cambridge,MA,pac,Service Fee,D,497098,2026-07-15
-expenditure,2025-03-30,ActBlue,$119.02,Cambridge,MA,pac,Service Fee,D,497098,2026-07-15
-expenditure,2025-03-31,ActBlue,$58.09,Cambridge,MA,pac,Service Fee,D,497098,2026-07-15
+expenditure,2025-01-30,"Paychex, Inc.",$80,Fairfax,VA,business,Payroll Taxes,D,497098,2026-07-15
+expenditure,2025-01-30,"Paychex, Inc.",$250.28,Fairfax,VA,business,Payroll Fees,D,497098,2026-07-15
+expenditure,2025-02-03,Google Inc.,$96.84,Mountain View,CA,business,G-Suite,D,497098,2026-07-15
+expenditure,2025-02-15,"A.J. Dwoskin & Associates, Inc.","$1,696.04",Fairfax,VA,business,Rent,D,497098,2026-07-15
+expenditure,2025-02-18,"Squarespace, Inc.",$33,New York,NY,business,Website Services,D,497098,2026-07-15
+expenditure,2025-02-23,ActBlue,$64.99,Cambridge,MA,business,Service Fee,D,497098,2026-07-15
+expenditure,2025-02-26,GoDaddy.com,$188.64,Scottsdale,AZ,business,Website Services,D,497098,2026-07-15
+expenditure,2025-03-01,Annandale-North Springfield Little League,"$1,000",Annandale,VA,business,League Sponsorship,D,497098,2026-07-15
+expenditure,2025-03-02,ActBlue,$289.14,Cambridge,MA,business,Service Fee,D,497098,2026-07-15
+expenditure,2025-03-06,GoDaddy.com,$213.46,Scottsdale,AZ,business,Website Services,D,497098,2026-07-15
+expenditure,2025-03-06,Google Inc.,$79.20,Mountain View,CA,business,G-Suite,D,497098,2026-07-15
+expenditure,2025-03-06,Google Inc.,$12.77,Mountain View,CA,business,G-Suite,D,497098,2026-07-15
+expenditure,2025-03-09,ActBlue,$30.76,Cambridge,MA,business,Service Fee,D,497098,2026-07-15
+expenditure,2025-03-10,"Paychex, Inc.",$58,Fairfax,VA,business,Payroll Fees,D,497098,2026-07-15
+expenditure,2025-03-16,ActBlue,$303.16,Cambridge,MA,business,Service Fee,D,497098,2026-07-15
+expenditure,2025-03-17,County of Fairfax,$352,Fairfax,VA,business,Qualifying Fee,D,497098,2026-07-15
+expenditure,2025-03-17,Fairfax County Public Library,$7.20,Alexandria,VA,business,Photocopying,D,497098,2026-07-15
+expenditure,2025-03-17,"Squarespace, Inc.",$33,New York,NY,business,Website Services,D,497098,2026-07-15
+expenditure,2025-03-17,United States Postal Service,$9.68,Alexandria,VA,business,Postage,D,497098,2026-07-15
+expenditure,2025-03-21,Costco,$102.63,Springfield,VA,business,Event supplies,D,497098,2026-07-15
+expenditure,2025-03-21,Wegmans,$82.58,Alexandria,VA,business,Event supplies,D,497098,2026-07-15
+expenditure,2025-03-23,ActBlue,$288.06,Cambridge,MA,business,Service Fee,D,497098,2026-07-15
+expenditure,2025-03-30,ActBlue,$119.02,Cambridge,MA,business,Service Fee,D,497098,2026-07-15
+expenditure,2025-03-31,ActBlue,$58.09,Cambridge,MA,business,Service Fee,D,497098,2026-07-15
 expenditure,2025-03-31,Benjamin Hermerding,$917.25,Richmond,VA,individual,Staff Salary,D,497098,2026-07-15
 expenditure,2025-03-31,Nicole Huggins,"$2,541.68",Ambler,PA,individual,Staff Salary,D,497098,2026-07-15
-expenditure,2025-03-31,"Paychex, Inc.",$979.09,Fairfax,VA,pac,Payroll Taxes,D,497098,2026-07-15
-expenditure,2025-04-01,Commonwealth Victory Fund,$650,Richmond,VA,pac,Homestead Attendance,D,497115,2026-07-15
+expenditure,2025-03-31,"Paychex, Inc.",$979.09,Fairfax,VA,business,Payroll Taxes,D,497098,2026-07-15
+expenditure,2025-04-01,Commonwealth Victory Fund,$650,Richmond,VA,business,Homestead Attendance,D,497115,2026-07-15
 expenditure,2025-04-01,Democratic Party of Virginia,"$1,159.78",Richmond,VA,party,DPVA VAN,D,497115,2026-07-15
-expenditure,2025-04-01,Landsdowne Centre Limited Partnership,"$1,600",Fairfax,VA,pac,Rent,D,497115,2026-07-15
-expenditure,2025-04-01,"Paychex, Inc.",$168.28,Fairfax,VA,pac,Payroll Fees,D,497115,2026-07-15
-expenditure,2025-04-01,West Springfield Little League,"$1,150",Springfield,VA,pac,League Sponsorship,D,497115,2026-07-15
-expenditure,2025-04-02,Google Inc.,$69.67,Mountain View,CA,pac,G-Suite,D,497115,2026-07-15
+expenditure,2025-04-01,Landsdowne Centre Limited Partnership,"$1,600",Fairfax,VA,business,Rent,D,497115,2026-07-15
+expenditure,2025-04-01,"Paychex, Inc.",$168.28,Fairfax,VA,business,Payroll Fees,D,497115,2026-07-15
+expenditure,2025-04-01,West Springfield Little League,"$1,150",Springfield,VA,business,League Sponsorship,D,497115,2026-07-15
+expenditure,2025-04-02,Google Inc.,$69.67,Mountain View,CA,business,G-Suite,D,497115,2026-07-15
 expenditure,2025-04-04,Virginia House Democratic Caucus,"$50,000",Richmond,VA,party,Contribution,D,497115,2026-07-15
-expenditure,2025-04-06,ActBlue,$34.60,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-04-09,Staples,$52.99,Springfield,VA,pac,Ink,D,497115,2026-07-15
-expenditure,2025-04-10,"Paychex, Inc.",$58,Fairfax,VA,pac,Payroll Fees,D,497115,2026-07-15
-expenditure,2025-04-11,Fairfax County Democratic Committee,$250,Fairfax,VA,pac,Event contribution,D,497115,2026-07-15
-expenditure,2025-04-13,ActBlue,$42.28,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-04-17,"Squarespace, Inc.",$33,New York,NY,pac,Website Services,D,497115,2026-07-15
-expenditure,2025-04-20,ActBlue,$75.70,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-04-21,RaiseMore Inc.,$175,Middletown,DE,pac,Fundraising tool,D,497115,2026-07-15
-expenditure,2025-04-22,U.S. Postal Service,$146,Springfield,VA,pac,Stamps,D,497115,2026-07-15
-expenditure,2025-04-23,TD Bank,$15,Springfield,VA,pac,Wire Transfer Fee,D,497115,2026-07-15
-expenditure,2025-04-27,ActBlue,$141.19,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-04-27,Fairfax County Democratic Committee,$250,Fairfax,VA,pac,Event contribution,D,497115,2026-07-15
+expenditure,2025-04-06,ActBlue,$34.60,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-04-09,Staples,$52.99,Springfield,VA,business,Ink,D,497115,2026-07-15
+expenditure,2025-04-10,"Paychex, Inc.",$58,Fairfax,VA,business,Payroll Fees,D,497115,2026-07-15
+expenditure,2025-04-11,Fairfax County Democratic Committee,$250,Fairfax,VA,business,Event contribution,D,497115,2026-07-15
+expenditure,2025-04-13,ActBlue,$42.28,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-04-17,"Squarespace, Inc.",$33,New York,NY,business,Website Services,D,497115,2026-07-15
+expenditure,2025-04-20,ActBlue,$75.70,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-04-21,RaiseMore Inc.,$175,Middletown,DE,business,Fundraising tool,D,497115,2026-07-15
+expenditure,2025-04-22,U.S. Postal Service,$146,Springfield,VA,business,Stamps,D,497115,2026-07-15
+expenditure,2025-04-23,TD Bank,$15,Springfield,VA,business,Wire Transfer Fee,D,497115,2026-07-15
+expenditure,2025-04-27,ActBlue,$141.19,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-04-27,Fairfax County Democratic Committee,$250,Fairfax,VA,business,Event contribution,D,497115,2026-07-15
 expenditure,2025-04-30,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497115,2026-07-15
 expenditure,2025-04-30,Nicole Huggins,"$3,962.06",Ambler,PA,individual,Staff Salary,D,497115,2026-07-15
-expenditure,2025-04-30,"Paychex, Inc.","$1,528.76",Fairfax,VA,pac,Payroll Taxes,D,497115,2026-07-15
-expenditure,2025-04-30,"Paychex, Inc.",$127.20,Fairfax,VA,pac,Payroll Fees,D,497115,2026-07-15
-expenditure,2025-04-30,"Paychex, Inc.","$1,528.76",Fairfax,VA,pac,Payroll Taxes,D,497115,2026-07-15
-expenditure,2025-05-01,"Paychex, Inc.",$127.20,Fairfax,VA,pac,Payroll Fees,D,497115,2026-07-15
-expenditure,2025-05-02,Google Inc.,$93.60,Mountain View,CA,pac,G-Suite,D,497115,2026-07-15
-expenditure,2025-05-03,Fairfax County Democratic Committee,$250,Fairfax,VA,pac,Event contribution,D,497115,2026-07-15
-expenditure,2025-05-04,ActBlue,$125.79,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-05-11,ActBlue,$3.01,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-05-12,Amazon.com Services Inc.,$15.09,Seattle,WA,pac,Event materials,D,497115,2026-07-15
-expenditure,2025-05-13,ASAP Printing and Mailing Co.,$280.90,Alexandria,VA,pac,Printing services,D,497115,2026-07-15
-expenditure,2025-05-16,Fairfax County Democratic Committee,$200,Fairfax,VA,pac,Event contribution,D,497115,2026-07-15
-expenditure,2025-05-16,"Network NoVA, LLC",$300,Falls Church,VA,pac,Event contribution,D,497115,2026-07-15
-expenditure,2025-05-18,ActBlue,$89.84,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-05-19,RaiseMore Inc.,$175,Middletown,DE,pac,Fundraising Tool,D,497115,2026-07-15
-expenditure,2025-05-19,"Squarespace, Inc.",$33,New York,NY,pac,Website,D,497115,2026-07-15
-expenditure,2025-05-25,ActBlue,$12.03,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-05-27,NGP VAN,$367.50,Washington,DC,pac,NGP VAN,D,497115,2026-07-15
-expenditure,2025-05-27,NGP VAN,$735,Washington,DC,pac,NGP VAN,D,497115,2026-07-15
+expenditure,2025-04-30,"Paychex, Inc.","$1,528.76",Fairfax,VA,business,Payroll Taxes,D,497115,2026-07-15
+expenditure,2025-04-30,"Paychex, Inc.",$127.20,Fairfax,VA,business,Payroll Fees,D,497115,2026-07-15
+expenditure,2025-04-30,"Paychex, Inc.","$1,528.76",Fairfax,VA,business,Payroll Taxes,D,497115,2026-07-15
+expenditure,2025-05-01,"Paychex, Inc.",$127.20,Fairfax,VA,business,Payroll Fees,D,497115,2026-07-15
+expenditure,2025-05-02,Google Inc.,$93.60,Mountain View,CA,business,G-Suite,D,497115,2026-07-15
+expenditure,2025-05-03,Fairfax County Democratic Committee,$250,Fairfax,VA,business,Event contribution,D,497115,2026-07-15
+expenditure,2025-05-04,ActBlue,$125.79,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-05-11,ActBlue,$3.01,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-05-12,Amazon.com Services Inc.,$15.09,Seattle,WA,business,Event materials,D,497115,2026-07-15
+expenditure,2025-05-13,ASAP Printing and Mailing Co.,$280.90,Alexandria,VA,business,Printing services,D,497115,2026-07-15
+expenditure,2025-05-16,Fairfax County Democratic Committee,$200,Fairfax,VA,business,Event contribution,D,497115,2026-07-15
+expenditure,2025-05-16,"Network NoVA, LLC",$300,Falls Church,VA,business,Event contribution,D,497115,2026-07-15
+expenditure,2025-05-18,ActBlue,$89.84,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-05-19,RaiseMore Inc.,$175,Middletown,DE,business,Fundraising Tool,D,497115,2026-07-15
+expenditure,2025-05-19,"Squarespace, Inc.",$33,New York,NY,business,Website,D,497115,2026-07-15
+expenditure,2025-05-25,ActBlue,$12.03,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-05-27,NGP VAN,$367.50,Washington,DC,business,NGP VAN,D,497115,2026-07-15
+expenditure,2025-05-27,NGP VAN,$735,Washington,DC,business,NGP VAN,D,497115,2026-07-15
 expenditure,2025-05-30,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497115,2026-07-15
 expenditure,2025-05-30,Nicole Huggins,"$3,962.06",Ambler,PA,individual,Staff Salary,D,497115,2026-07-15
-expenditure,2025-05-30,"Paychex, Inc.","$1,500.44",Fairfax,VA,pac,Payroll Taxes,D,497115,2026-07-15
-expenditure,2025-06-01,ActBlue,$100.43,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-06-01,ActBlue,$100.43,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-06-02,Google Inc.,$103.10,Mountain View,CA,pac,G-Suite,D,497115,2026-07-15
-expenditure,2025-06-02,"Paychex, Inc.",$115.80,Fairfax,VA,pac,Paycheck Fees,D,497115,2026-07-15
-expenditure,2025-06-04,Landsdowne Centre Limited Partnership,"$1,600",Fairfax,VA,pac,Rent,D,497115,2026-07-15
-expenditure,2025-06-04,NGP VAN,$367.50,Washington,DC,pac,NGP VAN,D,497115,2026-07-15
-expenditure,2025-06-05,ActBlue,$61.57,Cambridge,MA,pac,Service Fee,D,497115,2026-07-15
-expenditure,2025-06-08,ActBlue,$34.15,Cambridge,MA,pac,Service Fee,D,497123,2026-07-15
-expenditure,2025-06-14,ActBlue,$124.78,Cambridge,MA,pac,Service Fee,D,497123,2026-07-15
-expenditure,2025-06-17,"Squarespace, Inc.",$33,New York,NY,pac,Website Services,D,497123,2026-07-15
-expenditure,2025-06-17,U.S. Postal Service,$124,Springfield,VA,pac,P.O. Box,D,497123,2026-07-15
-expenditure,2025-06-20,RaiseMore Inc.,$175,Middletown,DE,pac,Fundraising Tool,D,497123,2026-07-15
-expenditure,2025-06-22,ActBlue,$78.49,Cambridge,MA,pac,Service Fee,D,497123,2026-07-15
-expenditure,2025-06-22,Afghan Kabob Restaurant,$106,Springfield,VA,pac,Event Supplies,D,497123,2026-07-15
-expenditure,2025-06-22,Coco Rico Inc,$286.20,Springfield,VA,pac,Event Supplies,D,497123,2026-07-15
-expenditure,2025-06-22,Des Pardes Restaurant,$164.09,Springfield,VA,pac,Event Supplies,D,497123,2026-07-15
-expenditure,2025-06-22,Kamayan Fiesta,$303.32,Springfield,VA,pac,Event Supplies,D,497123,2026-07-15
-expenditure,2025-06-22,Victor's Grill Churrasqueria,$190.80,Springfield,VA,pac,Event Supplies,D,497123,2026-07-15
-expenditure,2025-06-22,Yindee Thai Restaurant,$116,Springfield,VA,pac,Event Supplies,D,497123,2026-07-15
-expenditure,2025-06-30,ActBlue,$20.54,Cambridge,MA,pac,Service Fee,D,497123,2026-07-15
-expenditure,2025-06-30,GoDaddy.com,$22.17,Scottsdale,AZ,pac,Website Services,D,497123,2026-07-15
+expenditure,2025-05-30,"Paychex, Inc.","$1,500.44",Fairfax,VA,business,Payroll Taxes,D,497115,2026-07-15
+expenditure,2025-06-01,ActBlue,$100.43,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-06-01,ActBlue,$100.43,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-06-02,Google Inc.,$103.10,Mountain View,CA,business,G-Suite,D,497115,2026-07-15
+expenditure,2025-06-02,"Paychex, Inc.",$115.80,Fairfax,VA,business,Paycheck Fees,D,497115,2026-07-15
+expenditure,2025-06-04,Landsdowne Centre Limited Partnership,"$1,600",Fairfax,VA,business,Rent,D,497115,2026-07-15
+expenditure,2025-06-04,NGP VAN,$367.50,Washington,DC,business,NGP VAN,D,497115,2026-07-15
+expenditure,2025-06-05,ActBlue,$61.57,Cambridge,MA,business,Service Fee,D,497115,2026-07-15
+expenditure,2025-06-08,ActBlue,$34.15,Cambridge,MA,business,Service Fee,D,497123,2026-07-15
+expenditure,2025-06-14,ActBlue,$124.78,Cambridge,MA,business,Service Fee,D,497123,2026-07-15
+expenditure,2025-06-17,"Squarespace, Inc.",$33,New York,NY,business,Website Services,D,497123,2026-07-15
+expenditure,2025-06-17,U.S. Postal Service,$124,Springfield,VA,business,P.O. Box,D,497123,2026-07-15
+expenditure,2025-06-20,RaiseMore Inc.,$175,Middletown,DE,business,Fundraising Tool,D,497123,2026-07-15
+expenditure,2025-06-22,ActBlue,$78.49,Cambridge,MA,business,Service Fee,D,497123,2026-07-15
+expenditure,2025-06-22,Afghan Kabob Restaurant,$106,Springfield,VA,business,Event Supplies,D,497123,2026-07-15
+expenditure,2025-06-22,Coco Rico Inc,$286.20,Springfield,VA,business,Event Supplies,D,497123,2026-07-15
+expenditure,2025-06-22,Des Pardes Restaurant,$164.09,Springfield,VA,business,Event Supplies,D,497123,2026-07-15
+expenditure,2025-06-22,Kamayan Fiesta,$303.32,Springfield,VA,business,Event Supplies,D,497123,2026-07-15
+expenditure,2025-06-22,Victor's Grill Churrasqueria,$190.80,Springfield,VA,business,Event Supplies,D,497123,2026-07-15
+expenditure,2025-06-22,Yindee Thai Restaurant,$116,Springfield,VA,business,Event Supplies,D,497123,2026-07-15
+expenditure,2025-06-30,ActBlue,$20.54,Cambridge,MA,business,Service Fee,D,497123,2026-07-15
+expenditure,2025-06-30,GoDaddy.com,$22.17,Scottsdale,AZ,business,Website Services,D,497123,2026-07-15
 expenditure,2025-06-30,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497123,2026-07-15
 expenditure,2025-06-30,Nicole Huggins,"$3,962.06",Ambler,PA,individual,Staff Salary,D,497123,2026-07-15
-expenditure,2025-06-30,"Paychex, Inc.","$1,499.24",Fairfax,VA,pac,Payroll Taxes,D,497123,2026-07-15
+expenditure,2025-06-30,"Paychex, Inc.","$1,499.24",Fairfax,VA,business,Payroll Taxes,D,497123,2026-07-15
 expenditure,2025-06-30,Kathy Tran,$191.59,Springfield,VA,individual,Reimbursement of Event Supplies,D,497123,2026-07-15
-expenditure,2025-07-01,"Paychex, Inc.",$115.80,Fairfax,VA,pac,Payroll Fees,D,497127,2026-07-15
-expenditure,2025-07-06,ActBlue,$20.42,Cambridge,MA,pac,Service Fee,D,497127,2026-07-15
-expenditure,2025-07-13,ActBlue,$29.43,Cambridge,MA,pac,Service Fee,D,497127,2026-07-15
+expenditure,2025-07-01,"Paychex, Inc.",$115.80,Fairfax,VA,business,Payroll Fees,D,497127,2026-07-15
+expenditure,2025-07-06,ActBlue,$20.42,Cambridge,MA,business,Service Fee,D,497127,2026-07-15
+expenditure,2025-07-13,ActBlue,$29.43,Cambridge,MA,business,Service Fee,D,497127,2026-07-15
 expenditure,2025-07-15,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,Caucus Contribution,D,497127,2026-07-15
-expenditure,2025-07-20,ActBlue,$56.95,Cambridge,MA,pac,Service Fee,D,497127,2026-07-15
-expenditure,2025-07-27,ActBlue,$104.10,Cambridge,MA,pac,Service Fee,D,497127,2026-07-15
+expenditure,2025-07-20,ActBlue,$56.95,Cambridge,MA,business,Service Fee,D,497127,2026-07-15
+expenditure,2025-07-27,ActBlue,$104.10,Cambridge,MA,business,Service Fee,D,497127,2026-07-15
 expenditure,2025-07-31,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497127,2026-07-15
 expenditure,2025-07-31,Nicole Huggins,"$3,962.06",Ambler,PA,individual,Staff Salary,D,497127,2026-07-15
-expenditure,2025-07-31,Landsdowne Centre Limited Partnership,"$1,400",Fairfax,VA,pac,Rent,D,497127,2026-07-15
-expenditure,2025-07-31,"Paychex, Inc.","$1,499.24",Fairfax,VA,pac,Payroll Taxes,D,497127,2026-07-15
-expenditure,2025-08-01,NGP VAN,$367.50,Washington,DC,pac,NGP VAN,D,497127,2026-07-15
-expenditure,2025-08-01,"Paychex, Inc.",$135.80,Fairfax,VA,pac,Payroll Fees,D,497127,2026-07-15
-expenditure,2025-08-03,ActBlue,$108.71,Cambridge,MA,pac,Service Fee,D,497127,2026-07-15
-expenditure,2025-08-04,Google Inc.,$116.86,Mountain View,CA,pac,Google Suite,D,497127,2026-07-15
-expenditure,2025-08-10,ActBlue,$71.94,Cambridge,MA,pac,Service Fee,D,497127,2026-07-15
-expenditure,2025-08-15,TD Bank,$30,Springfield,VA,pac,Bank Fee,D,497127,2026-07-15
+expenditure,2025-07-31,Landsdowne Centre Limited Partnership,"$1,400",Fairfax,VA,business,Rent,D,497127,2026-07-15
+expenditure,2025-07-31,"Paychex, Inc.","$1,499.24",Fairfax,VA,business,Payroll Taxes,D,497127,2026-07-15
+expenditure,2025-08-01,NGP VAN,$367.50,Washington,DC,business,NGP VAN,D,497127,2026-07-15
+expenditure,2025-08-01,"Paychex, Inc.",$135.80,Fairfax,VA,business,Payroll Fees,D,497127,2026-07-15
+expenditure,2025-08-03,ActBlue,$108.71,Cambridge,MA,business,Service Fee,D,497127,2026-07-15
+expenditure,2025-08-04,Google Inc.,$116.86,Mountain View,CA,business,Google Suite,D,497127,2026-07-15
+expenditure,2025-08-10,ActBlue,$71.94,Cambridge,MA,business,Service Fee,D,497127,2026-07-15
+expenditure,2025-08-15,TD Bank,$30,Springfield,VA,business,Bank Fee,D,497127,2026-07-15
 expenditure,2025-08-15,Virginia House Democratic Caucus,"$40,000",Richmond,VA,party,Caucus Contribution,D,497127,2026-07-15
-expenditure,2025-08-17,ActBlue,$20.41,Cambridge,MA,pac,Service Fee,D,497127,2026-07-15
-expenditure,2025-08-20,TD Bank,$15,Springfield,VA,pac,Bank Fee,D,497127,2026-07-15
-expenditure,2025-08-22,TD Bank,$20,Springfield,VA,pac,Bank Fee,D,497127,2026-07-15
+expenditure,2025-08-17,ActBlue,$20.41,Cambridge,MA,business,Service Fee,D,497127,2026-07-15
+expenditure,2025-08-20,TD Bank,$15,Springfield,VA,business,Bank Fee,D,497127,2026-07-15
+expenditure,2025-08-22,TD Bank,$20,Springfield,VA,business,Bank Fee,D,497127,2026-07-15
 expenditure,2025-08-28,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497127,2026-07-15
 expenditure,2025-08-28,Nicole Huggins,"$3,962.06",Ambler,PA,individual,Staff Salary,D,497127,2026-07-15
-expenditure,2025-08-28,"Paychex, Inc.","$1,499.24",Fairfax,VA,pac,Payroll Taxes,D,497127,2026-07-15
-expenditure,2025-08-31,ActBlue,$153.59,Cambridge,MA,pac,Service Fee,D,497127,2026-07-15
-expenditure,2025-09-02,Google Inc.,$121.20,Mountain View,CA,pac,G-Suite,D,497130,2026-07-15
+expenditure,2025-08-28,"Paychex, Inc.","$1,499.24",Fairfax,VA,business,Payroll Taxes,D,497127,2026-07-15
+expenditure,2025-08-31,ActBlue,$153.59,Cambridge,MA,business,Service Fee,D,497127,2026-07-15
+expenditure,2025-09-02,Google Inc.,$121.20,Mountain View,CA,business,G-Suite,D,497130,2026-07-15
 expenditure,2025-09-02,Virginia House Democratic Caucus,"$85,000",Richmond,VA,party,Caucus Contribution,D,497130,2026-07-15
 expenditure,2025-09-02,Bruce Wasem,"$2,000",Wise,VA,individual,Refund of contribution,D,497130,2026-07-15
-expenditure,2025-09-04,Staples,$76.31,Springfield,VA,pac,Office Supplies,D,497130,2026-07-15
-expenditure,2025-09-09,Staples,$53.99,Springfield,VA,pac,Office Supplies,D,497130,2026-07-15
-expenditure,2025-09-12,ASAP Printing and Mailing Co.,"$1,749",Alexandria,VA,pac,Yard Signs,D,497130,2026-07-15
-expenditure,2025-09-12,Michaels Stores,$76.98,Springfield,VA,pac,Event Supplies,D,497130,2026-07-15
-expenditure,2025-09-12,Michaels Stores,$32.07,Springfield,VA,pac,Event Supplies,D,497130,2026-07-15
-expenditure,2025-09-14,ActBlue,$22.18,Cambridge,MA,pac,Service Fee,D,497130,2026-07-15
-expenditure,2025-09-21,ActBlue,$148.45,Cambridge,MA,pac,Service Fee,D,497130,2026-07-15
-expenditure,2025-09-22,Democratic Asian Americans of Virginia,$250,Falls Church,VA,pac,Event Sponsorship,D,497130,2026-07-15
-expenditure,2025-09-22,Landsdowne Centre Limited Partnership,"$1,500",Fairfax,VA,pac,Rent,D,497130,2026-07-15
+expenditure,2025-09-04,Staples,$76.31,Springfield,VA,business,Office Supplies,D,497130,2026-07-15
+expenditure,2025-09-09,Staples,$53.99,Springfield,VA,business,Office Supplies,D,497130,2026-07-15
+expenditure,2025-09-12,ASAP Printing and Mailing Co.,"$1,749",Alexandria,VA,business,Yard Signs,D,497130,2026-07-15
+expenditure,2025-09-12,Michaels Stores,$76.98,Springfield,VA,business,Event Supplies,D,497130,2026-07-15
+expenditure,2025-09-12,Michaels Stores,$32.07,Springfield,VA,business,Event Supplies,D,497130,2026-07-15
+expenditure,2025-09-14,ActBlue,$22.18,Cambridge,MA,business,Service Fee,D,497130,2026-07-15
+expenditure,2025-09-21,ActBlue,$148.45,Cambridge,MA,business,Service Fee,D,497130,2026-07-15
+expenditure,2025-09-22,Democratic Asian Americans of Virginia,$250,Falls Church,VA,business,Event Sponsorship,D,497130,2026-07-15
+expenditure,2025-09-22,Landsdowne Centre Limited Partnership,"$1,500",Fairfax,VA,business,Rent,D,497130,2026-07-15
 expenditure,2025-09-22,Virginia House Democratic Caucus,$500,Richmond,VA,party,Caucus Contribution,D,497130,2026-07-15
-expenditure,2025-09-23,Staples,$114.46,Springfield,VA,pac,Office Supplies,D,497130,2026-07-15
-expenditure,2025-09-23,TD Bank,$15,Springfield,VA,pac,Bank Fee,D,497130,2026-07-15
-expenditure,2025-09-24,TD Bank,$30,Springfield,VA,pac,Bank Fee,D,497130,2026-07-15
+expenditure,2025-09-23,Staples,$114.46,Springfield,VA,business,Office Supplies,D,497130,2026-07-15
+expenditure,2025-09-23,TD Bank,$15,Springfield,VA,business,Bank Fee,D,497130,2026-07-15
+expenditure,2025-09-24,TD Bank,$30,Springfield,VA,business,Bank Fee,D,497130,2026-07-15
 expenditure,2025-09-24,Virginia House Democratic Caucus,"$75,000",Richmond,VA,party,Caucus Contribution,D,497130,2026-07-15
-expenditure,2025-09-26,TD Bank,$15,Springfield,VA,pac,Bank Fee,D,497130,2026-07-15
-expenditure,2025-09-28,ActBlue,$201.62,Cambridge,MA,pac,Service Fee,D,497130,2026-07-15
-expenditure,2025-09-30,ActBlue,$108.80,Cambridge,MA,pac,Service Fee,D,497130,2026-07-15
+expenditure,2025-09-26,TD Bank,$15,Springfield,VA,business,Bank Fee,D,497130,2026-07-15
+expenditure,2025-09-28,ActBlue,$201.62,Cambridge,MA,business,Service Fee,D,497130,2026-07-15
+expenditure,2025-09-30,ActBlue,$108.80,Cambridge,MA,business,Service Fee,D,497130,2026-07-15
 expenditure,2025-09-30,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497130,2026-07-15
 expenditure,2025-09-30,Nicole Huggins,"$3,962.06",Ambler,PA,individual,Staff Salary,D,497130,2026-07-15
-expenditure,2025-09-30,"Paychex, Inc.","$1,499.24",Fairfax,VA,pac,Payroll Taxes,D,497130,2026-07-15
-expenditure,2025-10-01,"Paychex, Inc.",$115.80,Fairfax,VA,pac,Payroll Fees,D,497140,2026-07-15
-expenditure,2025-10-02,Google Inc.,$121.20,Mountain View,CA,pac,G-Suite,D,497140,2026-07-15
-expenditure,2025-10-03,NGP VAN,$735,Washington,DC,pac,NGP VAN Access,D,497140,2026-07-15
-expenditure,2025-10-05,ActBlue,$18.98,Cambridge,MA,pac,Actblue Fee,D,497140,2026-07-15
+expenditure,2025-09-30,"Paychex, Inc.","$1,499.24",Fairfax,VA,business,Payroll Taxes,D,497130,2026-07-15
+expenditure,2025-10-01,"Paychex, Inc.",$115.80,Fairfax,VA,business,Payroll Fees,D,497140,2026-07-15
+expenditure,2025-10-02,Google Inc.,$121.20,Mountain View,CA,business,G-Suite,D,497140,2026-07-15
+expenditure,2025-10-03,NGP VAN,$735,Washington,DC,business,NGP VAN Access,D,497140,2026-07-15
+expenditure,2025-10-05,ActBlue,$18.98,Cambridge,MA,business,Actblue Fee,D,497140,2026-07-15
 expenditure,2025-10-06,Virginia House Democratic Caucus,"$120,000",Richmond,VA,party,Caucus Contribution,D,497140,2026-07-15
-expenditure,2025-10-10,"Paychex, Inc.",$58,Fairfax,VA,pac,Payroll Fees,D,497140,2026-07-15
-expenditure,2025-10-12,ActBlue,$57.83,Cambridge,MA,pac,Actblue Fee,D,497140,2026-07-15
+expenditure,2025-10-10,"Paychex, Inc.",$58,Fairfax,VA,business,Payroll Fees,D,497140,2026-07-15
+expenditure,2025-10-12,ActBlue,$57.83,Cambridge,MA,business,Actblue Fee,D,497140,2026-07-15
 expenditure,2025-10-14,Paul Bledsoe,$26,Arlington,VA,individual,Contribution Refund,D,497140,2026-07-15
-expenditure,2025-10-14,Hoa Thinh Don Viet Bao,"$1,050",Annandale,VA,pac,Newspaper Ad,D,497140,2026-07-15
-expenditure,2025-10-15,GDA Wins,"$2,255",Washington,DC,pac,Literature,D,497140,2026-07-15
-expenditure,2025-10-17,TD Bank,$30,Springfield,VA,pac,Bank Fee,D,497140,2026-07-15
+expenditure,2025-10-14,Hoa Thinh Don Viet Bao,"$1,050",Annandale,VA,business,Newspaper Ad,D,497140,2026-07-15
+expenditure,2025-10-15,GDA Wins,"$2,255",Washington,DC,business,Literature,D,497140,2026-07-15
+expenditure,2025-10-17,TD Bank,$30,Springfield,VA,business,Bank Fee,D,497140,2026-07-15
 expenditure,2025-10-17,Virginia House Democratic Caucus,"$35,000",Richmond,VA,party,Caucus Contribution,D,497140,2026-07-15
-expenditure,2025-10-19,ActBlue,$38.94,Cambridge,MA,pac,Actblue Fee,D,497140,2026-07-15
-expenditure,2025-10-23,ActBlue,$72.29,Cambridge,MA,pac,Service Fee,D,497140,2026-07-15
-expenditure,2025-10-23,TD Bank,$30,Springfield,VA,pac,Bank Fee,D,497140,2026-07-15
+expenditure,2025-10-19,ActBlue,$38.94,Cambridge,MA,business,Actblue Fee,D,497140,2026-07-15
+expenditure,2025-10-23,ActBlue,$72.29,Cambridge,MA,business,Service Fee,D,497140,2026-07-15
+expenditure,2025-10-23,TD Bank,$30,Springfield,VA,business,Bank Fee,D,497140,2026-07-15
 expenditure,2025-10-23,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,Caucus Contribution,D,497140,2026-07-15
-expenditure,2025-10-24,Virginia Asian American and Pacific Islander Caucus,"$3,000",Richmond,VA,pac,Contribution,D,497142,2026-07-15
-expenditure,2025-10-26,ActBlue,$54.16,Cambridge,MA,pac,Actblue Service Fee,D,497142,2026-07-15
+expenditure,2025-10-24,Virginia Asian American and Pacific Islander Caucus,"$3,000",Richmond,VA,business,Contribution,D,497142,2026-07-15
+expenditure,2025-10-26,ActBlue,$54.16,Cambridge,MA,business,Actblue Service Fee,D,497142,2026-07-15
 expenditure,2025-10-30,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497142,2026-07-15
 expenditure,2025-10-30,Nicole Huggins,"$3,962.06",Ambler,PA,individual,Staff Salary,D,497142,2026-07-15
-expenditure,2025-10-30,"Paychex, Inc.","$1,499.24",Fairfax,VA,pac,Payroll Taxes,D,497142,2026-07-15
-expenditure,2025-10-31,GDA Wins,"$1,506",Washington,DC,pac,Campaign Literature,D,497142,2026-07-15
-expenditure,2025-10-31,"Paychex, Inc.",$135.80,Fairfax,VA,pac,Payroll Fees,D,497142,2026-07-15
-expenditure,2025-11-02,ActBlue,$98.75,Cambridge,MA,pac,Actblue Service Fee,D,497142,2026-07-15
-expenditure,2025-11-02,Amazon Fresh,$33.39,Franconia,VA,pac,Event Supplies,D,497142,2026-07-15
-expenditure,2025-11-03,Google Inc.,$121.20,Mountain View,CA,pac,G-Suite,D,497142,2026-07-15
-expenditure,2025-11-03,Michaels Stores,$42.21,Springfield,VA,pac,Event Supplies,D,497142,2026-07-15
-expenditure,2025-11-04,ActBlue,$0.60,Cambridge,MA,pac,Actblue Service Fee,D,497142,2026-07-15
-expenditure,2025-11-04,Amazon Fresh,$33.89,Franconia,VA,pac,Event Supplies,D,497142,2026-07-15
-expenditure,2025-11-04,Safeway,$52.87,Annandale,VA,pac,Event Supplies,D,497142,2026-07-15
-expenditure,2025-11-05,NGP VAN,$367.50,Washington,DC,pac,NGP VAN,D,497142,2026-07-15
-expenditure,2025-11-09,ActBlue,$5.98,Cambridge,MA,pac,Service Fee,D,497142,2026-07-15
-expenditure,2025-11-10,Friends of Rachna Sizemore Heizer,$500,Springfield,VA,pac,Campaign Contribution,D,497142,2026-07-15
+expenditure,2025-10-30,"Paychex, Inc.","$1,499.24",Fairfax,VA,business,Payroll Taxes,D,497142,2026-07-15
+expenditure,2025-10-31,GDA Wins,"$1,506",Washington,DC,business,Campaign Literature,D,497142,2026-07-15
+expenditure,2025-10-31,"Paychex, Inc.",$135.80,Fairfax,VA,business,Payroll Fees,D,497142,2026-07-15
+expenditure,2025-11-02,ActBlue,$98.75,Cambridge,MA,business,Actblue Service Fee,D,497142,2026-07-15
+expenditure,2025-11-02,Amazon Fresh,$33.39,Franconia,VA,business,Event Supplies,D,497142,2026-07-15
+expenditure,2025-11-03,Google Inc.,$121.20,Mountain View,CA,business,G-Suite,D,497142,2026-07-15
+expenditure,2025-11-03,Michaels Stores,$42.21,Springfield,VA,business,Event Supplies,D,497142,2026-07-15
+expenditure,2025-11-04,ActBlue,$0.60,Cambridge,MA,business,Actblue Service Fee,D,497142,2026-07-15
+expenditure,2025-11-04,Amazon Fresh,$33.89,Franconia,VA,business,Event Supplies,D,497142,2026-07-15
+expenditure,2025-11-04,Safeway,$52.87,Annandale,VA,business,Event Supplies,D,497142,2026-07-15
+expenditure,2025-11-05,NGP VAN,$367.50,Washington,DC,business,NGP VAN,D,497142,2026-07-15
+expenditure,2025-11-09,ActBlue,$5.98,Cambridge,MA,business,Service Fee,D,497142,2026-07-15
+expenditure,2025-11-10,Friends of Rachna Sizemore Heizer,$500,Springfield,VA,business,Campaign Contribution,D,497142,2026-07-15
 expenditure,2025-11-11,Nicole Huggins,$53.86,Ambler,PA,individual,Reimbursement for Event Supplies,D,497142,2026-07-15
-expenditure,2025-11-16,ActBlue,$2.42,Cambridge,MA,pac,Service Fee,D,497142,2026-07-15
-expenditure,2025-11-23,ActBlue,$3.13,Cambridge,MA,pac,Service Fee,D,497142,2026-07-15
+expenditure,2025-11-16,ActBlue,$2.42,Cambridge,MA,business,Service Fee,D,497142,2026-07-15
+expenditure,2025-11-23,ActBlue,$3.13,Cambridge,MA,business,Service Fee,D,497142,2026-07-15
 expenditure,2025-11-28,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497145,2026-07-15
 expenditure,2025-11-28,Nicole Huggins,"$3,962.06",Ambler,PA,individual,Staff Salary,D,497145,2026-07-15
-expenditure,2025-11-28,"Paychex, Inc.","$1,499.24",Fairfax,VA,pac,Payroll Taxes,D,497145,2026-07-15
-expenditure,2025-11-29,Friends of Rachna Sizemore Heizer,$500,Springfield,VA,pac,Campaign Contribution,D,497145,2026-07-15
-expenditure,2025-11-30,ActBlue,$9.87,Cambridge,MA,pac,Service Fee,D,497145,2026-07-15
-expenditure,2025-12-01,"Paychex, Inc.",$115.80,Fairfax,VA,pac,Payroll Fees,D,497145,2026-07-15
-expenditure,2025-12-01,Washington Apartments,"$1,182.70",Washington,DC,pac,Unauthorized payment ? reimbursed on 1/12/2026,D,497145,2026-07-15
-expenditure,2025-12-03,NGP VAN,$367.50,Washington,DC,pac,NGP VAN,D,497145,2026-07-15
-expenditure,2025-12-04,"A.J. Dwoskin & Associates, Inc.","$1,500",Fairfax,VA,pac,Rent,D,497145,2026-07-15
-expenditure,2025-12-07,ActBlue,$10.32,Cambridge,MA,pac,Service Fee,D,497145,2026-07-15
-expenditure,2025-12-08,TD Bank,$15,Springfield,VA,pac,Bank Fee,D,497145,2026-07-15
-expenditure,2025-12-14,ActBlue,$5.93,Cambridge,MA,pac,Service Fee,D,497145,2026-07-15
-expenditure,2025-12-16,U.S. Postal Service,$124,Springfield,VA,pac,P.O. Box,D,497145,2026-07-15
-expenditure,2025-12-21,ActBlue,$5.54,Cambridge,MA,pac,Service Fee,D,497145,2026-07-15
-expenditure,2025-12-28,ActBlue,$4.36,Cambridge,MA,pac,Service Fee,D,497145,2026-07-15
-expenditure,2025-12-31,ActBlue,$64.64,Cambridge,MA,pac,Service Fee,D,497145,2026-07-15
-expenditure,2026-01-02,Google Inc.,$121.20,Mountain View,CA,pac,G-Suite,D,497271,2026-07-15
-expenditure,2026-01-04,ActBlue,$8.10,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-01-11,ActBlue,$42.71,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
+expenditure,2025-11-28,"Paychex, Inc.","$1,499.24",Fairfax,VA,business,Payroll Taxes,D,497145,2026-07-15
+expenditure,2025-11-29,Friends of Rachna Sizemore Heizer,$500,Springfield,VA,business,Campaign Contribution,D,497145,2026-07-15
+expenditure,2025-11-30,ActBlue,$9.87,Cambridge,MA,business,Service Fee,D,497145,2026-07-15
+expenditure,2025-12-01,"Paychex, Inc.",$115.80,Fairfax,VA,business,Payroll Fees,D,497145,2026-07-15
+expenditure,2025-12-01,Washington Apartments,"$1,182.70",Washington,DC,business,Unauthorized payment ? reimbursed on 1/12/2026,D,497145,2026-07-15
+expenditure,2025-12-03,NGP VAN,$367.50,Washington,DC,business,NGP VAN,D,497145,2026-07-15
+expenditure,2025-12-04,"A.J. Dwoskin & Associates, Inc.","$1,500",Fairfax,VA,business,Rent,D,497145,2026-07-15
+expenditure,2025-12-07,ActBlue,$10.32,Cambridge,MA,business,Service Fee,D,497145,2026-07-15
+expenditure,2025-12-08,TD Bank,$15,Springfield,VA,business,Bank Fee,D,497145,2026-07-15
+expenditure,2025-12-14,ActBlue,$5.93,Cambridge,MA,business,Service Fee,D,497145,2026-07-15
+expenditure,2025-12-16,U.S. Postal Service,$124,Springfield,VA,business,P.O. Box,D,497145,2026-07-15
+expenditure,2025-12-21,ActBlue,$5.54,Cambridge,MA,business,Service Fee,D,497145,2026-07-15
+expenditure,2025-12-28,ActBlue,$4.36,Cambridge,MA,business,Service Fee,D,497145,2026-07-15
+expenditure,2025-12-31,ActBlue,$64.64,Cambridge,MA,business,Service Fee,D,497145,2026-07-15
+expenditure,2026-01-02,Google Inc.,$121.20,Mountain View,CA,business,G-Suite,D,497271,2026-07-15
+expenditure,2026-01-04,ActBlue,$8.10,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-01-11,ActBlue,$42.71,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
 expenditure,2026-01-11,Virginia House Democratic Caucus,"$50,000",Richmond,VA,party,Caucus Dues,D,497271,2026-07-15
-expenditure,2026-01-12,"Paychex, Inc.",$58,Fairfax,VA,pac,Payroll Fees,D,497271,2026-07-15
-expenditure,2026-01-18,ActBlue,$7.90,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
+expenditure,2026-01-12,"Paychex, Inc.",$58,Fairfax,VA,business,Payroll Fees,D,497271,2026-07-15
+expenditure,2026-01-18,ActBlue,$7.90,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
 expenditure,2026-01-29,Benjamin Hermerding,$917.87,Richmond,VA,individual,Staff Salary,D,497271,2026-07-15
-expenditure,2026-01-29,"Paychex, Inc.",$165.63,Fairfax,VA,pac,Payroll Taxes,D,497271,2026-07-15
-expenditure,2026-01-30,"Paychex, Inc.",$292.30,Fairfax,VA,pac,Payroll Fees,D,497271,2026-07-15
-expenditure,2026-02-02,Google Inc.,$135.82,Mountain View,CA,pac,G-Suite,D,497271,2026-07-15
-expenditure,2026-02-02,NGP VAN,$367.50,Washington,DC,pac,NGP VAN,D,497271,2026-07-15
-expenditure,2026-02-26,GoDaddy.com,$192.72,Scottsdale,AZ,pac,Website Services,D,497271,2026-07-15
+expenditure,2026-01-29,"Paychex, Inc.",$165.63,Fairfax,VA,business,Payroll Taxes,D,497271,2026-07-15
+expenditure,2026-01-30,"Paychex, Inc.",$292.30,Fairfax,VA,business,Payroll Fees,D,497271,2026-07-15
+expenditure,2026-02-02,Google Inc.,$135.82,Mountain View,CA,business,G-Suite,D,497271,2026-07-15
+expenditure,2026-02-02,NGP VAN,$367.50,Washington,DC,business,NGP VAN,D,497271,2026-07-15
+expenditure,2026-02-26,GoDaddy.com,$192.72,Scottsdale,AZ,business,Website Services,D,497271,2026-07-15
 expenditure,2026-02-26,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497271,2026-07-15
-expenditure,2026-02-26,"Paychex, Inc.",$80,Fairfax,VA,pac,Payroll Taxes,D,497271,2026-07-15
-expenditure,2026-02-27,"Paychex, Inc.",$115.80,Fairfax,VA,pac,Payroll Fees,D,497271,2026-07-15
-expenditure,2026-03-02,Google Inc.,$138,Mountain View,CA,pac,G-Suite,D,497271,2026-07-15
-expenditure,2026-03-02,NGP VAN,$367.50,Washington,DC,pac,NGP VAN,D,497271,2026-07-15
-expenditure,2026-03-04,GoDaddy.com,$71.98,Scottsdale,AZ,pac,Website Services,D,497271,2026-07-15
-expenditure,2026-03-05,GoDaddy.com,$145.54,Scottsdale,AZ,pac,Website Services,D,497271,2026-07-15
-expenditure,2026-03-21,Fairfax County Democratic Committee,$250,Fairfax,VA,pac,Event contribution,D,497271,2026-07-15
-expenditure,2026-03-22,ActBlue,$1.59,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-03-29,ActBlue,$2.38,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-03-30,Numero,$5.63,Costa Mesa,CA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-03-31,ActBlue,$5.39,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
+expenditure,2026-02-26,"Paychex, Inc.",$80,Fairfax,VA,business,Payroll Taxes,D,497271,2026-07-15
+expenditure,2026-02-27,"Paychex, Inc.",$115.80,Fairfax,VA,business,Payroll Fees,D,497271,2026-07-15
+expenditure,2026-03-02,Google Inc.,$138,Mountain View,CA,business,G-Suite,D,497271,2026-07-15
+expenditure,2026-03-02,NGP VAN,$367.50,Washington,DC,business,NGP VAN,D,497271,2026-07-15
+expenditure,2026-03-04,GoDaddy.com,$71.98,Scottsdale,AZ,business,Website Services,D,497271,2026-07-15
+expenditure,2026-03-05,GoDaddy.com,$145.54,Scottsdale,AZ,business,Website Services,D,497271,2026-07-15
+expenditure,2026-03-21,Fairfax County Democratic Committee,$250,Fairfax,VA,business,Event contribution,D,497271,2026-07-15
+expenditure,2026-03-22,ActBlue,$1.59,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-03-29,ActBlue,$2.38,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-03-30,Numero,$5.63,Costa Mesa,CA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-03-31,ActBlue,$5.39,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
 expenditure,2026-03-31,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497271,2026-07-15
-expenditure,2026-03-31,"Paychex, Inc.",$80,Fairfax,VA,pac,Payroll Taxes,D,497271,2026-07-15
-expenditure,2026-04-01,"Paychex, Inc.",$120.50,Fairfax,VA,pac,Payroll Fees,D,497271,2026-07-15
-expenditure,2026-04-02,Google Inc.,$138,Mountain View,CA,pac,G-Suite,D,497271,2026-07-15
-expenditure,2026-04-05,ActBlue,$8.10,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-04-10,"Paychex, Inc.",$58,Fairfax,VA,pac,Payroll Fees,D,497271,2026-07-15
-expenditure,2026-04-10,"Pressable, Inc.",$250,San Antonio,TX,pac,Website hosting,D,497271,2026-07-15
-expenditure,2026-04-12,ActBlue,$3.21,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-04-19,ActBlue,$3.41,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-04-26,ActBlue,$6.49,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-04-26,Fairfax County Democratic Committee,$250,Fairfax,VA,pac,Event contribution,D,497271,2026-07-15
+expenditure,2026-03-31,"Paychex, Inc.",$80,Fairfax,VA,business,Payroll Taxes,D,497271,2026-07-15
+expenditure,2026-04-01,"Paychex, Inc.",$120.50,Fairfax,VA,business,Payroll Fees,D,497271,2026-07-15
+expenditure,2026-04-02,Google Inc.,$138,Mountain View,CA,business,G-Suite,D,497271,2026-07-15
+expenditure,2026-04-05,ActBlue,$8.10,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-04-10,"Paychex, Inc.",$58,Fairfax,VA,business,Payroll Fees,D,497271,2026-07-15
+expenditure,2026-04-10,"Pressable, Inc.",$250,San Antonio,TX,business,Website hosting,D,497271,2026-07-15
+expenditure,2026-04-12,ActBlue,$3.21,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-04-19,ActBlue,$3.41,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-04-26,ActBlue,$6.49,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-04-26,Fairfax County Democratic Committee,$250,Fairfax,VA,business,Event contribution,D,497271,2026-07-15
 expenditure,2026-04-30,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497271,2026-07-15
-expenditure,2026-04-30,"Paychex, Inc.",$80,Fairfax,VA,pac,Payroll Taxes,D,497271,2026-07-15
-expenditure,2026-05-01,"Paychex, Inc.",$144.50,Fairfax,VA,pac,Payroll Fees,D,497271,2026-07-15
-expenditure,2026-05-02,Fairfax County Democratic Committee,$250,Fairfax,VA,pac,Event contribution,D,497271,2026-07-15
-expenditure,2026-05-03,ActBlue,$14.28,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-05-04,Google Inc.,$138,Mountain View,CA,pac,G-Suite,D,497271,2026-07-15
-expenditure,2026-05-10,ActBlue,$5.39,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-05-17,ActBlue,$1.43,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-05-24,ActBlue,$3.13,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
+expenditure,2026-04-30,"Paychex, Inc.",$80,Fairfax,VA,business,Payroll Taxes,D,497271,2026-07-15
+expenditure,2026-05-01,"Paychex, Inc.",$144.50,Fairfax,VA,business,Payroll Fees,D,497271,2026-07-15
+expenditure,2026-05-02,Fairfax County Democratic Committee,$250,Fairfax,VA,business,Event contribution,D,497271,2026-07-15
+expenditure,2026-05-03,ActBlue,$14.28,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-05-04,Google Inc.,$138,Mountain View,CA,business,G-Suite,D,497271,2026-07-15
+expenditure,2026-05-10,ActBlue,$5.39,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-05-17,ActBlue,$1.43,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-05-24,ActBlue,$3.13,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
 expenditure,2026-05-29,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497271,2026-07-15
-expenditure,2026-05-29,"Paychex, Inc.",$80,Fairfax,VA,pac,Payroll Taxes,D,497271,2026-07-15
-expenditure,2026-05-31,ActBlue,$2.83,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-06-01,NGP VAN,$771.75,Washington,DC,pac,NGP VAN,D,497271,2026-07-15
-expenditure,2026-06-01,"Paychex, Inc.",$120.50,Fairfax,VA,pac,Payroll Fees,D,497271,2026-07-15
-expenditure,2026-06-02,Google Inc.,$138,Mountain View,CA,pac,G-Suite,D,497271,2026-07-15
+expenditure,2026-05-29,"Paychex, Inc.",$80,Fairfax,VA,business,Payroll Taxes,D,497271,2026-07-15
+expenditure,2026-05-31,ActBlue,$2.83,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-06-01,NGP VAN,$771.75,Washington,DC,business,NGP VAN,D,497271,2026-07-15
+expenditure,2026-06-01,"Paychex, Inc.",$120.50,Fairfax,VA,business,Payroll Fees,D,497271,2026-07-15
+expenditure,2026-06-02,Google Inc.,$138,Mountain View,CA,business,G-Suite,D,497271,2026-07-15
 expenditure,2026-06-04,Patrick Stapleton,$500,Richmond,VA,individual,2026 Session Stipend,D,497271,2026-07-15
-expenditure,2026-06-07,ActBlue,$10.32,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-06-08,NGP VAN,$385.88,Washington,DC,pac,NGP VAN,D,497271,2026-07-15
-expenditure,2026-06-09,Annandale-North Springfield Little League,"$1,000",Annandale,VA,pac,League Sponsorship,D,497271,2026-07-15
-expenditure,2026-06-09,Chesapeake Bay Foundation,$57.46,Richmond,VA,pac,Reimbursement for Potomac River Tour,D,497271,2026-07-15
-expenditure,2026-06-09,West Springfield Little League,"$1,500",Springfield,VA,pac,League Sponsorship,D,497271,2026-07-15
-expenditure,2026-06-14,ActBlue,$0.99,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-06-16,U.S. Postal Service,$129,Springfield,VA,pac,P.O. Box,D,497271,2026-07-15
-expenditure,2026-06-21,ActBlue,$7.52,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-06-28,ActBlue,$2.38,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
-expenditure,2026-06-29,GoDaddy.com,$23.19,Scottsdale,AZ,pac,Website Services,D,497271,2026-07-15
-expenditure,2026-06-30,ActBlue,$5.39,Cambridge,MA,pac,Service Fee,D,497271,2026-07-15
+expenditure,2026-06-07,ActBlue,$10.32,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-06-08,NGP VAN,$385.88,Washington,DC,business,NGP VAN,D,497271,2026-07-15
+expenditure,2026-06-09,Annandale-North Springfield Little League,"$1,000",Annandale,VA,business,League Sponsorship,D,497271,2026-07-15
+expenditure,2026-06-09,Chesapeake Bay Foundation,$57.46,Richmond,VA,business,Reimbursement for Potomac River Tour,D,497271,2026-07-15
+expenditure,2026-06-09,West Springfield Little League,"$1,500",Springfield,VA,business,League Sponsorship,D,497271,2026-07-15
+expenditure,2026-06-14,ActBlue,$0.99,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-06-16,U.S. Postal Service,$129,Springfield,VA,business,P.O. Box,D,497271,2026-07-15
+expenditure,2026-06-21,ActBlue,$7.52,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-06-28,ActBlue,$2.38,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
+expenditure,2026-06-29,GoDaddy.com,$23.19,Scottsdale,AZ,business,Website Services,D,497271,2026-07-15
+expenditure,2026-06-30,ActBlue,$5.39,Cambridge,MA,business,Service Fee,D,497271,2026-07-15
 expenditure,2026-06-30,Benjamin Hermerding,$461.75,Richmond,VA,individual,Staff Salary,D,497271,2026-07-15
-expenditure,2026-06-30,"Paychex, Inc.",$80,Fairfax,VA,pac,Payroll Taxes,D,497271,2026-07-15
+expenditure,2026-06-30,"Paychex, Inc.",$80,Fairfax,VA,business,Payroll Taxes,D,497271,2026-07-15

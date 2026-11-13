@@ -3,45 +3,45 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$442,563.07",,VA,,"From official Schedule H, November 2023 election cycle",H,496410,2026-07-15
 summary,2026-06-30,Raised this cycle,"$271,910.28",,,,Total receipts this election cycle (Schedule H),H,496410,2026-07-15
 summary,2026-06-30,Spent this cycle,"$169,972.63",,,,Total disbursements this election cycle (Schedule H),H,496410,2026-07-15
-contribution,2025-12-19,All Points Broadband,"$3,000",Richmond,VA,pac,,A,479247,2026-01-15
+contribution,2025-12-19,All Points Broadband,"$3,000",Richmond,VA,business,,A,479247,2026-01-15
 contribution,2025-12-17,Ms. Michele S. Cumberland,$250,Alexandria,VA,individual,,A,479247,2026-01-15
-contribution,2025-12-23,Everytown for Gun Safety Action Fund,"$2,000",New York,NY,pac,,A,479247,2026-01-15
-contribution,2025-12-19,GNA Corporation,"$2,500",Lynchburg,VA,pac,,A,479247,2026-01-15
+contribution,2025-12-23,Everytown for Gun Safety Action Fund,"$2,000",New York,NY,business,,A,479247,2026-01-15
+contribution,2025-12-19,GNA Corporation,"$2,500",Lynchburg,VA,business,,A,479247,2026-01-15
 contribution,2025-11-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,479247,2026-01-15
 contribution,2025-12-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,479247,2026-01-15
 contribution,2025-12-19,United Transportation Union PAC,$250,Chester,VA,pac,,A,479247,2026-01-15
 contribution,2025-12-26,VA Digital Infrastructure PAC,"$10,000",Leesburg,VA,pac,,A,479247,2026-01-15
-contribution,2026-01-08,Altria Client Services,"$5,000",Richmond,VA,pac,,A,496410,2026-07-15
-contribution,2026-06-22,Altria Client Services,"$7,500",Richmond,VA,pac,,A,496410,2026-07-15
-contribution,2026-06-22,Anheuser Busch,"$1,000",Washington,DC,pac,,A,496410,2026-07-15
-contribution,2026-01-13,Carbon Solutions Group,"$1,000",Chicago,IL,pac,,A,496410,2026-07-15
+contribution,2026-01-08,Altria Client Services,"$5,000",Richmond,VA,business,,A,496410,2026-07-15
+contribution,2026-06-22,Altria Client Services,"$7,500",Richmond,VA,business,,A,496410,2026-07-15
+contribution,2026-06-22,Anheuser Busch,"$1,000",Washington,DC,business,,A,496410,2026-07-15
+contribution,2026-01-13,Carbon Solutions Group,"$1,000",Chicago,IL,business,,A,496410,2026-07-15
 contribution,2026-01-09,Commissioner of Revenue PAC,$250,Newport News,VA,pac,,A,496410,2026-07-15
 contribution,2026-06-22,CRNA-PAC,"$1,000",Forest Hill,MD,pac,,A,496410,2026-07-15
-contribution,2026-01-13,Dimension Energy,"$1,000",Atlanta,GA,pac,,A,496410,2026-07-15
+contribution,2026-01-13,Dimension Energy,"$1,000",Atlanta,GA,business,,A,496410,2026-07-15
 contribution,2026-01-09,Dominion Energy Inc Political Action Committee - Virginia,"$100,000",Richmond,VA,pac,,A,496410,2026-07-15
 contribution,2026-05-21,Dominion Energy Inc Political Action Committee - Virginia,"$100,000",Richmond,VA,pac,,A,496410,2026-07-15
 contribution,2026-01-13,Friends of Ballad Health PAC,"$2,500",Johnson City,TN,pac,,A,496410,2026-07-15
 contribution,2026-05-26,Ms. Karen Hayes,$500,Alexandria,VA,individual,,A,496410,2026-07-15
 contribution,2026-01-08,HBAV Build-PAC,"$5,000",Richmond,VA,pac,,A,496410,2026-07-15
-contribution,2026-01-13,Humana Inc.,"$1,000",Lexington,KY,pac,,A,496410,2026-07-15
-contribution,2026-05-27,Huntington Ingalls Industries,"$2,500",Newport News,VA,pac,,A,496410,2026-07-15
-contribution,2026-01-13,Jushi,"$1,000",Boca Raton,FL,pac,,A,496410,2026-07-15
+contribution,2026-01-13,Humana Inc.,"$1,000",Lexington,KY,business,,A,496410,2026-07-15
+contribution,2026-05-27,Huntington Ingalls Industries,"$2,500",Newport News,VA,business,,A,496410,2026-07-15
+contribution,2026-01-13,Jushi,"$1,000",Boca Raton,FL,business,,A,496410,2026-07-15
 contribution,2026-04-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,496410,2026-07-15
 contribution,2026-05-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,496410,2026-07-15
 contribution,2026-06-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,496410,2026-07-15
-contribution,2026-01-05,Metis Services,"$1,000",Roanoke,VA,pac,,A,496410,2026-07-15
-contribution,2026-03-16,MGM Resorts International,"$2,000",Las Vegas,NV,pac,,A,496410,2026-07-15
-contribution,2026-01-05,Molson Coors Beverage Co USA,$500,Milwaukee,WI,pac,,A,496410,2026-07-15
+contribution,2026-01-05,Metis Services,"$1,000",Roanoke,VA,business,,A,496410,2026-07-15
+contribution,2026-03-16,MGM Resorts International,"$2,000",Las Vegas,NV,business,,A,496410,2026-07-15
+contribution,2026-01-05,Molson Coors Beverage Co USA,$500,Milwaukee,WI,business,,A,496410,2026-07-15
 contribution,2026-06-02,William Murray,"$2,500",Richmond,VA,individual,,A,496410,2026-07-15
-contribution,2026-01-13,Organizing for VA Seniors,"$2,500",Fairfax,VA,pac,,A,496410,2026-07-15
+contribution,2026-01-13,Organizing for VA Seniors,"$2,500",Fairfax,VA,business,,A,496410,2026-07-15
 contribution,2026-06-08,William Perry,$250,Springfield,VA,individual,,A,496410,2026-07-15
-contribution,2026-01-08,PPE Casino Resorts Petersburg,"$5,000",Baltimore,MD,pac,,A,496410,2026-07-15
-contribution,2026-01-08,PRA Group,$500,Norfolk,VA,pac,,A,496410,2026-07-15
-contribution,2026-01-05,Safelite Fulfillment,$250,Columbus,OH,pac,,A,496410,2026-07-15
-contribution,2026-01-05,Tenaska Virginia Partners,"$2,500",Omaha,NE,pac,,A,496410,2026-07-15
-contribution,2026-01-08,Troutman Pepper Locke LLP,"$2,500",Atlanta,GA,pac,,A,496410,2026-07-15
+contribution,2026-01-08,PPE Casino Resorts Petersburg,"$5,000",Baltimore,MD,business,,A,496410,2026-07-15
+contribution,2026-01-08,PRA Group,$500,Norfolk,VA,business,,A,496410,2026-07-15
+contribution,2026-01-05,Safelite Fulfillment,$250,Columbus,OH,business,,A,496410,2026-07-15
+contribution,2026-01-05,Tenaska Virginia Partners,"$2,500",Omaha,NE,business,,A,496410,2026-07-15
+contribution,2026-01-08,Troutman Pepper Locke LLP,"$2,500",Atlanta,GA,business,,A,496410,2026-07-15
 contribution,2026-01-05,VA Psychology PAC,$250,Henrico,VA,pac,,A,496410,2026-07-15
-contribution,2026-01-05,Vantage Data Centers Management Co,"$1,000",Santa Clara,CA,pac,,A,496410,2026-07-15
+contribution,2026-01-05,Vantage Data Centers Management Co,"$1,000",Santa Clara,CA,business,,A,496410,2026-07-15
 contribution,2026-01-08,Virginia Cable Political Action Committee,"$5,000",Richmond,VA,pac,,A,496410,2026-07-15
 contribution,2026-01-05,Virginia Health Care Association PAC,"$2,500",Richmond,VA,pac,,A,496410,2026-07-15
 contribution,2026-01-12,Virginia Manufactured & Modular Housing Assn PAC,"$1,000",Henrico,VA,pac,,A,496410,2026-07-15
@@ -49,56 +49,56 @@ contribution,2026-03-16,Virginia Sheriffs' Association,"$1,000",Richmond,VA,pac,
 contribution,2026-01-05,Virginia Society of CPAs PAC,"$1,000",Glen Allen,VA,pac,,A,496410,2026-07-15
 contribution,2026-01-05,Virginia Society of the AIA PAC,$500,Richmond,VA,pac,,A,496410,2026-07-15
 contribution,2026-01-05,Virginia Trial Lawyers Association PAC,"$3,000",Richmond,VA,pac,,A,496410,2026-07-15
-contribution,2026-01-08,VSP Vision,$500,Rancho Cordova,CA,pac,,A,496410,2026-07-15
-contribution,2026-01-05,Waymo,"$1,000",Mountain View,CA,pac,,A,496410,2026-07-15
-contribution,2026-01-05,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,pac,,A,496410,2026-07-15
-in_kind,2026-01-08,Altria Client Services,"$4,910.28",Richmond,VA,pac,Event Venue Food & Drink,B,496410,2026-07-15
-other_receipt,2025-12-31,Friends of Alyia Gaskins,$500,Alexandria,VA,pac,Refund of check 2251 on 09/28/2025,C,479247,2026-01-15
-expenditure,2025-11-30,ActBlue Technical Services,$3.95,Somerville,MA,pac,Service Fee,D,479247,2026-01-15
-expenditure,2025-12-01,Automatic Data Processing,"$15,407.26",El Paso,TX,pac,Payroll Taxes,D,479247,2026-01-15
+contribution,2026-01-08,VSP Vision,$500,Rancho Cordova,CA,business,,A,496410,2026-07-15
+contribution,2026-01-05,Waymo,"$1,000",Mountain View,CA,business,,A,496410,2026-07-15
+contribution,2026-01-05,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,A,496410,2026-07-15
+in_kind,2026-01-08,Altria Client Services,"$4,910.28",Richmond,VA,business,Event Venue Food & Drink,B,496410,2026-07-15
+other_receipt,2025-12-31,Friends of Alyia Gaskins,$500,Alexandria,VA,business,Refund of check 2251 on 09/28/2025,C,479247,2026-01-15
+expenditure,2025-11-30,ActBlue Technical Services,$3.95,Somerville,MA,business,Service Fee,D,479247,2026-01-15
+expenditure,2025-12-01,Automatic Data Processing,"$15,407.26",El Paso,TX,business,Payroll Taxes,D,479247,2026-01-15
 expenditure,2025-12-01,Zachary Gillis,"$6,658.55",Alexandria,VA,individual,Salary,D,479247,2026-01-15
-expenditure,2025-12-01,Google,$44.40,Mountain View,CA,pac,Website Services,D,479247,2026-01-15
+expenditure,2025-12-01,Google,$44.40,Mountain View,CA,business,Website Services,D,479247,2026-01-15
 expenditure,2025-12-01,Aubrey Hobby,"$3,687.96",Charlottesville,VA,individual,Salary,D,479247,2026-01-15
-expenditure,2025-12-01,NGP VAN,"$2,158.24",Austin,TX,pac,Database Services,D,479247,2026-01-15
+expenditure,2025-12-01,NGP VAN,"$2,158.24",Austin,TX,business,Database Services,D,479247,2026-01-15
 expenditure,2025-12-01,Zachary Rickard,"$10,407.61",Richmond,VA,individual,Salary,D,479247,2026-01-15
 expenditure,2025-12-01,Launai Wells,"$4,014.58",Washington,DC,individual,Salary,D,479247,2026-01-15
-expenditure,2025-12-02,GAIN Power,$99,Washington,DC,pac,Job Posting,D,479247,2026-01-15
-expenditure,2025-12-12,Automatic Data Processing,$105.46,El Paso,TX,pac,Payroll Fees,D,479247,2026-01-15
-expenditure,2025-12-21,ActBlue Technical Services,$9.88,Somerville,MA,pac,Service Fee,D,479247,2026-01-15
-expenditure,2025-12-22,Truist Financial,$5,Charlotte,NC,pac,Bank Fee,D,479247,2026-01-15
-expenditure,2025-12-30,Margaret for Virginia,"$1,000",Woodbridge,VA,pac,Campaign Contribution,D,479247,2026-01-15
-expenditure,2025-12-30,NGP VAN,$961.24,Austin,TX,pac,Database Services,D,479247,2026-01-15
-expenditure,2025-12-31,ActBlue Technical Services,$3.95,Somerville,MA,pac,Service Fee,D,479247,2026-01-15
-expenditure,2026-01-01,Automatic Data Processing,"$2,761.76",El Paso,TX,pac,Payroll Taxes,D,496410,2026-07-15
+expenditure,2025-12-02,GAIN Power,$99,Washington,DC,business,Job Posting,D,479247,2026-01-15
+expenditure,2025-12-12,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,479247,2026-01-15
+expenditure,2025-12-21,ActBlue Technical Services,$9.88,Somerville,MA,business,Service Fee,D,479247,2026-01-15
+expenditure,2025-12-22,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,479247,2026-01-15
+expenditure,2025-12-30,Margaret for Virginia,"$1,000",Woodbridge,VA,business,Campaign Contribution,D,479247,2026-01-15
+expenditure,2025-12-30,NGP VAN,$961.24,Austin,TX,business,Database Services,D,479247,2026-01-15
+expenditure,2025-12-31,ActBlue Technical Services,$3.95,Somerville,MA,business,Service Fee,D,479247,2026-01-15
+expenditure,2026-01-01,Automatic Data Processing,"$2,761.76",El Paso,TX,business,Payroll Taxes,D,496410,2026-07-15
 expenditure,2026-01-01,Zachary Gillis,"$1,998.67",Fairfax,VA,individual,Salary,D,496410,2026-07-15
-expenditure,2026-01-01,Google,$44.18,Mountain View,CA,pac,Website Services,D,496410,2026-07-15
+expenditure,2026-01-01,Google,$44.18,Mountain View,CA,business,Website Services,D,496410,2026-07-15
 expenditure,2026-01-01,Aubrey Hobby,"$1,829.03",Charlottesville,VA,individual,Salary,D,496410,2026-07-15
 expenditure,2026-01-01,Zachary Rickard,"$1,868.81",Glen Allen,VA,individual,Salary,D,496410,2026-07-15
 expenditure,2026-01-01,Launai Wells,"$1,981.85",Washington,DC,individual,Salary,D,496410,2026-07-15
-expenditure,2026-01-05,Zoom Video Communications,$167.90,San Jose,CA,pac,Software Subscription,D,496410,2026-07-15
-expenditure,2026-01-09,Automatic Data Processing,$105.46,El Paso,TX,pac,Payroll Fees,D,496410,2026-07-15
-expenditure,2026-01-09,Exxon,$34.51,Richmond,VA,pac,Gas,D,496410,2026-07-15
+expenditure,2026-01-05,Zoom Video Communications,$167.90,San Jose,CA,business,Software Subscription,D,496410,2026-07-15
+expenditure,2026-01-09,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,496410,2026-07-15
+expenditure,2026-01-09,Exxon,$34.51,Richmond,VA,business,Gas,D,496410,2026-07-15
 expenditure,2026-01-09,Virginia House Democratic Caucus,"$75,000",Richmond,VA,party,Campaign Contribution,D,496410,2026-07-15
-expenditure,2026-01-12,Exxon,$37.78,Richmond,VA,pac,Gas,D,496410,2026-07-15
-expenditure,2026-01-15,Richmond Marriott,"$1,095.36",Richmond,VA,pac,Lodging,D,496410,2026-07-15
-expenditure,2026-01-21,Truist Financial,$5,Charlotte,NC,pac,Bank Fee,D,496410,2026-07-15
-expenditure,2026-02-01,Automatic Data Processing,"$3,818.17",El Paso,TX,pac,Payroll Taxes,D,496410,2026-07-15
+expenditure,2026-01-12,Exxon,$37.78,Richmond,VA,business,Gas,D,496410,2026-07-15
+expenditure,2026-01-15,Richmond Marriott,"$1,095.36",Richmond,VA,business,Lodging,D,496410,2026-07-15
+expenditure,2026-01-21,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,496410,2026-07-15
+expenditure,2026-02-01,Automatic Data Processing,"$3,818.17",El Paso,TX,business,Payroll Taxes,D,496410,2026-07-15
 expenditure,2026-02-01,Saoirse Farrell,"$3,715.55",Alexandria,VA,individual,Salary,D,496410,2026-07-15
 expenditure,2026-02-01,Zachary Gillis,"$1,973.67",Fairfax,VA,individual,Salary,D,496410,2026-07-15
-expenditure,2026-02-01,Google,$53.01,Mountain View,CA,pac,Website Services,D,496410,2026-07-15
+expenditure,2026-02-01,Google,$53.01,Mountain View,CA,business,Website Services,D,496410,2026-07-15
 expenditure,2026-02-01,Zachary Rickard,"$3,011.88",Glen Allen,VA,individual,Salary,D,496410,2026-07-15
-expenditure,2026-02-04,Automatic Data Processing,$120.55,El Paso,TX,pac,Payroll Fees,D,496410,2026-07-15
-expenditure,2026-02-06,Automatic Data Processing,$105.46,El Paso,TX,pac,Payroll Fees,D,496410,2026-07-15
-expenditure,2026-02-23,Truist Financial,$5,Charlotte,NC,pac,Bank Fee,D,496410,2026-07-15
-expenditure,2026-03-01,Automatic Data Processing,"$3,752.55",El Paso,TX,pac,Payroll Taxes,D,496410,2026-07-15
+expenditure,2026-02-04,Automatic Data Processing,$120.55,El Paso,TX,business,Payroll Fees,D,496410,2026-07-15
+expenditure,2026-02-06,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,496410,2026-07-15
+expenditure,2026-02-23,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,496410,2026-07-15
+expenditure,2026-03-01,Automatic Data Processing,"$3,752.55",El Paso,TX,business,Payroll Taxes,D,496410,2026-07-15
 expenditure,2026-03-01,Saoirse Farrell,"$3,415.56",Alexandria,VA,individual,Salary,D,496410,2026-07-15
 expenditure,2026-03-01,Zachary Gillis,"$1,973.67",Fairfax,VA,individual,Salary,D,496410,2026-07-15
-expenditure,2026-03-01,Google,$58.80,Mountain View,CA,pac,Website Services,D,496410,2026-07-15
+expenditure,2026-03-01,Google,$58.80,Mountain View,CA,business,Website Services,D,496410,2026-07-15
 expenditure,2026-03-01,Zachary Rickard,"$2,975.70",Glen Allen,VA,individual,Salary,D,496410,2026-07-15
 expenditure,2026-03-03,Aubrey Hobby,$128.15,Charlottesville,VA,individual,Travel Reimbursement,D,496410,2026-07-15
 expenditure,2026-03-03,Aubrey Hobby,$413.21,Charlottesville,VA,individual,Travel & Supplies Reimbursement,D,496410,2026-07-15
-expenditure,2026-03-06,Automatic Data Processing,$105.46,El Paso,TX,pac,Payroll Fees,D,496410,2026-07-15
-expenditure,2026-03-09,Treasurer of Virginia,$47,Richmond,VA,pac,Business Cards,D,496410,2026-07-15
+expenditure,2026-03-06,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,496410,2026-07-15
+expenditure,2026-03-09,Treasurer of Virginia,$47,Richmond,VA,business,Business Cards,D,496410,2026-07-15
 expenditure,2026-03-12,Saoirse Farrell,"$2,940",Alexandria,VA,individual,Travel Reimbursement,D,496410,2026-07-15
 expenditure,2026-03-12,Saoirse Farrell,$93,Alexandria,VA,individual,Supplies Reimbursement,D,496410,2026-07-15
 expenditure,2026-03-12,Zachary Gillis,$645.57,Fairfax,VA,individual,Travel & Supplies Reimbursement,D,496410,2026-07-15
@@ -110,39 +110,39 @@ expenditure,2026-03-13,Zachary Rickard,$313.14,Glen Allen,VA,individual,Office E
 expenditure,2026-03-13,Zachary Rickard,$465.20,Glen Allen,VA,individual,Event Food Reimbursement,D,496410,2026-07-15
 expenditure,2026-03-13,Zachary Rickard,$199,Glen Allen,VA,individual,Software Subscription Reimbursement,D,496410,2026-07-15
 expenditure,2026-03-17,Zachary Gillis,$104.94,Fairfax,VA,individual,Staff Gifts Reimbursement,D,496410,2026-07-15
-expenditure,2026-03-19,Truist Financial,$5,Charlotte,NC,pac,Bank Fee,D,496410,2026-07-15
-expenditure,2026-03-22,Sandy for the City,$500,Alexandria,VA,pac,Campaign Contribution,D,496410,2026-07-15
-expenditure,2026-03-31,ActBlue Technical Services,$3.95,Somerville,MA,pac,Service Fee,D,496410,2026-07-15
-expenditure,2026-04-01,Automatic Data Processing,"$3,729.11",El Paso,TX,pac,Payroll Taxes,D,496410,2026-07-15
+expenditure,2026-03-19,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,496410,2026-07-15
+expenditure,2026-03-22,Sandy for the City,$500,Alexandria,VA,business,Campaign Contribution,D,496410,2026-07-15
+expenditure,2026-03-31,ActBlue Technical Services,$3.95,Somerville,MA,business,Service Fee,D,496410,2026-07-15
+expenditure,2026-04-01,Automatic Data Processing,"$3,729.11",El Paso,TX,business,Payroll Taxes,D,496410,2026-07-15
 expenditure,2026-04-01,Saoirse Farrell,"$3,715.55",Alexandria,VA,individual,Salary,D,496410,2026-07-15
 expenditure,2026-04-01,Zachary Gillis,"$1,973.67",Fairfax,VA,individual,Salary,D,496410,2026-07-15
-expenditure,2026-04-01,Google,$51.47,Mountain View,CA,pac,Website Services,D,496410,2026-07-15
+expenditure,2026-04-01,Google,$51.47,Mountain View,CA,business,Website Services,D,496410,2026-07-15
 expenditure,2026-04-01,Zachary Rickard,"$2,994",Glen Allen,VA,individual,Salary,D,496410,2026-07-15
-expenditure,2026-04-10,Automatic Data Processing,$105.46,El Paso,TX,pac,Payroll Fees,D,496410,2026-07-15
-expenditure,2026-04-21,Truist Financial,$5,Charlotte,NC,pac,Bank Fee,D,496410,2026-07-15
-expenditure,2026-05-01,Automatic Data Processing,"$3,350.50",El Paso,TX,pac,Payroll Taxes,D,496410,2026-07-15
+expenditure,2026-04-10,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,496410,2026-07-15
+expenditure,2026-04-21,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,496410,2026-07-15
+expenditure,2026-05-01,Automatic Data Processing,"$3,350.50",El Paso,TX,business,Payroll Taxes,D,496410,2026-07-15
 expenditure,2026-05-01,Saoirse Farrell,"$3,715.56",Alexandria,VA,individual,Salary,D,496410,2026-07-15
 expenditure,2026-05-01,Zachary Gillis,"$2,160.71",Fairfax,VA,individual,Salary,D,496410,2026-07-15
-expenditure,2026-05-01,Google,$49.28,Mountain View,CA,pac,Website Services,D,496410,2026-07-15
+expenditure,2026-05-01,Google,$49.28,Mountain View,CA,business,Website Services,D,496410,2026-07-15
 expenditure,2026-05-01,Zachary Rickard,"$2,257.36",Glen Allen,VA,individual,Salary,D,496410,2026-07-15
-expenditure,2026-05-03,ActBlue Technical Services,$3.95,Somerville,MA,pac,Service Fee,D,496410,2026-07-15
-expenditure,2026-05-08,Automatic Data Processing,$105.46,El Paso,TX,pac,Payroll Fees,D,496410,2026-07-15
-expenditure,2026-05-10,ActBlue Technical Services,$3.95,Somerville,MA,pac,Service Fee,D,496410,2026-07-15
-expenditure,2026-05-21,Truist Financial,$5,Charlotte,NC,pac,Bank Fee,D,496410,2026-07-15
-expenditure,2026-05-26,Alexandria Democratic Committee,$300,Alexandria,VA,pac,Event Sponsorship,D,496410,2026-07-15
-expenditure,2026-05-31,ActBlue Technical Services,$23.70,Somerville,MA,pac,Service Fee,D,496410,2026-07-15
-expenditure,2026-06-01,Automatic Data Processing,"$3,350.53",El Paso,TX,pac,Payroll Taxes,D,496410,2026-07-15
+expenditure,2026-05-03,ActBlue Technical Services,$3.95,Somerville,MA,business,Service Fee,D,496410,2026-07-15
+expenditure,2026-05-08,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,496410,2026-07-15
+expenditure,2026-05-10,ActBlue Technical Services,$3.95,Somerville,MA,business,Service Fee,D,496410,2026-07-15
+expenditure,2026-05-21,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,496410,2026-07-15
+expenditure,2026-05-26,Alexandria Democratic Committee,$300,Alexandria,VA,business,Event Sponsorship,D,496410,2026-07-15
+expenditure,2026-05-31,ActBlue Technical Services,$23.70,Somerville,MA,business,Service Fee,D,496410,2026-07-15
+expenditure,2026-06-01,Automatic Data Processing,"$3,350.53",El Paso,TX,business,Payroll Taxes,D,496410,2026-07-15
 expenditure,2026-06-01,Saoirse Farrell,"$3,415.55",Alexandria,VA,individual,Salary,D,496410,2026-07-15
 expenditure,2026-06-01,Zachary Gillis,"$2,160.70",Fairfax,VA,individual,Salary,D,496410,2026-07-15
-expenditure,2026-06-01,Google,$44.40,Mountain View,CA,pac,Website Services,D,496410,2026-07-15
+expenditure,2026-06-01,Google,$44.40,Mountain View,CA,business,Website Services,D,496410,2026-07-15
 expenditure,2026-06-01,Zachary Rickard,"$2,257.35",Glen Allen,VA,individual,Salary,D,496410,2026-07-15
-expenditure,2026-06-05,Automatic Data Processing,$105.46,El Paso,TX,pac,Payroll Fees,D,496410,2026-07-15
-expenditure,2026-06-05,NGP VAN,"$4,662",Austin,TX,pac,Database Services,D,496410,2026-07-15
-expenditure,2026-06-07,ActBlue Technical Services,$98.75,Somerville,MA,pac,Service Fee,D,496410,2026-07-15
-expenditure,2026-06-21,Virginia Joint Democratic Caucus,"$1,785.96",Richmond,VA,pac,Retreat Expenses,D,496410,2026-07-15
-expenditure,2026-06-21,Virginia Joint Democratic Caucus,"$1,700.97",Richmond,VA,pac,Retreat Expenses,D,496410,2026-07-15
-expenditure,2026-06-22,Truist Financial,$5,Charlotte,NC,pac,Bank Fee,D,496410,2026-07-15
-expenditure,2026-06-28,Moxy Richmond Downtown,$483.82,Richmond,VA,pac,Lodging,D,496410,2026-07-15
-expenditure,2026-06-28,Moxy Richmond Downtown,$208.78,Richmond,VA,pac,Lodging,D,496410,2026-07-15
-expenditure,2026-06-29,PMC Parking,$84.12,Richmond,VA,pac,Parking,D,496410,2026-07-15
-expenditure,2026-06-30,ActBlue Technical Services,$3.95,Somerville,MA,pac,Service Fee,D,496410,2026-07-15
+expenditure,2026-06-05,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,496410,2026-07-15
+expenditure,2026-06-05,NGP VAN,"$4,662",Austin,TX,business,Database Services,D,496410,2026-07-15
+expenditure,2026-06-07,ActBlue Technical Services,$98.75,Somerville,MA,business,Service Fee,D,496410,2026-07-15
+expenditure,2026-06-21,Virginia Joint Democratic Caucus,"$1,785.96",Richmond,VA,business,Retreat Expenses,D,496410,2026-07-15
+expenditure,2026-06-21,Virginia Joint Democratic Caucus,"$1,700.97",Richmond,VA,business,Retreat Expenses,D,496410,2026-07-15
+expenditure,2026-06-22,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,496410,2026-07-15
+expenditure,2026-06-28,Moxy Richmond Downtown,$483.82,Richmond,VA,business,Lodging,D,496410,2026-07-15
+expenditure,2026-06-28,Moxy Richmond Downtown,$208.78,Richmond,VA,business,Lodging,D,496410,2026-07-15
+expenditure,2026-06-29,PMC Parking,$84.12,Richmond,VA,business,Parking,D,496410,2026-07-15
+expenditure,2026-06-30,ActBlue Technical Services,$3.95,Somerville,MA,business,Service Fee,D,496410,2026-07-15

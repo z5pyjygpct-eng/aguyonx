@@ -3,8 +3,8 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$53,194.38",,VA,,"From official Schedule H, November 2027 election cycle",H,495199,2026-07-13
 summary,2026-06-30,Raised this cycle,"$23,872.59",,,,Total receipts this election cycle (Schedule H),H,495199,2026-07-13
 summary,2026-06-30,Spent this cycle,"$12,141.33",,,,Total disbursements this election cycle (Schedule H),H,495199,2026-07-13
-contribution,2026-04-13,Whitfield A Russell & Associates PC,"$2,000",Alexandria,VA,pac,,A,495199,2026-07-13
-contribution,2026-06-14,Whitfield A Russell & Associates PC,"$2,000",Alexandria,VA,pac,,A,495199,2026-07-13
+contribution,2026-04-13,Whitfield A Russell & Associates PC,"$2,000",Alexandria,VA,business,,A,495199,2026-07-13
+contribution,2026-06-14,Whitfield A Russell & Associates PC,"$2,000",Alexandria,VA,business,,A,495199,2026-07-13
 contribution,2026-04-17,Clean Virginia Fund,"$7,500",Charlottesville,VA,pac,,A,495199,2026-07-13
 contribution,2026-01-13,Alan Montgomery,$400,Reston,VA,individual,,A,495199,2026-07-13
 contribution,2026-01-05,Loren Hershey,"$1,500",Oakton,VA,individual,,A,495199,2026-07-13
@@ -13,51 +13,51 @@ contribution,2026-06-17,Mark Albert,$30,Herndon,VA,individual,,A,495199,2026-07-
 contribution,2026-06-11,Virginia Cable Poilitical Committee,$500,Richmond,VA,pac,,A,495199,2026-07-13
 contribution,2026-06-12,Virginia Trial Lawyers PAC,"$2,500",Richmond,VA,pac,,A,495199,2026-07-13
 contribution,2026-05-30,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,A,495199,2026-07-13
-contribution,2026-06-13,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,495199,2026-07-13
-contribution,2026-01-09,Capital Results LLC,$250,Richmond,VA,pac,,A,495199,2026-07-13
-contribution,2026-06-22,Capital Results LLC,$500,Richmond,VA,pac,,A,495199,2026-07-13
+contribution,2026-06-13,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,495199,2026-07-13
+contribution,2026-01-09,Capital Results LLC,$250,Richmond,VA,business,,A,495199,2026-07-13
+contribution,2026-06-22,Capital Results LLC,$500,Richmond,VA,business,,A,495199,2026-07-13
 contribution,2026-03-20,Virginia Farm Bureau Federation AGPAC,$250,Richmond,VA,pac,,A,495199,2026-07-13
 contribution,2026-06-10,Virginia Farm Bureau Federation AGPAC,$750,Richmond,VA,pac,,A,495199,2026-07-13
-contribution,2026-06-11,McGuireWoods,$250,Richmond,VA,pac,,A,495199,2026-07-13
-contribution,2026-06-08,Counterspark Inc.,$500,Washington,DC,pac,,A,495199,2026-07-13
-contribution,2026-04-19,MGM Resorts International Division,"$1,000",Las Vegas,NV,pac,,A,495199,2026-07-13
-contribution,2026-06-20,Transurban (USA) Inc.,$250,Tysons,VA,pac,,A,495199,2026-07-13
+contribution,2026-06-11,McGuireWoods,$250,Richmond,VA,business,,A,495199,2026-07-13
+contribution,2026-06-08,Counterspark Inc.,$500,Washington,DC,business,,A,495199,2026-07-13
+contribution,2026-04-19,MGM Resorts International Division,"$1,000",Las Vegas,NV,business,,A,495199,2026-07-13
+contribution,2026-06-20,Transurban (USA) Inc.,$250,Tysons,VA,business,,A,495199,2026-07-13
 in_kind,2026-01-06,Realtors Political Actions Committee of Virginia,$161.27,Glen Allen,VA,pac,Event Food and Beverage service,B,495199,2026-07-13
-in_kind,2026-06-11,Gentry Locke Attorneys,$481.31,Richmond,VA,pac,Event Food and Beverage,B,495199,2026-07-13
+in_kind,2026-06-11,Gentry Locke Attorneys,$481.31,Richmond,VA,business,Event Food and Beverage,B,495199,2026-07-13
 expenditure,2026-03-30,Karen Keys-Gamarra,$340.75,Oakton,VA,individual,Travel,D,495199,2026-07-13
 expenditure,2026-05-10,Karen Keys-Gamarra,$455.30,Oakton,VA,individual,Travel,D,495199,2026-07-13
 expenditure,2026-05-31,Karen Keys-Gamarra,$329.15,Oakton,VA,individual,Travel,D,495199,2026-07-13
 expenditure,2026-06-30,Karen Keys-Gamarra,$488.65,Oakton,VA,individual,Travel,D,495199,2026-07-13
-expenditure,2026-06-30,Act Blue,$115.81,Somerville,MA,pac,Financial Services,D,495199,2026-07-13
-expenditure,2026-01-10,Wix.com,$348,San Francisco,CA,pac,Website and Domain,D,495199,2026-07-13
-expenditure,2026-01-30,Wix.com,$59.85,San Francisco,CA,pac,Website and Domain,D,495199,2026-07-13
-expenditure,2026-01-30,Wix.com,$336,San Francisco,CA,pac,Website and Domain,D,495199,2026-07-13
-expenditure,2026-06-14,Michaels,$79.48,Reston,VA,pac,Office Supplies,D,495199,2026-07-13
-expenditure,2026-04-15,Fairfax County Democratic Committee,$550,Fairfax,VA,pac,Contribution,D,495199,2026-07-13
-expenditure,2026-01-16,Constant Contact,$131,Waltham,MA,pac,E-mail Software,D,495199,2026-07-13
-expenditure,2026-02-16,Constant Contact,$131,Waltham,MA,pac,E-mail Software,D,495199,2026-07-13
-expenditure,2026-03-16,Constant Contact,$131,Waltham,MA,pac,E-mail Sotware,D,495199,2026-07-13
-expenditure,2026-04-16,Constant Contact,$131,Waltham,MA,pac,E-mail Software,D,495199,2026-07-13
-expenditure,2026-05-16,Constant Contact,$131,Waltham,MA,pac,E-mail Software,D,495199,2026-07-13
-expenditure,2026-06-16,Constant Contact,$155,Waltham,MA,pac,E-mail Software,D,495199,2026-07-13
-expenditure,2026-06-08,Youtube,$85.94,San Bruno,CA,pac,YouTube Fees,D,495199,2026-07-13
+expenditure,2026-06-30,Act Blue,$115.81,Somerville,MA,business,Financial Services,D,495199,2026-07-13
+expenditure,2026-01-10,Wix.com,$348,San Francisco,CA,business,Website and Domain,D,495199,2026-07-13
+expenditure,2026-01-30,Wix.com,$59.85,San Francisco,CA,business,Website and Domain,D,495199,2026-07-13
+expenditure,2026-01-30,Wix.com,$336,San Francisco,CA,business,Website and Domain,D,495199,2026-07-13
+expenditure,2026-06-14,Michaels,$79.48,Reston,VA,business,Office Supplies,D,495199,2026-07-13
+expenditure,2026-04-15,Fairfax County Democratic Committee,$550,Fairfax,VA,business,Contribution,D,495199,2026-07-13
+expenditure,2026-01-16,Constant Contact,$131,Waltham,MA,business,E-mail Software,D,495199,2026-07-13
+expenditure,2026-02-16,Constant Contact,$131,Waltham,MA,business,E-mail Software,D,495199,2026-07-13
+expenditure,2026-03-16,Constant Contact,$131,Waltham,MA,business,E-mail Sotware,D,495199,2026-07-13
+expenditure,2026-04-16,Constant Contact,$131,Waltham,MA,business,E-mail Software,D,495199,2026-07-13
+expenditure,2026-05-16,Constant Contact,$131,Waltham,MA,business,E-mail Software,D,495199,2026-07-13
+expenditure,2026-06-16,Constant Contact,$155,Waltham,MA,business,E-mail Software,D,495199,2026-07-13
+expenditure,2026-06-08,Youtube,$85.94,San Bruno,CA,business,YouTube Fees,D,495199,2026-07-13
 expenditure,2026-03-30,Catherine Hogan,$300,Leesburg,VA,individual,Campaign Services,D,495199,2026-07-13
-expenditure,2026-03-29,National Women's Political Caucus,$35,Washington,DC,pac,Contribution,D,495199,2026-07-13
-expenditure,2026-03-16,Virginia Legislative Black Causus,"$1,500",Richmond,VA,pac,Contribution,D,495199,2026-07-13
-expenditure,2026-03-26,The Arc of Northern Virginia,$50,Fairfax,VA,pac,Contribution,D,495199,2026-07-13
-expenditure,2026-01-28,Rooted Consulting Group,$500,Richmond,VA,pac,Social Media,D,495199,2026-07-13
-expenditure,2026-03-09,Rooted Consulting Group,$500,Richmond,VA,pac,Social Media,D,495199,2026-07-13
-expenditure,2026-03-23,Rooted Consulting Group,$500,Richmond,VA,pac,Social Media,D,495199,2026-07-13
-expenditure,2026-05-01,Rooted Consulting Group,$500,Richmond,VA,pac,Social Media,D,495199,2026-07-13
-expenditure,2026-05-26,Rooted Consulting Group,$500,Richmond,VA,pac,Social Media,D,495199,2026-07-13
-expenditure,2026-06-23,Rooted Consulting Group,$500,Richmond,VA,pac,Social Media,D,495199,2026-07-13
-expenditure,2026-05-04,National Conference of State Legislatures,$755,Washington,DC,pac,Legilative Conference Fee,D,495199,2026-07-13
-expenditure,2026-04-22,5th & Broad Parking,$24,Richmond,VA,pac,Event Parking,D,495199,2026-07-13
-expenditure,2026-01-06,"Printing and Graphics of VA, Inc.","$1,446.98",Richmond,VA,pac,Campaign Advertising,D,495199,2026-07-13
-expenditure,2026-02-13,Harland Clarke,$31.89,San Antonio,TX,pac,Campaign Checks,D,495199,2026-07-13
-expenditure,2026-04-01,Rotary Club of Herndon-Reston,$62.10,Herndon,VA,pac,Contribution,D,495199,2026-07-13
-expenditure,2026-04-22,Meriwether's Cafe at the GAB,$26.80,Richmond,VA,pac,Event Meals,D,495199,2026-07-13
-expenditure,2026-05-05,Meriwether's Cafe at the GAB,$11.60,Richmond,VA,pac,Event Meal,D,495199,2026-07-13
-expenditure,2026-05-05,Meriwether's Cafe at the GAB,$5.40,Richmond,VA,pac,Event Beverage,D,495199,2026-07-13
-expenditure,2026-04-30,Repro Rising,$225,Alexandria,VA,pac,Contribution,D,495199,2026-07-13
-expenditure,2026-06-24,The Omni Homestead Health & Spa,$26.05,Hot Springs,VA,pac,Event Meal,D,495199,2026-07-13
+expenditure,2026-03-29,National Women's Political Caucus,$35,Washington,DC,business,Contribution,D,495199,2026-07-13
+expenditure,2026-03-16,Virginia Legislative Black Causus,"$1,500",Richmond,VA,business,Contribution,D,495199,2026-07-13
+expenditure,2026-03-26,The Arc of Northern Virginia,$50,Fairfax,VA,business,Contribution,D,495199,2026-07-13
+expenditure,2026-01-28,Rooted Consulting Group,$500,Richmond,VA,business,Social Media,D,495199,2026-07-13
+expenditure,2026-03-09,Rooted Consulting Group,$500,Richmond,VA,business,Social Media,D,495199,2026-07-13
+expenditure,2026-03-23,Rooted Consulting Group,$500,Richmond,VA,business,Social Media,D,495199,2026-07-13
+expenditure,2026-05-01,Rooted Consulting Group,$500,Richmond,VA,business,Social Media,D,495199,2026-07-13
+expenditure,2026-05-26,Rooted Consulting Group,$500,Richmond,VA,business,Social Media,D,495199,2026-07-13
+expenditure,2026-06-23,Rooted Consulting Group,$500,Richmond,VA,business,Social Media,D,495199,2026-07-13
+expenditure,2026-05-04,National Conference of State Legislatures,$755,Washington,DC,business,Legilative Conference Fee,D,495199,2026-07-13
+expenditure,2026-04-22,5th & Broad Parking,$24,Richmond,VA,business,Event Parking,D,495199,2026-07-13
+expenditure,2026-01-06,"Printing and Graphics of VA, Inc.","$1,446.98",Richmond,VA,business,Campaign Advertising,D,495199,2026-07-13
+expenditure,2026-02-13,Harland Clarke,$31.89,San Antonio,TX,business,Campaign Checks,D,495199,2026-07-13
+expenditure,2026-04-01,Rotary Club of Herndon-Reston,$62.10,Herndon,VA,business,Contribution,D,495199,2026-07-13
+expenditure,2026-04-22,Meriwether's Cafe at the GAB,$26.80,Richmond,VA,business,Event Meals,D,495199,2026-07-13
+expenditure,2026-05-05,Meriwether's Cafe at the GAB,$11.60,Richmond,VA,business,Event Meal,D,495199,2026-07-13
+expenditure,2026-05-05,Meriwether's Cafe at the GAB,$5.40,Richmond,VA,business,Event Beverage,D,495199,2026-07-13
+expenditure,2026-04-30,Repro Rising,$225,Alexandria,VA,business,Contribution,D,495199,2026-07-13
+expenditure,2026-06-24,The Omni Homestead Health & Spa,$26.05,Hot Springs,VA,business,Event Meal,D,495199,2026-07-13

@@ -182,20 +182,31 @@ CAND_RE = re.compile(
     r"for treasurer|for commissioner|for mayor|for council)\b",
     re.I,
 )
-PAC_RE = re.compile(r"\b(pac|political action|cce|referendum committee)\b", re.I)
+PAC_RE = re.compile(
+    r"\b(political action|political committee|leadership pac|"
+    r"cce|referendum committee|committee for responsible government)\b|pac\b",
+    re.I,
+)
 
 
 def donor_type(name: str, occupation: str, is_individual: bool) -> str:
+    """Map a Schedule A/B giver to official-style categories.
+
+    Individuals follow the state's IsIndividual flag. Political committees
+    (PACs, party, and candidate committees) are tagged from the filed name or
+    occupation. Remaining non-individual givers are businesses and other
+    organizations — we do not guess a separate nonprofit class.
+    """
     blob = f"{name} {occupation}"
     if PARTY_RE.search(blob):
         return "party"
     if CAND_RE.search(blob) or re.search(r"\bfor delegate\b|\bfor senate\b", name, re.I):
         return "candidate"
-    if is_individual:
-        return "individual"
     if PAC_RE.search(blob):
         return "pac"
-    return "pac"  # other organizations: business PACs, companies, associations
+    if is_individual:
+        return "individual"
+    return "business"
 
 
 def type_bucket(kind: str) -> str:

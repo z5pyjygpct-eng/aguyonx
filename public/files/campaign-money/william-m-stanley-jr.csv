@@ -3,153 +3,153 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$345,757.40",,VA,,"From official Schedule H, November 2027 election cycle",H,494761,2026-07-13
 summary,2026-06-30,Raised this cycle,"$565,693.32",,,,Total receipts this election cycle (Schedule H),H,494761,2026-07-13
 summary,2026-06-30,Spent this cycle,"$265,079.79",,,,Total disbursements this election cycle (Schedule H),H,494761,2026-07-13
-contribution,2025-10-30,Huntington Ingalls Industries,$500,Newport News,VA,pac,,A,479859,2026-01-15
+contribution,2025-10-30,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,479859,2026-01-15
 contribution,2025-12-19,McGuireWoods,"$1,000",Richmond,VA,pac,,A,479859,2026-01-15
 contribution,2025-09-09,Realtors Political Action Committee,"$2,500",Glen Allen,VA,pac,,A,479859,2026-01-15
 contribution,2025-08-01,Dominion Political Action Committee,"$75,000",Richmond,VA,pac,,A,479859,2026-01-15
 contribution,2025-10-07,Dominion Political Action Committee,"$100,000",Richmond,VA,pac,,A,479859,2026-01-15
 contribution,2025-12-11,Dominion Political Action Committee,"$50,000",Richmond,VA,pac,,A,479859,2026-01-15
-contribution,2025-12-19,AT&T,$500,Richmond,VA,pac,,A,479859,2026-01-15
-contribution,2025-11-13,T-Mobile USA,$500,Atlanta,GA,pac,,A,479859,2026-01-15
-contribution,2025-07-14,"Capital One Services, LLC","$1,000",Reston,VA,pac,,A,479859,2026-01-15
+contribution,2025-12-19,AT&T,$500,Richmond,VA,business,,A,479859,2026-01-15
+contribution,2025-11-13,T-Mobile USA,$500,Atlanta,GA,business,,A,479859,2026-01-15
+contribution,2025-07-14,"Capital One Services, LLC","$1,000",Reston,VA,business,,A,479859,2026-01-15
 contribution,2025-10-30,Maritime Issues Council,"$1,000",Norfolk,VA,pac,,A,479859,2026-01-15
 contribution,2025-12-19,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,479859,2026-01-15
-contribution,2025-10-30,Delta Dental of Virginia,$500,Roanoke,VA,pac,,A,479859,2026-01-15
-contribution,2025-07-14,Comcast Corporation,$500,Philadelphia,PA,pac,,A,479859,2026-01-15
+contribution,2025-10-30,Delta Dental of Virginia,$500,Roanoke,VA,business,,A,479859,2026-01-15
+contribution,2025-07-14,Comcast Corporation,$500,Philadelphia,PA,business,,A,479859,2026-01-15
 contribution,2025-10-30,VAMICPAC,$500,Richmond,VA,pac,,A,479859,2026-01-15
 contribution,2025-09-22,Virginia Wine Wholesalers,"$1,500",Richmond,VA,pac,,A,479859,2026-01-15
-contribution,2025-12-19,"Metis Services, Inc","$1,000",Roanoke,VA,pac,,A,479859,2026-01-15
-contribution,2025-10-30,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,pac,,A,479859,2026-01-15
-contribution,2025-09-22,Anheuser Busch Companies,$250,New York,NY,pac,,A,479859,2026-01-15
+contribution,2025-12-19,"Metis Services, Inc","$1,000",Roanoke,VA,business,,A,479859,2026-01-15
+contribution,2025-10-30,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,A,479859,2026-01-15
+contribution,2025-09-22,Anheuser Busch Companies,$250,New York,NY,business,,A,479859,2026-01-15
 contribution,2025-10-07,VAD Pac,"$1,000",Richmond,VA,pac,,A,479859,2026-01-15
 contribution,2025-11-17,Dr Mark A Crabtree,$500,Martinsville,VA,individual,,A,479859,2026-01-15
-contribution,2025-11-13,Cigna,$500,Philadelphia,PA,pac,,A,479859,2026-01-15
-contribution,2025-11-17,"Amazon.com Services, Inc","$2,000",Seattle,WA,pac,,A,479859,2026-01-15
+contribution,2025-11-13,Cigna,$500,Philadelphia,PA,business,,A,479859,2026-01-15
+contribution,2025-11-17,"Amazon.com Services, Inc","$2,000",Seattle,WA,business,,A,479859,2026-01-15
 contribution,2025-10-30,VA Apts Mgmt Assoc. PAC,"$1,000",Richmond,VA,pac,,A,479859,2026-01-15
 contribution,2025-10-30,VA Mortgage Bankers PAC,"$1,000",Glen Allen,VA,pac,,A,479859,2026-01-15
-contribution,2025-10-07,"MVP, LLC","$1,000",Cannonsburg,PA,pac,,A,479859,2026-01-15
-contribution,2025-09-22,CC Procurement,$500,Chelmsford,MA,pac,,A,479859,2026-01-15
-contribution,2025-10-30,Roanoke Gas,"$1,000",Roanoke,VA,pac,,A,479859,2026-01-15
+contribution,2025-10-07,"MVP, LLC","$1,000",Cannonsburg,PA,business,,A,479859,2026-01-15
+contribution,2025-09-22,CC Procurement,$500,Chelmsford,MA,business,,A,479859,2026-01-15
+contribution,2025-10-30,Roanoke Gas,"$1,000",Roanoke,VA,business,,A,479859,2026-01-15
 contribution,2025-10-30,ULT PAC,$500,Richmond,VA,pac,,A,479859,2026-01-15
-contribution,2025-10-07,Vision Management Services,"$2,000",Chicago,IL,pac,,A,479859,2026-01-15
-contribution,2025-12-04,WinRed,$960.60,Arlington,VA,pac,,A,479859,2026-01-15
-contribution,2025-12-18,WinRed,"$2,651.50",Arlington,VA,pac,,A,479859,2026-01-15
-contribution,2025-12-31,WinRed,$480.30,Arlington,VA,pac,,A,479859,2026-01-15
-contribution,2025-12-19,"Tenaska Virginia Partners, LP","$1,000",Scottsville,VA,pac,,A,479859,2026-01-15
+contribution,2025-10-07,Vision Management Services,"$2,000",Chicago,IL,business,,A,479859,2026-01-15
+contribution,2025-12-04,WinRed,$960.60,Arlington,VA,business,,A,479859,2026-01-15
+contribution,2025-12-18,WinRed,"$2,651.50",Arlington,VA,business,,A,479859,2026-01-15
+contribution,2025-12-31,WinRed,$480.30,Arlington,VA,business,,A,479859,2026-01-15
+contribution,2025-12-19,"Tenaska Virginia Partners, LP","$1,000",Scottsville,VA,business,,A,479859,2026-01-15
 contribution,2025-10-07,Community-Owned Power PAC,"$2,500",Richmond,VA,pac,,A,479859,2026-01-15
-contribution,2025-10-07,Albers & Company,"$1,000",Arlington,VA,pac,,A,479859,2026-01-15
+contribution,2025-10-07,Albers & Company,"$1,000",Arlington,VA,business,,A,479859,2026-01-15
 contribution,2025-09-09,Virginia Future PAC,"$1,000",Woodbridge,VA,pac,,A,479859,2026-01-15
-contribution,2025-12-19,"Vantage Data Centers Management Co, LLC",$500,Santa Clara,CA,pac,,A,479859,2026-01-15
-contribution,2025-07-14,"DoorDash, LLC","$2,000",Sausalito,CA,pac,,A,479859,2026-01-15
-contribution,2025-08-05,PMI US Coprorate Services,"$5,000",San Rafael,CA,pac,,A,479859,2026-01-15
+contribution,2025-12-19,"Vantage Data Centers Management Co, LLC",$500,Santa Clara,CA,business,,A,479859,2026-01-15
+contribution,2025-07-14,"DoorDash, LLC","$2,000",Sausalito,CA,business,,A,479859,2026-01-15
+contribution,2025-08-05,PMI US Coprorate Services,"$5,000",San Rafael,CA,business,,A,479859,2026-01-15
 contribution,2025-09-22,CUPAC,"$5,000",Naperville,IL,pac,,A,479859,2026-01-15
 contribution,2025-10-07,Kevin Laine,$250,Ridgeway,VA,individual,,A,479859,2026-01-15
-contribution,2025-10-30,Virginia Contractor Procurement Alliance,"$1,000",Ashland,VA,pac,,A,479859,2026-01-15
-contribution,2025-11-13,Publix Super Markets,$500,Lakeland,FL,pac,,A,479859,2026-01-15
+contribution,2025-10-30,Virginia Contractor Procurement Alliance,"$1,000",Ashland,VA,business,,A,479859,2026-01-15
+contribution,2025-11-13,Publix Super Markets,$500,Lakeland,FL,business,,A,479859,2026-01-15
 contribution,2025-10-30,Samuel Alexander,$500,Boones Mill,VA,individual,,A,479859,2026-01-15
 contribution,2026-01-12,Dominion Political Action Committee,"$25,000",Richmond,VA,pac,,A,494761,2026-07-13
 contribution,2026-05-06,Dominion Political Action Committee,"$50,000",Richmond,VA,pac,,A,494761,2026-07-13
 contribution,2026-01-13,Commission of Revenue PAC,$250,Newport News,VA,pac,,A,494761,2026-07-13
-contribution,2026-01-13,"7-Eleven, Inc","$2,500",Irving,TX,pac,,A,494761,2026-07-13
-contribution,2026-01-13,"7-Eleven, Inc","$1,000",Irving,TX,pac,,A,494761,2026-07-13
+contribution,2026-01-13,"7-Eleven, Inc","$2,500",Irving,TX,business,,A,494761,2026-07-13
+contribution,2026-01-13,"7-Eleven, Inc","$1,000",Irving,TX,business,,A,494761,2026-07-13
 contribution,2026-04-29,William A Pace II,"$2,500",Chatham,VA,individual,,A,494761,2026-07-13
 contribution,2026-01-13,"Acadia Healthcare Company, Inc  FEDPAC",$500,Franklin,TN,pac,,A,494761,2026-07-13
-contribution,2026-01-13,"POM of Virginia, LLC","$5,000",Duluth,GA,pac,,A,494761,2026-07-13
-contribution,2026-04-29,"POM of Virginia, LLC","$5,000",Duluth,GA,pac,,A,494761,2026-07-13
+contribution,2026-01-13,"POM of Virginia, LLC","$5,000",Duluth,GA,business,,A,494761,2026-07-13
+contribution,2026-04-29,"POM of Virginia, LLC","$5,000",Duluth,GA,business,,A,494761,2026-07-13
 contribution,2026-04-29,Paul Goldean,"$2,500",Charlotte,NC,individual,,A,494761,2026-07-13
-contribution,2026-04-27,VA Operators of Skill,"$5,000",Richmond,VA,pac,,A,494761,2026-07-13
+contribution,2026-04-27,VA Operators of Skill,"$5,000",Richmond,VA,business,,A,494761,2026-07-13
 contribution,2026-01-13,VA Digital Infrastructure PAC,"$2,500",Leesburg,VA,pac,,A,494761,2026-07-13
 contribution,2026-01-13,Organizing for VA Seniors PAC,"$2,500",Fairfax,VA,pac,,A,494761,2026-07-13
-contribution,2026-01-13,NOVA Distro,"$5,000",Manassas,VA,pac,,A,494761,2026-07-13
-contribution,2026-01-12,Carbon Solutions Group,$500,Chicago,IL,pac,,A,494761,2026-07-13
+contribution,2026-01-13,NOVA Distro,"$5,000",Manassas,VA,business,,A,494761,2026-07-13
+contribution,2026-01-12,Carbon Solutions Group,$500,Chicago,IL,business,,A,494761,2026-07-13
 in_kind,2025-12-30,Dominion Political Action Committee,$850.92,Richmond,VA,pac,Food and Beverage for event,B,479859,2026-01-15
-expenditure,2025-10-07,Treasurer of Virginia,$48,Richmond,VA,pac,flags and framing constituent,D,479859,2026-01-15
-expenditure,2025-10-09,Aztec Rental,$384.54,Moneta,VA,pac,chairs/tables fundraiser,D,479859,2026-01-15
-expenditure,2025-12-19,Virginia Public Access Project,$511.95,Richmond,VA,pac,Contribution,D,479859,2026-01-15
-expenditure,2025-12-22,Virginia Public Access Project,$511.55,Richmond,VA,pac,Donation,D,479859,2026-01-15
+expenditure,2025-10-07,Treasurer of Virginia,$48,Richmond,VA,business,flags and framing constituent,D,479859,2026-01-15
+expenditure,2025-10-09,Aztec Rental,$384.54,Moneta,VA,business,chairs/tables fundraiser,D,479859,2026-01-15
+expenditure,2025-12-19,Virginia Public Access Project,$511.95,Richmond,VA,business,Contribution,D,479859,2026-01-15
+expenditure,2025-12-22,Virginia Public Access Project,$511.55,Richmond,VA,business,Donation,D,479859,2026-01-15
 expenditure,2025-08-22,Senate Republican Caucus,"$1,500",Williamsburg,VA,party,Caucus dues,D,479859,2026-01-15
 expenditure,2025-09-09,Senate Republican Caucus,"$12,000",Williamsburg,VA,party,Caucus Dues,D,479859,2026-01-15
-expenditure,2025-07-03,MailChimp.com,$300,Atlanta,GA,pac,mailing service,D,479859,2026-01-15
-expenditure,2025-08-04,MailChimp.com,$300,Atlanta,GA,pac,mailing services,D,479859,2026-01-15
-expenditure,2025-09-03,MailChimp.com,$300,Atlanta,GA,pac,mailing services,D,479859,2026-01-15
-expenditure,2025-10-03,MailChimp.com,$300,Atlanta,GA,pac,mailing services,D,479859,2026-01-15
-expenditure,2025-11-03,MailChimp.com,$300,Atlanta,GA,pac,mailing services,D,479859,2026-01-15
-expenditure,2025-12-03,MailChimp.com,$300,Atlanta,GA,pac,mailing services,D,479859,2026-01-15
-expenditure,2025-12-19,Patrick County Republican Committee,$500,Claudville,VA,pac,donation,D,479859,2026-01-15
-expenditure,2025-09-09,Franklin County Republican Committee,$500,Rocky Mount,VA,pac,Contributions,D,479859,2026-01-15
+expenditure,2025-07-03,MailChimp.com,$300,Atlanta,GA,business,mailing service,D,479859,2026-01-15
+expenditure,2025-08-04,MailChimp.com,$300,Atlanta,GA,business,mailing services,D,479859,2026-01-15
+expenditure,2025-09-03,MailChimp.com,$300,Atlanta,GA,business,mailing services,D,479859,2026-01-15
+expenditure,2025-10-03,MailChimp.com,$300,Atlanta,GA,business,mailing services,D,479859,2026-01-15
+expenditure,2025-11-03,MailChimp.com,$300,Atlanta,GA,business,mailing services,D,479859,2026-01-15
+expenditure,2025-12-03,MailChimp.com,$300,Atlanta,GA,business,mailing services,D,479859,2026-01-15
+expenditure,2025-12-19,Patrick County Republican Committee,$500,Claudville,VA,business,donation,D,479859,2026-01-15
+expenditure,2025-09-09,Franklin County Republican Committee,$500,Rocky Mount,VA,business,Contributions,D,479859,2026-01-15
 expenditure,2025-07-01,Richard J Crouse,$638.79,Chatham,VA,individual,Contract services,D,479859,2026-01-15
 expenditure,2025-09-09,Richard J Crouse,"$1,000",Chatham,VA,individual,Contract Services,D,479859,2026-01-15
 expenditure,2025-10-09,Richard J Crouse,"$1,085",Chatham,VA,individual,contract services,D,479859,2026-01-15
-expenditure,2025-07-25,Intuit Quickbooks,$235,Greenville,SC,pac,bookkeeping software,D,479859,2026-01-15
-expenditure,2025-08-25,Intuit Quickbooks,$275,Greenville,SC,pac,bookkeeping software,D,479859,2026-01-15
-expenditure,2025-09-24,Intuit Quickbooks,$275,Greenville,SC,pac,bookkeeping software,D,479859,2026-01-15
-expenditure,2025-10-24,Intuit Quickbooks,$275,Greenville,SC,pac,bookkeeping software,D,479859,2026-01-15
-expenditure,2025-11-24,Intuit Quickbooks,$275,Greenville,SC,pac,Bookkeeping services,D,479859,2026-01-15
-expenditure,2025-12-24,Intuit Quickbooks,$275,Greenville,SC,pac,bookkeeping software,D,479859,2026-01-15
-expenditure,2025-08-22,Proud Patroits of Smith Mountain Lake,$500,Moneta,VA,pac,Donation,D,479859,2026-01-15
+expenditure,2025-07-25,Intuit Quickbooks,$235,Greenville,SC,business,bookkeeping software,D,479859,2026-01-15
+expenditure,2025-08-25,Intuit Quickbooks,$275,Greenville,SC,business,bookkeeping software,D,479859,2026-01-15
+expenditure,2025-09-24,Intuit Quickbooks,$275,Greenville,SC,business,bookkeeping software,D,479859,2026-01-15
+expenditure,2025-10-24,Intuit Quickbooks,$275,Greenville,SC,business,bookkeeping software,D,479859,2026-01-15
+expenditure,2025-11-24,Intuit Quickbooks,$275,Greenville,SC,business,Bookkeeping services,D,479859,2026-01-15
+expenditure,2025-12-24,Intuit Quickbooks,$275,Greenville,SC,business,bookkeeping software,D,479859,2026-01-15
+expenditure,2025-08-22,Proud Patroits of Smith Mountain Lake,$500,Moneta,VA,business,Donation,D,479859,2026-01-15
 expenditure,2025-10-08,Aaron Arnold,$113.66,Moneta,VA,individual,reimbursement for fundraiser expense,D,479859,2026-01-15
-expenditure,2025-09-15,Dominion Raceway,$22.55,Woodford,VA,pac,fundraiser expense,D,479859,2026-01-15
-expenditure,2025-09-17,Dominion Raceway,"$7,140",Woodford,VA,pac,Refreshments and location for fundraiser,D,479859,2026-01-15
-expenditure,2025-10-07,Back 40 BBQ,"$2,000",Ferrum,VA,pac,refreshments/food for fundraiser,D,479859,2026-01-15
+expenditure,2025-09-15,Dominion Raceway,$22.55,Woodford,VA,business,fundraiser expense,D,479859,2026-01-15
+expenditure,2025-09-17,Dominion Raceway,"$7,140",Woodford,VA,business,Refreshments and location for fundraiser,D,479859,2026-01-15
+expenditure,2025-10-07,Back 40 BBQ,"$2,000",Ferrum,VA,business,refreshments/food for fundraiser,D,479859,2026-01-15
 expenditure,2025-10-08,Kim Taylor For Delegate,"$2,000",Sutherland,VA,candidate,donation,D,479859,2026-01-15
 expenditure,2025-10-08,Chris Obenshain for Delegate,"$2,000",Blacksburg,VA,candidate,donation,D,479859,2026-01-15
-expenditure,2025-10-08,Friends of Carrie Coyner,"$1,000",Chester,VA,pac,donation,D,479859,2026-01-15
-expenditure,2025-12-19,"Disruptor Radio, LLC","$1,000",Washington,DC,pac,advertisement,D,479859,2026-01-15
-expenditure,2025-10-09,Republican Attorney Generals Associations,"$100,000",Washington,DC,pac,donation,D,479859,2026-01-15
-expenditure,2025-10-09,Atlantic Union Bank,$30,Glen Allen,VA,pac,bank service fee,D,479859,2026-01-15
-expenditure,2025-12-19,Atlantic Union Bank,$35,Glen Allen,VA,pac,Bank service fee,D,479859,2026-01-15
-expenditure,2026-03-30,T-Mobile USA,$138.17,Atlanta,GA,pac,telphone,D,494761,2026-07-13
-expenditure,2026-05-18,T-Mobile USA,$98.05,Atlanta,GA,pac,telephone communications,D,494761,2026-07-13
-expenditure,2026-06-16,T-Mobile USA,$101.23,Atlanta,GA,pac,"telephone, telecommunications",D,494761,2026-07-13
-expenditure,2026-04-10,Martinsville Bulletin,$14.99,Martinsville,VA,pac,subcription,D,494761,2026-07-13
-expenditure,2026-05-07,Martinsville Bulletin,$14.99,Martinsville,VA,pac,Subscription,D,494761,2026-07-13
-expenditure,2026-06-04,Martinsville Bulletin,$14.99,Martinsville,VA,pac,subscription,D,494761,2026-07-13
-expenditure,2026-01-05,MailChimp.com,$300,Atlanta,GA,pac,mailing services,D,494761,2026-07-13
-expenditure,2026-02-03,MailChimp.com,$300,Atlanta,GA,pac,mailing services,D,494761,2026-07-13
-expenditure,2026-03-03,MailChimp.com,$300,Atlanta,GA,pac,mailing services,D,494761,2026-07-13
-expenditure,2026-04-03,MailChimp.com,$300,Atlanta,GA,pac,mailing services,D,494761,2026-07-13
-expenditure,2026-05-04,MailChimp.com,$334,Atlanta,GA,pac,mailing services,D,494761,2026-07-13
-expenditure,2026-06-03,MailChimp.com,$334,Atlanta,GA,pac,mailing services,D,494761,2026-07-13
-expenditure,2026-04-03,Danville Register,$19.99,Richmond,VA,pac,subscription,D,494761,2026-07-13
-expenditure,2026-05-01,Danville Register,$19.99,Richmond,VA,pac,Subscriptions,D,494761,2026-07-13
-expenditure,2026-05-29,Danville Register,$19.99,Richmond,VA,pac,subscriptions,D,494761,2026-07-13
-expenditure,2026-06-26,Danville Register,$19.99,Richmond,VA,pac,subscription,D,494761,2026-07-13
+expenditure,2025-10-08,Friends of Carrie Coyner,"$1,000",Chester,VA,business,donation,D,479859,2026-01-15
+expenditure,2025-12-19,"Disruptor Radio, LLC","$1,000",Washington,DC,business,advertisement,D,479859,2026-01-15
+expenditure,2025-10-09,Republican Attorney Generals Associations,"$100,000",Washington,DC,business,donation,D,479859,2026-01-15
+expenditure,2025-10-09,Atlantic Union Bank,$30,Glen Allen,VA,business,bank service fee,D,479859,2026-01-15
+expenditure,2025-12-19,Atlantic Union Bank,$35,Glen Allen,VA,business,Bank service fee,D,479859,2026-01-15
+expenditure,2026-03-30,T-Mobile USA,$138.17,Atlanta,GA,business,telphone,D,494761,2026-07-13
+expenditure,2026-05-18,T-Mobile USA,$98.05,Atlanta,GA,business,telephone communications,D,494761,2026-07-13
+expenditure,2026-06-16,T-Mobile USA,$101.23,Atlanta,GA,business,"telephone, telecommunications",D,494761,2026-07-13
+expenditure,2026-04-10,Martinsville Bulletin,$14.99,Martinsville,VA,business,subcription,D,494761,2026-07-13
+expenditure,2026-05-07,Martinsville Bulletin,$14.99,Martinsville,VA,business,Subscription,D,494761,2026-07-13
+expenditure,2026-06-04,Martinsville Bulletin,$14.99,Martinsville,VA,business,subscription,D,494761,2026-07-13
+expenditure,2026-01-05,MailChimp.com,$300,Atlanta,GA,business,mailing services,D,494761,2026-07-13
+expenditure,2026-02-03,MailChimp.com,$300,Atlanta,GA,business,mailing services,D,494761,2026-07-13
+expenditure,2026-03-03,MailChimp.com,$300,Atlanta,GA,business,mailing services,D,494761,2026-07-13
+expenditure,2026-04-03,MailChimp.com,$300,Atlanta,GA,business,mailing services,D,494761,2026-07-13
+expenditure,2026-05-04,MailChimp.com,$334,Atlanta,GA,business,mailing services,D,494761,2026-07-13
+expenditure,2026-06-03,MailChimp.com,$334,Atlanta,GA,business,mailing services,D,494761,2026-07-13
+expenditure,2026-04-03,Danville Register,$19.99,Richmond,VA,business,subscription,D,494761,2026-07-13
+expenditure,2026-05-01,Danville Register,$19.99,Richmond,VA,business,Subscriptions,D,494761,2026-07-13
+expenditure,2026-05-29,Danville Register,$19.99,Richmond,VA,business,subscriptions,D,494761,2026-07-13
+expenditure,2026-06-26,Danville Register,$19.99,Richmond,VA,business,subscription,D,494761,2026-07-13
 expenditure,2026-03-26,Richard J Crouse,$402.42,Chatham,VA,individual,Reimbursement for fundraiser event location,D,494761,2026-07-13
 expenditure,2026-03-27,Richard J Crouse,$60,Chatham,VA,individual,Reimbursement for gas for event,D,494761,2026-07-13
 expenditure,2026-02-08,Thomas Graziano,"$3,000",Richmond,VA,individual,contract services,D,494761,2026-07-13
-expenditure,2026-05-11,Stanley & Stanley,"$4,031.21",Moneta,VA,pac,reimbursement for fundraising event,D,494761,2026-07-13
-expenditure,2026-03-30,"Facebook, Inc",$43.27,Menio Park,CA,pac,"media, advertising,",D,494761,2026-07-13
-expenditure,2026-04-30,"Facebook, Inc",$55.80,Menio Park,CA,pac,social media,D,494761,2026-07-13
-expenditure,2026-05-11,"Facebook, Inc",$85,Menio Park,CA,pac,social media,D,494761,2026-07-13
-expenditure,2026-05-11,"Facebook, Inc",$85,Menio Park,CA,pac,social media,D,494761,2026-07-13
-expenditure,2026-05-13,"Facebook, Inc",$85,Menio Park,CA,pac,social media,D,494761,2026-07-13
-expenditure,2026-06-01,"Facebook, Inc",$20,Menio Park,CA,pac,social media,D,494761,2026-07-13
-expenditure,2026-06-09,"Facebook, Inc",$85,Menio Park,CA,pac,social media,D,494761,2026-07-13
-expenditure,2026-06-30,"Facebook, Inc",$34.11,Menio Park,CA,pac,social media,D,494761,2026-07-13
-expenditure,2026-01-26,Intuit Quickbooks,$275,Greenville,SC,pac,bookkeeping,D,494761,2026-07-13
-expenditure,2026-02-24,Intuit Quickbooks,$275,Greenville,SC,pac,Bookkeeping services,D,494761,2026-07-13
-expenditure,2026-03-24,Intuit Quickbooks,$275,Greenville,SC,pac,Bookkeeping services,D,494761,2026-07-13
-expenditure,2026-04-24,Intuit Quickbooks,$275,Greenville,SC,pac,Bookkeeping services,D,494761,2026-07-13
-expenditure,2026-05-26,Intuit Quickbooks,$275,Greenville,SC,pac,bookkeeping services,D,494761,2026-07-13
-expenditure,2026-06-24,Intuit Quickbooks,$275,Greenville,SC,pac,bookkeeping services,D,494761,2026-07-13
-expenditure,2026-06-05,"CSGA Group, LLC",$226.90,Moneta,VA,pac,contract services,D,494761,2026-07-13
-expenditure,2026-03-30,South Boston Speedway,$636,South Boston,VA,pac,fundraiser meal,D,494761,2026-07-13
-expenditure,2026-04-09,"Disruptor Radio, LLC","$1,000",Washington,DC,pac,donation,D,494761,2026-07-13
-expenditure,2026-01-05,Martinsville/Henry County SPCA,"$1,000",Martinsville,VA,pac,Donation,D,494761,2026-07-13
+expenditure,2026-05-11,Stanley & Stanley,"$4,031.21",Moneta,VA,business,reimbursement for fundraising event,D,494761,2026-07-13
+expenditure,2026-03-30,"Facebook, Inc",$43.27,Menio Park,CA,business,"media, advertising,",D,494761,2026-07-13
+expenditure,2026-04-30,"Facebook, Inc",$55.80,Menio Park,CA,business,social media,D,494761,2026-07-13
+expenditure,2026-05-11,"Facebook, Inc",$85,Menio Park,CA,business,social media,D,494761,2026-07-13
+expenditure,2026-05-11,"Facebook, Inc",$85,Menio Park,CA,business,social media,D,494761,2026-07-13
+expenditure,2026-05-13,"Facebook, Inc",$85,Menio Park,CA,business,social media,D,494761,2026-07-13
+expenditure,2026-06-01,"Facebook, Inc",$20,Menio Park,CA,business,social media,D,494761,2026-07-13
+expenditure,2026-06-09,"Facebook, Inc",$85,Menio Park,CA,business,social media,D,494761,2026-07-13
+expenditure,2026-06-30,"Facebook, Inc",$34.11,Menio Park,CA,business,social media,D,494761,2026-07-13
+expenditure,2026-01-26,Intuit Quickbooks,$275,Greenville,SC,business,bookkeeping,D,494761,2026-07-13
+expenditure,2026-02-24,Intuit Quickbooks,$275,Greenville,SC,business,Bookkeeping services,D,494761,2026-07-13
+expenditure,2026-03-24,Intuit Quickbooks,$275,Greenville,SC,business,Bookkeeping services,D,494761,2026-07-13
+expenditure,2026-04-24,Intuit Quickbooks,$275,Greenville,SC,business,Bookkeeping services,D,494761,2026-07-13
+expenditure,2026-05-26,Intuit Quickbooks,$275,Greenville,SC,business,bookkeeping services,D,494761,2026-07-13
+expenditure,2026-06-24,Intuit Quickbooks,$275,Greenville,SC,business,bookkeeping services,D,494761,2026-07-13
+expenditure,2026-06-05,"CSGA Group, LLC",$226.90,Moneta,VA,business,contract services,D,494761,2026-07-13
+expenditure,2026-03-30,South Boston Speedway,$636,South Boston,VA,business,fundraiser meal,D,494761,2026-07-13
+expenditure,2026-04-09,"Disruptor Radio, LLC","$1,000",Washington,DC,business,donation,D,494761,2026-07-13
+expenditure,2026-01-05,Martinsville/Henry County SPCA,"$1,000",Martinsville,VA,business,Donation,D,494761,2026-07-13
 expenditure,2026-02-08,Laura L Vozzella,"$5,320",Henrico,VA,individual,Contract services,D,494761,2026-07-13
 expenditure,2026-03-26,Laura L Vozzella,"$5,440",Henrico,VA,individual,Contract services,D,494761,2026-07-13
-expenditure,2026-03-10,Virginia Department of Elections,$2.19,Richmond,VA,pac,filing,D,494761,2026-07-13
-expenditure,2026-03-10,Virginia Department of Elections,$95.60,Richmond,VA,pac,Filing,D,494761,2026-07-13
-expenditure,2026-03-09,Solid Stone Fabrics,"$2,870.10",Martinsville,VA,pac,donation,D,494761,2026-07-13
-expenditure,2026-02-20,C.P. Dean Company,$824.68,Richmond,VA,pac,Marketing materials,D,494761,2026-07-13
-expenditure,2026-04-07,The Roanoke Times,$14.99,Roanoke,VA,pac,subscription,D,494761,2026-07-13
-expenditure,2026-05-05,The Roanoke Times,$14.99,Roanoke,VA,pac,subscription,D,494761,2026-07-13
-expenditure,2026-06-02,The Roanoke Times,$14.99,Roanoke,VA,pac,subscriptions,D,494761,2026-07-13
-expenditure,2026-06-30,The Roanoke Times,$14.99,Roanoke,VA,pac,subscription,D,494761,2026-07-13
-expenditure,2026-04-29,Richmond Times-Dispatch,$24.99,Mechanicsville,VA,pac,subscriptions,D,494761,2026-07-13
-expenditure,2026-05-27,Richmond Times-Dispatch,$24.99,Mechanicsville,VA,pac,subscriptions,D,494761,2026-07-13
-expenditure,2026-06-24,Richmond Times-Dispatch,$24.99,Mechanicsville,VA,pac,subscription,D,494761,2026-07-13
-expenditure,2026-04-28,Daily Progress,$24.99,Charlottesville,VA,pac,subscriptions,D,494761,2026-07-13
-expenditure,2026-05-26,Daily Progress,$24.99,Charlottesville,VA,pac,Subscriptions,D,494761,2026-07-13
-expenditure,2026-06-23,Daily Progress,$24.99,Charlottesville,VA,pac,subscription,D,494761,2026-07-13
-expenditure,2026-06-03,Grayson County Republican Committee,$500,Independence,VA,pac,donation,D,494761,2026-07-13
+expenditure,2026-03-10,Virginia Department of Elections,$2.19,Richmond,VA,business,filing,D,494761,2026-07-13
+expenditure,2026-03-10,Virginia Department of Elections,$95.60,Richmond,VA,business,Filing,D,494761,2026-07-13
+expenditure,2026-03-09,Solid Stone Fabrics,"$2,870.10",Martinsville,VA,business,donation,D,494761,2026-07-13
+expenditure,2026-02-20,C.P. Dean Company,$824.68,Richmond,VA,business,Marketing materials,D,494761,2026-07-13
+expenditure,2026-04-07,The Roanoke Times,$14.99,Roanoke,VA,business,subscription,D,494761,2026-07-13
+expenditure,2026-05-05,The Roanoke Times,$14.99,Roanoke,VA,business,subscription,D,494761,2026-07-13
+expenditure,2026-06-02,The Roanoke Times,$14.99,Roanoke,VA,business,subscriptions,D,494761,2026-07-13
+expenditure,2026-06-30,The Roanoke Times,$14.99,Roanoke,VA,business,subscription,D,494761,2026-07-13
+expenditure,2026-04-29,Richmond Times-Dispatch,$24.99,Mechanicsville,VA,business,subscriptions,D,494761,2026-07-13
+expenditure,2026-05-27,Richmond Times-Dispatch,$24.99,Mechanicsville,VA,business,subscriptions,D,494761,2026-07-13
+expenditure,2026-06-24,Richmond Times-Dispatch,$24.99,Mechanicsville,VA,business,subscription,D,494761,2026-07-13
+expenditure,2026-04-28,Daily Progress,$24.99,Charlottesville,VA,business,subscriptions,D,494761,2026-07-13
+expenditure,2026-05-26,Daily Progress,$24.99,Charlottesville,VA,business,Subscriptions,D,494761,2026-07-13
+expenditure,2026-06-23,Daily Progress,$24.99,Charlottesville,VA,business,subscription,D,494761,2026-07-13
+expenditure,2026-06-03,Grayson County Republican Committee,$500,Independence,VA,business,donation,D,494761,2026-07-13

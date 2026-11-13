@@ -4,12 +4,12 @@ summary,2026-06-30,Cash on hand (ending balance),"$37,839.41",,VA,,"From officia
 summary,2026-06-30,Raised this cycle,"$12,050",,,,Total receipts this election cycle (Schedule H),H,497468,2026-07-16
 summary,2026-06-30,Spent this cycle,"$7,060.81",,,,Total disbursements this election cycle (Schedule H),H,497468,2026-07-16
 contribution,2026-06-18,Virginia Automobile & Truck Dealers PAC,$500,Richmond,VA,pac,,A,497468,2026-07-16
-contribution,2026-05-30,Virginia Harness Horse Association,$250,Saluda,VA,pac,,A,497468,2026-07-16
-contribution,2026-04-22,Anheuser Busch Companies,$250,Syracuse,NY,pac,,A,497468,2026-07-16
-contribution,2026-06-08,Transurban (USA) Inc - CR,$500,Tysons,VA,pac,,A,497468,2026-07-16
-contribution,2026-05-18,Virginia A.F.L. - C.I.O.,"$1,000",Richmond,VA,pac,,A,497468,2026-07-16
+contribution,2026-05-30,Virginia Harness Horse Association,$250,Saluda,VA,business,,A,497468,2026-07-16
+contribution,2026-04-22,Anheuser Busch Companies,$250,Syracuse,NY,business,,A,497468,2026-07-16
+contribution,2026-06-08,Transurban (USA) Inc - CR,$500,Tysons,VA,business,,A,497468,2026-07-16
+contribution,2026-05-18,Virginia A.F.L. - C.I.O.,"$1,000",Richmond,VA,business,,A,497468,2026-07-16
 contribution,2026-05-28,Virginia Sheriffs Association PAC,$250,Richmond,VA,pac,,A,497468,2026-07-16
-contribution,2026-06-30,Chesapeake Climate Action Network Action Fund,$500,Takoma Park,MD,pac,,A,497468,2026-07-16
+contribution,2026-06-30,Chesapeake Climate Action Network Action Fund,$500,Takoma Park,MD,business,,A,497468,2026-07-16
 contribution,2026-01-04,Roberta Baskin,$500,Manassas,VA,individual,,A,497468,2026-07-16
 contribution,2026-01-04,Jennifer Manocherian,$150,Scarsdale,NY,individual,,A,497468,2026-07-16
 contribution,2026-01-04,Luanne Stevenson,$150,Manassas,VA,individual,,A,497468,2026-07-16
@@ -22,51 +22,51 @@ contribution,2026-01-13,Jackson Browne,"$1,000",Studio City,CA,individual,,A,497
 contribution,2026-01-13,Darren Bell,$200,Costa Mesa,CA,individual,,A,497468,2026-07-16
 contribution,2026-01-13,Carla Bustillos,"$1,500",Alexandria,VA,individual,,A,497468,2026-07-16
 contribution,2026-01-13,Wilfred Grandison,$500,McLean,VA,individual,,A,497468,2026-07-16
-expenditure,2026-01-05,Canva Inc.,$15,Wilmington,DE,pac,Subscription for graphic design service,D,497468,2026-07-16
-expenditure,2026-02-18,Canva Inc.,$15,Wilmington,DE,pac,Graphic design software subscription,D,497468,2026-07-16
-expenditure,2026-03-18,Canva Inc.,$15,Wilmington,DE,pac,Graphic design software subscription,D,497468,2026-07-16
+expenditure,2026-01-05,Canva Inc.,$15,Wilmington,DE,business,Subscription for graphic design service,D,497468,2026-07-16
+expenditure,2026-02-18,Canva Inc.,$15,Wilmington,DE,business,Graphic design software subscription,D,497468,2026-07-16
+expenditure,2026-03-18,Canva Inc.,$15,Wilmington,DE,business,Graphic design software subscription,D,497468,2026-07-16
 expenditure,2026-01-05,Ponmakha Jared,$116,Springfield,VA,individual,Jared Ponmakha,D,497468,2026-07-16
-expenditure,2026-01-14,Richmond Parking,$5,Richmond,VA,pac,Parking,D,497468,2026-07-16
+expenditure,2026-01-14,Richmond Parking,$5,Richmond,VA,business,Parking,D,497468,2026-07-16
 expenditure,2026-01-20,Jared Ponmakha,$25,Springfield,VA,individual,Intern Pay,D,497468,2026-07-16
 expenditure,2026-01-26,Jared Ponmakha,$4.54,Springfield,VA,individual,Staff Reimbursement,D,497468,2026-07-16
 expenditure,2026-02-03,Jared Ponmakha,$309,Springfield,VA,individual,Intern Pay,D,497468,2026-07-16
 expenditure,2026-02-11,Jared Ponmakha,$212,Springfield,VA,individual,Intern Pay,D,497468,2026-07-16
 expenditure,2026-02-12,Jared Ponmakha,"$1,000",Springfield,VA,individual,Intern Pay,D,497468,2026-07-16
 expenditure,2026-03-04,Jared Ponmakha,$55,Springfield,VA,individual,Intern Pay,D,497468,2026-07-16
-expenditure,2026-01-20,"Pressable, Inc.",$25,San Antonio,TX,pac,Website Design,D,497468,2026-07-16
-expenditure,2026-02-20,"Pressable, Inc.",$25,San Antonio,TX,pac,Office Expenses,D,497468,2026-07-16
-expenditure,2026-03-20,"Pressable, Inc.",$25,San Antonio,TX,pac,Website hosting services,D,497468,2026-07-16
-expenditure,2026-06-03,"Pressable, Inc.",$50,San Antonio,TX,pac,Website Hosting Services,D,497468,2026-07-16
+expenditure,2026-01-20,"Pressable, Inc.",$25,San Antonio,TX,business,Website Design,D,497468,2026-07-16
+expenditure,2026-02-20,"Pressable, Inc.",$25,San Antonio,TX,business,Office Expenses,D,497468,2026-07-16
+expenditure,2026-03-20,"Pressable, Inc.",$25,San Antonio,TX,business,Website hosting services,D,497468,2026-07-16
+expenditure,2026-06-03,"Pressable, Inc.",$50,San Antonio,TX,business,Website Hosting Services,D,497468,2026-07-16
 expenditure,2026-01-22,Jared Ponmakha,$15,Springfield,VA,individual,Intern Pay,D,497468,2026-07-16
-expenditure,2026-02-09,Amazon,$22.23,Seattle,WA,pac,Office Supplies,D,497468,2026-07-16
-expenditure,2026-04-27,Amazon,$42.39,Seattle,WA,pac,Office Supplies,D,497468,2026-07-16
-expenditure,2026-05-12,Amazon,$60.39,Seattle,WA,pac,Office Supplies,D,497468,2026-07-16
-expenditure,2026-02-11,La Sabrosita Baker,$137.80,Richmond,VA,pac,Event Food,D,497468,2026-07-16
-expenditure,2026-02-18,Casa Del Barc,$216.34,Richmond,VA,pac,Volunteer/Staff Meal,D,497468,2026-07-16
-expenditure,2026-02-23,Meta Platforms Inc.,$85,Menlo Park,CA,pac,Digital Ads,D,497468,2026-07-16
-expenditure,2026-02-27,Meta Platforms Inc.,$85,Menlo Park,CA,pac,Digital Ads,D,497468,2026-07-16
-expenditure,2026-03-02,Meta Platforms Inc.,$85,Menlo Park,CA,pac,Digital Ads,D,497468,2026-07-16
-expenditure,2026-03-18,Meta Platforms Inc.,$36.91,Menlo Park,CA,pac,Digital Ads,D,497468,2026-07-16
-expenditure,2026-03-06,Arlington County Democratic Committee,$310.75,Arlington,VA,pac,Political Contributions,D,497468,2026-07-16
-expenditure,2026-03-10,VPAP,$250,Richmond,VA,pac,Donation,D,497468,2026-07-16
-expenditure,2026-03-16,Uber Technologies Inc.,$182.32,San Francisco,CA,pac,Staff Meal,D,497468,2026-07-16
-expenditure,2026-03-18,ActBlue,$250,Somerville,MA,pac,Online fundraising platform fees,D,497468,2026-07-16
-expenditure,2026-03-30,ActBlue,$250,Somerville,MA,pac,Online fundraising platform fees,D,497468,2026-07-16
-expenditure,2026-05-04,ActBlue,$350,Somerville,MA,pac,Online fundraising platform fees,D,497468,2026-07-16
-expenditure,2026-05-26,ActBlue,$200,Somerville,MA,pac,Online Fundraising Platform Fees,D,497468,2026-07-16
-expenditure,2026-05-26,ActBlue,$500,Somerville,MA,pac,Online fundraising platform fees,D,497468,2026-07-16
-expenditure,2026-06-26,Prince William County Democratic Committee,$207.25,Manassas,VA,pac,Political Contributions,D,497468,2026-07-16
-expenditure,2026-06-22,Lanier Parking,$10,Richmond,VA,pac,Staff Parking,D,497468,2026-07-16
-expenditure,2026-04-21,"North Park Labs, Inc.",$20,San Francisco,CA,pac,Website Design,D,497468,2026-07-16
-expenditure,2026-04-22,"North Park Labs, Inc.",$26.38,San Francisco,CA,pac,Website Design,D,497468,2026-07-16
-expenditure,2026-05-21,"North Park Labs, Inc.",$21.40,San Francisco,CA,pac,Website Design,D,497468,2026-07-16
-expenditure,2026-06-22,"North Park Labs, Inc.",$20,San Francisco,CA,pac,Website Design,D,497468,2026-07-16
-expenditure,2026-06-22,"7-Eleven, Inc.",$18.66,Irving,TX,pac,Travel/Meal Expenses,D,497468,2026-07-16
-expenditure,2026-04-03,"Gusto, Inc.",$55,San Francisco,CA,pac,Gusto Payroll,D,497468,2026-07-16
-expenditure,2026-05-05,"Gusto, Inc.",$49,San Francisco,CA,pac,Gusto Payroll,D,497468,2026-07-16
-expenditure,2026-06-02,"Gusto, Inc.",$49,San Francisco,CA,pac,Gusto Payroll,D,497468,2026-07-16
-expenditure,2026-06-01,Ladd Convenience,$34.23,Waynesboro,VA,pac,Travel/Meal Expenses,D,497468,2026-07-16
-expenditure,2026-05-26,REPRO Rising Virginia,"$1,250",Alexandria,VA,pac,Donation,D,497468,2026-07-16
-expenditure,2026-05-18,Harris Teeter,$11.10,Bristow,VA,pac,Staff Meals,D,497468,2026-07-16
-expenditure,2026-05-18,Harris Teeter,$13.12,Bristow,VA,pac,Staff Meals,D,497468,2026-07-16
-expenditure,2026-01-23,Virginia House of Delegates,$300,Richmond,VA,pac,Office Supplies,D,497468,2026-07-16
+expenditure,2026-02-09,Amazon,$22.23,Seattle,WA,business,Office Supplies,D,497468,2026-07-16
+expenditure,2026-04-27,Amazon,$42.39,Seattle,WA,business,Office Supplies,D,497468,2026-07-16
+expenditure,2026-05-12,Amazon,$60.39,Seattle,WA,business,Office Supplies,D,497468,2026-07-16
+expenditure,2026-02-11,La Sabrosita Baker,$137.80,Richmond,VA,business,Event Food,D,497468,2026-07-16
+expenditure,2026-02-18,Casa Del Barc,$216.34,Richmond,VA,business,Volunteer/Staff Meal,D,497468,2026-07-16
+expenditure,2026-02-23,Meta Platforms Inc.,$85,Menlo Park,CA,business,Digital Ads,D,497468,2026-07-16
+expenditure,2026-02-27,Meta Platforms Inc.,$85,Menlo Park,CA,business,Digital Ads,D,497468,2026-07-16
+expenditure,2026-03-02,Meta Platforms Inc.,$85,Menlo Park,CA,business,Digital Ads,D,497468,2026-07-16
+expenditure,2026-03-18,Meta Platforms Inc.,$36.91,Menlo Park,CA,business,Digital Ads,D,497468,2026-07-16
+expenditure,2026-03-06,Arlington County Democratic Committee,$310.75,Arlington,VA,business,Political Contributions,D,497468,2026-07-16
+expenditure,2026-03-10,VPAP,$250,Richmond,VA,business,Donation,D,497468,2026-07-16
+expenditure,2026-03-16,Uber Technologies Inc.,$182.32,San Francisco,CA,business,Staff Meal,D,497468,2026-07-16
+expenditure,2026-03-18,ActBlue,$250,Somerville,MA,business,Online fundraising platform fees,D,497468,2026-07-16
+expenditure,2026-03-30,ActBlue,$250,Somerville,MA,business,Online fundraising platform fees,D,497468,2026-07-16
+expenditure,2026-05-04,ActBlue,$350,Somerville,MA,business,Online fundraising platform fees,D,497468,2026-07-16
+expenditure,2026-05-26,ActBlue,$200,Somerville,MA,business,Online Fundraising Platform Fees,D,497468,2026-07-16
+expenditure,2026-05-26,ActBlue,$500,Somerville,MA,business,Online fundraising platform fees,D,497468,2026-07-16
+expenditure,2026-06-26,Prince William County Democratic Committee,$207.25,Manassas,VA,business,Political Contributions,D,497468,2026-07-16
+expenditure,2026-06-22,Lanier Parking,$10,Richmond,VA,business,Staff Parking,D,497468,2026-07-16
+expenditure,2026-04-21,"North Park Labs, Inc.",$20,San Francisco,CA,business,Website Design,D,497468,2026-07-16
+expenditure,2026-04-22,"North Park Labs, Inc.",$26.38,San Francisco,CA,business,Website Design,D,497468,2026-07-16
+expenditure,2026-05-21,"North Park Labs, Inc.",$21.40,San Francisco,CA,business,Website Design,D,497468,2026-07-16
+expenditure,2026-06-22,"North Park Labs, Inc.",$20,San Francisco,CA,business,Website Design,D,497468,2026-07-16
+expenditure,2026-06-22,"7-Eleven, Inc.",$18.66,Irving,TX,business,Travel/Meal Expenses,D,497468,2026-07-16
+expenditure,2026-04-03,"Gusto, Inc.",$55,San Francisco,CA,business,Gusto Payroll,D,497468,2026-07-16
+expenditure,2026-05-05,"Gusto, Inc.",$49,San Francisco,CA,business,Gusto Payroll,D,497468,2026-07-16
+expenditure,2026-06-02,"Gusto, Inc.",$49,San Francisco,CA,business,Gusto Payroll,D,497468,2026-07-16
+expenditure,2026-06-01,Ladd Convenience,$34.23,Waynesboro,VA,business,Travel/Meal Expenses,D,497468,2026-07-16
+expenditure,2026-05-26,REPRO Rising Virginia,"$1,250",Alexandria,VA,business,Donation,D,497468,2026-07-16
+expenditure,2026-05-18,Harris Teeter,$11.10,Bristow,VA,business,Staff Meals,D,497468,2026-07-16
+expenditure,2026-05-18,Harris Teeter,$13.12,Bristow,VA,business,Staff Meals,D,497468,2026-07-16
+expenditure,2026-01-23,Virginia House of Delegates,$300,Richmond,VA,business,Office Supplies,D,497468,2026-07-16

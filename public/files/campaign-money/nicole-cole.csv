@@ -3,18 +3,18 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$84,534.29",,VA,,"From official Schedule H, November 2025 election cycle",H,497037,2026-07-15
 summary,2026-06-30,Raised this cycle,"$2,597,470.74",,,,Total receipts this election cycle (Schedule H),H,497037,2026-07-15
 summary,2026-06-30,Spent this cycle,"$2,532,579.37",,,,Total disbursements this election cycle (Schedule H),H,497037,2026-07-15
-contribution,2025-12-01,"Allen, Allen, Allen, and Allen","$1,000",Richmond,VA,pac,,A,480021,2026-01-15
-contribution,2025-12-11,Betting on VA Jobs,"$2,000",Richmond,VA,pac,,A,480021,2026-01-15
+contribution,2025-12-01,"Allen, Allen, Allen, and Allen","$1,000",Richmond,VA,business,,A,480021,2026-01-15
+contribution,2025-12-11,Betting on VA Jobs,"$2,000",Richmond,VA,business,,A,480021,2026-01-15
 contribution,2025-11-30,Suzanne Bristow,$20,Glen Allen,VA,individual,,A,480021,2026-01-15
-contribution,2025-12-19,Capital Results LLC,$250,Richmond,VA,pac,,A,480021,2026-01-15
-contribution,2025-12-19,HCA for Good Government,"$2,500",Richmond,VA,pac,,A,480021,2026-01-15
+contribution,2025-12-19,Capital Results LLC,$250,Richmond,VA,business,,A,480021,2026-01-15
+contribution,2025-12-19,HCA for Good Government,"$2,500",Richmond,VA,business,,A,480021,2026-01-15
 contribution,2025-12-18,Anne Leigh Kerr,$200,Richmond,VA,individual,,A,480021,2026-01-15
 contribution,2025-12-03,Nohely Miranda Colon,$20,Fredericksburg,VA,individual,,A,480021,2026-01-15
-contribution,2025-12-05,VA Beverage Association,$750,Richmond,VA,pac,,A,480021,2026-01-15
-contribution,2025-12-05,VA Dental Association,"$1,000",Richmond,VA,pac,,A,480021,2026-01-15
-contribution,2025-12-05,VA Wine Wholesalers,"$1,000",Richmond,VA,pac,,A,480021,2026-01-15
+contribution,2025-12-05,VA Beverage Association,$750,Richmond,VA,business,,A,480021,2026-01-15
+contribution,2025-12-05,VA Dental Association,"$1,000",Richmond,VA,business,,A,480021,2026-01-15
+contribution,2025-12-05,VA Wine Wholesalers,"$1,000",Richmond,VA,business,,A,480021,2026-01-15
 contribution,2025-12-19,Virginia Preservation PAC,$250,Richmond,VA,pac,,A,480021,2026-01-15
-contribution,2026-06-17,Anheuser-Busch,$250,Van Nuys,CA,pac,,A,497037,2026-07-15
+contribution,2026-06-17,Anheuser-Busch,$250,Van Nuys,CA,business,,A,497037,2026-07-15
 contribution,2026-06-19,Mark Atkinson,$500,Beaverdam,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-30,April Bartley-Yates,$200,Glen Allen,VA,individual,,A,497037,2026-07-15
 contribution,2026-01-09,Alex Bastani,$166,Falls Church,VA,individual,,A,497037,2026-07-15
@@ -23,12 +23,12 @@ contribution,2026-01-11,Deborah Brittain,$500,Bonita Springs,FL,individual,,A,49
 contribution,2026-06-30,Deborah Brittain,"$2,500",Bonita Springs,FL,individual,,A,497037,2026-07-15
 contribution,2026-06-12,Elijah Brown,$480,Fredericksburg,VA,individual,,A,497037,2026-07-15
 contribution,2026-05-27,Michelle Caldwell Thompson,$240,Spotsylvania,VA,individual,,A,497037,2026-07-15
-contribution,2026-06-03,Capital Results LLC,$500,Richmond,VA,pac,,A,497037,2026-07-15
+contribution,2026-06-03,Capital Results LLC,$500,Richmond,VA,business,,A,497037,2026-07-15
 contribution,2026-06-15,Kevin O Carter,"$1,000",Mechanicsville,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-19,Mark Chalpin,$100,Spotsylvania,VA,individual,,A,497037,2026-07-15
-contribution,2026-04-18,Clean Virginia,"$5,000",Charlottesville,VA,pac,,A,497037,2026-07-15
-contribution,2026-05-26,Clean Virginia,"$2,000",Charlottesville,VA,pac,,A,497037,2026-07-15
-contribution,2026-06-26,Clean Virginia,"$25,000",Charlottesville,VA,pac,,A,497037,2026-07-15
+contribution,2026-04-18,Clean Virginia,"$5,000",Charlottesville,VA,business,,A,497037,2026-07-15
+contribution,2026-05-26,Clean Virginia,"$2,000",Charlottesville,VA,business,,A,497037,2026-07-15
+contribution,2026-06-26,Clean Virginia,"$25,000",Charlottesville,VA,business,,A,497037,2026-07-15
 contribution,2026-06-19,Maximilain Cole,$400,Fredericksburg,VA,individual,,A,497037,2026-07-15
 contribution,2026-01-12,Commercial Development Political Action Committee,$250,Alexandria,VA,pac,,A,497037,2026-07-15
 contribution,2026-05-22,Friends of Don Beyer,$500,Arlington,VA,individual,,A,497037,2026-07-15
@@ -40,8 +40,8 @@ contribution,2026-06-30,George Frazier,$250,Fredericksburg,VA,individual,,A,4970
 contribution,2026-05-19,Kathy Freise,$240,Beaverdam,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-19,Kathy Freise,$50,Beaverdam,VA,individual,,A,497037,2026-07-15
 contribution,2026-01-12,T Clintina Hankerson,$150,Spotsylvania,VA,individual,,A,497037,2026-07-15
-contribution,2026-06-17,Helmer for Virginia,$500,Clifton,VA,pac,,A,497037,2026-07-15
-contribution,2026-01-12,Hunton Andrews Kurth LLP,$500,Richmond,VA,pac,,A,497037,2026-07-15
+contribution,2026-06-17,Helmer for Virginia,$500,Clifton,VA,business,,A,497037,2026-07-15
+contribution,2026-01-12,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,A,497037,2026-07-15
 contribution,2026-01-13,IBEW PAC Voluntary Fund,"$1,000",Washington,DC,pac,,A,497037,2026-07-15
 contribution,2026-06-30,Dwight Jones,$125,Glen Allen,VA,individual,,A,497037,2026-07-15
 contribution,2026-05-25,Gibwa Kajubi,$120,Stevensville,MD,individual,,A,497037,2026-07-15
@@ -59,139 +59,139 @@ contribution,2026-05-13,Leonard Powell,$120,Hyattsville,MD,individual,,A,497037,
 contribution,2026-06-26,Sonia Price,$120,Alexandria,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-30,Randall Rashkow,"$1,000",Miami,FL,individual,,A,497037,2026-07-15
 contribution,2026-06-04,Graham Redfern,"$1,000",Ruther Glen,VA,individual,,A,497037,2026-07-15
-contribution,2026-01-13,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,pac,,A,497037,2026-07-15
+contribution,2026-01-13,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,business,,A,497037,2026-07-15
 contribution,2026-06-01,Wycessa Small,$120,Fredericksburg,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-09,Duane Smith,$120,Fredericksburg,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-19,Delisa Stuckey,$120,Glen Allen,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-16,Wilhelmina Sumpter,$100,Fredericksburg,VA,individual,,A,497037,2026-07-15
-contribution,2026-03-31,SWAY,"$10,221.86",Bethesda,MD,pac,,A,497037,2026-07-15
+contribution,2026-03-31,SWAY,"$10,221.86",Bethesda,MD,business,,A,497037,2026-07-15
 contribution,2026-06-07,Charles Tarlton,$240,Miami,FL,individual,,A,497037,2026-07-15
 contribution,2026-06-19,Barron Taylor,$150,Upper Marlboro,MD,individual,,A,497037,2026-07-15
 contribution,2026-06-01,Lisa Thompson,$120,Spotsylvania,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-17,Vindman for Congress,$500,Dumfries,VA,candidate,,A,497037,2026-07-15
 contribution,2026-01-12,Virginia Bankers Association State PAC,$500,Glen Allen,VA,pac,,A,497037,2026-07-15
 contribution,2026-06-17,Virginia CRNAs Who Care About Healthcare PAC,$500,Roanoke,VA,pac,,A,497037,2026-07-15
-contribution,2026-01-12,Virginia Health Care Association,"$1,000",Richmond,VA,pac,,A,497037,2026-07-15
+contribution,2026-01-12,Virginia Health Care Association,"$1,000",Richmond,VA,business,,A,497037,2026-07-15
 contribution,2026-01-12,Virginia Trial Lawyers Political Action Committee,"$2,000",Richmond,VA,pac,,A,497037,2026-07-15
 contribution,2026-06-30,Chris Wagner,$151,Fredericksburg,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-19,MALESIA Washington,$120,Fredericksburg,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-30,Lamar Williams,$500,Decatur,GA,individual,,A,497037,2026-07-15
 contribution,2026-06-19,Daniel Woodford,"$2,000",Gainesville,VA,individual,,A,497037,2026-07-15
 contribution,2026-06-19,Farley Wooldridge,$120,Chester,VA,individual,,A,497037,2026-07-15
-in_kind,2026-05-19,Clean Virginia,$49.47,Charlottesville,VA,pac,Meal,B,497037,2026-07-15
-in_kind,2026-05-22,Clean Virginia,$72,Charlottesville,VA,pac,Tech and tools,B,497037,2026-07-15
-in_kind,2026-04-28,Commonwealth Strategy Group,$212.03,Richmond,VA,pac,Event catering,B,497037,2026-07-15
-in_kind,2026-05-07,Nicole Cole Financial Services Group,$209,Fredericksburg,VA,pac,Tech and tools,B,497037,2026-07-15
-in_kind,2026-06-19,Nicole Cole Financial Services Group,$600,Fredericksburg,VA,pac,Event staffing,B,497037,2026-07-15
+in_kind,2026-05-19,Clean Virginia,$49.47,Charlottesville,VA,business,Meal,B,497037,2026-07-15
+in_kind,2026-05-22,Clean Virginia,$72,Charlottesville,VA,business,Tech and tools,B,497037,2026-07-15
+in_kind,2026-04-28,Commonwealth Strategy Group,$212.03,Richmond,VA,business,Event catering,B,497037,2026-07-15
+in_kind,2026-05-07,Nicole Cole Financial Services Group,$209,Fredericksburg,VA,business,Tech and tools,B,497037,2026-07-15
+in_kind,2026-06-19,Nicole Cole Financial Services Group,$600,Fredericksburg,VA,business,Event staffing,B,497037,2026-07-15
 in_kind,2026-01-27,Leonard Powell,$500,Hyattsville,MD,individual,Event ticket,B,497037,2026-07-15
 in_kind,2026-06-16,"Juan JD"""" Young","$1,086.75",Ruther Glen,VA,individual,Event entertainment,B,497037,2026-07-15
-expenditure,2025-11-28,Google,$0.49,Mountain View,CA,pac,storage,D,480021,2026-01-15
-expenditure,2025-11-29,Costco,$61.05,Fredericksburg,VA,pac,supplies,D,480021,2026-01-15
-expenditure,2025-11-30,ActBlue,$2.18,Somerville,MA,pac,fees,D,480021,2026-01-15
-expenditure,2025-12-02,Gusto,$500,San Francisco,CA,pac,payroll,D,480021,2026-01-15
-expenditure,2025-12-03,Gusto,$180,San Francisco,CA,pac,payroll admin fees,D,480021,2026-01-15
-expenditure,2025-12-18,FeMAIL,$120,Spotsylvania,VA,pac,PO Box/mailing costs.,D,480021,2026-01-15
-expenditure,2025-12-24,Reach Progress PBC,$200,New York,NY,pac,tools,D,480021,2026-01-15
-expenditure,2025-12-24,United States Postal Service,$390,Spotsylvania,VA,pac,postage,D,480021,2026-01-15
-expenditure,2025-12-28,Google,$1.99,Mountain View,CA,pac,storage,D,480021,2026-01-15
-expenditure,2025-12-31,NGPVan,$725,Washington,DC,pac,finance database,D,480021,2026-01-15
-expenditure,2026-01-05,Gusto,$120,San Francisco,CA,pac,payroll admin fees,D,497037,2026-07-15
-expenditure,2026-01-07,Gusto,$500,San Francisco,CA,pac,payroll system monthly charge,D,497037,2026-07-15
-expenditure,2026-01-08,Paperless inc.,$260,New York,NY,pac,Invitations,D,497037,2026-07-15
-expenditure,2026-01-11,ActBlue,$24.84,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-01-12,Topside Federal Credit Union,$25,Fredericksburg,VA,pac,wire transfer fee,D,497037,2026-07-15
+expenditure,2025-11-28,Google,$0.49,Mountain View,CA,business,storage,D,480021,2026-01-15
+expenditure,2025-11-29,Costco,$61.05,Fredericksburg,VA,business,supplies,D,480021,2026-01-15
+expenditure,2025-11-30,ActBlue,$2.18,Somerville,MA,business,fees,D,480021,2026-01-15
+expenditure,2025-12-02,Gusto,$500,San Francisco,CA,business,payroll,D,480021,2026-01-15
+expenditure,2025-12-03,Gusto,$180,San Francisco,CA,business,payroll admin fees,D,480021,2026-01-15
+expenditure,2025-12-18,FeMAIL,$120,Spotsylvania,VA,business,PO Box/mailing costs.,D,480021,2026-01-15
+expenditure,2025-12-24,Reach Progress PBC,$200,New York,NY,business,tools,D,480021,2026-01-15
+expenditure,2025-12-24,United States Postal Service,$390,Spotsylvania,VA,business,postage,D,480021,2026-01-15
+expenditure,2025-12-28,Google,$1.99,Mountain View,CA,business,storage,D,480021,2026-01-15
+expenditure,2025-12-31,NGPVan,$725,Washington,DC,business,finance database,D,480021,2026-01-15
+expenditure,2026-01-05,Gusto,$120,San Francisco,CA,business,payroll admin fees,D,497037,2026-07-15
+expenditure,2026-01-07,Gusto,$500,San Francisco,CA,business,payroll system monthly charge,D,497037,2026-07-15
+expenditure,2026-01-08,Paperless inc.,$260,New York,NY,business,Invitations,D,497037,2026-07-15
+expenditure,2026-01-11,ActBlue,$24.84,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-01-12,Topside Federal Credit Union,$25,Fredericksburg,VA,business,wire transfer fee,D,497037,2026-07-15
 expenditure,2026-01-13,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,VHDC 2026 Dues,D,497037,2026-07-15
-expenditure,2026-01-21,New York State Workers' Compensation Board,$67.66,Binghamton,NY,pac,NYS Workers' Comp Penalty Payment,D,497037,2026-07-15
-expenditure,2026-01-24,Reach Progress PBC,$230,New York,NY,pac,Relational Organizing Tool,D,497037,2026-07-15
-expenditure,2026-01-28,Google,$1.99,Mountain View,CA,pac,Storage,D,497037,2026-07-15
-expenditure,2026-01-31,Dawn Community Bakery & Cafe,$437.20,Hanover,VA,pac,Swearing In Cakes/Dessert/Food,D,497037,2026-07-15
-expenditure,2026-02-02,NGPVan,$362.50,Washington,DC,pac,tools,D,497037,2026-07-15
-expenditure,2026-02-04,Gusto,$150,San Francisco,CA,pac,payroll system monthly charge,D,497037,2026-07-15
-expenditure,2026-02-10,New York State Workers' Compensation Board,$103.61,Binghamton,NY,pac,NYS Workers' Comp Penalty Payment,D,497037,2026-07-15
-expenditure,2026-02-11,Dawn Community Bakery & Cafe,$64.64,Hanover,VA,pac,Breakfast for Pages,D,497037,2026-07-15
-expenditure,2026-02-13,World Market,$38.61,Fredericksburg,VA,pac,Valentine's Day,D,497037,2026-07-15
-expenditure,2026-02-16,Amazon.com,$367.82,Seattle,WA,pac,office supplies,D,497037,2026-07-15
-expenditure,2026-02-24,Reach Progress PBC,$230,New York,NY,pac,Relational Organizing Tool,D,497037,2026-07-15
-expenditure,2026-02-27,Virginia House of Delegates,$50,Richmond,VA,pac,Meals,D,497037,2026-07-15
-expenditure,2026-03-01,Google,$1.99,Mountain View,CA,pac,Storage,D,497037,2026-07-15
-expenditure,2026-03-02,NGPVan,$362.50,Washington,DC,pac,tools,D,497037,2026-07-15
-expenditure,2026-03-04,Gusto,$120,San Francisco,CA,pac,payroll system monthly charge,D,497037,2026-07-15
-expenditure,2026-03-09,NGPVan,$362.50,Washington,DC,pac,tools,D,497037,2026-07-15
-expenditure,2026-03-12,Gusto,"$1,686.81",San Francisco,CA,pac,Alex Oliver,D,497037,2026-07-15
-expenditure,2026-03-12,Virginia Legislative Black Caucus,"$1,500",Richmond,VA,pac,VLBC 2026 Session Dues,D,497037,2026-07-15
-expenditure,2026-03-13,Dawn Community Bakery & Cafe,$33.34,Hanover,VA,pac,EOS Meal,D,497037,2026-07-15
-expenditure,2026-03-18,ActBlue,$0.05,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-03-24,Reach Progress PBC,$230,New York,NY,pac,Relational Organizing Tool,D,497037,2026-07-15
-expenditure,2026-03-28,Google,$1.99,Mountain View,CA,pac,Storage,D,497037,2026-07-15
-expenditure,2026-04-01,ActBlue,$9.88,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-04-03,Gusto,$120,San Francisco,CA,pac,payroll system monthly charge,D,497037,2026-07-15
+expenditure,2026-01-21,New York State Workers' Compensation Board,$67.66,Binghamton,NY,business,NYS Workers' Comp Penalty Payment,D,497037,2026-07-15
+expenditure,2026-01-24,Reach Progress PBC,$230,New York,NY,business,Relational Organizing Tool,D,497037,2026-07-15
+expenditure,2026-01-28,Google,$1.99,Mountain View,CA,business,Storage,D,497037,2026-07-15
+expenditure,2026-01-31,Dawn Community Bakery & Cafe,$437.20,Hanover,VA,business,Swearing In Cakes/Dessert/Food,D,497037,2026-07-15
+expenditure,2026-02-02,NGPVan,$362.50,Washington,DC,business,tools,D,497037,2026-07-15
+expenditure,2026-02-04,Gusto,$150,San Francisco,CA,business,payroll system monthly charge,D,497037,2026-07-15
+expenditure,2026-02-10,New York State Workers' Compensation Board,$103.61,Binghamton,NY,business,NYS Workers' Comp Penalty Payment,D,497037,2026-07-15
+expenditure,2026-02-11,Dawn Community Bakery & Cafe,$64.64,Hanover,VA,business,Breakfast for Pages,D,497037,2026-07-15
+expenditure,2026-02-13,World Market,$38.61,Fredericksburg,VA,business,Valentine's Day,D,497037,2026-07-15
+expenditure,2026-02-16,Amazon.com,$367.82,Seattle,WA,business,office supplies,D,497037,2026-07-15
+expenditure,2026-02-24,Reach Progress PBC,$230,New York,NY,business,Relational Organizing Tool,D,497037,2026-07-15
+expenditure,2026-02-27,Virginia House of Delegates,$50,Richmond,VA,business,Meals,D,497037,2026-07-15
+expenditure,2026-03-01,Google,$1.99,Mountain View,CA,business,Storage,D,497037,2026-07-15
+expenditure,2026-03-02,NGPVan,$362.50,Washington,DC,business,tools,D,497037,2026-07-15
+expenditure,2026-03-04,Gusto,$120,San Francisco,CA,business,payroll system monthly charge,D,497037,2026-07-15
+expenditure,2026-03-09,NGPVan,$362.50,Washington,DC,business,tools,D,497037,2026-07-15
+expenditure,2026-03-12,Gusto,"$1,686.81",San Francisco,CA,business,Alex Oliver,D,497037,2026-07-15
+expenditure,2026-03-12,Virginia Legislative Black Caucus,"$1,500",Richmond,VA,business,VLBC 2026 Session Dues,D,497037,2026-07-15
+expenditure,2026-03-13,Dawn Community Bakery & Cafe,$33.34,Hanover,VA,business,EOS Meal,D,497037,2026-07-15
+expenditure,2026-03-18,ActBlue,$0.05,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-03-24,Reach Progress PBC,$230,New York,NY,business,Relational Organizing Tool,D,497037,2026-07-15
+expenditure,2026-03-28,Google,$1.99,Mountain View,CA,business,Storage,D,497037,2026-07-15
+expenditure,2026-04-01,ActBlue,$9.88,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-04-03,Gusto,$120,San Francisco,CA,business,payroll system monthly charge,D,497037,2026-07-15
 expenditure,2026-04-03,Chuck Moran,$28.75,Charlottesville,VA,individual,yard signs,D,497037,2026-07-15
-expenditure,2026-04-06,NGPVan,$362.50,Washington,DC,pac,tools,D,497037,2026-07-15
-expenditure,2026-04-19,Amazon.com,$31.56,Seattle,WA,pac,Certificate holders,D,497037,2026-07-15
-expenditure,2026-04-24,Dementi Studio,$404.92,Richmond,VA,pac,Composite Photos,D,497037,2026-07-15
-expenditure,2026-04-24,Reach Progress PBC,$230,New York,NY,pac,Relational Organizing Tool,D,497037,2026-07-15
-expenditure,2026-04-25,Michael's,$123.67,Fredericksburg,VA,pac,Frames,D,497037,2026-07-15
-expenditure,2026-04-26,Michael's,$25.04,Fredericksburg,VA,pac,Frames,D,497037,2026-07-15
-expenditure,2026-04-28,Wegman's,$86.63,Fredericksburg,VA,pac,Event food/bev,D,497037,2026-07-15
-expenditure,2026-04-29,New York State Workers' Compensation Board,$224.67,Binghamton,NY,pac,NYS Workers' Comp Penalty Payment,D,497037,2026-07-15
-expenditure,2026-05-05,Gusto,$120,San Francisco,CA,pac,payroll system monthly charge,D,497037,2026-07-15
-expenditure,2026-05-07,District of Columbia Office of Tax and Revenue,$84.61,Washington,DC,pac,Withholding Wage Tax DC OTR,D,497037,2026-07-15
-expenditure,2026-05-07,Gusto,$750,San Francisco,CA,pac,payroll comms manager,D,497037,2026-07-15
-expenditure,2026-05-07,Gusto,$193.94,San Francisco,CA,pac,payroll taxes,D,497037,2026-07-15
-expenditure,2026-05-07,PrintersMark,$939.65,Richmond,VA,pac,End of campaign/election day,D,497037,2026-07-15
-expenditure,2026-05-08,District of Columbia Department of Employment Services,$100,Washington,DC,pac,PFL DC,D,497037,2026-07-15
-expenditure,2026-05-08,District of Columbia Department of Employment Services,$261,Washington,DC,pac,DC UI penalty,D,497037,2026-07-15
-expenditure,2026-05-08,District of Columbia Department of Employment Services,$401,Washington,DC,pac,PFL DC,D,497037,2026-07-15
-expenditure,2026-05-08,New York State Workers' Compensation Board,$573.60,Binghamton,NY,pac,NYS UI,D,497037,2026-07-15
-expenditure,2026-05-11,National Caucus of Environmental Legislators,$250,Washington,DC,pac,Conf Registration,D,497037,2026-07-15
-expenditure,2026-05-11,New York State Workers' Compensation Board,$0.45,Binghamton,NY,pac,NYS UI,D,497037,2026-07-15
-expenditure,2026-05-11,NGPVan,$362.50,Washington,DC,pac,Tools,D,497037,2026-07-15
-expenditure,2026-05-12,ActBlue,$39.50,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-12,Amazon.com,$13.05,Seattle,WA,pac,Commending resolution frame,D,497037,2026-07-15
-expenditure,2026-05-13,ActBlue,$4.74,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-14,DoorDash,$37.57,San Francisco,CA,pac,Team meal,D,497037,2026-07-15
-expenditure,2026-05-17,ActBlue,$2.57,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-18,ActBlue,$3.95,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-19,ActBlue,$9.48,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-20,ActBlue,$9.88,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-21,ActBlue,$2.57,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-24,ActBlue,$24.89,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-24,Reach Progress PBC,$230,New York,NY,pac,Relational Organizing Tool,D,497037,2026-07-15
-expenditure,2026-05-25,ActBlue,$9.88,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-26,ActBlue,$2.57,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-27,ActBlue,$9.48,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-27,OpenSecrets,$40,Washington,DC,pac,Fundraising tool,D,497037,2026-07-15
-expenditure,2026-05-31,ActBlue,$4.55,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-05-31,FedEx Office Print & Ship Center,$22.10,Fredericksburg,VA,pac,Juneteenth 2026: tabletents,D,497037,2026-07-15
-expenditure,2026-06-01,ActBlue,$9.48,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-02,Amazon.com,$22.10,Seattle,WA,pac,Frames,D,497037,2026-07-15
-expenditure,2026-06-02,Gusto,$120,San Francisco,CA,pac,payroll system monthly charge,D,497037,2026-07-15
+expenditure,2026-04-06,NGPVan,$362.50,Washington,DC,business,tools,D,497037,2026-07-15
+expenditure,2026-04-19,Amazon.com,$31.56,Seattle,WA,business,Certificate holders,D,497037,2026-07-15
+expenditure,2026-04-24,Dementi Studio,$404.92,Richmond,VA,business,Composite Photos,D,497037,2026-07-15
+expenditure,2026-04-24,Reach Progress PBC,$230,New York,NY,business,Relational Organizing Tool,D,497037,2026-07-15
+expenditure,2026-04-25,Michael's,$123.67,Fredericksburg,VA,business,Frames,D,497037,2026-07-15
+expenditure,2026-04-26,Michael's,$25.04,Fredericksburg,VA,business,Frames,D,497037,2026-07-15
+expenditure,2026-04-28,Wegman's,$86.63,Fredericksburg,VA,business,Event food/bev,D,497037,2026-07-15
+expenditure,2026-04-29,New York State Workers' Compensation Board,$224.67,Binghamton,NY,business,NYS Workers' Comp Penalty Payment,D,497037,2026-07-15
+expenditure,2026-05-05,Gusto,$120,San Francisco,CA,business,payroll system monthly charge,D,497037,2026-07-15
+expenditure,2026-05-07,District of Columbia Office of Tax and Revenue,$84.61,Washington,DC,business,Withholding Wage Tax DC OTR,D,497037,2026-07-15
+expenditure,2026-05-07,Gusto,$750,San Francisco,CA,business,payroll comms manager,D,497037,2026-07-15
+expenditure,2026-05-07,Gusto,$193.94,San Francisco,CA,business,payroll taxes,D,497037,2026-07-15
+expenditure,2026-05-07,PrintersMark,$939.65,Richmond,VA,business,End of campaign/election day,D,497037,2026-07-15
+expenditure,2026-05-08,District of Columbia Department of Employment Services,$100,Washington,DC,business,PFL DC,D,497037,2026-07-15
+expenditure,2026-05-08,District of Columbia Department of Employment Services,$261,Washington,DC,business,DC UI penalty,D,497037,2026-07-15
+expenditure,2026-05-08,District of Columbia Department of Employment Services,$401,Washington,DC,business,PFL DC,D,497037,2026-07-15
+expenditure,2026-05-08,New York State Workers' Compensation Board,$573.60,Binghamton,NY,business,NYS UI,D,497037,2026-07-15
+expenditure,2026-05-11,National Caucus of Environmental Legislators,$250,Washington,DC,business,Conf Registration,D,497037,2026-07-15
+expenditure,2026-05-11,New York State Workers' Compensation Board,$0.45,Binghamton,NY,business,NYS UI,D,497037,2026-07-15
+expenditure,2026-05-11,NGPVan,$362.50,Washington,DC,business,Tools,D,497037,2026-07-15
+expenditure,2026-05-12,ActBlue,$39.50,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-12,Amazon.com,$13.05,Seattle,WA,business,Commending resolution frame,D,497037,2026-07-15
+expenditure,2026-05-13,ActBlue,$4.74,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-14,DoorDash,$37.57,San Francisco,CA,business,Team meal,D,497037,2026-07-15
+expenditure,2026-05-17,ActBlue,$2.57,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-18,ActBlue,$3.95,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-19,ActBlue,$9.48,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-20,ActBlue,$9.88,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-21,ActBlue,$2.57,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-24,ActBlue,$24.89,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-24,Reach Progress PBC,$230,New York,NY,business,Relational Organizing Tool,D,497037,2026-07-15
+expenditure,2026-05-25,ActBlue,$9.88,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-26,ActBlue,$2.57,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-27,ActBlue,$9.48,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-27,OpenSecrets,$40,Washington,DC,business,Fundraising tool,D,497037,2026-07-15
+expenditure,2026-05-31,ActBlue,$4.55,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-05-31,FedEx Office Print & Ship Center,$22.10,Fredericksburg,VA,business,Juneteenth 2026: tabletents,D,497037,2026-07-15
+expenditure,2026-06-01,ActBlue,$9.48,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-02,Amazon.com,$22.10,Seattle,WA,business,Frames,D,497037,2026-07-15
+expenditure,2026-06-02,Gusto,$120,San Francisco,CA,business,payroll system monthly charge,D,497037,2026-07-15
 expenditure,2026-06-02,ReProRising Virginia PAC,$225,Alexandria,VA,pac,Event ticket,D,497037,2026-07-15
-expenditure,2026-06-03,ActBlue,$3.95,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-03,Gusto,"$2,660.92",San Francisco,CA,pac,payroll comms manager,D,497037,2026-07-15
-expenditure,2026-06-03,Gusto,"$1,215.86",San Francisco,CA,pac,payroll taxes,D,497037,2026-07-15
-expenditure,2026-06-03,New York State Workers' Compensation Board,$67.66,Binghamton,NY,pac,NYS UI,D,497037,2026-07-15
-expenditure,2026-06-04,ActBlue,$42.07,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-05,ActBlue,$75,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-07,ActBlue,$14.22,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-08,NGPVan,$362.50,Washington,DC,pac,Tools,D,497037,2026-07-15
-expenditure,2026-06-09,ActBlue,$4.74,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-10,ActBlue,$2.57,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-11,ActBlue,$0.99,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-12,Vistaprint/Vista Corporate Solutions,$787.59,Waltham,MA,pac,Set & Repeat,D,497037,2026-07-15
-expenditure,2026-06-14,ActBlue,$25.48,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-15,ActBlue,$44.64,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-16,ActBlue,$6.52,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-17,ActBlue,$61.82,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-17,Dollar Tree,$39.49,Fredericksburg,VA,pac,Juneteenth 2026: Tablecloths,D,497037,2026-07-15
-expenditure,2026-06-17,FedEx Office Print & Ship Center,$50.81,Fredericksburg,VA,pac,Juneteenth 2026: certificate printing,D,497037,2026-07-15
-expenditure,2026-06-18,ActBlue,$12.25,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-18,FeMAIL,$120,Spotsylvania,VA,pac,6 months mailbox rental,D,497037,2026-07-15
-expenditure,2026-06-18,Walmart,$78.24,Fredericksburg,VA,pac,Frames,D,497037,2026-07-15
-expenditure,2026-06-20,FedEx Office Print & Ship Center,$15.53,Fredericksburg,VA,pac,Juneteenth 2026: certificate printing,D,497037,2026-07-15
-expenditure,2026-06-20,FedEx Office Print & Ship Center,$28.75,Fredericksburg,VA,pac,Juneteenth 2026: program printing,D,497037,2026-07-15
-expenditure,2026-06-21,ActBlue,$119.51,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-24,Reach Progress PBC,$230,New York,NY,pac,Relational Organizing Tool,D,497037,2026-07-15
-expenditure,2026-06-28,ActBlue,$13.63,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-29,ActBlue,$14.91,Somerville,MA,pac,fees,D,497037,2026-07-15
-expenditure,2026-06-30,ActBlue,$197.03,Somerville,MA,pac,fees,D,497037,2026-07-15
+expenditure,2026-06-03,ActBlue,$3.95,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-03,Gusto,"$2,660.92",San Francisco,CA,business,payroll comms manager,D,497037,2026-07-15
+expenditure,2026-06-03,Gusto,"$1,215.86",San Francisco,CA,business,payroll taxes,D,497037,2026-07-15
+expenditure,2026-06-03,New York State Workers' Compensation Board,$67.66,Binghamton,NY,business,NYS UI,D,497037,2026-07-15
+expenditure,2026-06-04,ActBlue,$42.07,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-05,ActBlue,$75,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-07,ActBlue,$14.22,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-08,NGPVan,$362.50,Washington,DC,business,Tools,D,497037,2026-07-15
+expenditure,2026-06-09,ActBlue,$4.74,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-10,ActBlue,$2.57,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-11,ActBlue,$0.99,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-12,Vistaprint/Vista Corporate Solutions,$787.59,Waltham,MA,business,Set & Repeat,D,497037,2026-07-15
+expenditure,2026-06-14,ActBlue,$25.48,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-15,ActBlue,$44.64,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-16,ActBlue,$6.52,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-17,ActBlue,$61.82,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-17,Dollar Tree,$39.49,Fredericksburg,VA,business,Juneteenth 2026: Tablecloths,D,497037,2026-07-15
+expenditure,2026-06-17,FedEx Office Print & Ship Center,$50.81,Fredericksburg,VA,business,Juneteenth 2026: certificate printing,D,497037,2026-07-15
+expenditure,2026-06-18,ActBlue,$12.25,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-18,FeMAIL,$120,Spotsylvania,VA,business,6 months mailbox rental,D,497037,2026-07-15
+expenditure,2026-06-18,Walmart,$78.24,Fredericksburg,VA,business,Frames,D,497037,2026-07-15
+expenditure,2026-06-20,FedEx Office Print & Ship Center,$15.53,Fredericksburg,VA,business,Juneteenth 2026: certificate printing,D,497037,2026-07-15
+expenditure,2026-06-20,FedEx Office Print & Ship Center,$28.75,Fredericksburg,VA,business,Juneteenth 2026: program printing,D,497037,2026-07-15
+expenditure,2026-06-21,ActBlue,$119.51,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-24,Reach Progress PBC,$230,New York,NY,business,Relational Organizing Tool,D,497037,2026-07-15
+expenditure,2026-06-28,ActBlue,$13.63,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-29,ActBlue,$14.91,Somerville,MA,business,fees,D,497037,2026-07-15
+expenditure,2026-06-30,ActBlue,$197.03,Somerville,MA,business,fees,D,497037,2026-07-15

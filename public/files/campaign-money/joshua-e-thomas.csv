@@ -11,16 +11,16 @@ contribution,2025-12-01,Sue Peri,$25.25,Davis,CA,individual,,A,480344,2026-01-15
 contribution,2025-12-31,Scott Plein,"$1,000",Bristow,VA,individual,,A,480344,2026-01-15
 contribution,2025-12-16,Madonna K Starr,$10,New York,NY,individual,,A,480344,2026-01-15
 contribution,2025-12-23,James Wetzel,$20,Midlothian,VA,individual,,A,480344,2026-01-15
-contribution,2026-06-22,Altria Client Services,"$1,000",Richmond,VA,pac,,A,497040,2026-07-15
-contribution,2026-06-22,Anheuser Busch,"$1,000",Washington,DC,pac,,A,497040,2026-07-15
-contribution,2026-01-09,Arrow International,$500,Cleveland,OH,pac,,A,497040,2026-07-15
+contribution,2026-06-22,Altria Client Services,"$1,000",Richmond,VA,business,,A,497040,2026-07-15
+contribution,2026-06-22,Anheuser Busch,"$1,000",Washington,DC,business,,A,497040,2026-07-15
+contribution,2026-01-09,Arrow International,$500,Cleveland,OH,business,,A,497040,2026-07-15
 contribution,2026-06-22,Elizabeth Chapman,$500,Virginia Beach,VA,individual,,A,497040,2026-07-15
 contribution,2026-04-17,Clean Virginia,"$7,500",Charlottesville,VA,pac,,A,497040,2026-07-15
 contribution,2026-05-05,Danna Flaherty,$500,Henrico,VA,individual,,A,497040,2026-07-15
-contribution,2026-06-22,Fraim & Fiorella,"$1,000",Norfolk,VA,pac,,A,497040,2026-07-15
+contribution,2026-06-22,Fraim & Fiorella,"$1,000",Norfolk,VA,business,,A,497040,2026-07-15
 contribution,2026-06-22,Jessica Francis,$250,Manassas,VA,individual,,A,497040,2026-07-15
-contribution,2026-06-22,Franklin Group,"$5,000",Virginia Beach,VA,pac,,A,497040,2026-07-15
-contribution,2026-06-30,Frederick Business District LLC,"$2,000",Windsor Mill,MD,pac,,A,497040,2026-07-15
+contribution,2026-06-22,Franklin Group,"$5,000",Virginia Beach,VA,business,,A,497040,2026-07-15
+contribution,2026-06-30,Frederick Business District LLC,"$2,000",Windsor Mill,MD,business,,A,497040,2026-07-15
 contribution,2026-01-07,Charles Grymes,$500,Manassas,VA,individual,,A,497040,2026-07-15
 contribution,2026-06-30,HBAV Build PAC,"$10,000",Richmond,VA,pac,,A,497040,2026-07-15
 contribution,2026-06-22,Worth Jenkins,"$2,000",Leesburg,VA,individual,,A,497040,2026-07-15
@@ -31,26 +31,26 @@ contribution,2026-06-03,Mary Kitchen,$100,Vienna,VA,individual,,A,497040,2026-07
 contribution,2026-06-22,Noah Klein,$300,Fairfax,VA,individual,,A,497040,2026-07-15
 contribution,2026-06-22,John Lynch,$250,Cherry Hill,NJ,individual,,A,497040,2026-07-15
 contribution,2026-01-09,Metro Virginia PAC,$500,Washington,DC,pac,,A,497040,2026-07-15
-contribution,2026-06-22,Multifamily Development LLC,"$2,500",Norfolk,VA,pac,,A,497040,2026-07-15
+contribution,2026-06-22,Multifamily Development LLC,"$2,500",Norfolk,VA,business,,A,497040,2026-07-15
 contribution,2026-05-06,Scott Plein,"$2,500",Bristow,VA,individual,,A,497040,2026-07-15
-contribution,2026-01-13,Prosperity Holdings LLC,"$2,460",Roanoke,VA,pac,,A,497040,2026-07-15
+contribution,2026-01-13,Prosperity Holdings LLC,"$2,460",Roanoke,VA,business,,A,497040,2026-07-15
 contribution,2026-05-19,saifaldin Rahman,"$2,500",Falls Church,VA,individual,,A,497040,2026-07-15
-contribution,2026-06-30,Stanley Martin Homes,"$2,500",Reston,VA,pac,,A,497040,2026-07-15
+contribution,2026-06-30,Stanley Martin Homes,"$2,500",Reston,VA,business,,A,497040,2026-07-15
 contribution,2026-06-16,Brian Staub,"$2,500",Virginia Beach,VA,individual,,A,497040,2026-07-15
-expenditure,2025-11-30,Wells Fargo,$25,Gainesville,VA,pac,Bank Fees,D,480344,2026-01-15
-expenditure,2025-12-02,Gusto,$280,San Francisco,CA,pac,Payroll Services,D,480344,2026-01-15
-expenditure,2025-12-03,ActBlue,$0.30,Somerville,MA,pac,Credit Card Processing Fees,D,480344,2026-01-15
+expenditure,2025-11-30,Wells Fargo,$25,Gainesville,VA,business,Bank Fees,D,480344,2026-01-15
+expenditure,2025-12-02,Gusto,$280,San Francisco,CA,business,Payroll Services,D,480344,2026-01-15
+expenditure,2025-12-03,ActBlue,$0.30,Somerville,MA,business,Credit Card Processing Fees,D,480344,2026-01-15
 expenditure,2025-12-03,Dorothea Leicher,$5,Columbia Cross Roads,PA,individual,Refund,D,480344,2026-01-15
 expenditure,2025-12-03,Jeremy Mader,$25,Sterling,VA,individual,Refund,D,480344,2026-01-15
 expenditure,2025-12-03,Denise Montgomery,$20.84,Staunton,VA,individual,Refund,D,480344,2026-01-15
 expenditure,2025-12-03,Robert Nutter,$100,Arlington,VA,individual,Refund,D,480344,2026-01-15
 expenditure,2025-12-03,Edward Suter,$50,Haymarket,VA,individual,Refund,D,480344,2026-01-15
-expenditure,2025-12-09,Prosperity Holdings LLC,"$3,000",Roanoke,VA,pac,Office Space,D,480344,2026-01-15
-expenditure,2025-12-10,ActBlue,$0.40,Somerville,MA,pac,Credit Card Processing Fees,D,480344,2026-01-15
-expenditure,2025-12-11,Helmer for Virginia,"$3,500",Clifton,VA,pac,Contribution,D,480344,2026-01-15
-expenditure,2025-12-11,Secure Progress,$500,Fairfax Station,VA,pac,Contribution,D,480344,2026-01-15
-expenditure,2025-12-11,Wells Fargo,$50,Gainesville,VA,pac,Bank Fees,D,480344,2026-01-15
-expenditure,2025-12-17,ActBlue,$0.60,Somerville,MA,pac,Credit Card Processing Fees,D,480344,2026-01-15
+expenditure,2025-12-09,Prosperity Holdings LLC,"$3,000",Roanoke,VA,business,Office Space,D,480344,2026-01-15
+expenditure,2025-12-10,ActBlue,$0.40,Somerville,MA,business,Credit Card Processing Fees,D,480344,2026-01-15
+expenditure,2025-12-11,Helmer for Virginia,"$3,500",Clifton,VA,business,Contribution,D,480344,2026-01-15
+expenditure,2025-12-11,Secure Progress,$500,Fairfax Station,VA,business,Contribution,D,480344,2026-01-15
+expenditure,2025-12-11,Wells Fargo,$50,Gainesville,VA,business,Bank Fees,D,480344,2026-01-15
+expenditure,2025-12-17,ActBlue,$0.60,Somerville,MA,business,Credit Card Processing Fees,D,480344,2026-01-15
 expenditure,2025-12-18,Bodhi Bryan Roig,$686.76,Gainesville,VA,individual,$686.76,D,480344,2026-01-15
 expenditure,2025-12-18,Brianna Castro,$478.59,Gainesville,VA,individual,Payroll,D,480344,2026-01-15
 expenditure,2025-12-18,Yuva Pranav Chandana,$502.72,Gainesville,VA,individual,Payroll,D,480344,2026-01-15
@@ -58,115 +58,115 @@ expenditure,2025-12-18,Aidan Cowlinshaw,$859.65,Fairfax,VA,individual,Payroll,D,
 expenditure,2025-12-18,Olivia Dupree,"$5,287.73",Gainesville,VA,individual,Payroll,D,480344,2026-01-15
 expenditure,2025-12-18,Israa Elhiraika,$513.70,Gainesville,VA,individual,Payroll,D,480344,2026-01-15
 expenditure,2025-12-18,Otto Escobar,$855.78,Gainesville,VA,individual,Payroll,D,480344,2026-01-15
-expenditure,2025-12-18,Gusto,"$7,675.54",San Francisco,CA,pac,Payroll Taxes,D,480344,2026-01-15
+expenditure,2025-12-18,Gusto,"$7,675.54",San Francisco,CA,business,Payroll Taxes,D,480344,2026-01-15
 expenditure,2025-12-18,Akalroop Kaur,$426.27,Gainesville,VA,individual,Payroll,D,480344,2026-01-15
 expenditure,2025-12-18,Gabrielle Peterson,"$5,174.73",Gainesville,VA,individual,Payroll,D,480344,2026-01-15
 expenditure,2025-12-18,Malaika Rehman,$99.73,Gainesville,VA,individual,Payroll,D,480344,2026-01-15
 expenditure,2025-12-18,Brandon Williams,$573.45,Gainesville,VA,individual,Payroll,D,480344,2026-01-15
 expenditure,2025-12-18,Gabriel Yossick,$861.58,Gainesville,VA,individual,Payroll,D,480344,2026-01-15
-expenditure,2025-12-23,Adobe,$34.49,San Jose,CA,pac,Software,D,480344,2026-01-15
-expenditure,2025-12-23,AT&T,$47.39,Dallas,TX,pac,Internet Services,D,480344,2026-01-15
-expenditure,2025-12-23,Bluehost,$15.99,Jacksonville,FL,pac,Web Hosting,D,480344,2026-01-15
-expenditure,2025-12-23,House of Delegates,$46,Richmond,VA,pac,Office Supplies,D,480344,2026-01-15
-expenditure,2025-12-23,Squarespace,$117.60,New York,NY,pac,Software,D,480344,2026-01-15
-expenditure,2025-12-24,ActBlue,$1.39,Somerville,MA,pac,Credit Card Processing Fees,D,480344,2026-01-15
-expenditure,2025-12-29,Friends of Luke Torian,"$1,000",Dumfries,VA,pac,Contribution,D,480344,2026-01-15
-expenditure,2025-12-29,Helmer for Virginia,$500,Clifton,VA,pac,Contribution,D,480344,2026-01-15
-expenditure,2025-12-29,Secure Progress,"$2,500",Fairfax Station,VA,pac,Contribution,D,480344,2026-01-15
-expenditure,2025-12-29,Wells Fargo,$75,Gainesville,VA,pac,Bank Fees,D,480344,2026-01-15
-expenditure,2025-12-31,ActBlue,$39.59,Somerville,MA,pac,Credit Card Processing Fees,D,480344,2026-01-15
-expenditure,2025-12-31,NGP VAN,$356.16,Washington,DC,pac,Software,D,480344,2026-01-15
-expenditure,2026-01-05,Gusto,$340,San Francisco,CA,pac,Payroll Fee,D,497040,2026-07-15
-expenditure,2026-01-07,ActBlue,$24.10,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-01-13,ActBlue,$0.20,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2025-12-23,Adobe,$34.49,San Jose,CA,business,Software,D,480344,2026-01-15
+expenditure,2025-12-23,AT&T,$47.39,Dallas,TX,business,Internet Services,D,480344,2026-01-15
+expenditure,2025-12-23,Bluehost,$15.99,Jacksonville,FL,business,Web Hosting,D,480344,2026-01-15
+expenditure,2025-12-23,House of Delegates,$46,Richmond,VA,business,Office Supplies,D,480344,2026-01-15
+expenditure,2025-12-23,Squarespace,$117.60,New York,NY,business,Software,D,480344,2026-01-15
+expenditure,2025-12-24,ActBlue,$1.39,Somerville,MA,business,Credit Card Processing Fees,D,480344,2026-01-15
+expenditure,2025-12-29,Friends of Luke Torian,"$1,000",Dumfries,VA,business,Contribution,D,480344,2026-01-15
+expenditure,2025-12-29,Helmer for Virginia,$500,Clifton,VA,business,Contribution,D,480344,2026-01-15
+expenditure,2025-12-29,Secure Progress,"$2,500",Fairfax Station,VA,business,Contribution,D,480344,2026-01-15
+expenditure,2025-12-29,Wells Fargo,$75,Gainesville,VA,business,Bank Fees,D,480344,2026-01-15
+expenditure,2025-12-31,ActBlue,$39.59,Somerville,MA,business,Credit Card Processing Fees,D,480344,2026-01-15
+expenditure,2025-12-31,NGP VAN,$356.16,Washington,DC,business,Software,D,480344,2026-01-15
+expenditure,2026-01-05,Gusto,$340,San Francisco,CA,business,Payroll Fee,D,497040,2026-07-15
+expenditure,2026-01-07,ActBlue,$24.10,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-01-13,ActBlue,$0.20,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
 expenditure,2026-01-13,Aidan Cowlinshaw,"$1,870.85",Fairfax,VA,individual,Payroll,D,497040,2026-07-15
-expenditure,2026-01-13,Gusto,$141.78,San Francisco,CA,pac,Payroll Taxes,D,497040,2026-07-15
-expenditure,2026-01-23,Adobe,$34.49,San Jose,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-01-23,AT&T,$47.39,Dallas,TX,pac,Internet Services,D,497040,2026-07-15
-expenditure,2026-01-23,Bluehost,$15.99,Jacksonville,FL,pac,Web Hosting,D,497040,2026-07-15
-expenditure,2026-01-23,Call Time AI,$650,Norwalk,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-01-23,Jones Inaugural Committee 2026,$500,Williamsburg,VA,pac,Contribution,D,497040,2026-07-15
-expenditure,2026-01-23,Squarespace,$117.60,New York,NY,pac,Software,D,497040,2026-07-15
-expenditure,2026-02-02,NGP VAN,$356.16,Washington,DC,pac,Software,D,497040,2026-07-15
-expenditure,2026-02-03,Gusto,$340,San Francisco,CA,pac,Payroll Fee,D,497040,2026-07-15
-expenditure,2026-02-20,Adobe,$34.49,San Jose,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-02-20,AT&T,$47.39,Dallas,TX,pac,Internet Services,D,497040,2026-07-15
-expenditure,2026-02-20,Bluehost,$15.99,Jacksonville,FL,pac,Web Hosting,D,497040,2026-07-15
-expenditure,2026-02-20,Call Time AI,$750,Norwalk,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-02-20,Squarespace,$117.60,New York,NY,pac,Software,D,497040,2026-07-15
+expenditure,2026-01-13,Gusto,$141.78,San Francisco,CA,business,Payroll Taxes,D,497040,2026-07-15
+expenditure,2026-01-23,Adobe,$34.49,San Jose,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-01-23,AT&T,$47.39,Dallas,TX,business,Internet Services,D,497040,2026-07-15
+expenditure,2026-01-23,Bluehost,$15.99,Jacksonville,FL,business,Web Hosting,D,497040,2026-07-15
+expenditure,2026-01-23,Call Time AI,$650,Norwalk,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-01-23,Jones Inaugural Committee 2026,$500,Williamsburg,VA,business,Contribution,D,497040,2026-07-15
+expenditure,2026-01-23,Squarespace,$117.60,New York,NY,business,Software,D,497040,2026-07-15
+expenditure,2026-02-02,NGP VAN,$356.16,Washington,DC,business,Software,D,497040,2026-07-15
+expenditure,2026-02-03,Gusto,$340,San Francisco,CA,business,Payroll Fee,D,497040,2026-07-15
+expenditure,2026-02-20,Adobe,$34.49,San Jose,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-02-20,AT&T,$47.39,Dallas,TX,business,Internet Services,D,497040,2026-07-15
+expenditure,2026-02-20,Bluehost,$15.99,Jacksonville,FL,business,Web Hosting,D,497040,2026-07-15
+expenditure,2026-02-20,Call Time AI,$750,Norwalk,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-02-20,Squarespace,$117.60,New York,NY,business,Software,D,497040,2026-07-15
 expenditure,2026-02-23,Aidan Cowlinshaw,"$3,627.03",Fairfax,VA,individual,Payroll,D,497040,2026-07-15
-expenditure,2026-02-23,Gusto,"$1,786.14",San Francisco,CA,pac,Payroll Taxes,D,497040,2026-07-15
-expenditure,2026-03-02,NGP VAN,$356.16,Washington,DC,pac,Software,D,497040,2026-07-15
-expenditure,2026-03-03,Gusto,$100,San Francisco,CA,pac,Payroll Fee,D,497040,2026-07-15
-expenditure,2026-03-09,NGP VAN,$356.16,Washington,DC,pac,Software,D,497040,2026-07-15
-expenditure,2026-03-26,Adobe,$34.49,San Jose,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-03-26,AT&T,$47.39,Dallas,TX,pac,Internet Services,D,497040,2026-07-15
-expenditure,2026-03-26,Bluehost,$15.99,Jacksonville,FL,pac,Web Hosting,D,497040,2026-07-15
-expenditure,2026-03-26,Call Time AI,$750,Norwalk,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-03-26,Squarespace,$117.60,New York,NY,pac,Software,D,497040,2026-07-15
-expenditure,2026-03-30,B&H Photo,$144.15,Washington,DC,pac,Office Supplies,D,497040,2026-07-15
-expenditure,2026-03-30,United States Postal Service,$257,Gainesville,VA,pac,PO Box,D,497040,2026-07-15
-expenditure,2026-03-30,Walmart,"$1,201.51",Haymarket,VA,pac,Office Supplies,D,497040,2026-07-15
+expenditure,2026-02-23,Gusto,"$1,786.14",San Francisco,CA,business,Payroll Taxes,D,497040,2026-07-15
+expenditure,2026-03-02,NGP VAN,$356.16,Washington,DC,business,Software,D,497040,2026-07-15
+expenditure,2026-03-03,Gusto,$100,San Francisco,CA,business,Payroll Fee,D,497040,2026-07-15
+expenditure,2026-03-09,NGP VAN,$356.16,Washington,DC,business,Software,D,497040,2026-07-15
+expenditure,2026-03-26,Adobe,$34.49,San Jose,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-03-26,AT&T,$47.39,Dallas,TX,business,Internet Services,D,497040,2026-07-15
+expenditure,2026-03-26,Bluehost,$15.99,Jacksonville,FL,business,Web Hosting,D,497040,2026-07-15
+expenditure,2026-03-26,Call Time AI,$750,Norwalk,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-03-26,Squarespace,$117.60,New York,NY,business,Software,D,497040,2026-07-15
+expenditure,2026-03-30,B&H Photo,$144.15,Washington,DC,business,Office Supplies,D,497040,2026-07-15
+expenditure,2026-03-30,United States Postal Service,$257,Gainesville,VA,business,PO Box,D,497040,2026-07-15
+expenditure,2026-03-30,Walmart,"$1,201.51",Haymarket,VA,business,Office Supplies,D,497040,2026-07-15
 expenditure,2026-03-31,Aidan Cowlinshaw,"$1,987.52",Fairfax,VA,individual,Payroll,D,497040,2026-07-15
-expenditure,2026-03-31,Gusto,$713.50,San Francisco,CA,pac,Payroll Taxes,D,497040,2026-07-15
-expenditure,2026-03-31,Helmer for Virginia,$500,Clifton,VA,pac,Contribution,D,497040,2026-07-15
-expenditure,2026-03-31,Wells Fargo,$25,Gainesville,VA,pac,Bank Fees,D,497040,2026-07-15
-expenditure,2026-04-02,Wells Fargo,$100,Gainesville,VA,pac,Bank Fees,D,497040,2026-07-15
-expenditure,2026-04-05,ActBlue,$3.25,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-04-05,ActBlue,$30,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-04-06,NGP VAN,$356.16,Washington,DC,pac,Software,D,497040,2026-07-15
-expenditure,2026-04-12,ActBlue,$0.20,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-03-31,Gusto,$713.50,San Francisco,CA,business,Payroll Taxes,D,497040,2026-07-15
+expenditure,2026-03-31,Helmer for Virginia,$500,Clifton,VA,business,Contribution,D,497040,2026-07-15
+expenditure,2026-03-31,Wells Fargo,$25,Gainesville,VA,business,Bank Fees,D,497040,2026-07-15
+expenditure,2026-04-02,Wells Fargo,$100,Gainesville,VA,business,Bank Fees,D,497040,2026-07-15
+expenditure,2026-04-05,ActBlue,$3.25,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-04-05,ActBlue,$30,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-04-06,NGP VAN,$356.16,Washington,DC,business,Software,D,497040,2026-07-15
+expenditure,2026-04-12,ActBlue,$0.20,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
 expenditure,2026-04-15,Aidan Cowlinshaw,"$1,987.52",Fairfax,VA,individual,Payroll,D,497040,2026-07-15
-expenditure,2026-04-15,Gusto,$703.73,San Francisco,CA,pac,Payroll Taxes,D,497040,2026-07-15
-expenditure,2026-04-17,Commonwealth Victory Fund,"$1,441.98",Richmond,VA,pac,Contribution,D,497040,2026-07-15
+expenditure,2026-04-15,Gusto,$703.73,San Francisco,CA,business,Payroll Taxes,D,497040,2026-07-15
+expenditure,2026-04-17,Commonwealth Victory Fund,"$1,441.98",Richmond,VA,business,Contribution,D,497040,2026-07-15
 expenditure,2026-04-17,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Contribution,D,497040,2026-07-15
-expenditure,2026-04-17,Wells Fargo,$50,Gainesville,VA,pac,Bank Fees,D,497040,2026-07-15
-expenditure,2026-04-19,ActBlue,$0.40,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-04-22,Adobe,$34.49,San Jose,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-04-22,Adobe,$34.49,San Jose,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-04-22,AT&T,$47.39,Dallas,TX,pac,Internet Services,D,497040,2026-07-15
-expenditure,2026-04-22,Bluehost,$15.99,Jacksonville,FL,pac,Web Hosting,D,497040,2026-07-15
-expenditure,2026-04-22,Call Time AI,$562.50,Norwalk,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-04-22,Squarespace,$132.60,New York,NY,pac,Software,D,497040,2026-07-15
-expenditure,2026-04-24,Agribusiness Council,$100,Quinton,VA,pac,Contribution,D,497040,2026-07-15
-expenditure,2026-04-27,ActBlue,$0.09,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-04-17,Wells Fargo,$50,Gainesville,VA,business,Bank Fees,D,497040,2026-07-15
+expenditure,2026-04-19,ActBlue,$0.40,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-04-22,Adobe,$34.49,San Jose,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-04-22,Adobe,$34.49,San Jose,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-04-22,AT&T,$47.39,Dallas,TX,business,Internet Services,D,497040,2026-07-15
+expenditure,2026-04-22,Bluehost,$15.99,Jacksonville,FL,business,Web Hosting,D,497040,2026-07-15
+expenditure,2026-04-22,Call Time AI,$562.50,Norwalk,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-04-22,Squarespace,$132.60,New York,NY,business,Software,D,497040,2026-07-15
+expenditure,2026-04-24,Agribusiness Council,$100,Quinton,VA,business,Contribution,D,497040,2026-07-15
+expenditure,2026-04-27,ActBlue,$0.09,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
 expenditure,2026-04-30,Aidan Cowlinshaw,"$1,987.52",Fairfax,VA,individual,Payroll,D,497040,2026-07-15
-expenditure,2026-04-30,Gusto,$703.73,San Francisco,CA,pac,Payroll Taxes,D,497040,2026-07-15
-expenditure,2026-05-04,ActBlue,$3.95,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-05-04,Gusto,$100,San Francisco,CA,pac,Payroll Fee,D,497040,2026-07-15
-expenditure,2026-05-05,Politically Connect,"$2,225",Leesburg,VA,pac,Social Media Consulting,D,497040,2026-07-15
-expenditure,2026-05-05,Wells Fargo,$25,Gainesville,VA,pac,Bank Fees,D,497040,2026-07-15
-expenditure,2026-05-05,Wells Fargo,$25,Gainesville,VA,pac,Bank Fees,D,497040,2026-07-15
-expenditure,2026-05-11,ActBlue,$118.50,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-05-11,NGP VAN,$356.16,Washington,DC,pac,Software,D,497040,2026-07-15
+expenditure,2026-04-30,Gusto,$703.73,San Francisco,CA,business,Payroll Taxes,D,497040,2026-07-15
+expenditure,2026-05-04,ActBlue,$3.95,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-05-04,Gusto,$100,San Francisco,CA,business,Payroll Fee,D,497040,2026-07-15
+expenditure,2026-05-05,Politically Connect,"$2,225",Leesburg,VA,business,Social Media Consulting,D,497040,2026-07-15
+expenditure,2026-05-05,Wells Fargo,$25,Gainesville,VA,business,Bank Fees,D,497040,2026-07-15
+expenditure,2026-05-05,Wells Fargo,$25,Gainesville,VA,business,Bank Fees,D,497040,2026-07-15
+expenditure,2026-05-11,ActBlue,$118.50,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-05-11,NGP VAN,$356.16,Washington,DC,business,Software,D,497040,2026-07-15
 expenditure,2026-05-15,Aidan Cowlinshaw,"$1,987.52",Fairfax,VA,individual,Payroll,D,497040,2026-07-15
-expenditure,2026-05-15,Gusto,$703.73,San Francisco,CA,pac,Payroll Taxes,D,497040,2026-07-15
-expenditure,2026-05-18,ActBlue,$12.50,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-05-25,ActBlue,$98.75,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-05-26,Adobe,$34.49,San Jose,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-05-26,Adobe,$34.49,San Jose,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-05-26,AT&T,$49.74,Dallas,TX,pac,Internet Services,D,497040,2026-07-15
-expenditure,2026-05-26,Bluehost,$15.99,Jacksonville,FL,pac,Web Hosting,D,497040,2026-07-15
-expenditure,2026-05-26,Call Time AI,$750,Norwalk,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-05-26,Squarespace,$117.60,New York,NY,pac,Software,D,497040,2026-07-15
+expenditure,2026-05-15,Gusto,$703.73,San Francisco,CA,business,Payroll Taxes,D,497040,2026-07-15
+expenditure,2026-05-18,ActBlue,$12.50,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-05-25,ActBlue,$98.75,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-05-26,Adobe,$34.49,San Jose,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-05-26,Adobe,$34.49,San Jose,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-05-26,AT&T,$49.74,Dallas,TX,business,Internet Services,D,497040,2026-07-15
+expenditure,2026-05-26,Bluehost,$15.99,Jacksonville,FL,business,Web Hosting,D,497040,2026-07-15
+expenditure,2026-05-26,Call Time AI,$750,Norwalk,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-05-26,Squarespace,$117.60,New York,NY,business,Software,D,497040,2026-07-15
 expenditure,2026-05-29,Aidan Cowlinshaw,"$2,756.90",Fairfax,VA,individual,Payroll,D,497040,2026-07-15
-expenditure,2026-05-29,Gusto,$703.73,San Francisco,CA,pac,Payroll Taxes,D,497040,2026-07-15
-expenditure,2026-05-29,Wells Fargo,$15,Gainesville,VA,pac,Bank Fees,D,497040,2026-07-15
-expenditure,2026-06-01,ActBlue,$0.09,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-06-02,Gusto,$100,San Francisco,CA,pac,Payroll Fee,D,497040,2026-07-15
-expenditure,2026-06-08,ActBlue,$3.95,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-06-08,NGP VAN,$356.16,Washington,DC,pac,Software,D,497040,2026-07-15
-expenditure,2026-06-15,ActBlue,$0.20,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-06-22,ActBlue,$199.88,Somerville,MA,pac,Credit Card Processing Fees,D,497040,2026-07-15
-expenditure,2026-06-22,Adobe,$34.49,San Jose,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-06-22,Adobe,$34.49,San Jose,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-06-22,AT&T,$49.74,Dallas,TX,pac,Internet Services,D,497040,2026-07-15
-expenditure,2026-06-22,Bluehost,$15.99,Jacksonville,FL,pac,Web Hosting,D,497040,2026-07-15
-expenditure,2026-06-22,Call Time AI,$750,Norwalk,CA,pac,Software,D,497040,2026-07-15
-expenditure,2026-06-22,Repro Rising,$225,Alexandria,VA,pac,Contribution,D,497040,2026-07-15
-expenditure,2026-06-22,Squarespace,$14.09,New York,NY,pac,Software,D,497040,2026-07-15
-expenditure,2026-06-24,Politically Connect,"$2,500",Leesburg,VA,pac,Social Media Consulting,D,497040,2026-07-15
-expenditure,2026-06-24,Wells Fargo,$25,Gainesville,VA,pac,Bank Fees,D,497040,2026-07-15
+expenditure,2026-05-29,Gusto,$703.73,San Francisco,CA,business,Payroll Taxes,D,497040,2026-07-15
+expenditure,2026-05-29,Wells Fargo,$15,Gainesville,VA,business,Bank Fees,D,497040,2026-07-15
+expenditure,2026-06-01,ActBlue,$0.09,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-06-02,Gusto,$100,San Francisco,CA,business,Payroll Fee,D,497040,2026-07-15
+expenditure,2026-06-08,ActBlue,$3.95,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-06-08,NGP VAN,$356.16,Washington,DC,business,Software,D,497040,2026-07-15
+expenditure,2026-06-15,ActBlue,$0.20,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-06-22,ActBlue,$199.88,Somerville,MA,business,Credit Card Processing Fees,D,497040,2026-07-15
+expenditure,2026-06-22,Adobe,$34.49,San Jose,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-06-22,Adobe,$34.49,San Jose,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-06-22,AT&T,$49.74,Dallas,TX,business,Internet Services,D,497040,2026-07-15
+expenditure,2026-06-22,Bluehost,$15.99,Jacksonville,FL,business,Web Hosting,D,497040,2026-07-15
+expenditure,2026-06-22,Call Time AI,$750,Norwalk,CA,business,Software,D,497040,2026-07-15
+expenditure,2026-06-22,Repro Rising,$225,Alexandria,VA,business,Contribution,D,497040,2026-07-15
+expenditure,2026-06-22,Squarespace,$14.09,New York,NY,business,Software,D,497040,2026-07-15
+expenditure,2026-06-24,Politically Connect,"$2,500",Leesburg,VA,business,Social Media Consulting,D,497040,2026-07-15
+expenditure,2026-06-24,Wells Fargo,$25,Gainesville,VA,business,Bank Fees,D,497040,2026-07-15
 expenditure,2026-06-25,Aidan Cowlinshaw,"$1,042.60",Fairfax,VA,individual,Payroll,D,497040,2026-07-15
-expenditure,2026-06-25,Gusto,$285.09,San Francisco,CA,pac,Payroll Taxes,D,497040,2026-07-15
-expenditure,2026-06-30,Wells Fargo,$15,Gainesville,VA,pac,Bank Fees,D,497040,2026-07-15
+expenditure,2026-06-25,Gusto,$285.09,San Francisco,CA,business,Payroll Taxes,D,497040,2026-07-15
+expenditure,2026-06-30,Wells Fargo,$15,Gainesville,VA,business,Bank Fees,D,497040,2026-07-15

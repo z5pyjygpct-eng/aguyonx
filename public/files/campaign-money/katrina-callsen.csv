@@ -17,8 +17,8 @@ contribution,2026-01-04,Charles Dassance,$125,Charlottesville,VA,individual,,A,4
 contribution,2026-06-15,Virginia Sheriffs' Association Political Action Committee,$250,Richmond,VA,pac,,A,493009,2026-07-06
 contribution,2026-06-30,James Hingeley,$500,Charlottesville,VA,individual,,A,493009,2026-07-06
 contribution,2026-01-08,Commercial Development Political Action Committee,$250,Alexandria,VA,pac,,A,493009,2026-07-06
-contribution,2026-01-14,"Jushi, Inc.","$1,000",Boca Raton,FL,pac,,A,493009,2026-07-06
-contribution,2026-06-15,"Anheuser-Busch Companies, LLC",$500,Washington,DC,pac,,A,493009,2026-07-06
+contribution,2026-01-14,"Jushi, Inc.","$1,000",Boca Raton,FL,business,,A,493009,2026-07-06
+contribution,2026-06-15,"Anheuser-Busch Companies, LLC",$500,Washington,DC,business,,A,493009,2026-07-06
 contribution,2026-01-02,Thomas Vandever,$250,Charlottesville,VA,individual,,A,493009,2026-07-06
 contribution,2026-06-30,Thomas Vandever,$500,Charlottesville,VA,individual,,A,493009,2026-07-06
 contribution,2026-05-23,Mark Uher,$50,Charlottesville,VA,individual,,A,493009,2026-07-06
@@ -30,20 +30,20 @@ contribution,2026-06-13,Steven Johnson,$125,Charlottesville,VA,individual,,A,493
 contribution,2026-01-08,Bryan Slaughter,$125,Charlottesville,VA,individual,,A,493009,2026-07-06
 contribution,2026-01-09,Lewis Franklin Payne Jr.,"$1,000",Charlottesville,VA,individual,,A,493009,2026-07-06
 contribution,2026-06-15,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,493009,2026-07-06
-contribution,2026-06-30,ACE Development Company LLC,"$1,000",Salt Lake City,UT,pac,,A,493009,2026-07-06
+contribution,2026-06-30,ACE Development Company LLC,"$1,000",Salt Lake City,UT,business,,A,493009,2026-07-06
 contribution,2026-01-02,Katherine Brooks,$125,Charlottesville,VA,individual,,A,493009,2026-07-06
-contribution,2026-01-14,McGuireWoods,$250,Richmond,VA,pac,,A,493009,2026-07-06
-contribution,2026-01-02,Verano Holdings LLC,"$1,500",Chicago,IL,pac,,A,493009,2026-07-06
-contribution,2026-01-10,Sky Mall LLC,"$2,000",Charlottesville,VA,pac,,A,493009,2026-07-06
+contribution,2026-01-14,McGuireWoods,$250,Richmond,VA,business,,A,493009,2026-07-06
+contribution,2026-01-02,Verano Holdings LLC,"$1,500",Chicago,IL,business,,A,493009,2026-07-06
+contribution,2026-01-10,Sky Mall LLC,"$2,000",Charlottesville,VA,business,,A,493009,2026-07-06
 contribution,2026-01-14,Commissioner of Revenue Political Action Committee,$250,Staunton,VA,pac,,A,493009,2026-07-06
-contribution,2026-01-14,Walgreen Co.,$500,Deerfield,IL,pac,,A,493009,2026-07-06
-contribution,2026-01-14,Dimension Energy LLC,$500,Atlanta,GA,pac,,A,493009,2026-07-06
-contribution,2026-01-09,Deeds for State Senate,$295,Charlottesville,VA,pac,,A,493009,2026-07-06
+contribution,2026-01-14,Walgreen Co.,$500,Deerfield,IL,business,,A,493009,2026-07-06
+contribution,2026-01-14,Dimension Energy LLC,$500,Atlanta,GA,business,,A,493009,2026-07-06
+contribution,2026-01-09,Deeds for State Senate,$295,Charlottesville,VA,business,,A,493009,2026-07-06
 contribution,2026-01-09,Thomas Perriello,$250,Charlottesville,VA,candidate,,A,493009,2026-07-06
 contribution,2026-06-29,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,A,493009,2026-07-06
-contribution,2026-06-29,"Cooper Hurley, PLLC","$1,000",Norfolk,VA,pac,,A,493009,2026-07-06
-contribution,2026-06-29,"Virginia Restaurant, Lodging & Travel Association, Inc.",$250,Richmond,VA,pac,,A,493009,2026-07-06
-contribution,2026-06-15,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,493009,2026-07-06
+contribution,2026-06-29,"Cooper Hurley, PLLC","$1,000",Norfolk,VA,business,,A,493009,2026-07-06
+contribution,2026-06-29,"Virginia Restaurant, Lodging & Travel Association, Inc.",$250,Richmond,VA,business,,A,493009,2026-07-06
+contribution,2026-06-15,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,493009,2026-07-06
 contribution,2026-01-10,Benjamin Davenport,$500,Chatham,VA,individual,,A,493009,2026-07-06
 contribution,2026-01-10,Gail Rubin,$125,Charlottesville,VA,individual,,A,493009,2026-07-06
 contribution,2026-01-09,Blair Williamson,$250,Charlottesville,VA,individual,,A,493009,2026-07-06
@@ -51,71 +51,71 @@ contribution,2026-01-05,Pamela Cipriano,$250,Charlottesville,VA,individual,,A,49
 contribution,2026-06-30,Pamela Cipriano,$500,Charlottesville,VA,individual,,A,493009,2026-07-06
 contribution,2026-01-12,Heather Hill,$125,Charlottesville,VA,individual,,A,493009,2026-07-06
 contribution,2026-06-22,William Harvey,$50,Charlottesville,VA,individual,,A,493009,2026-07-06
-other_receipt,2026-01-22,Leadership for Educational Equity,"$5,000",Washington,DC,pac,Refund for Public Policy Fellowship Compensation,C,493009,2026-07-06
-other_receipt,2026-04-29,"ActBlue Technical Services, Inc.",$500,Somerville,MA,pac,Refund for Contribution,C,493009,2026-07-06
-expenditure,2026-01-04,"ActBlue Technical Services, Inc.",$56.13,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-01-11,"ActBlue Technical Services, Inc.",$153.14,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-01-18,"ActBlue Technical Services, Inc.",$66.02,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-03-22,"ActBlue Technical Services, Inc.",$3.09,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-03-29,"ActBlue Technical Services, Inc.",$2.38,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-04-19,"ActBlue Technical Services, Inc.",$5.06,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-04-26,"ActBlue Technical Services, Inc.",$2.38,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-04-28,"ActBlue Technical Services, Inc.",$500,Somerville,MA,pac,Contribution,D,493009,2026-07-06
-expenditure,2026-05-17,"ActBlue Technical Services, Inc.",$5.06,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-05-24,"ActBlue Technical Services, Inc.",$2.38,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-06-14,"ActBlue Technical Services, Inc.",$4.94,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-06-21,"ActBlue Technical Services, Inc.",$13.84,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-06-28,"ActBlue Technical Services, Inc.",$4.36,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
-expenditure,2026-06-30,"ActBlue Technical Services, Inc.",$86.90,Somerville,MA,pac,Merchant Fee,D,493009,2026-07-06
+other_receipt,2026-01-22,Leadership for Educational Equity,"$5,000",Washington,DC,business,Refund for Public Policy Fellowship Compensation,C,493009,2026-07-06
+other_receipt,2026-04-29,"ActBlue Technical Services, Inc.",$500,Somerville,MA,business,Refund for Contribution,C,493009,2026-07-06
+expenditure,2026-01-04,"ActBlue Technical Services, Inc.",$56.13,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-01-11,"ActBlue Technical Services, Inc.",$153.14,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-01-18,"ActBlue Technical Services, Inc.",$66.02,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-03-22,"ActBlue Technical Services, Inc.",$3.09,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-03-29,"ActBlue Technical Services, Inc.",$2.38,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-04-19,"ActBlue Technical Services, Inc.",$5.06,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-04-26,"ActBlue Technical Services, Inc.",$2.38,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-04-28,"ActBlue Technical Services, Inc.",$500,Somerville,MA,business,Contribution,D,493009,2026-07-06
+expenditure,2026-05-17,"ActBlue Technical Services, Inc.",$5.06,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-05-24,"ActBlue Technical Services, Inc.",$2.38,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-06-14,"ActBlue Technical Services, Inc.",$4.94,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-06-21,"ActBlue Technical Services, Inc.",$13.84,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-06-28,"ActBlue Technical Services, Inc.",$4.36,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
+expenditure,2026-06-30,"ActBlue Technical Services, Inc.",$86.90,Somerville,MA,business,Merchant Fee,D,493009,2026-07-06
 expenditure,2026-02-06,Angel Pilkey,$250,Charlottesville,VA,individual,Payroll,D,493009,2026-07-06
 expenditure,2026-02-13,Angel Pilkey,$250,Charlottesville,VA,individual,Payroll,D,493009,2026-07-06
 expenditure,2026-04-21,Angel Pilkey,$250,Charlottesville,VA,individual,Payroll,D,493009,2026-07-06
 expenditure,2026-06-23,Angel Pilkey,$500,Charlottesville,VA,individual,Payroll,D,493009,2026-07-06
 expenditure,2026-01-06,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Dues,D,493009,2026-07-06
-expenditure,2026-01-02,Google,$121.20,Mountain View,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-01-31,Google,$135.82,Mountain View,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-02-28,Google,$138,Mountain View,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-03-31,Google,$138,Mountain View,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-04-30,Google,$138,Mountain View,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-05-31,Google,$138,Mountain View,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-06-30,Google,$137.98,Mountain View,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-01-06,Virginia Credit Union,$20,Charlottesville,VA,pac,Bank Fee,D,493009,2026-07-06
-expenditure,2026-01-12,Virginia Credit Union,$20,Charlottesville,VA,pac,Bank Fee,D,493009,2026-07-06
-expenditure,2026-01-31,Virginia Credit Union,$20,Charlottesville,VA,pac,Bank Fee,D,493009,2026-07-06
-expenditure,2026-02-28,Virginia Credit Union,$20,Charlottesville,VA,pac,Bank Fee,D,493009,2026-07-06
-expenditure,2026-03-31,Virginia Credit Union,$20,Charlottesville,VA,pac,Bank Fee,D,493009,2026-07-06
-expenditure,2026-04-30,Virginia Credit Union,$20,Charlottesville,VA,pac,Bank Fee,D,493009,2026-07-06
-expenditure,2026-05-30,Virginia Credit Union,$20,Charlottesville,VA,pac,Bank Fee,D,493009,2026-07-06
-expenditure,2026-06-30,Virginia Credit Union,$20,Charlottesville,VA,pac,Bank Fee,D,493009,2026-07-06
+expenditure,2026-01-02,Google,$121.20,Mountain View,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-01-31,Google,$135.82,Mountain View,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-02-28,Google,$138,Mountain View,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-03-31,Google,$138,Mountain View,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-04-30,Google,$138,Mountain View,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-05-31,Google,$138,Mountain View,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-06-30,Google,$137.98,Mountain View,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-01-06,Virginia Credit Union,$20,Charlottesville,VA,business,Bank Fee,D,493009,2026-07-06
+expenditure,2026-01-12,Virginia Credit Union,$20,Charlottesville,VA,business,Bank Fee,D,493009,2026-07-06
+expenditure,2026-01-31,Virginia Credit Union,$20,Charlottesville,VA,business,Bank Fee,D,493009,2026-07-06
+expenditure,2026-02-28,Virginia Credit Union,$20,Charlottesville,VA,business,Bank Fee,D,493009,2026-07-06
+expenditure,2026-03-31,Virginia Credit Union,$20,Charlottesville,VA,business,Bank Fee,D,493009,2026-07-06
+expenditure,2026-04-30,Virginia Credit Union,$20,Charlottesville,VA,business,Bank Fee,D,493009,2026-07-06
+expenditure,2026-05-30,Virginia Credit Union,$20,Charlottesville,VA,business,Bank Fee,D,493009,2026-07-06
+expenditure,2026-06-30,Virginia Credit Union,$20,Charlottesville,VA,business,Bank Fee,D,493009,2026-07-06
 expenditure,2026-01-19,Matt Cifuentes,$836,Charlottesville,VA,individual,Payroll,D,493009,2026-07-06
 expenditure,2026-02-06,Matt Cifuentes,"$1,232",Charlottesville,VA,individual,Payroll,D,493009,2026-07-06
 expenditure,2026-02-13,Matt Cifuentes,"$4,840",Charlottesville,VA,individual,Payroll,D,493009,2026-07-06
 expenditure,2026-05-01,Matt Cifuentes,$176,Charlottesville,VA,individual,Payroll,D,493009,2026-07-06
-expenditure,2026-01-27,Towers Limited Partnership,$590,Charlottesville,VA,pac,Office Rent,D,493009,2026-07-06
-expenditure,2026-03-03,Towers Limited Partnership,$672,Charlottesville,VA,pac,Office Rent,D,493009,2026-07-06
-expenditure,2026-04-01,Towers Limited Partnership,$631,Charlottesville,VA,pac,Office Rent,D,493009,2026-07-06
-expenditure,2026-05-01,Towers Limited Partnership,$631,Charlottesville,VA,pac,Office Rent,D,493009,2026-07-06
-expenditure,2026-06-01,Towers Limited Partnership,$631,Charlottesville,VA,pac,Office Rent,D,493009,2026-07-06
-expenditure,2026-04-28,Albemarle County Democratic Committee,$500,Charlottesville,VA,pac,Contribution,D,493009,2026-07-06
-expenditure,2026-01-12,Council of State Governments,"$2,132.34",Lexington,KY,pac,Reimbursement for Wrongful Payment,D,493009,2026-07-06
-expenditure,2026-01-06,"Designed to Run, Inc.",$50,Brooklyn,NY,pac,Website Hosting,D,493009,2026-07-06
-expenditure,2026-02-06,"Designed to Run, Inc.",$50,Brooklyn,NY,pac,Website Hosting,D,493009,2026-07-06
-expenditure,2026-03-06,"Designed to Run, Inc.",$50,Brooklyn,NY,pac,Website Hosting,D,493009,2026-07-06
-expenditure,2026-04-06,"Designed to Run, Inc.",$50,Brooklyn,NY,pac,Website Hosting,D,493009,2026-07-06
-expenditure,2026-05-06,"Designed to Run, Inc.",$50,Brooklyn,NY,pac,Website Hosting,D,493009,2026-07-06
-expenditure,2026-06-06,"Designed to Run, Inc.",$50,Brooklyn,NY,pac,Website Hosting,D,493009,2026-07-06
-expenditure,2026-01-12,"OpenPhone Technologies, Inc",$21.04,San Francisco,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-02-20,"OpenPhone Technologies, Inc",$21.79,San Francisco,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-03-20,"OpenPhone Technologies, Inc",$21.79,San Francisco,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-04-20,"OpenPhone Technologies, Inc",$21.79,San Francisco,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-05-20,"OpenPhone Technologies, Inc",$21.79,San Francisco,CA,pac,Productivity Software,D,493009,2026-07-06
-expenditure,2026-06-20,"OpenPhone Technologies, Inc",$21.79,San Francisco,CA,pac,Productivity Software,D,493009,2026-07-06
+expenditure,2026-01-27,Towers Limited Partnership,$590,Charlottesville,VA,business,Office Rent,D,493009,2026-07-06
+expenditure,2026-03-03,Towers Limited Partnership,$672,Charlottesville,VA,business,Office Rent,D,493009,2026-07-06
+expenditure,2026-04-01,Towers Limited Partnership,$631,Charlottesville,VA,business,Office Rent,D,493009,2026-07-06
+expenditure,2026-05-01,Towers Limited Partnership,$631,Charlottesville,VA,business,Office Rent,D,493009,2026-07-06
+expenditure,2026-06-01,Towers Limited Partnership,$631,Charlottesville,VA,business,Office Rent,D,493009,2026-07-06
+expenditure,2026-04-28,Albemarle County Democratic Committee,$500,Charlottesville,VA,business,Contribution,D,493009,2026-07-06
+expenditure,2026-01-12,Council of State Governments,"$2,132.34",Lexington,KY,business,Reimbursement for Wrongful Payment,D,493009,2026-07-06
+expenditure,2026-01-06,"Designed to Run, Inc.",$50,Brooklyn,NY,business,Website Hosting,D,493009,2026-07-06
+expenditure,2026-02-06,"Designed to Run, Inc.",$50,Brooklyn,NY,business,Website Hosting,D,493009,2026-07-06
+expenditure,2026-03-06,"Designed to Run, Inc.",$50,Brooklyn,NY,business,Website Hosting,D,493009,2026-07-06
+expenditure,2026-04-06,"Designed to Run, Inc.",$50,Brooklyn,NY,business,Website Hosting,D,493009,2026-07-06
+expenditure,2026-05-06,"Designed to Run, Inc.",$50,Brooklyn,NY,business,Website Hosting,D,493009,2026-07-06
+expenditure,2026-06-06,"Designed to Run, Inc.",$50,Brooklyn,NY,business,Website Hosting,D,493009,2026-07-06
+expenditure,2026-01-12,"OpenPhone Technologies, Inc",$21.04,San Francisco,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-02-20,"OpenPhone Technologies, Inc",$21.79,San Francisco,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-03-20,"OpenPhone Technologies, Inc",$21.79,San Francisco,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-04-20,"OpenPhone Technologies, Inc",$21.79,San Francisco,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-05-20,"OpenPhone Technologies, Inc",$21.79,San Francisco,CA,business,Productivity Software,D,493009,2026-07-06
+expenditure,2026-06-20,"OpenPhone Technologies, Inc",$21.79,San Francisco,CA,business,Productivity Software,D,493009,2026-07-06
 expenditure,2026-01-23,Nels Åkerson,"$2,500",Charlottesville,VA,individual,Salary,D,493009,2026-07-06
 expenditure,2026-06-23,Nels Åkerson,$135.75,Charlottesville,VA,individual,Reimbursement for Event Supplies and Colleague Gift,D,493009,2026-07-06
-expenditure,2026-01-10,Kardinal Hall,$588.73,Charlottesville,VA,pac,Event Catering,D,493009,2026-07-06
+expenditure,2026-01-10,Kardinal Hall,$588.73,Charlottesville,VA,business,Event Catering,D,493009,2026-07-06
 expenditure,2026-01-23,Benjamin Stolz,$274.30,Richmond,VA,individual,Reimbursement for Office Supplies,D,493009,2026-07-06
-expenditure,2026-02-12,Kroger,$76.32,Cincinnati,OH,pac,Staff Gift,D,493009,2026-07-06
-expenditure,2026-02-14,The Virginia Shop at the Capitol,$61.53,Richmond,VA,pac,Staff Gift,D,493009,2026-07-06
-expenditure,2026-04-04,University Democrats of the University of Virginia,$100,Charlottesville,VA,pac,Contribution,D,493009,2026-07-06
-expenditure,2026-06-04,Charlottesville Area Young Democrats Fund,$125,Stanardsville,VA,pac,Contribution,D,493009,2026-07-06
-expenditure,2026-06-22,Chiles Family Orchards,$42.42,Batesville,VA,pac,Colleague Gift,D,493009,2026-07-06
+expenditure,2026-02-12,Kroger,$76.32,Cincinnati,OH,business,Staff Gift,D,493009,2026-07-06
+expenditure,2026-02-14,The Virginia Shop at the Capitol,$61.53,Richmond,VA,business,Staff Gift,D,493009,2026-07-06
+expenditure,2026-04-04,University Democrats of the University of Virginia,$100,Charlottesville,VA,business,Contribution,D,493009,2026-07-06
+expenditure,2026-06-04,Charlottesville Area Young Democrats Fund,$125,Stanardsville,VA,business,Contribution,D,493009,2026-07-06
+expenditure,2026-06-22,Chiles Family Orchards,$42.42,Batesville,VA,business,Colleague Gift,D,493009,2026-07-06

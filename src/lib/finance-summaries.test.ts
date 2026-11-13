@@ -58,6 +58,8 @@ test("display helpers format official dates, sources, and percents in plain lang
   assert.equal(formatUsd(7_665_439), "$76,654.39");
   assert.equal(formatUsd(11_569_600), "$115,696");
   assert.equal(kindLabel("candidate"), "Candidate committee");
+  assert.equal(kindLabel("pac"), "PAC or political committee");
+  assert.equal(kindLabel("business"), "Business or organization");
   assert.equal(percent(8676600, 8676600 + 2850000), 75.3);
   assert.equal(reportUrl("495571"), "https://cfreports.elections.virginia.gov/Report/Index/495571");
   assert.equal(reportXmlUrl("495571"), "https://cfreports.elections.virginia.gov/Report/ReportXML/495571");

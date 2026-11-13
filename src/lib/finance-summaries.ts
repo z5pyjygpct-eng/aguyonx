@@ -7,7 +7,7 @@ export const REPORT_PAGE_BASE = "https://cfreports.elections.virginia.gov/Report
 export const REPORT_XML_BASE = "https://cfreports.elections.virginia.gov/Report/ReportXML/";
 export const FEATURED_MONEY_SLUG = "terry-g-kilgore";
 
-export type DonorKind = "individual" | "pac" | "party" | "candidate";
+export type DonorKind = "individual" | "pac" | "party" | "candidate" | "business";
 
 export type FinanceGiftType = "direct" | "inkind";
 
@@ -205,8 +205,9 @@ export function formatPeriod(start?: string, end?: string): string {
 
 export function kindLabel(kind: DonorKind): string {
   if (kind === "individual") return "Individual";
-  if (kind === "pac") return "PAC or organization";
+  if (kind === "pac") return "PAC or political committee";
   if (kind === "party") return "Party committee";
+  if (kind === "business") return "Business or organization";
   return "Candidate committee";
 }
 

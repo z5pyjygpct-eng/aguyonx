@@ -3,8 +3,8 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$333,166.97",,VA,,"From official Schedule H, November 2023 election cycle",H,497030,2026-07-15
 summary,2026-06-30,Raised this cycle,"$813,231.07",,,,Total receipts this election cycle (Schedule H),H,497030,2026-07-15
 summary,2026-06-30,Spent this cycle,"$531,944.49",,,,Total disbursements this election cycle (Schedule H),H,497030,2026-07-15
-contribution,2022-04-07,207-209 80th Street LLC,$500,Virginia Beach,VA,pac,,A,292765,2022-07-15
-contribution,2022-06-22,Aarons Creek Farms Inc,"$1,000",Buffalo Junction,VA,pac,,A,292765,2022-07-15
+contribution,2022-04-07,207-209 80th Street LLC,$500,Virginia Beach,VA,business,,A,292765,2022-07-15
+contribution,2022-06-22,Aarons Creek Farms Inc,"$1,000",Buffalo Junction,VA,business,,A,292765,2022-07-15
 contribution,2022-06-30,Ms. Monique Adams,"$1,000",Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-06,Nora A. Barnes,$500,Norfolk,VA,individual,,A,292765,2022-07-15
 contribution,2022-04-28,Dave Belote,$250,Virginia Beach,VA,individual,,A,292765,2022-07-15
@@ -13,12 +13,12 @@ contribution,2022-04-09,Mary Biggs,$250,Blacksburg,VA,individual,,A,292765,2022-
 contribution,2022-06-21,John Bishard,"$5,000",Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-21,Jerry Lee Bowman,$250,Norfolk,VA,individual,,A,292765,2022-07-15
 contribution,2022-04-16,Franklin Bowser,"$1,000",Glen Allen,VA,individual,,A,292765,2022-07-15
-contribution,2022-04-07,Branford Square LLC,"$1,000",Virginia Beach,VA,pac,,A,292765,2022-07-15
+contribution,2022-04-07,Branford Square LLC,"$1,000",Virginia Beach,VA,business,,A,292765,2022-07-15
 contribution,2022-03-15,Don Bray,$250,Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-03-24,William Brothers,$250,Norfolk,VA,individual,,A,292765,2022-07-15
 contribution,2022-03-16,Maia Chaka,"$1,000",Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-04-25,George Clarke,"$5,000",Chesapeake,VA,individual,,A,292765,2022-07-15
-contribution,2022-06-29,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,292765,2022-07-15
+contribution,2022-06-29,Clean Virginia Fund,"$10,000",Charlottesville,VA,business,,A,292765,2022-07-15
 contribution,2022-04-18,Richard Cranwell,$250,Vinton,VA,individual,,A,292765,2022-07-15
 contribution,2022-03-21,Rob Davis,$500,Prosper,TX,individual,,A,292765,2022-07-15
 contribution,2022-05-01,Lorna Donatone,"$1,000",Virginia Beach,VA,individual,,A,292765,2022-07-15
@@ -34,19 +34,19 @@ contribution,2022-06-30,Gay V. Goldsmith,$200,Virginia Beach,VA,individual,,A,29
 contribution,2022-03-18,James Gray,$200,Hampton,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-07,Owen Griffin,$500,Suffolk,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-17,Mr. Raymond A Gromelski,"$1,000",Virginia Beach,VA,individual,,A,292765,2022-07-15
-contribution,2022-04-07,"Grove Development, Inc.","$1,000",Virginia Beach,VA,pac,,A,292765,2022-07-15
+contribution,2022-04-07,"Grove Development, Inc.","$1,000",Virginia Beach,VA,business,,A,292765,2022-07-15
 contribution,2022-06-30,Guy for Delegate,"$2,000",Virginia Beach,VA,candidate,,A,292765,2022-07-15
 contribution,2022-06-28,Tony Harold,$200,Virginia Beach,VA,individual,,A,292765,2022-07-15
-contribution,2022-04-07,Hawkins Mill LLC,"$1,000",Virginia Beach,VA,pac,,A,292765,2022-07-15
-contribution,2022-06-22,Hemp Haven Chesapeake,"$1,000",Chesapeake,VA,pac,,A,292765,2022-07-15
+contribution,2022-04-07,Hawkins Mill LLC,"$1,000",Virginia Beach,VA,business,,A,292765,2022-07-15
+contribution,2022-06-22,Hemp Haven Chesapeake,"$1,000",Chesapeake,VA,business,,A,292765,2022-07-15
 contribution,2022-06-30,Stephen Herman,$500,Bethesda,MD,individual,,A,292765,2022-07-15
-contribution,2022-04-07,Hickory Manor Associates,"$1,000",Virginia Beach,VA,pac,,A,292765,2022-07-15
+contribution,2022-04-07,Hickory Manor Associates,"$1,000",Virginia Beach,VA,business,,A,292765,2022-07-15
 contribution,2022-06-22,Paul O. Hirschbiel Jr,"$1,000",Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-28,Mr. James A Hixon,$500,Virginia Beach,VA,individual,,A,292765,2022-07-15
-contribution,2022-04-09,John Bell for State Senate,"$1,000",Arlington,VA,pac,,A,292765,2022-07-15
+contribution,2022-04-09,John Bell for State Senate,"$1,000",Arlington,VA,business,,A,292765,2022-07-15
 contribution,2022-06-28,Robert Jones,$500,Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-05-02,Shannon Kane,$150,Va Beach,VA,individual,,A,292765,2022-07-15
-contribution,2022-04-07,Kings Pointe Associates LLC,"$1,000",Virginia Beach,VA,pac,,A,292765,2022-07-15
+contribution,2022-04-07,Kings Pointe Associates LLC,"$1,000",Virginia Beach,VA,business,,A,292765,2022-07-15
 contribution,2022-04-28,Mr. Jay M Klebanoff,$150,Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-28,Harry T Lester,"$1,000",Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-17,Lewis for Senate,$500,Accomac,VA,candidate,,A,292765,2022-07-15
@@ -64,14 +64,14 @@ contribution,2022-06-22,Mr. Scott Miller,$250,Virginia Beach,VA,individual,,A,29
 contribution,2022-03-14,Travis Minson,$250,Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-03-14,Charlene Morring,"$1,000",Suffolk,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-22,Charlene Morring,"$1,000",Suffolk,VA,individual,,A,292765,2022-07-15
-contribution,2022-05-20,MOTO Technology Services LLC,"$5,000",Virginia Beach,VA,pac,,A,292765,2022-07-15
+contribution,2022-05-20,MOTO Technology Services LLC,"$5,000",Virginia Beach,VA,business,,A,292765,2022-07-15
 contribution,2022-06-28,Pearl Narelle,$200,Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-29,Allan Parrott,"$1,000",Virginia Beach,VA,individual,,A,292765,2022-07-15
-contribution,2022-05-11,PNR Amusements LLC,"$2,500",Littleton,NC,pac,,A,292765,2022-07-15
+contribution,2022-05-11,PNR Amusements LLC,"$2,500",Littleton,NC,business,,A,292765,2022-07-15
 contribution,2022-06-30,Thomas Prevette,$150,Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-05-16,Tara Ramsey,$500,Norfolk,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-22,Angela Rocha,$500,Virginia Beach,VA,individual,,A,292765,2022-07-15
-contribution,2022-04-11,Sanghani Holdings Inc,"$20,000",Mc Lean,VA,pac,,A,292765,2022-07-15
+contribution,2022-04-11,Sanghani Holdings Inc,"$20,000",Mc Lean,VA,business,,A,292765,2022-07-15
 contribution,2022-03-15,Brian Schools,"$1,000",Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-18,Mr. Wayne Marcus Scriven,$250,Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-05-11,Ryan Short,"$2,000",Littleton,NC,individual,,A,292765,2022-07-15
@@ -88,13 +88,13 @@ contribution,2022-06-17,Mr. Guy King Tower,$250,Virginia Beach,VA,individual,,A,
 contribution,2022-03-15,Richard Valentine,$250,Bracey,VA,individual,,A,292765,2022-07-15
 contribution,2022-06-03,Jonathan Vilma,"$1,000",Miami,FL,individual,,A,292765,2022-07-15
 contribution,2022-05-17,Deena Vreeland,$500,Newport News,VA,individual,,A,292765,2022-07-15
-contribution,2022-06-14,W.M. Jordan Company,"$2,500",Newport News,VA,pac,,A,292765,2022-07-15
+contribution,2022-06-14,W.M. Jordan Company,"$2,500",Newport News,VA,business,,A,292765,2022-07-15
 contribution,2022-03-18,Don Whitaker,"$1,000",Virginia Beach,VA,individual,,A,292765,2022-07-15
 contribution,2022-03-18,Donna Whitaker,"$1,500",Virginia Beach,VA,individual,,A,292765,2022-07-15
-contribution,2022-12-22,AFSCME,"$5,000",Washington,DC,pac,,A,305002,2023-01-03
+contribution,2022-12-22,AFSCME,"$5,000",Washington,DC,business,,A,305002,2023-01-03
 contribution,2022-12-11,Javier Aguirre,"$1,000",Yorktown,VA,individual,,A,305002,2023-01-03
-contribution,2022-12-06,ALEXANDRIA DEMOCRATIC COMMITTEE,$965.25,Alexandria,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-10,Amelia for Virginia Beach,$250,Virginia Beach,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-06,ALEXANDRIA DEMOCRATIC COMMITTEE,$965.25,Alexandria,VA,business,,A,305002,2023-01-03
+contribution,2022-12-10,Amelia for Virginia Beach,$250,Virginia Beach,VA,business,,A,305002,2023-01-03
 contribution,2022-12-16,Cory Amron,$500,Arlington,VA,individual,,A,305002,2023-01-03
 contribution,2022-11-29,Mrs. Cynthia M. Anderson,$300,Alexandria,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-13,Elayne Axel,$200,Virginia Beach,VA,individual,,A,305002,2023-01-03
@@ -149,14 +149,14 @@ contribution,2022-12-07,JAMES CHURCH,$250,Virginia Beach,VA,individual,,A,305002
 contribution,2022-12-15,JAMES CHURCH,$250,Virginia Beach,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-28,John Clarke,$500,Mclean,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-18,Sarah Clarkson,$500,Norfolk,VA,individual,,A,305002,2023-01-03
-contribution,2022-11-21,Clean Virginia Fund,"$100,000",Charlottesville,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-14,Clean Virginia Fund,"$100,000",Charlottesville,VA,pac,,A,305002,2023-01-03
+contribution,2022-11-21,Clean Virginia Fund,"$100,000",Charlottesville,VA,business,,A,305002,2023-01-03
+contribution,2022-12-14,Clean Virginia Fund,"$100,000",Charlottesville,VA,business,,A,305002,2023-01-03
 contribution,2022-12-27,Climate Cabinet PAC,"$5,000",San Francisco,CA,pac,,A,305002,2023-01-03
 contribution,2022-11-29,Steve Cochran,$250,Blacksburg,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-26,Steve Cochran,$100,Blacksburg,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-16,Susan Cohen,$250,Virginia Beach,VA,individual,,A,305002,2023-01-03
 contribution,2022-11-17,Mark Colley,"$5,000",Alexandria,VA,individual,,A,305002,2023-01-03
-contribution,2022-12-08,Common Good Virginia,"$2,500",Richmond,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-08,Common Good Virginia,"$2,500",Richmond,VA,business,,A,305002,2023-01-03
 contribution,2022-12-08,Sean Connors,"$5,000",Mc Lean,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-05,Dr. James Cornetta,$250,Norfolk,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-19,Victoria Cowles,$250,Potomac,MD,individual,,A,305002,2023-01-03
@@ -169,7 +169,7 @@ contribution,2022-12-18,Adele DAri,$250,Boulder,CO,individual,,A,305002,2023-01-
 contribution,2022-12-26,Barbara Davis,$300,Arlington,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-21,Matthew de Ferranti,$500,Arlington,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-29,Karen De Pew,$200,Williamsburg,VA,individual,,A,305002,2023-01-03
-contribution,2022-12-01,"DECKER, CARDON, THOMAS, WEINTRAUB & NESKIS, P.C.","$1,000",Norfolk,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-01,"DECKER, CARDON, THOMAS, WEINTRAUB & NESKIS, P.C.","$1,000",Norfolk,VA,business,,A,305002,2023-01-03
 contribution,2022-12-21,H. Benson Dendy III,$250,Richmond,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-09,Jeremiah Denton,$500,Virginia Beach,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-27,Robert Dimick,"$1,000",Gulf Breeze,FL,individual,,A,305002,2023-01-03
@@ -181,19 +181,19 @@ contribution,2022-12-19,LINDA DREEBEN,$100,Chevy Chase,MD,individual,,A,305002,2
 contribution,2022-12-13,Jack Drescher,$500,Virginia Beach,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-12,Frances Dweck,$250,Washington,DC,individual,,A,305002,2023-01-03
 contribution,2022-11-28,Kaci Easley,$250,Richmond,VA,individual,,A,305002,2023-01-03
-contribution,2022-12-02,Ebbin for Virginia,"$1,000",Alexandria,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-02,Ebbin for Virginia,"$1,000",Alexandria,VA,business,,A,305002,2023-01-03
 contribution,2022-12-15,Wanda Eberle,$500,Gloucester,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-16,Caleb Echterling,$250,Richmond,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-06,Susan Eilberg,$250,Virginia Beach,VA,individual,,A,305002,2023-01-03
-contribution,2022-11-22,ELEVENTH CONGRESSIONAL DISTRICT 11/92 DEMOCRATIC COMMITTEE OF VIRGINIA,"$1,000",Fairfax,VA,pac,,A,305002,2023-01-03
+contribution,2022-11-22,ELEVENTH CONGRESSIONAL DISTRICT 11/92 DEMOCRATIC COMMITTEE OF VIRGINIA,"$1,000",Fairfax,VA,business,,A,305002,2023-01-03
 contribution,2022-12-24,Ellery Ellery Schempp,$250,Medford,MA,individual,,A,305002,2023-01-03
 contribution,2022-12-17,robert elliott,$250,Burke,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-06,Energized for Change PAC,"$2,500",Springfield,VA,pac,,A,305002,2023-01-03
 contribution,2022-12-28,Ms. Sandra Sue Evans,$250,Falls Church,VA,individual,,A,305002,2023-01-03
-contribution,2022-12-26,Fairfax County Democratic Committee,$500,Fairfax,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-26,Fairfax County Democratic Committee,$500,Fairfax,VA,business,,A,305002,2023-01-03
 contribution,2022-12-06,Ramin Fatehi,$250,Norfolk,VA,individual,,A,305002,2023-01-03
-contribution,2022-12-26,Fauquier County Democratic Committee,$500,Warrenton,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-03,Favola for State Senate,"$1,500",Arlington,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-26,Fauquier County Democratic Committee,$500,Warrenton,VA,business,,A,305002,2023-01-03
+contribution,2022-12-03,Favola for State Senate,"$1,500",Arlington,VA,business,,A,305002,2023-01-03
 contribution,2022-10-01,jason fawcett,"$1,000",Suffolk,VA,individual,,A,305002,2023-01-03
 contribution,2022-07-21,Nathan Fidel,$50,Phoenix,AZ,individual,,A,305002,2023-01-03
 contribution,2022-11-29,Marie Finch,"$2,500",Norfolk,VA,individual,,A,305002,2023-01-03
@@ -204,13 +204,13 @@ contribution,2022-11-14,Leah Flax,$250,Virginia Beach,VA,individual,,A,305002,20
 contribution,2022-12-13,Lynn Fletcher,$250,Falls Church,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-18,Michal Freedman,$250,Rockville,MD,individual,,A,305002,2023-01-03
 contribution,2022-12-28,Barbara Friedman,$250,Culpeper,VA,individual,,A,305002,2023-01-03
-contribution,2022-12-02,FRIENDS FOR JENNIFER McCLELLAN,"$5,000",Richmond,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-08,Friends of Angelia Williams Graves,$500,Norfolk,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-26,Friends of Anton Bell,$500,Hampton,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-07,Friends of Brandon Hutchins,$500,Virginia Beach,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-12,Friends of Don Beyer,"$5,000",Arlington,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-26,Friends of Don Scott,"$5,000",Portsmouth,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-08,Friends of Kim Melnyk,"$1,000",Virginia Beach,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-02,FRIENDS FOR JENNIFER McCLELLAN,"$5,000",Richmond,VA,business,,A,305002,2023-01-03
+contribution,2022-12-08,Friends of Angelia Williams Graves,$500,Norfolk,VA,business,,A,305002,2023-01-03
+contribution,2022-12-26,Friends of Anton Bell,$500,Hampton,VA,business,,A,305002,2023-01-03
+contribution,2022-12-07,Friends of Brandon Hutchins,$500,Virginia Beach,VA,business,,A,305002,2023-01-03
+contribution,2022-12-12,Friends of Don Beyer,"$5,000",Arlington,VA,business,,A,305002,2023-01-03
+contribution,2022-12-26,Friends of Don Scott,"$5,000",Portsmouth,VA,business,,A,305002,2023-01-03
+contribution,2022-12-08,Friends of Kim Melnyk,"$1,000",Virginia Beach,VA,business,,A,305002,2023-01-03
 contribution,2022-11-21,Matthew Gabriele,$50,Blacksburg,VA,individual,,A,305002,2023-01-03
 contribution,2022-11-26,Patricia Gadzinski,$100,Virginia Beach,VA,individual,,A,305002,2023-01-03
 contribution,2022-11-29,Patricia Gadzinski,$100,Virginia Beach,VA,individual,,A,305002,2023-01-03
@@ -235,8 +235,8 @@ contribution,2022-12-16,BARRY GORMAN,$50,Bethesda,MD,individual,,A,305002,2023-0
 contribution,2022-12-19,BARRY GORMAN,$75,Bethesda,MD,individual,,A,305002,2023-01-03
 contribution,2022-12-12,Lavonda Graham,$500,Alexandria,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-14,W. Grandison,$500,Mclean,VA,individual,,A,305002,2023-01-03
-contribution,2022-12-04,"Graves Funeral Home, Inc","$2,500",Norfolk,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-15,Green Advocacy Project,"$25,000",Washington,DC,pac,,A,305002,2023-01-03
+contribution,2022-12-04,"Graves Funeral Home, Inc","$2,500",Norfolk,VA,business,,A,305002,2023-01-03
+contribution,2022-12-15,Green Advocacy Project,"$25,000",Washington,DC,business,,A,305002,2023-01-03
 contribution,2022-12-06,Rachel Greenberg,$100,Norfolk,VA,individual,,A,305002,2023-01-03
 contribution,2022-09-07,Ms. Lauralee M Grim,$36,Virginia Beach,VA,individual,,A,305002,2023-01-03
 contribution,2022-10-07,Ms. Lauralee M Grim,$36,Virginia Beach,VA,individual,,A,305002,2023-01-03
@@ -316,7 +316,7 @@ contribution,2022-12-20,Carol Krafka,$500,Washington,DC,individual,,A,305002,202
 contribution,2022-12-28,John Kratus,$500,Haslett,MI,individual,,A,305002,2023-01-03
 contribution,2022-12-21,Betsy Krieger,$250,Baltimore,MD,individual,,A,305002,2023-01-03
 contribution,2022-12-13,Walter Kuhn,$500,Waban,MA,individual,,A,305002,2023-01-03
-contribution,2022-12-01,L Louise Lucas Campaign Fund,"$20,000",Portsmouth,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-01,L Louise Lucas Campaign Fund,"$20,000",Portsmouth,VA,business,,A,305002,2023-01-03
 contribution,2022-11-20,Annette Lang,$100,Arlington,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-14,Annette Lang,$100,Arlington,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-14,Annette Lang,$100,Arlington,VA,individual,,A,305002,2023-01-03
@@ -392,8 +392,8 @@ contribution,2022-12-15,Steve Newman,$714.28,Portola Valley,CA,individual,,A,305
 contribution,2022-11-29,Sarah O'Neill,"$2,000",New York,NY,individual,,A,305002,2023-01-03
 contribution,2022-12-08,Ryan O'Toole,$150,Richmond,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-17,One Commonwealth PAC,"$1,000",Alexandria,VA,pac,,A,305002,2023-01-03
-contribution,2022-12-19,One Richmond PAC,"$1,000",Richmond,VA,individual,,A,305002,2023-01-03
-contribution,2022-11-15,Parham & Associates Inc.,$500,Virginia Beach,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-19,One Richmond PAC,"$1,000",Richmond,VA,pac,,A,305002,2023-01-03
+contribution,2022-11-15,Parham & Associates Inc.,$500,Virginia Beach,VA,business,,A,305002,2023-01-03
 contribution,2022-11-30,Allan Parrott Jr,"$2,500",Virginia Beach,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-14,Margaret Pastor,$500,Washington,DC,individual,,A,305002,2023-01-03
 contribution,2022-12-19,Margaret Pastor,$500,Washington,DC,individual,,A,305002,2023-01-03
@@ -464,7 +464,7 @@ contribution,2022-11-21,Sonija Smith,"$5,000",Charlottesville,VA,individual,,A,3
 contribution,2022-11-20,Stephen M. Smith,$500,Norfolk,VA,individual,,A,305002,2023-01-03
 contribution,2022-08-10,William Somerindyke,"$1,000",Virginia Beach,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-16,Audrey Spiegel,$500,New York,NY,individual,,A,305002,2023-01-03
-contribution,2022-12-26,"Stallings Law Group, P.C.",$250,Virginia Beach,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-26,"Stallings Law Group, P.C.",$250,Virginia Beach,VA,business,,A,305002,2023-01-03
 contribution,2022-12-21,Jason Steinbaum,$150,Mclean,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-27,Fern Steiner,$250,San Diego,CA,individual,,A,305002,2023-01-03
 contribution,2022-12-07,Beth Stekler,$100,Washington,DC,individual,,A,305002,2023-01-03
@@ -499,16 +499,16 @@ contribution,2022-12-07,Lisa Turner,$250,Virginia Beach,VA,individual,,A,305002,
 contribution,2022-12-08,Elizabeth Ungar,$150,Sleepy Hollow,NY,individual,,A,305002,2023-01-03
 contribution,2022-12-12,Elizabeth Ungar,$10,Sleepy Hollow,NY,individual,,A,305002,2023-01-03
 contribution,2022-11-15,Howard Unger,"$2,000",Norfolk,VA,individual,,A,305002,2023-01-03
-contribution,2022-12-26,United Association of Journeymen and Apprentices,$500,Norfolk,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-26,United Association of Journeymen and Apprentices,$500,Norfolk,VA,business,,A,305002,2023-01-03
 contribution,2022-12-08,philippe villers,$25,Concord,MA,individual,,A,305002,2023-01-03
 contribution,2022-12-27,philippe villers,$50,Concord,MA,individual,,A,305002,2023-01-03
 contribution,2022-12-27,philippe villers,$33.33,Concord,MA,individual,,A,305002,2023-01-03
 contribution,2022-07-12,Virginia Automobile & Truck Dealers PAC,"$2,500",Richmond,VA,pac,,A,305002,2023-01-03
-contribution,2022-11-17,Virginia Beach Democratic Committee,"$5,000",Virginia Beach,VA,pac,,A,305002,2023-01-03
+contribution,2022-11-17,Virginia Beach Democratic Committee,"$5,000",Virginia Beach,VA,business,,A,305002,2023-01-03
 contribution,2022-12-08,Virginia Future Generations PAC,"$5,000",Portsmouth,VA,pac,,A,305002,2023-01-03
 contribution,2022-12-09,Virginia Senate Democratic Caucus,"$150,000",Richmond,VA,party,,A,305002,2023-01-03
 contribution,2022-12-27,Virginia Senate Democratic Caucus,"$120,000",Richmond,VA,party,,A,305002,2023-01-03
-contribution,2022-12-26,Virginia State Legislative Black Caucus,"$30,000",Richmond,VA,pac,,A,305002,2023-01-03
+contribution,2022-12-26,Virginia State Legislative Black Caucus,"$30,000",Richmond,VA,business,,A,305002,2023-01-03
 contribution,2022-12-26,Virginia Trial Lawyers PAC,"$2,500",Richmond,VA,pac,,A,305002,2023-01-03
 contribution,2022-12-15,James Vizzard,$500,Arlington,VA,individual,,A,305002,2023-01-03
 contribution,2022-07-01,Garland Waller,$100,Va Beach,VA,individual,,A,305002,2023-01-03
@@ -536,11 +536,11 @@ contribution,2022-12-12,Thomas Wood,$500,Williamsburg,VA,individual,,A,305002,20
 contribution,2022-12-02,Claire Yoder,$70,Virginia Beach,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-09,Richard Zahn,$250,Virginia Beach,VA,individual,,A,305002,2023-01-03
 contribution,2022-12-02,Julie H. Zalkind,$300,Arlington,VA,individual,,A,305002,2023-01-03
-contribution,2025-12-18,Acadia Healthcare,"$1,000",Franklin,TN,pac,,A,480450,2026-01-15
+contribution,2025-12-18,Acadia Healthcare,"$1,000",Franklin,TN,business,,A,480450,2026-01-15
 contribution,2025-12-30,Commercial Development PAC,$500,Alexandria,VA,pac,,A,480450,2026-01-15
 contribution,2025-12-17,Dominion Energy PAC,"$100,000",Richmond,VA,pac,,A,480450,2026-01-15
 contribution,2025-12-08,Peter Egan,$15,Yorktown,VA,individual,,A,480450,2026-01-15
-contribution,2025-12-30,Hunton Andrews Kurth,"$1,000",Richmond,VA,pac,,A,480450,2026-01-15
+contribution,2025-12-30,Hunton Andrews Kurth,"$1,000",Richmond,VA,business,,A,480450,2026-01-15
 contribution,2025-12-23,Catherine (Cathy) Lewis,$25,Norfolk,VA,individual,,A,480450,2026-01-15
 contribution,2025-12-30,Metro Virginia PAC,$500,Washington,DC,pac,,A,480450,2026-01-15
 contribution,2025-12-06,Mary Nigro,$10,Columbus,NJ,individual,,A,480450,2026-01-15
@@ -548,15 +548,15 @@ contribution,2025-12-30,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,
 contribution,2025-12-31,Evans Poston Jr,$250,Norfolk,VA,individual,,A,480450,2026-01-15
 contribution,2025-12-11,Gene Truex-Hill,$8,Los Angeles,CA,individual,,A,480450,2026-01-15
 contribution,2025-12-26,VA Digital Infrastructure PAC,"$1,500",Leesburg,VA,pac,,A,480450,2026-01-15
-contribution,2025-12-30,Vantage Data Centers Management,$500,Santa Clara,CA,pac,,A,480450,2026-01-15
+contribution,2025-12-30,Vantage Data Centers Management,$500,Santa Clara,CA,business,,A,480450,2026-01-15
 contribution,2025-12-30,Virginia Manufactured & Modular Housing PAC,$500,Henrico,VA,pac,,A,480450,2026-01-15
-contribution,2025-12-18,VSP Vision,$500,Rancho Cordova,CA,pac,,A,480450,2026-01-15
-contribution,2025-12-30,Walmart,"$1,000",Virginia Beach,VA,pac,,A,480450,2026-01-15
-contribution,2026-01-13,7 Eleven,"$1,000",Virginia Beach,VA,pac,,A,497030,2026-07-15
-contribution,2026-01-13,Access Point Public Affairs,$500,Virginia Beach,VA,pac,,A,497030,2026-07-15
+contribution,2025-12-18,VSP Vision,$500,Rancho Cordova,CA,business,,A,480450,2026-01-15
+contribution,2025-12-30,Walmart,"$1,000",Virginia Beach,VA,business,,A,480450,2026-01-15
+contribution,2026-01-13,7 Eleven,"$1,000",Virginia Beach,VA,business,,A,497030,2026-07-15
+contribution,2026-01-13,Access Point Public Affairs,$500,Virginia Beach,VA,business,,A,497030,2026-07-15
 contribution,2026-01-07,Sheryl Bailey,$100,Midlothian,VA,individual,,A,497030,2026-07-15
-contribution,2026-01-12,Capital Results LLC,$500,Richmond,VA,pac,,A,497030,2026-07-15
-contribution,2026-01-12,Carbon Solutions Group,$500,Buckingham,IA,pac,,A,497030,2026-07-15
+contribution,2026-01-12,Capital Results LLC,$500,Richmond,VA,business,,A,497030,2026-07-15
+contribution,2026-01-12,Carbon Solutions Group,$500,Buckingham,IA,business,,A,497030,2026-07-15
 contribution,2026-04-16,Commissioner of Revenue,$250,Staunton,VA,pac,,A,497030,2026-07-15
 contribution,2026-04-16,Community-Owned Power PAC,$500,Glen Allen,VA,pac,,A,497030,2026-07-15
 contribution,2026-01-07,Dominion Energy PAC,"$50,000",Richmond,VA,pac,,A,497030,2026-07-15
@@ -567,16 +567,16 @@ contribution,2026-05-13,Peter Egan,$15,Yorktown,VA,individual,,A,497030,2026-07-
 contribution,2026-06-14,Peter Egan,$15,Yorktown,VA,individual,,A,497030,2026-07-15
 contribution,2026-01-12,Paul Goldean,"$2,500",Charlotte,NC,individual,,A,497030,2026-07-15
 contribution,2026-01-12,HOSPAC,"$1,000",Henrico,VA,pac,,A,497030,2026-07-15
-contribution,2026-01-13,Jushi Inc,"$5,000",Boca Raton,FL,pac,,A,497030,2026-07-15
+contribution,2026-01-13,Jushi Inc,"$5,000",Boca Raton,FL,business,,A,497030,2026-07-15
 contribution,2026-03-23,Catherine (Cathy) Lewis,$25,Norfolk,VA,individual,,A,497030,2026-07-15
 contribution,2026-04-23,Catherine (Cathy) Lewis,$25,Norfolk,VA,individual,,A,497030,2026-07-15
 contribution,2026-05-24,Catherine (Cathy) Lewis,$25,Norfolk,VA,individual,,A,497030,2026-07-15
 contribution,2026-06-23,Catherine (Cathy) Lewis,$25,Norfolk,VA,individual,,A,497030,2026-07-15
 contribution,2026-01-12,VC Association PAC,"$5,000",Richmond,VA,pac,,A,497030,2026-07-15
-contribution,2026-01-12,Verano Holdings LLC,"$1,500",Chicago,IL,pac,,A,497030,2026-07-15
-contribution,2026-06-12,Virginia AFL-CIO,"$1,000",Henrico,VA,pac,,A,497030,2026-07-15
+contribution,2026-01-12,Verano Holdings LLC,"$1,500",Chicago,IL,business,,A,497030,2026-07-15
+contribution,2026-06-12,Virginia AFL-CIO,"$1,000",Henrico,VA,business,,A,497030,2026-07-15
 contribution,2026-01-12,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,497030,2026-07-15
-contribution,2026-01-13,Vision Management Services,"$2,500",Chicago,IL,pac,,A,497030,2026-07-15
+contribution,2026-01-13,Vision Management Services,"$2,500",Chicago,IL,business,,A,497030,2026-07-15
 contribution,2026-01-13,Met Life Insurance PAC,"$1,000",Scranton,PA,pac,,A,497030,2026-07-15
 contribution,2026-01-13,National Coalition of Associations,"$7,500",Ceres,CA,pac,,A,497030,2026-07-15
 contribution,2026-01-06,Mary Nigro,$10,Columbus,NJ,individual,,A,497030,2026-07-15
@@ -584,14 +584,14 @@ contribution,2026-01-07,Mary Nigro,$10,Columbus,NJ,individual,,A,497030,2026-07-
 contribution,2026-04-06,Mary Nigro,$10,Columbus,NJ,individual,,A,497030,2026-07-15
 contribution,2026-05-06,Mary Nigro,$10,Columbus,NJ,individual,,A,497030,2026-07-15
 contribution,2026-06-07,Mary Nigro,$10,Columbus,NJ,individual,,A,497030,2026-07-15
-contribution,2026-01-13,Organizing for VA Seniors,"$2,500",Fairfax,VA,pac,,A,497030,2026-07-15
+contribution,2026-01-13,Organizing for VA Seniors,"$2,500",Fairfax,VA,business,,A,497030,2026-07-15
 contribution,2026-01-12,Michael Pace,"$5,000",Hartwell,GA,individual,,A,497030,2026-07-15
-contribution,2026-01-12,POM of Virginia,"$5,000",Duluth,GA,pac,,A,497030,2026-07-15
-contribution,2026-01-13,Rocket,"$2,000",Detroit,MI,pac,,A,497030,2026-07-15
+contribution,2026-01-12,POM of Virginia,"$5,000",Duluth,GA,business,,A,497030,2026-07-15
+contribution,2026-01-13,Rocket,"$2,000",Detroit,MI,business,,A,497030,2026-07-15
 contribution,2026-01-07,Debra Rodman,$500,Henrico,VA,individual,,A,497030,2026-07-15
 contribution,2026-01-07,Debra Rodman,$500,Henrico,VA,individual,,A,497030,2026-07-15
-contribution,2026-01-05,Rouse for Virginia,"$6,616.38",Virginia Beach,VA,pac,,A,497030,2026-07-15
-contribution,2026-01-12,Sentara Health Plans,$500,Virginia Beach,VA,pac,,A,497030,2026-07-15
+contribution,2026-01-05,Rouse for Virginia,"$6,616.38",Virginia Beach,VA,business,,A,497030,2026-07-15
+contribution,2026-01-12,Sentara Health Plans,$500,Virginia Beach,VA,business,,A,497030,2026-07-15
 contribution,2026-04-16,SMART TD PAC,$500,Chester,VA,pac,,A,497030,2026-07-15
 contribution,2026-01-11,Gene Truex-Hill,$8,Los Angeles,CA,individual,,A,497030,2026-07-15
 contribution,2026-01-14,Gene Truex-Hill,$8,Los Angeles,CA,individual,,A,497030,2026-07-15
@@ -599,14 +599,14 @@ contribution,2026-04-13,Gene Truex-Hill,$8,Los Angeles,CA,individual,,A,497030,2
 contribution,2026-05-13,Gene Truex-Hill,$8,Los Angeles,CA,individual,,A,497030,2026-07-15
 contribution,2026-06-14,Gene Truex-Hill,$8,Los Angeles,CA,individual,,A,497030,2026-07-15
 contribution,2026-01-12,UpVote PAC,"$1,000",Chesterfield,VA,pac,,A,497030,2026-07-15
-contribution,2026-04-16,VA Operators for Skill,"$10,000",Richmond,VA,pac,,A,497030,2026-07-15
+contribution,2026-04-16,VA Operators for Skill,"$10,000",Richmond,VA,business,,A,497030,2026-07-15
 in_kind,2022-06-22,Steve Elena,"$2,100",Virginia Beach,VA,individual,Fundraising event,B,292765,2022-07-15
 in_kind,2022-04-15,Guy for Delegate,"$10,061",Virginia Beach,VA,candidate,Campaign contacts,B,292765,2022-07-15
-in_kind,2022-04-15,Chris Hurst,"$2,170",Blacksburg,VA,pac,Campaign contacts,B,292765,2022-07-15
+in_kind,2022-04-15,Chris Hurst,"$2,170",Blacksburg,VA,business,Campaign contacts,B,292765,2022-07-15
 in_kind,2022-06-22,Lynne Keenan,"$1,000",Virginia Beach,VA,individual,Event catering,B,292765,2022-07-15
 in_kind,2022-04-16,Bruce Smith,$300,Virginia Beach,VA,individual,Fundraising event space,B,292765,2022-07-15
 in_kind,2022-06-30,Jody M. Wagner,"$2,850",Virginia Beach,VA,individual,Event space and catering,B,292765,2022-07-15
-in_kind,2022-11-14,Clean Virginia Fund,"$2,500",Charlottesville,VA,pac,Research services,B,305002,2023-01-03
+in_kind,2022-11-14,Clean Virginia Fund,"$2,500",Charlottesville,VA,business,Research services,B,305002,2023-01-03
 in_kind,2022-11-14,Bob Fertik,$304.60,New York,NY,individual,Email blast,B,305002,2023-01-03
 in_kind,2022-12-08,Planned Parenthood Virginia PAC,$106,Richmond,VA,pac,Printing services,B,305002,2023-01-03
 in_kind,2022-12-23,Planned Parenthood Virginia PAC,"$34,746.74",Richmond,VA,pac,Mail printing and postage,B,305002,2023-01-03
@@ -614,199 +614,199 @@ in_kind,2022-12-23,Planned Parenthood Virginia PAC,"$4,078.94",Richmond,VA,pac,D
 in_kind,2022-12-11,Charles F Stanton,$110.27,Norfolk,VA,individual,Food at the Warner/Scott/Rouse event at COVA,B,305002,2023-01-03
 in_kind,2022-12-08,Virginia Senate Democratic Caucus,"$32,000",Richmond,VA,party,Campaign services,B,305002,2023-01-03
 in_kind,2022-12-08,Virginia Senate Democratic Caucus,"$9,500",Richmond,VA,party,Campaign services,B,305002,2023-01-03
-expenditure,2022-03-20,ActBlue Technical Services,$309.40,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-03-27,ActBlue Technical Services,$69.13,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-03-31,ActBlue Technical Services,$7.90,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-04-03,ActBlue Technical Services,$5.38,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-04-10,ActBlue Technical Services,$14.82,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-04-11,Towne Bank,$15,Portsmouth,VA,pac,Wire fee,D,292765,2022-07-15
-expenditure,2022-04-12,Best Buy,$10.59,Virginia Beach,VA,pac,Campaign supplies,D,292765,2022-07-15
-expenditure,2022-04-13,Mailchimp,$59,Atlanta,GA,pac,Email services,D,292765,2022-07-15
-expenditure,2022-04-17,ActBlue Technical Services,$152.09,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-04-20,"NGPVAN, Inc.",$150,Washington,DC,pac,Fundraising software,D,292765,2022-07-15
-expenditure,2022-04-21,"NGPVAN, Inc.",$320,Washington,DC,pac,Fundraising software,D,292765,2022-07-15
+expenditure,2022-03-20,ActBlue Technical Services,$309.40,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-03-27,ActBlue Technical Services,$69.13,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-03-31,ActBlue Technical Services,$7.90,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-04-03,ActBlue Technical Services,$5.38,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-04-10,ActBlue Technical Services,$14.82,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-04-11,Towne Bank,$15,Portsmouth,VA,business,Wire fee,D,292765,2022-07-15
+expenditure,2022-04-12,Best Buy,$10.59,Virginia Beach,VA,business,Campaign supplies,D,292765,2022-07-15
+expenditure,2022-04-13,Mailchimp,$59,Atlanta,GA,business,Email services,D,292765,2022-07-15
+expenditure,2022-04-17,ActBlue Technical Services,$152.09,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-04-20,"NGPVAN, Inc.",$150,Washington,DC,business,Fundraising software,D,292765,2022-07-15
+expenditure,2022-04-21,"NGPVAN, Inc.",$320,Washington,DC,business,Fundraising software,D,292765,2022-07-15
 expenditure,2022-04-22,Lucas Anderton,"$2,050",Virginia Beach,VA,individual,Retainer,D,292765,2022-07-15
-expenditure,2022-04-24,ActBlue Technical Services,$20.74,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-04-24,ActBlue Technical Services,$20.74,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
 expenditure,2022-04-29,Ryan Jackson,"$3,000",Virginia Beach,VA,individual,Payroll,D,292765,2022-07-15
-expenditure,2022-05-01,ActBlue Technical Services,$356.95,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-05-02,"NGPVAN, Inc.",$320,Washington,DC,pac,Fundraising software,D,292765,2022-07-15
-expenditure,2022-05-02,Office Depot,$14.84,Virginia Beach,VA,pac,Campaign office supplies,D,292765,2022-07-15
-expenditure,2022-05-08,ActBlue Technical Services,$9.88,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-05-12,Mailchimp,$59,Atlanta,GA,pac,Email services,D,292765,2022-07-15
-expenditure,2022-05-15,ActBlue Technical Services,$4.96,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-05-22,ActBlue Technical Services,$92.60,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-05-23,Best Buy,$25.43,Virginia Beach,VA,pac,Campaign supplies,D,292765,2022-07-15
-expenditure,2022-05-24,Office Depot,$14.62,Virginia Beach,VA,pac,Campaign office supplies,D,292765,2022-07-15
-expenditure,2022-05-29,ActBlue Technical Services,$0.20,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-06-01,United States Postal Service,$58,Virginia Beach,VA,pac,Post office box rental,D,292765,2022-07-15
-expenditure,2022-06-02,"NGPVAN, Inc.",$320,Washington,DC,pac,Fundraising software,D,292765,2022-07-15
-expenditure,2022-06-05,ActBlue Technical Services,$43.45,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-05-01,ActBlue Technical Services,$356.95,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-05-02,"NGPVAN, Inc.",$320,Washington,DC,business,Fundraising software,D,292765,2022-07-15
+expenditure,2022-05-02,Office Depot,$14.84,Virginia Beach,VA,business,Campaign office supplies,D,292765,2022-07-15
+expenditure,2022-05-08,ActBlue Technical Services,$9.88,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-05-12,Mailchimp,$59,Atlanta,GA,business,Email services,D,292765,2022-07-15
+expenditure,2022-05-15,ActBlue Technical Services,$4.96,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-05-22,ActBlue Technical Services,$92.60,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-05-23,Best Buy,$25.43,Virginia Beach,VA,business,Campaign supplies,D,292765,2022-07-15
+expenditure,2022-05-24,Office Depot,$14.62,Virginia Beach,VA,business,Campaign office supplies,D,292765,2022-07-15
+expenditure,2022-05-29,ActBlue Technical Services,$0.20,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-06-01,United States Postal Service,$58,Virginia Beach,VA,business,Post office box rental,D,292765,2022-07-15
+expenditure,2022-06-02,"NGPVAN, Inc.",$320,Washington,DC,business,Fundraising software,D,292765,2022-07-15
+expenditure,2022-06-05,ActBlue Technical Services,$43.45,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
 expenditure,2022-06-09,Lucas Anderton,"$3,000",Virginia Beach,VA,individual,Retainer,D,292765,2022-07-15
-expenditure,2022-06-12,ActBlue Technical Services,$124.83,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-06-19,ActBlue Technical Services,$79.46,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-06-21,ActBlue Technical Services,$11.86,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-06-12,ActBlue Technical Services,$124.83,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-06-19,ActBlue Technical Services,$79.46,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-06-21,ActBlue Technical Services,$11.86,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
 expenditure,2022-06-21,Ryan Jackson,"$3,000",Virginia Beach,VA,individual,Payroll,D,292765,2022-07-15
-expenditure,2022-06-26,ActBlue Technical Services,$83.95,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-06-30,ActBlue Technical Services,$366.77,Somerville,MA,pac,Online contribution processing fee,D,292765,2022-07-15
-expenditure,2022-07-03,ActBlue Technical Services,$7.32,Somerville,MA,pac,Online contribution processing fee,D,305002,2023-01-03
-expenditure,2022-07-05,"NGPVAN, Inc.",$320,Washington,DC,pac,Fundraising software,D,305002,2023-01-03
+expenditure,2022-06-26,ActBlue Technical Services,$83.95,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-06-30,ActBlue Technical Services,$366.77,Somerville,MA,business,Online contribution processing fee,D,292765,2022-07-15
+expenditure,2022-07-03,ActBlue Technical Services,$7.32,Somerville,MA,business,Online contribution processing fee,D,305002,2023-01-03
+expenditure,2022-07-05,"NGPVAN, Inc.",$320,Washington,DC,business,Fundraising software,D,305002,2023-01-03
 expenditure,2022-07-18,Elaine Luria for Congress,"$1,000",Virginia Beach,VA,candidate,Campaign contribution,D,305002,2023-01-03
 expenditure,2022-07-29,Jennifer Rouse for Council,"$1,500",Virginia Beach,VA,candidate,Campaign contribution,D,305002,2023-01-03
-expenditure,2022-08-04,"NGPVAN, Inc.",$320,Washington,DC,pac,Fundraising software,D,305002,2023-01-03
-expenditure,2022-08-04,Office Depot,$31.68,Virginia Beach,VA,pac,Campaign office supplies,D,305002,2023-01-03
+expenditure,2022-08-04,"NGPVAN, Inc.",$320,Washington,DC,business,Fundraising software,D,305002,2023-01-03
+expenditure,2022-08-04,Office Depot,$31.68,Virginia Beach,VA,business,Campaign office supplies,D,305002,2023-01-03
 expenditure,2022-08-05,Lucas Anderton,"$3,000",Virginia Beach,VA,individual,Consulting,D,305002,2023-01-03
-expenditure,2022-08-05,Office Depot,$11.61,Virginia Beach,VA,pac,Campaign office supplies,D,305002,2023-01-03
-expenditure,2022-08-05,Office Depot,$33.88,Virginia Beach,VA,pac,Campaign office supplies,D,305002,2023-01-03
-expenditure,2022-08-08,Fresh Prints of Virginia,$26.50,Richmond,VA,pac,Campaign printing,D,305002,2023-01-03
+expenditure,2022-08-05,Office Depot,$11.61,Virginia Beach,VA,business,Campaign office supplies,D,305002,2023-01-03
+expenditure,2022-08-05,Office Depot,$33.88,Virginia Beach,VA,business,Campaign office supplies,D,305002,2023-01-03
+expenditure,2022-08-08,Fresh Prints of Virginia,$26.50,Richmond,VA,business,Campaign printing,D,305002,2023-01-03
 expenditure,2022-08-08,Ryan Jackson,"$3,000",Virginia Beach,VA,individual,Payroll,D,305002,2023-01-03
-expenditure,2022-08-08,United States Postal Service,$72,Virginia Beach,VA,pac,PO Box,D,305002,2023-01-03
-expenditure,2022-09-02,"NGPVAN, Inc.",$320,Washington,DC,pac,Fundraising software,D,305002,2023-01-03
-expenditure,2022-10-03,"NGPVAN, Inc.",$320,Washington,DC,pac,Fundraising software,D,305002,2023-01-03
+expenditure,2022-08-08,United States Postal Service,$72,Virginia Beach,VA,business,PO Box,D,305002,2023-01-03
+expenditure,2022-09-02,"NGPVAN, Inc.",$320,Washington,DC,business,Fundraising software,D,305002,2023-01-03
+expenditure,2022-10-03,"NGPVAN, Inc.",$320,Washington,DC,business,Fundraising software,D,305002,2023-01-03
 expenditure,2022-11-01,Lucas Anderton,$668,Virginia Beach,VA,individual,Campaign website & email services,D,305002,2023-01-03
-expenditure,2022-11-14,Economy Printing,$104.76,Portsmouth,VA,pac,Campaign Printing,D,305002,2023-01-03
-expenditure,2022-11-14,Mailchimp,$11,Atlanta,GA,pac,Email services,D,305002,2023-01-03
+expenditure,2022-11-14,Economy Printing,$104.76,Portsmouth,VA,business,Campaign Printing,D,305002,2023-01-03
+expenditure,2022-11-14,Mailchimp,$11,Atlanta,GA,business,Email services,D,305002,2023-01-03
 expenditure,2022-11-16,Democratic Party of Virginia,"$2,291.34",Richmond,VA,party,Voter data services,D,305002,2023-01-03
-expenditure,2022-11-17,Patriot Signage,"$2,000",Cincinnati,OH,pac,Signage,D,305002,2023-01-03
-expenditure,2022-11-17,Virginia Beach Democratic Committee,"$5,000",Virginia Beach,VA,pac,Primary filing fee,D,305002,2023-01-03
-expenditure,2022-11-18,Patriot Signage,"$2,000",Cincinnati,OH,pac,Signage,D,305002,2023-01-03
-expenditure,2022-11-21,Economy Printing,$755.78,Portsmouth,VA,pac,Campaign printing,D,305002,2023-01-03
-expenditure,2022-11-21,Towne Bank,$15,Portsmouth,VA,pac,Wire fee,D,305002,2023-01-03
-expenditure,2022-11-21,Zoom,$15.74,San Jose,CA,pac,Video conferencing software,D,305002,2023-01-03
-expenditure,2022-11-22,Patriot Signage,"$2,000",Cincinnati,OH,pac,Signage,D,305002,2023-01-03
-expenditure,2022-11-23,Graphics To Go,"$2,506.90",Virginia Beach,VA,pac,Printing,D,305002,2023-01-03
-expenditure,2022-11-23,Patriot Signage,$250,Cincinnati,OH,pac,Signage,D,305002,2023-01-03
-expenditure,2022-11-25,Meeks Consulting LLC,"$1,500",Virginia Beach,VA,pac,Consulting,D,305002,2023-01-03
-expenditure,2022-11-28,7 Eleven,$92.14,Virginia Beach,VA,pac,Gas for campaign travel,D,305002,2023-01-03
-expenditure,2022-11-28,7 Eleven,$59.33,Virginia Beach,VA,pac,Campaign event food,D,305002,2023-01-03
+expenditure,2022-11-17,Patriot Signage,"$2,000",Cincinnati,OH,business,Signage,D,305002,2023-01-03
+expenditure,2022-11-17,Virginia Beach Democratic Committee,"$5,000",Virginia Beach,VA,business,Primary filing fee,D,305002,2023-01-03
+expenditure,2022-11-18,Patriot Signage,"$2,000",Cincinnati,OH,business,Signage,D,305002,2023-01-03
+expenditure,2022-11-21,Economy Printing,$755.78,Portsmouth,VA,business,Campaign printing,D,305002,2023-01-03
+expenditure,2022-11-21,Towne Bank,$15,Portsmouth,VA,business,Wire fee,D,305002,2023-01-03
+expenditure,2022-11-21,Zoom,$15.74,San Jose,CA,business,Video conferencing software,D,305002,2023-01-03
+expenditure,2022-11-22,Patriot Signage,"$2,000",Cincinnati,OH,business,Signage,D,305002,2023-01-03
+expenditure,2022-11-23,Graphics To Go,"$2,506.90",Virginia Beach,VA,business,Printing,D,305002,2023-01-03
+expenditure,2022-11-23,Patriot Signage,$250,Cincinnati,OH,business,Signage,D,305002,2023-01-03
+expenditure,2022-11-25,Meeks Consulting LLC,"$1,500",Virginia Beach,VA,business,Consulting,D,305002,2023-01-03
+expenditure,2022-11-28,7 Eleven,$92.14,Virginia Beach,VA,business,Gas for campaign travel,D,305002,2023-01-03
+expenditure,2022-11-28,7 Eleven,$59.33,Virginia Beach,VA,business,Campaign event food,D,305002,2023-01-03
 expenditure,2022-11-29,Justin McRae,$75,Virginia Beach,VA,individual,Sign placement services,D,305002,2023-01-03
-expenditure,2022-11-29,Office Depot,$52.99,Virginia Beach,VA,pac,Campaign office supplies,D,305002,2023-01-03
-expenditure,2022-11-29,Office Depot,$20.06,Virginia Beach,VA,pac,Campaign office supplies,D,305002,2023-01-03
+expenditure,2022-11-29,Office Depot,$52.99,Virginia Beach,VA,business,Campaign office supplies,D,305002,2023-01-03
+expenditure,2022-11-29,Office Depot,$20.06,Virginia Beach,VA,business,Campaign office supplies,D,305002,2023-01-03
 expenditure,2022-11-29,Alize Rouse,$75,Virginia Beach,VA,individual,Sign placement services,D,305002,2023-01-03
 expenditure,2022-11-29,Alize Rouse,$50,Virginia Beach,VA,individual,Sign placement services,D,305002,2023-01-03
 expenditure,2022-11-30,Tonianne Beals,"$2,000",Virginia Beach,VA,individual,Payroll,D,305002,2023-01-03
 expenditure,2022-11-30,Allison Berry,"$3,400",Norfolk,VA,individual,Payroll,D,305002,2023-01-03
-expenditure,2022-11-30,Simple Mobile,$51.27,Medley,FL,pac,Internet service,D,305002,2023-01-03
-expenditure,2022-12-02,Graphics To Go,$735.64,Virginia Beach,VA,pac,Campaign shirt printing,D,305002,2023-01-03
-expenditure,2022-12-02,"NGPVAN, Inc.",$487.32,Washington,DC,pac,Fundraising software,D,305002,2023-01-03
+expenditure,2022-11-30,Simple Mobile,$51.27,Medley,FL,business,Internet service,D,305002,2023-01-03
+expenditure,2022-12-02,Graphics To Go,$735.64,Virginia Beach,VA,business,Campaign shirt printing,D,305002,2023-01-03
+expenditure,2022-12-02,"NGPVAN, Inc.",$487.32,Washington,DC,business,Fundraising software,D,305002,2023-01-03
 expenditure,2022-12-05,Dyvina Beck,$300,Virginia Beach,VA,individual,Payroll,D,305002,2023-01-03
-expenditure,2022-12-05,Civitech,"$19,691.10",Austin,TX,pac,Voter outreach services,D,305002,2023-01-03
+expenditure,2022-12-05,Civitech,"$19,691.10",Austin,TX,business,Voter outreach services,D,305002,2023-01-03
 expenditure,2022-12-05,Ryan Jackson,"$7,500",Virginia Beach,VA,individual,Payroll,D,305002,2023-01-03
 expenditure,2022-12-07,Allison Berry,$750,Norfolk,VA,individual,Stipend,D,305002,2023-01-03
 expenditure,2022-12-07,Democratic Party of Virginia,"$16,700",Richmond,VA,party,Campaign services,D,305002,2023-01-03
 expenditure,2022-12-07,Gary Moss,$22,Norfolk,VA,individual,Contribution refund,D,305002,2023-01-03
-expenditure,2022-12-07,Towne Bank,$40,Portsmouth,VA,pac,Wire fee,D,305002,2023-01-03
-expenditure,2022-12-08,Towne Bank,$15,Portsmouth,VA,pac,Wire fee,D,305002,2023-01-03
+expenditure,2022-12-07,Towne Bank,$40,Portsmouth,VA,business,Wire fee,D,305002,2023-01-03
+expenditure,2022-12-08,Towne Bank,$15,Portsmouth,VA,business,Wire fee,D,305002,2023-01-03
 expenditure,2022-12-09,Democratic Party of Virginia,"$28,870",Richmond,VA,party,Campaign services,D,305002,2023-01-03
-expenditure,2022-12-09,Riverside Strategies,"$4,000",Austin,TX,pac,Consulting,D,305002,2023-01-03
-expenditure,2022-12-09,Sage Media Planning & Placement,"$117,958.47",Washington,DC,pac,Media placement,D,305002,2023-01-03
-expenditure,2022-12-09,Towne Bank,$95,Portsmouth,VA,pac,Wire fee,D,305002,2023-01-03
-expenditure,2022-12-12,Towne Bank,$15,Portsmouth,VA,pac,Wire fee,D,305002,2023-01-03
+expenditure,2022-12-09,Riverside Strategies,"$4,000",Austin,TX,business,Consulting,D,305002,2023-01-03
+expenditure,2022-12-09,Sage Media Planning & Placement,"$117,958.47",Washington,DC,business,Media placement,D,305002,2023-01-03
+expenditure,2022-12-09,Towne Bank,$95,Portsmouth,VA,business,Wire fee,D,305002,2023-01-03
+expenditure,2022-12-12,Towne Bank,$15,Portsmouth,VA,business,Wire fee,D,305002,2023-01-03
 expenditure,2022-12-12,Elizabeth Ungar,$150,Sleepy Hollow,NY,individual,Contribution refund,D,305002,2023-01-03
-expenditure,2022-12-15,Towne Bank,$30,Portsmouth,VA,pac,Wire fee,D,305002,2023-01-03
+expenditure,2022-12-15,Towne Bank,$30,Portsmouth,VA,business,Wire fee,D,305002,2023-01-03
 expenditure,2022-12-16,Tonianne Beals,"$3,000",Virginia Beach,VA,individual,Payroll,D,305002,2023-01-03
-expenditure,2022-12-16,Mailchimp,$11,Atlanta,GA,pac,Email services,D,305002,2023-01-03
+expenditure,2022-12-16,Mailchimp,$11,Atlanta,GA,business,Email services,D,305002,2023-01-03
 expenditure,2022-12-16,Senseney Marshall,$12.50,Falls Church,VA,individual,Contribution refund,D,305002,2023-01-03
-expenditure,2022-12-16,"NGPVAN, Inc.",$151.52,Washington,DC,pac,Fundraising software,D,305002,2023-01-03
+expenditure,2022-12-16,"NGPVAN, Inc.",$151.52,Washington,DC,business,Fundraising software,D,305002,2023-01-03
 expenditure,2022-12-16,Travis Redmond,"$1,750",Virginia Beach,VA,individual,Payroll,D,305002,2023-01-03
-expenditure,2022-12-16,RSVP Catering,"$2,660",Fairfax,VA,pac,Event catering,D,305002,2023-01-03
-expenditure,2022-12-16,Sage Media Planning & Placement,"$123,528.04",Washington,DC,pac,Media placement,D,305002,2023-01-03
-expenditure,2022-12-16,"SBDigital, Inc.","$40,370",Washington,DC,pac,Digital advertising,D,305002,2023-01-03
-expenditure,2022-12-16,Simple Mobile,$51.27,Medley,FL,pac,Internet services,D,305002,2023-01-03
-expenditure,2022-12-16,Towne Bank,$40,Portsmouth,VA,pac,Wire fee,D,305002,2023-01-03
+expenditure,2022-12-16,RSVP Catering,"$2,660",Fairfax,VA,business,Event catering,D,305002,2023-01-03
+expenditure,2022-12-16,Sage Media Planning & Placement,"$123,528.04",Washington,DC,business,Media placement,D,305002,2023-01-03
+expenditure,2022-12-16,"SBDigital, Inc.","$40,370",Washington,DC,business,Digital advertising,D,305002,2023-01-03
+expenditure,2022-12-16,Simple Mobile,$51.27,Medley,FL,business,Internet services,D,305002,2023-01-03
+expenditure,2022-12-16,Towne Bank,$40,Portsmouth,VA,business,Wire fee,D,305002,2023-01-03
 expenditure,2022-12-19,Allison Berry,"$3,000",Norfolk,VA,individual,Payroll,D,305002,2023-01-03
-expenditure,2022-12-19,Towne Bank,$30,Portsmouth,VA,pac,Wire fee,D,305002,2023-01-03
+expenditure,2022-12-19,Towne Bank,$30,Portsmouth,VA,business,Wire fee,D,305002,2023-01-03
 expenditure,2022-12-20,Joseph Gonzales,$225,Seaside,OR,individual,Campaign services,D,305002,2023-01-03
 expenditure,2022-12-20,Caroline Willette,$225,Virginia Beach,VA,individual,Campaign services,D,305002,2023-01-03
 expenditure,2022-12-21,Democratic Party of Virginia,"$27,139.14",Richmond,VA,party,Campaign services,D,305002,2023-01-03
-expenditure,2022-12-21,RSVP Catering,$886.78,Fairfax,VA,pac,Event catering,D,305002,2023-01-03
-expenditure,2022-12-21,Sage Media Planning & Placement,"$133,784.72",Washington,DC,pac,Media placement,D,305002,2023-01-03
-expenditure,2022-12-21,Towne Bank,$80,Portsmouth,VA,pac,Wire fee,D,305002,2023-01-03
-expenditure,2022-12-21,Wegman's,$146.04,Virginia Beach,VA,pac,Campaign event food,D,305002,2023-01-03
-expenditure,2022-12-21,Zoom,$15.74,San Jose,CA,pac,Video conference software,D,305002,2023-01-03
-expenditure,2022-12-22,7 Eleven,$96.79,Virginia Beach,VA,pac,Fuel for campaign travel,D,305002,2023-01-03
-expenditure,2022-12-22,Colonial parking,$96.79,Washington,DC,pac,Parking for campaign event,D,305002,2023-01-03
+expenditure,2022-12-21,RSVP Catering,$886.78,Fairfax,VA,business,Event catering,D,305002,2023-01-03
+expenditure,2022-12-21,Sage Media Planning & Placement,"$133,784.72",Washington,DC,business,Media placement,D,305002,2023-01-03
+expenditure,2022-12-21,Towne Bank,$80,Portsmouth,VA,business,Wire fee,D,305002,2023-01-03
+expenditure,2022-12-21,Wegman's,$146.04,Virginia Beach,VA,business,Campaign event food,D,305002,2023-01-03
+expenditure,2022-12-21,Zoom,$15.74,San Jose,CA,business,Video conference software,D,305002,2023-01-03
+expenditure,2022-12-22,7 Eleven,$96.79,Virginia Beach,VA,business,Fuel for campaign travel,D,305002,2023-01-03
+expenditure,2022-12-22,Colonial parking,$96.79,Washington,DC,business,Parking for campaign event,D,305002,2023-01-03
 expenditure,2022-12-22,Glenn Francis,$560,South Chesterfield,VA,individual,Sign placement services,D,305002,2023-01-03
-expenditure,2022-12-22,Office Depot,$45.15,Virginia Beach,VA,pac,Campaign supplies,D,305002,2023-01-03
-expenditure,2022-12-23,7 Eleven,$50,Virginia Beach,VA,pac,Campaign supplies,D,305002,2023-01-03
-expenditure,2022-12-23,Home Depot,$310.37,Virginia Beach,VA,pac,Campaign sign supplies,D,305002,2023-01-03
+expenditure,2022-12-22,Office Depot,$45.15,Virginia Beach,VA,business,Campaign supplies,D,305002,2023-01-03
+expenditure,2022-12-23,7 Eleven,$50,Virginia Beach,VA,business,Campaign supplies,D,305002,2023-01-03
+expenditure,2022-12-23,Home Depot,$310.37,Virginia Beach,VA,business,Campaign sign supplies,D,305002,2023-01-03
 expenditure,2022-12-23,Helen Parker,$7.50,Conyers,GA,individual,Contribution refund,D,305002,2023-01-03
-expenditure,2022-12-23,"RideShare2Vote, LLC","$1,500",Dallas,TX,pac,Ride sharing to the polls,D,305002,2023-01-03
-expenditure,2022-12-28,ActBlue Technical Services,"$9,284.63",Somerville,MA,pac,Online contribution processing fee,D,305002,2023-01-03
+expenditure,2022-12-23,"RideShare2Vote, LLC","$1,500",Dallas,TX,business,Ride sharing to the polls,D,305002,2023-01-03
+expenditure,2022-12-28,ActBlue Technical Services,"$9,284.63",Somerville,MA,business,Online contribution processing fee,D,305002,2023-01-03
 expenditure,2022-12-28,Democratic Party of Virginia,"$13,601.51",Richmond,VA,party,Campaign services,D,305002,2023-01-03
-expenditure,2022-12-28,Sage Media Planning & Placement,"$135,690.82",Washington,DC,pac,Media placement,D,305002,2023-01-03
-expenditure,2022-12-28,"SBDigital, Inc.","$51,516.50",Washington,DC,pac,Digital advertising,D,305002,2023-01-03
-expenditure,2022-12-28,"SBDigital, Inc.","$1,075.50",Washington,DC,pac,Digital advertising,D,305002,2023-01-03
-expenditure,2022-12-28,Towne Bank,$185,Portsmouth,VA,pac,Wire fees,D,305002,2023-01-03
-expenditure,2025-12-03,ActBlue Technical Services,$3.55,Somerville,MA,pac,Credit Card Processing Fees,D,480450,2026-01-15
-expenditure,2025-12-03,"NGPVAN, Inc.",$750,Washington,DC,pac,Software,D,480450,2026-01-15
-expenditure,2025-12-04,Debra Gardner for State Senate,"$2,500",North Chesterfield,VA,pac,Contribution,D,480450,2026-01-15
-expenditure,2025-12-04,Towne Bank,$55,Portsmouth,VA,pac,Bank Fees,D,480450,2026-01-15
-expenditure,2025-12-10,ActBlue Technical Services,$1.66,Somerville,MA,pac,Credit Card Processing Fees,D,480450,2026-01-15
-expenditure,2025-12-11,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,480450,2026-01-15
-expenditure,2025-12-15,X Corp,$8,San Francisco,CA,pac,Subscription,D,480450,2026-01-15
-expenditure,2025-12-17,ActBlue Technical Services,$2.52,Somerville,MA,pac,Credit Card Processing Fees,D,480450,2026-01-15
-expenditure,2025-12-24,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit Card Processing Fees,D,480450,2026-01-15
-expenditure,2025-12-26,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,480450,2026-01-15
-expenditure,2025-12-30,Hippodrome Catering,"$1,000",Richmond,VA,pac,Catering/Events,D,480450,2026-01-15
-expenditure,2025-12-31,ActBlue Technical Services,$11.54,Somerville,MA,pac,Credit Card Processing Fees,D,480450,2026-01-15
+expenditure,2022-12-28,Sage Media Planning & Placement,"$135,690.82",Washington,DC,business,Media placement,D,305002,2023-01-03
+expenditure,2022-12-28,"SBDigital, Inc.","$51,516.50",Washington,DC,business,Digital advertising,D,305002,2023-01-03
+expenditure,2022-12-28,"SBDigital, Inc.","$1,075.50",Washington,DC,business,Digital advertising,D,305002,2023-01-03
+expenditure,2022-12-28,Towne Bank,$185,Portsmouth,VA,business,Wire fees,D,305002,2023-01-03
+expenditure,2025-12-03,ActBlue Technical Services,$3.55,Somerville,MA,business,Credit Card Processing Fees,D,480450,2026-01-15
+expenditure,2025-12-03,"NGPVAN, Inc.",$750,Washington,DC,business,Software,D,480450,2026-01-15
+expenditure,2025-12-04,Debra Gardner for State Senate,"$2,500",North Chesterfield,VA,business,Contribution,D,480450,2026-01-15
+expenditure,2025-12-04,Towne Bank,$55,Portsmouth,VA,business,Bank Fees,D,480450,2026-01-15
+expenditure,2025-12-10,ActBlue Technical Services,$1.66,Somerville,MA,business,Credit Card Processing Fees,D,480450,2026-01-15
+expenditure,2025-12-11,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,480450,2026-01-15
+expenditure,2025-12-15,X Corp,$8,San Francisco,CA,business,Subscription,D,480450,2026-01-15
+expenditure,2025-12-17,ActBlue Technical Services,$2.52,Somerville,MA,business,Credit Card Processing Fees,D,480450,2026-01-15
+expenditure,2025-12-24,ActBlue Technical Services,$0.99,Somerville,MA,business,Credit Card Processing Fees,D,480450,2026-01-15
+expenditure,2025-12-26,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,480450,2026-01-15
+expenditure,2025-12-30,Hippodrome Catering,"$1,000",Richmond,VA,business,Catering/Events,D,480450,2026-01-15
+expenditure,2025-12-31,ActBlue Technical Services,$11.54,Somerville,MA,business,Credit Card Processing Fees,D,480450,2026-01-15
 expenditure,2026-01-02,Diondra Musgrave,"$8,125",Virginia Beach,VA,individual,Policy Consulting,D,497030,2026-07-15
-expenditure,2026-01-02,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-01-02,Towne Bank,$40,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-01-07,ActBlue Technical Services,$68.58,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-01-08,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-01-08,Wegman's,$116.82,Virginia Beach,VA,pac,Office Supplies,D,497030,2026-07-15
+expenditure,2026-01-02,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-01-02,Towne Bank,$40,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-01-07,ActBlue Technical Services,$68.58,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-01-08,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-01-08,Wegman's,$116.82,Virginia Beach,VA,business,Office Supplies,D,497030,2026-07-15
 expenditure,2026-01-09,Kaeli Delavin,"$3,000",Virginia Beach,VA,individual,Policy Consulting,D,497030,2026-07-15
-expenditure,2026-01-09,Directed Bye,$500,Virginia Beach,VA,pac,Events,D,497030,2026-07-15
-expenditure,2026-01-09,Towne Bank,$40,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-01-14,ActBlue Technical Services,$2.62,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-01-15,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-01-20,Mailchimp,$85,Atlanta,GA,pac,Software,D,497030,2026-07-15
-expenditure,2026-01-27,X Corp,$8,San Francisco,CA,pac,Subscription,D,497030,2026-07-15
-expenditure,2026-02-02,"NGPVAN, Inc.",$750,Washington,DC,pac,Software,D,497030,2026-07-15
-expenditure,2026-02-06,"Google, Inc.",$38.57,Mountain View,CA,pac,Email Services,D,497030,2026-07-15
-expenditure,2026-02-06,"Google, Inc.",$216,Mountain View,CA,pac,Email Services,D,497030,2026-07-15
-expenditure,2026-02-12,Mailchimp,$85,Atlanta,GA,pac,Software,D,497030,2026-07-15
-expenditure,2026-02-17,X Corp,$8,San Francisco,CA,pac,Subscription,D,497030,2026-07-15
-expenditure,2026-03-02,"Google, Inc.",$177.43,Mountain View,CA,pac,Email Services,D,497030,2026-07-15
-expenditure,2026-03-02,"NGPVAN, Inc.",$750,Washington,DC,pac,Software,D,497030,2026-07-15
-expenditure,2026-03-09,"NGPVAN, Inc.",$750,Washington,DC,pac,Software,D,497030,2026-07-15
-expenditure,2026-03-12,Calvary Revival Church,"$3,875",Norfolk,VA,pac,Contribution,D,497030,2026-07-15
-expenditure,2026-03-12,Mailchimp,$85,Atlanta,GA,pac,Software,D,497030,2026-07-15
-expenditure,2026-03-12,Skyler Passer,$500,Virginia Beach,VA,pac,Stipend,D,497030,2026-07-15
-expenditure,2026-03-16,X Corp,$8,San Francisco,CA,pac,Subscription,D,497030,2026-07-15
-expenditure,2026-03-17,Kayla Oglesby,$500,Virginia Beach,VA,pac,Stipend,D,497030,2026-07-15
+expenditure,2026-01-09,Directed Bye,$500,Virginia Beach,VA,business,Events,D,497030,2026-07-15
+expenditure,2026-01-09,Towne Bank,$40,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-01-14,ActBlue Technical Services,$2.62,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-01-15,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-01-20,Mailchimp,$85,Atlanta,GA,business,Software,D,497030,2026-07-15
+expenditure,2026-01-27,X Corp,$8,San Francisco,CA,business,Subscription,D,497030,2026-07-15
+expenditure,2026-02-02,"NGPVAN, Inc.",$750,Washington,DC,business,Software,D,497030,2026-07-15
+expenditure,2026-02-06,"Google, Inc.",$38.57,Mountain View,CA,business,Email Services,D,497030,2026-07-15
+expenditure,2026-02-06,"Google, Inc.",$216,Mountain View,CA,business,Email Services,D,497030,2026-07-15
+expenditure,2026-02-12,Mailchimp,$85,Atlanta,GA,business,Software,D,497030,2026-07-15
+expenditure,2026-02-17,X Corp,$8,San Francisco,CA,business,Subscription,D,497030,2026-07-15
+expenditure,2026-03-02,"Google, Inc.",$177.43,Mountain View,CA,business,Email Services,D,497030,2026-07-15
+expenditure,2026-03-02,"NGPVAN, Inc.",$750,Washington,DC,business,Software,D,497030,2026-07-15
+expenditure,2026-03-09,"NGPVAN, Inc.",$750,Washington,DC,business,Software,D,497030,2026-07-15
+expenditure,2026-03-12,Calvary Revival Church,"$3,875",Norfolk,VA,business,Contribution,D,497030,2026-07-15
+expenditure,2026-03-12,Mailchimp,$85,Atlanta,GA,business,Software,D,497030,2026-07-15
+expenditure,2026-03-12,Skyler Passer,$500,Virginia Beach,VA,business,Stipend,D,497030,2026-07-15
+expenditure,2026-03-16,X Corp,$8,San Francisco,CA,business,Subscription,D,497030,2026-07-15
+expenditure,2026-03-17,Kayla Oglesby,$500,Virginia Beach,VA,business,Stipend,D,497030,2026-07-15
 expenditure,2026-03-20,Virginia Senate Democratic Caucus,"$13,000",Richmond,VA,party,Contribution,D,497030,2026-07-15
-expenditure,2026-03-23,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-03-24,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-04-02,"Google, Inc.",$216,Mountain View,CA,pac,Email Services,D,497030,2026-07-15
-expenditure,2026-04-06,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-04-06,"NGPVAN, Inc.",$750,Washington,DC,pac,Software,D,497030,2026-07-15
-expenditure,2026-04-13,ActBlue Technical Services,$0.96,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-04-13,Mailchimp,$85,Atlanta,GA,pac,Software,D,497030,2026-07-15
-expenditure,2026-04-14,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-04-14,X Corp,$8,San Francisco,CA,pac,Subscription,D,497030,2026-07-15
+expenditure,2026-03-23,ActBlue Technical Services,$0.99,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-03-24,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-04-02,"Google, Inc.",$216,Mountain View,CA,business,Email Services,D,497030,2026-07-15
+expenditure,2026-04-06,ActBlue Technical Services,$0.40,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-04-06,"NGPVAN, Inc.",$750,Washington,DC,business,Software,D,497030,2026-07-15
+expenditure,2026-04-13,ActBlue Technical Services,$0.96,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-04-13,Mailchimp,$85,Atlanta,GA,business,Software,D,497030,2026-07-15
+expenditure,2026-04-14,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-04-14,X Corp,$8,San Francisco,CA,business,Subscription,D,497030,2026-07-15
 expenditure,2026-04-21,Diondra Musgrave,"$8,125",Virginia Beach,VA,individual,Policy Consulting,D,497030,2026-07-15
-expenditure,2026-04-21,Towne Bank,$45,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-04-23,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-04-24,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-05-04,"Google, Inc.",$232.24,Mountain View,CA,pac,Email Services,D,497030,2026-07-15
-expenditure,2026-05-06,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-05-11,"NGPVAN, Inc.",$750,Washington,DC,pac,Software,D,497030,2026-07-15
-expenditure,2026-05-12,Mailchimp,$85,Atlanta,GA,pac,Software,D,497030,2026-07-15
-expenditure,2026-05-13,ActBlue Technical Services,$0.96,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-05-14,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-05-14,X Corp,$8,San Francisco,CA,pac,Subscription,D,497030,2026-07-15
-expenditure,2026-05-19,STG&U,"$5,000",Norfolk,VA,pac,Legal Fees,D,497030,2026-07-15
-expenditure,2026-05-24,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-05-26,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-06-02,"Google, Inc.",$232.80,Mountain View,CA,pac,Email Services,D,497030,2026-07-15
-expenditure,2026-06-07,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-06-08,"NGPVAN, Inc.",$750,Washington,DC,pac,Software,D,497030,2026-07-15
-expenditure,2026-06-08,Unifin Inc,$99.50,Niles,IL,pac,Software,D,497030,2026-07-15
-expenditure,2026-06-12,Mailchimp,$85,Atlanta,GA,pac,Software,D,497030,2026-07-15
-expenditure,2026-06-14,ActBlue Technical Services,$0.96,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-06-15,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
-expenditure,2026-06-15,X Corp,$8,San Francisco,CA,pac,Subscription,D,497030,2026-07-15
-expenditure,2026-06-16,SB Digital,$250,Washington,DC,pac,Digtal Services,D,497030,2026-07-15
-expenditure,2026-06-23,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit Card Processing Fees,D,497030,2026-07-15
-expenditure,2026-06-24,Towne Bank,$15,Portsmouth,VA,pac,Bank Fees,D,497030,2026-07-15
+expenditure,2026-04-21,Towne Bank,$45,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-04-23,ActBlue Technical Services,$0.99,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-04-24,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-05-04,"Google, Inc.",$232.24,Mountain View,CA,business,Email Services,D,497030,2026-07-15
+expenditure,2026-05-06,ActBlue Technical Services,$0.40,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-05-11,"NGPVAN, Inc.",$750,Washington,DC,business,Software,D,497030,2026-07-15
+expenditure,2026-05-12,Mailchimp,$85,Atlanta,GA,business,Software,D,497030,2026-07-15
+expenditure,2026-05-13,ActBlue Technical Services,$0.96,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-05-14,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-05-14,X Corp,$8,San Francisco,CA,business,Subscription,D,497030,2026-07-15
+expenditure,2026-05-19,STG&U,"$5,000",Norfolk,VA,business,Legal Fees,D,497030,2026-07-15
+expenditure,2026-05-24,ActBlue Technical Services,$0.99,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-05-26,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-06-02,"Google, Inc.",$232.80,Mountain View,CA,business,Email Services,D,497030,2026-07-15
+expenditure,2026-06-07,ActBlue Technical Services,$0.40,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-06-08,"NGPVAN, Inc.",$750,Washington,DC,business,Software,D,497030,2026-07-15
+expenditure,2026-06-08,Unifin Inc,$99.50,Niles,IL,business,Software,D,497030,2026-07-15
+expenditure,2026-06-12,Mailchimp,$85,Atlanta,GA,business,Software,D,497030,2026-07-15
+expenditure,2026-06-14,ActBlue Technical Services,$0.96,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-06-15,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15
+expenditure,2026-06-15,X Corp,$8,San Francisco,CA,business,Subscription,D,497030,2026-07-15
+expenditure,2026-06-16,SB Digital,$250,Washington,DC,business,Digtal Services,D,497030,2026-07-15
+expenditure,2026-06-23,ActBlue Technical Services,$0.99,Somerville,MA,business,Credit Card Processing Fees,D,497030,2026-07-15
+expenditure,2026-06-24,Towne Bank,$15,Portsmouth,VA,business,Bank Fees,D,497030,2026-07-15

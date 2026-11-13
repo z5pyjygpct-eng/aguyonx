@@ -4,8 +4,8 @@ summary,2026-06-30,Cash on hand (ending balance),"$18,251.18",,VA,,"From officia
 summary,2026-06-30,Raised this cycle,"$111,760.29",,,,Total receipts this election cycle (Schedule H),H,497072,2026-07-15
 summary,2026-06-30,Spent this cycle,"$93,509.11",,,,Total disbursements this election cycle (Schedule H),H,497072,2026-07-15
 contribution,2025-12-26,Dominion Energy Inc Political Action Committee - Virginia,"$20,000",Richmond,VA,pac,,A,477037,2026-01-12
-contribution,2025-12-27,Friends of Mark Sickles,"$10,000",Franconia,VA,pac,,A,477037,2026-01-12
-contribution,2025-12-31,Friends of Irene Shin,"$1,500",Herndon,VA,pac,,A,477037,2026-01-12
+contribution,2025-12-27,Friends of Mark Sickles,"$10,000",Franconia,VA,business,,A,477037,2026-01-12
+contribution,2025-12-31,Friends of Irene Shin,"$1,500",Herndon,VA,business,,A,477037,2026-01-12
 contribution,2025-12-31,Virginia Society of Anesthesiologists PAC,"$1,000",Richmond,VA,pac,,A,477037,2026-01-12
 contribution,2025-12-31,Emergency Medicine Political Action Committee in Virginia,$500,Richmond,VA,pac,,A,477037,2026-01-12
 contribution,2025-12-31,Ortho PAC,$500,Richmond,VA,pac,,A,477037,2026-01-12
@@ -43,7 +43,7 @@ contribution,2026-01-02,Marta Calderon,$250,Alexandria,VA,individual,,A,477034,2
 contribution,2026-01-03,Leonel Rojas,$250,Alexandria,VA,individual,,A,477034,2026-01-12
 contribution,2026-01-03,Debra Linick,$250,Springfield,VA,individual,,A,477034,2026-01-12
 contribution,2026-01-06,Christopher McDonald,$250,Richmond,VA,individual,,A,477034,2026-01-12
-contribution,2026-01-06,Friends of JJ Singh,$250,Ashburn,VA,pac,,A,477034,2026-01-12
+contribution,2026-01-06,Friends of JJ Singh,$250,Ashburn,VA,business,,A,477034,2026-01-12
 contribution,2026-01-08,Marc Gonzalez,$250,Washington,DC,individual,,A,477034,2026-01-12
 contribution,2026-01-11,Tyler Anderson,$250,Arlington,VA,individual,,A,482730,2026-02-19
 contribution,2026-01-09,Eileen Bliss,$250,Annandale,VA,individual,,A,482730,2026-02-19
@@ -72,57 +72,57 @@ contribution,2026-05-24,Marta Calderon,$100,Alexandria,VA,individual,,A,497072,2
 contribution,2026-06-18,Marta Calderon,$50,Alexandria,VA,individual,,A,497072,2026-07-15
 contribution,2026-06-19,Marta Calderon,$100,Alexandria,VA,individual,,A,497072,2026-07-15
 contribution,2026-06-19,Marta Calderon,$100,Alexandria,VA,individual,,A,497072,2026-07-15
-contribution,2026-04-13,Capital Results LLC,$250,Richmond,VA,pac,,A,497072,2026-07-15
-contribution,2026-06-23,HCA for Good Government,"$1,000",Richmond,VA,pac,,A,497072,2026-07-15
+contribution,2026-04-13,Capital Results LLC,$250,Richmond,VA,business,,A,497072,2026-07-15
+contribution,2026-06-23,HCA for Good Government,"$1,000",Richmond,VA,business,,A,497072,2026-07-15
 contribution,2026-06-27,Joseph McGuire,$200,Washington,DC,individual,,A,497072,2026-07-15
-contribution,2026-04-13,Rivers Portsmouth Gaming,"$1,000",Portsmouth,VA,pac,,A,497072,2026-07-15
+contribution,2026-04-13,Rivers Portsmouth Gaming,"$1,000",Portsmouth,VA,business,,A,497072,2026-07-15
 contribution,2026-03-19,Leonel Rojas,$50,Alexandria,VA,individual,,A,497072,2026-07-15
 contribution,2026-06-19,Leonel Rojas,$100,Alexandria,VA,individual,,A,497072,2026-07-15
-contribution,2026-01-23,SB Digital,$405.90,Washington,DC,pac,,A,497072,2026-07-15
-contribution,2026-06-29,Transurban (USA) Inc,$500,Tysons,VA,pac,,A,497072,2026-07-15
+contribution,2026-01-23,SB Digital,$405.90,Washington,DC,business,,A,497072,2026-07-15
+contribution,2026-06-29,Transurban (USA) Inc,$500,Tysons,VA,business,,A,497072,2026-07-15
 contribution,2026-04-13,United Food and Commercial Workers International Union Local 400 ABC PAC,$250,Landover,MD,pac,,A,497072,2026-07-15
-contribution,2026-06-23,Virginia Association of Nurse Anesthetists,$500,Roanoke,VA,pac,,A,497072,2026-07-15
-contribution,2026-01-21,Virginia Auto Dealers Association,"$2,500",Richmond,VA,pac,,A,497072,2026-07-15
+contribution,2026-06-23,Virginia Association of Nurse Anesthetists,$500,Roanoke,VA,business,,A,497072,2026-07-15
+contribution,2026-01-21,Virginia Auto Dealers Association,"$2,500",Richmond,VA,business,,A,497072,2026-07-15
 contribution,2026-04-13,Virginia Hospital & Healthcare Assn PAC,$500,Richmond,VA,pac,,A,497072,2026-07-15
-contribution,2026-04-13,Virginia Professional Fire Fighters COPE Fund,"$1,500",Manassas,VA,pac,,A,497072,2026-07-15
-contribution,2026-06-23,Virginia Sheriffs Association,$250,Richmond,VA,pac,,A,497072,2026-07-15
-in_kind,2025-12-26,Friends of Dalia Palchik,$223.93,Merrifield,VA,pac,Text,B,477037,2026-01-12
-in_kind,2025-12-28,Friends of Dalia Palchik,$212.80,Merrifield,VA,pac,Text,B,477037,2026-01-12
-in_kind,2026-01-10,Capital One,"$1,200",Tysons,VA,pac,Food and drink for fundraiser,B,482730,2026-02-19
-in_kind,2026-01-10,Virginia Bankers Association,"$1,200",Glen Allen,VA,pac,Food and drink for fundraiser,B,482730,2026-02-19
-in_kind,2026-06-09,Advantus Strategies,$382.61,Richmond,VA,pac,Catering,B,497072,2026-07-15
-expenditure,2025-12-26,Wingstop,$48.75,Alexandria,VA,pac,Food for canvassers,D,477037,2026-01-12
-expenditure,2025-12-26,7-Eleven,$29.02,Alexandria,VA,pac,Snacks for canvassers,D,477037,2026-01-12
-expenditure,2025-12-27,7-Eleven,$6.03,Alexandria,VA,pac,Snacks for volunteers,D,477037,2026-01-12
-expenditure,2025-12-28,7-Eleven,$13.86,Alexandria,VA,pac,Snacks for volunteers,D,477037,2026-01-12
-expenditure,2025-12-28,7-Eleven,$13.52,Alexandria,VA,pac,Snacks for volunteers,D,477037,2026-01-12
-expenditure,2025-12-27,Uber Eats,$27.18,San Francisco,VA,pac,Food for canvassers,D,477037,2026-01-12
-expenditure,2025-12-28,Uber Eats,$127.04,San Francisco,VA,pac,Food for canvassers,D,477037,2026-01-12
-expenditure,2025-12-28,Uber Eats,$21.16,San Francisco,VA,pac,Food for canvassers,D,477037,2026-01-12
-expenditure,2025-12-27,Panera Bread,$19.18,Alexandria,VA,pac,Food for canvassers,D,477037,2026-01-12
-expenditure,2025-12-28,Panera Bread,$34.86,Alexandria,VA,pac,Food for canvassers,D,477037,2026-01-12
-expenditure,2025-12-27,Krispy Kream,$43,Alexandria,VA,pac,Food for volunteers,D,477037,2026-01-12
-expenditure,2025-12-26,Staples,$35.58,Falls Church,VA,pac,Printing,D,477037,2026-01-12
-expenditure,2025-12-27,Staples,$55.35,Falls Church,VA,pac,Printing,D,477037,2026-01-12
-expenditure,2025-12-27,Staples,$217.28,Falls Church,VA,pac,Printing,D,477037,2026-01-12
-expenditure,2025-12-28,Staples,$228.94,Falls Church,VA,pac,Printing,D,477037,2026-01-12
-expenditure,2025-12-27,Office Depot,$310.30,Alexandria,VA,pac,Printing,D,477037,2026-01-12
-expenditure,2025-12-27,Office Depot,$614.80,Alexandria,VA,pac,Printing,D,477037,2026-01-12
-expenditure,2025-12-28,Cava,$23.74,Alexandria,VA,pac,Food for canvassers,D,477037,2026-01-12
-expenditure,2025-12-29,USPS,$227.20,Alexandria,VA,pac,PO Box Lease,D,477037,2026-01-12
-expenditure,2025-12-29,UPS,$10,Alexandria,VA,pac,Notary,D,477037,2026-01-12
-expenditure,2025-12-30,Grounded Coffee,$22.76,Alexandria,VA,pac,Food,D,477037,2026-01-12
-expenditure,2025-12-27,Dominos,$101.85,Alexandria,VA,pac,Food for volunteers,D,477037,2026-01-12
-expenditure,2025-12-28,Dominos,$121.38,Alexandria,VA,pac,Food for volunteers,D,477037,2026-01-12
-expenditure,2025-12-26,PJ's Coffee,$56.07,Alexandria,VA,pac,Coffee for volunteers,D,477037,2026-01-12
-expenditure,2025-12-27,Target,$131.28,Alexandria,VA,pac,Party supplies,D,477037,2026-01-12
-expenditure,2025-12-27,Target,$89.77,Alexandria,VA,pac,Supplies for party,D,477037,2026-01-12
-expenditure,2025-12-27,Target,$169.58,Alexandria,VA,pac,Party supplies,D,477037,2026-01-12
-expenditure,2025-12-27,Target,$33.37,Alexandria,VA,pac,Party supplies,D,477037,2026-01-12
-expenditure,2025-12-27,Target,$9.38,Alexandria,VA,pac,Party supplies,D,477037,2026-01-12
-expenditure,2025-12-27,Target,$43.15,Alexandria,VA,pac,Party supplies,D,477037,2026-01-12
-expenditure,2025-12-28,Walgreens,$24.18,Alexandria,VA,pac,Snacks for volunteers,D,477037,2026-01-12
-expenditure,2025-12-28,Walgreens,$44.50,Alexandria,VA,pac,Party setup,D,477037,2026-01-12
+contribution,2026-04-13,Virginia Professional Fire Fighters COPE Fund,"$1,500",Manassas,VA,business,,A,497072,2026-07-15
+contribution,2026-06-23,Virginia Sheriffs Association,$250,Richmond,VA,business,,A,497072,2026-07-15
+in_kind,2025-12-26,Friends of Dalia Palchik,$223.93,Merrifield,VA,business,Text,B,477037,2026-01-12
+in_kind,2025-12-28,Friends of Dalia Palchik,$212.80,Merrifield,VA,business,Text,B,477037,2026-01-12
+in_kind,2026-01-10,Capital One,"$1,200",Tysons,VA,business,Food and drink for fundraiser,B,482730,2026-02-19
+in_kind,2026-01-10,Virginia Bankers Association,"$1,200",Glen Allen,VA,business,Food and drink for fundraiser,B,482730,2026-02-19
+in_kind,2026-06-09,Advantus Strategies,$382.61,Richmond,VA,business,Catering,B,497072,2026-07-15
+expenditure,2025-12-26,Wingstop,$48.75,Alexandria,VA,business,Food for canvassers,D,477037,2026-01-12
+expenditure,2025-12-26,7-Eleven,$29.02,Alexandria,VA,business,Snacks for canvassers,D,477037,2026-01-12
+expenditure,2025-12-27,7-Eleven,$6.03,Alexandria,VA,business,Snacks for volunteers,D,477037,2026-01-12
+expenditure,2025-12-28,7-Eleven,$13.86,Alexandria,VA,business,Snacks for volunteers,D,477037,2026-01-12
+expenditure,2025-12-28,7-Eleven,$13.52,Alexandria,VA,business,Snacks for volunteers,D,477037,2026-01-12
+expenditure,2025-12-27,Uber Eats,$27.18,San Francisco,VA,business,Food for canvassers,D,477037,2026-01-12
+expenditure,2025-12-28,Uber Eats,$127.04,San Francisco,VA,business,Food for canvassers,D,477037,2026-01-12
+expenditure,2025-12-28,Uber Eats,$21.16,San Francisco,VA,business,Food for canvassers,D,477037,2026-01-12
+expenditure,2025-12-27,Panera Bread,$19.18,Alexandria,VA,business,Food for canvassers,D,477037,2026-01-12
+expenditure,2025-12-28,Panera Bread,$34.86,Alexandria,VA,business,Food for canvassers,D,477037,2026-01-12
+expenditure,2025-12-27,Krispy Kream,$43,Alexandria,VA,business,Food for volunteers,D,477037,2026-01-12
+expenditure,2025-12-26,Staples,$35.58,Falls Church,VA,business,Printing,D,477037,2026-01-12
+expenditure,2025-12-27,Staples,$55.35,Falls Church,VA,business,Printing,D,477037,2026-01-12
+expenditure,2025-12-27,Staples,$217.28,Falls Church,VA,business,Printing,D,477037,2026-01-12
+expenditure,2025-12-28,Staples,$228.94,Falls Church,VA,business,Printing,D,477037,2026-01-12
+expenditure,2025-12-27,Office Depot,$310.30,Alexandria,VA,business,Printing,D,477037,2026-01-12
+expenditure,2025-12-27,Office Depot,$614.80,Alexandria,VA,business,Printing,D,477037,2026-01-12
+expenditure,2025-12-28,Cava,$23.74,Alexandria,VA,business,Food for canvassers,D,477037,2026-01-12
+expenditure,2025-12-29,USPS,$227.20,Alexandria,VA,business,PO Box Lease,D,477037,2026-01-12
+expenditure,2025-12-29,UPS,$10,Alexandria,VA,business,Notary,D,477037,2026-01-12
+expenditure,2025-12-30,Grounded Coffee,$22.76,Alexandria,VA,business,Food,D,477037,2026-01-12
+expenditure,2025-12-27,Dominos,$101.85,Alexandria,VA,business,Food for volunteers,D,477037,2026-01-12
+expenditure,2025-12-28,Dominos,$121.38,Alexandria,VA,business,Food for volunteers,D,477037,2026-01-12
+expenditure,2025-12-26,PJ's Coffee,$56.07,Alexandria,VA,business,Coffee for volunteers,D,477037,2026-01-12
+expenditure,2025-12-27,Target,$131.28,Alexandria,VA,business,Party supplies,D,477037,2026-01-12
+expenditure,2025-12-27,Target,$89.77,Alexandria,VA,business,Supplies for party,D,477037,2026-01-12
+expenditure,2025-12-27,Target,$169.58,Alexandria,VA,business,Party supplies,D,477037,2026-01-12
+expenditure,2025-12-27,Target,$33.37,Alexandria,VA,business,Party supplies,D,477037,2026-01-12
+expenditure,2025-12-27,Target,$9.38,Alexandria,VA,business,Party supplies,D,477037,2026-01-12
+expenditure,2025-12-27,Target,$43.15,Alexandria,VA,business,Party supplies,D,477037,2026-01-12
+expenditure,2025-12-28,Walgreens,$24.18,Alexandria,VA,business,Snacks for volunteers,D,477037,2026-01-12
+expenditure,2025-12-28,Walgreens,$44.50,Alexandria,VA,business,Party setup,D,477037,2026-01-12
 expenditure,2026-01-06,Lourdes Najarro-Zepeda,$450,Falls Church,VA,individual,Campaign,D,477034,2026-01-12
 expenditure,2026-01-06,Grayson O'Donnell,$420,Alexandria,VA,individual,Campaign,D,477034,2026-01-12
 expenditure,2026-01-06,Thomas Keating,$280,Reston,VA,individual,Campaign,D,477034,2026-01-12
@@ -140,22 +140,22 @@ expenditure,2026-01-06,Ben Lomeli,$60,Alexandria,VA,individual,Campaign,D,477034
 expenditure,2026-01-06,Ana Pop,$60,Alexandria,VA,individual,Campaign,D,477034,2026-01-12
 expenditure,2026-01-06,Nikolas Alexander,$60,Alexandria,VA,individual,Campaign,D,477034,2026-01-12
 expenditure,2026-01-06,Kai Nielson,$100,Great Falls,VA,individual,Campaign,D,477034,2026-01-12
-expenditure,2026-01-07,Empire Political Consulting,"$25,755",Reston,VA,pac,Mail,D,477034,2026-01-12
-expenditure,2026-01-05,SB Digital,"$8,022.11",Washington,DC,pac,Digital,D,477034,2026-01-12
+expenditure,2026-01-07,Empire Political Consulting,"$25,755",Reston,VA,business,Mail,D,477034,2026-01-12
+expenditure,2026-01-05,SB Digital,"$8,022.11",Washington,DC,business,Digital,D,477034,2026-01-12
 expenditure,2026-01-06,Democratic Party of Virginia,"$1,126.09",Richmond,VA,party,Voter file,D,477034,2026-01-12
-expenditure,2026-01-09,ASAP Printing,"$2,321.40",Alexandria,VA,pac,Printing,D,482730,2026-02-19
-expenditure,2026-01-10,Wegmans,$191.25,Tysons,VA,pac,Catering for fundraiser,D,482730,2026-02-19
+expenditure,2026-01-09,ASAP Printing,"$2,321.40",Alexandria,VA,business,Printing,D,482730,2026-02-19
+expenditure,2026-01-10,Wegmans,$191.25,Tysons,VA,business,Catering for fundraiser,D,482730,2026-02-19
 expenditure,2026-01-12,Matthew Savage,"$2,500",Falls Church,VA,individual,Campaign Manager Salary,D,482730,2026-02-19
-expenditure,2026-01-12,SB Digital,"$6,594.10",Washington,DC,pac,Digital buy,D,482730,2026-02-19
-expenditure,2026-01-16,NGP,$112.46,Washington,DC,pac,Data,D,482730,2026-02-19
-expenditure,2026-01-16,NGP,$89.18,Washington,DC,pac,Robocall,D,482730,2026-02-19
-expenditure,2026-01-16,NGP,$23.28,Washington,DC,pac,Robocall,D,482730,2026-02-19
-expenditure,2026-01-19,NGP,$112.01,Washington,DC,pac,Data,D,482730,2026-02-19
-expenditure,2026-01-19,NGP,$17.75,Washington,DC,pac,Robocall,D,482730,2026-02-19
-expenditure,2026-01-20,ActBlue Technical Services,$921.64,Boston,MA,pac,Processing fee,D,482730,2026-02-19
-expenditure,2026-01-20,Krispy Kreme,$70.96,Alexandria,VA,pac,Donuts for voluteers,D,482730,2026-02-19
+expenditure,2026-01-12,SB Digital,"$6,594.10",Washington,DC,business,Digital buy,D,482730,2026-02-19
+expenditure,2026-01-16,NGP,$112.46,Washington,DC,business,Data,D,482730,2026-02-19
+expenditure,2026-01-16,NGP,$89.18,Washington,DC,business,Robocall,D,482730,2026-02-19
+expenditure,2026-01-16,NGP,$23.28,Washington,DC,business,Robocall,D,482730,2026-02-19
+expenditure,2026-01-19,NGP,$112.01,Washington,DC,business,Data,D,482730,2026-02-19
+expenditure,2026-01-19,NGP,$17.75,Washington,DC,business,Robocall,D,482730,2026-02-19
+expenditure,2026-01-20,ActBlue Technical Services,$921.64,Boston,MA,business,Processing fee,D,482730,2026-02-19
+expenditure,2026-01-20,Krispy Kreme,$70.96,Alexandria,VA,business,Donuts for voluteers,D,482730,2026-02-19
 expenditure,2026-01-21,Matthew Savage,"$2,500",Falls Church,VA,individual,Campaign Manager salary,D,497072,2026-07-15
-expenditure,2026-01-23,Fairfax County Democratic Committee,$125,Fairfax,VA,pac,Contribution,D,497072,2026-07-15
+expenditure,2026-01-23,Fairfax County Democratic Committee,$125,Fairfax,VA,business,Contribution,D,497072,2026-07-15
 expenditure,2026-01-23,Jaime Wise,"$2,000",Richmond,VA,individual,Session aide,D,497072,2026-07-15
 expenditure,2026-01-26,Joshua Cobb,$300,Fredericksburg,VA,individual,Paid canvassing,D,497072,2026-07-15
 expenditure,2026-01-26,Monika Craven,$250,Fairfax,VA,individual,Canvassing,D,497072,2026-07-15
@@ -165,34 +165,34 @@ expenditure,2026-01-28,Connor Quin,$40,Vienna,VA,individual,Paid canvassing,D,49
 expenditure,2026-02-03,Marta Calderon,$167.09,Alexandria,VA,individual,Canvass Launch Reimbursements,D,497072,2026-07-15
 expenditure,2026-02-13,Jaime Wise,"$2,015",Richmond,VA,individual,Session Pay,D,497072,2026-07-15
 expenditure,2026-02-17,Matthew Savage,$420.98,Falls Church,VA,individual,Campaign Reimbursements,D,497072,2026-07-15
-expenditure,2026-02-18,Gibson Print,$208.88,Henrico,VA,pac,Printing,D,497072,2026-07-15
-expenditure,2026-02-18,NGP,$94.26,Washington,DC,pac,Robocall Payment,D,497072,2026-07-15
+expenditure,2026-02-18,Gibson Print,$208.88,Henrico,VA,business,Printing,D,497072,2026-07-15
+expenditure,2026-02-18,NGP,$94.26,Washington,DC,business,Robocall Payment,D,497072,2026-07-15
 expenditure,2026-03-04,Tram Nguyen,$83.80,Richmond,VA,individual,Event Cost,D,497072,2026-07-15
 expenditure,2026-03-06,Jaime Wise,"$2,000",Richmond,VA,individual,Session Pay,D,497072,2026-07-15
-expenditure,2026-03-10,Fairfax County Democratic Committee,$500,Fairfax,VA,pac,Franconia Dems Opening Day Sponsorship,D,497072,2026-07-15
-expenditure,2026-03-10,Fairfax County Democratic Committee,$500,Fairfax,VA,pac,Mount Vernon Dems Mardi Gras Sponsorship,D,497072,2026-07-15
+expenditure,2026-03-10,Fairfax County Democratic Committee,$500,Fairfax,VA,business,Franconia Dems Opening Day Sponsorship,D,497072,2026-07-15
+expenditure,2026-03-10,Fairfax County Democratic Committee,$500,Fairfax,VA,business,Mount Vernon Dems Mardi Gras Sponsorship,D,497072,2026-07-15
 expenditure,2026-03-14,Jaime Wise,"$1,000",Richmond,VA,individual,Session Pay,D,497072,2026-07-15
-expenditure,2026-03-22,ActBlue Technical Services,$6.93,Boston,MA,pac,Processing Fee,D,497072,2026-07-15
+expenditure,2026-03-22,ActBlue Technical Services,$6.93,Boston,MA,business,Processing Fee,D,497072,2026-07-15
 expenditure,2026-03-25,Andrew Millin,"$2,250",Woodbridge,VA,individual,Consulting,D,497072,2026-07-15
 expenditure,2026-03-25,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Dues,D,497072,2026-07-15
-expenditure,2026-03-27,Fairfax Young Democrats,$500,Merrifield,VA,pac,Contribution,D,497072,2026-07-15
-expenditure,2026-04-01,Dan Helmer for Virginia,$500,Clifton,VA,pac,Contribution,D,497072,2026-07-15
-expenditure,2026-04-06,Richmond Marriott,$234.84,Richmond,VA,pac,Hotel Room,D,497072,2026-07-15
-expenditure,2026-04-12,ActBlue Technical Services,$1.98,Boston,MA,pac,Processing Fee,D,497072,2026-07-15
-expenditure,2026-04-19,ActBlue Technical Services,$1.98,Boston,MA,pac,Processing Fee,D,497072,2026-07-15
-expenditure,2026-04-23,"Apple Payments Services, LLC",$89.99,Wilmington,DE,pac,Canva Subscription,D,497072,2026-07-15
-expenditure,2026-04-26,ActBlue Technical Services,$0.60,Boston,MA,pac,Processing Fee,D,497072,2026-07-15
-expenditure,2026-04-27,Richmond Marriott,$4.70,Richmond,VA,pac,Food,D,497072,2026-07-15
-expenditure,2026-04-28,Friends of Luke Torian,"$2,500",Dumfries,VA,pac,Contribution,D,497072,2026-07-15
+expenditure,2026-03-27,Fairfax Young Democrats,$500,Merrifield,VA,business,Contribution,D,497072,2026-07-15
+expenditure,2026-04-01,Dan Helmer for Virginia,$500,Clifton,VA,business,Contribution,D,497072,2026-07-15
+expenditure,2026-04-06,Richmond Marriott,$234.84,Richmond,VA,business,Hotel Room,D,497072,2026-07-15
+expenditure,2026-04-12,ActBlue Technical Services,$1.98,Boston,MA,business,Processing Fee,D,497072,2026-07-15
+expenditure,2026-04-19,ActBlue Technical Services,$1.98,Boston,MA,business,Processing Fee,D,497072,2026-07-15
+expenditure,2026-04-23,"Apple Payments Services, LLC",$89.99,Wilmington,DE,business,Canva Subscription,D,497072,2026-07-15
+expenditure,2026-04-26,ActBlue Technical Services,$0.60,Boston,MA,business,Processing Fee,D,497072,2026-07-15
+expenditure,2026-04-27,Richmond Marriott,$4.70,Richmond,VA,business,Food,D,497072,2026-07-15
+expenditure,2026-04-28,Friends of Luke Torian,"$2,500",Dumfries,VA,business,Contribution,D,497072,2026-07-15
 expenditure,2026-04-30,Adele McClure for Congress,$500,Washington,DC,candidate,Contribution,D,497072,2026-07-15
-expenditure,2026-05-03,ActBlue Technical Services,$9.88,Boston,MA,pac,Processing Fee,D,497072,2026-07-15
-expenditure,2026-05-06,Effect Communications,"$1,000",Denver,CO,pac,Research,D,497072,2026-07-15
-expenditure,2026-05-06,Target,$95.39,Richmond,VA,pac,Office Supplies,D,497072,2026-07-15
-expenditure,2026-05-18,Dave & Busters Springfield,"$1,160",Springfield,VA,pac,Event Costs,D,497072,2026-07-15
-expenditure,2026-05-24,ActBlue Technical Services,$5.93,Boston,MA,pac,Processing Fee,D,497072,2026-07-15
-expenditure,2026-05-31,ActBlue Technical Services,$0.60,Boston,MA,pac,Processing Fee,D,497072,2026-07-15
-expenditure,2026-06-07,ActBlue Technical Services,$5.93,Boston,MA,pac,Processing Fee,D,497072,2026-07-15
-expenditure,2026-06-13,Fairfax County Democratic Committee,$590,Fairfax,VA,pac,Sponsorship Package,D,497072,2026-07-15
-expenditure,2026-06-21,ActBlue Technical Services,$15.81,Boston,MA,pac,Processing Fee,D,497072,2026-07-15
-expenditure,2026-06-28,ActBlue Technical Services,$30.23,Boston,MA,pac,Processing Fee,D,497072,2026-07-15
-expenditure,2026-06-29,Dave & Busters Springfield,$601.24,Springfield,VA,pac,Event Cost,D,497072,2026-07-15
+expenditure,2026-05-03,ActBlue Technical Services,$9.88,Boston,MA,business,Processing Fee,D,497072,2026-07-15
+expenditure,2026-05-06,Effect Communications,"$1,000",Denver,CO,business,Research,D,497072,2026-07-15
+expenditure,2026-05-06,Target,$95.39,Richmond,VA,business,Office Supplies,D,497072,2026-07-15
+expenditure,2026-05-18,Dave & Busters Springfield,"$1,160",Springfield,VA,business,Event Costs,D,497072,2026-07-15
+expenditure,2026-05-24,ActBlue Technical Services,$5.93,Boston,MA,business,Processing Fee,D,497072,2026-07-15
+expenditure,2026-05-31,ActBlue Technical Services,$0.60,Boston,MA,business,Processing Fee,D,497072,2026-07-15
+expenditure,2026-06-07,ActBlue Technical Services,$5.93,Boston,MA,business,Processing Fee,D,497072,2026-07-15
+expenditure,2026-06-13,Fairfax County Democratic Committee,$590,Fairfax,VA,business,Sponsorship Package,D,497072,2026-07-15
+expenditure,2026-06-21,ActBlue Technical Services,$15.81,Boston,MA,business,Processing Fee,D,497072,2026-07-15
+expenditure,2026-06-28,ActBlue Technical Services,$30.23,Boston,MA,business,Processing Fee,D,497072,2026-07-15
+expenditure,2026-06-29,Dave & Busters Springfield,$601.24,Springfield,VA,business,Event Cost,D,497072,2026-07-15

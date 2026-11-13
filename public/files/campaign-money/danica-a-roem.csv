@@ -54,7 +54,7 @@ contribution,2025-07-12,Beth Biegelsen,$25,Chevy Chase,MD,individual,,A,480657,2
 contribution,2025-08-12,Beth Biegelsen,$25,Chevy Chase,MD,individual,,A,480657,2026-01-16
 contribution,2025-09-12,Beth Biegelsen,$25,Chevy Chase,MD,individual,,A,480657,2026-01-16
 contribution,2025-09-30,Su Chiang,$20,Cambridge,MA,individual,,A,480657,2026-01-16
-contribution,2025-12-08,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,480657,2026-01-16
+contribution,2025-12-08,Clean Virginia Fund,"$10,000",Charlottesville,VA,business,,A,480657,2026-01-16
 contribution,2025-07-22,john coughlin,$40,Manassas,VA,individual,,A,480657,2026-01-16
 contribution,2025-08-22,john coughlin,$40,Manassas,VA,individual,,A,480657,2026-01-16
 contribution,2025-09-22,john coughlin,$40,Manassas,VA,individual,,A,480657,2026-01-16
@@ -119,8 +119,8 @@ contribution,2026-01-10,Heidi BruMar,"$1,000",Gainesville,VA,individual,,A,49549
 contribution,2026-01-07,Doug Bunch,"$1,000",Washington,DC,individual,,A,495499,2026-07-14
 contribution,2026-01-07,Doug Bunch,"$1,000",Washington,DC,individual,,A,495499,2026-07-14
 contribution,2026-01-03,Cynthia Chambliss,$250,Gainesville,VA,individual,,A,495499,2026-07-14
-contribution,2026-04-20,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,495499,2026-07-14
-contribution,2026-06-23,Clean Virginia Fund,"$100,000",Charlottesville,VA,pac,,A,495499,2026-07-14
+contribution,2026-04-20,Clean Virginia Fund,"$10,000",Charlottesville,VA,business,,A,495499,2026-07-14
+contribution,2026-06-23,Clean Virginia Fund,"$100,000",Charlottesville,VA,business,,A,495499,2026-07-14
 contribution,2026-01-10,Joyce Connery,$100,Woodbridge,VA,individual,,A,495499,2026-07-14
 contribution,2026-01-10,Joyce Connery,$100,Woodbridge,VA,individual,,A,495499,2026-07-14
 contribution,2026-01-10,Martin Crim,$500,Manassas,VA,individual,,A,495499,2026-07-14
@@ -131,153 +131,153 @@ contribution,2026-01-06,Jim Edwards-Hewitt Edwards-Hewitt,$200,Alexandria,VA,ind
 contribution,2026-01-06,Jim Edwards-Hewitt Edwards-Hewitt,$200,Alexandria,VA,individual,,A,495499,2026-07-14
 contribution,2026-01-07,Carol Fontein,$100,Arlington,VA,individual,,A,495499,2026-07-14
 contribution,2026-01-07,Carol Fontein,$100,Arlington,VA,individual,,A,495499,2026-07-14
-contribution,2026-01-10,Friends of Michelle Maldanado,$250,Bristow,VA,pac,,A,495499,2026-07-14
+contribution,2026-01-10,Friends of Michelle Maldanado,$250,Bristow,VA,business,,A,495499,2026-07-14
 contribution,2026-01-10,Jennifer Goforth,$100,Manassas,VA,individual,,A,495499,2026-07-14
 contribution,2026-01-10,Jennifer Goforth,$100,Manassas,VA,individual,,A,495499,2026-07-14
 contribution,2026-01-09,KAREN HATCHER,$100,Manassas,VA,individual,,A,495499,2026-07-14
 contribution,2026-01-09,KAREN HATCHER,$100,Manassas,VA,individual,,A,495499,2026-07-14
 expenditure,2025-07-01,Ethan Damon,"$1,000",Richmond,VA,individual,General Consultant Fees,D,480657,2026-01-16
-expenditure,2025-07-03,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,480657,2026-01-16
-expenditure,2025-07-06,ActBlue,$7.51,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-07-07,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,480657,2026-01-16
+expenditure,2025-07-03,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,480657,2026-01-16
+expenditure,2025-07-06,ActBlue,$7.51,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-07-07,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,480657,2026-01-16
 expenditure,2025-07-09,Ethan Damon,"$3,500",Richmond,VA,individual,General Consultant Fees,D,480657,2026-01-16
-expenditure,2025-07-13,ActBlue,$4.45,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-07-14,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,480657,2026-01-16
-expenditure,2025-07-20,ActBlue,$9.69,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-07-27,ActBlue,$6.54,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-07-28,At&t,$31.82,Manassas,VA,pac,District Phone,D,480657,2026-01-16
-expenditure,2025-07-29,Virginia National Bank,$12,Brooklyn Park,MN,pac,MISCELLANEOUS FEES,D,480657,2026-01-16
-expenditure,2025-07-30,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,480657,2026-01-16
-expenditure,2025-08-01,"Sqaurespace, INC",$173.61,New York,NY,pac,Website Translation Software,D,480657,2026-01-16
-expenditure,2025-08-01,Virginia National Bank,$5.21,Brooklyn Park,MN,pac,Xfer Fee,D,480657,2026-01-16
-expenditure,2025-08-03,ActBlue,$2.52,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-08-04,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,480657,2026-01-16
-expenditure,2025-08-04,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,480657,2026-01-16
-expenditure,2025-08-10,ActBlue,$5,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-08-11,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,480657,2026-01-16
-expenditure,2025-08-17,ActBlue,$9.19,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-08-24,ActBlue,$10.49,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-08-28,At&t,$31.82,Manassas,VA,pac,District Phone,D,480657,2026-01-16
-expenditure,2025-08-28,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,480657,2026-01-16
-expenditure,2025-08-28,Virginia National Bank,$12,Brooklyn Park,MN,pac,MISCELLANEOUS FEES,D,480657,2026-01-16
-expenditure,2025-08-31,ActBlue,$1.20,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-07-13,ActBlue,$4.45,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-07-14,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,480657,2026-01-16
+expenditure,2025-07-20,ActBlue,$9.69,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-07-27,ActBlue,$6.54,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-07-28,At&t,$31.82,Manassas,VA,business,District Phone,D,480657,2026-01-16
+expenditure,2025-07-29,Virginia National Bank,$12,Brooklyn Park,MN,business,MISCELLANEOUS FEES,D,480657,2026-01-16
+expenditure,2025-07-30,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,480657,2026-01-16
+expenditure,2025-08-01,"Sqaurespace, INC",$173.61,New York,NY,business,Website Translation Software,D,480657,2026-01-16
+expenditure,2025-08-01,Virginia National Bank,$5.21,Brooklyn Park,MN,business,Xfer Fee,D,480657,2026-01-16
+expenditure,2025-08-03,ActBlue,$2.52,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-08-04,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,480657,2026-01-16
+expenditure,2025-08-04,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,480657,2026-01-16
+expenditure,2025-08-10,ActBlue,$5,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-08-11,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,480657,2026-01-16
+expenditure,2025-08-17,ActBlue,$9.19,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-08-24,ActBlue,$10.49,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-08-28,At&t,$31.82,Manassas,VA,business,District Phone,D,480657,2026-01-16
+expenditure,2025-08-28,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,480657,2026-01-16
+expenditure,2025-08-28,Virginia National Bank,$12,Brooklyn Park,MN,business,MISCELLANEOUS FEES,D,480657,2026-01-16
+expenditure,2025-08-31,ActBlue,$1.20,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
 expenditure,2025-09-02,Ethan Damon,"$2,300",Richmond,VA,individual,General Consultant Fees,D,480657,2026-01-16
-expenditure,2025-09-02,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,480657,2026-01-16
-expenditure,2025-09-07,ActBlue,$6.13,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-09-08,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,480657,2026-01-16
-expenditure,2025-09-14,ActBlue,$5.44,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-09-15,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,480657,2026-01-16
-expenditure,2025-09-21,ActBlue,$9.49,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-09-26,At&t,$31.82,Manassas,VA,pac,District Phone,D,480657,2026-01-16
-expenditure,2025-09-28,ActBlue,$8.51,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-09-28,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,480657,2026-01-16
-expenditure,2025-09-28,Virginia National Bank,$12,Brooklyn Park,MN,pac,MISCELLANEOUS FEES,D,480657,2026-01-16
-expenditure,2025-10-05,ActBlue,$21.04,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-10-06,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,480657,2026-01-16
-expenditure,2025-10-06,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,480657,2026-01-16
-expenditure,2025-10-12,ActBlue,$23.75,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-09-02,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,480657,2026-01-16
+expenditure,2025-09-07,ActBlue,$6.13,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-09-08,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,480657,2026-01-16
+expenditure,2025-09-14,ActBlue,$5.44,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-09-15,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,480657,2026-01-16
+expenditure,2025-09-21,ActBlue,$9.49,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-09-26,At&t,$31.82,Manassas,VA,business,District Phone,D,480657,2026-01-16
+expenditure,2025-09-28,ActBlue,$8.51,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-09-28,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,480657,2026-01-16
+expenditure,2025-09-28,Virginia National Bank,$12,Brooklyn Park,MN,business,MISCELLANEOUS FEES,D,480657,2026-01-16
+expenditure,2025-10-05,ActBlue,$21.04,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-10-06,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,480657,2026-01-16
+expenditure,2025-10-06,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,480657,2026-01-16
+expenditure,2025-10-12,ActBlue,$23.75,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
 expenditure,2025-10-14,Ethan Damon,"$1,600",Richmond,VA,individual,General Consultant Fees,D,480657,2026-01-16
-expenditure,2025-10-14,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,480657,2026-01-16
-expenditure,2025-10-19,ActBlue,$6.62,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-10-26,ActBlue,$77.76,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-10-27,"Sqaurespace, INC",$504,New York,NY,pac,Website,D,480657,2026-01-16
-expenditure,2025-10-28,At&t,$31.82,Manassas,VA,pac,District Phone,D,480657,2026-01-16
+expenditure,2025-10-14,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,480657,2026-01-16
+expenditure,2025-10-19,ActBlue,$6.62,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-10-26,ActBlue,$77.76,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-10-27,"Sqaurespace, INC",$504,New York,NY,business,Website,D,480657,2026-01-16
+expenditure,2025-10-28,At&t,$31.82,Manassas,VA,business,District Phone,D,480657,2026-01-16
 expenditure,2025-10-29,Ethan Damon,$500,Richmond,VA,individual,General Consultant Fees,D,480657,2026-01-16
-expenditure,2025-10-29,Virginia National Bank,$12,Brooklyn Park,MN,pac,MISCELLANEOUS FEES,D,480657,2026-01-16
-expenditure,2025-10-30,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,480657,2026-01-16
-expenditure,2025-11-02,ActBlue,$4.35,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-11-03,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,480657,2026-01-16
-expenditure,2025-11-09,ActBlue,$11.47,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-11-10,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,480657,2026-01-16
-expenditure,2025-11-10,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,480657,2026-01-16
-expenditure,2025-11-16,ActBlue,$13.20,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-11-23,ActBlue,$2.97,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-11-28,At&t,$31.82,Manassas,VA,pac,District Phone,D,480657,2026-01-16
-expenditure,2025-11-28,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,480657,2026-01-16
-expenditure,2025-11-28,Virginia National Bank,$12,Brooklyn Park,MN,pac,MISCELLANEOUS FEES,D,480657,2026-01-16
-expenditure,2025-11-30,ActBlue,$3.02,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-11-30,ActBlue,$9.19,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-12-01,ActBlue,$7.71,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-12-01,ActBlue,$35.60,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-12-02,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,480657,2026-01-16
-expenditure,2025-12-07,ActBlue,$19.42,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-12-08,Virginia National Bank,$15,Brooklyn Park,MN,pac,Outgoing Money Xfer Fee,D,480657,2026-01-16
-expenditure,2025-12-14,ActBlue,$6.38,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-12-15,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,480657,2026-01-16
-expenditure,2025-12-21,ActBlue,$423.79,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-12-24,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,480657,2026-01-16
-expenditure,2025-12-26,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,480657,2026-01-16
-expenditure,2025-12-28,ActBlue,$79.07,Somerville,MA,pac,ActBlue Fees,D,480657,2026-01-16
-expenditure,2025-12-29,At&t,$31.82,Manassas,VA,pac,District Phone,D,480657,2026-01-16
-expenditure,2025-12-31,Virginia National Bank,$12,Brooklyn Park,MN,pac,MISCELLANEOUS FEES,D,480657,2026-01-16
-expenditure,2026-01-02,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,495499,2026-07-14
-expenditure,2026-01-05,ActBlue,$111.82,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-01-12,ActBlue,$311.43,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
+expenditure,2025-10-29,Virginia National Bank,$12,Brooklyn Park,MN,business,MISCELLANEOUS FEES,D,480657,2026-01-16
+expenditure,2025-10-30,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,480657,2026-01-16
+expenditure,2025-11-02,ActBlue,$4.35,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-11-03,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,480657,2026-01-16
+expenditure,2025-11-09,ActBlue,$11.47,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-11-10,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,480657,2026-01-16
+expenditure,2025-11-10,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,480657,2026-01-16
+expenditure,2025-11-16,ActBlue,$13.20,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-11-23,ActBlue,$2.97,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-11-28,At&t,$31.82,Manassas,VA,business,District Phone,D,480657,2026-01-16
+expenditure,2025-11-28,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,480657,2026-01-16
+expenditure,2025-11-28,Virginia National Bank,$12,Brooklyn Park,MN,business,MISCELLANEOUS FEES,D,480657,2026-01-16
+expenditure,2025-11-30,ActBlue,$3.02,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-11-30,ActBlue,$9.19,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-12-01,ActBlue,$7.71,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-12-01,ActBlue,$35.60,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-12-02,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,480657,2026-01-16
+expenditure,2025-12-07,ActBlue,$19.42,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-12-08,Virginia National Bank,$15,Brooklyn Park,MN,business,Outgoing Money Xfer Fee,D,480657,2026-01-16
+expenditure,2025-12-14,ActBlue,$6.38,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-12-15,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,480657,2026-01-16
+expenditure,2025-12-21,ActBlue,$423.79,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-12-24,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,480657,2026-01-16
+expenditure,2025-12-26,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,480657,2026-01-16
+expenditure,2025-12-28,ActBlue,$79.07,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16
+expenditure,2025-12-29,At&t,$31.82,Manassas,VA,business,District Phone,D,480657,2026-01-16
+expenditure,2025-12-31,Virginia National Bank,$12,Brooklyn Park,MN,business,MISCELLANEOUS FEES,D,480657,2026-01-16
+expenditure,2026-01-02,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,495499,2026-07-14
+expenditure,2026-01-05,ActBlue,$111.82,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-01-12,ActBlue,$311.43,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
 expenditure,2026-01-12,Jamie Maniscalo,"$1,853",Richmond,VA,individual,Pre-session fundraising consulting,D,495499,2026-07-14
-expenditure,2026-01-12,Total Wine,$69.48,Henrico,VA,pac,Event Refreshments,D,495499,2026-07-14
+expenditure,2026-01-12,Total Wine,$69.48,Henrico,VA,business,Event Refreshments,D,495499,2026-07-14
 expenditure,2026-01-13,Ethan Damon,"$3,500",Washington,DC,individual,Political Consultant Fees,D,495499,2026-07-14
-expenditure,2026-01-14,Richmond City Parking,$1.95,Richmond,VA,pac,Parking,D,495499,2026-07-14
-expenditure,2026-01-14,Richmond City Parking,$3.24,Richmond,VA,pac,Parking,D,495499,2026-07-14
-expenditure,2026-01-14,Virginia National Bank,$127.68,Brooklyn Park,MN,pac,New Checkbooks,D,495499,2026-07-14
+expenditure,2026-01-14,Richmond City Parking,$1.95,Richmond,VA,business,Parking,D,495499,2026-07-14
+expenditure,2026-01-14,Richmond City Parking,$3.24,Richmond,VA,business,Parking,D,495499,2026-07-14
+expenditure,2026-01-14,Virginia National Bank,$127.68,Brooklyn Park,MN,business,New Checkbooks,D,495499,2026-07-14
 expenditure,2026-01-15,Ethan Damon,"$2,228.49",Washington,DC,individual,Pre Session Fundraising Consulting Fees,D,495499,2026-07-14
 expenditure,2026-01-15,Jamie Maniscalo,"$1,398",Richmond,VA,individual,Session Aide,D,495499,2026-07-14
 expenditure,2026-01-15,Jamie Maniscalo,"$6,250",Richmond,VA,individual,Pre-session fundraising consulting,D,495499,2026-07-14
-expenditure,2026-01-15,Richmond City Parking,$4.15,Richmond,VA,pac,Parking,D,495499,2026-07-14
-expenditure,2026-01-16,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,495499,2026-07-14
-expenditure,2026-01-19,ActBlue,$3.06,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-01-29,At&t,$34.98,Manassas,VA,pac,District Phone,D,495499,2026-07-14
-expenditure,2026-01-29,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,495499,2026-07-14
-expenditure,2026-01-30,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,495499,2026-07-14
+expenditure,2026-01-15,Richmond City Parking,$4.15,Richmond,VA,business,Parking,D,495499,2026-07-14
+expenditure,2026-01-16,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,495499,2026-07-14
+expenditure,2026-01-19,ActBlue,$3.06,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-01-29,At&t,$34.98,Manassas,VA,business,District Phone,D,495499,2026-07-14
+expenditure,2026-01-29,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,495499,2026-07-14
+expenditure,2026-01-30,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,495499,2026-07-14
 expenditure,2026-02-02,Ethan Damon,"$2,228.49",Washington,DC,individual,Political Consulting Fees,D,495499,2026-07-14
-expenditure,2026-02-02,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,495499,2026-07-14
-expenditure,2026-02-02,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,495499,2026-07-14
-expenditure,2026-02-13,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,495499,2026-07-14
-expenditure,2026-02-27,At&t,$34.73,Manassas,VA,pac,District Phone,D,495499,2026-07-14
-expenditure,2026-02-27,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,495499,2026-07-14
+expenditure,2026-02-02,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,495499,2026-07-14
+expenditure,2026-02-02,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,495499,2026-07-14
+expenditure,2026-02-13,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,495499,2026-07-14
+expenditure,2026-02-27,At&t,$34.73,Manassas,VA,business,District Phone,D,495499,2026-07-14
+expenditure,2026-02-27,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,495499,2026-07-14
 expenditure,2026-03-02,Ethan Damon,"$2,500",Washington,DC,individual,Political Consulting Fees,D,495499,2026-07-14
-expenditure,2026-03-02,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,495499,2026-07-14
-expenditure,2026-03-02,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,495499,2026-07-14
+expenditure,2026-03-02,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,495499,2026-07-14
+expenditure,2026-03-02,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,495499,2026-07-14
 expenditure,2026-03-13,Ethan Damon,$600,Washington,DC,individual,Office Supplies,D,495499,2026-07-14
-expenditure,2026-03-16,ActBlue,$3.95,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-03-20,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,495499,2026-07-14
-expenditure,2026-03-23,ActBlue,$4.16,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-03-27,At&t,$34.98,Manassas,VA,pac,District Phone,D,495499,2026-07-14
+expenditure,2026-03-16,ActBlue,$3.95,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-03-20,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,495499,2026-07-14
+expenditure,2026-03-23,ActBlue,$4.16,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-03-27,At&t,$34.98,Manassas,VA,business,District Phone,D,495499,2026-07-14
 expenditure,2026-03-30,Jamie Maniscalo,"$2,315",Richmond,VA,individual,Session Aide,D,495499,2026-07-14
-expenditure,2026-03-30,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,495499,2026-07-14
-expenditure,2026-03-31,ActBlue,$0.80,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-03-30,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,495499,2026-07-14
+expenditure,2026-03-31,ActBlue,$0.80,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
 expenditure,2026-04-01,Ethan Damon,"$3,845",Washington,DC,individual,Political Consulting Fees,D,495499,2026-07-14
-expenditure,2026-04-02,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,495499,2026-07-14
-expenditure,2026-04-02,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,495499,2026-07-14
-expenditure,2026-04-06,ActBlue,$4.56,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-04-12,ActBlue,$4.44,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-04-13,"Sqaurespace, INC",$21.20,New York,NY,pac,Website,D,495499,2026-07-14
-expenditure,2026-04-16,"Sqaurespace, INC",$101.97,New York,NY,pac,Website,D,495499,2026-07-14
-expenditure,2026-04-17,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,495499,2026-07-14
-expenditure,2026-04-20,ActBlue,$5.59,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-04-27,ActBlue,$6.33,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-04-27,"Sqaurespace, INC",$42.40,New York,NY,pac,Website,D,495499,2026-07-14
-expenditure,2026-04-29,At&t,$31.82,Manassas,VA,pac,District Phone,D,495499,2026-07-14
+expenditure,2026-04-02,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,495499,2026-07-14
+expenditure,2026-04-02,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,495499,2026-07-14
+expenditure,2026-04-06,ActBlue,$4.56,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-04-12,ActBlue,$4.44,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-04-13,"Sqaurespace, INC",$21.20,New York,NY,business,Website,D,495499,2026-07-14
+expenditure,2026-04-16,"Sqaurespace, INC",$101.97,New York,NY,business,Website,D,495499,2026-07-14
+expenditure,2026-04-17,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,495499,2026-07-14
+expenditure,2026-04-20,ActBlue,$5.59,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-04-27,ActBlue,$6.33,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-04-27,"Sqaurespace, INC",$42.40,New York,NY,business,Website,D,495499,2026-07-14
+expenditure,2026-04-29,At&t,$31.82,Manassas,VA,business,District Phone,D,495499,2026-07-14
 expenditure,2026-04-30,Ethan Damon,"$3,000",Washington,DC,individual,Political Consulting Fees,D,495499,2026-07-14
-expenditure,2026-04-30,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,495499,2026-07-14
-expenditure,2026-05-04,ActBlue,$3.18,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-05-04,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,495499,2026-07-14
-expenditure,2026-05-04,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,495499,2026-07-14
-expenditure,2026-05-11,ActBlue,$4.01,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-05-11,"Sqaurespace, INC",$292.56,New York,NY,pac,Website,D,495499,2026-07-14
-expenditure,2026-05-15,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,495499,2026-07-14
-expenditure,2026-05-18,ActBlue,$8.20,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-05-25,ActBlue,$2.38,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-05-28,At&t,$34.98,Manassas,VA,pac,District Phone,D,495499,2026-07-14
-expenditure,2026-05-29,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,495499,2026-07-14
-expenditure,2026-06-01,ActBlue,$3.18,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-06-02,NGP VAN,$493.50,Washington,DC,pac,Fundraising Software,D,495499,2026-07-14
-expenditure,2026-06-02,"Sqaurespace, INC",$34.98,New York,NY,pac,Website,D,495499,2026-07-14
-expenditure,2026-06-08,ActBlue,$4.60,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-06-15,ActBlue,$4.45,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-04-30,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,495499,2026-07-14
+expenditure,2026-05-04,ActBlue,$3.18,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-05-04,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,495499,2026-07-14
+expenditure,2026-05-04,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,495499,2026-07-14
+expenditure,2026-05-11,ActBlue,$4.01,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-05-11,"Sqaurespace, INC",$292.56,New York,NY,business,Website,D,495499,2026-07-14
+expenditure,2026-05-15,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,495499,2026-07-14
+expenditure,2026-05-18,ActBlue,$8.20,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-05-25,ActBlue,$2.38,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-05-28,At&t,$34.98,Manassas,VA,business,District Phone,D,495499,2026-07-14
+expenditure,2026-05-29,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,495499,2026-07-14
+expenditure,2026-06-01,ActBlue,$3.18,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-06-02,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,495499,2026-07-14
+expenditure,2026-06-02,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,495499,2026-07-14
+expenditure,2026-06-08,ActBlue,$4.60,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-06-15,ActBlue,$4.45,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
 expenditure,2026-06-18,Ethan Damon,"$5,000",Washington,DC,individual,Political Consulting Fees,D,495499,2026-07-14
-expenditure,2026-06-19,"Intuit, Quickbooks",$129,Mountain View,CA,pac,Payroll Software,D,495499,2026-07-14
-expenditure,2026-06-22,ActBlue,$5.54,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-06-26,At&t,$34.88,Manassas,VA,pac,District Phone,D,495499,2026-07-14
-expenditure,2026-06-29,ActBlue,$2.78,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-06-30,ActBlue,$0.40,Somerville,MA,pac,ActBlue Fees,D,495499,2026-07-14
-expenditure,2026-06-30,Phoneburner,$29,Ladera Ranch,CA,pac,Call time software,D,495499,2026-07-14
+expenditure,2026-06-19,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,495499,2026-07-14
+expenditure,2026-06-22,ActBlue,$5.54,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-06-26,At&t,$34.88,Manassas,VA,business,District Phone,D,495499,2026-07-14
+expenditure,2026-06-29,ActBlue,$2.78,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-06-30,ActBlue,$0.40,Somerville,MA,business,ActBlue Fees,D,495499,2026-07-14
+expenditure,2026-06-30,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,495499,2026-07-14

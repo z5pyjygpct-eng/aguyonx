@@ -3,9 +3,9 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$24,784.70",,VA,,"From official Schedule H, November 2025 election cycle",H,497012,2026-07-15
 summary,2026-06-30,Raised this cycle,"$17,296.13",,,,Total receipts this election cycle (Schedule H),H,497012,2026-07-15
 summary,2026-06-30,Spent this cycle,"$22,638.48",,,,Total disbursements this election cycle (Schedule H),H,497012,2026-07-15
-contribution,2024-11-19,ACE Development Company,$500,Louisville,CO,pac,,A,474617,2026-01-04
-contribution,2024-12-27,Allen Allen Allen & Allen,"$2,000",Richmond,VA,pac,,A,474617,2026-01-04
-contribution,2024-09-23,Amazon.com Services LLC,$500,Seattle,WA,pac,,A,474617,2026-01-04
+contribution,2024-11-19,ACE Development Company,$500,Louisville,CO,business,,A,474617,2026-01-04
+contribution,2024-12-27,Allen Allen Allen & Allen,"$2,000",Richmond,VA,business,,A,474617,2026-01-04
+contribution,2024-09-23,Amazon.com Services LLC,$500,Seattle,WA,business,,A,474617,2026-01-04
 contribution,2024-09-16,Richard Brewer,$100,Charlottesville,VA,individual,,A,474617,2026-01-04
 contribution,2024-09-16,Richard Brewer,$150,Charlottesville,VA,individual,,A,474617,2026-01-04
 contribution,2024-07-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,474617,2026-01-04
@@ -17,10 +17,10 @@ contribution,2024-12-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,
 contribution,2024-08-12,Bradford Goodwin,$250,Richmond,VA,individual,,A,474617,2026-01-04
 contribution,2024-12-10,Jennifer Greenlee,"$10,000",Reston,VA,individual,,A,474617,2026-01-04
 contribution,2024-12-27,HBAV Build PAC,"$1,500",Richmond,VA,pac,,A,474617,2026-01-04
-contribution,2024-10-15,HCA for Good Government,"$1,000",Richmond,VA,pac,,A,474617,2026-01-04
-contribution,2024-12-28,Humana Inc.,$250,Lexington,KY,pac,,A,474617,2026-01-04
-contribution,2024-07-23,Huntington Ingalls Industries,$500,Newport News,VA,pac,,A,474617,2026-01-04
-contribution,2024-12-27,"Hunton, Andrews, Kurth",$500,Richmond,VA,pac,,A,474617,2026-01-04
+contribution,2024-10-15,HCA for Good Government,"$1,000",Richmond,VA,business,,A,474617,2026-01-04
+contribution,2024-12-28,Humana Inc.,$250,Lexington,KY,business,,A,474617,2026-01-04
+contribution,2024-07-23,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,474617,2026-01-04
+contribution,2024-12-27,"Hunton, Andrews, Kurth",$500,Richmond,VA,business,,A,474617,2026-01-04
 contribution,2024-07-18,Herschel Kanter,$50,Sterling,VA,individual,,A,474617,2026-01-04
 contribution,2024-08-18,Herschel Kanter,$50,Sterling,VA,individual,,A,474617,2026-01-04
 contribution,2024-09-18,Herschel Kanter,$50,Sterling,VA,individual,,A,474617,2026-01-04
@@ -31,17 +31,17 @@ contribution,2024-12-21,John Kunkel,"$1,000",Ashburn,VA,individual,,A,474617,202
 contribution,2024-12-17,Loudoun Career Firefighters PAC,"$2,000",Leesburg,VA,pac,,A,474617,2026-01-04
 contribution,2024-08-12,Metro Virginia PAC,$250,Washington,DC,pac,,A,474617,2026-01-04
 contribution,2024-12-27,NOVA Build PAC,$500,Chantilly,VA,pac,,A,474617,2026-01-04
-contribution,2024-10-29,NOVEC,"$1,000",Manassas,VA,pac,,A,474617,2026-01-04
+contribution,2024-10-29,NOVEC,"$1,000",Manassas,VA,business,,A,474617,2026-01-04
 contribution,2024-09-19,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,A,474617,2026-01-04
-contribution,2024-10-29,"Strata Solar, LLC",$500,Durham,NC,pac,,A,474617,2026-01-04
+contribution,2024-10-29,"Strata Solar, LLC",$500,Durham,NC,business,,A,474617,2026-01-04
 contribution,2024-10-21,Peter Thimmesch,$250,Potomac Falls,VA,individual,,A,474617,2026-01-04
-contribution,2024-12-13,"Vantage Data Centers Management Co, LLC",$250,Santa Clara,CA,pac,,A,474617,2026-01-04
+contribution,2024-12-13,"Vantage Data Centers Management Co, LLC",$250,Santa Clara,CA,business,,A,474617,2026-01-04
 contribution,2024-08-21,Virginia Bankers Association State PAC,"$1,000",Glen Allen,VA,pac,,A,474617,2026-01-04
-contribution,2024-12-09,Virginia Beer Wholesalers Association,$500,Richmond,VA,pac,,A,474617,2026-01-04
+contribution,2024-12-09,Virginia Beer Wholesalers Association,$500,Richmond,VA,business,,A,474617,2026-01-04
 contribution,2024-12-27,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,A,474617,2026-01-04
-contribution,2024-12-27,Virginia Maritime Association,$500,Norfolk,VA,pac,,A,474617,2026-01-04
-contribution,2024-08-05,Virginia Sheriffs Association,$250,Richmond,VA,pac,,A,474617,2026-01-04
-contribution,2024-12-27,Virginia Trial Lawyers,"$1,000",Richmond,VA,pac,,A,474617,2026-01-04
+contribution,2024-12-27,Virginia Maritime Association,$500,Norfolk,VA,business,,A,474617,2026-01-04
+contribution,2024-08-05,Virginia Sheriffs Association,$250,Richmond,VA,business,,A,474617,2026-01-04
+contribution,2024-12-27,Virginia Trial Lawyers,"$1,000",Richmond,VA,business,,A,474617,2026-01-04
 contribution,2024-12-27,VOW PAC,$500,Richmond,VA,pac,,A,474617,2026-01-04
 contribution,2024-07-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474617,2026-01-04
 contribution,2024-08-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474617,2026-01-04
@@ -49,7 +49,7 @@ contribution,2024-09-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,47461
 contribution,2024-10-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474617,2026-01-04
 contribution,2024-11-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474617,2026-01-04
 contribution,2024-12-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474617,2026-01-04
-contribution,2024-12-27,Williams Mullen Clark & Dobbins,$250,Richmond,VA,pac,,A,474617,2026-01-04
+contribution,2024-12-27,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,A,474617,2026-01-04
 contribution,2025-03-29,Afsaneh Atash sobh,$500,Vienna,VA,individual,,A,474624,2026-01-04
 contribution,2025-03-30,Bijan Atash,$300,Vienna,VA,individual,,A,474624,2026-01-04
 contribution,2025-03-14,Rey Banks,$250,Potomac Falls,VA,individual,,A,474624,2026-01-04
@@ -61,9 +61,9 @@ contribution,2025-03-31,Jeffrey Breit,$500,Virginia Beach,VA,individual,,A,47462
 contribution,2025-02-24,Briskman for Supervisor,$250,Sterling,VA,candidate,,A,474624,2026-01-04
 contribution,2025-02-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,474624,2026-01-04
 contribution,2025-03-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,474624,2026-01-04
-contribution,2025-02-22,Comstock Holding Companies LLC,"$5,000",Reston,VA,pac,,A,474624,2026-01-04
+contribution,2025-02-22,Comstock Holding Companies LLC,"$5,000",Reston,VA,business,,A,474624,2026-01-04
 contribution,2025-01-02,SEIU COPE,$500,Washington,DC,individual,,A,474624,2026-01-04
-contribution,2025-03-30,DADMARZ & CO,$500,Washington,DC,pac,,A,474624,2026-01-04
+contribution,2025-03-30,DADMARZ & CO,$500,Washington,DC,business,,A,474624,2026-01-04
 contribution,2025-03-30,julie garrett,$50,Sterling,VA,individual,,A,474624,2026-01-04
 contribution,2025-03-30,julie garrett,$100,Sterling,VA,individual,,A,474624,2026-01-04
 contribution,2025-03-23,Beth Hearrell,$25,Sterling,VA,individual,,A,474624,2026-01-04
@@ -87,17 +87,17 @@ contribution,2025-03-30,Mahnaz Saadatmand,$150,Harrisonburg,VA,individual,,A,474
 contribution,2025-03-28,Rahim Samipour,$250,Aldie,VA,individual,,A,474624,2026-01-04
 contribution,2025-03-08,Betsy Stillman,$50,Sterling,VA,individual,,A,474624,2026-01-04
 contribution,2025-03-27,Betsy Stillman,$25,Sterling,VA,individual,,A,474624,2026-01-04
-contribution,2025-01-02,Sugar Creek Realty,$250,Saint Louis,MO,pac,,A,474624,2026-01-04
+contribution,2025-01-02,Sugar Creek Realty,$250,Saint Louis,MO,business,,A,474624,2026-01-04
 contribution,2025-03-26,Mary Tondreau,$250,Ashburn,VA,individual,,A,474624,2026-01-04
 contribution,2025-02-24,UFCW Local 400 ABC PAC,$250,Landover,MD,pac,,A,474624,2026-01-04
 contribution,2025-03-22,Kristen Umstattd,$250,Leesburg,VA,individual,,A,474624,2026-01-04
-contribution,2025-03-13,VA Operators for Skill,"$1,000",Richmond,VA,pac,,A,474624,2026-01-04
+contribution,2025-03-13,VA Operators for Skill,"$1,000",Richmond,VA,business,,A,474624,2026-01-04
 contribution,2025-03-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474624,2026-01-04
-contribution,2025-05-21,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,474631,2026-01-04
-contribution,2025-05-21,Anheuser Busch Companies,$250,Washington,DC,pac,,A,474631,2026-01-04
+contribution,2025-05-21,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,474631,2026-01-04
+contribution,2025-05-21,Anheuser Busch Companies,$250,Washington,DC,business,,A,474631,2026-01-04
 contribution,2025-04-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,474631,2026-01-04
 contribution,2025-05-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,474631,2026-01-04
-contribution,2025-04-23,Clean Virginia,"$5,000",Charlottesville,VA,pac,,A,474631,2026-01-04
+contribution,2025-04-23,Clean Virginia,"$5,000",Charlottesville,VA,business,,A,474631,2026-01-04
 contribution,2025-05-29,Patrick Dunckhorst,$100,Oakton,VA,individual,,A,474631,2026-01-04
 contribution,2025-05-29,julie garrett,$50,Sterling,VA,individual,,A,474631,2026-01-04
 contribution,2025-04-01,James Ghaisar,$250,Mclean,VA,individual,,A,474631,2026-01-04
@@ -120,16 +120,16 @@ contribution,2025-04-11,Betsy Stillman,$50,Sterling,VA,individual,,A,474631,2026
 contribution,2025-06-03,The Doctors Company Virginia PAC,"$1,000",Napa,CA,pac,,A,474631,2026-01-04
 contribution,2025-05-21,Virginia Automobile & Truck Dealers PAC,$500,Richmond,VA,pac,,A,474631,2026-01-04
 contribution,2025-06-01,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,A,474631,2026-01-04
-contribution,2025-05-22,Virginia Sheriffs Association,$250,Richmond,VA,pac,,A,474631,2026-01-04
-contribution,2025-06-01,Virginia Trial Lawyers,"$3,000",Richmond,VA,pac,,A,474631,2026-01-04
-contribution,2025-05-22,Waste Management,$500,Houston,TX,pac,,A,474631,2026-01-04
+contribution,2025-05-22,Virginia Sheriffs Association,$250,Richmond,VA,business,,A,474631,2026-01-04
+contribution,2025-06-01,Virginia Trial Lawyers,"$3,000",Richmond,VA,business,,A,474631,2026-01-04
+contribution,2025-05-22,Waste Management,$500,Houston,TX,business,,A,474631,2026-01-04
 contribution,2025-04-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474631,2026-01-04
 contribution,2025-05-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474631,2026-01-04
-contribution,2025-05-22,Williams Mullen Clark & Dobbins,$250,Richmond,VA,pac,,A,474631,2026-01-04
+contribution,2025-05-22,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,A,474631,2026-01-04
 contribution,2025-06-12,Baltimore Washington Construction & Public Employees Laborers PAC,"$2,500",Upper Marlboro,MD,pac,,A,474632,2026-01-04
 contribution,2025-06-18,Ali Beheshtin,"$1,000",Great Falls,VA,individual,,A,474632,2026-01-04
 contribution,2025-06-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,474632,2026-01-04
-contribution,2025-06-25,Everytown for Gun Safety Action Fund,"$1,000",New York,NY,pac,,A,474632,2026-01-04
+contribution,2025-06-25,Everytown for Gun Safety Action Fund,"$1,000",New York,NY,business,,A,474632,2026-01-04
 contribution,2025-06-29,Ramin Fatehi,$250,Norfolk,VA,individual,,A,474632,2026-01-04
 contribution,2025-06-23,Beth Hearrell,$25,Sterling,VA,individual,,A,474632,2026-01-04
 contribution,2025-06-18,Herschel Kanter,$50,Sterling,VA,individual,,A,474632,2026-01-04
@@ -138,8 +138,8 @@ contribution,2025-06-25,David Milam,$50,Washington,DC,individual,,A,474632,2026-
 contribution,2025-06-12,Virginia Cable Political Action Committee,$500,Richmond,VA,pac,,A,474632,2026-01-04
 contribution,2025-06-12,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,474632,2026-01-04
 contribution,2025-06-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474632,2026-01-04
-contribution,2025-08-28,AFSCME,"$2,000",Washington,DC,pac,,A,474633,2026-01-04
-contribution,2025-08-20,Amazon.com Services LLC,"$1,000",Seattle,WA,pac,,A,474633,2026-01-04
+contribution,2025-08-28,AFSCME,"$2,000",Washington,DC,business,,A,474633,2026-01-04
+contribution,2025-08-20,Amazon.com Services LLC,"$1,000",Seattle,WA,business,,A,474633,2026-01-04
 contribution,2025-08-25,James Bierman,$250,Washington,DC,individual,,A,474633,2026-01-04
 contribution,2025-07-29,Steven Blackwell,$25,Sterling,VA,individual,,A,474633,2026-01-04
 contribution,2025-08-20,Steven Blackwell,$25,Sterling,VA,individual,,A,474633,2026-01-04
@@ -147,15 +147,15 @@ contribution,2025-08-20,Steven Blackwell,$25,Sterling,VA,individual,,A,474633,20
 contribution,2025-08-29,Steven Blackwell,$25,Sterling,VA,individual,,A,474633,2026-01-04
 contribution,2025-07-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,474633,2026-01-04
 contribution,2025-08-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,474633,2026-01-04
-contribution,2025-08-21,Capital Results LLC,$500,Richmond,VA,pac,,A,474633,2026-01-04
-contribution,2025-08-20,Clean Virginia,"$5,000",Charlottesville,VA,pac,,A,474633,2026-01-04
+contribution,2025-08-21,Capital Results LLC,$500,Richmond,VA,business,,A,474633,2026-01-04
+contribution,2025-08-20,Clean Virginia,"$5,000",Charlottesville,VA,business,,A,474633,2026-01-04
 contribution,2025-08-10,Patrick Dunckhorst,$100,Oakton,VA,individual,,A,474633,2026-01-04
 contribution,2025-08-28,Margaret Gupta,$500,Miami Beach,FL,individual,,A,474633,2026-01-04
-contribution,2025-08-12,HCA for Good Government,"$1,000",Richmond,VA,pac,,A,474633,2026-01-04
+contribution,2025-08-12,HCA for Good Government,"$1,000",Richmond,VA,business,,A,474633,2026-01-04
 contribution,2025-07-23,Beth Hearrell,$25,Sterling,VA,individual,,A,474633,2026-01-04
 contribution,2025-08-20,Beth Hearrell,$25,Sterling,VA,individual,,A,474633,2026-01-04
 contribution,2025-08-23,Beth Hearrell,$25,Sterling,VA,individual,,A,474633,2026-01-04
-contribution,2025-08-07,"Hunton, Andrews, Kurth",$500,Richmond,VA,pac,,A,474633,2026-01-04
+contribution,2025-08-07,"Hunton, Andrews, Kurth",$500,Richmond,VA,business,,A,474633,2026-01-04
 contribution,2025-08-18,Jane Fonda Climate PAC,"$5,000",Washington,DC,pac,,A,474633,2026-01-04
 contribution,2025-07-18,Herschel Kanter,$50,Sterling,VA,individual,,A,474633,2026-01-04
 contribution,2025-08-18,Herschel Kanter,$50,Sterling,VA,individual,,A,474633,2026-01-04
@@ -168,17 +168,17 @@ contribution,2025-07-07,Nupur Panjabi,"$1,000",Sterling,VA,individual,,A,474633,
 contribution,2025-08-28,Realtors PAC of Virginia,"$1,000",Glen Allen,VA,pac,,A,474633,2026-01-04
 contribution,2025-07-07,Sonjia Smith,"$5,000",Charlottesville,VA,individual,,A,474633,2026-01-04
 contribution,2025-07-21,Shelley Tamres,$100,Sterling,VA,individual,,A,474633,2026-01-04
-contribution,2025-08-28,Titan America,$500,Norfolk,VA,pac,,A,474633,2026-01-04
+contribution,2025-08-28,Titan America,$500,Norfolk,VA,business,,A,474633,2026-01-04
 contribution,2025-08-21,UpVote PAC,$500,Chesterfield,VA,pac,,A,474633,2026-01-04
 contribution,2025-07-07,VEA FUND,$250,Richmond,VA,pac,,A,474633,2026-01-04
-contribution,2025-08-14,Virginia Beer Wholesalers Association,$500,Richmond,VA,pac,,A,474633,2026-01-04
+contribution,2025-08-14,Virginia Beer Wholesalers Association,$500,Richmond,VA,business,,A,474633,2026-01-04
 contribution,2025-08-21,Virginia CRNAs Who Care About Healthcare PAC,$500,Forest Hill,MD,pac,,A,474633,2026-01-04
 contribution,2025-08-20,Virginia Democratic Women's Caucus,$250,Burke,VA,pac,,A,474633,2026-01-04
-contribution,2025-08-14,Virginia Optometric Association,$250,Henrico,VA,pac,,A,474633,2026-01-04
-contribution,2025-08-07,Virginia Orthopaedic Society,$500,Richmond,VA,pac,,A,474633,2026-01-04
+contribution,2025-08-14,Virginia Optometric Association,$250,Henrico,VA,business,,A,474633,2026-01-04
+contribution,2025-08-07,Virginia Orthopaedic Society,$500,Richmond,VA,business,,A,474633,2026-01-04
 contribution,2025-07-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474633,2026-01-04
 contribution,2025-08-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474633,2026-01-04
-contribution,2025-09-01,April for Algonkian,$100,Sterling,VA,pac,,A,474635,2026-01-04
+contribution,2025-09-01,April for Algonkian,$100,Sterling,VA,business,,A,474635,2026-01-04
 contribution,2025-09-29,Mastaneh Badii,$400,Mclean,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-21,Rey Banks,$500,Potomac Falls,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-16,Howard Bender,$200,Reston,VA,individual,,A,474635,2026-01-04
@@ -186,9 +186,9 @@ contribution,2025-09-20,Steven Blackwell,$25,Sterling,VA,individual,,A,474635,20
 contribution,2025-09-20,Steven Blackwell,$25,Sterling,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-29,Steven Blackwell,$25,Sterling,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,474635,2026-01-04
-contribution,2025-09-06,"Capital One Services, LLC",$500,Reston,VA,pac,,A,474635,2026-01-04
-contribution,2025-09-06,Chesapeake Climate Action Network,$125,Takoma Park,MD,pac,,A,474635,2026-01-04
-contribution,2025-09-06,Comcast,$500,Philadelphia,PA,pac,,A,474635,2026-01-04
+contribution,2025-09-06,"Capital One Services, LLC",$500,Reston,VA,business,,A,474635,2026-01-04
+contribution,2025-09-06,Chesapeake Climate Action Network,$125,Takoma Park,MD,business,,A,474635,2026-01-04
+contribution,2025-09-06,Comcast,$500,Philadelphia,PA,business,,A,474635,2026-01-04
 contribution,2025-09-06,Frances Craig,"$1,500",Ashburn,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-13,Matt Egger,$500,Potomac,MD,individual,,A,474635,2026-01-04
 contribution,2025-09-29,Ramin Fatehi,$250,Norfolk,VA,individual,,A,474635,2026-01-04
@@ -200,7 +200,7 @@ contribution,2025-09-28,Katherine Hoffmann,$110,Falls Church,VA,individual,,A,47
 contribution,2025-09-19,Todd House,$200,Falls Church,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-18,Kevin Hughes,$200,Fredericksburg,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-08,Joe Jackson,$250,Sterling,VA,individual,,A,474635,2026-01-04
-contribution,2025-09-21,James Walkinshaw for Braddock Supervisor,"$1,000",Springfield,VA,pac,,A,474635,2026-01-04
+contribution,2025-09-21,James Walkinshaw for Braddock Supervisor,"$1,000",Springfield,VA,business,,A,474635,2026-01-04
 contribution,2025-09-11,Herschel Kanter,"$1,000",Sterling,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-18,Herschel Kanter,$50,Sterling,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-27,Herschel Kanter,$200,Sterling,VA,individual,,A,474635,2026-01-04
@@ -210,23 +210,23 @@ contribution,2025-09-14,John Kunkel,"$1,000",Ashburn,VA,individual,,A,474635,202
 contribution,2025-09-14,Josh Levi,$250,Leesburg,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-18,Paymaun Lotfi MD,$200,Mclean,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-25,David Milam,$100,Washington,DC,individual,,A,474635,2026-01-04
-contribution,2025-09-18,NOVEC,"$1,000",Manassas,VA,pac,,A,474635,2026-01-04
+contribution,2025-09-18,NOVEC,"$1,000",Manassas,VA,business,,A,474635,2026-01-04
 contribution,2025-09-29,Forough Parvizian Yazdani,$500,Vienna,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-20,Denise Pierce,$75,Potomac Falls,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-30,Lily Rahnama,$600,Mclean,VA,individual,,A,474635,2026-01-04
-contribution,2025-09-06,Sheetz,$500,Altoona,PA,pac,,A,474635,2026-01-04
+contribution,2025-09-06,Sheetz,$500,Altoona,PA,business,,A,474635,2026-01-04
 contribution,2025-09-18,Madelyn Smith,$200,Mc Lean,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-18,State Farm Federal PAC,$500,Bloomington,IL,pac,,A,474635,2026-01-04
-contribution,2025-09-18,Strata Clean Energy,"$1,000",Durham,NC,pac,,A,474635,2026-01-04
+contribution,2025-09-18,Strata Clean Energy,"$1,000",Durham,NC,business,,A,474635,2026-01-04
 contribution,2025-09-16,Joe Strong,$200,Sammamish,WA,individual,,A,474635,2026-01-04
-contribution,2025-09-18,VA Beverage Association,$750,Richmond,VA,pac,,A,474635,2026-01-04
-contribution,2025-09-18,Virginia Dental Association,"$1,000",Richmond,VA,pac,,A,474635,2026-01-04
-contribution,2025-09-06,Virginia Pharmacy Association,$250,North Chesterfield,VA,pac,,A,474635,2026-01-04
-contribution,2025-09-18,Virginia Wine Wholesalers,"$1,000",Richmond,VA,pac,,A,474635,2026-01-04
+contribution,2025-09-18,VA Beverage Association,$750,Richmond,VA,business,,A,474635,2026-01-04
+contribution,2025-09-18,Virginia Dental Association,"$1,000",Richmond,VA,business,,A,474635,2026-01-04
+contribution,2025-09-06,Virginia Pharmacy Association,$250,North Chesterfield,VA,business,,A,474635,2026-01-04
+contribution,2025-09-18,Virginia Wine Wholesalers,"$1,000",Richmond,VA,business,,A,474635,2026-01-04
 contribution,2025-09-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474635,2026-01-04
 contribution,2025-09-06,Robert Wooldridge,$200,Herndon,VA,individual,,A,474635,2026-01-04
-contribution,2025-10-03,April for Algonkian,"$4,700",Sterling,VA,pac,,A,474636,2026-01-04
-contribution,2025-10-04,Arben for Sterling,"$4,500",Ashburn,VA,pac,,A,474636,2026-01-04
+contribution,2025-10-03,April for Algonkian,"$4,700",Sterling,VA,business,,A,474636,2026-01-04
+contribution,2025-10-04,Arben for Sterling,"$4,500",Ashburn,VA,business,,A,474636,2026-01-04
 contribution,2025-10-10,SIMIN BAIK,$100,Vienna,VA,individual,,A,474636,2026-01-04
 contribution,2025-10-14,Leslie Barnes,$150,Ashburn,VA,individual,,A,474636,2026-01-04
 contribution,2025-10-20,Steven Blackwell,$25,Sterling,VA,individual,,A,474636,2026-01-04
@@ -243,43 +243,43 @@ contribution,2025-10-10,Jon Pepper for School Board,"$1,748",Aldie,VA,candidate,
 contribution,2025-10-02,Anoushirvan Kangarloo,$100,Aldie,VA,individual,,A,474636,2026-01-04
 contribution,2025-10-18,Herschel Kanter,$50,Sterling,VA,individual,,A,474636,2026-01-04
 contribution,2025-10-01,Houri Khalilian,$200,Potomac,MD,individual,,A,474636,2026-01-04
-contribution,2025-10-06,LEE Fund,"$1,000",Wilmington,DE,pac,,A,474636,2026-01-04
-contribution,2025-10-17,LEE Fund,"$5,000",Wilmington,DE,pac,,A,474636,2026-01-04
+contribution,2025-10-06,LEE Fund,"$1,000",Wilmington,DE,business,,A,474636,2026-01-04
+contribution,2025-10-17,LEE Fund,"$5,000",Wilmington,DE,business,,A,474636,2026-01-04
 contribution,2025-10-07,HARDY LISTER,$100,Sterling,VA,individual,,A,474636,2026-01-04
 contribution,2025-10-20,HARDY LISTER,$100,Sterling,VA,individual,,A,474636,2026-01-04
 contribution,2025-10-02,Paymaun Lotfi MD,$500,Mclean,VA,individual,,A,474636,2026-01-04
-contribution,2025-10-18,MidAtlantic Pipe Trades Association,$500,Columbia,MD,pac,,A,474636,2026-01-04
+contribution,2025-10-18,MidAtlantic Pipe Trades Association,$500,Columbia,MD,business,,A,474636,2026-01-04
 contribution,2025-10-02,Hamid Noshirvani,$400,Potomac,MD,individual,,A,474636,2026-01-04
 contribution,2025-10-16,Sajani Rao,$500,Sterling,VA,individual,,A,474636,2026-01-04
 contribution,2025-10-02,Edward Rice,"$2,000",Vienna,VA,individual,,A,474636,2026-01-04
-contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$1,000",Portsmouth,VA,pac,,A,474636,2026-01-04
-contribution,2025-10-08,SEIU COPE,"$1,000",Washington,DC,pac,,A,474636,2026-01-04
-contribution,2025-10-13,VA Operators for Skill,"$1,000",Richmond,VA,pac,,A,474636,2026-01-04
-contribution,2025-10-01,Virginia Association of Health Plans,$250,Richmond,VA,pac,,A,474636,2026-01-04
-contribution,2025-10-04,Virginia Chapter of Sierra Club,$250,Richmond,VA,pac,,A,474636,2026-01-04
-contribution,2025-10-01,Virginia Maritime Association,$500,Norfolk,VA,pac,,A,474636,2026-01-04
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$1,000",Portsmouth,VA,business,,A,474636,2026-01-04
+contribution,2025-10-08,SEIU COPE,"$1,000",Washington,DC,business,,A,474636,2026-01-04
+contribution,2025-10-13,VA Operators for Skill,"$1,000",Richmond,VA,business,,A,474636,2026-01-04
+contribution,2025-10-01,Virginia Association of Health Plans,$250,Richmond,VA,business,,A,474636,2026-01-04
+contribution,2025-10-04,Virginia Chapter of Sierra Club,$250,Richmond,VA,business,,A,474636,2026-01-04
+contribution,2025-10-01,Virginia Maritime Association,$500,Norfolk,VA,business,,A,474636,2026-01-04
 contribution,2025-10-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474636,2026-01-04
 contribution,2025-10-02,Alireza Zinatbakhsh,$200,Sterling,VA,individual,,A,474636,2026-01-04
 contribution,2025-10-29,Steven Blackwell,$25,Sterling,VA,individual,,A,474639,2026-01-04
 contribution,2025-11-20,Steven Blackwell,$25,Sterling,VA,individual,,A,474639,2026-01-04
 contribution,2025-11-20,Steven Blackwell,$25,Sterling,VA,individual,,A,474639,2026-01-04
 contribution,2025-10-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,474639,2026-01-04
-contribution,2025-10-31,Eastern Atlantic States Regional Council of Carpenters,"$2,000",Ashland,VA,pac,,A,474639,2026-01-04
+contribution,2025-10-31,Eastern Atlantic States Regional Council of Carpenters,"$2,000",Ashland,VA,business,,A,474639,2026-01-04
 contribution,2025-11-08,Kathleen Fernandez,$25,Sterling,VA,individual,,A,474639,2026-01-04
-contribution,2025-10-24,Justice for All,"$1,000",Mclean,VA,pac,,A,474639,2026-01-04
-contribution,2025-10-29,K12 Management Inc.,"$1,000",Reston,VA,pac,,A,474639,2026-01-04
+contribution,2025-10-24,Justice for All,"$1,000",Mclean,VA,business,,A,474639,2026-01-04
+contribution,2025-10-29,K12 Management Inc.,"$1,000",Reston,VA,business,,A,474639,2026-01-04
 contribution,2025-11-18,Herschel Kanter,$50,Sterling,VA,individual,,A,474639,2026-01-04
-contribution,2025-11-07,Mid-Atlantic Laborers Political Education Fund,"$1,500",Reston,VA,pac,,A,474639,2026-01-04
+contribution,2025-11-07,Mid-Atlantic Laborers Political Education Fund,"$1,500",Reston,VA,business,,A,474639,2026-01-04
 contribution,2025-10-25,David Milam,$100,Washington,DC,individual,,A,474639,2026-01-04
 contribution,2025-11-25,David Milam,$100,Washington,DC,individual,,A,474639,2026-01-04
 contribution,2025-11-07,NOVA Build PAC,"$1,000",Chantilly,VA,pac,,A,474639,2026-01-04
 contribution,2025-10-30,Walter Owensby,$100,Potomac Falls,VA,individual,,A,474639,2026-01-04
-contribution,2025-10-30,"POM of Virginia, LLC","$1,000",Duluth,GA,pac,,A,474639,2026-01-04
+contribution,2025-10-30,"POM of Virginia, LLC","$1,000",Duluth,GA,business,,A,474639,2026-01-04
 contribution,2025-10-29,Raheel Sheikh,$250,Manassas,VA,individual,,A,474639,2026-01-04
-contribution,2025-10-30,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,A,474639,2026-01-04
+contribution,2025-10-30,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,A,474639,2026-01-04
 contribution,2025-11-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,474639,2026-01-04
-contribution,2025-12-17,ACE Development Company,$500,Salt Lake City,UT,pac,,A,479993,2026-01-15
-contribution,2025-12-12,Allen Allen Allen & Allen,"$1,000",Richmond,VA,pac,,A,479993,2026-01-15
+contribution,2025-12-17,ACE Development Company,$500,Salt Lake City,UT,business,,A,479993,2026-01-15
+contribution,2025-12-12,Allen Allen Allen & Allen,"$1,000",Richmond,VA,business,,A,479993,2026-01-15
 contribution,2025-11-29,Steven Blackwell,$25,Sterling,VA,individual,,A,479993,2026-01-15
 contribution,2025-12-20,Steven Blackwell,$25,Sterling,VA,individual,,A,479993,2026-01-15
 contribution,2025-12-20,Steven Blackwell,$25,Sterling,VA,individual,,A,479993,2026-01-15
@@ -287,11 +287,11 @@ contribution,2025-12-29,Steven Blackwell,$25,Sterling,VA,individual,,A,479993,20
 contribution,2025-11-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,479993,2026-01-15
 contribution,2025-12-28,Patricia Bullington-McGuire,$25,Arlington,VA,individual,,A,479993,2026-01-15
 contribution,2025-12-18,Herschel Kanter,$50,Sterling,VA,individual,,A,479993,2026-01-15
-contribution,2025-12-23,"Vantage Data Centers Management Co, LLC",$500,Santa Clara,CA,pac,,A,479993,2026-01-15
+contribution,2025-12-23,"Vantage Data Centers Management Co, LLC",$500,Santa Clara,CA,business,,A,479993,2026-01-15
 contribution,2025-12-23,Virginia Manufactured & Modular Housing Association PAC,$500,Henrico,VA,pac,,A,479993,2026-01-15
 contribution,2025-12-19,Stephanie Weinbrecht,$25,Sterling,VA,individual,,A,479993,2026-01-15
-contribution,2026-06-19,Altria Client Services LLC,"$1,000",Richmond,VA,pac,,A,497012,2026-07-15
-contribution,2026-06-19,Anheuser Busch Companies,$500,Van Nuys,CA,pac,,A,497012,2026-07-15
+contribution,2026-06-19,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,497012,2026-07-15
+contribution,2026-06-19,Anheuser Busch Companies,$500,Van Nuys,CA,business,,A,497012,2026-07-15
 contribution,2026-03-20,Steven Blackwell,$25,Sterling,VA,individual,,A,497012,2026-07-15
 contribution,2026-03-20,Steven Blackwell,$25,Sterling,VA,individual,,A,497012,2026-07-15
 contribution,2026-03-29,Steven Blackwell,$25,Sterling,VA,individual,,A,497012,2026-07-15
@@ -304,10 +304,10 @@ contribution,2026-05-29,Steven Blackwell,$25,Sterling,VA,individual,,A,497012,20
 contribution,2026-06-20,Steven Blackwell,$25,Sterling,VA,individual,,A,497012,2026-07-15
 contribution,2026-06-20,Steven Blackwell,$25,Sterling,VA,individual,,A,497012,2026-07-15
 contribution,2026-06-29,Steven Blackwell,$25,Sterling,VA,individual,,A,497012,2026-07-15
-contribution,2026-03-30,Clean Virginia,$0.01,Charlottesville,VA,pac,,A,497012,2026-07-15
-contribution,2026-04-20,Clean Virginia,"$7,500",Charlottesville,VA,pac,,A,497012,2026-07-15
+contribution,2026-03-30,Clean Virginia,$0.01,Charlottesville,VA,business,,A,497012,2026-07-15
+contribution,2026-04-20,Clean Virginia,"$7,500",Charlottesville,VA,business,,A,497012,2026-07-15
 contribution,2026-03-18,Commercial Development PAC,$250,Alexandria,VA,pac,,A,497012,2026-07-15
-contribution,2026-01-13,Humana Inc.,$500,Lexington,KY,pac,,A,497012,2026-07-15
+contribution,2026-01-13,Humana Inc.,$500,Lexington,KY,business,,A,497012,2026-07-15
 contribution,2026-03-18,Herschel Kanter,$50,Sterling,VA,individual,,A,497012,2026-07-15
 contribution,2026-04-18,Herschel Kanter,$50,Sterling,VA,individual,,A,497012,2026-07-15
 contribution,2026-05-18,Herschel Kanter,$50,Sterling,VA,individual,,A,497012,2026-07-15
@@ -318,392 +318,392 @@ contribution,2026-03-18,Mental Health PAC,"$1,000",Washington,DC,pac,,A,497012,2
 contribution,2026-06-02,VEA FUND,$500,Richmond,VA,pac,,A,497012,2026-07-15
 contribution,2026-06-19,Virginia CRNAs Who Care About Healthcare PAC,$500,Forest Hill,MD,pac,,A,497012,2026-07-15
 contribution,2026-06-12,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,497012,2026-07-15
-in_kind,2024-09-16,"Capital One Services, LLC",$500,Reston,VA,pac,Lobbyist Fundraiser,B,474617,2026-01-04
-in_kind,2024-09-04,Clean Virginia,$16.84,Charlottesville,VA,pac,Meal,B,474617,2026-01-04
-in_kind,2024-12-17,Virginia Beer Wholesalers Association,$301.28,Richmond,VA,pac,Fundraiser Luncheon,B,474617,2026-01-04
+in_kind,2024-09-16,"Capital One Services, LLC",$500,Reston,VA,business,Lobbyist Fundraiser,B,474617,2026-01-04
+in_kind,2024-09-04,Clean Virginia,$16.84,Charlottesville,VA,business,Meal,B,474617,2026-01-04
+in_kind,2024-12-17,Virginia Beer Wholesalers Association,$301.28,Richmond,VA,business,Fundraiser Luncheon,B,474617,2026-01-04
 in_kind,2025-03-30,Jessica Monte,"$1,000",Reston,VA,individual,Photography,B,474624,2026-01-04
 in_kind,2025-03-30,Bijan Reza,"$1,418.07",Sterling,VA,individual,Catering,B,474624,2026-01-04
-in_kind,2025-07-25,Clean Virginia,$13.12,Charlottesville,VA,pac,Meal,B,474633,2026-01-04
-in_kind,2025-07-18,Everytown for Gun Safety Action Fund,$173,New York,NY,pac,Staff Time Related to Video Production,B,474633,2026-01-04
-in_kind,2025-08-20,Moniart Paint,"$1,220",Sterling,VA,pac,T-shirts and Tote Bags,B,474633,2026-01-04
+in_kind,2025-07-25,Clean Virginia,$13.12,Charlottesville,VA,business,Meal,B,474633,2026-01-04
+in_kind,2025-07-18,Everytown for Gun Safety Action Fund,$173,New York,NY,business,Staff Time Related to Video Production,B,474633,2026-01-04
+in_kind,2025-08-20,Moniart Paint,"$1,220",Sterling,VA,business,T-shirts and Tote Bags,B,474633,2026-01-04
 in_kind,2025-08-21,Virginia Cable Political Action Committee,$90.37,Richmond,VA,pac,Lunch Reception,B,474633,2026-01-04
 in_kind,2025-09-20,Christopher & Emily Kimm,$857.06,Reston,VA,individual,Groceries and Event Supplies,B,474635,2026-01-04
 in_kind,2025-09-21,Christopher & Emily Kimm,"$2,625",Reston,VA,individual,Catering Services,B,474635,2026-01-04
 in_kind,2025-10-10,Democratic Party of Virginia,"$9,608.31",Richmond,VA,party,Mail Production/Postage,B,474636,2026-01-04
 in_kind,2025-10-10,Democratic Party of Virginia,"$10,934.31",Richmond,VA,party,Mail Production/Postage,B,474636,2026-01-04
-other_receipt,2025-05-02,County of Loudoun,$352.80,Leesburg,VA,pac,Refund of Primary Filing Fee,C,474631,2026-01-04
-other_receipt,2025-07-29,Ghazala Hashmi for Virginia,$50,North Chesterfield,VA,pac,Refund of incorrect charge,C,474633,2026-01-04
-other_receipt,2025-07-29,Ghazala Hashmi for Virginia,$500,North Chesterfield,VA,pac,Refund of incorrect charge,C,474633,2026-01-04
-other_receipt,2025-07-29,Jay Jones for Virginia,$50,Williamsburg,VA,pac,Refund of incorrect charge,C,474633,2026-01-04
-other_receipt,2025-07-29,Jay Jones for Virginia,$500,Williamsburg,VA,pac,Refund of incorrect charge,C,474633,2026-01-04
-other_receipt,2025-09-25,975 F Street NW Garage,$5,Washington,DC,pac,Refund of Overpayment,C,474635,2026-01-04
-other_receipt,2025-11-14,United Airlines,$68,Chicago,IL,pac,Refund of Travel Expense,C,474639,2026-01-04
-other_receipt,2025-12-31,DSW,$59.35,Dulles,VA,pac,Refund for Accidental Use of Card,C,479993,2026-01-15
-other_receipt,2025-12-04,Lee Inc.,$361.91,Wilmington,DE,pac,Refund of Unused Fee-For-Service Credit,C,479993,2026-01-15
-other_receipt,2026-04-02,AirBnB,$778.62,San Francisco,CA,pac,Refund for Cancelled Work Travel,C,497012,2026-07-15
-other_receipt,2026-04-20,AirBnB,$8.46,San Francisco,CA,pac,Refund for Cancelled Work Travel,C,497012,2026-07-15
-other_receipt,2026-05-11,AirBnB,$542.44,San Francisco,CA,pac,Refund for Cancelled Work Travel,C,497012,2026-07-15
-other_receipt,2026-05-11,AirBnB,$686.28,San Francisco,CA,pac,Refund for Cancelled Work Travel,C,497012,2026-07-15
-other_receipt,2026-05-29,Hilton,$395.32,Virginia Beach,VA,pac,Refund for Cancelled Work Travel,C,497012,2026-07-15
-expenditure,2024-07-02,Google Suite,$18.72,Mountain View,CA,pac,Google suite,D,474617,2026-01-04
-expenditure,2024-07-03,NGP VAN,$320,Washington,DC,pac,Database,D,474617,2026-01-04
+other_receipt,2025-05-02,County of Loudoun,$352.80,Leesburg,VA,business,Refund of Primary Filing Fee,C,474631,2026-01-04
+other_receipt,2025-07-29,Ghazala Hashmi for Virginia,$50,North Chesterfield,VA,business,Refund of incorrect charge,C,474633,2026-01-04
+other_receipt,2025-07-29,Ghazala Hashmi for Virginia,$500,North Chesterfield,VA,business,Refund of incorrect charge,C,474633,2026-01-04
+other_receipt,2025-07-29,Jay Jones for Virginia,$50,Williamsburg,VA,business,Refund of incorrect charge,C,474633,2026-01-04
+other_receipt,2025-07-29,Jay Jones for Virginia,$500,Williamsburg,VA,business,Refund of incorrect charge,C,474633,2026-01-04
+other_receipt,2025-09-25,975 F Street NW Garage,$5,Washington,DC,business,Refund of Overpayment,C,474635,2026-01-04
+other_receipt,2025-11-14,United Airlines,$68,Chicago,IL,business,Refund of Travel Expense,C,474639,2026-01-04
+other_receipt,2025-12-31,DSW,$59.35,Dulles,VA,business,Refund for Accidental Use of Card,C,479993,2026-01-15
+other_receipt,2025-12-04,Lee Inc.,$361.91,Wilmington,DE,business,Refund of Unused Fee-For-Service Credit,C,479993,2026-01-15
+other_receipt,2026-04-02,AirBnB,$778.62,San Francisco,CA,business,Refund for Cancelled Work Travel,C,497012,2026-07-15
+other_receipt,2026-04-20,AirBnB,$8.46,San Francisco,CA,business,Refund for Cancelled Work Travel,C,497012,2026-07-15
+other_receipt,2026-05-11,AirBnB,$542.44,San Francisco,CA,business,Refund for Cancelled Work Travel,C,497012,2026-07-15
+other_receipt,2026-05-11,AirBnB,$686.28,San Francisco,CA,business,Refund for Cancelled Work Travel,C,497012,2026-07-15
+other_receipt,2026-05-29,Hilton,$395.32,Virginia Beach,VA,business,Refund for Cancelled Work Travel,C,497012,2026-07-15
+expenditure,2024-07-02,Google Suite,$18.72,Mountain View,CA,business,Google suite,D,474617,2026-01-04
+expenditure,2024-07-03,NGP VAN,$320,Washington,DC,business,Database,D,474617,2026-01-04
 expenditure,2024-07-03,Atoosa Reaser,$133.38,Sterling,VA,individual,Reimbursement - Travel Accommodations,D,474617,2026-01-04
-expenditure,2024-07-03,United States Postal Service,$40.80,Alexandria,VA,pac,Postage,D,474617,2026-01-04
-expenditure,2024-07-08,Costco Online,"$1,006.99",Issaquah,WA,pac,Office Supplies,D,474617,2026-01-04
-expenditure,2024-07-08,Virginia House of Delegates,$926.69,Richmond,VA,pac,Postage,D,474617,2026-01-04
-expenditure,2024-07-12,United States Postal Service,$136,Sterling,VA,pac,Postage,D,474617,2026-01-04
-expenditure,2024-07-14,Costco Gas #0218,$64.45,Woodbridge,VA,pac,Gas,D,474617,2026-01-04
+expenditure,2024-07-03,United States Postal Service,$40.80,Alexandria,VA,business,Postage,D,474617,2026-01-04
+expenditure,2024-07-08,Costco Online,"$1,006.99",Issaquah,WA,business,Office Supplies,D,474617,2026-01-04
+expenditure,2024-07-08,Virginia House of Delegates,$926.69,Richmond,VA,business,Postage,D,474617,2026-01-04
+expenditure,2024-07-12,United States Postal Service,$136,Sterling,VA,business,Postage,D,474617,2026-01-04
+expenditure,2024-07-14,Costco Gas #0218,$64.45,Woodbridge,VA,business,Gas,D,474617,2026-01-04
 expenditure,2024-07-17,Atoosa Reaser,$173.26,Sterling,VA,individual,Reimbursement - Travel Accommodations,D,474617,2026-01-04
-expenditure,2024-07-29,Burtons Bar & Grill,$73.14,Sterling,VA,pac,Team Meal,D,474617,2026-01-04
-expenditure,2024-08-02,Google Suite,$14.40,Mountain View,CA,pac,Google suite,D,474617,2026-01-04
+expenditure,2024-07-29,Burtons Bar & Grill,$73.14,Sterling,VA,business,Team Meal,D,474617,2026-01-04
+expenditure,2024-08-02,Google Suite,$14.40,Mountain View,CA,business,Google suite,D,474617,2026-01-04
 expenditure,2024-08-04,Atoosa Reaser,$420.96,Sterling,VA,individual,Reimbursement - Travel Accommodations,D,474617,2026-01-04
-expenditure,2024-08-07,NGP VAN,$320,Washington,DC,pac,Database,D,474617,2026-01-04
-expenditure,2024-08-11,ActBlue,$0.20,Somerville,MA,pac,Credit card processing,D,474617,2026-01-04
-expenditure,2024-08-15,Urbano Modern Italian,$40.32,Sterling,VA,pac,Team Meal,D,474617,2026-01-04
-expenditure,2024-08-19,ActBlue,$0.99,Somerville,MA,pac,Credit card processing,D,474617,2026-01-04
-expenditure,2024-08-19,Costco Gas #0218,$83.11,Woodbridge,VA,pac,Gas,D,474617,2026-01-04
-expenditure,2024-08-21,Domino's Pizza,$19.81,Sterling,VA,pac,Team Meal,D,474617,2026-01-04
-expenditure,2024-08-24,Cafesano,$39.30,Dulles,VA,pac,Team Meal,D,474617,2026-01-04
-expenditure,2024-08-25,ActBlue,$11.86,Somerville,MA,pac,Credit card processing,D,474617,2026-01-04
-expenditure,2024-09-01,ActBlue,$0.99,Somerville,MA,pac,Credit card processing,D,474617,2026-01-04
-expenditure,2024-09-03,Costco Gas #0218,$80.69,Woodbridge,VA,pac,Gas,D,474617,2026-01-04
-expenditure,2024-09-03,Google Suite,$18.57,Mountain View,CA,pac,Google suite,D,474617,2026-01-04
-expenditure,2024-09-03,NGP VAN,$320,Washington,DC,pac,Database,D,474617,2026-01-04
-expenditure,2024-09-12,SBDigital,$600,Washington,DC,pac,Website,D,474617,2026-01-04
-expenditure,2024-09-15,ActBlue,$0.20,Somerville,MA,pac,Credit card processing,D,474617,2026-01-04
-expenditure,2024-09-22,ActBlue,$12.75,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-09-23,Harris Victory Fund,$250,Washington,DC,pac,campaign contribution,D,474617,2026-01-04
+expenditure,2024-08-07,NGP VAN,$320,Washington,DC,business,Database,D,474617,2026-01-04
+expenditure,2024-08-11,ActBlue,$0.20,Somerville,MA,business,Credit card processing,D,474617,2026-01-04
+expenditure,2024-08-15,Urbano Modern Italian,$40.32,Sterling,VA,business,Team Meal,D,474617,2026-01-04
+expenditure,2024-08-19,ActBlue,$0.99,Somerville,MA,business,Credit card processing,D,474617,2026-01-04
+expenditure,2024-08-19,Costco Gas #0218,$83.11,Woodbridge,VA,business,Gas,D,474617,2026-01-04
+expenditure,2024-08-21,Domino's Pizza,$19.81,Sterling,VA,business,Team Meal,D,474617,2026-01-04
+expenditure,2024-08-24,Cafesano,$39.30,Dulles,VA,business,Team Meal,D,474617,2026-01-04
+expenditure,2024-08-25,ActBlue,$11.86,Somerville,MA,business,Credit card processing,D,474617,2026-01-04
+expenditure,2024-09-01,ActBlue,$0.99,Somerville,MA,business,Credit card processing,D,474617,2026-01-04
+expenditure,2024-09-03,Costco Gas #0218,$80.69,Woodbridge,VA,business,Gas,D,474617,2026-01-04
+expenditure,2024-09-03,Google Suite,$18.57,Mountain View,CA,business,Google suite,D,474617,2026-01-04
+expenditure,2024-09-03,NGP VAN,$320,Washington,DC,business,Database,D,474617,2026-01-04
+expenditure,2024-09-12,SBDigital,$600,Washington,DC,business,Website,D,474617,2026-01-04
+expenditure,2024-09-15,ActBlue,$0.20,Somerville,MA,business,Credit card processing,D,474617,2026-01-04
+expenditure,2024-09-22,ActBlue,$12.75,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-09-23,Harris Victory Fund,$250,Washington,DC,business,campaign contribution,D,474617,2026-01-04
 expenditure,2024-09-26,Corey Coldren,$94.17,Richmond,VA,individual,Reimbursement - Postage,D,474617,2026-01-04
-expenditure,2024-09-29,ActBlue,$0.99,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-10-03,Google Suite,$18.24,Mountain View,CA,pac,google suite,D,474617,2026-01-04
-expenditure,2024-10-07,NGP VAN,$320,Washington,DC,pac,database,D,474617,2026-01-04
-expenditure,2024-10-08,Suhas for Virginia,$250,Ashburn,VA,pac,campaign contribution,D,474617,2026-01-04
-expenditure,2024-10-13,ActBlue,$0.20,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-10-20,ActBlue,$3.22,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-10-25,Lillie Pearl,$27.84,Richmond,VA,pac,Team meal,D,474617,2026-01-04
-expenditure,2024-10-27,ActBlue,$10.64,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-10-28,Hilton Richmond,$663.72,Richmond,VA,pac,accomodations,D,474617,2026-01-04
-expenditure,2024-11-03,ActBlue,$0.99,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-11-04,Google Suite,$15.09,Mountain View,CA,pac,google suite,D,474617,2026-01-04
-expenditure,2024-11-04,NGP VAN,$320,Washington,DC,pac,database,D,474617,2026-01-04
-expenditure,2024-11-17,ActBlue,$0.20,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-11-21,Truist,$7,Sterling,VA,pac,bank fee,D,474617,2026-01-04
-expenditure,2024-11-22,Chipotle,$31.91,Sterling,VA,pac,team meal,D,474617,2026-01-04
-expenditure,2024-11-24,ActBlue,$2.97,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-12-01,ActBlue,$0.99,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-12-02,Google Suite,$24,Mountain View,CA,pac,google suite,D,474617,2026-01-04
-expenditure,2024-12-03,NGP VAN,$320,Washington,DC,pac,database,D,474617,2026-01-04
-expenditure,2024-12-15,ActBlue,$0.20,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-12-22,ActBlue,$124.44,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2024-12-29,ActBlue,$4.94,Somerville,MA,pac,credit card processing,D,474617,2026-01-04
-expenditure,2025-01-02,Google Suite,$28.80,Mountain View,CA,pac,Google Suite,D,474624,2026-01-04
-expenditure,2025-01-02,Ridgetop Coffee,$3.88,Sterling,VA,pac,Meeting Refreshments,D,474624,2026-01-04
-expenditure,2025-01-03,NGP VAN,$320,Washington,DC,pac,Database,D,474624,2026-01-04
-expenditure,2025-01-04,Amazon.com Services LLC,$60.10,Seattle,WA,pac,Office Supplies,D,474624,2026-01-04
-expenditure,2025-01-05,ActBlue,$19.75,Somerville,MA,pac,Credit card processing,D,474624,2026-01-04
-expenditure,2025-01-05,Costco Online,$84.79,Issaquah,WA,pac,Office Supplies,D,474624,2026-01-04
-expenditure,2025-01-06,GoDaddy.com,$44.34,Tempe,AZ,pac,Web domain,D,474624,2026-01-04
-expenditure,2025-01-12,ActBlue,$3.95,Somerville,MA,pac,Credit card processing,D,474624,2026-01-04
-expenditure,2025-01-27,Jay Jones for Virginia,$250,Williamsburg,VA,pac,Campaign contribution,D,474624,2026-01-04
-expenditure,2025-02-03,Google Suite,$28.80,Mountain View,CA,pac,Google Suite,D,474624,2026-01-04
-expenditure,2025-02-07,NGP VAN,$320,Washington,DC,pac,Database,D,474624,2026-01-04
-expenditure,2025-02-13,The Virginia Shop,$130.68,Richmond,VA,pac,Items for staff,D,474624,2026-01-04
-expenditure,2025-02-23,AirBnB,$177.34,San Francisco,CA,pac,Accommodations for Reconvene Session,D,474624,2026-01-04
+expenditure,2024-09-29,ActBlue,$0.99,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-10-03,Google Suite,$18.24,Mountain View,CA,business,google suite,D,474617,2026-01-04
+expenditure,2024-10-07,NGP VAN,$320,Washington,DC,business,database,D,474617,2026-01-04
+expenditure,2024-10-08,Suhas for Virginia,$250,Ashburn,VA,business,campaign contribution,D,474617,2026-01-04
+expenditure,2024-10-13,ActBlue,$0.20,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-10-20,ActBlue,$3.22,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-10-25,Lillie Pearl,$27.84,Richmond,VA,business,Team meal,D,474617,2026-01-04
+expenditure,2024-10-27,ActBlue,$10.64,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-10-28,Hilton Richmond,$663.72,Richmond,VA,business,accomodations,D,474617,2026-01-04
+expenditure,2024-11-03,ActBlue,$0.99,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-11-04,Google Suite,$15.09,Mountain View,CA,business,google suite,D,474617,2026-01-04
+expenditure,2024-11-04,NGP VAN,$320,Washington,DC,business,database,D,474617,2026-01-04
+expenditure,2024-11-17,ActBlue,$0.20,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-11-21,Truist,$7,Sterling,VA,business,bank fee,D,474617,2026-01-04
+expenditure,2024-11-22,Chipotle,$31.91,Sterling,VA,business,team meal,D,474617,2026-01-04
+expenditure,2024-11-24,ActBlue,$2.97,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-12-01,ActBlue,$0.99,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-12-02,Google Suite,$24,Mountain View,CA,business,google suite,D,474617,2026-01-04
+expenditure,2024-12-03,NGP VAN,$320,Washington,DC,business,database,D,474617,2026-01-04
+expenditure,2024-12-15,ActBlue,$0.20,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-12-22,ActBlue,$124.44,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2024-12-29,ActBlue,$4.94,Somerville,MA,business,credit card processing,D,474617,2026-01-04
+expenditure,2025-01-02,Google Suite,$28.80,Mountain View,CA,business,Google Suite,D,474624,2026-01-04
+expenditure,2025-01-02,Ridgetop Coffee,$3.88,Sterling,VA,business,Meeting Refreshments,D,474624,2026-01-04
+expenditure,2025-01-03,NGP VAN,$320,Washington,DC,business,Database,D,474624,2026-01-04
+expenditure,2025-01-04,Amazon.com Services LLC,$60.10,Seattle,WA,business,Office Supplies,D,474624,2026-01-04
+expenditure,2025-01-05,ActBlue,$19.75,Somerville,MA,business,Credit card processing,D,474624,2026-01-04
+expenditure,2025-01-05,Costco Online,$84.79,Issaquah,WA,business,Office Supplies,D,474624,2026-01-04
+expenditure,2025-01-06,GoDaddy.com,$44.34,Tempe,AZ,business,Web domain,D,474624,2026-01-04
+expenditure,2025-01-12,ActBlue,$3.95,Somerville,MA,business,Credit card processing,D,474624,2026-01-04
+expenditure,2025-01-27,Jay Jones for Virginia,$250,Williamsburg,VA,business,Campaign contribution,D,474624,2026-01-04
+expenditure,2025-02-03,Google Suite,$28.80,Mountain View,CA,business,Google Suite,D,474624,2026-01-04
+expenditure,2025-02-07,NGP VAN,$320,Washington,DC,business,Database,D,474624,2026-01-04
+expenditure,2025-02-13,The Virginia Shop,$130.68,Richmond,VA,business,Items for staff,D,474624,2026-01-04
+expenditure,2025-02-23,AirBnB,$177.34,San Francisco,CA,business,Accommodations for Reconvene Session,D,474624,2026-01-04
 expenditure,2025-02-24,Josh Thomas for Delegate,$500,Gainesville,VA,candidate,Campaign contribution,D,474624,2026-01-04
-expenditure,2025-02-26,Michael Feggans for Virginia,$500,Virginia Beach,VA,pac,Campaign contribution,D,474624,2026-01-04
-expenditure,2025-02-27,Don Scott for Virginia,$60,Portsmouth,VA,pac,Campaign contribution,D,474624,2026-01-04
+expenditure,2025-02-26,Michael Feggans for Virginia,$500,Virginia Beach,VA,business,Campaign contribution,D,474624,2026-01-04
+expenditure,2025-02-27,Don Scott for Virginia,$60,Portsmouth,VA,business,Campaign contribution,D,474624,2026-01-04
 expenditure,2025-02-27,Nadarius Clark for Delegate,$500,Suffolk,VA,candidate,Campaign contribution,D,474624,2026-01-04
-expenditure,2025-03-02,ActBlue,$47.80,Somerville,MA,pac,Credit card processing,D,474624,2026-01-04
+expenditure,2025-03-02,ActBlue,$47.80,Somerville,MA,business,Credit card processing,D,474624,2026-01-04
 expenditure,2025-03-03,Corey Coldren,"$1,187.50",Richmond,VA,individual,Campaign work,D,474624,2026-01-04
-expenditure,2025-03-03,Cole for Virginia,$500,Fredericksburg,VA,pac,Campaign contribution,D,474624,2026-01-04
-expenditure,2025-03-03,Google Suite,$28.80,Mountain View,CA,pac,Google Suite,D,474624,2026-01-04
-expenditure,2025-03-05,NGP VAN,$320,Washington,DC,pac,Database,D,474624,2026-01-04
-expenditure,2025-03-06,County of Loudoun,$352.80,Leesburg,VA,pac,2025 Primary Filing Fee,D,474624,2026-01-04
-expenditure,2025-03-07,Waterside Garage,$7,Norfolk,VA,pac,Event Parking,D,474624,2026-01-04
-expenditure,2025-03-09,ActBlue,$8.90,Somerville,MA,pac,Credit card processing,D,474624,2026-01-04
-expenditure,2025-03-16,ActBlue,$16.01,Somerville,MA,pac,Credit card processing,D,474624,2026-01-04
-expenditure,2025-03-18,Delta Airlines,$498.18,Atlanta,GA,pac,Conference Flight,D,474624,2026-01-04
-expenditure,2025-03-23,ActBlue,$66.18,Somerville,MA,pac,Credit card processing,D,474624,2026-01-04
-expenditure,2025-03-30,ActBlue,$221.68,Somerville,MA,pac,Credit Card Processing,D,474624,2026-01-04
-expenditure,2025-03-31,ActBlue,$19.75,Somerville,MA,pac,Credit Card Processing,D,474624,2026-01-04
+expenditure,2025-03-03,Cole for Virginia,$500,Fredericksburg,VA,business,Campaign contribution,D,474624,2026-01-04
+expenditure,2025-03-03,Google Suite,$28.80,Mountain View,CA,business,Google Suite,D,474624,2026-01-04
+expenditure,2025-03-05,NGP VAN,$320,Washington,DC,business,Database,D,474624,2026-01-04
+expenditure,2025-03-06,County of Loudoun,$352.80,Leesburg,VA,business,2025 Primary Filing Fee,D,474624,2026-01-04
+expenditure,2025-03-07,Waterside Garage,$7,Norfolk,VA,business,Event Parking,D,474624,2026-01-04
+expenditure,2025-03-09,ActBlue,$8.90,Somerville,MA,business,Credit card processing,D,474624,2026-01-04
+expenditure,2025-03-16,ActBlue,$16.01,Somerville,MA,business,Credit card processing,D,474624,2026-01-04
+expenditure,2025-03-18,Delta Airlines,$498.18,Atlanta,GA,business,Conference Flight,D,474624,2026-01-04
+expenditure,2025-03-23,ActBlue,$66.18,Somerville,MA,business,Credit card processing,D,474624,2026-01-04
+expenditure,2025-03-30,ActBlue,$221.68,Somerville,MA,business,Credit Card Processing,D,474624,2026-01-04
+expenditure,2025-03-31,ActBlue,$19.75,Somerville,MA,business,Credit Card Processing,D,474624,2026-01-04
 expenditure,2025-03-31,Charles Conner,$450,Burke,VA,individual,Campaign Work,D,474624,2026-01-04
-expenditure,2025-03-31,EZ Pass Virginia,$142.68,Richmond,VA,pac,Tolls for Professional Events/Meetings (Jan-March),D,474624,2026-01-04
-expenditure,2025-04-02,Google Suite,$26.24,Mountain View,CA,pac,Google Suite,D,474631,2026-01-04
-expenditure,2025-04-03,NGP VAN,$320,Washington,DC,pac,Database,D,474631,2026-01-04
+expenditure,2025-03-31,EZ Pass Virginia,$142.68,Richmond,VA,business,Tolls for Professional Events/Meetings (Jan-March),D,474624,2026-01-04
+expenditure,2025-04-02,Google Suite,$26.24,Mountain View,CA,business,Google Suite,D,474631,2026-01-04
+expenditure,2025-04-03,NGP VAN,$320,Washington,DC,business,Database,D,474631,2026-01-04
 expenditure,2025-04-03,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,Dues,D,474631,2026-01-04
-expenditure,2025-04-06,ActBlue,$49.38,Somerville,MA,pac,Credit Card Processing,D,474631,2026-01-04
-expenditure,2025-04-10,Commonwealth Victory Fund,$650,Richmond,VA,pac,Campaign Contribution,D,474631,2026-01-04
-expenditure,2025-04-13,ActBlue,$2.18,Somerville,MA,pac,Credit Card Processing,D,474631,2026-01-04
-expenditure,2025-04-20,ActBlue,$6.92,Somerville,MA,pac,Credit Card Processing,D,474631,2026-01-04
-expenditure,2025-04-24,GoDaddy.com,$22.17,Tempe,AZ,pac,Web Domain,D,474631,2026-01-04
-expenditure,2025-04-27,ActBlue,$4.75,Somerville,MA,pac,Credit Card Processing,D,474631,2026-01-04
+expenditure,2025-04-06,ActBlue,$49.38,Somerville,MA,business,Credit Card Processing,D,474631,2026-01-04
+expenditure,2025-04-10,Commonwealth Victory Fund,$650,Richmond,VA,business,Campaign Contribution,D,474631,2026-01-04
+expenditure,2025-04-13,ActBlue,$2.18,Somerville,MA,business,Credit Card Processing,D,474631,2026-01-04
+expenditure,2025-04-20,ActBlue,$6.92,Somerville,MA,business,Credit Card Processing,D,474631,2026-01-04
+expenditure,2025-04-24,GoDaddy.com,$22.17,Tempe,AZ,business,Web Domain,D,474631,2026-01-04
+expenditure,2025-04-27,ActBlue,$4.75,Somerville,MA,business,Credit Card Processing,D,474631,2026-01-04
 expenditure,2025-04-30,Democratic Party of Virginia,$920.93,Richmond,VA,party,Contribution to the Democratic Party of Virginia,D,474631,2026-01-04
-expenditure,2025-05-02,Google Suite,$21.60,Mountain View,CA,pac,Google Suite,D,474631,2026-01-04
-expenditure,2025-05-04,ActBlue,$40.69,Somerville,MA,pac,Credit Card Processing,D,474631,2026-01-04
-expenditure,2025-05-11,ActBlue,$0.20,Somerville,MA,pac,Credit Card Processing,D,474631,2026-01-04
-expenditure,2025-05-18,ActBlue,$2.38,Somerville,MA,pac,Credit Card Processing,D,474631,2026-01-04
-expenditure,2025-05-19,VEED,$348,United Kingdom,DC,pac,Video Editing Service,D,474631,2026-01-04
-expenditure,2025-05-19,VEED,$10.44,United Kingdom,DC,pac,International Service Fee,D,474631,2026-01-04
-expenditure,2025-05-21,Truist,$7,Sterling,VA,pac,Bank Fee,D,474631,2026-01-04
-expenditure,2025-05-25,ActBlue,$13.84,Somerville,MA,pac,Credit Card Processing,D,474631,2026-01-04
+expenditure,2025-05-02,Google Suite,$21.60,Mountain View,CA,business,Google Suite,D,474631,2026-01-04
+expenditure,2025-05-04,ActBlue,$40.69,Somerville,MA,business,Credit Card Processing,D,474631,2026-01-04
+expenditure,2025-05-11,ActBlue,$0.20,Somerville,MA,business,Credit Card Processing,D,474631,2026-01-04
+expenditure,2025-05-18,ActBlue,$2.38,Somerville,MA,business,Credit Card Processing,D,474631,2026-01-04
+expenditure,2025-05-19,VEED,$348,United Kingdom,DC,business,Video Editing Service,D,474631,2026-01-04
+expenditure,2025-05-19,VEED,$10.44,United Kingdom,DC,business,International Service Fee,D,474631,2026-01-04
+expenditure,2025-05-21,Truist,$7,Sterling,VA,business,Bank Fee,D,474631,2026-01-04
+expenditure,2025-05-25,ActBlue,$13.84,Somerville,MA,business,Credit Card Processing,D,474631,2026-01-04
 expenditure,2025-05-30,Corey Coldren,"$1,068.75",Richmond,VA,individual,Campaign Work,D,474631,2026-01-04
-expenditure,2025-06-01,ActBlue,$42.73,Somerville,MA,pac,Credit Card Processing,D,474631,2026-01-04
-expenditure,2025-06-02,Google Suite,$21.60,Mountain View,CA,pac,Google Suite,D,474631,2026-01-04
-expenditure,2025-06-05,United States Postal Service,$657,Sterling,VA,pac,Postage,D,474631,2026-01-04
-expenditure,2025-06-08,ActBlue,$0.99,Somerville,MA,pac,Credit Card Processing,D,474632,2026-01-04
-expenditure,2025-06-10,NAACP Loudoun,$268.61,Leesburg,VA,pac,Event,D,474632,2026-01-04
-expenditure,2025-06-10,NGP VAN,$336,Washington,DC,pac,Database,D,474632,2026-01-04
-expenditure,2025-06-15,ActBlue,$4.15,Somerville,MA,pac,Credit Card Processing,D,474632,2026-01-04
-expenditure,2025-06-16,Extra Space Storage,$62,Sterling,VA,pac,Storage,D,474632,2026-01-04
-expenditure,2025-06-20,United States Postal Service,$146,Burke,VA,pac,Postage,D,474632,2026-01-04
-expenditure,2025-06-21,Uber,$9.62,San Francisco,CA,pac,Transportation,D,474632,2026-01-04
-expenditure,2025-06-22,ActBlue,$47.41,Somerville,MA,pac,Credit Card Processing,D,474632,2026-01-04
-expenditure,2025-06-22,Hilton Richmond,$41,Richmond,VA,pac,Parking,D,474632,2026-01-04
-expenditure,2025-06-23,Colonial Parking,$23,Washington,DC,pac,Parking,D,474632,2026-01-04
-expenditure,2025-06-23,LAZ Parking,$22,Washington,DC,pac,Parking,D,474632,2026-01-04
-expenditure,2025-06-24,National Conference of State Legislatures,$895,Washington,DC,pac,Conference,D,474632,2026-01-04
-expenditure,2025-06-24,United Airlines,$519.64,Chicago,IL,pac,Flight for Conference,D,474632,2026-01-04
-expenditure,2025-06-25,GoDaddy.com,$46.34,Tempe,AZ,pac,Web Domain,D,474632,2026-01-04
-expenditure,2025-06-25,Pioneer Picnic,$17.49,Hot Springs,VA,pac,Work Meal,D,474632,2026-01-04
-expenditure,2025-06-25,Tesla Inc,$12.94,Palo Alto,CA,pac,Energy,D,474632,2026-01-04
-expenditure,2025-06-27,Hilton McLean Harth,$21.02,Mclean,VA,pac,Work Meal,D,474632,2026-01-04
-expenditure,2025-06-27,Sheetz,$7.24,Mount Jackson,VA,pac,Work Meal,D,474632,2026-01-04
-expenditure,2025-06-27,Tesla Inc,$9.14,Palo Alto,CA,pac,Energy,D,474632,2026-01-04
-expenditure,2025-06-29,ActBlue,$16.22,Somerville,MA,pac,Credit Card Processing,D,474632,2026-01-04
-expenditure,2025-06-30,ActBlue,$5.93,Somerville,MA,pac,Credit Card Processing,D,474632,2026-01-04
-expenditure,2025-06-30,EZ Pass Virginia,$343.90,Richmond,VA,pac,Tolls Professional Events/Meetings (April-June),D,474632,2026-01-04
-expenditure,2025-06-30,JBGS Parking,$23,Arlington,VA,pac,Parking,D,474632,2026-01-04
+expenditure,2025-06-01,ActBlue,$42.73,Somerville,MA,business,Credit Card Processing,D,474631,2026-01-04
+expenditure,2025-06-02,Google Suite,$21.60,Mountain View,CA,business,Google Suite,D,474631,2026-01-04
+expenditure,2025-06-05,United States Postal Service,$657,Sterling,VA,business,Postage,D,474631,2026-01-04
+expenditure,2025-06-08,ActBlue,$0.99,Somerville,MA,business,Credit Card Processing,D,474632,2026-01-04
+expenditure,2025-06-10,NAACP Loudoun,$268.61,Leesburg,VA,business,Event,D,474632,2026-01-04
+expenditure,2025-06-10,NGP VAN,$336,Washington,DC,business,Database,D,474632,2026-01-04
+expenditure,2025-06-15,ActBlue,$4.15,Somerville,MA,business,Credit Card Processing,D,474632,2026-01-04
+expenditure,2025-06-16,Extra Space Storage,$62,Sterling,VA,business,Storage,D,474632,2026-01-04
+expenditure,2025-06-20,United States Postal Service,$146,Burke,VA,business,Postage,D,474632,2026-01-04
+expenditure,2025-06-21,Uber,$9.62,San Francisco,CA,business,Transportation,D,474632,2026-01-04
+expenditure,2025-06-22,ActBlue,$47.41,Somerville,MA,business,Credit Card Processing,D,474632,2026-01-04
+expenditure,2025-06-22,Hilton Richmond,$41,Richmond,VA,business,Parking,D,474632,2026-01-04
+expenditure,2025-06-23,Colonial Parking,$23,Washington,DC,business,Parking,D,474632,2026-01-04
+expenditure,2025-06-23,LAZ Parking,$22,Washington,DC,business,Parking,D,474632,2026-01-04
+expenditure,2025-06-24,National Conference of State Legislatures,$895,Washington,DC,business,Conference,D,474632,2026-01-04
+expenditure,2025-06-24,United Airlines,$519.64,Chicago,IL,business,Flight for Conference,D,474632,2026-01-04
+expenditure,2025-06-25,GoDaddy.com,$46.34,Tempe,AZ,business,Web Domain,D,474632,2026-01-04
+expenditure,2025-06-25,Pioneer Picnic,$17.49,Hot Springs,VA,business,Work Meal,D,474632,2026-01-04
+expenditure,2025-06-25,Tesla Inc,$12.94,Palo Alto,CA,business,Energy,D,474632,2026-01-04
+expenditure,2025-06-27,Hilton McLean Harth,$21.02,Mclean,VA,business,Work Meal,D,474632,2026-01-04
+expenditure,2025-06-27,Sheetz,$7.24,Mount Jackson,VA,business,Work Meal,D,474632,2026-01-04
+expenditure,2025-06-27,Tesla Inc,$9.14,Palo Alto,CA,business,Energy,D,474632,2026-01-04
+expenditure,2025-06-29,ActBlue,$16.22,Somerville,MA,business,Credit Card Processing,D,474632,2026-01-04
+expenditure,2025-06-30,ActBlue,$5.93,Somerville,MA,business,Credit Card Processing,D,474632,2026-01-04
+expenditure,2025-06-30,EZ Pass Virginia,$343.90,Richmond,VA,business,Tolls Professional Events/Meetings (April-June),D,474632,2026-01-04
+expenditure,2025-06-30,JBGS Parking,$23,Arlington,VA,business,Parking,D,474632,2026-01-04
 expenditure,2025-07-01,John McAuliff for Delegate,$250,The Plains,VA,candidate,Contribution,D,474633,2026-01-04
-expenditure,2025-07-01,NGP VAN,$336,Washington,DC,pac,Database,D,474633,2026-01-04
-expenditure,2025-07-01,Treasurer of Virginia,"$1,920.94",Richmond,VA,pac,Postage,D,474633,2026-01-04
-expenditure,2025-07-02,Google Suite,$21.60,Mountain View,CA,pac,Google Suite,D,474633,2026-01-04
-expenditure,2025-07-03,NGP VAN,$336,Washington,DC,pac,Database,D,474633,2026-01-04
-expenditure,2025-07-03,Target,$61.51,Sterling,VA,pac,Event Supplies,D,474633,2026-01-04
-expenditure,2025-07-06,ActBlue,$3.96,Somerville,MA,pac,Credit Card Processing,D,474633,2026-01-04
-expenditure,2025-07-09,Amazon.com Services LLC,$86.32,Seattle,WA,pac,Office Supplies,D,474633,2026-01-04
-expenditure,2025-07-13,ActBlue,$39.70,Somerville,MA,pac,Credit Card Processing,D,474633,2026-01-04
-expenditure,2025-07-16,Extra Space Storage,$13,Sterling,VA,pac,Storage,D,474633,2026-01-04
-expenditure,2025-07-20,ActBlue,$13.84,Somerville,MA,pac,Credit Card Processing,D,474633,2026-01-04
-expenditure,2025-07-22,Ghazala Hashmi for Virginia,$50,North Chesterfield,VA,pac,Contribution,D,474633,2026-01-04
-expenditure,2025-07-22,Jay Jones for Virginia,$50,Williamsburg,VA,pac,Contribution,D,474633,2026-01-04
-expenditure,2025-07-24,United States Postal Service,$234,Sterling,VA,pac,Postage,D,474633,2026-01-04
-expenditure,2025-07-27,ActBlue,$6.92,Somerville,MA,pac,Credit Card Processing,D,474633,2026-01-04
+expenditure,2025-07-01,NGP VAN,$336,Washington,DC,business,Database,D,474633,2026-01-04
+expenditure,2025-07-01,Treasurer of Virginia,"$1,920.94",Richmond,VA,business,Postage,D,474633,2026-01-04
+expenditure,2025-07-02,Google Suite,$21.60,Mountain View,CA,business,Google Suite,D,474633,2026-01-04
+expenditure,2025-07-03,NGP VAN,$336,Washington,DC,business,Database,D,474633,2026-01-04
+expenditure,2025-07-03,Target,$61.51,Sterling,VA,business,Event Supplies,D,474633,2026-01-04
+expenditure,2025-07-06,ActBlue,$3.96,Somerville,MA,business,Credit Card Processing,D,474633,2026-01-04
+expenditure,2025-07-09,Amazon.com Services LLC,$86.32,Seattle,WA,business,Office Supplies,D,474633,2026-01-04
+expenditure,2025-07-13,ActBlue,$39.70,Somerville,MA,business,Credit Card Processing,D,474633,2026-01-04
+expenditure,2025-07-16,Extra Space Storage,$13,Sterling,VA,business,Storage,D,474633,2026-01-04
+expenditure,2025-07-20,ActBlue,$13.84,Somerville,MA,business,Credit Card Processing,D,474633,2026-01-04
+expenditure,2025-07-22,Ghazala Hashmi for Virginia,$50,North Chesterfield,VA,business,Contribution,D,474633,2026-01-04
+expenditure,2025-07-22,Jay Jones for Virginia,$50,Williamsburg,VA,business,Contribution,D,474633,2026-01-04
+expenditure,2025-07-24,United States Postal Service,$234,Sterling,VA,business,Postage,D,474633,2026-01-04
+expenditure,2025-07-27,ActBlue,$6.92,Somerville,MA,business,Credit Card Processing,D,474633,2026-01-04
 expenditure,2025-07-28,Charles Conner,$750,Burke,VA,individual,Campaign Work,D,474633,2026-01-04
 expenditure,2025-07-28,Cori Sanzano,"$1,112.50",Potomac Falls,VA,individual,Campaign Work,D,474633,2026-01-04
-expenditure,2025-07-29,Ghazala Hashmi for Virginia,$500,North Chesterfield,VA,pac,Contribution,D,474633,2026-01-04
-expenditure,2025-07-29,Jay Jones for Virginia,$500,Williamsburg,VA,pac,Contribution,D,474633,2026-01-04
-expenditure,2025-07-30,Ghazala Hashmi for Virginia,$500,North Chesterfield,VA,pac,Contribution,D,474633,2026-01-04
-expenditure,2025-07-30,Jay Jones for Virginia,$500,Williamsburg,VA,pac,Contribution,D,474633,2026-01-04
-expenditure,2025-07-30,SBDigital,"$1,412.50",Washington,DC,pac,Digital Services,D,474633,2026-01-04
-expenditure,2025-08-01,Google Suite,$24.26,Mountain View,CA,pac,Google Suite,D,474633,2026-01-04
-expenditure,2025-08-01,United Airlines,$235.33,Chicago,IL,pac,Conference Travel,D,474633,2026-01-04
-expenditure,2025-08-03,ActBlue,$8.31,Somerville,MA,pac,Credit Card Processing,D,474633,2026-01-04
-expenditure,2025-08-03,United Airlines,$16.11,Chicago,IL,pac,Conference Travel,D,474633,2026-01-04
-expenditure,2025-08-03,United Airlines,$80.64,Chicago,IL,pac,Conference Travel,D,474633,2026-01-04
-expenditure,2025-08-04,Curb Mobility,$39.30,Long Island City,NY,pac,Transportation,D,474633,2026-01-04
-expenditure,2025-08-04,NGP VAN,$336,Washington,DC,pac,Database,D,474633,2026-01-04
-expenditure,2025-08-04,Uber,$3,San Francisco,CA,pac,Transportation,D,474633,2026-01-04
-expenditure,2025-08-04,Uber,$9.97,San Francisco,CA,pac,Transportation,D,474633,2026-01-04
-expenditure,2025-08-05,Uber,$31.28,San Francisco,CA,pac,Transportation,D,474633,2026-01-04
-expenditure,2025-08-06,Delta Airlines,$27.64,Atlanta,GA,pac,Transportation,D,474633,2026-01-04
-expenditure,2025-08-06,Homewood Suites,"$2,819.67",Boston,MA,pac,Accommodations for Conference,D,474633,2026-01-04
-expenditure,2025-08-06,Uber,$26.47,San Francisco,CA,pac,Transportation,D,474633,2026-01-04
-expenditure,2025-08-06,Uber,$23.30,San Francisco,CA,pac,Transportation,D,474633,2026-01-04
-expenditure,2025-08-07,The Local Orf Norfolk,$32.90,Norfolk,VA,pac,Meal,D,474633,2026-01-04
-expenditure,2025-08-07,Ztrip,$37.21,Dulles,VA,pac,Transportation,D,474633,2026-01-04
-expenditure,2025-08-09,NAACP Freedom Fund,$124.56,Baltimore,MD,pac,Donation/Sponsorship,D,474633,2026-01-04
-expenditure,2025-08-10,ActBlue,$5.93,Somerville,MA,pac,Credit Card Processing,D,474633,2026-01-04
+expenditure,2025-07-29,Ghazala Hashmi for Virginia,$500,North Chesterfield,VA,business,Contribution,D,474633,2026-01-04
+expenditure,2025-07-29,Jay Jones for Virginia,$500,Williamsburg,VA,business,Contribution,D,474633,2026-01-04
+expenditure,2025-07-30,Ghazala Hashmi for Virginia,$500,North Chesterfield,VA,business,Contribution,D,474633,2026-01-04
+expenditure,2025-07-30,Jay Jones for Virginia,$500,Williamsburg,VA,business,Contribution,D,474633,2026-01-04
+expenditure,2025-07-30,SBDigital,"$1,412.50",Washington,DC,business,Digital Services,D,474633,2026-01-04
+expenditure,2025-08-01,Google Suite,$24.26,Mountain View,CA,business,Google Suite,D,474633,2026-01-04
+expenditure,2025-08-01,United Airlines,$235.33,Chicago,IL,business,Conference Travel,D,474633,2026-01-04
+expenditure,2025-08-03,ActBlue,$8.31,Somerville,MA,business,Credit Card Processing,D,474633,2026-01-04
+expenditure,2025-08-03,United Airlines,$16.11,Chicago,IL,business,Conference Travel,D,474633,2026-01-04
+expenditure,2025-08-03,United Airlines,$80.64,Chicago,IL,business,Conference Travel,D,474633,2026-01-04
+expenditure,2025-08-04,Curb Mobility,$39.30,Long Island City,NY,business,Transportation,D,474633,2026-01-04
+expenditure,2025-08-04,NGP VAN,$336,Washington,DC,business,Database,D,474633,2026-01-04
+expenditure,2025-08-04,Uber,$3,San Francisco,CA,business,Transportation,D,474633,2026-01-04
+expenditure,2025-08-04,Uber,$9.97,San Francisco,CA,business,Transportation,D,474633,2026-01-04
+expenditure,2025-08-05,Uber,$31.28,San Francisco,CA,business,Transportation,D,474633,2026-01-04
+expenditure,2025-08-06,Delta Airlines,$27.64,Atlanta,GA,business,Transportation,D,474633,2026-01-04
+expenditure,2025-08-06,Homewood Suites,"$2,819.67",Boston,MA,business,Accommodations for Conference,D,474633,2026-01-04
+expenditure,2025-08-06,Uber,$26.47,San Francisco,CA,business,Transportation,D,474633,2026-01-04
+expenditure,2025-08-06,Uber,$23.30,San Francisco,CA,business,Transportation,D,474633,2026-01-04
+expenditure,2025-08-07,The Local Orf Norfolk,$32.90,Norfolk,VA,business,Meal,D,474633,2026-01-04
+expenditure,2025-08-07,Ztrip,$37.21,Dulles,VA,business,Transportation,D,474633,2026-01-04
+expenditure,2025-08-09,NAACP Freedom Fund,$124.56,Baltimore,MD,business,Donation/Sponsorship,D,474633,2026-01-04
+expenditure,2025-08-10,ActBlue,$5.93,Somerville,MA,business,Credit Card Processing,D,474633,2026-01-04
 expenditure,2025-08-11,Virginia House Democratic Caucus,"$35,000",Richmond,VA,party,Contribution,D,474633,2026-01-04
-expenditure,2025-08-13,NGP VAN,$150,Washington,DC,pac,Database,D,474633,2026-01-04
-expenditure,2025-08-14,Extra Space Storage,$49,Sterling,VA,pac,Storage,D,474633,2026-01-04
-expenditure,2025-08-14,Friends of Elizabeht Guzman,$250,Nokesville,VA,pac,Contribution,D,474633,2026-01-04
-expenditure,2025-08-17,ActBlue,$39.50,Somerville,MA,pac,Credit Card Processing,D,474633,2026-01-04
-expenditure,2025-08-17,Dulles Area Democrats,$30,Herndon,VA,pac,Event,D,474633,2026-01-04
-expenditure,2025-08-18,Amazon.com Services LLC,$26.49,Seattle,WA,pac,Office Supplies,D,474633,2026-01-04
-expenditure,2025-08-20,United States Postal Service,$4.68,Sterling,VA,pac,Postage,D,474633,2026-01-04
-expenditure,2025-08-24,ActBlue,$22.37,Somerville,MA,pac,Credit Card Processing,D,474633,2026-01-04
-expenditure,2025-08-28,First Watch,$18.67,Sterling,VA,pac,Staff Meal,D,474633,2026-01-04
-expenditure,2025-08-28,United States Postal Service,$46.80,Sterling,VA,pac,Postage,D,474633,2026-01-04
-expenditure,2025-08-31,ActBlue,$36.57,Somerville,MA,pac,Credit Card Processing,D,474633,2026-01-04
-expenditure,2025-09-01,Google Suite,$25.20,Mountain View,CA,pac,Google Suite,D,474635,2026-01-04
-expenditure,2025-09-05,NGP VAN,$150,Washington,DC,pac,Database,D,474635,2026-01-04
-expenditure,2025-09-05,NGP VAN,$336,Washington,DC,pac,Database,D,474635,2026-01-04
-expenditure,2025-09-07,ActBlue,$9.88,Somerville,MA,pac,Credit Card Processing,D,474635,2026-01-04
-expenditure,2025-09-08,Lensrentals,$367.98,Memphis,TN,pac,Equipment Rental,D,474635,2026-01-04
-expenditure,2025-09-14,ActBlue,$118.52,Somerville,MA,pac,Credit Card Processing,D,474635,2026-01-04
-expenditure,2025-09-14,Extra Space Storage,$49,Sterling,VA,pac,Storage,D,474635,2026-01-04
-expenditure,2025-09-15,Loudoun County Democratic Committee,$150,Leesburg,VA,pac,Sponsorship,D,474635,2026-01-04
+expenditure,2025-08-13,NGP VAN,$150,Washington,DC,business,Database,D,474633,2026-01-04
+expenditure,2025-08-14,Extra Space Storage,$49,Sterling,VA,business,Storage,D,474633,2026-01-04
+expenditure,2025-08-14,Friends of Elizabeht Guzman,$250,Nokesville,VA,business,Contribution,D,474633,2026-01-04
+expenditure,2025-08-17,ActBlue,$39.50,Somerville,MA,business,Credit Card Processing,D,474633,2026-01-04
+expenditure,2025-08-17,Dulles Area Democrats,$30,Herndon,VA,business,Event,D,474633,2026-01-04
+expenditure,2025-08-18,Amazon.com Services LLC,$26.49,Seattle,WA,business,Office Supplies,D,474633,2026-01-04
+expenditure,2025-08-20,United States Postal Service,$4.68,Sterling,VA,business,Postage,D,474633,2026-01-04
+expenditure,2025-08-24,ActBlue,$22.37,Somerville,MA,business,Credit Card Processing,D,474633,2026-01-04
+expenditure,2025-08-28,First Watch,$18.67,Sterling,VA,business,Staff Meal,D,474633,2026-01-04
+expenditure,2025-08-28,United States Postal Service,$46.80,Sterling,VA,business,Postage,D,474633,2026-01-04
+expenditure,2025-08-31,ActBlue,$36.57,Somerville,MA,business,Credit Card Processing,D,474633,2026-01-04
+expenditure,2025-09-01,Google Suite,$25.20,Mountain View,CA,business,Google Suite,D,474635,2026-01-04
+expenditure,2025-09-05,NGP VAN,$150,Washington,DC,business,Database,D,474635,2026-01-04
+expenditure,2025-09-05,NGP VAN,$336,Washington,DC,business,Database,D,474635,2026-01-04
+expenditure,2025-09-07,ActBlue,$9.88,Somerville,MA,business,Credit Card Processing,D,474635,2026-01-04
+expenditure,2025-09-08,Lensrentals,$367.98,Memphis,TN,business,Equipment Rental,D,474635,2026-01-04
+expenditure,2025-09-14,ActBlue,$118.52,Somerville,MA,business,Credit Card Processing,D,474635,2026-01-04
+expenditure,2025-09-14,Extra Space Storage,$49,Sterling,VA,business,Storage,D,474635,2026-01-04
+expenditure,2025-09-15,Loudoun County Democratic Committee,$150,Leesburg,VA,business,Sponsorship,D,474635,2026-01-04
 expenditure,2025-09-15,Virginia House Democratic Caucus,"$20,000",Richmond,VA,party,Contribution,D,474635,2026-01-04
 expenditure,2025-09-16,Charles Conner,$113.43,Burke,VA,individual,Postal Services,D,474635,2026-01-04
-expenditure,2025-09-19,Lee Inc.,$500,Wilmington,DE,pac,Consulting Services,D,474635,2026-01-04
-expenditure,2025-09-21,ActBlue,$122.47,Somerville,MA,pac,Credit Card Processing,D,474635,2026-01-04
-expenditure,2025-09-21,"Meta Platforms, Inc.",$22.02,Menlo Park,CA,pac,Meta Ads,D,474635,2026-01-04
-expenditure,2025-09-21,SBDigital,$600,Washington,DC,pac,Website Maintenance,D,474635,2026-01-04
-expenditure,2025-09-22,Truist,$14,Sterling,VA,pac,Bank Fees,D,474635,2026-01-04
-expenditure,2025-09-25,975 F Street NW Garage,$20,Washington,DC,pac,Parking,D,474635,2026-01-04
-expenditure,2025-09-28,ActBlue,$27.07,Somerville,MA,pac,Credit Card Processing,D,474635,2026-01-04
-expenditure,2025-09-30,ActBlue,$79.42,Somerville,MA,pac,Credit Card Processing,D,474635,2026-01-04
+expenditure,2025-09-19,Lee Inc.,$500,Wilmington,DE,business,Consulting Services,D,474635,2026-01-04
+expenditure,2025-09-21,ActBlue,$122.47,Somerville,MA,business,Credit Card Processing,D,474635,2026-01-04
+expenditure,2025-09-21,"Meta Platforms, Inc.",$22.02,Menlo Park,CA,business,Meta Ads,D,474635,2026-01-04
+expenditure,2025-09-21,SBDigital,$600,Washington,DC,business,Website Maintenance,D,474635,2026-01-04
+expenditure,2025-09-22,Truist,$14,Sterling,VA,business,Bank Fees,D,474635,2026-01-04
+expenditure,2025-09-25,975 F Street NW Garage,$20,Washington,DC,business,Parking,D,474635,2026-01-04
+expenditure,2025-09-28,ActBlue,$27.07,Somerville,MA,business,Credit Card Processing,D,474635,2026-01-04
+expenditure,2025-09-30,ActBlue,$79.42,Somerville,MA,business,Credit Card Processing,D,474635,2026-01-04
 expenditure,2025-09-30,Charles Conner,"$1,000",Burke,VA,individual,Campaign Work,D,474635,2026-01-04
-expenditure,2025-09-30,EZ Pass Virginia,$66.20,Richmond,VA,pac,Tolls Professional Events/Meetings (July-Sept),D,474635,2026-01-04
-expenditure,2025-09-30,"Meta Platforms, Inc.",$125,Menlo Park,CA,pac,Meta Ads,D,474635,2026-01-04
+expenditure,2025-09-30,EZ Pass Virginia,$66.20,Richmond,VA,business,Tolls Professional Events/Meetings (July-Sept),D,474635,2026-01-04
+expenditure,2025-09-30,"Meta Platforms, Inc.",$125,Menlo Park,CA,business,Meta Ads,D,474635,2026-01-04
 expenditure,2025-09-30,Cori Sanzano,"$1,187.50",Potomac Falls,VA,individual,Campaign Work,D,474635,2026-01-04
-expenditure,2025-10-01,Google Suite,$25.20,Mountain View,CA,pac,Google Suite,D,474636,2026-01-04
-expenditure,2025-10-01,Walmart,$10.52,Burke,VA,pac,Event Supplies,D,474636,2026-01-04
-expenditure,2025-10-03,NGP VAN,$150,Washington,DC,pac,Database,D,474636,2026-01-04
-expenditure,2025-10-03,NGP VAN,$336,Washington,DC,pac,Database,D,474636,2026-01-04
-expenditure,2025-10-05,ActBlue,$66.57,Somerville,MA,pac,Credit Card Processing,D,474636,2026-01-04
-expenditure,2025-10-08,GDA Wins,"$3,850",Washington,DC,pac,Walk Cards,D,474636,2026-01-04
+expenditure,2025-10-01,Google Suite,$25.20,Mountain View,CA,business,Google Suite,D,474636,2026-01-04
+expenditure,2025-10-01,Walmart,$10.52,Burke,VA,business,Event Supplies,D,474636,2026-01-04
+expenditure,2025-10-03,NGP VAN,$150,Washington,DC,business,Database,D,474636,2026-01-04
+expenditure,2025-10-03,NGP VAN,$336,Washington,DC,business,Database,D,474636,2026-01-04
+expenditure,2025-10-05,ActBlue,$66.57,Somerville,MA,business,Credit Card Processing,D,474636,2026-01-04
+expenditure,2025-10-08,GDA Wins,"$3,850",Washington,DC,business,Walk Cards,D,474636,2026-01-04
 expenditure,2025-10-09,Democratic Party of Virginia,"$20,542.62",Richmond,VA,party,Contribution,D,474636,2026-01-04
 expenditure,2025-10-10,Virginia House Democratic Caucus,"$20,500",Richmond,VA,party,Contribution,D,474636,2026-01-04
-expenditure,2025-10-12,ActBlue,$50.37,Somerville,MA,pac,Credit Card Processing,D,474636,2026-01-04
-expenditure,2025-10-12,United Airlines,"$1,008.69",Chicago,IL,pac,Conference Travel,D,474636,2026-01-04
-expenditure,2025-10-14,Extra Space Storage,$49,Sterling,VA,pac,Storage,D,474636,2026-01-04
-expenditure,2025-10-14,"Meta Platforms, Inc.",$59,Menlo Park,CA,pac,Meta Ads,D,474636,2026-01-04
-expenditure,2025-10-15,Hilton Richmond,$12.19,Richmond,VA,pac,Travel,D,474636,2026-01-04
-expenditure,2025-10-15,United States Postal Service,$234,Springfield,VA,pac,Postage,D,474636,2026-01-04
-expenditure,2025-10-17,ColPark Loc 43,$15,Washington,DC,pac,Parking,D,474636,2026-01-04
-expenditure,2025-10-17,Kim Adams for Virginia,$200,Petersburg,VA,pac,Contribution,D,474636,2026-01-04
-expenditure,2025-10-17,"Meta Platforms, Inc.",$63,Menlo Park,CA,pac,Meta Ads,D,474636,2026-01-04
-expenditure,2025-10-18,Friends of May Nivar,$200,Glen Allen,VA,pac,Contribution,D,474636,2026-01-04
-expenditure,2025-10-18,Jessica Anderson for VA,$200,Williamsburg,VA,pac,Contribution,D,474636,2026-01-04
+expenditure,2025-10-12,ActBlue,$50.37,Somerville,MA,business,Credit Card Processing,D,474636,2026-01-04
+expenditure,2025-10-12,United Airlines,"$1,008.69",Chicago,IL,business,Conference Travel,D,474636,2026-01-04
+expenditure,2025-10-14,Extra Space Storage,$49,Sterling,VA,business,Storage,D,474636,2026-01-04
+expenditure,2025-10-14,"Meta Platforms, Inc.",$59,Menlo Park,CA,business,Meta Ads,D,474636,2026-01-04
+expenditure,2025-10-15,Hilton Richmond,$12.19,Richmond,VA,business,Travel,D,474636,2026-01-04
+expenditure,2025-10-15,United States Postal Service,$234,Springfield,VA,business,Postage,D,474636,2026-01-04
+expenditure,2025-10-17,ColPark Loc 43,$15,Washington,DC,business,Parking,D,474636,2026-01-04
+expenditure,2025-10-17,Kim Adams for Virginia,$200,Petersburg,VA,business,Contribution,D,474636,2026-01-04
+expenditure,2025-10-17,"Meta Platforms, Inc.",$63,Menlo Park,CA,business,Meta Ads,D,474636,2026-01-04
+expenditure,2025-10-18,Friends of May Nivar,$200,Glen Allen,VA,business,Contribution,D,474636,2026-01-04
+expenditure,2025-10-18,Jessica Anderson for VA,$200,Williamsburg,VA,business,Contribution,D,474636,2026-01-04
 expenditure,2025-10-18,Leslie Mehta for Delegate,$200,Midlothian,VA,candidate,Contribution,D,474636,2026-01-04
 expenditure,2025-10-18,Nicole Cole for Delegate,$200,Fredericksburg,VA,candidate,Contribution,D,474636,2026-01-04
-expenditure,2025-10-19,ActBlue,$31.62,Somerville,MA,pac,Credit Card Processing,D,474636,2026-01-04
-expenditure,2025-10-19,"Meta Platforms, Inc.",$68,Menlo Park,CA,pac,Meta Ads,D,474636,2026-01-04
+expenditure,2025-10-19,ActBlue,$31.62,Somerville,MA,business,Credit Card Processing,D,474636,2026-01-04
+expenditure,2025-10-19,"Meta Platforms, Inc.",$68,Menlo Park,CA,business,Meta Ads,D,474636,2026-01-04
 expenditure,2025-10-20,Lily for Delegate,$200,Blacksburg,VA,candidate,Contribution,D,474636,2026-01-04
-expenditure,2025-10-20,United Airlines,$966,Chicago,IL,pac,Conference Travel,D,474636,2026-01-04
+expenditure,2025-10-20,United Airlines,$966,Chicago,IL,business,Conference Travel,D,474636,2026-01-04
 expenditure,2025-10-21,Charles Conner,$100,Burke,VA,individual,Campaign Work,D,474636,2026-01-04
-expenditure,2025-10-21,"Meta Platforms, Inc.",$17.11,Menlo Park,CA,pac,Meta Ads,D,474636,2026-01-04
-expenditure,2025-10-21,Truist,$72,Sterling,VA,pac,Bank Fees,D,474636,2026-01-04
-expenditure,2025-10-22,"Meta Platforms, Inc.",$73,Menlo Park,CA,pac,Meta Ads,D,474636,2026-01-04
-expenditure,2025-10-23,ActBlue,$7.91,Somerville,MA,pac,Credit Card Processing,D,474636,2026-01-04
-expenditure,2025-10-23,April for Algonkian,$500,Sterling,VA,pac,Contribution,D,474636,2026-01-04
-expenditure,2025-10-23,Arben for Sterling,$500,Ashburn,VA,pac,Contribution,D,474636,2026-01-04
+expenditure,2025-10-21,"Meta Platforms, Inc.",$17.11,Menlo Park,CA,business,Meta Ads,D,474636,2026-01-04
+expenditure,2025-10-21,Truist,$72,Sterling,VA,business,Bank Fees,D,474636,2026-01-04
+expenditure,2025-10-22,"Meta Platforms, Inc.",$73,Menlo Park,CA,business,Meta Ads,D,474636,2026-01-04
+expenditure,2025-10-23,ActBlue,$7.91,Somerville,MA,business,Credit Card Processing,D,474636,2026-01-04
+expenditure,2025-10-23,April for Algonkian,$500,Sterling,VA,business,Contribution,D,474636,2026-01-04
+expenditure,2025-10-23,Arben for Sterling,$500,Ashburn,VA,business,Contribution,D,474636,2026-01-04
 expenditure,2025-10-23,Jon Pepper for School Board,$250,Aldie,VA,candidate,Contribution,D,474636,2026-01-04
-expenditure,2025-10-23,"Meta Platforms, Inc.",$78,Menlo Park,CA,pac,Meta Ads,D,474636,2026-01-04
-expenditure,2025-10-23,Virginia AAPI Caucus Fund,"$1,000",Merrifield,VA,pac,Contribution,D,474636,2026-01-04
-expenditure,2025-10-25,"Meta Platforms, Inc.",$84,Menlo Park,CA,pac,Meta Ads,D,474639,2026-01-04
-expenditure,2025-10-26,ActBlue,$3.95,Somerville,MA,pac,Credit Card Processing,D,474639,2026-01-04
-expenditure,2025-10-27,Hilton Richmond,$542.37,Richmond,VA,pac,Travel,D,474639,2026-01-04
-expenditure,2025-10-27,"Meta Platforms, Inc.",$90,Menlo Park,CA,pac,Meta Ads,D,474639,2026-01-04
-expenditure,2025-10-28,Hilton Richmond,$303.23,Richmond,VA,pac,Travel,D,474639,2026-01-04
-expenditure,2025-10-30,"Meta Platforms, Inc.",$96,Menlo Park,CA,pac,Meta Ads,D,474639,2026-01-04
-expenditure,2025-10-30,The Korea Times,$100,Alexandria,VA,pac,Print Ad,D,474639,2026-01-04
-expenditure,2025-10-31,Colonial Parking Loc 57,$8.95,Tysons,VA,pac,Parking,D,474639,2026-01-04
-expenditure,2025-11-01,Google Suite,$25.20,Mountain View,CA,pac,Google Suite,D,474639,2026-01-04
-expenditure,2025-11-01,"Meta Platforms, Inc.",$103,Menlo Park,CA,pac,Meta Ads,D,474639,2026-01-04
-expenditure,2025-11-02,ActBlue,$12.26,Somerville,MA,pac,Credit Card Processing,D,474639,2026-01-04
-expenditure,2025-11-03,Iranian American Bar Association,$65.87,Washington,DC,pac,Event,D,474639,2026-01-04
-expenditure,2025-11-03,NGP VAN,$336,Washington,DC,pac,Database,D,474639,2026-01-04
-expenditure,2025-11-03,Vibe.co,"$1,000",Chicago,IL,pac,TV Ads,D,474639,2026-01-04
-expenditure,2025-11-04,ActBlue,$0.20,Somerville,MA,pac,Credit Card Processing,D,474639,2026-01-04
-expenditure,2025-11-04,Hilton Richmond,$570.69,Richmond,VA,pac,Travel,D,474639,2026-01-04
-expenditure,2025-11-05,Parking Management Company,$47.32,Nashville,TN,pac,Travel,D,474639,2026-01-04
-expenditure,2025-11-09,ActBlue,$0.99,Somerville,MA,pac,Credit Card Processing,D,474639,2026-01-04
-expenditure,2025-11-13,United Airlines,$68,Chicago,IL,pac,Conference Travel,D,474639,2026-01-04
-expenditure,2025-11-14,Eduard Spivak,$69.23,San Francisco,CA,pac,Travel,D,474639,2026-01-04
-expenditure,2025-11-14,Extra Space Storage,$29,Sterling,VA,pac,Storage,D,474639,2026-01-04
-expenditure,2025-11-14,United Airlines,"$2,233.85",Chicago,IL,pac,Conference Travel,D,474639,2026-01-04
-expenditure,2025-11-14,United Airlines,$8,Chicago,IL,pac,Conference Travel,D,474639,2026-01-04
-expenditure,2025-11-21,"Meta Platforms, Inc.",$96.24,Menlo Park,CA,pac,Meta Ads,D,474639,2026-01-04
-expenditure,2025-11-21,Truist,$43.75,Sterling,VA,pac,Bank Fees,D,474639,2026-01-04
-expenditure,2025-11-23,ActBlue,$5.94,Somerville,MA,pac,Credit Card Processing,D,474639,2026-01-04
-expenditure,2025-11-29,DSW,$59.35,Dulles,VA,pac,Accidental card use; see refund 12/31/25,D,479993,2026-01-15
-expenditure,2025-11-30,ActBlue,$5.93,Somerville,MA,pac,Credit Card Processing,D,479993,2026-01-15
-expenditure,2025-12-01,Google Suite,$25.20,Mountain View,CA,pac,Google Suite,D,479993,2026-01-15
-expenditure,2025-12-02,Stone Bridge High School,$30,Ashburn,VA,pac,Event Fee,D,479993,2026-01-15
-expenditure,2025-12-03,Colonial Parking Location 1018,$7,Washington,DC,pac,Parking,D,479993,2026-01-15
-expenditure,2025-12-03,NGP VAN,$157.50,Washington,DC,pac,Database,D,479993,2026-01-15
-expenditure,2025-12-03,NGP VAN,$157.50,Washington,DC,pac,Database,D,479993,2026-01-15
-expenditure,2025-12-03,Rakuya,$87.12,Washington,DC,pac,Work Meal,D,479993,2026-01-15
+expenditure,2025-10-23,"Meta Platforms, Inc.",$78,Menlo Park,CA,business,Meta Ads,D,474636,2026-01-04
+expenditure,2025-10-23,Virginia AAPI Caucus Fund,"$1,000",Merrifield,VA,business,Contribution,D,474636,2026-01-04
+expenditure,2025-10-25,"Meta Platforms, Inc.",$84,Menlo Park,CA,business,Meta Ads,D,474639,2026-01-04
+expenditure,2025-10-26,ActBlue,$3.95,Somerville,MA,business,Credit Card Processing,D,474639,2026-01-04
+expenditure,2025-10-27,Hilton Richmond,$542.37,Richmond,VA,business,Travel,D,474639,2026-01-04
+expenditure,2025-10-27,"Meta Platforms, Inc.",$90,Menlo Park,CA,business,Meta Ads,D,474639,2026-01-04
+expenditure,2025-10-28,Hilton Richmond,$303.23,Richmond,VA,business,Travel,D,474639,2026-01-04
+expenditure,2025-10-30,"Meta Platforms, Inc.",$96,Menlo Park,CA,business,Meta Ads,D,474639,2026-01-04
+expenditure,2025-10-30,The Korea Times,$100,Alexandria,VA,business,Print Ad,D,474639,2026-01-04
+expenditure,2025-10-31,Colonial Parking Loc 57,$8.95,Tysons,VA,business,Parking,D,474639,2026-01-04
+expenditure,2025-11-01,Google Suite,$25.20,Mountain View,CA,business,Google Suite,D,474639,2026-01-04
+expenditure,2025-11-01,"Meta Platforms, Inc.",$103,Menlo Park,CA,business,Meta Ads,D,474639,2026-01-04
+expenditure,2025-11-02,ActBlue,$12.26,Somerville,MA,business,Credit Card Processing,D,474639,2026-01-04
+expenditure,2025-11-03,Iranian American Bar Association,$65.87,Washington,DC,business,Event,D,474639,2026-01-04
+expenditure,2025-11-03,NGP VAN,$336,Washington,DC,business,Database,D,474639,2026-01-04
+expenditure,2025-11-03,Vibe.co,"$1,000",Chicago,IL,business,TV Ads,D,474639,2026-01-04
+expenditure,2025-11-04,ActBlue,$0.20,Somerville,MA,business,Credit Card Processing,D,474639,2026-01-04
+expenditure,2025-11-04,Hilton Richmond,$570.69,Richmond,VA,business,Travel,D,474639,2026-01-04
+expenditure,2025-11-05,Parking Management Company,$47.32,Nashville,TN,business,Travel,D,474639,2026-01-04
+expenditure,2025-11-09,ActBlue,$0.99,Somerville,MA,business,Credit Card Processing,D,474639,2026-01-04
+expenditure,2025-11-13,United Airlines,$68,Chicago,IL,business,Conference Travel,D,474639,2026-01-04
+expenditure,2025-11-14,Eduard Spivak,$69.23,San Francisco,CA,business,Travel,D,474639,2026-01-04
+expenditure,2025-11-14,Extra Space Storage,$29,Sterling,VA,business,Storage,D,474639,2026-01-04
+expenditure,2025-11-14,United Airlines,"$2,233.85",Chicago,IL,business,Conference Travel,D,474639,2026-01-04
+expenditure,2025-11-14,United Airlines,$8,Chicago,IL,business,Conference Travel,D,474639,2026-01-04
+expenditure,2025-11-21,"Meta Platforms, Inc.",$96.24,Menlo Park,CA,business,Meta Ads,D,474639,2026-01-04
+expenditure,2025-11-21,Truist,$43.75,Sterling,VA,business,Bank Fees,D,474639,2026-01-04
+expenditure,2025-11-23,ActBlue,$5.94,Somerville,MA,business,Credit Card Processing,D,474639,2026-01-04
+expenditure,2025-11-29,DSW,$59.35,Dulles,VA,business,Accidental card use; see refund 12/31/25,D,479993,2026-01-15
+expenditure,2025-11-30,ActBlue,$5.93,Somerville,MA,business,Credit Card Processing,D,479993,2026-01-15
+expenditure,2025-12-01,Google Suite,$25.20,Mountain View,CA,business,Google Suite,D,479993,2026-01-15
+expenditure,2025-12-02,Stone Bridge High School,$30,Ashburn,VA,business,Event Fee,D,479993,2026-01-15
+expenditure,2025-12-03,Colonial Parking Location 1018,$7,Washington,DC,business,Parking,D,479993,2026-01-15
+expenditure,2025-12-03,NGP VAN,$157.50,Washington,DC,business,Database,D,479993,2026-01-15
+expenditure,2025-12-03,NGP VAN,$157.50,Washington,DC,business,Database,D,479993,2026-01-15
+expenditure,2025-12-03,Rakuya,$87.12,Washington,DC,business,Work Meal,D,479993,2026-01-15
 expenditure,2025-12-07,Schuyler McCauley,$500,Henrico,VA,individual,Campaign Work,D,479993,2026-01-15
 expenditure,2025-12-07,Cori Sanzano,"$1,081.25",Potomac Falls,VA,individual,Campaign Work,D,479993,2026-01-15
-expenditure,2025-12-09,Amazon.com Services LLC,$14.82,Seattle,WA,pac,Office Supplies,D,479993,2026-01-15
-expenditure,2025-12-09,Jay Jones for Virginia,$250,Williamsburg,VA,pac,Inaugural Event,D,479993,2026-01-15
-expenditure,2025-12-14,Extra Space Storage,$49,Sterling,VA,pac,Storage,D,479993,2026-01-15
-expenditure,2025-12-16,Metropolis Parking,$27.30,Washington,DC,pac,Parking,D,479993,2026-01-15
-expenditure,2025-12-18,Hilton Richmond,$223.56,Richmond,VA,pac,Work Travel,D,479993,2026-01-15
-expenditure,2025-12-18,Parking Management Company,$47.32,Nashville,TN,pac,Parking,D,479993,2026-01-15
-expenditure,2025-12-21,ActBlue,$4.95,Somerville,MA,pac,Credit Card Processing,D,479993,2026-01-15
-expenditure,2025-12-28,ActBlue,$0.99,Somerville,MA,pac,Credit Card Processing,D,479993,2026-01-15
-expenditure,2025-12-31,ActBlue,$0.99,Somerville,MA,pac,Credit Card Processing,D,479993,2026-01-15
-expenditure,2025-12-31,NGP VAN,$336,Washington,DC,pac,Database,D,479993,2026-01-15
-expenditure,2026-01-01,Google Suite,$25.20,Mountain View,CA,pac,Google Suite,D,497012,2026-07-15
-expenditure,2026-01-04,GoDaddy.com,$44.38,Tempe,AZ,pac,Web Domain,D,497012,2026-07-15
-expenditure,2026-01-12,Costco Online,$264.99,Issaquah,WA,pac,Office Supplies,D,497012,2026-07-15
-expenditure,2026-01-14,Extra Space Storage,$49,Sterling,VA,pac,Storage,D,497012,2026-07-15
-expenditure,2026-01-27,"Meriwether Godsey, Inc",$324,Lynchburg,VA,pac,Session Lunch Plan,D,497012,2026-07-15
-expenditure,2026-02-01,Google Suite,$25.20,Mountain View,CA,pac,Google Suite,D,497012,2026-07-15
-expenditure,2026-02-02,"EveryAction, Inc",$493.50,Washington,DC,pac,NGP Van,D,497012,2026-07-15
-expenditure,2026-02-05,FlowerShopping.com,$80.25,Henderson,NV,pac,Reimburse Alison Trahan for Staff Appreciation,D,497012,2026-07-15
-expenditure,2026-02-05,FlowerShopping.com,$205.42,Henderson,NV,pac,Reimburse Alison Trahan for Staff Appreciation,D,497012,2026-07-15
-expenditure,2026-02-05,The Tobacco Company,$36.78,Richmond,VA,pac,Work Meal,D,497012,2026-07-15
-expenditure,2026-02-08,The Hill Cafe,$83.13,Richmond,VA,pac,Work Meal,D,497012,2026-07-15
-expenditure,2026-02-09,The RVA Group,"$3,000",Richmond,VA,pac,Session Accommodations,D,497012,2026-07-15
-expenditure,2026-02-12,Treasurer of Virginia,$25,Richmond,VA,pac,Badge,D,497012,2026-07-15
-expenditure,2026-02-14,Extra Space Storage,$49,Sterling,VA,pac,Storage,D,497012,2026-07-15
-expenditure,2026-02-17,"Meriwether Godsey, Inc",$324,Lynchburg,VA,pac,Session Lunch Plan,D,497012,2026-07-15
-expenditure,2026-02-18,Elite Cleaners,$110.20,Richmond,VA,pac,Work Dry Cleaning,D,497012,2026-07-15
-expenditure,2026-03-01,Google Suite,$25.20,Mountain View,CA,pac,Google Suite,D,497012,2026-07-15
-expenditure,2026-03-02,"EveryAction, Inc",$336,Washington,DC,pac,NGP Van,D,497012,2026-07-15
-expenditure,2026-03-09,"EveryAction, Inc",$336,Washington,DC,pac,NGP Van,D,497012,2026-07-15
-expenditure,2026-03-10,Rappahannock Restaurant,$63.90,Richmond,VA,pac,Work Meal,D,497012,2026-07-15
-expenditure,2026-03-14,Extra Space Storage,$49,Sterling,VA,pac,Storage,D,497012,2026-07-15
+expenditure,2025-12-09,Amazon.com Services LLC,$14.82,Seattle,WA,business,Office Supplies,D,479993,2026-01-15
+expenditure,2025-12-09,Jay Jones for Virginia,$250,Williamsburg,VA,business,Inaugural Event,D,479993,2026-01-15
+expenditure,2025-12-14,Extra Space Storage,$49,Sterling,VA,business,Storage,D,479993,2026-01-15
+expenditure,2025-12-16,Metropolis Parking,$27.30,Washington,DC,business,Parking,D,479993,2026-01-15
+expenditure,2025-12-18,Hilton Richmond,$223.56,Richmond,VA,business,Work Travel,D,479993,2026-01-15
+expenditure,2025-12-18,Parking Management Company,$47.32,Nashville,TN,business,Parking,D,479993,2026-01-15
+expenditure,2025-12-21,ActBlue,$4.95,Somerville,MA,business,Credit Card Processing,D,479993,2026-01-15
+expenditure,2025-12-28,ActBlue,$0.99,Somerville,MA,business,Credit Card Processing,D,479993,2026-01-15
+expenditure,2025-12-31,ActBlue,$0.99,Somerville,MA,business,Credit Card Processing,D,479993,2026-01-15
+expenditure,2025-12-31,NGP VAN,$336,Washington,DC,business,Database,D,479993,2026-01-15
+expenditure,2026-01-01,Google Suite,$25.20,Mountain View,CA,business,Google Suite,D,497012,2026-07-15
+expenditure,2026-01-04,GoDaddy.com,$44.38,Tempe,AZ,business,Web Domain,D,497012,2026-07-15
+expenditure,2026-01-12,Costco Online,$264.99,Issaquah,WA,business,Office Supplies,D,497012,2026-07-15
+expenditure,2026-01-14,Extra Space Storage,$49,Sterling,VA,business,Storage,D,497012,2026-07-15
+expenditure,2026-01-27,"Meriwether Godsey, Inc",$324,Lynchburg,VA,business,Session Lunch Plan,D,497012,2026-07-15
+expenditure,2026-02-01,Google Suite,$25.20,Mountain View,CA,business,Google Suite,D,497012,2026-07-15
+expenditure,2026-02-02,"EveryAction, Inc",$493.50,Washington,DC,business,NGP Van,D,497012,2026-07-15
+expenditure,2026-02-05,FlowerShopping.com,$80.25,Henderson,NV,business,Reimburse Alison Trahan for Staff Appreciation,D,497012,2026-07-15
+expenditure,2026-02-05,FlowerShopping.com,$205.42,Henderson,NV,business,Reimburse Alison Trahan for Staff Appreciation,D,497012,2026-07-15
+expenditure,2026-02-05,The Tobacco Company,$36.78,Richmond,VA,business,Work Meal,D,497012,2026-07-15
+expenditure,2026-02-08,The Hill Cafe,$83.13,Richmond,VA,business,Work Meal,D,497012,2026-07-15
+expenditure,2026-02-09,The RVA Group,"$3,000",Richmond,VA,business,Session Accommodations,D,497012,2026-07-15
+expenditure,2026-02-12,Treasurer of Virginia,$25,Richmond,VA,business,Badge,D,497012,2026-07-15
+expenditure,2026-02-14,Extra Space Storage,$49,Sterling,VA,business,Storage,D,497012,2026-07-15
+expenditure,2026-02-17,"Meriwether Godsey, Inc",$324,Lynchburg,VA,business,Session Lunch Plan,D,497012,2026-07-15
+expenditure,2026-02-18,Elite Cleaners,$110.20,Richmond,VA,business,Work Dry Cleaning,D,497012,2026-07-15
+expenditure,2026-03-01,Google Suite,$25.20,Mountain View,CA,business,Google Suite,D,497012,2026-07-15
+expenditure,2026-03-02,"EveryAction, Inc",$336,Washington,DC,business,NGP Van,D,497012,2026-07-15
+expenditure,2026-03-09,"EveryAction, Inc",$336,Washington,DC,business,NGP Van,D,497012,2026-07-15
+expenditure,2026-03-10,Rappahannock Restaurant,$63.90,Richmond,VA,business,Work Meal,D,497012,2026-07-15
+expenditure,2026-03-14,Extra Space Storage,$49,Sterling,VA,business,Storage,D,497012,2026-07-15
 expenditure,2026-03-19,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Dues,D,497012,2026-07-15
-expenditure,2026-03-22,ActBlue,$4.95,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-03-27,Elite Cleaners,$10.40,Richmond,VA,pac,Work Dry Cleaning,D,497012,2026-07-15
-expenditure,2026-03-29,ActBlue,$1.98,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-03-22,ActBlue,$4.95,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-03-27,Elite Cleaners,$10.40,Richmond,VA,business,Work Dry Cleaning,D,497012,2026-07-15
+expenditure,2026-03-29,ActBlue,$1.98,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
 expenditure,2026-03-30,Dan Helmer for Congress,$500,Fairfax Station,VA,candidate,Campaign Contribution,D,497012,2026-07-15
-expenditure,2026-03-31,ActBlue,$1.98,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-04-01,AirBnB,$778.62,San Francisco,CA,pac,Accommodations for Work,D,497012,2026-07-15
-expenditure,2026-04-01,Google Suite,$25.20,Mountain View,CA,pac,Google Suite,D,497012,2026-07-15
-expenditure,2026-04-03,Lee Richmond Times,$0.99,Mechanicsville,VA,pac,Newspaper Subscription,D,497012,2026-07-15
-expenditure,2026-04-05,ActBlue,$0.20,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-04-05,Commonwealth Victory Fund,$650,Richmond,VA,pac,Accommodations for Work,D,497012,2026-07-15
-expenditure,2026-04-06,"EveryAction, Inc",$336,Washington,DC,pac,NGP Van,D,497012,2026-07-15
-expenditure,2026-04-08,Homes2 Suites by Hilton,$178.42,Harrisonburg,VA,pac,Accommodations for Work,D,497012,2026-07-15
-expenditure,2026-04-12,ActBlue,$0.99,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-04-14,AirBnB,$357.76,San Francisco,CA,pac,Accommodations for Work,D,497012,2026-07-15
-expenditure,2026-04-14,Extra Space Storage,$76,Sterling,VA,pac,Storage,D,497012,2026-07-15
-expenditure,2026-04-19,ActBlue,$2.97,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-04-22,Slurp,$44.98,Richmond,VA,pac,Work Meal,D,497012,2026-07-15
-expenditure,2026-04-26,ActBlue,$1.98,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-04-27,EZ Pass Virginia,$35,Richmond,VA,pac,Tolls Professional Events/Meetings,D,497012,2026-07-15
-expenditure,2026-04-28,AirBnB,$542.44,San Francisco,CA,pac,Accommodations for Work,D,497012,2026-07-15
-expenditure,2026-04-29,Democratic Asian Americans of Virginia,$125,Falls Church,VA,pac,Event Fee,D,497012,2026-07-15
-expenditure,2026-05-01,Google Suite,$25.20,Mountain View,CA,pac,Google Suite,D,497012,2026-07-15
-expenditure,2026-05-02,Parking Management Company,$46.18,Nashville,TN,pac,Parking,D,497012,2026-07-15
-expenditure,2026-05-03,ActBlue,$1.98,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-05-04,Lee Richmond Times,$14.99,Mechanicsville,VA,pac,Newspaper Subscription,D,497012,2026-07-15
-expenditure,2026-05-05,AirBnB,$686.28,San Francisco,CA,pac,Accommodations for Work,D,497012,2026-07-15
-expenditure,2026-05-07,General Assembly Buildling Cafe,$8.50,Richmond,VA,pac,Work Meal,D,497012,2026-07-15
-expenditure,2026-05-11,"EveryAction, Inc",$808.50,Washington,DC,pac,NGP Van,D,497012,2026-07-15
-expenditure,2026-05-13,EZ Pass Virginia,$35,Richmond,VA,pac,Tolls Professional Events/Meetings,D,497012,2026-07-15
-expenditure,2026-05-14,Extra Space Storage,$76,Sterling,VA,pac,Storage,D,497012,2026-07-15
-expenditure,2026-05-15,GoDaddy.com,$46.38,Tempe,AZ,pac,Web Domain,D,497012,2026-07-15
-expenditure,2026-05-16,VEED,$139.20,United Kingdom,DC,pac,Video Editing Service,D,497012,2026-07-15
-expenditure,2026-05-17,ActBlue,$1.98,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-05-18,VEED,$4.18,United Kingdom,DC,pac,International Service Fee,D,497012,2026-07-15
-expenditure,2026-05-24,ActBlue,$5.94,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-05-25,Hilton,$395.32,Virginia Beach,VA,pac,Accommodations for Work,D,497012,2026-07-15
-expenditure,2026-05-31,ActBlue,$1.98,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-06-01,Google Suite,$25.20,Mountain View,CA,pac,Google Suite,D,497012,2026-07-15
-expenditure,2026-06-01,Lee Richmond Times,$14.99,Mechanicsville,VA,pac,Newspaper Subscription,D,497012,2026-07-15
-expenditure,2026-06-05,Milk & Honey,$22.68,Dulles,VA,pac,Work Meal,D,497012,2026-07-15
-expenditure,2026-06-08,"EveryAction, Inc",$336,Washington,DC,pac,NGP Van,D,497012,2026-07-15
-expenditure,2026-06-10,EZ Pass Virginia,$35,Richmond,VA,pac,Tolls Professional Events/Meetings,D,497012,2026-07-15
-expenditure,2026-06-14,ActBlue,$49.39,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-06-14,Extra Space Storage,$76,Sterling,VA,pac,Storage,D,497012,2026-07-15
+expenditure,2026-03-31,ActBlue,$1.98,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-04-01,AirBnB,$778.62,San Francisco,CA,business,Accommodations for Work,D,497012,2026-07-15
+expenditure,2026-04-01,Google Suite,$25.20,Mountain View,CA,business,Google Suite,D,497012,2026-07-15
+expenditure,2026-04-03,Lee Richmond Times,$0.99,Mechanicsville,VA,business,Newspaper Subscription,D,497012,2026-07-15
+expenditure,2026-04-05,ActBlue,$0.20,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-04-05,Commonwealth Victory Fund,$650,Richmond,VA,business,Accommodations for Work,D,497012,2026-07-15
+expenditure,2026-04-06,"EveryAction, Inc",$336,Washington,DC,business,NGP Van,D,497012,2026-07-15
+expenditure,2026-04-08,Homes2 Suites by Hilton,$178.42,Harrisonburg,VA,business,Accommodations for Work,D,497012,2026-07-15
+expenditure,2026-04-12,ActBlue,$0.99,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-04-14,AirBnB,$357.76,San Francisco,CA,business,Accommodations for Work,D,497012,2026-07-15
+expenditure,2026-04-14,Extra Space Storage,$76,Sterling,VA,business,Storage,D,497012,2026-07-15
+expenditure,2026-04-19,ActBlue,$2.97,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-04-22,Slurp,$44.98,Richmond,VA,business,Work Meal,D,497012,2026-07-15
+expenditure,2026-04-26,ActBlue,$1.98,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-04-27,EZ Pass Virginia,$35,Richmond,VA,business,Tolls Professional Events/Meetings,D,497012,2026-07-15
+expenditure,2026-04-28,AirBnB,$542.44,San Francisco,CA,business,Accommodations for Work,D,497012,2026-07-15
+expenditure,2026-04-29,Democratic Asian Americans of Virginia,$125,Falls Church,VA,business,Event Fee,D,497012,2026-07-15
+expenditure,2026-05-01,Google Suite,$25.20,Mountain View,CA,business,Google Suite,D,497012,2026-07-15
+expenditure,2026-05-02,Parking Management Company,$46.18,Nashville,TN,business,Parking,D,497012,2026-07-15
+expenditure,2026-05-03,ActBlue,$1.98,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-05-04,Lee Richmond Times,$14.99,Mechanicsville,VA,business,Newspaper Subscription,D,497012,2026-07-15
+expenditure,2026-05-05,AirBnB,$686.28,San Francisco,CA,business,Accommodations for Work,D,497012,2026-07-15
+expenditure,2026-05-07,General Assembly Buildling Cafe,$8.50,Richmond,VA,business,Work Meal,D,497012,2026-07-15
+expenditure,2026-05-11,"EveryAction, Inc",$808.50,Washington,DC,business,NGP Van,D,497012,2026-07-15
+expenditure,2026-05-13,EZ Pass Virginia,$35,Richmond,VA,business,Tolls Professional Events/Meetings,D,497012,2026-07-15
+expenditure,2026-05-14,Extra Space Storage,$76,Sterling,VA,business,Storage,D,497012,2026-07-15
+expenditure,2026-05-15,GoDaddy.com,$46.38,Tempe,AZ,business,Web Domain,D,497012,2026-07-15
+expenditure,2026-05-16,VEED,$139.20,United Kingdom,DC,business,Video Editing Service,D,497012,2026-07-15
+expenditure,2026-05-17,ActBlue,$1.98,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-05-18,VEED,$4.18,United Kingdom,DC,business,International Service Fee,D,497012,2026-07-15
+expenditure,2026-05-24,ActBlue,$5.94,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-05-25,Hilton,$395.32,Virginia Beach,VA,business,Accommodations for Work,D,497012,2026-07-15
+expenditure,2026-05-31,ActBlue,$1.98,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-06-01,Google Suite,$25.20,Mountain View,CA,business,Google Suite,D,497012,2026-07-15
+expenditure,2026-06-01,Lee Richmond Times,$14.99,Mechanicsville,VA,business,Newspaper Subscription,D,497012,2026-07-15
+expenditure,2026-06-05,Milk & Honey,$22.68,Dulles,VA,business,Work Meal,D,497012,2026-07-15
+expenditure,2026-06-08,"EveryAction, Inc",$336,Washington,DC,business,NGP Van,D,497012,2026-07-15
+expenditure,2026-06-10,EZ Pass Virginia,$35,Richmond,VA,business,Tolls Professional Events/Meetings,D,497012,2026-07-15
+expenditure,2026-06-14,ActBlue,$49.39,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-06-14,Extra Space Storage,$76,Sterling,VA,business,Storage,D,497012,2026-07-15
 expenditure,2026-06-14,Caroline Marquez,$220,Sterling,VA,individual,Campaign Work,D,497012,2026-07-15
-expenditure,2026-06-16,Delta Airlines,$742.40,Atlanta,GA,pac,July Conference Travel,D,497012,2026-07-15
-expenditure,2026-06-16,United Airlines,$45,Chicago,IL,pac,July Conference Travel,D,497012,2026-07-15
-expenditure,2026-06-16,United Airlines,$45,Chicago,IL,pac,July Conference Travel,D,497012,2026-07-15
-expenditure,2026-06-16,United Airlines,$264.44,Chicago,IL,pac,June Conference Travel,D,497012,2026-07-15
-expenditure,2026-06-17,United Airlines,$144.02,Chicago,IL,pac,July Conference Travel,D,497012,2026-07-15
-expenditure,2026-06-21,ActBlue,$6.14,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-06-24,Martha's Market,$4.37,Hot Springs,VA,pac,Work Meal,D,497012,2026-07-15
-expenditure,2026-06-28,ActBlue,$0.99,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
-expenditure,2026-06-30,ActBlue,$20.74,Somerville,MA,pac,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-06-16,Delta Airlines,$742.40,Atlanta,GA,business,July Conference Travel,D,497012,2026-07-15
+expenditure,2026-06-16,United Airlines,$45,Chicago,IL,business,July Conference Travel,D,497012,2026-07-15
+expenditure,2026-06-16,United Airlines,$45,Chicago,IL,business,July Conference Travel,D,497012,2026-07-15
+expenditure,2026-06-16,United Airlines,$264.44,Chicago,IL,business,June Conference Travel,D,497012,2026-07-15
+expenditure,2026-06-17,United Airlines,$144.02,Chicago,IL,business,July Conference Travel,D,497012,2026-07-15
+expenditure,2026-06-21,ActBlue,$6.14,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-06-24,Martha's Market,$4.37,Hot Springs,VA,business,Work Meal,D,497012,2026-07-15
+expenditure,2026-06-28,ActBlue,$0.99,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
+expenditure,2026-06-30,ActBlue,$20.74,Somerville,MA,business,Credit Card Processing,D,497012,2026-07-15
 expenditure,2026-06-30,Drew Francis,$100,Richmond,VA,individual,Campaign Work,D,497012,2026-07-15
 expenditure,2026-06-30,Caroline Marquez,$40,Sterling,VA,individual,Campaign Work,D,497012,2026-07-15
 expenditure,2026-06-30,Cori Sanzano,"$1,022.50",Potomac Falls,VA,individual,Campaign Work,D,497012,2026-07-15

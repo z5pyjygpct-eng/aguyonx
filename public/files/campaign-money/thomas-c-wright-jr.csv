@@ -3,31 +3,31 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$25,399.59",,VA,,"From official Schedule H, November 2027 election cycle",H,491633,2026-07-02
 summary,2026-06-30,Raised this cycle,$0,,,,Total receipts this election cycle (Schedule H),H,491633,2026-07-02
 summary,2026-06-30,Spent this cycle,"$6,210.16",,,,Total disbursements this election cycle (Schedule H),H,491633,2026-07-02
-expenditure,2026-02-20,First Citizens Bank,$245.80,Charlotte,NC,pac,Valentines Day Flowers for Staff and Gasoline,D,491633,2026-07-02
-expenditure,2026-03-21,First Citizens Bank,$896.26,Charlotte,NC,pac,Rick's Framing and Gasoline,D,491633,2026-07-02
-expenditure,2026-04-23,First Citizens Bank,$534.91,Charlotte,NC,pac,Rick's Framing and Gasoline,D,491633,2026-07-02
-expenditure,2026-05-23,First Citizens Bank,$303.89,Charlotte,NC,pac,Gasoline and Food,D,491633,2026-07-02
-expenditure,2026-06-24,First Citizens Bank,$551.18,Charlotte,NC,pac,"Gasoline, Food, American Flag, Stationary and Envelopes",D,491633,2026-07-02
-expenditure,2026-01-23,AT & T Mobility,$110.99,Carol Stream,IL,pac,AT&T Cell Phone Bill,D,491633,2026-07-02
-expenditure,2026-02-20,AT & T Mobility,$110.95,Carol Stream,IL,pac,AT&T Cell Phone Bill,D,491633,2026-07-02
-expenditure,2026-03-16,Kenbridge-Victoria Dispatch,$22,Farmville,VA,pac,KVDispatch Newspaper Subscibtion,D,491633,2026-07-02
-expenditure,2026-06-04,The Mecklenburg Sun,$26,Clarksville,VA,pac,The Mecklenburg Sun Newspaper Subscription,D,491633,2026-07-02
-expenditure,2026-03-21,AT & T Mobility,$110.95,Carol Stream,IL,pac,AT&T Cell Phone Bill,D,491633,2026-07-02
-expenditure,2026-04-23,AT & T Mobility,$110.91,Carol Stream,IL,pac,Cell Phone Bill,D,491633,2026-07-02
-expenditure,2026-05-23,AT & T Mobility,$110.91,Carol Stream,IL,pac,Cell Phone Bill,D,491633,2026-07-02
-expenditure,2026-06-24,AT & T Mobility,$110.91,Carol Stream,IL,pac,Cell Phone Bill,D,491633,2026-07-02
-expenditure,2026-05-07,U.S. Postal Service,$468,Victoria,VA,pac,Stamps,D,491633,2026-07-02
-expenditure,2026-01-24,Farmville Herald,$49,Farmville,VA,pac,Farmville Herald Newspaper Subscription,D,491633,2026-07-02
-expenditure,2026-04-18,Treasurer of Virginia-Commonwealth of Virginia,$498.14,Richmond,VA,pac,Member I-PAD Pro,D,491633,2026-07-02
-expenditure,2026-03-16,Victoria  Fire and Rescue,$50,Victoria,VA,pac,Donation,D,491633,2026-07-02
-expenditure,2026-03-16,Victoria  Fire and Rescue,$200,Victoria,VA,pac,Donation,D,491633,2026-07-02
-expenditure,2026-01-23,Verizon Wireless,$89.42,Newark,NJ,pac,Verizon Telephone Bill,D,491633,2026-07-02
-expenditure,2026-02-20,Verizon Wireless,$89.42,Newark,NJ,pac,Verizon Telephone Bill,D,491633,2026-07-02
-expenditure,2026-03-27,Verizon Wireless,$89.42,Newark,NJ,pac,Telephone Bill,D,491633,2026-07-02
-expenditure,2026-04-23,Verizon Wireless,$89.36,Newark,NJ,pac,Telephone Bill,D,491633,2026-07-02
-expenditure,2026-05-23,Verizon Wireless,$89.37,Newark,NJ,pac,Telephone Bill,D,491633,2026-07-02
-expenditure,2026-06-24,Verizon Wireless,$89.37,Newark,NJ,pac,Telephone Bill,D,491633,2026-07-02
-expenditure,2026-01-24,The Gazette-Virginian,$75,South Boston,VA,pac,The Gazette-Virginian Newspaper Subscription,D,491633,2026-07-02
-expenditure,2026-01-24,The Charlotte Gazette,$22,Farmville,VA,pac,The Charlotte Gazette Newspaper Subscription,D,491633,2026-07-02
-expenditure,2026-02-26,Brunswick Times Gazette,$66,Chatham,VA,pac,Brunswick Times Gazette Newspaper Subscription,D,491633,2026-07-02
+expenditure,2026-02-20,First Citizens Bank,$245.80,Charlotte,NC,business,Valentines Day Flowers for Staff and Gasoline,D,491633,2026-07-02
+expenditure,2026-03-21,First Citizens Bank,$896.26,Charlotte,NC,business,Rick's Framing and Gasoline,D,491633,2026-07-02
+expenditure,2026-04-23,First Citizens Bank,$534.91,Charlotte,NC,business,Rick's Framing and Gasoline,D,491633,2026-07-02
+expenditure,2026-05-23,First Citizens Bank,$303.89,Charlotte,NC,business,Gasoline and Food,D,491633,2026-07-02
+expenditure,2026-06-24,First Citizens Bank,$551.18,Charlotte,NC,business,"Gasoline, Food, American Flag, Stationary and Envelopes",D,491633,2026-07-02
+expenditure,2026-01-23,AT & T Mobility,$110.99,Carol Stream,IL,business,AT&T Cell Phone Bill,D,491633,2026-07-02
+expenditure,2026-02-20,AT & T Mobility,$110.95,Carol Stream,IL,business,AT&T Cell Phone Bill,D,491633,2026-07-02
+expenditure,2026-03-16,Kenbridge-Victoria Dispatch,$22,Farmville,VA,business,KVDispatch Newspaper Subscibtion,D,491633,2026-07-02
+expenditure,2026-06-04,The Mecklenburg Sun,$26,Clarksville,VA,business,The Mecklenburg Sun Newspaper Subscription,D,491633,2026-07-02
+expenditure,2026-03-21,AT & T Mobility,$110.95,Carol Stream,IL,business,AT&T Cell Phone Bill,D,491633,2026-07-02
+expenditure,2026-04-23,AT & T Mobility,$110.91,Carol Stream,IL,business,Cell Phone Bill,D,491633,2026-07-02
+expenditure,2026-05-23,AT & T Mobility,$110.91,Carol Stream,IL,business,Cell Phone Bill,D,491633,2026-07-02
+expenditure,2026-06-24,AT & T Mobility,$110.91,Carol Stream,IL,business,Cell Phone Bill,D,491633,2026-07-02
+expenditure,2026-05-07,U.S. Postal Service,$468,Victoria,VA,business,Stamps,D,491633,2026-07-02
+expenditure,2026-01-24,Farmville Herald,$49,Farmville,VA,business,Farmville Herald Newspaper Subscription,D,491633,2026-07-02
+expenditure,2026-04-18,Treasurer of Virginia-Commonwealth of Virginia,$498.14,Richmond,VA,business,Member I-PAD Pro,D,491633,2026-07-02
+expenditure,2026-03-16,Victoria  Fire and Rescue,$50,Victoria,VA,business,Donation,D,491633,2026-07-02
+expenditure,2026-03-16,Victoria  Fire and Rescue,$200,Victoria,VA,business,Donation,D,491633,2026-07-02
+expenditure,2026-01-23,Verizon Wireless,$89.42,Newark,NJ,business,Verizon Telephone Bill,D,491633,2026-07-02
+expenditure,2026-02-20,Verizon Wireless,$89.42,Newark,NJ,business,Verizon Telephone Bill,D,491633,2026-07-02
+expenditure,2026-03-27,Verizon Wireless,$89.42,Newark,NJ,business,Telephone Bill,D,491633,2026-07-02
+expenditure,2026-04-23,Verizon Wireless,$89.36,Newark,NJ,business,Telephone Bill,D,491633,2026-07-02
+expenditure,2026-05-23,Verizon Wireless,$89.37,Newark,NJ,business,Telephone Bill,D,491633,2026-07-02
+expenditure,2026-06-24,Verizon Wireless,$89.37,Newark,NJ,business,Telephone Bill,D,491633,2026-07-02
+expenditure,2026-01-24,The Gazette-Virginian,$75,South Boston,VA,business,The Gazette-Virginian Newspaper Subscription,D,491633,2026-07-02
+expenditure,2026-01-24,The Charlotte Gazette,$22,Farmville,VA,business,The Charlotte Gazette Newspaper Subscription,D,491633,2026-07-02
+expenditure,2026-02-26,Brunswick Times Gazette,$66,Chatham,VA,business,Brunswick Times Gazette Newspaper Subscription,D,491633,2026-07-02
 expenditure,2026-04-11,House Republican Campaign Committee,"$1,000",Mechanicsville,VA,party,2026 Caucus Dues,D,491633,2026-07-02

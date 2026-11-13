@@ -3,7 +3,7 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$28,255.40",,VA,,"From official Schedule H, November 2027 election cycle",H,497312,2026-07-15
 summary,2026-06-30,Raised this cycle,$20,,,,Total receipts this election cycle (Schedule H),H,497312,2026-07-15
 summary,2026-06-30,Spent this cycle,$0.80,,,,Total disbursements this election cycle (Schedule H),H,497312,2026-07-15
-expenditure,2026-03-22,ActBlue Technical Services,$0.20,Boston,MA,pac,service fee,D,497312,2026-07-15
-expenditure,2026-04-26,ActBlue Technical Services,$0.20,Boston,MA,pac,service fee,D,497312,2026-07-15
-expenditure,2026-05-24,ActBlue Technical Services,$0.20,Boston,MA,pac,service fee,D,497312,2026-07-15
-expenditure,2026-06-21,ActBlue Technical Services,$0.20,Boston,MA,pac,service fee,D,497312,2026-07-15
+expenditure,2026-03-22,ActBlue Technical Services,$0.20,Boston,MA,business,service fee,D,497312,2026-07-15
+expenditure,2026-04-26,ActBlue Technical Services,$0.20,Boston,MA,business,service fee,D,497312,2026-07-15
+expenditure,2026-05-24,ActBlue Technical Services,$0.20,Boston,MA,business,service fee,D,497312,2026-07-15
+expenditure,2026-06-21,ActBlue Technical Services,$0.20,Boston,MA,business,service fee,D,497312,2026-07-15

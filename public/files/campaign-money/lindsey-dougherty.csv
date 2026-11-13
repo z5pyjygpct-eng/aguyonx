@@ -5,10 +5,10 @@ summary,2026-06-30,Raised this cycle,"$15,229.12",,,,Total receipts this electio
 summary,2026-06-30,Spent this cycle,"$37,876.78",,,,Total disbursements this election cycle (Schedule H),H,496022,2026-07-15
 contribution,2026-01-13,Realtors Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,A,496022,2026-07-15
 contribution,2026-01-13,IBEW PAC Voluntary Fund,"$1,000",N.W. Washington,DC,pac,,A,496022,2026-07-15
-contribution,2026-01-13,River Portsmouth Gaming LLC,"$1,000","Portsmouth, VA",VA,pac,,A,496022,2026-07-15
+contribution,2026-01-13,River Portsmouth Gaming LLC,"$1,000","Portsmouth, VA",VA,business,,A,496022,2026-07-15
 contribution,2026-01-13,Plasterers & Cement Masons & Shop Hands Political Action Committee,$250,Columbia,MD,pac,,A,496022,2026-07-15
 contribution,2026-04-15,Clean Virginia Fund,"$7,500",Charlottesville,VA,pac,,A,496022,2026-07-15
-contribution,2026-05-06,"Carvana, LLC",$500,Tempe,AZ,pac,,A,496022,2026-07-15
+contribution,2026-05-06,"Carvana, LLC",$500,Tempe,AZ,business,,A,496022,2026-07-15
 contribution,2026-05-27,Virginia Health Care Association,"$1,000",Richmond,VA,pac,,A,496022,2026-07-15
 contribution,2026-05-28,Virginia Sheriffs Association Political Action Committee,$250,Richmond,VA,pac,,A,496022,2026-07-15
 contribution,2026-06-09,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,496022,2026-07-15
@@ -21,62 +21,62 @@ contribution,2026-06-15,George Gaines,$35,NW Washington,DC,individual,,A,496022,
 contribution,2026-03-15,Leslie Decker,$125,Sammamish,WA,individual,,A,496022,2026-07-15
 contribution,2026-05-27,Margaret Wisdom,$12.50,Arlington,VA,individual,,A,496022,2026-07-15
 in_kind,2026-05-21,Clean Virginia Fund,"$1,000",Charlottesville,VA,pac,Social Media Training,B,496022,2026-07-15
-in_kind,2026-06-08,Two Capitols Consulting,$147.15,Richmond,VA,pac,Catering for reception,B,496022,2026-07-15
+in_kind,2026-06-08,Two Capitols Consulting,$147.15,Richmond,VA,business,Catering for reception,B,496022,2026-07-15
 expenditure,2026-02-07,Brent Fagg,$981,Chester,VA,individual,Payment for large signs.,D,496022,2026-07-15
-expenditure,2026-01-04,ActBlue,$4.74,Somerville,MA,pac,Actblue Service Fee.,D,496022,2026-07-15
-expenditure,2026-01-11,ActBlue,$0.40,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-01-18,ActBlue,$1.09,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-03-15,ActBlue,$40.90,Somerville,MA,pac,ActBlue Service Fee (inclusive of 4.90 base and 36 RF).,D,496022,2026-07-15
-expenditure,2026-03-22,ActBlue,$2.29,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-03-29,ActBlue,$0.99,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-03-31,ActBlue,$0.10,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-04-05,ActBlue,$3.95,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-04-12,ActBlue,$0.40,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-04-19,ActBlue,$3.08,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-04-26,ActBlue,$2.44,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-05-03,ActBlue,$4.74,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-05-10,ActBlue,$0.40,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-05-17,ActBlue,$2.88,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-05-24,ActBlue,$2.56,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-05-31,ActBlue,$0.79,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-06-07,ActBlue,$3.95,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-06-14,ActBlue,$0.30,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-06-21,ActBlue,$2.27,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-06-28,ActBlue,$1.26,Somerville,MA,pac,ActBlue Service Fee.,D,496022,2026-07-15
-expenditure,2026-01-01,Google LLC,$12.85,Mountain View,CA,pac,Google Workspace software.,D,496022,2026-07-15
-expenditure,2026-02-02,Google LLC,$12.98,Mountain View,CA,pac,Google Workspace Software.,D,496022,2026-07-15
-expenditure,2026-03-02,Google LLC,$12.98,Mountain View,CA,pac,Google Workspace Software.,D,496022,2026-07-15
-expenditure,2026-04-02,Google LLC,$12.98,Mountain View,CA,pac,Google Workspace Software.,D,496022,2026-07-15
-expenditure,2026-05-04,Google LLC,$12.95,Mountain View,CA,pac,Google Workspace Software.,D,496022,2026-07-15
-expenditure,2026-06-01,Google LLC,$16.80,Mountain View,CA,pac,Google Workspace Software.,D,496022,2026-07-15
-expenditure,2026-06-02,Google LLC,$13.61,Mountain View,CA,pac,Google Workspace Payment.,D,496022,2026-07-15
-expenditure,2026-01-05,Gusto,$61,San Francisco,CA,pac,Gusto Software Fee.,D,496022,2026-07-15
-expenditure,2026-01-08,Gusto,"$1,153.75",San Francisco,CA,pac,Payroll Taxes.,D,496022,2026-07-15
-expenditure,2026-02-03,Gusto,$73,San Francisco,CA,pac,Gusto Software Fee.,D,496022,2026-07-15
-expenditure,2026-03-03,Gusto,$61,San Francisco,CA,pac,Gusto Software Fee.,D,496022,2026-07-15
-expenditure,2026-04-02,Gusto,$61,San Francisco,CA,pac,Gusto Software Fee.,D,496022,2026-07-15
-expenditure,2026-05-04,Gusto,$61,San Francisco,CA,pac,Gusto Software Fee.,D,496022,2026-07-15
-expenditure,2026-06-02,Gusto,$49,San Francisco,CA,pac,Gusto Software.,D,496022,2026-07-15
+expenditure,2026-01-04,ActBlue,$4.74,Somerville,MA,business,Actblue Service Fee.,D,496022,2026-07-15
+expenditure,2026-01-11,ActBlue,$0.40,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-01-18,ActBlue,$1.09,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-03-15,ActBlue,$40.90,Somerville,MA,business,ActBlue Service Fee (inclusive of 4.90 base and 36 RF).,D,496022,2026-07-15
+expenditure,2026-03-22,ActBlue,$2.29,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-03-29,ActBlue,$0.99,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-03-31,ActBlue,$0.10,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-04-05,ActBlue,$3.95,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-04-12,ActBlue,$0.40,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-04-19,ActBlue,$3.08,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-04-26,ActBlue,$2.44,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-05-03,ActBlue,$4.74,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-05-10,ActBlue,$0.40,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-05-17,ActBlue,$2.88,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-05-24,ActBlue,$2.56,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-05-31,ActBlue,$0.79,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-06-07,ActBlue,$3.95,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-06-14,ActBlue,$0.30,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-06-21,ActBlue,$2.27,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-06-28,ActBlue,$1.26,Somerville,MA,business,ActBlue Service Fee.,D,496022,2026-07-15
+expenditure,2026-01-01,Google LLC,$12.85,Mountain View,CA,business,Google Workspace software.,D,496022,2026-07-15
+expenditure,2026-02-02,Google LLC,$12.98,Mountain View,CA,business,Google Workspace Software.,D,496022,2026-07-15
+expenditure,2026-03-02,Google LLC,$12.98,Mountain View,CA,business,Google Workspace Software.,D,496022,2026-07-15
+expenditure,2026-04-02,Google LLC,$12.98,Mountain View,CA,business,Google Workspace Software.,D,496022,2026-07-15
+expenditure,2026-05-04,Google LLC,$12.95,Mountain View,CA,business,Google Workspace Software.,D,496022,2026-07-15
+expenditure,2026-06-01,Google LLC,$16.80,Mountain View,CA,business,Google Workspace Software.,D,496022,2026-07-15
+expenditure,2026-06-02,Google LLC,$13.61,Mountain View,CA,business,Google Workspace Payment.,D,496022,2026-07-15
+expenditure,2026-01-05,Gusto,$61,San Francisco,CA,business,Gusto Software Fee.,D,496022,2026-07-15
+expenditure,2026-01-08,Gusto,"$1,153.75",San Francisco,CA,business,Payroll Taxes.,D,496022,2026-07-15
+expenditure,2026-02-03,Gusto,$73,San Francisco,CA,business,Gusto Software Fee.,D,496022,2026-07-15
+expenditure,2026-03-03,Gusto,$61,San Francisco,CA,business,Gusto Software Fee.,D,496022,2026-07-15
+expenditure,2026-04-02,Gusto,$61,San Francisco,CA,business,Gusto Software Fee.,D,496022,2026-07-15
+expenditure,2026-05-04,Gusto,$61,San Francisco,CA,business,Gusto Software Fee.,D,496022,2026-07-15
+expenditure,2026-06-02,Gusto,$49,San Francisco,CA,business,Gusto Software.,D,496022,2026-07-15
 expenditure,2026-02-15,Solenne Montgomery,$500,Richmond,VA,individual,Assistant services.,D,496022,2026-07-15
 expenditure,2026-03-10,Solenne Montgomery,$500,Richmond,VA,individual,Assistant Services.,D,496022,2026-07-15
-expenditure,2026-02-17,Squarespace,$80,New York,NY,pac,Website Domain From Squarespace.,D,496022,2026-07-15
-expenditure,2026-02-17,Squarespace,$252,New York,NY,pac,Squarespace Workspace Software.,D,496022,2026-07-15
-expenditure,2026-03-02,Squarespace,$276,New York,NY,pac,Squarespace Website Software Fee.,D,496022,2026-07-15
-expenditure,2026-03-08,Meriwether Godsey,$871.07,Richmond,VA,pac,Catering.,D,496022,2026-07-15
-expenditure,2026-04-07,United States Postal Service,$156,Chester,VA,pac,PO Box Renewal.,D,496022,2026-07-15
+expenditure,2026-02-17,Squarespace,$80,New York,NY,business,Website Domain From Squarespace.,D,496022,2026-07-15
+expenditure,2026-02-17,Squarespace,$252,New York,NY,business,Squarespace Workspace Software.,D,496022,2026-07-15
+expenditure,2026-03-02,Squarespace,$276,New York,NY,business,Squarespace Website Software Fee.,D,496022,2026-07-15
+expenditure,2026-03-08,Meriwether Godsey,$871.07,Richmond,VA,business,Catering.,D,496022,2026-07-15
+expenditure,2026-04-07,United States Postal Service,$156,Chester,VA,business,PO Box Renewal.,D,496022,2026-07-15
 expenditure,2026-04-18,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Dues,D,496022,2026-07-15
-expenditure,2026-04-28,Wolfpack Outfitters,$92.93,Raleigh,NC,pac,Materials for graduation ceremonies.,D,496022,2026-07-15
-expenditure,2026-04-27,Ninth St. VCK (Amazon Vendor),$57.23,North Seattle,WA,pac,Stack of frames.,D,496022,2026-07-15
-expenditure,2026-04-30,Ninth St. VCK (Amazon Vendor),$113.32,North Seattle,WA,pac,Stack of frames.,D,496022,2026-07-15
-expenditure,2026-05-12,Chesapeake Bay Foundation,$73.46,Richmond,VA,pac,Chesapeake Bay Foundation James River Tour.,D,496022,2026-07-15
-expenditure,2026-06-22,Chesapeake Bay Foundation,$31.77,Richmond,VA,pac,Educational Seminar on Saving Menhaden Fish.,D,496022,2026-07-15
-expenditure,2026-06-05,Mobilesphere LLC,$29.99,Boston,MA,pac,Mobilesphere Communication Software.,D,496022,2026-07-15
-expenditure,2026-06-16,Treasurer of Virginia,$47,Richmond,VA,pac,Business Cards.,D,496022,2026-07-15
-expenditure,2026-06-25,YAMM (Yet Another Mail Merge),$61.80,Luxembourg,,pac,Gmail Mail Merge Addon.,D,496022,2026-07-15
-expenditure,2026-06-29,Bonefish Grill,$179.04,Midlothian,VA,pac,Food For Campaign Meeting/Event.,D,496022,2026-07-15
-expenditure,2026-01-12,"SERVPRO of Chesterfield, Richmond, Henrico, Tri Cities Plus","$5,881.59",Midlothian,VA,pac,Water Restoration of Office Space (Plus $35 processing fee).,D,496022,2026-07-15
-expenditure,2026-01-12,Elias Law Group,$119.85,Washington,DC,pac,Legal Services.,D,496022,2026-07-15
-expenditure,2026-01-08,Blue Stout-Pryor,$500,Midlothian,VA,pac,Campaigning Services.,D,496022,2026-07-15
-expenditure,2026-01-09,Sierra Wicks,"$1,615",Arlington,VA,pac,Campaigning Services (Net check not including payroll taxes).,D,496022,2026-07-15
+expenditure,2026-04-28,Wolfpack Outfitters,$92.93,Raleigh,NC,business,Materials for graduation ceremonies.,D,496022,2026-07-15
+expenditure,2026-04-27,Ninth St. VCK (Amazon Vendor),$57.23,North Seattle,WA,business,Stack of frames.,D,496022,2026-07-15
+expenditure,2026-04-30,Ninth St. VCK (Amazon Vendor),$113.32,North Seattle,WA,business,Stack of frames.,D,496022,2026-07-15
+expenditure,2026-05-12,Chesapeake Bay Foundation,$73.46,Richmond,VA,business,Chesapeake Bay Foundation James River Tour.,D,496022,2026-07-15
+expenditure,2026-06-22,Chesapeake Bay Foundation,$31.77,Richmond,VA,business,Educational Seminar on Saving Menhaden Fish.,D,496022,2026-07-15
+expenditure,2026-06-05,Mobilesphere LLC,$29.99,Boston,MA,business,Mobilesphere Communication Software.,D,496022,2026-07-15
+expenditure,2026-06-16,Treasurer of Virginia,$47,Richmond,VA,business,Business Cards.,D,496022,2026-07-15
+expenditure,2026-06-25,YAMM (Yet Another Mail Merge),$61.80,Luxembourg,,business,Gmail Mail Merge Addon.,D,496022,2026-07-15
+expenditure,2026-06-29,Bonefish Grill,$179.04,Midlothian,VA,business,Food For Campaign Meeting/Event.,D,496022,2026-07-15
+expenditure,2026-01-12,"SERVPRO of Chesterfield, Richmond, Henrico, Tri Cities Plus","$5,881.59",Midlothian,VA,business,Water Restoration of Office Space (Plus $35 processing fee).,D,496022,2026-07-15
+expenditure,2026-01-12,Elias Law Group,$119.85,Washington,DC,business,Legal Services.,D,496022,2026-07-15
+expenditure,2026-01-08,Blue Stout-Pryor,$500,Midlothian,VA,business,Campaigning Services.,D,496022,2026-07-15
+expenditure,2026-01-09,Sierra Wicks,"$1,615",Arlington,VA,business,Campaigning Services (Net check not including payroll taxes).,D,496022,2026-07-15
 expenditure,2026-01-09,Abia Khan,"$5,000",Richmond,VA,individual,Campaigning Services.,D,496022,2026-07-15
-expenditure,2026-01-01,Optimize,"$10,116.15",Boston,MA,pac,"Campaign Finance Compliance (relv. Oct. 24 10,000 , + 116.15 adj. campaigning costs).",D,496022,2026-07-15
+expenditure,2026-01-01,Optimize,"$10,116.15",Boston,MA,business,"Campaign Finance Compliance (relv. Oct. 24 10,000 , + 116.15 adj. campaigning costs).",D,496022,2026-07-15

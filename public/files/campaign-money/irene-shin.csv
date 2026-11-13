@@ -19,7 +19,7 @@ contribution,2026-05-19,Mark Albert,$100,Herndon,VA,individual,,A,493756,2026-07
 contribution,2026-06-19,Mark Albert,$100,Herndon,VA,individual,,A,493756,2026-07-09
 contribution,2026-01-09,Anne Alston,$100,Herndon,VA,individual,,A,493756,2026-07-09
 contribution,2026-05-21,Anne Alston,$100,Herndon,VA,individual,,A,493756,2026-07-09
-contribution,2026-06-13,Anheuser Busch,$500,St Louis,MO,pac,,A,493756,2026-07-09
+contribution,2026-06-13,Anheuser Busch,$500,St Louis,MO,business,,A,493756,2026-07-09
 contribution,2026-04-03,Gregory Brandon,$50,McLean,VA,individual,,A,493756,2026-07-09
 contribution,2026-04-24,Gregory Brandon,$50,McLean,VA,individual,,A,493756,2026-07-09
 contribution,2026-06-30,Gregory Brandon,$25,McLean,VA,individual,,A,493756,2026-07-09
@@ -32,67 +32,67 @@ contribution,2026-04-08,Loren Hershey,"$1,000",Oakton,VA,individual,,A,493756,20
 contribution,2026-03-14,Don Kang,$250,Fairfax,VA,individual,,A,493756,2026-07-09
 contribution,2026-06-11,Lisa Merkel,$400,Herndon,VA,individual,,A,493756,2026-07-09
 contribution,2026-06-16,Seven Hills Strategy Group,$500,Richmond,VA,pac,,A,493756,2026-07-09
-contribution,2026-06-20,Transurban USA,$500,McLean,VA,pac,,A,493756,2026-07-09
+contribution,2026-06-20,Transurban USA,$500,McLean,VA,business,,A,493756,2026-07-09
 contribution,2026-06-17,Virginia BankPAC,"$3,500",Glen Allen,VA,pac,,A,493756,2026-07-09
 contribution,2026-06-30,Virginia Cable PAC,$500,Richmond,VA,pac,,A,493756,2026-07-09
 contribution,2026-01-12,Virginia Petroleum Marketers PAC,$250,Richmond,VA,pac,,A,493756,2026-07-09
 contribution,2026-06-01,Virginia Sheriffs Association,$500,Richmond,VA,pac,,A,493756,2026-07-09
-expenditure,2025-11-30,ActBlue,$4.94,Somerville,MA,pac,Transaction Fee,D,475392,2026-01-07
-expenditure,2025-12-14,ActBlue,$0.44,Somerville,MA,pac,Transaction Fee,D,475392,2026-01-07
-expenditure,2025-12-21,ActBlue,$5.93,Somerville,MA,pac,Transaction Fee,D,475392,2026-01-07
-expenditure,2025-12-28,ActBlue,$4.94,Somerville,MA,pac,Transaction Fee,D,475392,2026-01-07
-expenditure,2025-12-08,Akbik Strategies LLC,"$1,000",Denver,CO,pac,Invoice No 321,D,475392,2026-01-07
-expenditure,2025-12-30,Friends Of Garrett McGuire,"$1,500",Alexandria,VA,pac,Campaign Donation,D,475392,2026-01-07
+expenditure,2025-11-30,ActBlue,$4.94,Somerville,MA,business,Transaction Fee,D,475392,2026-01-07
+expenditure,2025-12-14,ActBlue,$0.44,Somerville,MA,business,Transaction Fee,D,475392,2026-01-07
+expenditure,2025-12-21,ActBlue,$5.93,Somerville,MA,business,Transaction Fee,D,475392,2026-01-07
+expenditure,2025-12-28,ActBlue,$4.94,Somerville,MA,business,Transaction Fee,D,475392,2026-01-07
+expenditure,2025-12-08,Akbik Strategies LLC,"$1,000",Denver,CO,business,Invoice No 321,D,475392,2026-01-07
+expenditure,2025-12-30,Friends Of Garrett McGuire,"$1,500",Alexandria,VA,business,Campaign Donation,D,475392,2026-01-07
 expenditure,2025-11-28,Kristina Hagen,$833.33,Richmond,VA,individual,Stipend,D,475392,2026-01-07
 expenditure,2025-12-30,Kristina Hagen,$833.33,Richmond,VA,individual,Stipend,D,475392,2026-01-07
 expenditure,2025-12-23,House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Dues,D,475392,2026-01-07
 expenditure,2025-12-01,Kathy Tran For Delegate,$75,Springfield,VA,candidate,Donation,D,475392,2026-01-07
 expenditure,2025-12-03,Irene Shin,$867.57,Herndon,VA,individual,Reimbursement For Expenses,D,475392,2026-01-07
-expenditure,2025-12-07,The Korea Times DC,$600,Annandale,VA,pac,Advertising,D,475392,2026-01-07
-expenditure,2026-01-11,ActBlue,$43.89,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-01-18,ActBlue,$10.87,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-03-15,ActBlue,$13.91,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-03-22,ActBlue,$5.93,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-03-29,ActBlue,$4.94,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-04-05,ActBlue,$1.98,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-04-12,ActBlue,$40.77,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-04-19,ActBlue,$3.95,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-04-26,ActBlue,$2.97,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-05-03,ActBlue,$3.95,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-05-10,ActBlue,$10.88,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-05-17,ActBlue,$0.99,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-05-24,ActBlue,$8.89,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-05-31,ActBlue,$0.99,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-06-14,ActBlue,$35.95,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-06-21,ActBlue,$3.95,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-06-28,ActBlue,$0.99,Somerville,MA,pac,Transaction Fee,D,493756,2026-07-09
-expenditure,2026-01-26,Adobe,$19.99,San Jose,CA,pac,Service Fee,D,493756,2026-07-09
-expenditure,2026-02-23,Adobe,$19.99,San Jose,CA,pac,Service Fee,D,493756,2026-07-09
-expenditure,2026-01-14,Akbik Strategies LLC,"$1,000",Denver,CO,pac,Invoice No 331,D,493756,2026-07-09
-expenditure,2026-03-30,Akbik Strategies LLC,"$1,000",Denver,CO,pac,Invoice No 362,D,493756,2026-07-09
-expenditure,2026-04-28,Akbik Strategies LLC,"$1,000",Denver,CO,pac,Invoice No 373,D,493756,2026-07-09
-expenditure,2026-05-29,Akbik Strategies LLC,"$1,000",Denver,CO,pac,Invoice No 383,D,493756,2026-07-09
-expenditure,2026-06-26,Akbik Strategies LLC,"$1,000",Denver,CO,pac,Invoice No 393,D,493756,2026-07-09
+expenditure,2025-12-07,The Korea Times DC,$600,Annandale,VA,business,Advertising,D,475392,2026-01-07
+expenditure,2026-01-11,ActBlue,$43.89,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-01-18,ActBlue,$10.87,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-03-15,ActBlue,$13.91,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-03-22,ActBlue,$5.93,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-03-29,ActBlue,$4.94,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-04-05,ActBlue,$1.98,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-04-12,ActBlue,$40.77,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-04-19,ActBlue,$3.95,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-04-26,ActBlue,$2.97,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-05-03,ActBlue,$3.95,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-05-10,ActBlue,$10.88,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-05-17,ActBlue,$0.99,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-05-24,ActBlue,$8.89,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-05-31,ActBlue,$0.99,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-06-14,ActBlue,$35.95,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-06-21,ActBlue,$3.95,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-06-28,ActBlue,$0.99,Somerville,MA,business,Transaction Fee,D,493756,2026-07-09
+expenditure,2026-01-26,Adobe,$19.99,San Jose,CA,business,Service Fee,D,493756,2026-07-09
+expenditure,2026-02-23,Adobe,$19.99,San Jose,CA,business,Service Fee,D,493756,2026-07-09
+expenditure,2026-01-14,Akbik Strategies LLC,"$1,000",Denver,CO,business,Invoice No 331,D,493756,2026-07-09
+expenditure,2026-03-30,Akbik Strategies LLC,"$1,000",Denver,CO,business,Invoice No 362,D,493756,2026-07-09
+expenditure,2026-04-28,Akbik Strategies LLC,"$1,000",Denver,CO,business,Invoice No 373,D,493756,2026-07-09
+expenditure,2026-05-29,Akbik Strategies LLC,"$1,000",Denver,CO,business,Invoice No 383,D,493756,2026-07-09
+expenditure,2026-06-26,Akbik Strategies LLC,"$1,000",Denver,CO,business,Invoice No 393,D,493756,2026-07-09
 expenditure,2026-05-08,Cardamom Beloin,$75,Richmond,VA,individual,Reimbursement For Expenses,D,493756,2026-07-09
-expenditure,2026-01-10,Costco,"$1,124.80",Sterling,VA,pac,Campaign Materials,D,493756,2026-07-09
-expenditure,2026-01-12,Costco,$847.99,Sterling,VA,pac,Campaign Materials,D,493756,2026-07-09
-expenditure,2026-01-12,Costco,$79.78,Sterling,VA,pac,Campaign Materials,D,493756,2026-07-09
-expenditure,2026-01-13,Costco,$197.03,Sterling,VA,pac,Campaign Materials,D,493756,2026-07-09
-expenditure,2026-02-23,Costco,$127.19,Sterling,VA,pac,Campaign Materials,D,493756,2026-07-09
-expenditure,2026-06-30,E23 Digital,$350,Oakland,CA,pac,Campaign Services,D,493756,2026-07-09
-expenditure,2026-01-07,Elect Elizabeth Bennett-Parker,"$2,000",Alexandria,VA,pac,Campaign Donation,D,493756,2026-07-09
-expenditure,2026-04-14,Fairfax County Democratic Committee,$200,Fairfax,VA,pac,Advertising,D,493756,2026-07-09
-expenditure,2026-05-09,Friends Of Sabrina,$500,Herndon,VA,pac,Campaign Donation,D,493756,2026-07-09
+expenditure,2026-01-10,Costco,"$1,124.80",Sterling,VA,business,Campaign Materials,D,493756,2026-07-09
+expenditure,2026-01-12,Costco,$847.99,Sterling,VA,business,Campaign Materials,D,493756,2026-07-09
+expenditure,2026-01-12,Costco,$79.78,Sterling,VA,business,Campaign Materials,D,493756,2026-07-09
+expenditure,2026-01-13,Costco,$197.03,Sterling,VA,business,Campaign Materials,D,493756,2026-07-09
+expenditure,2026-02-23,Costco,$127.19,Sterling,VA,business,Campaign Materials,D,493756,2026-07-09
+expenditure,2026-06-30,E23 Digital,$350,Oakland,CA,business,Campaign Services,D,493756,2026-07-09
+expenditure,2026-01-07,Elect Elizabeth Bennett-Parker,"$2,000",Alexandria,VA,business,Campaign Donation,D,493756,2026-07-09
+expenditure,2026-04-14,Fairfax County Democratic Committee,$200,Fairfax,VA,business,Advertising,D,493756,2026-07-09
+expenditure,2026-05-09,Friends Of Sabrina,$500,Herndon,VA,business,Campaign Donation,D,493756,2026-07-09
 expenditure,2026-02-16,Noor Ghafoor,$36.82,Ashburn,VA,individual,Reimbursement For Expenses,D,493756,2026-07-09
-expenditure,2026-01-02,Google,$28,Mountain View,CA,pac,Service Fee,D,493756,2026-07-09
-expenditure,2026-02-02,Google,$28,Mountain View,CA,pac,Service Fee,D,493756,2026-07-09
+expenditure,2026-01-02,Google,$28,Mountain View,CA,business,Service Fee,D,493756,2026-07-09
+expenditure,2026-02-02,Google,$28,Mountain View,CA,business,Service Fee,D,493756,2026-07-09
 expenditure,2026-03-10,Kristina Hagen,"$1,666.66",Richmond,VA,individual,Stipend,D,493756,2026-07-09
 expenditure,2026-03-29,Kristina Hagen,$833.33,Richmond,VA,individual,Stipend,D,493756,2026-07-09
 expenditure,2026-05-08,Natalie Kidd,$100,Hampton,VA,individual,Reimbursement For Expenses,D,493756,2026-07-09
-expenditure,2026-02-24,Lee Richmond Times,$0.99,Mechanicsville,VA,pac,Advertising,D,493756,2026-07-09
+expenditure,2026-02-24,Lee Richmond Times,$0.99,Mechanicsville,VA,business,Advertising,D,493756,2026-07-09
 expenditure,2026-02-24,Irene Shin,$490.83,Herndon,VA,individual,Reimbursement For Expenses,D,493756,2026-07-09
-expenditure,2026-02-18,Siroo & Jook Story,$217.02,Centreville,VA,pac,Event Expenses,D,493756,2026-07-09
-expenditure,2026-01-21,Truist Bank,$15,Herndon,VA,pac,Service Fee,D,493756,2026-07-09
+expenditure,2026-02-18,Siroo & Jook Story,$217.02,Centreville,VA,business,Event Expenses,D,493756,2026-07-09
+expenditure,2026-01-21,Truist Bank,$15,Herndon,VA,business,Service Fee,D,493756,2026-07-09
 expenditure,2026-01-25,Hunter Wagenaar,$925,Being Researched,VA,individual,Consulting Services,D,493756,2026-07-09
-expenditure,2026-04-04,Western Virginia CLUW,$75,Roanoke,VA,pac,Event Fee,D,493756,2026-07-09
-expenditure,2026-02-11,Zoom Video Communications,$16.79,Denver,CO,pac,Service Fee,D,493756,2026-07-09
+expenditure,2026-04-04,Western Virginia CLUW,$75,Roanoke,VA,business,Event Fee,D,493756,2026-07-09
+expenditure,2026-02-11,Zoom Video Communications,$16.79,Denver,CO,business,Service Fee,D,493756,2026-07-09

@@ -4,64 +4,64 @@ summary,2026-06-30,Cash on hand (ending balance),"$155,262.74",,VA,,"From offici
 summary,2026-06-30,Raised this cycle,"$10,500",,,,Total receipts this election cycle (Schedule H),H,495732,2026-07-14
 summary,2026-06-30,Spent this cycle,"$19,776.78",,,,Total disbursements this election cycle (Schedule H),H,495732,2026-07-14
 contribution,2026-03-16,HBAV BUILD-PAC,"$2,500",Richmond,VA,pac,,A,495732,2026-07-14
-contribution,2026-06-20,Anheuser Busch Companies,"$1,000",St. Louis,MO,pac,,A,495732,2026-07-14
+contribution,2026-06-20,Anheuser Busch Companies,"$1,000",St. Louis,MO,business,,A,495732,2026-07-14
 contribution,2026-03-16,Mettallurgical Coal Producers Association PAC,"$1,500",Grundy,VA,pac,,A,495732,2026-07-14
-contribution,2026-01-12,Jushi Inc,"$1,000",Boca Raton,FL,pac,,A,495732,2026-07-14
-contribution,2026-01-12,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,pac,,A,495732,2026-07-14
-contribution,2026-03-16,Vantage Data Centers Management CO LLC,$500,Santa Clara,CA,pac,,A,495732,2026-07-14
-contribution,2026-01-12,Organizing for VA Seniors,"$1,000",Fairfax,VA,pac,,A,495732,2026-07-14
-contribution,2026-01-13,Arrow International Inc.,$500,Cleveland,OH,pac,,A,495732,2026-07-14
-expenditure,2026-01-30,ConstantContact.com,$91,Waltham,MA,pac,Email Service,D,495732,2026-07-14
-expenditure,2026-03-02,ConstantContact.com,$91,Waltham,MA,pac,Email Service,D,495732,2026-07-14
-expenditure,2026-03-30,ConstantContact.com,$91,Waltham,MA,pac,Email Service,D,495732,2026-07-14
-expenditure,2026-04-30,ConstantContact.com,$91,Waltham,MA,pac,Email Service,D,495732,2026-07-14
-expenditure,2026-06-01,ConstantContact.com,$91,Waltham,MA,pac,Email Service,D,495732,2026-07-14
-expenditure,2026-06-30,ConstantContact.com,$104,Waltham,MA,pac,Email Service,D,495732,2026-07-14
-expenditure,2026-05-22,Marathon,$102,Tazewell,VA,pac,Transportation Fuel,D,495732,2026-07-14
-expenditure,2026-06-09,Tazewell County Fair Association,$50,Tazewell,VA,pac,Fair Book Advertising,D,495732,2026-07-14
-expenditure,2026-01-26,Verizon,$152.44,NA,,pac,Phone Service,D,495732,2026-07-14
-expenditure,2026-02-23,Verizon,$131.71,NA,,pac,Phone Service,D,495732,2026-07-14
-expenditure,2026-03-23,Verizon,$100.19,NA,,pac,Phone Service,D,495732,2026-07-14
-expenditure,2026-04-27,Verizon,$136.71,NA,,pac,Phone Service,D,495732,2026-07-14
-expenditure,2026-06-22,Verizon,$124.33,NA,,pac,Phone Service,D,495732,2026-07-14
-expenditure,2026-06-09,Dickenson County Chamber of Commerce,$250,Clintwood,VA,pac,Business Appreciation Cookout,D,495732,2026-07-14
-expenditure,2026-03-30,The Voice Newspaper,$698.62,Whitewood,VA,pac,Advertising,D,495732,2026-07-14
-expenditure,2026-06-09,Town of Tazewell,$100,Tazewell,VA,pac,Billy Wagner Golf Tournament Hole Sponsor,D,495732,2026-07-14
-expenditure,2026-03-05,American Express,$89.95,El Paso,TX,pac,Uber Fees,D,495732,2026-07-14
+contribution,2026-01-12,Jushi Inc,"$1,000",Boca Raton,FL,business,,A,495732,2026-07-14
+contribution,2026-01-12,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,A,495732,2026-07-14
+contribution,2026-03-16,Vantage Data Centers Management CO LLC,$500,Santa Clara,CA,business,,A,495732,2026-07-14
+contribution,2026-01-12,Organizing for VA Seniors,"$1,000",Fairfax,VA,business,,A,495732,2026-07-14
+contribution,2026-01-13,Arrow International Inc.,$500,Cleveland,OH,business,,A,495732,2026-07-14
+expenditure,2026-01-30,ConstantContact.com,$91,Waltham,MA,business,Email Service,D,495732,2026-07-14
+expenditure,2026-03-02,ConstantContact.com,$91,Waltham,MA,business,Email Service,D,495732,2026-07-14
+expenditure,2026-03-30,ConstantContact.com,$91,Waltham,MA,business,Email Service,D,495732,2026-07-14
+expenditure,2026-04-30,ConstantContact.com,$91,Waltham,MA,business,Email Service,D,495732,2026-07-14
+expenditure,2026-06-01,ConstantContact.com,$91,Waltham,MA,business,Email Service,D,495732,2026-07-14
+expenditure,2026-06-30,ConstantContact.com,$104,Waltham,MA,business,Email Service,D,495732,2026-07-14
+expenditure,2026-05-22,Marathon,$102,Tazewell,VA,business,Transportation Fuel,D,495732,2026-07-14
+expenditure,2026-06-09,Tazewell County Fair Association,$50,Tazewell,VA,business,Fair Book Advertising,D,495732,2026-07-14
+expenditure,2026-01-26,Verizon,$152.44,NA,,business,Phone Service,D,495732,2026-07-14
+expenditure,2026-02-23,Verizon,$131.71,NA,,business,Phone Service,D,495732,2026-07-14
+expenditure,2026-03-23,Verizon,$100.19,NA,,business,Phone Service,D,495732,2026-07-14
+expenditure,2026-04-27,Verizon,$136.71,NA,,business,Phone Service,D,495732,2026-07-14
+expenditure,2026-06-22,Verizon,$124.33,NA,,business,Phone Service,D,495732,2026-07-14
+expenditure,2026-06-09,Dickenson County Chamber of Commerce,$250,Clintwood,VA,business,Business Appreciation Cookout,D,495732,2026-07-14
+expenditure,2026-03-30,The Voice Newspaper,$698.62,Whitewood,VA,business,Advertising,D,495732,2026-07-14
+expenditure,2026-06-09,Town of Tazewell,$100,Tazewell,VA,business,Billy Wagner Golf Tournament Hole Sponsor,D,495732,2026-07-14
+expenditure,2026-03-05,American Express,$89.95,El Paso,TX,business,Uber Fees,D,495732,2026-07-14
 expenditure,2026-02-13,Thomas Lester,"$1,413.92",Cedar Bluff,VA,individual,Lodging,D,495732,2026-07-14
 expenditure,2026-03-06,Thomas Lester,"$1,035.70",Cedar Bluff,VA,individual,Lodging,D,495732,2026-07-14
-expenditure,2026-04-02,USPS,$31.20,North Tazewell,VA,pac,Postal Fee,D,495732,2026-07-14
-expenditure,2026-01-09,Knights Consulting LLC,"$1,000",Nora,VA,pac,Consulting,D,495732,2026-07-14
-expenditure,2026-02-10,Knights Consulting LLC,$500,Nora,VA,pac,Consulting,D,495732,2026-07-14
-expenditure,2026-03-11,Knights Consulting LLC,$500,Nora,VA,pac,Consulting,D,495732,2026-07-14
-expenditure,2026-04-15,Knights Consulting LLC,$500,Nora,VA,pac,Consulting,D,495732,2026-07-14
-expenditure,2026-05-20,Knights Consulting LLC,$500,Nora,VA,pac,Consulting,D,495732,2026-07-14
-expenditure,2026-06-09,Knights Consulting LLC,$500,Nora,VA,pac,Consulting,D,495732,2026-07-14
-expenditure,2026-06-09,Dickenson County Sheriff's Office,$500,Clintwood,VA,pac,Contribution - Donnie Rife Golf Tournament,D,495732,2026-07-14
-expenditure,2026-06-04,The Westin Hotel Richmond,$155.82,Richmond,VA,pac,Lodging,D,495732,2026-07-14
-expenditure,2026-06-25,The Westin Hotel Richmond,$222.08,Richmond,VA,pac,Lodging,D,495732,2026-07-14
-expenditure,2026-04-01,Shell Service Station,$94,Bluefield,VA,pac,Transportation Fuel,D,495732,2026-07-14
-expenditure,2026-06-09,Tazewell Lions Club,$250,Tazewell,VA,pac,Golf Hole Sponsor,D,495732,2026-07-14
-expenditure,2026-04-27,Delta Hotel Richmond,$238.69,Richmond,VA,pac,Lodging,D,495732,2026-07-14
+expenditure,2026-04-02,USPS,$31.20,North Tazewell,VA,business,Postal Fee,D,495732,2026-07-14
+expenditure,2026-01-09,Knights Consulting LLC,"$1,000",Nora,VA,business,Consulting,D,495732,2026-07-14
+expenditure,2026-02-10,Knights Consulting LLC,$500,Nora,VA,business,Consulting,D,495732,2026-07-14
+expenditure,2026-03-11,Knights Consulting LLC,$500,Nora,VA,business,Consulting,D,495732,2026-07-14
+expenditure,2026-04-15,Knights Consulting LLC,$500,Nora,VA,business,Consulting,D,495732,2026-07-14
+expenditure,2026-05-20,Knights Consulting LLC,$500,Nora,VA,business,Consulting,D,495732,2026-07-14
+expenditure,2026-06-09,Knights Consulting LLC,$500,Nora,VA,business,Consulting,D,495732,2026-07-14
+expenditure,2026-06-09,Dickenson County Sheriff's Office,$500,Clintwood,VA,business,Contribution - Donnie Rife Golf Tournament,D,495732,2026-07-14
+expenditure,2026-06-04,The Westin Hotel Richmond,$155.82,Richmond,VA,business,Lodging,D,495732,2026-07-14
+expenditure,2026-06-25,The Westin Hotel Richmond,$222.08,Richmond,VA,business,Lodging,D,495732,2026-07-14
+expenditure,2026-04-01,Shell Service Station,$94,Bluefield,VA,business,Transportation Fuel,D,495732,2026-07-14
+expenditure,2026-06-09,Tazewell Lions Club,$250,Tazewell,VA,business,Golf Hole Sponsor,D,495732,2026-07-14
+expenditure,2026-04-27,Delta Hotel Richmond,$238.69,Richmond,VA,business,Lodging,D,495732,2026-07-14
 expenditure,2026-06-09,Dickenson County GOP,$500,Clintwood,VA,party,Contribution,D,495732,2026-07-14
-expenditure,2026-04-24,Hilton Hotel,$272.09,Richmond,VA,pac,Lodging,D,495732,2026-07-14
-expenditure,2026-03-25,Happy Mart,$74,North Tazewell,VA,pac,Transportation Fuel,D,495732,2026-07-14
-expenditure,2026-04-03,Happy Mart,$74,North Tazewell,VA,pac,Transportation Fuel,D,495732,2026-07-14
-expenditure,2026-04-14,Happy Mart,$61,North Tazewell,VA,pac,Transportation Fuel,D,495732,2026-07-14
-expenditure,2026-04-22,Happy Mart,$65,North Tazewell,VA,pac,Transportation Fuel,D,495732,2026-07-14
-expenditure,2026-05-28,Happy Mart,$74,North Tazewell,VA,pac,Transportation Fuel,D,495732,2026-07-14
-expenditure,2026-01-05,Drury Inn,$451.04,Glen Allen,VA,pac,Lodging,D,495732,2026-07-14
-expenditure,2026-06-29,Drury Inn,$402.91,Glen Allen,VA,pac,Lodging,D,495732,2026-07-14
-expenditure,2026-01-14,Target,$200.91,Richmond,VA,pac,Supplies,D,495732,2026-07-14
-expenditure,2026-01-26,Target,$403.74,Richmond,VA,pac,Supplies,D,495732,2026-07-14
-expenditure,2026-02-23,Target,$245.08,Richmond,VA,pac,Supplies,D,495732,2026-07-14
-expenditure,2026-03-13,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,pac,Contribution,D,495732,2026-07-14
-expenditure,2026-03-27,HD Media LLC,"$1,349.46",Huntington,WV,pac,Advertising,D,495732,2026-07-14
-expenditure,2026-03-27,BHMVA Newspapers,"$2,160",Bristol,VA,pac,Advertising,D,495732,2026-07-14
-expenditure,2026-03-30,LC News Press - Dickenson Star,$450,Cookeville,TN,pac,Advertising,D,495732,2026-07-14
-expenditure,2026-03-30,LC News Press - The Coalfield Progress,$750,Cookeville,TN,pac,Advertising,D,495732,2026-07-14
-expenditure,2026-04-16,Cargo,$90,Tazewell,VA,pac,Transportation Fuel,D,495732,2026-07-14
-expenditure,2026-04-20,Bobby May Advertising Specialties,$839.75,Hurley,VA,pac,Signs,D,495732,2026-07-14
-expenditure,2026-04-30,VCE Russell County,$240,Lebanon,VA,pac,4H Camp Sponsorship,D,495732,2026-07-14
-expenditure,2026-06-02,Loves,$72,Bastian,VA,pac,Transportation Fuel,D,495732,2026-07-14
-expenditure,2026-06-29,Circle K,$65.44,Wytheville,VA,pac,Transportation Fuel,D,495732,2026-07-14
+expenditure,2026-04-24,Hilton Hotel,$272.09,Richmond,VA,business,Lodging,D,495732,2026-07-14
+expenditure,2026-03-25,Happy Mart,$74,North Tazewell,VA,business,Transportation Fuel,D,495732,2026-07-14
+expenditure,2026-04-03,Happy Mart,$74,North Tazewell,VA,business,Transportation Fuel,D,495732,2026-07-14
+expenditure,2026-04-14,Happy Mart,$61,North Tazewell,VA,business,Transportation Fuel,D,495732,2026-07-14
+expenditure,2026-04-22,Happy Mart,$65,North Tazewell,VA,business,Transportation Fuel,D,495732,2026-07-14
+expenditure,2026-05-28,Happy Mart,$74,North Tazewell,VA,business,Transportation Fuel,D,495732,2026-07-14
+expenditure,2026-01-05,Drury Inn,$451.04,Glen Allen,VA,business,Lodging,D,495732,2026-07-14
+expenditure,2026-06-29,Drury Inn,$402.91,Glen Allen,VA,business,Lodging,D,495732,2026-07-14
+expenditure,2026-01-14,Target,$200.91,Richmond,VA,business,Supplies,D,495732,2026-07-14
+expenditure,2026-01-26,Target,$403.74,Richmond,VA,business,Supplies,D,495732,2026-07-14
+expenditure,2026-02-23,Target,$245.08,Richmond,VA,business,Supplies,D,495732,2026-07-14
+expenditure,2026-03-13,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,business,Contribution,D,495732,2026-07-14
+expenditure,2026-03-27,HD Media LLC,"$1,349.46",Huntington,WV,business,Advertising,D,495732,2026-07-14
+expenditure,2026-03-27,BHMVA Newspapers,"$2,160",Bristol,VA,business,Advertising,D,495732,2026-07-14
+expenditure,2026-03-30,LC News Press - Dickenson Star,$450,Cookeville,TN,business,Advertising,D,495732,2026-07-14
+expenditure,2026-03-30,LC News Press - The Coalfield Progress,$750,Cookeville,TN,business,Advertising,D,495732,2026-07-14
+expenditure,2026-04-16,Cargo,$90,Tazewell,VA,business,Transportation Fuel,D,495732,2026-07-14
+expenditure,2026-04-20,Bobby May Advertising Specialties,$839.75,Hurley,VA,business,Signs,D,495732,2026-07-14
+expenditure,2026-04-30,VCE Russell County,$240,Lebanon,VA,business,4H Camp Sponsorship,D,495732,2026-07-14
+expenditure,2026-06-02,Loves,$72,Bastian,VA,business,Transportation Fuel,D,495732,2026-07-14
+expenditure,2026-06-29,Circle K,$65.44,Wytheville,VA,business,Transportation Fuel,D,495732,2026-07-14

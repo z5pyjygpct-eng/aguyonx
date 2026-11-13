@@ -3,7 +3,7 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$72,541.95",,VA,,"From official Schedule H, November 2027 election cycle",H,491847,2026-07-04
 summary,2026-06-30,Raised this cycle,"$2,651.36",,,,Total receipts this election cycle (Schedule H),H,491847,2026-07-04
 summary,2026-06-30,Spent this cycle,"$25,181.99",,,,Total disbursements this election cycle (Schedule H),H,491847,2026-07-04
-contribution,2026-06-26,Altria Client Services Inc,"$1,500",Richmond,VA,pac,,A,491847,2026-07-04
+contribution,2026-06-26,Altria Client Services Inc,"$1,500",Richmond,VA,business,,A,491847,2026-07-04
 contribution,2026-05-12,Virginia Wine Wholesalers PAC,$201.36,Richmond,VA,pac,,A,491847,2026-07-04
 contribution,2026-01-12,Northern Virginia Chamber of Commerce PAC,$500,Tysons,VA,pac,,A,491847,2026-07-04
 contribution,2026-05-12,Emily Spence,$200,Blackstone,VA,individual,,A,491847,2026-07-04
@@ -39,117 +39,117 @@ expenditure,2026-06-16,David Bovenizer,$149.70,Lynchburg,VA,individual,Postage,D
 expenditure,2026-06-16,David Bovenizer,$69.18,Lynchburg,VA,individual,Printing,D,491847,2026-07-04
 expenditure,2026-03-01,David Bovenizer,$33,Lynchburg,VA,individual,Parking,D,491847,2026-07-04
 expenditure,2026-06-16,David Bovenizer,$48.63,Lynchburg,VA,individual,Publications,D,491847,2026-07-04
-expenditure,2026-03-21,Treasurer of Virginia,$37,Richmond,VA,pac,Flags,D,491847,2026-07-04
-expenditure,2026-03-31,Treasurer of Virginia,$37,Richmond,VA,pac,Flower Fund,D,491847,2026-07-04
-expenditure,2026-03-30,Office Depot,$78,Midlothian,VA,pac,Office Supplies,D,491847,2026-07-04
+expenditure,2026-03-21,Treasurer of Virginia,$37,Richmond,VA,business,Flags,D,491847,2026-07-04
+expenditure,2026-03-31,Treasurer of Virginia,$37,Richmond,VA,business,Flower Fund,D,491847,2026-07-04
+expenditure,2026-03-30,Office Depot,$78,Midlothian,VA,business,Office Supplies,D,491847,2026-07-04
 expenditure,2026-03-01,Powhatan Republican Party,$300,Powhatan,VA,party,Contribution,D,491847,2026-07-04
-expenditure,2026-01-05,Powhatan Chamber of Commerce,$65,Powhatan,VA,pac,Membership Fee,D,491847,2026-07-04
-expenditure,2026-05-21,Chesterfield Republican Committee,$517.50,Midlothian,VA,pac,Sponsorship,D,491847,2026-07-04
+expenditure,2026-01-05,Powhatan Chamber of Commerce,$65,Powhatan,VA,business,Membership Fee,D,491847,2026-07-04
+expenditure,2026-05-21,Chesterfield Republican Committee,$517.50,Midlothian,VA,business,Sponsorship,D,491847,2026-07-04
 expenditure,2026-03-20,House Republican Campaign Committee,"$1,000",Richmond,VA,party,Caucus Dues,D,491847,2026-07-04
-expenditure,2026-03-01,Huguenot Republican Women's Club,$200,Midlothian,VA,pac,Sponsorship,D,491847,2026-07-04
-expenditure,2026-01-01,Gentleman's C Higher Ed Consulting LLC,"$2,500",Midlothian,VA,pac,Campaign Services,D,491847,2026-07-04
-expenditure,2026-01-09,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,pac,Accounting Services,D,491847,2026-07-04
-expenditure,2026-02-05,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,pac,Accounting Services,D,491847,2026-07-04
-expenditure,2026-03-06,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,pac,Accounting Services,D,491847,2026-07-04
-expenditure,2026-04-05,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,pac,Accounting Services,D,491847,2026-07-04
-expenditure,2026-05-04,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,pac,Accounting Services,D,491847,2026-07-04
-expenditure,2026-06-07,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,pac,Accounting Services,D,491847,2026-07-04
-expenditure,2026-03-30,Powhatan County Fair Association,$531.72,Powhatan,VA,pac,Contribution,D,491847,2026-07-04
-expenditure,2026-03-09,Free Clinic of Powhatan,$400,Powhatan,VA,pac,Contribution,D,491847,2026-07-04
-expenditure,2026-02-07,EZPass,$140,Richmond,VA,pac,Tolls,D,491847,2026-07-04
-expenditure,2026-01-02,Exxon Mobile of Powhatan,$29.12,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-01-17,Exxon Mobile of Powhatan,$28.92,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-01-20,Exxon Mobile of Powhatan,$31.93,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-02-07,Exxon Mobile of Powhatan,$25.73,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-02-13,Exxon Mobile of Powhatan,$47.14,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-02-27,Exxon Mobile of Powhatan,$18.49,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-03-05,Exxon Mobile of Powhatan,$31.29,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-03-17,Exxon Mobile of Powhatan,$44.31,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-03-21,Exxon Mobile of Powhatan,$45.65,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-04-03,Exxon Mobile of Powhatan,$45.12,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-04-07,Exxon Mobile of Powhatan,$55.93,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-04-18,Exxon Mobile of Powhatan,$49.53,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-04-24,Exxon Mobile of Powhatan,$55.28,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-04-29,Exxon Mobile of Powhatan,$28.25,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-06-22,Exxon Mobile of Powhatan,$60.83,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-01-12,Sheetz,$38.75,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-03-28,Sheetz,$41.18,Powhatan,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-06-03,Omni Homestead Resort,$77.21,Hot Springs,VA,pac,Meals,D,491847,2026-07-04
-expenditure,2026-03-03,Chesterfield Chamber of Commerce,$100,North Chesterfield,VA,pac,Membership,D,491847,2026-07-04
-expenditure,2026-01-24,Marathon Oil,$20.35,Madison Heights,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-02-19,Marathon Oil,$22.41,Madison Heights,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-05-06,Marathon Oil,$58.42,Madison Heights,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-05-21,Marathon Oil,$65.06,Madison Heights,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-06-01,Marathon Oil,$31.83,Madison Heights,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-06-09,Marathon Oil,$53.59,Madison Heights,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-01-28,The Epoch Times,$99,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-01-22,Constant Contact,$85,Loveland,CO,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-02-21,Constant Contact,$85,Loveland,CO,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-03-23,Constant Contact,$85,Loveland,CO,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-04-22,Constant Contact,$85,Loveland,CO,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-05-22,Constant Contact,$85,Loveland,CO,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-06-20,Constant Contact,$85,Loveland,CO,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-02-14,Sports Boosters,$499,San Diego,CA,pac,Sponsorship,D,491847,2026-07-04
-expenditure,2026-03-16,US Post Office,$43.45,Powhatan,VA,pac,Postage,D,491847,2026-07-04
-expenditure,2026-04-02,US Post Office,$15.60,Powhatan,VA,pac,Postage,D,491847,2026-07-04
-expenditure,2026-05-12,US Post Office,$25.55,Powhatan,VA,pac,Postage,D,491847,2026-07-04
-expenditure,2026-01-05,Powhatan Community Storage,$145,Powhatan,VA,pac,Storage,D,491847,2026-07-04
-expenditure,2026-02-03,Powhatan Community Storage,$145,Powhatan,VA,pac,Storage,D,491847,2026-07-04
-expenditure,2026-03-03,Powhatan Community Storage,$145,Powhatan,VA,pac,Storage,D,491847,2026-07-04
-expenditure,2026-03-24,Powhatan Community Storage,$160,Powhatan,VA,pac,Storage,D,491847,2026-07-04
-expenditure,2026-04-02,Powhatan Community Storage,$155,Powhatan,VA,pac,Sponsorship,D,491847,2026-07-04
-expenditure,2026-05-02,Powhatan Community Storage,$155,Powhatan,VA,pac,Storage,D,491847,2026-07-04
-expenditure,2026-06-02,Powhatan Community Storage,$155,Powhatan,VA,pac,Storage,D,491847,2026-07-04
-expenditure,2026-03-01,Amelia Bulletin,$150,Amelia Court House,VA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-04-08,Amelia Bulletin,$75,Amelia Court House,VA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-06-04,Shell of Fishersville,$36.31,Fishersville,VA,pac,Gas,D,491847,2026-07-04
-expenditure,2026-01-12,Courier Record,$75,Blackstone,VA,pac,Advertising,D,491847,2026-07-04
-expenditure,2026-01-13,Courier Record,$150,Blackstone,VA,pac,Advertising,D,491847,2026-07-04
-expenditure,2026-03-01,Courier Record,$150,Blackstone,VA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-01-22,Lee Enterprises,$0.99,Carol Stream,IL,pac,Publications,D,491847,2026-07-04
-expenditure,2026-02-20,Lee Enterprises,$14.99,Carol Stream,IL,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-03-20,Lee Enterprises,$14.99,Carol Stream,IL,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-04-17,Lee Enterprises,$14.99,Carol Stream,IL,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-05-15,Lee Enterprises,$14.99,Carol Stream,IL,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-06-12,Lee Enterprises,$14.99,Carol Stream,IL,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-01-02,Blackstone Chamber of Commerce,$183.20,Blackstone,VA,pac,Membership Fees,D,491847,2026-07-04
-expenditure,2026-02-09,Blackstone Chamber of Commerce,$116.95,Blackstone,VA,pac,Event Fee,D,491847,2026-07-04
-expenditure,2026-03-14,Blackstone Chamber of Commerce,$119.95,Blackstone,VA,pac,Sponsorship,D,491847,2026-07-04
-expenditure,2026-03-31,Blackstone Chamber of Commerce,$287.50,Blackstone,VA,pac,Sponsorship,D,491847,2026-07-04
-expenditure,2026-04-07,Crewe-Burkeville Journal,$60,Crewe,VA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-01-07,Unherd,$4.99,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-02-07,Unherd,$4.99,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-02-20,Unherd,$4.99,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-03-07,Unherd,$4.99,New York,NY,pac,Publications,D,491847,2026-07-04
-expenditure,2026-04-07,Unherd,$4.99,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-05-07,Unherd,$6.99,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-06-04,Unherd,$6.99,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-01-02,National Rifle Association,"$1,000",Fairfax,VA,pac,Event Fees,D,491847,2026-07-04
-expenditure,2026-03-01,National Rifle Association,$500,Fairfax,VA,pac,Contribution,D,491847,2026-07-04
-expenditure,2026-02-10,European Conservative,$107.36,Washington,DC,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-02-28,Virginia Scope,$93,Norfolk,VA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-01-22,Ricks Custom Framing,$201.36,Richmond,VA,pac,Framing of Resolution,D,491847,2026-07-04
-expenditure,2026-02-19,Ricks Custom Framing,$201.36,Richmond,VA,pac,Framing of Resolution,D,491847,2026-07-04
-expenditure,2026-03-13,Ricks Custom Framing,$201.36,Richmond,VA,pac,Framing for Resolution,D,491847,2026-07-04
+expenditure,2026-03-01,Huguenot Republican Women's Club,$200,Midlothian,VA,business,Sponsorship,D,491847,2026-07-04
+expenditure,2026-01-01,Gentleman's C Higher Ed Consulting LLC,"$2,500",Midlothian,VA,business,Campaign Services,D,491847,2026-07-04
+expenditure,2026-01-09,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,business,Accounting Services,D,491847,2026-07-04
+expenditure,2026-02-05,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,business,Accounting Services,D,491847,2026-07-04
+expenditure,2026-03-06,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,business,Accounting Services,D,491847,2026-07-04
+expenditure,2026-04-05,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,business,Accounting Services,D,491847,2026-07-04
+expenditure,2026-05-04,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,business,Accounting Services,D,491847,2026-07-04
+expenditure,2026-06-07,Gentleman's C Higher Ed Consulting LLC,$400,Midlothian,VA,business,Accounting Services,D,491847,2026-07-04
+expenditure,2026-03-30,Powhatan County Fair Association,$531.72,Powhatan,VA,business,Contribution,D,491847,2026-07-04
+expenditure,2026-03-09,Free Clinic of Powhatan,$400,Powhatan,VA,business,Contribution,D,491847,2026-07-04
+expenditure,2026-02-07,EZPass,$140,Richmond,VA,business,Tolls,D,491847,2026-07-04
+expenditure,2026-01-02,Exxon Mobile of Powhatan,$29.12,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-01-17,Exxon Mobile of Powhatan,$28.92,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-01-20,Exxon Mobile of Powhatan,$31.93,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-02-07,Exxon Mobile of Powhatan,$25.73,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-02-13,Exxon Mobile of Powhatan,$47.14,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-02-27,Exxon Mobile of Powhatan,$18.49,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-03-05,Exxon Mobile of Powhatan,$31.29,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-03-17,Exxon Mobile of Powhatan,$44.31,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-03-21,Exxon Mobile of Powhatan,$45.65,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-04-03,Exxon Mobile of Powhatan,$45.12,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-04-07,Exxon Mobile of Powhatan,$55.93,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-04-18,Exxon Mobile of Powhatan,$49.53,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-04-24,Exxon Mobile of Powhatan,$55.28,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-04-29,Exxon Mobile of Powhatan,$28.25,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-06-22,Exxon Mobile of Powhatan,$60.83,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-01-12,Sheetz,$38.75,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-03-28,Sheetz,$41.18,Powhatan,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-06-03,Omni Homestead Resort,$77.21,Hot Springs,VA,business,Meals,D,491847,2026-07-04
+expenditure,2026-03-03,Chesterfield Chamber of Commerce,$100,North Chesterfield,VA,business,Membership,D,491847,2026-07-04
+expenditure,2026-01-24,Marathon Oil,$20.35,Madison Heights,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-02-19,Marathon Oil,$22.41,Madison Heights,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-05-06,Marathon Oil,$58.42,Madison Heights,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-05-21,Marathon Oil,$65.06,Madison Heights,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-06-01,Marathon Oil,$31.83,Madison Heights,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-06-09,Marathon Oil,$53.59,Madison Heights,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-01-28,The Epoch Times,$99,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-01-22,Constant Contact,$85,Loveland,CO,business,Subscription,D,491847,2026-07-04
+expenditure,2026-02-21,Constant Contact,$85,Loveland,CO,business,Subscription,D,491847,2026-07-04
+expenditure,2026-03-23,Constant Contact,$85,Loveland,CO,business,Subscription,D,491847,2026-07-04
+expenditure,2026-04-22,Constant Contact,$85,Loveland,CO,business,Subscription,D,491847,2026-07-04
+expenditure,2026-05-22,Constant Contact,$85,Loveland,CO,business,Subscription,D,491847,2026-07-04
+expenditure,2026-06-20,Constant Contact,$85,Loveland,CO,business,Subscription,D,491847,2026-07-04
+expenditure,2026-02-14,Sports Boosters,$499,San Diego,CA,business,Sponsorship,D,491847,2026-07-04
+expenditure,2026-03-16,US Post Office,$43.45,Powhatan,VA,business,Postage,D,491847,2026-07-04
+expenditure,2026-04-02,US Post Office,$15.60,Powhatan,VA,business,Postage,D,491847,2026-07-04
+expenditure,2026-05-12,US Post Office,$25.55,Powhatan,VA,business,Postage,D,491847,2026-07-04
+expenditure,2026-01-05,Powhatan Community Storage,$145,Powhatan,VA,business,Storage,D,491847,2026-07-04
+expenditure,2026-02-03,Powhatan Community Storage,$145,Powhatan,VA,business,Storage,D,491847,2026-07-04
+expenditure,2026-03-03,Powhatan Community Storage,$145,Powhatan,VA,business,Storage,D,491847,2026-07-04
+expenditure,2026-03-24,Powhatan Community Storage,$160,Powhatan,VA,business,Storage,D,491847,2026-07-04
+expenditure,2026-04-02,Powhatan Community Storage,$155,Powhatan,VA,business,Sponsorship,D,491847,2026-07-04
+expenditure,2026-05-02,Powhatan Community Storage,$155,Powhatan,VA,business,Storage,D,491847,2026-07-04
+expenditure,2026-06-02,Powhatan Community Storage,$155,Powhatan,VA,business,Storage,D,491847,2026-07-04
+expenditure,2026-03-01,Amelia Bulletin,$150,Amelia Court House,VA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-04-08,Amelia Bulletin,$75,Amelia Court House,VA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-06-04,Shell of Fishersville,$36.31,Fishersville,VA,business,Gas,D,491847,2026-07-04
+expenditure,2026-01-12,Courier Record,$75,Blackstone,VA,business,Advertising,D,491847,2026-07-04
+expenditure,2026-01-13,Courier Record,$150,Blackstone,VA,business,Advertising,D,491847,2026-07-04
+expenditure,2026-03-01,Courier Record,$150,Blackstone,VA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-01-22,Lee Enterprises,$0.99,Carol Stream,IL,business,Publications,D,491847,2026-07-04
+expenditure,2026-02-20,Lee Enterprises,$14.99,Carol Stream,IL,business,Subscription,D,491847,2026-07-04
+expenditure,2026-03-20,Lee Enterprises,$14.99,Carol Stream,IL,business,Subscription,D,491847,2026-07-04
+expenditure,2026-04-17,Lee Enterprises,$14.99,Carol Stream,IL,business,Subscription,D,491847,2026-07-04
+expenditure,2026-05-15,Lee Enterprises,$14.99,Carol Stream,IL,business,Subscription,D,491847,2026-07-04
+expenditure,2026-06-12,Lee Enterprises,$14.99,Carol Stream,IL,business,Subscription,D,491847,2026-07-04
+expenditure,2026-01-02,Blackstone Chamber of Commerce,$183.20,Blackstone,VA,business,Membership Fees,D,491847,2026-07-04
+expenditure,2026-02-09,Blackstone Chamber of Commerce,$116.95,Blackstone,VA,business,Event Fee,D,491847,2026-07-04
+expenditure,2026-03-14,Blackstone Chamber of Commerce,$119.95,Blackstone,VA,business,Sponsorship,D,491847,2026-07-04
+expenditure,2026-03-31,Blackstone Chamber of Commerce,$287.50,Blackstone,VA,business,Sponsorship,D,491847,2026-07-04
+expenditure,2026-04-07,Crewe-Burkeville Journal,$60,Crewe,VA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-01-07,Unherd,$4.99,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-02-07,Unherd,$4.99,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-02-20,Unherd,$4.99,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-03-07,Unherd,$4.99,New York,NY,business,Publications,D,491847,2026-07-04
+expenditure,2026-04-07,Unherd,$4.99,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-05-07,Unherd,$6.99,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-06-04,Unherd,$6.99,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-01-02,National Rifle Association,"$1,000",Fairfax,VA,business,Event Fees,D,491847,2026-07-04
+expenditure,2026-03-01,National Rifle Association,$500,Fairfax,VA,business,Contribution,D,491847,2026-07-04
+expenditure,2026-02-10,European Conservative,$107.36,Washington,DC,business,Subscription,D,491847,2026-07-04
+expenditure,2026-02-28,Virginia Scope,$93,Norfolk,VA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-01-22,Ricks Custom Framing,$201.36,Richmond,VA,business,Framing of Resolution,D,491847,2026-07-04
+expenditure,2026-02-19,Ricks Custom Framing,$201.36,Richmond,VA,business,Framing of Resolution,D,491847,2026-07-04
+expenditure,2026-03-13,Ricks Custom Framing,$201.36,Richmond,VA,business,Framing for Resolution,D,491847,2026-07-04
 expenditure,2026-04-06,Janet Straus,$40.39,Henrico,VA,individual,Office Supplies,D,491847,2026-07-04
-expenditure,2026-01-15,Guardian News,$5,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-02-16,Guardian News,$5,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-03-16,Guardian News,$5,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-04-15,Guardian News,$5,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-05-15,Guardian News,$5,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-06-15,Guardian News,$5,New York,NY,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-01-13,Chaiflicks,$11.99,Los Gatos,CA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-02-13,Chaiflicks,$11.99,Los Gatos,CA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-03-13,Chaiflicks,$11.99,Los Gatos,CA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-04-13,Chaiflicks,$11.99,Los Gatos,CA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-06-13,Chaiflicks,$11.99,Los Gatos,CA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-01-12,Scribd,$11.99,San Francisco,CA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-02-11,Scribd,$11.99,San Francisco,CA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-04-13,Scribd,$11.99,San Francisco,CA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-05-12,Scribd,$11.99,San Francisco,CA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-06-12,Scribd,$11.99,San Francisco,CA,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-03-01,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,pac,Contribution,D,491847,2026-07-04
-expenditure,2026-04-18,Webroot,$24.99,Broomfield,CO,pac,Computer Expense,D,491847,2026-07-04
-expenditure,2026-05-29,Washington Examiner,$52,Washington,DC,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-06-13,Tucker Carlson Network,$72,Reno,NV,pac,Subscription,D,491847,2026-07-04
-expenditure,2026-06-29,InkJets,$50.99,Los Angeles,CA,pac,Office Supplies,D,491847,2026-07-04
+expenditure,2026-01-15,Guardian News,$5,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-02-16,Guardian News,$5,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-03-16,Guardian News,$5,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-04-15,Guardian News,$5,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-05-15,Guardian News,$5,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-06-15,Guardian News,$5,New York,NY,business,Subscription,D,491847,2026-07-04
+expenditure,2026-01-13,Chaiflicks,$11.99,Los Gatos,CA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-02-13,Chaiflicks,$11.99,Los Gatos,CA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-03-13,Chaiflicks,$11.99,Los Gatos,CA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-04-13,Chaiflicks,$11.99,Los Gatos,CA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-06-13,Chaiflicks,$11.99,Los Gatos,CA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-01-12,Scribd,$11.99,San Francisco,CA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-02-11,Scribd,$11.99,San Francisco,CA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-04-13,Scribd,$11.99,San Francisco,CA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-05-12,Scribd,$11.99,San Francisco,CA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-06-12,Scribd,$11.99,San Francisco,CA,business,Subscription,D,491847,2026-07-04
+expenditure,2026-03-01,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,business,Contribution,D,491847,2026-07-04
+expenditure,2026-04-18,Webroot,$24.99,Broomfield,CO,business,Computer Expense,D,491847,2026-07-04
+expenditure,2026-05-29,Washington Examiner,$52,Washington,DC,business,Subscription,D,491847,2026-07-04
+expenditure,2026-06-13,Tucker Carlson Network,$72,Reno,NV,business,Subscription,D,491847,2026-07-04
+expenditure,2026-06-29,InkJets,$50.99,Los Angeles,CA,business,Office Supplies,D,491847,2026-07-04

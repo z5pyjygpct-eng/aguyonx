@@ -4,11 +4,11 @@ summary,2026-06-30,Cash on hand (ending balance),"$17,319.24",,VA,,"From officia
 summary,2026-06-30,Raised this cycle,"$16,526.34",,,,Total receipts this election cycle (Schedule H),H,497032,2026-07-15
 summary,2026-06-30,Spent this cycle,"$33,926.46",,,,Total disbursements this election cycle (Schedule H),H,497032,2026-07-15
 contribution,2025-12-02,UFCW Local 400 ABC PAC,"$7,500",Landover,MD,pac,,A,477526,2026-01-13
-contribution,2025-12-02,Virginia Hospital Shared Services,"$15,000",Henrico,VA,pac,,A,477526,2026-01-13
+contribution,2025-12-02,Virginia Hospital Shared Services,"$15,000",Henrico,VA,business,,A,477526,2026-01-13
 contribution,2026-05-15,Jay Black,$37,Virginia Beach,VA,individual,,A,497032,2026-07-15
-contribution,2026-01-08,Carbon Solutions Group,$250,Chicago,IL,pac,,A,497032,2026-07-15
+contribution,2026-01-08,Carbon Solutions Group,$250,Chicago,IL,business,,A,497032,2026-07-15
 contribution,2026-04-17,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,497032,2026-07-15
-contribution,2026-01-14,Dimension Energy LLC,$500,Atlanta,GA,pac,,A,497032,2026-07-15
+contribution,2026-01-14,Dimension Energy LLC,$500,Atlanta,GA,business,,A,497032,2026-07-15
 contribution,2026-01-12,Scott Greenblatt,"$1,500",Pinehurst,NC,individual,,A,497032,2026-07-15
 contribution,2026-06-01,IBEW PAC VOLUNTARY FUND,"$2,000",Washington,DC,pac,,A,497032,2026-07-15
 contribution,2026-04-06,Susan Martin,$50,Santa Fe,NM,individual,,A,497032,2026-07-15
@@ -17,185 +17,185 @@ contribution,2026-05-06,Susan Martin,$50,Santa Fe,NM,individual,,A,497032,2026-0
 contribution,2026-05-23,Susan Martin,$25,Santa Fe,NM,individual,,A,497032,2026-07-15
 contribution,2026-06-06,Susan Martin,$50,Santa Fe,NM,individual,,A,497032,2026-07-15
 contribution,2026-06-23,Susan Martin,$25,Santa Fe,NM,individual,,A,497032,2026-07-15
-contribution,2026-01-13,Organizing for VA Seniors,"$1,000",Fairfax,VA,pac,,A,497032,2026-07-15
+contribution,2026-01-13,Organizing for VA Seniors,"$1,000",Fairfax,VA,business,,A,497032,2026-07-15
 contribution,2026-06-01,SMART TD PAC,$250,Chester,VA,pac,,A,497032,2026-07-15
-other_receipt,2025-12-08,Sprout Social,$1.53,Chicago,IL,pac,Refund,C,477526,2026-01-13
-expenditure,2025-11-28,GWC Brown Legacy Education Fund,"$1,300",Norfolk,VA,pac,Contribution,D,477526,2026-01-13
-expenditure,2025-12-01,Disney Plus,$29.99,Burbank,CA,pac,Subscription,D,477526,2026-01-13
-expenditure,2025-12-01,Richmond Times,$31.99,Richmond,VA,pac,Subscription,D,477526,2026-01-13
-expenditure,2025-12-02,Gather Workspace,$51.50,Virginia Beach,VA,pac,Office Space,D,477526,2026-01-13
-expenditure,2025-12-02,Google,$84,Mountain View,CA,pac,Email Services,D,477526,2026-01-13
-expenditure,2025-12-02,Google,$71.94,Mountain View,CA,pac,Email Services,D,477526,2026-01-13
-expenditure,2025-12-02,Mini Price Storage,$72,Virginia Beach,VA,pac,Storage,D,477526,2026-01-13
-expenditure,2025-12-03,NGP VAN,$428.19,Washington,DC,pac,Software,D,477526,2026-01-13
-expenditure,2025-12-03,NGP VAN,$116,Washington,DC,pac,Software,D,477526,2026-01-13
+other_receipt,2025-12-08,Sprout Social,$1.53,Chicago,IL,business,Refund,C,477526,2026-01-13
+expenditure,2025-11-28,GWC Brown Legacy Education Fund,"$1,300",Norfolk,VA,business,Contribution,D,477526,2026-01-13
+expenditure,2025-12-01,Disney Plus,$29.99,Burbank,CA,business,Subscription,D,477526,2026-01-13
+expenditure,2025-12-01,Richmond Times,$31.99,Richmond,VA,business,Subscription,D,477526,2026-01-13
+expenditure,2025-12-02,Gather Workspace,$51.50,Virginia Beach,VA,business,Office Space,D,477526,2026-01-13
+expenditure,2025-12-02,Google,$84,Mountain View,CA,business,Email Services,D,477526,2026-01-13
+expenditure,2025-12-02,Google,$71.94,Mountain View,CA,business,Email Services,D,477526,2026-01-13
+expenditure,2025-12-02,Mini Price Storage,$72,Virginia Beach,VA,business,Storage,D,477526,2026-01-13
+expenditure,2025-12-03,NGP VAN,$428.19,Washington,DC,business,Software,D,477526,2026-01-13
+expenditure,2025-12-03,NGP VAN,$116,Washington,DC,business,Software,D,477526,2026-01-13
 expenditure,2025-12-04,Dyvina Beck,"$5,000",Virginia Beach,VA,individual,General Campaign Consulting,D,477526,2026-01-13
-expenditure,2025-12-04,Maurice Hawkins Consulting,"$5,000",Chesapeake,VA,pac,General Campaign Consulting,D,477526,2026-01-13
-expenditure,2025-12-04,Printersmark,$369.41,Richmond,VA,pac,Printing,D,477526,2026-01-13
+expenditure,2025-12-04,Maurice Hawkins Consulting,"$5,000",Chesapeake,VA,business,General Campaign Consulting,D,477526,2026-01-13
+expenditure,2025-12-04,Printersmark,$369.41,Richmond,VA,business,Printing,D,477526,2026-01-13
 expenditure,2025-12-08,Nikki Duncan-Talley,$500,Virginia Beach,VA,individual,General Campaign Consulting,D,477526,2026-01-13
-expenditure,2025-12-08,Sprout Social,$141.97,Chicago,IL,pac,Software,D,477526,2026-01-13
-expenditure,2025-12-10,Best Buy,$79.48,Virginia Beach,VA,pac,Office Supplies,D,477526,2026-01-13
-expenditure,2025-12-11,PostScan Mail,$32.50,Virginia Beach,VA,pac,PO Box Services,D,477526,2026-01-13
-expenditure,2025-12-11,Virginia Department of Elections,"$1,100",Richmond,VA,pac,Reporting Fee,D,477526,2026-01-13
-expenditure,2025-12-11,Virginia Department of Elections,$25.30,Richmond,VA,pac,Reporting Fee,D,477526,2026-01-13
-expenditure,2025-12-12,KG LLC,"$6,000",Washington,DC,pac,Compliance Services,D,477526,2026-01-13
-expenditure,2025-12-16,Canva,$40,Austin,TX,pac,Software,D,477526,2026-01-13
-expenditure,2025-12-16,Priceline,$154.98,Norwalk,CT,pac,Car Rental,D,477526,2026-01-13
-expenditure,2025-12-16,Towne Bank,$15,Virginia Beach,VA,pac,Bank Fees,D,477526,2026-01-13
-expenditure,2025-12-17,Call Time AI,$725,Visalia,CA,pac,Software,D,477526,2026-01-13
-expenditure,2025-12-17,Momoyama,$87.65,Washington,DC,pac,Meals,D,477526,2026-01-13
-expenditure,2025-12-17,Park Mobile,$6.45,Atlanta,GA,pac,Parking,D,477526,2026-01-13
-expenditure,2025-12-17,Wawa,$15.93,Virginia Beach,VA,pac,Gas,D,477526,2026-01-13
-expenditure,2025-12-18,Hilton,$171.64,Atlanta,GA,pac,Lodging,D,477526,2026-01-13
-expenditure,2025-12-18,Hilton,$129.70,Atlanta,GA,pac,Lodging,D,477526,2026-01-13
-expenditure,2025-12-18,Ooma Inc,$17.57,Sunnyvale,CA,pac,Software,D,477526,2026-01-13
-expenditure,2025-12-19,Park Mobile,$6.45,Atlanta,GA,pac,Parking,D,477526,2026-01-13
-expenditure,2025-12-22,Hilton,$231.58,Atlanta,GA,pac,Lodging,D,477526,2026-01-13
-expenditure,2025-12-22,Monday.com,$70,New York,NY,pac,Software,D,477526,2026-01-13
-expenditure,2025-12-22,Zoom,$17.84,San Jose,CA,pac,Software,D,477526,2026-01-13
-expenditure,2025-12-23,Invictus Strategy,"$5,500",Milpitas,CA,pac,Fundraising Consulting,D,477526,2026-01-13
-expenditure,2025-12-29,Richmond Times,$31.99,Richmond,VA,pac,Subscription,D,477526,2026-01-13
-expenditure,2025-12-29,UpGrow,$399,San Francisco,CA,pac,Software,D,477526,2026-01-13
-expenditure,2025-12-30,Darknight Entertainment,$500,Virginia Beach,VA,pac,Entertainment Services,D,477526,2026-01-13
-expenditure,2025-12-30,Economy Printing Inc.,$381.60,Portsmouth,VA,pac,Printing,D,477526,2026-01-13
-expenditure,2025-12-31,NGP VAN,$110.25,Washington,DC,pac,Software,D,477526,2026-01-13
-expenditure,2025-12-31,Visme,$147,Rockville,MD,pac,Software,D,477526,2026-01-13
-expenditure,2026-01-02,Google,$84,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-01-02,Google,$71.94,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-01-05,Gather Workspace,$51.50,Virginia Beach,VA,pac,Office Space,D,497032,2026-07-15
-expenditure,2026-01-05,"Gusto Capital, LLC",$152,San Francisco,CA,pac,Payroll,D,497032,2026-07-15
-expenditure,2026-01-05,Mini Price Storage,$72,Virginia Beach,VA,pac,Storage,D,497032,2026-07-15
-expenditure,2026-01-06,Sprout Social,$141.97,Chicago,IL,pac,Data Services,D,497032,2026-07-15
-expenditure,2026-01-07,Amazon,$179.90,Seattle,WA,pac,Office Supplies,D,497032,2026-07-15
-expenditure,2026-01-08,Amazon,$274.91,Seattle,WA,pac,Office Supplies,D,497032,2026-07-15
-expenditure,2026-01-12,Amazon,$156.87,Seattle,WA,pac,Office Supplies,D,497032,2026-07-15
-expenditure,2026-01-12,PostScan Mail,$39,Virginia Beach,VA,pac,Software,D,497032,2026-07-15
-expenditure,2026-01-12,Roses Discount Store,$66.24,Virginia Beach,VA,pac,Printing,D,497032,2026-07-15
-expenditure,2026-01-16,ActBlue Technical Services,$65.33,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-01-16,Canva,$40,Austin,TX,pac,Software,D,497032,2026-07-15
-expenditure,2026-01-16,Towne Bank,$15,Virginia Beach,VA,pac,Bank Fees,D,497032,2026-07-15
-expenditure,2026-01-20,Call Time AI,$725,Visalia,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-01-20,Hilton,$182.12,Atlanta,GA,pac,Lodging,D,497032,2026-07-15
-expenditure,2026-01-20,Monday.com,$70,New York,NY,pac,Software,D,497032,2026-07-15
-expenditure,2026-01-20,Ooma Inc,$17.57,Sunnyvale,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-01-20,Zoom,$17.84,San Jose,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-01-26,Richmond Times,$31.99,Richmond,VA,pac,Subscription,D,497032,2026-07-15
-expenditure,2026-02-02,NGP VAN,$538.45,Washington,DC,pac,Software,D,497032,2026-07-15
-expenditure,2026-02-04,"Gusto Capital, LLC",$104,San Francisco,CA,pac,Payroll,D,497032,2026-07-15
-expenditure,2026-02-18,Towne Bank,$15,Virginia Beach,VA,pac,Bank Fees,D,497032,2026-07-15
-expenditure,2026-02-23,Canva,$120,Austin,TX,pac,Software,D,497032,2026-07-15
-expenditure,2026-02-23,Google,$72.35,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-02-23,Google,$144,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-02-23,"Resonance Campaigns, LLC",$200,Washington,DC,pac,Printing,D,497032,2026-07-15
-expenditure,2026-02-25,Gather Workspace,$901.77,Virginia Beach,VA,pac,Office Space,D,497032,2026-07-15
-expenditure,2026-02-25,Gather Workspace,$51.50,Virginia Beach,VA,pac,Office Space,D,497032,2026-07-15
-expenditure,2026-02-25,Gather Workspace,$51.50,Virginia Beach,VA,pac,Office Space,D,497032,2026-07-15
-expenditure,2026-02-25,Gather Workspace,$25.75,Virginia Beach,VA,pac,Office Space,D,497032,2026-07-15
-expenditure,2026-02-25,Zoom,$17.84,San Jose,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-03-02,Google,$31.34,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-03-02,Google,$24,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-03-02,NGP VAN,$538.45,Washington,DC,pac,Software,D,497032,2026-07-15
-expenditure,2026-03-04,Gather Workspace,$901.77,Virginia Beach,VA,pac,Office Space,D,497032,2026-07-15
-expenditure,2026-03-04,"Gusto Capital, LLC",$104,San Francisco,CA,pac,Payroll,D,497032,2026-07-15
-expenditure,2026-03-09,Lucas Anderton,$150,Virginia Beach,VA,pac,Digital Services,D,497032,2026-07-15
-expenditure,2026-03-09,Lucas Anderton,$150,Virginia Beach,VA,pac,Digital Services,D,497032,2026-07-15
-expenditure,2026-03-09,NGP VAN,$538.45,Washington,DC,pac,Software,D,497032,2026-07-15
-expenditure,2026-03-10,Monument Advocacy,$300,Washington,DC,pac,Event Ticket,D,497032,2026-07-15
-expenditure,2026-03-10,Virginia State Legislative Black Caucus,"$3,000",Richmond,VA,pac,Contribution,D,497032,2026-07-15
-expenditure,2026-03-13,Darknight Entertainment,$120.30,Virginia Beach,VA,pac,Entertainment Services,D,497032,2026-07-15
-expenditure,2026-03-16,Hampton Inn,$184.39,Virginia Beach,VA,pac,Lodging,D,497032,2026-07-15
-expenditure,2026-03-17,Towne Bank,$15,Virginia Beach,VA,pac,Bank Fees,D,497032,2026-07-15
-expenditure,2026-03-18,ActBlue Technical Services,$1.47,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2025-12-08,Sprout Social,$141.97,Chicago,IL,business,Software,D,477526,2026-01-13
+expenditure,2025-12-10,Best Buy,$79.48,Virginia Beach,VA,business,Office Supplies,D,477526,2026-01-13
+expenditure,2025-12-11,PostScan Mail,$32.50,Virginia Beach,VA,business,PO Box Services,D,477526,2026-01-13
+expenditure,2025-12-11,Virginia Department of Elections,"$1,100",Richmond,VA,business,Reporting Fee,D,477526,2026-01-13
+expenditure,2025-12-11,Virginia Department of Elections,$25.30,Richmond,VA,business,Reporting Fee,D,477526,2026-01-13
+expenditure,2025-12-12,KG LLC,"$6,000",Washington,DC,business,Compliance Services,D,477526,2026-01-13
+expenditure,2025-12-16,Canva,$40,Austin,TX,business,Software,D,477526,2026-01-13
+expenditure,2025-12-16,Priceline,$154.98,Norwalk,CT,business,Car Rental,D,477526,2026-01-13
+expenditure,2025-12-16,Towne Bank,$15,Virginia Beach,VA,business,Bank Fees,D,477526,2026-01-13
+expenditure,2025-12-17,Call Time AI,$725,Visalia,CA,business,Software,D,477526,2026-01-13
+expenditure,2025-12-17,Momoyama,$87.65,Washington,DC,business,Meals,D,477526,2026-01-13
+expenditure,2025-12-17,Park Mobile,$6.45,Atlanta,GA,business,Parking,D,477526,2026-01-13
+expenditure,2025-12-17,Wawa,$15.93,Virginia Beach,VA,business,Gas,D,477526,2026-01-13
+expenditure,2025-12-18,Hilton,$171.64,Atlanta,GA,business,Lodging,D,477526,2026-01-13
+expenditure,2025-12-18,Hilton,$129.70,Atlanta,GA,business,Lodging,D,477526,2026-01-13
+expenditure,2025-12-18,Ooma Inc,$17.57,Sunnyvale,CA,business,Software,D,477526,2026-01-13
+expenditure,2025-12-19,Park Mobile,$6.45,Atlanta,GA,business,Parking,D,477526,2026-01-13
+expenditure,2025-12-22,Hilton,$231.58,Atlanta,GA,business,Lodging,D,477526,2026-01-13
+expenditure,2025-12-22,Monday.com,$70,New York,NY,business,Software,D,477526,2026-01-13
+expenditure,2025-12-22,Zoom,$17.84,San Jose,CA,business,Software,D,477526,2026-01-13
+expenditure,2025-12-23,Invictus Strategy,"$5,500",Milpitas,CA,business,Fundraising Consulting,D,477526,2026-01-13
+expenditure,2025-12-29,Richmond Times,$31.99,Richmond,VA,business,Subscription,D,477526,2026-01-13
+expenditure,2025-12-29,UpGrow,$399,San Francisco,CA,business,Software,D,477526,2026-01-13
+expenditure,2025-12-30,Darknight Entertainment,$500,Virginia Beach,VA,business,Entertainment Services,D,477526,2026-01-13
+expenditure,2025-12-30,Economy Printing Inc.,$381.60,Portsmouth,VA,business,Printing,D,477526,2026-01-13
+expenditure,2025-12-31,NGP VAN,$110.25,Washington,DC,business,Software,D,477526,2026-01-13
+expenditure,2025-12-31,Visme,$147,Rockville,MD,business,Software,D,477526,2026-01-13
+expenditure,2026-01-02,Google,$84,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-01-02,Google,$71.94,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-01-05,Gather Workspace,$51.50,Virginia Beach,VA,business,Office Space,D,497032,2026-07-15
+expenditure,2026-01-05,"Gusto Capital, LLC",$152,San Francisco,CA,business,Payroll,D,497032,2026-07-15
+expenditure,2026-01-05,Mini Price Storage,$72,Virginia Beach,VA,business,Storage,D,497032,2026-07-15
+expenditure,2026-01-06,Sprout Social,$141.97,Chicago,IL,business,Data Services,D,497032,2026-07-15
+expenditure,2026-01-07,Amazon,$179.90,Seattle,WA,business,Office Supplies,D,497032,2026-07-15
+expenditure,2026-01-08,Amazon,$274.91,Seattle,WA,business,Office Supplies,D,497032,2026-07-15
+expenditure,2026-01-12,Amazon,$156.87,Seattle,WA,business,Office Supplies,D,497032,2026-07-15
+expenditure,2026-01-12,PostScan Mail,$39,Virginia Beach,VA,business,Software,D,497032,2026-07-15
+expenditure,2026-01-12,Roses Discount Store,$66.24,Virginia Beach,VA,business,Printing,D,497032,2026-07-15
+expenditure,2026-01-16,ActBlue Technical Services,$65.33,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-01-16,Canva,$40,Austin,TX,business,Software,D,497032,2026-07-15
+expenditure,2026-01-16,Towne Bank,$15,Virginia Beach,VA,business,Bank Fees,D,497032,2026-07-15
+expenditure,2026-01-20,Call Time AI,$725,Visalia,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-01-20,Hilton,$182.12,Atlanta,GA,business,Lodging,D,497032,2026-07-15
+expenditure,2026-01-20,Monday.com,$70,New York,NY,business,Software,D,497032,2026-07-15
+expenditure,2026-01-20,Ooma Inc,$17.57,Sunnyvale,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-01-20,Zoom,$17.84,San Jose,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-01-26,Richmond Times,$31.99,Richmond,VA,business,Subscription,D,497032,2026-07-15
+expenditure,2026-02-02,NGP VAN,$538.45,Washington,DC,business,Software,D,497032,2026-07-15
+expenditure,2026-02-04,"Gusto Capital, LLC",$104,San Francisco,CA,business,Payroll,D,497032,2026-07-15
+expenditure,2026-02-18,Towne Bank,$15,Virginia Beach,VA,business,Bank Fees,D,497032,2026-07-15
+expenditure,2026-02-23,Canva,$120,Austin,TX,business,Software,D,497032,2026-07-15
+expenditure,2026-02-23,Google,$72.35,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-02-23,Google,$144,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-02-23,"Resonance Campaigns, LLC",$200,Washington,DC,business,Printing,D,497032,2026-07-15
+expenditure,2026-02-25,Gather Workspace,$901.77,Virginia Beach,VA,business,Office Space,D,497032,2026-07-15
+expenditure,2026-02-25,Gather Workspace,$51.50,Virginia Beach,VA,business,Office Space,D,497032,2026-07-15
+expenditure,2026-02-25,Gather Workspace,$51.50,Virginia Beach,VA,business,Office Space,D,497032,2026-07-15
+expenditure,2026-02-25,Gather Workspace,$25.75,Virginia Beach,VA,business,Office Space,D,497032,2026-07-15
+expenditure,2026-02-25,Zoom,$17.84,San Jose,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-03-02,Google,$31.34,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-03-02,Google,$24,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-03-02,NGP VAN,$538.45,Washington,DC,business,Software,D,497032,2026-07-15
+expenditure,2026-03-04,Gather Workspace,$901.77,Virginia Beach,VA,business,Office Space,D,497032,2026-07-15
+expenditure,2026-03-04,"Gusto Capital, LLC",$104,San Francisco,CA,business,Payroll,D,497032,2026-07-15
+expenditure,2026-03-09,Lucas Anderton,$150,Virginia Beach,VA,business,Digital Services,D,497032,2026-07-15
+expenditure,2026-03-09,Lucas Anderton,$150,Virginia Beach,VA,business,Digital Services,D,497032,2026-07-15
+expenditure,2026-03-09,NGP VAN,$538.45,Washington,DC,business,Software,D,497032,2026-07-15
+expenditure,2026-03-10,Monument Advocacy,$300,Washington,DC,business,Event Ticket,D,497032,2026-07-15
+expenditure,2026-03-10,Virginia State Legislative Black Caucus,"$3,000",Richmond,VA,business,Contribution,D,497032,2026-07-15
+expenditure,2026-03-13,Darknight Entertainment,$120.30,Virginia Beach,VA,business,Entertainment Services,D,497032,2026-07-15
+expenditure,2026-03-16,Hampton Inn,$184.39,Virginia Beach,VA,business,Lodging,D,497032,2026-07-15
+expenditure,2026-03-17,Towne Bank,$15,Virginia Beach,VA,business,Bank Fees,D,497032,2026-07-15
+expenditure,2026-03-18,ActBlue Technical Services,$1.47,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
 expenditure,2026-03-18,House Democratic Caucus,"$10,000",Richmond,VA,party,Contribution,D,497032,2026-07-15
-expenditure,2026-03-18,Towne Bank,$45,Virginia Beach,VA,pac,Bank Fees,D,497032,2026-07-15
-expenditure,2026-03-20,Zoom,$17.84,San Jose,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-03-25,ActBlue Technical Services,$1.16,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-03-31,Ooma Inc,$35.14,Sunnyvale,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-04-01,ActBlue Technical Services,$3.16,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-04-01,Dan Helmer for Virginia,$500,Clifton,VA,pac,Contribution,D,497032,2026-07-15
-expenditure,2026-04-02,Google,$84,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-04-03,ActBlue Technical Services,$1.39,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-04-03,Google,$72.57,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-04-03,"Gusto Capital, LLC",$92,San Francisco,CA,pac,Payroll,D,497032,2026-07-15
-expenditure,2026-04-03,Ryan Hur,$500,Richmond,VA,pac,Policy Consulting,D,497032,2026-07-15
-expenditure,2026-04-06,Gather Workspace,$901.77,Virginia Beach,VA,pac,Office Space,D,497032,2026-07-15
-expenditure,2026-04-06,NGP VAN,$538.45,Washington,DC,pac,Software,D,497032,2026-07-15
-expenditure,2026-04-07,Monday.com,$324,New York,NY,pac,Software,D,497032,2026-07-15
-expenditure,2026-04-08,ActBlue Technical Services,$5.39,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-04-08,Amazon,$295.74,Seattle,WA,pac,Office Supplies,D,497032,2026-07-15
-expenditure,2026-04-09,Airbnb,$568.51,San Francisco,CA,pac,Lodging,D,497032,2026-07-15
-expenditure,2026-04-10,Hilton,$146.73,Atlanta,GA,pac,Lodging,D,497032,2026-07-15
-expenditure,2026-04-10,Vyond,$10,San Mateo,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-04-13,Jimmy Johns,$59.13,Richmond,VA,pac,Meals,D,497032,2026-07-15
-expenditure,2026-04-13,Liberty Food Mart,$45.52,Harrisonburg,VA,pac,Gas,D,497032,2026-07-15
-expenditure,2026-04-15,ActBlue Technical Services,$4,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-04-15,Sprout Social,$19.67,Chicago,IL,pac,Data Services,D,497032,2026-07-15
-expenditure,2026-04-16,Towne Bank,$15,Virginia Beach,VA,pac,Bank Fees,D,497032,2026-07-15
-expenditure,2026-04-17,BP Gas,$72.89,Virginia Beach,VA,pac,Gas,D,497032,2026-07-15
-expenditure,2026-04-17,Mint Mobile,$199.44,Costa Mesa,CA,pac,Telephone,D,497032,2026-07-15
-expenditure,2026-04-20,Ooma Inc,$17.57,Sunnyvale,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-04-20,Zoom,$17.84,San Jose,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-04-21,GoDaddy.com LLC,$92.76,Tempe,AZ,pac,Website Hosting,D,497032,2026-07-15
-expenditure,2026-04-22,ActBlue Technical Services,$3.03,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-04-23,Slurp Richmond,$44.98,Richmond,VA,pac,Meals,D,497032,2026-07-15
-expenditure,2026-04-29,ActBlue Technical Services,$0.99,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-05-01,Ruth's Chris Steak House,$501.76,Midlothian,VA,pac,Meals,D,497032,2026-07-15
-expenditure,2026-05-04,Google,$25.15,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-05-04,Google,$84,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-05-04,NGP VAN,$110.25,Washington,DC,pac,Software,D,497032,2026-07-15
-expenditure,2026-05-05,"Gusto Capital, LLC",$92,San Francisco,CA,pac,Payroll,D,497032,2026-07-15
-expenditure,2026-05-05,Ryan Hur,$250,Richmond,VA,pac,Policy Consulting,D,497032,2026-07-15
-expenditure,2026-05-06,ActBlue Technical Services,$2.59,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-05-06,Marathon,$55.21,Virginia Beach,VA,pac,Gas,D,497032,2026-07-15
-expenditure,2026-05-06,Sprout Social,$170.97,Chicago,IL,pac,Data Services,D,497032,2026-07-15
-expenditure,2026-05-08,Ryan Hur,$250,Richmond,VA,pac,Policy Consulting,D,497032,2026-07-15
-expenditure,2026-05-11,Budget Rent a Car,$563.88,Parsippany,NJ,pac,Car Rental,D,497032,2026-07-15
-expenditure,2026-05-11,Office Depot,$30.53,Virginia Beach,VA,pac,Office Supplies,D,497032,2026-07-15
-expenditure,2026-05-13,ActBlue Technical Services,$1.98,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-05-13,GoDaddy.com LLC,$23.19,Tempe,AZ,pac,Website Hosting,D,497032,2026-07-15
-expenditure,2026-05-18,Chicks Oyster Bar,$160.56,Virginia Beach,VA,pac,Meals,D,497032,2026-07-15
-expenditure,2026-05-18,Gran Rodeo,$80.19,Suffolk,VA,pac,Meals,D,497032,2026-07-15
-expenditure,2026-05-18,Ooma Inc,$17.57,Sunnyvale,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-05-18,Towne Bank,$15,Virginia Beach,VA,pac,Bank Fees,D,497032,2026-07-15
-expenditure,2026-05-19,"Delta Airlines, Inc.",$542.41,Atlanta,GA,pac,Airfare,D,497032,2026-07-15
-expenditure,2026-05-19,Hobby Lobby,$151.78,Virginia Beach,VA,pac,Office Supplies,D,497032,2026-07-15
-expenditure,2026-05-19,National Conference of Denver,$755,Washington,DC,pac,Event Ticket,D,497032,2026-07-15
-expenditure,2026-05-20,ActBlue Technical Services,$2.67,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-05-20,Zoom,$17.84,San Jose,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-05-21,Ryan Hur,$250,Richmond,VA,pac,Policy Consulting,D,497032,2026-07-15
-expenditure,2026-05-22,BP Gas,$55.40,Virginia Beach,VA,pac,Gas,D,497032,2026-07-15
-expenditure,2026-05-26,GoDaddy.com LLC,$38.18,Tempe,AZ,pac,Website Hosting,D,497032,2026-07-15
-expenditure,2026-05-27,Barrel 17,$109.50,Virginia Beach,VA,pac,Meals,D,497032,2026-07-15
-expenditure,2026-05-27,"Resonance Campaigns, LLC",$600,Washington,DC,pac,Printing,D,497032,2026-07-15
-expenditure,2026-05-27,"Resonance Campaigns, LLC",$200,Washington,DC,pac,Printing,D,497032,2026-07-15
-expenditure,2026-05-28,ActBlue Technical Services,$2.98,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-06-01,Virginia ABC,$55,Virginia Beach,VA,pac,Catering/Events,D,497032,2026-07-15
-expenditure,2026-06-02,Google,$25.06,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-06-02,Google,$84,Mountain View,CA,pac,Email Services,D,497032,2026-07-15
-expenditure,2026-06-02,"Gusto Capital, LLC",$92,San Francisco,CA,pac,Payroll,D,497032,2026-07-15
-expenditure,2026-06-02,Ryan Hur,$250,Richmond,VA,pac,Policy Consulting,D,497032,2026-07-15
-expenditure,2026-06-03,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-06-05,Michaels,$95.34,Virginia Beach,VA,pac,Office Supplies,D,497032,2026-07-15
-expenditure,2026-06-08,BP Gas,$72,Virginia Beach,VA,pac,Gas,D,497032,2026-07-15
-expenditure,2026-06-08,NGP VAN,$110.25,Washington,DC,pac,Software,D,497032,2026-07-15
-expenditure,2026-06-08,Sprout Social,$170.97,Chicago,IL,pac,Data Services,D,497032,2026-07-15
-expenditure,2026-06-09,Ryan Hur,$250,Richmond,VA,pac,Policy Consulting,D,497032,2026-07-15
-expenditure,2026-06-10,ActBlue Technical Services,$3.03,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-06-10,BP Gas,$63.36,Virginia Beach,VA,pac,Gas,D,497032,2026-07-15
-expenditure,2026-06-11,Hampton Inn,$124.59,Virginia Beach,VA,pac,Lodging,D,497032,2026-07-15
-expenditure,2026-06-11,Hampton Inn,$112.01,Virginia Beach,VA,pac,Lodging,D,497032,2026-07-15
-expenditure,2026-06-12,Amazon,$203.48,Seattle,WA,pac,Office Supplies,D,497032,2026-07-15
-expenditure,2026-06-16,Maurice Hawkins Consulting,$250,Chesapeake,VA,pac,Policy Consulting,D,497032,2026-07-15
-expenditure,2026-06-16,Ryan Hur,$250,Richmond,VA,pac,Policy Consulting,D,497032,2026-07-15
-expenditure,2026-06-16,Towne Bank,$15,Virginia Beach,VA,pac,Bank Fees,D,497032,2026-07-15
-expenditure,2026-06-16,Walmart,$137.04,Norfolk,VA,pac,Office Supplies,D,497032,2026-07-15
-expenditure,2026-06-17,ActBlue Technical Services,$0.04,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-06-17,Office Depot,$8.47,Virginia Beach,VA,pac,Office Supplies,D,497032,2026-07-15
-expenditure,2026-06-18,Jimmy Johns,$59.13,Richmond,VA,pac,Meals,D,497032,2026-07-15
-expenditure,2026-06-18,Ooma Inc,$17.57,Sunnyvale,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-06-22,Zoom,$17.84,San Jose,CA,pac,Software,D,497032,2026-07-15
-expenditure,2026-06-23,Native Plate,$73.29,Richmond,VA,pac,Meals,D,497032,2026-07-15
-expenditure,2026-06-23,Ryan Hur,$250,Richmond,VA,pac,Policy Consulting,D,497032,2026-07-15
-expenditure,2026-06-24,ActBlue Technical Services,$0.40,Somerville,MA,pac,Credit Card Processing Fees,D,497032,2026-07-15
-expenditure,2026-06-25,Hilton Richmond,$233.42,Richmond,VA,pac,Lodging,D,497032,2026-07-15
-expenditure,2026-06-30,Ryan Hur,$250,Richmond,VA,pac,Policy Consulting,D,497032,2026-07-15
+expenditure,2026-03-18,Towne Bank,$45,Virginia Beach,VA,business,Bank Fees,D,497032,2026-07-15
+expenditure,2026-03-20,Zoom,$17.84,San Jose,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-03-25,ActBlue Technical Services,$1.16,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-03-31,Ooma Inc,$35.14,Sunnyvale,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-04-01,ActBlue Technical Services,$3.16,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-04-01,Dan Helmer for Virginia,$500,Clifton,VA,business,Contribution,D,497032,2026-07-15
+expenditure,2026-04-02,Google,$84,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-04-03,ActBlue Technical Services,$1.39,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-04-03,Google,$72.57,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-04-03,"Gusto Capital, LLC",$92,San Francisco,CA,business,Payroll,D,497032,2026-07-15
+expenditure,2026-04-03,Ryan Hur,$500,Richmond,VA,business,Policy Consulting,D,497032,2026-07-15
+expenditure,2026-04-06,Gather Workspace,$901.77,Virginia Beach,VA,business,Office Space,D,497032,2026-07-15
+expenditure,2026-04-06,NGP VAN,$538.45,Washington,DC,business,Software,D,497032,2026-07-15
+expenditure,2026-04-07,Monday.com,$324,New York,NY,business,Software,D,497032,2026-07-15
+expenditure,2026-04-08,ActBlue Technical Services,$5.39,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-04-08,Amazon,$295.74,Seattle,WA,business,Office Supplies,D,497032,2026-07-15
+expenditure,2026-04-09,Airbnb,$568.51,San Francisco,CA,business,Lodging,D,497032,2026-07-15
+expenditure,2026-04-10,Hilton,$146.73,Atlanta,GA,business,Lodging,D,497032,2026-07-15
+expenditure,2026-04-10,Vyond,$10,San Mateo,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-04-13,Jimmy Johns,$59.13,Richmond,VA,business,Meals,D,497032,2026-07-15
+expenditure,2026-04-13,Liberty Food Mart,$45.52,Harrisonburg,VA,business,Gas,D,497032,2026-07-15
+expenditure,2026-04-15,ActBlue Technical Services,$4,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-04-15,Sprout Social,$19.67,Chicago,IL,business,Data Services,D,497032,2026-07-15
+expenditure,2026-04-16,Towne Bank,$15,Virginia Beach,VA,business,Bank Fees,D,497032,2026-07-15
+expenditure,2026-04-17,BP Gas,$72.89,Virginia Beach,VA,business,Gas,D,497032,2026-07-15
+expenditure,2026-04-17,Mint Mobile,$199.44,Costa Mesa,CA,business,Telephone,D,497032,2026-07-15
+expenditure,2026-04-20,Ooma Inc,$17.57,Sunnyvale,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-04-20,Zoom,$17.84,San Jose,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-04-21,GoDaddy.com LLC,$92.76,Tempe,AZ,business,Website Hosting,D,497032,2026-07-15
+expenditure,2026-04-22,ActBlue Technical Services,$3.03,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-04-23,Slurp Richmond,$44.98,Richmond,VA,business,Meals,D,497032,2026-07-15
+expenditure,2026-04-29,ActBlue Technical Services,$0.99,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-05-01,Ruth's Chris Steak House,$501.76,Midlothian,VA,business,Meals,D,497032,2026-07-15
+expenditure,2026-05-04,Google,$25.15,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-05-04,Google,$84,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-05-04,NGP VAN,$110.25,Washington,DC,business,Software,D,497032,2026-07-15
+expenditure,2026-05-05,"Gusto Capital, LLC",$92,San Francisco,CA,business,Payroll,D,497032,2026-07-15
+expenditure,2026-05-05,Ryan Hur,$250,Richmond,VA,business,Policy Consulting,D,497032,2026-07-15
+expenditure,2026-05-06,ActBlue Technical Services,$2.59,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-05-06,Marathon,$55.21,Virginia Beach,VA,business,Gas,D,497032,2026-07-15
+expenditure,2026-05-06,Sprout Social,$170.97,Chicago,IL,business,Data Services,D,497032,2026-07-15
+expenditure,2026-05-08,Ryan Hur,$250,Richmond,VA,business,Policy Consulting,D,497032,2026-07-15
+expenditure,2026-05-11,Budget Rent a Car,$563.88,Parsippany,NJ,business,Car Rental,D,497032,2026-07-15
+expenditure,2026-05-11,Office Depot,$30.53,Virginia Beach,VA,business,Office Supplies,D,497032,2026-07-15
+expenditure,2026-05-13,ActBlue Technical Services,$1.98,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-05-13,GoDaddy.com LLC,$23.19,Tempe,AZ,business,Website Hosting,D,497032,2026-07-15
+expenditure,2026-05-18,Chicks Oyster Bar,$160.56,Virginia Beach,VA,business,Meals,D,497032,2026-07-15
+expenditure,2026-05-18,Gran Rodeo,$80.19,Suffolk,VA,business,Meals,D,497032,2026-07-15
+expenditure,2026-05-18,Ooma Inc,$17.57,Sunnyvale,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-05-18,Towne Bank,$15,Virginia Beach,VA,business,Bank Fees,D,497032,2026-07-15
+expenditure,2026-05-19,"Delta Airlines, Inc.",$542.41,Atlanta,GA,business,Airfare,D,497032,2026-07-15
+expenditure,2026-05-19,Hobby Lobby,$151.78,Virginia Beach,VA,business,Office Supplies,D,497032,2026-07-15
+expenditure,2026-05-19,National Conference of Denver,$755,Washington,DC,business,Event Ticket,D,497032,2026-07-15
+expenditure,2026-05-20,ActBlue Technical Services,$2.67,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-05-20,Zoom,$17.84,San Jose,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-05-21,Ryan Hur,$250,Richmond,VA,business,Policy Consulting,D,497032,2026-07-15
+expenditure,2026-05-22,BP Gas,$55.40,Virginia Beach,VA,business,Gas,D,497032,2026-07-15
+expenditure,2026-05-26,GoDaddy.com LLC,$38.18,Tempe,AZ,business,Website Hosting,D,497032,2026-07-15
+expenditure,2026-05-27,Barrel 17,$109.50,Virginia Beach,VA,business,Meals,D,497032,2026-07-15
+expenditure,2026-05-27,"Resonance Campaigns, LLC",$600,Washington,DC,business,Printing,D,497032,2026-07-15
+expenditure,2026-05-27,"Resonance Campaigns, LLC",$200,Washington,DC,business,Printing,D,497032,2026-07-15
+expenditure,2026-05-28,ActBlue Technical Services,$2.98,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-06-01,Virginia ABC,$55,Virginia Beach,VA,business,Catering/Events,D,497032,2026-07-15
+expenditure,2026-06-02,Google,$25.06,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-06-02,Google,$84,Mountain View,CA,business,Email Services,D,497032,2026-07-15
+expenditure,2026-06-02,"Gusto Capital, LLC",$92,San Francisco,CA,business,Payroll,D,497032,2026-07-15
+expenditure,2026-06-02,Ryan Hur,$250,Richmond,VA,business,Policy Consulting,D,497032,2026-07-15
+expenditure,2026-06-03,ActBlue Technical Services,$0.40,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-06-05,Michaels,$95.34,Virginia Beach,VA,business,Office Supplies,D,497032,2026-07-15
+expenditure,2026-06-08,BP Gas,$72,Virginia Beach,VA,business,Gas,D,497032,2026-07-15
+expenditure,2026-06-08,NGP VAN,$110.25,Washington,DC,business,Software,D,497032,2026-07-15
+expenditure,2026-06-08,Sprout Social,$170.97,Chicago,IL,business,Data Services,D,497032,2026-07-15
+expenditure,2026-06-09,Ryan Hur,$250,Richmond,VA,business,Policy Consulting,D,497032,2026-07-15
+expenditure,2026-06-10,ActBlue Technical Services,$3.03,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-06-10,BP Gas,$63.36,Virginia Beach,VA,business,Gas,D,497032,2026-07-15
+expenditure,2026-06-11,Hampton Inn,$124.59,Virginia Beach,VA,business,Lodging,D,497032,2026-07-15
+expenditure,2026-06-11,Hampton Inn,$112.01,Virginia Beach,VA,business,Lodging,D,497032,2026-07-15
+expenditure,2026-06-12,Amazon,$203.48,Seattle,WA,business,Office Supplies,D,497032,2026-07-15
+expenditure,2026-06-16,Maurice Hawkins Consulting,$250,Chesapeake,VA,business,Policy Consulting,D,497032,2026-07-15
+expenditure,2026-06-16,Ryan Hur,$250,Richmond,VA,business,Policy Consulting,D,497032,2026-07-15
+expenditure,2026-06-16,Towne Bank,$15,Virginia Beach,VA,business,Bank Fees,D,497032,2026-07-15
+expenditure,2026-06-16,Walmart,$137.04,Norfolk,VA,business,Office Supplies,D,497032,2026-07-15
+expenditure,2026-06-17,ActBlue Technical Services,$0.04,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-06-17,Office Depot,$8.47,Virginia Beach,VA,business,Office Supplies,D,497032,2026-07-15
+expenditure,2026-06-18,Jimmy Johns,$59.13,Richmond,VA,business,Meals,D,497032,2026-07-15
+expenditure,2026-06-18,Ooma Inc,$17.57,Sunnyvale,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-06-22,Zoom,$17.84,San Jose,CA,business,Software,D,497032,2026-07-15
+expenditure,2026-06-23,Native Plate,$73.29,Richmond,VA,business,Meals,D,497032,2026-07-15
+expenditure,2026-06-23,Ryan Hur,$250,Richmond,VA,business,Policy Consulting,D,497032,2026-07-15
+expenditure,2026-06-24,ActBlue Technical Services,$0.40,Somerville,MA,business,Credit Card Processing Fees,D,497032,2026-07-15
+expenditure,2026-06-25,Hilton Richmond,$233.42,Richmond,VA,business,Lodging,D,497032,2026-07-15
+expenditure,2026-06-30,Ryan Hur,$250,Richmond,VA,business,Policy Consulting,D,497032,2026-07-15

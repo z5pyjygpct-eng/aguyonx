@@ -3,25 +3,25 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$2,046,695.54",,VA,,"From official Schedule H, November 2027 election cycle",H,494745,2026-07-13
 summary,2026-06-30,Raised this cycle,"$3,060,343.93",,,,Total receipts this election cycle (Schedule H),H,494745,2026-07-13
 summary,2026-06-30,Spent this cycle,"$1,065,852.26",,,,Total disbursements this election cycle (Schedule H),H,494745,2026-07-13
-contribution,2025-09-23,309 WBS LLC,"$10,000",Norfolk,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-23,309 WBS LLC,"$10,000",Norfolk,VA,business,,A,478529,2026-01-14
 contribution,2025-11-18,3M Company PAC,$500,Washington,DC,pac,,A,478529,2026-01-14
 contribution,2025-12-19,Abbott Laboratories Employee PAC,$500,North Chicago,IL,pac,,A,478529,2026-01-14
 contribution,2025-10-23,James Abrenio,$150,Burke,VA,individual,,A,478529,2026-01-14
 contribution,2025-09-30,"Acadia Healthcare Company, Inc Fedpac","$1,000",Franklin,TN,pac,,A,478529,2026-01-14
-contribution,2025-09-15,"Activehours, Inc (DBA Earnin)","$2,000",Palo Alto,CA,pac,,A,478529,2026-01-14
+contribution,2025-09-15,"Activehours, Inc (DBA Earnin)","$2,000",Palo Alto,CA,business,,A,478529,2026-01-14
 contribution,2025-12-26,Advansix Inc. Political Action Committee,"$1,000",Parsippany,NJ,pac,,A,478529,2026-01-14
-contribution,2025-10-06,AES,"$5,000",Salt Lake City,UT,pac,,A,478529,2026-01-14
+contribution,2025-10-06,AES,"$5,000",Salt Lake City,UT,business,,A,478529,2026-01-14
 contribution,2025-10-02,Tajammal Ali,"$25,000",Leesburg,VA,individual,,A,478529,2026-01-14
-contribution,2025-12-05,All Points Broadband Partners LLC,"$4,000",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-09,"Allen, Allen, Allen & Allen, P.C.","$3,000",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-08-19,Amazon,"$8,000",Seattle,WA,pac,,A,478529,2026-01-14
+contribution,2025-12-05,All Points Broadband Partners LLC,"$4,000",Richmond,VA,business,,A,478529,2026-01-14
+contribution,2025-12-09,"Allen, Allen, Allen & Allen, P.C.","$3,000",Richmond,VA,business,,A,478529,2026-01-14
+contribution,2025-08-19,Amazon,"$8,000",Seattle,WA,business,,A,478529,2026-01-14
 contribution,2025-10-09,American Airlines Political Action Committee,$250,Washington,DC,pac,,A,478529,2026-01-14
 contribution,2025-10-06,American Electric Power Virginia Committee for Responsible Government,"$25,000",Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-12-18,American Electric Power Virginia Committee for Responsible Government,"$10,000",Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-10-22,ARDA - Resort Owners Coalition PAC,"$2,500",Washington,DC,pac,,A,478529,2026-01-14
 contribution,2025-10-07,Amy Ashworth,$250,Manassas,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-09,Associated General Contractors of Virginia Inc. Political Action Committee,"$1,000",Glen Allen,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-24,"AT&T Services, Inc.","$1,250",Washington,DC,pac,,A,478529,2026-01-14
+contribution,2025-10-24,"AT&T Services, Inc.","$1,250",Washington,DC,business,,A,478529,2026-01-14
 contribution,2025-12-08,Bobby Avary,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-13,Ms. Beverly A. Bacon,$100,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-15,Timothy Barbrow,$250,Fredericksburg,VA,individual,,A,478529,2026-01-14
@@ -31,34 +31,34 @@ contribution,2025-10-01,Mr. David L. Bayliss,$100,Alexandria,VA,individual,,A,47
 contribution,2025-12-12,Mr. Matthew J. Bell,$250,Beverly,MA,individual,,A,478529,2026-01-14
 contribution,2025-09-23,Mr. Carlton F. Bennett,$500,Virginia Beach,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-29,Mr. Michael E. Bennett,"$1,000",Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-08-25,Berkshire Hathaway Energy,"$1,000",Tall Timbers,MD,pac,,A,478529,2026-01-14
+contribution,2025-08-25,Berkshire Hathaway Energy,"$1,000",Tall Timbers,MD,business,,A,478529,2026-01-14
 contribution,2025-10-24,Betting on VA Jobs PAC,"$10,000",Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-11-20,Ms. Ann Brown Birkel,$250,Washington,DC,individual,,A,478529,2026-01-14
 contribution,2025-11-24,Ms. Laurie J. Blackburn,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-08-15,Rita Blacker,$300,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-23,Bloom Energy Corporation,"$3,000",San Jose,CA,pac,,A,478529,2026-01-14
+contribution,2025-09-23,Bloom Energy Corporation,"$3,000",San Jose,CA,business,,A,478529,2026-01-14
 contribution,2025-10-09,Ms. Sandra G. Boodman,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-11,Ms. Glenda C. Booth,$500,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-07-24,Boyd-Pamunkey Casino PAC,"$5,000",Norfolk,VA,pac,,A,478529,2026-01-14
-contribution,2025-09-23,Breakthru Beverage Virginia,"$1,500",Sandston,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-23,Breakthru Beverage Virginia,"$1,500",Sandston,VA,business,,A,478529,2026-01-14
 contribution,2025-10-07,Ms. Andrea L. Bridgeman,$500,McLean,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-10,Broad Street Group,"$1,000",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-10,Broad Street Group,"$1,000",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-08-21,Ms. Lisa J. Burns,$100,McLean,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-15,BusPatrol America LLC,"$7,000",Lorton,VA,pac,,A,478529,2026-01-14
-contribution,2025-11-04,Cannibis Small Business Association,"$2,500",Leesburg,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-18,Carbon Solutions Group,"$2,500",Chicago,IL,pac,,A,478529,2026-01-14
-contribution,2025-09-11,Care Advantage Inc,"$2,500",North Chesterfield,VA,pac,,A,478529,2026-01-14
-contribution,2025-08-25,CareFirst Management LLC,"$2,000",Owings Mills,MD,pac,,A,478529,2026-01-14
+contribution,2025-09-15,BusPatrol America LLC,"$7,000",Lorton,VA,business,,A,478529,2026-01-14
+contribution,2025-11-04,Cannibis Small Business Association,"$2,500",Leesburg,VA,business,,A,478529,2026-01-14
+contribution,2025-12-18,Carbon Solutions Group,"$2,500",Chicago,IL,business,,A,478529,2026-01-14
+contribution,2025-09-11,Care Advantage Inc,"$2,500",North Chesterfield,VA,business,,A,478529,2026-01-14
+contribution,2025-08-25,CareFirst Management LLC,"$2,000",Owings Mills,MD,business,,A,478529,2026-01-14
 contribution,2025-09-19,Mindy Carlin,"$1,000",Virginia Beach,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-29,Mr. Carlos A. Castro,$250,Woodbridge,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-24,Joseph Caturano,$150,Dumfries,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-30,CC Procurement LLC,$750,Chelmsford,MA,pac,,A,478529,2026-01-14
-contribution,2025-12-26,Cedar Mountain Stone Corp,$500,Pine City,NY,pac,,A,478529,2026-01-14
+contribution,2025-09-30,CC Procurement LLC,$750,Chelmsford,MA,business,,A,478529,2026-01-14
+contribution,2025-12-26,Cedar Mountain Stone Corp,$500,Pine City,NY,business,,A,478529,2026-01-14
 contribution,2025-10-16,Charles C. Chadbourn III,$75,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-09,"Chap Petersen & Associates, PLC","$1,000",Fairfax,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-29,Charter Communications,"$5,000",Louisville,KY,pac,,A,478529,2026-01-14
+contribution,2025-10-09,"Chap Petersen & Associates, PLC","$1,000",Fairfax,VA,business,,A,478529,2026-01-14
+contribution,2025-10-29,Charter Communications,"$5,000",Louisville,KY,business,,A,478529,2026-01-14
 contribution,2025-08-27,Mrs. Margaret Chatham,$100,Falls Church,VA,individual,,A,478529,2026-01-14
-contribution,2025-12-26,Chemung Contracting corp,$500,Pine City,NY,pac,,A,478529,2026-01-14
+contribution,2025-12-26,Chemung Contracting corp,$500,Pine City,NY,business,,A,478529,2026-01-14
 contribution,2025-12-12,Mr. Frank P. Cihlar,"$1,000",Woodstock,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-13,Mr. Frank P. Cihlar,$250,Woodstock,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-31,Mr. Frank P. Cihlar,$100,Woodstock,VA,individual,,A,478529,2026-01-14
@@ -67,17 +67,17 @@ contribution,2025-11-21,Sandra Clemmer,$200,Roanoke,VA,individual,,A,478529,2026
 contribution,2025-07-16,Mr. William P. Cleveland Jr.,$150,Arlington,VA,individual,,A,478529,2026-01-14
 contribution,2025-08-22,Mr. William P. Cleveland Jr.,$250,Arlington,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-29,Mr. William P. Cleveland Jr.,$50,Arlington,VA,individual,,A,478529,2026-01-14
-contribution,2025-12-18,CloudHQ,"$5,000",Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-12-26,CNX Gas Company LLC,"$5,000",Canonsburg,PA,pac,,A,478529,2026-01-14
+contribution,2025-12-18,CloudHQ,"$5,000",Washington,DC,business,,A,478529,2026-01-14
+contribution,2025-12-26,CNX Gas Company LLC,"$5,000",Canonsburg,PA,business,,A,478529,2026-01-14
 contribution,2025-09-15,Mr. Johnnie E. Collins Jr.,$50,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-07-01,Ms. Eugenia Colon,$25,Vienna,VA,individual,,A,478529,2026-01-14
-contribution,2025-08-25,"Committee for Effective Government Virginia Natural Gas, Inc.","$2,500",Virginia Beach,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-03,Community Solar Action Fund,"$2,500",Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-07-22,Comstock Hospitality Holdings LLC,"$75,000",Reston,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-28,Comstock Hospitality Holdings LLC,"$100,000",Reston,VA,pac,,A,478529,2026-01-14
+contribution,2025-08-25,"Committee for Effective Government Virginia Natural Gas, Inc.","$2,500",Virginia Beach,VA,business,,A,478529,2026-01-14
+contribution,2025-10-03,Community Solar Action Fund,"$2,500",Washington,DC,business,,A,478529,2026-01-14
+contribution,2025-07-22,Comstock Hospitality Holdings LLC,"$75,000",Reston,VA,business,,A,478529,2026-01-14
+contribution,2025-12-28,Comstock Hospitality Holdings LLC,"$100,000",Reston,VA,business,,A,478529,2026-01-14
 contribution,2025-12-15,Mr. Michael H. Cook,$250,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-09,"Cooper Hurley, PLLC","$1,000",Norfolk,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-16,Cozen O'Connor,"$1,000",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-09,"Cooper Hurley, PLLC","$1,000",Norfolk,VA,business,,A,478529,2026-01-14
+contribution,2025-10-16,Cozen O'Connor,"$1,000",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-12-04,Ms Joanna C. Crane,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-17,CRNAs Who Care About Healthcare PAC,"$2,500",Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-07-21,Jeanne M. Crowley,$200,Alexandria,VA,individual,,A,478529,2026-01-14
@@ -86,11 +86,11 @@ contribution,2025-09-08,Mr. Stephen J. Csontos,$500,Alexandria,VA,individual,,A,
 contribution,2025-11-22,Mr. Thomas J. Curcio,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-08-29,Bruce Cushing,$100,Spotsylvania,VA,individual,,A,478529,2026-01-14
 contribution,2025-09-03,Deloitte Political Action Committee,"$1,500",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-10,Delta Dental of Virginia,$500,Roanoke,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-10,Delta Dental of Virginia,$500,Roanoke,VA,business,,A,478529,2026-01-14
 contribution,2025-09-25,Mr. Daniel DeVincentis,$100,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-20,Mr. Daniel DeVincentis,$50,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-08,Kyung Dickerson,$500,Annandale,VA,individual,,A,478529,2026-01-14
-contribution,2025-12-18,Dimension Energy LLC,"$1,500",Atlanta,GA,pac,,A,478529,2026-01-14
+contribution,2025-12-18,Dimension Energy LLC,"$1,500",Atlanta,GA,business,,A,478529,2026-01-14
 contribution,2025-10-03,John Dix,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-11,David C. Dodero,$250,Arlington,VA,individual,,A,478529,2026-01-14
 contribution,2025-08-06,Dominion PAC - VA,"$100,000",Richmond,VA,pac,,A,478529,2026-01-14
@@ -100,13 +100,13 @@ contribution,2025-12-03,Mrs. Holly Dougherty,$250,Alexandria,VA,individual,,A,47
 contribution,2025-08-29,John Drake,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-31,Jim E. Edwards-Hewitt,$100,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-09-05,Ms. Sallie R. Eissler,$250,Lorton,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-17,Elevance Health Inc,"$4,500",Cincinnati,OH,pac,,A,478529,2026-01-14
+contribution,2025-10-17,Elevance Health Inc,"$4,500",Cincinnati,OH,business,,A,478529,2026-01-14
 contribution,2025-10-09,Eli Lilly and Company PAC,"$1,000",Indianapolis,IN,pac,,A,478529,2026-01-14
 contribution,2025-10-22,Employees of RTX Corporation PAC,"$1,500",Arlington,VA,pac,,A,478529,2026-01-14
 contribution,2025-08-19,Engineering Companies of Virginia PAC,"$1,500",Henrico,VA,pac,,A,478529,2026-01-14
 contribution,2025-08-04,Enterprise Holdings Inc PAC,"$2,500",Glen Allen,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-29,Entertainment Software Association,"$1,000",Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-12-23,Everytown for Gun Safety,"$2,000",New York,NY,pac,,A,478529,2026-01-14
+contribution,2025-10-29,Entertainment Software Association,"$1,000",Washington,DC,business,,A,478529,2026-01-14
+contribution,2025-12-23,Everytown for Gun Safety,"$2,000",New York,NY,business,,A,478529,2026-01-14
 contribution,2025-10-15,Mr. Eric N. Fagerholm,$100,Dumfries,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-23,Mr. Eric N. Fagerholm,$250,Dumfries,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-24,Mr. Eric N. Fagerholm,$500,Dumfries,VA,individual,,A,478529,2026-01-14
@@ -121,10 +121,10 @@ contribution,2025-08-12,Mrs Felicity Francis,$100,Round Hill,VA,individual,,A,47
 contribution,2025-11-11,Mrs Felicity Francis,$100,Round Hill,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-22,Mr. Earl C. Franks,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-29,Mr. Earl C. Franks,$50,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-11-21,Fresenius Medical Care,"$1,000",Waltham,MA,pac,,A,478529,2026-01-14
+contribution,2025-11-21,Fresenius Medical Care,"$1,000",Waltham,MA,business,,A,478529,2026-01-14
 contribution,2025-09-03,General Motors Political Action Committee,"$1,000",Washington,DC,pac,,A,478529,2026-01-14
 contribution,2025-12-15,Mr. Rick Genuario,$250,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-19,Genworth Financial,"$5,000",Lynchburg,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-19,Genworth Financial,"$5,000",Lynchburg,VA,business,,A,478529,2026-01-14
 contribution,2025-10-07,Mr. David J Gogal,$500,Falls Church,VA,individual,,A,478529,2026-01-14
 contribution,2025-09-23,Mr. David R. Goode,"$1,000",Norfolk,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-29,Ms. Carolyn K. Grafton,$25,Fairfax Station,VA,individual,,A,478529,2026-01-14
@@ -132,8 +132,8 @@ contribution,2025-08-31,Rachel Graham,$250,Alexandria,VA,individual,,A,478529,20
 contribution,2025-11-14,Angela Granieri,$100,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-08,Mr. Daniel L. Gray,$500,Annandale,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-01,Ms. Nicole B Gray,$500,Arlington,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-24,Greater VA Carpenters PEC,"$10,000",Philadelphia,PA,pac,,A,478529,2026-01-14
-contribution,2025-10-22,"Green Thumb Industries/Dharma Pharmaceuticals, LLC","$5,000",Abingdon,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-24,Greater VA Carpenters PEC,"$10,000",Philadelphia,PA,business,,A,478529,2026-01-14
+contribution,2025-10-22,"Green Thumb Industries/Dharma Pharmaceuticals, LLC","$5,000",Abingdon,VA,business,,A,478529,2026-01-14
 contribution,2025-10-08,Mr. Cary Greenberg,$200,Reston,VA,individual,,A,478529,2026-01-14
 contribution,2025-07-28,Mr. John Stephen Griffith,$10,Lorton,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-11,Ms. Mary Jane Guffey,$100,Alexandria,VA,individual,,A,478529,2026-01-14
@@ -142,9 +142,9 @@ contribution,2025-09-30,Hampton Roads Business Roundtable PAC,"$10,000",Norfolk,
 contribution,2025-09-30,Mark Hanna,$250,Annandale,VA,individual,,A,478529,2026-01-14
 contribution,2025-07-23,Katharine Hardy,$100,Fairfax Station,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-23,Katharine Hardy,$100,Fairfax Station,VA,individual,,A,478529,2026-01-14
-contribution,2025-12-12,HCA for Good Government,"$6,000",Reston,VA,pac,,A,478529,2026-01-14
+contribution,2025-12-12,HCA for Good Government,"$6,000",Reston,VA,business,,A,478529,2026-01-14
 contribution,2025-09-10,Krista Helvey,$100,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-06,Home Builders Association of Virginia,"$15,000",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-06,Home Builders Association of Virginia,"$15,000",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-11-26,Ms. LexaLynn Taylor Hooper,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-07-09,Col. Kelly P Houlgate,$10,Quantico,VA,individual,,A,478529,2026-01-14
 contribution,2025-08-09,Col. Kelly P Houlgate,$10,Quantico,VA,individual,,A,478529,2026-01-14
@@ -152,12 +152,12 @@ contribution,2025-09-09,Col. Kelly P Houlgate,$10,Quantico,VA,individual,,A,4785
 contribution,2025-10-09,Col. Kelly P Houlgate,$10,Quantico,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-09,Col. Kelly P Houlgate,$10,Quantico,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-09,Col. Kelly P Houlgate,$10,Quantico,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-22,Huntington Ingalls Industries,"$2,500",Newport News,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-22,"Hunton Andrews Kurth, LLP","$2,000",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-26,"Hunton Andrews Kurth, LLP","$5,000",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-22,Huntington Ingalls Industries,"$2,500",Newport News,VA,business,,A,478529,2026-01-14
+contribution,2025-10-22,"Hunton Andrews Kurth, LLP","$2,000",Richmond,VA,business,,A,478529,2026-01-14
+contribution,2025-12-26,"Hunton Andrews Kurth, LLP","$5,000",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-12-15,IBEW PAC Voluntary Fund,$250,Washington,DC,pac,,A,478529,2026-01-14
 contribution,2025-10-24,International Paper Political Action Committee,"$1,500",Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-09-26,Johnson Brothers Service Distributing,$750,Lorton,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-26,Johnson Brothers Service Distributing,$750,Lorton,VA,business,,A,478529,2026-01-14
 contribution,2025-12-29,Bill Johnston,"$1,000",Arlington,VA,individual,,A,478529,2026-01-14
 contribution,2025-08-12,Mrs. Annette Jones,$250,Fairfax Station,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-08,David Jones,$250,Washington,DC,individual,,A,478529,2026-01-14
@@ -184,20 +184,20 @@ contribution,2025-09-23,Mr. Vincent J. Mastracco Jr.,"$4,000",Norfolk,VA,individ
 contribution,2025-09-23,Mr. Vincent J. Mastracco Jr.,"$1,000",Norfolk,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-06,Ms. Patricia A. McCarthy,$250,Arlington,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-09,McKesson Corporation Employees Political Fund,$400,Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-09-18,Medical Society of Virginia,"$2,000",Henrico,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-18,Medical Society of Virginia,"$2,000",Henrico,VA,business,,A,478529,2026-01-14
 contribution,2025-10-30,Gina Medsker,$50,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-09-03,Mrs. Joan B. Meer,$500,Bend,OR,individual,,A,478529,2026-01-14
-contribution,2025-08-04,Merck Sharp & Dohme Corp.,"$1,000",Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-11-04,Meta/Facebook,"$2,500",Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-10-16,"Metis Services, Inc.","$1,000",Roanoke,VA,pac,,A,478529,2026-01-14
+contribution,2025-08-04,Merck Sharp & Dohme Corp.,"$1,000",Washington,DC,business,,A,478529,2026-01-14
+contribution,2025-11-04,Meta/Facebook,"$2,500",Washington,DC,business,,A,478529,2026-01-14
+contribution,2025-10-16,"Metis Services, Inc.","$1,000",Roanoke,VA,business,,A,478529,2026-01-14
 contribution,2025-08-13,Metro Virginia PAC,$750,Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-10-22,"Micron Technology, Inc.","$5,000",Manassas,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-22,"Micron Technology, Inc.","$5,000",Manassas,VA,business,,A,478529,2026-01-14
 contribution,2025-12-08,Mr. Mark Mildorf,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-06,Mr. marvin D. miller,$100,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-04,Mr. marvin D. miller,$250,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-12-26,Molson Coors Beverage Company,"$1,000",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-12-26,Molson Coors Beverage Company,"$1,000",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-10-10,Ms. Susan Day Montanari,$200,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-26,Mountain Valley Pipeline LLC,"$2,500",Canonsburg,PA,pac,,A,478529,2026-01-14
+contribution,2025-09-26,Mountain Valley Pipeline LLC,"$2,500",Canonsburg,PA,business,,A,478529,2026-01-14
 contribution,2025-09-23,Ross A. Mugler,$500,Hampton,VA,individual,,A,478529,2026-01-14
 contribution,2025-09-10,Ms. Carolyn Barrow Muir,$500,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-29,Ms. Carolyn Barrow Muir,$100,Alexandria,VA,individual,,A,478529,2026-01-14
@@ -205,81 +205,81 @@ contribution,2025-10-01,Mr. Brian Ross Murray,"$2,500",Fairfax,VA,individual,,A,
 contribution,2025-12-04,Mark W. Murray,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-18,Mr. Jay B. Myerson,$100,Reston,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-08,Mr. Shekar Narasimhan,"$1,000",Dunn Loring,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-18,National Popular Vote,"$2,000",Los Altos,CA,pac,,A,478529,2026-01-14
-contribution,2025-07-25,Natural Resources Defense Council,"$1,000",Washington,DC,pac,,A,478529,2026-01-14
+contribution,2025-09-18,National Popular Vote,"$2,000",Los Altos,CA,business,,A,478529,2026-01-14
+contribution,2025-07-25,Natural Resources Defense Council,"$1,000",Washington,DC,business,,A,478529,2026-01-14
 contribution,2025-09-08,Dr. Jacob P. Neathawk Jr.,$250,Salem,VA,individual,,A,478529,2026-01-14
-contribution,2025-11-12,NextEra Energy Transmission LLC,"$1,000",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-11-12,NextEra Energy Transmission LLC,"$1,000",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-10-03,Mr. Donald J. Norden,$500,Arlington,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-27,Mr. Donald J. Norden,$250,Arlington,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-24,Norfolk Southern Corporation,"$2,500",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-24,Norfolk Southern Corporation,"$2,500",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-10-03,Mary Normile,$200,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-16,Northern Virginia Chamber of Commerce Political Action Committee,"$1,000",Tysons Corner,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-17,Novartis Services Inc,"$2,000",Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-09-11,NOVEC,"$2,500",Manassas,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-17,Novartis Services Inc,"$2,000",Washington,DC,business,,A,478529,2026-01-14
+contribution,2025-09-11,NOVEC,"$2,500",Manassas,VA,business,,A,478529,2026-01-14
 contribution,2025-10-31,Mrs. Barbara L.F. O'Brien,$10,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-03,"Obvio, Inc.","$2,500",Santa Clara,CA,pac,,A,478529,2026-01-14
+contribution,2025-09-03,"Obvio, Inc.","$2,500",Santa Clara,CA,business,,A,478529,2026-01-14
 contribution,2025-12-26,Old Dominion Highway PAC,"$1,000",Rockville,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-16,OneMain Financial,"$2,500",Baton Rouge,LA,pac,,A,478529,2026-01-14
+contribution,2025-12-16,OneMain Financial,"$2,500",Baton Rouge,LA,business,,A,478529,2026-01-14
 contribution,2025-12-12,Ms. Leslie Kay Overstreet,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-08-25,Mr. Lawrence J. Pascal,$100,Lorton,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-03,Bob Pearson,$200,Fairfax Station,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-22,Permit Power,"$1,500",San Francisco,CA,pac,,A,478529,2026-01-14
-contribution,2025-12-26,Permit Power,"$1,000",San Francisco,CA,pac,,A,478529,2026-01-14
-contribution,2025-09-11,Pfizer Inc.,"$1,500",Memphis,TN,pac,,A,478529,2026-01-14
-contribution,2025-09-15,Pharmaceutical Care Management Association,$500,Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-12-19,Pharmaceutical Research and Manufacturers of America,"$1,000",Washington,DC,pac,,A,478529,2026-01-14
+contribution,2025-10-22,Permit Power,"$1,500",San Francisco,CA,business,,A,478529,2026-01-14
+contribution,2025-12-26,Permit Power,"$1,000",San Francisco,CA,business,,A,478529,2026-01-14
+contribution,2025-09-11,Pfizer Inc.,"$1,500",Memphis,TN,business,,A,478529,2026-01-14
+contribution,2025-09-15,Pharmaceutical Care Management Association,$500,Washington,DC,business,,A,478529,2026-01-14
+contribution,2025-12-19,Pharmaceutical Research and Manufacturers of America,"$1,000",Washington,DC,business,,A,478529,2026-01-14
 contribution,2025-09-26,Mr. Jerry M. Phillips,$500,Fairfax,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-31,Mr. Scott Christian Plein,"$1,000",Bristow,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-31,Mr. Scott Christian Plein,"$1,500",Bristow,VA,individual,,A,478529,2026-01-14
-contribution,2025-07-18,PMI US Corporate Services Inc.,"$5,000",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-07-18,PMI US Corporate Services Inc.,"$5,000",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-09-23,Political Action Committee CORPAC,$500,Staunton,VA,pac,,A,478529,2026-01-14
 contribution,2025-12-26,Political Action Committee CORPAC,$500,Staunton,VA,pac,,A,478529,2026-01-14
 contribution,2025-10-08,Sonya Powell,$500,Oakton,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-19,"Premium Distributors of VA, LLC","$6,000",Chantilly,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-19,"Premium Distributors of VA, LLC","$6,000",Chantilly,VA,business,,A,478529,2026-01-14
 contribution,2025-11-20,Mr. John Primeau,$500,Manassas,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-29,Publix Super Markets Inc.,"$1,000",Durham,NC,pac,,A,478529,2026-01-14
+contribution,2025-10-29,Publix Super Markets Inc.,"$1,000",Durham,NC,business,,A,478529,2026-01-14
 contribution,2025-10-23,Dr. Lisa Puscheck,$100,Falls Church,VA,individual,,A,478529,2026-01-14
 contribution,2025-07-18,Realtors PAC of Virginia,"$5,000",Glen Allen,VA,pac,,A,478529,2026-01-14
 contribution,2025-08-22,Realtors PAC of Virginia,"$5,000",Glen Allen,VA,pac,,A,478529,2026-01-14
 contribution,2025-10-10,Realtors PAC of Virginia,"$2,500",Glen Allen,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-09,Reedville Bait Company,$500,Burgess,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-09,Reedville Bait Company,$500,Burgess,VA,business,,A,478529,2026-01-14
 contribution,2025-12-09,MICHAEL REESE,$500,Holmes Beach,FL,individual,,A,478529,2026-01-14
 contribution,2025-12-15,Tayson Reese,$250,Holmes Beach,FL,individual,,A,478529,2026-01-14
-contribution,2025-09-23,Republic National Distributing Company,"$1,500",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-07-24,Reworld Waste LLC,"$2,500",Reston,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-23,Republic National Distributing Company,"$1,500",Richmond,VA,business,,A,478529,2026-01-14
+contribution,2025-07-24,Reworld Waste LLC,"$2,500",Reston,VA,business,,A,478529,2026-01-14
 contribution,2025-07-02,Mrs. Gail R. Richmond,$100,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-09-04,Mrs. Gail R. Richmond,$100,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-21,"Rivers Portsmouth Gaming, LLC","$15,000",Portsmouth,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-21,"Rivers Portsmouth Gaming, LLC","$15,000",Portsmouth,VA,business,,A,478529,2026-01-14
 contribution,2025-10-03,Roanoke Gas PAC,"$2,500",Roanoke,VA,pac,,A,478529,2026-01-14
 contribution,2025-08-25,Ms. Victoria Rose Ross,$500,Vienna,VA,individual,,A,478529,2026-01-14
-contribution,2025-12-26,Safelite Auto Glass,$750,Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-12-26,Safelite Auto Glass,$750,Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-11-21,Dr. Harvey A. Schwartz,$30,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-09-23,Ms. Blythe Ann Scott,$250,Norfolk,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-24,SEIU C.O.P.E.,"$25,000",Washington,DC,pac,,A,478529,2026-01-14
+contribution,2025-10-24,SEIU C.O.P.E.,"$25,000",Washington,DC,business,,A,478529,2026-01-14
 contribution,2025-11-12,Ms. Barbara G. Selzer,$100,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-17,Sentara Health Administration Inc,"$2,500",Virginia Beach,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-17,Sentara Health Administration Inc,"$2,500",Virginia Beach,VA,business,,A,478529,2026-01-14
 contribution,2025-11-22,Mr. Sumeet Shrivastava,"$2,500",Herndon,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-31,Mr. S.R. Sidarth,$50,Falls Church,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-03,Julia Ann Simpkins,$100,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-19,Valerie Slater,"$1,000",Calabasas,CA,individual,,A,478529,2026-01-14
 contribution,2025-08-27,Dean Smith,$100,Kingstowne,VA,individual,,A,478529,2026-01-14
 contribution,2025-09-15,Mr. Robert H. Smith,$500,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-19,Smithfield Foods,"$5,000",Smithfield,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-19,Smithfield Foods,"$5,000",Smithfield,VA,business,,A,478529,2026-01-14
 contribution,2025-08-12,Mr. Howard C. Soroos,$100,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-07,Rob J Stoney,$500,Herndon,VA,individual,,A,478529,2026-01-14
 contribution,2025-08-22,Ms. Carole Stover,$100,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-01,Ms. Carole Stover,$100,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-15,Strata Clean Energy LLC,"$3,000",Durham,NC,pac,,A,478529,2026-01-14
-contribution,2025-09-30,Sun Tribe Solar,"$1,500",Charlottesville,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-15,Strata Clean Energy LLC,"$3,000",Durham,NC,business,,A,478529,2026-01-14
+contribution,2025-09-30,Sun Tribe Solar,"$1,500",Charlottesville,VA,business,,A,478529,2026-01-14
 contribution,2025-08-29,Ms. Barbara Surovell,$100,Portland,OR,individual,,A,478529,2026-01-14
 contribution,2025-08-25,Mr. Robert J. Surovell,"$1,000",Fairfax,VA,individual,,A,478529,2026-01-14
 contribution,2025-09-26,Mr. Robert J. Surovell,$500,Fairfax,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-29,Mr. Robert J. Surovell,$250,Fairfax,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-22,Mr. Robert J. Surovell,$250,Fairfax,VA,individual,,A,478529,2026-01-14
-contribution,2025-11-03,T-Mobile USA,$500,Nashville,TN,pac,,A,478529,2026-01-14
+contribution,2025-11-03,T-Mobile USA,$500,Nashville,TN,business,,A,478529,2026-01-14
 contribution,2025-10-09,Ms. Patricia K. Takken,$50,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-01,Team CAG LLC,"$25,000",Fairfax,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-19,"Tenaska Virginia Partners, L.P.","$5,000",Omaha,NE,pac,,A,478529,2026-01-14
+contribution,2025-10-01,Team CAG LLC,"$25,000",Fairfax,VA,business,,A,478529,2026-01-14
+contribution,2025-12-19,"Tenaska Virginia Partners, L.P.","$5,000",Omaha,NE,business,,A,478529,2026-01-14
 contribution,2025-09-08,The Boeing PAC,"$1,000",Arlington,VA,pac,,A,478529,2026-01-14
 contribution,2025-09-23,The Cigna Group Employee PAC,"$1,500",Philadelphia,PA,pac,,A,478529,2026-01-14
 contribution,2025-12-26,The Commercial Development PAC,"$2,000",Alexandria,VA,pac,,A,478529,2026-01-14
@@ -288,68 +288,68 @@ contribution,2025-10-08,Mrs Christina J. Tobias-Nahi,$100,Alexandria,VA,individu
 contribution,2025-09-08,Mr. John A. Tolleris,$50,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-11-11,Mr. John A. Tolleris,$50,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-24,"TransCanada USA Services, Inc. PAC","$1,000",Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-09-03,United Airlines,"$1,500",Chicago,IL,pac,,A,478529,2026-01-14
-contribution,2025-09-03,United Airlines,"$1,500",Chicago,IL,pac,,A,478529,2026-01-14
+contribution,2025-09-03,United Airlines,"$1,500",Chicago,IL,business,,A,478529,2026-01-14
+contribution,2025-09-03,United Airlines,"$1,500",Chicago,IL,business,,A,478529,2026-01-14
 contribution,2025-10-16,UnitedHealth Group PAC,"$1,000",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-18,Universal Corporation,"$2,500",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-12-18,Universal Corporation,"$2,500",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-09-09,UpVote PAC,"$1,000",Chesterfield,VA,pac,,A,478529,2026-01-14
-contribution,2025-08-13,VA Assn of Community Managers,$500,Chantilly,VA,pac,,A,478529,2026-01-14
-contribution,2025-07-24,VA Maritime Association,"$2,500",Norfolk,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-18,VA Operators for Skill,"$17,500",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-08-13,VA Assn of Community Managers,$500,Chantilly,VA,business,,A,478529,2026-01-14
+contribution,2025-07-24,VA Maritime Association,"$2,500",Norfolk,VA,business,,A,478529,2026-01-14
+contribution,2025-12-18,VA Operators for Skill,"$17,500",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-08-15,VA Sierra Club PAC,"$2,000",Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-09-11,VADPAC,"$5,000",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-19,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,pac,,A,478529,2026-01-14
+contribution,2025-12-19,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,business,,A,478529,2026-01-14
 contribution,2025-08-27,Ms. Lilia Varela,$20,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-12-16,Ms. Lilia Varela,$25,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-29,Verizon,"$10,000",Washington,DC,pac,,A,478529,2026-01-14
+contribution,2025-10-29,Verizon,"$10,000",Washington,DC,business,,A,478529,2026-01-14
 contribution,2025-10-17,Virginia Apartment Management Association PAC,"$2,000",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-05,Virginia Asphalt Association,$500,Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-24,Virginia Association of Mutual Insurance Companies,"$1,000",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-12-05,Virginia Asphalt Association,$500,Richmond,VA,business,,A,478529,2026-01-14
+contribution,2025-10-24,Virginia Association of Mutual Insurance Companies,"$1,000",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-09-23,Virginia Automobile & Truck Dealers PAC,"$7,500",Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-12-26,Virginia Bankers Association State PAC,"$7,500",Glen Allen,VA,pac,,A,478529,2026-01-14
 contribution,2025-10-07,Virginia Beer Wholesalers Association PAC,"$15,000",Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-09-11,Virginia Beverage Association PAC,"$1,500",Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-09-22,Virginia Credit Union PAC,"$15,000",Lynchburg,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-07,Virginia Eagle Distribution Company LLC,"$1,000",Verona,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-07,Virginia Eagle Distribution Company LLC,"$1,000",Verona,VA,business,,A,478529,2026-01-14
 contribution,2025-10-22,Virginia Food Industry Association PAC,$750,Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-12-09,Virginia Health Care Association PAC,"$5,000",Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-09-26,Virginia Hospital and Healthcare Association,$500,Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-11-03,Virginia Hospital and Healthcare Association,"$1,000",Richmond,VA,pac,,A,478529,2026-01-14
 contribution,2025-12-26,Virginia Hospital and Healthcare Association,"$2,500",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-09-26,"Virginia Imports, Ltd.","$1,500",Springfield,VA,pac,,A,478529,2026-01-14
+contribution,2025-09-26,"Virginia Imports, Ltd.","$1,500",Springfield,VA,business,,A,478529,2026-01-14
 contribution,2025-12-02,Virginia Lifepoint Hospitals PAC,"$1,000",Richlands,VA,pac,,A,478529,2026-01-14
-contribution,2025-12-24,Virginia Manufactured and Modular Housing Association,"$1,000",Henrico,VA,pac,,A,478529,2026-01-14
+contribution,2025-12-24,Virginia Manufactured and Modular Housing Association,"$1,000",Henrico,VA,business,,A,478529,2026-01-14
 contribution,2025-10-24,Virginia Mortgage Bankers Political Action Committee,"$1,000",Glen Allen,VA,pac,,A,478529,2026-01-14
 contribution,2025-10-10,Virginia Society of CPAs Political Action Committee,"$1,000",Glen Allen,VA,pac,,A,478529,2026-01-14
 contribution,2025-10-16,Virginia Society of the AIA PAC,"$2,000",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-10-24,Virginia Transportation Construction Alliance,"$7,500",North Chesterfield,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-24,Virginia Transportation Construction Alliance,"$7,500",North Chesterfield,VA,business,,A,478529,2026-01-14
 contribution,2025-09-11,Virginia Wine Wholesalers Association,"$5,000",Richmond,VA,pac,,A,478529,2026-01-14
-contribution,2025-08-13,"Visa, Inc","$3,000",Washington,DC,pac,,A,478529,2026-01-14
+contribution,2025-08-13,"Visa, Inc","$3,000",Washington,DC,business,,A,478529,2026-01-14
 contribution,2025-09-17,Mr. William W. Vodra,"$1,000",Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-11-03,Vogel Group,"$2,500",Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-12-18,VSP Vision,"$1,000",Rancho Cordova,CA,pac,,A,478529,2026-01-14
-contribution,2025-12-19,Walmart,"$1,000",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-11-03,Vogel Group,"$2,500",Washington,DC,business,,A,478529,2026-01-14
+contribution,2025-12-18,VSP Vision,"$1,000",Rancho Cordova,CA,business,,A,478529,2026-01-14
+contribution,2025-12-19,Walmart,"$1,000",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-11-10,Washington Gas Light Company PAC,"$7,500",Washington,DC,pac,,A,478529,2026-01-14
-contribution,2025-12-26,Waymo,"$1,000",Sausalito,CA,pac,,A,478529,2026-01-14
+contribution,2025-12-26,Waymo,"$1,000",Sausalito,CA,business,,A,478529,2026-01-14
 contribution,2025-09-24,Dr. Gail Capitol Weigl,$100,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-29,Ms. Bonnie Brown Wilkins,$50,Alexandria,VA,individual,,A,478529,2026-01-14
-contribution,2025-10-24,Williams Mullen,"$2,500",Richmond,VA,pac,,A,478529,2026-01-14
+contribution,2025-10-24,Williams Mullen,"$2,500",Richmond,VA,business,,A,478529,2026-01-14
 contribution,2025-10-29,Angela Wilson,$250,Centreville,VA,individual,,A,478529,2026-01-14
 contribution,2025-08-12,Dr. Scott M. Wilson,$250,Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-09,Dr. Andrew Edmund Wise,"$2,000",Alexandria,VA,individual,,A,478529,2026-01-14
 contribution,2025-08-12,Gail Hirte Zehner,$250,Fairfax,VA,individual,,A,478529,2026-01-14
 contribution,2025-10-07,Mr. Jason F. Zellman,$25,Burke,VA,individual,,A,478529,2026-01-14
-contribution,2025-09-29,Zillow Group,"$1,000",Seattle,WA,pac,,A,478529,2026-01-14
-contribution,2026-01-12,Access Point Public Affairs LLC,"$1,000",Virginia Beach,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-12,"Allen, Allen, Allen & Allen, P.C.","$2,500",Richmond,VA,pac,,A,494745,2026-07-13
-contribution,2026-06-04,Altria Client Services LLC,"$7,500",Richmond,VA,pac,,A,494745,2026-07-13
+contribution,2025-09-29,Zillow Group,"$1,000",Seattle,WA,business,,A,478529,2026-01-14
+contribution,2026-01-12,Access Point Public Affairs LLC,"$1,000",Virginia Beach,VA,business,,A,494745,2026-07-13
+contribution,2026-01-12,"Allen, Allen, Allen & Allen, P.C.","$2,500",Richmond,VA,business,,A,494745,2026-07-13
+contribution,2026-06-04,Altria Client Services LLC,"$7,500",Richmond,VA,business,,A,494745,2026-07-13
 contribution,2026-01-02,Christopher J. Ambrose,$150,Lorton,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-16,Christopher J. Ambrose,$100,Lorton,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-07,American Chemistry Council,"$2,000",Washington,DC,pac,,A,494745,2026-07-13
-contribution,2026-01-12,American Hotel & Lodging Association,"$1,000",Washington,DC,pac,,A,494745,2026-07-13
-contribution,2026-06-16,"Anheuser-Busch Companies, Inc.","$1,500",Saint Louis,MO,pac,,A,494745,2026-07-13
+contribution,2026-01-07,American Chemistry Council,"$2,000",Washington,DC,business,,A,494745,2026-07-13
+contribution,2026-01-12,American Hotel & Lodging Association,"$1,000",Washington,DC,business,,A,494745,2026-07-13
+contribution,2026-06-16,"Anheuser-Busch Companies, Inc.","$1,500",Saint Louis,MO,business,,A,494745,2026-07-13
 contribution,2026-01-13,Associated General Contractors of Virginia Inc. Political Action Committee,"$1,000",Glen Allen,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-12,"Astellas Pharma US, INC.","$1,000",Northbrook,IL,pac,,A,494745,2026-07-13
+contribution,2026-01-12,"Astellas Pharma US, INC.","$1,000",Northbrook,IL,business,,A,494745,2026-07-13
 contribution,2026-04-10,Ms. Beverly A. Bacon,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-10,Timothy Barbrow,$100,Falmouth,VA,individual,,A,494745,2026-07-13
 contribution,2026-05-03,Daniel Bayliss,$105,Alexandria,VA,individual,,A,494745,2026-07-13
@@ -375,22 +375,22 @@ contribution,2026-04-30,Dr. Patrick G. Carrick,$50,Alexandria,VA,individual,,A,4
 contribution,2026-01-09,Charles C. Chadbourn III,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-10,Mr. Timothy Chapman,"$5,000",Vienna,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-13,Ms. Sunjin Choi,$300,Annandale,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-09,"Christian & Barton, LLP","$1,000",Richmond,VA,pac,,A,494745,2026-07-13
-contribution,2026-04-30,"Christian & Barton, LLP",$500,Richmond,VA,pac,,A,494745,2026-07-13
+contribution,2026-01-09,"Christian & Barton, LLP","$1,000",Richmond,VA,business,,A,494745,2026-07-13
+contribution,2026-04-30,"Christian & Barton, LLP",$500,Richmond,VA,business,,A,494745,2026-07-13
 contribution,2026-04-08,Wiley Kem Clawson,$500,Lorton,VA,individual,,A,494745,2026-07-13
 contribution,2026-03-15,Mr. William P. Cleveland Jr.,$100,Arlington,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-13,Edward L. Cohen,"$2,500",Rockville,MD,individual,,A,494745,2026-07-13
 contribution,2026-04-30,Mr. Johnnie E. Collins Jr.,$50,Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-09,"Committee for Effective Government Virginia Natural Gas, Inc.","$2,500",Virginia Beach,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-09,Community Solar Action Fund,"$2,000",Washington,DC,pac,,A,494745,2026-07-13
+contribution,2026-01-09,"Committee for Effective Government Virginia Natural Gas, Inc.","$2,500",Virginia Beach,VA,business,,A,494745,2026-07-13
+contribution,2026-01-09,Community Solar Action Fund,"$2,000",Washington,DC,business,,A,494745,2026-07-13
 contribution,2026-04-14,Community-Owned Power PAC,"$6,000",Glen Allen,VA,pac,,A,494745,2026-07-13
 contribution,2026-04-30,Ms. Carol Anne Cooke,$50,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-24,Ms. Queenie Esther Cox,$100,Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-13,Cozen O'Connor,"$1,000",Richmond,VA,pac,,A,494745,2026-07-13
+contribution,2026-01-13,Cozen O'Connor,"$1,000",Richmond,VA,business,,A,494745,2026-07-13
 contribution,2026-04-30,Ms Joanna C. Crane,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-12,CRNAs Who Care About Healthcare PAC,"$1,000",Richmond,VA,pac,,A,494745,2026-07-13
 contribution,2026-06-16,CRNAs Who Care About Healthcare PAC,"$2,500",Richmond,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-12,CSL Behring,"$1,500",King Of Prussia,PA,pac,,A,494745,2026-07-13
+contribution,2026-01-12,CSL Behring,"$1,500",King Of Prussia,PA,business,,A,494745,2026-07-13
 contribution,2026-01-09,Mr. Andrew S. Csontos,$250,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-09,Mr. Stephen J. Csontos,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-30,Mr. Stephen J. Csontos,$100,Alexandria,VA,individual,,A,494745,2026-07-13
@@ -404,13 +404,13 @@ contribution,2026-05-05,Dominion PAC - VA,"$100,000",Richmond,VA,pac,,A,494745,2
 contribution,2026-01-09,Mr. Brian C Drummond,$250,Fairfax,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-23,Linda L. Elliff,$50,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-05-01,Ms. Cheryl N. Ellsworth,$500,Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-06-04,Everytown for Gun Safety,"$1,000",New York,NY,pac,,A,494745,2026-07-13
+contribution,2026-06-04,Everytown for Gun Safety,"$1,000",New York,NY,business,,A,494745,2026-07-13
 contribution,2026-05-14,Dr. Glenn B. Fatzinger,$50,Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-12,First American Title Insurance Co,"$1,500",Washington,DC,pac,,A,494745,2026-07-13
+contribution,2026-01-12,First American Title Insurance Co,"$1,500",Washington,DC,business,,A,494745,2026-07-13
 contribution,2026-01-13,FirstEnergy PAC,"$1,000",Akron,OH,pac,,A,494745,2026-07-13
 contribution,2026-01-13,Friends of Ballad Health PAC,"$2,500",Johnson City,TN,pac,,A,494745,2026-07-13
-contribution,2026-06-18,Friends of Ghazala Hashmi,"$50,000",Richmond,VA,pac,,A,494745,2026-07-13
-contribution,2026-06-23,Friends of Stella G Pekarsky,$872.50,Centreville,VA,pac,,A,494745,2026-07-13
+contribution,2026-06-18,Friends of Ghazala Hashmi,"$50,000",Richmond,VA,business,,A,494745,2026-07-13
+contribution,2026-06-23,Friends of Stella G Pekarsky,$872.50,Centreville,VA,business,,A,494745,2026-07-13
 contribution,2026-01-13,Arthur Fuccillo,"$2,500",Rockville,MD,individual,,A,494745,2026-07-13
 contribution,2026-01-13,Ms. Barbara G. Godwin,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-13,Alan H. Gottlieb,"$2,500",Rockville,MD,individual,,A,494745,2026-07-13
@@ -425,8 +425,8 @@ contribution,2026-01-09,Col. Kelly P Houlgate,$10,Quantico,VA,individual,,A,4947
 contribution,2026-04-09,Col. Kelly P Houlgate,$10,Quantico,VA,individual,,A,494745,2026-07-13
 contribution,2026-05-09,Col. Kelly P Houlgate,$10,Quantico,VA,individual,,A,494745,2026-07-13
 contribution,2026-06-09,Col. Kelly P Houlgate,$10,Quantico,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-07,Humana Inc,"$2,500",Lexington,KY,pac,,A,494745,2026-07-13
-contribution,2026-05-27,Huntington Ingalls Industries,"$2,500",Newport News,VA,pac,,A,494745,2026-07-13
+contribution,2026-01-07,Humana Inc,"$2,500",Lexington,KY,business,,A,494745,2026-07-13
+contribution,2026-05-27,Huntington Ingalls Industries,"$2,500",Newport News,VA,business,,A,494745,2026-07-13
 contribution,2026-04-30,Mr. James Levy Hutzler,$200,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-02,Mr. Jerome H. Jaffe,$100,Herndon,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-09,Paul Wright Jameson,$300,Alexandria,VA,individual,,A,494745,2026-07-13
@@ -434,7 +434,7 @@ contribution,2026-03-17,Annette Jones,$500,Fairfax,VA,individual,,A,494745,2026-
 contribution,2026-01-02,David Jones,$500,Washington,DC,individual,,A,494745,2026-07-13
 contribution,2026-04-28,Rick Joyce,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-08,Kyung Jun,$250,Lorton,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-12,Jushi Holdings Inc.,"$2,000",Boca Raton,FL,pac,,A,494745,2026-07-13
+contribution,2026-01-12,Jushi Holdings Inc.,"$2,000",Boca Raton,FL,business,,A,494745,2026-07-13
 contribution,2026-04-23,Dr Kathleen Patricia Kelly,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-10,Mrs. Patricia M. Kenny-Priest,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-28,Chan Kim,$500,Mclean,VA,individual,,A,494745,2026-07-13
@@ -444,16 +444,16 @@ contribution,2026-01-10,Ms. Suchada V. Langley,$250,Vienna,VA,individual,,A,4947
 contribution,2026-03-15,Ms. Suchada V. Langley,$100,Vienna,VA,individual,,A,494745,2026-07-13
 contribution,2026-05-14,Mr. Frederick K. Lepple,$50,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-02,Mr. David M. Levy,$250,Lynchburg,VA,individual,,A,494745,2026-07-13
-contribution,2026-03-17,Marathon Development Group,"$5,000",Norfolk,VA,pac,,A,494745,2026-07-13
+contribution,2026-03-17,Marathon Development Group,"$5,000",Norfolk,VA,business,,A,494745,2026-07-13
 contribution,2026-05-03,Elizabeth Martin,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-06-30,Marty for Delegate,$352.25,Leesburg,VA,candidate,,A,494745,2026-07-13
 contribution,2026-05-03,Mr. Peter M. Martz,$100,Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-13,"McGuire Woods Consulting, LLC","$3,945.60",Richmond,VA,pac,,A,494745,2026-07-13
+contribution,2026-01-13,"McGuire Woods Consulting, LLC","$3,945.60",Richmond,VA,business,,A,494745,2026-07-13
 contribution,2026-06-22,McPike for Senate,$872.50,Woodbridge,VA,candidate,,A,494745,2026-07-13
 contribution,2026-04-08,Gina Medsker,$70,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-12,Metallurgical Coal Producers Association PAC,"$1,000",Grundy,VA,pac,,A,494745,2026-07-13
 contribution,2026-04-28,Susannah Michalson,$50,Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-13,Mid-Atlantic Pipe Trades Association,"$1,000",Columbia,MD,pac,,A,494745,2026-07-13
+contribution,2026-01-13,Mid-Atlantic Pipe Trades Association,"$1,000",Columbia,MD,business,,A,494745,2026-07-13
 contribution,2026-01-09,Mr. Mark Mildorf,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-10,Mr. marvin D. miller,$50,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-11,Jim Moran,"$2,500",Alexandria,VA,individual,,A,494745,2026-07-13
@@ -468,14 +468,14 @@ contribution,2026-01-02,NiSource Inc. PAC,"$5,000",Columbus,OH,pac,,A,494745,202
 contribution,2026-01-05,Mr. Donald J. Norden,$500,Arlington,VA,individual,,A,494745,2026-07-13
 contribution,2026-05-12,Mr. Donald J. Norden,"$1,000",Arlington,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-12,NoVa Build PAC,"$5,000",Chantilly,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-13,Nova Distro Inc.,"$2,500",Manassas,VA,pac,,A,494745,2026-07-13
-contribution,2026-05-14,NOVA Labor Council,"$2,500",Annandale,VA,pac,,A,494745,2026-07-13
+contribution,2026-01-13,Nova Distro Inc.,"$2,500",Manassas,VA,business,,A,494745,2026-07-13
+contribution,2026-05-14,NOVA Labor Council,"$2,500",Annandale,VA,business,,A,494745,2026-07-13
 contribution,2026-05-27,Old Dominion Highway PAC,$500,Rockville,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-13,Omega Protein,"$1,000",Calais,ME,pac,,A,494745,2026-07-13
+contribution,2026-01-13,Omega Protein,"$1,000",Calais,ME,business,,A,494745,2026-07-13
 contribution,2026-01-12,Organizing for VA Seniors,"$5,000",Fairfax,VA,pac,,A,494745,2026-07-13
 contribution,2026-04-29,Bob Powers,"$1,000",Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-12,PPE Casino Resorts Petersburg,"$10,000",Baltimore,MD,pac,,A,494745,2026-07-13
-contribution,2026-01-12,PRA Group Inc.,"$1,000",Norfolk,VA,pac,,A,494745,2026-07-13
+contribution,2026-01-12,PPE Casino Resorts Petersburg,"$10,000",Baltimore,MD,business,,A,494745,2026-07-13
+contribution,2026-01-12,PRA Group Inc.,"$1,000",Norfolk,VA,business,,A,494745,2026-07-13
 contribution,2026-05-14,Mrs. Louise Z. Priest,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-09,Mrs. Gail R. Richmond,$200,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-22,Mrs. Gail R. Richmond,$100,Alexandria,VA,individual,,A,494745,2026-07-13
@@ -483,9 +483,9 @@ contribution,2026-06-30,Mrs. Gail R. Richmond,$100,Alexandria,VA,individual,,A,4
 contribution,2026-06-24,Mr. Thomas R. Rosania,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-03-15,Gene Rossi,$200,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-05-03,Mr. Charles A. Santangelo,$50,Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-07,Sentara Health Administration Inc,"$2,500",Virginia Beach,VA,pac,,A,494745,2026-07-13
-contribution,2026-06-30,Sentara Health Administration Inc,"$1,000",Virginia Beach,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-12,Sheet Metal Worker's Local 100,$250,Suitland,MD,pac,,A,494745,2026-07-13
+contribution,2026-01-07,Sentara Health Administration Inc,"$2,500",Virginia Beach,VA,business,,A,494745,2026-07-13
+contribution,2026-06-30,Sentara Health Administration Inc,"$1,000",Virginia Beach,VA,business,,A,494745,2026-07-13
+contribution,2026-01-12,Sheet Metal Worker's Local 100,$250,Suitland,MD,business,,A,494745,2026-07-13
 contribution,2026-04-23,Martin J. Skopp,$200,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-10,Mr. Byron Smalley,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-13,Smart TD PAC,$500,Chester,VA,pac,,A,494745,2026-07-13
@@ -497,25 +497,25 @@ contribution,2026-04-02,Mr. Robert J. Surovell,"$1,000",Alexandria,VA,individual
 contribution,2026-04-29,Mr. Robert J. Surovell,$500,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-05-14,Ms. Patricia K. Takken,$125,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-13,Robert Tanenbaum,"$2,500",Rockville,MD,individual,,A,494745,2026-07-13
-contribution,2026-05-26,Team CAG LLC,"$25,000",Fairfax,VA,pac,,A,494745,2026-07-13
+contribution,2026-05-26,Team CAG LLC,"$25,000",Fairfax,VA,business,,A,494745,2026-07-13
 contribution,2026-06-04,The Bipartisan Network PAC,"$1,000",Washington,DC,pac,,A,494745,2026-07-13
 contribution,2026-01-09,The Virginia Forward PAC,"$1,500",Springfield,VA,pac,,A,494745,2026-07-13
 contribution,2026-05-27,The Virginia Forward PAC,"$2,000",Springfield,VA,pac,,A,494745,2026-07-13
-contribution,2026-05-27,"The Williams Companies, Inc.","$1,000",Washington,DC,pac,,A,494745,2026-07-13
+contribution,2026-05-27,"The Williams Companies, Inc.","$1,000",Washington,DC,business,,A,494745,2026-07-13
 contribution,2026-01-07,Mr. John A. Tolleris,$50,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-02,Mr. John A. Tolleris,$100,Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-01-12,Transurban USA Inc.,"$2,000",Tysons,VA,pac,,A,494745,2026-07-13
-contribution,2026-06-04,Transurban USA Inc.,"$1,000",Tysons,VA,pac,,A,494745,2026-07-13
+contribution,2026-01-12,Transurban USA Inc.,"$2,000",Tysons,VA,business,,A,494745,2026-07-13
+contribution,2026-06-04,Transurban USA Inc.,"$1,000",Tysons,VA,business,,A,494745,2026-07-13
 contribution,2026-05-07,Treasurers' Association of Virginia PAC,"$1,000",Virginia Beach,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-12,Troutman Pepper Locke,"$2,500",Richmond,VA,pac,,A,494745,2026-07-13
+contribution,2026-01-12,Troutman Pepper Locke,"$2,500",Richmond,VA,business,,A,494745,2026-07-13
 contribution,2026-01-12,Truckers PAC of Virginia,"$1,000",Richmond,VA,pac,,A,494745,2026-07-13
 contribution,2026-04-22,Truckers PAC of Virginia,$250,Richmond,VA,pac,,A,494745,2026-07-13
 contribution,2026-01-07,VA Digital Infrastructure PAC,"$5,000",Leesburg,VA,pac,,A,494745,2026-07-13
 contribution,2026-01-07,VA Digital Infrastructure PAC,"$5,000",Leesburg,VA,pac,,A,494745,2026-07-13
-contribution,2026-04-30,VA Farm Bureau,$500,Richmond,VA,pac,,A,494745,2026-07-13
+contribution,2026-04-30,VA Farm Bureau,$500,Richmond,VA,business,,A,494745,2026-07-13
 contribution,2026-04-30,VA Sierra Club PAC,$250,Richmond,VA,pac,,A,494745,2026-07-13
 contribution,2026-04-17,Mr. Theodore Vakrinos,$500,Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-05-27,Valicy Inc,"$3,500",Greenville,NC,pac,,A,494745,2026-07-13
+contribution,2026-05-27,Valicy Inc,"$3,500",Greenville,NC,business,,A,494745,2026-07-13
 contribution,2026-01-11,Ms. Arina van Breda,$35,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-03-16,Ms. Arina van Breda,$35,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-04-16,Ms. Arina van Breda,$35,Alexandria,VA,individual,,A,494745,2026-07-13
@@ -523,298 +523,298 @@ contribution,2026-05-16,Ms. Arina van Breda,$35,Alexandria,VA,individual,,A,4947
 contribution,2026-06-16,Ms. Arina van Breda,$35,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-01-13,Ms. Lilia Varela,$20,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-05-03,Ms. Lilia Varela,$35,Alexandria,VA,individual,,A,494745,2026-07-13
-contribution,2026-04-10,VGW Luckyland Inc,"$10,000",Camden,DE,pac,,A,494745,2026-07-13
+contribution,2026-04-10,VGW Luckyland Inc,"$10,000",Camden,DE,business,,A,494745,2026-07-13
 contribution,2026-01-13,Virginia Association of Health Plans PAC,"$5,000",Richmond,VA,pac,,A,494745,2026-07-13
 contribution,2026-05-27,Virginia Bankers Association State PAC,"$7,500",Glen Allen,VA,pac,,A,494745,2026-07-13
 contribution,2026-01-12,Virginia Cable Telecommunications Association PAC,"$10,000",Richmond,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-12,Virginia College of Emergency Physicians,$500,Richmond,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-09,Virginia Forest Products Association,"$1,000",Sandston,VA,pac,,A,494745,2026-07-13
+contribution,2026-01-12,Virginia College of Emergency Physicians,$500,Richmond,VA,business,,A,494745,2026-07-13
+contribution,2026-01-09,Virginia Forest Products Association,"$1,000",Sandston,VA,business,,A,494745,2026-07-13
 contribution,2026-01-12,Virginia League of Conservation Voters PAC,"$20,000",Richmond,VA,pac,,A,494745,2026-07-13
-contribution,2026-01-12,Virginia Oil & Gas Association,"$2,500",Abingdon,VA,pac,,A,494745,2026-07-13
+contribution,2026-01-12,Virginia Oil & Gas Association,"$2,500",Abingdon,VA,business,,A,494745,2026-07-13
 contribution,2026-01-02,Virginia Sheriffs' Association PAC,"$2,000",Richmond,VA,pac,,A,494745,2026-07-13
 contribution,2026-04-22,Virginia Sheriffs' Association PAC,$500,Richmond,VA,pac,,A,494745,2026-07-13
 contribution,2026-04-01,Virginia Society of Eye Physicians and Surgeons - Eye PAC,"$1,000",Glen Allen,VA,pac,,A,494745,2026-07-13
-contribution,2026-06-30,Waste Management,"$2,000",Washington,DC,pac,,A,494745,2026-07-13
+contribution,2026-06-30,Waste Management,"$2,000",Washington,DC,business,,A,494745,2026-07-13
 contribution,2026-04-19,Mr. Neil B. Worden,$100,Alexandria,VA,individual,,A,494745,2026-07-13
 contribution,2026-05-03,Ms. Maritza Zermeno,$135,Alexandria,VA,individual,,A,494745,2026-07-13
-in_kind,2025-10-16,"Hunton Andrews Kurth, LLP","$2,125.73",Richmond,VA,pac,Event hosting,B,478529,2026-01-14
-in_kind,2025-09-11,"Kemper Consulting, Inc.",$155.74,Norfolk,VA,pac,Fundraiser Food & Beverages,B,478529,2026-01-14
-in_kind,2025-12-17,"McGuire Woods Consulting, LLC","$1,054.40",Richmond,VA,pac,Fundraiser Food & Beverages,B,478529,2026-01-14
+in_kind,2025-10-16,"Hunton Andrews Kurth, LLP","$2,125.73",Richmond,VA,business,Event hosting,B,478529,2026-01-14
+in_kind,2025-09-11,"Kemper Consulting, Inc.",$155.74,Norfolk,VA,business,Fundraiser Food & Beverages,B,478529,2026-01-14
+in_kind,2025-12-17,"McGuire Woods Consulting, LLC","$1,054.40",Richmond,VA,business,Fundraiser Food & Beverages,B,478529,2026-01-14
 in_kind,2025-09-23,Mr. William T. Roach Jr.,"$1,300",Norfolk,VA,individual,Event hosting,B,478529,2026-01-14
-in_kind,2025-09-26,Seven Hills Strategy Group,"$1,488.50",Richmond,VA,pac,Event hosting,B,478529,2026-01-14
+in_kind,2025-09-26,Seven Hills Strategy Group,"$1,488.50",Richmond,VA,business,Event hosting,B,478529,2026-01-14
 in_kind,2025-10-08,Virginia Beer Wholesalers Association PAC,$173.89,Richmond,VA,pac,Event hosting,B,478529,2026-01-14
-in_kind,2026-01-12,"Capital One Services, Inc","$3,800",Richmond,VA,pac,Venue for event,B,494745,2026-07-13
-in_kind,2026-05-16,Comstock Hospitality Holdings LLC,"$4,405.85",Reston,VA,pac,Suite at for Fundraiser Nationals Park Food & Beverages,B,494745,2026-07-13
+in_kind,2026-01-12,"Capital One Services, Inc","$3,800",Richmond,VA,business,Venue for event,B,494745,2026-07-13
+in_kind,2026-05-16,Comstock Hospitality Holdings LLC,"$4,405.85",Reston,VA,business,Suite at for Fundraiser Nationals Park Food & Beverages,B,494745,2026-07-13
 in_kind,2026-04-22,Virginia Credit Union PAC,$298,Lynchburg,VA,pac,Food and beverage for event,B,494745,2026-07-13
-other_receipt,2025-07-31,Burke & Herbert Bank,$224.31,Alexandria,VA,pac,Bank interest,C,478529,2026-01-14
-other_receipt,2025-08-31,Burke & Herbert Bank,$224.56,Alexandria,VA,pac,Bank interest,C,478529,2026-01-14
-other_receipt,2025-09-30,Burke & Herbert Bank,$217.55,Alexandria,VA,pac,Bank interest,C,478529,2026-01-14
-other_receipt,2025-10-31,Burke & Herbert Bank,$225.05,Alexandria,VA,pac,Bank interest,C,478529,2026-01-14
-other_receipt,2025-11-30,Burke & Herbert Bank,$203.65,Alexandria,VA,pac,Bank interest,C,478529,2026-01-14
-other_receipt,2025-12-31,Burke & Herbert Bank,$199.28,Alexandria,VA,pac,Bank interest,C,478529,2026-01-14
-other_receipt,2026-01-31,Burke & Herbert Bank,"$2,610.83",Alexandria,VA,pac,Bank interest,C,494745,2026-07-13
-other_receipt,2026-02-28,Burke & Herbert Bank,"$3,042.77",Alexandria,VA,pac,Bank interest,C,494745,2026-07-13
-other_receipt,2026-03-31,Burke & Herbert Bank,"$3,374.80",Alexandria,VA,pac,Bank interest,C,494745,2026-07-13
-other_receipt,2026-04-30,Burke & Herbert Bank,"$3,272.41",Alexandria,VA,pac,Bank interest,C,494745,2026-07-13
-other_receipt,2026-05-31,Burke & Herbert Bank,"$3,387.96",Alexandria,VA,pac,Bank interest,C,494745,2026-07-13
-other_receipt,2026-06-30,Burke & Herbert Bank,"$3,342.61",Alexandria,VA,pac,Bank interest,C,494745,2026-07-13
-expenditure,2025-07-01,Ghazala for Virginia,"$10,000",North Chesterfield,VA,pac,Contribution,D,478529,2026-01-14
-expenditure,2025-07-01,United States Postal Service,"$7,000",Alexandria,VA,pac,Permit Imprint,D,478529,2026-01-14
+other_receipt,2025-07-31,Burke & Herbert Bank,$224.31,Alexandria,VA,business,Bank interest,C,478529,2026-01-14
+other_receipt,2025-08-31,Burke & Herbert Bank,$224.56,Alexandria,VA,business,Bank interest,C,478529,2026-01-14
+other_receipt,2025-09-30,Burke & Herbert Bank,$217.55,Alexandria,VA,business,Bank interest,C,478529,2026-01-14
+other_receipt,2025-10-31,Burke & Herbert Bank,$225.05,Alexandria,VA,business,Bank interest,C,478529,2026-01-14
+other_receipt,2025-11-30,Burke & Herbert Bank,$203.65,Alexandria,VA,business,Bank interest,C,478529,2026-01-14
+other_receipt,2025-12-31,Burke & Herbert Bank,$199.28,Alexandria,VA,business,Bank interest,C,478529,2026-01-14
+other_receipt,2026-01-31,Burke & Herbert Bank,"$2,610.83",Alexandria,VA,business,Bank interest,C,494745,2026-07-13
+other_receipt,2026-02-28,Burke & Herbert Bank,"$3,042.77",Alexandria,VA,business,Bank interest,C,494745,2026-07-13
+other_receipt,2026-03-31,Burke & Herbert Bank,"$3,374.80",Alexandria,VA,business,Bank interest,C,494745,2026-07-13
+other_receipt,2026-04-30,Burke & Herbert Bank,"$3,272.41",Alexandria,VA,business,Bank interest,C,494745,2026-07-13
+other_receipt,2026-05-31,Burke & Herbert Bank,"$3,387.96",Alexandria,VA,business,Bank interest,C,494745,2026-07-13
+other_receipt,2026-06-30,Burke & Herbert Bank,"$3,342.61",Alexandria,VA,business,Bank interest,C,494745,2026-07-13
+expenditure,2025-07-01,Ghazala for Virginia,"$10,000",North Chesterfield,VA,business,Contribution,D,478529,2026-01-14
+expenditure,2025-07-01,United States Postal Service,"$7,000",Alexandria,VA,business,Permit Imprint,D,478529,2026-01-14
 expenditure,2025-07-01,Walkinshaw for Congress,"$1,000",Merrifield,VA,candidate,Contribution,D,478529,2026-01-14
-expenditure,2025-07-02,Omni Homestead Resort,$902.45,Hot Springs,VA,pac,event lodging,D,478529,2026-01-14
-expenditure,2025-07-02,Paragon Payment Solutions,$142.76,Tempe,AZ,pac,Processing Fees,D,478529,2026-01-14
-expenditure,2025-07-02,Sage Payment Solutions,$27.50,McLean,VA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-07-03,NGP Software,$688.50,Washington,DC,pac,Software,D,478529,2026-01-14
-expenditure,2025-07-03,Public Storage 08153,$396,Alexandria,VA,pac,Storage,D,478529,2026-01-14
+expenditure,2025-07-02,Omni Homestead Resort,$902.45,Hot Springs,VA,business,event lodging,D,478529,2026-01-14
+expenditure,2025-07-02,Paragon Payment Solutions,$142.76,Tempe,AZ,business,Processing Fees,D,478529,2026-01-14
+expenditure,2025-07-02,Sage Payment Solutions,$27.50,McLean,VA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-07-03,NGP Software,$688.50,Washington,DC,business,Software,D,478529,2026-01-14
+expenditure,2025-07-03,Public Storage 08153,$396,Alexandria,VA,business,Storage,D,478529,2026-01-14
 expenditure,2025-07-03,Andrew M Reiman,"$4,000",Mclean,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-07-03,United States Postal Service,$11.80,Alexandria,VA,pac,Postage,D,478529,2026-01-14
-expenditure,2025-07-06,"Blue Virginia,LLC","$1,950",Arlington,VA,pac,Advertising,D,478529,2026-01-14
-expenditure,2025-07-11,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,478529,2026-01-14
-expenditure,2025-07-13,ActBlue Virginia,$0.40,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-07-14,Fat Cow,$370.07,Tempe,AZ,pac,Web Hosting Services,D,478529,2026-01-14
+expenditure,2025-07-03,United States Postal Service,$11.80,Alexandria,VA,business,Postage,D,478529,2026-01-14
+expenditure,2025-07-06,"Blue Virginia,LLC","$1,950",Arlington,VA,business,Advertising,D,478529,2026-01-14
+expenditure,2025-07-11,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,478529,2026-01-14
+expenditure,2025-07-13,ActBlue Virginia,$0.40,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-07-14,Fat Cow,$370.07,Tempe,AZ,business,Web Hosting Services,D,478529,2026-01-14
 expenditure,2025-07-23,Payton for Delegate,$250,Harrisonburg,VA,candidate,Contribution,D,478529,2026-01-14
 expenditure,2025-07-30,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,478529,2026-01-14
 expenditure,2025-07-30,Don Mark,$500,Richmond,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-08-03,ActBlue Virginia,$0.40,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-08-04,NGP Software,$300,Washington,DC,pac,Software,D,478529,2026-01-14
-expenditure,2025-08-04,Paragon Payment Solutions,$57.58,Tempe,AZ,pac,Processing Fees,D,478529,2026-01-14
-expenditure,2025-08-04,Sage Payment Solutions,$42.50,McLean,VA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-08-05,Public Storage 08153,$396,Alexandria,VA,pac,Storage,D,478529,2026-01-14
+expenditure,2025-08-03,ActBlue Virginia,$0.40,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-08-04,NGP Software,$300,Washington,DC,business,Software,D,478529,2026-01-14
+expenditure,2025-08-04,Paragon Payment Solutions,$57.58,Tempe,AZ,business,Processing Fees,D,478529,2026-01-14
+expenditure,2025-08-04,Sage Payment Solutions,$42.50,McLean,VA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-08-05,Public Storage 08153,$396,Alexandria,VA,business,Storage,D,478529,2026-01-14
 expenditure,2025-08-06,Andrew M Reiman,"$4,000",Mclean,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-08-10,ActBlue Virginia,$0.40,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-08-11,Wolverines Athletic Booster Club,"$2,000",Alexandria,VA,pac,Sponsorship,D,478529,2026-01-14
-expenditure,2025-08-11,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,478529,2026-01-14
-expenditure,2025-08-15,Fairfax County Democratic Committee,$500,Fairfax,VA,pac,Event sponsorship,D,478529,2026-01-14
-expenditure,2025-08-21,Allegra Marketing,"$5,607.63",Fairfax,VA,pac,Fundraising Letter,D,478529,2026-01-14
+expenditure,2025-08-10,ActBlue Virginia,$0.40,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-08-11,Wolverines Athletic Booster Club,"$2,000",Alexandria,VA,business,Sponsorship,D,478529,2026-01-14
+expenditure,2025-08-11,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,478529,2026-01-14
+expenditure,2025-08-15,Fairfax County Democratic Committee,$500,Fairfax,VA,business,Event sponsorship,D,478529,2026-01-14
+expenditure,2025-08-21,Allegra Marketing,"$5,607.63",Fairfax,VA,business,Fundraising Letter,D,478529,2026-01-14
 expenditure,2025-08-28,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,478529,2026-01-14
 expenditure,2025-08-28,Don Mark,$500,Richmond,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-08-28,"Pocket Aces Consulting, LLC","$24,355.52",Fairfax,VA,pac,Sine Die Letter Production and Mailing Expenses,D,478529,2026-01-14
-expenditure,2025-08-29,"Shutterfly, LLC",$11.99,San Jose,CA,pac,Art for office,D,478529,2026-01-14
-expenditure,2025-09-02,NGP Software,$388.50,Washington,DC,pac,Software,D,478529,2026-01-14
-expenditure,2025-09-02,Paragon Payment Solutions,$160.92,Tempe,AZ,pac,Processing Fees,D,478529,2026-01-14
-expenditure,2025-09-02,Sage Payment Solutions,$42.50,McLean,VA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-09-03,Public Storage 08153,$396,Alexandria,VA,pac,Storage,D,478529,2026-01-14
+expenditure,2025-08-28,"Pocket Aces Consulting, LLC","$24,355.52",Fairfax,VA,business,Sine Die Letter Production and Mailing Expenses,D,478529,2026-01-14
+expenditure,2025-08-29,"Shutterfly, LLC",$11.99,San Jose,CA,business,Art for office,D,478529,2026-01-14
+expenditure,2025-09-02,NGP Software,$388.50,Washington,DC,business,Software,D,478529,2026-01-14
+expenditure,2025-09-02,Paragon Payment Solutions,$160.92,Tempe,AZ,business,Processing Fees,D,478529,2026-01-14
+expenditure,2025-09-02,Sage Payment Solutions,$42.50,McLean,VA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-09-03,Public Storage 08153,$396,Alexandria,VA,business,Storage,D,478529,2026-01-14
 expenditure,2025-09-04,Andrew M Reiman,"$4,000",Mclean,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-09-04,Wolverines Athletic Booster Club,"$1,000",Alexandria,VA,pac,Sponsorship,D,478529,2026-01-14
-expenditure,2025-09-05,NGP Software,$688.50,Washington,DC,pac,Software,D,478529,2026-01-14
-expenditure,2025-09-07,ActBlue Virginia,$19.75,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-09-09,Mount Vernon Springfield Chamber of Commerce,$250,Alexandria,VA,pac,Event Sponsorship,D,478529,2026-01-14
-expenditure,2025-09-10,"Shutterfly, LLC",$8.38,San Jose,CA,pac,Art for office,D,478529,2026-01-14
-expenditure,2025-09-11,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,478529,2026-01-14
-expenditure,2025-09-14,ActBlue Virginia,$0.40,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-09-17,Burke & Herbert Bank,$32,Alexandria,VA,pac,Bank fee,D,478529,2026-01-14
+expenditure,2025-09-04,Wolverines Athletic Booster Club,"$1,000",Alexandria,VA,business,Sponsorship,D,478529,2026-01-14
+expenditure,2025-09-05,NGP Software,$688.50,Washington,DC,business,Software,D,478529,2026-01-14
+expenditure,2025-09-07,ActBlue Virginia,$19.75,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-09-09,Mount Vernon Springfield Chamber of Commerce,$250,Alexandria,VA,business,Event Sponsorship,D,478529,2026-01-14
+expenditure,2025-09-10,"Shutterfly, LLC",$8.38,San Jose,CA,business,Art for office,D,478529,2026-01-14
+expenditure,2025-09-11,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,478529,2026-01-14
+expenditure,2025-09-14,ActBlue Virginia,$0.40,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-09-17,Burke & Herbert Bank,$32,Alexandria,VA,business,Bank fee,D,478529,2026-01-14
 expenditure,2025-09-22,Kathy Tran for Delegate,$500,Springfield,VA,candidate,Contribution,D,478529,2026-01-14
 expenditure,2025-09-22,Krizek for Delegate,"$1,000",Alexandria,VA,candidate,Contribution,D,478529,2026-01-14
 expenditure,2025-09-22,Lopez for Delegate,"$2,500",Arlington,VA,candidate,Contribution,D,478529,2026-01-14
-expenditure,2025-09-25,Fat Cow,$336,Tempe,AZ,pac,Web Hosting Services,D,478529,2026-01-14
-expenditure,2025-09-26,Burke & Herbert Bank,$12,Alexandria,VA,pac,Bank fee,D,478529,2026-01-14
+expenditure,2025-09-25,Fat Cow,$336,Tempe,AZ,business,Web Hosting Services,D,478529,2026-01-14
+expenditure,2025-09-26,Burke & Herbert Bank,$12,Alexandria,VA,business,Bank fee,D,478529,2026-01-14
 expenditure,2025-09-29,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,478529,2026-01-14
 expenditure,2025-09-29,Don Mark,$500,Richmond,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-10-01,Harland Clarke,$411.50,San Antonio,TX,pac,Checks,D,478529,2026-01-14
-expenditure,2025-10-02,Paragon Payment Solutions,$375.75,Tempe,AZ,pac,Processing Fees,D,478529,2026-01-14
-expenditure,2025-10-02,Sage Payment Solutions,$137.25,McLean,VA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-10-03,NGP Software,$388.50,Washington,DC,pac,Software,D,478529,2026-01-14
-expenditure,2025-10-03,Public Storage 08153,$396,Alexandria,VA,pac,Storage,D,478529,2026-01-14
-expenditure,2025-10-05,ActBlue Virginia,$118.50,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-10-06,Deeds for State Senate,"$2,250",Charlottesville,VA,pac,Contribution,D,478529,2026-01-14
-expenditure,2025-10-06,Ghazala for Virginia,"$50,000",North Chesterfield,VA,pac,Contribution,D,478529,2026-01-14
+expenditure,2025-10-01,Harland Clarke,$411.50,San Antonio,TX,business,Checks,D,478529,2026-01-14
+expenditure,2025-10-02,Paragon Payment Solutions,$375.75,Tempe,AZ,business,Processing Fees,D,478529,2026-01-14
+expenditure,2025-10-02,Sage Payment Solutions,$137.25,McLean,VA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-10-03,NGP Software,$388.50,Washington,DC,business,Software,D,478529,2026-01-14
+expenditure,2025-10-03,Public Storage 08153,$396,Alexandria,VA,business,Storage,D,478529,2026-01-14
+expenditure,2025-10-05,ActBlue Virginia,$118.50,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-10-06,Deeds for State Senate,"$2,250",Charlottesville,VA,business,Contribution,D,478529,2026-01-14
+expenditure,2025-10-06,Ghazala for Virginia,"$50,000",North Chesterfield,VA,business,Contribution,D,478529,2026-01-14
 expenditure,2025-10-06,Andrew M Reiman,"$4,000",Mclean,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-10-06,United States Postal Service,$370,Alexandria,VA,pac,Bulk mail permit,D,478529,2026-01-14
-expenditure,2025-10-12,ActBlue Virginia,$0.40,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-10-14,Ghazala for Virginia,"$50,000",North Chesterfield,VA,pac,Contribution,D,478529,2026-01-14
-expenditure,2025-10-14,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,478529,2026-01-14
-expenditure,2025-10-15,Ghazala for Virginia,"$25,000",North Chesterfield,VA,pac,Contribution,D,478529,2026-01-14
-expenditure,2025-10-16,Las Carnitas Restaurant,$526,Alexandria,VA,pac,Town Hall Refreshments,D,478529,2026-01-14
-expenditure,2025-10-17,Spanberger for Governor,"$40,000",Glen Allen,VA,pac,Contribution,D,478529,2026-01-14
-expenditure,2025-10-19,ActBlue Virginia,$19.75,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-10-20,Mount Vernon Gift Shop,$284.93,Mount Vernon,VA,pac,Gift for diplomat,D,478529,2026-01-14
-expenditure,2025-10-26,ActBlue Virginia,$1.98,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-10-28,Hollin Meadows PTA,$250,Alexandria,VA,pac,Sponsorship,D,478529,2026-01-14
+expenditure,2025-10-06,United States Postal Service,$370,Alexandria,VA,business,Bulk mail permit,D,478529,2026-01-14
+expenditure,2025-10-12,ActBlue Virginia,$0.40,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-10-14,Ghazala for Virginia,"$50,000",North Chesterfield,VA,business,Contribution,D,478529,2026-01-14
+expenditure,2025-10-14,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,478529,2026-01-14
+expenditure,2025-10-15,Ghazala for Virginia,"$25,000",North Chesterfield,VA,business,Contribution,D,478529,2026-01-14
+expenditure,2025-10-16,Las Carnitas Restaurant,$526,Alexandria,VA,business,Town Hall Refreshments,D,478529,2026-01-14
+expenditure,2025-10-17,Spanberger for Governor,"$40,000",Glen Allen,VA,business,Contribution,D,478529,2026-01-14
+expenditure,2025-10-19,ActBlue Virginia,$19.75,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-10-20,Mount Vernon Gift Shop,$284.93,Mount Vernon,VA,business,Gift for diplomat,D,478529,2026-01-14
+expenditure,2025-10-26,ActBlue Virginia,$1.98,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-10-28,Hollin Meadows PTA,$250,Alexandria,VA,business,Sponsorship,D,478529,2026-01-14
 expenditure,2025-10-30,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,478529,2026-01-14
 expenditure,2025-10-30,Don Mark,$500,Richmond,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-10-31,Burke & Herbert Bank,$5,Alexandria,VA,pac,Bank fee,D,478529,2026-01-14
-expenditure,2025-11-03,Paragon Payment Solutions,"$2,179.42",Tempe,AZ,pac,Processing Fees,D,478529,2026-01-14
-expenditure,2025-11-03,Sage Payment Solutions,$42.50,McLean,VA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-11-04,Krispy Kreme,$491.59,Alexandria,VA,pac,Election Day refreshments,D,478529,2026-01-14
-expenditure,2025-11-04,NGP Software,$388.50,Washington,DC,pac,Software,D,478529,2026-01-14
-expenditure,2025-11-04,Public Storage 08153,$396,Alexandria,VA,pac,Storage,D,478529,2026-01-14
-expenditure,2025-11-05,Amazon,$190.74,Seattle,WA,pac,Lanterns for Election Day,D,478529,2026-01-14
-expenditure,2025-11-05,NGP Software,$315,Washington,DC,pac,Software,D,478529,2026-01-14
+expenditure,2025-10-31,Burke & Herbert Bank,$5,Alexandria,VA,business,Bank fee,D,478529,2026-01-14
+expenditure,2025-11-03,Paragon Payment Solutions,"$2,179.42",Tempe,AZ,business,Processing Fees,D,478529,2026-01-14
+expenditure,2025-11-03,Sage Payment Solutions,$42.50,McLean,VA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-11-04,Krispy Kreme,$491.59,Alexandria,VA,business,Election Day refreshments,D,478529,2026-01-14
+expenditure,2025-11-04,NGP Software,$388.50,Washington,DC,business,Software,D,478529,2026-01-14
+expenditure,2025-11-04,Public Storage 08153,$396,Alexandria,VA,business,Storage,D,478529,2026-01-14
+expenditure,2025-11-05,Amazon,$190.74,Seattle,WA,business,Lanterns for Election Day,D,478529,2026-01-14
+expenditure,2025-11-05,NGP Software,$315,Washington,DC,business,Software,D,478529,2026-01-14
 expenditure,2025-11-06,Andrew M Reiman,"$4,000",Mclean,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-11-09,ActBlue Virginia,$0.40,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-11-10,"Shutterfly, LLC",$191.84,San Jose,CA,pac,Art for office,D,478529,2026-01-14
-expenditure,2025-11-12,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,478529,2026-01-14
+expenditure,2025-11-09,ActBlue Virginia,$0.40,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-11-10,"Shutterfly, LLC",$191.84,San Jose,CA,business,Art for office,D,478529,2026-01-14
+expenditure,2025-11-12,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,478529,2026-01-14
 expenditure,2025-11-26,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,478529,2026-01-14
 expenditure,2025-11-26,Don Mark,$500,Richmond,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-11-26,NGP Software,$315,Washington,DC,pac,Software,D,478529,2026-01-14
-expenditure,2025-11-28,Burke & Herbert Bank,$5,Alexandria,VA,pac,Bank fee,D,478529,2026-01-14
-expenditure,2025-12-01,Sage Payment Solutions,$42.50,McLean,VA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-12-02,Paragon Payment Solutions,$606.47,Tempe,AZ,pac,Processing Fees,D,478529,2026-01-14
-expenditure,2025-12-03,NGP Software,$703.50,Washington,DC,pac,Software,D,478529,2026-01-14
-expenditure,2025-12-03,Public Storage 08153,$446,Alexandria,VA,pac,Storage,D,478529,2026-01-14
+expenditure,2025-11-26,NGP Software,$315,Washington,DC,business,Software,D,478529,2026-01-14
+expenditure,2025-11-28,Burke & Herbert Bank,$5,Alexandria,VA,business,Bank fee,D,478529,2026-01-14
+expenditure,2025-12-01,Sage Payment Solutions,$42.50,McLean,VA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-12-02,Paragon Payment Solutions,$606.47,Tempe,AZ,business,Processing Fees,D,478529,2026-01-14
+expenditure,2025-12-03,NGP Software,$703.50,Washington,DC,business,Software,D,478529,2026-01-14
+expenditure,2025-12-03,Public Storage 08153,$446,Alexandria,VA,business,Storage,D,478529,2026-01-14
 expenditure,2025-12-04,Andrew M Reiman,"$4,000",Mclean,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-12-08,FTD Flowers,$130.36,Downers Grove,IL,pac,Flowers for colleague,D,478529,2026-01-14
+expenditure,2025-12-08,FTD Flowers,$130.36,Downers Grove,IL,business,Flowers for colleague,D,478529,2026-01-14
 expenditure,2025-12-08,Mark W. Murray,$250,Alexandria,VA,individual,Refund of contribution,D,478529,2026-01-14
-expenditure,2025-12-08,State Navigate,$300,Montpelier,VA,pac,Contribution,D,478529,2026-01-14
-expenditure,2025-12-08,Treasurer of Virginia,$147,Richmond,VA,pac,parking for legislative aide,D,478529,2026-01-14
+expenditure,2025-12-08,State Navigate,$300,Montpelier,VA,business,Contribution,D,478529,2026-01-14
+expenditure,2025-12-08,Treasurer of Virginia,$147,Richmond,VA,business,parking for legislative aide,D,478529,2026-01-14
 expenditure,2025-12-08,Virginia Senate Democratic Caucus,"$25,000",Richmond,VA,party,Special election assessment,D,478529,2026-01-14
 expenditure,2025-12-08,Owen Wright,"$1,000",Richmond,VA,individual,Intern pay,D,478529,2026-01-14
-expenditure,2025-12-10,Wolverines Athletic Booster Club,"$1,000",Alexandria,VA,pac,Sponsorship,D,478529,2026-01-14
-expenditure,2025-12-11,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,478529,2026-01-14
-expenditure,2025-12-12,Burke & Herbert Bank,$12,Alexandria,VA,pac,Bank fee,D,478529,2026-01-14
-expenditure,2025-12-14,ActBlue Virginia,$0.40,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2025-12-16,Commonwealth Victory Fund,$650,Richmond,VA,pac,Homestead,D,478529,2026-01-14
-expenditure,2025-12-17,Primo Family Restaurant,$330,Alexandria,VA,pac,Venue for business breakfast event,D,478529,2026-01-14
-expenditure,2025-12-17,United States Postal Service,$244,Alexandria,VA,pac,PO Box,D,478529,2026-01-14
-expenditure,2025-12-22,Fairfax County Democratic Committee,$400,Fairfax,VA,pac,Event program ad,D,478529,2026-01-14
-expenditure,2025-12-22,Fort Hunt Youth Athletic Association,"$1,000",Alexandria,VA,pac,Sponsorship,D,478529,2026-01-14
+expenditure,2025-12-10,Wolverines Athletic Booster Club,"$1,000",Alexandria,VA,business,Sponsorship,D,478529,2026-01-14
+expenditure,2025-12-11,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,478529,2026-01-14
+expenditure,2025-12-12,Burke & Herbert Bank,$12,Alexandria,VA,business,Bank fee,D,478529,2026-01-14
+expenditure,2025-12-14,ActBlue Virginia,$0.40,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2025-12-16,Commonwealth Victory Fund,$650,Richmond,VA,business,Homestead,D,478529,2026-01-14
+expenditure,2025-12-17,Primo Family Restaurant,$330,Alexandria,VA,business,Venue for business breakfast event,D,478529,2026-01-14
+expenditure,2025-12-17,United States Postal Service,$244,Alexandria,VA,business,PO Box,D,478529,2026-01-14
+expenditure,2025-12-22,Fairfax County Democratic Committee,$400,Fairfax,VA,business,Event program ad,D,478529,2026-01-14
+expenditure,2025-12-22,Fort Hunt Youth Athletic Association,"$1,000",Alexandria,VA,business,Sponsorship,D,478529,2026-01-14
 expenditure,2025-12-30,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,478529,2026-01-14
-expenditure,2025-12-30,Fat Cow,$65.60,Tempe,AZ,pac,Web Hosting Services,D,478529,2026-01-14
+expenditure,2025-12-30,Fat Cow,$65.60,Tempe,AZ,business,Web Hosting Services,D,478529,2026-01-14
 expenditure,2025-12-30,Don Mark,$500,Richmond,VA,individual,Campaign services,D,478529,2026-01-14
-expenditure,2025-12-31,ActBlue Virginia,$0.99,Cambridge,MA,pac,Processing fee,D,478529,2026-01-14
-expenditure,2026-01-02,Elect Elizabeth Bennett-Parker,"$5,000",Alexandria,VA,pac,Contribution,D,494745,2026-07-13
-expenditure,2026-01-02,Paragon Payment Solutions,$699.58,Tempe,AZ,pac,Processing Fees,D,494745,2026-07-13
-expenditure,2026-01-02,Sage Payment Solutions,$42.50,McLean,VA,pac,Processing fee,D,494745,2026-07-13
+expenditure,2025-12-31,ActBlue Virginia,$0.99,Cambridge,MA,business,Processing fee,D,478529,2026-01-14
+expenditure,2026-01-02,Elect Elizabeth Bennett-Parker,"$5,000",Alexandria,VA,business,Contribution,D,494745,2026-07-13
+expenditure,2026-01-02,Paragon Payment Solutions,$699.58,Tempe,AZ,business,Processing Fees,D,494745,2026-07-13
+expenditure,2026-01-02,Sage Payment Solutions,$42.50,McLean,VA,business,Processing fee,D,494745,2026-07-13
 expenditure,2026-01-02,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-01-05,"Blue Virginia,LLC","$1,950",Arlington,VA,pac,Advertising,D,494745,2026-07-13
-expenditure,2026-01-05,Public Storage 08153,$446,Alexandria,VA,pac,Storage,D,494745,2026-07-13
-expenditure,2026-01-05,Recreation.gov,$425,Ballston Spa,NY,pac,Site reservation for campaign event,D,494745,2026-07-13
+expenditure,2026-01-05,"Blue Virginia,LLC","$1,950",Arlington,VA,business,Advertising,D,494745,2026-07-13
+expenditure,2026-01-05,Public Storage 08153,$446,Alexandria,VA,business,Storage,D,494745,2026-07-13
+expenditure,2026-01-05,Recreation.gov,$425,Ballston Spa,NY,business,Site reservation for campaign event,D,494745,2026-07-13
 expenditure,2026-01-06,Andrew M Reiman,"$4,000",Mclean,VA,individual,Campaign services,D,494745,2026-07-13
 expenditure,2026-01-09,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-01-10,Fair Winds Brewing Company,$451.45,Lorton,VA,pac,Fundraiser food and drink,D,494745,2026-07-13
+expenditure,2026-01-10,Fair Winds Brewing Company,$451.45,Lorton,VA,business,Fundraiser food and drink,D,494745,2026-07-13
 expenditure,2026-01-10,Paul Wright Jameson,$250,Alexandria,VA,individual,Refund of contribution,D,494745,2026-07-13
-expenditure,2026-01-11,ActBlue Virginia,$276.90,Cambridge,MA,pac,processing fee,D,494745,2026-07-13
-expenditure,2026-01-11,Electrical Solutions LLC,"$5,798",Alexandria,VA,pac,Security system,D,494745,2026-07-13
-expenditure,2026-01-12,Costco,$235.79,Springfield,VA,pac,Food for fundraiser,D,494745,2026-07-13
-expenditure,2026-01-12,Giant Food,$45.12,Mclean,VA,pac,Food for fundraiser,D,494745,2026-07-13
-expenditure,2026-01-12,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,494745,2026-07-13
-expenditure,2026-01-14,Amazon,$37.84,Seattle,WA,pac,Supplies,D,494745,2026-07-13
+expenditure,2026-01-11,ActBlue Virginia,$276.90,Cambridge,MA,business,processing fee,D,494745,2026-07-13
+expenditure,2026-01-11,Electrical Solutions LLC,"$5,798",Alexandria,VA,business,Security system,D,494745,2026-07-13
+expenditure,2026-01-12,Costco,$235.79,Springfield,VA,business,Food for fundraiser,D,494745,2026-07-13
+expenditure,2026-01-12,Giant Food,$45.12,Mclean,VA,business,Food for fundraiser,D,494745,2026-07-13
+expenditure,2026-01-12,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,494745,2026-07-13
+expenditure,2026-01-14,Amazon,$37.84,Seattle,WA,business,Supplies,D,494745,2026-07-13
 expenditure,2026-01-14,Mariya Ilyas,$385,Alexandria,VA,individual,Session parking reimbursement,D,494745,2026-07-13
-expenditure,2026-01-15,ASAP Printing and Graphics,"$6,561.40",Alexandria,VA,pac,Printing for stationery,D,494745,2026-07-13
-expenditure,2026-01-15,Burke & Herbert Bank,$12,Alexandria,VA,pac,Bank fee,D,494745,2026-07-13
+expenditure,2026-01-15,ASAP Printing and Graphics,"$6,561.40",Alexandria,VA,business,Printing for stationery,D,494745,2026-07-13
+expenditure,2026-01-15,Burke & Herbert Bank,$12,Alexandria,VA,business,Bank fee,D,494745,2026-07-13
 expenditure,2026-01-16,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
 expenditure,2026-01-19,Mariya Ilyas,$300,Alexandria,VA,individual,Mileage reimbursement,D,494745,2026-07-13
 expenditure,2026-01-21,Andrew M Reiman,"$25,000",Mclean,VA,individual,Campaign services,D,494745,2026-07-13
 expenditure,2026-01-22,Hanna Hanania,$50,Lorton,VA,individual,Refund of contribution,D,494745,2026-07-13
 expenditure,2026-01-23,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-01-26,Amazon,$69.99,Seattle,WA,pac,Projector screen for events,D,494745,2026-07-13
-expenditure,2026-01-26,Foley & Lardner LLP,"$2,500",Washington,DC,pac,Legal services,D,494745,2026-07-13
+expenditure,2026-01-26,Amazon,$69.99,Seattle,WA,business,Projector screen for events,D,494745,2026-07-13
+expenditure,2026-01-26,Foley & Lardner LLP,"$2,500",Washington,DC,business,Legal services,D,494745,2026-07-13
 expenditure,2026-01-29,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-01-29,Don Mark,$500,Richmond,VA,individual,Campaign services,D,494745,2026-07-13
 expenditure,2026-01-30,Barbara P. Cotter,$10,Alexandria,VA,individual,Refund of contribution,D,494745,2026-07-13
 expenditure,2026-01-30,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
 expenditure,2026-02-02,Amy Beizer,$10,Alexandria,VA,individual,Refund of contribution,D,494745,2026-07-13
-expenditure,2026-02-02,NGP Software,$703.50,Washington,DC,pac,Software,D,494745,2026-07-13
-expenditure,2026-02-02,Paragon Payment Solutions,$840.51,Tempe,AZ,pac,Processing Fees,D,494745,2026-07-13
-expenditure,2026-02-02,Sage Payment Solutions,$42.50,McLean,VA,pac,Processing fee,D,494745,2026-07-13
-expenditure,2026-02-03,Public Storage 08153,$446,Alexandria,VA,pac,Storage,D,494745,2026-07-13
+expenditure,2026-02-02,NGP Software,$703.50,Washington,DC,business,Software,D,494745,2026-07-13
+expenditure,2026-02-02,Paragon Payment Solutions,$840.51,Tempe,AZ,business,Processing Fees,D,494745,2026-07-13
+expenditure,2026-02-02,Sage Payment Solutions,$42.50,McLean,VA,business,Processing fee,D,494745,2026-07-13
+expenditure,2026-02-03,Public Storage 08153,$446,Alexandria,VA,business,Storage,D,494745,2026-07-13
 expenditure,2026-02-05,Andrew M Reiman,"$4,000",Mclean,VA,individual,Campaign services,D,494745,2026-07-13
 expenditure,2026-02-06,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-02-11,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,494745,2026-07-13
+expenditure,2026-02-11,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,494745,2026-07-13
 expenditure,2026-02-12,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-02-16,Amazon,$83.73,Seattle,WA,pac,Speaker for events,D,494745,2026-07-13
-expenditure,2026-02-16,Electrical Solutions LLC,"$5,798",Alexandria,VA,pac,Security system,D,494745,2026-07-13
-expenditure,2026-02-16,Woodlawn Little League,"$1,000",Alexandria,VA,pac,Sponsorship,D,494745,2026-07-13
-expenditure,2026-02-19,Virginia Capitol Correspondents Association,$225,Richmond,VA,pac,Event tickets,D,494745,2026-07-13
+expenditure,2026-02-16,Amazon,$83.73,Seattle,WA,business,Speaker for events,D,494745,2026-07-13
+expenditure,2026-02-16,Electrical Solutions LLC,"$5,798",Alexandria,VA,business,Security system,D,494745,2026-07-13
+expenditure,2026-02-16,Woodlawn Little League,"$1,000",Alexandria,VA,business,Sponsorship,D,494745,2026-07-13
+expenditure,2026-02-19,Virginia Capitol Correspondents Association,$225,Richmond,VA,business,Event tickets,D,494745,2026-07-13
 expenditure,2026-02-20,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-02-23,Dunkin Donuts,$95.88,Alexandria,VA,pac,Refreshments for Puller Institute,D,494745,2026-07-13
-expenditure,2026-02-25,Tarrant's Cafe,$369.65,Richmond,VA,pac,Food for Puller Interns,D,494745,2026-07-13
+expenditure,2026-02-23,Dunkin Donuts,$95.88,Alexandria,VA,business,Refreshments for Puller Institute,D,494745,2026-07-13
+expenditure,2026-02-25,Tarrant's Cafe,$369.65,Richmond,VA,business,Food for Puller Interns,D,494745,2026-07-13
 expenditure,2026-02-26,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-02-26,Caitlin Fessler,"$5,000",Silver Spring,MD,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-02-26,Don Mark,$500,Richmond,VA,individual,Campaign services,D,494745,2026-07-13
-expenditure,2026-02-27,Hilton Richmond Downtown,"$1,547.57",Richmond,VA,pac,Puller institute lodging,D,494745,2026-07-13
+expenditure,2026-02-27,Hilton Richmond Downtown,"$1,547.57",Richmond,VA,business,Puller institute lodging,D,494745,2026-07-13
 expenditure,2026-02-27,Tsege Misghinna,$152.25,Lorton,VA,individual,Mileage reimbursement,D,494745,2026-07-13
 expenditure,2026-02-27,Maria J. Vorel,$145,Alexandria,VA,individual,Mileage reimbursement,D,494745,2026-07-13
 expenditure,2026-02-27,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-03-02,Fairfax County Public Schools,$581,Fairfax,VA,pac,Space rental for town hall,D,494745,2026-07-13
-expenditure,2026-03-02,Juleps New Southern Cuisine,$820,Richmond,VA,pac,Food for Puller Fellows,D,494745,2026-07-13
-expenditure,2026-03-02,Meriwethers Capitol Cafe,$690.90,Richmond,VA,pac,Food Puller Institute Fellows,D,494745,2026-07-13
-expenditure,2026-03-02,NGP Software,$315,Washington,DC,pac,Software,D,494745,2026-07-13
-expenditure,2026-03-02,Paragon Payment Solutions,$34.65,Tempe,AZ,pac,Processing Fees,D,494745,2026-07-13
-expenditure,2026-03-02,Sage Payment Solutions,$42.50,McLean,VA,pac,Processing fee,D,494745,2026-07-13
-expenditure,2026-03-03,Public Storage 08153,$446,Alexandria,VA,pac,Storage,D,494745,2026-07-13
+expenditure,2026-03-02,Fairfax County Public Schools,$581,Fairfax,VA,business,Space rental for town hall,D,494745,2026-07-13
+expenditure,2026-03-02,Juleps New Southern Cuisine,$820,Richmond,VA,business,Food for Puller Fellows,D,494745,2026-07-13
+expenditure,2026-03-02,Meriwethers Capitol Cafe,$690.90,Richmond,VA,business,Food Puller Institute Fellows,D,494745,2026-07-13
+expenditure,2026-03-02,NGP Software,$315,Washington,DC,business,Software,D,494745,2026-07-13
+expenditure,2026-03-02,Paragon Payment Solutions,$34.65,Tempe,AZ,business,Processing Fees,D,494745,2026-07-13
+expenditure,2026-03-02,Sage Payment Solutions,$42.50,McLean,VA,business,Processing fee,D,494745,2026-07-13
+expenditure,2026-03-03,Public Storage 08153,$446,Alexandria,VA,business,Storage,D,494745,2026-07-13
 expenditure,2026-03-05,Andrew M Reiman,"$4,000",Mclean,VA,individual,Campaign services,D,494745,2026-07-13
-expenditure,2026-03-06,Fairfax County Democratic Committee,"$1,000",Fairfax,VA,pac,Event sponsorship,D,494745,2026-07-13
+expenditure,2026-03-06,Fairfax County Democratic Committee,"$1,000",Fairfax,VA,business,Event sponsorship,D,494745,2026-07-13
 expenditure,2026-03-06,Virginia Senate Democratic Caucus,"$12,500",Richmond,VA,party,Caucus dues,D,494745,2026-07-13
 expenditure,2026-03-06,Virginia Senate Democratic Caucus,$500,Richmond,VA,party,Session meals reimbursement,D,494745,2026-07-13
 expenditure,2026-03-06,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-03-09,NGP Software,$315,Washington,DC,pac,Software,D,494745,2026-07-13
-expenditure,2026-03-11,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,494745,2026-07-13
-expenditure,2026-03-13,Fairfax County Democratic Committee,$100,Fairfax,VA,pac,Event sponsorship,D,494745,2026-07-13
+expenditure,2026-03-09,NGP Software,$315,Washington,DC,business,Software,D,494745,2026-07-13
+expenditure,2026-03-11,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,494745,2026-07-13
+expenditure,2026-03-13,Fairfax County Democratic Committee,$100,Fairfax,VA,business,Event sponsorship,D,494745,2026-07-13
 expenditure,2026-03-13,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-03-18,Fairfax County Democratic Committee,"$2,000",Fairfax,VA,pac,Event sponsorship,D,494745,2026-07-13
+expenditure,2026-03-18,Fairfax County Democratic Committee,"$2,000",Fairfax,VA,business,Event sponsorship,D,494745,2026-07-13
 expenditure,2026-03-20,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
 expenditure,2026-03-27,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
 expenditure,2026-03-30,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-03-30,Caitlin Fessler,"$5,000",Silver Spring,MD,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-03-30,Don Mark,$500,Richmond,VA,individual,Campaign services,D,494745,2026-07-13
-expenditure,2026-03-30,Will Smith for Suffolk,$500,Suffolk,VA,pac,Contribution,D,494745,2026-07-13
-expenditure,2026-04-02,Paragon Payment Solutions,$379.26,Tempe,AZ,pac,Processing Fees,D,494745,2026-07-13
-expenditure,2026-04-02,Sage Payment Solutions,$42.50,McLean,VA,pac,Processing fee,D,494745,2026-07-13
-expenditure,2026-04-03,Public Storage 08153,$446,Alexandria,VA,pac,Storage,D,494745,2026-07-13
+expenditure,2026-03-30,Will Smith for Suffolk,$500,Suffolk,VA,business,Contribution,D,494745,2026-07-13
+expenditure,2026-04-02,Paragon Payment Solutions,$379.26,Tempe,AZ,business,Processing Fees,D,494745,2026-07-13
+expenditure,2026-04-02,Sage Payment Solutions,$42.50,McLean,VA,business,Processing fee,D,494745,2026-07-13
+expenditure,2026-04-03,Public Storage 08153,$446,Alexandria,VA,business,Storage,D,494745,2026-07-13
 expenditure,2026-04-03,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-04-06,Amazon,$116.12,Seattle,WA,pac,Resolution frames,D,494745,2026-07-13
-expenditure,2026-04-06,NGP Software,$315,Washington,DC,pac,Software,D,494745,2026-07-13
-expenditure,2026-04-10,Mount Vernon High School Athletic Booster Club,"$1,500",Alexandria,VA,pac,Sponsorship,D,494745,2026-07-13
+expenditure,2026-04-06,Amazon,$116.12,Seattle,WA,business,Resolution frames,D,494745,2026-07-13
+expenditure,2026-04-06,NGP Software,$315,Washington,DC,business,Software,D,494745,2026-07-13
+expenditure,2026-04-10,Mount Vernon High School Athletic Booster Club,"$1,500",Alexandria,VA,business,Sponsorship,D,494745,2026-07-13
 expenditure,2026-04-10,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-04-12,ActBlue Virginia,$0.40,Cambridge,MA,pac,processing fee,D,494745,2026-07-13
-expenditure,2026-04-13,Dunkin Donuts,$57.18,Alexandria,VA,pac,Food for creek cleanup event,D,494745,2026-07-13
-expenditure,2026-04-13,Panera Bread,$37.82,Alexandria,VA,pac,Food for creek cleanup event,D,494745,2026-07-13
-expenditure,2026-04-13,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,494745,2026-07-13
+expenditure,2026-04-12,ActBlue Virginia,$0.40,Cambridge,MA,business,processing fee,D,494745,2026-07-13
+expenditure,2026-04-13,Dunkin Donuts,$57.18,Alexandria,VA,business,Food for creek cleanup event,D,494745,2026-07-13
+expenditure,2026-04-13,Panera Bread,$37.82,Alexandria,VA,business,Food for creek cleanup event,D,494745,2026-07-13
+expenditure,2026-04-13,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,494745,2026-07-13
 expenditure,2026-04-17,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-04-19,ActBlue Virginia,$2.50,Cambridge,MA,pac,processing fee,D,494745,2026-07-13
+expenditure,2026-04-19,ActBlue Virginia,$2.50,Cambridge,MA,business,processing fee,D,494745,2026-07-13
 expenditure,2026-04-24,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-04-27,GoDaddy.com,$150.54,Scottsdale,AZ,pac,Domain name hosting,D,494745,2026-07-13
-expenditure,2026-04-28,Fairfax County Democratic Committee,$300,Fairfax,VA,pac,Event sponsorship,D,494745,2026-07-13
+expenditure,2026-04-27,GoDaddy.com,$150.54,Scottsdale,AZ,business,Domain name hosting,D,494745,2026-07-13
+expenditure,2026-04-28,Fairfax County Democratic Committee,$300,Fairfax,VA,business,Event sponsorship,D,494745,2026-07-13
 expenditure,2026-04-29,Russell Brooks,$50,Alexandria,VA,individual,Refund of extra ticket accidentally purchased,D,494745,2026-07-13
 expenditure,2026-04-29,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-04-29,Caitlin Fessler,"$5,000",Silver Spring,MD,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-04-29,Don Mark,$500,Richmond,VA,individual,Campaign services,D,494745,2026-07-13
-expenditure,2026-04-30,Allegra Marketing,"$2,315.04",Fairfax,VA,pac,Fundraising Letter,D,494745,2026-07-13
-expenditure,2026-05-01,Amazon,$249.50,Seattle,WA,pac,Printer supplies,D,494745,2026-07-13
-expenditure,2026-05-01,Total Wine Springfield,$256.92,Springfield,VA,pac,Beverages for fundraiser,D,494745,2026-07-13
+expenditure,2026-04-30,Allegra Marketing,"$2,315.04",Fairfax,VA,business,Fundraising Letter,D,494745,2026-07-13
+expenditure,2026-05-01,Amazon,$249.50,Seattle,WA,business,Printer supplies,D,494745,2026-07-13
+expenditure,2026-05-01,Total Wine Springfield,$256.92,Springfield,VA,business,Beverages for fundraiser,D,494745,2026-07-13
 expenditure,2026-05-01,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
 expenditure,2026-05-03,Maritza Zermeno,$100,Alexandria,VA,individual,Refund for extra ticket purchased by mistake,D,494745,2026-07-13
-expenditure,2026-05-04,Amazon,$14.82,Seattle,WA,pac,Supplies for fundraiser,D,494745,2026-07-13
-expenditure,2026-05-04,Amazon,$21.15,Seattle,WA,pac,Supplies for fundraiser,D,494745,2026-07-13
-expenditure,2026-05-04,Giant Food,$60.81,Alexandria,VA,pac,Food for fundraiser,D,494745,2026-07-13
-expenditure,2026-05-04,NOVA Labor Federation,$750,Annandale,VA,pac,Event program ad,D,494745,2026-07-13
-expenditure,2026-05-04,Paragon Payment Solutions,$443.85,Tempe,AZ,pac,Processing Fees,D,494745,2026-07-13
+expenditure,2026-05-04,Amazon,$14.82,Seattle,WA,business,Supplies for fundraiser,D,494745,2026-07-13
+expenditure,2026-05-04,Amazon,$21.15,Seattle,WA,business,Supplies for fundraiser,D,494745,2026-07-13
+expenditure,2026-05-04,Giant Food,$60.81,Alexandria,VA,business,Food for fundraiser,D,494745,2026-07-13
+expenditure,2026-05-04,NOVA Labor Federation,$750,Annandale,VA,business,Event program ad,D,494745,2026-07-13
+expenditure,2026-05-04,Paragon Payment Solutions,$443.85,Tempe,AZ,business,Processing Fees,D,494745,2026-07-13
 expenditure,2026-05-04,Andrew M Reiman,$50,Mclean,VA,individual,Pinata for fundraiser,D,494745,2026-07-13
-expenditure,2026-05-04,Sage Payment Solutions,$42.50,McLean,VA,pac,Processing fee,D,494745,2026-07-13
-expenditure,2026-05-04,Treasurer of Virginia,$45,Richmond,VA,pac,Frame,D,494745,2026-07-13
-expenditure,2026-05-05,7 Eleven #10781,$48.40,Alexandria,VA,pac,Supplies for fundraiser,D,494745,2026-07-13
-expenditure,2026-05-05,El Paso Mexican Restaurant,"$1,896.16",Alexandria,VA,pac,Food for fundraiser,D,494745,2026-07-13
-expenditure,2026-05-05,Public Storage 08153,$446,Alexandria,VA,pac,Storage,D,494745,2026-07-13
-expenditure,2026-05-05,Staples,$13.35,Fairfax,VA,pac,printing and supplies for certificates,D,494745,2026-07-13
+expenditure,2026-05-04,Sage Payment Solutions,$42.50,McLean,VA,business,Processing fee,D,494745,2026-07-13
+expenditure,2026-05-04,Treasurer of Virginia,$45,Richmond,VA,business,Frame,D,494745,2026-07-13
+expenditure,2026-05-05,7 Eleven #10781,$48.40,Alexandria,VA,business,Supplies for fundraiser,D,494745,2026-07-13
+expenditure,2026-05-05,El Paso Mexican Restaurant,"$1,896.16",Alexandria,VA,business,Food for fundraiser,D,494745,2026-07-13
+expenditure,2026-05-05,Public Storage 08153,$446,Alexandria,VA,business,Storage,D,494745,2026-07-13
+expenditure,2026-05-05,Staples,$13.35,Fairfax,VA,business,printing and supplies for certificates,D,494745,2026-07-13
 expenditure,2026-05-06,Jorge Anaya,$800,Washington,DC,individual,Fundraiser entertainment,D,494745,2026-07-13
 expenditure,2026-05-08,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-05-10,ActBlue Virginia,$0.40,Cambridge,MA,pac,processing fee,D,494745,2026-07-13
-expenditure,2026-05-11,NGP Software,"$1,538.78",Washington,DC,pac,Software,D,494745,2026-07-13
-expenditure,2026-05-11,Waynewood Recreational Association,$300,Alexandria,VA,pac,Sponsorship,D,494745,2026-07-13
-expenditure,2026-05-11,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,494745,2026-07-13
-expenditure,2026-05-14,Fairfax County Democratic Committee,$550,Fairfax,VA,pac,Event sponsorship,D,494745,2026-07-13
-expenditure,2026-05-14,Fairfax County Democratic Committee,$600,Fairfax,VA,pac,Event program ad,D,494745,2026-07-13
+expenditure,2026-05-10,ActBlue Virginia,$0.40,Cambridge,MA,business,processing fee,D,494745,2026-07-13
+expenditure,2026-05-11,NGP Software,"$1,538.78",Washington,DC,business,Software,D,494745,2026-07-13
+expenditure,2026-05-11,Waynewood Recreational Association,$300,Alexandria,VA,business,Sponsorship,D,494745,2026-07-13
+expenditure,2026-05-11,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,494745,2026-07-13
+expenditure,2026-05-14,Fairfax County Democratic Committee,$550,Fairfax,VA,business,Event sponsorship,D,494745,2026-07-13
+expenditure,2026-05-14,Fairfax County Democratic Committee,$600,Fairfax,VA,business,Event program ad,D,494745,2026-07-13
 expenditure,2026-05-15,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-05-18,Washington Nationals,$194,Washington,DC,pac,Tickets for fundraiser,D,494745,2026-07-13
+expenditure,2026-05-18,Washington Nationals,$194,Washington,DC,business,Tickets for fundraiser,D,494745,2026-07-13
 expenditure,2026-05-21,Owen Wright,$200,Richmond,VA,individual,Intern pay,D,494745,2026-07-13
 expenditure,2026-05-26,Sam Espach,"$1,000",Alexandria,VA,individual,Intern Pay,D,494745,2026-07-13
 expenditure,2026-05-26,Carter Nohl,"$1,000",Glen Allen,VA,individual,Intern pay,D,494745,2026-07-13
-expenditure,2026-05-26,State Corporation Commission,$50,Richmond,VA,pac,Annual Incorporation fee,D,494745,2026-07-13
+expenditure,2026-05-26,State Corporation Commission,$50,Richmond,VA,business,Annual Incorporation fee,D,494745,2026-07-13
 expenditure,2026-05-28,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-05-28,Caitlin Fessler,"$5,000",Silver Spring,MD,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-05-28,Don Mark,$500,Richmond,VA,individual,Campaign services,D,494745,2026-07-13
-expenditure,2026-05-29,L. Louise Lucas Legal Defense Fund,"$1,000",Portsmouth,VA,pac,Contribution,D,494745,2026-07-13
-expenditure,2026-06-01,Sage Payment Solutions,$42.50,McLean,VA,pac,Processing fee,D,494745,2026-07-13
-expenditure,2026-06-02,Paragon Payment Solutions,$241.74,Tempe,AZ,pac,Processing Fees,D,494745,2026-07-13
-expenditure,2026-06-03,Public Storage 08153,$506,Alexandria,VA,pac,Storage,D,494745,2026-07-13
-expenditure,2026-06-08,NGP Software,$722.92,Washington,DC,pac,Software,D,494745,2026-07-13
-expenditure,2026-06-10,ASAP Printing and Graphics,"$3,651.70",Alexandria,VA,pac,Fundraising letter,D,494745,2026-07-13
-expenditure,2026-06-11,Zoom Video Communications,$17.84,San Jose,CA,pac,Video conferencing,D,494745,2026-07-13
-expenditure,2026-06-14,ActBlue Virginia,$0.40,Cambridge,MA,pac,processing fee,D,494745,2026-07-13
-expenditure,2026-06-22,GoDaddy.com,$98.36,Scottsdale,AZ,pac,Domain name hosting,D,494745,2026-07-13
-expenditure,2026-06-26,RR Donnelley,"$4,194.48",Washington,DC,pac,Doorhangers,D,494745,2026-07-13
+expenditure,2026-05-29,L. Louise Lucas Legal Defense Fund,"$1,000",Portsmouth,VA,business,Contribution,D,494745,2026-07-13
+expenditure,2026-06-01,Sage Payment Solutions,$42.50,McLean,VA,business,Processing fee,D,494745,2026-07-13
+expenditure,2026-06-02,Paragon Payment Solutions,$241.74,Tempe,AZ,business,Processing Fees,D,494745,2026-07-13
+expenditure,2026-06-03,Public Storage 08153,$506,Alexandria,VA,business,Storage,D,494745,2026-07-13
+expenditure,2026-06-08,NGP Software,$722.92,Washington,DC,business,Software,D,494745,2026-07-13
+expenditure,2026-06-10,ASAP Printing and Graphics,"$3,651.70",Alexandria,VA,business,Fundraising letter,D,494745,2026-07-13
+expenditure,2026-06-11,Zoom Video Communications,$17.84,San Jose,CA,business,Video conferencing,D,494745,2026-07-13
+expenditure,2026-06-14,ActBlue Virginia,$0.40,Cambridge,MA,business,processing fee,D,494745,2026-07-13
+expenditure,2026-06-22,GoDaddy.com,$98.36,Scottsdale,AZ,business,Domain name hosting,D,494745,2026-07-13
+expenditure,2026-06-26,RR Donnelley,"$4,194.48",Washington,DC,business,Doorhangers,D,494745,2026-07-13
 expenditure,2026-06-29,Fatimah Dandashi,$700,Richmond,VA,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-06-29,Caitlin Fessler,"$5,000",Silver Spring,MD,individual,Campaign Services,D,494745,2026-07-13
 expenditure,2026-06-29,Don Mark,$500,Richmond,VA,individual,Campaign services,D,494745,2026-07-13
-expenditure,2026-06-30,LAZERA Ministries,$100,Alexandria,VA,pac,Community goodwill,D,494745,2026-07-13
+expenditure,2026-06-30,LAZERA Ministries,$100,Alexandria,VA,business,Community goodwill,D,494745,2026-07-13

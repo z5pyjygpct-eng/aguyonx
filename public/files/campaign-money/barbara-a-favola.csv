@@ -3,25 +3,25 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$344,797.30",,VA,,"From official Schedule H, November 2023 election cycle",H,493378,2026-07-07
 summary,2026-06-30,Raised this cycle,"$67,735",,,,Total receipts this election cycle (Schedule H),H,493378,2026-07-07
 summary,2026-06-30,Spent this cycle,"$56,833.22",,,,Total disbursements this election cycle (Schedule H),H,493378,2026-07-07
-contribution,2022-11-23,"Associated Distributors, LLC","$2,500",Sandston,VA,pac,,A,306665,2023-01-10
-contribution,2022-11-08,"AT&T Services, Inc.",$250,Washington,DC,pac,,A,306665,2023-01-10
+contribution,2022-11-23,"Associated Distributors, LLC","$2,500",Sandston,VA,business,,A,306665,2023-01-10
+contribution,2022-11-08,"AT&T Services, Inc.",$250,Washington,DC,business,,A,306665,2023-01-10
 contribution,2022-11-12,Mrs. Nancy C Bleeker,$250,McLean,VA,individual,,A,306665,2023-01-10
 contribution,2022-11-29,April Breslaw,$100,McLean,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-02,April Breslaw,$100,McLean,VA,individual,,A,306665,2023-01-10
 contribution,2022-11-22,Jeanne M. Broyhill,"$1,500",Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-11-22,Wes Callender,$500,Great Falls,VA,individual,,A,306665,2023-01-10
-contribution,2022-08-29,"Capital One Services, LLC","$1,000",Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-12-28,CareFirst BlueCross BlueShield,$500,Washington,DC,pac,,A,306665,2023-01-10
+contribution,2022-08-29,"Capital One Services, LLC","$1,000",Richmond,VA,business,,A,306665,2023-01-10
+contribution,2022-12-28,CareFirst BlueCross BlueShield,$500,Washington,DC,business,,A,306665,2023-01-10
 contribution,2022-07-31,Certified Registered Nurse Anesthetist PAC,$500,Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-12-12,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,A,306665,2023-01-10
-contribution,2022-12-12,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,306665,2023-01-10
-contribution,2022-08-29,Comcast Corporation,$500,Richmond,VA,pac,,A,306665,2023-01-10
+contribution,2022-12-12,Clean Virginia Fund,"$5,000",Charlottesville,VA,business,,A,306665,2023-01-10
+contribution,2022-12-12,Clean Virginia Fund,"$10,000",Charlottesville,VA,business,,A,306665,2023-01-10
+contribution,2022-08-29,Comcast Corporation,$500,Richmond,VA,business,,A,306665,2023-01-10
 contribution,2022-07-11,Commercial Development PAC,$500,Alexandria,VA,pac,,A,306665,2023-01-10
 contribution,2022-12-15,Commissioner of the Revenue PAC,$125,Fairfax,VA,pac,,A,306665,2023-01-10
 contribution,2022-12-25,SEIU COPE,"$1,000",Washington,DC,individual,,A,306665,2023-01-10
-contribution,2022-12-03,"Covanta Energy, LLC",$250,Richmond,VA,pac,,A,306665,2023-01-10
+contribution,2022-12-03,"Covanta Energy, LLC",$250,Richmond,VA,business,,A,306665,2023-01-10
 contribution,2022-12-03,Brian Detter,$250,Mc Lean,VA,individual,,A,306665,2023-01-10
-contribution,2022-11-09,Eastern Atlantic States Regional Council of Carpenters Political Education Committee,$500,Philadelphia,PA,pac,,A,306665,2023-01-10
+contribution,2022-11-09,Eastern Atlantic States Regional Council of Carpenters Political Education Committee,$500,Philadelphia,PA,business,,A,306665,2023-01-10
 contribution,2022-12-11,Elizabeth El-Nattar,"$2,500",Mc Lean,VA,individual,,A,306665,2023-01-10
 contribution,2022-11-19,Emergency Medicine PAC of Virginia,$500,Richmond,VA,pac,,A,306665,2023-01-10
 contribution,2022-11-21,Paul Ferguson,$50,Arlington,VA,individual,,A,306665,2023-01-10
@@ -29,23 +29,23 @@ contribution,2022-12-03,Sarah Flourance,$200,Alexandria,VA,individual,,A,306665,
 contribution,2022-11-23,John William Foust,$250,Falls Church,VA,individual,,A,306665,2023-01-10
 contribution,2022-10-06,Ronald W French,$250,Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-20,General Motors PAC,$500,Washington,DC,pac,,A,306665,2023-01-10
-contribution,2022-10-28,"Green Ridge Recycling & Disposal Facility, LLC",$500,Richmond,VA,pac,,A,306665,2023-01-10
+contribution,2022-10-28,"Green Ridge Recycling & Disposal Facility, LLC",$500,Richmond,VA,business,,A,306665,2023-01-10
 contribution,2022-08-28,Steven Hammond,$250,Richmond,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-12,HBAV Build-PAC,"$2,000",Richmond,VA,pac,,A,306665,2023-01-10
 contribution,2022-08-18,HCA for Good Government PAC,"$1,000",Reston,VA,pac,,A,306665,2023-01-10
-contribution,2022-10-11,Huntington Ingalls Industries,$500,Newport News,VA,pac,,A,306665,2023-01-10
-contribution,2022-08-06,"Hunton Andrews Kurth, LLP","$1,000",Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-08-19,"IDI Project Management, LC","$3,000",Arlington,VA,pac,,A,306665,2023-01-10
+contribution,2022-10-11,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,306665,2023-01-10
+contribution,2022-08-06,"Hunton Andrews Kurth, LLP","$1,000",Richmond,VA,business,,A,306665,2023-01-10
+contribution,2022-08-19,"IDI Project Management, LC","$3,000",Arlington,VA,business,,A,306665,2023-01-10
 contribution,2022-11-22,Nina Janopaul,$250,Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-10-15,JBG Smith Builds Virginia PAC,"$1,000",Arlington,VA,pac,,A,306665,2023-01-10
-contribution,2022-09-22,Johnson Brothers Service Distributing,"$2,000",Lorton,VA,pac,,A,306665,2023-01-10
-contribution,2022-12-23,Jushi Inc.,"$2,500",Richmond,VA,pac,,A,306665,2023-01-10
+contribution,2022-09-22,Johnson Brothers Service Distributing,"$2,000",Lorton,VA,business,,A,306665,2023-01-10
+contribution,2022-12-23,Jushi Inc.,"$2,500",Richmond,VA,business,,A,306665,2023-01-10
 contribution,2022-11-13,Herschel Kanter,$250,Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-04,Benedetta Kissel,$100,Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-10-09,Gerald Lee,$250,Fairfax,VA,individual,,A,306665,2023-01-10
 contribution,2022-11-06,Russell Libby,"$1,000",McLean,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-11,Russell Libby,$500,McLean,VA,individual,,A,306665,2023-01-10
-contribution,2022-12-03,Local 32BJ SEIU Dream Fund,"$1,500",New York,NY,pac,,A,306665,2023-01-10
+contribution,2022-12-03,Local 32BJ SEIU Dream Fund,"$1,500",New York,NY,business,,A,306665,2023-01-10
 contribution,2022-11-27,Timothy Lynch,"$2,500",Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-11-26,Maritime Issues Council PAC,"$1,000",Norfolk,VA,pac,,A,306665,2023-01-10
 contribution,2022-11-22,Ms. Suzann W. Matthews,"$1,000",Mc Lean,VA,individual,,A,306665,2023-01-10
@@ -53,99 +53,99 @@ contribution,2022-07-28,McGuireWoods State PAC,$500,Richmond,VA,pac,,A,306665,20
 contribution,2022-12-08,McGuireWoods State PAC,$500,Richmond,VA,pac,,A,306665,2023-01-10
 contribution,2022-10-20,Thomas Mcnamara,$50,Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-08,Thomas Mcnamara,$100,Arlington,VA,individual,,A,306665,2023-01-10
-contribution,2022-08-09,Molina Healthcare Inc.,$500,Long Beach,CA,pac,,A,306665,2023-01-10
-contribution,2022-11-26,Molson Coors Beverage Company,$500,Richmond,VA,pac,,A,306665,2023-01-10
+contribution,2022-08-09,Molina Healthcare Inc.,$500,Long Beach,CA,business,,A,306665,2023-01-10
+contribution,2022-11-26,Molson Coors Beverage Company,$500,Richmond,VA,business,,A,306665,2023-01-10
 contribution,2022-12-12,Northern Virginia Building Industry Association PAC,"$2,000",Chantilly,VA,pac,,A,306665,2023-01-10
 contribution,2022-09-30,Jenette O'Keefe,$250,Arlington,VA,individual,,A,306665,2023-01-10
-contribution,2022-12-30,Omega Protein,$500,Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-11-10,Pace_O-Matic,"$2,500",Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-12-08,Pharmaceutical Research and Manufacturers of Americal,"$1,000",Doswell,VA,pac,,A,306665,2023-01-10
+contribution,2022-12-30,Omega Protein,$500,Richmond,VA,business,,A,306665,2023-01-10
+contribution,2022-11-10,Pace_O-Matic,"$2,500",Richmond,VA,business,,A,306665,2023-01-10
+contribution,2022-12-08,Pharmaceutical Research and Manufacturers of Americal,"$1,000",Doswell,VA,business,,A,306665,2023-01-10
 contribution,2022-12-03,Mary Pierce,$100,Mc Lean,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-29,Scott Plein,"$1,000",Bristow,VA,individual,,A,306665,2023-01-10
-contribution,2022-11-07,"Premium Distributors of VA, LLC","$2,500",Chantilly,VA,pac,,A,306665,2023-01-10
+contribution,2022-11-07,"Premium Distributors of VA, LLC","$2,500",Chantilly,VA,business,,A,306665,2023-01-10
 contribution,2022-12-04,Msheila Rabaut,"$2,500",Great Falls,VA,individual,,A,306665,2023-01-10
 contribution,2022-09-30,Winifred Raven-Hansen,$100,Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-07-21,Raytheon Political Action Committee,$500,Arlington,VA,pac,,A,306665,2023-01-10
 contribution,2022-12-15,Raytheon Political Action Committee,$250,Arlington,VA,pac,,A,306665,2023-01-10
 contribution,2022-10-20,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,A,306665,2023-01-10
-contribution,2022-09-30,Republic National Distributing Company of Virginia,"$3,500",Ashland,VA,pac,,A,306665,2023-01-10
+contribution,2022-09-30,Republic National Distributing Company of Virginia,"$3,500",Ashland,VA,business,,A,306665,2023-01-10
 contribution,2022-11-13,Kevin Riley,"$1,000",McLean,VA,individual,,A,306665,2023-01-10
 contribution,2022-11-22,Stephen Rolandi,$100,Larchmont,NY,individual,,A,306665,2023-01-10
 contribution,2022-12-05,Sierra Club,$500,Richmond,VA,pac,,A,306665,2023-01-10
 contribution,2022-09-30,"Julius D. JD"""" Spain Sr.",$250,Arlington,VA,individual,,A,306665,2023-01-10
-contribution,2022-11-29,"Strata Clean Energy, LLC","$1,000",Durham,NC,pac,,A,306665,2023-01-10
+contribution,2022-11-29,"Strata Clean Energy, LLC","$1,000",Durham,NC,business,,A,306665,2023-01-10
 contribution,2022-12-02,Valerie Stucky,$100,Reston,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-02,Valerie Stucky,$100,Reston,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-12,The Boeing Company PAC,$500,Arlington,VA,pac,,A,306665,2023-01-10
 contribution,2022-12-18,Randy J Toll,$500,McLean,VA,individual,,A,306665,2023-01-10
-contribution,2022-11-19,VCTA Broadband Association of Virginia,"$1,000",Richmond,VA,pac,,A,306665,2023-01-10
+contribution,2022-11-19,VCTA Broadband Association of Virginia,"$1,000",Richmond,VA,business,,A,306665,2023-01-10
 contribution,2022-11-03,Veterinarians Political Action Committee,$250,Richmond,VA,pac,,A,306665,2023-01-10
 contribution,2022-12-31,Virginia Asian American Store Owners Association PAC,"$2,500",Richmond,VA,pac,,A,306665,2023-01-10
 contribution,2022-12-28,Virginia BankPAC,$500,Glen Allen,VA,pac,,A,306665,2023-01-10
-contribution,2022-11-07,Virginia Beer Wholesalers Association,"$10,000",Richmond,VA,pac,,A,306665,2023-01-10
+contribution,2022-11-07,Virginia Beer Wholesalers Association,"$10,000",Richmond,VA,business,,A,306665,2023-01-10
 contribution,2022-12-30,"Virginia Chapter, American Academy of Pediatrics (KidsMD PAC)",$250,Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-07-21,Virginia Dental Association,"$1,000",Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-11-12,Virginia Eagle Distribution Company LLC,"$1,000",Verona,VA,pac,,A,306665,2023-01-10
+contribution,2022-07-21,Virginia Dental Association,"$1,000",Richmond,VA,business,,A,306665,2023-01-10
+contribution,2022-11-12,Virginia Eagle Distribution Company LLC,"$1,000",Verona,VA,business,,A,306665,2023-01-10
 contribution,2022-10-28,Virginia Hospital & Healthcare Association PAC,"$2,000",Richmond,VA,pac,,A,306665,2023-01-10
 contribution,2022-12-23,"Virginia Independent Auto Dealers, PAC",$500,Midlothian,VA,pac,,A,306665,2023-01-10
 contribution,2022-07-31,Virginia Preservation PAC,$500,Richmond,VA,pac,,A,306665,2023-01-10
 contribution,2022-07-14,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-12-10,Virginia Spirits Association,$500,Moseley,VA,pac,,A,306665,2023-01-10
+contribution,2022-12-10,Virginia Spirits Association,$500,Moseley,VA,business,,A,306665,2023-01-10
 contribution,2022-12-05,Virginia State Police PAC Account,$150,Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-10-17,Virginia Transportation Construction Alliance,"$1,000",North Chesterfield,VA,pac,,A,306665,2023-01-10
+contribution,2022-10-17,Virginia Transportation Construction Alliance,"$1,000",North Chesterfield,VA,business,,A,306665,2023-01-10
 contribution,2022-09-30,Virginia Wine Wholesalers Association PAC,"$7,500",Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-09-01,Waste Management,"$1,000",Washington,DC,pac,,A,306665,2023-01-10
+contribution,2022-09-01,Waste Management,"$1,000",Washington,DC,business,,A,306665,2023-01-10
 contribution,2022-11-29,W Pete Welch,$500,Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-04,W Pete Welch,$500,Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-03,Katherine White,$100,Annandale,VA,individual,,A,306665,2023-01-10
 contribution,2022-11-29,John Whyte,"$1,500",Great Falls,VA,individual,,A,306665,2023-01-10
 contribution,2022-11-13,Elizabeth Wildhack,"$1,000",Arlington,VA,individual,,A,306665,2023-01-10
-contribution,2022-12-30,Williams Mullen,"$1,000",Richmond,VA,pac,,A,306665,2023-01-10
+contribution,2022-12-30,Williams Mullen,"$1,000",Richmond,VA,business,,A,306665,2023-01-10
 contribution,2022-12-02,James and Wanda Younger,$500,Arlington,VA,individual,,A,306665,2023-01-10
 contribution,2022-12-21,Abbott Laboratories Employee PAC,"$1,000",Scituate,MA,pac,,A,306665,2023-01-10
-contribution,2022-10-20,Amazon,"$2,500",Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-12-30,American Electric Power Company,"$1,500",Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-12-22,"American Traffic Solutions, Inc./Verra Mobility","$1,000",Richmond,VA,pac,,A,306665,2023-01-10
-contribution,2022-11-09,Anheuser-Busch Companies,"$1,500",Marietta,GA,pac,,A,306665,2023-01-10
-contribution,2022-08-08,Anthem Blue Cross and Blue Shield,$500,Richmond,VA,pac,,A,306665,2023-01-10
+contribution,2022-10-20,Amazon,"$2,500",Richmond,VA,business,,A,306665,2023-01-10
+contribution,2022-12-30,American Electric Power Company,"$1,500",Richmond,VA,business,,A,306665,2023-01-10
+contribution,2022-12-22,"American Traffic Solutions, Inc./Verra Mobility","$1,000",Richmond,VA,business,,A,306665,2023-01-10
+contribution,2022-11-09,Anheuser-Busch Companies,"$1,500",Marietta,GA,business,,A,306665,2023-01-10
+contribution,2022-08-08,Anthem Blue Cross and Blue Shield,$500,Richmond,VA,business,,A,306665,2023-01-10
 contribution,2022-12-08,AOBA Metro Virginia PAC M301,$500,Washington,DC,pac,,A,306665,2023-01-10
 contribution,2025-08-14,Abbott Laboratories Employee PAC,"$1,000",Scituate,MA,pac,,A,476531,2026-01-11
 contribution,2025-12-16,Abbott Laboratories Employee PAC,"$1,000",Scituate,MA,pac,,A,476531,2026-01-11
 contribution,2025-09-29,"Acadia Healthcare Company, Inc FEDPAC","$1,000",Franklin,TN,pac,,A,476531,2026-01-11
-contribution,2025-12-16,ACE Development Company LLC,$500,Salt Lake City,UT,pac,,A,476531,2026-01-11
-contribution,2025-08-27,AFSCME,"$3,000",Washington,DC,pac,,A,476531,2026-01-11
+contribution,2025-12-16,ACE Development Company LLC,$500,Salt Lake City,UT,business,,A,476531,2026-01-11
+contribution,2025-08-27,AFSCME,"$3,000",Washington,DC,business,,A,476531,2026-01-11
 contribution,2025-08-17,Mark Albert,$25,Herndon,VA,individual,,A,476531,2026-01-11
 contribution,2025-09-17,Mark Albert,$25,Herndon,VA,individual,,A,476531,2026-01-11
 contribution,2025-10-17,Mark Albert,$25,Herndon,VA,individual,,A,476531,2026-01-11
 contribution,2025-11-17,Mark Albert,$25,Herndon,VA,individual,,A,476531,2026-01-11
 contribution,2025-12-17,Mark Albert,$25,Herndon,VA,individual,,A,476531,2026-01-11
-contribution,2025-08-19,Amazon,"$2,500",Richmond,VA,pac,,A,476531,2026-01-11
+contribution,2025-08-19,Amazon,"$2,500",Richmond,VA,business,,A,476531,2026-01-11
 contribution,2025-10-03,American Property Casualty Insurance Association Political Account,$500,Chicago,IL,pac,,A,476531,2026-01-11
-contribution,2025-07-02,Anheuser-Busch Companies,"$1,500",Marietta,GA,pac,,A,476531,2026-01-11
+contribution,2025-07-02,Anheuser-Busch Companies,"$1,500",Marietta,GA,business,,A,476531,2026-01-11
 contribution,2025-12-15,AOBA Metro Virginia PAC M301,$500,Washington,DC,pac,,A,476531,2026-01-11
-contribution,2025-09-24,"Associated Distributors, LLC","$2,500",Sandston,VA,pac,,A,476531,2026-01-11
+contribution,2025-09-24,"Associated Distributors, LLC","$2,500",Sandston,VA,business,,A,476531,2026-01-11
 contribution,2025-09-12,Boyd-Pamunkey Casino PAC,"$1,000",Norfolk,VA,pac,,A,476531,2026-01-11
-contribution,2025-09-17,CARE Advantage Inc.,"$2,500",North Chesterfield,VA,pac,,A,476531,2026-01-11
-contribution,2025-08-19,CareFirst BlueCross BlueShield,"$1,000",Washington,DC,pac,,A,476531,2026-01-11
-contribution,2025-09-29,CC Procurement LLC,$750,Chelmsford,MA,pac,,A,476531,2026-01-11
+contribution,2025-09-17,CARE Advantage Inc.,"$2,500",North Chesterfield,VA,business,,A,476531,2026-01-11
+contribution,2025-08-19,CareFirst BlueCross BlueShield,"$1,000",Washington,DC,business,,A,476531,2026-01-11
+contribution,2025-09-29,CC Procurement LLC,$750,Chelmsford,MA,business,,A,476531,2026-01-11
 contribution,2025-12-17,Commercial Development PAC,$500,Alexandria,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-31,Commissioner of Revenue PAC,$250,Arlington,VA,pac,,A,476531,2026-01-11
 contribution,2025-07-21,Dr. Julia Connally,$100,Arlington,VA,individual,,A,476531,2026-01-11
-contribution,2025-10-14,Cozen O'Connor,"$1,000",Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-12-31,Cozen O'Connor,"$1,000",Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-10-03,"Davita HealthCare Partners, Inc.",$500,Washington,DC,pac,,A,476531,2026-01-11
+contribution,2025-10-14,Cozen O'Connor,"$1,000",Richmond,VA,business,,A,476531,2026-01-11
+contribution,2025-12-31,Cozen O'Connor,"$1,000",Richmond,VA,business,,A,476531,2026-01-11
+contribution,2025-10-03,"Davita HealthCare Partners, Inc.",$500,Washington,DC,business,,A,476531,2026-01-11
 contribution,2025-07-31,Muriel Farley Dominguez,$100,Arlington,VA,individual,,A,476531,2026-01-11
-contribution,2025-12-17,"Elevance Health, Inc.","$2,000",Cincinnati,OH,pac,,A,476531,2026-01-11
+contribution,2025-12-17,"Elevance Health, Inc.","$2,000",Cincinnati,OH,business,,A,476531,2026-01-11
 contribution,2025-11-03,Peter Evans,$100,Arlington,VA,individual,,A,476531,2026-01-11
-contribution,2025-12-05,"Genworth Financial, Inc.","$1,000",Washington,DC,pac,,A,476531,2026-01-11
+contribution,2025-12-05,"Genworth Financial, Inc.","$1,000",Washington,DC,business,,A,476531,2026-01-11
 contribution,2025-12-16,HBAV Build-PAC,"$2,000",Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-11-19,HCA for Good Government PAC,"$3,000",Reston,VA,pac,,A,476531,2026-01-11
-contribution,2025-12-31,Humana Inc.,"$1,000",Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-10-22,Huntington Ingalls Industries,"$1,000",Newport News,VA,pac,,A,476531,2026-01-11
-contribution,2025-12-22,"Hunton Andrews Kurth, LLP","$1,000",Richmond,VA,pac,,A,476531,2026-01-11
+contribution,2025-12-31,Humana Inc.,"$1,000",Richmond,VA,business,,A,476531,2026-01-11
+contribution,2025-10-22,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,476531,2026-01-11
+contribution,2025-12-22,"Hunton Andrews Kurth, LLP","$1,000",Richmond,VA,business,,A,476531,2026-01-11
 contribution,2025-08-29,JBG Smith Builds Virginia PAC,"$10,000",Arlington,VA,pac,,A,476531,2026-01-11
-contribution,2025-10-09,Johnson Brothers Service Distributing,"$1,500",Lorton,VA,pac,,A,476531,2026-01-11
-contribution,2025-08-14,Jushi Inc.,"$1,500",Richmond,VA,pac,,A,476531,2026-01-11
+contribution,2025-10-09,Johnson Brothers Service Distributing,"$1,500",Lorton,VA,business,,A,476531,2026-01-11
+contribution,2025-08-14,Jushi Inc.,"$1,500",Richmond,VA,business,,A,476531,2026-01-11
 contribution,2025-07-14,Linda Lou Kelley,$25,Arlington,VA,individual,,A,476531,2026-01-11
 contribution,2025-08-14,Linda Lou Kelley,$25,Arlington,VA,individual,,A,476531,2026-01-11
 contribution,2025-09-14,Linda Lou Kelley,$25,Arlington,VA,individual,,A,476531,2026-01-11
@@ -156,58 +156,58 @@ contribution,2025-12-06,Anna Lucca,$250,Falls Church,VA,individual,,A,476531,202
 contribution,2025-12-08,McGuireWoods State PAC,$500,Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-16,Medical Society of Virginia PAC,"$2,000",Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-31,Mental Health PAC,"$1,000",Washington,DC,pac,,A,476531,2026-01-11
-contribution,2025-07-31,Merck,"$1,000",Washington,DC,pac,,A,476531,2026-01-11
-contribution,2025-11-19,"Micron Technology, Inc.","$1,000",Boise,ID,pac,,A,476531,2026-01-11
-contribution,2025-09-08,Molson Coors Beverage Company,"$1,000",Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-11-17,Molson Coors Beverage Company,"$1,000",Richmond,VA,pac,,A,476531,2026-01-11
+contribution,2025-07-31,Merck,"$1,000",Washington,DC,business,,A,476531,2026-01-11
+contribution,2025-11-19,"Micron Technology, Inc.","$1,000",Boise,ID,business,,A,476531,2026-01-11
+contribution,2025-09-08,Molson Coors Beverage Company,"$1,000",Richmond,VA,business,,A,476531,2026-01-11
+contribution,2025-11-17,Molson Coors Beverage Company,"$1,000",Richmond,VA,business,,A,476531,2026-01-11
 contribution,2025-09-15,James J. Morris,$250,Richmond,VA,individual,,A,476531,2026-01-11
-contribution,2025-10-09,Mountain Valley Pipeline LLC,"$1,000",Canonsburg,PA,pac,,A,476531,2026-01-11
+contribution,2025-10-09,Mountain Valley Pipeline LLC,"$1,000",Canonsburg,PA,business,,A,476531,2026-01-11
 contribution,2025-12-16,Northern Virginia Building Industry Association PAC,"$1,000",Chantilly,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-26,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,476531,2026-01-11
-contribution,2025-10-24,Pharmaceutical Research and Manufacturers of Americal,"$1,000",Doswell,VA,pac,,A,476531,2026-01-11
+contribution,2025-10-24,Pharmaceutical Research and Manufacturers of Americal,"$1,000",Doswell,VA,business,,A,476531,2026-01-11
 contribution,2025-12-31,Scott Plein,"$1,000",Bristow,VA,individual,,A,476531,2026-01-11
-contribution,2025-07-18,"PMI US Corporate Services, Inc.","$2,500",Washington,DC,pac,,A,476531,2026-01-11
-contribution,2025-09-19,"Premium Distributors of VA, LLC","$3,500",Chantilly,VA,pac,,A,476531,2026-01-11
-contribution,2025-11-12,Prime Therapeutics,"$1,000",Saint Paul,MN,pac,,A,476531,2026-01-11
-contribution,2025-11-03,"Publix Super Markets, Inc.",$500,Raleigh,NC,pac,,A,476531,2026-01-11
+contribution,2025-07-18,"PMI US Corporate Services, Inc.","$2,500",Washington,DC,business,,A,476531,2026-01-11
+contribution,2025-09-19,"Premium Distributors of VA, LLC","$3,500",Chantilly,VA,business,,A,476531,2026-01-11
+contribution,2025-11-12,Prime Therapeutics,"$1,000",Saint Paul,MN,business,,A,476531,2026-01-11
+contribution,2025-11-03,"Publix Super Markets, Inc.",$500,Raleigh,NC,business,,A,476531,2026-01-11
 contribution,2025-12-02,Quest Diagnostics Incorporated PAC,$500,Secaucus,NJ,pac,,A,476531,2026-01-11
 contribution,2025-12-31,Isobel Rahn,$5,Mc Lean,VA,individual,,A,476531,2026-01-11
 contribution,2025-08-22,Realtors PAC of Virginia,"$2,500",Glen Allen,VA,pac,,A,476531,2026-01-11
-contribution,2025-09-24,Republic National Distributing Company of Virginia,"$2,500",Ashland,VA,pac,,A,476531,2026-01-11
-contribution,2025-07-18,"Reworld Waste, LLC",$500,Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-10-21,"Rivers Portsmouth Gaming, LLC","$5,000",Portsmouth,VA,pac,,A,476531,2026-01-11
-contribution,2025-10-16,SEIU COPE,"$2,500",Washington,DC,pac,,A,476531,2026-01-11
-contribution,2025-12-18,"Sentara Health Administration, Inc.","$1,000",Virginia Beach,VA,pac,,A,476531,2026-01-11
-contribution,2025-11-19,Seven Hills Strategy Group,$250,Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-09-17,"Strata Solar, LLC",$500,Durham,NC,pac,,A,476531,2026-01-11
+contribution,2025-09-24,Republic National Distributing Company of Virginia,"$2,500",Ashland,VA,business,,A,476531,2026-01-11
+contribution,2025-07-18,"Reworld Waste, LLC",$500,Richmond,VA,business,,A,476531,2026-01-11
+contribution,2025-10-21,"Rivers Portsmouth Gaming, LLC","$5,000",Portsmouth,VA,business,,A,476531,2026-01-11
+contribution,2025-10-16,SEIU COPE,"$2,500",Washington,DC,business,,A,476531,2026-01-11
+contribution,2025-12-18,"Sentara Health Administration, Inc.","$1,000",Virginia Beach,VA,business,,A,476531,2026-01-11
+contribution,2025-11-19,Seven Hills Strategy Group,$250,Richmond,VA,business,,A,476531,2026-01-11
+contribution,2025-09-17,"Strata Solar, LLC",$500,Durham,NC,business,,A,476531,2026-01-11
 contribution,2025-10-04,Miles Townes,$250,Arlington,VA,individual,,A,476531,2026-01-11
-contribution,2025-11-26,"Transurban USA, Inc.",$500,Tysons,VA,pac,,A,476531,2026-01-11
-contribution,2025-09-02,"United Airlines, Inc.",$250,Houston,TX,pac,,A,476531,2026-01-11
+contribution,2025-11-26,"Transurban USA, Inc.",$500,Tysons,VA,business,,A,476531,2026-01-11
+contribution,2025-09-02,"United Airlines, Inc.",$250,Houston,TX,business,,A,476531,2026-01-11
 contribution,2025-12-16,VA Cannabis Association PAC,$500,Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-12-17,VA Operators for Skill,"$2,500",Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-08-22,VA Orthopaedic Society,$250,Richmond,VA,pac,,A,476531,2026-01-11
+contribution,2025-12-17,VA Operators for Skill,"$2,500",Richmond,VA,business,,A,476531,2026-01-11
+contribution,2025-08-22,VA Orthopaedic Society,$250,Richmond,VA,business,,A,476531,2026-01-11
 contribution,2025-12-30,Virginia Association of Health Plans PAC,"$1,500",Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-09-17,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-22,Virginia Bankers Association PAC,"$1,500",Glen Allen,VA,pac,,A,476531,2026-01-11
-contribution,2025-10-29,Virginia Beer Wholesalers Association,"$10,000",Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-09-24,Virginia Beverage Association,$750,Richmond,VA,pac,,A,476531,2026-01-11
+contribution,2025-10-29,Virginia Beer Wholesalers Association,"$10,000",Richmond,VA,business,,A,476531,2026-01-11
+contribution,2025-09-24,Virginia Beverage Association,$750,Richmond,VA,business,,A,476531,2026-01-11
 contribution,2025-09-29,Virginia Cable PAC,"$1,500",Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-10-01,Virginia Chiropractic PAC,$500,Afton,VA,pac,,A,476531,2026-01-11
 contribution,2025-10-16,Virginia CRNAs Who Care About Healthcare PAC,$750,Roanoke,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-29,Virginia CRNAs Who Care About Healthcare PAC,"$5,000",Roanoke,VA,pac,,A,476531,2026-01-11
-contribution,2025-10-09,Virginia Dental Association,"$2,500",Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-11-19,Virginia Eagle Distribution Company LLC,"$1,000",Verona,VA,pac,,A,476531,2026-01-11
+contribution,2025-10-09,Virginia Dental Association,"$2,500",Richmond,VA,business,,A,476531,2026-01-11
+contribution,2025-11-19,Virginia Eagle Distribution Company LLC,"$1,000",Verona,VA,business,,A,476531,2026-01-11
 contribution,2025-12-06,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-10-03,Virginia Health Care Association PAC,"$3,000",Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-20,Virginia Health Care Association PAC,"$5,500",Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-16,Virginia Hospital & Healthcare Association PAC,"$2,500",Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-10-09,"Virginia Imports, Ltd.","$2,500",Springfield,VA,pac,,A,476531,2026-01-11
+contribution,2025-10-09,"Virginia Imports, Ltd.","$2,500",Springfield,VA,business,,A,476531,2026-01-11
 contribution,2025-12-08,Virginia Lifepoint Hospitals PAC,"$1,000",Richlands,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-15,Virginia Manufactured & Modular Housing Association PAC,$500,Henrico,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-16,Virginia Manufacturers Association PAC,$500,Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-10-29,Virginia Maritime Association PAC,"$1,500",Norfolk,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-19,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,A,476531,2026-01-11
-contribution,2025-09-02,Virginia Pharmacists Association,$500,North Chesterfield,VA,pac,,A,476531,2026-01-11
+contribution,2025-09-02,Virginia Pharmacists Association,$500,North Chesterfield,VA,business,,A,476531,2026-01-11
 contribution,2025-12-05,Virginia Psychology PAC,$500,Henrico,VA,pac,,A,476531,2026-01-11
 contribution,2025-12-05,Virginia Psychology PAC,"$1,000",Henrico,VA,pac,,A,476531,2026-01-11
 contribution,2025-08-06,Virginia Radiology PAC,"$1,000",Henrico,VA,pac,,A,476531,2026-01-11
@@ -215,13 +215,13 @@ contribution,2025-12-31,Virginia Senate Democratic Caucus,"$2,500",Richmond,VA,p
 contribution,2025-10-01,Virginia Sheriffs' Association PAC,"$1,000",Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-09-24,Virginia Society of Anesthesiologists PAC,"$1,000",Richmond,VA,pac,,A,476531,2026-01-11
 contribution,2025-09-24,Virginia Wine Wholesalers Association PAC,"$10,000",Richmond,VA,pac,,A,476531,2026-01-11
-contribution,2025-12-16,VSP Vision,$500,Rancho Cordova,CA,pac,,A,476531,2026-01-11
+contribution,2025-12-16,VSP Vision,$500,Rancho Cordova,CA,business,,A,476531,2026-01-11
 contribution,2025-12-16,"WALPAC for Responsible Government Walmart, Inc.","$1,000",Bentonville,AR,pac,,A,476531,2026-01-11
 contribution,2025-11-03,Washington Gas Light Company PAC,"$1,000",Washington,DC,pac,,A,476531,2026-01-11
-contribution,2025-10-22,Williams Mullen,"$2,000",Richmond,VA,pac,,A,476531,2026-01-11
+contribution,2025-10-22,Williams Mullen,"$2,000",Richmond,VA,business,,A,476531,2026-01-11
 contribution,2026-06-02,Anna Lucca,$500,Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-12,Adele McClure,$150,Arlington,VA,individual,,A,493378,2026-07-07
-contribution,2026-03-24,"MGM Resorts International Operations, Inc.","$1,500",Las Vegas,NV,pac,,A,493378,2026-07-07
+contribution,2026-03-24,"MGM Resorts International Operations, Inc.","$1,500",Las Vegas,NV,business,,A,493378,2026-07-07
 contribution,2026-05-31,Mr. John Geddes Milliken Esq.,"$1,000",Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-14,Murphy for Virginia LLC,$500,Mclean,VA,pac,,A,493378,2026-07-07
 contribution,2026-03-24,Organizing for VA Seniors,"$10,000",Fairfax,VA,pac,,A,493378,2026-07-07
@@ -232,21 +232,21 @@ contribution,2026-06-15,The Virginia Forward PAC,"$1,000",Springfield,VA,pac,,A,
 contribution,2026-05-31,Todd Truitt,$325,Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-06,Miranda Turner,$250,Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-04-21,US Acute Care Solutions Political Action Committee,"$1,000",Canton,OH,pac,,A,493378,2026-07-07
-contribution,2026-06-02,VA Operators for Skill,"$5,000",Richmond,VA,pac,,A,493378,2026-07-07
-contribution,2026-06-15,VEA Fund 4/72,$500,Richmond,VA,pac,,A,493378,2026-07-07
+contribution,2026-06-02,VA Operators for Skill,"$5,000",Richmond,VA,business,,A,493378,2026-07-07
+contribution,2026-06-15,VEA Fund 4/72,$500,Richmond,VA,business,,A,493378,2026-07-07
 contribution,2026-03-24,Virginia Association of Community-Based Providers BEH Health Improvement PAC,"$1,000",Virginia Bch,VA,pac,,A,493378,2026-07-07
 contribution,2026-06-23,Virginia CRNAs Who Care About Healthcare PAC,"$5,000",Roanoke,VA,pac,,A,493378,2026-07-07
 contribution,2026-03-24,Virginia Society of Health System Pharmacist PAC,$500,Chesapeake,VA,pac,,A,493378,2026-07-07
 contribution,2026-06-08,Clean Virginia,$500,Charlottesville,VA,individual,,A,493378,2026-07-07
-contribution,2026-03-24,Walgreens,$500,Deerfield,IL,pac,,A,493378,2026-07-07
+contribution,2026-03-24,Walgreens,$500,Deerfield,IL,business,,A,493378,2026-07-07
 contribution,2026-01-13,William Walls,$200,Arlington,VA,individual,,A,493378,2026-07-07
-contribution,2026-06-18,Altria Client Services,"$1,500",Richmond,VA,pac,,A,493378,2026-07-07
+contribution,2026-06-18,Altria Client Services,"$1,500",Richmond,VA,business,,A,493378,2026-07-07
 contribution,2026-06-23,John P Andelin,$250,Arlington,VA,individual,,A,493378,2026-07-07
-contribution,2026-06-15,Anheuser-Busch Companies,"$1,000",Marietta,GA,pac,,A,493378,2026-07-07
+contribution,2026-06-15,Anheuser-Busch Companies,"$1,000",Marietta,GA,business,,A,493378,2026-07-07
 contribution,2026-06-14,Katharine Boyce,$500,Alexandria,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-03,Jeanne M. Broyhill,"$1,000",Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-01-10,Lucia Claster,$250,Arlington,VA,individual,,A,493378,2026-07-07
-contribution,2026-04-17,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,493378,2026-07-07
+contribution,2026-04-17,Clean Virginia Fund,"$10,000",Charlottesville,VA,business,,A,493378,2026-07-07
 contribution,2026-06-09,Stacy Collins,$150,Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-12,Kevin J Fay,"$2,500",Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-03-24,Friends of Ballad Health PAC,"$2,500",Johnson City,TN,pac,,A,493378,2026-07-07
@@ -254,177 +254,177 @@ contribution,2026-05-28,Friends of Elizabeth Bennett-Parker,$150,Alexandria,VA,c
 contribution,2026-06-11,Friends of Patrick Hope,$150,Arlington,VA,candidate,,A,493378,2026-07-07
 contribution,2026-06-09,Elaine S. Furlow,$250,Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-23,Ms. Virginia C. Geoffrey,$250,Arlington,VA,individual,,A,493378,2026-07-07
-contribution,2026-03-24,"Green Thumb Industries/Dharma Pharmaceuticals, LLC","$10,000",Abingdon,VA,pac,,A,493378,2026-07-07
+contribution,2026-03-24,"Green Thumb Industries/Dharma Pharmaceuticals, LLC","$10,000",Abingdon,VA,business,,A,493378,2026-07-07
 contribution,2026-06-08,Holly Hazard,$250,Falls Church,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-05,Michael Hendricks,$150,Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-14,Lynda Horvath,$500,Arlington,VA,individual,,A,493378,2026-07-07
-contribution,2026-03-24,Jushi Inc.,"$2,000",Richmond,VA,pac,,A,493378,2026-07-07
+contribution,2026-03-24,Jushi Inc.,"$2,000",Richmond,VA,business,,A,493378,2026-07-07
 contribution,2026-06-02,benedetta kissel,$150,Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-12,Kim Klingler,$150,Arlington,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-12,Sophia Lee,"$2,500",Reston,VA,individual,,A,493378,2026-07-07
 contribution,2026-06-22,Lopez for Delegate,$150,Arlington,VA,candidate,,A,493378,2026-07-07
-in_kind,2022-11-07,Virginia Beer Wholesalers Association,$436.94,Richmond,VA,pac,Cost to co-host November 7 2022 fundraiser luncheon,B,306665,2023-01-10
+in_kind,2022-11-07,Virginia Beer Wholesalers Association,$436.94,Richmond,VA,business,Cost to co-host November 7 2022 fundraiser luncheon,B,306665,2023-01-10
 in_kind,2022-07-25,Virginia Hospital & Healthcare Association PAC,"$1,786.90",Richmond,VA,pac,Food and Beverage for July 25th Fundraiser Luncheon,B,306665,2023-01-10
 in_kind,2022-11-07,Virginia Wine Wholesalers Association PAC,$346.94,Richmond,VA,pac,Cost to co-host November 7 2022 fundraiser luncheon,B,306665,2023-01-10
 in_kind,2025-12-16,Virginia Hospital & Healthcare Association PAC,"$4,221.60",Richmond,VA,pac,Catering for Fundraiser,B,476531,2026-01-11
-expenditure,2022-07-03,ActBlue,$4.15,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-07-05,NGP VAN,"$1,140",Washington,DC,pac,ACH Quarterly fee for DLCC Tier 1 Package epayment,D,306665,2023-01-10
-expenditure,2022-07-05,United Bank,$193.81,Arlington,VA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-07-07,Fairfax County Democratic Committee (FCDC),$250,Falls Church,VA,pac,Blue Victory Dinner Sponsorship,D,306665,2023-01-10
-expenditure,2022-07-09,Treasurer of Virginia,$160,Richmond,VA,pac,Frames for four resolutions,D,306665,2023-01-10
-expenditure,2022-07-10,ActBlue,$19.75,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-07-03,ActBlue,$4.15,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-07-05,NGP VAN,"$1,140",Washington,DC,business,ACH Quarterly fee for DLCC Tier 1 Package epayment,D,306665,2023-01-10
+expenditure,2022-07-05,United Bank,$193.81,Arlington,VA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-07-07,Fairfax County Democratic Committee (FCDC),$250,Falls Church,VA,business,Blue Victory Dinner Sponsorship,D,306665,2023-01-10
+expenditure,2022-07-09,Treasurer of Virginia,$160,Richmond,VA,business,Frames for four resolutions,D,306665,2023-01-10
+expenditure,2022-07-10,ActBlue,$19.75,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
 expenditure,2022-07-10,Spanberger for Congress,$500,Fredericksburg,VA,candidate,Political contribution,D,306665,2023-01-10
-expenditure,2022-07-17,ActBlue,$1,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-07-31,ActBlue,$3.95,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-08-01,United Bank,$21.44,Arlington,VA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-08-03,United Bank,$54.90,Arlington,VA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-08-07,ActBlue,$0.20,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-08-14,ActBlue,$5.93,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-08-28,ActBlue,$9.88,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-08-30,8th Congressional Democratic Committee,$250,Arlington,VA,pac,Kennedy-King Dinner,D,306665,2023-01-10
-expenditure,2022-09-01,VPAP Sunshine Caucus,$200,Richmond,VA,pac,Donation,D,306665,2023-01-10
-expenditure,2022-09-02,United Bank,$20,Arlington,VA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-09-04,ActBlue,$0.20,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-09-05,Arlington County Democratic Committee,$190,Arlington,VA,pac,Gold Card for ACDC,D,306665,2023-01-10
+expenditure,2022-07-17,ActBlue,$1,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-07-31,ActBlue,$3.95,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-08-01,United Bank,$21.44,Arlington,VA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-08-03,United Bank,$54.90,Arlington,VA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-08-07,ActBlue,$0.20,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-08-14,ActBlue,$5.93,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-08-28,ActBlue,$9.88,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-08-30,8th Congressional Democratic Committee,$250,Arlington,VA,business,Kennedy-King Dinner,D,306665,2023-01-10
+expenditure,2022-09-01,VPAP Sunshine Caucus,$200,Richmond,VA,business,Donation,D,306665,2023-01-10
+expenditure,2022-09-02,United Bank,$20,Arlington,VA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-09-04,ActBlue,$0.20,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-09-05,Arlington County Democratic Committee,$190,Arlington,VA,business,Gold Card for ACDC,D,306665,2023-01-10
 expenditure,2022-09-05,Mike Murtha,$60,Arlington,VA,individual,reimbursement for chili cookoff,D,306665,2023-01-10
-expenditure,2022-09-06,United Bank,$54.90,Arlington,VA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-09-11,ActBlue,$6.93,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-09-16,Treasurer of Virginia,$40,Richmond,VA,pac,Framing for Vera Punka Resolution,D,306665,2023-01-10
-expenditure,2022-09-24,Fairfax County Democratic Committee (FCDC),$150,Falls Church,VA,pac,Dranesville Chili Cookoff,D,306665,2023-01-10
-expenditure,2022-09-30,ActBlue,$37.54,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-10-03,United Bank,$179.75,Arlington,VA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-10-09,ActBlue,$10.08,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-10-11,NGP VAN,"$1,140",Washington,DC,pac,ACH Quarterly fee for DLCC Tier 1 Package epayment,D,306665,2023-01-10
-expenditure,2022-11-02,United Bank,$25,Arlington,VA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-11-03,United Bank,$64.90,Arlington,VA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-11-06,ActBlue,$39.70,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-11-13,ActBlue,$79,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-09-06,United Bank,$54.90,Arlington,VA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-09-11,ActBlue,$6.93,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-09-16,Treasurer of Virginia,$40,Richmond,VA,business,Framing for Vera Punka Resolution,D,306665,2023-01-10
+expenditure,2022-09-24,Fairfax County Democratic Committee (FCDC),$150,Falls Church,VA,business,Dranesville Chili Cookoff,D,306665,2023-01-10
+expenditure,2022-09-30,ActBlue,$37.54,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-10-03,United Bank,$179.75,Arlington,VA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-10-09,ActBlue,$10.08,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-10-11,NGP VAN,"$1,140",Washington,DC,business,ACH Quarterly fee for DLCC Tier 1 Package epayment,D,306665,2023-01-10
+expenditure,2022-11-02,United Bank,$25,Arlington,VA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-11-03,United Bank,$64.90,Arlington,VA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-11-06,ActBlue,$39.70,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-11-13,ActBlue,$79,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
 expenditure,2022-11-18,Morrissey for Senate,"$1,500",Richmond,VA,candidate,Political contribution,D,306665,2023-01-10
-expenditure,2022-11-22,Treasurer of Virginia,$98,Richmond,VA,pac,Parking for Legislative Assistant,D,306665,2023-01-10
-expenditure,2022-11-27,ActBlue,$104.68,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-12-02,United Bank,$393.74,Arlington,VA,pac,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-11-22,Treasurer of Virginia,$98,Richmond,VA,business,Parking for Legislative Assistant,D,306665,2023-01-10
+expenditure,2022-11-27,ActBlue,$104.68,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-12-02,United Bank,$393.74,Arlington,VA,business,On-line Transaction Fee,D,306665,2023-01-10
 expenditure,2022-12-03,Julia Kim,$586.12,Centreville,VA,individual,Food and other items for Dec 3 fundraiser,D,306665,2023-01-10
 expenditure,2022-12-03,Grayson Lewis,$169.60,Arlington,VA,individual,Food and drink for Dec 3 fundraiser,D,306665,2023-01-10
 expenditure,2022-12-03,Morrissey for Senate,"$1,500",Richmond,VA,candidate,Political contribution,D,306665,2023-01-10
-expenditure,2022-12-03,NAACP Arlington Branch,$300,Arlington,VA,pac,Freedom Banquet,D,306665,2023-01-10
+expenditure,2022-12-03,NAACP Arlington Branch,$300,Arlington,VA,business,Freedom Banquet,D,306665,2023-01-10
 expenditure,2022-12-03,Francesca Savoia,$50,Fairfax,VA,individual,Music for Fundraiser,D,306665,2023-01-10
-expenditure,2022-12-04,ActBlue,$126.60,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-12-05,United Bank,$64.90,Arlington,VA,pac,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-12-04,ActBlue,$126.60,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-12-05,United Bank,$64.90,Arlington,VA,business,On-line Transaction Fee,D,306665,2023-01-10
 expenditure,2022-12-05,Virginia Senate Democratic Caucus,"$10,000",Richmond,VA,party,Political contribution for Aaron Rouse,D,306665,2023-01-10
-expenditure,2022-12-09,"Dream Project, Inc",$250,Arlington,VA,pac,Dream Project Gala,D,306665,2023-01-10
-expenditure,2022-12-10,8th Congressional Democratic Committee,$150,Arlington,VA,pac,Breakfast for Volunteers on Bus Ride,D,306665,2023-01-10
-expenditure,2022-12-11,ActBlue,$119.49,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-12-15,Planned Parenthood of Virginia,$500,Richmond,VA,pac,Donation,D,306665,2023-01-10
-expenditure,2022-12-16,Committee to Elect Lissa Savaglio,$250,Leesburg,VA,pac,Political contribution,D,306665,2023-01-10
+expenditure,2022-12-09,"Dream Project, Inc",$250,Arlington,VA,business,Dream Project Gala,D,306665,2023-01-10
+expenditure,2022-12-10,8th Congressional Democratic Committee,$150,Arlington,VA,business,Breakfast for Volunteers on Bus Ride,D,306665,2023-01-10
+expenditure,2022-12-11,ActBlue,$119.49,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-12-15,Planned Parenthood of Virginia,$500,Richmond,VA,business,Donation,D,306665,2023-01-10
+expenditure,2022-12-16,Committee to Elect Lissa Savaglio,$250,Leesburg,VA,business,Political contribution,D,306665,2023-01-10
 expenditure,2022-12-16,Laufer for Delegate,$100,Keswick,VA,candidate,Political contribution,D,306665,2023-01-10
 expenditure,2022-12-16,Morrissey for Senate,$200,Richmond,VA,candidate,Political contribution,D,306665,2023-01-10
-expenditure,2022-12-18,ActBlue,$19.75,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-12-19,Treasurer of Virginia,$416.73,Richmond,VA,pac,Note Cards,D,306665,2023-01-10
-expenditure,2022-12-25,ActBlue,$44.44,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2022-12-31,ActBlue,$4.94,Cambridge,MA,pac,On-line Transaction Fee,D,306665,2023-01-10
-expenditure,2025-07-02,United Bank,$25,Arlington,VA,pac,On-line Transaction Fee,D,476531,2026-01-11
-expenditure,2025-07-03,United Bank,$64.90,Arlington,VA,pac,On-line Transaction fees.,D,476531,2026-01-11
+expenditure,2022-12-18,ActBlue,$19.75,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-12-19,Treasurer of Virginia,$416.73,Richmond,VA,business,Note Cards,D,306665,2023-01-10
+expenditure,2022-12-25,ActBlue,$44.44,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2022-12-31,ActBlue,$4.94,Cambridge,MA,business,On-line Transaction Fee,D,306665,2023-01-10
+expenditure,2025-07-02,United Bank,$25,Arlington,VA,business,On-line Transaction Fee,D,476531,2026-01-11
+expenditure,2025-07-03,United Bank,$64.90,Arlington,VA,business,On-line Transaction fees.,D,476531,2026-01-11
 expenditure,2025-07-11,Warren Breiseth,"$1,200",Washington,DC,individual,Consulting Fee,D,476531,2026-01-11
-expenditure,2025-07-11,"Planned Parenthood of Metropolitan Washington, DC","$5,000",Washington,DC,pac,Contribution,D,476531,2026-01-11
-expenditure,2025-07-13,ActBlue,$0.79,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-07-20,ActBlue,$1.98,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
+expenditure,2025-07-11,"Planned Parenthood of Metropolitan Washington, DC","$5,000",Washington,DC,business,Contribution,D,476531,2026-01-11
+expenditure,2025-07-13,ActBlue,$0.79,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-07-20,ActBlue,$1.98,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
 expenditure,2025-07-21,Liam Fischer,$250,Fairfax,VA,individual,Consultant Fee,D,476531,2026-01-11
 expenditure,2025-07-21,Lilly Hettrick,$100,Richmond,VA,individual,Reimbursement,D,476531,2026-01-11
-expenditure,2025-07-27,ActBlue,$7.90,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-07-29,Treasurer of Virginia,"$1,120",Richmond,VA,pac,Office Supplies,D,476531,2026-01-11
-expenditure,2025-08-02,Jay Jones for Virginia,"$5,000",Arlington,VA,pac,Contribution,D,476531,2026-01-11
-expenditure,2025-08-03,ActBlue,$6.13,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-08-04,Sutton for Arlington School Board,$200,Arlington,VA,pac,Contribution,D,476531,2026-01-11
-expenditure,2025-08-04,United Bank,$104.90,Arlington,VA,pac,On-line Transaction fees.,D,476531,2026-01-11
-expenditure,2025-08-06,Spanberger for Governor,"$10,000",Glen Allen,VA,pac,Contribution,D,476531,2026-01-11
-expenditure,2025-08-10,ActBlue,$0.79,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-08-17,ActBlue,$1.98,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-08-26,United States Postal Service,$498,Washington,DC,pac,PO Box,D,476531,2026-01-11
-expenditure,2025-08-31,ActBlue,$0.20,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-09-02,United Bank,$40,Arlington,VA,pac,On-line Transaction fees.,D,476531,2026-01-11
+expenditure,2025-07-27,ActBlue,$7.90,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-07-29,Treasurer of Virginia,"$1,120",Richmond,VA,business,Office Supplies,D,476531,2026-01-11
+expenditure,2025-08-02,Jay Jones for Virginia,"$5,000",Arlington,VA,business,Contribution,D,476531,2026-01-11
+expenditure,2025-08-03,ActBlue,$6.13,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-08-04,Sutton for Arlington School Board,$200,Arlington,VA,business,Contribution,D,476531,2026-01-11
+expenditure,2025-08-04,United Bank,$104.90,Arlington,VA,business,On-line Transaction fees.,D,476531,2026-01-11
+expenditure,2025-08-06,Spanberger for Governor,"$10,000",Glen Allen,VA,business,Contribution,D,476531,2026-01-11
+expenditure,2025-08-10,ActBlue,$0.79,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-08-17,ActBlue,$1.98,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-08-26,United States Postal Service,$498,Washington,DC,business,PO Box,D,476531,2026-01-11
+expenditure,2025-08-31,ActBlue,$0.20,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-09-02,United Bank,$40,Arlington,VA,business,On-line Transaction fees.,D,476531,2026-01-11
 expenditure,2025-09-03,Marjean Swann,$120,Los Alamitos,CA,individual,Refund,D,476531,2026-01-11
-expenditure,2025-09-03,United Bank,$64.90,Arlington,VA,pac,On-line Transaction fees.,D,476531,2026-01-11
-expenditure,2025-09-21,ActBlue,$9.10,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
+expenditure,2025-09-03,United Bank,$64.90,Arlington,VA,business,On-line Transaction fees.,D,476531,2026-01-11
+expenditure,2025-09-21,ActBlue,$9.10,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
 expenditure,2025-09-27,Warren Breiseth,"$1,200",Washington,DC,individual,Consulting Fee,D,476531,2026-01-11
-expenditure,2025-09-30,ActBlue,$0.20,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-10-02,United Bank,$134.75,Arlington,VA,pac,On-line Transaction fees.,D,476531,2026-01-11
-expenditure,2025-10-03,United Bank,$64.90,Arlington,VA,pac,On-line Transaction fees.,D,476531,2026-01-11
-expenditure,2025-10-05,ActBlue,$13.83,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
+expenditure,2025-09-30,ActBlue,$0.20,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-10-02,United Bank,$134.75,Arlington,VA,business,On-line Transaction fees.,D,476531,2026-01-11
+expenditure,2025-10-03,United Bank,$64.90,Arlington,VA,business,On-line Transaction fees.,D,476531,2026-01-11
+expenditure,2025-10-05,ActBlue,$13.83,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
 expenditure,2025-10-08,VA House Democratic Caucus,"$5,000",Richmond,VA,party,Contribution,D,476531,2026-01-11
-expenditure,2025-10-19,ActBlue,$100.73,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-10-26,ActBlue,$3.95,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-11-01,Nam Viet,"$3,000",Arlington,VA,pac,Catering,D,476531,2026-01-11
-expenditure,2025-11-02,ActBlue,$2.18,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-11-03,United Bank,$104.90,Arlington,VA,pac,On-line Transaction fees.,D,476531,2026-01-11
-expenditure,2025-11-09,ActBlue,$3.95,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
+expenditure,2025-10-19,ActBlue,$100.73,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-10-26,ActBlue,$3.95,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-11-01,Nam Viet,"$3,000",Arlington,VA,business,Catering,D,476531,2026-01-11
+expenditure,2025-11-02,ActBlue,$2.18,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-11-03,United Bank,$104.90,Arlington,VA,business,On-line Transaction fees.,D,476531,2026-01-11
+expenditure,2025-11-09,ActBlue,$3.95,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
 expenditure,2025-11-10,Paul Ruiz,$100,Arlington,VA,individual,Video Services,D,476531,2026-01-11
-expenditure,2025-11-16,ActBlue,$0.99,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
+expenditure,2025-11-16,ActBlue,$0.99,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
 expenditure,2025-11-19,Lilly Hettrick,$100,Richmond,VA,individual,Reimbursement,D,476531,2026-01-11
-expenditure,2025-11-23,ActBlue,$0.99,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
+expenditure,2025-11-23,ActBlue,$0.99,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
 expenditure,2025-11-26,Shannon Taylor for Congress,"$1,000",Midlothian,VA,candidate,Contribution,D,476531,2026-01-11
-expenditure,2025-11-30,ActBlue,$0.20,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-12-01,United Bank,$40,Arlington,VA,pac,On-line Transaction fees.,D,476531,2026-01-11
-expenditure,2025-12-03,United Bank,$64.90,Arlington,VA,pac,On-line Transaction fees.,D,476531,2026-01-11
+expenditure,2025-11-30,ActBlue,$0.20,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-12-01,United Bank,$40,Arlington,VA,business,On-line Transaction fees.,D,476531,2026-01-11
+expenditure,2025-12-03,United Bank,$64.90,Arlington,VA,business,On-line Transaction fees.,D,476531,2026-01-11
 expenditure,2025-12-10,Virginia Senate Democratic Caucus,$25,Richmond,VA,party,Contribution,D,476531,2026-01-11
 expenditure,2025-12-10,Virginia Senate Democratic Caucus,$500,Richmond,VA,party,Contribution,D,476531,2026-01-11
-expenditure,2025-12-14,ActBlue,$0.99,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-12-21,ActBlue,$0.99,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2025-12-31,ActBlue,$39.70,Cambridge,MA,pac,Processing Fee,D,476531,2026-01-11
-expenditure,2026-01-02,United Bank,$40,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
-expenditure,2026-01-05,United Bank,$213.90,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
-expenditure,2026-01-11,ActBlue,$19.76,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
+expenditure,2025-12-14,ActBlue,$0.99,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-12-21,ActBlue,$0.99,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2025-12-31,ActBlue,$39.70,Cambridge,MA,business,Processing Fee,D,476531,2026-01-11
+expenditure,2026-01-02,United Bank,$40,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-01-05,United Bank,$213.90,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-01-11,ActBlue,$19.76,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
 expenditure,2026-01-11,Warren Breiseth,"$2,000",Washington,DC,individual,Consulting Fee,D,493378,2026-07-07
 expenditure,2026-01-11,Virginia Senate Democratic Caucus,"$25,000",Richmond,VA,party,Contribution,D,493378,2026-07-07
 expenditure,2026-01-12,Amna Louati,"$1,000",Richmond,VA,individual,Consulting,D,493378,2026-07-07
 expenditure,2026-01-12,Amna Louati,$250,Richmond,VA,individual,Travel Stipend,D,493378,2026-07-07
-expenditure,2026-01-18,ActBlue,$7.90,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
+expenditure,2026-01-18,ActBlue,$7.90,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
 expenditure,2026-01-20,Amna Louati,"$1,000",Richmond,VA,individual,Consulting,D,493378,2026-07-07
 expenditure,2026-01-29,Amna Louati,"$1,000",Richmond,VA,individual,Consulting,D,493378,2026-07-07
 expenditure,2026-01-30,Amna Louati,"$1,000",Richmond,VA,individual,Consulting,D,493378,2026-07-07
-expenditure,2026-02-02,United Bank,$40,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
-expenditure,2026-02-03,United Bank,$64.90,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
-expenditure,2026-02-04,NGP VAN,"$2,961",Washington,DC,pac,Semi-annual fee for DLCC Tier 1 Package - ACH,D,493378,2026-07-07
+expenditure,2026-02-02,United Bank,$40,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-02-03,United Bank,$64.90,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-02-04,NGP VAN,"$2,961",Washington,DC,business,Semi-annual fee for DLCC Tier 1 Package - ACH,D,493378,2026-07-07
 expenditure,2026-02-06,Amna Louati,"$1,000",Richmond,VA,individual,Consulting Fee,D,493378,2026-07-07
 expenditure,2026-02-13,Amna Louati,"$1,000",Richmond,VA,individual,Consulting,D,493378,2026-07-07
-expenditure,2026-02-13,Massey Cancer Center,$250,Richmond,VA,pac,Contribution,D,493378,2026-07-07
+expenditure,2026-02-13,Massey Cancer Center,$250,Richmond,VA,business,Contribution,D,493378,2026-07-07
 expenditure,2026-02-20,Amna Louati,"$1,000",Richmond,VA,individual,Consulting,D,493378,2026-07-07
 expenditure,2026-02-27,Amna Louati,"$1,000",Richmond,VA,individual,Consulting,D,493378,2026-07-07
-expenditure,2026-03-02,United Bank,$40,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
-expenditure,2026-03-03,United Bank,$64.90,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-03-02,United Bank,$40,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-03-03,United Bank,$64.90,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
 expenditure,2026-03-04,Holly Hazard,$142.03,Falls Church,VA,individual,Reimbursement for office supplies,D,493378,2026-07-07
 expenditure,2026-03-06,Amna Louati,"$1,000",Richmond,VA,individual,Consulting,D,493378,2026-07-07
 expenditure,2026-03-16,Amna Louati,"$1,200",Richmond,VA,individual,Consulting,D,493378,2026-07-07
-expenditure,2026-03-20,Arlington County Democratic Committee,"$2,500",Arlington,VA,pac,Contribution,D,493378,2026-07-07
-expenditure,2026-03-22,ActBlue,$0.99,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
-expenditure,2026-03-31,ActBlue,$0.20,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
+expenditure,2026-03-20,Arlington County Democratic Committee,"$2,500",Arlington,VA,business,Contribution,D,493378,2026-07-07
+expenditure,2026-03-22,ActBlue,$0.99,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
+expenditure,2026-03-31,ActBlue,$0.20,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
 expenditure,2026-04-01,Warren Breiseth,"$1,200",Washington,DC,individual,Consulting,D,493378,2026-07-07
 expenditure,2026-04-01,Warren Breiseth,$82.80,Washington,DC,individual,Reimbursement for office supplies,D,493378,2026-07-07
-expenditure,2026-04-01,"Capital One Services, LLC",$110,Richmond,VA,pac,Reimbursement for Dinner,D,493378,2026-07-07
-expenditure,2026-04-01,Virginia Agribusiness Council,$100,Quinton,VA,pac,Contribution,D,493378,2026-07-07
-expenditure,2026-04-02,United Bank,$40,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
-expenditure,2026-04-03,United Bank,$64.90,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
-expenditure,2026-04-12,NoVA Labor Federation AFL-CIO,$925,Annandale,VA,pac,Contribution,D,493378,2026-07-07
-expenditure,2026-04-12,Rural Caucus DPVA,"$1,500",Richmond,VA,pac,Contribution,D,493378,2026-07-07
-expenditure,2026-04-19,ActBlue,$0.99,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
-expenditure,2026-04-21,Treasurer of Virginia,$660,Richmond,VA,pac,Office supplies,D,493378,2026-07-07
-expenditure,2026-04-26,ActBlue,$1.98,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
-expenditure,2026-04-26,Virginia Interfaith Center for Public Policy,$200,Richmond,VA,pac,Contribution,D,493378,2026-07-07
-expenditure,2026-05-03,ActBlue,$0.20,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
+expenditure,2026-04-01,"Capital One Services, LLC",$110,Richmond,VA,business,Reimbursement for Dinner,D,493378,2026-07-07
+expenditure,2026-04-01,Virginia Agribusiness Council,$100,Quinton,VA,business,Contribution,D,493378,2026-07-07
+expenditure,2026-04-02,United Bank,$40,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-04-03,United Bank,$64.90,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-04-12,NoVA Labor Federation AFL-CIO,$925,Annandale,VA,business,Contribution,D,493378,2026-07-07
+expenditure,2026-04-12,Rural Caucus DPVA,"$1,500",Richmond,VA,business,Contribution,D,493378,2026-07-07
+expenditure,2026-04-19,ActBlue,$0.99,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
+expenditure,2026-04-21,Treasurer of Virginia,$660,Richmond,VA,business,Office supplies,D,493378,2026-07-07
+expenditure,2026-04-26,ActBlue,$1.98,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
+expenditure,2026-04-26,Virginia Interfaith Center for Public Policy,$200,Richmond,VA,business,Contribution,D,493378,2026-07-07
+expenditure,2026-05-03,ActBlue,$0.20,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
 expenditure,2026-05-04,Paul Ruiz,$100,Arlington,VA,individual,Video Services,D,493378,2026-07-07
-expenditure,2026-05-04,United Bank,$104.90,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
-expenditure,2026-05-13,NGP VAN,"$3,109.05",Washington,DC,pac,Semi-annual fee for DLCC Tier 1 Package - ACH,D,493378,2026-07-07
-expenditure,2026-05-14,Repro Rising Virginia,$500,Alexandria,VA,pac,Contribution,D,493378,2026-07-07
-expenditure,2026-05-17,ActBlue,$0.99,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
-expenditure,2026-05-26,Culpepper Garden,$500,Arlington,VA,pac,Contribution,D,493378,2026-07-07
-expenditure,2026-05-28,Arlington Young Democrats,$250,Arlington,VA,pac,Contribution,D,493378,2026-07-07
+expenditure,2026-05-04,United Bank,$104.90,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-05-13,NGP VAN,"$3,109.05",Washington,DC,business,Semi-annual fee for DLCC Tier 1 Package - ACH,D,493378,2026-07-07
+expenditure,2026-05-14,Repro Rising Virginia,$500,Alexandria,VA,business,Contribution,D,493378,2026-07-07
+expenditure,2026-05-17,ActBlue,$0.99,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
+expenditure,2026-05-26,Culpepper Garden,$500,Arlington,VA,business,Contribution,D,493378,2026-07-07
+expenditure,2026-05-28,Arlington Young Democrats,$250,Arlington,VA,business,Contribution,D,493378,2026-07-07
 expenditure,2026-05-28,Democratic Party of Virginia,$500,Richmond,VA,party,Contribution,D,493378,2026-07-07
-expenditure,2026-05-31,ActBlue,$62.43,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
+expenditure,2026-05-31,ActBlue,$62.43,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
 expenditure,2026-06-01,Lilly Hettrick,$200,Richmond,VA,individual,Reimbursement for fundraiser supplies,D,493378,2026-07-07
-expenditure,2026-06-01,United Bank,$40,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
-expenditure,2026-06-03,United Bank,$64.90,Arlington,VA,pac,On-line Transaction fees.,D,493378,2026-07-07
-expenditure,2026-06-07,ActBlue,$89.89,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
-expenditure,2026-06-14,ActBlue,$310.75,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
-expenditure,2026-06-14,Buena Vida Gastrolounge,"$2,159.76",Arlington,VA,pac,Catering,D,493378,2026-07-07
+expenditure,2026-06-01,United Bank,$40,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-06-03,United Bank,$64.90,Arlington,VA,business,On-line Transaction fees.,D,493378,2026-07-07
+expenditure,2026-06-07,ActBlue,$89.89,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
+expenditure,2026-06-14,ActBlue,$310.75,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
+expenditure,2026-06-14,Buena Vida Gastrolounge,"$2,159.76",Arlington,VA,business,Catering,D,493378,2026-07-07
 expenditure,2026-06-15,Lilly Hettrick,$150,Richmond,VA,individual,Reimbursement for office supplies,D,493378,2026-07-07
-expenditure,2026-06-21,ActBlue,$7.91,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
-expenditure,2026-06-30,ActBlue,$1.19,Cambridge,MA,pac,Processing Fee,D,493378,2026-07-07
+expenditure,2026-06-21,ActBlue,$7.91,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07
+expenditure,2026-06-30,ActBlue,$1.19,Cambridge,MA,business,Processing Fee,D,493378,2026-07-07

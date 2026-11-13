@@ -3,106 +3,106 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$1,076,412.49",,VA,,"From official Schedule H, November 2027 election cycle",H,497124,2026-07-15
 summary,2026-06-30,Raised this cycle,"$1,298,615.47",,,,Total receipts this election cycle (Schedule H),H,497124,2026-07-15
 summary,2026-06-30,Spent this cycle,"$381,128.22",,,,Total disbursements this election cycle (Schedule H),H,497124,2026-07-15
-contribution,2025-05-28,The Doctors Company,"$1,000",Napa,CA,pac,,A,479141,2026-01-15
+contribution,2025-05-28,The Doctors Company,"$1,000",Napa,CA,business,,A,479141,2026-01-15
 contribution,2025-03-04,Commissioner of Revenue PAC,$750,Manassas,VA,pac,,A,479141,2026-01-15
 contribution,2025-06-03,Billy Sawyer,"$5,000",Tappahannock,VA,individual,,A,479141,2026-01-15
 contribution,2025-06-02,Old Dominion Highway PAC,"$1,000",Charlottesville,VA,pac,,A,479141,2026-01-15
-contribution,2025-05-28,Waste Management,"$1,500",Houston,TX,pac,,A,479141,2026-01-15
-contribution,2025-05-28,WestRock,"$2,000",Norcross,GA,pac,,A,479141,2026-01-15
-contribution,2025-05-04,Virginia Land Title Association,$500,Alpharetta,GA,pac,,A,479141,2026-01-15
-contribution,2025-05-27,"Brown Distributing Company, Inc","$2,500",Richmond,VA,pac,,A,479141,2026-01-15
-contribution,2025-05-22,Novartis,"$1,000",Fort Worth,TX,pac,,A,479141,2026-01-15
-contribution,2025-04-24,CVS Health,"$2,000",Lincoln,RI,pac,,A,479141,2026-01-15
-contribution,2025-05-22,"Republic Services, Inc",$500,Phoenix,AZ,pac,,A,479141,2026-01-15
-contribution,2025-03-04,"The Williams Companies, Inc.","$2,500",Tulsa,OK,pac,,A,479141,2026-01-15
-contribution,2025-06-26,Doordash,"$2,000",San Francisco,CA,pac,,A,479141,2026-01-15
+contribution,2025-05-28,Waste Management,"$1,500",Houston,TX,business,,A,479141,2026-01-15
+contribution,2025-05-28,WestRock,"$2,000",Norcross,GA,business,,A,479141,2026-01-15
+contribution,2025-05-04,Virginia Land Title Association,$500,Alpharetta,GA,business,,A,479141,2026-01-15
+contribution,2025-05-27,"Brown Distributing Company, Inc","$2,500",Richmond,VA,business,,A,479141,2026-01-15
+contribution,2025-05-22,Novartis,"$1,000",Fort Worth,TX,business,,A,479141,2026-01-15
+contribution,2025-04-24,CVS Health,"$2,000",Lincoln,RI,business,,A,479141,2026-01-15
+contribution,2025-05-22,"Republic Services, Inc",$500,Phoenix,AZ,business,,A,479141,2026-01-15
+contribution,2025-03-04,"The Williams Companies, Inc.","$2,500",Tulsa,OK,business,,A,479141,2026-01-15
+contribution,2025-06-26,Doordash,"$2,000",San Francisco,CA,business,,A,479141,2026-01-15
 contribution,2025-05-08,"Robert S. Keeler, Jr.",$500,Beaverdam,VA,individual,,A,479141,2026-01-15
-contribution,2025-05-09,M. Price Distribution Company,"$1,000",Hampton,VA,pac,,A,479141,2026-01-15
-contribution,2025-06-09,Sports Betting Alliance,"$50,000",Lubbock,TX,pac,,A,479141,2026-01-15
+contribution,2025-05-09,M. Price Distribution Company,"$1,000",Hampton,VA,business,,A,479141,2026-01-15
+contribution,2025-06-09,Sports Betting Alliance,"$50,000",Lubbock,TX,business,,A,479141,2026-01-15
 contribution,2025-06-24,American Council of Life Insurers PAC,"$1,000",Washington,DC,pac,,A,479141,2026-01-15
-contribution,2025-01-06,Access Point Public Affairs,"$1,000",Virginia Beach,VA,pac,,A,479141,2026-01-15
-contribution,2025-01-06,MGM Resorts International,"$2,500",Las Vegas,NV,pac,,A,479141,2026-01-15
-contribution,2025-06-06,MGM Resorts International,"$5,000",Las Vegas,NV,pac,,A,479141,2026-01-15
-contribution,2025-01-06,PPE Casino Resorts Petersburg,"$10,000",Baltimore,MD,pac,,A,479141,2026-01-15
-contribution,2025-01-06,"All Points Broadband Partners, LLC","$1,000",Richmond,VA,pac,,A,479141,2026-01-15
+contribution,2025-01-06,Access Point Public Affairs,"$1,000",Virginia Beach,VA,business,,A,479141,2026-01-15
+contribution,2025-01-06,MGM Resorts International,"$2,500",Las Vegas,NV,business,,A,479141,2026-01-15
+contribution,2025-06-06,MGM Resorts International,"$5,000",Las Vegas,NV,business,,A,479141,2026-01-15
+contribution,2025-01-06,PPE Casino Resorts Petersburg,"$10,000",Baltimore,MD,business,,A,479141,2026-01-15
+contribution,2025-01-06,"All Points Broadband Partners, LLC","$1,000",Richmond,VA,business,,A,479141,2026-01-15
 contribution,2025-05-20,Virginia Beer Wholesalers Association PAC,"$10,000",Richmond,VA,pac,,A,479141,2026-01-15
 contribution,2025-01-07,Virginia BankPAC,"$2,500",Glen Allen,VA,pac,,A,479141,2026-01-15
 contribution,2025-03-21,Virginia BankPAC,"$2,500",Glen Allen,VA,pac,,A,479141,2026-01-15
 contribution,2025-06-09,Virginia BankPAC,"$5,000",Glen Allen,VA,pac,,A,479141,2026-01-15
 contribution,2025-01-06,Virginia Automobile & Truck Dealers PAC,"$2,500",Richmond,VA,pac,,A,479141,2026-01-15
-contribution,2025-06-21,Comcast,"$5,000",Richmond,VA,pac,,A,479141,2026-01-15
+contribution,2025-06-21,Comcast,"$5,000",Richmond,VA,business,,A,479141,2026-01-15
 contribution,2025-05-30,Virginia Retail Federation PAC,$750,Richmond,VA,pac,,A,479141,2026-01-15
 contribution,2025-05-28,Dominion PAC,"$90,000",Richmond,VA,pac,,A,479141,2026-01-15
 contribution,2025-05-08,Realtors PAC of Virginia,"$5,000",Glen Allen,VA,pac,,A,479141,2026-01-15
-contribution,2025-04-18,"Christian & Barton, LLP","$1,000",Richmond,VA,pac,,A,479141,2026-01-15
+contribution,2025-04-18,"Christian & Barton, LLP","$1,000",Richmond,VA,business,,A,479141,2026-01-15
 contribution,2025-01-06,Virginia Cable PAC,"$10,000",Richmond,VA,pac,,A,479141,2026-01-15
-contribution,2025-03-24,"Altria Client Services, Inc","$15,000",Richmond,VA,pac,,A,479141,2026-01-15
-contribution,2025-03-04,CSX Transportation,"$1,000",Jacksonville,FL,pac,,A,479141,2026-01-15
-contribution,2025-05-20,Fluor Enterprises Inc.,"$1,000",Aliso,CA,pac,,A,479141,2026-01-15
-contribution,2025-04-24,Anheuser Busch Companies,"$2,000",Atlanta,GA,pac,,A,479141,2026-01-15
-contribution,2025-06-29,"Capital One Services, LLC",$500,Richmond,VA,pac,,A,479141,2026-01-15
-contribution,2025-05-16,"All Points Broadband Partners, LLC","$1,000",Richmond,VA,pac,,A,479141,2026-01-15
+contribution,2025-03-24,"Altria Client Services, Inc","$15,000",Richmond,VA,business,,A,479141,2026-01-15
+contribution,2025-03-04,CSX Transportation,"$1,000",Jacksonville,FL,business,,A,479141,2026-01-15
+contribution,2025-05-20,Fluor Enterprises Inc.,"$1,000",Aliso,CA,business,,A,479141,2026-01-15
+contribution,2025-04-24,Anheuser Busch Companies,"$2,000",Atlanta,GA,business,,A,479141,2026-01-15
+contribution,2025-06-29,"Capital One Services, LLC",$500,Richmond,VA,business,,A,479141,2026-01-15
+contribution,2025-05-16,"All Points Broadband Partners, LLC","$1,000",Richmond,VA,business,,A,479141,2026-01-15
 contribution,2025-01-07,Ben LaRocco,"$1,000",Palo Alto,CA,individual,,A,479141,2026-01-15
 contribution,2025-04-22,W. Heywood Fraylin,"$3,000",Roanoke,VA,individual,,A,479141,2026-01-15
-contribution,2025-03-10,Elevance Health Inc.,"$3,500",Cincinatti,OH,pac,,A,479141,2026-01-15
-contribution,2025-06-09,Extended Service Corp,"$5,000",Richmond,VA,pac,,A,479141,2026-01-15
+contribution,2025-03-10,Elevance Health Inc.,"$3,500",Cincinatti,OH,business,,A,479141,2026-01-15
+contribution,2025-06-09,Extended Service Corp,"$5,000",Richmond,VA,business,,A,479141,2026-01-15
 contribution,2025-04-08,Randall Grumbine,"$1,000",Henrico,VA,individual,,A,479141,2026-01-15
 contribution,2025-04-22,W. Heywood Fralin,"$3,000",Roanoke,VA,individual,,A,479141,2026-01-15
-contribution,2025-08-01,Huntington Ingalls Industries,"$2,500",Newport News,VA,pac,,A,480197,2026-01-15
-contribution,2025-12-18,"Allen, Allen, Allen, & Allen","$3,000",Richmond,VA,pac,,A,480197,2026-01-15
+contribution,2025-08-01,Huntington Ingalls Industries,"$2,500",Newport News,VA,business,,A,480197,2026-01-15
+contribution,2025-12-18,"Allen, Allen, Allen, & Allen","$3,000",Richmond,VA,business,,A,480197,2026-01-15
 contribution,2025-08-08,Dominion PAC,"$30,000",Richmond,VA,pac,,A,480197,2026-01-15
 contribution,2025-07-28,Realtors PAC of Virginia,"$5,000",Glen Allen,VA,pac,,A,480197,2026-01-15
 contribution,2025-10-30,Realtors PAC of Virginia,"$5,000",Glen Allen,VA,pac,,A,480197,2026-01-15
-contribution,2025-12-18,Genworth Financial,"$3,500",Washington,DC,pac,,A,480197,2026-01-15
+contribution,2025-12-18,Genworth Financial,"$3,500",Washington,DC,business,,A,480197,2026-01-15
 contribution,2025-10-30,Virginia Credit Union PAC,"$10,000",Lynchburg,VA,pac,,A,480197,2026-01-15
-contribution,2025-08-01,"Diageo North America, Inc.","$2,000",Norwalk,CT,pac,,A,480197,2026-01-15
+contribution,2025-08-01,"Diageo North America, Inc.","$2,000",Norwalk,CT,business,,A,480197,2026-01-15
 contribution,2025-12-18,Virginia Society of CPAs PAC,"$2,000",Glen Allen,VA,pac,,A,480197,2026-01-15
 contribution,2025-07-15,Virginia Trial Lawyers PAC,"$5,000",Richmond,VA,pac,,A,480197,2026-01-15
 contribution,2025-09-20,DR Charles W Harrill,$500,Mechanicsville,VA,individual,,A,480197,2026-01-15
-contribution,2025-12-30,PhRMA,"$1,000",Washington,DC,pac,,A,480197,2026-01-15
-contribution,2025-12-18,Anheuser Busch Companies,"$2,000",Atlanta,GA,pac,,A,480197,2026-01-15
+contribution,2025-12-30,PhRMA,"$1,000",Washington,DC,business,,A,480197,2026-01-15
+contribution,2025-12-18,Anheuser Busch Companies,"$2,000",Atlanta,GA,business,,A,480197,2026-01-15
 contribution,2025-12-18,Virginia Health Care Association PAC,"$2,500",Richmond,VA,pac,,A,480197,2026-01-15
 contribution,2025-12-30,Virginia Association of Health Plans PAC,"$2,500",Richmond,VA,pac,,A,480197,2026-01-15
 contribution,2025-08-06,Friends of Cavalier,"$3,000",Glen Allen,VA,pac,,A,480197,2026-01-15
-contribution,2025-10-30,Transurban USA Inc.,"$1,000",New York,NY,pac,,A,480197,2026-01-15
+contribution,2025-10-30,Transurban USA Inc.,"$1,000",New York,NY,business,,A,480197,2026-01-15
 contribution,2025-12-18,Medical Society of Virginia PAC,"$1,000",Richmond,VA,pac,,A,480197,2026-01-15
-contribution,2025-08-01,Merck Sharp & Dohme Corp.,$500,Whitehouse Station,NJ,pac,,A,480197,2026-01-15
-contribution,2025-10-30,"Micron Technology, Inc.","$5,000",Boise,ID,pac,,A,480197,2026-01-15
+contribution,2025-08-01,Merck Sharp & Dohme Corp.,$500,Whitehouse Station,NJ,business,,A,480197,2026-01-15
+contribution,2025-10-30,"Micron Technology, Inc.","$5,000",Boise,ID,business,,A,480197,2026-01-15
 contribution,2025-12-17,Old Dominion Highway PAC,"$1,000",Charlottesville,VA,pac,,A,480197,2026-01-15
 contribution,2025-12-18,HCA for Good Government,"$3,500",Reston,VA,pac,,A,480197,2026-01-15
 contribution,2025-12-29,NiSource PAC/Columbia Gas of VA,"$1,000",Chester,VA,pac,,A,480197,2026-01-15
 contribution,2025-12-18,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,A,480197,2026-01-15
 contribution,2025-08-13,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,A,480197,2026-01-15
-contribution,2025-09-16,Premium Distributors of VA LLC,"$3,500",Chantilly,VA,pac,,A,480197,2026-01-15
+contribution,2025-09-16,Premium Distributors of VA LLC,"$3,500",Chantilly,VA,business,,A,480197,2026-01-15
 contribution,2025-12-18,Washington Gas Light Company PAC,"$5,000",Washington,DC,pac,,A,480197,2026-01-15
 contribution,2025-12-15,Virginia Hospital & Healthcare Association PAC,"$2,500",Richmond,VA,pac,,A,480197,2026-01-15
 contribution,2025-08-01,"Enterprise Holdings, Inc. PAC","$1,000",St. Louis,MO,pac,,A,480197,2026-01-15
-contribution,2025-08-13,Visa,"$2,500",Austin,TX,pac,,A,480197,2026-01-15
-contribution,2025-09-12,Reedville Bait Company LLC,$500,Burgess,VA,pac,,A,480197,2026-01-15
-contribution,2025-08-12,Amazon,"$7,000",Seattle,WA,pac,,A,480197,2026-01-15
-contribution,2025-12-30,"Tenaska Virginia Partners, LP","$5,000",Omaha,NE,pac,,A,480197,2026-01-15
+contribution,2025-08-13,Visa,"$2,500",Austin,TX,business,,A,480197,2026-01-15
+contribution,2025-09-12,Reedville Bait Company LLC,$500,Burgess,VA,business,,A,480197,2026-01-15
+contribution,2025-08-12,Amazon,"$7,000",Seattle,WA,business,,A,480197,2026-01-15
+contribution,2025-12-30,"Tenaska Virginia Partners, LP","$5,000",Omaha,NE,business,,A,480197,2026-01-15
 contribution,2025-08-16,Abbott Laboratories Employee PAC,$500,Abbott Park,IL,pac,,A,480197,2026-01-15
 contribution,2025-12-03,Abbott Laboratories Employee PAC,$500,Abbott Park,IL,pac,,A,480197,2026-01-15
-contribution,2025-12-18,"T-Mobile USA, Inc.",$500,Bellevue,WA,pac,,A,480197,2026-01-15
-contribution,2025-07-01,"RELX, Inc.",$500,Newton,MA,pac,,A,480197,2026-01-15
-contribution,2025-10-30,Publix,"$1,000",Lakeland,FL,pac,,A,480197,2026-01-15
-contribution,2025-12-30,"walmart stores,inc","$1,000",Bentonville,AR,pac,,A,480197,2026-01-15
-contribution,2025-12-30,ace american insurance company,"$1,000",Philadelphia,PA,pac,,A,480197,2026-01-15
-contribution,2025-07-08,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,pac,,A,480197,2026-01-15
+contribution,2025-12-18,"T-Mobile USA, Inc.",$500,Bellevue,WA,business,,A,480197,2026-01-15
+contribution,2025-07-01,"RELX, Inc.",$500,Newton,MA,business,,A,480197,2026-01-15
+contribution,2025-10-30,Publix,"$1,000",Lakeland,FL,business,,A,480197,2026-01-15
+contribution,2025-12-30,"walmart stores,inc","$1,000",Bentonville,AR,business,,A,480197,2026-01-15
+contribution,2025-12-30,ace american insurance company,"$1,000",Philadelphia,PA,business,,A,480197,2026-01-15
+contribution,2025-07-08,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,business,,A,480197,2026-01-15
 contribution,2025-09-17,James Beamer,"$1,000",Richmond,VA,individual,,A,480197,2026-01-15
 contribution,2025-09-25,Paul Dorn Sr.,$52.05,Mechanicsville,VA,individual,,A,480197,2026-01-15
 contribution,2025-10-30,ULT Political Action Committee-ST,"$2,500",Richmond,VA,pac,,A,480197,2026-01-15
 contribution,2025-09-29,American Prosperity Casualty Insurance Association Political Account,$500,Chicago,IL,pac,,A,480197,2026-01-15
-contribution,2025-12-18,McGuireWoods LLP,"$2,000",Richmond,VA,pac,,A,480197,2026-01-15
+contribution,2025-12-18,McGuireWoods LLP,"$2,000",Richmond,VA,business,,A,480197,2026-01-15
 contribution,2025-07-17,Ortho PAC,$250,Richmond,VA,pac,,A,480197,2026-01-15
-contribution,2025-12-18,Principal Advantage Government Relations Group LLC,"$2,000",Virginia Beach,VA,pac,,A,480197,2026-01-15
+contribution,2025-12-18,Principal Advantage Government Relations Group LLC,"$2,000",Virginia Beach,VA,business,,A,480197,2026-01-15
 contribution,2025-12-30,Advansix Inc. PAC,"$1,000",Parippany,NJ,pac,,A,480197,2026-01-15
 contribution,2025-10-01,"Joseph Funai, IV",$10.41,Mechanicsville,VA,individual,,A,480197,2026-01-15
 contribution,2025-11-01,"Joseph Funai, IV",$10.41,Mechanicsville,VA,individual,,A,480197,2026-01-15
 contribution,2025-12-01,"Joseph Funai, IV",$10.41,Mechanicsville,VA,individual,,A,480197,2026-01-15
 contribution,2025-09-22,Robert Blue,"$2,066.12",Richmond,VA,individual,,A,480197,2026-01-15
 contribution,2025-12-16,Robert Blue,"$1,000",Richmond,VA,individual,,A,480197,2026-01-15
-contribution,2025-09-16,Johnson Brothers Service Distributing,$750,Lorton,VA,pac,,A,480197,2026-01-15
+contribution,2025-09-16,Johnson Brothers Service Distributing,$750,Lorton,VA,business,,A,480197,2026-01-15
 contribution,2025-09-10,Michael Gladstone,$52.05,Richmond,VA,individual,,A,480197,2026-01-15
 contribution,2025-09-22,Fran Sadler,$52.05,Ashland,VA,individual,,A,480197,2026-01-15
 contribution,2025-09-25,Michael Patrick,$520.51,Ashland,VA,individual,,A,480197,2026-01-15
@@ -113,15 +113,15 @@ contribution,2025-09-25,JBG Smith PAC,"$10,000",Arlington,VA,pac,,A,480197,2026-
 contribution,2025-07-28,Hampton Roads Business Roundtable PAC,"$10,000",Norfolk,VA,pac,,A,480197,2026-01-15
 contribution,2025-12-30,Bank of America State and Federal PAC,"$1,000",Wilmington,DE,pac,,A,480197,2026-01-15
 contribution,2025-09-10,Zach Lemaster,$52.05,New Kent,VA,individual,,A,480197,2026-01-15
-contribution,2025-12-17,Sentara Health Admistration Inc,"$1,000",Norfolk,VA,pac,,A,480197,2026-01-15
+contribution,2025-12-17,Sentara Health Admistration Inc,"$1,000",Norfolk,VA,business,,A,480197,2026-01-15
 contribution,2025-10-30,Metallurgical Coal Producers PAC,"$1,000",Grundy,VA,pac,,A,480197,2026-01-15
 contribution,2025-09-08,Tom Chorinos,$78.08,Mechanicsville,VA,individual,,A,480197,2026-01-15
 contribution,2025-08-11,Employees of RTX Corporation PAC,"$2,500",Arlington,VA,pac,,A,480197,2026-01-15
-contribution,2025-12-30,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,pac,,A,480197,2026-01-15
-contribution,2025-07-28,Reworld Waste LLC,"$1,000",Reston,VA,pac,,A,480197,2026-01-15
-contribution,2025-11-10,Virginia Asphalt Inc,"$1,000",Richmond,VA,pac,,A,480197,2026-01-15
+contribution,2025-12-30,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,business,,A,480197,2026-01-15
+contribution,2025-07-28,Reworld Waste LLC,"$1,000",Reston,VA,business,,A,480197,2026-01-15
+contribution,2025-11-10,Virginia Asphalt Inc,"$1,000",Richmond,VA,business,,A,480197,2026-01-15
 contribution,2025-07-28,Boyd Pamunkey Casino PAC,"$5,000",Norfolk,VA,pac,,A,480197,2026-01-15
-contribution,2025-07-15,PMI US Corporate Services,"$15,000",San Rafael,CA,pac,,A,480197,2026-01-15
+contribution,2025-07-15,PMI US Corporate Services,"$15,000",San Rafael,CA,business,,A,480197,2026-01-15
 contribution,2025-11-03,Alex Vogel,"$5,205.08",Washington DC,DC,individual,,A,480197,2026-01-15
 contribution,2025-10-08,Mark Mitchell,$500,Doswell,VA,individual,,A,480197,2026-01-15
 contribution,2025-09-22,Steven Ridge,"$1,000","Richmond, VA",VA,individual,,A,480197,2026-01-15
@@ -136,273 +136,273 @@ contribution,2025-09-17,Adam Lee,"$1,000",Glen Allen,VA,individual,,A,480197,202
 contribution,2025-09-17,Joshua Bennett,"$1,000",Mechanicsville,VA,individual,,A,480197,2026-01-15
 contribution,2025-12-26,VA Digital Infrastructure PAC,"$5,000",Leesburg,VA,pac,,A,480197,2026-01-15
 contribution,2025-12-18,Tremco CPG Inc. PAC,"$1,000",Beachwood,OH,pac,,A,480197,2026-01-15
-contribution,2025-10-20,Cloud HQ LLC,"$5,000",Washington DC,DC,pac,,A,480197,2026-01-15
-contribution,2025-10-16,Carbon Solutions Group,$500,Chicago,IL,pac,,A,480197,2026-01-15
-contribution,2025-12-30,Safelite Fulfillment Inc.,$500,Columbus,OH,pac,,A,480197,2026-01-15
-contribution,2025-12-30,Virginia Society of AIA,"$1,000",Chesterfield,VA,pac,,A,480197,2026-01-15
+contribution,2025-10-20,Cloud HQ LLC,"$5,000",Washington DC,DC,business,,A,480197,2026-01-15
+contribution,2025-10-16,Carbon Solutions Group,$500,Chicago,IL,business,,A,480197,2026-01-15
+contribution,2025-12-30,Safelite Fulfillment Inc.,$500,Columbus,OH,business,,A,480197,2026-01-15
+contribution,2025-12-30,Virginia Society of AIA,"$1,000",Chesterfield,VA,business,,A,480197,2026-01-15
 contribution,2025-12-18,W. Heywood Fralin,"$2,000",Roanoke,VA,individual,,A,480197,2026-01-15
 contribution,2025-12-18,Johnson & Johnson PAC,$500,123,VA,pac,,A,480197,2026-01-15
-contribution,2025-12-18,VSP Vision,"$1,000",123,VA,pac,,A,480197,2026-01-15
-contribution,2025-12-18,"Meta Platforms, Inc.","$2,500",123,VA,pac,,A,480197,2026-01-15
-contribution,2025-10-30,RAI Services Company,"$1,000",Winston Salem,NC,pac,,A,480197,2026-01-15
-contribution,2025-10-30,Virginia Food Industry Association,$750,Raleigh,NC,pac,,A,480197,2026-01-15
-contribution,2025-09-15,Vision Management Services,"$2,500",Chicago,IL,pac,,A,480197,2026-01-15
-contribution,2025-08-13,Neet Midatlantic,"$1,000",Juno Beach,FL,pac,,A,480197,2026-01-15
-contribution,2025-07-09,Mountain Valley Pipeline LLC,"$1,000",Canonsburg,PA,pac,,A,480197,2026-01-15
+contribution,2025-12-18,VSP Vision,"$1,000",123,VA,business,,A,480197,2026-01-15
+contribution,2025-12-18,"Meta Platforms, Inc.","$2,500",123,VA,business,,A,480197,2026-01-15
+contribution,2025-10-30,RAI Services Company,"$1,000",Winston Salem,NC,business,,A,480197,2026-01-15
+contribution,2025-10-30,Virginia Food Industry Association,$750,Raleigh,NC,business,,A,480197,2026-01-15
+contribution,2025-09-15,Vision Management Services,"$2,500",Chicago,IL,business,,A,480197,2026-01-15
+contribution,2025-08-13,Neet Midatlantic,"$1,000",Juno Beach,FL,business,,A,480197,2026-01-15
+contribution,2025-07-09,Mountain Valley Pipeline LLC,"$1,000",Canonsburg,PA,business,,A,480197,2026-01-15
 contribution,2026-03-23,Virginia BankPAC,"$5,000",Glen Allen,VA,pac,,A,497124,2026-07-15
 contribution,2026-05-22,Virginia BankPAC,"$2,500",Glen Allen,VA,pac,,A,497124,2026-07-15
-contribution,2026-05-12,Huntington Ingalls Industries,"$2,500",Newport News,VA,pac,,A,497124,2026-07-15
-contribution,2026-01-13,"Allen, Allen, Allen, & Allen","$5,000",Richmond,VA,pac,,A,497124,2026-07-15
-contribution,2026-06-09,"Allen, Allen, Allen, & Allen","$5,000",Richmond,VA,pac,,A,497124,2026-07-15
+contribution,2026-05-12,Huntington Ingalls Industries,"$2,500",Newport News,VA,business,,A,497124,2026-07-15
+contribution,2026-01-13,"Allen, Allen, Allen, & Allen","$5,000",Richmond,VA,business,,A,497124,2026-07-15
+contribution,2026-06-09,"Allen, Allen, Allen, & Allen","$5,000",Richmond,VA,business,,A,497124,2026-07-15
 contribution,2026-01-02,Dominion PAC,"$250,000",Richmond,VA,pac,,A,497124,2026-07-15
 contribution,2026-01-13,Virginia Cable PAC,"$5,000",Richmond,VA,pac,,A,497124,2026-07-15
-contribution,2026-04-24,"Altria Client Services, Inc","$10,000",Richmond,VA,pac,,A,497124,2026-07-15
-contribution,2026-06-10,CSX Transportation,"$1,000",Jacksonville,FL,pac,,A,497124,2026-07-15
+contribution,2026-04-24,"Altria Client Services, Inc","$10,000",Richmond,VA,business,,A,497124,2026-07-15
+contribution,2026-06-10,CSX Transportation,"$1,000",Jacksonville,FL,business,,A,497124,2026-07-15
 contribution,2026-01-13,Virginia Trial Lawyers PAC,"$5,000",Richmond,VA,pac,,A,497124,2026-07-15
 contribution,2026-06-17,Virginia Trial Lawyers PAC,"$5,000",Richmond,VA,pac,,A,497124,2026-07-15
-contribution,2026-04-27,Anheuser Busch Companies,"$1,500",Atlanta,GA,pac,,A,497124,2026-07-15
+contribution,2026-04-27,Anheuser Busch Companies,"$1,500",Atlanta,GA,business,,A,497124,2026-07-15
 contribution,2026-01-13,Virginia Oil & Gas Association,"$1,500",Abingdon,VA,pac,,A,497124,2026-07-15
-contribution,2026-01-13,Transurban USA Inc.,"$1,000",New York,NY,pac,,A,497124,2026-07-15
-contribution,2026-05-19,Transurban USA Inc.,"$1,000",New York,NY,pac,,A,497124,2026-07-15
-contribution,2026-06-17,Merck Sharp & Dohme Corp.,"$1,000",Whitehouse Station,NJ,pac,,A,497124,2026-07-15
+contribution,2026-01-13,Transurban USA Inc.,"$1,000",New York,NY,business,,A,497124,2026-07-15
+contribution,2026-05-19,Transurban USA Inc.,"$1,000",New York,NY,business,,A,497124,2026-07-15
+contribution,2026-06-17,Merck Sharp & Dohme Corp.,"$1,000",Whitehouse Station,NJ,business,,A,497124,2026-07-15
 contribution,2026-01-09,HBAV Build-PAC,"$2,000",Richmond,VA,pac,,A,497124,2026-07-15
 contribution,2026-01-13,Virginia Manufactured & Modular Housing Association PAC,"$1,000",Richmond,VA,pac,,A,497124,2026-07-15
-contribution,2026-06-25,Waste Management,"$1,500",Houston,TX,pac,,A,497124,2026-07-15
-contribution,2026-01-08,"The Williams Companies, Inc.","$1,000",Tulsa,OK,pac,,A,497124,2026-07-15
+contribution,2026-06-25,Waste Management,"$1,500",Houston,TX,business,,A,497124,2026-07-15
+contribution,2026-01-08,"The Williams Companies, Inc.","$1,000",Tulsa,OK,business,,A,497124,2026-07-15
 contribution,2026-01-09,Betting on VA Jobs Political Action Committee,"$5,000",Richmond,VA,pac,,A,497124,2026-07-15
 contribution,2026-01-03,"Joseph Funai, IV",$10.41,Mechanicsville,VA,individual,,A,497124,2026-07-15
-contribution,2026-06-03,Sentara Health Admistration Inc,"$1,000",Norfolk,VA,pac,,A,497124,2026-07-15
+contribution,2026-06-03,Sentara Health Admistration Inc,"$1,000",Norfolk,VA,business,,A,497124,2026-07-15
 contribution,2026-04-16,Virginia CRNAs Who Care About Healthcare PAC,"$1,000",Richmond,VA,pac,,A,497124,2026-07-15
 contribution,2026-05-26,Virginia CRNAs Who Care About Healthcare PAC,"$1,000",Richmond,VA,pac,,A,497124,2026-07-15
-contribution,2026-01-13,Access Point Public Affairs,"$1,000",Virginia Beach,VA,pac,,A,497124,2026-07-15
-contribution,2026-05-27,Extended Service Corp,"$10,000",Richmond,VA,pac,,A,497124,2026-07-15
-contribution,2026-01-09,Upper Mattaponi Indian Tribe,"$5,000",King William,VA,pac,,A,497124,2026-07-15
+contribution,2026-01-13,Access Point Public Affairs,"$1,000",Virginia Beach,VA,business,,A,497124,2026-07-15
+contribution,2026-05-27,Extended Service Corp,"$10,000",Richmond,VA,business,,A,497124,2026-07-15
+contribution,2026-01-09,Upper Mattaponi Indian Tribe,"$5,000",King William,VA,business,,A,497124,2026-07-15
 contribution,2026-01-12,Organizing for VA Seniors,"$2,500",Fairfax,VA,pac,,A,497124,2026-07-15
 contribution,2026-01-13,Tremco CPG Inc. PAC,$500,Beachwood,OH,pac,,A,497124,2026-07-15
 contribution,2026-01-13,CSL Behring LLC Employees PAC,"$1,500",King of Prussia,PA,pac,,A,497124,2026-07-15
-contribution,2026-01-13,Rocket,"$1,500",Detroit,MI,pac,,A,497124,2026-07-15
-contribution,2026-05-01,Rocket,"$1,500",Detroit,MI,pac,,A,497124,2026-07-15
-contribution,2026-01-13,One Main General Services Corp.,"$1,500",Irving,TX,pac,,A,497124,2026-07-15
-contribution,2026-01-13,"PRA Group, Inc.","$1,000",Norfolk,VA,pac,,A,497124,2026-07-15
+contribution,2026-01-13,Rocket,"$1,500",Detroit,MI,business,,A,497124,2026-07-15
+contribution,2026-05-01,Rocket,"$1,500",Detroit,MI,business,,A,497124,2026-07-15
+contribution,2026-01-13,One Main General Services Corp.,"$1,500",Irving,TX,business,,A,497124,2026-07-15
+contribution,2026-01-13,"PRA Group, Inc.","$1,000",Norfolk,VA,business,,A,497124,2026-07-15
 contribution,2026-01-13,Friends of Ballad Health PAC,"$1,500",Johnson City,TN,pac,,A,497124,2026-07-15
-contribution,2026-05-13,Valicy,"$1,000",Greenville,NC,pac,,A,497124,2026-07-15
+contribution,2026-05-13,Valicy,"$1,000",Greenville,NC,business,,A,497124,2026-07-15
 contribution,2026-03-23,Community Owned Power PAC,"$6,000",Glen Allen,VA,pac,,A,497124,2026-07-15
 contribution,2026-03-23,First Energy PAC,"$1,000",Akron,OH,pac,,A,497124,2026-07-15
-contribution,2026-03-23,Corpay,"$2,500",Beaverton,OR,pac,,A,497124,2026-07-15
+contribution,2026-03-23,Corpay,"$2,500",Beaverton,OR,business,,A,497124,2026-07-15
 contribution,2026-03-23,State Farm  Federal PAC,"$1,000",Bloomington,IL,pac,,A,497124,2026-07-15
-in_kind,2025-06-20,"Capital One Services, LLC","$2,500",Richmond,VA,pac,Event,B,479141,2026-01-15
-in_kind,2025-03-19,Republican State Leadership Committee,$18.42,Washington,DC,pac,Event,B,479141,2026-01-15
-in_kind,2025-04-08,Republican State Leadership Committee,"$3,562.50",Washington,DC,pac,Event,B,479141,2026-01-15
-in_kind,2025-04-08,Republican State Leadership Committee,"$3,562.50",Washington,DC,pac,Event,B,479141,2026-01-15
-in_kind,2025-05-12,Republican State Leadership Committee,"$2,151.72",Washington,DC,pac,Event,B,479141,2026-01-15
-in_kind,2025-05-19,Republican State Leadership Committee,"$2,292.46",Washington,DC,pac,Event,B,479141,2026-01-15
+in_kind,2025-06-20,"Capital One Services, LLC","$2,500",Richmond,VA,business,Event,B,479141,2026-01-15
+in_kind,2025-03-19,Republican State Leadership Committee,$18.42,Washington,DC,business,Event,B,479141,2026-01-15
+in_kind,2025-04-08,Republican State Leadership Committee,"$3,562.50",Washington,DC,business,Event,B,479141,2026-01-15
+in_kind,2025-04-08,Republican State Leadership Committee,"$3,562.50",Washington,DC,business,Event,B,479141,2026-01-15
+in_kind,2025-05-12,Republican State Leadership Committee,"$2,151.72",Washington,DC,business,Event,B,479141,2026-01-15
+in_kind,2025-05-19,Republican State Leadership Committee,"$2,292.46",Washington,DC,business,Event,B,479141,2026-01-15
 in_kind,2025-03-06,Republican Party of Virginia,"$2,374",Richmond,VA,party,Mail,B,479141,2026-01-15
 in_kind,2025-03-06,Republican Party of Virginia,"$2,374.40",Richmond,VA,party,Mail Service,B,479141,2026-01-15
-in_kind,2025-06-02,Virginia Beer Wholesalers Association,$572.13,Richmond,VA,pac,Event,B,479141,2026-01-15
+in_kind,2025-06-02,Virginia Beer Wholesalers Association,$572.13,Richmond,VA,business,Event,B,479141,2026-01-15
 in_kind,2025-05-21,GOPAC,"$1,611.27",Arlington,VA,pac,Event,B,479141,2026-01-15
-in_kind,2025-07-20,Republican State Leadership Committee,"$3,295.20",Washington,DC,pac,Event,B,480197,2026-01-15
-in_kind,2025-08-26,Republican State Leadership Committee,"$2,265.60",Washington,DC,pac,Event,B,480197,2026-01-15
-in_kind,2025-10-09,Republican State Leadership Committee,"$3,878.96",Washington,DC,pac,Event,B,480197,2026-01-15
-in_kind,2026-05-04,Republican State Leadership Committee,"$4,948.51",Washington,DC,pac,Event,B,497124,2026-07-15
-expenditure,2025-03-24,The Virginia Shop,$158.43,Richmond,VA,pac,Event Supplies,D,479141,2026-01-15
-expenditure,2025-03-10,Treasurer of Virginia,$121.87,Richmond,VA,pac,Flags,D,479141,2026-01-15
-expenditure,2025-06-18,Treasurer of Virginia,$159.75,Richmond,VA,pac,Flags,D,479141,2026-01-15
-expenditure,2025-01-06,Sheetz,$65.95,Tappahannock,VA,pac,Fuel,D,479141,2026-01-15
-expenditure,2025-01-01,Verizon Wireless,$50.63,Acworth,GA,pac,Phone,D,479141,2026-01-15
-expenditure,2025-02-01,Verizon Wireless,$50.63,Acworth,GA,pac,Phone,D,479141,2026-01-15
-expenditure,2025-03-01,Verizon Wireless,$50.63,Acworth,GA,pac,Phone,D,479141,2026-01-15
-expenditure,2025-04-01,Verizon Wireless,$50.63,Acworth,GA,pac,Phone,D,479141,2026-01-15
-expenditure,2025-05-01,Verizon Wireless,$50.63,Acworth,GA,pac,Phone,D,479141,2026-01-15
-expenditure,2025-06-01,Verizon Wireless,$50.63,Acworth,GA,pac,Phone,D,479141,2026-01-15
-expenditure,2025-01-07,Office Max,$99.49,Richmond,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-06-12,Office Max,$183.17,Richmond,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-02-06,The Virginia Shop,$75,Richmond,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-21,Office Max,$56.16,Glen Allen,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-02-05,Office Max,$165.34,Glen Allen,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-02-07,Office Max,$20.32,Glen Allen,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-06,Wawa,$61.22,Ashland,VA,pac,Fuel,D,479141,2026-01-15
-expenditure,2025-03-25,Hanover County Sheriff's Office Foundation,$500,Hanover,VA,pac,Contribution,D,479141,2026-01-15
-expenditure,2025-01-06,Office Max,$330.54,Mechanicsville,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-02,Office Depot,$330.54,Minneapolis,MN,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-04-11,Office Depot,$411.33,Minneapolis,MN,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-13,Treasurer of Virginia,$98,Richmond,VA,pac,Flag,D,479141,2026-01-15
-expenditure,2025-04-02,Treasurer of Virginia,$15,Richmond,VA,pac,Parking Hangtag,D,479141,2026-01-15
-expenditure,2025-01-02,Constant Contact,$157,New York,NY,pac,Offiecce Supplies,D,479141,2026-01-15
-expenditure,2025-02-01,Constant Contact,$157,New York,NY,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-03-01,Constant Contact,$157,New York,NY,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-04-26,Constant Contact,$157,New York,NY,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-05-01,Constant Contact,$157,New York,NY,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-06-01,Constant Contact,$175,New York,NY,pac,Office Supplies,D,479141,2026-01-15
+in_kind,2025-07-20,Republican State Leadership Committee,"$3,295.20",Washington,DC,business,Event,B,480197,2026-01-15
+in_kind,2025-08-26,Republican State Leadership Committee,"$2,265.60",Washington,DC,business,Event,B,480197,2026-01-15
+in_kind,2025-10-09,Republican State Leadership Committee,"$3,878.96",Washington,DC,business,Event,B,480197,2026-01-15
+in_kind,2026-05-04,Republican State Leadership Committee,"$4,948.51",Washington,DC,business,Event,B,497124,2026-07-15
+expenditure,2025-03-24,The Virginia Shop,$158.43,Richmond,VA,business,Event Supplies,D,479141,2026-01-15
+expenditure,2025-03-10,Treasurer of Virginia,$121.87,Richmond,VA,business,Flags,D,479141,2026-01-15
+expenditure,2025-06-18,Treasurer of Virginia,$159.75,Richmond,VA,business,Flags,D,479141,2026-01-15
+expenditure,2025-01-06,Sheetz,$65.95,Tappahannock,VA,business,Fuel,D,479141,2026-01-15
+expenditure,2025-01-01,Verizon Wireless,$50.63,Acworth,GA,business,Phone,D,479141,2026-01-15
+expenditure,2025-02-01,Verizon Wireless,$50.63,Acworth,GA,business,Phone,D,479141,2026-01-15
+expenditure,2025-03-01,Verizon Wireless,$50.63,Acworth,GA,business,Phone,D,479141,2026-01-15
+expenditure,2025-04-01,Verizon Wireless,$50.63,Acworth,GA,business,Phone,D,479141,2026-01-15
+expenditure,2025-05-01,Verizon Wireless,$50.63,Acworth,GA,business,Phone,D,479141,2026-01-15
+expenditure,2025-06-01,Verizon Wireless,$50.63,Acworth,GA,business,Phone,D,479141,2026-01-15
+expenditure,2025-01-07,Office Max,$99.49,Richmond,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-06-12,Office Max,$183.17,Richmond,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-06,The Virginia Shop,$75,Richmond,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-21,Office Max,$56.16,Glen Allen,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-05,Office Max,$165.34,Glen Allen,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-07,Office Max,$20.32,Glen Allen,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-06,Wawa,$61.22,Ashland,VA,business,Fuel,D,479141,2026-01-15
+expenditure,2025-03-25,Hanover County Sheriff's Office Foundation,$500,Hanover,VA,business,Contribution,D,479141,2026-01-15
+expenditure,2025-01-06,Office Max,$330.54,Mechanicsville,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-02,Office Depot,$330.54,Minneapolis,MN,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-04-11,Office Depot,$411.33,Minneapolis,MN,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-13,Treasurer of Virginia,$98,Richmond,VA,business,Flag,D,479141,2026-01-15
+expenditure,2025-04-02,Treasurer of Virginia,$15,Richmond,VA,business,Parking Hangtag,D,479141,2026-01-15
+expenditure,2025-01-02,Constant Contact,$157,New York,NY,business,Offiecce Supplies,D,479141,2026-01-15
+expenditure,2025-02-01,Constant Contact,$157,New York,NY,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-03-01,Constant Contact,$157,New York,NY,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-04-26,Constant Contact,$157,New York,NY,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-05-01,Constant Contact,$157,New York,NY,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-06-01,Constant Contact,$175,New York,NY,business,Office Supplies,D,479141,2026-01-15
 expenditure,2025-01-06,Virginia Senate Republican Caucus,"$10,000",Williamsburg,VA,party,Contribution,D,479141,2026-01-15
-expenditure,2025-02-11,Jefferson Hotel,$817.08,Richmond,VA,pac,Event,D,479141,2026-01-15
-expenditure,2025-01-28,Republican State Leadership Committee,$198,Washington,DC,pac,Event,D,479141,2026-01-15
-expenditure,2025-04-01,Hanover Rotary Club,$250,Glen Allen,VA,pac,Contribution,D,479141,2026-01-15
-expenditure,2025-04-01,CityParking Inc.,$62,Richmond,VA,pac,Parking,D,479141,2026-01-15
-expenditure,2025-06-16,Wawa,$65.03,Mechanicsville,VA,pac,Fuel,D,479141,2026-01-15
-expenditure,2025-06-23,Wawa,$60.24,Mechanicsville,VA,pac,Fuel,D,479141,2026-01-15
+expenditure,2025-02-11,Jefferson Hotel,$817.08,Richmond,VA,business,Event,D,479141,2026-01-15
+expenditure,2025-01-28,Republican State Leadership Committee,$198,Washington,DC,business,Event,D,479141,2026-01-15
+expenditure,2025-04-01,Hanover Rotary Club,$250,Glen Allen,VA,business,Contribution,D,479141,2026-01-15
+expenditure,2025-04-01,CityParking Inc.,$62,Richmond,VA,business,Parking,D,479141,2026-01-15
+expenditure,2025-06-16,Wawa,$65.03,Mechanicsville,VA,business,Fuel,D,479141,2026-01-15
+expenditure,2025-06-23,Wawa,$60.24,Mechanicsville,VA,business,Fuel,D,479141,2026-01-15
 expenditure,2025-03-04,Republican Party of Virginia,"$5,000",Richmond,VA,party,Contribution,D,479141,2026-01-15
-expenditure,2025-02-12,"Checks In The Mail, Inc.",$94.57,New Braunfels,TX,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-05-07,"Dropbox, Inc.",$119.88,San Francisco,CA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-03-20,Hobby Lobby,$47.69,Glen Allen,VA,pac,Event Supplies,D,479141,2026-01-15
-expenditure,2025-01-15,Amazon,$682.06,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-15,Amazon,$327.23,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-27,Amazon,$213.37,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-31,Amazon,$15.25,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-02-04,Amazon,$65.40,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-02-05,Amazon,$39.21,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-02-07,Amazon,$55.11,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-02-28,Amazon,$30.98,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-05-15,Amazon,$20.99,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-06-04,Amazon,$214,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-06-25,Amazon,$662.45,Seattle,WA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-26,Comcast Business,$426.23,Southeastern,PA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-02-28,Comcast Business,$426.57,Southeastern,PA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-02,BJs Whole Sale,$589.58,Mechanicsville,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-31,BJs Whole Sale,$443.22,Mechanicsville,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-04-18,BJs Whole Sale,$625.75,Mechanicsville,VA,pac,Event Supplies,D,479141,2026-01-15
-expenditure,2025-06-12,BJs Whole Sale,$237.63,Mechanicsville,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-01-02,Google LLC,$81.52,Mountain View,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-02-03,Google LLC,$79.20,Mountain View,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-03-03,Google LLC,$79.20,Mountain View,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-05-05,Google LLC,$174.57,Mountain View,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-06-01,Google LLC,$92.40,Mountain View,VA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-03-10,Red Maverick Media,"$5,000",Harrisburg,PA,pac,Consulting Services,D,479141,2026-01-15
-expenditure,2025-04-10,Aylett Country Day School,$100,Millers Tavern,VA,pac,Contribution,D,479141,2026-01-15
-expenditure,2025-01-10,Adobe,$42.98,San Jose,CA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-02-10,Adobe,$42.98,San Jose,CA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-03-10,Adobe,$42.98,San Jose,CA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-04-10,Adobe,$42.98,San Jose,CA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-05-27,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,479141,2026-01-15
-expenditure,2025-06-27,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-12,"Checks In The Mail, Inc.",$94.57,New Braunfels,TX,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-05-07,"Dropbox, Inc.",$119.88,San Francisco,CA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-03-20,Hobby Lobby,$47.69,Glen Allen,VA,business,Event Supplies,D,479141,2026-01-15
+expenditure,2025-01-15,Amazon,$682.06,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-15,Amazon,$327.23,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-27,Amazon,$213.37,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-31,Amazon,$15.25,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-04,Amazon,$65.40,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-05,Amazon,$39.21,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-07,Amazon,$55.11,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-28,Amazon,$30.98,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-05-15,Amazon,$20.99,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-06-04,Amazon,$214,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-06-25,Amazon,$662.45,Seattle,WA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-26,Comcast Business,$426.23,Southeastern,PA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-28,Comcast Business,$426.57,Southeastern,PA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-02,BJs Whole Sale,$589.58,Mechanicsville,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-31,BJs Whole Sale,$443.22,Mechanicsville,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-04-18,BJs Whole Sale,$625.75,Mechanicsville,VA,business,Event Supplies,D,479141,2026-01-15
+expenditure,2025-06-12,BJs Whole Sale,$237.63,Mechanicsville,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-01-02,Google LLC,$81.52,Mountain View,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-03,Google LLC,$79.20,Mountain View,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-03-03,Google LLC,$79.20,Mountain View,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-05-05,Google LLC,$174.57,Mountain View,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-06-01,Google LLC,$92.40,Mountain View,VA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-03-10,Red Maverick Media,"$5,000",Harrisburg,PA,business,Consulting Services,D,479141,2026-01-15
+expenditure,2025-04-10,Aylett Country Day School,$100,Millers Tavern,VA,business,Contribution,D,479141,2026-01-15
+expenditure,2025-01-10,Adobe,$42.98,San Jose,CA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-02-10,Adobe,$42.98,San Jose,CA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-03-10,Adobe,$42.98,San Jose,CA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-04-10,Adobe,$42.98,San Jose,CA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-05-27,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,479141,2026-01-15
+expenditure,2025-06-27,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,479141,2026-01-15
 expenditure,2025-01-02,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,479141,2026-01-15
 expenditure,2025-02-02,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,479141,2026-01-15
 expenditure,2025-03-02,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,479141,2026-01-15
 expenditure,2025-04-02,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,479141,2026-01-15
 expenditure,2025-05-02,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,479141,2026-01-15
 expenditure,2025-06-05,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,479141,2026-01-15
-expenditure,2025-01-10,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,pac,Paper Subscription,D,479141,2026-01-15
-expenditure,2025-02-10,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,pac,Paper Subscription,D,479141,2026-01-15
-expenditure,2025-03-06,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,pac,Paper Subscription,D,479141,2026-01-15
-expenditure,2025-04-10,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,pac,Paper Subscription,D,479141,2026-01-15
-expenditure,2025-05-10,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,pac,Paper Subscription,D,479141,2026-01-15
-expenditure,2025-06-10,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,pac,Paper Subscription,D,479141,2026-01-15
-expenditure,2025-03-02,Hanover Chamber Foundation,$500,Hanover,VA,pac,Contribution,D,479141,2026-01-15
+expenditure,2025-01-10,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,business,Paper Subscription,D,479141,2026-01-15
+expenditure,2025-02-10,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,business,Paper Subscription,D,479141,2026-01-15
+expenditure,2025-03-06,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,business,Paper Subscription,D,479141,2026-01-15
+expenditure,2025-04-10,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,business,Paper Subscription,D,479141,2026-01-15
+expenditure,2025-05-10,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,business,Paper Subscription,D,479141,2026-01-15
+expenditure,2025-06-10,Richmond Times Dispatch,$28.99,Mechanicsvilles,VA,business,Paper Subscription,D,479141,2026-01-15
+expenditure,2025-03-02,Hanover Chamber Foundation,$500,Hanover,VA,business,Contribution,D,479141,2026-01-15
 expenditure,2025-03-10,David Keith Fisher,$304.44,Heathsville,VA,individual,Mileage,D,479141,2026-01-15
 expenditure,2025-04-18,David Keith Fisher,$65.60,Heathsville,VA,individual,Mileage,D,479141,2026-01-15
-expenditure,2025-01-13,Forward Realty Virginia LLC,"$7,956",Mechanicsville,VA,pac,Rent,D,479141,2026-01-15
-expenditure,2025-03-11,Perry's Steakhouse,"$2,625",Richmond,VA,pac,Event,D,479141,2026-01-15
-expenditure,2025-06-11,Perry's Steakhouse,"$5,000",Richmond,VA,pac,Event,D,479141,2026-01-15
-expenditure,2025-01-06,Winsome for Governor,"$10,000",Henrico,VA,pac,Contribution,D,479141,2026-01-15
-expenditure,2025-02-15,MyStorage,$138,Mechanicsville,VA,pac,Storage,D,479141,2026-01-15
-expenditure,2025-03-15,MyStorage,$138,Mechanicsville,VA,pac,Storage,D,479141,2026-01-15
-expenditure,2025-04-15,MyStorage,$138,Mechanicsville,VA,pac,Storage,D,479141,2026-01-15
-expenditure,2025-05-15,MyStorage,$134.50,Mechanicsville,VA,pac,Storage,D,479141,2026-01-15
-expenditure,2025-06-15,MyStorage,$128,Mechanicsville,VA,pac,Storage,D,479141,2026-01-15
-expenditure,2025-02-04,Krispy Kreme,$127.02,Richmond,VA,pac,Event,D,479141,2026-01-15
-expenditure,2025-02-11,New Kent High School,$250,New Kent,VA,pac,Contribution,D,479141,2026-01-15
-expenditure,2025-01-13,Rally Virginia,"$5,000",00,VA,pac,Contribution,D,479141,2026-01-15
-expenditure,2025-03-13,Greater Williamsburg Chamber,$700,Williamsburg,VA,pac,Contribution,D,479141,2026-01-15
-expenditure,2025-11-28,Costco,"$2,418.39",Glen Allen,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-08-05,The Virginia Shop,$318,Richmond,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-10-23,The Virginia Shop,$214.65,Richmond,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-11-12,The Virginia Shop,$381.60,Richmond,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-11-21,Verizon Wireless,$100.63,Acworth,GA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-07-02,Office Max,$121.96,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-08-08,Office Max,$271.21,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-09-25,Office Max,$715.74,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-09-29,Office Max,$247.15,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-24,Office Max,$97.89,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-07-16,Staples,$315.64,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-09-22,Staples,$202.65,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-20,Staples,$67.91,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-22,Staples,$390.85,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-12-04,Staples,$89.88,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-08-25,Wawa,$69.85,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-09-15,Wawa,$61.05,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-10-05,Wawa,$55.15,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-10-27,Wawa,$59.17,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-11-14,Wawa,$60,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-12-05,Wawa,$71.53,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-12-08,Wawa,$59.01,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-12-19,Wawa,$71.98,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-10-21,Wawa,$50.05,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-11-04,Wawa,$60.04,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-11-25,Exxon,$63,Mechanicsville,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-09-19,Shell,$65.32,Bowling Green,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-10-27,Chick Fil A,$443.88,Mechanicsville,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-10-27,Chick Fil A,$576.09,Mechanicsville,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-11-06,Chick Fil A,$40.81,Mechanicsville,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-11-06,Chick Fil A,$244.20,Mechanicsville,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-11-06,Chick Fil A,$420.69,Mechanicsville,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-11-06,Chick Fil A,$469.32,Mechanicsville,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-08-12,Shell,$60.46,Mechanicsville,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-11-04,Shell,$40,Mechanicsville,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-11-03,Starbucks,$693.60,Mechanicsville,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-10-03,Mexico Restaurant,"$2,028.82",Mechanicsville,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-09-01,Constant Contact,$175,New York,NY,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-01,Constant Contact,$175,New York,NY,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-11-01,Constant Contact,$175,New York,NY,pac,Office Supplies,D,480197,2026-01-15
+expenditure,2025-01-13,Forward Realty Virginia LLC,"$7,956",Mechanicsville,VA,business,Rent,D,479141,2026-01-15
+expenditure,2025-03-11,Perry's Steakhouse,"$2,625",Richmond,VA,business,Event,D,479141,2026-01-15
+expenditure,2025-06-11,Perry's Steakhouse,"$5,000",Richmond,VA,business,Event,D,479141,2026-01-15
+expenditure,2025-01-06,Winsome for Governor,"$10,000",Henrico,VA,business,Contribution,D,479141,2026-01-15
+expenditure,2025-02-15,MyStorage,$138,Mechanicsville,VA,business,Storage,D,479141,2026-01-15
+expenditure,2025-03-15,MyStorage,$138,Mechanicsville,VA,business,Storage,D,479141,2026-01-15
+expenditure,2025-04-15,MyStorage,$138,Mechanicsville,VA,business,Storage,D,479141,2026-01-15
+expenditure,2025-05-15,MyStorage,$134.50,Mechanicsville,VA,business,Storage,D,479141,2026-01-15
+expenditure,2025-06-15,MyStorage,$128,Mechanicsville,VA,business,Storage,D,479141,2026-01-15
+expenditure,2025-02-04,Krispy Kreme,$127.02,Richmond,VA,business,Event,D,479141,2026-01-15
+expenditure,2025-02-11,New Kent High School,$250,New Kent,VA,business,Contribution,D,479141,2026-01-15
+expenditure,2025-01-13,Rally Virginia,"$5,000",00,VA,business,Contribution,D,479141,2026-01-15
+expenditure,2025-03-13,Greater Williamsburg Chamber,$700,Williamsburg,VA,business,Contribution,D,479141,2026-01-15
+expenditure,2025-11-28,Costco,"$2,418.39",Glen Allen,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-08-05,The Virginia Shop,$318,Richmond,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-10-23,The Virginia Shop,$214.65,Richmond,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-11-12,The Virginia Shop,$381.60,Richmond,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-11-21,Verizon Wireless,$100.63,Acworth,GA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-07-02,Office Max,$121.96,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-08-08,Office Max,$271.21,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-09-25,Office Max,$715.74,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-09-29,Office Max,$247.15,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-24,Office Max,$97.89,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-07-16,Staples,$315.64,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-09-22,Staples,$202.65,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-20,Staples,$67.91,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-22,Staples,$390.85,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-12-04,Staples,$89.88,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-08-25,Wawa,$69.85,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-09-15,Wawa,$61.05,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-10-05,Wawa,$55.15,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-10-27,Wawa,$59.17,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-11-14,Wawa,$60,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-12-05,Wawa,$71.53,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-12-08,Wawa,$59.01,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-12-19,Wawa,$71.98,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-10-21,Wawa,$50.05,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-11-04,Wawa,$60.04,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-11-25,Exxon,$63,Mechanicsville,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-09-19,Shell,$65.32,Bowling Green,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-10-27,Chick Fil A,$443.88,Mechanicsville,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-10-27,Chick Fil A,$576.09,Mechanicsville,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-11-06,Chick Fil A,$40.81,Mechanicsville,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-11-06,Chick Fil A,$244.20,Mechanicsville,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-11-06,Chick Fil A,$420.69,Mechanicsville,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-11-06,Chick Fil A,$469.32,Mechanicsville,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-08-12,Shell,$60.46,Mechanicsville,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-11-04,Shell,$40,Mechanicsville,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-11-03,Starbucks,$693.60,Mechanicsville,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-10-03,Mexico Restaurant,"$2,028.82",Mechanicsville,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-09-01,Constant Contact,$175,New York,NY,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-01,Constant Contact,$175,New York,NY,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-11-01,Constant Contact,$175,New York,NY,business,Office Supplies,D,480197,2026-01-15
 expenditure,2025-08-16,Virginia Senate Republican Caucus,"$5,000",Williamsburg,VA,party,Contribution,D,480197,2026-01-15
-expenditure,2025-11-17,United States Post Office,$174.35,Mechanicsville,VA,pac,Postage,D,480197,2026-01-15
-expenditure,2025-12-03,United States Post Office,$360,Mechanicsville,VA,pac,Post Office Box,D,480197,2026-01-15
+expenditure,2025-11-17,United States Post Office,$174.35,Mechanicsville,VA,business,Postage,D,480197,2026-01-15
+expenditure,2025-12-03,United States Post Office,$360,Mechanicsville,VA,business,Post Office Box,D,480197,2026-01-15
 expenditure,2025-07-23,Virginia Trial Lawyers PAC,"$1,320.66",Richmond,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-12-05,Republican State Leadership Committee,$120,Washington,DC,pac,Event,D,480197,2026-01-15
-expenditure,2025-07-30,Wal-Mart Stores,$66.49,Richmond,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-08-29,BP Gas,$79.01,Milford,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-12-31,Staples,$191.51,Framingham,MA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-09-30,Sheetz,$77.91,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-10-16,"Vista Print USA, Inc.",$265.35,Lexington,MA,pac,Campaign Supplies,D,480197,2026-01-15
-expenditure,2025-10-23,"Vista Print USA, Inc.",$328.94,Lexington,MA,pac,Campaign Supplies,D,480197,2026-01-15
-expenditure,2025-11-25,"Vista Print USA, Inc.",$781.21,Lexington,MA,pac,Campaign Supplies,D,480197,2026-01-15
-expenditure,2025-11-25,"Vista Print USA, Inc.","$1,685.63",Lexington,MA,pac,Campaign Supplies,D,480197,2026-01-15
-expenditure,2025-08-18,Wawa,$69.27,Mechanicsville,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-09-22,Wawa,$68.51,Mechanicsville,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-12-31,Virginia Chamber of Commerce,$82.71,Richmond,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-10-20,Walmart Fuel,$65.18,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-10-23,Walmart Fuel,$55,Ashland,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-08-08,Hanover High School,$460,Mechanicsville,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-09-08,Hanover Republican Women's Club,$500,Mechanicsville,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-07-08,Amazon,$229.56,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-07-09,Amazon,$841.22,Seattle,WA,pac,Campaign Supplies,D,480197,2026-01-15
-expenditure,2025-08-14,Amazon,$57.76,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-08-19,Amazon,$55.62,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-09-22,Amazon,$44.95,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-22,Amazon,$44.92,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-22,Amazon,$117.68,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-23,Amazon,$242.80,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-11-12,Amazon,$140.14,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-11-19,Amazon,$248.97,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-11-24,Amazon,$322.22,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-11-28,Amazon,$27.38,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-12-01,Amazon,$199.24,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-12-03,Amazon,$116.59,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-12-30,Amazon,$27.79,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-12-31,Amazon,$34.20,Seattle,WA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-07-21,Comcast Business,$441.58,Southeastern,PA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-08-19,Comcast Business,$442.61,Southeastern,PA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-09-19,Comcast Business,$442.61,Southeastern,PA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-10-20,Comcast Business,$440.64,Southeastern,PA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-11-19,Comcast Business,$441.59,Southeastern,PA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-12-19,Comcast Business,$461.85,Southeastern,PA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-09-25,Reagan International Airport,$84,Washington DC,DC,pac,Parking,D,480197,2026-01-15
-expenditure,2025-10-21,BJs Whole Sale,$712.94,Mechanicsville,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-11-04,BJs Whole Sale,$173.80,Mechanicsville,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-07-01,Google LLC,$92.40,Mountain View,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-08-01,Google LLC,$184.80,Mountain View,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-09-01,Google LLC,$92.40,Mountain View,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-01,Google LLC,$92.40,Mountain View,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-11-01,Google LLC,$92.40,Mountain View,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-12-01,Google LLC,$92.40,Mountain View,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-01,Microsoft,$129.99,Arlington,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-07-27,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-08-27,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-09-27,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-27,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-11-27,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-12-27,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-30,Zoom,$167.90,San Jose,CA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-24,Canva,$500,"NSW 2010, Australia",,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-31,New Kent County Republican Committee,$500,Quinton,VA,pac,Contribution,D,480197,2026-01-15
+expenditure,2025-12-05,Republican State Leadership Committee,$120,Washington,DC,business,Event,D,480197,2026-01-15
+expenditure,2025-07-30,Wal-Mart Stores,$66.49,Richmond,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-08-29,BP Gas,$79.01,Milford,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-12-31,Staples,$191.51,Framingham,MA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-09-30,Sheetz,$77.91,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-10-16,"Vista Print USA, Inc.",$265.35,Lexington,MA,business,Campaign Supplies,D,480197,2026-01-15
+expenditure,2025-10-23,"Vista Print USA, Inc.",$328.94,Lexington,MA,business,Campaign Supplies,D,480197,2026-01-15
+expenditure,2025-11-25,"Vista Print USA, Inc.",$781.21,Lexington,MA,business,Campaign Supplies,D,480197,2026-01-15
+expenditure,2025-11-25,"Vista Print USA, Inc.","$1,685.63",Lexington,MA,business,Campaign Supplies,D,480197,2026-01-15
+expenditure,2025-08-18,Wawa,$69.27,Mechanicsville,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-09-22,Wawa,$68.51,Mechanicsville,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-12-31,Virginia Chamber of Commerce,$82.71,Richmond,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-10-20,Walmart Fuel,$65.18,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-10-23,Walmart Fuel,$55,Ashland,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-08-08,Hanover High School,$460,Mechanicsville,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-09-08,Hanover Republican Women's Club,$500,Mechanicsville,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-07-08,Amazon,$229.56,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-07-09,Amazon,$841.22,Seattle,WA,business,Campaign Supplies,D,480197,2026-01-15
+expenditure,2025-08-14,Amazon,$57.76,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-08-19,Amazon,$55.62,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-09-22,Amazon,$44.95,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-22,Amazon,$44.92,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-22,Amazon,$117.68,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-23,Amazon,$242.80,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-11-12,Amazon,$140.14,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-11-19,Amazon,$248.97,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-11-24,Amazon,$322.22,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-11-28,Amazon,$27.38,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-12-01,Amazon,$199.24,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-12-03,Amazon,$116.59,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-12-30,Amazon,$27.79,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-12-31,Amazon,$34.20,Seattle,WA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-07-21,Comcast Business,$441.58,Southeastern,PA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-08-19,Comcast Business,$442.61,Southeastern,PA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-09-19,Comcast Business,$442.61,Southeastern,PA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-10-20,Comcast Business,$440.64,Southeastern,PA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-11-19,Comcast Business,$441.59,Southeastern,PA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-12-19,Comcast Business,$461.85,Southeastern,PA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-09-25,Reagan International Airport,$84,Washington DC,DC,business,Parking,D,480197,2026-01-15
+expenditure,2025-10-21,BJs Whole Sale,$712.94,Mechanicsville,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-11-04,BJs Whole Sale,$173.80,Mechanicsville,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-07-01,Google LLC,$92.40,Mountain View,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-08-01,Google LLC,$184.80,Mountain View,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-09-01,Google LLC,$92.40,Mountain View,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-01,Google LLC,$92.40,Mountain View,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-11-01,Google LLC,$92.40,Mountain View,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-12-01,Google LLC,$92.40,Mountain View,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-01,Microsoft,$129.99,Arlington,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-07-27,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-08-27,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-09-27,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-27,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-11-27,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-12-27,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-30,Zoom,$167.90,San Jose,CA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-24,Canva,$500,"NSW 2010, Australia",,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-31,New Kent County Republican Committee,$500,Quinton,VA,business,Contribution,D,480197,2026-01-15
 expenditure,2025-07-14,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,480197,2026-01-15
 expenditure,2025-08-08,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,480197,2026-01-15
 expenditure,2025-08-08,Nathan Pittman,$617.67,Fredericksburg,VA,individual,Mileage,D,480197,2026-01-15
@@ -410,272 +410,272 @@ expenditure,2025-09-03,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Cons
 expenditure,2025-10-03,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,480197,2026-01-15
 expenditure,2025-11-06,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,480197,2026-01-15
 expenditure,2025-12-09,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,480197,2026-01-15
-expenditure,2025-10-29,Friends of Amanda Batten,"$1,000",Norge,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-09-08,Loves,$79.59,Providence Forge,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-09-02,Richmond Times Dispatch,$10.99,Mechanicsvilles,VA,pac,Subscription,D,480197,2026-01-15
-expenditure,2025-10-01,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,pac,Subscription,D,480197,2026-01-15
-expenditure,2025-10-14,Richmond Times Dispatch,$10.99,Mechanicsvilles,VA,pac,Subscriptiom,D,480197,2026-01-15
-expenditure,2025-10-28,Richmond Times Dispatch,$14,Mechanicsvilles,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-10-28,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,pac,Subscription,D,480197,2026-01-15
-expenditure,2025-11-13,Richmond Times Dispatch,$10.99,Mechanicsvilles,VA,pac,Subscription,D,480197,2026-01-15
-expenditure,2025-11-24,Richmond Times Dispatch,$34.99,Mechanicsvilles,VA,pac,Subscription,D,480197,2026-01-15
-expenditure,2025-11-25,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,pac,Subscription,D,480197,2026-01-15
-expenditure,2025-11-28,Richmond Times Dispatch,$14,Mechanicsvilles,VA,pac,Subscription,D,480197,2026-01-15
-expenditure,2025-12-08,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,pac,Subscription,D,480197,2026-01-15
-expenditure,2025-12-22,Richmond Times Dispatch,$34.99,Mechanicsvilles,VA,pac,Subscription,D,480197,2026-01-15
-expenditure,2025-12-23,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,pac,Subscription,D,480197,2026-01-15
+expenditure,2025-10-29,Friends of Amanda Batten,"$1,000",Norge,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-09-08,Loves,$79.59,Providence Forge,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-09-02,Richmond Times Dispatch,$10.99,Mechanicsvilles,VA,business,Subscription,D,480197,2026-01-15
+expenditure,2025-10-01,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,business,Subscription,D,480197,2026-01-15
+expenditure,2025-10-14,Richmond Times Dispatch,$10.99,Mechanicsvilles,VA,business,Subscriptiom,D,480197,2026-01-15
+expenditure,2025-10-28,Richmond Times Dispatch,$14,Mechanicsvilles,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-10-28,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,business,Subscription,D,480197,2026-01-15
+expenditure,2025-11-13,Richmond Times Dispatch,$10.99,Mechanicsvilles,VA,business,Subscription,D,480197,2026-01-15
+expenditure,2025-11-24,Richmond Times Dispatch,$34.99,Mechanicsvilles,VA,business,Subscription,D,480197,2026-01-15
+expenditure,2025-11-25,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,business,Subscription,D,480197,2026-01-15
+expenditure,2025-11-28,Richmond Times Dispatch,$14,Mechanicsvilles,VA,business,Subscription,D,480197,2026-01-15
+expenditure,2025-12-08,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,business,Subscription,D,480197,2026-01-15
+expenditure,2025-12-22,Richmond Times Dispatch,$34.99,Mechanicsvilles,VA,business,Subscription,D,480197,2026-01-15
+expenditure,2025-12-23,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,business,Subscription,D,480197,2026-01-15
 expenditure,2025-07-16,David Keith Fisher,$448.02,Heathsville,VA,individual,Mileage,D,480197,2026-01-15
 expenditure,2025-10-16,David Keith Fisher,$155.89,Heathsville,VA,individual,Mileage,D,480197,2026-01-15
-expenditure,2025-09-18,DirectONe,$563.39,xxx,VA,pac,Campaign Supplies,D,480197,2026-01-15
-expenditure,2025-08-22,Gloucester County Republican Committee,"$1,000",Gloucester,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-09-01,MyStorage,$149,Mechanicsville,VA,pac,Storage,D,480197,2026-01-15
-expenditure,2025-10-01,MyStorage,$149,Mechanicsville,VA,pac,Storage,D,480197,2026-01-15
-expenditure,2025-11-01,MyStorage,$149,Mechanicsville,VA,pac,Office Supplies,D,480197,2026-01-15
-expenditure,2025-09-16,Grace Christian School,$150,Mechanicsville,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-10-10,National Review,$40,New York,NY,pac,Subscription,D,480197,2026-01-15
-expenditure,2025-10-14,Glen Allen Fast Food,$51.63,Glen Allen,VA,pac,Fuel,D,480197,2026-01-15
-expenditure,2025-10-17,Marys Flower Shop,$197.50,Triangle,VA,pac,Condolence Gesture,D,480197,2026-01-15
-expenditure,2025-10-21,Flowers By Legacy,$194.91,Miami,FL,pac,Condolence Gesture,D,480197,2026-01-15
-expenditure,2025-10-23,Sticker Mule,$291.22,Amsterdam,NY,pac,Campaign Supplies,D,480197,2026-01-15
-expenditure,2025-11-25,Sticker Mule,$393.09,Amsterdam,NY,pac,Campaign Supplies,D,480197,2026-01-15
-expenditure,2025-10-14,Friends of Chad Green,"$1,000",Seaford,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-11-19,Hanover Safe Space,$500,Ashland,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-12-06,Young Republican Federation of Virginia,"$1,000",Alexandria,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-12-22,Friends of John Thomas,"$1,000",Chesterfield,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2025-08-23,Marriott Fairfield Inn & Suites Abingdon,$302.52,Abindgon,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-08-28,The Martha Washington Inn,$421.23,Abingdon,VA,pac,Event,D,480197,2026-01-15
-expenditure,2025-10-21,Footjoy,$963,Fairhaven,MA,pac,Campaign Supplies,D,480197,2026-01-15
-expenditure,2025-09-11,Virginia Fentanyl & Substance Awareness,$500,Moseley,VA,pac,Contribution,D,480197,2026-01-15
-expenditure,2026-06-30,Verizon,$200.63,Dallas,TX,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-06,Costco,$532.17,Glen Allen,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-05,Costco,$319.53,Glen Allen,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-05,The Virginia Shop,$109.71,Richmond,VA,pac,Event Supplies,D,497124,2026-07-15
-expenditure,2026-02-12,The Virginia Shop,$95.21,Richmond,VA,pac,Event,D,497124,2026-07-15
-expenditure,2026-03-05,The Virginia Shop,$100.12,Richmond,VA,pac,Event,D,497124,2026-07-15
-expenditure,2026-03-16,The Virginia Shop,$14.31,Richmond,VA,pac,Event,D,497124,2026-07-15
-expenditure,2026-04-08,Hanover County Republican Committee,$500,Mechanicsville,VA,pac,Contribution,D,497124,2026-07-15
-expenditure,2026-01-05,Treasurer of Virginia,$147,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-28,Treasurer of Virginia,"$3,334.65",Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-16,The Jefferson Hotel,"$1,050",Richmond,VA,pac,Event,D,497124,2026-07-15
-expenditure,2026-02-05,The Jefferson Hotel,$354.66,Richmond,VA,pac,Event,D,497124,2026-07-15
-expenditure,2026-01-12,Office Max,$51.11,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-31,Office Max,$320.55,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-15,Office Max,$837.85,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-22,Office Max,$490.53,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-28,Office Max,$374.09,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-25,Office Max,$320.55,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-08,Staples,"$1,180.57",Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-09,Staples,$355.14,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-18,Staples,$86.64,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-30,Staples,$63.11,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-23,Staples,$104.31,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-25,Staples,$86.60,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-29,Staples,$69.54,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-29,Wawa,$74.74,Ashland,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-06-08,Wawa,$69.36,Ashland,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-02-24,Hanover County Sheriff's Office Foundation,$500,Hanover,VA,pac,Contribution,D,497124,2026-07-15
-expenditure,2026-03-17,Chick Fil A,$588.45,Mechanicsville,VA,pac,Event,D,497124,2026-07-15
-expenditure,2026-03-27,Office Depot,$648.89,Minneapolis,MN,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-01,Constant Contact,$300,New York,NY,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-01,Constant Contact,$175,New York,NY,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-01,Constant Contact,$175,New York,NY,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-01,Constant Contact,$175,New York,NY,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-01,Constant Contact,$175,New York,NY,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-01,Constant Contact,$175,New York,NY,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-15,FTD.com,$242.61,Downers Grove,IL,pac,Event,D,497124,2026-07-15
-expenditure,2026-04-13,United States Post Office,$111.25,Mechanicsville,VA,pac,Postage,D,497124,2026-07-15
-expenditure,2026-01-20,Republican State Leadership Committee,$120,Washington,DC,pac,Event,D,497124,2026-07-15
-expenditure,2026-02-24,Hanover Rotary Club,$225,Glen Allen,VA,pac,Contribution,D,497124,2026-07-15
-expenditure,2026-06-25,BP Gas,$74.87,Milford,VA,pac,fuel,D,497124,2026-07-15
-expenditure,2026-02-05,Best Buy,$100.67,Minneapolis,MN,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-21,Best Buy,$127.19,Minneapolis,MN,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-21,Target,$108.02,Glen Allen,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-02,"Vista Print USA, Inc.",$213.98,Lexington,MA,pac,Campaign Supplies,D,497124,2026-07-15
-expenditure,2026-02-17,"Vista Print USA, Inc.",$213.12,Lexington,MA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-18,"Vista Print USA, Inc.",$334.89,Lexington,MA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-22,"Vista Print USA, Inc.",$461.16,Lexington,MA,pac,Campaign Supplies,D,497124,2026-07-15
-expenditure,2026-06-22,CityParking Inc.,$22,Richmond,VA,pac,Parking,D,497124,2026-07-15
-expenditure,2026-01-08,Wawa,$57.41,Mechanicsville,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-04-13,Kroger,$43.89,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-14,Kroger,$75.12,Mechanicsville,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-04-27,Kroger,$49.57,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-13,Kroger,$9.08,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-26,Kroger,$9.08,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-01,Kroger,$14.13,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-01,Kroger,$9.08,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-10,Kroger,$9.08,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-16,Kroger,$23.21,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-17,Kroger,$9.08,Henrico,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-12,Walmart Fuel,$65.72,Ashland,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-05-14,Walmart Fuel,$59.52,Ashland,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-06-22,Walmart Fuel,$64.77,Ashland,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-02-20,"Hanover Arc, Inc.",$650,Ashland,VA,pac,Contribution,D,497124,2026-07-15
-expenditure,2026-01-30,Target,$100.68,Glen Allen,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-14,Target,$117.69,Glen Allen,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-22,Delta Airlines,$784.41,Atlanta,GA,pac,Event,D,497124,2026-07-15
-expenditure,2026-06-03,Delta Airlines,"$1,238.40",Atlanta,GA,pac,Flight,D,497124,2026-07-15
-expenditure,2026-04-23,Fas Mart,$74.33,Kilmarnock,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-01-05,Amazon,$180.19,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-05,Amazon,$191.84,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-06,Amazon,$116.52,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-07,Amazon,$479.46,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-08,Amazon,$200.34,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-15,Amazon,$3.85,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-15,Amazon,$221.28,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-16,Amazon,$45.86,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-16,Amazon,$48.72,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-20,Amazon,$79.04,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-29,Amazon,$27.13,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-29,Amazon,$47.29,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-29,Amazon,$66.12,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-29,Amazon,$47.29,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-29,Amazon,$66.12,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-29,Amazon,$90.60,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-03,Amazon,$157.94,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-06,Amazon,$199.52,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-09,Amazon,$23.49,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-09,Amazon,$63,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-09,Amazon,$68.80,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-09,Amazon,$82.95,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-10,Amazon,$7.72,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-10,Amazon,$18.78,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-12,Amazon,$42.78,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-12,Amazon,$62.28,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-02,Amazon,$106.70,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-15,Amazon,$81.30,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-16,Amazon,$429.04,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-21,Amazon,$68.89,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-22,Amazon,$243.79,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-23,Amazon,$30.62,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-24,Amazon,$26.49,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-24,Amazon,$41.52,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-24,Amazon,$65.79,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-27,Amazon,$31.78,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-01,Amazon,$70.58,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-04,Amazon,$40.64,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-04,Amazon,$124.06,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-06,Amazon,$44.92,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-07,Amazon,$81.29,Seattle,WA,pac,office supplies,D,497124,2026-07-15
-expenditure,2026-05-11,Amazon,$32.09,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-13,Amazon,$32.09,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-18,Amazon,$31.02,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-18,Amazon,$53.49,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-18,Amazon,$58.85,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-26,Amazon,$63.14,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-26,Amazon,$81.84,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-28,Amazon,$34.22,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-03,Amazon,$68.03,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-03,Amazon,$219.33,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-05,Amazon,$32.85,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-09,Amazon,$21.72,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-09,Amazon,$46.74,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-09,Amazon,$93.15,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-18,Amazon,$139.09,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-18,Amazon,$496.04,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-22,Amazon,$29.06,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-23,Amazon,$124.01,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-24,Amazon,$53.92,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-24,Amazon,$26.49,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-29,Amazon,$73.80,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-29,Amazon,$59.77,Seattle,WA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-20,Comcast Business,$470.40,Southeastern,PA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-19,Comcast Business,$470.30,Southeastern,PA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-19,Comcast Business,$469.88,Southeastern,PA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-20,Comcast Business,$469.88,Southeastern,PA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-18,Comcast Business,$466.29,Southeastern,PA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-22,Comcast Business,$473.80,Southeastern,PA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-14,Publix,$97.03,Lakeland,FL,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-20,Publix,$74.53,Lakeland,FL,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-01-20,The Daily,$34.99,Warsaw,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-02-17,The Daily,$34.99,Warsaw,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-03-16,The Daily,$34.99,Warsaw,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-06-08,The Daily,$34.99,Warsaw,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-01-07,BJs Whole Sale,$276.34,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-20,BJs Whole Sale,$572.22,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-26,BJs Whole Sale,$211.29,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-13,BJs Whole Sale,$426.75,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-14,BJs Whole Sale,$212.91,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-21,BJs Whole Sale,$349.78,Mechanicsville,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-01,BJs Whole Sale,$59.12,Mechanicsville,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-05-27,BJs Whole Sale,$67.22,Mechanicsville,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-01-01,Google LLC,$96.72,Mountain View,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-01,Google LLC,$96.72,Mountain View,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-01,Google LLC,$100.80,Mountain View,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-01,Google LLC,$100.80,Mountain View,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-03,Google LLC,$200.63,Mountain View,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-02,Google LLC,$100.67,Mountain View,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-04,Google LLC,$94.80,Mountain View,VA,pac,Campaign Supplies,D,497124,2026-07-15
-expenditure,2026-06-02,Google LLC,$94.80,Mountain View,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-23,Aylett Country Day School,$100,Millers Tavern,VA,pac,Contribution,D,497124,2026-07-15
-expenditure,2026-03-26,Dollar General,$13.25,Hanover,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-01-01,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-01,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-01,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-01,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-01,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-06-01,Adobe,$22.99,San Jose,CA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-14,New Kent Legal Hunters Assocation,$70,Providence Forge,VA,pac,Contribution,D,497124,2026-07-15
+expenditure,2025-09-18,DirectONe,$563.39,xxx,VA,business,Campaign Supplies,D,480197,2026-01-15
+expenditure,2025-08-22,Gloucester County Republican Committee,"$1,000",Gloucester,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-09-01,MyStorage,$149,Mechanicsville,VA,business,Storage,D,480197,2026-01-15
+expenditure,2025-10-01,MyStorage,$149,Mechanicsville,VA,business,Storage,D,480197,2026-01-15
+expenditure,2025-11-01,MyStorage,$149,Mechanicsville,VA,business,Office Supplies,D,480197,2026-01-15
+expenditure,2025-09-16,Grace Christian School,$150,Mechanicsville,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-10-10,National Review,$40,New York,NY,business,Subscription,D,480197,2026-01-15
+expenditure,2025-10-14,Glen Allen Fast Food,$51.63,Glen Allen,VA,business,Fuel,D,480197,2026-01-15
+expenditure,2025-10-17,Marys Flower Shop,$197.50,Triangle,VA,business,Condolence Gesture,D,480197,2026-01-15
+expenditure,2025-10-21,Flowers By Legacy,$194.91,Miami,FL,business,Condolence Gesture,D,480197,2026-01-15
+expenditure,2025-10-23,Sticker Mule,$291.22,Amsterdam,NY,business,Campaign Supplies,D,480197,2026-01-15
+expenditure,2025-11-25,Sticker Mule,$393.09,Amsterdam,NY,business,Campaign Supplies,D,480197,2026-01-15
+expenditure,2025-10-14,Friends of Chad Green,"$1,000",Seaford,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-11-19,Hanover Safe Space,$500,Ashland,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-12-06,Young Republican Federation of Virginia,"$1,000",Alexandria,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-12-22,Friends of John Thomas,"$1,000",Chesterfield,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2025-08-23,Marriott Fairfield Inn & Suites Abingdon,$302.52,Abindgon,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-08-28,The Martha Washington Inn,$421.23,Abingdon,VA,business,Event,D,480197,2026-01-15
+expenditure,2025-10-21,Footjoy,$963,Fairhaven,MA,business,Campaign Supplies,D,480197,2026-01-15
+expenditure,2025-09-11,Virginia Fentanyl & Substance Awareness,$500,Moseley,VA,business,Contribution,D,480197,2026-01-15
+expenditure,2026-06-30,Verizon,$200.63,Dallas,TX,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-06,Costco,$532.17,Glen Allen,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-05,Costco,$319.53,Glen Allen,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-05,The Virginia Shop,$109.71,Richmond,VA,business,Event Supplies,D,497124,2026-07-15
+expenditure,2026-02-12,The Virginia Shop,$95.21,Richmond,VA,business,Event,D,497124,2026-07-15
+expenditure,2026-03-05,The Virginia Shop,$100.12,Richmond,VA,business,Event,D,497124,2026-07-15
+expenditure,2026-03-16,The Virginia Shop,$14.31,Richmond,VA,business,Event,D,497124,2026-07-15
+expenditure,2026-04-08,Hanover County Republican Committee,$500,Mechanicsville,VA,business,Contribution,D,497124,2026-07-15
+expenditure,2026-01-05,Treasurer of Virginia,$147,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-28,Treasurer of Virginia,"$3,334.65",Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-16,The Jefferson Hotel,"$1,050",Richmond,VA,business,Event,D,497124,2026-07-15
+expenditure,2026-02-05,The Jefferson Hotel,$354.66,Richmond,VA,business,Event,D,497124,2026-07-15
+expenditure,2026-01-12,Office Max,$51.11,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-31,Office Max,$320.55,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-15,Office Max,$837.85,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-22,Office Max,$490.53,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-28,Office Max,$374.09,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-25,Office Max,$320.55,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-08,Staples,"$1,180.57",Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-09,Staples,$355.14,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-18,Staples,$86.64,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-30,Staples,$63.11,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-23,Staples,$104.31,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-25,Staples,$86.60,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-29,Staples,$69.54,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-29,Wawa,$74.74,Ashland,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-06-08,Wawa,$69.36,Ashland,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-02-24,Hanover County Sheriff's Office Foundation,$500,Hanover,VA,business,Contribution,D,497124,2026-07-15
+expenditure,2026-03-17,Chick Fil A,$588.45,Mechanicsville,VA,business,Event,D,497124,2026-07-15
+expenditure,2026-03-27,Office Depot,$648.89,Minneapolis,MN,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-01,Constant Contact,$300,New York,NY,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-01,Constant Contact,$175,New York,NY,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-01,Constant Contact,$175,New York,NY,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-01,Constant Contact,$175,New York,NY,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-01,Constant Contact,$175,New York,NY,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-01,Constant Contact,$175,New York,NY,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-15,FTD.com,$242.61,Downers Grove,IL,business,Event,D,497124,2026-07-15
+expenditure,2026-04-13,United States Post Office,$111.25,Mechanicsville,VA,business,Postage,D,497124,2026-07-15
+expenditure,2026-01-20,Republican State Leadership Committee,$120,Washington,DC,business,Event,D,497124,2026-07-15
+expenditure,2026-02-24,Hanover Rotary Club,$225,Glen Allen,VA,business,Contribution,D,497124,2026-07-15
+expenditure,2026-06-25,BP Gas,$74.87,Milford,VA,business,fuel,D,497124,2026-07-15
+expenditure,2026-02-05,Best Buy,$100.67,Minneapolis,MN,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-21,Best Buy,$127.19,Minneapolis,MN,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-21,Target,$108.02,Glen Allen,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-02,"Vista Print USA, Inc.",$213.98,Lexington,MA,business,Campaign Supplies,D,497124,2026-07-15
+expenditure,2026-02-17,"Vista Print USA, Inc.",$213.12,Lexington,MA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-18,"Vista Print USA, Inc.",$334.89,Lexington,MA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-22,"Vista Print USA, Inc.",$461.16,Lexington,MA,business,Campaign Supplies,D,497124,2026-07-15
+expenditure,2026-06-22,CityParking Inc.,$22,Richmond,VA,business,Parking,D,497124,2026-07-15
+expenditure,2026-01-08,Wawa,$57.41,Mechanicsville,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-04-13,Kroger,$43.89,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-14,Kroger,$75.12,Mechanicsville,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-04-27,Kroger,$49.57,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-13,Kroger,$9.08,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-26,Kroger,$9.08,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-01,Kroger,$14.13,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-01,Kroger,$9.08,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-10,Kroger,$9.08,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-16,Kroger,$23.21,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-17,Kroger,$9.08,Henrico,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-12,Walmart Fuel,$65.72,Ashland,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-05-14,Walmart Fuel,$59.52,Ashland,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-06-22,Walmart Fuel,$64.77,Ashland,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-02-20,"Hanover Arc, Inc.",$650,Ashland,VA,business,Contribution,D,497124,2026-07-15
+expenditure,2026-01-30,Target,$100.68,Glen Allen,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-14,Target,$117.69,Glen Allen,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-22,Delta Airlines,$784.41,Atlanta,GA,business,Event,D,497124,2026-07-15
+expenditure,2026-06-03,Delta Airlines,"$1,238.40",Atlanta,GA,business,Flight,D,497124,2026-07-15
+expenditure,2026-04-23,Fas Mart,$74.33,Kilmarnock,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-01-05,Amazon,$180.19,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-05,Amazon,$191.84,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-06,Amazon,$116.52,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-07,Amazon,$479.46,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-08,Amazon,$200.34,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-15,Amazon,$3.85,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-15,Amazon,$221.28,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-16,Amazon,$45.86,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-16,Amazon,$48.72,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-20,Amazon,$79.04,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-29,Amazon,$27.13,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-29,Amazon,$47.29,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-29,Amazon,$66.12,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-29,Amazon,$47.29,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-29,Amazon,$66.12,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-29,Amazon,$90.60,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-03,Amazon,$157.94,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-06,Amazon,$199.52,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-09,Amazon,$23.49,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-09,Amazon,$63,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-09,Amazon,$68.80,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-09,Amazon,$82.95,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-10,Amazon,$7.72,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-10,Amazon,$18.78,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-12,Amazon,$42.78,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-12,Amazon,$62.28,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-02,Amazon,$106.70,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-15,Amazon,$81.30,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-16,Amazon,$429.04,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-21,Amazon,$68.89,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-22,Amazon,$243.79,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-23,Amazon,$30.62,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-24,Amazon,$26.49,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-24,Amazon,$41.52,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-24,Amazon,$65.79,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-27,Amazon,$31.78,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-01,Amazon,$70.58,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-04,Amazon,$40.64,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-04,Amazon,$124.06,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-06,Amazon,$44.92,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-07,Amazon,$81.29,Seattle,WA,business,office supplies,D,497124,2026-07-15
+expenditure,2026-05-11,Amazon,$32.09,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-13,Amazon,$32.09,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-18,Amazon,$31.02,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-18,Amazon,$53.49,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-18,Amazon,$58.85,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-26,Amazon,$63.14,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-26,Amazon,$81.84,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-28,Amazon,$34.22,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-03,Amazon,$68.03,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-03,Amazon,$219.33,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-05,Amazon,$32.85,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-09,Amazon,$21.72,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-09,Amazon,$46.74,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-09,Amazon,$93.15,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-18,Amazon,$139.09,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-18,Amazon,$496.04,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-22,Amazon,$29.06,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-23,Amazon,$124.01,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-24,Amazon,$53.92,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-24,Amazon,$26.49,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-29,Amazon,$73.80,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-29,Amazon,$59.77,Seattle,WA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-20,Comcast Business,$470.40,Southeastern,PA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-19,Comcast Business,$470.30,Southeastern,PA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-19,Comcast Business,$469.88,Southeastern,PA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-20,Comcast Business,$469.88,Southeastern,PA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-18,Comcast Business,$466.29,Southeastern,PA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-22,Comcast Business,$473.80,Southeastern,PA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-14,Publix,$97.03,Lakeland,FL,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-20,Publix,$74.53,Lakeland,FL,business,Fuel,D,497124,2026-07-15
+expenditure,2026-01-20,The Daily,$34.99,Warsaw,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-02-17,The Daily,$34.99,Warsaw,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-03-16,The Daily,$34.99,Warsaw,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-06-08,The Daily,$34.99,Warsaw,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-01-07,BJs Whole Sale,$276.34,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-20,BJs Whole Sale,$572.22,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-26,BJs Whole Sale,$211.29,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-13,BJs Whole Sale,$426.75,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-14,BJs Whole Sale,$212.91,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-21,BJs Whole Sale,$349.78,Mechanicsville,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-01,BJs Whole Sale,$59.12,Mechanicsville,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-05-27,BJs Whole Sale,$67.22,Mechanicsville,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-01-01,Google LLC,$96.72,Mountain View,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-01,Google LLC,$96.72,Mountain View,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-01,Google LLC,$100.80,Mountain View,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-01,Google LLC,$100.80,Mountain View,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-03,Google LLC,$200.63,Mountain View,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-02,Google LLC,$100.67,Mountain View,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-04,Google LLC,$94.80,Mountain View,VA,business,Campaign Supplies,D,497124,2026-07-15
+expenditure,2026-06-02,Google LLC,$94.80,Mountain View,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-23,Aylett Country Day School,$100,Millers Tavern,VA,business,Contribution,D,497124,2026-07-15
+expenditure,2026-03-26,Dollar General,$13.25,Hanover,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-01-01,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-01,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-01,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-01,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-01,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-06-01,Adobe,$22.99,San Jose,CA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-14,New Kent Legal Hunters Assocation,$70,Providence Forge,VA,business,Contribution,D,497124,2026-07-15
 expenditure,2026-01-01,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,497124,2026-07-15
 expenditure,2026-02-05,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,497124,2026-07-15
 expenditure,2026-03-10,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,497124,2026-07-15
 expenditure,2026-04-01,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,497124,2026-07-15
 expenditure,2026-05-05,Nathan Pittman,"$1,000",Fredericksburg,VA,individual,Consulting,D,497124,2026-07-15
-expenditure,2026-01-16,Mechanicsville High School,$250,Mechanicsvill,VA,pac,Contribution,D,497124,2026-07-15
-expenditure,2026-04-27,Loves,$77.03,Providence Forge,VA,pac,Fuel,D,497124,2026-07-15
-expenditure,2026-01-06,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,pac,Newspaper Subscription,D,497124,2026-07-15
-expenditure,2026-01-21,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-02-03,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-02-17,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-03-03,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-03-17,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-03-31,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-04-13,Richmond Times Dispatch,$34.99,Mechanicsvilles,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-04-14,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-04-28,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-05-11,Richmond Times Dispatch,$34.99,Mechanicsvilles,VA,pac,Subscriptions,D,497124,2026-07-15
-expenditure,2026-05-12,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,pac,Subscriptions,D,497124,2026-07-15
-expenditure,2026-05-26,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,pac,Subscriptions,D,497124,2026-07-15
-expenditure,2026-06-09,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,pac,Subscriptions,D,497124,2026-07-15
-expenditure,2026-06-23,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-04-01,WJCCRC,$500,Williamsburg,VA,pac,Contribution,D,497124,2026-07-15
-expenditure,2026-05-09,WJCCRC,$500,Williamsburg,VA,pac,Contribution,D,497124,2026-07-15
-expenditure,2026-02-11,Hanover Chamber Foundation,$500,Hanover,VA,pac,Contribution,D,497124,2026-07-15
+expenditure,2026-01-16,Mechanicsville High School,$250,Mechanicsvill,VA,business,Contribution,D,497124,2026-07-15
+expenditure,2026-04-27,Loves,$77.03,Providence Forge,VA,business,Fuel,D,497124,2026-07-15
+expenditure,2026-01-06,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,business,Newspaper Subscription,D,497124,2026-07-15
+expenditure,2026-01-21,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-02-03,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-02-17,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-03-03,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-03-17,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-03-31,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-04-13,Richmond Times Dispatch,$34.99,Mechanicsvilles,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-04-14,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-04-28,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-05-11,Richmond Times Dispatch,$34.99,Mechanicsvilles,VA,business,Subscriptions,D,497124,2026-07-15
+expenditure,2026-05-12,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,business,Subscriptions,D,497124,2026-07-15
+expenditure,2026-05-26,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,business,Subscriptions,D,497124,2026-07-15
+expenditure,2026-06-09,Richmond Times Dispatch,$26.99,Mechanicsvilles,VA,business,Subscriptions,D,497124,2026-07-15
+expenditure,2026-06-23,Richmond Times Dispatch,$39.99,Mechanicsvilles,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-04-01,WJCCRC,$500,Williamsburg,VA,business,Contribution,D,497124,2026-07-15
+expenditure,2026-05-09,WJCCRC,$500,Williamsburg,VA,business,Contribution,D,497124,2026-07-15
+expenditure,2026-02-11,Hanover Chamber Foundation,$500,Hanover,VA,business,Contribution,D,497124,2026-07-15
 expenditure,2026-04-13,David Keith Fisher,$123.14,Heathsville,VA,individual,Mileage,D,497124,2026-07-15
 expenditure,2026-06-02,David Keith Fisher,$236.46,Heathsville,VA,individual,Mileage,D,497124,2026-07-15
 expenditure,2026-06-22,David Keith Fisher,$65.50,Heathsville,VA,individual,Mileage,D,497124,2026-07-15
-expenditure,2026-01-15,Forward Realty Virginia LLC,"$8,268",Mechanicsville,VA,pac,Office Rent,D,497124,2026-07-15
-expenditure,2026-06-10,Perry's Steakhouse,"$7,810.11",Richmond,VA,pac,Event,D,497124,2026-07-15
-expenditure,2026-01-01,MyStorage,$301,Mechanicsville,VA,pac,Storage,D,497124,2026-07-15
-expenditure,2026-02-01,MyStorage,$151,Mechanicsville,VA,pac,Storage,D,497124,2026-07-15
-expenditure,2026-03-01,MyStorage,$151,Mechanicsville,VA,pac,Storage,D,497124,2026-07-15
-expenditure,2026-04-01,MyStorage,$151,Mechanicsville,VA,pac,Storage,D,497124,2026-07-15
-expenditure,2026-05-01,MyStorage,$151,Mechanicsville,VA,pac,Storage,D,497124,2026-07-15
-expenditure,2026-06-01,MyStorage,$151,Mechanicsville,VA,pac,Storage,D,497124,2026-07-15
-expenditure,2026-03-03,Greater Williamsburg Chamber,$795,Williamsburg,VA,pac,Contribution,D,497124,2026-07-15
-expenditure,2026-02-09,WSJ,$14.99,000,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-03-09,WSJ,$14,000,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-04-06,WSJ,$14,000,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-04-06,WSJ,$15,000,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-05-04,WSJ,$14,000,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-06-01,WSJ,$14,000,VA,pac,Subscriptions,D,497124,2026-07-15
-expenditure,2026-06-01,WSJ,$15,000,VA,pac,Subscriptions,D,497124,2026-07-15
-expenditure,2026-06-29,WSJ,$14,000,VA,pac,Subscriptions,D,497124,2026-07-15
-expenditure,2026-06-29,WSJ,$15,000,VA,pac,Subscription,D,497124,2026-07-15
-expenditure,2026-02-11,Paypal,$415.96,San Jose,CA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-11,Paypal,$86.31,San Jose,CA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-02-17,Mirage (Captions),$224.99,000,NY,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-03-05,Lapel Pin Now,$79,Richmond,TX,pac,Event Supplies,D,497124,2026-07-15
-expenditure,2026-03-09,Barrons,$15,00000,VA,pac,subscription,D,497124,2026-07-15
-expenditure,2026-03-11,CP Dean Company,$110.82,Richmond,VA,pac,Event,D,497124,2026-07-15
-expenditure,2026-01-21,SP Plus Corporation,$480,Chicage,IL,pac,Parking,D,497124,2026-07-15
-expenditure,2026-04-13,SP Plus Corporation,$240,Chicage,IL,pac,Parking,D,497124,2026-07-15
-expenditure,2026-04-21,Loudon Mutual Insurance,$524.85,Waterford,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-04-29,Otter AI,$16.99,Mountain View,CA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-29,Otter AI,$16.99,Mountain View,CA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-05,Virginia Agribusiness Council,$100,Quinton,VA,pac,Event,D,497124,2026-07-15
-expenditure,2026-06-02,Anthropic PBC,$100,San Francisco,CA,pac,Subscriptions,D,497124,2026-07-15
-expenditure,2026-06-16,"Squarespace, Inc.",$276,New York,NY,pac,office supplies,D,497124,2026-07-15
-expenditure,2026-05-07,Secretary of the Commonwealth,$45,Richmond,VA,pac,Office Supplies,D,497124,2026-07-15
-expenditure,2026-05-28,National Council of State Legislatures,$755,Folsom,CA,pac,Event,D,497124,2026-07-15
-expenditure,2026-06-02,National Council of State Legislatures,"$1,030.86",Folsom,CA,pac,Event,D,497124,2026-07-15
-expenditure,2026-06-06,"Coleman Bros Flowers, Inc.",$166,Richmond,VA,pac,Flowers,D,497124,2026-07-15
+expenditure,2026-01-15,Forward Realty Virginia LLC,"$8,268",Mechanicsville,VA,business,Office Rent,D,497124,2026-07-15
+expenditure,2026-06-10,Perry's Steakhouse,"$7,810.11",Richmond,VA,business,Event,D,497124,2026-07-15
+expenditure,2026-01-01,MyStorage,$301,Mechanicsville,VA,business,Storage,D,497124,2026-07-15
+expenditure,2026-02-01,MyStorage,$151,Mechanicsville,VA,business,Storage,D,497124,2026-07-15
+expenditure,2026-03-01,MyStorage,$151,Mechanicsville,VA,business,Storage,D,497124,2026-07-15
+expenditure,2026-04-01,MyStorage,$151,Mechanicsville,VA,business,Storage,D,497124,2026-07-15
+expenditure,2026-05-01,MyStorage,$151,Mechanicsville,VA,business,Storage,D,497124,2026-07-15
+expenditure,2026-06-01,MyStorage,$151,Mechanicsville,VA,business,Storage,D,497124,2026-07-15
+expenditure,2026-03-03,Greater Williamsburg Chamber,$795,Williamsburg,VA,business,Contribution,D,497124,2026-07-15
+expenditure,2026-02-09,WSJ,$14.99,000,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-03-09,WSJ,$14,000,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-04-06,WSJ,$14,000,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-04-06,WSJ,$15,000,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-05-04,WSJ,$14,000,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-06-01,WSJ,$14,000,VA,business,Subscriptions,D,497124,2026-07-15
+expenditure,2026-06-01,WSJ,$15,000,VA,business,Subscriptions,D,497124,2026-07-15
+expenditure,2026-06-29,WSJ,$14,000,VA,business,Subscriptions,D,497124,2026-07-15
+expenditure,2026-06-29,WSJ,$15,000,VA,business,Subscription,D,497124,2026-07-15
+expenditure,2026-02-11,Paypal,$415.96,San Jose,CA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-11,Paypal,$86.31,San Jose,CA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-02-17,Mirage (Captions),$224.99,000,NY,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-03-05,Lapel Pin Now,$79,Richmond,TX,business,Event Supplies,D,497124,2026-07-15
+expenditure,2026-03-09,Barrons,$15,00000,VA,business,subscription,D,497124,2026-07-15
+expenditure,2026-03-11,CP Dean Company,$110.82,Richmond,VA,business,Event,D,497124,2026-07-15
+expenditure,2026-01-21,SP Plus Corporation,$480,Chicage,IL,business,Parking,D,497124,2026-07-15
+expenditure,2026-04-13,SP Plus Corporation,$240,Chicage,IL,business,Parking,D,497124,2026-07-15
+expenditure,2026-04-21,Loudon Mutual Insurance,$524.85,Waterford,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-04-29,Otter AI,$16.99,Mountain View,CA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-29,Otter AI,$16.99,Mountain View,CA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-05,Virginia Agribusiness Council,$100,Quinton,VA,business,Event,D,497124,2026-07-15
+expenditure,2026-06-02,Anthropic PBC,$100,San Francisco,CA,business,Subscriptions,D,497124,2026-07-15
+expenditure,2026-06-16,"Squarespace, Inc.",$276,New York,NY,business,office supplies,D,497124,2026-07-15
+expenditure,2026-05-07,Secretary of the Commonwealth,$45,Richmond,VA,business,Office Supplies,D,497124,2026-07-15
+expenditure,2026-05-28,National Council of State Legislatures,$755,Folsom,CA,business,Event,D,497124,2026-07-15
+expenditure,2026-06-02,National Council of State Legislatures,"$1,030.86",Folsom,CA,business,Event,D,497124,2026-07-15
+expenditure,2026-06-06,"Coleman Bros Flowers, Inc.",$166,Richmond,VA,business,Flowers,D,497124,2026-07-15

@@ -3,35 +3,35 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$131,566.17",,VA,,"From official Schedule H, November 2025 election cycle",H,494837,2026-07-13
 summary,2026-06-30,Raised this cycle,"$303,813.72",,,,Total receipts this election cycle (Schedule H),H,494837,2026-07-13
 summary,2026-06-30,Spent this cycle,"$223,150.42",,,,Total disbursements this election cycle (Schedule H),H,494837,2026-07-13
-contribution,2025-12-31,Allen Allen Allen & Allen,"$1,000",Richmond,VA,pac,,A,478217,2026-01-14
+contribution,2025-12-31,Allen Allen Allen & Allen,"$1,000",Richmond,VA,business,,A,478217,2026-01-14
 contribution,2025-12-28,Patrick Wright,$25,Glen Allen,VA,individual,,A,478217,2026-01-14
-contribution,2025-12-11,Carbon Solutions Group,$250,Chicago,IL,pac,,A,478217,2026-01-14
+contribution,2025-12-11,Carbon Solutions Group,$250,Chicago,IL,business,,A,478217,2026-01-14
 contribution,2025-12-30,Angela Chiang,$125,Chesterfield,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-31,Chiropractic PAC of Virginia,$250,Richmond,VA,pac,,A,478217,2026-01-14
-contribution,2025-12-31,CNX Gas Company LLC,"$1,000",Canonsburg,PA,pac,,A,478217,2026-01-14
+contribution,2025-12-31,CNX Gas Company LLC,"$1,000",Canonsburg,PA,business,,A,478217,2026-01-14
 contribution,2025-12-31,Cynthia Cobbs,$50,Richmond,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-31,Commercial Development PAC,$250,Alexandria,VA,pac,,A,478217,2026-01-14
-contribution,2025-12-11,Comstock Hospitality Holdings LLC,"$5,000",Reston,VA,pac,,A,478217,2026-01-14
+contribution,2025-12-11,Comstock Hospitality Holdings LLC,"$5,000",Reston,VA,business,,A,478217,2026-01-14
 contribution,2025-12-17,Danna Flaherty,$50,Henrico,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-18,Melissa Flynn,$25,Richmond,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-29,Anthony Fung,$12.50,Richmond,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-30,Marcos Huerta,$12.50,Richmond,VA,individual,,A,478217,2026-01-14
-contribution,2025-12-31,Humana,$500,Lexington,KY,pac,,A,478217,2026-01-14
+contribution,2025-12-31,Humana,$500,Lexington,KY,business,,A,478217,2026-01-14
 contribution,2025-12-18,IBEW PAC Voluntary Fund,"$1,000",Washington,DC,pac,,A,478217,2026-01-14
 contribution,2025-12-31,Jie Liu,$25,Glen Allen,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-25,Virginia Manuel,$12.50,Henrico,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-17,Larry McCauley,$187.50,Richmond,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-29,Marc Purintun,$25,Richmond,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-28,Stephen Rast,$6.25,Glen Allen,VA,individual,,A,478217,2026-01-14
-contribution,2025-12-31,Safelight Fulfillment Inc,$250,Columbus,OH,pac,,A,478217,2026-01-14
+contribution,2025-12-31,Safelight Fulfillment Inc,$250,Columbus,OH,business,,A,478217,2026-01-14
 contribution,2025-12-23,Ben Sale,$6.25,Richmond,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-31,United Transportation Union PAC,$500,Chester,VA,pac,,A,478217,2026-01-14
-contribution,2025-12-31,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,pac,,A,478217,2026-01-14
+contribution,2025-12-31,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,business,,A,478217,2026-01-14
 contribution,2025-12-24,Timothy Whitcombe,$25,Henrico,VA,individual,,A,478217,2026-01-14
 contribution,2026-01-07,Stephen A Gura,$12.50,Henrico,VA,individual,,A,494837,2026-07-13
-contribution,2026-04-24,Altria Client Services LLC,"$1,500",Richmond,VA,pac,,A,494837,2026-07-13
+contribution,2026-04-24,Altria Client Services LLC,"$1,500",Richmond,VA,business,,A,494837,2026-07-13
 contribution,2026-01-08,Jennifer Andrews,$25,Henrico,VA,individual,,A,494837,2026-07-13
-contribution,2026-04-22,Anheuser Busch,$500,St. Louis,MO,pac,,A,494837,2026-07-13
+contribution,2026-04-22,Anheuser Busch,$500,St. Louis,MO,business,,A,494837,2026-07-13
 contribution,2026-01-12,Phoebe F Antrim,$75,Richmond,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-12,Benjamin Barber,$12.50,Richmond,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-05,Lauren Bates-Rowe,$125,Richmond,VA,individual,,A,494837,2026-07-13
@@ -44,7 +44,7 @@ contribution,2026-01-07,Sally Ryan Burgess,$12.50,Richmond,VA,individual,,A,4948
 contribution,2026-01-11,Courtney Champion,$12.50,Glen Allen,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-08,Chi Chao,$5,Richmond,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-02,William Coleman,$12.50,Henrico,VA,individual,,A,494837,2026-07-13
-contribution,2026-06-16,Comcast Financial Agency Corporation,$500,Philadelphia,PA,pac,,A,494837,2026-07-13
+contribution,2026-06-16,Comcast Financial Agency Corporation,$500,Philadelphia,PA,business,,A,494837,2026-07-13
 contribution,2026-05-28,COmmunity-Owned Power PAC,$500,Glen Allen,VA,pac,,A,494837,2026-07-13
 contribution,2026-01-12,Katherine Davis,$12.50,Richmond,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-07,LaFawn Davis,$25,Henrico,VA,individual,,A,494837,2026-07-13
@@ -98,49 +98,49 @@ contribution,2026-01-10,Kailuo Tao,$12.50,Glen Allen,VA,individual,,A,494837,202
 contribution,2026-01-11,Melodie Thigpen,$25,Henrico,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-12,My Tran,$62.50,Glen Allen,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-12,Mel Tull,$12.50,Henrico,VA,individual,,A,494837,2026-07-13
-contribution,2026-05-28,VA Operators for Skill,"$1,500",Richmond,VA,pac,,A,494837,2026-07-13
-contribution,2026-05-18,Virginia AFL-CIO Political Expenditures Fund,"$1,000",Richmond,VA,pac,,A,494837,2026-07-13
+contribution,2026-05-28,VA Operators for Skill,"$1,500",Richmond,VA,business,,A,494837,2026-07-13
+contribution,2026-05-18,Virginia AFL-CIO Political Expenditures Fund,"$1,000",Richmond,VA,business,,A,494837,2026-07-13
 contribution,2026-06-09,Virginia CRNAs Who Care About Healthcare PAC,$500,Roanoke,VA,pac,,A,494837,2026-07-13
 contribution,2026-01-12,Toni Walker,$12.50,Glen Allen,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-11,Xiaojing Wang,$12.50,Midlothian,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-07,Emily Webb,$25,Richmond,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-12,Sarah Woodhouse,$25,Richmond,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-12,Roy Yamamoto,$50,Henrico,VA,individual,,A,494837,2026-07-13
-expenditure,2025-12-01,"Numero, Inc.",$720,Irvine,CA,pac,Processing Fee,D,478217,2026-01-14
-expenditure,2025-12-01,Mailchimp,$340,Atlanta,GA,pac,Online Services,D,478217,2026-01-14
-expenditure,2025-12-03,Integrated Solutions: Political,$350,San Diego,CA,pac,Database Services,D,478217,2026-01-14
-expenditure,2025-12-18,ActBlue,$10.38,Somerville,MA,pac,Processing Fee,D,478217,2026-01-14
-expenditure,2025-12-28,ActBlue,$2.98,Somerville,MA,pac,Processing Fee,D,478217,2026-01-14
-expenditure,2025-12-29,Mailchimp,$340,Atlanta,GA,pac,Online Services,D,478217,2026-01-14
-expenditure,2025-12-31,ActBlue,$9.90,Somerville,MA,pac,Processing Fee,D,478217,2026-01-14
-expenditure,2026-01-02,Integrated Solutions: Political,$350,San Diego,CA,pac,Database Services,D,494837,2026-07-13
-expenditure,2026-01-02,"Numero, Inc.",$720,Costa Mesa,CA,pac,Processing Fee,D,494837,2026-07-13
+expenditure,2025-12-01,"Numero, Inc.",$720,Irvine,CA,business,Processing Fee,D,478217,2026-01-14
+expenditure,2025-12-01,Mailchimp,$340,Atlanta,GA,business,Online Services,D,478217,2026-01-14
+expenditure,2025-12-03,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,478217,2026-01-14
+expenditure,2025-12-18,ActBlue,$10.38,Somerville,MA,business,Processing Fee,D,478217,2026-01-14
+expenditure,2025-12-28,ActBlue,$2.98,Somerville,MA,business,Processing Fee,D,478217,2026-01-14
+expenditure,2025-12-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,478217,2026-01-14
+expenditure,2025-12-31,ActBlue,$9.90,Somerville,MA,business,Processing Fee,D,478217,2026-01-14
+expenditure,2026-01-02,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,494837,2026-07-13
+expenditure,2026-01-02,"Numero, Inc.",$720,Costa Mesa,CA,business,Processing Fee,D,494837,2026-07-13
 expenditure,2026-01-09,Israa Elhiraika,$900,West Springfield,VA,individual,Session Aide,D,494837,2026-07-13
 expenditure,2026-01-09,Sarah Ahmad,$600,Yorktown,VA,individual,Session Aide,D,494837,2026-07-13
 expenditure,2026-01-26,Morgan Wilds,"$1,000",Richmond,VA,individual,Consulting,D,494837,2026-07-13
-expenditure,2026-01-29,Mailchimp,$340,Atlanta,GA,pac,Online Services,D,494837,2026-07-13
-expenditure,2026-01-30,Wells Fargo,$25,Portland,OR,pac,Bank Fee,D,494837,2026-07-13
-expenditure,2026-01-30,Broad Creek Consulting,"$10,000",Richmond,VA,pac,Consulting,D,494837,2026-07-13
-expenditure,2026-02-02,"Numero, Inc.",$720,Costa Mesa,CA,pac,Processing Fee,D,494837,2026-07-13
-expenditure,2026-02-03,Integrated Solutions: Political,$350,San Diego,CA,pac,Database Services,D,494837,2026-07-13
-expenditure,2026-03-02,Integrated Solutions: Political,$340,San Diego,CA,pac,Database Services,D,494837,2026-07-13
-expenditure,2026-03-02,"Numero, Inc.",$720,Costa Mesa,CA,pac,Processing Fee,D,494837,2026-07-13
-expenditure,2026-03-02,Mailchimp,$350,Atlanta,GA,pac,Online Services,D,494837,2026-07-13
-expenditure,2026-03-10,Chamberlayne Youth Basketball League,"$2,500",Richmond,VA,pac,Contribution,D,494837,2026-07-13
-expenditure,2026-03-30,Mailchimp,$340,Atlanta,GA,pac,Online Services,D,494837,2026-07-13
-expenditure,2026-04-02,Integrated Solutions: Political,$350,San Diego,CA,pac,Database Services,D,494837,2026-07-13
-expenditure,2026-04-02,"Numero, Inc.",$720,Costa Mesa,CA,pac,Processing Fee,D,494837,2026-07-13
+expenditure,2026-01-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,494837,2026-07-13
+expenditure,2026-01-30,Wells Fargo,$25,Portland,OR,business,Bank Fee,D,494837,2026-07-13
+expenditure,2026-01-30,Broad Creek Consulting,"$10,000",Richmond,VA,business,Consulting,D,494837,2026-07-13
+expenditure,2026-02-02,"Numero, Inc.",$720,Costa Mesa,CA,business,Processing Fee,D,494837,2026-07-13
+expenditure,2026-02-03,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,494837,2026-07-13
+expenditure,2026-03-02,Integrated Solutions: Political,$340,San Diego,CA,business,Database Services,D,494837,2026-07-13
+expenditure,2026-03-02,"Numero, Inc.",$720,Costa Mesa,CA,business,Processing Fee,D,494837,2026-07-13
+expenditure,2026-03-02,Mailchimp,$350,Atlanta,GA,business,Online Services,D,494837,2026-07-13
+expenditure,2026-03-10,Chamberlayne Youth Basketball League,"$2,500",Richmond,VA,business,Contribution,D,494837,2026-07-13
+expenditure,2026-03-30,Mailchimp,$340,Atlanta,GA,business,Online Services,D,494837,2026-07-13
+expenditure,2026-04-02,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,494837,2026-07-13
+expenditure,2026-04-02,"Numero, Inc.",$720,Costa Mesa,CA,business,Processing Fee,D,494837,2026-07-13
 expenditure,2026-04-20,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Contribution,D,494837,2026-07-13
-expenditure,2026-04-20,VanValkenburg For Virginia,$187.90,Richmond,VA,pac,Contribution,D,494837,2026-07-13
-expenditure,2026-04-20,Virginia Legislative Black Caucus,"$3,000",Richmond,VA,pac,Contribution,D,494837,2026-07-13
-expenditure,2026-04-20,Commonwealth Victory Fund,$725,Richmond,VA,pac,Contribution,D,494837,2026-07-13
-expenditure,2026-04-23,Virginia House of Delegates,$14,Richmond,VA,pac,Printing,D,494837,2026-07-13
-expenditure,2026-04-23,Treasurer of Virginia,$498.14,Richmond,VA,pac,Office Equipment,D,494837,2026-07-13
-expenditure,2026-04-29,Mailchimp,$340,Atlanta,GA,pac,Online Services,D,494837,2026-07-13
-expenditure,2026-05-04,Integrated Solutions: Political,$350,San Diego,CA,pac,Database Services,D,494837,2026-07-13
-expenditure,2026-05-04,"Numero, Inc.",$720,Costa Mesa,CA,pac,Processing Fee,D,494837,2026-07-13
-expenditure,2026-05-29,Mailchimp,$340,Atlanta,GA,pac,Online Services,D,494837,2026-07-13
-expenditure,2026-06-02,"Numero, Inc.",$720,Costa Mesa,CA,pac,Processing Fee,D,494837,2026-07-13
-expenditure,2026-06-02,Integrated Solutions: Political,$350,San Diego,CA,pac,Database Services,D,494837,2026-07-13
-expenditure,2026-06-29,Mailchimp,$340,Atlanta,GA,pac,Online Services,D,494837,2026-07-13
-expenditure,2026-06-30,ActBlue,$83.54,Somerville,MA,pac,Processing Fee,D,494837,2026-07-13
+expenditure,2026-04-20,VanValkenburg For Virginia,$187.90,Richmond,VA,business,Contribution,D,494837,2026-07-13
+expenditure,2026-04-20,Virginia Legislative Black Caucus,"$3,000",Richmond,VA,business,Contribution,D,494837,2026-07-13
+expenditure,2026-04-20,Commonwealth Victory Fund,$725,Richmond,VA,business,Contribution,D,494837,2026-07-13
+expenditure,2026-04-23,Virginia House of Delegates,$14,Richmond,VA,business,Printing,D,494837,2026-07-13
+expenditure,2026-04-23,Treasurer of Virginia,$498.14,Richmond,VA,business,Office Equipment,D,494837,2026-07-13
+expenditure,2026-04-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,494837,2026-07-13
+expenditure,2026-05-04,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,494837,2026-07-13
+expenditure,2026-05-04,"Numero, Inc.",$720,Costa Mesa,CA,business,Processing Fee,D,494837,2026-07-13
+expenditure,2026-05-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,494837,2026-07-13
+expenditure,2026-06-02,"Numero, Inc.",$720,Costa Mesa,CA,business,Processing Fee,D,494837,2026-07-13
+expenditure,2026-06-02,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,494837,2026-07-13
+expenditure,2026-06-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,494837,2026-07-13
+expenditure,2026-06-30,ActBlue,$83.54,Somerville,MA,business,Processing Fee,D,494837,2026-07-13

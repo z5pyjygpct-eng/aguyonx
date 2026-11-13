@@ -3,131 +3,131 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$22,943.75",,VA,,"From official Schedule H, November 2025 election cycle",H,495511,2026-07-14
 summary,2026-06-30,Raised this cycle,"$19,112.33",,,,Total receipts this election cycle (Schedule H),H,495511,2026-07-14
 summary,2026-06-30,Spent this cycle,"$14,869.88",,,,Total disbursements this election cycle (Schedule H),H,495511,2026-07-14
-contribution,2025-12-09,Allen Allen Allen & Allen,"$1,000",Richmond,VA,pac,,A,479906,2026-01-15
+contribution,2025-12-09,Allen Allen Allen & Allen,"$1,000",Richmond,VA,business,,A,479906,2026-01-15
 contribution,2025-12-24,Ann F Hoffman,$40,Washington,DC,individual,,A,479906,2026-01-15
 contribution,2025-12-25,Susan Lang,$60,Chesapeake,VA,individual,,A,479906,2026-01-15
 contribution,2025-12-13,Judy Tucker,$25,Chesapeake,VA,individual,,A,479906,2026-01-15
-contribution,2025-12-18,VA Beverage Association,$750,Richmond,VA,pac,,A,479906,2026-01-15
+contribution,2025-12-18,VA Beverage Association,$750,Richmond,VA,business,,A,479906,2026-01-15
 contribution,2025-12-18,VADPAC,"$1,000",Richmond,VA,pac,,A,479906,2026-01-15
-contribution,2025-12-18,Virginia Wine Wholesalers,"$1,000",Richmond,VA,pac,,A,479906,2026-01-15
+contribution,2025-12-18,Virginia Wine Wholesalers,"$1,000",Richmond,VA,business,,A,479906,2026-01-15
 contribution,2025-12-04,Margaret Wisdom,$8.90,Arlington,VA,individual,,A,479906,2026-01-15
 contribution,2025-12-05,Margaret Wisdom,$25,Arlington,VA,individual,,A,479906,2026-01-15
 contribution,2025-12-14,Stephen Wyckoff,$50,Edgewater,MD,individual,,A,479906,2026-01-15
-contribution,2026-01-06,Betting On VA Jobs,"$2,000",Richmond,VA,pac,,A,495511,2026-07-14
-contribution,2026-04-17,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,A,495511,2026-07-14
+contribution,2026-01-06,Betting On VA Jobs,"$2,000",Richmond,VA,business,,A,495511,2026-07-14
+contribution,2026-04-17,Clean Virginia Fund,"$5,000",Charlottesville,VA,business,,A,495511,2026-07-14
 contribution,2026-01-12,COmmunity-Owned Power PAC,$500,Glen Allen,VA,pac,,A,495511,2026-07-14
-contribution,2026-01-12,Huntington Ingalls Industries,$500,Newport News,VA,pac,,A,495511,2026-07-14
-contribution,2026-01-12,Hunton Andrew Kurth LLP,$500,Richmond,VA,pac,,A,495511,2026-07-14
+contribution,2026-01-12,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,495511,2026-07-14
+contribution,2026-01-12,Hunton Andrew Kurth LLP,$500,Richmond,VA,business,,A,495511,2026-07-14
 contribution,2026-01-02,David Jones,$250,Washington,DC,individual,,A,495511,2026-07-14
 contribution,2026-01-13,Realtors Political Action Committee of Virignia,$500,Glen Allen,VA,pac,,A,495511,2026-07-14
-contribution,2026-01-13,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,pac,,A,495511,2026-07-14
-contribution,2026-06-03,Treasures' Association of Virginia,$250,Virginia Beach,VA,pac,,A,495511,2026-07-14
-contribution,2026-01-12,VA Operators for Skill,"$1,000",Richmond,VA,pac,,A,495511,2026-07-14
+contribution,2026-01-13,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,business,,A,495511,2026-07-14
+contribution,2026-06-03,Treasures' Association of Virginia,$250,Virginia Beach,VA,business,,A,495511,2026-07-14
+contribution,2026-01-12,VA Operators for Skill,"$1,000",Richmond,VA,business,,A,495511,2026-07-14
 contribution,2026-01-12,Virginia Automobile Truck Dealers PAC,$250,Richmond,VA,pac,,A,495511,2026-07-14
 contribution,2026-06-10,Virginia Cable Political Action Committee,$500,Richmond,VA,pac,,A,495511,2026-07-14
-contribution,2026-01-12,Virginia Health Care Association,"$1,000",Richmond,VA,pac,,A,495511,2026-07-14
-contribution,2026-01-12,Virginia Sheriff Association,$250,Richmond,VA,pac,,A,495511,2026-07-14
+contribution,2026-01-12,Virginia Health Care Association,"$1,000",Richmond,VA,business,,A,495511,2026-07-14
+contribution,2026-01-12,Virginia Sheriff Association,$250,Richmond,VA,business,,A,495511,2026-07-14
 contribution,2026-01-12,Virginia Trial Lawyers Political Action Committee,"$2,000",Richmond,VA,pac,,A,495511,2026-07-14
 contribution,2026-06-10,Virginia Trial Lawyers Political Action Committee,"$2,500",Richmond,VA,pac,,A,495511,2026-07-14
 contribution,2026-05-05,Margaret Wisdom,$25,Arlington,VA,individual,,A,495511,2026-07-14
 contribution,2026-06-04,Margaret Wisdom,$8.90,Arlington,VA,individual,,A,495511,2026-07-14
 contribution,2026-06-05,Margaret Wisdom,$25,Arlington,VA,individual,,A,495511,2026-07-14
-in_kind,2026-06-04,Gentry Locke,$140.40,Richmond,VA,pac,Fundraiser space and catering,B,495511,2026-07-14
-in_kind,2026-01-07,Two Capitols Consulting,$147.86,Richmond,VA,pac,Fundraiser space and catering,B,495511,2026-07-14
-expenditure,2025-11-28,Gusto,"$1,751.75",San Francisco,CA,pac,Payroll Taxes,D,479906,2026-01-15
+in_kind,2026-06-04,Gentry Locke,$140.40,Richmond,VA,business,Fundraiser space and catering,B,495511,2026-07-14
+in_kind,2026-01-07,Two Capitols Consulting,$147.86,Richmond,VA,business,Fundraiser space and catering,B,495511,2026-07-14
+expenditure,2025-11-28,Gusto,"$1,751.75",San Francisco,CA,business,Payroll Taxes,D,479906,2026-01-15
 expenditure,2025-11-28,Frank Meade,"$2,192.14",Norfolk,VA,individual,Employee Salary,D,479906,2026-01-15
 expenditure,2025-11-28,Sarah Polsin,"$2,353.64",Portsmouth,VA,individual,Employee Salary,D,479906,2026-01-15
-expenditure,2025-11-30,ActBlue,$2.58,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-02,ActBlue,$0.40,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-02,Gusto,$104,San Francisco,CA,pac,Payroll Fees,D,479906,2026-01-15
-expenditure,2025-12-04,ActBlue,$0.36,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-05,Google,$45.36,Mountain View,CA,pac,Google Workspace,D,479906,2026-01-15
-expenditure,2025-12-07,ActBlue,$0.99,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-08,Google,$14.09,Mountain View,CA,pac,Google Voice,D,479906,2026-01-15
-expenditure,2025-12-08,Pressable,$45,San Antonio,TX,pac,Web Hosting,D,479906,2026-01-15
-expenditure,2025-12-10,ActBlue,$0.20,Somerville,MA,pac,Fees,D,479906,2026-01-15
+expenditure,2025-11-30,ActBlue,$2.58,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-02,ActBlue,$0.40,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-02,Gusto,$104,San Francisco,CA,business,Payroll Fees,D,479906,2026-01-15
+expenditure,2025-12-04,ActBlue,$0.36,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-05,Google,$45.36,Mountain View,CA,business,Google Workspace,D,479906,2026-01-15
+expenditure,2025-12-07,ActBlue,$0.99,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-08,Google,$14.09,Mountain View,CA,business,Google Voice,D,479906,2026-01-15
+expenditure,2025-12-08,Pressable,$45,San Antonio,TX,business,Web Hosting,D,479906,2026-01-15
+expenditure,2025-12-10,ActBlue,$0.20,Somerville,MA,business,Fees,D,479906,2026-01-15
 expenditure,2025-12-10,"Democracy Engine, inc., PAC",$0.44,Washington,DC,pac,Processing Fee,D,479906,2026-01-15
 expenditure,2025-12-12,Randall Riffle,$600,Williamsburg,VA,individual,Campaign Services,D,479906,2026-01-15
-expenditure,2025-12-14,ActBlue,$3.37,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-15,Gusto,"$1,751.73",San Francisco,CA,pac,Payroll Taxes,D,479906,2026-01-15
+expenditure,2025-12-14,ActBlue,$3.37,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-15,Gusto,"$1,751.73",San Francisco,CA,business,Payroll Taxes,D,479906,2026-01-15
 expenditure,2025-12-15,Frank Meade,"$2,192.14",Norfolk,VA,individual,Employee Salary,D,479906,2026-01-15
 expenditure,2025-12-15,Sarah Polsin,"$2,353.65",Portsmouth,VA,individual,Employee Salary,D,479906,2026-01-15
-expenditure,2025-12-21,ActBlue,$0.60,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-22,ActBlue,$0.76,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-24,ActBlue,$1.78,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-25,ActBlue,$2.37,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-28,ActBlue,$2.10,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-29,ActBlue,$0.79,Somerville,MA,pac,Fees,D,479906,2026-01-15
-expenditure,2025-12-31,Gusto,"$1,751.75",San Francisco,CA,pac,Payroll Taxes,D,479906,2026-01-15
+expenditure,2025-12-21,ActBlue,$0.60,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-22,ActBlue,$0.76,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-24,ActBlue,$1.78,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-25,ActBlue,$2.37,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-28,ActBlue,$2.10,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-29,ActBlue,$0.79,Somerville,MA,business,Fees,D,479906,2026-01-15
+expenditure,2025-12-31,Gusto,"$1,751.75",San Francisco,CA,business,Payroll Taxes,D,479906,2026-01-15
 expenditure,2025-12-31,Frank Meade,"$2,192.14",Norfolk,VA,individual,Employee Salary,D,479906,2026-01-15
 expenditure,2025-12-31,Sarah Polsin,"$2,353.64",Portsmouth,VA,individual,Employee Salary,D,479906,2026-01-15
-expenditure,2026-01-04,ActBlue,$10.64,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-01-05,ActBlue,$0.99,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-01-05,Google,$42,Mountain View,CA,pac,Google Workspace,D,495511,2026-07-14
-expenditure,2026-01-05,Gusto,$104,San Francisco,CA,pac,Payroll Fees,D,495511,2026-07-14
-expenditure,2026-01-06,Google,$24.23,Mountain View,CA,pac,Google Workspace,D,495511,2026-07-14
-expenditure,2026-01-07,Pressable,$45,San Antonio,TX,pac,Web Hosting,D,495511,2026-07-14
+expenditure,2026-01-04,ActBlue,$10.64,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-01-05,ActBlue,$0.99,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-01-05,Google,$42,Mountain View,CA,business,Google Workspace,D,495511,2026-07-14
+expenditure,2026-01-05,Gusto,$104,San Francisco,CA,business,Payroll Fees,D,495511,2026-07-14
+expenditure,2026-01-06,Google,$24.23,Mountain View,CA,business,Google Workspace,D,495511,2026-07-14
+expenditure,2026-01-07,Pressable,$45,San Antonio,TX,business,Web Hosting,D,495511,2026-07-14
 expenditure,2026-01-08,"Democracy Engine, inc., PAC",$0.44,Washington,DC,pac,Processing Fee,D,495511,2026-07-14
-expenditure,2026-01-11,ActBlue,$0.20,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-01-13,ActBlue,$0.99,Somerville,MA,pac,Fees,D,495511,2026-07-14
+expenditure,2026-01-11,ActBlue,$0.20,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-01-13,ActBlue,$0.99,Somerville,MA,business,Fees,D,495511,2026-07-14
 expenditure,2026-01-13,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Dues,D,495511,2026-07-14
-expenditure,2026-01-16,Virginia Department of Taxation,$36.76,Richmond,VA,pac,Consolidated Tax Bill,D,495511,2026-07-14
+expenditure,2026-01-16,Virginia Department of Taxation,$36.76,Richmond,VA,business,Consolidated Tax Bill,D,495511,2026-07-14
 expenditure,2026-01-23,Corabeth R. Pierce,$250,Roanoke,VA,individual,Intern Parking,D,495511,2026-07-14
-expenditure,2026-02-02,USPS,$98,Washington,DC,pac,P.O Box,D,495511,2026-07-14
-expenditure,2026-02-03,Gusto,$80,San Francisco,CA,pac,Payroll Fees,D,495511,2026-07-14
-expenditure,2026-02-05,Google,$24.43,Mountain View,CA,pac,Google Voice,D,495511,2026-07-14
-expenditure,2026-02-09,Google,$42,Mountain View,CA,pac,Google Workspace,D,495511,2026-07-14
-expenditure,2026-02-09,Pressable,$45,San Antonio,TX,pac,Web Hosting,D,495511,2026-07-14
-expenditure,2026-02-24,VCU Massey Comprehensive Cancer Center,$258,Richmond,VA,pac,Capitol Square Basketball Classic donation,D,495511,2026-07-14
-expenditure,2026-02-26,Native PLate,$150,Richmond,VA,pac,Team Dinner,D,495511,2026-07-14
-expenditure,2026-03-03,Gusto,$80,San Francisco,CA,pac,Payroll Fees,D,495511,2026-07-14
-expenditure,2026-03-05,Google,$42,Mountain View,CA,pac,Google Workspace,D,495511,2026-07-14
-expenditure,2026-03-05,Google,$24.43,Mountain View,CA,pac,Google Voice,D,495511,2026-07-14
-expenditure,2026-03-09,Pressable,$45,San Antonio,TX,pac,Web Hosting,D,495511,2026-07-14
-expenditure,2026-03-18,ActBlue,$0.05,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-03-22,ActBlue,$1.06,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-03-24,ActBlue,$1.78,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-03-29,ActBlue,$0.29,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-02,Gusto,$80,San Francisco,CA,pac,Payroll Fees,D,495511,2026-07-14
-expenditure,2026-04-05,ActBlue,$1.35,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-05,ActBlue,$1.35,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-06,Google,$42,Mountain View,CA,pac,Google Workspace,D,495511,2026-07-14
-expenditure,2026-04-06,Google,$24.43,Mountain View,CA,pac,Google Voice,D,495511,2026-07-14
-expenditure,2026-04-07,Pressable,$45,San Antonio,TX,pac,Web Hosting,D,495511,2026-07-14
+expenditure,2026-02-02,USPS,$98,Washington,DC,business,P.O Box,D,495511,2026-07-14
+expenditure,2026-02-03,Gusto,$80,San Francisco,CA,business,Payroll Fees,D,495511,2026-07-14
+expenditure,2026-02-05,Google,$24.43,Mountain View,CA,business,Google Voice,D,495511,2026-07-14
+expenditure,2026-02-09,Google,$42,Mountain View,CA,business,Google Workspace,D,495511,2026-07-14
+expenditure,2026-02-09,Pressable,$45,San Antonio,TX,business,Web Hosting,D,495511,2026-07-14
+expenditure,2026-02-24,VCU Massey Comprehensive Cancer Center,$258,Richmond,VA,business,Capitol Square Basketball Classic donation,D,495511,2026-07-14
+expenditure,2026-02-26,Native PLate,$150,Richmond,VA,business,Team Dinner,D,495511,2026-07-14
+expenditure,2026-03-03,Gusto,$80,San Francisco,CA,business,Payroll Fees,D,495511,2026-07-14
+expenditure,2026-03-05,Google,$42,Mountain View,CA,business,Google Workspace,D,495511,2026-07-14
+expenditure,2026-03-05,Google,$24.43,Mountain View,CA,business,Google Voice,D,495511,2026-07-14
+expenditure,2026-03-09,Pressable,$45,San Antonio,TX,business,Web Hosting,D,495511,2026-07-14
+expenditure,2026-03-18,ActBlue,$0.05,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-03-22,ActBlue,$1.06,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-03-24,ActBlue,$1.78,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-03-29,ActBlue,$0.29,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-02,Gusto,$80,San Francisco,CA,business,Payroll Fees,D,495511,2026-07-14
+expenditure,2026-04-05,ActBlue,$1.35,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-05,ActBlue,$1.35,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-06,Google,$42,Mountain View,CA,business,Google Workspace,D,495511,2026-07-14
+expenditure,2026-04-06,Google,$24.43,Mountain View,CA,business,Google Voice,D,495511,2026-07-14
+expenditure,2026-04-07,Pressable,$45,San Antonio,TX,business,Web Hosting,D,495511,2026-07-14
 expenditure,2026-04-09,"Democracy Engine, inc., PAC",$0.44,Washington,DC,pac,Processing Fee,D,495511,2026-07-14
-expenditure,2026-04-10,"EveryAction, Inc. USA","$1,470",Austin,TX,pac,Bonterra / NGP VAN Accounting,D,495511,2026-07-14
-expenditure,2026-04-12,ActBlue,$0.20,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-13,ActBlue,$0.99,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-16,Meriwether Godsey,"$1,325.07",Lynchburg,VA,pac,Swearing-In catering,D,495511,2026-07-14
-expenditure,2026-04-20,ActBlue,$0.40,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-21,ActBlue,$0.20,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-22,ActBlue,$0.66,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-26,ActBlue,$0.20,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-27,ActBlue,$0.09,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-28,ActBlue,$0.20,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-04-29,Chesapeake Democratic Committee,$500,Chesapeake,VA,pac,Sponsor - Boots on the Ground,D,495511,2026-07-14
-expenditure,2026-04-29,Suffolk Democratic Committee,$300,Suffolk,VA,pac,Two Poll workers,D,495511,2026-07-14
-expenditure,2026-04-30,ActBlue,$0.99,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-05-04,ActBlue,$4.31,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-05-05,ActBlue,$0.99,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-05-05,Gusto,$80,San Francisco,CA,pac,Payroll Fees,D,495511,2026-07-14
-expenditure,2026-05-06,Google,$24.40,Mountain View,CA,pac,Google Voice,D,495511,2026-07-14
-expenditure,2026-05-06,Google,$42,Mountain View,CA,pac,Google Workspace,D,495511,2026-07-14
-expenditure,2026-05-07,Pressable,$45,San Antonio,TX,pac,Web Hosting,D,495511,2026-07-14
-expenditure,2026-05-08,Publix,$109.92,Williamsburg,VA,pac,Food for Mother's Day Party,D,495511,2026-07-14
-expenditure,2026-05-12,ActBlue,$6.13,Somerville,MA,pac,Fees,D,495511,2026-07-14
+expenditure,2026-04-10,"EveryAction, Inc. USA","$1,470",Austin,TX,business,Bonterra / NGP VAN Accounting,D,495511,2026-07-14
+expenditure,2026-04-12,ActBlue,$0.20,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-13,ActBlue,$0.99,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-16,Meriwether Godsey,"$1,325.07",Lynchburg,VA,business,Swearing-In catering,D,495511,2026-07-14
+expenditure,2026-04-20,ActBlue,$0.40,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-21,ActBlue,$0.20,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-22,ActBlue,$0.66,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-26,ActBlue,$0.20,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-27,ActBlue,$0.09,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-28,ActBlue,$0.20,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-04-29,Chesapeake Democratic Committee,$500,Chesapeake,VA,business,Sponsor - Boots on the Ground,D,495511,2026-07-14
+expenditure,2026-04-29,Suffolk Democratic Committee,$300,Suffolk,VA,business,Two Poll workers,D,495511,2026-07-14
+expenditure,2026-04-30,ActBlue,$0.99,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-05-04,ActBlue,$4.31,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-05-05,ActBlue,$0.99,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-05-05,Gusto,$80,San Francisco,CA,business,Payroll Fees,D,495511,2026-07-14
+expenditure,2026-05-06,Google,$24.40,Mountain View,CA,business,Google Voice,D,495511,2026-07-14
+expenditure,2026-05-06,Google,$42,Mountain View,CA,business,Google Workspace,D,495511,2026-07-14
+expenditure,2026-05-07,Pressable,$45,San Antonio,TX,business,Web Hosting,D,495511,2026-07-14
+expenditure,2026-05-08,Publix,$109.92,Williamsburg,VA,business,Food for Mother's Day Party,D,495511,2026-07-14
+expenditure,2026-05-12,ActBlue,$6.13,Somerville,MA,business,Fees,D,495511,2026-07-14
 expenditure,2026-05-14,"Democracy Engine, inc., PAC",$0.44,Washington,DC,pac,Processing Fee,D,495511,2026-07-14
-expenditure,2026-05-19,ActBlue,$0.99,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-05-26,ActBlue,$3.04,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-05-29,"Amplen, LLC","$1,000",Chesapeake,VA,pac,Office Rent,D,495511,2026-07-14
-expenditure,2026-06-02,ActBlue,$0.29,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-06-02,Gusto,$80,San Francisco,CA,pac,Payroll Fees,D,495511,2026-07-14
-expenditure,2026-06-03,"EveryAction, Inc. USA",$367.50,Austin,TX,pac,Bonterra / NGP VAN Accounting,D,495511,2026-07-14
-expenditure,2026-06-05,Google,$42,Mountain View,CA,pac,Google Workspace,D,495511,2026-07-14
-expenditure,2026-06-05,Google,$24.31,Mountain View,CA,pac,Google Voice,D,495511,2026-07-14
-expenditure,2026-06-08,Pressable,$45,San Antonio,TX,pac,Web Hosting,D,495511,2026-07-14
-expenditure,2026-06-09,ActBlue,$1.35,Somerville,MA,pac,Fees,D,495511,2026-07-14
+expenditure,2026-05-19,ActBlue,$0.99,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-05-26,ActBlue,$3.04,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-05-29,"Amplen, LLC","$1,000",Chesapeake,VA,business,Office Rent,D,495511,2026-07-14
+expenditure,2026-06-02,ActBlue,$0.29,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-06-02,Gusto,$80,San Francisco,CA,business,Payroll Fees,D,495511,2026-07-14
+expenditure,2026-06-03,"EveryAction, Inc. USA",$367.50,Austin,TX,business,Bonterra / NGP VAN Accounting,D,495511,2026-07-14
+expenditure,2026-06-05,Google,$42,Mountain View,CA,business,Google Workspace,D,495511,2026-07-14
+expenditure,2026-06-05,Google,$24.31,Mountain View,CA,business,Google Voice,D,495511,2026-07-14
+expenditure,2026-06-08,Pressable,$45,San Antonio,TX,business,Web Hosting,D,495511,2026-07-14
+expenditure,2026-06-09,ActBlue,$1.35,Somerville,MA,business,Fees,D,495511,2026-07-14
 expenditure,2026-06-11,"Democracy Engine, inc., PAC",$0.44,Washington,DC,pac,Processing Fee,D,495511,2026-07-14
-expenditure,2026-06-16,ActBlue,$1.19,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-06-23,ActBlue,$1.26,Somerville,MA,pac,Fees,D,495511,2026-07-14
-expenditure,2026-06-30,ActBlue,$0.20,Somerville,MA,pac,Fees,D,495511,2026-07-14
+expenditure,2026-06-16,ActBlue,$1.19,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-06-23,ActBlue,$1.26,Somerville,MA,business,Fees,D,495511,2026-07-14
+expenditure,2026-06-30,ActBlue,$0.20,Somerville,MA,business,Fees,D,495511,2026-07-14
