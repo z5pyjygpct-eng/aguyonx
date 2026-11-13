@@ -56,6 +56,38 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "va-crime-panel-recommends-tougher-penalties-for-licens-vamercury-2026-11-13",
+    date: "2026-11-13",
+    filed: "2026-11-13",
+    headline: "Va. crime panel recommends tougher penalties for license plate reader misuse, stops short of ban",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/13/va-crime-panel-recommends-tougher-penalties-for-license-plate-reader-misuse-stops-short-of-ban/",
+    people: [{ name: "Scott Surovell", office: "State Senator" }],
+    scope: "statewide",
+  },
+  {
+    id: "two-new-plans-proposed-for-eastern-loudoun-elementary-sch-loudounnow-2026-11-12",
+    date: "2026-11-12",
+    filed: "2026-11-13",
+    headline: "Two New Plans Proposed for Eastern Loudoun Elementary School Boundary Changes",
+    outlet: "Loudoun Now",
+    url: "https://www.loudounnow.com/news/education/two-new-plans-proposed-for-eastern-loudoun-elementary-school-boundary-changes/article_245c8bdf-aa67-4d35-82f2-d5a6a84c7d28.html",
+    people: [],
+    scope: "local",
+    locations: ["loudoun"],
+  },
+  {
+    id: "sixth-meeting-of-western-loudoun-rural-uses-and-standards-loudoungov-2026-11-12",
+    date: "2026-11-12",
+    filed: "2026-11-13",
+    headline: "Sixth Meeting of Western Loudoun Rural Uses and Standards Ad Hoc Committee Set for November 16",
+    outlet: "Loudoun County",
+    url: "https://www.loudoun.gov/Blog.aspx?IID=1598",
+    people: [],
+    scope: "local",
+    locations: ["loudoun"],
+  },
+  {
     id: "police-scanners-are-going-silent-across-the-d-c-area-co-arlnow-2026-11-12",
     date: "2026-11-12",
     filed: "2026-11-13",
